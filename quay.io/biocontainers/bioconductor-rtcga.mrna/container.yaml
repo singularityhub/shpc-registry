@@ -12,6 +12,5 @@ tags:
   1.17.0--r40_0: sha256:5fd5a1e14590ae50c4842030d12e7f3fff20fb237e816e5badccee62ce1be358
 docker: quay.io/biocontainers/bioconductor-rtcga.mrna
 aliases:
-  .bioconductor-rtcga.mrna-post-link.sh: /usr/local/bin/.bioconductor-rtcga.mrna-post-link.sh
   .bioconductor-rtcga.mrna-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.mrna-pre-unlink.sh
   wget: /usr/local/bin/wget

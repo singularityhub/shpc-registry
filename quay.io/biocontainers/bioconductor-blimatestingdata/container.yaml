@@ -11,6 +11,5 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:1d7818236eaa808f4430a97ca17be81bdc533f87e7848650f439d2439dac64b4
 docker: quay.io/biocontainers/bioconductor-blimatestingdata
 aliases:
-  .bioconductor-blimatestingdata-post-link.sh: /usr/local/bin/.bioconductor-blimatestingdata-post-link.sh
   .bioconductor-blimatestingdata-pre-unlink.sh: /usr/local/bin/.bioconductor-blimatestingdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

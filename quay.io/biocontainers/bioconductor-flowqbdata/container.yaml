@@ -8,7 +8,6 @@ tags:
   1.10.0--r36_1: sha256:9e6106f9c0dcca7d24a5028ea9aa53f99ecf6c38d952fe3503dbe6bf5b5d1c99
 docker: quay.io/biocontainers/bioconductor-flowqbdata
 aliases:
-  .bioconductor-flowqbdata-post-link.sh: /usr/local/bin/.bioconductor-flowqbdata-post-link.sh
   .bioconductor-flowqbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-flowqbdata-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89

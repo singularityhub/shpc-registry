@@ -7,6 +7,5 @@ tags:
   0.28.0--r40hdfd78af_1: sha256:9496488702608b2a631e1d33db2d7a989d567a4d85c9b60582df66097177138a
 docker: quay.io/biocontainers/bioconductor-dsqtl
 aliases:
-  .bioconductor-dsqtl-post-link.sh: /usr/local/bin/.bioconductor-dsqtl-post-link.sh
   .bioconductor-dsqtl-pre-unlink.sh: /usr/local/bin/.bioconductor-dsqtl-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,7 +8,6 @@ tags:
   1.8.13--pyhdfd78af_0: sha256:4ceceffb1621cd8a31a88e2ab9c725170b711e358e115ba8ef96fb239979127b
 docker: quay.io/biocontainers/funannotate
 aliases:
-  .funannotate-post-link.sh: /usr/local/bin/.funannotate-post-link.sh
   CodingQuarry: /usr/local/bin/CodingQuarry
   CufflinksGTF_to_CodingQuarryGFF3.py: /usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter

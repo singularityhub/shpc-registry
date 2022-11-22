@@ -7,7 +7,6 @@ tags:
   98.1--pl526hecc5488_0: sha256:d0c7e20d65a0c58d49589c4fccc6fed5f379001ad4e3f05fe85a727baf2713ad
 docker: quay.io/biocontainers/ensembl-vep
 aliases:
-  .ensembl-vep-post-link.sh: /usr/local/bin/.ensembl-vep-post-link.sh
   filter_vep: /usr/local/bin/filter_vep
   haplo: /usr/local/bin/haplo
   variant_recoder: /usr/local/bin/variant_recoder

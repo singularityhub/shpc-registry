@@ -10,6 +10,5 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:63e64746b580152f645530c8fa2cc704713b41cdc4143c6c202dc1addc3cb745
 docker: quay.io/biocontainers/bioconductor-regparallel
 aliases:
-  .bioconductor-regparallel-post-link.sh: /usr/local/bin/.bioconductor-regparallel-post-link.sh
   .bioconductor-regparallel-pre-unlink.sh: /usr/local/bin/.bioconductor-regparallel-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

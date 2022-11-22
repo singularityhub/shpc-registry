@@ -7,5 +7,4 @@ tags:
   2.0.6--r41hdfd78af_9: sha256:22190d99b7342b4a087133d6c4e7ebaa2393401e81192a054eb112152ddca814
 docker: quay.io/biocontainers/bioconductor-illuminahumanmethylation450kprobe
 aliases:
-  .bioconductor-illuminahumanmethylation450kprobe-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylation450kprobe-post-link.sh
   .bioconductor-illuminahumanmethylation450kprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylation450kprobe-pre-unlink.sh

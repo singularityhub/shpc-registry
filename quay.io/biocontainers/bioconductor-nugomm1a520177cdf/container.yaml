@@ -8,5 +8,4 @@ tags:
   3.4.0--r42hdfd78af_10: sha256:d5a69e3c1cc26dacc2fe8cc4f5d3d4601d663199f6979aac67d403b3cf02b5f7
 docker: quay.io/biocontainers/bioconductor-nugomm1a520177cdf
 aliases:
-  .bioconductor-nugomm1a520177cdf-post-link.sh: /usr/local/bin/.bioconductor-nugomm1a520177cdf-post-link.sh
   .bioconductor-nugomm1a520177cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-nugomm1a520177cdf-pre-unlink.sh

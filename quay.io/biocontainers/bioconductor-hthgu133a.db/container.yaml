@@ -8,6 +8,5 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:28d4d52405e1ae435cf3d35246e17749a5f18b59b5de9629efe9840844e0601b
 docker: quay.io/biocontainers/bioconductor-hthgu133a.db
 aliases:
-  .bioconductor-hthgu133a.db-post-link.sh: /usr/local/bin/.bioconductor-hthgu133a.db-post-link.sh
   .bioconductor-hthgu133a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hthgu133a.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

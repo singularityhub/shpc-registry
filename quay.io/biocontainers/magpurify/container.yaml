@@ -7,7 +7,6 @@ tags:
   2.1.2--py_1: sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
 docker: quay.io/biocontainers/magpurify
 aliases:
-  .magpurify-post-link.sh: /usr/local/bin/.magpurify-post-link.sh
   coverm: /usr/local/bin/coverm
   fastq-interleave: /usr/local/bin/fastq-interleave
   last-dotplot: /usr/local/bin/last-dotplot

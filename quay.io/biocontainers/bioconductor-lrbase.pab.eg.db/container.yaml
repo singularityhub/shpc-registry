@@ -7,6 +7,5 @@ tags:
   2.0.0--r41hdfd78af_0: sha256:8f5074686f071e00113dbc0d237739af80ca64e06b712db25ea8c2b07ad81dca
 docker: quay.io/biocontainers/bioconductor-lrbase.pab.eg.db
 aliases:
-  .bioconductor-lrbase.pab.eg.db-post-link.sh: /usr/local/bin/.bioconductor-lrbase.pab.eg.db-post-link.sh
   .bioconductor-lrbase.pab.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lrbase.pab.eg.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

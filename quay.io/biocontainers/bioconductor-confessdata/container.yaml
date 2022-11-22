@@ -8,5 +8,4 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:ff7ff9d9b31e825c8d43de26c750097028e9172170aebd4313efb24260c64387
 docker: quay.io/biocontainers/bioconductor-confessdata
 aliases:
-  .bioconductor-confessdata-post-link.sh: /usr/local/bin/.bioconductor-confessdata-post-link.sh
   .bioconductor-confessdata-pre-unlink.sh: /usr/local/bin/.bioconductor-confessdata-pre-unlink.sh

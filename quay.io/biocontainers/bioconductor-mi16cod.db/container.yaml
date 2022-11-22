@@ -8,5 +8,4 @@ tags:
   3.4.0--r42hdfd78af_10: sha256:8f31db97bcb10c1d1a6c22eb8cd78d5b70e9ceaf3c6146463f57edb1ae58aefa
 docker: quay.io/biocontainers/bioconductor-mi16cod.db
 aliases:
-  .bioconductor-mi16cod.db-post-link.sh: /usr/local/bin/.bioconductor-mi16cod.db-post-link.sh
   .bioconductor-mi16cod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mi16cod.db-pre-unlink.sh

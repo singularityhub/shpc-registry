@@ -8,5 +8,4 @@ tags:
   1.26.0--r42hc247a5b_0: sha256:be22946a3a16ebf4f7f15f306fb5fe1a8fe82583e618d82bda8f5c0587611a01
 docker: quay.io/biocontainers/bioconductor-ihwpaper
 aliases:
-  .bioconductor-ihwpaper-post-link.sh: /usr/local/bin/.bioconductor-ihwpaper-post-link.sh
   .bioconductor-ihwpaper-pre-unlink.sh: /usr/local/bin/.bioconductor-ihwpaper-pre-unlink.sh

@@ -9,5 +9,4 @@ tags:
   1.29.0--r42hdfd78af_0: sha256:a8a3eb212f159af40fda74460752f5d59275a5544464b35d4c101afa8df4c5cd
 docker: quay.io/biocontainers/bioconductor-copyhelper
 aliases:
-  .bioconductor-copyhelper-post-link.sh: /usr/local/bin/.bioconductor-copyhelper-post-link.sh
   .bioconductor-copyhelper-pre-unlink.sh: /usr/local/bin/.bioconductor-copyhelper-pre-unlink.sh

@@ -8,7 +8,6 @@ tags:
   1.38.0--r42hdfd78af_0: sha256:d31a6b64091dc6eb91caca8520676b9e68ca93f1c3b6b2959a95470cbfd96930
 docker: quay.io/biocontainers/bioconductor-hd2013sgi
 aliases:
-  .bioconductor-hd2013sgi-post-link.sh: /usr/local/bin/.bioconductor-hd2013sgi-post-link.sh
   .bioconductor-hd2013sgi-pre-unlink.sh: /usr/local/bin/.bioconductor-hd2013sgi-pre-unlink.sh
   fftw-wisdom: /usr/local/bin/fftw-wisdom
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf

@@ -8,5 +8,4 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:0d303e5e666120a97598e027a7b50f976ca32325d7349fa4ed1b463dba52929a
 docker: quay.io/biocontainers/bioconductor-breastcancerupp
 aliases:
-  .bioconductor-breastcancerupp-post-link.sh: /usr/local/bin/.bioconductor-breastcancerupp-post-link.sh
   .bioconductor-breastcancerupp-pre-unlink.sh: /usr/local/bin/.bioconductor-breastcancerupp-pre-unlink.sh

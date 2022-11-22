@@ -8,5 +8,4 @@ tags:
   2.18.0--r41hdfd78af_10: sha256:2f3dc7e127400c807c13d1ee78bec8f9ab478794f326f7bbe4ff82e18a87d9c6
 docker: quay.io/biocontainers/bioconductor-moe430acdf
 aliases:
-  .bioconductor-moe430acdf-post-link.sh: /usr/local/bin/.bioconductor-moe430acdf-post-link.sh
   .bioconductor-moe430acdf-pre-unlink.sh: /usr/local/bin/.bioconductor-moe430acdf-pre-unlink.sh

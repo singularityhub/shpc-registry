@@ -8,6 +8,5 @@ tags:
   1.11.0--r42hdfd78af_0: sha256:ae7f1f20fe9f5a2e63abce977bfcc4c8c72eccaa4056f457e120d69733d1aeeb
 docker: quay.io/biocontainers/bioconductor-sbgnview.data
 aliases:
-  .bioconductor-sbgnview.data-post-link.sh: /usr/local/bin/.bioconductor-sbgnview.data-post-link.sh
   .bioconductor-sbgnview.data-pre-unlink.sh: /usr/local/bin/.bioconductor-sbgnview.data-pre-unlink.sh
   pandoc: /usr/local/bin/pandoc

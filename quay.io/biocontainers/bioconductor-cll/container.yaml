@@ -7,5 +7,4 @@ tags:
   1.34.0--r41hdfd78af_1: sha256:017c03df4662b6a7eed60a4fc1e702538233ebff10a9d1c07d0f4d0c69201da3
 docker: quay.io/biocontainers/bioconductor-cll
 aliases:
-  .bioconductor-cll-post-link.sh: /usr/local/bin/.bioconductor-cll-post-link.sh
   .bioconductor-cll-pre-unlink.sh: /usr/local/bin/.bioconductor-cll-pre-unlink.sh

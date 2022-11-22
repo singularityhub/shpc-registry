@@ -7,5 +7,4 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:133c0b0cf00fc69c7074f79246e1ff21804d404275b3e5b39a6be8a905f089d5
 docker: quay.io/biocontainers/bioconductor-prodata
 aliases:
-  .bioconductor-prodata-post-link.sh: /usr/local/bin/.bioconductor-prodata-post-link.sh
   .bioconductor-prodata-pre-unlink.sh: /usr/local/bin/.bioconductor-prodata-pre-unlink.sh

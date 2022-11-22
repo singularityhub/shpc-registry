@@ -7,7 +7,6 @@ tags:
   2.5.2--h87f3376_0: sha256:969eeabed1ceebf3be4d305442e0aa4b89c5f57896ce6fda939e65c7d22dea62
 docker: quay.io/biocontainers/pasa
 aliases:
-  .pasa-post-link.sh: /usr/local/bin/.pasa-post-link.sh
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs
   TransDecoder.Predict: /usr/local/bin/TransDecoder.Predict
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl

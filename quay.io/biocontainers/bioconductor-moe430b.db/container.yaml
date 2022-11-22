@@ -7,6 +7,5 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:bc14af07e6d7d513337b91eeaa793d5c5236df07e179c88f122cefd4f009c986
 docker: quay.io/biocontainers/bioconductor-moe430b.db
 aliases:
-  .bioconductor-moe430b.db-post-link.sh: /usr/local/bin/.bioconductor-moe430b.db-post-link.sh
   .bioconductor-moe430b.db-pre-unlink.sh: /usr/local/bin/.bioconductor-moe430b.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

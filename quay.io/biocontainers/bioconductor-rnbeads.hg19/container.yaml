@@ -8,5 +8,4 @@ tags:
   1.30.0--r42hdfd78af_0: sha256:100a40bb6d7ab804e4fe77ba931addf0391fd36417d86d4b320765cac19240a6
 docker: quay.io/biocontainers/bioconductor-rnbeads.hg19
 aliases:
-  .bioconductor-rnbeads.hg19-post-link.sh: /usr/local/bin/.bioconductor-rnbeads.hg19-post-link.sh
   .bioconductor-rnbeads.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-rnbeads.hg19-pre-unlink.sh

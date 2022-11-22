@@ -8,5 +8,4 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:782ac11e3161e14b08f479d5ea00eb352ae4de3cb898e0df23f3166f90d13023
 docker: quay.io/biocontainers/bioconductor-harbchip
 aliases:
-  .bioconductor-harbchip-post-link.sh: /usr/local/bin/.bioconductor-harbchip-post-link.sh
   .bioconductor-harbchip-pre-unlink.sh: /usr/local/bin/.bioconductor-harbchip-pre-unlink.sh

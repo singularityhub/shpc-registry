@@ -7,7 +7,6 @@ tags:
   4.03.04--h5b5514e_1: sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed
 docker: quay.io/biocontainers/novoalign
 aliases:
-  .novoalign-post-link.sh: /usr/local/bin/.novoalign-post-link.sh
   IONTorrent.R: /usr/local/bin/IONTorrent.R
   installpackages.R: /usr/local/bin/installpackages.R
   irqtop: /usr/local/bin/irqtop

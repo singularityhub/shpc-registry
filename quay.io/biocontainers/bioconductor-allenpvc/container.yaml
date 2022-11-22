@@ -7,7 +7,6 @@ tags:
   1.4.0--r36_0: sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03
 docker: quay.io/biocontainers/bioconductor-allenpvc
 aliases:
-  .bioconductor-allenpvc-post-link.sh: /usr/local/bin/.bioconductor-allenpvc-post-link.sh
   .bioconductor-allenpvc-pre-unlink.sh: /usr/local/bin/.bioconductor-allenpvc-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

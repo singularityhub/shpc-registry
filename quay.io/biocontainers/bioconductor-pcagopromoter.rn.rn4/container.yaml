@@ -7,6 +7,5 @@ tags:
   1.26.0--r40hdfd78af_1: sha256:cd55f835064b9d2dbc0050a97cbbeebb298be6da0cf8797a3e420fad743e0d62
 docker: quay.io/biocontainers/bioconductor-pcagopromoter.rn.rn4
 aliases:
-  .bioconductor-pcagopromoter.rn.rn4-post-link.sh: /usr/local/bin/.bioconductor-pcagopromoter.rn.rn4-post-link.sh
   .bioconductor-pcagopromoter.rn.rn4-pre-unlink.sh: /usr/local/bin/.bioconductor-pcagopromoter.rn.rn4-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

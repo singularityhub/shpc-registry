@@ -7,5 +7,4 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:75205cff718609f59ebceb148c1fef0f80887ddace223d23ba82f524dd2285a9
 docker: quay.io/biocontainers/bioconductor-chickenprobe
 aliases:
-  .bioconductor-chickenprobe-post-link.sh: /usr/local/bin/.bioconductor-chickenprobe-post-link.sh
   .bioconductor-chickenprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-chickenprobe-pre-unlink.sh

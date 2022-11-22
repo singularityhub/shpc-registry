@@ -7,5 +7,4 @@ tags:
   2.0.2--h9ee0642_1: sha256:85d2c5e1d3927ab3bf76ce8ad0ed36e81724b464c7d1a7fe000eaf56df95683e
 docker: quay.io/biocontainers/pbgcpp
 aliases:
-  .pbgcpp-post-link.sh: /usr/local/bin/.pbgcpp-post-link.sh
   gcpp: /usr/local/bin/gcpp

@@ -7,7 +7,6 @@ tags:
   1.30.0--r40_0: sha256:8ed4501070c5b4797bbe47454e880be6c9ea6539117550d7d2d096be7ca27fc9
 docker: quay.io/biocontainers/bioconductor-facsdorit
 aliases:
-  .bioconductor-facsdorit-post-link.sh: /usr/local/bin/.bioconductor-facsdorit-post-link.sh
   .bioconductor-facsdorit-pre-unlink.sh: /usr/local/bin/.bioconductor-facsdorit-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8

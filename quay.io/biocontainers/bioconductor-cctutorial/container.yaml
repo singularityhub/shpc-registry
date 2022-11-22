@@ -8,5 +8,4 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:0c458abcb5ec5dc626551caccef4167e259a85ee2add8b1c0ed2cb43186cce59
 docker: quay.io/biocontainers/bioconductor-cctutorial
 aliases:
-  .bioconductor-cctutorial-post-link.sh: /usr/local/bin/.bioconductor-cctutorial-post-link.sh
   .bioconductor-cctutorial-pre-unlink.sh: /usr/local/bin/.bioconductor-cctutorial-pre-unlink.sh

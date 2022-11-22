@@ -8,5 +8,4 @@ tags:
   1.0.3--r42hdfd78af_10: sha256:80b09e7b9ccc6b213e8efa8c272256b630269eee80dccc3ce576f6999e0664d8
 docker: quay.io/biocontainers/bioconductor-human370quadv3ccrlmm
 aliases:
-  .bioconductor-human370quadv3ccrlmm-post-link.sh: /usr/local/bin/.bioconductor-human370quadv3ccrlmm-post-link.sh
   .bioconductor-human370quadv3ccrlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-human370quadv3ccrlmm-pre-unlink.sh

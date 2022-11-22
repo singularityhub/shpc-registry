@@ -7,7 +7,6 @@ tags:
   3.00--hdfd78af_7: sha256:c32a85fefdd16505508732f16d823a6835eddf568bdbdd6d4f06d96ccfe96f9a
 docker: quay.io/biocontainers/r-ngsplotdb-mm10
 aliases:
-  .r-ngsplotdb-mm10-post-link.sh: /usr/local/bin/.r-ngsplotdb-mm10-post-link.sh
   .r-ngsplotdb-mm10-pre-unlink.sh: /usr/local/bin/.r-ngsplotdb-mm10-pre-unlink.sh
   ExtractGName.R: /usr/local/bin/ExtractGName.R
   alt_reg_cufflinks: /usr/local/bin/alt_reg_cufflinks

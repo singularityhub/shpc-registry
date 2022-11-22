@@ -8,5 +8,4 @@ tags:
   1.46.0--r42hdfd78af_0: sha256:79f1df927469bb141b518735b9ee2fb44fb5dfe16b1ae4a67370b1dc5d2cd7bc
 docker: quay.io/biocontainers/bioconductor-affydata
 aliases:
-  .bioconductor-affydata-post-link.sh: /usr/local/bin/.bioconductor-affydata-post-link.sh
   .bioconductor-affydata-pre-unlink.sh: /usr/local/bin/.bioconductor-affydata-pre-unlink.sh

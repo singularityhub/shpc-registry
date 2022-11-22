@@ -8,5 +8,4 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:52b5891e18d1f69308f1aa841e5c4a50193609a0af5c837c23d3b451e69aacd4
 docker: quay.io/biocontainers/bioconductor-bronchialil13
 aliases:
-  .bioconductor-bronchialil13-post-link.sh: /usr/local/bin/.bioconductor-bronchialil13-post-link.sh
   .bioconductor-bronchialil13-pre-unlink.sh: /usr/local/bin/.bioconductor-bronchialil13-pre-unlink.sh

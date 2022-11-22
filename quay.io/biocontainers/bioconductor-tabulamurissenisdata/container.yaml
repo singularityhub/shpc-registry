@@ -8,5 +8,4 @@ tags:
   1.4.0--r42hdfd78af_0: sha256:4552a6b944e6726e221658494750b3d4bd9218aa3fef9ddd3bff1f0875ff8bee
 docker: quay.io/biocontainers/bioconductor-tabulamurissenisdata
 aliases:
-  .bioconductor-tabulamurissenisdata-post-link.sh: /usr/local/bin/.bioconductor-tabulamurissenisdata-post-link.sh
   .bioconductor-tabulamurissenisdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tabulamurissenisdata-pre-unlink.sh

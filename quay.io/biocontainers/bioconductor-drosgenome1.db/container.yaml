@@ -8,6 +8,5 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:60368517cdf004aec345e7d0947bed7fe6b8444e2eeb8a72765c58ae0c53ec82
 docker: quay.io/biocontainers/bioconductor-drosgenome1.db
 aliases:
-  .bioconductor-drosgenome1.db-post-link.sh: /usr/local/bin/.bioconductor-drosgenome1.db-post-link.sh
   .bioconductor-drosgenome1.db-pre-unlink.sh: /usr/local/bin/.bioconductor-drosgenome1.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -10,6 +10,5 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:004fe9e7bb8d4a38725621a9e2e86d0fc318a0845860bdf439dc7e1a9673a2e1
 docker: quay.io/biocontainers/bioconductor-msmb
 aliases:
-  .bioconductor-msmb-post-link.sh: /usr/local/bin/.bioconductor-msmb-post-link.sh
   .bioconductor-msmb-pre-unlink.sh: /usr/local/bin/.bioconductor-msmb-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

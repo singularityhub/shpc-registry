@@ -8,5 +8,4 @@ tags:
   0.99.1--r42hdfd78af_10: sha256:589805a6645368b5a2ce2e32d584ae026265cc276c04ec54014f4e8b4e4a7a20
 docker: quay.io/biocontainers/bioconductor-hspeccdf
 aliases:
-  .bioconductor-hspeccdf-post-link.sh: /usr/local/bin/.bioconductor-hspeccdf-post-link.sh
   .bioconductor-hspeccdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hspeccdf-pre-unlink.sh

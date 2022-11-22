@@ -7,5 +7,4 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:830249f93bcbdadf9682cb4f2b1bae6bc751cea956942f90f041b536e7a5c8e1
 docker: quay.io/biocontainers/bioconductor-rnu34cdf
 aliases:
-  .bioconductor-rnu34cdf-post-link.sh: /usr/local/bin/.bioconductor-rnu34cdf-post-link.sh
   .bioconductor-rnu34cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-rnu34cdf-pre-unlink.sh

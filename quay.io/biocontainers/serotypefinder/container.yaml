@@ -7,7 +7,6 @@ tags:
   2.0.1--py39hdfd78af_0: sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a
 docker: quay.io/biocontainers/serotypefinder
 aliases:
-  .serotypefinder-post-link.sh: /usr/local/bin/.serotypefinder-post-link.sh
   kma: /usr/local/bin/kma
   kma_index: /usr/local/bin/kma_index
   kma_shm: /usr/local/bin/kma_shm

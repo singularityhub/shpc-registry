@@ -8,6 +8,5 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:913b4ec19db3bd439ba05b19dddc116896cbaf83532cb364e98736233610cd27
 docker: quay.io/biocontainers/bioconductor-celegans.db
 aliases:
-  .bioconductor-celegans.db-post-link.sh: /usr/local/bin/.bioconductor-celegans.db-post-link.sh
   .bioconductor-celegans.db-pre-unlink.sh: /usr/local/bin/.bioconductor-celegans.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

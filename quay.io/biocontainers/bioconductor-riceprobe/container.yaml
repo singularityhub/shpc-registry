@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:4cbc0595fb983ea0b9cfc2df9d0d35dcfa7c74cf88dd6eeec8eb4bf3ac9b9c74
 docker: quay.io/biocontainers/bioconductor-riceprobe
 aliases:
-  .bioconductor-riceprobe-post-link.sh: /usr/local/bin/.bioconductor-riceprobe-post-link.sh
   .bioconductor-riceprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-riceprobe-pre-unlink.sh

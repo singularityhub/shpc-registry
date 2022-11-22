@@ -7,7 +7,6 @@ tags:
   1.0.3--hd03093a_0: sha256:15fd1f4c6d3dead02f82660a684c1186d9b96b37d3e9f8102ce82614fc059716
 docker: quay.io/biocontainers/hla-la
 aliases:
-  .hla-la-post-link.sh: /usr/local/bin/.hla-la-post-link.sh
   HLA-ASM.pl: /usr/local/bin/HLA-ASM.pl
   HLA-LA.pl: /usr/local/bin/HLA-LA.pl
   picard: /usr/local/bin/picard

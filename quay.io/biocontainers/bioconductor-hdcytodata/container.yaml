@@ -10,7 +10,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:fb902b9eb342b5b2338e81083c15781ce2e27d73bb3b64eec3ad7e1e09efc09f
 docker: quay.io/biocontainers/bioconductor-hdcytodata
 aliases:
-  .bioconductor-hdcytodata-post-link.sh: /usr/local/bin/.bioconductor-hdcytodata-post-link.sh
   .bioconductor-hdcytodata-pre-unlink.sh: /usr/local/bin/.bioconductor-hdcytodata-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8

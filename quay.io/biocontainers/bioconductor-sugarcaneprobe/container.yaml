@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_11: sha256:a6a09b2ed21c529cd3e833871e71d319d6ac7d59e4ca869d7ef7e58d7ce294f3
 docker: quay.io/biocontainers/bioconductor-sugarcaneprobe
 aliases:
-  .bioconductor-sugarcaneprobe-post-link.sh: /usr/local/bin/.bioconductor-sugarcaneprobe-post-link.sh
   .bioconductor-sugarcaneprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-sugarcaneprobe-pre-unlink.sh

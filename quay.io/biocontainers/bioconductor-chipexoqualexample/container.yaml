@@ -12,7 +12,6 @@ tags:
   1.13.0--r40_0: sha256:938d9488eb7d5b8a87b35d3b04abd12fa9c0c641984f7a920ba312e547e45caa
 docker: quay.io/biocontainers/bioconductor-chipexoqualexample
 aliases:
-  .bioconductor-chipexoqualexample-post-link.sh: /usr/local/bin/.bioconductor-chipexoqualexample-post-link.sh
   .bioconductor-chipexoqualexample-pre-unlink.sh: /usr/local/bin/.bioconductor-chipexoqualexample-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

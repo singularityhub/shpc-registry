@@ -8,5 +8,4 @@ tags:
   4.32.0--r42hdfd78af_0: sha256:b774c181620c2009fe37a04884a3b4b4d7ecabad7f122094b1207a8df1e3820f
 docker: quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background
 aliases:
-  .bioconductor-pwmenrich.mmusculus.background-post-link.sh: /usr/local/bin/.bioconductor-pwmenrich.mmusculus.background-post-link.sh
   .bioconductor-pwmenrich.mmusculus.background-pre-unlink.sh: /usr/local/bin/.bioconductor-pwmenrich.mmusculus.background-pre-unlink.sh

@@ -7,7 +7,6 @@ tags:
   2.0.9--hdfd78af_5: sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4
 docker: quay.io/biocontainers/orthomcl
 aliases:
-  .orthomcl-post-link.sh: /usr/local/bin/.orthomcl-post-link.sh
   orthomclAdjustFasta: /usr/local/bin/orthomclAdjustFasta
   orthomclBlastParser: /usr/local/bin/orthomclBlastParser
   orthomclDropSchema: /usr/local/bin/orthomclDropSchema

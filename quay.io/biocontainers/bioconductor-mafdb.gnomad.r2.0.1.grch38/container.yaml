@@ -7,7 +7,6 @@ tags:
   3.9.0--r36_1: sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3
 docker: quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38
 aliases:
-  .bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh: /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh
   .bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

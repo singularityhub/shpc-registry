@@ -8,5 +8,4 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:420b3baad0cf6ee828af128f36ada6e02f04613940190fc8ffd493fbdd8aa2dd
 docker: quay.io/biocontainers/bioconductor-stemhypoxia
 aliases:
-  .bioconductor-stemhypoxia-post-link.sh: /usr/local/bin/.bioconductor-stemhypoxia-post-link.sh
   .bioconductor-stemhypoxia-pre-unlink.sh: /usr/local/bin/.bioconductor-stemhypoxia-pre-unlink.sh

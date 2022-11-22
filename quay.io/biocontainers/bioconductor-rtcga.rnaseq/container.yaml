@@ -8,7 +8,6 @@ tags:
   20151101.27.0--r42hdfd78af_0: sha256:0ddbe916f86cc9d9672647705e7dd9941854efb85e93daa49ef53c5c045e538a
 docker: quay.io/biocontainers/bioconductor-rtcga.rnaseq
 aliases:
-  .bioconductor-rtcga.rnaseq-post-link.sh: /usr/local/bin/.bioconductor-rtcga.rnaseq-post-link.sh
   .bioconductor-rtcga.rnaseq-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.rnaseq-pre-unlink.sh
   f2py3.10: /usr/local/bin/f2py3.10
   2to3-3.10: /usr/local/bin/2to3-3.10

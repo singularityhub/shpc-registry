@@ -8,7 +8,6 @@ tags:
   1.0.11--r41hdfd78af_2: sha256:bea660b93ff92277267d81d21897cff57b876df0ff8ebd7e12024e5df24e478d
 docker: quay.io/biocontainers/bioconductor-panther.db
 aliases:
-  .bioconductor-panther.db-post-link.sh: /usr/local/bin/.bioconductor-panther.db-post-link.sh
   .bioconductor-panther.db-pre-unlink.sh: /usr/local/bin/.bioconductor-panther.db-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

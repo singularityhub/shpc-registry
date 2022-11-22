@@ -7,7 +7,6 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:e931e8c346264f818bb10e2460dd44173b9fa649e1c7085f93c06283343b7f92
 docker: quay.io/biocontainers/bioconductor-rtcga.rppa
 aliases:
-  .bioconductor-rtcga.rppa-post-link.sh: /usr/local/bin/.bioconductor-rtcga.rppa-post-link.sh
   .bioconductor-rtcga.rppa-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.rppa-pre-unlink.sh
   f2py3.10: /usr/local/bin/f2py3.10
   2to3-3.10: /usr/local/bin/2to3-3.10

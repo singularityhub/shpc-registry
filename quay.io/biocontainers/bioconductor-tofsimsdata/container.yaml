@@ -7,5 +7,4 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:99a92d02f0069c86f13bb1c1d0e28b63246a6a59afd0909e4cf0b4d08c74f409
 docker: quay.io/biocontainers/bioconductor-tofsimsdata
 aliases:
-  .bioconductor-tofsimsdata-post-link.sh: /usr/local/bin/.bioconductor-tofsimsdata-post-link.sh
   .bioconductor-tofsimsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tofsimsdata-pre-unlink.sh

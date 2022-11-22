@@ -7,7 +7,6 @@ tags:
   3.7.0--r36_2: sha256:44999566a812f4e6eb3058d1b597e3baa9814ea3cd70e85a342b9d8b0dc44e77
 docker: quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.grch38
 aliases:
-  .bioconductor-mafdb.exac.r1.0.grch38-post-link.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.grch38-post-link.sh
   .bioconductor-mafdb.exac.r1.0.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.grch38-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

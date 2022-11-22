@@ -8,5 +8,4 @@ tags:
   2.18.0--r41hdfd78af_10: sha256:f4f16707caa86cb9c8eee838f8024f9686842827c5798096c45a99e6fb6eb4b9
 docker: quay.io/biocontainers/bioconductor-htrat230pmcdf
 aliases:
-  .bioconductor-htrat230pmcdf-post-link.sh: /usr/local/bin/.bioconductor-htrat230pmcdf-post-link.sh
   .bioconductor-htrat230pmcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-htrat230pmcdf-pre-unlink.sh

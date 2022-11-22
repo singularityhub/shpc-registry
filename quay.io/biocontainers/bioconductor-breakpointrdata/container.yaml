@@ -11,6 +11,5 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:79c311e8cbdfd4d48533f29bcb970a18b14dc386134ad9903514da63b1c8fef8
 docker: quay.io/biocontainers/bioconductor-breakpointrdata
 aliases:
-  .bioconductor-breakpointrdata-post-link.sh: /usr/local/bin/.bioconductor-breakpointrdata-post-link.sh
   .bioconductor-breakpointrdata-pre-unlink.sh: /usr/local/bin/.bioconductor-breakpointrdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

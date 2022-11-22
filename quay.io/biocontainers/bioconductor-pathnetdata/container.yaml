@@ -7,5 +7,4 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:6a6fa6e4e73a3e6fd8a7b0b85f92d4ef3d3fc08d6b82caf4d17358f22d655698
 docker: quay.io/biocontainers/bioconductor-pathnetdata
 aliases:
-  .bioconductor-pathnetdata-post-link.sh: /usr/local/bin/.bioconductor-pathnetdata-post-link.sh
   .bioconductor-pathnetdata-pre-unlink.sh: /usr/local/bin/.bioconductor-pathnetdata-pre-unlink.sh

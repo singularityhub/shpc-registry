@@ -8,5 +8,4 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:1f74520fa54f2ced30da896e3c2070a023d6f053e50d4b947d52d5de93bfc802
 docker: quay.io/biocontainers/bioconductor-beadarrayusecases
 aliases:
-  .bioconductor-beadarrayusecases-post-link.sh: /usr/local/bin/.bioconductor-beadarrayusecases-post-link.sh
   .bioconductor-beadarrayusecases-pre-unlink.sh: /usr/local/bin/.bioconductor-beadarrayusecases-pre-unlink.sh

@@ -7,7 +7,6 @@ tags:
   1.8.0--r341_0: sha256:9eefe183780a84e6600b34cd484ca4152d5b02ad7ad615fcdcbb78b5d968e994
 docker: quay.io/biocontainers/bioconductor-fis
 aliases:
-  .bioconductor-fis-post-link.sh: /usr/local/bin/.bioconductor-fis-post-link.sh
   .bioconductor-fis-pre-unlink.sh: /usr/local/bin/.bioconductor-fis-pre-unlink.sh
   wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config

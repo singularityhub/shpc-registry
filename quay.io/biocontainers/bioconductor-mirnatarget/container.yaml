@@ -8,5 +8,4 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:9ac39028ee82ca57c3a7a56fe019bd64a455f25222685b7a673e83cfa0c968df
 docker: quay.io/biocontainers/bioconductor-mirnatarget
 aliases:
-  .bioconductor-mirnatarget-post-link.sh: /usr/local/bin/.bioconductor-mirnatarget-post-link.sh
   .bioconductor-mirnatarget-pre-unlink.sh: /usr/local/bin/.bioconductor-mirnatarget-pre-unlink.sh

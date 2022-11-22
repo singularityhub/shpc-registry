@@ -7,6 +7,5 @@ tags:
   2.52.0--r41hdfd78af_0: sha256:18f6b53ce57c110bbcb6c515ba5943f1326151d3548e180480f1f15f34628468
 docker: quay.io/biocontainers/bioconductor-italics
 aliases:
-  .bioconductor-italicsdata-post-link.sh: /usr/local/bin/.bioconductor-italicsdata-post-link.sh
   .bioconductor-italicsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-italicsdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

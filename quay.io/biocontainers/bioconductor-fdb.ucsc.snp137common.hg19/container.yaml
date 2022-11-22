@@ -7,5 +7,4 @@ tags:
   1.0.0--r41hdfd78af_9: sha256:604eb1278b8dd555b27888c93c4d9ca0ece8e999863b9f33f852a616340616d9
 docker: quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19
 aliases:
-  .bioconductor-fdb.ucsc.snp137common.hg19-post-link.sh: /usr/local/bin/.bioconductor-fdb.ucsc.snp137common.hg19-post-link.sh
   .bioconductor-fdb.ucsc.snp137common.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-fdb.ucsc.snp137common.hg19-pre-unlink.sh

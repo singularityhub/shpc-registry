@@ -12,7 +12,6 @@ tags:
   1.10.0--r40_0: sha256:38abfed45774cd4b04cc0a503dc4198d696dc5cd6d89f6cc885cadeef1f40272
 docker: quay.io/biocontainers/bioconductor-topdownrdata
 aliases:
-  .bioconductor-topdownrdata-post-link.sh: /usr/local/bin/.bioconductor-topdownrdata-post-link.sh
   .bioconductor-topdownrdata-pre-unlink.sh: /usr/local/bin/.bioconductor-topdownrdata-pre-unlink.sh
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump

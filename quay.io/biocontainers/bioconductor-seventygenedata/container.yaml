@@ -8,5 +8,4 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30
 docker: quay.io/biocontainers/bioconductor-seventygenedata
 aliases:
-  .bioconductor-seventygenedata-post-link.sh: /usr/local/bin/.bioconductor-seventygenedata-post-link.sh
   .bioconductor-seventygenedata-pre-unlink.sh: /usr/local/bin/.bioconductor-seventygenedata-pre-unlink.sh

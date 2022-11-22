@@ -7,7 +7,6 @@ tags:
   2.2.1--py37pl526hdbffeaa_0: sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350
 docker: quay.io/biocontainers/fusion-inspector
 aliases:
-  .fusion-inspector-post-link.sh: /usr/local/bin/.fusion-inspector-post-link.sh
   FusionInspector: /usr/local/bin/FusionInspector
   PtR: /usr/local/bin/PtR
   Trinity: /usr/local/bin/Trinity

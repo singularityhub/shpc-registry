@@ -7,5 +7,4 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:51786ff7d1f6dad02a1f5b568c7d1d6ab01d8b464b921b37654e6bda245905d7
 docker: quay.io/biocontainers/bioconductor-beadarrayexampledata
 aliases:
-  .bioconductor-beadarrayexampledata-post-link.sh: /usr/local/bin/.bioconductor-beadarrayexampledata-post-link.sh
   .bioconductor-beadarrayexampledata-pre-unlink.sh: /usr/local/bin/.bioconductor-beadarrayexampledata-pre-unlink.sh

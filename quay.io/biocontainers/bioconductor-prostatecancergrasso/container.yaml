@@ -8,5 +8,4 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:3ebd31ef7e47df394b2b0220ab2d12723d0c8563fbfec761ff0a3abfa2a1fcfe
 docker: quay.io/biocontainers/bioconductor-prostatecancergrasso
 aliases:
-  .bioconductor-prostatecancergrasso-post-link.sh: /usr/local/bin/.bioconductor-prostatecancergrasso-post-link.sh
   .bioconductor-prostatecancergrasso-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancergrasso-pre-unlink.sh

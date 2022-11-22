@@ -7,7 +7,6 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4
 docker: quay.io/biocontainers/bioconductor-rtcga.cnv
 aliases:
-  .bioconductor-rtcga.cnv-post-link.sh: /usr/local/bin/.bioconductor-rtcga.cnv-post-link.sh
   .bioconductor-rtcga.cnv-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.cnv-pre-unlink.sh
   f2py3.10: /usr/local/bin/f2py3.10
   2to3-3.10: /usr/local/bin/2to3-3.10

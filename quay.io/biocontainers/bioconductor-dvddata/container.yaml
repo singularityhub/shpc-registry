@@ -8,5 +8,4 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:1f494c0155dbac8a168197ef3bf853d46ea6ab62be0847b67217f8be961867e5
 docker: quay.io/biocontainers/bioconductor-dvddata
 aliases:
-  .bioconductor-dvddata-post-link.sh: /usr/local/bin/.bioconductor-dvddata-post-link.sh
   .bioconductor-dvddata-pre-unlink.sh: /usr/local/bin/.bioconductor-dvddata-pre-unlink.sh

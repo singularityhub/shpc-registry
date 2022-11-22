@@ -8,5 +8,4 @@ tags:
   1.8.0--r42hdfd78af_0: sha256:0d560c73780e20ee854ee683509dc85fa86258a96dcba284e6bbea91a49e8bdf
 docker: quay.io/biocontainers/bioconductor-methylseqdata
 aliases:
-  .bioconductor-methylseqdata-post-link.sh: /usr/local/bin/.bioconductor-methylseqdata-post-link.sh
   .bioconductor-methylseqdata-pre-unlink.sh: /usr/local/bin/.bioconductor-methylseqdata-pre-unlink.sh

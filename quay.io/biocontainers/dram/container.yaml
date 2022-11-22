@@ -8,7 +8,6 @@ tags:
   1.4.0--pyhdfd78af_0: sha256:0ecc0fbc97a48bf66fb6b1f4d705373e66d3918f2e2cc073ec8295896a44c5bb
 docker: quay.io/biocontainers/dram
 aliases:
-  .dram-post-link.sh: /usr/local/bin/.dram-post-link.sh
   DRAM-setup.py: /usr/local/bin/DRAM-setup.py
   DRAM-v.py: /usr/local/bin/DRAM-v.py
   DRAM.py: /usr/local/bin/DRAM.py

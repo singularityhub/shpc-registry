@@ -7,5 +7,4 @@ tags:
   1.4.0--r41hdfd78af_1: sha256:536ff3b834c0a1952ff3a1ffa5833a000a9a5074bcc26b17f6639459d2ca1caa
 docker: quay.io/biocontainers/bioconductor-clustifyrdatahub
 aliases:
-  .bioconductor-clustifyrdatahub-post-link.sh: /usr/local/bin/.bioconductor-clustifyrdatahub-post-link.sh
   .bioconductor-clustifyrdatahub-pre-unlink.sh: /usr/local/bin/.bioconductor-clustifyrdatahub-pre-unlink.sh

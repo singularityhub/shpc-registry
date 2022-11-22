@@ -8,5 +8,4 @@ tags:
   1.38.0--r42hdfd78af_0: sha256:9ee3b4d06b9bdd313817661b250190f73350084f1994f0cdb9492aed16ea7adb
 docker: quay.io/biocontainers/bioconductor-davidtiling
 aliases:
-  .bioconductor-davidtiling-post-link.sh: /usr/local/bin/.bioconductor-davidtiling-post-link.sh
   .bioconductor-davidtiling-pre-unlink.sh: /usr/local/bin/.bioconductor-davidtiling-pre-unlink.sh

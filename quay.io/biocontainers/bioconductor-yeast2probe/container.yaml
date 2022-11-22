@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_11: sha256:5e16a61027d41bc93a50d79e9719d03f54fbded84002e8f4cbce1965b06e2b8c
 docker: quay.io/biocontainers/bioconductor-yeast2probe
 aliases:
-  .bioconductor-yeast2probe-post-link.sh: /usr/local/bin/.bioconductor-yeast2probe-post-link.sh
   .bioconductor-yeast2probe-pre-unlink.sh: /usr/local/bin/.bioconductor-yeast2probe-pre-unlink.sh

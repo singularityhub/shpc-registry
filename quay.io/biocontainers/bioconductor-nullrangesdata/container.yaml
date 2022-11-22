@@ -8,5 +8,4 @@ tags:
   1.4.0--r42hdfd78af_0: sha256:879c0efd1e9bde6ca063ddb32c8ec937181ec9f951d4b596882204c47fdc3ea9
 docker: quay.io/biocontainers/bioconductor-nullrangesdata
 aliases:
-  .bioconductor-nullrangesdata-post-link.sh: /usr/local/bin/.bioconductor-nullrangesdata-post-link.sh
   .bioconductor-nullrangesdata-pre-unlink.sh: /usr/local/bin/.bioconductor-nullrangesdata-pre-unlink.sh

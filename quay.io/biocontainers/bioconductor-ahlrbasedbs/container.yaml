@@ -8,5 +8,4 @@ tags:
   1.5.0--r42hdfd78af_0: sha256:abe0ee191fda768c1cd88d3ebd8af1cfc9b64b2309046d11514b2c3aecb41d96
 docker: quay.io/biocontainers/bioconductor-ahlrbasedbs
 aliases:
-  .bioconductor-ahlrbasedbs-post-link.sh: /usr/local/bin/.bioconductor-ahlrbasedbs-post-link.sh
   .bioconductor-ahlrbasedbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahlrbasedbs-pre-unlink.sh

@@ -7,5 +7,4 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:14a1d0de09042a8d997c0122aff7e771588854c8c65ab108664f5865a88b59c0
 docker: quay.io/biocontainers/bioconductor-pedbarrayv9.db
 aliases:
-  .bioconductor-pedbarrayv9.db-post-link.sh: /usr/local/bin/.bioconductor-pedbarrayv9.db-post-link.sh
   .bioconductor-pedbarrayv9.db-pre-unlink.sh: /usr/local/bin/.bioconductor-pedbarrayv9.db-pre-unlink.sh

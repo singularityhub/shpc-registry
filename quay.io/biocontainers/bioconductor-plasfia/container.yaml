@@ -8,7 +8,6 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:0c786b156817e633082294751da0138b10afaf4580d8047eee350c15d9c06c41
 docker: quay.io/biocontainers/bioconductor-plasfia
 aliases:
-  .bioconductor-plasfia-post-link.sh: /usr/local/bin/.bioconductor-plasfia-post-link.sh
   .bioconductor-plasfia-pre-unlink.sh: /usr/local/bin/.bioconductor-plasfia-pre-unlink.sh
   zipcmp: /usr/local/bin/zipcmp
   zipmerge: /usr/local/bin/zipmerge

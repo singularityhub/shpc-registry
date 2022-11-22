@@ -8,5 +8,4 @@ tags:
   8.8.0--r42hdfd78af_2: sha256:040fcb0f8d256a2b896f7eaf705c3a7e029086363f293ba9bf8e149b9c08e80f
 docker: quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db
 aliases:
-  .bioconductor-mogene10sttranscriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-mogene10sttranscriptcluster.db-post-link.sh
   .bioconductor-mogene10sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mogene10sttranscriptcluster.db-pre-unlink.sh

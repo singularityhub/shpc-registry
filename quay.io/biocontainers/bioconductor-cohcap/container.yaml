@@ -8,7 +8,6 @@ tags:
   1.44.0--pl5321r42hc247a5b_0: sha256:b46b84dd806fcb7247492a7146352025a8d4e859d7f2fb6e61f073e14cb047e3
 docker: quay.io/biocontainers/bioconductor-cohcap
 aliases:
-  .bioconductor-cohcapanno-post-link.sh: /usr/local/bin/.bioconductor-cohcapanno-post-link.sh
   .bioconductor-cohcapanno-pre-unlink.sh: /usr/local/bin/.bioconductor-cohcapanno-pre-unlink.sh
   perl5.32.1: /usr/local/bin/perl5.32.1
   streamzip: /usr/local/bin/streamzip

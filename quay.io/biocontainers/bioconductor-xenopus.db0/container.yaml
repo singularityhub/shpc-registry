@@ -12,7 +12,6 @@ tags:
   3.11.2--r40_0: sha256:3591f1b157e15b2668f5279b965864337ccea69177a3a55bfe28baa7efda9e18
 docker: quay.io/biocontainers/bioconductor-xenopus.db0
 aliases:
-  .bioconductor-xenopus.db0-post-link.sh: /usr/local/bin/.bioconductor-xenopus.db0-post-link.sh
   .bioconductor-xenopus.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-xenopus.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

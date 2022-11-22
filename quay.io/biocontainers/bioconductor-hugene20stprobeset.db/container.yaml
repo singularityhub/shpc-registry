@@ -8,5 +8,4 @@ tags:
   8.8.0--r42hdfd78af_2: sha256:53f5442d2d7bf1e39ba8a2047b957455582cbab875eb159e7ee580f3e6698880
 docker: quay.io/biocontainers/bioconductor-hugene20stprobeset.db
 aliases:
-  .bioconductor-hugene20stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-hugene20stprobeset.db-post-link.sh
   .bioconductor-hugene20stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hugene20stprobeset.db-pre-unlink.sh

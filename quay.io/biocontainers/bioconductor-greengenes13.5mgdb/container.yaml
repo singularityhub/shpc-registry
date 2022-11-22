@@ -7,6 +7,5 @@ tags:
   2.0.0--r40hdfd78af_6: sha256:8bcd9b39f01e46ea77e46de9d7586be44dac8157fc78994e84515b73209f41a8
 docker: quay.io/biocontainers/bioconductor-greengenes13.5mgdb
 aliases:
-  .bioconductor-greengenes13.5mgdb-post-link.sh: /usr/local/bin/.bioconductor-greengenes13.5mgdb-post-link.sh
   .bioconductor-greengenes13.5mgdb-pre-unlink.sh: /usr/local/bin/.bioconductor-greengenes13.5mgdb-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

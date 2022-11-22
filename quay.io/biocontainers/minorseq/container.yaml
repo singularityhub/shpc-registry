@@ -7,7 +7,6 @@ tags:
   1.12.0--0: sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8
 docker: quay.io/biocontainers/minorseq
 aliases:
-  .minorseq-post-link.sh: /usr/local/bin/.minorseq-post-link.sh
   ccs: /usr/local/bin/ccs
   ccs-alt: /usr/local/bin/ccs-alt
   cleric: /usr/local/bin/cleric

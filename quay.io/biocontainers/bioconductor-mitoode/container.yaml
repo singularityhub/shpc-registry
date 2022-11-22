@@ -7,7 +7,6 @@ tags:
   1.25.0--r40h037d062_0: sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977
 docker: quay.io/biocontainers/bioconductor-mitoode
 aliases:
-  .bioconductor-mitoodedata-post-link.sh: /usr/local/bin/.bioconductor-mitoodedata-post-link.sh
   .bioconductor-mitoodedata-pre-unlink.sh: /usr/local/bin/.bioconductor-mitoodedata-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8

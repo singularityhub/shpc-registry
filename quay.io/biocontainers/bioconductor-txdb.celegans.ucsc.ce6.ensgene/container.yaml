@@ -7,6 +7,5 @@ tags:
   3.2.2--r40_9: sha256:f399d3f669c3e153c49b6e2da6d553d28d9b199b2050c417220ca393b9acfa30
 docker: quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce6.ensgene
 aliases:
-  .bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh
   .bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

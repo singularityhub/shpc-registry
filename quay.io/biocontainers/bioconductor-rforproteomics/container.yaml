@@ -8,7 +8,6 @@ tags:
   1.35.1--r42hdfd78af_0: sha256:974a0a35759b339fb5693f0a141c70d4891c04dbfa32d27fe4a410c897202871
 docker: quay.io/biocontainers/bioconductor-rforproteomics
 aliases:
-  .bioconductor-rforproteomics-post-link.sh: /usr/local/bin/.bioconductor-rforproteomics-post-link.sh
   .bioconductor-rforproteomics-pre-unlink.sh: /usr/local/bin/.bioconductor-rforproteomics-pre-unlink.sh
   zipcmp: /usr/local/bin/zipcmp
   zipmerge: /usr/local/bin/zipmerge

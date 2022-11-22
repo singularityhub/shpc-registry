@@ -8,5 +8,4 @@ tags:
   0.37.0--r42hdfd78af_0: sha256:b07fe70e7d4cbfbd4b0595b6027daec35145fcbb5e8f44f32a930ce5945f4e40
 docker: quay.io/biocontainers/bioconductor-msdata
 aliases:
-  .bioconductor-msdata-post-link.sh: /usr/local/bin/.bioconductor-msdata-post-link.sh
   .bioconductor-msdata-pre-unlink.sh: /usr/local/bin/.bioconductor-msdata-pre-unlink.sh

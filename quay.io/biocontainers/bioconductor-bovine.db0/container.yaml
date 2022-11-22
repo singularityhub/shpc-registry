@@ -12,7 +12,6 @@ tags:
   3.11.2--r40_0: sha256:fddce8a7c0692c9f95b234cb94b7c0eb83ce65253285f8b36b7515820cccab2d
 docker: quay.io/biocontainers/bioconductor-bovine.db0
 aliases:
-  .bioconductor-bovine.db0-post-link.sh: /usr/local/bin/.bioconductor-bovine.db0-post-link.sh
   .bioconductor-bovine.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-bovine.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

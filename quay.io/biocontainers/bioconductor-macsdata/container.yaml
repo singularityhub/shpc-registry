@@ -8,5 +8,4 @@ tags:
   1.5.0--r42hdfd78af_0: sha256:7f9f8801626932b7033ce39cb66aab0a1a05ce32f42216c36d5ea05f5d8ec960
 docker: quay.io/biocontainers/bioconductor-macsdata
 aliases:
-  .bioconductor-macsdata-post-link.sh: /usr/local/bin/.bioconductor-macsdata-post-link.sh
   .bioconductor-macsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-macsdata-pre-unlink.sh

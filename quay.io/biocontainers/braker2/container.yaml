@@ -7,7 +7,6 @@ tags:
   2.1.6--hdfd78af_5: sha256:2bf5974e82d2fc5cc241e72a8496a6ab582ad1450ad5abe6e465a4a1e3633642
 docker: quay.io/biocontainers/braker2
 aliases:
-  .braker2-post-link.sh: /usr/local/bin/.braker2-post-link.sh
   GeMoMa: /usr/local/bin/GeMoMa
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
   PF00225_seed.blocks.txt: /usr/local/bin/PF00225_seed.blocks.txt

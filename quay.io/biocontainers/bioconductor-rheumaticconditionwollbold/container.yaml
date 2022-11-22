@@ -8,5 +8,4 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:77d7cfefceff8453cb608811b2860814fb30d52a832bb6864dfd98a744b0ed21
 docker: quay.io/biocontainers/bioconductor-rheumaticconditionwollbold
 aliases:
-  .bioconductor-rheumaticconditionwollbold-post-link.sh: /usr/local/bin/.bioconductor-rheumaticconditionwollbold-post-link.sh
   .bioconductor-rheumaticconditionwollbold-pre-unlink.sh: /usr/local/bin/.bioconductor-rheumaticconditionwollbold-pre-unlink.sh

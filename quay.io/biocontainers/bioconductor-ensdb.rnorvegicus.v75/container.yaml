@@ -8,5 +8,4 @@ tags:
   2.99.0--r42hdfd78af_10: sha256:e0941a522ddd44803e56b63164498e05eb35537003df2b006aa4939445d14eca
 docker: quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75
 aliases:
-  .bioconductor-ensdb.rnorvegicus.v75-post-link.sh: /usr/local/bin/.bioconductor-ensdb.rnorvegicus.v75-post-link.sh
   .bioconductor-ensdb.rnorvegicus.v75-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.rnorvegicus.v75-pre-unlink.sh

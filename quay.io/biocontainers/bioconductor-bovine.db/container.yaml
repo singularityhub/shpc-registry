@@ -7,6 +7,5 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:ffe2bb76898826183c854b12e4dd628561989f5c7869c7bc8d2e66224acf629a
 docker: quay.io/biocontainers/bioconductor-bovine.db
 aliases:
-  .bioconductor-bovine.db-post-link.sh: /usr/local/bin/.bioconductor-bovine.db-post-link.sh
   .bioconductor-bovine.db-pre-unlink.sh: /usr/local/bin/.bioconductor-bovine.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

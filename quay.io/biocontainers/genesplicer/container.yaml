@@ -7,5 +7,4 @@ tags:
   1.0--1: sha256:99c3b5f60d2e4d05bde27e9c8d92ef30ba0a1d322b37c984dd5d16832c2ff3bd
 docker: quay.io/biocontainers/genesplicer
 aliases:
-  .genesplicer-post-link.sh: /usr/local/bin/.genesplicer-post-link.sh
   genesplicer: /usr/local/bin/genesplicer

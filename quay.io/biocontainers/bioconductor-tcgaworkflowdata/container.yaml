@@ -7,7 +7,6 @@ tags:
   1.8.0--r36_1: sha256:3c73219abcc296916babeaec5a17c0cec80eba72a2802787feb2881788397565
 docker: quay.io/biocontainers/bioconductor-tcgaworkflowdata
 aliases:
-  .bioconductor-tcgaworkflowdata-post-link.sh: /usr/local/bin/.bioconductor-tcgaworkflowdata-post-link.sh
   .bioconductor-tcgaworkflowdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgaworkflowdata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

@@ -8,5 +8,4 @@ tags:
   1.8.0--r42hdfd78af_0: sha256:5819f5de05b608122db6e0e4ffb5efa4b51615d87a6645d57ba7742a69da496f
 docker: quay.io/biocontainers/bioconductor-droplettestfiles
 aliases:
-  .bioconductor-droplettestfiles-post-link.sh: /usr/local/bin/.bioconductor-droplettestfiles-post-link.sh
   .bioconductor-droplettestfiles-pre-unlink.sh: /usr/local/bin/.bioconductor-droplettestfiles-pre-unlink.sh

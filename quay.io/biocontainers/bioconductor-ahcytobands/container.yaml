@@ -8,5 +8,4 @@ tags:
   0.99.1--r42hdfd78af_2: sha256:6b51c847a7f3ba6d3542e452ed1e3dc2d7481996a425ac74f65769b714d20f8f
 docker: quay.io/biocontainers/bioconductor-ahcytobands
 aliases:
-  .bioconductor-ahcytobands-post-link.sh: /usr/local/bin/.bioconductor-ahcytobands-post-link.sh
   .bioconductor-ahcytobands-pre-unlink.sh: /usr/local/bin/.bioconductor-ahcytobands-pre-unlink.sh

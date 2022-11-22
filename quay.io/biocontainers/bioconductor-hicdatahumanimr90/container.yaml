@@ -11,6 +11,5 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:79680d1bb7e7e3c562a300d76fd276a053024cd53e3d6224f241a15861e5a008
 docker: quay.io/biocontainers/bioconductor-hicdatahumanimr90
 aliases:
-  .bioconductor-hicdatahumanimr90-post-link.sh: /usr/local/bin/.bioconductor-hicdatahumanimr90-post-link.sh
   .bioconductor-hicdatahumanimr90-pre-unlink.sh: /usr/local/bin/.bioconductor-hicdatahumanimr90-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

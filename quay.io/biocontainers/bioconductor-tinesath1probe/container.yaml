@@ -7,5 +7,4 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:f38bebb82fe6e946e02669d466cde40afe8d4969c7bf0671e0f09f2cd2120e21
 docker: quay.io/biocontainers/bioconductor-tinesath1probe
 aliases:
-  .bioconductor-tinesath1probe-post-link.sh: /usr/local/bin/.bioconductor-tinesath1probe-post-link.sh
   .bioconductor-tinesath1probe-pre-unlink.sh: /usr/local/bin/.bioconductor-tinesath1probe-pre-unlink.sh

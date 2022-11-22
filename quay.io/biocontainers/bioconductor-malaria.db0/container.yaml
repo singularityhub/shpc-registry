@@ -7,7 +7,6 @@ tags:
   3.8.2--r36_1: sha256:07f2a9e146bad124309efdfb668b15bfe270ebcd376c6e850fab19d7472c9839
 docker: quay.io/biocontainers/bioconductor-malaria.db0
 aliases:
-  .bioconductor-malaria.db0-post-link.sh: /usr/local/bin/.bioconductor-malaria.db0-post-link.sh
   .bioconductor-malaria.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-malaria.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

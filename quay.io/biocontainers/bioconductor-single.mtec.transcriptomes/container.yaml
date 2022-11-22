@@ -8,5 +8,4 @@ tags:
   1.25.0--r42hdfd78af_0: sha256:65e590ecd03e53b8858001317cb975c13f0effb7086ea230fb5a256a2a12f178
 docker: quay.io/biocontainers/bioconductor-single.mtec.transcriptomes
 aliases:
-  .bioconductor-single.mtec.transcriptomes-post-link.sh: /usr/local/bin/.bioconductor-single.mtec.transcriptomes-post-link.sh
   .bioconductor-single.mtec.transcriptomes-pre-unlink.sh: /usr/local/bin/.bioconductor-single.mtec.transcriptomes-pre-unlink.sh

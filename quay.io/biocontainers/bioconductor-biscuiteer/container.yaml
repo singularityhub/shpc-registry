@@ -8,5 +8,4 @@ tags:
   1.12.0--r42hdfd78af_0: sha256:0307706bd0ef8bb4693558fd623628e034c69e8960891b0dd8841011c0290341
 docker: quay.io/biocontainers/bioconductor-biscuiteer
 aliases:
-  .bioconductor-biscuiteerdata-post-link.sh: /usr/local/bin/.bioconductor-biscuiteerdata-post-link.sh
   .bioconductor-biscuiteerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-biscuiteerdata-pre-unlink.sh

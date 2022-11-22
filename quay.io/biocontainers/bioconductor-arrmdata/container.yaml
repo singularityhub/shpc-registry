@@ -8,5 +8,4 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:2bd9e679bebdb09dfc7d06c5eef136946a3060b7759bf046aeb41b9a34de21f9
 docker: quay.io/biocontainers/bioconductor-arrmdata
 aliases:
-  .bioconductor-arrmdata-post-link.sh: /usr/local/bin/.bioconductor-arrmdata-post-link.sh
   .bioconductor-arrmdata-pre-unlink.sh: /usr/local/bin/.bioconductor-arrmdata-pre-unlink.sh

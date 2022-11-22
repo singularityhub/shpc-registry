@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:a78b4185e519f0420edc5fa6c01f0ddf34091e66a98ea524ee88c4f680ab87c6
 docker: quay.io/biocontainers/bioconductor-htratfocuscdf
 aliases:
-  .bioconductor-htratfocuscdf-post-link.sh: /usr/local/bin/.bioconductor-htratfocuscdf-post-link.sh
   .bioconductor-htratfocuscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-htratfocuscdf-pre-unlink.sh

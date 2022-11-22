@@ -8,7 +8,6 @@ tags:
   1.12.0--r42hdfd78af_0: sha256:00654c1b7b8822b2fdc48aadfa1f5416621dab96b35e8c396038f3b3039b2cb4
 docker: quay.io/biocontainers/bioconductor-hmp2data
 aliases:
-  .bioconductor-hmp2data-post-link.sh: /usr/local/bin/.bioconductor-hmp2data-post-link.sh
   .bioconductor-hmp2data-pre-unlink.sh: /usr/local/bin/.bioconductor-hmp2data-pre-unlink.sh
   pandoc-server: /usr/local/bin/pandoc-server
   glpsol: /usr/local/bin/glpsol

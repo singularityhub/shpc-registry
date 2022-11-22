@@ -8,5 +8,4 @@ tags:
   0.36.0--r42hdfd78af_0: sha256:a0cc3611de65bbc5a23e1f0f9b935c3a9975e01ea2639b426113e098aa755823
 docker: quay.io/biocontainers/bioconductor-bsseqdata
 aliases:
-  .bioconductor-bsseqdata-post-link.sh: /usr/local/bin/.bioconductor-bsseqdata-post-link.sh
   .bioconductor-bsseqdata-pre-unlink.sh: /usr/local/bin/.bioconductor-bsseqdata-pre-unlink.sh

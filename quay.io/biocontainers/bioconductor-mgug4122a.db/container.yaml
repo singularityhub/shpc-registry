@@ -8,7 +8,6 @@ tags:
   3.2.3--r41hdfd78af_14: sha256:3c4c6adefd1c4fa45ff218e273329f99a78a0b6c19eb692826c6a94c908dd2c6
 docker: quay.io/biocontainers/bioconductor-mgug4122a.db
 aliases:
-  .bioconductor-mgug4122a.db-post-link.sh: /usr/local/bin/.bioconductor-mgug4122a.db-post-link.sh
   .bioconductor-mgug4122a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mgug4122a.db-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8

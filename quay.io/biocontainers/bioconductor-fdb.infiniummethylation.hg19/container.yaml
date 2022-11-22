@@ -8,6 +8,5 @@ tags:
   2.2.0--r42hdfd78af_14: sha256:cab4bf7374c9ebb80e5407bc8068f18c79bba90ff13c6ceb96e181195760e627
 docker: quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19
 aliases:
-  .bioconductor-fdb.infiniummethylation.hg19-post-link.sh: /usr/local/bin/.bioconductor-fdb.infiniummethylation.hg19-post-link.sh
   .bioconductor-fdb.infiniummethylation.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-fdb.infiniummethylation.hg19-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

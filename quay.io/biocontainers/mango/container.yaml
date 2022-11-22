@@ -7,7 +7,6 @@ tags:
   0.0.5--pyh864c0ab_4: sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
 docker: quay.io/biocontainers/mango
 aliases:
-  .mango-post-link.sh: /usr/local/bin/.mango-post-link.sh
   .mango-pre-unlink.sh: /usr/local/bin/.mango-pre-unlink.sh
   adam-shell: /usr/local/bin/adam-shell
   adam-submit: /usr/local/bin/adam-submit

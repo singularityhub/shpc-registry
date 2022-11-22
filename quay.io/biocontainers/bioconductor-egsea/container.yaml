@@ -12,7 +12,6 @@ tags:
   1.14.0--r36_1: sha256:ecbae1aead3dcd33267ae4e51a8d91dbc03d275ab07a3fdafd780a8036a70d42
 docker: quay.io/biocontainers/bioconductor-egsea
 aliases:
-  .bioconductor-egseadata-post-link.sh: /usr/local/bin/.bioconductor-egseadata-post-link.sh
   .bioconductor-egseadata-pre-unlink.sh: /usr/local/bin/.bioconductor-egseadata-pre-unlink.sh
   wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config

@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:886e119f36d76a2d295a5302edb0df25bbf80c365bfd9210b165a0fbfe5f9fd2
 docker: quay.io/biocontainers/bioconductor-ecoli2cdf
 aliases:
-  .bioconductor-ecoli2cdf-post-link.sh: /usr/local/bin/.bioconductor-ecoli2cdf-post-link.sh
   .bioconductor-ecoli2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ecoli2cdf-pre-unlink.sh

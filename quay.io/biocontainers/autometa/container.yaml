@@ -7,7 +7,6 @@ tags:
   2.1.0--pyh5e36f6f_0: sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4
 docker: quay.io/biocontainers/autometa
 aliases:
-  .autometa-post-link.sh: /usr/local/bin/.autometa-post-link.sh
   autometa: /usr/local/bin/autometa
   autometa-bedtools-genomecov: /usr/local/bin/autometa-bedtools-genomecov
   autometa-benchmark: /usr/local/bin/autometa-benchmark

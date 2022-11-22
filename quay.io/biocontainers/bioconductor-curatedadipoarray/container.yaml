@@ -8,5 +8,4 @@ tags:
   1.9.0--r42hdfd78af_0: sha256:eb917b94b3562dbc44f8def14895e4c335986eed0f2433f736ac45e5654df15b
 docker: quay.io/biocontainers/bioconductor-curatedadipoarray
 aliases:
-  .bioconductor-curatedadipoarray-post-link.sh: /usr/local/bin/.bioconductor-curatedadipoarray-post-link.sh
   .bioconductor-curatedadipoarray-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedadipoarray-pre-unlink.sh

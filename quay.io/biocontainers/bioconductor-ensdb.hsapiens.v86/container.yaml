@@ -7,5 +7,4 @@ tags:
   2.99.0--r41hdfd78af_9: sha256:a41bf55d8ee3fb2d36f7eafd6c9f33822fde52a127e2c80239a4e50f7741a866
 docker: quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86
 aliases:
-  .bioconductor-ensdb.hsapiens.v86-post-link.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh
   .bioconductor-ensdb.hsapiens.v86-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh

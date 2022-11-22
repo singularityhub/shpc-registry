@@ -7,5 +7,4 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:fd0f302278ff545554699523bca6abaf77724fa9db52a3f813452ac7083b7644
 docker: quay.io/biocontainers/bioconductor-cnvgsadata
 aliases:
-  .bioconductor-cnvgsadata-post-link.sh: /usr/local/bin/.bioconductor-cnvgsadata-post-link.sh
   .bioconductor-cnvgsadata-pre-unlink.sh: /usr/local/bin/.bioconductor-cnvgsadata-pre-unlink.sh

@@ -10,6 +10,5 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:d40f011b27b242aa448a01adc96584ae0c4a9ffec44757520c745147b7c0c54d
 docker: quay.io/biocontainers/bioconductor-assessorfdata
 aliases:
-  .bioconductor-assessorfdata-post-link.sh: /usr/local/bin/.bioconductor-assessorfdata-post-link.sh
   .bioconductor-assessorfdata-pre-unlink.sh: /usr/local/bin/.bioconductor-assessorfdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

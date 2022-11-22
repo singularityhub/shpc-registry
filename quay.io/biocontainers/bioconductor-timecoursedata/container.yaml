@@ -8,5 +8,4 @@ tags:
   1.8.0--r42hdfd78af_0: sha256:6b3da897691e61110751ccd6282eb08d3cb2c6be825426c97893b12d1dded1af
 docker: quay.io/biocontainers/bioconductor-timecoursedata
 aliases:
-  .bioconductor-timecoursedata-post-link.sh: /usr/local/bin/.bioconductor-timecoursedata-post-link.sh
   .bioconductor-timecoursedata-pre-unlink.sh: /usr/local/bin/.bioconductor-timecoursedata-pre-unlink.sh

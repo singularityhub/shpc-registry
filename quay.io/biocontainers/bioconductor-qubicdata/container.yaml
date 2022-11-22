@@ -7,5 +7,4 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:473d6dbb59f23c36cf4d61758d1b6609d2760640df916af9801c22109d07c7aa
 docker: quay.io/biocontainers/bioconductor-qubicdata
 aliases:
-  .bioconductor-qubicdata-post-link.sh: /usr/local/bin/.bioconductor-qubicdata-post-link.sh
   .bioconductor-qubicdata-pre-unlink.sh: /usr/local/bin/.bioconductor-qubicdata-pre-unlink.sh

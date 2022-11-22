@@ -8,5 +8,4 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:dd12495a239fdae3e8092e0c66cdc94c2f977b58f95878061f5ef745d37d9566
 docker: quay.io/biocontainers/bioconductor-gaschyhs
 aliases:
-  .bioconductor-gaschyhs-post-link.sh: /usr/local/bin/.bioconductor-gaschyhs-post-link.sh
   .bioconductor-gaschyhs-pre-unlink.sh: /usr/local/bin/.bioconductor-gaschyhs-pre-unlink.sh

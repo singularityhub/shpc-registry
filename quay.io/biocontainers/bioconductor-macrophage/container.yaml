@@ -9,6 +9,5 @@ tags:
   1.10.0--r41hdfd78af_1: sha256:3c512f0d69491bd4ffc78af5ed8f27e4f900e993c5f4c3454e8f112a236d02af
 docker: quay.io/biocontainers/bioconductor-macrophage
 aliases:
-  .bioconductor-macrophage-post-link.sh: /usr/local/bin/.bioconductor-macrophage-post-link.sh
   .bioconductor-macrophage-pre-unlink.sh: /usr/local/bin/.bioconductor-macrophage-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:bbf0ac698dec54cc8d22955c51b9c27189527f16391f2280b5fa1ec9e6c8c044
 docker: quay.io/biocontainers/bioconductor-paeg1acdf
 aliases:
-  .bioconductor-paeg1acdf-post-link.sh: /usr/local/bin/.bioconductor-paeg1acdf-post-link.sh
   .bioconductor-paeg1acdf-pre-unlink.sh: /usr/local/bin/.bioconductor-paeg1acdf-pre-unlink.sh

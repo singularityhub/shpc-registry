@@ -8,5 +8,4 @@ tags:
   1.0.0--r42hdfd78af_10: sha256:3b8af1a4c11dc55898bab0d8d564075322cd6522f98e2cace088095303b72685
 docker: quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19
 aliases:
-  .bioconductor-fdb.fantom4.promoters.hg19-post-link.sh: /usr/local/bin/.bioconductor-fdb.fantom4.promoters.hg19-post-link.sh
   .bioconductor-fdb.fantom4.promoters.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-fdb.fantom4.promoters.hg19-pre-unlink.sh

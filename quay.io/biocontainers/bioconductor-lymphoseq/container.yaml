@@ -8,5 +8,4 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:b47be6be0d1c98dc47d665375f1896b46256930c01703de0faded78ea3b460d8
 docker: quay.io/biocontainers/bioconductor-lymphoseq
 aliases:
-  .bioconductor-lymphoseqdb-post-link.sh: /usr/local/bin/.bioconductor-lymphoseqdb-post-link.sh
   .bioconductor-lymphoseqdb-pre-unlink.sh: /usr/local/bin/.bioconductor-lymphoseqdb-pre-unlink.sh

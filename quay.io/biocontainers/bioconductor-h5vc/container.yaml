@@ -8,5 +8,4 @@ tags:
   2.32.0--r42hc247a5b_0: sha256:d7c8303b533c2f78df617bfc9bf04c6ea83e9146a3e11be65dd88573200b4364
 docker: quay.io/biocontainers/bioconductor-h5vc
 aliases:
-  .bioconductor-h5vcdata-post-link.sh: /usr/local/bin/.bioconductor-h5vcdata-post-link.sh
   .bioconductor-h5vcdata-pre-unlink.sh: /usr/local/bin/.bioconductor-h5vcdata-pre-unlink.sh

@@ -8,7 +8,6 @@ tags:
   1.2.2--pyhdfd78af_0: sha256:d4c33d67b4f93df58b8237583d39b1c9219240fab54a8c1679bd5c281e70f715
 docker: quay.io/biocontainers/checkm-genome
 aliases:
-  .checkm-genome-post-link.sh: /usr/local/bin/.checkm-genome-post-link.sh
   .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
   checkm: /usr/local/bin/checkm
   rppr: /usr/local/bin/rppr

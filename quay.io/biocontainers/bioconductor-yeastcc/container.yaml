@@ -8,5 +8,4 @@ tags:
   1.38.0--r42hdfd78af_0: sha256:573a4482bd4591dd0a7873edfa66adc8ddb26e8f1b202eb957e2f28ae2aeabed
 docker: quay.io/biocontainers/bioconductor-yeastcc
 aliases:
-  .bioconductor-yeastcc-post-link.sh: /usr/local/bin/.bioconductor-yeastcc-post-link.sh
   .bioconductor-yeastcc-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastcc-pre-unlink.sh

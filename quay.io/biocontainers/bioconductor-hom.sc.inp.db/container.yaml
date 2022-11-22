@@ -7,6 +7,5 @@ tags:
   3.1.3--r40hdfd78af_2: sha256:910107d15acc50d7cca200f978b478341ec6b9b591e14ff93853452bc3f24c51
 docker: quay.io/biocontainers/bioconductor-hom.sc.inp.db
 aliases:
-  .bioconductor-hom.sc.inp.db-post-link.sh: /usr/local/bin/.bioconductor-hom.sc.inp.db-post-link.sh
   .bioconductor-hom.sc.inp.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hom.sc.inp.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

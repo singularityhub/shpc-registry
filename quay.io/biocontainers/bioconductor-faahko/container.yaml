@@ -8,7 +8,6 @@ tags:
   1.38.0--r42hdfd78af_0: sha256:18d818fe3d8e6165a1f845a52e608b35a7af12c662368300376d88827d9d55b0
 docker: quay.io/biocontainers/bioconductor-faahko
 aliases:
-  .bioconductor-faahko-post-link.sh: /usr/local/bin/.bioconductor-faahko-post-link.sh
   .bioconductor-faahko-pre-unlink.sh: /usr/local/bin/.bioconductor-faahko-pre-unlink.sh
   zipcmp: /usr/local/bin/zipcmp
   zipmerge: /usr/local/bin/zipmerge

@@ -8,5 +8,4 @@ tags:
   1.5.0--r42hdfd78af_0: sha256:e1cce3090b111b674fc46c8588c06a091be072f600d2ccf3fc807b6a72ed7d6e
 docker: quay.io/biocontainers/bioconductor-ptairdata
 aliases:
-  .bioconductor-ptairdata-post-link.sh: /usr/local/bin/.bioconductor-ptairdata-post-link.sh
   .bioconductor-ptairdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ptairdata-pre-unlink.sh

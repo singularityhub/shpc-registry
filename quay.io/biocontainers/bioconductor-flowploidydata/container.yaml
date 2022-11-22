@@ -12,7 +12,6 @@ tags:
   1.14.0--r40_0: sha256:a79fdbdde26efea1514424fcc677d80d8ff3c3122f7a0d19517c3bbaca59abdb
 docker: quay.io/biocontainers/bioconductor-flowploidydata
 aliases:
-  .bioconductor-flowploidydata-post-link.sh: /usr/local/bin/.bioconductor-flowploidydata-post-link.sh
   .bioconductor-flowploidydata-pre-unlink.sh: /usr/local/bin/.bioconductor-flowploidydata-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89

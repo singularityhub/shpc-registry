@@ -8,5 +8,4 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d
 docker: quay.io/biocontainers/bioconductor-simpintlists
 aliases:
-  .bioconductor-simpintlists-post-link.sh: /usr/local/bin/.bioconductor-simpintlists-post-link.sh
   .bioconductor-simpintlists-pre-unlink.sh: /usr/local/bin/.bioconductor-simpintlists-pre-unlink.sh

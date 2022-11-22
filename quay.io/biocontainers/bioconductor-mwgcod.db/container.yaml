@@ -7,5 +7,4 @@ tags:
   3.4.0--r41hdfd78af_9: sha256:31815f219e5ecbb6154e2e8100547281d8da9043d97a39d96ecf0e4236b5309c
 docker: quay.io/biocontainers/bioconductor-mwgcod.db
 aliases:
-  .bioconductor-mwgcod.db-post-link.sh: /usr/local/bin/.bioconductor-mwgcod.db-post-link.sh
   .bioconductor-mwgcod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mwgcod.db-pre-unlink.sh

@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:9ca75a92bd48d9b1497cfab627a33fb86c7cf9aeaed1de6d1aa7372653c55efe
 docker: quay.io/biocontainers/bioconductor-mogene10stv1probe
 aliases:
-  .bioconductor-mogene10stv1probe-post-link.sh: /usr/local/bin/.bioconductor-mogene10stv1probe-post-link.sh
   .bioconductor-mogene10stv1probe-pre-unlink.sh: /usr/local/bin/.bioconductor-mogene10stv1probe-pre-unlink.sh

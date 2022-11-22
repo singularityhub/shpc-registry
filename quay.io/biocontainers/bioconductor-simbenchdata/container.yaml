@@ -7,5 +7,4 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:681ad4a4edb5165104ddcf4bc507a59755c70ac44039d3c9d69fc07cb7be67db
 docker: quay.io/biocontainers/bioconductor-simbenchdata
 aliases:
-  .bioconductor-simbenchdata-post-link.sh: /usr/local/bin/.bioconductor-simbenchdata-post-link.sh
   .bioconductor-simbenchdata-pre-unlink.sh: /usr/local/bin/.bioconductor-simbenchdata-pre-unlink.sh

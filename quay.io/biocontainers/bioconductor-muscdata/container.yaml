@@ -8,5 +8,4 @@ tags:
   1.12.0--r42hdfd78af_0: sha256:11e610f3d00f33066cab00c8dc4498f0586bab30bb9e5207c9a76fcdfed47419
 docker: quay.io/biocontainers/bioconductor-muscdata
 aliases:
-  .bioconductor-muscdata-post-link.sh: /usr/local/bin/.bioconductor-muscdata-post-link.sh
   .bioconductor-muscdata-pre-unlink.sh: /usr/local/bin/.bioconductor-muscdata-pre-unlink.sh

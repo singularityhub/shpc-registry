@@ -8,5 +8,4 @@ tags:
   1.15.0--r42hdfd78af_10: sha256:0e8f2922c6c42b28fadfebfc922c412256463568bf9d8eb37855d6ea35602c0e
 docker: quay.io/biocontainers/bioconductor-moexexonprobesetlocation
 aliases:
-  .bioconductor-moexexonprobesetlocation-post-link.sh: /usr/local/bin/.bioconductor-moexexonprobesetlocation-post-link.sh
   .bioconductor-moexexonprobesetlocation-pre-unlink.sh: /usr/local/bin/.bioconductor-moexexonprobesetlocation-pre-unlink.sh

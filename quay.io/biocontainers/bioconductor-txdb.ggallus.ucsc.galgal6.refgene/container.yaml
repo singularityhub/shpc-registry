@@ -7,5 +7,4 @@ tags:
   3.10.0--r41hdfd78af_6: sha256:757cc33d4282dd5b584d333a3a0176a41aafd02b0706b4b972e38214a88f1d98
 docker: quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene
 aliases:
-  .bioconductor-txdb.ggallus.ucsc.galgal6.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.ggallus.ucsc.galgal6.refgene-post-link.sh
   .bioconductor-txdb.ggallus.ucsc.galgal6.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.ggallus.ucsc.galgal6.refgene-pre-unlink.sh

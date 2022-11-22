@@ -7,6 +7,5 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044
 docker: quay.io/biocontainers/bioconductor-dmelsgi
 aliases:
-  .bioconductor-dmelsgi-post-link.sh: /usr/local/bin/.bioconductor-dmelsgi-post-link.sh
   .bioconductor-dmelsgi-pre-unlink.sh: /usr/local/bin/.bioconductor-dmelsgi-pre-unlink.sh
   glpsol: /usr/local/bin/glpsol

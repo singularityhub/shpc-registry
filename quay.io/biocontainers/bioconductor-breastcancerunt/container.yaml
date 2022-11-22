@@ -8,5 +8,4 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:4f2125b7f042834efd42e5fc3d69ec564f83ab66862fd54f4e71913de140fc77
 docker: quay.io/biocontainers/bioconductor-breastcancerunt
 aliases:
-  .bioconductor-breastcancerunt-post-link.sh: /usr/local/bin/.bioconductor-breastcancerunt-post-link.sh
   .bioconductor-breastcancerunt-pre-unlink.sh: /usr/local/bin/.bioconductor-breastcancerunt-pre-unlink.sh

@@ -8,5 +8,4 @@ tags:
   1.38.0--r42hdfd78af_0: sha256:dd8a63e0299dc1b749caa6492046c50048169b970cd6a649391cb2e2d5937405
 docker: quay.io/biocontainers/bioconductor-dyebiasexamples
 aliases:
-  .bioconductor-dyebiasexamples-post-link.sh: /usr/local/bin/.bioconductor-dyebiasexamples-post-link.sh
   .bioconductor-dyebiasexamples-pre-unlink.sh: /usr/local/bin/.bioconductor-dyebiasexamples-pre-unlink.sh

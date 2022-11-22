@@ -8,5 +8,4 @@ tags:
   1.1.0--r42hdfd78af_11: sha256:c5d3acc4ff8a944677e639de0886338d7a3cf5d0989efbcafb75e35e914a2b64
 docker: quay.io/biocontainers/bioconductor-mirbaseversions.db
 aliases:
-  .bioconductor-mirbaseversions.db-post-link.sh: /usr/local/bin/.bioconductor-mirbaseversions.db-post-link.sh
   .bioconductor-mirbaseversions.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirbaseversions.db-pre-unlink.sh

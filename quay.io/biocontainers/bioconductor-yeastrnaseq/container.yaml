@@ -8,5 +8,4 @@ tags:
   0.35.0--r42hdfd78af_0: sha256:9d2bd34842d12a59f65c879b66a67b129c91ce4a209180060512ac6bcbcd83d0
 docker: quay.io/biocontainers/bioconductor-yeastrnaseq
 aliases:
-  .bioconductor-yeastrnaseq-post-link.sh: /usr/local/bin/.bioconductor-yeastrnaseq-post-link.sh
   .bioconductor-yeastrnaseq-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastrnaseq-pre-unlink.sh

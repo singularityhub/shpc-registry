@@ -8,5 +8,4 @@ tags:
   3.9.0--r42hdfd78af_0: sha256:34ba28c8388b3b26eb6da7889936328f325424e412079a49470247f965d4ca9f
 docker: quay.io/biocontainers/bioconductor-flowworkspacedata
 aliases:
-  .bioconductor-flowworkspacedata-post-link.sh: /usr/local/bin/.bioconductor-flowworkspacedata-post-link.sh
   .bioconductor-flowworkspacedata-pre-unlink.sh: /usr/local/bin/.bioconductor-flowworkspacedata-pre-unlink.sh

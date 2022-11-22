@@ -7,7 +7,6 @@ tags:
   0.12.3--py27h2b63b92_3: sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3
 docker: quay.io/biocontainers/rgt
 aliases:
-  .rgt-post-link.sh: /usr/local/bin/.rgt-post-link.sh
   bed2associated_genes.py: /usr/local/bin/bed2associated_genes.py
   bed2fasta.py: /usr/local/bin/bed2fasta.py
   bigBedToBed: /usr/local/bin/bigBedToBed

@@ -8,5 +8,4 @@ tags:
   0.35.0--r42hdfd78af_0: sha256:0e2c5a2a5094de8be31c23c468539755df04befa2238fd598f9b3bccf32ba0b3
 docker: quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14
 aliases:
-  .bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh
   .bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh

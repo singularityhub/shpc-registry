@@ -7,5 +7,4 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:43edb27a668d10ab3c064d2de7dc35710154390d96e4b94462a83fab2e9baa9f
 docker: quay.io/biocontainers/bioconductor-zebrafishprobe
 aliases:
-  .bioconductor-zebrafishprobe-post-link.sh: /usr/local/bin/.bioconductor-zebrafishprobe-post-link.sh
   .bioconductor-zebrafishprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-zebrafishprobe-pre-unlink.sh

@@ -8,5 +8,4 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:50ee96fbe62897c9677fcbac8c7ef44c694ccd186069cd3b5a0d764b66665950
 docker: quay.io/biocontainers/bioconductor-rmassbankdata
 aliases:
-  .bioconductor-rmassbankdata-post-link.sh: /usr/local/bin/.bioconductor-rmassbankdata-post-link.sh
   .bioconductor-rmassbankdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rmassbankdata-pre-unlink.sh

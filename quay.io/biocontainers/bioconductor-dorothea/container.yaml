@@ -7,5 +7,4 @@ tags:
   1.6.0--r41hdfd78af_1: sha256:e9f6245e6c70212bdb4595e7941cf7cab1fe35f32dfd88cd68d4bcdf42ff7ac1
 docker: quay.io/biocontainers/bioconductor-dorothea
 aliases:
-  .bioconductor-dorothea-post-link.sh: /usr/local/bin/.bioconductor-dorothea-post-link.sh
   .bioconductor-dorothea-pre-unlink.sh: /usr/local/bin/.bioconductor-dorothea-pre-unlink.sh

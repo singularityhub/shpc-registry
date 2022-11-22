@@ -7,5 +7,4 @@ tags:
   0.40.0--r41hdfd78af_1: sha256:b91cbc19e73158a8903f5b9edd5d86117f8e88e86e277af80ae5dac2e78f1af8
 docker: quay.io/biocontainers/bioconductor-yeastexpdata
 aliases:
-  .bioconductor-yeastexpdata-post-link.sh: /usr/local/bin/.bioconductor-yeastexpdata-post-link.sh
   .bioconductor-yeastexpdata-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastexpdata-pre-unlink.sh

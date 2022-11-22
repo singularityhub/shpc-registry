@@ -8,5 +8,4 @@ tags:
   3.15.0--r42hdfd78af_0: sha256:e094e0f9b50f311e5781387baab333d6337eeaab46ef1d5c0d5567ab72e24320
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene
 aliases:
-  .bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene-post-link.sh
   .bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene-pre-unlink.sh

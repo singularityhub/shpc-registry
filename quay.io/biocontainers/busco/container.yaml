@@ -7,7 +7,6 @@ tags:
   4.1.2--py37r40_0: sha256:2a1a14f4584c43dd172b1b3501b533ebb7e21b039c69c9ee02b8425abf462ea1
 docker: quay.io/biocontainers/busco
 aliases:
-  .busco-post-link.sh: /usr/local/bin/.busco-post-link.sh
   busco: /usr/local/bin/busco
   busco_configurator.py: /usr/local/bin/busco_configurator.py
   find: /usr/local/bin/find

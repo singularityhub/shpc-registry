@@ -7,5 +7,4 @@ tags:
   3.4.6--r41hdfd78af_8: sha256:7cf1187a5abff7dda1ad19db3a7f4b7df751c2774a4b3998c77b21f499d19a63
 docker: quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene
 aliases:
-  .bioconductor-txdb.celegans.ucsc.ce11.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.refgene-post-link.sh
   .bioconductor-txdb.celegans.ucsc.ce11.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.refgene-pre-unlink.sh

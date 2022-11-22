@@ -7,7 +7,6 @@ tags:
   1.2--h9ee0642_0: sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b
 docker: quay.io/biocontainers/codan
 aliases:
-  .codan-post-link.sh: /usr/local/bin/.codan-post-link.sh
   codan.py: /usr/local/bin/codan.py
   fasta_to_tops: /usr/local/bin/fasta_to_tops
   predict: /usr/local/bin/predict

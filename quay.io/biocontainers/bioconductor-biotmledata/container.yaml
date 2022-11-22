@@ -12,7 +12,6 @@ tags:
   1.13.0--r40_0: sha256:211410079f2bc9f052adcf68aa4a6e0689203ce8526c043e99d6e3d032706d54
 docker: quay.io/biocontainers/bioconductor-biotmledata
 aliases:
-  .bioconductor-biotmledata-post-link.sh: /usr/local/bin/.bioconductor-biotmledata-post-link.sh
   .bioconductor-biotmledata-pre-unlink.sh: /usr/local/bin/.bioconductor-biotmledata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

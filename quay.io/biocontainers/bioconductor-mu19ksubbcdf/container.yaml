@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:6daeaf2c15b26f596dccb9725ba47e36bf91b63eb614fafaa4484752642e951c
 docker: quay.io/biocontainers/bioconductor-mu19ksubbcdf
 aliases:
-  .bioconductor-mu19ksubbcdf-post-link.sh: /usr/local/bin/.bioconductor-mu19ksubbcdf-post-link.sh
   .bioconductor-mu19ksubbcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mu19ksubbcdf-pre-unlink.sh

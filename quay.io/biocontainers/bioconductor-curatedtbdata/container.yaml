@@ -7,5 +7,4 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:95afeb6766915b3ed62b07dda01619ff03efa833454b96e19ef7f9a96156fca1
 docker: quay.io/biocontainers/bioconductor-curatedtbdata
 aliases:
-  .bioconductor-curatedtbdata-post-link.sh: /usr/local/bin/.bioconductor-curatedtbdata-post-link.sh
   .bioconductor-curatedtbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedtbdata-pre-unlink.sh

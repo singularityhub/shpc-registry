@@ -8,5 +8,4 @@ tags:
   1.4.8--r42hdfd78af_10: sha256:2327f37e985579ebbc3422adf4b9d950fa6730095c98cca6be66a1e4c1f702c1
 docker: quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db
 aliases:
-  .bioconductor-illuminahumanmethylation27k.db-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylation27k.db-post-link.sh
   .bioconductor-illuminahumanmethylation27k.db-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylation27k.db-pre-unlink.sh

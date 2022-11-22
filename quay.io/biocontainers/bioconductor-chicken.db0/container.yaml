@@ -12,7 +12,6 @@ tags:
   3.11.2--r40_0: sha256:72c4616dc485ce1d8285bca208b25b4b56d7a726150d4558cd205dfb7b5c73dc
 docker: quay.io/biocontainers/bioconductor-chicken.db0
 aliases:
-  .bioconductor-chicken.db0-post-link.sh: /usr/local/bin/.bioconductor-chicken.db0-post-link.sh
   .bioconductor-chicken.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-chicken.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

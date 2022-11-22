@@ -11,6 +11,5 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:38168225d09d458780a1c8bfe3d63cca6969d58d6d722d47a575ebc979daf247
 docker: quay.io/biocontainers/bioconductor-tissuetreg
 aliases:
-  .bioconductor-tissuetreg-post-link.sh: /usr/local/bin/.bioconductor-tissuetreg-post-link.sh
   .bioconductor-tissuetreg-pre-unlink.sh: /usr/local/bin/.bioconductor-tissuetreg-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

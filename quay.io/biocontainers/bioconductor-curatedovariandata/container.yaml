@@ -8,5 +8,4 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:01ad8594de63d543c841949444ef6ebd47791c50c6e49f35d8a7a7ceffecf22a
 docker: quay.io/biocontainers/bioconductor-curatedovariandata
 aliases:
-  .bioconductor-curatedovariandata-post-link.sh: /usr/local/bin/.bioconductor-curatedovariandata-post-link.sh
   .bioconductor-curatedovariandata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedovariandata-pre-unlink.sh

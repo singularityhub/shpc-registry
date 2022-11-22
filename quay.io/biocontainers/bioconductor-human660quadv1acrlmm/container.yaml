@@ -8,5 +8,4 @@ tags:
   1.0.3--r42hdfd78af_10: sha256:7bdb3b87f6364100a392394580e0b80c4ab78313ca881ff69a8e9d9db4325d8c
 docker: quay.io/biocontainers/bioconductor-human660quadv1acrlmm
 aliases:
-  .bioconductor-human660quadv1acrlmm-post-link.sh: /usr/local/bin/.bioconductor-human660quadv1acrlmm-post-link.sh
   .bioconductor-human660quadv1acrlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-human660quadv1acrlmm-pre-unlink.sh

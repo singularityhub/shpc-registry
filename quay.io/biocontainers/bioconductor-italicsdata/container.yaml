@@ -8,5 +8,4 @@ tags:
   2.36.0--r42hdfd78af_0: sha256:ce574f2034def617207ced60a91ad200e85cf90221cc2d6dda492c6900c8b34b
 docker: quay.io/biocontainers/bioconductor-italicsdata
 aliases:
-  .bioconductor-italicsdata-post-link.sh: /usr/local/bin/.bioconductor-italicsdata-post-link.sh
   .bioconductor-italicsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-italicsdata-pre-unlink.sh

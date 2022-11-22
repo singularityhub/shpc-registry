@@ -7,5 +7,4 @@ tags:
   1.28.0--r41hdfd78af_1: sha256:92de73d6081bf69cf0dcf89318590a7fed87f607f1d47a15effe352fd8427331
 docker: quay.io/biocontainers/bioconductor-seqc
 aliases:
-  .bioconductor-seqc-post-link.sh: /usr/local/bin/.bioconductor-seqc-post-link.sh
   .bioconductor-seqc-pre-unlink.sh: /usr/local/bin/.bioconductor-seqc-pre-unlink.sh

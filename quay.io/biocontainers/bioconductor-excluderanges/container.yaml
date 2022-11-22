@@ -8,5 +8,4 @@ tags:
   0.99.6--r42hdfd78af_2: sha256:d8665a88f8c5082659fa7c7bc7b4abcbb2399490cb1f96bd7193a0184217d36d
 docker: quay.io/biocontainers/bioconductor-excluderanges
 aliases:
-  .bioconductor-excluderanges-post-link.sh: /usr/local/bin/.bioconductor-excluderanges-post-link.sh
   .bioconductor-excluderanges-pre-unlink.sh: /usr/local/bin/.bioconductor-excluderanges-pre-unlink.sh

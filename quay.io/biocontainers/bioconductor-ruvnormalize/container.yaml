@@ -7,5 +7,4 @@ tags:
   1.28.0--r41hdfd78af_0: sha256:46e3c4291a2ce7c0736c24daf4273bc24dacf3fea335a91fc6ffa28eb1b85246
 docker: quay.io/biocontainers/bioconductor-ruvnormalize
 aliases:
-  .bioconductor-ruvnormalizedata-post-link.sh: /usr/local/bin/.bioconductor-ruvnormalizedata-post-link.sh
   .bioconductor-ruvnormalizedata-pre-unlink.sh: /usr/local/bin/.bioconductor-ruvnormalizedata-pre-unlink.sh

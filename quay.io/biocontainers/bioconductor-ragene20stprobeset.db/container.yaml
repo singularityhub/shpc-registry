@@ -7,5 +7,4 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:54d8261156a6faa17523df1ebba3ea876b260406439e31ad8de3b9abf841d160
 docker: quay.io/biocontainers/bioconductor-ragene20stprobeset.db
 aliases:
-  .bioconductor-ragene20stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-ragene20stprobeset.db-post-link.sh
   .bioconductor-ragene20stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ragene20stprobeset.db-pre-unlink.sh

@@ -12,7 +12,6 @@ tags:
   1.16.0--r41hdfd78af_0: sha256:0e9c7acffa03e04a2394eb5b20c07ab0175a3dd5a39a874b2d5fbd04f1309fa5
 docker: quay.io/biocontainers/bioconductor-ritandata
 aliases:
-  .bioconductor-ritandata-post-link.sh: /usr/local/bin/.bioconductor-ritandata-post-link.sh
   .bioconductor-ritandata-pre-unlink.sh: /usr/local/bin/.bioconductor-ritandata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

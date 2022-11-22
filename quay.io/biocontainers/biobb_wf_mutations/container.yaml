@@ -7,7 +7,6 @@ tags:
   0.0.6--py_0: sha256:d8c4be020cfa729de2c4a18a0369789b68a3ef48994f91aa87a6b7d7502735a5
 docker: quay.io/biocontainers/biobb_wf_mutations
 aliases:
-  .biobb_wf_mutations-post-link.sh: /usr/local/bin/.biobb_wf_mutations-post-link.sh
   GMXRC: /usr/local/bin/GMXRC
   GMXRC.bash: /usr/local/bin/GMXRC.bash
   GMXRC.csh: /usr/local/bin/GMXRC.csh

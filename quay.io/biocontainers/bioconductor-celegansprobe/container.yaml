@@ -7,5 +7,4 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:909efb89feb7423402ffb713a5df1f854226ba6111dadaa16def9de105b5449e
 docker: quay.io/biocontainers/bioconductor-celegansprobe
 aliases:
-  .bioconductor-celegansprobe-post-link.sh: /usr/local/bin/.bioconductor-celegansprobe-post-link.sh
   .bioconductor-celegansprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-celegansprobe-pre-unlink.sh

@@ -8,5 +8,4 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:8be8849c43d3629668e5747359c0f8ec9460bb9dfaed87cf31e9898bda47c0fb
 docker: quay.io/biocontainers/bioconductor-gse62944
 aliases:
-  .bioconductor-gse62944-post-link.sh: /usr/local/bin/.bioconductor-gse62944-post-link.sh
   .bioconductor-gse62944-pre-unlink.sh: /usr/local/bin/.bioconductor-gse62944-pre-unlink.sh

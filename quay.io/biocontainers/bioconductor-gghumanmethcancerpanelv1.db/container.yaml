@@ -8,5 +8,4 @@ tags:
   1.4.1--r42hdfd78af_10: sha256:7ebfdfa2d7177c31308936e2e51ff394cef4d46f723eb5cb2652224538faa788
 docker: quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db
 aliases:
-  .bioconductor-gghumanmethcancerpanelv1.db-post-link.sh: /usr/local/bin/.bioconductor-gghumanmethcancerpanelv1.db-post-link.sh
   .bioconductor-gghumanmethcancerpanelv1.db-pre-unlink.sh: /usr/local/bin/.bioconductor-gghumanmethcancerpanelv1.db-pre-unlink.sh

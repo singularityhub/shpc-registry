@@ -10,7 +10,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:ce56df3e0b4753b779d7a3c58af4d2b9d8d583ee596ec2a56f0010f672c49ae3
 docker: quay.io/biocontainers/bioconductor-rrbsdata
 aliases:
-  .bioconductor-rrbsdata-post-link.sh: /usr/local/bin/.bioconductor-rrbsdata-post-link.sh
   .bioconductor-rrbsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rrbsdata-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8

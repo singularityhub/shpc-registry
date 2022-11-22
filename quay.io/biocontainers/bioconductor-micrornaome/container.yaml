@@ -12,7 +12,6 @@ tags:
   1.10.0--r40_0: sha256:15d3f600292d6a68bbb4b83d4046f22de3a03c2526910543213ff80dd5e45c9b
 docker: quay.io/biocontainers/bioconductor-micrornaome
 aliases:
-  .bioconductor-micrornaome-post-link.sh: /usr/local/bin/.bioconductor-micrornaome-post-link.sh
   .bioconductor-micrornaome-pre-unlink.sh: /usr/local/bin/.bioconductor-micrornaome-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

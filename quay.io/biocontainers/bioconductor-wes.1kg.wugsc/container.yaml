@@ -8,5 +8,4 @@ tags:
   1.29.0--r42hdfd78af_0: sha256:c4d6811b7ea65754b1bcc8a362bdab326efcb415a32f3cb867e2dededf734d1f
 docker: quay.io/biocontainers/bioconductor-wes.1kg.wugsc
 aliases:
-  .bioconductor-wes.1kg.wugsc-post-link.sh: /usr/local/bin/.bioconductor-wes.1kg.wugsc-post-link.sh
   .bioconductor-wes.1kg.wugsc-pre-unlink.sh: /usr/local/bin/.bioconductor-wes.1kg.wugsc-pre-unlink.sh

@@ -8,5 +8,4 @@ tags:
   1.82.0--r42hdfd78af_0: sha256:f5c20f013ce4af8a4123761abe734a76244ce122414624ea206bd3e58bc61ec6
 docker: quay.io/biocontainers/bioconductor-reactome.db
 aliases:
-  .bioconductor-reactome.db-post-link.sh: /usr/local/bin/.bioconductor-reactome.db-post-link.sh
   .bioconductor-reactome.db-pre-unlink.sh: /usr/local/bin/.bioconductor-reactome.db-pre-unlink.sh

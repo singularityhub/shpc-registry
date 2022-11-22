@@ -8,5 +8,4 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:100776379785f0b1a2ea1652c37191275df27a187da35a229a3d4b55ef62e2ba
 docker: quay.io/biocontainers/bioconductor-test2cdf
 aliases:
-  .bioconductor-test2cdf-post-link.sh: /usr/local/bin/.bioconductor-test2cdf-post-link.sh
   .bioconductor-test2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-test2cdf-pre-unlink.sh

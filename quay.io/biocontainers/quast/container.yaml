@@ -7,7 +7,6 @@ tags:
   5.2.0--py39pl5321h2add14b_2: sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6
 docker: quay.io/biocontainers/quast
 aliases:
-  .quast-post-link.sh: /usr/local/bin/.quast-post-link.sh
   .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
   icarus.py: /usr/local/bin/icarus.py
   metaquast: /usr/local/bin/metaquast

@@ -7,5 +7,4 @@ tags:
   1.8.0--r41hdfd78af_1: sha256:7fea50e299c4f84f96ade804b29fd45795c23aeaf7a65038418e474c21eeef50
 docker: quay.io/biocontainers/bioconductor-rnamodr.data
 aliases:
-  .bioconductor-rnamodr.data-post-link.sh: /usr/local/bin/.bioconductor-rnamodr.data-post-link.sh
   .bioconductor-rnamodr.data-pre-unlink.sh: /usr/local/bin/.bioconductor-rnamodr.data-pre-unlink.sh

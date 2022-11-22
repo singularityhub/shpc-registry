@@ -8,5 +8,4 @@ tags:
   0.99.6--r42hdfd78af_1: sha256:7dc74ca635be29e237ee383f9b9dd18fa1a6f75f7eebf76c37976181bba9a105
 docker: quay.io/biocontainers/bioconductor-geneplast.data
 aliases:
-  .bioconductor-geneplast.data-post-link.sh: /usr/local/bin/.bioconductor-geneplast.data-post-link.sh
   .bioconductor-geneplast.data-pre-unlink.sh: /usr/local/bin/.bioconductor-geneplast.data-pre-unlink.sh

@@ -12,7 +12,6 @@ tags:
   3.11.2--r40_0: sha256:0de158937caa4715b7b5fa1932a294ba72dfb1d795279cc7b25e69fa912662bb
 docker: quay.io/biocontainers/bioconductor-worm.db0
 aliases:
-  .bioconductor-worm.db0-post-link.sh: /usr/local/bin/.bioconductor-worm.db0-post-link.sh
   .bioconductor-worm.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-worm.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89

@@ -8,5 +8,4 @@ tags:
   1.1.0--r41hdfd78af_10: sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659
 docker: quay.io/biocontainers/bioconductor-grasp2db
 aliases:
-  .bioconductor-grasp2db-post-link.sh: /usr/local/bin/.bioconductor-grasp2db-post-link.sh
   .bioconductor-grasp2db-pre-unlink.sh: /usr/local/bin/.bioconductor-grasp2db-pre-unlink.sh
