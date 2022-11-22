@@ -7,7 +7,6 @@ tags:
   1.1.7--py_0: sha256:6a655f22bb3f4cadfa3fe26daf20e535470ceff3df6c2875e2576bfd63c1aee9
 docker: quay.io/biocontainers/nglview
 aliases:
-  .nglview-pre-unlink.sh: /usr/local/bin/.nglview-pre-unlink.sh
   nglview: /usr/local/bin/nglview
   conv-template: /usr/local/bin/conv-template
   from-template: /usr/local/bin/from-template

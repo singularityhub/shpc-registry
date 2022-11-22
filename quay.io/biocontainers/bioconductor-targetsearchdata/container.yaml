@@ -7,4 +7,3 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:4fbc3e52139c59f159633c3e677c175936844d4d423b06984a63557ad6c75684
 docker: quay.io/biocontainers/bioconductor-targetsearchdata
 aliases:
-  .bioconductor-targetsearchdata-pre-unlink.sh: /usr/local/bin/.bioconductor-targetsearchdata-pre-unlink.sh

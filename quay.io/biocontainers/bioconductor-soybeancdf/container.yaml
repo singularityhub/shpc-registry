@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:f92f0120a63cfe36441277df73af063c7dcc0d383693067a836bb58f7acd4e97
 docker: quay.io/biocontainers/bioconductor-soybeancdf
 aliases:
-  .bioconductor-soybeancdf-pre-unlink.sh: /usr/local/bin/.bioconductor-soybeancdf-pre-unlink.sh

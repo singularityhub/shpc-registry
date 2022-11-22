@@ -9,5 +9,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:436ab6d9bd7cd8fb6b88e7dcd12e7e8ca29a79889f906e3ff05ca29727e79b16
 docker: quay.io/biocontainers/bioconductor-brainimagerdata
 aliases:
-  .bioconductor-brainimagerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-brainimagerdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

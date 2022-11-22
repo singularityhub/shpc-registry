@@ -8,4 +8,3 @@ tags:
   2.18.0--r41hdfd78af_10: sha256:386bd3a3324603becaad34c3e8d9ebe2c7546b798b452533383febcbc147f872
 docker: quay.io/biocontainers/bioconductor-wheatprobe
 aliases:
-  .bioconductor-wheatprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-wheatprobe-pre-unlink.sh

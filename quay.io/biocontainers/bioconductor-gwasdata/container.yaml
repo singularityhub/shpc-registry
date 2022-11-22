@@ -7,7 +7,6 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba
 docker: quay.io/biocontainers/bioconductor-gwasdata
 aliases:
-  .bioconductor-gwasdata-pre-unlink.sh: /usr/local/bin/.bioconductor-gwasdata-pre-unlink.sh
   f2py3.10: /usr/local/bin/f2py3.10
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10

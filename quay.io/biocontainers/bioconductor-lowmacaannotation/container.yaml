@@ -7,4 +7,3 @@ tags:
   0.99.3--r41hdfd78af_9: sha256:dbc4ab06b35d462c65a2be4019c2f51985707801243c33dd3ada3d9714fcf6eb
 docker: quay.io/biocontainers/bioconductor-lowmacaannotation
 aliases:
-  .bioconductor-lowmacaannotation-pre-unlink.sh: /usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh

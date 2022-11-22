@@ -8,7 +8,6 @@ tags:
   1.6.0--r42hdfd78af_0: sha256:98ad01d2d47e344410e8a9bdc12d3c2e206836951abcb310abb10f1a6369855b
 docker: quay.io/biocontainers/bioconductor-imcdatasets
 aliases:
-  .bioconductor-imcdatasets-pre-unlink.sh: /usr/local/bin/.bioconductor-imcdatasets-pre-unlink.sh
   pg_amcheck: /usr/local/bin/pg_amcheck
   gdal_create: /usr/local/bin/gdal_create
   pdfsig: /usr/local/bin/pdfsig

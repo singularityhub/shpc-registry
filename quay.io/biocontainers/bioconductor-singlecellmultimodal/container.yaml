@@ -8,7 +8,6 @@ tags:
   1.10.0--r42hdfd78af_0: sha256:9f23bb5791d35baa3086b62294f0ca5df0821c3aa1606cdc4cfca8d03176f04c
 docker: quay.io/biocontainers/bioconductor-singlecellmultimodal
 aliases:
-  .bioconductor-singlecellmultimodal-pre-unlink.sh: /usr/local/bin/.bioconductor-singlecellmultimodal-pre-unlink.sh
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config

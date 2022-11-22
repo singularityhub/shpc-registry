@@ -12,7 +12,6 @@ tags:
   1.14.0--r40_0: sha256:bfc29996b52830a1921ab2e79b11fab56b384c4dd64b1bde45d4ad169d1b154d
 docker: quay.io/biocontainers/bioconductor-cellmapperdata
 aliases:
-  .bioconductor-cellmapperdata-pre-unlink.sh: /usr/local/bin/.bioconductor-cellmapperdata-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

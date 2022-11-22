@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:b8fbe87417052fd4f8f9bfa8d94107a1f266db1c3f8a32f116efefda1263752e
 docker: quay.io/biocontainers/bioconductor-cottoncdf
 aliases:
-  .bioconductor-cottoncdf-pre-unlink.sh: /usr/local/bin/.bioconductor-cottoncdf-pre-unlink.sh

@@ -8,4 +8,3 @@ tags:
   1.38.0--r42hdfd78af_0: sha256:131067016f19f9bec67d546b949dc508a617a21e3835411aaa07c34b3dbcb26c
 docker: quay.io/biocontainers/bioconductor-ampaffyexample
 aliases:
-  .bioconductor-ampaffyexample-pre-unlink.sh: /usr/local/bin/.bioconductor-ampaffyexample-pre-unlink.sh

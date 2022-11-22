@@ -8,4 +8,3 @@ tags:
   1.15.0--r42hdfd78af_10: sha256:afaa2e116c3addf8b1832c53e077c226be64cfc0b940ec42dc63682a0736be06
 docker: quay.io/biocontainers/bioconductor-raexexonprobesetlocation
 aliases:
-  .bioconductor-raexexonprobesetlocation-pre-unlink.sh: /usr/local/bin/.bioconductor-raexexonprobesetlocation-pre-unlink.sh

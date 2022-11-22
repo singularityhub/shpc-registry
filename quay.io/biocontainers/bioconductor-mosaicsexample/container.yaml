@@ -8,4 +8,3 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:1bfdb74522ac80dca43bcd0cfe9804b3fb44591997b2edc905d10202c4ee8644
 docker: quay.io/biocontainers/bioconductor-mosaicsexample
 aliases:
-  .bioconductor-mosaicsexample-pre-unlink.sh: /usr/local/bin/.bioconductor-mosaicsexample-pre-unlink.sh

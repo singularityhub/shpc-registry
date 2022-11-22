@@ -8,4 +8,3 @@ tags:
   1.4.0--r42hdfd78af_0: sha256:0bad3b51b2a7a551b401ab5255d7174b6bacd287c03ea4e4e2a1787327553a02
 docker: quay.io/biocontainers/bioconductor-rlhub
 aliases:
-  .bioconductor-rlhub-pre-unlink.sh: /usr/local/bin/.bioconductor-rlhub-pre-unlink.sh

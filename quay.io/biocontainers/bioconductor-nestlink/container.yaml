@@ -8,5 +8,4 @@ tags:
   1.10.0--r41hdfd78af_1: sha256:69db6e6a2cdc4651683c2988ac0cba688db3f962ffe8d4de81ec74084158beee
 docker: quay.io/biocontainers/bioconductor-nestlink
 aliases:
-  .bioconductor-nestlink-pre-unlink.sh: /usr/local/bin/.bioconductor-nestlink-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

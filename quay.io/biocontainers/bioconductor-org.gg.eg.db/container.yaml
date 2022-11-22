@@ -12,7 +12,6 @@ tags:
   3.11.1--r40_0: sha256:0c0df72cc626d1f6a56a89cb11086efaddead03dec05f3e728b0cf9b0c8bc907
 docker: quay.io/biocontainers/bioconductor-org.gg.eg.db
 aliases:
-  .bioconductor-org.gg.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.gg.eg.db-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

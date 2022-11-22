@@ -7,7 +7,6 @@ tags:
   20151101.24.0--r41hdfd78af_1: sha256:9c63afdd9a5b588e90b9cf82cca1f4eaed3704b6619dfff4799b0ff8cf9a0def
 docker: quay.io/biocontainers/bioconductor-rtcga.clinical
 aliases:
-  .bioconductor-rtcga.clinical-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.clinical-pre-unlink.sh
   f2py3.10: /usr/local/bin/f2py3.10
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10

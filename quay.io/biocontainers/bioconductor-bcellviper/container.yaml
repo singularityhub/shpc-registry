@@ -8,4 +8,3 @@ tags:
   1.34.0--r42hdfd78af_0: sha256:52390641f5268fa4545b1843a965893c2b121f0d661ec92e54cb10c4f55cc28c
 docker: quay.io/biocontainers/bioconductor-bcellviper
 aliases:
-  .bioconductor-bcellviper-pre-unlink.sh: /usr/local/bin/.bioconductor-bcellviper-pre-unlink.sh

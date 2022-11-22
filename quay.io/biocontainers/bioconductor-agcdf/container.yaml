@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:e3a956a892191db160b51f3c43e3166367b3b036a1c8cf1e82a85e9627014739
 docker: quay.io/biocontainers/bioconductor-agcdf
 aliases:
-  .bioconductor-agcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-agcdf-pre-unlink.sh

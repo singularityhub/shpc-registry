@@ -8,4 +8,3 @@ tags:
   1.27.0--r42hdfd78af_0: sha256:c071c5387e096b47589cbd34184e15945b25deb471ce89c8b1e17ab60d104ba2
 docker: quay.io/biocontainers/bioconductor-mtbls2
 aliases:
-  .bioconductor-mtbls2-pre-unlink.sh: /usr/local/bin/.bioconductor-mtbls2-pre-unlink.sh

@@ -8,4 +8,3 @@ tags:
   4.32.0--r42hdfd78af_0: sha256:64b4cdef6d6684f96a01c5ac276a6bd23c719ca5c465360dc29c4ea8eace6467
 docker: quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background
 aliases:
-  .bioconductor-pwmenrich.hsapiens.background-pre-unlink.sh: /usr/local/bin/.bioconductor-pwmenrich.hsapiens.background-pre-unlink.sh

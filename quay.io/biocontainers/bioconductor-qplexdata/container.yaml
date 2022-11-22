@@ -10,7 +10,6 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:f3f2de2557318d152027bbfc5a899dabef479f4128316f8c40f043aece5250b1
 docker: quay.io/biocontainers/bioconductor-qplexdata
 aliases:
-  .bioconductor-qplexdata-pre-unlink.sh: /usr/local/bin/.bioconductor-qplexdata-pre-unlink.sh
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen

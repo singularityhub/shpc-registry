@@ -8,5 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:a526fc7216bc6f56f6a8560d9bc3b9b81ef8efdf30a352901b8ac6cf19c582a3
 docker: quay.io/biocontainers/bioconductor-mouse4302.db
 aliases:
-  .bioconductor-mouse4302.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse4302.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

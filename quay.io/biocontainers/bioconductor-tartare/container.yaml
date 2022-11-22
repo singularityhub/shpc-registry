@@ -8,4 +8,3 @@ tags:
   1.12.0--r42hdfd78af_0: sha256:bc94dad95643989f00f949c7658967dba9244e24b3aa0f2ff0c8f4a387826920
 docker: quay.io/biocontainers/bioconductor-tartare
 aliases:
-  .bioconductor-tartare-pre-unlink.sh: /usr/local/bin/.bioconductor-tartare-pre-unlink.sh

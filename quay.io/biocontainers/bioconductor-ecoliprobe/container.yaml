@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:f4c3d5c95b2a786979e57334f22ed3fee4f3b734d9d51dedd09151060d1c20b0
 docker: quay.io/biocontainers/bioconductor-ecoliprobe
 aliases:
-  .bioconductor-ecoliprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-ecoliprobe-pre-unlink.sh

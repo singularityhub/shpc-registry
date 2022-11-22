@@ -7,4 +7,3 @@ tags:
   3.4.0--r41hdfd78af_9: sha256:1b904438d6fcc54cdd1a90415a7ef38caf0971d4d48f9c8287874f700d944d45
 docker: quay.io/biocontainers/bioconductor-adme16cod.db
 aliases:
-  .bioconductor-adme16cod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-adme16cod.db-pre-unlink.sh

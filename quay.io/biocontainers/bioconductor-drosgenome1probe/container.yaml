@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:b064553cd27a7ee4ae96c01ab2cdd2aa32f866cd16b9fe38215201f4b0402611
 docker: quay.io/biocontainers/bioconductor-drosgenome1probe
 aliases:
-  .bioconductor-drosgenome1probe-pre-unlink.sh: /usr/local/bin/.bioconductor-drosgenome1probe-pre-unlink.sh

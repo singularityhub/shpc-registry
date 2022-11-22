@@ -7,4 +7,3 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:0e757a85b4daca6b197460d815eff2599186fe73ae1363f5b528fe3f3bca310a
 docker: quay.io/biocontainers/bioconductor-methylclockdata
 aliases:
-  .bioconductor-methylclockdata-pre-unlink.sh: /usr/local/bin/.bioconductor-methylclockdata-pre-unlink.sh

@@ -7,4 +7,3 @@ tags:
   1.0.1--r41hdfd78af_9: sha256:d4263a908c63775addab11b179c4e9fae1b2021cc3d774a02c5270b3841e8e48
 docker: quay.io/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm
 aliases:
-  .bioconductor-humancytosnp12v2p1hcrlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-humancytosnp12v2p1hcrlmm-pre-unlink.sh

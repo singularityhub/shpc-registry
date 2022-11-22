@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:6c1e92c8b2f14785bcf23039b0be889d93fa36dd939fac3c2aec0863493bf568
 docker: quay.io/biocontainers/bioconductor-xenopuslaevisprobe
 aliases:
-  .bioconductor-xenopuslaevisprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-xenopuslaevisprobe-pre-unlink.sh

@@ -12,5 +12,4 @@ tags:
   1.17.0--r40_0: sha256:7ad5426adea173fea856cfd1cfa56be3c15d3f1a6f3d3b7cc9bbcf1471a25005
 docker: quay.io/biocontainers/bioconductor-mspuritydata
 aliases:
-  .bioconductor-mspuritydata-pre-unlink.sh: /usr/local/bin/.bioconductor-mspuritydata-pre-unlink.sh
   wget: /usr/local/bin/wget

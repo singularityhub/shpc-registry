@@ -7,5 +7,4 @@ tags:
   1.00.0--r40hdfd78af_6: sha256:93572907e9d9336ad29513f3f6ad2e76bcb4ceafb1e7e5257990c0220d51b631
 docker: quay.io/biocontainers/bioconductor-silva128.1mgdb
 aliases:
-  .bioconductor-silva128.1mgdb-pre-unlink.sh: /usr/local/bin/.bioconductor-silva128.1mgdb-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

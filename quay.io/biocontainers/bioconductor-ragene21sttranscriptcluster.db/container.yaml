@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:d5993de69d5a7113b8909f693de0803dd40bd3ffb4d317f63e25049e7aaacc22
 docker: quay.io/biocontainers/bioconductor-ragene21sttranscriptcluster.db
 aliases:
-  .bioconductor-ragene21sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ragene21sttranscriptcluster.db-pre-unlink.sh

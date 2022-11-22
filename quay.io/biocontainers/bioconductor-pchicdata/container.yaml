@@ -7,5 +7,4 @@ tags:
   1.8.0--r351_0: sha256:31db2d778c86b1ec714ead88f92adc0d87a551573f483912e8a87081d08249e6
 docker: quay.io/biocontainers/bioconductor-pchicdata
 aliases:
-  .bioconductor-pchicdata-pre-unlink.sh: /usr/local/bin/.bioconductor-pchicdata-pre-unlink.sh
   wget: /usr/local/bin/wget

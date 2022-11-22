@@ -8,4 +8,3 @@ tags:
   3.16.0--r42hdfd78af_0: sha256:b339c9b12f932e0e1223f1cee6f852cc66e43e241dc3fa28a87120bc584724b6
 docker: quay.io/biocontainers/bioconductor-orthology.eg.db
 aliases:
-  .bioconductor-orthology.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-orthology.eg.db-pre-unlink.sh

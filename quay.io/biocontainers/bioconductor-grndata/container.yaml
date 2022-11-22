@@ -8,4 +8,3 @@ tags:
   1.29.0--r42hdfd78af_0: sha256:c7074fa46e4e6176ef739b1ddf3a7bef52b91d060fe3313136964dd254c93bb0
 docker: quay.io/biocontainers/bioconductor-grndata
 aliases:
-  .bioconductor-grndata-pre-unlink.sh: /usr/local/bin/.bioconductor-grndata-pre-unlink.sh

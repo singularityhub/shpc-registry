@@ -8,4 +8,3 @@ tags:
   2.18.0--r41hdfd78af_10: sha256:0747b15cfd946eb3e44a9c1b626b92db831f0508139818ae106a09809c71a13b
 docker: quay.io/biocontainers/bioconductor-vitisviniferacdf
 aliases:
-  .bioconductor-vitisviniferacdf-pre-unlink.sh: /usr/local/bin/.bioconductor-vitisviniferacdf-pre-unlink.sh

@@ -8,5 +8,4 @@ tags:
   1.6.0--r42hdfd78af_0: sha256:0db19fb3bc401c252e1e5d9bbcfebead0f4239aa10d7673609f278edfb384afb
 docker: quay.io/biocontainers/bioconductor-scpdata
 aliases:
-  .bioconductor-scpdata-pre-unlink.sh: /usr/local/bin/.bioconductor-scpdata-pre-unlink.sh
   glpsol: /usr/local/bin/glpsol

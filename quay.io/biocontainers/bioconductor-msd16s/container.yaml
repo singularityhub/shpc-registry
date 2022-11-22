@@ -11,7 +11,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:d3f87842e4eb4470c7b0a05725c7104d7bc633bff550ea231b392751b0bb2015
 docker: quay.io/biocontainers/bioconductor-msd16s
 aliases:
-  .bioconductor-msd16s-pre-unlink.sh: /usr/local/bin/.bioconductor-msd16s-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8

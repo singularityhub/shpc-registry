@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:c971cf1f2e8ad6f96b56b56ba2ddc521605fa47f57866fd6f366acdbc3e32319
 docker: quay.io/biocontainers/bioconductor-citrusprobe
 aliases:
-  .bioconductor-citrusprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-citrusprobe-pre-unlink.sh

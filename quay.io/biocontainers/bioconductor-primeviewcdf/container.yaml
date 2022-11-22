@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:aed6718598157afa26fbb8d4e7dcbdb809f03825efedbac865b9769473476f54
 docker: quay.io/biocontainers/bioconductor-primeviewcdf
 aliases:
-  .bioconductor-primeviewcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-primeviewcdf-pre-unlink.sh

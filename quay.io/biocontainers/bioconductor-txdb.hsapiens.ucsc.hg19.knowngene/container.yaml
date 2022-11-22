@@ -8,5 +8,4 @@ tags:
   3.2.2--r41hdfd78af_13: sha256:2e032e5b8e95ac55031d314df8ab512e743938d79b022bc911bbf235c9893de3
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 aliases:
-  .bioconductor-txdb.hsapiens.ucsc.hg19.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg19.knowngene-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

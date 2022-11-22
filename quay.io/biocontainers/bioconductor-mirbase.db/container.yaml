@@ -7,4 +7,3 @@ tags:
   1.2.0--r41hdfd78af_9: sha256:61cb11fc70be45577dd3b9d16892aa1118e56fe49259c2ce6831e750a36b4b3e
 docker: quay.io/biocontainers/bioconductor-mirbase.db
 aliases:
-  .bioconductor-mirbase.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirbase.db-pre-unlink.sh

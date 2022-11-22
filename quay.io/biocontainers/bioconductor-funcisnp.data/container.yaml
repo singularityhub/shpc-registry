@@ -7,7 +7,6 @@ tags:
   1.22.0--r36_0: sha256:da9aba17b782dcead39d4ded37ce0d3bfc21fec797592600e55039ceda7ac6a4
 docker: quay.io/biocontainers/bioconductor-funcisnp.data
 aliases:
-  .bioconductor-funcisnp.data-pre-unlink.sh: /usr/local/bin/.bioconductor-funcisnp.data-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

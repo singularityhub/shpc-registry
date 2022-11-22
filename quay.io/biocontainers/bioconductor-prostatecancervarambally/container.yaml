@@ -8,4 +8,3 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:87a534a2c6fd75b256c074e316ad73f63732fdf63caa5a33da826671612a49f0
 docker: quay.io/biocontainers/bioconductor-prostatecancervarambally
 aliases:
-  .bioconductor-prostatecancervarambally-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancervarambally-pre-unlink.sh

@@ -12,7 +12,6 @@ tags:
   1.10.0--r36_1: sha256:f660567828938561d4c9cfe498afb6e5eda3fb7abe9e949f95a6a5207c8400be
 docker: quay.io/biocontainers/bioconductor-minfidataepic
 aliases:
-  .bioconductor-minfidataepic-pre-unlink.sh: /usr/local/bin/.bioconductor-minfidataepic-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

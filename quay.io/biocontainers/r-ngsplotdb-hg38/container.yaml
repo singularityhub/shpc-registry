@@ -7,7 +7,6 @@ tags:
   3.00--hdfd78af_6: sha256:09b7858813aa06ca087e5a1536d4b571c193b9b843786e9cfd250c95c4b54f89
 docker: quay.io/biocontainers/r-ngsplotdb-hg38
 aliases:
-  .r-ngsplotdb-hg38-pre-unlink.sh: /usr/local/bin/.r-ngsplotdb-hg38-pre-unlink.sh
   ExtractGName.R: /usr/local/bin/ExtractGName.R
   alt_reg_cufflinks: /usr/local/bin/alt_reg_cufflinks
   alter2bed.pl: /usr/local/bin/alter2bed.pl

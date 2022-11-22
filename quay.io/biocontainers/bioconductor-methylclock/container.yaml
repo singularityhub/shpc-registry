@@ -7,7 +7,6 @@ tags:
   1.0.1--r41hc247a5b_1: sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8
 docker: quay.io/biocontainers/bioconductor-methylclock
 aliases:
-  .bioconductor-methylclockdata-pre-unlink.sh: /usr/local/bin/.bioconductor-methylclockdata-pre-unlink.sh
   git2_cli: /usr/local/bin/git2_cli
   pandoc-server: /usr/local/bin/pandoc-server
   pandoc: /usr/local/bin/pandoc

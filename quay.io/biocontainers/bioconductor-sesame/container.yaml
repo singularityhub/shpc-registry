@@ -9,5 +9,4 @@ tags:
   1.10.3--r41hdfd78af_0: sha256:007b12a01e3653b2aedf514cbd0b94dd73fa1e7f259f1ef1adb5c031d77b14d4
 docker: quay.io/biocontainers/bioconductor-sesame
 aliases:
-  .bioconductor-sesamedata-pre-unlink.sh: /usr/local/bin/.bioconductor-sesamedata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

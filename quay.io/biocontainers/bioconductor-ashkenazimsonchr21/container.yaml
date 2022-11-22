@@ -8,4 +8,3 @@ tags:
   1.28.0--r42hdfd78af_0: sha256:4269b08bb43e5f160b2bac4a85d99a27cc89751c93146f31e7050db6bd8289df
 docker: quay.io/biocontainers/bioconductor-ashkenazimsonchr21
 aliases:
-  .bioconductor-ashkenazimsonchr21-pre-unlink.sh: /usr/local/bin/.bioconductor-ashkenazimsonchr21-pre-unlink.sh

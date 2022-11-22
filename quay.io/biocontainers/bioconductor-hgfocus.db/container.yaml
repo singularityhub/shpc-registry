@@ -8,5 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:6f7f95f2eee18b315f5c5f4d89e84638bb2ab66737ed40b586c5f8cf53167517
 docker: quay.io/biocontainers/bioconductor-hgfocus.db
 aliases:
-  .bioconductor-hgfocus.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgfocus.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

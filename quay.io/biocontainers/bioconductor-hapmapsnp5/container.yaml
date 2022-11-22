@@ -8,4 +8,3 @@ tags:
   1.39.0--r42hdfd78af_0: sha256:6a0b8cc388ab3185c92048dc7c679e086f4e90ebd5685e4afa08bc2de7731857
 docker: quay.io/biocontainers/bioconductor-hapmapsnp5
 aliases:
-  .bioconductor-hapmapsnp5-pre-unlink.sh: /usr/local/bin/.bioconductor-hapmapsnp5-pre-unlink.sh

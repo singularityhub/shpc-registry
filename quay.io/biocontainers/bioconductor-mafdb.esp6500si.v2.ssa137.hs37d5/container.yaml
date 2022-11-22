@@ -8,7 +8,6 @@ tags:
   3.10.0--r40_1: sha256:4de2a51e9601480dbe6466830af814c880097034a6c8764e88d6018980d55934
 docker: quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5
 aliases:
-  .bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

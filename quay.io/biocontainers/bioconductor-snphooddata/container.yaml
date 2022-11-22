@@ -7,4 +7,3 @@ tags:
   1.24.0--r41hdfd78af_1: sha256:ac1cba10c3b5d2e5bc9346328850b20563044726d7572730cb8764616fe1b9dc
 docker: quay.io/biocontainers/bioconductor-snphooddata
 aliases:
-  .bioconductor-snphooddata-pre-unlink.sh: /usr/local/bin/.bioconductor-snphooddata-pre-unlink.sh

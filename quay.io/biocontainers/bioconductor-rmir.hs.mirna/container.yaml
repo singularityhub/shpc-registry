@@ -8,5 +8,4 @@ tags:
   1.0.7--r42hdfd78af_13: sha256:508f1c65684f92cc128306a9b877186a57aa02d152bc4bb05b5fbc91b6bdf0d0
 docker: quay.io/biocontainers/bioconductor-rmir.hs.mirna
 aliases:
-  .bioconductor-rmir.hs.mirna-pre-unlink.sh: /usr/local/bin/.bioconductor-rmir.hs.mirna-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -7,4 +7,3 @@ tags:
   1.34.0--r41hdfd78af_1: sha256:6d8fd4abbb310ca4571df6f998a9b4b43d208708222ffcd870f202d0638e9721
 docker: quay.io/biocontainers/bioconductor-dlbcl
 aliases:
-  .bioconductor-dlbcl-pre-unlink.sh: /usr/local/bin/.bioconductor-dlbcl-pre-unlink.sh

@@ -7,5 +7,4 @@ tags:
   1.8.0--r351_0: sha256:d229e9a26968a39afff6544f39e76cf2e15e544a0ef4ce0377aba8ad977cd46f
 docker: quay.io/biocontainers/bioconductor-ccdata
 aliases:
-  .bioconductor-ccdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh
   wget: /usr/local/bin/wget

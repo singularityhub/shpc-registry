@@ -7,4 +7,3 @@ tags:
   1.0.7--r41hdfd78af_9: sha256:f445455a18f9d4be1183c9010b41085ac54391c28bdda59d5247828b1bc99a3c
 docker: quay.io/biocontainers/bioconductor-genomewidesnp6crlmm
 aliases:
-  .bioconductor-genomewidesnp6crlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-genomewidesnp6crlmm-pre-unlink.sh

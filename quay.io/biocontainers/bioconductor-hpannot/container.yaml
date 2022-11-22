@@ -7,4 +7,3 @@ tags:
   1.1.0--r41hdfd78af_1: sha256:703c035df5903e24a0231fe703ece7d983893d40ef70e5485c6a8872129dce6b
 docker: quay.io/biocontainers/bioconductor-hpannot
 aliases:
-  .bioconductor-hpannot-pre-unlink.sh: /usr/local/bin/.bioconductor-hpannot-pre-unlink.sh

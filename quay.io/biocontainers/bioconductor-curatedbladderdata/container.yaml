@@ -8,4 +8,3 @@ tags:
   1.34.0--r42hdfd78af_0: sha256:a9d62a2e0c14fca3943e1b119782af31c1f5ac6a5e27a123b5f1e22db5016d11
 docker: quay.io/biocontainers/bioconductor-curatedbladderdata
 aliases:
-  .bioconductor-curatedbladderdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedbladderdata-pre-unlink.sh

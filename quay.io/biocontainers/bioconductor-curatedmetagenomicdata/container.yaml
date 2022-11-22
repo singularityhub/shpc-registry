@@ -8,4 +8,3 @@ tags:
   3.6.0--r42hdfd78af_0: sha256:6ac329afb9c6a44b1daad9de8f79bd4a3f950cf003f0aa41160cec7aa63b6b81
 docker: quay.io/biocontainers/bioconductor-curatedmetagenomicdata
 aliases:
-  .bioconductor-curatedmetagenomicdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedmetagenomicdata-pre-unlink.sh

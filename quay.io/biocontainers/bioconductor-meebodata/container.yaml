@@ -8,4 +8,3 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:9835e3a8580204e1657be5d41505c49d66636252b0b6554e130768d47d04813f
 docker: quay.io/biocontainers/bioconductor-meebodata
 aliases:
-  .bioconductor-meebodata-pre-unlink.sh: /usr/local/bin/.bioconductor-meebodata-pre-unlink.sh

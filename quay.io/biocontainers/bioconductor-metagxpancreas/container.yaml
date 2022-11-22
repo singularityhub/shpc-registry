@@ -10,7 +10,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:6f0e3a1cffe33e13b100fc1cfc4dc52356af71163e04c1aa00d5445a55af4ad0
 docker: quay.io/biocontainers/bioconductor-metagxpancreas
 aliases:
-  .bioconductor-metagxpancreas-pre-unlink.sh: /usr/local/bin/.bioconductor-metagxpancreas-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8

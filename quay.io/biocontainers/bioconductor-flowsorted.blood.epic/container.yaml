@@ -9,5 +9,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:c5e9303e93fd05d981c4c9bbb57d43571a7aa5a0d0dfd6d343eeeacffc4a4d0a
 docker: quay.io/biocontainers/bioconductor-flowsorted.blood.epic
 aliases:
-  .bioconductor-flowsorted.blood.epic-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

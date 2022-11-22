@@ -7,7 +7,6 @@ tags:
   1.2.0--r36_1: sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131
 docker: quay.io/biocontainers/bioconductor-mtseekerdata
 aliases:
-  .bioconductor-mtseekerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mtseekerdata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

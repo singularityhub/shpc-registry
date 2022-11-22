@@ -8,4 +8,3 @@ tags:
   2.29.0--r42hdfd78af_0: sha256:732dc2b547e89e3a3c74589b522ada175e28924a3745b4fd579bb41d9d078c05
 docker: quay.io/biocontainers/bioconductor-curatedcrcdata
 aliases:
-  .bioconductor-curatedcrcdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedcrcdata-pre-unlink.sh

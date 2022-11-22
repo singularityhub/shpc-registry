@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:fc06d8382d9154ea65b2e80c5649ade2791e5ee7437f799fb8e71ff8cead89e9
 docker: quay.io/biocontainers/bioconductor-htmg430acdf
 aliases:
-  .bioconductor-htmg430acdf-pre-unlink.sh: /usr/local/bin/.bioconductor-htmg430acdf-pre-unlink.sh

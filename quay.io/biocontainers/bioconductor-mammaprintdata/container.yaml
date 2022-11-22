@@ -8,4 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:c48fe32bcad53344ba47b351e1c83001d5fa45e4ce65e9f1ffe5c9ba4b5ad1bd
 docker: quay.io/biocontainers/bioconductor-mammaprintdata
 aliases:
-  .bioconductor-mammaprintdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mammaprintdata-pre-unlink.sh

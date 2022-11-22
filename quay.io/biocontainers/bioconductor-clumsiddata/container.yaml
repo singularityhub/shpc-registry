@@ -9,5 +9,4 @@ tags:
   1.10.0--r41hdfd78af_1: sha256:17e44862d504158383aa63c414edf3a36e97e2235503825271cac1200633dfd3
 docker: quay.io/biocontainers/bioconductor-clumsiddata
 aliases:
-  .bioconductor-clumsiddata-pre-unlink.sh: /usr/local/bin/.bioconductor-clumsiddata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

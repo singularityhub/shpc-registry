@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:f633cf311371ce69ceee5d2658939ec0544e2675b310fd9cf7bd07b948d7c5de
 docker: quay.io/biocontainers/bioconductor-canine2cdf
 aliases:
-  .bioconductor-canine2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-canine2cdf-pre-unlink.sh

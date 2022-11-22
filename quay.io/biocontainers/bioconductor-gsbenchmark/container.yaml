@@ -11,5 +11,4 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:57959ac51618d3f02b971defbb0c9219143514a39bb4bd5f322ee4d6f55a7baa
 docker: quay.io/biocontainers/bioconductor-gsbenchmark
 aliases:
-  .bioconductor-gsbenchmark-pre-unlink.sh: /usr/local/bin/.bioconductor-gsbenchmark-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

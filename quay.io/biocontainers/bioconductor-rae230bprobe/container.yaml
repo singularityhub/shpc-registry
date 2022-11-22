@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:362780265fc1de5a89f129c90cb43fef2ad7eaae31c5fac259a41ebb62dfe8ab
 docker: quay.io/biocontainers/bioconductor-rae230bprobe
 aliases:
-  .bioconductor-rae230bprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-rae230bprobe-pre-unlink.sh

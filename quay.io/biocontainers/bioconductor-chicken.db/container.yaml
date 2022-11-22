@@ -8,5 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:8cd58228f928c4ac06ee341069c941babd80bb1af423199d7965ecf757f5740e
 docker: quay.io/biocontainers/bioconductor-chicken.db
 aliases:
-  .bioconductor-chicken.db-pre-unlink.sh: /usr/local/bin/.bioconductor-chicken.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

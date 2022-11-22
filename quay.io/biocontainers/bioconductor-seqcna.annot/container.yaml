@@ -9,4 +9,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:73339dd69d669589645aa5eed87f74445fd275c44d16aaffc61e7033dc535275
 docker: quay.io/biocontainers/bioconductor-seqcna.annot
 aliases:
-  .bioconductor-seqcna.annot-pre-unlink.sh: /usr/local/bin/.bioconductor-seqcna.annot-pre-unlink.sh

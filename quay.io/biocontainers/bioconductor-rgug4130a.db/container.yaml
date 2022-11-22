@@ -7,4 +7,3 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:06ede5975a9cdb84a700c3a8b63fe2a43d3cda91c75e1ba14f675aaf85ae3280
 docker: quay.io/biocontainers/bioconductor-rgug4130a.db
 aliases:
-  .bioconductor-rgug4130a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rgug4130a.db-pre-unlink.sh

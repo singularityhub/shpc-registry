@@ -7,4 +7,3 @@ tags:
   1.8.0--r41hdfd78af_1: sha256:8bea3722723df1fd800e892802cc4a0ccd01fbdef3ebdaf2f2fc133013391eec
 docker: quay.io/biocontainers/bioconductor-benchmarkfdrdata2019
 aliases:
-  .bioconductor-benchmarkfdrdata2019-pre-unlink.sh: /usr/local/bin/.bioconductor-benchmarkfdrdata2019-pre-unlink.sh

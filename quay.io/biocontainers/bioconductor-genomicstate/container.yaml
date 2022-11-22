@@ -8,5 +8,4 @@ tags:
   0.99.15--r42hdfd78af_2: sha256:36975643594c1a93863aadec871941fe58d48f85f0da925f061c56e841002813
 docker: quay.io/biocontainers/bioconductor-genomicstate
 aliases:
-  .bioconductor-genomicstate-pre-unlink.sh: /usr/local/bin/.bioconductor-genomicstate-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

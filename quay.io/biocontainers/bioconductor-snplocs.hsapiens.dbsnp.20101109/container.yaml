@@ -7,4 +7,3 @@ tags:
   0.99.7--r41hdfd78af_9: sha256:9beed3d3fbf3ec81cf10b9efbdf6af9f3e3fe8354e81452b2efeabc370991891
 docker: quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109
 aliases:
-  .bioconductor-snplocs.hsapiens.dbsnp.20101109-pre-unlink.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp.20101109-pre-unlink.sh

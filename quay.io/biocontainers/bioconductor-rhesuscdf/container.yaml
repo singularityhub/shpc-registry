@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:c1c41059f31e5865d9bb6b7e2d14f82e80f1903f38f5e4139e8bc7fa47a74581
 docker: quay.io/biocontainers/bioconductor-rhesuscdf
 aliases:
-  .bioconductor-rhesuscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-rhesuscdf-pre-unlink.sh

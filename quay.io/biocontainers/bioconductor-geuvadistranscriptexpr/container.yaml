@@ -8,4 +8,3 @@ tags:
   1.25.0--r42hdfd78af_0: sha256:576a295de248dacdf096357103a163bdedc1fabb8afd95b6f9a34d900756a7b4
 docker: quay.io/biocontainers/bioconductor-geuvadistranscriptexpr
 aliases:
-  .bioconductor-geuvadistranscriptexpr-pre-unlink.sh: /usr/local/bin/.bioconductor-geuvadistranscriptexpr-pre-unlink.sh

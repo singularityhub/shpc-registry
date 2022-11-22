@@ -7,4 +7,3 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:eef6b8e0c4624468dc57df979f4b5ecd6282514567067745abc880174b8bfd02
 docker: quay.io/biocontainers/bioconductor-cancerdata
 aliases:
-  .bioconductor-cancerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-cancerdata-pre-unlink.sh

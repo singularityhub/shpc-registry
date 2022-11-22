@@ -8,4 +8,3 @@ tags:
   1.25.0--r42hdfd78af_0: sha256:86bcaade80d990da594722010eebe776d9d12afdb67d6cba3eca634215350888
 docker: quay.io/biocontainers/bioconductor-harmandata
 aliases:
-  .bioconductor-harmandata-pre-unlink.sh: /usr/local/bin/.bioconductor-harmandata-pre-unlink.sh

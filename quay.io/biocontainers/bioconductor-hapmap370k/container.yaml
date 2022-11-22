@@ -8,4 +8,3 @@ tags:
   1.0.1--r42hdfd78af_10: sha256:e806da61fea8d352d0c2eb5c61802ed527598eed4b71502877f57ca0e4b2ec4b
 docker: quay.io/biocontainers/bioconductor-hapmap370k
 aliases:
-  .bioconductor-hapmap370k-pre-unlink.sh: /usr/local/bin/.bioconductor-hapmap370k-pre-unlink.sh

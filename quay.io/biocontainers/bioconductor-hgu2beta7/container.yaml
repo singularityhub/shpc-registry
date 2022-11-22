@@ -8,4 +8,3 @@ tags:
   1.37.0--r42hdfd78af_0: sha256:7a21dadb851ca301375b9045ef93282073641b458e21b33a755d2c04dd6e9a0c
 docker: quay.io/biocontainers/bioconductor-hgu2beta7
 aliases:
-  .bioconductor-hgu2beta7-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu2beta7-pre-unlink.sh

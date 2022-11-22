@@ -8,4 +8,3 @@ tags:
   1.1.8--r42hdfd78af_0: sha256:f6c90771a7ab8a540a2f5ea79e0cb09de4806e40b196f85d48ade8a255931c13
 docker: quay.io/biocontainers/bioconductor-ahensdbs
 aliases:
-  .bioconductor-ahensdbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahensdbs-pre-unlink.sh

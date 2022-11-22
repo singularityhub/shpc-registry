@@ -8,4 +8,3 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:1715e26a4aaa66a56516489901f678fffe8e0f6bc9a09d32e1b44233b5b8ab4e
 docker: quay.io/biocontainers/bioconductor-prostatecancercamcap
 aliases:
-  .bioconductor-prostatecancercamcap-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancercamcap-pre-unlink.sh

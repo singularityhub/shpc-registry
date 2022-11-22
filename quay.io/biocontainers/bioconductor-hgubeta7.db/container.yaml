@@ -8,4 +8,3 @@ tags:
   3.2.3--r42hdfd78af_10: sha256:67a04ed5667db7b97f61bf1ba88d5ecca0c2f615b668c485758aa0236d74d5fa
 docker: quay.io/biocontainers/bioconductor-hgubeta7.db
 aliases:
-  .bioconductor-hgubeta7.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgubeta7.db-pre-unlink.sh

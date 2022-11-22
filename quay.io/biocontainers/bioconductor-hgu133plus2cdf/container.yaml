@@ -8,4 +8,3 @@ tags:
   2.18.0--r41hdfd78af_10: sha256:73684029399fbcfd4cd9f571745b1070135b1abc30c4f0246b12e9275ec75d31
 docker: quay.io/biocontainers/bioconductor-hgu133plus2cdf
 aliases:
-  .bioconductor-hgu133plus2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133plus2cdf-pre-unlink.sh

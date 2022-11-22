@@ -8,5 +8,4 @@ tags:
   2.9--r41hdfd78af_13: sha256:74c497703db0123cf4248a511004ff5a0973ec66539a2988e457c92492b51aad
 docker: quay.io/biocontainers/bioconductor-do.db
 aliases:
-  .bioconductor-do.db-pre-unlink.sh: /usr/local/bin/.bioconductor-do.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

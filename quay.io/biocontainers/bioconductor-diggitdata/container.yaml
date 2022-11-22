@@ -8,4 +8,3 @@ tags:
   1.30.0--r42hdfd78af_0: sha256:8eddca6e871fe7529377366524d859451e8a22987a3afaa207aad52faa9b75d3
 docker: quay.io/biocontainers/bioconductor-diggitdata
 aliases:
-  .bioconductor-diggitdata-pre-unlink.sh: /usr/local/bin/.bioconductor-diggitdata-pre-unlink.sh

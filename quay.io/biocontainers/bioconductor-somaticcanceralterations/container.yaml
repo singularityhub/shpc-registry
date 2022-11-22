@@ -7,4 +7,3 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:962b529f5ebcfb7be6011345f2398e05ba1ea54ba12956b126128aed3388fd8a
 docker: quay.io/biocontainers/bioconductor-somaticcanceralterations
 aliases:
-  .bioconductor-somaticcanceralterations-pre-unlink.sh: /usr/local/bin/.bioconductor-somaticcanceralterations-pre-unlink.sh

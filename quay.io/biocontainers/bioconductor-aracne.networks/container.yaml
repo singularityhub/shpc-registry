@@ -12,7 +12,6 @@ tags:
   1.15.0--r40_0: sha256:71b2ff39ebe1722960d9cde92cb4a78adbe28938f904f0a848afb3462f11403f
 docker: quay.io/biocontainers/bioconductor-aracne.networks
 aliases:
-  .bioconductor-aracne.networks-pre-unlink.sh: /usr/local/bin/.bioconductor-aracne.networks-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

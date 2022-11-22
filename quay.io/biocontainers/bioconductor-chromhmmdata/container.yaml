@@ -8,4 +8,3 @@ tags:
   0.99.2--r42hdfd78af_2: sha256:eac3189592a2d044eae1bde58b69a127791d494db13c4ad9bd8297046644bbfd
 docker: quay.io/biocontainers/bioconductor-chromhmmdata
 aliases:
-  .bioconductor-chromhmmdata-pre-unlink.sh: /usr/local/bin/.bioconductor-chromhmmdata-pre-unlink.sh

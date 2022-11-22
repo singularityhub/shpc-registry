@@ -8,4 +8,3 @@ tags:
   0.99.1--r42hdfd78af_10: sha256:8b0e2abf3803feff6b8b712653c16086e56b3a93ba218db15ceb0550022db38e
 docker: quay.io/biocontainers/bioconductor-hspec
 aliases:
-  .bioconductor-hspec-pre-unlink.sh: /usr/local/bin/.bioconductor-hspec-pre-unlink.sh

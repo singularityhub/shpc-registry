@@ -7,4 +7,3 @@ tags:
   3.13.0--r41hdfd78af_1: sha256:00aef0482e1862520f0011162061fb9d363efef59ae469bb119b24bd15f12da4
 docker: quay.io/biocontainers/bioconductor-htratfocus.db
 aliases:
-  .bioconductor-htratfocus.db-pre-unlink.sh: /usr/local/bin/.bioconductor-htratfocus.db-pre-unlink.sh

@@ -8,4 +8,3 @@ tags:
   2.1.6--r42hdfd78af_10: sha256:1a7b99b9261417bb9cba19b416d7e6b595071709b10953e1da5d63e068f43651
 docker: quay.io/biocontainers/bioconductor-mousechrloc
 aliases:
-  .bioconductor-mousechrloc-pre-unlink.sh: /usr/local/bin/.bioconductor-mousechrloc-pre-unlink.sh

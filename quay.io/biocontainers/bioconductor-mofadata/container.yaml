@@ -9,5 +9,4 @@ tags:
   1.10.0--r41hdfd78af_1: sha256:95f409dafa3ab7c8d08f2e21b2b2785c0e361446f130cdc142b91006d430b627
 docker: quay.io/biocontainers/bioconductor-mofadata
 aliases:
-  .bioconductor-mofadata-pre-unlink.sh: /usr/local/bin/.bioconductor-mofadata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,4 +8,3 @@ tags:
   2.30.0--r42hdfd78af_0: sha256:e83632a053a49d4cc55d21bf4801e5fac5213e3b2ed51038b89bc547b3b5f874
 docker: quay.io/biocontainers/bioconductor-champdata
 aliases:
-  .bioconductor-champdata-pre-unlink.sh: /usr/local/bin/.bioconductor-champdata-pre-unlink.sh

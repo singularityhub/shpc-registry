@@ -8,4 +8,3 @@ tags:
   1.34.0--r42hdfd78af_0: sha256:300b6c5d51aae1097355815fa2076933dafc03028fcea432136fef3a2ecf1785
 docker: quay.io/biocontainers/bioconductor-antiprofilesdata
 aliases:
-  .bioconductor-antiprofilesdata-pre-unlink.sh: /usr/local/bin/.bioconductor-antiprofilesdata-pre-unlink.sh

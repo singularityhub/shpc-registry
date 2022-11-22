@@ -11,7 +11,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:09f0fbf570b37b11e062a4c7785ceb726934627d679d7a849d8e69e7dd4b7c44
 docker: quay.io/biocontainers/bioconductor-crcl18
 aliases:
-  .bioconductor-crcl18-pre-unlink.sh: /usr/local/bin/.bioconductor-crcl18-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

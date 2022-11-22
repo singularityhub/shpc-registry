@@ -8,4 +8,3 @@ tags:
   2.18.0--r41hdfd78af_10: sha256:da06301239dbb607dcf610b0f804d78d09592e12b9a5d15d0b8ddbd096f54216
 docker: quay.io/biocontainers/bioconductor-bsubtilisprobe
 aliases:
-  .bioconductor-bsubtilisprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-bsubtilisprobe-pre-unlink.sh

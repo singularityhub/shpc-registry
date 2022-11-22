@@ -7,4 +7,3 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:5e205c8132f80a6ac8591eb2fb452ad303ce28117bdc8030046a4d5174c58a58
 docker: quay.io/biocontainers/bioconductor-eatonetalchipseq
 aliases:
-  .bioconductor-eatonetalchipseq-pre-unlink.sh: /usr/local/bin/.bioconductor-eatonetalchipseq-pre-unlink.sh

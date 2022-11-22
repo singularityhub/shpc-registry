@@ -8,5 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:790148654f1f79b44ddd46bdd5fe97dbf8b624c529d186a23678b791ecabedda
 docker: quay.io/biocontainers/bioconductor-drosophila2.db
 aliases:
-  .bioconductor-drosophila2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-drosophila2.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

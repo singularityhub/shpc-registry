@@ -7,5 +7,4 @@ tags:
   1.22.0--r40hdfd78af_9: sha256:79526cd106a5a71ef3bc28b8ab595f007600aff88ce163e33cfaa1862174648e
 docker: quay.io/biocontainers/bioconductor-lumihumanall.db
 aliases:
-  .bioconductor-lumihumanall.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lumihumanall.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

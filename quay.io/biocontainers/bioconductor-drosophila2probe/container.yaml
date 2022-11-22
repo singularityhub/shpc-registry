@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:a62d94b1122d02f31aa5f695f6f68bd698dd5649db776f249b07f1c401615c31
 docker: quay.io/biocontainers/bioconductor-drosophila2probe
 aliases:
-  .bioconductor-drosophila2probe-pre-unlink.sh: /usr/local/bin/.bioconductor-drosophila2probe-pre-unlink.sh

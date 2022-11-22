@@ -7,5 +7,4 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:0d1c4c1334598b027b016f03c30fae3ce0948b834490989310e05e159a5332fc
 docker: quay.io/biocontainers/bioconductor-rnaseqrdata
 aliases:
-  .bioconductor-rnaseqrdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rnaseqrdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

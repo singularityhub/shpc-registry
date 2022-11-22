@@ -8,4 +8,3 @@ tags:
   3.2.3--r42hdfd78af_10: sha256:9d62035f257bcc83b81bfbc6fb524809e4d498b57bc1d37bf3460cf5d835458a
 docker: quay.io/biocontainers/bioconductor-mu15v1.db
 aliases:
-  .bioconductor-mu15v1.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mu15v1.db-pre-unlink.sh

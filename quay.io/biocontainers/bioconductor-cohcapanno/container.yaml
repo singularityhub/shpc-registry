@@ -9,4 +9,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:e4f444a517fb0a02e0816d04b9a5fea40e519e74f684960328b3fbba1272d127
 docker: quay.io/biocontainers/bioconductor-cohcapanno
 aliases:
-  .bioconductor-cohcapanno-pre-unlink.sh: /usr/local/bin/.bioconductor-cohcapanno-pre-unlink.sh

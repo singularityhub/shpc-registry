@@ -8,4 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:72f357b2182968a6b2a98875c5beefeb05a854dab0c9a22fcf585650cbf2c7ea
 docker: quay.io/biocontainers/bioconductor-healthyflowdata
 aliases:
-  .bioconductor-healthyflowdata-pre-unlink.sh: /usr/local/bin/.bioconductor-healthyflowdata-pre-unlink.sh

@@ -8,4 +8,3 @@ tags:
   1.40.0--r42hdfd78af_0: sha256:55ee4979c3154c51d43bd1624b4a4c8745bf4212bf7f1a94ba0aba80729ef1b2
 docker: quay.io/biocontainers/bioconductor-fibroeset
 aliases:
-  .bioconductor-fibroeset-pre-unlink.sh: /usr/local/bin/.bioconductor-fibroeset-pre-unlink.sh

@@ -7,5 +7,4 @@ tags:
   2.0.0--r41hdfd78af_0: sha256:19176f4493ccf60e6e18eefe91c53548eadb0668d8d99b60784c4d9527959761
 docker: quay.io/biocontainers/bioconductor-lrbase.hsa.eg.db
 aliases:
-  .bioconductor-lrbase.hsa.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lrbase.hsa.eg.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -11,7 +11,6 @@ tags:
   2.12.0--r40_0: sha256:df5a876b098564f58ce1c45d6ec91d06119af1776978be1f2e8b7747569c920c
 docker: quay.io/biocontainers/bioconductor-elmer
 aliases:
-  .bioconductor-elmer.data-pre-unlink.sh: /usr/local/bin/.bioconductor-elmer.data-pre-unlink.sh
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc
   pandoc: /usr/local/bin/pandoc
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -11,7 +11,6 @@ tags:
   1.10.0--r40_0: sha256:e6932b6812e39d9709c3cd7374250a0a5a2c89d3736ffcaa40d447895308bf89
 docker: quay.io/biocontainers/bioconductor-curatedtcgadata
 aliases:
-  .bioconductor-curatedtcgadata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedtcgadata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

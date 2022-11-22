@@ -8,4 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:3c25968acf1d2b90db39206a8649d9a0354f45d7ca465e5d942dd9800eb6ce09
 docker: quay.io/biocontainers/bioconductor-keggdzpathwaysgeo
 aliases:
-  .bioconductor-keggdzpathwaysgeo-pre-unlink.sh: /usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh

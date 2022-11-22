@@ -10,7 +10,6 @@ tags:
   3.10.0--r36_0: sha256:5c23a809bc7d2997265c86ea0b8a8fc8775e579db40305f22246fae6c9d8a27e
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene
 aliases:
-  .bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

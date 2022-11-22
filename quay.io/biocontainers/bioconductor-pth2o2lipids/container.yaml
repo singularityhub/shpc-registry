@@ -12,7 +12,6 @@ tags:
   1.14.0--r40_0: sha256:d67dd39fa895ac12dbaa20dbc3adf91072ddb2c318ddf881e6db59aeb2e94256
 docker: quay.io/biocontainers/bioconductor-pth2o2lipids
 aliases:
-  .bioconductor-pth2o2lipids-pre-unlink.sh: /usr/local/bin/.bioconductor-pth2o2lipids-pre-unlink.sh
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen

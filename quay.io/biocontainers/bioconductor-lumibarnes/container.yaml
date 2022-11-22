@@ -7,4 +7,3 @@ tags:
   1.34.0--r41hdfd78af_1: sha256:6ffd789b5952c7d69b96c76826dc07b050bbf695161d42da176e08a6efc89dd4
 docker: quay.io/biocontainers/bioconductor-lumibarnes
 aliases:
-  .bioconductor-lumibarnes-pre-unlink.sh: /usr/local/bin/.bioconductor-lumibarnes-pre-unlink.sh

@@ -7,4 +7,3 @@ tags:
   1.0.2--r41hdfd78af_9: sha256:3868cfc91b29b7a379f1d2a93395273367a2bae06dfc555a2ca1357d34633949
 docker: quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131
 aliases:
-  .bioconductor-polyphen.hsapiens.dbsnp131-pre-unlink.sh: /usr/local/bin/.bioconductor-polyphen.hsapiens.dbsnp131-pre-unlink.sh

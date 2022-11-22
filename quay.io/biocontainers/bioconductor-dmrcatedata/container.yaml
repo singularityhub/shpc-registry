@@ -9,5 +9,4 @@ tags:
   2.10.0--r41hdfd78af_0: sha256:610e15a7a78ad53df655be17c775f821aa7d694dcbb786f4d55e96a46c9000d0
 docker: quay.io/biocontainers/bioconductor-dmrcatedata
 aliases:
-  .bioconductor-dmrcatedata-pre-unlink.sh: /usr/local/bin/.bioconductor-dmrcatedata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -12,7 +12,6 @@ tags:
   1.15.0--r40_0: sha256:0a375fda4617cd016a9a81070c1df07e38a32c690798fad4fd3a408a19fd36a2
 docker: quay.io/biocontainers/bioconductor-m3dexampledata
 aliases:
-  .bioconductor-m3dexampledata-pre-unlink.sh: /usr/local/bin/.bioconductor-m3dexampledata-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

@@ -8,4 +8,3 @@ tags:
   1.40.0--r42hdfd78af_0: sha256:b2212201e9de85c861644709894fbf26ad8ed385e7a8330aee8d9c3c10e97d7d
 docker: quay.io/biocontainers/bioconductor-golubesets
 aliases:
-  .bioconductor-golubesets-pre-unlink.sh: /usr/local/bin/.bioconductor-golubesets-pre-unlink.sh

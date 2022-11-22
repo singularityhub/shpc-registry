@@ -8,4 +8,3 @@ tags:
   8.8.0--r42hdfd78af_2: sha256:675dfdb9400fe98c631d00a696f7b6307b14a5a806a3c1fdef74187a9eaac368
 docker: quay.io/biocontainers/bioconductor-clariomdhumantranscriptcluster.db
 aliases:
-  .bioconductor-clariomdhumantranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-clariomdhumantranscriptcluster.db-pre-unlink.sh

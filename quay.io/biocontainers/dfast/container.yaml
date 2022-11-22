@@ -8,7 +8,6 @@ tags:
   1.2.18--h5b5514e_1: sha256:c512c2f4c061493ee88a467c17e93817f8a36ab42c7c0ae1fe2280285716b2e7
 docker: quay.io/biocontainers/dfast
 aliases:
-  .dfast-pre-unlink.sh: /usr/local/bin/.dfast-pre-unlink.sh
   dfast: /usr/local/bin/dfast
   dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py
   file_downloader.py: /usr/local/bin/file_downloader.py

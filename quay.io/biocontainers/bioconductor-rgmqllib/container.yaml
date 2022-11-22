@@ -11,5 +11,4 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:5f26aa8b22708be0aa82b2f7e81a83ac8f15492393c02a82b14b0da6e799c115
 docker: quay.io/biocontainers/bioconductor-rgmqllib
 aliases:
-  .bioconductor-rgmqllib-pre-unlink.sh: /usr/local/bin/.bioconductor-rgmqllib-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

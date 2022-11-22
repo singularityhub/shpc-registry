@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:ec416066ab85c4fdf9050682d6d5c36ccb5e3ca7561b14e52a85e30593bbc497
 docker: quay.io/biocontainers/bioconductor-huex10stprobeset.db
 aliases:
-  .bioconductor-huex10stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-huex10stprobeset.db-pre-unlink.sh

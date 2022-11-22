@@ -8,4 +8,3 @@ tags:
   2.37.1--r42hdfd78af_0: sha256:ef90a51dbb11be2718fb957fa56f987135799c3851556c08ddd1f03a7ccaeef8
 docker: quay.io/biocontainers/bioconductor-gatingmldata
 aliases:
-  .bioconductor-gatingmldata-pre-unlink.sh: /usr/local/bin/.bioconductor-gatingmldata-pre-unlink.sh

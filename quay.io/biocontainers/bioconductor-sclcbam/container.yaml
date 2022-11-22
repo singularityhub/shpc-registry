@@ -8,4 +8,3 @@ tags:
   1.29.0--r42hdfd78af_0: sha256:d732f4dc596dedcf61e2f0758ae439e4e6d2ffda48743ff767bf0e7ea2e72ca8
 docker: quay.io/biocontainers/bioconductor-sclcbam
 aliases:
-  .bioconductor-sclcbam-pre-unlink.sh: /usr/local/bin/.bioconductor-sclcbam-pre-unlink.sh

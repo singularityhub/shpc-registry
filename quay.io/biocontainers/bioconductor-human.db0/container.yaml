@@ -12,7 +12,6 @@ tags:
   3.11.2--r40_0: sha256:5169f74689dddeccc9d93eef85bc67e6e96820485b6b216474b4722ed8fd8ad0
 docker: quay.io/biocontainers/bioconductor-human.db0
 aliases:
-  .bioconductor-human.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-human.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

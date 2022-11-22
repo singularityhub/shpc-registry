@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:33f3fcb949a46616a3bad2d607fa2adb4f06b786c7042735f7e5d8f75e607c94
 docker: quay.io/biocontainers/bioconductor-moe430aprobe
 aliases:
-  .bioconductor-moe430aprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-moe430aprobe-pre-unlink.sh

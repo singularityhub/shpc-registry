@@ -7,7 +7,6 @@ tags:
   1.18.0--r351_0: sha256:14601a1043c263f8776b49a839cc5438dba6daa480e65324eab263d7e2c4fee3
 docker: quay.io/biocontainers/bioconductor-charmdata
 aliases:
-  .bioconductor-charmdata-pre-unlink.sh: /usr/local/bin/.bioconductor-charmdata-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

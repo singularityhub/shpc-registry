@@ -8,5 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:1fd64971384c09dfea3ffa95e07f21186fd07092ca158013c879b06e88256c32
 docker: quay.io/biocontainers/bioconductor-ygs98.db
 aliases:
-  .bioconductor-ygs98.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ygs98.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -12,7 +12,6 @@ tags:
   3.11.1--r40_0: sha256:5788c89a7a2af6ad5ee687b1bebd3e52ea437f2d72bc22e3f132163d83933bc3
 docker: quay.io/biocontainers/bioconductor-org.at.tair.db
 aliases:
-  .bioconductor-org.at.tair.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.at.tair.db-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

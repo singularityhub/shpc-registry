@@ -7,4 +7,3 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17
 docker: quay.io/biocontainers/bioconductor-prebsdata
 aliases:
-  .bioconductor-prebsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-prebsdata-pre-unlink.sh

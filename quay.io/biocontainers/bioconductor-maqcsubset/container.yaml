@@ -8,4 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:19b8936734d2bbbc8ab8fdd027f99b2b04949075c2f4414600fad5b8e7e5edbf
 docker: quay.io/biocontainers/bioconductor-maqcsubset
 aliases:
-  .bioconductor-maqcsubset-pre-unlink.sh: /usr/local/bin/.bioconductor-maqcsubset-pre-unlink.sh

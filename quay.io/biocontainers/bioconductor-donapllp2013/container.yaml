@@ -8,7 +8,6 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:ea960684f90c270430840a661bb5d26e78387ac9402d3e302f3012181ca70df3
 docker: quay.io/biocontainers/bioconductor-donapllp2013
 aliases:
-  .bioconductor-donapllp2013-pre-unlink.sh: /usr/local/bin/.bioconductor-donapllp2013-pre-unlink.sh
   fftw-wisdom: /usr/local/bin/fftw-wisdom
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
   fftwf-wisdom: /usr/local/bin/fftwf-wisdom

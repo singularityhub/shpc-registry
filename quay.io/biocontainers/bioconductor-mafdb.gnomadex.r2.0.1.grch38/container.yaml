@@ -7,7 +7,6 @@ tags:
   3.7.0--r351_0: sha256:cca73e888c41ccb34ae00219501179ae5036621a21fc9ace4de684c67690a766
 docker: quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.grch38
 aliases:
-  .bioconductor-mafdb.gnomadex.r2.0.1.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.gnomadex.r2.0.1.grch38-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

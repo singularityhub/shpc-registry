@@ -8,4 +8,3 @@ tags:
   1.40.0--r42hdfd78af_0: sha256:f38ab64b3e5985ada6270bad422c657c177eccadc9838b58e2815def627b3c2a
 docker: quay.io/biocontainers/bioconductor-all
 aliases:
-  .bioconductor-all-pre-unlink.sh: /usr/local/bin/.bioconductor-all-pre-unlink.sh

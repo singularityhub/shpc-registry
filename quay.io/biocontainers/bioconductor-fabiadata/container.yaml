@@ -8,4 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:c0ff94475067f4d6895706364afdb358a6a6c9ecab15ede9cf75a711c0c9b92b
 docker: quay.io/biocontainers/bioconductor-fabiadata
 aliases:
-  .bioconductor-fabiadata-pre-unlink.sh: /usr/local/bin/.bioconductor-fabiadata-pre-unlink.sh

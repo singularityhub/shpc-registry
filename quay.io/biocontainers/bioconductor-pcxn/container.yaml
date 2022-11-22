@@ -12,7 +12,6 @@ tags:
   2.10.0--r40_0: sha256:adffdf5773c4f4aa063e926c0635d67642c27476cbe3b4ab8150f7f966adfda7
 docker: quay.io/biocontainers/bioconductor-pcxn
 aliases:
-  .bioconductor-pcxndata-pre-unlink.sh: /usr/local/bin/.bioconductor-pcxndata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

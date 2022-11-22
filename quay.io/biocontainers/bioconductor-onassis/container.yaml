@@ -8,7 +8,6 @@ tags:
   1.12.0--r40hdfd78af_1: sha256:bc283549013c7e70d4f7109c0771ff2c9c78921a92be8e1899a8cfba7af0424d
 docker: quay.io/biocontainers/bioconductor-onassis
 aliases:
-  .bioconductor-onassisjavalibs-pre-unlink.sh: /usr/local/bin/.bioconductor-onassisjavalibs-pre-unlink.sh
   extcheck: /usr/local/bin/extcheck
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
   javah: /usr/local/bin/javah

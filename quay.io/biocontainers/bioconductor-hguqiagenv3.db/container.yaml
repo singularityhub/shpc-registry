@@ -8,4 +8,3 @@ tags:
   3.2.3--r42hdfd78af_10: sha256:fb99f6ae7c2b77f8041f8347b2de2866916af0931f6a11186174edee60965575
 docker: quay.io/biocontainers/bioconductor-hguqiagenv3.db
 aliases:
-  .bioconductor-hguqiagenv3.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hguqiagenv3.db-pre-unlink.sh

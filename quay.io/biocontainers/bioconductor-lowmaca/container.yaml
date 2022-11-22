@@ -8,5 +8,4 @@ tags:
   1.28.0--r42hdfd78af_0: sha256:ce4b7ebe4db24362313468bdedaedc3a51c4c5252454ff3e522bcef16cccbb40
 docker: quay.io/biocontainers/bioconductor-lowmaca
 aliases:
-  .bioconductor-lowmacaannotation-pre-unlink.sh: /usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh
   clustalo: /usr/local/bin/clustalo

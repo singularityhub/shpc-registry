@@ -8,4 +8,3 @@ tags:
   3.4.0--r42hdfd78af_10: sha256:3e7b15cfcfacf4cfb02677fefd62e160d9712dd70407119d8cb157b7f8d3dceb
 docker: quay.io/biocontainers/bioconductor-m10kcod.db
 aliases:
-  .bioconductor-m10kcod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-m10kcod.db-pre-unlink.sh

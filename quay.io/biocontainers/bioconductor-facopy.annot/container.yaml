@@ -7,7 +7,6 @@ tags:
   1.6.0--r36_0: sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009
 docker: quay.io/biocontainers/bioconductor-facopy.annot
 aliases:
-  .bioconductor-facopy.annot-pre-unlink.sh: /usr/local/bin/.bioconductor-facopy.annot-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

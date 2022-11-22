@@ -10,5 +10,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:39d9b2da1b01e35a043327bf27a1de76f15de893d20001b43ccdadfbc4942282
 docker: quay.io/biocontainers/bioconductor-gigseadata
 aliases:
-  .bioconductor-gigseadata-pre-unlink.sh: /usr/local/bin/.bioconductor-gigseadata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

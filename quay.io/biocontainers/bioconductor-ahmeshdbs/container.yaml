@@ -8,4 +8,3 @@ tags:
   1.5.0--r42hdfd78af_0: sha256:3fe39e191658511e980d9b1a1c6c0bfa6811f50ac38f4569b41ef46330da3527
 docker: quay.io/biocontainers/bioconductor-ahmeshdbs
 aliases:
-  .bioconductor-ahmeshdbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahmeshdbs-pre-unlink.sh

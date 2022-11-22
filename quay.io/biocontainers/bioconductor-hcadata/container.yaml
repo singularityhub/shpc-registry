@@ -7,5 +7,4 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:6baf1a0264ab1df61cd104521b69af99aaf822adb929a8e9508d03af07228ff1
 docker: quay.io/biocontainers/bioconductor-hcadata
 aliases:
-  .bioconductor-hcadata-pre-unlink.sh: /usr/local/bin/.bioconductor-hcadata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

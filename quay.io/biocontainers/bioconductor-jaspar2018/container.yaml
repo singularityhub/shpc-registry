@@ -8,4 +8,3 @@ tags:
   1.1.1--r41hdfd78af_10: sha256:07564c3abd9023ce9bf6a65ac11b7bbb1ea359a337e9fdfff14c23627669cbee
 docker: quay.io/biocontainers/bioconductor-jaspar2018
 aliases:
-  .bioconductor-jaspar2018-pre-unlink.sh: /usr/local/bin/.bioconductor-jaspar2018-pre-unlink.sh

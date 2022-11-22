@@ -8,4 +8,3 @@ tags:
   1.9.0--r42hdfd78af_0: sha256:b12e69292590b3f16329e5f57b34d8f1ce01eab56c297e1393411a365907910c
 docker: quay.io/biocontainers/bioconductor-scthi.data
 aliases:
-  .bioconductor-scthi.data-pre-unlink.sh: /usr/local/bin/.bioconductor-scthi.data-pre-unlink.sh

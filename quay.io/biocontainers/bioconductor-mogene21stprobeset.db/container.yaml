@@ -8,4 +8,3 @@ tags:
   8.8.0--r42hdfd78af_2: sha256:b24c72cee5d14679e213cd7730fcb5ccd8f8e86b42f4cd8cadab0e9eb54805e2
 docker: quay.io/biocontainers/bioconductor-mogene21stprobeset.db
 aliases:
-  .bioconductor-mogene21stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mogene21stprobeset.db-pre-unlink.sh

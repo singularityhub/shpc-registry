@@ -8,4 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:184d7af596d450803ed4f44794793f5580c531ff8fd609248383aae877255cf1
 docker: quay.io/biocontainers/bioconductor-targetscoredata
 aliases:
-  .bioconductor-targetscoredata-pre-unlink.sh: /usr/local/bin/.bioconductor-targetscoredata-pre-unlink.sh

@@ -8,4 +8,3 @@ tags:
   1.12.0--r42hdfd78af_0: sha256:7c3c5a2d309e69315a0370e057663cf299111cca342d5648cdf70df7f1769b68
 docker: quay.io/biocontainers/bioconductor-tenxbusdata
 aliases:
-  .bioconductor-tenxbusdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxbusdata-pre-unlink.sh

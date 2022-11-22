@@ -11,7 +11,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:1edec32119c15eb5d440d7261bc0665b37e5ecd7b12e6b3c5b154f3ab5071cf7
 docker: quay.io/biocontainers/bioconductor-rgmql
 aliases:
-  .bioconductor-rgmqllib-pre-unlink.sh: /usr/local/bin/.bioconductor-rgmqllib-pre-unlink.sh
   extcheck: /usr/local/bin/extcheck
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
   javah: /usr/local/bin/javah

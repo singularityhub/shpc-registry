@@ -8,4 +8,3 @@ tags:
   0.99.10--r42hdfd78af_5: sha256:f0589285f0dc193fe82043013297cb58f160abdadb41404aea23137eec21c923
 docker: quay.io/biocontainers/bioconductor-jaspar2020
 aliases:
-  .bioconductor-jaspar2020-pre-unlink.sh: /usr/local/bin/.bioconductor-jaspar2020-pre-unlink.sh

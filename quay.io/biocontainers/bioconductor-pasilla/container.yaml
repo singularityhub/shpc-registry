@@ -8,4 +8,3 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:bd9d341bb1c9604c72dbeaca7342a08c69a006dbd4e227a74b4007ba7c640452
 docker: quay.io/biocontainers/bioconductor-pasilla
 aliases:
-  .bioconductor-pasilla-pre-unlink.sh: /usr/local/bin/.bioconductor-pasilla-pre-unlink.sh

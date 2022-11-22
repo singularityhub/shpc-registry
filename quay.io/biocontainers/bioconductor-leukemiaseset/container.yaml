@@ -8,4 +8,3 @@ tags:
   1.34.0--r42hdfd78af_0: sha256:f432cfb52dc68b51a1954580bd3371ea23c981193bbadc7e9e3fcb035dffddc9
 docker: quay.io/biocontainers/bioconductor-leukemiaseset
 aliases:
-  .bioconductor-leukemiaseset-pre-unlink.sh: /usr/local/bin/.bioconductor-leukemiaseset-pre-unlink.sh

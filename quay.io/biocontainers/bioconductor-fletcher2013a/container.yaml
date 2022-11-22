@@ -8,4 +8,3 @@ tags:
   1.34.0--r42hdfd78af_0: sha256:3fe7851b4326f3d599c70f7eda8e1ecee89dd474e006ea5ddba1f8f7a0b9c9f9
 docker: quay.io/biocontainers/bioconductor-fletcher2013a
 aliases:
-  .bioconductor-fletcher2013a-pre-unlink.sh: /usr/local/bin/.bioconductor-fletcher2013a-pre-unlink.sh

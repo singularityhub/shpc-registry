@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:e2f6da3a6f8e4f147ce8ad1e4eaaf4baace8a3bde7281bbbc5f34f79298c4fca
 docker: quay.io/biocontainers/bioconductor-htratfocusprobe
 aliases:
-  .bioconductor-htratfocusprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-htratfocusprobe-pre-unlink.sh

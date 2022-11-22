@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:b84f16f5ad2cc9cd3abc398d0f597ba38f63385d6826eab9d54f8104d5575787
 docker: quay.io/biocontainers/bioconductor-ygs98cdf
 aliases:
-  .bioconductor-ygs98cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ygs98cdf-pre-unlink.sh

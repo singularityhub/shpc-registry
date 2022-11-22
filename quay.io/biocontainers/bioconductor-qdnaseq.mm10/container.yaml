@@ -12,7 +12,6 @@ tags:
   1.18.0--r40_0: sha256:44c75399d3dc415f6f0787a346a6bea803413465112780e7762ae09aaacb49dd
 docker: quay.io/biocontainers/bioconductor-qdnaseq.mm10
 aliases:
-  .bioconductor-qdnaseq.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-qdnaseq.mm10-pre-unlink.sh
   wget: /usr/local/bin/wget
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5

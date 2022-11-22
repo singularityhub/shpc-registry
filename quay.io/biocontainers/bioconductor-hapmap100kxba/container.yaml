@@ -8,4 +8,3 @@ tags:
   1.39.0--r42hdfd78af_0: sha256:7aaf59d0d0efa8796f1de2bcd6a0a1f9f946d7082c5229a7e31df175c52c5699
 docker: quay.io/biocontainers/bioconductor-hapmap100kxba
 aliases:
-  .bioconductor-hapmap100kxba-pre-unlink.sh: /usr/local/bin/.bioconductor-hapmap100kxba-pre-unlink.sh

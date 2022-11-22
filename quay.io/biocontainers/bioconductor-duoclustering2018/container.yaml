@@ -10,5 +10,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:b995d542878b2e3a48363830eadcf78bda52d179536122d1e943074981057a7c
 docker: quay.io/biocontainers/bioconductor-duoclustering2018
 aliases:
-  .bioconductor-duoclustering2018-pre-unlink.sh: /usr/local/bin/.bioconductor-duoclustering2018-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

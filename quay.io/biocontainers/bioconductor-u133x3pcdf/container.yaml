@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:5cc1639db2c3a61fa53188d1e1a92e1b0a20c602ce5e3b763c0ab877e221b617
 docker: quay.io/biocontainers/bioconductor-u133x3pcdf
 aliases:
-  .bioconductor-u133x3pcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-u133x3pcdf-pre-unlink.sh

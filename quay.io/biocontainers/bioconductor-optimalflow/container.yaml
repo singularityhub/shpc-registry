@@ -8,4 +8,3 @@ tags:
   1.10.0--r42hdfd78af_0: sha256:de174f14e9fbe6b9a9f581dc9c683634b1ce64b353478274c3c7b83e899cb53b
 docker: quay.io/biocontainers/bioconductor-optimalflow
 aliases:
-  .bioconductor-optimalflowdata-pre-unlink.sh: /usr/local/bin/.bioconductor-optimalflowdata-pre-unlink.sh

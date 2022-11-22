@@ -7,7 +7,6 @@ tags:
   1.6.0--r41hdfd78af_0: sha256:116d75ecb820397199e58ae477d7216b6ffee72a4fcd7763a5561f03d308b60f
 docker: quay.io/biocontainers/bioconductor-spatiallibd
 aliases:
-  .bioconductor-spatiallibd-pre-unlink.sh: /usr/local/bin/.bioconductor-spatiallibd-pre-unlink.sh
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config

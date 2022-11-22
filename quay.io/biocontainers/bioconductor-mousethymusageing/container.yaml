@@ -7,4 +7,3 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:c5362003a8c69143afbbe5bb6f55f805c218c4b4f2b056662754e480b492fa94
 docker: quay.io/biocontainers/bioconductor-mousethymusageing
 aliases:
-  .bioconductor-mousethymusageing-pre-unlink.sh: /usr/local/bin/.bioconductor-mousethymusageing-pre-unlink.sh

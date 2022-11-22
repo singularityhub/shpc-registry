@@ -8,7 +8,6 @@ tags:
   3.4.0--r42hdfd78af_15: sha256:e54522e15920c9a6740f3b89e1dd5c2154b12b0f6a194e29d510b08a7d87c252
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 aliases:
-  .bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8

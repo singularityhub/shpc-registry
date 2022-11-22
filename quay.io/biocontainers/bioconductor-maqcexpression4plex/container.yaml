@@ -8,4 +8,3 @@ tags:
   1.41.0--r42hdfd78af_0: sha256:b331b00ffd9bde0b558f8474fb92eb77f5291b1c614eaec3c4dcdabe442efb81
 docker: quay.io/biocontainers/bioconductor-maqcexpression4plex
 aliases:
-  .bioconductor-maqcexpression4plex-pre-unlink.sh: /usr/local/bin/.bioconductor-maqcexpression4plex-pre-unlink.sh

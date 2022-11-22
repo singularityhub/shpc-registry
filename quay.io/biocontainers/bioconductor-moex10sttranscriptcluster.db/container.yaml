@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:037699ab46bc11be0190390cf8a8925f3b9f9b6e6e0f618d90ffd10eab60bdca
 docker: quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db
 aliases:
-  .bioconductor-moex10sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-moex10sttranscriptcluster.db-pre-unlink.sh

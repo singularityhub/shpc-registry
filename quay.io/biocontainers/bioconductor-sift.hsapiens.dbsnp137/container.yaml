@@ -8,4 +8,3 @@ tags:
   1.0.0--r42hdfd78af_10: sha256:72317e02b2499cf7e09315ef3dacc539c09a182cc833027ef1d37c9f887b8560
 docker: quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp137
 aliases:
-  .bioconductor-sift.hsapiens.dbsnp137-pre-unlink.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp137-pre-unlink.sh

@@ -8,4 +8,3 @@ tags:
   1.28.0--r42hdfd78af_0: sha256:7862ffafb697e2bcaf58130c2533958c83016c17ee18b09ce917bfc8fde4ca91
 docker: quay.io/biocontainers/bioconductor-qdnaseq.hg19
 aliases:
-  .bioconductor-qdnaseq.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-qdnaseq.hg19-pre-unlink.sh

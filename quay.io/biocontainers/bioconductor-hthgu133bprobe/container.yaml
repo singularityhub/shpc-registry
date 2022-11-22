@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_11: sha256:3ae8e12c0bff3604c27bc78dd271d42147320f4b3386970379ad83ea253b8ae1
 docker: quay.io/biocontainers/bioconductor-hthgu133bprobe
 aliases:
-  .bioconductor-hthgu133bprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-hthgu133bprobe-pre-unlink.sh

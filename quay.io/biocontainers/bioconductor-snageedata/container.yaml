@@ -8,4 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:9458b89219d56d03f11fa8112fb9c97ce0bef5562393ba70643717c097dbb2a4
 docker: quay.io/biocontainers/bioconductor-snageedata
 aliases:
-  .bioconductor-snageedata-pre-unlink.sh: /usr/local/bin/.bioconductor-snageedata-pre-unlink.sh

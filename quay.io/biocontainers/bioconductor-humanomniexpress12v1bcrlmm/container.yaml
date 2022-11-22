@@ -8,4 +8,3 @@ tags:
   1.0.1--r42hdfd78af_10: sha256:6468c9735195f0d48696edefe7e537eb2abb1e428ade2206211cfc0a8d682498
 docker: quay.io/biocontainers/bioconductor-humanomniexpress12v1bcrlmm
 aliases:
-  .bioconductor-humanomniexpress12v1bcrlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-humanomniexpress12v1bcrlmm-pre-unlink.sh

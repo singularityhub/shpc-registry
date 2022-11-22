@@ -7,4 +7,3 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:9f6aad366630fc278c4956415799ca5bf4e60d8692a9cb81e5de3ada88e49f0a
 docker: quay.io/biocontainers/bioconductor-beadsorted.saliva.epic
 aliases:
-  .bioconductor-beadsorted.saliva.epic-pre-unlink.sh: /usr/local/bin/.bioconductor-beadsorted.saliva.epic-pre-unlink.sh

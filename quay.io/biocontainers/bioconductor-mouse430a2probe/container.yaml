@@ -8,4 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:ae09e97b602be8abde98af4c3830d19e16d9d99712b80aa2f9ba9009c6c05f21
 docker: quay.io/biocontainers/bioconductor-mouse430a2probe
 aliases:
-  .bioconductor-mouse430a2probe-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse430a2probe-pre-unlink.sh

@@ -7,4 +7,3 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:54f3a7bfab79571ae2b86a422ce3bf7144f1561bffc59bb971137842693b861e
 docker: quay.io/biocontainers/bioconductor-gse103322
 aliases:
-  .bioconductor-gse103322-pre-unlink.sh: /usr/local/bin/.bioconductor-gse103322-pre-unlink.sh

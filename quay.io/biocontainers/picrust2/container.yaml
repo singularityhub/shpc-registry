@@ -7,7 +7,6 @@ tags:
   2.5.0--pyhdfd78af_0: sha256:067e227408ccc5618708756109a29e04c02750b7fe5c23d236db34f6d018de2c
 docker: quay.io/biocontainers/picrust2
 aliases:
-  .picrust2-pre-unlink.sh: /usr/local/bin/.picrust2-pre-unlink.sh
   add_descriptions.py: /usr/local/bin/add_descriptions.py
   convert_table.py: /usr/local/bin/convert_table.py
   epa-ng: /usr/local/bin/epa-ng

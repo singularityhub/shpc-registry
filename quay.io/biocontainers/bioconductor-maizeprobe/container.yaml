@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:d57678c7a557bedb6540b998f5c4b059f36d98eb24c91cf409114f1c4ad77bd3
 docker: quay.io/biocontainers/bioconductor-maizeprobe
 aliases:
-  .bioconductor-maizeprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-maizeprobe-pre-unlink.sh

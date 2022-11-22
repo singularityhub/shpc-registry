@@ -8,4 +8,3 @@ tags:
   0.99.6--r42hdfd78af_5: sha256:9bb88372bc816267f571708aca186d52f8cfabd2fb5a73e8ee14ff1db399fc3d
 docker: quay.io/biocontainers/bioconductor-epitxdb.mm.mm10
 aliases:
-  .bioconductor-epitxdb.mm.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-epitxdb.mm.mm10-pre-unlink.sh

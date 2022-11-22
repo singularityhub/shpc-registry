@@ -8,5 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:ecf2da4bcfb31c33755b2fa4ee66bbf0f823414e525c59fb7129a3100e41abad
 docker: quay.io/biocontainers/bioconductor-porcine.db
 aliases:
-  .bioconductor-porcine.db-pre-unlink.sh: /usr/local/bin/.bioconductor-porcine.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

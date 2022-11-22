@@ -8,4 +8,3 @@ tags:
   3.2.3--r42hdfd78af_11: sha256:096a8c798db80b88ad0cc6a418d29b3b882657036fac1135f09885ba3dea8da4
 docker: quay.io/biocontainers/bioconductor-mpedbarray.db
 aliases:
-  .bioconductor-mpedbarray.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mpedbarray.db-pre-unlink.sh

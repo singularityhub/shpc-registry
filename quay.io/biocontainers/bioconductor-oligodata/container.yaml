@@ -8,4 +8,3 @@ tags:
   1.8.0--r42hdfd78af_10: sha256:6b9a090d38bb639b02e027bfe5effb3e08862ad07a0a617e4b8c607c4ead6bd1
 docker: quay.io/biocontainers/bioconductor-oligodata
 aliases:
-  .bioconductor-oligodata-pre-unlink.sh: /usr/local/bin/.bioconductor-oligodata-pre-unlink.sh

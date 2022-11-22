@@ -7,7 +7,6 @@ tags:
   1.32.0--r40_0: sha256:bdc79a3ee081420c49836d3fca90b5cb29d478418eb94ab0f02f97150a79d412
 docker: quay.io/biocontainers/bioconductor-funcisnp
 aliases:
-  .bioconductor-funcisnp.data-pre-unlink.sh: /usr/local/bin/.bioconductor-funcisnp.data-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8

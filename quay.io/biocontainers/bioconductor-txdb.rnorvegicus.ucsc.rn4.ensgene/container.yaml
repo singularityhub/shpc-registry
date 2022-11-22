@@ -8,5 +8,4 @@ tags:
   3.2.2--r42hdfd78af_14: sha256:10b49a1a4f917ce29405036658807278821e94d81aaca42246ea472f2ecb48d2
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene
 aliases:
-  .bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

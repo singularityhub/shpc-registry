@@ -8,4 +8,3 @@ tags:
   1.3.1--r42hdfd78af_10: sha256:b3048f1a2733131295ad91ddca9453b3bec541c2769dbae5c5e264f93bd35f3f
 docker: quay.io/biocontainers/bioconductor-mus.musculus
 aliases:
-  .bioconductor-mus.musculus-pre-unlink.sh: /usr/local/bin/.bioconductor-mus.musculus-pre-unlink.sh

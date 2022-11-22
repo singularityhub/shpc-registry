@@ -8,4 +8,3 @@ tags:
   8.8.0--r42hdfd78af_2: sha256:13550dd59dd05eaa94e2b7a6102274fbc25a6a22f521d56dec90191022bf79e1
 docker: quay.io/biocontainers/bioconductor-hugene20sttranscriptcluster.db
 aliases:
-  .bioconductor-hugene20sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hugene20sttranscriptcluster.db-pre-unlink.sh

@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:d045459adeea0647b4c62c1ca75859f31acfc96cda5ecbde2924c5bee60c495f
 docker: quay.io/biocontainers/bioconductor-mgu74cv2cdf
 aliases:
-  .bioconductor-mgu74cv2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mgu74cv2cdf-pre-unlink.sh

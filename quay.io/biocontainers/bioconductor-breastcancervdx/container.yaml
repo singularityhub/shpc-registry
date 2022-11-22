@@ -9,4 +9,3 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:fa45800f431ec33e62de9ca0b10ac15edb9f8264d28f9387efe770e8241b50e3
 docker: quay.io/biocontainers/bioconductor-breastcancervdx
 aliases:
-  .bioconductor-breastcancervdx-pre-unlink.sh: /usr/local/bin/.bioconductor-breastcancervdx-pre-unlink.sh
