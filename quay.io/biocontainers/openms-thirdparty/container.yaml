@@ -8,13 +8,9 @@ tags:
 docker: quay.io/biocontainers/openms-thirdparty
 aliases:
   AWS.Logger.Core.pdb: /usr/local/bin/AWS.Logger.Core.pdb
-  AWS.Logger.Core.xml: /usr/local/bin/AWS.Logger.Core.xml
   AWSSDK.CloudWatchLogs.pdb: /usr/local/bin/AWSSDK.CloudWatchLogs.pdb
-  AWSSDK.CloudWatchLogs.xml: /usr/local/bin/AWSSDK.CloudWatchLogs.xml
   AWSSDK.Core.pdb: /usr/local/bin/AWSSDK.Core.pdb
-  AWSSDK.Core.xml: /usr/local/bin/AWSSDK.Core.xml
   AWSSDK.S3.pdb: /usr/local/bin/AWSSDK.S3.pdb
-  AWSSDK.S3.xml: /usr/local/bin/AWSSDK.S3.xml
   AccurateMassSearch: /usr/local/bin/AccurateMassSearch
   AssayGeneratorMetabo: /usr/local/bin/AssayGeneratorMetabo
   BaselineFilter: /usr/local/bin/BaselineFilter
@@ -101,7 +97,6 @@ aliases:
   MascotAdapterOnline: /usr/local/bin/MascotAdapterOnline
   MassCalculator: /usr/local/bin/MassCalculator
   MassTraceExtractor: /usr/local/bin/MassTraceExtractor
-  MathNet.Numerics.xml: /usr/local/bin/MathNet.Numerics.xml
   MetaProSIP: /usr/local/bin/MetaProSIP
   MetaboliteAdductDecharger: /usr/local/bin/MetaboliteAdductDecharger
   MetaboliteSpectralMatcher: /usr/local/bin/MetaboliteSpectralMatcher
@@ -109,9 +104,6 @@ aliases:
   MyriMatchAdapter: /usr/local/bin/MyriMatchAdapter
   MzMLSplitter: /usr/local/bin/MzMLSplitter
   MzTabExporter: /usr/local/bin/MzTabExporter
-  NJsonSchema.xml: /usr/local/bin/NJsonSchema.xml
-  Namotion.Reflection.xml: /usr/local/bin/Namotion.Reflection.xml
-  Newtonsoft.Json.xml: /usr/local/bin/Newtonsoft.Json.xml
   NoiseFilterGaussian: /usr/local/bin/NoiseFilterGaussian
   NoiseFilterSGolay: /usr/local/bin/NoiseFilterSGolay
   NovorAdapter: /usr/local/bin/NovorAdapter
@@ -119,7 +111,6 @@ aliases:
   OMSSAAdapter: /usr/local/bin/OMSSAAdapter
   OpenMSDatabasesInfo: /usr/local/bin/OpenMSDatabasesInfo
   OpenMSInfo: /usr/local/bin/OpenMSInfo
-  OpenMcdf.xml: /usr/local/bin/OpenMcdf.xml
   OpenPepXL: /usr/local/bin/OpenPepXL
   OpenPepXLLF: /usr/local/bin/OpenPepXLLF
   OpenSwathAnalyzer: /usr/local/bin/OpenSwathAnalyzer
@@ -137,7 +128,6 @@ aliases:
   PSMFeatureExtractor: /usr/local/bin/PSMFeatureExtractor
   PTModel: /usr/local/bin/PTModel
   PTPredict: /usr/local/bin/PTPredict
-  Parquet.xml: /usr/local/bin/Parquet.xml
   PeakPickerHiRes: /usr/local/bin/PeakPickerHiRes
   PeakPickerIterative: /usr/local/bin/PeakPickerIterative
   PeakPickerWavelet: /usr/local/bin/PeakPickerWavelet
@@ -186,22 +176,11 @@ aliases:
   SpectraSTSearchAdapter: /usr/local/bin/SpectraSTSearchAdapter
   StaticModification: /usr/local/bin/StaticModification
   SvmTheoreticalSpectrumGeneratorTrainer: /usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer
-  System.Buffers.xml: /usr/local/bin/System.Buffers.xml
-  System.IO.FileSystem.AccessControl.xml: /usr/local/bin/System.IO.FileSystem.AccessControl.xml
-  System.Memory.xml: /usr/local/bin/System.Memory.xml
-  System.Numerics.Vectors.xml: /usr/local/bin/System.Numerics.Vectors.xml
-  System.Runtime.CompilerServices.Unsafe.xml: /usr/local/bin/System.Runtime.CompilerServices.Unsafe.xml
-  System.Security.AccessControl.xml: /usr/local/bin/System.Security.AccessControl.xml
-  System.Security.Principal.Windows.xml: /usr/local/bin/System.Security.Principal.Windows.xml
-  System.Text.Encoding.CodePages.xml: /usr/local/bin/System.Text.Encoding.CodePages.xml
-  System.ValueTuple.xml: /usr/local/bin/System.ValueTuple.xml
   THERMO_LICENSE: /usr/local/bin/THERMO_LICENSE
   TICCalculator: /usr/local/bin/TICCalculator
   TOFCalibration: /usr/local/bin/TOFCalibration
   TargetedFileConverter: /usr/local/bin/TargetedFileConverter
   TextExporter: /usr/local/bin/TextExporter
-  ThermoFisher.CommonCore.Data.xml: /usr/local/bin/ThermoFisher.CommonCore.Data.xml
-  ThermoFisher.CommonCore.RawFileReader.xml: /usr/local/bin/ThermoFisher.CommonCore.RawFileReader.xml
   ThermoRawFileParser: /usr/local/bin/ThermoRawFileParser
   ThermoRawFileParser.exe: /usr/local/bin/ThermoRawFileParser.exe
   ThermoRawFileParser.pdb: /usr/local/bin/ThermoRawFileParser.pdb
@@ -224,7 +203,6 @@ aliases:
   idpQonvert: /usr/local/bin/idpQonvert
   idpQuery: /usr/local/bin/idpQuery
   illinkanalyzer: /usr/local/bin/illinkanalyzer
-  log4net.xml: /usr/local/bin/log4net.xml
   luciphor2: /usr/local/bin/luciphor2
   monograph: /usr/local/bin/monograph
   msgf2pin: /usr/local/bin/msgf2pin
@@ -233,7 +211,6 @@ aliases:
   nunit-console: /usr/local/bin/nunit-console
   nunit-console2: /usr/local/bin/nunit-console2
   nunit-console4: /usr/local/bin/nunit-console4
-  nunit.framework.xml: /usr/local/bin/nunit.framework.xml
   pepitome: /usr/local/bin/pepitome
   pepnovo: /usr/local/bin/pepnovo
   percolator: /usr/local/bin/percolator
@@ -245,7 +222,6 @@ aliases:
   tagrecon: /usr/local/bin/tagrecon
   tandem2pin: /usr/local/bin/tandem2pin
   thermorawfileparser: /usr/local/bin/thermorawfileparser
-  unimod.xml: /usr/local/bin/unimod.xml
   vbc: /usr/local/bin/vbc
   xtandem: /usr/local/bin/xtandem
   mono-package-runtime: /usr/local/bin/mono-package-runtime

@@ -34,7 +34,6 @@ aliases:
   nunit-console: /usr/local/bin/nunit-console
   nunit-console2: /usr/local/bin/nunit-console2
   nunit-console4: /usr/local/bin/nunit-console4
-  protobuf-net.xml: /usr/local/bin/protobuf-net.xml
   vbc: /usr/local/bin/vbc
   xgboost.lib: /usr/local/bin/xgboost.lib
   mono-package-runtime: /usr/local/bin/mono-package-runtime

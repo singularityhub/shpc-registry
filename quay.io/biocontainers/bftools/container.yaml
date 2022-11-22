@@ -14,7 +14,6 @@ aliases:
   domainlist: /usr/local/bin/domainlist
   formatlist: /usr/local/bin/formatlist
   ijview: /usr/local/bin/ijview
-  logback.xml: /usr/local/bin/logback.xml
   mkfake: /usr/local/bin/mkfake
   showinf: /usr/local/bin/showinf
   tiffcomment: /usr/local/bin/tiffcomment
