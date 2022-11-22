@@ -8,5 +8,3 @@ tags:
   0.0.3--r42hdfd78af_10: sha256:24cc4ac541785275c6c214853b7661000dcb449f59d0322f1ed440378acffab1
 docker: quay.io/biocontainers/bioconductor-hgug4845a.db
 aliases:
-  .bioconductor-hgug4845a.db-post-link.sh: /usr/local/bin/.bioconductor-hgug4845a.db-post-link.sh
-  .bioconductor-hgug4845a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgug4845a.db-pre-unlink.sh

@@ -10,6 +10,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:215700089631d532c5063b0246e26e866794c4b8d65cefc6e0f1ab96ef50c936
 docker: quay.io/biocontainers/bioconductor-tenxpbmcdata
 aliases:
-  .bioconductor-tenxpbmcdata-post-link.sh: /usr/local/bin/.bioconductor-tenxpbmcdata-post-link.sh
-  .bioconductor-tenxpbmcdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxpbmcdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

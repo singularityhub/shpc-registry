@@ -12,8 +12,6 @@ tags:
   3.11.2--r40_0: sha256:09ec348f2149c434d5e7a37b60ccaa2100fd7ed518b56b0292cec3cce4cc32c4
 docker: quay.io/biocontainers/bioconductor-mouse.db0
 aliases:
-  .bioconductor-mouse.db0-post-link.sh: /usr/local/bin/.bioconductor-mouse.db0-post-link.sh
-  .bioconductor-mouse.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

@@ -12,8 +12,6 @@ tags:
   3.11.2--r40_0: sha256:26bdd16523069ed539f3dff1aa58c54366c9bc378f1afc423629aab1475c9540
 docker: quay.io/biocontainers/bioconductor-rat.db0
 aliases:
-  .bioconductor-rat.db0-post-link.sh: /usr/local/bin/.bioconductor-rat.db0-post-link.sh
-  .bioconductor-rat.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-rat.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

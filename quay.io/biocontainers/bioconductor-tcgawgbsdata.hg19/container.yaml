@@ -9,6 +9,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:7af0f1e1d40b523188733be3e310b3673083ad70637b8e8e631f16963f46ec9f
 docker: quay.io/biocontainers/bioconductor-tcgawgbsdata.hg19
 aliases:
-  .bioconductor-tcgawgbsdata.hg19-post-link.sh: /usr/local/bin/.bioconductor-tcgawgbsdata.hg19-post-link.sh
-  .bioconductor-tcgawgbsdata.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgawgbsdata.hg19-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

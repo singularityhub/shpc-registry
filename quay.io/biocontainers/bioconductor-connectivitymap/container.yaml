@@ -8,5 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:04b50d1768febe4a251bff23327df4243dc72ebf8105f7336e2843ca50fee328
 docker: quay.io/biocontainers/bioconductor-connectivitymap
 aliases:
-  .bioconductor-connectivitymap-post-link.sh: /usr/local/bin/.bioconductor-connectivitymap-post-link.sh
-  .bioconductor-connectivitymap-pre-unlink.sh: /usr/local/bin/.bioconductor-connectivitymap-pre-unlink.sh

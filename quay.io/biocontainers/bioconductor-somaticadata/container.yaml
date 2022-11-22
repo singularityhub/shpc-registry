@@ -8,5 +8,3 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:f72ab277caa9995779ea213e15616a5cc7bddc9de72cb93fb0ecc1abdaf21d3a
 docker: quay.io/biocontainers/bioconductor-somaticadata
 aliases:
-  .bioconductor-somaticadata-post-link.sh: /usr/local/bin/.bioconductor-somaticadata-post-link.sh
-  .bioconductor-somaticadata-pre-unlink.sh: /usr/local/bin/.bioconductor-somaticadata-pre-unlink.sh

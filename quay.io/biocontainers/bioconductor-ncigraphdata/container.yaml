@@ -8,5 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:aff0422e1a825b9d4a482528940a5cd6fed5c4b0e796ac27623ab779078752b7
 docker: quay.io/biocontainers/bioconductor-ncigraphdata
 aliases:
-  .bioconductor-ncigraphdata-post-link.sh: /usr/local/bin/.bioconductor-ncigraphdata-post-link.sh
-  .bioconductor-ncigraphdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ncigraphdata-pre-unlink.sh

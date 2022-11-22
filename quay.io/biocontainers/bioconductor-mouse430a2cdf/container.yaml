@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:2301399353bc1b7b8e85a554231ae0f8c32b71d7f92999a796186f1586f802d7
 docker: quay.io/biocontainers/bioconductor-mouse430a2cdf
 aliases:
-  .bioconductor-mouse430a2cdf-post-link.sh: /usr/local/bin/.bioconductor-mouse430a2cdf-post-link.sh
-  .bioconductor-mouse430a2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse430a2cdf-pre-unlink.sh

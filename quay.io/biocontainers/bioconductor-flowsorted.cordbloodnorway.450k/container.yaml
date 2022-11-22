@@ -12,8 +12,6 @@ tags:
   1.10.0--r36_1: sha256:fb4b1be0e2376a6b2fe313de3d9f7adcf31797db8f1474862f7d2bf9d1148df8
 docker: quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k
 aliases:
-  .bioconductor-flowsorted.cordbloodnorway.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.cordbloodnorway.450k-post-link.sh
-  .bioconductor-flowsorted.cordbloodnorway.450k-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.cordbloodnorway.450k-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

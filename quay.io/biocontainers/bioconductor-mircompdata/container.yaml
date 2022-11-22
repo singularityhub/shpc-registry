@@ -9,5 +9,3 @@ tags:
   1.27.0--r42hdfd78af_0: sha256:440451d920163e217be7fec549afd3d60c54230fc6f1e72a637e0817a756a182
 docker: quay.io/biocontainers/bioconductor-mircompdata
 aliases:
-  .bioconductor-mircompdata-post-link.sh: /usr/local/bin/.bioconductor-mircompdata-post-link.sh
-  .bioconductor-mircompdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mircompdata-pre-unlink.sh

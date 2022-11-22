@@ -7,8 +7,6 @@ tags:
   3.8.2--r36_1: sha256:cfcd3a276bacdb6ace15c0e9c011f874f637b2eb7b7c3baad1269a3647b01b22
 docker: quay.io/biocontainers/bioconductor-pig.db0
 aliases:
-  .bioconductor-pig.db0-post-link.sh: /usr/local/bin/.bioconductor-pig.db0-post-link.sh
-  .bioconductor-pig.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-pig.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

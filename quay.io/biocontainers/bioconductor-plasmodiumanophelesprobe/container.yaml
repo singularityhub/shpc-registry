@@ -7,5 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:d6bcd68f8d70280b9021aaec2efcae222fd748ad4f9a46d5296a301a999fb363
 docker: quay.io/biocontainers/bioconductor-plasmodiumanophelesprobe
 aliases:
-  .bioconductor-plasmodiumanophelesprobe-post-link.sh: /usr/local/bin/.bioconductor-plasmodiumanophelesprobe-post-link.sh
-  .bioconductor-plasmodiumanophelesprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-plasmodiumanophelesprobe-pre-unlink.sh

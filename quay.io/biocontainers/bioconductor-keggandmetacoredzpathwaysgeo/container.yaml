@@ -11,8 +11,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:56323c78628db30bba3c8b53ec9331e7dec549e3a89941589b23b112e6de1a3c
 docker: quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo
 aliases:
-  .bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh: /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh
-  .bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh: /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

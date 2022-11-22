@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:33a69035f307617dad5838bec7b63e9289570da2d091caecd7216c241b45789a
 docker: quay.io/biocontainers/bioconductor-yeast2cdf
 aliases:
-  .bioconductor-yeast2cdf-post-link.sh: /usr/local/bin/.bioconductor-yeast2cdf-post-link.sh
-  .bioconductor-yeast2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-yeast2cdf-pre-unlink.sh

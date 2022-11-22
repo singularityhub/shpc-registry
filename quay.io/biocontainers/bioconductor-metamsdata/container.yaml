@@ -8,5 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:759521e4f226f50e57051b62a2329e2c328fbcb15dee8c4848d00049ca17275b
 docker: quay.io/biocontainers/bioconductor-metamsdata
 aliases:
-  .bioconductor-metamsdata-post-link.sh: /usr/local/bin/.bioconductor-metamsdata-post-link.sh
-  .bioconductor-metamsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-metamsdata-pre-unlink.sh

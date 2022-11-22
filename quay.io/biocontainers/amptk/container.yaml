@@ -7,7 +7,6 @@ tags:
   1.5.4--pyh5e36f6f_0: sha256:483ed2ba22bf02b2c776dba9084e5242d43733bc7a8fe34a75ca54c62a9fd84b
 docker: quay.io/biocontainers/amptk
 aliases:
-  .amptk-post-link.sh: /usr/local/bin/.amptk-post-link.sh
   amptk: /usr/local/bin/amptk
   amptk_synthetic_mock.py: /usr/local/bin/amptk_synthetic_mock.py
   bold2utax.py: /usr/local/bin/bold2utax.py

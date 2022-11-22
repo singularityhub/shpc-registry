@@ -7,5 +7,3 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:d94d9e3e12aa706c1643410ff31609f8bf9d77cbf3cfde9decf63053765d27b8
 docker: quay.io/biocontainers/bioconductor-lungcancerlines
 aliases:
-  .bioconductor-lungcancerlines-post-link.sh: /usr/local/bin/.bioconductor-lungcancerlines-post-link.sh
-  .bioconductor-lungcancerlines-pre-unlink.sh: /usr/local/bin/.bioconductor-lungcancerlines-pre-unlink.sh

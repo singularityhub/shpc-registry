@@ -8,6 +8,4 @@ tags:
   2.99.0--r42hdfd78af_13: sha256:d40414d2dd25e918595e2df5542456559b5e08935c557790662196f14e7a921d
 docker: quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75
 aliases:
-  .bioconductor-ensdb.hsapiens.v75-post-link.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-post-link.sh
-  .bioconductor-ensdb.hsapiens.v75-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

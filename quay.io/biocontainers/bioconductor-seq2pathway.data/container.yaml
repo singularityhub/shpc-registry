@@ -9,5 +9,3 @@ tags:
   1.29.0--r42hdfd78af_0: sha256:396fa1e4bb878b8dcde23b059ae7d3ed03750bed6d0b9fed04f25b513dd61f7f
 docker: quay.io/biocontainers/bioconductor-seq2pathway.data
 aliases:
-  .bioconductor-seq2pathway.data-post-link.sh: /usr/local/bin/.bioconductor-seq2pathway.data-post-link.sh
-  .bioconductor-seq2pathway.data-pre-unlink.sh: /usr/local/bin/.bioconductor-seq2pathway.data-pre-unlink.sh

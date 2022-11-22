@@ -7,7 +7,6 @@ tags:
   1.0.4--hdfd78af_2: sha256:bfbf863e5b15dc0b26c233dcd1b24a2fd8c419502c30ab1ccf02af29bdc4d9ea
 docker: quay.io/biocontainers/slncky
 aliases:
-  .slncky-post-link.sh: /usr/local/bin/.slncky-post-link.sh
   alignTranscripts1.0: /usr/local/bin/alignTranscripts1.0
   lastz: /usr/local/bin/lastz
   lastz_32: /usr/local/bin/lastz_32

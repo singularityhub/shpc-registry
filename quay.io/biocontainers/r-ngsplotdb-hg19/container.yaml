@@ -7,8 +7,6 @@ tags:
   3.00--2: sha256:0f878adb3690a5d472afd4532e198dd55239e8ae03aeaad984b8f25f9c88abaf
 docker: quay.io/biocontainers/r-ngsplotdb-hg19
 aliases:
-  .r-ngsplotdb-hg19-post-link.sh: /usr/local/bin/.r-ngsplotdb-hg19-post-link.sh
-  .r-ngsplotdb-hg19-pre-unlink.sh: /usr/local/bin/.r-ngsplotdb-hg19-pre-unlink.sh
   ExtractGName.R: /usr/local/bin/ExtractGName.R
   alt_reg_cufflinks: /usr/local/bin/alt_reg_cufflinks
   alter2bed.pl: /usr/local/bin/alter2bed.pl

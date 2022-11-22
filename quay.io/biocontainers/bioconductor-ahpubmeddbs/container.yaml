@@ -8,5 +8,3 @@ tags:
   1.5.0--r42hdfd78af_0: sha256:84145771150cc3a4602820f4c8c8854da651d2dad2cf5b7c2714a69b51fc1c8b
 docker: quay.io/biocontainers/bioconductor-ahpubmeddbs
 aliases:
-  .bioconductor-ahpubmeddbs-post-link.sh: /usr/local/bin/.bioconductor-ahpubmeddbs-post-link.sh
-  .bioconductor-ahpubmeddbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahpubmeddbs-pre-unlink.sh

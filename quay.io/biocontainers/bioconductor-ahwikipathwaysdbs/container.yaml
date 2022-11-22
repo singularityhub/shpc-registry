@@ -7,5 +7,3 @@ tags:
   0.99.4--r41hdfd78af_2: sha256:d535a63c9095e254d266bff511d96806d6d861e075bf7ffcae96e11f9a2c9c21
 docker: quay.io/biocontainers/bioconductor-ahwikipathwaysdbs
 aliases:
-  .bioconductor-ahwikipathwaysdbs-post-link.sh: /usr/local/bin/.bioconductor-ahwikipathwaysdbs-post-link.sh
-  .bioconductor-ahwikipathwaysdbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahwikipathwaysdbs-pre-unlink.sh

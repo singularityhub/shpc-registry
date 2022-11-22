@@ -7,5 +7,3 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:5686f39ea070aeef48630512f6554086c61a850830bfd1e16f3b41408ba1b687
 docker: quay.io/biocontainers/bioconductor-spatialdmelxsim
 aliases:
-  .bioconductor-spatialdmelxsim-post-link.sh: /usr/local/bin/.bioconductor-spatialdmelxsim-post-link.sh
-  .bioconductor-spatialdmelxsim-pre-unlink.sh: /usr/local/bin/.bioconductor-spatialdmelxsim-pre-unlink.sh

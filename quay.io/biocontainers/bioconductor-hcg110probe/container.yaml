@@ -7,5 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:c095c6486a3461aa4041e87d145c5a98914e0cf014135a6dc596aa0c48aae56b
 docker: quay.io/biocontainers/bioconductor-hcg110probe
 aliases:
-  .bioconductor-hcg110probe-post-link.sh: /usr/local/bin/.bioconductor-hcg110probe-post-link.sh
-  .bioconductor-hcg110probe-pre-unlink.sh: /usr/local/bin/.bioconductor-hcg110probe-pre-unlink.sh

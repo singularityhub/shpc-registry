@@ -8,8 +8,6 @@ tags:
   2.22--hdfd78af_0: sha256:9c3a69446d09c28cbbe9b5e2c8e68ace1c2f57034e5c3393a18464d2c5b6f3a0
 docker: quay.io/biocontainers/lotus2
 aliases:
-  .lotus2-post-link.sh: /usr/local/bin/.lotus2-post-link.sh
-  .lotus2-pre-unlink.sh: /usr/local/bin/.lotus2-pre-unlink.sh
   ITSx: /usr/local/bin/ITSx
   LCA: /usr/local/bin/LCA
   amplicon_contingency_table.py: /usr/local/bin/amplicon_contingency_table.py

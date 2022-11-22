@@ -7,5 +7,3 @@ tags:
   0.34.0--r41hdfd78af_1: sha256:2e1995bf7cfd99edbb719aa1d6cf3580f9729351110399851543e8d5a438e9f2
 docker: quay.io/biocontainers/bioconductor-predasampledata
 aliases:
-  .bioconductor-predasampledata-post-link.sh: /usr/local/bin/.bioconductor-predasampledata-post-link.sh
-  .bioconductor-predasampledata-pre-unlink.sh: /usr/local/bin/.bioconductor-predasampledata-pre-unlink.sh

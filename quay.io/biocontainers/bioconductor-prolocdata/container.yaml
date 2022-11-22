@@ -8,8 +8,6 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:e6392180030885151a8fb0a69b6649bf6d51a77c0b8ccba4e34fe79ee1f4504c
 docker: quay.io/biocontainers/bioconductor-prolocdata
 aliases:
-  .bioconductor-prolocdata-post-link.sh: /usr/local/bin/.bioconductor-prolocdata-post-link.sh
-  .bioconductor-prolocdata-pre-unlink.sh: /usr/local/bin/.bioconductor-prolocdata-pre-unlink.sh
   zipcmp: /usr/local/bin/zipcmp
   zipmerge: /usr/local/bin/zipmerge
   ziptool: /usr/local/bin/ziptool

@@ -7,5 +7,3 @@ tags:
   1.1.0--r41hdfd78af_9: sha256:bb7dbaaf8e0328adc8cd5f3b8c5cff4646d55c70c84f6e94e95bf3794bc3551c
 docker: quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs
 aliases:
-  .bioconductor-huex.1.0.st.v2frmavecs-post-link.sh: /usr/local/bin/.bioconductor-huex.1.0.st.v2frmavecs-post-link.sh
-  .bioconductor-huex.1.0.st.v2frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-huex.1.0.st.v2frmavecs-pre-unlink.sh

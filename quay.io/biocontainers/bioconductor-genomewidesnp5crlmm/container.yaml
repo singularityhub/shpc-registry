@@ -8,5 +8,3 @@ tags:
   1.0.6--r42hdfd78af_10: sha256:6ed1a73155e4ef721b99483310540306f6fc71db3726e51792dc62096d59130a
 docker: quay.io/biocontainers/bioconductor-genomewidesnp5crlmm
 aliases:
-  .bioconductor-genomewidesnp5crlmm-post-link.sh: /usr/local/bin/.bioconductor-genomewidesnp5crlmm-post-link.sh
-  .bioconductor-genomewidesnp5crlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-genomewidesnp5crlmm-pre-unlink.sh

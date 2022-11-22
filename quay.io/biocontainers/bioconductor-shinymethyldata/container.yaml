@@ -11,6 +11,4 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:8f6ca95efdb1782de6f6456bd73f8b38f1ebbfcdb6df965ec6ef0dbb03875e55
 docker: quay.io/biocontainers/bioconductor-shinymethyldata
 aliases:
-  .bioconductor-shinymethyldata-post-link.sh: /usr/local/bin/.bioconductor-shinymethyldata-post-link.sh
-  .bioconductor-shinymethyldata-pre-unlink.sh: /usr/local/bin/.bioconductor-shinymethyldata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -9,6 +9,4 @@ tags:
   1.10.0--r41hdfd78af_1: sha256:9d09ef880e256f499f4f1d0d0ffb2f0e3c1c3e162d9dc88dc6f92fddb3f00b73
 docker: quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k
 aliases:
-  .bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh
-  .bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

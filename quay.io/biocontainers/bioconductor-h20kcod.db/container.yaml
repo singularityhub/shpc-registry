@@ -8,5 +8,3 @@ tags:
   3.4.0--r42hdfd78af_10: sha256:5da6e4131b6ddd215220de2337545c3dc0af9b63821b0a5bf14119c793a120fd
 docker: quay.io/biocontainers/bioconductor-h20kcod.db
 aliases:
-  .bioconductor-h20kcod.db-post-link.sh: /usr/local/bin/.bioconductor-h20kcod.db-post-link.sh
-  .bioconductor-h20kcod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-h20kcod.db-pre-unlink.sh

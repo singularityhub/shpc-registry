@@ -7,7 +7,6 @@ tags:
   6.1.1--pyhdfd78af_0: sha256:35d78e95a7e87b67210c4fe25e77ea4452d88e3b6234a39fe0602e83baefab82
 docker: quay.io/biocontainers/antismash
 aliases:
-  .antismash-post-link.sh: /usr/local/bin/.antismash-post-link.sh
   antismash: /usr/local/bin/antismash
   download-antismash-databases: /usr/local/bin/download-antismash-databases
   hmmalign2: /usr/local/bin/hmmalign2

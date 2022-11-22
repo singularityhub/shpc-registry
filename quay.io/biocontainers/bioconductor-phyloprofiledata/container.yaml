@@ -8,7 +8,5 @@ tags:
   1.12.0--r42hdfd78af_0: sha256:c2d5b93513c35410b6db1cb8924423a8f1284007aa343fb57b419fd257aaf9b5
 docker: quay.io/biocontainers/bioconductor-phyloprofiledata
 aliases:
-  .bioconductor-phyloprofiledata-post-link.sh: /usr/local/bin/.bioconductor-phyloprofiledata-post-link.sh
-  .bioconductor-phyloprofiledata-pre-unlink.sh: /usr/local/bin/.bioconductor-phyloprofiledata-pre-unlink.sh
   pandoc-server: /usr/local/bin/pandoc-server
   pandoc: /usr/local/bin/pandoc

@@ -8,6 +8,4 @@ tags:
   1.8.0--r42hdfd78af_0: sha256:1f33fde2902729ca776761bc9768661d9d0f7417af4a4f62c61e302a6b64134e
 docker: quay.io/biocontainers/bioconductor-scate
 aliases:
-  .bioconductor-scatedata-post-link.sh: /usr/local/bin/.bioconductor-scatedata-post-link.sh
-  .bioconductor-scatedata-pre-unlink.sh: /usr/local/bin/.bioconductor-scatedata-pre-unlink.sh
   xgboost: /usr/local/bin/xgboost

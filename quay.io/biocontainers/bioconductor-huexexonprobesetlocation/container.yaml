@@ -8,5 +8,3 @@ tags:
   1.15.0--r42hdfd78af_10: sha256:a6473c973419147351e76179d482c363318f3c04aa2fca0c445f3a7abdb806ed
 docker: quay.io/biocontainers/bioconductor-huexexonprobesetlocation
 aliases:
-  .bioconductor-huexexonprobesetlocation-post-link.sh: /usr/local/bin/.bioconductor-huexexonprobesetlocation-post-link.sh
-  .bioconductor-huexexonprobesetlocation-pre-unlink.sh: /usr/local/bin/.bioconductor-huexexonprobesetlocation-pre-unlink.sh

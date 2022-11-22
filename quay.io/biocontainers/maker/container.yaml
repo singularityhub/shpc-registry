@@ -8,7 +8,6 @@ tags:
   2.31.11--pl5262hec0a270_1: sha256:284cd94bd1aa733082aa673a8fd892e76453b87d210d5f410c02ea611b364ef0
 docker: quay.io/biocontainers/maker
 aliases:
-  .maker-post-link.sh: /usr/local/bin/.maker-post-link.sh
   AED_cdf_generator.pl: /usr/local/bin/AED_cdf_generator.pl
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker

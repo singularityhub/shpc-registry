@@ -8,5 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:d47f04cc51089ad3b5e85d1c9097585aab69719cba9281398e6351ca69cbe88b
 docker: quay.io/biocontainers/bioconductor-parathyroidse
 aliases:
-  .bioconductor-parathyroidse-post-link.sh: /usr/local/bin/.bioconductor-parathyroidse-post-link.sh
-  .bioconductor-parathyroidse-pre-unlink.sh: /usr/local/bin/.bioconductor-parathyroidse-pre-unlink.sh

@@ -9,6 +9,4 @@ tags:
   1.10.0--r41hdfd78af_1: sha256:8983da645500ef2e1fb8532bb49a59c6a85505b2558544fbe927b849e0fce084
 docker: quay.io/biocontainers/bioconductor-chipseqdbdata
 aliases:
-  .bioconductor-chipseqdbdata-post-link.sh: /usr/local/bin/.bioconductor-chipseqdbdata-post-link.sh
-  .bioconductor-chipseqdbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-chipseqdbdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

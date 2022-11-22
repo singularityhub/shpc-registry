@@ -8,6 +8,4 @@ tags:
   1.15.1--r41hdfd78af_12: sha256:edd28b1613447880bf593f3e7ab7930b2792c275d8a484b825a8e4c81f6eaaa9
 docker: quay.io/biocontainers/bioconductor-cmap
 aliases:
-  .bioconductor-cmap-post-link.sh: /usr/local/bin/.bioconductor-cmap-post-link.sh
-  .bioconductor-cmap-pre-unlink.sh: /usr/local/bin/.bioconductor-cmap-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/taranis
 aliases:
   Dockerfile: /usr/local/bin/Dockerfile
-  LICENSE: /usr/local/bin/LICENSE
   allele_calling.py: /usr/local/bin/allele_calling.py
   analyze_schema.py: /usr/local/bin/analyze_schema.py
   create_schema.py: /usr/local/bin/create_schema.py

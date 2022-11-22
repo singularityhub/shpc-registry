@@ -12,8 +12,6 @@ tags:
   1.13.0--r40_0: sha256:1f86b2b72e5d64fec25aa7a5f4f931743ae16de90aafe931e58e3fb74f3ed556
 docker: quay.io/biocontainers/bioconductor-migsadata
 aliases:
-  .bioconductor-migsadata-post-link.sh: /usr/local/bin/.bioconductor-migsadata-post-link.sh
-  .bioconductor-migsadata-pre-unlink.sh: /usr/local/bin/.bioconductor-migsadata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

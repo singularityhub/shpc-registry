@@ -8,6 +8,4 @@ tags:
   1.3.1--r42hdfd78af_14: sha256:6af85da35480f22cf69fbdf723ad8ccf7a0d48124d4fce35d5da03da2f5a4d44
 docker: quay.io/biocontainers/bioconductor-homo.sapiens
 aliases:
-  .bioconductor-homo.sapiens-post-link.sh: /usr/local/bin/.bioconductor-homo.sapiens-post-link.sh
-  .bioconductor-homo.sapiens-pre-unlink.sh: /usr/local/bin/.bioconductor-homo.sapiens-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

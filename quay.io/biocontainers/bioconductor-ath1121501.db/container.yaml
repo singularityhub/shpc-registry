@@ -8,6 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:40b3cfbb0d3c56a076ba05358f13c9f2d8b27a5f77d56335d00d173e6256139c
 docker: quay.io/biocontainers/bioconductor-ath1121501.db
 aliases:
-  .bioconductor-ath1121501.db-post-link.sh: /usr/local/bin/.bioconductor-ath1121501.db-post-link.sh
-  .bioconductor-ath1121501.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ath1121501.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

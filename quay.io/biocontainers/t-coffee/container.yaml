@@ -7,7 +7,6 @@ tags:
   13.45.0.4846264--he1b5a44_3: sha256:820c6599294388361dfab47b1235acbf7f238787538a3e779cbdef9985eb309f
 docker: quay.io/biocontainers/t-coffee
 aliases:
-  .t-coffee-post-link.sh: /usr/local/bin/.t-coffee-post-link.sh
   DrawGram.jar: /usr/local/bin/DrawGram.jar
   DrawTree.jar: /usr/local/bin/DrawTree.jar
   TMalign: /usr/local/bin/TMalign

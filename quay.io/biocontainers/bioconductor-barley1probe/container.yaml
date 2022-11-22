@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:0737e2a7a6a3a11f56e81c8029b2b341ddc97fe910d88381b5465a7f174a49ef
 docker: quay.io/biocontainers/bioconductor-barley1probe
 aliases:
-  .bioconductor-barley1probe-post-link.sh: /usr/local/bin/.bioconductor-barley1probe-post-link.sh
-  .bioconductor-barley1probe-pre-unlink.sh: /usr/local/bin/.bioconductor-barley1probe-pre-unlink.sh

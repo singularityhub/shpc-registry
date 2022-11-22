@@ -8,5 +8,3 @@ tags:
   3.2.3--r42hdfd78af_10: sha256:7a99e54cd60548a58ccc355032dc90b146671e644a94c5c0c0a57dcd19d42a13
 docker: quay.io/biocontainers/bioconductor-mu22v3.db
 aliases:
-  .bioconductor-mu22v3.db-post-link.sh: /usr/local/bin/.bioconductor-mu22v3.db-post-link.sh
-  .bioconductor-mu22v3.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mu22v3.db-pre-unlink.sh

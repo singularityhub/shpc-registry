@@ -7,5 +7,3 @@ tags:
   2.36.0--r41hdfd78af_0: sha256:e2f2d6492d52cab14103a8d1bba4c20b8f94f43629dea04593f6e36a52fed91d
 docker: quay.io/biocontainers/bioconductor-drugvsdisease
 aliases:
-  .bioconductor-drugvsdiseasedata-post-link.sh: /usr/local/bin/.bioconductor-drugvsdiseasedata-post-link.sh
-  .bioconductor-drugvsdiseasedata-pre-unlink.sh: /usr/local/bin/.bioconductor-drugvsdiseasedata-pre-unlink.sh

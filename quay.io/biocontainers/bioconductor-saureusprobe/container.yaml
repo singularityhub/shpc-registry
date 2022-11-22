@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:930e0e103cf4eeec8c74bc935daad60f9ed1e90450a1a0ba7a2cb25f51f54ebb
 docker: quay.io/biocontainers/bioconductor-saureusprobe
 aliases:
-  .bioconductor-saureusprobe-post-link.sh: /usr/local/bin/.bioconductor-saureusprobe-post-link.sh
-  .bioconductor-saureusprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-saureusprobe-pre-unlink.sh

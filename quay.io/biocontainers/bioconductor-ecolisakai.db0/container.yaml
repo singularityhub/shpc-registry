@@ -12,8 +12,6 @@ tags:
   3.11.2--r40_0: sha256:d1f7e0e00bf7728df247584b022d34689b3b6b9efa60410e4c655f4dc3832c6a
 docker: quay.io/biocontainers/bioconductor-ecolisakai.db0
 aliases:
-  .bioconductor-ecolisakai.db0-post-link.sh: /usr/local/bin/.bioconductor-ecolisakai.db0-post-link.sh
-  .bioconductor-ecolisakai.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-ecolisakai.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

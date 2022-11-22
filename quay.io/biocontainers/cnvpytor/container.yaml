@@ -7,7 +7,6 @@ tags:
   1.2.1--pyhdfd78af_0: sha256:467813ab331009683df2201558f7e4dea20c9bda7f782cd8774211ef5e8b5359
 docker: quay.io/biocontainers/cnvpytor
 aliases:
-  .cnvpytor-post-link.sh: /usr/local/bin/.cnvpytor-post-link.sh
   cnvpytor: /usr/local/bin/cnvpytor
   vba_extract.py: /usr/local/bin/vba_extract.py
   mirror_server: /usr/local/bin/mirror_server

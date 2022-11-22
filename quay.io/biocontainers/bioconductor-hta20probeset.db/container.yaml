@@ -8,5 +8,3 @@ tags:
   8.8.0--r42hdfd78af_2: sha256:576932d37ce9bd2afcaa65b2d0ba79779c1ef536de760a8458b2e30561fb33c0
 docker: quay.io/biocontainers/bioconductor-hta20probeset.db
 aliases:
-  .bioconductor-hta20probeset.db-post-link.sh: /usr/local/bin/.bioconductor-hta20probeset.db-post-link.sh
-  .bioconductor-hta20probeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hta20probeset.db-pre-unlink.sh

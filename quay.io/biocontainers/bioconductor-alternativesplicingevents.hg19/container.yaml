@@ -7,5 +7,3 @@ tags:
   1.1.0--r41hdfd78af_1: sha256:a431839c8ab42a0d0bd88bc98e2ff24c9af552d31def27a65c35bf65fda417cb
 docker: quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19
 aliases:
-  .bioconductor-alternativesplicingevents.hg19-post-link.sh: /usr/local/bin/.bioconductor-alternativesplicingevents.hg19-post-link.sh
-  .bioconductor-alternativesplicingevents.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-alternativesplicingevents.hg19-pre-unlink.sh

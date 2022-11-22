@@ -8,5 +8,3 @@ tags:
   1.38.0--r42hdfd78af_0: sha256:5645d487eacd3924a41c9748e5f68d12c68fae42b8a4b5e67ba2eb3e7568a71f
 docker: quay.io/biocontainers/bioconductor-spikeinsubset
 aliases:
-  .bioconductor-spikeinsubset-post-link.sh: /usr/local/bin/.bioconductor-spikeinsubset-post-link.sh
-  .bioconductor-spikeinsubset-pre-unlink.sh: /usr/local/bin/.bioconductor-spikeinsubset-pre-unlink.sh

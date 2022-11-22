@@ -12,8 +12,6 @@ tags:
   1.14.0--r40_0: sha256:9a6459775bbe4353346208e0ed5516b72d4bf2670fa826b19b1ac4ec99bce068
 docker: quay.io/biocontainers/bioconductor-alpinedata
 aliases:
-  .bioconductor-alpinedata-post-link.sh: /usr/local/bin/.bioconductor-alpinedata-post-link.sh
-  .bioconductor-alpinedata-pre-unlink.sh: /usr/local/bin/.bioconductor-alpinedata-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

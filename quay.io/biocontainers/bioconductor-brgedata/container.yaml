@@ -7,8 +7,6 @@ tags:
   1.8.0--r36_0: sha256:d5f8d6876a50dfd0a72b1758edee58dbf20aa2b626f369f161350da4676aba16
 docker: quay.io/biocontainers/bioconductor-brgedata
 aliases:
-  .bioconductor-brgedata-post-link.sh: /usr/local/bin/.bioconductor-brgedata-post-link.sh
-  .bioconductor-brgedata-pre-unlink.sh: /usr/local/bin/.bioconductor-brgedata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

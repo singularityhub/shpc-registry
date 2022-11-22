@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:a9bb025ddb48ce14b05fdb6553fdbbe6a6cde2f9db73a87267d0b104d1a7e2f4
 docker: quay.io/biocontainers/bioconductor-hugene10stv1cdf
 aliases:
-  .bioconductor-hugene10stv1cdf-post-link.sh: /usr/local/bin/.bioconductor-hugene10stv1cdf-post-link.sh
-  .bioconductor-hugene10stv1cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hugene10stv1cdf-pre-unlink.sh

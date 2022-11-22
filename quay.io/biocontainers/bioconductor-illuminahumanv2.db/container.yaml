@@ -7,5 +7,3 @@ tags:
   1.26.0--r41hdfd78af_9: sha256:0492a0be302d7e2cf9f8ef3cf10b3fc15661d184e5b0b5215873f67500a1b942
 docker: quay.io/biocontainers/bioconductor-illuminahumanv2.db
 aliases:
-  .bioconductor-illuminahumanv2.db-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanv2.db-post-link.sh
-  .bioconductor-illuminahumanv2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanv2.db-pre-unlink.sh

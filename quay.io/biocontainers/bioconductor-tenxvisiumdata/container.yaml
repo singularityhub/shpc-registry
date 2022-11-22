@@ -8,8 +8,6 @@ tags:
   1.6.0--r42hdfd78af_0: sha256:6ebe6c5bf37d4e5100df8fd7c393e87243563347ff73af367a87a9ea9caa6736
 docker: quay.io/biocontainers/bioconductor-tenxvisiumdata
 aliases:
-  .bioconductor-tenxvisiumdata-post-link.sh: /usr/local/bin/.bioconductor-tenxvisiumdata-post-link.sh
-  .bioconductor-tenxvisiumdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxvisiumdata-pre-unlink.sh
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config

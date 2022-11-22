@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:41a2d360893e276b945483e7b9e12c3b675b024612e6e1953d185cd6302038b7
 docker: quay.io/biocontainers/bioconductor-hgfocuscdf
 aliases:
-  .bioconductor-hgfocuscdf-post-link.sh: /usr/local/bin/.bioconductor-hgfocuscdf-post-link.sh
-  .bioconductor-hgfocuscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hgfocuscdf-pre-unlink.sh

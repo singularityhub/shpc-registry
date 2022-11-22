@@ -7,8 +7,6 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:79992ed9963e989d7bba62bc0b8137cdc2ce3f1eaea7ba8bc599f6b37bf5d089
 docker: quay.io/biocontainers/bioconductor-rtcga.pancan12
 aliases:
-  .bioconductor-rtcga.pancan12-post-link.sh: /usr/local/bin/.bioconductor-rtcga.pancan12-post-link.sh
-  .bioconductor-rtcga.pancan12-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.pancan12-pre-unlink.sh
   f2py3.10: /usr/local/bin/f2py3.10
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10

@@ -12,8 +12,6 @@ tags:
   3.11.2--r40_0: sha256:52a095d857a2a80088881f7649cacc70655e187d0fd7e3e23ce3c703965dfde5
 docker: quay.io/biocontainers/bioconductor-rhesus.db0
 aliases:
-  .bioconductor-rhesus.db0-post-link.sh: /usr/local/bin/.bioconductor-rhesus.db0-post-link.sh
-  .bioconductor-rhesus.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-rhesus.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

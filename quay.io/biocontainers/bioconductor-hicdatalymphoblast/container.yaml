@@ -8,5 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22
 docker: quay.io/biocontainers/bioconductor-hicdatalymphoblast
 aliases:
-  .bioconductor-hicdatalymphoblast-post-link.sh: /usr/local/bin/.bioconductor-hicdatalymphoblast-post-link.sh
-  .bioconductor-hicdatalymphoblast-pre-unlink.sh: /usr/local/bin/.bioconductor-hicdatalymphoblast-pre-unlink.sh

@@ -7,6 +7,4 @@ tags:
   3.2.4--r40hdfd78af_2: sha256:79bc532e0c308a2a14e297f3aa35e52e15e8cbc84210f29f5b1a072f11f99423
 docker: quay.io/biocontainers/bioconductor-kegg.db
 aliases:
-  .bioconductor-kegg.db-post-link.sh: /usr/local/bin/.bioconductor-kegg.db-post-link.sh
-  .bioconductor-kegg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-kegg.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

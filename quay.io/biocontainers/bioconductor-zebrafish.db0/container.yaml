@@ -12,8 +12,6 @@ tags:
   3.11.2--r40_0: sha256:f289b732c5a67e83bd0ca5efa411f9c17e1b7b8cb9ac59b8aa82f380de69f1f6
 docker: quay.io/biocontainers/bioconductor-zebrafish.db0
 aliases:
-  .bioconductor-zebrafish.db0-post-link.sh: /usr/local/bin/.bioconductor-zebrafish.db0-post-link.sh
-  .bioconductor-zebrafish.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-zebrafish.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

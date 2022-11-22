@@ -8,5 +8,3 @@ tags:
   3.2.3--r41hdfd78af_10: sha256:6dbd5922123b7a92c75d8ddb2f9dd5690e523a295bba48803878c55ef63f3906
 docker: quay.io/biocontainers/bioconductor-hguatlas13k.db
 aliases:
-  .bioconductor-hguatlas13k.db-post-link.sh: /usr/local/bin/.bioconductor-hguatlas13k.db-post-link.sh
-  .bioconductor-hguatlas13k.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hguatlas13k.db-pre-unlink.sh

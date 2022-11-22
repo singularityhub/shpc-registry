@@ -7,5 +7,3 @@ tags:
   0.99.7--r41hdfd78af_4: sha256:6850ddf51fab1a808105bd409175d30a03d150f63b549091462a112d3fe9e980
 docker: quay.io/biocontainers/bioconductor-epitxdb.hs.hg38
 aliases:
-  .bioconductor-epitxdb.hs.hg38-post-link.sh: /usr/local/bin/.bioconductor-epitxdb.hs.hg38-post-link.sh
-  .bioconductor-epitxdb.hs.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-epitxdb.hs.hg38-pre-unlink.sh

@@ -7,7 +7,6 @@ tags:
   1.2.5--py_3: sha256:55720f01c26422bc1218b46f4d99e3ac46f3d5569545da3ed32b0ff900f7c0c2
 docker: quay.io/biocontainers/neptune
 aliases:
-  .neptune-post-link.sh: /usr/local/bin/.neptune-post-link.sh
   neptune: /usr/local/bin/neptune
   neptune-conda: /usr/local/bin/neptune-conda
   build.sh: /usr/local/bin/build.sh

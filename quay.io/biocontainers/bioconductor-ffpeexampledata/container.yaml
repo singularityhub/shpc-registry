@@ -7,5 +7,3 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:bf2e7ef8a3567778da4172ea163a721f28166ec97fc7c42c57cf91d5a37d9294
 docker: quay.io/biocontainers/bioconductor-ffpeexampledata
 aliases:
-  .bioconductor-ffpeexampledata-post-link.sh: /usr/local/bin/.bioconductor-ffpeexampledata-post-link.sh
-  .bioconductor-ffpeexampledata-pre-unlink.sh: /usr/local/bin/.bioconductor-ffpeexampledata-pre-unlink.sh

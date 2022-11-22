@@ -7,7 +7,6 @@ tags:
   1.1.0--pyhdfd78af_0: sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
 docker: quay.io/biocontainers/gnali
 aliases:
-  .gnali-post-link.sh: /usr/local/bin/.gnali-post-link.sh
   bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl
   filter_vep: /usr/local/bin/filter_vep
   gnali: /usr/local/bin/gnali

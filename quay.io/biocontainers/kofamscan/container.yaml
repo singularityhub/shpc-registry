@@ -7,7 +7,6 @@ tags:
   1.3.0--hdfd78af_2: sha256:afc460a9bdbc6dcd00ee37e40f2b6d4f35ac87e2d8e6b93a3353d6e5fa658c66
 docker: quay.io/biocontainers/kofamscan
 aliases:
-  .kofamscan-post-link.sh: /usr/local/bin/.kofamscan-post-link.sh
   bundle: /usr/local/bin/bundle
   bundler: /usr/local/bin/bundler
   exec_annotation: /usr/local/bin/exec_annotation

@@ -7,7 +7,6 @@ tags:
   1.0.1--hdfd78af_1: sha256:f745fb165d5376b1fd8bcde06b7a20b066efa4c8cafbdba05e37646099aa9082
 docker: quay.io/biocontainers/ssuissero
 aliases:
-  LICENSE: /usr/local/bin/LICENSE
   SsuisSero.sh: /usr/local/bin/SsuisSero.sh
   check_compression: /usr/local/bin/check_compression
   compress_fast5: /usr/local/bin/compress_fast5

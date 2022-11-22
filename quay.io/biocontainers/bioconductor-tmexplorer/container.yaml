@@ -8,5 +8,3 @@ tags:
   1.8.0--r42hdfd78af_0: sha256:46e045e21a5459674699a89e65f9f85b1686d6f691f38f40b91a59cd8e2648fa
 docker: quay.io/biocontainers/bioconductor-tmexplorer
 aliases:
-  .bioconductor-tmexplorer-post-link.sh: /usr/local/bin/.bioconductor-tmexplorer-post-link.sh
-  .bioconductor-tmexplorer-pre-unlink.sh: /usr/local/bin/.bioconductor-tmexplorer-pre-unlink.sh

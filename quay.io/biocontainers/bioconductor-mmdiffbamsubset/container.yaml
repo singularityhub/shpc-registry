@@ -8,5 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:3c3ae463b2cd70e2cef98303c0d32ca98f4a40761231d1b22df822562139ae91
 docker: quay.io/biocontainers/bioconductor-mmdiffbamsubset
 aliases:
-  .bioconductor-mmdiffbamsubset-post-link.sh: /usr/local/bin/.bioconductor-mmdiffbamsubset-post-link.sh
-  .bioconductor-mmdiffbamsubset-pre-unlink.sh: /usr/local/bin/.bioconductor-mmdiffbamsubset-pre-unlink.sh

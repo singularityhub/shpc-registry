@@ -7,5 +7,3 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:e6fcc53cd4e92fdc413c734a97d5b1c6a10a17b1b72b5825c79d3d1098cf1d67
 docker: quay.io/biocontainers/bioconductor-singlemoleculefootprintingdata
 aliases:
-  .bioconductor-singlemoleculefootprintingdata-post-link.sh: /usr/local/bin/.bioconductor-singlemoleculefootprintingdata-post-link.sh
-  .bioconductor-singlemoleculefootprintingdata-pre-unlink.sh: /usr/local/bin/.bioconductor-singlemoleculefootprintingdata-pre-unlink.sh

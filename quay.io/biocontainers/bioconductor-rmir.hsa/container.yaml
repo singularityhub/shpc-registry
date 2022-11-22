@@ -8,5 +8,3 @@ tags:
   1.0.5--r42hdfd78af_10: sha256:6ddc6152d350d7f4109718fb47e1f954b24c15db8de5bb10999f9459fc1a5a3d
 docker: quay.io/biocontainers/bioconductor-rmir.hsa
 aliases:
-  .bioconductor-rmir.hsa-post-link.sh: /usr/local/bin/.bioconductor-rmir.hsa-post-link.sh
-  .bioconductor-rmir.hsa-pre-unlink.sh: /usr/local/bin/.bioconductor-rmir.hsa-pre-unlink.sh

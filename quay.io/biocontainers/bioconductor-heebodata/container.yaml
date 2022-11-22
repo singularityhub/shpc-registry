@@ -8,5 +8,3 @@ tags:
   1.35.0--r42hdfd78af_0: sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06
 docker: quay.io/biocontainers/bioconductor-heebodata
 aliases:
-  .bioconductor-heebodata-post-link.sh: /usr/local/bin/.bioconductor-heebodata-post-link.sh
-  .bioconductor-heebodata-pre-unlink.sh: /usr/local/bin/.bioconductor-heebodata-pre-unlink.sh

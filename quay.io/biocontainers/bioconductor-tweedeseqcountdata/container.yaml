@@ -8,5 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:d240cbf12ced94353a9d3ddf02269e5f36b1603e0875a6ec6193d59b85ef69e2
 docker: quay.io/biocontainers/bioconductor-tweedeseqcountdata
 aliases:
-  .bioconductor-tweedeseqcountdata-post-link.sh: /usr/local/bin/.bioconductor-tweedeseqcountdata-post-link.sh
-  .bioconductor-tweedeseqcountdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tweedeseqcountdata-pre-unlink.sh

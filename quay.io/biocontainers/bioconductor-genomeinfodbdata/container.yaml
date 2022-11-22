@@ -7,5 +7,3 @@ tags:
   1.2.7--r41hdfd78af_2: sha256:cd8f8c3a44b324143393764c6eb17a0582408e3d8c72ad642f98a490ce32b3e9
 docker: quay.io/biocontainers/bioconductor-genomeinfodbdata
 aliases:
-  .bioconductor-genomeinfodbdata-post-link.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-post-link.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh

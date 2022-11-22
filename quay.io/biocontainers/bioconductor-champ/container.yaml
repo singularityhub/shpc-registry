@@ -7,7 +7,5 @@ tags:
   2.22.0--r41hdfd78af_0: sha256:c0cd9f27cc89e1c8a367e2213b9f4be0b4f28fc7c9a5acd0c5e63cb637ba0321
 docker: quay.io/biocontainers/bioconductor-champ
 aliases:
-  .bioconductor-champdata-post-link.sh: /usr/local/bin/.bioconductor-champdata-post-link.sh
-  .bioconductor-champdata-pre-unlink.sh: /usr/local/bin/.bioconductor-champdata-pre-unlink.sh
   pandoc: /usr/local/bin/pandoc
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

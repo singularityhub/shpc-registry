@@ -8,5 +8,4 @@ tags:
   3.8.1--h9ee0642_0: sha256:f635fa3baade7a0f796218b5d0dcf44af2f46dfad7d6c013cb60533b97bb904c
 docker: quay.io/biocontainers/isoseq3
 aliases:
-  .isoseq3-post-link.sh: /usr/local/bin/.isoseq3-post-link.sh
   isoseq3: /usr/local/bin/isoseq3

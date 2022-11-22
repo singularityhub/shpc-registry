@@ -7,6 +7,4 @@ tags:
   1.00.0--r40hdfd78af_6: sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c
 docker: quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb
 aliases:
-  .bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh: /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh
-  .bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh: /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,5 +8,3 @@ tags:
   1.9.0--r42hdfd78af_0: sha256:7943d7e8d3beaa5c4462e186e259f7e6de2b4ae2530c7b46b70004b260ba0b68
 docker: quay.io/biocontainers/bioconductor-gpaexample
 aliases:
-  .bioconductor-gpaexample-post-link.sh: /usr/local/bin/.bioconductor-gpaexample-post-link.sh
-  .bioconductor-gpaexample-pre-unlink.sh: /usr/local/bin/.bioconductor-gpaexample-pre-unlink.sh

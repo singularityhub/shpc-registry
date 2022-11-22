@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:9cf7ccfe58ebaee402a9f213918f9af515f7e25bcfeba8ea69a31538d080c270
 docker: quay.io/biocontainers/bioconductor-canine2probe
 aliases:
-  .bioconductor-canine2probe-post-link.sh: /usr/local/bin/.bioconductor-canine2probe-post-link.sh
-  .bioconductor-canine2probe-pre-unlink.sh: /usr/local/bin/.bioconductor-canine2probe-pre-unlink.sh

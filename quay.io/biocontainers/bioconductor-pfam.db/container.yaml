@@ -12,8 +12,6 @@ tags:
   3.10.0--r40_1: sha256:ce4fc9bbbba39d503eb2acb16646b9a6ed2b31de648e1b5f4abf4569889dbca8
 docker: quay.io/biocontainers/bioconductor-pfam.db
 aliases:
-  .bioconductor-pfam.db-post-link.sh: /usr/local/bin/.bioconductor-pfam.db-post-link.sh
-  .bioconductor-pfam.db-pre-unlink.sh: /usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

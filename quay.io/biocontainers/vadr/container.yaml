@@ -7,7 +7,6 @@ tags:
   1.5--pl5321hdfd78af_0: sha256:14ee275e78389dff447f210d2e270475a409c05233e339a231b1804357d8b048
 docker: quay.io/biocontainers/vadr
 aliases:
-  .vadr-post-link.sh: /usr/local/bin/.vadr-post-link.sh
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
   ann_exons_ncbi.pl: /usr/local/bin/ann_exons_ncbi.pl
   ann_exons_up_sql.pl: /usr/local/bin/ann_exons_up_sql.pl

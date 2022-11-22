@@ -12,8 +12,6 @@ tags:
   1.14.0--r40h5f743cb_0: sha256:07045d4afc68261b3bba161c0c45e6e2631672f2812fb745dab40c00ffb96c45
 docker: quay.io/biocontainers/bioconductor-mspurity
 aliases:
-  .bioconductor-mspuritydata-post-link.sh: /usr/local/bin/.bioconductor-mspuritydata-post-link.sh
-  .bioconductor-mspuritydata-pre-unlink.sh: /usr/local/bin/.bioconductor-mspuritydata-pre-unlink.sh
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen

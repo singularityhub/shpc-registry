@@ -9,6 +9,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:4db48ef61609205e229641abac8f316ee77c356b943dc1740c921bcdb4b926e3
 docker: quay.io/biocontainers/bioconductor-copyneutralima
 aliases:
-  .bioconductor-copyneutralima-post-link.sh: /usr/local/bin/.bioconductor-copyneutralima-post-link.sh
-  .bioconductor-copyneutralima-pre-unlink.sh: /usr/local/bin/.bioconductor-copyneutralima-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

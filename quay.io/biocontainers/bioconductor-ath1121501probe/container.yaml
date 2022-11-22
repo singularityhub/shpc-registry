@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:6f1117575c69e1d4e787e131fb325e70da8a579baa0e30f94bdb62a49604c97a
 docker: quay.io/biocontainers/bioconductor-ath1121501probe
 aliases:
-  .bioconductor-ath1121501probe-post-link.sh: /usr/local/bin/.bioconductor-ath1121501probe-post-link.sh
-  .bioconductor-ath1121501probe-pre-unlink.sh: /usr/local/bin/.bioconductor-ath1121501probe-pre-unlink.sh

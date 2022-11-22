@@ -7,7 +7,6 @@ tags:
   3.1.0--pyhdfd78af_0: sha256:ea9a68e1fb86f058e4cd42e384a7f51df18689fdd585fa03790ed079733df629
 docker: quay.io/biocontainers/mob_suite
 aliases:
-  .mob_suite-post-link.sh: /usr/local/bin/.mob_suite-post-link.sh
   attr: /usr/local/bin/attr
   balsam: /usr/local/bin/balsam
   esdcompat: /usr/local/bin/esdcompat

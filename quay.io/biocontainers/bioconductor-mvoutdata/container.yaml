@@ -7,5 +7,3 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:67aa02490eb54dfe8714f49d7763a3dab0c38fc36b2ed7dd8f25d44801fa8be4
 docker: quay.io/biocontainers/bioconductor-mvoutdata
 aliases:
-  .bioconductor-mvoutdata-post-link.sh: /usr/local/bin/.bioconductor-mvoutdata-post-link.sh
-  .bioconductor-mvoutdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mvoutdata-pre-unlink.sh

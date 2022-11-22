@@ -8,5 +8,3 @@ tags:
   0.35.0--r42hdfd78af_0: sha256:3527daa7d8d772fb901aa1d87854d3aafb0f2f112cbd84be7a538e49b0dfb8f1
 docker: quay.io/biocontainers/bioconductor-affymetrixdatatestfiles
 aliases:
-  .bioconductor-affymetrixdatatestfiles-post-link.sh: /usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh
-  .bioconductor-affymetrixdatatestfiles-pre-unlink.sh: /usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh

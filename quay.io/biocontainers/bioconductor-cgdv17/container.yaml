@@ -7,6 +7,4 @@ tags:
   0.28.0--r40hdfd78af_1: sha256:4acdd27580990a4741db0897335034a7623e7985a0dcb8bd439f624117c21f9c
 docker: quay.io/biocontainers/bioconductor-cgdv17
 aliases:
-  .bioconductor-cgdv17-post-link.sh: /usr/local/bin/.bioconductor-cgdv17-post-link.sh
-  .bioconductor-cgdv17-pre-unlink.sh: /usr/local/bin/.bioconductor-cgdv17-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

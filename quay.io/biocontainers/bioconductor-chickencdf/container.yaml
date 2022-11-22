@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_11: sha256:ff01694c96286a29ce00ffa7a3575aaac2eaf4d9059603fec7c32d380e8fb5bb
 docker: quay.io/biocontainers/bioconductor-chickencdf
 aliases:
-  .bioconductor-chickencdf-post-link.sh: /usr/local/bin/.bioconductor-chickencdf-post-link.sh
-  .bioconductor-chickencdf-pre-unlink.sh: /usr/local/bin/.bioconductor-chickencdf-pre-unlink.sh

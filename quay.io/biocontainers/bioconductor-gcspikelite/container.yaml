@@ -7,5 +7,3 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:0ec23b2d8a7bd2bd6c478e185b3b7c80d30cfe84b7fa32f027a01287861422f8
 docker: quay.io/biocontainers/bioconductor-gcspikelite
 aliases:
-  .bioconductor-gcspikelite-post-link.sh: /usr/local/bin/.bioconductor-gcspikelite-post-link.sh
-  .bioconductor-gcspikelite-pre-unlink.sh: /usr/local/bin/.bioconductor-gcspikelite-pre-unlink.sh

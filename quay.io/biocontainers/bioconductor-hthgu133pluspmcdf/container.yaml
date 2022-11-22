@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:58683f22cfe2cf166ee0b8c90a113f0f4f6489b16c864b33f81da4c3e24e9e01
 docker: quay.io/biocontainers/bioconductor-hthgu133pluspmcdf
 aliases:
-  .bioconductor-hthgu133pluspmcdf-post-link.sh: /usr/local/bin/.bioconductor-hthgu133pluspmcdf-post-link.sh
-  .bioconductor-hthgu133pluspmcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hthgu133pluspmcdf-pre-unlink.sh

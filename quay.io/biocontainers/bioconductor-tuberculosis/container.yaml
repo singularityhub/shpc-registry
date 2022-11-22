@@ -7,5 +7,3 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:c9685b78ece366d205a1ad6122ecf4f1343b9b53cae07ea1240dae5db7727a4a
 docker: quay.io/biocontainers/bioconductor-tuberculosis
 aliases:
-  .bioconductor-tuberculosis-post-link.sh: /usr/local/bin/.bioconductor-tuberculosis-post-link.sh
-  .bioconductor-tuberculosis-pre-unlink.sh: /usr/local/bin/.bioconductor-tuberculosis-pre-unlink.sh

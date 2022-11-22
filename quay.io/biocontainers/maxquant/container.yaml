@@ -19,13 +19,8 @@ aliases:
   MaxQuantCmd.runtimeconfig.json: /usr/local/bin/MaxQuantCmd.runtimeconfig.json
   MaxQuantGui.exe: /usr/local/bin/MaxQuantGui.exe
   MaxQuantGui.exe.config: /usr/local/bin/MaxQuantGui.exe.config
-  MaxQuantLib.dll: /usr/local/bin/MaxQuantLib.dll
-  MaxQuantLibS.dll: /usr/local/bin/MaxQuantLibS.dll
-  MaxQuantPLib.dll: /usr/local/bin/MaxQuantPLib.dll
-  MaxQuantRenderWpf.dll: /usr/local/bin/MaxQuantRenderWpf.dll
   MaxQuantServer.exe: /usr/local/bin/MaxQuantServer.exe
   MaxQuantTask.exe: /usr/local/bin/MaxQuantTask.exe
-  MaxQuantTaskCore.dll: /usr/local/bin/MaxQuantTaskCore.dll
   MaxQuantTaskCore.runtimeconfig.json: /usr/local/bin/MaxQuantTaskCore.runtimeconfig.json
   MqparConverter.exe: /usr/local/bin/MqparConverter.exe
   Sciex.Data.Processing.DLL: /usr/local/bin/Sciex.Data.Processing.DLL
@@ -39,7 +34,6 @@ aliases:
   nunit-console: /usr/local/bin/nunit-console
   nunit-console2: /usr/local/bin/nunit-console2
   nunit-console4: /usr/local/bin/nunit-console4
-  protobuf-net.xml: /usr/local/bin/protobuf-net.xml
   vbc: /usr/local/bin/vbc
   xgboost.lib: /usr/local/bin/xgboost.lib
   mono-package-runtime: /usr/local/bin/mono-package-runtime

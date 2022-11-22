@@ -12,8 +12,6 @@ tags:
   3.11.2--r40_0: sha256:e9a62ff1c410c5c8858352d590c165fac9da90557cfb26f7d3764c22a7319872
 docker: quay.io/biocontainers/bioconductor-canine.db0
 aliases:
-  .bioconductor-canine.db0-post-link.sh: /usr/local/bin/.bioconductor-canine.db0-post-link.sh
-  .bioconductor-canine.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-canine.db0-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

@@ -7,7 +7,6 @@ tags:
   1.0.3--hdfd78af_0: sha256:9d07713467106e28082ad548ebb9fa141f239c4e34e84d74716195f5f4ccd07c
 docker: quay.io/biocontainers/gs-tama
 aliases:
-  LICENSE: /usr/local/bin/LICENSE
   __init__.py: /usr/local/bin/__init__.py
   _config.yml: /usr/local/bin/_config.yml
   tama_bed_extract_cds.py: /usr/local/bin/tama_bed_extract_cds.py

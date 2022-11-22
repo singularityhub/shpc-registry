@@ -7,7 +7,6 @@ tags:
   0.7.2--hdfd78af_0: sha256:591373018d2f29f0292e063bcd0bec02a5f0249041b3cf93a1ed809ec250c6f7
 docker: quay.io/biocontainers/uscdc-datasets-sars-cov-2
 aliases:
-  .uscdc-datasets-sars-cov-2-post-link.sh: /usr/local/bin/.uscdc-datasets-sars-cov-2-post-link.sh
   GenFSGopher.pl: /usr/local/bin/GenFSGopher.pl
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
   abi-load: /usr/local/bin/abi-load

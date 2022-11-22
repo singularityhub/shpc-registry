@@ -7,5 +7,3 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:482aa1a7d05d2b73d1bf1c925438ddf18f12cca6f9db9d7c3a23f35f37a8b815
 docker: quay.io/biocontainers/bioconductor-aneufinderdata
 aliases:
-  .bioconductor-aneufinderdata-post-link.sh: /usr/local/bin/.bioconductor-aneufinderdata-post-link.sh
-  .bioconductor-aneufinderdata-pre-unlink.sh: /usr/local/bin/.bioconductor-aneufinderdata-pre-unlink.sh

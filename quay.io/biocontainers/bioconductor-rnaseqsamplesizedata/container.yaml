@@ -7,5 +7,3 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:79893ccbe82c7526490da4ebcaa793d74ca18d77e17bf325f5787d23281d91e6
 docker: quay.io/biocontainers/bioconductor-rnaseqsamplesizedata
 aliases:
-  .bioconductor-rnaseqsamplesizedata-post-link.sh: /usr/local/bin/.bioconductor-rnaseqsamplesizedata-post-link.sh
-  .bioconductor-rnaseqsamplesizedata-pre-unlink.sh: /usr/local/bin/.bioconductor-rnaseqsamplesizedata-pre-unlink.sh

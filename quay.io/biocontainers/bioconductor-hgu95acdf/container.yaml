@@ -7,5 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:996de4b2495c247422153fb420e3a796771499787575891edc91a49bbb4f47fe
 docker: quay.io/biocontainers/bioconductor-hgu95acdf
 aliases:
-  .bioconductor-hgu95acdf-post-link.sh: /usr/local/bin/.bioconductor-hgu95acdf-post-link.sh
-  .bioconductor-hgu95acdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu95acdf-pre-unlink.sh

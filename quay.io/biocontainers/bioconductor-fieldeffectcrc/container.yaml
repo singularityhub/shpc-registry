@@ -8,7 +8,5 @@ tags:
   1.8.0--r42hdfd78af_0: sha256:58244e6660e5d3d448de1e521c3f8cb27e683c37bd5e94b241e71b12ea29b762
 docker: quay.io/biocontainers/bioconductor-fieldeffectcrc
 aliases:
-  .bioconductor-fieldeffectcrc-post-link.sh: /usr/local/bin/.bioconductor-fieldeffectcrc-post-link.sh
-  .bioconductor-fieldeffectcrc-pre-unlink.sh: /usr/local/bin/.bioconductor-fieldeffectcrc-pre-unlink.sh
   pandoc-server: /usr/local/bin/pandoc-server
   pandoc: /usr/local/bin/pandoc

@@ -8,5 +8,3 @@ tags:
   8.8.0--r42hdfd78af_2: sha256:47014240479733821ab4b86aaf1da68348b8d60c9dd3213bf2d32a435965dd0b
 docker: quay.io/biocontainers/bioconductor-mta10transcriptcluster.db
 aliases:
-  .bioconductor-mta10transcriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-mta10transcriptcluster.db-post-link.sh
-  .bioconductor-mta10transcriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mta10transcriptcluster.db-pre-unlink.sh

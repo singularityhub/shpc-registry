@@ -7,8 +7,6 @@ tags:
   1.28.0--r40hdfd78af_1: sha256:c23887882e8b6e50a3a7046b871c77660213bf2d316e6b65c19b3620b14e9bf4
 docker: quay.io/biocontainers/bioconductor-synapterdata
 aliases:
-  .bioconductor-synapterdata-post-link.sh: /usr/local/bin/.bioconductor-synapterdata-post-link.sh
-  .bioconductor-synapterdata-pre-unlink.sh: /usr/local/bin/.bioconductor-synapterdata-pre-unlink.sh
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen

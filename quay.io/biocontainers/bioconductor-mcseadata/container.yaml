@@ -12,6 +12,4 @@ tags:
   1.10.1--r40hdfd78af_1: sha256:5eaba2e332cb80bfca52744b5841c4ac1422a8d4799ae923ed1b25d719b6b814
 docker: quay.io/biocontainers/bioconductor-mcseadata
 aliases:
-  .bioconductor-mcseadata-post-link.sh: /usr/local/bin/.bioconductor-mcseadata-post-link.sh
-  .bioconductor-mcseadata-pre-unlink.sh: /usr/local/bin/.bioconductor-mcseadata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

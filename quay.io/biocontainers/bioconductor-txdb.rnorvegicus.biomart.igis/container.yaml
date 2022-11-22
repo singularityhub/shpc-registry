@@ -7,5 +7,3 @@ tags:
   2.3.2--r41hdfd78af_9: sha256:55b36ae995826bb703942561368a0731aba6b9aedcfedbbac75a73ec3fa1f85c
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.biomart.igis
 aliases:
-  .bioconductor-txdb.rnorvegicus.biomart.igis-post-link.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.biomart.igis-post-link.sh
-  .bioconductor-txdb.rnorvegicus.biomart.igis-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.biomart.igis-pre-unlink.sh

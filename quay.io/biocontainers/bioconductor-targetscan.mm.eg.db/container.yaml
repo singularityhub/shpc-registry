@@ -8,5 +8,3 @@ tags:
   0.6.1--r42hdfd78af_10: sha256:373bee41bad87df957ae1212a0db1935f3031c0970663e17ccbf2e80391d720e
 docker: quay.io/biocontainers/bioconductor-targetscan.mm.eg.db
 aliases:
-  .bioconductor-targetscan.mm.eg.db-post-link.sh: /usr/local/bin/.bioconductor-targetscan.mm.eg.db-post-link.sh
-  .bioconductor-targetscan.mm.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-targetscan.mm.eg.db-pre-unlink.sh

@@ -7,7 +7,6 @@ tags:
   0.0.9.post2--pyhdfd78af_1: sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df
 docker: quay.io/biocontainers/zga
 aliases:
-  .zga-post-link.sh: /usr/local/bin/.zga-post-link.sh
   checkm: /usr/local/bin/checkm
   dfast: /usr/local/bin/dfast
   dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py

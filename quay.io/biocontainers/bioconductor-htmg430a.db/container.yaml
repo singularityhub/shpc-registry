@@ -8,5 +8,3 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:04c19e93f8b1d1ded4d0077119978f436d5f947310855f7bc0ed24e216f8e0db
 docker: quay.io/biocontainers/bioconductor-htmg430a.db
 aliases:
-  .bioconductor-htmg430a.db-post-link.sh: /usr/local/bin/.bioconductor-htmg430a.db-post-link.sh
-  .bioconductor-htmg430a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-htmg430a.db-pre-unlink.sh

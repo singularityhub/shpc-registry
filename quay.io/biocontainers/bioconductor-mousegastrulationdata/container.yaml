@@ -8,8 +8,6 @@ tags:
   1.12.0--r42hdfd78af_0: sha256:7320efcca92ebb0f562e16e8787a1967571d94b3d053cc40a78d6cac52990371
 docker: quay.io/biocontainers/bioconductor-mousegastrulationdata
 aliases:
-  .bioconductor-mousegastrulationdata-post-link.sh: /usr/local/bin/.bioconductor-mousegastrulationdata-post-link.sh
-  .bioconductor-mousegastrulationdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mousegastrulationdata-pre-unlink.sh
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config

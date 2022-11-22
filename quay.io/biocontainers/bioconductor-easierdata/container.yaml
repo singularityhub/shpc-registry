@@ -8,5 +8,3 @@ tags:
   1.4.0--r42hdfd78af_0: sha256:7ea4fc7e52f55426654c1519ecc488bba2c4564510c9a85bb0f97037be804b75
 docker: quay.io/biocontainers/bioconductor-easierdata
 aliases:
-  .bioconductor-easierdata-post-link.sh: /usr/local/bin/.bioconductor-easierdata-post-link.sh
-  .bioconductor-easierdata-pre-unlink.sh: /usr/local/bin/.bioconductor-easierdata-pre-unlink.sh

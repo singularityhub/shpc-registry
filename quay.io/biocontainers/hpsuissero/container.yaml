@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/hpsuissero
 aliases:
   HpsuisSero.sh: /usr/local/bin/HpsuisSero.sh
-  LICENSE: /usr/local/bin/LICENSE
   check_compression: /usr/local/bin/check_compression
   compress_fast5: /usr/local/bin/compress_fast5
   demux_fast5: /usr/local/bin/demux_fast5

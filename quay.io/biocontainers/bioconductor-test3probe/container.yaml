@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:17f585079facdd80ccc1d282ee6ffd3f4ee120f602b79ecb636f3b47e53de497
 docker: quay.io/biocontainers/bioconductor-test3probe
 aliases:
-  .bioconductor-test3probe-post-link.sh: /usr/local/bin/.bioconductor-test3probe-post-link.sh
-  .bioconductor-test3probe-pre-unlink.sh: /usr/local/bin/.bioconductor-test3probe-pre-unlink.sh

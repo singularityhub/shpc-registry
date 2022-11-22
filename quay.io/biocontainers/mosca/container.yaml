@@ -105,7 +105,6 @@ aliases:
   polymut.py: /usr/local/bin/polymut.py
   print_graph: /usr/local/bin/print_graph
   print_graph.o: /usr/local/bin/print_graph.o
-  protobuf-net.xml: /usr/local/bin/protobuf-net.xml
   quast: /usr/local/bin/quast
   quast-download-busco: /usr/local/bin/quast-download-busco
   quast-download-gridss: /usr/local/bin/quast-download-gridss

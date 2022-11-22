@@ -12,8 +12,6 @@ tags:
   1.10.0--r40_0: sha256:9a01116c7fc83c175a44318d6fe11ae9f32e77dc56acb542ab1bf6f181e8d380
 docker: quay.io/biocontainers/bioconductor-harmonizedtcgadata
 aliases:
-  .bioconductor-harmonizedtcgadata-post-link.sh: /usr/local/bin/.bioconductor-harmonizedtcgadata-post-link.sh
-  .bioconductor-harmonizedtcgadata-pre-unlink.sh: /usr/local/bin/.bioconductor-harmonizedtcgadata-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

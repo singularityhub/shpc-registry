@@ -7,8 +7,6 @@ tags:
   0.26.0--r40_0: sha256:8c563d80e6b13e3a23d3eb28dadb5f38169b537385e01977c5508e29bb22e57d
 docker: quay.io/biocontainers/bioconductor-ceu1kg
 aliases:
-  .bioconductor-ceu1kg-post-link.sh: /usr/local/bin/.bioconductor-ceu1kg-post-link.sh
-  .bioconductor-ceu1kg-pre-unlink.sh: /usr/local/bin/.bioconductor-ceu1kg-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8

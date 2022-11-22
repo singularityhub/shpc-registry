@@ -8,5 +8,3 @@ tags:
   0.99.5--r42hdfd78af_3: sha256:869ffff15d91cd6a8312f74edb170a4ccd84e59eb0b57002c18a0ebc88273001
 docker: quay.io/biocontainers/bioconductor-epitxdb.sc.saccer3
 aliases:
-  .bioconductor-epitxdb.sc.saccer3-post-link.sh: /usr/local/bin/.bioconductor-epitxdb.sc.saccer3-post-link.sh
-  .bioconductor-epitxdb.sc.saccer3-pre-unlink.sh: /usr/local/bin/.bioconductor-epitxdb.sc.saccer3-pre-unlink.sh

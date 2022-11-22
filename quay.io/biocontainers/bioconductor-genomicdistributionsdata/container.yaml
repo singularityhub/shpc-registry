@@ -7,5 +7,3 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:d11fb8c761e3bb7c37e03474d0d120dae4405071ba489aac09b9373edbdb43b4
 docker: quay.io/biocontainers/bioconductor-genomicdistributionsdata
 aliases:
-  .bioconductor-genomicdistributionsdata-post-link.sh: /usr/local/bin/.bioconductor-genomicdistributionsdata-post-link.sh
-  .bioconductor-genomicdistributionsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomicdistributionsdata-pre-unlink.sh

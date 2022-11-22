@@ -8,5 +8,3 @@ tags:
   1.0.1--r42hdfd78af_10: sha256:7d413ca44e00c55ab3f786581bb560e0550aadd2e7cc145ba89d8667343b0ffd
 docker: quay.io/biocontainers/bioconductor-fdb.ucsc.trnas
 aliases:
-  .bioconductor-fdb.ucsc.trnas-post-link.sh: /usr/local/bin/.bioconductor-fdb.ucsc.trnas-post-link.sh
-  .bioconductor-fdb.ucsc.trnas-pre-unlink.sh: /usr/local/bin/.bioconductor-fdb.ucsc.trnas-pre-unlink.sh

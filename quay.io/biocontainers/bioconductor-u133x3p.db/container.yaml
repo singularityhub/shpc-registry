@@ -8,5 +8,3 @@ tags:
   3.2.3--r42hdfd78af_10: sha256:a367e9ccdd1e73d30707277fda3aa10cfbf553afa3a85a8f3203d7a3309c7f6c
 docker: quay.io/biocontainers/bioconductor-u133x3p.db
 aliases:
-  .bioconductor-u133x3p.db-post-link.sh: /usr/local/bin/.bioconductor-u133x3p.db-post-link.sh
-  .bioconductor-u133x3p.db-pre-unlink.sh: /usr/local/bin/.bioconductor-u133x3p.db-pre-unlink.sh

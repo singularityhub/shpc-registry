@@ -7,5 +7,3 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:89cb781434b29f1280f17252ffd9683fb3e71e82c78edda8845cfabe7b9c4a48
 docker: quay.io/biocontainers/bioconductor-listeretalbsseq
 aliases:
-  .bioconductor-listeretalbsseq-post-link.sh: /usr/local/bin/.bioconductor-listeretalbsseq-post-link.sh
-  .bioconductor-listeretalbsseq-pre-unlink.sh: /usr/local/bin/.bioconductor-listeretalbsseq-pre-unlink.sh

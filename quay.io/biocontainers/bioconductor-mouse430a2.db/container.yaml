@@ -8,6 +8,4 @@ tags:
   3.13.0--r42hdfd78af_2: sha256:9a6480e092132b3eb1ec80257e5e00391fc8194721ef840610d25eae3e443e6c
 docker: quay.io/biocontainers/bioconductor-mouse430a2.db
 aliases:
-  .bioconductor-mouse430a2.db-post-link.sh: /usr/local/bin/.bioconductor-mouse430a2.db-post-link.sh
-  .bioconductor-mouse430a2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse430a2.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

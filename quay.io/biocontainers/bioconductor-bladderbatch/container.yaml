@@ -8,5 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:8ab265627dd684dbe8d5aa20f59d7832ebb66487d1bd76248a5518017e7c9fe3
 docker: quay.io/biocontainers/bioconductor-bladderbatch
 aliases:
-  .bioconductor-bladderbatch-post-link.sh: /usr/local/bin/.bioconductor-bladderbatch-post-link.sh
-  .bioconductor-bladderbatch-pre-unlink.sh: /usr/local/bin/.bioconductor-bladderbatch-pre-unlink.sh

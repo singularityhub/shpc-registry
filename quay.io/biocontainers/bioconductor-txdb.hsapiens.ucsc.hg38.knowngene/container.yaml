@@ -10,8 +10,6 @@ tags:
   3.10.0--r40hdfd78af_3: sha256:c127ff40a6e4486d575f607d7ed90eee280b54ee0694f16b4cf3c5fc839329eb
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 aliases:
-  .bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

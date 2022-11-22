@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:43b1d6968b8e7b608d06359b81b9efd617b9b04add165f84c8a1d19f7ee1d548
 docker: quay.io/biocontainers/bioconductor-ricecdf
 aliases:
-  .bioconductor-ricecdf-post-link.sh: /usr/local/bin/.bioconductor-ricecdf-post-link.sh
-  .bioconductor-ricecdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ricecdf-pre-unlink.sh

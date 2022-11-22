@@ -9,16 +9,10 @@ docker: quay.io/biocontainers/opencontactcli
 aliases:
   OpenContactCLI: /usr/local/bin/OpenContactCLI
   contactgui.f: /usr/local/bin/contactgui.f
-  ctresc03.pdb: /usr/local/bin/ctresc03.pdb
-  ctresc03n.pdb: /usr/local/bin/ctresc03n.pdb
   inputgui.f: /usr/local/bin/inputgui.f
   ljresid: /usr/local/bin/ljresid
   ljresidn: /usr/local/bin/ljresidn
   main_cli.py: /usr/local/bin/main_cli.py
-  ntresc03.pdb: /usr/local/bin/ntresc03.pdb
-  ntresc03n.pdb: /usr/local/bin/ntresc03n.pdb
-  residc03.pdb: /usr/local/bin/residc03.pdb
-  residc03n.pdb: /usr/local/bin/residc03n.pdb
   f2py3.6: /usr/local/bin/f2py3.6
   2to3-3.6: /usr/local/bin/2to3-3.6
   idle3.6: /usr/local/bin/idle3.6

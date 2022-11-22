@@ -8,5 +8,3 @@ tags:
   1.22.0--r42hdfd78af_10: sha256:95ed76f20568ed883ea9c63b54dc0a22c36c0ef8ed376369b88d6b860c237279
 docker: quay.io/biocontainers/bioconductor-lumimouseall.db
 aliases:
-  .bioconductor-lumimouseall.db-post-link.sh: /usr/local/bin/.bioconductor-lumimouseall.db-post-link.sh
-  .bioconductor-lumimouseall.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lumimouseall.db-pre-unlink.sh

@@ -8,5 +8,3 @@ tags:
   1.34.0--r42hdfd78af_0: sha256:1278951be57a3d4102ec0cb9abc207e5002e4a66beaba25fb1addad17b7e8371
 docker: quay.io/biocontainers/bioconductor-cosmic.67
 aliases:
-  .bioconductor-cosmic.67-post-link.sh: /usr/local/bin/.bioconductor-cosmic.67-post-link.sh
-  .bioconductor-cosmic.67-pre-unlink.sh: /usr/local/bin/.bioconductor-cosmic.67-pre-unlink.sh

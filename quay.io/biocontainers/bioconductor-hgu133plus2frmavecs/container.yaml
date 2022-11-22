@@ -8,5 +8,3 @@ tags:
   1.5.0--r42hdfd78af_11: sha256:bf0f4e58c118bad5a3964cb799dc2771486d406cb34ff000990f406c53dfcd9e
 docker: quay.io/biocontainers/bioconductor-hgu133plus2frmavecs
 aliases:
-  .bioconductor-hgu133plus2frmavecs-post-link.sh: /usr/local/bin/.bioconductor-hgu133plus2frmavecs-post-link.sh
-  .bioconductor-hgu133plus2frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133plus2frmavecs-pre-unlink.sh

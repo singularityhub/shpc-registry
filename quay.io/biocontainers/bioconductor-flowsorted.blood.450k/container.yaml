@@ -8,5 +8,3 @@ tags:
   1.36.0--r42hdfd78af_0: sha256:df93fc9dc24aaa095131f8cbc43eade7deb04d66cb00ba5c9e4d3d816a081c6b
 docker: quay.io/biocontainers/bioconductor-flowsorted.blood.450k
 aliases:
-  .bioconductor-flowsorted.blood.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.blood.450k-post-link.sh
-  .bioconductor-flowsorted.blood.450k-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.blood.450k-pre-unlink.sh

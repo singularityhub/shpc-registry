@@ -7,5 +7,3 @@ tags:
   0.99.4--r41hdfd78af_1: sha256:244a8c5eefdf79c541aa02e9a94d7db57cbf7f7b89b5d0485fe86cfeb960fc9e
 docker: quay.io/biocontainers/bioconductor-ctcf
 aliases:
-  .bioconductor-ctcf-post-link.sh: /usr/local/bin/.bioconductor-ctcf-post-link.sh
-  .bioconductor-ctcf-pre-unlink.sh: /usr/local/bin/.bioconductor-ctcf-pre-unlink.sh

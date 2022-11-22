@@ -8,5 +8,3 @@ tags:
   1.33.0--r42hdfd78af_0: sha256:a370ea6e619ccdea4b3a70d6d6715ee0c301b0421012db0848f593e1e345340e
 docker: quay.io/biocontainers/bioconductor-illumina450probevariants.db
 aliases:
-  .bioconductor-illumina450probevariants.db-post-link.sh: /usr/local/bin/.bioconductor-illumina450probevariants.db-post-link.sh
-  .bioconductor-illumina450probevariants.db-pre-unlink.sh: /usr/local/bin/.bioconductor-illumina450probevariants.db-pre-unlink.sh

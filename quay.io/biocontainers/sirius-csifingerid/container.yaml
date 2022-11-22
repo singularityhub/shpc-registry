@@ -8,6 +8,5 @@ tags:
   4.9.15--hec16e2b_1: sha256:6a8895779bba32e140f5aeda269947a291c4ef52fc5494bce537637925197804
 docker: quay.io/biocontainers/sirius-csifingerid
 aliases:
-  .sirius-csifingerid-post-link.sh: /usr/local/bin/.sirius-csifingerid-post-link.sh
   sirius: /usr/local/bin/sirius
   sirius-gui: /usr/local/bin/sirius-gui

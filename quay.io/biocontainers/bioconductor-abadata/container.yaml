@@ -12,8 +12,6 @@ tags:
   1.16.0--r36_0: sha256:5ed5562dc5f7ee4183939460c34e9802693a7b44d48838dcd76b2a8773051fb9
 docker: quay.io/biocontainers/bioconductor-abadata
 aliases:
-  .bioconductor-abadata-post-link.sh: /usr/local/bin/.bioconductor-abadata-post-link.sh
-  .bioconductor-abadata-pre-unlink.sh: /usr/local/bin/.bioconductor-abadata-pre-unlink.sh
   wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config

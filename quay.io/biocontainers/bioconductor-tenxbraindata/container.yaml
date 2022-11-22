@@ -10,8 +10,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:54d48c64323f5632501bc6f95aa7c054f13d9607083cfc2feebb556e7fca4fc8
 docker: quay.io/biocontainers/bioconductor-tenxbraindata
 aliases:
-  .bioconductor-tenxbraindata-post-link.sh: /usr/local/bin/.bioconductor-tenxbraindata-post-link.sh
-  .bioconductor-tenxbraindata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxbraindata-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8

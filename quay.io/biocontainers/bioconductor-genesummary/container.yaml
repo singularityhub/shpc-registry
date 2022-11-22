@@ -8,5 +8,3 @@ tags:
   0.99.4--r42hdfd78af_0: sha256:b97056810a15e7089d58554e6509944de73d729152a4cbac51b5ce346b218072
 docker: quay.io/biocontainers/bioconductor-genesummary
 aliases:
-  .bioconductor-genesummary-post-link.sh: /usr/local/bin/.bioconductor-genesummary-post-link.sh
-  .bioconductor-genesummary-pre-unlink.sh: /usr/local/bin/.bioconductor-genesummary-pre-unlink.sh

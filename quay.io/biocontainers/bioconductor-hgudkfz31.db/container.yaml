@@ -8,5 +8,3 @@ tags:
   3.2.3--r42hdfd78af_10: sha256:f79dba27ba0264eb6eda0df75f097b88fe81434c0901e8ef42f836f4fbba56c3
 docker: quay.io/biocontainers/bioconductor-hgudkfz31.db
 aliases:
-  .bioconductor-hgudkfz31.db-post-link.sh: /usr/local/bin/.bioconductor-hgudkfz31.db-post-link.sh
-  .bioconductor-hgudkfz31.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgudkfz31.db-pre-unlink.sh

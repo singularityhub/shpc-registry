@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:08433c38a207107e121fa01d0226a34be35e5ae954a95daac6e6db88a0a17e2b
 docker: quay.io/biocontainers/bioconductor-ye6100subdcdf
 aliases:
-  .bioconductor-ye6100subdcdf-post-link.sh: /usr/local/bin/.bioconductor-ye6100subdcdf-post-link.sh
-  .bioconductor-ye6100subdcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ye6100subdcdf-pre-unlink.sh

@@ -8,5 +8,3 @@ tags:
   0.38.0--r42hdfd78af_0: sha256:cad5c911521c3e8a2999dd0e434783cc78cc8f2a85b1a8e1df24d8505b81b8c8
 docker: quay.io/biocontainers/bioconductor-humanstemcell
 aliases:
-  .bioconductor-humanstemcell-post-link.sh: /usr/local/bin/.bioconductor-humanstemcell-post-link.sh
-  .bioconductor-humanstemcell-pre-unlink.sh: /usr/local/bin/.bioconductor-humanstemcell-pre-unlink.sh

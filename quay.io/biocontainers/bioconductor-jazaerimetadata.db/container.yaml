@@ -8,5 +8,3 @@ tags:
   3.2.3--r42hdfd78af_10: sha256:238e7f90eb505aaafe31f0f71d80ba12f1a6626ac5f2227797f16b8e3ef24a88
 docker: quay.io/biocontainers/bioconductor-jazaerimetadata.db
 aliases:
-  .bioconductor-jazaerimetadata.db-post-link.sh: /usr/local/bin/.bioconductor-jazaerimetadata.db-post-link.sh
-  .bioconductor-jazaerimetadata.db-pre-unlink.sh: /usr/local/bin/.bioconductor-jazaerimetadata.db-pre-unlink.sh

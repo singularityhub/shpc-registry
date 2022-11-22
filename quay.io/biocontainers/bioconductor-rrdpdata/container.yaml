@@ -11,8 +11,6 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:9981dccece929009431dcb359641f080ce3e979edd32f4a8350c534ee88b1f55
 docker: quay.io/biocontainers/bioconductor-rrdpdata
 aliases:
-  .bioconductor-rrdpdata-post-link.sh: /usr/local/bin/.bioconductor-rrdpdata-post-link.sh
-  .bioconductor-rrdpdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rrdpdata-pre-unlink.sh
   jaotc: /usr/local/bin/jaotc
   aserver: /usr/local/bin/aserver
   jdeprscan: /usr/local/bin/jdeprscan

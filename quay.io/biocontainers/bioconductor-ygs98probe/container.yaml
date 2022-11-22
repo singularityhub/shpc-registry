@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:a14568f91d0ff0cbd3aedcabccc2c89f3efb6830481126d04292a876b7ecc98c
 docker: quay.io/biocontainers/bioconductor-ygs98probe
 aliases:
-  .bioconductor-ygs98probe-post-link.sh: /usr/local/bin/.bioconductor-ygs98probe-post-link.sh
-  .bioconductor-ygs98probe-pre-unlink.sh: /usr/local/bin/.bioconductor-ygs98probe-pre-unlink.sh

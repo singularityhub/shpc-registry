@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_11: sha256:46fe7d8d096c241c6347b4f01cfc9645ddc9cd5bd26c78aac3e4f99df1101cfa
 docker: quay.io/biocontainers/bioconductor-rae230acdf
 aliases:
-  .bioconductor-rae230acdf-post-link.sh: /usr/local/bin/.bioconductor-rae230acdf-post-link.sh
-  .bioconductor-rae230acdf-pre-unlink.sh: /usr/local/bin/.bioconductor-rae230acdf-pre-unlink.sh

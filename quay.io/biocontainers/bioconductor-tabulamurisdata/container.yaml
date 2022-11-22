@@ -10,6 +10,4 @@ tags:
   1.10.0--r41hdfd78af_0: sha256:d947b71460f6e114d564b79e40ef3b44282c45e25674a9442ee5545fa1b0a947
 docker: quay.io/biocontainers/bioconductor-tabulamurisdata
 aliases:
-  .bioconductor-tabulamurisdata-post-link.sh: /usr/local/bin/.bioconductor-tabulamurisdata-post-link.sh
-  .bioconductor-tabulamurisdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tabulamurisdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

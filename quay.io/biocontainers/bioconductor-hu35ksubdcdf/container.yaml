@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:cb7051b39212ba617f1a3daa8e7ae02f689f72db9e92f0e633ff1d1ec49801f6
 docker: quay.io/biocontainers/bioconductor-hu35ksubdcdf
 aliases:
-  .bioconductor-hu35ksubdcdf-post-link.sh: /usr/local/bin/.bioconductor-hu35ksubdcdf-post-link.sh
-  .bioconductor-hu35ksubdcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hu35ksubdcdf-pre-unlink.sh

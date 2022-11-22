@@ -7,5 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:90fdb5003798999168126ca59c1dd4496e4534a72bc1bfef891f4a86d61f6977
 docker: quay.io/biocontainers/bioconductor-xtropicalisprobe
 aliases:
-  .bioconductor-xtropicalisprobe-post-link.sh: /usr/local/bin/.bioconductor-xtropicalisprobe-post-link.sh
-  .bioconductor-xtropicalisprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-xtropicalisprobe-pre-unlink.sh

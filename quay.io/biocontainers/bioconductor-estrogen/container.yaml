@@ -8,5 +8,3 @@ tags:
   1.43.0--r42hdfd78af_0: sha256:e63c5ad46fe9784396cd2c9214a37c2140da117b440b4276f7718685ca3e8047
 docker: quay.io/biocontainers/bioconductor-estrogen
 aliases:
-  .bioconductor-estrogen-post-link.sh: /usr/local/bin/.bioconductor-estrogen-post-link.sh
-  .bioconductor-estrogen-pre-unlink.sh: /usr/local/bin/.bioconductor-estrogen-pre-unlink.sh

@@ -7,5 +7,3 @@ tags:
   1.1.0--r41hdfd78af_9: sha256:7249aab0b8d3c11c078dc6b04362fd5579376597fb50d7b92460c0dce24914ca
 docker: quay.io/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs
 aliases:
-  .bioconductor-hugene.1.0.st.v1frmavecs-post-link.sh: /usr/local/bin/.bioconductor-hugene.1.0.st.v1frmavecs-post-link.sh
-  .bioconductor-hugene.1.0.st.v1frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-hugene.1.0.st.v1frmavecs-pre-unlink.sh

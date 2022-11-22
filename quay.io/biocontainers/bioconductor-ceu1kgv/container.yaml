@@ -7,6 +7,4 @@ tags:
   0.32.0--r40hdfd78af_1: sha256:b75fb1371e0ba0bb2f16debac4a7ed6fd32ca007fc109aeb7822af13c4d00e3a
 docker: quay.io/biocontainers/bioconductor-ceu1kgv
 aliases:
-  .bioconductor-ceu1kgv-post-link.sh: /usr/local/bin/.bioconductor-ceu1kgv-post-link.sh
-  .bioconductor-ceu1kgv-pre-unlink.sh: /usr/local/bin/.bioconductor-ceu1kgv-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -7,5 +7,3 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:87fe33287ab75d5d775053d5e3a71d3ff45c343507b60b85afd1e71434922f49
 docker: quay.io/biocontainers/bioconductor-cmap2data
 aliases:
-  .bioconductor-cmap2data-post-link.sh: /usr/local/bin/.bioconductor-cmap2data-post-link.sh
-  .bioconductor-cmap2data-pre-unlink.sh: /usr/local/bin/.bioconductor-cmap2data-pre-unlink.sh

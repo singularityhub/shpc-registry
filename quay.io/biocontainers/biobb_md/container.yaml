@@ -7,7 +7,6 @@ tags:
   3.7.2--pyhdfd78af_0: sha256:c143b11761a0b7ae12d954e40310aea41ccd8f3499761a8b070c165c216aeb96
 docker: quay.io/biocontainers/biobb_md
 aliases:
-  .biobb_md-post-link.sh: /usr/local/bin/.biobb_md-post-link.sh
   GMXRC: /usr/local/bin/GMXRC
   GMXRC.bash: /usr/local/bin/GMXRC.bash
   GMXRC.csh: /usr/local/bin/GMXRC.csh

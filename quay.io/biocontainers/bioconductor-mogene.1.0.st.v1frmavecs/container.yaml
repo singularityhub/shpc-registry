@@ -7,5 +7,3 @@ tags:
   1.1.0--r41hdfd78af_9: sha256:85a0787f2e97a57150c6268547f4228e7f11fa3b79fa657b642e418ce7b4892e
 docker: quay.io/biocontainers/bioconductor-mogene.1.0.st.v1frmavecs
 aliases:
-  .bioconductor-mogene.1.0.st.v1frmavecs-post-link.sh: /usr/local/bin/.bioconductor-mogene.1.0.st.v1frmavecs-post-link.sh
-  .bioconductor-mogene.1.0.st.v1frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-mogene.1.0.st.v1frmavecs-pre-unlink.sh

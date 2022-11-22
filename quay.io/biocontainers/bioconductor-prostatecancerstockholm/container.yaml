@@ -8,5 +8,3 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:01741c4ad08e0e02ddb16fdfced7173b894914defb81050ee25559fd24450713
 docker: quay.io/biocontainers/bioconductor-prostatecancerstockholm
 aliases:
-  .bioconductor-prostatecancerstockholm-post-link.sh: /usr/local/bin/.bioconductor-prostatecancerstockholm-post-link.sh
-  .bioconductor-prostatecancerstockholm-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancerstockholm-pre-unlink.sh

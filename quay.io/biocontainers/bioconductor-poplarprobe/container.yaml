@@ -7,5 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:8fcc57f25b97996677e68ac1bc8cf43b6ba501804c09de3aaf45dfc66655e735
 docker: quay.io/biocontainers/bioconductor-poplarprobe
 aliases:
-  .bioconductor-poplarprobe-post-link.sh: /usr/local/bin/.bioconductor-poplarprobe-post-link.sh
-  .bioconductor-poplarprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-poplarprobe-pre-unlink.sh

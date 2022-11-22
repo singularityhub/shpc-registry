@@ -7,5 +7,3 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a
 docker: quay.io/biocontainers/bioconductor-xhybcasneuf
 aliases:
-  .bioconductor-xhybcasneuf-post-link.sh: /usr/local/bin/.bioconductor-xhybcasneuf-post-link.sh
-  .bioconductor-xhybcasneuf-pre-unlink.sh: /usr/local/bin/.bioconductor-xhybcasneuf-pre-unlink.sh

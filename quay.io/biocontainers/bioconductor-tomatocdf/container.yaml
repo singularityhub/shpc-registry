@@ -8,5 +8,3 @@ tags:
   2.18.0--r41hdfd78af_10: sha256:3b0104ca907d8a7639002c6e446f27cef8ad6d5b5287d0e786485540b64c6dbb
 docker: quay.io/biocontainers/bioconductor-tomatocdf
 aliases:
-  .bioconductor-tomatocdf-post-link.sh: /usr/local/bin/.bioconductor-tomatocdf-post-link.sh
-  .bioconductor-tomatocdf-pre-unlink.sh: /usr/local/bin/.bioconductor-tomatocdf-pre-unlink.sh

@@ -7,6 +7,4 @@ tags:
   1.26.0--r40hdfd78af_1: sha256:e110afe33bece848bd7ab064a8089434211e495c853f9e54ffc6e5a121dca7a7
 docker: quay.io/biocontainers/bioconductor-wavetilingdata
 aliases:
-  .bioconductor-wavetilingdata-post-link.sh: /usr/local/bin/.bioconductor-wavetilingdata-post-link.sh
-  .bioconductor-wavetilingdata-pre-unlink.sh: /usr/local/bin/.bioconductor-wavetilingdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,5 +8,3 @@ tags:
   1.26.0--r42hdfd78af_0: sha256:b1404d02656af56f608d371936002f096fddcbedd5cbbad19bdd19c62d9ca16e
 docker: quay.io/biocontainers/bioconductor-etec16s
 aliases:
-  .bioconductor-etec16s-post-link.sh: /usr/local/bin/.bioconductor-etec16s-post-link.sh
-  .bioconductor-etec16s-pre-unlink.sh: /usr/local/bin/.bioconductor-etec16s-pre-unlink.sh

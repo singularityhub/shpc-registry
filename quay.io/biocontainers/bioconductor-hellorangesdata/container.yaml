@@ -7,8 +7,6 @@ tags:
   1.8.0--r351_0: sha256:ce9c6ea22607667af39d161134fbaa07f5a2f1bde3345b77e9a7081b31971bb5
 docker: quay.io/biocontainers/bioconductor-hellorangesdata
 aliases:
-  .bioconductor-hellorangesdata-post-link.sh: /usr/local/bin/.bioconductor-hellorangesdata-post-link.sh
-  .bioconductor-hellorangesdata-pre-unlink.sh: /usr/local/bin/.bioconductor-hellorangesdata-pre-unlink.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

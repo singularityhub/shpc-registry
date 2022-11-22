@@ -7,7 +7,6 @@ tags:
   3.3--hdfd78af_0: sha256:8d5b520f69780225da248defded72ea2199c8e244ce04669eb953faa0a45c9e2
 docker: quay.io/biocontainers/dfam
 aliases:
-  .dfam-post-link.sh: /usr/local/bin/.dfam-post-link.sh
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
   ProcessRepeats: /usr/local/bin/ProcessRepeats

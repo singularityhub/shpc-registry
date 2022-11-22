@@ -8,5 +8,3 @@ tags:
   2.18.0--r42hdfd78af_10: sha256:9a86b7f0b730937e34985617c05dc081a9a505523715356ba1700c6d51cbb5b0
 docker: quay.io/biocontainers/bioconductor-hu6800cdf
 aliases:
-  .bioconductor-hu6800cdf-post-link.sh: /usr/local/bin/.bioconductor-hu6800cdf-post-link.sh
-  .bioconductor-hu6800cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hu6800cdf-pre-unlink.sh

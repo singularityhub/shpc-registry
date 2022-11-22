@@ -7,5 +7,3 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:d26ba19cda272edea0e6abd384f072b0bc42456cc2e7a9ac43681fdbc96e51af
 docker: quay.io/biocontainers/bioconductor-nxtirfdata
 aliases:
-  .bioconductor-nxtirfdata-post-link.sh: /usr/local/bin/.bioconductor-nxtirfdata-post-link.sh
-  .bioconductor-nxtirfdata-pre-unlink.sh: /usr/local/bin/.bioconductor-nxtirfdata-pre-unlink.sh

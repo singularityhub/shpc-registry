@@ -8,5 +8,3 @@ tags:
   1.0.2--r42hdfd78af_10: sha256:b332e26fa1d95c3a79bd839cc24bc339e98e12e7cb82b41e5bfbbd4badd37a91
 docker: quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp132
 aliases:
-  .bioconductor-sift.hsapiens.dbsnp132-post-link.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp132-post-link.sh
-  .bioconductor-sift.hsapiens.dbsnp132-pre-unlink.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp132-pre-unlink.sh

@@ -7,5 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:7c80aca9c0bafb1a769f637fe8e5d15506c4dc029f1cdc96b445c057b818d2da
 docker: quay.io/biocontainers/bioconductor-mu6500subdcdf
 aliases:
-  .bioconductor-mu6500subdcdf-post-link.sh: /usr/local/bin/.bioconductor-mu6500subdcdf-post-link.sh
-  .bioconductor-mu6500subdcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mu6500subdcdf-pre-unlink.sh

@@ -8,5 +8,3 @@ tags:
   1.39.0--r42hdfd78af_0: sha256:f8942af63253a1186eba8161607e0dce5d406ac7e10ffb85313d727683035daf
 docker: quay.io/biocontainers/bioconductor-hapmap500knsp
 aliases:
-  .bioconductor-hapmap500knsp-post-link.sh: /usr/local/bin/.bioconductor-hapmap500knsp-post-link.sh
-  .bioconductor-hapmap500knsp-pre-unlink.sh: /usr/local/bin/.bioconductor-hapmap500knsp-pre-unlink.sh

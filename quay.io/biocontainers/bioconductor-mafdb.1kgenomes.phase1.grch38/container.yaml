@@ -8,8 +8,6 @@ tags:
   3.10.0--r42hdfd78af_7: sha256:286bfcc5389923c1cf576d3911113c780796d1acad23ab28351ad0e6789a20c4
 docker: quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase1.grch38
 aliases:
-  .bioconductor-mafdb.1kgenomes.phase1.grch38-post-link.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase1.grch38-post-link.sh
-  .bioconductor-mafdb.1kgenomes.phase1.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase1.grch38-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99

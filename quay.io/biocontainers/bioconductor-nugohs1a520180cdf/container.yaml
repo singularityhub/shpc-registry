@@ -7,5 +7,3 @@ tags:
   3.4.0--r41hdfd78af_9: sha256:3274f20779617bd3e03779bc67412f08e323ef1258c634ed2cf51eec2badc406
 docker: quay.io/biocontainers/bioconductor-nugohs1a520180cdf
 aliases:
-  .bioconductor-nugohs1a520180cdf-post-link.sh: /usr/local/bin/.bioconductor-nugohs1a520180cdf-post-link.sh
-  .bioconductor-nugohs1a520180cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-nugohs1a520180cdf-pre-unlink.sh
