@@ -46,6 +46,5 @@ aliases:
   ocamlprof.opt: /usr/local/bin/ocamlprof.opt
   ocamlrun: /usr/local/bin/ocamlrun
   ocamlyacc: /usr/local/bin/ocamlyacc
-  tal-AA.fa: /usr/local/bin/tal-AA.fa
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
