@@ -1,6 +1,7 @@
 name: 'Update Containers'
 
 on:
+  workflow_dispatch:
   schedule:
     # Now daily for a smaller subset of containers
     - cron: '0 23 * * *'
@@ -37,6 +38,10 @@ jobs:
       - name: Run Update on Subset
         run: |
             for entry in $(cat ./shpc-show-subset.txt); do
+                echo "Updating ${entry}"
+                if [[ "${entry}" == "" ]]; then
+                 continue
+                fi
                 shpc update ${entry}
             done
             rm listing.txt
