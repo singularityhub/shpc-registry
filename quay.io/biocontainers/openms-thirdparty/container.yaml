@@ -7,10 +7,6 @@ tags:
   2.8.0--h9ee0642_3: sha256:4c909e5c1288c6210436bf61757f4c956158d5ff68c427f9becc821aba57a699
 docker: quay.io/biocontainers/openms-thirdparty
 aliases:
-  AWS.Logger.Core.pdb: /usr/local/bin/AWS.Logger.Core.pdb
-  AWSSDK.CloudWatchLogs.pdb: /usr/local/bin/AWSSDK.CloudWatchLogs.pdb
-  AWSSDK.Core.pdb: /usr/local/bin/AWSSDK.Core.pdb
-  AWSSDK.S3.pdb: /usr/local/bin/AWSSDK.S3.pdb
   AccurateMassSearch: /usr/local/bin/AccurateMassSearch
   AssayGeneratorMetabo: /usr/local/bin/AssayGeneratorMetabo
   BaselineFilter: /usr/local/bin/BaselineFilter
@@ -183,7 +179,6 @@ aliases:
   TextExporter: /usr/local/bin/TextExporter
   ThermoRawFileParser: /usr/local/bin/ThermoRawFileParser
   ThermoRawFileParser.exe: /usr/local/bin/ThermoRawFileParser.exe
-  ThermoRawFileParser.pdb: /usr/local/bin/ThermoRawFileParser.pdb
   ThermoRawFileParser.sh: /usr/local/bin/ThermoRawFileParser.sh
   TransformationEvaluation: /usr/local/bin/TransformationEvaluation
   TriqlerConverter: /usr/local/bin/TriqlerConverter
