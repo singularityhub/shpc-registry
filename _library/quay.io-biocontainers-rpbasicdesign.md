@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpbasicdesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpbasicdesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpbasicdesign/container.yaml"
-updated_at: "2022-11-21 13:54:48.071810"
+updated_at: "2022-11-22 01:04:11.778994"
 latest: "1.1.1"
 container_url: "https://biocontainers.pro/tools/rpbasicdesign"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hichipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hichipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hichipper/container.yaml"
-updated_at: "2022-11-21 13:51:00.156919"
+updated_at: "2022-11-22 01:01:28.653491"
 latest: "0.7.7--py_1"
 container_url: "https://biocontainers.pro/tools/hichipper"
 aliases:

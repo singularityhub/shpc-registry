@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathprint/container.yaml"
-updated_at: "2022-11-21 13:43:53.654046"
+updated_at: "2022-11-22 00:56:15.841860"
 latest: "1.6.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathprint"
 aliases:

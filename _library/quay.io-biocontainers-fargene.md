@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fargene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fargene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fargene/container.yaml"
-updated_at: "2022-11-21 13:49:45.059832"
+updated_at: "2022-11-22 01:00:33.803642"
 latest: "0.1--py27h21c881e_4"
 container_url: "https://biocontainers.pro/tools/fargene"
 aliases:

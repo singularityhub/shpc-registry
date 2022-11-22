@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomictuples"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomictuples/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomictuples/container.yaml"
-updated_at: "2022-11-21 13:40:45.085900"
+updated_at: "2022-11-22 00:54:00.878633"
 latest: "1.28.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomictuples"
 

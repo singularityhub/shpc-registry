@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocfilecache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocfilecache/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocfilecache/container.yaml"
-updated_at: "2022-11-21 14:35:08.272103"
+updated_at: "2022-11-22 01:33:53.597369"
 latest: "2.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocfilecache"
 

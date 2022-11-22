@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/damageprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/damageprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/damageprofiler/container.yaml"
-updated_at: "2022-11-21 13:39:35.168525"
+updated_at: "2022-11-22 00:53:09.364741"
 latest: "1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/damageprofiler"
 aliases:

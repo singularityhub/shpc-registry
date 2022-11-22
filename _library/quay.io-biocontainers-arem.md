@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arem/container.yaml"
-updated_at: "2022-11-21 14:05:58.573973"
+updated_at: "2022-11-22 01:12:19.892503"
 latest: "1.0.1--py_2"
 container_url: "https://biocontainers.pro/tools/arem"
 aliases:

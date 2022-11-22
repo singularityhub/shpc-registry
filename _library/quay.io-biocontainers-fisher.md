@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fisher/container.yaml"
-updated_at: "2022-11-21 14:41:22.910766"
+updated_at: "2022-11-22 01:38:33.508835"
 latest: "0.1.4--py27h24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/fisher"
 aliases:

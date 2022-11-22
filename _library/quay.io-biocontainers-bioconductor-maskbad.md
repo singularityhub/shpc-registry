@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maskbad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maskbad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maskbad/container.yaml"
-updated_at: "2022-11-21 14:34:26.912566"
+updated_at: "2022-11-22 01:33:20.535659"
 latest: "1.38.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maskbad"
 

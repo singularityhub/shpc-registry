@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lorikeet-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lorikeet-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lorikeet-genome/container.yaml"
-updated_at: "2022-11-21 13:52:39.923976"
+updated_at: "2022-11-22 01:02:38.701971"
 latest: "0.7.3--h28a2364_1"
 container_url: "https://biocontainers.pro/tools/lorikeet-genome"
 aliases:

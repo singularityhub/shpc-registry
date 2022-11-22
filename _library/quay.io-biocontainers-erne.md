@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/erne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/erne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/erne/container.yaml"
-updated_at: "2022-11-21 14:08:59.584062"
+updated_at: "2022-11-22 01:14:33.015003"
 latest: "2.1.1--heaa942f_2"
 container_url: "https://biocontainers.pro/tools/erne"
 aliases:

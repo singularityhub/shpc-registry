@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scxa-plots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scxa-plots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scxa-plots/container.yaml"
-updated_at: "2022-11-21 14:37:10.583231"
+updated_at: "2022-11-22 01:35:29.583121"
 latest: "0.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scxa-plots"
 aliases:

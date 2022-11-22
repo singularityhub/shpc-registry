@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/titan-gc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/titan-gc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/titan-gc/container.yaml"
-updated_at: "2022-11-21 13:37:34.104816"
+updated_at: "2022-11-22 00:51:34.602994"
 latest: "1.5.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/titan-gc"
 aliases:

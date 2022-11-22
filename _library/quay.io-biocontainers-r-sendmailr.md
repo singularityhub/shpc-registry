@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sendmailr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sendmailr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sendmailr/container.yaml"
-updated_at: "2022-11-21 14:33:00.023386"
+updated_at: "2022-11-22 01:32:17.360574"
 latest: "1.2_1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-sendmailr"
 aliases:

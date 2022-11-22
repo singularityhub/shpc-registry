@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cassiopee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cassiopee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cassiopee/container.yaml"
-updated_at: "2022-11-21 14:24:26.608786"
+updated_at: "2022-11-22 01:26:18.723651"
 latest: "1.0.9--hc0e6a75_4"
 container_url: "https://biocontainers.pro/tools/cassiopee"
 aliases:

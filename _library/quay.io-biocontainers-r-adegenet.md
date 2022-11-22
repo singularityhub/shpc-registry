@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-adegenet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-adegenet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-adegenet/container.yaml"
-updated_at: "2022-11-21 14:21:28.880822"
+updated_at: "2022-11-22 01:24:02.548752"
 latest: "2.1.1--r351h96ca727_1"
 container_url: "https://biocontainers.pro/tools/r-adegenet"
 aliases:

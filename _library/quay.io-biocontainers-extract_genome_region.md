@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract_genome_region"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract_genome_region/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract_genome_region/container.yaml"
-updated_at: "2022-11-21 14:48:13.109352"
+updated_at: "2022-11-22 01:43:24.150824"
 latest: "0.0.3--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/extract_genome_region"
 aliases:

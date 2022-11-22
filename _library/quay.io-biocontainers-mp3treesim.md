@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mp3treesim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mp3treesim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mp3treesim/container.yaml"
-updated_at: "2022-11-21 14:29:13.330177"
+updated_at: "2022-11-22 01:29:38.089217"
 latest: "1.0.6--py_0"
 container_url: "https://biocontainers.pro/tools/mp3treesim"
 aliases:

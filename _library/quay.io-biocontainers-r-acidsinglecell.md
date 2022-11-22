@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidsinglecell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidsinglecell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidsinglecell/container.yaml"
-updated_at: "2022-11-21 13:53:00.684561"
+updated_at: "2022-11-22 01:02:53.497989"
 latest: "0.3.3--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-acidsinglecell"
 

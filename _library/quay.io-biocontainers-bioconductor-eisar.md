@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eisar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eisar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eisar/container.yaml"
-updated_at: "2022-11-21 14:42:32.358237"
+updated_at: "2022-11-22 01:39:22.045845"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eisar"
 

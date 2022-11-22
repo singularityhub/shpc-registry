@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-selectksigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-selectksigs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-selectksigs/container.yaml"
-updated_at: "2022-11-21 14:25:44.312821"
+updated_at: "2022-11-22 01:27:15.962808"
 latest: "1.10.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-selectksigs"
 aliases:

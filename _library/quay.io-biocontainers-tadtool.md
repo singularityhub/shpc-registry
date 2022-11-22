@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tadtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadtool/container.yaml"
-updated_at: "2022-11-21 14:26:33.260279"
+updated_at: "2022-11-22 01:27:49.560481"
 latest: "0.82--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/tadtool"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srnamapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srnamapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srnamapper/container.yaml"
-updated_at: "2022-11-21 14:46:59.169025"
+updated_at: "2022-11-22 01:42:31.451596"
 latest: "1.0.8--h7132678_1"
 container_url: "https://biocontainers.pro/tools/srnamapper"
 aliases:

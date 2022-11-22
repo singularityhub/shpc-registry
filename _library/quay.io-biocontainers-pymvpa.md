@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymvpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymvpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymvpa/container.yaml"
-updated_at: "2022-11-21 14:06:24.119454"
+updated_at: "2022-11-22 01:12:37.638553"
 latest: "2.6.5--py39h70e0db4_5"
 container_url: "https://biocontainers.pro/tools/pymvpa"
 aliases:

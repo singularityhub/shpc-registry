@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metapi/container.yaml"
-updated_at: "2022-11-21 13:47:47.660190"
+updated_at: "2022-11-22 00:59:05.016036"
 latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metapi"
 aliases:

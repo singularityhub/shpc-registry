@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mordred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mordred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mordred/container.yaml"
-updated_at: "2022-11-21 14:50:24.922296"
+updated_at: "2022-11-22 01:44:56.806400"
 latest: "1.2.0"
 container_url: "https://biocontainers.pro/tools/mordred"
 aliases:

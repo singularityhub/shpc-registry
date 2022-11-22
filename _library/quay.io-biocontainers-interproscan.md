@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/interproscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/interproscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/interproscan/container.yaml"
-updated_at: "2022-11-21 14:09:05.049123"
+updated_at: "2022-11-22 01:14:37.098970"
 latest: "5.55_88.0--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/interproscan"
 aliases:

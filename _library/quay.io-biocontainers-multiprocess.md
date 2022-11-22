@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multiprocess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiprocess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiprocess/container.yaml"
-updated_at: "2022-11-21 13:57:39.508294"
+updated_at: "2022-11-22 01:06:16.115527"
 latest: "0.70.4--py35_0"
 container_url: "https://biocontainers.pro/tools/multiprocess"
 aliases:

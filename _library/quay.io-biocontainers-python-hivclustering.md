@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-hivclustering"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-hivclustering/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-hivclustering/container.yaml"
-updated_at: "2022-11-21 13:36:01.781861"
+updated_at: "2022-11-22 00:50:23.748161"
 latest: "1.5.6--py_0"
 container_url: "https://biocontainers.pro/tools/python-hivclustering"
 aliases:

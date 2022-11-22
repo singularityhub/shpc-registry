@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scsr/container.yaml"
-updated_at: "2022-11-21 14:15:16.106982"
+updated_at: "2022-11-22 01:19:19.324725"
 latest: "1.23.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scsr"
 aliases:
