@@ -71,7 +71,6 @@ aliases:
   InclusionExclusionListCreator: /usr/local/bin/InclusionExclusionListCreator
   InternalCalibration: /usr/local/bin/InternalCalibration
   IsobaricAnalyzer: /usr/local/bin/IsobaricAnalyzer
-  LICENSE: /usr/local/bin/LICENSE
   LabeledEval: /usr/local/bin/LabeledEval
   LuciphorAdapter: /usr/local/bin/LuciphorAdapter
   MRMMapper: /usr/local/bin/MRMMapper
@@ -172,7 +171,6 @@ aliases:
   SpectraSTSearchAdapter: /usr/local/bin/SpectraSTSearchAdapter
   StaticModification: /usr/local/bin/StaticModification
   SvmTheoreticalSpectrumGeneratorTrainer: /usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer
-  THERMO_LICENSE: /usr/local/bin/THERMO_LICENSE
   TICCalculator: /usr/local/bin/TICCalculator
   TOFCalibration: /usr/local/bin/TOFCalibration
   TargetedFileConverter: /usr/local/bin/TargetedFileConverter

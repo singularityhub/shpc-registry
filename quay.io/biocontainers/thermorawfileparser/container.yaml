@@ -7,8 +7,6 @@ tags:
   1.4.0--ha8f3691_0: sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404
 docker: quay.io/biocontainers/thermorawfileparser
 aliases:
-  LICENSE: /usr/local/bin/LICENSE
-  THERMO_LICENSE: /usr/local/bin/THERMO_LICENSE
   ThermoRawFileParser: /usr/local/bin/ThermoRawFileParser
   ThermoRawFileParser.exe: /usr/local/bin/ThermoRawFileParser.exe
   ThermoRawFileParser.exe.config: /usr/local/bin/ThermoRawFileParser.exe.config

@@ -7,7 +7,6 @@ tags:
   0.0.9--hdfd78af_0: sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f
 docker: quay.io/biocontainers/gifrop
 aliases:
-  LICENSE: /usr/local/bin/LICENSE
   abricate: /usr/local/bin/abricate
   abricate-get_db: /usr/local/bin/abricate-get_db
   cluster_graphs.R: /usr/local/bin/cluster_graphs.R

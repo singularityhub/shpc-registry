@@ -10,7 +10,6 @@ aliases:
   AUTHORS: /usr/local/bin/AUTHORS
   Antisense.py: /usr/local/bin/Antisense.py
   FilterReads.py: /usr/local/bin/FilterReads.py
-  LICENSE: /usr/local/bin/LICENSE
   RELEASE_NOTES: /usr/local/bin/RELEASE_NOTES
   bs_seeker2-align.py: /usr/local/bin/bs_seeker2-align.py
   bs_seeker2-build.py: /usr/local/bin/bs_seeker2-build.py
