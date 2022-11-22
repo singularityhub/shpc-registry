@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/bumbershoot
 aliases:
   adjustScanRankerScoreByGroup: /usr/local/bin/adjustScanRankerScoreByGroup
-  blosum62.fas: /usr/local/bin/blosum62.fas
   directag: /usr/local/bin/directag
   idpAssemble: /usr/local/bin/idpAssemble
   idpQonvert: /usr/local/bin/idpQonvert
