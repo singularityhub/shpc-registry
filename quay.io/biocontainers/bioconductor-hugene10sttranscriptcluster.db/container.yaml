@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:fbe0fcc4e04644fd3fbb9ed68c8959ff116775e1035400256b1490e0ac767150
   8.8.0--r42hdfd78af_2: sha256:95e2406e68b1ad389822aedcd5dc2d4de079b8bca30540306652a9d9485ae265
 docker: quay.io/biocontainers/bioconductor-hugene10sttranscriptcluster.db
-aliases:

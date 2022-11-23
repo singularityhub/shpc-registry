@@ -7,4 +7,3 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:897069788213acf60d8430292d3f72d2757fe26e576c890d1dc05acacce414ee
   1.4.0--r42hdfd78af_0: sha256:879c0efd1e9bde6ca063ddb32c8ec937181ec9f951d4b596882204c47fdc3ea9
 docker: quay.io/biocontainers/bioconductor-nullrangesdata
-aliases:

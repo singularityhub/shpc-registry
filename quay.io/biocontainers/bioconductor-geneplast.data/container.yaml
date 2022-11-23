@@ -7,4 +7,3 @@ tags:
   0.99.6--r41hdfd78af_0: sha256:c50f566af4fabb8dfe72d18b0c7cf751a5c040f3b0b40ad058a3c720085ffe9d
   0.99.6--r42hdfd78af_1: sha256:7dc74ca635be29e237ee383f9b9dd18fa1a6f75f7eebf76c37976181bba9a105
 docker: quay.io/biocontainers/bioconductor-geneplast.data
-aliases:

@@ -6,4 +6,3 @@ latest:
 tags:
   8.8.0--r41hdfd78af_1: sha256:fa07f8cd7b83bcec9db2cfa9f60edb81f33df508ce12e695a25707bf5245904d
 docker: quay.io/biocontainers/bioconductor-clariomsmousetranscriptcluster.db
-aliases:

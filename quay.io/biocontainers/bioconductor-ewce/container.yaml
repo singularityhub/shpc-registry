@@ -6,4 +6,3 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:745deb9a0cd62484210da4357840222560dc1ed22574e5c80ac79fa21065ec7a
 docker: quay.io/biocontainers/bioconductor-ewce
-aliases:

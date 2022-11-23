@@ -6,4 +6,3 @@ latest:
 tags:
   1.22.0--r41hdfd78af_1: sha256:d77a156fb317956ea698f58e2e9ce1e549ddd473581a4d9e6725886d63e86d02
 docker: quay.io/biocontainers/bioconductor-tximportdata
-aliases:

@@ -6,4 +6,3 @@ latest:
 tags:
   0.6.1--r41hdfd78af_9: sha256:bae8ffba00388284ac8a89349c694908924828212d4b10f9cf917a0c57dae96d
 docker: quay.io/biocontainers/bioconductor-targetscan.hs.eg.db
-aliases:

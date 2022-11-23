@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:d055a44d86d8cfa56e99eb1473f3ec228f04e3382fda6fef68a20e424d8e870e
   8.8.0--r42hdfd78af_2: sha256:53f5442d2d7bf1e39ba8a2047b957455582cbab875eb159e7ee580f3e6698880
 docker: quay.io/biocontainers/bioconductor-hugene20stprobeset.db
-aliases:

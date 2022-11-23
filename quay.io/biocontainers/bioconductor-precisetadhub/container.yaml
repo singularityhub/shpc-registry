@@ -6,4 +6,3 @@ latest:
 tags:
   1.2.0--r41hdfd78af_1: sha256:8c0355ed0fd22c142a09917f356971fa1e2aea4faa42be9e5af57e2de105cd4d
 docker: quay.io/biocontainers/bioconductor-precisetadhub
-aliases:

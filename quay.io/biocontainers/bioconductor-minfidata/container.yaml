@@ -6,4 +6,3 @@ latest:
 tags:
   0.40.0--r41hdfd78af_1: sha256:4413a66fd87fd43be04988396aadb11bfbabbcbee0f7877f81e89c3d29faf0b8
 docker: quay.io/biocontainers/bioconductor-minfidata
-aliases:

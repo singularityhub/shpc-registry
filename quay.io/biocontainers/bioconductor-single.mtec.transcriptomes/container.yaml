@@ -7,4 +7,3 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:3e6434da485c916e13763844b68a36d4025305673d6ed0e6a8bd69d0cb754379
   1.25.0--r42hdfd78af_0: sha256:65e590ecd03e53b8858001317cb975c13f0effb7086ea230fb5a256a2a12f178
 docker: quay.io/biocontainers/bioconductor-single.mtec.transcriptomes
-aliases:

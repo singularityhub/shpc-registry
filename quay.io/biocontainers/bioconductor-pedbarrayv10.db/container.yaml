@@ -7,4 +7,3 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:291b93b8ba7cb03230b904ff138caaaf644540dfd9d749ab0abfe6933459ac0f
   3.2.3--r42hdfd78af_10: sha256:b5068f8468a0e081aa8609af8b81ff8d87f144b3c970e9a2caf2226f3cbd5791
 docker: quay.io/biocontainers/bioconductor-pedbarrayv10.db
-aliases:

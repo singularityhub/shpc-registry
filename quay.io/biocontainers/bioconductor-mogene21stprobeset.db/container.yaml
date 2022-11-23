@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:3373134ff8b25ffb680c7e24892617f1ebc9932374fe1c30d060054fa97de86c
   8.8.0--r42hdfd78af_2: sha256:b24c72cee5d14679e213cd7730fcb5ccd8f8e86b42f4cd8cadab0e9eb54805e2
 docker: quay.io/biocontainers/bioconductor-mogene21stprobeset.db
-aliases:

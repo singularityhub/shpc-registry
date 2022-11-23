@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:76e10389f9fd63d4f9000f70333800dcd67d374042b6b5df2a4d89ab3876288e
   2.18.0--r42hdfd78af_10: sha256:43b1d6968b8e7b608d06359b81b9efd617b9b04add165f84c8a1d19f7ee1d548
 docker: quay.io/biocontainers/bioconductor-ricecdf
-aliases:

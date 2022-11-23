@@ -6,4 +6,3 @@ latest:
 tags:
   3.10.0--r41hdfd78af_6: sha256:841ce7eb3058b58be45948921b6df93aaef36c80bb516051c40b3a7a85d257da
 docker: quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene
-aliases:

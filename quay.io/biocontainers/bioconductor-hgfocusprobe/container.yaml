@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:28ead63e2526d2e6bffef6d956db470c4573ca96efcd4125f4061ce7e5b4ae38
   2.18.0--r42hdfd78af_10: sha256:e813c52395ba24ad7ad0583dc8a5c4425ea1f6f3f87a591f95e871d771e9de24
 docker: quay.io/biocontainers/bioconductor-hgfocusprobe
-aliases:

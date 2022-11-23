@@ -6,4 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_1: sha256:b133c0b4e5271cb5adf4699013c5af2be89f39326bce8180db3703c011709c86
 docker: quay.io/biocontainers/bioconductor-hiiragi2013
-aliases:

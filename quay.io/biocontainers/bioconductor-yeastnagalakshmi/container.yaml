@@ -6,4 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_1: sha256:c42f199c52ea7add017438d034ef1771e6d3d30c8ce38f7764f3e8611a60371e
 docker: quay.io/biocontainers/bioconductor-yeastnagalakshmi
-aliases:

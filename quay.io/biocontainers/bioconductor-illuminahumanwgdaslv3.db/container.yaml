@@ -7,4 +7,3 @@ tags:
   1.26.0--r41hdfd78af_9: sha256:223013993b0982d70a57e1dedad98a1d81da8234a25692ac89584992db3e5da9
   1.26.0--r42hdfd78af_10: sha256:55202f938f913c53d0a24b83c0cfa5521482cac117dd2ba4c0e4301c63d9a5ce
 docker: quay.io/biocontainers/bioconductor-illuminahumanwgdaslv3.db
-aliases:

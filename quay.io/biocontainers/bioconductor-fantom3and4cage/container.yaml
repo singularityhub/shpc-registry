@@ -6,4 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_1: sha256:d3bda7169fd4282497bca0f181633f04aa950b6c26501b955f690fa899517581
 docker: quay.io/biocontainers/bioconductor-fantom3and4cage
-aliases:

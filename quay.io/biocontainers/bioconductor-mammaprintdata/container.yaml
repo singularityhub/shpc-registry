@@ -7,4 +7,3 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:2ac9bce957340ddde14dad8f888e7cf284c59597c5ba5c3e6f5a431c7d1aae7c
   1.33.0--r42hdfd78af_0: sha256:c48fe32bcad53344ba47b351e1c83001d5fa45e4ce65e9f1ffe5c9ba4b5ad1bd
 docker: quay.io/biocontainers/bioconductor-mammaprintdata
-aliases:

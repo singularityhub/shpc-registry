@@ -7,4 +7,3 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:c891395f71cb968082cf1030fe4f985a85e8d1bf1f17a635f08e95feef77eafc
   1.40.0--r42hdfd78af_0: sha256:b56f9cdeca3b836557291e7df44821686fe3c8a44b5a1e811cd4f416035ccdaa
 docker: quay.io/biocontainers/bioconductor-hapmapsnp6
-aliases:

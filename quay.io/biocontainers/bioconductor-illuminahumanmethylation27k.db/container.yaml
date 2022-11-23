@@ -7,4 +7,3 @@ tags:
   1.4.8--r41hdfd78af_9: sha256:271f5dcbadfd52e95eca68ce076950a4fe458826a0da1896b8b6cfc75db073c4
   1.4.8--r42hdfd78af_10: sha256:2327f37e985579ebbc3422adf4b9d950fa6730095c98cca6be66a1e4c1f702c1
 docker: quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db
-aliases:

@@ -7,4 +7,3 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:4fa20e2828c1d9a258d48b43f37410501e61785940c173506e04fa8fec856521
   1.26.0--r42hdfd78af_0: sha256:3ebd31ef7e47df394b2b0220ab2d12723d0c8563fbfec761ff0a3abfa2a1fcfe
 docker: quay.io/biocontainers/bioconductor-prostatecancergrasso
-aliases:

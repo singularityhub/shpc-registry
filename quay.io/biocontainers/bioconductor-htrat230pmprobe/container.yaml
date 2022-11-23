@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:59bcdd084d22e3a3cbf29c0fba7ca4b1c401579ed7910e7bc14e9b1dee5b081c
 docker: quay.io/biocontainers/bioconductor-htrat230pmprobe
-aliases:

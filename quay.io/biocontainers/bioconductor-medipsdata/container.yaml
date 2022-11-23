@@ -6,4 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_1: sha256:8676a95e25196bf38951bcf8a0378d2204a0251d1fd40620e0324d654cf9ab49
 docker: quay.io/biocontainers/bioconductor-medipsdata
-aliases:

@@ -6,4 +6,3 @@ latest:
 tags:
   1.36.0--r41hdfd78af_1: sha256:45e2d4f2680162a3ea42081c52833d42f4162171453b1c52cba40c86221f6d5a
 docker: quay.io/biocontainers/bioconductor-kidpack
-aliases:

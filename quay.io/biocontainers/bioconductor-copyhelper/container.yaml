@@ -8,4 +8,3 @@ tags:
   1.30.0--r42hdfd78af_0: sha256:574b20e16da52b0474858d9c891a3f0947a4c29b12c19659a9b3ebb306dc0448
   1.29.0--r42hdfd78af_0: sha256:a8a3eb212f159af40fda74460752f5d59275a5544464b35d4c101afa8df4c5cd
 docker: quay.io/biocontainers/bioconductor-copyhelper
-aliases:

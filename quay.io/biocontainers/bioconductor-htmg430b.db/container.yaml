@@ -6,4 +6,3 @@ latest:
 tags:
   3.13.0--r41hdfd78af_1: sha256:5b50bbc702015ab8f06ef5cf04d905a99e8c61ea069927c67516c92c9f6eaba5
 docker: quay.io/biocontainers/bioconductor-htmg430b.db
-aliases:

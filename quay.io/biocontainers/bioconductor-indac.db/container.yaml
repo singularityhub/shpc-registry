@@ -6,4 +6,3 @@ latest:
 tags:
   3.2.3--r41hdfd78af_9: sha256:7b5422bed32c3aacb02169bead5c7efd1f657d0735a196a4ae48bf9208e834ee
 docker: quay.io/biocontainers/bioconductor-indac.db
-aliases:

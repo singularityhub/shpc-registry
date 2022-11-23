@@ -6,4 +6,3 @@ latest:
 tags:
   1.32.0--r41hdfd78af_1: sha256:8cc27544dd1919b5126545af2b56f4ee8c4d5b74edc7cc0bb5a33cace25c930d
 docker: quay.io/biocontainers/bioconductor-mouse4302barcodevecs
-aliases:

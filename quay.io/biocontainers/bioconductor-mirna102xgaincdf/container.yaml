@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:e2cebeee7d8224b725c9b4d9509f7b3fdd81ecf438670b26c86c3ca08ce93683
 docker: quay.io/biocontainers/bioconductor-mirna102xgaincdf
-aliases:

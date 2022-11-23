@@ -6,4 +6,3 @@ latest:
 tags:
   2.99.0--r41hdfd78af_9: sha256:3ddd9af7758e998427700830c3c879b6f5db03804cf004c6b88ebd1a1600e414
 docker: quay.io/biocontainers/bioconductor-ensdb.mmusculus.v75
-aliases:

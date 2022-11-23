@@ -6,4 +6,3 @@ latest:
 tags:
   1.2.0--r41hdfd78af_1: sha256:35101b6826f23ec1b256dc6e17e13919fb123b21cab982ec449371f488582707
 docker: quay.io/biocontainers/bioconductor-lrcelltypemarkers
-aliases:

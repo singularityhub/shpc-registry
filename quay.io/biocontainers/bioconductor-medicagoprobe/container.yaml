@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:d6e144fa9e68d28161f45e181d73547dfe863c340983b8906b9322d36e844078
 docker: quay.io/biocontainers/bioconductor-medicagoprobe
-aliases:

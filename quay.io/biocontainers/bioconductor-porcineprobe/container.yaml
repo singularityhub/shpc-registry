@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:fd4620b9fb0e285a13cb90a141a01353353fa39ae44687ab31871e3b774b4247
 docker: quay.io/biocontainers/bioconductor-porcineprobe
-aliases:

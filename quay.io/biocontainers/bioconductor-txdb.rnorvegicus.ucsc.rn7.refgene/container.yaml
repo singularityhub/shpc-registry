@@ -7,4 +7,3 @@ tags:
   3.14.0--r41hdfd78af_1: sha256:8d90988103e34742340152e702ec987931788771f7a601e53d39a4c5a7986e7b
   3.15.0--r42hdfd78af_0: sha256:e094e0f9b50f311e5781387baab333d6337eeaab46ef1d5c0d5567ab72e24320
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene
-aliases:

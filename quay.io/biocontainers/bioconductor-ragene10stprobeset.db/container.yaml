@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:9877183c5b386e39f04b4705860ffe2ce2d75aee44d42b370178c907d1a4188d
   8.8.0--r42hdfd78af_2: sha256:02620b0834a0c6ccabdeb36200248f6a5534accb4c43361e3826c18900255193
 docker: quay.io/biocontainers/bioconductor-ragene10stprobeset.db
-aliases:

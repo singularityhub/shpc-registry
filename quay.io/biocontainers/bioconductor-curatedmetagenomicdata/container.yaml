@@ -7,4 +7,3 @@ tags:
   3.4.1--r41hdfd78af_0: sha256:d3c247b75974daf12767e546f3e13d3112804af86d2a7d045066e9644e11b28e
   3.6.0--r42hdfd78af_0: sha256:6ac329afb9c6a44b1daad9de8f79bd4a3f950cf003f0aa41160cec7aa63b6b81
 docker: quay.io/biocontainers/bioconductor-curatedmetagenomicdata
-aliases:

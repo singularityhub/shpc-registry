@@ -6,4 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_1: sha256:7b9535db882b1f71e486e06c0af358553094bfbef3f6f971facefd7cf11a7330
 docker: quay.io/biocontainers/bioconductor-depmap
-aliases:

@@ -7,4 +7,3 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:f653ec8d9ef3e26a4ac10f8e694f8ec653463fb84974b10a3b1a2552f03eb598
   1.33.0--r42hdfd78af_0: sha256:3c3ae463b2cd70e2cef98303c0d32ca98f4a40761231d1b22df822562139ae91
 docker: quay.io/biocontainers/bioconductor-mmdiffbamsubset
-aliases:

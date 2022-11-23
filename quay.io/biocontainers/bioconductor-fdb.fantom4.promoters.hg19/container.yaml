@@ -7,4 +7,3 @@ tags:
   1.0.0--r41hdfd78af_9: sha256:32eebdaea9a8d509e1a0fa2814e71859e76b052f5da1ad0bf697e77649933df8
   1.0.0--r42hdfd78af_10: sha256:3b8af1a4c11dc55898bab0d8d564075322cd6522f98e2cace088095303b72685
 docker: quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19
-aliases:

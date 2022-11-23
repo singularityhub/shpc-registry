@@ -7,4 +7,3 @@ tags:
   3.4.0--r41hdfd78af_9: sha256:55e489bc22e12671775804eac6172ff9f2ca1fdc2ba043be54e1f24a58c04127
   3.4.0--r42hdfd78af_10: sha256:55f4f709d4fb8e370be6955ede25c1b0b23dec7ad881111ea1a826067784a0d6
 docker: quay.io/biocontainers/bioconductor-r10kcod.db
-aliases:

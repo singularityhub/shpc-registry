@@ -7,4 +7,3 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:c2e65fccc3b242c528cafdf8f4e5c9683ee8f5d5ca780d4578d6fc8494496e91
   1.30.0--r42hdfd78af_0: sha256:96fec4ad9da6ab316daec0ff869da6f42ab0049b4c0c93601b55f3e1fe870c9f
 docker: quay.io/biocontainers/bioconductor-rnbeads.rn5
-aliases:

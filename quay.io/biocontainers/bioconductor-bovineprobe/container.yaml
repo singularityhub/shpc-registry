@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:2a0680889afab42224c58004981fc6345b9e2a0a0bad92d8d5bafefb8282acb2
 docker: quay.io/biocontainers/bioconductor-bovineprobe
-aliases:

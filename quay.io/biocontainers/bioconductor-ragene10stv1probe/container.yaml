@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:c763f928350c4dc7dbf2a5cc99828fc151ae79dc71e020ea2e159174680fd1c9
 docker: quay.io/biocontainers/bioconductor-ragene10stv1probe
-aliases:

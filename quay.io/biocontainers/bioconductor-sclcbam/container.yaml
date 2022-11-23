@@ -7,4 +7,3 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:22852f8511bdc01fb1e6c23ec0aa121b068cb6d13cddea1f00b3351ced569622
   1.29.0--r42hdfd78af_0: sha256:d732f4dc596dedcf61e2f0758ae439e4e6d2ffda48743ff767bf0e7ea2e72ca8
 docker: quay.io/biocontainers/bioconductor-sclcbam
-aliases:

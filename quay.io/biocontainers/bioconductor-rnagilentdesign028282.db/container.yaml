@@ -6,4 +6,3 @@ latest:
 tags:
   3.2.3--r41hdfd78af_9: sha256:025cf6e90502f19b18bbd4f8e041b68d713a9a893d0b817f8ff30c880795d6f4
 docker: quay.io/biocontainers/bioconductor-rnagilentdesign028282.db
-aliases:

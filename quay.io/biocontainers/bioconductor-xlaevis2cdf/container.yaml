@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:00b866ddb1bfacbb6b5ba62b3086df4b2b0200a40d567af1b80f270d1868de71
 docker: quay.io/biocontainers/bioconductor-xlaevis2cdf
-aliases:

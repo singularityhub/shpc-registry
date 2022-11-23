@@ -6,4 +6,3 @@ latest:
 tags:
   1.6.0--r41hdfd78af_1: sha256:62a1f4bf862fb3c506271d2ec187fa2c71314de1a9af39273027e11870cf9994
 docker: quay.io/biocontainers/bioconductor-spqndata
-aliases:

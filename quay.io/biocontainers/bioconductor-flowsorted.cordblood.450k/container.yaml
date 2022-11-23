@@ -6,4 +6,3 @@ latest:
 tags:
   1.22.0--r41hdfd78af_1: sha256:558eb1480c5270b00ab1ae29008d2239a3f5c3f774c174dbd90126c186c3e443
 docker: quay.io/biocontainers/bioconductor-flowsorted.cordblood.450k
-aliases:

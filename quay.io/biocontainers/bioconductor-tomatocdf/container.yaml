@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:50957b3f809421f6d9719b93aae2aab8b17aefa3443ce48207d4854755760c3b
   2.18.0--r41hdfd78af_10: sha256:3b0104ca907d8a7639002c6e446f27cef8ad6d5b5287d0e786485540b64c6dbb
 docker: quay.io/biocontainers/bioconductor-tomatocdf
-aliases:

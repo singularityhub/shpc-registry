@@ -7,4 +7,3 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:eac7649680789b8e03d22a903721a563fc57bb3340c8129da2a600da74799e53
   1.30.0--r42hdfd78af_0: sha256:8eddca6e871fe7529377366524d859451e8a22987a3afaa207aad52faa9b75d3
 docker: quay.io/biocontainers/bioconductor-diggitdata
-aliases:

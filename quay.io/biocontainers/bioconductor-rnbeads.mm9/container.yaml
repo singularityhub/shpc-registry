@@ -6,4 +6,3 @@ latest:
 tags:
   1.26.0--r41hdfd78af_1: sha256:632a7104529b462dbabce50d1ff43a01fc9b6ff9f3383f49e1bdde747db47fd6
 docker: quay.io/biocontainers/bioconductor-rnbeads.mm9
-aliases:

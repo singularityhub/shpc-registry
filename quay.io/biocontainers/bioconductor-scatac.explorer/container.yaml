@@ -7,4 +7,3 @@ tags:
   1.0.1--r41hdfd78af_1: sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5
   1.4.0--r42hdfd78af_0: sha256:cc4501d2bd8fbba963f5093514a9fde1b610caa40d23a15c19b0127653acd8f4
 docker: quay.io/biocontainers/bioconductor-scatac.explorer
-aliases:

@@ -6,4 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_1: sha256:58490534e96ddfc4cf46947c800843657754c1ae93c35ce1adbc948f45e4c30b
 docker: quay.io/biocontainers/bioconductor-mmappr2data
-aliases:

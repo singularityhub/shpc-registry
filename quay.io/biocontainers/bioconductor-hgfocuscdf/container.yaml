@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:3d739305f69203437bd59fae897fd396403ab6b1a069709c691cfccc46cb708f
   2.18.0--r42hdfd78af_10: sha256:41a2d360893e276b945483e7b9e12c3b675b024612e6e1953d185cd6302038b7
 docker: quay.io/biocontainers/bioconductor-hgfocuscdf
-aliases:

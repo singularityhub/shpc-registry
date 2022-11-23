@@ -6,4 +6,3 @@ latest:
 tags:
   3.4.0--r41hdfd78af_9: sha256:0cba5e59ed71c99dacf727da82f898548f06c1799c8b2d8eb79e793301ad1892
 docker: quay.io/biocontainers/bioconductor-h10kcod.db
-aliases:

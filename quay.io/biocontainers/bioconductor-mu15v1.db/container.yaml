@@ -7,4 +7,3 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:d4070b8cf568f63d4d6dd481d7307ba1d3ad719c343dfa86215cdcaec7bd95a5
   3.2.3--r42hdfd78af_10: sha256:9d62035f257bcc83b81bfbc6fb524809e4d498b57bc1d37bf3460cf5d835458a
 docker: quay.io/biocontainers/bioconductor-mu15v1.db
-aliases:
