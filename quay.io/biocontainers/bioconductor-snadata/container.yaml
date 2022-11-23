@@ -6,4 +6,3 @@ latest:
 tags:
   1.40.0--r41hdfd78af_1: sha256:f240f78ad6def4226e57a2db88c968acc15c33b8f835f19e6399082a8db620b6
 docker: quay.io/biocontainers/bioconductor-snadata
-aliases:

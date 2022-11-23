@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:4edfa5ab04a005a6e5befd561f90d54bc1d9dd73fdf0cfa69deecd6db5f7eea0
 docker: quay.io/biocontainers/bioconductor-cyp450cdf
-aliases:

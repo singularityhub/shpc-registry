@@ -7,4 +7,3 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:3b71b0bcf818b6e0bc98684602920f304e6972d0f98b58c525e459a0bec27101
   0.35.0--r42hdfd78af_0: sha256:9d2bd34842d12a59f65c879b66a67b129c91ce4a209180060512ac6bcbcd83d0
 docker: quay.io/biocontainers/bioconductor-yeastrnaseq
-aliases:

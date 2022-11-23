@@ -6,4 +6,3 @@ latest:
 tags:
   1.26.0--r41hdfd78af_9: sha256:c388b903928c73297e546a4dbbd0b1be00424be620aba7fa89f3c45c544da77b
 docker: quay.io/biocontainers/bioconductor-illuminaratv1.db
-aliases:

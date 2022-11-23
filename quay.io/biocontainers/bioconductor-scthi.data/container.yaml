@@ -7,4 +7,3 @@ tags:
   1.6.0--r41hdfd78af_1: sha256:28fe2920b3764df74caa1555ddd4ac2f7e30ce7107225aace3ffc96990d457b6
   1.9.0--r42hdfd78af_0: sha256:b12e69292590b3f16329e5f57b34d8f1ce01eab56c297e1393411a365907910c
 docker: quay.io/biocontainers/bioconductor-scthi.data
-aliases:

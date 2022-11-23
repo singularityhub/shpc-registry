@@ -6,4 +6,3 @@ latest:
 tags:
   1.22.0--r41hdfd78af_1: sha256:fdbb54ba14770c47aed0de81da2003546587a533a09e06f5b98603032c4a0222
 docker: quay.io/biocontainers/bioconductor-diffloopdata
-aliases:

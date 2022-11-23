@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:af76ac3fc02a482dd58ba7f9fcefc6166aee9b49a5af46749823a3f3058b11aa
 docker: quay.io/biocontainers/bioconductor-hugene10stv1probe
-aliases:

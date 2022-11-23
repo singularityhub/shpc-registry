@@ -6,4 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_1: sha256:7fea50e299c4f84f96ade804b29fd45795c23aeaf7a65038418e474c21eeef50
 docker: quay.io/biocontainers/bioconductor-rnamodr.data
-aliases:

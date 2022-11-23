@@ -6,4 +6,3 @@ latest:
 tags:
   1.26.0--r41hdfd78af_9: sha256:78a035b8985bdbc363c9c0fae219c81c133f27e00bfa0aaff242eddca1d259c3
 docker: quay.io/biocontainers/bioconductor-illuminamousev1p1.db
-aliases:

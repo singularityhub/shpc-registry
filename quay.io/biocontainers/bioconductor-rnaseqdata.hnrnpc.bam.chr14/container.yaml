@@ -7,4 +7,3 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:1c6f6e5c2657229810f1ed8e5da4ddfa95747bf39e867fd755b358062478e74d
   0.35.0--r42hdfd78af_0: sha256:0e2c5a2a5094de8be31c23c468539755df04befa2238fd598f9b3bccf32ba0b3
 docker: quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14
-aliases:

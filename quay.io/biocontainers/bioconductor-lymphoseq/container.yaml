@@ -7,4 +7,3 @@ tags:
   1.22.0--r41hdfd78af_0: sha256:2ffc4e4b0075dad7b827bdecc5f00cc378fc7afd711fa3b7ee8a568f8af648c6
   1.26.0--r42hdfd78af_0: sha256:b47be6be0d1c98dc47d665375f1896b46256930c01703de0faded78ea3b460d8
 docker: quay.io/biocontainers/bioconductor-lymphoseq
-aliases:

@@ -7,4 +7,3 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5
   1.26.0--r42hdfd78af_0: sha256:01741c4ad08e0e02ddb16fdfced7173b894914defb81050ee25559fd24450713
 docker: quay.io/biocontainers/bioconductor-prostatecancerstockholm
-aliases:

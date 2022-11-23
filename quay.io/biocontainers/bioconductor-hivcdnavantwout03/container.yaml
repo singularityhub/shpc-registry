@@ -6,4 +6,3 @@ latest:
 tags:
   1.34.0--r41hdfd78af_1: sha256:adeabecd005cc86cdae547f012db1c0cf4ffa68eb91f0449d8e0b35c175a78b4
 docker: quay.io/biocontainers/bioconductor-hivcdnavantwout03
-aliases:

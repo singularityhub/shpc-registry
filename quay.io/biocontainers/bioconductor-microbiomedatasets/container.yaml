@@ -7,4 +7,3 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:588aab014b525964c9cb5e62e383f415bc351ac5d63230163ebe3e7395e5db35
   1.6.0--r42hdfd78af_0: sha256:003ae99c5b02d390e7f11b929ec886629e65d6a17df6d2ff44842b0fda3d0f2d
 docker: quay.io/biocontainers/bioconductor-microbiomedatasets
-aliases:

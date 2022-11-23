@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:4e681b739520ec5db6d4414c46f7470cbfaaff280a91413791b4c3315bfb7fa0
   2.18.0--r42hdfd78af_10: sha256:a62d94b1122d02f31aa5f695f6f68bd698dd5649db776f249b07f1c401615c31
 docker: quay.io/biocontainers/bioconductor-drosophila2probe
-aliases:

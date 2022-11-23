@@ -7,4 +7,3 @@ tags:
   1.8.0--r41hdfd78af_1: sha256:50c5643a32be5d5544a3d6e4b288ef94e550e9e10535f25c76bcce22eed27946
   1.12.0--r42hdfd78af_0: sha256:7c3c5a2d309e69315a0370e057663cf299111cca342d5648cdf70df7f1769b68
 docker: quay.io/biocontainers/bioconductor-tenxbusdata
-aliases:

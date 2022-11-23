@@ -8,4 +8,3 @@ tags:
   1.30.0--r42hdfd78af_1: sha256:104a2c694832ab3125dbac174c35983932c671005491d2c0178136df6a7188d7
   1.29.0--r42hdfd78af_0: sha256:396fa1e4bb878b8dcde23b059ae7d3ed03750bed6d0b9fed04f25b513dd61f7f
 docker: quay.io/biocontainers/bioconductor-seq2pathway.data
-aliases:

@@ -7,4 +7,3 @@ tags:
   3.4.0--r41hdfd78af_9: sha256:e32cc5b960ce529805f1dd88d9612768249976a143fa5af5dba07afdc55f5e19
   3.4.0--r42hdfd78af_10: sha256:5ceb4a42ce1d9bde9ec49a0d824b9f16f02b1dbaaa0a2ecd47458b1266bdb16c
 docker: quay.io/biocontainers/bioconductor-nugomm1a520177probe
-aliases:

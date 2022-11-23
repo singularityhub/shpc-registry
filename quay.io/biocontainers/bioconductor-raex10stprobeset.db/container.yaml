@@ -6,4 +6,3 @@ latest:
 tags:
   8.8.0--r41hdfd78af_1: sha256:deaa23172e8e069fcbd1ce35643f822183ed02543fbfab9c0c9b959c7c0a5f53
 docker: quay.io/biocontainers/bioconductor-raex10stprobeset.db
-aliases:

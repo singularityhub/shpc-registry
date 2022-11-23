@@ -7,4 +7,3 @@ tags:
   1.22.0--r41hdfd78af_9: sha256:265552b04065ab345fec13af65bffd564819ad9f410395748df42374a6c1bd4d
   1.22.0--r42hdfd78af_10: sha256:95ed76f20568ed883ea9c63b54dc0a22c36c0ef8ed376369b88d6b860c237279
 docker: quay.io/biocontainers/bioconductor-lumimouseall.db
-aliases:

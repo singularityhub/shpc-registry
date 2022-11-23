@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:14e413d05ee32c95284fec2eabe470ad6cf45094f61426cc81041a82409193bc
 docker: quay.io/biocontainers/bioconductor-cottonprobe
-aliases:

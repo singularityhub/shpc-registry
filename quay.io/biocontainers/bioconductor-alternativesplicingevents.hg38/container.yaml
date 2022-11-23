@@ -6,4 +6,3 @@ latest:
 tags:
   1.1.0--r41hdfd78af_1: sha256:422f33a3b7ec1f10c70a217bd879ecf29946a27f3ad293ca4ee513c6a8ddc639
 docker: quay.io/biocontainers/bioconductor-alternativesplicingevents.hg38
-aliases:

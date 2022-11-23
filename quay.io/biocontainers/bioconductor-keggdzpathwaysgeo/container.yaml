@@ -7,4 +7,3 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:62935199fcab49a780ac514e8d628866104088c31014d64ba6fee66faadf6147
   1.36.0--r42hdfd78af_0: sha256:3c25968acf1d2b90db39206a8649d9a0354f45d7ca465e5d942dd9800eb6ce09
 docker: quay.io/biocontainers/bioconductor-keggdzpathwaysgeo
-aliases:

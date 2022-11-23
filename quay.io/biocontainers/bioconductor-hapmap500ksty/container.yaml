@@ -6,4 +6,3 @@ latest:
 tags:
   1.36.0--r41hdfd78af_1: sha256:3bbeed4d0fee56ceaf8573720b599a10f29aee461f6b47b9c489b74c9365a25d
 docker: quay.io/biocontainers/bioconductor-hapmap500ksty
-aliases:

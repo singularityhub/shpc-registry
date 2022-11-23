@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:55a66039c401b8402ec75b6033ed2f2a43789f1c8533e2dab78e2f67423c350f
   2.18.0--r42hdfd78af_10: sha256:9cf7ccfe58ebaee402a9f213918f9af515f7e25bcfeba8ea69a31538d080c270
 docker: quay.io/biocontainers/bioconductor-canine2probe
-aliases:

@@ -7,4 +7,3 @@ tags:
   1.22.0--r41hdfd78af_9: sha256:075ea54a967e0281f167808240ffe6aa8789b7a10e56db8b807d42adcf51e2be
   1.22.0--r42hdfd78af_10: sha256:87d7c05c556e10057645b93809dc7047f5c456dd5e7b2c05b1c65d655343ad38
 docker: quay.io/biocontainers/bioconductor-lumiratall.db
-aliases:

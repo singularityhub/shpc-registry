@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:cec0c6d05ce08e195140488df3e609f0e4352f1df8d49896902958eb4931bf3d
 docker: quay.io/biocontainers/bioconductor-tomatoprobe
-aliases:

@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:23f59f4548e233697b6439dbe98d36143cf438ed8d8764f90e758df6bf41e6ec
 docker: quay.io/biocontainers/bioconductor-ecolicdf
-aliases:

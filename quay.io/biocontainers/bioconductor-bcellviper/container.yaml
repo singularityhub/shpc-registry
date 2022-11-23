@@ -7,4 +7,3 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:a8a979f5220e7eb2ef61d0d4cd6ebf98858ceefdc664194f671a86b366e88356
   1.34.0--r42hdfd78af_0: sha256:52390641f5268fa4545b1843a965893c2b121f0d661ec92e54cb10c4f55cc28c
 docker: quay.io/biocontainers/bioconductor-bcellviper
-aliases:

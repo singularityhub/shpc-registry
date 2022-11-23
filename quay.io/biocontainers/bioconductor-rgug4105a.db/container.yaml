@@ -7,4 +7,3 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:2852a1fc33340a7919ec7a7eda81703df5e68644a7b1c5e72413c0e3427639c4
   3.2.3--r42hdfd78af_10: sha256:e51d4b7375c3143a2ec1789681678376f299ccef06b8b5eb70deb86047784d5e
 docker: quay.io/biocontainers/bioconductor-rgug4105a.db
-aliases:

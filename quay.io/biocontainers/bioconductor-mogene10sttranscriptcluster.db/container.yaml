@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:7b838ea43880554867cf91bde089fc4a0a5f35020497c0de48528865af0f7acc
   8.8.0--r42hdfd78af_2: sha256:040fcb0f8d256a2b896f7eaf705c3a7e029086363f293ba9bf8e149b9c08e80f
 docker: quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db
-aliases:

@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:0b2d0be3e4a2d1984bcbe54c57e902452a7c69d09186037a9eb1899a0e166ed9
   2.18.0--r42hdfd78af_10: sha256:8322642e3a5caea1dd2cfafc945d940d4a0e0d0425236f325b16aea1514a5257
 docker: quay.io/biocontainers/bioconductor-barley1cdf
-aliases:

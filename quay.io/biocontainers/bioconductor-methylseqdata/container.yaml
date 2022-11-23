@@ -7,4 +7,3 @@ tags:
   1.4.0--r41hdfd78af_1: sha256:f8217659ae2f4a02126f93fa43be515f9fa3c77dbbf926d465cc5783008aca76
   1.8.0--r42hdfd78af_0: sha256:0d560c73780e20ee854ee683509dc85fa86258a96dcba284e6bbea91a49e8bdf
 docker: quay.io/biocontainers/bioconductor-methylseqdata
-aliases:

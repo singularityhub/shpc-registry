@@ -6,4 +6,3 @@ latest:
 tags:
   0.99.20--r41hdfd78af_9: sha256:8cb827ce1d43f1289b2178941ad72e206db2f026bdd81d06cf1ece69576d3e95
 docker: quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38
-aliases:

@@ -7,4 +7,3 @@ tags:
   1.6.0--r41hdfd78af_1: sha256:b7713835449de27a5dee8699ff583723b9bba6ae2c28f756b7477ab794b2b169
   1.9.0--r42hdfd78af_0: sha256:eb917b94b3562dbc44f8def14895e4c335986eed0f2433f736ac45e5654df15b
 docker: quay.io/biocontainers/bioconductor-curatedadipoarray
-aliases:

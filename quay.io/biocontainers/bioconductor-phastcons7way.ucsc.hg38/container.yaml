@@ -6,4 +6,3 @@ latest:
 tags:
   3.7.1--r41hdfd78af_9: sha256:327397242ab9fa4b839ba8dbc219ad72f094ab3d5df1b848fbc5f0dfd751e014
 docker: quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38
-aliases:

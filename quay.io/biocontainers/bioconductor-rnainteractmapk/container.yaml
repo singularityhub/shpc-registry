@@ -6,4 +6,3 @@ latest:
 tags:
   1.32.0--r41hdfd78af_1: sha256:b3f26e05b6c5509bf4f4d6865d9d2dcb6a1470fd2273ea100c78bfd47343bf1f
 docker: quay.io/biocontainers/bioconductor-rnainteractmapk
-aliases:

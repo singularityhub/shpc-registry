@@ -6,4 +6,3 @@ latest:
 tags:
   1.22.3--r41hdfd78af_0: sha256:1045ce6e1888787ce3db5063c539bc2ac05db4a96d5b74d70fc41a4a5d8fa7e1
 docker: quay.io/biocontainers/bioconductor-systempiperdata
-aliases:

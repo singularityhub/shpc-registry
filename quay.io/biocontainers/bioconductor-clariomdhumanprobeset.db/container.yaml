@@ -7,4 +7,3 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:d47880b8f643a2874c3c08e624c3f26dcdcc3d7a2da206edc55cb83d1149e746
   8.8.0--r42hdfd78af_2: sha256:336f059a64768bc7c64ff411ea90ee61a6e68e98e399716e3fc707bcc99eb91f
 docker: quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db
-aliases:

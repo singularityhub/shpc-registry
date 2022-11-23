@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:05df9afc6c5bf9dbf5a3499a9e8db523a2cb693f18b70a07dc8788098893fe69
 docker: quay.io/biocontainers/bioconductor-hthgu133aprobe
-aliases:

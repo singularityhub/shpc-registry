@@ -6,4 +6,3 @@ latest:
 tags:
   1.36.0--r41hdfd78af_1: sha256:5ee88a68d7dee3ffaf53b6da2f63f9c545f13b9224a23d773baa3e6cff8bfe77
 docker: quay.io/biocontainers/bioconductor-spikein
-aliases:

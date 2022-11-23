@@ -6,4 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_1: sha256:c51c625abb23cbe024deab39ec25e8d217acf871078ec16255b47bbd4cebebf9
 docker: quay.io/biocontainers/bioconductor-pwrewas.data
-aliases:

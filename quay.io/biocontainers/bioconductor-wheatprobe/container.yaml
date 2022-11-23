@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:444bc9708fc582c5b519ca4fbdb92fcc829faf9af66cbfa31450581eba8a89bb
   2.18.0--r41hdfd78af_10: sha256:386bd3a3324603becaad34c3e8d9ebe2c7546b798b452533383febcbc147f872
 docker: quay.io/biocontainers/bioconductor-wheatprobe
-aliases:

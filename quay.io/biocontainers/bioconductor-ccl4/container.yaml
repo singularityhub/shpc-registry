@@ -6,4 +6,3 @@ latest:
 tags:
   1.32.0--r41hdfd78af_1: sha256:a9e1000eb408d4049581a6ca61e7f867263d59f06be6eec545ca0814678549f6
 docker: quay.io/biocontainers/bioconductor-ccl4
-aliases:

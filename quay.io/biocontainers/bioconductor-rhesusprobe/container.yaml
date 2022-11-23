@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:0032667df49fc7e5f7ddb10fab0ccd0b1f4c80a5ab8940f15b459b86d001cfed
   2.18.0--r42hdfd78af_10: sha256:073f4252fb6d339f8cd82b72a06362edaddeee2a8f2f7fb72bb911f5dbbd3ec1
 docker: quay.io/biocontainers/bioconductor-rhesusprobe
-aliases:

@@ -7,4 +7,3 @@ tags:
   1.4.1--r41hdfd78af_9: sha256:4f26d92cafe0dac833df9a49c0b90e65423f48cbee9b8cf82abbf30498151495
   1.4.1--r42hdfd78af_10: sha256:7ebfdfa2d7177c31308936e2e51ff394cef4d46f723eb5cb2652224538faa788
 docker: quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db
-aliases:

@@ -7,4 +7,3 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:dc94d743d7dc00051d265e8a854e96b49ca494af216c3213408017ecce1e283e
   1.36.0--r42hdfd78af_0: sha256:a9b7e8a0b19f5da04d987c5fb198d501567381c236c266b586f5b28752804da3
 docker: quay.io/biocontainers/bioconductor-chimphumanbraindata
-aliases:

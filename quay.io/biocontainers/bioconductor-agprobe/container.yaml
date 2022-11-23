@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e
   2.18.0--r42hdfd78af_10: sha256:cd0a57223a70af9ec8353a06be09cbbcfb1c8a1fb3d3aaa4557a88386288694d
 docker: quay.io/biocontainers/bioconductor-agprobe
-aliases:

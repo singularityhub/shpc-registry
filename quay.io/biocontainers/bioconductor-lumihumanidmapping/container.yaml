@@ -6,4 +6,3 @@ latest:
 tags:
   1.10.1--r41hdfd78af_9: sha256:fb190bbfd75333dc8d18614711639135d3fafc8c0727877163678dd6cf5a3bca
 docker: quay.io/biocontainers/bioconductor-lumihumanidmapping
-aliases:

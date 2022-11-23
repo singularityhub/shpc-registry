@@ -7,4 +7,3 @@ tags:
   1.0.0--r41hdfd78af_0: sha256:e5d3c687d59af5894c636267cc0b423a2d97c7583aa876e96ee32e69ffd9f790
   1.4.0--r42hdfd78af_0: sha256:8f1439ea42c2d6539c0112a752fe6578e522eea0e2cc0bed0e579347af694dfc
 docker: quay.io/biocontainers/bioconductor-rgenometracks
-aliases:

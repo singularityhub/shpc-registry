@@ -6,4 +6,3 @@ latest:
 tags:
   1.26.0--r41hdfd78af_1: sha256:8fdc532945c19b531a400ff8ca15c7f1885bd8c494c387e5bdbde36d14fd045a
 docker: quay.io/biocontainers/bioconductor-svm2crmdata
-aliases:

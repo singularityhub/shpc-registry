@@ -6,4 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_1: sha256:52e8265bb114fa1b72e55d800a0feb8f48e28aaa2659684cf6889ce731a66ef2
 docker: quay.io/biocontainers/bioconductor-tcgamethylation450k
-aliases:

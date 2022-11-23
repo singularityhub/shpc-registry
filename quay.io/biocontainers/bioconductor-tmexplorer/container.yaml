@@ -7,4 +7,3 @@ tags:
   1.4.0--r41hdfd78af_1: sha256:67a00176f095280bc961c04f779720c36ef808f17aacf2f7930935b5a77471b7
   1.8.0--r42hdfd78af_0: sha256:46e045e21a5459674699a89e65f9f85b1686d6f691f38f40b91a59cd8e2648fa
 docker: quay.io/biocontainers/bioconductor-tmexplorer
-aliases:

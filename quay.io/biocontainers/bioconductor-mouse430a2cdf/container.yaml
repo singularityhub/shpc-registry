@@ -7,4 +7,3 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:b250d611d0cfc740524083dfb3d33357bf3fa946473487ab795c010e184d2c8f
   2.18.0--r42hdfd78af_10: sha256:2301399353bc1b7b8e85a554231ae0f8c32b71d7f92999a796186f1586f802d7
 docker: quay.io/biocontainers/bioconductor-mouse430a2cdf
-aliases:

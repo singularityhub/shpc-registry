@@ -8,4 +8,3 @@ tags:
   1.28.0--r42hdfd78af_0: sha256:d9e0ddc2b414f9b4943a1d22052b4aff3d06d93b1a7a5a720f069412334f4966
   1.27.0--r42hdfd78af_0: sha256:440451d920163e217be7fec549afd3d60c54230fc6f1e72a637e0817a756a182
 docker: quay.io/biocontainers/bioconductor-mircompdata
-aliases:

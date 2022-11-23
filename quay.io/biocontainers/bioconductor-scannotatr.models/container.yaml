@@ -6,4 +6,3 @@ latest:
 tags:
   0.99.10--r41hdfd78af_1: sha256:93685c6c91e3c5d920eb33a867c9dc81d13161acbb28d80366a7748ec639156d
 docker: quay.io/biocontainers/bioconductor-scannotatr.models
-aliases:

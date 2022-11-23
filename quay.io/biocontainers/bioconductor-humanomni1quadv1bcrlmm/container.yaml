@@ -6,4 +6,3 @@ latest:
 tags:
   1.0.3--r41hdfd78af_9: sha256:15c13c93e95357ceacc2f389bbdaa8bc9aa2413422525b016a9fc62519992b70
 docker: quay.io/biocontainers/bioconductor-humanomni1quadv1bcrlmm
-aliases:

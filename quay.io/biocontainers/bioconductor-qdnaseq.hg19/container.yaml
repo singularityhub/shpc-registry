@@ -7,4 +7,3 @@ tags:
   1.24.0--r41hdfd78af_1: sha256:6a875f17066d84796dc27fa9e284a7281e1c4e113edcdee372dde9b9a752ffed
   1.28.0--r42hdfd78af_0: sha256:7862ffafb697e2bcaf58130c2533958c83016c17ee18b09ce917bfc8fde4ca91
 docker: quay.io/biocontainers/bioconductor-qdnaseq.hg19
-aliases:

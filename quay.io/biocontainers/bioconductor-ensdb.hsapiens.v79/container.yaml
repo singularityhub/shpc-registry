@@ -6,4 +6,3 @@ latest:
 tags:
   2.99.0--r41hdfd78af_9: sha256:3e7aa889513382786c6a839af511ab577042c75a6945efb22cbabbe7d9a0a055
 docker: quay.io/biocontainers/bioconductor-ensdb.hsapiens.v79
-aliases:

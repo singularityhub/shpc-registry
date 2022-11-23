@@ -7,4 +7,3 @@ tags:
   1.15.0--r41hdfd78af_9: sha256:97b84881eb58246a8327bbd04536db5217baa22a5e41c5ece308f3e1856dd2a0
   1.15.0--r42hdfd78af_10: sha256:0e8f2922c6c42b28fadfebfc922c412256463568bf9d8eb37855d6ea35602c0e
 docker: quay.io/biocontainers/bioconductor-moexexonprobesetlocation
-aliases:

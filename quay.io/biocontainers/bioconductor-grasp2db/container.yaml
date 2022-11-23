@@ -7,4 +7,3 @@ tags:
   1.1.0--r41hdfd78af_9: sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3
   1.1.0--r41hdfd78af_10: sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659
 docker: quay.io/biocontainers/bioconductor-grasp2db
-aliases:

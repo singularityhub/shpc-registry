@@ -6,4 +6,3 @@ latest:
 tags:
   8.8.0--r41hdfd78af_1: sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a
 docker: quay.io/biocontainers/bioconductor-rta10probeset.db
-aliases:

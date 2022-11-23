@@ -8,4 +8,3 @@ tags:
   1.34.0--r42hdfd78af_1: sha256:bcb752a41e6f3539d6ddfb87dd96f72b55391d74ca595c00a614c6a0524e27b6
   1.33.0--r42hdfd78af_0: sha256:454c20900dc158b8d96ed1bd07575df0bbccff6d76c4adf41a69eb425988a825
 docker: quay.io/biocontainers/bioconductor-lungcanceracvssccgeo
-aliases:

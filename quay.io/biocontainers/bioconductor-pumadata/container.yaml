@@ -6,4 +6,3 @@ latest:
 tags:
   2.30.0--r41hdfd78af_1: sha256:a5534063f74e9200146e190842422dd010ac20653e4772fd5829a831e0faf6b1
 docker: quay.io/biocontainers/bioconductor-pumadata
-aliases:

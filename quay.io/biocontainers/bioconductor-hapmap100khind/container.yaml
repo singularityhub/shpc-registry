@@ -7,4 +7,3 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:b02c9bd0550c389e5f4de67deb905c2b85d1655f97a4e38ff25f89ce67385bb0
   1.39.0--r42hdfd78af_0: sha256:aece7f3a2cbf1e9584fdb518ed69e3ae8a6b42fa6ffbc57c72d1420ffd030c6f
 docker: quay.io/biocontainers/bioconductor-hapmap100khind
-aliases:

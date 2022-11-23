@@ -7,4 +7,3 @@ tags:
   2.99.0--r41hdfd78af_9: sha256:a6c67b571a999f7171c5b2c1cfa279c3b9c67c5f28a32ea7d601aa94cf675c2c
   2.99.0--r42hdfd78af_10: sha256:e0941a522ddd44803e56b63164498e05eb35537003df2b006aa4939445d14eca
 docker: quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75
-aliases:

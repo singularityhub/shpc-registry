@@ -6,4 +6,3 @@ latest:
 tags:
   2.18.0--r41hdfd78af_9: sha256:5d42e2b261697b8b6c2b8d3537f3a3ab3133f4f4565f4ffd1a89a813acb1f744
 docker: quay.io/biocontainers/bioconductor-xtropicaliscdf
-aliases:

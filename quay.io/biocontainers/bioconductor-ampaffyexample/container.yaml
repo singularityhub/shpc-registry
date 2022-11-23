@@ -7,4 +7,3 @@ tags:
   1.34.0--r41hdfd78af_1: sha256:96c253ff8daf0ffc130c90919c6468bd4dde82da9a55e94a35f90fcce86dfc4a
   1.38.0--r42hdfd78af_0: sha256:131067016f19f9bec67d546b949dc508a617a21e3835411aaa07c34b3dbcb26c
 docker: quay.io/biocontainers/bioconductor-ampaffyexample
-aliases:
