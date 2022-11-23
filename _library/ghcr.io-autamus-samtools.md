@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/samtools/container.yaml"
-updated_at: "2022-11-23 01:04:40.488074"
-latest: "1.14"
+updated_at: "2022-11-23 01:22:56.714331"
+latest: "1.15.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/samtools"
 aliases:
  - "blast2sam.pl"
@@ -27,8 +27,9 @@ versions:
  - "1.13"
  - "1.14"
  - "latest"
+ - "1.15.1"
 description: "Samtools is a suite of programs for interacting with high-throughput sequencing data."
-config: {"docker": "ghcr.io/autamus/samtools", "url": "https://github.com/orgs/autamus/packages/container/package/samtools", "maintainer": "@vsoch", "description": "Samtools is a suite of programs for interacting with high-throughput sequencing data.", "latest": {"1.14": "sha256:ce0e0331812a688224a4581ff2df2798030622ad3e3144a42576a443273dcae7"}, "tags": {"1.12": "sha256:607f8c72d534b7b3a637078d4557fae0262b567047840acd18ecc977b8a0d975", "1.13": "sha256:258d04d1c692f0e92852fa003c05b21d81894b49f6ee719b3b8e9b54996037a3", "1.14": "sha256:ce0e0331812a688224a4581ff2df2798030622ad3e3144a42576a443273dcae7", "latest": "sha256:ce0e0331812a688224a4581ff2df2798030622ad3e3144a42576a443273dcae7"}, "aliases": {"blast2sam.pl": "/opt/view/bin/blast2sam.pl", "bowtie2sam.pl": "/opt/view/bin/bowtie2sam.pl", "export2sam.pl": "/opt/view/bin/export2sam.pl", "fasta-sanitize.pl": "/opt/view/bin/fasta-sanitize.pl", "interpolate_sam.pl": "/opt/view/bin/interpolate_sam.pl", "novo2sam.pl": "/opt/view/bin/novo2sam.pl", "psl2sam.pl": "/opt/view/bin/psl2sam.pl", "sam2vcf.pl": "/opt/view/bin/sam2vcf.pl", "samtools": "/opt/view/bin/samtools", "samtools.pl": "/opt/view/bin/samtools.pl", "seq_cache_populate.pl": "/opt/view/bin/seq_cache_populate.pl", "soap2sam.pl": "/opt/view/bin/soap2sam.pl", "wgsim_eval.pl": "/opt/view/bin/wgsim_eval.pl", "zoom2sam.pl": "/opt/view/bin/zoom2sam.pl"}}
+config: {"docker": "ghcr.io/autamus/samtools", "url": "https://github.com/orgs/autamus/packages/container/package/samtools", "maintainer": "@vsoch", "description": "Samtools is a suite of programs for interacting with high-throughput sequencing data.", "latest": {"1.15.1": "sha256:6735fa0f1611f6e65dc3723faaab7d405bef0ce505983373933fcff755eec837"}, "tags": {"1.12": "sha256:607f8c72d534b7b3a637078d4557fae0262b567047840acd18ecc977b8a0d975", "1.13": "sha256:258d04d1c692f0e92852fa003c05b21d81894b49f6ee719b3b8e9b54996037a3", "1.14": "sha256:ce0e0331812a688224a4581ff2df2798030622ad3e3144a42576a443273dcae7", "latest": "sha256:6735fa0f1611f6e65dc3723faaab7d405bef0ce505983373933fcff755eec837", "1.15.1": "sha256:6735fa0f1611f6e65dc3723faaab7d405bef0ce505983373933fcff755eec837"}, "aliases": {"blast2sam.pl": "/opt/view/bin/blast2sam.pl", "bowtie2sam.pl": "/opt/view/bin/bowtie2sam.pl", "export2sam.pl": "/opt/view/bin/export2sam.pl", "fasta-sanitize.pl": "/opt/view/bin/fasta-sanitize.pl", "interpolate_sam.pl": "/opt/view/bin/interpolate_sam.pl", "novo2sam.pl": "/opt/view/bin/novo2sam.pl", "psl2sam.pl": "/opt/view/bin/psl2sam.pl", "sam2vcf.pl": "/opt/view/bin/sam2vcf.pl", "samtools": "/opt/view/bin/samtools", "samtools.pl": "/opt/view/bin/samtools.pl", "seq_cache_populate.pl": "/opt/view/bin/seq_cache_populate.pl", "soap2sam.pl": "/opt/view/bin/soap2sam.pl", "wgsim_eval.pl": "/opt/view/bin/wgsim_eval.pl", "zoom2sam.pl": "/opt/view/bin/zoom2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/samtools.
@@ -43,7 +44,7 @@ $ shpc install ghcr.io/autamus/samtools
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/samtools:1.14
+$ shpc install ghcr.io/autamus/samtools:1.15.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/samtools/1.14
-$ module help ghcr.io/autamus/samtools/1.14
+$ module load ghcr.io/autamus/samtools/1.15.1
+$ module help ghcr.io/autamus/samtools/1.15.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

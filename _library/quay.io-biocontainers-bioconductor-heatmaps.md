@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-heatmaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heatmaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heatmaps/container.yaml"
-updated_at: "2022-11-23 00:05:37.412466"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-23 00:15:02.885120"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heatmaps"
 aliases:
  - "mpichversion"
@@ -20,8 +20,13 @@ aliases:
  - "mpicc"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-heatmaps"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-heatmaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heatmaps", "latest": {"1.8.0--r36_1": "sha256:d0cdbe17b7eb6595ad73c356d714553f4a112ce66b2b6220f025bc075834c430"}, "tags": {"1.8.0--r36_1": "sha256:d0cdbe17b7eb6595ad73c356d714553f4a112ce66b2b6220f025bc075834c430"}, "docker": "quay.io/biocontainers/bioconductor-heatmaps", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-heatmaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heatmaps", "latest": {"1.22.0--r42hdfd78af_0": "sha256:564e5fe73a8de6f6362b1a3115cb202ace5d0b6569edd3c18f9caf3e54095bdf"}, "tags": {"1.8.0--r36_1": "sha256:d0cdbe17b7eb6595ad73c356d714553f4a112ce66b2b6220f025bc075834c430", "1.22.0--r42hdfd78af_0": "sha256:564e5fe73a8de6f6362b1a3115cb202ace5d0b6569edd3c18f9caf3e54095bdf", "1.18.0--r41hdfd78af_0": "sha256:28bbbe53f5e15a815f8d876c06ed3aba6088f42444cfe0cf8aafcf9ace1cb0ef", "1.16.0--r41hdfd78af_0": "sha256:2195e1889abb9b605cc2c8e7fe4bdabea2f1035a2cae1961f09eb0157b28be69", "1.14.0--r40hdfd78af_1": "sha256:ce52ac8de159558557ac4062272a69cb529a21958bfc071a0aecff5dffc7551c", "1.12.0--r40_0": "sha256:7bc20d3e05a921010f7778b1af005a83b59dcfc21f69d10341d35dd66e81af24"}, "docker": "quay.io/biocontainers/bioconductor-heatmaps", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-heatmaps.
@@ -36,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-heatmaps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-heatmaps:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-heatmaps:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-heatmaps/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-heatmaps/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-heatmaps/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-heatmaps/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

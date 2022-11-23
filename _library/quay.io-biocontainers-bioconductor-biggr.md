@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biggr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biggr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biggr/container.yaml"
-updated_at: "2022-11-23 00:29:18.183614"
+updated_at: "2022-11-23 00:41:58.066237"
 latest: "1.30.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biggr"
 aliases:

@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-celltrails"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celltrails/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celltrails/container.yaml"
-updated_at: "2022-11-23 00:06:05.671580"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-23 00:15:36.143872"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celltrails"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-celltrails"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-celltrails", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celltrails", "latest": {"1.8.0--r40hdfd78af_1": "sha256:a07ba68691a04cbfc70d9ff2c5da5ba5fed59788a834b7262590f82941d38254"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a07ba68691a04cbfc70d9ff2c5da5ba5fed59788a834b7262590f82941d38254"}, "docker": "quay.io/biocontainers/bioconductor-celltrails", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-celltrails", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celltrails", "latest": {"1.16.0--r42hdfd78af_0": "sha256:9931d79f1bb6d856a5a354c823621d8dc24e663e7a908d2b15c2f8971a6229db"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a07ba68691a04cbfc70d9ff2c5da5ba5fed59788a834b7262590f82941d38254", "1.16.0--r42hdfd78af_0": "sha256:9931d79f1bb6d856a5a354c823621d8dc24e663e7a908d2b15c2f8971a6229db", "1.12.0--r41hdfd78af_0": "sha256:a84debccee2236f6f1db176dc05e8ddc2695166fad9f0fadaa8fa62022f49805", "1.10.0--r41hdfd78af_0": "sha256:f64f7fe0a6c5ffb5eec35febe76d6206a887a30469f751e1d766aa4a61db82a7"}, "docker": "quay.io/biocontainers/bioconductor-celltrails", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-celltrails.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-celltrails
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-celltrails:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-celltrails:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-celltrails/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-celltrails/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-celltrails/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-celltrails/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

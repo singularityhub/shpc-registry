@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-spectraltad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spectraltad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spectraltad/container.yaml"
-updated_at: "2022-11-23 00:31:59.194391"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-23 00:45:00.971305"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spectraltad"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spectraltad"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spectraltad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spectraltad", "latest": {"1.8.0--r41hdfd78af_0": "sha256:4a906e8185d7249a67d79d13cc82ee7e3cc6f40a902a5d567929133eac5f94da"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4a906e8185d7249a67d79d13cc82ee7e3cc6f40a902a5d567929133eac5f94da"}, "docker": "quay.io/biocontainers/bioconductor-spectraltad", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spectraltad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spectraltad", "latest": {"1.14.0--r42hdfd78af_0": "sha256:8e009a718ec0876b95e2515eb909319ad5ca081c522570ed05a235225d1e8540"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4a906e8185d7249a67d79d13cc82ee7e3cc6f40a902a5d567929133eac5f94da", "1.14.0--r42hdfd78af_0": "sha256:8e009a718ec0876b95e2515eb909319ad5ca081c522570ed05a235225d1e8540", "1.10.0--r41hdfd78af_0": "sha256:d964b718dbb08d0edd628fd5cf87dae2f491f21c9b3b32814bf64bf3aaf2261b"}, "docker": "quay.io/biocontainers/bioconductor-spectraltad", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spectraltad.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spectraltad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spectraltad:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spectraltad:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spectraltad/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spectraltad/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spectraltad/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spectraltad/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

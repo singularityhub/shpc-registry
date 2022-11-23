@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-xgr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xgr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xgr/container.yaml"
-updated_at: "2022-11-23 00:54:31.991524"
-latest: "1.1.7--r41h3342da4_3"
+updated_at: "2022-11-23 01:11:20.522884"
+latest: "1.1.7--r42h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-xgr"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.7--r41h3342da4_3"
+ - "1.1.7--r42h3342da4_4"
 description: "shpc-registry automated BioContainers addition for r-xgr"
-config: {"url": "https://biocontainers.pro/tools/r-xgr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xgr", "latest": {"1.1.7--r41h3342da4_3": "sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9"}, "docker": "quay.io/biocontainers/r-xgr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-xgr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xgr", "latest": {"1.1.7--r42h3342da4_4": "sha256:8657ea289a6d9f206b32c8d9fbb11ef1bcc65341d4b8a98769ceff78df592ec4"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9", "1.1.7--r42h3342da4_4": "sha256:8657ea289a6d9f206b32c8d9fbb11ef1bcc65341d4b8a98769ceff78df592ec4"}, "docker": "quay.io/biocontainers/r-xgr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-xgr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-xgr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-xgr:1.1.7--r41h3342da4_3
+$ shpc install quay.io/biocontainers/r-xgr:1.1.7--r42h3342da4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-xgr/1.1.7--r41h3342da4_3
-$ module help quay.io/biocontainers/r-xgr/1.1.7--r41h3342da4_3
+$ module load quay.io/biocontainers/r-xgr/1.1.7--r42h3342da4_4
+$ module help quay.io/biocontainers/r-xgr/1.1.7--r42h3342da4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

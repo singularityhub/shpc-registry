@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fission"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fission/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fission/container.yaml"
-updated_at: "2022-11-23 00:11:36.852251"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-23 00:22:00.236370"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fission"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fission"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fission", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fission", "latest": {"1.8.0--r40_0": "sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027"}, "tags": {"1.8.0--r40_0": "sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027"}, "docker": "quay.io/biocontainers/bioconductor-fission", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fission", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fission", "latest": {"1.18.0--r42hdfd78af_0": "sha256:c6d0ec11c8ebfe080802f58157e11f93d078cdc182d8eb1300d9638d8a898052"}, "tags": {"1.8.0--r40_0": "sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027", "1.18.0--r42hdfd78af_0": "sha256:c6d0ec11c8ebfe080802f58157e11f93d078cdc182d8eb1300d9638d8a898052", "1.14.0--r41hdfd78af_1": "sha256:53cb3d8e98cb253fdb402098e8455850bb38264b3b4790b7f3beab6b2114b543", "1.12.0--r41hdfd78af_0": "sha256:22fc0ca610882ca6ce4875156acd28f133481101f454d40815ccce7916a57f1b", "1.10.0--r40hdfd78af_1": "sha256:1c5650c989da96acd87e57dbf4c252d97633ea880444d5580f1cf6b49f2f6a2f"}, "docker": "quay.io/biocontainers/bioconductor-fission", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fission.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fission
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fission:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-fission:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fission/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-fission/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-fission/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fission/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

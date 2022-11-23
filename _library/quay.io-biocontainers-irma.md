@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irma/container.yaml"
-updated_at: "2022-11-23 00:13:08.609110"
+updated_at: "2022-11-23 00:23:46.144797"
 latest: "1.0.2--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/irma"
 aliases:

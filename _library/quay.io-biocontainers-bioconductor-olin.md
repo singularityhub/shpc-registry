@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-olin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-olin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-olin/container.yaml"
-updated_at: "2022-11-23 00:20:57.463936"
-latest: "1.72.0--r41hdfd78af_0"
+updated_at: "2022-11-23 00:32:37.432578"
+latest: "1.76.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-olin"
 
 versions:
  - "1.72.0--r41hdfd78af_0"
+ - "1.76.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-olin"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-olin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-olin", "latest": {"1.72.0--r41hdfd78af_0": "sha256:ce8dab1a2ef2b074415fdae13f592bd6c0f19a33e9bba989783303e69614921e"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:ce8dab1a2ef2b074415fdae13f592bd6c0f19a33e9bba989783303e69614921e"}, "docker": "quay.io/biocontainers/bioconductor-olin"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-olin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-olin", "latest": {"1.76.0--r42hdfd78af_0": "sha256:0373aef740b57f3d001269fe29ecdad5ae27aa9464a5b83f8aea5edd529e6205"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:ce8dab1a2ef2b074415fdae13f592bd6c0f19a33e9bba989783303e69614921e", "1.76.0--r42hdfd78af_0": "sha256:0373aef740b57f3d001269fe29ecdad5ae27aa9464a5b83f8aea5edd529e6205"}, "docker": "quay.io/biocontainers/bioconductor-olin"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-olin.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-olin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-olin:1.72.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-olin:1.76.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-olin/1.72.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-olin/1.72.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-olin/1.76.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-olin/1.76.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

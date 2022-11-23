@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/gffread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffread/container.yaml"
-updated_at: "2022-11-23 00:37:05.236897"
-latest: "0.9.9--1"
+updated_at: "2022-11-23 00:50:54.821813"
+latest: "0.12.7--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/gffread"
 aliases:
  - "gffread"
 versions:
  - "0.9.9--1"
+ - "0.12.7--hd03093a_1"
+ - "0.11.7--h8b12597_0"
+ - "0.9.12--0"
 description: "shpc-registry automated BioContainers addition for gffread"
-config: {"url": "https://biocontainers.pro/tools/gffread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffread", "latest": {"0.9.9--1": "sha256:419e1859e4fdd30217071a75fab40058e89aaaae142615d8102ac8985227e75f"}, "tags": {"0.9.9--1": "sha256:419e1859e4fdd30217071a75fab40058e89aaaae142615d8102ac8985227e75f"}, "docker": "quay.io/biocontainers/gffread", "aliases": {"gffread": "/usr/local/bin/gffread"}}
+config: {"url": "https://biocontainers.pro/tools/gffread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffread", "latest": {"0.12.7--hd03093a_1": "sha256:f46049f79cc002aaa23c31eb30b4ee7037c76c1429217a15792b242e0dbf365d"}, "tags": {"0.9.9--1": "sha256:419e1859e4fdd30217071a75fab40058e89aaaae142615d8102ac8985227e75f", "0.12.7--hd03093a_1": "sha256:f46049f79cc002aaa23c31eb30b4ee7037c76c1429217a15792b242e0dbf365d", "0.11.7--h8b12597_0": "sha256:90c4c2a33e2595b1788bf71e2db0d72fe6daa7e16893f9da81ccc4d8bb384457", "0.9.12--0": "sha256:8d14cc2f9d2b968bd7bfd92dde5800a2b10f14787547df8ad5e626ee69ff4154"}, "docker": "quay.io/biocontainers/gffread", "aliases": {"gffread": "/usr/local/bin/gffread"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gffread.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/gffread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gffread:0.9.9--1
+$ shpc install quay.io/biocontainers/gffread:0.12.7--hd03093a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gffread/0.9.9--1
-$ module help quay.io/biocontainers/gffread/0.9.9--1
+$ module load quay.io/biocontainers/gffread/0.12.7--hd03093a_1
+$ module help quay.io/biocontainers/gffread/0.12.7--hd03093a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

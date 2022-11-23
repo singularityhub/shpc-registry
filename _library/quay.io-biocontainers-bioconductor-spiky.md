@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-spiky"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spiky/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spiky/container.yaml"
-updated_at: "2022-11-23 00:29:52.106624"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-11-23 00:42:35.952820"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spiky"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spiky"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spiky", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spiky", "latest": {"1.0.0--r41hdfd78af_0": "sha256:22c2562868ab821d876a8a00179971de12f129724d0ccd72a9c40a4d32b77f0f"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:22c2562868ab821d876a8a00179971de12f129724d0ccd72a9c40a4d32b77f0f"}, "docker": "quay.io/biocontainers/bioconductor-spiky"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spiky", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spiky", "latest": {"1.4.0--r42hdfd78af_0": "sha256:102b1f5c0cde79383ba1e1196de723e304ed053ef7bc0baf1af8cdd0d726a3a2"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:22c2562868ab821d876a8a00179971de12f129724d0ccd72a9c40a4d32b77f0f", "1.4.0--r42hdfd78af_0": "sha256:102b1f5c0cde79383ba1e1196de723e304ed053ef7bc0baf1af8cdd0d726a3a2"}, "docker": "quay.io/biocontainers/bioconductor-spiky"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spiky.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spiky
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spiky:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spiky:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spiky/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spiky/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spiky/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spiky/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

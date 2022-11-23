@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tfea.chip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tfea.chip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tfea.chip/container.yaml"
-updated_at: "2022-11-23 00:28:58.077465"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-23 00:41:36.085074"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tfea.chip"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-tfea.chip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tfea.chip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tfea.chip", "latest": {"1.8.0--r40_0": "sha256:4c4407505e36645eada6e683f6377280155443bce56fd9d9311029c363601c05"}, "tags": {"1.8.0--r40_0": "sha256:4c4407505e36645eada6e683f6377280155443bce56fd9d9311029c363601c05"}, "docker": "quay.io/biocontainers/bioconductor-tfea.chip", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tfea.chip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tfea.chip", "latest": {"1.18.0--r42hdfd78af_0": "sha256:bea8408cd9ff3170ded9ce976a9a5a474e44de92f8c240a63e005e2c55c45ffd"}, "tags": {"1.8.0--r40_0": "sha256:4c4407505e36645eada6e683f6377280155443bce56fd9d9311029c363601c05", "1.18.0--r42hdfd78af_0": "sha256:bea8408cd9ff3170ded9ce976a9a5a474e44de92f8c240a63e005e2c55c45ffd", "1.14.0--r41hdfd78af_0": "sha256:16577110f66620b95451a347a9c5492904d0ea9da6c7bc1e4f5d5f9c45fdc754", "1.12.0--r41hdfd78af_0": "sha256:89b4fbc2a1b6500448f5a34aa06c0e3e33dfe83512303c6abbab82fa2ceac78b", "1.10.0--r40hdfd78af_1": "sha256:140b3c5ab69b90ce1d6cff7a3f7f1b50a54efbd0f0a0bed198db80638639c9ad"}, "docker": "quay.io/biocontainers/bioconductor-tfea.chip", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tfea.chip.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tfea.chip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tfea.chip:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-tfea.chip:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tfea.chip/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-tfea.chip/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-tfea.chip/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tfea.chip/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

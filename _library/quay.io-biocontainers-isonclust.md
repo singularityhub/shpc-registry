@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/isonclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isonclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isonclust/container.yaml"
-updated_at: "2022-11-23 00:45:55.052338"
+updated_at: "2022-11-23 01:01:13.775352"
 latest: "0.0.6.1--py_0"
 container_url: "https://biocontainers.pro/tools/isonclust"
 
 versions:
  - "0.0.6.1--py_0"
+ - "0.0.6--py_1"
 description: "shpc-registry automated BioContainers addition for isonclust"
-config: {"url": "https://biocontainers.pro/tools/isonclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isonclust", "latest": {"0.0.6.1--py_0": "sha256:f295ecaafb2fb55097b8a3f8196ea1db819476b870788b6a7c65beb597da70f7"}, "tags": {"0.0.6.1--py_0": "sha256:f295ecaafb2fb55097b8a3f8196ea1db819476b870788b6a7c65beb597da70f7"}, "docker": "quay.io/biocontainers/isonclust"}
+config: {"url": "https://biocontainers.pro/tools/isonclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isonclust", "latest": {"0.0.6.1--py_0": "sha256:f295ecaafb2fb55097b8a3f8196ea1db819476b870788b6a7c65beb597da70f7"}, "tags": {"0.0.6.1--py_0": "sha256:f295ecaafb2fb55097b8a3f8196ea1db819476b870788b6a7c65beb597da70f7", "0.0.6--py_1": "sha256:4c2cc9683c76181106361a7470b46b70e715fb50de6810e66adacc90a9691ad6"}, "docker": "quay.io/biocontainers/isonclust"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isonclust.

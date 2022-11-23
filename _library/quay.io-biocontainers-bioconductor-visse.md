@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-visse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-visse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-visse/container.yaml"
-updated_at: "2022-11-23 01:03:30.445379"
+updated_at: "2022-11-23 01:21:35.668390"
 latest: "1.2.2--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-visse"
 

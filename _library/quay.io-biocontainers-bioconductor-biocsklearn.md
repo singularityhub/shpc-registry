@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocsklearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocsklearn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocsklearn/container.yaml"
-updated_at: "2022-11-23 00:33:43.671174"
+updated_at: "2022-11-23 00:47:02.093240"
 latest: "1.16.0--py38r41h22d1e0a_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocsklearn"
 aliases:

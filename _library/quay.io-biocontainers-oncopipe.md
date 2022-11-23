@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oncopipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncopipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncopipe/container.yaml"
-updated_at: "2022-11-23 00:21:12.809168"
-latest: "1.0.8--py_0"
+updated_at: "2022-11-23 00:32:54.790236"
+latest: "1.0.11--py_0"
 container_url: "https://biocontainers.pro/tools/oncopipe"
 aliases:
  - "snakemake"
@@ -20,8 +20,9 @@ aliases:
  - "pyrsa-sign"
 versions:
  - "1.0.8--py_0"
+ - "1.0.11--py_0"
 description: "shpc-registry automated BioContainers addition for oncopipe"
-config: {"url": "https://biocontainers.pro/tools/oncopipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncopipe", "latest": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "tags": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "docker": "quay.io/biocontainers/oncopipe", "aliases": {"snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign"}}
+config: {"url": "https://biocontainers.pro/tools/oncopipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncopipe", "latest": {"1.0.11--py_0": "sha256:854d5ab4caafd6abddf1aea388cfb1f05f00fd5e2bc865fac125773cd0e2510c"}, "tags": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266", "1.0.11--py_0": "sha256:854d5ab4caafd6abddf1aea388cfb1f05f00fd5e2bc865fac125773cd0e2510c"}, "docker": "quay.io/biocontainers/oncopipe", "aliases": {"snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oncopipe.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/oncopipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oncopipe:1.0.8--py_0
+$ shpc install quay.io/biocontainers/oncopipe:1.0.11--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oncopipe/1.0.8--py_0
-$ module help quay.io/biocontainers/oncopipe/1.0.8--py_0
+$ module load quay.io/biocontainers/oncopipe/1.0.11--py_0
+$ module help quay.io/biocontainers/oncopipe/1.0.11--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

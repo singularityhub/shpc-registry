@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-statvisual"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-statvisual/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-statvisual/container.yaml"
-updated_at: "2022-11-23 01:00:12.784565"
-latest: "1.2.1--r41h3342da4_3"
+updated_at: "2022-11-23 01:17:49.480312"
+latest: "1.2.1--r42h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-statvisual"
 aliases:
  - "pandoc"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.2.1--r41h3342da4_3"
+ - "1.2.1--r42h3342da4_4"
 description: "shpc-registry automated BioContainers addition for r-statvisual"
-config: {"url": "https://biocontainers.pro/tools/r-statvisual", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-statvisual", "latest": {"1.2.1--r41h3342da4_3": "sha256:0e4ce10e44f6b84478f7741885d6e1a8d393c1814972c0cc3319b5edfd878d30"}, "tags": {"1.2.1--r41h3342da4_3": "sha256:0e4ce10e44f6b84478f7741885d6e1a8d393c1814972c0cc3319b5edfd878d30"}, "docker": "quay.io/biocontainers/r-statvisual", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-statvisual", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-statvisual", "latest": {"1.2.1--r42h3342da4_4": "sha256:3bbf07b24a98f99246030d18fd5a98a416a15c7afb0aa9d0f84fe4599fc6f6d9"}, "tags": {"1.2.1--r41h3342da4_3": "sha256:0e4ce10e44f6b84478f7741885d6e1a8d393c1814972c0cc3319b5edfd878d30", "1.2.1--r42h3342da4_4": "sha256:3bbf07b24a98f99246030d18fd5a98a416a15c7afb0aa9d0f84fe4599fc6f6d9"}, "docker": "quay.io/biocontainers/r-statvisual", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-statvisual.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-statvisual
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-statvisual:1.2.1--r41h3342da4_3
+$ shpc install quay.io/biocontainers/r-statvisual:1.2.1--r42h3342da4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-statvisual/1.2.1--r41h3342da4_3
-$ module help quay.io/biocontainers/r-statvisual/1.2.1--r41h3342da4_3
+$ module load quay.io/biocontainers/r-statvisual/1.2.1--r42h3342da4_4
+$ module help quay.io/biocontainers/r-statvisual/1.2.1--r42h3342da4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

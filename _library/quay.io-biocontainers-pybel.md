@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybel/container.yaml"
-updated_at: "2022-11-23 00:05:26.424342"
-latest: "0.9.3--py27_1"
+updated_at: "2022-11-23 00:14:49.892715"
+latest: "0.13.2--py_0"
 container_url: "https://biocontainers.pro/tools/pybel"
 aliases:
  - "geoff"
@@ -26,8 +26,9 @@ aliases:
  - "python2"
 versions:
  - "0.9.3--py27_1"
+ - "0.13.2--py_0"
 description: "shpc-registry automated BioContainers addition for pybel"
-config: {"url": "https://biocontainers.pro/tools/pybel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybel", "latest": {"0.9.3--py27_1": "sha256:1e47a7882b3f9e6b4163a8ec2da0fc8d785068158c4df24f7b44dfe905d52aa1"}, "tags": {"0.9.3--py27_1": "sha256:1e47a7882b3f9e6b4163a8ec2da0fc8d785068158c4df24f7b44dfe905d52aa1"}, "docker": "quay.io/biocontainers/pybel", "aliases": {"geoff": "/usr/local/bin/geoff", "neokit": "/usr/local/bin/neokit", "p2n": "/usr/local/bin/p2n", "py2neo": "/usr/local/bin/py2neo", "pybel": "/usr/local/bin/pybel", "pyfiglet": "/usr/local/bin/pyfiglet", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "pygmentize": "/usr/local/bin/pygmentize", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
+config: {"url": "https://biocontainers.pro/tools/pybel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybel", "latest": {"0.13.2--py_0": "sha256:cc91a480851ed04d1a20d7f2d5ae04fa5ee8e00d9255a018c6cb7f68cf5d74d0"}, "tags": {"0.9.3--py27_1": "sha256:1e47a7882b3f9e6b4163a8ec2da0fc8d785068158c4df24f7b44dfe905d52aa1", "0.13.2--py_0": "sha256:cc91a480851ed04d1a20d7f2d5ae04fa5ee8e00d9255a018c6cb7f68cf5d74d0"}, "docker": "quay.io/biocontainers/pybel", "aliases": {"geoff": "/usr/local/bin/geoff", "neokit": "/usr/local/bin/neokit", "p2n": "/usr/local/bin/p2n", "py2neo": "/usr/local/bin/py2neo", "pybel": "/usr/local/bin/pybel", "pyfiglet": "/usr/local/bin/pyfiglet", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "pygmentize": "/usr/local/bin/pygmentize", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybel.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/pybel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybel:0.9.3--py27_1
+$ shpc install quay.io/biocontainers/pybel:0.13.2--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybel/0.9.3--py27_1
-$ module help quay.io/biocontainers/pybel/0.9.3--py27_1
+$ module load quay.io/biocontainers/pybel/0.13.2--py_0
+$ module help quay.io/biocontainers/pybel/0.13.2--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rae230bprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rae230bprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rae230bprobe/container.yaml"
-updated_at: "2022-11-23 00:34:08.102765"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-23 00:47:30.878237"
+latest: "2.18.0--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-rae230bprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-rae230bprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rae230bprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rae230bprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:362780265fc1de5a89f129c90cb43fef2ad7eaae31c5fac259a41ebb62dfe8ab"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:362780265fc1de5a89f129c90cb43fef2ad7eaae31c5fac259a41ebb62dfe8ab"}, "docker": "quay.io/biocontainers/bioconductor-rae230bprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rae230bprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rae230bprobe", "latest": {"2.18.0--r42hdfd78af_11": "sha256:2b50f0c6c25b533186cceb7d10038320c85cff947060422afa0be57d8b9c3e99"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:362780265fc1de5a89f129c90cb43fef2ad7eaae31c5fac259a41ebb62dfe8ab", "2.18.0--r42hdfd78af_11": "sha256:2b50f0c6c25b533186cceb7d10038320c85cff947060422afa0be57d8b9c3e99"}, "docker": "quay.io/biocontainers/bioconductor-rae230bprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rae230bprobe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rae230bprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rae230bprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-rae230bprobe:2.18.0--r42hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rae230bprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-rae230bprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-rae230bprobe/2.18.0--r42hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-rae230bprobe/2.18.0--r42hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

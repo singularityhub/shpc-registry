@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aspediafi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aspediafi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aspediafi/container.yaml"
-updated_at: "2022-11-23 00:45:07.607724"
+updated_at: "2022-11-23 01:00:17.968681"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aspediafi"
 

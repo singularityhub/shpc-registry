@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/r-acidbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidbase/container.yaml"
-updated_at: "2022-11-23 00:38:21.490997"
-latest: "0.5.0--r41hdfd78af_0"
+updated_at: "2022-11-23 00:52:25.078087"
+latest: "0.6.9--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidbase"
 
 versions:
  - "0.5.0--r41hdfd78af_0"
+ - "0.6.9--r42hdfd78af_0"
+ - "0.5.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-acidbase"
-config: {"url": "https://biocontainers.pro/tools/r-acidbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidbase", "latest": {"0.5.0--r41hdfd78af_0": "sha256:a871cc05540ff5d001bf95c659f2017e53f04fb03b4ebb056b69ad787f7931cc"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:a871cc05540ff5d001bf95c659f2017e53f04fb03b4ebb056b69ad787f7931cc"}, "docker": "quay.io/biocontainers/r-acidbase"}
+config: {"url": "https://biocontainers.pro/tools/r-acidbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidbase", "latest": {"0.6.9--r42hdfd78af_0": "sha256:8bed78a11cef0db40395015c2e902d417f6fed5b07b87406f78c453a2b33ba3f"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:a871cc05540ff5d001bf95c659f2017e53f04fb03b4ebb056b69ad787f7931cc", "0.6.9--r42hdfd78af_0": "sha256:8bed78a11cef0db40395015c2e902d417f6fed5b07b87406f78c453a2b33ba3f", "0.5.0--r41hdfd78af_1": "sha256:57f49058c0eb7e1784aaa7045a6ebca13ee7c1bdd7e1572d1ce1a70438fba188"}, "docker": "quay.io/biocontainers/r-acidbase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidbase.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-acidbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidbase:0.5.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidbase:0.6.9--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidbase/0.5.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-acidbase/0.5.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-acidbase/0.6.9--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-acidbase/0.6.9--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

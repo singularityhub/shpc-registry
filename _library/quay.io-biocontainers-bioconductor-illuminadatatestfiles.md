@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-illuminadatatestfiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminadatatestfiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminadatatestfiles/container.yaml"
-updated_at: "2022-11-23 00:45:17.411434"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-23 01:00:29.397069"
+latest: "1.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminadatatestfiles"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-illuminadatatestfiles"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminadatatestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminadatatestfiles", "latest": {"1.32.0--r41hdfd78af_1": "sha256:5c1057145f4010b558883a2e4d010093aa223ab5196600e46b9592011be423e6"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:5c1057145f4010b558883a2e4d010093aa223ab5196600e46b9592011be423e6"}, "docker": "quay.io/biocontainers/bioconductor-illuminadatatestfiles"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminadatatestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminadatatestfiles", "latest": {"1.35.0--r42hdfd78af_0": "sha256:c64283244d033e866257bdcb54a9b382a7b16767710d403e856438adbd6941d0"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:5c1057145f4010b558883a2e4d010093aa223ab5196600e46b9592011be423e6", "1.35.0--r42hdfd78af_0": "sha256:c64283244d033e866257bdcb54a9b382a7b16767710d403e856438adbd6941d0"}, "docker": "quay.io/biocontainers/bioconductor-illuminadatatestfiles"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-illuminadatatestfiles.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-illuminadatatestfiles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-illuminadatatestfiles:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-illuminadatatestfiles:1.35.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-illuminadatatestfiles/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-illuminadatatestfiles/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-illuminadatatestfiles/1.35.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-illuminadatatestfiles/1.35.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

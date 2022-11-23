@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clever-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clever-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clever-toolkit/container.yaml"
-updated_at: "2022-11-23 00:39:54.642357"
+updated_at: "2022-11-23 00:54:14.217544"
 latest: "2.4--py38hda97c0d_10"
 container_url: "https://biocontainers.pro/tools/clever-toolkit"
 aliases:

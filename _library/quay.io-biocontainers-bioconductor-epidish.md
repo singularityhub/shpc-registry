@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-epidish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epidish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epidish/container.yaml"
-updated_at: "2022-11-23 00:58:05.760136"
-latest: "2.8.0--r41hdfd78af_0"
+updated_at: "2022-11-23 01:15:25.268886"
+latest: "2.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epidish"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r41hdfd78af_0"
+ - "2.14.0--r42hdfd78af_0"
+ - "2.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epidish"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epidish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epidish", "latest": {"2.8.0--r41hdfd78af_0": "sha256:14ea3ce2c3d085a751707b287ea73aa94c626fb5cd50bd3b162e0dbe73faeb5e"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:14ea3ce2c3d085a751707b287ea73aa94c626fb5cd50bd3b162e0dbe73faeb5e"}, "docker": "quay.io/biocontainers/bioconductor-epidish", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epidish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epidish", "latest": {"2.14.0--r42hdfd78af_0": "sha256:097ae430309be40893a320bb51c99888f2ca8a803e550c67201a6573e2788ef0"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:14ea3ce2c3d085a751707b287ea73aa94c626fb5cd50bd3b162e0dbe73faeb5e", "2.14.0--r42hdfd78af_0": "sha256:097ae430309be40893a320bb51c99888f2ca8a803e550c67201a6573e2788ef0", "2.10.0--r41hdfd78af_0": "sha256:0a2a630fd4a8c0e11a895c1fb75ac616e615e4d96f9fb70b0677ed48e6b832ea"}, "docker": "quay.io/biocontainers/bioconductor-epidish", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epidish.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epidish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epidish:2.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epidish:2.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epidish/2.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epidish/2.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epidish/2.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epidish/2.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mageckflute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mageckflute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mageckflute/container.yaml"
-updated_at: "2022-11-23 00:20:26.220633"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-23 00:32:01.528705"
+latest: "2.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mageckflute"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "2.2.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mageckflute"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mageckflute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mageckflute", "latest": {"1.8.0--r40_0": "sha256:86cedd2be194afb82283422bd313fe358ec63621632e1cd82bc056daaf1723c9"}, "tags": {"1.8.0--r40_0": "sha256:86cedd2be194afb82283422bd313fe358ec63621632e1cd82bc056daaf1723c9"}, "docker": "quay.io/biocontainers/bioconductor-mageckflute", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mageckflute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mageckflute", "latest": {"2.2.0--r42hdfd78af_0": "sha256:2a5d0cfa77237b3f7f288dab179b9dc10f8e2041db136be8e0a42f3761a81b2b"}, "tags": {"1.8.0--r40_0": "sha256:86cedd2be194afb82283422bd313fe358ec63621632e1cd82bc056daaf1723c9", "2.2.0--r42hdfd78af_0": "sha256:2a5d0cfa77237b3f7f288dab179b9dc10f8e2041db136be8e0a42f3761a81b2b", "1.14.0--r41hdfd78af_0": "sha256:97452a571d0c61f098613a45b68b87969a742471d3df37310cd3dc7113919689", "1.12.0--r41hdfd78af_0": "sha256:5723a99af7a4f20d7ecfc6e2c679d2d439b888f7c6e6553121c1b50560ddf0d2", "1.10.0--r40hdfd78af_1": "sha256:ea33c29515437a72b4b4061f645f7a04cb53e5b44245741e7e808acc127372cb"}, "docker": "quay.io/biocontainers/bioconductor-mageckflute", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mageckflute.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mageckflute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mageckflute:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-mageckflute:2.2.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mageckflute/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-mageckflute/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-mageckflute/2.2.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mageckflute/2.2.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

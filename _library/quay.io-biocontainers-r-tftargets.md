@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-tftargets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tftargets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tftargets/container.yaml"
-updated_at: "2022-11-23 00:48:28.598165"
-latest: "1.3--r41hdfd78af_3"
+updated_at: "2022-11-23 01:04:16.994741"
+latest: "1.3--r42hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-tftargets"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.3--r41hdfd78af_3"
+ - "1.3--r42hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for r-tftargets"
-config: {"url": "https://biocontainers.pro/tools/r-tftargets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tftargets", "latest": {"1.3--r41hdfd78af_3": "sha256:5688596ec712a4178e1ee71f22382a54d159056f4cea881e1e7fc85daba609d0"}, "tags": {"1.3--r41hdfd78af_3": "sha256:5688596ec712a4178e1ee71f22382a54d159056f4cea881e1e7fc85daba609d0"}, "docker": "quay.io/biocontainers/r-tftargets", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-tftargets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tftargets", "latest": {"1.3--r42hdfd78af_4": "sha256:6538615f89a1ff30b9372b3c6629646831cb88cee7b88774004f16291db60897"}, "tags": {"1.3--r41hdfd78af_3": "sha256:5688596ec712a4178e1ee71f22382a54d159056f4cea881e1e7fc85daba609d0", "1.3--r42hdfd78af_4": "sha256:6538615f89a1ff30b9372b3c6629646831cb88cee7b88774004f16291db60897"}, "docker": "quay.io/biocontainers/r-tftargets", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tftargets.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-tftargets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tftargets:1.3--r41hdfd78af_3
+$ shpc install quay.io/biocontainers/r-tftargets:1.3--r42hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tftargets/1.3--r41hdfd78af_3
-$ module help quay.io/biocontainers/r-tftargets/1.3--r41hdfd78af_3
+$ module load quay.io/biocontainers/r-tftargets/1.3--r42hdfd78af_4
+$ module help quay.io/biocontainers/r-tftargets/1.3--r42hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

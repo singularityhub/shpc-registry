@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-slalom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-slalom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-slalom/container.yaml"
-updated_at: "2022-11-23 00:50:54.195534"
+updated_at: "2022-11-23 01:07:09.705700"
 latest: "1.20.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-slalom"
 aliases:

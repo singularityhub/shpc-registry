@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-kebabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kebabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kebabs/container.yaml"
-updated_at: "2022-11-23 00:30:41.951636"
-latest: "1.28.1--r41hc247a5b_1"
+updated_at: "2022-11-23 00:43:32.227449"
+latest: "1.32.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kebabs"
 
 versions:
  - "1.28.1--r41hc247a5b_1"
+ - "1.32.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kebabs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kebabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kebabs", "latest": {"1.28.1--r41hc247a5b_1": "sha256:1ceac9bd98886901de84774fb4b20c9cb4604e6e07ee967151f109ac1aa0c19f"}, "tags": {"1.28.1--r41hc247a5b_1": "sha256:1ceac9bd98886901de84774fb4b20c9cb4604e6e07ee967151f109ac1aa0c19f"}, "docker": "quay.io/biocontainers/bioconductor-kebabs"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kebabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kebabs", "latest": {"1.32.0--r42hc247a5b_0": "sha256:4f413595317e84316088a05a3574dc3134968a3c79a79d249b23ea4521e24d52"}, "tags": {"1.28.1--r41hc247a5b_1": "sha256:1ceac9bd98886901de84774fb4b20c9cb4604e6e07ee967151f109ac1aa0c19f", "1.32.0--r42hc247a5b_0": "sha256:4f413595317e84316088a05a3574dc3134968a3c79a79d249b23ea4521e24d52"}, "docker": "quay.io/biocontainers/bioconductor-kebabs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kebabs.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-kebabs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-kebabs:1.28.1--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-kebabs:1.32.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-kebabs/1.28.1--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-kebabs/1.28.1--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-kebabs/1.32.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-kebabs/1.32.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

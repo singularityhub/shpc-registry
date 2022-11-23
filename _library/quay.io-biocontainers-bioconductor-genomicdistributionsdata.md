@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genomicdistributionsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicdistributionsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicdistributionsdata/container.yaml"
-updated_at: "2022-11-23 00:31:44.726411"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2022-11-23 00:44:44.343845"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicdistributionsdata"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicdistributionsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdistributionsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdistributionsdata", "latest": {"1.2.0--r41hdfd78af_1": "sha256:d11fb8c761e3bb7c37e03474d0d120dae4405071ba489aac09b9373edbdb43b4"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:d11fb8c761e3bb7c37e03474d0d120dae4405071ba489aac09b9373edbdb43b4"}, "docker": "quay.io/biocontainers/bioconductor-genomicdistributionsdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdistributionsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdistributionsdata", "latest": {"1.6.0--r42hdfd78af_0": "sha256:fef16d4c913395259e12e232eb3b68a917d8b60f29db223758107888ce2b8258"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:d11fb8c761e3bb7c37e03474d0d120dae4405071ba489aac09b9373edbdb43b4", "1.6.0--r42hdfd78af_0": "sha256:fef16d4c913395259e12e232eb3b68a917d8b60f29db223758107888ce2b8258"}, "docker": "quay.io/biocontainers/bioconductor-genomicdistributionsdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicdistributionsdata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicdistributionsdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicdistributionsdata:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-genomicdistributionsdata:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicdistributionsdata/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-genomicdistributionsdata/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-genomicdistributionsdata/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicdistributionsdata/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

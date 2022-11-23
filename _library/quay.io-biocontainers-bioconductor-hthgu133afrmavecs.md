@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-hthgu133afrmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hthgu133afrmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hthgu133afrmavecs/container.yaml"
-updated_at: "2022-11-23 00:11:41.874056"
-latest: "1.3.0--r41hdfd78af_9"
+updated_at: "2022-11-23 00:22:06.200270"
+latest: "1.3.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hthgu133afrmavecs"
 
 versions:
  - "1.3.0--r41hdfd78af_9"
+ - "1.3.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hthgu133afrmavecs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hthgu133afrmavecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hthgu133afrmavecs", "latest": {"1.3.0--r41hdfd78af_9": "sha256:7c026d892e494f6422b0330548761e02c15a2c6893fd3e47705c3ac816c7b20f"}, "tags": {"1.3.0--r41hdfd78af_9": "sha256:7c026d892e494f6422b0330548761e02c15a2c6893fd3e47705c3ac816c7b20f"}, "docker": "quay.io/biocontainers/bioconductor-hthgu133afrmavecs"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hthgu133afrmavecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hthgu133afrmavecs", "latest": {"1.3.0--r42hdfd78af_10": "sha256:69a4a6efdac7001905fb4834e1950fc434a5f1495bfe077344e322b45675d616"}, "tags": {"1.3.0--r41hdfd78af_9": "sha256:7c026d892e494f6422b0330548761e02c15a2c6893fd3e47705c3ac816c7b20f", "1.3.0--r42hdfd78af_10": "sha256:69a4a6efdac7001905fb4834e1950fc434a5f1495bfe077344e322b45675d616"}, "docker": "quay.io/biocontainers/bioconductor-hthgu133afrmavecs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hthgu133afrmavecs.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hthgu133afrmavecs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hthgu133afrmavecs:1.3.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-hthgu133afrmavecs:1.3.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hthgu133afrmavecs/1.3.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-hthgu133afrmavecs/1.3.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-hthgu133afrmavecs/1.3.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-hthgu133afrmavecs/1.3.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

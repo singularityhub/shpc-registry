@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pypgatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypgatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypgatk/container.yaml"
-updated_at: "2022-11-23 00:57:45.448293"
-latest: "0.0.9--py_0"
+updated_at: "2022-11-23 01:15:02.107005"
+latest: "0.0.23--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pypgatk"
 aliases:
  - "epylint"
@@ -28,8 +28,9 @@ aliases:
  - "chardetect"
 versions:
  - "0.0.9--py_0"
+ - "0.0.23--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pypgatk"
-config: {"url": "https://biocontainers.pro/tools/pypgatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypgatk", "latest": {"0.0.9--py_0": "sha256:4c138a46ab6a268e846074e41a776e1b7d61e27cd4eaa558f48e4ebc21d7cfbc"}, "tags": {"0.0.9--py_0": "sha256:4c138a46ab6a268e846074e41a776e1b7d61e27cd4eaa558f48e4ebc21d7cfbc"}, "docker": "quay.io/biocontainers/pypgatk", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pylint": "/usr/local/bin/pylint", "pypgatk_cli": "/usr/local/bin/pypgatk_cli", "pypgatk_cli.py": "/usr/local/bin/pypgatk_cli.py", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "chardetect": "/usr/local/bin/chardetect"}}
+config: {"url": "https://biocontainers.pro/tools/pypgatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypgatk", "latest": {"0.0.23--pyhdfd78af_0": "sha256:9c6a53012fa035ef6e1c792c6418e17560b2894c6c4dce077929d2183f23a367"}, "tags": {"0.0.9--py_0": "sha256:4c138a46ab6a268e846074e41a776e1b7d61e27cd4eaa558f48e4ebc21d7cfbc", "0.0.23--pyhdfd78af_0": "sha256:9c6a53012fa035ef6e1c792c6418e17560b2894c6c4dce077929d2183f23a367"}, "docker": "quay.io/biocontainers/pypgatk", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pylint": "/usr/local/bin/pylint", "pypgatk_cli": "/usr/local/bin/pypgatk_cli", "pypgatk_cli.py": "/usr/local/bin/pypgatk_cli.py", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "chardetect": "/usr/local/bin/chardetect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypgatk.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/pypgatk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pypgatk:0.0.9--py_0
+$ shpc install quay.io/biocontainers/pypgatk:0.0.23--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pypgatk/0.0.9--py_0
-$ module help quay.io/biocontainers/pypgatk/0.0.9--py_0
+$ module load quay.io/biocontainers/pypgatk/0.0.23--pyhdfd78af_0
+$ module help quay.io/biocontainers/pypgatk/0.0.23--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

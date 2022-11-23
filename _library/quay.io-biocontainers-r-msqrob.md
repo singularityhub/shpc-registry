@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-msqrob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-msqrob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-msqrob/container.yaml"
-updated_at: "2022-11-23 00:21:48.601054"
-latest: "0.7.7--r41hdfd78af_1"
+updated_at: "2022-11-23 00:33:36.189605"
+latest: "0.7.7--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-msqrob"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "0.7.7--r41hdfd78af_1"
+ - "0.7.7--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-msqrob"
-config: {"url": "https://biocontainers.pro/tools/r-msqrob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-msqrob", "latest": {"0.7.7--r41hdfd78af_1": "sha256:6c74888fad76eda9219757914712d86e2e32f4c751f6e0a8f00be7d19c5c6dd6"}, "tags": {"0.7.7--r41hdfd78af_1": "sha256:6c74888fad76eda9219757914712d86e2e32f4c751f6e0a8f00be7d19c5c6dd6"}, "docker": "quay.io/biocontainers/r-msqrob", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/r-msqrob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-msqrob", "latest": {"0.7.7--r42hdfd78af_2": "sha256:59992ff2d698b22486c9eb125d50c7262fbb554084f47fcf6829f1ff26469ba1"}, "tags": {"0.7.7--r41hdfd78af_1": "sha256:6c74888fad76eda9219757914712d86e2e32f4c751f6e0a8f00be7d19c5c6dd6", "0.7.7--r42hdfd78af_2": "sha256:59992ff2d698b22486c9eb125d50c7262fbb554084f47fcf6829f1ff26469ba1"}, "docker": "quay.io/biocontainers/r-msqrob", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-msqrob.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-msqrob
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-msqrob:0.7.7--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/r-msqrob:0.7.7--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-msqrob/0.7.7--r41hdfd78af_1
-$ module help quay.io/biocontainers/r-msqrob/0.7.7--r41hdfd78af_1
+$ module load quay.io/biocontainers/r-msqrob/0.7.7--r42hdfd78af_2
+$ module help quay.io/biocontainers/r-msqrob/0.7.7--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-derfinderplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-derfinderplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-derfinderplot/container.yaml"
-updated_at: "2022-11-23 01:03:14.283303"
-latest: "1.27.1--r41hdfd78af_0"
+updated_at: "2022-11-23 01:21:16.983230"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-derfinderplot"
 
 versions:
  - "1.27.1--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-derfinderplot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinderplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinderplot", "latest": {"1.27.1--r41hdfd78af_0": "sha256:718f141dc7b23f6e1fca5620b0557bf2d7bd736f2bddf85e5a65c250322f5bde"}, "tags": {"1.27.1--r41hdfd78af_0": "sha256:718f141dc7b23f6e1fca5620b0557bf2d7bd736f2bddf85e5a65c250322f5bde"}, "docker": "quay.io/biocontainers/bioconductor-derfinderplot"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinderplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinderplot", "latest": {"1.32.0--r42hdfd78af_0": "sha256:e65346a109d1a133336b39e24ba97a670ddd3d6177d5c0d6b1cd8e3250de35a5"}, "tags": {"1.27.1--r41hdfd78af_0": "sha256:718f141dc7b23f6e1fca5620b0557bf2d7bd736f2bddf85e5a65c250322f5bde", "1.32.0--r42hdfd78af_0": "sha256:e65346a109d1a133336b39e24ba97a670ddd3d6177d5c0d6b1cd8e3250de35a5"}, "docker": "quay.io/biocontainers/bioconductor-derfinderplot"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-derfinderplot.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-derfinderplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-derfinderplot:1.27.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-derfinderplot:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-derfinderplot/1.27.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-derfinderplot/1.27.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-derfinderplot/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-derfinderplot/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

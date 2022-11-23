@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-ic10"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ic10/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ic10/container.yaml"
-updated_at: "2022-11-23 00:08:31.813139"
-latest: "1.5--r41h3121a25_4"
+updated_at: "2022-11-23 00:18:25.319442"
+latest: "1.5--r42h3121a25_5"
 container_url: "https://biocontainers.pro/tools/r-ic10"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.5--r41h3121a25_4"
+ - "1.5--r42h3121a25_5"
 description: "shpc-registry automated BioContainers addition for r-ic10"
-config: {"url": "https://biocontainers.pro/tools/r-ic10", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ic10", "latest": {"1.5--r41h3121a25_4": "sha256:28f13f2b9420ed43859cff4bb2c1ede4e86a9d8d73b237e24f774e8c2729ea6f"}, "tags": {"1.5--r41h3121a25_4": "sha256:28f13f2b9420ed43859cff4bb2c1ede4e86a9d8d73b237e24f774e8c2729ea6f"}, "docker": "quay.io/biocontainers/r-ic10", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-ic10", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ic10", "latest": {"1.5--r42h3121a25_5": "sha256:cd3099f8b5b49a089ef3c46da6400d7b6880826c34e075718fdd5b037b28927c"}, "tags": {"1.5--r41h3121a25_4": "sha256:28f13f2b9420ed43859cff4bb2c1ede4e86a9d8d73b237e24f774e8c2729ea6f", "1.5--r42h3121a25_5": "sha256:cd3099f8b5b49a089ef3c46da6400d7b6880826c34e075718fdd5b037b28927c"}, "docker": "quay.io/biocontainers/r-ic10", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ic10.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-ic10
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ic10:1.5--r41h3121a25_4
+$ shpc install quay.io/biocontainers/r-ic10:1.5--r42h3121a25_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ic10/1.5--r41h3121a25_4
-$ module help quay.io/biocontainers/r-ic10/1.5--r41h3121a25_4
+$ module load quay.io/biocontainers/r-ic10/1.5--r42h3121a25_5
+$ module help quay.io/biocontainers/r-ic10/1.5--r42h3121a25_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

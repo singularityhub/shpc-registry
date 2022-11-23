@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/r-mkmisc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mkmisc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mkmisc/container.yaml"
-updated_at: "2022-11-23 00:39:09.692903"
-latest: "1.8--r41h3342da4_0"
+updated_at: "2022-11-23 00:53:21.482498"
+latest: "1.9--r42h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-mkmisc"
 
 versions:
  - "1.8--r41h3342da4_0"
+ - "1.9--r42h3342da4_0"
+ - "1.8--r42h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-mkmisc"
-config: {"url": "https://biocontainers.pro/tools/r-mkmisc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mkmisc", "latest": {"1.8--r41h3342da4_0": "sha256:957db79721ea570df1992c3e8a8358d18145c4cd075d4eb256fe98ccf6002f2d"}, "tags": {"1.8--r41h3342da4_0": "sha256:957db79721ea570df1992c3e8a8358d18145c4cd075d4eb256fe98ccf6002f2d"}, "docker": "quay.io/biocontainers/r-mkmisc"}
+config: {"url": "https://biocontainers.pro/tools/r-mkmisc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mkmisc", "latest": {"1.9--r42h3342da4_0": "sha256:e54386b64f630fd8596fcb33ef88df09dc7de65239baf034f0473c032e7f119a"}, "tags": {"1.8--r41h3342da4_0": "sha256:957db79721ea570df1992c3e8a8358d18145c4cd075d4eb256fe98ccf6002f2d", "1.9--r42h3342da4_0": "sha256:e54386b64f630fd8596fcb33ef88df09dc7de65239baf034f0473c032e7f119a", "1.8--r42h3342da4_1": "sha256:8a56cd73ed67979eed63845ae80916977a0d90c01927d8dfd4435631da82f90e"}, "docker": "quay.io/biocontainers/r-mkmisc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mkmisc.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-mkmisc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mkmisc:1.8--r41h3342da4_0
+$ shpc install quay.io/biocontainers/r-mkmisc:1.9--r42h3342da4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mkmisc/1.8--r41h3342da4_0
-$ module help quay.io/biocontainers/r-mkmisc/1.8--r41h3342da4_0
+$ module load quay.io/biocontainers/r-mkmisc/1.9--r42h3342da4_0
+$ module help quay.io/biocontainers/r-mkmisc/1.9--r42h3342da4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

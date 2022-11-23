@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mercury"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mercury/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mercury/container.yaml"
-updated_at: "2022-11-23 01:04:33.729468"
+updated_at: "2022-11-23 01:22:48.931221"
 latest: "2.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mercury"
 
@@ -13,7 +13,7 @@ versions:
  - "2.1.0"
  - "latest"
 description: "Mercury is a C library for implementing RPC, optimized for HPC"
-config: {"docker": "ghcr.io/autamus/mercury", "url": "https://github.com/orgs/autamus/packages/container/package/mercury", "maintainer": "@vsoch", "description": "Mercury is a C library for implementing RPC, optimized for HPC", "latest": {"2.1.0": "sha256:bece2985c3053d9418d77c24d825848232c987f90a3712f30a76d186347c2f2c"}, "tags": {"2.0.1": "sha256:03193fa2478d1cc5d0196145f6673727ab1456c386133b9fe0e164dce973e9f1", "2.1.0": "sha256:bece2985c3053d9418d77c24d825848232c987f90a3712f30a76d186347c2f2c", "latest": "sha256:bece2985c3053d9418d77c24d825848232c987f90a3712f30a76d186347c2f2c"}}
+config: {"docker": "ghcr.io/autamus/mercury", "url": "https://github.com/orgs/autamus/packages/container/package/mercury", "maintainer": "@vsoch", "description": "Mercury is a C library for implementing RPC, optimized for HPC", "latest": {"2.1.0": "sha256:f5a6daec47307d9cfcb8686d256833c69007b4f098ffc039d847691503e8f53d"}, "tags": {"2.0.1": "sha256:03193fa2478d1cc5d0196145f6673727ab1456c386133b9fe0e164dce973e9f1", "2.1.0": "sha256:f5a6daec47307d9cfcb8686d256833c69007b4f098ffc039d847691503e8f53d", "latest": "sha256:f5a6daec47307d9cfcb8686d256833c69007b4f098ffc039d847691503e8f53d"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/mercury.

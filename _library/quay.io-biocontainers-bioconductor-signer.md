@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-signer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-signer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-signer/container.yaml"
-updated_at: "2022-11-23 00:58:19.614714"
-latest: "1.8.0--r351hf484d3e_0"
+updated_at: "2022-11-23 01:15:41.218388"
+latest: "2.0.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-signer"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r351hf484d3e_0"
+ - "2.0.0--r42hc247a5b_0"
+ - "1.20.0--r41hc247a5b_2"
+ - "1.18.0--r41h399db7b_0"
+ - "1.16.0--r40h399db7b_1"
+ - "1.14.0--r40h5f743cb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-signer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-signer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-signer", "latest": {"1.8.0--r351hf484d3e_0": "sha256:e3f9ad9dbb1aea0cce7a0f33aa052efe4232116e5298480dbe7e41720ccd02c1"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:e3f9ad9dbb1aea0cce7a0f33aa052efe4232116e5298480dbe7e41720ccd02c1"}, "docker": "quay.io/biocontainers/bioconductor-signer", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-signer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-signer", "latest": {"2.0.0--r42hc247a5b_0": "sha256:cf669403031d49b3d5c24104ad86f325671b9d793068763ef97e817f636a4aa2"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:e3f9ad9dbb1aea0cce7a0f33aa052efe4232116e5298480dbe7e41720ccd02c1", "2.0.0--r42hc247a5b_0": "sha256:cf669403031d49b3d5c24104ad86f325671b9d793068763ef97e817f636a4aa2", "1.20.0--r41hc247a5b_2": "sha256:386145a6f1c72624dc7b2b890ecca9d0dfdf241d349f04535f6934b73e12378c", "1.18.0--r41h399db7b_0": "sha256:d90f539cd5106e51838a6ed4897078becd691d76ed90cd286107cd677e7d0da5", "1.16.0--r40h399db7b_1": "sha256:95761aa7ec37978f0959b2b20ef028175d6fae0756e9fc3d3f72167fc9891ce0", "1.14.0--r40h5f743cb_0": "sha256:d2c95b1f48f81cbc7d9cebe698a091fc6c7c31d750812eacb79b43dc2092e43f"}, "docker": "quay.io/biocontainers/bioconductor-signer", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-signer.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-signer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-signer:1.8.0--r351hf484d3e_0
+$ shpc install quay.io/biocontainers/bioconductor-signer:2.0.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-signer/1.8.0--r351hf484d3e_0
-$ module help quay.io/biocontainers/bioconductor-signer/1.8.0--r351hf484d3e_0
+$ module load quay.io/biocontainers/bioconductor-signer/2.0.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-signer/2.0.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

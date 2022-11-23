@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-crimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crimage/container.yaml"
-updated_at: "2022-11-23 00:05:58.489684"
-latest: "1.42.0--r41hdfd78af_0"
+updated_at: "2022-11-23 00:15:27.796499"
+latest: "1.46.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crimage"
 aliases:
  - "fftw-wisdom"
@@ -14,8 +14,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "1.42.0--r41hdfd78af_0"
+ - "1.46.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crimage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crimage", "latest": {"1.42.0--r41hdfd78af_0": "sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc"}, "docker": "quay.io/biocontainers/bioconductor-crimage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crimage", "latest": {"1.46.0--r42hdfd78af_0": "sha256:270c9cd5067934b3fa656b76d1f8c18ef63cf367daeff9a1366c949e60ad1066"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc", "1.46.0--r42hdfd78af_0": "sha256:270c9cd5067934b3fa656b76d1f8c18ef63cf367daeff9a1366c949e60ad1066"}, "docker": "quay.io/biocontainers/bioconductor-crimage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crimage.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-crimage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-crimage:1.42.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-crimage:1.46.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-crimage/1.42.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-crimage/1.42.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-crimage/1.46.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-crimage/1.46.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
