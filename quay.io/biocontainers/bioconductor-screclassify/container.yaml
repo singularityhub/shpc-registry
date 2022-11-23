@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-screclassify
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-screclassify
 latest:
-  1.0.0--r41hdfd78af_0: sha256:5b4588ed667e1e9387fc6c481bc15e8c265e61619eb4cefb20c9bea668f8570f
+  1.4.0--r42hdfd78af_0: sha256:58cafa69a162add7a48d3c365dcc0e21176a9742e215133d8cfc7672d272c6d9
 tags:
   1.0.0--r41hdfd78af_0: sha256:5b4588ed667e1e9387fc6c481bc15e8c265e61619eb4cefb20c9bea668f8570f
+  1.4.0--r42hdfd78af_0: sha256:58cafa69a162add7a48d3c365dcc0e21176a9742e215133d8cfc7672d272c6d9
 docker: quay.io/biocontainers/bioconductor-screclassify

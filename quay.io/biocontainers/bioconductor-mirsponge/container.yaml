@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mirsponge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirsponge
 latest:
-  1.8.0--r351hf484d3e_0: sha256:55b0612f8165d9829a6031fe013ba5751c29e0fc240fd351a3244338ec371960
+  1.10.0--r36he1b5a44_1: sha256:86ad53c2d4d81eb541ec3ddae682d271929f24cca59156ac6993ddf837b2ad99
 tags:
   1.8.0--r351hf484d3e_0: sha256:55b0612f8165d9829a6031fe013ba5751c29e0fc240fd351a3244338ec371960
+  1.10.0--r36he1b5a44_1: sha256:86ad53c2d4d81eb541ec3ddae682d271929f24cca59156ac6993ddf837b2ad99
 docker: quay.io/biocontainers/bioconductor-mirsponge
 aliases:
   udunits2: /usr/local/bin/udunits2

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-msqrob
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-msqrob
 latest:
-  0.7.7--r41hdfd78af_1: sha256:6c74888fad76eda9219757914712d86e2e32f4c751f6e0a8f00be7d19c5c6dd6
+  0.7.7--r42hdfd78af_2: sha256:59992ff2d698b22486c9eb125d50c7262fbb554084f47fcf6829f1ff26469ba1
 tags:
   0.7.7--r41hdfd78af_1: sha256:6c74888fad76eda9219757914712d86e2e32f4c751f6e0a8f00be7d19c5c6dd6
+  0.7.7--r42hdfd78af_2: sha256:59992ff2d698b22486c9eb125d50c7262fbb554084f47fcf6829f1ff26469ba1
 docker: quay.io/biocontainers/r-msqrob
 aliases:
   zipcmp: /usr/local/bin/zipcmp

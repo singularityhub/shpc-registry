@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-spiky
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spiky
 latest:
-  1.0.0--r41hdfd78af_0: sha256:22c2562868ab821d876a8a00179971de12f129724d0ccd72a9c40a4d32b77f0f
+  1.4.0--r42hdfd78af_0: sha256:102b1f5c0cde79383ba1e1196de723e304ed053ef7bc0baf1af8cdd0d726a3a2
 tags:
   1.0.0--r41hdfd78af_0: sha256:22c2562868ab821d876a8a00179971de12f129724d0ccd72a9c40a4d32b77f0f
+  1.4.0--r42hdfd78af_0: sha256:102b1f5c0cde79383ba1e1196de723e304ed053ef7bc0baf1af8cdd0d726a3a2
 docker: quay.io/biocontainers/bioconductor-spiky

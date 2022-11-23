@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mgug4104a.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mgug4104a.db
 latest:
-  3.2.3--r41hdfd78af_8: sha256:9b6866ced32dfdbfd5be8587b5ec66f9d11fb2a390f0fc0a76eda93d79a8d185
+  3.2.3--r42hdfd78af_10: sha256:edf452501f8a984ea061b21a740df0093898b69d2c260f24ac1fcba3ba78a91d
 tags:
   3.2.3--r41hdfd78af_8: sha256:9b6866ced32dfdbfd5be8587b5ec66f9d11fb2a390f0fc0a76eda93d79a8d185
+  3.2.3--r42hdfd78af_10: sha256:edf452501f8a984ea061b21a740df0093898b69d2c260f24ac1fcba3ba78a91d
 docker: quay.io/biocontainers/bioconductor-mgug4104a.db

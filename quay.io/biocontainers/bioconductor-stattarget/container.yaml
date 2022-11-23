@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-stattarget
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-stattarget
 latest:
-  1.24.0--r41hdfd78af_0: sha256:aaa0f8b11f40823242ec21e4e8e8a33a83312e77cde7c4e3eadcfadc21aee90d
+  1.28.0--r42hdfd78af_0: sha256:a16d7b9a17fb9ddab930d43994032ac9c2e4ba82f46a0fdc0b466d57aedf74e1
 tags:
   1.24.0--r41hdfd78af_0: sha256:aaa0f8b11f40823242ec21e4e8e8a33a83312e77cde7c4e3eadcfadc21aee90d
+  1.28.0--r42hdfd78af_0: sha256:a16d7b9a17fb9ddab930d43994032ac9c2e4ba82f46a0fdc0b466d57aedf74e1
 docker: quay.io/biocontainers/bioconductor-stattarget

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pypgatk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pypgatk
 latest:
-  0.0.9--py_0: sha256:4c138a46ab6a268e846074e41a776e1b7d61e27cd4eaa558f48e4ebc21d7cfbc
+  0.0.23--pyhdfd78af_0: sha256:9c6a53012fa035ef6e1c792c6418e17560b2894c6c4dce077929d2183f23a367
 tags:
   0.0.9--py_0: sha256:4c138a46ab6a268e846074e41a776e1b7d61e27cd4eaa558f48e4ebc21d7cfbc
+  0.0.23--pyhdfd78af_0: sha256:9c6a53012fa035ef6e1c792c6418e17560b2894c6c4dce077929d2183f23a367
 docker: quay.io/biocontainers/pypgatk
 aliases:
   epylint: /usr/local/bin/epylint

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-xgr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-xgr
 latest:
-  1.1.7--r41h3342da4_3: sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9
+  1.1.7--r42h3342da4_4: sha256:8657ea289a6d9f206b32c8d9fbb11ef1bcc65341d4b8a98769ceff78df592ec4
 tags:
   1.1.7--r41h3342da4_3: sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9
+  1.1.7--r42h3342da4_4: sha256:8657ea289a6d9f206b32c8d9fbb11ef1bcc65341d4b8a98769ceff78df592ec4
 docker: quay.io/biocontainers/r-xgr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

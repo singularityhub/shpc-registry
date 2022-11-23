@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-stexampledata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-stexampledata
 latest:
-  1.2.0--r41hdfd78af_1: sha256:81861956bee0b691214f40183a2338c6b93817731b2762326fa1fb8abac2d3cb
+  1.6.0--r42hdfd78af_0: sha256:db52fc5c3cff1242f6b1e2759d6dee51c4a6b1deebe25c3e6092f61fd4cdbda7
 tags:
   1.2.0--r41hdfd78af_1: sha256:81861956bee0b691214f40183a2338c6b93817731b2762326fa1fb8abac2d3cb
+  1.6.0--r42hdfd78af_0: sha256:db52fc5c3cff1242f6b1e2759d6dee51c4a6b1deebe25c3e6092f61fd4cdbda7
 docker: quay.io/biocontainers/bioconductor-stexampledata
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
