@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/oncopipe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oncopipe
 latest:
-  1.0.8--py_0: sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266
+  1.0.11--py_0: sha256:854d5ab4caafd6abddf1aea388cfb1f05f00fd5e2bc865fac125773cd0e2510c
 tags:
   1.0.8--py_0: sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266
+  1.0.11--py_0: sha256:854d5ab4caafd6abddf1aea388cfb1f05f00fd5e2bc865fac125773cd0e2510c
 docker: quay.io/biocontainers/oncopipe
 aliases:
   snakemake: /usr/local/bin/snakemake

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-guitar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-guitar
 latest:
-  2.8.0--r41hdfd78af_0: sha256:981df27e5f77e1ad25f7595f116aaff11ee15851295a004b3d5c3e2a5919a75b
+  2.14.0--r42hdfd78af_0: sha256:6b7a70274ae67005a211ce5ea18b826de2c2063e13e0fe899b3b689582dbbde6
 tags:
   2.8.0--r41hdfd78af_0: sha256:981df27e5f77e1ad25f7595f116aaff11ee15851295a004b3d5c3e2a5919a75b
+  2.14.0--r42hdfd78af_0: sha256:6b7a70274ae67005a211ce5ea18b826de2c2063e13e0fe899b3b689582dbbde6
+  2.10.0--r41hdfd78af_0: sha256:ae0a9c96a7df734dd67820350ebffd4b7659d6395fba0d4528012c4298bc88d8
 docker: quay.io/biocontainers/bioconductor-guitar
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-biotip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biotip
 latest:
-  1.8.0--r41hdfd78af_0: sha256:92b1d18197cd73c1e21b1dff548467ba5af1400ab8293a402e645599904e9696
+  1.12.0--r42hdfd78af_0: sha256:87fbfa51912ba6f8ae5770b2f5f6b7030882632a5fba0385aa31fe4f2a963bd3
 tags:
   1.8.0--r41hdfd78af_0: sha256:92b1d18197cd73c1e21b1dff548467ba5af1400ab8293a402e645599904e9696
+  1.12.0--r42hdfd78af_0: sha256:87fbfa51912ba6f8ae5770b2f5f6b7030882632a5fba0385aa31fe4f2a963bd3
 docker: quay.io/biocontainers/bioconductor-biotip

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-signaturesearchdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-signaturesearchdata
 latest:
-  1.8.4--r41hdfd78af_0: sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06
+  1.12.0--r42hdfd78af_0: sha256:dabaf27917f3e60815c2e6768129c66a7b4724b572024119ec01c8242bf493c0
 tags:
   1.8.4--r41hdfd78af_0: sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06
+  1.12.0--r42hdfd78af_0: sha256:dabaf27917f3e60815c2e6768129c66a7b4724b572024119ec01c8242bf493c0
 docker: quay.io/biocontainers/bioconductor-signaturesearchdata
 aliases:
   glpsol: /usr/local/bin/glpsol

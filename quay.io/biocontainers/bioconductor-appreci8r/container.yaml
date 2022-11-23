@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-appreci8r
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-appreci8r
 latest:
-  1.6.0--r40_0: sha256:2115800a57f475258f8284e278574eb3c785336d3329155fdc15aecc341f0268
+  1.16.0--r42hdfd78af_0: sha256:36beac8b919ba0d73b3488f3e818fd219efe438aeb10d1ff9d2747d790b0afa1
 tags:
   1.6.0--r40_0: sha256:2115800a57f475258f8284e278574eb3c785336d3329155fdc15aecc341f0268
+  1.16.0--r42hdfd78af_0: sha256:36beac8b919ba0d73b3488f3e818fd219efe438aeb10d1ff9d2747d790b0afa1
+  1.12.0--r41hdfd78af_0: sha256:143c0576a65e341f63dbe9e69d539be08a85a95b3414b5ac99f2f453a231becd
+  1.10.0--r41hdfd78af_0: sha256:9870ea3f13d28bc99d19004edfd1f005952207157b2807f52dad648ff1da8f06
 docker: quay.io/biocontainers/bioconductor-appreci8r
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
