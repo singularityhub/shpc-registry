@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seidr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seidr
 latest:
-  0.14.2--mpi_openmpi_h430a956: sha256:fad286334f630046f070f4c1fc050289723a1fb140a4161873c8105e4efbdefc
+  0.14.2--mpi_mpich_h0475154: sha256:20e124be6c1e1d8a8e3c50a4ce3e4c2c3ad5d6f30ce9729c1590efffb9eb6a12
 tags:
   0.14.2--mpi_openmpi_h430a956: sha256:fad286334f630046f070f4c1fc050289723a1fb140a4161873c8105e4efbdefc
+  0.14.2--mpi_mpich_h0475154: sha256:20e124be6c1e1d8a8e3c50a4ce3e4c2c3ad5d6f30ce9729c1590efffb9eb6a12
 docker: quay.io/biocontainers/seidr
 aliases:
   anoverence: /usr/local/bin/anoverence

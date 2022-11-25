@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-treeio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-treeio
 latest:
-  1.8.1--r36_0: sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a
+  1.22.0--r42hdfd78af_0: sha256:4f8f50aad10962925a8eefdabfccbe53fc78f9151656d0f4b36dc11653b3f0b8
 tags:
   1.8.1--r36_0: sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a
+  1.22.0--r42hdfd78af_0: sha256:4f8f50aad10962925a8eefdabfccbe53fc78f9151656d0f4b36dc11653b3f0b8
+  1.18.0--r41hdfd78af_0: sha256:7580f1ce01387acd8b9d9721452a577fdabb59ed48210bac0f6e7e2dc1355e15
+  1.16.1--r41hdfd78af_0: sha256:9377ac922392cb895387da17f438897c6cd4b4078f391c24f5c5d9084c411050
+  1.14.3--r40hdfd78af_0: sha256:34f641e313011b3eda91490ede6a113d8bca27469c7ac2325b3109e58f6ae852
+  1.12.0--r40_0: sha256:adcc3c57f0efded0bda7564921d8996bddd4c4919f3430bc5cfd59519b39a7b7
 docker: quay.io/biocontainers/bioconductor-treeio
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

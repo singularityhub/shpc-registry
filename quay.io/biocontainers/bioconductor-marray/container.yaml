@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-marray
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-marray
 latest:
-  1.72.0--r41hdfd78af_0: sha256:bb2b868330759250b7e81819bfea134b4e18508836a67c85b7c200d9415f7427
+  1.76.0--r42hdfd78af_0: sha256:18fc58bb48d1f92aced2614e0b40d3598b9c5c1df688ab38a3da5244d7883f2e
 tags:
   1.72.0--r41hdfd78af_0: sha256:bb2b868330759250b7e81819bfea134b4e18508836a67c85b7c200d9415f7427
+  1.76.0--r42hdfd78af_0: sha256:18fc58bb48d1f92aced2614e0b40d3598b9c5c1df688ab38a3da5244d7883f2e
 docker: quay.io/biocontainers/bioconductor-marray

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-stjudem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-stjudem
 latest:
-  1.34.0--r41hdfd78af_1: sha256:8b5cf4cdc102b992f320f1808289f6250dde3ab3788babf066b3528adb8889d3
+  1.37.0--r42hdfd78af_0: sha256:bb61f813e41199ee26eae76afead0438d94c0b165244079fc13addde27a09a5a
 tags:
   1.34.0--r41hdfd78af_1: sha256:8b5cf4cdc102b992f320f1808289f6250dde3ab3788babf066b3528adb8889d3
+  1.37.0--r42hdfd78af_0: sha256:bb61f813e41199ee26eae76afead0438d94c0b165244079fc13addde27a09a5a
 docker: quay.io/biocontainers/bioconductor-stjudem

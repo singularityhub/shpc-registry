@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-chipseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chipseq
 latest:
-  1.44.0--r41hc0cfd56_2: sha256:46557c6760698a5ec2655a4d39af68972b37a9fcf4b60839403a6cf97ff9b0fb
+  1.48.0--r42hc0cfd56_0: sha256:f878092225bbbfa38b02e51c9eae1b92e1c3759a90ab6ec26f00b0d5d722786c
 tags:
   1.44.0--r41hc0cfd56_2: sha256:46557c6760698a5ec2655a4d39af68972b37a9fcf4b60839403a6cf97ff9b0fb
+  1.48.0--r42hc0cfd56_0: sha256:f878092225bbbfa38b02e51c9eae1b92e1c3759a90ab6ec26f00b0d5d722786c
 docker: quay.io/biocontainers/bioconductor-chipseq

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hgu95av2cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgu95av2cdf
 latest:
-  2.18.0--r41hdfd78af_9: sha256:9e02febad828bfd41e28bd5212aa9c93141bd39776a87a3dd31988f594340b3d
+  2.18.0--r42hdfd78af_10: sha256:07703d9f9607c939817b3c83827430207c41cff396f047760aac7f1484cec4b5
 tags:
   2.18.0--r41hdfd78af_9: sha256:9e02febad828bfd41e28bd5212aa9c93141bd39776a87a3dd31988f594340b3d
+  2.18.0--r42hdfd78af_10: sha256:07703d9f9607c939817b3c83827430207c41cff396f047760aac7f1484cec4b5
 docker: quay.io/biocontainers/bioconductor-hgu95av2cdf

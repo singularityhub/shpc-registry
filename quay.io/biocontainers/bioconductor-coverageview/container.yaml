@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-coverageview
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-coverageview
 latest:
-  1.32.0--r41hdfd78af_0: sha256:95b909085774e3081ca651927abc1359e86366f29bf4d326e54772101ab69ea8
+  1.36.0--r42hdfd78af_0: sha256:21ccbf8040020bc6fad58e3e26df5a9f7004c8a6e225bed1ec301258427ec1e7
 tags:
   1.32.0--r41hdfd78af_0: sha256:95b909085774e3081ca651927abc1359e86366f29bf4d326e54772101ab69ea8
+  1.36.0--r42hdfd78af_0: sha256:21ccbf8040020bc6fad58e3e26df5a9f7004c8a6e225bed1ec301258427ec1e7
 docker: quay.io/biocontainers/bioconductor-coverageview

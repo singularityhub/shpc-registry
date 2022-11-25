@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gse13015
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gse13015
 latest:
-  1.2.0--r41hdfd78af_1: sha256:5b0ebe6c33ace410feb8ab42cf9a48ee04010474ff652095318a93bfa7308cf2
+  1.6.0--r42hdfd78af_0: sha256:ad37197825e87689c3f0a1592b80fc9e7c66cb3a104db4627a3c368b24b9e37b
 tags:
   1.2.0--r41hdfd78af_1: sha256:5b0ebe6c33ace410feb8ab42cf9a48ee04010474ff652095318a93bfa7308cf2
+  1.6.0--r42hdfd78af_0: sha256:ad37197825e87689c3f0a1592b80fc9e7c66cb3a104db4627a3c368b24b9e37b
 docker: quay.io/biocontainers/bioconductor-gse13015

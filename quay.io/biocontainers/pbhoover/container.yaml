@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pbhoover
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbhoover
 latest:
-  1.0.7--pyhdfd78af_5: sha256:8e2902231220a245a3225e850dc4313956f7e29de2d6e950b84603f5ba8c7764
+  1.1.0--pyhdfd78af_0: sha256:37373e162ef9f18757a04ac456a53d1b88a26d31b2e25164418d174f3a248e12
 tags:
   1.0.7--pyhdfd78af_5: sha256:8e2902231220a245a3225e850dc4313956f7e29de2d6e950b84603f5ba8c7764
+  1.1.0--pyhdfd78af_0: sha256:37373e162ef9f18757a04ac456a53d1b88a26d31b2e25164418d174f3a248e12
 docker: quay.io/biocontainers/pbhoover
 aliases:
   bash5tools.py: /usr/local/bin/bash5tools.py

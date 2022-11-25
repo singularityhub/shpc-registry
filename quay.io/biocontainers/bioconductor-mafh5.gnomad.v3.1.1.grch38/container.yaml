@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.v3.1.1.grch38
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mafh5.gnomad.v3.1.1.grch38
 latest:
-  3.13.0--r41hdfd78af_2: sha256:d5ac07c8b2de60d3918b33c9a4e02bd3f18c3c1c5a1d74b71297c26cebba3b1e
+  3.13.1--r42hdfd78af_0: sha256:776c44f88a17dc45e0617ec900e74af77187c709f17d2120eca69127961c8b81
 tags:
   3.13.0--r41hdfd78af_2: sha256:d5ac07c8b2de60d3918b33c9a4e02bd3f18c3c1c5a1d74b71297c26cebba3b1e
+  3.13.1--r42hdfd78af_0: sha256:776c44f88a17dc45e0617ec900e74af77187c709f17d2120eca69127961c8b81
 docker: quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38
