@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-schex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-schex
 latest:
-  1.8.0--r41hdfd78af_0: sha256:e946642c5dbc53ff800a46d3c3fc0bcd269cb212e00c9c07c17b7c7c43895c68
+  1.12.0--r42hdfd78af_0: sha256:72804b4533c486d9515dc0a155b077c1806ed55e7bb3d21f8ed758b8c3ff7216
 tags:
   1.8.0--r41hdfd78af_0: sha256:e946642c5dbc53ff800a46d3c3fc0bcd269cb212e00c9c07c17b7c7c43895c68
+  1.12.0--r42hdfd78af_0: sha256:72804b4533c486d9515dc0a155b077c1806ed55e7bb3d21f8ed758b8c3ff7216
 docker: quay.io/biocontainers/bioconductor-schex
 aliases:
   testepsg: /usr/local/bin/testepsg

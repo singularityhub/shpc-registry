@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-epihet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epihet
 latest:
-  1.8.0--r41hdfd78af_0: sha256:9fdda811379f6f1c62312c88944525d1bac212e80bbcba8ff5d5812a8b1b1b53
+  1.13.0--r42hdfd78af_0: sha256:2f618a209b6a42348dcead753829a9012f7ce8583e6630e4fe52c89a8b1f5f91
 tags:
   1.8.0--r41hdfd78af_0: sha256:9fdda811379f6f1c62312c88944525d1bac212e80bbcba8ff5d5812a8b1b1b53
+  1.13.0--r42hdfd78af_0: sha256:2f618a209b6a42348dcead753829a9012f7ce8583e6630e4fe52c89a8b1f5f91
+  1.10.0--r41hdfd78af_0: sha256:945a5f80fe6964b636e807b1e1af4abb844580953c7d97a6079e96744603de76
 docker: quay.io/biocontainers/bioconductor-epihet
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

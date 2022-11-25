@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rdisop
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rdisop
 latest:
-  1.54.0--r41hc247a5b_2: sha256:82d827f05d3bf562d971eeb36daffd7b2639fff3807ee8e1cb9affb43ea80e29
+  1.58.0--r42hc247a5b_0: sha256:60b7a1e7f83a249e383e2eb98a9b65f862f3b9082ded620f014822f2d412c104
 tags:
   1.54.0--r41hc247a5b_2: sha256:82d827f05d3bf562d971eeb36daffd7b2639fff3807ee8e1cb9affb43ea80e29
+  1.58.0--r42hc247a5b_0: sha256:60b7a1e7f83a249e383e2eb98a9b65f862f3b9082ded620f014822f2d412c104
 docker: quay.io/biocontainers/bioconductor-rdisop

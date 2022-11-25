@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/itk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for itk
 latest:
-  4.6.1--py35_1: sha256:3541075669d7d559c102b127cd73d02c5b2bd09b00780014876bd76ed248c185
+  4.10.1--py27_2: sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f
 tags:
   4.6.1--py35_1: sha256:3541075669d7d559c102b127cd73d02c5b2bd09b00780014876bd76ed248c185
+  4.10.1--py27_2: sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f
 docker: quay.io/biocontainers/itk
 aliases:
   itkTestDriver: /usr/local/bin/itkTestDriver

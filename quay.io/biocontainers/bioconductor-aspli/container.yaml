@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-aspli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-aspli
 latest:
-  2.4.0--r41hdfd78af_0: sha256:8e4da938a3bb5be5365fdacbcc1ca101c30d45ec0d81992e3ac0de1097f76f08
+  2.8.0--r42hdfd78af_0: sha256:04a10e2b2fcb1fe4b0620a339554da31806dea6881dbba8aeab6ba6de00d4f46
 tags:
   2.4.0--r41hdfd78af_0: sha256:8e4da938a3bb5be5365fdacbcc1ca101c30d45ec0d81992e3ac0de1097f76f08
+  2.8.0--r42hdfd78af_0: sha256:04a10e2b2fcb1fe4b0620a339554da31806dea6881dbba8aeab6ba6de00d4f46
 docker: quay.io/biocontainers/bioconductor-aspli
 aliases:
   pandoc: /usr/local/bin/pandoc

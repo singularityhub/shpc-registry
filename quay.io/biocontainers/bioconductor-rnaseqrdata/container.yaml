@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-rnaseqrdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnaseqrdata
 latest:
-  1.8.0--r40hdfd78af_1: sha256:0d1c4c1334598b027b016f03c30fae3ce0948b834490989310e05e159a5332fc
+  1.16.0--r42hdfd78af_0: sha256:c6c9b7e7dd6ba5071ee3612af5bce50bbea28ea6576665749aefa2ecbd9f9283
 tags:
   1.8.0--r40hdfd78af_1: sha256:0d1c4c1334598b027b016f03c30fae3ce0948b834490989310e05e159a5332fc
+  1.16.0--r42hdfd78af_0: sha256:c6c9b7e7dd6ba5071ee3612af5bce50bbea28ea6576665749aefa2ecbd9f9283
+  1.12.0--r41hdfd78af_1: sha256:f9aafe9397a4dd4fb92d89629c88aebab8f6a20ded1a21a71c4c0454c580dada
+  1.10.0--r41hdfd78af_0: sha256:16fa67aa9f5228fc1a2a2e4363e03574686eea47e50d85c202e0ddc883f2e510
 docker: quay.io/biocontainers/bioconductor-rnaseqrdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

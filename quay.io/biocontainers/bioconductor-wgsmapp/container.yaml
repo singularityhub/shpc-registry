@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-wgsmapp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-wgsmapp
 latest:
-  1.6.0--r41hdfd78af_1: sha256:93e8e9b35fcd9fd19002c1bf0f781a9f47d408640bcc4ef3fb0c25538fe71662
+  1.10.0--r42hdfd78af_0: sha256:f4a84e0e6a27b60ed8c20e2c866776203c8a2849dea5004e747bb29241902314
 tags:
   1.6.0--r41hdfd78af_1: sha256:93e8e9b35fcd9fd19002c1bf0f781a9f47d408640bcc4ef3fb0c25538fe71662
+  1.10.0--r42hdfd78af_0: sha256:f4a84e0e6a27b60ed8c20e2c866776203c8a2849dea5004e747bb29241902314
 docker: quay.io/biocontainers/bioconductor-wgsmapp

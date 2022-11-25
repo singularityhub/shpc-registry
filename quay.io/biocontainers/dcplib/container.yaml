@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/dcplib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dcplib
 latest:
-  3.9.0--py_0: sha256:d921504c7b662ed3f485355d6a578357c7832e539363f42ff5ee28108cd398b2
+  3.12.0--py_0: sha256:51660585aeda4886cbd2ae83833646c9075e840bb0edde1b5ef8947b464faa90
 tags:
   3.9.0--py_0: sha256:d921504c7b662ed3f485355d6a578357c7832e539363f42ff5ee28108cd398b2
+  3.12.0--py_0: sha256:51660585aeda4886cbd2ae83833646c9075e840bb0edde1b5ef8947b464faa90
+  3.11.0--py_0: sha256:9c8a8b3e90b71b709e79cc211fdb5fa0892cd72f083da6bcde41e6e51e5ad9a4
 docker: quay.io/biocontainers/dcplib
 aliases:
   jp.py: /usr/local/bin/jp.py

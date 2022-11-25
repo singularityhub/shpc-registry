@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-alakazam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-alakazam
 latest:
-  1.2.1--r41hecf12ef_0: sha256:d8374b2f940f05bc0e9286df8ce7f7463f436c3dd029e681f9d69e7856fa8945
+  1.2.1--r42hecf12ef_1: sha256:3e270ec77589d73f58116d068f29ce733319cd591817b1e275691cb1cda1986b
 tags:
   1.2.1--r41hecf12ef_0: sha256:d8374b2f940f05bc0e9286df8ce7f7463f436c3dd029e681f9d69e7856fa8945
+  1.2.1--r42hecf12ef_1: sha256:3e270ec77589d73f58116d068f29ce733319cd591817b1e275691cb1cda1986b
 docker: quay.io/biocontainers/r-alakazam
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-blima
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-blima
 latest:
-  1.28.0--r41hc247a5b_2: sha256:6e43eeb54dd17e5557e1ada227ada0f312c11d79d8a6204ef9a007331f938c14
+  1.32.0--r42hc247a5b_0: sha256:da645990c16051fb4ae84dee558d2aefa07a1dfffa2884f0346bf7d6fb36af91
 tags:
   1.28.0--r41hc247a5b_2: sha256:6e43eeb54dd17e5557e1ada227ada0f312c11d79d8a6204ef9a007331f938c14
+  1.32.0--r42hc247a5b_0: sha256:da645990c16051fb4ae84dee558d2aefa07a1dfffa2884f0346bf7d6fb36af91
 docker: quay.io/biocontainers/bioconductor-blima

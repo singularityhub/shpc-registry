@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pagerank
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pagerank
 latest:
-  1.4.0--r41hdfd78af_0: sha256:b5a771f5053bcded5d32309e94588f16b50c9a7696a090d89c2919bfa9178e05
+  1.8.0--r42hdfd78af_0: sha256:e179d0dbd1d65043f5768136a7c6c10680b07b5429af773091d9c134b3fc261a
 tags:
   1.4.0--r41hdfd78af_0: sha256:b5a771f5053bcded5d32309e94588f16b50c9a7696a090d89c2919bfa9178e05
+  1.8.0--r42hdfd78af_0: sha256:e179d0dbd1d65043f5768136a7c6c10680b07b5429af773091d9c134b3fc261a
 docker: quay.io/biocontainers/bioconductor-pagerank

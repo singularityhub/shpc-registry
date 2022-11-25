@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-vasp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-vasp
 latest:
-  1.6.0--r41hdfd78af_0: sha256:6d63eb688987922f9de21f58c9bbce4978a4eede1a9838c3f5c893f530927562
+  1.10.0--r42hdfd78af_0: sha256:af2d993a93233d4dba6249a4d36e26dc7ecda19e1d34807f655f67b725eeae55
 tags:
   1.6.0--r41hdfd78af_0: sha256:6d63eb688987922f9de21f58c9bbce4978a4eede1a9838c3f5c893f530927562
+  1.10.0--r42hdfd78af_0: sha256:af2d993a93233d4dba6249a4d36e26dc7ecda19e1d34807f655f67b725eeae55
 docker: quay.io/biocontainers/bioconductor-vasp

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-sequenza
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sequenza
 latest:
-  3.0.0--r41h3342da4_4: sha256:7d1f967f7a5739b45c78fdf485c1776f248558127087ee360293ec593450f6c0
+  3.0.0--r42h3342da4_5: sha256:200a1a345af39828bb42d04ba632ffafedad5b1992820541fe61d2172a73136a
 tags:
   3.0.0--r41h3342da4_4: sha256:7d1f967f7a5739b45c78fdf485c1776f248558127087ee360293ec593450f6c0
+  3.0.0--r42h3342da4_5: sha256:200a1a345af39828bb42d04ba632ffafedad5b1992820541fe61d2172a73136a
 docker: quay.io/biocontainers/r-sequenza
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

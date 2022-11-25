@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/magcluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for magcluster
 latest:
-  0.2.2--pyhdfd78af_0: sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d
+  0.2.5--pyhdfd78af_0: sha256:268c4c8f634b86c3d38a13e2e1fa929fa3c53a0daf36d7a57b858827136873db
 tags:
   0.2.2--pyhdfd78af_0: sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d
+  0.2.5--pyhdfd78af_0: sha256:268c4c8f634b86c3d38a13e2e1fa929fa3c53a0daf36d7a57b858827136873db
 docker: quay.io/biocontainers/magcluster
 aliases:
   clinker: /usr/local/bin/clinker

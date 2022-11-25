@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-multtest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-multtest
 latest:
-  2.50.0--r41hc0cfd56_2: sha256:487ca81662aa34fa3e7d7f1b95f7203cfbb9b31335e7383f2b9dc0025a86f454
+  2.54.0--r42hc0cfd56_0: sha256:8e7ab14a56d3765f6590bc2cc4eb61883bdc12578212549b33fa0fa26a8bc8c7
 tags:
   2.50.0--r41hc0cfd56_2: sha256:487ca81662aa34fa3e7d7f1b95f7203cfbb9b31335e7383f2b9dc0025a86f454
+  2.54.0--r42hc0cfd56_0: sha256:8e7ab14a56d3765f6590bc2cc4eb61883bdc12578212549b33fa0fa26a8bc8c7
 docker: quay.io/biocontainers/bioconductor-multtest

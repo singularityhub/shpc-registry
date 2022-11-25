@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-biomvrcns
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biomvrcns
 latest:
-  1.34.0--r41hc0cfd56_2: sha256:fa962454b053dc5c904a6c7f95ff245daec7c75f4a414ed910cd2f55916dbafd
+  1.38.0--r42hc0cfd56_0: sha256:7de521923747ad93c66eeae608b9f118144cd925bb7a4e1ec3e32117d0100ce8
 tags:
   1.34.0--r41hc0cfd56_2: sha256:fa962454b053dc5c904a6c7f95ff245daec7c75f4a414ed910cd2f55916dbafd
+  1.38.0--r42hc0cfd56_0: sha256:7de521923747ad93c66eeae608b9f118144cd925bb7a4e1ec3e32117d0100ce8
 docker: quay.io/biocontainers/bioconductor-biomvrcns

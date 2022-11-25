@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-multibac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-multibac
 latest:
-  1.4.0--r41hdfd78af_0: sha256:dc8ba6e2e63482463e6d811838f64da78f7784a74cd2a56be9e2af0c73a1d6ab
+  1.8.0--r42hdfd78af_0: sha256:5238b488a65cb31a201797c171e3f2b2860c087797fff13a917de4b8b31d51fa
 tags:
   1.4.0--r41hdfd78af_0: sha256:dc8ba6e2e63482463e6d811838f64da78f7784a74cd2a56be9e2af0c73a1d6ab
+  1.8.0--r42hdfd78af_0: sha256:5238b488a65cb31a201797c171e3f2b2860c087797fff13a917de4b8b31d51fa
 docker: quay.io/biocontainers/bioconductor-multibac

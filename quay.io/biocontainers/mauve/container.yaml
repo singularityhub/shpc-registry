@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mauve
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mauve
 latest:
-  2.4.0.snapshot_2015_02_13--hdfd78af_4: sha256:6ade83c13e7430252285f568f3bcc6dfc378371b76630cb35da8d34c7fa10c2f
+  2.4.0.r4736--h9bed127_2: sha256:10ec3f8e1e7707c1aac8b3001e445b6773cf0c63203443f4e843a921666f70b6
 tags:
   2.4.0.snapshot_2015_02_13--hdfd78af_4: sha256:6ade83c13e7430252285f568f3bcc6dfc378371b76630cb35da8d34c7fa10c2f
+  2.4.0.r4736--h9bed127_2: sha256:10ec3f8e1e7707c1aac8b3001e445b6773cf0c63203443f4e843a921666f70b6
 docker: quay.io/biocontainers/mauve
 aliases:
   Mauve: /usr/local/bin/Mauve
