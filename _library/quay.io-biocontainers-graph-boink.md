@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graph-boink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graph-boink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graph-boink/container.yaml"
-updated_at: "2022-11-23 00:58:08.507385"
+updated_at: "2022-11-24 23:59:17.442792"
 latest: "0.9.1--py38h8b12597_0"
 container_url: "https://biocontainers.pro/tools/graph-boink"
 aliases:

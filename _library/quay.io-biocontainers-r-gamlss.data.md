@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gamlss.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gamlss.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gamlss.data/container.yaml"
-updated_at: "2022-11-23 00:31:55.022322"
+updated_at: "2022-11-25 00:33:34.286633"
 latest: "5.0_0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gamlss.data"
 aliases:

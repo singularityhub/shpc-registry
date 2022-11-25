@@ -4,17 +4,16 @@ name:  "ghcr.io/autamus/gawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gawk/container.yaml"
-updated_at: "2022-11-23 01:22:31.489240"
-latest: "5.10.0"
+updated_at: "2022-11-24 23:38:55.459735"
+latest: "5.1.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gawk"
 aliases:
  - "gawk"
 versions:
  - "5.1.0"
  - "5.1.1"
- - "5.10.0"
 description: "gawk is the GNU implementation of awk. The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code. https://www.gnu.org/software/gawk/"
-config: {"docker": "ghcr.io/autamus/gawk", "url": "https://github.com/orgs/autamus/packages/container/package/gawk", "maintainer": "@vsoch", "description": "gawk is the GNU implementation of awk. The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code. https://www.gnu.org/software/gawk/", "latest": {"5.10.0": "sha256:502eebe2f9a93ce7bb06fc6f97f8ce8dd76802a380ade9b4c71f0d3f15ef0a45"}, "tags": {"5.1.0": "sha256:b08a8df43c51257c5de2362eb68ee572494ce38609e689772faf41dd4cf0ffdb", "5.1.1": "sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1", "5.10.0": "sha256:502eebe2f9a93ce7bb06fc6f97f8ce8dd76802a380ade9b4c71f0d3f15ef0a45"}, "aliases": {"gawk": "/opt/view/bin/gawk"}}
+config: {"docker": "ghcr.io/autamus/gawk", "url": "https://github.com/orgs/autamus/packages/container/package/gawk", "maintainer": "@vsoch", "description": "gawk is the GNU implementation of awk. The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code. https://www.gnu.org/software/gawk/", "latest": {"5.1.1": "sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1"}, "tags": {"5.1.0": "sha256:b08a8df43c51257c5de2362eb68ee572494ce38609e689772faf41dd4cf0ffdb", "5.1.1": "sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1"}, "aliases": {"gawk": "/opt/view/bin/gawk"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gawk.
@@ -29,7 +28,7 @@ $ shpc install ghcr.io/autamus/gawk
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/gawk:5.10.0
+$ shpc install ghcr.io/autamus/gawk:5.1.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/gawk/5.10.0
-$ module help ghcr.io/autamus/gawk/5.10.0
+$ module load ghcr.io/autamus/gawk/5.1.1
+$ module help ghcr.io/autamus/gawk/5.1.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

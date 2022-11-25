@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-trimcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-trimcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-trimcluster/container.yaml"
-updated_at: "2022-11-23 00:24:08.998387"
+updated_at: "2022-11-25 00:12:00.236479"
 latest: "0.1_2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-trimcluster"
 aliases:

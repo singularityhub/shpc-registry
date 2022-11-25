@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-amplican"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-amplican/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-amplican/container.yaml"
-updated_at: "2022-11-23 00:40:42.609765"
+updated_at: "2022-11-24 23:42:48.903658"
 latest: "1.16.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-amplican"
 aliases:
