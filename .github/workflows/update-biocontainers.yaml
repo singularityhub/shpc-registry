@@ -32,6 +32,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         cache: https://github.com/singularityhub/shpc-registry-cache
+        namespace: quay.io/biocontainers
         min-count-inclusion: 10
         max-count-inclusion: 1000
         additional-count-inclusion: 25
