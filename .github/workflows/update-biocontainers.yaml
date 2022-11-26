@@ -27,7 +27,7 @@ jobs:
 
       # registry defaults to PWD, branch defaults to main
     - name: Update Biocontainers
-      uses: singularityhub/singularity-hpc/actions/update-registry@add/update-registry-cache-action
+      uses: singularityhub/singularity-hpc/actions/cache-update@add/update-registry-cache-action
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         cache: https://github.com/singularityhub/shpc-registry-cache
