@@ -1,6 +1,7 @@
 name: Update BioContainers
 
 on:
+  pull_request: []
   schedule:
   - cron: 0 0 1 * *
 
@@ -13,55 +14,27 @@ jobs:
       with:
         fetch-depth: '0'
 
-    - name: Install Dependencies
-      run: |
-        pip install git+https://github.com/singularityhub/singularity-hpc@main
-        pip install requests pipelib beautifulsoup4
+    - name: Create conda environment
+      run: conda create --quiet -c conda-forge --name cache spython
 
+    - name: Derive BioContainers List
+      run: |
+        export PATH="/usr/share/miniconda/bin:$PATH"
+        source activate cache
+        pip install -r .github/scripts/dev-requirements.txt
+        python .github/scripts/get_biocontainers.py /tmp/biocontainers.txt
+        head /tmp/biocontainers.txt
+
+      # registry defaults to PWD, branch defaults to main
     - name: Update Biocontainers
-      run: |
-        git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
-        printf "python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25\n"
-        python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 10
-
-    - name: Checkout Update branch
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH_AGAINST: main
-      run: |
-        printf "GitHub Actor: ${GITHUB_ACTOR}\n"
-        export BRANCH_FROM="update/biocontainers-$(date '+%Y-%m-%d')"
-        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-        BRANCH_EXISTS=$(git ls-remote --heads origin ${BRANCH_FROM})
-        if [[ -z ${BRANCH_EXISTS} ]]; then
-            printf "Branch does not exist in remote.\n"
-        else
-            printf "Branch already exists in remote.\n"
-            exit 1
-        fi
-        git branch
-        git checkout -b "${BRANCH_FROM}" || git checkout "${BRANCH_FROM}"
-        git branch
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@users.noreply.github.com"
-        git add ./*
-        git status
-        if git diff-index --quiet HEAD --; then
-           export OPEN_PULL_REQUEST=0
-           printf "No changes\n"
-        else
-           export OPEN_PULL_REQUEST=1
-           printf "Changes\n"
-           git commit -a -m "Automated deployment to update containers $(date '+%Y-%m-%d')"
-           git push origin "${BRANCH_FROM}"
-        fi
-        echo "OPEN_PULL_REQUEST=${OPEN_PULL_REQUEST}" >> $GITHUB_ENV
-        echo "PULL_REQUEST_FROM_BRANCH=${BRANCH_FROM}" >> $GITHUB_ENV
-        echo "PULL_REQUEST_TITLE=[bot] ${BRANCH_FROM}" >> $GITHUB_ENV
-        echo "PULL_REQUEST_BODY=Update container modules pull request." >> $GITHUB_ENV
-    - name: Open Pull Request
-      uses: vsoch/pull-request-action@50f22f6d146226ee6b73b7a001f26a3d4579f360 # 1.0.22
-      if: ${{ env.OPEN_PULL_REQUEST == '1' }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PULL_REQUEST_BRANCH: main
+      uses: singularityhub/singularity-hpc/actions/update-registry@add/update-registry-cache-action
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        cache: https://github.com/singularityhub/shpc-registry-cache
+        min-count-inclusion: 10
+        max-count-inclusion: 1000
+        additional-count-inclusion: 25
+        # Defaults to shpc docs, this gets formatted to include the entry_name
+        url_format_string: "https://biocontainers.pro/tools/%s"
+        pull_request: "${{ inputs.pull_request == 'true' }}"
+        listing: /tmp/biocontainers.txt
