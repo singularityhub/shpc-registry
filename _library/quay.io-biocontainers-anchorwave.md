@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anchorwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anchorwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anchorwave/container.yaml"
-updated_at: "2022-11-26 00:37:24.499491"
+updated_at: "2022-11-26 14:30:12.446046"
 latest: "1.0.1--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/anchorwave"
 aliases:

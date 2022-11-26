@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genextender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genextender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genextender/container.yaml"
-updated_at: "2022-11-26 00:24:16.009653"
+updated_at: "2022-11-26 14:17:28.421237"
 latest: "1.24.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genextender"
 aliases:

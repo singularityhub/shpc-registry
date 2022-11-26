@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/traitar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/traitar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/traitar/container.yaml"
-updated_at: "2022-11-26 00:36:39.016384"
+updated_at: "2022-11-26 14:29:29.002154"
 latest: "1.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/traitar"
 aliases:

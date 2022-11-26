@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-assign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-assign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-assign/container.yaml"
-updated_at: "2022-11-25 23:46:47.082975"
+updated_at: "2022-11-26 13:40:49.914176"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-assign"
 

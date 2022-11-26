@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-colonca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-colonca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-colonca/container.yaml"
-updated_at: "2022-11-25 23:48:25.972557"
+updated_at: "2022-11-26 13:42:25.265730"
 latest: "1.40.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-colonca"
 

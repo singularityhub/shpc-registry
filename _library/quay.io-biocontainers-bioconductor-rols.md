@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rols"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rols/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rols/container.yaml"
-updated_at: "2022-11-25 23:45:14.147621"
+updated_at: "2022-11-26 13:39:22.836866"
 latest: "2.8.2--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rols"
 aliases:

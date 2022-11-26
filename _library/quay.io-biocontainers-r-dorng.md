@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dorng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dorng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dorng/container.yaml"
-updated_at: "2022-11-25 23:44:35.045906"
+updated_at: "2022-11-26 13:38:45.374944"
 latest: "1.6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-dorng"
 aliases:

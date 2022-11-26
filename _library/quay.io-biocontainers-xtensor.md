@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xtensor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtensor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtensor/container.yaml"
-updated_at: "2022-11-26 00:16:03.591219"
+updated_at: "2022-11-26 14:09:22.262321"
 latest: "0.19.1"
 container_url: "https://biocontainers.pro/tools/xtensor"
 

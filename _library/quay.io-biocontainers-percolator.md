@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/percolator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/percolator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/percolator/container.yaml"
-updated_at: "2022-11-26 00:16:41.760936"
+updated_at: "2022-11-26 14:09:59.115659"
 latest: "3.5--hfd1433f_1"
 container_url: "https://biocontainers.pro/tools/percolator"
 
