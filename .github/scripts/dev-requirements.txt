@@ -1,0 +1,4 @@
+singularity-hpc
+requests
+beautifulsoup4
+packaging
