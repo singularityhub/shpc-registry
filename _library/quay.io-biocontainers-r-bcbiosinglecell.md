@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-bcbiosinglecell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bcbiosinglecell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bcbiosinglecell/container.yaml"
-updated_at: "2022-11-25 00:23:47.051110"
-latest: "0.5.0--r41hdfd78af_0"
+updated_at: "2022-11-26 00:21:54.709198"
+latest: "0.6.2--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-bcbiosinglecell"
 aliases:
  - "pandoc"
 versions:
  - "0.5.0--r41hdfd78af_0"
+ - "0.6.2--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-bcbiosinglecell"
-config: {"url": "https://biocontainers.pro/tools/r-bcbiosinglecell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiosinglecell", "latest": {"0.5.0--r41hdfd78af_0": "sha256:4c2a569223ad69aded39d480542e20da64feb1e9d5da7fa5b85b069f624633fe"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:4c2a569223ad69aded39d480542e20da64feb1e9d5da7fa5b85b069f624633fe"}, "docker": "quay.io/biocontainers/r-bcbiosinglecell", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-bcbiosinglecell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiosinglecell", "latest": {"0.6.2--r42hdfd78af_1": "sha256:c3bf8be79eaebdd37624d10659a6405b30cd69785507985b5754c83c58bce459"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:4c2a569223ad69aded39d480542e20da64feb1e9d5da7fa5b85b069f624633fe", "0.6.2--r42hdfd78af_1": "sha256:c3bf8be79eaebdd37624d10659a6405b30cd69785507985b5754c83c58bce459"}, "docker": "quay.io/biocontainers/r-bcbiosinglecell", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bcbiosinglecell.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-bcbiosinglecell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bcbiosinglecell:0.5.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-bcbiosinglecell:0.6.2--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bcbiosinglecell/0.5.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-bcbiosinglecell/0.5.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-bcbiosinglecell/0.6.2--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-bcbiosinglecell/0.6.2--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

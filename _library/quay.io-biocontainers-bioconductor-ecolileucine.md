@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ecolileucine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolileucine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolileucine/container.yaml"
-updated_at: "2022-11-25 00:27:50.362372"
-latest: "1.34.0--r41hdfd78af_1"
+updated_at: "2022-11-26 00:26:02.049222"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolileucine"
 
 versions:
  - "1.34.0--r41hdfd78af_1"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecolileucine"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolileucine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolileucine", "latest": {"1.34.0--r41hdfd78af_1": "sha256:d759edf24ececc2b9796e3abd6b7dc9a1740e03341174a22090650d1d04de085"}, "tags": {"1.34.0--r41hdfd78af_1": "sha256:d759edf24ececc2b9796e3abd6b7dc9a1740e03341174a22090650d1d04de085"}, "docker": "quay.io/biocontainers/bioconductor-ecolileucine"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolileucine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolileucine", "latest": {"1.38.0--r42hdfd78af_0": "sha256:61e782fba15a6ccf3a068eea72ec3c9f6ea4caaebc1f3112f3c1ccff75223feb"}, "tags": {"1.34.0--r41hdfd78af_1": "sha256:d759edf24ececc2b9796e3abd6b7dc9a1740e03341174a22090650d1d04de085", "1.38.0--r42hdfd78af_0": "sha256:61e782fba15a6ccf3a068eea72ec3c9f6ea4caaebc1f3112f3c1ccff75223feb"}, "docker": "quay.io/biocontainers/bioconductor-ecolileucine"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecolileucine.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ecolileucine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ecolileucine:1.34.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ecolileucine:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ecolileucine/1.34.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ecolileucine/1.34.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ecolileucine/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ecolileucine/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-sparsesignatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsesignatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsesignatures/container.yaml"
-updated_at: "2022-11-24 23:52:50.317666"
-latest: "2.4.0--r41hdfd78af_0"
+updated_at: "2022-11-25 23:50:52.046540"
+latest: "2.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsesignatures"
 
 versions:
  - "2.4.0--r41hdfd78af_0"
+ - "2.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sparsesignatures"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsesignatures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsesignatures", "latest": {"2.4.0--r41hdfd78af_0": "sha256:ec74d1a0ed2eb295b713e63e3ccb1128c6c72a925f1e4d66bb62b4567da6e73e"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:ec74d1a0ed2eb295b713e63e3ccb1128c6c72a925f1e4d66bb62b4567da6e73e"}, "docker": "quay.io/biocontainers/bioconductor-sparsesignatures"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsesignatures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsesignatures", "latest": {"2.8.0--r42hdfd78af_0": "sha256:3aa74dbb9bd0969b8c175c2544e218439e85c05d38a2ebd75b7d25b1bfc15f25"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:ec74d1a0ed2eb295b713e63e3ccb1128c6c72a925f1e4d66bb62b4567da6e73e", "2.8.0--r42hdfd78af_0": "sha256:3aa74dbb9bd0969b8c175c2544e218439e85c05d38a2ebd75b7d25b1bfc15f25"}, "docker": "quay.io/biocontainers/bioconductor-sparsesignatures"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sparsesignatures.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sparsesignatures
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sparsesignatures:2.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sparsesignatures:2.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sparsesignatures/2.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sparsesignatures/2.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sparsesignatures/2.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sparsesignatures/2.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

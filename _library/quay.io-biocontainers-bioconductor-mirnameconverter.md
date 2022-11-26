@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirnameconverter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirnameconverter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirnameconverter/container.yaml"
-updated_at: "2022-11-25 00:24:47.473247"
+updated_at: "2022-11-26 00:22:56.305494"
 latest: "1.8.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirnameconverter"
 aliases:

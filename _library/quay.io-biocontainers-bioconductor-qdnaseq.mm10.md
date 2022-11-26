@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qdnaseq.mm10"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qdnaseq.mm10/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qdnaseq.mm10/container.yaml"
-updated_at: "2022-11-24 23:53:59.949824"
+updated_at: "2022-11-25 23:52:01.949075"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qdnaseq.mm10"
 aliases:

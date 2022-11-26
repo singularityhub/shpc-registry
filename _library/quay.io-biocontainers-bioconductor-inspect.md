@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-inspect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-inspect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-inspect/container.yaml"
-updated_at: "2022-11-25 00:29:46.687722"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-11-26 00:27:58.992081"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-inspect"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.28.0--r42hdfd78af_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r40hdfd78af_1"
+ - "1.18.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-inspect"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-inspect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-inspect", "latest": {"1.8.0--r3.4.1_0": "sha256:e6f56ebac0f12e9b3446c7f5cb62fa5259f89e8adbf8b65453f1f7e4de116ece"}, "tags": {"1.8.0--r3.4.1_0": "sha256:e6f56ebac0f12e9b3446c7f5cb62fa5259f89e8adbf8b65453f1f7e4de116ece"}, "docker": "quay.io/biocontainers/bioconductor-inspect", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-inspect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-inspect", "latest": {"1.28.0--r42hdfd78af_0": "sha256:941b2c4e234805980a7c354fbaf6c5e242b38814fb7084654f3465c4a5259a5a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:e6f56ebac0f12e9b3446c7f5cb62fa5259f89e8adbf8b65453f1f7e4de116ece", "1.28.0--r42hdfd78af_0": "sha256:941b2c4e234805980a7c354fbaf6c5e242b38814fb7084654f3465c4a5259a5a", "1.24.0--r41hdfd78af_0": "sha256:937f2e9ac96c857ad28bcbbe64375cd6b8b04578727f73ad13c1a1ebc00a921d", "1.22.0--r41hdfd78af_0": "sha256:4e8810e2d7cd7b99cc0269596a67e5f7b059a072716442bae3ad27c8719985a4", "1.20.0--r40hdfd78af_1": "sha256:86ab678d02a5142f7736a72606e2b499c126472abee96838dc5570dfb4aca491", "1.18.0--r40_0": "sha256:1b7a0d6f42a7c75b47683cf2877cbac918d847dc651cd8cc738db67adb97fa46"}, "docker": "quay.io/biocontainers/bioconductor-inspect", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-inspect.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-inspect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-inspect:1.8.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-inspect:1.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-inspect/1.8.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-inspect/1.8.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-inspect/1.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-inspect/1.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

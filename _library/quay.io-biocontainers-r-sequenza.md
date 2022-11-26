@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-sequenza"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sequenza/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sequenza/container.yaml"
-updated_at: "2022-11-24 23:55:23.631445"
-latest: "3.0.0--r41h3342da4_4"
+updated_at: "2022-11-25 23:53:25.927138"
+latest: "3.0.0--r42h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-sequenza"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.0.0--r41h3342da4_4"
+ - "3.0.0--r42h3342da4_5"
 description: "shpc-registry automated BioContainers addition for r-sequenza"
-config: {"url": "https://biocontainers.pro/tools/r-sequenza", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sequenza", "latest": {"3.0.0--r41h3342da4_4": "sha256:7d1f967f7a5739b45c78fdf485c1776f248558127087ee360293ec593450f6c0"}, "tags": {"3.0.0--r41h3342da4_4": "sha256:7d1f967f7a5739b45c78fdf485c1776f248558127087ee360293ec593450f6c0"}, "docker": "quay.io/biocontainers/r-sequenza", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-sequenza", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sequenza", "latest": {"3.0.0--r42h3342da4_5": "sha256:200a1a345af39828bb42d04ba632ffafedad5b1992820541fe61d2172a73136a"}, "tags": {"3.0.0--r41h3342da4_4": "sha256:7d1f967f7a5739b45c78fdf485c1776f248558127087ee360293ec593450f6c0", "3.0.0--r42h3342da4_5": "sha256:200a1a345af39828bb42d04ba632ffafedad5b1992820541fe61d2172a73136a"}, "docker": "quay.io/biocontainers/r-sequenza", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sequenza.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-sequenza
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sequenza:3.0.0--r41h3342da4_4
+$ shpc install quay.io/biocontainers/r-sequenza:3.0.0--r42h3342da4_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sequenza/3.0.0--r41h3342da4_4
-$ module help quay.io/biocontainers/r-sequenza/3.0.0--r41h3342da4_4
+$ module load quay.io/biocontainers/r-sequenza/3.0.0--r42h3342da4_5
+$ module help quay.io/biocontainers/r-sequenza/3.0.0--r42h3342da4_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/container.yaml"
-updated_at: "2022-11-24 23:41:01.920204"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-25 23:38:56.310523"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.dlpfc.450k"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.dlpfc.450k", "latest": {"1.30.0--r41hdfd78af_1": "sha256:52726aa4074cc4d1b95ad77c2fabaaf4d7eccf37a2518d21b19276bac8e4af00"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:52726aa4074cc4d1b95ad77c2fabaaf4d7eccf37a2518d21b19276bac8e4af00"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.dlpfc.450k", "latest": {"1.34.0--r42hdfd78af_0": "sha256:07d7216a43a50ba45e36fa2d4a4c6f11f79fd4e90d700b6e9199861e1fa44fe4"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:52726aa4074cc4d1b95ad77c2fabaaf4d7eccf37a2518d21b19276bac8e4af00", "1.34.0--r42hdfd78af_0": "sha256:07d7216a43a50ba45e36fa2d4a4c6f11f79fd4e90d700b6e9199861e1fa44fe4"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

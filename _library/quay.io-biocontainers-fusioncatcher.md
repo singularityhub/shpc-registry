@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/fusioncatcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusioncatcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusioncatcher/container.yaml"
-updated_at: "2022-11-25 00:02:29.042425"
-latest: "1.33--hdfd78af_3"
+updated_at: "2022-11-26 00:00:28.102913"
+latest: "1.33--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/fusioncatcher"
 
 versions:
  - "1.33--hdfd78af_3"
+ - "1.33--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for fusioncatcher"
-config: {"url": "https://biocontainers.pro/tools/fusioncatcher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusioncatcher", "latest": {"1.33--hdfd78af_3": "sha256:4dbd6ada2dd9f971182b9eb620ce7e936b7f459cbf59c57cb03cdbba1b95d376"}, "tags": {"1.33--hdfd78af_3": "sha256:4dbd6ada2dd9f971182b9eb620ce7e936b7f459cbf59c57cb03cdbba1b95d376"}, "docker": "quay.io/biocontainers/fusioncatcher"}
+config: {"url": "https://biocontainers.pro/tools/fusioncatcher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusioncatcher", "latest": {"1.33--hdfd78af_4": "sha256:15a5b28a4f8e51bec6f2ec9038c3d22cf18263349de495bb24faf14ace488c1c"}, "tags": {"1.33--hdfd78af_3": "sha256:4dbd6ada2dd9f971182b9eb620ce7e936b7f459cbf59c57cb03cdbba1b95d376", "1.33--hdfd78af_4": "sha256:15a5b28a4f8e51bec6f2ec9038c3d22cf18263349de495bb24faf14ace488c1c"}, "docker": "quay.io/biocontainers/fusioncatcher"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fusioncatcher.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/fusioncatcher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fusioncatcher:1.33--hdfd78af_3
+$ shpc install quay.io/biocontainers/fusioncatcher:1.33--hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fusioncatcher/1.33--hdfd78af_3
-$ module help quay.io/biocontainers/fusioncatcher/1.33--hdfd78af_3
+$ module load quay.io/biocontainers/fusioncatcher/1.33--hdfd78af_4
+$ module help quay.io/biocontainers/fusioncatcher/1.33--hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-treeio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treeio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treeio/container.yaml"
-updated_at: "2022-11-25 00:03:26.586177"
-latest: "1.8.1--r36_0"
+updated_at: "2022-11-26 00:01:24.647004"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-treeio"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.1--r36_0"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.1--r41hdfd78af_0"
+ - "1.14.3--r40hdfd78af_0"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-treeio"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-treeio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treeio", "latest": {"1.8.1--r36_0": "sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a"}, "tags": {"1.8.1--r36_0": "sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a"}, "docker": "quay.io/biocontainers/bioconductor-treeio", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-treeio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treeio", "latest": {"1.22.0--r42hdfd78af_0": "sha256:4f8f50aad10962925a8eefdabfccbe53fc78f9151656d0f4b36dc11653b3f0b8"}, "tags": {"1.8.1--r36_0": "sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a", "1.22.0--r42hdfd78af_0": "sha256:4f8f50aad10962925a8eefdabfccbe53fc78f9151656d0f4b36dc11653b3f0b8", "1.18.0--r41hdfd78af_0": "sha256:7580f1ce01387acd8b9d9721452a577fdabb59ed48210bac0f6e7e2dc1355e15", "1.16.1--r41hdfd78af_0": "sha256:9377ac922392cb895387da17f438897c6cd4b4078f391c24f5c5d9084c411050", "1.14.3--r40hdfd78af_0": "sha256:34f641e313011b3eda91490ede6a113d8bca27469c7ac2325b3109e58f6ae852", "1.12.0--r40_0": "sha256:adcc3c57f0efded0bda7564921d8996bddd4c4919f3430bc5cfd59519b39a7b7"}, "docker": "quay.io/biocontainers/bioconductor-treeio", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-treeio.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-treeio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-treeio:1.8.1--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-treeio:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-treeio/1.8.1--r36_0
-$ module help quay.io/biocontainers/bioconductor-treeio/1.8.1--r36_0
+$ module load quay.io/biocontainers/bioconductor-treeio/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-treeio/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

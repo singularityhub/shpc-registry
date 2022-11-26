@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gatk4-spark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk4-spark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatk4-spark/container.yaml"
-updated_at: "2022-11-25 00:34:58.171999"
+updated_at: "2022-11-26 00:33:12.433267"
 latest: "4.3.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gatk4-spark"
 aliases:

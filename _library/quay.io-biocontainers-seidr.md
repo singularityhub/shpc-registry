@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seidr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seidr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seidr/container.yaml"
-updated_at: "2022-11-25 00:35:55.865607"
-latest: "0.14.2--mpi_openmpi_h430a956"
+updated_at: "2022-11-26 00:34:12.037709"
+latest: "0.14.2--mpi_mpich_h0475154"
 container_url: "https://biocontainers.pro/tools/seidr"
 aliases:
  - "anoverence"
@@ -33,8 +33,9 @@ aliases:
  - "orte-info"
 versions:
  - "0.14.2--mpi_openmpi_h430a956"
+ - "0.14.2--mpi_mpich_h0475154"
 description: "shpc-registry automated BioContainers addition for seidr"
-config: {"url": "https://biocontainers.pro/tools/seidr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seidr", "latest": {"0.14.2--mpi_openmpi_h430a956": "sha256:fad286334f630046f070f4c1fc050289723a1fb140a4161873c8105e4efbdefc"}, "tags": {"0.14.2--mpi_openmpi_h430a956": "sha256:fad286334f630046f070f4c1fc050289723a1fb140a4161873c8105e4efbdefc"}, "docker": "quay.io/biocontainers/seidr", "aliases": {"anoverence": "/usr/local/bin/anoverence", "correlation": "/usr/local/bin/correlation", "el-ensemble": "/usr/local/bin/el-ensemble", "genie3": "/usr/local/bin/genie3", "llr-ensemble": "/usr/local/bin/llr-ensemble", "mi": "/usr/local/bin/mi", "narromi": "/usr/local/bin/narromi", "pcor": "/usr/local/bin/pcor", "plsnet": "/usr/local/bin/plsnet", "seidr": "/usr/local/bin/seidr", "svm-ensemble": "/usr/local/bin/svm-ensemble", "tigress": "/usr/local/bin/tigress", "tomsimilarity": "/usr/local/bin/tomsimilarity", "clp": "/usr/local/bin/clp", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info"}}
+config: {"url": "https://biocontainers.pro/tools/seidr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seidr", "latest": {"0.14.2--mpi_mpich_h0475154": "sha256:20e124be6c1e1d8a8e3c50a4ce3e4c2c3ad5d6f30ce9729c1590efffb9eb6a12"}, "tags": {"0.14.2--mpi_openmpi_h430a956": "sha256:fad286334f630046f070f4c1fc050289723a1fb140a4161873c8105e4efbdefc", "0.14.2--mpi_mpich_h0475154": "sha256:20e124be6c1e1d8a8e3c50a4ce3e4c2c3ad5d6f30ce9729c1590efffb9eb6a12"}, "docker": "quay.io/biocontainers/seidr", "aliases": {"anoverence": "/usr/local/bin/anoverence", "correlation": "/usr/local/bin/correlation", "el-ensemble": "/usr/local/bin/el-ensemble", "genie3": "/usr/local/bin/genie3", "llr-ensemble": "/usr/local/bin/llr-ensemble", "mi": "/usr/local/bin/mi", "narromi": "/usr/local/bin/narromi", "pcor": "/usr/local/bin/pcor", "plsnet": "/usr/local/bin/plsnet", "seidr": "/usr/local/bin/seidr", "svm-ensemble": "/usr/local/bin/svm-ensemble", "tigress": "/usr/local/bin/tigress", "tomsimilarity": "/usr/local/bin/tomsimilarity", "clp": "/usr/local/bin/clp", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seidr.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/seidr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seidr:0.14.2--mpi_openmpi_h430a956
+$ shpc install quay.io/biocontainers/seidr:0.14.2--mpi_mpich_h0475154
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seidr/0.14.2--mpi_openmpi_h430a956
-$ module help quay.io/biocontainers/seidr/0.14.2--mpi_openmpi_h430a956
+$ module load quay.io/biocontainers/seidr/0.14.2--mpi_mpich_h0475154
+$ module help quay.io/biocontainers/seidr/0.14.2--mpi_mpich_h0475154
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

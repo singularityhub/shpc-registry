@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dcplib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dcplib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dcplib/container.yaml"
-updated_at: "2022-11-25 00:15:08.805930"
-latest: "3.9.0--py_0"
+updated_at: "2022-11-26 00:13:05.395685"
+latest: "3.12.0--py_0"
 container_url: "https://biocontainers.pro/tools/dcplib"
 aliases:
  - "jp.py"
@@ -20,8 +20,10 @@ aliases:
  - "rst2s5.py"
 versions:
  - "3.9.0--py_0"
+ - "3.12.0--py_0"
+ - "3.11.0--py_0"
 description: "shpc-registry automated BioContainers addition for dcplib"
-config: {"url": "https://biocontainers.pro/tools/dcplib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dcplib", "latest": {"3.9.0--py_0": "sha256:d921504c7b662ed3f485355d6a578357c7832e539363f42ff5ee28108cd398b2"}, "tags": {"3.9.0--py_0": "sha256:d921504c7b662ed3f485355d6a578357c7832e539363f42ff5ee28108cd398b2"}, "docker": "quay.io/biocontainers/dcplib", "aliases": {"jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py"}}
+config: {"url": "https://biocontainers.pro/tools/dcplib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dcplib", "latest": {"3.12.0--py_0": "sha256:51660585aeda4886cbd2ae83833646c9075e840bb0edde1b5ef8947b464faa90"}, "tags": {"3.9.0--py_0": "sha256:d921504c7b662ed3f485355d6a578357c7832e539363f42ff5ee28108cd398b2", "3.12.0--py_0": "sha256:51660585aeda4886cbd2ae83833646c9075e840bb0edde1b5ef8947b464faa90", "3.11.0--py_0": "sha256:9c8a8b3e90b71b709e79cc211fdb5fa0892cd72f083da6bcde41e6e51e5ad9a4"}, "docker": "quay.io/biocontainers/dcplib", "aliases": {"jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dcplib.
@@ -36,7 +38,7 @@ $ shpc install quay.io/biocontainers/dcplib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dcplib:3.9.0--py_0
+$ shpc install quay.io/biocontainers/dcplib:3.12.0--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dcplib/3.9.0--py_0
-$ module help quay.io/biocontainers/dcplib/3.9.0--py_0
+$ module load quay.io/biocontainers/dcplib/3.12.0--py_0
+$ module help quay.io/biocontainers/dcplib/3.12.0--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

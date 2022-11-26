@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-string-diff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-diff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-diff/container.yaml"
-updated_at: "2022-11-25 00:39:08.346813"
+updated_at: "2022-11-26 00:37:28.888238"
 latest: "0.07--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-string-diff"
 aliases:

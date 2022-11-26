@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-msigdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msigdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msigdb/container.yaml"
-updated_at: "2022-11-24 23:55:35.803666"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2022-11-25 23:53:38.043445"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msigdb"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msigdb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msigdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msigdb", "latest": {"1.2.0--r41hdfd78af_1": "sha256:105b75f44eb682c377b06dcf11879d1f0e8df04b3e0eb6f722130e81981b35d4"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:105b75f44eb682c377b06dcf11879d1f0e8df04b3e0eb6f722130e81981b35d4"}, "docker": "quay.io/biocontainers/bioconductor-msigdb"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msigdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msigdb", "latest": {"1.6.0--r42hdfd78af_0": "sha256:5ae148f6b21c1ef28254b8b3a4454b624b062c4e2c4d7c550ef0c30716daa144"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:105b75f44eb682c377b06dcf11879d1f0e8df04b3e0eb6f722130e81981b35d4", "1.6.0--r42hdfd78af_0": "sha256:5ae148f6b21c1ef28254b8b3a4454b624b062c4e2c4d7c550ef0c30716daa144"}, "docker": "quay.io/biocontainers/bioconductor-msigdb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msigdb.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msigdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msigdb:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-msigdb:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msigdb/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-msigdb/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-msigdb/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msigdb/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

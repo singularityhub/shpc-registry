@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/illumina-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illumina-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/illumina-utils/container.yaml"
-updated_at: "2022-11-24 23:57:27.521154"
-latest: "2.9--py_0"
+updated_at: "2022-11-25 23:55:28.993826"
+latest: "2.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/illumina-utils"
 aliases:
  - "iu-compute-qual-dicts-from-fastq"
@@ -39,8 +39,11 @@ aliases:
  - "tificc"
 versions:
  - "2.9--py_0"
+ - "2.12--pyhdfd78af_0"
+ - "2.11--py_0"
+ - "2.10--py_0"
 description: "shpc-registry automated BioContainers addition for illumina-utils"
-config: {"url": "https://biocontainers.pro/tools/illumina-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illumina-utils", "latest": {"2.9--py_0": "sha256:71bbf576937ace4e755942d2387fef98adf4c1d0ad18babd8937b0d031a02de6"}, "tags": {"2.9--py_0": "sha256:71bbf576937ace4e755942d2387fef98adf4c1d0ad18babd8937b0d031a02de6"}, "docker": "quay.io/biocontainers/illumina-utils", "aliases": {"iu-compute-qual-dicts-from-fastq": "/usr/local/bin/iu-compute-qual-dicts-from-fastq", "iu-deinterleave-fastq": "/usr/local/bin/iu-deinterleave-fastq", "iu-demultiplex": "/usr/local/bin/iu-demultiplex", "iu-fasta-to-fastq": "/usr/local/bin/iu-fasta-to-fastq", "iu-fastq-to-fasta": "/usr/local/bin/iu-fastq-to-fasta", "iu-filter-merged-reads": "/usr/local/bin/iu-filter-merged-reads", "iu-filter-quality-bokulich": "/usr/local/bin/iu-filter-quality-bokulich", "iu-filter-quality-minoche": "/usr/local/bin/iu-filter-quality-minoche", "iu-gen-configs": "/usr/local/bin/iu-gen-configs", "iu-gen-matching-fastq-files": "/usr/local/bin/iu-gen-matching-fastq-files", "iu-interleave-fastq": "/usr/local/bin/iu-interleave-fastq", "iu-merge-pairs": "/usr/local/bin/iu-merge-pairs", "iu-remove-ids-from-fastq": "/usr/local/bin/iu-remove-ids-from-fastq", "iu-subsample-fastq": "/usr/local/bin/iu-subsample-fastq", "iu-trim-V6-primers": "/usr/local/bin/iu-trim-V6-primers", "iu-trim-fastq": "/usr/local/bin/iu-trim-fastq", "iu-visualize-mismatch-distribution": "/usr/local/bin/iu-visualize-mismatch-distribution", "iu-visualize-plot-dicts": "/usr/local/bin/iu-visualize-plot-dicts", "iu-visualize-qual-dicts": "/usr/local/bin/iu-visualize-qual-dicts", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/illumina-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illumina-utils", "latest": {"2.12--pyhdfd78af_0": "sha256:66de6b852967a15541c3e6d247694726bd26ec2d3f08d1d04f6768557daf93aa"}, "tags": {"2.9--py_0": "sha256:71bbf576937ace4e755942d2387fef98adf4c1d0ad18babd8937b0d031a02de6", "2.12--pyhdfd78af_0": "sha256:66de6b852967a15541c3e6d247694726bd26ec2d3f08d1d04f6768557daf93aa", "2.11--py_0": "sha256:cf6bdbb6786ceee6dbf003fa3adc640ca4be2e81e35797f40858da82d9db9320", "2.10--py_0": "sha256:1b4fa0cf82e7fd4f3e98dec983fc87ac56b32d75e65927a8c8fc34fe507ca7b6"}, "docker": "quay.io/biocontainers/illumina-utils", "aliases": {"iu-compute-qual-dicts-from-fastq": "/usr/local/bin/iu-compute-qual-dicts-from-fastq", "iu-deinterleave-fastq": "/usr/local/bin/iu-deinterleave-fastq", "iu-demultiplex": "/usr/local/bin/iu-demultiplex", "iu-fasta-to-fastq": "/usr/local/bin/iu-fasta-to-fastq", "iu-fastq-to-fasta": "/usr/local/bin/iu-fastq-to-fasta", "iu-filter-merged-reads": "/usr/local/bin/iu-filter-merged-reads", "iu-filter-quality-bokulich": "/usr/local/bin/iu-filter-quality-bokulich", "iu-filter-quality-minoche": "/usr/local/bin/iu-filter-quality-minoche", "iu-gen-configs": "/usr/local/bin/iu-gen-configs", "iu-gen-matching-fastq-files": "/usr/local/bin/iu-gen-matching-fastq-files", "iu-interleave-fastq": "/usr/local/bin/iu-interleave-fastq", "iu-merge-pairs": "/usr/local/bin/iu-merge-pairs", "iu-remove-ids-from-fastq": "/usr/local/bin/iu-remove-ids-from-fastq", "iu-subsample-fastq": "/usr/local/bin/iu-subsample-fastq", "iu-trim-V6-primers": "/usr/local/bin/iu-trim-V6-primers", "iu-trim-fastq": "/usr/local/bin/iu-trim-fastq", "iu-visualize-mismatch-distribution": "/usr/local/bin/iu-visualize-mismatch-distribution", "iu-visualize-plot-dicts": "/usr/local/bin/iu-visualize-plot-dicts", "iu-visualize-qual-dicts": "/usr/local/bin/iu-visualize-qual-dicts", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/illumina-utils.
@@ -55,7 +58,7 @@ $ shpc install quay.io/biocontainers/illumina-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/illumina-utils:2.9--py_0
+$ shpc install quay.io/biocontainers/illumina-utils:2.12--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/illumina-utils/2.9--py_0
-$ module help quay.io/biocontainers/illumina-utils/2.9--py_0
+$ module load quay.io/biocontainers/illumina-utils/2.12--pyhdfd78af_0
+$ module help quay.io/biocontainers/illumina-utils/2.12--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

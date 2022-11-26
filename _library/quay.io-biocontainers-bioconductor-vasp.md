@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-vasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vasp/container.yaml"
-updated_at: "2022-11-25 00:01:01.719085"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-25 23:59:01.605857"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vasp"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vasp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vasp", "latest": {"1.6.0--r41hdfd78af_0": "sha256:6d63eb688987922f9de21f58c9bbce4978a4eede1a9838c3f5c893f530927562"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:6d63eb688987922f9de21f58c9bbce4978a4eede1a9838c3f5c893f530927562"}, "docker": "quay.io/biocontainers/bioconductor-vasp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vasp", "latest": {"1.10.0--r42hdfd78af_0": "sha256:af2d993a93233d4dba6249a4d36e26dc7ecda19e1d34807f655f67b725eeae55"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:6d63eb688987922f9de21f58c9bbce4978a4eede1a9838c3f5c893f530927562", "1.10.0--r42hdfd78af_0": "sha256:af2d993a93233d4dba6249a4d36e26dc7ecda19e1d34807f655f67b725eeae55"}, "docker": "quay.io/biocontainers/bioconductor-vasp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vasp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vasp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vasp:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-vasp:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vasp/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-vasp/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-vasp/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-vasp/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

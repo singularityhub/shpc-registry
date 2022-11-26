@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-script"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-script/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-script/container.yaml"
-updated_at: "2022-11-24 23:59:23.569427"
+updated_at: "2022-11-25 23:57:24.935237"
 latest: "1.29--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-script"
 aliases:

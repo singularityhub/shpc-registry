@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-xbseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xbseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xbseq/container.yaml"
-updated_at: "2022-11-24 23:50:10.202501"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-11-25 23:48:11.507978"
+latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-xbseq"
 aliases:
  - "wget"
@@ -15,8 +15,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.22.0--r40hdfd78af_1"
+ - "1.20.0--r40_0"
+ - "1.18.0--r36_0"
+ - "1.16.0--r36_1"
+ - "1.14.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xbseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xbseq", "latest": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe"}, "tags": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe"}, "docker": "quay.io/biocontainers/bioconductor-xbseq", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xbseq", "latest": {"1.22.0--r40hdfd78af_1": "sha256:ef9cd4650c945966287fb14e2ea4f069b77181b587a962327122c9a57b5a4d3b"}, "tags": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe", "1.22.0--r40hdfd78af_1": "sha256:ef9cd4650c945966287fb14e2ea4f069b77181b587a962327122c9a57b5a4d3b", "1.20.0--r40_0": "sha256:64161f9e78cdde38d857c53948305c6f3014dd528477bfe5bd3dce573f6a427f", "1.18.0--r36_0": "sha256:eb72f3b13b8c71e1d9c4f6cbe0651da10b932de00f2c975af5327a83e34307e9", "1.16.0--r36_1": "sha256:e0b0d748a376fd1a4673e87305174a1f52cc70f9c05bd546e1aa1a4c38596278", "1.14.0--r351_0": "sha256:28f8908e21629c1ea942a78d62117335b43f5d39b4fb6c60b608fc7258cfacd0"}, "docker": "quay.io/biocontainers/bioconductor-xbseq", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xbseq.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xbseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xbseq:1.8.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-xbseq:1.22.0--r40hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xbseq/1.8.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-xbseq/1.8.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-xbseq/1.22.0--r40hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-xbseq/1.22.0--r40hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

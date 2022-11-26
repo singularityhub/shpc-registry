@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-goalie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-goalie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-goalie/container.yaml"
-updated_at: "2022-11-25 00:32:46.274612"
-latest: "0.6.0--r41hdfd78af_0"
+updated_at: "2022-11-26 00:30:59.227244"
+latest: "0.6.6--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-goalie"
 
 versions:
  - "0.6.0--r41hdfd78af_0"
+ - "0.6.6--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-goalie"
-config: {"url": "https://biocontainers.pro/tools/r-goalie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-goalie", "latest": {"0.6.0--r41hdfd78af_0": "sha256:a325da85dec2f4b653c6b77314852291f8a6384534a21cc0bab715e4d9581f38"}, "tags": {"0.6.0--r41hdfd78af_0": "sha256:a325da85dec2f4b653c6b77314852291f8a6384534a21cc0bab715e4d9581f38"}, "docker": "quay.io/biocontainers/r-goalie"}
+config: {"url": "https://biocontainers.pro/tools/r-goalie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-goalie", "latest": {"0.6.6--r42hdfd78af_1": "sha256:b5b8d73740d55553148c7de88b54315d0a5ba843ba468b7fd408f99a72635be2"}, "tags": {"0.6.0--r41hdfd78af_0": "sha256:a325da85dec2f4b653c6b77314852291f8a6384534a21cc0bab715e4d9581f38", "0.6.6--r42hdfd78af_1": "sha256:b5b8d73740d55553148c7de88b54315d0a5ba843ba468b7fd408f99a72635be2"}, "docker": "quay.io/biocontainers/r-goalie"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-goalie.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-goalie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-goalie:0.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-goalie:0.6.6--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-goalie/0.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-goalie/0.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-goalie/0.6.6--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-goalie/0.6.6--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxopy/container.yaml"
-updated_at: "2022-11-25 00:17:31.362524"
-latest: "0.9.2--pyhdfd78af_0"
+updated_at: "2022-11-26 00:15:32.453994"
+latest: "0.10.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxopy"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.9.2--pyhdfd78af_0"
+ - "0.10.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for taxopy"
-config: {"url": "https://biocontainers.pro/tools/taxopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxopy", "latest": {"0.9.2--pyhdfd78af_0": "sha256:a0cfba7487700a0b74c8b93a04d259e3f85cded04956736cb3768c61841aee16"}, "tags": {"0.9.2--pyhdfd78af_0": "sha256:a0cfba7487700a0b74c8b93a04d259e3f85cded04956736cb3768c61841aee16"}, "docker": "quay.io/biocontainers/taxopy", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/taxopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxopy", "latest": {"0.10.2--pyhdfd78af_0": "sha256:84b4f2fbf6adfde35461b045202e5c48d3ed4b3ca1659a4b02ebf447e737ca18"}, "tags": {"0.9.2--pyhdfd78af_0": "sha256:a0cfba7487700a0b74c8b93a04d259e3f85cded04956736cb3768c61841aee16", "0.10.2--pyhdfd78af_0": "sha256:84b4f2fbf6adfde35461b045202e5c48d3ed4b3ca1659a4b02ebf447e737ca18"}, "docker": "quay.io/biocontainers/taxopy", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxopy.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/taxopy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxopy:0.9.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/taxopy:0.10.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxopy/0.9.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/taxopy/0.9.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/taxopy/0.10.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/taxopy/0.10.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

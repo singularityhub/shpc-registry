@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/magcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magcluster/container.yaml"
-updated_at: "2022-11-25 00:00:47.255568"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2022-11-25 23:58:47.397898"
+latest: "0.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magcluster"
 aliases:
  - "clinker"
@@ -23,8 +23,9 @@ aliases:
  - "prokka-tigrfams_to_hmm"
 versions:
  - "0.2.2--pyhdfd78af_0"
+ - "0.2.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for magcluster"
-config: {"url": "https://biocontainers.pro/tools/magcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magcluster", "latest": {"0.2.2--pyhdfd78af_0": "sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d"}, "docker": "quay.io/biocontainers/magcluster", "aliases": {"clinker": "/usr/local/bin/clinker", "magcluster": "/usr/local/bin/magcluster", "prokka-make_tarball": "/usr/local/bin/prokka-make_tarball", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db", "prokka-genpept_to_fasta_db": "/usr/local/bin/prokka-genpept_to_fasta_db", "prokka-hamap_to_hmm": "/usr/local/bin/prokka-hamap_to_hmm", "prokka-tigrfams_to_hmm": "/usr/local/bin/prokka-tigrfams_to_hmm"}}
+config: {"url": "https://biocontainers.pro/tools/magcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magcluster", "latest": {"0.2.5--pyhdfd78af_0": "sha256:268c4c8f634b86c3d38a13e2e1fa929fa3c53a0daf36d7a57b858827136873db"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d", "0.2.5--pyhdfd78af_0": "sha256:268c4c8f634b86c3d38a13e2e1fa929fa3c53a0daf36d7a57b858827136873db"}, "docker": "quay.io/biocontainers/magcluster", "aliases": {"clinker": "/usr/local/bin/clinker", "magcluster": "/usr/local/bin/magcluster", "prokka-make_tarball": "/usr/local/bin/prokka-make_tarball", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db", "prokka-genpept_to_fasta_db": "/usr/local/bin/prokka-genpept_to_fasta_db", "prokka-hamap_to_hmm": "/usr/local/bin/prokka-hamap_to_hmm", "prokka-tigrfams_to_hmm": "/usr/local/bin/prokka-tigrfams_to_hmm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/magcluster.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/magcluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/magcluster:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/magcluster:0.2.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/magcluster/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/magcluster/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/magcluster/0.2.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/magcluster/0.2.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

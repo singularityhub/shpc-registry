@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ramr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ramr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ramr/container.yaml"
-updated_at: "2022-11-25 00:27:59.236791"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-26 00:26:11.071944"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ramr"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ramr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ramr", "latest": {"1.2.0--r41hdfd78af_0": "sha256:5101cb7045e88a3324ba6c50d2b88356c2d6c59dbff14a54eece728396e812c2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:5101cb7045e88a3324ba6c50d2b88356c2d6c59dbff14a54eece728396e812c2"}, "docker": "quay.io/biocontainers/bioconductor-ramr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ramr", "latest": {"1.6.0--r42hdfd78af_0": "sha256:78c5500b4734768e324c29e4925e8a93b72fe6b6c9559489353387f3b662db98"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:5101cb7045e88a3324ba6c50d2b88356c2d6c59dbff14a54eece728396e812c2", "1.6.0--r42hdfd78af_0": "sha256:78c5500b4734768e324c29e4925e8a93b72fe6b6c9559489353387f3b662db98"}, "docker": "quay.io/biocontainers/bioconductor-ramr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ramr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ramr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ramr:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ramr:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ramr/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ramr/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ramr/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ramr/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

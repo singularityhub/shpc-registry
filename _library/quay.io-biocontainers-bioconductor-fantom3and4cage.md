@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-fantom3and4cage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fantom3and4cage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fantom3and4cage/container.yaml"
-updated_at: "2022-11-25 00:18:51.720631"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-26 00:16:53.494443"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fantom3and4cage"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fantom3and4cage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fantom3and4cage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fantom3and4cage", "latest": {"1.30.0--r41hdfd78af_1": "sha256:d3bda7169fd4282497bca0f181633f04aa950b6c26501b955f690fa899517581"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:d3bda7169fd4282497bca0f181633f04aa950b6c26501b955f690fa899517581"}, "docker": "quay.io/biocontainers/bioconductor-fantom3and4cage"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fantom3and4cage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fantom3and4cage", "latest": {"1.33.0--r42hdfd78af_0": "sha256:4b3ae605c2b8e7e9cc60ff966212a4cc8bdd3e37821c93e2c8666f0c99830dcd"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:d3bda7169fd4282497bca0f181633f04aa950b6c26501b955f690fa899517581", "1.33.0--r42hdfd78af_0": "sha256:4b3ae605c2b8e7e9cc60ff966212a4cc8bdd3e37821c93e2c8666f0c99830dcd"}, "docker": "quay.io/biocontainers/bioconductor-fantom3and4cage"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fantom3and4cage.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fantom3and4cage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fantom3and4cage:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-fantom3and4cage:1.33.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fantom3and4cage/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-fantom3and4cage/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-fantom3and4cage/1.33.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fantom3and4cage/1.33.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

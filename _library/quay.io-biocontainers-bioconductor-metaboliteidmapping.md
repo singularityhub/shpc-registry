@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-metaboliteidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaboliteidmapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaboliteidmapping/container.yaml"
-updated_at: "2022-11-24 23:50:51.876483"
-latest: "1.0.0--r41hdfd78af_2"
+updated_at: "2022-11-25 23:48:53.082123"
+latest: "1.0.0--r42hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaboliteidmapping"
 
 versions:
  - "1.0.0--r41hdfd78af_2"
+ - "1.0.0--r42hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-metaboliteidmapping"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metaboliteidmapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metaboliteidmapping", "latest": {"1.0.0--r41hdfd78af_2": "sha256:6ea3850b4d6feab379bbb80886f10f444e73ebbc5c5d75a9fa708d5a28f99235"}, "tags": {"1.0.0--r41hdfd78af_2": "sha256:6ea3850b4d6feab379bbb80886f10f444e73ebbc5c5d75a9fa708d5a28f99235"}, "docker": "quay.io/biocontainers/bioconductor-metaboliteidmapping"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metaboliteidmapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metaboliteidmapping", "latest": {"1.0.0--r42hdfd78af_3": "sha256:ccf50652c17ced99174199c811f992a5a66c64fa65c9438c308e433fa7cf89e0"}, "tags": {"1.0.0--r41hdfd78af_2": "sha256:6ea3850b4d6feab379bbb80886f10f444e73ebbc5c5d75a9fa708d5a28f99235", "1.0.0--r42hdfd78af_3": "sha256:ccf50652c17ced99174199c811f992a5a66c64fa65c9438c308e433fa7cf89e0"}, "docker": "quay.io/biocontainers/bioconductor-metaboliteidmapping"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metaboliteidmapping.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metaboliteidmapping
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metaboliteidmapping:1.0.0--r41hdfd78af_2
+$ shpc install quay.io/biocontainers/bioconductor-metaboliteidmapping:1.0.0--r42hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metaboliteidmapping/1.0.0--r41hdfd78af_2
-$ module help quay.io/biocontainers/bioconductor-metaboliteidmapping/1.0.0--r41hdfd78af_2
+$ module load quay.io/biocontainers/bioconductor-metaboliteidmapping/1.0.0--r42hdfd78af_3
+$ module help quay.io/biocontainers/bioconductor-metaboliteidmapping/1.0.0--r42hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

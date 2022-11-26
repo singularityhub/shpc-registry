@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epic/container.yaml"
-updated_at: "2022-11-25 00:31:31.472707"
-latest: "0.2.9--pyh24bf2e0_1"
+updated_at: "2022-11-26 00:29:42.601996"
+latest: "0.2.12--py36h785e9b2_3"
 container_url: "https://biocontainers.pro/tools/epic"
 
 versions:
  - "0.2.9--pyh24bf2e0_1"
+ - "0.2.12--py36h785e9b2_3"
 description: "shpc-registry automated BioContainers addition for epic"
-config: {"url": "https://biocontainers.pro/tools/epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic", "latest": {"0.2.9--pyh24bf2e0_1": "sha256:17c5ad416be4e34da39eba6f2d0f354a5202a4bd3ad44a69491d24cd082c8368"}, "tags": {"0.2.9--pyh24bf2e0_1": "sha256:17c5ad416be4e34da39eba6f2d0f354a5202a4bd3ad44a69491d24cd082c8368"}, "docker": "quay.io/biocontainers/epic"}
+config: {"url": "https://biocontainers.pro/tools/epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic", "latest": {"0.2.12--py36h785e9b2_3": "sha256:622323cdd5771c01b8eda17709eaf608f368a44a63cea02167b0a15068046ede"}, "tags": {"0.2.9--pyh24bf2e0_1": "sha256:17c5ad416be4e34da39eba6f2d0f354a5202a4bd3ad44a69491d24cd082c8368", "0.2.12--py36h785e9b2_3": "sha256:622323cdd5771c01b8eda17709eaf608f368a44a63cea02167b0a15068046ede"}, "docker": "quay.io/biocontainers/epic"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epic.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/epic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epic:0.2.9--pyh24bf2e0_1
+$ shpc install quay.io/biocontainers/epic:0.2.12--py36h785e9b2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epic/0.2.9--pyh24bf2e0_1
-$ module help quay.io/biocontainers/epic/0.2.9--pyh24bf2e0_1
+$ module load quay.io/biocontainers/epic/0.2.12--py36h785e9b2_3
+$ module help quay.io/biocontainers/epic/0.2.12--py36h785e9b2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

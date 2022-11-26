@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-riborex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-riborex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-riborex/container.yaml"
-updated_at: "2022-11-25 00:25:23.823703"
-latest: "2.4.0--r41hdfd78af_4"
+updated_at: "2022-11-26 00:23:33.554950"
+latest: "2.4.0--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-riborex"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.4.0--r41hdfd78af_4"
+ - "2.4.0--r42hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-riborex"
-config: {"url": "https://biocontainers.pro/tools/r-riborex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-riborex", "latest": {"2.4.0--r41hdfd78af_4": "sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf"}, "tags": {"2.4.0--r41hdfd78af_4": "sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf"}, "docker": "quay.io/biocontainers/r-riborex", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-riborex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-riborex", "latest": {"2.4.0--r42hdfd78af_5": "sha256:fb9ee3cadec743b2e647abcfb8cc6b7d1fea168090c14c3e599adc34cf18bc4b"}, "tags": {"2.4.0--r41hdfd78af_4": "sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf", "2.4.0--r42hdfd78af_5": "sha256:fb9ee3cadec743b2e647abcfb8cc6b7d1fea168090c14c3e599adc34cf18bc4b"}, "docker": "quay.io/biocontainers/r-riborex", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-riborex.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-riborex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-riborex:2.4.0--r41hdfd78af_4
+$ shpc install quay.io/biocontainers/r-riborex:2.4.0--r42hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-riborex/2.4.0--r41hdfd78af_4
-$ module help quay.io/biocontainers/r-riborex/2.4.0--r41hdfd78af_4
+$ module load quay.io/biocontainers/r-riborex/2.4.0--r42hdfd78af_5
+$ module help quay.io/biocontainers/r-riborex/2.4.0--r42hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

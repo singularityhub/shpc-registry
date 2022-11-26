@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-donapllp2013"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-donapllp2013/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-donapllp2013/container.yaml"
-updated_at: "2022-11-25 00:30:36.236589"
+updated_at: "2022-11-26 00:28:47.932916"
 latest: "1.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-donapllp2013"
 aliases:

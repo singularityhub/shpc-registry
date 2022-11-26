@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-blima"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blima/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blima/container.yaml"
-updated_at: "2022-11-25 00:17:59.719329"
-latest: "1.28.0--r41hc247a5b_2"
+updated_at: "2022-11-26 00:16:01.012279"
+latest: "1.32.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blima"
 
 versions:
  - "1.28.0--r41hc247a5b_2"
+ - "1.32.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-blima"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-blima", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blima", "latest": {"1.28.0--r41hc247a5b_2": "sha256:6e43eeb54dd17e5557e1ada227ada0f312c11d79d8a6204ef9a007331f938c14"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:6e43eeb54dd17e5557e1ada227ada0f312c11d79d8a6204ef9a007331f938c14"}, "docker": "quay.io/biocontainers/bioconductor-blima"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-blima", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blima", "latest": {"1.32.0--r42hc247a5b_0": "sha256:da645990c16051fb4ae84dee558d2aefa07a1dfffa2884f0346bf7d6fb36af91"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:6e43eeb54dd17e5557e1ada227ada0f312c11d79d8a6204ef9a007331f938c14", "1.32.0--r42hc247a5b_0": "sha256:da645990c16051fb4ae84dee558d2aefa07a1dfffa2884f0346bf7d6fb36af91"}, "docker": "quay.io/biocontainers/bioconductor-blima"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-blima.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-blima
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-blima:1.28.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-blima:1.32.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-blima/1.28.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-blima/1.28.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-blima/1.32.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-blima/1.32.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

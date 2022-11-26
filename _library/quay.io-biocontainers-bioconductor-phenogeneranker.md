@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-phenogeneranker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenogeneranker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenogeneranker/container.yaml"
-updated_at: "2022-11-25 00:26:42.331041"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-26 00:24:52.790001"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenogeneranker"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phenogeneranker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phenogeneranker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenogeneranker", "latest": {"1.2.0--r41hdfd78af_0": "sha256:a468b8970a17f2d0415a6ff0e959911ee1453f4e571d463d7b4b4226477dc59e"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a468b8970a17f2d0415a6ff0e959911ee1453f4e571d463d7b4b4226477dc59e"}, "docker": "quay.io/biocontainers/bioconductor-phenogeneranker"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phenogeneranker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenogeneranker", "latest": {"1.6.0--r42hdfd78af_0": "sha256:f51f415590cbe67fff177ce01519c7b3a354ff0aff61f131a5ee8f9c5a2cd6ff"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a468b8970a17f2d0415a6ff0e959911ee1453f4e571d463d7b4b4226477dc59e", "1.6.0--r42hdfd78af_0": "sha256:f51f415590cbe67fff177ce01519c7b3a354ff0aff61f131a5ee8f9c5a2cd6ff"}, "docker": "quay.io/biocontainers/bioconductor-phenogeneranker"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phenogeneranker.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phenogeneranker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phenogeneranker:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-phenogeneranker:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phenogeneranker/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-phenogeneranker/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-phenogeneranker/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phenogeneranker/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/skmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skmer/container.yaml"
-updated_at: "2022-11-25 00:12:09.693653"
-latest: "3.2.1--pyhfa5458b_0"
+updated_at: "2022-11-26 00:10:05.024727"
+latest: "3.3.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/skmer"
 aliases:
  - "skmer"
@@ -21,8 +21,9 @@ aliases:
  - "idle3.10"
 versions:
  - "3.2.1--pyhfa5458b_0"
+ - "3.3.0--pyh086e186_0"
 description: "shpc-registry automated BioContainers addition for skmer"
-config: {"url": "https://biocontainers.pro/tools/skmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skmer", "latest": {"3.2.1--pyhfa5458b_0": "sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171"}, "tags": {"3.2.1--pyhfa5458b_0": "sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171"}, "docker": "quay.io/biocontainers/skmer", "aliases": {"skmer": "/usr/local/bin/skmer", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "jellyfish": "/usr/local/bin/jellyfish", "mash": "/usr/local/bin/mash", "seqtk": "/usr/local/bin/seqtk", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/skmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skmer", "latest": {"3.3.0--pyh086e186_0": "sha256:02d96b018f9014b3847079ff0ee92582f6792b4b49c7468f41cfac3f1ee420c8"}, "tags": {"3.2.1--pyhfa5458b_0": "sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171", "3.3.0--pyh086e186_0": "sha256:02d96b018f9014b3847079ff0ee92582f6792b4b49c7468f41cfac3f1ee420c8"}, "docker": "quay.io/biocontainers/skmer", "aliases": {"skmer": "/usr/local/bin/skmer", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "jellyfish": "/usr/local/bin/jellyfish", "mash": "/usr/local/bin/mash", "seqtk": "/usr/local/bin/seqtk", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skmer.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/skmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skmer:3.2.1--pyhfa5458b_0
+$ shpc install quay.io/biocontainers/skmer:3.3.0--pyh086e186_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skmer/3.2.1--pyhfa5458b_0
-$ module help quay.io/biocontainers/skmer/3.2.1--pyhfa5458b_0
+$ module load quay.io/biocontainers/skmer/3.3.0--pyh086e186_0
+$ module help quay.io/biocontainers/skmer/3.3.0--pyh086e186_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

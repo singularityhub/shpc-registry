@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/graphaligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphaligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphaligner/container.yaml"
-updated_at: "2022-11-24 23:49:57.905443"
-latest: "1.0.9--he1c1bb9_1"
+updated_at: "2022-11-25 23:47:59.175370"
+latest: "1.0.16--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/graphaligner"
 aliases:
  - "GraphAligner"
 versions:
  - "1.0.9--he1c1bb9_1"
+ - "1.0.16--hd03093a_1"
 description: "shpc-registry automated BioContainers addition for graphaligner"
-config: {"url": "https://biocontainers.pro/tools/graphaligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphaligner", "latest": {"1.0.9--he1c1bb9_1": "sha256:28a81276d23bd844c95adc9cabc8b074e481007a375930833b797831b3214ebd"}, "tags": {"1.0.9--he1c1bb9_1": "sha256:28a81276d23bd844c95adc9cabc8b074e481007a375930833b797831b3214ebd"}, "docker": "quay.io/biocontainers/graphaligner", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner"}}
+config: {"url": "https://biocontainers.pro/tools/graphaligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphaligner", "latest": {"1.0.16--hd03093a_1": "sha256:185a85aa0d8b1d30f92497336150734698a41d65c99ae74718b45f3764d24127"}, "tags": {"1.0.9--he1c1bb9_1": "sha256:28a81276d23bd844c95adc9cabc8b074e481007a375930833b797831b3214ebd", "1.0.16--hd03093a_1": "sha256:185a85aa0d8b1d30f92497336150734698a41d65c99ae74718b45f3764d24127"}, "docker": "quay.io/biocontainers/graphaligner", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphaligner.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/graphaligner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphaligner:1.0.9--he1c1bb9_1
+$ shpc install quay.io/biocontainers/graphaligner:1.0.16--hd03093a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphaligner/1.0.9--he1c1bb9_1
-$ module help quay.io/biocontainers/graphaligner/1.0.9--he1c1bb9_1
+$ module load quay.io/biocontainers/graphaligner/1.0.16--hd03093a_1
+$ module help quay.io/biocontainers/graphaligner/1.0.16--hd03093a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

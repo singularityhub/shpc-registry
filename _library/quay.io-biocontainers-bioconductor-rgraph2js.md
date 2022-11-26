@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-rgraph2js"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgraph2js/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgraph2js/container.yaml"
-updated_at: "2022-11-25 00:15:35.128351"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-26 00:13:33.325457"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgraph2js"
 
 versions:
  - "1.8.0--r351_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgraph2js"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgraph2js", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgraph2js", "latest": {"1.8.0--r351_0": "sha256:3f91db46e2a9c38090b552a20bad405a2e6fc52790389e5df9fcbb62491f1bb0"}, "tags": {"1.8.0--r351_0": "sha256:3f91db46e2a9c38090b552a20bad405a2e6fc52790389e5df9fcbb62491f1bb0"}, "docker": "quay.io/biocontainers/bioconductor-rgraph2js"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgraph2js", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgraph2js", "latest": {"1.26.0--r42hdfd78af_0": "sha256:c707162d9acee948ee31432cdb4bc89b7e38fa1537584b9d1fbc231fd09beca3"}, "tags": {"1.8.0--r351_0": "sha256:3f91db46e2a9c38090b552a20bad405a2e6fc52790389e5df9fcbb62491f1bb0", "1.26.0--r42hdfd78af_0": "sha256:c707162d9acee948ee31432cdb4bc89b7e38fa1537584b9d1fbc231fd09beca3", "1.22.0--r41hdfd78af_0": "sha256:7a900d08b116d09af0f0b53c1579bd12f364c337484a95505024b162087ed742", "1.20.0--r41hdfd78af_0": "sha256:047f383ddfeaf53dca9304a9aacab38248ee07a8c95a2f195a783d52379844fd", "1.18.0--r40hdfd78af_1": "sha256:06be7a061857d86c05f0aed1d3b3253ae27e56e0500a4c2074bc96d24fd9b10e", "1.16.0--r40_0": "sha256:9ae5c4d62d421da4b4c3d170f8cc3b0b6c2ec71cede5edfd129530af93a2f252"}, "docker": "quay.io/biocontainers/bioconductor-rgraph2js"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgraph2js.
@@ -26,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgraph2js
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgraph2js:1.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-rgraph2js:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgraph2js/1.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-rgraph2js/1.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-rgraph2js/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rgraph2js/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

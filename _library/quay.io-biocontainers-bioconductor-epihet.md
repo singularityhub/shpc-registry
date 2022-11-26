@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-epihet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epihet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epihet/container.yaml"
-updated_at: "2022-11-25 00:25:46.101531"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-26 00:23:55.998666"
+latest: "1.13.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epihet"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.13.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epihet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epihet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epihet", "latest": {"1.8.0--r41hdfd78af_0": "sha256:9fdda811379f6f1c62312c88944525d1bac212e80bbcba8ff5d5812a8b1b1b53"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:9fdda811379f6f1c62312c88944525d1bac212e80bbcba8ff5d5812a8b1b1b53"}, "docker": "quay.io/biocontainers/bioconductor-epihet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epihet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epihet", "latest": {"1.13.0--r42hdfd78af_0": "sha256:2f618a209b6a42348dcead753829a9012f7ce8583e6630e4fe52c89a8b1f5f91"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:9fdda811379f6f1c62312c88944525d1bac212e80bbcba8ff5d5812a8b1b1b53", "1.13.0--r42hdfd78af_0": "sha256:2f618a209b6a42348dcead753829a9012f7ce8583e6630e4fe52c89a8b1f5f91", "1.10.0--r41hdfd78af_0": "sha256:945a5f80fe6964b636e807b1e1af4abb844580953c7d97a6079e96744603de76"}, "docker": "quay.io/biocontainers/bioconductor-epihet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epihet.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epihet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epihet:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epihet:1.13.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epihet/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epihet/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epihet/1.13.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epihet/1.13.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

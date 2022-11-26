@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-toolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-toolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-toolbox/container.yaml"
-updated_at: "2022-11-24 23:43:06.507870"
+updated_at: "2022-11-25 23:41:02.302759"
 latest: "0.4--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-test-toolbox"
 aliases:

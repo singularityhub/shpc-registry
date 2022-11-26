@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ibbig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ibbig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ibbig/container.yaml"
-updated_at: "2022-11-24 23:41:38.758737"
-latest: "1.38.0--r41hc0cfd56_2"
+updated_at: "2022-11-25 23:39:33.526127"
+latest: "1.42.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ibbig"
 
 versions:
  - "1.38.0--r41hc0cfd56_2"
+ - "1.42.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ibbig"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ibbig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibbig", "latest": {"1.38.0--r41hc0cfd56_2": "sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d"}, "docker": "quay.io/biocontainers/bioconductor-ibbig"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ibbig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibbig", "latest": {"1.42.0--r42hc0cfd56_0": "sha256:8adfd78d9444c1553b7abee5d2e36009c3cae8449910e9e914b940813565ab73"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d", "1.42.0--r42hc0cfd56_0": "sha256:8adfd78d9444c1553b7abee5d2e36009c3cae8449910e9e914b940813565ab73"}, "docker": "quay.io/biocontainers/bioconductor-ibbig"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ibbig.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ibbig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ibbig:1.38.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-ibbig:1.42.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ibbig/1.38.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-ibbig/1.38.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-ibbig/1.42.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-ibbig/1.42.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

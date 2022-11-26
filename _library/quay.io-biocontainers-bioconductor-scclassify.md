@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-scclassify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scclassify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scclassify/container.yaml"
-updated_at: "2022-11-25 00:23:17.148257"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-26 00:21:24.342195"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scclassify"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scclassify"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scclassify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scclassify", "latest": {"1.6.0--r41hdfd78af_0": "sha256:c67631194638007f8f3da8c485d0b3948a581d97aa8fdf6400a9f83d1e3b1591"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c67631194638007f8f3da8c485d0b3948a581d97aa8fdf6400a9f83d1e3b1591"}, "docker": "quay.io/biocontainers/bioconductor-scclassify"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scclassify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scclassify", "latest": {"1.10.0--r42hdfd78af_0": "sha256:b3f4b05800f9151a74f5d74ccedcbaacb6baad78062113564467634ba688c0b7"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c67631194638007f8f3da8c485d0b3948a581d97aa8fdf6400a9f83d1e3b1591", "1.10.0--r42hdfd78af_0": "sha256:b3f4b05800f9151a74f5d74ccedcbaacb6baad78062113564467634ba688c0b7"}, "docker": "quay.io/biocontainers/bioconductor-scclassify"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scclassify.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scclassify
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scclassify:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scclassify:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scclassify/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scclassify/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scclassify/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scclassify/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biggr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biggr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biggr/container.yaml"
-updated_at: "2022-11-24 23:56:35.419412"
-latest: "1.30.0--r41hdfd78af_0"
+updated_at: "2022-11-25 23:54:37.228174"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biggr"
 aliases:
  - "diffimg"
@@ -20,8 +20,9 @@ aliases:
  - "stl2gts"
 versions:
  - "1.30.0--r41hdfd78af_0"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biggr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biggr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biggr", "latest": {"1.30.0--r41hdfd78af_0": "sha256:f7474aabc31589ff83a482b52b7a1dc931cbf3b16c128a6ab17f94fe9889b64a"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:f7474aabc31589ff83a482b52b7a1dc931cbf3b16c128a6ab17f94fe9889b64a"}, "docker": "quay.io/biocontainers/bioconductor-biggr", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biggr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biggr", "latest": {"1.34.0--r42hdfd78af_0": "sha256:18cd38beeffbb128c0d739c3d863b3d3b505318948e937e2fe339bc30cc25099"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:f7474aabc31589ff83a482b52b7a1dc931cbf3b16c128a6ab17f94fe9889b64a", "1.34.0--r42hdfd78af_0": "sha256:18cd38beeffbb128c0d739c3d863b3d3b505318948e937e2fe339bc30cc25099"}, "docker": "quay.io/biocontainers/bioconductor-biggr", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biggr.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biggr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biggr:1.30.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biggr:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biggr/1.30.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biggr/1.30.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biggr/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biggr/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

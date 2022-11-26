@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38/container.yaml"
-updated_at: "2022-11-24 23:54:22.616191"
-latest: "3.13.0--r41hdfd78af_2"
+updated_at: "2022-11-25 23:52:24.908489"
+latest: "3.13.1--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.v3.1.1.grch38"
 
 versions:
  - "3.13.0--r41hdfd78af_2"
+ - "3.13.1--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafh5.gnomad.v3.1.1.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.v3.1.1.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafh5.gnomad.v3.1.1.grch38", "latest": {"3.13.0--r41hdfd78af_2": "sha256:d5ac07c8b2de60d3918b33c9a4e02bd3f18c3c1c5a1d74b71297c26cebba3b1e"}, "tags": {"3.13.0--r41hdfd78af_2": "sha256:d5ac07c8b2de60d3918b33c9a4e02bd3f18c3c1c5a1d74b71297c26cebba3b1e"}, "docker": "quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.v3.1.1.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafh5.gnomad.v3.1.1.grch38", "latest": {"3.13.1--r42hdfd78af_0": "sha256:776c44f88a17dc45e0617ec900e74af77187c709f17d2120eca69127961c8b81"}, "tags": {"3.13.0--r41hdfd78af_2": "sha256:d5ac07c8b2de60d3918b33c9a4e02bd3f18c3c1c5a1d74b71297c26cebba3b1e", "3.13.1--r42hdfd78af_0": "sha256:776c44f88a17dc45e0617ec900e74af77187c709f17d2120eca69127961c8b81"}, "docker": "quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38:3.13.0--r41hdfd78af_2
+$ shpc install quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38:3.13.1--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38/3.13.0--r41hdfd78af_2
-$ module help quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38/3.13.0--r41hdfd78af_2
+$ module load quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38/3.13.1--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38/3.13.1--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tspex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tspex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tspex/container.yaml"
-updated_at: "2022-11-24 23:45:17.478622"
+updated_at: "2022-11-25 23:43:15.156036"
 latest: "0.6.2--py_0"
 container_url: "https://biocontainers.pro/tools/tspex"
 aliases:

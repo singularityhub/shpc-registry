@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-compepitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compepitools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compepitools/container.yaml"
-updated_at: "2022-11-24 23:59:00.017861"
-latest: "1.27.0--r41hdfd78af_0"
+updated_at: "2022-11-25 23:57:01.631390"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-compepitools"
 
 versions:
  - "1.27.0--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-compepitools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-compepitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-compepitools", "latest": {"1.27.0--r41hdfd78af_0": "sha256:041c0c2d3d617c665ef4c966f8b9b9bce12de7262dddc32be531771e45dd064b"}, "tags": {"1.27.0--r41hdfd78af_0": "sha256:041c0c2d3d617c665ef4c966f8b9b9bce12de7262dddc32be531771e45dd064b"}, "docker": "quay.io/biocontainers/bioconductor-compepitools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-compepitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-compepitools", "latest": {"1.32.0--r42hdfd78af_0": "sha256:66430ff39ae16db3da94daf715cc99d20414d7dac4a58ce1694a68fac78f9cce"}, "tags": {"1.27.0--r41hdfd78af_0": "sha256:041c0c2d3d617c665ef4c966f8b9b9bce12de7262dddc32be531771e45dd064b", "1.32.0--r42hdfd78af_0": "sha256:66430ff39ae16db3da94daf715cc99d20414d7dac4a58ce1694a68fac78f9cce"}, "docker": "quay.io/biocontainers/bioconductor-compepitools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-compepitools.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-compepitools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-compepitools:1.27.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-compepitools:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-compepitools/1.27.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-compepitools/1.27.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-compepitools/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-compepitools/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

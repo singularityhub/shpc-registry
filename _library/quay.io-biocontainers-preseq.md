@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/preseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/preseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/preseq/container.yaml"
-updated_at: "2022-11-25 00:25:54.251497"
+updated_at: "2022-11-26 00:24:04.300766"
 latest: "3.2.0--h867801b_3"
 container_url: "https://biocontainers.pro/tools/preseq"
 aliases:

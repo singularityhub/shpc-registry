@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/itk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itk/container.yaml"
-updated_at: "2022-11-25 00:05:30.365147"
-latest: "4.6.1--py35_1"
+updated_at: "2022-11-26 00:03:27.731420"
+latest: "4.10.1--py27_2"
 container_url: "https://biocontainers.pro/tools/itk"
 aliases:
  - "itkTestDriver"
@@ -21,8 +21,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "4.6.1--py35_1"
+ - "4.10.1--py27_2"
 description: "shpc-registry automated BioContainers addition for itk"
-config: {"url": "https://biocontainers.pro/tools/itk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itk", "latest": {"4.6.1--py35_1": "sha256:3541075669d7d559c102b127cd73d02c5b2bd09b00780014876bd76ed248c185"}, "tags": {"4.6.1--py35_1": "sha256:3541075669d7d559c102b127cd73d02c5b2bd09b00780014876bd76ed248c185"}, "docker": "quay.io/biocontainers/itk", "aliases": {"itkTestDriver": "/usr/local/bin/itkTestDriver", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/itk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itk", "latest": {"4.10.1--py27_2": "sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f"}, "tags": {"4.6.1--py35_1": "sha256:3541075669d7d559c102b127cd73d02c5b2bd09b00780014876bd76ed248c185", "4.10.1--py27_2": "sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f"}, "docker": "quay.io/biocontainers/itk", "aliases": {"itkTestDriver": "/usr/local/bin/itkTestDriver", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itk.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/itk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/itk:4.6.1--py35_1
+$ shpc install quay.io/biocontainers/itk:4.10.1--py27_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/itk/4.6.1--py35_1
-$ module help quay.io/biocontainers/itk/4.6.1--py35_1
+$ module load quay.io/biocontainers/itk/4.10.1--py27_2
+$ module help quay.io/biocontainers/itk/4.10.1--py27_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

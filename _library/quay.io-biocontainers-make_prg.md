@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/make_prg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/make_prg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/make_prg/container.yaml"
-updated_at: "2022-11-25 00:24:18.606974"
+updated_at: "2022-11-26 00:22:26.833674"
 latest: "0.1.1--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/make_prg"
 aliases:

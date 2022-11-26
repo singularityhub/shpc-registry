@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellid/container.yaml"
-updated_at: "2022-11-24 23:43:24.022511"
-latest: "1.2.1--r41hc247a5b_1"
+updated_at: "2022-11-25 23:41:20.165724"
+latest: "1.6.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellid"
 aliases:
  - "geosop"
@@ -13,8 +13,9 @@ aliases:
  - "glpsol"
 versions:
  - "1.2.1--r41hc247a5b_1"
+ - "1.6.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellid"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellid", "latest": {"1.2.1--r41hc247a5b_1": "sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46"}, "docker": "quay.io/biocontainers/bioconductor-cellid", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellid", "latest": {"1.6.0--r42hc247a5b_0": "sha256:0caf6533c1c42684d5ad13debf5e4e2250ed989f98e207a6bf2cea961f504a78"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46", "1.6.0--r42hc247a5b_0": "sha256:0caf6533c1c42684d5ad13debf5e4e2250ed989f98e207a6bf2cea961f504a78"}, "docker": "quay.io/biocontainers/bioconductor-cellid", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellid.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellid:1.2.1--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-cellid:1.6.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellid/1.2.1--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-cellid/1.2.1--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-cellid/1.6.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cellid/1.6.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rbamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rbamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rbamtools/container.yaml"
-updated_at: "2022-11-25 00:27:10.446342"
+updated_at: "2022-11-26 00:25:21.403364"
 latest: "2.16.11--r351h29659fb_0"
 container_url: "https://biocontainers.pro/tools/r-rbamtools"
 aliases:
