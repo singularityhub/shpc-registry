@@ -3,6 +3,8 @@ name: Update BioContainers
 on:
   schedule:
   - cron: 0 0 1 * *
+  # Temporary just to test more frequently
+  - cron: 0 2 * * *
 
 jobs:
   auto-scan:
