@@ -1,7 +1,6 @@
 name: Update BioContainers
 
 on:
-  pull_request: []
   schedule:
   - cron: 0 0 1 * *
 
@@ -28,7 +27,7 @@ jobs:
       # registry defaults to PWD, branch defaults to main
       # url_format_string defaults to shpc docs, this gets formatted to include the entry_name
     - name: Update Biocontainers
-      uses: singularityhub/singularity-hpc/actions/cache-update@add/update-registry-cache-action
+      uses: singularityhub/singularity-hpc/actions/cache-update@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         cache: https://github.com/singularityhub/shpc-registry-cache
