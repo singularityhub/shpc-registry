@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-decoupler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-decoupler
 latest:
-  2.0.0--r41hdfd78af_0: sha256:6dc9144e875c77817fa3285a3c409ac022b09d81d717a4c4fcf423b35b560cba
+  2.4.0--r42hdfd78af_0: sha256:f8a22397be4a58d350edf348c47d2e9aaa1ce4af99c5b0fd54a83bda0ab21cff
 tags:
   2.0.0--r41hdfd78af_0: sha256:6dc9144e875c77817fa3285a3c409ac022b09d81d717a4c4fcf423b35b560cba
+  2.4.0--r42hdfd78af_0: sha256:f8a22397be4a58d350edf348c47d2e9aaa1ce4af99c5b0fd54a83bda0ab21cff
 docker: quay.io/biocontainers/bioconductor-decoupler

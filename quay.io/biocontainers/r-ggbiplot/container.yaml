@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-ggbiplot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ggbiplot
 latest:
-  0.55--r41hec16e2b_6: sha256:472700031cca35b92a885cfbbce9c5467f24f83a890988c34c6781181af9636e
+  0.55--r42hec16e2b_7: sha256:0354c939a170cba20cfd76e5038edc376804f9fc53ba5360698f28535326b088
 tags:
   0.55--r41hec16e2b_6: sha256:472700031cca35b92a885cfbbce9c5467f24f83a890988c34c6781181af9636e
+  0.55--r42hec16e2b_7: sha256:0354c939a170cba20cfd76e5038edc376804f9fc53ba5360698f28535326b088
 docker: quay.io/biocontainers/r-ggbiplot

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-multisight
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-multisight
 latest:
-  1.2.0--r41hdfd78af_0: sha256:02ce72f1a3a1fee4a5e9791c813cb83d1754492ec35cdb90537308b65f24dd6c
+  1.6.0--r42hdfd78af_0: sha256:3ef7ac5f3a10bb7fb40b5c1fd2c90b5a1bc364ce7cc1a3c7abe900b626a97e66
 tags:
   1.2.0--r41hdfd78af_0: sha256:02ce72f1a3a1fee4a5e9791c813cb83d1754492ec35cdb90537308b65f24dd6c
+  1.6.0--r42hdfd78af_0: sha256:3ef7ac5f3a10bb7fb40b5c1fd2c90b5a1bc364ce7cc1a3c7abe900b626a97e66
 docker: quay.io/biocontainers/bioconductor-multisight
 aliases:
   pandoc: /usr/local/bin/pandoc

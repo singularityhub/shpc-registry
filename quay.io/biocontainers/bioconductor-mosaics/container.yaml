@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-mosaics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mosaics
 latest:
-  2.4.1--0: sha256:e96105f6cfa0d0cd06acd7e07470fd952f4c638e85ed1f76c61e195211539338
+  2.36.0--pl5321r42hc247a5b_0: sha256:b43d169275b96fb421720db6df4eb23b2d8a2dff2a6ecf32df27b8328792b241
 tags:
   2.4.1--0: sha256:e96105f6cfa0d0cd06acd7e07470fd952f4c638e85ed1f76c61e195211539338
+  2.36.0--pl5321r42hc247a5b_0: sha256:b43d169275b96fb421720db6df4eb23b2d8a2dff2a6ecf32df27b8328792b241
+  2.32.0--pl5321r41hc247a5b_2: sha256:b5a4be957da898c81e59dc2e25fc250f0404a86184fa4140d24da985ee1b33f6
+  2.30.0--pl5320r41h399db7b_0: sha256:435d2a51195d1a8aea995dce730880fb90f25eb7ddca60090eb5e477e0601364
+  2.28.0--pl530r40h5f743cb_0: sha256:5befbbd68404051fcc782a292337f3a6efc00750f994b23e47a881ddd9d352ba
+  2.26.0--pl526r40h5f743cb_0: sha256:7f02ff017850501c9c456cffa539a7472c94898e33fcd0bd0bc66756a2a1cf4b
 docker: quay.io/biocontainers/bioconductor-mosaics
 aliases:
   perl5.22.0: /usr/local/bin/perl5.22.0

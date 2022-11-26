@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rnaseqsamplesizedata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnaseqsamplesizedata
 latest:
-  1.26.0--r41hdfd78af_1: sha256:79893ccbe82c7526490da4ebcaa793d74ca18d77e17bf325f5787d23281d91e6
+  1.30.0--r42hdfd78af_1: sha256:bef58b5e269bf2e0c2a8a5446a0e836b16368c1866e13be2f3a6fee0e8a0bdc1
 tags:
   1.26.0--r41hdfd78af_1: sha256:79893ccbe82c7526490da4ebcaa793d74ca18d77e17bf325f5787d23281d91e6
+  1.30.0--r42hdfd78af_1: sha256:bef58b5e269bf2e0c2a8a5446a0e836b16368c1866e13be2f3a6fee0e8a0bdc1
+  1.29.0--r42hdfd78af_0: sha256:6daf0d8d6c53a6162982cb5db0cd6461b5640e8cf15cb6023a242f231216815c
 docker: quay.io/biocontainers/bioconductor-rnaseqsamplesizedata

@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-randomwalkrestartmh
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-randomwalkrestartmh
 latest:
-  1.8.0--r40_0: sha256:ca30d1da0f7ca3958de90b0f7813d1f0170adaf8368e308493d4eeb01cb8c269
+  1.18.0--r42hdfd78af_0: sha256:c3ea59f5f5b88ff7af4afcc11dff20fc312e546f4d21e19ca0caf9bc8670b4a1
 tags:
   1.8.0--r40_0: sha256:ca30d1da0f7ca3958de90b0f7813d1f0170adaf8368e308493d4eeb01cb8c269
+  1.18.0--r42hdfd78af_0: sha256:c3ea59f5f5b88ff7af4afcc11dff20fc312e546f4d21e19ca0caf9bc8670b4a1
+  1.14.0--r41hdfd78af_0: sha256:e089eafb0972c7b368922510c62761c603f3eebf918c200309d7d7c14f91b88d
+  1.12.0--r41hdfd78af_0: sha256:1e8616287e8e6c0a881836e15a2e391ed709e1fd1ac017d17cf8dc1f89e5db4b
+  1.10.0--r40hdfd78af_1: sha256:3087711b3a4f0e72d2234855a7effc8ada1e2ce5133d4f49d04ab2ac4b69d32e
 docker: quay.io/biocontainers/bioconductor-randomwalkrestartmh
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

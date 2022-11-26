@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mirage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirage
 latest:
-  1.36.0--r41hdfd78af_0: sha256:380030860e91df32ae970ffbb5213ea88303b66b5607c50c4b5d17b6551b863d
+  1.40.0--r42hdfd78af_0: sha256:67473f9f0600c071fd2e9584eb632d5b68e4e7923dbbe1a1d07e7774702c89a2
 tags:
   1.36.0--r41hdfd78af_0: sha256:380030860e91df32ae970ffbb5213ea88303b66b5607c50c4b5d17b6551b863d
+  1.40.0--r42hdfd78af_0: sha256:67473f9f0600c071fd2e9584eb632d5b68e4e7923dbbe1a1d07e7774702c89a2
 docker: quay.io/biocontainers/bioconductor-mirage
