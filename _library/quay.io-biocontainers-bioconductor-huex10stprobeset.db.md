@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-huex10stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huex10stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huex10stprobeset.db/container.yaml"
-updated_at: "2022-11-26 14:30:38.248725"
-latest: "8.8.0--r41hdfd78af_1"
+updated_at: "2022-11-27 01:06:18.961327"
+latest: "8.8.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-huex10stprobeset.db"
 
 versions:
  - "8.8.0--r41hdfd78af_1"
+ - "8.8.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-huex10stprobeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-huex10stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-huex10stprobeset.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:ec416066ab85c4fdf9050682d6d5c36ccb5e3ca7561b14e52a85e30593bbc497"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:ec416066ab85c4fdf9050682d6d5c36ccb5e3ca7561b14e52a85e30593bbc497"}, "docker": "quay.io/biocontainers/bioconductor-huex10stprobeset.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-huex10stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-huex10stprobeset.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:cda189b58e13193398df2b5d231ab0734cfbe04a179684fa53d769e9c014bd1c"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:ec416066ab85c4fdf9050682d6d5c36ccb5e3ca7561b14e52a85e30593bbc497", "8.8.0--r42hdfd78af_2": "sha256:cda189b58e13193398df2b5d231ab0734cfbe04a179684fa53d769e9c014bd1c"}, "docker": "quay.io/biocontainers/bioconductor-huex10stprobeset.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-huex10stprobeset.db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-huex10stprobeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-huex10stprobeset.db:8.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-huex10stprobeset.db:8.8.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-huex10stprobeset.db/8.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-huex10stprobeset.db/8.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-huex10stprobeset.db/8.8.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-huex10stprobeset.db/8.8.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

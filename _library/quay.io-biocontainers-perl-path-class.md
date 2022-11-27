@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-path-class"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-path-class/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-path-class/container.yaml"
-updated_at: "2022-11-26 14:30:15.787566"
+updated_at: "2022-11-27 01:05:57.476265"
 latest: "0.37--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-path-class"
 aliases:

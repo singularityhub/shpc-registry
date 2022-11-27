@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ma/container.yaml"
-updated_at: "2022-11-26 14:27:13.517642"
+updated_at: "2022-11-27 01:03:02.181154"
 latest: "2.0.1--py39h6935b12_0"
 container_url: "https://biocontainers.pro/tools/ma"
 aliases:

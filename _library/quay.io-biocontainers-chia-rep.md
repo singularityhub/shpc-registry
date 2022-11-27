@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chia-rep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chia-rep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chia-rep/container.yaml"
-updated_at: "2022-11-26 14:07:22.887054"
+updated_at: "2022-11-27 00:44:30.722146"
 latest: "3.1.1--py36h4aaaa08_2"
 container_url: "https://biocontainers.pro/tools/chia-rep"
 aliases:

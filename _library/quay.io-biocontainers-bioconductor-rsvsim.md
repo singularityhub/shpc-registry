@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rsvsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsvsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsvsim/container.yaml"
-updated_at: "2022-11-26 13:57:42.718715"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2022-11-27 00:35:33.424653"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsvsim"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rsvsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rsvsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsvsim", "latest": {"1.34.0--r41hdfd78af_0": "sha256:0cfede6bcf00bc476d226edc08e39f4f184dfed4f25cde1b2fc844b1aedcff85"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:0cfede6bcf00bc476d226edc08e39f4f184dfed4f25cde1b2fc844b1aedcff85"}, "docker": "quay.io/biocontainers/bioconductor-rsvsim"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rsvsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsvsim", "latest": {"1.38.0--r42hdfd78af_0": "sha256:db18a070c9c0006e7c04162a7a4741d7bf074e016086e6f21b8e6405b5d748d4"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:0cfede6bcf00bc476d226edc08e39f4f184dfed4f25cde1b2fc844b1aedcff85", "1.38.0--r42hdfd78af_0": "sha256:db18a070c9c0006e7c04162a7a4741d7bf074e016086e6f21b8e6405b5d748d4"}, "docker": "quay.io/biocontainers/bioconductor-rsvsim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rsvsim.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rsvsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rsvsim:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rsvsim:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rsvsim/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rsvsim/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rsvsim/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rsvsim/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

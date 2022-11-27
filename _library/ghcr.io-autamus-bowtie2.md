@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bowtie2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bowtie2/container.yaml"
-updated_at: "2022-11-26 13:30:06.242581"
+updated_at: "2022-11-27 00:09:23.727537"
 latest: "2.4.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bowtie2"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "2.4.2"
  - "latest"
 description: "Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences."
-config: {"docker": "ghcr.io/autamus/bowtie2", "url": "https://github.com/orgs/autamus/packages/container/package/bowtie2", "maintainer": "@vsoch", "description": "Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.", "latest": {"2.4.2": "sha256:07e6dc7e0266026723139ab53f73bc08f6e1143c6aadf146f7d0f5c14a5b3a22"}, "tags": {"2.4.2": "sha256:07e6dc7e0266026723139ab53f73bc08f6e1143c6aadf146f7d0f5c14a5b3a22", "latest": "sha256:07e6dc7e0266026723139ab53f73bc08f6e1143c6aadf146f7d0f5c14a5b3a22"}, "aliases": {"bowtie2": "/opt/view/bin/bowtie2", "bowtie2-align-l": "/opt/view/bin/bowtie2-align-l", "bowtie2-align-s": "/opt/view/bin/bowtie2-align-s", "bowtie2-build": "/opt/view/bin/bowtie2-build", "bowtie2-build-l": "/opt/view/bin/bowtie2-build-l", "bowtie2-build-s": "/opt/view/bin/bowtie2-build-s", "bowtie2-inspect": "/opt/view/bin/bowtie2-inspect", "bowtie2-inspect-l": "/opt/view/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/opt/view/bin/bowtie2-inspect-s"}}
+config: {"docker": "ghcr.io/autamus/bowtie2", "url": "https://github.com/orgs/autamus/packages/container/package/bowtie2", "maintainer": "@vsoch", "description": "Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.", "latest": {"2.4.2": "sha256:edf4727dcdcd056dcad3f779cb368634c5f474a83b697c510c6f1dd40c44e4da"}, "tags": {"2.4.2": "sha256:edf4727dcdcd056dcad3f779cb368634c5f474a83b697c510c6f1dd40c44e4da", "latest": "sha256:edf4727dcdcd056dcad3f779cb368634c5f474a83b697c510c6f1dd40c44e4da"}, "aliases": {"bowtie2": "/opt/view/bin/bowtie2", "bowtie2-align-l": "/opt/view/bin/bowtie2-align-l", "bowtie2-align-s": "/opt/view/bin/bowtie2-align-s", "bowtie2-build": "/opt/view/bin/bowtie2-build", "bowtie2-build-l": "/opt/view/bin/bowtie2-build-l", "bowtie2-build-s": "/opt/view/bin/bowtie2-build-s", "bowtie2-inspect": "/opt/view/bin/bowtie2-inspect", "bowtie2-inspect-l": "/opt/view/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/opt/view/bin/bowtie2-inspect-s"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/bowtie2.

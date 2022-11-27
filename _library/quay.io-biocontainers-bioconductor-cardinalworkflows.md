@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cardinalworkflows"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cardinalworkflows/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cardinalworkflows/container.yaml"
-updated_at: "2022-11-26 13:40:41.975258"
-latest: "1.26.0--r41hdfd78af_1"
+updated_at: "2022-11-27 00:19:28.872986"
+latest: "1.29.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cardinalworkflows"
 aliases:
  - "fftw-wisdom"
@@ -14,8 +14,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "1.26.0--r41hdfd78af_1"
+ - "1.29.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cardinalworkflows"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinalworkflows", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cardinalworkflows", "latest": {"1.26.0--r41hdfd78af_1": "sha256:4742c23033d347851c7f5ec2a0c8b70829ec6b0bf10b4ea416d4f207ebaefbad"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:4742c23033d347851c7f5ec2a0c8b70829ec6b0bf10b4ea416d4f207ebaefbad"}, "docker": "quay.io/biocontainers/bioconductor-cardinalworkflows", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinalworkflows", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cardinalworkflows", "latest": {"1.29.0--r42hdfd78af_0": "sha256:cf8b54e28afcbb62532ac2502c4e4788c86d37eb94e4320bf201e9171f7c2831"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:4742c23033d347851c7f5ec2a0c8b70829ec6b0bf10b4ea416d4f207ebaefbad", "1.29.0--r42hdfd78af_0": "sha256:cf8b54e28afcbb62532ac2502c4e4788c86d37eb94e4320bf201e9171f7c2831"}, "docker": "quay.io/biocontainers/bioconductor-cardinalworkflows", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cardinalworkflows.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cardinalworkflows
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cardinalworkflows:1.26.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-cardinalworkflows:1.29.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cardinalworkflows/1.26.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-cardinalworkflows/1.26.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-cardinalworkflows/1.29.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cardinalworkflows/1.29.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

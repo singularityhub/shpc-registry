@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-eacon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-eacon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-eacon/container.yaml"
-updated_at: "2022-11-26 13:44:50.924503"
-latest: "0.3.6--r41hdfd78af_1"
+updated_at: "2022-11-27 00:23:22.868072"
+latest: "0.3.6--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-eacon"
 aliases:
  - "pandoc"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.3.6--r41hdfd78af_1"
+ - "0.3.6--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-eacon"
-config: {"url": "https://biocontainers.pro/tools/r-eacon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-eacon", "latest": {"0.3.6--r41hdfd78af_1": "sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d"}, "tags": {"0.3.6--r41hdfd78af_1": "sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d"}, "docker": "quay.io/biocontainers/r-eacon", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-eacon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-eacon", "latest": {"0.3.6--r42hdfd78af_2": "sha256:0e4d5dbb085e9be13aaf18b63a7ec87ae3dc7cd941a7ec83715e503a1f2d1375"}, "tags": {"0.3.6--r41hdfd78af_1": "sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d", "0.3.6--r42hdfd78af_2": "sha256:0e4d5dbb085e9be13aaf18b63a7ec87ae3dc7cd941a7ec83715e503a1f2d1375"}, "docker": "quay.io/biocontainers/r-eacon", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-eacon.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-eacon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-eacon:0.3.6--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/r-eacon:0.3.6--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-eacon/0.3.6--r41hdfd78af_1
-$ module help quay.io/biocontainers/r-eacon/0.3.6--r41hdfd78af_1
+$ module load quay.io/biocontainers/r-eacon/0.3.6--r42hdfd78af_2
+$ module help quay.io/biocontainers/r-eacon/0.3.6--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

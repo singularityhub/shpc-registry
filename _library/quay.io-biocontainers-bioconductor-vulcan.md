@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-vulcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vulcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vulcan/container.yaml"
-updated_at: "2022-11-26 14:17:10.391087"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-27 00:53:36.951996"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vulcan"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.20.0--r42hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vulcan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcan", "latest": {"1.8.0--r36_0": "sha256:dec800733e2d58db8d4888ea9ac8e2ca6dd09001f1d8873475e95f58a9b6e838"}, "tags": {"1.8.0--r36_0": "sha256:dec800733e2d58db8d4888ea9ac8e2ca6dd09001f1d8873475e95f58a9b6e838"}, "docker": "quay.io/biocontainers/bioconductor-vulcan", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcan", "latest": {"1.20.0--r42hdfd78af_0": "sha256:48e303c264a5fa0416bf43e5e2eba76f86cacaaa0f5b3c4c9d076b594314897f"}, "tags": {"1.8.0--r36_0": "sha256:dec800733e2d58db8d4888ea9ac8e2ca6dd09001f1d8873475e95f58a9b6e838", "1.20.0--r42hdfd78af_0": "sha256:48e303c264a5fa0416bf43e5e2eba76f86cacaaa0f5b3c4c9d076b594314897f", "1.16.0--r41hdfd78af_0": "sha256:98a2c25ce6312d7a0ea618228b7cea28b614181e6e739bc868205e8390bc529e", "1.14.0--r41hdfd78af_0": "sha256:29ab195df8a1d90cc4a0068cfcf9c331414b150fe08bf08c7355d0d1e6cc8255", "1.10.0--r40_0": "sha256:e316542d5ff5c62b2644ceda1b0af6d805b1158d0e9a7cf8a2f5f9be3ad2a046"}, "docker": "quay.io/biocontainers/bioconductor-vulcan", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vulcan.
@@ -29,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vulcan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vulcan:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-vulcan:1.20.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vulcan/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-vulcan/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-vulcan/1.20.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-vulcan/1.20.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

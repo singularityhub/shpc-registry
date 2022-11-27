@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbec/container.yaml"
-updated_at: "2022-11-26 13:59:01.482695"
+updated_at: "2022-11-27 00:36:48.470250"
 latest: "1.2.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbec"
 

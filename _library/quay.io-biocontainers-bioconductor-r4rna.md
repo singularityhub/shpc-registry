@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-r4rna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-r4rna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-r4rna/container.yaml"
-updated_at: "2022-11-26 13:32:14.524908"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-27 00:11:25.665493"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-r4rna"
 
 versions:
  - "1.8.0--r351_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-r4rna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-r4rna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-r4rna", "latest": {"1.8.0--r351_0": "sha256:7542b582d5c2f168665d11c33f11d63a0f614bd1899a770b51b65cd0408a927d"}, "tags": {"1.8.0--r351_0": "sha256:7542b582d5c2f168665d11c33f11d63a0f614bd1899a770b51b65cd0408a927d"}, "docker": "quay.io/biocontainers/bioconductor-r4rna"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-r4rna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-r4rna", "latest": {"1.26.0--r42hdfd78af_0": "sha256:27d61714ed25334386803cc1f02e4f28d56736f48a5d6b0d5632b98af771690f"}, "tags": {"1.8.0--r351_0": "sha256:7542b582d5c2f168665d11c33f11d63a0f614bd1899a770b51b65cd0408a927d", "1.26.0--r42hdfd78af_0": "sha256:27d61714ed25334386803cc1f02e4f28d56736f48a5d6b0d5632b98af771690f", "1.22.0--r41hdfd78af_0": "sha256:9add2f6ece2d5b88922b86ad44d44bb415ca964206d8c9e74e4061fc481e93e7", "1.20.0--r41hdfd78af_0": "sha256:805df30143babe9003b2fb83f5c329ac1b72fa336ca6143f9471a15ac3a64ee3", "1.18.0--r40hdfd78af_1": "sha256:8f944e089a9f422430f5ed598dbdeab74f3f8cada81f52533add43251ce15c6f", "1.16.0--r40_0": "sha256:959727ff43fe3e00785b351873486eff2e6112caae30b502189f16358ea347d6"}, "docker": "quay.io/biocontainers/bioconductor-r4rna"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-r4rna.
@@ -26,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-r4rna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-r4rna:1.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-r4rna:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-r4rna/1.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-r4rna/1.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-r4rna/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-r4rna/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

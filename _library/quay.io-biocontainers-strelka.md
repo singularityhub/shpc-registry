@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strelka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strelka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strelka/container.yaml"
-updated_at: "2022-11-26 13:38:30.791119"
-latest: "2.9.7--0"
+updated_at: "2022-11-27 00:17:18.914124"
+latest: "2.9.10--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/strelka"
 aliases:
  - "configureStrelkaGermlineWorkflow.py"
@@ -21,8 +21,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "2.9.7--0"
+ - "2.9.10--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for strelka"
-config: {"url": "https://biocontainers.pro/tools/strelka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strelka", "latest": {"2.9.7--0": "sha256:ba0d975925ce7d277b2e6886bd98fe0e9c9e70172d2784350605ef74b547fef3"}, "tags": {"2.9.7--0": "sha256:ba0d975925ce7d277b2e6886bd98fe0e9c9e70172d2784350605ef74b547fef3"}, "docker": "quay.io/biocontainers/strelka", "aliases": {"configureStrelkaGermlineWorkflow.py": "/usr/local/bin/configureStrelkaGermlineWorkflow.py", "configureStrelkaSomaticWorkflow.py": "/usr/local/bin/configureStrelkaSomaticWorkflow.py", "runStrelkaGermlineWorkflowDemo.bash": "/usr/local/bin/runStrelkaGermlineWorkflowDemo.bash", "runStrelkaSomaticWorkflowDemo.bash": "/usr/local/bin/runStrelkaSomaticWorkflowDemo.bash", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/strelka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strelka", "latest": {"2.9.10--h9ee0642_1": "sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec"}, "tags": {"2.9.7--0": "sha256:ba0d975925ce7d277b2e6886bd98fe0e9c9e70172d2784350605ef74b547fef3", "2.9.10--h9ee0642_1": "sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec"}, "docker": "quay.io/biocontainers/strelka", "aliases": {"configureStrelkaGermlineWorkflow.py": "/usr/local/bin/configureStrelkaGermlineWorkflow.py", "configureStrelkaSomaticWorkflow.py": "/usr/local/bin/configureStrelkaSomaticWorkflow.py", "runStrelkaGermlineWorkflowDemo.bash": "/usr/local/bin/runStrelkaGermlineWorkflowDemo.bash", "runStrelkaSomaticWorkflowDemo.bash": "/usr/local/bin/runStrelkaSomaticWorkflowDemo.bash", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strelka.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/strelka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strelka:2.9.7--0
+$ shpc install quay.io/biocontainers/strelka:2.9.10--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strelka/2.9.7--0
-$ module help quay.io/biocontainers/strelka/2.9.7--0
+$ module load quay.io/biocontainers/strelka/2.9.10--h9ee0642_1
+$ module help quay.io/biocontainers/strelka/2.9.10--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

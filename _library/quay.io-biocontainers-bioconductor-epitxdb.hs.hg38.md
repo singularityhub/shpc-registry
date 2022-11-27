@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-epitxdb.hs.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/container.yaml"
-updated_at: "2022-11-26 14:12:17.652979"
-latest: "0.99.7--r41hdfd78af_4"
+updated_at: "2022-11-27 00:49:08.841832"
+latest: "0.99.7--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-epitxdb.hs.hg38"
 
 versions:
  - "0.99.7--r41hdfd78af_4"
+ - "0.99.7--r42hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for bioconductor-epitxdb.hs.hg38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epitxdb.hs.hg38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epitxdb.hs.hg38", "latest": {"0.99.7--r41hdfd78af_4": "sha256:6850ddf51fab1a808105bd409175d30a03d150f63b549091462a112d3fe9e980"}, "tags": {"0.99.7--r41hdfd78af_4": "sha256:6850ddf51fab1a808105bd409175d30a03d150f63b549091462a112d3fe9e980"}, "docker": "quay.io/biocontainers/bioconductor-epitxdb.hs.hg38"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epitxdb.hs.hg38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epitxdb.hs.hg38", "latest": {"0.99.7--r42hdfd78af_5": "sha256:c4229a70f6496320029cb23654571d022e09cac9f0835ac8c26a340407891385"}, "tags": {"0.99.7--r41hdfd78af_4": "sha256:6850ddf51fab1a808105bd409175d30a03d150f63b549091462a112d3fe9e980", "0.99.7--r42hdfd78af_5": "sha256:c4229a70f6496320029cb23654571d022e09cac9f0835ac8c26a340407891385"}, "docker": "quay.io/biocontainers/bioconductor-epitxdb.hs.hg38"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epitxdb.hs.hg38.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epitxdb.hs.hg38
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epitxdb.hs.hg38:0.99.7--r41hdfd78af_4
+$ shpc install quay.io/biocontainers/bioconductor-epitxdb.hs.hg38:0.99.7--r42hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/0.99.7--r41hdfd78af_4
-$ module help quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/0.99.7--r41hdfd78af_4
+$ module load quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/0.99.7--r42hdfd78af_5
+$ module help quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/0.99.7--r42hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/artic-porechop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/artic-porechop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/artic-porechop/container.yaml"
-updated_at: "2022-11-26 13:55:18.699823"
+updated_at: "2022-11-27 00:33:16.148562"
 latest: "3.2pre1--py36hc9558a2_0"
 container_url: "https://biocontainers.pro/tools/artic-porechop"
 aliases:

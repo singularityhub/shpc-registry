@@ -4,16 +4,17 @@ name:  "ghcr.io/autamus/zlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/zlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/zlib/container.yaml"
-updated_at: "2022-11-26 13:31:13.949909"
-latest: "1.2.11"
+updated_at: "2022-11-27 00:10:28.587279"
+latest: "1.2.13"
 container_url: "https://github.com/orgs/autamus/packages/container/package/zlib"
 
 versions:
  - "1.2.11"
  - "latest"
  - "1.2.12"
+ - "1.2.13"
 description: "zlib is a software library used for data compression. zlib was written by Jean-loup Gailly and Mark Adler and is an abstraction of the DEFLATE compression algorithm used in their gzip file compression program."
-config: {"docker": "ghcr.io/autamus/zlib", "url": "https://github.com/orgs/autamus/packages/container/package/zlib", "maintainer": "@vsoch", "description": "zlib is a software library used for data compression. zlib was written by Jean-loup Gailly and Mark Adler and is an abstraction of the DEFLATE compression algorithm used in their gzip file compression program.", "latest": {"1.2.11": "sha256:cf12c3a0b8a366a6d83e9a8656adf5f17fd1d4fb92243e86c385f1507a5388d9"}, "tags": {"1.2.11": "sha256:cf12c3a0b8a366a6d83e9a8656adf5f17fd1d4fb92243e86c385f1507a5388d9", "latest": "sha256:7975106687e0721a8b763b33713d3b3b0adbbf1514fe84073d616e1f09ac3974", "1.2.12": "sha256:7975106687e0721a8b763b33713d3b3b0adbbf1514fe84073d616e1f09ac3974"}}
+config: {"docker": "ghcr.io/autamus/zlib", "url": "https://github.com/orgs/autamus/packages/container/package/zlib", "maintainer": "@vsoch", "description": "zlib is a software library used for data compression. zlib was written by Jean-loup Gailly and Mark Adler and is an abstraction of the DEFLATE compression algorithm used in their gzip file compression program.", "latest": {"1.2.13": "sha256:930754ecc3e400c363e50454b6350935bea82728b6b0b488c1c00fa3157e5536"}, "tags": {"1.2.11": "sha256:cf12c3a0b8a366a6d83e9a8656adf5f17fd1d4fb92243e86c385f1507a5388d9", "latest": "sha256:930754ecc3e400c363e50454b6350935bea82728b6b0b488c1c00fa3157e5536", "1.2.12": "sha256:7975106687e0721a8b763b33713d3b3b0adbbf1514fe84073d616e1f09ac3974", "1.2.13": "sha256:930754ecc3e400c363e50454b6350935bea82728b6b0b488c1c00fa3157e5536"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/zlib.
@@ -28,7 +29,7 @@ $ shpc install ghcr.io/autamus/zlib
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/zlib:1.2.11
+$ shpc install ghcr.io/autamus/zlib:1.2.13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/zlib/1.2.11
-$ module help ghcr.io/autamus/zlib/1.2.11
+$ module load ghcr.io/autamus/zlib/1.2.13
+$ module help ghcr.io/autamus/zlib/1.2.13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

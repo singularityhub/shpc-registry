@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tripr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tripr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tripr/container.yaml"
-updated_at: "2022-11-26 13:35:29.117243"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-11-27 00:14:23.849516"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tripr"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tripr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tripr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tripr", "latest": {"1.0.0--r41hdfd78af_0": "sha256:dccbe088e00ac4e0ca4473320f058c48bfed007b7c5938dd28b3f4a3c30a3765"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dccbe088e00ac4e0ca4473320f058c48bfed007b7c5938dd28b3f4a3c30a3765"}, "docker": "quay.io/biocontainers/bioconductor-tripr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tripr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tripr", "latest": {"1.4.0--r42hdfd78af_0": "sha256:3df41ccd69277bd28fcc24abb47cce85e81d1de315db82e85b9e3bddd685185a"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dccbe088e00ac4e0ca4473320f058c48bfed007b7c5938dd28b3f4a3c30a3765", "1.4.0--r42hdfd78af_0": "sha256:3df41ccd69277bd28fcc24abb47cce85e81d1de315db82e85b9e3bddd685185a"}, "docker": "quay.io/biocontainers/bioconductor-tripr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tripr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tripr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tripr:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tripr:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tripr/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tripr/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tripr/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tripr/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

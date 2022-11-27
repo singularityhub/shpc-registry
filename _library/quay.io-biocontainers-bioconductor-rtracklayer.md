@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rtracklayer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtracklayer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtracklayer/container.yaml"
-updated_at: "2022-11-26 13:46:49.653135"
-latest: "1.54.0--r41h171f361_4"
+updated_at: "2022-11-27 00:25:15.841867"
+latest: "1.58.0--r42h171f361_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtracklayer"
 
 versions:
  - "1.54.0--r41h171f361_4"
+ - "1.58.0--r42h171f361_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtracklayer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtracklayer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtracklayer", "latest": {"1.54.0--r41h171f361_4": "sha256:f0e768aa1a38d9a4fd592d90363b54de8fe61b6752192bdcf7d990b4c2b33099"}, "tags": {"1.54.0--r41h171f361_4": "sha256:f0e768aa1a38d9a4fd592d90363b54de8fe61b6752192bdcf7d990b4c2b33099"}, "docker": "quay.io/biocontainers/bioconductor-rtracklayer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtracklayer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtracklayer", "latest": {"1.58.0--r42h171f361_1": "sha256:1d37150196f0ce79832513502ee5ab0c6833f031bc3008da04b319333cb0ee3a"}, "tags": {"1.54.0--r41h171f361_4": "sha256:f0e768aa1a38d9a4fd592d90363b54de8fe61b6752192bdcf7d990b4c2b33099", "1.58.0--r42h171f361_1": "sha256:1d37150196f0ce79832513502ee5ab0c6833f031bc3008da04b319333cb0ee3a"}, "docker": "quay.io/biocontainers/bioconductor-rtracklayer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtracklayer.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtracklayer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtracklayer:1.54.0--r41h171f361_4
+$ shpc install quay.io/biocontainers/bioconductor-rtracklayer:1.58.0--r42h171f361_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtracklayer/1.54.0--r41h171f361_4
-$ module help quay.io/biocontainers/bioconductor-rtracklayer/1.54.0--r41h171f361_4
+$ module load quay.io/biocontainers/bioconductor-rtracklayer/1.58.0--r42h171f361_1
+$ module help quay.io/biocontainers/bioconductor-rtracklayer/1.58.0--r42h171f361_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

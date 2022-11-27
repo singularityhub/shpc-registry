@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmblast/container.yaml"
-updated_at: "2022-11-26 14:18:12.704267"
+updated_at: "2022-11-27 00:54:36.211819"
 latest: "2.11.0--h6200dbe_0"
 container_url: "https://biocontainers.pro/tools/rmblast"
 aliases:

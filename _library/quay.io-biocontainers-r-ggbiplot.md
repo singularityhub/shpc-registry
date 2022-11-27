@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-ggbiplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggbiplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggbiplot/container.yaml"
-updated_at: "2022-11-26 14:01:17.580970"
-latest: "0.55--r41hec16e2b_6"
+updated_at: "2022-11-27 00:38:57.709244"
+latest: "0.55--r42hec16e2b_7"
 container_url: "https://biocontainers.pro/tools/r-ggbiplot"
 
 versions:
  - "0.55--r41hec16e2b_6"
+ - "0.55--r42hec16e2b_7"
 description: "shpc-registry automated BioContainers addition for r-ggbiplot"
-config: {"url": "https://biocontainers.pro/tools/r-ggbiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggbiplot", "latest": {"0.55--r41hec16e2b_6": "sha256:472700031cca35b92a885cfbbce9c5467f24f83a890988c34c6781181af9636e"}, "tags": {"0.55--r41hec16e2b_6": "sha256:472700031cca35b92a885cfbbce9c5467f24f83a890988c34c6781181af9636e"}, "docker": "quay.io/biocontainers/r-ggbiplot"}
+config: {"url": "https://biocontainers.pro/tools/r-ggbiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggbiplot", "latest": {"0.55--r42hec16e2b_7": "sha256:0354c939a170cba20cfd76e5038edc376804f9fc53ba5360698f28535326b088"}, "tags": {"0.55--r41hec16e2b_6": "sha256:472700031cca35b92a885cfbbce9c5467f24f83a890988c34c6781181af9636e", "0.55--r42hec16e2b_7": "sha256:0354c939a170cba20cfd76e5038edc376804f9fc53ba5360698f28535326b088"}, "docker": "quay.io/biocontainers/r-ggbiplot"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggbiplot.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-ggbiplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ggbiplot:0.55--r41hec16e2b_6
+$ shpc install quay.io/biocontainers/r-ggbiplot:0.55--r42hec16e2b_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ggbiplot/0.55--r41hec16e2b_6
-$ module help quay.io/biocontainers/r-ggbiplot/0.55--r41hec16e2b_6
+$ module load quay.io/biocontainers/r-ggbiplot/0.55--r42hec16e2b_7
+$ module help quay.io/biocontainers/r-ggbiplot/0.55--r42hec16e2b_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

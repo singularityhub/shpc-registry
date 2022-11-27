@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abacas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abacas/container.yaml"
-updated_at: "2022-11-26 14:01:38.176295"
+updated_at: "2022-11-27 00:39:17.247864"
 latest: "1.3.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/abacas"
 aliases:

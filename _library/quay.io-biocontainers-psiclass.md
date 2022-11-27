@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/psiclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psiclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psiclass/container.yaml"
-updated_at: "2022-11-26 14:00:59.903140"
-latest: "1.0.3--h87f3376_0"
+updated_at: "2022-11-27 00:38:40.963344"
+latest: "1.0.3--h87f3376_1"
 container_url: "https://biocontainers.pro/tools/psiclass"
 aliases:
  - "add-genename"
@@ -20,8 +20,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.0.3--h87f3376_0"
+ - "1.0.3--h87f3376_1"
 description: "shpc-registry automated BioContainers addition for psiclass"
-config: {"url": "https://biocontainers.pro/tools/psiclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psiclass", "latest": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2"}, "tags": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2"}, "docker": "quay.io/biocontainers/psiclass", "aliases": {"add-genename": "/usr/local/bin/add-genename", "classes": "/usr/local/bin/classes", "combine-subexons": "/usr/local/bin/combine-subexons", "junc": "/usr/local/bin/junc", "psiclass": "/usr/local/bin/psiclass", "subexon-info": "/usr/local/bin/subexon-info", "trust-splice": "/usr/local/bin/trust-splice", "vote-transcripts": "/usr/local/bin/vote-transcripts", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/psiclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psiclass", "latest": {"1.0.3--h87f3376_1": "sha256:964cd6947a5923c5c2d66b6bb28c988d97d6db0dd3fa7eb5225888a80d67ac3e"}, "tags": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2", "1.0.3--h87f3376_1": "sha256:964cd6947a5923c5c2d66b6bb28c988d97d6db0dd3fa7eb5225888a80d67ac3e"}, "docker": "quay.io/biocontainers/psiclass", "aliases": {"add-genename": "/usr/local/bin/add-genename", "classes": "/usr/local/bin/classes", "combine-subexons": "/usr/local/bin/combine-subexons", "junc": "/usr/local/bin/junc", "psiclass": "/usr/local/bin/psiclass", "subexon-info": "/usr/local/bin/subexon-info", "trust-splice": "/usr/local/bin/trust-splice", "vote-transcripts": "/usr/local/bin/vote-transcripts", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psiclass.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/psiclass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psiclass:1.0.3--h87f3376_0
+$ shpc install quay.io/biocontainers/psiclass:1.0.3--h87f3376_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psiclass/1.0.3--h87f3376_0
-$ module help quay.io/biocontainers/psiclass/1.0.3--h87f3376_0
+$ module load quay.io/biocontainers/psiclass/1.0.3--h87f3376_1
+$ module help quay.io/biocontainers/psiclass/1.0.3--h87f3376_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

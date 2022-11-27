@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hhsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hhsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hhsuite/container.yaml"
-updated_at: "2022-11-26 14:01:39.012909"
-latest: "v3.2.0--py36pl526hf484d3e_0"
+updated_at: "2022-11-27 00:39:18.057024"
+latest: "3.3.0--py36pl5321h4aaaa08_5"
 container_url: "https://biocontainers.pro/tools/hhsuite"
 aliases:
  - "a3m_database_extract"
@@ -45,8 +45,10 @@ aliases:
  - "podselect"
 versions:
  - "v3.2.0--py36pl526hf484d3e_0"
+ - "3.3.0--py36pl5321h4aaaa08_5"
+ - "3.2.0--py37pl526hfa133b6_2"
 description: "shpc-registry automated BioContainers addition for hhsuite"
-config: {"url": "https://biocontainers.pro/tools/hhsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hhsuite", "latest": {"v3.2.0--py36pl526hf484d3e_0": "sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f"}, "tags": {"v3.2.0--py36pl526hf484d3e_0": "sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f"}, "docker": "quay.io/biocontainers/hhsuite", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/hhsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hhsuite", "latest": {"3.3.0--py36pl5321h4aaaa08_5": "sha256:d800473a8174edfa2cff06f8a2374182967d66802e9533da394d564f87ae5506"}, "tags": {"v3.2.0--py36pl526hf484d3e_0": "sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f", "3.3.0--py36pl5321h4aaaa08_5": "sha256:d800473a8174edfa2cff06f8a2374182967d66802e9533da394d564f87ae5506", "3.2.0--py37pl526hfa133b6_2": "sha256:9995721485a34804ec1d8dede8a47bd5c091959ae971103a79df40d3f516c652"}, "docker": "quay.io/biocontainers/hhsuite", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hhsuite.
@@ -61,7 +63,7 @@ $ shpc install quay.io/biocontainers/hhsuite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hhsuite:v3.2.0--py36pl526hf484d3e_0
+$ shpc install quay.io/biocontainers/hhsuite:3.3.0--py36pl5321h4aaaa08_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hhsuite/v3.2.0--py36pl526hf484d3e_0
-$ module help quay.io/biocontainers/hhsuite/v3.2.0--py36pl526hf484d3e_0
+$ module load quay.io/biocontainers/hhsuite/3.3.0--py36pl5321h4aaaa08_5
+$ module help quay.io/biocontainers/hhsuite/3.3.0--py36pl5321h4aaaa08_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

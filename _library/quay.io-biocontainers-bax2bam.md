@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bax2bam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bax2bam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bax2bam/container.yaml"
-updated_at: "2022-11-26 14:12:15.891060"
-latest: "0.0.9--h018d624_7"
+updated_at: "2022-11-27 00:49:07.260174"
+latest: "0.0.11--0"
 container_url: "https://biocontainers.pro/tools/bax2bam"
 aliases:
  - "bam2sam"
@@ -26,8 +26,9 @@ aliases:
  - "h5diff"
 versions:
  - "0.0.9--h018d624_7"
+ - "0.0.11--0"
 description: "shpc-registry automated BioContainers addition for bax2bam"
-config: {"url": "https://biocontainers.pro/tools/bax2bam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bax2bam", "latest": {"0.0.9--h018d624_7": "sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee"}, "tags": {"0.0.9--h018d624_7": "sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee"}, "docker": "quay.io/biocontainers/bax2bam", "aliases": {"bam2sam": "/usr/local/bin/bam2sam", "bax2bam": "/usr/local/bin/bax2bam", "pbbamify": "/usr/local/bin/pbbamify", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/bax2bam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bax2bam", "latest": {"0.0.11--0": "sha256:00dab133bf8a2aaec1ca910ba403ad0bd046eb8d83ec24a1421ad8a395f830ae"}, "tags": {"0.0.9--h018d624_7": "sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee", "0.0.11--0": "sha256:00dab133bf8a2aaec1ca910ba403ad0bd046eb8d83ec24a1421ad8a395f830ae"}, "docker": "quay.io/biocontainers/bax2bam", "aliases": {"bam2sam": "/usr/local/bin/bam2sam", "bax2bam": "/usr/local/bin/bax2bam", "pbbamify": "/usr/local/bin/pbbamify", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bax2bam.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bax2bam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bax2bam:0.0.9--h018d624_7
+$ shpc install quay.io/biocontainers/bax2bam:0.0.11--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bax2bam/0.0.9--h018d624_7
-$ module help quay.io/biocontainers/bax2bam/0.0.9--h018d624_7
+$ module load quay.io/biocontainers/bax2bam/0.0.11--0
+$ module help quay.io/biocontainers/bax2bam/0.0.11--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

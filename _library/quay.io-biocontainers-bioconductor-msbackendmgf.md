@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-msbackendmgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendmgf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendmgf/container.yaml"
-updated_at: "2022-11-26 13:31:58.007725"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-27 00:11:10.499224"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendmgf"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msbackendmgf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendmgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msbackendmgf", "latest": {"1.2.0--r41hdfd78af_0": "sha256:01bca8120dc8beb568dd87e2ed516df30a609e52be1c63bbb38d9e0662b3c8a0"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:01bca8120dc8beb568dd87e2ed516df30a609e52be1c63bbb38d9e0662b3c8a0"}, "docker": "quay.io/biocontainers/bioconductor-msbackendmgf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendmgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msbackendmgf", "latest": {"1.6.0--r42hdfd78af_0": "sha256:e865652a892c76b3353841803963f8a12e49127300f2cc177944347f5049bb98"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:01bca8120dc8beb568dd87e2ed516df30a609e52be1c63bbb38d9e0662b3c8a0", "1.6.0--r42hdfd78af_0": "sha256:e865652a892c76b3353841803963f8a12e49127300f2cc177944347f5049bb98"}, "docker": "quay.io/biocontainers/bioconductor-msbackendmgf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msbackendmgf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msbackendmgf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msbackendmgf:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msbackendmgf:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msbackendmgf/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msbackendmgf/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msbackendmgf/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msbackendmgf/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

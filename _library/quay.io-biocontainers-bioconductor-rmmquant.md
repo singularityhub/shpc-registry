@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmmquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmmquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmmquant/container.yaml"
-updated_at: "2022-11-26 14:25:39.940796"
+updated_at: "2022-11-27 01:01:32.158154"
 latest: "1.8.1--r40h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmmquant"
 aliases:

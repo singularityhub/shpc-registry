@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stager/container.yaml"
-updated_at: "2022-11-26 13:41:56.377200"
+updated_at: "2022-11-27 00:20:42.493631"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stager"
 aliases:

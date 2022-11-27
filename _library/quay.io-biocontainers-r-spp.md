@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-spp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spp/container.yaml"
-updated_at: "2022-11-26 14:06:36.874357"
-latest: "1.16.0--r41hecf12ef_6"
+updated_at: "2022-11-27 00:43:47.081829"
+latest: "1.16.0--r42hecf12ef_7"
 container_url: "https://biocontainers.pro/tools/r-spp"
 
 versions:
  - "1.16.0--r41hecf12ef_6"
+ - "1.16.0--r42hecf12ef_7"
 description: "shpc-registry automated BioContainers addition for r-spp"
-config: {"url": "https://biocontainers.pro/tools/r-spp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spp", "latest": {"1.16.0--r41hecf12ef_6": "sha256:95447507e939d7ac532ab7958cddcc2d5b19d4c69931058961251a91cc38821a"}, "tags": {"1.16.0--r41hecf12ef_6": "sha256:95447507e939d7ac532ab7958cddcc2d5b19d4c69931058961251a91cc38821a"}, "docker": "quay.io/biocontainers/r-spp"}
+config: {"url": "https://biocontainers.pro/tools/r-spp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spp", "latest": {"1.16.0--r42hecf12ef_7": "sha256:6681fcc17c0a6308163d96359af9e2aedf2e64cd7772edb4f709e446ea043781"}, "tags": {"1.16.0--r41hecf12ef_6": "sha256:95447507e939d7ac532ab7958cddcc2d5b19d4c69931058961251a91cc38821a", "1.16.0--r42hecf12ef_7": "sha256:6681fcc17c0a6308163d96359af9e2aedf2e64cd7772edb4f709e446ea043781"}, "docker": "quay.io/biocontainers/r-spp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-spp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-spp:1.16.0--r41hecf12ef_6
+$ shpc install quay.io/biocontainers/r-spp:1.16.0--r42hecf12ef_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-spp/1.16.0--r41hecf12ef_6
-$ module help quay.io/biocontainers/r-spp/1.16.0--r41hecf12ef_6
+$ module load quay.io/biocontainers/r-spp/1.16.0--r42hecf12ef_7
+$ module help quay.io/biocontainers/r-spp/1.16.0--r42hecf12ef_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

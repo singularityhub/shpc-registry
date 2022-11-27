@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pasillabamsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pasillabamsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pasillabamsubset/container.yaml"
-updated_at: "2022-11-26 14:29:15.789416"
+updated_at: "2022-11-27 01:04:59.814897"
 latest: "0.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pasillabamsubset"
 

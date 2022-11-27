@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-alpsnmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
-updated_at: "2022-11-26 14:29:53.406749"
-latest: "3.4.0--r41hdfd78af_0"
+updated_at: "2022-11-27 01:05:35.998699"
+latest: "4.0.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alpsnmr"
 aliases:
  - "pandoc"
 versions:
  - "3.4.0--r41hdfd78af_0"
+ - "4.0.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-alpsnmr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alpsnmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpsnmr", "latest": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585"}, "docker": "quay.io/biocontainers/bioconductor-alpsnmr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alpsnmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpsnmr", "latest": {"4.0.0--r42hdfd78af_0": "sha256:ec297679c09d6b5613cc31b061f52c6ed615faa86ee8a4cd9788e57f6727002c"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585", "4.0.0--r42hdfd78af_0": "sha256:ec297679c09d6b5613cc31b061f52c6ed615faa86ee8a4cd9788e57f6727002c"}, "docker": "quay.io/biocontainers/bioconductor-alpsnmr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alpsnmr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alpsnmr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alpsnmr:3.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alpsnmr:4.0.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alpsnmr/3.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alpsnmr/3.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alpsnmr/4.0.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alpsnmr/4.0.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

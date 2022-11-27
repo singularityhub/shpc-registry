@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-varianttoolsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-varianttoolsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-varianttoolsdata/container.yaml"
-updated_at: "2022-11-26 13:58:28.584139"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-27 00:36:17.090200"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-varianttoolsdata"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_1"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-varianttoolsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-varianttoolsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-varianttoolsdata", "latest": {"1.8.0--r36_1": "sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca"}, "tags": {"1.8.0--r36_1": "sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca"}, "docker": "quay.io/biocontainers/bioconductor-varianttoolsdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-varianttoolsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-varianttoolsdata", "latest": {"1.22.0--r42hdfd78af_0": "sha256:c2ee128e6b209aea057b9b9225f312f81ca94e682ea89bc0f98e8b1ff39f67d4"}, "tags": {"1.8.0--r36_1": "sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca", "1.22.0--r42hdfd78af_0": "sha256:c2ee128e6b209aea057b9b9225f312f81ca94e682ea89bc0f98e8b1ff39f67d4", "1.18.0--r41hdfd78af_1": "sha256:69e0fcb66f771698c89f36e965b23e7084f49984a30315598b8a46036bfbf363", "1.16.0--r41hdfd78af_0": "sha256:ff3d2eb8f5deaf83f4a3c75204fec59b84f438ee425a66873d1449f0fb023067", "1.14.0--r40hdfd78af_1": "sha256:abf048534da6a237a0ab1e59b5afeb7fd0e3ed90a8fedb67f7793ce2ad171b74", "1.12.0--r40_0": "sha256:49093644aeb599b423f227f0f60c8d5c97eea6df9c05748fc3808a5e005132b6"}, "docker": "quay.io/biocontainers/bioconductor-varianttoolsdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-varianttoolsdata.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-varianttoolsdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-varianttoolsdata:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-varianttoolsdata:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-varianttoolsdata/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-varianttoolsdata/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-varianttoolsdata/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-varianttoolsdata/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

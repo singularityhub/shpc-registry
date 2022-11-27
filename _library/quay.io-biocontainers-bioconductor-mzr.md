@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mzr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mzr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mzr/container.yaml"
-updated_at: "2022-11-26 13:46:28.003116"
-latest: "2.6.3--r3.3.1_1"
+updated_at: "2022-11-27 00:24:55.156332"
+latest: "2.32.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mzr"
 aliases:
  - "nc-config"
@@ -20,8 +20,13 @@ aliases:
  - "h5copy"
 versions:
  - "2.6.3--r3.3.1_1"
+ - "2.32.0--r42hc247a5b_0"
+ - "2.28.0--r41hc247a5b_2"
+ - "2.26.0--r41h399db7b_0"
+ - "2.24.1--r40h399db7b_0"
+ - "2.22.0--r40h5f743cb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mzr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mzr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mzr", "latest": {"2.6.3--r3.3.1_1": "sha256:aa0a2c2fe328f5ceb5806b5dc851d3fd0772f0b9549a3d89a8d450aff3a47146"}, "tags": {"2.6.3--r3.3.1_1": "sha256:aa0a2c2fe328f5ceb5806b5dc851d3fd0772f0b9549a3d89a8d450aff3a47146"}, "docker": "quay.io/biocontainers/bioconductor-mzr", "aliases": {"nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "uconv": "/usr/local/bin/uconv", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mzr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mzr", "latest": {"2.32.0--r42hc247a5b_0": "sha256:8e19367dde1ba85d6230bb63ccb3cd9a04d97f715aee1b6d96b8ca04b2748664"}, "tags": {"2.6.3--r3.3.1_1": "sha256:aa0a2c2fe328f5ceb5806b5dc851d3fd0772f0b9549a3d89a8d450aff3a47146", "2.32.0--r42hc247a5b_0": "sha256:8e19367dde1ba85d6230bb63ccb3cd9a04d97f715aee1b6d96b8ca04b2748664", "2.28.0--r41hc247a5b_2": "sha256:f563652fe99a6a701f3097331f8e7eafc6f116e30e191cf955f439d767de3bd8", "2.26.0--r41h399db7b_0": "sha256:4dddcff1eb201385cde049b61ae23dbd7acfc0a1c2cabe0f46d8bcd9c0e35a16", "2.24.1--r40h399db7b_0": "sha256:f6b0c5808b0bdd92f14cb1060658935996d857fe1b464516444ce37deed56573", "2.22.0--r40h5f743cb_0": "sha256:9443d9bc32def3b12df69433d9b6fe62849ba6126c26bdc6c0a04bec6e42c551"}, "docker": "quay.io/biocontainers/bioconductor-mzr", "aliases": {"nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "uconv": "/usr/local/bin/uconv", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mzr.
@@ -36,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mzr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mzr:2.6.3--r3.3.1_1
+$ shpc install quay.io/biocontainers/bioconductor-mzr:2.32.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mzr/2.6.3--r3.3.1_1
-$ module help quay.io/biocontainers/bioconductor-mzr/2.6.3--r3.3.1_1
+$ module load quay.io/biocontainers/bioconductor-mzr/2.32.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-mzr/2.32.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

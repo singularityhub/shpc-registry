@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pedbarrayv9.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pedbarrayv9.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pedbarrayv9.db/container.yaml"
-updated_at: "2022-11-26 13:36:49.471736"
-latest: "3.2.3--r41hdfd78af_9"
+updated_at: "2022-11-27 00:15:40.584009"
+latest: "3.2.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-pedbarrayv9.db"
 
 versions:
  - "3.2.3--r41hdfd78af_9"
+ - "3.2.3--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-pedbarrayv9.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pedbarrayv9.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pedbarrayv9.db", "latest": {"3.2.3--r41hdfd78af_9": "sha256:14a1d0de09042a8d997c0122aff7e771588854c8c65ab108664f5865a88b59c0"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:14a1d0de09042a8d997c0122aff7e771588854c8c65ab108664f5865a88b59c0"}, "docker": "quay.io/biocontainers/bioconductor-pedbarrayv9.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pedbarrayv9.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pedbarrayv9.db", "latest": {"3.2.3--r42hdfd78af_10": "sha256:045dca014c437c01ff72a3e44e8b8c7ede51a8de6608cacd967705a4eb42cb18"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:14a1d0de09042a8d997c0122aff7e771588854c8c65ab108664f5865a88b59c0", "3.2.3--r42hdfd78af_10": "sha256:045dca014c437c01ff72a3e44e8b8c7ede51a8de6608cacd967705a4eb42cb18"}, "docker": "quay.io/biocontainers/bioconductor-pedbarrayv9.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pedbarrayv9.db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pedbarrayv9.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pedbarrayv9.db:3.2.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-pedbarrayv9.db:3.2.3--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pedbarrayv9.db/3.2.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-pedbarrayv9.db/3.2.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-pedbarrayv9.db/3.2.3--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-pedbarrayv9.db/3.2.3--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
