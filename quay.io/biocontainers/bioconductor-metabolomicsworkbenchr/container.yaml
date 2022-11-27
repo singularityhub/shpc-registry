@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-metabolomicsworkbenchr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metabolomicsworkbenchr
 latest:
-  1.4.0--r41hdfd78af_0: sha256:70f33c8dfe9bd9dffbdae7dab1edab4c42c16744cdfd73497f77fcef74ec4eda
+  1.8.0--r42hdfd78af_0: sha256:7975664a2784bd12f99bde0527bb0939557e65b82c7f4efc504fe1584e8c2097
 tags:
   1.4.0--r41hdfd78af_0: sha256:70f33c8dfe9bd9dffbdae7dab1edab4c42c16744cdfd73497f77fcef74ec4eda
+  1.8.0--r42hdfd78af_0: sha256:7975664a2784bd12f99bde0527bb0939557e65b82c7f4efc504fe1584e8c2097
 docker: quay.io/biocontainers/bioconductor-metabolomicsworkbenchr

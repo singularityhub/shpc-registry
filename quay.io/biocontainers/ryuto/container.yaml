@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ryuto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ryuto
 latest:
-  1.6.2--h986a166_0: sha256:f01e8dd6820263da949de9bc873c8cdf0e6571e72649709fa261d4bea92aef42
+  1.6.3--hf71abe7_0: sha256:563fb920750814b0c38f5df438f9316988d6a222e2eee02b1f0273ab8078d86f
 tags:
   1.6.2--h986a166_0: sha256:f01e8dd6820263da949de9bc873c8cdf0e6571e72649709fa261d4bea92aef42
+  1.6.3--hf71abe7_0: sha256:563fb920750814b0c38f5df438f9316988d6a222e2eee02b1f0273ab8078d86f
 docker: quay.io/biocontainers/ryuto
 aliases:
   ryuto: /usr/local/bin/ryuto

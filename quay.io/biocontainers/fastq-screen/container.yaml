@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/fastq-screen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastq-screen
 latest:
-  0.5.2--1: sha256:185edd8b53542a657ebe4e4a90a0ad949c25abe10392c8859729a60c7c71ac55
+  0.15.2--pl5321hdfd78af_0: sha256:fc249e00f46e3392826fad5260344158c972dc47e9c193cbb6a12adacf5bbfe7
 tags:
   0.5.2--1: sha256:185edd8b53542a657ebe4e4a90a0ad949c25abe10392c8859729a60c7c71ac55
+  0.15.2--pl5321hdfd78af_0: sha256:fc249e00f46e3392826fad5260344158c972dc47e9c193cbb6a12adacf5bbfe7
+  0.14.0--pl5321hdfd78af_2: sha256:1d02412b07bc9291c0bcedd763474bfaade5439a64df439e3c8306631171f6ca
+  0.13.0--pl526_1: sha256:b90a764131bdc0b204111956146da3bb1ce8c68477fbb4e438da11a470fe542a
+  0.11.3--pl526_1: sha256:b1faefda2abcca910287620a88d7a7052627e953864752fc47175bf5a332a3b5
 docker: quay.io/biocontainers/fastq-screen
 aliases:
   bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS

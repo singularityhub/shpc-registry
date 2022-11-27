@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-biocancer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biocancer
 latest:
-  1.22.0--r41hdfd78af_0: sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913
+  1.26.0--r42hdfd78af_0: sha256:26b8f5a9c88cf21e43fcf47158a075827980e76d4862c71a55026b5e26381d00
 tags:
   1.22.0--r41hdfd78af_0: sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913
+  1.26.0--r42hdfd78af_0: sha256:26b8f5a9c88cf21e43fcf47158a075827980e76d4862c71a55026b5e26381d00
 docker: quay.io/biocontainers/bioconductor-biocancer
 aliases:
   pandoc: /usr/local/bin/pandoc

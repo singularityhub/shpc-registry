@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-empiricalfdr.deseq2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-empiricalfdr.deseq2
 latest:
-  1.0.3--r41h3121a25_8: sha256:fceeedc1f2d94f63e5f1a9a12a03ed0ca5c3e3875c25060716b8d2b61dd9fadc
+  1.0.3--r42h3121a25_9: sha256:f366efd35a62738a2b6168e17b2975c96fdd49ca565f25d65cc9c3fca5ea6eee
 tags:
   1.0.3--r41h3121a25_8: sha256:fceeedc1f2d94f63e5f1a9a12a03ed0ca5c3e3875c25060716b8d2b61dd9fadc
+  1.0.3--r42h3121a25_9: sha256:f366efd35a62738a2b6168e17b2975c96fdd49ca565f25d65cc9c3fca5ea6eee
 docker: quay.io/biocontainers/r-empiricalfdr.deseq2
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

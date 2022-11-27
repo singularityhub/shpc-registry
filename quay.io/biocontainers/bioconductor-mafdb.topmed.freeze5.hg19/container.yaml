@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mafdb.topmed.freeze5.hg19
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mafdb.topmed.freeze5.hg19
 latest:
-  3.9.0--r36_1: sha256:b1fbd2443857addaaab60894ad1ed01fac93873745c7f92d3c40d83f927e4f07
+  3.10.0--r42hdfd78af_7: sha256:4ad889002c2d79b5535aa632673b01e005073a30b227ac2838f82122ae45062e
 tags:
   3.9.0--r36_1: sha256:b1fbd2443857addaaab60894ad1ed01fac93873745c7f92d3c40d83f927e4f07
+  3.10.0--r42hdfd78af_7: sha256:4ad889002c2d79b5535aa632673b01e005073a30b227ac2838f82122ae45062e
 docker: quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

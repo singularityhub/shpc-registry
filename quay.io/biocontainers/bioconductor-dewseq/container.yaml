@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-dewseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dewseq
 latest:
-  1.8.0--r41hdfd78af_0: sha256:15ef3930143ffc5fb5d73a2d78dd47c96577ea7ae0e0edb5957050e7d442da38
+  1.12.0--r42hdfd78af_0: sha256:f012250e71887ac5f1b05bf70eef7477f16b974948f89c2bd96269097af219aa
 tags:
   1.8.0--r41hdfd78af_0: sha256:15ef3930143ffc5fb5d73a2d78dd47c96577ea7ae0e0edb5957050e7d442da38
+  1.12.0--r42hdfd78af_0: sha256:f012250e71887ac5f1b05bf70eef7477f16b974948f89c2bd96269097af219aa
 docker: quay.io/biocontainers/bioconductor-dewseq

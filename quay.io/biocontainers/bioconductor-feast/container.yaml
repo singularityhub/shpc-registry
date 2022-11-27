@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-feast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-feast
 latest:
-  1.2.0--r41hc0cfd56_2: sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f
+  1.6.0--r42hc0cfd56_0: sha256:88a6c06b070905d8a5a4abf0e73efaf71bcfd9d47c62634bc81734ec813aaa73
 tags:
   1.2.0--r41hc0cfd56_2: sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f
+  1.6.0--r42hc0cfd56_0: sha256:88a6c06b070905d8a5a4abf0e73efaf71bcfd9d47c62634bc81734ec813aaa73
 docker: quay.io/biocontainers/bioconductor-feast
 aliases:
   glpsol: /usr/local/bin/glpsol

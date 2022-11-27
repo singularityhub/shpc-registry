@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-omicrexposome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-omicrexposome
 latest:
-  1.9.0--r40_0: sha256:21b4f0dd20460470fc4bce18bdd871e0fcd40bff43fa838ad370eaf89aa8faaf
+  1.20.0--r42hdfd78af_0: sha256:13decc2df4e90f270228b774ebaa34bfeb31bde1834b3719b824608742b9ccb3
 tags:
   1.9.0--r40_0: sha256:21b4f0dd20460470fc4bce18bdd871e0fcd40bff43fa838ad370eaf89aa8faaf
+  1.20.0--r42hdfd78af_0: sha256:13decc2df4e90f270228b774ebaa34bfeb31bde1834b3719b824608742b9ccb3
+  1.16.0--r41hdfd78af_0: sha256:e1c3496baf53d674796f45aabe2882e6576abdbb7fe8399449733fb37b867fb0
+  1.14.0--r41hdfd78af_0: sha256:746138e60ca0599be96459cda749da4c071693596fb225ddf21274d23bc2b5f6
+  1.12.1--r40hdfd78af_0: sha256:d99499dfdb6efd86f9680a207be6af3e175832d7b33da514b5bb66df1117ae33
 docker: quay.io/biocontainers/bioconductor-omicrexposome
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8
