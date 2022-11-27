@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ggtreedendro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-ggtreedendro
+latest:
+  1.0.0--r42hdfd78af_0: sha256:a0bbf6b5ae886ac8b6fd0409f3a384fa4d5cfabd744fb186916d29475f34bd3d
+tags:
+  1.0.0--r42hdfd78af_0: sha256:a0bbf6b5ae886ac8b6fd0409f3a384fa4d5cfabd744fb186916d29475f34bd3d
+docker: quay.io/biocontainers/bioconductor-ggtreedendro

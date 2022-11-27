@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-demuxmix
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-demuxmix
+latest:
+  1.0.0--r42hdfd78af_0: sha256:0bc32cda529db7826e0d00ad8ff605e2b4a005550c42c8acc554d82ed4703232
+tags:
+  1.0.0--r42hdfd78af_0: sha256:0bc32cda529db7826e0d00ad8ff605e2b4a005550c42c8acc554d82ed4703232
+docker: quay.io/biocontainers/bioconductor-demuxmix

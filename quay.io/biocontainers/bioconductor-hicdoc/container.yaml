@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/bioconductor-hicdoc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-hicdoc
+latest:
+  1.0.0--r42hc247a5b_0: sha256:85a63afe227928fb05d652e14bb798ee6fb4dd853dcc773831e8e9b7ed1e626c
+tags:
+  1.0.0--r42hc247a5b_0: sha256:85a63afe227928fb05d652e14bb798ee6fb4dd853dcc773831e8e9b7ed1e626c
+docker: quay.io/biocontainers/bioconductor-hicdoc
+aliases:
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

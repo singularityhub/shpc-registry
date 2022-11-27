@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-suitor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-suitor
+latest:
+  1.0.0--r42hc0cfd56_0: sha256:b8d19ddab0fc6efcbc7448b1aeed741b58d14e0ece91ac61fa09267dc74f0ebb
+tags:
+  1.0.0--r42hc0cfd56_0: sha256:b8d19ddab0fc6efcbc7448b1aeed741b58d14e0ece91ac61fa09267dc74f0ebb
+docker: quay.io/biocontainers/bioconductor-suitor

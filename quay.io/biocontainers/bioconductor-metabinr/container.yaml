@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-metabinr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-metabinr
+latest:
+  1.0.0--r42hdfd78af_0: sha256:8d9ece7014102c0ec5c1162c30c78d0e03c7f21e30b312b872002db627d6b13c
+tags:
+  1.0.0--r42hdfd78af_0: sha256:8d9ece7014102c0ec5c1162c30c78d0e03c7f21e30b312b872002db627d6b13c
+docker: quay.io/biocontainers/bioconductor-metabinr
+aliases:
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo
+  jmap: /usr/local/bin/jmap
+  jps: /usr/local/bin/jps

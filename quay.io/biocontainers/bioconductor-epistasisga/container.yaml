@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bioconductor-epistasisga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-epistasisga
+latest:
+  1.0.0--r42hc247a5b_0: sha256:504a3d6c60343c7e17ea0d8851e46764c70c5b9a3839be9f62f195defc9cf10f
+tags:
+  1.0.0--r42hc247a5b_0: sha256:504a3d6c60343c7e17ea0d8851e46764c70c5b9a3839be9f62f195defc9cf10f
+docker: quay.io/biocontainers/bioconductor-epistasisga
+aliases:
+  glpsol: /usr/local/bin/glpsol

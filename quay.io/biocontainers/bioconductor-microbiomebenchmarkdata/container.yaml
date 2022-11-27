@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/bioconductor-microbiomebenchmarkdata
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-microbiomebenchmarkdata
+latest:
+  1.0.0--r42hdfd78af_0: sha256:5364c3adc162418eb7e6b109e50b4231ff39d9c4b3668a5150c5bac738443465
+tags:
+  1.0.0--r42hdfd78af_0: sha256:5364c3adc162418eb7e6b109e50b4231ff39d9c4b3668a5150c5bac738443465
+docker: quay.io/biocontainers/bioconductor-microbiomebenchmarkdata
+aliases:
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/physiofit4galaxy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for physiofit4galaxy
+latest:
+  2.2.1--pyhdfd78af_1: sha256:50253441e1278ca27e7a1076730b2d8d0a163aa03daa29cf40c64f4483f8c0ba
+tags:
+  2.2.1--pyhdfd78af_1: sha256:50253441e1278ca27e7a1076730b2d8d0a163aa03daa29cf40c64f4483f8c0ba
+docker: quay.io/biocontainers/physiofit4galaxy
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  f2py3.11: /usr/local/bin/f2py3.11
+  idle3.11: /usr/local/bin/idle3.11
+  physiofit4galaxy: /usr/local/bin/physiofit4galaxy
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

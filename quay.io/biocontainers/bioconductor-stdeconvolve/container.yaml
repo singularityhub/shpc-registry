@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-stdeconvolve
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-stdeconvolve
+latest:
+  1.2.0--r42hdfd78af_0: sha256:5a8f5620e833f0e7cfe735b1b112d1de5ce6ab2462aef345ace0592f4584f4d5
+tags:
+  1.2.0--r42hdfd78af_0: sha256:5a8f5620e833f0e7cfe735b1b112d1de5ce6ab2462aef345ace0592f4584f4d5
+docker: quay.io/biocontainers/bioconductor-stdeconvolve
+aliases:
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  tqdm: /usr/local/bin/tqdm
+  f2py3.10: /usr/local/bin/f2py3.10
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug

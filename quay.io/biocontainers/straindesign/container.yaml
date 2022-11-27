@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/straindesign
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for straindesign
+latest:
+  3.1.0--pyh7cba7a3_0: sha256:1be012d2ca9a3cd8e636b0caa32d610e5996692493f1aaaeba6a3f02d6242aec
+tags:
+  3.1.0--pyh7cba7a3_0: sha256:1be012d2ca9a3cd8e636b0caa32d610e5996692493f1aaaeba6a3f02d6242aec
+docker: quay.io/biocontainers/straindesign
+aliases:
+  cameo: /usr/local/bin/cameo
+  depinfo: /usr/local/bin/depinfo
+  grako: /usr/local/bin/grako
+  httpx: /usr/local/bin/httpx
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  isympy: /usr/local/bin/isympy
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  send2trash: /usr/local/bin/send2trash
+  pandoc-server: /usr/local/bin/pandoc-server
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  cmark: /usr/local/bin/cmark
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  curve_keygen: /usr/local/bin/curve_keygen
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  jsonschema: /usr/local/bin/jsonschema
+  certutil: /usr/local/bin/certutil

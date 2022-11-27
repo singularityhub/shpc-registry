@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-updateobject
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-updateobject
+latest:
+  1.2.0--r42hdfd78af_0: sha256:3aede3ce544680c57ba16fc466419c8b1c2d76d15d4f03fb2f54f6141c9ea499
+tags:
+  1.2.0--r42hdfd78af_0: sha256:3aede3ce544680c57ba16fc466419c8b1c2d76d15d4f03fb2f54f6141c9ea499
+docker: quay.io/biocontainers/bioconductor-updateobject
