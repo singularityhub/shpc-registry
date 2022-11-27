@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-ctsv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-ctsv
+latest:
+  1.0.0--r42hdfd78af_0: sha256:27e56ddd771c8fa1e9418990f70d1dc33b815eeb31bc355a27cf2bb8a2cf0b5b
+tags:
+  1.0.0--r42hdfd78af_0: sha256:27e56ddd771c8fa1e9418990f70d1dc33b815eeb31bc355a27cf2bb8a2cf0b5b
+docker: quay.io/biocontainers/bioconductor-ctsv
+aliases:
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  animate: /usr/local/bin/animate
+  composite: /usr/local/bin/composite
+  conjure: /usr/local/bin/conjure
+  convert: /usr/local/bin/convert
+  display: /usr/local/bin/display
+  identify: /usr/local/bin/identify
+  import: /usr/local/bin/import
+  magick: /usr/local/bin/magick
+  magick-script: /usr/local/bin/magick-script
+  mogrify: /usr/local/bin/mogrify
+  montage: /usr/local/bin/montage
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
+  stream: /usr/local/bin/stream
+  compare: /usr/local/bin/compare
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj
+  gsdj500: /usr/local/bin/gsdj500

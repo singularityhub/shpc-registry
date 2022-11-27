@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/parse_mito_blast
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for parse_mito_blast
+latest:
+  1.0.2--hdfd78af_0: sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27
+tags:
+  1.0.2--hdfd78af_0: sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27
+docker: quay.io/biocontainers/parse_mito_blast
+aliases:
+  parse_mito_blast.py: /usr/local/bin/parse_mito_blast.py
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

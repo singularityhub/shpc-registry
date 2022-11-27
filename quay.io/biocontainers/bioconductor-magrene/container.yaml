@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-magrene
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-magrene
+latest:
+  1.0.0--r42hdfd78af_0: sha256:e769bdc2c5da027ccb552aba6520c79c1a9f77c1dd4a04418e16f52420facb08
+tags:
+  1.0.0--r42hdfd78af_0: sha256:e769bdc2c5da027ccb552aba6520c79c1a9f77c1dd4a04418e16f52420facb08
+docker: quay.io/biocontainers/bioconductor-magrene

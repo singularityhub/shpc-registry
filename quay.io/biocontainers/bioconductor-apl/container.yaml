@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/bioconductor-apl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-apl
+latest:
+  1.2.0--r42hdfd78af_0: sha256:e762a2bf842dfa8c79f250ab6403fec69b93e4c10c7527e1cc8baf879c80fd07
+tags:
+  1.2.0--r42hdfd78af_0: sha256:e762a2bf842dfa8c79f250ab6403fec69b93e4c10c7527e1cc8baf879c80fd07
+docker: quay.io/biocontainers/bioconductor-apl
+aliases:
+  geosop: /usr/local/bin/geosop
+  geos-config: /usr/local/bin/geos-config
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  glpsol: /usr/local/bin/glpsol
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

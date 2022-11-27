@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/binning_refiner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for binning_refiner
+latest:
+  1.4.3--pyh5e36f6f_0: sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d
+tags:
+  1.4.3--pyh5e36f6f_0: sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d
+docker: quay.io/biocontainers/binning_refiner
+aliases:
+  Binning_refiner: /usr/local/bin/Binning_refiner
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

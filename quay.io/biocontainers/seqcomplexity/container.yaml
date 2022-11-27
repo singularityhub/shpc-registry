@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/seqcomplexity
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqcomplexity
+latest:
+  0.1.2--he9f29cb_0: sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20
+tags:
+  0.1.2--he9f29cb_0: sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20
+docker: quay.io/biocontainers/seqcomplexity
+aliases:
+  seqcomplexity: /usr/local/bin/seqcomplexity

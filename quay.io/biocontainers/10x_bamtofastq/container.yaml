@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/10x_bamtofastq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 10x_bamtofastq
+latest:
+  1.4.1--h87f3376_0: sha256:d17a4d02513ca386d2628f2c7e8eb6af0556e108f35d9d4b2b2a593394911981
+tags:
+  1.4.1--h87f3376_0: sha256:d17a4d02513ca386d2628f2c7e8eb6af0556e108f35d9d4b2b2a593394911981
+docker: quay.io/biocontainers/10x_bamtofastq
+aliases:
+  bamtofastq: /usr/local/bin/bamtofastq

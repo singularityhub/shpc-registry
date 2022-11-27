@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biodbexpasy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-biodbexpasy
+latest:
+  1.2.0--r42hdfd78af_0: sha256:1594710c2aef7cacce168a5f92df6c3c1f229a8c965d94ae2810977dd0f3b5ad
+tags:
+  1.2.0--r42hdfd78af_0: sha256:1594710c2aef7cacce168a5f92df6c3c1f229a8c965d94ae2810977dd0f3b5ad
+docker: quay.io/biocontainers/bioconductor-biodbexpasy

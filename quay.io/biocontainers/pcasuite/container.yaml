@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/pcasuite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pcasuite
+latest:
+  1.0.0--h52efb1e_1: sha256:acc77c9379704b671b27c4a5d2ace64c935aa91ec9f2fcb6c37b17085a8021f9
+tags:
+  1.0.0--h52efb1e_1: sha256:acc77c9379704b671b27c4a5d2ace64c935aa91ec9f2fcb6c37b17085a8021f9
+docker: quay.io/biocontainers/pcasuite
+aliases:
+  bison: /usr/local/bin/bison
+  flex: /usr/local/bin/flex
+  flex++: /usr/local/bin/flex++
+  genpcz: /usr/local/bin/genpcz
+  m4: /usr/local/bin/m4
+  pcaunzip: /usr/local/bin/pcaunzip
+  pcazip: /usr/local/bin/pcazip
+  pczdump: /usr/local/bin/pczdump
+  yacc: /usr/local/bin/yacc
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
+  hdfpack: /usr/local/bin/hdfpack
+  hdftopal: /usr/local/bin/hdftopal
+  hdftor8: /usr/local/bin/hdftor8
+  hdfunpac: /usr/local/bin/hdfunpac
+  hdiff: /usr/local/bin/hdiff
+  hdp: /usr/local/bin/hdp
+  hrepack: /usr/local/bin/hrepack
+  jpeg2hdf: /usr/local/bin/jpeg2hdf
+  paltohdf: /usr/local/bin/paltohdf

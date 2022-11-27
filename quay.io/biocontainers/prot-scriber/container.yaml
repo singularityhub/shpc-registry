@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/prot-scriber
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for prot-scriber
+latest:
+  0.1.4--hec16e2b_0: sha256:8c825e56691649ace668e3019ce802672dc32ee8208bc7d0edfe55174b15c49b
+tags:
+  0.1.4--hec16e2b_0: sha256:8c825e56691649ace668e3019ce802672dc32ee8208bc7d0edfe55174b15c49b
+docker: quay.io/biocontainers/prot-scriber
+aliases:
+  prot-scriber: /usr/local/bin/prot-scriber

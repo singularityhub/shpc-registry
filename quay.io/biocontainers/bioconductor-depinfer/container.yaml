@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-depinfer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-depinfer
+latest:
+  1.2.0--r42hdfd78af_0: sha256:f17079d2fb3e663f9ef57d4a473f5d70b88979370817c401fc77e3f9a481a929
+tags:
+  1.2.0--r42hdfd78af_0: sha256:f17079d2fb3e663f9ef57d4a473f5d70b88979370817c401fc77e3f9a481a929
+docker: quay.io/biocontainers/bioconductor-depinfer
