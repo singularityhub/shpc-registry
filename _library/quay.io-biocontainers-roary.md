@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/roary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roary/container.yaml"
-updated_at: "2022-11-27 00:26:49.327227"
+updated_at: "2022-11-27 12:22:55.191898"
 latest: "3.9.1--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/roary"
 

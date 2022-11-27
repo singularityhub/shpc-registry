@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbiopaxparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbiopaxparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbiopaxparser/container.yaml"
-updated_at: "2022-11-27 00:57:55.240838"
+updated_at: "2022-11-27 13:05:48.741071"
 latest: "2.34.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbiopaxparser"
 

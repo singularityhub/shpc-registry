@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genefuse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genefuse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genefuse/container.yaml"
-updated_at: "2022-11-27 01:04:10.368087"
+updated_at: "2022-11-27 13:14:17.204521"
 latest: "0.8.0--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/genefuse"
 aliases:

@@ -4,7 +4,7 @@ name:  "julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/julia/container.yaml"
-updated_at: "2022-11-27 01:06:34.426089"
+updated_at: "2022-11-27 13:17:34.304870"
 latest: "1.8.3"
 container_url: "https://hub.docker.com/_/julia"
 aliases:

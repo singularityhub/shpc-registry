@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vega"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vega/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vega/container.yaml"
-updated_at: "2022-11-27 00:27:53.701765"
+updated_at: "2022-11-27 12:24:25.477137"
 latest: "1.35.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vega"
 aliases:
