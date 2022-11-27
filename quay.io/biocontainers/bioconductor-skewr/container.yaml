@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-skewr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-skewr
 latest:
-  1.26.0--r41hdfd78af_0: sha256:1a871445f0c1d463a1926c58a6bfca406a402771dbec73ac8bfea35e5d010c27
+  1.30.0--r42hdfd78af_0: sha256:0189b9bbdc1bfaf155726520c957836994106b47f93ef6ab2c68611e503fc9eb
 tags:
   1.26.0--r41hdfd78af_0: sha256:1a871445f0c1d463a1926c58a6bfca406a402771dbec73ac8bfea35e5d010c27
+  1.30.0--r42hdfd78af_0: sha256:0189b9bbdc1bfaf155726520c957836994106b47f93ef6ab2c68611e503fc9eb
 docker: quay.io/biocontainers/bioconductor-skewr

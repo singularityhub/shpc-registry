@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-spaniel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spaniel
 latest:
-  1.8.0--r41hdfd78af_0: sha256:17974275754ba1793796bafef5cf399c6a95701fe3d42df13049cc2b49428030
+  1.12.0--r42hdfd78af_0: sha256:07e30eb78f675a5944554737955d71e4de70fdf238dceb5ed8e792bcde6176c4
 tags:
   1.8.0--r41hdfd78af_0: sha256:17974275754ba1793796bafef5cf399c6a95701fe3d42df13049cc2b49428030
+  1.12.0--r42hdfd78af_0: sha256:07e30eb78f675a5944554737955d71e4de70fdf238dceb5ed8e792bcde6176c4
 docker: quay.io/biocontainers/bioconductor-spaniel

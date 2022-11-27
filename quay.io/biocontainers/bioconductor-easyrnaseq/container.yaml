@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-easyrnaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-easyrnaseq
 latest:
-  2.30.0--r41hdfd78af_0: sha256:22c3f3b6083adf20982cd07afb453f718aa4af6bcc2d441dc7abeec17f41c1a7
+  2.34.0--r42hdfd78af_0: sha256:f88fb5ebafeb5ea73e9c92c5c0a1c5fe3166b51ab82bfd23b5d13f2050b8a10a
 tags:
   2.30.0--r41hdfd78af_0: sha256:22c3f3b6083adf20982cd07afb453f718aa4af6bcc2d441dc7abeec17f41c1a7
+  2.34.0--r42hdfd78af_0: sha256:f88fb5ebafeb5ea73e9c92c5c0a1c5fe3166b51ab82bfd23b5d13f2050b8a10a
 docker: quay.io/biocontainers/bioconductor-easyrnaseq

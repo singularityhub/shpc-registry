@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-beadarraysnp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-beadarraysnp
 latest:
-  1.60.0--r41hdfd78af_0: sha256:d4308d93287b35f6f36bc7005f7e07e5741e29da9f31bfc8d1b447d34f91f37c
+  1.64.0--r42hdfd78af_0: sha256:63d0cd14fb48a6c39d36704d4e50d14e179468548c081e82a0a9a55bb824b069
 tags:
   1.60.0--r41hdfd78af_0: sha256:d4308d93287b35f6f36bc7005f7e07e5741e29da9f31bfc8d1b447d34f91f37c
+  1.64.0--r42hdfd78af_0: sha256:63d0cd14fb48a6c39d36704d4e50d14e179468548c081e82a0a9a55bb824b069
 docker: quay.io/biocontainers/bioconductor-beadarraysnp

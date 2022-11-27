@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-timirgen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-timirgen
 latest:
-  1.4.0--r41hdfd78af_0: sha256:3692e4cba844c0294a5f90d191c0a56833a498c6b75cef5a760e72441e11792b
+  1.8.0--r42hdfd78af_0: sha256:342d87d41d489db6916db80d8060e8bc2ca733c7789271cb6c5a4193d54ae662
 tags:
   1.4.0--r41hdfd78af_0: sha256:3692e4cba844c0294a5f90d191c0a56833a498c6b75cef5a760e72441e11792b
+  1.8.0--r42hdfd78af_0: sha256:342d87d41d489db6916db80d8060e8bc2ca733c7789271cb6c5a4193d54ae662
 docker: quay.io/biocontainers/bioconductor-timirgen
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

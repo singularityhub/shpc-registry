@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-somnibus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-somnibus
 latest:
-  1.2.0--r41hdfd78af_0: sha256:b09c4e79c1de51f2676486810edd5f823cef025962101212591e0ce058aa4fb7
+  1.6.0--r42hdfd78af_0: sha256:ee413c0b8f7e70a5cad96c7a3f1cec74b80fc15ee3ea64f21b541a1b52128c27
 tags:
   1.2.0--r41hdfd78af_0: sha256:b09c4e79c1de51f2676486810edd5f823cef025962101212591e0ce058aa4fb7
+  1.6.0--r42hdfd78af_0: sha256:ee413c0b8f7e70a5cad96c7a3f1cec74b80fc15ee3ea64f21b541a1b52128c27
 docker: quay.io/biocontainers/bioconductor-somnibus

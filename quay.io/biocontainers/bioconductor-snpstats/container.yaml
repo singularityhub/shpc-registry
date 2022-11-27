@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-snpstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-snpstats
 latest:
-  1.44.0--r41hc0cfd56_2: sha256:41d9269ca37c23bbba4b5ad85dc68bb4f395902566bad603d948ea9d1d2a69a9
+  1.48.0--r42hc0cfd56_0: sha256:a085b431035477dbb3558aac77026cb54931a464717f9de5056fb472c8947e3c
 tags:
   1.44.0--r41hc0cfd56_2: sha256:41d9269ca37c23bbba4b5ad85dc68bb4f395902566bad603d948ea9d1d2a69a9
+  1.48.0--r42hc0cfd56_0: sha256:a085b431035477dbb3558aac77026cb54931a464717f9de5056fb472c8947e3c
 docker: quay.io/biocontainers/bioconductor-snpstats

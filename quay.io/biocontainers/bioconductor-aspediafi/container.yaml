@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-aspediafi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-aspediafi
 latest:
-  1.8.0--r41hdfd78af_0: sha256:e02c324a403bb0529478401404a64a57bd777a37de20a039c7499ee5a254fa00
+  1.11.0--r42hdfd78af_0: sha256:914835450e8fefebdce3ce69e4fc06b5b680ff0f61865af4261b8bf209675925
 tags:
   1.8.0--r41hdfd78af_0: sha256:e02c324a403bb0529478401404a64a57bd777a37de20a039c7499ee5a254fa00
+  1.11.0--r42hdfd78af_0: sha256:914835450e8fefebdce3ce69e4fc06b5b680ff0f61865af4261b8bf209675925
 docker: quay.io/biocontainers/bioconductor-aspediafi

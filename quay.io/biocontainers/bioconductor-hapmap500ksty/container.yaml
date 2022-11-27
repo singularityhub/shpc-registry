@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hapmap500ksty
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hapmap500ksty
 latest:
-  1.36.0--r41hdfd78af_1: sha256:3bbeed4d0fee56ceaf8573720b599a10f29aee461f6b47b9c489b74c9365a25d
+  1.39.0--r42hdfd78af_0: sha256:2fc4b4f162c511030163107fcc839b219d021819cba2ee3d3bf2e2447c0edd3c
 tags:
   1.36.0--r41hdfd78af_1: sha256:3bbeed4d0fee56ceaf8573720b599a10f29aee461f6b47b9c489b74c9365a25d
+  1.39.0--r42hdfd78af_0: sha256:2fc4b4f162c511030163107fcc839b219d021819cba2ee3d3bf2e2447c0edd3c
 docker: quay.io/biocontainers/bioconductor-hapmap500ksty

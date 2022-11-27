@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hilbertcurve
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hilbertcurve
 latest:
-  1.24.0--r41hdfd78af_0: sha256:dbb2b77da3b55e190f036d0b25968ccad01a3a41183382b9be4b568fbba76425
+  1.28.0--r42hdfd78af_0: sha256:f54a8e8cbb9686674af24aff82c81edce42b90b966f702a906ce39b3467b7234
 tags:
   1.24.0--r41hdfd78af_0: sha256:dbb2b77da3b55e190f036d0b25968ccad01a3a41183382b9be4b568fbba76425
+  1.28.0--r42hdfd78af_0: sha256:f54a8e8cbb9686674af24aff82c81edce42b90b966f702a906ce39b3467b7234
 docker: quay.io/biocontainers/bioconductor-hilbertcurve

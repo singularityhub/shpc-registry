@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-gosemsim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gosemsim
 latest:
-  2.8.0--r351hf484d3e_0: sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d
+  2.24.0--r42hc247a5b_0: sha256:de5615604cf1674e57c0f950af96bbc3d16092027cefe08139e985642f93c3f7
 tags:
   2.8.0--r351hf484d3e_0: sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d
+  2.24.0--r42hc247a5b_0: sha256:de5615604cf1674e57c0f950af96bbc3d16092027cefe08139e985642f93c3f7
+  2.20.0--r41hc247a5b_2: sha256:65eb0b680d4409d310c45d72507179e16db075cef56b22ea929fb70fd122fc91
+  2.18.0--r41h399db7b_0: sha256:6801a93f8dbb1200126d397a3e94a01901c9ab5a19fbc90fc9f9127c9d58e21b
+  2.16.1--r40h399db7b_0: sha256:ee802746877546f631da4d8ea61deda86f65ab66c74d7b09a2b82d6312d9b93f
+  2.14.0--r40h5f743cb_0: sha256:7acd3d6d488ff434f3706210dc9616bb8c7cd092b195d79e95d8b8e6b6740b51
 docker: quay.io/biocontainers/bioconductor-gosemsim
 aliases:
   wget: /usr/local/bin/wget

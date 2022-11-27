@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-deepsnv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-deepsnv
 latest:
-  1.40.0--r41hc247a5b_2: sha256:bb10e0d7d40af1ea36021cdf900e2ca14a3caf5fa785957000ebb33fd5770722
+  1.44.0--r42hc247a5b_0: sha256:3e0f51ff9e3c9c11bbf9a2684efcee34365b53c99f1729b717712e2f115d8823
 tags:
   1.40.0--r41hc247a5b_2: sha256:bb10e0d7d40af1ea36021cdf900e2ca14a3caf5fa785957000ebb33fd5770722
+  1.44.0--r42hc247a5b_0: sha256:3e0f51ff9e3c9c11bbf9a2684efcee34365b53c99f1729b717712e2f115d8823
 docker: quay.io/biocontainers/bioconductor-deepsnv

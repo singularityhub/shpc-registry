@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-tin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tin
 latest:
-  1.26.0--r41hdfd78af_0: sha256:393801e4db14f74080e4486773762464d2af1e4e891ffb8a0009044a25851398
+  1.30.0--r42hdfd78af_0: sha256:d53919f96ca69397ac45551361482669d2198b58832509d22ba883edee41bbad
 tags:
   1.26.0--r41hdfd78af_0: sha256:393801e4db14f74080e4486773762464d2af1e4e891ffb8a0009044a25851398
+  1.30.0--r42hdfd78af_0: sha256:d53919f96ca69397ac45551361482669d2198b58832509d22ba883edee41bbad
 docker: quay.io/biocontainers/bioconductor-tin

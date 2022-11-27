@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-lpeadj
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lpeadj
 latest:
-  1.54.0--r41hdfd78af_0: sha256:efb16b242790f5593493a6f5a857d1b2ed1c5f2284f72dcc372dd6a63a1a7477
+  1.58.0--r42hdfd78af_0: sha256:a941f3207a4fd3cf5ea668493d3e510e4a3a36c8824ccb7704047a084949cb88
 tags:
   1.54.0--r41hdfd78af_0: sha256:efb16b242790f5593493a6f5a857d1b2ed1c5f2284f72dcc372dd6a63a1a7477
+  1.58.0--r42hdfd78af_0: sha256:a941f3207a4fd3cf5ea668493d3e510e4a3a36c8824ccb7704047a084949cb88
 docker: quay.io/biocontainers/bioconductor-lpeadj

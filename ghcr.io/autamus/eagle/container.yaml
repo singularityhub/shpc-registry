@@ -6,7 +6,8 @@ latest:
   1.1.2: sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d
 tags:
   1.1.2: sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d
-  latest: sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d
+  latest: sha256:dd3376b547bce29434ccef72a49c42c0dcdb116bdf255aa77d6e868f5a369e35
+  1.1.3: sha256:dd3376b547bce29434ccef72a49c42c0dcdb116bdf255aa77d6e868f5a369e35
 aliases:
   eagle: /opt/view/bin/eagle
   eagle-nm: /opt/view/bin/eagle-nm

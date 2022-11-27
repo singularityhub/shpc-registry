@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-porcinecdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-porcinecdf
 latest:
-  2.18.0--r41hdfd78af_9: sha256:b43fa12e7f5dbcceadb16b0dc7e1fb9d4c532f268fec82569d22d0f7c944f808
+  2.18.0--r42hdfd78af_10: sha256:162bb68a48c6debdb87f2852dfd371415f3c319c53eb9ec5a0b319402d2b7fe0
 tags:
   2.18.0--r41hdfd78af_9: sha256:b43fa12e7f5dbcceadb16b0dc7e1fb9d4c532f268fec82569d22d0f7c944f808
+  2.18.0--r42hdfd78af_10: sha256:162bb68a48c6debdb87f2852dfd371415f3c319c53eb9ec5a0b319402d2b7fe0
 docker: quay.io/biocontainers/bioconductor-porcinecdf

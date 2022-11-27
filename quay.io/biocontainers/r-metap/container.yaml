@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-metap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-metap
 latest:
-  1.4--r41h3121a25_1: sha256:00a941d0f27796d7324acce24ff54ee9626b23e5c3db7b0c060a81e32c831def
+  1.4--r42h3121a25_2: sha256:c49f87abf837f3a7c3bb4a37043c438888e3e1d89eecb6a1f427bcd0cb9325a1
 tags:
   1.4--r41h3121a25_1: sha256:00a941d0f27796d7324acce24ff54ee9626b23e5c3db7b0c060a81e32c831def
+  1.4--r42h3121a25_2: sha256:c49f87abf837f3a7c3bb4a37043c438888e3e1d89eecb6a1f427bcd0cb9325a1
 docker: quay.io/biocontainers/r-metap
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

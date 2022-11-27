@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-bioimagedbs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bioimagedbs
 latest:
-  1.2.2--r41hdfd78af_1: sha256:a9068e787b853d2a626c9cd4f46942a7bbfc69be387a05b967397985fd8d8efe
+  1.6.0--r42hdfd78af_0: sha256:ca516a3b3fcab4ddd771b1ea720152d093a702f93f8d5ec87e54d942f927be12
 tags:
   1.2.2--r41hdfd78af_1: sha256:a9068e787b853d2a626c9cd4f46942a7bbfc69be387a05b967397985fd8d8efe
+  1.6.0--r42hdfd78af_0: sha256:ca516a3b3fcab4ddd771b1ea720152d093a702f93f8d5ec87e54d942f927be12
 docker: quay.io/biocontainers/bioconductor-bioimagedbs
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-scbio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-scbio
 latest:
-  0.1.4--r41hdfd78af_0: sha256:9b76b189e54d5aa42dff5817aedbbe9f786294712793b4195be2083017a007ef
+  0.1.4--r42hdfd78af_1: sha256:610f65d1980849f0b1adfb1252b7c1305a045a6437e973b587b93a86f485df49
 tags:
   0.1.4--r41hdfd78af_0: sha256:9b76b189e54d5aa42dff5817aedbbe9f786294712793b4195be2083017a007ef
+  0.1.4--r42hdfd78af_1: sha256:610f65d1980849f0b1adfb1252b7c1305a045a6437e973b587b93a86f485df49
 docker: quay.io/biocontainers/r-scbio

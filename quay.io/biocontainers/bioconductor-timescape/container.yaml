@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-timescape
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-timescape
 latest:
-  1.8.0--r36_1: sha256:65a6f060825a5246701601e843848148a3dd34c54f5dda45f761f012b06e11c4
+  1.22.0--r42hdfd78af_0: sha256:fab12303f5ca49eca65ff8d785150881691a738cd600099597d9908349ef666a
 tags:
   1.8.0--r36_1: sha256:65a6f060825a5246701601e843848148a3dd34c54f5dda45f761f012b06e11c4
+  1.22.0--r42hdfd78af_0: sha256:fab12303f5ca49eca65ff8d785150881691a738cd600099597d9908349ef666a
+  1.18.0--r41hdfd78af_0: sha256:ef26295da100918b9c4f7ac4d594c90e722be39fd2f52213afa36224454c8273
+  1.16.0--r41hdfd78af_0: sha256:fd756250573378adb53dafaf92557076ef3c98ba281a2aebc852adad98c9bf31
+  1.14.0--r40hdfd78af_1: sha256:fc97a91afcac046fd5e013de6707348a8e1ce19f249949201dfd167d3f35151e
+  1.12.0--r40_0: sha256:8bf0e59965c6ab9cb2c5a3f1fc766d6b2df59c39c877e988bd9d14775ae31fe6
 docker: quay.io/biocontainers/bioconductor-timescape
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
