@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-tripr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tripr
 latest:
-  1.0.0--r41hdfd78af_0: sha256:dccbe088e00ac4e0ca4473320f058c48bfed007b7c5938dd28b3f4a3c30a3765
+  1.4.0--r42hdfd78af_0: sha256:3df41ccd69277bd28fcc24abb47cce85e81d1de315db82e85b9e3bddd685185a
 tags:
   1.0.0--r41hdfd78af_0: sha256:dccbe088e00ac4e0ca4473320f058c48bfed007b7c5938dd28b3f4a3c30a3765
+  1.4.0--r42hdfd78af_0: sha256:3df41ccd69277bd28fcc24abb47cce85e81d1de315db82e85b9e3bddd685185a
 docker: quay.io/biocontainers/bioconductor-tripr

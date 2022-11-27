@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-epitxdb.hs.hg38
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epitxdb.hs.hg38
 latest:
-  0.99.7--r41hdfd78af_4: sha256:6850ddf51fab1a808105bd409175d30a03d150f63b549091462a112d3fe9e980
+  0.99.7--r42hdfd78af_5: sha256:c4229a70f6496320029cb23654571d022e09cac9f0835ac8c26a340407891385
 tags:
   0.99.7--r41hdfd78af_4: sha256:6850ddf51fab1a808105bd409175d30a03d150f63b549091462a112d3fe9e980
+  0.99.7--r42hdfd78af_5: sha256:c4229a70f6496320029cb23654571d022e09cac9f0835ac8c26a340407891385
 docker: quay.io/biocontainers/bioconductor-epitxdb.hs.hg38

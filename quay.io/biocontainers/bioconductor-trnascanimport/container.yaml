@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-trnascanimport
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trnascanimport
 latest:
-  1.8.0--r40_0: sha256:baad7d1d6f038594e156994eaa25b0909e8a974836e1a8905dcbb3c48193a732
+  1.18.0--r42hdfd78af_0: sha256:dfd1e53a61e2508bbdabd4f543f6fec592fb7b7a62a226d2e3160431934e21b8
 tags:
   1.8.0--r40_0: sha256:baad7d1d6f038594e156994eaa25b0909e8a974836e1a8905dcbb3c48193a732
+  1.18.0--r42hdfd78af_0: sha256:dfd1e53a61e2508bbdabd4f543f6fec592fb7b7a62a226d2e3160431934e21b8
+  1.14.0--r41hdfd78af_0: sha256:0dcd727eab4c96ff704a3eef2c3e093f658b98a66df491721d4867e532f173d8
+  1.12.0--r41hdfd78af_0: sha256:15177dd0ee79e8bfbbfd18ef5c888af5287c9d34fe4e4e7ac149281dd08028ad
+  1.10.0--r40hdfd78af_1: sha256:b9a63b5c809d127c64d94e0e22ae6079500c2df2d794b6bec8d5ce51b78379e8
 docker: quay.io/biocontainers/bioconductor-trnascanimport
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ragene10stv1cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ragene10stv1cdf
 latest:
-  2.18.0--r41hdfd78af_9: sha256:bcb15324e5f1fb0d52f38409577a9a60a20f58bbcf97db58f896c0c42fd8a17e
+  2.18.0--r42hdfd78af_10: sha256:f5ee585a2d9d3d164aa4997b07b02db596acf5ff0a79f75216c3c87a6f8c0739
 tags:
   2.18.0--r41hdfd78af_9: sha256:bcb15324e5f1fb0d52f38409577a9a60a20f58bbcf97db58f896c0c42fd8a17e
+  2.18.0--r42hdfd78af_10: sha256:f5ee585a2d9d3d164aa4997b07b02db596acf5ff0a79f75216c3c87a6f8c0739
 docker: quay.io/biocontainers/bioconductor-ragene10stv1cdf

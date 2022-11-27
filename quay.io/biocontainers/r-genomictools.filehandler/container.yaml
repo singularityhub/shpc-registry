@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-genomictools.filehandler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-genomictools.filehandler
 latest:
-  0.1.5.9--r41h3342da4_2: sha256:98795ab4220f4904cccafe80c51f15c52be8b5a035c8492685ab6a9150a0a246
+  0.1.5.9--r42h3342da4_3: sha256:76c86448bac8563e1293c74d8a357cf55e1fe40f1c1c98220669136e23dd8c18
 tags:
   0.1.5.9--r41h3342da4_2: sha256:98795ab4220f4904cccafe80c51f15c52be8b5a035c8492685ab6a9150a0a246
+  0.1.5.9--r42h3342da4_3: sha256:76c86448bac8563e1293c74d8a357cf55e1fe40f1c1c98220669136e23dd8c18
 docker: quay.io/biocontainers/r-genomictools.filehandler
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

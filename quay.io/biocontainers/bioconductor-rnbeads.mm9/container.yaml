@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rnbeads.mm9
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnbeads.mm9
 latest:
-  1.26.0--r41hdfd78af_1: sha256:632a7104529b462dbabce50d1ff43a01fc9b6ff9f3383f49e1bdde747db47fd6
+  1.30.0--r42hdfd78af_0: sha256:d68729d958ff5f34dc78fe6c996bd659877d1ddd6a07541e89e7843e32148803
 tags:
   1.26.0--r41hdfd78af_1: sha256:632a7104529b462dbabce50d1ff43a01fc9b6ff9f3383f49e1bdde747db47fd6
+  1.30.0--r42hdfd78af_0: sha256:d68729d958ff5f34dc78fe6c996bd659877d1ddd6a07541e89e7843e32148803
 docker: quay.io/biocontainers/bioconductor-rnbeads.mm9

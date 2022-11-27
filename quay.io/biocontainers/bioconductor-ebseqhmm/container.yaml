@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ebseqhmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ebseqhmm
 latest:
-  1.28.0--r41hdfd78af_0: sha256:075d222f2efeae18fe8fe689e4a19eaacba4f17eeb5e76586239a01536891a8a
+  1.32.0--r42hdfd78af_0: sha256:f50e1db37db1f77d0025f0afbd46f2156dc2ca41cc3c2d135ae36d3797300c82
 tags:
   1.28.0--r41hdfd78af_0: sha256:075d222f2efeae18fe8fe689e4a19eaacba4f17eeb5e76586239a01536891a8a
+  1.32.0--r42hdfd78af_0: sha256:f50e1db37db1f77d0025f0afbd46f2156dc2ca41cc3c2d135ae36d3797300c82
 docker: quay.io/biocontainers/bioconductor-ebseqhmm

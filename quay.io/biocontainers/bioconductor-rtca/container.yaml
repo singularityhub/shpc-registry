@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rtca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtca
 latest:
-  1.46.0--r41hdfd78af_0: sha256:b354b00948b66c2830bb96f34930aa87cdb170a731dbc4695e9713a5311e125c
+  1.50.0--r42hdfd78af_0: sha256:ebd2d30660d468f8b81ad5415f8e528aa9e02f44656509a05899d82dc1f7ea48
 tags:
   1.46.0--r41hdfd78af_0: sha256:b354b00948b66c2830bb96f34930aa87cdb170a731dbc4695e9713a5311e125c
+  1.50.0--r42hdfd78af_0: sha256:ebd2d30660d468f8b81ad5415f8e528aa9e02f44656509a05899d82dc1f7ea48
 docker: quay.io/biocontainers/bioconductor-rtca

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mogsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mogsa
 latest:
-  1.28.0--r41hdfd78af_0: sha256:7d4bd9516635f72fc65db0b05d5a5bf2245e5cfc9095f4a828608f18ea8da80c
+  1.32.0--r42hdfd78af_0: sha256:e9aae9ad6712b3f8b09c1516b5c1d32a4900acc6f58240867508f5f7606d307c
 tags:
   1.28.0--r41hdfd78af_0: sha256:7d4bd9516635f72fc65db0b05d5a5bf2245e5cfc9095f4a828608f18ea8da80c
+  1.32.0--r42hdfd78af_0: sha256:e9aae9ad6712b3f8b09c1516b5c1d32a4900acc6f58240867508f5f7606d307c
 docker: quay.io/biocontainers/bioconductor-mogsa

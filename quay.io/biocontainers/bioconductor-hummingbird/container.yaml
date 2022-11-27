@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hummingbird
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hummingbird
 latest:
-  1.4.0--r41hc247a5b_2: sha256:fcbfa9691dfad0dad2ff308bb91ffa807a0e0f4c161bb04e2a8902f738b857d1
+  1.8.0--r42hc247a5b_0: sha256:e09bc14e803707ceff8efd24a143b334b129c02c60c1d0a7fbd36ab014f4d0a0
 tags:
   1.4.0--r41hc247a5b_2: sha256:fcbfa9691dfad0dad2ff308bb91ffa807a0e0f4c161bb04e2a8902f738b857d1
+  1.8.0--r42hc247a5b_0: sha256:e09bc14e803707ceff8efd24a143b334b129c02c60c1d0a7fbd36ab014f4d0a0
 docker: quay.io/biocontainers/bioconductor-hummingbird

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-fmrs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fmrs
 latest:
-  1.4.0--r41hc0cfd56_2: sha256:113a54545b22b3011f6993b95a83a51a0f73be167061f3c58a73bd031e959a43
+  1.8.0--r42hc0cfd56_0: sha256:8eb54bcba1b4d44b4d3c8701195e275cdac45c6188e154040274f0de5182ad0e
 tags:
   1.4.0--r41hc0cfd56_2: sha256:113a54545b22b3011f6993b95a83a51a0f73be167061f3c58a73bd031e959a43
+  1.8.0--r42hc0cfd56_0: sha256:8eb54bcba1b4d44b4d3c8701195e275cdac45c6188e154040274f0de5182ad0e
 docker: quay.io/biocontainers/bioconductor-fmrs

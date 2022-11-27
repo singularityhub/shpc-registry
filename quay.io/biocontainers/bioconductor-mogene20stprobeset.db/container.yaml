@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mogene20stprobeset.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mogene20stprobeset.db
 latest:
-  8.8.0--r41hdfd78af_1: sha256:4fa24d699d6affeaf6f1b03c4770f2b257e9d25b1f58b9f15a6f2c160bafc825
+  8.8.0--r42hdfd78af_2: sha256:f8a4ef4f2bcc4e9328ce621c55243ece3e33c2f5b8827f27ab9b0cd627cd199a
 tags:
   8.8.0--r41hdfd78af_1: sha256:4fa24d699d6affeaf6f1b03c4770f2b257e9d25b1f58b9f15a6f2c160bafc825
+  8.8.0--r42hdfd78af_2: sha256:f8a4ef4f2bcc4e9328ce621c55243ece3e33c2f5b8827f27ab9b0cd627cd199a
 docker: quay.io/biocontainers/bioconductor-mogene20stprobeset.db

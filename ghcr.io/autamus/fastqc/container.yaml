@@ -3,9 +3,9 @@ url: https://github.com/orgs/autamus/packages/container/package/fastqc
 maintainer: '@vsoch'
 description: A quality control tool for high throughput sequence data.
 latest:
-  0.11.9: sha256:5e38b22424fcc7ff286958b5ad74f2fc9bb734e63da84999b0d472eca88f8f91
+  0.11.9: sha256:35897d051b2d23c400adb77f505d051b93f30eadd3b736fba5c252a2b4c3955b
 tags:
-  0.11.9: sha256:5e38b22424fcc7ff286958b5ad74f2fc9bb734e63da84999b0d472eca88f8f91
-  latest: sha256:5e38b22424fcc7ff286958b5ad74f2fc9bb734e63da84999b0d472eca88f8f91
+  0.11.9: sha256:35897d051b2d23c400adb77f505d051b93f30eadd3b736fba5c252a2b4c3955b
+  latest: sha256:35897d051b2d23c400adb77f505d051b93f30eadd3b736fba5c252a2b4c3955b
 aliases:
   fastqc: /opt/view/bin/fastqc

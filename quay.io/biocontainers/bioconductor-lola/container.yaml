@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-lola
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lola
 latest:
-  1.8.0--r3.4.1_0: sha256:f01b34ef072d05e4e314dc157c86a025b42d441629f90c0f9172b0b21431ca1b
+  1.28.0--r42hdfd78af_0: sha256:5cfbf82bf06c1d13d9757654bb08c64000c551686eecfaf3cded32a216f8e8ba
 tags:
   1.8.0--r3.4.1_0: sha256:f01b34ef072d05e4e314dc157c86a025b42d441629f90c0f9172b0b21431ca1b
+  1.28.0--r42hdfd78af_0: sha256:5cfbf82bf06c1d13d9757654bb08c64000c551686eecfaf3cded32a216f8e8ba
+  1.24.0--r41hdfd78af_0: sha256:522771a2b593c64bba76831486bc7c70446339cd5c781968415bf2c24099fd8b
+  1.22.0--r41hdfd78af_0: sha256:2198679c541db615de9ec8911279ca3bda3ba5305165e451892e5fe7fd577044
+  1.20.0--r40hdfd78af_1: sha256:771cc982c69a964c2a42a9c8d5dd9a10febe9641a0c2c1864ea2b4b12061cc31
+  1.18.0--r40_0: sha256:ac953af7e8f1ccc37d1feee6928c6b287b56b097c776da36deb6389858cdd08a
 docker: quay.io/biocontainers/bioconductor-lola
 aliases:
   wget: /usr/local/bin/wget

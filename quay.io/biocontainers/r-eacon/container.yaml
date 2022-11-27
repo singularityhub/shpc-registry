@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-eacon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-eacon
 latest:
-  0.3.6--r41hdfd78af_1: sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d
+  0.3.6--r42hdfd78af_2: sha256:0e4d5dbb085e9be13aaf18b63a7ec87ae3dc7cd941a7ec83715e503a1f2d1375
 tags:
   0.3.6--r41hdfd78af_1: sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d
+  0.3.6--r42hdfd78af_2: sha256:0e4d5dbb085e9be13aaf18b63a7ec87ae3dc7cd941a7ec83715e503a1f2d1375
 docker: quay.io/biocontainers/r-eacon
 aliases:
   pandoc: /usr/local/bin/pandoc
