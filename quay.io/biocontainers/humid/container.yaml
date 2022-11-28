@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/humid
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for humid
+latest:
+  1.0.2--h5f740d0_0: sha256:92ffab70af8abdad85fde89082996a41034d2fc84d9411737874feee0dc56607
+tags:
+  1.0.2--h5f740d0_0: sha256:92ffab70af8abdad85fde89082996a41034d2fc84d9411737874feee0dc56607
+docker: quay.io/biocontainers/humid
+aliases:
+  humid: /usr/local/bin/humid
+  igzip: /usr/local/bin/igzip
