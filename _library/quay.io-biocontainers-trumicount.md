@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trumicount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trumicount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trumicount/container.yaml"
-updated_at: "2022-11-27 13:02:36.776324"
-latest: "0.9.9.3--r3.4.1_0"
+updated_at: "2022-11-28 00:20:02.152007"
+latest: "0.9.14--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trumicount"
 aliases:
  - "gawk-4.1.3"
@@ -17,8 +17,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.9.9.3--r3.4.1_0"
+ - "0.9.14--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for trumicount"
-config: {"url": "https://biocontainers.pro/tools/trumicount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trumicount", "latest": {"0.9.9.3--r3.4.1_0": "sha256:dd7763e3cd7953ffab7b72c83299f467d8616cabeb466dfc3e9ad78988cb3d5e"}, "tags": {"0.9.9.3--r3.4.1_0": "sha256:dd7763e3cd7953ffab7b72c83299f467d8616cabeb466dfc3e9ad78988cb3d5e"}, "docker": "quay.io/biocontainers/trumicount", "aliases": {"gawk-4.1.3": "/usr/local/bin/gawk-4.1.3", "igawk": "/usr/local/bin/igawk", "trumicount": "/usr/local/bin/trumicount", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/trumicount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trumicount", "latest": {"0.9.14--r41hdfd78af_0": "sha256:e25a7b0191e9df6032236faad48a130595cc3a3ba1d74402e2f69ea7d3046309"}, "tags": {"0.9.9.3--r3.4.1_0": "sha256:dd7763e3cd7953ffab7b72c83299f467d8616cabeb466dfc3e9ad78988cb3d5e", "0.9.14--r41hdfd78af_0": "sha256:e25a7b0191e9df6032236faad48a130595cc3a3ba1d74402e2f69ea7d3046309"}, "docker": "quay.io/biocontainers/trumicount", "aliases": {"gawk-4.1.3": "/usr/local/bin/gawk-4.1.3", "igawk": "/usr/local/bin/igawk", "trumicount": "/usr/local/bin/trumicount", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trumicount.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/trumicount
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trumicount:0.9.9.3--r3.4.1_0
+$ shpc install quay.io/biocontainers/trumicount:0.9.14--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trumicount/0.9.9.3--r3.4.1_0
-$ module help quay.io/biocontainers/trumicount/0.9.9.3--r3.4.1_0
+$ module load quay.io/biocontainers/trumicount/0.9.14--r41hdfd78af_0
+$ module help quay.io/biocontainers/trumicount/0.9.14--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

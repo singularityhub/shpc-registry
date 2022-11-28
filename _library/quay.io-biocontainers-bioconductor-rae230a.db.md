@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rae230a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rae230a.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rae230a.db/container.yaml"
-updated_at: "2022-11-27 12:41:13.875809"
-latest: "3.2.3--r41hdfd78af_7"
+updated_at: "2022-11-28 00:02:58.747841"
+latest: "3.13.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rae230a.db"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
+ - "3.13.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-rae230a.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rae230a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rae230a.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:24240e56ffa57b9d5793eb0cfd7c4517d9f6b875b9148deaff9279a3426bff3c"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:24240e56ffa57b9d5793eb0cfd7c4517d9f6b875b9148deaff9279a3426bff3c"}, "docker": "quay.io/biocontainers/bioconductor-rae230a.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rae230a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rae230a.db", "latest": {"3.13.0--r42hdfd78af_2": "sha256:dd969936d1872dae71e248ce19249921de47c26b25dd46c9f1d63978b41fc9f5"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:24240e56ffa57b9d5793eb0cfd7c4517d9f6b875b9148deaff9279a3426bff3c", "3.13.0--r42hdfd78af_2": "sha256:dd969936d1872dae71e248ce19249921de47c26b25dd46c9f1d63978b41fc9f5"}, "docker": "quay.io/biocontainers/bioconductor-rae230a.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rae230a.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rae230a.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rae230a.db:3.2.3--r41hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-rae230a.db:3.13.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rae230a.db/3.2.3--r41hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-rae230a.db/3.2.3--r41hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-rae230a.db/3.13.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-rae230a.db/3.13.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

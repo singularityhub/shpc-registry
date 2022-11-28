@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sparsedossa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsedossa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsedossa/container.yaml"
-updated_at: "2022-11-27 12:19:26.340180"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-27 23:45:55.683312"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsedossa"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sparsedossa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsedossa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsedossa", "latest": {"1.8.0--r36_1": "sha256:fa782478f3f7996fd3693378fb8b7d4920199e1fed104590b52f7655e148435d"}, "tags": {"1.8.0--r36_1": "sha256:fa782478f3f7996fd3693378fb8b7d4920199e1fed104590b52f7655e148435d"}, "docker": "quay.io/biocontainers/bioconductor-sparsedossa", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsedossa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsedossa", "latest": {"1.22.0--r42hdfd78af_0": "sha256:7fc27d9aa77930f5b55a66755284bfe1b37b055181ade209a83463a7961cb121"}, "tags": {"1.8.0--r36_1": "sha256:fa782478f3f7996fd3693378fb8b7d4920199e1fed104590b52f7655e148435d", "1.22.0--r42hdfd78af_0": "sha256:7fc27d9aa77930f5b55a66755284bfe1b37b055181ade209a83463a7961cb121", "1.18.0--r41hdfd78af_0": "sha256:5552da8df6a2ce6d21f099fe09679a7744ec58fce72483d025d19db3cd31ae2e", "1.16.0--r41hdfd78af_0": "sha256:d5b85e00a523b00b66dbecdc82307ecab76d5fce864dc7918a913a1f3100a1a7", "1.14.0--r40hdfd78af_1": "sha256:57a41485916338504da9b1297f4b3330c54d24878bc2514b07bbe6592180ea34", "1.12.0--r40_0": "sha256:5e3fd5d92a7e2a17fe848202facddace183904a8b7a04197b175537548310db2"}, "docker": "quay.io/biocontainers/bioconductor-sparsedossa", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sparsedossa.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sparsedossa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sparsedossa:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-sparsedossa:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sparsedossa/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-sparsedossa/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-sparsedossa/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sparsedossa/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scoary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scoary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scoary/container.yaml"
-updated_at: "2022-11-27 13:01:53.200958"
-latest: "1.6.9--py36_0"
+updated_at: "2022-11-28 00:19:28.955501"
+latest: "1.6.16--py_2"
 container_url: "https://biocontainers.pro/tools/scoary"
 aliases:
  - "pylupdate4"
@@ -30,8 +30,9 @@ aliases:
  - "qdbusxml2cpp"
 versions:
  - "1.6.9--py36_0"
+ - "1.6.16--py_2"
 description: "shpc-registry automated BioContainers addition for scoary"
-config: {"url": "https://biocontainers.pro/tools/scoary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scoary", "latest": {"1.6.9--py36_0": "sha256:57460ce504717a6217c9bd58ccc6dd55457a904298f6a9fb535018096af01d5c"}, "tags": {"1.6.9--py36_0": "sha256:57460ce504717a6217c9bd58ccc6dd55457a904298f6a9fb535018096af01d5c"}, "docker": "quay.io/biocontainers/scoary", "aliases": {"pylupdate4": "/usr/local/bin/pylupdate4", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "scoary": "/usr/local/bin/scoary", "scoary_GUI": "/usr/local/bin/scoary_GUI", "ete3": "/usr/local/bin/ete3", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "sip": "/usr/local/bin/sip", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp"}}
+config: {"url": "https://biocontainers.pro/tools/scoary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scoary", "latest": {"1.6.16--py_2": "sha256:3009f48870e27e1b941a08ffed96ab7e4528d75d37e91ef96fc52f5458bff4fe"}, "tags": {"1.6.9--py36_0": "sha256:57460ce504717a6217c9bd58ccc6dd55457a904298f6a9fb535018096af01d5c", "1.6.16--py_2": "sha256:3009f48870e27e1b941a08ffed96ab7e4528d75d37e91ef96fc52f5458bff4fe"}, "docker": "quay.io/biocontainers/scoary", "aliases": {"pylupdate4": "/usr/local/bin/pylupdate4", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "scoary": "/usr/local/bin/scoary", "scoary_GUI": "/usr/local/bin/scoary_GUI", "ete3": "/usr/local/bin/ete3", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "sip": "/usr/local/bin/sip", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scoary.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/scoary
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scoary:1.6.9--py36_0
+$ shpc install quay.io/biocontainers/scoary:1.6.16--py_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scoary/1.6.9--py36_0
-$ module help quay.io/biocontainers/scoary/1.6.9--py36_0
+$ module load quay.io/biocontainers/scoary/1.6.16--py_2
+$ module help quay.io/biocontainers/scoary/1.6.16--py_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-funchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
-updated_at: "2022-11-27 12:05:58.123815"
+updated_at: "2022-11-27 23:35:30.825762"
 latest: "1.20.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-funchip"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-maskbad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maskbad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maskbad/container.yaml"
-updated_at: "2022-11-27 13:09:46.902833"
-latest: "1.38.0--r41hdfd78af_0"
+updated_at: "2022-11-28 00:25:47.423983"
+latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maskbad"
 
 versions:
  - "1.38.0--r41hdfd78af_0"
+ - "1.42.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-maskbad"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maskbad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maskbad", "latest": {"1.38.0--r41hdfd78af_0": "sha256:a2b205867a53b6cb5be3e0a0cccb90dada97fc47c2f50c85f2cea5bf5e56a52e"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:a2b205867a53b6cb5be3e0a0cccb90dada97fc47c2f50c85f2cea5bf5e56a52e"}, "docker": "quay.io/biocontainers/bioconductor-maskbad"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maskbad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maskbad", "latest": {"1.42.0--r42hdfd78af_0": "sha256:9d942009bf78fb0560845bcf48748b962353585c4bceaf1cd547a461cf31b158"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:a2b205867a53b6cb5be3e0a0cccb90dada97fc47c2f50c85f2cea5bf5e56a52e", "1.42.0--r42hdfd78af_0": "sha256:9d942009bf78fb0560845bcf48748b962353585c4bceaf1cd547a461cf31b158"}, "docker": "quay.io/biocontainers/bioconductor-maskbad"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maskbad.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-maskbad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-maskbad:1.38.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-maskbad:1.42.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-maskbad/1.38.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-maskbad/1.38.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-maskbad/1.42.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-maskbad/1.42.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

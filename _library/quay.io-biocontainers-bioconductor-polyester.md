@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-polyester"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-polyester/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-polyester/container.yaml"
-updated_at: "2022-11-27 12:28:45.024867"
+updated_at: "2022-11-27 23:53:11.761064"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-polyester"
 

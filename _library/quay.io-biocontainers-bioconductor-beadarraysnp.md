@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-beadarraysnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beadarraysnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beadarraysnp/container.yaml"
-updated_at: "2022-11-27 12:59:11.635293"
-latest: "1.60.0--r41hdfd78af_0"
+updated_at: "2022-11-28 00:17:20.642665"
+latest: "1.64.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beadarraysnp"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
+ - "1.64.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-beadarraysnp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-beadarraysnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-beadarraysnp", "latest": {"1.60.0--r41hdfd78af_0": "sha256:d4308d93287b35f6f36bc7005f7e07e5741e29da9f31bfc8d1b447d34f91f37c"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:d4308d93287b35f6f36bc7005f7e07e5741e29da9f31bfc8d1b447d34f91f37c"}, "docker": "quay.io/biocontainers/bioconductor-beadarraysnp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-beadarraysnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-beadarraysnp", "latest": {"1.64.0--r42hdfd78af_0": "sha256:63d0cd14fb48a6c39d36704d4e50d14e179468548c081e82a0a9a55bb824b069"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:d4308d93287b35f6f36bc7005f7e07e5741e29da9f31bfc8d1b447d34f91f37c", "1.64.0--r42hdfd78af_0": "sha256:63d0cd14fb48a6c39d36704d4e50d14e179468548c081e82a0a9a55bb824b069"}, "docker": "quay.io/biocontainers/bioconductor-beadarraysnp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-beadarraysnp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-beadarraysnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-beadarraysnp:1.60.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-beadarraysnp:1.64.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-beadarraysnp/1.60.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-beadarraysnp/1.60.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-beadarraysnp/1.64.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-beadarraysnp/1.64.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

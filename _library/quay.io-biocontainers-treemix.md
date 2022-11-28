@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treemix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treemix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treemix/container.yaml"
-updated_at: "2022-11-27 12:45:38.347186"
-latest: "1.13--boost1.64_gsl2.2_0"
+updated_at: "2022-11-28 00:06:27.824545"
+latest: "1.13--hc564dbc_6"
 container_url: "https://biocontainers.pro/tools/treemix"
 aliases:
  - "f4ratio"
@@ -25,8 +25,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.13--boost1.64_gsl2.2_0"
+ - "1.13--hc564dbc_6"
 description: "shpc-registry automated BioContainers addition for treemix"
-config: {"url": "https://biocontainers.pro/tools/treemix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treemix", "latest": {"1.13--boost1.64_gsl2.2_0": "sha256:49b7b2234549b331adf8c1af85707b99c4c902b521799052ef60c1c0e4e78779"}, "tags": {"1.13--boost1.64_gsl2.2_0": "sha256:49b7b2234549b331adf8c1af85707b99c4c902b521799052ef60c1c0e4e78779"}, "docker": "quay.io/biocontainers/treemix", "aliases": {"f4ratio": "/usr/local/bin/f4ratio", "fourpop": "/usr/local/bin/fourpop", "plotting_funcs.R": "/usr/local/bin/plotting_funcs.R", "threepop": "/usr/local/bin/threepop", "treemix": "/usr/local/bin/treemix", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/treemix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treemix", "latest": {"1.13--hc564dbc_6": "sha256:d8b1c1fa1b228e52ed4feb9e96b044d5ff3f776e9b0951affc1ae71fe8849129"}, "tags": {"1.13--boost1.64_gsl2.2_0": "sha256:49b7b2234549b331adf8c1af85707b99c4c902b521799052ef60c1c0e4e78779", "1.13--hc564dbc_6": "sha256:d8b1c1fa1b228e52ed4feb9e96b044d5ff3f776e9b0951affc1ae71fe8849129"}, "docker": "quay.io/biocontainers/treemix", "aliases": {"f4ratio": "/usr/local/bin/f4ratio", "fourpop": "/usr/local/bin/fourpop", "plotting_funcs.R": "/usr/local/bin/plotting_funcs.R", "threepop": "/usr/local/bin/threepop", "treemix": "/usr/local/bin/treemix", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treemix.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/treemix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treemix:1.13--boost1.64_gsl2.2_0
+$ shpc install quay.io/biocontainers/treemix:1.13--hc564dbc_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treemix/1.13--boost1.64_gsl2.2_0
-$ module help quay.io/biocontainers/treemix/1.13--boost1.64_gsl2.2_0
+$ module load quay.io/biocontainers/treemix/1.13--hc564dbc_6
+$ module help quay.io/biocontainers/treemix/1.13--hc564dbc_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

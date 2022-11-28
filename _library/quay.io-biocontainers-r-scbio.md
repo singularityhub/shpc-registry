@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-scbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scbio/container.yaml"
-updated_at: "2022-11-27 12:01:16.513990"
-latest: "0.1.4--r41hdfd78af_0"
+updated_at: "2022-11-27 23:31:45.967252"
+latest: "0.1.4--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-scbio"
 
 versions:
  - "0.1.4--r41hdfd78af_0"
+ - "0.1.4--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-scbio"
-config: {"url": "https://biocontainers.pro/tools/r-scbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scbio", "latest": {"0.1.4--r41hdfd78af_0": "sha256:9b76b189e54d5aa42dff5817aedbbe9f786294712793b4195be2083017a007ef"}, "tags": {"0.1.4--r41hdfd78af_0": "sha256:9b76b189e54d5aa42dff5817aedbbe9f786294712793b4195be2083017a007ef"}, "docker": "quay.io/biocontainers/r-scbio"}
+config: {"url": "https://biocontainers.pro/tools/r-scbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scbio", "latest": {"0.1.4--r42hdfd78af_1": "sha256:610f65d1980849f0b1adfb1252b7c1305a045a6437e973b587b93a86f485df49"}, "tags": {"0.1.4--r41hdfd78af_0": "sha256:9b76b189e54d5aa42dff5817aedbbe9f786294712793b4195be2083017a007ef", "0.1.4--r42hdfd78af_1": "sha256:610f65d1980849f0b1adfb1252b7c1305a045a6437e973b587b93a86f485df49"}, "docker": "quay.io/biocontainers/r-scbio"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scbio.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-scbio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-scbio:0.1.4--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-scbio:0.1.4--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-scbio/0.1.4--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-scbio/0.1.4--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-scbio/0.1.4--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-scbio/0.1.4--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

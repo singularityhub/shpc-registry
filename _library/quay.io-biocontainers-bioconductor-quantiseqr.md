@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-quantiseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quantiseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quantiseqr/container.yaml"
-updated_at: "2022-11-27 13:12:43.511486"
+updated_at: "2022-11-28 00:28:09.817364"
 latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quantiseqr"
 

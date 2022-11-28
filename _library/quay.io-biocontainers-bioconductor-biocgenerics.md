@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-biocgenerics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocgenerics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocgenerics/container.yaml"
-updated_at: "2022-11-27 12:35:06.840649"
-latest: "0.40.0--r41hdfd78af_0"
+updated_at: "2022-11-27 23:58:11.026787"
+latest: "0.44.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocgenerics"
 
 versions:
  - "0.40.0--r41hdfd78af_0"
+ - "0.44.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocgenerics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocgenerics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocgenerics", "latest": {"0.40.0--r41hdfd78af_0": "sha256:6b845ba3261f517db4e9410d3359f40d7ce5a9f27e3ea45f15e17ccbb872951d"}, "tags": {"0.40.0--r41hdfd78af_0": "sha256:6b845ba3261f517db4e9410d3359f40d7ce5a9f27e3ea45f15e17ccbb872951d"}, "docker": "quay.io/biocontainers/bioconductor-biocgenerics"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocgenerics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocgenerics", "latest": {"0.44.0--r42hdfd78af_0": "sha256:5cd6cb58d911919cb09d8abafe392858b167292c28973eb62726072f834bd332"}, "tags": {"0.40.0--r41hdfd78af_0": "sha256:6b845ba3261f517db4e9410d3359f40d7ce5a9f27e3ea45f15e17ccbb872951d", "0.44.0--r42hdfd78af_0": "sha256:5cd6cb58d911919cb09d8abafe392858b167292c28973eb62726072f834bd332"}, "docker": "quay.io/biocontainers/bioconductor-biocgenerics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocgenerics.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocgenerics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocgenerics:0.40.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biocgenerics:0.44.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocgenerics/0.40.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biocgenerics/0.40.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biocgenerics/0.44.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biocgenerics/0.44.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

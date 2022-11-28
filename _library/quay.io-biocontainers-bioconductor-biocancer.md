@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-biocancer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocancer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocancer/container.yaml"
-updated_at: "2022-11-27 12:39:06.600714"
-latest: "1.22.0--r41hdfd78af_0"
+updated_at: "2022-11-28 00:01:18.915707"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocancer"
 aliases:
  - "pandoc"
 versions:
  - "1.22.0--r41hdfd78af_0"
+ - "1.26.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocancer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocancer", "latest": {"1.22.0--r41hdfd78af_0": "sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913"}, "docker": "quay.io/biocontainers/bioconductor-biocancer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocancer", "latest": {"1.26.0--r42hdfd78af_0": "sha256:26b8f5a9c88cf21e43fcf47158a075827980e76d4862c71a55026b5e26381d00"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913", "1.26.0--r42hdfd78af_0": "sha256:26b8f5a9c88cf21e43fcf47158a075827980e76d4862c71a55026b5e26381d00"}, "docker": "quay.io/biocontainers/bioconductor-biocancer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocancer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocancer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocancer:1.22.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biocancer:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocancer/1.22.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biocancer/1.22.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biocancer/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biocancer/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

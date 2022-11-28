@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowtime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowtime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowtime/container.yaml"
-updated_at: "2022-11-27 12:11:40.114487"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-27 23:39:52.118127"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowtime"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.17.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowtime"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowtime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowtime", "latest": {"1.8.0--r36_1": "sha256:2810eeccf5a1536fd244e20d0103b1afece779a68c147000808a9c3eec38affa"}, "tags": {"1.8.0--r36_1": "sha256:2810eeccf5a1536fd244e20d0103b1afece779a68c147000808a9c3eec38affa"}, "docker": "quay.io/biocontainers/bioconductor-flowtime", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowtime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowtime", "latest": {"1.22.0--r42hdfd78af_0": "sha256:e700a0d13024cf75fc0a270b966ae2a4c4bf054c65c0dfedc4a08cf0c5b06e53"}, "tags": {"1.8.0--r36_1": "sha256:2810eeccf5a1536fd244e20d0103b1afece779a68c147000808a9c3eec38affa", "1.22.0--r42hdfd78af_0": "sha256:e700a0d13024cf75fc0a270b966ae2a4c4bf054c65c0dfedc4a08cf0c5b06e53", "1.17.0--r41hdfd78af_0": "sha256:dab6100d76e2ad5c247432c1db9dad5e83ca8550337906bba2ba5a0f37f3280e", "1.16.0--r41hdfd78af_0": "sha256:f2921bcf5647ceebf8a900f6492851f7270885111adfeb8ced64938cbf48cd24", "1.14.0--r40hdfd78af_1": "sha256:be4fe7e2c6d700dea4fe7b0e01a667baa0a089ec9561dfa0c02f645870fb0be7", "1.12.0--r40_0": "sha256:46453210c88c580844abbc4ab8ebe3e9f1d2034eb3930631911ef8ac344a8398"}, "docker": "quay.io/biocontainers/bioconductor-flowtime", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowtime.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowtime
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowtime:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-flowtime:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowtime/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-flowtime/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-flowtime/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowtime/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

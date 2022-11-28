@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cmap2data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cmap2data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cmap2data/container.yaml"
-updated_at: "2022-11-27 12:07:07.580757"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-27 23:36:22.417548"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cmap2data"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cmap2data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cmap2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cmap2data", "latest": {"1.30.0--r41hdfd78af_1": "sha256:87fe33287ab75d5d775053d5e3a71d3ff45c343507b60b85afd1e71434922f49"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:87fe33287ab75d5d775053d5e3a71d3ff45c343507b60b85afd1e71434922f49"}, "docker": "quay.io/biocontainers/bioconductor-cmap2data"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cmap2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cmap2data", "latest": {"1.34.0--r42hdfd78af_0": "sha256:98a2f5201ec1a1f296ef163e32c78bc556b0c0aa3bc7618f2e0b4ccdc9d711bd"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:87fe33287ab75d5d775053d5e3a71d3ff45c343507b60b85afd1e71434922f49", "1.34.0--r42hdfd78af_0": "sha256:98a2f5201ec1a1f296ef163e32c78bc556b0c0aa3bc7618f2e0b4ccdc9d711bd", "1.33.0--r42hdfd78af_0": "sha256:cccf8e18aead9d2dc917d64dfce001bb26d20303f3c45ab488b73c131d6385eb"}, "docker": "quay.io/biocontainers/bioconductor-cmap2data"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cmap2data.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cmap2data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cmap2data:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-cmap2data:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cmap2data/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-cmap2data/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-cmap2data/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cmap2data/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

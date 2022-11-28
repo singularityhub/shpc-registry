@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msnid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msnid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msnid/container.yaml"
-updated_at: "2022-11-27 12:25:33.027572"
-latest: "1.28.0--r41hc247a5b_2"
+updated_at: "2022-11-27 23:50:42.139173"
+latest: "1.32.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msnid"
 aliases:
  - "pandoc-server"
@@ -20,8 +20,9 @@ aliases:
  - "hdf24to8"
 versions:
  - "1.28.0--r41hc247a5b_2"
+ - "1.32.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msnid"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msnid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msnid", "latest": {"1.28.0--r41hc247a5b_2": "sha256:5b1848dc3a8dff619e23ad2cd31abe23e8a3ec2fccc4583f3d4f4ccef7cffa6b"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:5b1848dc3a8dff619e23ad2cd31abe23e8a3ec2fccc4583f3d4f4ccef7cffa6b"}, "docker": "quay.io/biocontainers/bioconductor-msnid", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msnid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msnid", "latest": {"1.32.0--r42hc247a5b_0": "sha256:cdb17fce3e1825b237d79c9a34413d0b14d24fd48069c541f0f8ee20f53219ec"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:5b1848dc3a8dff619e23ad2cd31abe23e8a3ec2fccc4583f3d4f4ccef7cffa6b", "1.32.0--r42hc247a5b_0": "sha256:cdb17fce3e1825b237d79c9a34413d0b14d24fd48069c541f0f8ee20f53219ec"}, "docker": "quay.io/biocontainers/bioconductor-msnid", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msnid.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msnid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msnid:1.28.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-msnid:1.32.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msnid/1.28.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-msnid/1.28.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-msnid/1.32.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-msnid/1.32.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

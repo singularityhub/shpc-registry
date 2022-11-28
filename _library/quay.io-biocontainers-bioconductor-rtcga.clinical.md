@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.clinical"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.clinical/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.clinical/container.yaml"
-updated_at: "2022-11-27 13:15:51.268789"
-latest: "20151101.24.0--r41hdfd78af_1"
+updated_at: "2022-11-28 00:30:40.759493"
+latest: "20151101.27.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.clinical"
 aliases:
  - "f2py3.10"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "20151101.24.0--r41hdfd78af_1"
+ - "20151101.27.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.clinical"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.clinical", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.clinical", "latest": {"20151101.24.0--r41hdfd78af_1": "sha256:9c63afdd9a5b588e90b9cf82cca1f4eaed3704b6619dfff4799b0ff8cf9a0def"}, "tags": {"20151101.24.0--r41hdfd78af_1": "sha256:9c63afdd9a5b588e90b9cf82cca1f4eaed3704b6619dfff4799b0ff8cf9a0def"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.clinical", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.clinical", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.clinical", "latest": {"20151101.27.0--r42hdfd78af_0": "sha256:0ea98e72882ca471bb8a29a5b1609fa107425fff88c22863794e7d91315c198c"}, "tags": {"20151101.24.0--r41hdfd78af_1": "sha256:9c63afdd9a5b588e90b9cf82cca1f4eaed3704b6619dfff4799b0ff8cf9a0def", "20151101.27.0--r42hdfd78af_0": "sha256:0ea98e72882ca471bb8a29a5b1609fa107425fff88c22863794e7d91315c198c"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.clinical", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.clinical.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtcga.clinical
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtcga.clinical:20151101.24.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-rtcga.clinical:20151101.27.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtcga.clinical/20151101.24.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-rtcga.clinical/20151101.24.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-rtcga.clinical/20151101.27.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtcga.clinical/20151101.27.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

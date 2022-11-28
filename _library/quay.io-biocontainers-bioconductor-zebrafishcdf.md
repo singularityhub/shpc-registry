@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-zebrafishcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zebrafishcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zebrafishcdf/container.yaml"
-updated_at: "2022-11-27 12:01:23.593313"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-27 23:31:51.468666"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-zebrafishcdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-zebrafishcdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafishcdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafishcdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:6ea1c24d7d09ad974b4f31ace4a366db106748e1df940a2b11576fbb4bfb839f"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6ea1c24d7d09ad974b4f31ace4a366db106748e1df940a2b11576fbb4bfb839f"}, "docker": "quay.io/biocontainers/bioconductor-zebrafishcdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafishcdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafishcdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:8b6116e4128ffffca336ea3b8e691acd8e4519436b719b6e3c4ddff338815bfa"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6ea1c24d7d09ad974b4f31ace4a366db106748e1df940a2b11576fbb4bfb839f", "2.18.0--r42hdfd78af_10": "sha256:8b6116e4128ffffca336ea3b8e691acd8e4519436b719b6e3c4ddff338815bfa"}, "docker": "quay.io/biocontainers/bioconductor-zebrafishcdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zebrafishcdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-zebrafishcdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-zebrafishcdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-zebrafishcdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-zebrafishcdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-zebrafishcdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-zebrafishcdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-zebrafishcdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

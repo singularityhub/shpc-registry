@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanoget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoget/container.yaml"
-updated_at: "2022-11-27 12:35:13.503637"
-latest: "1.9.1--py_0"
+updated_at: "2022-11-27 23:58:16.054782"
+latest: "1.18.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanoget"
 aliases:
  - "f2py3.6"
@@ -20,8 +20,13 @@ aliases:
  - "idle3.6"
 versions:
  - "1.9.1--py_0"
+ - "1.18.1--pyhdfd78af_0"
+ - "1.17.0--pyhdfd78af_0"
+ - "1.16.1--py_0"
+ - "1.15.0--py_0"
+ - "1.14.0--py_0"
 description: "shpc-registry automated BioContainers addition for nanoget"
-config: {"url": "https://biocontainers.pro/tools/nanoget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoget", "latest": {"1.9.1--py_0": "sha256:af5c195a9db2b32319a9413d7c5682073aa839cc50928c97bb0d03a64ccf7993"}, "tags": {"1.9.1--py_0": "sha256:af5c195a9db2b32319a9413d7c5682073aa839cc50928c97bb0d03a64ccf7993"}, "docker": "quay.io/biocontainers/nanoget", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
+config: {"url": "https://biocontainers.pro/tools/nanoget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoget", "latest": {"1.18.1--pyhdfd78af_0": "sha256:c67b8ebc80aa83cdd8e84ab1fd4337c39c3ed9ab8eb82123075f553fa3efbfb9"}, "tags": {"1.9.1--py_0": "sha256:af5c195a9db2b32319a9413d7c5682073aa839cc50928c97bb0d03a64ccf7993", "1.18.1--pyhdfd78af_0": "sha256:c67b8ebc80aa83cdd8e84ab1fd4337c39c3ed9ab8eb82123075f553fa3efbfb9", "1.17.0--pyhdfd78af_0": "sha256:15cdc20082be71bf770727b28718544eba87ccfc62f0071eebe35f8ea52760a6", "1.16.1--py_0": "sha256:b4a009499d518713f2591052177bcf9968551bf5f0b652fb89ba6fec2097e565", "1.15.0--py_0": "sha256:49d5d1e2fd5d2b4f45d383a6826e61e196a106cc7713b0b5a941961c6e3791ae", "1.14.0--py_0": "sha256:9278ebb959277d4e20317012b1787ec58cc038c88e9dd8d6c7b035ccf622579f"}, "docker": "quay.io/biocontainers/nanoget", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoget.
@@ -36,7 +41,7 @@ $ shpc install quay.io/biocontainers/nanoget
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoget:1.9.1--py_0
+$ shpc install quay.io/biocontainers/nanoget:1.18.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoget/1.9.1--py_0
-$ module help quay.io/biocontainers/nanoget/1.9.1--py_0
+$ module load quay.io/biocontainers/nanoget/1.18.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/nanoget/1.18.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-nanopore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nanopore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nanopore/container.yaml"
-updated_at: "2022-11-27 12:10:47.306292"
-latest: "0.2.9--r41hec16e2b_4"
+updated_at: "2022-11-27 23:39:11.669498"
+latest: "0.2.9--r42h87f3376_5"
 container_url: "https://biocontainers.pro/tools/r-nanopore"
 aliases:
  - "pandoc"
 versions:
  - "0.2.9--r41hec16e2b_4"
+ - "0.2.9--r42h87f3376_5"
 description: "shpc-registry automated BioContainers addition for r-nanopore"
-config: {"url": "https://biocontainers.pro/tools/r-nanopore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nanopore", "latest": {"0.2.9--r41hec16e2b_4": "sha256:0a20e89f63ffa07a5d187168ca622610a3c5eff97d5921b5df93ccb543558d23"}, "tags": {"0.2.9--r41hec16e2b_4": "sha256:0a20e89f63ffa07a5d187168ca622610a3c5eff97d5921b5df93ccb543558d23"}, "docker": "quay.io/biocontainers/r-nanopore", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-nanopore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nanopore", "latest": {"0.2.9--r42h87f3376_5": "sha256:f68cf156a5b5f9ff5c8ebc0e907ee86f8ac9f6917c60e05586dd5796847ed685"}, "tags": {"0.2.9--r41hec16e2b_4": "sha256:0a20e89f63ffa07a5d187168ca622610a3c5eff97d5921b5df93ccb543558d23", "0.2.9--r42h87f3376_5": "sha256:f68cf156a5b5f9ff5c8ebc0e907ee86f8ac9f6917c60e05586dd5796847ed685"}, "docker": "quay.io/biocontainers/r-nanopore", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nanopore.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-nanopore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-nanopore:0.2.9--r41hec16e2b_4
+$ shpc install quay.io/biocontainers/r-nanopore:0.2.9--r42h87f3376_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-nanopore/0.2.9--r41hec16e2b_4
-$ module help quay.io/biocontainers/r-nanopore/0.2.9--r41hec16e2b_4
+$ module load quay.io/biocontainers/r-nanopore/0.2.9--r42h87f3376_5
+$ module help quay.io/biocontainers/r-nanopore/0.2.9--r42h87f3376_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-depmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-depmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-depmap/container.yaml"
-updated_at: "2022-11-27 12:19:08.815742"
-latest: "1.8.0--r41hdfd78af_1"
+updated_at: "2022-11-27 23:45:41.816702"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-depmap"
 
 versions:
  - "1.8.0--r41hdfd78af_1"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-depmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-depmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-depmap", "latest": {"1.8.0--r41hdfd78af_1": "sha256:7b9535db882b1f71e486e06c0af358553094bfbef3f6f971facefd7cf11a7330"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:7b9535db882b1f71e486e06c0af358553094bfbef3f6f971facefd7cf11a7330"}, "docker": "quay.io/biocontainers/bioconductor-depmap"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-depmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-depmap", "latest": {"1.12.0--r42hdfd78af_0": "sha256:ec33d06075320fb68ce63527acbe139bb3179d99b8b8caeb9ce3a3c8da52660b"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:7b9535db882b1f71e486e06c0af358553094bfbef3f6f971facefd7cf11a7330", "1.12.0--r42hdfd78af_0": "sha256:ec33d06075320fb68ce63527acbe139bb3179d99b8b8caeb9ce3a3c8da52660b"}, "docker": "quay.io/biocontainers/bioconductor-depmap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-depmap.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-depmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-depmap:1.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-depmap:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-depmap/1.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-depmap/1.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-depmap/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-depmap/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

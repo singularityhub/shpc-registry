@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/eagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/eagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/eagle/container.yaml"
-updated_at: "2022-11-27 12:00:07.576482"
+updated_at: "2022-11-27 23:30:51.955888"
 latest: "1.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/eagle"
 aliases:
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.1.2"
  - "latest"
+ - "1.1.3"
 description: "Explicit Alternative Genome Likelihood Evaluator"
-config: {"docker": "ghcr.io/autamus/eagle", "url": "https://github.com/orgs/autamus/packages/container/package/eagle", "maintainer": "@vsoch", "description": "Explicit Alternative Genome Likelihood Evaluator", "latest": {"1.1.2": "sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d"}, "tags": {"1.1.2": "sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d", "latest": "sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d"}, "aliases": {"eagle": "/opt/view/bin/eagle", "eagle-nm": "/opt/view/bin/eagle-nm", "eagle-rc": "/opt/view/bin/eagle-rc"}}
+config: {"docker": "ghcr.io/autamus/eagle", "url": "https://github.com/orgs/autamus/packages/container/package/eagle", "maintainer": "@vsoch", "description": "Explicit Alternative Genome Likelihood Evaluator", "latest": {"1.1.2": "sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d"}, "tags": {"1.1.2": "sha256:852fec8c165a5a23f4cf9de32bb2d4873c04fd092ab0442aef6403a2d63da15d", "latest": "sha256:dd3376b547bce29434ccef72a49c42c0dcdb116bdf255aa77d6e868f5a369e35", "1.1.3": "sha256:dd3376b547bce29434ccef72a49c42c0dcdb116bdf255aa77d6e868f5a369e35"}, "aliases": {"eagle": "/opt/view/bin/eagle", "eagle-nm": "/opt/view/bin/eagle-nm", "eagle-rc": "/opt/view/bin/eagle-rc"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/eagle.

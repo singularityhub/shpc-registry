@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-nxtirfdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nxtirfdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nxtirfdata/container.yaml"
-updated_at: "2022-11-27 12:24:01.642138"
-latest: "1.0.0--r41hdfd78af_1"
+updated_at: "2022-11-27 23:49:31.043464"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nxtirfdata"
 
 versions:
  - "1.0.0--r41hdfd78af_1"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nxtirfdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nxtirfdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nxtirfdata", "latest": {"1.0.0--r41hdfd78af_1": "sha256:d26ba19cda272edea0e6abd384f072b0bc42456cc2e7a9ac43681fdbc96e51af"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:d26ba19cda272edea0e6abd384f072b0bc42456cc2e7a9ac43681fdbc96e51af"}, "docker": "quay.io/biocontainers/bioconductor-nxtirfdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nxtirfdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nxtirfdata", "latest": {"1.4.0--r42hdfd78af_0": "sha256:59230306267bd4c5d6a321f835b9d4de39052a4122496793a126531a1a5c65e2"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:d26ba19cda272edea0e6abd384f072b0bc42456cc2e7a9ac43681fdbc96e51af", "1.4.0--r42hdfd78af_0": "sha256:59230306267bd4c5d6a321f835b9d4de39052a4122496793a126531a1a5c65e2"}, "docker": "quay.io/biocontainers/bioconductor-nxtirfdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nxtirfdata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nxtirfdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nxtirfdata:1.0.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-nxtirfdata:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nxtirfdata/1.0.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-nxtirfdata/1.0.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-nxtirfdata/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nxtirfdata/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

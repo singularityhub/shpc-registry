@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pcalg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pcalg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pcalg/container.yaml"
-updated_at: "2022-11-27 12:18:45.300979"
+updated_at: "2022-11-27 23:45:23.516562"
 latest: "2.6_12--r41hecf12ef_3"
 container_url: "https://biocontainers.pro/tools/r-pcalg"
 

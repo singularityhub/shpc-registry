@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/gseapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gseapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gseapy/container.yaml"
-updated_at: "2022-11-27 12:24:23.337931"
-latest: "0.9.9--py_0"
+updated_at: "2022-11-27 23:49:47.969381"
+latest: "0.10.3--py_0"
 container_url: "https://biocontainers.pro/tools/gseapy"
 
 versions:
  - "0.9.9--py_0"
+ - "0.10.3--py_0"
+ - "0.9.19--py_0"
 description: "shpc-registry automated BioContainers addition for gseapy"
-config: {"url": "https://biocontainers.pro/tools/gseapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gseapy", "latest": {"0.9.9--py_0": "sha256:4d88852d9640ca767c2c9d5964c96ebae19414f96f2ad0c074dacba5acaa410c"}, "tags": {"0.9.9--py_0": "sha256:4d88852d9640ca767c2c9d5964c96ebae19414f96f2ad0c074dacba5acaa410c"}, "docker": "quay.io/biocontainers/gseapy"}
+config: {"url": "https://biocontainers.pro/tools/gseapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gseapy", "latest": {"0.10.3--py_0": "sha256:cf64de5b410f92683a319199a544b52f364c15263d996660b9c5dd703725e72e"}, "tags": {"0.9.9--py_0": "sha256:4d88852d9640ca767c2c9d5964c96ebae19414f96f2ad0c074dacba5acaa410c", "0.10.3--py_0": "sha256:cf64de5b410f92683a319199a544b52f364c15263d996660b9c5dd703725e72e", "0.9.19--py_0": "sha256:dfc12e9063073cc1feecb68f06a3537f6d5f8fab06a2e099690f9d4540a9d395"}, "docker": "quay.io/biocontainers/gseapy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gseapy.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/gseapy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gseapy:0.9.9--py_0
+$ shpc install quay.io/biocontainers/gseapy:0.10.3--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gseapy/0.9.9--py_0
-$ module help quay.io/biocontainers/gseapy/0.9.9--py_0
+$ module load quay.io/biocontainers/gseapy/0.10.3--py_0
+$ module help quay.io/biocontainers/gseapy/0.10.3--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecolitk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolitk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolitk/container.yaml"
-updated_at: "2022-11-27 12:12:22.151854"
+updated_at: "2022-11-27 23:40:24.458842"
 latest: "1.70.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolitk"
 

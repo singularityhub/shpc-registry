@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-tinesath1cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tinesath1cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tinesath1cdf/container.yaml"
-updated_at: "2022-11-27 12:05:32.373710"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-27 23:35:10.411274"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tinesath1cdf"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.36.0--r42hdfd78af_0"
+ - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tinesath1cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tinesath1cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tinesath1cdf", "latest": {"1.32.0--r41hdfd78af_1": "sha256:f3ba60fbf58ceca383f7465d23c7c1639bef611ae825b1eee0286339f2ee567e"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:f3ba60fbf58ceca383f7465d23c7c1639bef611ae825b1eee0286339f2ee567e"}, "docker": "quay.io/biocontainers/bioconductor-tinesath1cdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tinesath1cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tinesath1cdf", "latest": {"1.36.0--r42hdfd78af_0": "sha256:5db6e45d14364a2cc2fb8b8798a7fdd283ddb4caa6c2265b5203ffa6b6d4f38d"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:f3ba60fbf58ceca383f7465d23c7c1639bef611ae825b1eee0286339f2ee567e", "1.36.0--r42hdfd78af_0": "sha256:5db6e45d14364a2cc2fb8b8798a7fdd283ddb4caa6c2265b5203ffa6b6d4f38d", "1.35.0--r42hdfd78af_0": "sha256:0222f4dc0f21f76954f9c060349a5a5dba2d1329aac83ddb3da149ac097728e8"}, "docker": "quay.io/biocontainers/bioconductor-tinesath1cdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tinesath1cdf.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tinesath1cdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tinesath1cdf:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-tinesath1cdf:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tinesath1cdf/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-tinesath1cdf/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-tinesath1cdf/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tinesath1cdf/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "ghcr.io/autamus/r-seqlogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/r-seqlogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/r-seqlogo/container.yaml"
-updated_at: "2022-11-27 12:00:01.715648"
-latest: "1.56.0"
+updated_at: "2022-11-27 23:30:47.350843"
+latest: "1.62.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/r-seqlogo"
 
 versions:
  - "1.56.0"
  - "latest"
+ - "1.62.0"
 description: "Sequence logos for DNA sequence alignments"
-config: {"docker": "ghcr.io/autamus/r-seqlogo", "url": "https://github.com/orgs/autamus/packages/container/package/r-seqlogo", "maintainer": "@vsoch", "description": "Sequence logos for DNA sequence alignments", "latest": {"1.56.0": "sha256:761a07e0c24d4fc7657c99825128717253a616fd1f0e00a48ab611f899649724"}, "tags": {"1.56.0": "sha256:761a07e0c24d4fc7657c99825128717253a616fd1f0e00a48ab611f899649724", "latest": "sha256:761a07e0c24d4fc7657c99825128717253a616fd1f0e00a48ab611f899649724"}}
+config: {"docker": "ghcr.io/autamus/r-seqlogo", "url": "https://github.com/orgs/autamus/packages/container/package/r-seqlogo", "maintainer": "@vsoch", "description": "Sequence logos for DNA sequence alignments", "latest": {"1.62.0": "sha256:8407d10c2c94789c55509081af05e50767ae8337942fd761daffb9293be72f70"}, "tags": {"1.56.0": "sha256:761a07e0c24d4fc7657c99825128717253a616fd1f0e00a48ab611f899649724", "latest": "sha256:8407d10c2c94789c55509081af05e50767ae8337942fd761daffb9293be72f70", "1.62.0": "sha256:8407d10c2c94789c55509081af05e50767ae8337942fd761daffb9293be72f70"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/r-seqlogo.
@@ -27,7 +28,7 @@ $ shpc install ghcr.io/autamus/r-seqlogo
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/r-seqlogo:1.56.0
+$ shpc install ghcr.io/autamus/r-seqlogo:1.62.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/r-seqlogo/1.56.0
-$ module help ghcr.io/autamus/r-seqlogo/1.56.0
+$ module load ghcr.io/autamus/r-seqlogo/1.62.0
+$ module help ghcr.io/autamus/r-seqlogo/1.62.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mapcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapcaller/container.yaml"
-updated_at: "2022-11-27 12:17:35.303230"
-latest: "0.9.9.7--h9b50bf8_0"
+updated_at: "2022-11-27 23:44:28.785164"
+latest: "0.9.9.41--h2ccddb4_2"
 container_url: "https://biocontainers.pro/tools/mapcaller"
 aliases:
  - "MapCaller"
@@ -22,8 +22,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.9.9.7--h9b50bf8_0"
+ - "0.9.9.41--h2ccddb4_2"
 description: "shpc-registry automated BioContainers addition for mapcaller"
-config: {"url": "https://biocontainers.pro/tools/mapcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapcaller", "latest": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce"}, "tags": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce"}, "docker": "quay.io/biocontainers/mapcaller", "aliases": {"MapCaller": "/usr/local/bin/MapCaller", "bwt_index": "/usr/local/bin/bwt_index", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/mapcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapcaller", "latest": {"0.9.9.41--h2ccddb4_2": "sha256:d4ccf1424a3718221fa5c165eb696a16170b004c33354fc663c03a5b95c830e3"}, "tags": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce", "0.9.9.41--h2ccddb4_2": "sha256:d4ccf1424a3718221fa5c165eb696a16170b004c33354fc663c03a5b95c830e3"}, "docker": "quay.io/biocontainers/mapcaller", "aliases": {"MapCaller": "/usr/local/bin/MapCaller", "bwt_index": "/usr/local/bin/bwt_index", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapcaller.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/mapcaller
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mapcaller:0.9.9.7--h9b50bf8_0
+$ shpc install quay.io/biocontainers/mapcaller:0.9.9.41--h2ccddb4_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mapcaller/0.9.9.7--h9b50bf8_0
-$ module help quay.io/biocontainers/mapcaller/0.9.9.7--h9b50bf8_0
+$ module load quay.io/biocontainers/mapcaller/0.9.9.41--h2ccddb4_2
+$ module help quay.io/biocontainers/mapcaller/0.9.9.41--h2ccddb4_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

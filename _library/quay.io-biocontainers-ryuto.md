@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ryuto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ryuto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ryuto/container.yaml"
-updated_at: "2022-11-27 12:21:54.277292"
-latest: "1.6.2--h986a166_0"
+updated_at: "2022-11-27 23:47:51.231248"
+latest: "1.6.3--hf71abe7_0"
 container_url: "https://biocontainers.pro/tools/ryuto"
 aliases:
  - "ryuto"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.6.2--h986a166_0"
+ - "1.6.3--hf71abe7_0"
 description: "shpc-registry automated BioContainers addition for ryuto"
-config: {"url": "https://biocontainers.pro/tools/ryuto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ryuto", "latest": {"1.6.2--h986a166_0": "sha256:f01e8dd6820263da949de9bc873c8cdf0e6571e72649709fa261d4bea92aef42"}, "tags": {"1.6.2--h986a166_0": "sha256:f01e8dd6820263da949de9bc873c8cdf0e6571e72649709fa261d4bea92aef42"}, "docker": "quay.io/biocontainers/ryuto", "aliases": {"ryuto": "/usr/local/bin/ryuto", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ryuto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ryuto", "latest": {"1.6.3--hf71abe7_0": "sha256:563fb920750814b0c38f5df438f9316988d6a222e2eee02b1f0273ab8078d86f"}, "tags": {"1.6.2--h986a166_0": "sha256:f01e8dd6820263da949de9bc873c8cdf0e6571e72649709fa261d4bea92aef42", "1.6.3--hf71abe7_0": "sha256:563fb920750814b0c38f5df438f9316988d6a222e2eee02b1f0273ab8078d86f"}, "docker": "quay.io/biocontainers/ryuto", "aliases": {"ryuto": "/usr/local/bin/ryuto", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ryuto.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/ryuto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ryuto:1.6.2--h986a166_0
+$ shpc install quay.io/biocontainers/ryuto:1.6.3--hf71abe7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ryuto/1.6.2--h986a166_0
-$ module help quay.io/biocontainers/ryuto/1.6.2--h986a166_0
+$ module load quay.io/biocontainers/ryuto/1.6.3--hf71abe7_0
+$ module help quay.io/biocontainers/ryuto/1.6.3--hf71abe7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metacoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metacoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metacoder/container.yaml"
-updated_at: "2022-11-27 12:33:21.217405"
+updated_at: "2022-11-27 23:56:47.845170"
 latest: "0.3.5--r41hecf12ef_1"
 container_url: "https://biocontainers.pro/tools/r-metacoder"
 

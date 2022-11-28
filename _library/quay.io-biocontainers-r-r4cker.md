@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-r4cker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r4cker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r4cker/container.yaml"
-updated_at: "2022-11-27 12:45:08.059541"
-latest: "1.0--r41hdfd78af_3"
+updated_at: "2022-11-28 00:06:03.155078"
+latest: "1.0--r42hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-r4cker"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.0--r41hdfd78af_3"
+ - "1.0--r42hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for r-r4cker"
-config: {"url": "https://biocontainers.pro/tools/r-r4cker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r4cker", "latest": {"1.0--r41hdfd78af_3": "sha256:c849bb82d1552fc0eb0ab5377b6e4a4a647c25b35c49f698cde7ea73337c9b3f"}, "tags": {"1.0--r41hdfd78af_3": "sha256:c849bb82d1552fc0eb0ab5377b6e4a4a647c25b35c49f698cde7ea73337c9b3f"}, "docker": "quay.io/biocontainers/r-r4cker", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-r4cker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r4cker", "latest": {"1.0--r42hdfd78af_4": "sha256:1227e32d3e1c12124101e6a1bb9810f2230d17317e874536439726e51ce1e36b"}, "tags": {"1.0--r41hdfd78af_3": "sha256:c849bb82d1552fc0eb0ab5377b6e4a4a647c25b35c49f698cde7ea73337c9b3f", "1.0--r42hdfd78af_4": "sha256:1227e32d3e1c12124101e6a1bb9810f2230d17317e874536439726e51ce1e36b"}, "docker": "quay.io/biocontainers/r-r4cker", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-r4cker.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-r4cker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-r4cker:1.0--r41hdfd78af_3
+$ shpc install quay.io/biocontainers/r-r4cker:1.0--r42hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-r4cker/1.0--r41hdfd78af_3
-$ module help quay.io/biocontainers/r-r4cker/1.0--r41hdfd78af_3
+$ module load quay.io/biocontainers/r-r4cker/1.0--r42hdfd78af_4
+$ module help quay.io/biocontainers/r-r4cker/1.0--r42hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

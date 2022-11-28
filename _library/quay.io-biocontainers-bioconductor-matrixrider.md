@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-matrixrider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matrixrider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matrixrider/container.yaml"
-updated_at: "2022-11-27 12:07:18.388620"
-latest: "1.26.0--r41hc0cfd56_2"
+updated_at: "2022-11-27 23:36:30.540162"
+latest: "1.30.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matrixrider"
 
 versions:
  - "1.26.0--r41hc0cfd56_2"
+ - "1.30.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-matrixrider"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-matrixrider", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matrixrider", "latest": {"1.26.0--r41hc0cfd56_2": "sha256:6bdf7b84239b99e01350e02ab43d120a1e07dcad769e75a89a727f7c1912d838"}, "tags": {"1.26.0--r41hc0cfd56_2": "sha256:6bdf7b84239b99e01350e02ab43d120a1e07dcad769e75a89a727f7c1912d838"}, "docker": "quay.io/biocontainers/bioconductor-matrixrider"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-matrixrider", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matrixrider", "latest": {"1.30.0--r42hc0cfd56_0": "sha256:d11ca7c9ffffe563ce25c712f64b86eb92faafcc8f3e3bf214c5998e9ea2c7a9"}, "tags": {"1.26.0--r41hc0cfd56_2": "sha256:6bdf7b84239b99e01350e02ab43d120a1e07dcad769e75a89a727f7c1912d838", "1.30.0--r42hc0cfd56_0": "sha256:d11ca7c9ffffe563ce25c712f64b86eb92faafcc8f3e3bf214c5998e9ea2c7a9"}, "docker": "quay.io/biocontainers/bioconductor-matrixrider"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-matrixrider.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-matrixrider
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-matrixrider:1.26.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-matrixrider:1.30.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-matrixrider/1.26.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-matrixrider/1.26.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-matrixrider/1.30.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-matrixrider/1.30.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/filtlong"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/filtlong/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/filtlong/container.yaml"
-updated_at: "2022-11-27 12:25:50.957477"
+updated_at: "2022-11-27 23:50:56.156216"
 latest: "0.2.1--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/filtlong"
 aliases:

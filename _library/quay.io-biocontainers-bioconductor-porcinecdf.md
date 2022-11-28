@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-porcinecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-porcinecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-porcinecdf/container.yaml"
-updated_at: "2022-11-27 13:00:45.355786"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-28 00:18:35.608780"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-porcinecdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-porcinecdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-porcinecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-porcinecdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:b43fa12e7f5dbcceadb16b0dc7e1fb9d4c532f268fec82569d22d0f7c944f808"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:b43fa12e7f5dbcceadb16b0dc7e1fb9d4c532f268fec82569d22d0f7c944f808"}, "docker": "quay.io/biocontainers/bioconductor-porcinecdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-porcinecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-porcinecdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:162bb68a48c6debdb87f2852dfd371415f3c319c53eb9ec5a0b319402d2b7fe0"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:b43fa12e7f5dbcceadb16b0dc7e1fb9d4c532f268fec82569d22d0f7c944f808", "2.18.0--r42hdfd78af_10": "sha256:162bb68a48c6debdb87f2852dfd371415f3c319c53eb9ec5a0b319402d2b7fe0"}, "docker": "quay.io/biocontainers/bioconductor-porcinecdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-porcinecdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-porcinecdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-porcinecdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-porcinecdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-porcinecdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-porcinecdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-porcinecdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-porcinecdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

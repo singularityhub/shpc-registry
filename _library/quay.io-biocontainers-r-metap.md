@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-metap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metap/container.yaml"
-updated_at: "2022-11-27 12:05:54.855277"
-latest: "1.4--r41h3121a25_1"
+updated_at: "2022-11-27 23:35:28.283730"
+latest: "1.4--r42h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-metap"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.4--r41h3121a25_1"
+ - "1.4--r42h3121a25_2"
 description: "shpc-registry automated BioContainers addition for r-metap"
-config: {"url": "https://biocontainers.pro/tools/r-metap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metap", "latest": {"1.4--r41h3121a25_1": "sha256:00a941d0f27796d7324acce24ff54ee9626b23e5c3db7b0c060a81e32c831def"}, "tags": {"1.4--r41h3121a25_1": "sha256:00a941d0f27796d7324acce24ff54ee9626b23e5c3db7b0c060a81e32c831def"}, "docker": "quay.io/biocontainers/r-metap", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-metap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metap", "latest": {"1.4--r42h3121a25_2": "sha256:c49f87abf837f3a7c3bb4a37043c438888e3e1d89eecb6a1f427bcd0cb9325a1"}, "tags": {"1.4--r41h3121a25_1": "sha256:00a941d0f27796d7324acce24ff54ee9626b23e5c3db7b0c060a81e32c831def", "1.4--r42h3121a25_2": "sha256:c49f87abf837f3a7c3bb4a37043c438888e3e1d89eecb6a1f427bcd0cb9325a1"}, "docker": "quay.io/biocontainers/r-metap", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-metap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metap:1.4--r41h3121a25_1
+$ shpc install quay.io/biocontainers/r-metap:1.4--r42h3121a25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metap/1.4--r41h3121a25_1
-$ module help quay.io/biocontainers/r-metap/1.4--r41h3121a25_1
+$ module load quay.io/biocontainers/r-metap/1.4--r42h3121a25_2
+$ module help quay.io/biocontainers/r-metap/1.4--r42h3121a25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

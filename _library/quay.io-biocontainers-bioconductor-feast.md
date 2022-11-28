@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-feast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-feast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-feast/container.yaml"
-updated_at: "2022-11-27 12:14:54.612695"
-latest: "1.2.0--r41hc0cfd56_2"
+updated_at: "2022-11-27 23:42:23.393440"
+latest: "1.6.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-feast"
 aliases:
  - "glpsol"
 versions:
  - "1.2.0--r41hc0cfd56_2"
+ - "1.6.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-feast"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-feast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-feast", "latest": {"1.2.0--r41hc0cfd56_2": "sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f"}, "tags": {"1.2.0--r41hc0cfd56_2": "sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f"}, "docker": "quay.io/biocontainers/bioconductor-feast", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-feast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-feast", "latest": {"1.6.0--r42hc0cfd56_0": "sha256:88a6c06b070905d8a5a4abf0e73efaf71bcfd9d47c62634bc81734ec813aaa73"}, "tags": {"1.2.0--r41hc0cfd56_2": "sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f", "1.6.0--r42hc0cfd56_0": "sha256:88a6c06b070905d8a5a4abf0e73efaf71bcfd9d47c62634bc81734ec813aaa73"}, "docker": "quay.io/biocontainers/bioconductor-feast", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-feast.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-feast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-feast:1.2.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-feast:1.6.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-feast/1.2.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-feast/1.2.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-feast/1.6.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-feast/1.6.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

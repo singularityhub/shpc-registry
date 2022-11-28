@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-minionsummarydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-minionsummarydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-minionsummarydata/container.yaml"
-updated_at: "2022-11-27 12:21:06.196917"
-latest: "1.24.0--r41hdfd78af_1"
+updated_at: "2022-11-27 23:47:13.495193"
+latest: "1.27.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-minionsummarydata"
 
 versions:
  - "1.24.0--r41hdfd78af_1"
+ - "1.27.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-minionsummarydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-minionsummarydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-minionsummarydata", "latest": {"1.24.0--r41hdfd78af_1": "sha256:4299144aa702268ac2f805f2d216d8a308d5d37917628d5e4d4317b89d3d1d84"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:4299144aa702268ac2f805f2d216d8a308d5d37917628d5e4d4317b89d3d1d84"}, "docker": "quay.io/biocontainers/bioconductor-minionsummarydata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-minionsummarydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-minionsummarydata", "latest": {"1.27.0--r42hdfd78af_0": "sha256:e8e757b249a8f39307760a21566f6dd38586cf36ba976722d8e0b768d55cea55"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:4299144aa702268ac2f805f2d216d8a308d5d37917628d5e4d4317b89d3d1d84", "1.27.0--r42hdfd78af_0": "sha256:e8e757b249a8f39307760a21566f6dd38586cf36ba976722d8e0b768d55cea55"}, "docker": "quay.io/biocontainers/bioconductor-minionsummarydata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-minionsummarydata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-minionsummarydata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-minionsummarydata:1.24.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-minionsummarydata:1.27.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-minionsummarydata/1.24.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-minionsummarydata/1.24.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-minionsummarydata/1.27.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-minionsummarydata/1.27.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-scgps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scgps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scgps/container.yaml"
-updated_at: "2022-11-27 12:30:09.628119"
-latest: "1.8.0--r41hc247a5b_2"
+updated_at: "2022-11-27 23:54:18.163912"
+latest: "1.12.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scgps"
 
 versions:
  - "1.8.0--r41hc247a5b_2"
+ - "1.12.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scgps"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scgps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scgps", "latest": {"1.8.0--r41hc247a5b_2": "sha256:2cf721c12b5a034157637b687ff328821dcc6718eae6315df861f4da3a84af4c"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:2cf721c12b5a034157637b687ff328821dcc6718eae6315df861f4da3a84af4c"}, "docker": "quay.io/biocontainers/bioconductor-scgps"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scgps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scgps", "latest": {"1.12.0--r42hc247a5b_0": "sha256:f3fb7c6e372f633df61f69b8b915439eece0f28977996b8734c1a596f0effc4d"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:2cf721c12b5a034157637b687ff328821dcc6718eae6315df861f4da3a84af4c", "1.12.0--r42hc247a5b_0": "sha256:f3fb7c6e372f633df61f69b8b915439eece0f28977996b8734c1a596f0effc4d"}, "docker": "quay.io/biocontainers/bioconductor-scgps"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scgps.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scgps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scgps:1.8.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-scgps:1.12.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scgps/1.8.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-scgps/1.8.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-scgps/1.12.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-scgps/1.12.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

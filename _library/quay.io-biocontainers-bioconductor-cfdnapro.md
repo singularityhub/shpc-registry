@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cfdnapro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cfdnapro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cfdnapro/container.yaml"
-updated_at: "2022-11-27 12:27:25.777151"
-latest: "1.0.0--r41hdfd78af_3"
+updated_at: "2022-11-27 23:52:09.882411"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cfdnapro"
 
 versions:
  - "1.0.0--r41hdfd78af_3"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cfdnapro"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cfdnapro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cfdnapro", "latest": {"1.0.0--r41hdfd78af_3": "sha256:64e9cdaa55b85d713ea239cfecda0dc609b9e59b1760658ce6c2ca74569b5c84"}, "tags": {"1.0.0--r41hdfd78af_3": "sha256:64e9cdaa55b85d713ea239cfecda0dc609b9e59b1760658ce6c2ca74569b5c84"}, "docker": "quay.io/biocontainers/bioconductor-cfdnapro"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cfdnapro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cfdnapro", "latest": {"1.4.0--r42hdfd78af_0": "sha256:6a424e91b59347080983f53ad56f968f19229cb90a33803eb105bc4d6b53e8b5"}, "tags": {"1.0.0--r41hdfd78af_3": "sha256:64e9cdaa55b85d713ea239cfecda0dc609b9e59b1760658ce6c2ca74569b5c84", "1.4.0--r42hdfd78af_0": "sha256:6a424e91b59347080983f53ad56f968f19229cb90a33803eb105bc4d6b53e8b5"}, "docker": "quay.io/biocontainers/bioconductor-cfdnapro"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cfdnapro.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cfdnapro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cfdnapro:1.0.0--r41hdfd78af_3
+$ shpc install quay.io/biocontainers/bioconductor-cfdnapro:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cfdnapro/1.0.0--r41hdfd78af_3
-$ module help quay.io/biocontainers/bioconductor-cfdnapro/1.0.0--r41hdfd78af_3
+$ module load quay.io/biocontainers/bioconductor-cfdnapro/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cfdnapro/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

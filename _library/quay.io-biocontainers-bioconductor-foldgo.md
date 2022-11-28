@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-foldgo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-foldgo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-foldgo/container.yaml"
-updated_at: "2022-11-27 12:27:41.528778"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-27 23:52:22.197849"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-foldgo"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-foldgo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-foldgo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-foldgo", "latest": {"1.8.0--r40hdfd78af_1": "sha256:9e7166bf7b4886d85667c9c4b7d13e59150bdb42475290b903d1437780f4bbae"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9e7166bf7b4886d85667c9c4b7d13e59150bdb42475290b903d1437780f4bbae"}, "docker": "quay.io/biocontainers/bioconductor-foldgo", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-foldgo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-foldgo", "latest": {"1.16.0--r42hdfd78af_0": "sha256:632b69fd43b880b77e44593c07e5442aed7ad32f295001d7f93ea5f382e463a8"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9e7166bf7b4886d85667c9c4b7d13e59150bdb42475290b903d1437780f4bbae", "1.16.0--r42hdfd78af_0": "sha256:632b69fd43b880b77e44593c07e5442aed7ad32f295001d7f93ea5f382e463a8", "1.12.0--r41hdfd78af_0": "sha256:37036bd38397f87f38e0fe1241302938adaa97e8070a282ceda67ab0945baddc", "1.10.0--r41hdfd78af_0": "sha256:20717cfbd1faa7dd9fe69a2635a8ce24d03f1e3a7d02c03baa0eca9093167cae"}, "docker": "quay.io/biocontainers/bioconductor-foldgo", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-foldgo.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-foldgo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-foldgo:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-foldgo:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-foldgo/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-foldgo/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-foldgo/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-foldgo/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

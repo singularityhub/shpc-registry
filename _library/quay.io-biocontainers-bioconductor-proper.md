@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-proper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proper/container.yaml"
-updated_at: "2022-11-27 12:40:07.455742"
-latest: "1.8.0--r3.3.2_0"
+updated_at: "2022-11-28 00:02:06.928772"
+latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proper"
 aliases:
  - "bmp2tiff"
@@ -19,8 +19,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.3.2_0"
+ - "1.30.0--r42hdfd78af_0"
+ - "1.26.0--r41hdfd78af_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r40hdfd78af_1"
+ - "1.20.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-proper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-proper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proper", "latest": {"1.8.0--r3.3.2_0": "sha256:9e8950a8327f2062a7bc3916b5945ea57cb1831ef41fd5bbbded0e80318a28e0"}, "tags": {"1.8.0--r3.3.2_0": "sha256:9e8950a8327f2062a7bc3916b5945ea57cb1831ef41fd5bbbded0e80318a28e0"}, "docker": "quay.io/biocontainers/bioconductor-proper", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-proper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proper", "latest": {"1.30.0--r42hdfd78af_0": "sha256:cd05a3c0abc959d52cf8cda4e18078041e6e3395873da4a51d891f54d691d4ba"}, "tags": {"1.8.0--r3.3.2_0": "sha256:9e8950a8327f2062a7bc3916b5945ea57cb1831ef41fd5bbbded0e80318a28e0", "1.30.0--r42hdfd78af_0": "sha256:cd05a3c0abc959d52cf8cda4e18078041e6e3395873da4a51d891f54d691d4ba", "1.26.0--r41hdfd78af_0": "sha256:f2ca2b05874fa65978886731c04dffd8a6d171343b138f75df954f572a83da98", "1.24.0--r41hdfd78af_0": "sha256:0733435705f4bca6da4bfed2786a08bea16a6b874d159dbb59bd8112d0a15880", "1.22.0--r40hdfd78af_1": "sha256:48da2cdf4c71fbdbdbfd0c8a8a2e4d6f320418766b595674e54f326877dbf4a1", "1.20.0--r40_0": "sha256:3507c7aeb294e8399cfcdc117567f59a88d41994872d745528265d3babd3e050"}, "docker": "quay.io/biocontainers/bioconductor-proper", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-proper.
@@ -35,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-proper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-proper:1.8.0--r3.3.2_0
+$ shpc install quay.io/biocontainers/bioconductor-proper:1.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-proper/1.8.0--r3.3.2_0
-$ module help quay.io/biocontainers/bioconductor-proper/1.8.0--r3.3.2_0
+$ module load quay.io/biocontainers/bioconductor-proper/1.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-proper/1.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

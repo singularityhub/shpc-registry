@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genotypeeval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genotypeeval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genotypeeval/container.yaml"
-updated_at: "2022-11-27 12:12:03.259413"
-latest: "1.26.0--r41hdfd78af_0"
+updated_at: "2022-11-27 23:40:10.063750"
+latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genotypeeval"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
+ - "1.30.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genotypeeval"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genotypeeval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genotypeeval", "latest": {"1.26.0--r41hdfd78af_0": "sha256:4776b529872e113629c42aead3c9cb1c3b7a3750889877c9626b0d98e8a7a018"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:4776b529872e113629c42aead3c9cb1c3b7a3750889877c9626b0d98e8a7a018"}, "docker": "quay.io/biocontainers/bioconductor-genotypeeval"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genotypeeval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genotypeeval", "latest": {"1.30.0--r42hdfd78af_0": "sha256:7cf6c9b878c00777cb605fb2dc2e524d2f9aa90d19d7d834955f7179aea988e8"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:4776b529872e113629c42aead3c9cb1c3b7a3750889877c9626b0d98e8a7a018", "1.30.0--r42hdfd78af_0": "sha256:7cf6c9b878c00777cb605fb2dc2e524d2f9aa90d19d7d834955f7179aea988e8"}, "docker": "quay.io/biocontainers/bioconductor-genotypeeval"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genotypeeval.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genotypeeval
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genotypeeval:1.26.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genotypeeval:1.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genotypeeval/1.26.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genotypeeval/1.26.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genotypeeval/1.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genotypeeval/1.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

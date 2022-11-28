@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyclone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyclone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyclone/container.yaml"
-updated_at: "2022-11-27 12:54:56.309438"
+updated_at: "2022-11-28 00:13:54.740846"
 latest: "0.13.1--py_0"
 container_url: "https://biocontainers.pro/tools/pyclone"
 

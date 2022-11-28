@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ccmetagen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccmetagen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccmetagen/container.yaml"
-updated_at: "2022-11-27 12:51:01.215229"
+updated_at: "2022-11-28 00:10:45.311567"
 latest: "1.4.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ccmetagen"
 aliases:

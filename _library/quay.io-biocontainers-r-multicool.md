@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-multicool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-multicool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-multicool/container.yaml"
-updated_at: "2022-11-27 12:24:45.837654"
-latest: "0.1_9--r3.3.1_2"
+updated_at: "2022-11-27 23:50:05.658662"
+latest: "0.1_10--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-multicool"
 aliases:
  - "uconv"
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1_9--r3.3.1_2"
+ - "0.1_10--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-multicool"
-config: {"url": "https://biocontainers.pro/tools/r-multicool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-multicool", "latest": {"0.1_9--r3.3.1_2": "sha256:fcfc7d969888af6b3a1867ba91d38bfd325a6be0c98547c9f5f30fa7c2277abd"}, "tags": {"0.1_9--r3.3.1_2": "sha256:fcfc7d969888af6b3a1867ba91d38bfd325a6be0c98547c9f5f30fa7c2277abd"}, "docker": "quay.io/biocontainers/r-multicool", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-multicool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-multicool", "latest": {"0.1_10--r3.3.2_0": "sha256:ef1fabb445d6e93cdcae268a71c36a1914aa5d6ae5c38d7a5d410cb58a60caa5"}, "tags": {"0.1_9--r3.3.1_2": "sha256:fcfc7d969888af6b3a1867ba91d38bfd325a6be0c98547c9f5f30fa7c2277abd", "0.1_10--r3.3.2_0": "sha256:ef1fabb445d6e93cdcae268a71c36a1914aa5d6ae5c38d7a5d410cb58a60caa5"}, "docker": "quay.io/biocontainers/r-multicool", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-multicool.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-multicool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-multicool:0.1_9--r3.3.1_2
+$ shpc install quay.io/biocontainers/r-multicool:0.1_10--r3.3.2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-multicool/0.1_9--r3.3.1_2
-$ module help quay.io/biocontainers/r-multicool/0.1_9--r3.3.1_2
+$ module load quay.io/biocontainers/r-multicool/0.1_10--r3.3.2_0
+$ module help quay.io/biocontainers/r-multicool/0.1_10--r3.3.2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

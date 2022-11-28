@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-anaquin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anaquin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anaquin/container.yaml"
-updated_at: "2022-11-27 12:34:31.235698"
-latest: "2.8.0--r36_1"
+updated_at: "2022-11-27 23:57:42.914389"
+latest: "2.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anaquin"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "2.8.0--r36_1"
+ - "2.22.0--r42hdfd78af_0"
+ - "2.18.0--r41hdfd78af_0"
+ - "2.16.0--r41hdfd78af_0"
+ - "2.14.0--r40hdfd78af_1"
+ - "2.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-anaquin"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anaquin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anaquin", "latest": {"2.8.0--r36_1": "sha256:57550207f799f7397ff32702849b647b4fcf243258c5ac207e17b9139804af4e"}, "tags": {"2.8.0--r36_1": "sha256:57550207f799f7397ff32702849b647b4fcf243258c5ac207e17b9139804af4e"}, "docker": "quay.io/biocontainers/bioconductor-anaquin", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anaquin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anaquin", "latest": {"2.22.0--r42hdfd78af_0": "sha256:80778c8929adfe2f199493567ba05e593bbd03fedbf90b2176004d1de0af31b9"}, "tags": {"2.8.0--r36_1": "sha256:57550207f799f7397ff32702849b647b4fcf243258c5ac207e17b9139804af4e", "2.22.0--r42hdfd78af_0": "sha256:80778c8929adfe2f199493567ba05e593bbd03fedbf90b2176004d1de0af31b9", "2.18.0--r41hdfd78af_0": "sha256:d6df2ad1e024106ac60d00614db66eec1c7d4c02a82770eb1ce92b6e7394a3d5", "2.16.0--r41hdfd78af_0": "sha256:ec4a88cfceb04bf78d4fb22c144fc093d8fde4d79cbb89dde203a1589eb17520", "2.14.0--r40hdfd78af_1": "sha256:92dbf3358d5a1ab7c96314ecee6b2228d5fe1b0b56bca9c5a51812dbbd8e8a87", "2.12.0--r40_0": "sha256:2c659f6ac36fd0f4c92972ba3dbccb5828751a3661dd55ea6107c23a98503e04"}, "docker": "quay.io/biocontainers/bioconductor-anaquin", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anaquin.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-anaquin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-anaquin:2.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-anaquin:2.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-anaquin/2.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-anaquin/2.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-anaquin/2.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-anaquin/2.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

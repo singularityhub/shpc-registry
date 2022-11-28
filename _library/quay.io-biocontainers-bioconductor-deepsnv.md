@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-deepsnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deepsnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deepsnv/container.yaml"
-updated_at: "2022-11-27 12:54:06.162057"
-latest: "1.40.0--r41hc247a5b_2"
+updated_at: "2022-11-28 00:13:14.132768"
+latest: "1.44.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deepsnv"
 
 versions:
  - "1.40.0--r41hc247a5b_2"
+ - "1.44.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-deepsnv"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-deepsnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deepsnv", "latest": {"1.40.0--r41hc247a5b_2": "sha256:bb10e0d7d40af1ea36021cdf900e2ca14a3caf5fa785957000ebb33fd5770722"}, "tags": {"1.40.0--r41hc247a5b_2": "sha256:bb10e0d7d40af1ea36021cdf900e2ca14a3caf5fa785957000ebb33fd5770722"}, "docker": "quay.io/biocontainers/bioconductor-deepsnv"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-deepsnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deepsnv", "latest": {"1.44.0--r42hc247a5b_0": "sha256:3e0f51ff9e3c9c11bbf9a2684efcee34365b53c99f1729b717712e2f115d8823"}, "tags": {"1.40.0--r41hc247a5b_2": "sha256:bb10e0d7d40af1ea36021cdf900e2ca14a3caf5fa785957000ebb33fd5770722", "1.44.0--r42hc247a5b_0": "sha256:3e0f51ff9e3c9c11bbf9a2684efcee34365b53c99f1729b717712e2f115d8823"}, "docker": "quay.io/biocontainers/bioconductor-deepsnv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-deepsnv.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-deepsnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-deepsnv:1.40.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-deepsnv:1.44.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-deepsnv/1.40.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-deepsnv/1.40.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-deepsnv/1.44.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-deepsnv/1.44.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

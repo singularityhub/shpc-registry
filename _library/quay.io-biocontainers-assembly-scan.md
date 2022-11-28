@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assembly-scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly-scan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly-scan/container.yaml"
-updated_at: "2022-11-27 13:03:51.618933"
+updated_at: "2022-11-28 00:21:01.709418"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assembly-scan"
 aliases:

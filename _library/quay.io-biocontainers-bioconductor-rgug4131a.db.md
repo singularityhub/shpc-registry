@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rgug4131a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgug4131a.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgug4131a.db/container.yaml"
-updated_at: "2022-11-27 13:06:51.134913"
-latest: "3.2.3--r41hdfd78af_9"
+updated_at: "2022-11-28 00:23:25.590855"
+latest: "3.2.3--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgug4131a.db"
 
 versions:
  - "3.2.3--r41hdfd78af_9"
+ - "3.2.3--r42hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgug4131a.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgug4131a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgug4131a.db", "latest": {"3.2.3--r41hdfd78af_9": "sha256:ea63902d6168f87f412ff10818bcb4adeb00e7c0a5a39c4cee94506f06db7873"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:ea63902d6168f87f412ff10818bcb4adeb00e7c0a5a39c4cee94506f06db7873"}, "docker": "quay.io/biocontainers/bioconductor-rgug4131a.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgug4131a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgug4131a.db", "latest": {"3.2.3--r42hdfd78af_11": "sha256:8015d2ed37e09de3288ac120c8ce34a9d64dae7cc1976c23ed7ebb2521401457"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:ea63902d6168f87f412ff10818bcb4adeb00e7c0a5a39c4cee94506f06db7873", "3.2.3--r42hdfd78af_11": "sha256:8015d2ed37e09de3288ac120c8ce34a9d64dae7cc1976c23ed7ebb2521401457"}, "docker": "quay.io/biocontainers/bioconductor-rgug4131a.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgug4131a.db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgug4131a.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgug4131a.db:3.2.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-rgug4131a.db:3.2.3--r42hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgug4131a.db/3.2.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-rgug4131a.db/3.2.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-rgug4131a.db/3.2.3--r42hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-rgug4131a.db/3.2.3--r42hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
