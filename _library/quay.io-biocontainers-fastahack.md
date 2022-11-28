@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastahack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastahack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastahack/container.yaml"
-updated_at: "2022-11-27 23:57:23.154651"
+updated_at: "2022-11-28 03:25:52.759040"
 latest: "2016.07.2--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/fastahack"
 aliases:

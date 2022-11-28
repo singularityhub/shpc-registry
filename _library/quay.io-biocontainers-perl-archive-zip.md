@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-archive-zip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-archive-zip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-archive-zip/container.yaml"
-updated_at: "2022-11-27 23:57:55.375320"
+updated_at: "2022-11-28 03:26:13.557531"
 latest: "1.68--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-archive-zip"
 aliases:

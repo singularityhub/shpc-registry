@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ebimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ebimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ebimage/container.yaml"
-updated_at: "2022-11-27 23:56:48.214687"
+updated_at: "2022-11-28 03:25:30.006199"
 latest: "4.36.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-ebimage"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nimnexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nimnexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nimnexus/container.yaml"
-updated_at: "2022-11-28 00:11:44.210240"
+updated_at: "2022-11-28 03:35:07.866696"
 latest: "0.1.1--hcb20899_3"
 container_url: "https://biocontainers.pro/tools/nimnexus"
 aliases:

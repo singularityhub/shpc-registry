@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-semisup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-semisup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-semisup/container.yaml"
-updated_at: "2022-11-28 00:26:45.081495"
+updated_at: "2022-11-28 03:44:46.617419"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-semisup"
 aliases:

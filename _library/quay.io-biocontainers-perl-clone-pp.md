@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-clone-pp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-clone-pp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-clone-pp/container.yaml"
-updated_at: "2022-11-28 00:14:29.845122"
+updated_at: "2022-11-28 03:36:53.374518"
 latest: "1.08--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-clone-pp"
 aliases:
