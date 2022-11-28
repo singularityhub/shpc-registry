@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-vanillaice
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-vanillaice
 latest:
-  1.56.3--r41hc0cfd56_1: sha256:716427b3995a872dbde820fca58432860828fc22340cf310bf034909a2b0f9cf
+  1.60.0--r42hc0cfd56_0: sha256:b3e5f576a17cc5b67514e5ea6572bf49db7c4549321a87e7ae2379965a3e272b
 tags:
   1.56.3--r41hc0cfd56_1: sha256:716427b3995a872dbde820fca58432860828fc22340cf310bf034909a2b0f9cf
+  1.60.0--r42hc0cfd56_0: sha256:b3e5f576a17cc5b67514e5ea6572bf49db7c4549321a87e7ae2379965a3e272b
 docker: quay.io/biocontainers/bioconductor-vanillaice

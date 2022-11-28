@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-lowmacaannotation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lowmacaannotation
 latest:
-  0.99.3--r41hdfd78af_9: sha256:dbc4ab06b35d462c65a2be4019c2f51985707801243c33dd3ada3d9714fcf6eb
+  0.99.3--r42hdfd78af_10: sha256:017870cb6f905dfa5c455dac48d201d22ecd12d2ef231b8d5f4ce38a3edbe6cf
 tags:
   0.99.3--r41hdfd78af_9: sha256:dbc4ab06b35d462c65a2be4019c2f51985707801243c33dd3ada3d9714fcf6eb
+  0.99.3--r42hdfd78af_10: sha256:017870cb6f905dfa5c455dac48d201d22ecd12d2ef231b8d5f4ce38a3edbe6cf
 docker: quay.io/biocontainers/bioconductor-lowmacaannotation

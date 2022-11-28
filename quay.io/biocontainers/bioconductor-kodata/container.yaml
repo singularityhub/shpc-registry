@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-kodata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-kodata
 latest:
-  1.8.0--r351_0: sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278
+  1.24.0--r42hdfd78af_0: sha256:c3afd54bc1ffda9437a4c8afbebe3821f9d2dc1920d954cd94c18c6f27daec2f
 tags:
   1.8.0--r351_0: sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278
+  1.24.0--r42hdfd78af_0: sha256:c3afd54bc1ffda9437a4c8afbebe3821f9d2dc1920d954cd94c18c6f27daec2f
+  1.23.0--r42hdfd78af_0: sha256:041f9f4c86ea01537cef9d6142903bf6c8923dd2a6e426a0e6cfcb993e44acc3
+  1.20.0--r41hdfd78af_1: sha256:c6ed1a999de43e9cca77755ac66c3e0c7745325aacfb4ca56816fb4d0304426d
+  1.18.0--r41hdfd78af_0: sha256:c436fd753ce0d347c3dd2a2dd6913b58afbb2ece4f214183014f18c7ce294495
+  1.16.0--r40hdfd78af_1: sha256:68ed1ff11eaefacf7db006f6f72a07d463a5776f99b6633d8e122345aa824c42
 docker: quay.io/biocontainers/bioconductor-kodata
 aliases:
   wget: /usr/local/bin/wget

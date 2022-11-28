@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cutesv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cutesv
 latest:
-  2.0.1--pyhdfd78af_0: sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e
+  2.0.2--pyhdfd78af_0: sha256:d2843e149c59ebc99e72796a636393341085f8fb40b6f4a5ceba914e450f6daa
 tags:
   2.0.1--pyhdfd78af_0: sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e
+  2.0.2--pyhdfd78af_0: sha256:d2843e149c59ebc99e72796a636393341085f8fb40b6f4a5ceba914e450f6daa
 docker: quay.io/biocontainers/cutesv
 aliases:
   cuteSV: /usr/local/bin/cuteSV

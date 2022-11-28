@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-omnipathr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-omnipathr
 latest:
-  3.2.0--r41hdfd78af_0: sha256:d86bb0da85b36c95bd578d8e83a9247cdfa4b6929054a6be7d6cbb2653abb153
+  3.5.25--r42hdfd78af_0: sha256:acf94b92149e80267d21c5614aaee47cbb976ab73db083b99af85303ad28609a
 tags:
   3.2.0--r41hdfd78af_0: sha256:d86bb0da85b36c95bd578d8e83a9247cdfa4b6929054a6be7d6cbb2653abb153
+  3.5.25--r42hdfd78af_0: sha256:acf94b92149e80267d21c5614aaee47cbb976ab73db083b99af85303ad28609a
 docker: quay.io/biocontainers/bioconductor-omnipathr

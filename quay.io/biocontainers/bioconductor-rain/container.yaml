@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rain
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rain
 latest:
-  1.28.0--r41hdfd78af_0: sha256:ff8aed56ca0057a586c46523bfb576fb8fc502cbafcd9d51928dc61885a5e8a3
+  1.32.0--r42hdfd78af_0: sha256:1bd8655d2187edfb11c57861e048a684975099fcd8260d797597316421e26b54
 tags:
   1.28.0--r41hdfd78af_0: sha256:ff8aed56ca0057a586c46523bfb576fb8fc502cbafcd9d51928dc61885a5e8a3
+  1.32.0--r42hdfd78af_0: sha256:1bd8655d2187edfb11c57861e048a684975099fcd8260d797597316421e26b54
 docker: quay.io/biocontainers/bioconductor-rain

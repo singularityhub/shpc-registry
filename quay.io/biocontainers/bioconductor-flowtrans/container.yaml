@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-flowtrans
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowtrans
 latest:
-  1.46.0--r41hdfd78af_0: sha256:e3e7bfda0a64510477fefbcb45b8ad64d5391f15965a13c3063b17233aaa67f3
+  1.50.0--r42hdfd78af_0: sha256:ae5962cdcb39add6014f716b37b115679504d0049e84bab2643a64351ff70589
 tags:
   1.46.0--r41hdfd78af_0: sha256:e3e7bfda0a64510477fefbcb45b8ad64d5391f15965a13c3063b17233aaa67f3
+  1.50.0--r42hdfd78af_0: sha256:ae5962cdcb39add6014f716b37b115679504d0049e84bab2643a64351ff70589
 docker: quay.io/biocontainers/bioconductor-flowtrans

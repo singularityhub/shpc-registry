@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-xcms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xcms
 latest:
-  3.8.0--r36he1b5a44_0: sha256:dcab40228cb284c5727912c49d31af6a1f86076f7a1461b454affdaaabf78cc4
+  3.20.0--r42hc247a5b_0: sha256:48a30d0d10affe8a2db4c9e22d72b0beae05f81911a19eec6f3a2b73efb59e03
 tags:
   3.8.0--r36he1b5a44_0: sha256:dcab40228cb284c5727912c49d31af6a1f86076f7a1461b454affdaaabf78cc4
+  3.20.0--r42hc247a5b_0: sha256:48a30d0d10affe8a2db4c9e22d72b0beae05f81911a19eec6f3a2b73efb59e03
+  3.16.1--r41hc247a5b_1: sha256:06118716fcc368269a5778c95faaefeedc1b120991eabe57f0df56b09ac5d8eb
+  3.14.0--r41h399db7b_0: sha256:413d59b9fb7d39165cf4867b9effb63b389ed2624c001d0a2d0d65f20a4b87c3
+  3.12.0--r40h399db7b_1: sha256:2ce8bb8a4be82eca2bf201bda24f70c0ce52e597e7ca5077ffab7f4483160282
+  3.10.0--r40h5f743cb_0: sha256:9c6c2ac82601d074d94f430c9fe2575410bb0f30eee19435957785db90e971a9
 docker: quay.io/biocontainers/bioconductor-xcms
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

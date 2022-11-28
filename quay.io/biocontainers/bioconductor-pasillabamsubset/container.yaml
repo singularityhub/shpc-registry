@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pasillabamsubset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pasillabamsubset
 latest:
-  0.32.0--r41hdfd78af_1: sha256:984480b1161fa562fb6a6d9bc510e2559d1cb6b52e93b3207c9bce9188edc819
+  0.35.0--r42hdfd78af_0: sha256:5cbfc78debcc183e2446bfd4f33fadf2b49a8cf03663199fe365ddaa85a8d145
 tags:
   0.32.0--r41hdfd78af_1: sha256:984480b1161fa562fb6a6d9bc510e2559d1cb6b52e93b3207c9bce9188edc819
+  0.35.0--r42hdfd78af_0: sha256:5cbfc78debcc183e2446bfd4f33fadf2b49a8cf03663199fe365ddaa85a8d145
 docker: quay.io/biocontainers/bioconductor-pasillabamsubset

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mipp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mipp
 latest:
-  1.66.0--r41hdfd78af_0: sha256:ae855691fbcbf91c170ebb3a705c342960e4c39f7adce4bb71643f8d4368dd8a
+  1.70.0--r42hdfd78af_0: sha256:813b29d48ff1fb1d017f331a8872bb11d0dfc9a6a6337d4e581810b94467d615
 tags:
   1.66.0--r41hdfd78af_0: sha256:ae855691fbcbf91c170ebb3a705c342960e4c39f7adce4bb71643f8d4368dd8a
+  1.70.0--r42hdfd78af_0: sha256:813b29d48ff1fb1d017f331a8872bb11d0dfc9a6a6337d4e581810b94467d615
 docker: quay.io/biocontainers/bioconductor-mipp

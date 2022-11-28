@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gwastools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gwastools
 latest:
-  1.40.0--r41hdfd78af_0: sha256:d7c7601e4f42e8d1b9b3a1bfdf0fda293f02c31a509f0e2cce970a1907f2966b
+  1.44.0--r42hdfd78af_0: sha256:3f18b046415db1b5cf6a3674bbee8fa440c09fa39ab3601f88b8c2c51bdaa22a
 tags:
   1.40.0--r41hdfd78af_0: sha256:d7c7601e4f42e8d1b9b3a1bfdf0fda293f02c31a509f0e2cce970a1907f2966b
+  1.44.0--r42hdfd78af_0: sha256:3f18b046415db1b5cf6a3674bbee8fa440c09fa39ab3601f88b8c2c51bdaa22a
 docker: quay.io/biocontainers/bioconductor-gwastools

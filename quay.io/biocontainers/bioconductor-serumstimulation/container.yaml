@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-serumstimulation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-serumstimulation
 latest:
-  1.30.0--r41hdfd78af_1: sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914
+  1.33.0--r42hdfd78af_0: sha256:7204c0565c8844e183fedc9e7d4122947f6aa05db6236551c65d83f48d3bf9dd
 tags:
   1.30.0--r41hdfd78af_1: sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914
+  1.33.0--r42hdfd78af_0: sha256:7204c0565c8844e183fedc9e7d4122947f6aa05db6236551c65d83f48d3bf9dd
 docker: quay.io/biocontainers/bioconductor-serumstimulation

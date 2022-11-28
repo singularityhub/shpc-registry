@@ -5,4 +5,5 @@ latest:
   2.26.0: sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad
 tags:
   2.26.0: sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad
+  '2.26': sha256:9c7141283b3a57548def106c81f85f7752710b83515391d0f7905eb0199fa042
 docker: quay.io/biocontainers/requests

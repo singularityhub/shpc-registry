@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rnainteractmapk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnainteractmapk
 latest:
-  1.32.0--r41hdfd78af_1: sha256:b3f26e05b6c5509bf4f4d6865d9d2dcb6a1470fd2273ea100c78bfd47343bf1f
+  1.36.0--r42hdfd78af_0: sha256:bfeb3490613f425d4be2efa516167ee6d8ff2f662021409543389084da5aeddd
 tags:
   1.32.0--r41hdfd78af_1: sha256:b3f26e05b6c5509bf4f4d6865d9d2dcb6a1470fd2273ea100c78bfd47343bf1f
+  1.36.0--r42hdfd78af_0: sha256:bfeb3490613f425d4be2efa516167ee6d8ff2f662021409543389084da5aeddd
 docker: quay.io/biocontainers/bioconductor-rnainteractmapk

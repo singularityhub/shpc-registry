@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ntw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ntw
 latest:
-  1.44.0--r41hdfd78af_0: sha256:016cc04957306b27520229f84aed35683fd8438166e6eb16691185f01eb1e5fa
+  1.48.0--r42hdfd78af_0: sha256:daa8182dfbe2ac0578c44eead0781ca1d48953c4afee6aa0ff989dc355de2574
 tags:
   1.44.0--r41hdfd78af_0: sha256:016cc04957306b27520229f84aed35683fd8438166e6eb16691185f01eb1e5fa
+  1.48.0--r42hdfd78af_0: sha256:daa8182dfbe2ac0578c44eead0781ca1d48953c4afee6aa0ff989dc355de2574
 docker: quay.io/biocontainers/bioconductor-ntw

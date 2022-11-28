@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cafe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cafe
 latest:
-  1.30.0--r41hdfd78af_0: sha256:b8e471bd5ecbf19b1617a1f37901fa7c4173710d3123533aeee7c29f441ae090
+  1.34.0--r42hdfd78af_0: sha256:843c53fbaa79c67fc4f05ac43768f04ba8a10731e9eaf1dfe9d63fe1b22d8d03
 tags:
   1.30.0--r41hdfd78af_0: sha256:b8e471bd5ecbf19b1617a1f37901fa7c4173710d3123533aeee7c29f441ae090
+  1.34.0--r42hdfd78af_0: sha256:843c53fbaa79c67fc4f05ac43768f04ba8a10731e9eaf1dfe9d63fe1b22d8d03
 docker: quay.io/biocontainers/bioconductor-cafe

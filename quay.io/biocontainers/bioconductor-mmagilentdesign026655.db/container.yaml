@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mmagilentdesign026655.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mmagilentdesign026655.db
 latest:
-  3.2.3--r41hdfd78af_9: sha256:0fb8fcca754866dd13b12867589a0ef5c1a915083d97e9480e43b83d302cee25
+  3.2.3--r42hdfd78af_10: sha256:b15bde943cec7f9907b40ee5746efa522551fa6c5c073c1b63aedefb0b8104e3
 tags:
   3.2.3--r41hdfd78af_9: sha256:0fb8fcca754866dd13b12867589a0ef5c1a915083d97e9480e43b83d302cee25
+  3.2.3--r42hdfd78af_10: sha256:b15bde943cec7f9907b40ee5746efa522551fa6c5c073c1b63aedefb0b8104e3
 docker: quay.io/biocontainers/bioconductor-mmagilentdesign026655.db

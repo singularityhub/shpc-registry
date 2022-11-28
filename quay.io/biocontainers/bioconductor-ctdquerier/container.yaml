@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ctdquerier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ctdquerier
 latest:
-  2.2.0--r41hdfd78af_0: sha256:c82030c544b75dfcf60e0cdd1e4e25d4a9e7df8f230338c44ebb70f07478ff3d
+  2.6.0--r42hdfd78af_0: sha256:401648dcc906e3fceb4cde2f731529ffffbbb0b542a61b4d1d5df54ae6c9e152
 tags:
   2.2.0--r41hdfd78af_0: sha256:c82030c544b75dfcf60e0cdd1e4e25d4a9e7df8f230338c44ebb70f07478ff3d
+  2.6.0--r42hdfd78af_0: sha256:401648dcc906e3fceb4cde2f731529ffffbbb0b542a61b4d1d5df54ae6c9e152
 docker: quay.io/biocontainers/bioconductor-ctdquerier

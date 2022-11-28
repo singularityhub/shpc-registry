@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-oder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-oder
 latest:
-  1.0.0--r41hdfd78af_0: sha256:d2fa7081020dc4553154cb30b2c05541996ee38be7cf83f66196a0f8cbc09ad2
+  1.4.0--r42hdfd78af_0: sha256:e6ce3807414ae86bdf6f708c28ba6ce6c2651f106d8ab1d3cb46f5970676c1ac
 tags:
   1.0.0--r41hdfd78af_0: sha256:d2fa7081020dc4553154cb30b2c05541996ee38be7cf83f66196a0f8cbc09ad2
+  1.4.0--r42hdfd78af_0: sha256:e6ce3807414ae86bdf6f708c28ba6ce6c2651f106d8ab1d3cb46f5970676c1ac
 docker: quay.io/biocontainers/bioconductor-oder

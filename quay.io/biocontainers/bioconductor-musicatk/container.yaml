@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-musicatk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-musicatk
 latest:
-  1.4.0--r41hdfd78af_0: sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37
+  1.8.0--r42hdfd78af_0: sha256:c97cac1ab0b7ccd781de8a5afa1cacafdf689a2a19c15851e66b1b64bffc1bbe
 tags:
   1.4.0--r41hdfd78af_0: sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37
+  1.8.0--r42hdfd78af_0: sha256:c97cac1ab0b7ccd781de8a5afa1cacafdf689a2a19c15851e66b1b64bffc1bbe
 docker: quay.io/biocontainers/bioconductor-musicatk
 aliases:
   pandoc: /usr/local/bin/pandoc

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-flowbeads
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowbeads
 latest:
-  1.32.0--r41hdfd78af_0: sha256:ad6df167921a77f7deaa707414edfd5502657093a538331ff013106abfd2c3ca
+  1.36.0--r42hdfd78af_0: sha256:b308e705d2ab4fd835d0d3bdd29faa474ba42634b895379cd792887812752e2c
 tags:
   1.32.0--r41hdfd78af_0: sha256:ad6df167921a77f7deaa707414edfd5502657093a538331ff013106abfd2c3ca
+  1.36.0--r42hdfd78af_0: sha256:b308e705d2ab4fd835d0d3bdd29faa474ba42634b895379cd792887812752e2c
 docker: quay.io/biocontainers/bioconductor-flowbeads

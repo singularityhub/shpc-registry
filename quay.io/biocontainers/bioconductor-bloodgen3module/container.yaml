@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-bloodgen3module
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bloodgen3module
 latest:
-  1.0.0--r41hdfd78af_0: sha256:8c461765947d56f7ce100df00bd03a9034e46175f8f55e112f6bc3293bcc7ec2
+  1.6.0--r42hdfd78af_0: sha256:5414f3a6aabc6ad1604e4012166ac0e4b06cb2a01b159f6d678f29ca4a27d93b
 tags:
   1.0.0--r41hdfd78af_0: sha256:8c461765947d56f7ce100df00bd03a9034e46175f8f55e112f6bc3293bcc7ec2
+  1.6.0--r42hdfd78af_0: sha256:5414f3a6aabc6ad1604e4012166ac0e4b06cb2a01b159f6d678f29ca4a27d93b
 docker: quay.io/biocontainers/bioconductor-bloodgen3module
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

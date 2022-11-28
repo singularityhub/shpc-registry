@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v79
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v79
 latest:
-  2.99.0--r41hdfd78af_9: sha256:3e7aa889513382786c6a839af511ab577042c75a6945efb22cbabbe7d9a0a055
+  2.99.0--r42hdfd78af_10: sha256:db460aa64937eeb152e392d1d2845aedfeb114b62081867ab43543c36b3333d2
 tags:
   2.99.0--r41hdfd78af_9: sha256:3e7aa889513382786c6a839af511ab577042c75a6945efb22cbabbe7d9a0a055
+  2.99.0--r42hdfd78af_10: sha256:db460aa64937eeb152e392d1d2845aedfeb114b62081867ab43543c36b3333d2
 docker: quay.io/biocontainers/bioconductor-ensdb.hsapiens.v79

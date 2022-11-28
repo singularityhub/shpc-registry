@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sictools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sictools
 latest:
-  1.24.0--r41h2e7e3aa_2: sha256:67234c0323f65d7bf968da225b9f8bbba80f275e494ee1d4c95f9d86017e1292
+  1.28.0--r42h2e7e3aa_0: sha256:483bbcd0b8320523cbf0a97ad732e2b4fb8ca1c5f61e77945d9f8b3ab83dc123
 tags:
   1.24.0--r41h2e7e3aa_2: sha256:67234c0323f65d7bf968da225b9f8bbba80f275e494ee1d4c95f9d86017e1292
+  1.28.0--r42h2e7e3aa_0: sha256:483bbcd0b8320523cbf0a97ad732e2b4fb8ca1c5f61e77945d9f8b3ab83dc123
 docker: quay.io/biocontainers/bioconductor-sictools

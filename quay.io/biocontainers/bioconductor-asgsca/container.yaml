@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-asgsca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-asgsca
 latest:
-  1.28.0--r41hdfd78af_0: sha256:e8eca11d24954339250d10cb07bb112d6b9fa72027c349da6205211ff3ea4ab5
+  1.32.0--r42hdfd78af_0: sha256:bf8bc7a10903b3b70fc553e72478fb1471d8de8a9d15bf7f35c3b9084d10c7b1
 tags:
   1.28.0--r41hdfd78af_0: sha256:e8eca11d24954339250d10cb07bb112d6b9fa72027c349da6205211ff3ea4ab5
+  1.32.0--r42hdfd78af_0: sha256:bf8bc7a10903b3b70fc553e72478fb1471d8de8a9d15bf7f35c3b9084d10c7b1
 docker: quay.io/biocontainers/bioconductor-asgsca

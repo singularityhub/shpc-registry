@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-medipsdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-medipsdata
 latest:
-  1.30.0--r41hdfd78af_1: sha256:8676a95e25196bf38951bcf8a0378d2204a0251d1fd40620e0324d654cf9ab49
+  1.33.0--r42hdfd78af_0: sha256:9c0d69cdc21ba467851c6b1a1455d77125790772814206a479dc9712f8d15e9a
 tags:
   1.30.0--r41hdfd78af_1: sha256:8676a95e25196bf38951bcf8a0378d2204a0251d1fd40620e0324d654cf9ab49
+  1.33.0--r42hdfd78af_0: sha256:9c0d69cdc21ba467851c6b1a1455d77125790772814206a479dc9712f8d15e9a
 docker: quay.io/biocontainers/bioconductor-medipsdata

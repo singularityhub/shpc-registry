@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-bionet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bionet
 latest:
-  1.54.0--r41hdfd78af_0: sha256:29fff5cc3f1263df7937776001d008f5e3371669342737abe3feca75902202c1
+  1.58.0--r42hdfd78af_0: sha256:65c756f73ee6238dd2f5681e77a7848e11bd24d1bcacdaf0d07087e22bbb9db1
 tags:
   1.54.0--r41hdfd78af_0: sha256:29fff5cc3f1263df7937776001d008f5e3371669342737abe3feca75902202c1
+  1.58.0--r42hdfd78af_0: sha256:65c756f73ee6238dd2f5681e77a7848e11bd24d1bcacdaf0d07087e22bbb9db1
 docker: quay.io/biocontainers/bioconductor-bionet

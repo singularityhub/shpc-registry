@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ringo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ringo
 latest:
-  1.58.0--r41hc247a5b_2: sha256:8f603485d5b697eaddf87c843a3178ab7755af338d54320b8497a15555be81b8
+  1.62.0--r42hc247a5b_0: sha256:021f05a4eb178943a1b1ce1477b4edf5b6bf1898e8968bbd276ca1c1a15f2455
 tags:
   1.58.0--r41hc247a5b_2: sha256:8f603485d5b697eaddf87c843a3178ab7755af338d54320b8497a15555be81b8
+  1.62.0--r42hc247a5b_0: sha256:021f05a4eb178943a1b1ce1477b4edf5b6bf1898e8968bbd276ca1c1a15f2455
 docker: quay.io/biocontainers/bioconductor-ringo
