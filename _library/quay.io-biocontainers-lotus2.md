@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lotus2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lotus2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lotus2/container.yaml"
-updated_at: "2022-11-28 00:06:03.576075"
+updated_at: "2022-11-28 00:20:58.654889"
 latest: "2.22--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lotus2"
 aliases:
