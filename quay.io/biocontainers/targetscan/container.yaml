@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/targetscan
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for targetscan
+latest:
+  7.0--pl5321hdfd78af_0: sha256:766449d7116d75961221a8937ee2687a815992b1ea5d4bff008e98bf5f7e9ac4
+tags:
+  7.0--pl5321hdfd78af_0: sha256:766449d7116d75961221a8937ee2687a815992b1ea5d4bff008e98bf5f7e9ac4
+docker: quay.io/biocontainers/targetscan
+aliases:
+  targetscan_70.pl: /usr/local/bin/targetscan_70.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip
