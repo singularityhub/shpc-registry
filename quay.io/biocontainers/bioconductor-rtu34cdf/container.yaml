@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rtu34cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtu34cdf
 latest:
-  2.18.0--r41hdfd78af_9: sha256:aa8524a5d81b84f9e609cd329e6cfc0b22cd5958f1612bea4cd973f7d351e0be
+  2.18.0--r42hdfd78af_10: sha256:4ee6656a7419978e1f28f12e97909830c861acb88203e1cfbed978ec39341f6b
 tags:
   2.18.0--r41hdfd78af_9: sha256:aa8524a5d81b84f9e609cd329e6cfc0b22cd5958f1612bea4cd973f7d351e0be
+  2.18.0--r42hdfd78af_10: sha256:4ee6656a7419978e1f28f12e97909830c861acb88203e1cfbed978ec39341f6b
 docker: quay.io/biocontainers/bioconductor-rtu34cdf

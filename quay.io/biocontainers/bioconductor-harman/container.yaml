@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-harman
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-harman
 latest:
-  1.22.0--r41hc247a5b_2: sha256:e5e641269bf7af27455ee10e9161519ad3f70de228de1ce9e06aca7257a64142
+  1.26.0--r42hc247a5b_0: sha256:8889a1695f6ffcfbdb4fbf200d912419b07e1e6a9add6244ae959947d55cd356
 tags:
   1.8.0--r351hfc679d8_0: sha256:f991fcbfe53b063c3c8c6ed799e43aa5eb6483a15aea768d7c2c2a9e0bab394a
   1.22.0--r41hc247a5b_2: sha256:e5e641269bf7af27455ee10e9161519ad3f70de228de1ce9e06aca7257a64142
@@ -10,4 +10,5 @@ tags:
   1.18.0--r40h399db7b_1: sha256:4be3fe0af552386f7319da63411731cf70383cd1722390f336adf56019146b76
   1.16.0--r40h5f743cb_0: sha256:aa6bc75366be03ecd18d037263c30d59bbc54d3650018a8e7e9fc4d2cc7836f1
   1.14.0--r36he1b5a44_0: sha256:571cd659d01dddbaad2aeb8abe84bbd3b3db6fcfc42e2e4f9da32ee3f642c9dc
+  1.26.0--r42hc247a5b_0: sha256:8889a1695f6ffcfbdb4fbf200d912419b07e1e6a9add6244ae959947d55cd356
 docker: quay.io/biocontainers/bioconductor-harman

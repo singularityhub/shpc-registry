@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-filterffpe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-filterffpe
 latest:
-  1.4.0--r41hdfd78af_0: sha256:43e253a3e683428a422f93acddeeea027d2fe10a25b5e581bab4823ccf6ca82d
+  1.8.0--r42hdfd78af_0: sha256:799e67670094cea5107573a3864011850082c291a3277a07dc0e25c8159d150d
 tags:
   1.4.0--r41hdfd78af_0: sha256:43e253a3e683428a422f93acddeeea027d2fe10a25b5e581bab4823ccf6ca82d
+  1.8.0--r42hdfd78af_0: sha256:799e67670094cea5107573a3864011850082c291a3277a07dc0e25c8159d150d
 docker: quay.io/biocontainers/bioconductor-filterffpe

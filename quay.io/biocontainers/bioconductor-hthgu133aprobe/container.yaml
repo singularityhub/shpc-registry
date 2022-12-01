@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hthgu133aprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hthgu133aprobe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:05df9afc6c5bf9dbf5a3499a9e8db523a2cb693f18b70a07dc8788098893fe69
+  2.18.0--r42hdfd78af_10: sha256:c6ab89d6ad612ebd75787425b2272f55dc4f4e55c2e5f7804812578cb63120ee
 tags:
   2.18.0--r41hdfd78af_9: sha256:05df9afc6c5bf9dbf5a3499a9e8db523a2cb693f18b70a07dc8788098893fe69
+  2.18.0--r42hdfd78af_10: sha256:c6ab89d6ad612ebd75787425b2272f55dc4f4e55c2e5f7804812578cb63120ee
 docker: quay.io/biocontainers/bioconductor-hthgu133aprobe

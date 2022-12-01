@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hugene10stv1probe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hugene10stv1probe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:af76ac3fc02a482dd58ba7f9fcefc6166aee9b49a5af46749823a3f3058b11aa
+  2.18.0--r42hdfd78af_10: sha256:cdace5dd7d8a06a53c51eb09bda96b369767f238012e7477f6c4ffc613858e8d
 tags:
   2.18.0--r41hdfd78af_9: sha256:af76ac3fc02a482dd58ba7f9fcefc6166aee9b49a5af46749823a3f3058b11aa
+  2.18.0--r42hdfd78af_10: sha256:cdace5dd7d8a06a53c51eb09bda96b369767f238012e7477f6c4ffc613858e8d
 docker: quay.io/biocontainers/bioconductor-hugene10stv1probe

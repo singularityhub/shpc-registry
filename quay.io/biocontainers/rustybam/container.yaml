@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rustybam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rustybam
 latest:
-  0.1.30--hc52b9a9_1: sha256:e056aa9311c66cad3c2d34cda1ea4636defe9621040e764a8ebbd18573080771
+  0.1.31--hc52b9a9_0: sha256:168d060c5f48fba1b0b125a1df02f8f5a4d28e7eab0e0f9f6a32266f65101db5
 tags:
   0.1.30--hc52b9a9_1: sha256:e056aa9311c66cad3c2d34cda1ea4636defe9621040e764a8ebbd18573080771
+  0.1.31--hc52b9a9_0: sha256:168d060c5f48fba1b0b125a1df02f8f5a4d28e7eab0e0f9f6a32266f65101db5
 docker: quay.io/biocontainers/rustybam
 aliases:
   rb: /usr/local/bin/rb

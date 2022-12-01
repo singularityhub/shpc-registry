@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sojourner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sojourner
 latest:
-  1.8.0--r41hc247a5b_2: sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd
+  1.11.0--r42hc247a5b_0: sha256:02b88de4a7c0405667d36b7dc4af15dca25e40e5dc09dc38489b779a7d25e206
 tags:
   1.8.0--r41hc247a5b_2: sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd
+  1.11.0--r42hc247a5b_0: sha256:02b88de4a7c0405667d36b7dc4af15dca25e40e5dc09dc38489b779a7d25e206
 docker: quay.io/biocontainers/bioconductor-sojourner
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

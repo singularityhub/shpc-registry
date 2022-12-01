@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-vision
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-vision
 latest:
-  2.0.0--r41h9f5acd7_4: sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c
+  2.0.0--r42h9f5acd7_5: sha256:a3d26c798640261bf78ca83e075ce8c39073a11983bf0740b8c0d909616f20c8
 tags:
   2.0.0--r41h9f5acd7_4: sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c
+  2.0.0--r42h9f5acd7_5: sha256:a3d26c798640261bf78ca83e075ce8c39073a11983bf0740b8c0d909616f20c8
 docker: quay.io/biocontainers/r-vision

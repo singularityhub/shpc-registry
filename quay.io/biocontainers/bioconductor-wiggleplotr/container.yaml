@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-wiggleplotr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-wiggleplotr
 latest:
-  1.18.0--r41hdfd78af_0: sha256:9612426d56cb83bb1bf208e4844bf40d4e8ed6e07a31b60bf6503ab9a24a4566
+  1.22.0--r42hdfd78af_0: sha256:d7d5332df2d006e116ef369b66b5a927356c998e87329f49b87eade0fc986590
 tags:
   1.8.0--r36_1: sha256:4ef14dec7eb0e3b31934c99b9ca2cf2f4cf293bf32cfbe2c474f74ae73456e8b
   1.18.0--r41hdfd78af_0: sha256:9612426d56cb83bb1bf208e4844bf40d4e8ed6e07a31b60bf6503ab9a24a4566
@@ -10,6 +10,7 @@ tags:
   1.14.0--r40hdfd78af_1: sha256:b9ab0bf7439b854913da3650985e1c884c88286b06a9eeadd34f219d340b5eba
   1.12.0--r40_0: sha256:cc29183ffb30e927d3edd6f1fef42afff35d48ad053aaeb07afac5c317e6a9d3
   1.10.1--r36_0: sha256:0445bf8243475db9cd87c403fb437bd5cf1e8176558a55c56deba4e4cbfb1875
+  1.22.0--r42hdfd78af_0: sha256:d7d5332df2d006e116ef369b66b5a927356c998e87329f49b87eade0fc986590
 docker: quay.io/biocontainers/bioconductor-wiggleplotr
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

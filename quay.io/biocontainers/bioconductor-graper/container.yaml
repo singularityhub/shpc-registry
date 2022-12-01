@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-graper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-graper
 latest:
-  1.10.0--r41hc247a5b_2: sha256:252e9059b19175b8ca5971766cd0396f2ffb6c1337310a840ad1d9297a769167
+  1.14.0--r42hc247a5b_0: sha256:f2669970d62caf530bc2542e963cd6d0bbfd02d383cec95bcf7dbe014a3f79e7
 tags:
   1.8.0--r41h399db7b_0: sha256:9129dad9604cb638c68329dd5e1b938970375678548910a62e2e42006d5f2823
   1.10.0--r41hc247a5b_2: sha256:252e9059b19175b8ca5971766cd0396f2ffb6c1337310a840ad1d9297a769167
+  1.14.0--r42hc247a5b_0: sha256:f2669970d62caf530bc2542e963cd6d0bbfd02d383cec95bcf7dbe014a3f79e7
 docker: quay.io/biocontainers/bioconductor-graper
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

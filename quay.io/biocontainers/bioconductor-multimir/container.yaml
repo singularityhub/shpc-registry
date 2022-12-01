@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-multimir
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-multimir
 latest:
-  1.16.0--r41hdfd78af_0: sha256:a1a23ea8dd61b2bd47501be8252f05c1dd3589a96520c0ecd62f1e9835f33123
+  1.20.0--r42hdfd78af_0: sha256:9cf79b19cf95bc9e2b1fc82f4cbabc5291d2102d1fcff3b2ff3b81456432672d
 tags:
   1.6.0--r36_1: sha256:167c3ccf54022a9fc6c2c4d9c308978b9eea7aa357164945341e8861c4cb193a
   1.16.0--r41hdfd78af_0: sha256:a1a23ea8dd61b2bd47501be8252f05c1dd3589a96520c0ecd62f1e9835f33123
   1.14.0--r41hdfd78af_0: sha256:a24e216e5a3e1f55b72fadc7fb3b1365003bfb2b455daf49c4a9ea6b3fc382c7
   1.12.0--r40hdfd78af_1: sha256:ea8af6016eea8461a2dff76e2a744ceda7c4b940b7dbfdf9ce542def696b3d01
   1.10.0--r40_0: sha256:bdf2247f66717b9ffc8d37ce9d58ae4199cca4d2c8f64781f40d19b5699fd6a5
+  1.20.0--r42hdfd78af_0: sha256:9cf79b19cf95bc9e2b1fc82f4cbabc5291d2102d1fcff3b2ff3b81456432672d
 docker: quay.io/biocontainers/bioconductor-multimir
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
