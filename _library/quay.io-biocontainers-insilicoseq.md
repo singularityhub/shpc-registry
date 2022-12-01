@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/insilicoseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insilicoseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insilicoseq/container.yaml"
-updated_at: "2022-11-28 03:21:41.905015"
-latest: "1.5.4--pyh5e36f6f_0"
+updated_at: "2022-12-01 01:52:47.838929"
+latest: "1.5.4--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/insilicoseq"
 aliases:
  - "iss"
@@ -20,8 +20,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.5.4--pyh5e36f6f_0"
+ - "1.5.4--pyh7cba7a3_1"
 description: "shpc-registry automated BioContainers addition for insilicoseq"
-config: {"url": "https://biocontainers.pro/tools/insilicoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for insilicoseq", "latest": {"1.5.4--pyh5e36f6f_0": "sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf"}, "tags": {"1.5.4--pyh5e36f6f_0": "sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf"}, "docker": "quay.io/biocontainers/insilicoseq", "aliases": {"iss": "/usr/local/bin/iss", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/insilicoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for insilicoseq", "latest": {"1.5.4--pyh7cba7a3_1": "sha256:127e5ec48502aec2c32856490dbfcd2c42874c276bf57ce73369175fa748dea9"}, "tags": {"1.5.4--pyh5e36f6f_0": "sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf", "1.5.4--pyh7cba7a3_1": "sha256:127e5ec48502aec2c32856490dbfcd2c42874c276bf57ce73369175fa748dea9"}, "docker": "quay.io/biocontainers/insilicoseq", "aliases": {"iss": "/usr/local/bin/iss", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/insilicoseq.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/insilicoseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/insilicoseq:1.5.4--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/insilicoseq:1.5.4--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/insilicoseq/1.5.4--pyh5e36f6f_0
-$ module help quay.io/biocontainers/insilicoseq/1.5.4--pyh5e36f6f_0
+$ module load quay.io/biocontainers/insilicoseq/1.5.4--pyh7cba7a3_1
+$ module help quay.io/biocontainers/insilicoseq/1.5.4--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

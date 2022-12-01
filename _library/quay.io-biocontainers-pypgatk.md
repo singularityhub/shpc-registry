@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypgatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypgatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypgatk/container.yaml"
-updated_at: "2022-11-28 03:33:01.906487"
+updated_at: "2022-12-01 02:07:01.110698"
 latest: "0.0.23--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pypgatk"
 aliases:

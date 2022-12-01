@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rhdf5filters"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhdf5filters/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhdf5filters/container.yaml"
-updated_at: "2022-11-28 03:32:45.820494"
-latest: "1.6.0--r41hc247a5b_2"
+updated_at: "2022-12-01 02:06:40.971432"
+latest: "1.10.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhdf5filters"
 
 versions:
  - "1.6.0--r41hc247a5b_2"
+ - "1.10.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhdf5filters"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhdf5filters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhdf5filters", "latest": {"1.6.0--r41hc247a5b_2": "sha256:fc90ca5dbb2f4c319959d45d21106637bfaff171fb36c2bb53b2ec7d78f00f0c"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:fc90ca5dbb2f4c319959d45d21106637bfaff171fb36c2bb53b2ec7d78f00f0c"}, "docker": "quay.io/biocontainers/bioconductor-rhdf5filters"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhdf5filters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhdf5filters", "latest": {"1.10.0--r42hc247a5b_0": "sha256:bb4aa87504c5b1c2dfb766bbf9c03e4ce697cb3f3a8dd5675b794d0d81855d82"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:fc90ca5dbb2f4c319959d45d21106637bfaff171fb36c2bb53b2ec7d78f00f0c", "1.10.0--r42hc247a5b_0": "sha256:bb4aa87504c5b1c2dfb766bbf9c03e4ce697cb3f3a8dd5675b794d0d81855d82"}, "docker": "quay.io/biocontainers/bioconductor-rhdf5filters"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhdf5filters.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rhdf5filters
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rhdf5filters:1.6.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-rhdf5filters:1.10.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rhdf5filters/1.6.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-rhdf5filters/1.6.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-rhdf5filters/1.10.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-rhdf5filters/1.10.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

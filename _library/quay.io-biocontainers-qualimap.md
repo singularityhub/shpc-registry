@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qualimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qualimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qualimap/container.yaml"
-updated_at: "2022-11-28 03:33:18.015194"
+updated_at: "2022-12-01 02:07:21.292844"
 latest: "2.2.2d--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/qualimap"
 aliases:

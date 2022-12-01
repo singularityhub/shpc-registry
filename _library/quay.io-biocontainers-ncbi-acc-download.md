@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-acc-download"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-acc-download/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-acc-download/container.yaml"
-updated_at: "2022-11-28 03:43:05.416530"
+updated_at: "2022-12-01 02:19:38.491723"
 latest: "0.2.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ncbi-acc-download"
 aliases:

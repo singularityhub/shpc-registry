@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pathwaypca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathwaypca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathwaypca/container.yaml"
-updated_at: "2022-11-28 03:10:31.735443"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-12-01 01:38:54.449069"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathwaypca"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathwaypca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathwaypca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathwaypca", "latest": {"1.8.0--r41hdfd78af_0": "sha256:aa800f8a0aaa1f192fbf31e092c404ff26447e35add0638e4f9294c533c0a734"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:aa800f8a0aaa1f192fbf31e092c404ff26447e35add0638e4f9294c533c0a734"}, "docker": "quay.io/biocontainers/bioconductor-pathwaypca", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathwaypca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathwaypca", "latest": {"1.14.0--r42hdfd78af_0": "sha256:565ecf63c62ae8c6deb83023e366666d23b745d6338156924015248ceffbcbf9"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:aa800f8a0aaa1f192fbf31e092c404ff26447e35add0638e4f9294c533c0a734", "1.14.0--r42hdfd78af_0": "sha256:565ecf63c62ae8c6deb83023e366666d23b745d6338156924015248ceffbcbf9", "1.10.0--r41hdfd78af_0": "sha256:294f7cd7338002cfa231487fd89a8f3ce2679a9dc8b3c9924248fdc0aa6e205f"}, "docker": "quay.io/biocontainers/bioconductor-pathwaypca", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathwaypca.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pathwaypca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pathwaypca:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pathwaypca:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pathwaypca/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pathwaypca/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pathwaypca/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pathwaypca/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

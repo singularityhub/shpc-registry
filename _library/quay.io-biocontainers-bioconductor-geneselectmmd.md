@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-geneselectmmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneselectmmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneselectmmd/container.yaml"
-updated_at: "2022-11-28 03:39:17.071305"
-latest: "2.38.0--r41hefde4a7_2"
+updated_at: "2022-12-01 02:14:51.895321"
+latest: "2.42.0--r42hefde4a7_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneselectmmd"
 
 versions:
  - "2.38.0--r41hefde4a7_2"
+ - "2.42.0--r42hefde4a7_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneselectmmd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneselectmmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneselectmmd", "latest": {"2.38.0--r41hefde4a7_2": "sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851"}, "tags": {"2.38.0--r41hefde4a7_2": "sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851"}, "docker": "quay.io/biocontainers/bioconductor-geneselectmmd"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneselectmmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneselectmmd", "latest": {"2.42.0--r42hefde4a7_0": "sha256:09e187892d0719335fa33858989f38028264cabb6ed404e4c65cb648e3f760c3"}, "tags": {"2.38.0--r41hefde4a7_2": "sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851", "2.42.0--r42hefde4a7_0": "sha256:09e187892d0719335fa33858989f38028264cabb6ed404e4c65cb648e3f760c3"}, "docker": "quay.io/biocontainers/bioconductor-geneselectmmd"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneselectmmd.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geneselectmmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geneselectmmd:2.38.0--r41hefde4a7_2
+$ shpc install quay.io/biocontainers/bioconductor-geneselectmmd:2.42.0--r42hefde4a7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geneselectmmd/2.38.0--r41hefde4a7_2
-$ module help quay.io/biocontainers/bioconductor-geneselectmmd/2.38.0--r41hefde4a7_2
+$ module load quay.io/biocontainers/bioconductor-geneselectmmd/2.42.0--r42hefde4a7_0
+$ module help quay.io/biocontainers/bioconductor-geneselectmmd/2.42.0--r42hefde4a7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

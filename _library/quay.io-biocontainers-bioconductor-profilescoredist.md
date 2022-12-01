@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-profilescoredist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-profilescoredist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-profilescoredist/container.yaml"
-updated_at: "2022-11-28 03:40:39.498158"
-latest: "1.22.0--r41hc247a5b_2"
+updated_at: "2022-12-01 02:16:35.025158"
+latest: "1.26.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-profilescoredist"
 
 versions:
  - "1.22.0--r41hc247a5b_2"
+ - "1.26.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-profilescoredist"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-profilescoredist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-profilescoredist", "latest": {"1.22.0--r41hc247a5b_2": "sha256:9b61066b22ad81ec823e1bc8f5cdff4cca3a5bd34ca014bbb6d7a63dc7d7d7e7"}, "tags": {"1.22.0--r41hc247a5b_2": "sha256:9b61066b22ad81ec823e1bc8f5cdff4cca3a5bd34ca014bbb6d7a63dc7d7d7e7"}, "docker": "quay.io/biocontainers/bioconductor-profilescoredist"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-profilescoredist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-profilescoredist", "latest": {"1.26.0--r42hc247a5b_0": "sha256:93766fef9b35432a1ab447498fbe061a7de6835abc5a24632f06a18744289e05"}, "tags": {"1.22.0--r41hc247a5b_2": "sha256:9b61066b22ad81ec823e1bc8f5cdff4cca3a5bd34ca014bbb6d7a63dc7d7d7e7", "1.26.0--r42hc247a5b_0": "sha256:93766fef9b35432a1ab447498fbe061a7de6835abc5a24632f06a18744289e05"}, "docker": "quay.io/biocontainers/bioconductor-profilescoredist"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-profilescoredist.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-profilescoredist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-profilescoredist:1.22.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-profilescoredist:1.26.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-profilescoredist/1.22.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-profilescoredist/1.22.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-profilescoredist/1.26.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-profilescoredist/1.26.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

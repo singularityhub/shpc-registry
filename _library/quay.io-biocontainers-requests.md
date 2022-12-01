@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/requests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests/container.yaml"
-updated_at: "2022-11-28 03:17:24.074644"
+updated_at: "2022-12-01 01:47:24.816615"
 latest: "2.26.0"
 container_url: "https://biocontainers.pro/tools/requests"
 
 versions:
  - "2.26.0"
+ - "2.26"
 description: "shpc-registry automated BioContainers addition for requests"
-config: {"url": "https://biocontainers.pro/tools/requests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests", "latest": {"2.26.0": "sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad"}, "tags": {"2.26.0": "sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad"}, "docker": "quay.io/biocontainers/requests"}
+config: {"url": "https://biocontainers.pro/tools/requests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests", "latest": {"2.26.0": "sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad"}, "tags": {"2.26.0": "sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad", "2.26": "sha256:9c7141283b3a57548def106c81f85f7752710b83515391d0f7905eb0199fa042"}, "docker": "quay.io/biocontainers/requests"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/requests.

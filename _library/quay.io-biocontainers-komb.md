@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/komb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/komb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/komb/container.yaml"
-updated_at: "2022-11-28 03:32:38.374836"
+updated_at: "2022-12-01 02:06:31.641088"
 latest: "1.0--py37h595c7a6_5"
 container_url: "https://biocontainers.pro/tools/komb"
 aliases:

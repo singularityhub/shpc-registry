@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoraw/container.yaml"
-updated_at: "2022-11-28 03:20:50.345909"
+updated_at: "2022-12-01 01:51:43.296106"
 latest: "0.5--py_3"
 container_url: "https://biocontainers.pro/tools/nanoraw"
 aliases:

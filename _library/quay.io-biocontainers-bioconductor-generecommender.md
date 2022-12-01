@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-generecommender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-generecommender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-generecommender/container.yaml"
-updated_at: "2022-11-28 03:19:14.062461"
-latest: "1.66.0--r41hdfd78af_0"
+updated_at: "2022-12-01 01:49:42.353167"
+latest: "1.70.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-generecommender"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
+ - "1.70.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-generecommender"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-generecommender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-generecommender", "latest": {"1.66.0--r41hdfd78af_0": "sha256:d5ad1bf6fcc002b1a0fb1be5ced715fa4f092990d5893ab612eb70f636b947b5"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:d5ad1bf6fcc002b1a0fb1be5ced715fa4f092990d5893ab612eb70f636b947b5"}, "docker": "quay.io/biocontainers/bioconductor-generecommender"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-generecommender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-generecommender", "latest": {"1.70.0--r42hdfd78af_0": "sha256:d4627b0aa00d9a262f7db3071a4828273da9589d334d72c2e3964f0988384a0b"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:d5ad1bf6fcc002b1a0fb1be5ced715fa4f092990d5893ab612eb70f636b947b5", "1.70.0--r42hdfd78af_0": "sha256:d4627b0aa00d9a262f7db3071a4828273da9589d334d72c2e3964f0988384a0b"}, "docker": "quay.io/biocontainers/bioconductor-generecommender"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-generecommender.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-generecommender
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-generecommender:1.66.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-generecommender:1.70.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-generecommender/1.66.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-generecommender/1.66.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-generecommender/1.70.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-generecommender/1.70.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

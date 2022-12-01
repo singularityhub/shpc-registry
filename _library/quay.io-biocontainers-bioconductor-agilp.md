@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-agilp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
-updated_at: "2022-11-28 03:47:33.726159"
-latest: "3.8.0--r3.4.1_0"
+updated_at: "2022-12-01 02:25:14.309709"
+latest: "3.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-agilp"
 aliases:
  - "tclsh8.5"
@@ -14,8 +14,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "3.8.0--r3.4.1_0"
+ - "3.30.0--r42hdfd78af_0"
+ - "3.26.0--r41hdfd78af_0"
+ - "3.24.0--r41hdfd78af_0"
+ - "3.22.0--r40hdfd78af_1"
+ - "3.20.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-agilp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-agilp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agilp", "latest": {"3.8.0--r3.4.1_0": "sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e"}, "tags": {"3.8.0--r3.4.1_0": "sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e"}, "docker": "quay.io/biocontainers/bioconductor-agilp", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-agilp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agilp", "latest": {"3.30.0--r42hdfd78af_0": "sha256:8bac8634d3d7b43a8a1b897c1602f0d856b0fb0c01d80622bdbb5e667777bcd7"}, "tags": {"3.8.0--r3.4.1_0": "sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e", "3.30.0--r42hdfd78af_0": "sha256:8bac8634d3d7b43a8a1b897c1602f0d856b0fb0c01d80622bdbb5e667777bcd7", "3.26.0--r41hdfd78af_0": "sha256:c1b0aece99c02a8fba401f575d8ca26153c60c53c626fa0442232f474f94272c", "3.24.0--r41hdfd78af_0": "sha256:d2ce98a8d943f079afdd14960919f98e06b7beb0ba0ed7418dccb3ba5383d120", "3.22.0--r40hdfd78af_1": "sha256:e7a88c058429f350331f5c75ef835c9e0fb5a4c21be207ee0fdb345d6ea86835", "3.20.0--r40_0": "sha256:0aeb25c42ecac5d903c9707b4ef773d505bb584a027ebe25adb56f390aa445e2"}, "docker": "quay.io/biocontainers/bioconductor-agilp", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-agilp.
@@ -30,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-agilp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-agilp:3.8.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-agilp:3.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-agilp/3.8.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-agilp/3.8.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-agilp/3.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-agilp/3.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-dorothea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dorothea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dorothea/container.yaml"
-updated_at: "2022-11-28 03:12:07.786003"
-latest: "1.6.0--r41hdfd78af_1"
+updated_at: "2022-12-01 01:40:53.759285"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dorothea"
 
 versions:
  - "1.6.0--r41hdfd78af_1"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dorothea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dorothea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dorothea", "latest": {"1.6.0--r41hdfd78af_1": "sha256:e9f6245e6c70212bdb4595e7941cf7cab1fe35f32dfd88cd68d4bcdf42ff7ac1"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:e9f6245e6c70212bdb4595e7941cf7cab1fe35f32dfd88cd68d4bcdf42ff7ac1"}, "docker": "quay.io/biocontainers/bioconductor-dorothea"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dorothea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dorothea", "latest": {"1.10.0--r42hdfd78af_0": "sha256:91908a4283ed88e49752c5c95d0556248761e1250b16b02e23a46e28d3f3adcb"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:e9f6245e6c70212bdb4595e7941cf7cab1fe35f32dfd88cd68d4bcdf42ff7ac1", "1.10.0--r42hdfd78af_0": "sha256:91908a4283ed88e49752c5c95d0556248761e1250b16b02e23a46e28d3f3adcb"}, "docker": "quay.io/biocontainers/bioconductor-dorothea"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dorothea.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dorothea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dorothea:1.6.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-dorothea:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dorothea/1.6.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-dorothea/1.6.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-dorothea/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dorothea/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

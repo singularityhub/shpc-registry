@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-vanillaice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vanillaice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vanillaice/container.yaml"
-updated_at: "2022-11-28 03:34:50.187784"
-latest: "1.56.3--r41hc0cfd56_1"
+updated_at: "2022-12-01 02:09:16.978750"
+latest: "1.60.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vanillaice"
 
 versions:
  - "1.56.3--r41hc0cfd56_1"
+ - "1.60.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vanillaice"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vanillaice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vanillaice", "latest": {"1.56.3--r41hc0cfd56_1": "sha256:716427b3995a872dbde820fca58432860828fc22340cf310bf034909a2b0f9cf"}, "tags": {"1.56.3--r41hc0cfd56_1": "sha256:716427b3995a872dbde820fca58432860828fc22340cf310bf034909a2b0f9cf"}, "docker": "quay.io/biocontainers/bioconductor-vanillaice"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vanillaice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vanillaice", "latest": {"1.60.0--r42hc0cfd56_0": "sha256:b3e5f576a17cc5b67514e5ea6572bf49db7c4549321a87e7ae2379965a3e272b"}, "tags": {"1.56.3--r41hc0cfd56_1": "sha256:716427b3995a872dbde820fca58432860828fc22340cf310bf034909a2b0f9cf", "1.60.0--r42hc0cfd56_0": "sha256:b3e5f576a17cc5b67514e5ea6572bf49db7c4549321a87e7ae2379965a3e272b"}, "docker": "quay.io/biocontainers/bioconductor-vanillaice"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vanillaice.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vanillaice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vanillaice:1.56.3--r41hc0cfd56_1
+$ shpc install quay.io/biocontainers/bioconductor-vanillaice:1.60.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vanillaice/1.56.3--r41hc0cfd56_1
-$ module help quay.io/biocontainers/bioconductor-vanillaice/1.56.3--r41hc0cfd56_1
+$ module load quay.io/biocontainers/bioconductor-vanillaice/1.60.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-vanillaice/1.60.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

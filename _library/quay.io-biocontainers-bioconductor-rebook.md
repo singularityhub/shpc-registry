@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rebook/container.yaml"
-updated_at: "2022-11-28 03:14:04.256043"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-12-01 01:43:18.039590"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rebook"
 aliases:
  - "pandoc"
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rebook"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rebook", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rebook", "latest": {"1.4.0--r41hdfd78af_0": "sha256:b6fb733b61f4d0fef3dd9656de6e820ed0b395236ab2d140f37b575b71f071fb"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:b6fb733b61f4d0fef3dd9656de6e820ed0b395236ab2d140f37b575b71f071fb"}, "docker": "quay.io/biocontainers/bioconductor-rebook", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rebook", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rebook", "latest": {"1.8.0--r42hdfd78af_0": "sha256:cbc56757ae4e8b2268c465f7d22a9212de1bb09378fc6f9cbe3723e3f6afcd93"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:b6fb733b61f4d0fef3dd9656de6e820ed0b395236ab2d140f37b575b71f071fb", "1.8.0--r42hdfd78af_0": "sha256:cbc56757ae4e8b2268c465f7d22a9212de1bb09378fc6f9cbe3723e3f6afcd93"}, "docker": "quay.io/biocontainers/bioconductor-rebook", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rebook.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rebook:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rebook:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rebook/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rebook/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rebook/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rebook/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

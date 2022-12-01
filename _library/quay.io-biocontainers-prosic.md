@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prosic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prosic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prosic/container.yaml"
-updated_at: "2022-11-28 03:58:10.929688"
+updated_at: "2022-12-01 02:38:29.343106"
 latest: "2.1.2--hc7800f0_1"
 container_url: "https://biocontainers.pro/tools/prosic"
 aliases:

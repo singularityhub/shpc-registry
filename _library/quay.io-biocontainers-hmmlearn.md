@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmmlearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmlearn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmlearn/container.yaml"
-updated_at: "2022-11-28 03:15:10.685609"
+updated_at: "2022-12-01 01:44:39.216828"
 latest: "0.1.1--py27h24bf2e0_0"
 container_url: "https://biocontainers.pro/tools/hmmlearn"
 aliases:

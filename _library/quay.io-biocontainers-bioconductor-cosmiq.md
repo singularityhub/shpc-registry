@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cosmiq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosmiq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosmiq/container.yaml"
-updated_at: "2022-11-28 03:39:56.350219"
-latest: "1.28.0--r41hc247a5b_2"
+updated_at: "2022-12-01 02:15:41.104314"
+latest: "1.32.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosmiq"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "1.28.0--r41hc247a5b_2"
+ - "1.32.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cosmiq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cosmiq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosmiq", "latest": {"1.28.0--r41hc247a5b_2": "sha256:58f9831c54d25fa60a651b0706162120035a2eed282d859939b61214045a053c"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:58f9831c54d25fa60a651b0706162120035a2eed282d859939b61214045a053c"}, "docker": "quay.io/biocontainers/bioconductor-cosmiq", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cosmiq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosmiq", "latest": {"1.32.0--r42hc247a5b_0": "sha256:016e964924b5c2b3b49d2dd31290b5551f1425c5126de38184ec14e659420c25"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:58f9831c54d25fa60a651b0706162120035a2eed282d859939b61214045a053c", "1.32.0--r42hc247a5b_0": "sha256:016e964924b5c2b3b49d2dd31290b5551f1425c5126de38184ec14e659420c25"}, "docker": "quay.io/biocontainers/bioconductor-cosmiq", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cosmiq.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cosmiq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cosmiq:1.28.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-cosmiq:1.32.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cosmiq/1.28.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-cosmiq/1.28.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-cosmiq/1.32.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cosmiq/1.32.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

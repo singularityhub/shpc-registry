@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-csar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-csar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-csar/container.yaml"
-updated_at: "2022-11-28 03:35:40.760900"
+updated_at: "2022-12-01 02:10:20.416051"
 latest: "1.50.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-csar"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phewas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phewas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phewas/container.yaml"
-updated_at: "2022-11-28 03:12:16.115308"
+updated_at: "2022-12-01 01:41:04.073430"
 latest: "0.12.1--r41hb2e0dee_4"
 container_url: "https://biocontainers.pro/tools/r-phewas"
 

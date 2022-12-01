@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/elasticluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elasticluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elasticluster/container.yaml"
-updated_at: "2022-11-28 03:38:59.805082"
+updated_at: "2022-12-01 02:14:30.305560"
 latest: "0.1.3bcbio--py27_12"
 container_url: "https://biocontainers.pro/tools/elasticluster"
 aliases:

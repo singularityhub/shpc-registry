@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pasillabamsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pasillabamsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pasillabamsubset/container.yaml"
-updated_at: "2022-11-28 04:03:25.832482"
-latest: "0.32.0--r41hdfd78af_1"
+updated_at: "2022-12-01 02:45:01.128796"
+latest: "0.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pasillabamsubset"
 
 versions:
  - "0.32.0--r41hdfd78af_1"
+ - "0.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pasillabamsubset"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pasillabamsubset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pasillabamsubset", "latest": {"0.32.0--r41hdfd78af_1": "sha256:984480b1161fa562fb6a6d9bc510e2559d1cb6b52e93b3207c9bce9188edc819"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:984480b1161fa562fb6a6d9bc510e2559d1cb6b52e93b3207c9bce9188edc819"}, "docker": "quay.io/biocontainers/bioconductor-pasillabamsubset"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pasillabamsubset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pasillabamsubset", "latest": {"0.35.0--r42hdfd78af_0": "sha256:5cbfc78debcc183e2446bfd4f33fadf2b49a8cf03663199fe365ddaa85a8d145"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:984480b1161fa562fb6a6d9bc510e2559d1cb6b52e93b3207c9bce9188edc819", "0.35.0--r42hdfd78af_0": "sha256:5cbfc78debcc183e2446bfd4f33fadf2b49a8cf03663199fe365ddaa85a8d145"}, "docker": "quay.io/biocontainers/bioconductor-pasillabamsubset"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pasillabamsubset.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pasillabamsubset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pasillabamsubset:0.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-pasillabamsubset:0.35.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pasillabamsubset/0.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-pasillabamsubset/0.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-pasillabamsubset/0.35.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pasillabamsubset/0.35.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

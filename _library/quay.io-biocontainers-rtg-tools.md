@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rtg-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rtg-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rtg-tools/container.yaml"
-updated_at: "2022-11-28 03:51:05.268833"
-latest: "3.9.1--1"
+updated_at: "2022-12-01 02:29:38.853034"
+latest: "3.12--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rtg-tools"
 aliases:
  - "rtg"
@@ -21,8 +21,11 @@ aliases:
  - "orbd"
 versions:
  - "3.9.1--1"
+ - "3.12--hdfd78af_1"
+ - "3.11--0"
+ - "3.10.1--0"
 description: "shpc-registry automated BioContainers addition for rtg-tools"
-config: {"url": "https://biocontainers.pro/tools/rtg-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rtg-tools", "latest": {"3.9.1--1": "sha256:01888a19bb14e0379c6c255e03dfdf58cc7dd0fe3a9ca6f774bbb3da9845efb4"}, "tags": {"3.9.1--1": "sha256:01888a19bb14e0379c6c255e03dfdf58cc7dd0fe3a9ca6f774bbb3da9845efb4"}, "docker": "quay.io/biocontainers/rtg-tools", "aliases": {"rtg": "/usr/local/bin/rtg", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/rtg-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rtg-tools", "latest": {"3.12--hdfd78af_1": "sha256:84ad738e6d981bb4dc98be0a2acf23a0aa77333c8905468472265cc5bf06a285"}, "tags": {"3.9.1--1": "sha256:01888a19bb14e0379c6c255e03dfdf58cc7dd0fe3a9ca6f774bbb3da9845efb4", "3.12--hdfd78af_1": "sha256:84ad738e6d981bb4dc98be0a2acf23a0aa77333c8905468472265cc5bf06a285", "3.11--0": "sha256:818636262163d94119c10e1d25ca4eff9d83da7abd856a502fc8454fc64e337d", "3.10.1--0": "sha256:329cce119f03df5163c3d1e0625e89502edfb2e689a7224911cc63721968bca3"}, "docker": "quay.io/biocontainers/rtg-tools", "aliases": {"rtg": "/usr/local/bin/rtg", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rtg-tools.
@@ -37,7 +40,7 @@ $ shpc install quay.io/biocontainers/rtg-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rtg-tools:3.9.1--1
+$ shpc install quay.io/biocontainers/rtg-tools:3.12--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rtg-tools/3.9.1--1
-$ module help quay.io/biocontainers/rtg-tools/3.9.1--1
+$ module load quay.io/biocontainers/rtg-tools/3.12--hdfd78af_1
+$ module help quay.io/biocontainers/rtg-tools/3.12--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

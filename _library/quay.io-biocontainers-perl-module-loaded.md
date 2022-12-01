@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-loaded"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-loaded/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-loaded/container.yaml"
-updated_at: "2022-11-28 04:01:08.812187"
+updated_at: "2022-12-01 02:42:10.811052"
 latest: "0.08--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-module-loaded"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-consensusseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-consensusseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consensusseeker/container.yaml"
-updated_at: "2022-11-28 03:21:35.602251"
+updated_at: "2022-12-01 01:52:39.959669"
 latest: "1.8.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-consensusseeker"
 aliases:

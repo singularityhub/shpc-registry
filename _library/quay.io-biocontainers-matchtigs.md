@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/matchtigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matchtigs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matchtigs/container.yaml"
-updated_at: "2022-11-28 03:31:17.890660"
-latest: "1.2.0--hdfd78af_0"
+updated_at: "2022-12-01 02:04:50.651908"
+latest: "1.5.3--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/matchtigs"
 aliases:
  - "cargo"
@@ -23,8 +23,10 @@ aliases:
  - "rustfmt"
 versions:
  - "1.2.0--hdfd78af_0"
+ - "1.5.3--hec16e2b_0"
+ - "1.3.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for matchtigs"
-config: {"url": "https://biocontainers.pro/tools/matchtigs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for matchtigs", "latest": {"1.2.0--hdfd78af_0": "sha256:f35cc56c7409188e63259484d4f5f9db116c4b808d56d521fcf62ffc67a24647"}, "tags": {"1.2.0--hdfd78af_0": "sha256:f35cc56c7409188e63259484d4f5f9db116c4b808d56d521fcf62ffc67a24647"}, "docker": "quay.io/biocontainers/matchtigs", "aliases": {"cargo": "/usr/local/bin/cargo", "cargo-clippy": "/usr/local/bin/cargo-clippy", "cargo-fmt": "/usr/local/bin/cargo-fmt", "clippy-driver": "/usr/local/bin/clippy-driver", "matchtigs": "/usr/local/bin/matchtigs", "rls": "/usr/local/bin/rls", "rust-demangler": "/usr/local/bin/rust-demangler", "rust-gdb": "/usr/local/bin/rust-gdb", "rust-gdbgui": "/usr/local/bin/rust-gdbgui", "rust-lldb": "/usr/local/bin/rust-lldb", "rustc": "/usr/local/bin/rustc", "rustdoc": "/usr/local/bin/rustdoc", "rustfmt": "/usr/local/bin/rustfmt"}}
+config: {"url": "https://biocontainers.pro/tools/matchtigs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for matchtigs", "latest": {"1.5.3--hec16e2b_0": "sha256:a473015e335da9771d76e5187185fa06dd76fc8ff14fa594dbf0cb7c3a3069df"}, "tags": {"1.2.0--hdfd78af_0": "sha256:f35cc56c7409188e63259484d4f5f9db116c4b808d56d521fcf62ffc67a24647", "1.5.3--hec16e2b_0": "sha256:a473015e335da9771d76e5187185fa06dd76fc8ff14fa594dbf0cb7c3a3069df", "1.3.1--hdfd78af_0": "sha256:a7eec4dc83a5cb18a7547b988510b5bdac3b809ec1f857525a271f9bebc938fa"}, "docker": "quay.io/biocontainers/matchtigs", "aliases": {"cargo": "/usr/local/bin/cargo", "cargo-clippy": "/usr/local/bin/cargo-clippy", "cargo-fmt": "/usr/local/bin/cargo-fmt", "clippy-driver": "/usr/local/bin/clippy-driver", "matchtigs": "/usr/local/bin/matchtigs", "rls": "/usr/local/bin/rls", "rust-demangler": "/usr/local/bin/rust-demangler", "rust-gdb": "/usr/local/bin/rust-gdb", "rust-gdbgui": "/usr/local/bin/rust-gdbgui", "rust-lldb": "/usr/local/bin/rust-lldb", "rustc": "/usr/local/bin/rustc", "rustdoc": "/usr/local/bin/rustdoc", "rustfmt": "/usr/local/bin/rustfmt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/matchtigs.
@@ -39,7 +41,7 @@ $ shpc install quay.io/biocontainers/matchtigs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/matchtigs:1.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/matchtigs:1.5.3--hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/matchtigs/1.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/matchtigs/1.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/matchtigs/1.5.3--hec16e2b_0
+$ module help quay.io/biocontainers/matchtigs/1.5.3--hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

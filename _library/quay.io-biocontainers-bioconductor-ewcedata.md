@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ewcedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ewcedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ewcedata/container.yaml"
-updated_at: "2022-11-28 03:11:29.744204"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2022-12-01 01:40:06.773598"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ewcedata"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ewcedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ewcedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ewcedata", "latest": {"1.2.0--r41hdfd78af_1": "sha256:ae26eb8c3bde8917033c632f4e1b69b591deea96d400746f88ebb32d3cb907a4"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:ae26eb8c3bde8917033c632f4e1b69b591deea96d400746f88ebb32d3cb907a4"}, "docker": "quay.io/biocontainers/bioconductor-ewcedata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ewcedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ewcedata", "latest": {"1.6.0--r42hdfd78af_0": "sha256:9e8050ae54348485dd13c49a4969e49d5eabf744e65acbf123fe6059f298a64b"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:ae26eb8c3bde8917033c632f4e1b69b591deea96d400746f88ebb32d3cb907a4", "1.6.0--r42hdfd78af_0": "sha256:9e8050ae54348485dd13c49a4969e49d5eabf744e65acbf123fe6059f298a64b"}, "docker": "quay.io/biocontainers/bioconductor-ewcedata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ewcedata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ewcedata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ewcedata:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ewcedata:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ewcedata/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ewcedata/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ewcedata/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ewcedata/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

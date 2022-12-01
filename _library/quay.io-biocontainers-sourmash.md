@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sourmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sourmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sourmash/container.yaml"
-updated_at: "2022-11-28 03:34:54.124102"
-latest: "2.0.0a9--py35hfc679d8_0"
+updated_at: "2022-12-01 02:09:21.907769"
+latest: "2.0.0a11--py35hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/sourmash"
 aliases:
  - "abundance-dist-single.py"
@@ -46,8 +46,9 @@ aliases:
  - "qhelpconverter"
 versions:
  - "2.0.0a9--py35hfc679d8_0"
+ - "2.0.0a11--py35hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for sourmash"
-config: {"url": "https://biocontainers.pro/tools/sourmash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sourmash", "latest": {"2.0.0a9--py35hfc679d8_0": "sha256:3b1431a5ef4d7a71ecb85bde2147c400dfc89529a8b06fc8e59a8c8073e11874"}, "tags": {"2.0.0a9--py35hfc679d8_0": "sha256:3b1431a5ef4d7a71ecb85bde2147c400dfc89529a8b06fc8e59a8c8073e11874"}, "docker": "quay.io/biocontainers/sourmash", "aliases": {"abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "count-median.py": "/usr/local/bin/count-median.py", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "fastq-to-fasta.py": "/usr/local/bin/fastq-to-fasta.py", "filter-abund-single.py": "/usr/local/bin/filter-abund-single.py", "filter-abund.py": "/usr/local/bin/filter-abund.py", "filter-stoptags.py": "/usr/local/bin/filter-stoptags.py", "find-knots.py": "/usr/local/bin/find-knots.py", "interleave-reads.py": "/usr/local/bin/interleave-reads.py", "load-graph.py": "/usr/local/bin/load-graph.py", "load-into-counting.py": "/usr/local/bin/load-into-counting.py", "make-initial-stoptags.py": "/usr/local/bin/make-initial-stoptags.py", "merge-partitions.py": "/usr/local/bin/merge-partitions.py", "normalize-by-median.py": "/usr/local/bin/normalize-by-median.py", "partition-graph.py": "/usr/local/bin/partition-graph.py", "readstats.py": "/usr/local/bin/readstats.py", "sample-reads-randomly.py": "/usr/local/bin/sample-reads-randomly.py", "sourmash": "/usr/local/bin/sourmash", "split-paired-reads.py": "/usr/local/bin/split-paired-reads.py", "trim-low-abund.py": "/usr/local/bin/trim-low-abund.py", "unique-kmers.py": "/usr/local/bin/unique-kmers.py", "screed": "/usr/local/bin/screed", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "qhelpconverter": "/usr/local/bin/qhelpconverter"}}
+config: {"url": "https://biocontainers.pro/tools/sourmash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sourmash", "latest": {"2.0.0a11--py35hfc679d8_0": "sha256:61531a5f0f7aabc4bf0807ccd4899d1b66d718e63ae5db378670d68b369f39d0"}, "tags": {"2.0.0a9--py35hfc679d8_0": "sha256:3b1431a5ef4d7a71ecb85bde2147c400dfc89529a8b06fc8e59a8c8073e11874", "2.0.0a11--py35hfc679d8_0": "sha256:61531a5f0f7aabc4bf0807ccd4899d1b66d718e63ae5db378670d68b369f39d0"}, "docker": "quay.io/biocontainers/sourmash", "aliases": {"abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "count-median.py": "/usr/local/bin/count-median.py", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "fastq-to-fasta.py": "/usr/local/bin/fastq-to-fasta.py", "filter-abund-single.py": "/usr/local/bin/filter-abund-single.py", "filter-abund.py": "/usr/local/bin/filter-abund.py", "filter-stoptags.py": "/usr/local/bin/filter-stoptags.py", "find-knots.py": "/usr/local/bin/find-knots.py", "interleave-reads.py": "/usr/local/bin/interleave-reads.py", "load-graph.py": "/usr/local/bin/load-graph.py", "load-into-counting.py": "/usr/local/bin/load-into-counting.py", "make-initial-stoptags.py": "/usr/local/bin/make-initial-stoptags.py", "merge-partitions.py": "/usr/local/bin/merge-partitions.py", "normalize-by-median.py": "/usr/local/bin/normalize-by-median.py", "partition-graph.py": "/usr/local/bin/partition-graph.py", "readstats.py": "/usr/local/bin/readstats.py", "sample-reads-randomly.py": "/usr/local/bin/sample-reads-randomly.py", "sourmash": "/usr/local/bin/sourmash", "split-paired-reads.py": "/usr/local/bin/split-paired-reads.py", "trim-low-abund.py": "/usr/local/bin/trim-low-abund.py", "unique-kmers.py": "/usr/local/bin/unique-kmers.py", "screed": "/usr/local/bin/screed", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "qhelpconverter": "/usr/local/bin/qhelpconverter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sourmash.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/sourmash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sourmash:2.0.0a9--py35hfc679d8_0
+$ shpc install quay.io/biocontainers/sourmash:2.0.0a11--py35hfc679d8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sourmash/2.0.0a9--py35hfc679d8_0
-$ module help quay.io/biocontainers/sourmash/2.0.0a9--py35hfc679d8_0
+$ module load quay.io/biocontainers/sourmash/2.0.0a11--py35hfc679d8_0
+$ module help quay.io/biocontainers/sourmash/2.0.0a11--py35hfc679d8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

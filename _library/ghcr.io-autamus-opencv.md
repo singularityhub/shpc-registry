@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/opencv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/opencv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/opencv/container.yaml"
-updated_at: "2022-11-28 03:07:49.859520"
-latest: "4.5.3"
+updated_at: "2022-12-01 01:35:33.179754"
+latest: "4.6.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/opencv"
 aliases:
  - "opencv_version"
@@ -14,8 +14,9 @@ versions:
  - "4.5.2"
  - "4.5.3"
  - "latest"
+ - "4.6.0"
 description: "OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez."
-config: {"docker": "ghcr.io/autamus/opencv", "url": "https://github.com/orgs/autamus/packages/container/package/opencv", "maintainer": "@vsoch", "description": "OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez.", "latest": {"4.5.3": "sha256:5f21e07ad4a6bb1b9e1832c2498fcf308f71a8fab152b6e01eed63ae3f080389"}, "tags": {"4.5.2": "sha256:587521b8a8446e22d7997d972449430d86603f2cc8fb52519fe5a8224e1cd43a", "4.5.3": "sha256:5f21e07ad4a6bb1b9e1832c2498fcf308f71a8fab152b6e01eed63ae3f080389", "latest": "sha256:587521b8a8446e22d7997d972449430d86603f2cc8fb52519fe5a8224e1cd43a"}, "aliases": {"opencv_version": "/opt/view/bin/opencv_version", "setup_vars_opencv4.sh": "/opt/view/bin/setup_vars_opencv4.sh"}}
+config: {"docker": "ghcr.io/autamus/opencv", "url": "https://github.com/orgs/autamus/packages/container/package/opencv", "maintainer": "@vsoch", "description": "OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez.", "latest": {"4.6.0": "sha256:77d71914da9e8998a0b508f6264511b57f2ba96cd0a9811a9591e43826e4fcd0"}, "tags": {"4.5.2": "sha256:587521b8a8446e22d7997d972449430d86603f2cc8fb52519fe5a8224e1cd43a", "4.5.3": "sha256:5f21e07ad4a6bb1b9e1832c2498fcf308f71a8fab152b6e01eed63ae3f080389", "latest": "sha256:77d71914da9e8998a0b508f6264511b57f2ba96cd0a9811a9591e43826e4fcd0", "4.6.0": "sha256:77d71914da9e8998a0b508f6264511b57f2ba96cd0a9811a9591e43826e4fcd0"}, "aliases": {"opencv_version": "/opt/view/bin/opencv_version", "setup_vars_opencv4.sh": "/opt/view/bin/setup_vars_opencv4.sh"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/opencv.
@@ -30,7 +31,7 @@ $ shpc install ghcr.io/autamus/opencv
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/opencv:4.5.3
+$ shpc install ghcr.io/autamus/opencv:4.6.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/opencv/4.5.3
-$ module help ghcr.io/autamus/opencv/4.5.3
+$ module load ghcr.io/autamus/opencv/4.6.0
+$ module help ghcr.io/autamus/opencv/4.6.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

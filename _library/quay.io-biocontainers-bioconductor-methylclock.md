@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-methylclock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylclock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylclock/container.yaml"
-updated_at: "2022-11-28 03:28:26.152698"
-latest: "1.0.1--r41hc247a5b_1"
+updated_at: "2022-12-01 02:01:14.752452"
+latest: "1.4.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylclock"
 aliases:
  - "git2_cli"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.1--r41hc247a5b_1"
+ - "1.4.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylclock"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylclock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylclock", "latest": {"1.0.1--r41hc247a5b_1": "sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8"}, "tags": {"1.0.1--r41hc247a5b_1": "sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8"}, "docker": "quay.io/biocontainers/bioconductor-methylclock", "aliases": {"git2_cli": "/usr/local/bin/git2_cli", "pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylclock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylclock", "latest": {"1.4.0--r42hc247a5b_0": "sha256:dd8397010dc606fba8ec8fadd0c44d6d3f52775004c4e69a9c99ed64ce6ba8b5"}, "tags": {"1.0.1--r41hc247a5b_1": "sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8", "1.4.0--r42hc247a5b_0": "sha256:dd8397010dc606fba8ec8fadd0c44d6d3f52775004c4e69a9c99ed64ce6ba8b5"}, "docker": "quay.io/biocontainers/bioconductor-methylclock", "aliases": {"git2_cli": "/usr/local/bin/git2_cli", "pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylclock.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylclock
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylclock:1.0.1--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-methylclock:1.4.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylclock/1.0.1--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-methylclock/1.0.1--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-methylclock/1.4.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-methylclock/1.4.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

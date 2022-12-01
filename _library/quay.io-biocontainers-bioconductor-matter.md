@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-matter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matter/container.yaml"
-updated_at: "2022-11-28 03:37:31.871198"
-latest: "1.8.3--r351hf484d3e_0"
+updated_at: "2022-12-01 02:12:39.743825"
+latest: "2.0.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matter"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.3--r351hf484d3e_0"
+ - "2.0.0--r42hc247a5b_0"
+ - "1.20.0--r41hc247a5b_2"
+ - "1.18.0--r41h399db7b_0"
+ - "1.16.0--r40h399db7b_1"
+ - "1.14.0--r40h5f743cb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-matter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-matter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matter", "latest": {"1.8.3--r351hf484d3e_0": "sha256:0b3ddf9b882385e8d4761636250f7eae9b7c2c12b921ab22af7fb014551fd5d8"}, "tags": {"1.8.3--r351hf484d3e_0": "sha256:0b3ddf9b882385e8d4761636250f7eae9b7c2c12b921ab22af7fb014551fd5d8"}, "docker": "quay.io/biocontainers/bioconductor-matter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-matter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matter", "latest": {"2.0.0--r42hc247a5b_0": "sha256:2e8d8dc2a8d6a81784b226aafc8b4411d7e707f8e6f1061979df01c4f50034dc"}, "tags": {"1.8.3--r351hf484d3e_0": "sha256:0b3ddf9b882385e8d4761636250f7eae9b7c2c12b921ab22af7fb014551fd5d8", "2.0.0--r42hc247a5b_0": "sha256:2e8d8dc2a8d6a81784b226aafc8b4411d7e707f8e6f1061979df01c4f50034dc", "1.20.0--r41hc247a5b_2": "sha256:ef5d3b51ecf912b4fe7d10c062f9b6f717f48cc271774da77bb5e066a77bdb70", "1.18.0--r41h399db7b_0": "sha256:477844e7c78a516e8c33ff0804434ba038b4b90478b9331377c2fa40d858ef80", "1.16.0--r40h399db7b_1": "sha256:24926bee2693ec0f482d3446aaf9d35ad5918461ca3042d9c3991ada978e6e83", "1.14.0--r40h5f743cb_0": "sha256:466c01c93e107614a09ce65dcda772db91557db71204f732600c079f20569132"}, "docker": "quay.io/biocontainers/bioconductor-matter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-matter.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-matter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-matter:1.8.3--r351hf484d3e_0
+$ shpc install quay.io/biocontainers/bioconductor-matter:2.0.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-matter/1.8.3--r351hf484d3e_0
-$ module help quay.io/biocontainers/bioconductor-matter/1.8.3--r351hf484d3e_0
+$ module load quay.io/biocontainers/bioconductor-matter/2.0.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-matter/2.0.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

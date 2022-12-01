@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-stepnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stepnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stepnorm/container.yaml"
-updated_at: "2022-11-28 03:34:13.280848"
-latest: "1.66.0--r41hdfd78af_0"
+updated_at: "2022-12-01 02:08:30.685228"
+latest: "1.70.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stepnorm"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
+ - "1.70.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stepnorm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stepnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stepnorm", "latest": {"1.66.0--r41hdfd78af_0": "sha256:93aed3590b31c82bfca249f73a0b9bcae8d10d662f5346965eeddd916a4d9f10"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:93aed3590b31c82bfca249f73a0b9bcae8d10d662f5346965eeddd916a4d9f10"}, "docker": "quay.io/biocontainers/bioconductor-stepnorm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stepnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stepnorm", "latest": {"1.70.0--r42hdfd78af_0": "sha256:71bc23635f19e3185e4351603b30961bbb12868df33c5a257d4e52130509a7d0"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:93aed3590b31c82bfca249f73a0b9bcae8d10d662f5346965eeddd916a4d9f10", "1.70.0--r42hdfd78af_0": "sha256:71bc23635f19e3185e4351603b30961bbb12868df33c5a257d4e52130509a7d0"}, "docker": "quay.io/biocontainers/bioconductor-stepnorm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stepnorm.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stepnorm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stepnorm:1.66.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-stepnorm:1.70.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stepnorm/1.66.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-stepnorm/1.66.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-stepnorm/1.70.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stepnorm/1.70.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

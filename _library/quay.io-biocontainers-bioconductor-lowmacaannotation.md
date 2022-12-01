@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lowmacaannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lowmacaannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lowmacaannotation/container.yaml"
-updated_at: "2022-11-28 03:19:33.720213"
-latest: "0.99.3--r41hdfd78af_9"
+updated_at: "2022-12-01 01:50:06.924793"
+latest: "0.99.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-lowmacaannotation"
 
 versions:
  - "0.99.3--r41hdfd78af_9"
+ - "0.99.3--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-lowmacaannotation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lowmacaannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lowmacaannotation", "latest": {"0.99.3--r41hdfd78af_9": "sha256:dbc4ab06b35d462c65a2be4019c2f51985707801243c33dd3ada3d9714fcf6eb"}, "tags": {"0.99.3--r41hdfd78af_9": "sha256:dbc4ab06b35d462c65a2be4019c2f51985707801243c33dd3ada3d9714fcf6eb"}, "docker": "quay.io/biocontainers/bioconductor-lowmacaannotation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lowmacaannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lowmacaannotation", "latest": {"0.99.3--r42hdfd78af_10": "sha256:017870cb6f905dfa5c455dac48d201d22ecd12d2ef231b8d5f4ce38a3edbe6cf"}, "tags": {"0.99.3--r41hdfd78af_9": "sha256:dbc4ab06b35d462c65a2be4019c2f51985707801243c33dd3ada3d9714fcf6eb", "0.99.3--r42hdfd78af_10": "sha256:017870cb6f905dfa5c455dac48d201d22ecd12d2ef231b8d5f4ce38a3edbe6cf"}, "docker": "quay.io/biocontainers/bioconductor-lowmacaannotation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lowmacaannotation.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lowmacaannotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lowmacaannotation:0.99.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-lowmacaannotation:0.99.3--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lowmacaannotation/0.99.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-lowmacaannotation/0.99.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-lowmacaannotation/0.99.3--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-lowmacaannotation/0.99.3--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

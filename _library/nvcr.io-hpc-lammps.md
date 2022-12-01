@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/lammps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/lammps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/lammps/container.yaml"
-updated_at: "2022-11-28 03:07:22.850935"
+updated_at: "2022-12-01 01:34:59.572642"
 latest: "29Sep2021"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags"
 

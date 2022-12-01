@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rvtests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rvtests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rvtests/container.yaml"
-updated_at: "2022-11-28 03:44:31.340571"
+updated_at: "2022-12-01 02:21:26.125287"
 latest: "2.0.7--h3d151dd_2"
 container_url: "https://biocontainers.pro/tools/rvtests"
 aliases:

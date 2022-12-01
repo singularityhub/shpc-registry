@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lumpy-sv-minimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lumpy-sv-minimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lumpy-sv-minimal/container.yaml"
-updated_at: "2022-11-28 03:09:21.656710"
-latest: "0.3.1--h5ef6573_0"
+updated_at: "2022-12-01 01:37:27.494469"
+latest: "0.3.1--hea94271_1"
 container_url: "https://biocontainers.pro/tools/lumpy-sv-minimal"
 aliases:
  - "lumpy"
@@ -16,8 +16,9 @@ aliases:
  - "tabix"
 versions:
  - "0.3.1--h5ef6573_0"
+ - "0.3.1--hea94271_1"
 description: "shpc-registry automated BioContainers addition for lumpy-sv-minimal"
-config: {"url": "https://biocontainers.pro/tools/lumpy-sv-minimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lumpy-sv-minimal", "latest": {"0.3.1--h5ef6573_0": "sha256:11e86639741d51440c28b755ec3c03b390ea552a4ea590104bc1c695dd60a698"}, "tags": {"0.3.1--h5ef6573_0": "sha256:11e86639741d51440c28b755ec3c03b390ea552a4ea590104bc1c695dd60a698"}, "docker": "quay.io/biocontainers/lumpy-sv-minimal", "aliases": {"lumpy": "/usr/local/bin/lumpy", "lumpy_filter": "/usr/local/bin/lumpy_filter", "lumpyexpress": "/usr/local/bin/lumpyexpress", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/lumpy-sv-minimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lumpy-sv-minimal", "latest": {"0.3.1--hea94271_1": "sha256:229b022eae4cb6ffab7ec8cd271f5da2a4795fa42576f8f3f80d446cc8c20e7c"}, "tags": {"0.3.1--h5ef6573_0": "sha256:11e86639741d51440c28b755ec3c03b390ea552a4ea590104bc1c695dd60a698", "0.3.1--hea94271_1": "sha256:229b022eae4cb6ffab7ec8cd271f5da2a4795fa42576f8f3f80d446cc8c20e7c"}, "docker": "quay.io/biocontainers/lumpy-sv-minimal", "aliases": {"lumpy": "/usr/local/bin/lumpy", "lumpy_filter": "/usr/local/bin/lumpy_filter", "lumpyexpress": "/usr/local/bin/lumpyexpress", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lumpy-sv-minimal.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/lumpy-sv-minimal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lumpy-sv-minimal:0.3.1--h5ef6573_0
+$ shpc install quay.io/biocontainers/lumpy-sv-minimal:0.3.1--hea94271_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lumpy-sv-minimal/0.3.1--h5ef6573_0
-$ module help quay.io/biocontainers/lumpy-sv-minimal/0.3.1--h5ef6573_0
+$ module load quay.io/biocontainers/lumpy-sv-minimal/0.3.1--hea94271_1
+$ module help quay.io/biocontainers/lumpy-sv-minimal/0.3.1--hea94271_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

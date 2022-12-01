@@ -4,16 +4,17 @@ name:  "ghcr.io/autamus/kallisto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/kallisto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/kallisto/container.yaml"
-updated_at: "2022-11-28 03:08:19.705714"
-latest: "0.46.2"
+updated_at: "2022-12-01 01:36:10.384296"
+latest: "0.48.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/kallisto"
 aliases:
  - "kallisto"
 versions:
  - "0.46.2"
  - "latest"
+ - "0.48.0"
 description: "kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads."
-config: {"docker": "ghcr.io/autamus/kallisto", "url": "https://github.com/orgs/autamus/packages/container/package/kallisto", "maintainer": "@vsoch", "description": "kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.", "latest": {"0.46.2": "sha256:fe74aadc99ef7b850861fe476a54bdff56f8c967da9c2d2d589388e016bf5b82"}, "tags": {"0.46.2": "sha256:fe74aadc99ef7b850861fe476a54bdff56f8c967da9c2d2d589388e016bf5b82", "latest": "sha256:fe74aadc99ef7b850861fe476a54bdff56f8c967da9c2d2d589388e016bf5b82"}, "aliases": {"kallisto": "/opt/view/bin/kallisto"}}
+config: {"docker": "ghcr.io/autamus/kallisto", "url": "https://github.com/orgs/autamus/packages/container/package/kallisto", "maintainer": "@vsoch", "description": "kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.", "latest": {"0.48.0": "sha256:beb0e3df874f932cc50ff43151b10253bf2c64d5a5a5ef5d60986d4a72c5df9d"}, "tags": {"0.46.2": "sha256:fe74aadc99ef7b850861fe476a54bdff56f8c967da9c2d2d589388e016bf5b82", "latest": "sha256:beb0e3df874f932cc50ff43151b10253bf2c64d5a5a5ef5d60986d4a72c5df9d", "0.48.0": "sha256:beb0e3df874f932cc50ff43151b10253bf2c64d5a5a5ef5d60986d4a72c5df9d"}, "aliases": {"kallisto": "/opt/view/bin/kallisto"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/kallisto.
@@ -28,7 +29,7 @@ $ shpc install ghcr.io/autamus/kallisto
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/kallisto:0.46.2
+$ shpc install ghcr.io/autamus/kallisto:0.48.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/kallisto/0.46.2
-$ module help ghcr.io/autamus/kallisto/0.46.2
+$ module load ghcr.io/autamus/kallisto/0.48.0
+$ module help ghcr.io/autamus/kallisto/0.48.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

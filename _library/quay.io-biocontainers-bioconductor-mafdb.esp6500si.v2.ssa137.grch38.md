@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38/container.yaml"
-updated_at: "2022-11-28 04:00:42.126001"
-latest: "3.7.0--r36_3"
+updated_at: "2022-12-01 02:41:37.574791"
+latest: "3.10.0--r40_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.grch38"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,9 @@ aliases:
  - "c99"
 versions:
  - "3.7.0--r36_3"
+ - "3.10.0--r40_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.grch38", "latest": {"3.7.0--r36_3": "sha256:3682175fb53994932d34a47b6e64e44c37f4e4115f3a6320c41fc41add60e533"}, "tags": {"3.7.0--r36_3": "sha256:3682175fb53994932d34a47b6e64e44c37f4e4115f3a6320c41fc41add60e533"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.grch38", "latest": {"3.10.0--r40_1": "sha256:a670d37d4a7fcc558164be294523eec05bb4d28d324043512212fe6b39aaf65b"}, "tags": {"3.7.0--r36_3": "sha256:3682175fb53994932d34a47b6e64e44c37f4e4115f3a6320c41fc41add60e533", "3.10.0--r40_1": "sha256:a670d37d4a7fcc558164be294523eec05bb4d28d324043512212fe6b39aaf65b"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38:3.7.0--r36_3
+$ shpc install quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38:3.10.0--r40_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38/3.7.0--r36_3
-$ module help quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38/3.7.0--r36_3
+$ module load quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38/3.10.0--r40_1
+$ module help quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38/3.10.0--r40_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

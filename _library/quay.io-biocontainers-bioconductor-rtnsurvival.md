@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtnsurvival"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtnsurvival/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtnsurvival/container.yaml"
-updated_at: "2022-11-28 03:40:46.962790"
-latest: "1.8.1--r36_0"
+updated_at: "2022-12-01 02:16:44.386996"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtnsurvival"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.1--r36_0"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.1--r40hdfd78af_0"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtnsurvival"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtnsurvival", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtnsurvival", "latest": {"1.8.1--r36_0": "sha256:4528a46653bc246b179c0da80a7fb6c29ac62e3e9a9159104c6b7ec847b2e80c"}, "tags": {"1.8.1--r36_0": "sha256:4528a46653bc246b179c0da80a7fb6c29ac62e3e9a9159104c6b7ec847b2e80c"}, "docker": "quay.io/biocontainers/bioconductor-rtnsurvival", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtnsurvival", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtnsurvival", "latest": {"1.22.0--r42hdfd78af_0": "sha256:ce32421c470302ef8731d5a948b075def76542ea23dd6e38483519c62c48c0f9"}, "tags": {"1.8.1--r36_0": "sha256:4528a46653bc246b179c0da80a7fb6c29ac62e3e9a9159104c6b7ec847b2e80c", "1.22.0--r42hdfd78af_0": "sha256:ce32421c470302ef8731d5a948b075def76542ea23dd6e38483519c62c48c0f9", "1.18.0--r41hdfd78af_0": "sha256:e69d9b0350ea1a4cf6ded544cc320963f0c158b4619666065a058c54dfd98c12", "1.16.0--r41hdfd78af_0": "sha256:991d7f45e569a5bcbd60856b5ecaa4f0888ed0eb68e634605b2b13370ccbd672", "1.14.1--r40hdfd78af_0": "sha256:e72e8238b26a97aaf4f877724a5c95a915835689141d1c058f09b3019bf4082b", "1.12.0--r40_0": "sha256:d36340e45fdf973fcf97bff21e17318ab98987e6db127254eb889b9fdfb116eb"}, "docker": "quay.io/biocontainers/bioconductor-rtnsurvival", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtnsurvival.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtnsurvival
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtnsurvival:1.8.1--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-rtnsurvival:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtnsurvival/1.8.1--r36_0
-$ module help quay.io/biocontainers/bioconductor-rtnsurvival/1.8.1--r36_0
+$ module load quay.io/biocontainers/bioconductor-rtnsurvival/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtnsurvival/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

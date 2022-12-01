@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smoothxg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smoothxg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smoothxg/container.yaml"
-updated_at: "2022-11-28 03:27:06.890974"
+updated_at: "2022-12-01 01:59:35.140678"
 latest: "0.6.7--hfb1f815_1"
 container_url: "https://biocontainers.pro/tools/smoothxg"
 aliases:

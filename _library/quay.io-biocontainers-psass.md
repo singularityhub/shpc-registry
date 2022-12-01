@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psass/container.yaml"
-updated_at: "2022-11-28 03:20:32.634950"
+updated_at: "2022-12-01 01:51:21.151827"
 latest: "3.1.0--h468198e_2"
 container_url: "https://biocontainers.pro/tools/psass"
 aliases:

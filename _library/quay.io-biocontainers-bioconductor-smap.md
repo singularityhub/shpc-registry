@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-smap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smap/container.yaml"
-updated_at: "2022-11-28 03:16:38.627461"
-latest: "1.58.0--r41hc0cfd56_2"
+updated_at: "2022-12-01 01:46:28.159253"
+latest: "1.62.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-smap"
 
 versions:
  - "1.58.0--r41hc0cfd56_2"
+ - "1.62.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-smap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-smap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-smap", "latest": {"1.58.0--r41hc0cfd56_2": "sha256:1384d46caf273511d77051fef7fede290dcaa7178e378d81c8fb9fefd153ddbc"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:1384d46caf273511d77051fef7fede290dcaa7178e378d81c8fb9fefd153ddbc"}, "docker": "quay.io/biocontainers/bioconductor-smap"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-smap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-smap", "latest": {"1.62.0--r42hc0cfd56_0": "sha256:f551e7ec16a6a7009cb0c4ffebfc3558e6024d8f64419d77832f037974bf7173"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:1384d46caf273511d77051fef7fede290dcaa7178e378d81c8fb9fefd153ddbc", "1.62.0--r42hc0cfd56_0": "sha256:f551e7ec16a6a7009cb0c4ffebfc3558e6024d8f64419d77832f037974bf7173"}, "docker": "quay.io/biocontainers/bioconductor-smap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-smap.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-smap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-smap:1.58.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-smap:1.62.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-smap/1.58.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-smap/1.58.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-smap/1.62.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-smap/1.62.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

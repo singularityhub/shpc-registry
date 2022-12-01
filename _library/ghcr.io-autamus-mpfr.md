@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mpfr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mpfr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mpfr/container.yaml"
-updated_at: "2022-11-28 03:07:45.557550"
+updated_at: "2022-12-01 01:35:27.836293"
 latest: "4.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mpfr"
 

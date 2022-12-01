@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/hpc-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/hpc-python/container.yaml"
-updated_at: "2022-11-28 04:04:56.036344"
+updated_at: "2022-12-01 02:46:52.985474"
 latest: "2022.03"
 container_url: "https://quay.io/repository/pawsey/hpc-python"
 aliases:

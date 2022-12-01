@@ -4,7 +4,7 @@ name:  "tensorflow/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/tensorflow/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/tensorflow/tensorflow/container.yaml"
-updated_at: "2022-11-28 03:07:18.941745"
+updated_at: "2022-12-01 01:34:54.709468"
 latest: "2.11.0rc2"
 container_url: "https://hub.docker.com/r/tensorflow/tensorflow"
 aliases:

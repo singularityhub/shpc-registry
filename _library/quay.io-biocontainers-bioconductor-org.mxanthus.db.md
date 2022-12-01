@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-org.mxanthus.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.mxanthus.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.mxanthus.db/container.yaml"
-updated_at: "2022-11-28 03:46:29.032891"
-latest: "1.0.27--r41hdfd78af_6"
+updated_at: "2022-12-01 02:23:53.430590"
+latest: "1.0.27--r42hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.mxanthus.db"
 aliases:
  - "pandoc-server"
  - "pandoc"
 versions:
  - "1.0.27--r41hdfd78af_6"
+ - "1.0.27--r42hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.mxanthus.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.mxanthus.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.mxanthus.db", "latest": {"1.0.27--r41hdfd78af_6": "sha256:1853fc2aa6be57ac505c13a55278ff4c8bf936702229c5362778c2f0d340f086"}, "tags": {"1.0.27--r41hdfd78af_6": "sha256:1853fc2aa6be57ac505c13a55278ff4c8bf936702229c5362778c2f0d340f086"}, "docker": "quay.io/biocontainers/bioconductor-org.mxanthus.db", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.mxanthus.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.mxanthus.db", "latest": {"1.0.27--r42hdfd78af_7": "sha256:0d97864d6739db2183a958e37c4bcf7be4d4ce293e772ec53ad37d1ec71023aa"}, "tags": {"1.0.27--r41hdfd78af_6": "sha256:1853fc2aa6be57ac505c13a55278ff4c8bf936702229c5362778c2f0d340f086", "1.0.27--r42hdfd78af_7": "sha256:0d97864d6739db2183a958e37c4bcf7be4d4ce293e772ec53ad37d1ec71023aa"}, "docker": "quay.io/biocontainers/bioconductor-org.mxanthus.db", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.mxanthus.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-org.mxanthus.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-org.mxanthus.db:1.0.27--r41hdfd78af_6
+$ shpc install quay.io/biocontainers/bioconductor-org.mxanthus.db:1.0.27--r42hdfd78af_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-org.mxanthus.db/1.0.27--r41hdfd78af_6
-$ module help quay.io/biocontainers/bioconductor-org.mxanthus.db/1.0.27--r41hdfd78af_6
+$ module load quay.io/biocontainers/bioconductor-org.mxanthus.db/1.0.27--r42hdfd78af_7
+$ module help quay.io/biocontainers/bioconductor-org.mxanthus.db/1.0.27--r42hdfd78af_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

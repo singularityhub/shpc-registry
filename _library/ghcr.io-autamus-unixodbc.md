@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/unixodbc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/unixodbc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/unixodbc/container.yaml"
-updated_at: "2022-11-28 03:08:15.791323"
+updated_at: "2022-12-01 01:36:05.475338"
 latest: "2.3.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/unixodbc"
 aliases:

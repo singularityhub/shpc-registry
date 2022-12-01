@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-oscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oscope/container.yaml"
-updated_at: "2022-11-28 03:53:56.273565"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-12-01 02:33:12.659938"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oscope"
 aliases:
  - "tclsh8.5"
@@ -14,8 +14,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.28.0--r42hdfd78af_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r40hdfd78af_1"
+ - "1.18.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-oscope"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oscope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oscope", "latest": {"1.8.0--r3.4.1_0": "sha256:341aa36409d095a7af3261d2678acb21e3aac0a32dc97b94eb753c4092c6a1a8"}, "tags": {"1.8.0--r3.4.1_0": "sha256:341aa36409d095a7af3261d2678acb21e3aac0a32dc97b94eb753c4092c6a1a8"}, "docker": "quay.io/biocontainers/bioconductor-oscope", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oscope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oscope", "latest": {"1.28.0--r42hdfd78af_0": "sha256:16163eaa30d74868e23c0c80c59af81c0efe0203cec040adbe698d0816092e6a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:341aa36409d095a7af3261d2678acb21e3aac0a32dc97b94eb753c4092c6a1a8", "1.28.0--r42hdfd78af_0": "sha256:16163eaa30d74868e23c0c80c59af81c0efe0203cec040adbe698d0816092e6a", "1.24.0--r41hdfd78af_0": "sha256:68394d01ff9be85703d852d5bb354023c9c2ffb7992240d6f1c411ae331bd376", "1.22.0--r41hdfd78af_0": "sha256:6847c00cb64114b3c5d1a0ded7b1ecf28924ba90f5d98a7d1c40b84c578f1f53", "1.20.0--r40hdfd78af_1": "sha256:7b56f12cd1c2b89adfa1f8df2ba57440171c72d9eb40c8d38dfd3de1bf3f66f8", "1.18.0--r40_0": "sha256:db691db4bfaaae911fc3d0c3f1d47846726cf373706b7f253b7a636e8544efcf"}, "docker": "quay.io/biocontainers/bioconductor-oscope", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oscope.
@@ -30,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-oscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-oscope:1.8.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-oscope:1.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-oscope/1.8.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-oscope/1.8.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-oscope/1.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-oscope/1.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

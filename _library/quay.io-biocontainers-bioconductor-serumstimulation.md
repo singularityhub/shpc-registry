@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-serumstimulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-serumstimulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-serumstimulation/container.yaml"
-updated_at: "2022-11-28 04:01:09.202082"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-12-01 02:42:11.290700"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-serumstimulation"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-serumstimulation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-serumstimulation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-serumstimulation", "latest": {"1.30.0--r41hdfd78af_1": "sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914"}, "docker": "quay.io/biocontainers/bioconductor-serumstimulation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-serumstimulation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-serumstimulation", "latest": {"1.33.0--r42hdfd78af_0": "sha256:7204c0565c8844e183fedc9e7d4122947f6aa05db6236551c65d83f48d3bf9dd"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914", "1.33.0--r42hdfd78af_0": "sha256:7204c0565c8844e183fedc9e7d4122947f6aa05db6236551c65d83f48d3bf9dd"}, "docker": "quay.io/biocontainers/bioconductor-serumstimulation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-serumstimulation.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-serumstimulation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-serumstimulation:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-serumstimulation:1.33.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-serumstimulation/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-serumstimulation/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-serumstimulation/1.33.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-serumstimulation/1.33.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
