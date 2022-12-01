@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/find_circ
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for find_circ
+latest:
+  1.2--hdfd78af_0: sha256:0e46cf8c9e35df7bd9a662528382f3e228194d880c40bfd717d3c061ed87d500
+tags:
+  1.2--hdfd78af_0: sha256:0e46cf8c9e35df7bd9a662528382f3e228194d880c40bfd717d3c061ed87d500
+docker: quay.io/biocontainers/find_circ
+aliases:
+  cmp_bed.py: /usr/local/bin/cmp_bed.py
+  find_circ.py: /usr/local/bin/find_circ.py
+  maxlength.py: /usr/local/bin/maxlength.py
+  merge_bed.py: /usr/local/bin/merge_bed.py
+  unmapped2anchors.py: /usr/local/bin/unmapped2anchors.py
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  smtpd.py: /usr/local/bin/smtpd.py

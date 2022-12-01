@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/circtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for circtools
+latest:
+  1.2.1--pyh7cba7a3_0: sha256:7317627874031c4c9924d40b76602662a2d400c9ee4c1c626998c287e5e7bd65
+tags:
+  1.2.1--pyh7cba7a3_0: sha256:7317627874031c4c9924d40b76602662a2d400c9ee4c1c626998c287e5e7bd65
+docker: quay.io/biocontainers/circtools
+aliases:
+  DCC: /usr/local/bin/DCC
+  FUCHS: /usr/local/bin/FUCHS
+  circtools: /usr/local/bin/circtools
+  circtools_circtest_wrapper.R: /usr/local/bin/circtools_circtest_wrapper.R
+  circtools_detect_write_skip_tracks.pl: /usr/local/bin/circtools_detect_write_skip_tracks.pl
+  circtools_enrich_visualization.R: /usr/local/bin/circtools_enrich_visualization.R
+  circtools_exon_wrapper.R: /usr/local/bin/circtools_exon_wrapper.R
+  circtools_generate_flanking_introns.py: /usr/local/bin/circtools_generate_flanking_introns.py
+  circtools_generate_intron_gtf.sh: /usr/local/bin/circtools_generate_intron_gtf.sh
+  circtools_merge_enrich_results.sh: /usr/local/bin/circtools_merge_enrich_results.sh
+  circtools_primex_formatter.R: /usr/local/bin/circtools_primex_formatter.R
+  circtools_primex_wrapper.R: /usr/local/bin/circtools_primex_wrapper.R
+  circtools_quickcheck_wrapper.R: /usr/local/bin/circtools_quickcheck_wrapper.R
+  circtools_reconstruct_visualization.R: /usr/local/bin/circtools_reconstruct_visualization.R
+  circtools_sirna_formatter.R: /usr/local/bin/circtools_sirna_formatter.R
+  create_igv_script.py: /usr/local/bin/create_igv_script.py
+  create_igv_script_from_gene_names.py: /usr/local/bin/create_igv_script_from_gene_names.py
+  create_igv_script_from_position_list.py: /usr/local/bin/create_igv_script_from_position_list.py
+  detect_new_exons_from_fuchs_data.py: /usr/local/bin/detect_new_exons_from_fuchs_data.py
+  get_introns_from_ensembl.pl: /usr/local/bin/get_introns_from_ensembl.pl
+  guided_denovo_circle_structure_parallel: /usr/local/bin/guided_denovo_circle_structure_parallel
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  make_coverage_picture.R: /usr/local/bin/make_coverage_picture.R
+  summarized_coverage_profiles.R: /usr/local/bin/summarized_coverage_profiles.R
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
