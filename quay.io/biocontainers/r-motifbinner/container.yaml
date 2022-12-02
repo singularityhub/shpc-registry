@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-motifbinner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-motifbinner
 latest:
-  2.0.0--r41h87f3376_4: sha256:39e936c5c61df4bdd277a6170ab303e07f9ad602a5c6d2c13ac7572b186db362
+  2.0.0--r42h87f3376_5: sha256:6588d623e3d13f12d0d9a9f3c32c2f7b13f9a36e63e73e6a73e6b05c7dd6f216
 tags:
   2.0.0--r41h87f3376_4: sha256:39e936c5c61df4bdd277a6170ab303e07f9ad602a5c6d2c13ac7572b186db362
+  2.0.0--r42h87f3376_5: sha256:6588d623e3d13f12d0d9a9f3c32c2f7b13f9a36e63e73e6a73e6b05c7dd6f216
 docker: quay.io/biocontainers/r-motifbinner
 aliases:
   pandoc: /usr/local/bin/pandoc

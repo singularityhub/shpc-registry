@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-chipxpress
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chipxpress
 latest:
-  1.38.0--r41hdfd78af_0: sha256:3a91a505453cd6a893955913ad0c42994d2f89d13a132aeac690dc241ecf5caf
+  1.42.0--r42hdfd78af_0: sha256:88c347a6acc4102ce0eb2b872d3f8d19962844e38e0ead648924f7b2fe91d180
 tags:
   1.38.0--r41hdfd78af_0: sha256:3a91a505453cd6a893955913ad0c42994d2f89d13a132aeac690dc241ecf5caf
+  1.42.0--r42hdfd78af_0: sha256:88c347a6acc4102ce0eb2b872d3f8d19962844e38e0ead648924f7b2fe91d180
 docker: quay.io/biocontainers/bioconductor-chipxpress

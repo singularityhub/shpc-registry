@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pfp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pfp
 latest:
-  1.2.0--r41hdfd78af_0: sha256:b9876c9f65abed3ed9164fa7bc448807eb1abf890d928348e694e370aa1cf3fc
+  1.6.0--r42hdfd78af_0: sha256:d6abcab2d4ad65fac7c4e80eef507716ac100ef29ed1b92ed376c20a86becad0
 tags:
   1.2.0--r41hdfd78af_0: sha256:b9876c9f65abed3ed9164fa7bc448807eb1abf890d928348e694e370aa1cf3fc
+  1.6.0--r42hdfd78af_0: sha256:d6abcab2d4ad65fac7c4e80eef507716ac100ef29ed1b92ed376c20a86becad0
 docker: quay.io/biocontainers/bioconductor-pfp

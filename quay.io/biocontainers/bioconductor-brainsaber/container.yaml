@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-brainsaber
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-brainsaber
 latest:
-  1.4.0--r41hdfd78af_0: sha256:d98a8bc046a87d2328e6c969ae97dd6c818ab87a48fae7e286530f7c78324eb0
+  1.8.0--r42hdfd78af_0: sha256:910c9d4b7710326dd329fc9d6afd1fb0a04c52039131c0a105a1d6d03661571b
 tags:
   1.4.0--r41hdfd78af_0: sha256:d98a8bc046a87d2328e6c969ae97dd6c818ab87a48fae7e286530f7c78324eb0
+  1.8.0--r42hdfd78af_0: sha256:910c9d4b7710326dd329fc9d6afd1fb0a04c52039131c0a105a1d6d03661571b
 docker: quay.io/biocontainers/bioconductor-brainsaber

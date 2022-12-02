@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-meshdbi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-meshdbi
 latest:
-  1.30.0--r41hdfd78af_0: sha256:8248de8815ee7421bab1879701dfb9a0c7f22a69551820f7c60339ac037a0b92
+  1.34.0--r42hdfd78af_0: sha256:9500bafabaa9d9acb500264959175715304c39fce0ff40362c7ce20ff70854c7
 tags:
   1.30.0--r41hdfd78af_0: sha256:8248de8815ee7421bab1879701dfb9a0c7f22a69551820f7c60339ac037a0b92
+  1.34.0--r42hdfd78af_0: sha256:9500bafabaa9d9acb500264959175715304c39fce0ff40362c7ce20ff70854c7
 docker: quay.io/biocontainers/bioconductor-meshdbi

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-targetsearch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-targetsearch
 latest:
-  1.50.1--r41hc0cfd56_1: sha256:030f627cdc84a6349e1a7cc56810f259f559c52858aca99aee1cfdfa766f0d00
+  2.0.0--r42hc0cfd56_0: sha256:245f206a795316a3f7378813f463d10de0b4f48e1d822c264152c813ba16a3e2
 tags:
   1.50.1--r41hc0cfd56_1: sha256:030f627cdc84a6349e1a7cc56810f259f559c52858aca99aee1cfdfa766f0d00
+  2.0.0--r42hc0cfd56_0: sha256:245f206a795316a3f7378813f463d10de0b4f48e1d822c264152c813ba16a3e2
 docker: quay.io/biocontainers/bioconductor-targetsearch
 aliases:
   zipcmp: /usr/local/bin/zipcmp

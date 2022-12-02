@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-profia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-profia
 latest:
-  1.20.0--r41hc0cfd56_2: sha256:35e344290c5c79874afafe9287d91884b6b165fd73e3459d78701c84d065dbe5
+  1.23.0--r42hc0cfd56_0: sha256:bcbb14f2581178ccef50638879bf540667586688b267f52a1d10d0108255e542
 tags:
   1.8.1--r351h14c3975_0: sha256:c528818a2a6872f2fd7b17f6e056d49ac225b6f2a25f74af7f819ae879a024d2
   1.20.0--r41hc0cfd56_2: sha256:35e344290c5c79874afafe9287d91884b6b165fd73e3459d78701c84d065dbe5
@@ -10,6 +10,7 @@ tags:
   1.16.3--r40hd029910_0: sha256:cf153e4fd2e8e94f89dd3a0c9a3fbe1fb5e23f7b24325080a460de3104f8680d
   1.15.0--r40h037d062_0: sha256:5dea3f4224a6182a4ebebd86a099dcd158554368ac9dc2d4867f0258be0da6db
   1.14.0--r40h037d062_0: sha256:932d35b24caf31461f63b015891c7e3637192c07a6d7c8250c411e5cb2dc2bf6
+  1.23.0--r42hc0cfd56_0: sha256:bcbb14f2581178ccef50638879bf540667586688b267f52a1d10d0108255e542
 docker: quay.io/biocontainers/bioconductor-profia
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

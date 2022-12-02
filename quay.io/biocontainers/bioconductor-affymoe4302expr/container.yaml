@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-affymoe4302expr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-affymoe4302expr
 latest:
-  1.32.0--r41hdfd78af_1: sha256:284f98c1ec3486b18351f6b44882519e491f54bed75dff57e57a78c24b2f4836
+  1.35.0--r42hdfd78af_0: sha256:b2d6fe3d35e5065875003ba7f9549bbbdf01feda54eaa9c8300a8f4caff3389d
 tags:
   1.32.0--r41hdfd78af_1: sha256:284f98c1ec3486b18351f6b44882519e491f54bed75dff57e57a78c24b2f4836
+  1.35.0--r42hdfd78af_0: sha256:b2d6fe3d35e5065875003ba7f9549bbbdf01feda54eaa9c8300a8f4caff3389d
 docker: quay.io/biocontainers/bioconductor-affymoe4302expr

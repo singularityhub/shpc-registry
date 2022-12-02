@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-stringdb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-stringdb
 latest:
-  2.6.0--r41hdfd78af_0: sha256:a76f257aa8c88cb54a57f72062f812a3fd0d5ad1bd3c727c3650e4b9a85f0cc5
+  2.10.0--r42hdfd78af_0: sha256:aff2254bc480fa947e6499a64fb8e5fc9281b643ca799da33773cf6c2db71c9c
 tags:
   2.6.0--r41hdfd78af_0: sha256:a76f257aa8c88cb54a57f72062f812a3fd0d5ad1bd3c727c3650e4b9a85f0cc5
+  2.10.0--r42hdfd78af_0: sha256:aff2254bc480fa947e6499a64fb8e5fc9281b643ca799da33773cf6c2db71c9c
 docker: quay.io/biocontainers/bioconductor-stringdb

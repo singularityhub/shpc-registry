@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rtcga.rppa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtcga.rppa
 latest:
-  1.22.0--r41hdfd78af_1: sha256:e931e8c346264f818bb10e2460dd44173b9fa649e1c7085f93c06283343b7f92
+  1.25.0--r42hdfd78af_0: sha256:fcedc88985c93aa2e06b2991e4b481b25f09d7ab94730980ffb0f871ff14f535
 tags:
   1.22.0--r41hdfd78af_1: sha256:e931e8c346264f818bb10e2460dd44173b9fa649e1c7085f93c06283343b7f92
+  1.25.0--r42hdfd78af_0: sha256:fcedc88985c93aa2e06b2991e4b481b25f09d7ab94730980ffb0f871ff14f535
 docker: quay.io/biocontainers/bioconductor-rtcga.rppa
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-maanova
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-maanova
 latest:
-  1.64.0--r41hc0cfd56_2: sha256:a9c06bea9e2d63dc496ea56c686a5ef677a6b9045adfc2ce0fecc7bb3b61a590
+  1.68.0--r42hc0cfd56_0: sha256:5a168ab4319637b67b9a66d356b60b7a0816e5a2e58017d7156c9a1930fcd210
 tags:
   1.64.0--r41hc0cfd56_2: sha256:a9c06bea9e2d63dc496ea56c686a5ef677a6b9045adfc2ce0fecc7bb3b61a590
+  1.68.0--r42hc0cfd56_0: sha256:5a168ab4319637b67b9a66d356b60b7a0816e5a2e58017d7156c9a1930fcd210
 docker: quay.io/biocontainers/bioconductor-maanova

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-bovineprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bovineprobe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:2a0680889afab42224c58004981fc6345b9e2a0a0bad92d8d5bafefb8282acb2
+  2.18.0--r42hdfd78af_10: sha256:ce617bb12b7d900819e755de250abcb80bf313228d903f26526d254b294ae7b9
 tags:
   2.18.0--r41hdfd78af_9: sha256:2a0680889afab42224c58004981fc6345b9e2a0a0bad92d8d5bafefb8282acb2
+  2.18.0--r42hdfd78af_10: sha256:ce617bb12b7d900819e755de250abcb80bf313228d903f26526d254b294ae7b9
 docker: quay.io/biocontainers/bioconductor-bovineprobe

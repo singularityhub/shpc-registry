@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-veloviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-veloviz
 latest:
-  1.0.0--r41hc247a5b_2: sha256:773acab824a6e8f966c76cb7fc8bf53447ce7a1ab6f0238dab0ad54bc49a33b7
+  1.4.0--r42hc247a5b_0: sha256:893f3de9188cbf1f68515bfa7d6e088bdcbbdfc86c3b6f2ff4811444c8ed2aaa
 tags:
   1.0.0--r41hc247a5b_2: sha256:773acab824a6e8f966c76cb7fc8bf53447ce7a1ab6f0238dab0ad54bc49a33b7
+  1.4.0--r42hc247a5b_0: sha256:893f3de9188cbf1f68515bfa7d6e088bdcbbdfc86c3b6f2ff4811444c8ed2aaa
 docker: quay.io/biocontainers/bioconductor-veloviz
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-midashla
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-midashla
 latest:
-  1.2.0--r41hdfd78af_0: sha256:bb09bba92e2f7ff0d0f569626d6b9f4144c9fa26efa1e7a5216385606e61566a
+  1.6.0--r42hdfd78af_0: sha256:ac5fe44e45fd1e99c7d77f85a6abe61110cb01fcd13b3555c1ef0727785cedfe
 tags:
   1.2.0--r41hdfd78af_0: sha256:bb09bba92e2f7ff0d0f569626d6b9f4144c9fa26efa1e7a5216385606e61566a
+  1.6.0--r42hdfd78af_0: sha256:ac5fe44e45fd1e99c7d77f85a6abe61110cb01fcd13b3555c1ef0727785cedfe
 docker: quay.io/biocontainers/bioconductor-midashla
 aliases:
   pandoc: /usr/local/bin/pandoc

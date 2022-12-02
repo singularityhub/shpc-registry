@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-splicingfactory
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-splicingfactory
 latest:
-  1.2.0--r41hdfd78af_0: sha256:22d5b3e37ad08070b1bb355dd341198ccdbe151ef4a676524ad0bd951662a97c
+  1.6.0--r42hdfd78af_0: sha256:bcc0747e6f194d742201253642ae5f1fa9d90751d019e1a8f3aeb9bbcf0cf564
 tags:
   1.2.0--r41hdfd78af_0: sha256:22d5b3e37ad08070b1bb355dd341198ccdbe151ef4a676524ad0bd951662a97c
+  1.6.0--r42hdfd78af_0: sha256:bcc0747e6f194d742201253642ae5f1fa9d90751d019e1a8f3aeb9bbcf0cf564
 docker: quay.io/biocontainers/bioconductor-splicingfactory

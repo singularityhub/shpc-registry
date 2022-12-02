@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-moe430acdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-moe430acdf
 latest:
-  2.18.0--r41hdfd78af_10: sha256:2f3dc7e127400c807c13d1ee78bec8f9ab478794f326f7bbe4ff82e18a87d9c6
+  2.18.0--r42hdfd78af_11: sha256:ad4f41317db4a16fcda0d28296824b9a3725b88e77145bf6faf980f1bcd3314a
 tags:
   2.18.0--r41hdfd78af_9: sha256:72f94eaf567a19d0a90f0bc591d75c1835b8a3caa700d31780d360491638ad2d
   2.18.0--r41hdfd78af_10: sha256:2f3dc7e127400c807c13d1ee78bec8f9ab478794f326f7bbe4ff82e18a87d9c6
+  2.18.0--r42hdfd78af_11: sha256:ad4f41317db4a16fcda0d28296824b9a3725b88e77145bf6faf980f1bcd3314a
 docker: quay.io/biocontainers/bioconductor-moe430acdf

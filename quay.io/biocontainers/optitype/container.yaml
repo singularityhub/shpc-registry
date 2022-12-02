@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/optitype
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for optitype
 latest:
-  1.3.5--hdfd78af_1: sha256:92d9b78538911d2faba7f2ae85bdc68cc80806758fd13e468b56764e0a63beb4
+  1.3.5--hdfd78af_2: sha256:ed4389ce509f14c7b12c46184fd5a193e5472898d357b172b2dc326c3ab33e39
 tags:
   1.3.5--hdfd78af_1: sha256:92d9b78538911d2faba7f2ae85bdc68cc80806758fd13e468b56764e0a63beb4
+  1.3.5--hdfd78af_2: sha256:ed4389ce509f14c7b12c46184fd5a193e5472898d357b172b2dc326c3ab33e39
 docker: quay.io/biocontainers/optitype
 aliases:
   OSSolverService: /usr/local/bin/OSSolverService

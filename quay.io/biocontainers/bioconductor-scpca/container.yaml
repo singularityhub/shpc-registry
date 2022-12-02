@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-scpca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scpca
 latest:
-  1.8.0--r41hdfd78af_0: sha256:a73c20cdf3ca1c6da8709eb9a5695238b6dff0a5f48e2732bc76ff9057e71db3
+  1.12.0--r42hdfd78af_0: sha256:881e0be5fb555af678c380dc62e50158f6dfc8c19dd1adc14fb165bf9316ba20
 tags:
   1.8.0--r41hdfd78af_0: sha256:a73c20cdf3ca1c6da8709eb9a5695238b6dff0a5f48e2732bc76ff9057e71db3
+  1.12.0--r42hdfd78af_0: sha256:881e0be5fb555af678c380dc62e50158f6dfc8c19dd1adc14fb165bf9316ba20
 docker: quay.io/biocontainers/bioconductor-scpca
