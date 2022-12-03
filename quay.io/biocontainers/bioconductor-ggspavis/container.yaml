@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ggspavis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ggspavis
 latest:
-  1.0.0--r41hdfd78af_0: sha256:e727994d062f2b42a8e95dd154a7113415e708db084425fd44c86b359d912c02
+  1.4.0--r42hdfd78af_0: sha256:01b7aec1a9955992be9cf5c634c444d5b8c23d19d9858030d23e5aaf5bd49a8e
 tags:
   1.0.0--r41hdfd78af_0: sha256:e727994d062f2b42a8e95dd154a7113415e708db084425fd44c86b359d912c02
+  1.4.0--r42hdfd78af_0: sha256:01b7aec1a9955992be9cf5c634c444d5b8c23d19d9858030d23e5aaf5bd49a8e
 docker: quay.io/biocontainers/bioconductor-ggspavis
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gage
 latest:
-  2.44.0--r41hdfd78af_0: sha256:0a2558bb748ae2e2de215ba08672c195cbf7879339c884440b191b74823d2e46
+  2.48.0--r42hdfd78af_0: sha256:bd2e963c1b5fe48ee04991fddd191fcb7d78ea82c0e3ade9cab14441e222c1e1
 tags:
   2.44.0--r41hdfd78af_0: sha256:0a2558bb748ae2e2de215ba08672c195cbf7879339c884440b191b74823d2e46
+  2.48.0--r42hdfd78af_0: sha256:bd2e963c1b5fe48ee04991fddd191fcb7d78ea82c0e3ade9cab14441e222c1e1
 docker: quay.io/biocontainers/bioconductor-gage

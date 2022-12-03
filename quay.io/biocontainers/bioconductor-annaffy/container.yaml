@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-annaffy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-annaffy
 latest:
-  1.66.0--r41hdfd78af_0: sha256:51e06e818cb194e9d049f0165266217da7e2f0ec9e8cd2ea97c430b282708eb6
+  1.70.0--r42hdfd78af_0: sha256:3f614fe39298f3a873ce71f23806b2bcc57b3560d8f958ac011808ecd9716d74
 tags:
   1.66.0--r41hdfd78af_0: sha256:51e06e818cb194e9d049f0165266217da7e2f0ec9e8cd2ea97c430b282708eb6
+  1.70.0--r42hdfd78af_0: sha256:3f614fe39298f3a873ce71f23806b2bcc57b3560d8f958ac011808ecd9716d74
 docker: quay.io/biocontainers/bioconductor-annaffy

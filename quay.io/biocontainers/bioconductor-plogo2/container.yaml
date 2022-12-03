@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-plogo2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-plogo2
 latest:
-  1.6.0--r41hdfd78af_0: sha256:3e7cfcad2577b53ddd7d282434d08fde294bb43e1e37ee445656333dc1bcd60c
+  1.10.0--r42hdfd78af_0: sha256:fa2a56103c954d7cda2295c1ac470d7c54f0d671f5fbd6ca94e838c321c902e1
 tags:
   1.6.0--r41hdfd78af_0: sha256:3e7cfcad2577b53ddd7d282434d08fde294bb43e1e37ee445656333dc1bcd60c
+  1.10.0--r42hdfd78af_0: sha256:fa2a56103c954d7cda2295c1ac470d7c54f0d671f5fbd6ca94e838c321c902e1
 docker: quay.io/biocontainers/bioconductor-plogo2

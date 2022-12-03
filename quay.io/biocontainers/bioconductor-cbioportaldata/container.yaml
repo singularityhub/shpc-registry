@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cbioportaldata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cbioportaldata
 latest:
-  2.6.0--r41hdfd78af_0: sha256:56f3b30c2cbdf566b7708b99b3f021f9711f596851e14423091555b1499049c1
+  2.10.0--r42hdfd78af_0: sha256:9d98f19995f99ca2ae664348799429e1888da1b2fc64bc0d34451e3046f85f43
 tags:
   2.6.0--r41hdfd78af_0: sha256:56f3b30c2cbdf566b7708b99b3f021f9711f596851e14423091555b1499049c1
+  2.10.0--r42hdfd78af_0: sha256:9d98f19995f99ca2ae664348799429e1888da1b2fc64bc0d34451e3046f85f43
 docker: quay.io/biocontainers/bioconductor-cbioportaldata

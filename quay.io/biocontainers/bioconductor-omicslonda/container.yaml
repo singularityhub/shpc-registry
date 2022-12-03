@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-omicslonda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-omicslonda
 latest:
-  1.10.0--r41hdfd78af_0: sha256:846b9b5eee2676cc773c62d361251339cb6fbbe13d1c28b2e9ab5170fa90ac04
+  1.14.0--r42hdfd78af_0: sha256:d6ab4ec1369af5e6f2e47ef37d843b8fe6a1147f40a628cb4d36230925cc979b
 tags:
   1.8.0--r41hdfd78af_0: sha256:5578e5c11ee8154322bffce98db16c92b327da2bea0784c429f944d3d5d2792c
   1.10.0--r41hdfd78af_0: sha256:846b9b5eee2676cc773c62d361251339cb6fbbe13d1c28b2e9ab5170fa90ac04
+  1.14.0--r42hdfd78af_0: sha256:d6ab4ec1369af5e6f2e47ef37d843b8fe6a1147f40a628cb4d36230925cc979b
 docker: quay.io/biocontainers/bioconductor-omicslonda
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

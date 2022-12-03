@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-orqa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-orqa
 latest:
-  0.2.1--r41hecf12ef_7: sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc
+  0.2.1--r42hecf12ef_8: sha256:6694ffb52109816c4f604690d8fcbb71163d49dbc7bd619bc9f090d7f2b879dd
 tags:
   0.2.1--r41hecf12ef_7: sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc
+  0.2.1--r42hecf12ef_8: sha256:6694ffb52109816c4f604690d8fcbb71163d49dbc7bd619bc9f090d7f2b879dd
 docker: quay.io/biocontainers/r-orqa

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-tcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-tcr
 latest:
-  2.3.2--r41hecf12ef_3: sha256:4829ab11db22d5d3eab1fb791552355fe50ab4fe854d54802376889ab98c9502
+  2.3.2--r42hecf12ef_4: sha256:aafb0f622d3b438d931ba3ea705c95a42982b247609c43bd1d778f3cc81f2385
 tags:
   2.3.2--r41hecf12ef_3: sha256:4829ab11db22d5d3eab1fb791552355fe50ab4fe854d54802376889ab98c9502
+  2.3.2--r42hecf12ef_4: sha256:aafb0f622d3b438d931ba3ea705c95a42982b247609c43bd1d778f3cc81f2385
 docker: quay.io/biocontainers/r-tcr

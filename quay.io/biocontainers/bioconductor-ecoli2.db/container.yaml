@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ecoli2.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ecoli2.db
 latest:
-  3.13.0--r41hdfd78af_1: sha256:6067fecb3110eb9e76bcb9b8bd0148319cef1d79e2d0af3b0c057017fff4d6c8
+  3.13.0--r42hdfd78af_2: sha256:9bd0822a69ccf45802be4d228c9d9af6200ad0fee5a207cb4da8ff0b9cc13101
 tags:
   3.2.3--r41hdfd78af_7: sha256:2b301fca27e2e30311e04769855445a241c1bb21276331f19558848271cca733
   3.13.0--r41hdfd78af_1: sha256:6067fecb3110eb9e76bcb9b8bd0148319cef1d79e2d0af3b0c057017fff4d6c8
+  3.13.0--r42hdfd78af_2: sha256:9bd0822a69ccf45802be4d228c9d9af6200ad0fee5a207cb4da8ff0b9cc13101
 docker: quay.io/biocontainers/bioconductor-ecoli2.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

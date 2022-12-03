@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-liquidassociation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-liquidassociation
 latest:
-  1.48.0--r41hdfd78af_0: sha256:26e2244fea75d1b51d36f0fd1865869aa02d753247b6e50ed62a8d10bdccc6af
+  1.52.0--r42hdfd78af_0: sha256:ed8d8e94fb8077e67bfb657f953ead3a17b14973047353c1f6e1efc53ec9a7c1
 tags:
   1.48.0--r41hdfd78af_0: sha256:26e2244fea75d1b51d36f0fd1865869aa02d753247b6e50ed62a8d10bdccc6af
+  1.52.0--r42hdfd78af_0: sha256:ed8d8e94fb8077e67bfb657f953ead3a17b14973047353c1f6e1efc53ec9a7c1
 docker: quay.io/biocontainers/bioconductor-liquidassociation
