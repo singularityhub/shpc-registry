@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-dgeclustering
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-dgeclustering
 latest:
-  0.1.0--r41h9ee0642_3: sha256:020e9b02c94baf801be9f2ac0b9638491aa791619d3e04dbab933691f2455a41
+  0.1.0--r42h9ee0642_4: sha256:ff0ead51a414f413793d70b24d9fe247d585b5f655919c3a0394fb94c3a67d71
 tags:
   0.1.0--r41h9ee0642_3: sha256:020e9b02c94baf801be9f2ac0b9638491aa791619d3e04dbab933691f2455a41
+  0.1.0--r42h9ee0642_4: sha256:ff0ead51a414f413793d70b24d9fe247d585b5f655919c3a0394fb94c3a67d71
 docker: quay.io/biocontainers/r-dgeclustering
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

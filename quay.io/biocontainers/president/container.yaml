@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/president
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for president
 latest:
-  0.6.6--pyhdfd78af_0: sha256:809f1458d6abd74bd894126fa6a4708cceaa27fcb07c5809f1956e98d9f06913
+  0.6.8--pyhdfd78af_0: sha256:ecfb68195836fe115b0ff21f7bb0f9fe28830934f61a90ba44a9d52bdb328aff
 tags:
   0.6.6--pyhdfd78af_0: sha256:809f1458d6abd74bd894126fa6a4708cceaa27fcb07c5809f1956e98d9f06913
+  0.6.8--pyhdfd78af_0: sha256:ecfb68195836fe115b0ff21f7bb0f9fe28830934f61a90ba44a9d52bdb328aff
 docker: quay.io/biocontainers/president
 aliases:
   pblat: /usr/local/bin/pblat

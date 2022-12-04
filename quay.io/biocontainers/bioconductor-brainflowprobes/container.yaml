@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-brainflowprobes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-brainflowprobes
 latest:
-  1.8.0--r41hdfd78af_0: sha256:23557130ada74541b9dd4c594624e992b389086dc709a9f0a8d877db8d6d7341
+  1.12.0--r42hdfd78af_0: sha256:e32273991629c92d4f369fa220ac06468f7d73430b150bd3c807a90c9af01a6e
 tags:
   1.8.0--r41hdfd78af_0: sha256:23557130ada74541b9dd4c594624e992b389086dc709a9f0a8d877db8d6d7341
+  1.12.0--r42hdfd78af_0: sha256:e32273991629c92d4f369fa220ac06468f7d73430b150bd3c807a90c9af01a6e
 docker: quay.io/biocontainers/bioconductor-brainflowprobes

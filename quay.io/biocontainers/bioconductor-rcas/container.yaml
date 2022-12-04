@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rcas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcas
 latest:
-  1.20.0--r41hdfd78af_0: sha256:b8f2f565da0b996b32f36fd721b72e1bc7fd44f3a847fa01aae052566c838afd
+  1.24.0--r42hdfd78af_0: sha256:0327f0287994001f2c0bfc5a36d2d8596c59412dcbc76a402273b0b9d12da322
 tags:
   1.8.0--r351_0: sha256:468fb28a68bc4d4c90c3b85616b75f65b45f52b561eedd4f65096bb65fe99575
   1.20.0--r41hdfd78af_0: sha256:b8f2f565da0b996b32f36fd721b72e1bc7fd44f3a847fa01aae052566c838afd
@@ -10,6 +10,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:1a8f153e38287d92bde2bf2354f85a2250687bd4232da97f3894a3da944f03bd
   1.14.0--r40_0: sha256:96bbfb83cf70d1c2e96aefd21bcece8c38ca44ccbb469fd7ce8a64a3335ae4f0
   1.12.0--r36_0: sha256:08fdd359220d7b6fbed4e67ed8e4b659d2af31869bd6837aefcc629ef1cb2635
+  1.24.0--r42hdfd78af_0: sha256:0327f0287994001f2c0bfc5a36d2d8596c59412dcbc76a402273b0b9d12da322
 docker: quay.io/biocontainers/bioconductor-rcas
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

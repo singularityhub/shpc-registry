@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-indac.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-indac.db
 latest:
-  3.2.3--r41hdfd78af_9: sha256:7b5422bed32c3aacb02169bead5c7efd1f657d0735a196a4ae48bf9208e834ee
+  3.2.3--r42hdfd78af_10: sha256:b24dc097c3597e2e4bfc3e57c3f25829cf7f32b686b9f7496bba3193e3954cc1
 tags:
   3.2.3--r41hdfd78af_9: sha256:7b5422bed32c3aacb02169bead5c7efd1f657d0735a196a4ae48bf9208e834ee
+  3.2.3--r42hdfd78af_10: sha256:b24dc097c3597e2e4bfc3e57c3f25829cf7f32b686b9f7496bba3193e3954cc1
 docker: quay.io/biocontainers/bioconductor-indac.db

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-precisetadhub
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-precisetadhub
 latest:
-  1.2.0--r41hdfd78af_1: sha256:8c0355ed0fd22c142a09917f356971fa1e2aea4faa42be9e5af57e2de105cd4d
+  1.6.0--r42hdfd78af_0: sha256:3b60e31bd701c6b1bb14bce59016d09d904031df76c93d4951c4cab3a67efbeb
 tags:
   1.2.0--r41hdfd78af_1: sha256:8c0355ed0fd22c142a09917f356971fa1e2aea4faa42be9e5af57e2de105cd4d
+  1.6.0--r42hdfd78af_0: sha256:3b60e31bd701c6b1bb14bce59016d09d904031df76c93d4951c4cab3a67efbeb
 docker: quay.io/biocontainers/bioconductor-precisetadhub
