@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-watermelon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-watermelon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-watermelon/container.yaml"
-updated_at: "2022-12-01 02:25:03.566894"
-latest: "2.0.0--r41hdfd78af_1"
+updated_at: "2022-12-05 03:45:54.391454"
+latest: "2.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-watermelon"
 
 versions:
  - "2.0.0--r41hdfd78af_1"
+ - "2.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-watermelon"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-watermelon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-watermelon", "latest": {"2.0.0--r41hdfd78af_1": "sha256:8cd446f01cf4f015d8822de8b51739c75937ea17f93b35070f9a39e09221f808"}, "tags": {"2.0.0--r41hdfd78af_1": "sha256:8cd446f01cf4f015d8822de8b51739c75937ea17f93b35070f9a39e09221f808"}, "docker": "quay.io/biocontainers/bioconductor-watermelon"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-watermelon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-watermelon", "latest": {"2.4.0--r42hdfd78af_0": "sha256:c18179554ed60893414fc992959e4f44fa8b469d7ec2317fc9bf439f9eff882e"}, "tags": {"2.0.0--r41hdfd78af_1": "sha256:8cd446f01cf4f015d8822de8b51739c75937ea17f93b35070f9a39e09221f808", "2.4.0--r42hdfd78af_0": "sha256:c18179554ed60893414fc992959e4f44fa8b469d7ec2317fc9bf439f9eff882e"}, "docker": "quay.io/biocontainers/bioconductor-watermelon"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-watermelon.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-watermelon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-watermelon:2.0.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-watermelon:2.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-watermelon/2.0.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-watermelon/2.0.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-watermelon/2.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-watermelon/2.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

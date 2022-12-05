@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cbioportaldata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbioportaldata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbioportaldata/container.yaml"
-updated_at: "2022-12-01 02:00:14.667623"
-latest: "2.6.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:17:54.393255"
+latest: "2.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbioportaldata"
 
 versions:
  - "2.6.0--r41hdfd78af_0"
+ - "2.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cbioportaldata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cbioportaldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbioportaldata", "latest": {"2.6.0--r41hdfd78af_0": "sha256:56f3b30c2cbdf566b7708b99b3f021f9711f596851e14423091555b1499049c1"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:56f3b30c2cbdf566b7708b99b3f021f9711f596851e14423091555b1499049c1"}, "docker": "quay.io/biocontainers/bioconductor-cbioportaldata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cbioportaldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbioportaldata", "latest": {"2.10.0--r42hdfd78af_0": "sha256:9d98f19995f99ca2ae664348799429e1888da1b2fc64bc0d34451e3046f85f43"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:56f3b30c2cbdf566b7708b99b3f021f9711f596851e14423091555b1499049c1", "2.10.0--r42hdfd78af_0": "sha256:9d98f19995f99ca2ae664348799429e1888da1b2fc64bc0d34451e3046f85f43"}, "docker": "quay.io/biocontainers/bioconductor-cbioportaldata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cbioportaldata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cbioportaldata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cbioportaldata:2.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cbioportaldata:2.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cbioportaldata/2.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cbioportaldata/2.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cbioportaldata/2.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cbioportaldata/2.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

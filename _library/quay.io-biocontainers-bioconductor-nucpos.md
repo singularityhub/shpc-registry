@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nucpos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nucpos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nucpos/container.yaml"
-updated_at: "2022-12-01 02:16:07.582909"
-latest: "1.12.0--r41hefde4a7_2"
+updated_at: "2022-12-05 03:35:44.277942"
+latest: "1.16.0--r42hefde4a7_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nucpos"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r40hacda110_1"
  - "1.12.0--r41hefde4a7_2"
  - "1.10.0--r41hacda110_0"
+ - "1.16.0--r42hefde4a7_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nucpos"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nucpos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nucpos", "latest": {"1.12.0--r41hefde4a7_2": "sha256:f321ee951faf449d88f7eda042cbc1315611a9d81fe62a2885c7e8fa52a9f0fb"}, "tags": {"1.8.0--r40hacda110_1": "sha256:f55553a618f780793b4bb5aa0e74a1f98f348508f8e899fdfc277613ff44f562", "1.12.0--r41hefde4a7_2": "sha256:f321ee951faf449d88f7eda042cbc1315611a9d81fe62a2885c7e8fa52a9f0fb", "1.10.0--r41hacda110_0": "sha256:82922799f259227eee3600d4cdcc074e059ca4286e0b88ea63412128d829616f"}, "docker": "quay.io/biocontainers/bioconductor-nucpos", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nucpos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nucpos", "latest": {"1.16.0--r42hefde4a7_0": "sha256:922a2425d0f7dfb62c82ae41121354e3b6a3196575975fd4be39a32f93f82015"}, "tags": {"1.8.0--r40hacda110_1": "sha256:f55553a618f780793b4bb5aa0e74a1f98f348508f8e899fdfc277613ff44f562", "1.12.0--r41hefde4a7_2": "sha256:f321ee951faf449d88f7eda042cbc1315611a9d81fe62a2885c7e8fa52a9f0fb", "1.10.0--r41hacda110_0": "sha256:82922799f259227eee3600d4cdcc074e059ca4286e0b88ea63412128d829616f", "1.16.0--r42hefde4a7_0": "sha256:922a2425d0f7dfb62c82ae41121354e3b6a3196575975fd4be39a32f93f82015"}, "docker": "quay.io/biocontainers/bioconductor-nucpos", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nucpos.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nucpos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nucpos:1.12.0--r41hefde4a7_2
+$ shpc install quay.io/biocontainers/bioconductor-nucpos:1.16.0--r42hefde4a7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nucpos/1.12.0--r41hefde4a7_2
-$ module help quay.io/biocontainers/bioconductor-nucpos/1.12.0--r41hefde4a7_2
+$ module load quay.io/biocontainers/bioconductor-nucpos/1.16.0--r42hefde4a7_0
+$ module help quay.io/biocontainers/bioconductor-nucpos/1.16.0--r42hefde4a7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

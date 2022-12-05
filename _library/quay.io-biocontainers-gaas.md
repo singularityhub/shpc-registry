@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gaas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gaas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gaas/container.yaml"
-updated_at: "2022-12-01 02:19:22.169825"
+updated_at: "2022-12-05 03:39:26.839358"
 latest: "1.2.0--pl526r35_0"
 container_url: "https://biocontainers.pro/tools/gaas"
 aliases:

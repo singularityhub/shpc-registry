@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/argobots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/argobots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/argobots/container.yaml"
-updated_at: "2022-12-01 01:35:52.194530"
+updated_at: "2022-12-05 02:49:58.857049"
 latest: "1.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/argobots"
 
@@ -12,7 +12,7 @@ versions:
  - "1.1"
  - "latest"
 description: "A lightweight runtime system that supports integrated computation and data movement with massive concurrency."
-config: {"docker": "ghcr.io/autamus/argobots", "url": "https://github.com/orgs/autamus/packages/container/package/argobots", "maintainer": "@vsoch", "description": "A lightweight runtime system that supports integrated computation and data movement with massive concurrency.", "latest": {"1.1": "sha256:fea6d207b334b1bc9b061cc737070e3dfb3ec9789bfb0b8bd1f282f48e69979c"}, "tags": {"1.1": "sha256:fea6d207b334b1bc9b061cc737070e3dfb3ec9789bfb0b8bd1f282f48e69979c", "latest": "sha256:fea6d207b334b1bc9b061cc737070e3dfb3ec9789bfb0b8bd1f282f48e69979c"}}
+config: {"docker": "ghcr.io/autamus/argobots", "url": "https://github.com/orgs/autamus/packages/container/package/argobots", "maintainer": "@vsoch", "description": "A lightweight runtime system that supports integrated computation and data movement with massive concurrency.", "latest": {"1.1": "sha256:85bd765f4ea2ecc92afe71d7c12fd286d6c0814e060519d3be1d88f0cbb14021"}, "tags": {"1.1": "sha256:85bd765f4ea2ecc92afe71d7c12fd286d6c0814e060519d3be1d88f0cbb14021", "latest": "sha256:85bd765f4ea2ecc92afe71d7c12fd286d6c0814e060519d3be1d88f0cbb14021"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/argobots.

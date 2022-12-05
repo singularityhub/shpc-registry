@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/president"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/president/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/president/container.yaml"
-updated_at: "2022-12-01 01:47:14.516321"
-latest: "0.6.6--pyhdfd78af_0"
+updated_at: "2022-12-05 03:03:04.717406"
+latest: "0.6.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/president"
 aliases:
  - "pblat"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.6.6--pyhdfd78af_0"
+ - "0.6.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for president"
-config: {"url": "https://biocontainers.pro/tools/president", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for president", "latest": {"0.6.6--pyhdfd78af_0": "sha256:809f1458d6abd74bd894126fa6a4708cceaa27fcb07c5809f1956e98d9f06913"}, "tags": {"0.6.6--pyhdfd78af_0": "sha256:809f1458d6abd74bd894126fa6a4708cceaa27fcb07c5809f1956e98d9f06913"}, "docker": "quay.io/biocontainers/president", "aliases": {"pblat": "/usr/local/bin/pblat", "president": "/usr/local/bin/president", "screed": "/usr/local/bin/screed", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/president", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for president", "latest": {"0.6.8--pyhdfd78af_0": "sha256:ecfb68195836fe115b0ff21f7bb0f9fe28830934f61a90ba44a9d52bdb328aff"}, "tags": {"0.6.6--pyhdfd78af_0": "sha256:809f1458d6abd74bd894126fa6a4708cceaa27fcb07c5809f1956e98d9f06913", "0.6.8--pyhdfd78af_0": "sha256:ecfb68195836fe115b0ff21f7bb0f9fe28830934f61a90ba44a9d52bdb328aff"}, "docker": "quay.io/biocontainers/president", "aliases": {"pblat": "/usr/local/bin/pblat", "president": "/usr/local/bin/president", "screed": "/usr/local/bin/screed", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/president.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/president
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/president:0.6.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/president:0.6.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/president/0.6.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/president/0.6.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/president/0.6.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/president/0.6.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

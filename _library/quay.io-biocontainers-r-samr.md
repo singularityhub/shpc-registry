@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-samr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-samr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-samr/container.yaml"
-updated_at: "2022-12-01 02:05:26.041758"
-latest: "3.0--r41hec16e2b_5"
+updated_at: "2022-12-05 03:23:53.426206"
+latest: "3.0--r42hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/r-samr"
 
 versions:
  - "3.0--r41hec16e2b_5"
+ - "3.0--r42hec16e2b_6"
 description: "shpc-registry automated BioContainers addition for r-samr"
-config: {"url": "https://biocontainers.pro/tools/r-samr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-samr", "latest": {"3.0--r41hec16e2b_5": "sha256:a239cf260718c3285f25d9a3954d246dfd2bc6ed44826843720a0dbb45d95f68"}, "tags": {"3.0--r41hec16e2b_5": "sha256:a239cf260718c3285f25d9a3954d246dfd2bc6ed44826843720a0dbb45d95f68"}, "docker": "quay.io/biocontainers/r-samr"}
+config: {"url": "https://biocontainers.pro/tools/r-samr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-samr", "latest": {"3.0--r42hec16e2b_6": "sha256:598dcdf87e158d871857594b289b8a378758bc4cd0f1024efb2eba6a9ea08e95"}, "tags": {"3.0--r41hec16e2b_5": "sha256:a239cf260718c3285f25d9a3954d246dfd2bc6ed44826843720a0dbb45d95f68", "3.0--r42hec16e2b_6": "sha256:598dcdf87e158d871857594b289b8a378758bc4cd0f1024efb2eba6a9ea08e95"}, "docker": "quay.io/biocontainers/r-samr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-samr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-samr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-samr:3.0--r41hec16e2b_5
+$ shpc install quay.io/biocontainers/r-samr:3.0--r42hec16e2b_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-samr/3.0--r41hec16e2b_5
-$ module help quay.io/biocontainers/r-samr/3.0--r41hec16e2b_5
+$ module load quay.io/biocontainers/r-samr/3.0--r42hec16e2b_6
+$ module help quay.io/biocontainers/r-samr/3.0--r42hec16e2b_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

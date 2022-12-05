@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sojourner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sojourner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sojourner/container.yaml"
-updated_at: "2022-12-01 02:33:41.992275"
-latest: "1.8.0--r41hc247a5b_2"
+updated_at: "2022-12-05 03:55:23.604327"
+latest: "1.11.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sojourner"
 aliases:
  - "pg_amcheck"
@@ -20,8 +20,9 @@ aliases:
  - "applygeo"
 versions:
  - "1.8.0--r41hc247a5b_2"
+ - "1.11.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sojourner"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sojourner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sojourner", "latest": {"1.8.0--r41hc247a5b_2": "sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd"}, "docker": "quay.io/biocontainers/bioconductor-sojourner", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sojourner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sojourner", "latest": {"1.11.0--r42hc247a5b_0": "sha256:02b88de4a7c0405667d36b7dc4af15dca25e40e5dc09dc38489b779a7d25e206"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd", "1.11.0--r42hc247a5b_0": "sha256:02b88de4a7c0405667d36b7dc4af15dca25e40e5dc09dc38489b779a7d25e206"}, "docker": "quay.io/biocontainers/bioconductor-sojourner", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sojourner.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sojourner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sojourner:1.8.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-sojourner:1.11.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sojourner/1.8.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-sojourner/1.8.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-sojourner/1.11.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-sojourner/1.11.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

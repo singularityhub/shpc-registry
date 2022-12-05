@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mta10probeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mta10probeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mta10probeset.db/container.yaml"
-updated_at: "2022-12-01 02:43:24.201179"
-latest: "8.8.0--r41hdfd78af_1"
+updated_at: "2022-12-05 04:06:22.537056"
+latest: "8.8.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-mta10probeset.db"
 
 versions:
  - "8.8.0--r41hdfd78af_1"
+ - "8.8.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-mta10probeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mta10probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mta10probeset.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:3062a535ff9bcb857120ac906ed017d834c8980d7f684d4f76ae83b3b8b2d884"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:3062a535ff9bcb857120ac906ed017d834c8980d7f684d4f76ae83b3b8b2d884"}, "docker": "quay.io/biocontainers/bioconductor-mta10probeset.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mta10probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mta10probeset.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:761f02ca5e33f031e9c91e85a97ac359988e5c1893f137dca29e4b594e7b6919"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:3062a535ff9bcb857120ac906ed017d834c8980d7f684d4f76ae83b3b8b2d884", "8.8.0--r42hdfd78af_2": "sha256:761f02ca5e33f031e9c91e85a97ac359988e5c1893f137dca29e4b594e7b6919"}, "docker": "quay.io/biocontainers/bioconductor-mta10probeset.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mta10probeset.db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mta10probeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mta10probeset.db:8.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-mta10probeset.db:8.8.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mta10probeset.db/8.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-mta10probeset.db/8.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-mta10probeset.db/8.8.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-mta10probeset.db/8.8.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

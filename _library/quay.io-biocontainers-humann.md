@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/humann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/humann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/humann/container.yaml"
-updated_at: "2022-12-01 02:30:58.026684"
-latest: "3.6--pyh7cba7a3_0"
+updated_at: "2022-12-05 03:52:22.518567"
+latest: "3.6--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/humann"
 
 versions:
  - "3.6--pyh7cba7a3_0"
+ - "3.6--pyh7cba7a3_1"
 description: "shpc-registry automated BioContainers addition for humann"
-config: {"url": "https://biocontainers.pro/tools/humann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for humann", "latest": {"3.6--pyh7cba7a3_0": "sha256:7b9093898aa115471daf054d4baf0aa4ab4d1af39d077812f7445d5b3fd766f0"}, "tags": {"3.6--pyh7cba7a3_0": "sha256:7b9093898aa115471daf054d4baf0aa4ab4d1af39d077812f7445d5b3fd766f0"}, "docker": "quay.io/biocontainers/humann"}
+config: {"url": "https://biocontainers.pro/tools/humann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for humann", "latest": {"3.6--pyh7cba7a3_1": "sha256:8475bb77f9eeeb272819f4ce97e92db56c0be6d98fde5be0b8631d8908b1f553"}, "tags": {"3.6--pyh7cba7a3_0": "sha256:7b9093898aa115471daf054d4baf0aa4ab4d1af39d077812f7445d5b3fd766f0", "3.6--pyh7cba7a3_1": "sha256:8475bb77f9eeeb272819f4ce97e92db56c0be6d98fde5be0b8631d8908b1f553"}, "docker": "quay.io/biocontainers/humann"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/humann.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/humann
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/humann:3.6--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/humann:3.6--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/humann/3.6--pyh7cba7a3_0
-$ module help quay.io/biocontainers/humann/3.6--pyh7cba7a3_0
+$ module load quay.io/biocontainers/humann/3.6--pyh7cba7a3_1
+$ module help quay.io/biocontainers/humann/3.6--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

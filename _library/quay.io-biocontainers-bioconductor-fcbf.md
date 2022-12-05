@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-fcbf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fcbf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fcbf/container.yaml"
-updated_at: "2022-12-01 01:58:29.624613"
-latest: "2.2.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:15:54.822695"
+latest: "2.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fcbf"
 
 versions:
  - "2.2.0--r41hdfd78af_0"
+ - "2.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fcbf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fcbf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fcbf", "latest": {"2.2.0--r41hdfd78af_0": "sha256:c78f3b7c2a48549932d326ff284a9b427d6ae0112e5e564338df083dd1bd9b4b"}, "tags": {"2.2.0--r41hdfd78af_0": "sha256:c78f3b7c2a48549932d326ff284a9b427d6ae0112e5e564338df083dd1bd9b4b"}, "docker": "quay.io/biocontainers/bioconductor-fcbf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fcbf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fcbf", "latest": {"2.6.0--r42hdfd78af_0": "sha256:b557b2282ce376fff6df7ec60a31d751a70876171710a77d2c7a7979836d69e4"}, "tags": {"2.2.0--r41hdfd78af_0": "sha256:c78f3b7c2a48549932d326ff284a9b427d6ae0112e5e564338df083dd1bd9b4b", "2.6.0--r42hdfd78af_0": "sha256:b557b2282ce376fff6df7ec60a31d751a70876171710a77d2c7a7979836d69e4"}, "docker": "quay.io/biocontainers/bioconductor-fcbf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fcbf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fcbf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fcbf:2.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fcbf:2.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fcbf/2.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fcbf/2.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fcbf/2.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fcbf/2.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

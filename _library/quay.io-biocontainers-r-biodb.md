@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biodb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biodb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biodb/container.yaml"
-updated_at: "2022-12-01 01:55:18.391272"
+updated_at: "2022-12-05 03:12:19.173554"
 latest: "1.2.2--r42h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/r-biodb"
 

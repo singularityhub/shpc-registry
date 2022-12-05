@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shortstack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shortstack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shortstack/container.yaml"
-updated_at: "2022-12-01 02:37:01.496679"
+updated_at: "2022-12-05 03:59:05.720444"
 latest: "3.8.5--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/shortstack"
 aliases:

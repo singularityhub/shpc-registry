@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-nethet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nethet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nethet/container.yaml"
-updated_at: "2022-12-01 01:39:35.685894"
-latest: "1.26.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 02:54:19.270979"
+latest: "1.30.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nethet"
 aliases:
  - "glpsol"
 versions:
  - "1.26.0--r41hc0cfd56_2"
+ - "1.30.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nethet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nethet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nethet", "latest": {"1.26.0--r41hc0cfd56_2": "sha256:606ab5d73d12de16cadba639f8a1031503f858d5e807bb87b6141b938132204c"}, "tags": {"1.26.0--r41hc0cfd56_2": "sha256:606ab5d73d12de16cadba639f8a1031503f858d5e807bb87b6141b938132204c"}, "docker": "quay.io/biocontainers/bioconductor-nethet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nethet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nethet", "latest": {"1.30.0--r42hc0cfd56_0": "sha256:5eb539835fa488c7b2a9cbca52b28a64e0e2578d47b096d4e30cce5a3ea3ca37"}, "tags": {"1.26.0--r41hc0cfd56_2": "sha256:606ab5d73d12de16cadba639f8a1031503f858d5e807bb87b6141b938132204c", "1.30.0--r42hc0cfd56_0": "sha256:5eb539835fa488c7b2a9cbca52b28a64e0e2578d47b096d4e30cce5a3ea3ca37"}, "docker": "quay.io/biocontainers/bioconductor-nethet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nethet.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nethet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nethet:1.26.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-nethet:1.30.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nethet/1.26.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-nethet/1.26.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-nethet/1.30.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-nethet/1.30.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

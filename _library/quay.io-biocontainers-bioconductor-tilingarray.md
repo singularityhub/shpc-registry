@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tilingarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tilingarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tilingarray/container.yaml"
-updated_at: "2022-12-01 02:39:00.106653"
-latest: "1.72.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 04:01:20.668283"
+latest: "1.76.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tilingarray"
 
 versions:
  - "1.72.0--r41hc0cfd56_2"
+ - "1.76.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tilingarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tilingarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tilingarray", "latest": {"1.72.0--r41hc0cfd56_2": "sha256:58297a96fe687de7636745bd0f6d47081c4eef9d4f2e81e803b2c2278976f005"}, "tags": {"1.72.0--r41hc0cfd56_2": "sha256:58297a96fe687de7636745bd0f6d47081c4eef9d4f2e81e803b2c2278976f005"}, "docker": "quay.io/biocontainers/bioconductor-tilingarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tilingarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tilingarray", "latest": {"1.76.0--r42hc0cfd56_0": "sha256:c0a405188f217da33aeb65dd676e012f0f485e6c612d5df8ef74977cf4eb1c72"}, "tags": {"1.72.0--r41hc0cfd56_2": "sha256:58297a96fe687de7636745bd0f6d47081c4eef9d4f2e81e803b2c2278976f005", "1.76.0--r42hc0cfd56_0": "sha256:c0a405188f217da33aeb65dd676e012f0f485e6c612d5df8ef74977cf4eb1c72"}, "docker": "quay.io/biocontainers/bioconductor-tilingarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tilingarray.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tilingarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tilingarray:1.72.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-tilingarray:1.76.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tilingarray/1.72.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-tilingarray/1.72.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-tilingarray/1.76.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-tilingarray/1.76.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

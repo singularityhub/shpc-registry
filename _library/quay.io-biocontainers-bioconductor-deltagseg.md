@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deltagseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deltagseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deltagseg/container.yaml"
-updated_at: "2022-12-01 01:44:31.921339"
+updated_at: "2022-12-05 02:59:59.958121"
 latest: "1.37.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deltagseg"
 

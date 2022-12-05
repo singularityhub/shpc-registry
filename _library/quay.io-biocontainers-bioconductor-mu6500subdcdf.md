@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mu6500subdcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mu6500subdcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mu6500subdcdf/container.yaml"
-updated_at: "2022-12-01 01:56:32.703947"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-05 03:13:44.078445"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mu6500subdcdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-mu6500subdcdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mu6500subdcdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mu6500subdcdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:7c80aca9c0bafb1a769f637fe8e5d15506c4dc029f1cdc96b445c057b818d2da"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:7c80aca9c0bafb1a769f637fe8e5d15506c4dc029f1cdc96b445c057b818d2da"}, "docker": "quay.io/biocontainers/bioconductor-mu6500subdcdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mu6500subdcdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mu6500subdcdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:d120c066da2e713895722c89fe7fb08f957860a7d440277dda5e5c3bf896a69d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:7c80aca9c0bafb1a769f637fe8e5d15506c4dc029f1cdc96b445c057b818d2da", "2.18.0--r42hdfd78af_10": "sha256:d120c066da2e713895722c89fe7fb08f957860a7d440277dda5e5c3bf896a69d"}, "docker": "quay.io/biocontainers/bioconductor-mu6500subdcdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mu6500subdcdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mu6500subdcdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mu6500subdcdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-mu6500subdcdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mu6500subdcdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-mu6500subdcdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-mu6500subdcdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-mu6500subdcdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

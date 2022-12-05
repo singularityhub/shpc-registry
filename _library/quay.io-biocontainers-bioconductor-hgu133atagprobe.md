@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-hgu133atagprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgu133atagprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu133atagprobe/container.yaml"
-updated_at: "2022-12-01 02:04:26.506814"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-05 03:22:45.242051"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgu133atagprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hgu133atagprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hgu133atagprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgu133atagprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:69b7ef0dc051f7a15062d9f14205c218660e3d353ac6b26c420a5dee3d8d7925"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:69b7ef0dc051f7a15062d9f14205c218660e3d353ac6b26c420a5dee3d8d7925"}, "docker": "quay.io/biocontainers/bioconductor-hgu133atagprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hgu133atagprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgu133atagprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:cb65f60af0bf408cb2fdc732231de89d2410cac747d381f72e2d25ba8c4e5dc6"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:69b7ef0dc051f7a15062d9f14205c218660e3d353ac6b26c420a5dee3d8d7925", "2.18.0--r42hdfd78af_10": "sha256:cb65f60af0bf408cb2fdc732231de89d2410cac747d381f72e2d25ba8c4e5dc6"}, "docker": "quay.io/biocontainers/bioconductor-hgu133atagprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hgu133atagprobe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hgu133atagprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hgu133atagprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-hgu133atagprobe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hgu133atagprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-hgu133atagprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-hgu133atagprobe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-hgu133atagprobe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

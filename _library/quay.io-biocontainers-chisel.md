@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chisel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chisel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chisel/container.yaml"
-updated_at: "2022-12-01 01:43:49.839005"
-latest: "1.1.3--pyhdfd78af_0"
+updated_at: "2022-12-05 02:59:11.399388"
+latest: "1.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chisel"
 aliases:
  - "aln2bed.pl"
@@ -40,8 +40,9 @@ aliases:
  - "run-roh.pl"
 versions:
  - "1.1.3--pyhdfd78af_0"
+ - "1.1.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for chisel"
-config: {"url": "https://biocontainers.pro/tools/chisel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chisel", "latest": {"1.1.3--pyhdfd78af_0": "sha256:6c2c6da2c9563444f1373fe04fe0e85999a4be5c13b92dbfbe717738388f91d6"}, "tags": {"1.1.3--pyhdfd78af_0": "sha256:6c2c6da2c9563444f1373fe04fe0e85999a4be5c13b92dbfbe717738388f91d6"}, "docker": "quay.io/biocontainers/chisel", "aliases": {"aln2bed.pl": "/usr/local/bin/aln2bed.pl", "art_454": "/usr/local/bin/art_454", "art_SOLiD": "/usr/local/bin/art_SOLiD", "art_illumina": "/usr/local/bin/art_illumina", "art_profiler_454": "/usr/local/bin/art_profiler_454", "art_profiler_illumina": "/usr/local/bin/art_profiler_illumina", "chisel": "/usr/local/bin/chisel", "chisel_bedding": "/usr/local/bin/chisel_bedding", "chisel_calling": "/usr/local/bin/chisel_calling", "chisel_cloning": "/usr/local/bin/chisel_cloning", "chisel_nonormal": "/usr/local/bin/chisel_nonormal", "chisel_plotting": "/usr/local/bin/chisel_plotting", "chisel_prep": "/usr/local/bin/chisel_prep", "chisel_pseudonormal": "/usr/local/bin/chisel_pseudonormal", "chisel_rdr": "/usr/local/bin/chisel_rdr", "combinedAvg.pl": "/usr/local/bin/combinedAvg.pl", "empDist.pl": "/usr/local/bin/empDist.pl", "fastqReadAvg.pl": "/usr/local/bin/fastqReadAvg.pl", "map2bed.pl": "/usr/local/bin/map2bed.pl", "summation.pl": "/usr/local/bin/summation.pl", "gff2gff.py": "/usr/local/bin/gff2gff.py", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
+config: {"url": "https://biocontainers.pro/tools/chisel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chisel", "latest": {"1.1.4--pyhdfd78af_0": "sha256:42528fd2dccf70a5c37bac984eaf1b06997ffe1e37f877a10cc7b4237d84d03c"}, "tags": {"1.1.3--pyhdfd78af_0": "sha256:6c2c6da2c9563444f1373fe04fe0e85999a4be5c13b92dbfbe717738388f91d6", "1.1.4--pyhdfd78af_0": "sha256:42528fd2dccf70a5c37bac984eaf1b06997ffe1e37f877a10cc7b4237d84d03c"}, "docker": "quay.io/biocontainers/chisel", "aliases": {"aln2bed.pl": "/usr/local/bin/aln2bed.pl", "art_454": "/usr/local/bin/art_454", "art_SOLiD": "/usr/local/bin/art_SOLiD", "art_illumina": "/usr/local/bin/art_illumina", "art_profiler_454": "/usr/local/bin/art_profiler_454", "art_profiler_illumina": "/usr/local/bin/art_profiler_illumina", "chisel": "/usr/local/bin/chisel", "chisel_bedding": "/usr/local/bin/chisel_bedding", "chisel_calling": "/usr/local/bin/chisel_calling", "chisel_cloning": "/usr/local/bin/chisel_cloning", "chisel_nonormal": "/usr/local/bin/chisel_nonormal", "chisel_plotting": "/usr/local/bin/chisel_plotting", "chisel_prep": "/usr/local/bin/chisel_prep", "chisel_pseudonormal": "/usr/local/bin/chisel_pseudonormal", "chisel_rdr": "/usr/local/bin/chisel_rdr", "combinedAvg.pl": "/usr/local/bin/combinedAvg.pl", "empDist.pl": "/usr/local/bin/empDist.pl", "fastqReadAvg.pl": "/usr/local/bin/fastqReadAvg.pl", "map2bed.pl": "/usr/local/bin/map2bed.pl", "summation.pl": "/usr/local/bin/summation.pl", "gff2gff.py": "/usr/local/bin/gff2gff.py", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chisel.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/chisel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chisel:1.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/chisel:1.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chisel/1.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/chisel/1.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/chisel/1.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/chisel/1.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

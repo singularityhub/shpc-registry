@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tomatoprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tomatoprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tomatoprobe/container.yaml"
-updated_at: "2022-12-01 02:23:39.637124"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-05 03:44:20.190661"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-tomatoprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-tomatoprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tomatoprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tomatoprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:cec0c6d05ce08e195140488df3e609f0e4352f1df8d49896902958eb4931bf3d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:cec0c6d05ce08e195140488df3e609f0e4352f1df8d49896902958eb4931bf3d"}, "docker": "quay.io/biocontainers/bioconductor-tomatoprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tomatoprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tomatoprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:94b97f635d075b13d27efc5da41304ce1e417d1fbfc481622057a13ce4ff1175"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:cec0c6d05ce08e195140488df3e609f0e4352f1df8d49896902958eb4931bf3d", "2.18.0--r42hdfd78af_10": "sha256:94b97f635d075b13d27efc5da41304ce1e417d1fbfc481622057a13ce4ff1175"}, "docker": "quay.io/biocontainers/bioconductor-tomatoprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tomatoprobe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tomatoprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tomatoprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-tomatoprobe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tomatoprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-tomatoprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-tomatoprobe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-tomatoprobe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

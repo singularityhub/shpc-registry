@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-fdrame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdrame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdrame/container.yaml"
-updated_at: "2022-12-01 02:11:49.006709"
-latest: "1.66.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 03:30:51.831220"
+latest: "1.70.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdrame"
 
 versions:
  - "1.66.0--r41hc0cfd56_2"
+ - "1.70.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fdrame"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fdrame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdrame", "latest": {"1.66.0--r41hc0cfd56_2": "sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80"}, "tags": {"1.66.0--r41hc0cfd56_2": "sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80"}, "docker": "quay.io/biocontainers/bioconductor-fdrame"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fdrame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdrame", "latest": {"1.70.0--r42hc0cfd56_0": "sha256:605530d62f299f7038896709cf76176daf031cb31348264c76455bd4b5796f07"}, "tags": {"1.66.0--r41hc0cfd56_2": "sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80", "1.70.0--r42hc0cfd56_0": "sha256:605530d62f299f7038896709cf76176daf031cb31348264c76455bd4b5796f07"}, "docker": "quay.io/biocontainers/bioconductor-fdrame"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fdrame.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fdrame
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fdrame:1.66.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-fdrame:1.70.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fdrame/1.66.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-fdrame/1.66.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-fdrame/1.70.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-fdrame/1.70.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

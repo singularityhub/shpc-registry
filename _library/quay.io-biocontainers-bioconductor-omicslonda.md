@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-omicslonda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicslonda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicslonda/container.yaml"
-updated_at: "2022-12-01 01:53:51.845815"
-latest: "1.10.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:10:37.667305"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicslonda"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicslonda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicslonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicslonda", "latest": {"1.10.0--r41hdfd78af_0": "sha256:846b9b5eee2676cc773c62d361251339cb6fbbe13d1c28b2e9ab5170fa90ac04"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:5578e5c11ee8154322bffce98db16c92b327da2bea0784c429f944d3d5d2792c", "1.10.0--r41hdfd78af_0": "sha256:846b9b5eee2676cc773c62d361251339cb6fbbe13d1c28b2e9ab5170fa90ac04"}, "docker": "quay.io/biocontainers/bioconductor-omicslonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicslonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicslonda", "latest": {"1.14.0--r42hdfd78af_0": "sha256:d6ab4ec1369af5e6f2e47ef37d843b8fe6a1147f40a628cb4d36230925cc979b"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:5578e5c11ee8154322bffce98db16c92b327da2bea0784c429f944d3d5d2792c", "1.10.0--r41hdfd78af_0": "sha256:846b9b5eee2676cc773c62d361251339cb6fbbe13d1c28b2e9ab5170fa90ac04", "1.14.0--r42hdfd78af_0": "sha256:d6ab4ec1369af5e6f2e47ef37d843b8fe6a1147f40a628cb4d36230925cc979b"}, "docker": "quay.io/biocontainers/bioconductor-omicslonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicslonda.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omicslonda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omicslonda:1.10.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omicslonda:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omicslonda/1.10.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omicslonda/1.10.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omicslonda/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omicslonda/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

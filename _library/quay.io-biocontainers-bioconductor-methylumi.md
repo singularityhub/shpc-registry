@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-methylumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylumi/container.yaml"
-updated_at: "2022-12-01 01:42:50.537031"
-latest: "2.40.1--r41hdfd78af_0"
+updated_at: "2022-12-05 02:58:03.954014"
+latest: "2.44.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylumi"
 
 versions:
  - "2.40.1--r41hdfd78af_0"
+ - "2.44.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylumi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylumi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylumi", "latest": {"2.40.1--r41hdfd78af_0": "sha256:b2e5d861a8ee691689aed8cd5f4f67cea90b3224a34c123aabd257081e780215"}, "tags": {"2.40.1--r41hdfd78af_0": "sha256:b2e5d861a8ee691689aed8cd5f4f67cea90b3224a34c123aabd257081e780215"}, "docker": "quay.io/biocontainers/bioconductor-methylumi"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylumi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylumi", "latest": {"2.44.0--r42hdfd78af_0": "sha256:02cd494f3526ffaf585125ba683a00988c985b2dfbb0c0eb35f18efc7b55f322"}, "tags": {"2.40.1--r41hdfd78af_0": "sha256:b2e5d861a8ee691689aed8cd5f4f67cea90b3224a34c123aabd257081e780215", "2.44.0--r42hdfd78af_0": "sha256:02cd494f3526ffaf585125ba683a00988c985b2dfbb0c0eb35f18efc7b55f322"}, "docker": "quay.io/biocontainers/bioconductor-methylumi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylumi.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylumi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylumi:2.40.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-methylumi:2.44.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylumi/2.40.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-methylumi/2.40.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-methylumi/2.44.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-methylumi/2.44.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

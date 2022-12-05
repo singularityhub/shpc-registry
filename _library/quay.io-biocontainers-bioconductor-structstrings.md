@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-structstrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-structstrings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-structstrings/container.yaml"
-updated_at: "2022-12-01 02:43:09.027715"
-latest: "1.10.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 04:06:04.628645"
+latest: "1.14.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-structstrings"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hd029910_0"
  - "1.10.0--r41hc0cfd56_2"
+ - "1.14.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-structstrings"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-structstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structstrings", "latest": {"1.10.0--r41hc0cfd56_2": "sha256:980514e566d8c20d1d6153e731e722bbea8801ab3c5f6a8b9b6452400bb836d7"}, "tags": {"1.8.0--r41hd029910_0": "sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705", "1.10.0--r41hc0cfd56_2": "sha256:980514e566d8c20d1d6153e731e722bbea8801ab3c5f6a8b9b6452400bb836d7"}, "docker": "quay.io/biocontainers/bioconductor-structstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-structstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structstrings", "latest": {"1.14.0--r42hc0cfd56_0": "sha256:90ce1fc9892147f54b442b1b8ece8c66fdc433821018e6117c06031291416789"}, "tags": {"1.8.0--r41hd029910_0": "sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705", "1.10.0--r41hc0cfd56_2": "sha256:980514e566d8c20d1d6153e731e722bbea8801ab3c5f6a8b9b6452400bb836d7", "1.14.0--r42hc0cfd56_0": "sha256:90ce1fc9892147f54b442b1b8ece8c66fdc433821018e6117c06031291416789"}, "docker": "quay.io/biocontainers/bioconductor-structstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-structstrings.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-structstrings
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-structstrings:1.10.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-structstrings:1.14.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-structstrings/1.10.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-structstrings/1.10.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-structstrings/1.14.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-structstrings/1.14.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

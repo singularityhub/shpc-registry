@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-methylgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylgsa/container.yaml"
-updated_at: "2022-12-01 01:41:10.392910"
-latest: "1.10.0--r41hdfd78af_0"
+updated_at: "2022-12-05 02:56:09.802082"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylgsa"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
  - "1.10.0--r41hdfd78af_0"
+ - "1.16.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylgsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylgsa", "latest": {"1.10.0--r41hdfd78af_0": "sha256:67cdc44868da089e8060812905156931ca8aa77b6ef6eae7e034c35a406e2dcf"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795", "1.10.0--r41hdfd78af_0": "sha256:67cdc44868da089e8060812905156931ca8aa77b6ef6eae7e034c35a406e2dcf"}, "docker": "quay.io/biocontainers/bioconductor-methylgsa", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylgsa", "latest": {"1.16.0--r42hdfd78af_0": "sha256:909cc2a9822e170cebbe7e27b3af27e86574b9582fce2527b62996516495ccd0"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795", "1.10.0--r41hdfd78af_0": "sha256:67cdc44868da089e8060812905156931ca8aa77b6ef6eae7e034c35a406e2dcf", "1.16.0--r42hdfd78af_0": "sha256:909cc2a9822e170cebbe7e27b3af27e86574b9582fce2527b62996516495ccd0"}, "docker": "quay.io/biocontainers/bioconductor-methylgsa", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylgsa.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylgsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylgsa:1.10.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-methylgsa:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylgsa/1.10.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-methylgsa/1.10.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-methylgsa/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-methylgsa/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

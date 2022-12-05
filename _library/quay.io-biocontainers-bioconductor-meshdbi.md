@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-meshdbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meshdbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meshdbi/container.yaml"
-updated_at: "2022-12-01 02:06:40.483186"
-latest: "1.30.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:25:13.833703"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meshdbi"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meshdbi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meshdbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshdbi", "latest": {"1.30.0--r41hdfd78af_0": "sha256:8248de8815ee7421bab1879701dfb9a0c7f22a69551820f7c60339ac037a0b92"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:8248de8815ee7421bab1879701dfb9a0c7f22a69551820f7c60339ac037a0b92"}, "docker": "quay.io/biocontainers/bioconductor-meshdbi"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meshdbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshdbi", "latest": {"1.34.0--r42hdfd78af_0": "sha256:9500bafabaa9d9acb500264959175715304c39fce0ff40362c7ce20ff70854c7"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:8248de8815ee7421bab1879701dfb9a0c7f22a69551820f7c60339ac037a0b92", "1.34.0--r42hdfd78af_0": "sha256:9500bafabaa9d9acb500264959175715304c39fce0ff40362c7ce20ff70854c7"}, "docker": "quay.io/biocontainers/bioconductor-meshdbi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meshdbi.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-meshdbi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-meshdbi:1.30.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-meshdbi:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-meshdbi/1.30.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-meshdbi/1.30.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-meshdbi/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-meshdbi/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

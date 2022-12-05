@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-unifiedwmwqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-unifiedwmwqpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-unifiedwmwqpcr/container.yaml"
-updated_at: "2022-12-01 02:20:31.035315"
-latest: "1.30.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:40:43.784164"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-unifiedwmwqpcr"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-unifiedwmwqpcr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-unifiedwmwqpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-unifiedwmwqpcr", "latest": {"1.30.0--r41hdfd78af_0": "sha256:9983f323c8d12182fa5851f700034dc6831e8484b8c8008c078099e0113cf007"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:9983f323c8d12182fa5851f700034dc6831e8484b8c8008c078099e0113cf007"}, "docker": "quay.io/biocontainers/bioconductor-unifiedwmwqpcr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-unifiedwmwqpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-unifiedwmwqpcr", "latest": {"1.34.0--r42hdfd78af_0": "sha256:4acde4ae0c75135478f807242abcf6efecfdfb8a90439eb3d5deb4cccecde723"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:9983f323c8d12182fa5851f700034dc6831e8484b8c8008c078099e0113cf007", "1.34.0--r42hdfd78af_0": "sha256:4acde4ae0c75135478f807242abcf6efecfdfb8a90439eb3d5deb4cccecde723"}, "docker": "quay.io/biocontainers/bioconductor-unifiedwmwqpcr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-unifiedwmwqpcr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-unifiedwmwqpcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-unifiedwmwqpcr:1.30.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-unifiedwmwqpcr:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-unifiedwmwqpcr/1.30.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-unifiedwmwqpcr/1.30.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-unifiedwmwqpcr/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-unifiedwmwqpcr/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

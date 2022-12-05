@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-music"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-music/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-music/container.yaml"
-updated_at: "2022-12-01 01:51:45.737428"
-latest: "0.2.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:08:14.525999"
+latest: "0.2.0--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-music"
 
 versions:
  - "0.2.0--r41hdfd78af_0"
+ - "0.2.0--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-music"
-config: {"url": "https://biocontainers.pro/tools/r-music", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-music", "latest": {"0.2.0--r41hdfd78af_0": "sha256:07194fe1180b905e8898467c9019729fe77a40fd74a1d8929a97969311e24012"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:07194fe1180b905e8898467c9019729fe77a40fd74a1d8929a97969311e24012"}, "docker": "quay.io/biocontainers/r-music"}
+config: {"url": "https://biocontainers.pro/tools/r-music", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-music", "latest": {"0.2.0--r42hdfd78af_1": "sha256:e9ba205c13d3d2f357ae924a36c11037d4db82b1e85e0689e5242fe4308ba479"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:07194fe1180b905e8898467c9019729fe77a40fd74a1d8929a97969311e24012", "0.2.0--r42hdfd78af_1": "sha256:e9ba205c13d3d2f357ae924a36c11037d4db82b1e85e0689e5242fe4308ba479"}, "docker": "quay.io/biocontainers/r-music"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-music.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-music
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-music:0.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-music:0.2.0--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-music/0.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-music/0.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-music/0.2.0--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-music/0.2.0--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

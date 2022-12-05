@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/udunits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/udunits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/udunits/container.yaml"
-updated_at: "2022-12-01 01:35:37.542849"
+updated_at: "2022-12-05 02:49:41.142885"
 latest: "2.2.28"
 container_url: "https://github.com/orgs/autamus/packages/container/package/udunits"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "2.2.28"
  - "latest"
 description: "The UDUNITS package supports units of physical quantities. Its C library provides for arithmetic manipulation of units and for conversion of numeric values between compatible units."
-config: {"docker": "ghcr.io/autamus/udunits", "url": "https://github.com/orgs/autamus/packages/container/package/udunits", "maintainer": "@vsoch", "description": "The UDUNITS package supports units of physical quantities. Its C library provides for arithmetic manipulation of units and for conversion of numeric values between compatible units.", "latest": {"2.2.28": "sha256:f71b1fbf96f0cb7f32b965687fa0fd10523ec91c6f8422523127cc9c4bc6524c"}, "tags": {"2.2.28": "sha256:f71b1fbf96f0cb7f32b965687fa0fd10523ec91c6f8422523127cc9c4bc6524c", "latest": "sha256:f71b1fbf96f0cb7f32b965687fa0fd10523ec91c6f8422523127cc9c4bc6524c"}, "aliases": {"udunits2": "/opt/view/bin/udunits2"}}
+config: {"docker": "ghcr.io/autamus/udunits", "url": "https://github.com/orgs/autamus/packages/container/package/udunits", "maintainer": "@vsoch", "description": "The UDUNITS package supports units of physical quantities. Its C library provides for arithmetic manipulation of units and for conversion of numeric values between compatible units.", "latest": {"2.2.28": "sha256:3143623c65c37c22a4a301ba4eb82941af4f9f196f6d504eab9051d45e30b1ab"}, "tags": {"2.2.28": "sha256:3143623c65c37c22a4a301ba4eb82941af4f9f196f6d504eab9051d45e30b1ab", "latest": "sha256:3143623c65c37c22a4a301ba4eb82941af4f9f196f6d504eab9051d45e30b1ab"}, "aliases": {"udunits2": "/opt/view/bin/udunits2"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/udunits.

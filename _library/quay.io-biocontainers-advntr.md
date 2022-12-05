@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/advntr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/advntr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/advntr/container.yaml"
-updated_at: "2022-12-01 01:41:14.300141"
-latest: "1.4.1--py27h20e14e4_2"
+updated_at: "2022-12-05 02:56:14.110016"
+latest: "1.5.0--py36hd5865be_0"
 container_url: "https://biocontainers.pro/tools/advntr"
 aliases:
  - "adVNTR-Filtering"
@@ -22,8 +22,9 @@ aliases:
  - "toco"
 versions:
  - "1.4.1--py27h20e14e4_2"
+ - "1.5.0--py36hd5865be_0"
 description: "shpc-registry automated BioContainers addition for advntr"
-config: {"url": "https://biocontainers.pro/tools/advntr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for advntr", "latest": {"1.4.1--py27h20e14e4_2": "sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d"}, "tags": {"1.4.1--py27h20e14e4_2": "sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d"}, "docker": "quay.io/biocontainers/advntr", "aliases": {"adVNTR-Filtering": "/usr/local/bin/adVNTR-Filtering", "advntr": "/usr/local/bin/advntr", "unit2": "/usr/local/bin/unit2", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "muscle": "/usr/local/bin/muscle", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco"}}
+config: {"url": "https://biocontainers.pro/tools/advntr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for advntr", "latest": {"1.5.0--py36hd5865be_0": "sha256:29fec9d9b419bbd63a5e48aea4979807078d74b70b8d5bef4e6c1cd6a9a637c5"}, "tags": {"1.4.1--py27h20e14e4_2": "sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d", "1.5.0--py36hd5865be_0": "sha256:29fec9d9b419bbd63a5e48aea4979807078d74b70b8d5bef4e6c1cd6a9a637c5"}, "docker": "quay.io/biocontainers/advntr", "aliases": {"adVNTR-Filtering": "/usr/local/bin/adVNTR-Filtering", "advntr": "/usr/local/bin/advntr", "unit2": "/usr/local/bin/unit2", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "muscle": "/usr/local/bin/muscle", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/advntr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/advntr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/advntr:1.4.1--py27h20e14e4_2
+$ shpc install quay.io/biocontainers/advntr:1.5.0--py36hd5865be_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/advntr/1.4.1--py27h20e14e4_2
-$ module help quay.io/biocontainers/advntr/1.4.1--py27h20e14e4_2
+$ module load quay.io/biocontainers/advntr/1.5.0--py36hd5865be_0
+$ module help quay.io/biocontainers/advntr/1.5.0--py36hd5865be_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

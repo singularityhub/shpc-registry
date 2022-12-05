@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-quantro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quantro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quantro/container.yaml"
-updated_at: "2022-12-01 02:26:38.276666"
-latest: "1.28.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:47:38.442749"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quantro"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-quantro"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-quantro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quantro", "latest": {"1.28.0--r41hdfd78af_0": "sha256:2c7512c91d49682f57c12bb9204e8e5516483b4e37c40cc36edbf04182df5619"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:2c7512c91d49682f57c12bb9204e8e5516483b4e37c40cc36edbf04182df5619"}, "docker": "quay.io/biocontainers/bioconductor-quantro"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-quantro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quantro", "latest": {"1.32.0--r42hdfd78af_0": "sha256:20c9ab87d240884d3f0f81a88428e2b9d6ce19b1844c0aafb218e63067ff8a9d"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:2c7512c91d49682f57c12bb9204e8e5516483b4e37c40cc36edbf04182df5619", "1.32.0--r42hdfd78af_0": "sha256:20c9ab87d240884d3f0f81a88428e2b9d6ce19b1844c0aafb218e63067ff8a9d"}, "docker": "quay.io/biocontainers/bioconductor-quantro"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-quantro.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-quantro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-quantro:1.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-quantro:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-quantro/1.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-quantro/1.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-quantro/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-quantro/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

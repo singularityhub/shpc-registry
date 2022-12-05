@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-xcell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xcell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xcell/container.yaml"
-updated_at: "2022-12-01 02:19:13.811187"
-latest: "1.3--r41h9f5acd7_3"
+updated_at: "2022-12-05 03:39:17.495414"
+latest: "1.3--r42h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/r-xcell"
 
 versions:
  - "1.3--r41h9f5acd7_3"
+ - "1.3--r42h9f5acd7_4"
 description: "shpc-registry automated BioContainers addition for r-xcell"
-config: {"url": "https://biocontainers.pro/tools/r-xcell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xcell", "latest": {"1.3--r41h9f5acd7_3": "sha256:d4df34367e86884b0ee998b360033c19e9efc430906af30729a6da3a3e00d919"}, "tags": {"1.3--r41h9f5acd7_3": "sha256:d4df34367e86884b0ee998b360033c19e9efc430906af30729a6da3a3e00d919"}, "docker": "quay.io/biocontainers/r-xcell"}
+config: {"url": "https://biocontainers.pro/tools/r-xcell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xcell", "latest": {"1.3--r42h9f5acd7_4": "sha256:66a22120276d2f0e5917eb77b453397c3c49f7e8f324826238d20cb8be74a63f"}, "tags": {"1.3--r41h9f5acd7_3": "sha256:d4df34367e86884b0ee998b360033c19e9efc430906af30729a6da3a3e00d919", "1.3--r42h9f5acd7_4": "sha256:66a22120276d2f0e5917eb77b453397c3c49f7e8f324826238d20cb8be74a63f"}, "docker": "quay.io/biocontainers/r-xcell"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-xcell.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-xcell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-xcell:1.3--r41h9f5acd7_3
+$ shpc install quay.io/biocontainers/r-xcell:1.3--r42h9f5acd7_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-xcell/1.3--r41h9f5acd7_3
-$ module help quay.io/biocontainers/r-xcell/1.3--r41h9f5acd7_3
+$ module load quay.io/biocontainers/r-xcell/1.3--r42h9f5acd7_4
+$ module help quay.io/biocontainers/r-xcell/1.3--r42h9f5acd7_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

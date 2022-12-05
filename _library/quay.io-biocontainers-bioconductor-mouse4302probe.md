@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mouse4302probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouse4302probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouse4302probe/container.yaml"
-updated_at: "2022-12-01 02:11:29.775548"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-05 03:30:31.458560"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouse4302probe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-mouse4302probe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse4302probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse4302probe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:492bdd459bb0e4624389c13c7e4917c184c3538e0b5247f80a0af2f81a4f1976"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:492bdd459bb0e4624389c13c7e4917c184c3538e0b5247f80a0af2f81a4f1976"}, "docker": "quay.io/biocontainers/bioconductor-mouse4302probe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse4302probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse4302probe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:b2a766a42d6f95894775d38782398d0e4dcda116e5812fd1167ae880e82323b2"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:492bdd459bb0e4624389c13c7e4917c184c3538e0b5247f80a0af2f81a4f1976", "2.18.0--r42hdfd78af_10": "sha256:b2a766a42d6f95894775d38782398d0e4dcda116e5812fd1167ae880e82323b2"}, "docker": "quay.io/biocontainers/bioconductor-mouse4302probe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mouse4302probe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mouse4302probe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mouse4302probe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-mouse4302probe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mouse4302probe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-mouse4302probe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-mouse4302probe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-mouse4302probe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-nanotube"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanotube/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanotube/container.yaml"
-updated_at: "2022-12-01 02:14:16.570239"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:33:36.510891"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanotube"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nanotube"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotube", "latest": {"1.0.0--r41hdfd78af_0": "sha256:dac27446fdf8043a459d0189c5fca7678d3f495c118c449814c228640faf5ae2"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dac27446fdf8043a459d0189c5fca7678d3f495c118c449814c228640faf5ae2"}, "docker": "quay.io/biocontainers/bioconductor-nanotube"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotube", "latest": {"1.4.0--r42hdfd78af_0": "sha256:919b16118be719fcc6206969c0b4ee964de07bc548ba4153b509eea6c52fe105"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dac27446fdf8043a459d0189c5fca7678d3f495c118c449814c228640faf5ae2", "1.4.0--r42hdfd78af_0": "sha256:919b16118be719fcc6206969c0b4ee964de07bc548ba4153b509eea6c52fe105"}, "docker": "quay.io/biocontainers/bioconductor-nanotube"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nanotube.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nanotube
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nanotube:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nanotube:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nanotube/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nanotube/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nanotube/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nanotube/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

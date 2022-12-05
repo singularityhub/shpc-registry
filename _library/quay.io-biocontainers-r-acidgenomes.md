@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-acidgenomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidgenomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidgenomes/container.yaml"
-updated_at: "2022-12-01 02:28:01.878234"
-latest: "0.3.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:49:10.871398"
+latest: "0.4.4--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-acidgenomes"
 
 versions:
  - "0.3.0--r41hdfd78af_0"
+ - "0.4.4--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-acidgenomes"
-config: {"url": "https://biocontainers.pro/tools/r-acidgenomes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidgenomes", "latest": {"0.3.0--r41hdfd78af_0": "sha256:44d5d46dc2e579e3443a74aacca29eb700f3168cb05513863d84f7307eaea512"}, "tags": {"0.3.0--r41hdfd78af_0": "sha256:44d5d46dc2e579e3443a74aacca29eb700f3168cb05513863d84f7307eaea512"}, "docker": "quay.io/biocontainers/r-acidgenomes"}
+config: {"url": "https://biocontainers.pro/tools/r-acidgenomes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidgenomes", "latest": {"0.4.4--r42hdfd78af_1": "sha256:e84f7017a7be9372600a058cb8b85b3ac4817b104b962827aff805ecf0a50012"}, "tags": {"0.3.0--r41hdfd78af_0": "sha256:44d5d46dc2e579e3443a74aacca29eb700f3168cb05513863d84f7307eaea512", "0.4.4--r42hdfd78af_1": "sha256:e84f7017a7be9372600a058cb8b85b3ac4817b104b962827aff805ecf0a50012"}, "docker": "quay.io/biocontainers/r-acidgenomes"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidgenomes.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-acidgenomes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidgenomes:0.3.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidgenomes:0.4.4--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidgenomes/0.3.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-acidgenomes/0.3.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-acidgenomes/0.4.4--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-acidgenomes/0.4.4--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

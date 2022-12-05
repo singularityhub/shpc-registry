@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-decomplexdisease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decomplexdisease/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decomplexdisease/container.yaml"
-updated_at: "2022-12-01 01:40:35.736878"
-latest: "1.14.0--r41hc247a5b_2"
+updated_at: "2022-12-05 02:55:30.298726"
+latest: "1.18.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decomplexdisease"
 aliases:
  - "2to3-3.8"
@@ -21,8 +21,9 @@ versions:
  - "1.14.0--r41hc247a5b_2"
  - "1.12.0--r41h399db7b_0"
  - "1.10.0--r40h399db7b_1"
+ - "1.18.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-decomplexdisease"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-decomplexdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decomplexdisease", "latest": {"1.14.0--r41hc247a5b_2": "sha256:08454b8ce74f3d828a9d2ab9aee44da9aac9af7e1b55332e43d64e2f35a04854"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:df1d33ebc7c810d66693e67e0421bfb1911e2d3de6261adb283abd10e9fa8e7d", "1.14.0--r41hc247a5b_2": "sha256:08454b8ce74f3d828a9d2ab9aee44da9aac9af7e1b55332e43d64e2f35a04854", "1.12.0--r41h399db7b_0": "sha256:5f96ab68ec109d2ac4cb9a1384121e1f4112b22c4fa0e01ab3d040bdafcf4f2e", "1.10.0--r40h399db7b_1": "sha256:b966a133467a95a06f7190347c22e6f1d8274efe0f9543b4f896e0be89ece532"}, "docker": "quay.io/biocontainers/bioconductor-decomplexdisease", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-decomplexdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decomplexdisease", "latest": {"1.18.0--r42hc247a5b_0": "sha256:fec1c369ec2e560b09da391c03463694a0024dbf4531f875ed159784c75fd65d"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:df1d33ebc7c810d66693e67e0421bfb1911e2d3de6261adb283abd10e9fa8e7d", "1.14.0--r41hc247a5b_2": "sha256:08454b8ce74f3d828a9d2ab9aee44da9aac9af7e1b55332e43d64e2f35a04854", "1.12.0--r41h399db7b_0": "sha256:5f96ab68ec109d2ac4cb9a1384121e1f4112b22c4fa0e01ab3d040bdafcf4f2e", "1.10.0--r40h399db7b_1": "sha256:b966a133467a95a06f7190347c22e6f1d8274efe0f9543b4f896e0be89ece532", "1.18.0--r42hc247a5b_0": "sha256:fec1c369ec2e560b09da391c03463694a0024dbf4531f875ed159784c75fd65d"}, "docker": "quay.io/biocontainers/bioconductor-decomplexdisease", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-decomplexdisease.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-decomplexdisease
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-decomplexdisease:1.14.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-decomplexdisease:1.18.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-decomplexdisease/1.14.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-decomplexdisease/1.14.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-decomplexdisease/1.18.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-decomplexdisease/1.18.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-xlaevis2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xlaevis2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xlaevis2probe/container.yaml"
-updated_at: "2022-12-01 02:21:55.070968"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-05 03:42:19.208329"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-xlaevis2probe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-xlaevis2probe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xlaevis2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xlaevis2probe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:dcff6c20a711a5443c87ba3b9bd68e9e0cef6e57001141e3a53132ae2110ca64"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:dcff6c20a711a5443c87ba3b9bd68e9e0cef6e57001141e3a53132ae2110ca64"}, "docker": "quay.io/biocontainers/bioconductor-xlaevis2probe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xlaevis2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xlaevis2probe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:2225b3357de39280a685595917e4663174e452baddc623c9de9fe467a3b37fed"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:dcff6c20a711a5443c87ba3b9bd68e9e0cef6e57001141e3a53132ae2110ca64", "2.18.0--r42hdfd78af_10": "sha256:2225b3357de39280a685595917e4663174e452baddc623c9de9fe467a3b37fed"}, "docker": "quay.io/biocontainers/bioconductor-xlaevis2probe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xlaevis2probe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xlaevis2probe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xlaevis2probe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-xlaevis2probe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xlaevis2probe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-xlaevis2probe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-xlaevis2probe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-xlaevis2probe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

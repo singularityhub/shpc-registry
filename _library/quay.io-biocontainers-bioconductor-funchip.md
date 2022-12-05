@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-funchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
-updated_at: "2022-12-01 01:41:35.278214"
-latest: "1.20.0--r41hc247a5b_2"
+updated_at: "2022-12-05 02:56:37.491036"
+latest: "1.24.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-funchip"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r40h399db7b_1"
  - "1.14.0--r40h5f743cb_0"
  - "1.12.0--r36he1b5a44_0"
+ - "1.24.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-funchip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-funchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funchip", "latest": {"1.20.0--r41hc247a5b_2": "sha256:d0a4cd7e55ffec015fbe615a3e47c7113d36a5da335c37904d951bbf262e556d"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:d8296eadaf1491a5a1124089cbe6398e9ae0761af41926bc5e9ca4dd3191f566", "1.20.0--r41hc247a5b_2": "sha256:d0a4cd7e55ffec015fbe615a3e47c7113d36a5da335c37904d951bbf262e556d", "1.18.0--r41h399db7b_0": "sha256:9152073caaae7d2add662ad2eef9df2aaf8562180c34f928d1af36fddec6768b", "1.16.0--r40h399db7b_1": "sha256:375cd7c492ddad3d5206e649238b68d52fda9e47a8a3bebb088bb24aeef38dea", "1.14.0--r40h5f743cb_0": "sha256:3f814eec23cd33ba13ed903a9f83ee69af6ac7486d097cad471f7a810c27a965", "1.12.0--r36he1b5a44_0": "sha256:202bb4608087fde7aec04c2bef281e754df83424c828237339805c351eb3a751"}, "docker": "quay.io/biocontainers/bioconductor-funchip", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-funchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funchip", "latest": {"1.24.0--r42hc247a5b_0": "sha256:61848695e2c9249832d3edbd7e3f102c7b69db5b43a89ed655e1ece6c2804a75"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:d8296eadaf1491a5a1124089cbe6398e9ae0761af41926bc5e9ca4dd3191f566", "1.20.0--r41hc247a5b_2": "sha256:d0a4cd7e55ffec015fbe615a3e47c7113d36a5da335c37904d951bbf262e556d", "1.18.0--r41h399db7b_0": "sha256:9152073caaae7d2add662ad2eef9df2aaf8562180c34f928d1af36fddec6768b", "1.16.0--r40h399db7b_1": "sha256:375cd7c492ddad3d5206e649238b68d52fda9e47a8a3bebb088bb24aeef38dea", "1.14.0--r40h5f743cb_0": "sha256:3f814eec23cd33ba13ed903a9f83ee69af6ac7486d097cad471f7a810c27a965", "1.12.0--r36he1b5a44_0": "sha256:202bb4608087fde7aec04c2bef281e754df83424c828237339805c351eb3a751", "1.24.0--r42hc247a5b_0": "sha256:61848695e2c9249832d3edbd7e3f102c7b69db5b43a89ed655e1ece6c2804a75"}, "docker": "quay.io/biocontainers/bioconductor-funchip", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-funchip.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-funchip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-funchip:1.20.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-funchip:1.24.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-funchip/1.20.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-funchip/1.20.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-funchip/1.24.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-funchip/1.24.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

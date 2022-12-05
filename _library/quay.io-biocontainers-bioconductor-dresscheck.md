@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-dresscheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dresscheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dresscheck/container.yaml"
-updated_at: "2022-12-01 02:30:02.782607"
-latest: "0.32.0--r41hdfd78af_1"
+updated_at: "2022-12-05 03:51:21.755489"
+latest: "0.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dresscheck"
 
 versions:
  - "0.32.0--r41hdfd78af_1"
+ - "0.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dresscheck"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dresscheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dresscheck", "latest": {"0.32.0--r41hdfd78af_1": "sha256:a6b60f491207265ca64c2c1006cc982dcb96824808c3d93bf8b8b05f6b30680a"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:a6b60f491207265ca64c2c1006cc982dcb96824808c3d93bf8b8b05f6b30680a"}, "docker": "quay.io/biocontainers/bioconductor-dresscheck"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dresscheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dresscheck", "latest": {"0.36.0--r42hdfd78af_0": "sha256:1db4d8702861c425f96fec761f493e63837aaa9fee453c1506e966ca9e7aa5ee"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:a6b60f491207265ca64c2c1006cc982dcb96824808c3d93bf8b8b05f6b30680a", "0.36.0--r42hdfd78af_0": "sha256:1db4d8702861c425f96fec761f493e63837aaa9fee453c1506e966ca9e7aa5ee"}, "docker": "quay.io/biocontainers/bioconductor-dresscheck"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dresscheck.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dresscheck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dresscheck:0.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-dresscheck:0.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dresscheck/0.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-dresscheck/0.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-dresscheck/0.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dresscheck/0.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

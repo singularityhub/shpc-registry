@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-uniprot.ws"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uniprot.ws/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uniprot.ws/container.yaml"
-updated_at: "2022-12-01 02:26:42.191467"
-latest: "2.34.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:47:42.605732"
+latest: "2.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-uniprot.ws"
 
 versions:
  - "2.34.0--r41hdfd78af_0"
+ - "2.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-uniprot.ws"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-uniprot.ws", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-uniprot.ws", "latest": {"2.34.0--r41hdfd78af_0": "sha256:2e84af438953e016df793a551b6f2d0a43a8c93a4b9dbeb4e0bd79faf7ca9778"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:2e84af438953e016df793a551b6f2d0a43a8c93a4b9dbeb4e0bd79faf7ca9778"}, "docker": "quay.io/biocontainers/bioconductor-uniprot.ws"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-uniprot.ws", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-uniprot.ws", "latest": {"2.38.0--r42hdfd78af_0": "sha256:7839abe6f394b17fa3af15322074fd3db4f4eafe5611416967a79b90cb157395"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:2e84af438953e016df793a551b6f2d0a43a8c93a4b9dbeb4e0bd79faf7ca9778", "2.38.0--r42hdfd78af_0": "sha256:7839abe6f394b17fa3af15322074fd3db4f4eafe5611416967a79b90cb157395"}, "docker": "quay.io/biocontainers/bioconductor-uniprot.ws"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-uniprot.ws.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-uniprot.ws
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-uniprot.ws:2.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-uniprot.ws:2.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-uniprot.ws/2.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-uniprot.ws/2.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-uniprot.ws/2.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-uniprot.ws/2.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

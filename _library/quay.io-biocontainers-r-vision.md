@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-vision"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vision/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vision/container.yaml"
-updated_at: "2022-12-01 02:35:47.306943"
-latest: "2.0.0--r41h9f5acd7_4"
+updated_at: "2022-12-05 03:57:42.297676"
+latest: "2.0.0--r42h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/r-vision"
 
 versions:
  - "2.0.0--r41h9f5acd7_4"
+ - "2.0.0--r42h9f5acd7_5"
 description: "shpc-registry automated BioContainers addition for r-vision"
-config: {"url": "https://biocontainers.pro/tools/r-vision", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vision", "latest": {"2.0.0--r41h9f5acd7_4": "sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c"}, "tags": {"2.0.0--r41h9f5acd7_4": "sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c"}, "docker": "quay.io/biocontainers/r-vision"}
+config: {"url": "https://biocontainers.pro/tools/r-vision", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vision", "latest": {"2.0.0--r42h9f5acd7_5": "sha256:a3d26c798640261bf78ca83e075ce8c39073a11983bf0740b8c0d909616f20c8"}, "tags": {"2.0.0--r41h9f5acd7_4": "sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c", "2.0.0--r42h9f5acd7_5": "sha256:a3d26c798640261bf78ca83e075ce8c39073a11983bf0740b8c0d909616f20c8"}, "docker": "quay.io/biocontainers/r-vision"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-vision.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-vision
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-vision:2.0.0--r41h9f5acd7_4
+$ shpc install quay.io/biocontainers/r-vision:2.0.0--r42h9f5acd7_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-vision/2.0.0--r41h9f5acd7_4
-$ module help quay.io/biocontainers/r-vision/2.0.0--r41h9f5acd7_4
+$ module load quay.io/biocontainers/r-vision/2.0.0--r42h9f5acd7_5
+$ module help quay.io/biocontainers/r-vision/2.0.0--r42h9f5acd7_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

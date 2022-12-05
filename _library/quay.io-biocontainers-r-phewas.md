@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-phewas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phewas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phewas/container.yaml"
-updated_at: "2022-12-01 01:41:04.073430"
-latest: "0.12.1--r41hb2e0dee_4"
+updated_at: "2022-12-05 02:56:02.467336"
+latest: "0.12.1--r42hb2e0dee_5"
 container_url: "https://biocontainers.pro/tools/r-phewas"
 
 versions:
  - "0.12.1--r41hb2e0dee_4"
+ - "0.12.1--r42hb2e0dee_5"
 description: "shpc-registry automated BioContainers addition for r-phewas"
-config: {"url": "https://biocontainers.pro/tools/r-phewas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phewas", "latest": {"0.12.1--r41hb2e0dee_4": "sha256:c69fd88cfedca31216d3959e4e1977466424ffc77b82c9b5b793c921bcbe8540"}, "tags": {"0.12.1--r41hb2e0dee_4": "sha256:c69fd88cfedca31216d3959e4e1977466424ffc77b82c9b5b793c921bcbe8540"}, "docker": "quay.io/biocontainers/r-phewas"}
+config: {"url": "https://biocontainers.pro/tools/r-phewas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phewas", "latest": {"0.12.1--r42hb2e0dee_5": "sha256:35f67ae0f71b6f20c1fc80dec89d8d365635fb832f4c289c3b3cff6469c289ab"}, "tags": {"0.12.1--r41hb2e0dee_4": "sha256:c69fd88cfedca31216d3959e4e1977466424ffc77b82c9b5b793c921bcbe8540", "0.12.1--r42hb2e0dee_5": "sha256:35f67ae0f71b6f20c1fc80dec89d8d365635fb832f4c289c3b3cff6469c289ab"}, "docker": "quay.io/biocontainers/r-phewas"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phewas.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-phewas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-phewas:0.12.1--r41hb2e0dee_4
+$ shpc install quay.io/biocontainers/r-phewas:0.12.1--r42hb2e0dee_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-phewas/0.12.1--r41hb2e0dee_4
-$ module help quay.io/biocontainers/r-phewas/0.12.1--r41hb2e0dee_4
+$ module load quay.io/biocontainers/r-phewas/0.12.1--r42hb2e0dee_5
+$ module help quay.io/biocontainers/r-phewas/0.12.1--r42hb2e0dee_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

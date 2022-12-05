@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-dearseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dearseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dearseq/container.yaml"
-updated_at: "2022-12-01 01:58:25.716466"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:15:50.102441"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dearseq"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dearseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dearseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dearseq", "latest": {"1.6.0--r41hdfd78af_0": "sha256:6a7a747130e39ba7a83563bcfe9c848f7490e050909487bbf735a24f3af5623b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:6a7a747130e39ba7a83563bcfe9c848f7490e050909487bbf735a24f3af5623b"}, "docker": "quay.io/biocontainers/bioconductor-dearseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dearseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dearseq", "latest": {"1.10.0--r42hdfd78af_0": "sha256:4d408c45a0bccb572cb1d7aac19dd8c8cd9807aa0d215cae572b824f7eb14b97"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:6a7a747130e39ba7a83563bcfe9c848f7490e050909487bbf735a24f3af5623b", "1.10.0--r42hdfd78af_0": "sha256:4d408c45a0bccb572cb1d7aac19dd8c8cd9807aa0d215cae572b824f7eb14b97"}, "docker": "quay.io/biocontainers/bioconductor-dearseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dearseq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dearseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dearseq:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dearseq:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dearseq/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dearseq/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dearseq/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dearseq/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

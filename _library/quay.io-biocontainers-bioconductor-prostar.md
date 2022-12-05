@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-prostar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostar/container.yaml"
-updated_at: "2022-12-01 02:20:39.874599"
-latest: "1.26.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:40:53.668421"
+latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostar"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "1.26.0--r41hdfd78af_0"
+ - "1.30.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prostar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prostar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostar", "latest": {"1.26.0--r41hdfd78af_0": "sha256:377fe0c5a0c024736fa4575b826328415a67413a41f361f51c49e67967d380b8"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:377fe0c5a0c024736fa4575b826328415a67413a41f361f51c49e67967d380b8"}, "docker": "quay.io/biocontainers/bioconductor-prostar", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prostar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostar", "latest": {"1.30.0--r42hdfd78af_0": "sha256:478b8d37806485b8a808d1f9636e61b30eee1da7a457d2b8f0980b20740bed5a"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:377fe0c5a0c024736fa4575b826328415a67413a41f361f51c49e67967d380b8", "1.30.0--r42hdfd78af_0": "sha256:478b8d37806485b8a808d1f9636e61b30eee1da7a457d2b8f0980b20740bed5a"}, "docker": "quay.io/biocontainers/bioconductor-prostar", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prostar.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prostar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prostar:1.26.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-prostar:1.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prostar/1.26.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-prostar/1.26.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-prostar/1.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-prostar/1.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

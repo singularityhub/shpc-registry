@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ideal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ideal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ideal/container.yaml"
-updated_at: "2022-12-01 01:53:08.525385"
-latest: "1.18.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:09:48.560442"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ideal"
 aliases:
  - "pandoc-citeproc"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r41hdfd78af_0"
  - "1.14.0--r40hdfd78af_1"
  - "1.10.0--r36_0"
+ - "1.22.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ideal"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ideal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ideal", "latest": {"1.18.0--r41hdfd78af_0": "sha256:c90f8d5618d5a1f464a3e2b62ba595a8807bcb32c2171073be5d45acf8469019"}, "tags": {"1.8.0--r36_1": "sha256:ab84086fd4a451746480a49b9302b2ccc8da14383418c0b30109142c28d9c649", "1.18.0--r41hdfd78af_0": "sha256:c90f8d5618d5a1f464a3e2b62ba595a8807bcb32c2171073be5d45acf8469019", "1.16.0--r41hdfd78af_0": "sha256:7a25d9b61b5ec2a1f407cfbb0409e507ea2e06ed586f3e04969591bde0cfaec8", "1.14.0--r40hdfd78af_1": "sha256:31032d02802f8b77ea66a4eec58284dabf0992b8450c4f06754ef674b8e961fc", "1.10.0--r36_0": "sha256:53ba990de07efdc64ef77e4487f817e96ca581154903da1026d0b4d27533741f"}, "docker": "quay.io/biocontainers/bioconductor-ideal", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ideal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ideal", "latest": {"1.22.0--r42hdfd78af_0": "sha256:244e73f1b401a94c5b056952d34b42726e67bf824856bf423fd6d1dc0f5efdd4"}, "tags": {"1.8.0--r36_1": "sha256:ab84086fd4a451746480a49b9302b2ccc8da14383418c0b30109142c28d9c649", "1.18.0--r41hdfd78af_0": "sha256:c90f8d5618d5a1f464a3e2b62ba595a8807bcb32c2171073be5d45acf8469019", "1.16.0--r41hdfd78af_0": "sha256:7a25d9b61b5ec2a1f407cfbb0409e507ea2e06ed586f3e04969591bde0cfaec8", "1.14.0--r40hdfd78af_1": "sha256:31032d02802f8b77ea66a4eec58284dabf0992b8450c4f06754ef674b8e961fc", "1.10.0--r36_0": "sha256:53ba990de07efdc64ef77e4487f817e96ca581154903da1026d0b4d27533741f", "1.22.0--r42hdfd78af_0": "sha256:244e73f1b401a94c5b056952d34b42726e67bf824856bf423fd6d1dc0f5efdd4"}, "docker": "quay.io/biocontainers/bioconductor-ideal", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ideal.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ideal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ideal:1.18.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ideal:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ideal/1.18.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ideal/1.18.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ideal/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ideal/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

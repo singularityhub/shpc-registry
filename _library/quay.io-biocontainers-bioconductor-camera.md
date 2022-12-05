@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-camera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-camera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-camera/container.yaml"
-updated_at: "2022-12-01 01:38:24.541051"
-latest: "1.50.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 02:52:55.701768"
+latest: "1.54.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-camera"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf24to8"
 versions:
  - "1.50.0--r41hc0cfd56_2"
+ - "1.54.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-camera"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-camera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-camera", "latest": {"1.50.0--r41hc0cfd56_2": "sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b"}, "tags": {"1.50.0--r41hc0cfd56_2": "sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b"}, "docker": "quay.io/biocontainers/bioconductor-camera", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-camera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-camera", "latest": {"1.54.0--r42hc0cfd56_0": "sha256:09f48ef9fb0c05f70eeeefdf578ae438ca941b3821cace5fca004ef714dd820c"}, "tags": {"1.50.0--r41hc0cfd56_2": "sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b", "1.54.0--r42hc0cfd56_0": "sha256:09f48ef9fb0c05f70eeeefdf578ae438ca941b3821cace5fca004ef714dd820c"}, "docker": "quay.io/biocontainers/bioconductor-camera", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-camera.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-camera
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-camera:1.50.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-camera:1.54.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-camera/1.50.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-camera/1.50.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-camera/1.54.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-camera/1.54.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

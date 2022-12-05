@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ensembl-vep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ensembl-vep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ensembl-vep/container.yaml"
-updated_at: "2022-12-01 02:42:19.096051"
+updated_at: "2022-12-05 04:05:06.841037"
 latest: "98.1--pl526hecc5488_0"
 container_url: "https://biocontainers.pro/tools/ensembl-vep"
 aliases:

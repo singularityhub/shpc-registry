@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-meigor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meigor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meigor/container.yaml"
-updated_at: "2022-12-01 02:32:12.004049"
-latest: "1.28.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:53:44.490247"
+latest: "1.31.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meigor"
 aliases:
  - "diffimg"
@@ -20,8 +20,9 @@ aliases:
  - "stl2gts"
 versions:
  - "1.28.0--r41hdfd78af_0"
+ - "1.31.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meigor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meigor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meigor", "latest": {"1.28.0--r41hdfd78af_0": "sha256:d4c65fafa9a070b782d800b53b75c018621760f9a19c587f052055cd41b9c4ed"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:d4c65fafa9a070b782d800b53b75c018621760f9a19c587f052055cd41b9c4ed"}, "docker": "quay.io/biocontainers/bioconductor-meigor", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meigor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meigor", "latest": {"1.31.0--r42hdfd78af_0": "sha256:0747f99ae27608a294b57a34894b8f24f4124e35d6c0a5cd89910cfa42373494"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:d4c65fafa9a070b782d800b53b75c018621760f9a19c587f052055cd41b9c4ed", "1.31.0--r42hdfd78af_0": "sha256:0747f99ae27608a294b57a34894b8f24f4124e35d6c0a5cd89910cfa42373494"}, "docker": "quay.io/biocontainers/bioconductor-meigor", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meigor.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-meigor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-meigor:1.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-meigor:1.31.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-meigor/1.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-meigor/1.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-meigor/1.31.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-meigor/1.31.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

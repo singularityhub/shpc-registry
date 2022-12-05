@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-caen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-caen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-caen/container.yaml"
-updated_at: "2022-12-01 02:25:42.318067"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:46:36.067011"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-caen"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-caen"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-caen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-caen", "latest": {"1.2.0--r41hdfd78af_0": "sha256:7ebb971bf58ad294c9ae1226713ce66facc1820440374a0be7e5880954a8b93d"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7ebb971bf58ad294c9ae1226713ce66facc1820440374a0be7e5880954a8b93d"}, "docker": "quay.io/biocontainers/bioconductor-caen"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-caen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-caen", "latest": {"1.6.0--r42hdfd78af_0": "sha256:2876ad4407391dedad562f6e092685c5b3c6732989a2ac4ce6874e6f1bcc87bb"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7ebb971bf58ad294c9ae1226713ce66facc1820440374a0be7e5880954a8b93d", "1.6.0--r42hdfd78af_0": "sha256:2876ad4407391dedad562f6e092685c5b3c6732989a2ac4ce6874e6f1bcc87bb"}, "docker": "quay.io/biocontainers/bioconductor-caen"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-caen.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-caen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-caen:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-caen:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-caen/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-caen/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-caen/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-caen/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

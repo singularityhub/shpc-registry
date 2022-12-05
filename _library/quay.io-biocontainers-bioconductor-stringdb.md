@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-stringdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stringdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stringdb/container.yaml"
-updated_at: "2022-12-01 01:42:16.734351"
-latest: "2.6.0--r41hdfd78af_0"
+updated_at: "2022-12-05 02:57:25.777762"
+latest: "2.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stringdb"
 
 versions:
  - "2.6.0--r41hdfd78af_0"
+ - "2.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stringdb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stringdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stringdb", "latest": {"2.6.0--r41hdfd78af_0": "sha256:a76f257aa8c88cb54a57f72062f812a3fd0d5ad1bd3c727c3650e4b9a85f0cc5"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:a76f257aa8c88cb54a57f72062f812a3fd0d5ad1bd3c727c3650e4b9a85f0cc5"}, "docker": "quay.io/biocontainers/bioconductor-stringdb"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stringdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stringdb", "latest": {"2.10.0--r42hdfd78af_0": "sha256:aff2254bc480fa947e6499a64fb8e5fc9281b643ca799da33773cf6c2db71c9c"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:a76f257aa8c88cb54a57f72062f812a3fd0d5ad1bd3c727c3650e4b9a85f0cc5", "2.10.0--r42hdfd78af_0": "sha256:aff2254bc480fa947e6499a64fb8e5fc9281b643ca799da33773cf6c2db71c9c"}, "docker": "quay.io/biocontainers/bioconductor-stringdb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stringdb.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stringdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stringdb:2.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-stringdb:2.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stringdb/2.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-stringdb/2.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-stringdb/2.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stringdb/2.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pfp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pfp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pfp/container.yaml"
-updated_at: "2022-12-01 02:45:36.727468"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-12-05 04:08:54.827141"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pfp"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pfp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pfp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pfp", "latest": {"1.2.0--r41hdfd78af_0": "sha256:b9876c9f65abed3ed9164fa7bc448807eb1abf890d928348e694e370aa1cf3fc"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b9876c9f65abed3ed9164fa7bc448807eb1abf890d928348e694e370aa1cf3fc"}, "docker": "quay.io/biocontainers/bioconductor-pfp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pfp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pfp", "latest": {"1.6.0--r42hdfd78af_0": "sha256:d6abcab2d4ad65fac7c4e80eef507716ac100ef29ed1b92ed376c20a86becad0"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b9876c9f65abed3ed9164fa7bc448807eb1abf890d928348e694e370aa1cf3fc", "1.6.0--r42hdfd78af_0": "sha256:d6abcab2d4ad65fac7c4e80eef507716ac100ef29ed1b92ed376c20a86becad0"}, "docker": "quay.io/biocontainers/bioconductor-pfp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pfp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pfp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pfp:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pfp:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pfp/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pfp/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pfp/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pfp/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

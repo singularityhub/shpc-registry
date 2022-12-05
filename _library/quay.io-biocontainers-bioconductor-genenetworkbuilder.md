@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genenetworkbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genenetworkbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genenetworkbuilder/container.yaml"
-updated_at: "2022-12-01 01:45:34.054782"
-latest: "1.36.1--r41hc247a5b_1"
+updated_at: "2022-12-05 03:01:08.840867"
+latest: "1.40.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genenetworkbuilder"
 
 versions:
  - "1.36.1--r41hc247a5b_1"
+ - "1.40.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genenetworkbuilder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genenetworkbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genenetworkbuilder", "latest": {"1.36.1--r41hc247a5b_1": "sha256:95d65d458abcfc62a64c59113bf7e1cbadeee8cdfdba850ff882897b0775354b"}, "tags": {"1.36.1--r41hc247a5b_1": "sha256:95d65d458abcfc62a64c59113bf7e1cbadeee8cdfdba850ff882897b0775354b"}, "docker": "quay.io/biocontainers/bioconductor-genenetworkbuilder"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genenetworkbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genenetworkbuilder", "latest": {"1.40.0--r42hc247a5b_0": "sha256:5fc7bc961d6fa5310b21366b7d93987ffad8231375ed7f2ee7ce19f642368a00"}, "tags": {"1.36.1--r41hc247a5b_1": "sha256:95d65d458abcfc62a64c59113bf7e1cbadeee8cdfdba850ff882897b0775354b", "1.40.0--r42hc247a5b_0": "sha256:5fc7bc961d6fa5310b21366b7d93987ffad8231375ed7f2ee7ce19f642368a00"}, "docker": "quay.io/biocontainers/bioconductor-genenetworkbuilder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genenetworkbuilder.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genenetworkbuilder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genenetworkbuilder:1.36.1--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-genenetworkbuilder:1.40.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genenetworkbuilder/1.36.1--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-genenetworkbuilder/1.36.1--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-genenetworkbuilder/1.40.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-genenetworkbuilder/1.40.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-orqa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-orqa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-orqa/container.yaml"
-updated_at: "2022-12-01 01:56:14.530449"
-latest: "0.2.1--r41hecf12ef_7"
+updated_at: "2022-12-05 03:13:24.258769"
+latest: "0.2.1--r42hecf12ef_8"
 container_url: "https://biocontainers.pro/tools/r-orqa"
 
 versions:
  - "0.2.1--r41hecf12ef_7"
+ - "0.2.1--r42hecf12ef_8"
 description: "shpc-registry automated BioContainers addition for r-orqa"
-config: {"url": "https://biocontainers.pro/tools/r-orqa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-orqa", "latest": {"0.2.1--r41hecf12ef_7": "sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc"}, "tags": {"0.2.1--r41hecf12ef_7": "sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc"}, "docker": "quay.io/biocontainers/r-orqa"}
+config: {"url": "https://biocontainers.pro/tools/r-orqa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-orqa", "latest": {"0.2.1--r42hecf12ef_8": "sha256:6694ffb52109816c4f604690d8fcbb71163d49dbc7bd619bc9f090d7f2b879dd"}, "tags": {"0.2.1--r41hecf12ef_7": "sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc", "0.2.1--r42hecf12ef_8": "sha256:6694ffb52109816c4f604690d8fcbb71163d49dbc7bd619bc9f090d7f2b879dd"}, "docker": "quay.io/biocontainers/r-orqa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-orqa.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-orqa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-orqa:0.2.1--r41hecf12ef_7
+$ shpc install quay.io/biocontainers/r-orqa:0.2.1--r42hecf12ef_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-orqa/0.2.1--r41hecf12ef_7
-$ module help quay.io/biocontainers/r-orqa/0.2.1--r41hecf12ef_7
+$ module load quay.io/biocontainers/r-orqa/0.2.1--r42hecf12ef_8
+$ module help quay.io/biocontainers/r-orqa/0.2.1--r42hecf12ef_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/optitype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/optitype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/optitype/container.yaml"
-updated_at: "2022-12-01 02:07:21.786301"
-latest: "1.3.5--hdfd78af_1"
+updated_at: "2022-12-05 03:25:59.350309"
+latest: "1.3.5--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/optitype"
 aliases:
  - "OSSolverService"
@@ -55,8 +55,9 @@ aliases:
  - "fasta-sanitize.pl"
 versions:
  - "1.3.5--hdfd78af_1"
+ - "1.3.5--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for optitype"
-config: {"url": "https://biocontainers.pro/tools/optitype", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for optitype", "latest": {"1.3.5--hdfd78af_1": "sha256:92d9b78538911d2faba7f2ae85bdc68cc80806758fd13e468b56764e0a63beb4"}, "tags": {"1.3.5--hdfd78af_1": "sha256:92d9b78538911d2faba7f2ae85bdc68cc80806758fd13e468b56764e0a63beb4"}, "docker": "quay.io/biocontainers/optitype", "aliases": {"OSSolverService": "/usr/local/bin/OSSolverService", "OptiTypePipeline.py": "/usr/local/bin/OptiTypePipeline.py", "checkCopyright": "/usr/local/bin/checkCopyright", "checkcopyright": "/usr/local/bin/checkcopyright", "computeconf": "/usr/local/bin/computeconf", "config.ini": "/usr/local/bin/config.ini", "dispatch_srvr": "/usr/local/bin/dispatch_srvr", "evaluate_xhat": "/usr/local/bin/evaluate_xhat", "hlatyper.py": "/usr/local/bin/hlatyper.py", "kill_pyro_mip_servers": "/usr/local/bin/kill_pyro_mip_servers", "launch_pyro_mip_servers": "/usr/local/bin/launch_pyro_mip_servers", "lbin": "/usr/local/bin/lbin", "lpython": "/usr/local/bin/lpython", "model.py": "/usr/local/bin/model.py", "ossolverservice": "/usr/local/bin/ossolverservice", "phsolverserver": "/usr/local/bin/phsolverserver", "pyomo": "/usr/local/bin/pyomo", "pyomo_ns": "/usr/local/bin/pyomo_ns", "pyomo_nsc": "/usr/local/bin/pyomo_nsc", "pyomo_old": "/usr/local/bin/pyomo_old", "pyomo_python": "/usr/local/bin/pyomo_python", "pypi_downloads": "/usr/local/bin/pypi_downloads", "pyro_mip_server": "/usr/local/bin/pyro_mip_server", "pyutilib_test_driver": "/usr/local/bin/pyutilib_test_driver", "razers3": "/usr/local/bin/razers3", "readsol": "/usr/local/bin/readsol", "replaceCopyright": "/usr/local/bin/replaceCopyright", "replacecopyright": "/usr/local/bin/replacecopyright", "results_schema": "/usr/local/bin/results_schema", "runbenders": "/usr/local/bin/runbenders", "runef": "/usr/local/bin/runef", "runph": "/usr/local/bin/runph", "scenariotreeserver": "/usr/local/bin/scenariotreeserver", "test.pyomo": "/usr/local/bin/test.pyomo", "test.pyutilib": "/usr/local/bin/test.pyutilib", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "nosetests": "/usr/local/bin/nosetests", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "glpsol": "/usr/local/bin/glpsol", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
+config: {"url": "https://biocontainers.pro/tools/optitype", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for optitype", "latest": {"1.3.5--hdfd78af_2": "sha256:ed4389ce509f14c7b12c46184fd5a193e5472898d357b172b2dc326c3ab33e39"}, "tags": {"1.3.5--hdfd78af_1": "sha256:92d9b78538911d2faba7f2ae85bdc68cc80806758fd13e468b56764e0a63beb4", "1.3.5--hdfd78af_2": "sha256:ed4389ce509f14c7b12c46184fd5a193e5472898d357b172b2dc326c3ab33e39"}, "docker": "quay.io/biocontainers/optitype", "aliases": {"OSSolverService": "/usr/local/bin/OSSolverService", "OptiTypePipeline.py": "/usr/local/bin/OptiTypePipeline.py", "checkCopyright": "/usr/local/bin/checkCopyright", "checkcopyright": "/usr/local/bin/checkcopyright", "computeconf": "/usr/local/bin/computeconf", "config.ini": "/usr/local/bin/config.ini", "dispatch_srvr": "/usr/local/bin/dispatch_srvr", "evaluate_xhat": "/usr/local/bin/evaluate_xhat", "hlatyper.py": "/usr/local/bin/hlatyper.py", "kill_pyro_mip_servers": "/usr/local/bin/kill_pyro_mip_servers", "launch_pyro_mip_servers": "/usr/local/bin/launch_pyro_mip_servers", "lbin": "/usr/local/bin/lbin", "lpython": "/usr/local/bin/lpython", "model.py": "/usr/local/bin/model.py", "ossolverservice": "/usr/local/bin/ossolverservice", "phsolverserver": "/usr/local/bin/phsolverserver", "pyomo": "/usr/local/bin/pyomo", "pyomo_ns": "/usr/local/bin/pyomo_ns", "pyomo_nsc": "/usr/local/bin/pyomo_nsc", "pyomo_old": "/usr/local/bin/pyomo_old", "pyomo_python": "/usr/local/bin/pyomo_python", "pypi_downloads": "/usr/local/bin/pypi_downloads", "pyro_mip_server": "/usr/local/bin/pyro_mip_server", "pyutilib_test_driver": "/usr/local/bin/pyutilib_test_driver", "razers3": "/usr/local/bin/razers3", "readsol": "/usr/local/bin/readsol", "replaceCopyright": "/usr/local/bin/replaceCopyright", "replacecopyright": "/usr/local/bin/replacecopyright", "results_schema": "/usr/local/bin/results_schema", "runbenders": "/usr/local/bin/runbenders", "runef": "/usr/local/bin/runef", "runph": "/usr/local/bin/runph", "scenariotreeserver": "/usr/local/bin/scenariotreeserver", "test.pyomo": "/usr/local/bin/test.pyomo", "test.pyutilib": "/usr/local/bin/test.pyutilib", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "nosetests": "/usr/local/bin/nosetests", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "glpsol": "/usr/local/bin/glpsol", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/optitype.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/optitype
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/optitype:1.3.5--hdfd78af_1
+$ shpc install quay.io/biocontainers/optitype:1.3.5--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/optitype/1.3.5--hdfd78af_1
-$ module help quay.io/biocontainers/optitype/1.3.5--hdfd78af_1
+$ module load quay.io/biocontainers/optitype/1.3.5--hdfd78af_2
+$ module help quay.io/biocontainers/optitype/1.3.5--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

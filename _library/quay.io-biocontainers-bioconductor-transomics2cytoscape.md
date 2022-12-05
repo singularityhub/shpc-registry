@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-transomics2cytoscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transomics2cytoscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transomics2cytoscape/container.yaml"
-updated_at: "2022-12-01 02:38:40.562110"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-12-05 04:00:58.292779"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transomics2cytoscape"
 aliases:
  - "Cytoscape"
@@ -20,8 +20,9 @@ aliases:
  - "jimage"
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-transomics2cytoscape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-transomics2cytoscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transomics2cytoscape", "latest": {"1.4.0--r41hdfd78af_0": "sha256:d90e9066a90a22918c61d8fc24bf208883208a78a5508508719734a98fa605af"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d90e9066a90a22918c61d8fc24bf208883208a78a5508508719734a98fa605af"}, "docker": "quay.io/biocontainers/bioconductor-transomics2cytoscape", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-transomics2cytoscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transomics2cytoscape", "latest": {"1.8.0--r42hdfd78af_0": "sha256:724e3eecc8634f07b253a674cac755051ddfbf749b04d26b8ec58cbf9e26bcd2"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d90e9066a90a22918c61d8fc24bf208883208a78a5508508719734a98fa605af", "1.8.0--r42hdfd78af_0": "sha256:724e3eecc8634f07b253a674cac755051ddfbf749b04d26b8ec58cbf9e26bcd2"}, "docker": "quay.io/biocontainers/bioconductor-transomics2cytoscape", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-transomics2cytoscape.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-transomics2cytoscape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-transomics2cytoscape:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-transomics2cytoscape:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-transomics2cytoscape/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-transomics2cytoscape/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-transomics2cytoscape/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-transomics2cytoscape/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

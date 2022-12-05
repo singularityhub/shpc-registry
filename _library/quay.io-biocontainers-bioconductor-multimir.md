@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-multimir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multimir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multimir/container.yaml"
-updated_at: "2022-12-01 01:53:59.723677"
-latest: "1.16.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:10:47.074669"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multimir"
 aliases:
  - "gio-launch-desktop"
@@ -17,8 +17,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.20.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-multimir"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-multimir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multimir", "latest": {"1.16.0--r41hdfd78af_0": "sha256:a1a23ea8dd61b2bd47501be8252f05c1dd3589a96520c0ecd62f1e9835f33123"}, "tags": {"1.6.0--r36_1": "sha256:167c3ccf54022a9fc6c2c4d9c308978b9eea7aa357164945341e8861c4cb193a", "1.16.0--r41hdfd78af_0": "sha256:a1a23ea8dd61b2bd47501be8252f05c1dd3589a96520c0ecd62f1e9835f33123", "1.14.0--r41hdfd78af_0": "sha256:a24e216e5a3e1f55b72fadc7fb3b1365003bfb2b455daf49c4a9ea6b3fc382c7", "1.12.0--r40hdfd78af_1": "sha256:ea8af6016eea8461a2dff76e2a744ceda7c4b940b7dbfdf9ce542def696b3d01", "1.10.0--r40_0": "sha256:bdf2247f66717b9ffc8d37ce9d58ae4199cca4d2c8f64781f40d19b5699fd6a5"}, "docker": "quay.io/biocontainers/bioconductor-multimir", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-multimir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multimir", "latest": {"1.20.0--r42hdfd78af_0": "sha256:9cf79b19cf95bc9e2b1fc82f4cbabc5291d2102d1fcff3b2ff3b81456432672d"}, "tags": {"1.6.0--r36_1": "sha256:167c3ccf54022a9fc6c2c4d9c308978b9eea7aa357164945341e8861c4cb193a", "1.16.0--r41hdfd78af_0": "sha256:a1a23ea8dd61b2bd47501be8252f05c1dd3589a96520c0ecd62f1e9835f33123", "1.14.0--r41hdfd78af_0": "sha256:a24e216e5a3e1f55b72fadc7fb3b1365003bfb2b455daf49c4a9ea6b3fc382c7", "1.12.0--r40hdfd78af_1": "sha256:ea8af6016eea8461a2dff76e2a744ceda7c4b940b7dbfdf9ce542def696b3d01", "1.10.0--r40_0": "sha256:bdf2247f66717b9ffc8d37ce9d58ae4199cca4d2c8f64781f40d19b5699fd6a5", "1.20.0--r42hdfd78af_0": "sha256:9cf79b19cf95bc9e2b1fc82f4cbabc5291d2102d1fcff3b2ff3b81456432672d"}, "docker": "quay.io/biocontainers/bioconductor-multimir", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-multimir.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-multimir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-multimir:1.16.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-multimir:1.20.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-multimir/1.16.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-multimir/1.16.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-multimir/1.20.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-multimir/1.20.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

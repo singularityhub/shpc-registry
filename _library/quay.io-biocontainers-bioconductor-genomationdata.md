@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genomationdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomationdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomationdata/container.yaml"
-updated_at: "2022-12-01 02:23:06.830601"
-latest: "1.26.0--r41hdfd78af_1"
+updated_at: "2022-12-05 03:43:41.569316"
+latest: "1.29.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomationdata"
 
 versions:
  - "1.26.0--r41hdfd78af_1"
+ - "1.29.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomationdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomationdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomationdata", "latest": {"1.26.0--r41hdfd78af_1": "sha256:49a3393edb4a0768c574cf8a49c880a0f01b8fa67bce64075903a7c2e2830250"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:49a3393edb4a0768c574cf8a49c880a0f01b8fa67bce64075903a7c2e2830250"}, "docker": "quay.io/biocontainers/bioconductor-genomationdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomationdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomationdata", "latest": {"1.29.0--r42hdfd78af_0": "sha256:da5e5966b37ae6b27ff5c69add2c5a66707cd05f4f11ed35f43cc312a7c17e57"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:49a3393edb4a0768c574cf8a49c880a0f01b8fa67bce64075903a7c2e2830250", "1.29.0--r42hdfd78af_0": "sha256:da5e5966b37ae6b27ff5c69add2c5a66707cd05f4f11ed35f43cc312a7c17e57"}, "docker": "quay.io/biocontainers/bioconductor-genomationdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomationdata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomationdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomationdata:1.26.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-genomationdata:1.29.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomationdata/1.26.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-genomationdata/1.26.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-genomationdata/1.29.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomationdata/1.29.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

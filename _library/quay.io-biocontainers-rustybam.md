@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rustybam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustybam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustybam/container.yaml"
-updated_at: "2022-12-01 02:29:51.068217"
-latest: "0.1.30--hc52b9a9_1"
+updated_at: "2022-12-05 03:51:09.021382"
+latest: "0.1.31--hc52b9a9_0"
 container_url: "https://biocontainers.pro/tools/rustybam"
 aliases:
  - "rb"
  - "rustybam"
 versions:
  - "0.1.30--hc52b9a9_1"
+ - "0.1.31--hc52b9a9_0"
 description: "shpc-registry automated BioContainers addition for rustybam"
-config: {"url": "https://biocontainers.pro/tools/rustybam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustybam", "latest": {"0.1.30--hc52b9a9_1": "sha256:e056aa9311c66cad3c2d34cda1ea4636defe9621040e764a8ebbd18573080771"}, "tags": {"0.1.30--hc52b9a9_1": "sha256:e056aa9311c66cad3c2d34cda1ea4636defe9621040e764a8ebbd18573080771"}, "docker": "quay.io/biocontainers/rustybam", "aliases": {"rb": "/usr/local/bin/rb", "rustybam": "/usr/local/bin/rustybam"}}
+config: {"url": "https://biocontainers.pro/tools/rustybam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rustybam", "latest": {"0.1.31--hc52b9a9_0": "sha256:168d060c5f48fba1b0b125a1df02f8f5a4d28e7eab0e0f9f6a32266f65101db5"}, "tags": {"0.1.30--hc52b9a9_1": "sha256:e056aa9311c66cad3c2d34cda1ea4636defe9621040e764a8ebbd18573080771", "0.1.31--hc52b9a9_0": "sha256:168d060c5f48fba1b0b125a1df02f8f5a4d28e7eab0e0f9f6a32266f65101db5"}, "docker": "quay.io/biocontainers/rustybam", "aliases": {"rb": "/usr/local/bin/rb", "rustybam": "/usr/local/bin/rustybam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rustybam.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rustybam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rustybam:0.1.30--hc52b9a9_1
+$ shpc install quay.io/biocontainers/rustybam:0.1.31--hc52b9a9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rustybam/0.1.30--hc52b9a9_1
-$ module help quay.io/biocontainers/rustybam/0.1.30--hc52b9a9_1
+$ module load quay.io/biocontainers/rustybam/0.1.31--hc52b9a9_0
+$ module help quay.io/biocontainers/rustybam/0.1.31--hc52b9a9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

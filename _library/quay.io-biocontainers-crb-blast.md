@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crb-blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crb-blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crb-blast/container.yaml"
-updated_at: "2022-12-01 01:37:26.021947"
-latest: "0.6.6--2"
+updated_at: "2022-12-05 02:51:48.535665"
+latest: "0.6.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crb-blast"
 aliases:
  - "bioruby"
@@ -28,8 +28,9 @@ aliases:
  - "erb"
 versions:
  - "0.6.6--2"
+ - "0.6.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for crb-blast"
-config: {"url": "https://biocontainers.pro/tools/crb-blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crb-blast", "latest": {"0.6.6--2": "sha256:db9c0129f5a0066fc39faf8eac646c29c5fdafad56c35fac7e3bcb7c4a616827"}, "tags": {"0.6.6--2": "sha256:db9c0129f5a0066fc39faf8eac646c29c5fdafad56c35fac7e3bcb7c4a616827"}, "docker": "quay.io/biocontainers/crb-blast", "aliases": {"bioruby": "/usr/local/bin/bioruby", "br_biofetch.rb": "/usr/local/bin/br_biofetch.rb", "br_bioflat.rb": "/usr/local/bin/br_bioflat.rb", "br_biogetseq.rb": "/usr/local/bin/br_biogetseq.rb", "br_pmfetch.rb": "/usr/local/bin/br_pmfetch.rb", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "crb-blast": "/usr/local/bin/crb-blast", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "erb": "/usr/local/bin/erb"}}
+config: {"url": "https://biocontainers.pro/tools/crb-blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crb-blast", "latest": {"0.6.9--hdfd78af_0": "sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33"}, "tags": {"0.6.6--2": "sha256:db9c0129f5a0066fc39faf8eac646c29c5fdafad56c35fac7e3bcb7c4a616827", "0.6.9--hdfd78af_0": "sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33"}, "docker": "quay.io/biocontainers/crb-blast", "aliases": {"bioruby": "/usr/local/bin/bioruby", "br_biofetch.rb": "/usr/local/bin/br_biofetch.rb", "br_bioflat.rb": "/usr/local/bin/br_bioflat.rb", "br_biogetseq.rb": "/usr/local/bin/br_biogetseq.rb", "br_pmfetch.rb": "/usr/local/bin/br_pmfetch.rb", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "crb-blast": "/usr/local/bin/crb-blast", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "erb": "/usr/local/bin/erb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crb-blast.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/crb-blast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crb-blast:0.6.6--2
+$ shpc install quay.io/biocontainers/crb-blast:0.6.9--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crb-blast/0.6.6--2
-$ module help quay.io/biocontainers/crb-blast/0.6.6--2
+$ module load quay.io/biocontainers/crb-blast/0.6.9--hdfd78af_0
+$ module help quay.io/biocontainers/crb-blast/0.6.9--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

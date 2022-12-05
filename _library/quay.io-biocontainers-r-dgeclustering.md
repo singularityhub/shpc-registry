@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-dgeclustering"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dgeclustering/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dgeclustering/container.yaml"
-updated_at: "2022-12-01 02:09:57.834115"
-latest: "0.1.0--r41h9ee0642_3"
+updated_at: "2022-12-05 03:28:50.458660"
+latest: "0.1.0--r42h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-dgeclustering"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.1.0--r41h9ee0642_3"
+ - "0.1.0--r42h9ee0642_4"
 description: "shpc-registry automated BioContainers addition for r-dgeclustering"
-config: {"url": "https://biocontainers.pro/tools/r-dgeclustering", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dgeclustering", "latest": {"0.1.0--r41h9ee0642_3": "sha256:020e9b02c94baf801be9f2ac0b9638491aa791619d3e04dbab933691f2455a41"}, "tags": {"0.1.0--r41h9ee0642_3": "sha256:020e9b02c94baf801be9f2ac0b9638491aa791619d3e04dbab933691f2455a41"}, "docker": "quay.io/biocontainers/r-dgeclustering", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-dgeclustering", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dgeclustering", "latest": {"0.1.0--r42h9ee0642_4": "sha256:ff0ead51a414f413793d70b24d9fe247d585b5f655919c3a0394fb94c3a67d71"}, "tags": {"0.1.0--r41h9ee0642_3": "sha256:020e9b02c94baf801be9f2ac0b9638491aa791619d3e04dbab933691f2455a41", "0.1.0--r42h9ee0642_4": "sha256:ff0ead51a414f413793d70b24d9fe247d585b5f655919c3a0394fb94c3a67d71"}, "docker": "quay.io/biocontainers/r-dgeclustering", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dgeclustering.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-dgeclustering
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dgeclustering:0.1.0--r41h9ee0642_3
+$ shpc install quay.io/biocontainers/r-dgeclustering:0.1.0--r42h9ee0642_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dgeclustering/0.1.0--r41h9ee0642_3
-$ module help quay.io/biocontainers/r-dgeclustering/0.1.0--r41h9ee0642_3
+$ module load quay.io/biocontainers/r-dgeclustering/0.1.0--r42h9ee0642_4
+$ module help quay.io/biocontainers/r-dgeclustering/0.1.0--r42h9ee0642_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

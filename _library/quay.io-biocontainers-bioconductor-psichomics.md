@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-psichomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-psichomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-psichomics/container.yaml"
-updated_at: "2022-12-01 01:49:50.181174"
-latest: "1.20.2--r41hc247a5b_0"
+updated_at: "2022-12-05 03:06:03.788901"
+latest: "1.24.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-psichomics"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r40h399db7b_1"
  - "1.13.1--r40h5f743cb_0"
  - "1.12.0--r36he1b5a44_0"
+ - "1.24.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-psichomics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-psichomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-psichomics", "latest": {"1.20.2--r41hc247a5b_0": "sha256:559c8e285296201aa44890289fec4e96c89c8d15ea36c27a54a3e8fb32188572"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:b163cdc3837ace65e841e675949727823aa6f26d2539b0600da6ae602dd51ba4", "1.20.2--r41hc247a5b_0": "sha256:559c8e285296201aa44890289fec4e96c89c8d15ea36c27a54a3e8fb32188572", "1.18.1--r41h399db7b_0": "sha256:1fb8c219f7c688c54553841a1fac085cb47f2b2adf5cc2aa47585e4e78f690b6", "1.16.0--r40h399db7b_1": "sha256:d76617f5d2c000a558cf28ed41fd10f8a74d62bc5a5f6ff6991026391ef5ef72", "1.13.1--r40h5f743cb_0": "sha256:0c8f515fbe5e7e04a2ebb59cda49269357a6fd29877588622a040ead25504862", "1.12.0--r36he1b5a44_0": "sha256:8dbcd55508bc54dc5602a226602ce9b08dc933d1eda4fa19da0f5efc03310d11"}, "docker": "quay.io/biocontainers/bioconductor-psichomics", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-psichomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-psichomics", "latest": {"1.24.0--r42hc247a5b_0": "sha256:5fb490f37bbe60ab7048ec19019e59849ac6ef8d4851208db81d51b51bd7890d"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:b163cdc3837ace65e841e675949727823aa6f26d2539b0600da6ae602dd51ba4", "1.20.2--r41hc247a5b_0": "sha256:559c8e285296201aa44890289fec4e96c89c8d15ea36c27a54a3e8fb32188572", "1.18.1--r41h399db7b_0": "sha256:1fb8c219f7c688c54553841a1fac085cb47f2b2adf5cc2aa47585e4e78f690b6", "1.16.0--r40h399db7b_1": "sha256:d76617f5d2c000a558cf28ed41fd10f8a74d62bc5a5f6ff6991026391ef5ef72", "1.13.1--r40h5f743cb_0": "sha256:0c8f515fbe5e7e04a2ebb59cda49269357a6fd29877588622a040ead25504862", "1.12.0--r36he1b5a44_0": "sha256:8dbcd55508bc54dc5602a226602ce9b08dc933d1eda4fa19da0f5efc03310d11", "1.24.0--r42hc247a5b_0": "sha256:5fb490f37bbe60ab7048ec19019e59849ac6ef8d4851208db81d51b51bd7890d"}, "docker": "quay.io/biocontainers/bioconductor-psichomics", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-psichomics.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-psichomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-psichomics:1.20.2--r41hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-psichomics:1.24.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-psichomics/1.20.2--r41hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-psichomics/1.20.2--r41hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-psichomics/1.24.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-psichomics/1.24.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kat/container.yaml"
-updated_at: "2022-12-01 02:03:54.821955"
-latest: "2.4.2--py36h873903e_2"
+updated_at: "2022-12-05 03:22:09.511583"
+latest: "2.4.2--py39h7c5ebd6_3"
 container_url: "https://biocontainers.pro/tools/kat"
 aliases:
  - "kat"
@@ -29,8 +29,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "2.4.2--py36h873903e_2"
+ - "2.4.2--py39h7c5ebd6_3"
 description: "shpc-registry automated BioContainers addition for kat"
-config: {"url": "https://biocontainers.pro/tools/kat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kat", "latest": {"2.4.2--py36h873903e_2": "sha256:74b2649ad063f0091c9f09602f7fee8d872a99a2f54382bbb3d825cc8de79de4"}, "tags": {"2.4.2--py36h873903e_2": "sha256:74b2649ad063f0091c9f09602f7fee8d872a99a2f54382bbb3d825cc8de79de4"}, "docker": "quay.io/biocontainers/kat", "aliases": {"kat": "/usr/local/bin/kat", "kat_distanalysis": "/usr/local/bin/kat_distanalysis", "kat_jellyfish": "/usr/local/bin/kat_jellyfish", "kat_plot_cold": "/usr/local/bin/kat_plot_cold", "kat_plot_density": "/usr/local/bin/kat_plot_density", "kat_plot_profile": "/usr/local/bin/kat_plot_profile", "kat_plot_spectra_cn": "/usr/local/bin/kat_plot_spectra_cn", "kat_plot_spectra_hist": "/usr/local/bin/kat_plot_spectra_hist", "kat_plot_spectra_mx": "/usr/local/bin/kat_plot_spectra_mx", "tabulate": "/usr/local/bin/tabulate", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/kat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kat", "latest": {"2.4.2--py39h7c5ebd6_3": "sha256:a3f774bef166850cee064d97064afea39fd21f80b00786fd475e61cfe28a7372"}, "tags": {"2.4.2--py36h873903e_2": "sha256:74b2649ad063f0091c9f09602f7fee8d872a99a2f54382bbb3d825cc8de79de4", "2.4.2--py39h7c5ebd6_3": "sha256:a3f774bef166850cee064d97064afea39fd21f80b00786fd475e61cfe28a7372"}, "docker": "quay.io/biocontainers/kat", "aliases": {"kat": "/usr/local/bin/kat", "kat_distanalysis": "/usr/local/bin/kat_distanalysis", "kat_jellyfish": "/usr/local/bin/kat_jellyfish", "kat_plot_cold": "/usr/local/bin/kat_plot_cold", "kat_plot_density": "/usr/local/bin/kat_plot_density", "kat_plot_profile": "/usr/local/bin/kat_plot_profile", "kat_plot_spectra_cn": "/usr/local/bin/kat_plot_spectra_cn", "kat_plot_spectra_hist": "/usr/local/bin/kat_plot_spectra_hist", "kat_plot_spectra_mx": "/usr/local/bin/kat_plot_spectra_mx", "tabulate": "/usr/local/bin/tabulate", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kat.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/kat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kat:2.4.2--py36h873903e_2
+$ shpc install quay.io/biocontainers/kat:2.4.2--py39h7c5ebd6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kat/2.4.2--py36h873903e_2
-$ module help quay.io/biocontainers/kat/2.4.2--py36h873903e_2
+$ module load quay.io/biocontainers/kat/2.4.2--py39h7c5ebd6_3
+$ module help quay.io/biocontainers/kat/2.4.2--py39h7c5ebd6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

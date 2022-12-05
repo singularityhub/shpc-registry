@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mmappr2data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmappr2data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmappr2data/container.yaml"
-updated_at: "2022-12-01 02:39:23.964827"
-latest: "1.8.0--r41hdfd78af_1"
+updated_at: "2022-12-05 04:01:48.180995"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmappr2data"
 
 versions:
  - "1.8.0--r41hdfd78af_1"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mmappr2data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mmappr2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmappr2data", "latest": {"1.8.0--r41hdfd78af_1": "sha256:58490534e96ddfc4cf46947c800843657754c1ae93c35ce1adbc948f45e4c30b"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:58490534e96ddfc4cf46947c800843657754c1ae93c35ce1adbc948f45e4c30b"}, "docker": "quay.io/biocontainers/bioconductor-mmappr2data"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mmappr2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmappr2data", "latest": {"1.12.0--r42hdfd78af_0": "sha256:5bdb8b96d44aa55cff768d98dd49a0730c5e1b254d76b5e1981ac66d5f870955"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:58490534e96ddfc4cf46947c800843657754c1ae93c35ce1adbc948f45e4c30b", "1.12.0--r42hdfd78af_0": "sha256:5bdb8b96d44aa55cff768d98dd49a0730c5e1b254d76b5e1981ac66d5f870955"}, "docker": "quay.io/biocontainers/bioconductor-mmappr2data"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mmappr2data.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mmappr2data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mmappr2data:1.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-mmappr2data:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mmappr2data/1.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-mmappr2data/1.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-mmappr2data/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mmappr2data/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-nbpseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nbpseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nbpseq/container.yaml"
-updated_at: "2022-12-01 01:55:02.760754"
-latest: "0.3.1--r41h73dbb54_0"
+updated_at: "2022-12-05 03:12:01.467853"
+latest: "0.3.1--r42h73dbb54_1"
 container_url: "https://biocontainers.pro/tools/r-nbpseq"
 
 versions:
  - "0.3.1--r41h73dbb54_0"
+ - "0.3.1--r42h73dbb54_1"
 description: "shpc-registry automated BioContainers addition for r-nbpseq"
-config: {"url": "https://biocontainers.pro/tools/r-nbpseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nbpseq", "latest": {"0.3.1--r41h73dbb54_0": "sha256:ab30ce73564cc8e4c2bc7e96fe80ef86fd3805b2ec98d699ace24b99b2383fcd"}, "tags": {"0.3.1--r41h73dbb54_0": "sha256:ab30ce73564cc8e4c2bc7e96fe80ef86fd3805b2ec98d699ace24b99b2383fcd"}, "docker": "quay.io/biocontainers/r-nbpseq"}
+config: {"url": "https://biocontainers.pro/tools/r-nbpseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nbpseq", "latest": {"0.3.1--r42h73dbb54_1": "sha256:3f497fbf5186d9ffe320bed5e38bd90c6b1294befdb385ace296c0da174794ba"}, "tags": {"0.3.1--r41h73dbb54_0": "sha256:ab30ce73564cc8e4c2bc7e96fe80ef86fd3805b2ec98d699ace24b99b2383fcd", "0.3.1--r42h73dbb54_1": "sha256:3f497fbf5186d9ffe320bed5e38bd90c6b1294befdb385ace296c0da174794ba"}, "docker": "quay.io/biocontainers/r-nbpseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nbpseq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-nbpseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-nbpseq:0.3.1--r41h73dbb54_0
+$ shpc install quay.io/biocontainers/r-nbpseq:0.3.1--r42h73dbb54_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-nbpseq/0.3.1--r41h73dbb54_0
-$ module help quay.io/biocontainers/r-nbpseq/0.3.1--r41h73dbb54_0
+$ module load quay.io/biocontainers/r-nbpseq/0.3.1--r42h73dbb54_1
+$ module help quay.io/biocontainers/r-nbpseq/0.3.1--r42h73dbb54_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqpower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqpower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqpower/container.yaml"
-updated_at: "2022-12-01 02:34:17.629064"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:56:02.617511"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqpower"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaseqpower"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqpower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqpower", "latest": {"1.34.0--r41hdfd78af_0": "sha256:53d31eeb1ead8f6e3bdfb6e70d0918e570c76f04283a6b4681546eea72e0754e"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:53d31eeb1ead8f6e3bdfb6e70d0918e570c76f04283a6b4681546eea72e0754e"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqpower"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqpower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqpower", "latest": {"1.38.0--r42hdfd78af_0": "sha256:627af1c66e0630d2a9792304de8997c9abfa09d46ba09e89463dc097669cc10a"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:53d31eeb1ead8f6e3bdfb6e70d0918e570c76f04283a6b4681546eea72e0754e", "1.38.0--r42hdfd78af_0": "sha256:627af1c66e0630d2a9792304de8997c9abfa09d46ba09e89463dc097669cc10a"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqpower"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaseqpower.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaseqpower
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaseqpower:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnaseqpower:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaseqpower/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnaseqpower/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnaseqpower/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnaseqpower/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

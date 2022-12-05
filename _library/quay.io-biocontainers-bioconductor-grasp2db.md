@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-grasp2db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
-updated_at: "2022-12-01 01:48:06.983219"
-latest: "1.1.0--r41hdfd78af_10"
+updated_at: "2022-12-05 03:04:04.347309"
+latest: "1.1.0--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-grasp2db"
 
 versions:
  - "1.1.0--r41hdfd78af_9"
  - "1.1.0--r41hdfd78af_10"
+ - "1.1.0--r42hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-grasp2db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-grasp2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grasp2db", "latest": {"1.1.0--r41hdfd78af_10": "sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3", "1.1.0--r41hdfd78af_10": "sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659"}, "docker": "quay.io/biocontainers/bioconductor-grasp2db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-grasp2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grasp2db", "latest": {"1.1.0--r42hdfd78af_11": "sha256:c7566a5280af864a124f494f2936520a0e636b8725f5340296087f205d53c506"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3", "1.1.0--r41hdfd78af_10": "sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659", "1.1.0--r42hdfd78af_11": "sha256:c7566a5280af864a124f494f2936520a0e636b8725f5340296087f205d53c506"}, "docker": "quay.io/biocontainers/bioconductor-grasp2db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-grasp2db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-grasp2db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-grasp2db:1.1.0--r41hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-grasp2db:1.1.0--r42hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-grasp2db/1.1.0--r41hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-grasp2db/1.1.0--r41hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-grasp2db/1.1.0--r42hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-grasp2db/1.1.0--r42hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

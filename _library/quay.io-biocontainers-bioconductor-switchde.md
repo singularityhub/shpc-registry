@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-switchde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-switchde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-switchde/container.yaml"
-updated_at: "2022-12-01 01:41:06.022317"
-latest: "1.20.0--r41hdfd78af_0"
+updated_at: "2022-12-05 02:56:04.796478"
+latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-switchde"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
  - "1.12.0--r36_0"
+ - "1.24.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-switchde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-switchde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-switchde", "latest": {"1.20.0--r41hdfd78af_0": "sha256:4a1139066b2a1e465b2bedecf11f7f788dcd2b5e21fc009828273aa03331012f"}, "tags": {"1.8.0--r351_0": "sha256:62c6773250bf43e0749871d2cb22c5715b745d1324de9cd84aec6cd5a02512d4", "1.20.0--r41hdfd78af_0": "sha256:4a1139066b2a1e465b2bedecf11f7f788dcd2b5e21fc009828273aa03331012f", "1.18.0--r41hdfd78af_0": "sha256:2bdfb9fe29530e9d5308e566b4bee317b4b215969bb0ed38ebe017eb47846b47", "1.16.0--r40hdfd78af_1": "sha256:c04a05ba83aff6dcd792af81381d926fea768f9096df8cccfc8d73afb620159a", "1.14.0--r40_0": "sha256:7ec6d17d0f2e64fd2bda87ffbbdd627982089929fc71f6f24a564cfe27bbbb6b", "1.12.0--r36_0": "sha256:523648210d4fdd0b0b661bcd308111b95cb5b8a7b15cfa62c3a442a4bf072570"}, "docker": "quay.io/biocontainers/bioconductor-switchde", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-switchde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-switchde", "latest": {"1.24.0--r42hdfd78af_0": "sha256:628aeda99b6a27c82d4196ead89f70b6f24383d1338d7b7c95ec3da957bbc5c3"}, "tags": {"1.8.0--r351_0": "sha256:62c6773250bf43e0749871d2cb22c5715b745d1324de9cd84aec6cd5a02512d4", "1.20.0--r41hdfd78af_0": "sha256:4a1139066b2a1e465b2bedecf11f7f788dcd2b5e21fc009828273aa03331012f", "1.18.0--r41hdfd78af_0": "sha256:2bdfb9fe29530e9d5308e566b4bee317b4b215969bb0ed38ebe017eb47846b47", "1.16.0--r40hdfd78af_1": "sha256:c04a05ba83aff6dcd792af81381d926fea768f9096df8cccfc8d73afb620159a", "1.14.0--r40_0": "sha256:7ec6d17d0f2e64fd2bda87ffbbdd627982089929fc71f6f24a564cfe27bbbb6b", "1.12.0--r36_0": "sha256:523648210d4fdd0b0b661bcd308111b95cb5b8a7b15cfa62c3a442a4bf072570", "1.24.0--r42hdfd78af_0": "sha256:628aeda99b6a27c82d4196ead89f70b6f24383d1338d7b7c95ec3da957bbc5c3"}, "docker": "quay.io/biocontainers/bioconductor-switchde", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-switchde.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-switchde
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-switchde:1.20.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-switchde:1.24.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-switchde/1.20.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-switchde/1.20.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-switchde/1.24.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-switchde/1.24.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

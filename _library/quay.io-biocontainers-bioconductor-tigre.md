@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tigre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tigre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tigre/container.yaml"
-updated_at: "2022-12-01 01:58:48.868384"
-latest: "1.48.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 03:16:16.483290"
+latest: "1.52.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tigre"
 
 versions:
  - "1.48.0--r41hc0cfd56_2"
+ - "1.52.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tigre"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tigre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tigre", "latest": {"1.48.0--r41hc0cfd56_2": "sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb"}, "tags": {"1.48.0--r41hc0cfd56_2": "sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb"}, "docker": "quay.io/biocontainers/bioconductor-tigre"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tigre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tigre", "latest": {"1.52.0--r42hc0cfd56_0": "sha256:9344a6c099c0e9c4e6c723bd47b8980de1163d541ff918c9410f7642dd5231ad"}, "tags": {"1.48.0--r41hc0cfd56_2": "sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb", "1.52.0--r42hc0cfd56_0": "sha256:9344a6c099c0e9c4e6c723bd47b8980de1163d541ff918c9410f7642dd5231ad"}, "docker": "quay.io/biocontainers/bioconductor-tigre"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tigre.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tigre
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tigre:1.48.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-tigre:1.52.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tigre/1.48.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-tigre/1.48.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-tigre/1.52.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-tigre/1.52.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

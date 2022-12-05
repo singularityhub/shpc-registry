@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-orfhunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orfhunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orfhunter/container.yaml"
-updated_at: "2022-12-01 01:45:11.057738"
-latest: "1.2.0--r41hc247a5b_2"
+updated_at: "2022-12-05 03:00:43.187557"
+latest: "1.6.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orfhunter"
 
 versions:
  - "1.2.0--r41hc247a5b_2"
+ - "1.6.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-orfhunter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-orfhunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-orfhunter", "latest": {"1.2.0--r41hc247a5b_2": "sha256:cb6de33915c389a042224f5e8116f22c7b5c4d9f64639fed693077437070c49e"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:cb6de33915c389a042224f5e8116f22c7b5c4d9f64639fed693077437070c49e"}, "docker": "quay.io/biocontainers/bioconductor-orfhunter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-orfhunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-orfhunter", "latest": {"1.6.0--r42hc247a5b_0": "sha256:9c8c8b17f1de5d21fe4f69420ddc25e816c5437c3a118e2df74d613e3a7b250d"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:cb6de33915c389a042224f5e8116f22c7b5c4d9f64639fed693077437070c49e", "1.6.0--r42hc247a5b_0": "sha256:9c8c8b17f1de5d21fe4f69420ddc25e816c5437c3a118e2df74d613e3a7b250d"}, "docker": "quay.io/biocontainers/bioconductor-orfhunter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-orfhunter.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-orfhunter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-orfhunter:1.2.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-orfhunter:1.6.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-orfhunter/1.2.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-orfhunter/1.2.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-orfhunter/1.6.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-orfhunter/1.6.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

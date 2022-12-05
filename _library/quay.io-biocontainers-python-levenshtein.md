@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-levenshtein"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-levenshtein/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-levenshtein/container.yaml"
-updated_at: "2022-12-01 02:05:59.490017"
+updated_at: "2022-12-05 03:24:29.632046"
 latest: "0.12.0--py36_1"
 container_url: "https://biocontainers.pro/tools/python-levenshtein"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rhisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhisat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhisat2/container.yaml"
-updated_at: "2022-12-01 02:42:20.066634"
-latest: "1.10.0--r41hc247a5b_2"
+updated_at: "2022-12-05 04:05:07.942655"
+latest: "1.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhisat2"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41h399db7b_0"
  - "1.10.0--r41hc247a5b_2"
+ - "1.14.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhisat2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhisat2", "latest": {"1.10.0--r41hc247a5b_2": "sha256:c182b49acb8a4b565d63f22c2a87169e229e7e95c4da0c99b41e44127e4b7547"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:94895883ad4da2b7503ff478255035b6f784cab51cb29f852fd275b9d5421c4d", "1.10.0--r41hc247a5b_2": "sha256:c182b49acb8a4b565d63f22c2a87169e229e7e95c4da0c99b41e44127e4b7547"}, "docker": "quay.io/biocontainers/bioconductor-rhisat2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhisat2", "latest": {"1.14.0--r42hc247a5b_0": "sha256:e4c4d7ae6de0ccf86636e239ce3974c90d208b37a24dcca98ce424b2bfaf4273"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:94895883ad4da2b7503ff478255035b6f784cab51cb29f852fd275b9d5421c4d", "1.10.0--r41hc247a5b_2": "sha256:c182b49acb8a4b565d63f22c2a87169e229e7e95c4da0c99b41e44127e4b7547", "1.14.0--r42hc247a5b_0": "sha256:e4c4d7ae6de0ccf86636e239ce3974c90d208b37a24dcca98ce424b2bfaf4273"}, "docker": "quay.io/biocontainers/bioconductor-rhisat2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhisat2.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rhisat2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rhisat2:1.10.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-rhisat2:1.14.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rhisat2/1.10.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-rhisat2/1.10.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-rhisat2/1.14.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-rhisat2/1.14.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

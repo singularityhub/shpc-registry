@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-maanova"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maanova/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maanova/container.yaml"
-updated_at: "2022-12-01 01:42:12.340803"
-latest: "1.64.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 02:57:20.609254"
+latest: "1.68.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maanova"
 
 versions:
  - "1.64.0--r41hc0cfd56_2"
+ - "1.68.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-maanova"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maanova", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maanova", "latest": {"1.64.0--r41hc0cfd56_2": "sha256:a9c06bea9e2d63dc496ea56c686a5ef677a6b9045adfc2ce0fecc7bb3b61a590"}, "tags": {"1.64.0--r41hc0cfd56_2": "sha256:a9c06bea9e2d63dc496ea56c686a5ef677a6b9045adfc2ce0fecc7bb3b61a590"}, "docker": "quay.io/biocontainers/bioconductor-maanova"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maanova", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maanova", "latest": {"1.68.0--r42hc0cfd56_0": "sha256:5a168ab4319637b67b9a66d356b60b7a0816e5a2e58017d7156c9a1930fcd210"}, "tags": {"1.64.0--r41hc0cfd56_2": "sha256:a9c06bea9e2d63dc496ea56c686a5ef677a6b9045adfc2ce0fecc7bb3b61a590", "1.68.0--r42hc0cfd56_0": "sha256:5a168ab4319637b67b9a66d356b60b7a0816e5a2e58017d7156c9a1930fcd210"}, "docker": "quay.io/biocontainers/bioconductor-maanova"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maanova.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-maanova
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-maanova:1.64.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-maanova:1.68.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-maanova/1.64.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-maanova/1.64.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-maanova/1.68.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-maanova/1.68.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

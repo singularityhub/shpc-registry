@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/unifyfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/unifyfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/unifyfs/container.yaml"
-updated_at: "2022-12-01 01:35:51.708831"
-latest: "0.9.2"
+updated_at: "2022-12-05 02:49:58.273588"
+latest: "1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/unifyfs"
 aliases:
  - "unifyfs"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.9.2"
  - "latest"
+ - "1.0"
 description: "User level file system that enables applications to use node-local storage as burst buffers for shared files."
-config: {"docker": "ghcr.io/autamus/unifyfs", "url": "https://github.com/orgs/autamus/packages/container/package/unifyfs", "maintainer": "@vsoch", "description": "User level file system that enables applications to use node-local storage as burst buffers for shared files.", "latest": {"0.9.2": "sha256:2b2a925b3e1d7fec92bdcf74f93d0e9e2aa278a3e778283ec7d7d7230da83fde"}, "tags": {"0.9.2": "sha256:2b2a925b3e1d7fec92bdcf74f93d0e9e2aa278a3e778283ec7d7d7230da83fde", "latest": "sha256:2b2a925b3e1d7fec92bdcf74f93d0e9e2aa278a3e778283ec7d7d7230da83fde"}, "aliases": {"unifyfs": "/opt/view/bin/unifyfs", "unifyfs-config": "/opt/view/bin/unifyfs-config", "unifyfsd": "/opt/view/bin/unifyfsd"}}
+config: {"docker": "ghcr.io/autamus/unifyfs", "url": "https://github.com/orgs/autamus/packages/container/package/unifyfs", "maintainer": "@vsoch", "description": "User level file system that enables applications to use node-local storage as burst buffers for shared files.", "latest": {"1.0": "sha256:338c2aa13db3dd72b6cc4294b02663af630560ccda28c59cd9a35403b2420684"}, "tags": {"0.9.2": "sha256:2b2a925b3e1d7fec92bdcf74f93d0e9e2aa278a3e778283ec7d7d7230da83fde", "latest": "sha256:338c2aa13db3dd72b6cc4294b02663af630560ccda28c59cd9a35403b2420684", "1.0": "sha256:338c2aa13db3dd72b6cc4294b02663af630560ccda28c59cd9a35403b2420684"}, "aliases": {"unifyfs": "/opt/view/bin/unifyfs", "unifyfs-config": "/opt/view/bin/unifyfs-config", "unifyfsd": "/opt/view/bin/unifyfsd"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/unifyfs.
@@ -30,7 +31,7 @@ $ shpc install ghcr.io/autamus/unifyfs
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/unifyfs:0.9.2
+$ shpc install ghcr.io/autamus/unifyfs:1.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/unifyfs/0.9.2
-$ module help ghcr.io/autamus/unifyfs/0.9.2
+$ module load ghcr.io/autamus/unifyfs/1.0
+$ module help ghcr.io/autamus/unifyfs/1.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

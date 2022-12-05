@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-precisetadhub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-precisetadhub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-precisetadhub/container.yaml"
-updated_at: "2022-12-01 02:08:36.559594"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2022-12-05 03:27:20.859436"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-precisetadhub"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-precisetadhub"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-precisetadhub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-precisetadhub", "latest": {"1.2.0--r41hdfd78af_1": "sha256:8c0355ed0fd22c142a09917f356971fa1e2aea4faa42be9e5af57e2de105cd4d"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:8c0355ed0fd22c142a09917f356971fa1e2aea4faa42be9e5af57e2de105cd4d"}, "docker": "quay.io/biocontainers/bioconductor-precisetadhub"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-precisetadhub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-precisetadhub", "latest": {"1.6.0--r42hdfd78af_0": "sha256:3b60e31bd701c6b1bb14bce59016d09d904031df76c93d4951c4cab3a67efbeb"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:8c0355ed0fd22c142a09917f356971fa1e2aea4faa42be9e5af57e2de105cd4d", "1.6.0--r42hdfd78af_0": "sha256:3b60e31bd701c6b1bb14bce59016d09d904031df76c93d4951c4cab3a67efbeb"}, "docker": "quay.io/biocontainers/bioconductor-precisetadhub"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-precisetadhub.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-precisetadhub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-precisetadhub:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-precisetadhub:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-precisetadhub/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-precisetadhub/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-precisetadhub/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-precisetadhub/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

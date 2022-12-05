@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shigatyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shigatyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shigatyper/container.yaml"
-updated_at: "2022-12-01 02:38:57.135920"
+updated_at: "2022-12-05 04:01:17.310237"
 latest: "2.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shigatyper"
 aliases:

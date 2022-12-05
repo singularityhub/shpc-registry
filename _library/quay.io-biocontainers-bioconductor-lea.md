@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lea/container.yaml"
-updated_at: "2022-12-01 02:11:19.905676"
-latest: "3.6.0--r41hc0cfd56_2"
+updated_at: "2022-12-05 03:30:20.723713"
+latest: "3.10.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lea"
 
 versions:
  - "3.6.0--r41hc0cfd56_2"
+ - "3.10.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lea", "latest": {"3.6.0--r41hc0cfd56_2": "sha256:3f695ff5825c63fad701e58b95394c76a847ae403a09e04a4472419e2209a5e5"}, "tags": {"3.6.0--r41hc0cfd56_2": "sha256:3f695ff5825c63fad701e58b95394c76a847ae403a09e04a4472419e2209a5e5"}, "docker": "quay.io/biocontainers/bioconductor-lea"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lea", "latest": {"3.10.0--r42hc0cfd56_0": "sha256:eb7d0fc2b1fad8de2c5d015f7b40726b7cfc5fb98b860908d3ec4e2d54ff6184"}, "tags": {"3.6.0--r41hc0cfd56_2": "sha256:3f695ff5825c63fad701e58b95394c76a847ae403a09e04a4472419e2209a5e5", "3.10.0--r42hc0cfd56_0": "sha256:eb7d0fc2b1fad8de2c5d015f7b40726b7cfc5fb98b860908d3ec4e2d54ff6184"}, "docker": "quay.io/biocontainers/bioconductor-lea"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lea.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lea:3.6.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-lea:3.10.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lea/3.6.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-lea/3.6.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-lea/3.10.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-lea/3.10.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

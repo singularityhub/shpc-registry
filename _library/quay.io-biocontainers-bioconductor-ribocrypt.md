@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ribocrypt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribocrypt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribocrypt/container.yaml"
-updated_at: "2022-12-01 02:32:06.142609"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:53:38.086296"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribocrypt"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ribocrypt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ribocrypt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribocrypt", "latest": {"1.0.0--r41hdfd78af_0": "sha256:a0b4f6b606617ea1dd2b1fd169f3fd2c6abd899e9630d4c82a8b734b129007c2"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a0b4f6b606617ea1dd2b1fd169f3fd2c6abd899e9630d4c82a8b734b129007c2"}, "docker": "quay.io/biocontainers/bioconductor-ribocrypt"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ribocrypt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribocrypt", "latest": {"1.4.0--r42hdfd78af_0": "sha256:d0bc6cc993578bc5f62c1bc4e1d1e4ca0e6f78d88f6fbf9b3c47e3c58a596a1f"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a0b4f6b606617ea1dd2b1fd169f3fd2c6abd899e9630d4c82a8b734b129007c2", "1.4.0--r42hdfd78af_0": "sha256:d0bc6cc993578bc5f62c1bc4e1d1e4ca0e6f78d88f6fbf9b3c47e3c58a596a1f"}, "docker": "quay.io/biocontainers/bioconductor-ribocrypt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ribocrypt.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ribocrypt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ribocrypt:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ribocrypt:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ribocrypt/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ribocrypt/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ribocrypt/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ribocrypt/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

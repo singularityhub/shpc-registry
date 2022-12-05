@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/auspice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/auspice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/auspice/container.yaml"
-updated_at: "2022-12-01 01:51:26.094678"
-latest: "2.40.0--h87f3376_0"
+updated_at: "2022-12-05 03:07:51.541056"
+latest: "2.40.1--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/auspice"
 aliases:
  - "auspice"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "2.39.0--h87f3376_1"
  - "2.40.0--h87f3376_0"
+ - "2.40.1--h87f3376_0"
 description: "shpc-registry automated BioContainers addition for auspice"
-config: {"url": "https://biocontainers.pro/tools/auspice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for auspice", "latest": {"2.40.0--h87f3376_0": "sha256:0c9ca157de340a1d48f111c37287b37b9ea7aafe12b8801308c7c115a0464cc6"}, "tags": {"2.39.0--h87f3376_1": "sha256:1cd30df83fb16d5115e85ffced86830112b53cb2ccee821647cea6235800f268", "2.40.0--h87f3376_0": "sha256:0c9ca157de340a1d48f111c37287b37b9ea7aafe12b8801308c7c115a0464cc6"}, "docker": "quay.io/biocontainers/auspice", "aliases": {"auspice": "/usr/local/bin/auspice", "corepack": "/usr/local/bin/corepack", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx"}}
+config: {"url": "https://biocontainers.pro/tools/auspice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for auspice", "latest": {"2.40.1--h87f3376_0": "sha256:2c3797464f1bb1e4b3990345769fc46c16db288ec533cd1c7add9743d4f8cb45"}, "tags": {"2.39.0--h87f3376_1": "sha256:1cd30df83fb16d5115e85ffced86830112b53cb2ccee821647cea6235800f268", "2.40.0--h87f3376_0": "sha256:0c9ca157de340a1d48f111c37287b37b9ea7aafe12b8801308c7c115a0464cc6", "2.40.1--h87f3376_0": "sha256:2c3797464f1bb1e4b3990345769fc46c16db288ec533cd1c7add9743d4f8cb45"}, "docker": "quay.io/biocontainers/auspice", "aliases": {"auspice": "/usr/local/bin/auspice", "corepack": "/usr/local/bin/corepack", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/auspice.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/auspice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/auspice:2.40.0--h87f3376_0
+$ shpc install quay.io/biocontainers/auspice:2.40.1--h87f3376_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/auspice/2.40.0--h87f3376_0
-$ module help quay.io/biocontainers/auspice/2.40.0--h87f3376_0
+$ module load quay.io/biocontainers/auspice/2.40.1--h87f3376_0
+$ module help quay.io/biocontainers/auspice/2.40.1--h87f3376_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

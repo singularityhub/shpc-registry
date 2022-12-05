@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mdp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mdp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mdp/container.yaml"
-updated_at: "2022-12-01 01:45:16.937082"
-latest: "1.14.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:00:49.595017"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mdp"
 aliases:
  - "2to3-3.8"
@@ -21,8 +21,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.18.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mdp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mdp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdp", "latest": {"1.14.0--r41hdfd78af_0": "sha256:d31800e02ba44f953c7e11dba86fc2cc63e1d80d0479f46348c450bd02161167"}, "tags": {"1.8.0--r40_0": "sha256:13e978a255b8773c01791d1fa7bff34acc0d07937dc51837cab332a6e1c6769b", "1.14.0--r41hdfd78af_0": "sha256:d31800e02ba44f953c7e11dba86fc2cc63e1d80d0479f46348c450bd02161167", "1.12.0--r41hdfd78af_0": "sha256:83f2fe86814c1eeec1843284616c64d5b119d2d00498e7c3aa5879860213412e", "1.10.0--r40hdfd78af_1": "sha256:1646e4eb15c197363419183c30bbb1c199b45572d2be19e91efc99c80a635949"}, "docker": "quay.io/biocontainers/bioconductor-mdp", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mdp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdp", "latest": {"1.18.0--r42hdfd78af_0": "sha256:3ca4a63d52e73baf17aea47cd310741c257b5719237ad725fe11a6d0d6bcb905"}, "tags": {"1.8.0--r40_0": "sha256:13e978a255b8773c01791d1fa7bff34acc0d07937dc51837cab332a6e1c6769b", "1.14.0--r41hdfd78af_0": "sha256:d31800e02ba44f953c7e11dba86fc2cc63e1d80d0479f46348c450bd02161167", "1.12.0--r41hdfd78af_0": "sha256:83f2fe86814c1eeec1843284616c64d5b119d2d00498e7c3aa5879860213412e", "1.10.0--r40hdfd78af_1": "sha256:1646e4eb15c197363419183c30bbb1c199b45572d2be19e91efc99c80a635949", "1.18.0--r42hdfd78af_0": "sha256:3ca4a63d52e73baf17aea47cd310741c257b5719237ad725fe11a6d0d6bcb905"}, "docker": "quay.io/biocontainers/bioconductor-mdp", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mdp.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mdp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mdp:1.14.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mdp:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mdp/1.14.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mdp/1.14.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mdp/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mdp/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

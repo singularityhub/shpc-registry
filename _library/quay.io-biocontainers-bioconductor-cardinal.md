@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cardinal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cardinal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cardinal/container.yaml"
-updated_at: "2022-12-01 02:27:56.872031"
-latest: "2.12.0--r41hc247a5b_2"
+updated_at: "2022-12-05 03:49:05.474246"
+latest: "3.0.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cardinal"
 aliases:
  - "fftw-wisdom"
@@ -17,8 +17,9 @@ versions:
  - "2.8.0--r40h399db7b_2"
  - "2.12.0--r41hc247a5b_2"
  - "2.10.0--r41h399db7b_0"
+ - "3.0.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cardinal"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cardinal", "latest": {"2.12.0--r41hc247a5b_2": "sha256:bc355cf3d07962ccd4246ce8be97374089fc740d498487c4ff635c2db9fc6441"}, "tags": {"2.8.0--r40h399db7b_2": "sha256:49af076e3f9f5c67f9482c909e947758ea730cbcabc6a25ea3054b284f60b396", "2.12.0--r41hc247a5b_2": "sha256:bc355cf3d07962ccd4246ce8be97374089fc740d498487c4ff635c2db9fc6441", "2.10.0--r41h399db7b_0": "sha256:83536b553aba4f728628d62a59f8eaf8b9a5468f21675dcf0c0e05333ab96804"}, "docker": "quay.io/biocontainers/bioconductor-cardinal", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cardinal", "latest": {"3.0.0--r42hc247a5b_0": "sha256:134a371e7680ba9d7bbe8387106983605642a308a46e1f8ea29f965c9d0013bc"}, "tags": {"2.8.0--r40h399db7b_2": "sha256:49af076e3f9f5c67f9482c909e947758ea730cbcabc6a25ea3054b284f60b396", "2.12.0--r41hc247a5b_2": "sha256:bc355cf3d07962ccd4246ce8be97374089fc740d498487c4ff635c2db9fc6441", "2.10.0--r41h399db7b_0": "sha256:83536b553aba4f728628d62a59f8eaf8b9a5468f21675dcf0c0e05333ab96804", "3.0.0--r42hc247a5b_0": "sha256:134a371e7680ba9d7bbe8387106983605642a308a46e1f8ea29f965c9d0013bc"}, "docker": "quay.io/biocontainers/bioconductor-cardinal", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cardinal.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cardinal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cardinal:2.12.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-cardinal:3.0.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cardinal/2.12.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-cardinal/2.12.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-cardinal/3.0.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cardinal/3.0.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

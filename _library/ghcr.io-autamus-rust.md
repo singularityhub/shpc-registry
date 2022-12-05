@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/rust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/rust/container.yaml"
-updated_at: "2022-12-01 01:35:36.087257"
+updated_at: "2022-12-05 02:49:39.453486"
 latest: "1.60.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rust"
 aliases:
@@ -27,7 +27,7 @@ versions:
  - "latest"
  - "1.60.0"
 description: "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency."
-config: {"docker": "ghcr.io/autamus/rust", "url": "https://github.com/orgs/autamus/packages/container/package/rust", "maintainer": "@vsoch", "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency.", "latest": {"1.60.0": "sha256:3c162c8f2f182fb69cdd72c1fb7c38967f5b258c82a730b23752f7e64578e1a8"}, "tags": {"1.50.0": "sha256:238c8e6fd628cea11f9023ab4b92b1e1295cae1400548b318c62fbe9be616611", "1.52.1": "sha256:340e767aa1f43b61f2ffbce26072e4846b2068c73b4808eb85f8cf9f4630d24a", "1.53.0": "sha256:ee8420808012967a81d5a205dee5372134e2b0ee63a1729d8b8550d91e823ba1", "1.54.0": "sha256:df047336872fe0ffae5ee3f683e166cd816d7a6a437ddc63de6d19a5c9e713c9", "latest": "sha256:3c162c8f2f182fb69cdd72c1fb7c38967f5b258c82a730b23752f7e64578e1a8", "1.60.0": "sha256:3c162c8f2f182fb69cdd72c1fb7c38967f5b258c82a730b23752f7e64578e1a8"}, "aliases": {"cargo": "/opt/view/bin/cargo", "cargo-clippy": "/opt/view/bin/cargo-clippy", "cargo-fmt": "/opt/view/bin/cargo-fmt", "clippy-driver": "/opt/view/bin/clippy-driver", "rust": "/opt/view/bin/rust", "rust-gdb": "/opt/view/bin/rust-gdb", "rust-gdbgui": "/opt/view/bin/rust-gdbgui", "rust-lldb": "/opt/view/bin/rust-lldb", "rustc": "/opt/view/bin/rustc", "rustdoc": "/opt/view/bin/rustdoc", "rustfmt": "/opt/view/bin/rustfmt"}}
+config: {"docker": "ghcr.io/autamus/rust", "url": "https://github.com/orgs/autamus/packages/container/package/rust", "maintainer": "@vsoch", "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency.", "latest": {"1.60.0": "sha256:f70aa1c2a1556226ba21c1aa70ead168e91ac0824225edafced369de9a48f6e0"}, "tags": {"1.50.0": "sha256:238c8e6fd628cea11f9023ab4b92b1e1295cae1400548b318c62fbe9be616611", "1.52.1": "sha256:340e767aa1f43b61f2ffbce26072e4846b2068c73b4808eb85f8cf9f4630d24a", "1.53.0": "sha256:ee8420808012967a81d5a205dee5372134e2b0ee63a1729d8b8550d91e823ba1", "1.54.0": "sha256:df047336872fe0ffae5ee3f683e166cd816d7a6a437ddc63de6d19a5c9e713c9", "latest": "sha256:f70aa1c2a1556226ba21c1aa70ead168e91ac0824225edafced369de9a48f6e0", "1.60.0": "sha256:f70aa1c2a1556226ba21c1aa70ead168e91ac0824225edafced369de9a48f6e0"}, "aliases": {"cargo": "/opt/view/bin/cargo", "cargo-clippy": "/opt/view/bin/cargo-clippy", "cargo-fmt": "/opt/view/bin/cargo-fmt", "clippy-driver": "/opt/view/bin/clippy-driver", "rust": "/opt/view/bin/rust", "rust-gdb": "/opt/view/bin/rust-gdb", "rust-gdbgui": "/opt/view/bin/rust-gdbgui", "rust-lldb": "/opt/view/bin/rust-lldb", "rustc": "/opt/view/bin/rustc", "rustdoc": "/opt/view/bin/rustdoc", "rustfmt": "/opt/view/bin/rustfmt"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/rust.

@@ -4,8 +4,8 @@ name:  "nvcr.io/hpc/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/gromacs/container.yaml"
-updated_at: "2022-12-01 01:35:00.562438"
-latest: "2022.1"
+updated_at: "2022-12-05 02:48:57.937449"
+latest: "2022.3"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:gromacs/tags"
 aliases:
  - "python"
@@ -16,8 +16,9 @@ versions:
  - "2021.3"
  - "2020.2-x86_64"
  - "2022.1"
+ - "2022.3"
 description: "GROMACS is a popular molecular dynamics application used to simulate proteins and lipids."
-config: {"docker": "nvcr.io/hpc/gromacs", "url": "https://ngc.nvidia.com/catalog/containers/hpc:gromacs/tags", "maintainer": "@vsoch", "description": "GROMACS is a popular molecular dynamics application used to simulate proteins and lipids.", "latest": {"2022.1": "sha256:1a300919fef314b2b42b4f252eb92052ccb912eaed066f1cd3f1415038a6cbce"}, "tags": {"2020.2": "sha256:2d51288e7b0cacc3c33fdde07a2b81a803c243411ccb805e03179fa2554b8daa", "2020.2-arm64": "sha256:2b8c453a5fc709f19e48c76d2b8403d1a5248eef2f05c1429df23b77e1c06b33", "2021": "sha256:aa095dcdb175e10132a5862204bf91e6f374f72ba9f2360d9ff5c45ae67785fd", "2021.3": "sha256:bfa887d5bebc48fe551873a240ecd0a2bb87f7c3d67f0178233304b5b779cedc", "2020.2-x86_64": "sha256:b76a847b8f85bab0a5605a97b774583650132d8f413c0d878ffbdc381a04472a", "2022.1": "sha256:1a300919fef314b2b42b4f252eb92052ccb912eaed066f1cd3f1415038a6cbce"}, "filter": ["^((?!arm).)*$"], "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python"}}
+config: {"docker": "nvcr.io/hpc/gromacs", "url": "https://ngc.nvidia.com/catalog/containers/hpc:gromacs/tags", "maintainer": "@vsoch", "description": "GROMACS is a popular molecular dynamics application used to simulate proteins and lipids.", "latest": {"2022.3": "sha256:b55e99df2acb691f6dd147d33f7fe3519731fe572599c0bdd9b17718a133d551"}, "tags": {"2020.2": "sha256:2d51288e7b0cacc3c33fdde07a2b81a803c243411ccb805e03179fa2554b8daa", "2020.2-arm64": "sha256:2b8c453a5fc709f19e48c76d2b8403d1a5248eef2f05c1429df23b77e1c06b33", "2021": "sha256:aa095dcdb175e10132a5862204bf91e6f374f72ba9f2360d9ff5c45ae67785fd", "2021.3": "sha256:bfa887d5bebc48fe551873a240ecd0a2bb87f7c3d67f0178233304b5b779cedc", "2020.2-x86_64": "sha256:b76a847b8f85bab0a5605a97b774583650132d8f413c0d878ffbdc381a04472a", "2022.1": "sha256:1a300919fef314b2b42b4f252eb92052ccb912eaed066f1cd3f1415038a6cbce", "2022.3": "sha256:b55e99df2acb691f6dd147d33f7fe3519731fe572599c0bdd9b17718a133d551"}, "filter": ["^((?!arm).)*$"], "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python"}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/hpc/gromacs.
@@ -32,7 +33,7 @@ $ shpc install nvcr.io/hpc/gromacs
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/hpc/gromacs:2022.1
+$ shpc install nvcr.io/hpc/gromacs:2022.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/hpc/gromacs/2022.1
-$ module help nvcr.io/hpc/gromacs/2022.1
+$ module load nvcr.io/hpc/gromacs/2022.3
+$ module help nvcr.io/hpc/gromacs/2022.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-wheatcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wheatcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wheatcdf/container.yaml"
-updated_at: "2022-12-01 02:05:44.306462"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-05 03:24:13.150694"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-wheatcdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-wheatcdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wheatcdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wheatcdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:6b23f14069809787684d33502d68c4eb3aee59e16b8626c924f308715630916e"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6b23f14069809787684d33502d68c4eb3aee59e16b8626c924f308715630916e"}, "docker": "quay.io/biocontainers/bioconductor-wheatcdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wheatcdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wheatcdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:f658af01fc2a961bcc5fa711c6ef11a5a9bf24c9ec93b7f034f68b24e87dde7c"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6b23f14069809787684d33502d68c4eb3aee59e16b8626c924f308715630916e", "2.18.0--r42hdfd78af_10": "sha256:f658af01fc2a961bcc5fa711c6ef11a5a9bf24c9ec93b7f034f68b24e87dde7c"}, "docker": "quay.io/biocontainers/bioconductor-wheatcdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wheatcdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-wheatcdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-wheatcdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-wheatcdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-wheatcdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-wheatcdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-wheatcdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-wheatcdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

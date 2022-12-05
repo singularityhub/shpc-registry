@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pram/container.yaml"
-updated_at: "2022-12-01 01:37:39.737120"
-latest: "1.10.0--r41hdfd78af_0"
+updated_at: "2022-12-05 02:52:04.285158"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pram"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pram"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pram", "latest": {"1.10.0--r41hdfd78af_0": "sha256:a1b36aeb6802a6b67ef0b11612a1bafd567ff7dd897d5baf415c7e9d13f36d89"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:7e0eb2f63d3927a39488157ce292c984f6aaeae5dbb74115ad0db4e85d9dfb77", "1.10.0--r41hdfd78af_0": "sha256:a1b36aeb6802a6b67ef0b11612a1bafd567ff7dd897d5baf415c7e9d13f36d89"}, "docker": "quay.io/biocontainers/bioconductor-pram", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pram", "latest": {"1.14.0--r42hdfd78af_0": "sha256:919589275a3d6e602fff3fa2bfd0d59c04bd42b18b58a66ee0cab7de6b3f62ff"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:7e0eb2f63d3927a39488157ce292c984f6aaeae5dbb74115ad0db4e85d9dfb77", "1.10.0--r41hdfd78af_0": "sha256:a1b36aeb6802a6b67ef0b11612a1bafd567ff7dd897d5baf415c7e9d13f36d89", "1.14.0--r42hdfd78af_0": "sha256:919589275a3d6e602fff3fa2bfd0d59c04bd42b18b58a66ee0cab7de6b3f62ff"}, "docker": "quay.io/biocontainers/bioconductor-pram", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pram.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pram
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pram:1.10.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pram:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pram/1.10.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pram/1.10.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pram/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pram/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

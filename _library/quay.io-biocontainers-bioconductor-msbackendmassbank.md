@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-msbackendmassbank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendmassbank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendmassbank/container.yaml"
-updated_at: "2022-12-01 02:09:38.141521"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-12-05 03:28:27.571528"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendmassbank"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msbackendmassbank"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendmassbank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msbackendmassbank", "latest": {"1.2.0--r41hdfd78af_0": "sha256:a08b8b8c688399637c028c21334e4d768a4bbf7f2f369775c2ee43e71a8586b7"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a08b8b8c688399637c028c21334e4d768a4bbf7f2f369775c2ee43e71a8586b7"}, "docker": "quay.io/biocontainers/bioconductor-msbackendmassbank"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendmassbank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msbackendmassbank", "latest": {"1.6.0--r42hdfd78af_0": "sha256:c5c75ac90118d83fa0e9b1e4ee1d48169014033ca6ec4a25273a2daca0d178a4"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a08b8b8c688399637c028c21334e4d768a4bbf7f2f369775c2ee43e71a8586b7", "1.6.0--r42hdfd78af_0": "sha256:c5c75ac90118d83fa0e9b1e4ee1d48169014033ca6ec4a25273a2daca0d178a4"}, "docker": "quay.io/biocontainers/bioconductor-msbackendmassbank"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msbackendmassbank.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msbackendmassbank
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msbackendmassbank:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msbackendmassbank:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msbackendmassbank/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msbackendmassbank/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msbackendmassbank/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msbackendmassbank/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

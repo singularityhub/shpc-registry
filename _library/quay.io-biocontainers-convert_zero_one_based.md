@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/convert_zero_one_based"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/convert_zero_one_based/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/convert_zero_one_based/container.yaml"
-updated_at: "2022-12-01 02:46:17.497631"
+updated_at: "2022-12-05 04:09:39.731997"
 latest: "0.0.1--py_1"
 container_url: "https://biocontainers.pro/tools/convert_zero_one_based"
 aliases:

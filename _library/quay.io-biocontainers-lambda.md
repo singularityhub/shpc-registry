@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/lambda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lambda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lambda/container.yaml"
-updated_at: "2022-12-01 02:07:11.454589"
-latest: "2.0.0--h19e8d03_3"
+updated_at: "2022-12-05 03:25:47.837470"
+latest: "2.0.0--h19e8d03_4"
 container_url: "https://biocontainers.pro/tools/lambda"
 aliases:
  - "lambda2"
 versions:
  - "2.0.0--h19e8d03_3"
+ - "2.0.0--h19e8d03_4"
 description: "shpc-registry automated BioContainers addition for lambda"
-config: {"url": "https://biocontainers.pro/tools/lambda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lambda", "latest": {"2.0.0--h19e8d03_3": "sha256:90ebe144c12654b26c8147440767775928eb1c05449baa25f65f0a80a4de6a72"}, "tags": {"2.0.0--h19e8d03_3": "sha256:90ebe144c12654b26c8147440767775928eb1c05449baa25f65f0a80a4de6a72"}, "docker": "quay.io/biocontainers/lambda", "aliases": {"lambda2": "/usr/local/bin/lambda2"}}
+config: {"url": "https://biocontainers.pro/tools/lambda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lambda", "latest": {"2.0.0--h19e8d03_4": "sha256:936e76e99203614c60c061d94c2435120393142e79901eb8641e3b89e3909cdc"}, "tags": {"2.0.0--h19e8d03_3": "sha256:90ebe144c12654b26c8147440767775928eb1c05449baa25f65f0a80a4de6a72", "2.0.0--h19e8d03_4": "sha256:936e76e99203614c60c061d94c2435120393142e79901eb8641e3b89e3909cdc"}, "docker": "quay.io/biocontainers/lambda", "aliases": {"lambda2": "/usr/local/bin/lambda2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lambda.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/lambda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lambda:2.0.0--h19e8d03_3
+$ shpc install quay.io/biocontainers/lambda:2.0.0--h19e8d03_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lambda/2.0.0--h19e8d03_3
-$ module help quay.io/biocontainers/lambda/2.0.0--h19e8d03_3
+$ module load quay.io/biocontainers/lambda/2.0.0--h19e8d03_4
+$ module help quay.io/biocontainers/lambda/2.0.0--h19e8d03_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

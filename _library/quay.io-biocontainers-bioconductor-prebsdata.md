@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-prebsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prebsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prebsdata/container.yaml"
-updated_at: "2022-12-01 02:43:21.742386"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-12-05 04:06:19.666898"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prebsdata"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prebsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prebsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prebsdata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17"}, "docker": "quay.io/biocontainers/bioconductor-prebsdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prebsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prebsdata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:3922b1b23b0bf93a8a78464f64ea8e8b7a33956c88cee1abccb4ad7a6e13c2ed"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17", "1.33.0--r42hdfd78af_0": "sha256:3922b1b23b0bf93a8a78464f64ea8e8b7a33956c88cee1abccb4ad7a6e13c2ed"}, "docker": "quay.io/biocontainers/bioconductor-prebsdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prebsdata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prebsdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prebsdata:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-prebsdata:1.33.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prebsdata/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-prebsdata/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-prebsdata/1.33.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-prebsdata/1.33.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

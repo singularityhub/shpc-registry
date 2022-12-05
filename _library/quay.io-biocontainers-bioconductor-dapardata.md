@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dapardata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dapardata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dapardata/container.yaml"
-updated_at: "2022-12-01 02:11:41.620326"
-latest: "1.24.0--r41hdfd78af_1"
+updated_at: "2022-12-05 03:30:44.012750"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dapardata"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "1.24.0--r41hdfd78af_1"
+ - "1.28.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dapardata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dapardata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dapardata", "latest": {"1.24.0--r41hdfd78af_1": "sha256:53841892578052472f83b8d33ee153b7f0878383e3725226e2e1a9c693fa866c"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:53841892578052472f83b8d33ee153b7f0878383e3725226e2e1a9c693fa866c"}, "docker": "quay.io/biocontainers/bioconductor-dapardata", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dapardata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dapardata", "latest": {"1.28.0--r42hdfd78af_0": "sha256:035168bad6f1c2f4520d2f3cb98393e8f60e57751d9263184cffefad6527cf3e"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:53841892578052472f83b8d33ee153b7f0878383e3725226e2e1a9c693fa866c", "1.28.0--r42hdfd78af_0": "sha256:035168bad6f1c2f4520d2f3cb98393e8f60e57751d9263184cffefad6527cf3e"}, "docker": "quay.io/biocontainers/bioconductor-dapardata", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dapardata.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dapardata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dapardata:1.24.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-dapardata:1.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dapardata/1.24.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-dapardata/1.24.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-dapardata/1.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dapardata/1.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
