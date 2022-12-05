@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-shdz.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-shdz.db
 latest:
-  3.2.3--r41hdfd78af_9: sha256:cc40f340e1321189a2df1670b7c9e7849e7e1494bc0b97923d536c0cf0dc8037
+  3.2.3--r42hdfd78af_10: sha256:db21e09df491fbb4264db9270687467f8271c61224ff6f52932eb8f5ffed86fc
 tags:
   3.2.3--r41hdfd78af_9: sha256:cc40f340e1321189a2df1670b7c9e7849e7e1494bc0b97923d536c0cf0dc8037
+  3.2.3--r42hdfd78af_10: sha256:db21e09df491fbb4264db9270687467f8271c61224ff6f52932eb8f5ffed86fc
 docker: quay.io/biocontainers/bioconductor-shdz.db

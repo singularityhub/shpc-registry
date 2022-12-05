@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-nanoporernaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nanoporernaseq
 latest:
-  1.4.0--r41hdfd78af_1: sha256:e80063750fa419a75450e42284a726f3385473d60d3a8e91d5444dbe56c60e2a
+  1.8.0--r42hdfd78af_0: sha256:4eeccde6a68cd68e2b102961be764942ca98c1eb243cc57a94c34b48c4ce95de
 tags:
   1.4.0--r41hdfd78af_1: sha256:e80063750fa419a75450e42284a726f3385473d60d3a8e91d5444dbe56c60e2a
+  1.8.0--r42hdfd78af_0: sha256:4eeccde6a68cd68e2b102961be764942ca98c1eb243cc57a94c34b48c4ce95de
 docker: quay.io/biocontainers/bioconductor-nanoporernaseq

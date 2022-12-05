@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-corral
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-corral
 latest:
-  1.2.0--r41hdfd78af_0: sha256:79e19c0a9dfffb9b3b311defcaa11286dab3cbde94d08c8e5ddf9c60ca804cbf
+  1.8.0--r42hdfd78af_0: sha256:48f58dbb86e0f4151246da5285793db64c87dfe32383d9a423f34087718b038f
 tags:
   1.2.0--r41hdfd78af_0: sha256:79e19c0a9dfffb9b3b311defcaa11286dab3cbde94d08c8e5ddf9c60ca804cbf
+  1.8.0--r42hdfd78af_0: sha256:48f58dbb86e0f4151246da5285793db64c87dfe32383d9a423f34087718b038f
 docker: quay.io/biocontainers/bioconductor-corral
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

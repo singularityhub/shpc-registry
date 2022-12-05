@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-packfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-packfinder
 latest:
-  1.6.0--r41hdfd78af_0: sha256:b1b1aae7a80d64e707665117e14b0c8e5616d20ebff7561333f83071b9e533c0
+  1.10.0--r42hdfd78af_0: sha256:45538ca4870f116cdfc216d7a56336b06f85261b59b64542389df7f9a8f3a4e5
 tags:
   1.6.0--r41hdfd78af_0: sha256:b1b1aae7a80d64e707665117e14b0c8e5616d20ebff7561333f83071b9e533c0
+  1.10.0--r42hdfd78af_0: sha256:45538ca4870f116cdfc216d7a56336b06f85261b59b64542389df7f9a8f3a4e5
 docker: quay.io/biocontainers/bioconductor-packfinder

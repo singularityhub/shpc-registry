@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-biscuiteerdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biscuiteerdata
 latest:
-  1.8.0--r41hdfd78af_1: sha256:2a1e30640b7e361eb353527a7ee5a4e42b5f1a0a3d72676554ed125b149ee071
+  1.12.0--r42hdfd78af_0: sha256:cddc19beaf22821c96c06ed8af8483e0c8ecd2238e9cd087e077d5b38eca266f
 tags:
   1.8.0--r41hdfd78af_1: sha256:2a1e30640b7e361eb353527a7ee5a4e42b5f1a0a3d72676554ed125b149ee071
+  1.12.0--r42hdfd78af_0: sha256:cddc19beaf22821c96c06ed8af8483e0c8ecd2238e9cd087e077d5b38eca266f
 docker: quay.io/biocontainers/bioconductor-biscuiteerdata

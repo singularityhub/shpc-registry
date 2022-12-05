@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mm24kresogen.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mm24kresogen.db
 latest:
-  2.5.0--r41hdfd78af_9: sha256:b8adf6d2b488e157862d26d014c56860c6b1185b77e4ab91ad823f9a2c80577c
+  2.5.0--r42hdfd78af_10: sha256:2dcee8c579a225b1812ff6d017da1d3cebf7b735970f0d2872b4d12ecdc5d494
 tags:
   2.5.0--r41hdfd78af_9: sha256:b8adf6d2b488e157862d26d014c56860c6b1185b77e4ab91ad823f9a2c80577c
+  2.5.0--r42hdfd78af_10: sha256:2dcee8c579a225b1812ff6d017da1d3cebf7b735970f0d2872b4d12ecdc5d494
 docker: quay.io/biocontainers/bioconductor-mm24kresogen.db
