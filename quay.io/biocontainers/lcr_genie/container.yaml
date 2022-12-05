@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/lcr_genie
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lcr_genie
+latest:
+  1.0.2: sha256:f864df36caf535d77a52d3c5dec0f44141b41cdf45b12c72100e31c2e6832d12
+tags:
+  1.0.2: sha256:f864df36caf535d77a52d3c5dec0f44141b41cdf45b12c72100e31c2e6832d12
+docker: quay.io/biocontainers/lcr_genie
+aliases:
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  normalizer: /usr/local/bin/normalizer
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv
