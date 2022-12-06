@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-probamr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-probamr
 latest:
-  1.28.0--r41hdfd78af_0: sha256:c5db0cca1741a04be0e0821e3b8d414f7b7951d9a9b70239c017857165815303
+  1.32.0--r42hdfd78af_0: sha256:945c624f3690c305d0d10c7e14940874327595563df688bc5aab1ed9412103a2
 tags:
   1.8.0--r3.4.1_0: sha256:e3ac265afe0d3654124bd524712787150bde4eb561efedd7f6fcc41adf396d74
   1.28.0--r41hdfd78af_0: sha256:c5db0cca1741a04be0e0821e3b8d414f7b7951d9a9b70239c017857165815303
@@ -10,6 +10,7 @@ tags:
   1.24.0--r40hdfd78af_1: sha256:394365d4390d83fdb1644daa08aa71e3305f7eaf5afc327dbdfa3ae62ff6d5da
   1.22.0--r40_0: sha256:52834c4eb347bfea13cd306fbe463a60740a7794e0b3ae2af432e9fd3c5fd894
   1.20.0--r36_0: sha256:9257e96706f73ead255146f6b08795749a8345858e392e76bb17a26e7a427921
+  1.32.0--r42hdfd78af_0: sha256:945c624f3690c305d0d10c7e14940874327595563df688bc5aab1ed9412103a2
 docker: quay.io/biocontainers/bioconductor-probamr
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-minfidata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-minfidata
 latest:
-  0.40.0--r41hdfd78af_1: sha256:4413a66fd87fd43be04988396aadb11bfbabbcbee0f7877f81e89c3d29faf0b8
+  0.44.0--r42hdfd78af_0: sha256:f0ead10a19db82ecc6308b2c947eeaf02dc72bba7e34a4388fc806ec7fc3b9ba
 tags:
   0.40.0--r41hdfd78af_1: sha256:4413a66fd87fd43be04988396aadb11bfbabbcbee0f7877f81e89c3d29faf0b8
+  0.44.0--r42hdfd78af_0: sha256:f0ead10a19db82ecc6308b2c947eeaf02dc72bba7e34a4388fc806ec7fc3b9ba
 docker: quay.io/biocontainers/bioconductor-minfidata

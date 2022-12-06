@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mlinterfaces
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mlinterfaces
 latest:
-  1.74.0--r41hc247a5b_2: sha256:5aac51be351ed3c511e40e1dae34256152d71d0a0cf534bfe5f83a12b0cc8290
+  1.78.0--r42hc247a5b_0: sha256:5dcf1162f68ae8b7eee92051d2a3cba4bacc04e9abd2c03d1016a15bca5228f4
 tags:
   1.74.0--r41hc247a5b_2: sha256:5aac51be351ed3c511e40e1dae34256152d71d0a0cf534bfe5f83a12b0cc8290
+  1.78.0--r42hc247a5b_0: sha256:5dcf1162f68ae8b7eee92051d2a3cba4bacc04e9abd2c03d1016a15bca5228f4
 docker: quay.io/biocontainers/bioconductor-mlinterfaces
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hguatlas13k.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hguatlas13k.db
 latest:
-  3.2.3--r41hdfd78af_10: sha256:6dbd5922123b7a92c75d8ddb2f9dd5690e523a295bba48803878c55ef63f3906
+  3.2.3--r42hdfd78af_11: sha256:4edcc137a3045f342576b7edb10d0019ba87df2f1ebbb6b125537e49f52f936e
 tags:
   3.2.3--r41hdfd78af_9: sha256:c7617143c444557b4436f4ebf59eabd7081ddc709b8b02967d63c8c08007ac71
   3.2.3--r41hdfd78af_10: sha256:6dbd5922123b7a92c75d8ddb2f9dd5690e523a295bba48803878c55ef63f3906
+  3.2.3--r42hdfd78af_11: sha256:4edcc137a3045f342576b7edb10d0019ba87df2f1ebbb6b125537e49f52f936e
 docker: quay.io/biocontainers/bioconductor-hguatlas13k.db

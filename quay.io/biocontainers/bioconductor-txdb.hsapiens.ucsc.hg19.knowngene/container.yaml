@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg19.knowng
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 latest:
-  3.2.2--r41hdfd78af_13: sha256:2e032e5b8e95ac55031d314df8ab512e743938d79b022bc911bbf235c9893de3
+  3.2.2--r42hdfd78af_14: sha256:d7dd700466f59c18d6a7e453c38f2fbef201937e81deff085dd6607f196c1781
 tags:
   3.2.2--r40_9: sha256:0b83400fbef270c9a2cc6da052178d23e4f45be76216783cd0afe0eb32924a08
   3.2.2--r41hdfd78af_13: sha256:2e032e5b8e95ac55031d314df8ab512e743938d79b022bc911bbf235c9893de3
+  3.2.2--r42hdfd78af_14: sha256:d7dd700466f59c18d6a7e453c38f2fbef201937e81deff085dd6607f196c1781
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

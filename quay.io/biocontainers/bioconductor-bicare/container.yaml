@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-bicare
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bicare
 latest:
-  1.52.0--r41hc0cfd56_2: sha256:075cec8c82a1be23aa37b98732ac6b11077735b349454c30f31a951097cd4f29
+  1.56.0--r42hc0cfd56_0: sha256:436960b67e3c56565d3282c204afc442bd80d3bfda59aabb55187c23ae1fb571
 tags:
   1.52.0--r41hc0cfd56_2: sha256:075cec8c82a1be23aa37b98732ac6b11077735b349454c30f31a951097cd4f29
+  1.56.0--r42hc0cfd56_0: sha256:436960b67e3c56565d3282c204afc442bd80d3bfda59aabb55187c23ae1fb571
 docker: quay.io/biocontainers/bioconductor-bicare

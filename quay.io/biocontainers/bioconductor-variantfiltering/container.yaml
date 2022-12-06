@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-variantfiltering
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-variantfiltering
 latest:
-  1.30.0--r41hc0cfd56_2: sha256:47a2d3c1c783b0b4bbd5af9d328786c99002c3cb30eb310e9fc84251c5697f18
+  1.34.0--r42hc0cfd56_0: sha256:4f52c2dcc890ab5866ef041c00ea15c7dc11160a3e59cdcb08e93b802d87511a
 tags:
   1.30.0--r41hc0cfd56_2: sha256:47a2d3c1c783b0b4bbd5af9d328786c99002c3cb30eb310e9fc84251c5697f18
+  1.34.0--r42hc0cfd56_0: sha256:4f52c2dcc890ab5866ef041c00ea15c7dc11160a3e59cdcb08e93b802d87511a
 docker: quay.io/biocontainers/bioconductor-variantfiltering

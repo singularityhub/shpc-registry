@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-listeretalbsseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-listeretalbsseq
 latest:
-  1.26.0--r41hdfd78af_1: sha256:89cb781434b29f1280f17252ffd9683fb3e71e82c78edda8845cfabe7b9c4a48
+  1.30.0--r42hdfd78af_0: sha256:626e8b4ca673b3cef39de166c8bb02097c3f76f3e5acc7382563eb4afc90dc24
 tags:
   1.26.0--r41hdfd78af_1: sha256:89cb781434b29f1280f17252ffd9683fb3e71e82c78edda8845cfabe7b9c4a48
+  1.30.0--r42hdfd78af_0: sha256:626e8b4ca673b3cef39de166c8bb02097c3f76f3e5acc7382563eb4afc90dc24
 docker: quay.io/biocontainers/bioconductor-listeretalbsseq

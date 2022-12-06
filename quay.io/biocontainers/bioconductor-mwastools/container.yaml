@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mwastools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mwastools
 latest:
-  1.18.0--r41hdfd78af_0: sha256:7a2484439ac904045eac8aad915dffb7d7e99546f8fb054527dc0b03ab08aedb
+  1.22.0--r42hdfd78af_0: sha256:3b19a6f7172e626355c9718bf63926f413b546324f267c8cf4b421afebcd611f
 tags:
   1.8.0--r36_1: sha256:91431b41a094dbe342475014287c208e6ee4fe05874ccae6ca085809dc2b1366
   1.18.0--r41hdfd78af_0: sha256:7a2484439ac904045eac8aad915dffb7d7e99546f8fb054527dc0b03ab08aedb
@@ -10,6 +10,7 @@ tags:
   1.14.0--r40hdfd78af_1: sha256:f348f9de5dcdd69974d25e60c35fddd73f587ebc32f6abbd6774b73d31f629b0
   1.12.0--r40_0: sha256:2e5555287d9594819f32c35ea582f4de61dbae47f989e5954c761963eff757c7
   1.10.0--r36_0: sha256:aaea3670618eae8d6929b6d97ce731a1617cdc2e030c70fc0fa4d454b985ec3c
+  1.22.0--r42hdfd78af_0: sha256:3b19a6f7172e626355c9718bf63926f413b546324f267c8cf4b421afebcd611f
 docker: quay.io/biocontainers/bioconductor-mwastools
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

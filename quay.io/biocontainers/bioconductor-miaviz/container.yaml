@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-miaviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-miaviz
 latest:
-  1.2.0--r41hdfd78af_0: sha256:d585182562f1575b19e88ba5cddc3d8c598af4d814f580b61acba0bb8abad309
+  1.6.0--r42hdfd78af_0: sha256:ecedb938127d4c3374614b017b402a0883a920f75366aee8c0a72766b92bea74
 tags:
   1.2.0--r41hdfd78af_0: sha256:d585182562f1575b19e88ba5cddc3d8c598af4d814f580b61acba0bb8abad309
+  1.6.0--r42hdfd78af_0: sha256:ecedb938127d4c3374614b017b402a0883a920f75366aee8c0a72766b92bea74
 docker: quay.io/biocontainers/bioconductor-miaviz

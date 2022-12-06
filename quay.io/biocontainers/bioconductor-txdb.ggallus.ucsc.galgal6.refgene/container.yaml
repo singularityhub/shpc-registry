@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal6.refg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal6.refgene
 latest:
-  3.10.0--r41hdfd78af_6: sha256:757cc33d4282dd5b584d333a3a0176a41aafd02b0706b4b972e38214a88f1d98
+  3.10.0--r42hdfd78af_7: sha256:d0b0f94140c638abd5680fc048bf3b75e60ba9f27e0814531e26f1d4467e2f96
 tags:
   3.10.0--r41hdfd78af_6: sha256:757cc33d4282dd5b584d333a3a0176a41aafd02b0706b4b972e38214a88f1d98
+  3.10.0--r42hdfd78af_7: sha256:d0b0f94140c638abd5680fc048bf3b75e60ba9f27e0814531e26f1d4467e2f96
 docker: quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene

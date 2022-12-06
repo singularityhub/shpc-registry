@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pwomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pwomics
 latest:
-  1.26.0--r41hdfd78af_0: sha256:a80027c51b015de83c15fe392a6a1e11fc0829a1555088106b4149ebff104f34
+  1.30.0--r42hdfd78af_0: sha256:6f4a750788c29b329076c5d2afab73f70389796bcce46464c3015cea85faa883
 tags:
   1.26.0--r41hdfd78af_0: sha256:a80027c51b015de83c15fe392a6a1e11fc0829a1555088106b4149ebff104f34
+  1.30.0--r42hdfd78af_0: sha256:6f4a750788c29b329076c5d2afab73f70389796bcce46464c3015cea85faa883
 docker: quay.io/biocontainers/bioconductor-pwomics

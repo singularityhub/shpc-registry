@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hu6800probe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hu6800probe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:8e60cfe991fc151fd0703eeb2b47e19cf9d05a11d43c817c09a1344e5d7f62c9
+  2.18.0--r42hdfd78af_10: sha256:254ff41d81d4068c16412edc0ae1702ee1e3c7deafdf03c85d283c1862c869ef
 tags:
   2.18.0--r41hdfd78af_9: sha256:8e60cfe991fc151fd0703eeb2b47e19cf9d05a11d43c817c09a1344e5d7f62c9
+  2.18.0--r42hdfd78af_10: sha256:254ff41d81d4068c16412edc0ae1702ee1e3c7deafdf03c85d283c1862c869ef
 docker: quay.io/biocontainers/bioconductor-hu6800probe

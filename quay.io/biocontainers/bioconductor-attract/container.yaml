@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-attract
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-attract
 latest:
-  1.46.0--r41hdfd78af_0: sha256:c13b1d6a4fc14094ba2a0f0361bbc9e67760830abf9054ed59a3a51d66b89234
+  1.50.0--r42hdfd78af_0: sha256:18229fde062f3b4cc7f1e4fbb7cb1fa44377bf5cb32711c2ed5e55f0a33ec1d4
 tags:
   1.46.0--r41hdfd78af_0: sha256:c13b1d6a4fc14094ba2a0f0361bbc9e67760830abf9054ed59a3a51d66b89234
+  1.50.0--r42hdfd78af_0: sha256:18229fde062f3b4cc7f1e4fbb7cb1fa44377bf5cb32711c2ed5e55f0a33ec1d4
 docker: quay.io/biocontainers/bioconductor-attract
