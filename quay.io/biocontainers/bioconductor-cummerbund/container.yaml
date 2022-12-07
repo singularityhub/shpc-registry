@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cummerbund
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cummerbund
 latest:
-  2.36.0--r41hdfd78af_0: sha256:53af8aff39f4fc24aea92bbb105a8f0a37361b617c1cfc5ca9e4f093aa8bac25
+  2.40.0--r42hdfd78af_0: sha256:c3178b2112fe1ec353a1d3cbf4ef8ab2c186f286d72197839e3d41f0d759acb8
 tags:
   2.8.2--r351_1: sha256:781a7009f2aba73ebef94e74855f6b02cec59e263e26635bb2ffd7eb5d0dce77
   2.36.0--r41hdfd78af_0: sha256:53af8aff39f4fc24aea92bbb105a8f0a37361b617c1cfc5ca9e4f093aa8bac25
@@ -10,6 +10,7 @@ tags:
   2.32.0--r40hdfd78af_1: sha256:0bb80bab5e93fd9f2cf3c8eaf9d87ba353a5b2b25a7320325526a31808c6c820
   2.30.0--r40_0: sha256:9a1430d93617a914133a61f6d3cc1a6742c0edc66fcf2d5a18835a1cb27025f1
   2.28.0--r36_0: sha256:d6ebc3d04dd64f975470f27f53d641cd36198d7d20d88ba782ce70e416d2665a
+  2.40.0--r42hdfd78af_0: sha256:c3178b2112fe1ec353a1d3cbf4ef8ab2c186f286d72197839e3d41f0d759acb8
 docker: quay.io/biocontainers/bioconductor-cummerbund
 aliases:
   wget: /usr/local/bin/wget

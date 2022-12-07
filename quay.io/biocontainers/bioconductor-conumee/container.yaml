@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-conumee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-conumee
 latest:
-  1.26.0--r41hdfd78af_0: sha256:19dead2ba50e3dc6fbbd19c56ba9c1a7651e3f91d559e4b5557fe760ae4695ef
+  1.32.0--r42hdfd78af_0: sha256:fa3ad70fda526e0e4111a339fc549adb7289b61cafc1fb61119c90e272a21e28
 tags:
   1.26.0--r41hdfd78af_0: sha256:19dead2ba50e3dc6fbbd19c56ba9c1a7651e3f91d559e4b5557fe760ae4695ef
+  1.32.0--r42hdfd78af_0: sha256:fa3ad70fda526e0e4111a339fc549adb7289b61cafc1fb61119c90e272a21e28
 docker: quay.io/biocontainers/bioconductor-conumee
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

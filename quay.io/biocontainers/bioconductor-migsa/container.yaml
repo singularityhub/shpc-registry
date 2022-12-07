@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-migsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-migsa
 latest:
-  1.18.0--r41hdfd78af_0: sha256:8c5d5dbde924de917a439a1c7e49f80620f7bf01fcd209e03be152b3eac7de5c
+  1.21.0--r42hdfd78af_0: sha256:77e9b26b21f7ae516ea6ab6a326bed2dea38791e85231ca8ee0c0d31f7ad3bc1
 tags:
   1.8.1--r36_0: sha256:89161df0f68a6975039407ee2a8909d6c2a4e57c4b0a0731a5ac7a186bd03f3d
   1.18.0--r41hdfd78af_0: sha256:8c5d5dbde924de917a439a1c7e49f80620f7bf01fcd209e03be152b3eac7de5c
@@ -10,6 +10,7 @@ tags:
   1.14.1--r40hdfd78af_1: sha256:5d374308f2735e1f91de1b15b61300fb0899af31dd468ba9a45d2df63619282e
   1.12.0--r40_0: sha256:6c94371eea2fd9f04d3209d3f695ee2b6a541ca928bc878cf54c6378460edcdc
   1.10.0--r36_0: sha256:b258f2e2ce0d3198153913d6ba971c8266cade403837df71f5ac30dce54ba836
+  1.21.0--r42hdfd78af_0: sha256:77e9b26b21f7ae516ea6ab6a326bed2dea38791e85231ca8ee0c0d31f7ad3bc1
 docker: quay.io/biocontainers/bioconductor-migsa
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

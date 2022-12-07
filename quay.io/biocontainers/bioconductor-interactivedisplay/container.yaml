@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-interactivedisplay
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-interactivedisplay
 latest:
-  1.32.0--r41hdfd78af_0: sha256:82bee5aa6dcbda8c4c8766e49141cb83e1e61b6f6a99156eb854a73709699b5c
+  1.36.0--r42hdfd78af_0: sha256:c1546887dc14f4bd3b82a45b54b08263b7e577fa06c321744de350cf39404a08
 tags:
   1.32.0--r41hdfd78af_0: sha256:82bee5aa6dcbda8c4c8766e49141cb83e1e61b6f6a99156eb854a73709699b5c
+  1.36.0--r42hdfd78af_0: sha256:c1546887dc14f4bd3b82a45b54b08263b7e577fa06c321744de350cf39404a08
 docker: quay.io/biocontainers/bioconductor-interactivedisplay

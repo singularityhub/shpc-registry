@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-umi4cats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-umi4cats
 latest:
-  1.4.0--r41hdfd78af_0: sha256:7ae42d298a6c5dc8e26f8668a5353cfced87cb0d204c3b9b5d9d1f6bde409c01
+  1.8.0--r42hdfd78af_0: sha256:9a709317dbd7412d45562e850560d2a7593fdd745ae26f43f2614ee908bcb563
 tags:
   1.4.0--r41hdfd78af_0: sha256:7ae42d298a6c5dc8e26f8668a5353cfced87cb0d204c3b9b5d9d1f6bde409c01
+  1.8.0--r42hdfd78af_0: sha256:9a709317dbd7412d45562e850560d2a7593fdd745ae26f43f2614ee908bcb563
 docker: quay.io/biocontainers/bioconductor-umi4cats
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
