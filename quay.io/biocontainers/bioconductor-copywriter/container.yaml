@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-copywriter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-copywriter
 latest:
-  2.26.0--r41hdfd78af_0: sha256:b862874d49689b46f9924d8778bd66c5a7d60522e69f19100d218a35fcb848e7
+  2.29.0--r42hdfd78af_0: sha256:b75a77d301296cd54fe0a4c3354e8d54be00ea68a62e5ddb3f6517052b9b9e81
 tags:
   2.26.0--r41hdfd78af_0: sha256:b862874d49689b46f9924d8778bd66c5a7d60522e69f19100d218a35fcb848e7
+  2.29.0--r42hdfd78af_0: sha256:b75a77d301296cd54fe0a4c3354e8d54be00ea68a62e5ddb3f6517052b9b9e81
 docker: quay.io/biocontainers/bioconductor-copywriter

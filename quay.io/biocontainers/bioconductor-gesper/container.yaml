@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gesper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gesper
 latest:
-  1.26.0--r41hdfd78af_0: sha256:dae89c09e791c32763813f5f6834aa8344ead1cdb40dc0acc99620dac5a5616d
+  1.30.0--r42hdfd78af_0: sha256:45d2f7bda3eb3a1bdf79e0805bdcd7a9e3da6a453fc9502f89eb459895d434ed
 tags:
   1.26.0--r41hdfd78af_0: sha256:dae89c09e791c32763813f5f6834aa8344ead1cdb40dc0acc99620dac5a5616d
+  1.30.0--r42hdfd78af_0: sha256:45d2f7bda3eb3a1bdf79e0805bdcd7a9e3da6a453fc9502f89eb459895d434ed
 docker: quay.io/biocontainers/bioconductor-gesper

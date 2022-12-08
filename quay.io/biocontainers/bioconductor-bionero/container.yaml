@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-bionero
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bionero
 latest:
-  1.2.0--r41hdfd78af_0: sha256:c13e1bc96702ac86307f9a7e1aea50d6d4f37d1b41e3d6ce83b8823b9b3bac20
+  1.6.0--r42hdfd78af_0: sha256:c6f1d14f71fd591e0c8b2f96ce3bf2d57041979f922c4268170187250776e4c9
 tags:
   1.2.0--r41hdfd78af_0: sha256:c13e1bc96702ac86307f9a7e1aea50d6d4f37d1b41e3d6ce83b8823b9b3bac20
+  1.6.0--r42hdfd78af_0: sha256:c6f1d14f71fd591e0c8b2f96ce3bf2d57041979f922c4268170187250776e4c9
 docker: quay.io/biocontainers/bioconductor-bionero
