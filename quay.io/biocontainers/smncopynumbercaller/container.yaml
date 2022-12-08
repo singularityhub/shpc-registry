@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/smncopynumbercaller
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for smncopynumbercaller
+latest:
+  1.1.2--py310h7cba7a3_0: sha256:77467ff8b974e40ad8bacde54d2a00657b02a80f023fd563808d7038e0513b13
+tags:
+  1.1.2--py310h7cba7a3_0: sha256:77467ff8b974e40ad8bacde54d2a00657b02a80f023fd563808d7038e0513b13
+docker: quay.io/biocontainers/smncopynumbercaller
+aliases:
+  COPYRIGHT.txt: /usr/local/bin/COPYRIGHT.txt
+  LICENSE.txt: /usr/local/bin/LICENSE.txt
+  requirements.txt: /usr/local/bin/requirements.txt
+  smn_caller.py: /usr/local/bin/smn_caller.py
+  smn_charts.py: /usr/local/bin/smn_charts.py
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
