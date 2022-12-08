@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mm24kresogen.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mm24kresogen.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mm24kresogen.db/container.yaml"
-updated_at: "2022-12-05 03:06:38.682128"
-latest: "2.5.0--r41hdfd78af_9"
+updated_at: "2022-12-08 03:23:06.453548"
+latest: "2.5.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mm24kresogen.db"
 
 versions:
  - "2.5.0--r41hdfd78af_9"
+ - "2.5.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-mm24kresogen.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mm24kresogen.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mm24kresogen.db", "latest": {"2.5.0--r41hdfd78af_9": "sha256:b8adf6d2b488e157862d26d014c56860c6b1185b77e4ab91ad823f9a2c80577c"}, "tags": {"2.5.0--r41hdfd78af_9": "sha256:b8adf6d2b488e157862d26d014c56860c6b1185b77e4ab91ad823f9a2c80577c"}, "docker": "quay.io/biocontainers/bioconductor-mm24kresogen.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mm24kresogen.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mm24kresogen.db", "latest": {"2.5.0--r42hdfd78af_10": "sha256:2dcee8c579a225b1812ff6d017da1d3cebf7b735970f0d2872b4d12ecdc5d494"}, "tags": {"2.5.0--r41hdfd78af_9": "sha256:b8adf6d2b488e157862d26d014c56860c6b1185b77e4ab91ad823f9a2c80577c", "2.5.0--r42hdfd78af_10": "sha256:2dcee8c579a225b1812ff6d017da1d3cebf7b735970f0d2872b4d12ecdc5d494"}, "docker": "quay.io/biocontainers/bioconductor-mm24kresogen.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mm24kresogen.db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mm24kresogen.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mm24kresogen.db:2.5.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-mm24kresogen.db:2.5.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mm24kresogen.db/2.5.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-mm24kresogen.db/2.5.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-mm24kresogen.db/2.5.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-mm24kresogen.db/2.5.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

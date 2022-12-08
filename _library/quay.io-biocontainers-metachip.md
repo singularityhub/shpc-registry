@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metachip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metachip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metachip/container.yaml"
-updated_at: "2022-12-05 04:06:12.146337"
+updated_at: "2022-12-08 03:05:31.038113"
 latest: "1.10.12--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/metachip"
 aliases:

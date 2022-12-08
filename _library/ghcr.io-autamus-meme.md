@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/meme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/meme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/meme/container.yaml"
-updated_at: "2022-12-05 02:49:44.526764"
+updated_at: "2022-12-08 03:52:02.061858"
 latest: "5.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/meme"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "5.3.0"
  - "latest"
 description: "The MEME suite provides online tools for discovering and using protein and DNA sequence motifs."
-config: {"docker": "ghcr.io/autamus/meme", "url": "https://github.com/orgs/autamus/packages/container/package/meme", "maintainer": "@vsoch", "description": "The MEME suite provides online tools for discovering and using protein and DNA sequence motifs.", "latest": {"5.3.0": "sha256:045bc558d153fee7e2a9f4ac25b9b7e65cdc6b4cecb8de5f104595c250ac7884"}, "tags": {"5.3.0": "sha256:045bc558d153fee7e2a9f4ac25b9b7e65cdc6b4cecb8de5f104595c250ac7884", "latest": "sha256:045bc558d153fee7e2a9f4ac25b9b7e65cdc6b4cecb8de5f104595c250ac7884"}, "aliases": {"meme": "/opt/view/bin/meme", "meme-chip": "/opt/view/bin/meme-chip", "memhog": "/opt/view/bin/memhog"}}
+config: {"docker": "ghcr.io/autamus/meme", "url": "https://github.com/orgs/autamus/packages/container/package/meme", "maintainer": "@vsoch", "description": "The MEME suite provides online tools for discovering and using protein and DNA sequence motifs.", "latest": {"5.3.0": "sha256:65f28df418d7d71c1b10d27f9b8e339d3355edada976aaab2892777f4a69e1c7"}, "tags": {"5.3.0": "sha256:65f28df418d7d71c1b10d27f9b8e339d3355edada976aaab2892777f4a69e1c7", "latest": "sha256:65f28df418d7d71c1b10d27f9b8e339d3355edada976aaab2892777f4a69e1c7"}, "aliases": {"meme": "/opt/view/bin/meme", "meme-chip": "/opt/view/bin/meme-chip", "memhog": "/opt/view/bin/memhog"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/meme.

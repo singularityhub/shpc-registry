@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/adios2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/adios2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/adios2/container.yaml"
-updated_at: "2022-12-05 02:49:38.885800"
+updated_at: "2022-12-08 03:51:16.114661"
 latest: "2.8.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/adios2"
 aliases:
@@ -18,7 +18,7 @@ versions:
  - "latest"
  - "2.8.3"
 description: "The Adaptable Input Output System version 2, developed in the Exascale Computing Program"
-config: {"docker": "ghcr.io/autamus/adios2", "url": "https://github.com/orgs/autamus/packages/container/package/adios2", "maintainer": "@vsoch", "description": "The Adaptable Input Output System version 2, developed in the Exascale Computing Program", "latest": {"2.8.3": "sha256:0e4f6b43dfeca7ca11cc2f524e498581a85bdf515b8b15bd6b2ac7953816ba4b"}, "tags": {"2.7.1": "sha256:ad475f144747104b57674f84e72efa877e904645ce5edeb9d43a06e058764c72", "latest": "sha256:0e4f6b43dfeca7ca11cc2f524e498581a85bdf515b8b15bd6b2ac7953816ba4b", "2.8.3": "sha256:0e4f6b43dfeca7ca11cc2f524e498581a85bdf515b8b15bd6b2ac7953816ba4b"}, "aliases": {"adios2-config": "/opt/view/bin/adios2-config", "adios2_deactivate_bp": "/opt/view/bin/adios2_deactivate_bp", "adios2_iotest": "/opt/view/bin/adios2_iotest", "adios2_reorganize": "/opt/view/bin/adios2_reorganize", "adios2_reorganize_mpi": "/opt/view/bin/adios2_reorganize_mpi"}}
+config: {"docker": "ghcr.io/autamus/adios2", "url": "https://github.com/orgs/autamus/packages/container/package/adios2", "maintainer": "@vsoch", "description": "The Adaptable Input Output System version 2, developed in the Exascale Computing Program", "latest": {"2.8.3": "sha256:9e80c7aeed6091aba262a761376a2504699f3b3cd404f524db4c527d4c102c72"}, "tags": {"2.7.1": "sha256:ad475f144747104b57674f84e72efa877e904645ce5edeb9d43a06e058764c72", "latest": "sha256:9e80c7aeed6091aba262a761376a2504699f3b3cd404f524db4c527d4c102c72", "2.8.3": "sha256:9e80c7aeed6091aba262a761376a2504699f3b3cd404f524db4c527d4c102c72"}, "aliases": {"adios2-config": "/opt/view/bin/adios2-config", "adios2_deactivate_bp": "/opt/view/bin/adios2_deactivate_bp", "adios2_iotest": "/opt/view/bin/adios2_iotest", "adios2_reorganize": "/opt/view/bin/adios2_reorganize", "adios2_reorganize_mpi": "/opt/view/bin/adios2_reorganize_mpi"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/adios2.

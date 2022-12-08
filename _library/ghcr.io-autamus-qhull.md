@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/qhull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/qhull/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/qhull/container.yaml"
-updated_at: "2022-12-05 02:49:31.938450"
+updated_at: "2022-12-08 03:51:26.957994"
 latest: "2020.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/qhull"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "2020.2"
  - "latest"
 description: "Snappy (previously known as Zippy) is a fast data compression and decompression library written in C++ by Google based on ideas from LZ77 and open-sourced in 2011."
-config: {"docker": "ghcr.io/autamus/qhull", "url": "https://github.com/orgs/autamus/packages/container/package/qhull", "maintainer": "@vsoch", "description": "Snappy (previously known as Zippy) is a fast data compression and decompression library written in C++ by Google based on ideas from LZ77 and open-sourced in 2011.", "latest": {"2020.2": "sha256:0deafaef8c3aa8bc187d4c6d8ba6a822a5feee6357bd30540aa4e2b13403e927"}, "tags": {"2020.1": "sha256:eeeb21a12856b1a4864df42b5399958305f47fb2aa4cae967319648f18fa9d86", "2020.2": "sha256:0deafaef8c3aa8bc187d4c6d8ba6a822a5feee6357bd30540aa4e2b13403e927", "latest": "sha256:0deafaef8c3aa8bc187d4c6d8ba6a822a5feee6357bd30540aa4e2b13403e927"}, "aliases": {"qconvex": "/opt/view/bin/qconvex", "qdelaunay": "/opt/view/bin/qdelaunay", "qhalf": "/opt/view/bin/qhalf", "qhull": "/opt/view/bin/qhull", "qvoronoi": "/opt/view/bin/qvoronoi", "rbox": "/opt/view/bin/rbox"}}
+config: {"docker": "ghcr.io/autamus/qhull", "url": "https://github.com/orgs/autamus/packages/container/package/qhull", "maintainer": "@vsoch", "description": "Snappy (previously known as Zippy) is a fast data compression and decompression library written in C++ by Google based on ideas from LZ77 and open-sourced in 2011.", "latest": {"2020.2": "sha256:e6b6ee09604aeecdded05f548429ae2878461948b089b7f07fcefdf34b2eff78"}, "tags": {"2020.1": "sha256:eeeb21a12856b1a4864df42b5399958305f47fb2aa4cae967319648f18fa9d86", "2020.2": "sha256:e6b6ee09604aeecdded05f548429ae2878461948b089b7f07fcefdf34b2eff78", "latest": "sha256:e6b6ee09604aeecdded05f548429ae2878461948b089b7f07fcefdf34b2eff78"}, "aliases": {"qconvex": "/opt/view/bin/qconvex", "qdelaunay": "/opt/view/bin/qdelaunay", "qhalf": "/opt/view/bin/qhalf", "qhull": "/opt/view/bin/qhull", "qvoronoi": "/opt/view/bin/qvoronoi", "rbox": "/opt/view/bin/rbox"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/qhull.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-htsget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-htsget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-htsget/container.yaml"
-updated_at: "2022-12-05 03:53:42.836720"
-latest: "0.2.5--pyh864c0ab_1"
+updated_at: "2022-12-08 03:40:38.557979"
+latest: "0.2.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/python-htsget"
 aliases:
  - "htsget"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.2.5--pyh864c0ab_1"
+ - "0.2.6--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for python-htsget"
-config: {"url": "https://biocontainers.pro/tools/python-htsget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-htsget", "latest": {"0.2.5--pyh864c0ab_1": "sha256:b926716de7fdb0f03c630a4fd2636bbf7652100681cd21efb41c5224ed0fa8b2"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:b926716de7fdb0f03c630a4fd2636bbf7652100681cd21efb41c5224ed0fa8b2"}, "docker": "quay.io/biocontainers/python-htsget", "aliases": {"htsget": "/usr/local/bin/htsget", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-htsget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-htsget", "latest": {"0.2.6--pyh7cba7a3_0": "sha256:16937d8766844e068f96369f24c3c5e304b5ee623e073977f38f5474299b1981"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:b926716de7fdb0f03c630a4fd2636bbf7652100681cd21efb41c5224ed0fa8b2", "0.2.6--pyh7cba7a3_0": "sha256:16937d8766844e068f96369f24c3c5e304b5ee623e073977f38f5474299b1981"}, "docker": "quay.io/biocontainers/python-htsget", "aliases": {"htsget": "/usr/local/bin/htsget", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-htsget.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/python-htsget
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-htsget:0.2.5--pyh864c0ab_1
+$ shpc install quay.io/biocontainers/python-htsget:0.2.6--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-htsget/0.2.5--pyh864c0ab_1
-$ module help quay.io/biocontainers/python-htsget/0.2.5--pyh864c0ab_1
+$ module load quay.io/biocontainers/python-htsget/0.2.6--pyh7cba7a3_0
+$ module help quay.io/biocontainers/python-htsget/0.2.6--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

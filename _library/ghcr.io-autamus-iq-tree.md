@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/iq-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/iq-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/iq-tree/container.yaml"
-updated_at: "2022-12-05 02:49:12.791710"
+updated_at: "2022-12-08 03:51:22.547164"
 latest: "2.1.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/iq-tree"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "2.1.3"
  - "latest"
 description: "IQ-TREE (http://www.iqtree.org, last accessed February 6, 2020) is a user-friendly and widely used software package for phylogenetic inference using maximum likelihood."
-config: {"docker": "ghcr.io/autamus/iq-tree", "url": "https://github.com/orgs/autamus/packages/container/package/iq-tree", "maintainer": "@vsoch", "description": "IQ-TREE (http://www.iqtree.org, last accessed February 6, 2020) is a user-friendly and widely used software package for phylogenetic inference using maximum likelihood.", "latest": {"2.1.3": "sha256:7268ea7b8d0e1fd8c239c14e46200add2f45695a1e10974832b6c62c631ee83d"}, "tags": {"2.0.6": "sha256:3b3fa503ae69d5fbddbd6adb92462ad5bc09bdf814140001bd04baacc4feae9e", "2.1.3": "sha256:7268ea7b8d0e1fd8c239c14e46200add2f45695a1e10974832b6c62c631ee83d", "latest": "sha256:7268ea7b8d0e1fd8c239c14e46200add2f45695a1e10974832b6c62c631ee83d"}, "aliases": {"iq-tree2": "/opt/view/bin/iq-tree2"}}
+config: {"docker": "ghcr.io/autamus/iq-tree", "url": "https://github.com/orgs/autamus/packages/container/package/iq-tree", "maintainer": "@vsoch", "description": "IQ-TREE (http://www.iqtree.org, last accessed February 6, 2020) is a user-friendly and widely used software package for phylogenetic inference using maximum likelihood.", "latest": {"2.1.3": "sha256:935757d6b8520265ee12ccc5cd941fc38d6b2466dba73ab556425e19bea76ad4"}, "tags": {"2.0.6": "sha256:3b3fa503ae69d5fbddbd6adb92462ad5bc09bdf814140001bd04baacc4feae9e", "2.1.3": "sha256:935757d6b8520265ee12ccc5cd941fc38d6b2466dba73ab556425e19bea76ad4", "latest": "sha256:935757d6b8520265ee12ccc5cd941fc38d6b2466dba73ab556425e19bea76ad4"}, "aliases": {"iq-tree2": "/opt/view/bin/iq-tree2"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/iq-tree.

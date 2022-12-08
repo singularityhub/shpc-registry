@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hgvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hgvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hgvs/container.yaml"
-updated_at: "2022-12-05 03:15:38.607861"
-latest: "1.5.2--pyh5e36f6f_0"
+updated_at: "2022-12-08 03:34:03.386775"
+latest: "1.5.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hgvs"
 aliases:
  - "hgvs-shell"
@@ -26,8 +26,9 @@ aliases:
  - "normalizer"
 versions:
  - "1.5.2--pyh5e36f6f_0"
+ - "1.5.4--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for hgvs"
-config: {"url": "https://biocontainers.pro/tools/hgvs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hgvs", "latest": {"1.5.2--pyh5e36f6f_0": "sha256:1b37fcaafc7259c53732b87777ec0f06dbd385a6cc99d76e62495c06d2db0554"}, "tags": {"1.5.2--pyh5e36f6f_0": "sha256:1b37fcaafc7259c53732b87777ec0f06dbd385a6cc99d76e62495c06d2db0554"}, "docker": "quay.io/biocontainers/hgvs", "aliases": {"hgvs-shell": "/usr/local/bin/hgvs-shell", "pyppeteer-install": "/usr/local/bin/pyppeteer-install", "seqrepo": "/usr/local/bin/seqrepo", "sqlformat": "/usr/local/bin/sqlformat", "yoyo": "/usr/local/bin/yoyo", "yoyo-migrate": "/usr/local/bin/yoyo-migrate", "iptest3": "/usr/local/bin/iptest3", "coloredlogs": "/usr/local/bin/coloredlogs", "iptest": "/usr/local/bin/iptest", "humanfriendly": "/usr/local/bin/humanfriendly", "ipython3": "/usr/local/bin/ipython3", "tabulate": "/usr/local/bin/tabulate", "ipython": "/usr/local/bin/ipython", "pg_config": "/usr/local/bin/pg_config", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/hgvs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hgvs", "latest": {"1.5.4--pyh7cba7a3_0": "sha256:9dccfe14484409af1eeaeb82a0fdeb0986eadc7b4520afdb0db7c0f3af66245e"}, "tags": {"1.5.2--pyh5e36f6f_0": "sha256:1b37fcaafc7259c53732b87777ec0f06dbd385a6cc99d76e62495c06d2db0554", "1.5.4--pyh7cba7a3_0": "sha256:9dccfe14484409af1eeaeb82a0fdeb0986eadc7b4520afdb0db7c0f3af66245e"}, "docker": "quay.io/biocontainers/hgvs", "aliases": {"hgvs-shell": "/usr/local/bin/hgvs-shell", "pyppeteer-install": "/usr/local/bin/pyppeteer-install", "seqrepo": "/usr/local/bin/seqrepo", "sqlformat": "/usr/local/bin/sqlformat", "yoyo": "/usr/local/bin/yoyo", "yoyo-migrate": "/usr/local/bin/yoyo-migrate", "iptest3": "/usr/local/bin/iptest3", "coloredlogs": "/usr/local/bin/coloredlogs", "iptest": "/usr/local/bin/iptest", "humanfriendly": "/usr/local/bin/humanfriendly", "ipython3": "/usr/local/bin/ipython3", "tabulate": "/usr/local/bin/tabulate", "ipython": "/usr/local/bin/ipython", "pg_config": "/usr/local/bin/pg_config", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hgvs.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/hgvs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hgvs:1.5.2--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/hgvs:1.5.4--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hgvs/1.5.2--pyh5e36f6f_0
-$ module help quay.io/biocontainers/hgvs/1.5.2--pyh5e36f6f_0
+$ module load quay.io/biocontainers/hgvs/1.5.4--pyh7cba7a3_0
+$ module help quay.io/biocontainers/hgvs/1.5.4--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

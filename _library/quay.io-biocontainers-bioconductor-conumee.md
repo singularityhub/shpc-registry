@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-conumee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-conumee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-conumee/container.yaml"
-updated_at: "2022-12-05 03:40:35.627697"
-latest: "1.26.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:29:02.507638"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-conumee"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.26.0--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-conumee"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-conumee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-conumee", "latest": {"1.26.0--r41hdfd78af_0": "sha256:19dead2ba50e3dc6fbbd19c56ba9c1a7651e3f91d559e4b5557fe760ae4695ef"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:19dead2ba50e3dc6fbbd19c56ba9c1a7651e3f91d559e4b5557fe760ae4695ef"}, "docker": "quay.io/biocontainers/bioconductor-conumee", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-conumee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-conumee", "latest": {"1.32.0--r42hdfd78af_0": "sha256:fa3ad70fda526e0e4111a339fc549adb7289b61cafc1fb61119c90e272a21e28"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:19dead2ba50e3dc6fbbd19c56ba9c1a7651e3f91d559e4b5557fe760ae4695ef", "1.32.0--r42hdfd78af_0": "sha256:fa3ad70fda526e0e4111a339fc549adb7289b61cafc1fb61119c90e272a21e28"}, "docker": "quay.io/biocontainers/bioconductor-conumee", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-conumee.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-conumee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-conumee:1.26.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-conumee:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-conumee/1.26.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-conumee/1.26.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-conumee/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-conumee/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

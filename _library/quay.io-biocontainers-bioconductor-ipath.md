@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ipath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ipath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ipath/container.yaml"
-updated_at: "2022-12-05 02:56:57.891400"
+updated_at: "2022-12-08 03:03:12.706172"
 latest: "1.4.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ipath"
 aliases:

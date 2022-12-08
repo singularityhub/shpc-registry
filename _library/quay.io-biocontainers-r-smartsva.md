@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-smartsva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-smartsva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-smartsva/container.yaml"
-updated_at: "2022-12-05 03:46:44.961963"
-latest: "0.1.3--r41hecf12ef_5"
+updated_at: "2022-12-08 03:28:35.791444"
+latest: "0.1.3--r42hecf12ef_6"
 container_url: "https://biocontainers.pro/tools/r-smartsva"
 
 versions:
  - "0.1.3--r41hecf12ef_5"
+ - "0.1.3--r42hecf12ef_6"
 description: "shpc-registry automated BioContainers addition for r-smartsva"
-config: {"url": "https://biocontainers.pro/tools/r-smartsva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-smartsva", "latest": {"0.1.3--r41hecf12ef_5": "sha256:59cb4b6796563f3cd2b4762d1dc85d1e347f2ab4fc27414388c28b36db9bac7a"}, "tags": {"0.1.3--r41hecf12ef_5": "sha256:59cb4b6796563f3cd2b4762d1dc85d1e347f2ab4fc27414388c28b36db9bac7a"}, "docker": "quay.io/biocontainers/r-smartsva"}
+config: {"url": "https://biocontainers.pro/tools/r-smartsva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-smartsva", "latest": {"0.1.3--r42hecf12ef_6": "sha256:250d91d1b48d556aa05b5b4ba317df18442958b2f32bb86d54fbb94779ada590"}, "tags": {"0.1.3--r41hecf12ef_5": "sha256:59cb4b6796563f3cd2b4762d1dc85d1e347f2ab4fc27414388c28b36db9bac7a", "0.1.3--r42hecf12ef_6": "sha256:250d91d1b48d556aa05b5b4ba317df18442958b2f32bb86d54fbb94779ada590"}, "docker": "quay.io/biocontainers/r-smartsva"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-smartsva.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-smartsva
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-smartsva:0.1.3--r41hecf12ef_5
+$ shpc install quay.io/biocontainers/r-smartsva:0.1.3--r42hecf12ef_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-smartsva/0.1.3--r41hecf12ef_5
-$ module help quay.io/biocontainers/r-smartsva/0.1.3--r41hecf12ef_5
+$ module load quay.io/biocontainers/r-smartsva/0.1.3--r42hecf12ef_6
+$ module help quay.io/biocontainers/r-smartsva/0.1.3--r42hecf12ef_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

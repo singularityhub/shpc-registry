@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mtseekerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mtseekerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mtseekerdata/container.yaml"
-updated_at: "2022-12-05 04:03:56.058931"
+updated_at: "2022-12-08 02:55:46.738478"
 latest: "1.2.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mtseekerdata"
 aliases:

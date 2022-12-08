@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multibac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multibac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multibac/container.yaml"
-updated_at: "2022-12-05 03:34:00.278818"
+updated_at: "2022-12-08 03:15:29.147414"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multibac"
 

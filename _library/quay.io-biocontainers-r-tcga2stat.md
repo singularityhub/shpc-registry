@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-tcga2stat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tcga2stat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tcga2stat/container.yaml"
-updated_at: "2022-12-05 04:07:21.053792"
-latest: "1.2--r41h3121a25_8"
+updated_at: "2022-12-08 02:57:28.125564"
+latest: "1.2--r42h3121a25_9"
 container_url: "https://biocontainers.pro/tools/r-tcga2stat"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.2--r41h3121a25_8"
+ - "1.2--r42h3121a25_9"
 description: "shpc-registry automated BioContainers addition for r-tcga2stat"
-config: {"url": "https://biocontainers.pro/tools/r-tcga2stat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tcga2stat", "latest": {"1.2--r41h3121a25_8": "sha256:aad507daf828a3d31654ccbc3cea3471d1df564f9d3aa56cf0ba96bc06f2892f"}, "tags": {"1.2--r41h3121a25_8": "sha256:aad507daf828a3d31654ccbc3cea3471d1df564f9d3aa56cf0ba96bc06f2892f"}, "docker": "quay.io/biocontainers/r-tcga2stat", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-tcga2stat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tcga2stat", "latest": {"1.2--r42h3121a25_9": "sha256:61da1c9fc25af48c5100dcb2b8acf00efccb85d50e537cfd42f133494ede86f1"}, "tags": {"1.2--r41h3121a25_8": "sha256:aad507daf828a3d31654ccbc3cea3471d1df564f9d3aa56cf0ba96bc06f2892f", "1.2--r42h3121a25_9": "sha256:61da1c9fc25af48c5100dcb2b8acf00efccb85d50e537cfd42f133494ede86f1"}, "docker": "quay.io/biocontainers/r-tcga2stat", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tcga2stat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-tcga2stat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tcga2stat:1.2--r41h3121a25_8
+$ shpc install quay.io/biocontainers/r-tcga2stat:1.2--r42h3121a25_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tcga2stat/1.2--r41h3121a25_8
-$ module help quay.io/biocontainers/r-tcga2stat/1.2--r41h3121a25_8
+$ module load quay.io/biocontainers/r-tcga2stat/1.2--r42h3121a25_9
+$ module help quay.io/biocontainers/r-tcga2stat/1.2--r42h3121a25_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

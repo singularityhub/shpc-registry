@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-trigger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trigger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trigger/container.yaml"
-updated_at: "2022-12-05 03:10:51.636167"
-latest: "1.40.0--r41hc0cfd56_2"
+updated_at: "2022-12-08 03:08:01.733932"
+latest: "1.44.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trigger"
 
 versions:
  - "1.40.0--r41hc0cfd56_2"
+ - "1.44.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trigger"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trigger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trigger", "latest": {"1.40.0--r41hc0cfd56_2": "sha256:43f15acd399c9b5919813c61d4f11d4190534957f8d1909ce4b58b6742900a47"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:43f15acd399c9b5919813c61d4f11d4190534957f8d1909ce4b58b6742900a47"}, "docker": "quay.io/biocontainers/bioconductor-trigger"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trigger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trigger", "latest": {"1.44.0--r42hc0cfd56_0": "sha256:24ef3294fac15c100751fc374d213af3d8c348d9bda4e855e8dd36fd3d351f9b"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:43f15acd399c9b5919813c61d4f11d4190534957f8d1909ce4b58b6742900a47", "1.44.0--r42hc0cfd56_0": "sha256:24ef3294fac15c100751fc374d213af3d8c348d9bda4e855e8dd36fd3d351f9b"}, "docker": "quay.io/biocontainers/bioconductor-trigger"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trigger.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trigger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trigger:1.40.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-trigger:1.44.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trigger/1.40.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-trigger/1.40.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-trigger/1.44.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-trigger/1.44.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

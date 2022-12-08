@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-regionreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regionreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regionreport/container.yaml"
-updated_at: "2022-12-05 03:00:22.043467"
-latest: "1.27.1--r41hdfd78af_0"
+updated_at: "2022-12-08 02:59:28.759261"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regionreport"
 aliases:
  - "pandoc"
 versions:
  - "1.27.1--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-regionreport"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-regionreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regionreport", "latest": {"1.27.1--r41hdfd78af_0": "sha256:1aca97321d5291a4a452aea0bfce3092bd02620eed0bc9fe5f0ca8e171628e0a"}, "tags": {"1.27.1--r41hdfd78af_0": "sha256:1aca97321d5291a4a452aea0bfce3092bd02620eed0bc9fe5f0ca8e171628e0a"}, "docker": "quay.io/biocontainers/bioconductor-regionreport", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-regionreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regionreport", "latest": {"1.32.0--r42hdfd78af_0": "sha256:db22c12a015babe359abd3cb00378152e5ddaf7220e1c8554d85bad3292a0d4d"}, "tags": {"1.27.1--r41hdfd78af_0": "sha256:1aca97321d5291a4a452aea0bfce3092bd02620eed0bc9fe5f0ca8e171628e0a", "1.32.0--r42hdfd78af_0": "sha256:db22c12a015babe359abd3cb00378152e5ddaf7220e1c8554d85bad3292a0d4d"}, "docker": "quay.io/biocontainers/bioconductor-regionreport", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-regionreport.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-regionreport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-regionreport:1.27.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-regionreport:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-regionreport/1.27.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-regionreport/1.27.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-regionreport/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-regionreport/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

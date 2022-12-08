@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-medips"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-medips/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-medips/container.yaml"
-updated_at: "2022-12-05 03:10:17.286424"
-latest: "1.46.0--r41hdfd78af_0"
+updated_at: "2022-12-08 02:56:06.183808"
+latest: "1.50.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-medips"
 
 versions:
  - "1.46.0--r41hdfd78af_0"
+ - "1.50.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-medips"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-medips", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-medips", "latest": {"1.46.0--r41hdfd78af_0": "sha256:1cd519b5d9eaeb00b5c881a673eded5c1e548fa6f56778eab2a52bba0419fed4"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:1cd519b5d9eaeb00b5c881a673eded5c1e548fa6f56778eab2a52bba0419fed4"}, "docker": "quay.io/biocontainers/bioconductor-medips"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-medips", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-medips", "latest": {"1.50.0--r42hdfd78af_0": "sha256:ba535c79577d626ef19af1dd699eb6d6903088c3862a727a4f7e36a7fd3c246a"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:1cd519b5d9eaeb00b5c881a673eded5c1e548fa6f56778eab2a52bba0419fed4", "1.50.0--r42hdfd78af_0": "sha256:ba535c79577d626ef19af1dd699eb6d6903088c3862a727a4f7e36a7fd3c246a"}, "docker": "quay.io/biocontainers/bioconductor-medips"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-medips.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-medips
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-medips:1.46.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-medips:1.50.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-medips/1.46.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-medips/1.46.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-medips/1.50.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-medips/1.50.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

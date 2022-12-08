@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fnn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fnn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fnn/container.yaml"
-updated_at: "2022-12-05 03:16:38.169480"
+updated_at: "2022-12-08 03:04:42.360387"
 latest: "1.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-fnn"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-netsam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netsam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netsam/container.yaml"
-updated_at: "2022-12-05 04:10:14.839158"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:19:30.394069"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netsam"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netsam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netsam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netsam", "latest": {"1.34.0--r41hdfd78af_0": "sha256:56746614c800153552f45a65e56ec40298c95d0ea2d6a62cc6886f55169720cf"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:56746614c800153552f45a65e56ec40298c95d0ea2d6a62cc6886f55169720cf"}, "docker": "quay.io/biocontainers/bioconductor-netsam"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netsam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netsam", "latest": {"1.38.0--r42hdfd78af_0": "sha256:7f322e2e6a85f56a50e982d2399ae933b7832647bb27b68484a058d96c6ec7b6"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:56746614c800153552f45a65e56ec40298c95d0ea2d6a62cc6886f55169720cf", "1.38.0--r42hdfd78af_0": "sha256:7f322e2e6a85f56a50e982d2399ae933b7832647bb27b68484a058d96c6ec7b6"}, "docker": "quay.io/biocontainers/bioconductor-netsam"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netsam.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netsam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netsam:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-netsam:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netsam/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-netsam/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-netsam/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-netsam/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

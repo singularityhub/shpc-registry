@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gromacs/container.yaml"
-updated_at: "2022-12-05 02:49:16.800904"
+updated_at: "2022-12-08 03:51:00.096226"
 latest: "2022.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gromacs"
 
@@ -17,7 +17,7 @@ versions:
  - "2021"
  - "2022.3"
 description: "A versatile package to perform molecular dynamics."
-config: {"docker": "ghcr.io/autamus/gromacs", "url": "https://github.com/orgs/autamus/packages/container/package/gromacs", "maintainer": "@vsoch", "description": "A versatile package to perform molecular dynamics.", "latest": {"2022.3": "sha256:3ce39e03fb8007935a723820974e03674cd55aca447accdd5374ccfe3b02793f"}, "tags": {"2021.1": "sha256:e71e16926ff1ad6b52ea027c9c3523bf254bc0f00be23599f9c8637f8c69dee3", "2021.2": "sha256:38ddac3b17d74a520a46ce07d6fe5935eee9e742adbba0047adb00b93db90ced", "2021.3": "sha256:4596c320fb5d514d6f5b5d0203bd457944e38b5a055642d9bf40b7a262320229", "2021.4": "sha256:8588885dd5b1b7a2a77f42bd0e35909cc79c6aa7e7c686a38b1abc4bf8cc2e15", "latest": "sha256:3ce39e03fb8007935a723820974e03674cd55aca447accdd5374ccfe3b02793f", "2021": "sha256:57de89d219419e05e2aa8ecab95d06c72855c811c95090db287e714287ba95c0", "2022.3": "sha256:3ce39e03fb8007935a723820974e03674cd55aca447accdd5374ccfe3b02793f"}}
+config: {"docker": "ghcr.io/autamus/gromacs", "url": "https://github.com/orgs/autamus/packages/container/package/gromacs", "maintainer": "@vsoch", "description": "A versatile package to perform molecular dynamics.", "latest": {"2022.3": "sha256:7190f1342d57f53385ad8f35e7db8eac61de27bcd0af7a4e410e7cee442517db"}, "tags": {"2021.1": "sha256:e71e16926ff1ad6b52ea027c9c3523bf254bc0f00be23599f9c8637f8c69dee3", "2021.2": "sha256:38ddac3b17d74a520a46ce07d6fe5935eee9e742adbba0047adb00b93db90ced", "2021.3": "sha256:4596c320fb5d514d6f5b5d0203bd457944e38b5a055642d9bf40b7a262320229", "2021.4": "sha256:8588885dd5b1b7a2a77f42bd0e35909cc79c6aa7e7c686a38b1abc4bf8cc2e15", "latest": "sha256:7190f1342d57f53385ad8f35e7db8eac61de27bcd0af7a4e410e7cee442517db", "2021": "sha256:57de89d219419e05e2aa8ecab95d06c72855c811c95090db287e714287ba95c0", "2022.3": "sha256:7190f1342d57f53385ad8f35e7db8eac61de27bcd0af7a4e410e7cee442517db"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gromacs.

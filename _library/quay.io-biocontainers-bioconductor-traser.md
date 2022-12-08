@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-traser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-traser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-traser/container.yaml"
-updated_at: "2022-12-05 02:52:54.535722"
-latest: "1.24.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:29:01.711386"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-traser"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.20.0--r40hdfd78af_1"
  - "1.18.0--r40_0"
  - "1.16.0--r36_0"
+ - "1.28.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-traser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-traser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-traser", "latest": {"1.24.0--r41hdfd78af_0": "sha256:a7214d0ae44704a9abfaa3d02fa231ca98186444704affa2b83c275df633d3b4"}, "tags": {"1.8.0--r3.4.1_0": "sha256:ef34ce7232f1b369501761674307c246e138205bff7afa7c5321c499e25c5dba", "1.24.0--r41hdfd78af_0": "sha256:a7214d0ae44704a9abfaa3d02fa231ca98186444704affa2b83c275df633d3b4", "1.22.0--r41hdfd78af_0": "sha256:612bb0000c4ee21ce6aaaa9d32bcd2c393b369b0a1ef58c21d98850052551380", "1.20.0--r40hdfd78af_1": "sha256:3c88e3e7e4313f49fcced32ad42d3941ce077dde5c542c30ea61eb5a805b8d09", "1.18.0--r40_0": "sha256:f24446943ac9218413ec3c59872f7bf0b7f17c516879d14f23dcfeb0f3e4faf9", "1.16.0--r36_0": "sha256:3b9d3d6f146db353c00e59d67f7867e20e6f9425f53f81ef86f2046d03f468cf"}, "docker": "quay.io/biocontainers/bioconductor-traser", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-traser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-traser", "latest": {"1.28.0--r42hdfd78af_0": "sha256:e55b5e0a4784897e009c48a9a09470922aa320a1f71662fbb4f9fe0b3547d4f8"}, "tags": {"1.8.0--r3.4.1_0": "sha256:ef34ce7232f1b369501761674307c246e138205bff7afa7c5321c499e25c5dba", "1.24.0--r41hdfd78af_0": "sha256:a7214d0ae44704a9abfaa3d02fa231ca98186444704affa2b83c275df633d3b4", "1.22.0--r41hdfd78af_0": "sha256:612bb0000c4ee21ce6aaaa9d32bcd2c393b369b0a1ef58c21d98850052551380", "1.20.0--r40hdfd78af_1": "sha256:3c88e3e7e4313f49fcced32ad42d3941ce077dde5c542c30ea61eb5a805b8d09", "1.18.0--r40_0": "sha256:f24446943ac9218413ec3c59872f7bf0b7f17c516879d14f23dcfeb0f3e4faf9", "1.16.0--r36_0": "sha256:3b9d3d6f146db353c00e59d67f7867e20e6f9425f53f81ef86f2046d03f468cf", "1.28.0--r42hdfd78af_0": "sha256:e55b5e0a4784897e009c48a9a09470922aa320a1f71662fbb4f9fe0b3547d4f8"}, "docker": "quay.io/biocontainers/bioconductor-traser", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-traser.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-traser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-traser:1.24.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-traser:1.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-traser/1.24.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-traser/1.24.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-traser/1.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-traser/1.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

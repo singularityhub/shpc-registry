@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-trena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trena/container.yaml"
-updated_at: "2022-12-05 03:42:09.874209"
-latest: "1.16.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:19:29.993636"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trena"
 aliases:
  - "xgboost"
@@ -20,8 +20,9 @@ versions:
  - "1.8.0--r36_0"
  - "1.16.0--r41hdfd78af_0"
  - "1.14.0--r41hdfd78af_0"
+ - "1.20.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trena"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trena", "latest": {"1.16.0--r41hdfd78af_0": "sha256:62da8921ae2e36f2d4bc002d5c3dc1981778804303b7bf57128700d984bbc49e"}, "tags": {"1.8.0--r36_0": "sha256:f2bd624e93ce60eca564db630a3605dcbd437e8d85ce32d0904521f665029257", "1.16.0--r41hdfd78af_0": "sha256:62da8921ae2e36f2d4bc002d5c3dc1981778804303b7bf57128700d984bbc49e", "1.14.0--r41hdfd78af_0": "sha256:2b09120d0461526d0d7de195916994c5825b1c0cc0ce1cb4a60295ebc7c99f4b"}, "docker": "quay.io/biocontainers/bioconductor-trena", "aliases": {"xgboost": "/usr/local/bin/xgboost", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "pg_config": "/usr/local/bin/pg_config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trena", "latest": {"1.20.0--r42hdfd78af_0": "sha256:1a5840ee3b8ef9192edb50abb9f937f2b69bad30f155f37bf51e254024286c76"}, "tags": {"1.8.0--r36_0": "sha256:f2bd624e93ce60eca564db630a3605dcbd437e8d85ce32d0904521f665029257", "1.16.0--r41hdfd78af_0": "sha256:62da8921ae2e36f2d4bc002d5c3dc1981778804303b7bf57128700d984bbc49e", "1.14.0--r41hdfd78af_0": "sha256:2b09120d0461526d0d7de195916994c5825b1c0cc0ce1cb4a60295ebc7c99f4b", "1.20.0--r42hdfd78af_0": "sha256:1a5840ee3b8ef9192edb50abb9f937f2b69bad30f155f37bf51e254024286c76"}, "docker": "quay.io/biocontainers/bioconductor-trena", "aliases": {"xgboost": "/usr/local/bin/xgboost", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "pg_config": "/usr/local/bin/pg_config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trena.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trena
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trena:1.16.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-trena:1.20.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trena/1.16.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-trena/1.16.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-trena/1.20.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-trena/1.20.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

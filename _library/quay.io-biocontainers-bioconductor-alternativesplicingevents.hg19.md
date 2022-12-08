@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19/container.yaml"
-updated_at: "2022-12-05 03:39:50.554323"
-latest: "1.1.0--r41hdfd78af_1"
+updated_at: "2022-12-08 02:53:45.628314"
+latest: "1.1.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-alternativesplicingevents.hg19"
 
 versions:
  - "1.1.0--r41hdfd78af_1"
+ - "1.1.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-alternativesplicingevents.hg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alternativesplicingevents.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alternativesplicingevents.hg19", "latest": {"1.1.0--r41hdfd78af_1": "sha256:a431839c8ab42a0d0bd88bc98e2ff24c9af552d31def27a65c35bf65fda417cb"}, "tags": {"1.1.0--r41hdfd78af_1": "sha256:a431839c8ab42a0d0bd88bc98e2ff24c9af552d31def27a65c35bf65fda417cb"}, "docker": "quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alternativesplicingevents.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alternativesplicingevents.hg19", "latest": {"1.1.0--r42hdfd78af_2": "sha256:347de6efb6f98568e66b59adc98d301089195d612bb42bc9752dcc02c1da7687"}, "tags": {"1.1.0--r41hdfd78af_1": "sha256:a431839c8ab42a0d0bd88bc98e2ff24c9af552d31def27a65c35bf65fda417cb", "1.1.0--r42hdfd78af_2": "sha256:347de6efb6f98568e66b59adc98d301089195d612bb42bc9752dcc02c1da7687"}, "docker": "quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19:1.1.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19:1.1.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19/1.1.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19/1.1.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19/1.1.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19/1.1.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yara"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yara/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yara/container.yaml"
-updated_at: "2022-12-05 03:21:44.450058"
+updated_at: "2022-12-08 03:19:18.272496"
 latest: "1.0.2--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/yara"
 aliases:

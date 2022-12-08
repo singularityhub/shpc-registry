@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-categorycompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-categorycompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-categorycompare/container.yaml"
-updated_at: "2022-12-05 04:01:01.019166"
-latest: "1.38.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:41:55.253975"
+latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-categorycompare"
 aliases:
  - "Cytoscape"
@@ -20,8 +20,9 @@ aliases:
  - "jimage"
 versions:
  - "1.38.0--r41hdfd78af_0"
+ - "1.42.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-categorycompare"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-categorycompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-categorycompare", "latest": {"1.38.0--r41hdfd78af_0": "sha256:20378af2616bd4bff767c4624b9fe1a31ca47262c211b58afa41ede43b30f415"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:20378af2616bd4bff767c4624b9fe1a31ca47262c211b58afa41ede43b30f415"}, "docker": "quay.io/biocontainers/bioconductor-categorycompare", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-categorycompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-categorycompare", "latest": {"1.42.0--r42hdfd78af_0": "sha256:4013011984c0aecf11bf84b83ad3ce2914c9d42180dd211c450725a8613260fc"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:20378af2616bd4bff767c4624b9fe1a31ca47262c211b58afa41ede43b30f415", "1.42.0--r42hdfd78af_0": "sha256:4013011984c0aecf11bf84b83ad3ce2914c9d42180dd211c450725a8613260fc"}, "docker": "quay.io/biocontainers/bioconductor-categorycompare", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-categorycompare.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-categorycompare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-categorycompare:1.38.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-categorycompare:1.42.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-categorycompare/1.38.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-categorycompare/1.38.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-categorycompare/1.42.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-categorycompare/1.42.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowsom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsom/container.yaml"
-updated_at: "2022-12-05 04:08:16.578871"
-latest: "2.2.0--r41hc0cfd56_2"
+updated_at: "2022-12-08 03:16:47.199224"
+latest: "2.6.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsom"
 aliases:
  - "glpsol"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.2.0--r41hc0cfd56_2"
+ - "2.6.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsom"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsom", "latest": {"2.2.0--r41hc0cfd56_2": "sha256:ef194a4701d2ff2327408fd58638a0e03ca488966be99f76072862bcd6146bbf"}, "tags": {"2.2.0--r41hc0cfd56_2": "sha256:ef194a4701d2ff2327408fd58638a0e03ca488966be99f76072862bcd6146bbf"}, "docker": "quay.io/biocontainers/bioconductor-flowsom", "aliases": {"glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsom", "latest": {"2.6.0--r42hc0cfd56_0": "sha256:2114c1682db0062977fcdb036d3d63ef2f8098d6f4a8aaa45daa202353fd0a67"}, "tags": {"2.2.0--r41hc0cfd56_2": "sha256:ef194a4701d2ff2327408fd58638a0e03ca488966be99f76072862bcd6146bbf", "2.6.0--r42hc0cfd56_0": "sha256:2114c1682db0062977fcdb036d3d63ef2f8098d6f4a8aaa45daa202353fd0a67"}, "docker": "quay.io/biocontainers/bioconductor-flowsom", "aliases": {"glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsom.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowsom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowsom:2.2.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-flowsom:2.6.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowsom/2.2.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-flowsom/2.2.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-flowsom/2.6.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-flowsom/2.6.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

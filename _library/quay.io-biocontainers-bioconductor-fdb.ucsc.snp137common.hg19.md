@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19/container.yaml"
-updated_at: "2022-12-05 03:55:25.717228"
-latest: "1.0.0--r41hdfd78af_9"
+updated_at: "2022-12-08 03:04:03.831090"
+latest: "1.0.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.snp137common.hg19"
 
 versions:
  - "1.0.0--r41hdfd78af_9"
+ - "1.0.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-fdb.ucsc.snp137common.hg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.snp137common.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.ucsc.snp137common.hg19", "latest": {"1.0.0--r41hdfd78af_9": "sha256:604eb1278b8dd555b27888c93c4d9ca0ece8e999863b9f33f852a616340616d9"}, "tags": {"1.0.0--r41hdfd78af_9": "sha256:604eb1278b8dd555b27888c93c4d9ca0ece8e999863b9f33f852a616340616d9"}, "docker": "quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.snp137common.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.ucsc.snp137common.hg19", "latest": {"1.0.0--r42hdfd78af_10": "sha256:76396c0a1c5a414d4e94b312a3b21cf48766541824a7b054c9d6d2506b272292"}, "tags": {"1.0.0--r41hdfd78af_9": "sha256:604eb1278b8dd555b27888c93c4d9ca0ece8e999863b9f33f852a616340616d9", "1.0.0--r42hdfd78af_10": "sha256:76396c0a1c5a414d4e94b312a3b21cf48766541824a7b054c9d6d2506b272292"}, "docker": "quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19:1.0.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19:1.0.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19/1.0.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19/1.0.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19/1.0.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-fdb.ucsc.snp137common.hg19/1.0.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hicmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicmatrix/container.yaml"
-updated_at: "2022-12-05 03:36:08.090950"
+updated_at: "2022-12-08 03:20:02.296965"
 latest: "16--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hicmatrix"
 aliases:

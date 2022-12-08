@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mapkl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mapkl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mapkl/container.yaml"
-updated_at: "2022-12-05 03:44:03.443987"
-latest: "1.24.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:16:49.618363"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mapkl"
 
 versions:
  - "1.24.0--r41hdfd78af_0"
+ - "1.28.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mapkl"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mapkl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mapkl", "latest": {"1.24.0--r41hdfd78af_0": "sha256:29fb5bfaf832de3f339ab9a1dd26779f0f75139a79086ab586b57554ec2a1273"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:29fb5bfaf832de3f339ab9a1dd26779f0f75139a79086ab586b57554ec2a1273"}, "docker": "quay.io/biocontainers/bioconductor-mapkl"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mapkl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mapkl", "latest": {"1.28.0--r42hdfd78af_0": "sha256:37746301500eaf496cef27e357ba79b41be773d4e647d2f0d99f814a64abe333"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:29fb5bfaf832de3f339ab9a1dd26779f0f75139a79086ab586b57554ec2a1273", "1.28.0--r42hdfd78af_0": "sha256:37746301500eaf496cef27e357ba79b41be773d4e647d2f0d99f814a64abe333"}, "docker": "quay.io/biocontainers/bioconductor-mapkl"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mapkl.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mapkl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mapkl:1.24.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mapkl:1.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mapkl/1.24.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mapkl/1.24.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mapkl/1.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mapkl/1.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

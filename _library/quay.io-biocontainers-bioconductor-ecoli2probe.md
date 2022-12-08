@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ecoli2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoli2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoli2probe/container.yaml"
-updated_at: "2022-12-05 03:28:36.707679"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-08 03:09:32.046496"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoli2probe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecoli2probe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecoli2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecoli2probe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:74f07839fe9b101b3a51e5f363d7eed41f818ae2a60a24437ae66808c5c80c5b"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:74f07839fe9b101b3a51e5f363d7eed41f818ae2a60a24437ae66808c5c80c5b"}, "docker": "quay.io/biocontainers/bioconductor-ecoli2probe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecoli2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecoli2probe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:12282cc533eec25f10648ff2f9edadd1ed1907f0ef3c4de19b0e8e2122cf8cef"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:74f07839fe9b101b3a51e5f363d7eed41f818ae2a60a24437ae66808c5c80c5b", "2.18.0--r42hdfd78af_10": "sha256:12282cc533eec25f10648ff2f9edadd1ed1907f0ef3c4de19b0e8e2122cf8cef"}, "docker": "quay.io/biocontainers/bioconductor-ecoli2probe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecoli2probe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ecoli2probe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ecoli2probe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-ecoli2probe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ecoli2probe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-ecoli2probe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-ecoli2probe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-ecoli2probe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

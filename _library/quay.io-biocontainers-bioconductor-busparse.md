@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-busparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-busparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-busparse/container.yaml"
-updated_at: "2022-12-05 03:35:49.289755"
-latest: "1.8.0--r41hc247a5b_2"
+updated_at: "2022-12-08 03:38:46.820577"
+latest: "1.12.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-busparse"
 
 versions:
  - "1.8.0--r41hc247a5b_2"
+ - "1.12.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-busparse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-busparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-busparse", "latest": {"1.8.0--r41hc247a5b_2": "sha256:fd5a91c33887f7ae6732147e467381b6d7071c6cdaa582f218c1ee3de8c760eb"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:fd5a91c33887f7ae6732147e467381b6d7071c6cdaa582f218c1ee3de8c760eb"}, "docker": "quay.io/biocontainers/bioconductor-busparse"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-busparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-busparse", "latest": {"1.12.0--r42hc247a5b_0": "sha256:e1f57c7f81908581db0cd4ba0b470422ec972fce1daca95fa0d56abf0737573b"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:fd5a91c33887f7ae6732147e467381b6d7071c6cdaa582f218c1ee3de8c760eb", "1.12.0--r42hc247a5b_0": "sha256:e1f57c7f81908581db0cd4ba0b470422ec972fce1daca95fa0d56abf0737573b"}, "docker": "quay.io/biocontainers/bioconductor-busparse"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-busparse.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-busparse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-busparse:1.8.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-busparse:1.12.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-busparse/1.8.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-busparse/1.8.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-busparse/1.12.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-busparse/1.12.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cellbarcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellbarcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellbarcode/container.yaml"
-updated_at: "2022-12-05 03:23:24.677158"
-latest: "1.0.0--r41hc247a5b_2"
+updated_at: "2022-12-08 03:18:22.469304"
+latest: "1.4.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellbarcode"
 
 versions:
  - "1.0.0--r41hc247a5b_2"
+ - "1.4.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellbarcode"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellbarcode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellbarcode", "latest": {"1.0.0--r41hc247a5b_2": "sha256:61c3b28700d470a10f65cbb21f5c35f16d154f86b9952979fe23503c293e9f5a"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:61c3b28700d470a10f65cbb21f5c35f16d154f86b9952979fe23503c293e9f5a"}, "docker": "quay.io/biocontainers/bioconductor-cellbarcode"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellbarcode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellbarcode", "latest": {"1.4.0--r42hc247a5b_0": "sha256:98afea33ec5a3c85da0683b61391f504194df5fc584324af592fa38ba3911e95"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:61c3b28700d470a10f65cbb21f5c35f16d154f86b9952979fe23503c293e9f5a", "1.4.0--r42hc247a5b_0": "sha256:98afea33ec5a3c85da0683b61391f504194df5fc584324af592fa38ba3911e95"}, "docker": "quay.io/biocontainers/bioconductor-cellbarcode"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellbarcode.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellbarcode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellbarcode:1.0.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-cellbarcode:1.4.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellbarcode/1.0.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-cellbarcode/1.0.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-cellbarcode/1.4.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cellbarcode/1.4.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

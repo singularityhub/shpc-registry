@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-sartools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sartools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sartools/container.yaml"
-updated_at: "2022-12-05 03:29:07.505743"
-latest: "1.8.1--r41hdfd78af_0"
+updated_at: "2022-12-08 03:08:52.436190"
+latest: "1.8.1--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-sartools"
 aliases:
  - "pandoc"
 versions:
  - "1.8.1--r41hdfd78af_0"
+ - "1.8.1--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-sartools"
-config: {"url": "https://biocontainers.pro/tools/r-sartools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sartools", "latest": {"1.8.1--r41hdfd78af_0": "sha256:4ba629e9bc716be475498dec39aa0eff4482bc28029cb3bbeeebffc3a7b55e57"}, "tags": {"1.8.1--r41hdfd78af_0": "sha256:4ba629e9bc716be475498dec39aa0eff4482bc28029cb3bbeeebffc3a7b55e57"}, "docker": "quay.io/biocontainers/r-sartools", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-sartools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sartools", "latest": {"1.8.1--r42hdfd78af_1": "sha256:a84b6d0930b43c96df00e0c1f114f5dc73c10dd38a1f52df34df64d408fd53cd"}, "tags": {"1.8.1--r41hdfd78af_0": "sha256:4ba629e9bc716be475498dec39aa0eff4482bc28029cb3bbeeebffc3a7b55e57", "1.8.1--r42hdfd78af_1": "sha256:a84b6d0930b43c96df00e0c1f114f5dc73c10dd38a1f52df34df64d408fd53cd"}, "docker": "quay.io/biocontainers/r-sartools", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sartools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-sartools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sartools:1.8.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-sartools:1.8.1--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sartools/1.8.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-sartools/1.8.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-sartools/1.8.1--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-sartools/1.8.1--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

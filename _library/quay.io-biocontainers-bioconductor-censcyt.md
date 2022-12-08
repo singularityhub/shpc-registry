@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-censcyt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-censcyt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-censcyt/container.yaml"
-updated_at: "2022-12-05 04:08:11.253178"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:06:27.660663"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-censcyt"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-censcyt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-censcyt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-censcyt", "latest": {"1.2.0--r41hdfd78af_0": "sha256:f9e75f93c6afd03e805879ecb3442fc452f4febff62678e4cb60e8cf14ceb8f8"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f9e75f93c6afd03e805879ecb3442fc452f4febff62678e4cb60e8cf14ceb8f8"}, "docker": "quay.io/biocontainers/bioconductor-censcyt"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-censcyt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-censcyt", "latest": {"1.6.0--r42hdfd78af_0": "sha256:e52ff4987e35fadab5029bf412763738afb157ee3ba34bb2f0277610f7a5def8"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f9e75f93c6afd03e805879ecb3442fc452f4febff62678e4cb60e8cf14ceb8f8", "1.6.0--r42hdfd78af_0": "sha256:e52ff4987e35fadab5029bf412763738afb157ee3ba34bb2f0277610f7a5def8"}, "docker": "quay.io/biocontainers/bioconductor-censcyt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-censcyt.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-censcyt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-censcyt:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-censcyt:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-censcyt/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-censcyt/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-censcyt/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-censcyt/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

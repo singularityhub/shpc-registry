@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rgenometracksdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgenometracksdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgenometracksdata/container.yaml"
-updated_at: "2022-12-05 03:36:40.829801"
-latest: "0.99.0--r41hdfd78af_1"
+updated_at: "2022-12-08 03:31:59.696259"
+latest: "0.99.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgenometracksdata"
 
 versions:
  - "0.99.0--r41hdfd78af_1"
+ - "0.99.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgenometracksdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgenometracksdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgenometracksdata", "latest": {"0.99.0--r41hdfd78af_1": "sha256:e6adb1d1b7f39bebeb0446e882f527b3450f28020d0a96ac8952b0964060a147"}, "tags": {"0.99.0--r41hdfd78af_1": "sha256:e6adb1d1b7f39bebeb0446e882f527b3450f28020d0a96ac8952b0964060a147"}, "docker": "quay.io/biocontainers/bioconductor-rgenometracksdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgenometracksdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgenometracksdata", "latest": {"0.99.0--r42hdfd78af_2": "sha256:ea61aa5cbbd765cb055c934c3d593a131825b3cb86a256409332833c82bcc5c3"}, "tags": {"0.99.0--r41hdfd78af_1": "sha256:e6adb1d1b7f39bebeb0446e882f527b3450f28020d0a96ac8952b0964060a147", "0.99.0--r42hdfd78af_2": "sha256:ea61aa5cbbd765cb055c934c3d593a131825b3cb86a256409332833c82bcc5c3"}, "docker": "quay.io/biocontainers/bioconductor-rgenometracksdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgenometracksdata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgenometracksdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgenometracksdata:0.99.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-rgenometracksdata:0.99.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgenometracksdata/0.99.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-rgenometracksdata/0.99.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-rgenometracksdata/0.99.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-rgenometracksdata/0.99.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

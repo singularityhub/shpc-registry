@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ecolicdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolicdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolicdf/container.yaml"
-updated_at: "2022-12-05 03:22:44.132917"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-12-08 02:57:09.054552"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolicdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecolicdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolicdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolicdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:23f59f4548e233697b6439dbe98d36143cf438ed8d8764f90e758df6bf41e6ec"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:23f59f4548e233697b6439dbe98d36143cf438ed8d8764f90e758df6bf41e6ec"}, "docker": "quay.io/biocontainers/bioconductor-ecolicdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolicdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolicdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:b090ded1500e7d670ae9553e3f297b79c34e3769513ed72a26b945956682e760"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:23f59f4548e233697b6439dbe98d36143cf438ed8d8764f90e758df6bf41e6ec", "2.18.0--r42hdfd78af_10": "sha256:b090ded1500e7d670ae9553e3f297b79c34e3769513ed72a26b945956682e760"}, "docker": "quay.io/biocontainers/bioconductor-ecolicdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecolicdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ecolicdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ecolicdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-ecolicdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ecolicdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-ecolicdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-ecolicdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-ecolicdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

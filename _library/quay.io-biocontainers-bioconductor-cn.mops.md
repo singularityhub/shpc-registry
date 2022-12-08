@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cn.mops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cn.mops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cn.mops/container.yaml"
-updated_at: "2022-12-05 03:05:52.298812"
-latest: "1.40.0--r41hc247a5b_2"
+updated_at: "2022-12-08 03:01:02.085709"
+latest: "1.44.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cn.mops"
 
 versions:
  - "1.40.0--r41hc247a5b_2"
+ - "1.44.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cn.mops"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cn.mops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cn.mops", "latest": {"1.40.0--r41hc247a5b_2": "sha256:777a5d495827b8662cfdeebae569fdad085c6a821ca9dd204c67e8370ddd7230"}, "tags": {"1.40.0--r41hc247a5b_2": "sha256:777a5d495827b8662cfdeebae569fdad085c6a821ca9dd204c67e8370ddd7230"}, "docker": "quay.io/biocontainers/bioconductor-cn.mops"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cn.mops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cn.mops", "latest": {"1.44.0--r42hc247a5b_0": "sha256:099b0d673675d1c99e2c026af289a232843bdb4c3cdb765dd3afe5d035876374"}, "tags": {"1.40.0--r41hc247a5b_2": "sha256:777a5d495827b8662cfdeebae569fdad085c6a821ca9dd204c67e8370ddd7230", "1.44.0--r42hc247a5b_0": "sha256:099b0d673675d1c99e2c026af289a232843bdb4c3cdb765dd3afe5d035876374"}, "docker": "quay.io/biocontainers/bioconductor-cn.mops"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cn.mops.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cn.mops
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cn.mops:1.40.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-cn.mops:1.44.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cn.mops/1.40.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-cn.mops/1.40.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-cn.mops/1.44.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cn.mops/1.44.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

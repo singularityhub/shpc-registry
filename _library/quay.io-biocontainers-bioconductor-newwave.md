@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-newwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-newwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-newwave/container.yaml"
-updated_at: "2022-12-05 03:27:48.235231"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:03:19.242714"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-newwave"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-newwave"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-newwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-newwave", "latest": {"1.4.0--r41hdfd78af_0": "sha256:1814d07d9c6542df3b36da69bc8943cc2c87d8f3569dc15ffaf7212b3f16898a"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:1814d07d9c6542df3b36da69bc8943cc2c87d8f3569dc15ffaf7212b3f16898a"}, "docker": "quay.io/biocontainers/bioconductor-newwave"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-newwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-newwave", "latest": {"1.8.0--r42hdfd78af_0": "sha256:cc7a8d4e697560a3780c3417b6c66c5d1e95a6bd2bc91eb6c72a8e53efa2d321"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:1814d07d9c6542df3b36da69bc8943cc2c87d8f3569dc15ffaf7212b3f16898a", "1.8.0--r42hdfd78af_0": "sha256:cc7a8d4e697560a3780c3417b6c66c5d1e95a6bd2bc91eb6c72a8e53efa2d321"}, "docker": "quay.io/biocontainers/bioconductor-newwave"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-newwave.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-newwave
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-newwave:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-newwave:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-newwave/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-newwave/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-newwave/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-newwave/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

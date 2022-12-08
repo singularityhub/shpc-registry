@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-beadsorted.saliva.epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/container.yaml"
-updated_at: "2022-12-05 03:02:38.950575"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2022-12-08 03:14:43.806209"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beadsorted.saliva.epic"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-beadsorted.saliva.epic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-beadsorted.saliva.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-beadsorted.saliva.epic", "latest": {"1.2.0--r41hdfd78af_1": "sha256:9f6aad366630fc278c4956415799ca5bf4e60d8692a9cb81e5de3ada88e49f0a"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:9f6aad366630fc278c4956415799ca5bf4e60d8692a9cb81e5de3ada88e49f0a"}, "docker": "quay.io/biocontainers/bioconductor-beadsorted.saliva.epic"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-beadsorted.saliva.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-beadsorted.saliva.epic", "latest": {"1.6.0--r42hdfd78af_0": "sha256:13c1edb6e71aedf4b43b6656785de1a455a2e0398ca8622ee9b5f1e8f4ca9f26"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:9f6aad366630fc278c4956415799ca5bf4e60d8692a9cb81e5de3ada88e49f0a", "1.6.0--r42hdfd78af_0": "sha256:13c1edb6e71aedf4b43b6656785de1a455a2e0398ca8622ee9b5f1e8f4ca9f26"}, "docker": "quay.io/biocontainers/bioconductor-beadsorted.saliva.epic"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-beadsorted.saliva.epic.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-beadsorted.saliva.epic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-beadsorted.saliva.epic:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-beadsorted.saliva.epic:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

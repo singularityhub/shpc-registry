@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tscan/container.yaml"
-updated_at: "2022-12-05 03:50:36.133744"
-latest: "1.32.0--r41hdfd78af_0"
+updated_at: "2022-12-08 03:26:39.118965"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tscan"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tscan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tscan", "latest": {"1.32.0--r41hdfd78af_0": "sha256:f19321a89bc71359e24c9fd3152d73f9008d95b88ca95e43adeb5beb375f49cc"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:f19321a89bc71359e24c9fd3152d73f9008d95b88ca95e43adeb5beb375f49cc"}, "docker": "quay.io/biocontainers/bioconductor-tscan"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tscan", "latest": {"1.36.0--r42hdfd78af_0": "sha256:83ea7e9dd5324fa7486b482f3a0a4f5446e0b9aae1ec2a656e98f9a6cd034c03"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:f19321a89bc71359e24c9fd3152d73f9008d95b88ca95e43adeb5beb375f49cc", "1.36.0--r42hdfd78af_0": "sha256:83ea7e9dd5324fa7486b482f3a0a4f5446e0b9aae1ec2a656e98f9a6cd034c03"}, "docker": "quay.io/biocontainers/bioconductor-tscan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tscan.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tscan:1.32.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tscan:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tscan/1.32.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tscan/1.32.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tscan/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tscan/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

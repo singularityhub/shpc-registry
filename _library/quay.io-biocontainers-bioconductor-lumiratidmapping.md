@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lumiratidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumiratidmapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumiratidmapping/container.yaml"
-updated_at: "2022-12-05 03:05:56.366264"
-latest: "1.10.0--r41hdfd78af_9"
+updated_at: "2022-12-08 02:59:57.195027"
+latest: "1.10.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumiratidmapping"
 
 versions:
  - "1.10.0--r41hdfd78af_9"
+ - "1.10.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-lumiratidmapping"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lumiratidmapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumiratidmapping", "latest": {"1.10.0--r41hdfd78af_9": "sha256:5ddcc634f1eeb514949dccd6e2e4d32f435e1f83d2afd449c803e506c6807790"}, "tags": {"1.10.0--r41hdfd78af_9": "sha256:5ddcc634f1eeb514949dccd6e2e4d32f435e1f83d2afd449c803e506c6807790"}, "docker": "quay.io/biocontainers/bioconductor-lumiratidmapping"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lumiratidmapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumiratidmapping", "latest": {"1.10.0--r42hdfd78af_10": "sha256:375d0d68862ca2ef6d928159173fa4ba7d934e1f93a0dc456a8c58575dda9526"}, "tags": {"1.10.0--r41hdfd78af_9": "sha256:5ddcc634f1eeb514949dccd6e2e4d32f435e1f83d2afd449c803e506c6807790", "1.10.0--r42hdfd78af_10": "sha256:375d0d68862ca2ef6d928159173fa4ba7d934e1f93a0dc456a8c58575dda9526"}, "docker": "quay.io/biocontainers/bioconductor-lumiratidmapping"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lumiratidmapping.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lumiratidmapping
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lumiratidmapping:1.10.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-lumiratidmapping:1.10.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lumiratidmapping/1.10.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-lumiratidmapping/1.10.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-lumiratidmapping/1.10.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-lumiratidmapping/1.10.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
