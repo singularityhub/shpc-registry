@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mvoutdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mvoutdata
 latest:
-  1.30.0--r41hdfd78af_1: sha256:67aa02490eb54dfe8714f49d7763a3dab0c38fc36b2ed7dd8f25d44801fa8be4
+  1.34.0--r42hdfd78af_0: sha256:be131b41f7bb9517a91f944df370675153bd67d9596c55031978e7cc3e5b93cd
 tags:
   1.30.0--r41hdfd78af_1: sha256:67aa02490eb54dfe8714f49d7763a3dab0c38fc36b2ed7dd8f25d44801fa8be4
+  1.34.0--r42hdfd78af_0: sha256:be131b41f7bb9517a91f944df370675153bd67d9596c55031978e7cc3e5b93cd
 docker: quay.io/biocontainers/bioconductor-mvoutdata

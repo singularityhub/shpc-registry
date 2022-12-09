@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pomoxis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pomoxis
 latest:
-  0.3.10--pyhdfd78af_0: sha256:b42d95b742be3dc8333f57892c4aa2cc5cd739e796b33c7f310696856dcdea4d
+  0.3.11--pyhdfd78af_0: sha256:d248f9fc957bf655308d7d95e5cebec81d560aea87880c556a4e503c8fedc096
 tags:
   0.3.9--pyhdfd78af_0: sha256:3aa7f109f3857cdfc5b23d00cf24af7b93b8664c603afc7348ac747311b870fa
   0.3.10--pyhdfd78af_0: sha256:b42d95b742be3dc8333f57892c4aa2cc5cd739e796b33c7f310696856dcdea4d
+  0.3.11--pyhdfd78af_0: sha256:d248f9fc957bf655308d7d95e5cebec81d560aea87880c556a4e503c8fedc096
 docker: quay.io/biocontainers/pomoxis
 aliases:
   assess_assembly: /usr/local/bin/assess_assembly
