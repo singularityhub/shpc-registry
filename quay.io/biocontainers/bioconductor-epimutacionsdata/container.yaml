@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-epimutacionsdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-epimutacionsdata
 latest:
-  1.1.0--r42hdfd78af_0: sha256:64dfe8ff3dadfba952b29f87177109050bff5dc5276bf4f53b7b3ac58e2792f3
+  1.2.0--r42hdfd78af_0: sha256:d4e31de897242ca46e13c497f3b808b15a108e8f464eb45df80b08dee15e523f
 tags:
   1.1.0--r42hdfd78af_0: sha256:64dfe8ff3dadfba952b29f87177109050bff5dc5276bf4f53b7b3ac58e2792f3
+  1.2.0--r42hdfd78af_0: sha256:d4e31de897242ca46e13c497f3b808b15a108e8f464eb45df80b08dee15e523f
 docker: quay.io/biocontainers/bioconductor-epimutacionsdata
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
