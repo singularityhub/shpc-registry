@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/shasta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shasta
 latest:
-  0.8.0--h7d875b9_0: sha256:428bf4e38fcbc8f8bada933aa892d3188623145388eaf5a34ef7b695973a1d35
+  0.11.1--h9f5acd7_0: sha256:26940faf086a2a0d30e8985ad0e1c4b2bf61ae75daae903ac7ec7bff1cc49ddc
 tags:
   0.8.0--h7d875b9_0: sha256:428bf4e38fcbc8f8bada933aa892d3188623145388eaf5a34ef7b695973a1d35
+  0.11.1--h9f5acd7_0: sha256:26940faf086a2a0d30e8985ad0e1c4b2bf61ae75daae903ac7ec7bff1cc49ddc
 docker: quay.io/biocontainers/shasta
 aliases:
   shasta: /usr/local/bin/shasta
