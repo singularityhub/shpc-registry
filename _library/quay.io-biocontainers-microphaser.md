@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/microphaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microphaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microphaser/container.yaml"
-updated_at: "2022-12-08 03:00:53.040604"
-latest: "0.7.0--h33b3098_1"
+updated_at: "2022-12-12 03:07:20.248765"
+latest: "0.8.0--h33b3098_0"
 container_url: "https://biocontainers.pro/tools/microphaser"
 aliases:
  - "microphaser"
 versions:
  - "0.7.0--h33b3098_1"
+ - "0.8.0--h33b3098_0"
 description: "shpc-registry automated BioContainers addition for microphaser"
-config: {"url": "https://biocontainers.pro/tools/microphaser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microphaser", "latest": {"0.7.0--h33b3098_1": "sha256:f8efebb325c85230d3c71fbf1308af512e2926bb6f2aa45f0c34e5e1b42f6b2a"}, "tags": {"0.7.0--h33b3098_1": "sha256:f8efebb325c85230d3c71fbf1308af512e2926bb6f2aa45f0c34e5e1b42f6b2a"}, "docker": "quay.io/biocontainers/microphaser", "aliases": {"microphaser": "/usr/local/bin/microphaser"}}
+config: {"url": "https://biocontainers.pro/tools/microphaser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microphaser", "latest": {"0.8.0--h33b3098_0": "sha256:b4274fcad623e4397ec2d237f5fb3a5b437fdccf3f99a987ad22a56acfecd394"}, "tags": {"0.7.0--h33b3098_1": "sha256:f8efebb325c85230d3c71fbf1308af512e2926bb6f2aa45f0c34e5e1b42f6b2a", "0.8.0--h33b3098_0": "sha256:b4274fcad623e4397ec2d237f5fb3a5b437fdccf3f99a987ad22a56acfecd394"}, "docker": "quay.io/biocontainers/microphaser", "aliases": {"microphaser": "/usr/local/bin/microphaser"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/microphaser.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/microphaser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/microphaser:0.7.0--h33b3098_1
+$ shpc install quay.io/biocontainers/microphaser:0.8.0--h33b3098_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/microphaser/0.7.0--h33b3098_1
-$ module help quay.io/biocontainers/microphaser/0.7.0--h33b3098_1
+$ module load quay.io/biocontainers/microphaser/0.8.0--h33b3098_0
+$ module help quay.io/biocontainers/microphaser/0.8.0--h33b3098_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

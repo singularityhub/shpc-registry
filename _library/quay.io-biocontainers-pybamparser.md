@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybamparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybamparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybamparser/container.yaml"
-updated_at: "2022-12-08 03:08:14.522365"
+updated_at: "2022-12-12 03:14:48.484638"
 latest: "0.0.3--py_2"
 container_url: "https://biocontainers.pro/tools/pybamparser"
 aliases:

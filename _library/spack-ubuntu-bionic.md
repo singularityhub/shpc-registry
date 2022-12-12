@@ -4,7 +4,7 @@ name:  "spack/ubuntu-bionic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/spack/ubuntu-bionic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/spack/ubuntu-bionic/container.yaml"
-updated_at: "2022-12-08 03:52:30.273368"
+updated_at: "2022-12-12 03:59:43.459900"
 latest: "v0.19.0"
 container_url: "https://hub.docker.com/r/spack/ubuntu-bionic"
 aliases:

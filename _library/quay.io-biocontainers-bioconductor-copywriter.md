@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-copywriter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copywriter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copywriter/container.yaml"
-updated_at: "2022-12-08 03:15:34.424536"
-latest: "2.26.0--r41hdfd78af_0"
+updated_at: "2022-12-12 03:22:15.850545"
+latest: "2.29.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copywriter"
 
 versions:
  - "2.26.0--r41hdfd78af_0"
+ - "2.29.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-copywriter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-copywriter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copywriter", "latest": {"2.26.0--r41hdfd78af_0": "sha256:b862874d49689b46f9924d8778bd66c5a7d60522e69f19100d218a35fcb848e7"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:b862874d49689b46f9924d8778bd66c5a7d60522e69f19100d218a35fcb848e7"}, "docker": "quay.io/biocontainers/bioconductor-copywriter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-copywriter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copywriter", "latest": {"2.29.0--r42hdfd78af_0": "sha256:b75a77d301296cd54fe0a4c3354e8d54be00ea68a62e5ddb3f6517052b9b9e81"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:b862874d49689b46f9924d8778bd66c5a7d60522e69f19100d218a35fcb848e7", "2.29.0--r42hdfd78af_0": "sha256:b75a77d301296cd54fe0a4c3354e8d54be00ea68a62e5ddb3f6517052b9b9e81"}, "docker": "quay.io/biocontainers/bioconductor-copywriter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-copywriter.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-copywriter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-copywriter:2.26.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-copywriter:2.29.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-copywriter/2.26.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-copywriter/2.26.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-copywriter/2.29.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-copywriter/2.29.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-humanchrloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humanchrloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humanchrloc/container.yaml"
-updated_at: "2022-12-08 03:21:08.926163"
+updated_at: "2022-12-12 03:27:55.390632"
 latest: "2.1.6--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-humanchrloc"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-degseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-degseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-degseq/container.yaml"
-updated_at: "2022-12-08 03:40:23.639886"
+updated_at: "2022-12-12 03:47:30.110973"
 latest: "1.52.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-degseq"
 

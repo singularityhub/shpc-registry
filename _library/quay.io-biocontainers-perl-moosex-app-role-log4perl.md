@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-app-role-log4perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-app-role-log4perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-app-role-log4perl/container.yaml"
-updated_at: "2022-12-08 03:43:39.963139"
+updated_at: "2022-12-12 03:50:48.375315"
 latest: "0.03--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-moosex-app-role-log4perl"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakeobjects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakeobjects/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakeobjects/container.yaml"
-updated_at: "2022-12-08 02:59:05.286809"
-latest: "3.1.1--pyh5e36f6f_0"
+updated_at: "2022-12-12 03:05:30.256333"
+latest: "3.1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/snakeobjects"
 aliases:
  - "sobjects"
@@ -21,8 +21,9 @@ aliases:
  - "jupyter"
 versions:
  - "3.1.1--pyh5e36f6f_0"
+ - "3.1.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for snakeobjects"
-config: {"url": "https://biocontainers.pro/tools/snakeobjects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakeobjects", "latest": {"3.1.1--pyh5e36f6f_0": "sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04"}, "tags": {"3.1.1--pyh5e36f6f_0": "sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04"}, "docker": "quay.io/biocontainers/snakeobjects", "aliases": {"sobjects": "/usr/local/bin/sobjects", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
+config: {"url": "https://biocontainers.pro/tools/snakeobjects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakeobjects", "latest": {"3.1.2--pyh7cba7a3_0": "sha256:56cd2c93fcff8d602c13a3632e652f1849f00c86b3dcf71a340e50f4afe6ab29"}, "tags": {"3.1.1--pyh5e36f6f_0": "sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04", "3.1.2--pyh7cba7a3_0": "sha256:56cd2c93fcff8d602c13a3632e652f1849f00c86b3dcf71a340e50f4afe6ab29"}, "docker": "quay.io/biocontainers/snakeobjects", "aliases": {"sobjects": "/usr/local/bin/sobjects", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakeobjects.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/snakeobjects
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakeobjects:3.1.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/snakeobjects:3.1.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakeobjects/3.1.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/snakeobjects/3.1.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/snakeobjects/3.1.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/snakeobjects/3.1.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

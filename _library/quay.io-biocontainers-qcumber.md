@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qcumber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qcumber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qcumber/container.yaml"
-updated_at: "2022-12-08 03:33:21.884980"
+updated_at: "2022-12-12 03:40:22.008901"
 latest: "2.0.4--0"
 container_url: "https://biocontainers.pro/tools/qcumber"
 aliases:

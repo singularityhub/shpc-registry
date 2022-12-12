@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gangstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gangstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gangstr/container.yaml"
-updated_at: "2022-12-08 03:03:29.942499"
+updated_at: "2022-12-12 03:09:58.051444"
 latest: "2.5.0--h48cf4b7_4"
 container_url: "https://biocontainers.pro/tools/gangstr"
 aliases:

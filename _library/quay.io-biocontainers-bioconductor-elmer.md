@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-elmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-elmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-elmer/container.yaml"
-updated_at: "2022-12-08 03:35:41.818556"
-latest: "2.18.0--r41hdfd78af_0"
+updated_at: "2022-12-12 03:42:44.483430"
+latest: "2.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-elmer"
 aliases:
  - "pandoc-citeproc"
@@ -19,8 +19,9 @@ versions:
  - "2.16.0--r41hdfd78af_0"
  - "2.14.0--r40hdfd78af_1"
  - "2.12.0--r40_0"
+ - "2.22.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-elmer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-elmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-elmer", "latest": {"2.18.0--r41hdfd78af_0": "sha256:3294c57ff78dee748fc5c7750b8a0d5675ff6d8a0103512e16eb1adb5606712e"}, "tags": {"2.9.5--r36_1": "sha256:8ee90501c93ed9cca858f0f141720140b78180d0eaa9541d4579fec8b595605c", "2.18.0--r41hdfd78af_0": "sha256:3294c57ff78dee748fc5c7750b8a0d5675ff6d8a0103512e16eb1adb5606712e", "2.16.0--r41hdfd78af_0": "sha256:889d836ae363ee146580dbafa83f1c38d2f6c50fb909955fe1fc1554fe168257", "2.14.0--r40hdfd78af_1": "sha256:7bc4aa9d8f3ef21feb81bc6445c270659f2c4a4898b54804dec9433462176d8c", "2.12.0--r40_0": "sha256:df5a876b098564f58ce1c45d6ec91d06119af1776978be1f2e8b7747569c920c"}, "docker": "quay.io/biocontainers/bioconductor-elmer", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-elmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-elmer", "latest": {"2.22.0--r42hdfd78af_0": "sha256:a5cea0a5ca7148fdc7167a86952e37b07c65c24f2df80c6bf4bdb228d9a6b0f7"}, "tags": {"2.9.5--r36_1": "sha256:8ee90501c93ed9cca858f0f141720140b78180d0eaa9541d4579fec8b595605c", "2.18.0--r41hdfd78af_0": "sha256:3294c57ff78dee748fc5c7750b8a0d5675ff6d8a0103512e16eb1adb5606712e", "2.16.0--r41hdfd78af_0": "sha256:889d836ae363ee146580dbafa83f1c38d2f6c50fb909955fe1fc1554fe168257", "2.14.0--r40hdfd78af_1": "sha256:7bc4aa9d8f3ef21feb81bc6445c270659f2c4a4898b54804dec9433462176d8c", "2.12.0--r40_0": "sha256:df5a876b098564f58ce1c45d6ec91d06119af1776978be1f2e8b7747569c920c", "2.22.0--r42hdfd78af_0": "sha256:a5cea0a5ca7148fdc7167a86952e37b07c65c24f2df80c6bf4bdb228d9a6b0f7"}, "docker": "quay.io/biocontainers/bioconductor-elmer", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-elmer.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-elmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-elmer:2.18.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-elmer:2.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-elmer/2.18.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-elmer/2.18.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-elmer/2.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-elmer/2.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

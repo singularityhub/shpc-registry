@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amptk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amptk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amptk/container.yaml"
-updated_at: "2022-12-08 03:42:00.926796"
+updated_at: "2022-12-12 03:49:08.242645"
 latest: "1.5.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/amptk"
 aliases:

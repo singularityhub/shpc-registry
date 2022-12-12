@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-goseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-goseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-goseq/container.yaml"
-updated_at: "2022-12-08 03:31:13.839796"
-latest: "1.46.0--r41hdfd78af_0"
+updated_at: "2022-12-12 03:38:10.696979"
+latest: "1.50.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-goseq"
 
 versions:
  - "1.46.0--r41hdfd78af_0"
+ - "1.50.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-goseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-goseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-goseq", "latest": {"1.46.0--r41hdfd78af_0": "sha256:f1f54c1bd5a761f13d46aae19d38a76388cc0b293ef1748501f9d23e4baaf039"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:f1f54c1bd5a761f13d46aae19d38a76388cc0b293ef1748501f9d23e4baaf039"}, "docker": "quay.io/biocontainers/bioconductor-goseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-goseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-goseq", "latest": {"1.50.0--r42hdfd78af_0": "sha256:77255f5d043de5c6838978be2803fe86a350598172ee79b220337e3de2ea4b68"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:f1f54c1bd5a761f13d46aae19d38a76388cc0b293ef1748501f9d23e4baaf039", "1.50.0--r42hdfd78af_0": "sha256:77255f5d043de5c6838978be2803fe86a350598172ee79b220337e3de2ea4b68"}, "docker": "quay.io/biocontainers/bioconductor-goseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-goseq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-goseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-goseq:1.46.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-goseq:1.50.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-goseq/1.46.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-goseq/1.46.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-goseq/1.50.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-goseq/1.50.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

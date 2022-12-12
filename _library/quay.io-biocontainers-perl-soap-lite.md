@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-soap-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-soap-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-soap-lite/container.yaml"
-updated_at: "2022-12-08 02:53:24.291337"
+updated_at: "2022-12-12 02:59:40.566170"
 latest: "1.27--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-soap-lite"
 aliases:

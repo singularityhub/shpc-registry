@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-wicket"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wicket/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wicket/container.yaml"
-updated_at: "2022-12-08 03:28:03.926818"
+updated_at: "2022-12-12 03:34:57.171878"
 latest: "0.4.0--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-wicket"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-acidmarkdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidmarkdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidmarkdown/container.yaml"
-updated_at: "2022-12-08 03:30:16.811529"
-latest: "0.2.5--r42hdfd78af_0"
+updated_at: "2022-12-12 03:37:12.768508"
+latest: "0.2.5--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-acidmarkdown"
 
 versions:
  - "0.1.6--r41hdfd78af_0"
  - "0.2.5--r42hdfd78af_0"
  - "0.1.6--r42hdfd78af_1"
+ - "0.2.5--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-acidmarkdown"
-config: {"url": "https://biocontainers.pro/tools/r-acidmarkdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidmarkdown", "latest": {"0.2.5--r42hdfd78af_0": "sha256:19bc880273d27f37932f70c9d55a4224b9d948ced3d063ad549baaaea95d91e1"}, "tags": {"0.1.6--r41hdfd78af_0": "sha256:a7edbdc9be1f818ec92106cac309a6119de65fa0ff7c06e725a969eecdce043a", "0.2.5--r42hdfd78af_0": "sha256:19bc880273d27f37932f70c9d55a4224b9d948ced3d063ad549baaaea95d91e1", "0.1.6--r42hdfd78af_1": "sha256:70d982865584d6722aa58f54622f550c31eea31ffe136819c42dcece6af67fff"}, "docker": "quay.io/biocontainers/r-acidmarkdown"}
+config: {"url": "https://biocontainers.pro/tools/r-acidmarkdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidmarkdown", "latest": {"0.2.5--r42hdfd78af_1": "sha256:a7ea1e1c54497cdd8fc79724ae77f535f37bca715be800ba9b8f52aae4e71a55"}, "tags": {"0.1.6--r41hdfd78af_0": "sha256:a7edbdc9be1f818ec92106cac309a6119de65fa0ff7c06e725a969eecdce043a", "0.2.5--r42hdfd78af_0": "sha256:19bc880273d27f37932f70c9d55a4224b9d948ced3d063ad549baaaea95d91e1", "0.1.6--r42hdfd78af_1": "sha256:70d982865584d6722aa58f54622f550c31eea31ffe136819c42dcece6af67fff", "0.2.5--r42hdfd78af_1": "sha256:a7ea1e1c54497cdd8fc79724ae77f535f37bca715be800ba9b8f52aae4e71a55"}, "docker": "quay.io/biocontainers/r-acidmarkdown"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidmarkdown.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-acidmarkdown
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidmarkdown:0.2.5--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidmarkdown:0.2.5--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidmarkdown/0.2.5--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-acidmarkdown/0.2.5--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-acidmarkdown/0.2.5--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-acidmarkdown/0.2.5--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

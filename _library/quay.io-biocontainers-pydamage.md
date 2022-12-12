@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydamage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydamage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydamage/container.yaml"
-updated_at: "2022-12-08 03:39:40.790096"
+updated_at: "2022-12-12 03:46:47.131426"
 latest: "0.70--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pydamage"
 aliases:

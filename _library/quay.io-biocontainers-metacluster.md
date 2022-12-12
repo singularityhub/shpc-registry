@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacluster/container.yaml"
-updated_at: "2022-12-08 03:39:29.846467"
+updated_at: "2022-12-12 03:46:36.202950"
 latest: "5.1--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/metacluster"
 aliases:

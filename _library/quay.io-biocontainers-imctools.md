@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/imctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imctools/container.yaml"
-updated_at: "2022-12-08 03:45:21.410540"
+updated_at: "2022-12-12 03:52:31.191605"
 latest: "1.0.8--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/imctools"
 aliases:

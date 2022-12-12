@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-glimma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glimma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glimma/container.yaml"
-updated_at: "2022-12-08 03:32:58.365601"
-latest: "2.4.0--r41hdfd78af_0"
+updated_at: "2022-12-12 03:39:57.889251"
+latest: "2.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glimma"
 
 versions:
  - "2.4.0--r41hdfd78af_0"
+ - "2.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-glimma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-glimma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glimma", "latest": {"2.4.0--r41hdfd78af_0": "sha256:623c957cf39a8f1e1c412b38750ff8f2b25027d7ac2008a49829495fb2434356"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:623c957cf39a8f1e1c412b38750ff8f2b25027d7ac2008a49829495fb2434356"}, "docker": "quay.io/biocontainers/bioconductor-glimma"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-glimma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glimma", "latest": {"2.8.0--r42hdfd78af_0": "sha256:93092409d8d8f210076d873d6ef5614b34dd0f5d27da754208c63517ea892f57"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:623c957cf39a8f1e1c412b38750ff8f2b25027d7ac2008a49829495fb2434356", "2.8.0--r42hdfd78af_0": "sha256:93092409d8d8f210076d873d6ef5614b34dd0f5d27da754208c63517ea892f57"}, "docker": "quay.io/biocontainers/bioconductor-glimma"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-glimma.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-glimma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-glimma:2.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-glimma:2.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-glimma/2.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-glimma/2.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-glimma/2.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-glimma/2.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

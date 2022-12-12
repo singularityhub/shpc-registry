@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/age-metasv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/age-metasv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/age-metasv/container.yaml"
-updated_at: "2022-12-08 03:17:46.297349"
+updated_at: "2022-12-12 03:24:30.469357"
 latest: "2015.01.29.3--h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/age-metasv"
 aliases:
