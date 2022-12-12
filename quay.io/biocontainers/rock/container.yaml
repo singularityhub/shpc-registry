@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rock
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rock
+latest:
+  2.0--h9f5acd7_0: sha256:7c1eccd07a6499a89d315006ab918590bcbe0ba8ee5914a59ffb038a0a03c2c1
+tags:
+  2.0--h9f5acd7_0: sha256:7c1eccd07a6499a89d315006ab918590bcbe0ba8ee5914a59ffb038a0a03c2c1
+docker: quay.io/biocontainers/rock
+aliases:
+  rock: /usr/local/bin/rock
