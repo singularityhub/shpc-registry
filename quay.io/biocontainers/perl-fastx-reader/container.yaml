@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-fastx-reader
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-fastx-reader
 latest:
-  1.5.0--pl5321hdfd78af_0: sha256:7ea34d7e48895807d3f458f805cc459e0a7d67971071f9332935bac8335beb48
+  1.7.0--pl5321hdfd78af_0: sha256:8ae382c504cb1b25d0b205de70b4b4f6a2a415bd469504a0c80ec0303f37618d
 tags:
   1.5.0--pl5321hdfd78af_0: sha256:7ea34d7e48895807d3f458f805cc459e0a7d67971071f9332935bac8335beb48
+  1.7.0--pl5321hdfd78af_0: sha256:8ae382c504cb1b25d0b205de70b4b4f6a2a415bd469504a0c80ec0303f37618d
+  1.6.1--pl5321hdfd78af_0: sha256:d8a7744dd3637e24cff70d55df97a6e901963043af7eceb714e6c0cf3f4021f7
 docker: quay.io/biocontainers/perl-fastx-reader
 aliases:
   fqc: /usr/local/bin/fqc

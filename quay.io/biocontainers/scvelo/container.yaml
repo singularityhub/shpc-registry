@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scvelo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scvelo
 latest:
-  0.2.4--pyhdfd78af_0: sha256:3d4efa840d2b363f087a44a3f211084c21068fa6e0abf797e1a8325c289bb665
+  0.2.5--pyhdfd78af_0: sha256:89f42b5b432849ac86439d272ab3bdae5607e76e4d7299ce21435e59241726b8
 tags:
   0.2.4--pyhdfd78af_0: sha256:3d4efa840d2b363f087a44a3f211084c21068fa6e0abf797e1a8325c289bb665
+  0.2.5--pyhdfd78af_0: sha256:89f42b5b432849ac86439d272ab3bdae5607e76e4d7299ce21435e59241726b8
 docker: quay.io/biocontainers/scvelo
 aliases:
   dunamai: /usr/local/bin/dunamai
