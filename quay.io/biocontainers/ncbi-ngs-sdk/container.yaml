@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ncbi-ngs-sdk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbi-ngs-sdk
 latest:
-  2.11.2--pl5321h629fbf0_1: sha256:9327c997f364619cdf6aa5b3d0f160aab253cebe73e9260e52056c21434a293a
+  3.0.1--pl5321h629fbf0_0: sha256:e2cf83b838413148c86b635931ad4188efc27886ef716e814aa42195b237e95e
 tags:
   2.9.3--h550f44e_0: sha256:1c812d0ca140f83a5d6ffe5ddcae56ba22b0ce1319c874e3e686eee3f3da4b4b
   2.11.2--pl5321h629fbf0_1: sha256:9327c997f364619cdf6aa5b3d0f160aab253cebe73e9260e52056c21434a293a
   2.10.9--hff44eed_1: sha256:b547e797dbd2b7554f1aa423e6ab41a282613e8606a64c70c164920cedc36e37
+  3.0.1--pl5321h629fbf0_0: sha256:e2cf83b838413148c86b635931ad4188efc27886ef716e814aa42195b237e95e
 docker: quay.io/biocontainers/ncbi-ngs-sdk
