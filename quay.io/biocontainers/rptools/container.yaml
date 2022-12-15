@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rptools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rptools
 latest:
-  5.12.3: sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6
+  5.13.1: sha256:0b74f1f66817e8bfdbabf5ac92edbed11d5598b6801a1cb8b3848707378dafff
 tags:
   5.12.3: sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6
+  5.13.1: sha256:0b74f1f66817e8bfdbabf5ac92edbed11d5598b6801a1cb8b3848707378dafff
 docker: quay.io/biocontainers/rptools
 aliases:
   filetype: /usr/local/bin/filetype
