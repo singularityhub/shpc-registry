@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/selectfasta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for selectfasta
 latest:
-  1.0--h87f3376_2: sha256:0ab0962da29d3fa98022c74ef21fc5df2dedefd209e836a96102d20891e7ab7e
+  2.0--h87f3376_0: sha256:c369e5483e8b17ecfc6df02595548d1f8e0b5faed2ad412da805e0fa43992893
 tags:
   1.0--h87f3376_2: sha256:0ab0962da29d3fa98022c74ef21fc5df2dedefd209e836a96102d20891e7ab7e
+  2.0--h87f3376_0: sha256:c369e5483e8b17ecfc6df02595548d1f8e0b5faed2ad412da805e0fa43992893
 docker: quay.io/biocontainers/selectfasta
 aliases:
   selectFasta: /usr/local/bin/selectFasta
