@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pipits
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pipits
 latest:
-  2.8--pyhdfd78af_0: sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178
+  3.0--pyhdfd78af_0: sha256:430944cb9fc0f5896c91beb2d027eacb4f401291b1b74a809006587b0612217d
 tags:
   2.8--pyhdfd78af_0: sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178
+  3.0--pyhdfd78af_0: sha256:430944cb9fc0f5896c91beb2d027eacb4f401291b1b74a809006587b0612217d
 docker: quay.io/biocontainers/pipits
 aliases:
   AbundanceStats: /usr/local/bin/AbundanceStats
