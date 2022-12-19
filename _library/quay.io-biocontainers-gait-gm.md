@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gait-gm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gait-gm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gait-gm/container.yaml"
-updated_at: "2022-12-12 03:37:53.866380"
+updated_at: "2022-12-19 02:58:38.432866"
 latest: "21.7.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gait-gm"
 aliases:

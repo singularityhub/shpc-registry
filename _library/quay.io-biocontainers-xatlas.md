@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xatlas/container.yaml"
-updated_at: "2022-12-12 03:27:18.717720"
+updated_at: "2022-12-19 03:35:07.305235"
 latest: "0.3--h28e74a2_1"
 container_url: "https://biocontainers.pro/tools/xatlas"
 aliases:

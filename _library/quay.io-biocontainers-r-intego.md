@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-intego"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-intego/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-intego/container.yaml"
-updated_at: "2022-12-12 02:59:43.803597"
+updated_at: "2022-12-19 03:38:23.991578"
 latest: "2.0--r42h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-intego"
 aliases:

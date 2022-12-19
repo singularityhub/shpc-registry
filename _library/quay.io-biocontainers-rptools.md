@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rptools/container.yaml"
-updated_at: "2022-12-12 03:28:15.798438"
-latest: "5.12.3"
+updated_at: "2022-12-19 03:37:14.486496"
+latest: "5.13.1"
 container_url: "https://biocontainers.pro/tools/rptools"
 aliases:
  - "filetype"
@@ -31,8 +31,9 @@ aliases:
  - "obprop"
 versions:
  - "5.12.3"
+ - "5.13.1"
 description: "shpc-registry automated BioContainers addition for rptools"
-config: {"url": "https://biocontainers.pro/tools/rptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rptools", "latest": {"5.12.3": "sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6"}, "tags": {"5.12.3": "sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6"}, "docker": "quay.io/biocontainers/rptools", "aliases": {"filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
+config: {"url": "https://biocontainers.pro/tools/rptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rptools", "latest": {"5.13.1": "sha256:0b74f1f66817e8bfdbabf5ac92edbed11d5598b6801a1cb8b3848707378dafff"}, "tags": {"5.12.3": "sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6", "5.13.1": "sha256:0b74f1f66817e8bfdbabf5ac92edbed11d5598b6801a1cb8b3848707378dafff"}, "docker": "quay.io/biocontainers/rptools", "aliases": {"filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rptools.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/rptools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rptools:5.12.3
+$ shpc install quay.io/biocontainers/rptools:5.13.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rptools/5.12.3
-$ module help quay.io/biocontainers/rptools/5.12.3
+$ module load quay.io/biocontainers/rptools/5.13.1
+$ module help quay.io/biocontainers/rptools/5.13.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

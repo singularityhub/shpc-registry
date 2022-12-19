@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scvelo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvelo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scvelo/container.yaml"
-updated_at: "2022-12-12 03:37:39.978532"
-latest: "0.2.4--pyhdfd78af_0"
+updated_at: "2022-12-19 03:34:18.971822"
+latest: "0.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scvelo"
 aliases:
  - "dunamai"
@@ -22,8 +22,9 @@ aliases:
  - "pttree"
 versions:
  - "0.2.4--pyhdfd78af_0"
+ - "0.2.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scvelo"
-config: {"url": "https://biocontainers.pro/tools/scvelo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvelo", "latest": {"0.2.4--pyhdfd78af_0": "sha256:3d4efa840d2b363f087a44a3f211084c21068fa6e0abf797e1a8325c289bb665"}, "tags": {"0.2.4--pyhdfd78af_0": "sha256:3d4efa840d2b363f087a44a3f211084c21068fa6e0abf797e1a8325c289bb665"}, "docker": "quay.io/biocontainers/scvelo", "aliases": {"dunamai": "/usr/local/bin/dunamai", "loompy": "/usr/local/bin/loompy", "scanpy": "/usr/local/bin/scanpy", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
+config: {"url": "https://biocontainers.pro/tools/scvelo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvelo", "latest": {"0.2.5--pyhdfd78af_0": "sha256:89f42b5b432849ac86439d272ab3bdae5607e76e4d7299ce21435e59241726b8"}, "tags": {"0.2.4--pyhdfd78af_0": "sha256:3d4efa840d2b363f087a44a3f211084c21068fa6e0abf797e1a8325c289bb665", "0.2.5--pyhdfd78af_0": "sha256:89f42b5b432849ac86439d272ab3bdae5607e76e4d7299ce21435e59241726b8"}, "docker": "quay.io/biocontainers/scvelo", "aliases": {"dunamai": "/usr/local/bin/dunamai", "loompy": "/usr/local/bin/loompy", "scanpy": "/usr/local/bin/scanpy", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scvelo.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/scvelo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scvelo:0.2.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scvelo:0.2.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scvelo/0.2.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/scvelo/0.2.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/scvelo/0.2.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/scvelo/0.2.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapsearch/container.yaml"
-updated_at: "2022-12-12 03:50:44.617324"
+updated_at: "2022-12-19 03:21:23.986485"
 latest: "2.24--h2df963e_5"
 container_url: "https://biocontainers.pro/tools/rapsearch"
 aliases:

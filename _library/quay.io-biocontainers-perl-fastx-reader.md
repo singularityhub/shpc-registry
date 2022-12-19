@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-fastx-reader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-fastx-reader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-fastx-reader/container.yaml"
-updated_at: "2022-12-12 03:03:30.958500"
-latest: "1.5.0--pl5321hdfd78af_0"
+updated_at: "2022-12-19 03:02:52.353065"
+latest: "1.7.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-fastx-reader"
 aliases:
  - "fqc"
@@ -14,8 +14,10 @@ aliases:
  - "streamzip"
 versions:
  - "1.5.0--pl5321hdfd78af_0"
+ - "1.7.0--pl5321hdfd78af_0"
+ - "1.6.1--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-fastx-reader"
-config: {"url": "https://biocontainers.pro/tools/perl-fastx-reader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-fastx-reader", "latest": {"1.5.0--pl5321hdfd78af_0": "sha256:7ea34d7e48895807d3f458f805cc459e0a7d67971071f9332935bac8335beb48"}, "tags": {"1.5.0--pl5321hdfd78af_0": "sha256:7ea34d7e48895807d3f458f805cc459e0a7d67971071f9332935bac8335beb48"}, "docker": "quay.io/biocontainers/perl-fastx-reader", "aliases": {"fqc": "/usr/local/bin/fqc", "fqlen.pl": "/usr/local/bin/fqlen.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-fastx-reader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-fastx-reader", "latest": {"1.7.0--pl5321hdfd78af_0": "sha256:8ae382c504cb1b25d0b205de70b4b4f6a2a415bd469504a0c80ec0303f37618d"}, "tags": {"1.5.0--pl5321hdfd78af_0": "sha256:7ea34d7e48895807d3f458f805cc459e0a7d67971071f9332935bac8335beb48", "1.7.0--pl5321hdfd78af_0": "sha256:8ae382c504cb1b25d0b205de70b4b4f6a2a415bd469504a0c80ec0303f37618d", "1.6.1--pl5321hdfd78af_0": "sha256:d8a7744dd3637e24cff70d55df97a6e901963043af7eceb714e6c0cf3f4021f7"}, "docker": "quay.io/biocontainers/perl-fastx-reader", "aliases": {"fqc": "/usr/local/bin/fqc", "fqlen.pl": "/usr/local/bin/fqlen.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-fastx-reader.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-fastx-reader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-fastx-reader:1.5.0--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-fastx-reader:1.7.0--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-fastx-reader/1.5.0--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-fastx-reader/1.5.0--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-fastx-reader/1.7.0--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-fastx-reader/1.7.0--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

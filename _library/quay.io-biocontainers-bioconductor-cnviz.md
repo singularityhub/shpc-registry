@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnviz/container.yaml"
-updated_at: "2022-12-12 03:25:21.810807"
+updated_at: "2022-12-19 02:58:21.674035"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnviz"
 

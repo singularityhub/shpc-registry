@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ped_parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ped_parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ped_parser/container.yaml"
-updated_at: "2022-12-12 03:37:02.126619"
+updated_at: "2022-12-19 03:05:26.915363"
 latest: "1.6.6--py_2"
 container_url: "https://biocontainers.pro/tools/ped_parser"
 aliases:

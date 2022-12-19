@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fithic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fithic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fithic/container.yaml"
-updated_at: "2022-12-12 03:44:22.363704"
-latest: "2.0.8--pyhdfd78af_0"
+updated_at: "2022-12-19 03:02:11.209214"
+latest: "2.0.8--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fithic"
 aliases:
  - "fithic"
@@ -21,8 +21,9 @@ aliases:
  - "opj_compress"
 versions:
  - "2.0.8--pyhdfd78af_0"
+ - "2.0.8--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for fithic"
-config: {"url": "https://biocontainers.pro/tools/fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fithic", "latest": {"2.0.8--pyhdfd78af_0": "sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1"}, "tags": {"2.0.8--pyhdfd78af_0": "sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1"}, "docker": "quay.io/biocontainers/fithic", "aliases": {"fithic": "/usr/local/bin/fithic", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "opj_compress": "/usr/local/bin/opj_compress"}}
+config: {"url": "https://biocontainers.pro/tools/fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fithic", "latest": {"2.0.8--pyhdfd78af_1": "sha256:709bfb89d377c443d14f20d5e5d381e4242abca134bc998788f34ff433344872"}, "tags": {"2.0.8--pyhdfd78af_0": "sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1", "2.0.8--pyhdfd78af_1": "sha256:709bfb89d377c443d14f20d5e5d381e4242abca134bc998788f34ff433344872"}, "docker": "quay.io/biocontainers/fithic", "aliases": {"fithic": "/usr/local/bin/fithic", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fithic.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/fithic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fithic:2.0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/fithic:2.0.8--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fithic/2.0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/fithic/2.0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/fithic/2.0.8--pyhdfd78af_1
+$ module help quay.io/biocontainers/fithic/2.0.8--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

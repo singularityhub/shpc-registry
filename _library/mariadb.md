@@ -4,8 +4,8 @@ name:  "mariadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mariadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mariadb/container.yaml"
-updated_at: "2022-12-12 03:59:34.936748"
-latest: "10.10-rc"
+updated_at: "2022-12-19 03:42:54.991021"
+latest: "10.11-rc"
 container_url: "https://hub.docker.com/r/_/mariadb"
 aliases:
  - "mariabackup"
@@ -59,8 +59,10 @@ versions:
  - "10.9-rc"
  - "10.10-rc"
  - "10.9"
+ - "10.11-rc"
+ - "10.10"
 description: "MariaDB Server is one of the most popular database servers in the world. It’s made by the original developers of MySQL and guaranteed to stay open source. Notable users include Wikipedia, DBS Bank and ServiceNow."
-config: {"docker": "mariadb", "url": "https://hub.docker.com/r/_/mariadb", "maintainer": "@vsoch", "description": "MariaDB Server is one of the most popular database servers in the world. It\u2019s made by the original developers of MySQL and guaranteed to stay open source. Notable users include Wikipedia, DBS Bank and ServiceNow.", "latest": {"10.10-rc": "sha256:c01a0345c452d3c23496914be88dfb30603d4d3e25cf1f2e3804c8481f8cb9fa"}, "tags": {"10.5.9-focal": "sha256:36288c675a192bd0a8a99cd6ba0780e31df85f0bfd0cbb204837cd108be3d236", "10.6.0-focal": "sha256:6b687eb768f01add603c1474003c62e13d130bfd7030ac5334c9ae6a73d09e0c", "10.6.1-focal": "sha256:b2ba2c4dcaf9a946241f7e368637d351a74010b58f7c5e50002b9735c95c6326", "10.6.2-focal": "sha256:a4ed26af22613745fc379e9e187290626d5b9297454cb6838709cf44a11b8ea5", "10.6.3-focal": "sha256:3b6f9fa1d406e168998d62501b2ee4f27d53138bebfcdac03540758996c5ff1d", "10.6.4": "sha256:c014ba1efc5dbd711d0520c7762d57807f35549de3414eb31e942a420c8a2ed2", "10.7.1": "sha256:5a8009369ee57c85b6f4a08406147bd9c505cde6b8250d16a27d2a5febfdead7", "10.8.2": "sha256:490f01279be1452f12f497a592112cb960cf0500938dbf0ea3f0135cb6728d3d", "latest": "sha256:5e2a3416f8633f8ca25778d13439cfcee4172743e1bd2a45cd1def0dceff6d3b", "10": "sha256:5e2a3416f8633f8ca25778d13439cfcee4172743e1bd2a45cd1def0dceff6d3b", "10.8": "sha256:171ea9977d84317dae9afec5974fa44244c07f7aa1fe7d54eb791e0561e8a7cc", "10.7": "sha256:7466f0b040080d87e457f8fa8a9da8f94f217b0950cd24c84817c5ab8e82ed1b", "10.6": "sha256:6bc56598a88147a64b771ac1ace3c1bf3064e2d50e9b08ba6157471d9515fc53", "10.5": "sha256:78ee2bce40a0560223349f83a6ffc50422135f4870322509a00d3a79842dcbc3", "10.9-rc": "sha256:d00abc105fbdab7240ccb963e878bd0417150861a3c13c487f45e3fe3d6eb7ee", "10.10-rc": "sha256:c01a0345c452d3c23496914be88dfb30603d4d3e25cf1f2e3804c8481f8cb9fa", "10.9": "sha256:5e2a3416f8633f8ca25778d13439cfcee4172743e1bd2a45cd1def0dceff6d3b"}, "aliases": {"mariabackup": "/usr/bin/mariabackup", "mariadb": "/usr/bin/mariadb", "mariadb-access": "/usr/bin/mariadb-access", "mariadb-admin": "/usr/bin/mariadb-admin", "mariadb-analyze": "/usr/bin/mariadb-analyze", "mariadb-backup": "/usr/bin/mariadb-backup", "mariadb-binlog": "/usr/bin/mariadb-binlog", "mariadb-check": "/usr/bin/mariadb-check", "mariadb-conv": "/usr/bin/mariadb-conv", "mariadb-convert-table-format": "/usr/bin/mariadb-convert-table-format", "mariadb-dump": "/usr/bin/mariadb-dump", "mariadb-dumpslow": "/usr/bin/mariadb-dumpslow", "mariadb-find-rows": "/usr/bin/mariadb-find-rows", "mariadb-fix-extensions": "/usr/bin/mariadb-fix-extensions", "mariadb-hotcopy": "/usr/bin/mariadb-hotcopy", "mariadb-import": "/usr/bin/mariadb-import", "mariadb-install-db": "/usr/bin/mariadb-install-db", "mariadb-optimize": "/usr/bin/mariadb-optimize", "mariadb-plugin": "/usr/bin/mariadb-plugin", "mariadb-repair": "/usr/bin/mariadb-repair", "mariadb-report": "/usr/bin/mariadb-report", "mariadb-secure-installation": "/usr/bin/mariadb-secure-installation", "mariadb-service-convert": "/usr/bin/mariadb-service-convert", "mariadb-setpermission": "/usr/bin/mariadb-setpermission", "mariadb-show": "/usr/bin/mariadb-show", "mariadb-slap": "/usr/bin/mariadb-slap", "mariadb-tzinfo-to-sql": "/usr/bin/mariadb-tzinfo-to-sql", "mariadb-upgrade": "/usr/bin/mariadb-upgrade", "mariadb-waitpid": "/usr/bin/mariadb-waitpid", "mariadbcheck": "/usr/bin/mariadbcheck", "mariadbd-multi": "/usr/bin/mariadbd-multi", "mariadbd-safe": "/usr/bin/mariadbd-safe", "mariadbd-safe-helper": "/usr/bin/mariadbd-safe-helper"}}
+config: {"docker": "mariadb", "url": "https://hub.docker.com/r/_/mariadb", "maintainer": "@vsoch", "description": "MariaDB Server is one of the most popular database servers in the world. It\u2019s made by the original developers of MySQL and guaranteed to stay open source. Notable users include Wikipedia, DBS Bank and ServiceNow.", "latest": {"10.11-rc": "sha256:b379205e33d221d1c325b40615407a845e0cf1bcab44d4633f28a4fef8e1b7f1"}, "tags": {"10.5.9-focal": "sha256:36288c675a192bd0a8a99cd6ba0780e31df85f0bfd0cbb204837cd108be3d236", "10.6.0-focal": "sha256:6b687eb768f01add603c1474003c62e13d130bfd7030ac5334c9ae6a73d09e0c", "10.6.1-focal": "sha256:b2ba2c4dcaf9a946241f7e368637d351a74010b58f7c5e50002b9735c95c6326", "10.6.2-focal": "sha256:a4ed26af22613745fc379e9e187290626d5b9297454cb6838709cf44a11b8ea5", "10.6.3-focal": "sha256:3b6f9fa1d406e168998d62501b2ee4f27d53138bebfcdac03540758996c5ff1d", "10.6.4": "sha256:c014ba1efc5dbd711d0520c7762d57807f35549de3414eb31e942a420c8a2ed2", "10.7.1": "sha256:5a8009369ee57c85b6f4a08406147bd9c505cde6b8250d16a27d2a5febfdead7", "10.8.2": "sha256:490f01279be1452f12f497a592112cb960cf0500938dbf0ea3f0135cb6728d3d", "latest": "sha256:8c15c3def7ae1bb408c96d322a3cc0346dba9921964d8f9897312fe17e127b90", "10": "sha256:8c15c3def7ae1bb408c96d322a3cc0346dba9921964d8f9897312fe17e127b90", "10.8": "sha256:86e708f0913b2145480fc18d60b1420ffefbe25d323f29d42b4fddf7cf31701d", "10.7": "sha256:7cdcb47c5fd8605651ee7320690c9bc9a8841c3510aba144a4dadc54c193e9ca", "10.6": "sha256:c56cefe375678ce01e991028378d310f9150470cf147d0c9ef9a51671226cc10", "10.5": "sha256:b16e4cbe3d507bff1e40542196854a8da16bd1831e2cc413d7166f9b698ec30f", "10.9-rc": "sha256:d00abc105fbdab7240ccb963e878bd0417150861a3c13c487f45e3fe3d6eb7ee", "10.10-rc": "sha256:c01a0345c452d3c23496914be88dfb30603d4d3e25cf1f2e3804c8481f8cb9fa", "10.9": "sha256:f5146e2e0999a6afcf2a9134bb415ad068bf80ec29704f374f6f7dabb145738d", "10.11-rc": "sha256:b379205e33d221d1c325b40615407a845e0cf1bcab44d4633f28a4fef8e1b7f1", "10.10": "sha256:8c15c3def7ae1bb408c96d322a3cc0346dba9921964d8f9897312fe17e127b90"}, "aliases": {"mariabackup": "/usr/bin/mariabackup", "mariadb": "/usr/bin/mariadb", "mariadb-access": "/usr/bin/mariadb-access", "mariadb-admin": "/usr/bin/mariadb-admin", "mariadb-analyze": "/usr/bin/mariadb-analyze", "mariadb-backup": "/usr/bin/mariadb-backup", "mariadb-binlog": "/usr/bin/mariadb-binlog", "mariadb-check": "/usr/bin/mariadb-check", "mariadb-conv": "/usr/bin/mariadb-conv", "mariadb-convert-table-format": "/usr/bin/mariadb-convert-table-format", "mariadb-dump": "/usr/bin/mariadb-dump", "mariadb-dumpslow": "/usr/bin/mariadb-dumpslow", "mariadb-find-rows": "/usr/bin/mariadb-find-rows", "mariadb-fix-extensions": "/usr/bin/mariadb-fix-extensions", "mariadb-hotcopy": "/usr/bin/mariadb-hotcopy", "mariadb-import": "/usr/bin/mariadb-import", "mariadb-install-db": "/usr/bin/mariadb-install-db", "mariadb-optimize": "/usr/bin/mariadb-optimize", "mariadb-plugin": "/usr/bin/mariadb-plugin", "mariadb-repair": "/usr/bin/mariadb-repair", "mariadb-report": "/usr/bin/mariadb-report", "mariadb-secure-installation": "/usr/bin/mariadb-secure-installation", "mariadb-service-convert": "/usr/bin/mariadb-service-convert", "mariadb-setpermission": "/usr/bin/mariadb-setpermission", "mariadb-show": "/usr/bin/mariadb-show", "mariadb-slap": "/usr/bin/mariadb-slap", "mariadb-tzinfo-to-sql": "/usr/bin/mariadb-tzinfo-to-sql", "mariadb-upgrade": "/usr/bin/mariadb-upgrade", "mariadb-waitpid": "/usr/bin/mariadb-waitpid", "mariadbcheck": "/usr/bin/mariadbcheck", "mariadbd-multi": "/usr/bin/mariadbd-multi", "mariadbd-safe": "/usr/bin/mariadbd-safe", "mariadbd-safe-helper": "/usr/bin/mariadbd-safe-helper"}}
 ---
 
 This module is a singularity container wrapper for mariadb.
@@ -75,7 +77,7 @@ $ shpc install mariadb
 Or a specific version:
 
 ```bash
-$ shpc install mariadb:10.10-rc
+$ shpc install mariadb:10.11-rc
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load mariadb/10.10-rc
-$ module help mariadb/10.10-rc
+$ module load mariadb/10.11-rc
+$ module help mariadb/10.11-rc
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/precice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/precice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/precice/container.yaml"
-updated_at: "2022-12-12 03:59:05.410201"
+updated_at: "2022-12-19 02:43:28.111750"
 latest: "2.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/precice"
 

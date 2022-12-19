@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dinopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinopy/container.yaml"
-updated_at: "2022-12-12 03:40:49.000597"
+updated_at: "2022-12-19 03:02:25.921872"
 latest: "2.2.1--py39hc16433a_2"
 container_url: "https://biocontainers.pro/tools/dinopy"
 aliases:

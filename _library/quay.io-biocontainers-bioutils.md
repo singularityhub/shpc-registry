@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioutils/container.yaml"
-updated_at: "2022-12-12 03:03:02.878113"
+updated_at: "2022-12-19 03:13:41.645486"
 latest: "0.5.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioutils"
 aliases:

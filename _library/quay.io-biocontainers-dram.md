@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dram/container.yaml"
-updated_at: "2022-12-12 03:44:50.365625"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2022-12-19 02:51:52.727089"
+latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dram"
 aliases:
  - "DRAM-setup.py"
@@ -33,8 +33,9 @@ aliases:
 versions:
  - "1.3.5--pyhdfd78af_0"
  - "1.4.0--pyhdfd78af_0"
+ - "1.4.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dram"
-config: {"url": "https://biocontainers.pro/tools/dram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dram", "latest": {"1.4.0--pyhdfd78af_0": "sha256:0ecc0fbc97a48bf66fb6b1f4d705373e66d3918f2e2cc073ec8295896a44c5bb"}, "tags": {"1.3.5--pyhdfd78af_0": "sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e", "1.4.0--pyhdfd78af_0": "sha256:0ecc0fbc97a48bf66fb6b1f4d705373e66d3918f2e2cc073ec8295896a44c5bb"}, "docker": "quay.io/biocontainers/dram", "aliases": {"DRAM-setup.py": "/usr/local/bin/DRAM-setup.py", "DRAM-v.py": "/usr/local/bin/DRAM-v.py", "DRAM.py": "/usr/local/bin/DRAM.py", "EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
+config: {"url": "https://biocontainers.pro/tools/dram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dram", "latest": {"1.4.2--pyhdfd78af_0": "sha256:3509d767454e0321542d3a09273a8f6751c28594845c99b573fdcd2939897fb3"}, "tags": {"1.3.5--pyhdfd78af_0": "sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e", "1.4.0--pyhdfd78af_0": "sha256:0ecc0fbc97a48bf66fb6b1f4d705373e66d3918f2e2cc073ec8295896a44c5bb", "1.4.2--pyhdfd78af_0": "sha256:3509d767454e0321542d3a09273a8f6751c28594845c99b573fdcd2939897fb3"}, "docker": "quay.io/biocontainers/dram", "aliases": {"DRAM-setup.py": "/usr/local/bin/DRAM-setup.py", "DRAM-v.py": "/usr/local/bin/DRAM-v.py", "DRAM.py": "/usr/local/bin/DRAM.py", "EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dram.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/dram
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dram:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dram:1.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dram/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/dram/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/dram/1.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/dram/1.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

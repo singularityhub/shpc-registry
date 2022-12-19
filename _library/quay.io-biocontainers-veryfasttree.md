@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/veryfasttree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/veryfasttree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/veryfasttree/container.yaml"
-updated_at: "2022-12-12 03:12:22.320039"
-latest: "3.1.1--h9f5acd7_1"
+updated_at: "2022-12-19 02:49:02.117739"
+latest: "3.2.0--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/veryfasttree"
 aliases:
  - "VeryFastTree"
 versions:
  - "3.1.1--h9f5acd7_1"
+ - "3.2.0--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for veryfasttree"
-config: {"url": "https://biocontainers.pro/tools/veryfasttree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for veryfasttree", "latest": {"3.1.1--h9f5acd7_1": "sha256:f61eb7aa8aa0a69a1791d3c702c78d32a5ed85af370c8da20dec66b837eed066"}, "tags": {"3.1.1--h9f5acd7_1": "sha256:f61eb7aa8aa0a69a1791d3c702c78d32a5ed85af370c8da20dec66b837eed066"}, "docker": "quay.io/biocontainers/veryfasttree", "aliases": {"VeryFastTree": "/usr/local/bin/VeryFastTree"}}
+config: {"url": "https://biocontainers.pro/tools/veryfasttree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for veryfasttree", "latest": {"3.2.0--h9f5acd7_0": "sha256:7e5264ed5c77c98926ba6f6e18f713fa46b726b4b3f5fe5fc365c2276f987e06"}, "tags": {"3.1.1--h9f5acd7_1": "sha256:f61eb7aa8aa0a69a1791d3c702c78d32a5ed85af370c8da20dec66b837eed066", "3.2.0--h9f5acd7_0": "sha256:7e5264ed5c77c98926ba6f6e18f713fa46b726b4b3f5fe5fc365c2276f987e06"}, "docker": "quay.io/biocontainers/veryfasttree", "aliases": {"VeryFastTree": "/usr/local/bin/VeryFastTree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/veryfasttree.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/veryfasttree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/veryfasttree:3.1.1--h9f5acd7_1
+$ shpc install quay.io/biocontainers/veryfasttree:3.2.0--h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/veryfasttree/3.1.1--h9f5acd7_1
-$ module help quay.io/biocontainers/veryfasttree/3.1.1--h9f5acd7_1
+$ module load quay.io/biocontainers/veryfasttree/3.2.0--h9f5acd7_0
+$ module help quay.io/biocontainers/veryfasttree/3.2.0--h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

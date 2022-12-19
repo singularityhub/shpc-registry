@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssdrippipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssdrippipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssdrippipeline/container.yaml"
-updated_at: "2022-12-12 03:13:34.844786"
+updated_at: "2022-12-19 03:05:34.976456"
 latest: "0.0.5--kuan"
 container_url: "https://biocontainers.pro/tools/ssdrippipeline"
 aliases:

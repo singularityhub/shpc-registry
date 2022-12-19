@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vcfpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfpy/container.yaml"
-updated_at: "2022-12-12 03:16:28.667567"
-latest: "0.13.5--pyhdfd78af_0"
+updated_at: "2022-12-19 03:02:38.945339"
+latest: "0.13.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcfpy"
 
 versions:
  - "0.13.4--pyhdfd78af_0"
  - "0.13.5--pyhdfd78af_0"
+ - "0.13.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vcfpy"
-config: {"url": "https://biocontainers.pro/tools/vcfpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfpy", "latest": {"0.13.5--pyhdfd78af_0": "sha256:f34797abe6f0f65697ecb9caf8300d68122ea96e12beb2f86faff6f072ad3878"}, "tags": {"0.13.4--pyhdfd78af_0": "sha256:bd650b279f85c24c8f3626893213f521159322b0209fc5029efa997f2ffac033", "0.13.5--pyhdfd78af_0": "sha256:f34797abe6f0f65697ecb9caf8300d68122ea96e12beb2f86faff6f072ad3878"}, "docker": "quay.io/biocontainers/vcfpy"}
+config: {"url": "https://biocontainers.pro/tools/vcfpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfpy", "latest": {"0.13.6--pyhdfd78af_0": "sha256:bf89f7bc5545f59705e640d3077f8837950c08f7103c7cf182b2311f1a6ffd85"}, "tags": {"0.13.4--pyhdfd78af_0": "sha256:bd650b279f85c24c8f3626893213f521159322b0209fc5029efa997f2ffac033", "0.13.5--pyhdfd78af_0": "sha256:f34797abe6f0f65697ecb9caf8300d68122ea96e12beb2f86faff6f072ad3878", "0.13.6--pyhdfd78af_0": "sha256:bf89f7bc5545f59705e640d3077f8837950c08f7103c7cf182b2311f1a6ffd85"}, "docker": "quay.io/biocontainers/vcfpy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcfpy.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vcfpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcfpy:0.13.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vcfpy:0.13.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcfpy/0.13.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/vcfpy/0.13.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/vcfpy/0.13.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/vcfpy/0.13.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

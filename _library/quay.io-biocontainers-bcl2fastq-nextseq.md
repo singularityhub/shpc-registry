@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcl2fastq-nextseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcl2fastq-nextseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcl2fastq-nextseq/container.yaml"
-updated_at: "2022-12-12 03:10:56.977009"
+updated_at: "2022-12-19 03:21:40.711137"
 latest: "1.3.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/bcl2fastq-nextseq"
 aliases:

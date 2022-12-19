@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-weberdivechalcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-weberdivechalcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-weberdivechalcdata/container.yaml"
-updated_at: "2022-12-12 03:12:55.718038"
+updated_at: "2022-12-19 02:45:16.673213"
 latest: "1.0.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-weberdivechalcdata"
 aliases:

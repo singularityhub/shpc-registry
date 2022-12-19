@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tgsgapcloser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tgsgapcloser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tgsgapcloser/container.yaml"
-updated_at: "2022-12-12 03:49:45.707406"
+updated_at: "2022-12-19 03:14:49.132976"
 latest: "1.0.3--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/tgsgapcloser"
 aliases:

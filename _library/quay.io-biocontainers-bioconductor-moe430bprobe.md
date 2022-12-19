@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moe430bprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moe430bprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moe430bprobe/container.yaml"
-updated_at: "2022-12-12 03:42:22.187198"
+updated_at: "2022-12-19 02:45:06.834526"
 latest: "2.18.0--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-moe430bprobe"
 

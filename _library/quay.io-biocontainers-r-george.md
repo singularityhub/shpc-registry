@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-george"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-george/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-george/container.yaml"
-updated_at: "2022-12-12 03:52:23.105549"
+updated_at: "2022-12-19 03:32:29.936424"
 latest: "1.0.1--r42h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/r-george"
 aliases:

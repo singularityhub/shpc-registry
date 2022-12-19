@@ -4,8 +4,8 @@ name:  "solr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/solr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/solr/container.yaml"
-updated_at: "2022-12-12 03:59:34.119105"
-latest: "9.0"
+updated_at: "2022-12-19 02:42:54.579224"
+latest: "9.1"
 container_url: "https://hub.docker.com/_/solr"
 aliases:
  - "post"
@@ -26,8 +26,9 @@ versions:
  - "8.8"
  - "9"
  - "9.0"
+ - "9.1"
 description: "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene™."
-config: {"docker": "solr", "url": "https://hub.docker.com/_/solr", "maintainer": "@vsoch", "description": "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene\u2122.", "latest": {"9.0": "sha256:1768c4ff175b718f34445b43d8f511b0f3d46534ee7187d44af4778fd318db2a"}, "tags": {"8.8.2-slim": "sha256:c07b46b904443f7e07d9da00aa9feb91af0b54ba75bf1e1891916d3ed1ff8d9b", "8.9.0": "sha256:857cb9fadcc4dae9d20405d60eff3762a13b2bcfc33898628716df8f91b01ee8", "8.9.0-slim": "sha256:ab6fb88298782688b5932c761c16291efe3b46c63e3c16a72604b4a8c100dce0", "8.10.1": "sha256:dff43964cd5ca52199fe015a51bd2d1de37b8f82fbdeffaa266d4f9f7ef56fa7", "8.11.0": "sha256:66fe2feeba8c4afdea12c78a4f11218fadd81befc43f223a2f9267bf605a25d1", "8.11.1": "sha256:8c5f7881cebb283d8230203db2083eef2a64d604d0f6020d74de63e2645f0aec", "latest": "sha256:1768c4ff175b718f34445b43d8f511b0f3d46534ee7187d44af4778fd318db2a", "8": "sha256:1738d0ca68eeb7787122c854cb68edbf09de921456157562538bf1d1628dea7c", "8.11": "sha256:1738d0ca68eeb7787122c854cb68edbf09de921456157562538bf1d1628dea7c", "8.10": "sha256:dff43964cd5ca52199fe015a51bd2d1de37b8f82fbdeffaa266d4f9f7ef56fa7", "8.9": "sha256:857cb9fadcc4dae9d20405d60eff3762a13b2bcfc33898628716df8f91b01ee8", "8.8": "sha256:cb946e325f1372b86b70dbdccc4f050655f63d9f678f645bf508088704349363", "9": "sha256:1768c4ff175b718f34445b43d8f511b0f3d46534ee7187d44af4778fd318db2a", "9.0": "sha256:1768c4ff175b718f34445b43d8f511b0f3d46534ee7187d44af4778fd318db2a"}, "aliases": {"post": "/opt/solr/bin/post", "postlogs": "/opt/solr/bin/postlogs", "solr": "/opt/solr/bin/solr"}}
+config: {"docker": "solr", "url": "https://hub.docker.com/_/solr", "maintainer": "@vsoch", "description": "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene\u2122.", "latest": {"9.1": "sha256:971cd7a5c682390f8b1541ef74a8fd64d56c6a36e5c0849f6b48210a47b16fa2"}, "tags": {"8.8.2-slim": "sha256:c07b46b904443f7e07d9da00aa9feb91af0b54ba75bf1e1891916d3ed1ff8d9b", "8.9.0": "sha256:857cb9fadcc4dae9d20405d60eff3762a13b2bcfc33898628716df8f91b01ee8", "8.9.0-slim": "sha256:ab6fb88298782688b5932c761c16291efe3b46c63e3c16a72604b4a8c100dce0", "8.10.1": "sha256:dff43964cd5ca52199fe015a51bd2d1de37b8f82fbdeffaa266d4f9f7ef56fa7", "8.11.0": "sha256:66fe2feeba8c4afdea12c78a4f11218fadd81befc43f223a2f9267bf605a25d1", "8.11.1": "sha256:8c5f7881cebb283d8230203db2083eef2a64d604d0f6020d74de63e2645f0aec", "latest": "sha256:971cd7a5c682390f8b1541ef74a8fd64d56c6a36e5c0849f6b48210a47b16fa2", "8": "sha256:f84b713cbcd87afa9b1afd33b568b85d56161d2caffc3a0fdc95ec1a2caf4229", "8.11": "sha256:f84b713cbcd87afa9b1afd33b568b85d56161d2caffc3a0fdc95ec1a2caf4229", "8.10": "sha256:dff43964cd5ca52199fe015a51bd2d1de37b8f82fbdeffaa266d4f9f7ef56fa7", "8.9": "sha256:857cb9fadcc4dae9d20405d60eff3762a13b2bcfc33898628716df8f91b01ee8", "8.8": "sha256:cb946e325f1372b86b70dbdccc4f050655f63d9f678f645bf508088704349363", "9": "sha256:971cd7a5c682390f8b1541ef74a8fd64d56c6a36e5c0849f6b48210a47b16fa2", "9.0": "sha256:fb16f5423dbf2ff7f018aab0afd45425b2ac177c8fe4e8a01647584a8eb13f60", "9.1": "sha256:971cd7a5c682390f8b1541ef74a8fd64d56c6a36e5c0849f6b48210a47b16fa2"}, "aliases": {"post": "/opt/solr/bin/post", "postlogs": "/opt/solr/bin/postlogs", "solr": "/opt/solr/bin/solr"}}
 ---
 
 This module is a singularity container wrapper for solr.
@@ -42,7 +43,7 @@ $ shpc install solr
 Or a specific version:
 
 ```bash
-$ shpc install solr:9.0
+$ shpc install solr:9.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load solr/9.0
-$ module help solr/9.0
+$ module load solr/9.1
+$ module help solr/9.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

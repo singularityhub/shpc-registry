@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rtfbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rtfbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rtfbs/container.yaml"
-updated_at: "2022-12-12 03:34:41.582087"
+updated_at: "2022-12-19 03:33:06.134675"
 latest: "0.3.15--r42h73dbb54_6"
 container_url: "https://biocontainers.pro/tools/r-rtfbs"
 aliases:

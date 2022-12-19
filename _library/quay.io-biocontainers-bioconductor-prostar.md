@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prostar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostar/container.yaml"
-updated_at: "2022-12-12 03:09:00.262214"
+updated_at: "2022-12-19 03:14:07.272417"
 latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostar"
 aliases:

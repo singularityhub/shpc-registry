@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/planemo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/planemo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/planemo/container.yaml"
-updated_at: "2022-12-12 03:42:36.360687"
-latest: "0.74.11--pyhdfd78af_0"
+updated_at: "2022-12-19 03:10:31.814742"
+latest: "0.75.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/planemo"
 aliases:
  - "bagit.py"
@@ -54,8 +54,9 @@ aliases:
 versions:
  - "0.74.9--pyhdfd78af_0"
  - "0.74.11--pyhdfd78af_0"
+ - "0.75.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for planemo"
-config: {"url": "https://biocontainers.pro/tools/planemo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for planemo", "latest": {"0.74.11--pyhdfd78af_0": "sha256:61500451999ce9d3996572b14a54640ae0063335cec99cfc08eed6493bfe3e96"}, "tags": {"0.74.9--pyhdfd78af_0": "sha256:b777ca1dd23f0a8a4c71a44cdfd52ace07153e9b87fc261012a993c468e4ec45", "0.74.11--pyhdfd78af_0": "sha256:61500451999ce9d3996572b14a54640ae0063335cec99cfc08eed6493bfe3e96"}, "docker": "quay.io/biocontainers/planemo", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "galaxy-wait": "/usr/local/bin/galaxy-wait", "get-tool-list": "/usr/local/bin/get-tool-list", "gxwf-abstract-export": "/usr/local/bin/gxwf-abstract-export", "gxwf-lint": "/usr/local/bin/gxwf-lint", "gxwf-to-format2": "/usr/local/bin/gxwf-to-format2", "gxwf-to-native": "/usr/local/bin/gxwf-to-native", "gxwf-viz": "/usr/local/bin/gxwf-viz", "install_tool_deps": "/usr/local/bin/install_tool_deps", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "planemo": "/usr/local/bin/planemo", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "run-data-managers": "/usr/local/bin/run-data-managers", "setup-data-libraries": "/usr/local/bin/setup-data-libraries", "shed-tools": "/usr/local/bin/shed-tools", "virtualenv": "/usr/local/bin/virtualenv", "workflow-install": "/usr/local/bin/workflow-install", "workflow-to-tools": "/usr/local/bin/workflow-to-tools", "cwltool": "/usr/local/bin/cwltool", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "csv2rdf": "/usr/local/bin/csv2rdf"}}
+config: {"url": "https://biocontainers.pro/tools/planemo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for planemo", "latest": {"0.75.3--pyhdfd78af_0": "sha256:c2e3e0cc28082d87a1c12d03e0bdc0aaac5262937a30b937327ea645b8922c1f"}, "tags": {"0.74.9--pyhdfd78af_0": "sha256:b777ca1dd23f0a8a4c71a44cdfd52ace07153e9b87fc261012a993c468e4ec45", "0.74.11--pyhdfd78af_0": "sha256:61500451999ce9d3996572b14a54640ae0063335cec99cfc08eed6493bfe3e96", "0.75.3--pyhdfd78af_0": "sha256:c2e3e0cc28082d87a1c12d03e0bdc0aaac5262937a30b937327ea645b8922c1f"}, "docker": "quay.io/biocontainers/planemo", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "galaxy-wait": "/usr/local/bin/galaxy-wait", "get-tool-list": "/usr/local/bin/get-tool-list", "gxwf-abstract-export": "/usr/local/bin/gxwf-abstract-export", "gxwf-lint": "/usr/local/bin/gxwf-lint", "gxwf-to-format2": "/usr/local/bin/gxwf-to-format2", "gxwf-to-native": "/usr/local/bin/gxwf-to-native", "gxwf-viz": "/usr/local/bin/gxwf-viz", "install_tool_deps": "/usr/local/bin/install_tool_deps", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "planemo": "/usr/local/bin/planemo", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "run-data-managers": "/usr/local/bin/run-data-managers", "setup-data-libraries": "/usr/local/bin/setup-data-libraries", "shed-tools": "/usr/local/bin/shed-tools", "virtualenv": "/usr/local/bin/virtualenv", "workflow-install": "/usr/local/bin/workflow-install", "workflow-to-tools": "/usr/local/bin/workflow-to-tools", "cwltool": "/usr/local/bin/cwltool", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "csv2rdf": "/usr/local/bin/csv2rdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/planemo.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/planemo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/planemo:0.74.11--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/planemo:0.75.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/planemo/0.74.11--pyhdfd78af_0
-$ module help quay.io/biocontainers/planemo/0.74.11--pyhdfd78af_0
+$ module load quay.io/biocontainers/planemo/0.75.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/planemo/0.75.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

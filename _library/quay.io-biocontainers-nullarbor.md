@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nullarbor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nullarbor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nullarbor/container.yaml"
-updated_at: "2022-12-12 03:33:01.593602"
+updated_at: "2022-12-19 03:21:05.566304"
 latest: "2.0.20191013--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/nullarbor"
 aliases:

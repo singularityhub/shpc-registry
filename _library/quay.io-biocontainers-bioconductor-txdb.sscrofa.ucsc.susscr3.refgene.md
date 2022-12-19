@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
-updated_at: "2022-12-12 03:28:58.650473"
+updated_at: "2022-12-19 03:20:43.881911"
 latest: "3.4.6--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 aliases:

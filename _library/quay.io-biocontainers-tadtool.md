@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tadtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadtool/container.yaml"
-updated_at: "2022-12-12 03:35:04.099617"
-latest: "0.82--pyh3252c3a_0"
+updated_at: "2022-12-19 03:26:17.565982"
+latest: "0.84--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/tadtool"
 aliases:
  - "tadtool"
@@ -21,8 +21,9 @@ aliases:
  - "linkicc"
 versions:
  - "0.82--pyh3252c3a_0"
+ - "0.84--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for tadtool"
-config: {"url": "https://biocontainers.pro/tools/tadtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadtool", "latest": {"0.82--pyh3252c3a_0": "sha256:7634ccc9f0545873d9ae60fb2347a345c382afd81c3efacc8647a1801e94c8ea"}, "tags": {"0.82--pyh3252c3a_0": "sha256:7634ccc9f0545873d9ae60fb2347a345c382afd81c3efacc8647a1801e94c8ea"}, "docker": "quay.io/biocontainers/tadtool", "aliases": {"tadtool": "/usr/local/bin/tadtool", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
+config: {"url": "https://biocontainers.pro/tools/tadtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadtool", "latest": {"0.84--pyh7cba7a3_0": "sha256:e91c4731078639cc37b359fad2ef8f2033a9f651db593bbca00c6f51f5bac18a"}, "tags": {"0.82--pyh3252c3a_0": "sha256:7634ccc9f0545873d9ae60fb2347a345c382afd81c3efacc8647a1801e94c8ea", "0.84--pyh7cba7a3_0": "sha256:e91c4731078639cc37b359fad2ef8f2033a9f651db593bbca00c6f51f5bac18a"}, "docker": "quay.io/biocontainers/tadtool", "aliases": {"tadtool": "/usr/local/bin/tadtool", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tadtool.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/tadtool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tadtool:0.82--pyh3252c3a_0
+$ shpc install quay.io/biocontainers/tadtool:0.84--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tadtool/0.82--pyh3252c3a_0
-$ module help quay.io/biocontainers/tadtool/0.82--pyh3252c3a_0
+$ module load quay.io/biocontainers/tadtool/0.84--pyh7cba7a3_0
+$ module help quay.io/biocontainers/tadtool/0.84--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

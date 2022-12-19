@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diffacto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diffacto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diffacto/container.yaml"
-updated_at: "2022-12-12 03:10:03.500785"
+updated_at: "2022-12-19 03:06:56.083967"
 latest: "1.0.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/diffacto"
 aliases:

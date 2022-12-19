@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/goat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goat/container.yaml"
-updated_at: "2022-12-12 03:17:09.686133"
-latest: "0.2.0--h92d785c_0"
+updated_at: "2022-12-19 02:49:15.882301"
+latest: "0.2.5--h92d785c_0"
 container_url: "https://biocontainers.pro/tools/goat"
 aliases:
  - "goat-cli"
 versions:
  - "0.2.0--h92d785c_0"
+ - "0.2.5--h92d785c_0"
 description: "shpc-registry automated BioContainers addition for goat"
-config: {"url": "https://biocontainers.pro/tools/goat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goat", "latest": {"0.2.0--h92d785c_0": "sha256:b8b9f6fb938aabf6ff97e9f78334fe19da86c65ea2de6054c98bab12f07dc1d6"}, "tags": {"0.2.0--h92d785c_0": "sha256:b8b9f6fb938aabf6ff97e9f78334fe19da86c65ea2de6054c98bab12f07dc1d6"}, "docker": "quay.io/biocontainers/goat", "aliases": {"goat-cli": "/usr/local/bin/goat-cli"}}
+config: {"url": "https://biocontainers.pro/tools/goat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goat", "latest": {"0.2.5--h92d785c_0": "sha256:c2328cf080c4bb54a0fc848617c13f131006cad9303d81f82b88aaa655b1e3fd"}, "tags": {"0.2.0--h92d785c_0": "sha256:b8b9f6fb938aabf6ff97e9f78334fe19da86c65ea2de6054c98bab12f07dc1d6", "0.2.5--h92d785c_0": "sha256:c2328cf080c4bb54a0fc848617c13f131006cad9303d81f82b88aaa655b1e3fd"}, "docker": "quay.io/biocontainers/goat", "aliases": {"goat-cli": "/usr/local/bin/goat-cli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/goat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/goat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/goat:0.2.0--h92d785c_0
+$ shpc install quay.io/biocontainers/goat:0.2.5--h92d785c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/goat/0.2.0--h92d785c_0
-$ module help quay.io/biocontainers/goat/0.2.0--h92d785c_0
+$ module load quay.io/biocontainers/goat/0.2.5--h92d785c_0
+$ module help quay.io/biocontainers/goat/0.2.5--h92d785c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

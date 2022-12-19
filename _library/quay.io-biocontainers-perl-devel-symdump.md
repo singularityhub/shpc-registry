@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-symdump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-symdump/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-symdump/container.yaml"
-updated_at: "2022-12-12 03:50:07.406391"
+updated_at: "2022-12-19 03:27:08.192394"
 latest: "2.18--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-devel-symdump"
 aliases:

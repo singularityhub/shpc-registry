@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-mce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-mce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-mce/container.yaml"
-updated_at: "2022-12-12 03:33:45.883672"
+updated_at: "2022-12-19 03:12:51.862315"
 latest: "2.41--0"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-mce"
 aliases:

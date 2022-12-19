@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wdltool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wdltool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wdltool/container.yaml"
-updated_at: "2022-12-12 03:27:43.525061"
+updated_at: "2022-12-19 03:35:28.061329"
 latest: "0.14--1"
 container_url: "https://biocontainers.pro/tools/wdltool"
 aliases:

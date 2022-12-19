@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-git-wrapper-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-git-wrapper-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-git-wrapper-plus/container.yaml"
-updated_at: "2022-12-12 03:03:38.724508"
+updated_at: "2022-12-19 03:15:42.170365"
 latest: "0.004011--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-git-wrapper-plus"
 aliases:
