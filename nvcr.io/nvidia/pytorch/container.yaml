@@ -6,7 +6,7 @@ description: PyTorch is a GPU accelerated tensor computational framework with a 
   as NumPy, SciPy, and Cython. Automatic differentiation is done with a tape-based
   system at both a functional and neural network layer level.
 latest:
-  22.10-py3: sha256:7ad18fc3d2b9cdc35f9e5f0043987e8391fcf592c88177fdd9daa31b3b886be9
+  22.12-py3: sha256:09a80f272dd173c9d8f28c23a1985aebe2bd3edd41a184ee9634f6e3f8a1f63d
 tags:
   21.02-py3: sha256:d0fd1375f4c730a3fcff3b501856e087853fa627dc5c18649b72056b06c5ba03
   21.03-py3: sha256:6aeffe9d0d90bdbb18185da71d2bfe2b4e73e3c506b678b5befc68214c2dbdcb
@@ -27,5 +27,7 @@ tags:
   22.07-py3: sha256:f35ef66eaf03f437f041fad66e3e6edf9b107aedcc716d54011571e79b652d04
   22.10-py3: sha256:7ad18fc3d2b9cdc35f9e5f0043987e8391fcf592c88177fdd9daa31b3b886be9
   22.09-py3: sha256:ad07f7144606cb749dceb1ce7ed2286eeb69a63327ea7eccc69f0ac8ac1e0c68
+  22.12-py3: sha256:09a80f272dd173c9d8f28c23a1985aebe2bd3edd41a184ee9634f6e3f8a1f63d
+  22.11-py3: sha256:cbf761c3272cb0aadeec49aa188c3140ae79674e950cd0bb846b3683f93318be
 features:
   gpu: true
