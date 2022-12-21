@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/jobtree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jobtree
 latest:
-  3.0.3--py_1: sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2
+  09.04.2017--py_2: sha256:677e9b91813920c5f4800a71a66a883df62fd991994f3a0ea6b37631a0cb8ab8
 tags:
   3.0.3--py_1: sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2
+  09.04.2017--py_2: sha256:677e9b91813920c5f4800a71a66a883df62fd991994f3a0ea6b37631a0cb8ab8
 docker: quay.io/biocontainers/jobtree
 aliases:
   jobTreeKill: /usr/local/bin/jobTreeKill

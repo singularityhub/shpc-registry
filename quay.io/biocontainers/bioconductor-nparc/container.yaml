@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-nparc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nparc
 latest:
-  1.6.0--r41hdfd78af_0: sha256:7a1e662e003082329d2d308f8d18cf91e7974c86255b4fb369bf399ec7ed1760
+  1.10.0--r42hdfd78af_0: sha256:b0d2ea4b81d05db754ca216aca677c5c018e14c884ff4dbb03c3db3f48ecd651
 tags:
   1.6.0--r41hdfd78af_0: sha256:7a1e662e003082329d2d308f8d18cf91e7974c86255b4fb369bf399ec7ed1760
+  1.10.0--r42hdfd78af_0: sha256:b0d2ea4b81d05db754ca216aca677c5c018e14c884ff4dbb03c3db3f48ecd651
 docker: quay.io/biocontainers/bioconductor-nparc

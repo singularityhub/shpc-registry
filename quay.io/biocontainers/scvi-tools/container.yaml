@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/scvi-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scvi-tools
 latest:
-  0.9.1--py_0: sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c
+  0.14.5--pyhdfd78af_1: sha256:ce75572298275a389ee48a8feadd5447908dc432ca0327e74fdf00271949f386
 tags:
   0.9.1--py_0: sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c
+  0.14.5--pyhdfd78af_1: sha256:ce75572298275a389ee48a8feadd5447908dc432ca0327e74fdf00271949f386
+  0.13.0--pyhdfd78af_0: sha256:8bdd07112e12b5ef5c3d46e37ecf8c8a1fc27ef0dbdcfead0504cc1bbf69f9f6
+  0.12.2--pyhdfd78af_0: sha256:76493e290a682c22291a8d6d33aa95506d84f2c2f44240367579d4989c5efca1
+  0.11.0--pyhdfd78af_0: sha256:fcb7f47acc9fb13ce5d75f7d04fb34493e59b524d74818daf9ee9f605e4b7f52
+  0.10.1--pyhdfd78af_0: sha256:2da9473dfb41692ed4473cd53dc4e8000bb324168055b0213f4b9871bc4264bc
 docker: quay.io/biocontainers/scvi-tools
 aliases:
   hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker

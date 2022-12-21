@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-correp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-correp
 latest:
-  1.60.0--r41hdfd78af_0: sha256:7819421d528af2e441b8e88bf8fa4ff50e2d98b611c86a37f401f5c11c4deb9a
+  1.64.0--r42hdfd78af_0: sha256:94734a46ec13e45e5dbe40a7f5256f822a299487b353a537b57da227c593afb0
 tags:
   1.60.0--r41hdfd78af_0: sha256:7819421d528af2e441b8e88bf8fa4ff50e2d98b611c86a37f401f5c11c4deb9a
+  1.64.0--r42hdfd78af_0: sha256:94734a46ec13e45e5dbe40a7f5256f822a299487b353a537b57da227c593afb0
 docker: quay.io/biocontainers/bioconductor-correp

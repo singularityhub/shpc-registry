@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-glmgampoi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-glmgampoi
 latest:
-  1.6.0--r41hc247a5b_2: sha256:59dd86af5ea4a51b34a79fae74fa2c0eefa8f607f121ab2476a97a70dec2ea7d
+  1.10.0--r42hc247a5b_0: sha256:04bba65f52748a266c67f1a42cbb7a509540b1dcc7c2832460764742db15c3e6
 tags:
   1.6.0--r41hc247a5b_2: sha256:59dd86af5ea4a51b34a79fae74fa2c0eefa8f607f121ab2476a97a70dec2ea7d
+  1.10.0--r42hc247a5b_0: sha256:04bba65f52748a266c67f1a42cbb7a509540b1dcc7c2832460764742db15c3e6
 docker: quay.io/biocontainers/bioconductor-glmgampoi

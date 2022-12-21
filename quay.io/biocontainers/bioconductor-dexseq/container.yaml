@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-dexseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dexseq
 latest:
-  1.40.0--r41hdfd78af_0: sha256:a682473c623a834bc5b221baa2503b921420f3c9bbcda8e16b5f8743361b8d42
+  1.44.0--r42hdfd78af_0: sha256:57a263b14740d0605ab2d257a857e5da3cfdfea3354a187b178d1382383d53ef
 tags:
   1.40.0--r41hdfd78af_0: sha256:a682473c623a834bc5b221baa2503b921420f3c9bbcda8e16b5f8743361b8d42
+  1.44.0--r42hdfd78af_0: sha256:57a263b14740d0605ab2d257a857e5da3cfdfea3354a187b178d1382383d53ef
 docker: quay.io/biocontainers/bioconductor-dexseq

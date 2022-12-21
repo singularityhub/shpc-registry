@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/graph-boink
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for graph-boink
 latest:
-  0.9.1--py38h8b12597_0: sha256:39e0366561943e8ab6f6c045e541b8208a873f204f6805f0d1f873f66a46c7db
+  0.11--py36h8b12597_0: sha256:dbbebbfab34cedda0b1d326f3a510b1b08c7bc5ca054c5e499c8343be3c9cbe5
 tags:
   0.9.1--py38h8b12597_0: sha256:39e0366561943e8ab6f6c045e541b8208a873f204f6805f0d1f873f66a46c7db
+  0.11--py36h8b12597_0: sha256:dbbebbfab34cedda0b1d326f3a510b1b08c7bc5ca054c5e499c8343be3c9cbe5
 docker: quay.io/biocontainers/graph-boink
 aliases:
   boink: /usr/local/bin/boink

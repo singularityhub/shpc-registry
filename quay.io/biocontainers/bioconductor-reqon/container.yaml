@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-reqon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-reqon
 latest:
-  1.40.0--r41hdfd78af_0: sha256:5d4801bde17f22db3640fd229ad6ce8a98c4d35b14d372235502f0a8db4c6f0a
+  1.44.0--r42hdfd78af_0: sha256:a96c037a28a7420ad0fdda514e62f1005fb1c972828f6c9226d7b016beef4d2d
 tags:
   1.40.0--r41hdfd78af_0: sha256:5d4801bde17f22db3640fd229ad6ce8a98c4d35b14d372235502f0a8db4c6f0a
+  1.44.0--r42hdfd78af_0: sha256:a96c037a28a7420ad0fdda514e62f1005fb1c972828f6c9226d7b016beef4d2d
 docker: quay.io/biocontainers/bioconductor-reqon
 aliases:
   jfr: /usr/local/bin/jfr

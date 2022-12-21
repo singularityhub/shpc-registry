@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-dep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dep
 latest:
-  1.8.0--r36_0: sha256:3947729781466045c5cac70b43180d28928c67b06b90287388ffa47af144857f
+  1.20.0--r42hdfd78af_0: sha256:298767670fb1846f9c502080c8fc59570cf0b7666087b8bb2c58f672629eab16
 tags:
   1.8.0--r36_0: sha256:3947729781466045c5cac70b43180d28928c67b06b90287388ffa47af144857f
+  1.20.0--r42hdfd78af_0: sha256:298767670fb1846f9c502080c8fc59570cf0b7666087b8bb2c58f672629eab16
+  1.16.0--r41hdfd78af_0: sha256:af217970c5f3246be2bd4743f8e1ff4d97269404e4a69291ab0abbe18077c644
+  1.14.0--r41hdfd78af_0: sha256:01d15ab08930c67cd772cacbaa9043e963cc98852493091a6845a89f5118046a
+  1.12.0--r40hdfd78af_1: sha256:94b074faf28f6f1249354609c2266d9b234cbe843ad125080b810b1b78217ae5
+  1.10.0--r40_0: sha256:16a6198964d2840f64b0668ceba663c44af4e7364f7381a07305fdc7f148ca48
 docker: quay.io/biocontainers/bioconductor-dep
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

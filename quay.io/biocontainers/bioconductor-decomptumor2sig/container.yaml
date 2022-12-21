@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-decomptumor2sig
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-decomptumor2sig
 latest:
-  2.8.0--r41hdfd78af_0: sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9
+  2.14.0--r42hdfd78af_0: sha256:24c14e5b537a900797d3c8bf99702e8dd0ef40d31f70231cf786d938f41b8d63
 tags:
   2.8.0--r41hdfd78af_0: sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9
+  2.14.0--r42hdfd78af_0: sha256:24c14e5b537a900797d3c8bf99702e8dd0ef40d31f70231cf786d938f41b8d63
+  2.10.0--r41hdfd78af_0: sha256:83b7aafaaed346c4be37b968f2a4534937a024f1eb8342219eb8967d6f0df681
 docker: quay.io/biocontainers/bioconductor-decomptumor2sig
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-porcineprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-porcineprobe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:fd4620b9fb0e285a13cb90a141a01353353fa39ae44687ab31871e3b774b4247
+  2.18.0--r42hdfd78af_10: sha256:39d96e0c45c39ed49f6ef7885f5d7bf92d745a5ab011b643f74ef66f2498e17c
 tags:
   2.18.0--r41hdfd78af_9: sha256:fd4620b9fb0e285a13cb90a141a01353353fa39ae44687ab31871e3b774b4247
+  2.18.0--r42hdfd78af_10: sha256:39d96e0c45c39ed49f6ef7885f5d7bf92d745a5ab011b643f74ef66f2498e17c
 docker: quay.io/biocontainers/bioconductor-porcineprobe

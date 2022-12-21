@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/deeplift
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deeplift
 latest:
-  0.6.9.3--py_0: sha256:4a9df87bb14fd6edb858c0c830864be3c7f4d9dc1317a9b500e29f337810231f
+  0.6.13.0--pyh3252c3a_0: sha256:14186e2fd22bfd6c7afa9e0e98e0be6ca685e9fc0eb35f8ab6e65347fd90141e
 tags:
   0.6.9.3--py_0: sha256:4a9df87bb14fd6edb858c0c830864be3c7f4d9dc1317a9b500e29f337810231f
+  0.6.13.0--pyh3252c3a_0: sha256:14186e2fd22bfd6c7afa9e0e98e0be6ca685e9fc0eb35f8ab6e65347fd90141e
 docker: quay.io/biocontainers/deeplift
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

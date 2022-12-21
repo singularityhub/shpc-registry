@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/usher
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for usher
 latest:
-  0.5.6--h99b1ad8_1: sha256:fb77ffa6979e8f81565b2bd9644ae3fe14832614f604622a129b0b7c7ec53b99
+  0.6.1--h99b1ad8_0: sha256:1752c70af14993b7e3161b53a466d8c7941a05e46b1b065a7f9e1db14f9ce564
 tags:
   0.5.6--h99b1ad8_1: sha256:fb77ffa6979e8f81565b2bd9644ae3fe14832614f604622a129b0b7c7ec53b99
+  0.6.1--h99b1ad8_0: sha256:1752c70af14993b7e3161b53a466d8c7941a05e46b1b065a7f9e1db14f9ce564
+  0.5.6--h99b1ad8_2: sha256:466e59fb2b183dce061b487cb587d269862833413f6ac68b14122eaeb970d2c2
 docker: quay.io/biocontainers/usher
 aliases:
   faToVcf: /usr/local/bin/faToVcf

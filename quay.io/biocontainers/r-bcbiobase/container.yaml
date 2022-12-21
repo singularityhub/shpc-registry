@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-bcbiobase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bcbiobase
 latest:
-  0.7.0--r41hdfd78af_0: sha256:3761c429d7dcb4ccec936dba50465eacab01281cb0efa98826791784897c53b3
+  0.8.1--r42hdfd78af_1: sha256:8b43644670f137d6113ddd3cbd56cf54d17b95b9085cacada0732737f528ceb2
 tags:
   0.7.0--r41hdfd78af_0: sha256:3761c429d7dcb4ccec936dba50465eacab01281cb0efa98826791784897c53b3
+  0.8.1--r42hdfd78af_1: sha256:8b43644670f137d6113ddd3cbd56cf54d17b95b9085cacada0732737f528ceb2
 docker: quay.io/biocontainers/r-bcbiobase

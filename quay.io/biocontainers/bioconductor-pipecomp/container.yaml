@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pipecomp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pipecomp
 latest:
-  1.4.0--r41hdfd78af_0: sha256:b242db1cfd84220d363c99afed9f7c82dfa42838c59775f380185974d9d227d6
+  1.8.0--r42hdfd78af_0: sha256:3d7f493829ff356674f3ec07cd5e4db96fd029c079ffb1068a7bad86032940bf
 tags:
   1.4.0--r41hdfd78af_0: sha256:b242db1cfd84220d363c99afed9f7c82dfa42838c59775f380185974d9d227d6
+  1.8.0--r42hdfd78af_0: sha256:3d7f493829ff356674f3ec07cd5e4db96fd029c079ffb1068a7bad86032940bf
 docker: quay.io/biocontainers/bioconductor-pipecomp

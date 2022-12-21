@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mbased
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mbased
 latest:
-  1.28.0--r41hdfd78af_0: sha256:b66cf347497c4a60d7f63aa731933c3d319709b2b69adaf0a6654674036a6667
+  1.32.0--r42hdfd78af_0: sha256:078e7647dd701f9bb99ee1551367a2205d5728e54e9f4bbbbad53d6f747b88bb
 tags:
   1.28.0--r41hdfd78af_0: sha256:b66cf347497c4a60d7f63aa731933c3d319709b2b69adaf0a6654674036a6667
+  1.32.0--r42hdfd78af_0: sha256:078e7647dd701f9bb99ee1551367a2205d5728e54e9f4bbbbad53d6f747b88bb
 docker: quay.io/biocontainers/bioconductor-mbased

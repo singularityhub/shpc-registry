@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-hsmmsinglecell
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hsmmsinglecell
 latest:
-  1.9.0--r40_0: sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120
+  1.18.0--r42hdfd78af_0: sha256:eadfa18832fe3929440e7ba08e94b610a227ade3c488522fd59ec3c0522dcb85
 tags:
   1.9.0--r40_0: sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120
+  1.18.0--r42hdfd78af_0: sha256:eadfa18832fe3929440e7ba08e94b610a227ade3c488522fd59ec3c0522dcb85
+  1.17.0--r42hdfd78af_0: sha256:749245706196611fad6c38d0920e88fff0310089a309f5ff725cecfaa6bcbfb5
+  1.14.0--r41hdfd78af_1: sha256:16abc1c80db635e58b9b8194e4a9b72e517db212b713da2bb31f98cd165419d9
+  1.12.0--r41hdfd78af_0: sha256:593f52e974232f022d41ae832dd80a68d6cf785c047baf662fceb4991551cbd4
+  1.10.0--r40hdfd78af_1: sha256:54ae2532b3ab07015e512019ba12ea839d5511f479a52b88f3e9499c03dcef3e
 docker: quay.io/biocontainers/bioconductor-hsmmsinglecell
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

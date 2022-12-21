@@ -1,12 +1,13 @@
 docker: julia
 url: https://hub.docker.com/_/julia
 maintainer: '@marcodelapierre'
-description: An interpreted, high-level, high-performance dynamic programming language for technical computing.
+description: An interpreted, high-level, high-performance dynamic programming language
+  for technical computing.
 latest:
-  1.8.3: sha256:11eeb3baa4c867ecd422bdeab5f3d44a66161ed963c349f59eacb656ecf3a034
+  1.8.3: sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448
 tags:
-  1.8.3: sha256:11eeb3baa4c867ecd422bdeab5f3d44a66161ed963c349f59eacb656ecf3a034
+  1.8.3: sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448
 filter:
-- "^[0-9]+[.][0-9]+[.][0-9]+$"
+- ^[0-9]+[.][0-9]+[.][0-9]+$
 aliases:
   julia: /usr/local/julia/bin/julia

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mqc
 latest:
-  1.9--py27pl5.22.0r3.4.1_0: sha256:110ab9a3cf3cd61822b66ef8bfdbe08220f8431032f23c3dbddc8e7d60b1f566
+  1.10--py27pl5.22.0r3.4.1_1: sha256:ae46a79957eab86b5abe92f893b7a84b2839687fea9f522337cd72220654cc93
 tags:
   1.9--py27pl5.22.0r3.4.1_0: sha256:110ab9a3cf3cd61822b66ef8bfdbe08220f8431032f23c3dbddc8e7d60b1f566
+  1.10--py27pl5.22.0r3.4.1_1: sha256:ae46a79957eab86b5abe92f893b7a84b2839687fea9f522337cd72220654cc93
 docker: quay.io/biocontainers/mqc
 aliases:
   counts_in_region: /usr/local/bin/counts_in_region

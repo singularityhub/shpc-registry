@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/crisprbact
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for crisprbact
 latest:
-  0.3.9--py_0: sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def
+  0.3.11--py_0: sha256:d6cc16e120db7445de13aa6823add9e8c95ed2362624c82f027d3951bdbd3004
 tags:
   0.3.9--py_0: sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def
+  0.3.11--py_0: sha256:d6cc16e120db7445de13aa6823add9e8c95ed2362624c82f027d3951bdbd3004
 docker: quay.io/biocontainers/crisprbact
 aliases:
   crisprbact: /usr/local/bin/crisprbact

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-depecher
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-depecher
 latest:
-  1.8.0--r41h399db7b_0: sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9
+  1.14.0--r42hc247a5b_0: sha256:d804909a0eb53066c71272b0bdd3c6bae582f7db662f1e957332bbc47f36241b
 tags:
   1.8.0--r41h399db7b_0: sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9
+  1.14.0--r42hc247a5b_0: sha256:d804909a0eb53066c71272b0bdd3c6bae582f7db662f1e957332bbc47f36241b
+  1.10.0--r41hc247a5b_2: sha256:465407401328013759a2e96aae29c39a325d71e2bd9da90eb735abcd67e380fa
 docker: quay.io/biocontainers/bioconductor-depecher
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

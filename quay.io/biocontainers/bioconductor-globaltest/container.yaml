@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-globaltest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-globaltest
 latest:
-  5.48.0--r41hdfd78af_0: sha256:a469741291e12972064393adafd2c398a805a996b3f1d15fee9f0beb4236fc8d
+  5.52.0--r42hdfd78af_0: sha256:e9fddefe78adfecff7e6e477f5953e9d3825c4c6e8c03f96f2339322ab0ec630
 tags:
   5.48.0--r41hdfd78af_0: sha256:a469741291e12972064393adafd2c398a805a996b3f1d15fee9f0beb4236fc8d
+  5.52.0--r42hdfd78af_0: sha256:e9fddefe78adfecff7e6e477f5953e9d3825c4c6e8c03f96f2339322ab0ec630
 docker: quay.io/biocontainers/bioconductor-globaltest

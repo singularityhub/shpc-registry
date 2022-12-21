@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-geva
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geva
 latest:
-  1.2.0--r41hdfd78af_0: sha256:3bc85396a228782fecc837d99e89b11b34657945592b81344a24ad86c517e05d
+  1.6.0--r42hdfd78af_0: sha256:ac563017dad7ea32352b05ae930bb310b0c8238e7249ec783480dcb7798ece29
 tags:
   1.2.0--r41hdfd78af_0: sha256:3bc85396a228782fecc837d99e89b11b34657945592b81344a24ad86c517e05d
+  1.6.0--r42hdfd78af_0: sha256:ac563017dad7ea32352b05ae930bb310b0c8238e7249ec783480dcb7798ece29
 docker: quay.io/biocontainers/bioconductor-geva

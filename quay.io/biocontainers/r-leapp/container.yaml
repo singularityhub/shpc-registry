@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-leapp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-leapp
 latest:
-  1.3--r41h3342da4_0: sha256:cb13e5e88d0814d675aa5f3b6a49fca3ebde7ab2070f63149a2f8c6d730d0049
+  1.3--r42h3342da4_1: sha256:01d5f98ace9392303ffe24b2aed72670ffd02450aa1aa0303f1ced7a631d7664
 tags:
   1.3--r41h3342da4_0: sha256:cb13e5e88d0814d675aa5f3b6a49fca3ebde7ab2070f63149a2f8c6d730d0049
+  1.3--r42h3342da4_1: sha256:01d5f98ace9392303ffe24b2aed72670ffd02450aa1aa0303f1ced7a631d7664
 docker: quay.io/biocontainers/r-leapp

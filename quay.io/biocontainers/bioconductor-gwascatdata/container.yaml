@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gwascatdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gwascatdata
 latest:
-  0.99.6--r41hdfd78af_2: sha256:5fb3abad91828c71290b8a0be52464bba439f1988fe573f5acb443210167cb09
+  0.99.6--r42hdfd78af_3: sha256:8d0bd3e668f4faf771aa5bc33f59baa05f1735864b487f082b97dbe7eb81e498
 tags:
   0.99.6--r41hdfd78af_2: sha256:5fb3abad91828c71290b8a0be52464bba439f1988fe573f5acb443210167cb09
+  0.99.6--r42hdfd78af_3: sha256:8d0bd3e668f4faf771aa5bc33f59baa05f1735864b487f082b97dbe7eb81e498
 docker: quay.io/biocontainers/bioconductor-gwascatdata

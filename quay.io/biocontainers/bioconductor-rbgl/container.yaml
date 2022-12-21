@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rbgl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rbgl
 latest:
-  1.70.0--r41hc247a5b_2: sha256:16e02b3a444b6621bc8a66fefed19b12c3215b40f05f29ea51ed5c020c456a8b
+  1.74.0--r42hc247a5b_0: sha256:d68d68fcee8c0d6fe2d90feebe7c6b0247c90a747970ce4b2f7085bcd81d165c
 tags:
   1.70.0--r41hc247a5b_2: sha256:16e02b3a444b6621bc8a66fefed19b12c3215b40f05f29ea51ed5c020c456a8b
+  1.74.0--r42hc247a5b_0: sha256:d68d68fcee8c0d6fe2d90feebe7c6b0247c90a747970ce4b2f7085bcd81d165c
 docker: quay.io/biocontainers/bioconductor-rbgl

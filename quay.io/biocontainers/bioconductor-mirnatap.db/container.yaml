@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mirnatap.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirnatap.db
 latest:
-  0.99.10--r40hdfd78af_9: sha256:b3ee070a7fca2719a8184e637f1bc17fed0030f16da827dc381774279061ba1c
+  0.99.10--r42hdfd78af_13: sha256:5be392db3f746ae4f9dde2a8f40235546cfb540f93dc00ea17179937c1cffad9
 tags:
   0.99.10--r40hdfd78af_9: sha256:b3ee070a7fca2719a8184e637f1bc17fed0030f16da827dc381774279061ba1c
+  0.99.10--r42hdfd78af_13: sha256:5be392db3f746ae4f9dde2a8f40235546cfb540f93dc00ea17179937c1cffad9
 docker: quay.io/biocontainers/bioconductor-mirnatap.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
