@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-systempiperdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-systempiperdata
 latest:
-  1.22.3--r41hdfd78af_0: sha256:1045ce6e1888787ce3db5063c539bc2ac05db4a96d5b74d70fc41a4a5d8fa7e1
+  2.2.0--r42hdfd78af_0: sha256:2fe5aac7312e2dfafaed7a7922a4e68c6a83afe00df3f503d701cfd5290b30f3
 tags:
   1.22.3--r41hdfd78af_0: sha256:1045ce6e1888787ce3db5063c539bc2ac05db4a96d5b74d70fc41a4a5d8fa7e1
+  2.2.0--r42hdfd78af_0: sha256:2fe5aac7312e2dfafaed7a7922a4e68c6a83afe00df3f503d701cfd5290b30f3
 docker: quay.io/biocontainers/bioconductor-systempiperdata

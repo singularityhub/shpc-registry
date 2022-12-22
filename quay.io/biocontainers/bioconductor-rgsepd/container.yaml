@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-rgsepd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rgsepd
 latest:
-  1.8.0--r3.4.1_0: sha256:eedb4db94b826179372f38f5941cb2b80d110a8029a20882398ea9eecf90abdb
+  1.30.0--r42hdfd78af_0: sha256:ee7356ba91da7b04fd78900259b0cf1e796d475103368798d3dc78558e4b4b54
 tags:
   1.8.0--r3.4.1_0: sha256:eedb4db94b826179372f38f5941cb2b80d110a8029a20882398ea9eecf90abdb
+  1.30.0--r42hdfd78af_0: sha256:ee7356ba91da7b04fd78900259b0cf1e796d475103368798d3dc78558e4b4b54
+  1.26.0--r41hdfd78af_0: sha256:d6cdd224ba0c58142359a3cf5612497487195f60dde7b5495e86f0d52a3bdc61
+  1.24.0--r41hdfd78af_0: sha256:63c19733a79dc7bb5f1c3718fd232d0064f2d2809c541d33eeecf32b7e8aa8f1
+  1.22.0--r40hdfd78af_1: sha256:22546eaf75f583280d5b8ee11d8a62c0db0d495206686e091baffddae5594ce5
+  1.20.0--r40_0: sha256:4757b4ec532269586a11da4b79404ca943823f0db297a051dc600d703abe619b
 docker: quay.io/biocontainers/bioconductor-rgsepd
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

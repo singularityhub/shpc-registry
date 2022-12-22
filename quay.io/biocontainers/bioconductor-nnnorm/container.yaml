@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-nnnorm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nnnorm
 latest:
-  2.58.0--r41hdfd78af_0: sha256:29eb36c4803fa35a8b8e01df27562352af70510117960f26551fd09d9aa671ec
+  2.62.0--r42hdfd78af_0: sha256:3cb4cd6ac7de2ae4b4adc62972459f4c812b91b5a5e4ab309523b6e1673696b6
 tags:
   2.58.0--r41hdfd78af_0: sha256:29eb36c4803fa35a8b8e01df27562352af70510117960f26551fd09d9aa671ec
+  2.62.0--r42hdfd78af_0: sha256:3cb4cd6ac7de2ae4b4adc62972459f4c812b91b5a5e4ab309523b6e1673696b6
 docker: quay.io/biocontainers/bioconductor-nnnorm

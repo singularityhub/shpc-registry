@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vcfsamplecompare
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vcfsamplecompare
 latest:
-  v2.008--pl526_1: sha256:5118fbf7ed291e9b58be33f7cc2f023348ffc2607d63b1107060e56369fcc547
+  2.013--pl5321hdfd78af_2: sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7
 tags:
   v2.008--pl526_1: sha256:5118fbf7ed291e9b58be33f7cc2f023348ffc2607d63b1107060e56369fcc547
+  2.013--pl5321hdfd78af_2: sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7
 docker: quay.io/biocontainers/vcfsamplecompare
 aliases:
   vcfSampleCompare.pl: /usr/local/bin/vcfSampleCompare.pl

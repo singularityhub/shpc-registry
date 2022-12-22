@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-clst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clst
 latest:
-  1.42.0--r41hdfd78af_0: sha256:1d92687fb493811513b70ef92e3db312951e432464233c5e9eb46c601b4a2c28
+  1.46.0--r42hdfd78af_0: sha256:827471e840220a20c5747706d1069b7d0de68f7f90f54e029560f7a7495d7420
 tags:
   1.42.0--r41hdfd78af_0: sha256:1d92687fb493811513b70ef92e3db312951e432464233c5e9eb46c601b4a2c28
+  1.46.0--r42hdfd78af_0: sha256:827471e840220a20c5747706d1069b7d0de68f7f90f54e029560f7a7495d7420
 docker: quay.io/biocontainers/bioconductor-clst

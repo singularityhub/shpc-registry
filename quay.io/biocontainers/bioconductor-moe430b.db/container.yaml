@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-moe430b.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-moe430b.db
 latest:
-  3.2.3--r41hdfd78af_7: sha256:bc14af07e6d7d513337b91eeaa793d5c5236df07e179c88f122cefd4f009c986
+  3.13.0--r42hdfd78af_2: sha256:3e65ee65dfc16214d7a50c3e4bc4c6de43f8c63dcd1a4c37399b36d48bdc1098
 tags:
   3.2.3--r41hdfd78af_7: sha256:bc14af07e6d7d513337b91eeaa793d5c5236df07e179c88f122cefd4f009c986
+  3.13.0--r42hdfd78af_2: sha256:3e65ee65dfc16214d7a50c3e4bc4c6de43f8c63dcd1a4c37399b36d48bdc1098
 docker: quay.io/biocontainers/bioconductor-moe430b.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

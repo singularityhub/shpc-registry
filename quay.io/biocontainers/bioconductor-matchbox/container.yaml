@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-matchbox
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-matchbox
 latest:
-  1.36.0--r41hdfd78af_0: sha256:d7766c1f070451cba15401e2cd6555149efef8f41eba4dca94f95a6157d2f7a9
+  1.40.0--r42hdfd78af_0: sha256:0101eb54f8e7c4bf6779b4ba6a366e4414af85316a078e8448cf3ec3fc3ca51c
 tags:
   1.36.0--r41hdfd78af_0: sha256:d7766c1f070451cba15401e2cd6555149efef8f41eba4dca94f95a6157d2f7a9
+  1.40.0--r42hdfd78af_0: sha256:0101eb54f8e7c4bf6779b4ba6a366e4414af85316a078e8448cf3ec3fc3ca51c
 docker: quay.io/biocontainers/bioconductor-matchbox

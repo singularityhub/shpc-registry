@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-carnival
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-carnival
 latest:
-  2.4.0--r41hdfd78af_0: sha256:b6a8510407cbfe91fe07ba619a1f15ab22b3253261ebd7cae827db989a29cb46
+  2.8.0--r42hdfd78af_0: sha256:b34523325b711cf734675b49b8f48f0afc65bbc6b52380b2db16543bb51ef71c
 tags:
   2.4.0--r41hdfd78af_0: sha256:b6a8510407cbfe91fe07ba619a1f15ab22b3253261ebd7cae827db989a29cb46
+  2.8.0--r42hdfd78af_0: sha256:b34523325b711cf734675b49b8f48f0afc65bbc6b52380b2db16543bb51ef71c
 docker: quay.io/biocontainers/bioconductor-carnival
 aliases:
   pandoc: /usr/local/bin/pandoc

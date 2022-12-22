@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.biomart.igis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.biomart.igis
 latest:
-  2.3.2--r41hdfd78af_9: sha256:939adc37ef13ac6fa489de25b8e06ccf7c6d1b78f676865fcb18797d8dec6ec9
+  2.3.2--r42hdfd78af_11: sha256:7f3a54a216ee7e85d2eaa31452019041cf0d0cc3958fdd24a0ae34e83584b6cc
 tags:
   2.3.2--r41hdfd78af_9: sha256:939adc37ef13ac6fa489de25b8e06ccf7c6d1b78f676865fcb18797d8dec6ec9
+  2.3.2--r42hdfd78af_11: sha256:7f3a54a216ee7e85d2eaa31452019041cf0d0cc3958fdd24a0ae34e83584b6cc
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis

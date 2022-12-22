@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bayesase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bayesase
 latest:
-  21.1.7--py_0: sha256:bc9b6df00e9c590ac362268a7482da4cb8e93134faebfe9ab97b7c342be3d1a8
+  21.1.13.1--py_0: sha256:65df19876dde65855d99dc18ddd6897d84b400041ab3dfc8f50349c5d4c82c8e
 tags:
   21.1.7--py_0: sha256:bc9b6df00e9c590ac362268a7482da4cb8e93134faebfe9ab97b7c342be3d1a8
+  21.1.13.1--py_0: sha256:65df19876dde65855d99dc18ddd6897d84b400041ab3dfc8f50349c5d4c82c8e
 docker: quay.io/biocontainers/bayesase
 aliases:
   bwa_split_sam_seonly_2output.py: /usr/local/bin/bwa_split_sam_seonly_2output.py

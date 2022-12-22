@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-metaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metaseq
 latest:
-  1.34.0--r41hc247a5b_2: sha256:0d2003b258093e7989c6c350a28a1b500c3129ac1e94d27b1dae5e97f8807af0
+  1.38.0--r42hc247a5b_0: sha256:b98d8b751d98885fee17468dc843ce0f201775ff20ec02242c008c74d040fe63
 tags:
   1.34.0--r41hc247a5b_2: sha256:0d2003b258093e7989c6c350a28a1b500c3129ac1e94d27b1dae5e97f8807af0
+  1.38.0--r42hc247a5b_0: sha256:b98d8b751d98885fee17468dc843ce0f201775ff20ec02242c008c74d040fe63
 docker: quay.io/biocontainers/bioconductor-metaseq

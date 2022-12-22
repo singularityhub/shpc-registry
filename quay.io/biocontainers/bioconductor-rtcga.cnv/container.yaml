@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rtcga.cnv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtcga.cnv
 latest:
-  1.22.0--r41hdfd78af_1: sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4
+  1.25.0--r42hdfd78af_0: sha256:9f382bdee433fa4a81cf18f2e9a89751057b7a24d854cf18b7b95ad7fc4bb7b7
 tags:
   1.22.0--r41hdfd78af_1: sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4
+  1.25.0--r42hdfd78af_0: sha256:9f382bdee433fa4a81cf18f2e9a89751057b7a24d854cf18b7b95ad7fc4bb7b7
 docker: quay.io/biocontainers/bioconductor-rtcga.cnv
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

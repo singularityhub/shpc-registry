@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hwgcod.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hwgcod.db
 latest:
-  3.4.0--r41hdfd78af_9: sha256:1a85c582bc5887a097e3ed9967f0b3406bf2001fe3539c7e2afa6ecd9c7de7b5
+  3.4.0--r42hdfd78af_10: sha256:50453232e51825d0cdf8bf4d99ff66db0ae717d4fa7f9395e9e90211a8d164e1
 tags:
   3.4.0--r41hdfd78af_9: sha256:1a85c582bc5887a097e3ed9967f0b3406bf2001fe3539c7e2afa6ecd9c7de7b5
+  3.4.0--r42hdfd78af_10: sha256:50453232e51825d0cdf8bf4d99ff66db0ae717d4fa7f9395e9e90211a8d164e1
 docker: quay.io/biocontainers/bioconductor-hwgcod.db

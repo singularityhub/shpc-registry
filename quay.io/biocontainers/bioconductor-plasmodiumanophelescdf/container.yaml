@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-plasmodiumanophelescdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-plasmodiumanophelescdf
 latest:
-  2.18.0--r41hdfd78af_9: sha256:c541a2a447b82ff72c7f6f4cd50b0dfb6ace7902152a8b19856b54de695e5f81
+  2.18.0--r42hdfd78af_10: sha256:1787ace18dd030c9e3fc54c853f82135bfc265c8dc5549bae5ef6611f17453c3
 tags:
   2.18.0--r41hdfd78af_9: sha256:c541a2a447b82ff72c7f6f4cd50b0dfb6ace7902152a8b19856b54de695e5f81
+  2.18.0--r42hdfd78af_10: sha256:1787ace18dd030c9e3fc54c853f82135bfc265c8dc5549bae5ef6611f17453c3
 docker: quay.io/biocontainers/bioconductor-plasmodiumanophelescdf

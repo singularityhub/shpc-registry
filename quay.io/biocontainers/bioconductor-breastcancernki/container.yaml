@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-breastcancernki
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-breastcancernki
 latest:
-  1.32.0--r41hdfd78af_1: sha256:e6eeecf794b2f285d720c10f50f3c8ecef56401cf7b43dc338a59b279f6a1057
+  1.35.0--r42hdfd78af_0: sha256:22dc66ede4c966d38474dd1febb75170d8d4824b0deda97d514de75e71fab49d
 tags:
   1.32.0--r41hdfd78af_1: sha256:e6eeecf794b2f285d720c10f50f3c8ecef56401cf7b43dc338a59b279f6a1057
+  1.35.0--r42hdfd78af_0: sha256:22dc66ede4c966d38474dd1febb75170d8d4824b0deda97d514de75e71fab49d
 docker: quay.io/biocontainers/bioconductor-breastcancernki

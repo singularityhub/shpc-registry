@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pvacseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pvacseq
 latest:
-  4.0.9--py36_0: sha256:0df33929e60a64b918e7b72a6f403264ca1355aa853780e41688e90d201abbd7
+  4.0.10--py_3: sha256:74d914e23eebaf638bc1db01a4ce46cba848b3b64e0c62687845a91d54546d6e
 tags:
   4.0.9--py36_0: sha256:0df33929e60a64b918e7b72a6f403264ca1355aa853780e41688e90d201abbd7
+  4.0.10--py_3: sha256:74d914e23eebaf638bc1db01a4ce46cba848b3b64e0c62687845a91d54546d6e
 docker: quay.io/biocontainers/pvacseq
 aliases:
   connexion: /usr/local/bin/connexion

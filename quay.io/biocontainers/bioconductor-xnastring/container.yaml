@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-xnastring
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xnastring
 latest:
-  1.2.2--r41hc247a5b_1: sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e
+  1.6.0--r42hc247a5b_0: sha256:1c6c42d8a46672b31dd8dde261236db465f4a54f4824000d8eb023e9655673c6
 tags:
   1.2.2--r41hc247a5b_1: sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e
+  1.6.0--r42hc247a5b_0: sha256:1c6c42d8a46672b31dd8dde261236db465f4a54f4824000d8eb023e9655673c6
 docker: quay.io/biocontainers/bioconductor-xnastring
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

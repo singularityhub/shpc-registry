@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v79
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ensdb.rnorvegicus.v79
 latest:
-  2.99.0--r41hdfd78af_9: sha256:090de2ffe6715859c56cb106fc9389aab579be66c464d026cd3bf95e2ad1a3a6
+  2.99.0--r42hdfd78af_10: sha256:42012ef16c8c850c81bb2bfe697121670f5d222f6239e4af50c0aa22ff472d5b
 tags:
   2.99.0--r41hdfd78af_9: sha256:090de2ffe6715859c56cb106fc9389aab579be66c464d026cd3bf95e2ad1a3a6
+  2.99.0--r42hdfd78af_10: sha256:42012ef16c8c850c81bb2bfe697121670f5d222f6239e4af50c0aa22ff472d5b
 docker: quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79

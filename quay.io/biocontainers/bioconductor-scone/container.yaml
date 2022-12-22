@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-scone
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scone
 latest:
-  1.8.0--r36_1: sha256:56c15cec63e5d8214b83ee5dfc8880264752f66df1f96211e18ee88f08e30699
+  1.22.0--r42hdfd78af_0: sha256:cb955f4e870489c11e4157163ee07310dbc1c9fd16c00e1f9508087e3970b268
 tags:
   1.8.0--r36_1: sha256:56c15cec63e5d8214b83ee5dfc8880264752f66df1f96211e18ee88f08e30699
+  1.22.0--r42hdfd78af_0: sha256:cb955f4e870489c11e4157163ee07310dbc1c9fd16c00e1f9508087e3970b268
+  1.18.0--r41hdfd78af_0: sha256:72c1a3c3805f9f7b20f048b8b6156dbbf71bcbd50268dfcef53376c8df56d4c2
+  1.16.0--r41hdfd78af_0: sha256:100fbd23ade9fc314f1597f0587f04d8e4e4ac881c68317fa114566db63f6488
+  1.14.0--r40hdfd78af_1: sha256:dc38cf1083044996f2de68c4fb861a55fd42963a82c39d9a093e9d23361a21b7
+  1.12.0--r40_0: sha256:94aea73bb42555921b2a46d9fc81b42bd69946d5fa43c4e393a7e072ea3b5b30
 docker: quay.io/biocontainers/bioconductor-scone
 aliases:
   f2py3.7: /usr/local/bin/f2py3.7

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-affyhgu133plus2expr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-affyhgu133plus2expr
 latest:
-  1.28.0--r41hdfd78af_1: sha256:73ab9d47237f519505a4faceb1cfefd0e0a90f388611185365dd7a36ef1e9785
+  1.31.0--r42hdfd78af_0: sha256:1180c26fc0bef5e9dd098f41118510d3527648d99a3ef9764494098f07c162b9
 tags:
   1.28.0--r41hdfd78af_1: sha256:73ab9d47237f519505a4faceb1cfefd0e0a90f388611185365dd7a36ef1e9785
+  1.31.0--r42hdfd78af_0: sha256:1180c26fc0bef5e9dd098f41118510d3527648d99a3ef9764494098f07c162b9
 docker: quay.io/biocontainers/bioconductor-affyhgu133plus2expr

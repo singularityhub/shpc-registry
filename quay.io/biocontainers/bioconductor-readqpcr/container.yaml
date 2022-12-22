@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-readqpcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-readqpcr
 latest:
-  1.40.0--r41hdfd78af_0: sha256:a7c5f8a4fd6677d4859ea04af6751394a843c091456217c7d2a2f029ae60d3f5
+  1.44.0--r42hdfd78af_0: sha256:baacd40a901342653361db5329faaac9bc97887b872fd7e839ca0d4567b0f34d
 tags:
   1.40.0--r41hdfd78af_0: sha256:a7c5f8a4fd6677d4859ea04af6751394a843c091456217c7d2a2f029ae60d3f5
+  1.44.0--r42hdfd78af_0: sha256:baacd40a901342653361db5329faaac9bc97887b872fd7e839ca0d4567b0f34d
 docker: quay.io/biocontainers/bioconductor-readqpcr

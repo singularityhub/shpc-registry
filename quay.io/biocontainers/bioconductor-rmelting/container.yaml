@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rmelting
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rmelting
 latest:
-  1.8.0--r41hdfd78af_0: sha256:70252b296f6864655e4c8418d1baa8a8c6d20cf44c9e476a344bc456e025914a
+  1.14.0--r42hdfd78af_0: sha256:445b4631e647b553d6d0f7251931b9b56c6a947077e9688449252dec7069ea1b
 tags:
   1.8.0--r41hdfd78af_0: sha256:70252b296f6864655e4c8418d1baa8a8c6d20cf44c9e476a344bc456e025914a
+  1.14.0--r42hdfd78af_0: sha256:445b4631e647b553d6d0f7251931b9b56c6a947077e9688449252dec7069ea1b
+  1.10.0--r41hdfd78af_0: sha256:0930a71d7876e791ee55098ac977e8cd3a3f9b0973aaaa8ba4be26063f9a4ca8
 docker: quay.io/biocontainers/bioconductor-rmelting
 aliases:
   jfr: /usr/local/bin/jfr

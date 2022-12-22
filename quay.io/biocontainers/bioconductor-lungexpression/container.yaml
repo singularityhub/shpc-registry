@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-lungexpression
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lungexpression
 latest:
-  0.32.1--r41hdfd78af_1: sha256:5d361f045d1d04ab29f199588119ec3834a804edf49412560567976365e403d5
+  0.36.0--r42hdfd78af_0: sha256:5a8c23fcd537a14cf7c845f69d5b88b5a65f775e3c904f75274bfa23d7143f27
 tags:
   0.32.1--r41hdfd78af_1: sha256:5d361f045d1d04ab29f199588119ec3834a804edf49412560567976365e403d5
+  0.36.0--r42hdfd78af_0: sha256:5a8c23fcd537a14cf7c845f69d5b88b5a65f775e3c904f75274bfa23d7143f27
 docker: quay.io/biocontainers/bioconductor-lungexpression

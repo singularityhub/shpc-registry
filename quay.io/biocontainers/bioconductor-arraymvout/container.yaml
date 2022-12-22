@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-arraymvout
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-arraymvout
 latest:
-  1.52.0--r41hdfd78af_0: sha256:5890b01fa4527877804dd0bb0db355b4056719e780cf78ae6328190b9e10f94b
+  1.56.0--r42hdfd78af_0: sha256:a2a257e038426bede48b5afdc79745268fe72f61d172df06e14e97bcc8f3fe91
 tags:
   1.52.0--r41hdfd78af_0: sha256:5890b01fa4527877804dd0bb0db355b4056719e780cf78ae6328190b9e10f94b
+  1.56.0--r42hdfd78af_0: sha256:a2a257e038426bede48b5afdc79745268fe72f61d172df06e14e97bcc8f3fe91
 docker: quay.io/biocontainers/bioconductor-arraymvout

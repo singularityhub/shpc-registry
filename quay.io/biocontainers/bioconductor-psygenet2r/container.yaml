@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-psygenet2r
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-psygenet2r
 latest:
-  1.26.0--r41hdfd78af_0: sha256:3304b4151619eb0d3d13ab28b5a6aec7ebd5c7477c40b966aa324ecaa6eaec6b
+  1.30.0--r42hdfd78af_0: sha256:e6549459049025002e31ea0cc1978d338a1323075b40dc5252c58aa8b06af1c7
 tags:
   1.26.0--r41hdfd78af_0: sha256:3304b4151619eb0d3d13ab28b5a6aec7ebd5c7477c40b966aa324ecaa6eaec6b
+  1.30.0--r42hdfd78af_0: sha256:e6549459049025002e31ea0cc1978d338a1323075b40dc5252c58aa8b06af1c7
 docker: quay.io/biocontainers/bioconductor-psygenet2r

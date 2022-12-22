@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-sew
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sew
 latest:
-  1.0.1--r41h9f5acd7_1: sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7
+  1.0.1--r42h9f5acd7_2: sha256:271fa5a7ad69d70eab0a091bbfa4e2a77671449b50d865f9292139be40c5bcbd
 tags:
   1.0.1--r41h9f5acd7_1: sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7
+  1.0.1--r42h9f5acd7_2: sha256:271fa5a7ad69d70eab0a091bbfa4e2a77671449b50d865f9292139be40c5bcbd
 docker: quay.io/biocontainers/r-sew
 aliases:
   rsync-ssl: /usr/local/bin/rsync-ssl

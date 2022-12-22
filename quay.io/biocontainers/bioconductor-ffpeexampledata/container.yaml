@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ffpeexampledata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ffpeexampledata
 latest:
-  1.32.0--r41hdfd78af_1: sha256:bf2e7ef8a3567778da4172ea163a721f28166ec97fc7c42c57cf91d5a37d9294
+  1.36.0--r42hdfd78af_0: sha256:5e02919f62366f66bb8ac5fd71d3a08c261a3e1be09bf6daf3b87c598af79cf4
 tags:
   1.32.0--r41hdfd78af_1: sha256:bf2e7ef8a3567778da4172ea163a721f28166ec97fc7c42c57cf91d5a37d9294
+  1.36.0--r42hdfd78af_0: sha256:5e02919f62366f66bb8ac5fd71d3a08c261a3e1be09bf6daf3b87c598af79cf4
 docker: quay.io/biocontainers/bioconductor-ffpeexampledata

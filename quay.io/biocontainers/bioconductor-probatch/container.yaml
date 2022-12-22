@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-probatch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-probatch
 latest:
-  1.8.0--r41hdfd78af_0: sha256:4ef64ea903135ade30c030075b455eaa66fc765f499c4110b6c56af5b60684ad
+  1.13.0--r42hdfd78af_0: sha256:06afc737c6af377297d862db10637fa72c1814a756f4579b890b3448dd168741
 tags:
   1.8.0--r41hdfd78af_0: sha256:4ef64ea903135ade30c030075b455eaa66fc765f499c4110b6c56af5b60684ad
+  1.13.0--r42hdfd78af_0: sha256:06afc737c6af377297d862db10637fa72c1814a756f4579b890b3448dd168741
+  1.10.0--r41hdfd78af_0: sha256:da9736d5280ce3a0630a30615a7cdd7ad0a0961d5d6c686cf51c34a0c41738d9
 docker: quay.io/biocontainers/bioconductor-probatch
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

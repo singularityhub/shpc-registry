@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mousethymusageing
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mousethymusageing
 latest:
-  1.2.0--r41hdfd78af_1: sha256:c5362003a8c69143afbbe5bb6f55f805c218c4b4f2b056662754e480b492fa94
+  1.6.0--r42hdfd78af_0: sha256:5fa593ee7c810d38b579119f80f4866d1eb7d889e206d028ebfefa888f2eef31
 tags:
   1.2.0--r41hdfd78af_1: sha256:c5362003a8c69143afbbe5bb6f55f805c218c4b4f2b056662754e480b492fa94
+  1.6.0--r42hdfd78af_0: sha256:5fa593ee7c810d38b579119f80f4866d1eb7d889e206d028ebfefa888f2eef31
 docker: quay.io/biocontainers/bioconductor-mousethymusageing
