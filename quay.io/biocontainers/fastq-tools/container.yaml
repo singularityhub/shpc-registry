@@ -5,6 +5,7 @@ latest:
   0.8.3--hbd632db_2: sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59
 tags:
   0.8.3--hbd632db_2: sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59
+  0.8--hed695b0_3: sha256:00c2f42213cbc579a6807d8ec25f55e5d28298257a734124f22f711310f97431
 docker: quay.io/biocontainers/fastq-tools
 aliases:
   fastq-grep: /usr/local/bin/fastq-grep

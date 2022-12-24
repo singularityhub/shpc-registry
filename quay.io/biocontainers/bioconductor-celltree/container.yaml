@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-celltree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-celltree
 latest:
-  1.24.0--r41hdfd78af_0: sha256:21d453fb3e2a0d6ae475da095563a7054216865f9adc0d2ddd5a31814af313af
+  1.27.0--r42hdfd78af_0: sha256:c0eea47358204385e375a697f84b710e8bac68819a9272e41ddc10066ad4b521
 tags:
   1.24.0--r41hdfd78af_0: sha256:21d453fb3e2a0d6ae475da095563a7054216865f9adc0d2ddd5a31814af313af
+  1.27.0--r42hdfd78af_0: sha256:c0eea47358204385e375a697f84b710e8bac68819a9272e41ddc10066ad4b521
 docker: quay.io/biocontainers/bioconductor-celltree

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-genomewidesnp6crlmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genomewidesnp6crlmm
 latest:
-  1.0.7--r41hdfd78af_9: sha256:f445455a18f9d4be1183c9010b41085ac54391c28bdda59d5247828b1bc99a3c
+  1.0.7--r42hdfd78af_10: sha256:a48d16b712c8992819543c3ce43616d62ca140bb84b55289ff5ec14aa45fce19
 tags:
   1.0.7--r41hdfd78af_9: sha256:f445455a18f9d4be1183c9010b41085ac54391c28bdda59d5247828b1bc99a3c
+  1.0.7--r42hdfd78af_10: sha256:a48d16b712c8992819543c3ce43616d62ca140bb84b55289ff5ec14aa45fce19
 docker: quay.io/biocontainers/bioconductor-genomewidesnp6crlmm

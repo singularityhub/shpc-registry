@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gmoviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gmoviz
 latest:
-  1.6.0--r41hdfd78af_0: sha256:cb93eeb396319a6bd4b2871b00b41242da884b7fb78170c03d68c09b9d906c33
+  1.10.0--r42hdfd78af_0: sha256:608601c12cbb277a1b7ff87953bcefac1c20be682841cf23643b1928247da078
 tags:
   1.6.0--r41hdfd78af_0: sha256:cb93eeb396319a6bd4b2871b00b41242da884b7fb78170c03d68c09b9d906c33
+  1.10.0--r42hdfd78af_0: sha256:608601c12cbb277a1b7ff87953bcefac1c20be682841cf23643b1928247da078
 docker: quay.io/biocontainers/bioconductor-gmoviz

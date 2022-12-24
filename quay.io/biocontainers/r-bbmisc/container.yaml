@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-bbmisc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bbmisc
 latest:
-  1.9--r3.2.2_0: sha256:aa037935a7c5ce3070f2c2aeaae6ef33f3927060ae07e6596e8ed4b075cc3dda
+  1.11--r3.3.2_0: sha256:6d8465f25f2969ed48bf727886614661ea859fef6445d02f47e50173b3dc969e
 tags:
   1.9--r3.2.2_0: sha256:aa037935a7c5ce3070f2c2aeaae6ef33f3927060ae07e6596e8ed4b075cc3dda
+  1.11--r3.3.2_0: sha256:6d8465f25f2969ed48bf727886614661ea859fef6445d02f47e50173b3dc969e
 docker: quay.io/biocontainers/r-bbmisc
 aliases:
   pngcp: /usr/local/bin/pngcp

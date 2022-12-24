@@ -4,11 +4,11 @@ maintainer: '@vsoch'
 description: Very-Low Overhead Checkpointing System. VELOC is a multi-level checkpoint-restart
   runtime for HPC supercomputing infrastructures
 latest:
-  '1.5': sha256:98a4f6f292749587045821d0ab5e8c17dd1596fe523aa53252de543fc44fdeb3
+  '1.5': sha256:9af76de4488222476687320abcbd3514ed5f3ba93310509e19298669a004cfda
 tags:
   '1.4': sha256:1cbebd19203bbcf3a9306683bb3f689c414c108ef18b15a4163c6e3529952914
-  '1.5': sha256:98a4f6f292749587045821d0ab5e8c17dd1596fe523aa53252de543fc44fdeb3
-  latest: sha256:98a4f6f292749587045821d0ab5e8c17dd1596fe523aa53252de543fc44fdeb3
+  '1.5': sha256:9af76de4488222476687320abcbd3514ed5f3ba93310509e19298669a004cfda
+  latest: sha256:9af76de4488222476687320abcbd3514ed5f3ba93310509e19298669a004cfda
 aliases:
   veloc-backend: /opt/view/bin/veloc-backend
   veloc_check_node: /opt/view/bin/veloc_check_node

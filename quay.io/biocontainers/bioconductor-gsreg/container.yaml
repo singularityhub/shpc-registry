@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gsreg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gsreg
 latest:
-  1.28.0--r41hc247a5b_2: sha256:991ab380c55033e4c78308ceb2417db0fea9497fedbc2eb195718d624fa24829
+  1.32.0--r42hc247a5b_0: sha256:6432bc6a893aba262d70bd6525104760f32db4efc24d2a983eb2bcbf906dfdd8
 tags:
   1.28.0--r41hc247a5b_2: sha256:991ab380c55033e4c78308ceb2417db0fea9497fedbc2eb195718d624fa24829
+  1.32.0--r42hc247a5b_0: sha256:6432bc6a893aba262d70bd6525104760f32db4efc24d2a983eb2bcbf906dfdd8
 docker: quay.io/biocontainers/bioconductor-gsreg

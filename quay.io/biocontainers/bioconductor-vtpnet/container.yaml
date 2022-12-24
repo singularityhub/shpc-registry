@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-vtpnet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-vtpnet
 latest:
-  0.34.0--r41hdfd78af_0: sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4
+  0.38.0--r42hdfd78af_0: sha256:9db144074136c327f0b0355b85b983cd5b9af3b5b255b8463d1c7e9df1046fc2
 tags:
   0.34.0--r41hdfd78af_0: sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4
+  0.38.0--r42hdfd78af_0: sha256:9db144074136c327f0b0355b85b983cd5b9af3b5b255b8463d1c7e9df1046fc2
 docker: quay.io/biocontainers/bioconductor-vtpnet

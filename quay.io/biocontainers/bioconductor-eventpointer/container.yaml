@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-eventpointer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-eventpointer
 latest:
-  3.2.0--r41hc0cfd56_2: sha256:fee5dea8e503b4caa8bda43ac8d3aa9f27fa3d7ca1724846ff104039e2554dfd
+  3.6.0--r42hc0cfd56_0: sha256:8a88c9e414cce96c24247dde77a40d7dec6c7cd6a5fcf573baa81ba56e936609
 tags:
   3.2.0--r41hc0cfd56_2: sha256:fee5dea8e503b4caa8bda43ac8d3aa9f27fa3d7ca1724846ff104039e2554dfd
+  3.6.0--r42hc0cfd56_0: sha256:8a88c9e414cce96c24247dde77a40d7dec6c7cd6a5fcf573baa81ba56e936609
 docker: quay.io/biocontainers/bioconductor-eventpointer
 aliases:
   glpsol: /usr/local/bin/glpsol

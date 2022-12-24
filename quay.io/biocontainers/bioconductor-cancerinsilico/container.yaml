@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-cancerinsilico
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cancerinsilico
 latest:
-  2.8.0--r40h5f743cb_0: sha256:50cedab63e3416b41364ac751624cd105756271fb3bbb11d9cbff6a2269600fc
+  2.18.0--r42hc247a5b_0: sha256:ce7f926de96af1617b0a0b9f4396cdd355f41080fa0c0036c88a56286324f847
 tags:
   2.8.0--r40h5f743cb_0: sha256:50cedab63e3416b41364ac751624cd105756271fb3bbb11d9cbff6a2269600fc
+  2.18.0--r42hc247a5b_0: sha256:ce7f926de96af1617b0a0b9f4396cdd355f41080fa0c0036c88a56286324f847
+  2.14.0--r41hc247a5b_2: sha256:d745ac5b94345a25b38331e513762ff8fd3fa12e64b13d54eeab11daf7dc3bfe
+  2.12.0--r41h399db7b_0: sha256:c95a6cab58784921fe19333f81d003edd54d33e355bf6feaa0b38fe7268acb42
+  2.10.0--r40h399db7b_1: sha256:be5ba58cccd87b135e81c8da192df6eb343a5901d2ac0a8d1a6f18f13e6620ce
 docker: quay.io/biocontainers/bioconductor-cancerinsilico
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/alignstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for alignstats
 latest:
-  0.9.1--hec16e2b_2: sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b
+  0.10--hec16e2b_0: sha256:65a233cc97cc1a5437ff5fdeb5f2d4e7888cb4d347574a55cfda1e62ea76548b
 tags:
   0.9.1--hec16e2b_2: sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b
+  0.10--hec16e2b_0: sha256:65a233cc97cc1a5437ff5fdeb5f2d4e7888cb4d347574a55cfda1e62ea76548b
 docker: quay.io/biocontainers/alignstats
 aliases:
   alignstats: /usr/local/bin/alignstats

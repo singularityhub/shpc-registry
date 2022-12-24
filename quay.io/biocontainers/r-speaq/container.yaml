@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-speaq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-speaq
 latest:
-  2.7.0--r41h3121a25_0: sha256:5b734b07ac61320950016eb358d17a71c726859819c729aa315607a78a2c4ea8
+  2.7.0--r42h3121a25_1: sha256:cbd40762858c037b57e565f32e8f6a25b24b43bda794609b1bd99b3fe2d156e4
 tags:
   2.7.0--r41h3121a25_0: sha256:5b734b07ac61320950016eb358d17a71c726859819c729aa315607a78a2c4ea8
+  2.7.0--r42h3121a25_1: sha256:cbd40762858c037b57e565f32e8f6a25b24b43bda794609b1bd99b3fe2d156e4
 docker: quay.io/biocontainers/r-speaq

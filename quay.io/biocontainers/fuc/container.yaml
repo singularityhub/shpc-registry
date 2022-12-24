@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/fuc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fuc
 latest:
-  0.9.0--pyh5e36f6f_0: sha256:483a1c3e35eb1653ef635d93fca4c17ab9bd787302967177c5bd176a48a190af
+  0.36.0--pyh5e36f6f_0: sha256:26ed9446f1bbe96fb72f0e05c378a0cb76eb7f35ae15ac091f7e8af7576857d3
 tags:
   0.9.0--pyh5e36f6f_0: sha256:483a1c3e35eb1653ef635d93fca4c17ab9bd787302967177c5bd176a48a190af
+  0.36.0--pyh5e36f6f_0: sha256:26ed9446f1bbe96fb72f0e05c378a0cb76eb7f35ae15ac091f7e8af7576857d3
+  0.35.0--pyh5e36f6f_0: sha256:9113b4a6bcf6e404e5907b373f7188c22a8db1e95c354ce487d83c91c2e0562a
+  0.34.0--pyh5e36f6f_0: sha256:943592f2da83decdcec4df86d3f31cabfd0839749c60f782676564199179ed09
+  0.33.1--pyh5e36f6f_0: sha256:aa7dbe054bc0a250daee81328a8841af3d5bf8dd9cec990b813ff756db590750
+  0.32.0--pyh5e36f6f_0: sha256:be45359dbbb969b18b55dd895971f1c31a928e05c0b74de6fb43d72a82d8ff6c
 docker: quay.io/biocontainers/fuc
 aliases:
   fuc: /usr/local/bin/fuc

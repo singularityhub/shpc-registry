@@ -7,7 +7,8 @@ latest:
   5.2.5: sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df
 tags:
   5.2.5: sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df
-  latest: sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df
+  latest: sha256:9905b11ddb4d9aaca4cbd031965bf0049d1944a93f7fb7d7a49dfbdd3c57e336
+  5.2.7: sha256:9905b11ddb4d9aaca4cbd031965bf0049d1944a93f7fb7d7a49dfbdd3c57e336
 aliases:
   xz: /opt/view/bin/xz
   xzcat: /opt/view/bin/xzcat

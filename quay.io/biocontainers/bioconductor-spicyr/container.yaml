@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-spicyr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spicyr
 latest:
-  1.6.0--r41hdfd78af_0: sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54
+  1.10.0--r42hdfd78af_0: sha256:bd596ef4684891cb4013ae634360004653905ee5d712bb7ca7a93c769b69360c
 tags:
   1.6.0--r41hdfd78af_0: sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54
+  1.10.0--r42hdfd78af_0: sha256:bd596ef4684891cb4013ae634360004653905ee5d712bb7ca7a93c769b69360c
 docker: quay.io/biocontainers/bioconductor-spicyr
 aliases:
   testepsg: /usr/local/bin/testepsg

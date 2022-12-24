@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-operonhumanv3.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-operonhumanv3.db
 latest:
-  3.2.3--r41hdfd78af_9: sha256:e986be3b5db610ea08be1d944f01ac793dd7120b1f6fbc03724f5a5b59820fdc
+  3.2.3--r42hdfd78af_10: sha256:1f2b1d73fd5c063d7976730fb83c7c35a4076d983e0cf13e384502d0638b297a
 tags:
   3.2.3--r41hdfd78af_9: sha256:e986be3b5db610ea08be1d944f01ac793dd7120b1f6fbc03724f5a5b59820fdc
+  3.2.3--r42hdfd78af_10: sha256:1f2b1d73fd5c063d7976730fb83c7c35a4076d983e0cf13e384502d0638b297a
 docker: quay.io/biocontainers/bioconductor-operonhumanv3.db

@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-vidger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-vidger
 latest:
-  1.8.0--r40_0: sha256:991726354e2ea3da05ba941dfce23ade42517b004a25e276b8476050ef33abdc
+  1.18.0--r42hdfd78af_0: sha256:2d608ff414c097c194d513c7b6cf034c9672382197cbcfe9c871eeb471a6ea04
 tags:
   1.8.0--r40_0: sha256:991726354e2ea3da05ba941dfce23ade42517b004a25e276b8476050ef33abdc
+  1.18.0--r42hdfd78af_0: sha256:2d608ff414c097c194d513c7b6cf034c9672382197cbcfe9c871eeb471a6ea04
+  1.14.0--r41hdfd78af_0: sha256:4141e9555cca7d86557c247457f5a4ec8394e2b23043b8d896df0f61fd395c3d
+  1.12.0--r41hdfd78af_0: sha256:6df4416679140a85fdd878e28fe16d32c0011d1eee64dafb3a8f472446916b8f
+  1.10.0--r40hdfd78af_1: sha256:dbb24b4227389861d7baa69226a4323d5b3a3ec5d6dc340e9875734dc5995e62
 docker: quay.io/biocontainers/bioconductor-vidger
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc
