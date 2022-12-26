@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/interproscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for interproscan
 latest:
-  5.55_88.0--hec16e2b_1: sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481
+  5.59_91.0--hec16e2b_1: sha256:f5f1afca06ea17ad0c33e652bfb88ea55d1cbcfeea6f10a52d94db86d87c79d8
 tags:
   5.55_88.0--hec16e2b_1: sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481
+  5.59_91.0--hec16e2b_1: sha256:f5f1afca06ea17ad0c33e652bfb88ea55d1cbcfeea6f10a52d94db86d87c79d8
 docker: quay.io/biocontainers/interproscan
 aliases:
   2ft: /usr/local/bin/2ft

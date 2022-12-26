@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/icescreen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for icescreen
 latest:
-  1.0.4--py310hdfd78af_1: sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd
+  1.1.0--py311hdfd78af_0: sha256:15fe55a3e509321e3ad4d270ebd7723f7ab5c0cff814cd2550c0581b511f0a54
 tags:
   1.0.4--py310hdfd78af_1: sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd
+  1.1.0--py311hdfd78af_0: sha256:15fe55a3e509321e3ad4d270ebd7723f7ab5c0cff814cd2550c0581b511f0a54
 docker: quay.io/biocontainers/icescreen
 aliases:
   AUTHORS.txt: /usr/local/bin/AUTHORS.txt
