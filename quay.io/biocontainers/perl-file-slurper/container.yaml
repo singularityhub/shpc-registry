@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-file-slurper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-file-slurper
 latest:
-  0.013--pl5321hdfd78af_0: sha256:34b91fc1a38b3510bd3cb7191baca7eefa1eb06913d336caf7b4e882703a0066
+  0.014--pl5321hdfd78af_0: sha256:6d305b1be9555449f48963c733b2cf6c51552fcc74bcf0b01e3146d0512a484b
 tags:
   0.013--pl5321hdfd78af_0: sha256:34b91fc1a38b3510bd3cb7191baca7eefa1eb06913d336caf7b4e882703a0066
+  0.014--pl5321hdfd78af_0: sha256:6d305b1be9555449f48963c733b2cf6c51552fcc74bcf0b01e3146d0512a484b
 docker: quay.io/biocontainers/perl-file-slurper
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

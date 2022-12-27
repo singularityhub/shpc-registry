@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ciriquant
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ciriquant
 latest:
-  1.1.2--pyhdfd78af_1: sha256:bb17f17a4097078822ae961780fe332dd4f96c101459c8acd3bc207bb034f9c0
+  1.1.2--pyhdfd78af_2: sha256:2eb0cd207167e576698cab8fed3d3d2f8a54d77f46e91b337d19f506a9aca80d
 tags:
   1.1.2--pyhdfd78af_1: sha256:bb17f17a4097078822ae961780fe332dd4f96c101459c8acd3bc207bb034f9c0
+  1.1.2--pyhdfd78af_2: sha256:2eb0cd207167e576698cab8fed3d3d2f8a54d77f46e91b337d19f506a9aca80d
 docker: quay.io/biocontainers/ciriquant
 aliases:
   CIRI_DE: /usr/local/bin/CIRI_DE
