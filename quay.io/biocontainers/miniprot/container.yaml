@@ -2,10 +2,12 @@ url: https://biocontainers.pro/tools/miniprot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for miniprot
 latest:
-  0.5--h7132678_0: sha256:f2470b9f18f7c6765547e4e1429f04166238454aa0625204ea73d217743e48d9
+  0.7--h7132678_0: sha256:f6b9122f4bc36cabea25c5c81f17711d37b60b235a6c3e8e04e5979e51079c5e
 tags:
   0.4--h7132678_0: sha256:f47e9f65bc7e6abcd7e1d73dc505a737bcac805514ab44f2d7aa1a97c7d95ebd
   0.5--h7132678_0: sha256:f2470b9f18f7c6765547e4e1429f04166238454aa0625204ea73d217743e48d9
+  0.7--h7132678_0: sha256:f6b9122f4bc36cabea25c5c81f17711d37b60b235a6c3e8e04e5979e51079c5e
+  0.6--h7132678_0: sha256:81a3a45c40ccc3d8875d0f512654dc20b91aa9a6f2e8ec1962efdbc24a80226e
 docker: quay.io/biocontainers/miniprot
 aliases:
   miniprot: /usr/local/bin/miniprot
