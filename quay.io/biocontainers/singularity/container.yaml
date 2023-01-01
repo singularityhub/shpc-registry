@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/singularity
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for singularity
 latest:
-  3.5.3: sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f
+  3.8.6: sha256:406ddd780aadf667504d4fb91e46a1f5f9eedd77b9dca50adecab603a702384a
 tags:
   3.5.3: sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f
+  3.8.6: sha256:406ddd780aadf667504d4fb91e46a1f5f9eedd77b9dca50adecab603a702384a
 docker: quay.io/biocontainers/singularity
 aliases:
   bsdcat: /usr/local/bin/bsdcat

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/krakenuniq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for krakenuniq
 latest:
-  1.0.2--pl5321h19e8d03_0: sha256:a3c562fab4cb3de4be59b1ed2106486bf1560d0ca2dc2c8ee5c3caf723cb50ab
+  1.0.3--pl5321h19e8d03_0: sha256:5bf112a0169a5b4747d8d939f56b1dc923fdddc73d3eccb6dc64351e761dd16e
 tags:
   1.0.1a--pl5321h19e8d03_1: sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e
   1.0.2--pl5321h19e8d03_0: sha256:a3c562fab4cb3de4be59b1ed2106486bf1560d0ca2dc2c8ee5c3caf723cb50ab
+  1.0.3--pl5321h19e8d03_0: sha256:5bf112a0169a5b4747d8d939f56b1dc923fdddc73d3eccb6dc64351e761dd16e
 docker: quay.io/biocontainers/krakenuniq
 aliases:
   build_taxdb: /usr/local/bin/build_taxdb
