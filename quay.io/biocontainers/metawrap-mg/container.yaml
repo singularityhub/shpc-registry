@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metawrap-mg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metawrap-mg
 latest:
-  1.3.0--hdfd78af_0: sha256:596315ae2c594b181673d14e1b08616137e0207d65f9ad1268ddcc76f2d35c14
+  1.3.0--hdfd78af_1: sha256:41c69171237bb16e83cfc137f36457c22e19d867336d8723ab1cdc8aa2721c84
 tags:
   1.3.0--hdfd78af_0: sha256:596315ae2c594b181673d14e1b08616137e0207d65f9ad1268ddcc76f2d35c14
+  1.3.0--hdfd78af_1: sha256:41c69171237bb16e83cfc137f36457c22e19d867336d8723ab1cdc8aa2721c84
 docker: quay.io/biocontainers/metawrap-mg
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan

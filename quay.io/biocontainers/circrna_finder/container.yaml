@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/circrna_finder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for circrna_finder
 latest:
-  1.2--pl5321hdfd78af_0: sha256:caee621721cd157a319d54fa2af54a878f3cab9dc43eed69603cd2b0fb8f44ae
+  1.2--pl5321hdfd78af_1: sha256:1697e581c8005132377fbd9f16cbbe43df7bbb950b01a0ad9ce27699b62b5b4c
 tags:
   1.2--pl5321hdfd78af_0: sha256:caee621721cd157a319d54fa2af54a878f3cab9dc43eed69603cd2b0fb8f44ae
+  1.2--pl5321hdfd78af_1: sha256:1697e581c8005132377fbd9f16cbbe43df7bbb950b01a0ad9ce27699b62b5b4c
 docker: quay.io/biocontainers/circrna_finder
 aliases:
   filterCirc.awk: /usr/local/bin/filterCirc.awk
