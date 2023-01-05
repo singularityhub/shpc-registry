@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ggcaller
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ggcaller
 latest:
-  1.3.0--py38hee2cf1e_1: sha256:83f27a9a7b57fa0c0fe140774c18b4992d8678fff7291edd3a7718b931f3b412
+  1.3.1--py38hee2cf1e_0: sha256:99b31373ffa93bf8550921b7f793ca10adbedc5f49f80586bb9e13506064bc6d
 tags:
   1.3.0--py38hee2cf1e_1: sha256:83f27a9a7b57fa0c0fe140774c18b4992d8678fff7291edd3a7718b931f3b412
+  1.3.1--py38hee2cf1e_0: sha256:99b31373ffa93bf8550921b7f793ca10adbedc5f49f80586bb9e13506064bc6d
 docker: quay.io/biocontainers/ggcaller
 aliases:
   Bifrost: /usr/local/bin/Bifrost
