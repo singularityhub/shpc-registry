@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tgsgapcloser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tgsgapcloser
 latest:
-  1.0.3--h5b5514e_2: sha256:1fc88341f01e741a698333ca9f885fd612aa8068833143f8ec4bf6884ee20b02
+  1.2.1--h5b5514e_0: sha256:b068a33532204d9d16428933040de7d52a98ef630eea8aa73f0f854c1e7d0ea2
 tags:
   1.0.3--h5b5514e_2: sha256:1fc88341f01e741a698333ca9f885fd612aa8068833143f8ec4bf6884ee20b02
+  1.2.1--h5b5514e_0: sha256:b068a33532204d9d16428933040de7d52a98ef630eea8aa73f0f854c1e7d0ea2
 docker: quay.io/biocontainers/tgsgapcloser
 aliases:
   tgsgapcloser: /usr/local/bin/tgsgapcloser

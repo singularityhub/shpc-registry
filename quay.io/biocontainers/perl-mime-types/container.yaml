@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-mime-types
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-mime-types
 latest:
-  2.22--pl5321hdfd78af_0: sha256:c1c581fcd8170a21a5bb34a4f16957ea71e7df9379b40ffafc66ddb5e08e714f
+  2.24--pl5321hdfd78af_0: sha256:3000a691e1d7c8bcd8eee5e5731355492e93a2d8dc4afb285cbcfe7e09002cfc
 tags:
   2.22--pl5321hdfd78af_0: sha256:c1c581fcd8170a21a5bb34a4f16957ea71e7df9379b40ffafc66ddb5e08e714f
+  2.24--pl5321hdfd78af_0: sha256:3000a691e1d7c8bcd8eee5e5731355492e93a2d8dc4afb285cbcfe7e09002cfc
+  2.23--pl5321hdfd78af_0: sha256:56ac065356f7bd38c16b7c93a7238c6d04c4ea1420808234e6d17386dab37ee2
 docker: quay.io/biocontainers/perl-mime-types
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
