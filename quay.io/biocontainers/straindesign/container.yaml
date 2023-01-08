@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/straindesign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for straindesign
 latest:
-  3.1.0--pyh7cba7a3_0: sha256:1be012d2ca9a3cd8e636b0caa32d610e5996692493f1aaaeba6a3f02d6242aec
+  3.2.0--pyh7cba7a3_0: sha256:3adab192599e2f1c3b00b4fabe85404451a28340dcff0a9c4354d2392ca9336b
 tags:
   3.1.0--pyh7cba7a3_0: sha256:1be012d2ca9a3cd8e636b0caa32d610e5996692493f1aaaeba6a3f02d6242aec
+  3.2.0--pyh7cba7a3_0: sha256:3adab192599e2f1c3b00b4fabe85404451a28340dcff0a9c4354d2392ca9336b
 docker: quay.io/biocontainers/straindesign
 aliases:
   cameo: /usr/local/bin/cameo

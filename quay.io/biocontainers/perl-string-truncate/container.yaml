@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-string-truncate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-string-truncate
 latest:
-  1.100602--pl5321hdfd78af_1: sha256:e342db2551c3e5d0793793cd587c13b95f350f132cfe42a02b3fa71a064b6aca
+  1.100603--pl5321hdfd78af_0: sha256:c1ddeec82382e66f167e6e8fc49b4d78ed671bc47fb27545dd36200c76f95c18
 tags:
   1.100602--pl5321hdfd78af_1: sha256:e342db2551c3e5d0793793cd587c13b95f350f132cfe42a02b3fa71a064b6aca
+  1.100603--pl5321hdfd78af_0: sha256:c1ddeec82382e66f167e6e8fc49b4d78ed671bc47fb27545dd36200c76f95c18
 docker: quay.io/biocontainers/perl-string-truncate
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

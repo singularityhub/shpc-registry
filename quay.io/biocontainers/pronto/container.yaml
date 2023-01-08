@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pronto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pronto
 latest:
-  2.5.1--pyhdfd78af_0: sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6
+  2.5.2--pyhdfd78af_0: sha256:6a403584a79512fb0a02c2cbe7eb548531164ee5f35cb6371c7ab10e4bafed96
 tags:
   2.5.1--pyhdfd78af_0: sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6
+  2.5.2--pyhdfd78af_0: sha256:6a403584a79512fb0a02c2cbe7eb548531164ee5f35cb6371c7ab10e4bafed96
 docker: quay.io/biocontainers/pronto
 aliases:
   x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-io-zlib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-io-zlib
 latest:
-  1.11--pl5321hdfd78af_0: sha256:cb3197271930e7058d691a60ec6716c75aa4a7b6f5ea194092120594c303dfcc
+  1.12--pl5321hdfd78af_0: sha256:8492b6344b044d2f6a72353d5a1728f74b33f6b8268fdac4a9a161bfb9eb7260
 tags:
   1.11--pl5321hdfd78af_0: sha256:cb3197271930e7058d691a60ec6716c75aa4a7b6f5ea194092120594c303dfcc
+  1.12--pl5321hdfd78af_0: sha256:8492b6344b044d2f6a72353d5a1728f74b33f6b8268fdac4a9a161bfb9eb7260
 docker: quay.io/biocontainers/perl-io-zlib
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
