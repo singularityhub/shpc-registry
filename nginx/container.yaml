@@ -5,7 +5,7 @@ description: Nginx (pronounced 'engine-x') is an open source reverse proxy serve
   for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer, HTTP
   cache, and a web server (origin server).
 latest:
-  '1.23': sha256:ab589a3c466e347b1c0573be23356676df90cd7ce2dbf6ec332a5f0a8b5e59db
+  '1.23': sha256:0047b729188a15da49380d9506d65959cce6d40291ccfb4e039f5dc7efd33286
 tags:
   1.20.0-alpine-perl: sha256:00109feeafcc6b80f2322cf70b406d5e521f53d0b0841acfce22aa2a827115d6
   1.21.0-alpine-perl: sha256:fea7bc7dc04726dbc2e89457f7548f47c6914714a1a5ec6e50e2a13f10c22378
@@ -15,13 +15,13 @@ tags:
   1.21.4: sha256:366e9f1ddebdb844044c2fafd13b75271a9f620819370f8971220c2b330a9254
   1.21.5: sha256:0d17b565c37bcbd895e9d92315a05c1c3c9a29f762b011a10c54a66cd53c9b31
   1.21.6: sha256:2bcabc23b45489fb0885d69a06ba1d648aeda973fae7bb981bafbb884165e514
-  latest: sha256:ab589a3c466e347b1c0573be23356676df90cd7ce2dbf6ec332a5f0a8b5e59db
+  latest: sha256:0047b729188a15da49380d9506d65959cce6d40291ccfb4e039f5dc7efd33286
   stable-alpine-perl: sha256:c9e37b62dfa9613a2fd94e561a4855747ea3c6171f3d32cf00968f40a02f262e
-  '1': sha256:ab589a3c466e347b1c0573be23356676df90cd7ce2dbf6ec332a5f0a8b5e59db
+  '1': sha256:0047b729188a15da49380d9506d65959cce6d40291ccfb4e039f5dc7efd33286
   '1.21': sha256:2bcabc23b45489fb0885d69a06ba1d648aeda973fae7bb981bafbb884165e514
   '1.20': sha256:38f8c1d9613f3f42e7969c3b1dd5c3277e635d4576713e6453c6193e66270a6d
-  '1.22': sha256:3d273c5fce6b2a73fdeab28cb9f39b751620d1f0aee48538fdb2b28a7315d6b2
-  '1.23': sha256:ab589a3c466e347b1c0573be23356676df90cd7ce2dbf6ec332a5f0a8b5e59db
+  '1.22': sha256:5ca35e99dbda564f79e1aa805dfa2a89aa786a374c45151730bdfa1da498ed33
+  '1.23': sha256:0047b729188a15da49380d9506d65959cce6d40291ccfb4e039f5dc7efd33286
 aliases:
   nginx: /usr/sbin/nginx
   nginx-debug: /usr/sbin/nginx-debug

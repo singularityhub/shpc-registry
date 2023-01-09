@@ -6,8 +6,9 @@ description: Take fMRI data and generates ROI based MultiVariate Pattern Analysi
 latest:
   v4.0.1: sha256:e29fbce4e72f4dc53fcada1ddeb2e7bfc8ef7f696b5b6ac8492c9d0689ce8e5d
 tags:
-  latest: sha256:e29fbce4e72f4dc53fcada1ddeb2e7bfc8ef7f696b5b6ac8492c9d0689ce8e5d
-  v2.0.2: sha256:0bd0614a5a2ce1d1d0a4e73a2038aea42858fc681a5eaf254697fedf561ee62a
+  latest: sha256:6d6487b2c548d336a4758aa371ce2adb630255c46f59aeac550a2fc94dc24e9c
+  v2.0.2: sha256:6d6487b2c548d336a4758aa371ce2adb630255c46f59aeac550a2fc94dc24e9c
   v4.0.1: sha256:e29fbce4e72f4dc53fcada1ddeb2e7bfc8ef7f696b5b6ac8492c9d0689ce8e5d
+  unstable: sha256:6d6487b2c548d336a4758aa371ce2adb630255c46f59aeac550a2fc94dc24e9c
 filter:
 - v*
