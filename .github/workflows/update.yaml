@@ -1,4 +1,4 @@
-name: 'Update Containers'
+name: shpc update containers
 
 on:
   workflow_dispatch:

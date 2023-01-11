@@ -1,4 +1,4 @@
-name: 'Generate New Container'
+name: shpc new recipe manual
 
 on:
    workflow_dispatch: 
