@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/container.yaml"
-updated_at: "2022-12-19 03:05:26.074114"
-latest: "2.99.0--r41hdfd78af_9"
+updated_at: "2023-01-11 20:09:23.732041"
+latest: "2.99.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v79"
 
 versions:
  - "2.99.0--r41hdfd78af_9"
+ - "2.99.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-ensdb.rnorvegicus.v79"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v79", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.rnorvegicus.v79", "latest": {"2.99.0--r41hdfd78af_9": "sha256:090de2ffe6715859c56cb106fc9389aab579be66c464d026cd3bf95e2ad1a3a6"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:090de2ffe6715859c56cb106fc9389aab579be66c464d026cd3bf95e2ad1a3a6"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v79", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.rnorvegicus.v79", "latest": {"2.99.0--r42hdfd78af_10": "sha256:42012ef16c8c850c81bb2bfe697121670f5d222f6239e4af50c0aa22ff472d5b"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:090de2ffe6715859c56cb106fc9389aab579be66c464d026cd3bf95e2ad1a3a6", "2.99.0--r42hdfd78af_10": "sha256:42012ef16c8c850c81bb2bfe697121670f5d222f6239e4af50c0aa22ff472d5b"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79:2.99.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79:2.99.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/2.99.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/2.99.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/2.99.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/2.99.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

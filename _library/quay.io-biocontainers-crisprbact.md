@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crisprbact"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprbact/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisprbact/container.yaml"
-updated_at: "2022-12-19 02:56:49.220140"
-latest: "0.3.9--py_0"
+updated_at: "2023-01-11 19:58:02.116670"
+latest: "0.3.11--py_0"
 container_url: "https://biocontainers.pro/tools/crisprbact"
 aliases:
  - "crisprbact"
@@ -24,8 +24,9 @@ aliases:
  - "dbus-update-activation-environment"
 versions:
  - "0.3.9--py_0"
+ - "0.3.11--py_0"
 description: "shpc-registry automated BioContainers addition for crisprbact"
-config: {"url": "https://biocontainers.pro/tools/crisprbact", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crisprbact", "latest": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def"}, "tags": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def"}, "docker": "quay.io/biocontainers/crisprbact", "aliases": {"crisprbact": "/usr/local/bin/crisprbact", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
+config: {"url": "https://biocontainers.pro/tools/crisprbact", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crisprbact", "latest": {"0.3.11--py_0": "sha256:d6cc16e120db7445de13aa6823add9e8c95ed2362624c82f027d3951bdbd3004"}, "tags": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def", "0.3.11--py_0": "sha256:d6cc16e120db7445de13aa6823add9e8c95ed2362624c82f027d3951bdbd3004"}, "docker": "quay.io/biocontainers/crisprbact", "aliases": {"crisprbact": "/usr/local/bin/crisprbact", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crisprbact.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/crisprbact
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crisprbact:0.3.9--py_0
+$ shpc install quay.io/biocontainers/crisprbact:0.3.11--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crisprbact/0.3.9--py_0
-$ module help quay.io/biocontainers/crisprbact/0.3.9--py_0
+$ module load quay.io/biocontainers/crisprbact/0.3.11--py_0
+$ module help quay.io/biocontainers/crisprbact/0.3.11--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

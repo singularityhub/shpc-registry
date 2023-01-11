@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-vtpnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vtpnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vtpnet/container.yaml"
-updated_at: "2022-12-19 03:20:48.352368"
-latest: "0.34.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:29:00.923176"
+latest: "0.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vtpnet"
 
 versions:
  - "0.34.0--r41hdfd78af_0"
+ - "0.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vtpnet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vtpnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vtpnet", "latest": {"0.34.0--r41hdfd78af_0": "sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4"}, "tags": {"0.34.0--r41hdfd78af_0": "sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4"}, "docker": "quay.io/biocontainers/bioconductor-vtpnet"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vtpnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vtpnet", "latest": {"0.38.0--r42hdfd78af_0": "sha256:9db144074136c327f0b0355b85b983cd5b9af3b5b255b8463d1c7e9df1046fc2"}, "tags": {"0.34.0--r41hdfd78af_0": "sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4", "0.38.0--r42hdfd78af_0": "sha256:9db144074136c327f0b0355b85b983cd5b9af3b5b255b8463d1c7e9df1046fc2"}, "docker": "quay.io/biocontainers/bioconductor-vtpnet"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vtpnet.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vtpnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vtpnet:0.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-vtpnet:0.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vtpnet/0.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-vtpnet/0.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-vtpnet/0.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-vtpnet/0.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

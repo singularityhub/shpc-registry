@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cliprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cliprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cliprofiler/container.yaml"
-updated_at: "2022-12-19 03:34:39.875764"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:46:30.420211"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cliprofiler"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cliprofiler"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cliprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cliprofiler", "latest": {"1.0.0--r41hdfd78af_0": "sha256:0cc4a207d3a707227079d9f0dfdf44aa7e6af714f48124d3234502af05aa7d56"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:0cc4a207d3a707227079d9f0dfdf44aa7e6af714f48124d3234502af05aa7d56"}, "docker": "quay.io/biocontainers/bioconductor-cliprofiler"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cliprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cliprofiler", "latest": {"1.4.0--r42hdfd78af_0": "sha256:203926549368371b87417d009bff623b93fb5dcab41dec68b9eec2eb81d51338"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:0cc4a207d3a707227079d9f0dfdf44aa7e6af714f48124d3234502af05aa7d56", "1.4.0--r42hdfd78af_0": "sha256:203926549368371b87417d009bff623b93fb5dcab41dec68b9eec2eb81d51338"}, "docker": "quay.io/biocontainers/bioconductor-cliprofiler"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cliprofiler.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cliprofiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cliprofiler:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cliprofiler:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cliprofiler/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cliprofiler/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cliprofiler/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cliprofiler/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

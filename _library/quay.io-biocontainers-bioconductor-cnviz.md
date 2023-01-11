@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cnviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnviz/container.yaml"
-updated_at: "2022-12-19 02:58:21.674035"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:00:04.946391"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnviz"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnviz", "latest": {"1.2.0--r41hdfd78af_0": "sha256:5ba1ba9d59bd30f007cdd1a69e05e7aef32ef70235021b0931e042495fb7914a"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:5ba1ba9d59bd30f007cdd1a69e05e7aef32ef70235021b0931e042495fb7914a"}, "docker": "quay.io/biocontainers/bioconductor-cnviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnviz", "latest": {"1.6.0--r42hdfd78af_0": "sha256:b827daa16ec86d530a309bbc51d499c9cc78e528dd1380239e8b3f17ae29f7d0"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:5ba1ba9d59bd30f007cdd1a69e05e7aef32ef70235021b0931e042495fb7914a", "1.6.0--r42hdfd78af_0": "sha256:b827daa16ec86d530a309bbc51d499c9cc78e528dd1380239e8b3f17ae29f7d0"}, "docker": "quay.io/biocontainers/bioconductor-cnviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnviz.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnviz:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cnviz:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnviz/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cnviz/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cnviz/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cnviz/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

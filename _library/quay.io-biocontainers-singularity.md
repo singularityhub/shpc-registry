@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/singularity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/singularity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/singularity/container.yaml"
-updated_at: "2022-12-19 03:31:15.882827"
-latest: "3.5.3"
+updated_at: "2023-01-11 20:42:17.299295"
+latest: "3.8.6"
 container_url: "https://biocontainers.pro/tools/singularity"
 aliases:
  - "bsdcat"
@@ -25,8 +25,9 @@ aliases:
  - "unsquashfs"
 versions:
  - "3.5.3"
+ - "3.8.6"
 description: "shpc-registry automated BioContainers addition for singularity"
-config: {"url": "https://biocontainers.pro/tools/singularity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for singularity", "latest": {"3.5.3": "sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f"}, "tags": {"3.5.3": "sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f"}, "docker": "quay.io/biocontainers/singularity", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "cnitool": "/usr/local/bin/cnitool", "docker-run.sh": "/usr/local/bin/docker-run.sh", "exec-plugins.sh": "/usr/local/bin/exec-plugins.sh", "jq": "/usr/local/bin/jq", "mksquashfs": "/usr/local/bin/mksquashfs", "onig-config": "/usr/local/bin/onig-config", "priv-net-run.sh": "/usr/local/bin/priv-net-run.sh", "release.sh": "/usr/local/bin/release.sh", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "unsquashfs": "/usr/local/bin/unsquashfs"}}
+config: {"url": "https://biocontainers.pro/tools/singularity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for singularity", "latest": {"3.8.6": "sha256:406ddd780aadf667504d4fb91e46a1f5f9eedd77b9dca50adecab603a702384a"}, "tags": {"3.5.3": "sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f", "3.8.6": "sha256:406ddd780aadf667504d4fb91e46a1f5f9eedd77b9dca50adecab603a702384a"}, "docker": "quay.io/biocontainers/singularity", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "cnitool": "/usr/local/bin/cnitool", "docker-run.sh": "/usr/local/bin/docker-run.sh", "exec-plugins.sh": "/usr/local/bin/exec-plugins.sh", "jq": "/usr/local/bin/jq", "mksquashfs": "/usr/local/bin/mksquashfs", "onig-config": "/usr/local/bin/onig-config", "priv-net-run.sh": "/usr/local/bin/priv-net-run.sh", "release.sh": "/usr/local/bin/release.sh", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "unsquashfs": "/usr/local/bin/unsquashfs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/singularity.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/singularity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/singularity:3.5.3
+$ shpc install quay.io/biocontainers/singularity:3.8.6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/singularity/3.5.3
-$ module help quay.io/biocontainers/singularity/3.5.3
+$ module load quay.io/biocontainers/singularity/3.8.6
+$ module help quay.io/biocontainers/singularity/3.8.6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ade4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ade4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ade4/container.yaml"
-updated_at: "2022-12-19 03:41:05.743829"
-latest: "1.7_2--r3.2.2_0"
+updated_at: "2023-01-11 20:54:46.460749"
+latest: "1.7_11--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-ade4"
 aliases:
  - "pngcp"
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.7_2--r3.2.2_0"
+ - "1.7_11--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-ade4"
-config: {"url": "https://biocontainers.pro/tools/r-ade4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ade4", "latest": {"1.7_2--r3.2.2_0": "sha256:4fd856b7fa42fcd41639cbcb55567e38880cf49e12653c83dfe86a119206c295"}, "tags": {"1.7_2--r3.2.2_0": "sha256:4fd856b7fa42fcd41639cbcb55567e38880cf49e12653c83dfe86a119206c295"}, "docker": "quay.io/biocontainers/r-ade4", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ade4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ade4", "latest": {"1.7_11--r3.4.1_0": "sha256:0c8e0888d275b739885dda6357952a73a75d2d1254c2ec345b60405aac328a94"}, "tags": {"1.7_2--r3.2.2_0": "sha256:4fd856b7fa42fcd41639cbcb55567e38880cf49e12653c83dfe86a119206c295", "1.7_11--r3.4.1_0": "sha256:0c8e0888d275b739885dda6357952a73a75d2d1254c2ec345b60405aac328a94"}, "docker": "quay.io/biocontainers/r-ade4", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ade4.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-ade4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ade4:1.7_2--r3.2.2_0
+$ shpc install quay.io/biocontainers/r-ade4:1.7_11--r3.4.1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ade4/1.7_2--r3.2.2_0
-$ module help quay.io/biocontainers/r-ade4/1.7_2--r3.2.2_0
+$ module load quay.io/biocontainers/r-ade4/1.7_11--r3.4.1_0
+$ module help quay.io/biocontainers/r-ade4/1.7_11--r3.4.1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

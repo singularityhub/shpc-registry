@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-screpertoire"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-screpertoire/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-screpertoire/container.yaml"
-updated_at: "2022-12-19 02:49:11.813704"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:47:55.378986"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-screpertoire"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-screpertoire"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-screpertoire", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-screpertoire", "latest": {"1.4.0--r41hdfd78af_0": "sha256:cea0fd8c6f3618cbfc24cd1d3f6971dbf51b59e32ea8c716728e3f5f4372a4dd"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:cea0fd8c6f3618cbfc24cd1d3f6971dbf51b59e32ea8c716728e3f5f4372a4dd"}, "docker": "quay.io/biocontainers/bioconductor-screpertoire"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-screpertoire", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-screpertoire", "latest": {"1.8.0--r42hdfd78af_0": "sha256:a196af18e3bf0bf7a40dfda4fccb96baf44ce3a8406b6315dc1235f6b51088df"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:cea0fd8c6f3618cbfc24cd1d3f6971dbf51b59e32ea8c716728e3f5f4372a4dd", "1.8.0--r42hdfd78af_0": "sha256:a196af18e3bf0bf7a40dfda4fccb96baf44ce3a8406b6315dc1235f6b51088df"}, "docker": "quay.io/biocontainers/bioconductor-screpertoire"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-screpertoire.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-screpertoire
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-screpertoire:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-screpertoire:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-screpertoire/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-screpertoire/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-screpertoire/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-screpertoire/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-twilight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-twilight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-twilight/container.yaml"
-updated_at: "2022-12-19 03:37:35.486983"
-latest: "1.70.0--r41hc0cfd56_2"
+updated_at: "2023-01-11 20:50:13.247049"
+latest: "1.74.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-twilight"
 
 versions:
  - "1.70.0--r41hc0cfd56_2"
+ - "1.74.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-twilight"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-twilight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-twilight", "latest": {"1.70.0--r41hc0cfd56_2": "sha256:85a3e35535a9c21b1c26e8118383160b96d6c1595e9da612df71a64317bee280"}, "tags": {"1.70.0--r41hc0cfd56_2": "sha256:85a3e35535a9c21b1c26e8118383160b96d6c1595e9da612df71a64317bee280"}, "docker": "quay.io/biocontainers/bioconductor-twilight"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-twilight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-twilight", "latest": {"1.74.0--r42hc0cfd56_0": "sha256:d71deb42fdee884471ae6ecaecded1e5b56953e918a8a5b827d22130d406514a"}, "tags": {"1.70.0--r41hc0cfd56_2": "sha256:85a3e35535a9c21b1c26e8118383160b96d6c1595e9da612df71a64317bee280", "1.74.0--r42hc0cfd56_0": "sha256:d71deb42fdee884471ae6ecaecded1e5b56953e918a8a5b827d22130d406514a"}, "docker": "quay.io/biocontainers/bioconductor-twilight"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-twilight.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-twilight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-twilight:1.70.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-twilight:1.74.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-twilight/1.70.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-twilight/1.70.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-twilight/1.74.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-twilight/1.74.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

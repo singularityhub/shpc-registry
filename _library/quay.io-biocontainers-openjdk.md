@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openjdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openjdk/container.yaml"
-updated_at: "2022-12-19 03:07:04.257765"
-latest: "8.0.121"
+updated_at: "2023-01-11 20:11:27.825324"
+latest: "11.0.1"
 container_url: "https://biocontainers.pro/tools/openjdk"
 aliases:
  - "extcheck"
@@ -20,8 +20,9 @@ aliases:
  - "orbd"
 versions:
  - "8.0.121"
+ - "11.0.1"
 description: "shpc-registry automated BioContainers addition for openjdk"
-config: {"url": "https://biocontainers.pro/tools/openjdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openjdk", "latest": {"8.0.121": "sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9"}, "tags": {"8.0.121": "sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9"}, "docker": "quay.io/biocontainers/openjdk", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/openjdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openjdk", "latest": {"11.0.1": "sha256:54db07c51814a7d33c8b5f0a8cecec1a1d7ca08125748a8d3c2679bd23188be0"}, "tags": {"8.0.121": "sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9", "11.0.1": "sha256:54db07c51814a7d33c8b5f0a8cecec1a1d7ca08125748a8d3c2679bd23188be0"}, "docker": "quay.io/biocontainers/openjdk", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openjdk.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/openjdk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/openjdk:8.0.121
+$ shpc install quay.io/biocontainers/openjdk:11.0.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/openjdk/8.0.121
-$ module help quay.io/biocontainers/openjdk/8.0.121
+$ module load quay.io/biocontainers/openjdk/11.0.1
+$ module help quay.io/biocontainers/openjdk/11.0.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

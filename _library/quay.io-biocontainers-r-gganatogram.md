@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-gganatogram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gganatogram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gganatogram/container.yaml"
-updated_at: "2022-12-19 02:52:01.658619"
-latest: "0.0.1--r41hdfd78af_0"
+updated_at: "2023-01-11 19:51:41.442119"
+latest: "0.0.1--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-gganatogram"
 
 versions:
  - "0.0.1--r41hdfd78af_0"
+ - "0.0.1--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-gganatogram"
-config: {"url": "https://biocontainers.pro/tools/r-gganatogram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gganatogram", "latest": {"0.0.1--r41hdfd78af_0": "sha256:1ba3f62bc5c3bc1e0aeb8b24951efa4314a5126c5bb094bb88b17ff0871f491e"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:1ba3f62bc5c3bc1e0aeb8b24951efa4314a5126c5bb094bb88b17ff0871f491e"}, "docker": "quay.io/biocontainers/r-gganatogram"}
+config: {"url": "https://biocontainers.pro/tools/r-gganatogram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gganatogram", "latest": {"0.0.1--r42hdfd78af_1": "sha256:c8f55d1b28b626ddc69318ebc183265a4dee149e4f4eeba0af552293004371e7"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:1ba3f62bc5c3bc1e0aeb8b24951efa4314a5126c5bb094bb88b17ff0871f491e", "0.0.1--r42hdfd78af_1": "sha256:c8f55d1b28b626ddc69318ebc183265a4dee149e4f4eeba0af552293004371e7"}, "docker": "quay.io/biocontainers/r-gganatogram"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gganatogram.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-gganatogram
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gganatogram:0.0.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-gganatogram:0.0.1--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gganatogram/0.0.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-gganatogram/0.0.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-gganatogram/0.0.1--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-gganatogram/0.0.1--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

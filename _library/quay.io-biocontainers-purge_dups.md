@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/purge_dups"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/purge_dups/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/purge_dups/container.yaml"
-updated_at: "2022-12-19 02:46:34.611128"
-latest: "1.2.6--h7132678_0"
+updated_at: "2023-01-11 19:44:31.206080"
+latest: "1.2.6--py39h7132678_1"
 container_url: "https://biocontainers.pro/tools/purge_dups"
 aliases:
  - "calcuts"
@@ -20,8 +20,9 @@ aliases:
  - "k8"
 versions:
  - "1.2.6--h7132678_0"
+ - "1.2.6--py39h7132678_1"
 description: "shpc-registry automated BioContainers addition for purge_dups"
-config: {"url": "https://biocontainers.pro/tools/purge_dups", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for purge_dups", "latest": {"1.2.6--h7132678_0": "sha256:37b9aa9084c2486c98159830170a94a403e07c1a7760d45bbe2c4b4c3edb3696"}, "tags": {"1.2.6--h7132678_0": "sha256:37b9aa9084c2486c98159830170a94a403e07c1a7760d45bbe2c4b4c3edb3696"}, "docker": "quay.io/biocontainers/purge_dups", "aliases": {"calcuts": "/usr/local/bin/calcuts", "get_seqs": "/usr/local/bin/get_seqs", "ngscstat": "/usr/local/bin/ngscstat", "pbcstat": "/usr/local/bin/pbcstat", "purge_dups": "/usr/local/bin/purge_dups", "split_fa": "/usr/local/bin/split_fa", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/purge_dups", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for purge_dups", "latest": {"1.2.6--py39h7132678_1": "sha256:52094ca5831f19e9b410949bce3ce7c410bd9fd21cd4392e22ca68cf9b708ab4"}, "tags": {"1.2.6--h7132678_0": "sha256:37b9aa9084c2486c98159830170a94a403e07c1a7760d45bbe2c4b4c3edb3696", "1.2.6--py39h7132678_1": "sha256:52094ca5831f19e9b410949bce3ce7c410bd9fd21cd4392e22ca68cf9b708ab4"}, "docker": "quay.io/biocontainers/purge_dups", "aliases": {"calcuts": "/usr/local/bin/calcuts", "get_seqs": "/usr/local/bin/get_seqs", "ngscstat": "/usr/local/bin/ngscstat", "pbcstat": "/usr/local/bin/pbcstat", "purge_dups": "/usr/local/bin/purge_dups", "split_fa": "/usr/local/bin/split_fa", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/purge_dups.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/purge_dups
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/purge_dups:1.2.6--h7132678_0
+$ shpc install quay.io/biocontainers/purge_dups:1.2.6--py39h7132678_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/purge_dups/1.2.6--h7132678_0
-$ module help quay.io/biocontainers/purge_dups/1.2.6--h7132678_0
+$ module load quay.io/biocontainers/purge_dups/1.2.6--py39h7132678_1
+$ module help quay.io/biocontainers/purge_dups/1.2.6--py39h7132678_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-targetsearchdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetsearchdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetsearchdata/container.yaml"
-updated_at: "2022-12-19 03:23:26.583675"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2023-01-11 20:32:22.263574"
+latest: "1.35.2--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetsearchdata"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.35.2--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-targetsearchdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-targetsearchdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetsearchdata", "latest": {"1.32.0--r41hdfd78af_1": "sha256:4fbc3e52139c59f159633c3e677c175936844d4d423b06984a63557ad6c75684"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:4fbc3e52139c59f159633c3e677c175936844d4d423b06984a63557ad6c75684"}, "docker": "quay.io/biocontainers/bioconductor-targetsearchdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-targetsearchdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetsearchdata", "latest": {"1.35.2--r42hdfd78af_0": "sha256:2a6e120a40d569c5d8457b43c163a979ac63170dd1b6771a9531ab31aeee39b6"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:4fbc3e52139c59f159633c3e677c175936844d4d423b06984a63557ad6c75684", "1.35.2--r42hdfd78af_0": "sha256:2a6e120a40d569c5d8457b43c163a979ac63170dd1b6771a9531ab31aeee39b6"}, "docker": "quay.io/biocontainers/bioconductor-targetsearchdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-targetsearchdata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-targetsearchdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-targetsearchdata:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-targetsearchdata:1.35.2--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-targetsearchdata/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-targetsearchdata/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-targetsearchdata/1.35.2--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-targetsearchdata/1.35.2--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

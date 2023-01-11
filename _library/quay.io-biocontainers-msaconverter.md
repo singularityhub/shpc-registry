@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msaconverter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaconverter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msaconverter/container.yaml"
-updated_at: "2022-12-19 02:44:41.947625"
-latest: "0.0.2--pyhdfd78af_0"
+updated_at: "2023-01-11 19:42:07.557451"
+latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msaconverter"
 aliases:
  - "msaconverter"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.0.2--pyhdfd78af_0"
+ - "0.0.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for msaconverter"
-config: {"url": "https://biocontainers.pro/tools/msaconverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaconverter", "latest": {"0.0.2--pyhdfd78af_0": "sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1"}, "docker": "quay.io/biocontainers/msaconverter", "aliases": {"msaconverter": "/usr/local/bin/msaconverter", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/msaconverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaconverter", "latest": {"0.0.4--pyhdfd78af_0": "sha256:8f2331eb6b49e043b7291d1983e6766f32f0ec69e62d5ae40168b1ba5a199e2c"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1", "0.0.4--pyhdfd78af_0": "sha256:8f2331eb6b49e043b7291d1983e6766f32f0ec69e62d5ae40168b1ba5a199e2c"}, "docker": "quay.io/biocontainers/msaconverter", "aliases": {"msaconverter": "/usr/local/bin/msaconverter", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msaconverter.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/msaconverter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msaconverter:0.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/msaconverter:0.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msaconverter/0.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/msaconverter/0.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/msaconverter/0.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/msaconverter/0.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

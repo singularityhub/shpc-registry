@@ -4,15 +4,16 @@ name:  "ghcr.io/autamus/precice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/precice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/precice/container.yaml"
-updated_at: "2022-12-19 02:43:28.111750"
-latest: "2.3.0"
+updated_at: "2023-01-11 19:40:33.094697"
+latest: "2.5.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/precice"
 
 versions:
  - "2.3.0"
  - "latest"
+ - "2.5.0"
 description: "preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations."
-config: {"docker": "ghcr.io/autamus/precice", "url": "https://github.com/orgs/autamus/packages/container/package/precice", "maintainer": "@vsoch", "description": "preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations.", "latest": {"2.3.0": "sha256:db852191deef9d69768eef52d0740d8fd9c401a0c8dff50c68d28c01e3c461d9"}, "tags": {"2.3.0": "sha256:db852191deef9d69768eef52d0740d8fd9c401a0c8dff50c68d28c01e3c461d9", "latest": "sha256:db852191deef9d69768eef52d0740d8fd9c401a0c8dff50c68d28c01e3c461d9"}}
+config: {"docker": "ghcr.io/autamus/precice", "url": "https://github.com/orgs/autamus/packages/container/package/precice", "maintainer": "@vsoch", "description": "preCICE (Precise Code Interaction Coupling Environment) is a coupling library for partitioned multi-physics simulations.", "latest": {"2.5.0": "sha256:3fe9ff151539e8b39167a4975e081b9354f08952f81698297791af04fa4cbee1"}, "tags": {"2.3.0": "sha256:db852191deef9d69768eef52d0740d8fd9c401a0c8dff50c68d28c01e3c461d9", "latest": "sha256:3fe9ff151539e8b39167a4975e081b9354f08952f81698297791af04fa4cbee1", "2.5.0": "sha256:3fe9ff151539e8b39167a4975e081b9354f08952f81698297791af04fa4cbee1"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/precice.
@@ -27,7 +28,7 @@ $ shpc install ghcr.io/autamus/precice
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/precice:2.3.0
+$ shpc install ghcr.io/autamus/precice:2.5.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/precice/2.3.0
-$ module help ghcr.io/autamus/precice/2.3.0
+$ module load ghcr.io/autamus/precice/2.5.0
+$ module help ghcr.io/autamus/precice/2.5.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

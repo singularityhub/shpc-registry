@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-pscbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pscbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pscbs/container.yaml"
-updated_at: "2022-12-19 02:50:55.781410"
-latest: "0.66.0--r41h3121a25_0"
+updated_at: "2023-01-11 19:50:13.702925"
+latest: "0.66.0--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-pscbs"
 
 versions:
  - "0.66.0--r41h3121a25_0"
+ - "0.66.0--r42h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-pscbs"
-config: {"url": "https://biocontainers.pro/tools/r-pscbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pscbs", "latest": {"0.66.0--r41h3121a25_0": "sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622"}, "tags": {"0.66.0--r41h3121a25_0": "sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622"}, "docker": "quay.io/biocontainers/r-pscbs"}
+config: {"url": "https://biocontainers.pro/tools/r-pscbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pscbs", "latest": {"0.66.0--r42h3121a25_1": "sha256:1224df9657373c8a0b3085b26d93196ad61b45f03edf970348e1f0e31495f20a"}, "tags": {"0.66.0--r41h3121a25_0": "sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622", "0.66.0--r42h3121a25_1": "sha256:1224df9657373c8a0b3085b26d93196ad61b45f03edf970348e1f0e31495f20a"}, "docker": "quay.io/biocontainers/r-pscbs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pscbs.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-pscbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pscbs:0.66.0--r41h3121a25_0
+$ shpc install quay.io/biocontainers/r-pscbs:0.66.0--r42h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pscbs/0.66.0--r41h3121a25_0
-$ module help quay.io/biocontainers/r-pscbs/0.66.0--r41h3121a25_0
+$ module load quay.io/biocontainers/r-pscbs/0.66.0--r42h3121a25_1
+$ module help quay.io/biocontainers/r-pscbs/0.66.0--r42h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

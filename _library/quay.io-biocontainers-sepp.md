@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/sepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sepp/container.yaml"
-updated_at: "2022-12-19 03:16:57.192167"
-latest: "v4.5.0--py37_0"
+updated_at: "2023-01-11 20:24:09.962743"
+latest: "4.5.1--py37he4bd417_1"
 container_url: "https://biocontainers.pro/tools/sepp"
 
 versions:
  - "v4.5.0--py37_0"
+ - "4.5.1--py37he4bd417_1"
 description: "shpc-registry automated BioContainers addition for sepp"
-config: {"url": "https://biocontainers.pro/tools/sepp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp", "latest": {"v4.5.0--py37_0": "sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707"}, "tags": {"v4.5.0--py37_0": "sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707"}, "docker": "quay.io/biocontainers/sepp"}
+config: {"url": "https://biocontainers.pro/tools/sepp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp", "latest": {"4.5.1--py37he4bd417_1": "sha256:4c8d644c35724da9b40c63cf5b23a0a01290a0b05460c7d4c01d3b7cef83e055"}, "tags": {"v4.5.0--py37_0": "sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707", "4.5.1--py37he4bd417_1": "sha256:4c8d644c35724da9b40c63cf5b23a0a01290a0b05460c7d4c01d3b7cef83e055"}, "docker": "quay.io/biocontainers/sepp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sepp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/sepp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sepp:v4.5.0--py37_0
+$ shpc install quay.io/biocontainers/sepp:4.5.1--py37he4bd417_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sepp/v4.5.0--py37_0
-$ module help quay.io/biocontainers/sepp/v4.5.0--py37_0
+$ module load quay.io/biocontainers/sepp/4.5.1--py37he4bd417_1
+$ module help quay.io/biocontainers/sepp/4.5.1--py37he4bd417_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

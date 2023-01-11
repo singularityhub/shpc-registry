@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmergenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmergenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmergenie/container.yaml"
-updated_at: "2022-12-19 03:38:28.841937"
+updated_at: "2023-01-11 20:51:22.745814"
 latest: "1.7051--py39r41h2add14b_3"
 container_url: "https://biocontainers.pro/tools/kmergenie"
 aliases:

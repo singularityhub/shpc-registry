@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-dks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dks/container.yaml"
-updated_at: "2022-12-19 02:45:43.140814"
-latest: "1.40.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:43:25.645741"
+latest: "1.44.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dks"
 
 versions:
  - "1.40.0--r41hdfd78af_0"
+ - "1.44.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dks"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dks", "latest": {"1.40.0--r41hdfd78af_0": "sha256:7b41b7fc6128ae3b1f5e472664397dfa7318997c07bf9786ee45cc02da6114af"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:7b41b7fc6128ae3b1f5e472664397dfa7318997c07bf9786ee45cc02da6114af"}, "docker": "quay.io/biocontainers/bioconductor-dks"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dks", "latest": {"1.44.0--r42hdfd78af_0": "sha256:6f9bc57af796b8141ecadf247389b94c815896c948572c2413cc4348487d76d3"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:7b41b7fc6128ae3b1f5e472664397dfa7318997c07bf9786ee45cc02da6114af", "1.44.0--r42hdfd78af_0": "sha256:6f9bc57af796b8141ecadf247389b94c815896c948572c2413cc4348487d76d3"}, "docker": "quay.io/biocontainers/bioconductor-dks"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dks.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dks:1.40.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dks:1.44.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dks/1.40.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dks/1.40.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dks/1.44.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dks/1.44.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

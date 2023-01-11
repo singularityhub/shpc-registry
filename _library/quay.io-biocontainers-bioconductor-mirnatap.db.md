@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-mirnatap.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirnatap.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirnatap.db/container.yaml"
-updated_at: "2022-12-19 03:35:43.533899"
-latest: "0.99.10--r40hdfd78af_9"
+updated_at: "2023-01-11 20:47:49.873927"
+latest: "0.99.10--r42hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirnatap.db"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.99.10--r40hdfd78af_9"
+ - "0.99.10--r42hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirnatap.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirnatap.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirnatap.db", "latest": {"0.99.10--r40hdfd78af_9": "sha256:b3ee070a7fca2719a8184e637f1bc17fed0030f16da827dc381774279061ba1c"}, "tags": {"0.99.10--r40hdfd78af_9": "sha256:b3ee070a7fca2719a8184e637f1bc17fed0030f16da827dc381774279061ba1c"}, "docker": "quay.io/biocontainers/bioconductor-mirnatap.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirnatap.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirnatap.db", "latest": {"0.99.10--r42hdfd78af_13": "sha256:5be392db3f746ae4f9dde2a8f40235546cfb540f93dc00ea17179937c1cffad9"}, "tags": {"0.99.10--r40hdfd78af_9": "sha256:b3ee070a7fca2719a8184e637f1bc17fed0030f16da827dc381774279061ba1c", "0.99.10--r42hdfd78af_13": "sha256:5be392db3f746ae4f9dde2a8f40235546cfb540f93dc00ea17179937c1cffad9"}, "docker": "quay.io/biocontainers/bioconductor-mirnatap.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirnatap.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirnatap.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirnatap.db:0.99.10--r40hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-mirnatap.db:0.99.10--r42hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirnatap.db/0.99.10--r40hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-mirnatap.db/0.99.10--r40hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-mirnatap.db/0.99.10--r42hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-mirnatap.db/0.99.10--r42hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

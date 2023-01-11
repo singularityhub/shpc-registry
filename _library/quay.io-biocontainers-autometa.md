@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/autometa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autometa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autometa/container.yaml"
-updated_at: "2022-12-19 03:02:14.093534"
-latest: "2.1.0--pyh5e36f6f_0"
+updated_at: "2023-01-11 20:05:15.555248"
+latest: "2.2.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/autometa"
 aliases:
  - "autometa"
@@ -41,8 +41,9 @@ aliases:
  - "parsort"
 versions:
  - "2.1.0--pyh5e36f6f_0"
+ - "2.2.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for autometa"
-config: {"url": "https://biocontainers.pro/tools/autometa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for autometa", "latest": {"2.1.0--pyh5e36f6f_0": "sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4"}, "tags": {"2.1.0--pyh5e36f6f_0": "sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4"}, "docker": "quay.io/biocontainers/autometa", "aliases": {"autometa": "/usr/local/bin/autometa", "autometa-bedtools-genomecov": "/usr/local/bin/autometa-bedtools-genomecov", "autometa-benchmark": "/usr/local/bin/autometa-benchmark", "autometa-binning": "/usr/local/bin/autometa-binning", "autometa-binning-ldm": "/usr/local/bin/autometa-binning-ldm", "autometa-binning-ldm-loginfo": "/usr/local/bin/autometa-binning-ldm-loginfo", "autometa-binning-summary": "/usr/local/bin/autometa-binning-summary", "autometa-config": "/usr/local/bin/autometa-config", "autometa-coverage": "/usr/local/bin/autometa-coverage", "autometa-download-dataset": "/usr/local/bin/autometa-download-dataset", "autometa-hmmsearch-filter": "/usr/local/bin/autometa-hmmsearch-filter", "autometa-kmers": "/usr/local/bin/autometa-kmers", "autometa-length-filter": "/usr/local/bin/autometa-length-filter", "autometa-markers": "/usr/local/bin/autometa-markers", "autometa-orfs": "/usr/local/bin/autometa-orfs", "autometa-taxonomy": "/usr/local/bin/autometa-taxonomy", "autometa-taxonomy-lca": "/usr/local/bin/autometa-taxonomy-lca", "autometa-taxonomy-majority-vote": "/usr/local/bin/autometa-taxonomy-majority-vote", "autometa-unclustered-recruitment": "/usr/local/bin/autometa-unclustered-recruitment", "autometa-update-databases": "/usr/local/bin/autometa-update-databases", "gdown": "/usr/local/bin/gdown", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "diamond": "/usr/local/bin/diamond", "parsort": "/usr/local/bin/parsort"}}
+config: {"url": "https://biocontainers.pro/tools/autometa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for autometa", "latest": {"2.2.0--pyh7cba7a3_0": "sha256:3ee6969901c532b8736bc8bfd16739695751da870487ef8b6747be0a477df689"}, "tags": {"2.1.0--pyh5e36f6f_0": "sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4", "2.2.0--pyh7cba7a3_0": "sha256:3ee6969901c532b8736bc8bfd16739695751da870487ef8b6747be0a477df689"}, "docker": "quay.io/biocontainers/autometa", "aliases": {"autometa": "/usr/local/bin/autometa", "autometa-bedtools-genomecov": "/usr/local/bin/autometa-bedtools-genomecov", "autometa-benchmark": "/usr/local/bin/autometa-benchmark", "autometa-binning": "/usr/local/bin/autometa-binning", "autometa-binning-ldm": "/usr/local/bin/autometa-binning-ldm", "autometa-binning-ldm-loginfo": "/usr/local/bin/autometa-binning-ldm-loginfo", "autometa-binning-summary": "/usr/local/bin/autometa-binning-summary", "autometa-config": "/usr/local/bin/autometa-config", "autometa-coverage": "/usr/local/bin/autometa-coverage", "autometa-download-dataset": "/usr/local/bin/autometa-download-dataset", "autometa-hmmsearch-filter": "/usr/local/bin/autometa-hmmsearch-filter", "autometa-kmers": "/usr/local/bin/autometa-kmers", "autometa-length-filter": "/usr/local/bin/autometa-length-filter", "autometa-markers": "/usr/local/bin/autometa-markers", "autometa-orfs": "/usr/local/bin/autometa-orfs", "autometa-taxonomy": "/usr/local/bin/autometa-taxonomy", "autometa-taxonomy-lca": "/usr/local/bin/autometa-taxonomy-lca", "autometa-taxonomy-majority-vote": "/usr/local/bin/autometa-taxonomy-majority-vote", "autometa-unclustered-recruitment": "/usr/local/bin/autometa-unclustered-recruitment", "autometa-update-databases": "/usr/local/bin/autometa-update-databases", "gdown": "/usr/local/bin/gdown", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "diamond": "/usr/local/bin/diamond", "parsort": "/usr/local/bin/parsort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autometa.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/autometa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/autometa:2.1.0--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/autometa:2.2.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/autometa/2.1.0--pyh5e36f6f_0
-$ module help quay.io/biocontainers/autometa/2.1.0--pyh5e36f6f_0
+$ module load quay.io/biocontainers/autometa/2.2.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/autometa/2.2.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-annotationfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotationfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotationfilter/container.yaml"
-updated_at: "2022-12-19 03:27:11.838992"
-latest: "1.8.0--r36_1"
+updated_at: "2023-01-11 20:37:10.550080"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotationfilter"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotationfilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationfilter", "latest": {"1.8.0--r36_1": "sha256:60902f3ca3ca936238033978957d4c579fc4a2d1ee7669752efab9bf6c3e8c5b"}, "tags": {"1.8.0--r36_1": "sha256:60902f3ca3ca936238033978957d4c579fc4a2d1ee7669752efab9bf6c3e8c5b"}, "docker": "quay.io/biocontainers/bioconductor-annotationfilter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationfilter", "latest": {"1.22.0--r42hdfd78af_0": "sha256:99aa0f2334803c8ee3f8a459560817c3d15c096d2314529954e736d00ae09be3"}, "tags": {"1.8.0--r36_1": "sha256:60902f3ca3ca936238033978957d4c579fc4a2d1ee7669752efab9bf6c3e8c5b", "1.22.0--r42hdfd78af_0": "sha256:99aa0f2334803c8ee3f8a459560817c3d15c096d2314529954e736d00ae09be3", "1.18.0--r41hdfd78af_0": "sha256:c0bf5695a813999e61488594616dee63357c4759301a4b0603fa105ca37b759c", "1.16.0--r41hdfd78af_0": "sha256:692f331601b69c8ba09e7def0f8bbc68f6c0d5b825539c49a95736d3093e31a3", "1.14.0--r40hdfd78af_1": "sha256:bb9b0eb36882a787c410b4a13ba9736fe74356bc2e1c049d4d45231ad2269b7c", "1.12.0--r40_0": "sha256:28add3b1bef84f99278a91494ead6beb5a0b37dde973474db8ac2f2eba78e454"}, "docker": "quay.io/biocontainers/bioconductor-annotationfilter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotationfilter.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-annotationfilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-annotationfilter:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-annotationfilter:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-annotationfilter/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-annotationfilter/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-annotationfilter/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-annotationfilter/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

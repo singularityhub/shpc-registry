@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-fields"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fields/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fields/container.yaml"
-updated_at: "2022-12-19 03:38:37.729953"
-latest: "8.4_1--r3.2.2_0"
+updated_at: "2023-01-11 20:51:34.181792"
+latest: "8.10--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-fields"
 aliases:
  - "pngcp"
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "8.4_1--r3.2.2_0"
+ - "8.10--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-fields"
-config: {"url": "https://biocontainers.pro/tools/r-fields", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fields", "latest": {"8.4_1--r3.2.2_0": "sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8"}, "tags": {"8.4_1--r3.2.2_0": "sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8"}, "docker": "quay.io/biocontainers/r-fields", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fields", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fields", "latest": {"8.10--r3.3.2_0": "sha256:06567d8447e0f9bd0c16a3c46496caaefd7963632b4a2b91b5fbcf8443af0bc6"}, "tags": {"8.4_1--r3.2.2_0": "sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8", "8.10--r3.3.2_0": "sha256:06567d8447e0f9bd0c16a3c46496caaefd7963632b4a2b91b5fbcf8443af0bc6"}, "docker": "quay.io/biocontainers/r-fields", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fields.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-fields
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-fields:8.4_1--r3.2.2_0
+$ shpc install quay.io/biocontainers/r-fields:8.10--r3.3.2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-fields/8.4_1--r3.2.2_0
-$ module help quay.io/biocontainers/r-fields/8.4_1--r3.2.2_0
+$ module load quay.io/biocontainers/r-fields/8.10--r3.3.2_0
+$ module help quay.io/biocontainers/r-fields/8.10--r3.3.2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

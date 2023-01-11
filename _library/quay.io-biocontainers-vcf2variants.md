@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf2variants"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2variants/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2variants/container.yaml"
-updated_at: "2022-12-19 03:42:20.327734"
+updated_at: "2023-01-11 20:56:24.554156"
 latest: "0.3--py_0"
 container_url: "https://biocontainers.pro/tools/vcf2variants"
 aliases:

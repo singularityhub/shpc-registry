@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-maizecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maizecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maizecdf/container.yaml"
-updated_at: "2022-12-19 02:51:06.757441"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2023-01-11 19:50:28.458307"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-maizecdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-maizecdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maizecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maizecdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:6b590ad050bf4004a94a4807067dd96428e1dd82608c414d6a12b456cee1632d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6b590ad050bf4004a94a4807067dd96428e1dd82608c414d6a12b456cee1632d"}, "docker": "quay.io/biocontainers/bioconductor-maizecdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maizecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maizecdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:b42c96e6a7f2b7de3f269c42976abf421845b792ebb82a7993c72d935ccf8681"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6b590ad050bf4004a94a4807067dd96428e1dd82608c414d6a12b456cee1632d", "2.18.0--r42hdfd78af_10": "sha256:b42c96e6a7f2b7de3f269c42976abf421845b792ebb82a7993c72d935ccf8681"}, "docker": "quay.io/biocontainers/bioconductor-maizecdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maizecdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-maizecdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-maizecdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-maizecdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-maizecdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-maizecdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-maizecdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-maizecdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

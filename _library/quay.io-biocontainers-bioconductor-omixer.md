@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-omixer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omixer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omixer/container.yaml"
-updated_at: "2022-12-19 03:13:19.241613"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:19:29.344605"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omixer"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omixer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omixer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omixer", "latest": {"1.4.0--r41hdfd78af_0": "sha256:89ad416faea6b8590fa8e7a92876de338446e7dd34b363a51791fae91f3902ed"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:89ad416faea6b8590fa8e7a92876de338446e7dd34b363a51791fae91f3902ed"}, "docker": "quay.io/biocontainers/bioconductor-omixer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omixer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omixer", "latest": {"1.8.0--r42hdfd78af_0": "sha256:341496cc60358a6fef04081663b01e5fcb8ffff51daca196efa48c0ac096dd08"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:89ad416faea6b8590fa8e7a92876de338446e7dd34b363a51791fae91f3902ed", "1.8.0--r42hdfd78af_0": "sha256:341496cc60358a6fef04081663b01e5fcb8ffff51daca196efa48c0ac096dd08"}, "docker": "quay.io/biocontainers/bioconductor-omixer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omixer.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omixer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omixer:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omixer:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omixer/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omixer/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omixer/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omixer/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

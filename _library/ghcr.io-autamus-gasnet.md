@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/gasnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gasnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gasnet/container.yaml"
-updated_at: "2022-12-19 02:44:01.863522"
-latest: "2022.3.0"
+updated_at: "2023-01-11 19:41:16.203342"
+latest: "2022.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gasnet"
 aliases:
  - "gasnet_trace"
@@ -15,8 +15,9 @@ versions:
  - "2021.9.0"
  - "latest"
  - "2022.3.0"
+ - "2022.9.0"
 description: "GASNet is a language-independent, networking middleware layer that provides network-independent, high-performance communication primitives including Remote Memory Access (RMA) and Active Messages (AM)."
-config: {"docker": "ghcr.io/autamus/gasnet", "url": "https://github.com/orgs/autamus/packages/container/package/gasnet", "maintainer": "@vsoch", "description": "GASNet is a language-independent, networking middleware layer that provides network-independent, high-performance communication primitives including Remote Memory Access (RMA) and Active Messages (AM).", "latest": {"2022.3.0": "sha256:8d634577188c013159ac897b5c2b42ab889faa1e3470dfe3884179587ce3d3da"}, "tags": {"2021.3.0": "sha256:d47d6fda408012c29949a208ef7b714f50fb695735e603ce6258071396a6a9fb", "2021.9.0": "sha256:cb5e93afa7e118bf9d18bc16a036f6ff801806fb0c136efa1cd274ad458b43b7", "latest": "sha256:8d634577188c013159ac897b5c2b42ab889faa1e3470dfe3884179587ce3d3da", "2022.3.0": "sha256:8d634577188c013159ac897b5c2b42ab889faa1e3470dfe3884179587ce3d3da"}, "aliases": {"gasnet_trace": "/opt/view/bin/gasnet_trace", "gasnet_trace.pl": "/opt/view/bin/gasnet_trace.pl"}}
+config: {"docker": "ghcr.io/autamus/gasnet", "url": "https://github.com/orgs/autamus/packages/container/package/gasnet", "maintainer": "@vsoch", "description": "GASNet is a language-independent, networking middleware layer that provides network-independent, high-performance communication primitives including Remote Memory Access (RMA) and Active Messages (AM).", "latest": {"2022.9.0": "sha256:ae4e45831d01f149c1e49066fb40e023da3e6a618ce21b7cedd1d84c9941db18"}, "tags": {"2021.3.0": "sha256:d47d6fda408012c29949a208ef7b714f50fb695735e603ce6258071396a6a9fb", "2021.9.0": "sha256:cb5e93afa7e118bf9d18bc16a036f6ff801806fb0c136efa1cd274ad458b43b7", "latest": "sha256:ae4e45831d01f149c1e49066fb40e023da3e6a618ce21b7cedd1d84c9941db18", "2022.3.0": "sha256:8d634577188c013159ac897b5c2b42ab889faa1e3470dfe3884179587ce3d3da", "2022.9.0": "sha256:ae4e45831d01f149c1e49066fb40e023da3e6a618ce21b7cedd1d84c9941db18"}, "aliases": {"gasnet_trace": "/opt/view/bin/gasnet_trace", "gasnet_trace.pl": "/opt/view/bin/gasnet_trace.pl"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gasnet.
@@ -31,7 +32,7 @@ $ shpc install ghcr.io/autamus/gasnet
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/gasnet:2022.3.0
+$ shpc install ghcr.io/autamus/gasnet:2022.9.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/gasnet/2022.3.0
-$ module help ghcr.io/autamus/gasnet/2022.3.0
+$ module load ghcr.io/autamus/gasnet/2022.9.0
+$ module help ghcr.io/autamus/gasnet/2022.9.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

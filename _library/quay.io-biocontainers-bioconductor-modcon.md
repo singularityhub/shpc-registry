@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-modcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-modcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-modcon/container.yaml"
-updated_at: "2022-12-19 03:26:21.342154"
-latest: "1.2.0--pl5321r41hdfd78af_0"
+updated_at: "2023-01-11 20:36:05.847101"
+latest: "1.6.0--pl5321r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-modcon"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.2.0--pl5321r41hdfd78af_0"
+ - "1.6.0--pl5321r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-modcon"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-modcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-modcon", "latest": {"1.2.0--pl5321r41hdfd78af_0": "sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f"}, "tags": {"1.2.0--pl5321r41hdfd78af_0": "sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f"}, "docker": "quay.io/biocontainers/bioconductor-modcon", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-modcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-modcon", "latest": {"1.6.0--pl5321r42hdfd78af_0": "sha256:4eebebf930d8d55fe35cefd8a6688917f5e230ba305de85c68bd9b236e2eebc2"}, "tags": {"1.2.0--pl5321r41hdfd78af_0": "sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f", "1.6.0--pl5321r42hdfd78af_0": "sha256:4eebebf930d8d55fe35cefd8a6688917f5e230ba305de85c68bd9b236e2eebc2"}, "docker": "quay.io/biocontainers/bioconductor-modcon", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-modcon.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-modcon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-modcon:1.2.0--pl5321r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-modcon:1.6.0--pl5321r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-modcon/1.2.0--pl5321r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-modcon/1.2.0--pl5321r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-modcon/1.6.0--pl5321r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-modcon/1.6.0--pl5321r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

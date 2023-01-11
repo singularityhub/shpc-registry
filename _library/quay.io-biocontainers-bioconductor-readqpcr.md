@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-readqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-readqpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-readqpcr/container.yaml"
-updated_at: "2022-12-19 02:56:14.676081"
-latest: "1.40.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:57:16.365392"
+latest: "1.44.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-readqpcr"
 
 versions:
  - "1.40.0--r41hdfd78af_0"
+ - "1.44.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-readqpcr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-readqpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-readqpcr", "latest": {"1.40.0--r41hdfd78af_0": "sha256:a7c5f8a4fd6677d4859ea04af6751394a843c091456217c7d2a2f029ae60d3f5"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:a7c5f8a4fd6677d4859ea04af6751394a843c091456217c7d2a2f029ae60d3f5"}, "docker": "quay.io/biocontainers/bioconductor-readqpcr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-readqpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-readqpcr", "latest": {"1.44.0--r42hdfd78af_0": "sha256:baacd40a901342653361db5329faaac9bc97887b872fd7e839ca0d4567b0f34d"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:a7c5f8a4fd6677d4859ea04af6751394a843c091456217c7d2a2f029ae60d3f5", "1.44.0--r42hdfd78af_0": "sha256:baacd40a901342653361db5329faaac9bc97887b872fd7e839ca0d4567b0f34d"}, "docker": "quay.io/biocontainers/bioconductor-readqpcr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-readqpcr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-readqpcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-readqpcr:1.40.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-readqpcr:1.44.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-readqpcr/1.40.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-readqpcr/1.40.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-readqpcr/1.44.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-readqpcr/1.44.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

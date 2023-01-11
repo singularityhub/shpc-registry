@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-tools/container.yaml"
-updated_at: "2022-12-19 02:57:11.212889"
+updated_at: "2023-01-11 19:58:31.131295"
 latest: "0.8.3--hbd632db_2"
 container_url: "https://biocontainers.pro/tools/fastq-tools"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "fastq-uniq"
 versions:
  - "0.8.3--hbd632db_2"
+ - "0.8--hed695b0_3"
 description: "shpc-registry automated BioContainers addition for fastq-tools"
-config: {"url": "https://biocontainers.pro/tools/fastq-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-tools", "latest": {"0.8.3--hbd632db_2": "sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59"}, "tags": {"0.8.3--hbd632db_2": "sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59"}, "docker": "quay.io/biocontainers/fastq-tools", "aliases": {"fastq-grep": "/usr/local/bin/fastq-grep", "fastq-kmers": "/usr/local/bin/fastq-kmers", "fastq-match": "/usr/local/bin/fastq-match", "fastq-qscale": "/usr/local/bin/fastq-qscale", "fastq-qual": "/usr/local/bin/fastq-qual", "fastq-qualadj": "/usr/local/bin/fastq-qualadj", "fastq-sample": "/usr/local/bin/fastq-sample", "fastq-sort": "/usr/local/bin/fastq-sort", "fastq-uniq": "/usr/local/bin/fastq-uniq"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-tools", "latest": {"0.8.3--hbd632db_2": "sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59"}, "tags": {"0.8.3--hbd632db_2": "sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59", "0.8--hed695b0_3": "sha256:00c2f42213cbc579a6807d8ec25f55e5d28298257a734124f22f711310f97431"}, "docker": "quay.io/biocontainers/fastq-tools", "aliases": {"fastq-grep": "/usr/local/bin/fastq-grep", "fastq-kmers": "/usr/local/bin/fastq-kmers", "fastq-match": "/usr/local/bin/fastq-match", "fastq-qscale": "/usr/local/bin/fastq-qscale", "fastq-qual": "/usr/local/bin/fastq-qual", "fastq-qualadj": "/usr/local/bin/fastq-qualadj", "fastq-sample": "/usr/local/bin/fastq-sample", "fastq-sort": "/usr/local/bin/fastq-sort", "fastq-uniq": "/usr/local/bin/fastq-uniq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-tools.

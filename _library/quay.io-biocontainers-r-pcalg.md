@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-pcalg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pcalg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pcalg/container.yaml"
-updated_at: "2022-12-19 03:28:32.220391"
-latest: "2.6_12--r41hecf12ef_3"
+updated_at: "2023-01-11 20:38:52.909081"
+latest: "2.6_12--r42hecf12ef_4"
 container_url: "https://biocontainers.pro/tools/r-pcalg"
 
 versions:
  - "2.6_12--r41hecf12ef_3"
+ - "2.6_12--r42hecf12ef_4"
 description: "shpc-registry automated BioContainers addition for r-pcalg"
-config: {"url": "https://biocontainers.pro/tools/r-pcalg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pcalg", "latest": {"2.6_12--r41hecf12ef_3": "sha256:99a8d648ed39755fde267c869383902969702b58e14db5da49642dcf50c90629"}, "tags": {"2.6_12--r41hecf12ef_3": "sha256:99a8d648ed39755fde267c869383902969702b58e14db5da49642dcf50c90629"}, "docker": "quay.io/biocontainers/r-pcalg"}
+config: {"url": "https://biocontainers.pro/tools/r-pcalg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pcalg", "latest": {"2.6_12--r42hecf12ef_4": "sha256:6d670743ea5b320d42d4db360c7ae3ada41c6c95014a520a57a8813310a6a32c"}, "tags": {"2.6_12--r41hecf12ef_3": "sha256:99a8d648ed39755fde267c869383902969702b58e14db5da49642dcf50c90629", "2.6_12--r42hecf12ef_4": "sha256:6d670743ea5b320d42d4db360c7ae3ada41c6c95014a520a57a8813310a6a32c"}, "docker": "quay.io/biocontainers/r-pcalg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pcalg.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-pcalg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pcalg:2.6_12--r41hecf12ef_3
+$ shpc install quay.io/biocontainers/r-pcalg:2.6_12--r42hecf12ef_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pcalg/2.6_12--r41hecf12ef_3
-$ module help quay.io/biocontainers/r-pcalg/2.6_12--r41hecf12ef_3
+$ module load quay.io/biocontainers/r-pcalg/2.6_12--r42hecf12ef_4
+$ module help quay.io/biocontainers/r-pcalg/2.6_12--r42hecf12ef_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

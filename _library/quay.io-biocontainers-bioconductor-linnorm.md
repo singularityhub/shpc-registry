@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-linnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-linnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-linnorm/container.yaml"
-updated_at: "2022-12-19 02:53:09.477807"
-latest: "2.8.0--r36he1b5a44_1"
+updated_at: "2023-01-11 19:53:11.531850"
+latest: "2.22.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-linnorm"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "2.8.0--r36he1b5a44_1"
+ - "2.22.0--r42hc247a5b_0"
+ - "2.18.0--r41hc247a5b_2"
+ - "2.16.0--r41h399db7b_0"
+ - "2.14.0--r40h399db7b_1"
+ - "2.12.0--r40h5f743cb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-linnorm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-linnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-linnorm", "latest": {"2.8.0--r36he1b5a44_1": "sha256:8dbbbfb37496f8f8b225aae4f84b9507e82bae8c5a3154d3cc56f15dd349d2b2"}, "tags": {"2.8.0--r36he1b5a44_1": "sha256:8dbbbfb37496f8f8b225aae4f84b9507e82bae8c5a3154d3cc56f15dd349d2b2"}, "docker": "quay.io/biocontainers/bioconductor-linnorm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-linnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-linnorm", "latest": {"2.22.0--r42hc247a5b_0": "sha256:de22bcd924bf67b3869effda720f4f09363d1ba3fade69f0525b3a0d56b41082"}, "tags": {"2.8.0--r36he1b5a44_1": "sha256:8dbbbfb37496f8f8b225aae4f84b9507e82bae8c5a3154d3cc56f15dd349d2b2", "2.22.0--r42hc247a5b_0": "sha256:de22bcd924bf67b3869effda720f4f09363d1ba3fade69f0525b3a0d56b41082", "2.18.0--r41hc247a5b_2": "sha256:c2f5e8b06987edf508d11b168cadc6b3fcd4fd90402cb43819fcbd3b00471ed0", "2.16.0--r41h399db7b_0": "sha256:aa8e9b0352b8f16eada182ff143ab3e7c9e27940dbc8de234826e3c0846d281d", "2.14.0--r40h399db7b_1": "sha256:30db0d2f4c3a874f24c40a26ec74bf9083c2737c09fdb8082c9eb1d293ea723c", "2.12.0--r40h5f743cb_0": "sha256:a674c65e2be6fccfcc51cfe5ccd39d7fdd3ae2f338b891b5ff2ba69bd0a9eff3"}, "docker": "quay.io/biocontainers/bioconductor-linnorm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-linnorm.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-linnorm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-linnorm:2.8.0--r36he1b5a44_1
+$ shpc install quay.io/biocontainers/bioconductor-linnorm:2.22.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-linnorm/2.8.0--r36he1b5a44_1
-$ module help quay.io/biocontainers/bioconductor-linnorm/2.8.0--r36he1b5a44_1
+$ module load quay.io/biocontainers/bioconductor-linnorm/2.22.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-linnorm/2.22.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genotyphi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genotyphi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genotyphi/container.yaml"
-updated_at: "2022-12-19 03:28:35.558086"
-latest: "1.9.1--hdfd78af_1"
+updated_at: "2023-01-11 20:38:57.066403"
+latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genotyphi"
 aliases:
  - "genotyphi"
@@ -23,8 +23,9 @@ aliases:
  - "vcfutils.pl"
 versions:
  - "1.9.1--hdfd78af_1"
+ - "2.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for genotyphi"
-config: {"url": "https://biocontainers.pro/tools/genotyphi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genotyphi", "latest": {"1.9.1--hdfd78af_1": "sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde"}, "tags": {"1.9.1--hdfd78af_1": "sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde"}, "docker": "quay.io/biocontainers/genotyphi", "aliases": {"genotyphi": "/usr/local/bin/genotyphi", "genotyphi.py": "/usr/local/bin/genotyphi.py", "parse_typhi_mykrobe.py": "/usr/local/bin/parse_typhi_mykrobe.py", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/genotyphi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genotyphi", "latest": {"2.0--hdfd78af_0": "sha256:b4a6487b8b46fdd3de10ee3f720e4d21d18994853c7aa7f78aa724cf772a4f8e"}, "tags": {"1.9.1--hdfd78af_1": "sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde", "2.0--hdfd78af_0": "sha256:b4a6487b8b46fdd3de10ee3f720e4d21d18994853c7aa7f78aa724cf772a4f8e"}, "docker": "quay.io/biocontainers/genotyphi", "aliases": {"genotyphi": "/usr/local/bin/genotyphi", "genotyphi.py": "/usr/local/bin/genotyphi.py", "parse_typhi_mykrobe.py": "/usr/local/bin/parse_typhi_mykrobe.py", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genotyphi.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/genotyphi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genotyphi:1.9.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/genotyphi:2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genotyphi/1.9.1--hdfd78af_1
-$ module help quay.io/biocontainers/genotyphi/1.9.1--hdfd78af_1
+$ module load quay.io/biocontainers/genotyphi/2.0--hdfd78af_0
+$ module help quay.io/biocontainers/genotyphi/2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

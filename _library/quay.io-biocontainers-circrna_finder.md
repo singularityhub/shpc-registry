@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/circrna_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circrna_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circrna_finder/container.yaml"
-updated_at: "2022-12-19 03:08:27.918266"
-latest: "1.2--pl5321hdfd78af_0"
+updated_at: "2023-01-11 20:13:15.145603"
+latest: "1.2--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/circrna_finder"
 aliases:
  - "filterCirc.awk"
@@ -41,8 +41,9 @@ aliases:
  - "env"
 versions:
  - "1.2--pl5321hdfd78af_0"
+ - "1.2--pl5321hdfd78af_1"
 description: "singularity registry hpc automated addition for circrna_finder"
-config: {"url": "https://biocontainers.pro/tools/circrna_finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for circrna_finder", "latest": {"1.2--pl5321hdfd78af_0": "sha256:caee621721cd157a319d54fa2af54a878f3cab9dc43eed69603cd2b0fb8f44ae"}, "tags": {"1.2--pl5321hdfd78af_0": "sha256:caee621721cd157a319d54fa2af54a878f3cab9dc43eed69603cd2b0fb8f44ae"}, "docker": "quay.io/biocontainers/circrna_finder", "aliases": {"filterCirc.awk": "/usr/local/bin/filterCirc.awk", "filterSpliceSiteCircles.pl": "/usr/local/bin/filterSpliceSiteCircles.pl", "nrForwardSplicedReads.pl": "/usr/local/bin/nrForwardSplicedReads.pl", "postProcessStarAlignment.pl": "/usr/local/bin/postProcessStarAlignment.pl", "runStar.pl": "/usr/local/bin/runStar.pl", "starCirclesToBed.pl": "/usr/local/bin/starCirclesToBed.pl", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du", "echo": "/usr/local/bin/echo", "env": "/usr/local/bin/env"}}
+config: {"url": "https://biocontainers.pro/tools/circrna_finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for circrna_finder", "latest": {"1.2--pl5321hdfd78af_1": "sha256:1697e581c8005132377fbd9f16cbbe43df7bbb950b01a0ad9ce27699b62b5b4c"}, "tags": {"1.2--pl5321hdfd78af_0": "sha256:caee621721cd157a319d54fa2af54a878f3cab9dc43eed69603cd2b0fb8f44ae", "1.2--pl5321hdfd78af_1": "sha256:1697e581c8005132377fbd9f16cbbe43df7bbb950b01a0ad9ce27699b62b5b4c"}, "docker": "quay.io/biocontainers/circrna_finder", "aliases": {"filterCirc.awk": "/usr/local/bin/filterCirc.awk", "filterSpliceSiteCircles.pl": "/usr/local/bin/filterSpliceSiteCircles.pl", "nrForwardSplicedReads.pl": "/usr/local/bin/nrForwardSplicedReads.pl", "postProcessStarAlignment.pl": "/usr/local/bin/postProcessStarAlignment.pl", "runStar.pl": "/usr/local/bin/runStar.pl", "starCirclesToBed.pl": "/usr/local/bin/starCirclesToBed.pl", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du", "echo": "/usr/local/bin/echo", "env": "/usr/local/bin/env"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circrna_finder.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/circrna_finder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circrna_finder:1.2--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/circrna_finder:1.2--pl5321hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circrna_finder/1.2--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/circrna_finder/1.2--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/circrna_finder/1.2--pl5321hdfd78af_1
+$ module help quay.io/biocontainers/circrna_finder/1.2--pl5321hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

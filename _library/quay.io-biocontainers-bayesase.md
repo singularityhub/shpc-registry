@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bayesase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayesase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayesase/container.yaml"
-updated_at: "2022-12-19 03:09:42.617627"
-latest: "21.1.7--py_0"
+updated_at: "2023-01-11 20:14:51.570891"
+latest: "21.1.13.1--py_0"
 container_url: "https://biocontainers.pro/tools/bayesase"
 aliases:
  - "bwa_split_sam_seonly_2output.py"
@@ -32,8 +32,9 @@ aliases:
  - "c99"
 versions:
  - "21.1.7--py_0"
+ - "21.1.13.1--py_0"
 description: "shpc-registry automated BioContainers addition for bayesase"
-config: {"url": "https://biocontainers.pro/tools/bayesase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayesase", "latest": {"21.1.7--py_0": "sha256:bc9b6df00e9c590ac362268a7482da4cb8e93134faebfe9ab97b7c342be3d1a8"}, "tags": {"21.1.7--py_0": "sha256:bc9b6df00e9c590ac362268a7482da4cb8e93134faebfe9ab97b7c342be3d1a8"}, "docker": "quay.io/biocontainers/bayesase", "aliases": {"bwa_split_sam_seonly_2output.py": "/usr/local/bin/bwa_split_sam_seonly_2output.py", "calculate_priors_ase_count_tables.py": "/usr/local/bin/calculate_priors_ase_count_tables.py", "check_aln_design_file.py": "/usr/local/bin/check_aln_design_file.py", "check_comparate_design_file.py": "/usr/local/bin/check_comparate_design_file.py", "check_lost_reads.py": "/usr/local/bin/check_lost_reads.py", "check_sam_present.py": "/usr/local/bin/check_sam_present.py", "check_samcomp_lost_reads.py": "/usr/local/bin/check_samcomp_lost_reads.py", "combine_count_tables.py": "/usr/local/bin/combine_count_tables.py", "merge_comparates_generate_bayesian_headers.py": "/usr/local/bin/merge_comparates_generate_bayesian_headers.py", "merge_priors_to_comparate.py": "/usr/local/bin/merge_priors_to_comparate.py", "nbmodel_stan2.py": "/usr/local/bin/nbmodel_stan2.py", "sam_compare_w_feature.py": "/usr/local/bin/sam_compare_w_feature.py", "summarize_sam_compare_cnts_table_1cond.py": "/usr/local/bin/summarize_sam_compare_cnts_table_1cond.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bayesase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayesase", "latest": {"21.1.13.1--py_0": "sha256:65df19876dde65855d99dc18ddd6897d84b400041ab3dfc8f50349c5d4c82c8e"}, "tags": {"21.1.7--py_0": "sha256:bc9b6df00e9c590ac362268a7482da4cb8e93134faebfe9ab97b7c342be3d1a8", "21.1.13.1--py_0": "sha256:65df19876dde65855d99dc18ddd6897d84b400041ab3dfc8f50349c5d4c82c8e"}, "docker": "quay.io/biocontainers/bayesase", "aliases": {"bwa_split_sam_seonly_2output.py": "/usr/local/bin/bwa_split_sam_seonly_2output.py", "calculate_priors_ase_count_tables.py": "/usr/local/bin/calculate_priors_ase_count_tables.py", "check_aln_design_file.py": "/usr/local/bin/check_aln_design_file.py", "check_comparate_design_file.py": "/usr/local/bin/check_comparate_design_file.py", "check_lost_reads.py": "/usr/local/bin/check_lost_reads.py", "check_sam_present.py": "/usr/local/bin/check_sam_present.py", "check_samcomp_lost_reads.py": "/usr/local/bin/check_samcomp_lost_reads.py", "combine_count_tables.py": "/usr/local/bin/combine_count_tables.py", "merge_comparates_generate_bayesian_headers.py": "/usr/local/bin/merge_comparates_generate_bayesian_headers.py", "merge_priors_to_comparate.py": "/usr/local/bin/merge_priors_to_comparate.py", "nbmodel_stan2.py": "/usr/local/bin/nbmodel_stan2.py", "sam_compare_w_feature.py": "/usr/local/bin/sam_compare_w_feature.py", "summarize_sam_compare_cnts_table_1cond.py": "/usr/local/bin/summarize_sam_compare_cnts_table_1cond.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bayesase.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/bayesase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bayesase:21.1.7--py_0
+$ shpc install quay.io/biocontainers/bayesase:21.1.13.1--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bayesase/21.1.7--py_0
-$ module help quay.io/biocontainers/bayesase/21.1.7--py_0
+$ module load quay.io/biocontainers/bayesase/21.1.13.1--py_0
+$ module help quay.io/biocontainers/bayesase/21.1.13.1--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

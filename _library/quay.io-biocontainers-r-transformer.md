@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-transformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-transformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-transformer/container.yaml"
-updated_at: "2022-12-19 02:50:41.174049"
-latest: "0.2.9--r36_0"
+updated_at: "2023-01-11 19:49:54.298488"
+latest: "0.2.12--r36_0"
 container_url: "https://biocontainers.pro/tools/r-transformer"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,9 @@ aliases:
  - "c99"
 versions:
  - "0.2.9--r36_0"
+ - "0.2.12--r36_0"
 description: "shpc-registry automated BioContainers addition for r-transformer"
-config: {"url": "https://biocontainers.pro/tools/r-transformer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-transformer", "latest": {"0.2.9--r36_0": "sha256:8fcaabd88935aa7e787da3304b885e4bd2f2194c1faa502ccd98ba5481c081be"}, "tags": {"0.2.9--r36_0": "sha256:8fcaabd88935aa7e787da3304b885e4bd2f2194c1faa502ccd98ba5481c081be"}, "docker": "quay.io/biocontainers/r-transformer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-transformer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-transformer", "latest": {"0.2.12--r36_0": "sha256:9d57134defcefef74ac30c8c94bdcbd4a2bce8da729d959ebb25f75a696aee1a"}, "tags": {"0.2.9--r36_0": "sha256:8fcaabd88935aa7e787da3304b885e4bd2f2194c1faa502ccd98ba5481c081be", "0.2.12--r36_0": "sha256:9d57134defcefef74ac30c8c94bdcbd4a2bce8da729d959ebb25f75a696aee1a"}, "docker": "quay.io/biocontainers/r-transformer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-transformer.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-transformer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-transformer:0.2.9--r36_0
+$ shpc install quay.io/biocontainers/r-transformer:0.2.12--r36_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-transformer/0.2.9--r36_0
-$ module help quay.io/biocontainers/r-transformer/0.2.9--r36_0
+$ module load quay.io/biocontainers/r-transformer/0.2.12--r36_0
+$ module help quay.io/biocontainers/r-transformer/0.2.12--r36_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/pumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/pumi/container.yaml"
-updated_at: "2022-12-19 02:43:08.692856"
+updated_at: "2023-01-11 19:40:08.072516"
 latest: "2.2.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pumi"
 aliases:
@@ -12,8 +12,10 @@ aliases:
 versions:
  - "2.2.5"
  - "2.2.6"
+ - "latest"
+ - "2.2.7"
 description: "SCOREC RPI's Parallel Unstructured Mesh Infrastructure (PUMI)."
-config: {"docker": "ghcr.io/autamus/pumi", "url": "https://github.com/orgs/autamus/packages/container/package/pumi", "maintainer": "@vsoch", "description": "SCOREC RPI's Parallel Unstructured Mesh Infrastructure (PUMI).", "latest": {"2.2.6": "sha256:1ad880ab6bedad474935938f2e0c1d79c4970e3deaeaeb44687c66c5158ffd00"}, "tags": {"2.2.5": "sha256:b27b85dee50631bbc40977a23a00830acf0c236bb0966c2d11f9b62a8fbcff6f", "2.2.6": "sha256:1ad880ab6bedad474935938f2e0c1d79c4970e3deaeaeb44687c66c5158ffd00"}, "aliases": {"print_pumipic_partition": "/opt/view/bin/print_pumipic_partition"}}
+config: {"docker": "ghcr.io/autamus/pumi", "url": "https://github.com/orgs/autamus/packages/container/package/pumi", "maintainer": "@vsoch", "description": "SCOREC RPI's Parallel Unstructured Mesh Infrastructure (PUMI).", "latest": {"2.2.6": "sha256:1ad880ab6bedad474935938f2e0c1d79c4970e3deaeaeb44687c66c5158ffd00"}, "tags": {"2.2.5": "sha256:b27b85dee50631bbc40977a23a00830acf0c236bb0966c2d11f9b62a8fbcff6f", "2.2.6": "sha256:1ad880ab6bedad474935938f2e0c1d79c4970e3deaeaeb44687c66c5158ffd00", "latest": "sha256:35238311728bf14119a732bbeb4bbb71df5d34d7225a8209915b9b321ceca634", "2.2.7": "sha256:35238311728bf14119a732bbeb4bbb71df5d34d7225a8209915b9b321ceca634"}, "aliases": {"print_pumipic_partition": "/opt/view/bin/print_pumipic_partition"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/pumi.

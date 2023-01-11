@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bactopia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia/container.yaml"
-updated_at: "2022-12-19 03:25:55.313148"
-latest: "2.1.1--hdfd78af_0"
+updated_at: "2023-01-11 20:35:32.727332"
+latest: "2.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia"
 aliases:
  - "amr_report"
@@ -61,8 +61,9 @@ aliases:
  - "cds-mapping-stats"
 versions:
  - "2.1.1--hdfd78af_0"
+ - "2.2.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bactopia"
-config: {"url": "https://biocontainers.pro/tools/bactopia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bactopia", "latest": {"2.1.1--hdfd78af_0": "sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51"}, "tags": {"2.1.1--hdfd78af_0": "sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51"}, "docker": "quay.io/biocontainers/bactopia", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "ariba": "/usr/local/bin/ariba", "bactopia": "/usr/local/bin/bactopia", "bactopia-citations.py": "/usr/local/bin/bactopia-citations.py", "bactopia-datasets.py": "/usr/local/bin/bactopia-datasets.py", "bactopia-download.py": "/usr/local/bin/bactopia-download.py", "bactopia-prepare.py": "/usr/local/bin/bactopia-prepare.py", "bactopia-search.py": "/usr/local/bin/bactopia-search.py", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "check-assembly-accession.py": "/usr/local/bin/check-assembly-accession.py", "check-fastqs.py": "/usr/local/bin/check-fastqs.py", "cleanup-coverage.py": "/usr/local/bin/cleanup-coverage.py", "conda2solv": "/usr/local/bin/conda2solv", "dna_mutation": "/usr/local/bin/dna_mutation", "dumpsolv": "/usr/local/bin/dumpsolv", "executor": "/usr/local/bin/executor", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mask-consensus.py": "/usr/local/bin/mask-consensus.py", "merge-blast-json.py": "/usr/local/bin/merge-blast-json.py", "mergesolv": "/usr/local/bin/mergesolv", "mlst-blast.py": "/usr/local/bin/mlst-blast.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "ngd": "/usr/local/bin/ngd", "repo2solv": "/usr/local/bin/repo2solv", "select-references.py": "/usr/local/bin/select-references.py", "split-coverages.py": "/usr/local/bin/split-coverages.py", "staphopia": "/usr/local/bin/staphopia", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "fastaq": "/usr/local/bin/fastaq", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats"}}
+config: {"url": "https://biocontainers.pro/tools/bactopia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bactopia", "latest": {"2.2.0--hdfd78af_0": "sha256:1a72c4305190cde7509e55be6e6dc687c031c1f5db2024102bdcd17286d76ec6"}, "tags": {"2.1.1--hdfd78af_0": "sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51", "2.2.0--hdfd78af_0": "sha256:1a72c4305190cde7509e55be6e6dc687c031c1f5db2024102bdcd17286d76ec6"}, "docker": "quay.io/biocontainers/bactopia", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "ariba": "/usr/local/bin/ariba", "bactopia": "/usr/local/bin/bactopia", "bactopia-citations.py": "/usr/local/bin/bactopia-citations.py", "bactopia-datasets.py": "/usr/local/bin/bactopia-datasets.py", "bactopia-download.py": "/usr/local/bin/bactopia-download.py", "bactopia-prepare.py": "/usr/local/bin/bactopia-prepare.py", "bactopia-search.py": "/usr/local/bin/bactopia-search.py", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "check-assembly-accession.py": "/usr/local/bin/check-assembly-accession.py", "check-fastqs.py": "/usr/local/bin/check-fastqs.py", "cleanup-coverage.py": "/usr/local/bin/cleanup-coverage.py", "conda2solv": "/usr/local/bin/conda2solv", "dna_mutation": "/usr/local/bin/dna_mutation", "dumpsolv": "/usr/local/bin/dumpsolv", "executor": "/usr/local/bin/executor", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mask-consensus.py": "/usr/local/bin/mask-consensus.py", "merge-blast-json.py": "/usr/local/bin/merge-blast-json.py", "mergesolv": "/usr/local/bin/mergesolv", "mlst-blast.py": "/usr/local/bin/mlst-blast.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "ngd": "/usr/local/bin/ngd", "repo2solv": "/usr/local/bin/repo2solv", "select-references.py": "/usr/local/bin/select-references.py", "split-coverages.py": "/usr/local/bin/split-coverages.py", "staphopia": "/usr/local/bin/staphopia", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "fastaq": "/usr/local/bin/fastaq", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bactopia.
@@ -77,7 +78,7 @@ $ shpc install quay.io/biocontainers/bactopia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bactopia:2.1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/bactopia:2.2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -89,8 +90,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bactopia/2.1.1--hdfd78af_0
-$ module help quay.io/biocontainers/bactopia/2.1.1--hdfd78af_0
+$ module load quay.io/biocontainers/bactopia/2.2.0--hdfd78af_0
+$ module help quay.io/biocontainers/bactopia/2.2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

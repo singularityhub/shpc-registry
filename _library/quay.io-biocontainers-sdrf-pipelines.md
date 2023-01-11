@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/sdrf-pipelines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdrf-pipelines/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdrf-pipelines/container.yaml"
-updated_at: "2022-12-19 03:41:04.935097"
-latest: "0.0.9--py_0"
+updated_at: "2023-01-11 20:54:45.415335"
+latest: "0.0.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sdrf-pipelines"
 
 versions:
  - "0.0.9--py_0"
+ - "0.0.22--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sdrf-pipelines"
-config: {"url": "https://biocontainers.pro/tools/sdrf-pipelines", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sdrf-pipelines", "latest": {"0.0.9--py_0": "sha256:bd38b5c004164b0d6e8492ca9d85cbc0d18b5b815720071ac50a889a960c4dc7"}, "tags": {"0.0.9--py_0": "sha256:bd38b5c004164b0d6e8492ca9d85cbc0d18b5b815720071ac50a889a960c4dc7"}, "docker": "quay.io/biocontainers/sdrf-pipelines"}
+config: {"url": "https://biocontainers.pro/tools/sdrf-pipelines", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sdrf-pipelines", "latest": {"0.0.22--pyhdfd78af_0": "sha256:3f8e2f54d5837991f04a8e4646f005fdf03ef0bfb7163adfa32fb33218c25660"}, "tags": {"0.0.9--py_0": "sha256:bd38b5c004164b0d6e8492ca9d85cbc0d18b5b815720071ac50a889a960c4dc7", "0.0.22--pyhdfd78af_0": "sha256:3f8e2f54d5837991f04a8e4646f005fdf03ef0bfb7163adfa32fb33218c25660"}, "docker": "quay.io/biocontainers/sdrf-pipelines"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sdrf-pipelines.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/sdrf-pipelines
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sdrf-pipelines:0.0.9--py_0
+$ shpc install quay.io/biocontainers/sdrf-pipelines:0.0.22--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sdrf-pipelines/0.0.9--py_0
-$ module help quay.io/biocontainers/sdrf-pipelines/0.0.9--py_0
+$ module load quay.io/biocontainers/sdrf-pipelines/0.0.22--pyhdfd78af_0
+$ module help quay.io/biocontainers/sdrf-pipelines/0.0.22--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-gkmsvm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gkmsvm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gkmsvm/container.yaml"
-updated_at: "2022-12-19 03:41:46.882187"
-latest: "0.81.0--r41h87f3376_3"
+updated_at: "2023-01-11 20:55:40.429087"
+latest: "0.81.0--r42h87f3376_4"
 container_url: "https://biocontainers.pro/tools/r-gkmsvm"
 
 versions:
  - "0.81.0--r41h87f3376_3"
+ - "0.81.0--r42h87f3376_4"
 description: "shpc-registry automated BioContainers addition for r-gkmsvm"
-config: {"url": "https://biocontainers.pro/tools/r-gkmsvm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gkmsvm", "latest": {"0.81.0--r41h87f3376_3": "sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4"}, "tags": {"0.81.0--r41h87f3376_3": "sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4"}, "docker": "quay.io/biocontainers/r-gkmsvm"}
+config: {"url": "https://biocontainers.pro/tools/r-gkmsvm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gkmsvm", "latest": {"0.81.0--r42h87f3376_4": "sha256:e54794d3fb8ce3d3398b253de78cd49caac23f2d4494e7ed42f969036b0b60f1"}, "tags": {"0.81.0--r41h87f3376_3": "sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4", "0.81.0--r42h87f3376_4": "sha256:e54794d3fb8ce3d3398b253de78cd49caac23f2d4494e7ed42f969036b0b60f1"}, "docker": "quay.io/biocontainers/r-gkmsvm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gkmsvm.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-gkmsvm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gkmsvm:0.81.0--r41h87f3376_3
+$ shpc install quay.io/biocontainers/r-gkmsvm:0.81.0--r42h87f3376_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gkmsvm/0.81.0--r41h87f3376_3
-$ module help quay.io/biocontainers/r-gkmsvm/0.81.0--r41h87f3376_3
+$ module load quay.io/biocontainers/r-gkmsvm/0.81.0--r42h87f3376_4
+$ module help quay.io/biocontainers/r-gkmsvm/0.81.0--r42h87f3376_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

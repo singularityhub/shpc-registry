@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bnem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bnem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bnem/container.yaml"
-updated_at: "2022-12-19 03:03:34.746876"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:07:01.818497"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bnem"
 aliases:
  - "diffimg"
@@ -20,8 +20,9 @@ aliases:
  - "stl2gts"
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bnem"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bnem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bnem", "latest": {"1.2.0--r41hdfd78af_0": "sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10"}, "docker": "quay.io/biocontainers/bioconductor-bnem", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bnem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bnem", "latest": {"1.6.0--r42hdfd78af_0": "sha256:b459762fbbbbfd73c93526734432d9884e00ba2e54cb5c404482e2c0a5d3063f"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10", "1.6.0--r42hdfd78af_0": "sha256:b459762fbbbbfd73c93526734432d9884e00ba2e54cb5c404482e2c0a5d3063f"}, "docker": "quay.io/biocontainers/bioconductor-bnem", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bnem.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bnem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bnem:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bnem:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bnem/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bnem/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bnem/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bnem/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

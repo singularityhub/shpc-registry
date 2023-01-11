@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tress/container.yaml"
-updated_at: "2022-12-19 03:07:05.070188"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:11:28.856331"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tress"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tress"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tress", "latest": {"1.0.0--r41hdfd78af_0": "sha256:b7ae25fa223fd8ff805c8939711cd7e680000d9dd77e21e7cbb135ec8377dbce"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:b7ae25fa223fd8ff805c8939711cd7e680000d9dd77e21e7cbb135ec8377dbce"}, "docker": "quay.io/biocontainers/bioconductor-tress"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tress", "latest": {"1.4.0--r42hdfd78af_0": "sha256:9478ea4946efe543cb892f4f0f6a7ebbc3c499c25bc8c0fc0d0728bf0d3a9a15"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:b7ae25fa223fd8ff805c8939711cd7e680000d9dd77e21e7cbb135ec8377dbce", "1.4.0--r42hdfd78af_0": "sha256:9478ea4946efe543cb892f4f0f6a7ebbc3c499c25bc8c0fc0d0728bf0d3a9a15"}, "docker": "quay.io/biocontainers/bioconductor-tress"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tress.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tress
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tress:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tress:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tress/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tress/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tress/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tress/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

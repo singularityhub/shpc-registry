@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ncdfflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncdfflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncdfflow/container.yaml"
-updated_at: "2022-12-19 03:13:08.712428"
-latest: "2.40.0--r41hc247a5b_2"
+updated_at: "2023-01-11 20:19:15.741055"
+latest: "2.44.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncdfflow"
 
 versions:
  - "2.40.0--r41hc247a5b_2"
+ - "2.44.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ncdfflow"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ncdfflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncdfflow", "latest": {"2.40.0--r41hc247a5b_2": "sha256:35cfb1c68c05d707316e8c88cf3a3bbbaaa8dd37a8914abea34f8cbc2ebafcae"}, "tags": {"2.40.0--r41hc247a5b_2": "sha256:35cfb1c68c05d707316e8c88cf3a3bbbaaa8dd37a8914abea34f8cbc2ebafcae"}, "docker": "quay.io/biocontainers/bioconductor-ncdfflow"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ncdfflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncdfflow", "latest": {"2.44.0--r42hc247a5b_0": "sha256:df96d4f77405c01df67923d10a5d85de3344fd106b37185c87757961ce4d24e1"}, "tags": {"2.40.0--r41hc247a5b_2": "sha256:35cfb1c68c05d707316e8c88cf3a3bbbaaa8dd37a8914abea34f8cbc2ebafcae", "2.44.0--r42hc247a5b_0": "sha256:df96d4f77405c01df67923d10a5d85de3344fd106b37185c87757961ce4d24e1"}, "docker": "quay.io/biocontainers/bioconductor-ncdfflow"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ncdfflow.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ncdfflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ncdfflow:2.40.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-ncdfflow:2.44.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ncdfflow/2.40.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-ncdfflow/2.40.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-ncdfflow/2.44.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-ncdfflow/2.44.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

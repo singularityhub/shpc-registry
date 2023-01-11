@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-biocpkgtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocpkgtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocpkgtools/container.yaml"
-updated_at: "2022-12-19 03:12:22.440753"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2023-01-11 20:18:16.191783"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocpkgtools"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.2--r41hdfd78af_0"
+ - "1.10.1--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocpkgtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocpkgtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocpkgtools", "latest": {"1.8.0--r40hdfd78af_1": "sha256:ecbc83a379477d4a85568dc85519909c88658dbec73432c8fb73c5dc6a6fd78c"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ecbc83a379477d4a85568dc85519909c88658dbec73432c8fb73c5dc6a6fd78c"}, "docker": "quay.io/biocontainers/bioconductor-biocpkgtools", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocpkgtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocpkgtools", "latest": {"1.16.0--r42hdfd78af_0": "sha256:03024cab5b73d7f197dac31e27c3c9eb8c4cd46ac5c04991473339f1d513bfa4"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ecbc83a379477d4a85568dc85519909c88658dbec73432c8fb73c5dc6a6fd78c", "1.16.0--r42hdfd78af_0": "sha256:03024cab5b73d7f197dac31e27c3c9eb8c4cd46ac5c04991473339f1d513bfa4", "1.12.2--r41hdfd78af_0": "sha256:27bc1249bd8ec5f58868648f7d457d44da14f38a5e1e26024eacebd8baa1b4c5", "1.10.1--r41hdfd78af_0": "sha256:6c7076e10bc9a42a1d0a1b25394ceac05e1949d82ac09bac115816ae8c6c1e1d"}, "docker": "quay.io/biocontainers/bioconductor-biocpkgtools", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocpkgtools.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocpkgtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocpkgtools:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-biocpkgtools:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocpkgtools/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-biocpkgtools/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-biocpkgtools/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biocpkgtools/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

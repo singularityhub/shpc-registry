@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-delayeddataframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayeddataframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayeddataframe/container.yaml"
-updated_at: "2022-12-19 03:07:29.974021"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:12:00.581244"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayeddataframe"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-delayeddataframe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-delayeddataframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayeddataframe", "latest": {"1.8.0--r41hdfd78af_0": "sha256:1feb6dfb953239ade388b0787cd000360f795df81bd72e7f31a009de90a07a9a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1feb6dfb953239ade388b0787cd000360f795df81bd72e7f31a009de90a07a9a"}, "docker": "quay.io/biocontainers/bioconductor-delayeddataframe", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-delayeddataframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayeddataframe", "latest": {"1.14.0--r42hdfd78af_0": "sha256:96ca2e59b130fbb114cce2cabdb37ffc8d2a176874175607b981ca0d7289956a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1feb6dfb953239ade388b0787cd000360f795df81bd72e7f31a009de90a07a9a", "1.14.0--r42hdfd78af_0": "sha256:96ca2e59b130fbb114cce2cabdb37ffc8d2a176874175607b981ca0d7289956a", "1.10.0--r41hdfd78af_0": "sha256:e186bf0fd0ce81ad77568c88234c315805b43bc076940bad15ace3dd3950479f"}, "docker": "quay.io/biocontainers/bioconductor-delayeddataframe", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-delayeddataframe.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-delayeddataframe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-delayeddataframe:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-delayeddataframe:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-delayeddataframe/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-delayeddataframe/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-delayeddataframe/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-delayeddataframe/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

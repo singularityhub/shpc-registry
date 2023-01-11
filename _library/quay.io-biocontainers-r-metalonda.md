@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-metalonda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metalonda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metalonda/container.yaml"
-updated_at: "2022-12-19 03:32:51.860803"
-latest: "1.1.8--r41h3121a25_3"
+updated_at: "2023-01-11 20:44:18.479427"
+latest: "1.1.8--r42h3121a25_4"
 container_url: "https://biocontainers.pro/tools/r-metalonda"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.8--r41h3121a25_3"
+ - "1.1.8--r42h3121a25_4"
 description: "shpc-registry automated BioContainers addition for r-metalonda"
-config: {"url": "https://biocontainers.pro/tools/r-metalonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metalonda", "latest": {"1.1.8--r41h3121a25_3": "sha256:e696bc54d78c7a05db3604cecddda9809fd00eeb82b3b80d1d9db99366b41e06"}, "tags": {"1.1.8--r41h3121a25_3": "sha256:e696bc54d78c7a05db3604cecddda9809fd00eeb82b3b80d1d9db99366b41e06"}, "docker": "quay.io/biocontainers/r-metalonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-metalonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metalonda", "latest": {"1.1.8--r42h3121a25_4": "sha256:82fcf6f6faf689fbe9b7ffbf502ce88b7180cded80f9fe262f5302a256d226ba"}, "tags": {"1.1.8--r41h3121a25_3": "sha256:e696bc54d78c7a05db3604cecddda9809fd00eeb82b3b80d1d9db99366b41e06", "1.1.8--r42h3121a25_4": "sha256:82fcf6f6faf689fbe9b7ffbf502ce88b7180cded80f9fe262f5302a256d226ba"}, "docker": "quay.io/biocontainers/r-metalonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metalonda.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-metalonda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metalonda:1.1.8--r41h3121a25_3
+$ shpc install quay.io/biocontainers/r-metalonda:1.1.8--r42h3121a25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metalonda/1.1.8--r41h3121a25_3
-$ module help quay.io/biocontainers/r-metalonda/1.1.8--r41h3121a25_3
+$ module load quay.io/biocontainers/r-metalonda/1.1.8--r42h3121a25_4
+$ module help quay.io/biocontainers/r-metalonda/1.1.8--r42h3121a25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

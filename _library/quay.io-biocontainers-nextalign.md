@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/nextalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextalign/container.yaml"
-updated_at: "2022-12-19 03:20:16.597493"
-latest: "2.8.0--h9ee0642_0"
+updated_at: "2023-01-11 20:28:21.257507"
+latest: "2.9.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/nextalign"
 aliases:
  - "nextalign"
 versions:
  - "2.7.0--h9ee0642_0"
  - "2.8.0--h9ee0642_0"
+ - "2.9.1--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for nextalign"
-config: {"url": "https://biocontainers.pro/tools/nextalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextalign", "latest": {"2.8.0--h9ee0642_0": "sha256:1e1f96e33a05809cae185848a27fcc8f0691c32c34973eefa90af331df5d2ebd"}, "tags": {"2.7.0--h9ee0642_0": "sha256:d7d53b9e97bf7b17d8c3d2e6b6ec964a992be6d00dc54ff67614f0d1fe9b7c4e", "2.8.0--h9ee0642_0": "sha256:1e1f96e33a05809cae185848a27fcc8f0691c32c34973eefa90af331df5d2ebd"}, "docker": "quay.io/biocontainers/nextalign", "aliases": {"nextalign": "/usr/local/bin/nextalign"}}
+config: {"url": "https://biocontainers.pro/tools/nextalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextalign", "latest": {"2.9.1--h9ee0642_0": "sha256:970d59f928126656a383e99d13164f4d36fd73d2dd85964e3ecc08bfae6a36fa"}, "tags": {"2.7.0--h9ee0642_0": "sha256:d7d53b9e97bf7b17d8c3d2e6b6ec964a992be6d00dc54ff67614f0d1fe9b7c4e", "2.8.0--h9ee0642_0": "sha256:1e1f96e33a05809cae185848a27fcc8f0691c32c34973eefa90af331df5d2ebd", "2.9.1--h9ee0642_0": "sha256:970d59f928126656a383e99d13164f4d36fd73d2dd85964e3ecc08bfae6a36fa"}, "docker": "quay.io/biocontainers/nextalign", "aliases": {"nextalign": "/usr/local/bin/nextalign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextalign.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/nextalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nextalign:2.8.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/nextalign:2.9.1--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nextalign/2.8.0--h9ee0642_0
-$ module help quay.io/biocontainers/nextalign/2.8.0--h9ee0642_0
+$ module load quay.io/biocontainers/nextalign/2.9.1--h9ee0642_0
+$ module help quay.io/biocontainers/nextalign/2.9.1--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

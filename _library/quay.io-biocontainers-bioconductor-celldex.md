@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-celldex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celldex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celldex/container.yaml"
-updated_at: "2022-12-19 03:39:27.378080"
-latest: "1.4.0--r41hdfd78af_1"
+updated_at: "2023-01-11 20:52:38.274780"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celldex"
 
 versions:
  - "1.4.0--r41hdfd78af_1"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-celldex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-celldex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celldex", "latest": {"1.4.0--r41hdfd78af_1": "sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3"}, "docker": "quay.io/biocontainers/bioconductor-celldex"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-celldex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celldex", "latest": {"1.8.0--r42hdfd78af_0": "sha256:c875db3c3394ffd691bbcc93ef9527050c0440204d1c18b6297f479682ddc76c"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3", "1.8.0--r42hdfd78af_0": "sha256:c875db3c3394ffd691bbcc93ef9527050c0440204d1c18b6297f479682ddc76c"}, "docker": "quay.io/biocontainers/bioconductor-celldex"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-celldex.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-celldex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-celldex:1.4.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-celldex:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-celldex/1.4.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-celldex/1.4.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-celldex/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-celldex/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

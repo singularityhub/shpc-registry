@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/straindesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straindesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/straindesign/container.yaml"
-updated_at: "2022-12-19 03:10:52.668020"
-latest: "3.1.0--pyh7cba7a3_0"
+updated_at: "2023-01-11 20:16:21.456949"
+latest: "3.2.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/straindesign"
 aliases:
  - "cameo"
@@ -41,8 +41,9 @@ aliases:
  - "certutil"
 versions:
  - "3.1.0--pyh7cba7a3_0"
+ - "3.2.0--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for straindesign"
-config: {"url": "https://biocontainers.pro/tools/straindesign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for straindesign", "latest": {"3.1.0--pyh7cba7a3_0": "sha256:1be012d2ca9a3cd8e636b0caa32d610e5996692493f1aaaeba6a3f02d6242aec"}, "tags": {"3.1.0--pyh7cba7a3_0": "sha256:1be012d2ca9a3cd8e636b0caa32d610e5996692493f1aaaeba6a3f02d6242aec"}, "docker": "quay.io/biocontainers/straindesign", "aliases": {"cameo": "/usr/local/bin/cameo", "depinfo": "/usr/local/bin/depinfo", "grako": "/usr/local/bin/grako", "httpx": "/usr/local/bin/httpx", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "isympy": "/usr/local/bin/isympy", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "pandoc-server": "/usr/local/bin/pandoc-server", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "cmark": "/usr/local/bin/cmark", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "certutil": "/usr/local/bin/certutil"}}
+config: {"url": "https://biocontainers.pro/tools/straindesign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for straindesign", "latest": {"3.2.0--pyh7cba7a3_0": "sha256:3adab192599e2f1c3b00b4fabe85404451a28340dcff0a9c4354d2392ca9336b"}, "tags": {"3.1.0--pyh7cba7a3_0": "sha256:1be012d2ca9a3cd8e636b0caa32d610e5996692493f1aaaeba6a3f02d6242aec", "3.2.0--pyh7cba7a3_0": "sha256:3adab192599e2f1c3b00b4fabe85404451a28340dcff0a9c4354d2392ca9336b"}, "docker": "quay.io/biocontainers/straindesign", "aliases": {"cameo": "/usr/local/bin/cameo", "depinfo": "/usr/local/bin/depinfo", "grako": "/usr/local/bin/grako", "httpx": "/usr/local/bin/httpx", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "isympy": "/usr/local/bin/isympy", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "pandoc-server": "/usr/local/bin/pandoc-server", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "cmark": "/usr/local/bin/cmark", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "certutil": "/usr/local/bin/certutil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/straindesign.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/straindesign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/straindesign:3.1.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/straindesign:3.2.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/straindesign/3.1.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/straindesign/3.1.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/straindesign/3.2.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/straindesign/3.2.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

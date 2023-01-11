@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/povray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/povray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/povray/container.yaml"
-updated_at: "2022-12-19 02:43:03.050373"
+updated_at: "2023-01-11 19:40:00.597727"
 latest: "3.7.0.10"
 container_url: "https://github.com/orgs/autamus/packages/container/package/povray"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "3.7.0.10"
  - "latest"
 description: "The Persistence of Vision Ray Tracer, most commonly acronymed as POV-Ray, is a cross-platform ray-tracing program that generates images from a text-based scene description."
-config: {"docker": "ghcr.io/autamus/povray", "url": "https://github.com/orgs/autamus/packages/container/package/povray", "maintainer": "@vsoch", "description": "The Persistence of Vision Ray Tracer, most commonly acronymed as POV-Ray, is a cross-platform ray-tracing program that generates images from a text-based scene description.", "latest": {"3.7.0.10": "sha256:40fab1ae617f55fccd3f8f213161139413446519afe3c0243241ac20e316026d"}, "tags": {"3.7.0.8": "sha256:0dcc4537884922e967ad123bb655b40df0ee0632063bdc57dd9975ce726ec1f3", "3.7.0.9": "sha256:2b6b1aad9a6ddd5747c872171b26e65f5a2eea77bb59b8d5682e4b7b004c66bb", "3.7.0.10": "sha256:40fab1ae617f55fccd3f8f213161139413446519afe3c0243241ac20e316026d", "latest": "sha256:0dcc4537884922e967ad123bb655b40df0ee0632063bdc57dd9975ce726ec1f3"}, "aliases": {"povray": "/opt/view/bin/povray"}}
+config: {"docker": "ghcr.io/autamus/povray", "url": "https://github.com/orgs/autamus/packages/container/package/povray", "maintainer": "@vsoch", "description": "The Persistence of Vision Ray Tracer, most commonly acronymed as POV-Ray, is a cross-platform ray-tracing program that generates images from a text-based scene description.", "latest": {"3.7.0.10": "sha256:40fab1ae617f55fccd3f8f213161139413446519afe3c0243241ac20e316026d"}, "tags": {"3.7.0.8": "sha256:78e76a31bf7a620cb40e41857d6cc6e23e75fb5c780026fbf951d476ee218dc8", "3.7.0.9": "sha256:2b6b1aad9a6ddd5747c872171b26e65f5a2eea77bb59b8d5682e4b7b004c66bb", "3.7.0.10": "sha256:40fab1ae617f55fccd3f8f213161139413446519afe3c0243241ac20e316026d", "latest": "sha256:78e76a31bf7a620cb40e41857d6cc6e23e75fb5c780026fbf951d476ee218dc8"}, "aliases": {"povray": "/opt/view/bin/povray"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/povray.

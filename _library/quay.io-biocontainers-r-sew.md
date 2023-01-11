@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-sew"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sew/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sew/container.yaml"
-updated_at: "2022-12-19 03:40:52.788776"
-latest: "1.0.1--r41h9f5acd7_1"
+updated_at: "2023-01-11 20:54:29.635692"
+latest: "1.0.1--r42h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/r-sew"
 aliases:
  - "rsync-ssl"
@@ -20,8 +20,9 @@ aliases:
  - "base64"
 versions:
  - "1.0.1--r41h9f5acd7_1"
+ - "1.0.1--r42h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for r-sew"
-config: {"url": "https://biocontainers.pro/tools/r-sew", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sew", "latest": {"1.0.1--r41h9f5acd7_1": "sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7"}, "tags": {"1.0.1--r41h9f5acd7_1": "sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7"}, "docker": "quay.io/biocontainers/r-sew", "aliases": {"rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64"}}
+config: {"url": "https://biocontainers.pro/tools/r-sew", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sew", "latest": {"1.0.1--r42h9f5acd7_2": "sha256:271fa5a7ad69d70eab0a091bbfa4e2a77671449b50d865f9292139be40c5bcbd"}, "tags": {"1.0.1--r41h9f5acd7_1": "sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7", "1.0.1--r42h9f5acd7_2": "sha256:271fa5a7ad69d70eab0a091bbfa4e2a77671449b50d865f9292139be40c5bcbd"}, "docker": "quay.io/biocontainers/r-sew", "aliases": {"rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sew.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-sew
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sew:1.0.1--r41h9f5acd7_1
+$ shpc install quay.io/biocontainers/r-sew:1.0.1--r42h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sew/1.0.1--r41h9f5acd7_1
-$ module help quay.io/biocontainers/r-sew/1.0.1--r41h9f5acd7_1
+$ module load quay.io/biocontainers/r-sew/1.0.1--r42h9f5acd7_2
+$ module help quay.io/biocontainers/r-sew/1.0.1--r42h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

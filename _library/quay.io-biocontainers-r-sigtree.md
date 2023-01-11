@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-sigtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigtree/container.yaml"
-updated_at: "2022-12-19 03:36:56.126334"
-latest: "1.10.6--r41h73dbb54_9"
+updated_at: "2023-01-11 20:49:21.438072"
+latest: "1.10.6--r42h73dbb54_10"
 container_url: "https://biocontainers.pro/tools/r-sigtree"
 
 versions:
  - "1.10.6--r41h73dbb54_9"
+ - "1.10.6--r42h73dbb54_10"
 description: "shpc-registry automated BioContainers addition for r-sigtree"
-config: {"url": "https://biocontainers.pro/tools/r-sigtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigtree", "latest": {"1.10.6--r41h73dbb54_9": "sha256:15cba20b52d3e01055b8be8ea06509ba7b3313c0570fe365c0fc6c7ae93cc236"}, "tags": {"1.10.6--r41h73dbb54_9": "sha256:15cba20b52d3e01055b8be8ea06509ba7b3313c0570fe365c0fc6c7ae93cc236"}, "docker": "quay.io/biocontainers/r-sigtree"}
+config: {"url": "https://biocontainers.pro/tools/r-sigtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigtree", "latest": {"1.10.6--r42h73dbb54_10": "sha256:70fe1f758c62b58035f8cf62fe4a83b8aae521b303f62a432ca54653862f19de"}, "tags": {"1.10.6--r41h73dbb54_9": "sha256:15cba20b52d3e01055b8be8ea06509ba7b3313c0570fe365c0fc6c7ae93cc236", "1.10.6--r42h73dbb54_10": "sha256:70fe1f758c62b58035f8cf62fe4a83b8aae521b303f62a432ca54653862f19de"}, "docker": "quay.io/biocontainers/r-sigtree"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sigtree.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-sigtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sigtree:1.10.6--r41h73dbb54_9
+$ shpc install quay.io/biocontainers/r-sigtree:1.10.6--r42h73dbb54_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sigtree/1.10.6--r41h73dbb54_9
-$ module help quay.io/biocontainers/r-sigtree/1.10.6--r41h73dbb54_9
+$ module load quay.io/biocontainers/r-sigtree/1.10.6--r42h73dbb54_10
+$ module help quay.io/biocontainers/r-sigtree/1.10.6--r42h73dbb54_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

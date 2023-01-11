@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-norway981.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-norway981.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-norway981.db/container.yaml"
-updated_at: "2022-12-19 03:01:19.556406"
-latest: "3.2.3--r41hdfd78af_9"
+updated_at: "2023-01-11 20:04:01.668191"
+latest: "3.2.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-norway981.db"
 
 versions:
  - "3.2.3--r41hdfd78af_9"
+ - "3.2.3--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-norway981.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-norway981.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norway981.db", "latest": {"3.2.3--r41hdfd78af_9": "sha256:a8d92880313dce7de1a6b77a17ba5b5f3ee4cbbe03a2a466d59686dd428d9f42"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:a8d92880313dce7de1a6b77a17ba5b5f3ee4cbbe03a2a466d59686dd428d9f42"}, "docker": "quay.io/biocontainers/bioconductor-norway981.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-norway981.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norway981.db", "latest": {"3.2.3--r42hdfd78af_10": "sha256:02f613d59a80a43edc3cf003476f1a94e2257eda41607b6392be327648278645"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:a8d92880313dce7de1a6b77a17ba5b5f3ee4cbbe03a2a466d59686dd428d9f42", "3.2.3--r42hdfd78af_10": "sha256:02f613d59a80a43edc3cf003476f1a94e2257eda41607b6392be327648278645"}, "docker": "quay.io/biocontainers/bioconductor-norway981.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-norway981.db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-norway981.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-norway981.db:3.2.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-norway981.db:3.2.3--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-norway981.db/3.2.3--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

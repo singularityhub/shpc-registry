@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-newick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-newick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-newick/container.yaml"
-updated_at: "2022-12-19 03:04:23.201046"
-latest: "1.3.2--pyh5e36f6f_0"
+updated_at: "2023-01-11 20:08:04.100198"
+latest: "1.4.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/python-newick"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.3.2--pyh5e36f6f_0"
+ - "1.4.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for python-newick"
-config: {"url": "https://biocontainers.pro/tools/python-newick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-newick", "latest": {"1.3.2--pyh5e36f6f_0": "sha256:39911c6233ad17c924924b82206cbb6008ebb761b07d6d19000e6a24298c1574"}, "tags": {"1.3.2--pyh5e36f6f_0": "sha256:39911c6233ad17c924924b82206cbb6008ebb761b07d6d19000e6a24298c1574"}, "docker": "quay.io/biocontainers/python-newick", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-newick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-newick", "latest": {"1.4.0--pyh7cba7a3_0": "sha256:85ae90ce0dcb4d0ec2b1a5fd87c5bb12bbe4e8443317471f4e4c62822f9bb337"}, "tags": {"1.3.2--pyh5e36f6f_0": "sha256:39911c6233ad17c924924b82206cbb6008ebb761b07d6d19000e6a24298c1574", "1.4.0--pyh7cba7a3_0": "sha256:85ae90ce0dcb4d0ec2b1a5fd87c5bb12bbe4e8443317471f4e4c62822f9bb337"}, "docker": "quay.io/biocontainers/python-newick", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-newick.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/python-newick
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-newick:1.3.2--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/python-newick:1.4.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-newick/1.3.2--pyh5e36f6f_0
-$ module help quay.io/biocontainers/python-newick/1.3.2--pyh5e36f6f_0
+$ module load quay.io/biocontainers/python-newick/1.4.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/python-newick/1.4.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biodbncbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbncbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbncbi/container.yaml"
-updated_at: "2022-12-19 02:54:40.629398"
+updated_at: "2023-01-11 19:55:12.676465"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbncbi"
 

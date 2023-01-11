@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-xhybcasneuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xhybcasneuf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xhybcasneuf/container.yaml"
-updated_at: "2022-12-19 03:42:01.348790"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2023-01-11 20:55:59.572877"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xhybcasneuf"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xhybcasneuf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xhybcasneuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xhybcasneuf", "latest": {"1.32.0--r41hdfd78af_1": "sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a"}, "docker": "quay.io/biocontainers/bioconductor-xhybcasneuf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xhybcasneuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xhybcasneuf", "latest": {"1.36.0--r42hdfd78af_0": "sha256:b252f02b165d936a3e659b6ad5456588f914f93c629ad557efdd56e27a934a82"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a", "1.36.0--r42hdfd78af_0": "sha256:b252f02b165d936a3e659b6ad5456588f914f93c629ad557efdd56e27a934a82"}, "docker": "quay.io/biocontainers/bioconductor-xhybcasneuf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xhybcasneuf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xhybcasneuf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xhybcasneuf:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-xhybcasneuf:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xhybcasneuf/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-xhybcasneuf/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-xhybcasneuf/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-xhybcasneuf/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

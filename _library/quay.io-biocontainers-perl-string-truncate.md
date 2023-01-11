@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-string-truncate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-truncate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-truncate/container.yaml"
-updated_at: "2022-12-19 02:49:34.169284"
-latest: "1.100602--pl5321hdfd78af_1"
+updated_at: "2023-01-11 19:48:25.250070"
+latest: "1.100603--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-string-truncate"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.100602--pl5321hdfd78af_1"
+ - "1.100603--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-string-truncate"
-config: {"url": "https://biocontainers.pro/tools/perl-string-truncate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-truncate", "latest": {"1.100602--pl5321hdfd78af_1": "sha256:e342db2551c3e5d0793793cd587c13b95f350f132cfe42a02b3fa71a064b6aca"}, "tags": {"1.100602--pl5321hdfd78af_1": "sha256:e342db2551c3e5d0793793cd587c13b95f350f132cfe42a02b3fa71a064b6aca"}, "docker": "quay.io/biocontainers/perl-string-truncate", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-string-truncate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-truncate", "latest": {"1.100603--pl5321hdfd78af_0": "sha256:c1ddeec82382e66f167e6e8fc49b4d78ed671bc47fb27545dd36200c76f95c18"}, "tags": {"1.100602--pl5321hdfd78af_1": "sha256:e342db2551c3e5d0793793cd587c13b95f350f132cfe42a02b3fa71a064b6aca", "1.100603--pl5321hdfd78af_0": "sha256:c1ddeec82382e66f167e6e8fc49b4d78ed671bc47fb27545dd36200c76f95c18"}, "docker": "quay.io/biocontainers/perl-string-truncate", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-string-truncate.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-string-truncate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-string-truncate:1.100602--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-string-truncate:1.100603--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-string-truncate/1.100602--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-string-truncate/1.100602--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-string-truncate/1.100603--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-string-truncate/1.100603--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

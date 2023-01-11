@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-operonhumanv3.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-operonhumanv3.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-operonhumanv3.db/container.yaml"
-updated_at: "2022-12-19 03:28:17.679646"
-latest: "3.2.3--r41hdfd78af_9"
+updated_at: "2023-01-11 20:38:34.703346"
+latest: "3.2.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-operonhumanv3.db"
 
 versions:
  - "3.2.3--r41hdfd78af_9"
+ - "3.2.3--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-operonhumanv3.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-operonhumanv3.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-operonhumanv3.db", "latest": {"3.2.3--r41hdfd78af_9": "sha256:e986be3b5db610ea08be1d944f01ac793dd7120b1f6fbc03724f5a5b59820fdc"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:e986be3b5db610ea08be1d944f01ac793dd7120b1f6fbc03724f5a5b59820fdc"}, "docker": "quay.io/biocontainers/bioconductor-operonhumanv3.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-operonhumanv3.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-operonhumanv3.db", "latest": {"3.2.3--r42hdfd78af_10": "sha256:1f2b1d73fd5c063d7976730fb83c7c35a4076d983e0cf13e384502d0638b297a"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:e986be3b5db610ea08be1d944f01ac793dd7120b1f6fbc03724f5a5b59820fdc", "3.2.3--r42hdfd78af_10": "sha256:1f2b1d73fd5c063d7976730fb83c7c35a4076d983e0cf13e384502d0638b297a"}, "docker": "quay.io/biocontainers/bioconductor-operonhumanv3.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-operonhumanv3.db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-operonhumanv3.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-operonhumanv3.db:3.2.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-operonhumanv3.db:3.2.3--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-operonhumanv3.db/3.2.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-operonhumanv3.db/3.2.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-operonhumanv3.db/3.2.3--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-operonhumanv3.db/3.2.3--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

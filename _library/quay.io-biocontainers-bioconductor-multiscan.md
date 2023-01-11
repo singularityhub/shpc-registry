@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-multiscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multiscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multiscan/container.yaml"
-updated_at: "2022-12-19 02:53:52.214866"
-latest: "1.54.0--r41hc0cfd56_2"
+updated_at: "2023-01-11 19:54:08.564918"
+latest: "1.58.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multiscan"
 
 versions:
  - "1.54.0--r41hc0cfd56_2"
+ - "1.58.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-multiscan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-multiscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multiscan", "latest": {"1.54.0--r41hc0cfd56_2": "sha256:c0f78e8a360775039917d59e1ea66c22dbb6ee3fb69d7c334501259df6b6b374"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:c0f78e8a360775039917d59e1ea66c22dbb6ee3fb69d7c334501259df6b6b374"}, "docker": "quay.io/biocontainers/bioconductor-multiscan"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-multiscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multiscan", "latest": {"1.58.0--r42hc0cfd56_0": "sha256:054aeb1cecf9c0a566c20f2dfad8110803af75da0c1379fb1dbabaf8f2916b62"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:c0f78e8a360775039917d59e1ea66c22dbb6ee3fb69d7c334501259df6b6b374", "1.58.0--r42hc0cfd56_0": "sha256:054aeb1cecf9c0a566c20f2dfad8110803af75da0c1379fb1dbabaf8f2916b62"}, "docker": "quay.io/biocontainers/bioconductor-multiscan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-multiscan.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-multiscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-multiscan:1.54.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-multiscan:1.58.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-multiscan/1.54.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-multiscan/1.54.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-multiscan/1.58.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-multiscan/1.58.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genomescope2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomescope2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomescope2/container.yaml"
-updated_at: "2022-12-19 03:42:25.143370"
-latest: "2.0--py310r41hdfd78af_5"
+updated_at: "2023-01-11 20:56:30.932597"
+latest: "2.0--py311r42hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/genomescope2"
 aliases:
  - "genomescope2"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.0--py310r41hdfd78af_5"
+ - "2.0--py311r42hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for genomescope2"
-config: {"url": "https://biocontainers.pro/tools/genomescope2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomescope2", "latest": {"2.0--py310r41hdfd78af_5": "sha256:454960962859687312ec23f6382cff0ae5eb4ae4dc0603cc3463b3d2e90524b5"}, "tags": {"2.0--py310r41hdfd78af_5": "sha256:454960962859687312ec23f6382cff0ae5eb4ae4dc0603cc3463b3d2e90524b5"}, "docker": "quay.io/biocontainers/genomescope2", "aliases": {"genomescope2": "/usr/local/bin/genomescope2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/genomescope2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomescope2", "latest": {"2.0--py311r42hdfd78af_6": "sha256:99e9fad1f54f83c2e1c1549af901edef1c465717d7fbaa3267b932e5df69e6d0"}, "tags": {"2.0--py310r41hdfd78af_5": "sha256:454960962859687312ec23f6382cff0ae5eb4ae4dc0603cc3463b3d2e90524b5", "2.0--py311r42hdfd78af_6": "sha256:99e9fad1f54f83c2e1c1549af901edef1c465717d7fbaa3267b932e5df69e6d0"}, "docker": "quay.io/biocontainers/genomescope2", "aliases": {"genomescope2": "/usr/local/bin/genomescope2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomescope2.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/genomescope2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomescope2:2.0--py310r41hdfd78af_5
+$ shpc install quay.io/biocontainers/genomescope2:2.0--py311r42hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomescope2/2.0--py310r41hdfd78af_5
-$ module help quay.io/biocontainers/genomescope2/2.0--py310r41hdfd78af_5
+$ module load quay.io/biocontainers/genomescope2/2.0--py311r42hdfd78af_6
+$ module help quay.io/biocontainers/genomescope2/2.0--py311r42hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

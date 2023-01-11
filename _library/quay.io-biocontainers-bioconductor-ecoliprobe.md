@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ecoliprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoliprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoliprobe/container.yaml"
-updated_at: "2022-12-19 03:13:56.328167"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2023-01-11 20:20:16.218907"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoliprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecoliprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecoliprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecoliprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:f4c3d5c95b2a786979e57334f22ed3fee4f3b734d9d51dedd09151060d1c20b0"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:f4c3d5c95b2a786979e57334f22ed3fee4f3b734d9d51dedd09151060d1c20b0"}, "docker": "quay.io/biocontainers/bioconductor-ecoliprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecoliprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecoliprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:aeb5170dd6df9c7e274a4bd6ffecda3f6a5628c92d6643039c0b6650ca0c9075"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:f4c3d5c95b2a786979e57334f22ed3fee4f3b734d9d51dedd09151060d1c20b0", "2.18.0--r42hdfd78af_10": "sha256:aeb5170dd6df9c7e274a4bd6ffecda3f6a5628c92d6643039c0b6650ca0c9075"}, "docker": "quay.io/biocontainers/bioconductor-ecoliprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecoliprobe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ecoliprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ecoliprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-ecoliprobe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ecoliprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-ecoliprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-ecoliprobe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-ecoliprobe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

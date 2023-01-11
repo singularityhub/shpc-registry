@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gemoma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemoma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemoma/container.yaml"
-updated_at: "2022-12-19 03:02:59.769969"
-latest: "1.7.1--hdfd78af_0"
+updated_at: "2023-01-11 20:06:16.550138"
+latest: "1.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gemoma"
 aliases:
  - "GeMoMa"
@@ -21,8 +21,9 @@ aliases:
  - "go.sum"
 versions:
  - "1.7.1--hdfd78af_0"
+ - "1.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gemoma"
-config: {"url": "https://biocontainers.pro/tools/gemoma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemoma", "latest": {"1.7.1--hdfd78af_0": "sha256:04f16e69e42bdf754165ca71899cd3bdfe6a5c462a9e5e928e0c4d66e179daa5"}, "tags": {"1.7.1--hdfd78af_0": "sha256:04f16e69e42bdf754165ca71899cd3bdfe6a5c462a9e5e928e0c4d66e179daa5"}, "docker": "quay.io/biocontainers/gemoma", "aliases": {"GeMoMa": "/usr/local/bin/GeMoMa", "mmseqs": "/usr/local/bin/mmseqs", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "CA.pm": "/usr/local/bin/CA.pm", "awk": "/usr/local/bin/awk", "cacert.pem": "/usr/local/bin/cacert.pem", "gawk": "/usr/local/bin/gawk", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum"}}
+config: {"url": "https://biocontainers.pro/tools/gemoma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemoma", "latest": {"1.9--hdfd78af_0": "sha256:fe8623699eaf572e4317cda1f383f6d8bcf35fa14827f75fde78f0344b1cdf8b"}, "tags": {"1.7.1--hdfd78af_0": "sha256:04f16e69e42bdf754165ca71899cd3bdfe6a5c462a9e5e928e0c4d66e179daa5", "1.9--hdfd78af_0": "sha256:fe8623699eaf572e4317cda1f383f6d8bcf35fa14827f75fde78f0344b1cdf8b"}, "docker": "quay.io/biocontainers/gemoma", "aliases": {"GeMoMa": "/usr/local/bin/GeMoMa", "mmseqs": "/usr/local/bin/mmseqs", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "CA.pm": "/usr/local/bin/CA.pm", "awk": "/usr/local/bin/awk", "cacert.pem": "/usr/local/bin/cacert.pem", "gawk": "/usr/local/bin/gawk", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gemoma.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/gemoma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gemoma:1.7.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/gemoma:1.9--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gemoma/1.7.1--hdfd78af_0
-$ module help quay.io/biocontainers/gemoma/1.7.1--hdfd78af_0
+$ module load quay.io/biocontainers/gemoma/1.9--hdfd78af_0
+$ module help quay.io/biocontainers/gemoma/1.9--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

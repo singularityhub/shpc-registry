@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-macpet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macpet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macpet/container.yaml"
-updated_at: "2022-12-19 03:39:35.497824"
-latest: "1.8.0--r40h5f743cb_0"
+updated_at: "2023-01-11 20:52:48.844309"
+latest: "1.14.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-macpet"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40h5f743cb_0"
+ - "1.14.0--r41hc247a5b_2"
+ - "1.12.0--r41h399db7b_0"
+ - "1.10.0--r40h399db7b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-macpet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-macpet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macpet", "latest": {"1.8.0--r40h5f743cb_0": "sha256:5bbef71603f65c3e3f77c39885686252eefaacf57687bb3ed4c8c9579be66bea"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:5bbef71603f65c3e3f77c39885686252eefaacf57687bb3ed4c8c9579be66bea"}, "docker": "quay.io/biocontainers/bioconductor-macpet", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-macpet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macpet", "latest": {"1.14.0--r41hc247a5b_2": "sha256:a04244c6fe89150995d625c9087be09e09918b21d1bc4dd96b6caa6f7e3d2dc2"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:5bbef71603f65c3e3f77c39885686252eefaacf57687bb3ed4c8c9579be66bea", "1.14.0--r41hc247a5b_2": "sha256:a04244c6fe89150995d625c9087be09e09918b21d1bc4dd96b6caa6f7e3d2dc2", "1.12.0--r41h399db7b_0": "sha256:23c16fbb4bc037d3d86193324fcfe9e2a1d6dbaae1271ddc84fbfda725feced2", "1.10.0--r40h399db7b_2": "sha256:be0ecf7dee1b6197e77b3b39e8c87b04dec505d0eb21b7ab40990fb8dac1f9d6"}, "docker": "quay.io/biocontainers/bioconductor-macpet", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-macpet.
@@ -34,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-macpet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-macpet:1.8.0--r40h5f743cb_0
+$ shpc install quay.io/biocontainers/bioconductor-macpet:1.14.0--r41hc247a5b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-macpet/1.8.0--r40h5f743cb_0
-$ module help quay.io/biocontainers/bioconductor-macpet/1.8.0--r40h5f743cb_0
+$ module load quay.io/biocontainers/bioconductor-macpet/1.14.0--r41hc247a5b_2
+$ module help quay.io/biocontainers/bioconductor-macpet/1.14.0--r41hc247a5b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

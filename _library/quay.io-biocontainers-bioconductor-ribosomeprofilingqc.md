@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ribosomeprofilingqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribosomeprofilingqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribosomeprofilingqc/container.yaml"
-updated_at: "2022-12-19 02:46:43.963197"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:44:43.248540"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribosomeprofilingqc"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ribosomeprofilingqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ribosomeprofilingqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribosomeprofilingqc", "latest": {"1.6.0--r41hdfd78af_0": "sha256:cb0671d16ad850719da2abcc8defba05a7c4ba1bb958c91f061fd19e98e9191f"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cb0671d16ad850719da2abcc8defba05a7c4ba1bb958c91f061fd19e98e9191f"}, "docker": "quay.io/biocontainers/bioconductor-ribosomeprofilingqc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ribosomeprofilingqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribosomeprofilingqc", "latest": {"1.10.0--r42hdfd78af_0": "sha256:db76a5c5983293ea2db5f300fce09b977e288394861b8ff2bc3bc2674cd92253"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cb0671d16ad850719da2abcc8defba05a7c4ba1bb958c91f061fd19e98e9191f", "1.10.0--r42hdfd78af_0": "sha256:db76a5c5983293ea2db5f300fce09b977e288394861b8ff2bc3bc2674cd92253"}, "docker": "quay.io/biocontainers/bioconductor-ribosomeprofilingqc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ribosomeprofilingqc.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ribosomeprofilingqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ribosomeprofilingqc:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ribosomeprofilingqc:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ribosomeprofilingqc/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ribosomeprofilingqc/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ribosomeprofilingqc/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ribosomeprofilingqc/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

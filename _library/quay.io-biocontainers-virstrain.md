@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/virstrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virstrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virstrain/container.yaml"
-updated_at: "2022-12-19 03:24:40.731843"
-latest: "1.12--pyhdfd78af_0"
+updated_at: "2023-01-11 20:33:58.741698"
+latest: "1.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virstrain"
 aliases:
  - "virstrain"
@@ -25,8 +25,9 @@ versions:
  - "1.12--pyhdfd78af_0"
  - "1.11--pyhdfd78af_0"
  - "1.10--pyhdfd78af_0"
+ - "1.13--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for virstrain"
-config: {"url": "https://biocontainers.pro/tools/virstrain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for virstrain", "latest": {"1.12--pyhdfd78af_0": "sha256:c8b466bd77a7b920362fb24630dd1f677ad1eb3c307945f154625fe25ed88f48"}, "tags": {"1.9--pyhdfd78af_0": "sha256:aa540a48ebce9f12e99fdcec7241bba20158af862f83802a3396b32e413617bf", "1.12--pyhdfd78af_0": "sha256:c8b466bd77a7b920362fb24630dd1f677ad1eb3c307945f154625fe25ed88f48", "1.11--pyhdfd78af_0": "sha256:7c05337ba3abd140d36e74aa1660cf0de1f23fbfd29a65544c4b935e41b41e92", "1.10--pyhdfd78af_0": "sha256:6a1b072ae815bcd61158129ac7a197600b5c00ff3cd52e535d33e9a0dc3134fd"}, "docker": "quay.io/biocontainers/virstrain", "aliases": {"virstrain": "/usr/local/bin/virstrain", "virstrain_build": "/usr/local/bin/virstrain_build", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
+config: {"url": "https://biocontainers.pro/tools/virstrain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for virstrain", "latest": {"1.13--pyhdfd78af_0": "sha256:df76cac3a13e44005f9f2d569073af8b5abce6ee215d9dde2cca8b8c35c51b17"}, "tags": {"1.9--pyhdfd78af_0": "sha256:aa540a48ebce9f12e99fdcec7241bba20158af862f83802a3396b32e413617bf", "1.12--pyhdfd78af_0": "sha256:c8b466bd77a7b920362fb24630dd1f677ad1eb3c307945f154625fe25ed88f48", "1.11--pyhdfd78af_0": "sha256:7c05337ba3abd140d36e74aa1660cf0de1f23fbfd29a65544c4b935e41b41e92", "1.10--pyhdfd78af_0": "sha256:6a1b072ae815bcd61158129ac7a197600b5c00ff3cd52e535d33e9a0dc3134fd", "1.13--pyhdfd78af_0": "sha256:df76cac3a13e44005f9f2d569073af8b5abce6ee215d9dde2cca8b8c35c51b17"}, "docker": "quay.io/biocontainers/virstrain", "aliases": {"virstrain": "/usr/local/bin/virstrain", "virstrain_build": "/usr/local/bin/virstrain_build", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/virstrain.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/virstrain
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/virstrain:1.12--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/virstrain:1.13--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/virstrain/1.12--pyhdfd78af_0
-$ module help quay.io/biocontainers/virstrain/1.12--pyhdfd78af_0
+$ module load quay.io/biocontainers/virstrain/1.13--pyhdfd78af_0
+$ module help quay.io/biocontainers/virstrain/1.13--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

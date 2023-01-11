@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/interproscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/interproscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/interproscan/container.yaml"
-updated_at: "2022-12-19 03:37:21.761883"
-latest: "5.55_88.0--hec16e2b_1"
+updated_at: "2023-01-11 20:49:54.968854"
+latest: "5.59_91.0--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/interproscan"
 aliases:
  - "2ft"
@@ -68,8 +68,9 @@ aliases:
  - "_pngtogd2"
 versions:
  - "5.55_88.0--hec16e2b_1"
+ - "5.59_91.0--hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for interproscan"
-config: {"url": "https://biocontainers.pro/tools/interproscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for interproscan", "latest": {"5.55_88.0--hec16e2b_1": "sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481"}, "tags": {"5.55_88.0--hec16e2b_1": "sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481"}, "docker": "quay.io/biocontainers/interproscan", "aliases": {"2ft": "/usr/local/bin/2ft", "6ft": "/usr/local/bin/6ft", "_gdlib-config": "/usr/local/bin/_gdlib-config", "cath-assign-domains": "/usr/local/bin/cath-assign-domains", "cath-cluster": "/usr/local/bin/cath-cluster", "cath-map-clusters": "/usr/local/bin/cath-map-clusters", "cath-refine-align": "/usr/local/bin/cath-refine-align", "cath-resolve-hits": "/usr/local/bin/cath-resolve-hits", "cath-score-align": "/usr/local/bin/cath-score-align", "cath-ssap": "/usr/local/bin/cath-ssap", "cath-superpose": "/usr/local/bin/cath-superpose", "compare_2_profiles.pl": "/usr/local/bin/compare_2_profiles.pl", "fasta_to_fastq.pl": "/usr/local/bin/fasta_to_fastq.pl", "gtop": "/usr/local/bin/gtop", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "htop": "/usr/local/bin/htop", "interproscan.sh": "/usr/local/bin/interproscan.sh", "make_iupac_cmp.pl": "/usr/local/bin/make_iupac_cmp.pl", "pfcalibrateV3": "/usr/local/bin/pfcalibrateV3", "pfdump": "/usr/local/bin/pfdump", "pfemit": "/usr/local/bin/pfemit", "pfindex": "/usr/local/bin/pfindex", "pfmake": "/usr/local/bin/pfmake", "pfpam": "/usr/local/bin/pfpam", "pfscale": "/usr/local/bin/pfscale", "pfscan": "/usr/local/bin/pfscan", "pfscanV3": "/usr/local/bin/pfscanV3", "pfsearch": "/usr/local/bin/pfsearch", "pfsearchV3": "/usr/local/bin/pfsearchV3", "pfw": "/usr/local/bin/pfw", "ps_scan.pl": "/usr/local/bin/ps_scan.pl", "psa2msa": "/usr/local/bin/psa2msa", "ptof": "/usr/local/bin/ptof", "ptoh": "/usr/local/bin/ptoh", "scramble_fasta.pl": "/usr/local/bin/scramble_fasta.pl", "sfld_postprocess": "/usr/local/bin/sfld_postprocess", "sfld_preprocess": "/usr/local/bin/sfld_preprocess", "sfld_preprocess.py": "/usr/local/bin/sfld_preprocess.py", "sort_fasta.pl": "/usr/local/bin/sort_fasta.pl", "split_profile_file.pl": "/usr/local/bin/split_profile_file.pl", "_bdftogd": "/usr/local/bin/_bdftogd", "_gd2copypal": "/usr/local/bin/_gd2copypal", "_gd2togif": "/usr/local/bin/_gd2togif", "_gd2topng": "/usr/local/bin/_gd2topng", "_gdcmpgif": "/usr/local/bin/_gdcmpgif", "_gdparttopng": "/usr/local/bin/_gdparttopng", "_gdtopng": "/usr/local/bin/_gdtopng", "_giftogd2": "/usr/local/bin/_giftogd2", "_pngtogd": "/usr/local/bin/_pngtogd", "_pngtogd2": "/usr/local/bin/_pngtogd2"}}
+config: {"url": "https://biocontainers.pro/tools/interproscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for interproscan", "latest": {"5.59_91.0--hec16e2b_1": "sha256:f5f1afca06ea17ad0c33e652bfb88ea55d1cbcfeea6f10a52d94db86d87c79d8"}, "tags": {"5.55_88.0--hec16e2b_1": "sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481", "5.59_91.0--hec16e2b_1": "sha256:f5f1afca06ea17ad0c33e652bfb88ea55d1cbcfeea6f10a52d94db86d87c79d8"}, "docker": "quay.io/biocontainers/interproscan", "aliases": {"2ft": "/usr/local/bin/2ft", "6ft": "/usr/local/bin/6ft", "_gdlib-config": "/usr/local/bin/_gdlib-config", "cath-assign-domains": "/usr/local/bin/cath-assign-domains", "cath-cluster": "/usr/local/bin/cath-cluster", "cath-map-clusters": "/usr/local/bin/cath-map-clusters", "cath-refine-align": "/usr/local/bin/cath-refine-align", "cath-resolve-hits": "/usr/local/bin/cath-resolve-hits", "cath-score-align": "/usr/local/bin/cath-score-align", "cath-ssap": "/usr/local/bin/cath-ssap", "cath-superpose": "/usr/local/bin/cath-superpose", "compare_2_profiles.pl": "/usr/local/bin/compare_2_profiles.pl", "fasta_to_fastq.pl": "/usr/local/bin/fasta_to_fastq.pl", "gtop": "/usr/local/bin/gtop", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "htop": "/usr/local/bin/htop", "interproscan.sh": "/usr/local/bin/interproscan.sh", "make_iupac_cmp.pl": "/usr/local/bin/make_iupac_cmp.pl", "pfcalibrateV3": "/usr/local/bin/pfcalibrateV3", "pfdump": "/usr/local/bin/pfdump", "pfemit": "/usr/local/bin/pfemit", "pfindex": "/usr/local/bin/pfindex", "pfmake": "/usr/local/bin/pfmake", "pfpam": "/usr/local/bin/pfpam", "pfscale": "/usr/local/bin/pfscale", "pfscan": "/usr/local/bin/pfscan", "pfscanV3": "/usr/local/bin/pfscanV3", "pfsearch": "/usr/local/bin/pfsearch", "pfsearchV3": "/usr/local/bin/pfsearchV3", "pfw": "/usr/local/bin/pfw", "ps_scan.pl": "/usr/local/bin/ps_scan.pl", "psa2msa": "/usr/local/bin/psa2msa", "ptof": "/usr/local/bin/ptof", "ptoh": "/usr/local/bin/ptoh", "scramble_fasta.pl": "/usr/local/bin/scramble_fasta.pl", "sfld_postprocess": "/usr/local/bin/sfld_postprocess", "sfld_preprocess": "/usr/local/bin/sfld_preprocess", "sfld_preprocess.py": "/usr/local/bin/sfld_preprocess.py", "sort_fasta.pl": "/usr/local/bin/sort_fasta.pl", "split_profile_file.pl": "/usr/local/bin/split_profile_file.pl", "_bdftogd": "/usr/local/bin/_bdftogd", "_gd2copypal": "/usr/local/bin/_gd2copypal", "_gd2togif": "/usr/local/bin/_gd2togif", "_gd2topng": "/usr/local/bin/_gd2topng", "_gdcmpgif": "/usr/local/bin/_gdcmpgif", "_gdparttopng": "/usr/local/bin/_gdparttopng", "_gdtopng": "/usr/local/bin/_gdtopng", "_giftogd2": "/usr/local/bin/_giftogd2", "_pngtogd": "/usr/local/bin/_pngtogd", "_pngtogd2": "/usr/local/bin/_pngtogd2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/interproscan.
@@ -84,7 +85,7 @@ $ shpc install quay.io/biocontainers/interproscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/interproscan:5.55_88.0--hec16e2b_1
+$ shpc install quay.io/biocontainers/interproscan:5.59_91.0--hec16e2b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -96,8 +97,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/interproscan/5.55_88.0--hec16e2b_1
-$ module help quay.io/biocontainers/interproscan/5.55_88.0--hec16e2b_1
+$ module load quay.io/biocontainers/interproscan/5.59_91.0--hec16e2b_1
+$ module help quay.io/biocontainers/interproscan/5.59_91.0--hec16e2b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

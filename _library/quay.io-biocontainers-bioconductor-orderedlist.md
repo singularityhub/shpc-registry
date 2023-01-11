@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-orderedlist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orderedlist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orderedlist/container.yaml"
-updated_at: "2022-12-19 02:44:52.983172"
-latest: "1.66.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:42:21.699995"
+latest: "1.70.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orderedlist"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
+ - "1.70.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-orderedlist"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-orderedlist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-orderedlist", "latest": {"1.66.0--r41hdfd78af_0": "sha256:8de59ef1eda6e750f91055f6b850a54c571a542501d80449c7f91b31f8e71d3b"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:8de59ef1eda6e750f91055f6b850a54c571a542501d80449c7f91b31f8e71d3b"}, "docker": "quay.io/biocontainers/bioconductor-orderedlist"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-orderedlist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-orderedlist", "latest": {"1.70.0--r42hdfd78af_0": "sha256:537cb4c4d0f0163e0e1b5190db47e826e991c5367d6b2b8df68098e96f430e6d"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:8de59ef1eda6e750f91055f6b850a54c571a542501d80449c7f91b31f8e71d3b", "1.70.0--r42hdfd78af_0": "sha256:537cb4c4d0f0163e0e1b5190db47e826e991c5367d6b2b8df68098e96f430e6d"}, "docker": "quay.io/biocontainers/bioconductor-orderedlist"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-orderedlist.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-orderedlist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-orderedlist:1.66.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-orderedlist:1.70.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-orderedlist/1.66.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-orderedlist/1.66.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-orderedlist/1.70.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-orderedlist/1.70.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

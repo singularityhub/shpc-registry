@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jobtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jobtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jobtree/container.yaml"
-updated_at: "2022-12-19 03:31:13.407768"
-latest: "3.0.3--py_1"
+updated_at: "2023-01-11 20:42:14.121559"
+latest: "09.04.2017--py_2"
 container_url: "https://biocontainers.pro/tools/jobtree"
 aliases:
  - "jobTreeKill"
@@ -22,8 +22,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "3.0.3--py_1"
+ - "09.04.2017--py_2"
 description: "shpc-registry automated BioContainers addition for jobtree"
-config: {"url": "https://biocontainers.pro/tools/jobtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jobtree", "latest": {"3.0.3--py_1": "sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2"}, "tags": {"3.0.3--py_1": "sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2"}, "docker": "quay.io/biocontainers/jobtree", "aliases": {"jobTreeKill": "/usr/local/bin/jobTreeKill", "jobTreeRestarts": "/usr/local/bin/jobTreeRestarts", "jobTreeStats": "/usr/local/bin/jobTreeStats", "jobTreeStatus": "/usr/local/bin/jobTreeStatus", "multijob": "/usr/local/bin/multijob", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/jobtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jobtree", "latest": {"09.04.2017--py_2": "sha256:677e9b91813920c5f4800a71a66a883df62fd991994f3a0ea6b37631a0cb8ab8"}, "tags": {"3.0.3--py_1": "sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2", "09.04.2017--py_2": "sha256:677e9b91813920c5f4800a71a66a883df62fd991994f3a0ea6b37631a0cb8ab8"}, "docker": "quay.io/biocontainers/jobtree", "aliases": {"jobTreeKill": "/usr/local/bin/jobTreeKill", "jobTreeRestarts": "/usr/local/bin/jobTreeRestarts", "jobTreeStats": "/usr/local/bin/jobTreeStats", "jobTreeStatus": "/usr/local/bin/jobTreeStatus", "multijob": "/usr/local/bin/multijob", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jobtree.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/jobtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jobtree:3.0.3--py_1
+$ shpc install quay.io/biocontainers/jobtree:09.04.2017--py_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jobtree/3.0.3--py_1
-$ module help quay.io/biocontainers/jobtree/3.0.3--py_1
+$ module load quay.io/biocontainers/jobtree/09.04.2017--py_2
+$ module help quay.io/biocontainers/jobtree/09.04.2017--py_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

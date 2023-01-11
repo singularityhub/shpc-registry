@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/igphyml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igphyml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igphyml/container.yaml"
-updated_at: "2022-12-19 03:00:44.102115"
-latest: "1.1.4--hec16e2b_0"
+updated_at: "2023-01-11 20:03:14.139330"
+latest: "1.1.5--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/igphyml"
 aliases:
  - "AlignRecords.py"
@@ -44,8 +44,9 @@ aliases:
  - "blst2tkns"
 versions:
  - "1.1.4--hec16e2b_0"
+ - "1.1.5--hec16e2b_0"
 description: "shpc-registry automated BioContainers addition for igphyml"
-config: {"url": "https://biocontainers.pro/tools/igphyml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igphyml", "latest": {"1.1.4--hec16e2b_0": "sha256:5cbeb391e3b542c8048a91a2b089cc294ed65da6a78a2dd079d95524b907028d"}, "tags": {"1.1.4--hec16e2b_0": "sha256:5cbeb391e3b542c8048a91a2b089cc294ed65da6a78a2dd079d95524b907028d"}, "docker": "quay.io/biocontainers/igphyml", "aliases": {"AlignRecords.py": "/usr/local/bin/AlignRecords.py", "AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "AssignGenes.py": "/usr/local/bin/AssignGenes.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "BuildTrees.py": "/usr/local/bin/BuildTrees.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertDb.py": "/usr/local/bin/ConvertDb.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "CreateGermlines.py": "/usr/local/bin/CreateGermlines.py", "DefineClones.py": "/usr/local/bin/DefineClones.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MakeDb.py": "/usr/local/bin/MakeDb.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseDb.py": "/usr/local/bin/ParseDb.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py", "airr-tools": "/usr/local/bin/airr-tools", "igphyml": "/usr/local/bin/igphyml", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
+config: {"url": "https://biocontainers.pro/tools/igphyml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igphyml", "latest": {"1.1.5--hec16e2b_0": "sha256:acac40085bc503bd2bc599a2a47d9f6708c8156aeda89aa9a7d292bfb948fe5d"}, "tags": {"1.1.4--hec16e2b_0": "sha256:5cbeb391e3b542c8048a91a2b089cc294ed65da6a78a2dd079d95524b907028d", "1.1.5--hec16e2b_0": "sha256:acac40085bc503bd2bc599a2a47d9f6708c8156aeda89aa9a7d292bfb948fe5d"}, "docker": "quay.io/biocontainers/igphyml", "aliases": {"AlignRecords.py": "/usr/local/bin/AlignRecords.py", "AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "AssignGenes.py": "/usr/local/bin/AssignGenes.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "BuildTrees.py": "/usr/local/bin/BuildTrees.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertDb.py": "/usr/local/bin/ConvertDb.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "CreateGermlines.py": "/usr/local/bin/CreateGermlines.py", "DefineClones.py": "/usr/local/bin/DefineClones.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MakeDb.py": "/usr/local/bin/MakeDb.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseDb.py": "/usr/local/bin/ParseDb.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py", "airr-tools": "/usr/local/bin/airr-tools", "igphyml": "/usr/local/bin/igphyml", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igphyml.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/igphyml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/igphyml:1.1.4--hec16e2b_0
+$ shpc install quay.io/biocontainers/igphyml:1.1.5--hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/igphyml/1.1.4--hec16e2b_0
-$ module help quay.io/biocontainers/igphyml/1.1.4--hec16e2b_0
+$ module load quay.io/biocontainers/igphyml/1.1.5--hec16e2b_0
+$ module help quay.io/biocontainers/igphyml/1.1.5--hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

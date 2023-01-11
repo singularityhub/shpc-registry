@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-phenstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenstat/container.yaml"
-updated_at: "2022-12-19 02:57:09.574558"
-latest: "2.30.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:58:28.930243"
+latest: "2.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenstat"
 
 versions:
  - "2.30.0--r41hdfd78af_0"
+ - "2.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phenstat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phenstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenstat", "latest": {"2.30.0--r41hdfd78af_0": "sha256:3a8d3d094c1f9f9fe74641d893511151e08b8df783c226920299d01f888a7604"}, "tags": {"2.30.0--r41hdfd78af_0": "sha256:3a8d3d094c1f9f9fe74641d893511151e08b8df783c226920299d01f888a7604"}, "docker": "quay.io/biocontainers/bioconductor-phenstat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phenstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenstat", "latest": {"2.34.0--r42hdfd78af_0": "sha256:1c2f5389693a8a84ab0e2b02907dd99a0748ff836cf80a9f21fac1d1d0da5d56"}, "tags": {"2.30.0--r41hdfd78af_0": "sha256:3a8d3d094c1f9f9fe74641d893511151e08b8df783c226920299d01f888a7604", "2.34.0--r42hdfd78af_0": "sha256:1c2f5389693a8a84ab0e2b02907dd99a0748ff836cf80a9f21fac1d1d0da5d56"}, "docker": "quay.io/biocontainers/bioconductor-phenstat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phenstat.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phenstat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phenstat:2.30.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-phenstat:2.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phenstat/2.30.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-phenstat/2.30.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-phenstat/2.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phenstat/2.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

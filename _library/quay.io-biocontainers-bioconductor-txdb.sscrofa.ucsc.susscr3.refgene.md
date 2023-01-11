@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
-updated_at: "2022-12-19 03:20:43.881911"
-latest: "3.4.6--r36_1"
+updated_at: "2023-01-11 20:28:55.259360"
+latest: "3.12.0--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,11 @@ aliases:
  - "c99"
 versions:
  - "3.4.6--r36_1"
+ - "3.12.0--r42hdfd78af_5"
+ - "3.11.0--r40_0"
+ - "3.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "latest": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6"}, "tags": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6"}, "docker": "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "latest": {"3.12.0--r42hdfd78af_5": "sha256:8aed5f665cd0ef1d59fb35c99255d444b8060125570f4ede237b3e155275c533"}, "tags": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6", "3.12.0--r42hdfd78af_5": "sha256:8aed5f665cd0ef1d59fb35c99255d444b8060125570f4ede237b3e155275c533", "3.11.0--r40_0": "sha256:cf41d71291f5b01fdbaa987b6ef04f8aabd043bd5e9b1ae0ec7b9ab7a74806ef", "3.10.0--r36_0": "sha256:2d710cb765f091a65e9c990e982fd9b68abb0450e4ab02d58ee711c2cbd47218"}, "docker": "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene.
@@ -29,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene:3.4.6--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene:3.12.0--r42hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/3.4.6--r36_1
-$ module help quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/3.4.6--r36_1
+$ module load quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/3.12.0--r42hdfd78af_5
+$ module help quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/3.12.0--r42hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

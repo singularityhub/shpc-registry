@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-xtropicaliscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xtropicaliscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xtropicaliscdf/container.yaml"
-updated_at: "2022-12-19 03:07:32.858247"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2023-01-11 20:12:04.290474"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-xtropicaliscdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-xtropicaliscdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xtropicaliscdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xtropicaliscdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:5d42e2b261697b8b6c2b8d3537f3a3ab3133f4f4565f4ffd1a89a813acb1f744"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:5d42e2b261697b8b6c2b8d3537f3a3ab3133f4f4565f4ffd1a89a813acb1f744"}, "docker": "quay.io/biocontainers/bioconductor-xtropicaliscdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xtropicaliscdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xtropicaliscdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:ef5dacfe8a9aff3b0423b43311419dd81932f930495d7f52e8c21dbaa8833255"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:5d42e2b261697b8b6c2b8d3537f3a3ab3133f4f4565f4ffd1a89a813acb1f744", "2.18.0--r42hdfd78af_10": "sha256:ef5dacfe8a9aff3b0423b43311419dd81932f930495d7f52e8c21dbaa8833255"}, "docker": "quay.io/biocontainers/bioconductor-xtropicaliscdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xtropicaliscdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xtropicaliscdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xtropicaliscdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-xtropicaliscdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xtropicaliscdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-xtropicaliscdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-xtropicaliscdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-xtropicaliscdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-scruff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scruff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scruff/container.yaml"
-updated_at: "2022-12-19 03:03:36.399915"
-latest: "1.8.3--r40hdfd78af_0"
+updated_at: "2023-01-11 20:07:03.880030"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scruff"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.3--r40hdfd78af_0"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scruff"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scruff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scruff", "latest": {"1.8.3--r40hdfd78af_0": "sha256:9c1966ee7352b7f2b2bdeb23a825f8d37b66442da151cc87d635c3ce5049de01"}, "tags": {"1.8.3--r40hdfd78af_0": "sha256:9c1966ee7352b7f2b2bdeb23a825f8d37b66442da151cc87d635c3ce5049de01"}, "docker": "quay.io/biocontainers/bioconductor-scruff", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scruff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scruff", "latest": {"1.16.0--r42hdfd78af_0": "sha256:522044f27136c39958a2f0f58286b728305920fc36225960d180666b2e4a04fd"}, "tags": {"1.8.3--r40hdfd78af_0": "sha256:9c1966ee7352b7f2b2bdeb23a825f8d37b66442da151cc87d635c3ce5049de01", "1.16.0--r42hdfd78af_0": "sha256:522044f27136c39958a2f0f58286b728305920fc36225960d180666b2e4a04fd", "1.12.0--r41hdfd78af_0": "sha256:65b114ae97f04f318e0b2529c61274c9ed4b52b2731ccc8dfe6d6a5e24a7c621", "1.10.0--r41hdfd78af_0": "sha256:e863f1f408534c5b9578eeea216ed6bd58ac10147bdf744b7d30c63cd82d95f4"}, "docker": "quay.io/biocontainers/bioconductor-scruff", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scruff.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scruff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scruff:1.8.3--r40hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scruff:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scruff/1.8.3--r40hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scruff/1.8.3--r40hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scruff/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scruff/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

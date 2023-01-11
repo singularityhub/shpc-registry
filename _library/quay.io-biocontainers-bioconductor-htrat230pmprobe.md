@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-htrat230pmprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htrat230pmprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htrat230pmprobe/container.yaml"
-updated_at: "2022-12-19 02:47:55.821506"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2023-01-11 19:46:16.386939"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-htrat230pmprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-htrat230pmprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-htrat230pmprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htrat230pmprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:59bcdd084d22e3a3cbf29c0fba7ca4b1c401579ed7910e7bc14e9b1dee5b081c"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:59bcdd084d22e3a3cbf29c0fba7ca4b1c401579ed7910e7bc14e9b1dee5b081c"}, "docker": "quay.io/biocontainers/bioconductor-htrat230pmprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-htrat230pmprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htrat230pmprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:24b34948cb5f5e1f8f3b9811c78c6f8b14833e054f52c45df26d12a6904e5f4a"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:59bcdd084d22e3a3cbf29c0fba7ca4b1c401579ed7910e7bc14e9b1dee5b081c", "2.18.0--r42hdfd78af_10": "sha256:24b34948cb5f5e1f8f3b9811c78c6f8b14833e054f52c45df26d12a6904e5f4a"}, "docker": "quay.io/biocontainers/bioconductor-htrat230pmprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-htrat230pmprobe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-htrat230pmprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-htrat230pmprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-htrat230pmprobe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-htrat230pmprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-htrat230pmprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-htrat230pmprobe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-htrat230pmprobe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

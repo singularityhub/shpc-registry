@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ebimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ebimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ebimage/container.yaml"
-updated_at: "2022-12-19 02:59:11.176314"
-latest: "4.36.0--r41hc247a5b_2"
+updated_at: "2023-01-11 20:01:10.258698"
+latest: "4.40.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ebimage"
 aliases:
  - "fftw-wisdom"
@@ -14,8 +14,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "4.36.0--r41hc247a5b_2"
+ - "4.40.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ebimage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ebimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebimage", "latest": {"4.36.0--r41hc247a5b_2": "sha256:3a4318c3c88f06c470f967aae5473b2524d9067cba30077d65ee81a9eddac5cc"}, "tags": {"4.36.0--r41hc247a5b_2": "sha256:3a4318c3c88f06c470f967aae5473b2524d9067cba30077d65ee81a9eddac5cc"}, "docker": "quay.io/biocontainers/bioconductor-ebimage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ebimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebimage", "latest": {"4.40.0--r42hc247a5b_0": "sha256:b5a367203f4b38f1cef542a631af34afd6014cce6628cacbb7de8a6c8fb97188"}, "tags": {"4.36.0--r41hc247a5b_2": "sha256:3a4318c3c88f06c470f967aae5473b2524d9067cba30077d65ee81a9eddac5cc", "4.40.0--r42hc247a5b_0": "sha256:b5a367203f4b38f1cef542a631af34afd6014cce6628cacbb7de8a6c8fb97188"}, "docker": "quay.io/biocontainers/bioconductor-ebimage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ebimage.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ebimage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ebimage:4.36.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-ebimage:4.40.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ebimage/4.36.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-ebimage/4.36.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-ebimage/4.40.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-ebimage/4.40.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

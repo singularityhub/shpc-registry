@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-celltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celltree/container.yaml"
-updated_at: "2022-12-19 02:49:43.525286"
-latest: "1.24.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:48:37.740165"
+latest: "1.27.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celltree"
 
 versions:
  - "1.24.0--r41hdfd78af_0"
+ - "1.27.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-celltree"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-celltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celltree", "latest": {"1.24.0--r41hdfd78af_0": "sha256:21d453fb3e2a0d6ae475da095563a7054216865f9adc0d2ddd5a31814af313af"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:21d453fb3e2a0d6ae475da095563a7054216865f9adc0d2ddd5a31814af313af"}, "docker": "quay.io/biocontainers/bioconductor-celltree"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-celltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celltree", "latest": {"1.27.0--r42hdfd78af_0": "sha256:c0eea47358204385e375a697f84b710e8bac68819a9272e41ddc10066ad4b521"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:21d453fb3e2a0d6ae475da095563a7054216865f9adc0d2ddd5a31814af313af", "1.27.0--r42hdfd78af_0": "sha256:c0eea47358204385e375a697f84b710e8bac68819a9272e41ddc10066ad4b521"}, "docker": "quay.io/biocontainers/bioconductor-celltree"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-celltree.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-celltree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-celltree:1.24.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-celltree:1.27.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-celltree/1.24.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-celltree/1.24.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-celltree/1.27.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-celltree/1.27.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

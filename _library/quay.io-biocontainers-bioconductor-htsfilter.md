@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-htsfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htsfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htsfilter/container.yaml"
-updated_at: "2022-12-19 03:15:17.881397"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:22:02.465776"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-htsfilter"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-htsfilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-htsfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htsfilter", "latest": {"1.34.0--r41hdfd78af_0": "sha256:a23396136f0611fecb9a64568529ad80878187bfb844923fc9f59320d8777eec"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:a23396136f0611fecb9a64568529ad80878187bfb844923fc9f59320d8777eec"}, "docker": "quay.io/biocontainers/bioconductor-htsfilter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-htsfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htsfilter", "latest": {"1.38.0--r42hdfd78af_0": "sha256:58158710684d4ca7ad6c04135d89ffd444046b6c5eb63241413aa473dbe35f38"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:a23396136f0611fecb9a64568529ad80878187bfb844923fc9f59320d8777eec", "1.38.0--r42hdfd78af_0": "sha256:58158710684d4ca7ad6c04135d89ffd444046b6c5eb63241413aa473dbe35f38"}, "docker": "quay.io/biocontainers/bioconductor-htsfilter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-htsfilter.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-htsfilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-htsfilter:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-htsfilter:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-htsfilter/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-htsfilter/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-htsfilter/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-htsfilter/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

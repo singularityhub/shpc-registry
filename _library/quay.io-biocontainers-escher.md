@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/escher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/escher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/escher/container.yaml"
-updated_at: "2022-12-19 03:08:00.594455"
+updated_at: "2023-01-11 20:12:39.707734"
 latest: "1.7.3--py_0"
 container_url: "https://biocontainers.pro/tools/escher"
 aliases:

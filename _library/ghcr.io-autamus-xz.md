@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/xz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/xz/container.yaml"
-updated_at: "2022-12-19 02:43:07.481904"
+updated_at: "2023-01-11 19:40:06.533614"
 latest: "5.2.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xz"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "5.2.5"
  - "latest"
+ - "5.2.7"
 description: "XZ Utils is free general-purpose data compression software with a high compression ratio."
-config: {"docker": "ghcr.io/autamus/xz", "url": "https://github.com/orgs/autamus/packages/container/package/xz", "maintainer": "@vsoch", "description": "XZ Utils is free general-purpose data compression software with a high compression ratio.", "latest": {"5.2.5": "sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df"}, "tags": {"5.2.5": "sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df", "latest": "sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df"}, "aliases": {"xz": "/opt/view/bin/xz", "xzcat": "/opt/view/bin/xzcat", "xzcmp": "/opt/view/bin/xzcmp", "xzdec": "/opt/view/bin/xzdec", "xzdiff": "/opt/view/bin/xzdiff", "xzegrep": "/opt/view/bin/xzegrep", "xzfgrep": "/opt/view/bin/xzfgrep", "xzgrep": "/opt/view/bin/xzgrep", "xzless": "/opt/view/bin/xzless", "xzmore": "/opt/view/bin/xzmore"}}
+config: {"docker": "ghcr.io/autamus/xz", "url": "https://github.com/orgs/autamus/packages/container/package/xz", "maintainer": "@vsoch", "description": "XZ Utils is free general-purpose data compression software with a high compression ratio.", "latest": {"5.2.5": "sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df"}, "tags": {"5.2.5": "sha256:7b6f93f7ec75feee7074c1d17965e6218eba40e5a53024e3b8a610e42195d0df", "latest": "sha256:9905b11ddb4d9aaca4cbd031965bf0049d1944a93f7fb7d7a49dfbdd3c57e336", "5.2.7": "sha256:9905b11ddb4d9aaca4cbd031965bf0049d1944a93f7fb7d7a49dfbdd3c57e336"}, "aliases": {"xz": "/opt/view/bin/xz", "xzcat": "/opt/view/bin/xzcat", "xzcmp": "/opt/view/bin/xzcmp", "xzdec": "/opt/view/bin/xzdec", "xzdiff": "/opt/view/bin/xzdiff", "xzegrep": "/opt/view/bin/xzegrep", "xzfgrep": "/opt/view/bin/xzfgrep", "xzgrep": "/opt/view/bin/xzgrep", "xzless": "/opt/view/bin/xzless", "xzmore": "/opt/view/bin/xzmore"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/xz.

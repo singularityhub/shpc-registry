@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-xnastring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xnastring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xnastring/container.yaml"
-updated_at: "2022-12-19 02:47:12.540023"
-latest: "1.2.2--r41hc247a5b_1"
+updated_at: "2023-01-11 19:45:20.135634"
+latest: "1.6.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xnastring"
 aliases:
  - "pandoc-server"
  - "pandoc"
 versions:
  - "1.2.2--r41hc247a5b_1"
+ - "1.6.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xnastring"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xnastring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xnastring", "latest": {"1.2.2--r41hc247a5b_1": "sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e"}, "tags": {"1.2.2--r41hc247a5b_1": "sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e"}, "docker": "quay.io/biocontainers/bioconductor-xnastring", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xnastring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xnastring", "latest": {"1.6.0--r42hc247a5b_0": "sha256:1c6c42d8a46672b31dd8dde261236db465f4a54f4824000d8eb023e9655673c6"}, "tags": {"1.2.2--r41hc247a5b_1": "sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e", "1.6.0--r42hc247a5b_0": "sha256:1c6c42d8a46672b31dd8dde261236db465f4a54f4824000d8eb023e9655673c6"}, "docker": "quay.io/biocontainers/bioconductor-xnastring", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xnastring.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xnastring
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xnastring:1.2.2--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-xnastring:1.6.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xnastring/1.2.2--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-xnastring/1.2.2--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-xnastring/1.6.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-xnastring/1.6.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

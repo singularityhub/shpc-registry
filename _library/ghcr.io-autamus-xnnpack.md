@@ -4,15 +4,16 @@ name:  "ghcr.io/autamus/xnnpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xnnpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/xnnpack/container.yaml"
-updated_at: "2022-12-19 02:43:54.164876"
-latest: "2021.02.22"
+updated_at: "2023-01-11 19:41:06.357237"
+latest: "2022.02.16"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xnnpack"
 
 versions:
  - "2021.02.22"
  - "latest"
+ - "2022.02.16"
 description: "High-efficiency floating-point neural network inference operators for mobile, server, and Web"
-config: {"docker": "ghcr.io/autamus/xnnpack", "url": "https://github.com/orgs/autamus/packages/container/package/xnnpack", "maintainer": "@vsoch", "description": "High-efficiency floating-point neural network inference operators for mobile, server, and Web", "latest": {"2021.02.22": "sha256:73c567e8a950b820fb8e1bdbd623a601869ab2c634ecd5790cc0af4dbb53dee0"}, "tags": {"2021.02.22": "sha256:73c567e8a950b820fb8e1bdbd623a601869ab2c634ecd5790cc0af4dbb53dee0", "latest": "sha256:73c567e8a950b820fb8e1bdbd623a601869ab2c634ecd5790cc0af4dbb53dee0"}}
+config: {"docker": "ghcr.io/autamus/xnnpack", "url": "https://github.com/orgs/autamus/packages/container/package/xnnpack", "maintainer": "@vsoch", "description": "High-efficiency floating-point neural network inference operators for mobile, server, and Web", "latest": {"2022.02.16": "sha256:4d09e10aa897e4cda55ec21f4c104073ae6099b9c48a2230ce8f5dbdad5a1329"}, "tags": {"2021.02.22": "sha256:73c567e8a950b820fb8e1bdbd623a601869ab2c634ecd5790cc0af4dbb53dee0", "latest": "sha256:4d09e10aa897e4cda55ec21f4c104073ae6099b9c48a2230ce8f5dbdad5a1329", "2022.02.16": "sha256:4d09e10aa897e4cda55ec21f4c104073ae6099b9c48a2230ce8f5dbdad5a1329"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/xnnpack.
@@ -27,7 +28,7 @@ $ shpc install ghcr.io/autamus/xnnpack
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/xnnpack:2021.02.22
+$ shpc install ghcr.io/autamus/xnnpack:2022.02.16
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/xnnpack/2021.02.22
-$ module help ghcr.io/autamus/xnnpack/2021.02.22
+$ module load ghcr.io/autamus/xnnpack/2022.02.16
+$ module help ghcr.io/autamus/xnnpack/2022.02.16
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

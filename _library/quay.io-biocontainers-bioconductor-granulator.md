@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-granulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-granulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-granulator/container.yaml"
-updated_at: "2022-12-19 03:08:55.212920"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:13:51.038996"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-granulator"
 aliases:
  - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-granulator"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-granulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-granulator", "latest": {"1.2.0--r41hdfd78af_0": "sha256:16a37815a50360d8634ab9f36e19366059aee28a547aa94216d0a806a142d72e"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:16a37815a50360d8634ab9f36e19366059aee28a547aa94216d0a806a142d72e"}, "docker": "quay.io/biocontainers/bioconductor-granulator", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-granulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-granulator", "latest": {"1.6.0--r42hdfd78af_0": "sha256:7723fa8b69c2f7597ab3f739f489bbc993b8e59a4d762ba7de13a22f852f70be"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:16a37815a50360d8634ab9f36e19366059aee28a547aa94216d0a806a142d72e", "1.6.0--r42hdfd78af_0": "sha256:7723fa8b69c2f7597ab3f739f489bbc993b8e59a4d762ba7de13a22f852f70be"}, "docker": "quay.io/biocontainers/bioconductor-granulator", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-granulator.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-granulator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-granulator:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-granulator:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-granulator/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-granulator/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-granulator/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-granulator/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

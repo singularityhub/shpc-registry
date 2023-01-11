@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-metacoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metacoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metacoder/container.yaml"
-updated_at: "2022-12-19 02:55:45.755834"
-latest: "0.3.5--r41hecf12ef_1"
+updated_at: "2023-01-11 19:56:38.668104"
+latest: "0.3.5--r42hecf12ef_2"
 container_url: "https://biocontainers.pro/tools/r-metacoder"
 
 versions:
  - "0.3.5--r41hecf12ef_1"
+ - "0.3.5--r42hecf12ef_2"
 description: "shpc-registry automated BioContainers addition for r-metacoder"
-config: {"url": "https://biocontainers.pro/tools/r-metacoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metacoder", "latest": {"0.3.5--r41hecf12ef_1": "sha256:8696246aa3556d541a75ec7bb7554db97bdfc3a513509cc3bbf4bf58fde44510"}, "tags": {"0.3.5--r41hecf12ef_1": "sha256:8696246aa3556d541a75ec7bb7554db97bdfc3a513509cc3bbf4bf58fde44510"}, "docker": "quay.io/biocontainers/r-metacoder"}
+config: {"url": "https://biocontainers.pro/tools/r-metacoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metacoder", "latest": {"0.3.5--r42hecf12ef_2": "sha256:014f333643f9a42999ff7c1296428e728315227f0fe4616564252563c195f906"}, "tags": {"0.3.5--r41hecf12ef_1": "sha256:8696246aa3556d541a75ec7bb7554db97bdfc3a513509cc3bbf4bf58fde44510", "0.3.5--r42hecf12ef_2": "sha256:014f333643f9a42999ff7c1296428e728315227f0fe4616564252563c195f906"}, "docker": "quay.io/biocontainers/r-metacoder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metacoder.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-metacoder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metacoder:0.3.5--r41hecf12ef_1
+$ shpc install quay.io/biocontainers/r-metacoder:0.3.5--r42hecf12ef_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metacoder/0.3.5--r41hecf12ef_1
-$ module help quay.io/biocontainers/r-metacoder/0.3.5--r41hecf12ef_1
+$ module load quay.io/biocontainers/r-metacoder/0.3.5--r42hecf12ef_2
+$ module help quay.io/biocontainers/r-metacoder/0.3.5--r42hecf12ef_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

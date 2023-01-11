@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-file-slurper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-slurper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-slurper/container.yaml"
-updated_at: "2022-12-19 03:15:19.085234"
-latest: "0.013--pl5321hdfd78af_0"
+updated_at: "2023-01-11 20:22:04.047921"
+latest: "0.014--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-slurper"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.013--pl5321hdfd78af_0"
+ - "0.014--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-file-slurper"
-config: {"url": "https://biocontainers.pro/tools/perl-file-slurper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-slurper", "latest": {"0.013--pl5321hdfd78af_0": "sha256:34b91fc1a38b3510bd3cb7191baca7eefa1eb06913d336caf7b4e882703a0066"}, "tags": {"0.013--pl5321hdfd78af_0": "sha256:34b91fc1a38b3510bd3cb7191baca7eefa1eb06913d336caf7b4e882703a0066"}, "docker": "quay.io/biocontainers/perl-file-slurper", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-slurper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-slurper", "latest": {"0.014--pl5321hdfd78af_0": "sha256:6d305b1be9555449f48963c733b2cf6c51552fcc74bcf0b01e3146d0512a484b"}, "tags": {"0.013--pl5321hdfd78af_0": "sha256:34b91fc1a38b3510bd3cb7191baca7eefa1eb06913d336caf7b4e882703a0066", "0.014--pl5321hdfd78af_0": "sha256:6d305b1be9555449f48963c733b2cf6c51552fcc74bcf0b01e3146d0512a484b"}, "docker": "quay.io/biocontainers/perl-file-slurper", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-slurper.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-file-slurper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-file-slurper:0.013--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-file-slurper:0.014--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-file-slurper/0.013--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-file-slurper/0.013--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-file-slurper/0.014--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-file-slurper/0.014--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

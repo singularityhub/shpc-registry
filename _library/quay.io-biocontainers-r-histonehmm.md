@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-histonehmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-histonehmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-histonehmm/container.yaml"
-updated_at: "2022-12-19 03:22:21.191558"
-latest: "1.8--r41h1aed7a7_4"
+updated_at: "2023-01-11 20:30:58.211793"
+latest: "1.8--r42h1aed7a7_5"
 container_url: "https://biocontainers.pro/tools/r-histonehmm"
 aliases:
  - "pandoc"
 versions:
  - "1.8--r41h1aed7a7_4"
+ - "1.8--r42h1aed7a7_5"
 description: "shpc-registry automated BioContainers addition for r-histonehmm"
-config: {"url": "https://biocontainers.pro/tools/r-histonehmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-histonehmm", "latest": {"1.8--r41h1aed7a7_4": "sha256:8f06c1153c46e6329a9ae138cef7e9987e0ad43a62bb5f635bfd7887424938cc"}, "tags": {"1.8--r41h1aed7a7_4": "sha256:8f06c1153c46e6329a9ae138cef7e9987e0ad43a62bb5f635bfd7887424938cc"}, "docker": "quay.io/biocontainers/r-histonehmm", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-histonehmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-histonehmm", "latest": {"1.8--r42h1aed7a7_5": "sha256:d21332c0fea4272db83825026c4e1a2293971e67d4271eaecdd500b324c1957c"}, "tags": {"1.8--r41h1aed7a7_4": "sha256:8f06c1153c46e6329a9ae138cef7e9987e0ad43a62bb5f635bfd7887424938cc", "1.8--r42h1aed7a7_5": "sha256:d21332c0fea4272db83825026c4e1a2293971e67d4271eaecdd500b324c1957c"}, "docker": "quay.io/biocontainers/r-histonehmm", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-histonehmm.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-histonehmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-histonehmm:1.8--r41h1aed7a7_4
+$ shpc install quay.io/biocontainers/r-histonehmm:1.8--r42h1aed7a7_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-histonehmm/1.8--r41h1aed7a7_4
-$ module help quay.io/biocontainers/r-histonehmm/1.8--r41h1aed7a7_4
+$ module load quay.io/biocontainers/r-histonehmm/1.8--r42h1aed7a7_5
+$ module help quay.io/biocontainers/r-histonehmm/1.8--r42h1aed7a7_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-correp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-correp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-correp/container.yaml"
-updated_at: "2022-12-19 03:21:39.891875"
-latest: "1.60.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:30:05.740334"
+latest: "1.64.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-correp"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
+ - "1.64.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-correp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-correp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-correp", "latest": {"1.60.0--r41hdfd78af_0": "sha256:7819421d528af2e441b8e88bf8fa4ff50e2d98b611c86a37f401f5c11c4deb9a"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:7819421d528af2e441b8e88bf8fa4ff50e2d98b611c86a37f401f5c11c4deb9a"}, "docker": "quay.io/biocontainers/bioconductor-correp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-correp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-correp", "latest": {"1.64.0--r42hdfd78af_0": "sha256:94734a46ec13e45e5dbe40a7f5256f822a299487b353a537b57da227c593afb0"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:7819421d528af2e441b8e88bf8fa4ff50e2d98b611c86a37f401f5c11c4deb9a", "1.64.0--r42hdfd78af_0": "sha256:94734a46ec13e45e5dbe40a7f5256f822a299487b353a537b57da227c593afb0"}, "docker": "quay.io/biocontainers/bioconductor-correp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-correp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-correp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-correp:1.60.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-correp:1.64.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-correp/1.60.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-correp/1.60.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-correp/1.64.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-correp/1.64.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

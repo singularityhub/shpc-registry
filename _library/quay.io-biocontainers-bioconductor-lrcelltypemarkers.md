@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lrcelltypemarkers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lrcelltypemarkers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lrcelltypemarkers/container.yaml"
-updated_at: "2022-12-19 02:44:26.820260"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2023-01-11 19:41:48.111940"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lrcelltypemarkers"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lrcelltypemarkers"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lrcelltypemarkers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lrcelltypemarkers", "latest": {"1.2.0--r41hdfd78af_1": "sha256:35101b6826f23ec1b256dc6e17e13919fb123b21cab982ec449371f488582707"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:35101b6826f23ec1b256dc6e17e13919fb123b21cab982ec449371f488582707"}, "docker": "quay.io/biocontainers/bioconductor-lrcelltypemarkers"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lrcelltypemarkers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lrcelltypemarkers", "latest": {"1.6.0--r42hdfd78af_0": "sha256:d8554cb695cfe868d350a87637851a34079eb475f84287cd19b9835f4b563536"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:35101b6826f23ec1b256dc6e17e13919fb123b21cab982ec449371f488582707", "1.6.0--r42hdfd78af_0": "sha256:d8554cb695cfe868d350a87637851a34079eb475f84287cd19b9835f4b563536"}, "docker": "quay.io/biocontainers/bioconductor-lrcelltypemarkers"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lrcelltypemarkers.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lrcelltypemarkers
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lrcelltypemarkers:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-lrcelltypemarkers:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lrcelltypemarkers/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-lrcelltypemarkers/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-lrcelltypemarkers/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lrcelltypemarkers/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

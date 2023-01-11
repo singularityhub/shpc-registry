@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scvi-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvi-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scvi-tools/container.yaml"
-updated_at: "2022-12-19 03:36:46.913044"
-latest: "0.9.1--py_0"
+updated_at: "2023-01-11 20:49:09.920045"
+latest: "0.14.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scvi-tools"
 aliases:
  - "hyperopt-mongo-worker"
@@ -24,8 +24,13 @@ aliases:
  - "jupyter-nbconvert"
 versions:
  - "0.9.1--py_0"
+ - "0.14.5--pyhdfd78af_1"
+ - "0.13.0--pyhdfd78af_0"
+ - "0.12.2--pyhdfd78af_0"
+ - "0.11.0--pyhdfd78af_0"
+ - "0.10.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scvi-tools"
-config: {"url": "https://biocontainers.pro/tools/scvi-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvi-tools", "latest": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "tags": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "docker": "quay.io/biocontainers/scvi-tools", "aliases": {"hyperopt-mongo-worker": "/usr/local/bin/hyperopt-mongo-worker", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "cmark": "/usr/local/bin/cmark", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert"}}
+config: {"url": "https://biocontainers.pro/tools/scvi-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvi-tools", "latest": {"0.14.5--pyhdfd78af_1": "sha256:ce75572298275a389ee48a8feadd5447908dc432ca0327e74fdf00271949f386"}, "tags": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c", "0.14.5--pyhdfd78af_1": "sha256:ce75572298275a389ee48a8feadd5447908dc432ca0327e74fdf00271949f386", "0.13.0--pyhdfd78af_0": "sha256:8bdd07112e12b5ef5c3d46e37ecf8c8a1fc27ef0dbdcfead0504cc1bbf69f9f6", "0.12.2--pyhdfd78af_0": "sha256:76493e290a682c22291a8d6d33aa95506d84f2c2f44240367579d4989c5efca1", "0.11.0--pyhdfd78af_0": "sha256:fcb7f47acc9fb13ce5d75f7d04fb34493e59b524d74818daf9ee9f605e4b7f52", "0.10.1--pyhdfd78af_0": "sha256:2da9473dfb41692ed4473cd53dc4e8000bb324168055b0213f4b9871bc4264bc"}, "docker": "quay.io/biocontainers/scvi-tools", "aliases": {"hyperopt-mongo-worker": "/usr/local/bin/hyperopt-mongo-worker", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "cmark": "/usr/local/bin/cmark", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scvi-tools.
@@ -40,7 +45,7 @@ $ shpc install quay.io/biocontainers/scvi-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scvi-tools:0.9.1--py_0
+$ shpc install quay.io/biocontainers/scvi-tools:0.14.5--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scvi-tools/0.9.1--py_0
-$ module help quay.io/biocontainers/scvi-tools/0.9.1--py_0
+$ module load quay.io/biocontainers/scvi-tools/0.14.5--pyhdfd78af_1
+$ module help quay.io/biocontainers/scvi-tools/0.14.5--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

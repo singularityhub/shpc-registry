@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alignstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignstats/container.yaml"
-updated_at: "2022-12-19 03:38:13.913821"
-latest: "0.9.1--hec16e2b_2"
+updated_at: "2023-01-11 20:51:03.507426"
+latest: "0.10--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/alignstats"
 aliases:
  - "alignstats"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.9.1--hec16e2b_2"
+ - "0.10--hec16e2b_0"
 description: "shpc-registry automated BioContainers addition for alignstats"
-config: {"url": "https://biocontainers.pro/tools/alignstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignstats", "latest": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b"}, "tags": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b"}, "docker": "quay.io/biocontainers/alignstats", "aliases": {"alignstats": "/usr/local/bin/alignstats", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/alignstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignstats", "latest": {"0.10--hec16e2b_0": "sha256:65a233cc97cc1a5437ff5fdeb5f2d4e7888cb4d347574a55cfda1e62ea76548b"}, "tags": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b", "0.10--hec16e2b_0": "sha256:65a233cc97cc1a5437ff5fdeb5f2d4e7888cb4d347574a55cfda1e62ea76548b"}, "docker": "quay.io/biocontainers/alignstats", "aliases": {"alignstats": "/usr/local/bin/alignstats", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alignstats.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/alignstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alignstats:0.9.1--hec16e2b_2
+$ shpc install quay.io/biocontainers/alignstats:0.10--hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alignstats/0.9.1--hec16e2b_2
-$ module help quay.io/biocontainers/alignstats/0.9.1--hec16e2b_2
+$ module load quay.io/biocontainers/alignstats/0.10--hec16e2b_0
+$ module help quay.io/biocontainers/alignstats/0.10--hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

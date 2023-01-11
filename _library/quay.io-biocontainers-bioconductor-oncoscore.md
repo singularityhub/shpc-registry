@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-oncoscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oncoscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oncoscore/container.yaml"
-updated_at: "2022-12-19 03:38:19.953146"
-latest: "1.22.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:51:11.359073"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oncoscore"
 
 versions:
  - "1.22.0--r41hdfd78af_0"
+ - "1.26.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-oncoscore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oncoscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oncoscore", "latest": {"1.22.0--r41hdfd78af_0": "sha256:dbcd92f5744f2af480a497d1b7cab31a6008d69d294d1c811ef185e5cf8deb54"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:dbcd92f5744f2af480a497d1b7cab31a6008d69d294d1c811ef185e5cf8deb54"}, "docker": "quay.io/biocontainers/bioconductor-oncoscore"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oncoscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oncoscore", "latest": {"1.26.0--r42hdfd78af_0": "sha256:9194c0cab458ba32397cc40257e717f200ae5ffc1043d0214d217d161de0533e"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:dbcd92f5744f2af480a497d1b7cab31a6008d69d294d1c811ef185e5cf8deb54", "1.26.0--r42hdfd78af_0": "sha256:9194c0cab458ba32397cc40257e717f200ae5ffc1043d0214d217d161de0533e"}, "docker": "quay.io/biocontainers/bioconductor-oncoscore"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oncoscore.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-oncoscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-oncoscore:1.22.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-oncoscore:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-oncoscore/1.22.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-oncoscore/1.22.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-oncoscore/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-oncoscore/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/git"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/git/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/git/container.yaml"
-updated_at: "2022-12-19 02:43:55.785038"
-latest: "latest"
+updated_at: "2023-01-11 19:41:08.411693"
+latest: "2.35.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/git"
 aliases:
  - "git"
@@ -16,8 +16,9 @@ aliases:
  - "git-upload-pack"
 versions:
  - "latest"
+ - "2.35.2"
 description: "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows."
-config: {"docker": "ghcr.io/autamus/git", "url": "https://github.com/orgs/autamus/packages/container/package/git", "maintainer": "@vsoch", "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.", "latest": {"latest": "sha256:5413904798e606940b369a10bae5d3c217f2b069429e069f7cc992c47ba9c370"}, "tags": {"latest": "sha256:5413904798e606940b369a10bae5d3c217f2b069429e069f7cc992c47ba9c370"}, "aliases": {"git": "/opt/view/bin/git", "git-cvsserver": "/opt/view/bin/git-cvsserver", "git-receive-pack": "/opt/view/bin/git-receive-pack", "git-shell": "/opt/view/bin/git-shell", "git-upload-archive": "/opt/view/bin/git-upload-archive", "git-upload-pack": "/opt/view/bin/git-upload-pack"}}
+config: {"docker": "ghcr.io/autamus/git", "url": "https://github.com/orgs/autamus/packages/container/package/git", "maintainer": "@vsoch", "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.", "latest": {"2.35.2": "sha256:8ae721c5a052e3b5b23bfd2e397161f94ab0964808ba5793729b983be6daa142"}, "tags": {"latest": "sha256:8ae721c5a052e3b5b23bfd2e397161f94ab0964808ba5793729b983be6daa142", "2.35.2": "sha256:8ae721c5a052e3b5b23bfd2e397161f94ab0964808ba5793729b983be6daa142"}, "aliases": {"git": "/opt/view/bin/git", "git-cvsserver": "/opt/view/bin/git-cvsserver", "git-receive-pack": "/opt/view/bin/git-receive-pack", "git-shell": "/opt/view/bin/git-shell", "git-upload-archive": "/opt/view/bin/git-upload-archive", "git-upload-pack": "/opt/view/bin/git-upload-pack"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/git.
@@ -32,7 +33,7 @@ $ shpc install ghcr.io/autamus/git
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/git:latest
+$ shpc install ghcr.io/autamus/git:2.35.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/git/latest
-$ module help ghcr.io/autamus/git/latest
+$ module load ghcr.io/autamus/git/2.35.2
+$ module help ghcr.io/autamus/git/2.35.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

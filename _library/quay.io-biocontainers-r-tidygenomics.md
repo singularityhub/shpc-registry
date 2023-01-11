@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-tidygenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidygenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidygenomics/container.yaml"
-updated_at: "2022-12-19 02:45:32.104455"
-latest: "0.1.2--r41hecf12ef_4"
+updated_at: "2023-01-11 19:43:11.731134"
+latest: "0.1.2--r42hecf12ef_5"
 container_url: "https://biocontainers.pro/tools/r-tidygenomics"
 
 versions:
  - "0.1.2--r41hecf12ef_4"
+ - "0.1.2--r42hecf12ef_5"
 description: "shpc-registry automated BioContainers addition for r-tidygenomics"
-config: {"url": "https://biocontainers.pro/tools/r-tidygenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tidygenomics", "latest": {"0.1.2--r41hecf12ef_4": "sha256:70e1ed47252e8ef02292e6ba26fc347ad224d6325b2341237258771f57f8a383"}, "tags": {"0.1.2--r41hecf12ef_4": "sha256:70e1ed47252e8ef02292e6ba26fc347ad224d6325b2341237258771f57f8a383"}, "docker": "quay.io/biocontainers/r-tidygenomics"}
+config: {"url": "https://biocontainers.pro/tools/r-tidygenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tidygenomics", "latest": {"0.1.2--r42hecf12ef_5": "sha256:fec2c28a6b782cee687bd8c357716e4bcd572d295daa08a536e779a59e78b2e0"}, "tags": {"0.1.2--r41hecf12ef_4": "sha256:70e1ed47252e8ef02292e6ba26fc347ad224d6325b2341237258771f57f8a383", "0.1.2--r42hecf12ef_5": "sha256:fec2c28a6b782cee687bd8c357716e4bcd572d295daa08a536e779a59e78b2e0"}, "docker": "quay.io/biocontainers/r-tidygenomics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tidygenomics.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-tidygenomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tidygenomics:0.1.2--r41hecf12ef_4
+$ shpc install quay.io/biocontainers/r-tidygenomics:0.1.2--r42hecf12ef_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tidygenomics/0.1.2--r41hecf12ef_4
-$ module help quay.io/biocontainers/r-tidygenomics/0.1.2--r41hecf12ef_4
+$ module load quay.io/biocontainers/r-tidygenomics/0.1.2--r42hecf12ef_5
+$ module help quay.io/biocontainers/r-tidygenomics/0.1.2--r42hecf12ef_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

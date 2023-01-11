@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gsva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsva/container.yaml"
-updated_at: "2022-12-19 03:36:40.558082"
-latest: "1.42.0--r41hc0cfd56_2"
+updated_at: "2023-01-11 20:49:01.948376"
+latest: "1.46.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsva"
 
 versions:
  - "1.42.0--r41hc0cfd56_2"
+ - "1.46.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsva"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsva", "latest": {"1.42.0--r41hc0cfd56_2": "sha256:f5a0a282e384289c54aaee024c4898ad7030c3c03ae324626097f457944984a9"}, "tags": {"1.42.0--r41hc0cfd56_2": "sha256:f5a0a282e384289c54aaee024c4898ad7030c3c03ae324626097f457944984a9"}, "docker": "quay.io/biocontainers/bioconductor-gsva"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsva", "latest": {"1.46.0--r42hc0cfd56_0": "sha256:8e97c964798b56090d6eb8c4c3d33ae785e4e968eb6d01278103948ff3bb0018"}, "tags": {"1.42.0--r41hc0cfd56_2": "sha256:f5a0a282e384289c54aaee024c4898ad7030c3c03ae324626097f457944984a9", "1.46.0--r42hc0cfd56_0": "sha256:8e97c964798b56090d6eb8c4c3d33ae785e4e968eb6d01278103948ff3bb0018"}, "docker": "quay.io/biocontainers/bioconductor-gsva"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsva.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gsva
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gsva:1.42.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-gsva:1.46.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gsva/1.42.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-gsva/1.42.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-gsva/1.46.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-gsva/1.46.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

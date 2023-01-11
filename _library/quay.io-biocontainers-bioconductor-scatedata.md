@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-scatedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scatedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scatedata/container.yaml"
-updated_at: "2022-12-19 03:09:07.849554"
-latest: "1.4.0--r41hdfd78af_1"
+updated_at: "2023-01-11 20:14:07.279470"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scatedata"
 
 versions:
  - "1.4.0--r41hdfd78af_1"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scatedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scatedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scatedata", "latest": {"1.4.0--r41hdfd78af_1": "sha256:647532094995cb2c37748ad7d55a7dfe8d147145d28538d311440e538948139a"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:647532094995cb2c37748ad7d55a7dfe8d147145d28538d311440e538948139a"}, "docker": "quay.io/biocontainers/bioconductor-scatedata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scatedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scatedata", "latest": {"1.8.0--r42hdfd78af_0": "sha256:dba9633c357e86152ce923e1204b86b20d5c5f7db2b20c0a1aa517644e297c84"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:647532094995cb2c37748ad7d55a7dfe8d147145d28538d311440e538948139a", "1.8.0--r42hdfd78af_0": "sha256:dba9633c357e86152ce923e1204b86b20d5c5f7db2b20c0a1aa517644e297c84"}, "docker": "quay.io/biocontainers/bioconductor-scatedata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scatedata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scatedata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scatedata:1.4.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-scatedata:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scatedata/1.4.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-scatedata/1.4.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-scatedata/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scatedata/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

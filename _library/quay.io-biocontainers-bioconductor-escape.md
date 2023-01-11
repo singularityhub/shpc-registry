@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-escape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-escape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-escape/container.yaml"
-updated_at: "2022-12-19 03:30:55.270761"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:41:51.135758"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-escape"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-escape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-escape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-escape", "latest": {"1.4.0--r41hdfd78af_0": "sha256:757ad3f3728d26fee62ada9a3954f5d830083136531accce6d02a09f5e11e14a"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:757ad3f3728d26fee62ada9a3954f5d830083136531accce6d02a09f5e11e14a"}, "docker": "quay.io/biocontainers/bioconductor-escape"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-escape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-escape", "latest": {"1.8.0--r42hdfd78af_0": "sha256:c6ae3a3bad39f9e40d8dc40b75157a9882a2f5cd7c5df4915e07b8c9861d21c3"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:757ad3f3728d26fee62ada9a3954f5d830083136531accce6d02a09f5e11e14a", "1.8.0--r42hdfd78af_0": "sha256:c6ae3a3bad39f9e40d8dc40b75157a9882a2f5cd7c5df4915e07b8c9861d21c3"}, "docker": "quay.io/biocontainers/bioconductor-escape"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-escape.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-escape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-escape:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-escape:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-escape/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-escape/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-escape/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-escape/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

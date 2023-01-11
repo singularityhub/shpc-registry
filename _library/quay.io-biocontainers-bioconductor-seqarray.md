@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-seqarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqarray/container.yaml"
-updated_at: "2022-12-19 03:39:49.027705"
-latest: "1.34.0--r41hc247a5b_2"
+updated_at: "2023-01-11 20:53:06.401290"
+latest: "1.38.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqarray"
 
 versions:
  - "1.34.0--r41hc247a5b_2"
+ - "1.38.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-seqarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seqarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqarray", "latest": {"1.34.0--r41hc247a5b_2": "sha256:1dd222beb6a569aff8674e8effb1e3c9f9f739d5b9e3e6f43df9200fbd61eff7"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:1dd222beb6a569aff8674e8effb1e3c9f9f739d5b9e3e6f43df9200fbd61eff7"}, "docker": "quay.io/biocontainers/bioconductor-seqarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seqarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqarray", "latest": {"1.38.0--r42hc247a5b_0": "sha256:c160e8f0f87d2a35468dfa1b632ec310cf384475dd4b992ce35a93d1e166266f"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:1dd222beb6a569aff8674e8effb1e3c9f9f739d5b9e3e6f43df9200fbd61eff7", "1.38.0--r42hc247a5b_0": "sha256:c160e8f0f87d2a35468dfa1b632ec310cf384475dd4b992ce35a93d1e166266f"}, "docker": "quay.io/biocontainers/bioconductor-seqarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seqarray.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seqarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seqarray:1.34.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-seqarray:1.38.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seqarray/1.34.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-seqarray/1.34.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-seqarray/1.38.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-seqarray/1.38.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

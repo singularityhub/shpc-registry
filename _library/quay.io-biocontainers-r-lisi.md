@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-lisi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lisi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lisi/container.yaml"
-updated_at: "2022-12-19 03:35:22.269034"
-latest: "1.0--r41h87f3376_2"
+updated_at: "2023-01-11 20:47:23.146774"
+latest: "1.0--r42h87f3376_3"
 container_url: "https://biocontainers.pro/tools/r-lisi"
 
 versions:
  - "1.0--r41h87f3376_2"
+ - "1.0--r42h87f3376_3"
 description: "shpc-registry automated BioContainers addition for r-lisi"
-config: {"url": "https://biocontainers.pro/tools/r-lisi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lisi", "latest": {"1.0--r41h87f3376_2": "sha256:5289da382b76282584187a4940c70b3ac2b7f07ee516142e27ae8585c5e1acfb"}, "tags": {"1.0--r41h87f3376_2": "sha256:5289da382b76282584187a4940c70b3ac2b7f07ee516142e27ae8585c5e1acfb"}, "docker": "quay.io/biocontainers/r-lisi"}
+config: {"url": "https://biocontainers.pro/tools/r-lisi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lisi", "latest": {"1.0--r42h87f3376_3": "sha256:40d80a74cbfaa1ee76bd4479f9aa15c1535eddee811d4f5c3a7152151c5a0874"}, "tags": {"1.0--r41h87f3376_2": "sha256:5289da382b76282584187a4940c70b3ac2b7f07ee516142e27ae8585c5e1acfb", "1.0--r42h87f3376_3": "sha256:40d80a74cbfaa1ee76bd4479f9aa15c1535eddee811d4f5c3a7152151c5a0874"}, "docker": "quay.io/biocontainers/r-lisi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lisi.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-lisi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-lisi:1.0--r41h87f3376_2
+$ shpc install quay.io/biocontainers/r-lisi:1.0--r42h87f3376_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-lisi/1.0--r41h87f3376_2
-$ module help quay.io/biocontainers/r-lisi/1.0--r41h87f3376_2
+$ module load quay.io/biocontainers/r-lisi/1.0--r42h87f3376_3
+$ module help quay.io/biocontainers/r-lisi/1.0--r42h87f3376_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

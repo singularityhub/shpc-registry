@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-speaq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-speaq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-speaq/container.yaml"
-updated_at: "2022-12-19 02:52:36.998683"
-latest: "2.7.0--r41h3121a25_0"
+updated_at: "2023-01-11 19:52:28.321735"
+latest: "2.7.0--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-speaq"
 
 versions:
  - "2.7.0--r41h3121a25_0"
+ - "2.7.0--r42h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-speaq"
-config: {"url": "https://biocontainers.pro/tools/r-speaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-speaq", "latest": {"2.7.0--r41h3121a25_0": "sha256:5b734b07ac61320950016eb358d17a71c726859819c729aa315607a78a2c4ea8"}, "tags": {"2.7.0--r41h3121a25_0": "sha256:5b734b07ac61320950016eb358d17a71c726859819c729aa315607a78a2c4ea8"}, "docker": "quay.io/biocontainers/r-speaq"}
+config: {"url": "https://biocontainers.pro/tools/r-speaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-speaq", "latest": {"2.7.0--r42h3121a25_1": "sha256:cbd40762858c037b57e565f32e8f6a25b24b43bda794609b1bd99b3fe2d156e4"}, "tags": {"2.7.0--r41h3121a25_0": "sha256:5b734b07ac61320950016eb358d17a71c726859819c729aa315607a78a2c4ea8", "2.7.0--r42h3121a25_1": "sha256:cbd40762858c037b57e565f32e8f6a25b24b43bda794609b1bd99b3fe2d156e4"}, "docker": "quay.io/biocontainers/r-speaq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-speaq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-speaq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-speaq:2.7.0--r41h3121a25_0
+$ shpc install quay.io/biocontainers/r-speaq:2.7.0--r42h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-speaq/2.7.0--r41h3121a25_0
-$ module help quay.io/biocontainers/r-speaq/2.7.0--r41h3121a25_0
+$ module load quay.io/biocontainers/r-speaq/2.7.0--r42h3121a25_1
+$ module help quay.io/biocontainers/r-speaq/2.7.0--r42h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

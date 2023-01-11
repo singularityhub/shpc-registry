@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmmlearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmlearn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmlearn/container.yaml"
-updated_at: "2022-12-19 03:08:41.769186"
-latest: "0.1.1--py27h24bf2e0_0"
+updated_at: "2023-01-11 20:13:33.530697"
+latest: "20151031--py35h24bf2e0_2"
 container_url: "https://biocontainers.pro/tools/hmmlearn"
 aliases:
  - "conv-template"
@@ -19,8 +19,10 @@ aliases:
  - "smtpd.py"
 versions:
  - "0.1.1--py27h24bf2e0_0"
+ - "20151031--py35h24bf2e0_2"
+ - "20151031--py27_1"
 description: "shpc-registry automated BioContainers addition for hmmlearn"
-config: {"url": "https://biocontainers.pro/tools/hmmlearn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmlearn", "latest": {"0.1.1--py27h24bf2e0_0": "sha256:30bb75576fb3d319f5a574872c2b44be47062abea64f293b863d3e9c08090a88"}, "tags": {"0.1.1--py27h24bf2e0_0": "sha256:30bb75576fb3d319f5a574872c2b44be47062abea64f293b863d3e9c08090a88"}, "docker": "quay.io/biocontainers/hmmlearn", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/hmmlearn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmlearn", "latest": {"20151031--py35h24bf2e0_2": "sha256:640d2f7e8a3253d9035c3fb363ecdc428aab5f6c54262308baa10a0762546e86"}, "tags": {"0.1.1--py27h24bf2e0_0": "sha256:30bb75576fb3d319f5a574872c2b44be47062abea64f293b863d3e9c08090a88", "20151031--py35h24bf2e0_2": "sha256:640d2f7e8a3253d9035c3fb363ecdc428aab5f6c54262308baa10a0762546e86", "20151031--py27_1": "sha256:26ed81946ea9b940817e81128c16235c93aa2d2275a70f568fb786b007ee6e67"}, "docker": "quay.io/biocontainers/hmmlearn", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmmlearn.
@@ -35,7 +37,7 @@ $ shpc install quay.io/biocontainers/hmmlearn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmmlearn:0.1.1--py27h24bf2e0_0
+$ shpc install quay.io/biocontainers/hmmlearn:20151031--py35h24bf2e0_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmmlearn/0.1.1--py27h24bf2e0_0
-$ module help quay.io/biocontainers/hmmlearn/0.1.1--py27h24bf2e0_0
+$ module load quay.io/biocontainers/hmmlearn/20151031--py35h24bf2e0_2
+$ module help quay.io/biocontainers/hmmlearn/20151031--py35h24bf2e0_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

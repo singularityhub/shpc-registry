@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dropletutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dropletutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dropletutils/container.yaml"
-updated_at: "2022-12-19 02:44:28.458560"
-latest: "1.8.0--r40h5f743cb_0"
+updated_at: "2023-01-11 19:41:50.199844"
+latest: "1.18.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dropletutils"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40h5f743cb_0"
+ - "1.18.0--r42hc247a5b_0"
+ - "1.14.2--r41hc247a5b_1"
+ - "1.12.1--r41h399db7b_0"
+ - "1.10.3--r40h399db7b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dropletutils"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dropletutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dropletutils", "latest": {"1.8.0--r40h5f743cb_0": "sha256:f25ef5a8370d609e09b8d09ada5006ae9283580e0ce8d124531777874b6eb77f"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:f25ef5a8370d609e09b8d09ada5006ae9283580e0ce8d124531777874b6eb77f"}, "docker": "quay.io/biocontainers/bioconductor-dropletutils", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dropletutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dropletutils", "latest": {"1.18.0--r42hc247a5b_0": "sha256:bba5ee7f5a092246ff1b7bcc2c5629046588e3efa342dcd1c146fb1b3f4274ff"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:f25ef5a8370d609e09b8d09ada5006ae9283580e0ce8d124531777874b6eb77f", "1.18.0--r42hc247a5b_0": "sha256:bba5ee7f5a092246ff1b7bcc2c5629046588e3efa342dcd1c146fb1b3f4274ff", "1.14.2--r41hc247a5b_1": "sha256:8491ea0fc6a75a3e84887de4013201f02065eadae29bdb9b206183afcf200ea9", "1.12.1--r41h399db7b_0": "sha256:c8825376c4e0ecf3d7d270907fa80f445a4b64949f29ae53e8241ee191eba738", "1.10.3--r40h399db7b_0": "sha256:a6bac4ea9f3f805282b2805535a9b77942e799130fd7f92f2a9dc9c55c3e8584"}, "docker": "quay.io/biocontainers/bioconductor-dropletutils", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dropletutils.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dropletutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dropletutils:1.8.0--r40h5f743cb_0
+$ shpc install quay.io/biocontainers/bioconductor-dropletutils:1.18.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dropletutils/1.8.0--r40h5f743cb_0
-$ module help quay.io/biocontainers/bioconductor-dropletutils/1.8.0--r40h5f743cb_0
+$ module load quay.io/biocontainers/bioconductor-dropletutils/1.18.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-dropletutils/1.18.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdm/container.yaml"
-updated_at: "2022-12-19 02:47:52.961971"
-latest: "2.05--hd03093a_0"
+updated_at: "2023-01-11 19:46:12.795662"
+latest: "2.06--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/sdm"
 aliases:
  - "sdm"
 versions:
  - "2.02--hd03093a_1"
  - "2.05--hd03093a_0"
+ - "2.06--hd03093a_0"
 description: "shpc-registry automated BioContainers addition for sdm"
-config: {"url": "https://biocontainers.pro/tools/sdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sdm", "latest": {"2.05--hd03093a_0": "sha256:b5c541c136474e94901c2ab190aeb606c92ac93382a9a0e035845cd54c326c36"}, "tags": {"2.02--hd03093a_1": "sha256:0db36867d5ebc88fedb13104f0cd5fe18c7a4c03d0ee8ea02b6c014c6bb47743", "2.05--hd03093a_0": "sha256:b5c541c136474e94901c2ab190aeb606c92ac93382a9a0e035845cd54c326c36"}, "docker": "quay.io/biocontainers/sdm", "aliases": {"sdm": "/usr/local/bin/sdm"}}
+config: {"url": "https://biocontainers.pro/tools/sdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sdm", "latest": {"2.06--hd03093a_0": "sha256:d9351b5c4555a87da0a8e0a3aa12e74986b5b77831eeb23d685e3f6d400d721d"}, "tags": {"2.02--hd03093a_1": "sha256:0db36867d5ebc88fedb13104f0cd5fe18c7a4c03d0ee8ea02b6c014c6bb47743", "2.05--hd03093a_0": "sha256:b5c541c136474e94901c2ab190aeb606c92ac93382a9a0e035845cd54c326c36", "2.06--hd03093a_0": "sha256:d9351b5c4555a87da0a8e0a3aa12e74986b5b77831eeb23d685e3f6d400d721d"}, "docker": "quay.io/biocontainers/sdm", "aliases": {"sdm": "/usr/local/bin/sdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sdm.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sdm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sdm:2.05--hd03093a_0
+$ shpc install quay.io/biocontainers/sdm:2.06--hd03093a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sdm/2.05--hd03093a_0
-$ module help quay.io/biocontainers/sdm/2.05--hd03093a_0
+$ module load quay.io/biocontainers/sdm/2.06--hd03093a_0
+$ module help quay.io/biocontainers/sdm/2.06--hd03093a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

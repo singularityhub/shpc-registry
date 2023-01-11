@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-bbmisc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bbmisc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bbmisc/container.yaml"
-updated_at: "2022-12-19 03:00:53.900862"
-latest: "1.9--r3.2.2_0"
+updated_at: "2023-01-11 20:03:27.244359"
+latest: "1.11--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-bbmisc"
 aliases:
  - "pngcp"
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.9--r3.2.2_0"
+ - "1.11--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-bbmisc"
-config: {"url": "https://biocontainers.pro/tools/r-bbmisc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bbmisc", "latest": {"1.9--r3.2.2_0": "sha256:aa037935a7c5ce3070f2c2aeaae6ef33f3927060ae07e6596e8ed4b075cc3dda"}, "tags": {"1.9--r3.2.2_0": "sha256:aa037935a7c5ce3070f2c2aeaae6ef33f3927060ae07e6596e8ed4b075cc3dda"}, "docker": "quay.io/biocontainers/r-bbmisc", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-bbmisc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bbmisc", "latest": {"1.11--r3.3.2_0": "sha256:6d8465f25f2969ed48bf727886614661ea859fef6445d02f47e50173b3dc969e"}, "tags": {"1.9--r3.2.2_0": "sha256:aa037935a7c5ce3070f2c2aeaae6ef33f3927060ae07e6596e8ed4b075cc3dda", "1.11--r3.3.2_0": "sha256:6d8465f25f2969ed48bf727886614661ea859fef6445d02f47e50173b3dc969e"}, "docker": "quay.io/biocontainers/r-bbmisc", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bbmisc.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-bbmisc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bbmisc:1.9--r3.2.2_0
+$ shpc install quay.io/biocontainers/r-bbmisc:1.11--r3.3.2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bbmisc/1.9--r3.2.2_0
-$ module help quay.io/biocontainers/r-bbmisc/1.9--r3.2.2_0
+$ module load quay.io/biocontainers/r-bbmisc/1.11--r3.3.2_0
+$ module help quay.io/biocontainers/r-bbmisc/1.11--r3.3.2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-leebamviews"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-leebamviews/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-leebamviews/container.yaml"
-updated_at: "2022-12-19 03:07:42.649241"
-latest: "1.30.1--r41hdfd78af_1"
+updated_at: "2023-01-11 20:12:16.776003"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-leebamviews"
 
 versions:
  - "1.30.1--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-leebamviews"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-leebamviews", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-leebamviews", "latest": {"1.30.1--r41hdfd78af_1": "sha256:3e6014da428d5add2b26f488e84c917f70892660a0c456fbe5b37537c181e37f"}, "tags": {"1.30.1--r41hdfd78af_1": "sha256:3e6014da428d5add2b26f488e84c917f70892660a0c456fbe5b37537c181e37f"}, "docker": "quay.io/biocontainers/bioconductor-leebamviews"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-leebamviews", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-leebamviews", "latest": {"1.34.0--r42hdfd78af_0": "sha256:ef5060536321e6674e9dbca933654f124387883412c0db4bc60f0a4b243090b8"}, "tags": {"1.30.1--r41hdfd78af_1": "sha256:3e6014da428d5add2b26f488e84c917f70892660a0c456fbe5b37537c181e37f", "1.34.0--r42hdfd78af_0": "sha256:ef5060536321e6674e9dbca933654f124387883412c0db4bc60f0a4b243090b8"}, "docker": "quay.io/biocontainers/bioconductor-leebamviews"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-leebamviews.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-leebamviews
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-leebamviews:1.30.1--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-leebamviews:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-leebamviews/1.30.1--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-leebamviews/1.30.1--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-leebamviews/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-leebamviews/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

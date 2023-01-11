@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vkmz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vkmz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vkmz/container.yaml"
-updated_at: "2022-12-19 03:09:08.664760"
-latest: "v1.4dev1--py_0"
+updated_at: "2023-01-11 20:14:08.310314"
+latest: "1.4.6--py_0"
 container_url: "https://biocontainers.pro/tools/vkmz"
 aliases:
  - "vkmz"
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "v1.4dev1--py_0"
+ - "1.4.6--py_0"
 description: "shpc-registry automated BioContainers addition for vkmz"
-config: {"url": "https://biocontainers.pro/tools/vkmz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vkmz", "latest": {"v1.4dev1--py_0": "sha256:28e106ed3ef6f4696b635afb086486db64d02eef4f3ce9aef92d716d70bc30fd"}, "tags": {"v1.4dev1--py_0": "sha256:28e106ed3ef6f4696b635afb086486db64d02eef4f3ce9aef92d716d70bc30fd"}, "docker": "quay.io/biocontainers/vkmz", "aliases": {"vkmz": "/usr/local/bin/vkmz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/vkmz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vkmz", "latest": {"1.4.6--py_0": "sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e"}, "tags": {"v1.4dev1--py_0": "sha256:28e106ed3ef6f4696b635afb086486db64d02eef4f3ce9aef92d716d70bc30fd", "1.4.6--py_0": "sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e"}, "docker": "quay.io/biocontainers/vkmz", "aliases": {"vkmz": "/usr/local/bin/vkmz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vkmz.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/vkmz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vkmz:v1.4dev1--py_0
+$ shpc install quay.io/biocontainers/vkmz:1.4.6--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vkmz/v1.4dev1--py_0
-$ module help quay.io/biocontainers/vkmz/v1.4dev1--py_0
+$ module load quay.io/biocontainers/vkmz/1.4.6--py_0
+$ module help quay.io/biocontainers/vkmz/1.4.6--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

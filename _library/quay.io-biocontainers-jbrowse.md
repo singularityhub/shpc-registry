@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/jbrowse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jbrowse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jbrowse/container.yaml"
-updated_at: "2022-12-19 03:20:19.429187"
-latest: "1.16.9--pl526hc9558a2_0"
+updated_at: "2023-01-11 20:28:24.851361"
+latest: "1.16.11--pl5321h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/jbrowse"
 
 versions:
  - "1.16.9--pl526hc9558a2_0"
+ - "1.16.11--pl5321h9f5acd7_5"
 description: "shpc-registry automated BioContainers addition for jbrowse"
-config: {"url": "https://biocontainers.pro/tools/jbrowse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jbrowse", "latest": {"1.16.9--pl526hc9558a2_0": "sha256:7890bc0143ec06310503467138bce243105c8c699a0d02ffb2903ac75f44601c"}, "tags": {"1.16.9--pl526hc9558a2_0": "sha256:7890bc0143ec06310503467138bce243105c8c699a0d02ffb2903ac75f44601c"}, "docker": "quay.io/biocontainers/jbrowse"}
+config: {"url": "https://biocontainers.pro/tools/jbrowse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jbrowse", "latest": {"1.16.11--pl5321h9f5acd7_5": "sha256:3e45dc608e245eb93abd89df7f0df52d6573befc13209bcbf4dd5b1cbbeded4f"}, "tags": {"1.16.9--pl526hc9558a2_0": "sha256:7890bc0143ec06310503467138bce243105c8c699a0d02ffb2903ac75f44601c", "1.16.11--pl5321h9f5acd7_5": "sha256:3e45dc608e245eb93abd89df7f0df52d6573befc13209bcbf4dd5b1cbbeded4f"}, "docker": "quay.io/biocontainers/jbrowse"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jbrowse.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/jbrowse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jbrowse:1.16.9--pl526hc9558a2_0
+$ shpc install quay.io/biocontainers/jbrowse:1.16.11--pl5321h9f5acd7_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jbrowse/1.16.9--pl526hc9558a2_0
-$ module help quay.io/biocontainers/jbrowse/1.16.9--pl526hc9558a2_0
+$ module load quay.io/biocontainers/jbrowse/1.16.11--pl5321h9f5acd7_5
+$ module help quay.io/biocontainers/jbrowse/1.16.11--pl5321h9f5acd7_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

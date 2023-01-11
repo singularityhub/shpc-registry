@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcfsamplecompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
-updated_at: "2022-12-19 02:57:07.922104"
-latest: "v2.008--pl526_1"
+updated_at: "2023-01-11 19:58:26.779454"
+latest: "2.013--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/vcfsamplecompare"
 aliases:
  - "vcfSampleCompare.pl"
@@ -13,8 +13,9 @@ aliases:
  - "podselect"
 versions:
  - "v2.008--pl526_1"
+ - "2.013--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for vcfsamplecompare"
-config: {"url": "https://biocontainers.pro/tools/vcfsamplecompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfsamplecompare", "latest": {"v2.008--pl526_1": "sha256:5118fbf7ed291e9b58be33f7cc2f023348ffc2607d63b1107060e56369fcc547"}, "tags": {"v2.008--pl526_1": "sha256:5118fbf7ed291e9b58be33f7cc2f023348ffc2607d63b1107060e56369fcc547"}, "docker": "quay.io/biocontainers/vcfsamplecompare", "aliases": {"vcfSampleCompare.pl": "/usr/local/bin/vcfSampleCompare.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/vcfsamplecompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfsamplecompare", "latest": {"2.013--pl5321hdfd78af_2": "sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7"}, "tags": {"v2.008--pl526_1": "sha256:5118fbf7ed291e9b58be33f7cc2f023348ffc2607d63b1107060e56369fcc547", "2.013--pl5321hdfd78af_2": "sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7"}, "docker": "quay.io/biocontainers/vcfsamplecompare", "aliases": {"vcfSampleCompare.pl": "/usr/local/bin/vcfSampleCompare.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcfsamplecompare.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/vcfsamplecompare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcfsamplecompare:v2.008--pl526_1
+$ shpc install quay.io/biocontainers/vcfsamplecompare:2.013--pl5321hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcfsamplecompare/v2.008--pl526_1
-$ module help quay.io/biocontainers/vcfsamplecompare/v2.008--pl526_1
+$ module load quay.io/biocontainers/vcfsamplecompare/2.013--pl5321hdfd78af_2
+$ module help quay.io/biocontainers/vcfsamplecompare/2.013--pl5321hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

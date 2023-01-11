@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-leapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-leapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-leapp/container.yaml"
-updated_at: "2022-12-19 03:39:39.586590"
-latest: "1.3--r41h3342da4_0"
+updated_at: "2023-01-11 20:52:54.143660"
+latest: "1.3--r42h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-leapp"
 
 versions:
  - "1.3--r41h3342da4_0"
+ - "1.3--r42h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-leapp"
-config: {"url": "https://biocontainers.pro/tools/r-leapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leapp", "latest": {"1.3--r41h3342da4_0": "sha256:cb13e5e88d0814d675aa5f3b6a49fca3ebde7ab2070f63149a2f8c6d730d0049"}, "tags": {"1.3--r41h3342da4_0": "sha256:cb13e5e88d0814d675aa5f3b6a49fca3ebde7ab2070f63149a2f8c6d730d0049"}, "docker": "quay.io/biocontainers/r-leapp"}
+config: {"url": "https://biocontainers.pro/tools/r-leapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leapp", "latest": {"1.3--r42h3342da4_1": "sha256:01d5f98ace9392303ffe24b2aed72670ffd02450aa1aa0303f1ced7a631d7664"}, "tags": {"1.3--r41h3342da4_0": "sha256:cb13e5e88d0814d675aa5f3b6a49fca3ebde7ab2070f63149a2f8c6d730d0049", "1.3--r42h3342da4_1": "sha256:01d5f98ace9392303ffe24b2aed72670ffd02450aa1aa0303f1ced7a631d7664"}, "docker": "quay.io/biocontainers/r-leapp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-leapp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-leapp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-leapp:1.3--r41h3342da4_0
+$ shpc install quay.io/biocontainers/r-leapp:1.3--r42h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-leapp/1.3--r41h3342da4_0
-$ module help quay.io/biocontainers/r-leapp/1.3--r41h3342da4_0
+$ module load quay.io/biocontainers/r-leapp/1.3--r42h3342da4_1
+$ module help quay.io/biocontainers/r-leapp/1.3--r42h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

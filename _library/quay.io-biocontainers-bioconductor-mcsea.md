@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mcsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcsea/container.yaml"
-updated_at: "2022-12-19 03:24:24.489597"
-latest: "1.8.0--r40_0"
+updated_at: "2023-01-11 20:33:37.760505"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcsea"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-mcsea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mcsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcsea", "latest": {"1.8.0--r40_0": "sha256:51660120d35c56a1d9beff5f7574789662a67543f24bc3246073b341cc5d0390"}, "tags": {"1.8.0--r40_0": "sha256:51660120d35c56a1d9beff5f7574789662a67543f24bc3246073b341cc5d0390"}, "docker": "quay.io/biocontainers/bioconductor-mcsea", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mcsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcsea", "latest": {"1.18.0--r42hdfd78af_0": "sha256:7273c6d4d7d5d62c8448801d9cb249806e17735adcfb4deb12f95d78333452cb"}, "tags": {"1.8.0--r40_0": "sha256:51660120d35c56a1d9beff5f7574789662a67543f24bc3246073b341cc5d0390", "1.18.0--r42hdfd78af_0": "sha256:7273c6d4d7d5d62c8448801d9cb249806e17735adcfb4deb12f95d78333452cb", "1.14.0--r41hdfd78af_0": "sha256:3f4c9d05d4be623b8a008626105c31b2e300122b88eb199bf2fc9dbde7834d25", "1.12.0--r41hdfd78af_0": "sha256:ae83ab547db3cbfd186d031281230aab94212c3ed1d2227e7d541ffc2cec8bec", "1.10.0--r40hdfd78af_2": "sha256:8846673120362c90d6e4089172a8468bf229d8aec239695b8c74f7e1d5408f8f"}, "docker": "quay.io/biocontainers/bioconductor-mcsea", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mcsea.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mcsea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mcsea:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-mcsea:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mcsea/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-mcsea/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-mcsea/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mcsea/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

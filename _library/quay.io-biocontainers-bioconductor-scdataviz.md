@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-scdataviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scdataviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scdataviz/container.yaml"
-updated_at: "2022-12-19 03:21:46.467533"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:30:14.067396"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scdataviz"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scdataviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scdataviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scdataviz", "latest": {"1.4.0--r41hdfd78af_0": "sha256:fb1a15d3b65b7bdc1dcbb48187576815fa12ba7bd0ac1d946e64fec88d34ede5"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:fb1a15d3b65b7bdc1dcbb48187576815fa12ba7bd0ac1d946e64fec88d34ede5"}, "docker": "quay.io/biocontainers/bioconductor-scdataviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scdataviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scdataviz", "latest": {"1.8.0--r42hdfd78af_0": "sha256:04e17f0917d86c9de100e7a3486b24edd13979cb98adb890dfb45c2133bb2f74"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:fb1a15d3b65b7bdc1dcbb48187576815fa12ba7bd0ac1d946e64fec88d34ede5", "1.8.0--r42hdfd78af_0": "sha256:04e17f0917d86c9de100e7a3486b24edd13979cb98adb890dfb45c2133bb2f74"}, "docker": "quay.io/biocontainers/bioconductor-scdataviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scdataviz.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scdataviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scdataviz:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scdataviz:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scdataviz/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scdataviz/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scdataviz/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scdataviz/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

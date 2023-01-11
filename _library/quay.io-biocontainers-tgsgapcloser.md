@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tgsgapcloser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tgsgapcloser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tgsgapcloser/container.yaml"
-updated_at: "2022-12-19 03:14:49.132976"
-latest: "1.0.3--h5b5514e_2"
+updated_at: "2023-01-11 20:21:24.453582"
+latest: "1.2.1--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/tgsgapcloser"
 aliases:
  - "tgsgapcloser"
@@ -15,8 +15,9 @@ aliases:
  - "k8"
 versions:
  - "1.0.3--h5b5514e_2"
+ - "1.2.1--h5b5514e_0"
 description: "shpc-registry automated BioContainers addition for tgsgapcloser"
-config: {"url": "https://biocontainers.pro/tools/tgsgapcloser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tgsgapcloser", "latest": {"1.0.3--h5b5514e_2": "sha256:1fc88341f01e741a698333ca9f885fd612aa8068833143f8ec4bf6884ee20b02"}, "tags": {"1.0.3--h5b5514e_2": "sha256:1fc88341f01e741a698333ca9f885fd612aa8068833143f8ec4bf6884ee20b02"}, "docker": "quay.io/biocontainers/tgsgapcloser", "aliases": {"tgsgapcloser": "/usr/local/bin/tgsgapcloser", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/tgsgapcloser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tgsgapcloser", "latest": {"1.2.1--h5b5514e_0": "sha256:b068a33532204d9d16428933040de7d52a98ef630eea8aa73f0f854c1e7d0ea2"}, "tags": {"1.0.3--h5b5514e_2": "sha256:1fc88341f01e741a698333ca9f885fd612aa8068833143f8ec4bf6884ee20b02", "1.2.1--h5b5514e_0": "sha256:b068a33532204d9d16428933040de7d52a98ef630eea8aa73f0f854c1e7d0ea2"}, "docker": "quay.io/biocontainers/tgsgapcloser", "aliases": {"tgsgapcloser": "/usr/local/bin/tgsgapcloser", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tgsgapcloser.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/tgsgapcloser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tgsgapcloser:1.0.3--h5b5514e_2
+$ shpc install quay.io/biocontainers/tgsgapcloser:1.2.1--h5b5514e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tgsgapcloser/1.0.3--h5b5514e_2
-$ module help quay.io/biocontainers/tgsgapcloser/1.0.3--h5b5514e_2
+$ module load quay.io/biocontainers/tgsgapcloser/1.2.1--h5b5514e_0
+$ module help quay.io/biocontainers/tgsgapcloser/1.2.1--h5b5514e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

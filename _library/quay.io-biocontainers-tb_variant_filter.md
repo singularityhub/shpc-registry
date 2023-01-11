@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tb_variant_filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tb_variant_filter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tb_variant_filter/container.yaml"
-updated_at: "2022-12-19 02:51:28.275138"
-latest: "0.3.5--pyhdfd78af_0"
+updated_at: "2023-01-11 19:50:57.167953"
+latest: "0.3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tb_variant_filter"
 aliases:
  - "tb_bed_to_region_list"
@@ -22,8 +22,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.3.5--pyhdfd78af_0"
+ - "0.3.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tb_variant_filter"
-config: {"url": "https://biocontainers.pro/tools/tb_variant_filter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tb_variant_filter", "latest": {"0.3.5--pyhdfd78af_0": "sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b"}, "tags": {"0.3.5--pyhdfd78af_0": "sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b"}, "docker": "quay.io/biocontainers/tb_variant_filter", "aliases": {"tb_bed_to_region_list": "/usr/local/bin/tb_bed_to_region_list", "tb_region_list_to_bed": "/usr/local/bin/tb_region_list_to_bed", "tb_variant_filter": "/usr/local/bin/tb_variant_filter", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/tb_variant_filter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tb_variant_filter", "latest": {"0.3.6--pyhdfd78af_0": "sha256:90eed76b423feb818ddb6b3d32134d95512656e24a44c6aac8f4be5e867a39d9"}, "tags": {"0.3.5--pyhdfd78af_0": "sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b", "0.3.6--pyhdfd78af_0": "sha256:90eed76b423feb818ddb6b3d32134d95512656e24a44c6aac8f4be5e867a39d9"}, "docker": "quay.io/biocontainers/tb_variant_filter", "aliases": {"tb_bed_to_region_list": "/usr/local/bin/tb_bed_to_region_list", "tb_region_list_to_bed": "/usr/local/bin/tb_region_list_to_bed", "tb_variant_filter": "/usr/local/bin/tb_variant_filter", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tb_variant_filter.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/tb_variant_filter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tb_variant_filter:0.3.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tb_variant_filter:0.3.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tb_variant_filter/0.3.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/tb_variant_filter/0.3.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/tb_variant_filter/0.3.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/tb_variant_filter/0.3.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

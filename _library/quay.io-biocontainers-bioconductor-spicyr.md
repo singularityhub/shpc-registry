@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spicyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spicyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spicyr/container.yaml"
-updated_at: "2022-12-19 03:18:51.629669"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:26:33.651624"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spicyr"
 aliases:
  - "testepsg"
@@ -20,8 +20,9 @@ aliases:
  - "pdfattach"
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spicyr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spicyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spicyr", "latest": {"1.6.0--r41hdfd78af_0": "sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54"}, "docker": "quay.io/biocontainers/bioconductor-spicyr", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spicyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spicyr", "latest": {"1.10.0--r42hdfd78af_0": "sha256:bd596ef4684891cb4013ae634360004653905ee5d712bb7ca7a93c769b69360c"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54", "1.10.0--r42hdfd78af_0": "sha256:bd596ef4684891cb4013ae634360004653905ee5d712bb7ca7a93c769b69360c"}, "docker": "quay.io/biocontainers/bioconductor-spicyr", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spicyr.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spicyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spicyr:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spicyr:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spicyr/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spicyr/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spicyr/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spicyr/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

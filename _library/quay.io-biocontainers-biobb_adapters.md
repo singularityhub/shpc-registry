@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_adapters"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_adapters/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_adapters/container.yaml"
-updated_at: "2022-12-19 03:16:51.954714"
-latest: "3.7.0--pyhdfd78af_0"
+updated_at: "2023-01-11 20:24:03.221940"
+latest: "3.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_adapters"
 aliases:
  - "bagit.py"
@@ -30,8 +30,9 @@ aliases:
  - "jupyter-nbextension"
 versions:
  - "3.7.0--pyhdfd78af_0"
+ - "3.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_adapters"
-config: {"url": "https://biocontainers.pro/tools/biobb_adapters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_adapters", "latest": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85"}, "tags": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85"}, "docker": "quay.io/biocontainers/biobb_adapters", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "send2trash": "/usr/local/bin/send2trash", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_adapters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_adapters", "latest": {"3.8.1--pyhdfd78af_0": "sha256:471eb904d8c0536eecbe57f48da8360d847981ba5c7f5c9a1499a86c7d88b34d"}, "tags": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85", "3.8.1--pyhdfd78af_0": "sha256:471eb904d8c0536eecbe57f48da8360d847981ba5c7f5c9a1499a86c7d88b34d"}, "docker": "quay.io/biocontainers/biobb_adapters", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "send2trash": "/usr/local/bin/send2trash", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_adapters.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/biobb_adapters
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_adapters:3.7.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_adapters:3.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_adapters/3.7.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_adapters/3.7.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_adapters/3.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_adapters/3.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

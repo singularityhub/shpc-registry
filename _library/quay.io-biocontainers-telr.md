@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/telr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telr/container.yaml"
-updated_at: "2022-12-19 03:23:29.883613"
-latest: "0.2--pyhdfd78af_1"
+updated_at: "2023-01-11 20:32:26.517228"
+latest: "0.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/telr"
 aliases:
  - "DateRepeats"
@@ -46,8 +46,9 @@ aliases:
  - "nettle-pbkdf2"
 versions:
  - "0.2--pyhdfd78af_1"
+ - "0.2--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for telr"
-config: {"url": "https://biocontainers.pro/tools/telr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telr", "latest": {"0.2--pyhdfd78af_1": "sha256:747495fb7770dff6d91720f5236ce20d1d88c9ec036728c30796b292d887a6e1"}, "tags": {"0.2--pyhdfd78af_1": "sha256:747495fb7770dff6d91720f5236ce20d1d88c9ec036728c30796b292d887a6e1"}, "docker": "quay.io/biocontainers/telr", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "ngmlr": "/usr/local/bin/ngmlr", "queryRepeatDatabase.pl": "/usr/local/bin/queryRepeatDatabase.pl", "queryTaxonomyDatabase.pl": "/usr/local/bin/queryTaxonomyDatabase.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "sniffles": "/usr/local/bin/sniffles", "sniffles-debug": "/usr/local/bin/sniffles-debug", "telr": "/usr/local/bin/telr", "trfMask": "/usr/local/bin/trfMask", "wtdbg-cns": "/usr/local/bin/wtdbg-cns", "wtdbg2": "/usr/local/bin/wtdbg2", "wtpoa-cns": "/usr/local/bin/wtpoa-cns", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
+config: {"url": "https://biocontainers.pro/tools/telr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telr", "latest": {"0.2--pyhdfd78af_2": "sha256:1605145779cd5aa45f94a3d7abb229dcd640e1a27a4f4b9819f90a50b116d3db"}, "tags": {"0.2--pyhdfd78af_1": "sha256:747495fb7770dff6d91720f5236ce20d1d88c9ec036728c30796b292d887a6e1", "0.2--pyhdfd78af_2": "sha256:1605145779cd5aa45f94a3d7abb229dcd640e1a27a4f4b9819f90a50b116d3db"}, "docker": "quay.io/biocontainers/telr", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "ngmlr": "/usr/local/bin/ngmlr", "queryRepeatDatabase.pl": "/usr/local/bin/queryRepeatDatabase.pl", "queryTaxonomyDatabase.pl": "/usr/local/bin/queryTaxonomyDatabase.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "sniffles": "/usr/local/bin/sniffles", "sniffles-debug": "/usr/local/bin/sniffles-debug", "telr": "/usr/local/bin/telr", "trfMask": "/usr/local/bin/trfMask", "wtdbg-cns": "/usr/local/bin/wtdbg-cns", "wtdbg2": "/usr/local/bin/wtdbg2", "wtpoa-cns": "/usr/local/bin/wtpoa-cns", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telr.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/telr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/telr:0.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/telr:0.2--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/telr/0.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/telr/0.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/telr/0.2--pyhdfd78af_2
+$ module help quay.io/biocontainers/telr/0.2--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

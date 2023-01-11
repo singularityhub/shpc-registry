@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-beachmat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beachmat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beachmat/container.yaml"
-updated_at: "2022-12-19 02:44:44.017795"
-latest: "2.8.0--r41h399db7b_0"
+updated_at: "2023-01-11 19:42:10.182286"
+latest: "2.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beachmat"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r41h399db7b_0"
+ - "2.14.0--r42hc247a5b_0"
+ - "2.10.0--r41hc247a5b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-beachmat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-beachmat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-beachmat", "latest": {"2.8.0--r41h399db7b_0": "sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927"}, "tags": {"2.8.0--r41h399db7b_0": "sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927"}, "docker": "quay.io/biocontainers/bioconductor-beachmat", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-beachmat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-beachmat", "latest": {"2.14.0--r42hc247a5b_0": "sha256:f24cbf0d202ad3a5091f8c0cb35440f57c83880ff5757d01ac52c9acf0bd75db"}, "tags": {"2.8.0--r41h399db7b_0": "sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927", "2.14.0--r42hc247a5b_0": "sha256:f24cbf0d202ad3a5091f8c0cb35440f57c83880ff5757d01ac52c9acf0bd75db", "2.10.0--r41hc247a5b_2": "sha256:e69c1cce07f67cb7248da843f945e32332b94d91bc72e27dd2c36ae70a200a2d"}, "docker": "quay.io/biocontainers/bioconductor-beachmat", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-beachmat.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-beachmat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-beachmat:2.8.0--r41h399db7b_0
+$ shpc install quay.io/biocontainers/bioconductor-beachmat:2.14.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-beachmat/2.8.0--r41h399db7b_0
-$ module help quay.io/biocontainers/bioconductor-beachmat/2.8.0--r41h399db7b_0
+$ module load quay.io/biocontainers/bioconductor-beachmat/2.14.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-beachmat/2.14.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

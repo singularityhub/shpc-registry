@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hcadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hcadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hcadata/container.yaml"
-updated_at: "2022-12-19 02:44:36.234719"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:42:00.235610"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hcadata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hcadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hcadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hcadata", "latest": {"1.8.0--r41hdfd78af_0": "sha256:6baf1a0264ab1df61cd104521b69af99aaf822adb929a8e9508d03af07228ff1"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6baf1a0264ab1df61cd104521b69af99aaf822adb929a8e9508d03af07228ff1"}, "docker": "quay.io/biocontainers/bioconductor-hcadata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hcadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hcadata", "latest": {"1.14.0--r42hdfd78af_0": "sha256:854b7ace84b74aeec4c05c9c198660b214a82750bdcd94cc40af7e1016d9dad4"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6baf1a0264ab1df61cd104521b69af99aaf822adb929a8e9508d03af07228ff1", "1.14.0--r42hdfd78af_0": "sha256:854b7ace84b74aeec4c05c9c198660b214a82750bdcd94cc40af7e1016d9dad4", "1.10.0--r41hdfd78af_1": "sha256:326446b66a44dd85a30138a754a041b66da50d197dd9d07e63f7704bac95aa24"}, "docker": "quay.io/biocontainers/bioconductor-hcadata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hcadata.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hcadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hcadata:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hcadata:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hcadata/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hcadata/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hcadata/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hcadata/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

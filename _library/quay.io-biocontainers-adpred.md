@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/adpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adpred/container.yaml"
-updated_at: "2022-12-19 03:02:21.864015"
-latest: "1.2.8--pyhdfd78af_0"
+updated_at: "2023-01-11 20:05:26.153289"
+latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/adpred"
 aliases:
  - "run-adpred"
@@ -21,8 +21,9 @@ aliases:
  - "tensorboard"
 versions:
  - "1.2.8--pyhdfd78af_0"
+ - "1.3.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for adpred"
-config: {"url": "https://biocontainers.pro/tools/adpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for adpred", "latest": {"1.2.8--pyhdfd78af_0": "sha256:f4cf70e21de0a34f1f3af34bb98867ae72e8a2ddae0619fa7eaee3a1acd46c72"}, "tags": {"1.2.8--pyhdfd78af_0": "sha256:f4cf70e21de0a34f1f3af34bb98867ae72e8a2ddae0619fa7eaee3a1acd46c72"}, "docker": "quay.io/biocontainers/adpred", "aliases": {"run-adpred": "/usr/local/bin/run-adpred", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard"}}
+config: {"url": "https://biocontainers.pro/tools/adpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for adpred", "latest": {"1.3.1--pyhdfd78af_0": "sha256:e41d82accfec19d6a900f146c0e7fdd94b97a4ac3c9af6334dc0bd88c2a7de4d"}, "tags": {"1.2.8--pyhdfd78af_0": "sha256:f4cf70e21de0a34f1f3af34bb98867ae72e8a2ddae0619fa7eaee3a1acd46c72", "1.3.1--pyhdfd78af_0": "sha256:e41d82accfec19d6a900f146c0e7fdd94b97a4ac3c9af6334dc0bd88c2a7de4d"}, "docker": "quay.io/biocontainers/adpred", "aliases": {"run-adpred": "/usr/local/bin/run-adpred", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/adpred.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/adpred
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/adpred:1.2.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/adpred:1.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/adpred/1.2.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/adpred/1.2.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/adpred/1.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/adpred/1.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-enchantr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-enchantr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-enchantr/container.yaml"
-updated_at: "2022-12-19 03:19:55.860206"
-latest: "0.0.4--r42hdfd78af_0"
+updated_at: "2023-01-11 20:27:54.914420"
+latest: "0.0.6--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-enchantr"
 aliases:
  - "pandoc-server"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "0.0.1--r41hdfd78af_0"
  - "0.0.4--r42hdfd78af_0"
+ - "0.0.6--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-enchantr"
-config: {"url": "https://biocontainers.pro/tools/r-enchantr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-enchantr", "latest": {"0.0.4--r42hdfd78af_0": "sha256:28aaec9bb7b062e9913e79d1dc0f99ee9dc402ac1979d1bdde966078548a6737"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:332b49d3ba5d72a479a4b7115ee51bf05e9ff62fc912204b37af9819eb0ed994", "0.0.4--r42hdfd78af_0": "sha256:28aaec9bb7b062e9913e79d1dc0f99ee9dc402ac1979d1bdde966078548a6737"}, "docker": "quay.io/biocontainers/r-enchantr", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-enchantr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-enchantr", "latest": {"0.0.6--r42hdfd78af_0": "sha256:76927a0247831813550f6bad11cfd35c462c4a391681274dba8170f07ae0fc9c"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:332b49d3ba5d72a479a4b7115ee51bf05e9ff62fc912204b37af9819eb0ed994", "0.0.4--r42hdfd78af_0": "sha256:28aaec9bb7b062e9913e79d1dc0f99ee9dc402ac1979d1bdde966078548a6737", "0.0.6--r42hdfd78af_0": "sha256:76927a0247831813550f6bad11cfd35c462c4a391681274dba8170f07ae0fc9c"}, "docker": "quay.io/biocontainers/r-enchantr", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-enchantr.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-enchantr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-enchantr:0.0.4--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-enchantr:0.0.6--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-enchantr/0.0.4--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-enchantr/0.0.4--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-enchantr/0.0.6--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-enchantr/0.0.6--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

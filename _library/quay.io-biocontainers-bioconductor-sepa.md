@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sepa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sepa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sepa/container.yaml"
-updated_at: "2022-12-19 03:04:57.000090"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2023-01-11 20:08:46.870182"
+latest: "1.13.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sepa"
 aliases:
  - "wget"
@@ -15,8 +15,11 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.13.0--r36_1"
+ - "1.12.0--r351_0"
+ - "1.10.0--r341_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sepa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sepa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sepa", "latest": {"1.8.0--r3.4.1_0": "sha256:56e29c4a2e3ed957c0cc6e8fd6fc6c973ccb02ed057fd7ca8524f4d0f5275bfd"}, "tags": {"1.8.0--r3.4.1_0": "sha256:56e29c4a2e3ed957c0cc6e8fd6fc6c973ccb02ed057fd7ca8524f4d0f5275bfd"}, "docker": "quay.io/biocontainers/bioconductor-sepa", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sepa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sepa", "latest": {"1.13.0--r36_1": "sha256:b6e8c4eaf5522bcd32ee9a9d692c2e66271172bebc54e4ce40dc6586c2581399"}, "tags": {"1.8.0--r3.4.1_0": "sha256:56e29c4a2e3ed957c0cc6e8fd6fc6c973ccb02ed057fd7ca8524f4d0f5275bfd", "1.13.0--r36_1": "sha256:b6e8c4eaf5522bcd32ee9a9d692c2e66271172bebc54e4ce40dc6586c2581399", "1.12.0--r351_0": "sha256:e511e91c9a1e035773916fce6b162c2a9eaded3f1ebffb8b6f036251e7fe76f2", "1.10.0--r341_0": "sha256:44d20488c899f3d282964d0299fdb5db0747a63ff40fbf3d16adca43486f95fe"}, "docker": "quay.io/biocontainers/bioconductor-sepa", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sepa.
@@ -31,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sepa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sepa:1.8.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-sepa:1.13.0--r36_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sepa/1.8.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-sepa/1.8.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-sepa/1.13.0--r36_1
+$ module help quay.io/biocontainers/bioconductor-sepa/1.13.0--r36_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

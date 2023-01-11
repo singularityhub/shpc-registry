@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/primalscheme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primalscheme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primalscheme/container.yaml"
-updated_at: "2022-12-19 03:30:45.319085"
-latest: "1.3.2--pyh3252c3a_0"
+updated_at: "2023-01-11 20:41:38.848519"
+latest: "1.4.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/primalscheme"
 aliases:
  - "primalscheme"
@@ -21,8 +21,9 @@ aliases:
  - "tificc"
 versions:
  - "1.3.2--pyh3252c3a_0"
+ - "1.4.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for primalscheme"
-config: {"url": "https://biocontainers.pro/tools/primalscheme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primalscheme", "latest": {"1.3.2--pyh3252c3a_0": "sha256:aef1517bfd9f869a065d5e471940fe17d307a40cb8c496e761317633835bd18e"}, "tags": {"1.3.2--pyh3252c3a_0": "sha256:aef1517bfd9f869a065d5e471940fe17d307a40cb8c496e761317633835bd18e"}, "docker": "quay.io/biocontainers/primalscheme", "aliases": {"primalscheme": "/usr/local/bin/primalscheme", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/primalscheme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primalscheme", "latest": {"1.4.0--pyh7cba7a3_0": "sha256:d3258982ff70267d67316b8695815c82a661600c5b589f47258114d4ac1f4033"}, "tags": {"1.3.2--pyh3252c3a_0": "sha256:aef1517bfd9f869a065d5e471940fe17d307a40cb8c496e761317633835bd18e", "1.4.0--pyh7cba7a3_0": "sha256:d3258982ff70267d67316b8695815c82a661600c5b589f47258114d4ac1f4033"}, "docker": "quay.io/biocontainers/primalscheme", "aliases": {"primalscheme": "/usr/local/bin/primalscheme", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primalscheme.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/primalscheme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/primalscheme:1.3.2--pyh3252c3a_0
+$ shpc install quay.io/biocontainers/primalscheme:1.4.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/primalscheme/1.3.2--pyh3252c3a_0
-$ module help quay.io/biocontainers/primalscheme/1.3.2--pyh3252c3a_0
+$ module load quay.io/biocontainers/primalscheme/1.4.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/primalscheme/1.4.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

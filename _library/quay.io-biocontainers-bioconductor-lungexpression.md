@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lungexpression"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lungexpression/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lungexpression/container.yaml"
-updated_at: "2022-12-19 03:02:14.501964"
-latest: "0.32.1--r41hdfd78af_1"
+updated_at: "2023-01-11 20:05:16.093249"
+latest: "0.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lungexpression"
 
 versions:
  - "0.32.1--r41hdfd78af_1"
+ - "0.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lungexpression"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lungexpression", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lungexpression", "latest": {"0.32.1--r41hdfd78af_1": "sha256:5d361f045d1d04ab29f199588119ec3834a804edf49412560567976365e403d5"}, "tags": {"0.32.1--r41hdfd78af_1": "sha256:5d361f045d1d04ab29f199588119ec3834a804edf49412560567976365e403d5"}, "docker": "quay.io/biocontainers/bioconductor-lungexpression"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lungexpression", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lungexpression", "latest": {"0.36.0--r42hdfd78af_0": "sha256:5a8c23fcd537a14cf7c845f69d5b88b5a65f775e3c904f75274bfa23d7143f27"}, "tags": {"0.32.1--r41hdfd78af_1": "sha256:5d361f045d1d04ab29f199588119ec3834a804edf49412560567976365e403d5", "0.36.0--r42hdfd78af_0": "sha256:5a8c23fcd537a14cf7c845f69d5b88b5a65f775e3c904f75274bfa23d7143f27"}, "docker": "quay.io/biocontainers/bioconductor-lungexpression"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lungexpression.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lungexpression
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lungexpression:0.32.1--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-lungexpression:0.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lungexpression/0.32.1--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-lungexpression/0.32.1--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-lungexpression/0.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lungexpression/0.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

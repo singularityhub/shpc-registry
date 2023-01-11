@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cyvcf2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyvcf2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyvcf2/container.yaml"
-updated_at: "2022-12-19 02:58:15.983698"
-latest: "0.8.4--py36h355e19c_4"
+updated_at: "2023-01-11 19:59:57.401733"
+latest: "0.10.8--py36hbbd59f4_2"
 container_url: "https://biocontainers.pro/tools/cyvcf2"
 aliases:
  - "cyvcf2"
@@ -21,8 +21,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "0.8.4--py36h355e19c_4"
+ - "0.10.8--py36hbbd59f4_2"
 description: "shpc-registry automated BioContainers addition for cyvcf2"
-config: {"url": "https://biocontainers.pro/tools/cyvcf2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyvcf2", "latest": {"0.8.4--py36h355e19c_4": "sha256:7cc6998325d3776a7d7dd0f0a50bcb46505ac71c6953b1e4efb45fb51fb13d60"}, "tags": {"0.8.4--py36h355e19c_4": "sha256:7cc6998325d3776a7d7dd0f0a50bcb46505ac71c6953b1e4efb45fb51fb13d60"}, "docker": "quay.io/biocontainers/cyvcf2", "aliases": {"cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/cyvcf2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyvcf2", "latest": {"0.10.8--py36hbbd59f4_2": "sha256:fef52c062d1b307ec05d638e4b3f0113d0cfa87fa1e6df8d2c5a8406bc78f48c"}, "tags": {"0.8.4--py36h355e19c_4": "sha256:7cc6998325d3776a7d7dd0f0a50bcb46505ac71c6953b1e4efb45fb51fb13d60", "0.10.8--py36hbbd59f4_2": "sha256:fef52c062d1b307ec05d638e4b3f0113d0cfa87fa1e6df8d2c5a8406bc78f48c"}, "docker": "quay.io/biocontainers/cyvcf2", "aliases": {"cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cyvcf2.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/cyvcf2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cyvcf2:0.8.4--py36h355e19c_4
+$ shpc install quay.io/biocontainers/cyvcf2:0.10.8--py36hbbd59f4_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cyvcf2/0.8.4--py36h355e19c_4
-$ module help quay.io/biocontainers/cyvcf2/0.8.4--py36h355e19c_4
+$ module load quay.io/biocontainers/cyvcf2/0.10.8--py36hbbd59f4_2
+$ module help quay.io/biocontainers/cyvcf2/0.10.8--py36hbbd59f4_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

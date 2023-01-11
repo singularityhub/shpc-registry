@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-glad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
-updated_at: "2022-12-19 03:26:02.011773"
-latest: "2.58.0--r41hd4b0f26_3"
+updated_at: "2023-01-11 20:35:41.197388"
+latest: "2.62.0--r42hd4b0f26_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glad"
 
 versions:
  - "2.58.0--r41hd4b0f26_3"
+ - "2.62.0--r42hd4b0f26_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-glad"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-glad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glad", "latest": {"2.58.0--r41hd4b0f26_3": "sha256:86f1d3508a046245b5c9fc463fcccd1fcb5830182b95e638479c192b7819c48c"}, "tags": {"2.58.0--r41hd4b0f26_3": "sha256:86f1d3508a046245b5c9fc463fcccd1fcb5830182b95e638479c192b7819c48c"}, "docker": "quay.io/biocontainers/bioconductor-glad"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-glad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glad", "latest": {"2.62.0--r42hd4b0f26_0": "sha256:6a61fdc25a7c1c40f282297cd94624e59460a446c5cbf4abbd89f3cfc7cae106"}, "tags": {"2.58.0--r41hd4b0f26_3": "sha256:86f1d3508a046245b5c9fc463fcccd1fcb5830182b95e638479c192b7819c48c", "2.62.0--r42hd4b0f26_0": "sha256:6a61fdc25a7c1c40f282297cd94624e59460a446c5cbf4abbd89f3cfc7cae106"}, "docker": "quay.io/biocontainers/bioconductor-glad"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-glad.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-glad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-glad:2.58.0--r41hd4b0f26_3
+$ shpc install quay.io/biocontainers/bioconductor-glad:2.62.0--r42hd4b0f26_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-glad/2.58.0--r41hd4b0f26_3
-$ module help quay.io/biocontainers/bioconductor-glad/2.58.0--r41hd4b0f26_3
+$ module load quay.io/biocontainers/bioconductor-glad/2.62.0--r42hd4b0f26_0
+$ module help quay.io/biocontainers/bioconductor-glad/2.62.0--r42hd4b0f26_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

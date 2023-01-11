@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobambam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobambam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobambam/container.yaml"
-updated_at: "2022-12-19 03:07:02.625168"
-latest: "2.0.87--h516909a_2"
+updated_at: "2023-01-11 20:11:25.749092"
+latest: "2.0.183--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/biobambam"
 aliases:
  - "bam12auxmerge"
@@ -67,8 +67,9 @@ aliases:
  - "bamzztoname"
 versions:
  - "2.0.87--h516909a_2"
+ - "2.0.183--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for biobambam"
-config: {"url": "https://biocontainers.pro/tools/biobambam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobambam", "latest": {"2.0.87--h516909a_2": "sha256:5a55a5f2cbcaa19cc864da48c6cd82f38206bfd169bf9127ec9fb7aecbbd5673"}, "tags": {"2.0.87--h516909a_2": "sha256:5a55a5f2cbcaa19cc864da48c6cd82f38206bfd169bf9127ec9fb7aecbbd5673"}, "docker": "quay.io/biocontainers/biobambam", "aliases": {"bam12auxmerge": "/usr/local/bin/bam12auxmerge", "bam12split": "/usr/local/bin/bam12split", "bam12strip": "/usr/local/bin/bam12strip", "bamadapterclip": "/usr/local/bin/bamadapterclip", "bamadapterfind": "/usr/local/bin/bamadapterfind", "bamalignfrac": "/usr/local/bin/bamalignfrac", "bamauxmerge": "/usr/local/bin/bamauxmerge", "bamauxsort": "/usr/local/bin/bamauxsort", "bamcat": "/usr/local/bin/bamcat", "bamchecksort": "/usr/local/bin/bamchecksort", "bamclipreinsert": "/usr/local/bin/bamclipreinsert", "bamcollate": "/usr/local/bin/bamcollate", "bamcollate2": "/usr/local/bin/bamcollate2", "bamdownsamplerandom": "/usr/local/bin/bamdownsamplerandom", "bamexplode": "/usr/local/bin/bamexplode", "bamfillquery": "/usr/local/bin/bamfillquery", "bamfilteraux": "/usr/local/bin/bamfilteraux", "bamfilterflags": "/usr/local/bin/bamfilterflags", "bamfilterheader": "/usr/local/bin/bamfilterheader", "bamfilterheader2": "/usr/local/bin/bamfilterheader2", "bamfilterlength": "/usr/local/bin/bamfilterlength", "bamfiltermc": "/usr/local/bin/bamfiltermc", "bamfilternames": "/usr/local/bin/bamfilternames", "bamfilterrefid": "/usr/local/bin/bamfilterrefid", "bamfilterrg": "/usr/local/bin/bamfilterrg", "bamfixmateinformation": "/usr/local/bin/bamfixmateinformation", "bamflagsplit": "/usr/local/bin/bamflagsplit", "bamheap2": "/usr/local/bin/bamheap2", "bamindex": "/usr/local/bin/bamindex", "bamintervalcomment": "/usr/local/bin/bamintervalcomment", "bamintervalcommenthist": "/usr/local/bin/bamintervalcommenthist", "bamlastfilter": "/usr/local/bin/bamlastfilter", "bammapdist": "/usr/local/bin/bammapdist", "bammarkduplicates": "/usr/local/bin/bammarkduplicates", "bammarkduplicates2": "/usr/local/bin/bammarkduplicates2", "bammarkduplicatesopt": "/usr/local/bin/bammarkduplicatesopt", "bammaskflags": "/usr/local/bin/bammaskflags", "bammdnm": "/usr/local/bin/bammdnm", "bammerge": "/usr/local/bin/bammerge", "bamnumericalindex": "/usr/local/bin/bamnumericalindex", "bamrank": "/usr/local/bin/bamrank", "bamranksort": "/usr/local/bin/bamranksort", "bamrecalculatecigar": "/usr/local/bin/bamrecalculatecigar", "bamrecompress": "/usr/local/bin/bamrecompress", "bamrefinterval": "/usr/local/bin/bamrefinterval", "bamreset": "/usr/local/bin/bamreset", "bamscrapcount": "/usr/local/bin/bamscrapcount", "bamseqchksum": "/usr/local/bin/bamseqchksum", "bamsormadup": "/usr/local/bin/bamsormadup", "bamsort": "/usr/local/bin/bamsort", "bamsplit": "/usr/local/bin/bamsplit", "bamsplitdiv": "/usr/local/bin/bamsplitdiv", "bamstreamingmarkduplicates": "/usr/local/bin/bamstreamingmarkduplicates", "bamtagconversion": "/usr/local/bin/bamtagconversion", "bamtofastq": "/usr/local/bin/bamtofastq", "bamvalidate": "/usr/local/bin/bamvalidate", "bamzztoname": "/usr/local/bin/bamzztoname"}}
+config: {"url": "https://biocontainers.pro/tools/biobambam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobambam", "latest": {"2.0.183--h9f5acd7_2": "sha256:7dd84cf9303529a40bfb67623196a4004e0fa5eb3eeae2a0867d35744b5ec777"}, "tags": {"2.0.87--h516909a_2": "sha256:5a55a5f2cbcaa19cc864da48c6cd82f38206bfd169bf9127ec9fb7aecbbd5673", "2.0.183--h9f5acd7_2": "sha256:7dd84cf9303529a40bfb67623196a4004e0fa5eb3eeae2a0867d35744b5ec777"}, "docker": "quay.io/biocontainers/biobambam", "aliases": {"bam12auxmerge": "/usr/local/bin/bam12auxmerge", "bam12split": "/usr/local/bin/bam12split", "bam12strip": "/usr/local/bin/bam12strip", "bamadapterclip": "/usr/local/bin/bamadapterclip", "bamadapterfind": "/usr/local/bin/bamadapterfind", "bamalignfrac": "/usr/local/bin/bamalignfrac", "bamauxmerge": "/usr/local/bin/bamauxmerge", "bamauxsort": "/usr/local/bin/bamauxsort", "bamcat": "/usr/local/bin/bamcat", "bamchecksort": "/usr/local/bin/bamchecksort", "bamclipreinsert": "/usr/local/bin/bamclipreinsert", "bamcollate": "/usr/local/bin/bamcollate", "bamcollate2": "/usr/local/bin/bamcollate2", "bamdownsamplerandom": "/usr/local/bin/bamdownsamplerandom", "bamexplode": "/usr/local/bin/bamexplode", "bamfillquery": "/usr/local/bin/bamfillquery", "bamfilteraux": "/usr/local/bin/bamfilteraux", "bamfilterflags": "/usr/local/bin/bamfilterflags", "bamfilterheader": "/usr/local/bin/bamfilterheader", "bamfilterheader2": "/usr/local/bin/bamfilterheader2", "bamfilterlength": "/usr/local/bin/bamfilterlength", "bamfiltermc": "/usr/local/bin/bamfiltermc", "bamfilternames": "/usr/local/bin/bamfilternames", "bamfilterrefid": "/usr/local/bin/bamfilterrefid", "bamfilterrg": "/usr/local/bin/bamfilterrg", "bamfixmateinformation": "/usr/local/bin/bamfixmateinformation", "bamflagsplit": "/usr/local/bin/bamflagsplit", "bamheap2": "/usr/local/bin/bamheap2", "bamindex": "/usr/local/bin/bamindex", "bamintervalcomment": "/usr/local/bin/bamintervalcomment", "bamintervalcommenthist": "/usr/local/bin/bamintervalcommenthist", "bamlastfilter": "/usr/local/bin/bamlastfilter", "bammapdist": "/usr/local/bin/bammapdist", "bammarkduplicates": "/usr/local/bin/bammarkduplicates", "bammarkduplicates2": "/usr/local/bin/bammarkduplicates2", "bammarkduplicatesopt": "/usr/local/bin/bammarkduplicatesopt", "bammaskflags": "/usr/local/bin/bammaskflags", "bammdnm": "/usr/local/bin/bammdnm", "bammerge": "/usr/local/bin/bammerge", "bamnumericalindex": "/usr/local/bin/bamnumericalindex", "bamrank": "/usr/local/bin/bamrank", "bamranksort": "/usr/local/bin/bamranksort", "bamrecalculatecigar": "/usr/local/bin/bamrecalculatecigar", "bamrecompress": "/usr/local/bin/bamrecompress", "bamrefinterval": "/usr/local/bin/bamrefinterval", "bamreset": "/usr/local/bin/bamreset", "bamscrapcount": "/usr/local/bin/bamscrapcount", "bamseqchksum": "/usr/local/bin/bamseqchksum", "bamsormadup": "/usr/local/bin/bamsormadup", "bamsort": "/usr/local/bin/bamsort", "bamsplit": "/usr/local/bin/bamsplit", "bamsplitdiv": "/usr/local/bin/bamsplitdiv", "bamstreamingmarkduplicates": "/usr/local/bin/bamstreamingmarkduplicates", "bamtagconversion": "/usr/local/bin/bamtagconversion", "bamtofastq": "/usr/local/bin/bamtofastq", "bamvalidate": "/usr/local/bin/bamvalidate", "bamzztoname": "/usr/local/bin/bamzztoname"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobambam.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/biobambam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobambam:2.0.87--h516909a_2
+$ shpc install quay.io/biocontainers/biobambam:2.0.183--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobambam/2.0.87--h516909a_2
-$ module help quay.io/biocontainers/biobambam/2.0.87--h516909a_2
+$ module load quay.io/biocontainers/biobambam/2.0.183--h9f5acd7_2
+$ module help quay.io/biocontainers/biobambam/2.0.183--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

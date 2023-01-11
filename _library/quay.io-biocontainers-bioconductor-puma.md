@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-puma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-puma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-puma/container.yaml"
-updated_at: "2022-12-19 03:31:43.119773"
-latest: "3.36.0--r41hc0cfd56_2"
+updated_at: "2023-01-11 20:42:52.510846"
+latest: "3.40.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-puma"
 
 versions:
  - "3.36.0--r41hc0cfd56_2"
+ - "3.40.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-puma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-puma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-puma", "latest": {"3.36.0--r41hc0cfd56_2": "sha256:77f41aba9551cad89fe3cc372ff9d7e376f8613e293edc58201cc3a31e964578"}, "tags": {"3.36.0--r41hc0cfd56_2": "sha256:77f41aba9551cad89fe3cc372ff9d7e376f8613e293edc58201cc3a31e964578"}, "docker": "quay.io/biocontainers/bioconductor-puma"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-puma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-puma", "latest": {"3.40.0--r42hc0cfd56_0": "sha256:dad776e858c2d9f8f42b660cd0c79d52f83f2508d2c5882733b78f239a9a1a6d"}, "tags": {"3.36.0--r41hc0cfd56_2": "sha256:77f41aba9551cad89fe3cc372ff9d7e376f8613e293edc58201cc3a31e964578", "3.40.0--r42hc0cfd56_0": "sha256:dad776e858c2d9f8f42b660cd0c79d52f83f2508d2c5882733b78f239a9a1a6d"}, "docker": "quay.io/biocontainers/bioconductor-puma"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-puma.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-puma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-puma:3.36.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-puma:3.40.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-puma/3.36.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-puma/3.36.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-puma/3.40.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-puma/3.40.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

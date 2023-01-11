@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ipac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ipac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ipac/container.yaml"
-updated_at: "2022-12-19 03:33:37.620081"
-latest: "1.38.0--r41hdfd78af_0"
+updated_at: "2023-01-11 20:45:14.237134"
+latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ipac"
 
 versions:
  - "1.38.0--r41hdfd78af_0"
+ - "1.42.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ipac"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ipac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ipac", "latest": {"1.38.0--r41hdfd78af_0": "sha256:75c06f0dfd8a2286fac2180a514ddb55a1ee69bc8450ed5d798579b9f185c853"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:75c06f0dfd8a2286fac2180a514ddb55a1ee69bc8450ed5d798579b9f185c853"}, "docker": "quay.io/biocontainers/bioconductor-ipac"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ipac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ipac", "latest": {"1.42.0--r42hdfd78af_0": "sha256:3a5a199ed112284e011b7c7533ab4d83d2eb90018f5935a544e235685bc2f4b7"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:75c06f0dfd8a2286fac2180a514ddb55a1ee69bc8450ed5d798579b9f185c853", "1.42.0--r42hdfd78af_0": "sha256:3a5a199ed112284e011b7c7533ab4d83d2eb90018f5935a544e235685bc2f4b7"}, "docker": "quay.io/biocontainers/bioconductor-ipac"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ipac.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ipac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ipac:1.38.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ipac:1.42.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ipac/1.38.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ipac/1.38.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ipac/1.42.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ipac/1.42.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

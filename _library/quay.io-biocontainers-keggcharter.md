@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/keggcharter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/keggcharter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/keggcharter/container.yaml"
-updated_at: "2022-12-19 02:48:21.524524"
-latest: "0.4.0--hdfd78af_0"
+updated_at: "2023-01-11 19:46:49.354167"
+latest: "0.4.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/keggcharter"
 aliases:
  - "KEGGCharter_prokaryotic_maps.txt"
@@ -23,8 +23,9 @@ aliases:
  - "pdftoppm"
 versions:
  - "0.4.0--hdfd78af_0"
+ - "0.4.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for keggcharter"
-config: {"url": "https://biocontainers.pro/tools/keggcharter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for keggcharter", "latest": {"0.4.0--hdfd78af_0": "sha256:5df9959b05dfafa90df13d270b008d606c42e23cfc3bda8c05ffffa407796233"}, "tags": {"0.4.0--hdfd78af_0": "sha256:5df9959b05dfafa90df13d270b008d606c42e23cfc3bda8c05ffffa407796233"}, "docker": "quay.io/biocontainers/keggcharter", "aliases": {"KEGGCharter_prokaryotic_maps.txt": "/usr/local/bin/KEGGCharter_prokaryotic_maps.txt", "keggcharter.py": "/usr/local/bin/keggcharter.py", "keggpathway_map.py": "/usr/local/bin/keggpathway_map.py", "pdfsig": "/usr/local/bin/pdfsig", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm"}}
+config: {"url": "https://biocontainers.pro/tools/keggcharter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for keggcharter", "latest": {"0.4.1--hdfd78af_0": "sha256:c87e110b83c375d95bc5dcb84c7e71bce82ea53e97a6e451039866b9b7857745"}, "tags": {"0.4.0--hdfd78af_0": "sha256:5df9959b05dfafa90df13d270b008d606c42e23cfc3bda8c05ffffa407796233", "0.4.1--hdfd78af_0": "sha256:c87e110b83c375d95bc5dcb84c7e71bce82ea53e97a6e451039866b9b7857745"}, "docker": "quay.io/biocontainers/keggcharter", "aliases": {"KEGGCharter_prokaryotic_maps.txt": "/usr/local/bin/KEGGCharter_prokaryotic_maps.txt", "keggcharter.py": "/usr/local/bin/keggcharter.py", "keggpathway_map.py": "/usr/local/bin/keggpathway_map.py", "pdfsig": "/usr/local/bin/pdfsig", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/keggcharter.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/keggcharter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/keggcharter:0.4.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/keggcharter:0.4.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/keggcharter/0.4.0--hdfd78af_0
-$ module help quay.io/biocontainers/keggcharter/0.4.0--hdfd78af_0
+$ module load quay.io/biocontainers/keggcharter/0.4.1--hdfd78af_0
+$ module help quay.io/biocontainers/keggcharter/0.4.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

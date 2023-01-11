@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-frenchfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frenchfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frenchfish/container.yaml"
-updated_at: "2022-12-19 02:45:41.911837"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2023-01-11 19:43:24.100596"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frenchfish"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-frenchfish"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-frenchfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frenchfish", "latest": {"1.6.0--r41hdfd78af_0": "sha256:cb888657c3371e8a23a076c5297a9fcf39f6d0995e8657f021dd3a445c4557f3"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cb888657c3371e8a23a076c5297a9fcf39f6d0995e8657f021dd3a445c4557f3"}, "docker": "quay.io/biocontainers/bioconductor-frenchfish"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-frenchfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frenchfish", "latest": {"1.10.0--r42hdfd78af_0": "sha256:96c3073f111619f6df0bde6c637308e5ac12ed7d172d476b9adf02381cd97f07"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cb888657c3371e8a23a076c5297a9fcf39f6d0995e8657f021dd3a445c4557f3", "1.10.0--r42hdfd78af_0": "sha256:96c3073f111619f6df0bde6c637308e5ac12ed7d172d476b9adf02381cd97f07"}, "docker": "quay.io/biocontainers/bioconductor-frenchfish"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-frenchfish.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-frenchfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-frenchfish:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-frenchfish:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-frenchfish/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-frenchfish/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-frenchfish/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-frenchfish/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

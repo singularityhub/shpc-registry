@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gwasdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwasdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwasdata/container.yaml"
-updated_at: "2022-12-19 03:00:31.413292"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2023-01-11 20:02:57.355895"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwasdata"
 aliases:
  - "f2py3.10"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gwasdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gwasdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwasdata", "latest": {"1.32.0--r41hdfd78af_1": "sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba"}, "docker": "quay.io/biocontainers/bioconductor-gwasdata", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gwasdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwasdata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:80ba429dc59585987479bf829f71810cfd6f2acc7b193417628926b10af76a97"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba", "1.36.0--r42hdfd78af_0": "sha256:80ba429dc59585987479bf829f71810cfd6f2acc7b193417628926b10af76a97"}, "docker": "quay.io/biocontainers/bioconductor-gwasdata", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gwasdata.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gwasdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gwasdata:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-gwasdata:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gwasdata/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-gwasdata/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-gwasdata/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gwasdata/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

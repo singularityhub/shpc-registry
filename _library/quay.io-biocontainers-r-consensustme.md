@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-consensustme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-consensustme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-consensustme/container.yaml"
-updated_at: "2022-12-19 03:37:32.272554"
-latest: "0.0.1.9000--r41hdfd78af_0"
+updated_at: "2023-01-11 20:50:09.041673"
+latest: "0.0.1.9000--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-consensustme"
 
 versions:
  - "0.0.1.9000--r41hdfd78af_0"
+ - "0.0.1.9000--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-consensustme"
-config: {"url": "https://biocontainers.pro/tools/r-consensustme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-consensustme", "latest": {"0.0.1.9000--r41hdfd78af_0": "sha256:5d420e05b149e5c169b6508157f02f478f38a4f2e6fa79341c3e959e3f0561b1"}, "tags": {"0.0.1.9000--r41hdfd78af_0": "sha256:5d420e05b149e5c169b6508157f02f478f38a4f2e6fa79341c3e959e3f0561b1"}, "docker": "quay.io/biocontainers/r-consensustme"}
+config: {"url": "https://biocontainers.pro/tools/r-consensustme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-consensustme", "latest": {"0.0.1.9000--r42hdfd78af_1": "sha256:8329d045667c2faff49a96e6b408e673e9c5821c59860297049604189616cab4"}, "tags": {"0.0.1.9000--r41hdfd78af_0": "sha256:5d420e05b149e5c169b6508157f02f478f38a4f2e6fa79341c3e959e3f0561b1", "0.0.1.9000--r42hdfd78af_1": "sha256:8329d045667c2faff49a96e6b408e673e9c5821c59860297049604189616cab4"}, "docker": "quay.io/biocontainers/r-consensustme"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-consensustme.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-consensustme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-consensustme:0.0.1.9000--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-consensustme:0.0.1.9000--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-consensustme/0.0.1.9000--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-consensustme/0.0.1.9000--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-consensustme/0.0.1.9000--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-consensustme/0.0.1.9000--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

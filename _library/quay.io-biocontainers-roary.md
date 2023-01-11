@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/roary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roary/container.yaml"
-updated_at: "2022-12-19 03:07:28.352067"
-latest: "3.9.1--pl5.22.0_0"
+updated_at: "2023-01-11 20:11:58.429618"
+latest: "3.13.0--pl526h516909a_0"
 container_url: "https://biocontainers.pro/tools/roary"
 
 versions:
  - "3.9.1--pl5.22.0_0"
+ - "3.13.0--pl526h516909a_0"
+ - "3.12.0--pl526h516909a_2"
+ - "3.10.2--pl5.22.0_0"
 description: "shpc-registry automated BioContainers addition for roary"
-config: {"url": "https://biocontainers.pro/tools/roary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for roary", "latest": {"3.9.1--pl5.22.0_0": "sha256:2b149b0c13975b729d1d8cc9e11fdb6613b7de8b49ee5c58c06ff05d16d3c40d"}, "tags": {"3.9.1--pl5.22.0_0": "sha256:2b149b0c13975b729d1d8cc9e11fdb6613b7de8b49ee5c58c06ff05d16d3c40d"}, "docker": "quay.io/biocontainers/roary"}
+config: {"url": "https://biocontainers.pro/tools/roary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for roary", "latest": {"3.13.0--pl526h516909a_0": "sha256:bff7bde69fe0015cf9673fd7657d81c33a4035882d270019f42250e903f51a5d"}, "tags": {"3.9.1--pl5.22.0_0": "sha256:2b149b0c13975b729d1d8cc9e11fdb6613b7de8b49ee5c58c06ff05d16d3c40d", "3.13.0--pl526h516909a_0": "sha256:bff7bde69fe0015cf9673fd7657d81c33a4035882d270019f42250e903f51a5d", "3.12.0--pl526h516909a_2": "sha256:316cfe907b21c10f78ecd4e8b074ab28083fb994a83479f01b1b7c7fc9b655c0", "3.10.2--pl5.22.0_0": "sha256:1ec4554d34e07276f6c1396beaec3d5f5f5c2654edcb8e7d435563142c62035e"}, "docker": "quay.io/biocontainers/roary"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/roary.
@@ -26,7 +29,7 @@ $ shpc install quay.io/biocontainers/roary
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/roary:3.9.1--pl5.22.0_0
+$ shpc install quay.io/biocontainers/roary:3.13.0--pl526h516909a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/roary/3.9.1--pl5.22.0_0
-$ module help quay.io/biocontainers/roary/3.9.1--pl5.22.0_0
+$ module load quay.io/biocontainers/roary/3.13.0--pl526h516909a_0
+$ module help quay.io/biocontainers/roary/3.13.0--pl526h516909a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

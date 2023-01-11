@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/toil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/toil/container.yaml"
-updated_at: "2022-12-19 03:04:33.392970"
-latest: "5.6.0--pyhdfd78af_0"
+updated_at: "2023-01-11 20:08:16.970013"
+latest: "5.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/toil"
 aliases:
  - "_toil_contained_executor"
@@ -39,8 +39,9 @@ aliases:
  - "dynamodb_dump"
 versions:
  - "5.6.0--pyhdfd78af_0"
+ - "5.7.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for toil"
-config: {"url": "https://biocontainers.pro/tools/toil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toil", "latest": {"5.6.0--pyhdfd78af_0": "sha256:d148c547f7829b59b69155dd5add29ddd2d8a3b93e10f3f9ebbdb1126bc63041"}, "tags": {"5.6.0--pyhdfd78af_0": "sha256:d148c547f7829b59b69155dd5add29ddd2d8a3b93e10f3f9ebbdb1126bc63041"}, "docker": "quay.io/biocontainers/toil", "aliases": {"_toil_contained_executor": "/usr/local/bin/_toil_contained_executor", "_toil_mesos_executor": "/usr/local/bin/_toil_mesos_executor", "_toil_worker": "/usr/local/bin/_toil_worker", "bagit.py": "/usr/local/bin/bagit.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "cwltoil": "/usr/local/bin/cwltoil", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-search": "/usr/local/bin/mulled-search", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "toil": "/usr/local/bin/toil", "toil-cwl-runner": "/usr/local/bin/toil-cwl-runner", "wsdump": "/usr/local/bin/wsdump", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "csv2rdf": "/usr/local/bin/csv2rdf", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump"}}
+config: {"url": "https://biocontainers.pro/tools/toil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toil", "latest": {"5.7.1--pyhdfd78af_0": "sha256:7357d1c1b2a28d5bd40358196d92dcc83495d7f54864335dec14b14c31764dec"}, "tags": {"5.6.0--pyhdfd78af_0": "sha256:d148c547f7829b59b69155dd5add29ddd2d8a3b93e10f3f9ebbdb1126bc63041", "5.7.1--pyhdfd78af_0": "sha256:7357d1c1b2a28d5bd40358196d92dcc83495d7f54864335dec14b14c31764dec"}, "docker": "quay.io/biocontainers/toil", "aliases": {"_toil_contained_executor": "/usr/local/bin/_toil_contained_executor", "_toil_mesos_executor": "/usr/local/bin/_toil_mesos_executor", "_toil_worker": "/usr/local/bin/_toil_worker", "bagit.py": "/usr/local/bin/bagit.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "cwltoil": "/usr/local/bin/cwltoil", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-search": "/usr/local/bin/mulled-search", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "toil": "/usr/local/bin/toil", "toil-cwl-runner": "/usr/local/bin/toil-cwl-runner", "wsdump": "/usr/local/bin/wsdump", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "csv2rdf": "/usr/local/bin/csv2rdf", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/toil.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/toil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/toil:5.6.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/toil:5.7.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/toil/5.6.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/toil/5.6.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/toil/5.7.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/toil/5.7.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

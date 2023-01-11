@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-pepsnmrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepsnmrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepsnmrdata/container.yaml"
-updated_at: "2022-12-19 03:20:26.892542"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2023-01-11 20:28:34.137072"
+latest: "1.15.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepsnmrdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.15.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pepsnmrdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pepsnmrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepsnmrdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:07cd5ff7f9344a5471cc705df967b337b113155959ba2b7aeda7aaa905214e7a"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:07cd5ff7f9344a5471cc705df967b337b113155959ba2b7aeda7aaa905214e7a"}, "docker": "quay.io/biocontainers/bioconductor-pepsnmrdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pepsnmrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepsnmrdata", "latest": {"1.15.0--r42hdfd78af_0": "sha256:6d0a927ab55f43aa212e1265dc3dd0c1e6938cd704cdacb3f3a174fe4b66943c"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:07cd5ff7f9344a5471cc705df967b337b113155959ba2b7aeda7aaa905214e7a", "1.15.0--r42hdfd78af_0": "sha256:6d0a927ab55f43aa212e1265dc3dd0c1e6938cd704cdacb3f3a174fe4b66943c", "1.12.0--r41hdfd78af_1": "sha256:b28572aa82e221c67dd37cda6888a1e31824c0dd661541c99350491503930441", "1.10.0--r41hdfd78af_0": "sha256:7cec63734000421e9a5f3fddbe28485cafb362d7dd099bf393344ff0ea459220"}, "docker": "quay.io/biocontainers/bioconductor-pepsnmrdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pepsnmrdata.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pepsnmrdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pepsnmrdata:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-pepsnmrdata:1.15.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pepsnmrdata/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-pepsnmrdata/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-pepsnmrdata/1.15.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pepsnmrdata/1.15.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

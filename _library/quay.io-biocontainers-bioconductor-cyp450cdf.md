@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cyp450cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cyp450cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cyp450cdf/container.yaml"
-updated_at: "2022-12-19 03:31:12.992190"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2023-01-11 20:42:13.578495"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-cyp450cdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-cyp450cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cyp450cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cyp450cdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:4edfa5ab04a005a6e5befd561f90d54bc1d9dd73fdf0cfa69deecd6db5f7eea0"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:4edfa5ab04a005a6e5befd561f90d54bc1d9dd73fdf0cfa69deecd6db5f7eea0"}, "docker": "quay.io/biocontainers/bioconductor-cyp450cdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cyp450cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cyp450cdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:c8f0427a9cc03b1863b563db5a7f3ca9401132db21dfc59dd472b1a6fb76e447"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:4edfa5ab04a005a6e5befd561f90d54bc1d9dd73fdf0cfa69deecd6db5f7eea0", "2.18.0--r42hdfd78af_10": "sha256:c8f0427a9cc03b1863b563db5a7f3ca9401132db21dfc59dd472b1a6fb76e447"}, "docker": "quay.io/biocontainers/bioconductor-cyp450cdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cyp450cdf.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cyp450cdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cyp450cdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-cyp450cdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cyp450cdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-cyp450cdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-cyp450cdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-cyp450cdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
