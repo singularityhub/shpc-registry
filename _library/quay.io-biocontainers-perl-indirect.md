@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-indirect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-indirect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-indirect/container.yaml"
-updated_at: "2023-01-12 03:40:27.649693"
+updated_at: "2023-01-12 03:57:21.320332"
 latest: "0.39--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-indirect"
 aliases:

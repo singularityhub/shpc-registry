@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isoquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isoquant/container.yaml"
-updated_at: "2023-01-12 02:46:14.786306"
+updated_at: "2023-01-12 02:57:20.788937"
 latest: "3.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isoquant"
 aliases:

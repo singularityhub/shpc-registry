@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-vecstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-vecstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-vecstat/container.yaml"
-updated_at: "2023-01-12 02:47:48.331097"
+updated_at: "2023-01-12 02:58:59.710472"
 latest: "0.08--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-math-vecstat"
 aliases:

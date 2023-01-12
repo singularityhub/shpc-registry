@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treekin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treekin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treekin/container.yaml"
-updated_at: "2023-01-12 02:56:44.303547"
+updated_at: "2023-01-12 03:08:40.856593"
 latest: "0.5.1--hc6f38ce_2"
 container_url: "https://biocontainers.pro/tools/treekin"
 aliases:
