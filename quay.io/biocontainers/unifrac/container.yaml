@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/unifrac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for unifrac
 latest:
-  1.1.1--py310h79ef01b_1: sha256:c5df3127503ce3bad527b4d9316fe4b17edaca6fb7533330d7dcb3c730857b48
+  1.2--py39hbf8eff0_0: sha256:6af66523714f57c20fbfab142c76ce0c05f6a1559030190fa91c4c3268cfaa08
 tags:
   1.1.1--py310h79ef01b_1: sha256:c5df3127503ce3bad527b4d9316fe4b17edaca6fb7533330d7dcb3c730857b48
+  1.2--py39hbf8eff0_0: sha256:6af66523714f57c20fbfab142c76ce0c05f6a1559030190fa91c4c3268cfaa08
 docker: quay.io/biocontainers/unifrac
 aliases:
   bp: /usr/local/bin/bp
