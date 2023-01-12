@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/rp2biosensor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rp2biosensor
+latest:
+  3.2.1: sha256:7c6b8ae1dfa7a664c4a31c7b865117f369be25363ddc0936e1afa1f5adef64b5
+tags:
+  3.2.1: sha256:7c6b8ae1dfa7a664c4a31c7b865117f369be25363ddc0936e1afa1f5adef64b5
+docker: quay.io/biocontainers/rp2biosensor
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  f2py3.11: /usr/local/bin/f2py3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  rp2biosensor: /usr/local/bin/rp2biosensor
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
