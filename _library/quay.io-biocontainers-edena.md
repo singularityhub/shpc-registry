@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edena/container.yaml"
-updated_at: "2023-01-11 20:12:09.438296"
+updated_at: "2023-01-12 02:54:39.765909"
 latest: "3.131028--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/edena"
 aliases:

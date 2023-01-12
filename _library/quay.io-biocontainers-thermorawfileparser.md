@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/thermorawfileparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thermorawfileparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/thermorawfileparser/container.yaml"
-updated_at: "2023-01-11 19:53:54.537820"
+updated_at: "2023-01-12 03:24:11.923317"
 latest: "1.4.1--ha8f3691_0"
 container_url: "https://biocontainers.pro/tools/thermorawfileparser"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextgenmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextgenmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextgenmap/container.yaml"
-updated_at: "2023-01-11 20:50:27.143405"
+updated_at: "2023-01-12 03:12:48.284373"
 latest: "0.5.5--hc9558a2_4"
 container_url: "https://biocontainers.pro/tools/nextgenmap"
 aliases:

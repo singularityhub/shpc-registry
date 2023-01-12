@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sat-bsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sat-bsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sat-bsa/container.yaml"
-updated_at: "2023-01-11 20:00:56.553467"
+updated_at: "2023-01-12 03:18:30.417967"
 latest: "1.12--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sat-bsa"
 aliases:

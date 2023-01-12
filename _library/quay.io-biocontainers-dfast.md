@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dfast/container.yaml"
-updated_at: "2023-01-11 19:44:07.760640"
+updated_at: "2023-01-12 03:13:41.608546"
 latest: "1.2.18--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/dfast"
 aliases:
