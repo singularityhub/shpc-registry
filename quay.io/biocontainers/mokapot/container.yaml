@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mokapot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mokapot
 latest:
-  0.9.0--pyhdfd78af_0: sha256:7d04e1c8d8b593df08638d0e795701cca1ed6a73a987a679c8ecb280b64e98ee
+  0.9.1--pyhdfd78af_0: sha256:e3214b10c8baa544c3c2cf81719d923527d4604469cde1a6e7ee1e85fe3bfe52
 tags:
   0.8.3--pyhdfd78af_0: sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949
   0.9.0--pyhdfd78af_0: sha256:7d04e1c8d8b593df08638d0e795701cca1ed6a73a987a679c8ecb280b64e98ee
+  0.9.1--pyhdfd78af_0: sha256:e3214b10c8baa544c3c2cf81719d923527d4604469cde1a6e7ee1e85fe3bfe52
 docker: quay.io/biocontainers/mokapot
 aliases:
   mokapot: /usr/local/bin/mokapot

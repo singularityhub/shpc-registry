@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/python-bioformats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-bioformats
 latest:
-  4.0.6--pyh5e36f6f_0: sha256:8896815fbced72f22eae696610efbcdd762d5232ae6c75547b4187a307852564
+  4.0.7--pyh7cba7a3_0: sha256:8a81c00414c76fecc3bc44239b06f1f03e9f2c2efe27d01dc5de02d1fbb37f36
 tags:
   4.0.6--pyh5e36f6f_0: sha256:8896815fbced72f22eae696610efbcdd762d5232ae6c75547b4187a307852564
+  4.0.7--pyh7cba7a3_0: sha256:8a81c00414c76fecc3bc44239b06f1f03e9f2c2efe27d01dc5de02d1fbb37f36
 docker: quay.io/biocontainers/python-bioformats
 aliases:
   jpackage: /usr/local/bin/jpackage
