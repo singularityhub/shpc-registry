@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dashing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dashing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dashing/container.yaml"
-updated_at: "2023-01-12 03:06:17.170148"
+updated_at: "2023-01-13 02:57:25.257838"
 latest: "1.0--hfb1f815_0"
 container_url: "https://biocontainers.pro/tools/dashing"
 aliases:

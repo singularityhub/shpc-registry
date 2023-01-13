@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/das_tool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/das_tool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/das_tool/container.yaml"
-updated_at: "2023-01-12 04:05:05.312075"
-latest: "1.1.5--r41hdfd78af_0"
+updated_at: "2023-01-13 03:45:19.229755"
+latest: "1.1.6--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/das_tool"
 aliases:
  - "Contigs2Bin_to_Fasta.sh"
@@ -25,8 +25,9 @@ aliases:
  - "zipgrep"
 versions:
  - "1.1.5--r41hdfd78af_0"
+ - "1.1.6--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for das_tool"
-config: {"url": "https://biocontainers.pro/tools/das_tool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for das_tool", "latest": {"1.1.5--r41hdfd78af_0": "sha256:9562292c560d3d4602d917561e0efe7ea9698b6c7973112c5662f1dba996dfab"}, "tags": {"1.1.5--r41hdfd78af_0": "sha256:9562292c560d3d4602d917561e0efe7ea9698b6c7973112c5662f1dba996dfab"}, "docker": "quay.io/biocontainers/das_tool", "aliases": {"Contigs2Bin_to_Fasta.sh": "/usr/local/bin/Contigs2Bin_to_Fasta.sh", "DAS_Tool": "/usr/local/bin/DAS_Tool", "Fasta_to_Contig2Bin.sh": "/usr/local/bin/Fasta_to_Contig2Bin.sh", "pullseq": "/usr/local/bin/pullseq", "seqdiff": "/usr/local/bin/seqdiff", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep"}}
+config: {"url": "https://biocontainers.pro/tools/das_tool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for das_tool", "latest": {"1.1.6--r42hdfd78af_0": "sha256:db77e6420ddc5e18666251222e7617b5aac4ec0c6215ac48e16b11af9aacdd6e"}, "tags": {"1.1.5--r41hdfd78af_0": "sha256:9562292c560d3d4602d917561e0efe7ea9698b6c7973112c5662f1dba996dfab", "1.1.6--r42hdfd78af_0": "sha256:db77e6420ddc5e18666251222e7617b5aac4ec0c6215ac48e16b11af9aacdd6e"}, "docker": "quay.io/biocontainers/das_tool", "aliases": {"Contigs2Bin_to_Fasta.sh": "/usr/local/bin/Contigs2Bin_to_Fasta.sh", "DAS_Tool": "/usr/local/bin/DAS_Tool", "Fasta_to_Contig2Bin.sh": "/usr/local/bin/Fasta_to_Contig2Bin.sh", "pullseq": "/usr/local/bin/pullseq", "seqdiff": "/usr/local/bin/seqdiff", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/das_tool.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/das_tool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/das_tool:1.1.5--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/das_tool:1.1.6--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/das_tool/1.1.5--r41hdfd78af_0
-$ module help quay.io/biocontainers/das_tool/1.1.5--r41hdfd78af_0
+$ module load quay.io/biocontainers/das_tool/1.1.6--r42hdfd78af_0
+$ module help quay.io/biocontainers/das_tool/1.1.6--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

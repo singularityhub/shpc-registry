@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/container.yaml"
-updated_at: "2023-01-12 03:04:09.423785"
-latest: "1.7.4--pl5321hdfd78af_4"
+updated_at: "2023-01-13 02:55:42.803593"
+latest: "1.7.4--pl5321hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/perl-bio-tools-run-alignment-tcoffee"
 aliases:
  - "bp_find-blast-matches.pl"
@@ -20,8 +20,9 @@ aliases:
  - "stubmaker.pl"
 versions:
  - "1.7.4--pl5321hdfd78af_4"
+ - "1.7.4--pl5321hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for perl-bio-tools-run-alignment-tcoffee"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-tools-run-alignment-tcoffee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-tools-run-alignment-tcoffee", "latest": {"1.7.4--pl5321hdfd78af_4": "sha256:5e5f4bda58f0fd068e56f0b3f0b50b4c37cb5e2e190e6ec948284795628bec3c"}, "tags": {"1.7.4--pl5321hdfd78af_4": "sha256:5e5f4bda58f0fd068e56f0b3f0b50b4c37cb5e2e190e6ec948284795628bec3c"}, "docker": "quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee", "aliases": {"bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "ace.pl": "/usr/local/bin/ace.pl", "ccconfig": "/usr/local/bin/ccconfig", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "stubmaker.pl": "/usr/local/bin/stubmaker.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-tools-run-alignment-tcoffee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-tools-run-alignment-tcoffee", "latest": {"1.7.4--pl5321hdfd78af_5": "sha256:316a8c43f64082de1d786a934d958cd50976800af1ffe04899f7bc9f7dba58ff"}, "tags": {"1.7.4--pl5321hdfd78af_4": "sha256:5e5f4bda58f0fd068e56f0b3f0b50b4c37cb5e2e190e6ec948284795628bec3c", "1.7.4--pl5321hdfd78af_5": "sha256:316a8c43f64082de1d786a934d958cd50976800af1ffe04899f7bc9f7dba58ff"}, "docker": "quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee", "aliases": {"bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "ace.pl": "/usr/local/bin/ace.pl", "ccconfig": "/usr/local/bin/ccconfig", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "stubmaker.pl": "/usr/local/bin/stubmaker.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee:1.7.4--pl5321hdfd78af_4
+$ shpc install quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee:1.7.4--pl5321hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/1.7.4--pl5321hdfd78af_4
-$ module help quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/1.7.4--pl5321hdfd78af_4
+$ module load quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/1.7.4--pl5321hdfd78af_5
+$ module help quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/1.7.4--pl5321hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

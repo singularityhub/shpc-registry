@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/consel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consel/container.yaml"
-updated_at: "2023-01-12 04:01:03.081483"
+updated_at: "2023-01-13 03:42:03.254194"
 latest: "0.20--h516909a_1"
 container_url: "https://biocontainers.pro/tools/consel"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prefersim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prefersim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prefersim/container.yaml"
-updated_at: "2023-01-12 03:27:28.003318"
+updated_at: "2023-01-13 03:14:39.607681"
 latest: "1.0--h940b034_4"
 container_url: "https://biocontainers.pro/tools/prefersim"
 aliases:
