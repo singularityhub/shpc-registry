@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diapysef"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diapysef/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diapysef/container.yaml"
-updated_at: "2023-01-13 03:17:17.198723"
+updated_at: "2023-01-14 03:04:56.441234"
 latest: "0.3.5--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/diapysef"
 aliases:

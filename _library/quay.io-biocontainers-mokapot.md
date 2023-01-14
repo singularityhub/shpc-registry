@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mokapot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mokapot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mokapot/container.yaml"
-updated_at: "2023-01-13 02:54:15.776645"
-latest: "0.9.0--pyhdfd78af_0"
+updated_at: "2023-01-14 02:42:41.888912"
+latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mokapot"
 aliases:
  - "mokapot"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.8.3--pyhdfd78af_0"
  - "0.9.0--pyhdfd78af_0"
+ - "0.9.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mokapot"
-config: {"url": "https://biocontainers.pro/tools/mokapot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mokapot", "latest": {"0.9.0--pyhdfd78af_0": "sha256:7d04e1c8d8b593df08638d0e795701cca1ed6a73a987a679c8ecb280b64e98ee"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949", "0.9.0--pyhdfd78af_0": "sha256:7d04e1c8d8b593df08638d0e795701cca1ed6a73a987a679c8ecb280b64e98ee"}, "docker": "quay.io/biocontainers/mokapot", "aliases": {"mokapot": "/usr/local/bin/mokapot", "triqler": "/usr/local/bin/triqler", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
+config: {"url": "https://biocontainers.pro/tools/mokapot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mokapot", "latest": {"0.9.1--pyhdfd78af_0": "sha256:e3214b10c8baa544c3c2cf81719d923527d4604469cde1a6e7ee1e85fe3bfe52"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949", "0.9.0--pyhdfd78af_0": "sha256:7d04e1c8d8b593df08638d0e795701cca1ed6a73a987a679c8ecb280b64e98ee", "0.9.1--pyhdfd78af_0": "sha256:e3214b10c8baa544c3c2cf81719d923527d4604469cde1a6e7ee1e85fe3bfe52"}, "docker": "quay.io/biocontainers/mokapot", "aliases": {"mokapot": "/usr/local/bin/mokapot", "triqler": "/usr/local/bin/triqler", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mokapot.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/mokapot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mokapot:0.9.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mokapot:0.9.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mokapot/0.9.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mokapot/0.9.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mokapot/0.9.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/mokapot/0.9.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

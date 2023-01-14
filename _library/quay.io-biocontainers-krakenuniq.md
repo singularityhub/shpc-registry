@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krakenuniq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakenuniq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krakenuniq/container.yaml"
-updated_at: "2023-01-13 03:25:39.964106"
+updated_at: "2023-01-14 03:12:59.954944"
 latest: "1.0.3--pl5321h19e8d03_0"
 container_url: "https://biocontainers.pro/tools/krakenuniq"
 aliases:

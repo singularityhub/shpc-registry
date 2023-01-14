@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-emdomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-emdomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-emdomics/container.yaml"
-updated_at: "2023-01-13 03:21:08.949509"
+updated_at: "2023-01-14 03:08:38.952017"
 latest: "2.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-emdomics"
 

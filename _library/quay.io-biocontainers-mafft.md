@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mafft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mafft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mafft/container.yaml"
-updated_at: "2023-01-13 03:38:12.923626"
+updated_at: "2023-01-14 03:25:15.021180"
 latest: "7.508--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/mafft"
 aliases:
