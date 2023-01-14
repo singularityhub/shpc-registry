@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/midas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for midas
 latest:
-  1.3.2--pyh5e36f6f_6: sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122
+  1.3.2--pyh7cba7a3_7: sha256:793db870709e8cd267042ff633a6f20b0662b52f44a6c8f4745a9a48c5d02a49
 tags:
   1.3.2--pyh5e36f6f_6: sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122
+  1.3.2--pyh7cba7a3_7: sha256:793db870709e8cd267042ff633a6f20b0662b52f44a6c8f4745a9a48c5d02a49
 docker: quay.io/biocontainers/midas
 aliases:
   build_midas_db.py: /usr/local/bin/build_midas_db.py
