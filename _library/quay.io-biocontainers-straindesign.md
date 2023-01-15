@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/straindesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straindesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/straindesign/container.yaml"
-updated_at: "2023-01-14 02:55:55.990897"
+updated_at: "2023-01-15 03:05:23.400558"
 latest: "3.2.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/straindesign"
 aliases:

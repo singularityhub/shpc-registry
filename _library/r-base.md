@@ -4,7 +4,7 @@ name:  "r-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/r-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/r-base/container.yaml"
-updated_at: "2023-01-14 03:34:18.644918"
+updated_at: "2023-01-15 03:44:54.175795"
 latest: "4.2.2"
 container_url: "https://hub.docker.com/_/r-base"
 aliases:

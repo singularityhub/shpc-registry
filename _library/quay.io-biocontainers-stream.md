@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stream/container.yaml"
-updated_at: "2023-01-14 03:28:56.431133"
+updated_at: "2023-01-15 03:39:21.837427"
 latest: "0.4.0--py37r36hc99cbb1_0"
 container_url: "https://biocontainers.pro/tools/stream"
 aliases:

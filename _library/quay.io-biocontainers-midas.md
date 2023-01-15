@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/midas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/midas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/midas/container.yaml"
-updated_at: "2023-01-14 02:50:48.172483"
-latest: "1.3.2--pyh5e36f6f_6"
+updated_at: "2023-01-15 03:00:07.058544"
+latest: "1.3.2--pyh7cba7a3_7"
 container_url: "https://biocontainers.pro/tools/midas"
 aliases:
  - "build_midas_db.py"
@@ -29,8 +29,9 @@ aliases:
  - "readme.pdf"
 versions:
  - "1.3.2--pyh5e36f6f_6"
+ - "1.3.2--pyh7cba7a3_7"
 description: "shpc-registry automated BioContainers addition for midas"
-config: {"url": "https://biocontainers.pro/tools/midas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for midas", "latest": {"1.3.2--pyh5e36f6f_6": "sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122"}, "tags": {"1.3.2--pyh5e36f6f_6": "sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122"}, "docker": "quay.io/biocontainers/midas", "aliases": {"build_midas_db.py": "/usr/local/bin/build_midas_db.py", "call_consensus.py": "/usr/local/bin/call_consensus.py", "compare_genes.py": "/usr/local/bin/compare_genes.py", "hs-blastn": "/usr/local/bin/hs-blastn", "merge_midas.py": "/usr/local/bin/merge_midas.py", "query_by_compound.py": "/usr/local/bin/query_by_compound.py", "run_midas.py": "/usr/local/bin/run_midas.py", "snp_diversity.py": "/usr/local/bin/snp_diversity.py", "strain_tracking.py": "/usr/local/bin/strain_tracking.py", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/midas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for midas", "latest": {"1.3.2--pyh7cba7a3_7": "sha256:793db870709e8cd267042ff633a6f20b0662b52f44a6c8f4745a9a48c5d02a49"}, "tags": {"1.3.2--pyh5e36f6f_6": "sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122", "1.3.2--pyh7cba7a3_7": "sha256:793db870709e8cd267042ff633a6f20b0662b52f44a6c8f4745a9a48c5d02a49"}, "docker": "quay.io/biocontainers/midas", "aliases": {"build_midas_db.py": "/usr/local/bin/build_midas_db.py", "call_consensus.py": "/usr/local/bin/call_consensus.py", "compare_genes.py": "/usr/local/bin/compare_genes.py", "hs-blastn": "/usr/local/bin/hs-blastn", "merge_midas.py": "/usr/local/bin/merge_midas.py", "query_by_compound.py": "/usr/local/bin/query_by_compound.py", "run_midas.py": "/usr/local/bin/run_midas.py", "snp_diversity.py": "/usr/local/bin/snp_diversity.py", "strain_tracking.py": "/usr/local/bin/strain_tracking.py", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/midas.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/midas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/midas:1.3.2--pyh5e36f6f_6
+$ shpc install quay.io/biocontainers/midas:1.3.2--pyh7cba7a3_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/midas/1.3.2--pyh5e36f6f_6
-$ module help quay.io/biocontainers/midas/1.3.2--pyh5e36f6f_6
+$ module load quay.io/biocontainers/midas/1.3.2--pyh7cba7a3_7
+$ module help quay.io/biocontainers/midas/1.3.2--pyh7cba7a3_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

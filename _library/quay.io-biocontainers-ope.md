@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ope/container.yaml"
-updated_at: "2023-01-14 03:05:28.442265"
+updated_at: "2023-01-15 03:15:14.017936"
 latest: "0.8--pyh5bfb8f1_0"
 container_url: "https://biocontainers.pro/tools/ope"
 aliases:
