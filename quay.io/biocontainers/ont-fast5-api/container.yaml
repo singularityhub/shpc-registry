@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ont-fast5-api
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ont-fast5-api
 latest:
-  4.1.0--pyhdfd78af_0: sha256:67cc05ce27ca64b6a08a4b26032c1532ab27b4bdcfb033fe443ea1883990ec4f
+  4.1.1--pyhdfd78af_0: sha256:b0da98965ff5fb117a051e5c3a6235bc088863af78a941d4acc2860b75ea3009
 tags:
   4.1.0--pyhdfd78af_0: sha256:67cc05ce27ca64b6a08a4b26032c1532ab27b4bdcfb033fe443ea1883990ec4f
+  4.1.1--pyhdfd78af_0: sha256:b0da98965ff5fb117a051e5c3a6235bc088863af78a941d4acc2860b75ea3009
 docker: quay.io/biocontainers/ont-fast5-api
 aliases:
   check_compression: /usr/local/bin/check_compression

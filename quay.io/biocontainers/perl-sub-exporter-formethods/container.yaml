@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-sub-exporter-formethods
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-sub-exporter-formethods
 latest:
-  0.100054--pl5321hdfd78af_0: sha256:3d33b258588556f7b409fe9154d594503a4a8094e240f616cd2dc9266177054c
+  0.100055--pl5321hdfd78af_0: sha256:408c198f1db074d1811c4f4ac4c6637e5f18ea93229ad67e4bc40feb28fa2d08
 tags:
   0.100054--pl5321hdfd78af_0: sha256:3d33b258588556f7b409fe9154d594503a4a8094e240f616cd2dc9266177054c
+  0.100055--pl5321hdfd78af_0: sha256:408c198f1db074d1811c4f4ac4c6637e5f18ea93229ad67e4bc40feb28fa2d08
 docker: quay.io/biocontainers/perl-sub-exporter-formethods
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
