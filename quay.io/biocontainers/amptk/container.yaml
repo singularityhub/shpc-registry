@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/amptk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for amptk
 latest:
-  1.5.4--pyh5e36f6f_0: sha256:483ed2ba22bf02b2c776dba9084e5242d43733bc7a8fe34a75ca54c62a9fd84b
+  1.5.5--pyh7cba7a3_0: sha256:23227b0d0a192dde07f6f4f7e8f3ae81a86852ab7a55fed0c3fc6624c2af926b
 tags:
   1.5.4--pyh5e36f6f_0: sha256:483ed2ba22bf02b2c776dba9084e5242d43733bc7a8fe34a75ca54c62a9fd84b
+  1.5.5--pyh7cba7a3_0: sha256:23227b0d0a192dde07f6f4f7e8f3ae81a86852ab7a55fed0c3fc6624c2af926b
 docker: quay.io/biocontainers/amptk
 aliases:
   amptk: /usr/local/bin/amptk

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-pod-coverage-trustpod
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-pod-coverage-trustpod
 latest:
-  0.100005--pl5321hdfd78af_0: sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824
+  0.100006--pl5321hdfd78af_0: sha256:90a77605e314afc53fcd2c446298875303f74441a4da7a186adddc135a455525
 tags:
   0.100005--pl5321hdfd78af_0: sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824
+  0.100006--pl5321hdfd78af_0: sha256:90a77605e314afc53fcd2c446298875303f74441a4da7a186adddc135a455525
 docker: quay.io/biocontainers/perl-pod-coverage-trustpod
 aliases:
   pod_cover: /usr/local/bin/pod_cover
