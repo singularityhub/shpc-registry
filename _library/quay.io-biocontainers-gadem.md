@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gadem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gadem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gadem/container.yaml"
-updated_at: "2023-01-15 03:36:20.653094"
+updated_at: "2023-01-16 03:37:01.820740"
 latest: "1.3.1--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/gadem"
 aliases:

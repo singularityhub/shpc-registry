@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/salmid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salmid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salmid/container.yaml"
-updated_at: "2023-01-15 03:35:25.816140"
+updated_at: "2023-01-16 03:36:05.043581"
 latest: "0.1.23--py_0"
 container_url: "https://biocontainers.pro/tools/salmid"
 aliases:

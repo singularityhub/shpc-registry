@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-taxonomizr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-taxonomizr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-taxonomizr/container.yaml"
-updated_at: "2023-01-15 03:16:12.998015"
+updated_at: "2023-01-16 03:16:19.409818"
 latest: "0.7.1--r40hdf9a8c9_0"
 container_url: "https://biocontainers.pro/tools/r-taxonomizr"
 aliases:

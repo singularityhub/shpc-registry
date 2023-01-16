@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-gfacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gfacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gfacs/container.yaml"
-updated_at: "2023-01-15 02:53:56.275765"
+updated_at: "2023-01-16 02:53:24.290386"
 latest: "1.1.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-gfacs"
 aliases:

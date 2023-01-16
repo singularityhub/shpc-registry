@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/start-asap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/start-asap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/start-asap/container.yaml"
-updated_at: "2023-01-15 03:19:42.166566"
+updated_at: "2023-01-16 03:19:54.726680"
 latest: "1.3.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/start-asap"
 aliases:

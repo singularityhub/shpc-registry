@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-sub-exporter-formethods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-exporter-formethods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-exporter-formethods/container.yaml"
-updated_at: "2023-01-15 02:51:23.836413"
-latest: "0.100054--pl5321hdfd78af_0"
+updated_at: "2023-01-16 02:50:46.915446"
+latest: "0.100055--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-sub-exporter-formethods"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.100054--pl5321hdfd78af_0"
+ - "0.100055--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-sub-exporter-formethods"
-config: {"url": "https://biocontainers.pro/tools/perl-sub-exporter-formethods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sub-exporter-formethods", "latest": {"0.100054--pl5321hdfd78af_0": "sha256:3d33b258588556f7b409fe9154d594503a4a8094e240f616cd2dc9266177054c"}, "tags": {"0.100054--pl5321hdfd78af_0": "sha256:3d33b258588556f7b409fe9154d594503a4a8094e240f616cd2dc9266177054c"}, "docker": "quay.io/biocontainers/perl-sub-exporter-formethods", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sub-exporter-formethods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sub-exporter-formethods", "latest": {"0.100055--pl5321hdfd78af_0": "sha256:408c198f1db074d1811c4f4ac4c6637e5f18ea93229ad67e4bc40feb28fa2d08"}, "tags": {"0.100054--pl5321hdfd78af_0": "sha256:3d33b258588556f7b409fe9154d594503a4a8094e240f616cd2dc9266177054c", "0.100055--pl5321hdfd78af_0": "sha256:408c198f1db074d1811c4f4ac4c6637e5f18ea93229ad67e4bc40feb28fa2d08"}, "docker": "quay.io/biocontainers/perl-sub-exporter-formethods", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sub-exporter-formethods.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-sub-exporter-formethods
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sub-exporter-formethods:0.100054--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-sub-exporter-formethods:0.100055--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sub-exporter-formethods/0.100054--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-sub-exporter-formethods/0.100054--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-sub-exporter-formethods/0.100055--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-sub-exporter-formethods/0.100055--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

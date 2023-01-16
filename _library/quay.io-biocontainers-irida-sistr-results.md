@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irida-sistr-results"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-sistr-results/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irida-sistr-results/container.yaml"
-updated_at: "2023-01-15 03:18:14.483135"
+updated_at: "2023-01-16 03:18:24.705546"
 latest: "0.6.0--py_1"
 container_url: "https://biocontainers.pro/tools/irida-sistr-results"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ostir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ostir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ostir/container.yaml"
-updated_at: "2023-01-15 03:31:44.478778"
-latest: "1.0.6--pyhdfd78af_0"
+updated_at: "2023-01-16 03:32:16.041379"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ostir"
 aliases:
  - "ostir"
@@ -21,8 +21,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "1.0.6--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ostir"
-config: {"url": "https://biocontainers.pro/tools/ostir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ostir", "latest": {"1.0.6--pyhdfd78af_0": "sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296"}, "docker": "quay.io/biocontainers/ostir", "aliases": {"ostir": "/usr/local/bin/ostir", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/ostir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ostir", "latest": {"1.1.0--pyhdfd78af_0": "sha256:47ef87c7648dda103087cf2a54fd1a0be227401366ab982fd9fc6579f45a8e17"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296", "1.1.0--pyhdfd78af_0": "sha256:47ef87c7648dda103087cf2a54fd1a0be227401366ab982fd9fc6579f45a8e17"}, "docker": "quay.io/biocontainers/ostir", "aliases": {"ostir": "/usr/local/bin/ostir", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ostir.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ostir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ostir:1.0.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ostir:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ostir/1.0.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/ostir/1.0.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/ostir/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ostir/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

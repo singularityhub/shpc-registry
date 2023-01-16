@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gdtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gdtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gdtools/container.yaml"
-updated_at: "2023-01-15 02:54:12.325259"
+updated_at: "2023-01-16 02:53:40.906563"
 latest: "0.1.4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-gdtools"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tftargets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tftargets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tftargets/container.yaml"
-updated_at: "2023-01-15 02:50:06.662120"
+updated_at: "2023-01-16 02:49:27.358020"
 latest: "1.3--r42hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-tftargets"
 aliases:

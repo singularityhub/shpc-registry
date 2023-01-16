@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bs-seeker2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bs-seeker2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bs-seeker2/container.yaml"
-updated_at: "2023-01-15 02:54:31.899714"
+updated_at: "2023-01-16 02:54:01.093282"
 latest: "2.1.7--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bs-seeker2"
 aliases:

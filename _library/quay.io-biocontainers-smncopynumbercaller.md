@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smncopynumbercaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smncopynumbercaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smncopynumbercaller/container.yaml"
-updated_at: "2023-01-15 03:22:20.236057"
+updated_at: "2023-01-16 03:22:37.352081"
 latest: "1.1.2--py310h7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/smncopynumbercaller"
 aliases:

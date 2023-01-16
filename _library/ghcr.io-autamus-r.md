@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/r/container.yaml"
-updated_at: "2023-01-15 03:43:53.983066"
+updated_at: "2023-01-16 03:44:47.100539"
 latest: "4.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/r"
 aliases:
