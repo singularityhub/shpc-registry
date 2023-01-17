@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trimmomatic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimmomatic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimmomatic/container.yaml"
-updated_at: "2023-01-16 03:12:30.170711"
+updated_at: "2023-01-17 03:09:18.045460"
 latest: "0.39--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/trimmomatic"
 aliases:

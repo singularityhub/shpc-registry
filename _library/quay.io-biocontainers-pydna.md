@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydna/container.yaml"
-updated_at: "2023-01-16 02:59:10.441277"
+updated_at: "2023-01-17 02:56:23.550688"
 latest: "3.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/pydna"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brockman-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brockman-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brockman-pipeline/container.yaml"
-updated_at: "2023-01-16 03:15:50.497310"
+updated_at: "2023-01-17 03:12:30.281980"
 latest: "1.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/brockman-pipeline"
 aliases:

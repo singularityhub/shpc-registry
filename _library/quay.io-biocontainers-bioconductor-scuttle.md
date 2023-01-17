@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scuttle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scuttle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scuttle/container.yaml"
-updated_at: "2023-01-16 02:45:13.855870"
+updated_at: "2023-01-17 02:42:45.144242"
 latest: "1.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scuttle"
 

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cantera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cantera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cantera/container.yaml"
-updated_at: "2023-01-16 03:45:39.287036"
+updated_at: "2023-01-17 03:41:23.714371"
 latest: "2.5.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cantera"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/boutroslabplottinggeneral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boutroslabplottinggeneral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boutroslabplottinggeneral/container.yaml"
-updated_at: "2023-01-16 03:06:27.538954"
+updated_at: "2023-01-17 03:03:28.005473"
 latest: "5.3.4--r40_2"
 container_url: "https://biocontainers.pro/tools/boutroslabplottinggeneral"
 aliases:

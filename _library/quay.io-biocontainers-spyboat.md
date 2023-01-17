@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spyboat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spyboat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spyboat/container.yaml"
-updated_at: "2023-01-16 03:07:39.239793"
+updated_at: "2023-01-17 03:04:36.907314"
 latest: "0.1.1"
 container_url: "https://biocontainers.pro/tools/spyboat"
 aliases:

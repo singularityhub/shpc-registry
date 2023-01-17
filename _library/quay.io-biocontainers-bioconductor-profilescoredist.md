@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-profilescoredist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-profilescoredist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-profilescoredist/container.yaml"
-updated_at: "2023-01-16 03:24:43.740139"
+updated_at: "2023-01-17 03:21:04.684344"
 latest: "1.26.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-profilescoredist"
 

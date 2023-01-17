@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-util/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-util/container.yaml"
-updated_at: "2023-01-16 03:15:38.264570"
+updated_at: "2023-01-17 03:12:18.459505"
 latest: "21.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-util"
 aliases:

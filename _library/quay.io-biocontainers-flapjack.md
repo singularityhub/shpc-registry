@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flapjack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flapjack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flapjack/container.yaml"
-updated_at: "2023-01-16 03:16:16.828350"
+updated_at: "2023-01-17 03:12:55.460459"
 latest: "1.20.10.07--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/flapjack"
 aliases:

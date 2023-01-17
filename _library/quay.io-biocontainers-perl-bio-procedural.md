@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-procedural"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-procedural/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-procedural/container.yaml"
-updated_at: "2023-01-16 03:37:55.459303"
+updated_at: "2023-01-17 03:33:51.749530"
 latest: "1.7.4--pl5321h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-procedural"
 aliases:

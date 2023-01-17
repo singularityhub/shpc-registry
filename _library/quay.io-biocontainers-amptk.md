@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amptk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amptk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amptk/container.yaml"
-updated_at: "2023-01-16 03:03:39.757211"
-latest: "1.5.4--pyh5e36f6f_0"
+updated_at: "2023-01-17 03:00:43.180014"
+latest: "1.5.5--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/amptk"
 aliases:
  - "amptk"
@@ -25,8 +25,9 @@ aliases:
  - "fftnsi"
 versions:
  - "1.5.4--pyh5e36f6f_0"
+ - "1.5.5--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for amptk"
-config: {"url": "https://biocontainers.pro/tools/amptk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amptk", "latest": {"1.5.4--pyh5e36f6f_0": "sha256:483ed2ba22bf02b2c776dba9084e5242d43733bc7a8fe34a75ca54c62a9fd84b"}, "tags": {"1.5.4--pyh5e36f6f_0": "sha256:483ed2ba22bf02b2c776dba9084e5242d43733bc7a8fe34a75ca54c62a9fd84b"}, "docker": "quay.io/biocontainers/amptk", "aliases": {"amptk": "/usr/local/bin/amptk", "amptk_synthetic_mock.py": "/usr/local/bin/amptk_synthetic_mock.py", "bold2utax.py": "/usr/local/bin/bold2utax.py", "distro": "/usr/local/bin/distro", "pyfastx": "/usr/local/bin/pyfastx", "biom": "/usr/local/bin/biom", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "vsearch": "/usr/local/bin/vsearch", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi"}}
+config: {"url": "https://biocontainers.pro/tools/amptk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amptk", "latest": {"1.5.5--pyh7cba7a3_0": "sha256:23227b0d0a192dde07f6f4f7e8f3ae81a86852ab7a55fed0c3fc6624c2af926b"}, "tags": {"1.5.4--pyh5e36f6f_0": "sha256:483ed2ba22bf02b2c776dba9084e5242d43733bc7a8fe34a75ca54c62a9fd84b", "1.5.5--pyh7cba7a3_0": "sha256:23227b0d0a192dde07f6f4f7e8f3ae81a86852ab7a55fed0c3fc6624c2af926b"}, "docker": "quay.io/biocontainers/amptk", "aliases": {"amptk": "/usr/local/bin/amptk", "amptk_synthetic_mock.py": "/usr/local/bin/amptk_synthetic_mock.py", "bold2utax.py": "/usr/local/bin/bold2utax.py", "distro": "/usr/local/bin/distro", "pyfastx": "/usr/local/bin/pyfastx", "biom": "/usr/local/bin/biom", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "vsearch": "/usr/local/bin/vsearch", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amptk.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/amptk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amptk:1.5.4--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/amptk:1.5.5--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amptk/1.5.4--pyh5e36f6f_0
-$ module help quay.io/biocontainers/amptk/1.5.4--pyh5e36f6f_0
+$ module load quay.io/biocontainers/amptk/1.5.5--pyh7cba7a3_0
+$ module help quay.io/biocontainers/amptk/1.5.5--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

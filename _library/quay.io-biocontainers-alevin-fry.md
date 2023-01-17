@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/alevin-fry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alevin-fry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alevin-fry/container.yaml"
-updated_at: "2023-01-16 03:44:03.123388"
-latest: "0.8.0--h9f5acd7_0"
+updated_at: "2023-01-17 03:39:49.359374"
+latest: "0.8.1--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/alevin-fry"
 aliases:
  - "alevin-fry"
 versions:
  - "0.8.0--h9f5acd7_0"
+ - "0.8.1--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for alevin-fry"
-config: {"url": "https://biocontainers.pro/tools/alevin-fry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alevin-fry", "latest": {"0.8.0--h9f5acd7_0": "sha256:9b09ad00fde35fc0a19768c5ba82bc6bf5cbe83afa719eb57654927bc67283cb"}, "tags": {"0.8.0--h9f5acd7_0": "sha256:9b09ad00fde35fc0a19768c5ba82bc6bf5cbe83afa719eb57654927bc67283cb"}, "docker": "quay.io/biocontainers/alevin-fry", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry"}}
+config: {"url": "https://biocontainers.pro/tools/alevin-fry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alevin-fry", "latest": {"0.8.1--h9f5acd7_0": "sha256:a354dca356ee686930c886ebaf768325870b8133cd6d68b8039631ee4f145ff8"}, "tags": {"0.8.0--h9f5acd7_0": "sha256:9b09ad00fde35fc0a19768c5ba82bc6bf5cbe83afa719eb57654927bc67283cb", "0.8.1--h9f5acd7_0": "sha256:a354dca356ee686930c886ebaf768325870b8133cd6d68b8039631ee4f145ff8"}, "docker": "quay.io/biocontainers/alevin-fry", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alevin-fry.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/alevin-fry
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alevin-fry:0.8.0--h9f5acd7_0
+$ shpc install quay.io/biocontainers/alevin-fry:0.8.1--h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alevin-fry/0.8.0--h9f5acd7_0
-$ module help quay.io/biocontainers/alevin-fry/0.8.0--h9f5acd7_0
+$ module load quay.io/biocontainers/alevin-fry/0.8.1--h9f5acd7_0
+$ module help quay.io/biocontainers/alevin-fry/0.8.1--h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

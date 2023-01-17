@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-string-rewriteprefix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-rewriteprefix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-rewriteprefix/container.yaml"
-updated_at: "2023-01-16 03:20:58.375026"
-latest: "0.008--pl5321hdfd78af_0"
+updated_at: "2023-01-17 03:17:26.765382"
+latest: "0.009--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-string-rewriteprefix"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.008--pl5321hdfd78af_0"
+ - "0.009--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-string-rewriteprefix"
-config: {"url": "https://biocontainers.pro/tools/perl-string-rewriteprefix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-rewriteprefix", "latest": {"0.008--pl5321hdfd78af_0": "sha256:9db234a4a739cefca8bd6c3a66ac0a8f71970663948a101f50aeea42d094f20b"}, "tags": {"0.008--pl5321hdfd78af_0": "sha256:9db234a4a739cefca8bd6c3a66ac0a8f71970663948a101f50aeea42d094f20b"}, "docker": "quay.io/biocontainers/perl-string-rewriteprefix", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-string-rewriteprefix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-string-rewriteprefix", "latest": {"0.009--pl5321hdfd78af_0": "sha256:b80a48d250080c3dca1035ca7a00ffd8cb94c1dcd90db7852e534c8ee33ca320"}, "tags": {"0.008--pl5321hdfd78af_0": "sha256:9db234a4a739cefca8bd6c3a66ac0a8f71970663948a101f50aeea42d094f20b", "0.009--pl5321hdfd78af_0": "sha256:b80a48d250080c3dca1035ca7a00ffd8cb94c1dcd90db7852e534c8ee33ca320"}, "docker": "quay.io/biocontainers/perl-string-rewriteprefix", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-string-rewriteprefix.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-string-rewriteprefix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-string-rewriteprefix:0.008--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-string-rewriteprefix:0.009--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-string-rewriteprefix/0.008--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-string-rewriteprefix/0.008--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-string-rewriteprefix/0.009--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-string-rewriteprefix/0.009--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
