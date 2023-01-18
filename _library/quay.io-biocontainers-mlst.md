@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mlst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlst/container.yaml"
-updated_at: "2023-01-17 02:50:37.211674"
-latest: "2.23.0--hdfd78af_0"
+updated_at: "2023-01-18 02:54:46.552290"
+latest: "2.23.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mlst"
 aliases:
  - "mlst"
@@ -26,8 +26,9 @@ versions:
  - "2.19.0--hdfd78af_1"
  - "2.18.1--0"
  - "2.17.6--1"
+ - "2.23.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for mlst"
-config: {"url": "https://biocontainers.pro/tools/mlst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mlst", "latest": {"2.23.0--hdfd78af_0": "sha256:ce4b51e4d41b84a5909010e798b33f3debbc79e6d58063ff1e703c290d5b2bc8"}, "tags": {"2.9--hec16e2b_4": "sha256:be2e48b3a98515ac8807941984271e7d90ef686c7188c6f1f481d8efe443b20b", "2.23.0--hdfd78af_0": "sha256:ce4b51e4d41b84a5909010e798b33f3debbc79e6d58063ff1e703c290d5b2bc8", "2.22.1--hdfd78af_0": "sha256:b17bdd43b6835927c4e4e918e757c1cc96f025155b4c130ef2064e27458c4485", "2.19.0--hdfd78af_1": "sha256:b68ba8d74b3de3031c62645e09598e1bde1d0b502478a63cc166a2af03079bd9", "2.18.1--0": "sha256:03a889974e65ea5dd74211e0aa4e1540fdb23154e44a8104de257d42e2e2c794", "2.17.6--1": "sha256:9418ef8a3f591441ed8bec0a2c45ed80c06b969a878980917386613f4218366f"}, "docker": "quay.io/biocontainers/mlst", "aliases": {"mlst": "/usr/local/bin/mlst", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
+config: {"url": "https://biocontainers.pro/tools/mlst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mlst", "latest": {"2.23.0--hdfd78af_1": "sha256:5e32de82da1ab6df5ded7b6852178af0b86fa42f0e9c6305ad8cf1b28dd7c08d"}, "tags": {"2.9--hec16e2b_4": "sha256:be2e48b3a98515ac8807941984271e7d90ef686c7188c6f1f481d8efe443b20b", "2.23.0--hdfd78af_0": "sha256:ce4b51e4d41b84a5909010e798b33f3debbc79e6d58063ff1e703c290d5b2bc8", "2.22.1--hdfd78af_0": "sha256:b17bdd43b6835927c4e4e918e757c1cc96f025155b4c130ef2064e27458c4485", "2.19.0--hdfd78af_1": "sha256:b68ba8d74b3de3031c62645e09598e1bde1d0b502478a63cc166a2af03079bd9", "2.18.1--0": "sha256:03a889974e65ea5dd74211e0aa4e1540fdb23154e44a8104de257d42e2e2c794", "2.17.6--1": "sha256:9418ef8a3f591441ed8bec0a2c45ed80c06b969a878980917386613f4218366f", "2.23.0--hdfd78af_1": "sha256:5e32de82da1ab6df5ded7b6852178af0b86fa42f0e9c6305ad8cf1b28dd7c08d"}, "docker": "quay.io/biocontainers/mlst", "aliases": {"mlst": "/usr/local/bin/mlst", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mlst.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/mlst
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mlst:2.23.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/mlst:2.23.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mlst/2.23.0--hdfd78af_0
-$ module help quay.io/biocontainers/mlst/2.23.0--hdfd78af_0
+$ module load quay.io/biocontainers/mlst/2.23.0--hdfd78af_1
+$ module help quay.io/biocontainers/mlst/2.23.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

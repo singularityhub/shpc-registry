@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/teloclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/teloclip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/teloclip/container.yaml"
-updated_at: "2023-01-17 03:16:27.224587"
+updated_at: "2023-01-18 03:20:18.305352"
 latest: "0.0.3--py_1"
 container_url: "https://biocontainers.pro/tools/teloclip"
 aliases:

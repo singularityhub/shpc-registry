@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-birewire"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-birewire/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-birewire/container.yaml"
-updated_at: "2023-01-17 03:36:37.801057"
+updated_at: "2023-01-18 03:40:19.343678"
 latest: "3.30.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-birewire"
 aliases:

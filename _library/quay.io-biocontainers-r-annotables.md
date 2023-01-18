@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-annotables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-annotables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-annotables/container.yaml"
-updated_at: "2023-01-17 02:53:00.499463"
+updated_at: "2023-01-18 02:57:08.885227"
 latest: "0.1.90--r42hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-annotables"
 aliases:

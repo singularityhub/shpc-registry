@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-samspectral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-samspectral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-samspectral/container.yaml"
-updated_at: "2023-01-17 02:47:27.802066"
+updated_at: "2023-01-18 02:51:39.467021"
 latest: "1.52.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-samspectral"
 
