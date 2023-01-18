@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dadaist2-full
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dadaist2-full
 latest:
-  1.1--hdfd78af_0: sha256:20891d79562ba6f11701dea921aa2a87f4e12a62d8398d6b40ba6df1c3a96444
+  2.0--hdfd78af_0: sha256:10d0a08cfa81e450bb7141669287e0d9fbac3fb19c90c6fe3c554580d99c6351
 tags:
   1.1--hdfd78af_0: sha256:20891d79562ba6f11701dea921aa2a87f4e12a62d8398d6b40ba6df1c3a96444
+  2.0--hdfd78af_0: sha256:10d0a08cfa81e450bb7141669287e0d9fbac3fb19c90c6fe3c554580d99c6351
 docker: quay.io/biocontainers/dadaist2-full
 aliases:
   D2-AbundancesPhyloseq.R: /usr/local/bin/D2-AbundancesPhyloseq.R
