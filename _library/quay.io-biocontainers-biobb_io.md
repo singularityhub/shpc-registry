@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_io"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_io/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_io/container.yaml"
-updated_at: "2023-01-18 03:30:42.110289"
-latest: "3.8.0--pyhdfd78af_0"
+updated_at: "2023-01-19 03:35:19.443937"
+latest: "3.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_io"
 aliases:
  - "alphafold"
@@ -32,8 +32,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "3.8.0--pyhdfd78af_0"
+ - "3.9.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_io"
-config: {"url": "https://biocontainers.pro/tools/biobb_io", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_io", "latest": {"3.8.0--pyhdfd78af_0": "sha256:13301b1a4eba44ac98b4752e23035c338a962a34bd4add7b56233543255e1b94"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:13301b1a4eba44ac98b4752e23035c338a962a34bd4add7b56233543255e1b94"}, "docker": "quay.io/biocontainers/biobb_io", "aliases": {"alphafold": "/usr/local/bin/alphafold", "api_binding_site": "/usr/local/bin/api_binding_site", "canonical_fasta": "/usr/local/bin/canonical_fasta", "drugbank": "/usr/local/bin/drugbank", "ideal_sdf": "/usr/local/bin/ideal_sdf", "ligand": "/usr/local/bin/ligand", "memprotmd_sim": "/usr/local/bin/memprotmd_sim", "memprotmd_sim_list": "/usr/local/bin/memprotmd_sim_list", "memprotmd_sim_search": "/usr/local/bin/memprotmd_sim_search", "mmcif": "/usr/local/bin/mmcif", "pdb": "/usr/local/bin/pdb", "pdb_cluster_zip": "/usr/local/bin/pdb_cluster_zip", "pdb_variants": "/usr/local/bin/pdb_variants", "structure_info": "/usr/local/bin/structure_info", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_io", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_io", "latest": {"3.9.0--pyhdfd78af_0": "sha256:115d090a621475c2a8ee36334b14dd3533acd35401f2d77f9374552830332b62"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:13301b1a4eba44ac98b4752e23035c338a962a34bd4add7b56233543255e1b94", "3.9.0--pyhdfd78af_0": "sha256:115d090a621475c2a8ee36334b14dd3533acd35401f2d77f9374552830332b62"}, "docker": "quay.io/biocontainers/biobb_io", "aliases": {"alphafold": "/usr/local/bin/alphafold", "api_binding_site": "/usr/local/bin/api_binding_site", "canonical_fasta": "/usr/local/bin/canonical_fasta", "drugbank": "/usr/local/bin/drugbank", "ideal_sdf": "/usr/local/bin/ideal_sdf", "ligand": "/usr/local/bin/ligand", "memprotmd_sim": "/usr/local/bin/memprotmd_sim", "memprotmd_sim_list": "/usr/local/bin/memprotmd_sim_list", "memprotmd_sim_search": "/usr/local/bin/memprotmd_sim_search", "mmcif": "/usr/local/bin/mmcif", "pdb": "/usr/local/bin/pdb", "pdb_cluster_zip": "/usr/local/bin/pdb_cluster_zip", "pdb_variants": "/usr/local/bin/pdb_variants", "structure_info": "/usr/local/bin/structure_info", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_io.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/biobb_io
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_io:3.8.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_io:3.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_io/3.8.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_io/3.8.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_io/3.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_io/3.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

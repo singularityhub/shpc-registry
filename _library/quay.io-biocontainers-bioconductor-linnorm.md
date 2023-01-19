@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-linnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-linnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-linnorm/container.yaml"
-updated_at: "2023-01-18 03:11:39.650326"
+updated_at: "2023-01-19 03:14:54.934101"
 latest: "2.22.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-linnorm"
 aliases:

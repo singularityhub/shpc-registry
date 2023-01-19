@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-mixin-linewise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mixin-linewise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mixin-linewise/container.yaml"
-updated_at: "2023-01-18 02:55:06.968279"
-latest: "0.110--pl5321hdfd78af_0"
+updated_at: "2023-01-19 02:57:30.431625"
+latest: "0.111--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mixin-linewise"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.110--pl5321hdfd78af_0"
+ - "0.111--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-mixin-linewise"
-config: {"url": "https://biocontainers.pro/tools/perl-mixin-linewise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mixin-linewise", "latest": {"0.110--pl5321hdfd78af_0": "sha256:73239e3cb19e2d5b037f4a8f1d707c7c1a4f651932291edc4281f7bfe9b33c3b"}, "tags": {"0.110--pl5321hdfd78af_0": "sha256:73239e3cb19e2d5b037f4a8f1d707c7c1a4f651932291edc4281f7bfe9b33c3b"}, "docker": "quay.io/biocontainers/perl-mixin-linewise", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-mixin-linewise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mixin-linewise", "latest": {"0.111--pl5321hdfd78af_0": "sha256:f00317bbe62f659a54f1dc3293f5d39603aaa9942bf89dc1940db2aec83826d5"}, "tags": {"0.110--pl5321hdfd78af_0": "sha256:73239e3cb19e2d5b037f4a8f1d707c7c1a4f651932291edc4281f7bfe9b33c3b", "0.111--pl5321hdfd78af_0": "sha256:f00317bbe62f659a54f1dc3293f5d39603aaa9942bf89dc1940db2aec83826d5"}, "docker": "quay.io/biocontainers/perl-mixin-linewise", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-mixin-linewise.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-mixin-linewise
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-mixin-linewise:0.110--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-mixin-linewise:0.111--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-mixin-linewise/0.110--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-mixin-linewise/0.110--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-mixin-linewise/0.111--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-mixin-linewise/0.111--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
