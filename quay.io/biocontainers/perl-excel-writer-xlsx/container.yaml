@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-excel-writer-xlsx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-excel-writer-xlsx
 latest:
-  1.09--pl5321hdfd78af_0: sha256:4642b1f4c6f70520ed697d085abed0be8560b1eb31ccb865bc4b9aca418eef76
+  1.10--pl5321hdfd78af_0: sha256:d560b3b4bc83250005bcc7eb1ca188f955a0d64c14f932c03e64b29fbe41f818
 tags:
   1.09--pl5321hdfd78af_0: sha256:4642b1f4c6f70520ed697d085abed0be8560b1eb31ccb865bc4b9aca418eef76
+  1.10--pl5321hdfd78af_0: sha256:d560b3b4bc83250005bcc7eb1ca188f955a0d64c14f932c03e64b29fbe41f818
 docker: quay.io/biocontainers/perl-excel-writer-xlsx
 aliases:
   crc32: /usr/local/bin/crc32
