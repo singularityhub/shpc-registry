@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylscaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylscaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylscaper/container.yaml"
-updated_at: "2023-01-19 02:51:18.137136"
+updated_at: "2023-01-20 03:09:00.209713"
 latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylscaper"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jq/container.yaml"
-updated_at: "2023-01-19 03:19:47.767135"
+updated_at: "2023-01-20 03:58:05.406845"
 latest: "1.6"
 container_url: "https://biocontainers.pro/tools/jq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/super_distance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/super_distance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/super_distance/container.yaml"
-updated_at: "2023-01-19 03:39:14.613378"
+updated_at: "2023-01-20 03:39:33.829043"
 latest: "1.1.0--h7132678_3"
 container_url: "https://biocontainers.pro/tools/super_distance"
 aliases:
