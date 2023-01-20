@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hifiasm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hifiasm
 latest:
-  0.18.2--h5b5514e_0: sha256:446da2717505c90a4ef7ac0f85988f21626ffeb7ab5e106c029707dda510100e
+  0.18.5--h5b5514e_0: sha256:19730c5e8923ddd5d428dc5c5561ef62beb0542716ef0301dce3d674613c9e5d
 tags:
   0.9--h8b12597_0: sha256:d3e1ccc462ae75a00b8c4eab3ec8d5d8335fd7eda7576d1d5c0418e2555cd507
   0.16.1--h5b5514e_1: sha256:14c7e3b16c788dc6d621d05a75ed25b365009bcd4791dc0c65c4619c1fbf538f
@@ -12,6 +12,7 @@ tags:
   0.12--h8b12597_0: sha256:e91dfc489e6c592f01647c3e149ea8629331028f5a73c95c11f085b5bec593c9
   0.18.2--h5b5514e_0: sha256:446da2717505c90a4ef7ac0f85988f21626ffeb7ab5e106c029707dda510100e
   0.17.3--h5b5514e_0: sha256:52954d3b58e475e3f627e4e92995a75231904e6c2b13e1b41d1e4ad41899f0bf
+  0.18.5--h5b5514e_0: sha256:19730c5e8923ddd5d428dc5c5561ef62beb0542716ef0301dce3d674613c9e5d
 docker: quay.io/biocontainers/hifiasm
 aliases:
   hifiasm: /usr/local/bin/hifiasm
