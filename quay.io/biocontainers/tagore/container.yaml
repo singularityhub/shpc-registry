@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/tagore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tagore
 latest:
-  1.1.0--py_0: sha256:fe3ddd3d9adf606fcc634e5a3e4ee1f4dff299a6885506d98db82efe9c8e75ea
+  1.1.2--pyhdfd78af_0: sha256:f5766b926177c02b60a71f4ab906d818da877159c019252112a71225c67355a5
 tags:
   1.1.0--py_0: sha256:fe3ddd3d9adf606fcc634e5a3e4ee1f4dff299a6885506d98db82efe9c8e75ea
+  1.1.2--pyhdfd78af_0: sha256:f5766b926177c02b60a71f4ab906d818da877159c019252112a71225c67355a5
 docker: quay.io/biocontainers/tagore

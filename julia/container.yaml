@@ -4,9 +4,10 @@ maintainer: '@marcodelapierre'
 description: An interpreted, high-level, high-performance dynamic programming language
   for technical computing.
 latest:
-  1.8.3: sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448
+  1.8.5: sha256:0948486c72971bf20e51fc39a8f5fdeab0d3784dd84c432972fe67f6c3bb7d93
 tags:
   1.8.3: sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448
+  1.8.5: sha256:0948486c72971bf20e51fc39a8f5fdeab0d3784dd84c432972fe67f6c3bb7d93
 filter:
 - ^[0-9]+[.][0-9]+[.][0-9]+$
 aliases:
