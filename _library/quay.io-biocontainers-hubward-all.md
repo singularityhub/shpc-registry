@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hubward-all"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hubward-all/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hubward-all/container.yaml"
-updated_at: "2023-01-20 02:50:33.577163"
+updated_at: "2023-01-21 02:41:37.141108"
 latest: "0.2.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/hubward-all"
 aliases:

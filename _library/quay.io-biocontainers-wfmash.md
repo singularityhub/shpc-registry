@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wfmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wfmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wfmash/container.yaml"
-updated_at: "2023-01-20 03:28:54.998219"
+updated_at: "2023-01-21 03:12:49.924209"
 latest: "0.10.1--hfdddef0_0"
 container_url: "https://biocontainers.pro/tools/wfmash"
 aliases:

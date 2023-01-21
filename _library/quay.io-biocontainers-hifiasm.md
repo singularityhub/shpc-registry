@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hifiasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifiasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifiasm/container.yaml"
-updated_at: "2023-01-20 03:24:48.488096"
-latest: "0.18.2--h5b5514e_0"
+updated_at: "2023-01-21 03:09:33.892716"
+latest: "0.18.5--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/hifiasm"
 aliases:
  - "hifiasm"
@@ -18,8 +18,9 @@ versions:
  - "0.12--h8b12597_0"
  - "0.18.2--h5b5514e_0"
  - "0.17.3--h5b5514e_0"
+ - "0.18.5--h5b5514e_0"
 description: "shpc-registry automated BioContainers addition for hifiasm"
-config: {"url": "https://biocontainers.pro/tools/hifiasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hifiasm", "latest": {"0.18.2--h5b5514e_0": "sha256:446da2717505c90a4ef7ac0f85988f21626ffeb7ab5e106c029707dda510100e"}, "tags": {"0.9--h8b12597_0": "sha256:d3e1ccc462ae75a00b8c4eab3ec8d5d8335fd7eda7576d1d5c0418e2555cd507", "0.16.1--h5b5514e_1": "sha256:14c7e3b16c788dc6d621d05a75ed25b365009bcd4791dc0c65c4619c1fbf538f", "0.15.5--h2e03b76_0": "sha256:e664c4bcb49644239792f063afb7cd72d221e4274dd2372543c7ded4a7e6a92e", "0.14--h2e03b76_1": "sha256:b20aad6d6536a175cc5aad1fa3c67f2ba8c75d1a63422ca349dceb78a121235e", "0.13--h8b12597_0": "sha256:3960cb1f855429333a74342e8c7bca7daf3f67eb28bffec5194d0740e125d7ca", "0.12--h8b12597_0": "sha256:e91dfc489e6c592f01647c3e149ea8629331028f5a73c95c11f085b5bec593c9", "0.18.2--h5b5514e_0": "sha256:446da2717505c90a4ef7ac0f85988f21626ffeb7ab5e106c029707dda510100e", "0.17.3--h5b5514e_0": "sha256:52954d3b58e475e3f627e4e92995a75231904e6c2b13e1b41d1e4ad41899f0bf"}, "docker": "quay.io/biocontainers/hifiasm", "aliases": {"hifiasm": "/usr/local/bin/hifiasm"}}
+config: {"url": "https://biocontainers.pro/tools/hifiasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hifiasm", "latest": {"0.18.5--h5b5514e_0": "sha256:19730c5e8923ddd5d428dc5c5561ef62beb0542716ef0301dce3d674613c9e5d"}, "tags": {"0.9--h8b12597_0": "sha256:d3e1ccc462ae75a00b8c4eab3ec8d5d8335fd7eda7576d1d5c0418e2555cd507", "0.16.1--h5b5514e_1": "sha256:14c7e3b16c788dc6d621d05a75ed25b365009bcd4791dc0c65c4619c1fbf538f", "0.15.5--h2e03b76_0": "sha256:e664c4bcb49644239792f063afb7cd72d221e4274dd2372543c7ded4a7e6a92e", "0.14--h2e03b76_1": "sha256:b20aad6d6536a175cc5aad1fa3c67f2ba8c75d1a63422ca349dceb78a121235e", "0.13--h8b12597_0": "sha256:3960cb1f855429333a74342e8c7bca7daf3f67eb28bffec5194d0740e125d7ca", "0.12--h8b12597_0": "sha256:e91dfc489e6c592f01647c3e149ea8629331028f5a73c95c11f085b5bec593c9", "0.18.2--h5b5514e_0": "sha256:446da2717505c90a4ef7ac0f85988f21626ffeb7ab5e106c029707dda510100e", "0.17.3--h5b5514e_0": "sha256:52954d3b58e475e3f627e4e92995a75231904e6c2b13e1b41d1e4ad41899f0bf", "0.18.5--h5b5514e_0": "sha256:19730c5e8923ddd5d428dc5c5561ef62beb0542716ef0301dce3d674613c9e5d"}, "docker": "quay.io/biocontainers/hifiasm", "aliases": {"hifiasm": "/usr/local/bin/hifiasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hifiasm.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/hifiasm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hifiasm:0.18.2--h5b5514e_0
+$ shpc install quay.io/biocontainers/hifiasm:0.18.5--h5b5514e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hifiasm/0.18.2--h5b5514e_0
-$ module help quay.io/biocontainers/hifiasm/0.18.2--h5b5514e_0
+$ module load quay.io/biocontainers/hifiasm/0.18.5--h5b5514e_0
+$ module help quay.io/biocontainers/hifiasm/0.18.5--h5b5514e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

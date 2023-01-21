@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bmtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bmtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bmtool/container.yaml"
-updated_at: "2023-01-20 03:39:08.577234"
+updated_at: "2023-01-21 03:21:16.729072"
 latest: "3.101--he1b5a44_3"
 container_url: "https://biocontainers.pro/tools/bmtool"
 aliases:

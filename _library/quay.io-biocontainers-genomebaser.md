@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomebaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomebaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomebaser/container.yaml"
-updated_at: "2023-01-20 03:55:19.478569"
+updated_at: "2023-01-21 03:35:28.123337"
 latest: "0.1.2--py27_1"
 container_url: "https://biocontainers.pro/tools/genomebaser"
 aliases:

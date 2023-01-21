@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epicseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epicseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epicseg/container.yaml"
-updated_at: "2023-01-20 03:40:10.496959"
+updated_at: "2023-01-21 03:22:07.776351"
 latest: "1.0--r41hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/epicseg"
 

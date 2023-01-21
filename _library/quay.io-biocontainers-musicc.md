@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/musicc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/musicc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/musicc/container.yaml"
-updated_at: "2023-01-20 03:58:55.355359"
+updated_at: "2023-01-21 03:38:36.812784"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/musicc"
 aliases:
