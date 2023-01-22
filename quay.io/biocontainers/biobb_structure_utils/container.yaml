@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biobb_structure_utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_structure_utils
 latest:
-  3.8.0--pyhdfd78af_0: sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e
+  3.9.0--pyhdfd78af_0: sha256:f747b7e6e1219f90b783452b3d624ca43c2f061b2b263624ea0de3832efcb411
 tags:
   3.8.0--pyhdfd78af_0: sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e
+  3.9.0--pyhdfd78af_0: sha256:f747b7e6e1219f90b783452b3d624ca43c2f061b2b263624ea0de3832efcb411
 docker: quay.io/biocontainers/biobb_structure_utils
 aliases:
   cat_pdb: /usr/local/bin/cat_pdb
