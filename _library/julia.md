@@ -4,15 +4,16 @@ name:  "julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/julia/container.yaml"
-updated_at: "2023-01-21 02:39:41.660212"
-latest: "1.8.3"
+updated_at: "2023-01-22 02:46:00.083941"
+latest: "1.8.5"
 container_url: "https://hub.docker.com/_/julia"
 aliases:
  - "julia"
 versions:
  - "1.8.3"
+ - "1.8.5"
 description: "An interpreted, high-level, high-performance dynamic programming language for technical computing."
-config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
+config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.8.5": "sha256:0948486c72971bf20e51fc39a8f5fdeab0d3784dd84c432972fe67f6c3bb7d93"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:0948486c72971bf20e51fc39a8f5fdeab0d3784dd84c432972fe67f6c3bb7d93"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
 ---
 
 This module is a singularity container wrapper for julia.
@@ -27,7 +28,7 @@ $ shpc install julia
 Or a specific version:
 
 ```bash
-$ shpc install julia:1.8.3
+$ shpc install julia:1.8.5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load julia/1.8.3
-$ module help julia/1.8.3
+$ module load julia/1.8.5
+$ module help julia/1.8.5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/tagore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tagore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tagore/container.yaml"
-updated_at: "2023-01-21 02:45:26.692706"
-latest: "1.1.0--py_0"
+updated_at: "2023-01-22 02:52:59.203607"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tagore"
 
 versions:
  - "1.1.0--py_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tagore"
-config: {"url": "https://biocontainers.pro/tools/tagore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tagore", "latest": {"1.1.0--py_0": "sha256:fe3ddd3d9adf606fcc634e5a3e4ee1f4dff299a6885506d98db82efe9c8e75ea"}, "tags": {"1.1.0--py_0": "sha256:fe3ddd3d9adf606fcc634e5a3e4ee1f4dff299a6885506d98db82efe9c8e75ea"}, "docker": "quay.io/biocontainers/tagore"}
+config: {"url": "https://biocontainers.pro/tools/tagore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tagore", "latest": {"1.1.2--pyhdfd78af_0": "sha256:f5766b926177c02b60a71f4ab906d818da877159c019252112a71225c67355a5"}, "tags": {"1.1.0--py_0": "sha256:fe3ddd3d9adf606fcc634e5a3e4ee1f4dff299a6885506d98db82efe9c8e75ea", "1.1.2--pyhdfd78af_0": "sha256:f5766b926177c02b60a71f4ab906d818da877159c019252112a71225c67355a5"}, "docker": "quay.io/biocontainers/tagore"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tagore.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/tagore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tagore:1.1.0--py_0
+$ shpc install quay.io/biocontainers/tagore:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tagore/1.1.0--py_0
-$ module help quay.io/biocontainers/tagore/1.1.0--py_0
+$ module load quay.io/biocontainers/tagore/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/tagore/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

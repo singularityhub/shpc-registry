@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gvcf2coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcf2coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcf2coverage/container.yaml"
-updated_at: "2023-01-21 03:30:10.414467"
+updated_at: "2023-01-22 03:46:34.218291"
 latest: "0.1--h8a6b41c_5"
 container_url: "https://biocontainers.pro/tools/gvcf2coverage"
 aliases:
