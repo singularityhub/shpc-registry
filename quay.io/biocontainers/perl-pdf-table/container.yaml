@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-pdf-table
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-pdf-table
 latest:
-  1.003--pl5321hdfd78af_0: sha256:3d375ceba785d65dbe09b802eb715b8e829573f2b38c9c396ba1362b131b3344
+  1.004--pl5321hdfd78af_0: sha256:70c31a7d263169e218464b613d46e7e4e9c10c5c00572ec2f950891ecdd7005f
 tags:
   1.003--pl5321hdfd78af_0: sha256:3d375ceba785d65dbe09b802eb715b8e829573f2b38c9c396ba1362b131b3344
+  1.004--pl5321hdfd78af_0: sha256:70c31a7d263169e218464b613d46e7e4e9c10c5c00572ec2f950891ecdd7005f
 docker: quay.io/biocontainers/perl-pdf-table
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
