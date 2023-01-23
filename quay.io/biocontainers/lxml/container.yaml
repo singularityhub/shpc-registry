@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/lxml
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lxml
+latest:
+  4.9.1: sha256:66fc77415b2f4357fc3a92dc6c9ad4a374c82e607fa450bc4d709a23e890cb37
+tags:
+  4.9.1: sha256:66fc77415b2f4357fc3a92dc6c9ad4a374c82e607fa450bc4d709a23e890cb37
+docker: quay.io/biocontainers/lxml
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  python3.1: /usr/local/bin/python3.1
