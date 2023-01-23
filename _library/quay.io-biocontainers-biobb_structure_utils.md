@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_structure_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_structure_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_structure_utils/container.yaml"
-updated_at: "2023-01-22 03:29:13.603529"
-latest: "3.8.0--pyhdfd78af_0"
+updated_at: "2023-01-23 03:15:54.763500"
+latest: "3.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_structure_utils"
 aliases:
  - "cat_pdb"
@@ -34,8 +34,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "3.8.0--pyhdfd78af_0"
+ - "3.9.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_structure_utils"
-config: {"url": "https://biocontainers.pro/tools/biobb_structure_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_structure_utils", "latest": {"3.8.0--pyhdfd78af_0": "sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e"}, "docker": "quay.io/biocontainers/biobb_structure_utils", "aliases": {"cat_pdb": "/usr/local/bin/cat_pdb", "check_structure": "/usr/local/bin/check_structure", "closest_residues": "/usr/local/bin/closest_residues", "extract_atoms": "/usr/local/bin/extract_atoms", "extract_chain": "/usr/local/bin/extract_chain", "extract_heteroatoms": "/usr/local/bin/extract_heteroatoms", "extract_model": "/usr/local/bin/extract_model", "extract_molecule": "/usr/local/bin/extract_molecule", "extract_residues": "/usr/local/bin/extract_residues", "remove_ligand": "/usr/local/bin/remove_ligand", "remove_molecules": "/usr/local/bin/remove_molecules", "remove_pdb_water": "/usr/local/bin/remove_pdb_water", "renumber_structure": "/usr/local/bin/renumber_structure", "sort_gro_residues": "/usr/local/bin/sort_gro_residues", "str_check_add_hydrogens": "/usr/local/bin/str_check_add_hydrogens", "structure_check": "/usr/local/bin/structure_check", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_structure_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_structure_utils", "latest": {"3.9.0--pyhdfd78af_0": "sha256:f747b7e6e1219f90b783452b3d624ca43c2f061b2b263624ea0de3832efcb411"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e", "3.9.0--pyhdfd78af_0": "sha256:f747b7e6e1219f90b783452b3d624ca43c2f061b2b263624ea0de3832efcb411"}, "docker": "quay.io/biocontainers/biobb_structure_utils", "aliases": {"cat_pdb": "/usr/local/bin/cat_pdb", "check_structure": "/usr/local/bin/check_structure", "closest_residues": "/usr/local/bin/closest_residues", "extract_atoms": "/usr/local/bin/extract_atoms", "extract_chain": "/usr/local/bin/extract_chain", "extract_heteroatoms": "/usr/local/bin/extract_heteroatoms", "extract_model": "/usr/local/bin/extract_model", "extract_molecule": "/usr/local/bin/extract_molecule", "extract_residues": "/usr/local/bin/extract_residues", "remove_ligand": "/usr/local/bin/remove_ligand", "remove_molecules": "/usr/local/bin/remove_molecules", "remove_pdb_water": "/usr/local/bin/remove_pdb_water", "renumber_structure": "/usr/local/bin/renumber_structure", "sort_gro_residues": "/usr/local/bin/sort_gro_residues", "str_check_add_hydrogens": "/usr/local/bin/str_check_add_hydrogens", "structure_check": "/usr/local/bin/structure_check", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_structure_utils.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/biobb_structure_utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_structure_utils:3.8.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_structure_utils:3.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_structure_utils/3.8.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_structure_utils/3.8.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_structure_utils/3.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_structure_utils/3.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

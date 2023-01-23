@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graftm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graftm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graftm/container.yaml"
-updated_at: "2023-01-22 03:12:06.393027"
+updated_at: "2023-01-23 03:02:06.757077"
 latest: "0.14.0--pypyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/graftm"
 aliases:

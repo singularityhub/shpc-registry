@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mockinbird"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mockinbird/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mockinbird/container.yaml"
-updated_at: "2023-01-22 03:21:02.160295"
+updated_at: "2023-01-23 03:09:18.012800"
 latest: "1.0.0a1--py36h91eb985_5"
 container_url: "https://biocontainers.pro/tools/mockinbird"
 aliases:

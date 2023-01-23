@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/encyclopedia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/encyclopedia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/encyclopedia/container.yaml"
-updated_at: "2023-01-22 03:56:37.800461"
+updated_at: "2023-01-23 03:38:02.813910"
 latest: "1.12.34--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/encyclopedia"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgi/container.yaml"
-updated_at: "2023-01-22 03:52:53.572461"
+updated_at: "2023-01-23 03:35:00.961635"
 latest: "6.0.1--pyha8f3691_1"
 container_url: "https://biocontainers.pro/tools/rgi"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepsig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepsig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepsig/container.yaml"
-updated_at: "2023-01-22 03:31:38.627427"
-latest: "1.2.5--pyhdfd78af_0"
+updated_at: "2023-01-23 03:17:50.739646"
+latest: "1.2.5--pyhca03a8a_1"
 container_url: "https://biocontainers.pro/tools/deepsig"
 aliases:
  - "deepsig"
@@ -21,8 +21,9 @@ aliases:
  - "pyrsa-encrypt"
 versions:
  - "1.2.5--pyhdfd78af_0"
+ - "1.2.5--pyhca03a8a_1"
 description: "shpc-registry automated BioContainers addition for deepsig"
-config: {"url": "https://biocontainers.pro/tools/deepsig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepsig", "latest": {"1.2.5--pyhdfd78af_0": "sha256:ea1c4e448e424674de57798828cb5c0939bd6578ef69c0c629090ac30bb51c07"}, "tags": {"1.2.5--pyhdfd78af_0": "sha256:ea1c4e448e424674de57798828cb5c0939bd6578ef69c0c629090ac30bb51c07"}, "docker": "quay.io/biocontainers/deepsig", "aliases": {"deepsig": "/usr/local/bin/deepsig", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt"}}
+config: {"url": "https://biocontainers.pro/tools/deepsig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepsig", "latest": {"1.2.5--pyhca03a8a_1": "sha256:5ef3e215b2d0d0beb1455cb81add5ce3d5a1d19efe758e735027e6be98bd98fe"}, "tags": {"1.2.5--pyhdfd78af_0": "sha256:ea1c4e448e424674de57798828cb5c0939bd6578ef69c0c629090ac30bb51c07", "1.2.5--pyhca03a8a_1": "sha256:5ef3e215b2d0d0beb1455cb81add5ce3d5a1d19efe758e735027e6be98bd98fe"}, "docker": "quay.io/biocontainers/deepsig", "aliases": {"deepsig": "/usr/local/bin/deepsig", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepsig.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/deepsig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepsig:1.2.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/deepsig:1.2.5--pyhca03a8a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepsig/1.2.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/deepsig/1.2.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/deepsig/1.2.5--pyhca03a8a_1
+$ module help quay.io/biocontainers/deepsig/1.2.5--pyhca03a8a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

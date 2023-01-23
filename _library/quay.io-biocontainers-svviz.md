@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svviz/container.yaml"
-updated_at: "2023-01-22 02:53:19.042263"
+updated_at: "2023-01-23 02:47:11.150403"
 latest: "1.6.2--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/svviz"
 aliases:

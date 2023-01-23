@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-parser-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-parser-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-parser-lite/container.yaml"
-updated_at: "2023-01-22 03:41:47.048959"
+updated_at: "2023-01-23 03:26:00.247646"
 latest: "0.722--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-xml-parser-lite"
 aliases:

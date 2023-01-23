@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pantools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pantools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pantools/container.yaml"
-updated_at: "2023-01-22 03:50:15.007461"
-latest: "3.4.0--hdfd78af_0"
+updated_at: "2023-01-23 03:32:52.301792"
+latest: "4.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pantools"
 aliases:
  - "pantools"
@@ -22,8 +22,10 @@ aliases:
 versions:
  - "3.3.3--hdfd78af_0"
  - "3.4.0--hdfd78af_0"
+ - "4.1.0--hdfd78af_0"
+ - "4.0.0--ha11b4f6_1"
 description: "shpc-registry automated BioContainers addition for pantools"
-config: {"url": "https://biocontainers.pro/tools/pantools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pantools", "latest": {"3.4.0--hdfd78af_0": "sha256:1cc614cf02205cd8ccddf1215af915dde1e8db3cee6dc4a1d3df6b516d4fe85d"}, "tags": {"3.3.3--hdfd78af_0": "sha256:0818dc6a8f863fe62feb9e1e3558be44c2cf3175ff1412a5b6ed4bf775f57559", "3.4.0--hdfd78af_0": "sha256:1cc614cf02205cd8ccddf1215af915dde1e8db3cee6dc4a1d3df6b516d4fe85d"}, "docker": "quay.io/biocontainers/pantools", "aliases": {"pantools": "/usr/local/bin/pantools", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline"}}
+config: {"url": "https://biocontainers.pro/tools/pantools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pantools", "latest": {"4.1.0--hdfd78af_0": "sha256:6945cab3e9726e6fae54c53bca3f431a97da7f2246982b562e5f65a74b812be6"}, "tags": {"3.3.3--hdfd78af_0": "sha256:0818dc6a8f863fe62feb9e1e3558be44c2cf3175ff1412a5b6ed4bf775f57559", "3.4.0--hdfd78af_0": "sha256:1cc614cf02205cd8ccddf1215af915dde1e8db3cee6dc4a1d3df6b516d4fe85d", "4.1.0--hdfd78af_0": "sha256:6945cab3e9726e6fae54c53bca3f431a97da7f2246982b562e5f65a74b812be6", "4.0.0--ha11b4f6_1": "sha256:3900d137519b36d5b21296b7a41111f17a0c13e8ef1febe42ecc94ba41f1667d"}, "docker": "quay.io/biocontainers/pantools", "aliases": {"pantools": "/usr/local/bin/pantools", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pantools.
@@ -38,7 +40,7 @@ $ shpc install quay.io/biocontainers/pantools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pantools:3.4.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/pantools:4.1.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pantools/3.4.0--hdfd78af_0
-$ module help quay.io/biocontainers/pantools/3.4.0--hdfd78af_0
+$ module load quay.io/biocontainers/pantools/4.1.0--hdfd78af_0
+$ module help quay.io/biocontainers/pantools/4.1.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

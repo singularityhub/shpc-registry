@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-list"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-list/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-list/container.yaml"
-updated_at: "2023-01-22 02:50:41.604483"
+updated_at: "2023-01-23 02:45:07.906151"
 latest: "0.004--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-module-list"
 aliases:

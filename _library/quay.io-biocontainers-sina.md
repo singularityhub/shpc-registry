@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sina/container.yaml"
-updated_at: "2023-01-22 03:38:39.286564"
+updated_at: "2023-01-23 03:23:27.487864"
 latest: "1.7.2--h9aa86b4_0"
 container_url: "https://biocontainers.pro/tools/sina"
 aliases:

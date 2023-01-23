@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gimmemotifs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gimmemotifs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gimmemotifs/container.yaml"
-updated_at: "2023-01-22 03:42:10.255084"
+updated_at: "2023-01-23 03:26:18.935546"
 latest: "0.15.3--py38hc37a69a_0"
 container_url: "https://biocontainers.pro/tools/gimmemotifs"
 aliases:
