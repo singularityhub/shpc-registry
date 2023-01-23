@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primedlamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primedlamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primedlamp/container.yaml"
-updated_at: "2023-01-23 03:15:26.020160"
+updated_at: "2023-01-23 03:30:51.442708"
 latest: "1.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/primedlamp"
 aliases:

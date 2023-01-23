@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_md"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_md/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_md/container.yaml"
-updated_at: "2023-01-23 03:24:09.198804"
+updated_at: "2023-01-23 03:41:19.134703"
 latest: "3.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_md"
 aliases:

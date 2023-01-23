@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clustifyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clustifyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clustifyr/container.yaml"
-updated_at: "2023-01-23 03:18:57.618296"
+updated_at: "2023-01-23 03:35:05.188170"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clustifyr"
 
