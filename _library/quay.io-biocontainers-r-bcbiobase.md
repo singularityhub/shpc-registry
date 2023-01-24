@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bcbiobase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bcbiobase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bcbiobase/container.yaml"
-updated_at: "2023-01-23 03:17:44.660346"
+updated_at: "2023-01-24 03:03:16.966738"
 latest: "0.8.1--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-bcbiobase"
 

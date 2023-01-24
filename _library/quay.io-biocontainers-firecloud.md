@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/firecloud"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/firecloud/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/firecloud/container.yaml"
-updated_at: "2023-01-23 03:51:01.691396"
+updated_at: "2023-01-24 03:31:22.698610"
 latest: "0.16.31--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/firecloud"
 aliases:

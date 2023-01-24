@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainseeker/container.yaml"
-updated_at: "2023-01-23 03:48:17.355653"
+updated_at: "2023-01-24 03:29:02.825823"
 latest: "1.5.1--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/strainseeker"
 aliases:

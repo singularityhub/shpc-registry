@@ -4,14 +4,15 @@ name:  "bids/brainiak-srm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/brainiak-srm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/brainiak-srm/container.yaml"
-updated_at: "2023-01-23 03:59:40.273586"
-latest: "latest"
+updated_at: "2023-01-24 03:38:52.629959"
+latest: "unstable"
 container_url: "https://hub.docker.com/r/bids/brainiak-srm"
 
 versions:
  - "latest"
+ - "unstable"
 description: "Shared Response Model (SRM) from the Brain Imaging Analysis Kit (BrainIAK) (https://github.com/BIDS-Apps/brainiak-srm)"
-config: {"docker": "bids/brainiak-srm", "latest": {"latest": "sha256:5ff856420a178be4e8150e574251a44885451050e9803515269e5ff15cd67430"}, "tags": {"latest": "sha256:5ff856420a178be4e8150e574251a44885451050e9803515269e5ff15cd67430"}, "filter": ["v*"], "maintainer": "@vsoch", "description": "Shared Response Model (SRM) from the Brain Imaging Analysis Kit (BrainIAK) (https://github.com/BIDS-Apps/brainiak-srm)", "url": "https://hub.docker.com/r/bids/brainiak-srm"}
+config: {"docker": "bids/brainiak-srm", "latest": {"unstable": "sha256:738af573c0a270aeaa4c4ddeeadf223423338eaff50aec9ce4ac16cfae951a02"}, "tags": {"latest": "sha256:5ff856420a178be4e8150e574251a44885451050e9803515269e5ff15cd67430", "unstable": "sha256:738af573c0a270aeaa4c4ddeeadf223423338eaff50aec9ce4ac16cfae951a02"}, "filter": ["v*"], "maintainer": "@vsoch", "description": "Shared Response Model (SRM) from the Brain Imaging Analysis Kit (BrainIAK) (https://github.com/BIDS-Apps/brainiak-srm)", "url": "https://hub.docker.com/r/bids/brainiak-srm"}
 ---
 
 This module is a singularity container wrapper for bids/brainiak-srm.
@@ -26,7 +27,7 @@ $ shpc install bids/brainiak-srm
 Or a specific version:
 
 ```bash
-$ shpc install bids/brainiak-srm:latest
+$ shpc install bids/brainiak-srm:unstable
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/brainiak-srm/latest
-$ module help bids/brainiak-srm/latest
+$ module load bids/brainiak-srm/unstable
+$ module help bids/brainiak-srm/unstable
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

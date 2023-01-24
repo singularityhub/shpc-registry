@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gofasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gofasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gofasta/container.yaml"
-updated_at: "2023-01-23 03:25:14.209942"
-latest: "1.1.0--h9ee0642_0"
+updated_at: "2023-01-24 03:09:35.054356"
+latest: "1.2.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/gofasta"
 aliases:
  - "gofasta"
 versions:
  - "1.1.0--h9ee0642_0"
+ - "1.2.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for gofasta"
-config: {"url": "https://biocontainers.pro/tools/gofasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gofasta", "latest": {"1.1.0--h9ee0642_0": "sha256:4806770f97a5054f5be40996e9dc13ba1b2882628869ecbd3152075252720091"}, "tags": {"1.1.0--h9ee0642_0": "sha256:4806770f97a5054f5be40996e9dc13ba1b2882628869ecbd3152075252720091"}, "docker": "quay.io/biocontainers/gofasta", "aliases": {"gofasta": "/usr/local/bin/gofasta"}}
+config: {"url": "https://biocontainers.pro/tools/gofasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gofasta", "latest": {"1.2.0--h9ee0642_0": "sha256:8e6ea023c629b5f7b618cc381c4e2b81ed147642b2d59cfe9bdf3c535ac7cf8a"}, "tags": {"1.1.0--h9ee0642_0": "sha256:4806770f97a5054f5be40996e9dc13ba1b2882628869ecbd3152075252720091", "1.2.0--h9ee0642_0": "sha256:8e6ea023c629b5f7b618cc381c4e2b81ed147642b2d59cfe9bdf3c535ac7cf8a"}, "docker": "quay.io/biocontainers/gofasta", "aliases": {"gofasta": "/usr/local/bin/gofasta"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gofasta.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gofasta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gofasta:1.1.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/gofasta:1.2.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gofasta/1.1.0--h9ee0642_0
-$ module help quay.io/biocontainers/gofasta/1.1.0--h9ee0642_0
+$ module load quay.io/biocontainers/gofasta/1.2.0--h9ee0642_0
+$ module help quay.io/biocontainers/gofasta/1.2.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

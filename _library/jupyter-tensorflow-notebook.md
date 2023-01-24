@@ -4,7 +4,7 @@ name:  "jupyter/tensorflow-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/tensorflow-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/tensorflow-notebook/container.yaml"
-updated_at: "2023-01-23 04:01:13.289552"
+updated_at: "2023-01-24 03:40:15.024949"
 latest: "x86_64-ubuntu-22.04"
 container_url: "https://hub.docker.com/r/jupyter/tensorflow-notebook"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "ubuntu-22.04"
  - "x86_64-ubuntu-22.04"
 description: "Jupyter Tensorflow Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "jupyter/tensorflow-notebook", "url": "https://hub.docker.com/r/jupyter/tensorflow-notebook", "maintainer": "@vsoch", "description": "Jupyter Tensorflow Notebook from https://github.com/jupyter/docker-stacks", "latest": {"x86_64-ubuntu-22.04": "sha256:860827264ef90bf78741dfc8556205fc094ad7f2c61ce94ce270673ceb7221fd"}, "tags": {"latest": "sha256:4a9e6c983bfc092ae75d40a3689649b136336ed491bd2b5c28b3359dd98bd1f1", "ubuntu-20.04": "sha256:1bbb4dd5fd643f693567c84173e86ec7ed0c2e11ac70f2326e057539698f91f2", "ubuntu-22.04": "sha256:4a9e6c983bfc092ae75d40a3689649b136336ed491bd2b5c28b3359dd98bd1f1", "x86_64-ubuntu-22.04": "sha256:860827264ef90bf78741dfc8556205fc094ad7f2c61ce94ce270673ceb7221fd"}, "filter": ["ubuntu*"], "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "jupyter/tensorflow-notebook", "url": "https://hub.docker.com/r/jupyter/tensorflow-notebook", "maintainer": "@vsoch", "description": "Jupyter Tensorflow Notebook from https://github.com/jupyter/docker-stacks", "latest": {"x86_64-ubuntu-22.04": "sha256:9158048a538c75945e026675fa846ba6ef2e62235af2184dc8da0187b31db70f"}, "tags": {"latest": "sha256:643907750c870960114014f57a103bbb00888a469474abd93694b56422735d33", "ubuntu-20.04": "sha256:1bbb4dd5fd643f693567c84173e86ec7ed0c2e11ac70f2326e057539698f91f2", "ubuntu-22.04": "sha256:643907750c870960114014f57a103bbb00888a469474abd93694b56422735d33", "x86_64-ubuntu-22.04": "sha256:9158048a538c75945e026675fa846ba6ef2e62235af2184dc8da0187b31db70f"}, "filter": ["ubuntu*"], "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for jupyter/tensorflow-notebook.
