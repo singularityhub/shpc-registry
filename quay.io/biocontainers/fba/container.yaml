@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fba
 latest:
-  0.0.12--pyhdfd78af_0: sha256:8cd46b212dcb9bdb51509917b1257d8db3392ed38da858478f2bc0dac5c5f901
+  0.0.13--pyhdfd78af_0: sha256:22a4b552ea3da3f81fa5e107e17f05e789f7546a701017b7348af6a7181cb6ba
 tags:
   0.0.12--pyhdfd78af_0: sha256:8cd46b212dcb9bdb51509917b1257d8db3392ed38da858478f2bc0dac5c5f901
+  0.0.13--pyhdfd78af_0: sha256:22a4b552ea3da3f81fa5e107e17f05e789f7546a701017b7348af6a7181cb6ba
 docker: quay.io/biocontainers/fba
 aliases:
   fba: /usr/local/bin/fba
