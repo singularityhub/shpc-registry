@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-shazam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shazam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shazam/container.yaml"
-updated_at: "2023-01-24 02:44:35.818170"
+updated_at: "2023-01-25 02:45:13.640817"
 latest: "1.1.2--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-shazam"
 aliases:

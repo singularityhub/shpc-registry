@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fba/container.yaml"
-updated_at: "2023-01-24 03:37:48.045518"
-latest: "0.0.12--pyhdfd78af_0"
+updated_at: "2023-01-25 03:38:14.156894"
+latest: "0.0.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fba"
 aliases:
  - "fba"
@@ -22,8 +22,9 @@ aliases:
  - "pyftmerge"
 versions:
  - "0.0.12--pyhdfd78af_0"
+ - "0.0.13--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fba"
-config: {"url": "https://biocontainers.pro/tools/fba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fba", "latest": {"0.0.12--pyhdfd78af_0": "sha256:8cd46b212dcb9bdb51509917b1257d8db3392ed38da858478f2bc0dac5c5f901"}, "tags": {"0.0.12--pyhdfd78af_0": "sha256:8cd46b212dcb9bdb51509917b1257d8db3392ed38da858478f2bc0dac5c5f901"}, "docker": "quay.io/biocontainers/fba", "aliases": {"fba": "/usr/local/bin/fba", "umi_tools": "/usr/local/bin/umi_tools", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/fba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fba", "latest": {"0.0.13--pyhdfd78af_0": "sha256:22a4b552ea3da3f81fa5e107e17f05e789f7546a701017b7348af6a7181cb6ba"}, "tags": {"0.0.12--pyhdfd78af_0": "sha256:8cd46b212dcb9bdb51509917b1257d8db3392ed38da858478f2bc0dac5c5f901", "0.0.13--pyhdfd78af_0": "sha256:22a4b552ea3da3f81fa5e107e17f05e789f7546a701017b7348af6a7181cb6ba"}, "docker": "quay.io/biocontainers/fba", "aliases": {"fba": "/usr/local/bin/fba", "umi_tools": "/usr/local/bin/umi_tools", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fba.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/fba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fba:0.0.12--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/fba:0.0.13--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fba/0.0.12--pyhdfd78af_0
-$ module help quay.io/biocontainers/fba/0.0.12--pyhdfd78af_0
+$ module load quay.io/biocontainers/fba/0.0.13--pyhdfd78af_0
+$ module help quay.io/biocontainers/fba/0.0.13--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

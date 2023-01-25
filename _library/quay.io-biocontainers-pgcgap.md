@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgcgap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgcgap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgcgap/container.yaml"
-updated_at: "2023-01-24 03:34:09.015272"
+updated_at: "2023-01-25 03:34:38.760484"
 latest: "1.0.35--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgcgap"
 aliases:

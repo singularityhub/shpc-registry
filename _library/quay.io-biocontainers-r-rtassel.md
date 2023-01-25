@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rtassel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rtassel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rtassel/container.yaml"
-updated_at: "2023-01-24 02:52:03.688109"
+updated_at: "2023-01-25 02:52:40.129409"
 latest: "0.1.2019.07.25--r42h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-rtassel"
 aliases:

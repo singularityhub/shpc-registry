@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/msamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msamtools/container.yaml"
-updated_at: "2023-01-24 03:26:39.770596"
-latest: "1.1.0--h7132678_1"
+updated_at: "2023-01-25 03:27:13.305703"
+latest: "1.1.1--h7132678_0"
 container_url: "https://biocontainers.pro/tools/msamtools"
 aliases:
  - "msamtools"
 versions:
  - "1.1.0--h7132678_1"
+ - "1.1.1--h7132678_0"
 description: "shpc-registry automated BioContainers addition for msamtools"
-config: {"url": "https://biocontainers.pro/tools/msamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msamtools", "latest": {"1.1.0--h7132678_1": "sha256:8e1d08bc288c309dcc266e7817d4a8342e0f2aa3b551a8c7949ea22c8337b1ea"}, "tags": {"1.1.0--h7132678_1": "sha256:8e1d08bc288c309dcc266e7817d4a8342e0f2aa3b551a8c7949ea22c8337b1ea"}, "docker": "quay.io/biocontainers/msamtools", "aliases": {"msamtools": "/usr/local/bin/msamtools"}}
+config: {"url": "https://biocontainers.pro/tools/msamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msamtools", "latest": {"1.1.1--h7132678_0": "sha256:2c5b0bbd00d429c175a08f7842e972be4a3345df0e689514096bb8b47993d6b2"}, "tags": {"1.1.0--h7132678_1": "sha256:8e1d08bc288c309dcc266e7817d4a8342e0f2aa3b551a8c7949ea22c8337b1ea", "1.1.1--h7132678_0": "sha256:2c5b0bbd00d429c175a08f7842e972be4a3345df0e689514096bb8b47993d6b2"}, "docker": "quay.io/biocontainers/msamtools", "aliases": {"msamtools": "/usr/local/bin/msamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msamtools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/msamtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msamtools:1.1.0--h7132678_1
+$ shpc install quay.io/biocontainers/msamtools:1.1.1--h7132678_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msamtools/1.1.0--h7132678_1
-$ module help quay.io/biocontainers/msamtools/1.1.0--h7132678_1
+$ module load quay.io/biocontainers/msamtools/1.1.1--h7132678_0
+$ module help quay.io/biocontainers/msamtools/1.1.1--h7132678_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

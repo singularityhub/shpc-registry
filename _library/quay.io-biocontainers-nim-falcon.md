@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nim-falcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nim-falcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nim-falcon/container.yaml"
-updated_at: "2023-01-24 03:31:46.327812"
+updated_at: "2023-01-25 03:32:17.012370"
 latest: "3.0.2--h18d090a_1"
 container_url: "https://biocontainers.pro/tools/nim-falcon"
 aliases:
