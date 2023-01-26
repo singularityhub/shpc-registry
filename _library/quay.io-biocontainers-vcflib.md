@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcflib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcflib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcflib/container.yaml"
-updated_at: "2023-01-25 02:44:54.855844"
+updated_at: "2023-01-26 02:45:53.413051"
 latest: "1.0.3--ha04fe3b_2"
 container_url: "https://biocontainers.pro/tools/vcflib"
 aliases:

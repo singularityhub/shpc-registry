@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-join"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-join/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-join/container.yaml"
-updated_at: "2023-01-25 02:42:17.454330"
+updated_at: "2023-01-26 02:43:17.751204"
 latest: "1.3.1--h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/fastq-join"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-consensustme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-consensustme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-consensustme/container.yaml"
-updated_at: "2023-01-25 03:29:50.742042"
+updated_at: "2023-01-26 03:29:49.490935"
 latest: "0.0.1.9000--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-consensustme"
 

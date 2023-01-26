@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macat/container.yaml"
-updated_at: "2023-01-25 03:04:16.611270"
+updated_at: "2023-01-26 03:04:53.816593"
 latest: "1.72.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macat"
 

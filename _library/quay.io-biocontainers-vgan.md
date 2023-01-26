@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/vgan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vgan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vgan/container.yaml"
-updated_at: "2023-01-25 03:21:14.559912"
-latest: "1.0.1--h9ee0642_0"
+updated_at: "2023-01-26 03:21:27.774880"
+latest: "1.0.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/vgan"
 aliases:
  - "vgan"
 versions:
  - "1.0.0--h9ee0642_0"
  - "1.0.1--h9ee0642_0"
+ - "1.0.2--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for vgan"
-config: {"url": "https://biocontainers.pro/tools/vgan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vgan", "latest": {"1.0.1--h9ee0642_0": "sha256:4e2802be45a59eaf31150ba13684d4b22ff5b3bbd1e7dbe5a9d64a69a2a8cd6d"}, "tags": {"1.0.0--h9ee0642_0": "sha256:f9dc8985ea433743023ff9499cd6c23e6cffdb1335b024d315bc47469f08926c", "1.0.1--h9ee0642_0": "sha256:4e2802be45a59eaf31150ba13684d4b22ff5b3bbd1e7dbe5a9d64a69a2a8cd6d"}, "docker": "quay.io/biocontainers/vgan", "aliases": {"vgan": "/usr/local/bin/vgan"}}
+config: {"url": "https://biocontainers.pro/tools/vgan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vgan", "latest": {"1.0.2--h9ee0642_0": "sha256:eb80b09fec95b97b30171a45a9ff17eb2d685b3cbbad378633db71e8ca97cf3a"}, "tags": {"1.0.0--h9ee0642_0": "sha256:f9dc8985ea433743023ff9499cd6c23e6cffdb1335b024d315bc47469f08926c", "1.0.1--h9ee0642_0": "sha256:4e2802be45a59eaf31150ba13684d4b22ff5b3bbd1e7dbe5a9d64a69a2a8cd6d", "1.0.2--h9ee0642_0": "sha256:eb80b09fec95b97b30171a45a9ff17eb2d685b3cbbad378633db71e8ca97cf3a"}, "docker": "quay.io/biocontainers/vgan", "aliases": {"vgan": "/usr/local/bin/vgan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vgan.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/vgan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vgan:1.0.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/vgan:1.0.2--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vgan/1.0.1--h9ee0642_0
-$ module help quay.io/biocontainers/vgan/1.0.1--h9ee0642_0
+$ module load quay.io/biocontainers/vgan/1.0.2--h9ee0642_0
+$ module help quay.io/biocontainers/vgan/1.0.2--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
