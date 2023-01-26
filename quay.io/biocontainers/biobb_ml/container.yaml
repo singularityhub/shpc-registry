@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biobb_ml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_ml
 latest:
-  3.8.0--pyhdfd78af_0: sha256:657456f6b3e8f0814d70927f87972b6c507f0e5dad99c60429ce5a82886516b6
+  3.9.0--pyhdfd78af_0: sha256:e0b332fd943e791fde42dec382c6eb24af971f6fbc966f83d1447292a89c928a
 tags:
   3.8.0--pyhdfd78af_0: sha256:657456f6b3e8f0814d70927f87972b6c507f0e5dad99c60429ce5a82886516b6
+  3.9.0--pyhdfd78af_0: sha256:e0b332fd943e791fde42dec382c6eb24af971f6fbc966f83d1447292a89c928a
 docker: quay.io/biocontainers/biobb_ml
 aliases:
   agglomerative_clustering: /usr/local/bin/agglomerative_clustering

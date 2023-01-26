@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/panacota
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for panacota
 latest:
-  1.3.1--pyhdfd78af_0: sha256:548c7236b039aac9e655b04cead23962566f77b2f2da1d21726334f4b457ad27
+  1.4.0--pyhdfd78af_0: sha256:474fabc4d7715dfdc9e89206b87e34956369d360b05c8acee1e6ff050945f2a1
 tags:
   1.3.1--pyhdfd78af_0: sha256:548c7236b039aac9e655b04cead23962566f77b2f2da1d21726334f4b457ad27
+  1.4.0--pyhdfd78af_0: sha256:474fabc4d7715dfdc9e89206b87e34956369d360b05c8acee1e6ff050945f2a1
 docker: quay.io/biocontainers/panacota
 aliases:
   PanACoTA: /usr/local/bin/PanACoTA

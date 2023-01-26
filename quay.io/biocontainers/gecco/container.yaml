@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gecco
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gecco
 latest:
-  0.9.5--pyhdfd78af_0: sha256:9f1bdcf94165e8596a452d1adae6098311a398121fc1beaa36ebb17d65e3a58c
+  0.9.6--pyhdfd78af_0: sha256:92c1db27ccb156b0f9e08a1bff59cf2dda849eca7db45ffc5a36a2e7f2a80af3
 tags:
   0.9.5--pyhdfd78af_0: sha256:9f1bdcf94165e8596a452d1adae6098311a398121fc1beaa36ebb17d65e3a58c
+  0.9.6--pyhdfd78af_0: sha256:92c1db27ccb156b0f9e08a1bff59cf2dda849eca7db45ffc5a36a2e7f2a80af3
 docker: quay.io/biocontainers/gecco
 aliases:
   gecco: /usr/local/bin/gecco

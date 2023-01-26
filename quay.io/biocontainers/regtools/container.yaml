@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/regtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for regtools
 latest:
-  0.6.1--hd03093a_0: sha256:950f4a810da644abac24e2a9fd51529af0bca543290f6441d7b6b47bacb230ec
+  1.0.0--hd03093a_0: sha256:b87ec3433be5ecd879a883e67e1f7ea8f6aadabe891d3d899e37b0b8de20052e
 tags:
   0.6.1--hd03093a_0: sha256:950f4a810da644abac24e2a9fd51529af0bca543290f6441d7b6b47bacb230ec
+  1.0.0--hd03093a_0: sha256:b87ec3433be5ecd879a883e67e1f7ea8f6aadabe891d3d899e37b0b8de20052e
 docker: quay.io/biocontainers/regtools
 aliases:
   regtools: /usr/local/bin/regtools
