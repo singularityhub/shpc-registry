@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sra-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sra-tools
 latest:
-  3.0.0--pl5321hd0d85c6_1: sha256:7232570a47f7dd1fcab54d9f3cd465189d51b0305aa51c74fb7c725cb5403d92
+  3.0.3--h87f3376_0: sha256:c9f92683e10091c3ef93066b1fcbdeeba89af49242ab778a9c8cc006f6be82a3
 tags:
   3.0.0--pl5321hd0d85c6_1: sha256:7232570a47f7dd1fcab54d9f3cd465189d51b0305aa51c74fb7c725cb5403d92
+  3.0.3--h87f3376_0: sha256:c9f92683e10091c3ef93066b1fcbdeeba89af49242ab778a9c8cc006f6be82a3
 docker: quay.io/biocontainers/sra-tools
 aliases:
   abi-dump.3: /usr/local/bin/abi-dump.3
