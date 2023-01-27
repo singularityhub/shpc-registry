@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/gfastats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfastats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfastats/container.yaml"
-updated_at: "2023-01-26 03:30:28.697595"
-latest: "1.3.6--hd03093a_0"
+updated_at: "2023-01-27 03:36:15.866198"
+latest: "1.3.6--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/gfastats"
 aliases:
  - "gfastats"
 versions:
  - "1.3.5--hd03093a_0"
  - "1.3.6--hd03093a_0"
+ - "1.3.6--hd03093a_1"
 description: "shpc-registry automated BioContainers addition for gfastats"
-config: {"url": "https://biocontainers.pro/tools/gfastats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfastats", "latest": {"1.3.6--hd03093a_0": "sha256:a36354ca9f8fe248c5c950ba6cfdcdf4003841b4fa8a3d7b066fb60a81713ad6"}, "tags": {"1.3.5--hd03093a_0": "sha256:0588b0114f6e092cd9492b2f0b5f160cc6b59b001d9ee8929c4b48b13fec0e77", "1.3.6--hd03093a_0": "sha256:a36354ca9f8fe248c5c950ba6cfdcdf4003841b4fa8a3d7b066fb60a81713ad6"}, "docker": "quay.io/biocontainers/gfastats", "aliases": {"gfastats": "/usr/local/bin/gfastats"}}
+config: {"url": "https://biocontainers.pro/tools/gfastats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfastats", "latest": {"1.3.6--hd03093a_1": "sha256:7624199684f85df94d91b55a8b7561a11bc0aac33ef6c20309c087d0fd532cae"}, "tags": {"1.3.5--hd03093a_0": "sha256:0588b0114f6e092cd9492b2f0b5f160cc6b59b001d9ee8929c4b48b13fec0e77", "1.3.6--hd03093a_0": "sha256:a36354ca9f8fe248c5c950ba6cfdcdf4003841b4fa8a3d7b066fb60a81713ad6", "1.3.6--hd03093a_1": "sha256:7624199684f85df94d91b55a8b7561a11bc0aac33ef6c20309c087d0fd532cae"}, "docker": "quay.io/biocontainers/gfastats", "aliases": {"gfastats": "/usr/local/bin/gfastats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfastats.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/gfastats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfastats:1.3.6--hd03093a_0
+$ shpc install quay.io/biocontainers/gfastats:1.3.6--hd03093a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfastats/1.3.6--hd03093a_0
-$ module help quay.io/biocontainers/gfastats/1.3.6--hd03093a_0
+$ module load quay.io/biocontainers/gfastats/1.3.6--hd03093a_1
+$ module help quay.io/biocontainers/gfastats/1.3.6--hd03093a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

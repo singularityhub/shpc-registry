@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lmdme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lmdme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lmdme/container.yaml"
-updated_at: "2023-01-26 02:48:56.916712"
+updated_at: "2023-01-27 02:52:19.813554"
 latest: "1.40.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lmdme"
 

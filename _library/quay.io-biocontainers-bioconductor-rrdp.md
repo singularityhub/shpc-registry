@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rrdp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rrdp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rrdp/container.yaml"
-updated_at: "2023-01-26 02:43:22.993039"
+updated_at: "2023-01-27 02:46:32.463182"
 latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rrdp"
 aliases:

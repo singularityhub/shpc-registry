@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panacota"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panacota/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panacota/container.yaml"
-updated_at: "2023-01-26 03:17:51.501183"
-latest: "1.3.1--pyhdfd78af_0"
+updated_at: "2023-01-27 03:23:02.829905"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panacota"
 aliases:
  - "PanACoTA"
@@ -29,8 +29,9 @@ aliases:
  - "prokka-clusters_to_hmm"
 versions:
  - "1.3.1--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for panacota"
-config: {"url": "https://biocontainers.pro/tools/panacota", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panacota", "latest": {"1.3.1--pyhdfd78af_0": "sha256:548c7236b039aac9e655b04cead23962566f77b2f2da1d21726334f4b457ad27"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:548c7236b039aac9e655b04cead23962566f77b2f2da1d21726334f4b457ad27"}, "docker": "quay.io/biocontainers/panacota", "aliases": {"PanACoTA": "/usr/local/bin/PanACoTA", "fastme": "/usr/local/bin/fastme", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "iqtree2": "/usr/local/bin/iqtree2", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "quicktree": "/usr/local/bin/quicktree", "run_panacota.py": "/usr/local/bin/run_panacota.py", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "iqtree": "/usr/local/bin/iqtree", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm"}}
+config: {"url": "https://biocontainers.pro/tools/panacota", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panacota", "latest": {"1.4.0--pyhdfd78af_0": "sha256:474fabc4d7715dfdc9e89206b87e34956369d360b05c8acee1e6ff050945f2a1"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:548c7236b039aac9e655b04cead23962566f77b2f2da1d21726334f4b457ad27", "1.4.0--pyhdfd78af_0": "sha256:474fabc4d7715dfdc9e89206b87e34956369d360b05c8acee1e6ff050945f2a1"}, "docker": "quay.io/biocontainers/panacota", "aliases": {"PanACoTA": "/usr/local/bin/PanACoTA", "fastme": "/usr/local/bin/fastme", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "iqtree2": "/usr/local/bin/iqtree2", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "quicktree": "/usr/local/bin/quicktree", "run_panacota.py": "/usr/local/bin/run_panacota.py", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "iqtree": "/usr/local/bin/iqtree", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panacota.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/panacota
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panacota:1.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/panacota:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panacota/1.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/panacota/1.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/panacota/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/panacota/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

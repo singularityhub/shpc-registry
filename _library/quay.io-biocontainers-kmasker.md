@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmasker/container.yaml"
-updated_at: "2023-01-26 03:23:14.408700"
+updated_at: "2023-01-27 03:28:40.090512"
 latest: "1.1.1--py38pl5321r41h4a32c8e_4"
 container_url: "https://biocontainers.pro/tools/kmasker"
 aliases:
