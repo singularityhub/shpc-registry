@@ -4,7 +4,7 @@ name:  "golang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/golang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/golang/container.yaml"
-updated_at: "2023-01-27 02:44:48.223216"
+updated_at: "2023-01-28 02:43:04.557207"
 latest: "1.20-rc"
 container_url: "https://hub.docker.com/r/_/golang"
 aliases:

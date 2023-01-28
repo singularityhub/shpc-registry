@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maf2synteny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maf2synteny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maf2synteny/container.yaml"
-updated_at: "2023-01-27 03:28:35.903976"
+updated_at: "2023-01-28 03:32:10.122004"
 latest: "1.2--h87f3376_1"
 container_url: "https://biocontainers.pro/tools/maf2synteny"
 aliases:
