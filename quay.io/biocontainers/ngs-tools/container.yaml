@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ngs-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngs-tools
 latest:
-  1.8.1--pyhdfd78af_0: sha256:8b2ec1c38f3a01a4792702492ea405b4c85310a4b146ee4fb1bae2eabbdfd750
+  1.8.3--pyhdfd78af_0: sha256:f343d1dc73b5021a57bacec86ed7cb47fabcd23e3e78db72fe467f6bab2f9a98
 tags:
   1.8.1--pyhdfd78af_0: sha256:8b2ec1c38f3a01a4792702492ea405b4c85310a4b146ee4fb1bae2eabbdfd750
+  1.8.3--pyhdfd78af_0: sha256:f343d1dc73b5021a57bacec86ed7cb47fabcd23e3e78db72fe467f6bab2f9a98
 docker: quay.io/biocontainers/ngs-tools
 aliases:
   shortuuid: /usr/local/bin/shortuuid

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/getorganelle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for getorganelle
 latest:
-  1.7.6.1--pyh5e36f6f_0: sha256:675d6c87fa16e483c1ced595e9ba032b57179032e940ba500099094340a6c226
+  1.7.7.0--pyh7cba7a3_0: sha256:583faf255f487c5195ea10b63177e712cd45ff8518032ad2a641526f49207547
 tags:
   1.7.6.1--pyh5e36f6f_0: sha256:675d6c87fa16e483c1ced595e9ba032b57179032e940ba500099094340a6c226
+  1.7.7.0--pyh7cba7a3_0: sha256:583faf255f487c5195ea10b63177e712cd45ff8518032ad2a641526f49207547
 docker: quay.io/biocontainers/getorganelle
 aliases:
   check_annotations.py: /usr/local/bin/check_annotations.py
