@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snpsplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpsplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpsplit/container.yaml"
-updated_at: "2023-01-28 02:43:33.522199"
-latest: "0.5.0--hdfd78af_0"
+updated_at: "2023-01-29 02:47:33.592352"
+latest: "0.6.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snpsplit"
 aliases:
  - "SNPsplit"
@@ -23,8 +23,9 @@ aliases:
  - "md5fa"
 versions:
  - "0.5.0--hdfd78af_0"
+ - "0.6.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snpsplit"
-config: {"url": "https://biocontainers.pro/tools/snpsplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpsplit", "latest": {"0.5.0--hdfd78af_0": "sha256:3048b17836565d5ec65effd9c36eecaf4aec36a5dfd885f177fa6681685979a9"}, "tags": {"0.5.0--hdfd78af_0": "sha256:3048b17836565d5ec65effd9c36eecaf4aec36a5dfd885f177fa6681685979a9"}, "docker": "quay.io/biocontainers/snpsplit", "aliases": {"SNPsplit": "/usr/local/bin/SNPsplit", "SNPsplit_genome_preparation": "/usr/local/bin/SNPsplit_genome_preparation", "tag2sort": "/usr/local/bin/tag2sort", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/snpsplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpsplit", "latest": {"0.6.0--hdfd78af_0": "sha256:2daff380790c63b069b443da6bc954a8559cc72a0a1ab939c8691087c0d03b18"}, "tags": {"0.5.0--hdfd78af_0": "sha256:3048b17836565d5ec65effd9c36eecaf4aec36a5dfd885f177fa6681685979a9", "0.6.0--hdfd78af_0": "sha256:2daff380790c63b069b443da6bc954a8559cc72a0a1ab939c8691087c0d03b18"}, "docker": "quay.io/biocontainers/snpsplit", "aliases": {"SNPsplit": "/usr/local/bin/SNPsplit", "SNPsplit_genome_preparation": "/usr/local/bin/SNPsplit_genome_preparation", "tag2sort": "/usr/local/bin/tag2sort", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snpsplit.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/snpsplit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snpsplit:0.5.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/snpsplit:0.6.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snpsplit/0.5.0--hdfd78af_0
-$ module help quay.io/biocontainers/snpsplit/0.5.0--hdfd78af_0
+$ module load quay.io/biocontainers/snpsplit/0.6.0--hdfd78af_0
+$ module help quay.io/biocontainers/snpsplit/0.6.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

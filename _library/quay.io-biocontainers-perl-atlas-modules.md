@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-atlas-modules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-atlas-modules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-atlas-modules/container.yaml"
-updated_at: "2023-01-28 03:07:17.782100"
+updated_at: "2023-01-29 03:07:47.881117"
 latest: "0.3.1--pl5262h87f3376_3"
 container_url: "https://biocontainers.pro/tools/perl-atlas-modules"
 aliases:

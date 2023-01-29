@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-writer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-writer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-writer/container.yaml"
-updated_at: "2023-01-28 03:36:27.077577"
+updated_at: "2023-01-29 03:32:00.958254"
 latest: "0.900--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-xml-writer"
 aliases:

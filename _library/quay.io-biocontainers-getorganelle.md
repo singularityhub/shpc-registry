@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/getorganelle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/getorganelle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/getorganelle/container.yaml"
-updated_at: "2023-01-28 03:19:11.980727"
-latest: "1.7.6.1--pyh5e36f6f_0"
+updated_at: "2023-01-29 03:17:39.879737"
+latest: "1.7.7.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/getorganelle"
 aliases:
  - "check_annotations.py"
@@ -41,8 +41,9 @@ aliases:
  - "spades-core"
 versions:
  - "1.7.6.1--pyh5e36f6f_0"
+ - "1.7.7.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for getorganelle"
-config: {"url": "https://biocontainers.pro/tools/getorganelle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for getorganelle", "latest": {"1.7.6.1--pyh5e36f6f_0": "sha256:675d6c87fa16e483c1ced595e9ba032b57179032e940ba500099094340a6c226"}, "tags": {"1.7.6.1--pyh5e36f6f_0": "sha256:675d6c87fa16e483c1ced595e9ba032b57179032e940ba500099094340a6c226"}, "docker": "quay.io/biocontainers/getorganelle", "aliases": {"check_annotations.py": "/usr/local/bin/check_annotations.py", "cook_coding_for_blast.py": "/usr/local/bin/cook_coding_for_blast.py", "disentangle_organelle_assembly.py": "/usr/local/bin/disentangle_organelle_assembly.py", "evaluate_assembly_using_mapping.py": "/usr/local/bin/evaluate_assembly_using_mapping.py", "fastg_to_gfa.py": "/usr/local/bin/fastg_to_gfa.py", "get_organelle_config.py": "/usr/local/bin/get_organelle_config.py", "get_organelle_from_assembly.py": "/usr/local/bin/get_organelle_from_assembly.py", "get_organelle_from_reads.py": "/usr/local/bin/get_organelle_from_reads.py", "get_pair_reads.py": "/usr/local/bin/get_pair_reads.py", "gfa_to_fasta.py": "/usr/local/bin/gfa_to_fasta.py", "gfa_to_fastg.py": "/usr/local/bin/gfa_to_fastg.py", "isympy": "/usr/local/bin/isympy", "join_spades_fastg_by_blast.py": "/usr/local/bin/join_spades_fastg_by_blast.py", "make_batch_for_get_organelle.py": "/usr/local/bin/make_batch_for_get_organelle.py", "make_batch_for_iteratively_mapping_assembling.py": "/usr/local/bin/make_batch_for_iteratively_mapping_assembling.py", "plastome_arch_info.py": "/usr/local/bin/plastome_arch_info.py", "reconstruct_graph_from_fasta.py": "/usr/local/bin/reconstruct_graph_from_fasta.py", "rm_low_coverage_duplicated_contigs.py": "/usr/local/bin/rm_low_coverage_duplicated_contigs.py", "round_statistics.py": "/usr/local/bin/round_statistics.py", "slim_graph.py": "/usr/local/bin/slim_graph.py", "summary_get_organelle_output.py": "/usr/local/bin/summary_get_organelle_output.py", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core"}}
+config: {"url": "https://biocontainers.pro/tools/getorganelle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for getorganelle", "latest": {"1.7.7.0--pyh7cba7a3_0": "sha256:583faf255f487c5195ea10b63177e712cd45ff8518032ad2a641526f49207547"}, "tags": {"1.7.6.1--pyh5e36f6f_0": "sha256:675d6c87fa16e483c1ced595e9ba032b57179032e940ba500099094340a6c226", "1.7.7.0--pyh7cba7a3_0": "sha256:583faf255f487c5195ea10b63177e712cd45ff8518032ad2a641526f49207547"}, "docker": "quay.io/biocontainers/getorganelle", "aliases": {"check_annotations.py": "/usr/local/bin/check_annotations.py", "cook_coding_for_blast.py": "/usr/local/bin/cook_coding_for_blast.py", "disentangle_organelle_assembly.py": "/usr/local/bin/disentangle_organelle_assembly.py", "evaluate_assembly_using_mapping.py": "/usr/local/bin/evaluate_assembly_using_mapping.py", "fastg_to_gfa.py": "/usr/local/bin/fastg_to_gfa.py", "get_organelle_config.py": "/usr/local/bin/get_organelle_config.py", "get_organelle_from_assembly.py": "/usr/local/bin/get_organelle_from_assembly.py", "get_organelle_from_reads.py": "/usr/local/bin/get_organelle_from_reads.py", "get_pair_reads.py": "/usr/local/bin/get_pair_reads.py", "gfa_to_fasta.py": "/usr/local/bin/gfa_to_fasta.py", "gfa_to_fastg.py": "/usr/local/bin/gfa_to_fastg.py", "isympy": "/usr/local/bin/isympy", "join_spades_fastg_by_blast.py": "/usr/local/bin/join_spades_fastg_by_blast.py", "make_batch_for_get_organelle.py": "/usr/local/bin/make_batch_for_get_organelle.py", "make_batch_for_iteratively_mapping_assembling.py": "/usr/local/bin/make_batch_for_iteratively_mapping_assembling.py", "plastome_arch_info.py": "/usr/local/bin/plastome_arch_info.py", "reconstruct_graph_from_fasta.py": "/usr/local/bin/reconstruct_graph_from_fasta.py", "rm_low_coverage_duplicated_contigs.py": "/usr/local/bin/rm_low_coverage_duplicated_contigs.py", "round_statistics.py": "/usr/local/bin/round_statistics.py", "slim_graph.py": "/usr/local/bin/slim_graph.py", "summary_get_organelle_output.py": "/usr/local/bin/summary_get_organelle_output.py", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/getorganelle.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/getorganelle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/getorganelle:1.7.6.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/getorganelle:1.7.7.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/getorganelle/1.7.6.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/getorganelle/1.7.6.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/getorganelle/1.7.7.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/getorganelle/1.7.7.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
