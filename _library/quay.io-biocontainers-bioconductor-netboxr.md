@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netboxr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netboxr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netboxr/container.yaml"
-updated_at: "2023-01-29 02:50:45.954024"
+updated_at: "2023-01-30 02:43:24.564691"
 latest: "1.9.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netboxr"
 

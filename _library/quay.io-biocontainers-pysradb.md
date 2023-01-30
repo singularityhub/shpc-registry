@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysradb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysradb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysradb/container.yaml"
-updated_at: "2023-01-29 03:35:16.837455"
+updated_at: "2023-01-30 03:31:37.768847"
 latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pysradb"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-connectivitymap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-connectivitymap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-connectivitymap/container.yaml"
-updated_at: "2023-01-29 03:02:54.434977"
+updated_at: "2023-01-30 02:56:14.329340"
 latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-connectivitymap"
 

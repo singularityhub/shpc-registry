@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyarrow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyarrow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyarrow/container.yaml"
-updated_at: "2023-01-29 03:32:18.229543"
+updated_at: "2023-01-30 03:28:22.322931"
 latest: "4.0.1"
 container_url: "https://biocontainers.pro/tools/pyarrow"
 aliases:

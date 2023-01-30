@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cpgeneprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpgeneprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpgeneprofiler/container.yaml"
-updated_at: "2023-01-29 03:42:04.294225"
+updated_at: "2023-01-30 03:38:58.153441"
 latest: "2.1.1--r41hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/cpgeneprofiler"
 aliases:
