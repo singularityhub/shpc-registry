@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-champdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-champdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-champdata/container.yaml"
-updated_at: "2023-01-30 02:49:20.941580"
+updated_at: "2023-01-31 02:56:50.593091"
 latest: "2.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-champdata"
 

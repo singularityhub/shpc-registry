@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proksee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proksee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proksee/container.yaml"
-updated_at: "2023-01-30 02:46:59.181013"
+updated_at: "2023-01-31 02:54:33.005362"
 latest: "1.0.0a5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/proksee"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biodbexpasy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbexpasy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbexpasy/container.yaml"
-updated_at: "2023-01-30 02:44:16.276604"
+updated_at: "2023-01-31 02:51:55.877266"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbexpasy"
 
