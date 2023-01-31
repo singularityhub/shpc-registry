@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyx/container.yaml"
-updated_at: "2023-01-31 03:39:57.150443"
+updated_at: "2023-01-31 18:57:14.948813"
 latest: "1.1--hb7044ba_2"
 container_url: "https://biocontainers.pro/tools/phyx"
 aliases:

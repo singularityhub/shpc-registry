@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/fastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqc/container.yaml"
-updated_at: "2023-01-31 03:36:09.342812"
+updated_at: "2023-01-31 18:52:36.892476"
 latest: "0.11.9--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fastqc"
-
+aliases:
+ - "fastqc"
 versions:
  - "0.11.9--hdfd78af_1"
+ - "0.11.9--0"
 description: "shpc-registry automated BioContainers addition for fastqc"
-config: {"url": "https://biocontainers.pro/tools/fastqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqc", "latest": {"0.11.9--hdfd78af_1": "sha256:0c60406af11b0723339df05b10a592aa3f8c9a4d2ec8f213cbe11051e7264a25"}, "tags": {"0.11.9--hdfd78af_1": "sha256:0c60406af11b0723339df05b10a592aa3f8c9a4d2ec8f213cbe11051e7264a25"}, "docker": "quay.io/biocontainers/fastqc"}
+config: {"url": "https://biocontainers.pro/tools/fastqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqc", "latest": {"0.11.9--hdfd78af_1": "sha256:0c60406af11b0723339df05b10a592aa3f8c9a4d2ec8f213cbe11051e7264a25"}, "tags": {"0.11.9--hdfd78af_1": "sha256:0c60406af11b0723339df05b10a592aa3f8c9a4d2ec8f213cbe11051e7264a25", "0.11.9--0": "sha256:319b8d4eca0fc0367d192941f221f7fcd29a6b96996c63cbf8931dbb66e53348"}, "docker": "quay.io/biocontainers/fastqc", "aliases": {"fastqc": "/usr/local/bin/fastqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqc.
@@ -97,14 +99,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### fastqc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/fastqc
+$ podman run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mrbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mrbayes/container.yaml"
-updated_at: "2023-01-31 03:21:37.010300"
+updated_at: "2023-01-31 18:34:42.517251"
 latest: "3.2.7--h5465cc4_4"
 container_url: "https://biocontainers.pro/tools/mrbayes"
 aliases:
