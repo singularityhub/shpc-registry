@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snakelines
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snakelines
 latest:
-  1.1.4--hdfd78af_0: sha256:6f85e78cb012896aab91339d487333cd109340e5ccb2a7b3435b357921101223
+  1.1.8--hdfd78af_0: sha256:76ca551e0499d4a600a6d72a15ad2ee215e46a60e2bef9fecf7db9e330d89d96
 tags:
   1.1.4--hdfd78af_0: sha256:6f85e78cb012896aab91339d487333cd109340e5ccb2a7b3435b357921101223
+  1.1.8--hdfd78af_0: sha256:76ca551e0499d4a600a6d72a15ad2ee215e46a60e2bef9fecf7db9e330d89d96
 docker: quay.io/biocontainers/snakelines
 aliases:
   cairosvg: /usr/local/bin/cairosvg
