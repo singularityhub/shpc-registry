@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-expressionview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-expressionview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-expressionview/container.yaml"
-updated_at: "2023-01-31 18:44:39.135523"
+updated_at: "2023-02-01 03:50:00.017095"
 latest: "1.42.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-expressionview"
 aliases:

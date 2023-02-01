@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-time-piece"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-time-piece/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-time-piece/container.yaml"
-updated_at: "2023-01-31 19:02:04.321473"
+updated_at: "2023-02-01 04:07:43.847879"
 latest: "1.27--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-time-piece"
 aliases:

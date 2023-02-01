@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cpan-shell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cpan-shell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cpan-shell/container.yaml"
-updated_at: "2023-01-31 19:00:33.510117"
+updated_at: "2023-02-01 04:06:10.924277"
 latest: "5.5004--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-cpan-shell"
 aliases:

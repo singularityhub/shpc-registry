@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svict/container.yaml"
-updated_at: "2023-01-31 18:43:06.139209"
+updated_at: "2023-02-01 03:48:23.988465"
 latest: "1.0.1--hd03093a_3"
 container_url: "https://biocontainers.pro/tools/svict"
 aliases:

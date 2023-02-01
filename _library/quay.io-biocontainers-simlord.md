@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simlord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simlord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simlord/container.yaml"
-updated_at: "2023-01-31 18:30:50.501655"
+updated_at: "2023-02-01 03:36:00.362955"
 latest: "1.0.4--py310h1425a21_2"
 container_url: "https://biocontainers.pro/tools/simlord"
 aliases:

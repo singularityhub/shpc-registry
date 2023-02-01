@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq2hla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq2hla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq2hla/container.yaml"
-updated_at: "2023-01-31 18:57:39.276457"
+updated_at: "2023-02-01 04:03:11.160921"
 latest: "2.2--2"
 container_url: "https://biocontainers.pro/tools/seq2hla"
 aliases:
