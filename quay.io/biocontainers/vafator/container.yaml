@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vafator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vafator
 latest:
-  2.1.0--pyhdfd78af_0: sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13
+  2.2.0--pyhdfd78af_0: sha256:fa10f2964c4c6dbeb3430f8eecbb3630217ad3c0b6953c6fe42a2cea30d2c7ed
 tags:
   2.1.0--pyhdfd78af_0: sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13
+  2.2.0--pyhdfd78af_0: sha256:fa10f2964c4c6dbeb3430f8eecbb3630217ad3c0b6953c6fe42a2cea30d2c7ed
 docker: quay.io/biocontainers/vafator
 aliases:
   hatchet2bed: /usr/local/bin/hatchet2bed
