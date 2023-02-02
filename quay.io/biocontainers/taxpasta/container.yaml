@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/taxpasta
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for taxpasta
+latest:
+  0.1.0--pyhdfd78af_0: sha256:a43b13ba645ed13e6774e98b2a3cf698c134eebeec029c4fca783defbbc0ead9
+tags:
+  0.1.0--pyhdfd78af_0: sha256:a43b13ba645ed13e6774e98b2a3cf698c134eebeec029c4fca783defbbc0ead9
+docker: quay.io/biocontainers/taxpasta
+aliases:
+  depinfo: /usr/local/bin/depinfo
+  f2py3.11: /usr/local/bin/f2py3.11
+  taxpasta: /usr/local/bin/taxpasta
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  cmark: /usr/local/bin/cmark
+  pygmentize: /usr/local/bin/pygmentize
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  python3.1: /usr/local/bin/python3.1

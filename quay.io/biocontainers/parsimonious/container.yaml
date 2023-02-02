@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/parsimonious
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for parsimonious
+latest:
+  0.10.0: sha256:db7a6536ef39dabca9667410284170fbd75c1bda751dca661a15eb12d7d8ef3c
+tags:
+  0.10.0: sha256:db7a6536ef39dabca9667410284170fbd75c1bda751dca661a15eb12d7d8ef3c
+docker: quay.io/biocontainers/parsimonious
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

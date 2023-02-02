@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/chopper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chopper
+latest:
+  0.2.0--hd03093a_0: sha256:e790dd0088097b57ec66516905d5113b1a480181ef8359f5df359960d2d7512d
+tags:
+  0.2.0--hd03093a_0: sha256:e790dd0088097b57ec66516905d5113b1a480181ef8359f5df359960d2d7512d
+docker: quay.io/biocontainers/chopper
+aliases:
+  chopper: /usr/local/bin/chopper
+  clang: /usr/local/bin/clang
+  clang-15: /usr/local/bin/clang-15
+  clang-cl: /usr/local/bin/clang-cl
+  clang-cpp: /usr/local/bin/clang-cpp
