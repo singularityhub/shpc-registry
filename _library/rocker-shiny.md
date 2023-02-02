@@ -4,7 +4,7 @@ name:  "rocker/shiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/shiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
-updated_at: "2023-02-01 04:09:59.942553"
+updated_at: "2023-02-02 03:49:25.638842"
 latest: "4.2.2"
 container_url: "https://hub.docker.com/r/rocker/shiny"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "4.1.3"
  - "4.0.5"
 description: "Docker image with R + Shiny."
-config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"4.2.2": "sha256:1a2f0cbf69cacc2c51a7d0ee61676a0c950319af83f2a1556fd11b5900c4550d"}, "tags": {"4.2.2": "sha256:1a2f0cbf69cacc2c51a7d0ee61676a0c950319af83f2a1556fd11b5900c4550d", "3.6.3": "sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625", "4.1.3": "sha256:3262dcd276b84f5a9cadb83d220cf18531175e3d1bb482b071de3964a91d4de8", "4.0.5": "sha256:931873c84e8cdde42a31a18fdae6bd381def8a0827b380f71a89f837541aa2fe"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
+config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"4.2.2": "sha256:2c11aa2335a78d83c6aeb690b3eaca4ba370d70cffc447acf256d3a595ecadec"}, "tags": {"4.2.2": "sha256:2c11aa2335a78d83c6aeb690b3eaca4ba370d70cffc447acf256d3a595ecadec", "3.6.3": "sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625", "4.1.3": "sha256:3262dcd276b84f5a9cadb83d220cf18531175e3d1bb482b071de3964a91d4de8", "4.0.5": "sha256:931873c84e8cdde42a31a18fdae6bd381def8a0827b380f71a89f837541aa2fe"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/shiny.

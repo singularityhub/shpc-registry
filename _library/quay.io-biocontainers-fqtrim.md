@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fqtrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqtrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqtrim/container.yaml"
-updated_at: "2023-02-01 03:41:40.207504"
+updated_at: "2023-02-02 03:24:41.750737"
 latest: "0.9.7--hd03093a_4"
 container_url: "https://biocontainers.pro/tools/fqtrim"
 aliases:

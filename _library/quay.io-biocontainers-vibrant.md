@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vibrant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vibrant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vibrant/container.yaml"
-updated_at: "2023-02-01 02:58:13.931640"
+updated_at: "2023-02-02 02:47:15.849847"
 latest: "1.2.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/vibrant"
 aliases:

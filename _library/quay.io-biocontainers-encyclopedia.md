@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/encyclopedia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/encyclopedia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/encyclopedia/container.yaml"
-updated_at: "2023-02-01 04:08:16.609705"
-latest: "1.12.34--hdfd78af_0"
+updated_at: "2023-02-02 03:47:54.777947"
+latest: "2.12.30--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/encyclopedia"
 aliases:
  - "EncyclopeDIA"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.2.2--hdfd78af_0"
  - "1.12.34--hdfd78af_0"
+ - "2.12.30--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for encyclopedia"
-config: {"url": "https://biocontainers.pro/tools/encyclopedia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for encyclopedia", "latest": {"1.12.34--hdfd78af_0": "sha256:df516dc72bdcb6f7e6cc779009f70d6f4870a92db22a8799461f9c3b9c35afad"}, "tags": {"1.2.2--hdfd78af_0": "sha256:9fd1f149c2d3387bbc31b9b954fec8c7f975367d4f7ab34025a94b9eef0d9308", "1.12.34--hdfd78af_0": "sha256:df516dc72bdcb6f7e6cc779009f70d6f4870a92db22a8799461f9c3b9c35afad"}, "docker": "quay.io/biocontainers/encyclopedia", "aliases": {"EncyclopeDIA": "/usr/local/bin/EncyclopeDIA", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/encyclopedia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for encyclopedia", "latest": {"2.12.30--hdfd78af_0": "sha256:30d5aeecbb5266f925024aeedfb99cd45e3801a6c6289dc9bf8f48d075c6cb21"}, "tags": {"1.2.2--hdfd78af_0": "sha256:9fd1f149c2d3387bbc31b9b954fec8c7f975367d4f7ab34025a94b9eef0d9308", "1.12.34--hdfd78af_0": "sha256:df516dc72bdcb6f7e6cc779009f70d6f4870a92db22a8799461f9c3b9c35afad", "2.12.30--hdfd78af_0": "sha256:30d5aeecbb5266f925024aeedfb99cd45e3801a6c6289dc9bf8f48d075c6cb21"}, "docker": "quay.io/biocontainers/encyclopedia", "aliases": {"EncyclopeDIA": "/usr/local/bin/EncyclopeDIA", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/encyclopedia.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/encyclopedia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/encyclopedia:1.12.34--hdfd78af_0
+$ shpc install quay.io/biocontainers/encyclopedia:2.12.30--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/encyclopedia/1.12.34--hdfd78af_0
-$ module help quay.io/biocontainers/encyclopedia/1.12.34--hdfd78af_0
+$ module load quay.io/biocontainers/encyclopedia/2.12.30--hdfd78af_0
+$ module help quay.io/biocontainers/encyclopedia/2.12.30--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-datasets-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-datasets-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-datasets-cli/container.yaml"
-updated_at: "2023-02-01 04:02:41.834059"
+updated_at: "2023-02-02 03:43:06.905080"
 latest: "13.14.0"
 container_url: "https://biocontainers.pro/tools/ncbi-datasets-cli"
 aliases:
