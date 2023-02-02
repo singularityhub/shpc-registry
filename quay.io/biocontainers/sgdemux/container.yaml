@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sgdemux
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sgdemux
+latest:
+  1.1.1--ha982bd6_0: sha256:00a6856695b320ea9a85d726ab4dbaa191ebbdb198edfbb0c7d7352999a1776d
+tags:
+  1.1.1--ha982bd6_0: sha256:00a6856695b320ea9a85d726ab4dbaa191ebbdb198edfbb0c7d7352999a1776d
+docker: quay.io/biocontainers/sgdemux
+aliases:
+  sgdemux: /usr/local/bin/sgdemux
