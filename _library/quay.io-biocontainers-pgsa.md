@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgsa/container.yaml"
-updated_at: "2023-02-02 03:07:00.546796"
+updated_at: "2023-02-02 03:17:45.795027"
 latest: "1.2--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/pgsa"
 aliases:

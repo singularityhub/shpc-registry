@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ior"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ior/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ior/container.yaml"
-updated_at: "2023-02-02 03:49:41.755978"
+updated_at: "2023-02-02 04:07:05.450080"
 latest: "3.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ior"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-algorithm-diff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-algorithm-diff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-algorithm-diff/container.yaml"
-updated_at: "2023-02-02 02:47:49.078489"
+updated_at: "2023-02-02 02:55:09.803439"
 latest: "1.1903--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-algorithm-diff"
 aliases:

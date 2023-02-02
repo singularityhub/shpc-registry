@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abnumber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abnumber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abnumber/container.yaml"
-updated_at: "2023-02-02 03:26:49.917271"
+updated_at: "2023-02-02 03:40:37.175813"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/abnumber"
 aliases:
