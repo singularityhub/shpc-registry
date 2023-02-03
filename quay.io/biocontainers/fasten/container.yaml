@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fasten
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fasten
 latest:
-  0.4.4--hec16e2b_1: sha256:f820c7e2b4920d186e69eab5b2a2bb79c7b5e2b1d8383cfd9cef81fc22baf4b8
+  0.5.0--hec16e2b_0: sha256:4bc327b7a70befd2a46bdf0a8cbf4d78c1698227d7a1df62685ac27e1dcba33a
 tags:
   0.4.4--hec16e2b_1: sha256:f820c7e2b4920d186e69eab5b2a2bb79c7b5e2b1d8383cfd9cef81fc22baf4b8
+  0.5.0--hec16e2b_0: sha256:4bc327b7a70befd2a46bdf0a8cbf4d78c1698227d7a1df62685ac27e1dcba33a
 docker: quay.io/biocontainers/fasten
 aliases:
   fasten_clean: /usr/local/bin/fasten_clean

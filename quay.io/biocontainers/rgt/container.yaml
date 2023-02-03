@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rgt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rgt
 latest:
-  0.12.3--py27h2b63b92_3: sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3
+  1.0.0--py37h7132678_0: sha256:f340a5d12804c09710a74dd2063a26abdedbebf35f0cb3ef32495c5956bec6e7
 tags:
   0.12.3--py27h2b63b92_3: sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3
+  1.0.0--py37h7132678_0: sha256:f340a5d12804c09710a74dd2063a26abdedbebf35f0cb3ef32495c5956bec6e7
 docker: quay.io/biocontainers/rgt
 aliases:
   bed2associated_genes.py: /usr/local/bin/bed2associated_genes.py
