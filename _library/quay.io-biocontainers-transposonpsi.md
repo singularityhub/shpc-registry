@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transposonpsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transposonpsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transposonpsi/container.yaml"
-updated_at: "2023-02-02 03:13:31.467089"
-latest: "1.0.0--hdfd78af_2"
+updated_at: "2023-02-03 03:02:18.010635"
+latest: "1.0.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/transposonpsi"
 aliases:
  - "BPbtab"
@@ -29,8 +29,9 @@ aliases:
  - "makemat"
 versions:
  - "1.0.0--hdfd78af_2"
+ - "1.0.0--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for transposonpsi"
-config: {"url": "https://biocontainers.pro/tools/transposonpsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transposonpsi", "latest": {"1.0.0--hdfd78af_2": "sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada"}, "tags": {"1.0.0--hdfd78af_2": "sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada"}, "docker": "quay.io/biocontainers/transposonpsi", "aliases": {"BPbtab": "/usr/local/bin/BPbtab", "TBLASTN_hit_chainer.pl": "/usr/local/bin/TBLASTN_hit_chainer.pl", "TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl": "/usr/local/bin/TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl", "TPSI_btab_to_gff3.pl": "/usr/local/bin/TPSI_btab_to_gff3.pl", "TPSI_chains_to_fasta.pl": "/usr/local/bin/TPSI_chains_to_fasta.pl", "TPSI_chains_to_gff3.pl": "/usr/local/bin/TPSI_chains_to_gff3.pl", "m2fmt_tier_hits.pl": "/usr/local/bin/m2fmt_tier_hits.pl", "transposonPSI.pl": "/usr/local/bin/transposonPSI.pl", "transposon_db_m2fmt_to_gff3.pl": "/usr/local/bin/transposon_db_m2fmt_to_gff3.pl", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/transposonpsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transposonpsi", "latest": {"1.0.0--hdfd78af_3": "sha256:c54fa49382dd74bfd2ef0bf927afd23c2b859f04cb3cf319a1bc86228bb4b6c3"}, "tags": {"1.0.0--hdfd78af_2": "sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada", "1.0.0--hdfd78af_3": "sha256:c54fa49382dd74bfd2ef0bf927afd23c2b859f04cb3cf319a1bc86228bb4b6c3"}, "docker": "quay.io/biocontainers/transposonpsi", "aliases": {"BPbtab": "/usr/local/bin/BPbtab", "TBLASTN_hit_chainer.pl": "/usr/local/bin/TBLASTN_hit_chainer.pl", "TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl": "/usr/local/bin/TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl", "TPSI_btab_to_gff3.pl": "/usr/local/bin/TPSI_btab_to_gff3.pl", "TPSI_chains_to_fasta.pl": "/usr/local/bin/TPSI_chains_to_fasta.pl", "TPSI_chains_to_gff3.pl": "/usr/local/bin/TPSI_chains_to_gff3.pl", "m2fmt_tier_hits.pl": "/usr/local/bin/m2fmt_tier_hits.pl", "transposonPSI.pl": "/usr/local/bin/transposonPSI.pl", "transposon_db_m2fmt_to_gff3.pl": "/usr/local/bin/transposon_db_m2fmt_to_gff3.pl", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transposonpsi.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/transposonpsi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transposonpsi:1.0.0--hdfd78af_2
+$ shpc install quay.io/biocontainers/transposonpsi:1.0.0--hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transposonpsi/1.0.0--hdfd78af_2
-$ module help quay.io/biocontainers/transposonpsi/1.0.0--hdfd78af_2
+$ module load quay.io/biocontainers/transposonpsi/1.0.0--hdfd78af_3
+$ module help quay.io/biocontainers/transposonpsi/1.0.0--hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

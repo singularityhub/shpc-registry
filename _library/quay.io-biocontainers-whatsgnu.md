@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/whatsgnu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/whatsgnu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/whatsgnu/container.yaml"
-updated_at: "2023-02-02 03:29:56.790098"
+updated_at: "2023-02-03 03:12:41.962211"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/whatsgnu"
 aliases:

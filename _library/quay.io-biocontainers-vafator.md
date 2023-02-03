@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vafator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vafator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vafator/container.yaml"
-updated_at: "2023-02-02 03:54:30.749835"
-latest: "2.1.0--pyhdfd78af_0"
+updated_at: "2023-02-03 03:28:06.265003"
+latest: "2.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vafator"
 aliases:
  - "hatchet2bed"
@@ -24,8 +24,9 @@ aliases:
  - "bedToIgv"
 versions:
  - "2.1.0--pyhdfd78af_0"
+ - "2.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vafator"
-config: {"url": "https://biocontainers.pro/tools/vafator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vafator", "latest": {"2.1.0--pyhdfd78af_0": "sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13"}, "docker": "quay.io/biocontainers/vafator", "aliases": {"hatchet2bed": "/usr/local/bin/hatchet2bed", "multiallelics-filter": "/usr/local/bin/multiallelics-filter", "vafator": "/usr/local/bin/vafator", "vafator2decifer": "/usr/local/bin/vafator2decifer", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
+config: {"url": "https://biocontainers.pro/tools/vafator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vafator", "latest": {"2.2.0--pyhdfd78af_0": "sha256:fa10f2964c4c6dbeb3430f8eecbb3630217ad3c0b6953c6fe42a2cea30d2c7ed"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13", "2.2.0--pyhdfd78af_0": "sha256:fa10f2964c4c6dbeb3430f8eecbb3630217ad3c0b6953c6fe42a2cea30d2c7ed"}, "docker": "quay.io/biocontainers/vafator", "aliases": {"hatchet2bed": "/usr/local/bin/hatchet2bed", "multiallelics-filter": "/usr/local/bin/multiallelics-filter", "vafator": "/usr/local/bin/vafator", "vafator2decifer": "/usr/local/bin/vafator2decifer", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vafator.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vafator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vafator:2.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vafator:2.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vafator/2.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/vafator/2.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/vafator/2.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/vafator/2.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

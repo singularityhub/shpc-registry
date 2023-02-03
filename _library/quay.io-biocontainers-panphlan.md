@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panphlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panphlan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panphlan/container.yaml"
-updated_at: "2023-02-02 03:39:19.329127"
+updated_at: "2023-02-03 03:18:36.016574"
 latest: "3.1--py_0"
 container_url: "https://biocontainers.pro/tools/panphlan"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mess/container.yaml"
-updated_at: "2023-02-02 03:40:14.817009"
+updated_at: "2023-02-03 03:19:10.152101"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mess"
 aliases:

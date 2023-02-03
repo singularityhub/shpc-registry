@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clipandmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clipandmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clipandmerge/container.yaml"
-updated_at: "2023-02-02 03:58:44.487780"
+updated_at: "2023-02-03 03:30:45.438574"
 latest: "1.7.8--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/clipandmerge"
 aliases:

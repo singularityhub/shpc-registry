@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fasta3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasta3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasta3/container.yaml"
-updated_at: "2023-02-02 03:40:24.179732"
+updated_at: "2023-02-03 03:19:15.953302"
 latest: "36.3.8--hec16e2b_7"
 container_url: "https://biocontainers.pro/tools/fasta3"
 aliases:
