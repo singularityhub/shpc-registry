@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/treeswift
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treeswift
 latest:
-  1.1.30--pyh7cba7a3_0: sha256:3478bf11f89f8f5687acc316530158fb7604d70e28c301ea21bc081deb7b2105
+  1.1.33--pyh7cba7a3_0: sha256:2aad19ec3e920425bb2f65649ed5bf2019add1b221e2247912ce7a242b5c8f09
 tags:
   1.1.6--py_0: sha256:780afa49e29b27a166ba6394919657d53beaf478e73204e3069bbe26caec3204
   1.1.30--pyh7cba7a3_0: sha256:3478bf11f89f8f5687acc316530158fb7604d70e28c301ea21bc081deb7b2105
+  1.1.33--pyh7cba7a3_0: sha256:2aad19ec3e920425bb2f65649ed5bf2019add1b221e2247912ce7a242b5c8f09
 docker: quay.io/biocontainers/treeswift
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

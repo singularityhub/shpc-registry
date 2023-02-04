@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/metaphlan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metaphlan
 latest:
-  4.0.3--pyhca03a8a_0: sha256:27232335b55baa59202253dd1d12f3ea42c665e94fff1115f1c59eb515707975
+  4.0.4--pyhca03a8a_0: sha256:2d21c3c3ae6dc2f35eebfe24f533ac9748626bd0c7e8632173d9170b191783b7
 tags:
   4.0.3--pyhca03a8a_0: sha256:27232335b55baa59202253dd1d12f3ea42c665e94fff1115f1c59eb515707975
+  4.0.4--pyhca03a8a_0: sha256:2d21c3c3ae6dc2f35eebfe24f533ac9748626bd0c7e8632173d9170b191783b7
 docker: quay.io/biocontainers/metaphlan
