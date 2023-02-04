@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tssar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tssar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tssar/container.yaml"
-updated_at: "2023-02-03 03:16:15.307718"
+updated_at: "2023-02-04 03:06:46.865487"
 latest: "1.0.1--r41hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/tssar"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgt/container.yaml"
-updated_at: "2023-02-03 03:10:18.712898"
-latest: "0.12.3--py27h2b63b92_3"
+updated_at: "2023-02-04 03:00:27.738499"
+latest: "1.0.0--py37h7132678_0"
 container_url: "https://biocontainers.pro/tools/rgt"
 aliases:
  - "bed2associated_genes.py"
@@ -48,8 +48,9 @@ aliases:
  - "my_print_defaults"
 versions:
  - "0.12.3--py27h2b63b92_3"
+ - "1.0.0--py37h7132678_0"
 description: "shpc-registry automated BioContainers addition for rgt"
-config: {"url": "https://biocontainers.pro/tools/rgt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgt", "latest": {"0.12.3--py27h2b63b92_3": "sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3"}, "tags": {"0.12.3--py27h2b63b92_3": "sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3"}, "docker": "quay.io/biocontainers/rgt", "aliases": {"bed2associated_genes.py": "/usr/local/bin/bed2associated_genes.py", "bed2fasta.py": "/usr/local/bin/bed2fasta.py", "bigBedToBed": "/usr/local/bin/bigBedToBed", "bigWigMerge": "/usr/local/bin/bigWigMerge", "download-db.sh": "/usr/local/bin/download-db.sh", "emtools.py": "/usr/local/bin/emtools.py", "expressionFromGenomicSet.py": "/usr/local/bin/expressionFromGenomicSet.py", "geneAssociationZscore.py": "/usr/local/bin/geneAssociationZscore.py", "geneOntologyFromBed.py": "/usr/local/bin/geneOntologyFromBed.py", "genesFromBed.py": "/usr/local/bin/genesFromBed.py", "havana_analysis.py": "/usr/local/bin/havana_analysis.py", "intersectGenomicSets.py": "/usr/local/bin/intersectGenomicSets.py", "mapExpressionMotif.py": "/usr/local/bin/mapExpressionMotif.py", "mapGeneNetwork.py": "/usr/local/bin/mapGeneNetwork.py", "moods-dna.py": "/usr/local/bin/moods-dna.py", "phylocsf_check.py": "/usr/local/bin/phylocsf_check.py", "protectionScore.py": "/usr/local/bin/protectionScore.py", "random_regions.py": "/usr/local/bin/random_regions.py", "rgt-TDF": "/usr/local/bin/rgt-TDF", "rgt-THOR": "/usr/local/bin/rgt-THOR", "rgt-filterVCF": "/usr/local/bin/rgt-filterVCF", "rgt-hint": "/usr/local/bin/rgt-hint", "rgt-motifanalysis": "/usr/local/bin/rgt-motifanalysis", "rgt-tools.py": "/usr/local/bin/rgt-tools.py", "rgt-viz": "/usr/local/bin/rgt-viz", "setupGenomicData.py": "/usr/local/bin/setupGenomicData.py", "setupLogoData.py": "/usr/local/bin/setupLogoData.py", "update_alias.py": "/usr/local/bin/update_alias.py", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "bedToBigBed": "/usr/local/bin/bedToBigBed", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "natsort": "/usr/local/bin/natsort", "my_print_defaults": "/usr/local/bin/my_print_defaults"}}
+config: {"url": "https://biocontainers.pro/tools/rgt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgt", "latest": {"1.0.0--py37h7132678_0": "sha256:f340a5d12804c09710a74dd2063a26abdedbebf35f0cb3ef32495c5956bec6e7"}, "tags": {"0.12.3--py27h2b63b92_3": "sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3", "1.0.0--py37h7132678_0": "sha256:f340a5d12804c09710a74dd2063a26abdedbebf35f0cb3ef32495c5956bec6e7"}, "docker": "quay.io/biocontainers/rgt", "aliases": {"bed2associated_genes.py": "/usr/local/bin/bed2associated_genes.py", "bed2fasta.py": "/usr/local/bin/bed2fasta.py", "bigBedToBed": "/usr/local/bin/bigBedToBed", "bigWigMerge": "/usr/local/bin/bigWigMerge", "download-db.sh": "/usr/local/bin/download-db.sh", "emtools.py": "/usr/local/bin/emtools.py", "expressionFromGenomicSet.py": "/usr/local/bin/expressionFromGenomicSet.py", "geneAssociationZscore.py": "/usr/local/bin/geneAssociationZscore.py", "geneOntologyFromBed.py": "/usr/local/bin/geneOntologyFromBed.py", "genesFromBed.py": "/usr/local/bin/genesFromBed.py", "havana_analysis.py": "/usr/local/bin/havana_analysis.py", "intersectGenomicSets.py": "/usr/local/bin/intersectGenomicSets.py", "mapExpressionMotif.py": "/usr/local/bin/mapExpressionMotif.py", "mapGeneNetwork.py": "/usr/local/bin/mapGeneNetwork.py", "moods-dna.py": "/usr/local/bin/moods-dna.py", "phylocsf_check.py": "/usr/local/bin/phylocsf_check.py", "protectionScore.py": "/usr/local/bin/protectionScore.py", "random_regions.py": "/usr/local/bin/random_regions.py", "rgt-TDF": "/usr/local/bin/rgt-TDF", "rgt-THOR": "/usr/local/bin/rgt-THOR", "rgt-filterVCF": "/usr/local/bin/rgt-filterVCF", "rgt-hint": "/usr/local/bin/rgt-hint", "rgt-motifanalysis": "/usr/local/bin/rgt-motifanalysis", "rgt-tools.py": "/usr/local/bin/rgt-tools.py", "rgt-viz": "/usr/local/bin/rgt-viz", "setupGenomicData.py": "/usr/local/bin/setupGenomicData.py", "setupLogoData.py": "/usr/local/bin/setupLogoData.py", "update_alias.py": "/usr/local/bin/update_alias.py", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "bedToBigBed": "/usr/local/bin/bedToBigBed", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "natsort": "/usr/local/bin/natsort", "my_print_defaults": "/usr/local/bin/my_print_defaults"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rgt.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/rgt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rgt:0.12.3--py27h2b63b92_3
+$ shpc install quay.io/biocontainers/rgt:1.0.0--py37h7132678_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rgt/0.12.3--py27h2b63b92_3
-$ module help quay.io/biocontainers/rgt/0.12.3--py27h2b63b92_3
+$ module load quay.io/biocontainers/rgt/1.0.0--py37h7132678_0
+$ module help quay.io/biocontainers/rgt/1.0.0--py37h7132678_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

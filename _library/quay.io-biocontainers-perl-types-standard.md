@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-types-standard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-types-standard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-types-standard/container.yaml"
-updated_at: "2023-02-03 03:26:36.983737"
+updated_at: "2023-02-04 03:18:00.468607"
 latest: "1.002001--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-types-standard"
 aliases:

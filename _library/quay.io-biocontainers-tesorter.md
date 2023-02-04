@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tesorter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesorter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesorter/container.yaml"
-updated_at: "2023-02-03 02:58:02.563632"
+updated_at: "2023-02-04 02:47:29.802374"
 latest: "1.3.0--py_0"
 container_url: "https://biocontainers.pro/tools/tesorter"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-ie-helpers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-ie-helpers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-ie-helpers/container.yaml"
-updated_at: "2023-02-03 03:10:15.184249"
-latest: "0.2.5--pyh864c0ab_1"
+updated_at: "2023-02-04 03:00:23.955852"
+latest: "0.2.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/galaxy-ie-helpers"
 aliases:
  - "get"
@@ -23,8 +23,9 @@ aliases:
  - "glacier"
 versions:
  - "0.2.5--pyh864c0ab_1"
+ - "0.2.7--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for galaxy-ie-helpers"
-config: {"url": "https://biocontainers.pro/tools/galaxy-ie-helpers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ie-helpers", "latest": {"0.2.5--pyh864c0ab_1": "sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f"}, "docker": "quay.io/biocontainers/galaxy-ie-helpers", "aliases": {"get": "/usr/local/bin/get", "get_user_history": "/usr/local/bin/get_user_history", "put": "/usr/local/bin/put", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-ie-helpers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ie-helpers", "latest": {"0.2.7--pyh7cba7a3_0": "sha256:ef1580d6794d75e85b37b9631db86439a8634c788af5d0cae9915bf540297ad2"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f", "0.2.7--pyh7cba7a3_0": "sha256:ef1580d6794d75e85b37b9631db86439a8634c788af5d0cae9915bf540297ad2"}, "docker": "quay.io/biocontainers/galaxy-ie-helpers", "aliases": {"get": "/usr/local/bin/get", "get_user_history": "/usr/local/bin/get_user_history", "put": "/usr/local/bin/put", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-ie-helpers.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/galaxy-ie-helpers
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-ie-helpers:0.2.5--pyh864c0ab_1
+$ shpc install quay.io/biocontainers/galaxy-ie-helpers:0.2.7--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-ie-helpers/0.2.5--pyh864c0ab_1
-$ module help quay.io/biocontainers/galaxy-ie-helpers/0.2.5--pyh864c0ab_1
+$ module load quay.io/biocontainers/galaxy-ie-helpers/0.2.7--pyh7cba7a3_0
+$ module help quay.io/biocontainers/galaxy-ie-helpers/0.2.7--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

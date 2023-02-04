@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-easel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-easel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-easel/container.yaml"
-updated_at: "2023-02-03 03:01:27.178819"
-latest: "0.15--pl5321hec16e2b_2"
+updated_at: "2023-02-04 02:51:05.311848"
+latest: "0.16--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-easel"
 aliases:
  - "esl-alidepair.pl"
@@ -14,8 +14,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.15--pl5321hec16e2b_2"
+ - "0.16--pl5321hec16e2b_0"
 description: "shpc-registry automated BioContainers addition for perl-bio-easel"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-easel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-easel", "latest": {"0.15--pl5321hec16e2b_2": "sha256:5b6155d97943e7c22e78385f4cd47b09428fc2de08c6935bf614e44f990c2ed8"}, "tags": {"0.15--pl5321hec16e2b_2": "sha256:5b6155d97943e7c22e78385f4cd47b09428fc2de08c6935bf614e44f990c2ed8"}, "docker": "quay.io/biocontainers/perl-bio-easel", "aliases": {"esl-alidepair.pl": "/usr/local/bin/esl-alidepair.pl", "esl-ssplit.pl": "/usr/local/bin/esl-ssplit.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-easel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-easel", "latest": {"0.16--pl5321hec16e2b_0": "sha256:f7ac86b99426c504276c600816cfdc8ada257e14607ddb5101af0e90a3241973"}, "tags": {"0.15--pl5321hec16e2b_2": "sha256:5b6155d97943e7c22e78385f4cd47b09428fc2de08c6935bf614e44f990c2ed8", "0.16--pl5321hec16e2b_0": "sha256:f7ac86b99426c504276c600816cfdc8ada257e14607ddb5101af0e90a3241973"}, "docker": "quay.io/biocontainers/perl-bio-easel", "aliases": {"esl-alidepair.pl": "/usr/local/bin/esl-alidepair.pl", "esl-ssplit.pl": "/usr/local/bin/esl-ssplit.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-easel.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-bio-easel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-easel:0.15--pl5321hec16e2b_2
+$ shpc install quay.io/biocontainers/perl-bio-easel:0.16--pl5321hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-easel/0.15--pl5321hec16e2b_2
-$ module help quay.io/biocontainers/perl-bio-easel/0.15--pl5321hec16e2b_2
+$ module load quay.io/biocontainers/perl-bio-easel/0.16--pl5321hec16e2b_0
+$ module help quay.io/biocontainers/perl-bio-easel/0.16--pl5321hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

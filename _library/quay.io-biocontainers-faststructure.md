@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/faststructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/faststructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/faststructure/container.yaml"
-updated_at: "2023-02-03 03:02:58.684330"
+updated_at: "2023-02-04 02:52:41.528305"
 latest: "1.0--py27h6b1b274_5"
 container_url: "https://biocontainers.pro/tools/faststructure"
 aliases:

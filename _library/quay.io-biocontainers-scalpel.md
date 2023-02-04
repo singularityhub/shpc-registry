@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scalpel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scalpel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scalpel/container.yaml"
-updated_at: "2023-02-03 03:15:36.792844"
+updated_at: "2023-02-04 03:06:06.412139"
 latest: "0.5.4--h9a52abd_4"
 container_url: "https://biocontainers.pro/tools/scalpel"
 aliases:

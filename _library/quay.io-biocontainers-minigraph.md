@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minigraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minigraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minigraph/container.yaml"
-updated_at: "2023-02-03 03:35:05.680658"
+updated_at: "2023-02-04 03:27:13.512163"
 latest: "0.20--h7132678_0"
 container_url: "https://biocontainers.pro/tools/minigraph"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smallgenomeutilities"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smallgenomeutilities/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smallgenomeutilities/container.yaml"
-updated_at: "2023-02-03 03:12:28.468085"
+updated_at: "2023-02-04 03:02:46.000194"
 latest: "0.3.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/smallgenomeutilities"
 aliases:

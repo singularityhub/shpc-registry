@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biom-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biom-format/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biom-format/container.yaml"
-updated_at: "2023-02-03 02:58:24.562227"
-latest: "2.1.12"
+updated_at: "2023-02-04 02:47:52.825636"
+latest: "2.1.14"
 container_url: "https://biocontainers.pro/tools/biom-format"
 aliases:
  - "pyqi"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.1.7--py27_0"
  - "2.1.12"
+ - "2.1.14"
 description: "shpc-registry automated BioContainers addition for biom-format"
-config: {"url": "https://biocontainers.pro/tools/biom-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biom-format", "latest": {"2.1.12": "sha256:b958db2587da58dd22a2e08e09c0207b3625091ca5555a855e77ee18b915c5c2"}, "tags": {"2.1.7--py27_0": "sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c", "2.1.12": "sha256:b958db2587da58dd22a2e08e09c0207b3625091ca5555a855e77ee18b915c5c2"}, "docker": "quay.io/biocontainers/biom-format", "aliases": {"pyqi": "/usr/local/bin/pyqi", "unit2": "/usr/local/bin/unit2", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "biom": "/usr/local/bin/biom", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/biom-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biom-format", "latest": {"2.1.14": "sha256:49a81ddb5aedb5be7cb77509ec360075c4c2371e768a53cf52fbf8f7f0e41452"}, "tags": {"2.1.7--py27_0": "sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c", "2.1.12": "sha256:b958db2587da58dd22a2e08e09c0207b3625091ca5555a855e77ee18b915c5c2", "2.1.14": "sha256:49a81ddb5aedb5be7cb77509ec360075c4c2371e768a53cf52fbf8f7f0e41452"}, "docker": "quay.io/biocontainers/biom-format", "aliases": {"pyqi": "/usr/local/bin/pyqi", "unit2": "/usr/local/bin/unit2", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "biom": "/usr/local/bin/biom", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biom-format.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/biom-format
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biom-format:2.1.12
+$ shpc install quay.io/biocontainers/biom-format:2.1.14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biom-format/2.1.12
-$ module help quay.io/biocontainers/biom-format/2.1.12
+$ module load quay.io/biocontainers/biom-format/2.1.14
+$ module help quay.io/biocontainers/biom-format/2.1.14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

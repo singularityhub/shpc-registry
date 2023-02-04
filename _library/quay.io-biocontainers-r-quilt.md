@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-quilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-quilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-quilt/container.yaml"
-updated_at: "2023-02-03 03:18:30.162381"
+updated_at: "2023-02-04 03:09:09.452369"
 latest: "1.0.3--r42h37595e4_2"
 container_url: "https://biocontainers.pro/tools/r-quilt"
 aliases:
