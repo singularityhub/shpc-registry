@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/clinker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinker/container.yaml"
-updated_at: "2023-02-04 03:01:41.398932"
-latest: "1.32--hdfd78af_2"
+updated_at: "2023-02-05 03:19:47.805790"
+latest: "1.33--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clinker"
 
 versions:
  - "1.32--hdfd78af_2"
+ - "1.33--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for clinker"
-config: {"url": "https://biocontainers.pro/tools/clinker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinker", "latest": {"1.32--hdfd78af_2": "sha256:9d04b168a684388faf9e666a721269eb2aee71979f51a09a5b0b31de56ecbbfe"}, "tags": {"1.32--hdfd78af_2": "sha256:9d04b168a684388faf9e666a721269eb2aee71979f51a09a5b0b31de56ecbbfe"}, "docker": "quay.io/biocontainers/clinker"}
+config: {"url": "https://biocontainers.pro/tools/clinker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinker", "latest": {"1.33--hdfd78af_0": "sha256:665356100d94244dfe9de83178540649132b873aead17a9bcc88ced676b6951e"}, "tags": {"1.32--hdfd78af_2": "sha256:9d04b168a684388faf9e666a721269eb2aee71979f51a09a5b0b31de56ecbbfe", "1.33--hdfd78af_0": "sha256:665356100d94244dfe9de83178540649132b873aead17a9bcc88ced676b6951e"}, "docker": "quay.io/biocontainers/clinker"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clinker.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/clinker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clinker:1.32--hdfd78af_2
+$ shpc install quay.io/biocontainers/clinker:1.33--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clinker/1.32--hdfd78af_2
-$ module help quay.io/biocontainers/clinker/1.32--hdfd78af_2
+$ module load quay.io/biocontainers/clinker/1.33--hdfd78af_0
+$ module help quay.io/biocontainers/clinker/1.33--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

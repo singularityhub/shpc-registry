@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-regexp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-regexp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-regexp/container.yaml"
-updated_at: "2023-02-04 02:44:26.872148"
+updated_at: "2023-02-05 02:58:31.741418"
 latest: "0.04--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-xml-regexp"
 aliases:

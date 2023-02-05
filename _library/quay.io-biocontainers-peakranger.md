@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peakranger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakranger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peakranger/container.yaml"
-updated_at: "2023-02-04 03:18:05.750694"
+updated_at: "2023-02-05 03:39:45.444440"
 latest: "1.18--h7ff8a90_6"
 container_url: "https://biocontainers.pro/tools/peakranger"
 aliases:

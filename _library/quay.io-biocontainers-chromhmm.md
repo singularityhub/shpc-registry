@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chromhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromhmm/container.yaml"
-updated_at: "2023-02-04 03:17:41.787367"
-latest: "1.23--hdfd78af_0"
+updated_at: "2023-02-05 03:39:18.704454"
+latest: "1.24--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chromhmm"
 aliases:
  - "ChromHMM.sh"
@@ -22,8 +22,9 @@ aliases:
  - "jhsdb"
 versions:
  - "1.23--hdfd78af_0"
+ - "1.24--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for chromhmm"
-config: {"url": "https://biocontainers.pro/tools/chromhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromhmm", "latest": {"1.23--hdfd78af_0": "sha256:e946f36b053df17ad5650dd13b6616e090d7eca40e088e8f7ffa2a87a8ddf2b3"}, "tags": {"1.23--hdfd78af_0": "sha256:e946f36b053df17ad5650dd13b6616e090d7eca40e088e8f7ffa2a87a8ddf2b3"}, "docker": "quay.io/biocontainers/chromhmm", "aliases": {"ChromHMM.sh": "/usr/local/bin/ChromHMM.sh", "download_chromhmm_data.sh": "/usr/local/bin/download_chromhmm_data.sh", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
+config: {"url": "https://biocontainers.pro/tools/chromhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromhmm", "latest": {"1.24--hdfd78af_0": "sha256:faa842647a2fd38569b6901ceaaea9e2b24ff69907debce0a0f16f49e5a1ec8f"}, "tags": {"1.23--hdfd78af_0": "sha256:e946f36b053df17ad5650dd13b6616e090d7eca40e088e8f7ffa2a87a8ddf2b3", "1.24--hdfd78af_0": "sha256:faa842647a2fd38569b6901ceaaea9e2b24ff69907debce0a0f16f49e5a1ec8f"}, "docker": "quay.io/biocontainers/chromhmm", "aliases": {"ChromHMM.sh": "/usr/local/bin/ChromHMM.sh", "download_chromhmm_data.sh": "/usr/local/bin/download_chromhmm_data.sh", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chromhmm.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/chromhmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chromhmm:1.23--hdfd78af_0
+$ shpc install quay.io/biocontainers/chromhmm:1.24--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chromhmm/1.23--hdfd78af_0
-$ module help quay.io/biocontainers/chromhmm/1.23--hdfd78af_0
+$ module load quay.io/biocontainers/chromhmm/1.24--hdfd78af_0
+$ module help quay.io/biocontainers/chromhmm/1.24--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

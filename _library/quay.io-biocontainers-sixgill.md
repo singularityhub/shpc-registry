@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sixgill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sixgill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sixgill/container.yaml"
-updated_at: "2023-02-04 02:52:51.447548"
+updated_at: "2023-02-05 03:08:58.036752"
 latest: "0.2.4--py_3"
 container_url: "https://biocontainers.pro/tools/sixgill"
 aliases:

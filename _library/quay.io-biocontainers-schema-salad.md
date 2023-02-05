@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/schema-salad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schema-salad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schema-salad/container.yaml"
-updated_at: "2023-02-04 03:00:48.813204"
+updated_at: "2023-02-05 03:18:43.696065"
 latest: "2.7.20180809223002--py_0"
 container_url: "https://biocontainers.pro/tools/schema-salad"
 aliases:
