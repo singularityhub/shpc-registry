@@ -10,25 +10,27 @@ here = os.getcwd()
 
 def get_parser():
     parser = argparse.ArgumentParser(
-        description="SHPC Alias Updater",
+        description="SHPC Feature Updater",
         formatter_class=argparse.RawTextHelpFormatter,
     )
     subparsers = parser.add_subparsers(dest="command")
     add = subparsers.add_parser(
         "add",
-        description="add an alias to a container recipe.",
+        description="add a feature to a container recipe.",
         formatter_class=argparse.RawTextHelpFormatter,
     )
     remove = subparsers.add_parser(
         "remove",
-        description="remove one or more aliases from a container recipe",
+        description="remove one or more features from a container recipe",
         formatter_class=argparse.RawTextHelpFormatter,
     )
     for command in add, remove:
         command.add_argument("--registry", help="Path to registry root.", default=here)
         command.add_argument("container", help="Container alias to edit")
-        command.add_argument("alias", help="alias name")
-        command.add_argument("path", help="alias path", nargs="?")
+        command.add_argument("feature", help="feature name")
+        command.add_argument(
+            "value", help="feature value (e.g., true/false or path)", nargs="?"
+        )
         command.add_argument(
             "--force",
             help="force adding an alias that already exists.",
@@ -47,9 +49,9 @@ def main():
     # Show args to the user
     print("  container: %s" % args.container)
     print("   registry: %s" % args.registry)
-    print("      alias:")
-    print("       name: %s" % args.alias)
-    print("       path: %s" % args.path)
+    print("    feature:")
+    print("       name: %s" % args.feature)
+    print("      value: %s" % args.value)
 
     cli = get_client()
     cli.settings.registry = [args.registry]
@@ -62,44 +64,51 @@ def main():
         )
 
     if args.command == "add":
-        return add_alias(match, args.alias, args.path, force=args.force)
-    return remove_alias(match, args.alias)
+        return add_feature(match, args.feature, args.value, force=args.force)
+    return remove_feature(match, args.feature)
 
 
-def remove_alias(module, alias):
+def remove_feature(module, feature):
     """
-    Remove an alias
+    Remove a feature
     """
-    if "aliases" not in module._config:
-        sys.exit(f"Container {module.name} has no aliases.")
+    if "features" not in module._config:
+        sys.exit(f"Container {module.name} has no features.")
 
-    if alias not in module._config["aliases"]:
-        sys.exit(f"Alias {alias} does not exist in {module.name}.")
+    if feature not in module._config["features"]:
+        sys.exit(f"Feature {feature} does not exist in {module.name}.")
 
-    del module._config["aliases"][alias]
+    del module._config["features"][feature]
 
     # Clean up empty directive
-    if not module._config["aliases"]:
-        del module._config["aliases"]
-
+    if not module._config["features"]:
+        del module._config["features"]
     module.save(module.package_file)
 
 
-def add_alias(module, alias, path, force=False):
+def add_feature(module, feature, value, force=False):
     """
-    Add an alias
+    Add a feature
     """
-    if not path:
-        sys.exit("A path is required to add an alias.")
+    if not value:
+        sys.exit("A value is required to add a feature.")
 
-    if "aliases" not in module._config:
-        module._config["aliases"] = {}
+    if "features" not in module._config:
+        module._config["features"] = {}
 
-    if alias in module._config["aliases"] and not force:
-        path = module._config["aliases"][alias]
-        sys.exit(f"Alias {alias} already exists at {path} and --force is not set.")
+    # Parse string boolean
+    if value.lower() == "false":
+        value = False
+    elif value.lower() == "true":
+        value = True
+    elif value.lower() in ["none", "null"]:
+        value = None
 
-    module._config["aliases"][alias] = path
+    if feature in module._config["features"] and not force:
+        value = module._config["features"][feature]
+        sys.exit(f"Feature {feature} already exists as {value} and --force is not set.")
+
+    module._config["features"][feature] = value
     module.save(module.package_file)
 
 

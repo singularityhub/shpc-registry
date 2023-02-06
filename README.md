@@ -23,7 +23,9 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 5. Fill in the name of the container you want to build a `container.yaml` for, as well as a URL and a description (both are mandatory fields). Leave the branch as `main`.
 6. Hit the green "Run workflow" button, wait and marvel at the magic :sparkles: happening. The GitHub Action will automatically open a pull request with most of the `container.yaml` filled in for you. You can check the branch out, edit it further – in particular refine the list aliases.
 
-### Update Aliases
+### Updates
+
+#### Aliases
 
 If you find a container missing aliases (or having extras) and you don't want to manually open files,
 we provide a helper script to do so. After cloning the repository, you could check out a new branch and add an alias 
@@ -44,11 +46,36 @@ $ python .github/scripts/alias.py add quay.io/biocontainers/samtools test /opt/b
 And then to remove:
 
 ```bash
-$ python .github/scripts/alias.py remove quay.io/biocontainers/samtools test /opt/bin/test
+$ python .github/scripts/alias.py remove quay.io/biocontainers/samtools test
 ```
 
 If an alias doesn't exist, you will get an error on remove.
 After these changes you would want to open a pull request to persist your changes to the registry.
+
+#### Features
+
+The equivalent helper exists for features. As an example, here is how to set a boolean
+(true/false) or value of None):
+
+```bash
+$ python .github/scripts/feature.py add quay.io/biocontainers/samtools home true
+$ python .github/scripts/feature.py add quay.io/biocontainers/samtools home false
+$ python .github/scripts/feature.py add quay.io/biocontainers/samtools home none
+```
+
+And how to remove it:
+
+```bash
+$ python .github/scripts/feature.py remove quay.io/biocontainers/samtools home
+```
+
+And then to remove:
+
+```bash
+$ python .github/scripts/alias.py remove quay.io/biocontainers/samtools test /opt/bin/test
+```
+
+The same rule applies for using `--force`.
 
 ### BioContainers
 
