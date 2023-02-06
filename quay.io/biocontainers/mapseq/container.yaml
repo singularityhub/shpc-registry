@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mapseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mapseq
 latest:
-  1.2.6--ha34dc8c_3: sha256:57426f4ee51d1bf56dc9ac01f2e1d34b6cb5b34992a7feb5a302b24f7d5f5fe2
+  2.1.1--ha34dc8c_0: sha256:326574bdad0e3e393976f93dd8d53077bf3d89d34c3d693dc0b996fa2de2bf00
 tags:
   1.2.6--ha34dc8c_3: sha256:57426f4ee51d1bf56dc9ac01f2e1d34b6cb5b34992a7feb5a302b24f7d5f5fe2
+  2.1.1--ha34dc8c_0: sha256:326574bdad0e3e393976f93dd8d53077bf3d89d34c3d693dc0b996fa2de2bf00
 docker: quay.io/biocontainers/mapseq
 aliases:
   esh: /usr/local/bin/esh

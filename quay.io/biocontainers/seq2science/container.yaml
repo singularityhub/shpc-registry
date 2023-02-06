@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/seq2science
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seq2science
 latest:
-  0.9.7--pyhdfd78af_0: sha256:3095d5e48e8d819772840561fab444aa350ed3a00387e9ececd56f9f8bc68726
+  0.9.8--pyhdfd78af_0: sha256:f6200fcac2718371753ba360d1eb3eeb1622059dd3273d64c8a702482ac64992
 tags:
   0.9.5--pypyhdfd78af_0: sha256:1ec1ffbef1631388f8e4981042356e2e04b9e40fa08407ec0040c6d8bda6f495
   0.9.6--pyhdfd78af_0: sha256:f0865b8e1d01085a27d47effa050e396d28e0c722616454f80454576f0ba193a
   0.9.7--pyhdfd78af_0: sha256:3095d5e48e8d819772840561fab444aa350ed3a00387e9ececd56f9f8bc68726
+  0.9.8--pyhdfd78af_0: sha256:f6200fcac2718371753ba360d1eb3eeb1622059dd3273d64c8a702482ac64992
 docker: quay.io/biocontainers/seq2science
 aliases:
   bedToGenePred: /usr/local/bin/bedToGenePred
