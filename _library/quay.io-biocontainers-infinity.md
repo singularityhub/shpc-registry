@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/infinity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/infinity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/infinity/container.yaml"
-updated_at: "2023-02-05 03:40:05.509100"
+updated_at: "2023-02-06 03:37:30.028717"
 latest: "1.4--py35_0"
 container_url: "https://biocontainers.pro/tools/infinity"
 aliases:

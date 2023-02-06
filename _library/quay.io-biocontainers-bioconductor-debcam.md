@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-debcam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-debcam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-debcam/container.yaml"
-updated_at: "2023-02-05 03:36:16.917357"
+updated_at: "2023-02-06 03:33:10.071778"
 latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-debcam"
 aliases:

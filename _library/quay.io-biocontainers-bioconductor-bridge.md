@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bridge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bridge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bridge/container.yaml"
-updated_at: "2023-02-05 03:27:55.217038"
+updated_at: "2023-02-06 03:22:36.694915"
 latest: "1.62.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bridge"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cirtap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cirtap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cirtap/container.yaml"
-updated_at: "2023-02-05 03:20:00.080472"
+updated_at: "2023-02-06 03:13:26.028367"
 latest: "0.3.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/cirtap"
 aliases:

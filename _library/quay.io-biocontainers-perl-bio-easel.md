@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-easel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-easel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-easel/container.yaml"
-updated_at: "2023-02-05 03:06:47.184536"
+updated_at: "2023-02-06 02:58:06.868609"
 latest: "0.16--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-easel"
 aliases:

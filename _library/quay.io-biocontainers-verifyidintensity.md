@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/verifyidintensity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifyidintensity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifyidintensity/container.yaml"
-updated_at: "2023-02-05 02:59:54.976585"
+updated_at: "2023-02-06 02:50:37.381674"
 latest: "0.0.1--h7ff8a90_2"
 container_url: "https://biocontainers.pro/tools/verifyidintensity"
 aliases:

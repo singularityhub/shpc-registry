@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sarscov2summary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sarscov2summary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sarscov2summary/container.yaml"
-updated_at: "2023-02-05 02:51:31.289738"
+updated_at: "2023-02-06 02:41:24.073794"
 latest: "0.5--py_1"
 container_url: "https://biocontainers.pro/tools/sarscov2summary"
 aliases:

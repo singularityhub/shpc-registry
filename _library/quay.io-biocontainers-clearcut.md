@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clearcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clearcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clearcut/container.yaml"
-updated_at: "2023-02-05 03:15:56.766797"
+updated_at: "2023-02-06 03:08:51.069118"
 latest: "1.0.9--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/clearcut"
 aliases:

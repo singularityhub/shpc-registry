@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaclassifier/container.yaml"
-updated_at: "2023-02-05 03:22:31.283570"
+updated_at: "2023-02-06 03:16:13.141946"
 latest: "v1.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/metaclassifier"
 aliases:

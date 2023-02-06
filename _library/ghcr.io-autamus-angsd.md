@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/angsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/angsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/angsd/container.yaml"
-updated_at: "2023-02-05 03:52:53.878671"
+updated_at: "2023-02-06 03:52:20.251984"
 latest: "0.935"
 container_url: "https://github.com/orgs/autamus/packages/container/package/angsd"
 aliases:

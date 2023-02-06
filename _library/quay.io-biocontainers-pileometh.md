@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pileometh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pileometh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pileometh/container.yaml"
-updated_at: "2023-02-05 03:44:44.117151"
+updated_at: "2023-02-06 03:42:44.886607"
 latest: "0.1.13--1"
 container_url: "https://biocontainers.pro/tools/pileometh"
 aliases:

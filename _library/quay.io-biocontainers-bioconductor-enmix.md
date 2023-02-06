@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enmix/container.yaml"
-updated_at: "2023-02-05 03:50:34.928850"
+updated_at: "2023-02-06 03:49:41.717280"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enmix"
 

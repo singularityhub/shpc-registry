@@ -4,7 +4,7 @@ name:  "vault"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/vault/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/vault/container.yaml"
-updated_at: "2023-02-05 02:51:09.090298"
+updated_at: "2023-02-06 02:41:01.184796"
 latest: "1.12.2"
 container_url: "https://hub.docker.com/_/vault"
 aliases:
