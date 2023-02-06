@@ -1,8 +1,6 @@
 # Singularity HPC Registry
 
-This is testing having a remote registry for [Singularity HPC](https://github.com/singularityhub/singularity-hpc) to use.
-
-**under development**
+This is the main remote registry for [Singularity HPC](https://github.com/singularityhub/singularity-hpc).
 
 📖️ Read the [documentation](https://singularity-hpc.readthedocs.io/en/latest/) 📖️
 ⭐️ Browse the [container module collection](https://singularityhub.github.io/shpc-registry/) ⭐️
@@ -25,6 +23,32 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 5. Fill in the name of the container you want to build a `container.yaml` for, as well as a URL and a description (both are mandatory fields). Leave the branch as `main`.
 6. Hit the green "Run workflow" button, wait and marvel at the magic :sparkles: happening. The GitHub Action will automatically open a pull request with most of the `container.yaml` filled in for you. You can check the branch out, edit it further – in particular refine the list aliases.
 
+### Update Aliases
+
+If you find a container missing aliases (or having extras) and you don't want to manually open files,
+we provide a helper script to do so. After cloning the repository, you could check out a new branch and add an alias 
+(note the `--registry` defaults to the present working directory where you are running the script, so this
+should be run in the root of the cloned repository):
+
+```bash
+$ python .github/scripts/alias.py add quay.io/biocontainers/samtools test /opt/bin/test
+```
+
+If you ask to add an alias that already exists, this might mean changing the path, and you need to
+use force:
+
+```bash
+$ python .github/scripts/alias.py add quay.io/biocontainers/samtools test /opt/bin/test --force
+```
+
+And then to remove:
+
+```bash
+$ python .github/scripts/alias.py remove quay.io/biocontainers/samtools test /opt/bin/test
+```
+
+If an alias doesn't exist, you will get an error on remove.
+After these changes you would want to open a pull request to persist your changes to the registry.
 
 ### BioContainers
 
