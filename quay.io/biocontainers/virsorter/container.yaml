@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/virsorter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for virsorter
 latest:
-  2.2.3--pyhdfd78af_1: sha256:a2851ba18ac125181526e95b891621660a304c5736f7beff5016117333759874
+  2.2.4--pyhdfd78af_0: sha256:6c575e0fe01bee3f99daf2281c864923bd5fdecb9e659dcdde4a245678eacbf5
 tags:
   2.2.3--pyhdfd78af_1: sha256:a2851ba18ac125181526e95b891621660a304c5736f7beff5016117333759874
+  2.2.4--pyhdfd78af_0: sha256:6c575e0fe01bee3f99daf2281c864923bd5fdecb9e659dcdde4a245678eacbf5
 docker: quay.io/biocontainers/virsorter
 aliases:
   bsdcat: /usr/local/bin/bsdcat
