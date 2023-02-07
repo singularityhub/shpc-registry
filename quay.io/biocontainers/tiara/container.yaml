@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/tiara
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tiara
+latest:
+  1.0.3: sha256:49c5364104094e2efb4d0cd76cb2abb5d4e21927cf9f0c52cfb7465b076d04c6
+tags:
+  1.0.3: sha256:49c5364104094e2efb4d0cd76cb2abb5d4e21927cf9f0c52cfb7465b076d04c6
+docker: quay.io/biocontainers/tiara
+aliases:
+  tiara: /usr/local/bin/tiara
+  tiara-test: /usr/local/bin/tiara-test
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
+  tabulate: /usr/local/bin/tabulate
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  tqdm: /usr/local/bin/tqdm
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.8: /usr/local/bin/f2py3.8
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
