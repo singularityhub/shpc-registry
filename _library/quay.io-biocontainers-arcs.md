@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/arcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arcs/container.yaml"
-updated_at: "2023-02-06 03:41:02.177527"
-latest: "1.2.4--h7ff8a90_1"
+updated_at: "2023-02-07 03:26:40.226097"
+latest: "1.2.5--h7ff8a90_0"
 container_url: "https://biocontainers.pro/tools/arcs"
 aliases:
  - "arcs"
@@ -13,8 +13,9 @@ aliases:
  - "long-to-linked-pe"
 versions:
  - "1.2.4--h7ff8a90_1"
+ - "1.2.5--h7ff8a90_0"
 description: "shpc-registry automated BioContainers addition for arcs"
-config: {"url": "https://biocontainers.pro/tools/arcs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arcs", "latest": {"1.2.4--h7ff8a90_1": "sha256:7f7df36477d38e2d91073cf65ddc75f166a5b524c345cd21e227250b96be1f08"}, "tags": {"1.2.4--h7ff8a90_1": "sha256:7f7df36477d38e2d91073cf65ddc75f166a5b524c345cd21e227250b96be1f08"}, "docker": "quay.io/biocontainers/arcs", "aliases": {"arcs": "/usr/local/bin/arcs", "arcs-make": "/usr/local/bin/arcs-make", "long-to-linked-pe": "/usr/local/bin/long-to-linked-pe"}}
+config: {"url": "https://biocontainers.pro/tools/arcs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arcs", "latest": {"1.2.5--h7ff8a90_0": "sha256:73cc6d0961c2767a5c4e76ee835fcfa729f35f2d0bbb57bec8c13e4e714ad562"}, "tags": {"1.2.4--h7ff8a90_1": "sha256:7f7df36477d38e2d91073cf65ddc75f166a5b524c345cd21e227250b96be1f08", "1.2.5--h7ff8a90_0": "sha256:73cc6d0961c2767a5c4e76ee835fcfa729f35f2d0bbb57bec8c13e4e714ad562"}, "docker": "quay.io/biocontainers/arcs", "aliases": {"arcs": "/usr/local/bin/arcs", "arcs-make": "/usr/local/bin/arcs-make", "long-to-linked-pe": "/usr/local/bin/long-to-linked-pe"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arcs.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/arcs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/arcs:1.2.4--h7ff8a90_1
+$ shpc install quay.io/biocontainers/arcs:1.2.5--h7ff8a90_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/arcs/1.2.4--h7ff8a90_1
-$ module help quay.io/biocontainers/arcs/1.2.4--h7ff8a90_1
+$ module load quay.io/biocontainers/arcs/1.2.5--h7ff8a90_0
+$ module help quay.io/biocontainers/arcs/1.2.5--h7ff8a90_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

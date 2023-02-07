@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-circlize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-circlize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-circlize/container.yaml"
-updated_at: "2023-02-06 03:34:22.155782"
+updated_at: "2023-02-07 03:22:07.238390"
 latest: "0.3.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-circlize"
 aliases:

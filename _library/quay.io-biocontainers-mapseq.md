@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mapseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapseq/container.yaml"
-updated_at: "2023-02-06 02:52:08.326437"
-latest: "1.2.6--ha34dc8c_3"
+updated_at: "2023-02-07 02:53:54.477970"
+latest: "2.1.1--ha34dc8c_0"
 container_url: "https://biocontainers.pro/tools/mapseq"
 aliases:
  - "esh"
@@ -13,8 +13,9 @@ aliases:
  - "mapseq"
 versions:
  - "1.2.6--ha34dc8c_3"
+ - "2.1.1--ha34dc8c_0"
 description: "shpc-registry automated BioContainers addition for mapseq"
-config: {"url": "https://biocontainers.pro/tools/mapseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapseq", "latest": {"1.2.6--ha34dc8c_3": "sha256:57426f4ee51d1bf56dc9ac01f2e1d34b6cb5b34992a7feb5a302b24f7d5f5fe2"}, "tags": {"1.2.6--ha34dc8c_3": "sha256:57426f4ee51d1bf56dc9ac01f2e1d34b6cb5b34992a7feb5a302b24f7d5f5fe2"}, "docker": "quay.io/biocontainers/mapseq", "aliases": {"esh": "/usr/local/bin/esh", "eutils-config": "/usr/local/bin/eutils-config", "mapseq": "/usr/local/bin/mapseq"}}
+config: {"url": "https://biocontainers.pro/tools/mapseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapseq", "latest": {"2.1.1--ha34dc8c_0": "sha256:326574bdad0e3e393976f93dd8d53077bf3d89d34c3d693dc0b996fa2de2bf00"}, "tags": {"1.2.6--ha34dc8c_3": "sha256:57426f4ee51d1bf56dc9ac01f2e1d34b6cb5b34992a7feb5a302b24f7d5f5fe2", "2.1.1--ha34dc8c_0": "sha256:326574bdad0e3e393976f93dd8d53077bf3d89d34c3d693dc0b996fa2de2bf00"}, "docker": "quay.io/biocontainers/mapseq", "aliases": {"esh": "/usr/local/bin/esh", "eutils-config": "/usr/local/bin/eutils-config", "mapseq": "/usr/local/bin/mapseq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapseq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/mapseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mapseq:1.2.6--ha34dc8c_3
+$ shpc install quay.io/biocontainers/mapseq:2.1.1--ha34dc8c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mapseq/1.2.6--ha34dc8c_3
-$ module help quay.io/biocontainers/mapseq/1.2.6--ha34dc8c_3
+$ module load quay.io/biocontainers/mapseq/2.1.1--ha34dc8c_0
+$ module help quay.io/biocontainers/mapseq/2.1.1--ha34dc8c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

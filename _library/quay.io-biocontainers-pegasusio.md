@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pegasusio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegasusio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegasusio/container.yaml"
-updated_at: "2023-02-06 03:22:58.680454"
+updated_at: "2023-02-07 03:14:58.937266"
 latest: "0.5.0--py39h38f01e4_0"
 container_url: "https://biocontainers.pro/tools/pegasusio"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prodata/container.yaml"
-updated_at: "2023-02-06 03:50:34.875337"
+updated_at: "2023-02-07 03:32:59.268402"
 latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prodata"
 

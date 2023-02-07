@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dnet/container.yaml"
-updated_at: "2023-02-06 03:45:31.603281"
+updated_at: "2023-02-07 03:29:30.927162"
 latest: "1.1.7--r42h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-dnet"
 aliases:

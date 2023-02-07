@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psascan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psascan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psascan/container.yaml"
-updated_at: "2023-02-06 03:11:20.888955"
+updated_at: "2023-02-07 03:07:05.722628"
 latest: "0.1.0--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/psascan"
 aliases:

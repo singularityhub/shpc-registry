@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylumi/container.yaml"
-updated_at: "2023-02-06 03:14:06.107107"
+updated_at: "2023-02-07 03:09:03.637777"
 latest: "2.44.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylumi"
 

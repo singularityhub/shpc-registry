@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msgf_plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msgf_plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msgf_plus/container.yaml"
-updated_at: "2023-02-06 03:06:04.618478"
-latest: "2022.04.18--hdfd78af_0"
+updated_at: "2023-02-07 03:03:39.640642"
+latest: "2023.01.1202--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msgf_plus"
 aliases:
  - "msgf_plus"
@@ -21,8 +21,9 @@ aliases:
  - "appletviewer"
 versions:
  - "2022.04.18--hdfd78af_0"
+ - "2023.01.1202--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for msgf_plus"
-config: {"url": "https://biocontainers.pro/tools/msgf_plus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msgf_plus", "latest": {"2022.04.18--hdfd78af_0": "sha256:52e1e4829b8b4d9de59e361058b2443f9fbe65260d9324c2566fe731840fd410"}, "tags": {"2022.04.18--hdfd78af_0": "sha256:52e1e4829b8b4d9de59e361058b2443f9fbe65260d9324c2566fe731840fd410"}, "docker": "quay.io/biocontainers/msgf_plus", "aliases": {"msgf_plus": "/usr/local/bin/msgf_plus", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
+config: {"url": "https://biocontainers.pro/tools/msgf_plus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msgf_plus", "latest": {"2023.01.1202--hdfd78af_0": "sha256:a95c897479bb858a2e313a411c7d1d760c0d3f16cf858b034f2120427689a7d1"}, "tags": {"2022.04.18--hdfd78af_0": "sha256:52e1e4829b8b4d9de59e361058b2443f9fbe65260d9324c2566fe731840fd410", "2023.01.1202--hdfd78af_0": "sha256:a95c897479bb858a2e313a411c7d1d760c0d3f16cf858b034f2120427689a7d1"}, "docker": "quay.io/biocontainers/msgf_plus", "aliases": {"msgf_plus": "/usr/local/bin/msgf_plus", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msgf_plus.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/msgf_plus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msgf_plus:2022.04.18--hdfd78af_0
+$ shpc install quay.io/biocontainers/msgf_plus:2023.01.1202--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msgf_plus/2022.04.18--hdfd78af_0
-$ module help quay.io/biocontainers/msgf_plus/2022.04.18--hdfd78af_0
+$ module load quay.io/biocontainers/msgf_plus/2023.01.1202--hdfd78af_0
+$ module help quay.io/biocontainers/msgf_plus/2023.01.1202--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
