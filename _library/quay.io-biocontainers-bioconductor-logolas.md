@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-logolas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-logolas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-logolas/container.yaml"
-updated_at: "2023-02-07 02:54:33.849782"
+updated_at: "2023-02-08 02:58:17.178446"
 latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-logolas"
 aliases:

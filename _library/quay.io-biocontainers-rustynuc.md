@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rustynuc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustynuc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustynuc/container.yaml"
-updated_at: "2023-02-07 03:25:59.214715"
+updated_at: "2023-02-08 03:21:37.038705"
 latest: "0.3.1--h7132678_0"
 container_url: "https://biocontainers.pro/tools/rustynuc"
 aliases:
