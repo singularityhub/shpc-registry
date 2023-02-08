@@ -88,19 +88,18 @@ def add_envar(module, name, value, force=False):
     """
     Add an environment variable
     """
-    if not value:
-        sys.exit("A value is required to add an environment variable.")
-
     if "env" not in module._config:
         module._config["env"] = {}
 
     # Parse string boolean
-    if value.lower() == "false":
+    if value == None:
+        value = ""
+    elif value.lower() == "false":
         value = False
     elif value.lower() == "true":
         value = True
     elif value.lower() in ["none", "null"]:
-        value = None
+        value = ""
 
     if name in module._config["env"] and not force:
         value = module._config["env"][name]
