@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/amplicon_coverage_plot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for amplicon_coverage_plot
 latest:
-  0.3.2--pyhdfd78af_0: sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c
+  0.3.3--pyhdfd78af_0: sha256:79030441e6ca3b023758ca099a81855ba7c8d94202c6edad0cc3b8c355d7c9da
 tags:
   0.3.2--pyhdfd78af_0: sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c
+  0.3.3--pyhdfd78af_0: sha256:79030441e6ca3b023758ca099a81855ba7c8d94202c6edad0cc3b8c355d7c9da
 docker: quay.io/biocontainers/amplicon_coverage_plot
 aliases:
   amplicov: /usr/local/bin/amplicov

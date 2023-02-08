@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/sambamba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sambamba
 latest:
-  0.8.2--h98b6b92_2: sha256:7eef9b8c037f526a3ecb71cc05604c77eda72d90a50ca29c0af42a6e94580073
+  1.0--h98b6b92_0: sha256:bfceddf000b9ca1a2d5250098f6d8fdeb7ca4481626da140e42f379ca71d75f9
 tags:
   0.6.9--h89e63da_0: sha256:b7852eccc079fff9e1ff6c4fb6e59883624373e2489588174da9f99db83b431b
   0.7.1--h984e79f_3: sha256:9ec72d3d0991c4209830e4ff17937986808c64c430780071559e7072e8317ab3
   0.8.2--h98b6b92_2: sha256:7eef9b8c037f526a3ecb71cc05604c77eda72d90a50ca29c0af42a6e94580073
+  1.0--h98b6b92_0: sha256:bfceddf000b9ca1a2d5250098f6d8fdeb7ca4481626da140e42f379ca71d75f9
 docker: quay.io/biocontainers/sambamba
 aliases:
   ldc-build-runtime: /usr/local/bin/ldc-build-runtime
