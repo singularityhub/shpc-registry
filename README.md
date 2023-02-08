@@ -25,6 +25,12 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 
 ### Updates
 
+Note that all of these scripts registry singularity-hpc (shpc) to be installed:
+
+```bash
+$ pip install singularity-hpc
+```
+
 #### Aliases
 
 If you find a container missing aliases (or having extras) and you don't want to manually open files,
@@ -76,6 +82,15 @@ $ python .github/scripts/alias.py remove quay.io/biocontainers/samtools test /op
 ```
 
 The same rule applies for using `--force`.
+
+#### Environment
+
+And finally, we have the same for environment. Here are examples:
+
+```bash
+$ python .github/scripts/env.py add quay.io/biocontainers/samtools maintainer vsoch
+$ python .github/scripts/env.py remove quay.io/biocontainers/samtools maintainer
+```
 
 ### BioContainers
 
