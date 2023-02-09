@@ -6,3 +6,5 @@ latest:
 tags:
   2.7.10a--h9ee0642_0: sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4
 docker: quay.io/biocontainers/star
+aliases:
+  STAR: /usr/local/bin/STAR
