@@ -26,3 +26,7 @@ aliases:
   appletviewer: /usr/local/bin/appletviewer
   idlj: /usr/local/bin/idlj
   orbd: /usr/local/bin/orbd
+env:
+  DISPLAY: ''
+features:
+  home: true

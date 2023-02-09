@@ -10,3 +10,22 @@ tags:
   2.12.0--hf3cf87c_4: sha256:9df91dee10f97405384734f964021feae38fcf68a721315f706be99be9366d86
   2.13.0--hf3cf87c_0: sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8
 docker: quay.io/biocontainers/blast
+aliases:
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  cleanup-blastdb-volumes.py: /usr/local/bin/cleanup-blastdb-volumes.py
+  convert2blastmask: /usr/local/bin/convert2blastmask
+  deltablast: /usr/local/bin/deltablast
+  eblast: /usr/local/bin/eblast
+  makeblastdb: /usr/local/bin/makeblastdb
+  psiblast: /usr/local/bin/psiblast
+  rpsblast: /usr/local/bin/rpsblast
+  rpstblastn: /usr/local/bin/rpstblastn
+  tblastn: /usr/local/bin/tblastn
+  tblastx: /usr/local/bin/tblastx
+  update_blastdb.pl: /usr/local/bin/update_blastdb.pl
