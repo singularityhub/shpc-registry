@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/instrain
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for instrain
 latest:
-  1.6.3--pyhdfd78af_0: sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a
+  1.6.4--pyhdfd78af_0: sha256:539ddd8ed942f7bcc97e20d471e615d0f9a74dcf23710f9bc7c3704136b09849
 tags:
   1.6.3--pyhdfd78af_0: sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a
+  1.6.4--pyhdfd78af_0: sha256:539ddd8ed942f7bcc97e20d471e615d0f9a74dcf23710f9bc7c3704136b09849
 docker: quay.io/biocontainers/instrain
 aliases:
   ScaffoldLevel_dRep.py: /usr/local/bin/ScaffoldLevel_dRep.py
