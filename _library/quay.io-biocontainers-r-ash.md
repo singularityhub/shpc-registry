@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ash/container.yaml"
-updated_at: "2023-02-08 03:01:10.608217"
+updated_at: "2023-02-08 23:21:02.210727"
 latest: "1.0_15--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-ash"
 aliases:

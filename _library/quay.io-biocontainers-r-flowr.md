@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-flowr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-flowr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-flowr/container.yaml"
-updated_at: "2023-02-08 03:19:25.869014"
+updated_at: "2023-02-08 23:42:32.797168"
 latest: "0.9.10--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-flowr"
 aliases:

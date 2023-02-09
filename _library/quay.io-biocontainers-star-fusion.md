@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/star-fusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/star-fusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/star-fusion/container.yaml"
-updated_at: "2023-02-08 03:20:39.557314"
+updated_at: "2023-02-08 23:43:59.837339"
 latest: "1.12.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/star-fusion"
 aliases:

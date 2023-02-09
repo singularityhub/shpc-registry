@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lmgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lmgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lmgene/container.yaml"
-updated_at: "2023-02-08 03:13:19.375178"
+updated_at: "2023-02-08 23:35:20.687789"
 latest: "2.43.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lmgene"
 aliases:
