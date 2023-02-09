@@ -4,17 +4,18 @@ name:  "quay.io/biocontainers/multiqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc/container.yaml"
-updated_at: "2023-02-09 03:16:05.674549"
+updated_at: "2023-02-09 18:06:03.371747"
 latest: "1.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multiqc"
-
+aliases:
+ - "multiqc"
 versions:
  - "1.9--py_1"
  - "1.10.1--pyhdfd78af_1"
  - "1.11--pyhdfd78af_0"
  - "1.12--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for multiqc"
-config: {"url": "https://biocontainers.pro/tools/multiqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc", "latest": {"1.12--pyhdfd78af_0": "sha256:82dae6463e1b19fafb6022401186300b66decf5ce319a725271700fe4e32e12a"}, "tags": {"1.9--py_1": "sha256:67cc651cb350b1ee2fc0929bd6bcd5189ec8c17f09566a3cd54cde7479e48a09", "1.10.1--pyhdfd78af_1": "sha256:c64ea8fcaf49dfc4b0594bc7349e6d1a662eb4484f5aac3252f4eea86cad164c", "1.11--pyhdfd78af_0": "sha256:88df23fac5b9eecda9943d922f81b68e30188eb4dd7cbfe9554e952ff5a3b0ee", "1.12--pyhdfd78af_0": "sha256:82dae6463e1b19fafb6022401186300b66decf5ce319a725271700fe4e32e12a"}, "docker": "quay.io/biocontainers/multiqc"}
+config: {"url": "https://biocontainers.pro/tools/multiqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc", "latest": {"1.12--pyhdfd78af_0": "sha256:82dae6463e1b19fafb6022401186300b66decf5ce319a725271700fe4e32e12a"}, "tags": {"1.9--py_1": "sha256:67cc651cb350b1ee2fc0929bd6bcd5189ec8c17f09566a3cd54cde7479e48a09", "1.10.1--pyhdfd78af_1": "sha256:c64ea8fcaf49dfc4b0594bc7349e6d1a662eb4484f5aac3252f4eea86cad164c", "1.11--pyhdfd78af_0": "sha256:88df23fac5b9eecda9943d922f81b68e30188eb4dd7cbfe9554e952ff5a3b0ee", "1.12--pyhdfd78af_0": "sha256:82dae6463e1b19fafb6022401186300b66decf5ce319a725271700fe4e32e12a"}, "docker": "quay.io/biocontainers/multiqc", "aliases": {"multiqc": "/usr/local/bin/multiqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multiqc.
@@ -100,14 +101,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### multiqc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/multiqc
+$ podman run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

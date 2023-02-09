@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastp/container.yaml"
-updated_at: "2023-02-09 02:59:57.035661"
+updated_at: "2023-02-09 17:50:14.891570"
 latest: "0.23.2--h5f740d0_3"
 container_url: "https://biocontainers.pro/tools/fastp"
-
+aliases:
+ - "fastp"
 versions:
  - "0.22.0--h2e03b76_0"
  - "0.23.2--h5f740d0_3"
 description: "shpc-registry automated BioContainers addition for fastp"
-config: {"url": "https://biocontainers.pro/tools/fastp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastp", "latest": {"0.23.2--h5f740d0_3": "sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b"}, "tags": {"0.22.0--h2e03b76_0": "sha256:e94097ae4ca17394b35d59a20d9a9f6d8972992bd47d1783f00c26e86ca82c2b", "0.23.2--h5f740d0_3": "sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b"}, "docker": "quay.io/biocontainers/fastp"}
+config: {"url": "https://biocontainers.pro/tools/fastp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastp", "latest": {"0.23.2--h5f740d0_3": "sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b"}, "tags": {"0.22.0--h2e03b76_0": "sha256:e94097ae4ca17394b35d59a20d9a9f6d8972992bd47d1783f00c26e86ca82c2b", "0.23.2--h5f740d0_3": "sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b"}, "docker": "quay.io/biocontainers/fastp", "aliases": {"fastp": "/usr/local/bin/fastp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastp.
@@ -98,14 +99,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### fastp
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/fastp
+$ podman run --it --rm --entrypoint /usr/local/bin/fastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

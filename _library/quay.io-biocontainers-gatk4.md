@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gatk4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatk4/container.yaml"
-updated_at: "2023-02-09 03:26:50.073525"
+updated_at: "2023-02-09 18:16:36.680749"
 latest: "4.2.5.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gatk4"
-
+aliases:
+ - "gatk"
 versions:
  - "4.1.9.0--py39_0"
  - "4.2.5.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gatk4"
-config: {"url": "https://biocontainers.pro/tools/gatk4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4", "latest": {"4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21"}, "tags": {"4.1.9.0--py39_0": "sha256:7b0b112b595861b140cbebdec5a0534bea9c40ef8bea4b3927fcea7ec53f5f57", "4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21"}, "docker": "quay.io/biocontainers/gatk4"}
+config: {"url": "https://biocontainers.pro/tools/gatk4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4", "latest": {"4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21"}, "tags": {"4.1.9.0--py39_0": "sha256:7b0b112b595861b140cbebdec5a0534bea9c40ef8bea4b3927fcea7ec53f5f57", "4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21"}, "docker": "quay.io/biocontainers/gatk4", "aliases": {"gatk": "/usr/local/bin/gatk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatk4.
@@ -98,14 +99,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### gatk4
+#### gatk
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gatk
+$ podman run --it --rm --entrypoint /usr/local/bin/gatk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gatk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-estrogen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-estrogen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-estrogen/container.yaml"
-updated_at: "2023-02-09 03:09:13.751542"
+updated_at: "2023-02-09 17:59:20.060235"
 latest: "1.43.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-estrogen"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnits/container.yaml"
-updated_at: "2023-02-09 03:21:07.523671"
+updated_at: "2023-02-09 18:11:01.022980"
 latest: "1.28.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnits"
 

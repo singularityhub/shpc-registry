@@ -4,10 +4,28 @@ name:  "quay.io/biocontainers/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
-updated_at: "2023-02-09 02:55:33.693119"
+updated_at: "2023-02-09 17:45:57.698488"
 latest: "2.13.0--hf3cf87c_0"
 container_url: "https://biocontainers.pro/tools/blast"
-
+aliases:
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
+ - "blastdbcmd"
+ - "blastn"
+ - "blastp"
+ - "blastx"
+ - "cleanup-blastdb-volumes.py"
+ - "convert2blastmask"
+ - "deltablast"
+ - "eblast"
+ - "makeblastdb"
+ - "psiblast"
+ - "rpsblast"
+ - "rpstblastn"
+ - "tblastn"
+ - "tblastx"
+ - "update_blastdb.pl"
 versions:
  - "2.10.1--pl526he19e7b1_3"
  - "2.11.0--pl5262h3289130_1"
@@ -15,7 +33,7 @@ versions:
  - "2.12.0--hf3cf87c_4"
  - "2.13.0--hf3cf87c_0"
 description: "shpc-registry automated BioContainers addition for blast"
-config: {"url": "https://biocontainers.pro/tools/blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast", "latest": {"2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8"}, "tags": {"2.10.1--pl526he19e7b1_3": "sha256:f12a5a35a0e6645134fcfe8650b0d1b5ff1f486430828a4ec3c4c9bfe35a5d78", "2.11.0--pl5262h3289130_1": "sha256:52e8e0ed12a0fe8854681dadb600e1d5599e04b960b01034cb53812fad944c3d", "2.12.0--pl5262h3289130_0": "sha256:a7eb056f5ca6a32551bf9f87b6b15acc45598cfef39bffdd672f59da3847cd18", "2.12.0--hf3cf87c_4": "sha256:9df91dee10f97405384734f964021feae38fcf68a721315f706be99be9366d86", "2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8"}, "docker": "quay.io/biocontainers/blast"}
+config: {"url": "https://biocontainers.pro/tools/blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast", "latest": {"2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8"}, "tags": {"2.10.1--pl526he19e7b1_3": "sha256:f12a5a35a0e6645134fcfe8650b0d1b5ff1f486430828a4ec3c4c9bfe35a5d78", "2.11.0--pl5262h3289130_1": "sha256:52e8e0ed12a0fe8854681dadb600e1d5599e04b960b01034cb53812fad944c3d", "2.12.0--pl5262h3289130_0": "sha256:a7eb056f5ca6a32551bf9f87b6b15acc45598cfef39bffdd672f59da3847cd18", "2.12.0--hf3cf87c_4": "sha256:9df91dee10f97405384734f964021feae38fcf68a721315f706be99be9366d86", "2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8"}, "docker": "quay.io/biocontainers/blast", "aliases": {"blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "cleanup-blastdb-volumes.py": "/usr/local/bin/cleanup-blastdb-volumes.py", "convert2blastmask": "/usr/local/bin/convert2blastmask", "deltablast": "/usr/local/bin/deltablast", "eblast": "/usr/local/bin/eblast", "makeblastdb": "/usr/local/bin/makeblastdb", "psiblast": "/usr/local/bin/psiblast", "rpsblast": "/usr/local/bin/rpsblast", "rpstblastn": "/usr/local/bin/rpstblastn", "tblastn": "/usr/local/bin/tblastn", "tblastx": "/usr/local/bin/tblastx", "update_blastdb.pl": "/usr/local/bin/update_blastdb.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blast.
@@ -101,14 +119,167 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### blast
+#### blast_formatter
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastn
+$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastx
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastx
+$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cleanup-blastdb-volumes.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/cleanup-blastdb-volumes.py
+$ podman run --it --rm --entrypoint /usr/local/bin/cleanup-blastdb-volumes.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cleanup-blastdb-volumes.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert2blastmask
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert2blastmask
+$ podman run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### deltablast
+
+```bash
+$ singularity exec <container> /usr/local/bin/deltablast
+$ podman run --it --rm --entrypoint /usr/local/bin/deltablast   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/deltablast   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### eblast
+
+```bash
+$ singularity exec <container> /usr/local/bin/eblast
+$ podman run --it --rm --entrypoint /usr/local/bin/eblast   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eblast   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### makeblastdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/makeblastdb
+$ podman run --it --rm --entrypoint /usr/local/bin/makeblastdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/makeblastdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### psiblast
+
+```bash
+$ singularity exec <container> /usr/local/bin/psiblast
+$ podman run --it --rm --entrypoint /usr/local/bin/psiblast   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/psiblast   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rpsblast
+
+```bash
+$ singularity exec <container> /usr/local/bin/rpsblast
+$ podman run --it --rm --entrypoint /usr/local/bin/rpsblast   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rpsblast   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rpstblastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/rpstblastn
+$ podman run --it --rm --entrypoint /usr/local/bin/rpstblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rpstblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tblastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/tblastn
+$ podman run --it --rm --entrypoint /usr/local/bin/tblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tblastx
+
+```bash
+$ singularity exec <container> /usr/local/bin/tblastx
+$ podman run --it --rm --entrypoint /usr/local/bin/tblastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tblastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### update_blastdb.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/update_blastdb.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/update_blastdb.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/update_blastdb.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

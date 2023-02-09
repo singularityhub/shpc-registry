@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beast2/container.yaml"
-updated_at: "2023-02-09 03:12:02.549253"
+updated_at: "2023-02-09 18:02:04.964424"
 latest: "2.6.3--hadc2ddb_1"
 container_url: "https://biocontainers.pro/tools/beast2"
 aliases:
@@ -30,7 +30,7 @@ versions:
  - "2.6.3--hf1b8bbb_0"
  - "2.6.3--hadc2ddb_1"
 description: "shpc-registry automated BioContainers addition for beast2"
-config: {"url": "https://biocontainers.pro/tools/beast2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast2", "latest": {"2.6.3--hadc2ddb_1": "sha256:25798ed4d280574b7f6aa6cb6d32d2abe23d7a70f1dbb589140270358aef887d"}, "tags": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d", "2.6.3--hadc2ddb_1": "sha256:25798ed4d280574b7f6aa6cb6d32d2abe23d7a70f1dbb589140270358aef887d"}, "docker": "quay.io/biocontainers/beast2", "aliases": {"applauncher": "/usr/local/bin/applauncher", "beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "densitree": "/usr/local/bin/densitree", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "packagemanager": "/usr/local/bin/packagemanager", "treeannotator": "/usr/local/bin/treeannotator", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/beast2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast2", "latest": {"2.6.3--hadc2ddb_1": "sha256:25798ed4d280574b7f6aa6cb6d32d2abe23d7a70f1dbb589140270358aef887d"}, "tags": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d", "2.6.3--hadc2ddb_1": "sha256:25798ed4d280574b7f6aa6cb6d32d2abe23d7a70f1dbb589140270358aef887d"}, "docker": "quay.io/biocontainers/beast2", "aliases": {"applauncher": "/usr/local/bin/applauncher", "beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "densitree": "/usr/local/bin/densitree", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "packagemanager": "/usr/local/bin/packagemanager", "treeannotator": "/usr/local/bin/treeannotator", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}, "env": {"DISPLAY": "", "JAVA_HOME": "", "JAVA_ROOT": "", "JAVA_BINDIR": ""}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beast2.

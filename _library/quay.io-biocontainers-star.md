@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/star"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/star/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/star/container.yaml"
-updated_at: "2023-02-09 02:59:00.875233"
+updated_at: "2023-02-09 17:49:20.122098"
 latest: "2.7.10a--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/star"
-
+aliases:
+ - "STAR"
 versions:
  - "2.7.10a--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for star"
-config: {"url": "https://biocontainers.pro/tools/star", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for star", "latest": {"2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "tags": {"2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "docker": "quay.io/biocontainers/star"}
+config: {"url": "https://biocontainers.pro/tools/star", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for star", "latest": {"2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "tags": {"2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "docker": "quay.io/biocontainers/star", "aliases": {"STAR": "/usr/local/bin/STAR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/star.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### star
+#### STAR
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/STAR
+$ podman run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

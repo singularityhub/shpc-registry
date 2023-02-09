@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miranda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miranda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miranda/container.yaml"
-updated_at: "2023-02-09 03:07:43.957365"
+updated_at: "2023-02-09 17:57:52.438152"
 latest: "3.3a--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/miranda"
 aliases:

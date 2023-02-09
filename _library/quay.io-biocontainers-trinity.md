@@ -4,10 +4,11 @@ name:  "quay.io/biocontainers/trinity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trinity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trinity/container.yaml"
-updated_at: "2023-02-09 03:10:56.089517"
+updated_at: "2023-02-09 18:00:59.831543"
 latest: "date.2011_11_26--ncurses5.9_8"
 container_url: "https://biocontainers.pro/tools/trinity"
 aliases:
+ - "trinity"
  - "Trinity"
  - "Trinity-test"
  - "perl5.22.0"
@@ -26,7 +27,7 @@ versions:
  - "2.13.2--hea94271_3"
  - "date.2011_11_26--ncurses5.9_8"
 description: "shpc-registry automated BioContainers addition for trinity"
-config: {"url": "https://biocontainers.pro/tools/trinity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trinity", "latest": {"date.2011_11_26--ncurses5.9_8": "sha256:eabe346a2adac1bb30aaaa62764f299638daa2a83ef6408722b0f89f8c490e20"}, "tags": {"2.11.0--h5ef6573_1": "sha256:6d35d716aa12ba7b0c715fa8a30359b43ba9151e854dc4407b949e7b57c3a50a", "2.12.0--ha140323_3": "sha256:d44cb9353096e558adf34f4b6219c252d6b3523db9555c7dbecd0ed980e68d58", "2.13.2--hea94271_3": "sha256:9107340bc575f8ec80dee7814f325217c3fa51d15f2fc30e9907606fa289f88a", "date.2011_11_26--ncurses5.9_8": "sha256:eabe346a2adac1bb30aaaa62764f299638daa2a83ef6408722b0f89f8c490e20"}, "docker": "quay.io/biocontainers/trinity", "aliases": {"Trinity": "/usr/local/bin/Trinity", "Trinity-test": "/usr/local/bin/Trinity-test", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
+config: {"url": "https://biocontainers.pro/tools/trinity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trinity", "latest": {"date.2011_11_26--ncurses5.9_8": "sha256:eabe346a2adac1bb30aaaa62764f299638daa2a83ef6408722b0f89f8c490e20"}, "tags": {"2.11.0--h5ef6573_1": "sha256:6d35d716aa12ba7b0c715fa8a30359b43ba9151e854dc4407b949e7b57c3a50a", "2.12.0--ha140323_3": "sha256:d44cb9353096e558adf34f4b6219c252d6b3523db9555c7dbecd0ed980e68d58", "2.13.2--hea94271_3": "sha256:9107340bc575f8ec80dee7814f325217c3fa51d15f2fc30e9907606fa289f88a", "date.2011_11_26--ncurses5.9_8": "sha256:eabe346a2adac1bb30aaaa62764f299638daa2a83ef6408722b0f89f8c490e20"}, "docker": "quay.io/biocontainers/trinity", "aliases": {"trinity": "/usr/local/bin/Trinity", "Trinity": "/usr/local/bin/Trinity", "Trinity-test": "/usr/local/bin/Trinity-test", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trinity.
@@ -109,6 +110,15 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### trinity
+
+```bash
+$ singularity exec <container> /usr/local/bin/Trinity
+$ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

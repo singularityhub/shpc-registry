@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sparsenetgls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsenetgls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsenetgls/container.yaml"
-updated_at: "2023-02-09 02:55:57.117902"
+updated_at: "2023-02-09 17:46:20.642375"
 latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsenetgls"
 aliases:
