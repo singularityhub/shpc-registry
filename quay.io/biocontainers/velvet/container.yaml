@@ -6,3 +6,6 @@ latest:
 tags:
   1.2.10--h7132678_5: sha256:eaf254b874804a5785453098daf4e9f0d0ae7d1f21086fb22d9224d691114ca7
 docker: quay.io/biocontainers/velvet
+aliases:
+  velvetg: /usr/local/bin/velvetg
+  velveth: /usr/local/bin/velveth

@@ -9,3 +9,5 @@ tags:
 docker: quay.io/biocontainers/fastqc
 aliases:
   fastqc: /usr/local/bin/fastqc
+features:
+  x11: true

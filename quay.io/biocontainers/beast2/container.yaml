@@ -26,3 +26,10 @@ aliases:
   appletviewer: /usr/local/bin/appletviewer
   idlj: /usr/local/bin/idlj
   orbd: /usr/local/bin/orbd
+env:
+  DISPLAY: ''
+  JAVA_HOME: ''
+  JAVA_ROOT: ''
+  JAVA_BINDIR: ''
+features:
+  home: true

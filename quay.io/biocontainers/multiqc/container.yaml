@@ -9,3 +9,5 @@ tags:
   1.11--pyhdfd78af_0: sha256:88df23fac5b9eecda9943d922f81b68e30188eb4dd7cbfe9554e952ff5a3b0ee
   1.12--pyhdfd78af_0: sha256:82dae6463e1b19fafb6022401186300b66decf5ce319a725271700fe4e32e12a
 docker: quay.io/biocontainers/multiqc
+aliases:
+  multiqc: /usr/local/bin/multiqc

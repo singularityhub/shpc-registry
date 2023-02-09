@@ -10,6 +10,7 @@ tags:
   date.2011_11_26--ncurses5.9_8: sha256:eabe346a2adac1bb30aaaa62764f299638daa2a83ef6408722b0f89f8c490e20
 docker: quay.io/biocontainers/trinity
 aliases:
+  trinity: /usr/local/bin/Trinity
   Trinity: /usr/local/bin/Trinity
   Trinity-test: /usr/local/bin/Trinity-test
   perl5.22.0: /usr/local/bin/perl5.22.0
