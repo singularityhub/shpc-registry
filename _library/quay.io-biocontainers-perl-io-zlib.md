@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-io-zlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-zlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-zlib/container.yaml"
-updated_at: "2023-02-08 23:31:22.955700"
-latest: "1.12--pl5321hdfd78af_0"
+updated_at: "2023-02-09 03:09:12.784503"
+latest: "1.14--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-io-zlib"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.11--pl5321hdfd78af_0"
  - "1.12--pl5321hdfd78af_0"
+ - "1.14--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-io-zlib"
-config: {"url": "https://biocontainers.pro/tools/perl-io-zlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-zlib", "latest": {"1.12--pl5321hdfd78af_0": "sha256:8492b6344b044d2f6a72353d5a1728f74b33f6b8268fdac4a9a161bfb9eb7260"}, "tags": {"1.11--pl5321hdfd78af_0": "sha256:cb3197271930e7058d691a60ec6716c75aa4a7b6f5ea194092120594c303dfcc", "1.12--pl5321hdfd78af_0": "sha256:8492b6344b044d2f6a72353d5a1728f74b33f6b8268fdac4a9a161bfb9eb7260"}, "docker": "quay.io/biocontainers/perl-io-zlib", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-io-zlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-zlib", "latest": {"1.14--pl5321hdfd78af_0": "sha256:efaabdd99929647cafc414012268a9c7486201cbe863bf5598241a1bbaddbbb2"}, "tags": {"1.11--pl5321hdfd78af_0": "sha256:cb3197271930e7058d691a60ec6716c75aa4a7b6f5ea194092120594c303dfcc", "1.12--pl5321hdfd78af_0": "sha256:8492b6344b044d2f6a72353d5a1728f74b33f6b8268fdac4a9a161bfb9eb7260", "1.14--pl5321hdfd78af_0": "sha256:efaabdd99929647cafc414012268a9c7486201cbe863bf5598241a1bbaddbbb2"}, "docker": "quay.io/biocontainers/perl-io-zlib", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-io-zlib.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-io-zlib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-io-zlib:1.12--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-io-zlib:1.14--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-io-zlib/1.12--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-io-zlib/1.12--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-io-zlib/1.14--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-io-zlib/1.14--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

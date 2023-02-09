@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pygenometracks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygenometracks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygenometracks/container.yaml"
-updated_at: "2023-02-08 23:28:37.195617"
-latest: "3.7--pyhdfd78af_0"
+updated_at: "2023-02-09 03:07:00.244041"
+latest: "3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pygenometracks"
 aliases:
  - "make_tracks_file"
@@ -23,8 +23,9 @@ aliases:
  - "pairix"
 versions:
  - "3.7--pyhdfd78af_0"
+ - "3.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pygenometracks"
-config: {"url": "https://biocontainers.pro/tools/pygenometracks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygenometracks", "latest": {"3.7--pyhdfd78af_0": "sha256:275cc3a08e50ecd803ae7fd5e572cf4fb640d06a51792a313260bd9a8e2a54ee"}, "tags": {"3.7--pyhdfd78af_0": "sha256:275cc3a08e50ecd803ae7fd5e572cf4fb640d06a51792a313260bd9a8e2a54ee"}, "docker": "quay.io/biocontainers/pygenometracks", "aliases": {"make_tracks_file": "/usr/local/bin/make_tracks_file", "pgt": "/usr/local/bin/pgt", "pyGenomeTracks": "/usr/local/bin/pyGenomeTracks", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
+config: {"url": "https://biocontainers.pro/tools/pygenometracks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygenometracks", "latest": {"3.8--pyhdfd78af_0": "sha256:3fa00e0a232714693f7bb6ba31a2063ce14b4f65b274bb49469af19f2b903409"}, "tags": {"3.7--pyhdfd78af_0": "sha256:275cc3a08e50ecd803ae7fd5e572cf4fb640d06a51792a313260bd9a8e2a54ee", "3.8--pyhdfd78af_0": "sha256:3fa00e0a232714693f7bb6ba31a2063ce14b4f65b274bb49469af19f2b903409"}, "docker": "quay.io/biocontainers/pygenometracks", "aliases": {"make_tracks_file": "/usr/local/bin/make_tracks_file", "pgt": "/usr/local/bin/pgt", "pyGenomeTracks": "/usr/local/bin/pyGenomeTracks", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygenometracks.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/pygenometracks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pygenometracks:3.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pygenometracks:3.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pygenometracks/3.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/pygenometracks/3.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/pygenometracks/3.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/pygenometracks/3.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

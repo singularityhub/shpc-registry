@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-acidplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidplyr/container.yaml"
-updated_at: "2023-02-08 23:37:44.150029"
-latest: "0.3.2--r42hdfd78af_1"
+updated_at: "2023-02-09 03:14:21.566210"
+latest: "0.3.4--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidplyr"
 
 versions:
  - "0.2.0--r41hdfd78af_0"
  - "0.2.0--r41hdfd78af_1"
  - "0.3.2--r42hdfd78af_1"
+ - "0.3.4--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-acidplyr"
-config: {"url": "https://biocontainers.pro/tools/r-acidplyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidplyr", "latest": {"0.3.2--r42hdfd78af_1": "sha256:34643d02cad183deda70e12255bc25b5ae54be1eceb4d2261e43fd9c15a9e8dc"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:3d3d96c8325669aa2724e505f174ed2e4aa957c6e0ef174d6289b1b7c8b52cd1", "0.2.0--r41hdfd78af_1": "sha256:c9c8ad610a9cc354fa3cfb93b0a46623d6d7431b1113ce6fe5d6507b20b88c50", "0.3.2--r42hdfd78af_1": "sha256:34643d02cad183deda70e12255bc25b5ae54be1eceb4d2261e43fd9c15a9e8dc"}, "docker": "quay.io/biocontainers/r-acidplyr"}
+config: {"url": "https://biocontainers.pro/tools/r-acidplyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidplyr", "latest": {"0.3.4--r42hdfd78af_0": "sha256:9bf6fe2caa96d874f20f3531e85e8e23e749e84b87f0ac8e7429962e7c75973b"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:3d3d96c8325669aa2724e505f174ed2e4aa957c6e0ef174d6289b1b7c8b52cd1", "0.2.0--r41hdfd78af_1": "sha256:c9c8ad610a9cc354fa3cfb93b0a46623d6d7431b1113ce6fe5d6507b20b88c50", "0.3.2--r42hdfd78af_1": "sha256:34643d02cad183deda70e12255bc25b5ae54be1eceb4d2261e43fd9c15a9e8dc", "0.3.4--r42hdfd78af_0": "sha256:9bf6fe2caa96d874f20f3531e85e8e23e749e84b87f0ac8e7429962e7c75973b"}, "docker": "quay.io/biocontainers/r-acidplyr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidplyr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-acidplyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidplyr:0.3.2--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-acidplyr:0.3.4--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidplyr/0.3.2--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-acidplyr/0.3.2--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-acidplyr/0.3.4--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-acidplyr/0.3.4--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

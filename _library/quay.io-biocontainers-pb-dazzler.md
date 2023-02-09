@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pb-dazzler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-dazzler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-dazzler/container.yaml"
-updated_at: "2023-02-08 23:56:12.605930"
+updated_at: "2023-02-09 03:29:11.923230"
 latest: "0.0.1--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/pb-dazzler"
 aliases:
