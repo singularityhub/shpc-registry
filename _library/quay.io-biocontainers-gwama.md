@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gwama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gwama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gwama/container.yaml"
-updated_at: "2023-02-09 03:16:13.101257"
+updated_at: "2023-02-09 03:22:18.520385"
 latest: "2.2.2--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/gwama"
 aliases:

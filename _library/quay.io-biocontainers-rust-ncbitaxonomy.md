@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rust-ncbitaxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-ncbitaxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-ncbitaxonomy/container.yaml"
-updated_at: "2023-02-09 02:57:15.500740"
+updated_at: "2023-02-09 03:03:24.891709"
 latest: "1.0.7--h94d9fb8_2"
 container_url: "https://biocontainers.pro/tools/rust-ncbitaxonomy"
 aliases:
