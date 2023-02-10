@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyega3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyega3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyega3/container.yaml"
-updated_at: "2023-02-09 18:14:06.773920"
+updated_at: "2023-02-10 03:28:31.391009"
 latest: "4.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyega3"
 aliases:

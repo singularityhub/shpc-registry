@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-synergyfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synergyfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synergyfinder/container.yaml"
-updated_at: "2023-02-09 18:28:18.078694"
+updated_at: "2023-02-10 03:45:34.270496"
 latest: "3.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synergyfinder"
 aliases:

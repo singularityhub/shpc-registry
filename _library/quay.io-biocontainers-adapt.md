@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/adapt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adapt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adapt/container.yaml"
-updated_at: "2023-02-09 17:55:47.671028"
+updated_at: "2023-02-10 03:06:22.557769"
 latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/adapt"
 aliases:

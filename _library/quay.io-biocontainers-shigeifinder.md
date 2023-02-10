@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shigeifinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shigeifinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shigeifinder/container.yaml"
-updated_at: "2023-02-09 18:23:26.278238"
+updated_at: "2023-02-10 03:39:40.017664"
 latest: "1.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shigeifinder"
 aliases:

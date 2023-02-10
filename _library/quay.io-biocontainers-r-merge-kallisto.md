@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-merge-kallisto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-merge-kallisto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-merge-kallisto/container.yaml"
-updated_at: "2023-02-09 18:07:32.153014"
+updated_at: "2023-02-10 03:20:36.000663"
 latest: "0.6--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-merge-kallisto"
 aliases:

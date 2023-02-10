@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vitisviniferaprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vitisviniferaprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vitisviniferaprobe/container.yaml"
-updated_at: "2023-02-09 18:22:34.190484"
+updated_at: "2023-02-10 03:38:38.035847"
 latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-vitisviniferaprobe"
 

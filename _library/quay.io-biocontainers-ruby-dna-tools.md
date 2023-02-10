@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ruby-dna-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruby-dna-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruby-dna-tools/container.yaml"
-updated_at: "2023-02-09 18:00:50.265348"
+updated_at: "2023-02-10 03:12:37.137462"
 latest: "1.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/ruby-dna-tools"
 aliases:

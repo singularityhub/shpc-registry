@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-saturn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-saturn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-saturn/container.yaml"
-updated_at: "2023-02-09 18:11:17.097120"
+updated_at: "2023-02-10 03:25:05.285429"
 latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-saturn"
 

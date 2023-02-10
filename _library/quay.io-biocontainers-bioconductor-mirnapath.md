@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirnapath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirnapath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirnapath/container.yaml"
-updated_at: "2023-02-09 18:21:26.015328"
+updated_at: "2023-02-10 03:37:18.569796"
 latest: "1.58.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirnapath"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdptools/container.yaml"
-updated_at: "2023-02-09 18:13:15.848196"
+updated_at: "2023-02-10 03:27:28.541865"
 latest: "2.0.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rdptools"
 aliases:

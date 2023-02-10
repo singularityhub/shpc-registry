@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-unicode-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-map/container.yaml"
-updated_at: "2023-02-09 18:26:02.008027"
+updated_at: "2023-02-10 03:42:48.880896"
 latest: "0.112--pl5321h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/perl-unicode-map"
 aliases:

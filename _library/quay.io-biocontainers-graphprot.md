@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphprot/container.yaml"
-updated_at: "2023-02-09 18:09:07.012099"
+updated_at: "2023-02-10 03:22:28.352215"
 latest: "1.1.7--h3445559_4"
 container_url: "https://biocontainers.pro/tools/graphprot"
 aliases:

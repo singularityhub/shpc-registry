@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbh5tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbh5tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbh5tools/container.yaml"
-updated_at: "2023-02-09 17:58:14.867564"
+updated_at: "2023-02-10 03:09:23.030766"
 latest: "0.8.0--py27h9801fc8_6"
 container_url: "https://biocontainers.pro/tools/pbh5tools"
 aliases:

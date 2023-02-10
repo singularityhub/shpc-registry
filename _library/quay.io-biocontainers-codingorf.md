@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codingorf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codingorf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codingorf/container.yaml"
-updated_at: "2023-02-09 18:16:22.689072"
+updated_at: "2023-02-10 03:31:16.524262"
 latest: "v1.0.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/codingorf"
 aliases:

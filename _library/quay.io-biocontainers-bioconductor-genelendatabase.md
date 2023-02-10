@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genelendatabase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genelendatabase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genelendatabase/container.yaml"
-updated_at: "2023-02-09 18:06:28.513094"
+updated_at: "2023-02-10 03:19:20.906998"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genelendatabase"
 aliases:

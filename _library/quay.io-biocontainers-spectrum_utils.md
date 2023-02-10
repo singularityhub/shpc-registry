@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectrum_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrum_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectrum_utils/container.yaml"
-updated_at: "2023-02-09 18:04:39.792437"
+updated_at: "2023-02-10 03:17:10.129844"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spectrum_utils"
 aliases:
