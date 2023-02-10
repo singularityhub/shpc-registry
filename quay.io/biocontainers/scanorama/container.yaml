@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scanorama
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scanorama
 latest:
-  1.7.1--py_0: sha256:a60c6639c7c4f2bbcd9e16da52f201a18a41b3e83de9546d7aa310a1ab36bc08
+  1.7.3--pyhdfd78af_0: sha256:4f4f352098650b4de71190b819b3f304ba1ec7341cc7a340230e1a7a593aa599
 tags:
   1.7.1--py_0: sha256:a60c6639c7c4f2bbcd9e16da52f201a18a41b3e83de9546d7aa310a1ab36bc08
+  1.7.3--pyhdfd78af_0: sha256:4f4f352098650b4de71190b819b3f304ba1ec7341cc7a340230e1a7a593aa599
 docker: quay.io/biocontainers/scanorama
 aliases:
   f2py3.6: /usr/local/bin/f2py3.6
