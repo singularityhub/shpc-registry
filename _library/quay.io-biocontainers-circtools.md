@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circtools/container.yaml"
-updated_at: "2023-02-10 03:02:44.242528"
+updated_at: "2023-02-11 02:49:33.947899"
 latest: "1.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/circtools"
 aliases:

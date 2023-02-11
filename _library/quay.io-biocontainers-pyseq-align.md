@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyseq-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyseq-align/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyseq-align/container.yaml"
-updated_at: "2023-02-10 03:07:55.192134"
+updated_at: "2023-02-11 02:53:57.424939"
 latest: "1.0.2--py37h8902056_1"
 container_url: "https://biocontainers.pro/tools/pyseq-align"
 aliases:

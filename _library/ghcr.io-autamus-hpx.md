@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hpx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hpx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hpx/container.yaml"
-updated_at: "2023-02-10 03:50:19.569786"
+updated_at: "2023-02-11 03:30:18.010072"
 latest: "1.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hpx"
 aliases:

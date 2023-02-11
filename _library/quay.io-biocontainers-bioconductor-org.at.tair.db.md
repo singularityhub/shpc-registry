@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.at.tair.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.at.tair.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.at.tair.db/container.yaml"
-updated_at: "2023-02-10 03:38:49.822535"
+updated_at: "2023-02-11 03:20:31.296010"
 latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.at.tair.db"
 aliases:

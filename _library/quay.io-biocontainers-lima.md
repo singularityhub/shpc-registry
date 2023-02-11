@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lima"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lima/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lima/container.yaml"
-updated_at: "2023-02-10 03:37:03.127515"
+updated_at: "2023-02-11 03:18:57.466523"
 latest: "2.7.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/lima"
 aliases:

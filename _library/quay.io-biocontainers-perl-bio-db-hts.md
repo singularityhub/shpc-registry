@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-db-hts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-db-hts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-db-hts/container.yaml"
-updated_at: "2023-02-10 03:48:54.820896"
+updated_at: "2023-02-11 03:29:04.547541"
 latest: "3.01--pl5321hb0d9459_6"
 container_url: "https://biocontainers.pro/tools/perl-bio-db-hts"
 aliases:

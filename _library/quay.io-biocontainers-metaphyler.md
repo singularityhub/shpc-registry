@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaphyler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaphyler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaphyler/container.yaml"
-updated_at: "2023-02-10 03:12:17.848893"
+updated_at: "2023-02-11 02:57:38.682694"
 latest: "1.25--hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/metaphyler"
 aliases:

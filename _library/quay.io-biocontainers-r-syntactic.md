@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-syntactic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-syntactic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-syntactic/container.yaml"
-updated_at: "2023-02-10 03:25:24.266698"
-latest: "0.6.3--r42hdfd78af_1"
+updated_at: "2023-02-11 03:08:57.118161"
+latest: "0.6.4--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-syntactic"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.6.3--r42hdfd78af_0"
  - "0.5.2--r41hdfd78af_1"
  - "0.6.3--r42hdfd78af_1"
+ - "0.6.4--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-syntactic"
-config: {"url": "https://biocontainers.pro/tools/r-syntactic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-syntactic", "latest": {"0.6.3--r42hdfd78af_1": "sha256:f93aa4cfdf94a27b79e85ec83bfaa2692a4604f7c09a10182908d7ce74d745fd"}, "tags": {"0.5.2--r41hdfd78af_0": "sha256:cdd5fbf4e79457feecca9b70fb1916e9ce81781da6aded717829b228e2a2a91d", "0.6.3--r42hdfd78af_0": "sha256:5bcba9a3f081674975e5e32c5c1603be36d711006b81ef07528f82af4db627d0", "0.5.2--r41hdfd78af_1": "sha256:ba527bcaef1d5a464615ef229083b3280419104d4b4ba10b0a12403ddda74663", "0.6.3--r42hdfd78af_1": "sha256:f93aa4cfdf94a27b79e85ec83bfaa2692a4604f7c09a10182908d7ce74d745fd"}, "docker": "quay.io/biocontainers/r-syntactic"}
+config: {"url": "https://biocontainers.pro/tools/r-syntactic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-syntactic", "latest": {"0.6.4--r42hdfd78af_0": "sha256:fb30c0a854f8e4818175a4109eae340613f0cc5f035e23683ea4f04a2fca0880"}, "tags": {"0.5.2--r41hdfd78af_0": "sha256:cdd5fbf4e79457feecca9b70fb1916e9ce81781da6aded717829b228e2a2a91d", "0.6.3--r42hdfd78af_0": "sha256:5bcba9a3f081674975e5e32c5c1603be36d711006b81ef07528f82af4db627d0", "0.5.2--r41hdfd78af_1": "sha256:ba527bcaef1d5a464615ef229083b3280419104d4b4ba10b0a12403ddda74663", "0.6.3--r42hdfd78af_1": "sha256:f93aa4cfdf94a27b79e85ec83bfaa2692a4604f7c09a10182908d7ce74d745fd", "0.6.4--r42hdfd78af_0": "sha256:fb30c0a854f8e4818175a4109eae340613f0cc5f035e23683ea4f04a2fca0880"}, "docker": "quay.io/biocontainers/r-syntactic"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-syntactic.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-syntactic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-syntactic:0.6.3--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-syntactic:0.6.4--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-syntactic/0.6.3--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-syntactic/0.6.3--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-syntactic/0.6.4--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-syntactic/0.6.4--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
