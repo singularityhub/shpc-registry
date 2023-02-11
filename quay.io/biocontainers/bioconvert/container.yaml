@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconvert
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconvert
 latest:
-  0.6.2--pyhdfd78af_0: sha256:aa1e4595dcdb2048163a8f29a1e2856f37f170a1d960098a252d0c335cc9f304
+  0.6.3--pyhdfd78af_0: sha256:494c045654b485728f35b71c9249f08eef368d82f3fb05cd6ee2cdfa3d0b6fbf
 tags:
   0.6.1--pyhdfd78af_0: sha256:262ea39364508f827346e032a57713f5b043079ff282be34b6361a4267981335
   0.6.2--pyhdfd78af_0: sha256:aa1e4595dcdb2048163a8f29a1e2856f37f170a1d960098a252d0c335cc9f304
+  0.6.3--pyhdfd78af_0: sha256:494c045654b485728f35b71c9249f08eef368d82f3fb05cd6ee2cdfa3d0b6fbf
 docker: quay.io/biocontainers/bioconvert
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
