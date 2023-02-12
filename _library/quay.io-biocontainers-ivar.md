@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ivar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ivar/container.yaml"
-updated_at: "2023-02-11 03:18:02.600513"
-latest: "1.3.1--ha04fe3b_4"
+updated_at: "2023-02-12 03:22:08.370040"
+latest: "1.3.2--ha04fe3b_0"
 container_url: "https://biocontainers.pro/tools/ivar"
 aliases:
  - "ivar"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.3.1--ha04fe3b_4"
  - "1.3--h089eab3_1"
+ - "1.3.2--ha04fe3b_0"
 description: "shpc-registry automated BioContainers addition for ivar"
-config: {"url": "https://biocontainers.pro/tools/ivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ivar", "latest": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931"}, "tags": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931", "1.3--h089eab3_1": "sha256:8826f9d967aa3f56a51662744f535483e0644165f186fc1d9399a7f037fea77f"}, "docker": "quay.io/biocontainers/ivar", "aliases": {"ivar": "/usr/local/bin/ivar", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/ivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ivar", "latest": {"1.3.2--ha04fe3b_0": "sha256:8e7e8351863d16a15d364fd577b724f562c88abafe4891a66360233601594840"}, "tags": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931", "1.3--h089eab3_1": "sha256:8826f9d967aa3f56a51662744f535483e0644165f186fc1d9399a7f037fea77f", "1.3.2--ha04fe3b_0": "sha256:8e7e8351863d16a15d364fd577b724f562c88abafe4891a66360233601594840"}, "docker": "quay.io/biocontainers/ivar", "aliases": {"ivar": "/usr/local/bin/ivar", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ivar.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/ivar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ivar:1.3.1--ha04fe3b_4
+$ shpc install quay.io/biocontainers/ivar:1.3.2--ha04fe3b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ivar/1.3.1--ha04fe3b_4
-$ module help quay.io/biocontainers/ivar/1.3.1--ha04fe3b_4
+$ module load quay.io/biocontainers/ivar/1.3.2--ha04fe3b_0
+$ module help quay.io/biocontainers/ivar/1.3.2--ha04fe3b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orfipy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfipy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfipy/container.yaml"
-updated_at: "2023-02-11 03:02:58.341968"
+updated_at: "2023-02-12 03:07:59.921945"
 latest: "0.0.4--py38h4a32c8e_1"
 container_url: "https://biocontainers.pro/tools/orfipy"
 aliases:

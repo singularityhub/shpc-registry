@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nondetects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nondetects/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nondetects/container.yaml"
-updated_at: "2023-02-11 02:56:08.605884"
+updated_at: "2023-02-12 03:01:32.834583"
 latest: "2.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nondetects"
 aliases:

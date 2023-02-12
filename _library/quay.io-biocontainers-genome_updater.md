@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genome_updater"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genome_updater/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genome_updater/container.yaml"
-updated_at: "2023-02-11 03:23:30.617320"
-latest: "0.5.1--hdfd78af_0"
+updated_at: "2023-02-12 03:27:17.460731"
+latest: "0.5.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genome_updater"
 aliases:
  - "genome_updater.sh"
@@ -21,8 +21,9 @@ aliases:
  - "basename"
 versions:
  - "0.5.1--hdfd78af_0"
+ - "0.5.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for genome_updater"
-config: {"url": "https://biocontainers.pro/tools/genome_updater", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genome_updater", "latest": {"0.5.1--hdfd78af_0": "sha256:05e4f37e192c064941ca4ae049044b580906a209d5ce45a12bf26727c55e9a1a"}, "tags": {"0.5.1--hdfd78af_0": "sha256:05e4f37e192c064941ca4ae049044b580906a209d5ce45a12bf26727c55e9a1a"}, "docker": "quay.io/biocontainers/genome_updater", "aliases": {"genome_updater.sh": "/usr/local/bin/genome_updater.sh", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "tar": "/usr/local/bin/tar", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "awk": "/usr/local/bin/awk", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename"}}
+config: {"url": "https://biocontainers.pro/tools/genome_updater", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genome_updater", "latest": {"0.5.2--hdfd78af_0": "sha256:6b4e411389cd39be54436b51f6e4aa1892cdf154830097be8ee367024c9afb22"}, "tags": {"0.5.1--hdfd78af_0": "sha256:05e4f37e192c064941ca4ae049044b580906a209d5ce45a12bf26727c55e9a1a", "0.5.2--hdfd78af_0": "sha256:6b4e411389cd39be54436b51f6e4aa1892cdf154830097be8ee367024c9afb22"}, "docker": "quay.io/biocontainers/genome_updater", "aliases": {"genome_updater.sh": "/usr/local/bin/genome_updater.sh", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "tar": "/usr/local/bin/tar", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "awk": "/usr/local/bin/awk", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genome_updater.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/genome_updater
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genome_updater:0.5.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/genome_updater:0.5.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genome_updater/0.5.1--hdfd78af_0
-$ module help quay.io/biocontainers/genome_updater/0.5.1--hdfd78af_0
+$ module load quay.io/biocontainers/genome_updater/0.5.2--hdfd78af_0
+$ module help quay.io/biocontainers/genome_updater/0.5.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

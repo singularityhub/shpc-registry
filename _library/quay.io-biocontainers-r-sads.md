@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sads/container.yaml"
-updated_at: "2023-02-11 02:58:19.726780"
+updated_at: "2023-02-12 03:03:33.999322"
 latest: "0.4.2--r351ha65eedd_1"
 container_url: "https://biocontainers.pro/tools/r-sads"
 aliases:

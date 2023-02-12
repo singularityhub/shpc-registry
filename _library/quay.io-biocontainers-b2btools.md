@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/b2btools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/b2btools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/b2btools/container.yaml"
-updated_at: "2023-02-11 03:10:03.031868"
+updated_at: "2023-02-12 03:14:37.600048"
 latest: "3.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/b2btools"
 aliases:

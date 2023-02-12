@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bpp-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-core/container.yaml"
-updated_at: "2023-02-11 03:29:27.802146"
+updated_at: "2023-02-12 03:32:51.098580"
 latest: "2.4.1--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/bpp-core"
 

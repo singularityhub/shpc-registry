@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mintmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mintmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mintmap/container.yaml"
-updated_at: "2023-02-11 03:09:57.787337"
+updated_at: "2023-02-12 03:14:32.396333"
 latest: "1.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/mintmap"
 aliases:

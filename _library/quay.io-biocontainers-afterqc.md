@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/afterqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afterqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afterqc/container.yaml"
-updated_at: "2023-02-11 03:15:48.866112"
+updated_at: "2023-02-12 03:20:02.034856"
 latest: "0.9.7--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/afterqc"
 aliases:

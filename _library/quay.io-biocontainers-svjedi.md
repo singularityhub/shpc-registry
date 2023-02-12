@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svjedi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svjedi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svjedi/container.yaml"
-updated_at: "2023-02-11 03:08:16.752840"
+updated_at: "2023-02-12 03:12:57.683057"
 latest: "1.1.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/svjedi"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngsderive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsderive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsderive/container.yaml"
-updated_at: "2023-02-11 03:00:43.494485"
-latest: "2.2.0--pyhdfd78af_0"
+updated_at: "2023-02-12 03:05:53.427678"
+latest: "2.2.0--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ngsderive"
 aliases:
  - "ngsderive"
@@ -23,8 +23,9 @@ aliases:
  - "python3.7m"
 versions:
  - "2.2.0--pyhdfd78af_0"
+ - "2.2.0--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for ngsderive"
-config: {"url": "https://biocontainers.pro/tools/ngsderive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngsderive", "latest": {"2.2.0--pyhdfd78af_0": "sha256:4ba72e81999e11fce4dfb90453d33c82c2d07f0880ef8c2df14f54887f3bf8af"}, "tags": {"2.2.0--pyhdfd78af_0": "sha256:4ba72e81999e11fce4dfb90453d33c82c2d07f0880ef8c2df14f54887f3bf8af"}, "docker": "quay.io/biocontainers/ngsderive", "aliases": {"ngsderive": "/usr/local/bin/ngsderive", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/ngsderive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngsderive", "latest": {"2.2.0--pyhdfd78af_2": "sha256:e7d67221fdb0533864b15b01334bd6f021be06c8415629794472c0e4a14264a6"}, "tags": {"2.2.0--pyhdfd78af_0": "sha256:4ba72e81999e11fce4dfb90453d33c82c2d07f0880ef8c2df14f54887f3bf8af", "2.2.0--pyhdfd78af_2": "sha256:e7d67221fdb0533864b15b01334bd6f021be06c8415629794472c0e4a14264a6"}, "docker": "quay.io/biocontainers/ngsderive", "aliases": {"ngsderive": "/usr/local/bin/ngsderive", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngsderive.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/ngsderive
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngsderive:2.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ngsderive:2.2.0--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngsderive/2.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ngsderive/2.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ngsderive/2.2.0--pyhdfd78af_2
+$ module help quay.io/biocontainers/ngsderive/2.2.0--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
