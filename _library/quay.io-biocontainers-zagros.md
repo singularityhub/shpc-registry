@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zagros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zagros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zagros/container.yaml"
-updated_at: "2023-02-12 03:09:38.446461"
+updated_at: "2023-02-13 03:11:03.415637"
 latest: "1.0.0--h7fd9d64_7"
 container_url: "https://biocontainers.pro/tools/zagros"
 aliases:

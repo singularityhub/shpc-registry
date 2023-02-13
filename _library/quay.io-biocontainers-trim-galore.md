@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trim-galore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trim-galore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trim-galore/container.yaml"
-updated_at: "2023-02-12 03:14:50.211779"
-latest: "0.6.7--hdfd78af_0"
+updated_at: "2023-02-13 03:16:29.961859"
+latest: "0.6.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trim-galore"
 aliases:
  - "trim_galore"
@@ -21,8 +21,9 @@ aliases:
  - "jhsdb"
 versions:
  - "0.6.7--hdfd78af_0"
+ - "0.6.10--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for trim-galore"
-config: {"url": "https://biocontainers.pro/tools/trim-galore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trim-galore", "latest": {"0.6.7--hdfd78af_0": "sha256:3c986513543ace0d0456d51f4a5e4c254065fa665b47f7ed2fe01ed23e406608"}, "tags": {"0.6.7--hdfd78af_0": "sha256:3c986513543ace0d0456d51f4a5e4c254065fa665b47f7ed2fe01ed23e406608"}, "docker": "quay.io/biocontainers/trim-galore", "aliases": {"trim_galore": "/usr/local/bin/trim_galore", "cutadapt": "/usr/local/bin/cutadapt", "fastqc": "/usr/local/bin/fastqc", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
+config: {"url": "https://biocontainers.pro/tools/trim-galore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trim-galore", "latest": {"0.6.10--hdfd78af_0": "sha256:cd377b728016f5dce52b7a07da5d38cdb0f3d5487ea9b3fa49b8b76f3114befd"}, "tags": {"0.6.7--hdfd78af_0": "sha256:3c986513543ace0d0456d51f4a5e4c254065fa665b47f7ed2fe01ed23e406608", "0.6.10--hdfd78af_0": "sha256:cd377b728016f5dce52b7a07da5d38cdb0f3d5487ea9b3fa49b8b76f3114befd"}, "docker": "quay.io/biocontainers/trim-galore", "aliases": {"trim_galore": "/usr/local/bin/trim_galore", "cutadapt": "/usr/local/bin/cutadapt", "fastqc": "/usr/local/bin/fastqc", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trim-galore.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/trim-galore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trim-galore:0.6.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/trim-galore:0.6.10--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trim-galore/0.6.7--hdfd78af_0
-$ module help quay.io/biocontainers/trim-galore/0.6.7--hdfd78af_0
+$ module load quay.io/biocontainers/trim-galore/0.6.10--hdfd78af_0
+$ module help quay.io/biocontainers/trim-galore/0.6.10--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

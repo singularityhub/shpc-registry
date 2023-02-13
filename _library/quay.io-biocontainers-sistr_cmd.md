@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sistr_cmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sistr_cmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sistr_cmd/container.yaml"
-updated_at: "2023-02-12 03:29:11.807699"
-latest: "1.1.1--pyh864c0ab_2"
+updated_at: "2023-02-13 03:31:33.196138"
+latest: "1.1.1--pyh7cba7a3_3"
 container_url: "https://biocontainers.pro/tools/sistr_cmd"
 aliases:
  - "sistr"
@@ -21,8 +21,9 @@ aliases:
  - "seqdb_perf"
 versions:
  - "1.1.1--pyh864c0ab_2"
+ - "1.1.1--pyh7cba7a3_3"
 description: "shpc-registry automated BioContainers addition for sistr_cmd"
-config: {"url": "https://biocontainers.pro/tools/sistr_cmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sistr_cmd", "latest": {"1.1.1--pyh864c0ab_2": "sha256:0068bd3708615599f2ed4229338a9aa59cd2cc43a66c199d931da0d51261f211"}, "tags": {"1.1.1--pyh864c0ab_2": "sha256:0068bd3708615599f2ed4229338a9aa59cd2cc43a66c199d931da0d51261f211"}, "docker": "quay.io/biocontainers/sistr_cmd", "aliases": {"sistr": "/usr/local/bin/sistr", "test_pcre": "/usr/local/bin/test_pcre", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf"}}
+config: {"url": "https://biocontainers.pro/tools/sistr_cmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sistr_cmd", "latest": {"1.1.1--pyh7cba7a3_3": "sha256:b50e23909bb7b68823785fe7d4fb76c29c24d2ea542d998d8a3d93f24bfd6f16"}, "tags": {"1.1.1--pyh864c0ab_2": "sha256:0068bd3708615599f2ed4229338a9aa59cd2cc43a66c199d931da0d51261f211", "1.1.1--pyh7cba7a3_3": "sha256:b50e23909bb7b68823785fe7d4fb76c29c24d2ea542d998d8a3d93f24bfd6f16"}, "docker": "quay.io/biocontainers/sistr_cmd", "aliases": {"sistr": "/usr/local/bin/sistr", "test_pcre": "/usr/local/bin/test_pcre", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sistr_cmd.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/sistr_cmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sistr_cmd:1.1.1--pyh864c0ab_2
+$ shpc install quay.io/biocontainers/sistr_cmd:1.1.1--pyh7cba7a3_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sistr_cmd/1.1.1--pyh864c0ab_2
-$ module help quay.io/biocontainers/sistr_cmd/1.1.1--pyh864c0ab_2
+$ module load quay.io/biocontainers/sistr_cmd/1.1.1--pyh7cba7a3_3
+$ module help quay.io/biocontainers/sistr_cmd/1.1.1--pyh7cba7a3_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

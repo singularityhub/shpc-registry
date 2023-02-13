@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/ncbi-vdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-vdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-vdb/container.yaml"
-updated_at: "2023-02-12 03:01:34.974675"
-latest: "3.0.0--pl5321h87f3376_0"
+updated_at: "2023-02-13 03:02:44.874468"
+latest: "3.0.2--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/ncbi-vdb"
 
 versions:
  - "3.0.0--pl5321h87f3376_0"
+ - "3.0.2--h87f3376_0"
 description: "shpc-registry automated BioContainers addition for ncbi-vdb"
-config: {"url": "https://biocontainers.pro/tools/ncbi-vdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-vdb", "latest": {"3.0.0--pl5321h87f3376_0": "sha256:3b6375b7218a284bb56576729f38aa69f5a0ee208535f90fbfbc21022e71057d"}, "tags": {"3.0.0--pl5321h87f3376_0": "sha256:3b6375b7218a284bb56576729f38aa69f5a0ee208535f90fbfbc21022e71057d"}, "docker": "quay.io/biocontainers/ncbi-vdb"}
+config: {"url": "https://biocontainers.pro/tools/ncbi-vdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-vdb", "latest": {"3.0.2--h87f3376_0": "sha256:aba43c21a8b43784d533b628aa938ea862735e780bdefbfbc38874fc747644bb"}, "tags": {"3.0.0--pl5321h87f3376_0": "sha256:3b6375b7218a284bb56576729f38aa69f5a0ee208535f90fbfbc21022e71057d", "3.0.2--h87f3376_0": "sha256:aba43c21a8b43784d533b628aa938ea862735e780bdefbfbc38874fc747644bb"}, "docker": "quay.io/biocontainers/ncbi-vdb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-vdb.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/ncbi-vdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-vdb:3.0.0--pl5321h87f3376_0
+$ shpc install quay.io/biocontainers/ncbi-vdb:3.0.2--h87f3376_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-vdb/3.0.0--pl5321h87f3376_0
-$ module help quay.io/biocontainers/ncbi-vdb/3.0.0--pl5321h87f3376_0
+$ module load quay.io/biocontainers/ncbi-vdb/3.0.2--h87f3376_0
+$ module help quay.io/biocontainers/ncbi-vdb/3.0.2--h87f3376_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
