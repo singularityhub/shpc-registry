@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-rspectral
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-rspectral
 latest:
-  1.0.0.9--r42hecf12ef_0: sha256:51bcbb0ef8be98a4d7e7cf66c01748023d15960eb8e2cf1e56f85cd215dfb38c
+  1.0.0.10--r42hecf12ef_0: sha256:81c0e7f0ff02c61e0a7c02b5da1aae3780ae1ce8e01fa6edd13c66f05bf34767
 tags:
   1.0.0.9--r42hecf12ef_0: sha256:51bcbb0ef8be98a4d7e7cf66c01748023d15960eb8e2cf1e56f85cd215dfb38c
+  1.0.0.10--r42hecf12ef_0: sha256:81c0e7f0ff02c61e0a7c02b5da1aae3780ae1ce8e01fa6edd13c66f05bf34767
 docker: quay.io/biocontainers/r-rspectral
 aliases:
   glpsol: /usr/local/bin/glpsol
