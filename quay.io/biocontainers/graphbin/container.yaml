@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/graphbin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for graphbin
 latest:
-  1.5--pyhdfd78af_0: sha256:1a7d56fb51f0e05d9d1851a9db34823675e7f33b5f93f6a62980014c3ec00927
+  1.6.1--pyhdfd78af_0: sha256:bc671c78bf507f670bd1fcebbba3657e1c17ad2154531d548aac3a3881d3cd73
 tags:
   1.5--pyhdfd78af_0: sha256:1a7d56fb51f0e05d9d1851a9db34823675e7f33b5f93f6a62980014c3ec00927
+  1.6.1--pyhdfd78af_0: sha256:bc671c78bf507f670bd1fcebbba3657e1c17ad2154531d548aac3a3881d3cd73
 docker: quay.io/biocontainers/graphbin
 aliases:
   graphbin: /usr/local/bin/graphbin

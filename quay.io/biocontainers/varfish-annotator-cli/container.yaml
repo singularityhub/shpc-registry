@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/varfish-annotator-cli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for varfish-annotator-cli
 latest:
-  0.30--hdfd78af_0: sha256:ee9f46690a69d54fe4d6be6ab35692c8ece730c2f17d500d2922e733f05d32ea
+  0.32--hdfd78af_0: sha256:bc4f15e008a97791d6ca1eac70e2d5b19d2ca2d03a9c62680ec8ea3d470b6859
 tags:
   0.9--0: sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467
   0.27--hdfd78af_0: sha256:778d85820cba2fd4a336e9208d066d66fbe9dbce3286c3e5dd12ee39d695c8eb
@@ -13,6 +13,8 @@ tags:
   0.28--hdfd78af_0: sha256:747a41cd6e1d13740ef28c42d70fc02199d63e7084b7b778feae8ac1ead41125
   0.30--hdfd78af_0: sha256:ee9f46690a69d54fe4d6be6ab35692c8ece730c2f17d500d2922e733f05d32ea
   0.29--hdfd78af_0: sha256:ae2252ee327c57764f18d560910bf6b0ce4a0390087c0aab3008999235af2004
+  0.32--hdfd78af_0: sha256:bc4f15e008a97791d6ca1eac70e2d5b19d2ca2d03a9c62680ec8ea3d470b6859
+  0.31--hdfd78af_0: sha256:09779865c89deaf40c73b8421d21dbe4d5b88ee0ef00439804f26db62e6c22d7
 docker: quay.io/biocontainers/varfish-annotator-cli
 aliases:
   varfish-annotator: /usr/local/bin/varfish-annotator

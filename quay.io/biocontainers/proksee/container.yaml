@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/proksee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for proksee
 latest:
-  1.0.0a5--pyhdfd78af_0: sha256:5b48c4c8a99339f97a8c9795d82a3efd8902c8b6be660e1f5aa112ee87867fd5
+  1.0.0a6--pyhdfd78af_0: sha256:c8d4302b0da5aedbaf5fb6c4557dbe3e5cf7edcebc1e9f51475d3bdb86ddc6bd
 tags:
   1.0.0a4--pyhdfd78af_0: sha256:fb811bb9bef452206126f7c68199a3c820064cae0d4a7b973da5f5c3500299ce
   1.0.0a5--pyhdfd78af_0: sha256:5b48c4c8a99339f97a8c9795d82a3efd8902c8b6be660e1f5aa112ee87867fd5
+  1.0.0a6--pyhdfd78af_0: sha256:c8d4302b0da5aedbaf5fb6c4557dbe3e5cf7edcebc1e9f51475d3bdb86ddc6bd
 docker: quay.io/biocontainers/proksee
 aliases:
   icarus.py: /usr/local/bin/icarus.py

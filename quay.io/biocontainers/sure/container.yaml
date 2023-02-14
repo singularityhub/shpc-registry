@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sure
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sure
 latest:
-  2.0.0--pyh5e36f6f_0: sha256:1d5113c54b8d63747e423053e1bef9008bc6c20d20806968fc9c1aa1004321b7
+  2.0.1--pyh7cba7a3_0: sha256:9b7ddef0fd0e0c3f928b6f0e34c5feffcaddcd22db1e83895b93a86c0009482d
 tags:
   2.0.0--pyh5e36f6f_0: sha256:1d5113c54b8d63747e423053e1bef9008bc6c20d20806968fc9c1aa1004321b7
+  2.0.1--pyh7cba7a3_0: sha256:9b7ddef0fd0e0c3f928b6f0e34c5feffcaddcd22db1e83895b93a86c0009482d
 docker: quay.io/biocontainers/sure
 aliases:
   sure: /usr/local/bin/sure

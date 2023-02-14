@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-email-simple
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-email-simple
 latest:
-  2.216--hdfd78af_1: sha256:d9caada984725df743642ef97e1e83af1ecfe8ff1624dffe916d50e71eee072d
+  2.218--hdfd78af_0: sha256:e705063e6076e8b260d8fec1c1e0e6a4aac19f0c3c6279af3ac7fdc036afb539
 tags:
   2.216--hdfd78af_1: sha256:d9caada984725df743642ef97e1e83af1ecfe8ff1624dffe916d50e71eee072d
+  2.218--hdfd78af_0: sha256:e705063e6076e8b260d8fec1c1e0e6a4aac19f0c3c6279af3ac7fdc036afb539
 docker: quay.io/biocontainers/perl-email-simple
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2
