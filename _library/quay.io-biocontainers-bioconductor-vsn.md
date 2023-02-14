@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vsn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vsn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vsn/container.yaml"
-updated_at: "2023-02-13 03:01:23.952159"
+updated_at: "2023-02-14 03:03:55.078691"
 latest: "3.66.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vsn"
 

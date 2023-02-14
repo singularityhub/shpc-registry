@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-rspectral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rspectral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rspectral/container.yaml"
-updated_at: "2023-02-13 03:35:22.861737"
-latest: "1.0.0.9--r42hecf12ef_0"
+updated_at: "2023-02-14 03:41:48.713302"
+latest: "1.0.0.10--r42hecf12ef_0"
 container_url: "https://biocontainers.pro/tools/r-rspectral"
 aliases:
  - "glpsol"
 versions:
  - "1.0.0.9--r42hecf12ef_0"
+ - "1.0.0.10--r42hecf12ef_0"
 description: "singularity registry hpc automated addition for r-rspectral"
-config: {"url": "https://biocontainers.pro/tools/r-rspectral", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-rspectral", "latest": {"1.0.0.9--r42hecf12ef_0": "sha256:51bcbb0ef8be98a4d7e7cf66c01748023d15960eb8e2cf1e56f85cd215dfb38c"}, "tags": {"1.0.0.9--r42hecf12ef_0": "sha256:51bcbb0ef8be98a4d7e7cf66c01748023d15960eb8e2cf1e56f85cd215dfb38c"}, "docker": "quay.io/biocontainers/r-rspectral", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-rspectral", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-rspectral", "latest": {"1.0.0.10--r42hecf12ef_0": "sha256:81c0e7f0ff02c61e0a7c02b5da1aae3780ae1ce8e01fa6edd13c66f05bf34767"}, "tags": {"1.0.0.9--r42hecf12ef_0": "sha256:51bcbb0ef8be98a4d7e7cf66c01748023d15960eb8e2cf1e56f85cd215dfb38c", "1.0.0.10--r42hecf12ef_0": "sha256:81c0e7f0ff02c61e0a7c02b5da1aae3780ae1ce8e01fa6edd13c66f05bf34767"}, "docker": "quay.io/biocontainers/r-rspectral", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rspectral.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-rspectral
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-rspectral:1.0.0.9--r42hecf12ef_0
+$ shpc install quay.io/biocontainers/r-rspectral:1.0.0.10--r42hecf12ef_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-rspectral/1.0.0.9--r42hecf12ef_0
-$ module help quay.io/biocontainers/r-rspectral/1.0.0.9--r42hecf12ef_0
+$ module load quay.io/biocontainers/r-rspectral/1.0.0.10--r42hecf12ef_0
+$ module help quay.io/biocontainers/r-rspectral/1.0.0.10--r42hecf12ef_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

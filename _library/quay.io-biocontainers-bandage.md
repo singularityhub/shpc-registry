@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bandage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bandage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bandage/container.yaml"
-updated_at: "2023-02-13 03:07:38.145486"
+updated_at: "2023-02-14 03:10:58.501350"
 latest: "0.8.1--hc9558a2_2"
 container_url: "https://biocontainers.pro/tools/bandage"
 

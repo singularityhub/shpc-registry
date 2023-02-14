@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-popgenreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-popgenreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-popgenreport/container.yaml"
-updated_at: "2023-02-13 03:30:10.709407"
+updated_at: "2023-02-14 03:36:05.621084"
 latest: "3.0.4--r41h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-popgenreport"
 aliases:

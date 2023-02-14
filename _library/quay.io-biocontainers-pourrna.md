@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pourrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pourrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pourrna/container.yaml"
-updated_at: "2023-02-13 02:55:54.089353"
+updated_at: "2023-02-14 02:57:40.828134"
 latest: "1.2.0--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/pourrna"
 aliases:
