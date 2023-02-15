@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lydata/container.yaml"
-updated_at: "2023-02-14 03:32:04.240788"
+updated_at: "2023-02-15 03:33:23.055570"
 latest: "1.23.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lydata"
 aliases:

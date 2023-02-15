@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-autodie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-autodie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-autodie/container.yaml"
-updated_at: "2023-02-14 03:29:05.424143"
-latest: "2.34--pl5321hdfd78af_0"
+updated_at: "2023-02-15 03:30:16.257031"
+latest: "2.35--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-autodie"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "2.34--pl5321hdfd78af_0"
+ - "2.35--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-autodie"
-config: {"url": "https://biocontainers.pro/tools/perl-autodie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-autodie", "latest": {"2.34--pl5321hdfd78af_0": "sha256:ea59a18d6d29ab62e6f5a9c1d64d7b6a125f4c6cdc79e2150cfd59d7f3d1ce0a"}, "tags": {"2.34--pl5321hdfd78af_0": "sha256:ea59a18d6d29ab62e6f5a9c1d64d7b6a125f4c6cdc79e2150cfd59d7f3d1ce0a"}, "docker": "quay.io/biocontainers/perl-autodie", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-autodie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-autodie", "latest": {"2.35--pl5321hdfd78af_0": "sha256:ee4501153ab2e599a751a145070494842132f524e3c6f5c6e5d884ab6a2f6bdd"}, "tags": {"2.34--pl5321hdfd78af_0": "sha256:ea59a18d6d29ab62e6f5a9c1d64d7b6a125f4c6cdc79e2150cfd59d7f3d1ce0a", "2.35--pl5321hdfd78af_0": "sha256:ee4501153ab2e599a751a145070494842132f524e3c6f5c6e5d884ab6a2f6bdd"}, "docker": "quay.io/biocontainers/perl-autodie", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-autodie.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-autodie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-autodie:2.34--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-autodie:2.35--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-autodie/2.34--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-autodie/2.34--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-autodie/2.35--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-autodie/2.35--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

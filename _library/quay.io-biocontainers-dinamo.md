@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dinamo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinamo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinamo/container.yaml"
-updated_at: "2023-02-14 03:09:46.772665"
+updated_at: "2023-02-15 03:10:51.957778"
 latest: "1.0--h2df963e_2"
 container_url: "https://biocontainers.pro/tools/dinamo"
 aliases:

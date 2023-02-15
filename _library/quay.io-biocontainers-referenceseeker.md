@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/referenceseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/referenceseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/referenceseeker/container.yaml"
-updated_at: "2023-02-14 03:27:57.751132"
+updated_at: "2023-02-15 03:29:07.741896"
 latest: "1.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/referenceseeker"
 aliases:
