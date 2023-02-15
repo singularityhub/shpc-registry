@@ -3,10 +3,10 @@ url: https://hub.docker.com/r/jupyter/datascience-notebook
 maintainer: '@vsoch'
 description: Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks
 latest:
-  '2023-01-15': sha256:f60e0309bf0dfa53efc6207c393ca6ffc0cfb1a5f94c01920fef98840384276d
+  '2023-02-13': sha256:ac852f6d705a1fc018d2aaf11549d898f436ec5a000a4a9296a65ee37790344e
 tags:
   '4.0': sha256:5e5bf78bfa351c0255cea5269a0461afbf6b50b51e923a7436229208ea8487f9
-  latest: sha256:f60e0309bf0dfa53efc6207c393ca6ffc0cfb1a5f94c01920fef98840384276d
+  latest: sha256:ac852f6d705a1fc018d2aaf11549d898f436ec5a000a4a9296a65ee37790344e
   '2022-04-05': sha256:f7a82d58c25e0b578ba47e696123be2aa590987a3c2bb1df979b3bfdc728b783
   '2022-03-28': sha256:955a943ea994def00f31bf7e07a44ab966c66b0795c3036e65d550e8e9082413
   '2022-02-28': sha256:e6b6f2a13249c9b571b2bb385b9af2f674977d7247e6f8519c1a012dd98b4813
@@ -25,6 +25,8 @@ tags:
   '2022-11-28': sha256:d0532c681d48039a45622dce9c4637ae90d5303e7e1ca319c611b096881e87cf
   '2023-01-15': sha256:f60e0309bf0dfa53efc6207c393ca6ffc0cfb1a5f94c01920fef98840384276d
   '2022-12-30': sha256:e1cafdba25c175e7f4ef1aa7c74d67cc812ccca0c0296d7023477944d620ca8a
+  '2023-02-13': sha256:ac852f6d705a1fc018d2aaf11549d898f436ec5a000a4a9296a65ee37790344e
+  '2023-01-30': sha256:8488d97f786edee0c44bfc3e0b64dd7f6b743abbcd57b6bddbbcae0d68abc1e6
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0
