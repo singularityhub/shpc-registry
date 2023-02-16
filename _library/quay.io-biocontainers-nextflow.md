@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nextflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextflow/container.yaml"
-updated_at: "2023-02-15 03:21:31.583663"
-latest: "22.10.4--h4a94de4_0"
+updated_at: "2023-02-16 03:24:43.456176"
+latest: "22.10.6--h4a94de4_0"
 container_url: "https://biocontainers.pro/tools/nextflow"
 aliases:
  - "nextflow"
@@ -24,8 +24,9 @@ versions:
  - "22.10.0--h4a94de4_0"
  - "22.10.1--h4a94de4_0"
  - "22.10.4--h4a94de4_0"
+ - "22.10.6--h4a94de4_0"
 description: "shpc-registry automated BioContainers addition for nextflow"
-config: {"url": "https://biocontainers.pro/tools/nextflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextflow", "latest": {"22.10.4--h4a94de4_0": "sha256:096fee76e53ec0f5a252d86b4b681310c2c523961e26ef3af12db86351250268"}, "tags": {"22.10.0--h4a94de4_0": "sha256:c04ca8aca1b35ce4a912acbe5df5b795179d28440da9b27cc87198a8ea1ea859", "22.10.1--h4a94de4_0": "sha256:0e58fcbbf77e6fc6e3d77507ff624d81bcc9c436026093a8cda5b5deb72f048c", "22.10.4--h4a94de4_0": "sha256:096fee76e53ec0f5a252d86b4b681310c2c523961e26ef3af12db86351250268"}, "docker": "quay.io/biocontainers/nextflow", "aliases": {"nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
+config: {"url": "https://biocontainers.pro/tools/nextflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextflow", "latest": {"22.10.6--h4a94de4_0": "sha256:7cee9ef519fae6ce9bee24693c5914a6a7ffde5d196823805114cfc9aac53105"}, "tags": {"22.10.0--h4a94de4_0": "sha256:c04ca8aca1b35ce4a912acbe5df5b795179d28440da9b27cc87198a8ea1ea859", "22.10.1--h4a94de4_0": "sha256:0e58fcbbf77e6fc6e3d77507ff624d81bcc9c436026093a8cda5b5deb72f048c", "22.10.4--h4a94de4_0": "sha256:096fee76e53ec0f5a252d86b4b681310c2c523961e26ef3af12db86351250268", "22.10.6--h4a94de4_0": "sha256:7cee9ef519fae6ce9bee24693c5914a6a7ffde5d196823805114cfc9aac53105"}, "docker": "quay.io/biocontainers/nextflow", "aliases": {"nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextflow.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/nextflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nextflow:22.10.4--h4a94de4_0
+$ shpc install quay.io/biocontainers/nextflow:22.10.6--h4a94de4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nextflow/22.10.4--h4a94de4_0
-$ module help quay.io/biocontainers/nextflow/22.10.4--h4a94de4_0
+$ module load quay.io/biocontainers/nextflow/22.10.6--h4a94de4_0
+$ module help quay.io/biocontainers/nextflow/22.10.6--h4a94de4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-unicode-normalize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-normalize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-normalize/container.yaml"
-updated_at: "2023-02-15 03:26:46.502881"
+updated_at: "2023-02-16 03:30:52.476669"
 latest: "1.26--pl5321h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/perl-unicode-normalize"
 aliases:

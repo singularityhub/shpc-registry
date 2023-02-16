@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-illumina450probevariants.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illumina450probevariants.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illumina450probevariants.db/container.yaml"
-updated_at: "2023-02-15 03:04:42.057991"
+updated_at: "2023-02-16 03:05:21.858292"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-illumina450probevariants.db"
 
