@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/adapt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for adapt
 latest:
-  1.4.1--pyhdfd78af_0: sha256:d53f02f52b3ce98b511f345f56526fb54ac256e92d66f48bb025673f90542b6f
+  1.6.0--pyhdfd78af_0: sha256:3a5f50552e7fdf37ade4b4ff36c0440291ed94a61a4750970258362b19eda343
 tags:
   1.4.1--pyhdfd78af_0: sha256:d53f02f52b3ce98b511f345f56526fb54ac256e92d66f48bb025673f90542b6f
+  1.6.0--pyhdfd78af_0: sha256:3a5f50552e7fdf37ade4b4ff36c0440291ed94a61a4750970258362b19eda343
 docker: quay.io/biocontainers/adapt
 aliases:
   analyze_coverage.py: /usr/local/bin/analyze_coverage.py

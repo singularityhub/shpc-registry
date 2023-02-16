@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/muspinsim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for muspinsim
 latest:
-  1.1.0: sha256:a7dcb5d935ac087732b106ce210dc14a8eea5609a5288d497c2538c6643c4dff
+  2.0.2: sha256:8f114a69d15e316141b42e3b0415b1be7b950e53aafae0abe692f968aec96583
 tags:
   1.1.0: sha256:a7dcb5d935ac087732b106ce210dc14a8eea5609a5288d497c2538c6643c4dff
+  2.0.2: sha256:8f114a69d15e316141b42e3b0415b1be7b950e53aafae0abe692f968aec96583
 docker: quay.io/biocontainers/muspinsim
 aliases:
   ase: /usr/local/bin/ase
