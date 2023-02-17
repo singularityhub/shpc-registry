@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyega3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyega3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyega3/container.yaml"
-updated_at: "2023-02-16 03:27:01.754247"
-latest: "4.0.5--pyhdfd78af_0"
+updated_at: "2023-02-17 03:26:02.125262"
+latest: "5.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyega3"
 aliases:
  - "htsget"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "4.0.5--pyhdfd78af_0"
+ - "5.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pyega3"
-config: {"url": "https://biocontainers.pro/tools/pyega3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyega3", "latest": {"4.0.5--pyhdfd78af_0": "sha256:ae4158a2d4b50dcbc2ccc3a98b90b79838e8e01c3fa73ad404e98c6179553525"}, "tags": {"4.0.5--pyhdfd78af_0": "sha256:ae4158a2d4b50dcbc2ccc3a98b90b79838e8e01c3fa73ad404e98c6179553525"}, "docker": "quay.io/biocontainers/pyega3", "aliases": {"htsget": "/usr/local/bin/htsget", "pyega3": "/usr/local/bin/pyega3", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyega3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyega3", "latest": {"5.0.1--pyhdfd78af_0": "sha256:2774e09c0c92107e60637d09d1bcc2ba63785c4096e4f0a9278f49c0d16c43bf"}, "tags": {"4.0.5--pyhdfd78af_0": "sha256:ae4158a2d4b50dcbc2ccc3a98b90b79838e8e01c3fa73ad404e98c6179553525", "5.0.1--pyhdfd78af_0": "sha256:2774e09c0c92107e60637d09d1bcc2ba63785c4096e4f0a9278f49c0d16c43bf"}, "docker": "quay.io/biocontainers/pyega3", "aliases": {"htsget": "/usr/local/bin/htsget", "pyega3": "/usr/local/bin/pyega3", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyega3.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pyega3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyega3:4.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyega3:5.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyega3/4.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyega3/4.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyega3/5.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyega3/5.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
