@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/illumina-interop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illumina-interop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/illumina-interop/container.yaml"
-updated_at: "2023-02-17 03:34:36.570943"
-latest: "1.2.0--h87f3376_0"
+updated_at: "2023-02-18 02:48:37.259316"
+latest: "1.2.1--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/illumina-interop"
 aliases:
  - "interop_aggregate"
@@ -24,8 +24,9 @@ versions:
  - "1.1.9--he1b5a44_0"
  - "1.2.0--h87f3376_0"
  - "1.1.28--h87f3376_0"
+ - "1.2.1--h87f3376_0"
 description: "shpc-registry automated BioContainers addition for illumina-interop"
-config: {"url": "https://biocontainers.pro/tools/illumina-interop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illumina-interop", "latest": {"1.2.0--h87f3376_0": "sha256:9dc9ef90da1073ff4e3d1ab5e21999f06c73974c9ba5350a523d37d83c696ee4"}, "tags": {"1.1.9--he1b5a44_0": "sha256:158e011166925ed1ba899c06dc275a5720f243ccbe99f5256af8ec63fa5835a1", "1.2.0--h87f3376_0": "sha256:9dc9ef90da1073ff4e3d1ab5e21999f06c73974c9ba5350a523d37d83c696ee4", "1.1.28--h87f3376_0": "sha256:2e917edd725e6427ae589a776d17832619af67c4408837217c1897d640ef5fbd"}, "docker": "quay.io/biocontainers/illumina-interop", "aliases": {"interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary"}}
+config: {"url": "https://biocontainers.pro/tools/illumina-interop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illumina-interop", "latest": {"1.2.1--h87f3376_0": "sha256:d2752a7c91ae2c2f872cc68c329c2fa626cbeca9cf86b44a36c5a2b3fc69d883"}, "tags": {"1.1.9--he1b5a44_0": "sha256:158e011166925ed1ba899c06dc275a5720f243ccbe99f5256af8ec63fa5835a1", "1.2.0--h87f3376_0": "sha256:9dc9ef90da1073ff4e3d1ab5e21999f06c73974c9ba5350a523d37d83c696ee4", "1.1.28--h87f3376_0": "sha256:2e917edd725e6427ae589a776d17832619af67c4408837217c1897d640ef5fbd", "1.2.1--h87f3376_0": "sha256:d2752a7c91ae2c2f872cc68c329c2fa626cbeca9cf86b44a36c5a2b3fc69d883"}, "docker": "quay.io/biocontainers/illumina-interop", "aliases": {"interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/illumina-interop.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/illumina-interop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/illumina-interop:1.2.0--h87f3376_0
+$ shpc install quay.io/biocontainers/illumina-interop:1.2.1--h87f3376_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/illumina-interop/1.2.0--h87f3376_0
-$ module help quay.io/biocontainers/illumina-interop/1.2.0--h87f3376_0
+$ module load quay.io/biocontainers/illumina-interop/1.2.1--h87f3376_0
+$ module help quay.io/biocontainers/illumina-interop/1.2.1--h87f3376_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

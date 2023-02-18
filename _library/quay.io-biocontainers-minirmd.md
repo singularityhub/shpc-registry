@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minirmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minirmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minirmd/container.yaml"
-updated_at: "2023-02-17 03:06:02.603095"
+updated_at: "2023-02-18 03:12:16.686604"
 latest: "1.1--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/minirmd"
 aliases:
