@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequana/container.yaml"
-updated_at: "2023-02-18 03:15:49.053923"
+updated_at: "2023-02-19 03:21:34.343345"
 latest: "0.14.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sequana"
 

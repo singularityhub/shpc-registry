@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vispr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vispr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vispr/container.yaml"
-updated_at: "2023-02-18 02:48:34.867047"
-latest: "0.4.17--pyh864c0ab_0"
+updated_at: "2023-02-19 02:53:50.875251"
+latest: "0.4.17--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/vispr"
 aliases:
  - "vispr"
@@ -18,8 +18,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.4.17--pyh864c0ab_0"
+ - "0.4.17--pyh7cba7a3_1"
 description: "shpc-registry automated BioContainers addition for vispr"
-config: {"url": "https://biocontainers.pro/tools/vispr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vispr", "latest": {"0.4.17--pyh864c0ab_0": "sha256:2269d0c088056d3f391aaee4d21a7ce240ee093ce5ffa313aae6d521470c1734"}, "tags": {"0.4.17--pyh864c0ab_0": "sha256:2269d0c088056d3f391aaee4d21a7ce240ee093ce5ffa313aae6d521470c1734"}, "docker": "quay.io/biocontainers/vispr", "aliases": {"vispr": "/usr/local/bin/vispr", "flask": "/usr/local/bin/flask", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/vispr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vispr", "latest": {"0.4.17--pyh7cba7a3_1": "sha256:890b0aecef7246cba2704202775c86baa93563ec5f10ea214fbc0d341ab7d508"}, "tags": {"0.4.17--pyh864c0ab_0": "sha256:2269d0c088056d3f391aaee4d21a7ce240ee093ce5ffa313aae6d521470c1734", "0.4.17--pyh7cba7a3_1": "sha256:890b0aecef7246cba2704202775c86baa93563ec5f10ea214fbc0d341ab7d508"}, "docker": "quay.io/biocontainers/vispr", "aliases": {"vispr": "/usr/local/bin/vispr", "flask": "/usr/local/bin/flask", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vispr.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/vispr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vispr:0.4.17--pyh864c0ab_0
+$ shpc install quay.io/biocontainers/vispr:0.4.17--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vispr/0.4.17--pyh864c0ab_0
-$ module help quay.io/biocontainers/vispr/0.4.17--pyh864c0ab_0
+$ module load quay.io/biocontainers/vispr/0.4.17--pyh7cba7a3_1
+$ module help quay.io/biocontainers/vispr/0.4.17--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

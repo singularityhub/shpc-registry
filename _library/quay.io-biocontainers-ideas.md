@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ideas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ideas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ideas/container.yaml"
-updated_at: "2023-02-18 03:05:44.230004"
+updated_at: "2023-02-19 03:11:15.205967"
 latest: "1.20--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/ideas"
 aliases:

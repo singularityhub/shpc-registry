@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mlinterfaces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlinterfaces/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlinterfaces/container.yaml"
-updated_at: "2023-02-18 03:03:11.554338"
+updated_at: "2023-02-19 03:08:39.956612"
 latest: "1.78.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlinterfaces"
 aliases:

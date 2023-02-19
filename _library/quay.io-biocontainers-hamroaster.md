@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hamroaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hamroaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hamroaster/container.yaml"
-updated_at: "2023-02-18 03:02:33.045209"
-latest: "1.1--hdfd78af_0"
+updated_at: "2023-02-19 03:08:00.534951"
+latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hamroaster"
 aliases:
  - "hAMRoaster"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.1--hdfd78af_0"
+ - "2.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hamroaster"
-config: {"url": "https://biocontainers.pro/tools/hamroaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hamroaster", "latest": {"1.1--hdfd78af_0": "sha256:602732a6c1a23eb5f72a7bae87f63649ae96421950b4883c65672ef50a051b1f"}, "tags": {"1.1--hdfd78af_0": "sha256:602732a6c1a23eb5f72a7bae87f63649ae96421950b4883c65672ef50a051b1f"}, "docker": "quay.io/biocontainers/hamroaster", "aliases": {"hAMRoaster": "/usr/local/bin/hAMRoaster", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/hamroaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hamroaster", "latest": {"2.0--hdfd78af_0": "sha256:e2c54233f71105abf940a35ae4a087a396891cdb8c2c6c40ee61029c7bde0a09"}, "tags": {"1.1--hdfd78af_0": "sha256:602732a6c1a23eb5f72a7bae87f63649ae96421950b4883c65672ef50a051b1f", "2.0--hdfd78af_0": "sha256:e2c54233f71105abf940a35ae4a087a396891cdb8c2c6c40ee61029c7bde0a09"}, "docker": "quay.io/biocontainers/hamroaster", "aliases": {"hAMRoaster": "/usr/local/bin/hAMRoaster", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hamroaster.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/hamroaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hamroaster:1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hamroaster:2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hamroaster/1.1--hdfd78af_0
-$ module help quay.io/biocontainers/hamroaster/1.1--hdfd78af_0
+$ module load quay.io/biocontainers/hamroaster/2.0--hdfd78af_0
+$ module help quay.io/biocontainers/hamroaster/2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

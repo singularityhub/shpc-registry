@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnvetti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnvetti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnvetti/container.yaml"
-updated_at: "2023-02-18 02:47:23.021845"
+updated_at: "2023-02-19 02:52:38.628547"
 latest: "0.2.0--he4cf2ce_0"
 container_url: "https://biocontainers.pro/tools/cnvetti"
 aliases:

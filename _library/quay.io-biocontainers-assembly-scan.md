@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/assembly-scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly-scan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly-scan/container.yaml"
-updated_at: "2023-02-18 03:09:38.051338"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2023-02-19 03:15:14.208575"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assembly-scan"
 aliases:
  - "assembly-scan"
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.4.1--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for assembly-scan"
-config: {"url": "https://biocontainers.pro/tools/assembly-scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assembly-scan", "latest": {"0.4.1--pyhdfd78af_0": "sha256:7f13be6cd0f1361cfbaa0053dde53503d070858945b241d3b56453e927cc7184"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:7f13be6cd0f1361cfbaa0053dde53503d070858945b241d3b56453e927cc7184"}, "docker": "quay.io/biocontainers/assembly-scan", "aliases": {"assembly-scan": "/usr/local/bin/assembly-scan", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/assembly-scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assembly-scan", "latest": {"1.0.0--pyhdfd78af_0": "sha256:41422d3f9db90836e291f32019332ee9fef2942ca5d3ee7d2594e690270d5022"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:7f13be6cd0f1361cfbaa0053dde53503d070858945b241d3b56453e927cc7184", "1.0.0--pyhdfd78af_0": "sha256:41422d3f9db90836e291f32019332ee9fef2942ca5d3ee7d2594e690270d5022"}, "docker": "quay.io/biocontainers/assembly-scan", "aliases": {"assembly-scan": "/usr/local/bin/assembly-scan", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/assembly-scan.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/assembly-scan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/assembly-scan:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/assembly-scan:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/assembly-scan/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/assembly-scan/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/assembly-scan/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/assembly-scan/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

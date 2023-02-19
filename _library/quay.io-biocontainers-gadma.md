@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gadma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gadma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gadma/container.yaml"
-updated_at: "2023-02-18 02:56:03.437361"
+updated_at: "2023-02-19 03:01:23.288954"
 latest: "2.0.0rc22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gadma"
 aliases:
