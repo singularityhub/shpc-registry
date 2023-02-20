@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-acidgenerics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidgenerics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidgenerics/container.yaml"
-updated_at: "2023-02-19 03:18:19.987580"
-latest: "0.6.5--r42hdfd78af_0"
+updated_at: "2023-02-20 03:29:39.728836"
+latest: "0.6.6--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidgenerics"
 
 versions:
  - "0.6.0--r41hdfd78af_0"
  - "0.6.5--r42hdfd78af_0"
+ - "0.6.6--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-acidgenerics"
-config: {"url": "https://biocontainers.pro/tools/r-acidgenerics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidgenerics", "latest": {"0.6.5--r42hdfd78af_0": "sha256:eb404b2df7f957fe5ec4ae9b5a3a2c4df0fdd81e8688bac22425e62738a0b664"}, "tags": {"0.6.0--r41hdfd78af_0": "sha256:5aecd9de123be462df57a67f21f21e4120ae904213ec2257935a228f93cc982e", "0.6.5--r42hdfd78af_0": "sha256:eb404b2df7f957fe5ec4ae9b5a3a2c4df0fdd81e8688bac22425e62738a0b664"}, "docker": "quay.io/biocontainers/r-acidgenerics"}
+config: {"url": "https://biocontainers.pro/tools/r-acidgenerics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidgenerics", "latest": {"0.6.6--r42hdfd78af_0": "sha256:ba82417bd0ce82db4c572afb7882c08552393edeeb7c005837909c86cf07ccdd"}, "tags": {"0.6.0--r41hdfd78af_0": "sha256:5aecd9de123be462df57a67f21f21e4120ae904213ec2257935a228f93cc982e", "0.6.5--r42hdfd78af_0": "sha256:eb404b2df7f957fe5ec4ae9b5a3a2c4df0fdd81e8688bac22425e62738a0b664", "0.6.6--r42hdfd78af_0": "sha256:ba82417bd0ce82db4c572afb7882c08552393edeeb7c005837909c86cf07ccdd"}, "docker": "quay.io/biocontainers/r-acidgenerics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidgenerics.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-acidgenerics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidgenerics:0.6.5--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidgenerics:0.6.6--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidgenerics/0.6.5--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-acidgenerics/0.6.5--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-acidgenerics/0.6.6--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-acidgenerics/0.6.6--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/endorspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/endorspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/endorspy/container.yaml"
-updated_at: "2023-02-19 03:08:37.490457"
-latest: "0.5--hdfd78af_0"
+updated_at: "2023-02-20 03:17:09.216514"
+latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/endorspy"
 aliases:
  - "endorspy"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.5--hdfd78af_0"
+ - "1.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for endorspy"
-config: {"url": "https://biocontainers.pro/tools/endorspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for endorspy", "latest": {"0.5--hdfd78af_0": "sha256:402476bda3cc7d9df3d802c271a0821faa677619529b8d1c53c929257efb83a5"}, "tags": {"0.5--hdfd78af_0": "sha256:402476bda3cc7d9df3d802c271a0821faa677619529b8d1c53c929257efb83a5"}, "docker": "quay.io/biocontainers/endorspy", "aliases": {"endorspy": "/usr/local/bin/endorspy", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/endorspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for endorspy", "latest": {"1.0--hdfd78af_0": "sha256:82d608161de72450004d724550489e33c529cfbcf39f933e4e5631de6ae21a77"}, "tags": {"0.5--hdfd78af_0": "sha256:402476bda3cc7d9df3d802c271a0821faa677619529b8d1c53c929257efb83a5", "1.0--hdfd78af_0": "sha256:82d608161de72450004d724550489e33c529cfbcf39f933e4e5631de6ae21a77"}, "docker": "quay.io/biocontainers/endorspy", "aliases": {"endorspy": "/usr/local/bin/endorspy", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/endorspy.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/endorspy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/endorspy:0.5--hdfd78af_0
+$ shpc install quay.io/biocontainers/endorspy:1.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/endorspy/0.5--hdfd78af_0
-$ module help quay.io/biocontainers/endorspy/0.5--hdfd78af_0
+$ module load quay.io/biocontainers/endorspy/1.0--hdfd78af_0
+$ module help quay.io/biocontainers/endorspy/1.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

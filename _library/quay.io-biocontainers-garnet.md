@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/garnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/garnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/garnet/container.yaml"
-updated_at: "2023-02-19 03:16:08.182765"
+updated_at: "2023-02-20 03:26:51.256370"
 latest: "0.4.5--py36_0"
 container_url: "https://biocontainers.pro/tools/garnet"
 aliases:

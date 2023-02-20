@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slivar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slivar/container.yaml"
-updated_at: "2023-02-19 03:08:35.345031"
+updated_at: "2023-02-20 03:17:06.441613"
 latest: "0.2.8--h2eeb373_0"
 container_url: "https://biocontainers.pro/tools/slivar"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yamda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yamda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yamda/container.yaml"
-updated_at: "2023-02-19 03:08:56.593479"
+updated_at: "2023-02-20 03:17:33.918923"
 latest: "0.1.00e9c9d--py_0"
 container_url: "https://biocontainers.pro/tools/yamda"
 aliases:

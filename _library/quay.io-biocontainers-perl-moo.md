@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moo/container.yaml"
-updated_at: "2023-02-19 02:59:34.154815"
+updated_at: "2023-02-20 03:05:18.271780"
 latest: "2.005004--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-moo"
 aliases:
