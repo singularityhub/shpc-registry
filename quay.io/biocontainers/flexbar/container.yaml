@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/flexbar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flexbar
 latest:
-  3.5.0--hf53871c_6: sha256:d40abb9636a555aee9e1c9343927a2a8931ea29bcc3483a938d48a81b44a2ba9
+  3.5.0--hac0a8cf_8: sha256:3a8e85519d5e2500776a66e6568abe52f3dc79e0148bc38682a2f12a7e651e52
 tags:
   3.5.0--hf53871c_6: sha256:d40abb9636a555aee9e1c9343927a2a8931ea29bcc3483a938d48a81b44a2ba9
+  3.5.0--hac0a8cf_8: sha256:3a8e85519d5e2500776a66e6568abe52f3dc79e0148bc38682a2f12a7e651e52
 docker: quay.io/biocontainers/flexbar
 aliases:
   flexbar: /usr/local/bin/flexbar
