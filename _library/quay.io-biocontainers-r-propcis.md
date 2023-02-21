@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-propcis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-propcis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-propcis/container.yaml"
-updated_at: "2023-02-20 03:07:25.553444"
+updated_at: "2023-02-21 03:06:11.642032"
 latest: "0.3_0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-propcis"
 aliases:

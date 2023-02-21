@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-downloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-downloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-downloader/container.yaml"
-updated_at: "2023-02-20 03:37:55.898509"
+updated_at: "2023-02-21 03:33:53.695577"
 latest: "0.0.4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-downloader"
 aliases:

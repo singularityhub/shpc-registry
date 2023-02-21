@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shapeit4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapeit4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapeit4/container.yaml"
-updated_at: "2023-02-20 02:56:52.983588"
+updated_at: "2023-02-21 02:56:37.219350"
 latest: "4.2.2--h24bf969_1"
 container_url: "https://biocontainers.pro/tools/shapeit4"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/flexbar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexbar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexbar/container.yaml"
-updated_at: "2023-02-20 03:09:10.283319"
-latest: "3.5.0--hf53871c_6"
+updated_at: "2023-02-21 03:07:47.475046"
+latest: "3.5.0--hac0a8cf_8"
 container_url: "https://biocontainers.pro/tools/flexbar"
 aliases:
  - "flexbar"
 versions:
  - "3.5.0--hf53871c_6"
+ - "3.5.0--hac0a8cf_8"
 description: "shpc-registry automated BioContainers addition for flexbar"
-config: {"url": "https://biocontainers.pro/tools/flexbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flexbar", "latest": {"3.5.0--hf53871c_6": "sha256:d40abb9636a555aee9e1c9343927a2a8931ea29bcc3483a938d48a81b44a2ba9"}, "tags": {"3.5.0--hf53871c_6": "sha256:d40abb9636a555aee9e1c9343927a2a8931ea29bcc3483a938d48a81b44a2ba9"}, "docker": "quay.io/biocontainers/flexbar", "aliases": {"flexbar": "/usr/local/bin/flexbar"}}
+config: {"url": "https://biocontainers.pro/tools/flexbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flexbar", "latest": {"3.5.0--hac0a8cf_8": "sha256:3a8e85519d5e2500776a66e6568abe52f3dc79e0148bc38682a2f12a7e651e52"}, "tags": {"3.5.0--hf53871c_6": "sha256:d40abb9636a555aee9e1c9343927a2a8931ea29bcc3483a938d48a81b44a2ba9", "3.5.0--hac0a8cf_8": "sha256:3a8e85519d5e2500776a66e6568abe52f3dc79e0148bc38682a2f12a7e651e52"}, "docker": "quay.io/biocontainers/flexbar", "aliases": {"flexbar": "/usr/local/bin/flexbar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexbar.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/flexbar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexbar:3.5.0--hf53871c_6
+$ shpc install quay.io/biocontainers/flexbar:3.5.0--hac0a8cf_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexbar/3.5.0--hf53871c_6
-$ module help quay.io/biocontainers/flexbar/3.5.0--hf53871c_6
+$ module load quay.io/biocontainers/flexbar/3.5.0--hac0a8cf_8
+$ module help quay.io/biocontainers/flexbar/3.5.0--hac0a8cf_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

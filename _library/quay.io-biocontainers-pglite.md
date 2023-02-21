@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pglite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pglite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pglite/container.yaml"
-updated_at: "2023-02-20 03:29:51.918270"
+updated_at: "2023-02-21 03:26:35.546845"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/pglite"
 aliases:

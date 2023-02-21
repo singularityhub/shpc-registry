@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnp-mapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-mapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-mapping/container.yaml"
-updated_at: "2023-02-20 03:35:42.922231"
+updated_at: "2023-02-21 03:31:55.340890"
 latest: "1.0--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/dnp-mapping"
 aliases:
