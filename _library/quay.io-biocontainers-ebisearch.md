@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ebisearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebisearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebisearch/container.yaml"
-updated_at: "2023-02-22 03:40:35.006866"
+updated_at: "2023-02-22 03:48:30.844830"
 latest: "0.0.3--py_2"
 container_url: "https://biocontainers.pro/tools/ebisearch"
 aliases:

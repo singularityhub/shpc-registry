@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/caliper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/caliper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/caliper/container.yaml"
-updated_at: "2023-02-22 02:50:07.551864"
+updated_at: "2023-02-22 03:05:23.634382"
 latest: "2.7.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/caliper"
 aliases:
