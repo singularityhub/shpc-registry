@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/vechat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vechat
+latest:
+  1.1.1--hd03093a_0: sha256:3fd6073f81707055f4af8c636a906f8b16778446aabb0c715f5d34adf264854e
+tags:
+  1.1.1--hd03093a_0: sha256:3fd6073f81707055f4af8c636a906f8b16778446aabb0c715f5d34adf264854e
+docker: quay.io/biocontainers/vechat
+aliases:
+  fpa: /usr/local/bin/fpa
+  vechat: /usr/local/bin/vechat
+  yacrd: /usr/local/bin/yacrd
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  racon: /usr/local/bin/racon
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  python3.1: /usr/local/bin/python3.1

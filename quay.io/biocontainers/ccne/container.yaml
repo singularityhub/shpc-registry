@@ -1,0 +1,68 @@
+url: https://biocontainers.pro/tools/ccne
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ccne
+latest:
+  1.1.2--hdfd78af_0: sha256:8dd9b936ad9c057d19fe7399a8492e2de9966717ce18c52bfa93a00f2029fdde
+tags:
+  1.1.2--hdfd78af_0: sha256:8dd9b936ad9c057d19fe7399a8492e2de9966717ce18c52bfa93a00f2029fdde
+docker: quay.io/biocontainers/ccne
+aliases:
+  alignmentSieve: /usr/local/bin/alignmentSieve
+  bamCompare: /usr/local/bin/bamCompare
+  bamCoverage: /usr/local/bin/bamCoverage
+  bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
+  bigwigCompare: /usr/local/bin/bigwigCompare
+  ccne-acc: /usr/local/bin/ccne-acc
+  ccne-fast: /usr/local/bin/ccne-fast
+  computeGCBias: /usr/local/bin/computeGCBias
+  computeMatrix: /usr/local/bin/computeMatrix
+  computeMatrixOperations: /usr/local/bin/computeMatrixOperations
+  correctGCBias: /usr/local/bin/correctGCBias
+  deeptools: /usr/local/bin/deeptools
+  estimateReadFiltering: /usr/local/bin/estimateReadFiltering
+  estimateScaleFactor: /usr/local/bin/estimateScaleFactor
+  hts_AdapterTrimmer: /usr/local/bin/hts_AdapterTrimmer
+  hts_CutTrim: /usr/local/bin/hts_CutTrim
+  hts_LengthFilter: /usr/local/bin/hts_LengthFilter
+  hts_NTrimmer: /usr/local/bin/hts_NTrimmer
+  hts_Overlapper: /usr/local/bin/hts_Overlapper
+  hts_PolyATTrim: /usr/local/bin/hts_PolyATTrim
+  hts_Primers: /usr/local/bin/hts_Primers
+  hts_QWindowTrim: /usr/local/bin/hts_QWindowTrim
+  hts_SeqScreener: /usr/local/bin/hts_SeqScreener
+  hts_Stats: /usr/local/bin/hts_Stats
+  hts_SuperDeduper: /usr/local/bin/hts_SuperDeduper
+  multiBamSummary: /usr/local/bin/multiBamSummary
+  multiBigwigSummary: /usr/local/bin/multiBigwigSummary
+  plotCorrelation: /usr/local/bin/plotCorrelation
+  plotCoverage: /usr/local/bin/plotCoverage
+  plotEnrichment: /usr/local/bin/plotEnrichment
+  plotFingerprint: /usr/local/bin/plotFingerprint
+  plotHeatmap: /usr/local/bin/plotHeatmap
+  plotPCA: /usr/local/bin/plotPCA
+  plotProfile: /usr/local/bin/plotProfile
+  faToTwoBit: /usr/local/bin/faToTwoBit
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns
+  snp2hgvs: /usr/local/bin/snp2hgvs
+  snp2tbl: /usr/local/bin/snp2tbl
+  sort-table: /usr/local/bin/sort-table
+  spdi2tbl: /usr/local/bin/spdi2tbl

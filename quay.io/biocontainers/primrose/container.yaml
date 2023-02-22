@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/primrose
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for primrose
+latest:
+  1.3.0--h9ee0642_0: sha256:ea2d49caee235c569a315686b73d922f09c42132985fdebd880cbd99bec9a651
+tags:
+  1.3.0--h9ee0642_0: sha256:ea2d49caee235c569a315686b73d922f09c42132985fdebd880cbd99bec9a651
+docker: quay.io/biocontainers/primrose
+aliases:
+  primrose: /usr/local/bin/primrose

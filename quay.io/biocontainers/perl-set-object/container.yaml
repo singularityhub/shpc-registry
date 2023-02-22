@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-set-object
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-set-object
+latest:
+  1.42--pl5321hec16e2b_1: sha256:5246d56b3e7415ac302f1004470f10ff5e05335ff010ac69cce6f26596e31b31
+tags:
+  1.42--pl5321hec16e2b_1: sha256:5246d56b3e7415ac302f1004470f10ff5e05335ff010ac69cce6f26596e31b31
+docker: quay.io/biocontainers/perl-set-object
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

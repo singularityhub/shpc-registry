@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/drtransformer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for drtransformer
+latest:
+  1.0--pyhdfd78af_0: sha256:170dc57bb7b729ae62c4a3aa330065c69da299a4c5edbdca27aefc007f0a131f
+tags:
+  1.0--pyhdfd78af_0: sha256:170dc57bb7b729ae62c4a3aa330065c69da299a4c5edbdca27aefc007f0a131f
+docker: quay.io/biocontainers/drtransformer
+aliases:
+  DrPlotter: /usr/local/bin/DrPlotter
+  DrTransformer: /usr/local/bin/DrTransformer
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  flit: /usr/local/bin/flit
+  RNAdos: /usr/local/bin/RNAdos
+  docutils: /usr/local/bin/docutils
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNAplex: /usr/local/bin/RNAplex
+  RNAsnoop: /usr/local/bin/RNAsnoop
+  RNAfold: /usr/local/bin/RNAfold
+  Kinfold: /usr/local/bin/Kinfold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval

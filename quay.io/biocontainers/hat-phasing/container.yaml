@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hat-phasing
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hat-phasing
+latest:
+  0.1.8--pyh5e36f6f_0: sha256:244b33a4a7d41f5ab96f098210376a52798de2f7f8fbe893c3acae980dc89edb
+tags:
+  0.1.8--pyh5e36f6f_0: sha256:244b33a4a7d41f5ab96f098210376a52798de2f7f8fbe893c3acae980dc89edb
+docker: quay.io/biocontainers/hat-phasing
+aliases:
+  HAT: /usr/local/bin/HAT
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  img2webp: /usr/local/bin/img2webp
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  gif2webp: /usr/local/bin/gif2webp
+  f2py3.9: /usr/local/bin/f2py3.9
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jpgicc: /usr/local/bin/jpgicc

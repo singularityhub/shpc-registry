@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/unifrac-binaries
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for unifrac-binaries
+latest:
+  1.2.1--h73f19ed_0: sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82
+tags:
+  1.2.1--h73f19ed_0: sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82
+docker: quay.io/biocontainers/unifrac-binaries
+aliases:
+  faithpd: /usr/local/bin/faithpd
+  ssu: /usr/local/bin/ssu
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

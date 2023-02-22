@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/segmetrics
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for segmetrics
+latest:
+  1.2.1--pyhdfd78af_0: sha256:86cb12f1a08afa192720f5dfc28c25144a1f008fbc83e0c153bc1209d70e5127
+tags:
+  1.2.1--pyhdfd78af_0: sha256:86cb12f1a08afa192720f5dfc28c25144a1f008fbc83e0c153bc1209d70e5127
+docker: quay.io/biocontainers/segmetrics
+aliases:
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  dask: /usr/local/bin/dask
+  dav1d: /usr/local/bin/dav1d
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  aec: /usr/local/bin/aec
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  fitscopy: /usr/local/bin/fitscopy
+  fpack: /usr/local/bin/fpack
+  funpack: /usr/local/bin/funpack
+  imcopy: /usr/local/bin/imcopy
+  smem: /usr/local/bin/smem
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress

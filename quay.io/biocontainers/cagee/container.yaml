@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/cagee
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cagee
+latest:
+  1.0--hc5b1d88_0: sha256:4d019ff9d4fe43e8179864b73887b2cd86f9a4aaaaacaf546d400f95af288a25
+tags:
+  1.0--hc5b1d88_0: sha256:4d019ff9d4fe43e8179864b73887b2cd86f9a4aaaaacaf546d400f95af288a25
+docker: quay.io/biocontainers/cagee
+aliases:
+  cagee: /usr/local/bin/cagee
+  diffmat_precalc: /usr/local/bin/diffmat_precalc
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics

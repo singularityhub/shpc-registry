@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-alien-build
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-alien-build
+latest:
+  2.53--pl5321hec16e2b_0: sha256:766b9dd14778f802b418403163105f81c3d456dba8e8ceff492ffd31ed21de67
+tags:
+  2.53--pl5321hec16e2b_0: sha256:766b9dd14778f802b418403163105f81c3d456dba8e8ceff492ffd31ed21de67
+docker: quay.io/biocontainers/perl-alien-build
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

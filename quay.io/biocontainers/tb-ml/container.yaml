@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/tb-ml
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tb-ml
+latest:
+  0.1.1--pyh7cba7a3_0: sha256:30db4ee44c9657ea1f262b638fa00563e9956fd6c8d90ef3f45be1c8c77e6d28
+tags:
+  0.1.1--pyh7cba7a3_0: sha256:30db4ee44c9657ea1f262b638fa00563e9956fd6c8d90ef3f45be1c8c77e6d28
+docker: quay.io/biocontainers/tb-ml
+aliases:
+  tb-ml: /usr/local/bin/tb-ml
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

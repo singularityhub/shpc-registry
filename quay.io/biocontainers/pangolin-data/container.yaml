@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pangolin-data
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pangolin-data
+latest:
+  1.9--pyh5e36f6f_0: sha256:986d54d7de55e4764ee8a9eb195a46beb883fb9638879d559c815c9bd11d0f5c
+tags:
+  1.9--pyh5e36f6f_0: sha256:986d54d7de55e4764ee8a9eb195a46beb883fb9638879d559c815c9bd11d0f5c
+docker: quay.io/biocontainers/pangolin-data
+aliases:
+  pangolin_data: /usr/local/bin/pangolin_data
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

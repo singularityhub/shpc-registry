@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/pymsaviz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pymsaviz
+latest:
+  0.2.2--pyhdfd78af_0: sha256:6063eca7067725c31f5523a07212a22dd3d9d4f0aa8a389e829f4b85e5331a1e
+tags:
+  0.2.2--pyhdfd78af_0: sha256:6063eca7067725c31f5523a07212a22dd3d9d4f0aa8a389e829f4b85e5331a1e
+docker: quay.io/biocontainers/pymsaviz
+aliases:
+  f2py3.11: /usr/local/bin/f2py3.11
+  pymsaviz: /usr/local/bin/pymsaviz
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

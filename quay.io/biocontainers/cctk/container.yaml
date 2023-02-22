@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/cctk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cctk
+latest:
+  1.0--pyhdfd78af_0: sha256:046a352de85151b1ac1500e8c2f1f1edc1454f027e956246d11e1d03a95dc96b
+tags:
+  1.0--pyhdfd78af_0: sha256:046a352de85151b1ac1500e8c2f1f1edc1454f027e956246d11e1d03a95dc96b
+docker: quay.io/biocontainers/cctk
+aliases:
+  cctk: /usr/local/bin/cctk
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  minced: /usr/local/bin/minced
+  dendropy-format: /usr/local/bin/dendropy-format
+  jpackage: /usr/local/bin/jpackage
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh

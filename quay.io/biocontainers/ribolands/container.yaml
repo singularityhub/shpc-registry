@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/ribolands
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ribolands
+latest:
+  0.6.1--py_0: sha256:75d2a6f7dfd6157c1a8b03ed416f7dcc30b223232f588b41f93cf33d10a3c4cc
+tags:
+  0.6.1--py_0: sha256:75d2a6f7dfd6157c1a8b03ed416f7dcc30b223232f588b41f93cf33d10a3c4cc
+docker: quay.io/biocontainers/ribolands
+aliases:
+  BarMap.py: /usr/local/bin/BarMap.py
+  DrTransformer.py: /usr/local/bin/DrTransformer.py
+  barriers: /usr/local/bin/barriers
+  crnsimulator: /usr/local/bin/crnsimulator
+  crossrates.pl: /usr/local/bin/crossrates.pl
+  fix_bar.pl: /usr/local/bin/fix_bar.pl
+  genPoHoLandscape: /usr/local/bin/genPoHoLandscape
+  qd-config: /usr/local/bin/qd-config
+  saddle.pl: /usr/local/bin/saddle.pl
+  saddle2dot.pl: /usr/local/bin/saddle2dot.pl
+  saddle2gml.pl: /usr/local/bin/saddle2gml.pl
+  treekin: /usr/local/bin/treekin
+  treeplot.pl: /usr/local/bin/treeplot.pl
+  isympy: /usr/local/bin/isympy
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNAplex: /usr/local/bin/RNAplex
+  RNAsnoop: /usr/local/bin/RNAsnoop
+  RNAfold: /usr/local/bin/RNAfold
+  Kinfold: /usr/local/bin/Kinfold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval

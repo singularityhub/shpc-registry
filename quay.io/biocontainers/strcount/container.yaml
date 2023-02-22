@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/strcount
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for strcount
+latest:
+  0.1.1--py310h7cba7a3_1: sha256:82cd8d8d9ce1f49bfe58bee2eead716e442f62156ddf29ceff66f442feb26840
+tags:
+  0.1.1--py310h7cba7a3_1: sha256:82cd8d8d9ce1f49bfe58bee2eead716e442f62156ddf29ceff66f442feb26840
+docker: quay.io/biocontainers/strcount
+aliases:
+  STRcount: /usr/local/bin/STRcount
+  STRcount.py: /usr/local/bin/STRcount.py
+  genome_str_graph_generator.py: /usr/local/bin/genome_str_graph_generator.py
+  parse_gaf.py: /usr/local/bin/parse_gaf.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

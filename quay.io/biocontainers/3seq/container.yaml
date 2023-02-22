@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/3seq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 3seq
+latest:
+  1.8--h9f5acd7_1: sha256:471d0948d34338bb871ef005b267bd08119f1d4fde178a4a755e696f635542e7
+tags:
+  1.8--h9f5acd7_1: sha256:471d0948d34338bb871ef005b267bd08119f1d4fde178a4a755e696f635542e7
+docker: quay.io/biocontainers/3seq
+aliases:
+  3seq: /usr/local/bin/3seq

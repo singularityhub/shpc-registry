@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/svjedi-graph
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for svjedi-graph
+latest:
+  1.1.0--hdfd78af_0: sha256:a8e1dcc074f211d4ccc99a888c7e83fa2c65493cbb576c64146b0f9c80a1d855
+tags:
+  1.1.0--hdfd78af_0: sha256:a8e1dcc074f211d4ccc99a888c7e83fa2c65493cbb576c64146b0f9c80a1d855
+docker: quay.io/biocontainers/svjedi-graph
+aliases:
+  construct-graph.py: /usr/local/bin/construct-graph.py
+  f2py3.11: /usr/local/bin/f2py3.11
+  filter-alignments.py: /usr/local/bin/filter-alignments.py
+  minigraph: /usr/local/bin/minigraph
+  predict-genotype.py: /usr/local/bin/predict-genotype.py
+  svjedi-graph.py: /usr/local/bin/svjedi-graph.py
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

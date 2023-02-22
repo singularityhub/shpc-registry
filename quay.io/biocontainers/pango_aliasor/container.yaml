@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pango_aliasor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pango_aliasor
+latest:
+  0.3.0--pyhdfd78af_0: sha256:2f194cf4c60a36f993b8347e312ce6668b094d6ee5d0cd1c29d0c8b5016629a7
+tags:
+  0.3.0--pyhdfd78af_0: sha256:2f194cf4c60a36f993b8347e312ce6668b094d6ee5d0cd1c29d0c8b5016629a7
+docker: quay.io/biocontainers/pango_aliasor
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

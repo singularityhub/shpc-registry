@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/knotinframe
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for knotinframe
+latest:
+  2.2.14--pl5321h9f5acd7_0: sha256:99b15a33cd982b2e72e14365fe820b883ac07228c32a941e7665894164496e9e
+tags:
+  2.2.14--pl5321h9f5acd7_0: sha256:99b15a33cd982b2e72e14365fe820b883ac07228c32a941e7665894164496e9e
+docker: quay.io/biocontainers/knotinframe
+aliases:
+  addRNAoptions.pl: /usr/local/bin/addRNAoptions.pl
+  gapc: /usr/local/bin/gapc
+  knotinframe: /usr/local/bin/knotinframe
+  knotinframe_knotted: /usr/local/bin/knotinframe_knotted
+  knotinframe_nested: /usr/local/bin/knotinframe_nested
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/tiny-count
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tiny-count
+latest:
+  1.2.1--py39h9f5acd7_0: sha256:00d7937f9f932d604fbf23573e7800e8aa0a3a9d0a9d0a29d9bd0d9a8ead0ed8
+tags:
+  1.2.1--py39h9f5acd7_0: sha256:00d7937f9f932d604fbf23573e7800e8aa0a3a9d0a9d0a29d9bd0d9a8ead0ed8
+docker: quay.io/biocontainers/tiny-count
+aliases:
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  tiny-count: /usr/local/bin/tiny-count
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.9: /usr/local/bin/f2py3.9
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

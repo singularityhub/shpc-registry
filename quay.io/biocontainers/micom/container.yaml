@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/micom
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for micom
+latest:
+  0.32.2--pyhdfd78af_0: sha256:e88e4949c421da1c631562600ebdd2066b9e4d52b7caeb037ac64e6883d7c2d5
+tags:
+  0.32.2--pyhdfd78af_0: sha256:e88e4949c421da1c631562600ebdd2066b9e4d52b7caeb037ac64e6883d7c2d5
+docker: quay.io/biocontainers/micom
+aliases:
+  httpx: /usr/local/bin/httpx
+  isympy: /usr/local/bin/isympy
+  cmark: /usr/local/bin/cmark
+  glpsol: /usr/local/bin/glpsol
+  pygmentize: /usr/local/bin/pygmentize
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/miga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for miga
+latest:
+  1.0.0--py310h87f3376_0: sha256:fb9e4578449253b8af2d218c7059b006d0171d8b1bacd61da2aa68c541ea2810
+tags:
+  1.0.0--py310h87f3376_0: sha256:fb9e4578449253b8af2d218c7059b006d0171d8b1bacd61da2aa68c541ea2810
+docker: quay.io/biocontainers/miga
+aliases:
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

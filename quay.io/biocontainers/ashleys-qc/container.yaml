@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/ashleys-qc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ashleys-qc
+latest:
+  0.2.1--pyh7cba7a3_0: sha256:8674a372ec9c7a2105e26fb260b8f7ac0b0e31c988bb1c7a47ba983fa34d2b5f
+tags:
+  0.2.1--pyh7cba7a3_0: sha256:8674a372ec9c7a2105e26fb260b8f7ac0b0e31c988bb1c7a47ba983fa34d2b5f
+docker: quay.io/biocontainers/ashleys-qc
+aliases:
+  ashleys: /usr/local/bin/ashleys
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

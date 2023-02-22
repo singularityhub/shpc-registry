@@ -1,0 +1,83 @@
+url: https://biocontainers.pro/tools/learnmsa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for learnmsa
+latest:
+  1.1.1--pyhdfd78af_0: sha256:66888945c7f807fe6f43c67fce091f423b2d8657593d3910485c852d317e1b1b
+tags:
+  1.1.1--pyhdfd78af_0: sha256:66888945c7f807fe6f43c67fce091f423b2d8657593d3910485c852d317e1b1b
+docker: quay.io/biocontainers/learnmsa
+aliases:
+  attr: /usr/local/bin/attr
+  balsam: /usr/local/bin/balsam
+  dumpsexp: /usr/local/bin/dumpsexp
+  flatc: /usr/local/bin/flatc
+  getfattr: /usr/local/bin/getfattr
+  gpg-error: /usr/local/bin/gpg-error
+  gpgrt-config: /usr/local/bin/gpgrt-config
+  hmac256: /usr/local/bin/hmac256
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  jackd: /usr/local/bin/jackd
+  lame: /usr/local/bin/lame
+  learnMSA: /usr/local/bin/learnMSA
+  libgcrypt-config: /usr/local/bin/libgcrypt-config
+  lprodump: /usr/local/bin/lprodump
+  lrelease-pro: /usr/local/bin/lrelease-pro
+  lupdate-pro: /usr/local/bin/lupdate-pro
+  meshdebug: /usr/local/bin/meshdebug
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  mpicalc: /usr/local/bin/mpicalc
+  orc-bugreport: /usr/local/bin/orc-bugreport
+  orcc: /usr/local/bin/orcc
+  out123: /usr/local/bin/out123
+  pa-info: /usr/local/bin/pa-info
+  pacat: /usr/local/bin/pacat
+  pacmd: /usr/local/bin/pacmd
+  pactl: /usr/local/bin/pactl
+  padsp: /usr/local/bin/padsp
+  pamon: /usr/local/bin/pamon
+  paplay: /usr/local/bin/paplay
+  parec: /usr/local/bin/parec
+  parecord: /usr/local/bin/parecord
+  pasuspender: /usr/local/bin/pasuspender
+  pulseaudio: /usr/local/bin/pulseaudio
+  qmlformat: /usr/local/bin/qmlformat
+  qmltime: /usr/local/bin/qmltime
+  qmltyperegistrar: /usr/local/bin/qmltyperegistrar
+  qpaeq: /usr/local/bin/qpaeq
+  setfattr: /usr/local/bin/setfattr
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  tjbench: /usr/local/bin/tjbench
+  tracegen: /usr/local/bin/tracegen
+  yat2m: /usr/local/bin/yat2m
+  flac: /usr/local/bin/flac
+  metaflac: /usr/local/bin/metaflac
+  sndfile-cmp: /usr/local/bin/sndfile-cmp
+  sndfile-concat: /usr/local/bin/sndfile-concat
+  sndfile-convert: /usr/local/bin/sndfile-convert
+  sndfile-deinterleave: /usr/local/bin/sndfile-deinterleave
+  sndfile-info: /usr/local/bin/sndfile-info
+  sndfile-interleave: /usr/local/bin/sndfile-interleave
+  sndfile-metadata-get: /usr/local/bin/sndfile-metadata-get
+  sndfile-metadata-set: /usr/local/bin/sndfile-metadata-set
+  sndfile-play: /usr/local/bin/sndfile-play
+  sndfile-salvage: /usr/local/bin/sndfile-salvage
+  aec: /usr/local/bin/aec
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli

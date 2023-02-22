@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/nwalign3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nwalign3
+latest:
+  0.1.2--py39h5371cbf_1: sha256:ee11f13a1b8d7b3af2f9b7f2c04e3b9dd0500dad01db26684b3270929cfd1c85
+tags:
+  0.1.2--py39h5371cbf_1: sha256:ee11f13a1b8d7b3af2f9b7f2c04e3b9dd0500dad01db26684b3270929cfd1c85
+docker: quay.io/biocontainers/nwalign3
+aliases:
+  nwalign3: /usr/local/bin/nwalign3
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

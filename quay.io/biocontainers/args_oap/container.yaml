@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/args_oap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for args_oap
+latest:
+  3.2.2--pyhdfd78af_0: sha256:035c6573848666c012677d1106e3fe929d4c27b5d031e6f653701a1d275546dd
+tags:
+  3.2.2--pyhdfd78af_0: sha256:035c6573848666c012677d1106e3fe929d4c27b5d031e6f653701a1d275546dd
+docker: quay.io/biocontainers/args_oap
+aliases:
+  args_oap: /usr/local/bin/args_oap
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  diamond: /usr/local/bin/diamond
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns
+  snp2hgvs: /usr/local/bin/snp2hgvs
+  snp2tbl: /usr/local/bin/snp2tbl

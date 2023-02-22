@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/vcferr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcferr
+latest:
+  1.0.2--pyh5e36f6f_0: sha256:907c08aea4c424fdab85fdc338948720ff403491630b158b49ea1cf88253f075
+tags:
+  1.0.2--pyh5e36f6f_0: sha256:907c08aea4c424fdab85fdc338948720ff403491630b158b49ea1cf88253f075
+docker: quay.io/biocontainers/vcferr
+aliases:
+  vcferr: /usr/local/bin/vcferr
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

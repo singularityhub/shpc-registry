@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/trimap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trimap
+latest:
+  1.0.15--pyh5e36f6f_0: sha256:b67589b79c9d42bd18407a74c65352f99bec6c995b200a9e312530b8d3c0cac2
+tags:
+  1.0.15--pyh5e36f6f_0: sha256:b67589b79c9d42bd18407a74c65352f99bec6c995b200a9e312530b8d3c0cac2
+docker: quay.io/biocontainers/trimap
+aliases:
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/superstr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for superstr
+latest:
+  1.0.1--hb8809f8_1: sha256:29e787cd718ddb6258bdfc7755491b26bc99eb9e4b7559e501eb3fa8b41e42d8
+tags:
+  1.0.1--hb8809f8_1: sha256:29e787cd718ddb6258bdfc7755491b26bc99eb9e4b7559e501eb3fa8b41e42d8
+docker: quay.io/biocontainers/superstr
+aliases:
+  superstr: /usr/local/bin/superstr
+  superstr-multiparse.py: /usr/local/bin/superstr-multiparse.py
+  superstr-outliers.py: /usr/local/bin/superstr-outliers.py
+  superstr-screen.py: /usr/local/bin/superstr-screen.py
+  superstr-visualise.py: /usr/local/bin/superstr-visualise.py
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  tqdm: /usr/local/bin/tqdm
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc

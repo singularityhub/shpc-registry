@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/snapgene-reader
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snapgene-reader
+latest:
+  0.1.20--pyh5e36f6f_0: sha256:b078df049cdb7d95bf8f783f13b474410ed43bb5a5e48822284af7f324328730
+tags:
+  0.1.20--pyh5e36f6f_0: sha256:b078df049cdb7d95bf8f783f13b474410ed43bb5a5e48822284af7f324328730
+docker: quay.io/biocontainers/snapgene-reader
+aliases:
+  html2text: /usr/local/bin/html2text
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

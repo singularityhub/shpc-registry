@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/pprodigal
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pprodigal
+latest:
+  1.0.1--pyhdfd78af_0: sha256:e1dea61b36b2abbe952a878e0faa884a61f37c2ff1fe246de27084f939313866
+tags:
+  1.0.1--pyhdfd78af_0: sha256:e1dea61b36b2abbe952a878e0faa884a61f37c2ff1fe246de27084f939313866
+docker: quay.io/biocontainers/pprodigal
+aliases:
+  pprodigal: /usr/local/bin/pprodigal
+  prodigal: /usr/local/bin/prodigal
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

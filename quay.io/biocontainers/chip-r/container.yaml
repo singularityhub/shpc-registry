@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/chip-r
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chip-r
+latest:
+  1.2.0--pyh3252c3a_0: sha256:30e3eae0a5c752284e44784bef6d2b6748bf854af2ffba4526363748839f002f
+tags:
+  1.2.0--pyh3252c3a_0: sha256:30e3eae0a5c752284e44784bef6d2b6748bf854af2ffba4526363748839f002f
+docker: quay.io/biocontainers/chip-r
+aliases:
+  ChIP-R: /usr/local/bin/ChIP-R
+  chipr: /usr/local/bin/chipr
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

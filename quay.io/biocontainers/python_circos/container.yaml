@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/python_circos
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for python_circos
+latest:
+  0.2.0--pyhdfd78af_0: sha256:d28d795f266ef1ed142811d64dd186c31170f953b413569086d9485398cad5fa
+tags:
+  0.2.0--pyhdfd78af_0: sha256:d28d795f266ef1ed142811d64dd186c31170f953b413569086d9485398cad5fa
+docker: quay.io/biocontainers/python_circos
+aliases:
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

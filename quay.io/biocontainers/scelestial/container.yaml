@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/scelestial
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scelestial
+latest:
+  1.2--ha038e3a_0: sha256:7511424a988ccc7a257b2dafb32ecbca7d0a4a54da768777334626b51f0ec063
+tags:
+  1.2--ha038e3a_0: sha256:7511424a988ccc7a257b2dafb32ecbca7d0a4a54da768777334626b51f0ec063
+docker: quay.io/biocontainers/scelestial
+aliases:
+  scelestial: /usr/local/bin/scelestial
+  scelestial-synthesis: /usr/local/bin/scelestial-synthesis
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

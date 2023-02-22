@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/quickdeconvolution
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for quickdeconvolution
+latest:
+  1.2--h9f5acd7_1: sha256:7c6112a9889f9d25d53a6abb2b50efab95ae71eee7c8979c2a03a9301be9374f
+tags:
+  1.2--h9f5acd7_1: sha256:7c6112a9889f9d25d53a6abb2b50efab95ae71eee7c8979c2a03a9301be9374f
+docker: quay.io/biocontainers/quickdeconvolution
+aliases:
+  QuickDeconvolution: /usr/local/bin/QuickDeconvolution

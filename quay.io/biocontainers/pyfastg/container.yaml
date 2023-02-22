@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pyfastg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyfastg
+latest:
+  0.1.0--pyhdfd78af_0: sha256:80e805cb94947aaa143d3977d394deff18f7eb0f7e20e933e6bf4e3dade6561d
+tags:
+  0.1.0--pyhdfd78af_0: sha256:80e805cb94947aaa143d3977d394deff18f7eb0f7e20e933e6bf4e3dade6561d
+docker: quay.io/biocontainers/pyfastg
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

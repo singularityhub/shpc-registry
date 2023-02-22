@@ -1,0 +1,53 @@
+url: https://biocontainers.pro/tools/btllib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for btllib
+latest:
+  1.4.8--py39hc16433a_0: sha256:4d03cfdc291711db69669ef38cf5df43e4a4350831275f732f1b931a07025bd1
+tags:
+  1.4.8--py39hc16433a_0: sha256:4d03cfdc291711db69669ef38cf5df43e4a4350831275f732f1b931a07025bd1
+docker: quay.io/biocontainers/btllib
+aliases:
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  indexlr: /usr/local/bin/indexlr
+  lrunzip: /usr/local/bin/lrunzip
+  lrzcat: /usr/local/bin/lrzcat
+  lrzip: /usr/local/bin/lrzip
+  lrztar: /usr/local/bin/lrztar
+  lrzuntar: /usr/local/bin/lrzuntar
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  zip: /usr/local/bin/zip
+  tar: /usr/local/bin/tar
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  idn2: /usr/local/bin/idn2
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  wget: /usr/local/bin/wget
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl

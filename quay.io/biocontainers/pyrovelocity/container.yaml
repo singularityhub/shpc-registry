@@ -1,0 +1,59 @@
+url: https://biocontainers.pro/tools/pyrovelocity
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyrovelocity
+latest:
+  0.1.0--pyhdfd78af_1: sha256:31ff8b6366fae517f4aaa05e7252b43ea407476414881adf1c0d3d228a7f6187
+tags:
+  0.1.0--pyhdfd78af_1: sha256:31ff8b6366fae517f4aaa05e7252b43ea407476414881adf1c0d3d228a7f6187
+docker: quay.io/biocontainers/pyrovelocity
+aliases:
+  fits2bitmap: /usr/local/bin/fits2bitmap
+  fitscheck: /usr/local/bin/fitscheck
+  fitsdiff: /usr/local/bin/fitsdiff
+  fitsheader: /usr/local/bin/fitsheader
+  fitsinfo: /usr/local/bin/fitsinfo
+  jlpm: /usr/local/bin/jlpm
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  jupyter-nbclassic: /usr/local/bin/jupyter-nbclassic
+  jupyter-nbclassic-bundlerextension: /usr/local/bin/jupyter-nbclassic-bundlerextension
+  jupyter-nbclassic-extension: /usr/local/bin/jupyter-nbclassic-extension
+  jupyter-nbclassic-serverextension: /usr/local/bin/jupyter-nbclassic-serverextension
+  jupyter-server: /usr/local/bin/jupyter-server
+  keyring: /usr/local/bin/keyring
+  loompy: /usr/local/bin/loompy
+  pkginfo: /usr/local/bin/pkginfo
+  poetry: /usr/local/bin/poetry
+  pyjson5: /usr/local/bin/pyjson5
+  pyrovelocity: /usr/local/bin/pyrovelocity
+  samp_hub: /usr/local/bin/samp_hub
+  showtable: /usr/local/bin/showtable
+  volint: /usr/local/bin/volint
+  wcslint: /usr/local/bin/wcslint
+  wsdump: /usr/local/bin/wsdump
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  send2trash: /usr/local/bin/send2trash
+  scanpy: /usr/local/bin/scanpy
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  cmark: /usr/local/bin/cmark
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  doesitcache: /usr/local/bin/doesitcache
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  pybabel: /usr/local/bin/pybabel
+  tensorboard: /usr/local/bin/tensorboard
+  curve_keygen: /usr/local/bin/curve_keygen
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc

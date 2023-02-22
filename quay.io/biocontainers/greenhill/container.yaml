@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/greenhill
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for greenhill
+latest:
+  1.0.0--hf1761c0_0: sha256:29d9a3b0c0ae4af8193506dad3ca0366d449d398ca93f6cd51aed4d536981cd9
+tags:
+  1.0.0--hf1761c0_0: sha256:29d9a3b0c0ae4af8193506dad3ca0366d449d398ca93f6cd51aed4d536981cd9
+docker: quay.io/biocontainers/greenhill
+aliases:
+  greenhill: /usr/local/bin/greenhill
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zless: /usr/local/bin/zless
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8

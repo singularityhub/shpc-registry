@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/gorpipe
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gorpipe
+latest:
+  4.5.0--hdfd78af_0: sha256:e254db1da47308672247a7e0621298340c2d9afae3215568eab31f213a9ef952
+tags:
+  4.5.0--hdfd78af_0: sha256:e254db1da47308672247a7e0621298340c2d9afae3215568eab31f213a9ef952
+docker: quay.io/biocontainers/gorpipe
+aliases:
+  gorpipe: /usr/local/bin/gorpipe
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo
+  jmap: /usr/local/bin/jmap
+  jps: /usr/local/bin/jps

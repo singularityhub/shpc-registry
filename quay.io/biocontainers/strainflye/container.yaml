@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/strainflye
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for strainflye
+latest:
+  0.2.0--pyhca03a8a_0: sha256:c886e36c68b8aaa2f38fbe518efff3146da818f411d2423c6938b89bdf6d9911
+tags:
+  0.2.0--pyhca03a8a_0: sha256:c886e36c68b8aaa2f38fbe518efff3146da818f411d2423c6938b89bdf6d9911
+docker: quay.io/biocontainers/strainflye
+aliases:
+  pysamstats: /usr/local/bin/pysamstats
+  strainFlye: /usr/local/bin/strainFlye
+  strainflye: /usr/local/bin/strainflye
+  doesitcache: /usr/local/bin/doesitcache
+  iptest3: /usr/local/bin/iptest3
+  iptest: /usr/local/bin/iptest
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  natsort: /usr/local/bin/natsort
+  prodigal: /usr/local/bin/prodigal
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats

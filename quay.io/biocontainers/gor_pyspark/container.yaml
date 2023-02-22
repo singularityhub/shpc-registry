@@ -1,0 +1,63 @@
+url: https://biocontainers.pro/tools/gor_pyspark
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gor_pyspark
+latest:
+  3.22.6--pyh7cba7a3_0: sha256:401097e44a3aa96c3e45d622505f1a6ab7b61865e80054f1a5cc4df9f9478f49
+tags:
+  3.22.6--pyh7cba7a3_0: sha256:401097e44a3aa96c3e45d622505f1a6ab7b61865e80054f1a5cc4df9f9478f49
+docker: quay.io/biocontainers/gor_pyspark
+aliases:
+  beeline: /usr/local/bin/beeline
+  beeline.cmd: /usr/local/bin/beeline.cmd
+  csv-import: /usr/local/bin/csv-import
+  docker-image-tool.sh: /usr/local/bin/docker-image-tool.sh
+  f2py3.11: /usr/local/bin/f2py3.11
+  find-spark-home: /usr/local/bin/find-spark-home
+  find-spark-home.cmd: /usr/local/bin/find-spark-home.cmd
+  find_spark_home.py: /usr/local/bin/find_spark_home.py
+  load-spark-env.cmd: /usr/local/bin/load-spark-env.cmd
+  load-spark-env.sh: /usr/local/bin/load-spark-env.sh
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  pyspark: /usr/local/bin/pyspark
+  pyspark.cmd: /usr/local/bin/pyspark.cmd
+  pyspark2.cmd: /usr/local/bin/pyspark2.cmd
+  run-example: /usr/local/bin/run-example
+  run-example.cmd: /usr/local/bin/run-example.cmd
+  spark-class: /usr/local/bin/spark-class
+  spark-class.cmd: /usr/local/bin/spark-class.cmd
+  spark-class2.cmd: /usr/local/bin/spark-class2.cmd
+  spark-shell: /usr/local/bin/spark-shell
+  spark-shell.cmd: /usr/local/bin/spark-shell.cmd
+  spark-shell2.cmd: /usr/local/bin/spark-shell2.cmd
+  spark-sql: /usr/local/bin/spark-sql
+  spark-sql.cmd: /usr/local/bin/spark-sql.cmd
+  spark-sql2.cmd: /usr/local/bin/spark-sql2.cmd
+  spark-submit: /usr/local/bin/spark-submit
+  spark-submit.cmd: /usr/local/bin/spark-submit.cmd
+  spark-submit2.cmd: /usr/local/bin/spark-submit2.cmd
+  sparkR: /usr/local/bin/sparkR
+  sparkR.cmd: /usr/local/bin/sparkR.cmd
+  sparkR2.cmd: /usr/local/bin/sparkR2.cmd
+  timezone-dump: /usr/local/bin/timezone-dump
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  sha256_profile: /usr/local/bin/sha256_profile
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  protoc: /usr/local/bin/protoc
+  python3.1: /usr/local/bin/python3.1

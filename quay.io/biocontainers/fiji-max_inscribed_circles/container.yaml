@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/fiji-max_inscribed_circles
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fiji-max_inscribed_circles
+latest:
+  2.0.0--hdfd78af_0: sha256:47700c567d84c9c074914f4dbf9b7e5d72bfba71fb649334d0aefe307bb6aee2
+tags:
+  2.0.0--hdfd78af_0: sha256:47700c567d84c9c074914f4dbf9b7e5d72bfba71fb649334d0aefe307bb6aee2
+docker: quay.io/biocontainers/fiji-max_inscribed_circles
+aliases:
+  ImageJ: /usr/local/bin/ImageJ
+  ImageJ_bin: /usr/local/bin/ImageJ_bin
+  bunwarpj: /usr/local/bin/bunwarpj
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo
+  jmap: /usr/local/bin/jmap
+  jps: /usr/local/bin/jps

@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/mfold
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mfold
+latest:
+  3.6--h1aed7a7_1: sha256:757bbdbfde35024a3ec25fb33ef53b5479e2ddf53de0d65bb5e155b2492a0194
+tags:
+  3.6--h1aed7a7_1: sha256:757bbdbfde35024a3ec25fb33ef53b5479e2ddf53de0d65bb5e155b2492a0194
+docker: quay.io/biocontainers/mfold
+aliases:
+  add_dHdSTm: /usr/local/bin/add_dHdSTm
+  add_dHdSTm2: /usr/local/bin/add_dHdSTm2
+  auxgen: /usr/local/bin/auxgen
+  boxplot_ng: /usr/local/bin/boxplot_ng
+  ct2bp: /usr/local/bin/ct2bp
+  ct_boxplot_ng: /usr/local/bin/ct_boxplot_ng
+  ct_compare: /usr/local/bin/ct_compare
+  distance: /usr/local/bin/distance
+  efn: /usr/local/bin/efn
+  efn2: /usr/local/bin/efn2
+  filter-sort: /usr/local/bin/filter-sort
+  h-num: /usr/local/bin/h-num
+  h_num: /usr/local/bin/h_num
+  mfold: /usr/local/bin/mfold
+  mfold_datdir: /usr/local/bin/mfold_datdir
+  mfold_quik: /usr/local/bin/mfold_quik
+  myps2img.bash: /usr/local/bin/myps2img.bash
+  myps2jpg.bash: /usr/local/bin/myps2jpg.bash
+  myps2pdf.bash: /usr/local/bin/myps2pdf.bash
+  myps2png.bash: /usr/local/bin/myps2png.bash
+  nafold: /usr/local/bin/nafold
+  newtemp: /usr/local/bin/newtemp
+  overlay_boxplot_ng: /usr/local/bin/overlay_boxplot_ng
+  quikfold: /usr/local/bin/quikfold
+  reformat-seq.sh: /usr/local/bin/reformat-seq.sh
+  sav2p_num: /usr/local/bin/sav2p_num
+  sav2plot: /usr/local/bin/sav2plot
+  scorer: /usr/local/bin/scorer
+  sir_graph: /usr/local/bin/sir_graph
+  ss_count: /usr/local/bin/ss_count

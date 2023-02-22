@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/ampligone
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ampligone
+latest:
+  1.2.0--pyhdfd78af_0: sha256:97c157dc60a970a2497baa887f651818a2a17b1f6265a1ca3fdcdc1157ec1aea
+tags:
+  1.2.0--pyhdfd78af_0: sha256:97c157dc60a970a2497baa887f651818a2a17b1f6265a1ca3fdcdc1157ec1aea
+docker: quay.io/biocontainers/ampligone
+aliases:
+  AmpliGone: /usr/local/bin/AmpliGone
+  ampligone: /usr/local/bin/ampligone
+  minimap2.py: /usr/local/bin/minimap2.py
+  cmark: /usr/local/bin/cmark
+  pygmentize: /usr/local/bin/pygmentize
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

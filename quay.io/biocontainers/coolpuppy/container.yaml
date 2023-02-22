@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/coolpuppy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for coolpuppy
+latest:
+  1.0.0--pyh086e186_0: sha256:43d703d0e04b6bc064877dc2f7862b589b858b145b9f40a95b57f65209891476
+tags:
+  1.0.0--pyh086e186_0: sha256:43d703d0e04b6bc064877dc2f7862b589b858b145b9f40a95b57f65209891476
+docker: quay.io/biocontainers/coolpuppy
+aliases:
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  coolpup.py: /usr/local/bin/coolpup.py
+  cooltools: /usr/local/bin/cooltools
+  dask: /usr/local/bin/dask
+  dav1d: /usr/local/bin/dav1d
+  dividepups.py: /usr/local/bin/dividepups.py
+  m2r2: /usr/local/bin/m2r2
+  plotpup.py: /usr/local/bin/plotpup.py
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  aec: /usr/local/bin/aec
+  cooler: /usr/local/bin/cooler
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  bam2pairs: /usr/local/bin/bam2pairs
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh
+  merged_nodup2pairs.pl: /usr/local/bin/merged_nodup2pairs.pl
+  old_merged_nodup2pairs.pl: /usr/local/bin/old_merged_nodup2pairs.pl
+  pairix: /usr/local/bin/pairix
+  pairs_merger: /usr/local/bin/pairs_merger

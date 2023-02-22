@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/aniclustermap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aniclustermap
+latest:
+  1.2.0--pyhdfd78af_0: sha256:c31f2ec73178ce1edeb1d9888676cb9ba1a61c59741c0a9e25dee7f4634158ee
+tags:
+  1.2.0--pyhdfd78af_0: sha256:c31f2ec73178ce1edeb1d9888676cb9ba1a61c59741c0a9e25dee7f4634158ee
+docker: quay.io/biocontainers/aniclustermap
+aliases:
+  ANIclustermap: /usr/local/bin/ANIclustermap
+  f2py3.11: /usr/local/bin/f2py3.11
+  skani: /usr/local/bin/skani
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fastANI: /usr/local/bin/fastANI
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

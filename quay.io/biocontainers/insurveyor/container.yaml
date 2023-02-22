@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/insurveyor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for insurveyor
+latest:
+  1.0.2--h9f5acd7_0: sha256:cba49eaee8f188cd994994d5eb08f9738f0ced1ef51488809ec446f216116b03
+tags:
+  1.0.2--h9f5acd7_0: sha256:cba49eaee8f188cd994994d5eb08f9738f0ced1ef51488809ec446f216116b03
+docker: quay.io/biocontainers/insurveyor
+aliases:
+  add_filtering_info: /usr/local/bin/add_filtering_info
+  call_insertions: /usr/local/bin/call_insertions
+  clip_consensus_builder: /usr/local/bin/clip_consensus_builder
+  dc_remapper: /usr/local/bin/dc_remapper
+  filter: /usr/local/bin/filter
+  normalise: /usr/local/bin/normalise
+  random_pos_generator.py: /usr/local/bin/random_pos_generator.py
+  reads_categorizer: /usr/local/bin/reads_categorizer
+  surveyor.py: /usr/local/bin/surveyor.py
+  faidx: /usr/local/bin/faidx
+  f2py3.9: /usr/local/bin/f2py3.9
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

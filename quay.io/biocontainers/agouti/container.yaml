@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/agouti
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for agouti
+latest:
+  1.0.1--pyhdfd78af_0: sha256:036b3ce902d5f6748e9c25fee431fe505f58d3079cff67941184951c0eac655a
+tags:
+  1.0.1--pyhdfd78af_0: sha256:036b3ce902d5f6748e9c25fee431fe505f58d3079cff67941184951c0eac655a
+docker: quay.io/biocontainers/agouti
+aliases:
+  agouti: /usr/local/bin/agouti
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

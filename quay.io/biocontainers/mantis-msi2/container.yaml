@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/mantis-msi2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mantis-msi2
+latest:
+  2.0.0--h9f5acd7_0: sha256:3b10c99713f1faa78f018685d984965c0dd2db000f89fc06ff02f6056a30cf45
+tags:
+  2.0.0--h9f5acd7_0: sha256:3b10c99713f1faa78f018685d984965c0dd2db000f89fc06ff02f6056a30cf45
+docker: quay.io/biocontainers/mantis-msi2
+aliases:
+  calculate_instability.py: /usr/local/bin/calculate_instability.py
+  defaults.py: /usr/local/bin/defaults.py
+  helpers.py: /usr/local/bin/helpers.py
+  kmer_count_filter.py: /usr/local/bin/kmer_count_filter.py
+  kmer_repeat_counter.py: /usr/local/bin/kmer_repeat_counter.py
+  mantis-msi2: /usr/local/bin/mantis-msi2
+  mantis-msi2-repeat-finder: /usr/local/bin/mantis-msi2-repeat-finder
+  offset_finder.py: /usr/local/bin/offset_finder.py
+  structures.py: /usr/local/bin/structures.py
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/nextpolish
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nextpolish
+latest:
+  1.4.1--py310h7132678_0: sha256:fecf10c096a9d5a2b100cd5cb0597eb99359796919202072e5482308d7126e52
+tags:
+  1.4.1--py310h7132678_0: sha256:fecf10c096a9d5a2b100cd5cb0597eb99359796919202072e5482308d7126e52
+docker: quay.io/biocontainers/nextpolish
+aliases:
+  nextPolish: /usr/local/bin/nextPolish
+  paralleltask: /usr/local/bin/paralleltask
+  seq_count: /usr/local/bin/seq_count
+  seq_split: /usr/local/bin/seq_split
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl

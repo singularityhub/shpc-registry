@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/bwa-meme
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bwa-meme
+latest:
+  1.0.5--hd03093a_0: sha256:8cb6127d4e75c6397363015937748f3f528100a52cfe448fe7fac4ebfbccc11e
+tags:
+  1.0.5--hd03093a_0: sha256:8cb6127d4e75c6397363015937748f3f528100a52cfe448fe7fac4ebfbccc11e
+docker: quay.io/biocontainers/bwa-meme
+aliases:
+  build_rmis_dna.sh: /usr/local/bin/build_rmis_dna.sh
+  bwa-meme: /usr/local/bin/bwa-meme
+  bwa-meme-train-prmi: /usr/local/bin/bwa-meme-train-prmi
+  bwa-meme_mode1: /usr/local/bin/bwa-meme_mode1
+  bwa-meme_mode1.avx: /usr/local/bin/bwa-meme_mode1.avx
+  bwa-meme_mode1.avx2: /usr/local/bin/bwa-meme_mode1.avx2
+  bwa-meme_mode1.avx512bw: /usr/local/bin/bwa-meme_mode1.avx512bw
+  bwa-meme_mode1.sse41: /usr/local/bin/bwa-meme_mode1.sse41
+  bwa-meme_mode1.sse42: /usr/local/bin/bwa-meme_mode1.sse42
+  bwa-meme_mode2: /usr/local/bin/bwa-meme_mode2
+  bwa-meme_mode2.avx: /usr/local/bin/bwa-meme_mode2.avx
+  bwa-meme_mode2.avx2: /usr/local/bin/bwa-meme_mode2.avx2
+  bwa-meme_mode2.avx512bw: /usr/local/bin/bwa-meme_mode2.avx512bw
+  bwa-meme_mode2.sse41: /usr/local/bin/bwa-meme_mode2.sse41
+  bwa-meme_mode2.sse42: /usr/local/bin/bwa-meme_mode2.sse42
+  bwa-meme_mode3.avx: /usr/local/bin/bwa-meme_mode3.avx
+  bwa-meme_mode3.avx2: /usr/local/bin/bwa-meme_mode3.avx2
+  bwa-meme_mode3.avx512bw: /usr/local/bin/bwa-meme_mode3.avx512bw
+  bwa-meme_mode3.sse41: /usr/local/bin/bwa-meme_mode3.sse41
+  bwa-meme_mode3.sse42: /usr/local/bin/bwa-meme_mode3.sse42

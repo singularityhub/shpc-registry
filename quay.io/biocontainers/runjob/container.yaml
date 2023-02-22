@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/runjob
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for runjob
+latest:
+  2.10.2--pyhdfd78af_0: sha256:ca98697092fbbc8fc63c9023681f90e7c0f4b9991cc48a9ff0a1cbfa20b2241a
+tags:
+  2.10.2--pyhdfd78af_0: sha256:ca98697092fbbc8fc63c9023681f90e7c0f4b9991cc48a9ff0a1cbfa20b2241a
+docker: quay.io/biocontainers/runjob
+aliases:
+  qcs: /usr/local/bin/qcs
+  qs: /usr/local/bin/qs
+  runbatch: /usr/local/bin/runbatch
+  runjob: /usr/local/bin/runjob
+  runsge: /usr/local/bin/runsge
+  runsge0: /usr/local/bin/runsge0
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

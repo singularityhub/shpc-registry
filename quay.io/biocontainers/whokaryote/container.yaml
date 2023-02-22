@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/whokaryote
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for whokaryote
+latest:
+  1.1.2--pyhdfd78af_0: sha256:e66c494b264e58d54bbc4c3c18d51aca97ea3e2a9d89658bfa87a2a6955ad17b
+tags:
+  1.1.2--pyhdfd78af_0: sha256:e66c494b264e58d54bbc4c3c18d51aca97ea3e2a9d89658bfa87a2a6955ad17b
+docker: quay.io/biocontainers/whokaryote
+aliases:
+  tiara: /usr/local/bin/tiara
+  tiara-test: /usr/local/bin/tiara-test
+  whokaryote.py: /usr/local/bin/whokaryote.py
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
+  tabulate: /usr/local/bin/tabulate
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  prodigal: /usr/local/bin/prodigal
+  tqdm: /usr/local/bin/tqdm
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.8: /usr/local/bin/f2py3.8
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

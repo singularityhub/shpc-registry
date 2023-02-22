@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gum
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gum
+latest:
+  1.1.1--hd03093a_0: sha256:9273fc07278541221b5317a469bab11d54e0887c5f9506f0ba635adab2ff0e4b
+tags:
+  1.1.1--hd03093a_0: sha256:9273fc07278541221b5317a469bab11d54e0887c5f9506f0ba635adab2ff0e4b
+docker: quay.io/biocontainers/gum

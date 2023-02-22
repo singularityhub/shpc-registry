@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/annotwg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for annotwg
+latest:
+  1.0--hdfd78af_0: sha256:25432191ad9688054d20c1c2bf6e0f4504d22f271dce971aca00ccf276a201e6
+tags:
+  1.0--hdfd78af_0: sha256:25432191ad9688054d20c1c2bf6e0f4504d22f271dce971aca00ccf276a201e6
+docker: quay.io/biocontainers/annotwg
+aliases:
+  annotwg: /usr/local/bin/annotwg
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  cutGenome: /usr/local/bin/cutGenome
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  basenc: /usr/local/bin/basenc
+  awk: /usr/local/bin/awk
+  b2sum: /usr/local/bin/b2sum
+  gawk: /usr/local/bin/gawk
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd

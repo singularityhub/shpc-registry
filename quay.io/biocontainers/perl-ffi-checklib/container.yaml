@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-ffi-checklib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-ffi-checklib
+latest:
+  0.28--pl5321hdfd78af_0: sha256:9a3c99efd0e8d9a3230b37299af86c96c9eea2c0af8cfab6f0dd1f0e3bb00737
+tags:
+  0.28--pl5321hdfd78af_0: sha256:9a3c99efd0e8d9a3230b37299af86c96c9eea2c0af8cfab6f0dd1f0e3bb00737
+docker: quay.io/biocontainers/perl-ffi-checklib
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

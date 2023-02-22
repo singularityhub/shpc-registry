@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/nextdenovo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nextdenovo
+latest:
+  2.5.0--py39h20169af_0: sha256:f3fc2264ce1343ef26f8304b4e78872d9e3cd625e5225e97986bf66fd1924ba1
+tags:
+  2.5.0--py39h20169af_0: sha256:f3fc2264ce1343ef26f8304b4e78872d9e3cd625e5225e97986bf66fd1924ba1
+docker: quay.io/biocontainers/nextdenovo
+aliases:
+  nextDenovo: /usr/local/bin/nextDenovo
+  paralleltask: /usr/local/bin/paralleltask
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

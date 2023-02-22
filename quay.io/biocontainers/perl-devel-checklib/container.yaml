@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/perl-devel-checklib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-devel-checklib
+latest:
+  1.16--pl5321hec16e2b_0: sha256:3e7a459187f4a58f6ef22dab7c8612e38a07011270067f69941bdca5a9008ed0
+tags:
+  1.16--pl5321hec16e2b_0: sha256:3e7a459187f4a58f6ef22dab7c8612e38a07011270067f69941bdca5a9008ed0
+docker: quay.io/biocontainers/perl-devel-checklib
+aliases:
+  use-devel-checklib: /usr/local/bin/use-devel-checklib
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

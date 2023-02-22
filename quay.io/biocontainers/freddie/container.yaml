@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/freddie
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for freddie
+latest:
+  0.4--hdfd78af_0: sha256:ec3a09391a33021357c39ad297d298feb3edd33bfdaa279c5cb26d07779cb1cc
+tags:
+  0.4--hdfd78af_0: sha256:ec3a09391a33021357c39ad297d298feb3edd33bfdaa279c5cb26d07779cb1cc
+docker: quay.io/biocontainers/freddie
+aliases:
+  Annotation_Load.py: /usr/local/bin/Annotation_Load.py
+  deBGA: /usr/local/bin/deBGA
+  deSALT: /usr/local/bin/deSALT
+  freddie_cluster.py: /usr/local/bin/freddie_cluster.py
+  freddie_isoforms.py: /usr/local/bin/freddie_isoforms.py
+  freddie_segment.py: /usr/local/bin/freddie_segment.py
+  freddie_split.py: /usr/local/bin/freddie_split.py
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

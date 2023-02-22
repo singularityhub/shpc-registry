@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/binspreader
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for binspreader
+latest:
+  3.16.0.dev--h95f258a_0: sha256:2183bcd1b6c29d72852914c279ede71aa389f5809348f52949153e155bf76cde
+tags:
+  3.16.0.dev--h95f258a_0: sha256:2183bcd1b6c29d72852914c279ede71aa389f5809348f52949153e155bf76cde
+docker: quay.io/biocontainers/binspreader
+aliases:
+  bin-refine: /usr/local/bin/bin-refine

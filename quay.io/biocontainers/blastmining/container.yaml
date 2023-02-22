@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/blastmining
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for blastmining
+latest:
+  1.2.0--pyhdfd78af_0: sha256:3a4d520225a1892279b8805df885cb1003813e3e9e32593f77a3063db51ed71f
+tags:
+  1.2.0--pyhdfd78af_0: sha256:3a4d520225a1892279b8805df885cb1003813e3e9e32593f77a3063db51ed71f
+docker: quay.io/biocontainers/blastmining
+aliases:
+  blastMining: /usr/local/bin/blastMining
+  blastMining_lca.sh: /usr/local/bin/blastMining_lca.sh
+  blastMining_lca2.sh: /usr/local/bin/blastMining_lca2.sh
+  csvtk: /usr/local/bin/csvtk
+  f2py3.11: /usr/local/bin/f2py3.11
+  ktClassifyHits: /usr/local/bin/ktClassifyHits
+  ktImportHits: /usr/local/bin/ktImportHits
+  run_besthit.py: /usr/local/bin/run_besthit.py
+  run_lca.py: /usr/local/bin/run_lca.py
+  run_vote.py: /usr/local/bin/run_vote.py
+  run_voteSpecies.py: /usr/local/bin/run_voteSpecies.py
+  tab2krona.py: /usr/local/bin/tab2krona.py
+  taxonkit: /usr/local/bin/taxonkit
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  ktClassifyBLAST: /usr/local/bin/ktClassifyBLAST
+  ktGetContigMagnitudes: /usr/local/bin/ktGetContigMagnitudes
+  ktGetLCA: /usr/local/bin/ktGetLCA
+  ktGetLibPath: /usr/local/bin/ktGetLibPath
+  ktGetTaxIDFromAcc: /usr/local/bin/ktGetTaxIDFromAcc
+  ktGetTaxInfo: /usr/local/bin/ktGetTaxInfo
+  ktImportBLAST: /usr/local/bin/ktImportBLAST
+  ktImportDiskUsage: /usr/local/bin/ktImportDiskUsage
+  ktImportEC: /usr/local/bin/ktImportEC
+  ktImportFCP: /usr/local/bin/ktImportFCP
+  ktImportGalaxy: /usr/local/bin/ktImportGalaxy
+  ktImportKrona: /usr/local/bin/ktImportKrona
+  ktImportMETAREP-BLAST: /usr/local/bin/ktImportMETAREP-BLAST
+  ktImportMETAREP-EC: /usr/local/bin/ktImportMETAREP-EC
+  ktImportMGRAST: /usr/local/bin/ktImportMGRAST
+  ktImportPhymmBL: /usr/local/bin/ktImportPhymmBL
+  ktImportRDP: /usr/local/bin/ktImportRDP
+  ktImportRDPComparison: /usr/local/bin/ktImportRDPComparison
+  ktImportTaxonomy: /usr/local/bin/ktImportTaxonomy
+  ktImportText: /usr/local/bin/ktImportText

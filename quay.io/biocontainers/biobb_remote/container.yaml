@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/biobb_remote
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for biobb_remote
+latest:
+  1.2.2--pyhdfd78af_0: sha256:8da75d082f0f78e1976277b6eaa5a128e616e5137ee46dfc7275686adf28ef35
+tags:
+  1.2.2--pyhdfd78af_0: sha256:8da75d082f0f78e1976277b6eaa5a128e616e5137ee46dfc7275686adf28ef35
+docker: quay.io/biocontainers/biobb_remote
+aliases:
+  credentials: /usr/local/bin/credentials
+  scp_service: /usr/local/bin/scp_service
+  slurm_test: /usr/local/bin/slurm_test
+  ssh_command: /usr/local/bin/ssh_command
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

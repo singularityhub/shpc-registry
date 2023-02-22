@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ratatosk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ratatosk
+latest:
+  0.7.6.3--h5b5514e_0: sha256:19319f6b739e7fa05c5e25eb1f22effdf02b14c0fffe0f5f38f484d4f4fc1572
+tags:
+  0.7.6.3--h5b5514e_0: sha256:19319f6b739e7fa05c5e25eb1f22effdf02b14c0fffe0f5f38f484d4f4fc1572
+docker: quay.io/biocontainers/ratatosk
+aliases:
+  Ratatosk: /usr/local/bin/Ratatosk

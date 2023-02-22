@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/phamb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phamb
+latest:
+  1.0.1--pyhdfd78af_0: sha256:87cbb56f376a336e4c2bf2131bb86c85b9334e8e0c468187097af0493ad2756f
+tags:
+  1.0.1--pyhdfd78af_0: sha256:87cbb56f376a336e4c2bf2131bb86c85b9334e8e0c468187097af0493ad2756f
+docker: quay.io/biocontainers/phamb
+aliases:
+  run_RF.py: /usr/local/bin/run_RF.py
+  run_RF_modules.py: /usr/local/bin/run_RF_modules.py
+  split_contigs.py: /usr/local/bin/split_contigs.py
+  vambtools.py: /usr/local/bin/vambtools.py
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/alcor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alcor
+latest:
+  1.9--hd03093a_0: sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a
+tags:
+  1.9--hd03093a_0: sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a
+docker: quay.io/biocontainers/alcor
+aliases:
+  AlcoR: /usr/local/bin/AlcoR

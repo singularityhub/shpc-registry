@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/consplice
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for consplice
+latest:
+  0.0.6--pyh5e36f6f_0: sha256:a703e57e58e6f5fdb2407bf6c1b3ced281126c8223e3118e423e405f8a722f6f
+tags:
+  0.0.6--pyh5e36f6f_0: sha256:a703e57e58e6f5fdb2407bf6c1b3ced281126c8223e3118e423e405f8a722f6f
+docker: quay.io/biocontainers/consplice
+aliases:
+  consplice: /usr/local/bin/consplice
+  gsort: /usr/local/bin/gsort
+  cyvcf2: /usr/local/bin/cyvcf2
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  tabulate: /usr/local/bin/tabulate
+  natsort: /usr/local/bin/natsort
+  faidx: /usr/local/bin/faidx
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  f2py3.8: /usr/local/bin/f2py3.8
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

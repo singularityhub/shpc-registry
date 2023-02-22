@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/ezaai
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ezaai
+latest:
+  1.2.2--hdfd78af_0: sha256:6110f9ab539e534a0ed71644380429f2965a032eafe884bb15d48746e4f8d95a
+tags:
+  1.2.2--hdfd78af_0: sha256:6110f9ab539e534a0ed71644380429f2965a032eafe884bb15d48746e4f8d95a
+docker: quay.io/biocontainers/ezaai
+aliases:
+  EzAAI: /usr/local/bin/EzAAI
+  mmseqs: /usr/local/bin/mmseqs
+  clhsdb: /usr/local/bin/clhsdb
+  hsdb: /usr/local/bin/hsdb
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  diamond: /usr/local/bin/diamond
+  prodigal: /usr/local/bin/prodigal
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns

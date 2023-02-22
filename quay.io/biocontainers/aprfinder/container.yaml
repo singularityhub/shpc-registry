@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/aprfinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aprfinder
+latest:
+  1.5--hec16e2b_0: sha256:34baea9d56a6db9076a1482fe75a94e54c16264c8732f7d482c1a6f92af97399
+tags:
+  1.5--hec16e2b_0: sha256:34baea9d56a6db9076a1482fe75a94e54c16264c8732f7d482c1a6f92af97399
+docker: quay.io/biocontainers/aprfinder
+aliases:
+  aprfinder: /usr/local/bin/aprfinder

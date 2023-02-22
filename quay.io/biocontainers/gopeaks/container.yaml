@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gopeaks
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gopeaks
+latest:
+  1.0.0--hf05dbd8_0: sha256:63aec61503a6dd7a2f750a8c64fcf82d6834541adcf966c7b1b1b48a2d36cc88
+tags:
+  1.0.0--hf05dbd8_0: sha256:63aec61503a6dd7a2f750a8c64fcf82d6834541adcf966c7b1b1b48a2d36cc88
+docker: quay.io/biocontainers/gopeaks
+aliases:
+  gopeaks: /usr/local/bin/gopeaks

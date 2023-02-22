@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/phertilizer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phertilizer
+latest:
+  0.1.0--pyhdfd78af_0: sha256:d89b6e2a86003dd780a3b75ddf014f886c60d94f68d18da6d7f0e58825c60023
+tags:
+  0.1.0--pyhdfd78af_0: sha256:d89b6e2a86003dd780a3b75ddf014f886c60d94f68d18da6d7f0e58825c60023
+docker: quay.io/biocontainers/phertilizer
+aliases:
+  phertilizer: /usr/local/bin/phertilizer
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare
+  gtstemplate: /usr/local/bin/gtstemplate
+  stl2gts: /usr/local/bin/stl2gts
+  transform: /usr/local/bin/transform
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gtk-builder-convert: /usr/local/bin/gtk-builder-convert
+  gtk-demo: /usr/local/bin/gtk-demo
+  gtk-query-immodules-2.0: /usr/local/bin/gtk-query-immodules-2.0
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot
+  dot2gxl: /usr/local/bin/dot2gxl

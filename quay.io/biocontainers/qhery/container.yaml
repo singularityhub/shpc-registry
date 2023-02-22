@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/qhery
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for qhery
+latest:
+  0.1.2--pyhdfd78af_0: sha256:bee87c21d1bd45e67d839d13e7555f63d4e0c3ab2cf8c51390514d3a23a0dcf5
+tags:
+  0.1.2--pyhdfd78af_0: sha256:bee87c21d1bd45e67d839d13e7555f63d4e0c3ab2cf8c51390514d3a23a0dcf5
+docker: quay.io/biocontainers/qhery
+aliases:
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
+  nextclade: /usr/local/bin/nextclade
+  qhery: /usr/local/bin/qhery
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns
+  snp2hgvs: /usr/local/bin/snp2hgvs
+  snp2tbl: /usr/local/bin/snp2tbl
+  sort-table: /usr/local/bin/sort-table
+  spdi2tbl: /usr/local/bin/spdi2tbl
+  split-at-intron: /usr/local/bin/split-at-intron
+  tbl2xml: /usr/local/bin/tbl2xml
+  transmute.Linux: /usr/local/bin/transmute.Linux

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/metaplex
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metaplex
+latest:
+  1.1.0--pyh5e36f6f_0: sha256:9cebd5782cc737018ac6aed38e471f8e42bf689d7cd2eb814aa74e88aec33662
+tags:
+  1.1.0--pyh5e36f6f_0: sha256:9cebd5782cc737018ac6aed38e471f8e42bf689d7cd2eb814aa74e88aec33662
+docker: quay.io/biocontainers/metaplex
+aliases:
+  Metaplex-calculate-IJR: /usr/local/bin/Metaplex-calculate-IJR
+  Metaplex-length-filter: /usr/local/bin/Metaplex-length-filter
+  Metaplex-per-sample-filter: /usr/local/bin/Metaplex-per-sample-filter
+  Metaplex-remultiplex: /usr/local/bin/Metaplex-remultiplex
+  biom: /usr/local/bin/biom
+  cutadapt: /usr/local/bin/cutadapt
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  f2py3.9: /usr/local/bin/f2py3.9
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short

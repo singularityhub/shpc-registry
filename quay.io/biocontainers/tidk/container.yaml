@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tidk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tidk
+latest:
+  0.2.1--h87f3376_1: sha256:920d2cf7e33c7450eb5e85f7eaa5e30d9de2c2e765445d5b7e92c55bb8f3e5fc
+tags:
+  0.2.1--h87f3376_1: sha256:920d2cf7e33c7450eb5e85f7eaa5e30d9de2c2e765445d5b7e92c55bb8f3e5fc
+docker: quay.io/biocontainers/tidk
+aliases:
+  tidk: /usr/local/bin/tidk

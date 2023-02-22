@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/lorax
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lorax
+latest:
+  0.3.7--ha41ced6_0: sha256:e80e4088b20acddfb1ba595746d8917ca17664fab8ae16e5840961c8a6203140
+tags:
+  0.3.7--ha41ced6_0: sha256:e80e4088b20acddfb1ba595746d8917ca17664fab8ae16e5840961c8a6203140
+docker: quay.io/biocontainers/lorax
+aliases:
+  lorax: /usr/local/bin/lorax
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

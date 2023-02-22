@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/purge-dups-runner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for purge-dups-runner
+latest:
+  2019.12.20--pyhdfd78af_0: sha256:06555a03ab0f06f3173dd3a40f71c3db88a38f6e918d43bb0f838886852eb347
+tags:
+  2019.12.20--pyhdfd78af_0: sha256:06555a03ab0f06f3173dd3a40f71c3db88a38f6e918d43bb0f838886852eb347
+docker: quay.io/biocontainers/purge-dups-runner
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

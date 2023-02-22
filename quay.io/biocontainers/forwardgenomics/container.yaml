@@ -1,0 +1,64 @@
+url: https://biocontainers.pro/tools/forwardgenomics
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for forwardgenomics
+latest:
+  1.0--hdfd78af_0: sha256:79788c04079b594ebaa0730923ddd2f4fc9e0e0d87f20b34c7fbd93a2a72e285
+tags:
+  1.0--hdfd78af_0: sha256:79788c04079b594ebaa0730923ddd2f4fc9e0e0d87f20b34c7fbd93a2a72e285
+docker: quay.io/biocontainers/forwardgenomics
+aliases:
+  all_dists: /usr/local/bin/all_dists
+  base_evolve: /usr/local/bin/base_evolve
+  chooseLines: /usr/local/bin/chooseLines
+  clean_genes: /usr/local/bin/clean_genes
+  consEntropy: /usr/local/bin/consEntropy
+  convert_coords: /usr/local/bin/convert_coords
+  display_rate_matrix: /usr/local/bin/display_rate_matrix
+  dless: /usr/local/bin/dless
+  dlessP: /usr/local/bin/dlessP
+  draw_tree: /usr/local/bin/draw_tree
+  eval_predictions: /usr/local/bin/eval_predictions
+  exoniphy: /usr/local/bin/exoniphy
+  f2py3.11: /usr/local/bin/f2py3.11
+  forwardGenomics.R: /usr/local/bin/forwardGenomics.R
+  forwardGenomics_fullAnalysis.R: /usr/local/bin/forwardGenomics_fullAnalysis.R
+  forwardGenomics_globalAnalysis.R: /usr/local/bin/forwardGenomics_globalAnalysis.R
+  forwardGenomics_initialization.R: /usr/local/bin/forwardGenomics_initialization.R
+  forwardGenomics_localAnalysis.R: /usr/local/bin/forwardGenomics_localAnalysis.R
+  hmm_train: /usr/local/bin/hmm_train
+  hmm_tweak: /usr/local/bin/hmm_tweak
+  hmm_view: /usr/local/bin/hmm_view
+  indelFit: /usr/local/bin/indelFit
+  indelHistory: /usr/local/bin/indelHistory
+  maf_parse: /usr/local/bin/maf_parse
+  makeHKY: /usr/local/bin/makeHKY
+  modFreqs: /usr/local/bin/modFreqs
+  msa_diff: /usr/local/bin/msa_diff
+  msa_split: /usr/local/bin/msa_split
+  msa_view: /usr/local/bin/msa_view
+  pbsDecode: /usr/local/bin/pbsDecode
+  pbsEncode: /usr/local/bin/pbsEncode
+  pbsScoreMatrix: /usr/local/bin/pbsScoreMatrix
+  pbsTrain: /usr/local/bin/pbsTrain
+  phast: /usr/local/bin/phast
+  phastBias: /usr/local/bin/phastBias
+  phastCons: /usr/local/bin/phastCons
+  phastMotif: /usr/local/bin/phastMotif
+  phastOdds: /usr/local/bin/phastOdds
+  phyloBoot: /usr/local/bin/phyloBoot
+  phyloFit: /usr/local/bin/phyloFit
+  phyloP: /usr/local/bin/phyloP
+  prequel: /usr/local/bin/prequel
+  refeature: /usr/local/bin/refeature
+  stringiphy: /usr/local/bin/stringiphy
+  treeGen: /usr/local/bin/treeGen
+  tree_doctor: /usr/local/bin/tree_doctor
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  glpsol: /usr/local/bin/glpsol
+  python3.1: /usr/local/bin/python3.1
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/modle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for modle
+latest:
+  1.0.0--h87f3376_0: sha256:66c28fc5e73fcb3824f740c5aaf7e7426cee6a1b1a451db713eafd6f0ba0f319
+tags:
+  1.0.0--h87f3376_0: sha256:66c28fc5e73fcb3824f740c5aaf7e7426cee6a1b1a451db713eafd6f0ba0f319
+docker: quay.io/biocontainers/modle
+aliases:
+  modle: /usr/local/bin/modle
+  modle_tools: /usr/local/bin/modle_tools

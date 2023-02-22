@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/proteomiqon-alignmentbasedquantstatistics
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for proteomiqon-alignmentbasedquantstatistics
+latest:
+  0.0.3--hdfd78af_0: sha256:b5aabd129f44ec177e2af0128989766785fad5405d399cd3fb89349628240fa1
+tags:
+  0.0.3--hdfd78af_0: sha256:b5aabd129f44ec177e2af0128989766785fad5405d399cd3fb89349628240fa1
+docker: quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics
+aliases:
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp
+  proteomiqon-alignmentbasedquantstatistics: /usr/local/bin/proteomiqon-alignmentbasedquantstatistics

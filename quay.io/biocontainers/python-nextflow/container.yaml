@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/python-nextflow
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for python-nextflow
+latest:
+  0.5--pyhdfd78af_0: sha256:e13929fa1e5376f390d370ac09da7e59a5c8b48bc9ee65858353e9c61ca19b91
+tags:
+  0.5--pyhdfd78af_0: sha256:e13929fa1e5376f390d370ac09da7e59a5c8b48bc9ee65858353e9c61ca19b91
+docker: quay.io/biocontainers/python-nextflow
+aliases:
+  nextflow: /usr/local/bin/nextflow
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  jpackage: /usr/local/bin/jpackage
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir
+  dircolors: /usr/local/bin/dircolors
+  dirname: /usr/local/bin/dirname
+  du: /usr/local/bin/du
+  echo: /usr/local/bin/echo

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/perl-bio-rna-barriers
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-bio-rna-barriers
+latest:
+  0.03--pl5321hdfd78af_0: sha256:d390f0bef2cf375c31c0d6d37ef232cad10c4c9f159dd394e6e36eca79a59f6e
+tags:
+  0.03--pl5321hdfd78af_0: sha256:d390f0bef2cf375c31c0d6d37ef232cad10c4c9f159dd394e6e36eca79a59f6e
+docker: quay.io/biocontainers/perl-bio-rna-barriers
+aliases:
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/transcriptm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for transcriptm
+latest:
+  0.2--pyhdfd78af_0: sha256:0c5eda84165be9ccf81bd2a8835f766ec0fc99253980a2a1b8207806e707ee0e
+tags:
+  0.2--pyhdfd78af_0: sha256:0c5eda84165be9ccf81bd2a8835f766ec0fc99253980a2a1b8207806e707ee0e
+docker: quay.io/biocontainers/transcriptm
+aliases:
+  bamFlags: /usr/local/bin/bamFlags
+  bamm: /usr/local/bin/bamm
+  bioruby: /usr/local/bin/bioruby
+  br_biofetch.rb: /usr/local/bin/br_biofetch.rb
+  br_bioflat.rb: /usr/local/bin/br_bioflat.rb
+  br_biogetseq.rb: /usr/local/bin/br_biogetseq.rb
+  br_pmfetch.rb: /usr/local/bin/br_pmfetch.rb
+  create-db-indices.sh: /usr/local/bin/create-db-indices.sh
+  dirseq: /usr/local/bin/dirseq
+  fxtract: /usr/local/bin/fxtract
+  indexdb_rna: /usr/local/bin/indexdb_rna
+  sortmerna: /usr/local/bin/sortmerna
+  transcriptm: /usr/local/bin/transcriptm
+  erb: /usr/local/bin/erb
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby
+  fastqc: /usr/local/bin/fastqc
+  trimmomatic: /usr/local/bin/trimmomatic
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  shiftBed: /usr/local/bin/shiftBed
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

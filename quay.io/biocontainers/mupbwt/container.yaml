@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/mupbwt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mupbwt
+latest:
+  0.1.2--hea94271_0: sha256:d24e35d23ed0799552d3486c95eff7b98541f0e44fc3d07390ae897eea94297d
+tags:
+  0.1.2--hea94271_0: sha256:d24e35d23ed0799552d3486c95eff7b98541f0e44fc3d07390ae897eea94297d
+docker: quay.io/biocontainers/mupbwt
+aliases:
+  mupbwt: /usr/local/bin/mupbwt
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

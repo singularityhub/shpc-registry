@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/psm-utils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for psm-utils
+latest:
+  0.2.1--pyhdfd78af_0: sha256:787a40f6cba0557053f735f975d89c70dadb59a435a60aedf53423cd84b1bbe6
+tags:
+  0.2.1--pyhdfd78af_0: sha256:787a40f6cba0557053f735f975d89c70dadb59a435a60aedf53423cd84b1bbe6
+docker: quay.io/biocontainers/psm-utils
+aliases:
+  f2py3.11: /usr/local/bin/f2py3.11
+  psm-utils: /usr/local/bin/psm-utils
+  psm_utils: /usr/local/bin/psm_utils
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  cmark: /usr/local/bin/cmark
+  pygmentize: /usr/local/bin/pygmentize
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/visor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for visor
+latest:
+  1.1.2--pyh5e36f6f_0: sha256:224d83e0c27671220a8728f18d640bbbb82b3283c3a54fb4b4aca9057b9722cb
+tags:
+  1.1.2--pyh5e36f6f_0: sha256:224d83e0c27671220a8728f18d640bbbb82b3283c3a54fb4b4aca9057b9722cb
+docker: quay.io/biocontainers/visor
+aliases:
+  VISOR: /usr/local/bin/VISOR
+  badread: /usr/local/bin/badread
+  pywgsim: /usr/local/bin/pywgsim
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  minimap2.py: /usr/local/bin/minimap2.py
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  faidx: /usr/local/bin/faidx
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  jsonschema: /usr/local/bin/jsonschema
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  shiftBed: /usr/local/bin/shiftBed
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6

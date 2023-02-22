@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/scitrack
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scitrack
+latest:
+  2021.5.3--pyhdfd78af_0: sha256:e43a2a0dfc80aee6c6552f0e903e6ee9c38f95f56c9372e5719964e61f2b2c14
+tags:
+  2021.5.3--pyhdfd78af_0: sha256:e43a2a0dfc80aee6c6552f0e903e6ee9c38f95f56c9372e5719964e61f2b2c14
+docker: quay.io/biocontainers/scitrack
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

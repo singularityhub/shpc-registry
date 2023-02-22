@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/ccsmeth
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ccsmeth
+latest:
+  0.3.2--pyhdfd78af_0: sha256:cb9b70e5db3cb7cc43083f2a1e9768b802cb37c00a6b18b4cec1f75314faf08f
+tags:
+  0.3.2--pyhdfd78af_0: sha256:cb9b70e5db3cb7cc43083f2a1e9768b802cb37c00a6b18b4cec1f75314faf08f
+docker: quay.io/biocontainers/ccsmeth
+aliases:
+  ccs: /usr/local/bin/ccs
+  ccs-alt: /usr/local/bin/ccs-alt
+  ccsmeth: /usr/local/bin/ccsmeth
+  pbmm2: /usr/local/bin/pbmm2
+  torchrun: /usr/local/bin/torchrun
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  tqdm: /usr/local/bin/tqdm
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  shiftBed: /usr/local/bin/shiftBed
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed

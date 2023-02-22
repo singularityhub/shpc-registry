@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/sequana_pipetools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sequana_pipetools
+latest:
+  0.9.4--pyh7cba7a3_0: sha256:9bd37c8704648a8ecfee50de9f8552d2bd2f1f038e9c9c7d4655c66ab50db4a5
+tags:
+  0.9.4--pyh7cba7a3_0: sha256:9bd37c8704648a8ecfee50de9f8552d2bd2f1f038e9c9c7d4655c66ab50db4a5
+docker: quay.io/biocontainers/sequana_pipetools
+aliases:
+  pykwalify: /usr/local/bin/pykwalify
+  sequana_completion: /usr/local/bin/sequana_completion
+  sequana_slurm_status: /usr/local/bin/sequana_slurm_status
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  browse: /usr/local/bin/browse
+  normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
+  python3.1: /usr/local/bin/python3.1

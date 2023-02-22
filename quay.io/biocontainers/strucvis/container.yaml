@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/strucvis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for strucvis
+latest:
+  0.6--hdfd78af_0: sha256:d5124ce57ad8b829a6d5657a2a7b2a7a8dca27dcc0c00e836f5a89a8cf6ec294
+tags:
+  0.6--hdfd78af_0: sha256:d5124ce57ad8b829a6d5657a2a7b2a7a8dca27dcc0c00e836f5a89a8cf6ec294
+docker: quay.io/biocontainers/strucvis
+aliases:
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  strucVis: /usr/local/bin/strucVis
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNAplex: /usr/local/bin/RNAplex
+  RNAsnoop: /usr/local/bin/RNAsnoop
+  RNAfold: /usr/local/bin/RNAfold
+  Kinfold: /usr/local/bin/Kinfold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval
+  RNAforester: /usr/local/bin/RNAforester

@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/titanomics
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for titanomics
+latest:
+  0.1--pyh5e36f6f_0: sha256:d64f835650ed4f45e24fc10e727c04ee19dc9152ad8a30db75fb9cedc40cdcce
+tags:
+  0.1--pyh5e36f6f_0: sha256:d64f835650ed4f45e24fc10e727c04ee19dc9152ad8a30db75fb9cedc40cdcce
+docker: quay.io/biocontainers/titanomics
+aliases:
+  countAssembly.py: /usr/local/bin/countAssembly.py
+  flash2: /usr/local/bin/flash2
+  flye: /usr/local/bin/flye
+  flye-minimap2: /usr/local/bin/flye-minimap2
+  flye-modules: /usr/local/bin/flye-modules
+  flye-samtools: /usr/local/bin/flye-samtools
+  gpustat: /usr/local/bin/gpustat
+  py-spy: /usr/local/bin/py-spy
+  ray: /usr/local/bin/ray
+  titan.py: /usr/local/bin/titan.py
+  megahit_core: /usr/local/bin/megahit_core
+  megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
+  megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  fastp: /usr/local/bin/fastp
+  megahit: /usr/local/bin/megahit
+  megahit_toolkit: /usr/local/bin/megahit_toolkit
+  fastqc: /usr/local/bin/fastqc
+  igzip: /usr/local/bin/igzip
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  jsonschema: /usr/local/bin/jsonschema
+  protoc: /usr/local/bin/protoc

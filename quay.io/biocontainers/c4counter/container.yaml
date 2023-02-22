@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/c4counter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for c4counter
+latest:
+  0.0.2--pyhdfd78af_0: sha256:97e9852bba8fe0a608eaae57cb502b96853ff02563005c0e1c01aadac6f9c104
+tags:
+  0.0.2--pyhdfd78af_0: sha256:97e9852bba8fe0a608eaae57cb502b96853ff02563005c0e1c01aadac6f9c104
+docker: quay.io/biocontainers/c4counter
+aliases:
+  c4counter: /usr/local/bin/c4counter
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

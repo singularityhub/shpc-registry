@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/zdb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for zdb
+latest:
+  1.0.4--hdfd78af_0: sha256:b0f9300d76d7e8a03792a45c47d254e6536928ffcddef5d52a06c36b4cd7e1f4
+tags:
+  1.0.4--hdfd78af_0: sha256:b0f9300d76d7e8a03792a45c47d254e6536928ffcddef5d52a06c36b4cd7e1f4
+docker: quay.io/biocontainers/zdb
+aliases:
+  nextflow: /usr/local/bin/nextflow
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  zdb: /usr/local/bin/zdb
+  jpackage: /usr/local/bin/jpackage
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir
+  dircolors: /usr/local/bin/dircolors
+  dirname: /usr/local/bin/dirname
+  du: /usr/local/bin/du
+  echo: /usr/local/bin/echo

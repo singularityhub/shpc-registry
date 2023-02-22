@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mudskipper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mudskipper
+latest:
+  0.1.0--h9f5acd7_1: sha256:44d752e96ea11a3033b580df81088ab75c0d908b04eda5e09427e97b750a8a59
+tags:
+  0.1.0--h9f5acd7_1: sha256:44d752e96ea11a3033b580df81088ab75c0d908b04eda5e09427e97b750a8a59
+docker: quay.io/biocontainers/mudskipper
+aliases:
+  mudskipper: /usr/local/bin/mudskipper
