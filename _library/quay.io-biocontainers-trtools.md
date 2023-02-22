@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trtools/container.yaml"
-updated_at: "2023-02-21 03:23:13.318831"
-latest: "4.2.1--pyhb765511_0"
+updated_at: "2023-02-22 03:21:30.359583"
+latest: "5.0.1--pyha447b20_0"
 container_url: "https://biocontainers.pro/tools/trtools"
 aliases:
  - "compareSTR"
@@ -27,8 +27,9 @@ aliases:
  - "annotateBed"
 versions:
  - "4.2.1--pyhb765511_0"
+ - "5.0.1--pyha447b20_0"
 description: "shpc-registry automated BioContainers addition for trtools"
-config: {"url": "https://biocontainers.pro/tools/trtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trtools", "latest": {"4.2.1--pyhb765511_0": "sha256:503e5b4beab6b212fdd777e59cc6f84b944d63665105b77d0e3374d8391d498a"}, "tags": {"4.2.1--pyhb765511_0": "sha256:503e5b4beab6b212fdd777e59cc6f84b944d63665105b77d0e3374d8391d498a"}, "docker": "quay.io/biocontainers/trtools", "aliases": {"compareSTR": "/usr/local/bin/compareSTR", "dumpSTR": "/usr/local/bin/dumpSTR", "mergeSTR": "/usr/local/bin/mergeSTR", "qcSTR": "/usr/local/bin/qcSTR", "statSTR": "/usr/local/bin/statSTR", "test_trtools.sh": "/usr/local/bin/test_trtools.sh", "trtools_prep_beagle_vcf.sh": "/usr/local/bin/trtools_prep_beagle_vcf.sh", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed"}}
+config: {"url": "https://biocontainers.pro/tools/trtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trtools", "latest": {"5.0.1--pyha447b20_0": "sha256:49cffe81a292596cd640c6bf49779d5a8480785e5c844ba4af8de0ad7528c4a3"}, "tags": {"4.2.1--pyhb765511_0": "sha256:503e5b4beab6b212fdd777e59cc6f84b944d63665105b77d0e3374d8391d498a", "5.0.1--pyha447b20_0": "sha256:49cffe81a292596cd640c6bf49779d5a8480785e5c844ba4af8de0ad7528c4a3"}, "docker": "quay.io/biocontainers/trtools", "aliases": {"compareSTR": "/usr/local/bin/compareSTR", "dumpSTR": "/usr/local/bin/dumpSTR", "mergeSTR": "/usr/local/bin/mergeSTR", "qcSTR": "/usr/local/bin/qcSTR", "statSTR": "/usr/local/bin/statSTR", "test_trtools.sh": "/usr/local/bin/test_trtools.sh", "trtools_prep_beagle_vcf.sh": "/usr/local/bin/trtools_prep_beagle_vcf.sh", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trtools.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/trtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trtools:4.2.1--pyhb765511_0
+$ shpc install quay.io/biocontainers/trtools:5.0.1--pyha447b20_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trtools/4.2.1--pyhb765511_0
-$ module help quay.io/biocontainers/trtools/4.2.1--pyhb765511_0
+$ module load quay.io/biocontainers/trtools/5.0.1--pyha447b20_0
+$ module help quay.io/biocontainers/trtools/5.0.1--pyha447b20_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

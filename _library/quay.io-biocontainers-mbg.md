@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mbg/container.yaml"
-updated_at: "2023-02-21 03:38:06.668820"
-latest: "1.0.12--hd03093a_0"
+updated_at: "2023-02-22 03:37:10.194416"
+latest: "1.0.13--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/mbg"
 aliases:
  - "MBG"
 versions:
  - "1.0.9--hd03093a_1"
  - "1.0.12--hd03093a_0"
+ - "1.0.13--hd03093a_0"
 description: "shpc-registry automated BioContainers addition for mbg"
-config: {"url": "https://biocontainers.pro/tools/mbg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mbg", "latest": {"1.0.12--hd03093a_0": "sha256:c04d2b07415150cc012f658df97479cc122fc67d11205b7cf6e94ef6e7c59408"}, "tags": {"1.0.9--hd03093a_1": "sha256:457ccc886389b3879ec1be1fa49d840e2abfbce1c2ea20720eed40737d6c7b3d", "1.0.12--hd03093a_0": "sha256:c04d2b07415150cc012f658df97479cc122fc67d11205b7cf6e94ef6e7c59408"}, "docker": "quay.io/biocontainers/mbg", "aliases": {"MBG": "/usr/local/bin/MBG"}}
+config: {"url": "https://biocontainers.pro/tools/mbg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mbg", "latest": {"1.0.13--hd03093a_0": "sha256:e4b97079595e8448af78c884435bafa9c0e015136f3ed0787c006af5c7d86d25"}, "tags": {"1.0.9--hd03093a_1": "sha256:457ccc886389b3879ec1be1fa49d840e2abfbce1c2ea20720eed40737d6c7b3d", "1.0.12--hd03093a_0": "sha256:c04d2b07415150cc012f658df97479cc122fc67d11205b7cf6e94ef6e7c59408", "1.0.13--hd03093a_0": "sha256:e4b97079595e8448af78c884435bafa9c0e015136f3ed0787c006af5c7d86d25"}, "docker": "quay.io/biocontainers/mbg", "aliases": {"MBG": "/usr/local/bin/MBG"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mbg.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mbg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mbg:1.0.12--hd03093a_0
+$ shpc install quay.io/biocontainers/mbg:1.0.13--hd03093a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mbg/1.0.12--hd03093a_0
-$ module help quay.io/biocontainers/mbg/1.0.12--hd03093a_0
+$ module load quay.io/biocontainers/mbg/1.0.13--hd03093a_0
+$ module help quay.io/biocontainers/mbg/1.0.13--hd03093a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

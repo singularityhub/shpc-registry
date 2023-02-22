@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/glimpse-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimpse-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glimpse-bio/container.yaml"
-updated_at: "2023-02-21 03:33:44.735563"
-latest: "1.1.1--h0303221_3"
+updated_at: "2023-02-22 03:32:33.500277"
+latest: "2.0.0--hf340a29_0"
 container_url: "https://biocontainers.pro/tools/glimpse-bio"
 aliases:
  - "GLIMPSE_chunk"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "v1.1.1--hd3cd7f2_0"
  - "1.1.1--h0303221_3"
+ - "2.0.0--hf340a29_0"
 description: "shpc-registry automated BioContainers addition for glimpse-bio"
-config: {"url": "https://biocontainers.pro/tools/glimpse-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimpse-bio", "latest": {"1.1.1--h0303221_3": "sha256:bd344086b0116b07dfe588efa3fc9bb112ab5cd942409c9d18b1c733178f9bc5"}, "tags": {"v1.1.1--hd3cd7f2_0": "sha256:31ea0d60db8f22d95c3d6cc8c4ca3899e7c4ee659169a00b93ba7c0e0fd1a207", "1.1.1--h0303221_3": "sha256:bd344086b0116b07dfe588efa3fc9bb112ab5cd942409c9d18b1c733178f9bc5"}, "docker": "quay.io/biocontainers/glimpse-bio", "aliases": {"GLIMPSE_chunk": "/usr/local/bin/GLIMPSE_chunk", "GLIMPSE_concordance": "/usr/local/bin/GLIMPSE_concordance", "GLIMPSE_ligate": "/usr/local/bin/GLIMPSE_ligate", "GLIMPSE_phase": "/usr/local/bin/GLIMPSE_phase", "GLIMPSE_sample": "/usr/local/bin/GLIMPSE_sample", "GLIMPSE_snparray": "/usr/local/bin/GLIMPSE_snparray", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/glimpse-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimpse-bio", "latest": {"2.0.0--hf340a29_0": "sha256:7fdd7991f5d4374027df25b73c0b3ddf8de8b8e3562254dbd4aeff1d999794a6"}, "tags": {"v1.1.1--hd3cd7f2_0": "sha256:31ea0d60db8f22d95c3d6cc8c4ca3899e7c4ee659169a00b93ba7c0e0fd1a207", "1.1.1--h0303221_3": "sha256:bd344086b0116b07dfe588efa3fc9bb112ab5cd942409c9d18b1c733178f9bc5", "2.0.0--hf340a29_0": "sha256:7fdd7991f5d4374027df25b73c0b3ddf8de8b8e3562254dbd4aeff1d999794a6"}, "docker": "quay.io/biocontainers/glimpse-bio", "aliases": {"GLIMPSE_chunk": "/usr/local/bin/GLIMPSE_chunk", "GLIMPSE_concordance": "/usr/local/bin/GLIMPSE_concordance", "GLIMPSE_ligate": "/usr/local/bin/GLIMPSE_ligate", "GLIMPSE_phase": "/usr/local/bin/GLIMPSE_phase", "GLIMPSE_sample": "/usr/local/bin/GLIMPSE_sample", "GLIMPSE_snparray": "/usr/local/bin/GLIMPSE_snparray", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glimpse-bio.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/glimpse-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/glimpse-bio:1.1.1--h0303221_3
+$ shpc install quay.io/biocontainers/glimpse-bio:2.0.0--hf340a29_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/glimpse-bio/1.1.1--h0303221_3
-$ module help quay.io/biocontainers/glimpse-bio/1.1.1--h0303221_3
+$ module load quay.io/biocontainers/glimpse-bio/2.0.0--hf340a29_0
+$ module help quay.io/biocontainers/glimpse-bio/2.0.0--hf340a29_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

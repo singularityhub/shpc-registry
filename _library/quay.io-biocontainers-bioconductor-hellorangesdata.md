@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hellorangesdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hellorangesdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hellorangesdata/container.yaml"
-updated_at: "2023-02-21 02:56:08.192258"
+updated_at: "2023-02-22 02:53:09.043605"
 latest: "1.23.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hellorangesdata"
 aliases:

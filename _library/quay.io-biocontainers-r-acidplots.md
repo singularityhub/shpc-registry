@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-acidplots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidplots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidplots/container.yaml"
-updated_at: "2023-02-21 03:08:26.501837"
-latest: "0.5.3--r42hdfd78af_1"
+updated_at: "2023-02-22 03:06:00.885556"
+latest: "0.5.4--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidplots"
 
 versions:
  - "0.4.0--r41hdfd78af_0"
  - "0.5.3--r42hdfd78af_1"
+ - "0.5.4--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-acidplots"
-config: {"url": "https://biocontainers.pro/tools/r-acidplots", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidplots", "latest": {"0.5.3--r42hdfd78af_1": "sha256:b6c03328839ea124fbaf3fc0eae52971e5f2e4423c5efec58d0647eaf06c53cf"}, "tags": {"0.4.0--r41hdfd78af_0": "sha256:51aca75c76f442f3e9af355ad80d4b1d5006ecfe214ae17e4a0bd7fa83a34843", "0.5.3--r42hdfd78af_1": "sha256:b6c03328839ea124fbaf3fc0eae52971e5f2e4423c5efec58d0647eaf06c53cf"}, "docker": "quay.io/biocontainers/r-acidplots"}
+config: {"url": "https://biocontainers.pro/tools/r-acidplots", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidplots", "latest": {"0.5.4--r42hdfd78af_0": "sha256:22571437fc8eb8c060573f8dfbbfbcc05b59d60b574fe658c8dce15ef46632d3"}, "tags": {"0.4.0--r41hdfd78af_0": "sha256:51aca75c76f442f3e9af355ad80d4b1d5006ecfe214ae17e4a0bd7fa83a34843", "0.5.3--r42hdfd78af_1": "sha256:b6c03328839ea124fbaf3fc0eae52971e5f2e4423c5efec58d0647eaf06c53cf", "0.5.4--r42hdfd78af_0": "sha256:22571437fc8eb8c060573f8dfbbfbcc05b59d60b574fe658c8dce15ef46632d3"}, "docker": "quay.io/biocontainers/r-acidplots"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidplots.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-acidplots
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidplots:0.5.3--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-acidplots:0.5.4--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidplots/0.5.3--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-acidplots/0.5.3--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-acidplots/0.5.4--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-acidplots/0.5.4--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

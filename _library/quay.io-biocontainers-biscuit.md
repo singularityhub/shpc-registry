@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biscuit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biscuit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biscuit/container.yaml"
-updated_at: "2023-02-21 03:44:07.057481"
-latest: "1.1.0.20220707--he272189_1"
+updated_at: "2023-02-22 03:43:28.417927"
+latest: "1.2.0.20230130--he272189_0"
 container_url: "https://biocontainers.pro/tools/biscuit"
 aliases:
  - "QC.sh"
@@ -16,8 +16,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.1.0.20220707--he272189_1"
+ - "1.2.0.20230130--he272189_0"
 description: "shpc-registry automated BioContainers addition for biscuit"
-config: {"url": "https://biocontainers.pro/tools/biscuit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biscuit", "latest": {"1.1.0.20220707--he272189_1": "sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270"}, "tags": {"1.1.0.20220707--he272189_1": "sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270"}, "docker": "quay.io/biocontainers/biscuit", "aliases": {"QC.sh": "/usr/local/bin/QC.sh", "biscuit": "/usr/local/bin/biscuit", "build_biscuit_QC_assets.pl": "/usr/local/bin/build_biscuit_QC_assets.pl", "build_biscuit_QC_assets.pl.bak": "/usr/local/bin/build_biscuit_QC_assets.pl.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/biscuit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biscuit", "latest": {"1.2.0.20230130--he272189_0": "sha256:9a6f6516d9e3d1c9a2d849cdfaa622ccc7124852e3351ad09cf8f33bb4c39cd9"}, "tags": {"1.1.0.20220707--he272189_1": "sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270", "1.2.0.20230130--he272189_0": "sha256:9a6f6516d9e3d1c9a2d849cdfaa622ccc7124852e3351ad09cf8f33bb4c39cd9"}, "docker": "quay.io/biocontainers/biscuit", "aliases": {"QC.sh": "/usr/local/bin/QC.sh", "biscuit": "/usr/local/bin/biscuit", "build_biscuit_QC_assets.pl": "/usr/local/bin/build_biscuit_QC_assets.pl", "build_biscuit_QC_assets.pl.bak": "/usr/local/bin/build_biscuit_QC_assets.pl.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biscuit.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/biscuit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biscuit:1.1.0.20220707--he272189_1
+$ shpc install quay.io/biocontainers/biscuit:1.2.0.20230130--he272189_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biscuit/1.1.0.20220707--he272189_1
-$ module help quay.io/biocontainers/biscuit/1.1.0.20220707--he272189_1
+$ module load quay.io/biocontainers/biscuit/1.2.0.20230130--he272189_0
+$ module help quay.io/biocontainers/biscuit/1.2.0.20230130--he272189_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
