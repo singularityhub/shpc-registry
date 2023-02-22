@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/virulencefinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for virulencefinder
+latest:
+  2.0.4--hdfd78af_0: sha256:36729c8e3016d23bd44b4ebc928412d7931b9289330ba48f7c0eab79a2a70337
+tags:
+  2.0.4--hdfd78af_0: sha256:36729c8e3016d23bd44b4ebc928412d7931b9289330ba48f7c0eab79a2a70337
+docker: quay.io/biocontainers/virulencefinder
+aliases:
+  download-virulence-db.sh: /usr/local/bin/download-virulence-db.sh
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  virulencefinder.py: /usr/local/bin/virulencefinder.py
+  tabulate: /usr/local/bin/tabulate
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns
+  snp2hgvs: /usr/local/bin/snp2hgvs
+  snp2tbl: /usr/local/bin/snp2tbl
+  sort-table: /usr/local/bin/sort-table
+  spdi2tbl: /usr/local/bin/spdi2tbl
+  split-at-intron: /usr/local/bin/split-at-intron
+  tbl2xml: /usr/local/bin/tbl2xml
+  transmute.Linux: /usr/local/bin/transmute.Linux

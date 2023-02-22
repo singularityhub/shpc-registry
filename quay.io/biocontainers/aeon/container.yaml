@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/aeon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aeon
+latest:
+  0.1.1--py39h3b2373f_0: sha256:947800f8b7cbccf4e0620bd09707dfe3878b0335a4d0a70753fdf7846985b0a7
+tags:
+  0.1.1--py39h3b2373f_0: sha256:947800f8b7cbccf4e0620bd09707dfe3878b0335a4d0a70753fdf7846985b0a7
+docker: quay.io/biocontainers/aeon
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

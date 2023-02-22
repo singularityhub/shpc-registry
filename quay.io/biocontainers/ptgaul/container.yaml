@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/ptgaul
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ptgaul
+latest:
+  1.0.5--pyhdfd78af_0: sha256:7866cb35e0f3da79600ca39339f8cedf63e769125bfc5e087eef7f960fe2d3e2
+tags:
+  1.0.5--pyhdfd78af_0: sha256:7866cb35e0f3da79600ca39339f8cedf63e769125bfc5e087eef7f960fe2d3e2
+docker: quay.io/biocontainers/ptgaul
+aliases:
+  assembly-stats: /usr/local/bin/assembly-stats
+  combine_gfa.py: /usr/local/bin/combine_gfa.py
+  flye: /usr/local/bin/flye
+  flye-minimap2: /usr/local/bin/flye-minimap2
+  flye-modules: /usr/local/bin/flye-modules
+  flye-samtools: /usr/local/bin/flye-samtools
+  ptGAUL.sh: /usr/local/bin/ptGAUL.sh
+  seqkit: /usr/local/bin/seqkit
+  seqtk: /usr/local/bin/seqtk
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

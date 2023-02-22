@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/blend-bio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for blend-bio
+latest:
+  1.0.0--h7132678_0: sha256:065a1dad5fa04908aa223561f10958b87a451ba47a083cf97ee6f5203bd37146
+tags:
+  1.0.0--h7132678_0: sha256:065a1dad5fa04908aa223561f10958b87a451ba47a083cf97ee6f5203bd37146
+docker: quay.io/biocontainers/blend-bio
+aliases:
+  blend: /usr/local/bin/blend
+  sdust: /usr/local/bin/sdust

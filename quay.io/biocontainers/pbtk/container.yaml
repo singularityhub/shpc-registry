@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pbtk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pbtk
+latest:
+  1.0.0--h9ee0642_0: sha256:d37dfd307c36268f3cc4c5a19c3d5903c1917567eb30ccabe2d8d6e68dc22979
+tags:
+  1.0.0--h9ee0642_0: sha256:d37dfd307c36268f3cc4c5a19c3d5903c1917567eb30ccabe2d8d6e68dc22979
+docker: quay.io/biocontainers/pbtk
+aliases:
+  ccs-kinetics-bystrandify: /usr/local/bin/ccs-kinetics-bystrandify
+  extracthifi: /usr/local/bin/extracthifi
+  pbindex: /usr/local/bin/pbindex
+  pbindexdump: /usr/local/bin/pbindexdump
+  pbmerge: /usr/local/bin/pbmerge
+  zmwfilter: /usr/local/bin/zmwfilter

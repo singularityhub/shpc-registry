@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/parebrick
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for parebrick
+latest:
+  0.3.7--pyhdfd78af_0: sha256:8e71a4e16b1c8eb27673862b46552e8e3bf6864af4e6da81e2426e45b7bef579
+tags:
+  0.3.7--pyhdfd78af_0: sha256:8e71a4e16b1c8eb27673862b46552e8e3bf6864af4e6da81e2426e45b7bef579
+docker: quay.io/biocontainers/parebrick
+aliases:
+  PaReBrick: /usr/local/bin/PaReBrick
+  PaReBrick-Charts: /usr/local/bin/PaReBrick-Charts
+  parebrick: /usr/local/bin/parebrick
+  parebrick-charts: /usr/local/bin/parebrick-charts
+  nosetests-3.9: /usr/local/bin/nosetests-3.9
+  coverage: /usr/local/bin/coverage
+  ete3: /usr/local/bin/ete3
+  nosetests: /usr/local/bin/nosetests
+  xkbcli: /usr/local/bin/xkbcli
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  pg_config: /usr/local/bin/pg_config
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict
+  canbusutil: /usr/local/bin/canbusutil
+  qgltf: /usr/local/bin/qgltf
+  qmlcachegen: /usr/local/bin/qmlcachegen
+  qscxmlc: /usr/local/bin/qscxmlc
+  qtattributionsscanner: /usr/local/bin/qtattributionsscanner
+  repc: /usr/local/bin/repc
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset

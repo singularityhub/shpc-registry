@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/mgcod
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mgcod
+latest:
+  1.0.0--hdfd78af_0: sha256:6e4ea36eb702757f1891d08298aa1e1c784837c8acf2304ea0992c176d6ef444
+tags:
+  1.0.0--hdfd78af_0: sha256:6e4ea36eb702757f1891d08298aa1e1c784837c8acf2304ea0992c176d6ef444
+docker: quay.io/biocontainers/mgcod
+aliases:
+  data.py: /usr/local/bin/data.py
+  mgcod.py: /usr/local/bin/mgcod.py
+  multiprocess_mgcod.py: /usr/local/bin/multiprocess_mgcod.py
+  pipeline.py: /usr/local/bin/pipeline.py
+  results.py: /usr/local/bin/results.py
+  visualizations.py: /usr/local/bin/visualizations.py
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

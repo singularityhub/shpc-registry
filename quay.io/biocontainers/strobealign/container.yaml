@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/strobealign
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for strobealign
+latest:
+  0.8.0--h5b5514e_0: sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5
+tags:
+  0.8.0--h5b5514e_0: sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5
+docker: quay.io/biocontainers/strobealign
+aliases:
+  strobealign: /usr/local/bin/strobealign

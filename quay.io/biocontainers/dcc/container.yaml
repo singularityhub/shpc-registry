@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/dcc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dcc
+latest:
+  0.5.0--pyhca03a8a_0: sha256:e7e6bc01b1ae2b540357318bae709732907bda8929de88584703866bc0717611
+tags:
+  0.5.0--pyhca03a8a_0: sha256:e7e6bc01b1ae2b540357318bae709732907bda8929de88584703866bc0717611
+docker: quay.io/biocontainers/dcc
+aliases:
+  DCC: /usr/local/bin/DCC
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

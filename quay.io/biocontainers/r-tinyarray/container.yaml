@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/r-tinyarray
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-tinyarray
+latest:
+  2.2.7--r42h3121a25_1: sha256:eb3b891de67aea7f207bb7f9443cc5b62e2eb2e6680e420dea4776d5d5f0c7d4
+tags:
+  2.2.7--r42h3121a25_1: sha256:eb3b891de67aea7f207bb7f9443cc5b62e2eb2e6680e420dea4776d5d5f0c7d4
+docker: quay.io/biocontainers/r-tinyarray
+aliases:
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  glpsol: /usr/local/bin/glpsol
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

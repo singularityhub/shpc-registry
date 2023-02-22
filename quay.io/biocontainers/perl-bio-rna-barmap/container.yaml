@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/perl-bio-rna-barmap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-bio-rna-barmap
+latest:
+  0.04--pl5321hdfd78af_0: sha256:3f83d1fcfe458b57d37a6e5ae6c0f149cb34a26b8e6e4a6ca68959bab5ff4717
+tags:
+  0.04--pl5321hdfd78af_0: sha256:3f83d1fcfe458b57d37a6e5ae6c0f149cb34a26b8e6e4a6ca68959bab5ff4717
+docker: quay.io/biocontainers/perl-bio-rna-barmap
+aliases:
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

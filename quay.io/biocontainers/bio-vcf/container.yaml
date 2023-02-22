@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/bio-vcf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bio-vcf
+latest:
+  0.9.5--hdfd78af_0: sha256:40b493e909df90d775deee324923bfee341b44e6f90abfbb359b8c2374d646e6
+tags:
+  0.9.5--hdfd78af_0: sha256:40b493e909df90d775deee324923bfee341b44e6f90abfbb359b8c2374d646e6
+docker: quay.io/biocontainers/bio-vcf
+aliases:
+  bio-vcf: /usr/local/bin/bio-vcf
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool
+  erb: /usr/local/bin/erb
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby

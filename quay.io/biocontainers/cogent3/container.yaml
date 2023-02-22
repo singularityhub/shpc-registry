@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/cogent3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cogent3
+latest:
+  2022.8.24a1--pyhdfd78af_0: sha256:1b0138ed723f6016e7ecd6f1fd5c459ca5f1aba1383c448d80d5271e8cdd99fd
+tags:
+  2022.8.24a1--pyhdfd78af_0: sha256:1b0138ed723f6016e7ecd6f1fd5c459ca5f1aba1383c448d80d5271e8cdd99fd
+docker: quay.io/biocontainers/cogent3
+aliases:
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  tqdm: /usr/local/bin/tqdm
+  chardetect: /usr/local/bin/chardetect
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

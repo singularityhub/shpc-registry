@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/leviosam2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for leviosam2
+latest:
+  0.3.0--h28e74a2_0: sha256:0f9408d2585fdff469405db33f4fcb7ab6447a3046d97cbc12dc128d8651317d
+tags:
+  0.3.0--h28e74a2_0: sha256:0f9408d2585fdff469405db33f4fcb7ab6447a3046d97cbc12dc128d8651317d
+docker: quay.io/biocontainers/leviosam2
+aliases:
+  leviosam2: /usr/local/bin/leviosam2
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/isa-rwval
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for isa-rwval
+latest:
+  0.10.9--py_0: sha256:dfbc8e0706b1808a5801e86eb28b3a37b92c8a47954fff856e02730ecb346e9d
+tags:
+  0.10.9--py_0: sha256:dfbc8e0706b1808a5801e86eb28b3a37b92c8a47954fff856e02730ecb346e9d
+docker: quay.io/biocontainers/isa-rwval
+aliases:
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/chronumental
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chronumental
+latest:
+  0.0.50--pyhdfd78af_0: sha256:16d037a4f72507b6d9b18d60bc60fe0304bb9998e77bbda766ae14b04105efef
+tags:
+  0.0.50--pyhdfd78af_0: sha256:16d037a4f72507b6d9b18d60bc60fe0304bb9998e77bbda766ae14b04105efef
+docker: quay.io/biocontainers/chronumental
+aliases:
+  chronumental: /usr/local/bin/chronumental
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  protoc: /usr/local/bin/protoc
+  tqdm: /usr/local/bin/tqdm
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/spec2vec
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spec2vec
+latest:
+  0.8.0--pyhdfd78af_0: sha256:d5d1ccf339ba77f061787671c56f388b07d29a45e4e7902674af0fd68716fc45
+tags:
+  0.8.0--pyhdfd78af_0: sha256:d5d1ccf339ba77f061787671c56f388b07d29a45e4e7902674af0fd68716fc45
+docker: quay.io/biocontainers/spec2vec
+aliases:
+  tjbench: /usr/local/bin/tjbench
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
+  brotli: /usr/local/bin/brotli
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc

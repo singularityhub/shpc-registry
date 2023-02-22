@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/biobloomtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for biobloomtools
+latest:
+  2.3.5--hb7da652_0: sha256:3eb5c822c7ea2d65c8b60b571580858a3187e20d2a8c3f53cd065f7db48e8957
+tags:
+  2.3.5--hb7da652_0: sha256:3eb5c822c7ea2d65c8b60b571580858a3187e20d2a8c3f53cd065f7db48e8957
+docker: quay.io/biocontainers/biobloomtools
+aliases:
+  biobloomcategorizer: /usr/local/bin/biobloomcategorizer
+  biobloommaker: /usr/local/bin/biobloommaker
+  biobloommicategorizer: /usr/local/bin/biobloommicategorizer
+  biobloommimaker: /usr/local/bin/biobloommimaker

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/r-conos
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-conos
+latest:
+  1.5.0--r42hecf12ef_1: sha256:4ce4c6ab1175e1a91010471fef16810ef3bc888db8485abdfed999cabc7b7c0c
+tags:
+  1.5.0--r42hecf12ef_1: sha256:4ce4c6ab1175e1a91010471fef16810ef3bc888db8485abdfed999cabc7b7c0c
+docker: quay.io/biocontainers/r-conos
+aliases:
+  glpsol: /usr/local/bin/glpsol

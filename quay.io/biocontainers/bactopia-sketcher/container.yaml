@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/bactopia-sketcher
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bactopia-sketcher
+latest:
+  1.0.0--hdfd78af_0: sha256:e387b40a00a09ca1add5c1c15588cab671371d1a79c71bc12230d5b3934ea550
+tags:
+  1.0.0--hdfd78af_0: sha256:e387b40a00a09ca1add5c1c15588cab671371d1a79c71bc12230d5b3934ea550
+docker: quay.io/biocontainers/bactopia-sketcher
+aliases:
+  bactopia-sketcher: /usr/local/bin/bactopia-sketcher
+  sourmash: /usr/local/bin/sourmash
+  screed: /usr/local/bin/screed
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df

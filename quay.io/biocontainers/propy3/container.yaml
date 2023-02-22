@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/propy3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for propy3
+latest:
+  1.1.1--pyhdfd78af_0: sha256:245c35444006cb1fee14b3a4b4a5857403916d9aef18c758c05a432acce653b4
+tags:
+  1.1.1--pyhdfd78af_0: sha256:245c35444006cb1fee14b3a4b4a5857403916d9aef18c758c05a432acce653b4
+docker: quay.io/biocontainers/propy3
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

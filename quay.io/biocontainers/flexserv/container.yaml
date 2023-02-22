@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/flexserv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for flexserv
+latest:
+  1.0.2--h1aed7a7_0: sha256:986a5db952a3b1073feab9cb9caf857d438292b417eff9f3334d61e91222c5d8
+tags:
+  1.0.2--h1aed7a7_0: sha256:986a5db952a3b1073feab9cb9caf857d438292b417eff9f3334d61e91222c5d8
+docker: quay.io/biocontainers/flexserv
+aliases:
+  bd: /usr/local/bin/bd
+  diaghess: /usr/local/bin/diaghess
+  dmdgoopt: /usr/local/bin/dmdgoopt
+  lorellnma: /usr/local/bin/lorellnma
+  mc-eigen-mdweb.pl: /usr/local/bin/mc-eigen-mdweb.pl
+  mc-eigen.pl: /usr/local/bin/mc-eigen.pl
+  nmanu.pl: /usr/local/bin/nmanu.pl
+  pca_anim_mc.pl: /usr/local/bin/pca_anim_mc.pl

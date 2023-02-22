@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/mgcplotter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mgcplotter
+latest:
+  1.0.1--pyhdfd78af_0: sha256:7c5dc5bde7dd74c75c36c4c987def5f8f09cd24fcfe8f5d7f345c59a9159f3b3
+tags:
+  1.0.1--pyhdfd78af_0: sha256:7c5dc5bde7dd74c75c36c4c987def5f8f09cd24fcfe8f5d7f345c59a9159f3b3
+docker: quay.io/biocontainers/mgcplotter
+aliases:
+  COGclassifier: /usr/local/bin/COGclassifier
+  MGCplotter: /usr/local/bin/MGCplotter
+  generate_cog_color_template: /usr/local/bin/generate_cog_color_template
+  plot_cog_classifier_barchart: /usr/local/bin/plot_cog_classifier_barchart
+  plot_cog_classifier_piechart: /usr/local/bin/plot_cog_classifier_piechart
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  gddiag: /usr/local/bin/gddiag
+  list.modules: /usr/local/bin/list.modules
+  test.modules: /usr/local/bin/test.modules
+  mmseqs: /usr/local/bin/mmseqs
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  jsonschema: /usr/local/bin/jsonschema
+  idn2: /usr/local/bin/idn2
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli
+  bdftogd: /usr/local/bin/bdftogd
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif

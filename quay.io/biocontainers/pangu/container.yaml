@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/pangu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pangu
+latest:
+  0.2.2--pyhdfd78af_0: sha256:ace8923f2c5a400c6f726845d00e40ba77d225e06a44e2962b8dc6b5d765fb48
+tags:
+  0.2.2--pyhdfd78af_0: sha256:ace8923f2c5a400c6f726845d00e40ba77d225e06a44e2962b8dc6b5d765fb48
+docker: quay.io/biocontainers/pangu
+aliases:
+  pangu: /usr/local/bin/pangu
+  minimap2.py: /usr/local/bin/minimap2.py
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

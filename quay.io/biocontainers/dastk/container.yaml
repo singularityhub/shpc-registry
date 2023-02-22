@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/dastk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dastk
+latest:
+  1.0.1--pyh7cba7a3_0: sha256:cf63845c1ef790d29278730e53bf7bca94117f812a1db27987a378609c31c9b4
+tags:
+  1.0.1--pyh7cba7a3_0: sha256:cf63845c1ef790d29278730e53bf7bca94117f812a1db27987a378609c31c9b4
+docker: quay.io/biocontainers/dastk
+aliases:
+  barcode_plot: /usr/local/bin/barcode_plot
+  differential_md_score: /usr/local/bin/differential_md_score
+  ma_plot: /usr/local/bin/ma_plot
+  process_atac: /usr/local/bin/process_atac
+  tf_intersect: /usr/local/bin/tf_intersect
+  tf_result_explanations: /usr/local/bin/tf_result_explanations
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy

@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/clair3-illumina
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for clair3-illumina
+latest:
+  0.1.5--h2df963e_1: sha256:2afff90b40c83cfb538d4d13623e428bce6bc806d3a5ec98ceaa92d2207cc998
+tags:
+  0.1.5--h2df963e_1: sha256:2afff90b40c83cfb538d4d13623e428bce6bc806d3a5ec98ceaa92d2207cc998
+docker: quay.io/biocontainers/clair3-illumina
+aliases:
+  clair3.py: /usr/local/bin/clair3.py
+  pypy: /usr/local/bin/pypy
+  pypy3: /usr/local/bin/pypy3
+  pypy3.6: /usr/local/bin/pypy3.6
+  run_clair3.sh: /usr/local/bin/run_clair3.sh
+  whatshap: /usr/local/bin/whatshap
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  igzip: /usr/local/bin/igzip
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  tensorboard: /usr/local/bin/tensorboard
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh

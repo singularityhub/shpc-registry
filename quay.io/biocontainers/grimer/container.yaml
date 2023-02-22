@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/grimer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for grimer
+latest:
+  1.1.0--pyhdfd78af_0: sha256:a8daed64b8bd0963fce532f20e50905eb16ce150e7c2d830bfc6ea54af0df8c6
+tags:
+  1.1.0--pyhdfd78af_0: sha256:a8daed64b8bd0963fce532f20e50905eb16ce150e7c2d830bfc6ea54af0df8c6
+docker: quay.io/biocontainers/grimer
+aliases:
+  grimer: /usr/local/bin/grimer
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  perf: /usr/local/bin/perf
+  ph5diff: /usr/local/bin/ph5diff
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  biom: /usr/local/bin/biom
+  doesitcache: /usr/local/bin/doesitcache
+  bokeh: /usr/local/bin/bokeh
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  mpifort: /usr/local/bin/mpifort
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpicxx: /usr/local/bin/mpicxx
+  mpiexec: /usr/local/bin/mpiexec
+  mpif77: /usr/local/bin/mpif77
+  mpif90: /usr/local/bin/mpif90
+  mpirun: /usr/local/bin/mpirun
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest

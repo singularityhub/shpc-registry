@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/trgt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trgt
+latest:
+  0.3.4--hdfd78af_0: sha256:fd43ea17e09f402bb0ee677021fc860a9308c081ec998cecf9030541b06a4aa7
+tags:
+  0.3.4--hdfd78af_0: sha256:fd43ea17e09f402bb0ee677021fc860a9308c081ec998cecf9030541b06a4aa7
+docker: quay.io/biocontainers/trgt
+aliases:
+  trgt: /usr/local/bin/trgt
+  trvz: /usr/local/bin/trvz

@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/fastq-filter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastq-filter
+latest:
+  0.3.0--py39hbf8eff0_0: sha256:d2d32e7beeffebd5b754952cf79e6b19b4e20c7ea6d0a291f3f21bee25f35927
+tags:
+  0.3.0--py39hbf8eff0_0: sha256:d2d32e7beeffebd5b754952cf79e6b19b4e20c7ea6d0a291f3f21bee25f35927
+docker: quay.io/biocontainers/fastq-filter
+aliases:
+  fastq-filter: /usr/local/bin/fastq-filter
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

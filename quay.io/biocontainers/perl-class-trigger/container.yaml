@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-class-trigger
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-class-trigger
+latest:
+  0.15--pl5321hdfd78af_1: sha256:90a6d9de6bf81dab8658eaffa8e76dc7203a22e6c37d7c1f4940f5c4022110a7
+tags:
+  0.15--pl5321hdfd78af_1: sha256:90a6d9de6bf81dab8658eaffa8e76dc7203a22e6c37d7c1f4940f5c4022110a7
+docker: quay.io/biocontainers/perl-class-trigger
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

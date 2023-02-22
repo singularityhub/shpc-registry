@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/psmc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for psmc
+latest:
+  0.6.5--h5b5514e_0: sha256:0969906a912c973a0ff9d7db26cd7f7ac97361ed8f220a1ada1576f7629af0e2
+tags:
+  0.6.5--h5b5514e_0: sha256:0969906a912c973a0ff9d7db26cd7f7ac97361ed8f220a1ada1576f7629af0e2
+docker: quay.io/biocontainers/psmc
+aliases:
+  Makefile: /usr/local/bin/Makefile
+  avg.pl: /usr/local/bin/avg.pl
+  calD: /usr/local/bin/calD
+  calD.c: /usr/local/bin/calD.c
+  calD.o: /usr/local/bin/calD.o
+  cntcpg: /usr/local/bin/cntcpg
+  cntcpg.c: /usr/local/bin/cntcpg.c
+  cntcpg.o: /usr/local/bin/cntcpg.o
+  ctime_plot.pl: /usr/local/bin/ctime_plot.pl
+  dec2ctime.pl: /usr/local/bin/dec2ctime.pl
+  decode2bed.pl: /usr/local/bin/decode2bed.pl
+  fq2psmcfa: /usr/local/bin/fq2psmcfa
+  fq2psmcfa.c: /usr/local/bin/fq2psmcfa.c
+  fq2psmcfa.o: /usr/local/bin/fq2psmcfa.o
+  history2ms.pl: /usr/local/bin/history2ms.pl
+  khash.h: /usr/local/bin/khash.h
+  ms2psmcfa.pl: /usr/local/bin/ms2psmcfa.pl
+  mutDiff: /usr/local/bin/mutDiff
+  mutDiff.c: /usr/local/bin/mutDiff.c
+  mutDiff.o: /usr/local/bin/mutDiff.o
+  pcnt_bezier.lua: /usr/local/bin/pcnt_bezier.lua
+  psmc: /usr/local/bin/psmc
+  psmc2history.pl: /usr/local/bin/psmc2history.pl
+  psmc_plot.pl: /usr/local/bin/psmc_plot.pl
+  psmc_trunc.pl: /usr/local/bin/psmc_trunc.pl
+  splitfa: /usr/local/bin/splitfa
+  splitfa.c: /usr/local/bin/splitfa.c
+  splitfa.o: /usr/local/bin/splitfa.o

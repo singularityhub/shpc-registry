@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/mdmcleaner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mdmcleaner
+latest:
+  0.8.7--pyh7cba7a3_0: sha256:43c67c4711946d297284312ed8dba30617b45c1fd91ad219ddea8d03dd17581f
+tags:
+  0.8.7--pyh7cba7a3_0: sha256:43c67c4711946d297284312ed8dba30617b45c1fd91ad219ddea8d03dd17581f
+docker: quay.io/biocontainers/mdmcleaner
+aliases:
+  f2py3.11: /usr/local/bin/f2py3.11
+  mdmcleaner: /usr/local/bin/mdmcleaner
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  aragorn: /usr/local/bin/aragorn
+  barrnap: /usr/local/bin/barrnap
+  diamond: /usr/local/bin/diamond
+  prodigal: /usr/local/bin/prodigal
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml

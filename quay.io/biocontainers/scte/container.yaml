@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/scte
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scte
+latest:
+  1.0.0--pyhdfd78af_0: sha256:2dd71709941f965a7ffc16665d4ebb9ad62205e49ec6705474ed3dde0ac5057e
+tags:
+  1.0.0--pyhdfd78af_0: sha256:2dd71709941f965a7ffc16665d4ebb9ad62205e49ec6705474ed3dde0ac5057e
+docker: quay.io/biocontainers/scte
+aliases:
+  scTE: /usr/local/bin/scTE
+  scTEATAC: /usr/local/bin/scTEATAC
+  scTEATAC_build: /usr/local/bin/scTEATAC_build
+  scTE_build: /usr/local/bin/scTE_build
+  natsort: /usr/local/bin/natsort
+  f2py3.6: /usr/local/bin/f2py3.6
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial

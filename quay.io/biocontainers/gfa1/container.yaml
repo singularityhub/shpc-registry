@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/gfa1
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gfa1
+latest:
+  0.53.alpha--h7132678_0: sha256:f42d02eb1cc0ffab97d0fd992fa16374fd61fb22a7348c747db2755da1e96474
+tags:
+  0.53.alpha--h7132678_0: sha256:f42d02eb1cc0ffab97d0fd992fa16374fd61fb22a7348c747db2755da1e96474
+docker: quay.io/biocontainers/gfa1
+aliases:
+  falcon2gfa: /usr/local/bin/falcon2gfa
+  fastg2gfa: /usr/local/bin/fastg2gfa
+  gfaview: /usr/local/bin/gfaview
+  mag2gfa: /usr/local/bin/mag2gfa
+  supernova2gfa: /usr/local/bin/supernova2gfa

@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/mage-tab-merger
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mage-tab-merger
+latest:
+  0.0.4--pyh5e36f6f_0: sha256:2159089f8af0b07059f0c6101e19642a7b58baa9fadd833d292997236d65c95f
+tags:
+  0.0.4--pyh5e36f6f_0: sha256:2159089f8af0b07059f0c6101e19642a7b58baa9fadd833d292997236d65c95f
+docker: quay.io/biocontainers/mage-tab-merger
+aliases:
+  merge_baseline_configuration_xmls.py: /usr/local/bin/merge_baseline_configuration_xmls.py
+  merge_condensed_sdrfs.py: /usr/local/bin/merge_condensed_sdrfs.py
+  merge_data.py: /usr/local/bin/merge_data.py
+  merge_sdrfs.py: /usr/local/bin/merge_sdrfs.py
+  retrieve_data.py: /usr/local/bin/retrieve_data.py
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

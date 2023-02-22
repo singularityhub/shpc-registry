@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/ngs-chew
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ngs-chew
+latest:
+  0.8.0--pyhdfd78af_0: sha256:459e2b19a0ed61cd41d6696792ba40080e70dc5c57de5355eacb5d4a393d7a02
+tags:
+  0.8.0--pyhdfd78af_0: sha256:459e2b19a0ed61cd41d6696792ba40080e70dc5c57de5355eacb5d4a393d7a02
+docker: quay.io/biocontainers/ngs-chew
+aliases:
+  ngs-chew: /usr/local/bin/ngs-chew
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  f2py3.10: /usr/local/bin/f2py3.10
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl

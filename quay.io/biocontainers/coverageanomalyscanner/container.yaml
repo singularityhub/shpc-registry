@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/coverageanomalyscanner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for coverageanomalyscanner
+latest:
+  0.2.3--h47defd3_0: sha256:ac94da7cb2b85d9ae9c8f2e115631cc986a79f660510a796545e793e50c2db29
+tags:
+  0.2.3--h47defd3_0: sha256:ac94da7cb2b85d9ae9c8f2e115631cc986a79f660510a796545e793e50c2db29
+docker: quay.io/biocontainers/coverageanomalyscanner
+aliases:
+  cas: /usr/local/bin/cas

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ibdmix
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ibdmix
+latest:
+  1.0.1--h9f5acd7_0: sha256:a32dfb581a988f7f443cfee3481c9d5093c1a4b349f2f32d38b645c556ca68a2
+tags:
+  1.0.1--h9f5acd7_0: sha256:a32dfb581a988f7f443cfee3481c9d5093c1a4b349f2f32d38b645c556ca68a2
+docker: quay.io/biocontainers/ibdmix
+aliases:
+  generate_gt: /usr/local/bin/generate_gt
+  gt_lods: /usr/local/bin/gt_lods
+  ibdmix: /usr/local/bin/ibdmix

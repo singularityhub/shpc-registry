@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/gtftools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gtftools
+latest:
+  0.9.0--pyh5e36f6f_0: sha256:38c93f4071433f2f1255de22d04e3979becb4158707f6e66983be123634cd56c
+tags:
+  0.9.0--pyh5e36f6f_0: sha256:38c93f4071433f2f1255de22d04e3979becb4158707f6e66983be123634cd56c
+docker: quay.io/biocontainers/gtftools
+aliases:
+  gtftools: /usr/local/bin/gtftools
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

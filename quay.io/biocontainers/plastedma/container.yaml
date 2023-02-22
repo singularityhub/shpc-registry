@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/plastedma
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for plastedma
+latest:
+  0.2.1--hdfd78af_0: sha256:a8d8f6dd5a1742c1ba2c4f0b2f7e97e9d04035f9c379d8d3a10a08f4f035cbd3
+tags:
+  0.2.1--hdfd78af_0: sha256:a8d8f6dd5a1742c1ba2c4f0b2f7e97e9d04035f9c379d8d3a10a08f4f035cbd3
+docker: quay.io/biocontainers/plastedma
+aliases:
+  CDHIT_parser.py: /usr/local/bin/CDHIT_parser.py
+  CDHIT_seq_download.py: /usr/local/bin/CDHIT_seq_download.py
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  TMalign: /usr/local/bin/TMalign
+  UPIMAPI_parser.py: /usr/local/bin/UPIMAPI_parser.py
+  docker_run.py: /usr/local/bin/docker_run.py
+  hmm_process.py: /usr/local/bin/hmm_process.py
+  hmm_vali.py: /usr/local/bin/hmm_vali.py
+  hmmsearch_run.py: /usr/local/bin/hmmsearch_run.py
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  plastedma.py: /usr/local/bin/plastedma.py
+  poa: /usr/local/bin/poa
+  seq_download.py: /usr/local/bin/seq_download.py
+  snakemake_util.py: /usr/local/bin/snakemake_util.py
+  t_coffee_run.py: /usr/local/bin/t_coffee_run.py
+  clustalo: /usr/local/bin/clustalo
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat
+  megablast: /usr/local/bin/megablast
+  RNAdos: /usr/local/bin/RNAdos
+  FET.pl: /usr/local/bin/FET.pl
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  clstr_list.pl: /usr/local/bin/clstr_list.pl
+  clstr_list_sort.pl: /usr/local/bin/clstr_list_sort.pl
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
+  cd-hit-div: /usr/local/bin/cd-hit-div

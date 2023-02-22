@@ -1,0 +1,73 @@
+url: https://biocontainers.pro/tools/massiveqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for massiveqc
+latest:
+  0.0.7--pyh086e186_0: sha256:264a7c37aca5856a3316c77bcbe099e5e1eeb0368fd17345380437578f6f2874
+tags:
+  0.0.7--pyh086e186_0: sha256:264a7c37aca5856a3316c77bcbe099e5e1eeb0368fd17345380437578f6f2874
+docker: quay.io/biocontainers/massiveqc
+aliases:
+  IsoDetect: /usr/local/bin/IsoDetect
+  MultiQC: /usr/local/bin/MultiQC
+  SingleQC: /usr/local/bin/SingleQC
+  atropos: /usr/local/bin/atropos
+  detectionCall: /usr/local/bin/detectionCall
+  exactSNP: /usr/local/bin/exactSNP
+  extract_exons.py: /usr/local/bin/extract_exons.py
+  extract_splice_sites.py: /usr/local/bin/extract_splice_sites.py
+  fastq_screen: /usr/local/bin/fastq_screen
+  featureCounts: /usr/local/bin/featureCounts
+  flattenGTF: /usr/local/bin/flattenGTF
+  genRandomReads: /usr/local/bin/genRandomReads
+  hisat2: /usr/local/bin/hisat2
+  hisat2-align-l: /usr/local/bin/hisat2-align-l
+  hisat2-align-s: /usr/local/bin/hisat2-align-s
+  hisat2-build: /usr/local/bin/hisat2-build
+  hisat2-build-l: /usr/local/bin/hisat2-build-l
+  hisat2-build-s: /usr/local/bin/hisat2-build-s
+  hisat2-inspect: /usr/local/bin/hisat2-inspect
+  hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
+  hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
+  hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
+  hisat2_extract_snps_haplotypes_UCSC.py: /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
+  hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
+  hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
+  propmapped: /usr/local/bin/propmapped
+  pysradb: /usr/local/bin/pysradb
+  qualityScores: /usr/local/bin/qualityScores
+  removeDup: /usr/local/bin/removeDup
+  repair: /usr/local/bin/repair
+  subindel: /usr/local/bin/subindel
+  subjunc: /usr/local/bin/subjunc
+  sublong: /usr/local/bin/sublong
+  subread-align: /usr/local/bin/subread-align
+  subread-buildindex: /usr/local/bin/subread-buildindex
+  subread-fullscan: /usr/local/bin/subread-fullscan
+  txUnique: /usr/local/bin/txUnique
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  igzip: /usr/local/bin/igzip
+  bamtools: /usr/local/bin/bamtools
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  numba: /usr/local/bin/numba
+  pigz: /usr/local/bin/pigz
+  pycc: /usr/local/bin/pycc
+  unpigz: /usr/local/bin/unpigz
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s

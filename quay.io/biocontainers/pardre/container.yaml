@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/pardre
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pardre
+latest:
+  2.2.5--h0dae2d6_1: sha256:3e7261629fa2463d5fabdaaec28989482234e1f7bb35dfe97cafd8af259e1817
+tags:
+  2.2.5--h0dae2d6_1: sha256:3e7261629fa2463d5fabdaaec28989482234e1f7bb35dfe97cafd8af259e1817
+docker: quay.io/biocontainers/pardre
+aliases:
+  ParDRe: /usr/local/bin/ParDRe
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  mpifort: /usr/local/bin/mpifort
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpicxx: /usr/local/bin/mpicxx
+  mpiexec: /usr/local/bin/mpiexec
+  mpif77: /usr/local/bin/mpif77
+  mpif90: /usr/local/bin/mpif90
+  mpirun: /usr/local/bin/mpirun

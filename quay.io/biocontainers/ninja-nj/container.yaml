@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ninja-nj
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ninja-nj
+latest:
+  0.97--h9f5acd7_0: sha256:216fc2e2ba8905fc249e6dbd42c55dae95c05f2af38575d6de2090984196ee58
+tags:
+  0.97--h9f5acd7_0: sha256:216fc2e2ba8905fc249e6dbd42c55dae95c05f2af38575d6de2090984196ee58
+docker: quay.io/biocontainers/ninja-nj
+aliases:
+  Ninja: /usr/local/bin/Ninja

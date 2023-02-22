@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/metamlst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metamlst
+latest:
+  1.2.3--hdfd78af_0: sha256:53374077c743ef3b89824e2ab3be1cb4c97a56b94e002981cc5af540bb681c32
+tags:
+  1.2.3--hdfd78af_0: sha256:53374077c743ef3b89824e2ab3be1cb4c97a56b94e002981cc5af540bb681c32
+docker: quay.io/biocontainers/metamlst
+aliases:
+  breadth_depth.py: /usr/local/bin/breadth_depth.py
+  consensus.py: /usr/local/bin/consensus.py
+  consensus_aDNA.py: /usr/local/bin/consensus_aDNA.py
+  metaMLST-DBtools.py: /usr/local/bin/metaMLST-DBtools.py
+  metaMLST_functions.py: /usr/local/bin/metaMLST_functions.py
+  metamlst-index.py: /usr/local/bin/metamlst-index.py
+  metamlst-merge.py: /usr/local/bin/metamlst-merge.py
+  metamlst.py: /usr/local/bin/metamlst.py
+  mlst.py: /usr/local/bin/mlst.py
+  poly.py: /usr/local/bin/poly.py
+  polymut.py: /usr/local/bin/polymut.py
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
+  bed_build_windows.py: /usr/local/bin/bed_build_windows.py
+  bed_complement.py: /usr/local/bin/bed_complement.py
+  bed_count_by_interval.py: /usr/local/bin/bed_count_by_interval.py
+  bed_count_overlapping.py: /usr/local/bin/bed_count_overlapping.py
+  bed_coverage.py: /usr/local/bin/bed_coverage.py
+  bed_coverage_by_interval.py: /usr/local/bin/bed_coverage_by_interval.py
+  bed_diff_basewise_summary.py: /usr/local/bin/bed_diff_basewise_summary.py
+  bed_extend_to.py: /usr/local/bin/bed_extend_to.py
+  bed_intersect.py: /usr/local/bin/bed_intersect.py
+  bed_intersect_basewise.py: /usr/local/bin/bed_intersect_basewise.py
+  bed_merge_overlapping.py: /usr/local/bin/bed_merge_overlapping.py
+  bed_rand_intersect.py: /usr/local/bin/bed_rand_intersect.py
+  bed_subtract_basewise.py: /usr/local/bin/bed_subtract_basewise.py
+  bnMapper.py: /usr/local/bin/bnMapper.py
+  div_snp_table_chr.py: /usr/local/bin/div_snp_table_chr.py
+  find_in_sorted_file.py: /usr/local/bin/find_in_sorted_file.py
+  gene_fourfold_sites.py: /usr/local/bin/gene_fourfold_sites.py
+  get_scores_in_intervals.py: /usr/local/bin/get_scores_in_intervals.py

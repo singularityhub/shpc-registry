@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/metaomestats
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metaomestats
+latest:
+  0.4--pyh5e36f6f_0: sha256:4701dfa2e988abea085b60f47ef61875125148d4b8d761a62548605936e186ae
+tags:
+  0.4--pyh5e36f6f_0: sha256:4701dfa2e988abea085b60f47ef61875125148d4b8d761a62548605936e186ae
+docker: quay.io/biocontainers/metaomestats
+aliases:
+  countAssembly.py: /usr/local/bin/countAssembly.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

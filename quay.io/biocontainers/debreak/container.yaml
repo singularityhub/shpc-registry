@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/debreak
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for debreak
+latest:
+  1.3--h9ee0642_0: sha256:e69aa709ef5f029361cca4cb4ef087753b71e3a63b0a7f5e8ea1ea7d0721fac6
+tags:
+  1.3--h9ee0642_0: sha256:e69aa709ef5f029361cca4cb4ef087753b71e3a63b0a7f5e8ea1ea7d0721fac6
+docker: quay.io/biocontainers/debreak
+aliases:
+  bsalign: /usr/local/bin/bsalign
+  complexsv.py: /usr/local/bin/complexsv.py
+  debreak: /usr/local/bin/debreak
+  debreak_allpoa.py: /usr/local/bin/debreak_allpoa.py
+  debreak_detect.py: /usr/local/bin/debreak_detect.py
+  debreak_genotype.py: /usr/local/bin/debreak_genotype.py
+  debreak_merge.py: /usr/local/bin/debreak_merge.py
+  debreak_merge_cluster.py: /usr/local/bin/debreak_merge_cluster.py
+  debreak_merge_contig.py: /usr/local/bin/debreak_merge_contig.py
+  debreak_rescuedupfromins.py: /usr/local/bin/debreak_rescuedupfromins.py
+  debreak_rescuelargeins.py: /usr/local/bin/debreak_rescuelargeins.py
+  debreak_resdup_selfalignment.py: /usr/local/bin/debreak_resdup_selfalignment.py
+  debreak_writevcf.py: /usr/local/bin/debreak_writevcf.py
+  genefusion.py: /usr/local/bin/genefusion.py
+  wtdbg-cns: /usr/local/bin/wtdbg-cns
+  wtdbg2: /usr/local/bin/wtdbg2
+  wtpoa-cns: /usr/local/bin/wtpoa-cns
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl
+  wgsim: /usr/local/bin/wgsim
+  wgsim_eval.pl: /usr/local/bin/wgsim_eval.pl
+  samtools: /usr/local/bin/samtools
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

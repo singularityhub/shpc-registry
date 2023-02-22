@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bionumpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bionumpy
+latest:
+  0.2.17--pyha8f3691_0: sha256:4888799ec9467a088c72b11f5ebd1da9043d6153f6c83c45cbc5925d1eb7f28b
+tags:
+  0.2.17--pyha8f3691_0: sha256:4888799ec9467a088c72b11f5ebd1da9043d6153f6c83c45cbc5925d1eb7f28b
+docker: quay.io/biocontainers/bionumpy
+aliases:
+  bionumpy: /usr/local/bin/bionumpy
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/selam
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for selam
+latest:
+  0.9--h5e66344_0: sha256:8198f72a7136a90900d0effd0aee9d7c4a2d5c24efec729ab4bf3ad9c6024927
+tags:
+  0.9--h5e66344_0: sha256:8198f72a7136a90900d0effd0aee9d7c4a2d5c24efec729ab4bf3ad9c6024927
+docker: quay.io/biocontainers/selam
+aliases:
+  SELAM: /usr/local/bin/SELAM
+  SELAM_STATS: /usr/local/bin/SELAM_STATS

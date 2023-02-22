@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/sequip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sequip
+latest:
+  0.09--hdfd78af_0: sha256:2d4e8c99a238d8835ddc9da4406dc3b9c5959f5bc29cabd31bf045a414f45eeb
+tags:
+  0.09--hdfd78af_0: sha256:2d4e8c99a238d8835ddc9da4406dc3b9c5959f5bc29cabd31bf045a414f45eeb
+docker: quay.io/biocontainers/sequip
+aliases:
+  opts-example-required.pl: /usr/local/bin/opts-example-required.pl
+  opts-example.pl: /usr/local/bin/opts-example.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

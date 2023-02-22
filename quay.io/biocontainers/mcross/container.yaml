@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/mcross
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mcross
+latest:
+  0.9.5--hdfd78af_0: sha256:6d8307e1f1118757986ee739d358354ffc773880fbe356e5bcf23292806308f0
+tags:
+  0.9.5--hdfd78af_0: sha256:6d8307e1f1118757986ee739d358354ffc773880fbe356e5bcf23292806308f0
+docker: quay.io/biocontainers/mcross
+aliases:
+  gen_word_enrich_matrix.pl: /usr/local/bin/gen_word_enrich_matrix.pl
+  mCross.pl: /usr/local/bin/mCross.pl
+  mCross2logo.R: /usr/local/bin/mCross2logo.R
+  mCross2logo_ggplotversion.R: /usr/local/bin/mCross2logo_ggplotversion.R
+  topword.R: /usr/local/bin/topword.R
+  word_enrich.pl: /usr/local/bin/word_enrich.pl
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches
+  bp_gccalc: /usr/local/bin/bp_gccalc
+  bp_genbank2gff3: /usr/local/bin/bp_genbank2gff3
+  bp_index: /usr/local/bin/bp_index
+  bp_local_taxonomydb_query: /usr/local/bin/bp_local_taxonomydb_query
+  bp_make_mrna_protein: /usr/local/bin/bp_make_mrna_protein
+  bp_mask_by_search: /usr/local/bin/bp_mask_by_search
+  bp_mrtrans: /usr/local/bin/bp_mrtrans
+  bp_mutate: /usr/local/bin/bp_mutate
+  bp_nexus2nh: /usr/local/bin/bp_nexus2nh
+  bp_nrdb: /usr/local/bin/bp_nrdb
+  bp_oligo_count: /usr/local/bin/bp_oligo_count
+  bp_process_gadfly: /usr/local/bin/bp_process_gadfly
+  bp_process_sgd: /usr/local/bin/bp_process_sgd
+  bp_revtrans-motif: /usr/local/bin/bp_revtrans-motif
+  bp_search2alnblocks: /usr/local/bin/bp_search2alnblocks

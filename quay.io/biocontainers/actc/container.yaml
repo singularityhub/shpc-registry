@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/actc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for actc
+latest:
+  0.2.0--h9ee0642_0: sha256:6dbd50ab8bd39f6b3e8a7dc18075b799e77e39035b5c963535b06864e671c261
+tags:
+  0.2.0--h9ee0642_0: sha256:6dbd50ab8bd39f6b3e8a7dc18075b799e77e39035b5c963535b06864e671c261
+docker: quay.io/biocontainers/actc
+aliases:
+  actc: /usr/local/bin/actc

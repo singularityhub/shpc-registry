@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/fgsv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fgsv
+latest:
+  0.0.1--hdfd78af_0: sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8
+tags:
+  0.0.1--hdfd78af_0: sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8
+docker: quay.io/biocontainers/fgsv
+aliases:
+  fgsv: /usr/local/bin/fgsv
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo
+  jmap: /usr/local/bin/jmap
+  jps: /usr/local/bin/jps

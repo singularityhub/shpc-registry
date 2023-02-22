@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/pyroe
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyroe
+latest:
+  0.8.1--pyhdfd78af_0: sha256:0156cf6a28beb8570fe31a0b170718b36f6047c186785e39d5425e2c31807a72
+tags:
+  0.8.1--pyhdfd78af_0: sha256:0156cf6a28beb8570fe31a0b170718b36f6047c186785e39d5425e2c31807a72
+docker: quay.io/biocontainers/pyroe
+aliases:
+  h5delete: /usr/local/bin/h5delete
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  pyroe: /usr/local/bin/pyroe
+  aec: /usr/local/bin/aec
+  scanpy: /usr/local/bin/scanpy
+  tabulate: /usr/local/bin/tabulate
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  natsort: /usr/local/bin/natsort
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
+  brotli: /usr/local/bin/brotli
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed

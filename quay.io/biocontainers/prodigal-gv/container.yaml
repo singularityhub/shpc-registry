@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/prodigal-gv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for prodigal-gv
+latest:
+  2.9.0--h7132678_0: sha256:0dc5f2817890c8606a131c36ee0a68d821da45caa113d6f286702ae1bfd004c7
+tags:
+  2.9.0--h7132678_0: sha256:0dc5f2817890c8606a131c36ee0a68d821da45caa113d6f286702ae1bfd004c7
+docker: quay.io/biocontainers/prodigal-gv
+aliases:
+  prodigal-gv: /usr/local/bin/prodigal-gv

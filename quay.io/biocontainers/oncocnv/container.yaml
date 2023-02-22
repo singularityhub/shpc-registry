@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/oncocnv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for oncocnv
+latest:
+  7.0--pl5321r42hdfd78af_0: sha256:28d5a8e4be4235c71df1f2f8e79c9fbff3cf313eccbc6682998de4bb8a6c4d25
+tags:
+  7.0--pl5321r42hdfd78af_0: sha256:28d5a8e4be4235c71df1f2f8e79c9fbff3cf313eccbc6682998de4bb8a6c4d25
+docker: quay.io/biocontainers/oncocnv
+aliases:
+  ONCOCNV_getCounts.pl: /usr/local/bin/ONCOCNV_getCounts.pl
+  createTargetGC.pl: /usr/local/bin/createTargetGC.pl
+  perChrVisualization.R: /usr/local/bin/perChrVisualization.R
+  processControl.R: /usr/local/bin/processControl.R
+  processSamples.R: /usr/local/bin/processSamples.R
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  shiftBed: /usr/local/bin/shiftBed
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy
+  intersectBed: /usr/local/bin/intersectBed
+  linksBed: /usr/local/bin/linksBed
+  mapBed: /usr/local/bin/mapBed
+  maskFastaFromBed: /usr/local/bin/maskFastaFromBed

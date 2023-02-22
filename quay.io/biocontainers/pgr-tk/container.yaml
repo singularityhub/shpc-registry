@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pgr-tk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pgr-tk
+latest:
+  0.3.6--py39h67e14b5_0: sha256:9b8403494fdf04181be9a8b0b76b4e36946d4e1f519ca42b24eb3a52ab4fa29f
+tags:
+  0.3.6--py39h67e14b5_0: sha256:9b8403494fdf04181be9a8b0b76b4e36946d4e1f519ca42b24eb3a52ab4fa29f
+docker: quay.io/biocontainers/pgr-tk
+aliases:
+  pgr-mdb: /usr/local/bin/pgr-mdb
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

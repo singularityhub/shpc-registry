@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/shapeit5
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for shapeit5
+latest:
+  1.0.0--h0c8ee15_0: sha256:000bdf6df6b10d5a6d284ab45ceb1eb9bd409781d5a4f62a401f7ceee82c5194
+tags:
+  1.0.0--h0c8ee15_0: sha256:000bdf6df6b10d5a6d284ab45ceb1eb9bd409781d5a4f62a401f7ceee82c5194
+docker: quay.io/biocontainers/shapeit5
+aliases:
+  SHAPEIT5_ligate: /usr/local/bin/SHAPEIT5_ligate
+  SHAPEIT5_phase_common: /usr/local/bin/SHAPEIT5_phase_common
+  SHAPEIT5_phase_rare: /usr/local/bin/SHAPEIT5_phase_rare
+  SHAPEIT5_switch: /usr/local/bin/SHAPEIT5_switch
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

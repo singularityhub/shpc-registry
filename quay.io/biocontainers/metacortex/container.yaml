@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metacortex
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metacortex
+latest:
+  0.5.1--hec16e2b_0: sha256:f8dc79c38f7432b2d3a6bd12a2b5439f2568986a63b2259bec0932b424acd7f7
+tags:
+  0.5.1--hec16e2b_0: sha256:f8dc79c38f7432b2d3a6bd12a2b5439f2568986a63b2259bec0932b424acd7f7
+docker: quay.io/biocontainers/metacortex
+aliases:
+  metacortex: /usr/local/bin/metacortex

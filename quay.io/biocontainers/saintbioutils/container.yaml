@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/saintbioutils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for saintbioutils
+latest:
+  0.0.24--pyh7cba7a3_0: sha256:5c5c81001857c802aafc57bb531e81ca7b333c892b425529ce03702b7a9184a0
+tags:
+  0.0.24--pyh7cba7a3_0: sha256:5c5c81001857c802aafc57bb531e81ca7b333c892b425529ce03702b7a9184a0
+docker: quay.io/biocontainers/saintbioutils
+aliases:
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tqdm: /usr/local/bin/tqdm
+  python3.1: /usr/local/bin/python3.1

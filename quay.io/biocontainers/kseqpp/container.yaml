@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/kseqpp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kseqpp
+latest:
+  1.0.0--hd03093a_0: sha256:a7262463433b5a59e11a31e5c2afc7a43bedb2df6e7a00c0fc645784add96997
+tags:
+  1.0.0--hd03093a_0: sha256:a7262463433b5a59e11a31e5c2afc7a43bedb2df6e7a00c0fc645784add96997
+docker: quay.io/biocontainers/kseqpp

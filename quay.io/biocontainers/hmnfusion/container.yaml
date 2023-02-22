@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hmnfusion
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmnfusion
+latest:
+  1.2.6--pyh7cba7a3_0: sha256:694bbe2e291bd7c0d34a0ec0ddcb0a4a6bf5e76cda1df44175377affca3c0898
+tags:
+  1.2.6--pyh7cba7a3_0: sha256:694bbe2e291bd7c0d34a0ec0ddcb0a4a6bf5e76cda1df44175377affca3c0898
+docker: quay.io/biocontainers/hmnfusion
+aliases:
+  hmnfusion: /usr/local/bin/hmnfusion
+  stone: /usr/local/bin/stone
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  yte: /usr/local/bin/yte
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
+  docutils: /usr/local/bin/docutils
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  cmark: /usr/local/bin/cmark
+  pulptest: /usr/local/bin/pulptest
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  jp.py: /usr/local/bin/jp.py
+  tabulate: /usr/local/bin/tabulate
+  py.test: /usr/local/bin/py.test
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub

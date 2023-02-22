@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/trand
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trand
+latest:
+  22.10.13--pyhdfd78af_0: sha256:7c5987cc7c6f75f785f9a654a595a90ccf3bd274cbb173709829d281f19f8e77
+tags:
+  22.10.13--pyhdfd78af_0: sha256:7c5987cc7c6f75f785f9a654a595a90ccf3bd274cbb173709829d281f19f8e77
+docker: quay.io/biocontainers/trand
+aliases:
+  trand: /usr/local/bin/trand
+  x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy

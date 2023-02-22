@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/cogclassifier
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cogclassifier
+latest:
+  1.0.5--pyhdfd78af_0: sha256:4b3368fae3d9807167a9d3f59d0c81e9ec2661db833f60e48744da0dd7851476
+tags:
+  1.0.5--pyhdfd78af_0: sha256:4b3368fae3d9807167a9d3f59d0c81e9ec2661db833f60e48744da0dd7851476
+docker: quay.io/biocontainers/cogclassifier
+aliases:
+  COGclassifier: /usr/local/bin/COGclassifier
+  plot_cog_classifier_barchart: /usr/local/bin/plot_cog_classifier_barchart
+  plot_cog_classifier_piechart: /usr/local/bin/plot_cog_classifier_piechart
+  jsonschema: /usr/local/bin/jsonschema
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

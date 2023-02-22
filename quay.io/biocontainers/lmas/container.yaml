@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/lmas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lmas
+latest:
+  2.0.8--hdfd78af_0: sha256:a89ec47dced70167b813b794fcbcd0650913a8b6416f4ac13ad62db8318bfbaf
+tags:
+  2.0.8--hdfd78af_0: sha256:a89ec47dced70167b813b794fcbcd0650913a8b6416f4ac13ad62db8318bfbaf
+docker: quay.io/biocontainers/lmas
+aliases:
+  LMAS: /usr/local/bin/LMAS
+  get_lmas_data.sh: /usr/local/bin/get_lmas_data.sh
+  nextflow: /usr/local/bin/nextflow
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  jpackage: /usr/local/bin/jpackage
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir
+  dircolors: /usr/local/bin/dircolors
+  dirname: /usr/local/bin/dirname
+  du: /usr/local/bin/du
+  echo: /usr/local/bin/echo

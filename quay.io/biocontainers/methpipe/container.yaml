@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/methpipe
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for methpipe
+latest:
+  5.0.1--hfdddef0_1: sha256:228aa2cf58cbe84762f55ed6536d4b812246dac13745c9162b1a41c2f26fa68f
+tags:
+  5.0.1--hfdddef0_1: sha256:228aa2cf58cbe84762f55ed6536d4b812246dac13745c9162b1a41c2f26fa68f
+docker: quay.io/biocontainers/methpipe
+aliases:
+  allelicmeth: /usr/local/bin/allelicmeth
+  amrfinder: /usr/local/bin/amrfinder
+  amrtester: /usr/local/bin/amrtester
+  bsrate: /usr/local/bin/bsrate
+  clean-hairpins: /usr/local/bin/clean-hairpins
+  dmr: /usr/local/bin/dmr
+  duplicate-remover: /usr/local/bin/duplicate-remover
+  fast-liftover: /usr/local/bin/fast-liftover
+  format_reads: /usr/local/bin/format_reads
+  guessprotocol: /usr/local/bin/guessprotocol
+  hmr: /usr/local/bin/hmr
+  hmr_rep: /usr/local/bin/hmr_rep
+  hypermr: /usr/local/bin/hypermr
+  lc_approx: /usr/local/bin/lc_approx
+  levels: /usr/local/bin/levels
+  lift-filter: /usr/local/bin/lift-filter
+  merge-bsrate: /usr/local/bin/merge-bsrate
+  merge-methcounts: /usr/local/bin/merge-methcounts
+  methcounts: /usr/local/bin/methcounts
+  methdiff: /usr/local/bin/methdiff
+  methentropy: /usr/local/bin/methentropy
+  methstates: /usr/local/bin/methstates
+  mlml: /usr/local/bin/mlml
+  multimethstat: /usr/local/bin/multimethstat
+  pmd: /usr/local/bin/pmd
+  radmeth: /usr/local/bin/radmeth
+  roimethstat: /usr/local/bin/roimethstat
+  selectsites: /usr/local/bin/selectsites
+  symmetric-cpgs: /usr/local/bin/symmetric-cpgs
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

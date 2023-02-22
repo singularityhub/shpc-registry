@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/msmc2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for msmc2
+latest:
+  2.1.4--hdfd78af_0: sha256:b0b71fa1586514f96a53a74aebad634513e624e89b503370525f95a8f0cd175c
+tags:
+  2.1.4--hdfd78af_0: sha256:b0b71fa1586514f96a53a74aebad634513e624e89b503370525f95a8f0cd175c
+docker: quay.io/biocontainers/msmc2
+aliases:
+  msmc2_Linux: /usr/local/bin/msmc2_Linux

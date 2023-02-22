@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pbskera
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pbskera
+latest:
+  0.1.0--hdfd78af_0: sha256:8a78b9f0aad4e26df6d9648451f49df80e096c3f4b96314cab35ea2f4709c34e
+tags:
+  0.1.0--hdfd78af_0: sha256:8a78b9f0aad4e26df6d9648451f49df80e096c3f4b96314cab35ea2f4709c34e
+docker: quay.io/biocontainers/pbskera
+aliases:
+  skera: /usr/local/bin/skera

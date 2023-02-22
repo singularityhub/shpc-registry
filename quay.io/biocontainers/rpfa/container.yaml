@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/rpfa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rpfa
+latest:
+  1.0.1--pyh5e36f6f_0: sha256:3420d43627ac108ce891b943bb67b08323350806dd3d2ac45e4b660e3a7f4574
+tags:
+  1.0.1--pyh5e36f6f_0: sha256:3420d43627ac108ce891b943bb67b08323350806dd3d2ac45e4b660e3a7f4574
+docker: quay.io/biocontainers/rpfa
+aliases:
+  black: /usr/local/bin/black
+  black-primer: /usr/local/bin/black-primer
+  blackd: /usr/local/bin/blackd
+  cameo: /usr/local/bin/cameo
+  grako: /usr/local/bin/grako
+  httpx: /usr/local/bin/httpx
+  isympy: /usr/local/bin/isympy
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  send2trash: /usr/local/bin/send2trash
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  cmark: /usr/local/bin/cmark
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  curve_keygen: /usr/local/bin/curve_keygen
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  jsonschema: /usr/local/bin/jsonschema
+  glpsol: /usr/local/bin/glpsol
+  pygmentize: /usr/local/bin/pygmentize

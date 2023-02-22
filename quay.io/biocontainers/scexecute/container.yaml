@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/scexecute
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scexecute
+latest:
+  1.3.3--hdfd78af_0: sha256:6ca01d88909e1d918802a9a88f59e8a07561e9096ab071616c6615684ee58602
+tags:
+  1.3.3--hdfd78af_0: sha256:6ca01d88909e1d918802a9a88f59e8a07561e9096ab071616c6615684ee58602
+docker: quay.io/biocontainers/scexecute
+aliases:
+  helpviewer: /usr/local/bin/helpviewer
+  img2png: /usr/local/bin/img2png
+  img2py: /usr/local/bin/img2py
+  img2xpm: /usr/local/bin/img2xpm
+  minDepth: /usr/local/bin/minDepth
+  pycrust: /usr/local/bin/pycrust
+  pyshell: /usr/local/bin/pyshell
+  pyslices: /usr/local/bin/pyslices
+  pyslicesshell: /usr/local/bin/pyslicesshell
+  pywxrc: /usr/local/bin/pywxrc
+  scBAMStats: /usr/local/bin/scBAMStats
+  scExecute: /usr/local/bin/scExecute
+  wx-config: /usr/local/bin/wx-config
+  wxdemo: /usr/local/bin/wxdemo
+  wxdocs: /usr/local/bin/wxdocs
+  wxget: /usr/local/bin/wxget
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.2: /usr/local/bin/wxrc-3.2
+  gtk-builder-convert: /usr/local/bin/gtk-builder-convert
+  gtk-demo: /usr/local/bin/gtk-demo
+  gtk-query-immodules-2.0: /usr/local/bin/gtk-query-immodules-2.0
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  normalizer: /usr/local/bin/normalizer
+  gst-device-monitor-1.0: /usr/local/bin/gst-device-monitor-1.0
+  gst-discoverer-1.0: /usr/local/bin/gst-discoverer-1.0
+  gst-play-1.0: /usr/local/bin/gst-play-1.0
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  gst-inspect-1.0: /usr/local/bin/gst-inspect-1.0
+  gst-launch-1.0: /usr/local/bin/gst-launch-1.0
+  gst-stats-1.0: /usr/local/bin/gst-stats-1.0
+  gst-typefind-1.0: /usr/local/bin/gst-typefind-1.0
+  f2py3.10: /usr/local/bin/f2py3.10
+  aserver: /usr/local/bin/aserver
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl

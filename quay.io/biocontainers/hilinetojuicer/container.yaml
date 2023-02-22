@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hilinetojuicer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hilinetojuicer
+latest:
+  0.0.2--pyhdfd78af_0: sha256:2f7c96bb320122f98cfadeb5e5829022b32dc5e3660bfab08e33b5e3dedf8fdf
+tags:
+  0.0.2--pyhdfd78af_0: sha256:2f7c96bb320122f98cfadeb5e5829022b32dc5e3660bfab08e33b5e3dedf8fdf
+docker: quay.io/biocontainers/hilinetojuicer
+aliases:
+  HiLineToJuicer: /usr/local/bin/HiLineToJuicer
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir
+  dircolors: /usr/local/bin/dircolors
+  dirname: /usr/local/bin/dirname
+  du: /usr/local/bin/du
+  echo: /usr/local/bin/echo
+  env: /usr/local/bin/env

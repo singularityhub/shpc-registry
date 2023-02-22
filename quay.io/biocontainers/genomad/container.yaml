@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/genomad
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genomad
+latest:
+  1.4.0--pyhdfd78af_0: sha256:b57f06d34fca235c0401e07c70033aff23b0d1aefba42c0645123aae7c09ba88
+tags:
+  1.4.0--pyhdfd78af_0: sha256:b57f06d34fca235c0401e07c70033aff23b0d1aefba42c0645123aae7c09ba88
+docker: quay.io/biocontainers/genomad
+aliases:
+  aria2c: /usr/local/bin/aria2c
+  flatc: /usr/local/bin/flatc
+  genomad: /usr/local/bin/genomad
+  h5delete: /usr/local/bin/h5delete
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  markdown-it: /usr/local/bin/markdown-it
+  prodigal-gv: /usr/local/bin/prodigal-gv
+  rich-click: /usr/local/bin/rich-click
+  aec: /usr/local/bin/aec
+  mmseqs: /usr/local/bin/mmseqs
+  xgboost: /usr/local/bin/xgboost
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  aragorn: /usr/local/bin/aragorn
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt

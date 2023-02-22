@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/ribodetector
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ribodetector
+latest:
+  0.2.7--pyhdfd78af_0: sha256:392b96c2b930172d9c43ba932ef0b470bc98294d1888a38531bca696ad1db786
+tags:
+  0.2.7--pyhdfd78af_0: sha256:392b96c2b930172d9c43ba932ef0b470bc98294d1888a38531bca696ad1db786
+docker: quay.io/biocontainers/ribodetector
+aliases:
+  onnxruntime_test: /usr/local/bin/onnxruntime_test
+  ribodetector: /usr/local/bin/ribodetector
+  ribodetector_cpu: /usr/local/bin/ribodetector_cpu
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  protoc: /usr/local/bin/protoc
+  tqdm: /usr/local/bin/tqdm
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

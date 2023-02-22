@@ -1,0 +1,63 @@
+url: https://biocontainers.pro/tools/vrhyme
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vrhyme
+latest:
+  1.1.0--pyhdfd78af_0: sha256:2b1e5342e9b1e6808e131a2a7c5e097fa39e87fc87567174db4ed3d22e6cd05e
+tags:
+  1.1.0--pyhdfd78af_0: sha256:2b1e5342e9b1e6808e131a2a7c5e097fa39e87fc87567174db4ed3d22e6cd05e
+docker: quay.io/biocontainers/vrhyme
+aliases:
+  alternative_bins_to_fasta.py: /usr/local/bin/alternative_bins_to_fasta.py
+  bin_coverage.py: /usr/local/bin/bin_coverage.py
+  bowtie2_stuff.py: /usr/local/bin/bowtie2_stuff.py
+  bwa_stuff.py: /usr/local/bin/bwa_stuff.py
+  codon_stuff.py: /usr/local/bin/codon_stuff.py
+  codon_stuff_threader.py: /usr/local/bin/codon_stuff_threader.py
+  coverage_stuff.py: /usr/local/bin/coverage_stuff.py
+  coverage_stuff_threader.py: /usr/local/bin/coverage_stuff_threader.py
+  coverage_table_convert.py: /usr/local/bin/coverage_table_convert.py
+  derep_stuff.py: /usr/local/bin/derep_stuff.py
+  distance_stuff.py: /usr/local/bin/distance_stuff.py
+  extract_stuff.py: /usr/local/bin/extract_stuff.py
+  extract_unbinned_sequences.py: /usr/local/bin/extract_unbinned_sequences.py
+  flag_circular.py: /usr/local/bin/flag_circular.py
+  generate_bin_scores.py: /usr/local/bin/generate_bin_scores.py
+  kmer_nt_stuff.py: /usr/local/bin/kmer_nt_stuff.py
+  kmer_nt_stuff_threader.py: /usr/local/bin/kmer_nt_stuff_threader.py
+  linclust_stuff.py: /usr/local/bin/linclust_stuff.py
+  link_bin_sequences.py: /usr/local/bin/link_bin_sequences.py
+  machine_stuff.py: /usr/local/bin/machine_stuff.py
+  network_stuff_threader.py: /usr/local/bin/network_stuff_threader.py
+  prodigal_stuff.py: /usr/local/bin/prodigal_stuff.py
+  read_nt_stuff.py: /usr/local/bin/read_nt_stuff.py
+  sam_stuff.py: /usr/local/bin/sam_stuff.py
+  save_dist_dicts.py: /usr/local/bin/save_dist_dicts.py
+  score_stuff.py: /usr/local/bin/score_stuff.py
+  sequence_lengths_of_bins.py: /usr/local/bin/sequence_lengths_of_bins.py
+  test_vRhyme.py: /usr/local/bin/test_vRhyme.py
+  vRhyme: /usr/local/bin/vRhyme
+  mmseqs: /usr/local/bin/mmseqs
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  prodigal: /usr/local/bin/prodigal
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  idn2: /usr/local/bin/idn2

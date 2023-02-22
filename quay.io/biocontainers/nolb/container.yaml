@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nolb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nolb
+latest:
+  1.9--h9ee0642_0: sha256:c4c1f3d205d773bfc2df02ce027ff0e9426b35a2954031b65191f0233823d19f
+tags:
+  1.9--h9ee0642_0: sha256:c4c1f3d205d773bfc2df02ce027ff0e9426b35a2954031b65191f0233823d19f
+docker: quay.io/biocontainers/nolb
+aliases:
+  NOLB: /usr/local/bin/NOLB

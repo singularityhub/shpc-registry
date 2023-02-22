@@ -1,0 +1,60 @@
+url: https://biocontainers.pro/tools/automappa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for automappa
+latest:
+  2.1.0--pyh5e36f6f_0: sha256:a36de99781d7a478599094f166e090d6b578be6a86386a20becbe13fe0dcf553
+tags:
+  2.1.0--pyh5e36f6f_0: sha256:a36de99781d7a478599094f166e090d6b578be6a86386a20becbe13fe0dcf553
+docker: quay.io/biocontainers/automappa
+aliases:
+  automappa: /usr/local/bin/automappa
+  autometa-bedtools-genomecov: /usr/local/bin/autometa-bedtools-genomecov
+  autometa-benchmark: /usr/local/bin/autometa-benchmark
+  autometa-binning: /usr/local/bin/autometa-binning
+  autometa-binning-ldm: /usr/local/bin/autometa-binning-ldm
+  autometa-binning-ldm-loginfo: /usr/local/bin/autometa-binning-ldm-loginfo
+  autometa-binning-summary: /usr/local/bin/autometa-binning-summary
+  autometa-config: /usr/local/bin/autometa-config
+  autometa-coverage: /usr/local/bin/autometa-coverage
+  autometa-download-dataset: /usr/local/bin/autometa-download-dataset
+  autometa-hmmsearch-filter: /usr/local/bin/autometa-hmmsearch-filter
+  autometa-kmers: /usr/local/bin/autometa-kmers
+  autometa-length-filter: /usr/local/bin/autometa-length-filter
+  autometa-markers: /usr/local/bin/autometa-markers
+  autometa-orfs: /usr/local/bin/autometa-orfs
+  autometa-taxonomy: /usr/local/bin/autometa-taxonomy
+  autometa-taxonomy-lca: /usr/local/bin/autometa-taxonomy-lca
+  autometa-taxonomy-majority-vote: /usr/local/bin/autometa-taxonomy-majority-vote
+  autometa-unclustered-recruitment: /usr/local/bin/autometa-unclustered-recruitment
+  autometa-update-databases: /usr/local/bin/autometa-update-databases
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  dash-update-components: /usr/local/bin/dash-update-components
+  editorconfig: /usr/local/bin/editorconfig
+  gdown: /usr/local/bin/gdown
+  js-beautify: /usr/local/bin/js-beautify
+  renderer: /usr/local/bin/renderer
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  rsync: /usr/local/bin/rsync
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  doesitcache: /usr/local/bin/doesitcache
+  flask: /usr/local/bin/flask
+  diamond: /usr/local/bin/diamond
+  ipython3: /usr/local/bin/ipython3
+  parsort: /usr/local/bin/parsort
+  ipython: /usr/local/bin/ipython
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh

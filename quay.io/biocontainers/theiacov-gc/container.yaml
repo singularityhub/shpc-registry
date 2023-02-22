@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/theiacov-gc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for theiacov-gc
+latest:
+  2.3.0--hdfd78af_0: sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c
+tags:
+  2.3.0--hdfd78af_0: sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c
+docker: quay.io/biocontainers/theiacov-gc
+aliases:
+  cromwell: /usr/local/bin/cromwell
+  find: /usr/local/bin/find
+  locate: /usr/local/bin/locate
+  theiacov-gc: /usr/local/bin/theiacov-gc
+  theiacov-gc-organize.py: /usr/local/bin/theiacov-gc-organize.py
+  theiacov-gc-prepare.py: /usr/local/bin/theiacov-gc-prepare.py
+  updatedb: /usr/local/bin/updatedb
+  womtool: /usr/local/bin/womtool
+  xargs: /usr/local/bin/xargs
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  jaotc: /usr/local/bin/jaotc
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jjs: /usr/local/bin/jjs
+  pack200: /usr/local/bin/pack200
+  rmic: /usr/local/bin/rmic
+  rmid: /usr/local/bin/rmid
+  unpack200: /usr/local/bin/unpack200
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

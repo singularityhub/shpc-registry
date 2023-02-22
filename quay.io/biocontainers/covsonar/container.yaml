@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/covsonar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for covsonar
+latest:
+  2.0.0a1--pyhdfd78af_0: sha256:f0383915785463e27f8f543c6b09388ef90258ff6d6450b2f0fa7c8e44c723dd
+tags:
+  2.0.0a1--pyhdfd78af_0: sha256:f0383915785463e27f8f543c6b09388ef90258ff6d6450b2f0fa7c8e44c723dd
+docker: quay.io/biocontainers/covsonar
+aliases:
+  mpire-dashboard: /usr/local/bin/mpire-dashboard
+  sonar: /usr/local/bin/sonar
+  xmlget: /usr/local/bin/xmlget
+  xmltext: /usr/local/bin/xmltext
+  aaindexextract: /usr/local/bin/aaindexextract
+  abiview: /usr/local/bin/abiview
+  acdc: /usr/local/bin/acdc
+  acdgalaxy: /usr/local/bin/acdgalaxy
+  acdlog: /usr/local/bin/acdlog
+  acdpretty: /usr/local/bin/acdpretty
+  acdtable: /usr/local/bin/acdtable
+  acdtrace: /usr/local/bin/acdtrace
+  acdvalid: /usr/local/bin/acdvalid
+  aligncopy: /usr/local/bin/aligncopy
+  aligncopypair: /usr/local/bin/aligncopypair
+  antigenic: /usr/local/bin/antigenic
+  assemblyget: /usr/local/bin/assemblyget
+  backtranambig: /usr/local/bin/backtranambig
+  backtranseq: /usr/local/bin/backtranseq
+  banana: /usr/local/bin/banana
+  biosed: /usr/local/bin/biosed
+  btwisted: /usr/local/bin/btwisted
+  cachedas: /usr/local/bin/cachedas
+  cachedbfetch: /usr/local/bin/cachedbfetch
+  cacheebeyesearch: /usr/local/bin/cacheebeyesearch
+  cacheensembl: /usr/local/bin/cacheensembl
+  chaos: /usr/local/bin/chaos

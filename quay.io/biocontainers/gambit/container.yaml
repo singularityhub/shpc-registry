@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/gambit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gambit
+latest:
+  1.0.0--py39hbf8eff0_0: sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5
+tags:
+  1.0.0--py39hbf8eff0_0: sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5
+docker: quay.io/biocontainers/gambit
+aliases:
+  alembic: /usr/local/bin/alembic
+  gambit: /usr/local/bin/gambit
+  mako-render: /usr/local/bin/mako-render
+  f2py3.9: /usr/local/bin/f2py3.9
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5repack: /usr/local/bin/h5repack
+  h5repart: /usr/local/bin/h5repart
+  h5stat: /usr/local/bin/h5stat
+  h5unjam: /usr/local/bin/h5unjam
+  h5dump: /usr/local/bin/h5dump
+  h5cc: /usr/local/bin/h5cc
+  2to3-3.9: /usr/local/bin/2to3-3.9

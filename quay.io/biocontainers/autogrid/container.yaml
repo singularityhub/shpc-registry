@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/autogrid
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for autogrid
+latest:
+  4.2.6--h9f5acd7_1: sha256:d596f8bbcd037ca092e5df0ab4c2b1cddf58d680a0d58704221175a7aaff56c4
+tags:
+  4.2.6--h9f5acd7_1: sha256:d596f8bbcd037ca092e5df0ab4c2b1cddf58d680a0d58704221175a7aaff56c4
+docker: quay.io/biocontainers/autogrid
+aliases:
+  autogrid4: /usr/local/bin/autogrid4

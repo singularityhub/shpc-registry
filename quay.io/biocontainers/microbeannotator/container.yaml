@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/microbeannotator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for microbeannotator
+latest:
+  2.0.5--pyhdfd78af_0: sha256:7fce637b170fc3f0a329c9bcb12fc4f985af130267944f0006428e5bb76257ba
+tags:
+  2.0.5--pyhdfd78af_0: sha256:7fce637b170fc3f0a329c9bcb12fc4f985af130267944f0006428e5bb76257ba
+docker: quay.io/biocontainers/microbeannotator
+aliases:
+  microbeannotator: /usr/local/bin/microbeannotator
+  microbeannotator_db_builder: /usr/local/bin/microbeannotator_db_builder
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/cartools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cartools
+latest:
+  1.1.3--pyh7cba7a3_0: sha256:7d7d0dc11491f0606c3a06ced5bc309f0fe8674d881c949e16ce5ef0bd12dd7b
+tags:
+  1.1.3--pyh7cba7a3_0: sha256:7d7d0dc11491f0606c3a06ced5bc309f0fe8674d881c949e16ce5ef0bd12dd7b
+docker: quay.io/biocontainers/cartools
+aliases:
+  CARTools.py: /usr/local/bin/CARTools.py
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl
+  wgsim: /usr/local/bin/wgsim
+  wgsim_eval.pl: /usr/local/bin/wgsim_eval.pl
+  samtools: /usr/local/bin/samtools
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10

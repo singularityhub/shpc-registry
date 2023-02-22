@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/evofr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for evofr
+latest:
+  0.1.16--pyhdfd78af_0: sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2
+tags:
+  0.1.16--pyhdfd78af_0: sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2
+docker: quay.io/biocontainers/evofr
+aliases:
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  protoc: /usr/local/bin/protoc
+  normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
+  python3.1: /usr/local/bin/python3.1

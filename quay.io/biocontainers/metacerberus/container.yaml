@@ -1,0 +1,54 @@
+url: https://biocontainers.pro/tools/metacerberus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metacerberus
+latest:
+  1.0--pyh5e36f6f_0: sha256:39523e906bdfb7e6a324579705389194b9f5e612b4180719b954f88f42541518
+tags:
+  1.0--pyh5e36f6f_0: sha256:39523e906bdfb7e6a324579705389194b9f5e612b4180719b954f88f42541518
+docker: quay.io/biocontainers/metacerberus
+aliases:
+  cc: /usr/local/bin/cc
+  countAssembly.py: /usr/local/bin/countAssembly.py
+  cpp: /usr/local/bin/cpp
+  flash2: /usr/local/bin/flash2
+  gcc: /usr/local/bin/gcc
+  gcc-ar: /usr/local/bin/gcc-ar
+  gcc-nm: /usr/local/bin/gcc-nm
+  gcc-ranlib: /usr/local/bin/gcc-ranlib
+  gcov: /usr/local/bin/gcov
+  gcov-dump: /usr/local/bin/gcov-dump
+  gcov-tool: /usr/local/bin/gcov-tool
+  gpustat: /usr/local/bin/gpustat
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  metacerberus.py: /usr/local/bin/metacerberus.py
+  pathview-metacerberus.R: /usr/local/bin/pathview-metacerberus.R
+  porechop: /usr/local/bin/porechop
+  py-spy: /usr/local/bin/py-spy
+  ray: /usr/local/bin/ray
+  ray-slurm-metacerberus.sh: /usr/local/bin/ray-slurm-metacerberus.sh
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  fastp: /usr/local/bin/fastp
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  comparessu.sh: /usr/local/bin/comparessu.sh
+  filtersilva.sh: /usr/local/bin/filtersilva.sh
+  sketchblacklist2.sh: /usr/local/bin/sketchblacklist2.sh
+  splitribo.sh: /usr/local/bin/splitribo.sh
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  addssu.sh: /usr/local/bin/addssu.sh
+  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  applyvariants.sh: /usr/local/bin/applyvariants.sh
+  bbcms.sh: /usr/local/bin/bbcms.sh

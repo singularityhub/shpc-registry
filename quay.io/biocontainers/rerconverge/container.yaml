@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/rerconverge
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rerconverge
+latest:
+  0.3.0--r42hec16e2b_0: sha256:b06238ea9029dd228d01dbe9c535afc8c674d72893b8681ec3af4494f641c790
+tags:
+  0.3.0--r42hec16e2b_0: sha256:b06238ea9029dd228d01dbe9c535afc8c674d72893b8681ec3af4494f641c790
+docker: quay.io/biocontainers/rerconverge
+aliases:
+  f2py3.11: /usr/local/bin/f2py3.11
+  git2_cli: /usr/local/bin/git2_cli
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  python3.1: /usr/local/bin/python3.1

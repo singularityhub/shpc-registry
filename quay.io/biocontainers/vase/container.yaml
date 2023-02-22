@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/vase
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vase
+latest:
+  0.5.1--pyh086e186_0: sha256:06d6f9114e3e3b367e71e090b2c92288efeed42c5377c59745fc42136a21b527
+tags:
+  0.5.1--pyh086e186_0: sha256:06d6f9114e3e3b367e71e090b2c92288efeed42c5377c59745fc42136a21b527
+docker: quay.io/biocontainers/vase
+aliases:
+  burden_test_vase: /usr/local/bin/burden_test_vase
+  coordinates_from_genes: /usr/local/bin/coordinates_from_genes
+  filter_gts: /usr/local/bin/filter_gts
+  phase_by_transmission: /usr/local/bin/phase_by_transmission
+  remove_info_fields: /usr/local/bin/remove_info_fields
+  vase: /usr/local/bin/vase
+  vase_reporter: /usr/local/bin/vase_reporter
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  natsort: /usr/local/bin/natsort
+  normalizer: /usr/local/bin/normalizer
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

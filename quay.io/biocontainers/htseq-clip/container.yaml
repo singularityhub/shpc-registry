@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/htseq-clip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for htseq-clip
+latest:
+  2.14.0b0--pyh086e186_0: sha256:775e23d8c5b4ea3619173efe64e09c5a095cf379f206d4cb56987504e86d81d3
+tags:
+  2.14.0b0--pyh086e186_0: sha256:775e23d8c5b4ea3619173efe64e09c5a095cf379f206d4cb56987504e86d81d3
+docker: quay.io/biocontainers/htseq-clip
+aliases:
+  htseq-clip: /usr/local/bin/htseq-clip
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

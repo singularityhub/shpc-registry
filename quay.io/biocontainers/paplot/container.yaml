@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/paplot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for paplot
+latest:
+  0.5.6--pyh5e36f6f_0: sha256:56c6ca568dc607a93033aad5880fdd34fbe33e594f61c806464b6c32cc50f96f
+tags:
+  0.5.6--pyh5e36f6f_0: sha256:56c6ca568dc607a93033aad5880fdd34fbe33e594f61c806464b6c32cc50f96f
+docker: quay.io/biocontainers/paplot
+aliases:
+  paplot: /usr/local/bin/paplot
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

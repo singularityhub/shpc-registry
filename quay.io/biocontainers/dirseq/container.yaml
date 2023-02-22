@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/dirseq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dirseq
+latest:
+  0.4.3--hdfd78af_0: sha256:c7644772bf7e0196c78dcacc62cd7035cbcabad937756c834064981ce928c09a
+tags:
+  0.4.3--hdfd78af_0: sha256:c7644772bf7e0196c78dcacc62cd7035cbcabad937756c834064981ce928c09a
+docker: quay.io/biocontainers/dirseq
+aliases:
+  bioruby: /usr/local/bin/bioruby
+  br_biofetch.rb: /usr/local/bin/br_biofetch.rb
+  br_bioflat.rb: /usr/local/bin/br_bioflat.rb
+  br_biogetseq.rb: /usr/local/bin/br_biogetseq.rb
+  br_pmfetch.rb: /usr/local/bin/br_pmfetch.rb
+  dirseq: /usr/local/bin/dirseq
+  varfilter.py: /usr/local/bin/varfilter.py
+  erb: /usr/local/bin/erb
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap

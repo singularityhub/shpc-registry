@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/mercat2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mercat2
+latest:
+  1.0--pyhdfd78af_0: sha256:4ba0fa4dd73223956a9487181305a18b5774e603fbbd79f87c10799349fd78b2
+tags:
+  1.0--pyhdfd78af_0: sha256:4ba0fa4dd73223956a9487181305a18b5774e603fbbd79f87c10799349fd78b2
+docker: quay.io/biocontainers/mercat2
+aliases:
+  countAssembly.py: /usr/local/bin/countAssembly.py
+  gpustat: /usr/local/bin/gpustat
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  mercat2.py: /usr/local/bin/mercat2.py
+  py-spy: /usr/local/bin/py-spy
+  ray: /usr/local/bin/ray
+  fastp: /usr/local/bin/fastp
+  fastqc: /usr/local/bin/fastqc
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  doesitcache: /usr/local/bin/doesitcache
+  jpackage: /usr/local/bin/jpackage
+  igzip: /usr/local/bin/igzip
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  cups-config: /usr/local/bin/cups-config
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  py.test: /usr/local/bin/py.test
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub

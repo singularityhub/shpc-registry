@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/troika-tb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for troika-tb
+latest:
+  0.0.5--py_0: sha256:5497520cfce9accbeb2d86f5b5d8172b59475cf6fb0fc1009793be4051cb4b2b
+tags:
+  0.0.5--py_0: sha256:5497520cfce9accbeb2d86f5b5d8172b59475cf6fb0fc1009793be4051cb4b2b
+docker: quay.io/biocontainers/troika-tb
+aliases:
+  troika: /usr/local/bin/troika
+  asadmin: /usr/local/bin/asadmin
+  bundle_image: /usr/local/bin/bundle_image
+  cfadmin: /usr/local/bin/cfadmin
+  cq: /usr/local/bin/cq
+  cwutil: /usr/local/bin/cwutil
+  dynamodb_dump: /usr/local/bin/dynamodb_dump
+  dynamodb_load: /usr/local/bin/dynamodb_load
+  elbadmin: /usr/local/bin/elbadmin
+  fetch_file: /usr/local/bin/fetch_file
+  glacier: /usr/local/bin/glacier
+  instance_events: /usr/local/bin/instance_events
+  kill_instance: /usr/local/bin/kill_instance
+  launch_instance: /usr/local/bin/launch_instance
+  list_instances: /usr/local/bin/list_instances
+  lss3: /usr/local/bin/lss3
+  mturk: /usr/local/bin/mturk
+  pyami_sendmail: /usr/local/bin/pyami_sendmail
+  route53: /usr/local/bin/route53
+  s3put: /usr/local/bin/s3put
+  sdbadmin: /usr/local/bin/sdbadmin
+  taskadmin: /usr/local/bin/taskadmin
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  pulptest: /usr/local/bin/pulptest
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp

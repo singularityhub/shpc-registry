@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gctb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gctb
+latest:
+  2.0--hec16e2b_0: sha256:e43572f640df477ed441c770ffe645b43d075b9abed060eb579915bdec97d2a8
+tags:
+  2.0--hec16e2b_0: sha256:e43572f640df477ed441c770ffe645b43d075b9abed060eb579915bdec97d2a8
+docker: quay.io/biocontainers/gctb
+aliases:
+  gctb: /usr/local/bin/gctb

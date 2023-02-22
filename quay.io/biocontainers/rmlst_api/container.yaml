@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/rmlst_api
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rmlst_api
+latest:
+  0.1.5--pyh7cba7a3_0: sha256:086bb06bb64997930228a3ff3ad30c84efcf2a79012180e0c0367a0510414073
+tags:
+  0.1.5--pyh7cba7a3_0: sha256:086bb06bb64997930228a3ff3ad30c84efcf2a79012180e0c0367a0510414073
+docker: quay.io/biocontainers/rmlst_api
+aliases:
+  rmlst-api: /usr/local/bin/rmlst-api
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mixedcca
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-mixedcca
+latest:
+  1.5.2--r41hc8e53b2_1: sha256:3264adea091c77d5efc7e768b9a2a14e200b063aaf9f6432e127d04255ffa771
+tags:
+  1.5.2--r41hc8e53b2_1: sha256:3264adea091c77d5efc7e768b9a2a14e200b063aaf9f6432e127d04255ffa771
+docker: quay.io/biocontainers/r-mixedcca

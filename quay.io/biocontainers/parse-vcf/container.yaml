@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/parse-vcf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for parse-vcf
+latest:
+  0.2.8--pyhdfd78af_1: sha256:70cf8f91acb76000acc0afc3ebcc27b89479276814b7c6181bece1dc4b115764
+tags:
+  0.2.8--pyhdfd78af_1: sha256:70cf8f91acb76000acc0afc3ebcc27b89479276814b7c6181bece1dc4b115764
+docker: quay.io/biocontainers/parse-vcf
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

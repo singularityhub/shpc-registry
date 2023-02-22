@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/squire
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for squire
+latest:
+  0.9.9.92--pyhdfd78af_1: sha256:dd4c7a4a50ea7e09076647c5cbf0e5ca988df4f030d2f05585f2ef494ca6e7c8
+tags:
+  0.9.9.92--pyhdfd78af_1: sha256:dd4c7a4a50ea7e09076647c5cbf0e5ca988df4f030d2f05585f2ef494ca6e7c8
+docker: quay.io/biocontainers/squire
+aliases:
+  genePredToBed: /usr/local/bin/genePredToBed
+  genePredToGtf: /usr/local/bin/genePredToGtf
+  gtfToGenePred: /usr/local/bin/gtfToGenePred
+  igvtools: /usr/local/bin/igvtools
+  prepDE.py: /usr/local/bin/prepDE.py
+  squire: /usr/local/bin/squire
+  stringtie: /usr/local/bin/stringtie
+  STAR: /usr/local/bin/STAR
+  STARlong: /usr/local/bin/STARlong
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  faidx: /usr/local/bin/faidx
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy

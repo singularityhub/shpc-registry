@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/cgranges
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cgranges
+latest:
+  0.1--py39hbf8eff0_1: sha256:8d627022e13b0ecffc7ff47650abf7be033e71df6ae967dfda552459b17a2c78
+tags:
+  0.1--py39hbf8eff0_1: sha256:8d627022e13b0ecffc7ff47650abf7be033e71df6ae967dfda552459b17a2c78
+docker: quay.io/biocontainers/cgranges
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

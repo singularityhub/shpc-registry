@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/varcode
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for varcode
+latest:
+  1.1.0--pyh7cba7a3_0: sha256:1116f471668248ae9890eb83e246ad3a5d6c92dc89e1367d8aaa7d0c8ffe56cd
+tags:
+  1.1.0--pyh7cba7a3_0: sha256:1116f471668248ae9890eb83e246ad3a5d6c92dc89e1367d8aaa7d0c8ffe56cd
+docker: quay.io/biocontainers/varcode
+aliases:
+  epylint: /usr/local/bin/epylint
+  f2py3.11: /usr/local/bin/f2py3.11
+  isort: /usr/local/bin/isort
+  isort-identify-imports: /usr/local/bin/isort-identify-imports
+  pyensembl: /usr/local/bin/pyensembl
+  pylint: /usr/local/bin/pylint
+  pylint-config: /usr/local/bin/pylint-config
+  pyreverse: /usr/local/bin/pyreverse
+  symilar: /usr/local/bin/symilar
+  varcode: /usr/local/bin/varcode
+  varcode-genes: /usr/local/bin/varcode-genes
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1

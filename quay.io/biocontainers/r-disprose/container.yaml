@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-disprose
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-disprose
+latest:
+  0.1.6--r42h3342da4_1: sha256:9f491d1c4c3c4c46dc5a6fa44dfc3a4cbf280f609cce107589b5af045c871c70
+tags:
+  0.1.6--r42h3342da4_1: sha256:9f491d1c4c3c4c46dc5a6fa44dfc3a4cbf280f609cce107589b5af045c871c70
+docker: quay.io/biocontainers/r-disprose

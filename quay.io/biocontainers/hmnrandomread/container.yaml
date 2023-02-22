@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/hmnrandomread
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmnrandomread
+latest:
+  0.9.1--h28e74a2_0: sha256:17c3848bdb132fa823c0d436b131e822e31f7eb0e85a0ac8cdf14edb9ffd363f
+tags:
+  0.9.1--h28e74a2_0: sha256:17c3848bdb132fa823c0d436b131e822e31f7eb0e85a0ac8cdf14edb9ffd363f
+docker: quay.io/biocontainers/hmnrandomread
+aliases:
+  HmnRandomRead: /usr/local/bin/HmnRandomRead
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  python3.1: /usr/local/bin/python3.1

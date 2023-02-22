@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/finemap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for finemap
+latest:
+  1.4.1--0: sha256:6e07321784a93f0814515d36b14c4542bdda982e0fb1faf9b178bf31cd3842af
+tags:
+  1.4.1--0: sha256:6e07321784a93f0814515d36b14c4542bdda982e0fb1faf9b178bf31cd3842af
+docker: quay.io/biocontainers/finemap
+aliases:
+  finemap: /usr/local/bin/finemap

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vcf2parquet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcf2parquet
+latest:
+  0.3.1--hc308579_0: sha256:81ac4b2a8ad072ef8a537e192e9c170c70b9e12212e28a33cb353e40427361d1
+tags:
+  0.3.1--hc308579_0: sha256:81ac4b2a8ad072ef8a537e192e9c170c70b9e12212e28a33cb353e40427361d1
+docker: quay.io/biocontainers/vcf2parquet
+aliases:
+  vcf2parquet: /usr/local/bin/vcf2parquet

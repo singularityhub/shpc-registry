@@ -1,0 +1,71 @@
+url: https://biocontainers.pro/tools/vsnp3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vsnp3
+latest:
+  3.11--hdfd78af_0: sha256:46565b1b5a04d8be44ec45e4b3091a11aee21de88b95630316c829d0278d26ce
+tags:
+  3.11--hdfd78af_0: sha256:46565b1b5a04d8be44ec45e4b3091a11aee21de88b95630316c829d0278d26ce
+docker: quay.io/biocontainers/vsnp3
+aliases:
+  cairosvg: /usr/local/bin/cairosvg
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  cpuinfo: /usr/local/bin/cpuinfo
+  dask: /usr/local/bin/dask
+  krona_lca_all.py: /usr/local/bin/krona_lca_all.py
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  sourmash: /usr/local/bin/sourmash
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
+  update_version.sh: /usr/local/bin/update_version.sh
+  vcftools: /usr/local/bin/vcftools
+  vsnp3_alignment_vcf.py: /usr/local/bin/vsnp3_alignment_vcf.py
+  vsnp3_annotation.py: /usr/local/bin/vsnp3_annotation.py
+  vsnp3_assembly.py: /usr/local/bin/vsnp3_assembly.py
+  vsnp3_best_reference_sourmash.py: /usr/local/bin/vsnp3_best_reference_sourmash.py
+  vsnp3_bruc_mlst.py: /usr/local/bin/vsnp3_bruc_mlst.py
+  vsnp3_download_fasta_gbk_gff_by_acc.py: /usr/local/bin/vsnp3_download_fasta_gbk_gff_by_acc.py
+  vsnp3_excel_merge_files.py: /usr/local/bin/vsnp3_excel_merge_files.py
+  vsnp3_fasta_to_snps_table.py: /usr/local/bin/vsnp3_fasta_to_snps_table.py
+  vsnp3_fastq_stats_seqkit.py: /usr/local/bin/vsnp3_fastq_stats_seqkit.py
+  vsnp3_file_setup.py: /usr/local/bin/vsnp3_file_setup.py
+  vsnp3_filter_finder.py: /usr/local/bin/vsnp3_filter_finder.py
+  vsnp3_group_on_defining_snps.py: /usr/local/bin/vsnp3_group_on_defining_snps.py
+  vsnp3_group_reporter.py: /usr/local/bin/vsnp3_group_reporter.py
+  vsnp3_html_step2_summary.py: /usr/local/bin/vsnp3_html_step2_summary.py
+  vsnp3_kraken2_wrapper.py: /usr/local/bin/vsnp3_kraken2_wrapper.py
+  vsnp3_path_adder.py: /usr/local/bin/vsnp3_path_adder.py
+  vsnp3_reference_options.py: /usr/local/bin/vsnp3_reference_options.py
+  vsnp3_remove_from_analysis.py: /usr/local/bin/vsnp3_remove_from_analysis.py
+  vsnp3_spoligotype.py: /usr/local/bin/vsnp3_spoligotype.py
+  vsnp3_step1.py: /usr/local/bin/vsnp3_step1.py
+  vsnp3_step2.py: /usr/local/bin/vsnp3_step2.py
+  vsnp3_table_compare.py: /usr/local/bin/vsnp3_table_compare.py
+  vsnp3_vcf_annotation.py: /usr/local/bin/vsnp3_vcf_annotation.py
+  vsnp3_zero_coverage.py: /usr/local/bin/vsnp3_zero_coverage.py
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  vcf-annotate: /usr/local/bin/vcf-annotate
+  vcf-compare: /usr/local/bin/vcf-compare
+  vcf-concat: /usr/local/bin/vcf-concat
+  vcf-consensus: /usr/local/bin/vcf-consensus
+  vcf-contrast: /usr/local/bin/vcf-contrast
+  vcf-convert: /usr/local/bin/vcf-convert
+  vcf-fix-newlines: /usr/local/bin/vcf-fix-newlines
+  vcf-fix-ploidy: /usr/local/bin/vcf-fix-ploidy
+  vcf-indel-stats: /usr/local/bin/vcf-indel-stats
+  vcf-isec: /usr/local/bin/vcf-isec
+  vcf-merge: /usr/local/bin/vcf-merge
+  vcf-phased-join: /usr/local/bin/vcf-phased-join
+  vcf-query: /usr/local/bin/vcf-query
+  vcf-shuffle-cols: /usr/local/bin/vcf-shuffle-cols
+  vcf-sort: /usr/local/bin/vcf-sort
+  vcf-stats: /usr/local/bin/vcf-stats
+  vcf-subset: /usr/local/bin/vcf-subset
+  vcf-to-tab: /usr/local/bin/vcf-to-tab
+  vcf-tstv: /usr/local/bin/vcf-tstv
+  vcf-validator: /usr/local/bin/vcf-validator
+  seqkit: /usr/local/bin/seqkit

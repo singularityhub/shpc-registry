@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/phiercc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phiercc
+latest:
+  1.24--pyhdfd78af_0: sha256:0c6a81de8c77ab50238c86c83db2a881c09caf6ee105081cc3eb6f2c0ff678e2
+tags:
+  1.24--pyhdfd78af_0: sha256:0c6a81de8c77ab50238c86c83db2a881c09caf6ee105081cc3eb6f2c0ff678e2
+docker: quay.io/biocontainers/phiercc
+aliases:
+  HCCeval: /usr/local/bin/HCCeval
+  pHierCC: /usr/local/bin/pHierCC
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.8: /usr/local/bin/f2py3.8
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

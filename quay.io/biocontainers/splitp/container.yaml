@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/splitp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for splitp
+latest:
+  0.1.0--h9f5acd7_1: sha256:55edf2f66f0a3f01074842a7a4a476b5e10628b87dde671200ed1be4e5d1cc6c
+tags:
+  0.1.0--h9f5acd7_1: sha256:55edf2f66f0a3f01074842a7a4a476b5e10628b87dde671200ed1be4e5d1cc6c
+docker: quay.io/biocontainers/splitp
+aliases:
+  splitp: /usr/local/bin/splitp

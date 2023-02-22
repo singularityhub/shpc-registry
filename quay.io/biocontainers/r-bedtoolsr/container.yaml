@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/r-bedtoolsr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-bedtoolsr
+latest:
+  2.30.0.2--r42hdfd78af_1: sha256:6ab89d735d35fab50f4f249b7f1200d690bcb6834f94dcfd450ac5a8ecef48d4
+tags:
+  2.30.0.2--r42hdfd78af_1: sha256:6ab89d735d35fab50f4f249b7f1200d690bcb6834f94dcfd450ac5a8ecef48d4
+docker: quay.io/biocontainers/r-bedtoolsr
+aliases:
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy
+  intersectBed: /usr/local/bin/intersectBed
+  linksBed: /usr/local/bin/linksBed
+  mapBed: /usr/local/bin/mapBed
+  maskFastaFromBed: /usr/local/bin/maskFastaFromBed
+  mergeBed: /usr/local/bin/mergeBed
+  multiBamCov: /usr/local/bin/multiBamCov

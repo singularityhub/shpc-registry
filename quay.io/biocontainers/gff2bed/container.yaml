@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/gff2bed
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gff2bed
+latest:
+  1.0.3--pyhdfd78af_0: sha256:829051a3b2610caf4b95e96a712ab3e4fff6ab080d20f4d867f412430d8cf132
+tags:
+  1.0.3--pyhdfd78af_0: sha256:829051a3b2610caf4b95e96a712ab3e4fff6ab080d20f4d867f412430d8cf132
+docker: quay.io/biocontainers/gff2bed
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

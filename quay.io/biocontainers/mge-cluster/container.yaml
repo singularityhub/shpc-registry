@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/mge-cluster
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mge-cluster
+latest:
+  1.1.0--pyh5ace695_0: sha256:0f1bcfe4210e8df18861b1e578fc4bd5af4eef30208edd950e594f62a3ff5e20
+tags:
+  1.1.0--pyh5ace695_0: sha256:0f1bcfe4210e8df18861b1e578fc4bd5af4eef30208edd950e594f62a3ff5e20
+docker: quay.io/biocontainers/mge-cluster
+aliases:
+  Bifrost: /usr/local/bin/Bifrost
+  mge_cluster: /usr/local/bin/mge_cluster
+  unitig-caller: /usr/local/bin/unitig-caller
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

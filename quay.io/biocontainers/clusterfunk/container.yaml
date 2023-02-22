@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/clusterfunk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for clusterfunk
+latest:
+  0.0.2--pyh3252c3a_0: sha256:ab31f4ab9f550b860ab983a5532d40507c52e3401dcf15a601145b1b6bce035b
+tags:
+  0.0.2--pyh3252c3a_0: sha256:ab31f4ab9f550b860ab983a5532d40507c52e3401dcf15a601145b1b6bce035b
+docker: quay.io/biocontainers/clusterfunk
+aliases:
+  clusterfunk: /usr/local/bin/clusterfunk
+  dendropy-format: /usr/local/bin/dendropy-format
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

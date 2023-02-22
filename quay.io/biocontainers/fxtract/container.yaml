@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fxtract
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fxtract
+latest:
+  2.4--h131032e_0: sha256:be1ede43ada2648df04b125e130f5f05121853c7880393e4d4135f268f55dc68
+tags:
+  2.4--h131032e_0: sha256:be1ede43ada2648df04b125e130f5f05121853c7880393e4d4135f268f55dc68
+docker: quay.io/biocontainers/fxtract
+aliases:
+  fxtract: /usr/local/bin/fxtract

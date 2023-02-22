@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/megatron
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for megatron
+latest:
+  0.1a--py_0: sha256:0147418b347689609d6e76d2ed5cab2645be77ee3ad65997da1904db13532773
+tags:
+  0.1a--py_0: sha256:0147418b347689609d6e76d2ed5cab2645be77ee3ad65997da1904db13532773
+docker: quay.io/biocontainers/megatron
+aliases:
+  natsort: /usr/local/bin/natsort
+  f2py3.9: /usr/local/bin/f2py3.9
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5repack: /usr/local/bin/h5repack
+  h5repart: /usr/local/bin/h5repart
+  h5stat: /usr/local/bin/h5stat
+  h5unjam: /usr/local/bin/h5unjam
+  h5dump: /usr/local/bin/h5dump
+  h5cc: /usr/local/bin/h5cc
+  2to3-3.9: /usr/local/bin/2to3-3.9

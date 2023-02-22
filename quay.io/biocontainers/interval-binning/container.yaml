@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/interval-binning
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for interval-binning
+latest:
+  1.0.0--pyh5e36f6f_0: sha256:0a22277c2ca5da986a7fb1511b83041f88442d7a5fc549e3cd5a2ad861acd6c8
+tags:
+  1.0.0--pyh5e36f6f_0: sha256:0a22277c2ca5da986a7fb1511b83041f88442d7a5fc549e3cd5a2ad861acd6c8
+docker: quay.io/biocontainers/interval-binning
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
