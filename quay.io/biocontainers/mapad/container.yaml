@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mapad
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mapad
+latest:
+  0.41.0--h21d3286_0: sha256:56e55958c6d4c8c2d71e5ee50d57031efc20ea6a056d729d8d52f1fc9f45636d
+tags:
+  0.41.0--h21d3286_0: sha256:56e55958c6d4c8c2d71e5ee50d57031efc20ea6a056d729d8d52f1fc9f45636d
+docker: quay.io/biocontainers/mapad
+aliases:
+  mapad: /usr/local/bin/mapad
