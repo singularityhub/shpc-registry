@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/primalscheme
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for primalscheme
 latest:
-  1.4.0--pyh7cba7a3_0: sha256:d3258982ff70267d67316b8695815c82a661600c5b589f47258114d4ac1f4033
+  1.4.1--pyh7cba7a3_0: sha256:69a47ee9d1c5adac427d7c19360cb770438f7dfa2b24faf3bbd0377a2eb04b6d
 tags:
   1.3.2--pyh3252c3a_0: sha256:aef1517bfd9f869a065d5e471940fe17d307a40cb8c496e761317633835bd18e
   1.4.0--pyh7cba7a3_0: sha256:d3258982ff70267d67316b8695815c82a661600c5b589f47258114d4ac1f4033
+  1.4.1--pyh7cba7a3_0: sha256:69a47ee9d1c5adac427d7c19360cb770438f7dfa2b24faf3bbd0377a2eb04b6d
 docker: quay.io/biocontainers/primalscheme
 aliases:
   primalscheme: /usr/local/bin/primalscheme
