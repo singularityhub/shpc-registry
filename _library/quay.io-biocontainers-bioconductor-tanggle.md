@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tanggle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tanggle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tanggle/container.yaml"
-updated_at: "2023-02-23 03:15:27.498649"
+updated_at: "2023-02-23 03:35:04.066097"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tanggle"
 

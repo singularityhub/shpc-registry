@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gloome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gloome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gloome/container.yaml"
-updated_at: "2023-02-23 03:19:42.681710"
+updated_at: "2023-02-23 03:39:02.889085"
 latest: "VR01.266--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/gloome"
 aliases:

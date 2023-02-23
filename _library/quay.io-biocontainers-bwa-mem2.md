@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa-mem2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-mem2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-mem2/container.yaml"
-updated_at: "2023-02-23 03:09:20.616310"
+updated_at: "2023-02-23 03:29:21.139988"
 latest: "2.2.1--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/bwa-mem2"
 aliases:

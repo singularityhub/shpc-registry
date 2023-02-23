@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lightassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lightassembler/container.yaml"
-updated_at: "2023-02-23 03:26:51.348722"
+updated_at: "2023-02-23 03:45:45.099572"
 latest: "1.0--hd03093a_3"
 container_url: "https://biocontainers.pro/tools/lightassembler"
 aliases:
