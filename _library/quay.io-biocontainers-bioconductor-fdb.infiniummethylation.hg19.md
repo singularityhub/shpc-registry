@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/container.yaml"
-updated_at: "2023-02-22 03:44:30.223193"
+updated_at: "2023-02-23 03:28:45.565222"
 latest: "2.2.0--r42hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.infiniummethylation.hg19"
 aliases:

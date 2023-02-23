@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mogene20stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mogene20stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mogene20stprobeset.db/container.yaml"
-updated_at: "2023-02-22 03:17:24.073550"
+updated_at: "2023-02-23 03:00:10.114647"
 latest: "8.8.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-mogene20stprobeset.db"
 

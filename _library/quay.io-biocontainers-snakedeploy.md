@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakedeploy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakedeploy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakedeploy/container.yaml"
-updated_at: "2023-02-22 03:30:46.418544"
-latest: "0.8.2--pyhdfd78af_0"
+updated_at: "2023-02-23 03:14:13.154295"
+latest: "0.8.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakedeploy"
 aliases:
  - "snakedeploy"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.8.0--pyhdfd78af_0"
  - "0.8.2--pyhdfd78af_0"
+ - "0.8.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snakedeploy"
-config: {"url": "https://biocontainers.pro/tools/snakedeploy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakedeploy", "latest": {"0.8.2--pyhdfd78af_0": "sha256:1fbf6bc7e28443f563e977bd9710c5bda4444ae58164368bf60b4ff7aab0b2a3"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:ab1fe650062ca9569927922e032a88c803cdbb676e0c63f0ec914c887c9d1360", "0.8.2--pyhdfd78af_0": "sha256:1fbf6bc7e28443f563e977bd9710c5bda4444ae58164368bf60b4ff7aab0b2a3"}, "docker": "quay.io/biocontainers/snakedeploy", "aliases": {"snakedeploy": "/usr/local/bin/snakedeploy", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakedeploy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakedeploy", "latest": {"0.8.6--pyhdfd78af_0": "sha256:0a2e823d272edabb9c4c751d30bb1436eb6b3493e9ec1da1bbaec40c54a07885"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:ab1fe650062ca9569927922e032a88c803cdbb676e0c63f0ec914c887c9d1360", "0.8.2--pyhdfd78af_0": "sha256:1fbf6bc7e28443f563e977bd9710c5bda4444ae58164368bf60b4ff7aab0b2a3", "0.8.6--pyhdfd78af_0": "sha256:0a2e823d272edabb9c4c751d30bb1436eb6b3493e9ec1da1bbaec40c54a07885"}, "docker": "quay.io/biocontainers/snakedeploy", "aliases": {"snakedeploy": "/usr/local/bin/snakedeploy", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakedeploy.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/snakedeploy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakedeploy:0.8.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakedeploy:0.8.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakedeploy/0.8.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakedeploy/0.8.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakedeploy/0.8.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakedeploy/0.8.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
