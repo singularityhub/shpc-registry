@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/svsolver
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svsolver
 latest:
-  2022.07.20--openmpi_hde70e8a_0: sha256:fe68f43369ad874ca0cf74c1e57212d9e104c04a7b77fb1ea70225f26454bc94
+  2022.07.20--mpich_h7252990_0: sha256:a918d5abb142548940b29f912f95ea84d15884c393aa2f71b6fec4ead34a1a02
 tags:
   2022.07.20--openmpi_hde70e8a_0: sha256:fe68f43369ad874ca0cf74c1e57212d9e104c04a7b77fb1ea70225f26454bc94
+  2022.07.20--mpich_h7252990_0: sha256:a918d5abb142548940b29f912f95ea84d15884c393aa2f71b6fec4ead34a1a02
 docker: quay.io/biocontainers/svsolver
 aliases:
   setup-symlinks.sh: /usr/local/bin/setup-symlinks.sh

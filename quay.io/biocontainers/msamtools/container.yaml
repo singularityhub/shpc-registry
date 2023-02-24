@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/msamtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for msamtools
 latest:
-  1.1.1--h7132678_0: sha256:2c5b0bbd00d429c175a08f7842e972be4a3345df0e689514096bb8b47993d6b2
+  1.1.2--h7132678_0: sha256:ab28759fe8fc09ddbbf897e50abe639928785a76f2053e9f9da3e025786db8d5
 tags:
   1.1.0--h7132678_1: sha256:8e1d08bc288c309dcc266e7817d4a8342e0f2aa3b551a8c7949ea22c8337b1ea
   1.1.1--h7132678_0: sha256:2c5b0bbd00d429c175a08f7842e972be4a3345df0e689514096bb8b47993d6b2
+  1.1.2--h7132678_0: sha256:ab28759fe8fc09ddbbf897e50abe639928785a76f2053e9f9da3e025786db8d5
 docker: quay.io/biocontainers/msamtools
 aliases:
   msamtools: /usr/local/bin/msamtools
