@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pagerank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pagerank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pagerank/container.yaml"
-updated_at: "2023-02-23 03:43:53.906870"
+updated_at: "2023-02-24 03:25:05.279676"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pagerank"
 
