@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyjaspar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyjaspar
 latest:
-  2.1.0--pyhdfd78af_0: sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3
+  2.1.1--pyhdfd78af_0: sha256:cc2a29c30b49873ba7b19590cfcdb4062b65f106369f79feba1b17bd16faf242
 tags:
   2.1.0--pyhdfd78af_0: sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3
+  2.1.1--pyhdfd78af_0: sha256:cc2a29c30b49873ba7b19590cfcdb4062b65f106369f79feba1b17bd16faf242
 docker: quay.io/biocontainers/pyjaspar
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

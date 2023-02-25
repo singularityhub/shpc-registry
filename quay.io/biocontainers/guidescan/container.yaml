@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/guidescan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for guidescan
 latest:
-  2.0.0--h9f5acd7_0: sha256:e8c450cb505f5984359b74dd93b90eaa5ad9e2c46a38c74400ed07252a80bfa1
+  2.1.2--h9f5acd7_0: sha256:ab7cdf7366209a861450044054b1a49099edbee75acb03d67dfc25c281ab6c89
 tags:
   1.2--0: sha256:129aa8ba50df3be5a28a4411a12a4a39c2e0804017545e83713b8dc8882620d4
   2.0.0--h9f5acd7_0: sha256:e8c450cb505f5984359b74dd93b90eaa5ad9e2c46a38c74400ed07252a80bfa1
+  2.1.2--h9f5acd7_0: sha256:ab7cdf7366209a861450044054b1a49099edbee75acb03d67dfc25c281ab6c89
 docker: quay.io/biocontainers/guidescan
 aliases:
   guidescan_bamdata: /usr/local/bin/guidescan_bamdata
