@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomeintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomeintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomeintervals/container.yaml"
-updated_at: "2023-02-24 03:10:51.282468"
+updated_at: "2023-02-25 03:12:00.996988"
 latest: "1.54.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomeintervals"
 

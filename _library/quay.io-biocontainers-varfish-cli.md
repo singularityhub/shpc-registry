@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varfish-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varfish-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varfish-cli/container.yaml"
-updated_at: "2023-02-24 03:01:18.373385"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2023-02-25 03:02:35.239377"
+latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varfish-cli"
 aliases:
  - "varfish-cli"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.3.4--pyhdfd78af_0"
  - "0.4.0--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for varfish-cli"
-config: {"url": "https://biocontainers.pro/tools/varfish-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varfish-cli", "latest": {"0.4.0--pyhdfd78af_0": "sha256:eec1d23645c1afc8e89a82afb23ed354b3dd6dbf8c516019de38059cf740669f"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:52b0834ce60bab03cba6a9c2497cbf7a8b651b0c77e44de7b780cae76eb00918", "0.4.0--pyhdfd78af_0": "sha256:eec1d23645c1afc8e89a82afb23ed354b3dd6dbf8c516019de38059cf740669f"}, "docker": "quay.io/biocontainers/varfish-cli", "aliases": {"varfish-cli": "/usr/local/bin/varfish-cli", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/varfish-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varfish-cli", "latest": {"0.5.1--pyhdfd78af_0": "sha256:78ef6f31b40b488ce9344497d186496a37dc1388e1d50e669b155272384b3c62"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:52b0834ce60bab03cba6a9c2497cbf7a8b651b0c77e44de7b780cae76eb00918", "0.4.0--pyhdfd78af_0": "sha256:eec1d23645c1afc8e89a82afb23ed354b3dd6dbf8c516019de38059cf740669f", "0.5.1--pyhdfd78af_0": "sha256:78ef6f31b40b488ce9344497d186496a37dc1388e1d50e669b155272384b3c62"}, "docker": "quay.io/biocontainers/varfish-cli", "aliases": {"varfish-cli": "/usr/local/bin/varfish-cli", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varfish-cli.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/varfish-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varfish-cli:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/varfish-cli:0.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varfish-cli/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/varfish-cli/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/varfish-cli/0.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/varfish-cli/0.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

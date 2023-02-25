@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-config-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-config-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-config-tiny/container.yaml"
-updated_at: "2023-02-24 02:56:22.077863"
+updated_at: "2023-02-25 02:57:43.001067"
 latest: "2.28--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-config-tiny"
 aliases:

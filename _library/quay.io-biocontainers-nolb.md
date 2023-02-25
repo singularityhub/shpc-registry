@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nolb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nolb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nolb/container.yaml"
-updated_at: "2023-02-24 02:53:18.780420"
+updated_at: "2023-02-25 02:54:42.356222"
 latest: "1.9--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/nolb"
 aliases:

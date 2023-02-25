@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slimfastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slimfastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slimfastq/container.yaml"
-updated_at: "2023-02-24 03:01:43.344935"
+updated_at: "2023-02-25 03:02:59.767583"
 latest: "2.04--h87f3376_2"
 container_url: "https://biocontainers.pro/tools/slimfastq"
 aliases:

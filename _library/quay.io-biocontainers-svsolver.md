@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svsolver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svsolver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svsolver/container.yaml"
-updated_at: "2023-02-24 02:58:51.246129"
-latest: "2022.07.20--openmpi_hde70e8a_0"
+updated_at: "2023-02-25 03:00:10.918884"
+latest: "2022.07.20--mpich_h7252990_0"
 container_url: "https://biocontainers.pro/tools/svsolver"
 aliases:
  - "setup-symlinks.sh"
@@ -52,8 +52,9 @@ aliases:
  - "orted"
 versions:
  - "2022.07.20--openmpi_hde70e8a_0"
+ - "2022.07.20--mpich_h7252990_0"
 description: "singularity registry hpc automated addition for svsolver"
-config: {"url": "https://biocontainers.pro/tools/svsolver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svsolver", "latest": {"2022.07.20--openmpi_hde70e8a_0": "sha256:fe68f43369ad874ca0cf74c1e57212d9e104c04a7b77fb1ea70225f26454bc94"}, "tags": {"2022.07.20--openmpi_hde70e8a_0": "sha256:fe68f43369ad874ca0cf74c1e57212d9e104c04a7b77fb1ea70225f26454bc94"}, "docker": "quay.io/biocontainers/svsolver", "aliases": {"setup-symlinks.sh": "/usr/local/bin/setup-symlinks.sh", "svpost": "/usr/local/bin/svpost", "svpost.bin": "/usr/local/bin/svpost.bin", "svpre": "/usr/local/bin/svpre", "svpre.bin": "/usr/local/bin/svpre.bin", "svsolver": "/usr/local/bin/svsolver", "svsolver.bin": "/usr/local/bin/svsolver.bin", "vtkEncodeString-8.1": "/usr/local/bin/vtkEncodeString-8.1", "vtkHashSource-8.1": "/usr/local/bin/vtkHashSource-8.1", "vtkParseJava-8.1": "/usr/local/bin/vtkParseJava-8.1", "vtkWrapHierarchy-8.1": "/usr/local/bin/vtkWrapHierarchy-8.1", "vtkWrapJava-8.1": "/usr/local/bin/vtkWrapJava-8.1", "vtkWrapPython-8.1": "/usr/local/bin/vtkWrapPython-8.1", "vtkWrapPythonInit-8.1": "/usr/local/bin/vtkWrapPythonInit-8.1", "vtkWrapTcl-8.1": "/usr/local/bin/vtkWrapTcl-8.1", "vtkWrapTclInit-8.1": "/usr/local/bin/vtkWrapTclInit-8.1", "vtkpython": "/usr/local/bin/vtkpython", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted"}}
+config: {"url": "https://biocontainers.pro/tools/svsolver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svsolver", "latest": {"2022.07.20--mpich_h7252990_0": "sha256:a918d5abb142548940b29f912f95ea84d15884c393aa2f71b6fec4ead34a1a02"}, "tags": {"2022.07.20--openmpi_hde70e8a_0": "sha256:fe68f43369ad874ca0cf74c1e57212d9e104c04a7b77fb1ea70225f26454bc94", "2022.07.20--mpich_h7252990_0": "sha256:a918d5abb142548940b29f912f95ea84d15884c393aa2f71b6fec4ead34a1a02"}, "docker": "quay.io/biocontainers/svsolver", "aliases": {"setup-symlinks.sh": "/usr/local/bin/setup-symlinks.sh", "svpost": "/usr/local/bin/svpost", "svpost.bin": "/usr/local/bin/svpost.bin", "svpre": "/usr/local/bin/svpre", "svpre.bin": "/usr/local/bin/svpre.bin", "svsolver": "/usr/local/bin/svsolver", "svsolver.bin": "/usr/local/bin/svsolver.bin", "vtkEncodeString-8.1": "/usr/local/bin/vtkEncodeString-8.1", "vtkHashSource-8.1": "/usr/local/bin/vtkHashSource-8.1", "vtkParseJava-8.1": "/usr/local/bin/vtkParseJava-8.1", "vtkWrapHierarchy-8.1": "/usr/local/bin/vtkWrapHierarchy-8.1", "vtkWrapJava-8.1": "/usr/local/bin/vtkWrapJava-8.1", "vtkWrapPython-8.1": "/usr/local/bin/vtkWrapPython-8.1", "vtkWrapPythonInit-8.1": "/usr/local/bin/vtkWrapPythonInit-8.1", "vtkWrapTcl-8.1": "/usr/local/bin/vtkWrapTcl-8.1", "vtkWrapTclInit-8.1": "/usr/local/bin/vtkWrapTclInit-8.1", "vtkpython": "/usr/local/bin/vtkpython", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svsolver.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/svsolver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svsolver:2022.07.20--openmpi_hde70e8a_0
+$ shpc install quay.io/biocontainers/svsolver:2022.07.20--mpich_h7252990_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svsolver/2022.07.20--openmpi_hde70e8a_0
-$ module help quay.io/biocontainers/svsolver/2022.07.20--openmpi_hde70e8a_0
+$ module load quay.io/biocontainers/svsolver/2022.07.20--mpich_h7252990_0
+$ module help quay.io/biocontainers/svsolver/2022.07.20--mpich_h7252990_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

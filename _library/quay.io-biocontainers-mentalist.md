@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mentalist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mentalist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mentalist/container.yaml"
-updated_at: "2023-02-24 03:17:25.183588"
+updated_at: "2023-02-25 03:18:29.673574"
 latest: "0.2.4--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/mentalist"
 aliases:

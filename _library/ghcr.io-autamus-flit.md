@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/flit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/flit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/flit/container.yaml"
-updated_at: "2023-02-24 02:48:49.496968"
+updated_at: "2023-02-25 02:50:15.899027"
 latest: "2.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/flit"
 aliases:
