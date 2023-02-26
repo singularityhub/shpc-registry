@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pysradb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pysradb
 latest:
-  1.4.2--pyhdfd78af_0: sha256:738d4d5e3b9e28446ad4470809d7ea40b4d7c0ca0a899ad947700184ff823168
+  2.0.0--pyhdfd78af_0: sha256:3869ebeac1cdec0a7d044469dcffa72b29fbf4ca6f88e2ac12d82d5c21387c81
 tags:
   1.4.2--pyhdfd78af_0: sha256:738d4d5e3b9e28446ad4470809d7ea40b4d7c0ca0a899ad947700184ff823168
+  2.0.0--pyhdfd78af_0: sha256:3869ebeac1cdec0a7d044469dcffa72b29fbf4ca6f88e2ac12d82d5c21387c81
 docker: quay.io/biocontainers/pysradb
 aliases:
   pysradb: /usr/local/bin/pysradb
