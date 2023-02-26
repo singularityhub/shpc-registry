@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mirmachine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirmachine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirmachine/container.yaml"
-updated_at: "2023-02-25 03:14:34.389068"
-latest: "0.2.11.2022--pyhdfd78af_0"
+updated_at: "2023-02-26 03:23:34.075246"
+latest: "0.2.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirmachine"
 aliases:
  - "MirMachine.py"
@@ -37,8 +37,9 @@ aliases:
  - "cmconvert"
 versions:
  - "0.2.11.2022--pyhdfd78af_0"
+ - "0.2.12--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mirmachine"
-config: {"url": "https://biocontainers.pro/tools/mirmachine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirmachine", "latest": {"0.2.11.2022--pyhdfd78af_0": "sha256:401cdcd5fbc7c0065a7e3b18749252bf033370089fead42299f68f8c520b2dc7"}, "tags": {"0.2.11.2022--pyhdfd78af_0": "sha256:401cdcd5fbc7c0065a7e3b18749252bf033370089fead42299f68f8c520b2dc7"}, "docker": "quay.io/biocontainers/mirmachine", "aliases": {"MirMachine.py": "/usr/local/bin/MirMachine.py", "chronic": "/usr/local/bin/chronic", "combine": "/usr/local/bin/combine", "errno": "/usr/local/bin/errno", "gff_sort_and_compete.sh": "/usr/local/bin/gff_sort_and_compete.sh", "ifdata": "/usr/local/bin/ifdata", "ifne": "/usr/local/bin/ifne", "isutf8": "/usr/local/bin/isutf8", "lckdo": "/usr/local/bin/lckdo", "mirmachine-tree-parser.py": "/usr/local/bin/mirmachine-tree-parser.py", "mispipe": "/usr/local/bin/mispipe", "pee": "/usr/local/bin/pee", "sponge": "/usr/local/bin/sponge", "ts": "/usr/local/bin/ts", "vidir": "/usr/local/bin/vidir", "vipe": "/usr/local/bin/vipe", "zrun": "/usr/local/bin/zrun", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert"}}
+config: {"url": "https://biocontainers.pro/tools/mirmachine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirmachine", "latest": {"0.2.12--pyhdfd78af_0": "sha256:7ac836a6ace24a9699019f388aceda491319e7656c56f8bbe1b8b4a67919a370"}, "tags": {"0.2.11.2022--pyhdfd78af_0": "sha256:401cdcd5fbc7c0065a7e3b18749252bf033370089fead42299f68f8c520b2dc7", "0.2.12--pyhdfd78af_0": "sha256:7ac836a6ace24a9699019f388aceda491319e7656c56f8bbe1b8b4a67919a370"}, "docker": "quay.io/biocontainers/mirmachine", "aliases": {"MirMachine.py": "/usr/local/bin/MirMachine.py", "chronic": "/usr/local/bin/chronic", "combine": "/usr/local/bin/combine", "errno": "/usr/local/bin/errno", "gff_sort_and_compete.sh": "/usr/local/bin/gff_sort_and_compete.sh", "ifdata": "/usr/local/bin/ifdata", "ifne": "/usr/local/bin/ifne", "isutf8": "/usr/local/bin/isutf8", "lckdo": "/usr/local/bin/lckdo", "mirmachine-tree-parser.py": "/usr/local/bin/mirmachine-tree-parser.py", "mispipe": "/usr/local/bin/mispipe", "pee": "/usr/local/bin/pee", "sponge": "/usr/local/bin/sponge", "ts": "/usr/local/bin/ts", "vidir": "/usr/local/bin/vidir", "vipe": "/usr/local/bin/vipe", "zrun": "/usr/local/bin/zrun", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mirmachine.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/mirmachine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mirmachine:0.2.11.2022--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mirmachine:0.2.12--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mirmachine/0.2.11.2022--pyhdfd78af_0
-$ module help quay.io/biocontainers/mirmachine/0.2.11.2022--pyhdfd78af_0
+$ module load quay.io/biocontainers/mirmachine/0.2.12--pyhdfd78af_0
+$ module help quay.io/biocontainers/mirmachine/0.2.12--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

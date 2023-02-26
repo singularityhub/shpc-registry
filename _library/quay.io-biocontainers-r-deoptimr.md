@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-deoptimr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-deoptimr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-deoptimr/container.yaml"
-updated_at: "2023-02-25 03:17:36.685878"
+updated_at: "2023-02-26 03:26:42.653416"
 latest: "1.0_8--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-deoptimr"
 aliases:

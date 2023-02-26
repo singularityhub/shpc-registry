@@ -4,7 +4,7 @@ name:  "bids/validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/validator/container.yaml"
-updated_at: "2023-02-25 02:50:01.483071"
+updated_at: "2023-02-26 02:58:18.224132"
 latest: "v1.9.2"
 container_url: "https://hub.docker.com/r/bids/validator"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "v1.8.9"
  - "v1.9.2"
 description: "A validator for BIDS (Brain Imaging Data Structure) datasets."
-config: {"docker": "bids/validator", "url": "https://hub.docker.com/r/bids/validator", "maintainer": "@vsoch", "description": "A validator for BIDS (Brain Imaging Data Structure) datasets.", "latest": {"v1.9.2": "sha256:0c15cecae3919db5a14d43495cb2f2663b04c7f6cb049b7fdcfec3102284fe36"}, "tags": {"latest": "sha256:77acdc4949428ea21745ebb6bd5a6f000798e4c01e53043a2515c426b570e012", "v1.7.0": "sha256:51c9481b357448cc2138909e03dfa8e053d424d5e776e94dbec929aeb96f9563", "v1.7.1": "sha256:d07b847f26e77e842abfd5b964f8553eb458ca796f4f0f5d1ca8d9290552ac2c", "v1.7.3-dev.0": "sha256:48d468d43b72ebb67014b33927171742d299c54c3e1c1db263a161b8917ca077", "v1.7.4-dev.0": "sha256:ab01a4d1105dd71d336d045e5787994299d66c927f2a42e231dde510c9c48a9a", "v1.8.1-dev.0": "sha256:8940256846cf4a98645760c6a03e5ee9686bdadfbbabfa8ed5f4a3e47fb0c910", "v1.8.5": "sha256:a2b52f99dd4571079bbe7547acaba3f6689b074de90e25fb85175568d2026705", "v1.8.9": "sha256:ee3d031f5096ace592fedfe87a095b4b634edcc5a8f464783034168257db90c0", "v1.9.2": "sha256:0c15cecae3919db5a14d43495cb2f2663b04c7f6cb049b7fdcfec3102284fe36"}, "filter": ["v*"], "aliases": {"bids-validator": "/usr/local/bin/bids-validator"}}
+config: {"docker": "bids/validator", "url": "https://hub.docker.com/r/bids/validator", "maintainer": "@vsoch", "description": "A validator for BIDS (Brain Imaging Data Structure) datasets.", "latest": {"v1.9.2": "sha256:0c15cecae3919db5a14d43495cb2f2663b04c7f6cb049b7fdcfec3102284fe36"}, "tags": {"latest": "sha256:942453f15c1638f1ac79ead95a3ec28a57209dd76076dc9336603d009168209d", "v1.7.0": "sha256:51c9481b357448cc2138909e03dfa8e053d424d5e776e94dbec929aeb96f9563", "v1.7.1": "sha256:d07b847f26e77e842abfd5b964f8553eb458ca796f4f0f5d1ca8d9290552ac2c", "v1.7.3-dev.0": "sha256:48d468d43b72ebb67014b33927171742d299c54c3e1c1db263a161b8917ca077", "v1.7.4-dev.0": "sha256:ab01a4d1105dd71d336d045e5787994299d66c927f2a42e231dde510c9c48a9a", "v1.8.1-dev.0": "sha256:8940256846cf4a98645760c6a03e5ee9686bdadfbbabfa8ed5f4a3e47fb0c910", "v1.8.5": "sha256:a2b52f99dd4571079bbe7547acaba3f6689b074de90e25fb85175568d2026705", "v1.8.9": "sha256:ee3d031f5096ace592fedfe87a095b4b634edcc5a8f464783034168257db90c0", "v1.9.2": "sha256:0c15cecae3919db5a14d43495cb2f2663b04c7f6cb049b7fdcfec3102284fe36"}, "filter": ["v*"], "aliases": {"bids-validator": "/usr/local/bin/bids-validator"}}
 ---
 
 This module is a singularity container wrapper for bids/validator.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haproh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haproh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haproh/container.yaml"
-updated_at: "2023-02-25 02:58:42.648744"
-latest: "0.62--py39hbf8eff0_0"
+updated_at: "2023-02-26 03:07:14.396209"
+latest: "0.63--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/haproh"
 aliases:
  - "hapConX"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.60--py39hbf8eff0_0"
  - "0.62--py39hbf8eff0_0"
+ - "0.63--py39hbf8eff0_0"
 description: "shpc-registry automated BioContainers addition for haproh"
-config: {"url": "https://biocontainers.pro/tools/haproh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haproh", "latest": {"0.62--py39hbf8eff0_0": "sha256:8da266faf28ba2281ebbab2ce722f7379aef0f489cd730d9d34f9c9965767779"}, "tags": {"0.60--py39hbf8eff0_0": "sha256:f59dc5082b18cc53e74e0ea15082e33996216861f89596b7ccb2d287bea4bcce", "0.62--py39hbf8eff0_0": "sha256:8da266faf28ba2281ebbab2ce722f7379aef0f489cd730d9d34f9c9965767779"}, "docker": "quay.io/biocontainers/haproh", "aliases": {"hapConX": "/usr/local/bin/hapConX", "hapCon_ROH": "/usr/local/bin/hapCon_ROH", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
+config: {"url": "https://biocontainers.pro/tools/haproh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haproh", "latest": {"0.63--py39hbf8eff0_0": "sha256:9e65f0df58e26e4ac5b20ac864143d83e43d525766a1f79a39b9090fca02d658"}, "tags": {"0.60--py39hbf8eff0_0": "sha256:f59dc5082b18cc53e74e0ea15082e33996216861f89596b7ccb2d287bea4bcce", "0.62--py39hbf8eff0_0": "sha256:8da266faf28ba2281ebbab2ce722f7379aef0f489cd730d9d34f9c9965767779", "0.63--py39hbf8eff0_0": "sha256:9e65f0df58e26e4ac5b20ac864143d83e43d525766a1f79a39b9090fca02d658"}, "docker": "quay.io/biocontainers/haproh", "aliases": {"hapConX": "/usr/local/bin/hapConX", "hapCon_ROH": "/usr/local/bin/hapCon_ROH", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haproh.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/haproh
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haproh:0.62--py39hbf8eff0_0
+$ shpc install quay.io/biocontainers/haproh:0.63--py39hbf8eff0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haproh/0.62--py39hbf8eff0_0
-$ module help quay.io/biocontainers/haproh/0.62--py39hbf8eff0_0
+$ module load quay.io/biocontainers/haproh/0.63--py39hbf8eff0_0
+$ module help quay.io/biocontainers/haproh/0.63--py39hbf8eff0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
