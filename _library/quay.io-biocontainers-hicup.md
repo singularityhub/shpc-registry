@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hicup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicup/container.yaml"
-updated_at: "2023-02-26 03:44:21.277753"
-latest: "0.8.3--hdfd78af_1"
+updated_at: "2023-02-27 03:35:57.082239"
+latest: "0.9.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hicup"
 aliases:
  - "find_common_fragment_interactions.pl"
@@ -37,8 +37,9 @@ aliases:
  - "bowtie-inspect"
 versions:
  - "0.8.3--hdfd78af_1"
+ - "0.9.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for hicup"
-config: {"url": "https://biocontainers.pro/tools/hicup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicup", "latest": {"0.8.3--hdfd78af_1": "sha256:6c69771af7a01e414b71e69776e28ad7e801ecff962974a11106fd708b18012e"}, "tags": {"0.8.3--hdfd78af_1": "sha256:6c69771af7a01e414b71e69776e28ad7e801ecff962974a11106fd708b18012e"}, "docker": "quay.io/biocontainers/hicup", "aliases": {"find_common_fragment_interactions.pl": "/usr/local/bin/find_common_fragment_interactions.pl", "hicup": "/usr/local/bin/hicup", "hicup2fithic": "/usr/local/bin/hicup2fithic", "hicup2gothic": "/usr/local/bin/hicup2gothic", "hicup2hicpipe": "/usr/local/bin/hicup2hicpipe", "hicup2homer": "/usr/local/bin/hicup2homer", "hicup2juicer": "/usr/local/bin/hicup2juicer", "hicup_capture": "/usr/local/bin/hicup_capture", "hicup_checker": "/usr/local/bin/hicup_checker", "hicup_deduplicator": "/usr/local/bin/hicup_deduplicator", "hicup_digester": "/usr/local/bin/hicup_digester", "hicup_filter": "/usr/local/bin/hicup_filter", "hicup_mapper": "/usr/local/bin/hicup_mapper", "hicup_module.pm": "/usr/local/bin/hicup_module.pm", "hicup_reporter": "/usr/local/bin/hicup_reporter", "hicup_truncater": "/usr/local/bin/hicup_truncater", "make_hic_array.pl": "/usr/local/bin/make_hic_array.pl", "pandoc-server": "/usr/local/bin/pandoc-server", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect"}}
+config: {"url": "https://biocontainers.pro/tools/hicup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicup", "latest": {"0.9.2--hdfd78af_1": "sha256:1b32f21ff1e4da217a1ed48495afad26d465301d6714f2fc3bb84648a4fb02bf"}, "tags": {"0.8.3--hdfd78af_1": "sha256:6c69771af7a01e414b71e69776e28ad7e801ecff962974a11106fd708b18012e", "0.9.2--hdfd78af_1": "sha256:1b32f21ff1e4da217a1ed48495afad26d465301d6714f2fc3bb84648a4fb02bf"}, "docker": "quay.io/biocontainers/hicup", "aliases": {"find_common_fragment_interactions.pl": "/usr/local/bin/find_common_fragment_interactions.pl", "hicup": "/usr/local/bin/hicup", "hicup2fithic": "/usr/local/bin/hicup2fithic", "hicup2gothic": "/usr/local/bin/hicup2gothic", "hicup2hicpipe": "/usr/local/bin/hicup2hicpipe", "hicup2homer": "/usr/local/bin/hicup2homer", "hicup2juicer": "/usr/local/bin/hicup2juicer", "hicup_capture": "/usr/local/bin/hicup_capture", "hicup_checker": "/usr/local/bin/hicup_checker", "hicup_deduplicator": "/usr/local/bin/hicup_deduplicator", "hicup_digester": "/usr/local/bin/hicup_digester", "hicup_filter": "/usr/local/bin/hicup_filter", "hicup_mapper": "/usr/local/bin/hicup_mapper", "hicup_module.pm": "/usr/local/bin/hicup_module.pm", "hicup_reporter": "/usr/local/bin/hicup_reporter", "hicup_truncater": "/usr/local/bin/hicup_truncater", "make_hic_array.pl": "/usr/local/bin/make_hic_array.pl", "pandoc-server": "/usr/local/bin/pandoc-server", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicup.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/hicup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hicup:0.8.3--hdfd78af_1
+$ shpc install quay.io/biocontainers/hicup:0.9.2--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hicup/0.8.3--hdfd78af_1
-$ module help quay.io/biocontainers/hicup/0.8.3--hdfd78af_1
+$ module load quay.io/biocontainers/hicup/0.9.2--hdfd78af_1
+$ module help quay.io/biocontainers/hicup/0.9.2--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

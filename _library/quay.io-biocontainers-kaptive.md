@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kaptive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kaptive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kaptive/container.yaml"
-updated_at: "2023-02-26 03:04:04.720335"
-latest: "2.0.4--hdfd78af_0"
+updated_at: "2023-02-27 02:56:45.633992"
+latest: "2.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kaptive"
 aliases:
  - "kaptive.py"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.7.3--py_0"
  - "2.0.4--hdfd78af_0"
+ - "2.0.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for kaptive"
-config: {"url": "https://biocontainers.pro/tools/kaptive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kaptive", "latest": {"2.0.4--hdfd78af_0": "sha256:34472fd1e1e09cf792e740ef6030e22199de022be9de6a750f0643a1ae0c1f1c"}, "tags": {"0.7.3--py_0": "sha256:0341c20825209a66d5897ab27378824d1ad11258e5a982a5216a120604746b62", "2.0.4--hdfd78af_0": "sha256:34472fd1e1e09cf792e740ef6030e22199de022be9de6a750f0643a1ae0c1f1c"}, "docker": "quay.io/biocontainers/kaptive", "aliases": {"kaptive.py": "/usr/local/bin/kaptive.py", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
+config: {"url": "https://biocontainers.pro/tools/kaptive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kaptive", "latest": {"2.0.5--hdfd78af_0": "sha256:8d6254b243a5077d87f7da95d148e42b1eae24671ed96f70100ef9dcdc112c32"}, "tags": {"0.7.3--py_0": "sha256:0341c20825209a66d5897ab27378824d1ad11258e5a982a5216a120604746b62", "2.0.4--hdfd78af_0": "sha256:34472fd1e1e09cf792e740ef6030e22199de022be9de6a750f0643a1ae0c1f1c", "2.0.5--hdfd78af_0": "sha256:8d6254b243a5077d87f7da95d148e42b1eae24671ed96f70100ef9dcdc112c32"}, "docker": "quay.io/biocontainers/kaptive", "aliases": {"kaptive.py": "/usr/local/bin/kaptive.py", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kaptive.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/kaptive
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kaptive:2.0.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/kaptive:2.0.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kaptive/2.0.4--hdfd78af_0
-$ module help quay.io/biocontainers/kaptive/2.0.4--hdfd78af_0
+$ module load quay.io/biocontainers/kaptive/2.0.5--hdfd78af_0
+$ module help quay.io/biocontainers/kaptive/2.0.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

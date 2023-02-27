@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phenstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenstat/container.yaml"
-updated_at: "2023-02-26 03:28:35.372031"
+updated_at: "2023-02-27 03:20:42.175479"
 latest: "2.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenstat"
 

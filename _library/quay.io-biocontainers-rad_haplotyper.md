@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rad_haplotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rad_haplotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rad_haplotyper/container.yaml"
-updated_at: "2023-02-26 03:07:17.878084"
+updated_at: "2023-02-27 02:59:53.302226"
 latest: "1.1.9--pl5321hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/rad_haplotyper"
 aliases:

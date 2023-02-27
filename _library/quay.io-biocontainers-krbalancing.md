@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krbalancing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krbalancing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krbalancing/container.yaml"
-updated_at: "2023-02-26 03:41:23.435028"
+updated_at: "2023-02-27 03:33:05.143765"
 latest: "0.0.5--py38h4a32c8e_4"
 container_url: "https://biocontainers.pro/tools/krbalancing"
 aliases:

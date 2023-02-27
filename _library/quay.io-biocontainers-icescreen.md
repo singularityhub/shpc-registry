@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/icescreen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icescreen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icescreen/container.yaml"
-updated_at: "2023-02-26 03:41:04.699956"
-latest: "1.1.0--py311hdfd78af_0"
+updated_at: "2023-02-27 03:32:47.041254"
+latest: "1.1.1--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/icescreen"
 aliases:
  - "AUTHORS.txt"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.0.4--py310hdfd78af_1"
  - "1.1.0--py311hdfd78af_0"
+ - "1.1.1--py311hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for icescreen"
-config: {"url": "https://biocontainers.pro/tools/icescreen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icescreen", "latest": {"1.1.0--py311hdfd78af_0": "sha256:15fe55a3e509321e3ad4d270ebd7723f7ab5c0cff814cd2550c0581b511f0a54"}, "tags": {"1.0.4--py310hdfd78af_1": "sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd", "1.1.0--py311hdfd78af_0": "sha256:15fe55a3e509321e3ad4d270ebd7723f7ab5c0cff814cd2550c0581b511f0a54"}, "docker": "quay.io/biocontainers/icescreen", "aliases": {"AUTHORS.txt": "/usr/local/bin/AUTHORS.txt", "INSTALL": "/usr/local/bin/INSTALL", "LICENCE.txt": "/usr/local/bin/LICENCE.txt", "LOG_public_releases": "/usr/local/bin/LOG_public_releases", "agpl-3.0.txt": "/usr/local/bin/agpl-3.0.txt", "icescreen": "/usr/local/bin/icescreen", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py"}}
+config: {"url": "https://biocontainers.pro/tools/icescreen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icescreen", "latest": {"1.1.1--py311hdfd78af_0": "sha256:c6ada927efc8a7e6e772f119ba8d7adee8caae0d3346fc1a904713d4be581fc4"}, "tags": {"1.0.4--py310hdfd78af_1": "sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd", "1.1.0--py311hdfd78af_0": "sha256:15fe55a3e509321e3ad4d270ebd7723f7ab5c0cff814cd2550c0581b511f0a54", "1.1.1--py311hdfd78af_0": "sha256:c6ada927efc8a7e6e772f119ba8d7adee8caae0d3346fc1a904713d4be581fc4"}, "docker": "quay.io/biocontainers/icescreen", "aliases": {"AUTHORS.txt": "/usr/local/bin/AUTHORS.txt", "INSTALL": "/usr/local/bin/INSTALL", "LICENCE.txt": "/usr/local/bin/LICENCE.txt", "LOG_public_releases": "/usr/local/bin/LOG_public_releases", "agpl-3.0.txt": "/usr/local/bin/agpl-3.0.txt", "icescreen": "/usr/local/bin/icescreen", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/icescreen.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/icescreen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/icescreen:1.1.0--py311hdfd78af_0
+$ shpc install quay.io/biocontainers/icescreen:1.1.1--py311hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/icescreen/1.1.0--py311hdfd78af_0
-$ module help quay.io/biocontainers/icescreen/1.1.0--py311hdfd78af_0
+$ module load quay.io/biocontainers/icescreen/1.1.1--py311hdfd78af_0
+$ module help quay.io/biocontainers/icescreen/1.1.1--py311hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
