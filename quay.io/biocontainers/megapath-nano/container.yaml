@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/megapath-nano
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for megapath-nano
 latest:
-  1.0--hdfd78af_0: sha256:073498b543e8a6bfd4d4eab2aa08d874610a690baa42d1e304e9795e08235b53
+  2--hee3b9ab_0: sha256:215cb59ded7cc5bd5a9900fd731ec7abf0dd78dbc3483ff84b578d35c1728500
 tags:
   1.0--hdfd78af_0: sha256:073498b543e8a6bfd4d4eab2aa08d874610a690baa42d1e304e9795e08235b53
+  2--hee3b9ab_0: sha256:215cb59ded7cc5bd5a9900fd731ec7abf0dd78dbc3483ff84b578d35c1728500
 docker: quay.io/biocontainers/megapath-nano
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
