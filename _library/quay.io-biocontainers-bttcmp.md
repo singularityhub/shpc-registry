@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bttcmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bttcmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bttcmp/container.yaml"
-updated_at: "2023-02-27 03:27:26.718523"
+updated_at: "2023-02-28 03:25:48.347248"
 latest: "1.0.3--0"
 container_url: "https://biocontainers.pro/tools/bttcmp"
 aliases:

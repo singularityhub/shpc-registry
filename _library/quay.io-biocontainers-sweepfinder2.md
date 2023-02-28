@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sweepfinder2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sweepfinder2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sweepfinder2/container.yaml"
-updated_at: "2023-02-27 03:13:59.087047"
+updated_at: "2023-02-28 03:12:31.224661"
 latest: "1.0--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/sweepfinder2"
 aliases:

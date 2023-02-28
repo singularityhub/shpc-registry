@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autogrid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autogrid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autogrid/container.yaml"
-updated_at: "2023-02-27 02:59:31.568568"
+updated_at: "2023-02-28 02:58:10.996378"
 latest: "4.2.6--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/autogrid"
 aliases:

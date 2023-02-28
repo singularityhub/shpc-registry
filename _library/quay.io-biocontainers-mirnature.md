@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirnature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirnature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirnature/container.yaml"
-updated_at: "2023-02-27 03:31:37.889222"
+updated_at: "2023-02-28 03:29:58.265973"
 latest: "1.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/mirnature"
 aliases:

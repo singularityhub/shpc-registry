@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/combined-pvalues"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/combined-pvalues/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/combined-pvalues/container.yaml"
-updated_at: "2023-02-27 03:17:27.297871"
+updated_at: "2023-02-28 03:15:57.257328"
 latest: "0.50.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/combined-pvalues"
 aliases:

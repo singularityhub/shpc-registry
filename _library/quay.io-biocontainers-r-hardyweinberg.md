@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hardyweinberg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hardyweinberg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hardyweinberg/container.yaml"
-updated_at: "2023-02-27 03:00:09.875657"
+updated_at: "2023-02-28 02:58:49.022930"
 latest: "1.6.3--r36h0357c0b_1"
 container_url: "https://biocontainers.pro/tools/r-hardyweinberg"
 aliases:

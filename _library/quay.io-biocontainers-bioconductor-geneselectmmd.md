@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneselectmmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneselectmmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneselectmmd/container.yaml"
-updated_at: "2023-02-27 03:31:35.169043"
+updated_at: "2023-02-28 03:29:55.506189"
 latest: "2.42.0--r42hefde4a7_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneselectmmd"
 

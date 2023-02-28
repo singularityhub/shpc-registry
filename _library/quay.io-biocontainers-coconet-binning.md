@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coconet-binning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coconet-binning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coconet-binning/container.yaml"
-updated_at: "2023-02-27 03:31:43.952910"
+updated_at: "2023-02-28 03:30:04.423153"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/coconet-binning"
 aliases:

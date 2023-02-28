@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virsorter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virsorter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virsorter/container.yaml"
-updated_at: "2023-02-27 03:26:04.437518"
+updated_at: "2023-02-28 03:24:27.576274"
 latest: "2.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virsorter"
 aliases:

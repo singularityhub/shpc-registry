@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haploconduct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploconduct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploconduct/container.yaml"
-updated_at: "2023-02-27 02:58:09.980359"
+updated_at: "2023-02-28 02:56:49.477096"
 latest: "0.2.1--py27h16ec135_3"
 container_url: "https://biocontainers.pro/tools/haploconduct"
 aliases:

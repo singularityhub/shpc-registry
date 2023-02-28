@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deeplc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeplc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeplc/container.yaml"
-updated_at: "2023-02-27 03:38:23.487005"
+updated_at: "2023-02-28 03:36:42.716316"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeplc"
 aliases:

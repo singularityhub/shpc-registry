@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eigenstratdatabasetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eigenstratdatabasetools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eigenstratdatabasetools/container.yaml"
-updated_at: "2023-02-27 03:34:13.532170"
+updated_at: "2023-02-28 03:32:34.825341"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eigenstratdatabasetools"
 aliases:

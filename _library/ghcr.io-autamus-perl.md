@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/perl/container.yaml"
-updated_at: "2023-02-27 02:51:50.713519"
+updated_at: "2023-02-28 02:50:30.162933"
 latest: "5.36.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/perl"
 aliases:

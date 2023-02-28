@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribominer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribominer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribominer/container.yaml"
-updated_at: "2023-02-27 02:53:20.434615"
+updated_at: "2023-02-28 02:52:00.095691"
 latest: "0.2.3.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ribominer"
 aliases:

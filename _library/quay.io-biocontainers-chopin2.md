@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chopin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chopin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chopin2/container.yaml"
-updated_at: "2023-02-27 03:08:57.992867"
+updated_at: "2023-02-28 03:07:31.394674"
 latest: "1.0.7"
 container_url: "https://biocontainers.pro/tools/chopin2"
 aliases:

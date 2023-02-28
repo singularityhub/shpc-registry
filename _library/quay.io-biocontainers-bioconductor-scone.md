@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scone/container.yaml"
-updated_at: "2023-02-27 02:53:23.482557"
+updated_at: "2023-02-28 02:52:03.140617"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scone"
 aliases:
