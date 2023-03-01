@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fasta_ushuffle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasta_ushuffle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasta_ushuffle/container.yaml"
-updated_at: "2023-02-28 03:32:36.328350"
+updated_at: "2023-03-01 03:57:40.916440"
 latest: "0.2--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/fasta_ushuffle"
 aliases:

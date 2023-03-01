@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-carp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-carp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-carp/container.yaml"
-updated_at: "2023-02-28 02:59:28.587654"
+updated_at: "2023-03-01 03:13:55.943536"
 latest: "1.38--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-carp"
 

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gromacs/container.yaml"
-updated_at: "2023-02-28 02:50:47.180246"
+updated_at: "2023-03-01 03:02:27.506827"
 latest: "2022.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gromacs"
 

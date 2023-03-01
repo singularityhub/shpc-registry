@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/abyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/abyss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/abyss/container.yaml"
-updated_at: "2023-02-28 02:50:25.295981"
+updated_at: "2023-03-01 03:01:58.559101"
 latest: "2.3.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/abyss"
 aliases:
