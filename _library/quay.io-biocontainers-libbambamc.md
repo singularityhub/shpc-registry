@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libbambamc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libbambamc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libbambamc/container.yaml"
-updated_at: "2023-03-01 03:34:03.309332"
+updated_at: "2023-03-02 03:19:53.123056"
 latest: "0.0.50--h7132678_3"
 container_url: "https://biocontainers.pro/tools/libbambamc"
 

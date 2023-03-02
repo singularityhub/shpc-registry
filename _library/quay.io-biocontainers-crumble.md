@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crumble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crumble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crumble/container.yaml"
-updated_at: "2023-03-01 03:06:27.088738"
+updated_at: "2023-03-02 02:59:10.445719"
 latest: "0.9.0--hb0d9459_1"
 container_url: "https://biocontainers.pro/tools/crumble"
 aliases:
