@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/parent-map
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for parent-map
 latest:
-  1.1.2--py_0: sha256:2879f44f51fac2ad7d88c393bb8be879e14ad9611af8da8c736605c96006de84
+  1.1.2--pyhdfd78af_3: sha256:791a26019648b9bceba5c5f0dfa3de0ab7f0a69cce46f0e41bedbd40b0a7ddcf
 tags:
   1.1.2--py_0: sha256:2879f44f51fac2ad7d88c393bb8be879e14ad9611af8da8c736605c96006de84
+  1.1.2--pyhdfd78af_3: sha256:791a26019648b9bceba5c5f0dfa3de0ab7f0a69cce46f0e41bedbd40b0a7ddcf
 docker: quay.io/biocontainers/parent-map
 aliases:
   helpviewer: /usr/local/bin/helpviewer

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nanospring
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanospring
 latest:
-  0.1--h5b5514e_1: sha256:be76695277722cc0541b08f714b2c753e50c6c362cc65bdbd26f53fe38f07104
+  0.2--h5b5514e_0: sha256:eec0fc7ad6a4dd7febd5a683dae5930db38988baef1644ff81b36bcb675882d1
 tags:
   0.1--h5b5514e_1: sha256:be76695277722cc0541b08f714b2c753e50c6c362cc65bdbd26f53fe38f07104
+  0.2--h5b5514e_0: sha256:eec0fc7ad6a4dd7febd5a683dae5930db38988baef1644ff81b36bcb675882d1
 docker: quay.io/biocontainers/nanospring
 aliases:
   NanoSpring: /usr/local/bin/NanoSpring

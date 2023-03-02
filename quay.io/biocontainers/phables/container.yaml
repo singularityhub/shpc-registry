@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phables
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phables
 latest:
-  0.1.1--pyh7cba7a3_0: sha256:c30018443a584035d223038712cd15f39f5205f5d3c85f8636af34eb12b18aba
+  0.2.0--pyh7cba7a3_0: sha256:f797103ba061e07a716e5821a775995d7546bb277977c3b441243b48648bd43c
 tags:
   0.1.1--pyh7cba7a3_0: sha256:c30018443a584035d223038712cd15f39f5205f5d3c85f8636af34eb12b18aba
+  0.2.0--pyh7cba7a3_0: sha256:f797103ba061e07a716e5821a775995d7546bb277977c3b441243b48648bd43c
 docker: quay.io/biocontainers/phables
 aliases:
   bsdcat: /usr/local/bin/bsdcat
