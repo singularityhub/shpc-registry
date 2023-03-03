@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mvicuna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mvicuna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mvicuna/container.yaml"
-updated_at: "2023-03-02 03:35:33.530550"
+updated_at: "2023-03-03 04:52:48.665790"
 latest: "1.0--h9f5acd7_8"
 container_url: "https://biocontainers.pro/tools/mvicuna"
 aliases:

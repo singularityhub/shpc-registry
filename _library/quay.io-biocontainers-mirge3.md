@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mirge3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirge3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirge3/container.yaml"
-updated_at: "2023-03-02 03:20:58.939435"
-latest: "0.1.2--pyh7cba7a3_0"
+updated_at: "2023-03-03 04:38:29.521956"
+latest: "0.1.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/mirge3"
 aliases:
  - "miRge3.0"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.1.1--pyh7cba7a3_0"
  - "0.1.2--pyh7cba7a3_0"
+ - "0.1.4--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for mirge3"
-config: {"url": "https://biocontainers.pro/tools/mirge3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirge3", "latest": {"0.1.2--pyh7cba7a3_0": "sha256:ce4d7749521ddb5e67814144b40c9978d23b9256f455e1025332f8c51f2ca209"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:d67c441abb353724e1496973852b3ab0b52e1965cd1067d8ee60b634b70c53e4", "0.1.2--pyh7cba7a3_0": "sha256:ce4d7749521ddb5e67814144b40c9978d23b9256f455e1025332f8c51f2ca209"}, "docker": "quay.io/biocontainers/mirge3", "aliases": {"miRge3.0": "/usr/local/bin/miRge3.0", "RNAdos": "/usr/local/bin/RNAdos", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "cutadapt": "/usr/local/bin/cutadapt", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker"}}
+config: {"url": "https://biocontainers.pro/tools/mirge3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirge3", "latest": {"0.1.4--pyh7cba7a3_0": "sha256:0d4e8aabad71ba31a0b864c4bc13406df03d7e2175521c697f68bd08605ff80e"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:d67c441abb353724e1496973852b3ab0b52e1965cd1067d8ee60b634b70c53e4", "0.1.2--pyh7cba7a3_0": "sha256:ce4d7749521ddb5e67814144b40c9978d23b9256f455e1025332f8c51f2ca209", "0.1.4--pyh7cba7a3_0": "sha256:0d4e8aabad71ba31a0b864c4bc13406df03d7e2175521c697f68bd08605ff80e"}, "docker": "quay.io/biocontainers/mirge3", "aliases": {"miRge3.0": "/usr/local/bin/miRge3.0", "RNAdos": "/usr/local/bin/RNAdos", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "cutadapt": "/usr/local/bin/cutadapt", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mirge3.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/mirge3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mirge3:0.1.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/mirge3:0.1.4--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mirge3/0.1.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/mirge3/0.1.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/mirge3/0.1.4--pyh7cba7a3_0
+$ module help quay.io/biocontainers/mirge3/0.1.4--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmnrandomread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmnrandomread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmnrandomread/container.yaml"
-updated_at: "2023-03-02 03:26:28.708921"
-latest: "0.9.1--h28e74a2_0"
+updated_at: "2023-03-03 04:43:54.771131"
+latest: "0.10.0--h28e74a2_0"
 container_url: "https://biocontainers.pro/tools/hmnrandomread"
 aliases:
  - "HmnRandomRead"
@@ -22,8 +22,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.9.1--h28e74a2_0"
+ - "0.10.0--h28e74a2_0"
 description: "singularity registry hpc automated addition for hmnrandomread"
-config: {"url": "https://biocontainers.pro/tools/hmnrandomread", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmnrandomread", "latest": {"0.9.1--h28e74a2_0": "sha256:17c3848bdb132fa823c0d436b131e822e31f7eb0e85a0ac8cdf14edb9ffd363f"}, "tags": {"0.9.1--h28e74a2_0": "sha256:17c3848bdb132fa823c0d436b131e822e31f7eb0e85a0ac8cdf14edb9ffd363f"}, "docker": "quay.io/biocontainers/hmnrandomread", "aliases": {"HmnRandomRead": "/usr/local/bin/HmnRandomRead", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/hmnrandomread", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmnrandomread", "latest": {"0.10.0--h28e74a2_0": "sha256:59645084a3da3cf5927805e781f2a245fa477bd3da57abb84e0521ed439029f3"}, "tags": {"0.9.1--h28e74a2_0": "sha256:17c3848bdb132fa823c0d436b131e822e31f7eb0e85a0ac8cdf14edb9ffd363f", "0.10.0--h28e74a2_0": "sha256:59645084a3da3cf5927805e781f2a245fa477bd3da57abb84e0521ed439029f3"}, "docker": "quay.io/biocontainers/hmnrandomread", "aliases": {"HmnRandomRead": "/usr/local/bin/HmnRandomRead", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmnrandomread.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/hmnrandomread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmnrandomread:0.9.1--h28e74a2_0
+$ shpc install quay.io/biocontainers/hmnrandomread:0.10.0--h28e74a2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmnrandomread/0.9.1--h28e74a2_0
-$ module help quay.io/biocontainers/hmnrandomread/0.9.1--h28e74a2_0
+$ module load quay.io/biocontainers/hmnrandomread/0.10.0--h28e74a2_0
+$ module help quay.io/biocontainers/hmnrandomread/0.10.0--h28e74a2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

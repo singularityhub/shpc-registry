@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sgcocaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sgcocaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sgcocaller/container.yaml"
-updated_at: "2023-03-02 03:29:19.576479"
+updated_at: "2023-03-03 04:46:43.832097"
 latest: "0.3.9--h0ffbbc5_1"
 container_url: "https://biocontainers.pro/tools/sgcocaller"
 aliases:

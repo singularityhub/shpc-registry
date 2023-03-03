@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-icluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-icluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-icluster/container.yaml"
-updated_at: "2023-03-02 03:27:01.985608"
+updated_at: "2023-03-03 04:44:27.422278"
 latest: "2.1.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-icluster"
 aliases:

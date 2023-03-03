@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/nanospring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanospring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanospring/container.yaml"
-updated_at: "2023-03-02 03:26:46.441950"
-latest: "0.1--h5b5514e_1"
+updated_at: "2023-03-03 04:44:12.155174"
+latest: "0.2--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/nanospring"
 aliases:
  - "NanoSpring"
 versions:
  - "0.1--h5b5514e_1"
+ - "0.2--h5b5514e_0"
 description: "shpc-registry automated BioContainers addition for nanospring"
-config: {"url": "https://biocontainers.pro/tools/nanospring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanospring", "latest": {"0.1--h5b5514e_1": "sha256:be76695277722cc0541b08f714b2c753e50c6c362cc65bdbd26f53fe38f07104"}, "tags": {"0.1--h5b5514e_1": "sha256:be76695277722cc0541b08f714b2c753e50c6c362cc65bdbd26f53fe38f07104"}, "docker": "quay.io/biocontainers/nanospring", "aliases": {"NanoSpring": "/usr/local/bin/NanoSpring"}}
+config: {"url": "https://biocontainers.pro/tools/nanospring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanospring", "latest": {"0.2--h5b5514e_0": "sha256:eec0fc7ad6a4dd7febd5a683dae5930db38988baef1644ff81b36bcb675882d1"}, "tags": {"0.1--h5b5514e_1": "sha256:be76695277722cc0541b08f714b2c753e50c6c362cc65bdbd26f53fe38f07104", "0.2--h5b5514e_0": "sha256:eec0fc7ad6a4dd7febd5a683dae5930db38988baef1644ff81b36bcb675882d1"}, "docker": "quay.io/biocontainers/nanospring", "aliases": {"NanoSpring": "/usr/local/bin/NanoSpring"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanospring.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/nanospring
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanospring:0.1--h5b5514e_1
+$ shpc install quay.io/biocontainers/nanospring:0.2--h5b5514e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanospring/0.1--h5b5514e_1
-$ module help quay.io/biocontainers/nanospring/0.1--h5b5514e_1
+$ module load quay.io/biocontainers/nanospring/0.2--h5b5514e_0
+$ module help quay.io/biocontainers/nanospring/0.2--h5b5514e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

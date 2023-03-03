@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/parent-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parent-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parent-map/container.yaml"
-updated_at: "2023-03-02 03:09:56.221994"
-latest: "1.1.2--py_0"
+updated_at: "2023-03-03 04:27:37.895852"
+latest: "1.1.2--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/parent-map"
 aliases:
  - "helpviewer"
@@ -35,8 +35,9 @@ aliases:
  - "gdk-pixbuf-thumbnailer"
 versions:
  - "1.1.2--py_0"
+ - "1.1.2--pyhdfd78af_3"
 description: "shpc-registry automated BioContainers addition for parent-map"
-config: {"url": "https://biocontainers.pro/tools/parent-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parent-map", "latest": {"1.1.2--py_0": "sha256:2879f44f51fac2ad7d88c393bb8be879e14ad9611af8da8c736605c96006de84"}, "tags": {"1.1.2--py_0": "sha256:2879f44f51fac2ad7d88c393bb8be879e14ad9611af8da8c736605c96006de84"}, "docker": "quay.io/biocontainers/parent-map", "aliases": {"helpviewer": "/usr/local/bin/helpviewer", "img2png": "/usr/local/bin/img2png", "img2py": "/usr/local/bin/img2py", "img2xpm": "/usr/local/bin/img2xpm", "pycrust": "/usr/local/bin/pycrust", "pyshell": "/usr/local/bin/pyshell", "pyslices": "/usr/local/bin/pyslices", "pyslicesshell": "/usr/local/bin/pyslicesshell", "pywxrc": "/usr/local/bin/pywxrc", "wx-config": "/usr/local/bin/wx-config", "wxdemo": "/usr/local/bin/wxdemo", "wxdocs": "/usr/local/bin/wxdocs", "wxget": "/usr/local/bin/wxget", "wxrc": "/usr/local/bin/wxrc", "wxrc-3.0": "/usr/local/bin/wxrc-3.0", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer"}}
+config: {"url": "https://biocontainers.pro/tools/parent-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parent-map", "latest": {"1.1.2--pyhdfd78af_3": "sha256:791a26019648b9bceba5c5f0dfa3de0ab7f0a69cce46f0e41bedbd40b0a7ddcf"}, "tags": {"1.1.2--py_0": "sha256:2879f44f51fac2ad7d88c393bb8be879e14ad9611af8da8c736605c96006de84", "1.1.2--pyhdfd78af_3": "sha256:791a26019648b9bceba5c5f0dfa3de0ab7f0a69cce46f0e41bedbd40b0a7ddcf"}, "docker": "quay.io/biocontainers/parent-map", "aliases": {"helpviewer": "/usr/local/bin/helpviewer", "img2png": "/usr/local/bin/img2png", "img2py": "/usr/local/bin/img2py", "img2xpm": "/usr/local/bin/img2xpm", "pycrust": "/usr/local/bin/pycrust", "pyshell": "/usr/local/bin/pyshell", "pyslices": "/usr/local/bin/pyslices", "pyslicesshell": "/usr/local/bin/pyslicesshell", "pywxrc": "/usr/local/bin/pywxrc", "wx-config": "/usr/local/bin/wx-config", "wxdemo": "/usr/local/bin/wxdemo", "wxdocs": "/usr/local/bin/wxdocs", "wxget": "/usr/local/bin/wxget", "wxrc": "/usr/local/bin/wxrc", "wxrc-3.0": "/usr/local/bin/wxrc-3.0", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parent-map.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/parent-map
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parent-map:1.1.2--py_0
+$ shpc install quay.io/biocontainers/parent-map:1.1.2--pyhdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parent-map/1.1.2--py_0
-$ module help quay.io/biocontainers/parent-map/1.1.2--py_0
+$ module load quay.io/biocontainers/parent-map/1.1.2--pyhdfd78af_3
+$ module help quay.io/biocontainers/parent-map/1.1.2--pyhdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-atsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atsnp/container.yaml"
-updated_at: "2023-03-02 03:16:38.918861"
+updated_at: "2023-03-03 04:34:13.167991"
 latest: "1.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atsnp"
 aliases:
