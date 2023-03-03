@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/npstructures
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for npstructures
 latest:
-  0.2.9--pyha8f3691_0: sha256:e7f9bf8c7f69af6f8f0af5960cfae067933b4f076a9204b850c3ecfe28425667
+  0.2.10--pyha8f3691_0: sha256:627bc3888fe7749d9eed0b4b9bf3f3a3d025985e28e0b20c871b86c7cddf7fd4
 tags:
   0.2.9--pyha8f3691_0: sha256:e7f9bf8c7f69af6f8f0af5960cfae067933b4f076a9204b850c3ecfe28425667
+  0.2.10--pyha8f3691_0: sha256:627bc3888fe7749d9eed0b4b9bf3f3a3d025985e28e0b20c871b86c7cddf7fd4
 docker: quay.io/biocontainers/npstructures
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
