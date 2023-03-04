@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/howdesbt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for howdesbt
 latest:
-  2.00.07--h9f5acd7_0: sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d
+  2.00.10--h9f5acd7_0: sha256:605d4b3eb0ad1a35393757afab0d2014d0342e8cdefac3c39197602e28e4fdc1
 tags:
   2.00.07--h9f5acd7_0: sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d
+  2.00.10--h9f5acd7_0: sha256:605d4b3eb0ad1a35393757afab0d2014d0342e8cdefac3c39197602e28e4fdc1
 docker: quay.io/biocontainers/howdesbt
 aliases:
   howdesbt: /usr/local/bin/howdesbt
