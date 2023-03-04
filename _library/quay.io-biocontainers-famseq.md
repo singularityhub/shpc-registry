@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/famseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/famseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/famseq/container.yaml"
-updated_at: "2023-03-03 04:45:35.964984"
+updated_at: "2023-03-04 03:19:26.199577"
 latest: "1.0.3--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/famseq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyml/container.yaml"
-updated_at: "2023-03-03 04:26:53.704935"
+updated_at: "2023-03-04 03:00:16.389388"
 latest: "3.3.20211231--hee9e358_0"
 container_url: "https://biocontainers.pro/tools/phyml"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/foldseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldseek/container.yaml"
-updated_at: "2023-03-03 04:36:31.985900"
-latest: "4.645b789--pl5321hf1761c0_0"
+updated_at: "2023-03-04 03:10:11.847357"
+latest: "5.53465f0--pl5321hf1761c0_0"
 container_url: "https://biocontainers.pro/tools/foldseek"
 aliases:
  - "aria2c"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "3.915ef7d--pl5321hf1761c0_1"
  - "4.645b789--pl5321hf1761c0_0"
+ - "5.53465f0--pl5321hf1761c0_0"
 description: "shpc-registry automated BioContainers addition for foldseek"
-config: {"url": "https://biocontainers.pro/tools/foldseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for foldseek", "latest": {"4.645b789--pl5321hf1761c0_0": "sha256:623c1a171af801691fb80b37ad1f1e6c3adc68df24dc18428bf5b5247879eee9"}, "tags": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8", "4.645b789--pl5321hf1761c0_0": "sha256:623c1a171af801691fb80b37ad1f1e6c3adc68df24dc18428bf5b5247879eee9"}, "docker": "quay.io/biocontainers/foldseek", "aliases": {"aria2c": "/usr/local/bin/aria2c", "foldseek": "/usr/local/bin/foldseek", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/foldseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for foldseek", "latest": {"5.53465f0--pl5321hf1761c0_0": "sha256:176ee099aff34fdb1f333e74ef0ab5a50381a6e987f9018d0a81396d891651ad"}, "tags": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8", "4.645b789--pl5321hf1761c0_0": "sha256:623c1a171af801691fb80b37ad1f1e6c3adc68df24dc18428bf5b5247879eee9", "5.53465f0--pl5321hf1761c0_0": "sha256:176ee099aff34fdb1f333e74ef0ab5a50381a6e987f9018d0a81396d891651ad"}, "docker": "quay.io/biocontainers/foldseek", "aliases": {"aria2c": "/usr/local/bin/aria2c", "foldseek": "/usr/local/bin/foldseek", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/foldseek.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/foldseek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/foldseek:4.645b789--pl5321hf1761c0_0
+$ shpc install quay.io/biocontainers/foldseek:5.53465f0--pl5321hf1761c0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/foldseek/4.645b789--pl5321hf1761c0_0
-$ module help quay.io/biocontainers/foldseek/4.645b789--pl5321hf1761c0_0
+$ module load quay.io/biocontainers/foldseek/5.53465f0--pl5321hf1761c0_0
+$ module help quay.io/biocontainers/foldseek/5.53465f0--pl5321hf1761c0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

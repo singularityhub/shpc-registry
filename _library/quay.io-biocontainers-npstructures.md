@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/npstructures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/npstructures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/npstructures/container.yaml"
-updated_at: "2023-03-03 04:50:32.117238"
-latest: "0.2.9--pyha8f3691_0"
+updated_at: "2023-03-04 03:24:29.371037"
+latest: "0.2.10--pyha8f3691_0"
 container_url: "https://biocontainers.pro/tools/npstructures"
 aliases:
  - "f2py3.11"
@@ -17,8 +17,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.2.9--pyha8f3691_0"
+ - "0.2.10--pyha8f3691_0"
 description: "singularity registry hpc automated addition for npstructures"
-config: {"url": "https://biocontainers.pro/tools/npstructures", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for npstructures", "latest": {"0.2.9--pyha8f3691_0": "sha256:e7f9bf8c7f69af6f8f0af5960cfae067933b4f076a9204b850c3ecfe28425667"}, "tags": {"0.2.9--pyha8f3691_0": "sha256:e7f9bf8c7f69af6f8f0af5960cfae067933b4f076a9204b850c3ecfe28425667"}, "docker": "quay.io/biocontainers/npstructures", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/npstructures", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for npstructures", "latest": {"0.2.10--pyha8f3691_0": "sha256:627bc3888fe7749d9eed0b4b9bf3f3a3d025985e28e0b20c871b86c7cddf7fd4"}, "tags": {"0.2.9--pyha8f3691_0": "sha256:e7f9bf8c7f69af6f8f0af5960cfae067933b4f076a9204b850c3ecfe28425667", "0.2.10--pyha8f3691_0": "sha256:627bc3888fe7749d9eed0b4b9bf3f3a3d025985e28e0b20c871b86c7cddf7fd4"}, "docker": "quay.io/biocontainers/npstructures", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/npstructures.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/npstructures
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/npstructures:0.2.9--pyha8f3691_0
+$ shpc install quay.io/biocontainers/npstructures:0.2.10--pyha8f3691_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/npstructures/0.2.9--pyha8f3691_0
-$ module help quay.io/biocontainers/npstructures/0.2.9--pyha8f3691_0
+$ module load quay.io/biocontainers/npstructures/0.2.10--pyha8f3691_0
+$ module help quay.io/biocontainers/npstructures/0.2.10--pyha8f3691_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

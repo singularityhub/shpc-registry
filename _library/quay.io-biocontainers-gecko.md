@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gecko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gecko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gecko/container.yaml"
-updated_at: "2023-03-03 04:33:26.347908"
+updated_at: "2023-03-04 03:07:01.172384"
 latest: "1.2--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/gecko"
 aliases:
