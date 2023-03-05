@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctseq/container.yaml"
-updated_at: "2023-03-04 03:27:29.365555"
+updated_at: "2023-03-05 03:42:43.507689"
 latest: "0.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/ctseq"
 aliases:

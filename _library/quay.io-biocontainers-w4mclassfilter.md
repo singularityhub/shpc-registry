@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/w4mclassfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/w4mclassfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/w4mclassfilter/container.yaml"
-updated_at: "2023-03-04 03:16:57.645410"
+updated_at: "2023-03-05 03:32:09.964550"
 latest: "0.98.19--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/w4mclassfilter"
 

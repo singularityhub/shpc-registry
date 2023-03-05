@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bayescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayescan/container.yaml"
-updated_at: "2023-03-04 03:05:04.058942"
+updated_at: "2023-03-05 03:20:10.987190"
 latest: "2.0.1--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/bayescan"
 aliases:

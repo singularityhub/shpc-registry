@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-writexls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-writexls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-writexls/container.yaml"
-updated_at: "2023-03-04 03:15:02.774417"
+updated_at: "2023-03-05 03:30:14.685054"
 latest: "4.0.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-writexls"
 aliases:

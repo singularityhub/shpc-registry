@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maxbin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxbin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxbin2/container.yaml"
-updated_at: "2023-03-04 03:11:52.668115"
+updated_at: "2023-03-05 03:27:03.700847"
 latest: "2.2.7--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/maxbin2"
 aliases:

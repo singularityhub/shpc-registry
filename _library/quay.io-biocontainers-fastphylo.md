@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastphylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastphylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastphylo/container.yaml"
-updated_at: "2023-03-04 03:24:25.996746"
+updated_at: "2023-03-05 03:39:39.395461"
 latest: "1.0.3--h648b6df_5"
 container_url: "https://biocontainers.pro/tools/fastphylo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grabix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grabix/container.yaml"
-updated_at: "2023-03-04 03:12:14.621719"
+updated_at: "2023-03-05 03:27:25.650444"
 latest: "0.1.8--hd03093a_7"
 container_url: "https://biocontainers.pro/tools/grabix"
 aliases:

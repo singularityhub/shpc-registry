@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cgatcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgatcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgatcore/container.yaml"
-updated_at: "2023-03-04 03:03:14.999655"
-latest: "0.6.14--pyhdfd78af_0"
+updated_at: "2023-03-05 03:18:20.594313"
+latest: "0.6.15--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cgatcore"
 aliases:
  - "bq"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "0.6.9--pyhdfd78af_0"
  - "0.6.14--pyhdfd78af_0"
+ - "0.6.15--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cgatcore"
-config: {"url": "https://biocontainers.pro/tools/cgatcore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgatcore", "latest": {"0.6.14--pyhdfd78af_0": "sha256:4198d405701371b67dfcdf43091c1d7ca88ac2fe68bd64823930496a116369bc"}, "tags": {"0.6.9--pyhdfd78af_0": "sha256:baa5e4618d6c36e5a7764593addd1c5fc1aca45e8537f4dae7b67430492aafb4", "0.6.14--pyhdfd78af_0": "sha256:4198d405701371b67dfcdf43091c1d7ca88ac2fe68bd64823930496a116369bc"}, "docker": "quay.io/biocontainers/cgatcore", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "gcloud": "/usr/local/bin/gcloud", "time": "/usr/local/bin/time", "gsutil": "/usr/local/bin/gsutil", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
+config: {"url": "https://biocontainers.pro/tools/cgatcore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgatcore", "latest": {"0.6.15--pyhdfd78af_0": "sha256:919ea5f0ee4efaca6a8786c768f01f2aec2dadd44323a24eb3eb3c108dab68cc"}, "tags": {"0.6.9--pyhdfd78af_0": "sha256:baa5e4618d6c36e5a7764593addd1c5fc1aca45e8537f4dae7b67430492aafb4", "0.6.14--pyhdfd78af_0": "sha256:4198d405701371b67dfcdf43091c1d7ca88ac2fe68bd64823930496a116369bc", "0.6.15--pyhdfd78af_0": "sha256:919ea5f0ee4efaca6a8786c768f01f2aec2dadd44323a24eb3eb3c108dab68cc"}, "docker": "quay.io/biocontainers/cgatcore", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "gcloud": "/usr/local/bin/gcloud", "time": "/usr/local/bin/time", "gsutil": "/usr/local/bin/gsutil", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgatcore.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/cgatcore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgatcore:0.6.14--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cgatcore:0.6.15--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgatcore/0.6.14--pyhdfd78af_0
-$ module help quay.io/biocontainers/cgatcore/0.6.14--pyhdfd78af_0
+$ module load quay.io/biocontainers/cgatcore/0.6.15--pyhdfd78af_0
+$ module help quay.io/biocontainers/cgatcore/0.6.15--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

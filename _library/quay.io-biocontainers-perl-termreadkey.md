@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-termreadkey"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-termreadkey/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-termreadkey/container.yaml"
-updated_at: "2023-03-04 02:53:17.713023"
+updated_at: "2023-03-05 03:08:20.398628"
 latest: "2.38--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-termreadkey"
 aliases:

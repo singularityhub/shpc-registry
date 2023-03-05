@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-huexexonprobesetlocation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huexexonprobesetlocation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huexexonprobesetlocation/container.yaml"
-updated_at: "2023-03-04 03:25:43.048343"
+updated_at: "2023-03-05 03:40:56.108200"
 latest: "1.15.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-huexexonprobesetlocation"
 

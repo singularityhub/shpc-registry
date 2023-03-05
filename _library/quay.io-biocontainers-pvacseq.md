@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pvacseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pvacseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pvacseq/container.yaml"
-updated_at: "2023-03-04 02:50:48.874152"
+updated_at: "2023-03-05 03:05:52.702817"
 latest: "4.0.10--py_3"
 container_url: "https://biocontainers.pro/tools/pvacseq"
 aliases:

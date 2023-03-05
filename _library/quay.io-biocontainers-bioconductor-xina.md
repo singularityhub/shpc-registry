@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xina/container.yaml"
-updated_at: "2023-03-04 02:52:01.794093"
+updated_at: "2023-03-05 03:07:04.925277"
 latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xina"
 aliases:
