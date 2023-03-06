@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/massiveqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for massiveqc
 latest:
-  0.0.7--pyh086e186_0: sha256:264a7c37aca5856a3316c77bcbe099e5e1eeb0368fd17345380437578f6f2874
+  0.1.1--pyh086e186_0: sha256:eddb538d94208ea9d8f9c6c26a0e38cff8c7ab966d4e3b2f8ae0107422e9109c
 tags:
   0.0.7--pyh086e186_0: sha256:264a7c37aca5856a3316c77bcbe099e5e1eeb0368fd17345380437578f6f2874
+  0.1.1--pyh086e186_0: sha256:eddb538d94208ea9d8f9c6c26a0e38cff8c7ab966d4e3b2f8ae0107422e9109c
 docker: quay.io/biocontainers/massiveqc
 aliases:
   IsoDetect: /usr/local/bin/IsoDetect

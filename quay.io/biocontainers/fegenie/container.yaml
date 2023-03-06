@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fegenie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fegenie
 latest:
-  1.2--py310r40hdfd78af_1: sha256:17eb874ab13962a0dc74b77e19803744772ef64791d2d6a3926c2843bab1c002
+  1.2--py311r40hdfd78af_2: sha256:7da1b107bb1b1cfe4c59cac2550827f8f6c24efa092098c6d7811631c7df224c
 tags:
   1.2--py310r40hdfd78af_1: sha256:17eb874ab13962a0dc74b77e19803744772ef64791d2d6a3926c2843bab1c002
+  1.2--py311r40hdfd78af_2: sha256:7da1b107bb1b1cfe4c59cac2550827f8f6c24efa092098c6d7811631c7df224c
 docker: quay.io/biocontainers/fegenie
 aliases:
   FeGenie.py: /usr/local/bin/FeGenie.py

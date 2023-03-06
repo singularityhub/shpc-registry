@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/abnumber
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abnumber
 latest:
-  0.3.0--pyhdfd78af_0: sha256:9a9e2a93a22dfd2c4f6a815afc7d7393cf892cfd056782fe37137d7908fee224
+  0.3.2--pyhdfd78af_0: sha256:26da1eed3725b901302f3a40399acd444453991165ee35d22af9c5bcd971b8ff
 tags:
   0.3.0--pyhdfd78af_0: sha256:9a9e2a93a22dfd2c4f6a815afc7d7393cf892cfd056782fe37137d7908fee224
+  0.3.2--pyhdfd78af_0: sha256:26da1eed3725b901302f3a40399acd444453991165ee35d22af9c5bcd971b8ff
 docker: quay.io/biocontainers/abnumber
 aliases:
   ANARCI: /usr/local/bin/ANARCI

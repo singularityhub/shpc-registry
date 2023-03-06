@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-netcomi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-netcomi
 latest:
-  1.1.0--r42hdfd78af_0: sha256:273e206a109cbb148ae2ba80bbe8fefe11d6daa1e50387e72457117810885919
+  1.1.0--r42hdfd78af_1: sha256:bcfc879cc355f2f2247e27fb98226ee2ef6fca7764c5fec3742b0ae9eb472389
 tags:
   1.1.0--r42hdfd78af_0: sha256:273e206a109cbb148ae2ba80bbe8fefe11d6daa1e50387e72457117810885919
+  1.1.0--r42hdfd78af_1: sha256:bcfc879cc355f2f2247e27fb98226ee2ef6fca7764c5fec3742b0ae9eb472389
 docker: quay.io/biocontainers/r-netcomi
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

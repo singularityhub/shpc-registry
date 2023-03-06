@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/coinfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for coinfinder
 latest:
-  1.2.0--py37haba7c85_0: sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1
+  1.2.1--py39h2ce926b_0: sha256:35378bc446ad19bcab07c5f53771e82bfa513b5ac44c759fff6b7919a284a385
 tags:
   1.2.0--py37haba7c85_0: sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1
+  1.2.1--py39h2ce926b_0: sha256:35378bc446ad19bcab07c5f53771e82bfa513b5ac44c759fff6b7919a284a385
 docker: quay.io/biocontainers/coinfinder
 aliases:
   coinfinder: /usr/local/bin/coinfinder

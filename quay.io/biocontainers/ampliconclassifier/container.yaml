@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ampliconclassifier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ampliconclassifier
 latest:
-  0.4.9--hdfd78af_0: sha256:8ddbfa465577dda20b88265f5971469d37436039f91688ebb703f0c89263e5c5
+  0.4.14--hdfd78af_0: sha256:ac2c6ea300c53e5905d0709e0df3e6c862bfa910f7a524d3be0db24b28742127
 tags:
   0.4.9--hdfd78af_0: sha256:8ddbfa465577dda20b88265f5971469d37436039f91688ebb703f0c89263e5c5
+  0.4.14--hdfd78af_0: sha256:ac2c6ea300c53e5905d0709e0df3e6c862bfa910f7a524d3be0db24b28742127
 docker: quay.io/biocontainers/ampliconclassifier
 aliases:
   amplicon_classifier.py: /usr/local/bin/amplicon_classifier.py
