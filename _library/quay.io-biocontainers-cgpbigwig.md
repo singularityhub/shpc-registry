@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgpbigwig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgpbigwig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgpbigwig/container.yaml"
-updated_at: "2023-03-05 03:45:13.439206"
+updated_at: "2023-03-06 03:37:13.892382"
 latest: "1.6.0--hbb96afb_5"
 container_url: "https://biocontainers.pro/tools/cgpbigwig"
 aliases:

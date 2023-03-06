@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hi-corrector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hi-corrector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hi-corrector/container.yaml"
-updated_at: "2023-03-05 03:04:09.979572"
+updated_at: "2023-03-06 02:56:02.574308"
 latest: "1.2--hee9e358_1"
 container_url: "https://biocontainers.pro/tools/hi-corrector"
 aliases:

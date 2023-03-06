@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pharokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pharokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pharokka/container.yaml"
-updated_at: "2023-03-05 03:30:05.640669"
-latest: "1.2.0--hdfd78af_0"
+updated_at: "2023-03-06 03:22:14.813699"
+latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pharokka"
 aliases:
  - "EukHighConfidenceFilter"
@@ -55,8 +55,9 @@ aliases:
  - "axt_to_maf.py"
 versions:
  - "1.2.0--hdfd78af_0"
+ - "1.2.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for pharokka"
-config: {"url": "https://biocontainers.pro/tools/pharokka", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pharokka", "latest": {"1.2.0--hdfd78af_0": "sha256:6c2857b8b73bdcfb7e64de2e42c6f5f98c961d58a3694419df95a88a9ec0f4d2"}, "tags": {"1.2.0--hdfd78af_0": "sha256:6c2857b8b73bdcfb7e64de2e42c6f5f98c961d58a3694419df95a88a9ec0f4d2"}, "docker": "quay.io/biocontainers/pharokka", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "MitoHighConfidenceFilter": "/usr/local/bin/MitoHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "databases.py": "/usr/local/bin/databases.py", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "input_commands.py": "/usr/local/bin/input_commands.py", "install_databases.py": "/usr/local/bin/install_databases.py", "phanotate.py": "/usr/local/bin/phanotate.py", "pharokka.py": "/usr/local/bin/pharokka.py", "post_processing.py": "/usr/local/bin/post_processing.py", "processes.py": "/usr/local/bin/processes.py", "pyrodigal": "/usr/local/bin/pyrodigal", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "tjbench": "/usr/local/bin/tjbench", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "version.py": "/usr/local/bin/version.py", "mmseqs": "/usr/local/bin/mmseqs", "minced": "/usr/local/bin/minced", "aragorn": "/usr/local/bin/aragorn", "jpackage": "/usr/local/bin/jpackage", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py"}}
+config: {"url": "https://biocontainers.pro/tools/pharokka", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pharokka", "latest": {"1.2.1--hdfd78af_0": "sha256:c57d282748785035ba079c56d806c2d385331e59b41a6ecb22f75cfd73f22463"}, "tags": {"1.2.0--hdfd78af_0": "sha256:6c2857b8b73bdcfb7e64de2e42c6f5f98c961d58a3694419df95a88a9ec0f4d2", "1.2.1--hdfd78af_0": "sha256:c57d282748785035ba079c56d806c2d385331e59b41a6ecb22f75cfd73f22463"}, "docker": "quay.io/biocontainers/pharokka", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "MitoHighConfidenceFilter": "/usr/local/bin/MitoHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "databases.py": "/usr/local/bin/databases.py", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "input_commands.py": "/usr/local/bin/input_commands.py", "install_databases.py": "/usr/local/bin/install_databases.py", "phanotate.py": "/usr/local/bin/phanotate.py", "pharokka.py": "/usr/local/bin/pharokka.py", "post_processing.py": "/usr/local/bin/post_processing.py", "processes.py": "/usr/local/bin/processes.py", "pyrodigal": "/usr/local/bin/pyrodigal", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "tjbench": "/usr/local/bin/tjbench", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "version.py": "/usr/local/bin/version.py", "mmseqs": "/usr/local/bin/mmseqs", "minced": "/usr/local/bin/minced", "aragorn": "/usr/local/bin/aragorn", "jpackage": "/usr/local/bin/jpackage", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pharokka.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/pharokka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pharokka:1.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/pharokka:1.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pharokka/1.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/pharokka/1.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/pharokka/1.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/pharokka/1.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
