@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abnumber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abnumber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abnumber/container.yaml"
-updated_at: "2023-03-06 03:38:34.528716"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2023-03-07 03:45:54.746258"
+latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/abnumber"
 aliases:
  - "ANARCI"
@@ -21,8 +21,9 @@ aliases:
  - "esl-alistat"
 versions:
  - "0.3.0--pyhdfd78af_0"
+ - "0.3.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for abnumber"
-config: {"url": "https://biocontainers.pro/tools/abnumber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abnumber", "latest": {"0.3.0--pyhdfd78af_0": "sha256:9a9e2a93a22dfd2c4f6a815afc7d7393cf892cfd056782fe37137d7908fee224"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:9a9e2a93a22dfd2c4f6a815afc7d7393cf892cfd056782fe37137d7908fee224"}, "docker": "quay.io/biocontainers/abnumber", "aliases": {"ANARCI": "/usr/local/bin/ANARCI", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat"}}
+config: {"url": "https://biocontainers.pro/tools/abnumber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abnumber", "latest": {"0.3.2--pyhdfd78af_0": "sha256:26da1eed3725b901302f3a40399acd444453991165ee35d22af9c5bcd971b8ff"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:9a9e2a93a22dfd2c4f6a815afc7d7393cf892cfd056782fe37137d7908fee224", "0.3.2--pyhdfd78af_0": "sha256:26da1eed3725b901302f3a40399acd444453991165ee35d22af9c5bcd971b8ff"}, "docker": "quay.io/biocontainers/abnumber", "aliases": {"ANARCI": "/usr/local/bin/ANARCI", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abnumber.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/abnumber
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abnumber:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/abnumber:0.3.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abnumber/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/abnumber/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/abnumber/0.3.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/abnumber/0.3.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

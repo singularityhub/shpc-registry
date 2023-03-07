@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ampliconclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampliconclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampliconclassifier/container.yaml"
-updated_at: "2023-03-06 03:16:05.683099"
-latest: "0.4.9--hdfd78af_0"
+updated_at: "2023-03-07 03:23:05.176487"
+latest: "0.4.14--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampliconclassifier"
 aliases:
  - "amplicon_classifier.py"
@@ -27,8 +27,9 @@ aliases:
  - "gif2webp"
 versions:
  - "0.4.9--hdfd78af_0"
+ - "0.4.14--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ampliconclassifier"
-config: {"url": "https://biocontainers.pro/tools/ampliconclassifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ampliconclassifier", "latest": {"0.4.9--hdfd78af_0": "sha256:8ddbfa465577dda20b88265f5971469d37436039f91688ebb703f0c89263e5c5"}, "tags": {"0.4.9--hdfd78af_0": "sha256:8ddbfa465577dda20b88265f5971469d37436039f91688ebb703f0c89263e5c5"}, "docker": "quay.io/biocontainers/ampliconclassifier", "aliases": {"amplicon_classifier.py": "/usr/local/bin/amplicon_classifier.py", "amplicon_similarity.py": "/usr/local/bin/amplicon_similarity.py", "amplicons_intersecting_bed.py": "/usr/local/bin/amplicons_intersecting_bed.py", "feature_similarity.py": "/usr/local/bin/feature_similarity.py", "make_input.sh": "/usr/local/bin/make_input.sh", "make_results_table.py": "/usr/local/bin/make_results_table.py", "softlink_images.py": "/usr/local/bin/softlink_images.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
+config: {"url": "https://biocontainers.pro/tools/ampliconclassifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ampliconclassifier", "latest": {"0.4.14--hdfd78af_0": "sha256:ac2c6ea300c53e5905d0709e0df3e6c862bfa910f7a524d3be0db24b28742127"}, "tags": {"0.4.9--hdfd78af_0": "sha256:8ddbfa465577dda20b88265f5971469d37436039f91688ebb703f0c89263e5c5", "0.4.14--hdfd78af_0": "sha256:ac2c6ea300c53e5905d0709e0df3e6c862bfa910f7a524d3be0db24b28742127"}, "docker": "quay.io/biocontainers/ampliconclassifier", "aliases": {"amplicon_classifier.py": "/usr/local/bin/amplicon_classifier.py", "amplicon_similarity.py": "/usr/local/bin/amplicon_similarity.py", "amplicons_intersecting_bed.py": "/usr/local/bin/amplicons_intersecting_bed.py", "feature_similarity.py": "/usr/local/bin/feature_similarity.py", "make_input.sh": "/usr/local/bin/make_input.sh", "make_results_table.py": "/usr/local/bin/make_results_table.py", "softlink_images.py": "/usr/local/bin/softlink_images.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ampliconclassifier.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/ampliconclassifier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ampliconclassifier:0.4.9--hdfd78af_0
+$ shpc install quay.io/biocontainers/ampliconclassifier:0.4.14--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ampliconclassifier/0.4.9--hdfd78af_0
-$ module help quay.io/biocontainers/ampliconclassifier/0.4.9--hdfd78af_0
+$ module load quay.io/biocontainers/ampliconclassifier/0.4.14--hdfd78af_0
+$ module help quay.io/biocontainers/ampliconclassifier/0.4.14--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

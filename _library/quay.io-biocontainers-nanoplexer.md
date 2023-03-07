@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoplexer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplexer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplexer/container.yaml"
-updated_at: "2023-03-06 03:07:02.180107"
+updated_at: "2023-03-07 03:14:07.399275"
 latest: "0.1.2--h7132678_2"
 container_url: "https://biocontainers.pro/tools/nanoplexer"
 aliases:

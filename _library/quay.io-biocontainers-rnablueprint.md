@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnablueprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnablueprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnablueprint/container.yaml"
-updated_at: "2023-03-06 03:14:16.004672"
+updated_at: "2023-03-07 03:21:16.300748"
 latest: "1.3.2--pl5321hfe0f59a_4"
 container_url: "https://biocontainers.pro/tools/rnablueprint"
 aliases:

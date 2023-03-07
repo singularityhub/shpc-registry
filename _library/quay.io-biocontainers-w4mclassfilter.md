@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/w4mclassfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/w4mclassfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/w4mclassfilter/container.yaml"
-updated_at: "2023-03-06 03:24:18.792519"
-latest: "0.98.19--r40hdfd78af_1"
+updated_at: "2023-03-07 03:31:20.377272"
+latest: "0.98.19--r42hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/w4mclassfilter"
 
 versions:
  - "0.98.9--r351_0"
  - "0.98.19--r40hdfd78af_1"
+ - "0.98.19--r42hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for w4mclassfilter"
-config: {"url": "https://biocontainers.pro/tools/w4mclassfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for w4mclassfilter", "latest": {"0.98.19--r40hdfd78af_1": "sha256:4d0b344a53ef50e7f86c8aa83b62be7005892dea3ba502cdba1a284bd410229f"}, "tags": {"0.98.9--r351_0": "sha256:4544d0ad3cfd578b6ba2894d06964de77b141c2fbd2bb79203fee1706d364ad9", "0.98.19--r40hdfd78af_1": "sha256:4d0b344a53ef50e7f86c8aa83b62be7005892dea3ba502cdba1a284bd410229f"}, "docker": "quay.io/biocontainers/w4mclassfilter"}
+config: {"url": "https://biocontainers.pro/tools/w4mclassfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for w4mclassfilter", "latest": {"0.98.19--r42hdfd78af_3": "sha256:e17c09bc6646efcbab5da7b9bf9f216839bee218e91892dff36ea14f8a49caa8"}, "tags": {"0.98.9--r351_0": "sha256:4544d0ad3cfd578b6ba2894d06964de77b141c2fbd2bb79203fee1706d364ad9", "0.98.19--r40hdfd78af_1": "sha256:4d0b344a53ef50e7f86c8aa83b62be7005892dea3ba502cdba1a284bd410229f", "0.98.19--r42hdfd78af_3": "sha256:e17c09bc6646efcbab5da7b9bf9f216839bee218e91892dff36ea14f8a49caa8"}, "docker": "quay.io/biocontainers/w4mclassfilter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/w4mclassfilter.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/w4mclassfilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/w4mclassfilter:0.98.19--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/w4mclassfilter:0.98.19--r42hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/w4mclassfilter/0.98.19--r40hdfd78af_1
-$ module help quay.io/biocontainers/w4mclassfilter/0.98.19--r40hdfd78af_1
+$ module load quay.io/biocontainers/w4mclassfilter/0.98.19--r42hdfd78af_3
+$ module help quay.io/biocontainers/w4mclassfilter/0.98.19--r42hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

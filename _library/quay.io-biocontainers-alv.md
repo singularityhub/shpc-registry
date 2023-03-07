@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alv/container.yaml"
-updated_at: "2023-03-06 02:58:09.591982"
-latest: "1.7.1--pyhdfd78af_0"
+updated_at: "2023-03-07 03:05:25.376502"
+latest: "1.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alv"
 aliases:
  - "alv"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.7.1--pyhdfd78af_0"
+ - "1.7.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for alv"
-config: {"url": "https://biocontainers.pro/tools/alv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alv", "latest": {"1.7.1--pyhdfd78af_0": "sha256:8a8190186e90c052f642a18b6245e27ab1fe87b255288db85c3dd5ef19ba41e4"}, "tags": {"1.7.1--pyhdfd78af_0": "sha256:8a8190186e90c052f642a18b6245e27ab1fe87b255288db85c3dd5ef19ba41e4"}, "docker": "quay.io/biocontainers/alv", "aliases": {"alv": "/usr/local/bin/alv", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/alv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alv", "latest": {"1.7.2--pyhdfd78af_0": "sha256:7edaf490f27fa6a04f336bf68570dd03cb98fed346cfe9f28d500881ec5a1aa9"}, "tags": {"1.7.1--pyhdfd78af_0": "sha256:8a8190186e90c052f642a18b6245e27ab1fe87b255288db85c3dd5ef19ba41e4", "1.7.2--pyhdfd78af_0": "sha256:7edaf490f27fa6a04f336bf68570dd03cb98fed346cfe9f28d500881ec5a1aa9"}, "docker": "quay.io/biocontainers/alv", "aliases": {"alv": "/usr/local/bin/alv", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alv.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/alv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alv:1.7.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/alv:1.7.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alv/1.7.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/alv/1.7.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/alv/1.7.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/alv/1.7.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

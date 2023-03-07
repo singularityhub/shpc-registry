@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vphaser2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vphaser2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vphaser2/container.yaml"
-updated_at: "2023-03-06 03:09:38.063894"
-latest: "2.0--h1b026d1_11"
+updated_at: "2023-03-07 03:16:41.308223"
+latest: "2.0--h1b026d1_12"
 container_url: "https://biocontainers.pro/tools/vphaser2"
 aliases:
  - "variant_caller"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "2.0--h22a709c_9"
  - "2.0--h1b026d1_11"
+ - "2.0--h1b026d1_12"
 description: "shpc-registry automated BioContainers addition for vphaser2"
-config: {"url": "https://biocontainers.pro/tools/vphaser2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vphaser2", "latest": {"2.0--h1b026d1_11": "sha256:918ac4c76056e7a5542e38216bce3d52c24db0ec142b5428c86bf1c01629dd60"}, "tags": {"2.0--h22a709c_9": "sha256:38ed87b31e9d6aefb26c3071f71e8678467b7d52c63ce3925e940022db956fd7", "2.0--h1b026d1_11": "sha256:918ac4c76056e7a5542e38216bce3d52c24db0ec142b5428c86bf1c01629dd60"}, "docker": "quay.io/biocontainers/vphaser2", "aliases": {"variant_caller": "/usr/local/bin/variant_caller", "vphaser2": "/usr/local/bin/vphaser2", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/vphaser2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vphaser2", "latest": {"2.0--h1b026d1_12": "sha256:4805d8dda8fe1830c3368bb8f1957d0a0ddb25c367235b4d3eef7866d9da137d"}, "tags": {"2.0--h22a709c_9": "sha256:38ed87b31e9d6aefb26c3071f71e8678467b7d52c63ce3925e940022db956fd7", "2.0--h1b026d1_11": "sha256:918ac4c76056e7a5542e38216bce3d52c24db0ec142b5428c86bf1c01629dd60", "2.0--h1b026d1_12": "sha256:4805d8dda8fe1830c3368bb8f1957d0a0ddb25c367235b4d3eef7866d9da137d"}, "docker": "quay.io/biocontainers/vphaser2", "aliases": {"variant_caller": "/usr/local/bin/variant_caller", "vphaser2": "/usr/local/bin/vphaser2", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vphaser2.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/vphaser2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vphaser2:2.0--h1b026d1_11
+$ shpc install quay.io/biocontainers/vphaser2:2.0--h1b026d1_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vphaser2/2.0--h1b026d1_11
-$ module help quay.io/biocontainers/vphaser2/2.0--h1b026d1_11
+$ module load quay.io/biocontainers/vphaser2/2.0--h1b026d1_12
+$ module help quay.io/biocontainers/vphaser2/2.0--h1b026d1_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

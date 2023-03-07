@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cellsnp-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellsnp-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellsnp-lite/container.yaml"
-updated_at: "2023-03-06 03:39:05.037626"
-latest: "1.2.2--hb0d9459_3"
+updated_at: "2023-03-07 03:46:26.245302"
+latest: "1.2.3--hb0d9459_0"
 container_url: "https://biocontainers.pro/tools/cellsnp-lite"
 aliases:
  - "cellsnp-lite"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.2.2--hb0d9459_3"
+ - "1.2.3--hb0d9459_0"
 description: "shpc-registry automated BioContainers addition for cellsnp-lite"
-config: {"url": "https://biocontainers.pro/tools/cellsnp-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cellsnp-lite", "latest": {"1.2.2--hb0d9459_3": "sha256:9ad1b80f44fc8394cac6fbecaa0780d43a28fe329833785b495d1133d2736f73"}, "tags": {"1.2.2--hb0d9459_3": "sha256:9ad1b80f44fc8394cac6fbecaa0780d43a28fe329833785b495d1133d2736f73"}, "docker": "quay.io/biocontainers/cellsnp-lite", "aliases": {"cellsnp-lite": "/usr/local/bin/cellsnp-lite", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/cellsnp-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cellsnp-lite", "latest": {"1.2.3--hb0d9459_0": "sha256:fe227191fa2ed87bfabcb54362ed46186fa33d0b0bd838ca8f89ac56316f136b"}, "tags": {"1.2.2--hb0d9459_3": "sha256:9ad1b80f44fc8394cac6fbecaa0780d43a28fe329833785b495d1133d2736f73", "1.2.3--hb0d9459_0": "sha256:fe227191fa2ed87bfabcb54362ed46186fa33d0b0bd838ca8f89ac56316f136b"}, "docker": "quay.io/biocontainers/cellsnp-lite", "aliases": {"cellsnp-lite": "/usr/local/bin/cellsnp-lite", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cellsnp-lite.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/cellsnp-lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cellsnp-lite:1.2.2--hb0d9459_3
+$ shpc install quay.io/biocontainers/cellsnp-lite:1.2.3--hb0d9459_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cellsnp-lite/1.2.2--hb0d9459_3
-$ module help quay.io/biocontainers/cellsnp-lite/1.2.2--hb0d9459_3
+$ module load quay.io/biocontainers/cellsnp-lite/1.2.3--hb0d9459_0
+$ module help quay.io/biocontainers/cellsnp-lite/1.2.3--hb0d9459_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
