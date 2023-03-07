@@ -5,6 +5,7 @@ latest:
   1.2.1--h73f19ed_0: sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82
 tags:
   1.2.1--h73f19ed_0: sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82
+  1.2--h73f19ed_1: sha256:abf06bfaa768b6445729da95163f7d2cb5de0ed24a342f8cdf0abf627f0a668e
 docker: quay.io/biocontainers/unifrac-binaries
 aliases:
   faithpd: /usr/local/bin/faithpd

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/clever-toolkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clever-toolkit
 latest:
-  2.4--py38hda97c0d_10: sha256:8c0ce2e1ee301a2d63cc027fae790c7470bee22f129b1703d6600680e75b8f71
+  2.4--hd03093a_12: sha256:dc9e2fdcffda925af46102818c65ce6cbaecca80f313927f98bb23a7de5ccf65
 tags:
   2.4--py35_boost1.64_0: sha256:b3da30bff97f2aeb05623fe91be9b360b2209d08e8f47e776164292422e852df
   2.4--py38hda97c0d_10: sha256:8c0ce2e1ee301a2d63cc027fae790c7470bee22f129b1703d6600680e75b8f71
+  2.4--hd03093a_12: sha256:dc9e2fdcffda925af46102818c65ce6cbaecca80f313927f98bb23a7de5ccf65
 docker: quay.io/biocontainers/clever-toolkit
 aliases:
   add-score-tags-to-bam: /usr/local/bin/add-score-tags-to-bam

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/transdecoder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for transdecoder
 latest:
-  5.5.0--pl5321hdfd78af_5: sha256:d4f30461a2ebf0208c5fd186bd75a447b1b86f8c1672d296e6ad7217e3ac8cc9
+  5.7.0--pl5321hdfd78af_0: sha256:6763367def2ce6febcda46d87bd64f6281543151fd36c5c26f5e99e47ebe0a07
 tags:
   5.5.0--pl5321hdfd78af_5: sha256:d4f30461a2ebf0208c5fd186bd75a447b1b86f8c1672d296e6ad7217e3ac8cc9
+  5.7.0--pl5321hdfd78af_0: sha256:6763367def2ce6febcda46d87bd64f6281543151fd36c5c26f5e99e47ebe0a07
 docker: quay.io/biocontainers/transdecoder
 aliases:
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs

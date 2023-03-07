@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sgcocaller
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sgcocaller
 latest:
-  0.3.9--h0ffbbc5_1: sha256:ae297be5d6dd8b8e981af6f9ebb350cdaa3caed7f2ffe70ec413752dfdd9cb4b
+  0.3.9--hda81887_2: sha256:0438571fff31d7cd6a6500b2785506dd3dbdde8b2ad25364c87752df621a65d1
 tags:
   0.3.9--h0ffbbc5_1: sha256:ae297be5d6dd8b8e981af6f9ebb350cdaa3caed7f2ffe70ec413752dfdd9cb4b
+  0.3.9--hda81887_2: sha256:0438571fff31d7cd6a6500b2785506dd3dbdde8b2ad25364c87752df621a65d1
 docker: quay.io/biocontainers/sgcocaller
 aliases:
   sgcocaller: /usr/local/bin/sgcocaller

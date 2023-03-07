@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioblend
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioblend
 latest:
-  1.0.0--pyhdfd78af_0: sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e
+  1.1.1--pyhdfd78af_0: sha256:71d503868b9329b0a3aad59ca250a29983fe5d01e69c516422de3945e75f153c
 tags:
   1.0.0--pyhdfd78af_0: sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e
+  1.1.1--pyhdfd78af_0: sha256:71d503868b9329b0a3aad59ca250a29983fe5d01e69c516422de3945e75f153c
+  1.0.1--pyhdfd78af_0: sha256:de29f7ee74c39096a6ec1e4ad066ca8d3677de22cc67c26c26f8a05aaa99b1a4
 docker: quay.io/biocontainers/bioblend
 aliases:
   bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests

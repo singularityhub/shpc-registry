@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/commet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for commet
 latest:
-  24.7.14--r41hfada1a9_7: sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38
+  24.7.14--r42hfada1a9_8: sha256:fb6b30e2129a1593956647efa9585607b13ec0847bfed2d0a1937e44c3f90cb7
 tags:
   24.7.14--r41hfada1a9_7: sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38
+  24.7.14--r42hfada1a9_8: sha256:fb6b30e2129a1593956647efa9585607b13ec0847bfed2d0a1937e44c3f90cb7
 docker: quay.io/biocontainers/commet
 aliases:
   Commet.py: /usr/local/bin/Commet.py
