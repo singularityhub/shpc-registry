@@ -2,6 +2,8 @@
 
 This is the main remote registry for [Singularity HPC](https://github.com/singularityhub/singularity-hpc).
 
+[![DOI](https://zenodo.org/badge/519896622.svg)](https://zenodo.org/badge/latestdoi/519896622)
+
 📖️ Read the [documentation](https://singularity-hpc.readthedocs.io/en/latest/) 📖️
 ⭐️ Browse the [container module collection](https://singularityhub.github.io/shpc-registry/) ⭐️
 
