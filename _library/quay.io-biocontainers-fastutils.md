@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastutils/container.yaml"
-updated_at: "2023-03-07 03:19:14.061320"
+updated_at: "2023-03-08 03:15:33.615317"
 latest: "0.3--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/fastutils"
 aliases:

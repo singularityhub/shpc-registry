@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqlogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqlogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqlogo/container.yaml"
-updated_at: "2023-03-07 03:38:11.968624"
+updated_at: "2023-03-08 03:36:46.958897"
 latest: "5.29.8--py_0"
 container_url: "https://biocontainers.pro/tools/seqlogo"
 aliases:

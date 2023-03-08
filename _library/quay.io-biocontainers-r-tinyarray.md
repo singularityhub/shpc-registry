@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-tinyarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tinyarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tinyarray/container.yaml"
-updated_at: "2023-03-07 03:06:24.748038"
-latest: "2.2.7--r42h3121a25_1"
+updated_at: "2023-03-08 03:01:14.608143"
+latest: "2.2.9--r42h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-tinyarray"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
  - "python3.1"
 versions:
  - "2.2.7--r42h3121a25_1"
+ - "2.2.9--r42h3121a25_0"
 description: "singularity registry hpc automated addition for r-tinyarray"
-config: {"url": "https://biocontainers.pro/tools/r-tinyarray", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-tinyarray", "latest": {"2.2.7--r42h3121a25_1": "sha256:eb3b891de67aea7f207bb7f9443cc5b62e2eb2e6680e420dea4776d5d5f0c7d4"}, "tags": {"2.2.7--r42h3121a25_1": "sha256:eb3b891de67aea7f207bb7f9443cc5b62e2eb2e6680e420dea4776d5d5f0c7d4"}, "docker": "quay.io/biocontainers/r-tinyarray", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-tinyarray", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-tinyarray", "latest": {"2.2.9--r42h3121a25_0": "sha256:e4ce3bd9379ea066ee610918c058d5c0a095e8c3d68283c819a7dea3f025f056"}, "tags": {"2.2.7--r42h3121a25_1": "sha256:eb3b891de67aea7f207bb7f9443cc5b62e2eb2e6680e420dea4776d5d5f0c7d4", "2.2.9--r42h3121a25_0": "sha256:e4ce3bd9379ea066ee610918c058d5c0a095e8c3d68283c819a7dea3f025f056"}, "docker": "quay.io/biocontainers/r-tinyarray", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tinyarray.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/r-tinyarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tinyarray:2.2.7--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-tinyarray:2.2.9--r42h3121a25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tinyarray/2.2.7--r42h3121a25_1
-$ module help quay.io/biocontainers/r-tinyarray/2.2.7--r42h3121a25_1
+$ module load quay.io/biocontainers/r-tinyarray/2.2.9--r42h3121a25_0
+$ module help quay.io/biocontainers/r-tinyarray/2.2.9--r42h3121a25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

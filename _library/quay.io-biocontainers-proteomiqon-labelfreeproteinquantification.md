@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/proteomiqon-labelfreeproteinquantification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/container.yaml"
-updated_at: "2023-03-07 03:15:39.641499"
-latest: "0.0.1--hdfd78af_1"
+updated_at: "2023-03-08 03:11:34.489484"
+latest: "0.0.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/proteomiqon-labelfreeproteinquantification"
 aliases:
  - "lttng-gen-tp"
  - "proteomiqon-labelfreeproteinquantification"
 versions:
  - "0.0.1--hdfd78af_1"
+ - "0.0.3--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for proteomiqon-labelfreeproteinquantification"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-labelfreeproteinquantification", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-labelfreeproteinquantification", "latest": {"0.0.1--hdfd78af_1": "sha256:a88aeba5bc8bcf845f389a7d29baa084a60fcb83e95acd21768c4a086f705677"}, "tags": {"0.0.1--hdfd78af_1": "sha256:a88aeba5bc8bcf845f389a7d29baa084a60fcb83e95acd21768c4a086f705677"}, "docker": "quay.io/biocontainers/proteomiqon-labelfreeproteinquantification", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-labelfreeproteinquantification": "/usr/local/bin/proteomiqon-labelfreeproteinquantification"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-labelfreeproteinquantification", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-labelfreeproteinquantification", "latest": {"0.0.3--hdfd78af_1": "sha256:c16fbdbc5d2827f04e6f740a3f705b82776c76dd950cc73b0d36420372454c17"}, "tags": {"0.0.1--hdfd78af_1": "sha256:a88aeba5bc8bcf845f389a7d29baa084a60fcb83e95acd21768c4a086f705677", "0.0.3--hdfd78af_1": "sha256:c16fbdbc5d2827f04e6f740a3f705b82776c76dd950cc73b0d36420372454c17"}, "docker": "quay.io/biocontainers/proteomiqon-labelfreeproteinquantification", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-labelfreeproteinquantification": "/usr/local/bin/proteomiqon-labelfreeproteinquantification"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-labelfreeproteinquantification.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-labelfreeproteinquantification
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-labelfreeproteinquantification:0.0.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/proteomiqon-labelfreeproteinquantification:0.0.3--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/0.0.1--hdfd78af_1
-$ module help quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/0.0.1--hdfd78af_1
+$ module load quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/0.0.3--hdfd78af_1
+$ module help quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/0.0.3--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

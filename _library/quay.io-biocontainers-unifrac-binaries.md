@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unifrac-binaries"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unifrac-binaries/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unifrac-binaries/container.yaml"
-updated_at: "2023-03-07 03:06:27.228973"
+updated_at: "2023-03-08 03:01:17.339058"
 latest: "1.2.1--h73f19ed_0"
 container_url: "https://biocontainers.pro/tools/unifrac-binaries"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.2.1--h73f19ed_0"
+ - "1.2--h73f19ed_1"
 description: "singularity registry hpc automated addition for unifrac-binaries"
-config: {"url": "https://biocontainers.pro/tools/unifrac-binaries", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unifrac-binaries", "latest": {"1.2.1--h73f19ed_0": "sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82"}, "tags": {"1.2.1--h73f19ed_0": "sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82"}, "docker": "quay.io/biocontainers/unifrac-binaries", "aliases": {"faithpd": "/usr/local/bin/faithpd", "ssu": "/usr/local/bin/ssu", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/unifrac-binaries", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unifrac-binaries", "latest": {"1.2.1--h73f19ed_0": "sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82"}, "tags": {"1.2.1--h73f19ed_0": "sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82", "1.2--h73f19ed_1": "sha256:abf06bfaa768b6445729da95163f7d2cb5de0ed24a342f8cdf0abf627f0a668e"}, "docker": "quay.io/biocontainers/unifrac-binaries", "aliases": {"faithpd": "/usr/local/bin/faithpd", "ssu": "/usr/local/bin/ssu", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unifrac-binaries.

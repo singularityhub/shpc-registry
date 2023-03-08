@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clever-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clever-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clever-toolkit/container.yaml"
-updated_at: "2023-03-07 03:29:55.454597"
-latest: "2.4--py38hda97c0d_10"
+updated_at: "2023-03-08 03:27:31.621120"
+latest: "2.4--hd03093a_12"
 container_url: "https://biocontainers.pro/tools/clever-toolkit"
 aliases:
  - "add-score-tags-to-bam"
@@ -49,8 +49,9 @@ aliases:
 versions:
  - "2.4--py35_boost1.64_0"
  - "2.4--py38hda97c0d_10"
+ - "2.4--hd03093a_12"
 description: "shpc-registry automated BioContainers addition for clever-toolkit"
-config: {"url": "https://biocontainers.pro/tools/clever-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clever-toolkit", "latest": {"2.4--py38hda97c0d_10": "sha256:8c0ce2e1ee301a2d63cc027fae790c7470bee22f129b1703d6600680e75b8f71"}, "tags": {"2.4--py35_boost1.64_0": "sha256:b3da30bff97f2aeb05623fe91be9b360b2209d08e8f47e776164292422e852df", "2.4--py38hda97c0d_10": "sha256:8c0ce2e1ee301a2d63cc027fae790c7470bee22f129b1703d6600680e75b8f71"}, "docker": "quay.io/biocontainers/clever-toolkit", "aliases": {"add-score-tags-to-bam": "/usr/local/bin/add-score-tags-to-bam", "bam-to-alignment-priors": "/usr/local/bin/bam-to-alignment-priors", "bam2fastq": "/usr/local/bin/bam2fastq", "clever": "/usr/local/bin/clever", "clever-core": "/usr/local/bin/clever-core", "ctk-version": "/usr/local/bin/ctk-version", "evaluate-sv-predictions": "/usr/local/bin/evaluate-sv-predictions", "extract-bad-reads": "/usr/local/bin/extract-bad-reads", "filter-bam": "/usr/local/bin/filter-bam", "filter-variations": "/usr/local/bin/filter-variations", "genotyper": "/usr/local/bin/genotyper", "insert-length-histogram": "/usr/local/bin/insert-length-histogram", "laser": "/usr/local/bin/laser", "laser-core": "/usr/local/bin/laser-core", "laser-recalibrate": "/usr/local/bin/laser-recalibrate", "mateclever": "/usr/local/bin/mateclever", "mateclever-compute-rois": "/usr/local/bin/mateclever-compute-rois", "merge-putative-variations": "/usr/local/bin/merge-putative-variations", "merge-to-vcf": "/usr/local/bin/merge-to-vcf", "multiline-to-xa": "/usr/local/bin/multiline-to-xa", "plot-insert-size-distribution": "/usr/local/bin/plot-insert-size-distribution", "postprocess-predictions": "/usr/local/bin/postprocess-predictions", "precompute-distributions": "/usr/local/bin/precompute-distributions", "read-group-stats": "/usr/local/bin/read-group-stats", "remove-redundant-variations": "/usr/local/bin/remove-redundant-variations", "split-priors-by-chromosome": "/usr/local/bin/split-priors-by-chromosome", "split-reads": "/usr/local/bin/split-reads", "vcf-to-deletionlist": "/usr/local/bin/vcf-to-deletionlist", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
+config: {"url": "https://biocontainers.pro/tools/clever-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clever-toolkit", "latest": {"2.4--hd03093a_12": "sha256:dc9e2fdcffda925af46102818c65ce6cbaecca80f313927f98bb23a7de5ccf65"}, "tags": {"2.4--py35_boost1.64_0": "sha256:b3da30bff97f2aeb05623fe91be9b360b2209d08e8f47e776164292422e852df", "2.4--py38hda97c0d_10": "sha256:8c0ce2e1ee301a2d63cc027fae790c7470bee22f129b1703d6600680e75b8f71", "2.4--hd03093a_12": "sha256:dc9e2fdcffda925af46102818c65ce6cbaecca80f313927f98bb23a7de5ccf65"}, "docker": "quay.io/biocontainers/clever-toolkit", "aliases": {"add-score-tags-to-bam": "/usr/local/bin/add-score-tags-to-bam", "bam-to-alignment-priors": "/usr/local/bin/bam-to-alignment-priors", "bam2fastq": "/usr/local/bin/bam2fastq", "clever": "/usr/local/bin/clever", "clever-core": "/usr/local/bin/clever-core", "ctk-version": "/usr/local/bin/ctk-version", "evaluate-sv-predictions": "/usr/local/bin/evaluate-sv-predictions", "extract-bad-reads": "/usr/local/bin/extract-bad-reads", "filter-bam": "/usr/local/bin/filter-bam", "filter-variations": "/usr/local/bin/filter-variations", "genotyper": "/usr/local/bin/genotyper", "insert-length-histogram": "/usr/local/bin/insert-length-histogram", "laser": "/usr/local/bin/laser", "laser-core": "/usr/local/bin/laser-core", "laser-recalibrate": "/usr/local/bin/laser-recalibrate", "mateclever": "/usr/local/bin/mateclever", "mateclever-compute-rois": "/usr/local/bin/mateclever-compute-rois", "merge-putative-variations": "/usr/local/bin/merge-putative-variations", "merge-to-vcf": "/usr/local/bin/merge-to-vcf", "multiline-to-xa": "/usr/local/bin/multiline-to-xa", "plot-insert-size-distribution": "/usr/local/bin/plot-insert-size-distribution", "postprocess-predictions": "/usr/local/bin/postprocess-predictions", "precompute-distributions": "/usr/local/bin/precompute-distributions", "read-group-stats": "/usr/local/bin/read-group-stats", "remove-redundant-variations": "/usr/local/bin/remove-redundant-variations", "split-priors-by-chromosome": "/usr/local/bin/split-priors-by-chromosome", "split-reads": "/usr/local/bin/split-reads", "vcf-to-deletionlist": "/usr/local/bin/vcf-to-deletionlist", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clever-toolkit.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/clever-toolkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clever-toolkit:2.4--py38hda97c0d_10
+$ shpc install quay.io/biocontainers/clever-toolkit:2.4--hd03093a_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clever-toolkit/2.4--py38hda97c0d_10
-$ module help quay.io/biocontainers/clever-toolkit/2.4--py38hda97c0d_10
+$ module load quay.io/biocontainers/clever-toolkit/2.4--hd03093a_12
+$ module help quay.io/biocontainers/clever-toolkit/2.4--hd03093a_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

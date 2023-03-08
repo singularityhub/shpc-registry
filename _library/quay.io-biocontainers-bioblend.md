@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioblend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioblend/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioblend/container.yaml"
-updated_at: "2023-03-07 03:31:28.808559"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2023-03-08 03:29:16.315675"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioblend"
 aliases:
  - "bioblend-galaxy-tests"
@@ -21,8 +21,10 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioblend"
-config: {"url": "https://biocontainers.pro/tools/bioblend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioblend", "latest": {"1.0.0--pyhdfd78af_0": "sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e"}, "docker": "quay.io/biocontainers/bioblend", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioblend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioblend", "latest": {"1.1.1--pyhdfd78af_0": "sha256:71d503868b9329b0a3aad59ca250a29983fe5d01e69c516422de3945e75f153c"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e", "1.1.1--pyhdfd78af_0": "sha256:71d503868b9329b0a3aad59ca250a29983fe5d01e69c516422de3945e75f153c", "1.0.1--pyhdfd78af_0": "sha256:de29f7ee74c39096a6ec1e4ad066ca8d3677de22cc67c26c26f8a05aaa99b1a4"}, "docker": "quay.io/biocontainers/bioblend", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioblend.
@@ -37,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioblend
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioblend:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bioblend:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioblend/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/bioblend/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/bioblend/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/bioblend/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

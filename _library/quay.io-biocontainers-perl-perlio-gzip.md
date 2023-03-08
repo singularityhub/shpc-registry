@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perlio-gzip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perlio-gzip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perlio-gzip/container.yaml"
-updated_at: "2023-03-07 03:02:07.042537"
+updated_at: "2023-03-08 02:56:30.086141"
 latest: "0.20--pl5321h7132678_3"
 container_url: "https://biocontainers.pro/tools/perl-perlio-gzip"
 aliases:

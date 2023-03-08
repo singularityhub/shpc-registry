@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sgcocaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sgcocaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sgcocaller/container.yaml"
-updated_at: "2023-03-07 03:34:59.527905"
-latest: "0.3.9--h0ffbbc5_1"
+updated_at: "2023-03-08 03:33:13.795214"
+latest: "0.3.9--hda81887_2"
 container_url: "https://biocontainers.pro/tools/sgcocaller"
 aliases:
  - "sgcocaller"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.3.9--h0ffbbc5_1"
+ - "0.3.9--hda81887_2"
 description: "shpc-registry automated BioContainers addition for sgcocaller"
-config: {"url": "https://biocontainers.pro/tools/sgcocaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sgcocaller", "latest": {"0.3.9--h0ffbbc5_1": "sha256:ae297be5d6dd8b8e981af6f9ebb350cdaa3caed7f2ffe70ec413752dfdd9cb4b"}, "tags": {"0.3.9--h0ffbbc5_1": "sha256:ae297be5d6dd8b8e981af6f9ebb350cdaa3caed7f2ffe70ec413752dfdd9cb4b"}, "docker": "quay.io/biocontainers/sgcocaller", "aliases": {"sgcocaller": "/usr/local/bin/sgcocaller", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/sgcocaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sgcocaller", "latest": {"0.3.9--hda81887_2": "sha256:0438571fff31d7cd6a6500b2785506dd3dbdde8b2ad25364c87752df621a65d1"}, "tags": {"0.3.9--h0ffbbc5_1": "sha256:ae297be5d6dd8b8e981af6f9ebb350cdaa3caed7f2ffe70ec413752dfdd9cb4b", "0.3.9--hda81887_2": "sha256:0438571fff31d7cd6a6500b2785506dd3dbdde8b2ad25364c87752df621a65d1"}, "docker": "quay.io/biocontainers/sgcocaller", "aliases": {"sgcocaller": "/usr/local/bin/sgcocaller", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sgcocaller.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/sgcocaller
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sgcocaller:0.3.9--h0ffbbc5_1
+$ shpc install quay.io/biocontainers/sgcocaller:0.3.9--hda81887_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sgcocaller/0.3.9--h0ffbbc5_1
-$ module help quay.io/biocontainers/sgcocaller/0.3.9--h0ffbbc5_1
+$ module load quay.io/biocontainers/sgcocaller/0.3.9--hda81887_2
+$ module help quay.io/biocontainers/sgcocaller/0.3.9--hda81887_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
