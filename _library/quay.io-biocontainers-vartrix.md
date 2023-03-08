@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vartrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartrix/container.yaml"
-updated_at: "2023-03-08 03:47:26.824531"
+updated_at: "2023-03-08 21:50:44.887958"
 latest: "1.1.22--hd11b1f6_1"
 container_url: "https://biocontainers.pro/tools/vartrix"
 aliases:

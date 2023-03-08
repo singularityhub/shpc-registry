@@ -4,7 +4,7 @@ name:  "uvarc/qiime2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/uvarc/qiime2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/uvarc/qiime2/container.yaml"
-updated_at: "2023-03-08 02:54:34.769763"
+updated_at: "2023-03-08 21:02:57.346550"
 latest: "2022.2"
 container_url: "https://hub.docker.com/r/uvarc/qiime2"
 

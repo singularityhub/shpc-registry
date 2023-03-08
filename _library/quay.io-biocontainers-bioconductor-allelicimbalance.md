@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-allelicimbalance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-allelicimbalance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-allelicimbalance/container.yaml"
-updated_at: "2023-03-08 03:35:00.515183"
+updated_at: "2023-03-08 21:39:28.177980"
 latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-allelicimbalance"
 

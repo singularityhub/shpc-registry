@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kart/container.yaml"
-updated_at: "2023-03-08 03:12:39.934898"
+updated_at: "2023-03-08 21:19:17.440681"
 latest: "2.5.6--h2ccddb4_2"
 container_url: "https://biocontainers.pro/tools/kart"
 aliases:

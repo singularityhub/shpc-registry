@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gispa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gispa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gispa/container.yaml"
-updated_at: "2023-03-08 03:33:05.551997"
+updated_at: "2023-03-08 21:37:43.900038"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gispa"
 aliases:
