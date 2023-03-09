@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hmftools-orange
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmftools-orange
+latest:
+  1.10.2--hdfd78af_0: sha256:b33037bae054a6eddce894ffa17bb14fc8a97b9db6732cfa827c419660e9e388
+tags:
+  1.10.2--hdfd78af_0: sha256:b33037bae054a6eddce894ffa17bb14fc8a97b9db6732cfa827c419660e9e388
+docker: quay.io/biocontainers/hmftools-orange
+aliases:
+  orange: /usr/local/bin/orange
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo
+  jmap: /usr/local/bin/jmap
+  jps: /usr/local/bin/jps
