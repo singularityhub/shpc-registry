@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/imctools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for imctools
 latest:
-  1.0.8--pyh864c0ab_0: sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f
+  2.1.8--pyhdfd78af_0: sha256:9bae0e1ecfd94b9d0934a282ac648a95af1ef4ae158bd583b55f4e61e8f1dab1
 tags:
   1.0.8--pyh864c0ab_0: sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f
+  2.1.8--pyhdfd78af_0: sha256:9bae0e1ecfd94b9d0934a282ac648a95af1ef4ae158bd583b55f4e61e8f1dab1
 docker: quay.io/biocontainers/imctools
 aliases:
   JxrDecApp: /usr/local/bin/JxrDecApp

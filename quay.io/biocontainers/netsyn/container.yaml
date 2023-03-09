@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/netsyn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for netsyn
 latest:
-  0.1.1--pyh7cba7a3_0: sha256:06cc5d5678ab2fe63301421d2922b0ea516a34ae1ae236b4659ce1c59ecc1d04
+  0.1.2--pyh7cba7a3_0: sha256:aa31d20301349640a8e3a6230fc74c38301ad4e5ec25a0d770942f38557ad951
 tags:
   0.1.1--pyh7cba7a3_0: sha256:06cc5d5678ab2fe63301421d2922b0ea516a34ae1ae236b4659ce1c59ecc1d04
+  0.1.2--pyh7cba7a3_0: sha256:aa31d20301349640a8e3a6230fc74c38301ad4e5ec25a0d770942f38557ad951
 docker: quay.io/biocontainers/netsyn
 aliases:
   aria2c: /usr/local/bin/aria2c

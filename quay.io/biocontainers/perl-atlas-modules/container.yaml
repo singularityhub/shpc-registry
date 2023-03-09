@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-atlas-modules
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-atlas-modules
 latest:
-  0.3.1--pl5262h87f3376_3: sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de
+  0.3.1--pl5262h87f3376_4: sha256:a2a9a002f32ff63ba959b5399e63552c53e5a8faf854af2eba3f0e0dcac27338
 tags:
   0.3.1--pl5262h87f3376_3: sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de
+  0.3.1--pl5262h87f3376_4: sha256:a2a9a002f32ff63ba959b5399e63552c53e5a8faf854af2eba3f0e0dcac27338
 docker: quay.io/biocontainers/perl-atlas-modules
 aliases:
   crc32: /usr/local/bin/crc32
