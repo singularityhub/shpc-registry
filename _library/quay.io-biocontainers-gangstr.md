@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gangstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gangstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gangstr/container.yaml"
-updated_at: "2023-03-08 21:33:47.435077"
-latest: "2.5.0--h48cf4b7_4"
+updated_at: "2023-03-09 03:32:04.663079"
+latest: "2.5.0--he5db1cc_5"
 container_url: "https://biocontainers.pro/tools/gangstr"
 aliases:
  - "GangSTR"
@@ -21,8 +21,9 @@ aliases:
  - "tabix"
 versions:
  - "2.5.0--h48cf4b7_4"
+ - "2.5.0--he5db1cc_5"
 description: "shpc-registry automated BioContainers addition for gangstr"
-config: {"url": "https://biocontainers.pro/tools/gangstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gangstr", "latest": {"2.5.0--h48cf4b7_4": "sha256:5a4fe8417fbf8de57adf7cf92be0d131b418c613213dab26b8ac018b8077ee81"}, "tags": {"2.5.0--h48cf4b7_4": "sha256:5a4fe8417fbf8de57adf7cf92be0d131b418c613213dab26b8ac018b8077ee81"}, "docker": "quay.io/biocontainers/gangstr", "aliases": {"GangSTR": "/usr/local/bin/GangSTR", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/gangstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gangstr", "latest": {"2.5.0--he5db1cc_5": "sha256:88cf68e842d9a812dacf0d0542ecf88a2cd4614f880bc5a175b07340c6d4e1fa"}, "tags": {"2.5.0--h48cf4b7_4": "sha256:5a4fe8417fbf8de57adf7cf92be0d131b418c613213dab26b8ac018b8077ee81", "2.5.0--he5db1cc_5": "sha256:88cf68e842d9a812dacf0d0542ecf88a2cd4614f880bc5a175b07340c6d4e1fa"}, "docker": "quay.io/biocontainers/gangstr", "aliases": {"GangSTR": "/usr/local/bin/GangSTR", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gangstr.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/gangstr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gangstr:2.5.0--h48cf4b7_4
+$ shpc install quay.io/biocontainers/gangstr:2.5.0--he5db1cc_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gangstr/2.5.0--h48cf4b7_4
-$ module help quay.io/biocontainers/gangstr/2.5.0--h48cf4b7_4
+$ module load quay.io/biocontainers/gangstr/2.5.0--he5db1cc_5
+$ module help quay.io/biocontainers/gangstr/2.5.0--he5db1cc_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

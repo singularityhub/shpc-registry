@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clair3-illumina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clair3-illumina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clair3-illumina/container.yaml"
-updated_at: "2023-03-08 21:19:38.058569"
+updated_at: "2023-03-09 03:15:00.304462"
 latest: "0.1.5--h2df963e_1"
 container_url: "https://biocontainers.pro/tools/clair3-illumina"
 aliases:

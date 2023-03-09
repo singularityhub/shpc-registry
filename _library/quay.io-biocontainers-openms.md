@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/openms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openms/container.yaml"
-updated_at: "2023-03-08 21:46:47.925383"
-latest: "2.8.0--h604f271_4"
+updated_at: "2023-03-09 03:47:47.950952"
+latest: "2.9.0--h135471a_0"
 container_url: "https://biocontainers.pro/tools/openms"
 
 versions:
  - "2.8.0--h7ca0330_3"
  - "2.8.0--h604f271_4"
+ - "2.9.0--h135471a_0"
 description: "shpc-registry automated BioContainers addition for openms"
-config: {"url": "https://biocontainers.pro/tools/openms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openms", "latest": {"2.8.0--h604f271_4": "sha256:ee39863df3e468d10e1a79e2388a9be848f5c8c3dc1ff1687c97c649309525cd"}, "tags": {"2.8.0--h7ca0330_3": "sha256:37623d295f4fa1808a1e92e31f2ebe402bcb733208a2d05218e31748f0d543d5", "2.8.0--h604f271_4": "sha256:ee39863df3e468d10e1a79e2388a9be848f5c8c3dc1ff1687c97c649309525cd"}, "docker": "quay.io/biocontainers/openms"}
+config: {"url": "https://biocontainers.pro/tools/openms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openms", "latest": {"2.9.0--h135471a_0": "sha256:4b5dffd6d6684de74fc5e911733200da79b3d3a715eb3d7924c1e72e0076fefe"}, "tags": {"2.8.0--h7ca0330_3": "sha256:37623d295f4fa1808a1e92e31f2ebe402bcb733208a2d05218e31748f0d543d5", "2.8.0--h604f271_4": "sha256:ee39863df3e468d10e1a79e2388a9be848f5c8c3dc1ff1687c97c649309525cd", "2.9.0--h135471a_0": "sha256:4b5dffd6d6684de74fc5e911733200da79b3d3a715eb3d7924c1e72e0076fefe"}, "docker": "quay.io/biocontainers/openms"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openms.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/openms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/openms:2.8.0--h604f271_4
+$ shpc install quay.io/biocontainers/openms:2.9.0--h135471a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/openms/2.8.0--h604f271_4
-$ module help quay.io/biocontainers/openms/2.8.0--h604f271_4
+$ module load quay.io/biocontainers/openms/2.9.0--h135471a_0
+$ module help quay.io/biocontainers/openms/2.9.0--h135471a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

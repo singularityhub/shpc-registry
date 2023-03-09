@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/takeabreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/takeabreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/takeabreak/container.yaml"
-updated_at: "2023-03-08 21:17:07.563471"
+updated_at: "2023-03-09 03:11:59.998420"
 latest: "1.1.2--h5b5514e_5"
 container_url: "https://biocontainers.pro/tools/takeabreak"
 aliases:

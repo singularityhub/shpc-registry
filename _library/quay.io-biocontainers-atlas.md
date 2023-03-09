@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas/container.yaml"
-updated_at: "2023-03-08 21:48:43.776177"
+updated_at: "2023-03-09 03:50:07.477565"
 latest: "0.9.9--h42556f1_1"
 container_url: "https://biocontainers.pro/tools/atlas"
 aliases:
