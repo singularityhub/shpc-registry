@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/libshorah
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for libshorah
+latest:
+  1.99.4--py39hcdbde3b_0: sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994
+tags:
+  1.99.4--py39hcdbde3b_0: sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994
+docker: quay.io/biocontainers/libshorah
+aliases:
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

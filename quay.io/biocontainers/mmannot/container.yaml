@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mmannot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mmannot
+latest:
+  1.0.3--hd03093a_0: sha256:eaa22b49303808faa0ee3c286294985da4e192daa807832a9478da5a800ce4a9
+tags:
+  1.0.3--hd03093a_0: sha256:eaa22b49303808faa0ee3c286294985da4e192daa807832a9478da5a800ce4a9
+docker: quay.io/biocontainers/mmannot
+aliases:
+  addNH: /usr/local/bin/addNH
+  mmannot: /usr/local/bin/mmannot
