@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qtlseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
-updated_at: "2023-03-09 03:51:38.655440"
+updated_at: "2023-03-10 03:06:42.217190"
 latest: "0.7.5.2--r42h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/r-qtlseqr"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/netsyn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netsyn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netsyn/container.yaml"
-updated_at: "2023-03-09 03:11:47.904504"
-latest: "0.1.1--pyh7cba7a3_0"
+updated_at: "2023-03-10 03:13:39.187154"
+latest: "0.1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/netsyn"
 aliases:
  - "aria2c"
@@ -56,8 +56,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.1.1--pyh7cba7a3_0"
+ - "0.1.2--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for netsyn"
-config: {"url": "https://biocontainers.pro/tools/netsyn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for netsyn", "latest": {"0.1.1--pyh7cba7a3_0": "sha256:06cc5d5678ab2fe63301421d2922b0ea516a34ae1ae236b4659ce1c59ecc1d04"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:06cc5d5678ab2fe63301421d2922b0ea516a34ae1ae236b4659ce1c59ecc1d04"}, "docker": "quay.io/biocontainers/netsyn", "aliases": {"aria2c": "/usr/local/bin/aria2c", "f2py3.11": "/usr/local/bin/f2py3.11", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "netsyn": "/usr/local/bin/netsyn", "netsyn_clusteringIntoFamilies": "/usr/local/bin/netsyn_clusteringIntoFamilies", "netsyn_dataExport": "/usr/local/bin/netsyn_dataExport", "netsyn_getINSDCFiles": "/usr/local/bin/netsyn_getINSDCFiles", "netsyn_parseINSDCFiles_GetTaxonomy": "/usr/local/bin/netsyn_parseINSDCFiles_GetTaxonomy", "netsyn_syntenyFinder": "/usr/local/bin/netsyn_syntenyFinder", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "mmseqs": "/usr/local/bin/mmseqs", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "jsonschema": "/usr/local/bin/jsonschema", "idn2": "/usr/local/bin/idn2", "glpsol": "/usr/local/bin/glpsol", "normalizer": "/usr/local/bin/normalizer", "wget": "/usr/local/bin/wget", "python3.1": "/usr/local/bin/python3.1", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/netsyn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for netsyn", "latest": {"0.1.2--pyh7cba7a3_0": "sha256:aa31d20301349640a8e3a6230fc74c38301ad4e5ec25a0d770942f38557ad951"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:06cc5d5678ab2fe63301421d2922b0ea516a34ae1ae236b4659ce1c59ecc1d04", "0.1.2--pyh7cba7a3_0": "sha256:aa31d20301349640a8e3a6230fc74c38301ad4e5ec25a0d770942f38557ad951"}, "docker": "quay.io/biocontainers/netsyn", "aliases": {"aria2c": "/usr/local/bin/aria2c", "f2py3.11": "/usr/local/bin/f2py3.11", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "netsyn": "/usr/local/bin/netsyn", "netsyn_clusteringIntoFamilies": "/usr/local/bin/netsyn_clusteringIntoFamilies", "netsyn_dataExport": "/usr/local/bin/netsyn_dataExport", "netsyn_getINSDCFiles": "/usr/local/bin/netsyn_getINSDCFiles", "netsyn_parseINSDCFiles_GetTaxonomy": "/usr/local/bin/netsyn_parseINSDCFiles_GetTaxonomy", "netsyn_syntenyFinder": "/usr/local/bin/netsyn_syntenyFinder", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "mmseqs": "/usr/local/bin/mmseqs", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "jsonschema": "/usr/local/bin/jsonschema", "idn2": "/usr/local/bin/idn2", "glpsol": "/usr/local/bin/glpsol", "normalizer": "/usr/local/bin/normalizer", "wget": "/usr/local/bin/wget", "python3.1": "/usr/local/bin/python3.1", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/netsyn.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/netsyn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/netsyn:0.1.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/netsyn:0.1.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/netsyn/0.1.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/netsyn/0.1.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/netsyn/0.1.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/netsyn/0.1.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

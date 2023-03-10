@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plant_tribes_kaks_analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plant_tribes_kaks_analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_kaks_analysis/container.yaml"
-updated_at: "2023-03-09 03:49:41.905466"
+updated_at: "2023-03-10 03:38:57.515084"
 latest: "1.0.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plant_tribes_kaks_analysis"
 aliases:

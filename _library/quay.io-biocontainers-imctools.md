@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/imctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imctools/container.yaml"
-updated_at: "2023-03-09 03:14:37.833630"
-latest: "1.0.8--pyh864c0ab_0"
+updated_at: "2023-03-10 03:25:10.871861"
+latest: "2.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/imctools"
 aliases:
  - "JxrDecApp"
@@ -20,8 +20,9 @@ aliases:
  - "zopflipng"
 versions:
  - "1.0.8--pyh864c0ab_0"
+ - "2.1.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for imctools"
-config: {"url": "https://biocontainers.pro/tools/imctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imctools", "latest": {"1.0.8--pyh864c0ab_0": "sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f"}, "tags": {"1.0.8--pyh864c0ab_0": "sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f"}, "docker": "quay.io/biocontainers/imctools", "aliases": {"JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
+config: {"url": "https://biocontainers.pro/tools/imctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imctools", "latest": {"2.1.8--pyhdfd78af_0": "sha256:9bae0e1ecfd94b9d0934a282ac648a95af1ef4ae158bd583b55f4e61e8f1dab1"}, "tags": {"1.0.8--pyh864c0ab_0": "sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f", "2.1.8--pyhdfd78af_0": "sha256:9bae0e1ecfd94b9d0934a282ac648a95af1ef4ae158bd583b55f4e61e8f1dab1"}, "docker": "quay.io/biocontainers/imctools", "aliases": {"JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/imctools.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/imctools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/imctools:1.0.8--pyh864c0ab_0
+$ shpc install quay.io/biocontainers/imctools:2.1.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/imctools/1.0.8--pyh864c0ab_0
-$ module help quay.io/biocontainers/imctools/1.0.8--pyh864c0ab_0
+$ module load quay.io/biocontainers/imctools/2.1.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/imctools/2.1.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

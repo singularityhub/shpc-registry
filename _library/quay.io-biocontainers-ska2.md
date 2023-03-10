@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ska2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ska2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ska2/container.yaml"
-updated_at: "2023-03-09 03:07:15.220435"
-latest: "0.2.0--h4349ce8_0"
+updated_at: "2023-03-10 03:19:43.372044"
+latest: "0.2.3--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/ska2"
 aliases:
  - "ska"
 versions:
  - "0.2.0--h4349ce8_0"
+ - "0.2.3--h4349ce8_0"
 description: "singularity registry hpc automated addition for ska2"
-config: {"url": "https://biocontainers.pro/tools/ska2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ska2", "latest": {"0.2.0--h4349ce8_0": "sha256:ac907e8f690bb947459c83e6a793a8b4baf053207e9f5de06d0dd43f3ae05ca1"}, "tags": {"0.2.0--h4349ce8_0": "sha256:ac907e8f690bb947459c83e6a793a8b4baf053207e9f5de06d0dd43f3ae05ca1"}, "docker": "quay.io/biocontainers/ska2", "aliases": {"ska": "/usr/local/bin/ska"}}
+config: {"url": "https://biocontainers.pro/tools/ska2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ska2", "latest": {"0.2.3--h4349ce8_0": "sha256:60f227a8f5c22ae96742b973e7efd221df68c1e0d9a88f103dcc1f4d6af57fe3"}, "tags": {"0.2.0--h4349ce8_0": "sha256:ac907e8f690bb947459c83e6a793a8b4baf053207e9f5de06d0dd43f3ae05ca1", "0.2.3--h4349ce8_0": "sha256:60f227a8f5c22ae96742b973e7efd221df68c1e0d9a88f103dcc1f4d6af57fe3"}, "docker": "quay.io/biocontainers/ska2", "aliases": {"ska": "/usr/local/bin/ska"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ska2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ska2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ska2:0.2.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/ska2:0.2.3--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ska2/0.2.0--h4349ce8_0
-$ module help quay.io/biocontainers/ska2/0.2.0--h4349ce8_0
+$ module load quay.io/biocontainers/ska2/0.2.3--h4349ce8_0
+$ module help quay.io/biocontainers/ska2/0.2.3--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
