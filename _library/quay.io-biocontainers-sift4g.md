@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sift4g"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sift4g/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sift4g/container.yaml"
-updated_at: "2023-03-10 03:43:20.901269"
+updated_at: "2023-03-10 04:03:05.293189"
 latest: "2.0.0--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/sift4g"
 aliases:

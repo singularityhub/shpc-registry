@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lme4qtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lme4qtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lme4qtl/container.yaml"
-updated_at: "2023-03-10 03:31:11.163373"
+updated_at: "2023-03-10 03:48:07.503518"
 latest: "0.1.10--r42h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/r-lme4qtl"
 aliases:

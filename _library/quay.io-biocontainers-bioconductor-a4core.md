@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-a4core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-a4core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-a4core/container.yaml"
-updated_at: "2023-03-10 03:44:37.141970"
+updated_at: "2023-03-10 04:04:46.309581"
 latest: "1.46.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-a4core"
 

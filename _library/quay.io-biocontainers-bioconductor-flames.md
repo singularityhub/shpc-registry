@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flames"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flames/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flames/container.yaml"
-updated_at: "2023-03-10 03:25:33.723193"
+updated_at: "2023-03-10 03:41:17.819477"
 latest: "1.3.4--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flames"
 
