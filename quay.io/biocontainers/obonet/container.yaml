@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/obonet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for obonet
+latest:
+  0.2.3--pyh7cba7a3_0: sha256:79d3e25d3f1b14d4332834a194408f228ac7fd6f336577ff2e8f10d05febef13
+tags:
+  0.2.3--pyh7cba7a3_0: sha256:79d3e25d3f1b14d4332834a194408f228ac7fd6f336577ff2e8f10d05febef13
+docker: quay.io/biocontainers/obonet
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

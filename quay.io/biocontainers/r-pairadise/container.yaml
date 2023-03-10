@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pairadise
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-pairadise
+latest:
+  1.0.0--r36hdfd78af_0: sha256:c292a459567f7daa0303ad96df135289454e0293da14e3012f084a771d50e8f6
+tags:
+  1.0.0--r36hdfd78af_0: sha256:c292a459567f7daa0303ad96df135289454e0293da14e3012f084a771d50e8f6
+docker: quay.io/biocontainers/r-pairadise
