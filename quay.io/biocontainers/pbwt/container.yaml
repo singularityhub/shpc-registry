@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pbwt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbwt
 latest:
-  3.0--hb0d9459_7: sha256:7bb9e6d57c8010f3f6c654f0f67aad48f43db3e1dcdb2cf71f3414f67126ef75
+  3.0--hc88714e_8: sha256:0da5d9e94130efdc90cd02ecaca856a0d9ed9cf4ae02d268c60bfce65d663a6a
 tags:
   3.0--hb0d9459_7: sha256:7bb9e6d57c8010f3f6c654f0f67aad48f43db3e1dcdb2cf71f3414f67126ef75
+  3.0--hc88714e_8: sha256:0da5d9e94130efdc90cd02ecaca856a0d9ed9cf4ae02d268c60bfce65d663a6a
 docker: quay.io/biocontainers/pbwt
 aliases:
   pbwt: /usr/local/bin/pbwt

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pandas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pandas
 latest:
-  1.4.3: sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7
+  1.5.2: sha256:cbb54fcf873049f2deaa000ef278eba83cb3aedcb8e5ac12fbb850717b83b94d
 tags:
   1.4.3: sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7
+  1.5.2: sha256:cbb54fcf873049f2deaa000ef278eba83cb3aedcb8e5ac12fbb850717b83b94d
 docker: quay.io/biocontainers/pandas
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10
