@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bleties"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bleties/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bleties/container.yaml"
-updated_at: "2023-03-11 02:47:49.082658"
+updated_at: "2023-03-11 20:12:23.517249"
 latest: "0.1.11--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bleties"
 aliases:

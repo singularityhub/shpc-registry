@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanomod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomod/container.yaml"
-updated_at: "2023-03-11 03:14:00.564806"
+updated_at: "2023-03-11 20:38:50.151310"
 latest: "0.2.2--py_0"
 container_url: "https://biocontainers.pro/tools/nanomod"
 aliases:

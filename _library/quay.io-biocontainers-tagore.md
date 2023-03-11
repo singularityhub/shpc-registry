@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tagore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tagore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tagore/container.yaml"
-updated_at: "2023-03-11 02:50:49.226843"
+updated_at: "2023-03-11 20:15:26.057833"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tagore"
 
