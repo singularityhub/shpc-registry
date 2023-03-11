@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ngsderive
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngsderive
 latest:
-  2.2.0--pyhdfd78af_2: sha256:e7d67221fdb0533864b15b01334bd6f021be06c8415629794472c0e4a14264a6
+  2.3.1--pyhdfd78af_0: sha256:b3c084a1e28e32ec1a0c1d1ffe99a45e66f5fb8799a59405e9c8cfd0297b99b7
 tags:
   2.2.0--pyhdfd78af_0: sha256:4ba72e81999e11fce4dfb90453d33c82c2d07f0880ef8c2df14f54887f3bf8af
   2.2.0--pyhdfd78af_2: sha256:e7d67221fdb0533864b15b01334bd6f021be06c8415629794472c0e4a14264a6
+  2.3.1--pyhdfd78af_0: sha256:b3c084a1e28e32ec1a0c1d1ffe99a45e66f5fb8799a59405e9c8cfd0297b99b7
 docker: quay.io/biocontainers/ngsderive
 aliases:
   ngsderive: /usr/local/bin/ngsderive

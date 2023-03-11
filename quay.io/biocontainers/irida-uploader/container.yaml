@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/irida-uploader
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for irida-uploader
 latest:
-  0.8.3--pyhdfd78af_0: sha256:a8975bfde6c9447aa3a570d404bae8b15afe7744dec9b9279b8ad24be66c91a7
+  0.9.0--pyhdfd78af_0: sha256:6583c1124fe93a6d0fcdd50ea81d81d41541ddf611d7f309b4796b73f5b2f5a5
 tags:
   0.8.3--pyhdfd78af_0: sha256:a8975bfde6c9447aa3a570d404bae8b15afe7744dec9b9279b8ad24be66c91a7
+  0.9.0--pyhdfd78af_0: sha256:6583c1124fe93a6d0fcdd50ea81d81d41541ddf611d7f309b4796b73f5b2f5a5
 docker: quay.io/biocontainers/irida-uploader
 aliases:
   integration-test: /usr/local/bin/integration-test

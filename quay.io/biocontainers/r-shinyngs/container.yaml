@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-shinyngs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-shinyngs
 latest:
-  1.5.5--r42hdfd78af_0: sha256:e3d3807e113700aef476693884d108a55f8e147c0589112fb5bcad182a1bf0fd
+  1.5.6--r42hdfd78af_1: sha256:3e7b35d0b59b27096c646800a9b6a0f6fb6792c1d573df885353e2000b3b2406
 tags:
   1.2.0--r41hdfd78af_0: sha256:0b2271a598ca51e7099addc4126c557292666b864121fb1a9011c35e919ff79b
   1.4.2--r42hdfd78af_1: sha256:3330de58c91d3f130fb40ab7bcc3f163b9e33f63af72f511ca90383659b1cdd2
@@ -10,6 +10,7 @@ tags:
   1.4.2--r42hdfd78af_3: sha256:c983dcf329f4ddee9b8cae70b5fc979322f806051cd6b6dfea37390664f0f826
   1.5.1--r42hdfd78af_0: sha256:264d95da54d2efc272715b255acf3d03a0ce77c608f2acc8c12c63193ca533b0
   1.5.5--r42hdfd78af_0: sha256:e3d3807e113700aef476693884d108a55f8e147c0589112fb5bcad182a1bf0fd
+  1.5.6--r42hdfd78af_1: sha256:3e7b35d0b59b27096c646800a9b6a0f6fb6792c1d573df885353e2000b3b2406
 docker: quay.io/biocontainers/r-shinyngs
 aliases:
   make_app_from_files.R: /usr/local/bin/make_app_from_files.R

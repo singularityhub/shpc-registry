@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bamm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bamm
 latest:
-  1.7.3--py27h8478def_12: sha256:f7eff70100b510a6b8bf15ebd2afa4279581ca5465591a43868b167050e6eb1e
+  1.7.3--py27h56deecb_13: sha256:447aeba2bcde07b9a073ac07ee02f54080feaf6b3b36851c5dd4c480d06f5e6d
 tags:
   1.7.3--py27hf4361d6_8: sha256:6375c3c260bfa8e4e4ab6f195303f265e34af4cad2a856a828951965efb7a88d
   1.7.3--py27h8478def_12: sha256:f7eff70100b510a6b8bf15ebd2afa4279581ca5465591a43868b167050e6eb1e
+  1.7.3--py27h56deecb_13: sha256:447aeba2bcde07b9a073ac07ee02f54080feaf6b3b36851c5dd4c480d06f5e6d
 docker: quay.io/biocontainers/bamm
 aliases:
   bamFlags: /usr/local/bin/bamFlags

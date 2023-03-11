@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bwa-meme
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bwa-meme
 latest:
-  1.0.5--hd03093a_0: sha256:8cb6127d4e75c6397363015937748f3f528100a52cfe448fe7fac4ebfbccc11e
+  1.0.6--hd03093a_0: sha256:fcc7964c726542cbda041ce5cccbcf9a5b4b0790e230a1dbda7439e428966313
 tags:
   1.0.5--hd03093a_0: sha256:8cb6127d4e75c6397363015937748f3f528100a52cfe448fe7fac4ebfbccc11e
+  1.0.6--hd03093a_0: sha256:fcc7964c726542cbda041ce5cccbcf9a5b4b0790e230a1dbda7439e428966313
 docker: quay.io/biocontainers/bwa-meme
 aliases:
   build_rmis_dna.sh: /usr/local/bin/build_rmis_dna.sh

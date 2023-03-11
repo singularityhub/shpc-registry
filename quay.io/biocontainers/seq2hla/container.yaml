@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seq2hla
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seq2hla
 latest:
-  2.2--2: sha256:6a2afa9839a516073fdd3977bf31c7acd403fa1ed66ceda34a27bec02138a59c
+  2.3--hdfd78af_1: sha256:5eb95987b52dd61dd07e74e9e0c673056613622995a5dd3a3542478583b8e73e
 tags:
   2.2--2: sha256:6a2afa9839a516073fdd3977bf31c7acd403fa1ed66ceda34a27bec02138a59c
+  2.3--hdfd78af_1: sha256:5eb95987b52dd61dd07e74e9e0c673056613622995a5dd3a3542478583b8e73e
 docker: quay.io/biocontainers/seq2hla
 aliases:
   seq2HLA: /usr/local/bin/seq2HLA
