@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alevin-fry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alevin-fry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alevin-fry/container.yaml"
-updated_at: "2023-03-10 03:44:17.262244"
+updated_at: "2023-03-11 03:07:12.716620"
 latest: "0.8.1--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/alevin-fry"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbwt/container.yaml"
-updated_at: "2023-03-10 03:55:23.295036"
-latest: "3.0--hb0d9459_7"
+updated_at: "2023-03-11 03:16:16.567687"
+latest: "3.0--hc88714e_8"
 container_url: "https://biocontainers.pro/tools/pbwt"
 aliases:
  - "pbwt"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "3.0--hb0d9459_7"
+ - "3.0--hc88714e_8"
 description: "shpc-registry automated BioContainers addition for pbwt"
-config: {"url": "https://biocontainers.pro/tools/pbwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbwt", "latest": {"3.0--hb0d9459_7": "sha256:7bb9e6d57c8010f3f6c654f0f67aad48f43db3e1dcdb2cf71f3414f67126ef75"}, "tags": {"3.0--hb0d9459_7": "sha256:7bb9e6d57c8010f3f6c654f0f67aad48f43db3e1dcdb2cf71f3414f67126ef75"}, "docker": "quay.io/biocontainers/pbwt", "aliases": {"pbwt": "/usr/local/bin/pbwt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/pbwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbwt", "latest": {"3.0--hc88714e_8": "sha256:0da5d9e94130efdc90cd02ecaca856a0d9ed9cf4ae02d268c60bfce65d663a6a"}, "tags": {"3.0--hb0d9459_7": "sha256:7bb9e6d57c8010f3f6c654f0f67aad48f43db3e1dcdb2cf71f3414f67126ef75", "3.0--hc88714e_8": "sha256:0da5d9e94130efdc90cd02ecaca856a0d9ed9cf4ae02d268c60bfce65d663a6a"}, "docker": "quay.io/biocontainers/pbwt", "aliases": {"pbwt": "/usr/local/bin/pbwt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbwt.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/pbwt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbwt:3.0--hb0d9459_7
+$ shpc install quay.io/biocontainers/pbwt:3.0--hc88714e_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbwt/3.0--hb0d9459_7
-$ module help quay.io/biocontainers/pbwt/3.0--hb0d9459_7
+$ module load quay.io/biocontainers/pbwt/3.0--hc88714e_8
+$ module help quay.io/biocontainers/pbwt/3.0--hc88714e_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

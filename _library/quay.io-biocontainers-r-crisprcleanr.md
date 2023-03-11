@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-crisprcleanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-crisprcleanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-crisprcleanr/container.yaml"
-updated_at: "2023-03-10 03:13:05.822817"
-latest: "3.0.0--r42hdfd78af_0"
+updated_at: "2023-03-11 02:42:11.734293"
+latest: "3.0.0--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-crisprcleanr"
 
 versions:
  - "2.3.1--r41hdfd78af_0"
  - "2.3.1--r42hdfd78af_1"
  - "3.0.0--r42hdfd78af_0"
+ - "3.0.0--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-crisprcleanr"
-config: {"url": "https://biocontainers.pro/tools/r-crisprcleanr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-crisprcleanr", "latest": {"3.0.0--r42hdfd78af_0": "sha256:b9e21664b6e4cca1c13dda84622887e269cb5c39760bbcb84fa32bd49873d21b"}, "tags": {"2.3.1--r41hdfd78af_0": "sha256:6b6ac5be02b266bb7f645cea235f7a97abe00c8203424730de1dd04e54128eb1", "2.3.1--r42hdfd78af_1": "sha256:2bd10491471084d969f258316680bb9c93a3fcd16276e9b6ae4de8f5d590ad7e", "3.0.0--r42hdfd78af_0": "sha256:b9e21664b6e4cca1c13dda84622887e269cb5c39760bbcb84fa32bd49873d21b"}, "docker": "quay.io/biocontainers/r-crisprcleanr"}
+config: {"url": "https://biocontainers.pro/tools/r-crisprcleanr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-crisprcleanr", "latest": {"3.0.0--r42hdfd78af_1": "sha256:338862ffb97d96c21a241d802258f5f4a535c264bfbce6df6c8cc0380ad33df8"}, "tags": {"2.3.1--r41hdfd78af_0": "sha256:6b6ac5be02b266bb7f645cea235f7a97abe00c8203424730de1dd04e54128eb1", "2.3.1--r42hdfd78af_1": "sha256:2bd10491471084d969f258316680bb9c93a3fcd16276e9b6ae4de8f5d590ad7e", "3.0.0--r42hdfd78af_0": "sha256:b9e21664b6e4cca1c13dda84622887e269cb5c39760bbcb84fa32bd49873d21b", "3.0.0--r42hdfd78af_1": "sha256:338862ffb97d96c21a241d802258f5f4a535c264bfbce6df6c8cc0380ad33df8"}, "docker": "quay.io/biocontainers/r-crisprcleanr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-crisprcleanr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-crisprcleanr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-crisprcleanr:3.0.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-crisprcleanr:3.0.0--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-crisprcleanr/3.0.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-crisprcleanr/3.0.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-crisprcleanr/3.0.0--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-crisprcleanr/3.0.0--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

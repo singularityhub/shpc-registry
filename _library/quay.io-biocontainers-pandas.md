@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandas/container.yaml"
-updated_at: "2023-03-10 03:13:17.001023"
-latest: "1.4.3"
+updated_at: "2023-03-11 02:42:20.740749"
+latest: "1.5.2"
 container_url: "https://biocontainers.pro/tools/pandas"
 aliases:
  - "f2py3.10"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.4.3"
+ - "1.5.2"
 description: "shpc-registry automated BioContainers addition for pandas"
-config: {"url": "https://biocontainers.pro/tools/pandas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandas", "latest": {"1.4.3": "sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7"}, "tags": {"1.4.3": "sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7"}, "docker": "quay.io/biocontainers/pandas", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pandas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandas", "latest": {"1.5.2": "sha256:cbb54fcf873049f2deaa000ef278eba83cb3aedcb8e5ac12fbb850717b83b94d"}, "tags": {"1.4.3": "sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7", "1.5.2": "sha256:cbb54fcf873049f2deaa000ef278eba83cb3aedcb8e5ac12fbb850717b83b94d"}, "docker": "quay.io/biocontainers/pandas", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pandas.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pandas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pandas:1.4.3
+$ shpc install quay.io/biocontainers/pandas:1.5.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pandas/1.4.3
-$ module help quay.io/biocontainers/pandas/1.4.3
+$ module load quay.io/biocontainers/pandas/1.5.2
+$ module help quay.io/biocontainers/pandas/1.5.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

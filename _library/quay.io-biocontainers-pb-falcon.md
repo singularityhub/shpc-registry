@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/pb-falcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-falcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-falcon/container.yaml"
-updated_at: "2023-03-10 03:18:50.071222"
-latest: "2.2.4--py38ha1fcc84_2"
+updated_at: "2023-03-11 02:46:49.871122"
+latest: "2.2.4--py37h6a4bb35_3"
 container_url: "https://biocontainers.pro/tools/pb-falcon"
 
 versions:
  - "2.2.4--py38ha1fcc84_2"
+ - "2.2.4--py37h6a4bb35_3"
 description: "shpc-registry automated BioContainers addition for pb-falcon"
-config: {"url": "https://biocontainers.pro/tools/pb-falcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-falcon", "latest": {"2.2.4--py38ha1fcc84_2": "sha256:8270d1a95e6fb20c991ad67947600a55db8a50650b94b0efa0a58d5b76f23487"}, "tags": {"2.2.4--py38ha1fcc84_2": "sha256:8270d1a95e6fb20c991ad67947600a55db8a50650b94b0efa0a58d5b76f23487"}, "docker": "quay.io/biocontainers/pb-falcon"}
+config: {"url": "https://biocontainers.pro/tools/pb-falcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-falcon", "latest": {"2.2.4--py37h6a4bb35_3": "sha256:98e6432e4642bd1cfaed26f08c7c1186e7cf59d890f3e26730d5fc90d92a8ee9"}, "tags": {"2.2.4--py38ha1fcc84_2": "sha256:8270d1a95e6fb20c991ad67947600a55db8a50650b94b0efa0a58d5b76f23487", "2.2.4--py37h6a4bb35_3": "sha256:98e6432e4642bd1cfaed26f08c7c1186e7cf59d890f3e26730d5fc90d92a8ee9"}, "docker": "quay.io/biocontainers/pb-falcon"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pb-falcon.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/pb-falcon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pb-falcon:2.2.4--py38ha1fcc84_2
+$ shpc install quay.io/biocontainers/pb-falcon:2.2.4--py37h6a4bb35_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pb-falcon/2.2.4--py38ha1fcc84_2
-$ module help quay.io/biocontainers/pb-falcon/2.2.4--py38ha1fcc84_2
+$ module load quay.io/biocontainers/pb-falcon/2.2.4--py37h6a4bb35_3
+$ module help quay.io/biocontainers/pb-falcon/2.2.4--py37h6a4bb35_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

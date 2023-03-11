@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-acidexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidexperiment/container.yaml"
-updated_at: "2023-03-10 03:30:49.667397"
-latest: "0.4.5--r42hdfd78af_0"
+updated_at: "2023-03-11 02:56:27.365558"
+latest: "0.4.5--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-acidexperiment"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.4.4--r42hdfd78af_0"
  - "0.4.4--r42hdfd78af_1"
  - "0.4.5--r42hdfd78af_0"
+ - "0.4.5--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-acidexperiment"
-config: {"url": "https://biocontainers.pro/tools/r-acidexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidexperiment", "latest": {"0.4.5--r42hdfd78af_0": "sha256:b80b37a52a231b6fb0f0572ca94db8c2a5491aa811c9625affd6863acbbd5d73"}, "tags": {"0.3.0--r41hdfd78af_0": "sha256:7f190b21233e13ed428108eed86005c9896f03d82fad42d5c45a5c81252b12a3", "0.4.4--r42hdfd78af_0": "sha256:9ce87bf63b684343a8b113ef9f829b60c53c8064805dce7746ebd1ee9cac6871", "0.4.4--r42hdfd78af_1": "sha256:565b32ae3b62788a82bf497ed2f5b1f948a7586c6ec242a62d410fe95a248de2", "0.4.5--r42hdfd78af_0": "sha256:b80b37a52a231b6fb0f0572ca94db8c2a5491aa811c9625affd6863acbbd5d73"}, "docker": "quay.io/biocontainers/r-acidexperiment"}
+config: {"url": "https://biocontainers.pro/tools/r-acidexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidexperiment", "latest": {"0.4.5--r42hdfd78af_1": "sha256:53f87b72022e263f79853356f645faff833ff307148a1b235b97288080758b3c"}, "tags": {"0.3.0--r41hdfd78af_0": "sha256:7f190b21233e13ed428108eed86005c9896f03d82fad42d5c45a5c81252b12a3", "0.4.4--r42hdfd78af_0": "sha256:9ce87bf63b684343a8b113ef9f829b60c53c8064805dce7746ebd1ee9cac6871", "0.4.4--r42hdfd78af_1": "sha256:565b32ae3b62788a82bf497ed2f5b1f948a7586c6ec242a62d410fe95a248de2", "0.4.5--r42hdfd78af_0": "sha256:b80b37a52a231b6fb0f0572ca94db8c2a5491aa811c9625affd6863acbbd5d73", "0.4.5--r42hdfd78af_1": "sha256:53f87b72022e263f79853356f645faff833ff307148a1b235b97288080758b3c"}, "docker": "quay.io/biocontainers/r-acidexperiment"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidexperiment.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-acidexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidexperiment:0.4.5--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidexperiment:0.4.5--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidexperiment/0.4.5--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-acidexperiment/0.4.5--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-acidexperiment/0.4.5--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-acidexperiment/0.4.5--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

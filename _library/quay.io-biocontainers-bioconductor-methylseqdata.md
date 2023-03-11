@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylseqdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylseqdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylseqdata/container.yaml"
-updated_at: "2023-03-10 03:42:34.525845"
+updated_at: "2023-03-11 03:05:52.231063"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylseqdata"
 
