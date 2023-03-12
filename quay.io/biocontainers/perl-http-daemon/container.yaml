@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-http-daemon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-http-daemon
 latest:
-  6.14--pl5321hdfd78af_0: sha256:ee79adb1b2dd319cb5e14c6a91253e5ea28b7e6385f23fc3464b2722e84c4183
+  6.15--pl5321hdfd78af_0: sha256:1f5a2c62f264fc53c9777b86a435c4bb0e30428034a02b8b487fecf420c25faf
 tags:
   6.14--pl5321hdfd78af_0: sha256:ee79adb1b2dd319cb5e14c6a91253e5ea28b7e6385f23fc3464b2722e84c4183
+  6.15--pl5321hdfd78af_0: sha256:1f5a2c62f264fc53c9777b86a435c4bb0e30428034a02b8b487fecf420c25faf
 docker: quay.io/biocontainers/perl-http-daemon
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

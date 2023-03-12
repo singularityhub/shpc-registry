@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hocort
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hocort
 latest:
-  1.1.0--py39hdfd78af_0: sha256:03bed85cc404179c27797043cba5fbf6efb5cb198a64b31f4ebea78211dff489
+  1.2.0--py39hdfd78af_0: sha256:56e64bea1a59159ca54a307f66ce702dc1a278aec2118c5f3a7280d968b9f3a3
 tags:
   1.1.0--py39hdfd78af_0: sha256:03bed85cc404179c27797043cba5fbf6efb5cb198a64b31f4ebea78211dff489
+  1.2.0--py39hdfd78af_0: sha256:56e64bea1a59159ca54a307f66ce702dc1a278aec2118c5f3a7280d968b9f3a3
 docker: quay.io/biocontainers/hocort
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh

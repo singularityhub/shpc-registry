@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-bulkanalyser
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-bulkanalyser
 latest:
-  1.1.0--r42h3121a25_0: sha256:56ab13286c6217f348ac20b14977c66ddec0ef7d51b50e1b106572a4527072a1
+  1.1.0--r42h3121a25_1: sha256:b78204a0e5e0e90941a7c138ae971cfc5d60da65c98cda0e94eac6435b5823a4
 tags:
   1.1.0--r42h3121a25_0: sha256:56ab13286c6217f348ac20b14977c66ddec0ef7d51b50e1b106572a4527072a1
+  1.1.0--r42h3121a25_1: sha256:b78204a0e5e0e90941a7c138ae971cfc5d60da65c98cda0e94eac6435b5823a4
 docker: quay.io/biocontainers/r-bulkanalyser
 aliases:
   qconvex: /usr/local/bin/qconvex
