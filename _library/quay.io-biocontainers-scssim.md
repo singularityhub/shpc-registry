@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scssim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scssim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scssim/container.yaml"
-updated_at: "2023-03-11 20:41:11.416756"
+updated_at: "2023-03-12 03:29:23.608905"
 latest: "1.0--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/scssim"
 aliases:

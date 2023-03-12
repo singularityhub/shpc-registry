@@ -4,8 +4,8 @@ name:  "rabbitmq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rabbitmq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rabbitmq/container.yaml"
-updated_at: "2023-03-11 20:01:37.912839"
-latest: "3.11"
+updated_at: "2023-03-12 02:48:09.037490"
+latest: "3.12-rc"
 container_url: "https://hub.docker.com/r/_/rabbitmq"
 aliases:
  - "rabbitmq-defaults"
@@ -35,8 +35,9 @@ versions:
  - "3.8"
  - "3.10"
  - "3.11"
+ - "3.12-rc"
 description: "RabbitMQ is an open source multi-protocol messaging broker."
-config: {"docker": "rabbitmq", "url": "https://hub.docker.com/r/_/rabbitmq", "maintainer": "@vsoch", "description": "RabbitMQ is an open source multi-protocol messaging broker.", "latest": {"3.11": "sha256:9cccc6d80d36ae5b62929bae24ec98a2a6a7816ca780bd4a6351aa222d1b345a"}, "tags": {"3.8.15-rc.2-alpine": "sha256:56682567544860464b89625edbd28b524ca12aa5cae4e76ee9e5b887a2db7a06", "3.8.16-alpine": "sha256:87f7fde78fb62b1aa145efe7d81c0b450f8c13e608ee322794c872956380f90e", "3.8.17-alpine": "sha256:3033061a6e7e48897fb79d6922e282d92c8ced016721aaadee9a67cb25c9b03c", "3.8.17-rc.1-alpine": "sha256:a33f53d57c9c35999aa352b67c4e53ce956d147c38d50a809ed19da7783358ac", "3.8.18-beta.1-alpine": "sha256:341d8787808c860599bf6a87e482ccc9efbd69aa3a246554d924a693ad64d9ff", "3.9.0-beta.2-alpine": "sha256:b1a3a20958ddbbd2ad7c169c8d40c7a2d0d6a23d53380ff2b9aee876e14f8630", "3.9.5": "sha256:3b3f7b55be78e1b3c7330671ffc3f5e3670f66f040a4a429109a7f56c90464dc", "3.9.8": "sha256:19e69a7a65fa6b1d0a5c658bad8ec03d2c9900a98ebbc744c34d49179ff517bf", "3.9.10": "sha256:0d862496f77a3bd377eb5de437411a4388885f0f0c2452291e97a85bc89df87a", "3.9.11": "sha256:884146137011519524d506a12687127f3d2c7c37c2cc11206dc72c59bedea5e2", "3.9.13": "sha256:f5c8c7fd99e4c88527276df319556fdcb56e4d289614c5fefda5ee8d17c5ea89", "latest": "sha256:9cccc6d80d36ae5b62929bae24ec98a2a6a7816ca780bd4a6351aa222d1b345a", "3": "sha256:9cccc6d80d36ae5b62929bae24ec98a2a6a7816ca780bd4a6351aa222d1b345a", "3.10-rc": "sha256:8bc95a99b637276b8cebda5c4d8bf0cbac8ea5cc0ac9410f71c1d570e799c9c6", "3.9": "sha256:e006eb5130b1323a035e97b160276eb9f0921ab2d452da2d4b7726d191d73f43", "3.8": "sha256:5e859a09297ff0532312d5a95d4cf87b524991b265df0b7e3111be0db1391360", "3.10": "sha256:63c6b142a235fd49d2775aae26fa803cf89748850e45863f8f9c48ce98c078e7", "3.11": "sha256:9cccc6d80d36ae5b62929bae24ec98a2a6a7816ca780bd4a6351aa222d1b345a"}, "aliases": {"rabbitmq-defaults": "/opt/rabbitmq/sbin/rabbitmq-defaults", "rabbitmq-diagnostics": "/opt/rabbitmq/sbin/rabbitmq-diagnostics", "rabbitmq-env": "/opt/rabbitmq/sbin/rabbitmq-env", "rabbitmq-plugins": "/opt/rabbitmq/sbin/rabbitmq-plugins", "rabbitmq-queues": "/opt/rabbitmq/sbin/rabbitmq-queues", "rabbitmq-server": "/opt/rabbitmq/sbin/rabbitmq-server", "rabbitmq-upgrade": "/opt/rabbitmq/sbin/rabbitmq-upgrade", "rabbitmqctl": "/opt/rabbitmq/sbin/rabbitmqctl"}}
+config: {"docker": "rabbitmq", "url": "https://hub.docker.com/r/_/rabbitmq", "maintainer": "@vsoch", "description": "RabbitMQ is an open source multi-protocol messaging broker.", "latest": {"3.12-rc": "sha256:233dc031a4ec22bbb3db1becbfdf678d4ef4097fdf3f74d7f7087c20ff071342"}, "tags": {"3.8.15-rc.2-alpine": "sha256:56682567544860464b89625edbd28b524ca12aa5cae4e76ee9e5b887a2db7a06", "3.8.16-alpine": "sha256:87f7fde78fb62b1aa145efe7d81c0b450f8c13e608ee322794c872956380f90e", "3.8.17-alpine": "sha256:3033061a6e7e48897fb79d6922e282d92c8ced016721aaadee9a67cb25c9b03c", "3.8.17-rc.1-alpine": "sha256:a33f53d57c9c35999aa352b67c4e53ce956d147c38d50a809ed19da7783358ac", "3.8.18-beta.1-alpine": "sha256:341d8787808c860599bf6a87e482ccc9efbd69aa3a246554d924a693ad64d9ff", "3.9.0-beta.2-alpine": "sha256:b1a3a20958ddbbd2ad7c169c8d40c7a2d0d6a23d53380ff2b9aee876e14f8630", "3.9.5": "sha256:3b3f7b55be78e1b3c7330671ffc3f5e3670f66f040a4a429109a7f56c90464dc", "3.9.8": "sha256:19e69a7a65fa6b1d0a5c658bad8ec03d2c9900a98ebbc744c34d49179ff517bf", "3.9.10": "sha256:0d862496f77a3bd377eb5de437411a4388885f0f0c2452291e97a85bc89df87a", "3.9.11": "sha256:884146137011519524d506a12687127f3d2c7c37c2cc11206dc72c59bedea5e2", "3.9.13": "sha256:f5c8c7fd99e4c88527276df319556fdcb56e4d289614c5fefda5ee8d17c5ea89", "latest": "sha256:5ad9035280c62539bd1cb50621df111dd903590e4ecb22ca5749669d13accdc7", "3": "sha256:5ad9035280c62539bd1cb50621df111dd903590e4ecb22ca5749669d13accdc7", "3.10-rc": "sha256:8bc95a99b637276b8cebda5c4d8bf0cbac8ea5cc0ac9410f71c1d570e799c9c6", "3.9": "sha256:a8a724f1bb4c9c0f42b8af26e842d7fa77fe9ee2a56245a8b14aba6fba1828a8", "3.8": "sha256:5e859a09297ff0532312d5a95d4cf87b524991b265df0b7e3111be0db1391360", "3.10": "sha256:4ec425070acf36aa648461e1956907b9c20c3f64fe6d62b58a8a478870db5799", "3.11": "sha256:5ad9035280c62539bd1cb50621df111dd903590e4ecb22ca5749669d13accdc7", "3.12-rc": "sha256:233dc031a4ec22bbb3db1becbfdf678d4ef4097fdf3f74d7f7087c20ff071342"}, "aliases": {"rabbitmq-defaults": "/opt/rabbitmq/sbin/rabbitmq-defaults", "rabbitmq-diagnostics": "/opt/rabbitmq/sbin/rabbitmq-diagnostics", "rabbitmq-env": "/opt/rabbitmq/sbin/rabbitmq-env", "rabbitmq-plugins": "/opt/rabbitmq/sbin/rabbitmq-plugins", "rabbitmq-queues": "/opt/rabbitmq/sbin/rabbitmq-queues", "rabbitmq-server": "/opt/rabbitmq/sbin/rabbitmq-server", "rabbitmq-upgrade": "/opt/rabbitmq/sbin/rabbitmq-upgrade", "rabbitmqctl": "/opt/rabbitmq/sbin/rabbitmqctl"}}
 ---
 
 This module is a singularity container wrapper for rabbitmq.
@@ -51,7 +52,7 @@ $ shpc install rabbitmq
 Or a specific version:
 
 ```bash
-$ shpc install rabbitmq:3.11
+$ shpc install rabbitmq:3.12-rc
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rabbitmq/3.11
-$ module help rabbitmq/3.11
+$ module load rabbitmq/3.12-rc
+$ module help rabbitmq/3.12-rc
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

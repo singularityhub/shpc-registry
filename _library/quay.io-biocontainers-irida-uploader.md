@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/irida-uploader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-uploader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irida-uploader/container.yaml"
-updated_at: "2023-03-11 20:14:42.121820"
-latest: "0.8.3--pyhdfd78af_0"
+updated_at: "2023-03-12 03:01:50.017806"
+latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/irida-uploader"
 aliases:
  - "integration-test"
@@ -23,8 +23,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.8.3--pyhdfd78af_0"
+ - "0.9.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for irida-uploader"
-config: {"url": "https://biocontainers.pro/tools/irida-uploader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-uploader", "latest": {"0.8.3--pyhdfd78af_0": "sha256:a8975bfde6c9447aa3a570d404bae8b15afe7744dec9b9279b8ad24be66c91a7"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:a8975bfde6c9447aa3a570d404bae8b15afe7744dec9b9279b8ad24be66c91a7"}, "docker": "quay.io/biocontainers/irida-uploader", "aliases": {"integration-test": "/usr/local/bin/integration-test", "irida-uploader": "/usr/local/bin/irida-uploader", "irida-uploader-gui": "/usr/local/bin/irida-uploader-gui", "normalizer": "/usr/local/bin/normalizer", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/irida-uploader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-uploader", "latest": {"0.9.0--pyhdfd78af_0": "sha256:6583c1124fe93a6d0fcdd50ea81d81d41541ddf611d7f309b4796b73f5b2f5a5"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:a8975bfde6c9447aa3a570d404bae8b15afe7744dec9b9279b8ad24be66c91a7", "0.9.0--pyhdfd78af_0": "sha256:6583c1124fe93a6d0fcdd50ea81d81d41541ddf611d7f309b4796b73f5b2f5a5"}, "docker": "quay.io/biocontainers/irida-uploader", "aliases": {"integration-test": "/usr/local/bin/integration-test", "irida-uploader": "/usr/local/bin/irida-uploader", "irida-uploader-gui": "/usr/local/bin/irida-uploader-gui", "normalizer": "/usr/local/bin/normalizer", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irida-uploader.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/irida-uploader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/irida-uploader:0.8.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/irida-uploader:0.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/irida-uploader/0.8.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/irida-uploader/0.8.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/irida-uploader/0.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/irida-uploader/0.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

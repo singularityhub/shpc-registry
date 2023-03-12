@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/obonet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/obonet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/obonet/container.yaml"
-updated_at: "2023-03-11 20:23:51.289309"
-latest: "0.2.3--pyh7cba7a3_0"
+updated_at: "2023-03-12 03:11:26.469457"
+latest: "1.0.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/obonet"
 aliases:
  - "2to3-3.11"
@@ -16,8 +16,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.2.3--pyh7cba7a3_0"
+ - "1.0.0--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for obonet"
-config: {"url": "https://biocontainers.pro/tools/obonet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for obonet", "latest": {"0.2.3--pyh7cba7a3_0": "sha256:79d3e25d3f1b14d4332834a194408f228ac7fd6f336577ff2e8f10d05febef13"}, "tags": {"0.2.3--pyh7cba7a3_0": "sha256:79d3e25d3f1b14d4332834a194408f228ac7fd6f336577ff2e8f10d05febef13"}, "docker": "quay.io/biocontainers/obonet", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/obonet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for obonet", "latest": {"1.0.0--pyh7cba7a3_0": "sha256:1126860fa4f7ad4c43d2f49c4c70b018bb438b9296897d99ff09f3b29f6feb96"}, "tags": {"0.2.3--pyh7cba7a3_0": "sha256:79d3e25d3f1b14d4332834a194408f228ac7fd6f336577ff2e8f10d05febef13", "1.0.0--pyh7cba7a3_0": "sha256:1126860fa4f7ad4c43d2f49c4c70b018bb438b9296897d99ff09f3b29f6feb96"}, "docker": "quay.io/biocontainers/obonet", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/obonet.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/obonet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/obonet:0.2.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/obonet:1.0.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/obonet/0.2.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/obonet/0.2.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/obonet/1.0.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/obonet/1.0.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

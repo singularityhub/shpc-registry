@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seq2hla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq2hla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq2hla/container.yaml"
-updated_at: "2023-03-11 20:03:38.350380"
-latest: "2.2--2"
+updated_at: "2023-03-12 02:50:15.997935"
+latest: "2.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seq2hla"
 aliases:
  - "seq2HLA"
@@ -21,8 +21,9 @@ aliases:
  - "f2py2"
 versions:
  - "2.2--2"
+ - "2.3--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for seq2hla"
-config: {"url": "https://biocontainers.pro/tools/seq2hla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2hla", "latest": {"2.2--2": "sha256:6a2afa9839a516073fdd3977bf31c7acd403fa1ed66ceda34a27bec02138a59c"}, "tags": {"2.2--2": "sha256:6a2afa9839a516073fdd3977bf31c7acd403fa1ed66ceda34a27bec02138a59c"}, "docker": "quay.io/biocontainers/seq2hla", "aliases": {"seq2HLA": "/usr/local/bin/seq2HLA", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "f2py2": "/usr/local/bin/f2py2"}}
+config: {"url": "https://biocontainers.pro/tools/seq2hla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2hla", "latest": {"2.3--hdfd78af_1": "sha256:5eb95987b52dd61dd07e74e9e0c673056613622995a5dd3a3542478583b8e73e"}, "tags": {"2.2--2": "sha256:6a2afa9839a516073fdd3977bf31c7acd403fa1ed66ceda34a27bec02138a59c", "2.3--hdfd78af_1": "sha256:5eb95987b52dd61dd07e74e9e0c673056613622995a5dd3a3542478583b8e73e"}, "docker": "quay.io/biocontainers/seq2hla", "aliases": {"seq2HLA": "/usr/local/bin/seq2HLA", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "f2py2": "/usr/local/bin/f2py2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seq2hla.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/seq2hla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seq2hla:2.2--2
+$ shpc install quay.io/biocontainers/seq2hla:2.3--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seq2hla/2.2--2
-$ module help quay.io/biocontainers/seq2hla/2.2--2
+$ module load quay.io/biocontainers/seq2hla/2.3--hdfd78af_1
+$ module help quay.io/biocontainers/seq2hla/2.3--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

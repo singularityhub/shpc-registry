@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromeister"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromeister/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromeister/container.yaml"
-updated_at: "2023-03-11 20:13:56.234967"
+updated_at: "2023-03-12 03:01:02.336822"
 latest: "1.5.a--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/chromeister"
 aliases:

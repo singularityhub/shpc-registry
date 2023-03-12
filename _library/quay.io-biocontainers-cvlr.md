@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cvlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cvlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cvlr/container.yaml"
-updated_at: "2023-03-11 20:41:28.915520"
-latest: "1.0--he292522_1"
+updated_at: "2023-03-12 03:29:41.789112"
+latest: "1.0--h2bab7d6_2"
 container_url: "https://biocontainers.pro/tools/cvlr"
 aliases:
  - "cvlr-cluster"
@@ -37,8 +37,9 @@ aliases:
  - "transicc"
 versions:
  - "1.0--he292522_1"
+ - "1.0--h2bab7d6_2"
 description: "singularity registry hpc automated addition for cvlr"
-config: {"url": "https://biocontainers.pro/tools/cvlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cvlr", "latest": {"1.0--he292522_1": "sha256:34cc6e310095b97129fec96fe7e40d6c40a0b81141e2f06e98926efb01334972"}, "tags": {"1.0--he292522_1": "sha256:34cc6e310095b97129fec96fe7e40d6c40a0b81141e2f06e98926efb01334972"}, "docker": "quay.io/biocontainers/cvlr", "aliases": {"cvlr-cluster": "/usr/local/bin/cvlr-cluster", "cvlr-meth-of-bam": "/usr/local/bin/cvlr-meth-of-bam", "cvlr-stats.py": "/usr/local/bin/cvlr-stats.py", "cvlrcommon.py": "/usr/local/bin/cvlrcommon.py", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/cvlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cvlr", "latest": {"1.0--h2bab7d6_2": "sha256:c7b7b214e1fb6b92f8086ec73284479a563110f360d191dec12f08cb62ea335c"}, "tags": {"1.0--he292522_1": "sha256:34cc6e310095b97129fec96fe7e40d6c40a0b81141e2f06e98926efb01334972", "1.0--h2bab7d6_2": "sha256:c7b7b214e1fb6b92f8086ec73284479a563110f360d191dec12f08cb62ea335c"}, "docker": "quay.io/biocontainers/cvlr", "aliases": {"cvlr-cluster": "/usr/local/bin/cvlr-cluster", "cvlr-meth-of-bam": "/usr/local/bin/cvlr-meth-of-bam", "cvlr-stats.py": "/usr/local/bin/cvlr-stats.py", "cvlrcommon.py": "/usr/local/bin/cvlrcommon.py", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cvlr.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/cvlr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cvlr:1.0--he292522_1
+$ shpc install quay.io/biocontainers/cvlr:1.0--h2bab7d6_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cvlr/1.0--he292522_1
-$ module help quay.io/biocontainers/cvlr/1.0--he292522_1
+$ module load quay.io/biocontainers/cvlr/1.0--h2bab7d6_2
+$ module help quay.io/biocontainers/cvlr/1.0--h2bab7d6_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

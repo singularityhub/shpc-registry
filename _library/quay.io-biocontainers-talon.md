@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/talon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/talon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/talon/container.yaml"
-updated_at: "2023-03-11 20:22:44.636655"
+updated_at: "2023-03-12 03:10:16.985726"
 latest: "v5.0--py_1"
 container_url: "https://biocontainers.pro/tools/talon"
 aliases:

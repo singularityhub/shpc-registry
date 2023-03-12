@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bwa-meme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-meme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-meme/container.yaml"
-updated_at: "2023-03-11 20:19:23.186518"
-latest: "1.0.5--hd03093a_0"
+updated_at: "2023-03-12 03:06:46.154001"
+latest: "1.0.6--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/bwa-meme"
 aliases:
  - "build_rmis_dna.sh"
@@ -30,8 +30,9 @@ aliases:
  - "bwa-meme_mode3.sse42"
 versions:
  - "1.0.5--hd03093a_0"
+ - "1.0.6--hd03093a_0"
 description: "singularity registry hpc automated addition for bwa-meme"
-config: {"url": "https://biocontainers.pro/tools/bwa-meme", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwa-meme", "latest": {"1.0.5--hd03093a_0": "sha256:8cb6127d4e75c6397363015937748f3f528100a52cfe448fe7fac4ebfbccc11e"}, "tags": {"1.0.5--hd03093a_0": "sha256:8cb6127d4e75c6397363015937748f3f528100a52cfe448fe7fac4ebfbccc11e"}, "docker": "quay.io/biocontainers/bwa-meme", "aliases": {"build_rmis_dna.sh": "/usr/local/bin/build_rmis_dna.sh", "bwa-meme": "/usr/local/bin/bwa-meme", "bwa-meme-train-prmi": "/usr/local/bin/bwa-meme-train-prmi", "bwa-meme_mode1": "/usr/local/bin/bwa-meme_mode1", "bwa-meme_mode1.avx": "/usr/local/bin/bwa-meme_mode1.avx", "bwa-meme_mode1.avx2": "/usr/local/bin/bwa-meme_mode1.avx2", "bwa-meme_mode1.avx512bw": "/usr/local/bin/bwa-meme_mode1.avx512bw", "bwa-meme_mode1.sse41": "/usr/local/bin/bwa-meme_mode1.sse41", "bwa-meme_mode1.sse42": "/usr/local/bin/bwa-meme_mode1.sse42", "bwa-meme_mode2": "/usr/local/bin/bwa-meme_mode2", "bwa-meme_mode2.avx": "/usr/local/bin/bwa-meme_mode2.avx", "bwa-meme_mode2.avx2": "/usr/local/bin/bwa-meme_mode2.avx2", "bwa-meme_mode2.avx512bw": "/usr/local/bin/bwa-meme_mode2.avx512bw", "bwa-meme_mode2.sse41": "/usr/local/bin/bwa-meme_mode2.sse41", "bwa-meme_mode2.sse42": "/usr/local/bin/bwa-meme_mode2.sse42", "bwa-meme_mode3.avx": "/usr/local/bin/bwa-meme_mode3.avx", "bwa-meme_mode3.avx2": "/usr/local/bin/bwa-meme_mode3.avx2", "bwa-meme_mode3.avx512bw": "/usr/local/bin/bwa-meme_mode3.avx512bw", "bwa-meme_mode3.sse41": "/usr/local/bin/bwa-meme_mode3.sse41", "bwa-meme_mode3.sse42": "/usr/local/bin/bwa-meme_mode3.sse42"}}
+config: {"url": "https://biocontainers.pro/tools/bwa-meme", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwa-meme", "latest": {"1.0.6--hd03093a_0": "sha256:fcc7964c726542cbda041ce5cccbcf9a5b4b0790e230a1dbda7439e428966313"}, "tags": {"1.0.5--hd03093a_0": "sha256:8cb6127d4e75c6397363015937748f3f528100a52cfe448fe7fac4ebfbccc11e", "1.0.6--hd03093a_0": "sha256:fcc7964c726542cbda041ce5cccbcf9a5b4b0790e230a1dbda7439e428966313"}, "docker": "quay.io/biocontainers/bwa-meme", "aliases": {"build_rmis_dna.sh": "/usr/local/bin/build_rmis_dna.sh", "bwa-meme": "/usr/local/bin/bwa-meme", "bwa-meme-train-prmi": "/usr/local/bin/bwa-meme-train-prmi", "bwa-meme_mode1": "/usr/local/bin/bwa-meme_mode1", "bwa-meme_mode1.avx": "/usr/local/bin/bwa-meme_mode1.avx", "bwa-meme_mode1.avx2": "/usr/local/bin/bwa-meme_mode1.avx2", "bwa-meme_mode1.avx512bw": "/usr/local/bin/bwa-meme_mode1.avx512bw", "bwa-meme_mode1.sse41": "/usr/local/bin/bwa-meme_mode1.sse41", "bwa-meme_mode1.sse42": "/usr/local/bin/bwa-meme_mode1.sse42", "bwa-meme_mode2": "/usr/local/bin/bwa-meme_mode2", "bwa-meme_mode2.avx": "/usr/local/bin/bwa-meme_mode2.avx", "bwa-meme_mode2.avx2": "/usr/local/bin/bwa-meme_mode2.avx2", "bwa-meme_mode2.avx512bw": "/usr/local/bin/bwa-meme_mode2.avx512bw", "bwa-meme_mode2.sse41": "/usr/local/bin/bwa-meme_mode2.sse41", "bwa-meme_mode2.sse42": "/usr/local/bin/bwa-meme_mode2.sse42", "bwa-meme_mode3.avx": "/usr/local/bin/bwa-meme_mode3.avx", "bwa-meme_mode3.avx2": "/usr/local/bin/bwa-meme_mode3.avx2", "bwa-meme_mode3.avx512bw": "/usr/local/bin/bwa-meme_mode3.avx512bw", "bwa-meme_mode3.sse41": "/usr/local/bin/bwa-meme_mode3.sse41", "bwa-meme_mode3.sse42": "/usr/local/bin/bwa-meme_mode3.sse42"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa-meme.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bwa-meme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwa-meme:1.0.5--hd03093a_0
+$ shpc install quay.io/biocontainers/bwa-meme:1.0.6--hd03093a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwa-meme/1.0.5--hd03093a_0
-$ module help quay.io/biocontainers/bwa-meme/1.0.5--hd03093a_0
+$ module load quay.io/biocontainers/bwa-meme/1.0.6--hd03093a_0
+$ module help quay.io/biocontainers/bwa-meme/1.0.6--hd03093a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
