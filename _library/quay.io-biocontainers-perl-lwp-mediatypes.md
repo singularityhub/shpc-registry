@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-lwp-mediatypes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lwp-mediatypes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lwp-mediatypes/container.yaml"
-updated_at: "2023-03-12 03:08:29.179196"
+updated_at: "2023-03-13 03:06:09.706187"
 latest: "6.04--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-lwp-mediatypes"
 aliases:

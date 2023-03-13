@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hapog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapog/container.yaml"
-updated_at: "2023-03-12 03:19:34.254146"
-latest: "1.3.4--py310hfa7d255_1"
+updated_at: "2023-03-13 03:20:00.853038"
+latest: "1.3.4--py310h295bcc1_2"
 container_url: "https://biocontainers.pro/tools/hapog"
 aliases:
  - "hapog"
@@ -37,8 +37,9 @@ aliases:
  - "soap2sam.pl"
 versions:
  - "1.3.4--py310hfa7d255_1"
+ - "1.3.4--py310h295bcc1_2"
 description: "singularity registry hpc automated addition for hapog"
-config: {"url": "https://biocontainers.pro/tools/hapog", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hapog", "latest": {"1.3.4--py310hfa7d255_1": "sha256:7d1ab8604eb025c5dbd3dfe56e92988a453d0e45f706cf1c48d57caabb0dd2a2"}, "tags": {"1.3.4--py310hfa7d255_1": "sha256:7d1ab8604eb025c5dbd3dfe56e92988a453d0e45f706cf1c48d57caabb0dd2a2"}, "docker": "quay.io/biocontainers/hapog", "aliases": {"hapog": "/usr/local/bin/hapog", "hapog_bin": "/usr/local/bin/hapog_bin", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.10": "/usr/local/bin/f2py3.10", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/hapog", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hapog", "latest": {"1.3.4--py310h295bcc1_2": "sha256:ae121cbe04edbac69d2e82d5002e543468425208b9127c21cd787bbfe925dd21"}, "tags": {"1.3.4--py310hfa7d255_1": "sha256:7d1ab8604eb025c5dbd3dfe56e92988a453d0e45f706cf1c48d57caabb0dd2a2", "1.3.4--py310h295bcc1_2": "sha256:ae121cbe04edbac69d2e82d5002e543468425208b9127c21cd787bbfe925dd21"}, "docker": "quay.io/biocontainers/hapog", "aliases": {"hapog": "/usr/local/bin/hapog", "hapog_bin": "/usr/local/bin/hapog_bin", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.10": "/usr/local/bin/f2py3.10", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hapog.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/hapog
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hapog:1.3.4--py310hfa7d255_1
+$ shpc install quay.io/biocontainers/hapog:1.3.4--py310h295bcc1_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hapog/1.3.4--py310hfa7d255_1
-$ module help quay.io/biocontainers/hapog/1.3.4--py310hfa7d255_1
+$ module load quay.io/biocontainers/hapog/1.3.4--py310h295bcc1_2
+$ module help quay.io/biocontainers/hapog/1.3.4--py310h295bcc1_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

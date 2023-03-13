@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-bulkanalyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bulkanalyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bulkanalyser/container.yaml"
-updated_at: "2023-03-12 02:50:48.053055"
-latest: "1.1.0--r42h3121a25_0"
+updated_at: "2023-03-13 02:44:18.980575"
+latest: "1.1.0--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-bulkanalyser"
 aliases:
  - "qconvex"
@@ -41,8 +41,9 @@ aliases:
  - "gdalbuildvrt"
 versions:
  - "1.1.0--r42h3121a25_0"
+ - "1.1.0--r42h3121a25_1"
 description: "singularity registry hpc automated addition for r-bulkanalyser"
-config: {"url": "https://biocontainers.pro/tools/r-bulkanalyser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-bulkanalyser", "latest": {"1.1.0--r42h3121a25_0": "sha256:56ab13286c6217f348ac20b14977c66ddec0ef7d51b50e1b106572a4527072a1"}, "tags": {"1.1.0--r42h3121a25_0": "sha256:56ab13286c6217f348ac20b14977c66ddec0ef7d51b50e1b106572a4527072a1"}, "docker": "quay.io/biocontainers/r-bulkanalyser", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo", "gdalbuildvrt": "/usr/local/bin/gdalbuildvrt"}}
+config: {"url": "https://biocontainers.pro/tools/r-bulkanalyser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-bulkanalyser", "latest": {"1.1.0--r42h3121a25_1": "sha256:b78204a0e5e0e90941a7c138ae971cfc5d60da65c98cda0e94eac6435b5823a4"}, "tags": {"1.1.0--r42h3121a25_0": "sha256:56ab13286c6217f348ac20b14977c66ddec0ef7d51b50e1b106572a4527072a1", "1.1.0--r42h3121a25_1": "sha256:b78204a0e5e0e90941a7c138ae971cfc5d60da65c98cda0e94eac6435b5823a4"}, "docker": "quay.io/biocontainers/r-bulkanalyser", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo", "gdalbuildvrt": "/usr/local/bin/gdalbuildvrt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bulkanalyser.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/r-bulkanalyser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bulkanalyser:1.1.0--r42h3121a25_0
+$ shpc install quay.io/biocontainers/r-bulkanalyser:1.1.0--r42h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bulkanalyser/1.1.0--r42h3121a25_0
-$ module help quay.io/biocontainers/r-bulkanalyser/1.1.0--r42h3121a25_0
+$ module load quay.io/biocontainers/r-bulkanalyser/1.1.0--r42h3121a25_1
+$ module help quay.io/biocontainers/r-bulkanalyser/1.1.0--r42h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

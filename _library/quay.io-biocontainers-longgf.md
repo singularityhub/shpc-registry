@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/longgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longgf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longgf/container.yaml"
-updated_at: "2023-03-12 03:12:16.621847"
-latest: "0.1.2--h28e74a2_4"
+updated_at: "2023-03-13 03:10:51.255513"
+latest: "0.1.2--hf77a93e_5"
 container_url: "https://biocontainers.pro/tools/longgf"
 aliases:
  - "LongGF"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.1.2--h28e74a2_4"
+ - "0.1.2--hf77a93e_5"
 description: "shpc-registry automated BioContainers addition for longgf"
-config: {"url": "https://biocontainers.pro/tools/longgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longgf", "latest": {"0.1.2--h28e74a2_4": "sha256:60f7ff2f499d28f8a4ff17fce5691a582a3d362cc667abdda55e00d803bf32bd"}, "tags": {"0.1.2--h28e74a2_4": "sha256:60f7ff2f499d28f8a4ff17fce5691a582a3d362cc667abdda55e00d803bf32bd"}, "docker": "quay.io/biocontainers/longgf", "aliases": {"LongGF": "/usr/local/bin/LongGF", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/longgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longgf", "latest": {"0.1.2--hf77a93e_5": "sha256:e6f5e764731c7638693b4cb01607d8e9ed43b019bb9df407a2150a8a9596e3d4"}, "tags": {"0.1.2--h28e74a2_4": "sha256:60f7ff2f499d28f8a4ff17fce5691a582a3d362cc667abdda55e00d803bf32bd", "0.1.2--hf77a93e_5": "sha256:e6f5e764731c7638693b4cb01607d8e9ed43b019bb9df407a2150a8a9596e3d4"}, "docker": "quay.io/biocontainers/longgf", "aliases": {"LongGF": "/usr/local/bin/LongGF", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longgf.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/longgf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/longgf:0.1.2--h28e74a2_4
+$ shpc install quay.io/biocontainers/longgf:0.1.2--hf77a93e_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/longgf/0.1.2--h28e74a2_4
-$ module help quay.io/biocontainers/longgf/0.1.2--h28e74a2_4
+$ module load quay.io/biocontainers/longgf/0.1.2--hf77a93e_5
+$ module help quay.io/biocontainers/longgf/0.1.2--hf77a93e_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
