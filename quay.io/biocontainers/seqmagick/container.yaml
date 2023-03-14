@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seqmagick
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqmagick
 latest:
-  0.8.4--py_1: sha256:5e376589f387b5edfbfb439cc7f9a337971472f0feced151e1637cd7e2e6607c
+  0.8.6--pyhdfd78af_0: sha256:60325c7aa85e53af2abebb46be4927dea3c8ab1c95c5883125b680e298214d14
 tags:
   0.8.4--py_1: sha256:5e376589f387b5edfbfb439cc7f9a337971472f0feced151e1637cd7e2e6607c
+  0.8.6--pyhdfd78af_0: sha256:60325c7aa85e53af2abebb46be4927dea3c8ab1c95c5883125b680e298214d14
 docker: quay.io/biocontainers/seqmagick
 aliases:
   seqmagick: /usr/local/bin/seqmagick

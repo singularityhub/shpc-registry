@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cpgeneprofiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cpgeneprofiler
 latest:
-  2.1.1--r41hdfd78af_2: sha256:32e0723de26f4e77b907cc853a502a7d209b066a9590430646ff16dfeb422725
+  2.1.1--r42hdfd78af_3: sha256:d20ac7d9c358b56be992a1af875e08b4aa267c354a559e93be7d59876f502dcc
 tags:
   2.1.1--r41hdfd78af_2: sha256:32e0723de26f4e77b907cc853a502a7d209b066a9590430646ff16dfeb422725
+  2.1.1--r42hdfd78af_3: sha256:d20ac7d9c358b56be992a1af875e08b4aa267c354a559e93be7d59876f502dcc
 docker: quay.io/biocontainers/cpgeneprofiler
 aliases:
   pdfsig: /usr/local/bin/pdfsig
