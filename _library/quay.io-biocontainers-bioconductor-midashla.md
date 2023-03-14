@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-midashla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-midashla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-midashla/container.yaml"
-updated_at: "2023-03-13 02:58:39.487480"
+updated_at: "2023-03-14 02:53:48.801990"
 latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-midashla"
 aliases:

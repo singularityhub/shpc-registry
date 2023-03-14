@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cancersubtypes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancersubtypes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancersubtypes/container.yaml"
-updated_at: "2023-03-13 03:38:07.190299"
+updated_at: "2023-03-14 03:35:45.862446"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancersubtypes"
 aliases:

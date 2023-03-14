@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multitax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multitax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multitax/container.yaml"
-updated_at: "2023-03-13 03:00:34.909062"
+updated_at: "2023-03-14 02:55:52.762672"
 latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multitax"
 aliases:
