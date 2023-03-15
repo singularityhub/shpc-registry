@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastobo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastobo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastobo/container.yaml"
-updated_at: "2023-03-14 02:40:21.833013"
+updated_at: "2023-03-15 02:41:34.096908"
 latest: "0.12.2--py39h67e14b5_0"
 container_url: "https://biocontainers.pro/tools/fastobo"
 aliases:

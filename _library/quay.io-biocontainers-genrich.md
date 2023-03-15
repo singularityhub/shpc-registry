@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genrich/container.yaml"
-updated_at: "2023-03-14 03:29:30.834027"
+updated_at: "2023-03-15 03:24:06.797473"
 latest: "0.6.1--h7132678_2"
 container_url: "https://biocontainers.pro/tools/genrich"
 aliases:

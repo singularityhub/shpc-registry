@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cpgeneprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpgeneprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpgeneprofiler/container.yaml"
-updated_at: "2023-03-14 03:27:07.232567"
-latest: "2.1.1--r41hdfd78af_2"
+updated_at: "2023-03-15 03:21:42.016353"
+latest: "2.1.1--r42hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/cpgeneprofiler"
 aliases:
  - "pdfsig"
@@ -20,8 +20,9 @@ aliases:
  - "pdftoppm"
 versions:
  - "2.1.1--r41hdfd78af_2"
+ - "2.1.1--r42hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for cpgeneprofiler"
-config: {"url": "https://biocontainers.pro/tools/cpgeneprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cpgeneprofiler", "latest": {"2.1.1--r41hdfd78af_2": "sha256:32e0723de26f4e77b907cc853a502a7d209b066a9590430646ff16dfeb422725"}, "tags": {"2.1.1--r41hdfd78af_2": "sha256:32e0723de26f4e77b907cc853a502a7d209b066a9590430646ff16dfeb422725"}, "docker": "quay.io/biocontainers/cpgeneprofiler", "aliases": {"pdfsig": "/usr/local/bin/pdfsig", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm"}}
+config: {"url": "https://biocontainers.pro/tools/cpgeneprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cpgeneprofiler", "latest": {"2.1.1--r42hdfd78af_3": "sha256:d20ac7d9c358b56be992a1af875e08b4aa267c354a559e93be7d59876f502dcc"}, "tags": {"2.1.1--r41hdfd78af_2": "sha256:32e0723de26f4e77b907cc853a502a7d209b066a9590430646ff16dfeb422725", "2.1.1--r42hdfd78af_3": "sha256:d20ac7d9c358b56be992a1af875e08b4aa267c354a559e93be7d59876f502dcc"}, "docker": "quay.io/biocontainers/cpgeneprofiler", "aliases": {"pdfsig": "/usr/local/bin/pdfsig", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cpgeneprofiler.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/cpgeneprofiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cpgeneprofiler:2.1.1--r41hdfd78af_2
+$ shpc install quay.io/biocontainers/cpgeneprofiler:2.1.1--r42hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cpgeneprofiler/2.1.1--r41hdfd78af_2
-$ module help quay.io/biocontainers/cpgeneprofiler/2.1.1--r41hdfd78af_2
+$ module load quay.io/biocontainers/cpgeneprofiler/2.1.1--r42hdfd78af_3
+$ module help quay.io/biocontainers/cpgeneprofiler/2.1.1--r42hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

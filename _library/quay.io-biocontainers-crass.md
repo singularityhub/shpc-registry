@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crass/container.yaml"
-updated_at: "2023-03-14 03:13:28.367457"
+updated_at: "2023-03-15 03:17:52.516096"
 latest: "1.0.1--h5b5514e_3"
 container_url: "https://biocontainers.pro/tools/crass"
 aliases:

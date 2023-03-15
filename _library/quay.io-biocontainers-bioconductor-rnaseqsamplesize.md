@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqsamplesize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqsamplesize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqsamplesize/container.yaml"
-updated_at: "2023-03-14 02:43:15.028482"
+updated_at: "2023-03-15 03:18:48.885902"
 latest: "2.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqsamplesize"
 

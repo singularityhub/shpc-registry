@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/nonpareil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nonpareil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nonpareil/container.yaml"
-updated_at: "2023-03-14 03:29:17.209318"
-latest: "3.4.1--r41h9f5acd7_1"
+updated_at: "2023-03-15 02:59:46.562746"
+latest: "3.4.1--r42h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/nonpareil"
 aliases:
  - "nonpareil"
 versions:
  - "3.4.1--r41h9f5acd7_1"
+ - "3.4.1--r42h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for nonpareil"
-config: {"url": "https://biocontainers.pro/tools/nonpareil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nonpareil", "latest": {"3.4.1--r41h9f5acd7_1": "sha256:c5a505e4313c44fa008fad2afa551cd50b2ea33f50dd2e4e3859c20f02bbab6b"}, "tags": {"3.4.1--r41h9f5acd7_1": "sha256:c5a505e4313c44fa008fad2afa551cd50b2ea33f50dd2e4e3859c20f02bbab6b"}, "docker": "quay.io/biocontainers/nonpareil", "aliases": {"nonpareil": "/usr/local/bin/nonpareil"}}
+config: {"url": "https://biocontainers.pro/tools/nonpareil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nonpareil", "latest": {"3.4.1--r42h9f5acd7_2": "sha256:871d2a6ea59e6bf858b5974647d2f869ecf3b94edf7f8515cf4733a9f0bddad4"}, "tags": {"3.4.1--r41h9f5acd7_1": "sha256:c5a505e4313c44fa008fad2afa551cd50b2ea33f50dd2e4e3859c20f02bbab6b", "3.4.1--r42h9f5acd7_2": "sha256:871d2a6ea59e6bf858b5974647d2f869ecf3b94edf7f8515cf4733a9f0bddad4"}, "docker": "quay.io/biocontainers/nonpareil", "aliases": {"nonpareil": "/usr/local/bin/nonpareil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nonpareil.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/nonpareil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nonpareil:3.4.1--r41h9f5acd7_1
+$ shpc install quay.io/biocontainers/nonpareil:3.4.1--r42h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nonpareil/3.4.1--r41h9f5acd7_1
-$ module help quay.io/biocontainers/nonpareil/3.4.1--r41h9f5acd7_1
+$ module load quay.io/biocontainers/nonpareil/3.4.1--r42h9f5acd7_2
+$ module help quay.io/biocontainers/nonpareil/3.4.1--r42h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

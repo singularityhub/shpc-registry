@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deeppincs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deeppincs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deeppincs/container.yaml"
-updated_at: "2023-03-14 03:07:45.691482"
+updated_at: "2023-03-15 03:16:10.729316"
 latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deeppincs"
 aliases:

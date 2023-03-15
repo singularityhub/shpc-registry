@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/plink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plink/container.yaml"
-updated_at: "2023-03-14 03:29:12.103970"
-latest: "1.90b6.21--hec16e2b_2"
+updated_at: "2023-03-15 02:57:45.561015"
+latest: "1.90b6.21--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/plink"
 
 versions:
  - "1.90b6.21--hec16e2b_2"
+ - "1.90b6.21--hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for plink"
-config: {"url": "https://biocontainers.pro/tools/plink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plink", "latest": {"1.90b6.21--hec16e2b_2": "sha256:5c07df8983b120774e6d0dea8a32aa3ec44f7ee75b0438af038eb8f36acdc8c0"}, "tags": {"1.90b6.21--hec16e2b_2": "sha256:5c07df8983b120774e6d0dea8a32aa3ec44f7ee75b0438af038eb8f36acdc8c0"}, "docker": "quay.io/biocontainers/plink"}
+config: {"url": "https://biocontainers.pro/tools/plink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plink", "latest": {"1.90b6.21--hec16e2b_3": "sha256:9f77ca902366073cda803e2b1266010ff57fc3bc1d07c084ed8f97a9e4827bde"}, "tags": {"1.90b6.21--hec16e2b_2": "sha256:5c07df8983b120774e6d0dea8a32aa3ec44f7ee75b0438af038eb8f36acdc8c0", "1.90b6.21--hec16e2b_3": "sha256:9f77ca902366073cda803e2b1266010ff57fc3bc1d07c084ed8f97a9e4827bde"}, "docker": "quay.io/biocontainers/plink"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plink.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/plink
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plink:1.90b6.21--hec16e2b_2
+$ shpc install quay.io/biocontainers/plink:1.90b6.21--hec16e2b_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plink/1.90b6.21--hec16e2b_2
-$ module help quay.io/biocontainers/plink/1.90b6.21--hec16e2b_2
+$ module load quay.io/biocontainers/plink/1.90b6.21--hec16e2b_3
+$ module help quay.io/biocontainers/plink/1.90b6.21--hec16e2b_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

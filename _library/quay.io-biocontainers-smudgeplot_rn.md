@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smudgeplot_rn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smudgeplot_rn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smudgeplot_rn/container.yaml"
-updated_at: "2023-03-14 02:48:09.118814"
-latest: "0.2.5_RN--py310r41h779adbc_2"
+updated_at: "2023-03-15 02:45:53.967364"
+latest: "0.2.5_RN--py311r42hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/smudgeplot_rn"
 aliases:
  - "smudgeplot.py"
@@ -19,8 +19,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.2.5_RN--py310r41h779adbc_2"
+ - "0.2.5_RN--py311r42hec16e2b_4"
 description: "shpc-registry automated BioContainers addition for smudgeplot_rn"
-config: {"url": "https://biocontainers.pro/tools/smudgeplot_rn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smudgeplot_rn", "latest": {"0.2.5_RN--py310r41h779adbc_2": "sha256:65153eb99b634041fe41c4ea1fe070367b2dc23ddae94d7fe260a95d28defefb"}, "tags": {"0.2.5_RN--py310r41h779adbc_2": "sha256:65153eb99b634041fe41c4ea1fe070367b2dc23ddae94d7fe260a95d28defefb"}, "docker": "quay.io/biocontainers/smudgeplot_rn", "aliases": {"smudgeplot.py": "/usr/local/bin/smudgeplot.py", "smudgeplot_plot.R": "/usr/local/bin/smudgeplot_plot.R", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/smudgeplot_rn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smudgeplot_rn", "latest": {"0.2.5_RN--py311r42hec16e2b_4": "sha256:1a34e0b12d461a230a398c86c13b68520d8f8f42c32712ac7d58801212131b97"}, "tags": {"0.2.5_RN--py310r41h779adbc_2": "sha256:65153eb99b634041fe41c4ea1fe070367b2dc23ddae94d7fe260a95d28defefb", "0.2.5_RN--py311r42hec16e2b_4": "sha256:1a34e0b12d461a230a398c86c13b68520d8f8f42c32712ac7d58801212131b97"}, "docker": "quay.io/biocontainers/smudgeplot_rn", "aliases": {"smudgeplot.py": "/usr/local/bin/smudgeplot.py", "smudgeplot_plot.R": "/usr/local/bin/smudgeplot_plot.R", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smudgeplot_rn.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/smudgeplot_rn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smudgeplot_rn:0.2.5_RN--py310r41h779adbc_2
+$ shpc install quay.io/biocontainers/smudgeplot_rn:0.2.5_RN--py311r42hec16e2b_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smudgeplot_rn/0.2.5_RN--py310r41h779adbc_2
-$ module help quay.io/biocontainers/smudgeplot_rn/0.2.5_RN--py310r41h779adbc_2
+$ module load quay.io/biocontainers/smudgeplot_rn/0.2.5_RN--py311r42hec16e2b_4
+$ module help quay.io/biocontainers/smudgeplot_rn/0.2.5_RN--py311r42hec16e2b_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

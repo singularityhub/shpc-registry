@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sketchy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sketchy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sketchy/container.yaml"
-updated_at: "2023-03-14 03:09:43.855423"
+updated_at: "2023-03-15 03:13:24.678961"
 latest: "0.6.0--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/sketchy"
 aliases:
