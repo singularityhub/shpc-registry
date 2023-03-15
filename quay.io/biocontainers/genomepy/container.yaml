@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/genomepy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genomepy
 latest:
-  0.14.0--pyh7cba7a3_2: sha256:e49efd140a481ff8a9627b8ec3c18823c42e5dc5962ce286e56424b6921bd743
+  0.15.0--pyh7cba7a3_0: sha256:0c2a2a388c432454a442274aab7837090bef5868d42939a51eac85b05055253d
 tags:
   0.9.3--py_0: sha256:07de9012b90c84b3905b3ec85773936f7c9cc68712672acd2bd61ca621de8dae
   0.14.0--pyh7cba7a3_1: sha256:a5a9a61ae0c5e266deea1aee53bb85376df459c49391c940e4e53a0780a0be93
@@ -11,4 +11,5 @@ tags:
   0.11.1--pyhdfd78af_0: sha256:decf50a6370afeb35db4f1baa9b36cab019fc22eb53d945291e1d06294739ba7
   0.10.0--pyhdfd78af_0: sha256:0c0b430b060487a753521d930d95f398827e50610081f97cf55cc80ed99650da
   0.14.0--pyh7cba7a3_2: sha256:e49efd140a481ff8a9627b8ec3c18823c42e5dc5962ce286e56424b6921bd743
+  0.15.0--pyh7cba7a3_0: sha256:0c2a2a388c432454a442274aab7837090bef5868d42939a51eac85b05055253d
 docker: quay.io/biocontainers/genomepy

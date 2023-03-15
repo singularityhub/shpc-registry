@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/methpipe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for methpipe
 latest:
-  5.0.1--hfdddef0_1: sha256:228aa2cf58cbe84762f55ed6536d4b812246dac13745c9162b1a41c2f26fa68f
+  5.0.1--h71f629c_2: sha256:59b91b6e9e9a240b637d9cf5a99817478f965f0b3daf5bd2827127999018b440
 tags:
   5.0.1--hfdddef0_1: sha256:228aa2cf58cbe84762f55ed6536d4b812246dac13745c9162b1a41c2f26fa68f
+  5.0.1--h71f629c_2: sha256:59b91b6e9e9a240b637d9cf5a99817478f965f0b3daf5bd2827127999018b440
 docker: quay.io/biocontainers/methpipe
 aliases:
   allelicmeth: /usr/local/bin/allelicmeth

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gembs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gembs
 latest:
-  3.5.5_IHEC--py310h125d12e_5: sha256:01005849bd3135f29d0ef6186cbad00314f0d8bcea39d5ecdc651f6886e31299
+  3.5.5_IHEC--py38h9338591_6: sha256:8ef0021ecc59ae072de61a8bf986688c4234826eb69f318aa394538b7dbce3dc
 tags:
   3.5.5_IHEC--py310h125d12e_5: sha256:01005849bd3135f29d0ef6186cbad00314f0d8bcea39d5ecdc651f6886e31299
+  3.5.5_IHEC--py38h9338591_6: sha256:8ef0021ecc59ae072de61a8bf986688c4234826eb69f318aa394538b7dbce3dc
 docker: quay.io/biocontainers/gembs
 aliases:
   bs_call: /usr/local/bin/bs_call

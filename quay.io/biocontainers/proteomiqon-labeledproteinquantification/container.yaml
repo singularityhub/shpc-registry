@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/proteomiqon-labeledproteinquantification
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for proteomiqon-labeledproteinquantification
 latest:
-  0.0.1--hdfd78af_1: sha256:d9b2943db457eb9d13d1673742821ed9ca04647e79acf005025d7c6aa80be539
+  0.0.3--hdfd78af_1: sha256:3381039790c9e6fe82b29bb853c1de650e3516c1ec1315c2a8828b4096fc0197
 tags:
   0.0.1--hdfd78af_1: sha256:d9b2943db457eb9d13d1673742821ed9ca04647e79acf005025d7c6aa80be539
+  0.0.3--hdfd78af_1: sha256:3381039790c9e6fe82b29bb853c1de650e3516c1ec1315c2a8828b4096fc0197
 docker: quay.io/biocontainers/proteomiqon-labeledproteinquantification
 aliases:
   lttng-gen-tp: /usr/local/bin/lttng-gen-tp
