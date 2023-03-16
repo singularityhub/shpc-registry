@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/haystac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for haystac
 latest:
-  0.4.8--pypyhfa5458b_0: sha256:c8f6381b9013d7cdc12f4242ed0217bcb88faac4048ee521c55084b989176607
+  0.4.10--pyh086e186_0: sha256:bb4f2fe5c15309534b6123084a7385284c735ce95da39190ae4ec81d214802af
 tags:
   0.4.8--pypyhfa5458b_0: sha256:c8f6381b9013d7cdc12f4242ed0217bcb88faac4048ee521c55084b989176607
+  0.4.10--pyh086e186_0: sha256:bb4f2fe5c15309534b6123084a7385284c735ce95da39190ae4ec81d214802af
 docker: quay.io/biocontainers/haystac
 aliases:
   haystac: /usr/local/bin/haystac

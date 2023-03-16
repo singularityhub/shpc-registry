@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/phyloflash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phyloflash
 latest:
-  3.4.1--hdfd78af_0: sha256:d110b0bb01fc725502adad58e6cb36a679890bf745c3d0c02526a126e848294c
+  3.4.2--hdfd78af_0: sha256:bae9df6cf68735732748100ec35128a9f9af2796871b2459606df694cce2d1e5
 tags:
   3.4.1--hdfd78af_0: sha256:d110b0bb01fc725502adad58e6cb36a679890bf745c3d0c02526a126e848294c
   3.4--hdfd78af_1: sha256:5f9f2fb78806dd87e14f236f15e98683493c8e378ab5f3884a5d863a2fc7bffe
+  3.4.2--hdfd78af_0: sha256:bae9df6cf68735732748100ec35128a9f9af2796871b2459606df694cce2d1e5
 docker: quay.io/biocontainers/phyloflash
 aliases:
   ENA_phyloFlash.pl: /usr/local/bin/ENA_phyloFlash.pl

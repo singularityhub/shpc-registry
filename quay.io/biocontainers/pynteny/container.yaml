@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pynteny
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pynteny
 latest:
-  0.0.5--py310hec16e2b_0: sha256:bbbf4eed701307279bf0d929c3621b798b6c2049e5c437eb10e15cda63445677
+  1.0.0--py310hec16e2b_0: sha256:b9abe77dbc7f916df71dcf371a45676ff8f1e673e57d6edc623124b4b79febdc
 tags:
   0.0.5--py310hec16e2b_0: sha256:bbbf4eed701307279bf0d929c3621b798b6c2049e5c437eb10e15cda63445677
+  1.0.0--py310hec16e2b_0: sha256:b9abe77dbc7f916df71dcf371a45676ff8f1e673e57d6edc623124b4b79febdc
 docker: quay.io/biocontainers/pynteny
 aliases:
   csv-import: /usr/local/bin/csv-import

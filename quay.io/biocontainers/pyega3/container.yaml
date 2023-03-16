@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pyega3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyega3
 latest:
-  5.0.1--pyhdfd78af_0: sha256:2774e09c0c92107e60637d09d1bcc2ba63785c4096e4f0a9278f49c0d16c43bf
+  5.0.2--pyhdfd78af_0: sha256:9859eeb31e18f1c74339ff94ba4f6d180a2faf3e23aff799b74cde9dcb9b5cd5
 tags:
   4.0.5--pyhdfd78af_0: sha256:ae4158a2d4b50dcbc2ccc3a98b90b79838e8e01c3fa73ad404e98c6179553525
   5.0.1--pyhdfd78af_0: sha256:2774e09c0c92107e60637d09d1bcc2ba63785c4096e4f0a9278f49c0d16c43bf
+  5.0.2--pyhdfd78af_0: sha256:9859eeb31e18f1c74339ff94ba4f6d180a2faf3e23aff799b74cde9dcb9b5cd5
 docker: quay.io/biocontainers/pyega3
 aliases:
   htsget: /usr/local/bin/htsget
