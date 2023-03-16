@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/intel-mkl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/intel-mkl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/intel-mkl/container.yaml"
-updated_at: "2023-03-15 03:26:46.068829"
+updated_at: "2023-03-16 02:42:02.298733"
 latest: "2020.4.304"
 container_url: "https://github.com/orgs/autamus/packages/container/package/intel-mkl"
 

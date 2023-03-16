@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-apache-test"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-apache-test/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-apache-test/container.yaml"
-updated_at: "2023-03-15 02:59:23.253013"
+updated_at: "2023-03-16 02:46:42.639424"
 latest: "1.43--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-apache-test"
 aliases:

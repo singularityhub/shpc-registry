@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deeparg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeparg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeparg/container.yaml"
-updated_at: "2023-03-15 02:54:43.069392"
+updated_at: "2023-03-16 02:48:29.120904"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/deeparg"
 aliases:

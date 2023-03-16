@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoplotter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplotter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplotter/container.yaml"
-updated_at: "2023-03-15 03:01:06.163994"
+updated_at: "2023-03-16 02:51:27.625616"
 latest: "1.10.0--py_1"
 container_url: "https://biocontainers.pro/tools/nanoplotter"
 

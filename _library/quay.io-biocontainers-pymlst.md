@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pymlst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymlst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymlst/container.yaml"
-updated_at: "2023-03-15 02:42:38.972169"
-latest: "2.1.3--pyh5e36f6f_0"
+updated_at: "2023-03-16 02:45:36.946787"
+latest: "2.1.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pymlst"
 aliases:
  - "alembic"
@@ -46,8 +46,9 @@ aliases:
  - "pytest"
 versions:
  - "2.1.3--pyh5e36f6f_0"
+ - "2.1.3--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for pymlst"
-config: {"url": "https://biocontainers.pro/tools/pymlst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pymlst", "latest": {"2.1.3--pyh5e36f6f_0": "sha256:bf078e3873b39f33f7303a011b5ad3cc1b5186ef303a40da75e9c55dbd943d67"}, "tags": {"2.1.3--pyh5e36f6f_0": "sha256:bf078e3873b39f33f7303a011b5ad3cc1b5186ef303a40da75e9c55dbd943d67"}, "docker": "quay.io/biocontainers/pymlst", "aliases": {"alembic": "/usr/local/bin/alembic", "claMLST": "/usr/local/bin/claMLST", "clamlst": "/usr/local/bin/clamlst", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "pyMLST": "/usr/local/bin/pyMLST", "pymlst": "/usr/local/bin/pymlst", "wgMLST": "/usr/local/bin/wgMLST", "wgmlst": "/usr/local/bin/wgmlst", "blat": "/usr/local/bin/blat", "mako-render": "/usr/local/bin/mako-render", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest"}}
+config: {"url": "https://biocontainers.pro/tools/pymlst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pymlst", "latest": {"2.1.3--pyhdfd78af_1": "sha256:c3c48d2aaa2173bcd53dcad882e3dd4e4f62600c9118975d5b361c53a7725f2d"}, "tags": {"2.1.3--pyh5e36f6f_0": "sha256:bf078e3873b39f33f7303a011b5ad3cc1b5186ef303a40da75e9c55dbd943d67", "2.1.3--pyhdfd78af_1": "sha256:c3c48d2aaa2173bcd53dcad882e3dd4e4f62600c9118975d5b361c53a7725f2d"}, "docker": "quay.io/biocontainers/pymlst", "aliases": {"alembic": "/usr/local/bin/alembic", "claMLST": "/usr/local/bin/claMLST", "clamlst": "/usr/local/bin/clamlst", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "pyMLST": "/usr/local/bin/pyMLST", "pymlst": "/usr/local/bin/pymlst", "wgMLST": "/usr/local/bin/wgMLST", "wgmlst": "/usr/local/bin/wgmlst", "blat": "/usr/local/bin/blat", "mako-render": "/usr/local/bin/mako-render", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymlst.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/pymlst
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pymlst:2.1.3--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/pymlst:2.1.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pymlst/2.1.3--pyh5e36f6f_0
-$ module help quay.io/biocontainers/pymlst/2.1.3--pyh5e36f6f_0
+$ module load quay.io/biocontainers/pymlst/2.1.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/pymlst/2.1.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

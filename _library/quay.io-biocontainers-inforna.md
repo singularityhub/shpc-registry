@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/inforna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inforna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inforna/container.yaml"
-updated_at: "2023-03-15 02:40:44.446095"
+updated_at: "2023-03-16 02:45:36.554669"
 latest: "2.1.2--h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/inforna"
 aliases:

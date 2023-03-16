@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/happer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/happer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/happer/container.yaml"
-updated_at: "2023-03-15 02:46:17.592614"
+updated_at: "2023-03-16 03:35:52.880749"
 latest: "0.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/happer"
 aliases:

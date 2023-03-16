@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kssd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kssd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kssd/container.yaml"
-updated_at: "2023-03-15 02:59:03.831309"
+updated_at: "2023-03-16 03:07:49.532793"
 latest: "2.21--h7132678_0"
 container_url: "https://biocontainers.pro/tools/kssd"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/methyldackel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methyldackel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methyldackel/container.yaml"
-updated_at: "2023-03-15 02:55:43.771958"
-latest: "0.6.1--hb0d9459_4"
+updated_at: "2023-03-16 03:21:17.501266"
+latest: "0.6.1--hc88714e_5"
 container_url: "https://biocontainers.pro/tools/methyldackel"
 aliases:
  - "MethylDackel"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.6.1--hb0d9459_4"
+ - "0.6.1--hc88714e_5"
 description: "shpc-registry automated BioContainers addition for methyldackel"
-config: {"url": "https://biocontainers.pro/tools/methyldackel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methyldackel", "latest": {"0.6.1--hb0d9459_4": "sha256:35881d0588da6d8f54dd397bd02318870467c5a07dacddd1bba019020eb1b652"}, "tags": {"0.6.1--hb0d9459_4": "sha256:35881d0588da6d8f54dd397bd02318870467c5a07dacddd1bba019020eb1b652"}, "docker": "quay.io/biocontainers/methyldackel", "aliases": {"MethylDackel": "/usr/local/bin/MethylDackel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/methyldackel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methyldackel", "latest": {"0.6.1--hc88714e_5": "sha256:4a3fcad9ffe74bff2689c8e43c05f1c15424f8ed099772cc7f1deff9330546fa"}, "tags": {"0.6.1--hb0d9459_4": "sha256:35881d0588da6d8f54dd397bd02318870467c5a07dacddd1bba019020eb1b652", "0.6.1--hc88714e_5": "sha256:4a3fcad9ffe74bff2689c8e43c05f1c15424f8ed099772cc7f1deff9330546fa"}, "docker": "quay.io/biocontainers/methyldackel", "aliases": {"MethylDackel": "/usr/local/bin/MethylDackel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methyldackel.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/methyldackel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methyldackel:0.6.1--hb0d9459_4
+$ shpc install quay.io/biocontainers/methyldackel:0.6.1--hc88714e_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methyldackel/0.6.1--hb0d9459_4
-$ module help quay.io/biocontainers/methyldackel/0.6.1--hb0d9459_4
+$ module load quay.io/biocontainers/methyldackel/0.6.1--hc88714e_5
+$ module help quay.io/biocontainers/methyldackel/0.6.1--hc88714e_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

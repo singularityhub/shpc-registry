@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fibroeset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fibroeset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fibroeset/container.yaml"
-updated_at: "2023-03-15 03:24:39.538421"
+updated_at: "2023-03-16 03:10:14.510578"
 latest: "1.40.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fibroeset"
 

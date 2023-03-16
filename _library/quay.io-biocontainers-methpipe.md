@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/methpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methpipe/container.yaml"
-updated_at: "2023-03-15 03:10:42.823650"
-latest: "5.0.1--hfdddef0_1"
+updated_at: "2023-03-16 03:19:06.902684"
+latest: "5.0.1--h71f629c_2"
 container_url: "https://biocontainers.pro/tools/methpipe"
 aliases:
  - "allelicmeth"
@@ -42,8 +42,9 @@ aliases:
  - "tabix"
 versions:
  - "5.0.1--hfdddef0_1"
+ - "5.0.1--h71f629c_2"
 description: "singularity registry hpc automated addition for methpipe"
-config: {"url": "https://biocontainers.pro/tools/methpipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methpipe", "latest": {"5.0.1--hfdddef0_1": "sha256:228aa2cf58cbe84762f55ed6536d4b812246dac13745c9162b1a41c2f26fa68f"}, "tags": {"5.0.1--hfdddef0_1": "sha256:228aa2cf58cbe84762f55ed6536d4b812246dac13745c9162b1a41c2f26fa68f"}, "docker": "quay.io/biocontainers/methpipe", "aliases": {"allelicmeth": "/usr/local/bin/allelicmeth", "amrfinder": "/usr/local/bin/amrfinder", "amrtester": "/usr/local/bin/amrtester", "bsrate": "/usr/local/bin/bsrate", "clean-hairpins": "/usr/local/bin/clean-hairpins", "dmr": "/usr/local/bin/dmr", "duplicate-remover": "/usr/local/bin/duplicate-remover", "fast-liftover": "/usr/local/bin/fast-liftover", "format_reads": "/usr/local/bin/format_reads", "guessprotocol": "/usr/local/bin/guessprotocol", "hmr": "/usr/local/bin/hmr", "hmr_rep": "/usr/local/bin/hmr_rep", "hypermr": "/usr/local/bin/hypermr", "lc_approx": "/usr/local/bin/lc_approx", "levels": "/usr/local/bin/levels", "lift-filter": "/usr/local/bin/lift-filter", "merge-bsrate": "/usr/local/bin/merge-bsrate", "merge-methcounts": "/usr/local/bin/merge-methcounts", "methcounts": "/usr/local/bin/methcounts", "methdiff": "/usr/local/bin/methdiff", "methentropy": "/usr/local/bin/methentropy", "methstates": "/usr/local/bin/methstates", "mlml": "/usr/local/bin/mlml", "multimethstat": "/usr/local/bin/multimethstat", "pmd": "/usr/local/bin/pmd", "radmeth": "/usr/local/bin/radmeth", "roimethstat": "/usr/local/bin/roimethstat", "selectsites": "/usr/local/bin/selectsites", "symmetric-cpgs": "/usr/local/bin/symmetric-cpgs", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/methpipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methpipe", "latest": {"5.0.1--h71f629c_2": "sha256:59b91b6e9e9a240b637d9cf5a99817478f965f0b3daf5bd2827127999018b440"}, "tags": {"5.0.1--hfdddef0_1": "sha256:228aa2cf58cbe84762f55ed6536d4b812246dac13745c9162b1a41c2f26fa68f", "5.0.1--h71f629c_2": "sha256:59b91b6e9e9a240b637d9cf5a99817478f965f0b3daf5bd2827127999018b440"}, "docker": "quay.io/biocontainers/methpipe", "aliases": {"allelicmeth": "/usr/local/bin/allelicmeth", "amrfinder": "/usr/local/bin/amrfinder", "amrtester": "/usr/local/bin/amrtester", "bsrate": "/usr/local/bin/bsrate", "clean-hairpins": "/usr/local/bin/clean-hairpins", "dmr": "/usr/local/bin/dmr", "duplicate-remover": "/usr/local/bin/duplicate-remover", "fast-liftover": "/usr/local/bin/fast-liftover", "format_reads": "/usr/local/bin/format_reads", "guessprotocol": "/usr/local/bin/guessprotocol", "hmr": "/usr/local/bin/hmr", "hmr_rep": "/usr/local/bin/hmr_rep", "hypermr": "/usr/local/bin/hypermr", "lc_approx": "/usr/local/bin/lc_approx", "levels": "/usr/local/bin/levels", "lift-filter": "/usr/local/bin/lift-filter", "merge-bsrate": "/usr/local/bin/merge-bsrate", "merge-methcounts": "/usr/local/bin/merge-methcounts", "methcounts": "/usr/local/bin/methcounts", "methdiff": "/usr/local/bin/methdiff", "methentropy": "/usr/local/bin/methentropy", "methstates": "/usr/local/bin/methstates", "mlml": "/usr/local/bin/mlml", "multimethstat": "/usr/local/bin/multimethstat", "pmd": "/usr/local/bin/pmd", "radmeth": "/usr/local/bin/radmeth", "roimethstat": "/usr/local/bin/roimethstat", "selectsites": "/usr/local/bin/selectsites", "symmetric-cpgs": "/usr/local/bin/symmetric-cpgs", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methpipe.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/methpipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methpipe:5.0.1--hfdddef0_1
+$ shpc install quay.io/biocontainers/methpipe:5.0.1--h71f629c_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methpipe/5.0.1--hfdddef0_1
-$ module help quay.io/biocontainers/methpipe/5.0.1--hfdddef0_1
+$ module load quay.io/biocontainers/methpipe/5.0.1--h71f629c_2
+$ module help quay.io/biocontainers/methpipe/5.0.1--h71f629c_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

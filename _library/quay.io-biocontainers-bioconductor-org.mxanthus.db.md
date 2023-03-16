@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.mxanthus.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.mxanthus.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.mxanthus.db/container.yaml"
-updated_at: "2023-03-15 03:06:37.318172"
+updated_at: "2023-03-16 03:18:53.423445"
 latest: "1.0.27--r42hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.mxanthus.db"
 aliases:

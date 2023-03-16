@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gefast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gefast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gefast/container.yaml"
-updated_at: "2023-03-15 02:50:23.328123"
+updated_at: "2023-03-16 03:15:21.788380"
 latest: "2.0.1--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/gefast"
 aliases:
