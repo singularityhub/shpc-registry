@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gatk4-spark
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gatk4-spark
 latest:
-  4.3.0.0--hdfd78af_0: sha256:b891cccd973b5e356f6596a6e41eb9baf214305a502af22020ed87a8e0e84f90
+  4.4.0.0--hdfd78af_0: sha256:f21df2061ac1870b2a49ebdb8882653d3ab396446b652681c1865de745cd57cd
 tags:
   4.3.0.0--hdfd78af_0: sha256:b891cccd973b5e356f6596a6e41eb9baf214305a502af22020ed87a8e0e84f90
+  4.4.0.0--hdfd78af_0: sha256:f21df2061ac1870b2a49ebdb8882653d3ab396446b652681c1865de745cd57cd
 docker: quay.io/biocontainers/gatk4-spark
 aliases:
   gatk: /usr/local/bin/gatk

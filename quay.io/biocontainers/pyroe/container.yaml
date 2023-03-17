@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyroe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyroe
 latest:
-  0.8.1--pyhdfd78af_0: sha256:0156cf6a28beb8570fe31a0b170718b36f6047c186785e39d5425e2c31807a72
+  0.9.0--pyhdfd78af_0: sha256:2b385f78f84f717af0841a22551b98a026b5b6f949b27b8481189687a4b64b81
 tags:
   0.8.1--pyhdfd78af_0: sha256:0156cf6a28beb8570fe31a0b170718b36f6047c186785e39d5425e2c31807a72
+  0.9.0--pyhdfd78af_0: sha256:2b385f78f84f717af0841a22551b98a026b5b6f949b27b8481189687a4b64b81
 docker: quay.io/biocontainers/pyroe
 aliases:
   h5delete: /usr/local/bin/h5delete
