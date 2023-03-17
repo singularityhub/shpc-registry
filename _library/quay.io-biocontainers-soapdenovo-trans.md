@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapdenovo-trans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo-trans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo-trans/container.yaml"
-updated_at: "2023-03-16 02:58:05.022967"
+updated_at: "2023-03-17 03:07:45.504953"
 latest: "1.04--h7132678_5"
 container_url: "https://biocontainers.pro/tools/soapdenovo-trans"
 aliases:

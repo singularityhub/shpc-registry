@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/poppunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poppunk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poppunk/container.yaml"
-updated_at: "2023-03-16 03:09:36.093071"
+updated_at: "2023-03-17 03:04:30.711295"
 latest: "2.6.0--py39h9b916c0_0"
 container_url: "https://biocontainers.pro/tools/poppunk"
 aliases:

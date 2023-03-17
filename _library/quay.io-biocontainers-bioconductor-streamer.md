@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-streamer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-streamer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-streamer/container.yaml"
-updated_at: "2023-03-16 03:33:34.604144"
+updated_at: "2023-03-17 03:19:50.945868"
 latest: "1.44.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-streamer"
 

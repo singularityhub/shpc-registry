@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-parallel-forkmanager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parallel-forkmanager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parallel-forkmanager/container.yaml"
-updated_at: "2023-03-16 03:31:10.592807"
+updated_at: "2023-03-17 03:03:53.821695"
 latest: "2.02--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-parallel-forkmanager"
 aliases:

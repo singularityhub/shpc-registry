@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ecmwfapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecmwfapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecmwfapi/container.yaml"
-updated_at: "2023-03-16 03:05:36.295904"
+updated_at: "2023-03-17 03:25:33.501486"
 latest: "1.4.1--py_2"
 container_url: "https://biocontainers.pro/tools/ecmwfapi"
 aliases:

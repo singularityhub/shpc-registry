@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/ginpiper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ginpiper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ginpiper/container.yaml"
-updated_at: "2023-03-16 03:24:25.296220"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2023-03-17 03:00:21.149035"
+latest: "1.0.0--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ginpiper"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.0.0--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for ginpiper"
-config: {"url": "https://biocontainers.pro/tools/ginpiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ginpiper", "latest": {"1.0.0--r41hdfd78af_0": "sha256:5a3ece21f9fc0ec60537ce2fedb0b69e387415076659dce0390187def6cd7340"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:5a3ece21f9fc0ec60537ce2fedb0b69e387415076659dce0390187def6cd7340"}, "docker": "quay.io/biocontainers/ginpiper"}
+config: {"url": "https://biocontainers.pro/tools/ginpiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ginpiper", "latest": {"1.0.0--r42hdfd78af_1": "sha256:fbff1da8e62166fff192c036ae0a92a1aabf5c097c7129a3f31d27d06610b8db"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:5a3ece21f9fc0ec60537ce2fedb0b69e387415076659dce0390187def6cd7340", "1.0.0--r42hdfd78af_1": "sha256:fbff1da8e62166fff192c036ae0a92a1aabf5c097c7129a3f31d27d06610b8db"}, "docker": "quay.io/biocontainers/ginpiper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ginpiper.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/ginpiper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ginpiper:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/ginpiper:1.0.0--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ginpiper/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/ginpiper/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/ginpiper/1.0.0--r42hdfd78af_1
+$ module help quay.io/biocontainers/ginpiper/1.0.0--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

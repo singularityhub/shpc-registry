@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gunc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gunc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gunc/container.yaml"
-updated_at: "2023-03-16 03:35:12.162767"
+updated_at: "2023-03-17 02:48:29.618291"
 latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gunc"
 aliases:

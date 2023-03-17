@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phyloflash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyloflash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyloflash/container.yaml"
-updated_at: "2023-03-16 02:58:08.420630"
-latest: "3.4.1--hdfd78af_0"
+updated_at: "2023-03-17 03:10:22.296873"
+latest: "3.4.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phyloflash"
 aliases:
  - "ENA_phyloFlash.pl"
@@ -33,8 +33,9 @@ aliases:
 versions:
  - "3.4.1--hdfd78af_0"
  - "3.4--hdfd78af_1"
+ - "3.4.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for phyloflash"
-config: {"url": "https://biocontainers.pro/tools/phyloflash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyloflash", "latest": {"3.4.1--hdfd78af_0": "sha256:d110b0bb01fc725502adad58e6cb36a679890bf745c3d0c02526a126e848294c"}, "tags": {"3.4.1--hdfd78af_0": "sha256:d110b0bb01fc725502adad58e6cb36a679890bf745c3d0c02526a126e848294c", "3.4--hdfd78af_1": "sha256:5f9f2fb78806dd87e14f236f15e98683493c8e378ab5f3884a5d863a2fc7bffe"}, "docker": "quay.io/biocontainers/phyloflash", "aliases": {"ENA_phyloFlash.pl": "/usr/local/bin/ENA_phyloFlash.pl", "emirge.py": "/usr/local/bin/emirge.py", "emirge_amplicon.py": "/usr/local/bin/emirge_amplicon.py", "emirge_makedb.py": "/usr/local/bin/emirge_makedb.py", "emirge_rename_fasta.py": "/usr/local/bin/emirge_rename_fasta.py", "phyloFlash.pl": "/usr/local/bin/phyloFlash.pl", "phyloFlash_barplot.R": "/usr/local/bin/phyloFlash_barplot.R", "phyloFlash_compare.pl": "/usr/local/bin/phyloFlash_compare.pl", "phyloFlash_fastgFishing.pl": "/usr/local/bin/phyloFlash_fastgFishing.pl", "phyloFlash_heatmap.R": "/usr/local/bin/phyloFlash_heatmap.R", "phyloFlash_makedb.pl": "/usr/local/bin/phyloFlash_makedb.pl", "phyloFlash_plotscript_svg.pl": "/usr/local/bin/phyloFlash_plotscript_svg.pl", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh"}}
+config: {"url": "https://biocontainers.pro/tools/phyloflash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyloflash", "latest": {"3.4.2--hdfd78af_0": "sha256:bae9df6cf68735732748100ec35128a9f9af2796871b2459606df694cce2d1e5"}, "tags": {"3.4.1--hdfd78af_0": "sha256:d110b0bb01fc725502adad58e6cb36a679890bf745c3d0c02526a126e848294c", "3.4--hdfd78af_1": "sha256:5f9f2fb78806dd87e14f236f15e98683493c8e378ab5f3884a5d863a2fc7bffe", "3.4.2--hdfd78af_0": "sha256:bae9df6cf68735732748100ec35128a9f9af2796871b2459606df694cce2d1e5"}, "docker": "quay.io/biocontainers/phyloflash", "aliases": {"ENA_phyloFlash.pl": "/usr/local/bin/ENA_phyloFlash.pl", "emirge.py": "/usr/local/bin/emirge.py", "emirge_amplicon.py": "/usr/local/bin/emirge_amplicon.py", "emirge_makedb.py": "/usr/local/bin/emirge_makedb.py", "emirge_rename_fasta.py": "/usr/local/bin/emirge_rename_fasta.py", "phyloFlash.pl": "/usr/local/bin/phyloFlash.pl", "phyloFlash_barplot.R": "/usr/local/bin/phyloFlash_barplot.R", "phyloFlash_compare.pl": "/usr/local/bin/phyloFlash_compare.pl", "phyloFlash_fastgFishing.pl": "/usr/local/bin/phyloFlash_fastgFishing.pl", "phyloFlash_heatmap.R": "/usr/local/bin/phyloFlash_heatmap.R", "phyloFlash_makedb.pl": "/usr/local/bin/phyloFlash_makedb.pl", "phyloFlash_plotscript_svg.pl": "/usr/local/bin/phyloFlash_plotscript_svg.pl", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phyloflash.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/phyloflash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phyloflash:3.4.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/phyloflash:3.4.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phyloflash/3.4.1--hdfd78af_0
-$ module help quay.io/biocontainers/phyloflash/3.4.1--hdfd78af_0
+$ module load quay.io/biocontainers/phyloflash/3.4.2--hdfd78af_0
+$ module help quay.io/biocontainers/phyloflash/3.4.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

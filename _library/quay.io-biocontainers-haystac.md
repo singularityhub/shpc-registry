@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haystac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haystac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haystac/container.yaml"
-updated_at: "2023-03-16 03:06:13.193142"
-latest: "0.4.8--pypyhfa5458b_0"
+updated_at: "2023-03-17 02:55:37.836469"
+latest: "0.4.10--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/haystac"
 aliases:
  - "haystac"
@@ -21,8 +21,9 @@ aliases:
  - "rst2html4.py"
 versions:
  - "0.4.8--pypyhfa5458b_0"
+ - "0.4.10--pyh086e186_0"
 description: "shpc-registry automated BioContainers addition for haystac"
-config: {"url": "https://biocontainers.pro/tools/haystac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haystac", "latest": {"0.4.8--pypyhfa5458b_0": "sha256:c8f6381b9013d7cdc12f4242ed0217bcb88faac4048ee521c55084b989176607"}, "tags": {"0.4.8--pypyhfa5458b_0": "sha256:c8f6381b9013d7cdc12f4242ed0217bcb88faac4048ee521c55084b989176607"}, "docker": "quay.io/biocontainers/haystac", "aliases": {"haystac": "/usr/local/bin/haystac", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
+config: {"url": "https://biocontainers.pro/tools/haystac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haystac", "latest": {"0.4.10--pyh086e186_0": "sha256:bb4f2fe5c15309534b6123084a7385284c735ce95da39190ae4ec81d214802af"}, "tags": {"0.4.8--pypyhfa5458b_0": "sha256:c8f6381b9013d7cdc12f4242ed0217bcb88faac4048ee521c55084b989176607", "0.4.10--pyh086e186_0": "sha256:bb4f2fe5c15309534b6123084a7385284c735ce95da39190ae4ec81d214802af"}, "docker": "quay.io/biocontainers/haystac", "aliases": {"haystac": "/usr/local/bin/haystac", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haystac.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/haystac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haystac:0.4.8--pypyhfa5458b_0
+$ shpc install quay.io/biocontainers/haystac:0.4.10--pyh086e186_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haystac/0.4.8--pypyhfa5458b_0
-$ module help quay.io/biocontainers/haystac/0.4.8--pypyhfa5458b_0
+$ module load quay.io/biocontainers/haystac/0.4.10--pyh086e186_0
+$ module help quay.io/biocontainers/haystac/0.4.10--pyh086e186_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

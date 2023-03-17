@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/plink2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plink2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plink2/container.yaml"
-updated_at: "2023-03-16 02:52:25.197613"
-latest: "2.00a3.3--hb2a7ceb_0"
+updated_at: "2023-03-17 02:58:46.113955"
+latest: "2.00a3.7--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/plink2"
 aliases:
  - "plink2"
 versions:
  - "2.00a3.3--hb2a7ceb_0"
+ - "2.00a3.7--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for plink2"
-config: {"url": "https://biocontainers.pro/tools/plink2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plink2", "latest": {"2.00a3.3--hb2a7ceb_0": "sha256:dfa04a7b5b5ec23ca8e2e3af6aebd322428ca7c6898546b6e10b9ad841413dd5"}, "tags": {"2.00a3.3--hb2a7ceb_0": "sha256:dfa04a7b5b5ec23ca8e2e3af6aebd322428ca7c6898546b6e10b9ad841413dd5"}, "docker": "quay.io/biocontainers/plink2", "aliases": {"plink2": "/usr/local/bin/plink2"}}
+config: {"url": "https://biocontainers.pro/tools/plink2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plink2", "latest": {"2.00a3.7--h9f5acd7_2": "sha256:2944b344c7086659f455bc129eafadf33488e6d9ec1b3ec4e1b58e62ce6f34ee"}, "tags": {"2.00a3.3--hb2a7ceb_0": "sha256:dfa04a7b5b5ec23ca8e2e3af6aebd322428ca7c6898546b6e10b9ad841413dd5", "2.00a3.7--h9f5acd7_2": "sha256:2944b344c7086659f455bc129eafadf33488e6d9ec1b3ec4e1b58e62ce6f34ee"}, "docker": "quay.io/biocontainers/plink2", "aliases": {"plink2": "/usr/local/bin/plink2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plink2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/plink2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plink2:2.00a3.3--hb2a7ceb_0
+$ shpc install quay.io/biocontainers/plink2:2.00a3.7--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plink2/2.00a3.3--hb2a7ceb_0
-$ module help quay.io/biocontainers/plink2/2.00a3.3--hb2a7ceb_0
+$ module load quay.io/biocontainers/plink2/2.00a3.7--h9f5acd7_2
+$ module help quay.io/biocontainers/plink2/2.00a3.7--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

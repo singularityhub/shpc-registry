@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miidl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miidl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miidl/container.yaml"
-updated_at: "2023-03-16 03:05:12.455038"
+updated_at: "2023-03-17 03:14:35.307391"
 latest: "0.0.5--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/miidl"
 aliases:

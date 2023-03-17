@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pynteny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynteny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pynteny/container.yaml"
-updated_at: "2023-03-16 03:19:42.681218"
-latest: "0.0.5--py310hec16e2b_0"
+updated_at: "2023-03-17 03:21:50.418793"
+latest: "1.0.0--py310hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/pynteny"
 aliases:
  - "csv-import"
@@ -46,8 +46,9 @@ aliases:
  - "jupyter-migrate"
 versions:
  - "0.0.5--py310hec16e2b_0"
+ - "1.0.0--py310hec16e2b_0"
 description: "singularity registry hpc automated addition for pynteny"
-config: {"url": "https://biocontainers.pro/tools/pynteny", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pynteny", "latest": {"0.0.5--py310hec16e2b_0": "sha256:bbbf4eed701307279bf0d929c3621b798b6c2049e5c437eb10e15cda63445677"}, "tags": {"0.0.5--py310hec16e2b_0": "sha256:bbbf4eed701307279bf0d929c3621b798b6c2049e5c437eb10e15cda63445677"}, "docker": "quay.io/biocontainers/pynteny", "aliases": {"csv-import": "/usr/local/bin/csv-import", "ipython3.10": "/usr/local/bin/ipython3.10", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "pyfastx": "/usr/local/bin/pyfastx", "pynteny": "/usr/local/bin/pynteny", "pysemver": "/usr/local/bin/pysemver", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "timezone-dump": "/usr/local/bin/timezone-dump", "watchmedo": "/usr/local/bin/watchmedo", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "jupyter-trust": "/usr/local/bin/jupyter-trust", "prodigal": "/usr/local/bin/prodigal", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate"}}
+config: {"url": "https://biocontainers.pro/tools/pynteny", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pynteny", "latest": {"1.0.0--py310hec16e2b_0": "sha256:b9abe77dbc7f916df71dcf371a45676ff8f1e673e57d6edc623124b4b79febdc"}, "tags": {"0.0.5--py310hec16e2b_0": "sha256:bbbf4eed701307279bf0d929c3621b798b6c2049e5c437eb10e15cda63445677", "1.0.0--py310hec16e2b_0": "sha256:b9abe77dbc7f916df71dcf371a45676ff8f1e673e57d6edc623124b4b79febdc"}, "docker": "quay.io/biocontainers/pynteny", "aliases": {"csv-import": "/usr/local/bin/csv-import", "ipython3.10": "/usr/local/bin/ipython3.10", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "pyfastx": "/usr/local/bin/pyfastx", "pynteny": "/usr/local/bin/pynteny", "pysemver": "/usr/local/bin/pysemver", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "timezone-dump": "/usr/local/bin/timezone-dump", "watchmedo": "/usr/local/bin/watchmedo", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "jupyter-trust": "/usr/local/bin/jupyter-trust", "prodigal": "/usr/local/bin/prodigal", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pynteny.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/pynteny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pynteny:0.0.5--py310hec16e2b_0
+$ shpc install quay.io/biocontainers/pynteny:1.0.0--py310hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pynteny/0.0.5--py310hec16e2b_0
-$ module help quay.io/biocontainers/pynteny/0.0.5--py310hec16e2b_0
+$ module load quay.io/biocontainers/pynteny/1.0.0--py310hec16e2b_0
+$ module help quay.io/biocontainers/pynteny/1.0.0--py310hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
