@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eisa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eisa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eisa/container.yaml"
-updated_at: "2023-03-17 02:46:24.888501"
+updated_at: "2023-03-18 02:49:03.545289"
 latest: "1.42.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-eisa"
 aliases:

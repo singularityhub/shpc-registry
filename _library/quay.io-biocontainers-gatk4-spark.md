@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gatk4-spark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk4-spark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatk4-spark/container.yaml"
-updated_at: "2023-03-17 03:02:52.711314"
-latest: "4.3.0.0--hdfd78af_0"
+updated_at: "2023-03-18 03:09:59.062964"
+latest: "4.4.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gatk4-spark"
 aliases:
  - "gatk"
@@ -20,8 +20,9 @@ aliases:
  - "jhsdb"
 versions:
  - "4.3.0.0--hdfd78af_0"
+ - "4.4.0.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gatk4-spark"
-config: {"url": "https://biocontainers.pro/tools/gatk4-spark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4-spark", "latest": {"4.3.0.0--hdfd78af_0": "sha256:b891cccd973b5e356f6596a6e41eb9baf214305a502af22020ed87a8e0e84f90"}, "tags": {"4.3.0.0--hdfd78af_0": "sha256:b891cccd973b5e356f6596a6e41eb9baf214305a502af22020ed87a8e0e84f90"}, "docker": "quay.io/biocontainers/gatk4-spark", "aliases": {"gatk": "/usr/local/bin/gatk", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
+config: {"url": "https://biocontainers.pro/tools/gatk4-spark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4-spark", "latest": {"4.4.0.0--hdfd78af_0": "sha256:f21df2061ac1870b2a49ebdb8882653d3ab396446b652681c1865de745cd57cd"}, "tags": {"4.3.0.0--hdfd78af_0": "sha256:b891cccd973b5e356f6596a6e41eb9baf214305a502af22020ed87a8e0e84f90", "4.4.0.0--hdfd78af_0": "sha256:f21df2061ac1870b2a49ebdb8882653d3ab396446b652681c1865de745cd57cd"}, "docker": "quay.io/biocontainers/gatk4-spark", "aliases": {"gatk": "/usr/local/bin/gatk", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatk4-spark.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/gatk4-spark
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gatk4-spark:4.3.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/gatk4-spark:4.4.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gatk4-spark/4.3.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/gatk4-spark/4.3.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/gatk4-spark/4.4.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/gatk4-spark/4.4.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

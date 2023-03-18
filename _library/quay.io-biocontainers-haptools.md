@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haptools/container.yaml"
-updated_at: "2023-03-17 02:39:48.649106"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2023-03-18 02:40:31.178104"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/haptools"
 aliases:
  - "haptools"
@@ -36,8 +36,9 @@ aliases:
  - "tificc"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for haptools"
-config: {"url": "https://biocontainers.pro/tools/haptools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haptools", "latest": {"0.1.3--pyhdfd78af_0": "sha256:95c5c9facc6b2cee7c3d0afaf91ffefba380beb7545893875d36c6b07f2978c3"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:95c5c9facc6b2cee7c3d0afaf91ffefba380beb7545893875d36c6b07f2978c3"}, "docker": "quay.io/biocontainers/haptools", "aliases": {"haptools": "/usr/local/bin/haptools", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/haptools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haptools", "latest": {"0.2.0--pyhdfd78af_0": "sha256:324e8d2dd77e8b474a0a551b7052a0ada25fbf89feb0b2dde220f01b453a5378"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:95c5c9facc6b2cee7c3d0afaf91ffefba380beb7545893875d36c6b07f2978c3", "0.2.0--pyhdfd78af_0": "sha256:324e8d2dd77e8b474a0a551b7052a0ada25fbf89feb0b2dde220f01b453a5378"}, "docker": "quay.io/biocontainers/haptools", "aliases": {"haptools": "/usr/local/bin/haptools", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haptools.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/haptools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haptools:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/haptools:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haptools/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/haptools/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/haptools/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/haptools/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

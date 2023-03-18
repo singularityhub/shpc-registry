@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pstools/container.yaml"
-updated_at: "2023-03-17 02:51:19.190999"
+updated_at: "2023-03-18 02:55:19.041773"
 latest: "0.2a3--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/pstools"
 aliases:

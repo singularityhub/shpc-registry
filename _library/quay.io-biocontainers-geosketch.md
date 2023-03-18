@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geosketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geosketch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geosketch/container.yaml"
-updated_at: "2023-03-17 03:08:34.488922"
+updated_at: "2023-03-18 03:17:17.284535"
 latest: "1.2--py_0"
 container_url: "https://biocontainers.pro/tools/geosketch"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crumble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crumble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crumble/container.yaml"
-updated_at: "2023-03-17 03:11:41.544036"
-latest: "0.9.0--hb0d9459_1"
+updated_at: "2023-03-18 03:21:16.104631"
+latest: "0.9.1--hc88714e_1"
 container_url: "https://biocontainers.pro/tools/crumble"
 aliases:
  - "crumble"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.9.0--hb0d9459_1"
+ - "0.9.1--hc88714e_1"
 description: "shpc-registry automated BioContainers addition for crumble"
-config: {"url": "https://biocontainers.pro/tools/crumble", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crumble", "latest": {"0.9.0--hb0d9459_1": "sha256:ba4ef419e22f50f1e618330b4e66097612efca633a33a6f6f480427af8d9b38a"}, "tags": {"0.9.0--hb0d9459_1": "sha256:ba4ef419e22f50f1e618330b4e66097612efca633a33a6f6f480427af8d9b38a"}, "docker": "quay.io/biocontainers/crumble", "aliases": {"crumble": "/usr/local/bin/crumble", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/crumble", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crumble", "latest": {"0.9.1--hc88714e_1": "sha256:e3374bc690dcc594df50e2dae9cdfa10315a8164b78dd251221f27a6910867db"}, "tags": {"0.9.0--hb0d9459_1": "sha256:ba4ef419e22f50f1e618330b4e66097612efca633a33a6f6f480427af8d9b38a", "0.9.1--hc88714e_1": "sha256:e3374bc690dcc594df50e2dae9cdfa10315a8164b78dd251221f27a6910867db"}, "docker": "quay.io/biocontainers/crumble", "aliases": {"crumble": "/usr/local/bin/crumble", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crumble.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/crumble
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crumble:0.9.0--hb0d9459_1
+$ shpc install quay.io/biocontainers/crumble:0.9.1--hc88714e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crumble/0.9.0--hb0d9459_1
-$ module help quay.io/biocontainers/crumble/0.9.0--hb0d9459_1
+$ module load quay.io/biocontainers/crumble/0.9.1--hc88714e_1
+$ module help quay.io/biocontainers/crumble/0.9.1--hc88714e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

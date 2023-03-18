@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyroe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyroe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyroe/container.yaml"
-updated_at: "2023-03-17 02:39:48.340523"
-latest: "0.8.1--pyhdfd78af_0"
+updated_at: "2023-03-18 02:40:30.779447"
+latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyroe"
 aliases:
  - "h5delete"
@@ -51,8 +51,9 @@ aliases:
  - "complementBed"
 versions:
  - "0.8.1--pyhdfd78af_0"
+ - "0.9.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pyroe"
-config: {"url": "https://biocontainers.pro/tools/pyroe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyroe", "latest": {"0.8.1--pyhdfd78af_0": "sha256:0156cf6a28beb8570fe31a0b170718b36f6047c186785e39d5425e2c31807a72"}, "tags": {"0.8.1--pyhdfd78af_0": "sha256:0156cf6a28beb8570fe31a0b170718b36f6047c186785e39d5425e2c31807a72"}, "docker": "quay.io/biocontainers/pyroe", "aliases": {"h5delete": "/usr/local/bin/h5delete", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "pyroe": "/usr/local/bin/pyroe", "aec": "/usr/local/bin/aec", "scanpy": "/usr/local/bin/scanpy", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed"}}
+config: {"url": "https://biocontainers.pro/tools/pyroe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyroe", "latest": {"0.9.0--pyhdfd78af_0": "sha256:2b385f78f84f717af0841a22551b98a026b5b6f949b27b8481189687a4b64b81"}, "tags": {"0.8.1--pyhdfd78af_0": "sha256:0156cf6a28beb8570fe31a0b170718b36f6047c186785e39d5425e2c31807a72", "0.9.0--pyhdfd78af_0": "sha256:2b385f78f84f717af0841a22551b98a026b5b6f949b27b8481189687a4b64b81"}, "docker": "quay.io/biocontainers/pyroe", "aliases": {"h5delete": "/usr/local/bin/h5delete", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "pyroe": "/usr/local/bin/pyroe", "aec": "/usr/local/bin/aec", "scanpy": "/usr/local/bin/scanpy", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyroe.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/pyroe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyroe:0.8.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyroe:0.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyroe/0.8.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyroe/0.8.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyroe/0.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyroe/0.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

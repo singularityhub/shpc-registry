@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-poplarprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-poplarprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-poplarprobe/container.yaml"
-updated_at: "2023-03-17 02:54:01.333767"
+updated_at: "2023-03-18 02:58:47.277220"
 latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-poplarprobe"
 

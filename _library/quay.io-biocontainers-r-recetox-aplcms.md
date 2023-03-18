@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-recetox-aplcms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-aplcms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-aplcms/container.yaml"
-updated_at: "2023-03-17 03:07:47.946003"
-latest: "0.10.1--r42hdfd78af_0"
+updated_at: "2023-03-18 03:16:17.860138"
+latest: "0.10.2--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-recetox-aplcms"
 aliases:
  - "csv-import"
@@ -30,8 +30,9 @@ versions:
  - "0.9.4--r42hdfd78af_1"
  - "0.10.0--r42hdfd78af_0"
  - "0.10.1--r42hdfd78af_0"
+ - "0.10.2--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-recetox-aplcms"
-config: {"url": "https://biocontainers.pro/tools/r-recetox-aplcms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-aplcms", "latest": {"0.10.1--r42hdfd78af_0": "sha256:a7a0e5720d821236cff1db68ff088a7f5fe22732c6936533717f516e111f4a10"}, "tags": {"0.9.4--r41hdfd78af_0": "sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e", "0.9.4--r42hdfd78af_1": "sha256:0c5dee231b525ba0d1912af34d87da9b85de42fdf269ed6fea56e32fd92e645e", "0.10.0--r42hdfd78af_0": "sha256:b49d39ec0754ee8471399bb9465aa863720a4816d42b23d17cbb398a141397ac", "0.10.1--r42hdfd78af_0": "sha256:a7a0e5720d821236cff1db68ff088a7f5fe22732c6936533717f516e111f4a10"}, "docker": "quay.io/biocontainers/r-recetox-aplcms", "aliases": {"csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/r-recetox-aplcms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-aplcms", "latest": {"0.10.2--r42hdfd78af_0": "sha256:59fcc0b7a5b8b034adbd236bd3cdbec4dafcc9a64a28df12bf1347460872c5a6"}, "tags": {"0.9.4--r41hdfd78af_0": "sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e", "0.9.4--r42hdfd78af_1": "sha256:0c5dee231b525ba0d1912af34d87da9b85de42fdf269ed6fea56e32fd92e645e", "0.10.0--r42hdfd78af_0": "sha256:b49d39ec0754ee8471399bb9465aa863720a4816d42b23d17cbb398a141397ac", "0.10.1--r42hdfd78af_0": "sha256:a7a0e5720d821236cff1db68ff088a7f5fe22732c6936533717f516e111f4a10", "0.10.2--r42hdfd78af_0": "sha256:59fcc0b7a5b8b034adbd236bd3cdbec4dafcc9a64a28df12bf1347460872c5a6"}, "docker": "quay.io/biocontainers/r-recetox-aplcms", "aliases": {"csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-recetox-aplcms.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/r-recetox-aplcms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-recetox-aplcms:0.10.1--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-recetox-aplcms:0.10.2--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-recetox-aplcms/0.10.1--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-recetox-aplcms/0.10.1--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-recetox-aplcms/0.10.2--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-recetox-aplcms/0.10.2--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

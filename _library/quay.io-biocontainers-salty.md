@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/salty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salty/container.yaml"
-updated_at: "2023-03-17 02:57:33.285723"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2023-03-18 03:03:12.186046"
+latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/salty"
 aliases:
  - "f2py3.11"
@@ -22,8 +22,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for salty"
-config: {"url": "https://biocontainers.pro/tools/salty", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for salty", "latest": {"1.0.0--pyhdfd78af_0": "sha256:5d4169c5a3a77a9a781661627f0e3f180682c636b2a477cec5bf03ab3c0a9206"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:5d4169c5a3a77a9a781661627f0e3f180682c636b2a477cec5bf03ab3c0a9206"}, "docker": "quay.io/biocontainers/salty", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "salty": "/usr/local/bin/salty", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/salty", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for salty", "latest": {"1.0.4--pyhdfd78af_0": "sha256:78b220955ad48dae774e76c9b040645527ade20e02d699e4ffbb29ef296d6466"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:5d4169c5a3a77a9a781661627f0e3f180682c636b2a477cec5bf03ab3c0a9206", "1.0.4--pyhdfd78af_0": "sha256:78b220955ad48dae774e76c9b040645527ade20e02d699e4ffbb29ef296d6466"}, "docker": "quay.io/biocontainers/salty", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "salty": "/usr/local/bin/salty", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/salty.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/salty
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/salty:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/salty:1.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/salty/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/salty/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/salty/1.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/salty/1.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

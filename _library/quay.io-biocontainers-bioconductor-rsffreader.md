@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsffreader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsffreader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsffreader/container.yaml"
-updated_at: "2023-03-17 03:08:01.710671"
+updated_at: "2023-03-18 03:16:35.633381"
 latest: "0.31.0--r36h516909a_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsffreader"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmmer2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmer2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmer2/container.yaml"
-updated_at: "2023-03-17 03:04:34.073786"
+updated_at: "2023-03-18 03:12:09.857555"
 latest: "2.3.2--hec16e2b_7"
 container_url: "https://biocontainers.pro/tools/hmmer2"
 aliases:
