@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kmasker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kmasker
 latest:
-  1.1.1--py38pl5321r41h4a32c8e_4: sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc
+  1.1.1--py36pl5321r42h2ad2d48_5: sha256:2f8db110b6cfd86a522b46ea3398097be1cc0f203c99714f874d96e9f44df57c
 tags:
   1.1.1--py38pl5321r41h4a32c8e_4: sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc
+  1.1.1--py36pl5321r42h2ad2d48_5: sha256:2f8db110b6cfd86a522b46ea3398097be1cc0f203c99714f874d96e9f44df57c
 docker: quay.io/biocontainers/kmasker
 aliases:
   Kmasker: /usr/local/bin/Kmasker
