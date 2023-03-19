@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bam2fastx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bam2fastx
 latest:
-  1.3.1--hb7da652_2: sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7
+  3.0.0--h9ee0642_0: sha256:d00ab72ecf53deb749dbf19d7c1827ae9647dcb0ca09d81f2e90fdbb6bf15cd9
 tags:
   1.3.1--hb7da652_2: sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7
+  3.0.0--h9ee0642_0: sha256:d00ab72ecf53deb749dbf19d7c1827ae9647dcb0ca09d81f2e90fdbb6bf15cd9
 docker: quay.io/biocontainers/bam2fastx
 aliases:
   bam2fasta: /usr/local/bin/bam2fasta

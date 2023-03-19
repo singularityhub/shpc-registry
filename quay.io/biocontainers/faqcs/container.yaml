@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/faqcs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for faqcs
 latest:
-  2.10--r41hd03093a_3: sha256:41f3f43b38fa6d32523380fe05ce5ce9a78ab669bdecf9bd56fe42e9444dff56
+  2.10--r42hd03093a_4: sha256:25653970a1f3709cc25c27dbe9170df2afbcc0a8445d3a1ebbebd3ee7ec6ba30
 tags:
   2.10--r41hd03093a_3: sha256:41f3f43b38fa6d32523380fe05ce5ce9a78ab669bdecf9bd56fe42e9444dff56
+  2.10--r42hd03093a_4: sha256:25653970a1f3709cc25c27dbe9170df2afbcc0a8445d3a1ebbebd3ee7ec6ba30
 docker: quay.io/biocontainers/faqcs
 aliases:
   FaQCs: /usr/local/bin/FaQCs
