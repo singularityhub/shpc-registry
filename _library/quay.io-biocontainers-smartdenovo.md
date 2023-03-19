@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smartdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smartdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smartdenovo/container.yaml"
-updated_at: "2023-03-19 02:48:41.770352"
+updated_at: "2023-03-19 13:25:29.311011"
 latest: "1.0.0--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/smartdenovo"
 aliases:

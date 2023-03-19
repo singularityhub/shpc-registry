@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chimeraviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chimeraviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chimeraviz/container.yaml"
-updated_at: "2023-03-19 03:20:13.251747"
+updated_at: "2023-03-19 13:57:30.810650"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chimeraviz"
 aliases:

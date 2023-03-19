@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylsig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylsig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylsig/container.yaml"
-updated_at: "2023-03-19 03:00:04.634889"
+updated_at: "2023-03-19 13:37:04.986654"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylsig"
 
