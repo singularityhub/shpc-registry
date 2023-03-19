@@ -1,8 +1,8 @@
 name: shpc update biocontainers
 
 on:
+  workflow_dispatch:
   schedule:
-  - cron: 0 0 1 * *
   # Temporary just to test more frequently
   - cron: 0 2 * * *
 
