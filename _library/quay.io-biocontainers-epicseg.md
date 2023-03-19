@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/epicseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epicseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epicseg/container.yaml"
-updated_at: "2023-03-18 02:57:05.172989"
-latest: "1.0--r41hec16e2b_6"
+updated_at: "2023-03-19 03:01:42.165590"
+latest: "1.0--r42hec16e2b_7"
 container_url: "https://biocontainers.pro/tools/epicseg"
 
 versions:
  - "1.0--r41hec16e2b_6"
+ - "1.0--r42hec16e2b_7"
 description: "shpc-registry automated BioContainers addition for epicseg"
-config: {"url": "https://biocontainers.pro/tools/epicseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epicseg", "latest": {"1.0--r41hec16e2b_6": "sha256:d6afb897a583b37026ba13bfa6bf145beaf4dfec19402c743f44e30fdf42fd46"}, "tags": {"1.0--r41hec16e2b_6": "sha256:d6afb897a583b37026ba13bfa6bf145beaf4dfec19402c743f44e30fdf42fd46"}, "docker": "quay.io/biocontainers/epicseg"}
+config: {"url": "https://biocontainers.pro/tools/epicseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epicseg", "latest": {"1.0--r42hec16e2b_7": "sha256:d3fc201f7c306175e50b6de941793bde2bd312766002153415e5d372c77d5687"}, "tags": {"1.0--r41hec16e2b_6": "sha256:d6afb897a583b37026ba13bfa6bf145beaf4dfec19402c743f44e30fdf42fd46", "1.0--r42hec16e2b_7": "sha256:d3fc201f7c306175e50b6de941793bde2bd312766002153415e5d372c77d5687"}, "docker": "quay.io/biocontainers/epicseg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epicseg.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/epicseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epicseg:1.0--r41hec16e2b_6
+$ shpc install quay.io/biocontainers/epicseg:1.0--r42hec16e2b_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epicseg/1.0--r41hec16e2b_6
-$ module help quay.io/biocontainers/epicseg/1.0--r41hec16e2b_6
+$ module load quay.io/biocontainers/epicseg/1.0--r42hec16e2b_7
+$ module help quay.io/biocontainers/epicseg/1.0--r42hec16e2b_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmasker/container.yaml"
-updated_at: "2023-03-18 03:03:05.474148"
-latest: "1.1.1--py38pl5321r41h4a32c8e_4"
+updated_at: "2023-03-19 03:06:17.559493"
+latest: "1.1.1--py36pl5321r42h2ad2d48_5"
 container_url: "https://biocontainers.pro/tools/kmasker"
 aliases:
  - "Kmasker"
@@ -29,8 +29,9 @@ aliases:
  - "cat"
 versions:
  - "1.1.1--py38pl5321r41h4a32c8e_4"
+ - "1.1.1--py36pl5321r42h2ad2d48_5"
 description: "shpc-registry automated BioContainers addition for kmasker"
-config: {"url": "https://biocontainers.pro/tools/kmasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmasker", "latest": {"1.1.1--py38pl5321r41h4a32c8e_4": "sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc"}, "tags": {"1.1.1--py38pl5321r41h4a32c8e_4": "sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc"}, "docker": "quay.io/biocontainers/kmasker", "aliases": {"Kmasker": "/usr/local/bin/Kmasker", "cmasker": "/usr/local/bin/cmasker", "fastq-clipper": "/usr/local/bin/fastq-clipper", "fastq-join": "/usr/local/bin/fastq-join", "fastq-mcf": "/usr/local/bin/fastq-mcf", "fastq-multx": "/usr/local/bin/fastq-multx", "fastq-stats": "/usr/local/bin/fastq-stats", "gffread": "/usr/local/bin/gffread", "which": "/usr/local/bin/which", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "jellyfish": "/usr/local/bin/jellyfish", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat"}}
+config: {"url": "https://biocontainers.pro/tools/kmasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmasker", "latest": {"1.1.1--py36pl5321r42h2ad2d48_5": "sha256:2f8db110b6cfd86a522b46ea3398097be1cc0f203c99714f874d96e9f44df57c"}, "tags": {"1.1.1--py38pl5321r41h4a32c8e_4": "sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc", "1.1.1--py36pl5321r42h2ad2d48_5": "sha256:2f8db110b6cfd86a522b46ea3398097be1cc0f203c99714f874d96e9f44df57c"}, "docker": "quay.io/biocontainers/kmasker", "aliases": {"Kmasker": "/usr/local/bin/Kmasker", "cmasker": "/usr/local/bin/cmasker", "fastq-clipper": "/usr/local/bin/fastq-clipper", "fastq-join": "/usr/local/bin/fastq-join", "fastq-mcf": "/usr/local/bin/fastq-mcf", "fastq-multx": "/usr/local/bin/fastq-multx", "fastq-stats": "/usr/local/bin/fastq-stats", "gffread": "/usr/local/bin/gffread", "which": "/usr/local/bin/which", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "jellyfish": "/usr/local/bin/jellyfish", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmasker.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/kmasker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmasker:1.1.1--py38pl5321r41h4a32c8e_4
+$ shpc install quay.io/biocontainers/kmasker:1.1.1--py36pl5321r42h2ad2d48_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmasker/1.1.1--py38pl5321r41h4a32c8e_4
-$ module help quay.io/biocontainers/kmasker/1.1.1--py38pl5321r41h4a32c8e_4
+$ module load quay.io/biocontainers/kmasker/1.1.1--py36pl5321r42h2ad2d48_5
+$ module help quay.io/biocontainers/kmasker/1.1.1--py36pl5321r42h2ad2d48_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
