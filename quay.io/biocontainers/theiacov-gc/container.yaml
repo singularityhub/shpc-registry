@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/theiacov-gc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for theiacov-gc
 latest:
-  2.3.0--hdfd78af_0: sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c
+  2.3.1--hdfd78af_0: sha256:12eaeed815ba61dcd3cbcf0f893d0bbcc158731437a92ac90fa117bb4ee563a3
 tags:
   2.3.0--hdfd78af_0: sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c
+  2.3.1--hdfd78af_0: sha256:12eaeed815ba61dcd3cbcf0f893d0bbcc158731437a92ac90fa117bb4ee563a3
 docker: quay.io/biocontainers/theiacov-gc
 aliases:
   cromwell: /usr/local/bin/cromwell
