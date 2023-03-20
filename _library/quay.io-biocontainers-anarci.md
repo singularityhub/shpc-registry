@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anarci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anarci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anarci/container.yaml"
-updated_at: "2023-03-19 13:33:34.918508"
+updated_at: "2023-03-20 02:52:41.637012"
 latest: "2021.02.04--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anarci"
 aliases:

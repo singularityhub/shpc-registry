@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectra-cluster-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectra-cluster-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectra-cluster-cli/container.yaml"
-updated_at: "2023-03-19 13:45:03.179476"
+updated_at: "2023-03-20 03:03:56.544471"
 latest: "1.1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/spectra-cluster-cli"
 aliases:

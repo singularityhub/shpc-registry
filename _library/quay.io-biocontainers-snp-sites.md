@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snp-sites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-sites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-sites/container.yaml"
-updated_at: "2023-03-19 13:28:50.413042"
+updated_at: "2023-03-20 02:48:00.887262"
 latest: "2.5.1--h7132678_2"
 container_url: "https://biocontainers.pro/tools/snp-sites"
 aliases:

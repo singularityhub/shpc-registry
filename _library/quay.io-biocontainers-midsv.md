@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/midsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/midsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/midsv/container.yaml"
-updated_at: "2023-03-19 14:02:40.377075"
+updated_at: "2023-03-20 03:21:24.381753"
 latest: "0.8.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/midsv"
 aliases:

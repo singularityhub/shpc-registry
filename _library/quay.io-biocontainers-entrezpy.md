@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/entrezpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/entrezpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/entrezpy/container.yaml"
-updated_at: "2023-03-19 13:48:56.268621"
+updated_at: "2023-03-20 03:07:44.966907"
 latest: "2.1.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/entrezpy"
 aliases:

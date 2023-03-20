@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crisprscoredata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprscoredata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprscoredata/container.yaml"
-updated_at: "2023-03-19 13:29:07.785083"
+updated_at: "2023-03-20 02:48:17.974600"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprscoredata"
 aliases:

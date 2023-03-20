@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chipseq-greylist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chipseq-greylist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chipseq-greylist/container.yaml"
-updated_at: "2023-03-19 14:10:47.805831"
+updated_at: "2023-03-20 03:29:26.430313"
 latest: "1.0.2--pyh145b6a8_1"
 container_url: "https://biocontainers.pro/tools/chipseq-greylist"
 aliases:

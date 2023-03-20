@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epiweeks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epiweeks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epiweeks/container.yaml"
-updated_at: "2023-03-19 13:43:22.625054"
+updated_at: "2023-03-20 03:02:17.859721"
 latest: "2.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/epiweeks"
 aliases:

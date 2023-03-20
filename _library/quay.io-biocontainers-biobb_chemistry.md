@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_chemistry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_chemistry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_chemistry/container.yaml"
-updated_at: "2023-03-19 14:01:46.915636"
+updated_at: "2023-03-20 03:20:30.582922"
 latest: "3.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_chemistry"
 aliases:

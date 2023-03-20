@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-gd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gd/container.yaml"
-updated_at: "2023-03-19 13:39:45.792170"
+updated_at: "2023-03-20 02:58:45.811963"
 latest: "2.76--pl5321h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/perl-gd"
 

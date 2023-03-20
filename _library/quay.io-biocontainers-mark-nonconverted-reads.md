@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mark-nonconverted-reads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mark-nonconverted-reads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mark-nonconverted-reads/container.yaml"
-updated_at: "2023-03-19 13:46:40.808378"
+updated_at: "2023-03-20 03:05:32.396335"
 latest: "1.1--py_1"
 container_url: "https://biocontainers.pro/tools/mark-nonconverted-reads"
 aliases:

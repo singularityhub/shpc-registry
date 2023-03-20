@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bam2fastx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam2fastx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam2fastx/container.yaml"
-updated_at: "2023-03-19 13:42:03.278739"
-latest: "1.3.1--hb7da652_2"
+updated_at: "2023-03-20 03:01:00.224309"
+latest: "3.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/bam2fastx"
 aliases:
  - "bam2fasta"
@@ -21,8 +21,9 @@ aliases:
  - "tabix"
 versions:
  - "1.3.1--hb7da652_2"
+ - "3.0.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for bam2fastx"
-config: {"url": "https://biocontainers.pro/tools/bam2fastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam2fastx", "latest": {"1.3.1--hb7da652_2": "sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7"}, "tags": {"1.3.1--hb7da652_2": "sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7"}, "docker": "quay.io/biocontainers/bam2fastx", "aliases": {"bam2fasta": "/usr/local/bin/bam2fasta", "bam2fastq": "/usr/local/bin/bam2fastq", "bam2sam": "/usr/local/bin/bam2sam", "ccs-kinetics-bystrandify": "/usr/local/bin/ccs-kinetics-bystrandify", "pbbamify": "/usr/local/bin/pbbamify", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bam2fastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam2fastx", "latest": {"3.0.0--h9ee0642_0": "sha256:d00ab72ecf53deb749dbf19d7c1827ae9647dcb0ca09d81f2e90fdbb6bf15cd9"}, "tags": {"1.3.1--hb7da652_2": "sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7", "3.0.0--h9ee0642_0": "sha256:d00ab72ecf53deb749dbf19d7c1827ae9647dcb0ca09d81f2e90fdbb6bf15cd9"}, "docker": "quay.io/biocontainers/bam2fastx", "aliases": {"bam2fasta": "/usr/local/bin/bam2fasta", "bam2fastq": "/usr/local/bin/bam2fastq", "bam2sam": "/usr/local/bin/bam2sam", "ccs-kinetics-bystrandify": "/usr/local/bin/ccs-kinetics-bystrandify", "pbbamify": "/usr/local/bin/pbbamify", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bam2fastx.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bam2fastx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bam2fastx:1.3.1--hb7da652_2
+$ shpc install quay.io/biocontainers/bam2fastx:3.0.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bam2fastx/1.3.1--hb7da652_2
-$ module help quay.io/biocontainers/bam2fastx/1.3.1--hb7da652_2
+$ module load quay.io/biocontainers/bam2fastx/3.0.0--h9ee0642_0
+$ module help quay.io/biocontainers/bam2fastx/3.0.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

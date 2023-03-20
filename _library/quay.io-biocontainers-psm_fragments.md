@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psm_fragments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psm_fragments/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psm_fragments/container.yaml"
-updated_at: "2023-03-19 13:51:33.077212"
+updated_at: "2023-03-20 03:10:18.118042"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/psm_fragments"
 aliases:

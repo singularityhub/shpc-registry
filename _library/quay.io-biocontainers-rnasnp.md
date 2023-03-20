@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rnasnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnasnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnasnp/container.yaml"
-updated_at: "2023-03-19 13:44:26.836308"
-latest: "1.2--h1b792b2_6"
+updated_at: "2023-03-20 03:03:20.847029"
+latest: "1.2--h87f3376_7"
 container_url: "https://biocontainers.pro/tools/rnasnp"
 aliases:
  - "RNAsnp"
 versions:
  - "1.2--h1b792b2_6"
+ - "1.2--h87f3376_7"
 description: "shpc-registry automated BioContainers addition for rnasnp"
-config: {"url": "https://biocontainers.pro/tools/rnasnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasnp", "latest": {"1.2--h1b792b2_6": "sha256:213f29bc7bf7bbaa4e2dc929bddac209e1b452867bf63662435dc5090a999362"}, "tags": {"1.2--h1b792b2_6": "sha256:213f29bc7bf7bbaa4e2dc929bddac209e1b452867bf63662435dc5090a999362"}, "docker": "quay.io/biocontainers/rnasnp", "aliases": {"RNAsnp": "/usr/local/bin/RNAsnp"}}
+config: {"url": "https://biocontainers.pro/tools/rnasnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasnp", "latest": {"1.2--h87f3376_7": "sha256:8ad8e65d4b7d43f3c7732744eae1dbfd2cf3f1ad671f53a9c9a8a2002fc8eabe"}, "tags": {"1.2--h1b792b2_6": "sha256:213f29bc7bf7bbaa4e2dc929bddac209e1b452867bf63662435dc5090a999362", "1.2--h87f3376_7": "sha256:8ad8e65d4b7d43f3c7732744eae1dbfd2cf3f1ad671f53a9c9a8a2002fc8eabe"}, "docker": "quay.io/biocontainers/rnasnp", "aliases": {"RNAsnp": "/usr/local/bin/RNAsnp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnasnp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rnasnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnasnp:1.2--h1b792b2_6
+$ shpc install quay.io/biocontainers/rnasnp:1.2--h87f3376_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnasnp/1.2--h1b792b2_6
-$ module help quay.io/biocontainers/rnasnp/1.2--h1b792b2_6
+$ module load quay.io/biocontainers/rnasnp/1.2--h87f3376_7
+$ module help quay.io/biocontainers/rnasnp/1.2--h87f3376_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

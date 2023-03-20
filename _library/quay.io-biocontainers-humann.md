@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/humann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/humann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/humann/container.yaml"
-updated_at: "2023-03-19 13:27:04.528671"
+updated_at: "2023-03-20 02:46:16.539806"
 latest: "3.6--pyh7cba7a3_2"
 container_url: "https://biocontainers.pro/tools/humann"
 

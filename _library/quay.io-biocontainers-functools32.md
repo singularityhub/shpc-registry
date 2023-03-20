@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/functools32"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/functools32/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/functools32/container.yaml"
-updated_at: "2023-03-19 13:50:29.343789"
+updated_at: "2023-03-20 03:09:15.796426"
 latest: "3.2.3.2--py27_0"
 container_url: "https://biocontainers.pro/tools/functools32"
 aliases:

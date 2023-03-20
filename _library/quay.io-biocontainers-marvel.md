@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/marvel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marvel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marvel/container.yaml"
-updated_at: "2023-03-19 14:00:21.651824"
+updated_at: "2023-03-20 03:19:06.653502"
 latest: "0.2--py39hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/marvel"
 aliases:

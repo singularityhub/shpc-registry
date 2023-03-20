@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-barcodetrackr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-barcodetrackr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-barcodetrackr/container.yaml"
-updated_at: "2023-03-19 13:31:14.187836"
+updated_at: "2023-03-20 02:50:22.969425"
 latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-barcodetrackr"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dinamic.duo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dinamic.duo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dinamic.duo/container.yaml"
-updated_at: "2023-03-19 13:45:52.813981"
-latest: "1.0.1--r42h3121a25_1"
+updated_at: "2023-03-20 03:04:45.245321"
+latest: "1.0.2--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-dinamic.duo"
 aliases:
  - "installBiocDataPackage.sh"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.1--r42h3121a25_1"
+ - "1.0.2--r42h3121a25_1"
 description: "singularity registry hpc automated addition for r-dinamic.duo"
-config: {"url": "https://biocontainers.pro/tools/r-dinamic.duo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dinamic.duo", "latest": {"1.0.1--r42h3121a25_1": "sha256:f4b1b3d00e3c9bc1dbd27f24751c720349d2f6f8b9998ee4f7df265950ec707a"}, "tags": {"1.0.1--r42h3121a25_1": "sha256:f4b1b3d00e3c9bc1dbd27f24751c720349d2f6f8b9998ee4f7df265950ec707a"}, "docker": "quay.io/biocontainers/r-dinamic.duo", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-dinamic.duo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dinamic.duo", "latest": {"1.0.2--r42h3121a25_1": "sha256:4cec869ce59131bb39186bca3e641f4ad9420998ebdcca3cf112711bd982123f"}, "tags": {"1.0.1--r42h3121a25_1": "sha256:f4b1b3d00e3c9bc1dbd27f24751c720349d2f6f8b9998ee4f7df265950ec707a", "1.0.2--r42h3121a25_1": "sha256:4cec869ce59131bb39186bca3e641f4ad9420998ebdcca3cf112711bd982123f"}, "docker": "quay.io/biocontainers/r-dinamic.duo", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dinamic.duo.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/r-dinamic.duo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dinamic.duo:1.0.1--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-dinamic.duo:1.0.2--r42h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dinamic.duo/1.0.1--r42h3121a25_1
-$ module help quay.io/biocontainers/r-dinamic.duo/1.0.1--r42h3121a25_1
+$ module load quay.io/biocontainers/r-dinamic.duo/1.0.2--r42h3121a25_1
+$ module help quay.io/biocontainers/r-dinamic.duo/1.0.2--r42h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

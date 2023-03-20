@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/contatester"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contatester/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contatester/container.yaml"
-updated_at: "2023-03-19 13:55:36.416809"
-latest: "1.0.0--py39r41h9a9d1d7_0"
+updated_at: "2023-03-20 03:14:16.809971"
+latest: "1.0.0--py310r42h2f90316_1"
 container_url: "https://biocontainers.pro/tools/contatester"
 aliases:
  - "calculAllelicBalance.sh"
@@ -41,8 +41,9 @@ aliases:
  - "orte-server"
 versions:
  - "1.0.0--py39r41h9a9d1d7_0"
+ - "1.0.0--py310r42h2f90316_1"
 description: "singularity registry hpc automated addition for contatester"
-config: {"url": "https://biocontainers.pro/tools/contatester", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for contatester", "latest": {"1.0.0--py39r41h9a9d1d7_0": "sha256:0b48556965af45e1c5bb53c91e8607be8c9d6620334224602fd87d4413ae0cb4"}, "tags": {"1.0.0--py39r41h9a9d1d7_0": "sha256:0b48556965af45e1c5bb53c91e8607be8c9d6620334224602fd87d4413ae0cb4"}, "docker": "quay.io/biocontainers/contatester", "aliases": {"calculAllelicBalance.sh": "/usr/local/bin/calculAllelicBalance.sh", "checkContaminant.sh": "/usr/local/bin/checkContaminant.sh", "contaReport.R": "/usr/local/bin/contaReport.R", "contatester": "/usr/local/bin/contatester", "depth_estim_from_vcf.sh": "/usr/local/bin/depth_estim_from_vcf.sh", "recupConta.sh": "/usr/local/bin/recupConta.sh", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "flask": "/usr/local/bin/flask", "gff2gff.py": "/usr/local/bin/gff2gff.py", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
+config: {"url": "https://biocontainers.pro/tools/contatester", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for contatester", "latest": {"1.0.0--py310r42h2f90316_1": "sha256:63846ddb7efb9010d20e75f5b63f8ad671bfb00bc6d9a057c1fb35c418cb7455"}, "tags": {"1.0.0--py39r41h9a9d1d7_0": "sha256:0b48556965af45e1c5bb53c91e8607be8c9d6620334224602fd87d4413ae0cb4", "1.0.0--py310r42h2f90316_1": "sha256:63846ddb7efb9010d20e75f5b63f8ad671bfb00bc6d9a057c1fb35c418cb7455"}, "docker": "quay.io/biocontainers/contatester", "aliases": {"calculAllelicBalance.sh": "/usr/local/bin/calculAllelicBalance.sh", "checkContaminant.sh": "/usr/local/bin/checkContaminant.sh", "contaReport.R": "/usr/local/bin/contaReport.R", "contatester": "/usr/local/bin/contatester", "depth_estim_from_vcf.sh": "/usr/local/bin/depth_estim_from_vcf.sh", "recupConta.sh": "/usr/local/bin/recupConta.sh", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "flask": "/usr/local/bin/flask", "gff2gff.py": "/usr/local/bin/gff2gff.py", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/contatester.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/contatester
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/contatester:1.0.0--py39r41h9a9d1d7_0
+$ shpc install quay.io/biocontainers/contatester:1.0.0--py310r42h2f90316_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/contatester/1.0.0--py39r41h9a9d1d7_0
-$ module help quay.io/biocontainers/contatester/1.0.0--py39r41h9a9d1d7_0
+$ module load quay.io/biocontainers/contatester/1.0.0--py310r42h2f90316_1
+$ module help quay.io/biocontainers/contatester/1.0.0--py310r42h2f90316_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

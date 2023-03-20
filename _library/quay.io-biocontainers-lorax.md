@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lorax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lorax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lorax/container.yaml"
-updated_at: "2023-03-19 13:55:49.986577"
-latest: "0.3.7--ha41ced6_0"
+updated_at: "2023-03-20 03:14:30.277238"
+latest: "0.3.7--h2af1cb8_1"
 container_url: "https://biocontainers.pro/tools/lorax"
 aliases:
  - "lorax"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.3.7--ha41ced6_0"
+ - "0.3.7--h2af1cb8_1"
 description: "singularity registry hpc automated addition for lorax"
-config: {"url": "https://biocontainers.pro/tools/lorax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lorax", "latest": {"0.3.7--ha41ced6_0": "sha256:e80e4088b20acddfb1ba595746d8917ca17664fab8ae16e5840961c8a6203140"}, "tags": {"0.3.7--ha41ced6_0": "sha256:e80e4088b20acddfb1ba595746d8917ca17664fab8ae16e5840961c8a6203140"}, "docker": "quay.io/biocontainers/lorax", "aliases": {"lorax": "/usr/local/bin/lorax", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/lorax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lorax", "latest": {"0.3.7--h2af1cb8_1": "sha256:0b4dfc4699abf80e94f12eeebaf1fdb312f0fed542522b2977f9b277d6eb0021"}, "tags": {"0.3.7--ha41ced6_0": "sha256:e80e4088b20acddfb1ba595746d8917ca17664fab8ae16e5840961c8a6203140", "0.3.7--h2af1cb8_1": "sha256:0b4dfc4699abf80e94f12eeebaf1fdb312f0fed542522b2977f9b277d6eb0021"}, "docker": "quay.io/biocontainers/lorax", "aliases": {"lorax": "/usr/local/bin/lorax", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lorax.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/lorax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lorax:0.3.7--ha41ced6_0
+$ shpc install quay.io/biocontainers/lorax:0.3.7--h2af1cb8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lorax/0.3.7--ha41ced6_0
-$ module help quay.io/biocontainers/lorax/0.3.7--ha41ced6_0
+$ module load quay.io/biocontainers/lorax/0.3.7--h2af1cb8_1
+$ module help quay.io/biocontainers/lorax/0.3.7--h2af1cb8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

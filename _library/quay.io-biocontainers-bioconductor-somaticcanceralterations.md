@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-somaticcanceralterations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-somaticcanceralterations/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-somaticcanceralterations/container.yaml"
-updated_at: "2023-03-19 14:07:08.193542"
+updated_at: "2023-03-20 03:25:50.605852"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-somaticcanceralterations"
 

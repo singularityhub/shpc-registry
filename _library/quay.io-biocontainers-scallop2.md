@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scallop2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scallop2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scallop2/container.yaml"
-updated_at: "2023-03-19 13:32:33.198045"
-latest: "1.1.2--hefd527f_3"
+updated_at: "2023-03-20 02:51:40.854460"
+latest: "1.1.2--h66ab1b6_4"
 container_url: "https://biocontainers.pro/tools/scallop2"
 aliases:
  - "scallop2"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.1.2--hefd527f_3"
+ - "1.1.2--h66ab1b6_4"
 description: "shpc-registry automated BioContainers addition for scallop2"
-config: {"url": "https://biocontainers.pro/tools/scallop2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scallop2", "latest": {"1.1.2--hefd527f_3": "sha256:417d5c1d8d2a9f201ebd347771212c6e6fe5d0a5998621fc9b831a88bf33867e"}, "tags": {"1.1.2--hefd527f_3": "sha256:417d5c1d8d2a9f201ebd347771212c6e6fe5d0a5998621fc9b831a88bf33867e"}, "docker": "quay.io/biocontainers/scallop2", "aliases": {"scallop2": "/usr/local/bin/scallop2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/scallop2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scallop2", "latest": {"1.1.2--h66ab1b6_4": "sha256:24de6213f67d6ef11bf48f555f9b282a84ef81bab80f5084e4528e8994d7e121"}, "tags": {"1.1.2--hefd527f_3": "sha256:417d5c1d8d2a9f201ebd347771212c6e6fe5d0a5998621fc9b831a88bf33867e", "1.1.2--h66ab1b6_4": "sha256:24de6213f67d6ef11bf48f555f9b282a84ef81bab80f5084e4528e8994d7e121"}, "docker": "quay.io/biocontainers/scallop2", "aliases": {"scallop2": "/usr/local/bin/scallop2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scallop2.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/scallop2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scallop2:1.1.2--hefd527f_3
+$ shpc install quay.io/biocontainers/scallop2:1.1.2--h66ab1b6_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scallop2/1.1.2--hefd527f_3
-$ module help quay.io/biocontainers/scallop2/1.1.2--hefd527f_3
+$ module load quay.io/biocontainers/scallop2/1.1.2--h66ab1b6_4
+$ module help quay.io/biocontainers/scallop2/1.1.2--h66ab1b6_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

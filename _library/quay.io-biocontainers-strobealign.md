@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/strobealign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strobealign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strobealign/container.yaml"
-updated_at: "2023-03-19 13:53:56.647536"
-latest: "0.8.0--h5b5514e_0"
+updated_at: "2023-03-20 03:12:38.671000"
+latest: "0.9.0--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/strobealign"
 aliases:
  - "strobealign"
 versions:
  - "0.8.0--h5b5514e_0"
+ - "0.9.0--h5b5514e_0"
 description: "singularity registry hpc automated addition for strobealign"
-config: {"url": "https://biocontainers.pro/tools/strobealign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strobealign", "latest": {"0.8.0--h5b5514e_0": "sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5"}, "tags": {"0.8.0--h5b5514e_0": "sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5"}, "docker": "quay.io/biocontainers/strobealign", "aliases": {"strobealign": "/usr/local/bin/strobealign"}}
+config: {"url": "https://biocontainers.pro/tools/strobealign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strobealign", "latest": {"0.9.0--h5b5514e_0": "sha256:d7dc12a30ef323095218d88839e8a1ea88b1e96b13fc62acc620457eb76aa3ff"}, "tags": {"0.8.0--h5b5514e_0": "sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5", "0.9.0--h5b5514e_0": "sha256:d7dc12a30ef323095218d88839e8a1ea88b1e96b13fc62acc620457eb76aa3ff"}, "docker": "quay.io/biocontainers/strobealign", "aliases": {"strobealign": "/usr/local/bin/strobealign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strobealign.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/strobealign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strobealign:0.8.0--h5b5514e_0
+$ shpc install quay.io/biocontainers/strobealign:0.9.0--h5b5514e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strobealign/0.8.0--h5b5514e_0
-$ module help quay.io/biocontainers/strobealign/0.8.0--h5b5514e_0
+$ module load quay.io/biocontainers/strobealign/0.9.0--h5b5514e_0
+$ module help quay.io/biocontainers/strobealign/0.9.0--h5b5514e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
