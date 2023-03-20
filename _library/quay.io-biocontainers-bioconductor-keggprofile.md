@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-keggprofile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggprofile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggprofile/container.yaml"
-updated_at: "2023-03-20 02:55:22.339706"
+updated_at: "2023-03-20 03:09:57.942469"
 latest: "1.32.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggprofile"
 aliases:

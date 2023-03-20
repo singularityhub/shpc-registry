@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-basejump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-basejump/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-basejump/container.yaml"
-updated_at: "2023-03-20 03:13:05.722122"
+updated_at: "2023-03-20 03:32:27.839362"
 latest: "0.14.17--r41hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-basejump"
 aliases:
