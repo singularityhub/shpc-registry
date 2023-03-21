@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pdf-table"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pdf-table/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pdf-table/container.yaml"
-updated_at: "2023-03-20 03:36:52.158984"
+updated_at: "2023-03-21 03:05:54.399292"
 latest: "1.005--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pdf-table"
 aliases:

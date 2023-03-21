@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcyjs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcyjs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcyjs/container.yaml"
-updated_at: "2023-03-20 03:08:53.881356"
+updated_at: "2023-03-21 02:43:06.207387"
 latest: "2.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcyjs"
 aliases:

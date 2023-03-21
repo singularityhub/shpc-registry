@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/troika-tb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/troika-tb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/troika-tb/container.yaml"
-updated_at: "2023-03-20 03:25:00.446807"
+updated_at: "2023-03-21 02:56:08.708876"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/troika-tb"
 aliases:

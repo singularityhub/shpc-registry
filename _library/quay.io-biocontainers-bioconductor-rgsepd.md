@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgsepd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgsepd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgsepd/container.yaml"
-updated_at: "2023-03-20 03:37:24.239284"
+updated_at: "2023-03-21 03:06:20.308408"
 latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgsepd"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-signifinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-signifinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-signifinder/container.yaml"
-updated_at: "2023-03-20 03:14:22.219473"
+updated_at: "2023-03-21 02:47:33.332005"
 latest: "1.0.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-signifinder"
 aliases:

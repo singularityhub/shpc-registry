@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-refnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-refnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-refnet/container.yaml"
-updated_at: "2023-03-20 03:40:38.187592"
+updated_at: "2023-03-21 03:08:58.790533"
 latest: "1.24.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-refnet"
 aliases:

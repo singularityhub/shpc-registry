@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cgi/container.yaml"
-updated_at: "2023-03-20 03:03:33.067587"
+updated_at: "2023-03-21 02:38:45.187207"
 latest: "4.56--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/perl-cgi"
 aliases:

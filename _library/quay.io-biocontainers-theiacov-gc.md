@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/theiacov-gc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/theiacov-gc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/theiacov-gc/container.yaml"
-updated_at: "2023-03-20 03:19:44.640528"
-latest: "2.3.0--hdfd78af_0"
+updated_at: "2023-03-21 02:51:52.038218"
+latest: "2.3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/theiacov-gc"
 aliases:
  - "cromwell"
@@ -44,8 +44,9 @@ aliases:
  - "jarsigner"
 versions:
  - "2.3.0--hdfd78af_0"
+ - "2.3.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for theiacov-gc"
-config: {"url": "https://biocontainers.pro/tools/theiacov-gc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for theiacov-gc", "latest": {"2.3.0--hdfd78af_0": "sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c"}, "tags": {"2.3.0--hdfd78af_0": "sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c"}, "docker": "quay.io/biocontainers/theiacov-gc", "aliases": {"cromwell": "/usr/local/bin/cromwell", "find": "/usr/local/bin/find", "locate": "/usr/local/bin/locate", "theiacov-gc": "/usr/local/bin/theiacov-gc", "theiacov-gc-organize.py": "/usr/local/bin/theiacov-gc-organize.py", "theiacov-gc-prepare.py": "/usr/local/bin/theiacov-gc-prepare.py", "updatedb": "/usr/local/bin/updatedb", "womtool": "/usr/local/bin/womtool", "xargs": "/usr/local/bin/xargs", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
+config: {"url": "https://biocontainers.pro/tools/theiacov-gc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for theiacov-gc", "latest": {"2.3.1--hdfd78af_0": "sha256:12eaeed815ba61dcd3cbcf0f893d0bbcc158731437a92ac90fa117bb4ee563a3"}, "tags": {"2.3.0--hdfd78af_0": "sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c", "2.3.1--hdfd78af_0": "sha256:12eaeed815ba61dcd3cbcf0f893d0bbcc158731437a92ac90fa117bb4ee563a3"}, "docker": "quay.io/biocontainers/theiacov-gc", "aliases": {"cromwell": "/usr/local/bin/cromwell", "find": "/usr/local/bin/find", "locate": "/usr/local/bin/locate", "theiacov-gc": "/usr/local/bin/theiacov-gc", "theiacov-gc-organize.py": "/usr/local/bin/theiacov-gc-organize.py", "theiacov-gc-prepare.py": "/usr/local/bin/theiacov-gc-prepare.py", "updatedb": "/usr/local/bin/updatedb", "womtool": "/usr/local/bin/womtool", "xargs": "/usr/local/bin/xargs", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/theiacov-gc.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/theiacov-gc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/theiacov-gc:2.3.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/theiacov-gc:2.3.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/theiacov-gc/2.3.0--hdfd78af_0
-$ module help quay.io/biocontainers/theiacov-gc/2.3.0--hdfd78af_0
+$ module load quay.io/biocontainers/theiacov-gc/2.3.1--hdfd78af_0
+$ module help quay.io/biocontainers/theiacov-gc/2.3.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

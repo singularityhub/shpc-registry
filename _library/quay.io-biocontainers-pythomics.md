@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pythomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pythomics/container.yaml"
-updated_at: "2023-03-20 03:28:29.389187"
+updated_at: "2023-03-21 02:59:00.760559"
 latest: "0.3.46--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/pythomics"
 aliases:

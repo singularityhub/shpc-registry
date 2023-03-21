@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/upcxx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/upcxx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/upcxx/container.yaml"
-updated_at: "2023-03-20 03:53:36.847006"
+updated_at: "2023-03-21 03:19:35.950237"
 latest: "2022.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/upcxx"
 aliases:

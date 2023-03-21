@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autogenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autogenes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autogenes/container.yaml"
-updated_at: "2023-03-20 03:35:07.807025"
+updated_at: "2023-03-21 03:04:28.395897"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/autogenes"
 aliases:

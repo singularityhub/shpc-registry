@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paste-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paste-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paste-bio/container.yaml"
-updated_at: "2023-03-20 02:56:07.189572"
+updated_at: "2023-03-21 02:32:43.275014"
 latest: "1.3.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/paste-bio"
 aliases:

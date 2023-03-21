@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lrphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrphase/container.yaml"
-updated_at: "2023-03-20 03:31:11.084390"
+updated_at: "2023-03-21 03:01:14.030924"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lrphase"
 aliases:
