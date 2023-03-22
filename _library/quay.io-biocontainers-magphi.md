@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magphi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magphi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magphi/container.yaml"
-updated_at: "2023-03-21 03:18:35.969929"
+updated_at: "2023-03-22 03:34:51.480802"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magphi"
 aliases:

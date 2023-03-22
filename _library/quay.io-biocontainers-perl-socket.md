@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-socket"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-socket/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-socket/container.yaml"
-updated_at: "2023-03-21 02:35:36.190799"
+updated_at: "2023-03-22 02:39:25.662659"
 latest: "2.027--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-socket"
 

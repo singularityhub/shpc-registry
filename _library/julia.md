@@ -4,7 +4,7 @@ name:  "julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/julia/container.yaml"
-updated_at: "2023-03-21 03:19:21.702337"
+updated_at: "2023-03-22 03:35:49.502272"
 latest: "1.8.5"
 container_url: "https://hub.docker.com/_/julia"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "1.8.3"
  - "1.8.5"
 description: "An interpreted, high-level, high-performance dynamic programming language for technical computing."
-config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.8.5": "sha256:31e3b5e275bd720749a4a3211629cad9f1db8f2c22ea5ccc19cc5a084f330285"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:31e3b5e275bd720749a4a3211629cad9f1db8f2c22ea5ccc19cc5a084f330285"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
+config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.8.5": "sha256:afd15a4f0049fd0d67234afe7326ac7b1d6fc9927c67e921e180fd0752db3878"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:afd15a4f0049fd0d67234afe7326ac7b1d6fc9927c67e921e180fd0752db3878"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
 ---
 
 This module is a singularity container wrapper for julia.

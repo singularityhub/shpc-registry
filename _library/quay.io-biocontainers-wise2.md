@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wise2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wise2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wise2/container.yaml"
-updated_at: "2023-03-21 02:43:37.235584"
-latest: "2.4.1--h40d77a6_1"
+updated_at: "2023-03-22 02:49:50.242015"
+latest: "2.4.1--h671cb6e_2"
 container_url: "https://biocontainers.pro/tools/wise2"
 aliases:
  - "dba"
@@ -26,8 +26,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "2.4.1--h40d77a6_1"
+ - "2.4.1--h671cb6e_2"
 description: "shpc-registry automated BioContainers addition for wise2"
-config: {"url": "https://biocontainers.pro/tools/wise2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wise2", "latest": {"2.4.1--h40d77a6_1": "sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059"}, "tags": {"2.4.1--h40d77a6_1": "sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059"}, "docker": "quay.io/biocontainers/wise2", "aliases": {"dba": "/usr/local/bin/dba", "dnal": "/usr/local/bin/dnal", "estwise": "/usr/local/bin/estwise", "estwisedb": "/usr/local/bin/estwisedb", "genewise": "/usr/local/bin/genewise", "genewisedb": "/usr/local/bin/genewisedb", "promoterwise": "/usr/local/bin/promoterwise", "psw": "/usr/local/bin/psw", "pswdb": "/usr/local/bin/pswdb", "scanwise": "/usr/local/bin/scanwise", "scanwise_server": "/usr/local/bin/scanwise_server", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/wise2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wise2", "latest": {"2.4.1--h671cb6e_2": "sha256:907a57932131980e099f625c821284af8511caa603bba04b8c0f3a5399f43432"}, "tags": {"2.4.1--h40d77a6_1": "sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059", "2.4.1--h671cb6e_2": "sha256:907a57932131980e099f625c821284af8511caa603bba04b8c0f3a5399f43432"}, "docker": "quay.io/biocontainers/wise2", "aliases": {"dba": "/usr/local/bin/dba", "dnal": "/usr/local/bin/dnal", "estwise": "/usr/local/bin/estwise", "estwisedb": "/usr/local/bin/estwisedb", "genewise": "/usr/local/bin/genewise", "genewisedb": "/usr/local/bin/genewisedb", "promoterwise": "/usr/local/bin/promoterwise", "psw": "/usr/local/bin/psw", "pswdb": "/usr/local/bin/pswdb", "scanwise": "/usr/local/bin/scanwise", "scanwise_server": "/usr/local/bin/scanwise_server", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wise2.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/wise2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wise2:2.4.1--h40d77a6_1
+$ shpc install quay.io/biocontainers/wise2:2.4.1--h671cb6e_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wise2/2.4.1--h40d77a6_1
-$ module help quay.io/biocontainers/wise2/2.4.1--h40d77a6_1
+$ module load quay.io/biocontainers/wise2/2.4.1--h671cb6e_2
+$ module help quay.io/biocontainers/wise2/2.4.1--h671cb6e_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

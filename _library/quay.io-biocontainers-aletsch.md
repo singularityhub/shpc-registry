@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aletsch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aletsch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aletsch/container.yaml"
-updated_at: "2023-03-21 02:50:20.726538"
-latest: "1.0.3--hefd527f_4"
+updated_at: "2023-03-22 02:58:33.067033"
+latest: "1.0.3--h66ab1b6_5"
 container_url: "https://biocontainers.pro/tools/aletsch"
 aliases:
  - "aletsch"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0.3--hefd527f_4"
+ - "1.0.3--h66ab1b6_5"
 description: "shpc-registry automated BioContainers addition for aletsch"
-config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.0.3--h66ab1b6_5": "sha256:990b58274b1419c87200feed353a842384329364c1eca3e984475dcfe3b91eb0"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755", "1.0.3--h66ab1b6_5": "sha256:990b58274b1419c87200feed353a842384329364c1eca3e984475dcfe3b91eb0"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aletsch.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/aletsch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aletsch:1.0.3--hefd527f_4
+$ shpc install quay.io/biocontainers/aletsch:1.0.3--h66ab1b6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aletsch/1.0.3--hefd527f_4
-$ module help quay.io/biocontainers/aletsch/1.0.3--hefd527f_4
+$ module load quay.io/biocontainers/aletsch/1.0.3--h66ab1b6_5
+$ module help quay.io/biocontainers/aletsch/1.0.3--h66ab1b6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

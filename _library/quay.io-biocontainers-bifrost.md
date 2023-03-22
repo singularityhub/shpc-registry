@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bifrost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifrost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifrost/container.yaml"
-updated_at: "2023-03-21 03:15:52.461736"
-latest: "1.0.6.5--h5b5514e_1"
+updated_at: "2023-03-22 03:31:25.219933"
+latest: "1.2.0--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/bifrost"
 aliases:
  - "Bifrost"
 versions:
  - "1.0.6.5--h5b5514e_1"
+ - "1.2.0--h5b5514e_0"
 description: "shpc-registry automated BioContainers addition for bifrost"
-config: {"url": "https://biocontainers.pro/tools/bifrost", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bifrost", "latest": {"1.0.6.5--h5b5514e_1": "sha256:933b5a1374ae058685ce41ba2e0f1e5b8d25078a0acceb6064758af2d7272dfe"}, "tags": {"1.0.6.5--h5b5514e_1": "sha256:933b5a1374ae058685ce41ba2e0f1e5b8d25078a0acceb6064758af2d7272dfe"}, "docker": "quay.io/biocontainers/bifrost", "aliases": {"Bifrost": "/usr/local/bin/Bifrost"}}
+config: {"url": "https://biocontainers.pro/tools/bifrost", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bifrost", "latest": {"1.2.0--h5b5514e_0": "sha256:506e372ae617f1cb6b05ae9a19562cf4b06ce0f41931caee777c1101cc37576d"}, "tags": {"1.0.6.5--h5b5514e_1": "sha256:933b5a1374ae058685ce41ba2e0f1e5b8d25078a0acceb6064758af2d7272dfe", "1.2.0--h5b5514e_0": "sha256:506e372ae617f1cb6b05ae9a19562cf4b06ce0f41931caee777c1101cc37576d"}, "docker": "quay.io/biocontainers/bifrost", "aliases": {"Bifrost": "/usr/local/bin/Bifrost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bifrost.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bifrost
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bifrost:1.0.6.5--h5b5514e_1
+$ shpc install quay.io/biocontainers/bifrost:1.2.0--h5b5514e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bifrost/1.0.6.5--h5b5514e_1
-$ module help quay.io/biocontainers/bifrost/1.0.6.5--h5b5514e_1
+$ module load quay.io/biocontainers/bifrost/1.2.0--h5b5514e_0
+$ module help quay.io/biocontainers/bifrost/1.2.0--h5b5514e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

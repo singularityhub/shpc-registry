@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/tidk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidk/container.yaml"
-updated_at: "2023-03-21 02:47:41.815471"
-latest: "0.2.1--h87f3376_1"
+updated_at: "2023-03-22 02:55:06.307990"
+latest: "0.2.31--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/tidk"
 aliases:
  - "tidk"
 versions:
  - "0.2.1--h87f3376_1"
+ - "0.2.31--h87f3376_0"
 description: "singularity registry hpc automated addition for tidk"
-config: {"url": "https://biocontainers.pro/tools/tidk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tidk", "latest": {"0.2.1--h87f3376_1": "sha256:920d2cf7e33c7450eb5e85f7eaa5e30d9de2c2e765445d5b7e92c55bb8f3e5fc"}, "tags": {"0.2.1--h87f3376_1": "sha256:920d2cf7e33c7450eb5e85f7eaa5e30d9de2c2e765445d5b7e92c55bb8f3e5fc"}, "docker": "quay.io/biocontainers/tidk", "aliases": {"tidk": "/usr/local/bin/tidk"}}
+config: {"url": "https://biocontainers.pro/tools/tidk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tidk", "latest": {"0.2.31--h87f3376_0": "sha256:40f4c8ab1df387024c2e51f4c927a08c2384e4858d9eb899c42254b47b779478"}, "tags": {"0.2.1--h87f3376_1": "sha256:920d2cf7e33c7450eb5e85f7eaa5e30d9de2c2e765445d5b7e92c55bb8f3e5fc", "0.2.31--h87f3376_0": "sha256:40f4c8ab1df387024c2e51f4c927a08c2384e4858d9eb899c42254b47b779478"}, "docker": "quay.io/biocontainers/tidk", "aliases": {"tidk": "/usr/local/bin/tidk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tidk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/tidk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tidk:0.2.1--h87f3376_1
+$ shpc install quay.io/biocontainers/tidk:0.2.31--h87f3376_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tidk/0.2.1--h87f3376_1
-$ module help quay.io/biocontainers/tidk/0.2.1--h87f3376_1
+$ module load quay.io/biocontainers/tidk/0.2.31--h87f3376_0
+$ module help quay.io/biocontainers/tidk/0.2.31--h87f3376_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

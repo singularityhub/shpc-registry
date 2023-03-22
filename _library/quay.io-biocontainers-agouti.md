@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/agouti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agouti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agouti/container.yaml"
-updated_at: "2023-03-21 03:06:41.443838"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2023-03-22 03:19:39.519913"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agouti"
 aliases:
  - "agouti"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for agouti"
-config: {"url": "https://biocontainers.pro/tools/agouti", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agouti", "latest": {"1.0.1--pyhdfd78af_0": "sha256:036b3ce902d5f6748e9c25fee431fe505f58d3079cff67941184951c0eac655a"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:036b3ce902d5f6748e9c25fee431fe505f58d3079cff67941184951c0eac655a"}, "docker": "quay.io/biocontainers/agouti", "aliases": {"agouti": "/usr/local/bin/agouti", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/agouti", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agouti", "latest": {"1.0.3--pyhdfd78af_0": "sha256:67284886fff849a966d99381895cffcee718650c6d6494ffd4e4e72051be4ab9"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:036b3ce902d5f6748e9c25fee431fe505f58d3079cff67941184951c0eac655a", "1.0.3--pyhdfd78af_0": "sha256:67284886fff849a966d99381895cffcee718650c6d6494ffd4e4e72051be4ab9"}, "docker": "quay.io/biocontainers/agouti", "aliases": {"agouti": "/usr/local/bin/agouti", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/agouti.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/agouti
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/agouti:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/agouti:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/agouti/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/agouti/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/agouti/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/agouti/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

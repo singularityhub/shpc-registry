@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-gkmsvm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gkmsvm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gkmsvm/container.yaml"
-updated_at: "2023-03-21 02:33:50.182159"
-latest: "0.82.0--r42hecf12ef_0"
+updated_at: "2023-03-22 02:37:06.320768"
+latest: "0.82.0--r42hecf12ef_1"
 container_url: "https://biocontainers.pro/tools/r-gkmsvm"
 
 versions:
  - "0.81.0--r41h87f3376_3"
  - "0.81.0--r42h87f3376_4"
  - "0.82.0--r42hecf12ef_0"
+ - "0.82.0--r42hecf12ef_1"
 description: "shpc-registry automated BioContainers addition for r-gkmsvm"
-config: {"url": "https://biocontainers.pro/tools/r-gkmsvm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gkmsvm", "latest": {"0.82.0--r42hecf12ef_0": "sha256:f722b717b7db9d1bc35562942935fbfdd093978ef3c0756c36717561dc2a24ac"}, "tags": {"0.81.0--r41h87f3376_3": "sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4", "0.81.0--r42h87f3376_4": "sha256:e54794d3fb8ce3d3398b253de78cd49caac23f2d4494e7ed42f969036b0b60f1", "0.82.0--r42hecf12ef_0": "sha256:f722b717b7db9d1bc35562942935fbfdd093978ef3c0756c36717561dc2a24ac"}, "docker": "quay.io/biocontainers/r-gkmsvm"}
+config: {"url": "https://biocontainers.pro/tools/r-gkmsvm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gkmsvm", "latest": {"0.82.0--r42hecf12ef_1": "sha256:24b5f7a5ae8eb9a300a8720db2ae9a08e4cc284ee690ef3ba7faaf9f9a8c1ee8"}, "tags": {"0.81.0--r41h87f3376_3": "sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4", "0.81.0--r42h87f3376_4": "sha256:e54794d3fb8ce3d3398b253de78cd49caac23f2d4494e7ed42f969036b0b60f1", "0.82.0--r42hecf12ef_0": "sha256:f722b717b7db9d1bc35562942935fbfdd093978ef3c0756c36717561dc2a24ac", "0.82.0--r42hecf12ef_1": "sha256:24b5f7a5ae8eb9a300a8720db2ae9a08e4cc284ee690ef3ba7faaf9f9a8c1ee8"}, "docker": "quay.io/biocontainers/r-gkmsvm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gkmsvm.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-gkmsvm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gkmsvm:0.82.0--r42hecf12ef_0
+$ shpc install quay.io/biocontainers/r-gkmsvm:0.82.0--r42hecf12ef_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gkmsvm/0.82.0--r42hecf12ef_0
-$ module help quay.io/biocontainers/r-gkmsvm/0.82.0--r42hecf12ef_0
+$ module load quay.io/biocontainers/r-gkmsvm/0.82.0--r42hecf12ef_1
+$ module help quay.io/biocontainers/r-gkmsvm/0.82.0--r42hecf12ef_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
