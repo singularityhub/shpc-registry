@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/scar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scar
 latest:
-  0.5.0--pyhdfd78af_0: sha256:65a0a57d21da302a03bba8fce7a48c05c70e54f22b0f311967a1e1ed6a74b4c5
+  0.5.1--pyhdfd78af_0: sha256:c20f9ba2f77364bb8ffbd239d98dbf28eb3e0658cd480dc9e2114dbfe2e45640
 tags:
   0.4.4--pyhdfd78af_0: sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903
   0.5.0--pyhdfd78af_0: sha256:65a0a57d21da302a03bba8fce7a48c05c70e54f22b0f311967a1e1ed6a74b4c5
+  0.5.1--pyhdfd78af_0: sha256:c20f9ba2f77364bb8ffbd239d98dbf28eb3e0658cd480dc9e2114dbfe2e45640
 docker: quay.io/biocontainers/scar
 aliases:
   scar: /usr/local/bin/scar

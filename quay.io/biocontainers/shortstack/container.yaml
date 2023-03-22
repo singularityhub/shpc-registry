@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/shortstack
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shortstack
 latest:
-  3.8.5--hdfd78af_4: sha256:c6b2a4d4aa50c0f80ffca2029608bddc9c1019b6df2116e8ee279a8735b6e60f
+  4.0.0--hdfd78af_0: sha256:af4c568f7dd6caee70b9dc5f54fd1cea0db0d00e61355b8b5b47ef397d696e50
 tags:
   3.8.5--hdfd78af_4: sha256:c6b2a4d4aa50c0f80ffca2029608bddc9c1019b6df2116e8ee279a8735b6e60f
+  4.0.0--hdfd78af_0: sha256:af4c568f7dd6caee70b9dc5f54fd1cea0db0d00e61355b8b5b47ef397d696e50
 docker: quay.io/biocontainers/shortstack
 aliases:
   ShortStack: /usr/local/bin/ShortStack

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pindel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pindel
 latest:
-  0.2.5b9--h28e74a2_8: sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef
+  0.2.5b9--hf77a93e_9: sha256:9ec98f91c9790e73f956ea160cc93c19872207e4328181dffefb66c4451a4219
 tags:
   0.2.5b9--h28e74a2_8: sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef
+  0.2.5b9--hf77a93e_9: sha256:9ec98f91c9790e73f956ea160cc93c19872207e4328181dffefb66c4451a4219
 docker: quay.io/biocontainers/pindel
 aliases:
   pindel: /usr/local/bin/pindel
