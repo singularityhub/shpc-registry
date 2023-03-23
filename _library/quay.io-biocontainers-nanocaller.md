@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanocaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanocaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanocaller/container.yaml"
-updated_at: "2023-03-22 02:47:42.750392"
-latest: "3.0.0--hdfd78af_0"
+updated_at: "2023-03-23 02:43:09.753083"
+latest: "3.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanocaller"
 aliases:
  - "NanoCaller"
@@ -41,8 +41,9 @@ aliases:
  - "segmentFst"
 versions:
  - "3.0.0--hdfd78af_0"
+ - "3.0.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for nanocaller"
-config: {"url": "https://biocontainers.pro/tools/nanocaller", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanocaller", "latest": {"3.0.0--hdfd78af_0": "sha256:1343b132b0b56dfdccd447fe7e0f5635738b901da734c504eea51ab16c5d6291"}, "tags": {"3.0.0--hdfd78af_0": "sha256:1343b132b0b56dfdccd447fe7e0f5635738b901da734c504eea51ab16c5d6291"}, "docker": "quay.io/biocontainers/nanocaller", "aliases": {"NanoCaller": "/usr/local/bin/NanoCaller", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "vcfnormalizesvs": "/usr/local/bin/vcfnormalizesvs", "vcfnull2ref": "/usr/local/bin/vcfnull2ref", "vcfunphase": "/usr/local/bin/vcfunphase", "whatshap": "/usr/local/bin/whatshap", "plotBfst.R": "/usr/local/bin/plotBfst.R", "plotHapLrt.R": "/usr/local/bin/plotHapLrt.R", "plotHaplotypes.R": "/usr/local/bin/plotHaplotypes.R", "plotPfst.R": "/usr/local/bin/plotPfst.R", "plotSmoothed.R": "/usr/local/bin/plotSmoothed.R", "plotWCfst.R": "/usr/local/bin/plotWCfst.R", "plotXPEHH.R": "/usr/local/bin/plotXPEHH.R", "plot_roc.r": "/usr/local/bin/plot_roc.r", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps", "popStats": "/usr/local/bin/popStats", "segmentFst": "/usr/local/bin/segmentFst"}}
+config: {"url": "https://biocontainers.pro/tools/nanocaller", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanocaller", "latest": {"3.0.1--hdfd78af_0": "sha256:38f9cf6036dbe69c12a4ec63465d3c91ff1f577bc59672eaa1c7bd611c7142a6"}, "tags": {"3.0.0--hdfd78af_0": "sha256:1343b132b0b56dfdccd447fe7e0f5635738b901da734c504eea51ab16c5d6291", "3.0.1--hdfd78af_0": "sha256:38f9cf6036dbe69c12a4ec63465d3c91ff1f577bc59672eaa1c7bd611c7142a6"}, "docker": "quay.io/biocontainers/nanocaller", "aliases": {"NanoCaller": "/usr/local/bin/NanoCaller", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "vcfnormalizesvs": "/usr/local/bin/vcfnormalizesvs", "vcfnull2ref": "/usr/local/bin/vcfnull2ref", "vcfunphase": "/usr/local/bin/vcfunphase", "whatshap": "/usr/local/bin/whatshap", "plotBfst.R": "/usr/local/bin/plotBfst.R", "plotHapLrt.R": "/usr/local/bin/plotHapLrt.R", "plotHaplotypes.R": "/usr/local/bin/plotHaplotypes.R", "plotPfst.R": "/usr/local/bin/plotPfst.R", "plotSmoothed.R": "/usr/local/bin/plotSmoothed.R", "plotWCfst.R": "/usr/local/bin/plotWCfst.R", "plotXPEHH.R": "/usr/local/bin/plotXPEHH.R", "plot_roc.r": "/usr/local/bin/plot_roc.r", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps", "popStats": "/usr/local/bin/popStats", "segmentFst": "/usr/local/bin/segmentFst"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanocaller.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/nanocaller
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanocaller:3.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/nanocaller:3.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanocaller/3.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/nanocaller/3.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/nanocaller/3.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/nanocaller/3.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

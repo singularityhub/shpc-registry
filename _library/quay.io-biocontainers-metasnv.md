@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metasnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasnv/container.yaml"
-updated_at: "2023-03-22 03:21:54.068091"
-latest: "2.0.4--py37h47940ae_4"
+updated_at: "2023-03-23 03:08:51.667187"
+latest: "2.0.4--py39h071e722_5"
 container_url: "https://biocontainers.pro/tools/metasnv"
 aliases:
  - "metaSNV.py"
@@ -24,8 +24,9 @@ aliases:
  - "python3.7-config"
 versions:
  - "2.0.4--py37h47940ae_4"
+ - "2.0.4--py39h071e722_5"
 description: "shpc-registry automated BioContainers addition for metasnv"
-config: {"url": "https://biocontainers.pro/tools/metasnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metasnv", "latest": {"2.0.4--py37h47940ae_4": "sha256:b6e0ebfa3b6260e5e05d5a9382608ee99db96f65e7f33df6b498b18e822a5604"}, "tags": {"2.0.4--py37h47940ae_4": "sha256:b6e0ebfa3b6260e5e05d5a9382608ee99db96f65e7f33df6b498b18e822a5604"}, "docker": "quay.io/biocontainers/metasnv", "aliases": {"metaSNV.py": "/usr/local/bin/metaSNV.py", "metaSNV_DistDiv.py": "/usr/local/bin/metaSNV_DistDiv.py", "metaSNV_Filtering.py": "/usr/local/bin/metaSNV_Filtering.py", "metaSNV_subpopr.R": "/usr/local/bin/metaSNV_subpopr.R", "pandoc-server": "/usr/local/bin/pandoc-server", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "pandoc": "/usr/local/bin/pandoc", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/metasnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metasnv", "latest": {"2.0.4--py39h071e722_5": "sha256:32729c179f8bcef130db6c8086933d371d1335e121be2c93969bfb39e6083bab"}, "tags": {"2.0.4--py37h47940ae_4": "sha256:b6e0ebfa3b6260e5e05d5a9382608ee99db96f65e7f33df6b498b18e822a5604", "2.0.4--py39h071e722_5": "sha256:32729c179f8bcef130db6c8086933d371d1335e121be2c93969bfb39e6083bab"}, "docker": "quay.io/biocontainers/metasnv", "aliases": {"metaSNV.py": "/usr/local/bin/metaSNV.py", "metaSNV_DistDiv.py": "/usr/local/bin/metaSNV_DistDiv.py", "metaSNV_Filtering.py": "/usr/local/bin/metaSNV_Filtering.py", "metaSNV_subpopr.R": "/usr/local/bin/metaSNV_subpopr.R", "pandoc-server": "/usr/local/bin/pandoc-server", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "pandoc": "/usr/local/bin/pandoc", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metasnv.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/metasnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metasnv:2.0.4--py37h47940ae_4
+$ shpc install quay.io/biocontainers/metasnv:2.0.4--py39h071e722_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metasnv/2.0.4--py37h47940ae_4
-$ module help quay.io/biocontainers/metasnv/2.0.4--py37h47940ae_4
+$ module load quay.io/biocontainers/metasnv/2.0.4--py39h071e722_5
+$ module help quay.io/biocontainers/metasnv/2.0.4--py39h071e722_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

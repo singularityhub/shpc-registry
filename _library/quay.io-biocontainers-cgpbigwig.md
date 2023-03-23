@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cgpbigwig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgpbigwig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgpbigwig/container.yaml"
-updated_at: "2023-03-22 03:14:33.818680"
-latest: "1.6.0--hbb96afb_5"
+updated_at: "2023-03-23 03:03:21.036655"
+latest: "1.6.0--h87c70b1_6"
 container_url: "https://biocontainers.pro/tools/cgpbigwig"
 aliases:
  - "asn1Coding"
@@ -32,8 +32,9 @@ aliases:
  - "psktool"
 versions:
  - "1.6.0--hbb96afb_5"
+ - "1.6.0--h87c70b1_6"
 description: "shpc-registry automated BioContainers addition for cgpbigwig"
-config: {"url": "https://biocontainers.pro/tools/cgpbigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgpbigwig", "latest": {"1.6.0--hbb96afb_5": "sha256:b1305ed5c3ffac91f0d50f9e1bfa4ab2ca985b57af67d8df5b78161e2539e734"}, "tags": {"1.6.0--hbb96afb_5": "sha256:b1305ed5c3ffac91f0d50f9e1bfa4ab2ca985b57af67d8df5b78161e2539e734"}, "docker": "quay.io/biocontainers/cgpbigwig", "aliases": {"asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "bam2bw": "/usr/local/bin/bam2bw", "bam2bwbases": "/usr/local/bin/bam2bwbases", "bg2bw": "/usr/local/bin/bg2bw", "bwcat": "/usr/local/bin/bwcat", "bwjoin": "/usr/local/bin/bwjoin", "detectExtremeDepth": "/usr/local/bin/detectExtremeDepth", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
+config: {"url": "https://biocontainers.pro/tools/cgpbigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgpbigwig", "latest": {"1.6.0--h87c70b1_6": "sha256:e80c81302f23bcd627795dc469e47a5d36b634a447329677cabb54e02386bdff"}, "tags": {"1.6.0--hbb96afb_5": "sha256:b1305ed5c3ffac91f0d50f9e1bfa4ab2ca985b57af67d8df5b78161e2539e734", "1.6.0--h87c70b1_6": "sha256:e80c81302f23bcd627795dc469e47a5d36b634a447329677cabb54e02386bdff"}, "docker": "quay.io/biocontainers/cgpbigwig", "aliases": {"asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "bam2bw": "/usr/local/bin/bam2bw", "bam2bwbases": "/usr/local/bin/bam2bwbases", "bg2bw": "/usr/local/bin/bg2bw", "bwcat": "/usr/local/bin/bwcat", "bwjoin": "/usr/local/bin/bwjoin", "detectExtremeDepth": "/usr/local/bin/detectExtremeDepth", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgpbigwig.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/cgpbigwig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgpbigwig:1.6.0--hbb96afb_5
+$ shpc install quay.io/biocontainers/cgpbigwig:1.6.0--h87c70b1_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgpbigwig/1.6.0--hbb96afb_5
-$ module help quay.io/biocontainers/cgpbigwig/1.6.0--hbb96afb_5
+$ module load quay.io/biocontainers/cgpbigwig/1.6.0--h87c70b1_6
+$ module help quay.io/biocontainers/cgpbigwig/1.6.0--h87c70b1_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

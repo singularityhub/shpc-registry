@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/polystest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polystest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polystest/container.yaml"
-updated_at: "2023-03-22 03:20:38.519746"
-latest: "1.2.2--hdfd78af_0"
+updated_at: "2023-03-23 03:07:54.598586"
+latest: "1.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/polystest"
 aliases:
  - "convertFromProline.R"
@@ -13,8 +13,9 @@ aliases:
  - "run_polystest_app.R"
 versions:
  - "1.2.2--hdfd78af_0"
+ - "1.3.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for polystest"
-config: {"url": "https://biocontainers.pro/tools/polystest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for polystest", "latest": {"1.2.2--hdfd78af_0": "sha256:3d948bdaf336e4318dfffd148886fba8e12545f9e9152267b88c319afa817bc6"}, "tags": {"1.2.2--hdfd78af_0": "sha256:3d948bdaf336e4318dfffd148886fba8e12545f9e9152267b88c319afa817bc6"}, "docker": "quay.io/biocontainers/polystest", "aliases": {"convertFromProline.R": "/usr/local/bin/convertFromProline.R", "runPolySTestCLI.R": "/usr/local/bin/runPolySTestCLI.R", "run_polystest_app.R": "/usr/local/bin/run_polystest_app.R"}}
+config: {"url": "https://biocontainers.pro/tools/polystest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for polystest", "latest": {"1.3.2--hdfd78af_0": "sha256:c7f8765677ff2e529712efd24d5cd3a6af3d0c7b3feb89ee3f2d4425a29b1bd5"}, "tags": {"1.2.2--hdfd78af_0": "sha256:3d948bdaf336e4318dfffd148886fba8e12545f9e9152267b88c319afa817bc6", "1.3.2--hdfd78af_0": "sha256:c7f8765677ff2e529712efd24d5cd3a6af3d0c7b3feb89ee3f2d4425a29b1bd5"}, "docker": "quay.io/biocontainers/polystest", "aliases": {"convertFromProline.R": "/usr/local/bin/convertFromProline.R", "runPolySTestCLI.R": "/usr/local/bin/runPolySTestCLI.R", "run_polystest_app.R": "/usr/local/bin/run_polystest_app.R"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/polystest.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/polystest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/polystest:1.2.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/polystest:1.3.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/polystest/1.2.2--hdfd78af_0
-$ module help quay.io/biocontainers/polystest/1.2.2--hdfd78af_0
+$ module load quay.io/biocontainers/polystest/1.3.2--hdfd78af_0
+$ module help quay.io/biocontainers/polystest/1.3.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

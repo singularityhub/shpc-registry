@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/checkqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkqc/container.yaml"
-updated_at: "2023-03-22 03:19:55.476331"
+updated_at: "2023-03-23 03:07:22.109636"
 latest: "3.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkqc"
 aliases:

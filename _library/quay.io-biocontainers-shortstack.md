@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shortstack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shortstack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shortstack/container.yaml"
-updated_at: "2023-03-22 03:20:10.347873"
-latest: "3.8.5--hdfd78af_4"
+updated_at: "2023-03-23 03:07:33.309883"
+latest: "4.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shortstack"
 aliases:
  - "ShortStack"
@@ -21,8 +21,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "3.8.5--hdfd78af_4"
+ - "4.0.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for shortstack"
-config: {"url": "https://biocontainers.pro/tools/shortstack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shortstack", "latest": {"3.8.5--hdfd78af_4": "sha256:c6b2a4d4aa50c0f80ffca2029608bddc9c1019b6df2116e8ee279a8735b6e60f"}, "tags": {"3.8.5--hdfd78af_4": "sha256:c6b2a4d4aa50c0f80ffca2029608bddc9c1019b6df2116e8ee279a8735b6e60f"}, "docker": "quay.io/biocontainers/shortstack", "aliases": {"ShortStack": "/usr/local/bin/ShortStack", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/shortstack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shortstack", "latest": {"4.0.0--hdfd78af_0": "sha256:af4c568f7dd6caee70b9dc5f54fd1cea0db0d00e61355b8b5b47ef397d696e50"}, "tags": {"3.8.5--hdfd78af_4": "sha256:c6b2a4d4aa50c0f80ffca2029608bddc9c1019b6df2116e8ee279a8735b6e60f", "4.0.0--hdfd78af_0": "sha256:af4c568f7dd6caee70b9dc5f54fd1cea0db0d00e61355b8b5b47ef397d696e50"}, "docker": "quay.io/biocontainers/shortstack", "aliases": {"ShortStack": "/usr/local/bin/ShortStack", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shortstack.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/shortstack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shortstack:3.8.5--hdfd78af_4
+$ shpc install quay.io/biocontainers/shortstack:4.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shortstack/3.8.5--hdfd78af_4
-$ module help quay.io/biocontainers/shortstack/3.8.5--hdfd78af_4
+$ module load quay.io/biocontainers/shortstack/4.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/shortstack/4.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

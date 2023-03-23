@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/safesim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/safesim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/safesim/container.yaml"
-updated_at: "2023-03-22 03:09:54.910415"
-latest: "0.1.6.8d44580--h50ba451_0"
+updated_at: "2023-03-23 02:59:51.403694"
+latest: "0.1.6.8d44580--hac61d04_1"
 container_url: "https://biocontainers.pro/tools/safesim"
 aliases:
  - "fastq-grep"
@@ -24,8 +24,9 @@ aliases:
  - "tabix"
 versions:
  - "0.1.6.8d44580--h50ba451_0"
+ - "0.1.6.8d44580--hac61d04_1"
 description: "singularity registry hpc automated addition for safesim"
-config: {"url": "https://biocontainers.pro/tools/safesim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for safesim", "latest": {"0.1.6.8d44580--h50ba451_0": "sha256:c45ddbde013cd30dc29a3960712dd0c5fe3eaecb2d0a0a876aa6fc2412b1eeb8"}, "tags": {"0.1.6.8d44580--h50ba451_0": "sha256:c45ddbde013cd30dc29a3960712dd0c5fe3eaecb2d0a0a876aa6fc2412b1eeb8"}, "docker": "quay.io/biocontainers/safesim", "aliases": {"fastq-grep": "/usr/local/bin/fastq-grep", "fastq-kmers": "/usr/local/bin/fastq-kmers", "fastq-match": "/usr/local/bin/fastq-match", "fastq-qscale": "/usr/local/bin/fastq-qscale", "fastq-qual": "/usr/local/bin/fastq-qual", "fastq-qualadj": "/usr/local/bin/fastq-qualadj", "fastq-sample": "/usr/local/bin/fastq-sample", "fastq-sort": "/usr/local/bin/fastq-sort", "fastq-uniq": "/usr/local/bin/fastq-uniq", "safemix": "/usr/local/bin/safemix", "safemut": "/usr/local/bin/safemut", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/safesim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for safesim", "latest": {"0.1.6.8d44580--hac61d04_1": "sha256:453957e32d3632d6dd2f48c2ffa1adafb277fac25b275cff6546ef7627a35269"}, "tags": {"0.1.6.8d44580--h50ba451_0": "sha256:c45ddbde013cd30dc29a3960712dd0c5fe3eaecb2d0a0a876aa6fc2412b1eeb8", "0.1.6.8d44580--hac61d04_1": "sha256:453957e32d3632d6dd2f48c2ffa1adafb277fac25b275cff6546ef7627a35269"}, "docker": "quay.io/biocontainers/safesim", "aliases": {"fastq-grep": "/usr/local/bin/fastq-grep", "fastq-kmers": "/usr/local/bin/fastq-kmers", "fastq-match": "/usr/local/bin/fastq-match", "fastq-qscale": "/usr/local/bin/fastq-qscale", "fastq-qual": "/usr/local/bin/fastq-qual", "fastq-qualadj": "/usr/local/bin/fastq-qualadj", "fastq-sample": "/usr/local/bin/fastq-sample", "fastq-sort": "/usr/local/bin/fastq-sort", "fastq-uniq": "/usr/local/bin/fastq-uniq", "safemix": "/usr/local/bin/safemix", "safemut": "/usr/local/bin/safemut", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/safesim.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/safesim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/safesim:0.1.6.8d44580--h50ba451_0
+$ shpc install quay.io/biocontainers/safesim:0.1.6.8d44580--hac61d04_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/safesim/0.1.6.8d44580--h50ba451_0
-$ module help quay.io/biocontainers/safesim/0.1.6.8d44580--h50ba451_0
+$ module load quay.io/biocontainers/safesim/0.1.6.8d44580--hac61d04_1
+$ module help quay.io/biocontainers/safesim/0.1.6.8d44580--hac61d04_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

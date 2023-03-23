@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repdenovo/container.yaml"
-updated_at: "2023-03-22 03:32:55.538231"
+updated_at: "2023-03-23 03:17:16.796276"
 latest: "0.0.1--h4dc6686_2"
 container_url: "https://biocontainers.pro/tools/repdenovo"
 aliases:

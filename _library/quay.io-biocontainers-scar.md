@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scar/container.yaml"
-updated_at: "2023-03-22 02:58:42.149746"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2023-03-23 02:51:27.463531"
+latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scar"
 aliases:
  - "scar"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.4.4--pyhdfd78af_0"
  - "0.5.0--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scar"
-config: {"url": "https://biocontainers.pro/tools/scar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scar", "latest": {"0.5.0--pyhdfd78af_0": "sha256:65a0a57d21da302a03bba8fce7a48c05c70e54f22b0f311967a1e1ed6a74b4c5"}, "tags": {"0.4.4--pyhdfd78af_0": "sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903", "0.5.0--pyhdfd78af_0": "sha256:65a0a57d21da302a03bba8fce7a48c05c70e54f22b0f311967a1e1ed6a74b4c5"}, "docker": "quay.io/biocontainers/scar", "aliases": {"scar": "/usr/local/bin/scar", "torchrun": "/usr/local/bin/torchrun", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "docutils": "/usr/local/bin/docutils", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/scar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scar", "latest": {"0.5.1--pyhdfd78af_0": "sha256:c20f9ba2f77364bb8ffbd239d98dbf28eb3e0658cd480dc9e2114dbfe2e45640"}, "tags": {"0.4.4--pyhdfd78af_0": "sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903", "0.5.0--pyhdfd78af_0": "sha256:65a0a57d21da302a03bba8fce7a48c05c70e54f22b0f311967a1e1ed6a74b4c5", "0.5.1--pyhdfd78af_0": "sha256:c20f9ba2f77364bb8ffbd239d98dbf28eb3e0658cd480dc9e2114dbfe2e45640"}, "docker": "quay.io/biocontainers/scar", "aliases": {"scar": "/usr/local/bin/scar", "torchrun": "/usr/local/bin/torchrun", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "docutils": "/usr/local/bin/docutils", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scar.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/scar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scar:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scar:0.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scar/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/scar/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/scar/0.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/scar/0.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

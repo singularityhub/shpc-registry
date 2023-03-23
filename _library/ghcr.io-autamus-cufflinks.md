@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cufflinks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cufflinks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cufflinks/container.yaml"
-updated_at: "2023-03-22 03:36:43.586449"
+updated_at: "2023-03-23 03:20:09.205408"
 latest: "2.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cufflinks"
 aliases:

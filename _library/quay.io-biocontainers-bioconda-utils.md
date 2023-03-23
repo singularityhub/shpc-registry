@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconda-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconda-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconda-utils/container.yaml"
-updated_at: "2023-03-22 03:24:11.651148"
-latest: "1.3.0--pyhdfd78af_0"
+updated_at: "2023-03-23 03:10:36.534774"
+latest: "1.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconda-utils"
 aliases:
  - "anaconda"
@@ -64,8 +64,10 @@ versions:
  - "1.1.5--pyhdfd78af_0"
  - "1.3.0--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
+ - "1.5.4--pyhdfd78af_0"
+ - "1.3.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconda-utils"
-config: {"url": "https://biocontainers.pro/tools/bioconda-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconda-utils", "latest": {"1.3.0--pyhdfd78af_0": "sha256:b545e445c98fcaaccbce57de1c19323a9e60a672df7c966fe1a0df75bd9a6ae3"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f", "1.3.0--pyhdfd78af_0": "sha256:b545e445c98fcaaccbce57de1c19323a9e60a672df7c966fe1a0df75bd9a6ae3", "1.2.0--pyhdfd78af_0": "sha256:bfa14edb170a6d620864f839d4ad0e5ede0edc6116ebdd00ad2afd40377e12a1"}, "docker": "quay.io/biocontainers/bioconda-utils", "aliases": {"anaconda": "/usr/local/bin/anaconda", "binstar": "/usr/local/bin/binstar", "bioconda-utils": "/usr/local/bin/bioconda-utils", "boa": "/usr/local/bin/boa", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "celery": "/usr/local/bin/celery", "conda-build": "/usr/local/bin/conda-build", "conda-convert": "/usr/local/bin/conda-convert", "conda-debug": "/usr/local/bin/conda-debug", "conda-develop": "/usr/local/bin/conda-develop", "conda-index": "/usr/local/bin/conda-index", "conda-inspect": "/usr/local/bin/conda-inspect", "conda-mambabuild": "/usr/local/bin/conda-mambabuild", "conda-metapackage": "/usr/local/bin/conda-metapackage", "conda-render": "/usr/local/bin/conda-render", "conda-server": "/usr/local/bin/conda-server", "conda-skeleton": "/usr/local/bin/conda-skeleton", "conda-verify": "/usr/local/bin/conda-verify", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "installcheck": "/usr/local/bin/installcheck", "involucro": "/usr/local/bin/involucro", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-search": "/usr/local/bin/mulled-search", "patchelf": "/usr/local/bin/patchelf", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "repo2solv": "/usr/local/bin/repo2solv", "rg": "/usr/local/bin/rg", "scalar": "/usr/local/bin/scalar", "skopeo": "/usr/local/bin/skopeo", "testsolv": "/usr/local/bin/testsolv", "watchgod": "/usr/local/bin/watchgod", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "docutils": "/usr/local/bin/docutils"}}
+config: {"url": "https://biocontainers.pro/tools/bioconda-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconda-utils", "latest": {"1.5.4--pyhdfd78af_0": "sha256:42889a432ef15fb9524c45d1358b0d9f1c69d8501a32c70578208de6a7151d33"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f", "1.3.0--pyhdfd78af_0": "sha256:b545e445c98fcaaccbce57de1c19323a9e60a672df7c966fe1a0df75bd9a6ae3", "1.2.0--pyhdfd78af_0": "sha256:bfa14edb170a6d620864f839d4ad0e5ede0edc6116ebdd00ad2afd40377e12a1", "1.5.4--pyhdfd78af_0": "sha256:42889a432ef15fb9524c45d1358b0d9f1c69d8501a32c70578208de6a7151d33", "1.3.1--pyhdfd78af_0": "sha256:2017c17c4cf239e35c8caa275cb2f43e10fd8cf620e3acc7eb81ea7d8deb90ef"}, "docker": "quay.io/biocontainers/bioconda-utils", "aliases": {"anaconda": "/usr/local/bin/anaconda", "binstar": "/usr/local/bin/binstar", "bioconda-utils": "/usr/local/bin/bioconda-utils", "boa": "/usr/local/bin/boa", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "celery": "/usr/local/bin/celery", "conda-build": "/usr/local/bin/conda-build", "conda-convert": "/usr/local/bin/conda-convert", "conda-debug": "/usr/local/bin/conda-debug", "conda-develop": "/usr/local/bin/conda-develop", "conda-index": "/usr/local/bin/conda-index", "conda-inspect": "/usr/local/bin/conda-inspect", "conda-mambabuild": "/usr/local/bin/conda-mambabuild", "conda-metapackage": "/usr/local/bin/conda-metapackage", "conda-render": "/usr/local/bin/conda-render", "conda-server": "/usr/local/bin/conda-server", "conda-skeleton": "/usr/local/bin/conda-skeleton", "conda-verify": "/usr/local/bin/conda-verify", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "installcheck": "/usr/local/bin/installcheck", "involucro": "/usr/local/bin/involucro", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-search": "/usr/local/bin/mulled-search", "patchelf": "/usr/local/bin/patchelf", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "repo2solv": "/usr/local/bin/repo2solv", "rg": "/usr/local/bin/rg", "scalar": "/usr/local/bin/scalar", "skopeo": "/usr/local/bin/skopeo", "testsolv": "/usr/local/bin/testsolv", "watchgod": "/usr/local/bin/watchgod", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "docutils": "/usr/local/bin/docutils"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconda-utils.
@@ -80,7 +82,7 @@ $ shpc install quay.io/biocontainers/bioconda-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconda-utils:1.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bioconda-utils:1.5.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -92,8 +94,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconda-utils/1.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/bioconda-utils/1.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/bioconda-utils/1.5.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/bioconda-utils/1.5.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

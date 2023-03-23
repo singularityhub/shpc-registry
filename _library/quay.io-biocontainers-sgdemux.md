@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sgdemux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sgdemux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sgdemux/container.yaml"
-updated_at: "2023-03-22 03:10:55.517527"
-latest: "1.1.1--ha982bd6_0"
+updated_at: "2023-03-23 03:00:36.351747"
+latest: "1.1.2--ha982bd6_0"
 container_url: "https://biocontainers.pro/tools/sgdemux"
 aliases:
  - "sgdemux"
 versions:
  - "1.1.1--ha982bd6_0"
+ - "1.1.2--ha982bd6_0"
 description: "singularity registry hpc automated addition for sgdemux"
-config: {"url": "https://biocontainers.pro/tools/sgdemux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sgdemux", "latest": {"1.1.1--ha982bd6_0": "sha256:00a6856695b320ea9a85d726ab4dbaa191ebbdb198edfbb0c7d7352999a1776d"}, "tags": {"1.1.1--ha982bd6_0": "sha256:00a6856695b320ea9a85d726ab4dbaa191ebbdb198edfbb0c7d7352999a1776d"}, "docker": "quay.io/biocontainers/sgdemux", "aliases": {"sgdemux": "/usr/local/bin/sgdemux"}}
+config: {"url": "https://biocontainers.pro/tools/sgdemux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sgdemux", "latest": {"1.1.2--ha982bd6_0": "sha256:2f521a99f563009375eaacc473d11add529328365da615162d97462cab75a71a"}, "tags": {"1.1.1--ha982bd6_0": "sha256:00a6856695b320ea9a85d726ab4dbaa191ebbdb198edfbb0c7d7352999a1776d", "1.1.2--ha982bd6_0": "sha256:2f521a99f563009375eaacc473d11add529328365da615162d97462cab75a71a"}, "docker": "quay.io/biocontainers/sgdemux", "aliases": {"sgdemux": "/usr/local/bin/sgdemux"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sgdemux.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sgdemux
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sgdemux:1.1.1--ha982bd6_0
+$ shpc install quay.io/biocontainers/sgdemux:1.1.2--ha982bd6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sgdemux/1.1.1--ha982bd6_0
-$ module help quay.io/biocontainers/sgdemux/1.1.1--ha982bd6_0
+$ module load quay.io/biocontainers/sgdemux/1.1.2--ha982bd6_0
+$ module help quay.io/biocontainers/sgdemux/1.1.2--ha982bd6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

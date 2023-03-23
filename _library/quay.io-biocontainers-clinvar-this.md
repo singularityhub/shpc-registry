@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clinvar-this"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinvar-this/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinvar-this/container.yaml"
-updated_at: "2023-03-22 03:33:07.653021"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2023-03-23 03:17:25.855278"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clinvar-this"
 aliases:
  - "clinvar-this"
@@ -20,8 +20,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for clinvar-this"
-config: {"url": "https://biocontainers.pro/tools/clinvar-this", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clinvar-this", "latest": {"0.1.0--pyhdfd78af_0": "sha256:12cb7a7947769f54ad7bebdc328664272c8b0e9d89eb5db7edfe9bb5ad3ba5f9"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:12cb7a7947769f54ad7bebdc328664272c8b0e9d89eb5db7edfe9bb5ad3ba5f9"}, "docker": "quay.io/biocontainers/clinvar-this", "aliases": {"clinvar-this": "/usr/local/bin/clinvar-this", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/clinvar-this", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clinvar-this", "latest": {"0.2.1--pyhdfd78af_0": "sha256:e008e028dd2386aa919c8fefdba82d5e19d6f10a15f9f33c9803dcec3a150293"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:12cb7a7947769f54ad7bebdc328664272c8b0e9d89eb5db7edfe9bb5ad3ba5f9", "0.2.1--pyhdfd78af_0": "sha256:e008e028dd2386aa919c8fefdba82d5e19d6f10a15f9f33c9803dcec3a150293"}, "docker": "quay.io/biocontainers/clinvar-this", "aliases": {"clinvar-this": "/usr/local/bin/clinvar-this", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clinvar-this.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/clinvar-this
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clinvar-this:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/clinvar-this:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clinvar-this/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/clinvar-this/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/clinvar-this/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/clinvar-this/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

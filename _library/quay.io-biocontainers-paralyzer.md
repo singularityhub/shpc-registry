@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paralyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paralyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paralyzer/container.yaml"
-updated_at: "2023-03-22 02:48:57.076364"
+updated_at: "2023-03-23 02:44:05.381605"
 latest: "1.5--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/paralyzer"
 aliases:
