@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/control-freec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/control-freec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/control-freec/container.yaml"
-updated_at: "2023-03-23 02:35:25.007119"
+updated_at: "2023-03-23 02:53:34.070146"
 latest: "11.6--h87f3376_2"
 container_url: "https://biocontainers.pro/tools/control-freec"
 aliases:
