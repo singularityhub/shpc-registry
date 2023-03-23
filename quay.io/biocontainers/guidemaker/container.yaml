@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/guidemaker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for guidemaker
 latest:
-  0.3.4--pyhdfd78af_0: sha256:9ffc309a7fdc7dad98bca348e8d6ca538548b2e0ca4b24961c88f40fdcb6c83d
+  0.3.6--pyhdfd78af_0: sha256:5b2323eaf10fbdf5eb814e726325ecff4c177514bb4e6e3c2dd46f6a6f37e9bf
 tags:
   0.3.4--pyhdfd78af_0: sha256:9ffc309a7fdc7dad98bca348e8d6ca538548b2e0ca4b24961c88f40fdcb6c83d
+  0.3.6--pyhdfd78af_0: sha256:5b2323eaf10fbdf5eb814e726325ecff4c177514bb4e6e3c2dd46f6a6f37e9bf
 docker: quay.io/biocontainers/guidemaker
 aliases:
   base58: /usr/local/bin/base58

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pfp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pfp
 latest:
-  0.3.8--h867801b_0: sha256:20c5c6f68e6389a494c0eb9a97686e77d0eb2b5b61905dddb6b290b20a7cbd3a
+  0.3.8--hd36ca80_1: sha256:cf5b34c219dca7d4f298a755baaa0c367f5556df8d41e4f6ef27138d845d716c
 tags:
   0.3.8--h867801b_0: sha256:20c5c6f68e6389a494c0eb9a97686e77d0eb2b5b61905dddb6b290b20a7cbd3a
+  0.3.8--hd36ca80_1: sha256:cf5b34c219dca7d4f298a755baaa0c367f5556df8d41e4f6ef27138d845d716c
 docker: quay.io/biocontainers/pfp
 aliases:
   check: /usr/local/bin/check

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/macse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for macse
 latest:
-  1.2--hdfd78af_1: sha256:af7424ae9792cbda47e57cde52a67e465ccf216c7ea3977b4f9c0a156f738b58
+  2.07--hdfd78af_0: sha256:c230673f24249549b3a22947106d5d84f7c2b0395404121774e3e81de41b2843
 tags:
   1.2--hdfd78af_1: sha256:af7424ae9792cbda47e57cde52a67e465ccf216c7ea3977b4f9c0a156f738b58
+  2.07--hdfd78af_0: sha256:c230673f24249549b3a22947106d5d84f7c2b0395404121774e3e81de41b2843
 docker: quay.io/biocontainers/macse
 aliases:
   macse: /usr/local/bin/macse

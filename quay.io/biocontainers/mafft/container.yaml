@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mafft
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mafft
 latest:
-  7.515--hec16e2b_0: sha256:1a5cbc04aecd5108e05ae1bd748a7abaa3520afa6b07115aed5d79af8346ff72
+  7.520--hec16e2b_0-test-bot-free-upload: sha256:c4560d6b4fa2a21142689352720cb4bfa726dbc0a2080abd53044270c131e43d
 tags:
   7.508--hec16e2b_0: sha256:954a2b33ac01adde300de1867582230db0eb8afb41801cc2c51d18ca29dff12d
   7.515--hec16e2b_0: sha256:1a5cbc04aecd5108e05ae1bd748a7abaa3520afa6b07115aed5d79af8346ff72
+  7.520--hec16e2b_0-test-bot-free-upload: sha256:c4560d6b4fa2a21142689352720cb4bfa726dbc0a2080abd53044270c131e43d
 docker: quay.io/biocontainers/mafft
 aliases:
   mafft: /usr/local/bin/mafft
