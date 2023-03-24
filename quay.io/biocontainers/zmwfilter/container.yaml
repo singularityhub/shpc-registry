@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/zmwfilter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for zmwfilter
 latest:
-  1.0.0--h9ee0642_1: sha256:3356d3b21e4fc7e41d4a92feb570900a9013c5e3c717e1fc35a480db5f95926c
+  1.0.0--h9ee0642_2: sha256:ee5a1eb21e788955a1b9ca6a98d4056dd326094eb35c1e7ed7d39e9a423a1670
 tags:
   1.0.0--h9ee0642_1: sha256:3356d3b21e4fc7e41d4a92feb570900a9013c5e3c717e1fc35a480db5f95926c
+  1.0.0--h9ee0642_2: sha256:ee5a1eb21e788955a1b9ca6a98d4056dd326094eb35c1e7ed7d39e9a423a1670
 docker: quay.io/biocontainers/zmwfilter
 aliases:
   zmwfilter: /usr/local/bin/zmwfilter
