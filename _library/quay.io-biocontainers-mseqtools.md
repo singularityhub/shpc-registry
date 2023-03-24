@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mseqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mseqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mseqtools/container.yaml"
-updated_at: "2023-03-23 03:13:34.083556"
+updated_at: "2023-03-24 02:53:24.833254"
 latest: "0.9.1--h7132678_1"
 container_url: "https://biocontainers.pro/tools/mseqtools"
 aliases:

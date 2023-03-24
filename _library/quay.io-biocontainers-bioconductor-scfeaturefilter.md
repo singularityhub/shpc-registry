@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scfeaturefilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scfeaturefilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scfeaturefilter/container.yaml"
-updated_at: "2023-03-23 03:44:14.267590"
+updated_at: "2023-03-24 03:16:45.373878"
 latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scfeaturefilter"
 aliases:

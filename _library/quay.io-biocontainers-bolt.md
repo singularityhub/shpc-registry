@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bolt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bolt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bolt/container.yaml"
-updated_at: "2023-03-23 03:32:07.693577"
-latest: "0.3.0--h4a302ff_5"
+updated_at: "2023-03-24 03:07:19.780457"
+latest: "0.3.0--h65a12c2_6"
 container_url: "https://biocontainers.pro/tools/bolt"
 
 versions:
  - "0.3.0--h4a302ff_5"
+ - "0.3.0--h65a12c2_6"
 description: "shpc-registry automated BioContainers addition for bolt"
-config: {"url": "https://biocontainers.pro/tools/bolt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bolt", "latest": {"0.3.0--h4a302ff_5": "sha256:8cc764364680531c4a6519d35b2cef75d6931fa70392d9dcc692d3e56b23d831"}, "tags": {"0.3.0--h4a302ff_5": "sha256:8cc764364680531c4a6519d35b2cef75d6931fa70392d9dcc692d3e56b23d831"}, "docker": "quay.io/biocontainers/bolt"}
+config: {"url": "https://biocontainers.pro/tools/bolt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bolt", "latest": {"0.3.0--h65a12c2_6": "sha256:82d87dd0bc2cc9e8c42e4d6d102217a443fd43a904cd863012e56e75ae4b5da8"}, "tags": {"0.3.0--h4a302ff_5": "sha256:8cc764364680531c4a6519d35b2cef75d6931fa70392d9dcc692d3e56b23d831", "0.3.0--h65a12c2_6": "sha256:82d87dd0bc2cc9e8c42e4d6d102217a443fd43a904cd863012e56e75ae4b5da8"}, "docker": "quay.io/biocontainers/bolt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bolt.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bolt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bolt:0.3.0--h4a302ff_5
+$ shpc install quay.io/biocontainers/bolt:0.3.0--h65a12c2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bolt/0.3.0--h4a302ff_5
-$ module help quay.io/biocontainers/bolt/0.3.0--h4a302ff_5
+$ module load quay.io/biocontainers/bolt/0.3.0--h65a12c2_6
+$ module help quay.io/biocontainers/bolt/0.3.0--h65a12c2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

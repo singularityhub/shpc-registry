@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/relion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/relion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/relion/container.yaml"
-updated_at: "2023-03-23 03:48:40.327413"
+updated_at: "2023-03-24 03:20:16.454288"
 latest: "4.0.1--h70dad7d_0"
 container_url: "https://biocontainers.pro/tools/relion"
 aliases:

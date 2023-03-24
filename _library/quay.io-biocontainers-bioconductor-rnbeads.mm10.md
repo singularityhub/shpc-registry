@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnbeads.mm10"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnbeads.mm10/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnbeads.mm10/container.yaml"
-updated_at: "2023-03-23 03:39:28.354456"
+updated_at: "2023-03-24 03:12:59.092019"
 latest: "2.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnbeads.mm10"
 

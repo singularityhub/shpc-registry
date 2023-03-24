@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_wf_mutations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_wf_mutations/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_wf_mutations/container.yaml"
-updated_at: "2023-03-23 03:43:44.273004"
+updated_at: "2023-03-24 03:16:21.433023"
 latest: "0.0.6--py_0"
 container_url: "https://biocontainers.pro/tools/biobb_wf_mutations"
 aliases:

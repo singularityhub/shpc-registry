@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simple_sv_annotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simple_sv_annotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simple_sv_annotation/container.yaml"
-updated_at: "2023-03-23 03:43:14.819920"
+updated_at: "2023-03-24 03:15:57.888963"
 latest: "2019.02.18--py_0"
 container_url: "https://biocontainers.pro/tools/simple_sv_annotation"
 aliases:

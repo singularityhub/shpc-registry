@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msgf_plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msgf_plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msgf_plus/container.yaml"
-updated_at: "2023-03-23 03:34:22.977130"
+updated_at: "2023-03-24 03:09:02.216391"
 latest: "2023.01.1202--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msgf_plus"
 aliases:

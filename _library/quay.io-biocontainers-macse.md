@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/macse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macse/container.yaml"
-updated_at: "2023-03-23 03:05:22.952112"
-latest: "1.2--hdfd78af_1"
+updated_at: "2023-03-24 02:47:02.878891"
+latest: "2.07--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/macse"
 aliases:
  - "macse"
@@ -21,8 +21,9 @@ aliases:
  - "jjs"
 versions:
  - "1.2--hdfd78af_1"
+ - "2.07--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for macse"
-config: {"url": "https://biocontainers.pro/tools/macse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for macse", "latest": {"1.2--hdfd78af_1": "sha256:af7424ae9792cbda47e57cde52a67e465ccf216c7ea3977b4f9c0a156f738b58"}, "tags": {"1.2--hdfd78af_1": "sha256:af7424ae9792cbda47e57cde52a67e465ccf216c7ea3977b4f9c0a156f738b58"}, "docker": "quay.io/biocontainers/macse", "aliases": {"macse": "/usr/local/bin/macse", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/macse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for macse", "latest": {"2.07--hdfd78af_0": "sha256:c230673f24249549b3a22947106d5d84f7c2b0395404121774e3e81de41b2843"}, "tags": {"1.2--hdfd78af_1": "sha256:af7424ae9792cbda47e57cde52a67e465ccf216c7ea3977b4f9c0a156f738b58", "2.07--hdfd78af_0": "sha256:c230673f24249549b3a22947106d5d84f7c2b0395404121774e3e81de41b2843"}, "docker": "quay.io/biocontainers/macse", "aliases": {"macse": "/usr/local/bin/macse", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/macse.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/macse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/macse:1.2--hdfd78af_1
+$ shpc install quay.io/biocontainers/macse:2.07--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/macse/1.2--hdfd78af_1
-$ module help quay.io/biocontainers/macse/1.2--hdfd78af_1
+$ module load quay.io/biocontainers/macse/2.07--hdfd78af_0
+$ module help quay.io/biocontainers/macse/2.07--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

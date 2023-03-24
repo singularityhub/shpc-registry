@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nextclade"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextclade/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextclade/container.yaml"
-updated_at: "2023-03-23 03:12:54.119117"
-latest: "2.11.0--h9ee0642_0"
+updated_at: "2023-03-24 02:52:54.182939"
+latest: "2.13.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/nextclade"
 aliases:
  - "nextclade"
@@ -15,8 +15,10 @@ versions:
  - "2.9.1--h9ee0642_0"
  - "2.11.0--h9ee0642_0"
  - "2.10.1--h9ee0642_0"
+ - "2.13.0--h9ee0642_0"
+ - "2.12.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for nextclade"
-config: {"url": "https://biocontainers.pro/tools/nextclade", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextclade", "latest": {"2.11.0--h9ee0642_0": "sha256:7b7fcd9e66e6f1e61658ae7e4d72fad91ca705756ef47e404c8f2a5d62db648a"}, "tags": {"2.7.0--h9ee0642_0": "sha256:4c252a1f1f9227e4dee96cbc2422ef82e4f921fac9c3ec9986ea357d4de74e57", "2.8.0--h9ee0642_0": "sha256:4cfde8d9b8080d97c4f9e36d0e30ad92d3b189bbfddfefe1e1cbbc04f7aaa2d3", "2.9.1--h9ee0642_0": "sha256:d7dcbb9f8172f3c3f3eaa8bd9f6b08c63f9f43f456fd37287ef7f4eaa47d68f5", "2.11.0--h9ee0642_0": "sha256:7b7fcd9e66e6f1e61658ae7e4d72fad91ca705756ef47e404c8f2a5d62db648a", "2.10.1--h9ee0642_0": "sha256:857019eeab04c02538914baa4ca59e6e00e2ffa201cacd02e3e52ff268e0f08d"}, "docker": "quay.io/biocontainers/nextclade", "aliases": {"nextclade": "/usr/local/bin/nextclade"}}
+config: {"url": "https://biocontainers.pro/tools/nextclade", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextclade", "latest": {"2.13.0--h9ee0642_0": "sha256:a67bad36b3129408309d1bc23211289c1d0d0a2ca2d8ac957e369f2d16ade7bc"}, "tags": {"2.7.0--h9ee0642_0": "sha256:4c252a1f1f9227e4dee96cbc2422ef82e4f921fac9c3ec9986ea357d4de74e57", "2.8.0--h9ee0642_0": "sha256:4cfde8d9b8080d97c4f9e36d0e30ad92d3b189bbfddfefe1e1cbbc04f7aaa2d3", "2.9.1--h9ee0642_0": "sha256:d7dcbb9f8172f3c3f3eaa8bd9f6b08c63f9f43f456fd37287ef7f4eaa47d68f5", "2.11.0--h9ee0642_0": "sha256:7b7fcd9e66e6f1e61658ae7e4d72fad91ca705756ef47e404c8f2a5d62db648a", "2.10.1--h9ee0642_0": "sha256:857019eeab04c02538914baa4ca59e6e00e2ffa201cacd02e3e52ff268e0f08d", "2.13.0--h9ee0642_0": "sha256:a67bad36b3129408309d1bc23211289c1d0d0a2ca2d8ac957e369f2d16ade7bc", "2.12.0--h9ee0642_0": "sha256:d1199847e7ab923cfb3d13d05212b09c7f1ba726af8265bbf1f107d9aec92263"}, "docker": "quay.io/biocontainers/nextclade", "aliases": {"nextclade": "/usr/local/bin/nextclade"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextclade.
@@ -31,7 +33,7 @@ $ shpc install quay.io/biocontainers/nextclade
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nextclade:2.11.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/nextclade:2.13.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nextclade/2.11.0--h9ee0642_0
-$ module help quay.io/biocontainers/nextclade/2.11.0--h9ee0642_0
+$ module load quay.io/biocontainers/nextclade/2.13.0--h9ee0642_0
+$ module help quay.io/biocontainers/nextclade/2.13.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

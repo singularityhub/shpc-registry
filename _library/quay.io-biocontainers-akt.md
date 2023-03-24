@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/akt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/akt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/akt/container.yaml"
-updated_at: "2023-03-23 03:41:48.740914"
+updated_at: "2023-03-24 03:14:49.769806"
 latest: "0.3.3--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/akt"
 aliases:

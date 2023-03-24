@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mafft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mafft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mafft/container.yaml"
-updated_at: "2023-03-23 03:01:05.212734"
-latest: "7.515--hec16e2b_0"
+updated_at: "2023-03-24 02:43:35.907873"
+latest: "7.520--hec16e2b_0-test-bot-free-upload"
 container_url: "https://biocontainers.pro/tools/mafft"
 aliases:
  - "mafft"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "7.508--hec16e2b_0"
  - "7.515--hec16e2b_0"
+ - "7.520--hec16e2b_0-test-bot-free-upload"
 description: "shpc-registry automated BioContainers addition for mafft"
-config: {"url": "https://biocontainers.pro/tools/mafft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mafft", "latest": {"7.515--hec16e2b_0": "sha256:1a5cbc04aecd5108e05ae1bd748a7abaa3520afa6b07115aed5d79af8346ff72"}, "tags": {"7.508--hec16e2b_0": "sha256:954a2b33ac01adde300de1867582230db0eb8afb41801cc2c51d18ca29dff12d", "7.515--hec16e2b_0": "sha256:1a5cbc04aecd5108e05ae1bd748a7abaa3520afa6b07115aed5d79af8346ff72"}, "docker": "quay.io/biocontainers/mafft", "aliases": {"mafft": "/usr/local/bin/mafft", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi"}}
+config: {"url": "https://biocontainers.pro/tools/mafft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mafft", "latest": {"7.520--hec16e2b_0-test-bot-free-upload": "sha256:c4560d6b4fa2a21142689352720cb4bfa726dbc0a2080abd53044270c131e43d"}, "tags": {"7.508--hec16e2b_0": "sha256:954a2b33ac01adde300de1867582230db0eb8afb41801cc2c51d18ca29dff12d", "7.515--hec16e2b_0": "sha256:1a5cbc04aecd5108e05ae1bd748a7abaa3520afa6b07115aed5d79af8346ff72", "7.520--hec16e2b_0-test-bot-free-upload": "sha256:c4560d6b4fa2a21142689352720cb4bfa726dbc0a2080abd53044270c131e43d"}, "docker": "quay.io/biocontainers/mafft", "aliases": {"mafft": "/usr/local/bin/mafft", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mafft.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/mafft
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mafft:7.515--hec16e2b_0
+$ shpc install quay.io/biocontainers/mafft:7.520--hec16e2b_0-test-bot-free-upload
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mafft/7.515--hec16e2b_0
-$ module help quay.io/biocontainers/mafft/7.515--hec16e2b_0
+$ module load quay.io/biocontainers/mafft/7.520--hec16e2b_0-test-bot-free-upload
+$ module help quay.io/biocontainers/mafft/7.520--hec16e2b_0-test-bot-free-upload
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
