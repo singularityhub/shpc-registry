@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ntjoin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ntjoin
 latest:
-  1.1.1--py39h6935b12_0: sha256:c575f6cb1507232dfc6fa7e37ed579ff4a8625e2bfd11c980042588aebc43d2b
+  1.1.1--py39h6935b12_1: sha256:599d4ce2b5a6901a2e55ee154e8a18efdaf50eb5cb5717e936b664d22dabf573
 tags:
   1.1.1--py39h6935b12_0: sha256:c575f6cb1507232dfc6fa7e37ed579ff4a8625e2bfd11c980042588aebc43d2b
+  1.1.1--py39h6935b12_1: sha256:599d4ce2b5a6901a2e55ee154e8a18efdaf50eb5cb5717e936b664d22dabf573
 docker: quay.io/biocontainers/ntjoin
 aliases:
   gunzip: /usr/local/bin/gunzip

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/shigeifinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shigeifinder
 latest:
-  1.3.3--pyhdfd78af_0: sha256:a2bb819a19555731642ee460ddc070e8cb9f531e7dc2123a83098c94911f207b
+  1.3.4--pyhdfd78af_0: sha256:9e46bee765f0482caa12074707bb3b6fcc8004d22cd6a16c96aa30d238b893ac
 tags:
   1.3.2--pyhdfd78af_0: sha256:9fdc17b500161739a1a84e01de72699c8b65600eb8388cfa9508331a0d4eace8
   1.3.3--pyhdfd78af_0: sha256:a2bb819a19555731642ee460ddc070e8cb9f531e7dc2123a83098c94911f207b
+  1.3.4--pyhdfd78af_0: sha256:9e46bee765f0482caa12074707bb3b6fcc8004d22cd6a16c96aa30d238b893ac
 docker: quay.io/biocontainers/shigeifinder
 aliases:
   shigeifinder: /usr/local/bin/shigeifinder
