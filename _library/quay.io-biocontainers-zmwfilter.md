@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/zmwfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zmwfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zmwfilter/container.yaml"
-updated_at: "2023-03-24 03:15:39.560528"
-latest: "1.0.0--h9ee0642_1"
+updated_at: "2023-03-25 03:20:23.580129"
+latest: "1.0.0--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/zmwfilter"
 aliases:
  - "zmwfilter"
 versions:
  - "1.0.0--h9ee0642_1"
+ - "1.0.0--h9ee0642_2"
 description: "shpc-registry automated BioContainers addition for zmwfilter"
-config: {"url": "https://biocontainers.pro/tools/zmwfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zmwfilter", "latest": {"1.0.0--h9ee0642_1": "sha256:3356d3b21e4fc7e41d4a92feb570900a9013c5e3c717e1fc35a480db5f95926c"}, "tags": {"1.0.0--h9ee0642_1": "sha256:3356d3b21e4fc7e41d4a92feb570900a9013c5e3c717e1fc35a480db5f95926c"}, "docker": "quay.io/biocontainers/zmwfilter", "aliases": {"zmwfilter": "/usr/local/bin/zmwfilter"}}
+config: {"url": "https://biocontainers.pro/tools/zmwfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zmwfilter", "latest": {"1.0.0--h9ee0642_2": "sha256:ee5a1eb21e788955a1b9ca6a98d4056dd326094eb35c1e7ed7d39e9a423a1670"}, "tags": {"1.0.0--h9ee0642_1": "sha256:3356d3b21e4fc7e41d4a92feb570900a9013c5e3c717e1fc35a480db5f95926c", "1.0.0--h9ee0642_2": "sha256:ee5a1eb21e788955a1b9ca6a98d4056dd326094eb35c1e7ed7d39e9a423a1670"}, "docker": "quay.io/biocontainers/zmwfilter", "aliases": {"zmwfilter": "/usr/local/bin/zmwfilter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zmwfilter.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/zmwfilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zmwfilter:1.0.0--h9ee0642_1
+$ shpc install quay.io/biocontainers/zmwfilter:1.0.0--h9ee0642_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zmwfilter/1.0.0--h9ee0642_1
-$ module help quay.io/biocontainers/zmwfilter/1.0.0--h9ee0642_1
+$ module load quay.io/biocontainers/zmwfilter/1.0.0--h9ee0642_2
+$ module help quay.io/biocontainers/zmwfilter/1.0.0--h9ee0642_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

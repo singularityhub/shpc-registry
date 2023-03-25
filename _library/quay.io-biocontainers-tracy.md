@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tracy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracy/container.yaml"
-updated_at: "2023-03-24 03:09:18.871347"
-latest: "0.7.3--ha41ced6_0"
+updated_at: "2023-03-25 03:12:52.118538"
+latest: "0.7.3--h2af1cb8_1"
 container_url: "https://biocontainers.pro/tools/tracy"
 aliases:
  - "tracy"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "0.7.2--ha41ced6_1"
  - "0.7.3--ha41ced6_0"
+ - "0.7.3--h2af1cb8_1"
 description: "shpc-registry automated BioContainers addition for tracy"
-config: {"url": "https://biocontainers.pro/tools/tracy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tracy", "latest": {"0.7.3--ha41ced6_0": "sha256:13a92e0cb86e47111184ff4972c0c36bee44f37107bfc2df6e49529662dd2bd7"}, "tags": {"0.7.2--ha41ced6_1": "sha256:4f4dccdf37ed2df042da3430f7dbb498e297b729639677664b1edd35bf3f1397", "0.7.3--ha41ced6_0": "sha256:13a92e0cb86e47111184ff4972c0c36bee44f37107bfc2df6e49529662dd2bd7"}, "docker": "quay.io/biocontainers/tracy", "aliases": {"tracy": "/usr/local/bin/tracy", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/tracy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tracy", "latest": {"0.7.3--h2af1cb8_1": "sha256:da36fe6c2d69bd98ac56f90be9cefca6ed2f7c035ec865fa4cb19ea247800fc5"}, "tags": {"0.7.2--ha41ced6_1": "sha256:4f4dccdf37ed2df042da3430f7dbb498e297b729639677664b1edd35bf3f1397", "0.7.3--ha41ced6_0": "sha256:13a92e0cb86e47111184ff4972c0c36bee44f37107bfc2df6e49529662dd2bd7", "0.7.3--h2af1cb8_1": "sha256:da36fe6c2d69bd98ac56f90be9cefca6ed2f7c035ec865fa4cb19ea247800fc5"}, "docker": "quay.io/biocontainers/tracy", "aliases": {"tracy": "/usr/local/bin/tracy", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tracy.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/tracy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tracy:0.7.3--ha41ced6_0
+$ shpc install quay.io/biocontainers/tracy:0.7.3--h2af1cb8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tracy/0.7.3--ha41ced6_0
-$ module help quay.io/biocontainers/tracy/0.7.3--ha41ced6_0
+$ module load quay.io/biocontainers/tracy/0.7.3--h2af1cb8_1
+$ module help quay.io/biocontainers/tracy/0.7.3--h2af1cb8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
