@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shigeifinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shigeifinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shigeifinder/container.yaml"
-updated_at: "2023-03-25 03:24:15.145637"
-latest: "1.3.3--pyhdfd78af_0"
+updated_at: "2023-03-26 03:21:14.414264"
+latest: "1.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shigeifinder"
 aliases:
  - "shigeifinder"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.3.2--pyhdfd78af_0"
  - "1.3.3--pyhdfd78af_0"
+ - "1.3.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for shigeifinder"
-config: {"url": "https://biocontainers.pro/tools/shigeifinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shigeifinder", "latest": {"1.3.3--pyhdfd78af_0": "sha256:a2bb819a19555731642ee460ddc070e8cb9f531e7dc2123a83098c94911f207b"}, "tags": {"1.3.2--pyhdfd78af_0": "sha256:9fdc17b500161739a1a84e01de72699c8b65600eb8388cfa9508331a0d4eace8", "1.3.3--pyhdfd78af_0": "sha256:a2bb819a19555731642ee460ddc070e8cb9f531e7dc2123a83098c94911f207b"}, "docker": "quay.io/biocontainers/shigeifinder", "aliases": {"shigeifinder": "/usr/local/bin/shigeifinder", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/shigeifinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shigeifinder", "latest": {"1.3.4--pyhdfd78af_0": "sha256:9e46bee765f0482caa12074707bb3b6fcc8004d22cd6a16c96aa30d238b893ac"}, "tags": {"1.3.2--pyhdfd78af_0": "sha256:9fdc17b500161739a1a84e01de72699c8b65600eb8388cfa9508331a0d4eace8", "1.3.3--pyhdfd78af_0": "sha256:a2bb819a19555731642ee460ddc070e8cb9f531e7dc2123a83098c94911f207b", "1.3.4--pyhdfd78af_0": "sha256:9e46bee765f0482caa12074707bb3b6fcc8004d22cd6a16c96aa30d238b893ac"}, "docker": "quay.io/biocontainers/shigeifinder", "aliases": {"shigeifinder": "/usr/local/bin/shigeifinder", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shigeifinder.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/shigeifinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shigeifinder:1.3.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/shigeifinder:1.3.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shigeifinder/1.3.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/shigeifinder/1.3.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/shigeifinder/1.3.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/shigeifinder/1.3.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

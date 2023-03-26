@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-umianalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-umianalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-umianalyzer/container.yaml"
-updated_at: "2023-03-25 02:39:39.134061"
+updated_at: "2023-03-26 02:44:21.493471"
 latest: "1.0.0--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-umianalyzer"
 aliases:

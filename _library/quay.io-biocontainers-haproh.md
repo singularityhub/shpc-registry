@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haproh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haproh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haproh/container.yaml"
-updated_at: "2023-03-25 02:47:43.284156"
+updated_at: "2023-03-26 02:51:01.371717"
 latest: "0.63--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/haproh"
 aliases:

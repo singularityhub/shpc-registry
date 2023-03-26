@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/liquorice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liquorice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liquorice/container.yaml"
-updated_at: "2023-03-25 03:07:10.737725"
-latest: "0.5.5--pyhdfd78af_1"
+updated_at: "2023-03-26 03:07:15.590943"
+latest: "0.5.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liquorice"
 aliases:
  - "LIQUORICE"
@@ -46,8 +46,9 @@ aliases:
  - "jupyter-kernelspec"
 versions:
  - "0.5.5--pyhdfd78af_1"
+ - "0.5.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for liquorice"
-config: {"url": "https://biocontainers.pro/tools/liquorice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for liquorice", "latest": {"0.5.5--pyhdfd78af_1": "sha256:4e2a6292eb7c95b57e2cf4842956e91128067f943d29e93cd7c778153c5f636e"}, "tags": {"0.5.5--pyhdfd78af_1": "sha256:4e2a6292eb7c95b57e2cf4842956e91128067f943d29e93cd7c778153c5f636e"}, "docker": "quay.io/biocontainers/liquorice", "aliases": {"LIQUORICE": "/usr/local/bin/LIQUORICE", "LIQUORICE_summary": "/usr/local/bin/LIQUORICE_summary", "alignmentSieve": "/usr/local/bin/alignmentSieve", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "send2trash": "/usr/local/bin/send2trash", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec"}}
+config: {"url": "https://biocontainers.pro/tools/liquorice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for liquorice", "latest": {"0.5.6--pyhdfd78af_0": "sha256:e1ae2cb7dd019402565f8e24a34e022c49db5817fc5be147289d0a75ad94ebf4"}, "tags": {"0.5.5--pyhdfd78af_1": "sha256:4e2a6292eb7c95b57e2cf4842956e91128067f943d29e93cd7c778153c5f636e", "0.5.6--pyhdfd78af_0": "sha256:e1ae2cb7dd019402565f8e24a34e022c49db5817fc5be147289d0a75ad94ebf4"}, "docker": "quay.io/biocontainers/liquorice", "aliases": {"LIQUORICE": "/usr/local/bin/LIQUORICE", "LIQUORICE_summary": "/usr/local/bin/LIQUORICE_summary", "alignmentSieve": "/usr/local/bin/alignmentSieve", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "send2trash": "/usr/local/bin/send2trash", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/liquorice.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/liquorice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/liquorice:0.5.5--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/liquorice:0.5.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/liquorice/0.5.5--pyhdfd78af_1
-$ module help quay.io/biocontainers/liquorice/0.5.5--pyhdfd78af_1
+$ module load quay.io/biocontainers/liquorice/0.5.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/liquorice/0.5.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

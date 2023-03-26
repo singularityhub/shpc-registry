@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epistack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epistack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epistack/container.yaml"
-updated_at: "2023-03-25 02:53:52.425212"
+updated_at: "2023-03-26 02:56:16.360293"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epistack"
 

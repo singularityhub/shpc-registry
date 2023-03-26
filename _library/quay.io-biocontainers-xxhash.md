@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xxhash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xxhash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xxhash/container.yaml"
-updated_at: "2023-03-25 03:10:37.542103"
+updated_at: "2023-03-26 03:10:05.308877"
 latest: "1.0.1--py35h2d50403_1"
 container_url: "https://biocontainers.pro/tools/xxhash"
 aliases:

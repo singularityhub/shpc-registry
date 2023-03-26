@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bicseq2-seg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bicseq2-seg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bicseq2-seg/container.yaml"
-updated_at: "2023-03-25 03:03:12.438375"
+updated_at: "2023-03-26 03:04:04.049615"
 latest: "0.7.2--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/bicseq2-seg"
 aliases:

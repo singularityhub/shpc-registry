@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multivelo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multivelo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multivelo/container.yaml"
-updated_at: "2023-03-25 02:37:28.470469"
+updated_at: "2023-03-26 02:42:31.501028"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multivelo"
 aliases:

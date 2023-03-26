@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-heatmaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heatmaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heatmaps/container.yaml"
-updated_at: "2023-03-25 03:08:56.900138"
+updated_at: "2023-03-26 03:08:42.533776"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heatmaps"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ipac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ipac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ipac/container.yaml"
-updated_at: "2023-03-25 02:37:10.910435"
+updated_at: "2023-03-26 02:42:17.310788"
 latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ipac"
 

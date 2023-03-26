@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-regenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regenrich/container.yaml"
-updated_at: "2023-03-25 02:38:11.883109"
+updated_at: "2023-03-26 02:43:09.240188"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regenrich"
 

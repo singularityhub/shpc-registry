@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dawg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dawg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dawg/container.yaml"
-updated_at: "2023-03-25 02:55:51.285101"
+updated_at: "2023-03-26 02:57:55.163072"
 latest: "2.0.beta1--h115756c_5"
 container_url: "https://biocontainers.pro/tools/dawg"
 aliases:
