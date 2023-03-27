@@ -161,6 +161,7 @@ tool to generate a contributors graphic below.
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SarahBeecroft"><img src="https://avatars.githubusercontent.com/u/16343767?v=4?s=100" width="100px;" alt="SarahBeecroft"/><br /><sub><b>SarahBeecroft</b></sub></a><br /><a href="https://github.com/singularityhub/shpc-registry/commits?author=SarahBeecroft" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://muffato.github.io"><img src="https://avatars.githubusercontent.com/u/623458?v=4?s=100" width="100px;" alt="Matthieu Muffato"/><br /><sub><b>Matthieu Muffato</b></sub></a><br /><a href="https://github.com/singularityhub/shpc-registry/commits?author=muffato" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/georgiastuart"><img src="https://avatars.githubusercontent.com/u/8276147?v=4?s=100" width="100px;" alt="Georgia Stuart"/><br /><sub><b>Georgia Stuart</b></sub></a><br /><a href="https://github.com/singularityhub/shpc-registry/commits?author=georgiastuart" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dipietrantonio"><img src="https://avatars.githubusercontent.com/u/2136256?v=4?s=100" width="100px;" alt="Cristian Di Pietrantonio"/><br /><sub><b>Cristian Di Pietrantonio</b></sub></a><br /><a href="https://github.com/singularityhub/shpc-registry/commits?author=dipietrantonio" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
