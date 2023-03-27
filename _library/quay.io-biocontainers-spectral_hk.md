@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectral_hk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectral_hk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectral_hk/container.yaml"
-updated_at: "2023-03-26 02:44:28.730787"
+updated_at: "2023-03-27 02:40:30.516726"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/spectral_hk"
 aliases:

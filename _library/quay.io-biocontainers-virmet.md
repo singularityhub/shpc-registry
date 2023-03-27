@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virmet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virmet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virmet/container.yaml"
-updated_at: "2023-03-26 02:44:46.585098"
+updated_at: "2023-03-27 02:40:48.432383"
 latest: "v1.1--py35_2"
 container_url: "https://biocontainers.pro/tools/virmet"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shark/container.yaml"
-updated_at: "2023-03-26 03:07:27.236499"
+updated_at: "2023-03-27 03:03:39.597904"
 latest: "1.2.0--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/shark"
 aliases:

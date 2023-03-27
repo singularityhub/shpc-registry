@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bam2fasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam2fasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam2fasta/container.yaml"
-updated_at: "2023-03-26 02:53:45.490513"
+updated_at: "2023-03-27 02:49:49.658134"
 latest: "1.0.8--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/bam2fasta"
 aliases:

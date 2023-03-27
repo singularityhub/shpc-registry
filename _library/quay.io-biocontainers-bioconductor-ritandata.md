@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ritandata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ritandata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ritandata/container.yaml"
-updated_at: "2023-03-26 02:42:33.610864"
+updated_at: "2023-03-27 02:38:35.631014"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ritandata"
 aliases:

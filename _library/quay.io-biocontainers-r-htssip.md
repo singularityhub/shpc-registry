@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-htssip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htssip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htssip/container.yaml"
-updated_at: "2023-03-26 02:40:24.177897"
+updated_at: "2023-03-27 02:36:26.180422"
 latest: "1.4.1--r42h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-htssip"
 aliases:

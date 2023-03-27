@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydemult"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydemult/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydemult/container.yaml"
-updated_at: "2023-03-26 02:39:11.590539"
+updated_at: "2023-03-27 02:35:13.187878"
 latest: "0.6--py_0"
 container_url: "https://biocontainers.pro/tools/pydemult"
 aliases:

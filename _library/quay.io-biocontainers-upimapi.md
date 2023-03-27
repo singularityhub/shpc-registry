@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/upimapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/upimapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/upimapi/container.yaml"
-updated_at: "2023-03-26 03:20:01.080170"
-latest: "1.8.13--hdfd78af_0"
+updated_at: "2023-03-27 03:16:21.042192"
+latest: "1.8.14--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/upimapi"
 aliases:
  - "firefox"
@@ -26,8 +26,9 @@ versions:
  - "1.8.8--hdfd78af_0"
  - "1.8.10--hdfd78af_0"
  - "1.8.13--hdfd78af_0"
+ - "1.8.14--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for upimapi"
-config: {"url": "https://biocontainers.pro/tools/upimapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for upimapi", "latest": {"1.8.13--hdfd78af_0": "sha256:a891eb81eeff59c25543e567abe2d79d0f4b9709ae9fe36b486767b4ebed9f66"}, "tags": {"1.8.5--hdfd78af_0": "sha256:3959e0b860808cf09b3ed70734918ddcba3747ccafb9a6b184e1f1d2cb56a2c7", "1.8.8--hdfd78af_0": "sha256:9799744544c1213f637e2463127f6acb0b6b85b6cc5780f5649faf3bddf496ee", "1.8.10--hdfd78af_0": "sha256:4b33202c951906af7f369471d216e4861830c9f2923bf5420a134af1df2dc7a7", "1.8.13--hdfd78af_0": "sha256:a891eb81eeff59c25543e567abe2d79d0f4b9709ae9fe36b486767b4ebed9f66"}, "docker": "quay.io/biocontainers/upimapi", "aliases": {"firefox": "/usr/local/bin/firefox", "geckodriver": "/usr/local/bin/geckodriver", "upimapi.py": "/usr/local/bin/upimapi.py", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "diamond": "/usr/local/bin/diamond", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/upimapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for upimapi", "latest": {"1.8.14--hdfd78af_0": "sha256:7eb417266019cfcb1f5a3c107edd0419afc5db0bd90b55eb0d368111cbc347d2"}, "tags": {"1.8.5--hdfd78af_0": "sha256:3959e0b860808cf09b3ed70734918ddcba3747ccafb9a6b184e1f1d2cb56a2c7", "1.8.8--hdfd78af_0": "sha256:9799744544c1213f637e2463127f6acb0b6b85b6cc5780f5649faf3bddf496ee", "1.8.10--hdfd78af_0": "sha256:4b33202c951906af7f369471d216e4861830c9f2923bf5420a134af1df2dc7a7", "1.8.13--hdfd78af_0": "sha256:a891eb81eeff59c25543e567abe2d79d0f4b9709ae9fe36b486767b4ebed9f66", "1.8.14--hdfd78af_0": "sha256:7eb417266019cfcb1f5a3c107edd0419afc5db0bd90b55eb0d368111cbc347d2"}, "docker": "quay.io/biocontainers/upimapi", "aliases": {"firefox": "/usr/local/bin/firefox", "geckodriver": "/usr/local/bin/geckodriver", "upimapi.py": "/usr/local/bin/upimapi.py", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "diamond": "/usr/local/bin/diamond", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/upimapi.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/upimapi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/upimapi:1.8.13--hdfd78af_0
+$ shpc install quay.io/biocontainers/upimapi:1.8.14--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/upimapi/1.8.13--hdfd78af_0
-$ module help quay.io/biocontainers/upimapi/1.8.13--hdfd78af_0
+$ module load quay.io/biocontainers/upimapi/1.8.14--hdfd78af_0
+$ module help quay.io/biocontainers/upimapi/1.8.14--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

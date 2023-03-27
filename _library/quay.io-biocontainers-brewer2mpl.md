@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brewer2mpl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brewer2mpl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brewer2mpl/container.yaml"
-updated_at: "2023-03-26 02:52:16.184838"
+updated_at: "2023-03-27 02:48:19.373536"
 latest: "1.4.1--py35_0"
 container_url: "https://biocontainers.pro/tools/brewer2mpl"
 aliases:

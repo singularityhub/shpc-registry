@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainflye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainflye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainflye/container.yaml"
-updated_at: "2023-03-26 03:19:02.322605"
+updated_at: "2023-03-27 03:15:21.622615"
 latest: "0.2.0--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/strainflye"
 aliases:
