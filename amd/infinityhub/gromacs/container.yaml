@@ -1,0 +1,11 @@
+docker: amdih/gromacs
+url: https://www.amd.com/en/technologies/infinity-hub/gromacs
+description: GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles. 
+maintainer: "@cristiandipietrantonio"
+latest:
+  '2022.3.amd1_174': sha256:3def3e37a32b014a80620e588f16241e23d4043b6a0a022f09a3d856cda72ee3
+tags:
+  '2022.3.amd1_174': sha256:3def3e37a32b014a80620e588f16241e23d4043b6a0a022f09a3d856cda72ee3
+aliases:
+- name: gmx
+  command: gmx
