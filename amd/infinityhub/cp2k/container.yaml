@@ -1,0 +1,35 @@
+docker: amdih/cp2k
+url: https://www.amd.com/en/technologies/infinity-hub/cp2k
+description: CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems. 
+maintainer: "@cristiandipietrantonio"
+latest:
+  '8.2': sha256:5947603de32c4e690f734075f7625563a2de18d1c3276ec10fceccdb332022ec
+tags:
+  '8.2': sha256:5947603de32c4e690f734075f7625563a2de18d1c3276ec10fceccdb332022ec
+aliases:
+- name: cp2k.popt  
+  command: cp2k.popt  
+- name: cp2k.psmp.dbcsr_gpu
+  command: cp2k.psmp.dbcsr_gpu
+- name: cp2k_shell.psmp
+  command: cp2k_shell.psmp
+- name: graph.psmp	      
+  command: graph.psmp	      
+- name: grid_unittest.psmp
+  command: grid_unittest.psmp
+- name: memory_utilities_unittest.psmp
+  command: memory_utilities_unittest.psmp
+- name: xyz2dcd.psmp
+  command: xyz2dcd.psmp
+- name: cp2k.psmp
+  command: cp2k.psmp
+- name: cp2k.psmp.no_dbcsr_gpu
+  command: cp2k.psmp.no_dbcsr_gpu
+- name: dumpdcd.psmp
+  command: dumpdcd.psmp
+- name: grid_miniapp.psmp
+  command: grid_miniapp.psmp
+- name: libcp2k_unittest.psmp  
+  command: libcp2k_unittest.psmp  
+- name: parallel_rng_types_unittest.psmp
+  command: parallel_rng_types_unittest.psmp
