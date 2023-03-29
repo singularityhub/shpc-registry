@@ -1,0 +1,13 @@
+docker: amdih/lammps
+url: https://www.amd.com/en/technologies/infinity-hub/lammps
+description: LAMMPS is a classical molecular dynamics code with a focus on materials modeling. It's an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator.
+maintainer: "@cristiandipietrantonio"
+latest:
+  '2022.5.04_130': sha256:d885a385d8d8c54e1ed82a6ca601f3f5db0781aa2439c01879998984e9e85b69
+tags:
+  '2022.5.04_130': sha256:d885a385d8d8c54e1ed82a6ca601f3f5db0781aa2439c01879998984e9e85b69
+  '2021.5.14_121': sha256:9479772560d24d31ef8f006e558a8a57b67ee1034776b061be5200cf3d92d9d6
+aliases:
+- name: lmp 
+  command: lmp 
+
