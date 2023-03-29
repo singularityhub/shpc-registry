@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ahwikipathwaysdbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/container.yaml"
-updated_at: "2023-03-29 00:42:02.189610"
+updated_at: "2023-03-29 03:20:57.521681"
 latest: "0.99.4--r42hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahwikipathwaysdbs"
 

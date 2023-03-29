@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cloc/container.yaml"
-updated_at: "2023-03-29 00:57:24.776170"
+updated_at: "2023-03-29 03:38:54.112929"
 latest: "1.90"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cloc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pmp/container.yaml"
-updated_at: "2023-03-29 00:15:40.897421"
+updated_at: "2023-03-29 02:49:37.920700"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pmp"
 

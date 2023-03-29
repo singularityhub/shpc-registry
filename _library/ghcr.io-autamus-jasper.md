@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/jasper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/jasper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/jasper/container.yaml"
-updated_at: "2023-03-29 00:57:46.406271"
+updated_at: "2023-03-29 03:39:18.658747"
 latest: "20210822.2247"
 container_url: "https://github.com/orgs/autamus/packages/container/package/jasper"
 aliases:

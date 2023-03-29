@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psm-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psm-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psm-utils/container.yaml"
-updated_at: "2023-03-29 00:27:23.126804"
+updated_at: "2023-03-29 03:03:43.976256"
 latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psm-utils"
 aliases:

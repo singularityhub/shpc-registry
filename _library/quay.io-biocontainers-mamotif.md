@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mamotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mamotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mamotif/container.yaml"
-updated_at: "2023-03-29 00:12:54.875797"
+updated_at: "2023-03-29 02:46:16.946491"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/mamotif"
 aliases:

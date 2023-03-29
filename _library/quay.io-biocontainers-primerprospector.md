@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primerprospector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primerprospector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primerprospector/container.yaml"
-updated_at: "2023-03-29 00:44:40.464117"
+updated_at: "2023-03-29 03:24:02.414325"
 latest: "1.0.1--py27_0"
 container_url: "https://biocontainers.pro/tools/primerprospector"
 aliases:

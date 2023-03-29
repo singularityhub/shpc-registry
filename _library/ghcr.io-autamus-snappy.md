@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/snappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/snappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/snappy/container.yaml"
-updated_at: "2023-03-29 00:57:16.316162"
+updated_at: "2023-03-29 03:38:44.278859"
 latest: "1.1.8"
 container_url: "https://github.com/orgs/autamus/packages/container/package/snappy"
 

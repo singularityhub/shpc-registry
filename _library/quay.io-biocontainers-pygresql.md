@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygresql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygresql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygresql/container.yaml"
-updated_at: "2023-03-29 00:19:05.372950"
+updated_at: "2023-03-29 02:53:44.487299"
 latest: "5.0.1--py36_1"
 container_url: "https://biocontainers.pro/tools/pygresql"
 aliases:

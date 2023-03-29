@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parmed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parmed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parmed/container.yaml"
-updated_at: "2023-03-29 00:54:52.435123"
+updated_at: "2023-03-29 03:35:56.956323"
 latest: "3.4.3"
 container_url: "https://biocontainers.pro/tools/parmed"
 aliases:

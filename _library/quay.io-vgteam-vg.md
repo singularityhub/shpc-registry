@@ -4,7 +4,7 @@ name:  "quay.io/vgteam/vg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/vgteam/vg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/vgteam/vg/container.yaml"
-updated_at: "2023-03-29 00:10:51.216628"
+updated_at: "2023-03-29 02:43:46.617257"
 latest: "latest"
 container_url: "https://quay.io/repository/vgteam/vg?tab=info"
 aliases:
