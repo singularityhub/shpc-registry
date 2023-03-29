@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sphinx-argparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sphinx-argparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sphinx-argparse/container.yaml"
-updated_at: "2023-03-27 03:17:08.582893"
+updated_at: "2023-03-29 00:53:00.637042"
 latest: "0.1.15--py36_0"
 container_url: "https://biocontainers.pro/tools/sphinx-argparse"
 aliases:

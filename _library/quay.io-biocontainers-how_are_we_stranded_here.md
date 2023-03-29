@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/how_are_we_stranded_here"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/how_are_we_stranded_here/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/how_are_we_stranded_here/container.yaml"
-updated_at: "2023-03-27 03:18:55.650326"
+updated_at: "2023-03-29 00:54:47.305996"
 latest: "1.0.1--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/how_are_we_stranded_here"
 aliases:

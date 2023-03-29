@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene/container.yaml"
-updated_at: "2023-03-27 02:45:38.694841"
+updated_at: "2023-03-29 00:21:37.181843"
 latest: "3.2.2--r42hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene"
 aliases:

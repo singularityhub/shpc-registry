@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-runit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-runit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-runit/container.yaml"
-updated_at: "2023-03-27 03:11:45.036245"
+updated_at: "2023-03-29 00:47:38.129228"
 latest: "0.4.31--r3.2.2_1"
 container_url: "https://biocontainers.pro/tools/r-runit"
 aliases:

@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia/caffe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/caffe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/caffe/container.yaml"
-updated_at: "2023-03-27 02:34:48.160159"
+updated_at: "2023-03-29 00:10:47.001937"
 latest: "20.03-py3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:caffe/tags"
 aliases:

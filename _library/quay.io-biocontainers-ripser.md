@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ripser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ripser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ripser/container.yaml"
-updated_at: "2023-03-27 02:43:13.787061"
+updated_at: "2023-03-29 00:19:12.625082"
 latest: "1.0.1--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/ripser"
 aliases:

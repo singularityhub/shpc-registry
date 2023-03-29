@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio-rnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio-rnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio-rnaseq/container.yaml"
-updated_at: "2023-03-27 02:48:06.594311"
+updated_at: "2023-03-29 00:24:05.116531"
 latest: "1.2.0--r3.4.1_3"
 container_url: "https://biocontainers.pro/tools/bcbio-rnaseq"
 aliases:

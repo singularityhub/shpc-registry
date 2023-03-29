@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cancerinsilico"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancerinsilico/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancerinsilico/container.yaml"
-updated_at: "2023-03-27 02:41:33.359032"
+updated_at: "2023-03-29 00:17:32.229610"
 latest: "2.18.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancerinsilico"
 aliases:

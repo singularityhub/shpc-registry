@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aria2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aria2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aria2/container.yaml"
-updated_at: "2023-03-27 03:09:09.489253"
+updated_at: "2023-03-29 00:45:03.431374"
 latest: "1.36.0"
 container_url: "https://biocontainers.pro/tools/aria2"
 aliases:

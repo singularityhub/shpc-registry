@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macrophage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macrophage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macrophage/container.yaml"
-updated_at: "2023-03-27 02:49:25.366499"
+updated_at: "2023-03-29 00:25:23.361096"
 latest: "1.13.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macrophage"
 aliases:
