@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylip/container.yaml"
-updated_at: "2023-03-29 02:53:45.243257"
+updated_at: "2023-03-30 02:48:31.108895"
 latest: "3.697--h470a237_0"
 container_url: "https://biocontainers.pro/tools/phylip"
 aliases:

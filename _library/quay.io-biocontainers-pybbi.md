@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybbi/container.yaml"
-updated_at: "2023-03-29 02:48:35.597046"
+updated_at: "2023-03-30 02:43:01.017451"
 latest: "0.3.2--py38hc5a206b_1"
 container_url: "https://biocontainers.pro/tools/pybbi"
 aliases:

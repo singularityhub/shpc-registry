@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/menetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/menetools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/menetools/container.yaml"
-updated_at: "2023-03-29 02:53:56.585517"
+updated_at: "2023-03-30 02:48:43.694263"
 latest: "2.0.6--py_0"
 container_url: "https://biocontainers.pro/tools/menetools"
 aliases:

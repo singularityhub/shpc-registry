@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tfarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tfarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tfarm/container.yaml"
-updated_at: "2023-03-29 02:46:25.231780"
+updated_at: "2023-03-30 02:40:43.938148"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tfarm"
 aliases:

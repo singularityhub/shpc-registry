@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xs-sim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xs-sim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xs-sim/container.yaml"
-updated_at: "2023-03-29 03:37:18.566292"
+updated_at: "2023-03-30 03:35:40.473618"
 latest: "2--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/xs-sim"
 aliases:

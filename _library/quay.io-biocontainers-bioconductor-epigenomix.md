@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epigenomix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epigenomix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epigenomix/container.yaml"
-updated_at: "2023-03-29 03:13:46.014023"
+updated_at: "2023-03-30 03:10:02.782318"
 latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epigenomix"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nanostringqcpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanostringqcpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanostringqcpro/container.yaml"
-updated_at: "2023-03-29 03:10:38.920850"
+updated_at: "2023-03-30 03:06:40.799995"
 latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanostringqcpro"
 

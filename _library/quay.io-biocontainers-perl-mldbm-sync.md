@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mldbm-sync"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mldbm-sync/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mldbm-sync/container.yaml"
-updated_at: "2023-03-29 02:53:41.055775"
+updated_at: "2023-03-30 02:48:26.851478"
 latest: "0.30--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-mldbm-sync"
 aliases:

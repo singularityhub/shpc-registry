@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svclone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svclone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svclone/container.yaml"
-updated_at: "2023-03-29 03:35:07.729610"
+updated_at: "2023-03-30 03:33:16.985192"
 latest: "1.1.2--pyr42h7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/svclone"
 aliases:
