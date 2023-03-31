@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmnrandomread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmnrandomread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmnrandomread/container.yaml"
-updated_at: "2023-03-30 03:22:41.655413"
+updated_at: "2023-03-31 03:16:59.674665"
 latest: "0.10.0--h28e74a2_0"
 container_url: "https://biocontainers.pro/tools/hmnrandomread"
 aliases:

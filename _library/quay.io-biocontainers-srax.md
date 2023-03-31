@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srax/container.yaml"
-updated_at: "2023-03-30 03:09:40.190867"
+updated_at: "2023-03-31 03:05:41.196954"
 latest: "1.5--pl5321ha8f3691_2"
 container_url: "https://biocontainers.pro/tools/srax"
 aliases:

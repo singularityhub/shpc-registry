@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cctools/container.yaml"
-updated_at: "2023-03-30 03:37:15.141632"
+updated_at: "2023-03-31 03:30:02.305104"
 latest: "7.2.10"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cctools"
 aliases:

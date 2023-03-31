@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bacgwasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bacgwasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bacgwasim/container.yaml"
-updated_at: "2023-03-30 03:09:56.026152"
+updated_at: "2023-03-31 03:05:55.679980"
 latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bacgwasim"
 aliases:

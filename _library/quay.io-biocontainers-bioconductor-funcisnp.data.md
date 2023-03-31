@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-funcisnp.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funcisnp.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funcisnp.data/container.yaml"
-updated_at: "2023-03-30 03:09:50.757986"
+updated_at: "2023-03-31 03:05:50.745443"
 latest: "1.22.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-funcisnp.data"
 aliases:

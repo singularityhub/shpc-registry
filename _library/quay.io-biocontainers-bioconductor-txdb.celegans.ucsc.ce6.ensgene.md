@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce6.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce6.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce6.ensgene/container.yaml"
-updated_at: "2023-03-30 03:01:43.465136"
+updated_at: "2023-03-31 02:58:42.265330"
 latest: "3.2.2--r42hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce6.ensgene"
 aliases:

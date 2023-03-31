@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/domino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/domino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/domino/container.yaml"
-updated_at: "2023-03-30 02:47:35.094748"
+updated_at: "2023-03-31 02:45:50.261878"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/domino"
 aliases:

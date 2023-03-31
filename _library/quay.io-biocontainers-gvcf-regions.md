@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gvcf-regions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcf-regions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcf-regions/container.yaml"
-updated_at: "2023-03-30 03:07:28.220216"
+updated_at: "2023-03-31 03:03:46.240535"
 latest: "2016.06.23--py_1"
 container_url: "https://biocontainers.pro/tools/gvcf-regions"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ivar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ivar/container.yaml"
-updated_at: "2023-03-30 02:54:10.456711"
+updated_at: "2023-03-31 02:51:45.248839"
 latest: "1.4--h6b7c446_1"
 container_url: "https://biocontainers.pro/tools/ivar"
 aliases:

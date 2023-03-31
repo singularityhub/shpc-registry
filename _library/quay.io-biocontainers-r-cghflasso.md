@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cghflasso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cghflasso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cghflasso/container.yaml"
-updated_at: "2023-03-30 03:22:15.749228"
+updated_at: "2023-03-31 03:16:37.564574"
 latest: "0.2_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-cghflasso"
 aliases:
