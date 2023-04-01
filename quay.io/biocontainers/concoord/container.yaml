@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/concoord
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for concoord
 latest:
-  2.1.2--h9ee0642_3: sha256:4a2f2e71bdc3535d5baa44fcedbae196c7cdcc7f96656fe444767ab542c47ab5
+  2.1.2--h9ee0642_4: sha256:7c1f093c3ea5c96dfa844153e5534366bf12dd83962e4c0bb03c1ce9a0f1d2d5
 tags:
   2.1.2--h9ee0642_3: sha256:4a2f2e71bdc3535d5baa44fcedbae196c7cdcc7f96656fe444767ab542c47ab5
+  2.1.2--h9ee0642_4: sha256:7c1f093c3ea5c96dfa844153e5534366bf12dd83962e4c0bb03c1ce9a0f1d2d5
 docker: quay.io/biocontainers/concoord
 aliases:
   dist: /usr/local/bin/dist

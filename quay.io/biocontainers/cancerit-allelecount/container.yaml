@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cancerit-allelecount
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cancerit-allelecount
 latest:
-  4.3.0--ha8fb052_3: sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54
+  4.3.0--heecbde5_4: sha256:3d106cd2d93b27003c220bdec1312ac55ceb58411fb460156e049f24366adf2f
 tags:
   4.3.0--ha8fb052_3: sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54
+  4.3.0--heecbde5_4: sha256:3d106cd2d93b27003c220bdec1312ac55ceb58411fb460156e049f24366adf2f
 docker: quay.io/biocontainers/cancerit-allelecount
 aliases:
   alleleCounter: /usr/local/bin/alleleCounter
