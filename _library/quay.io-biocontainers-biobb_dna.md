@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_dna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_dna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_dna/container.yaml"
-updated_at: "2023-03-31 02:50:00.314065"
+updated_at: "2023-04-01 02:43:11.792223"
 latest: "3.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_dna"
 aliases:

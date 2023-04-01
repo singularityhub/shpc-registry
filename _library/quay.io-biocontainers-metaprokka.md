@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaprokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaprokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaprokka/container.yaml"
-updated_at: "2023-03-31 03:11:32.965125"
+updated_at: "2023-04-01 03:02:08.859560"
 latest: "1.14.6_1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/metaprokka"
 aliases:

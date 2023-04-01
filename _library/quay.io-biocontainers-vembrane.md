@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vembrane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vembrane/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vembrane/container.yaml"
-updated_at: "2023-03-31 03:20:01.104276"
+updated_at: "2023-04-01 03:09:49.601873"
 latest: "0.14.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vembrane"
 aliases:

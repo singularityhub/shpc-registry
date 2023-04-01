@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-abbrev"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-abbrev/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-abbrev/container.yaml"
-updated_at: "2023-03-31 03:03:29.697274"
+updated_at: "2023-04-01 02:54:53.351845"
 latest: "1.02--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-text-abbrev"
 aliases:

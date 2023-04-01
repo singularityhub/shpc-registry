@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qiime-default-reference"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qiime-default-reference/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qiime-default-reference/container.yaml"
-updated_at: "2023-03-31 02:37:25.523275"
+updated_at: "2023-04-01 02:32:15.181848"
 latest: "0.1.3--py_1"
 container_url: "https://biocontainers.pro/tools/qiime-default-reference"
 aliases:

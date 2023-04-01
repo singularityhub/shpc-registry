@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adsplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adsplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adsplit/container.yaml"
-updated_at: "2023-03-31 02:39:06.843682"
+updated_at: "2023-04-01 02:33:45.753075"
 latest: "1.68.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adsplit"
 

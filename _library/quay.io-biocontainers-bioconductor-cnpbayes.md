@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnpbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnpbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnpbayes/container.yaml"
-updated_at: "2023-03-31 03:10:28.625450"
+updated_at: "2023-04-01 03:01:10.597043"
 latest: "1.13.5--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnpbayes"
 aliases:

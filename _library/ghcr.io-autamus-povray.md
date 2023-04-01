@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/povray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/povray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/povray/container.yaml"
-updated_at: "2023-03-31 03:29:42.272382"
+updated_at: "2023-04-01 03:18:16.327024"
 latest: "3.7.0.10"
 container_url: "https://github.com/orgs/autamus/packages/container/package/povray"
 aliases:

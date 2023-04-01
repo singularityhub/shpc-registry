@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnabot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnabot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnabot/container.yaml"
-updated_at: "2023-03-31 03:03:28.010397"
+updated_at: "2023-04-01 02:54:51.843380"
 latest: "3.1.0"
 container_url: "https://biocontainers.pro/tools/dnabot"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyvcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyvcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyvcf/container.yaml"
-updated_at: "2023-03-31 03:24:25.387597"
+updated_at: "2023-04-01 03:13:47.965581"
 latest: "0.6.8.dev0--py35_0"
 container_url: "https://biocontainers.pro/tools/pyvcf"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quake/container.yaml"
-updated_at: "2023-03-31 02:44:40.002468"
+updated_at: "2023-04-01 02:38:37.445440"
 latest: "0.3.5--py27hed98c23_4"
 container_url: "https://biocontainers.pro/tools/quake"
 aliases:

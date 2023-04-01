@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ridigbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ridigbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ridigbio/container.yaml"
-updated_at: "2023-03-31 02:38:23.491418"
+updated_at: "2023-04-01 02:33:07.336248"
 latest: "0.3.5--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-ridigbio"
 aliases:

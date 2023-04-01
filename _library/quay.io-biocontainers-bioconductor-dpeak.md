@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dpeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dpeak/container.yaml"
-updated_at: "2023-03-31 03:09:41.369070"
+updated_at: "2023-04-01 03:00:27.434411"
 latest: "1.10.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dpeak"
 

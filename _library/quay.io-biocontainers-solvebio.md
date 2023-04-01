@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/solvebio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/solvebio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/solvebio/container.yaml"
-updated_at: "2023-03-31 03:01:11.248420"
+updated_at: "2023-04-01 02:52:48.056312"
 latest: "2.21.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/solvebio"
 aliases:

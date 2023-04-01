@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/refseq_masher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refseq_masher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refseq_masher/container.yaml"
-updated_at: "2023-03-31 02:46:50.565960"
+updated_at: "2023-04-01 02:40:33.917531"
 latest: "0.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/refseq_masher"
 

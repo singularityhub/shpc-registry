@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/imseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imseq/container.yaml"
-updated_at: "2023-03-31 03:25:14.835230"
+updated_at: "2023-04-01 03:14:30.454723"
 latest: "1.1.0--hd03093a_5"
 container_url: "https://biocontainers.pro/tools/imseq"
 aliases:

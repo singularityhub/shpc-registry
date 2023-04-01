@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ftputil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ftputil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ftputil/container.yaml"
-updated_at: "2023-03-31 03:13:45.549654"
+updated_at: "2023-04-01 03:04:09.317358"
 latest: "3.2--py35_0"
 container_url: "https://biocontainers.pro/tools/ftputil"
 aliases:
