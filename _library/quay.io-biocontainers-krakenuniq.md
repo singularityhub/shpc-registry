@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/krakenuniq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakenuniq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krakenuniq/container.yaml"
-updated_at: "2023-04-01 02:50:05.272940"
-latest: "1.0.3--pl5321h19e8d03_0"
+updated_at: "2023-04-02 02:56:59.108272"
+latest: "1.0.3--pl5321h19e8d03_1"
 container_url: "https://biocontainers.pro/tools/krakenuniq"
 aliases:
  - "build_taxdb"
@@ -32,8 +32,9 @@ versions:
  - "1.0.1a--pl5321h19e8d03_1"
  - "1.0.2--pl5321h19e8d03_0"
  - "1.0.3--pl5321h19e8d03_0"
+ - "1.0.3--pl5321h19e8d03_1"
 description: "shpc-registry automated BioContainers addition for krakenuniq"
-config: {"url": "https://biocontainers.pro/tools/krakenuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenuniq", "latest": {"1.0.3--pl5321h19e8d03_0": "sha256:5bf112a0169a5b4747d8d939f56b1dc923fdddc73d3eccb6dc64351e761dd16e"}, "tags": {"1.0.1a--pl5321h19e8d03_1": "sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e", "1.0.2--pl5321h19e8d03_0": "sha256:a3c562fab4cb3de4be59b1ed2106486bf1560d0ca2dc2c8ee5c3caf723cb50ab", "1.0.3--pl5321h19e8d03_0": "sha256:5bf112a0169a5b4747d8d939f56b1dc923fdddc73d3eccb6dc64351e761dd16e"}, "docker": "quay.io/biocontainers/krakenuniq", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenuniq": "/usr/local/bin/krakenuniq", "krakenuniq-build": "/usr/local/bin/krakenuniq-build", "krakenuniq-download": "/usr/local/bin/krakenuniq-download", "krakenuniq-extract-reads": "/usr/local/bin/krakenuniq-extract-reads", "krakenuniq-filter": "/usr/local/bin/krakenuniq-filter", "krakenuniq-mpa-report": "/usr/local/bin/krakenuniq-mpa-report", "krakenuniq-report": "/usr/local/bin/krakenuniq-report", "krakenuniq-translate": "/usr/local/bin/krakenuniq-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "jellyfish": "/usr/local/bin/jellyfish", "idn2": "/usr/local/bin/idn2", "lwp-download": "/usr/local/bin/lwp-download"}}
+config: {"url": "https://biocontainers.pro/tools/krakenuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenuniq", "latest": {"1.0.3--pl5321h19e8d03_1": "sha256:0151dc5f74af96a4ed7517efaca66fa233762c14b255ce2d959752a61ecf6c9b"}, "tags": {"1.0.1a--pl5321h19e8d03_1": "sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e", "1.0.2--pl5321h19e8d03_0": "sha256:a3c562fab4cb3de4be59b1ed2106486bf1560d0ca2dc2c8ee5c3caf723cb50ab", "1.0.3--pl5321h19e8d03_0": "sha256:5bf112a0169a5b4747d8d939f56b1dc923fdddc73d3eccb6dc64351e761dd16e", "1.0.3--pl5321h19e8d03_1": "sha256:0151dc5f74af96a4ed7517efaca66fa233762c14b255ce2d959752a61ecf6c9b"}, "docker": "quay.io/biocontainers/krakenuniq", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenuniq": "/usr/local/bin/krakenuniq", "krakenuniq-build": "/usr/local/bin/krakenuniq-build", "krakenuniq-download": "/usr/local/bin/krakenuniq-download", "krakenuniq-extract-reads": "/usr/local/bin/krakenuniq-extract-reads", "krakenuniq-filter": "/usr/local/bin/krakenuniq-filter", "krakenuniq-mpa-report": "/usr/local/bin/krakenuniq-mpa-report", "krakenuniq-report": "/usr/local/bin/krakenuniq-report", "krakenuniq-translate": "/usr/local/bin/krakenuniq-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "jellyfish": "/usr/local/bin/jellyfish", "idn2": "/usr/local/bin/idn2", "lwp-download": "/usr/local/bin/lwp-download"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krakenuniq.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/krakenuniq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/krakenuniq:1.0.3--pl5321h19e8d03_0
+$ shpc install quay.io/biocontainers/krakenuniq:1.0.3--pl5321h19e8d03_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/krakenuniq/1.0.3--pl5321h19e8d03_0
-$ module help quay.io/biocontainers/krakenuniq/1.0.3--pl5321h19e8d03_0
+$ module load quay.io/biocontainers/krakenuniq/1.0.3--pl5321h19e8d03_1
+$ module help quay.io/biocontainers/krakenuniq/1.0.3--pl5321h19e8d03_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

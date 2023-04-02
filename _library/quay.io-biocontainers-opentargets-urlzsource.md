@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opentargets-urlzsource"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opentargets-urlzsource/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets-urlzsource/container.yaml"
-updated_at: "2023-04-01 03:08:30.783956"
+updated_at: "2023-04-02 03:21:38.928670"
 latest: "1.0.0--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/opentargets-urlzsource"
 aliases:

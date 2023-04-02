@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/addrg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/addrg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/addrg/container.yaml"
-updated_at: "2023-04-01 03:16:48.689689"
-latest: "0.2.1--h8a6b41c_9"
+updated_at: "2023-04-02 03:33:27.095094"
+latest: "0.2.1--h04c669c_10"
 container_url: "https://biocontainers.pro/tools/addrg"
 aliases:
  - "addrg"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.2.1--h8a6b41c_9"
+ - "0.2.1--h04c669c_10"
 description: "shpc-registry automated BioContainers addition for addrg"
-config: {"url": "https://biocontainers.pro/tools/addrg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for addrg", "latest": {"0.2.1--h8a6b41c_9": "sha256:1c3fce8b7e81082864ca592d53913dabc7339f99e8f727698aa656b0ce7a70c7"}, "tags": {"0.2.1--h8a6b41c_9": "sha256:1c3fce8b7e81082864ca592d53913dabc7339f99e8f727698aa656b0ce7a70c7"}, "docker": "quay.io/biocontainers/addrg", "aliases": {"addrg": "/usr/local/bin/addrg", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/addrg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for addrg", "latest": {"0.2.1--h04c669c_10": "sha256:e607aa7d0b22ec60f133d5540be5a0342fe4eedc7fcccc799ed6cb5f7c6f45ab"}, "tags": {"0.2.1--h8a6b41c_9": "sha256:1c3fce8b7e81082864ca592d53913dabc7339f99e8f727698aa656b0ce7a70c7", "0.2.1--h04c669c_10": "sha256:e607aa7d0b22ec60f133d5540be5a0342fe4eedc7fcccc799ed6cb5f7c6f45ab"}, "docker": "quay.io/biocontainers/addrg", "aliases": {"addrg": "/usr/local/bin/addrg", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/addrg.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/addrg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/addrg:0.2.1--h8a6b41c_9
+$ shpc install quay.io/biocontainers/addrg:0.2.1--h04c669c_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/addrg/0.2.1--h8a6b41c_9
-$ module help quay.io/biocontainers/addrg/0.2.1--h8a6b41c_9
+$ module load quay.io/biocontainers/addrg/0.2.1--h04c669c_10
+$ module help quay.io/biocontainers/addrg/0.2.1--h04c669c_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

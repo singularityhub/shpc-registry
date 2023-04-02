@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnahybrid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnahybrid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnahybrid/container.yaml"
-updated_at: "2023-04-01 02:56:52.041719"
+updated_at: "2023-04-02 03:06:13.211976"
 latest: "2.1.2--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/rnahybrid"
 aliases:

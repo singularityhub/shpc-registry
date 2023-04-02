@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mosaicatcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosaicatcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mosaicatcher/container.yaml"
-updated_at: "2023-04-01 03:03:10.829331"
+updated_at: "2023-04-02 03:14:39.563980"
 latest: "0.3.1--h66ab1b6_2"
 container_url: "https://biocontainers.pro/tools/mosaicatcher"
 aliases:

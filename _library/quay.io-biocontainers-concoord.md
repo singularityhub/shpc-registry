@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/concoord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/concoord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/concoord/container.yaml"
-updated_at: "2023-04-01 02:39:17.297811"
-latest: "2.1.2--h9ee0642_3"
+updated_at: "2023-04-02 02:42:22.378319"
+latest: "2.1.2--h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/concoord"
 aliases:
  - "dist"
@@ -13,8 +13,9 @@ aliases:
  - "disco"
 versions:
  - "2.1.2--h9ee0642_3"
+ - "2.1.2--h9ee0642_4"
 description: "singularity registry hpc automated addition for concoord"
-config: {"url": "https://biocontainers.pro/tools/concoord", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for concoord", "latest": {"2.1.2--h9ee0642_3": "sha256:4a2f2e71bdc3535d5baa44fcedbae196c7cdcc7f96656fe444767ab542c47ab5"}, "tags": {"2.1.2--h9ee0642_3": "sha256:4a2f2e71bdc3535d5baa44fcedbae196c7cdcc7f96656fe444767ab542c47ab5"}, "docker": "quay.io/biocontainers/concoord", "aliases": {"dist": "/usr/local/bin/dist", "dist.exe": "/usr/local/bin/dist.exe", "disco": "/usr/local/bin/disco"}}
+config: {"url": "https://biocontainers.pro/tools/concoord", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for concoord", "latest": {"2.1.2--h9ee0642_4": "sha256:7c1f093c3ea5c96dfa844153e5534366bf12dd83962e4c0bb03c1ce9a0f1d2d5"}, "tags": {"2.1.2--h9ee0642_3": "sha256:4a2f2e71bdc3535d5baa44fcedbae196c7cdcc7f96656fe444767ab542c47ab5", "2.1.2--h9ee0642_4": "sha256:7c1f093c3ea5c96dfa844153e5534366bf12dd83962e4c0bb03c1ce9a0f1d2d5"}, "docker": "quay.io/biocontainers/concoord", "aliases": {"dist": "/usr/local/bin/dist", "dist.exe": "/usr/local/bin/dist.exe", "disco": "/usr/local/bin/disco"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/concoord.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/concoord
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/concoord:2.1.2--h9ee0642_3
+$ shpc install quay.io/biocontainers/concoord:2.1.2--h9ee0642_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/concoord/2.1.2--h9ee0642_3
-$ module help quay.io/biocontainers/concoord/2.1.2--h9ee0642_3
+$ module load quay.io/biocontainers/concoord/2.1.2--h9ee0642_4
+$ module help quay.io/biocontainers/concoord/2.1.2--h9ee0642_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

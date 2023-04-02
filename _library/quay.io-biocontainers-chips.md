@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chips"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chips/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chips/container.yaml"
-updated_at: "2023-04-01 03:17:50.033598"
-latest: "2.4--hea94271_4"
+updated_at: "2023-04-02 03:34:57.046005"
+latest: "2.4--hff880f7_5"
 container_url: "https://biocontainers.pro/tools/chips"
 aliases:
  - "chips"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "2.4--hea94271_4"
+ - "2.4--hff880f7_5"
 description: "shpc-registry automated BioContainers addition for chips"
-config: {"url": "https://biocontainers.pro/tools/chips", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chips", "latest": {"2.4--hea94271_4": "sha256:d72b484a2ed1cd8228eb7a576446bc4a4060e95abea6964e03929dbb71e9b163"}, "tags": {"2.4--hea94271_4": "sha256:d72b484a2ed1cd8228eb7a576446bc4a4060e95abea6964e03929dbb71e9b163"}, "docker": "quay.io/biocontainers/chips", "aliases": {"chips": "/usr/local/bin/chips", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/chips", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chips", "latest": {"2.4--hff880f7_5": "sha256:ca16cc23f9c75fa3d524e60e9178acca9e3d3065c59004ec94432adddd677322"}, "tags": {"2.4--hea94271_4": "sha256:d72b484a2ed1cd8228eb7a576446bc4a4060e95abea6964e03929dbb71e9b163", "2.4--hff880f7_5": "sha256:ca16cc23f9c75fa3d524e60e9178acca9e3d3065c59004ec94432adddd677322"}, "docker": "quay.io/biocontainers/chips", "aliases": {"chips": "/usr/local/bin/chips", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chips.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/chips
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chips:2.4--hea94271_4
+$ shpc install quay.io/biocontainers/chips:2.4--hff880f7_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chips/2.4--hea94271_4
-$ module help quay.io/biocontainers/chips/2.4--hea94271_4
+$ module load quay.io/biocontainers/chips/2.4--hff880f7_5
+$ module help quay.io/biocontainers/chips/2.4--hff880f7_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

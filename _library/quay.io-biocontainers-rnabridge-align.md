@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnabridge-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabridge-align/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnabridge-align/container.yaml"
-updated_at: "2023-04-01 02:57:00.496629"
-latest: "1.0.1--hefd527f_4"
+updated_at: "2023-04-02 03:06:25.422480"
+latest: "1.0.1--h66ab1b6_5"
 container_url: "https://biocontainers.pro/tools/rnabridge-align"
 aliases:
  - "rnabridge-align"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0.1--hefd527f_4"
+ - "1.0.1--h66ab1b6_5"
 description: "shpc-registry automated BioContainers addition for rnabridge-align"
-config: {"url": "https://biocontainers.pro/tools/rnabridge-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabridge-align", "latest": {"1.0.1--hefd527f_4": "sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5"}, "tags": {"1.0.1--hefd527f_4": "sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5"}, "docker": "quay.io/biocontainers/rnabridge-align", "aliases": {"rnabridge-align": "/usr/local/bin/rnabridge-align", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/rnabridge-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabridge-align", "latest": {"1.0.1--h66ab1b6_5": "sha256:fc41f70d61a2983354720e352ac57dfa8c1eee87a72ea9b0e8cc51728cf6a4d8"}, "tags": {"1.0.1--hefd527f_4": "sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5", "1.0.1--h66ab1b6_5": "sha256:fc41f70d61a2983354720e352ac57dfa8c1eee87a72ea9b0e8cc51728cf6a4d8"}, "docker": "quay.io/biocontainers/rnabridge-align", "aliases": {"rnabridge-align": "/usr/local/bin/rnabridge-align", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnabridge-align.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/rnabridge-align
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnabridge-align:1.0.1--hefd527f_4
+$ shpc install quay.io/biocontainers/rnabridge-align:1.0.1--h66ab1b6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnabridge-align/1.0.1--hefd527f_4
-$ module help quay.io/biocontainers/rnabridge-align/1.0.1--hefd527f_4
+$ module load quay.io/biocontainers/rnabridge-align/1.0.1--h66ab1b6_5
+$ module help quay.io/biocontainers/rnabridge-align/1.0.1--h66ab1b6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
