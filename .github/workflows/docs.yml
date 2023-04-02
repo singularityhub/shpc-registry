@@ -18,7 +18,7 @@ jobs:
           ref: "gh-pages"
 
       - name: Create conda environment
-        run: conda create --quiet -c conda-forge --name shpc spython
+        run: conda create --quiet -c conda-forge --name shpc spython requests
 
       - name: Install shpc
         run: |
@@ -26,6 +26,17 @@ jobs:
           source activate shpc
           pip install git+https://github.com/singularityhub/singularity-hpc@main
           git clone https://github.com/singularityhub/shpc-registry /tmp/registry
+
+      - name: Set Pages base URL and Registry URL
+        run: |
+          URL=$(curl -L \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ github.token }}"\
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/pages \
+            | jq -r '.html_url')
+          sed -i "s|/shpc-registry|$URL|" _config.yml
+          sed -i "s|singularityhub/shpc-registry|${{ github.repository }}|'" generate.sh
 
       - name: Generate docs
         run: |
