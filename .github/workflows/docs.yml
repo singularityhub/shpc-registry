@@ -20,18 +20,24 @@ jobs:
       - name: Create conda environment
         run: conda create --quiet -c conda-forge --name shpc spython
 
+      - name: Check out main
+        uses: "actions/checkout@v3"
+        with:
+          ref: "main"
+          path: "tmp-registry"
+
       - name: Install shpc
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
           pip install git+https://github.com/singularityhub/singularity-hpc@main
-          git clone https://github.com/singularityhub/shpc-registry /tmp/registry
 
       - name: Generate docs
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
-          /bin/bash generate.sh /tmp/registry
+          /bin/bash generate.sh ./tmp-registry
+          rm -r tmp-registry
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
