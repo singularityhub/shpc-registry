@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hmnrandomread
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmnrandomread
 latest:
-  0.10.0--h28e74a2_0: sha256:59645084a3da3cf5927805e781f2a245fa477bd3da57abb84e0521ed439029f3
+  0.10.0--hf77a93e_1: sha256:0600b43630e25e3b196181fbc1733b9db847cddb78fa576888728a2f712d6429
 tags:
   0.9.1--h28e74a2_0: sha256:17c3848bdb132fa823c0d436b131e822e31f7eb0e85a0ac8cdf14edb9ffd363f
   0.10.0--h28e74a2_0: sha256:59645084a3da3cf5927805e781f2a245fa477bd3da57abb84e0521ed439029f3
+  0.10.0--hf77a93e_1: sha256:0600b43630e25e3b196181fbc1733b9db847cddb78fa576888728a2f712d6429
 docker: quay.io/biocontainers/hmnrandomread
 aliases:
   HmnRandomRead: /usr/local/bin/HmnRandomRead
