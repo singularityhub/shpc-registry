@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cernanetsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cernanetsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cernanetsim/container.yaml"
-updated_at: "2023-04-02 03:04:49.737358"
+updated_at: "2023-04-02 19:00:55.147122"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cernanetsim"
 

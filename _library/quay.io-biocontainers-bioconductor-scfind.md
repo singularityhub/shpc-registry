@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scfind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scfind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scfind/container.yaml"
-updated_at: "2023-04-02 03:11:12.059866"
+updated_at: "2023-04-02 19:05:47.507432"
 latest: "1.9.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scfind"
 aliases:

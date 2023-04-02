@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ont_vbz_hdf_plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont_vbz_hdf_plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont_vbz_hdf_plugin/container.yaml"
-updated_at: "2023-04-02 02:34:04.765245"
+updated_at: "2023-04-02 18:37:34.743725"
 latest: "1.0.1--hb6da537_3"
 container_url: "https://biocontainers.pro/tools/ont_vbz_hdf_plugin"
 aliases:

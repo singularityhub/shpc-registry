@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/linkage2allegro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linkage2allegro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linkage2allegro/container.yaml"
-updated_at: "2023-04-02 03:33:46.007839"
+updated_at: "2023-04-02 19:22:41.629386"
 latest: "2017.3--py_1"
 container_url: "https://biocontainers.pro/tools/linkage2allegro"
 aliases:

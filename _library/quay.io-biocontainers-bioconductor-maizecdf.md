@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maizecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maizecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maizecdf/container.yaml"
-updated_at: "2023-04-02 03:29:36.502779"
+updated_at: "2023-04-02 19:19:40.883694"
 latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-maizecdf"
 

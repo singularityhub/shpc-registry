@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cate/container.yaml"
-updated_at: "2023-04-02 02:44:36.477501"
+updated_at: "2023-04-02 18:45:26.896572"
 latest: "1.1.1--r41h3342da4_3"
 container_url: "https://biocontainers.pro/tools/r-cate"
 aliases:

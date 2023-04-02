@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/instrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/instrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/instrain/container.yaml"
-updated_at: "2023-04-02 02:54:46.673982"
+updated_at: "2023-04-02 18:53:15.059952"
 latest: "1.7.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/instrain"
 aliases:

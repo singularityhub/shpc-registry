@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hgu133plus2cellscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgu133plus2cellscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu133plus2cellscore/container.yaml"
-updated_at: "2023-04-02 03:11:58.152082"
+updated_at: "2023-04-02 19:06:23.635465"
 latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgu133plus2cellscore"
 aliases:

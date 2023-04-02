@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-italicsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-italicsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-italicsdata/container.yaml"
-updated_at: "2023-04-02 03:24:27.842436"
+updated_at: "2023-04-02 19:15:57.292699"
 latest: "2.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-italicsdata"
 

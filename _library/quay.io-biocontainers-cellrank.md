@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellrank/container.yaml"
-updated_at: "2023-04-02 02:53:11.136580"
+updated_at: "2023-04-02 18:52:02.533117"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellrank"
 
