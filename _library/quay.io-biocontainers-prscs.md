@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prscs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prscs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prscs/container.yaml"
-updated_at: "2023-04-03 03:11:51.717056"
+updated_at: "2023-04-03 04:31:01.464197"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prscs"
 aliases:
