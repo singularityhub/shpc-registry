@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/breakdancer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breakdancer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breakdancer/container.yaml"
-updated_at: "2023-04-02 18:47:02.835713"
+updated_at: "2023-04-03 02:40:04.091771"
 latest: "1.4.5--pl5321h360a1d4_10"
 container_url: "https://biocontainers.pro/tools/breakdancer"
 aliases:

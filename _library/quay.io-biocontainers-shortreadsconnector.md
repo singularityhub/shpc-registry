@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shortreadsconnector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shortreadsconnector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shortreadsconnector/container.yaml"
-updated_at: "2023-04-02 18:54:11.474973"
+updated_at: "2023-04-03 02:47:07.400013"
 latest: "1.1.3--0"
 container_url: "https://biocontainers.pro/tools/shortreadsconnector"
 aliases:

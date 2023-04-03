@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pulchra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pulchra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pulchra/container.yaml"
-updated_at: "2023-04-02 18:38:49.352405"
+updated_at: "2023-04-03 02:31:54.799516"
 latest: "3.06--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/pulchra"
 aliases:

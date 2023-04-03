@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngscheckmate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngscheckmate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngscheckmate/container.yaml"
-updated_at: "2023-04-02 19:22:15.227799"
+updated_at: "2023-04-03 03:14:37.354723"
 latest: "1.0.0--py27r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/ngscheckmate"
 aliases:

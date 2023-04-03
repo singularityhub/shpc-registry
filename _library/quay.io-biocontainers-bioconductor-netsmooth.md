@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netsmooth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netsmooth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netsmooth/container.yaml"
-updated_at: "2023-04-02 18:37:25.494008"
+updated_at: "2023-04-03 02:30:31.135936"
 latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netsmooth"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-experimenthubdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
-updated_at: "2023-04-02 18:58:46.769022"
+updated_at: "2023-04-03 02:51:41.547323"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-experimenthubdata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/advntr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/advntr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/advntr/container.yaml"
-updated_at: "2023-04-02 19:15:38.931015"
+updated_at: "2023-04-03 03:08:11.042278"
 latest: "1.5.0--py36hd5865be_0"
 container_url: "https://biocontainers.pro/tools/advntr"
 aliases:

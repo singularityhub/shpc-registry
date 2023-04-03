@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-amrfinderplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
-updated_at: "2023-04-02 18:55:08.038950"
-latest: "3.11.2--h6e70893_0"
+updated_at: "2023-04-03 02:48:04.085361"
+latest: "3.11.4--h6e70893_0"
 container_url: "https://biocontainers.pro/tools/ncbi-amrfinderplus"
 aliases:
  - "amr_report"
@@ -30,8 +30,9 @@ versions:
  - "3.9.8--h671e170_0"
  - "3.10.45--h6e70893_0"
  - "3.11.2--h6e70893_0"
+ - "3.11.4--h6e70893_0"
 description: "shpc-registry automated BioContainers addition for ncbi-amrfinderplus"
-config: {"url": "https://biocontainers.pro/tools/ncbi-amrfinderplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-amrfinderplus", "latest": {"3.11.2--h6e70893_0": "sha256:1cea397c09bb9d9690ad5ad59eb685e8e2477bcfad9d0b98c820c6720a2d9c94"}, "tags": {"3.9.8--h671e170_0": "sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7", "3.10.45--h6e70893_0": "sha256:092bf3870139e32f920f3070f569c0290d096604d9be67003a9d127875c26444", "3.11.2--h6e70893_0": "sha256:1cea397c09bb9d9690ad5ad59eb685e8e2477bcfad9d0b98c820c6720a2d9c94"}, "docker": "quay.io/biocontainers/ncbi-amrfinderplus", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-amrfinderplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-amrfinderplus", "latest": {"3.11.4--h6e70893_0": "sha256:cf21fdecfeec79fa451ad886a5b89b7944d700a631195794f7119f8b133f225b"}, "tags": {"3.9.8--h671e170_0": "sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7", "3.10.45--h6e70893_0": "sha256:092bf3870139e32f920f3070f569c0290d096604d9be67003a9d127875c26444", "3.11.2--h6e70893_0": "sha256:1cea397c09bb9d9690ad5ad59eb685e8e2477bcfad9d0b98c820c6720a2d9c94", "3.11.4--h6e70893_0": "sha256:cf21fdecfeec79fa451ad886a5b89b7944d700a631195794f7119f8b133f225b"}, "docker": "quay.io/biocontainers/ncbi-amrfinderplus", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-amrfinderplus.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/ncbi-amrfinderplus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-amrfinderplus:3.11.2--h6e70893_0
+$ shpc install quay.io/biocontainers/ncbi-amrfinderplus:3.11.4--h6e70893_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-amrfinderplus/3.11.2--h6e70893_0
-$ module help quay.io/biocontainers/ncbi-amrfinderplus/3.11.2--h6e70893_0
+$ module load quay.io/biocontainers/ncbi-amrfinderplus/3.11.4--h6e70893_0
+$ module help quay.io/biocontainers/ncbi-amrfinderplus/3.11.4--h6e70893_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

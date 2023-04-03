@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cellqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellqc/container.yaml"
-updated_at: "2023-04-02 18:51:15.227536"
-latest: "0.0.4--pyh7cba7a3_0"
+updated_at: "2023-04-03 02:44:13.526578"
+latest: "0.0.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/cellqc"
 aliases:
  - "cellqc"
@@ -50,8 +50,9 @@ aliases:
  - "pycc"
 versions:
  - "0.0.4--pyh7cba7a3_0"
+ - "0.0.6--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for cellqc"
-config: {"url": "https://biocontainers.pro/tools/cellqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellqc", "latest": {"0.0.4--pyh7cba7a3_0": "sha256:8c58b8245fa141c0e133e1d7c1d9a55e8ad9198ea3ba76f685526b0ec058a7ca"}, "tags": {"0.0.4--pyh7cba7a3_0": "sha256:8c58b8245fa141c0e133e1d7c1d9a55e8ad9198ea3ba76f685526b0ec058a7ca"}, "docker": "quay.io/biocontainers/cellqc", "aliases": {"cellqc": "/usr/local/bin/cellqc", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "stone": "/usr/local/bin/stone", "aec": "/usr/local/bin/aec", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "geosop": "/usr/local/bin/geosop", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "geos-config": "/usr/local/bin/geos-config", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc"}}
+config: {"url": "https://biocontainers.pro/tools/cellqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellqc", "latest": {"0.0.6--pyh7cba7a3_0": "sha256:7cc9b8bebf872baf2c99c056d5c21af2a6b86d9b66cd2b09243901c18b36f08d"}, "tags": {"0.0.4--pyh7cba7a3_0": "sha256:8c58b8245fa141c0e133e1d7c1d9a55e8ad9198ea3ba76f685526b0ec058a7ca", "0.0.6--pyh7cba7a3_0": "sha256:7cc9b8bebf872baf2c99c056d5c21af2a6b86d9b66cd2b09243901c18b36f08d"}, "docker": "quay.io/biocontainers/cellqc", "aliases": {"cellqc": "/usr/local/bin/cellqc", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "stone": "/usr/local/bin/stone", "aec": "/usr/local/bin/aec", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "geosop": "/usr/local/bin/geosop", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "geos-config": "/usr/local/bin/geos-config", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cellqc.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/cellqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cellqc:0.0.4--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/cellqc:0.0.6--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cellqc/0.0.4--pyh7cba7a3_0
-$ module help quay.io/biocontainers/cellqc/0.0.4--pyh7cba7a3_0
+$ module load quay.io/biocontainers/cellqc/0.0.6--pyh7cba7a3_0
+$ module help quay.io/biocontainers/cellqc/0.0.6--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

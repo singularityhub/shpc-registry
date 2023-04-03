@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/ntedit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntedit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntedit/container.yaml"
-updated_at: "2023-04-02 19:14:23.225995"
-latest: "1.3.5--hd03093a_1"
+updated_at: "2023-04-03 03:06:57.104745"
+latest: "1.3.5--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/ntedit"
 aliases:
  - "ntedit"
  - "nthits"
 versions:
  - "1.3.5--hd03093a_1"
+ - "1.3.5--hd03093a_2"
 description: "shpc-registry automated BioContainers addition for ntedit"
-config: {"url": "https://biocontainers.pro/tools/ntedit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntedit", "latest": {"1.3.5--hd03093a_1": "sha256:2fcaf313a24d22271b8d6e8edf76f678f92d74885e8ad5071485ca38aa823372"}, "tags": {"1.3.5--hd03093a_1": "sha256:2fcaf313a24d22271b8d6e8edf76f678f92d74885e8ad5071485ca38aa823372"}, "docker": "quay.io/biocontainers/ntedit", "aliases": {"ntedit": "/usr/local/bin/ntedit", "nthits": "/usr/local/bin/nthits"}}
+config: {"url": "https://biocontainers.pro/tools/ntedit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntedit", "latest": {"1.3.5--hd03093a_2": "sha256:2cb8c20ff13344b4f256d71a61c2f901eac63322a8bc3132b0deb1e4330d72c3"}, "tags": {"1.3.5--hd03093a_1": "sha256:2fcaf313a24d22271b8d6e8edf76f678f92d74885e8ad5071485ca38aa823372", "1.3.5--hd03093a_2": "sha256:2cb8c20ff13344b4f256d71a61c2f901eac63322a8bc3132b0deb1e4330d72c3"}, "docker": "quay.io/biocontainers/ntedit", "aliases": {"ntedit": "/usr/local/bin/ntedit", "nthits": "/usr/local/bin/nthits"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntedit.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/ntedit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntedit:1.3.5--hd03093a_1
+$ shpc install quay.io/biocontainers/ntedit:1.3.5--hd03093a_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntedit/1.3.5--hd03093a_1
-$ module help quay.io/biocontainers/ntedit/1.3.5--hd03093a_1
+$ module load quay.io/biocontainers/ntedit/1.3.5--hd03093a_2
+$ module help quay.io/biocontainers/ntedit/1.3.5--hd03093a_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

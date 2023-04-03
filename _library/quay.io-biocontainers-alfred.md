@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alfred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alfred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alfred/container.yaml"
-updated_at: "2023-04-02 19:19:20.394225"
-latest: "0.2.6--ha41ced6_1"
+updated_at: "2023-04-03 03:11:46.887951"
+latest: "0.2.6--h2af1cb8_2"
 container_url: "https://biocontainers.pro/tools/alfred"
 aliases:
  - "alfred"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.2.6--ha41ced6_1"
+ - "0.2.6--h2af1cb8_2"
 description: "shpc-registry automated BioContainers addition for alfred"
-config: {"url": "https://biocontainers.pro/tools/alfred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alfred", "latest": {"0.2.6--ha41ced6_1": "sha256:f5421a70045aed56fa245214c31ad2a121160121e2d7b4f8230371c03e98fa51"}, "tags": {"0.2.6--ha41ced6_1": "sha256:f5421a70045aed56fa245214c31ad2a121160121e2d7b4f8230371c03e98fa51"}, "docker": "quay.io/biocontainers/alfred", "aliases": {"alfred": "/usr/local/bin/alfred", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/alfred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alfred", "latest": {"0.2.6--h2af1cb8_2": "sha256:187d8576ef798284c6047b2346ca42d88332b0953b0be7b8bc983ef386fbb7ef"}, "tags": {"0.2.6--ha41ced6_1": "sha256:f5421a70045aed56fa245214c31ad2a121160121e2d7b4f8230371c03e98fa51", "0.2.6--h2af1cb8_2": "sha256:187d8576ef798284c6047b2346ca42d88332b0953b0be7b8bc983ef386fbb7ef"}, "docker": "quay.io/biocontainers/alfred", "aliases": {"alfred": "/usr/local/bin/alfred", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alfred.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/alfred
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alfred:0.2.6--ha41ced6_1
+$ shpc install quay.io/biocontainers/alfred:0.2.6--h2af1cb8_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alfred/0.2.6--ha41ced6_1
-$ module help quay.io/biocontainers/alfred/0.2.6--ha41ced6_1
+$ module load quay.io/biocontainers/alfred/0.2.6--h2af1cb8_2
+$ module help quay.io/biocontainers/alfred/0.2.6--h2af1cb8_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

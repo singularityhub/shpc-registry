@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/segemehl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segemehl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segemehl/container.yaml"
-updated_at: "2023-04-02 19:20:03.945613"
-latest: "0.3.4--h283732a_7"
+updated_at: "2023-04-03 03:12:29.288958"
+latest: "0.3.4--hf7d323f_8"
 container_url: "https://biocontainers.pro/tools/segemehl"
 aliases:
  - "haarz.x"
@@ -15,8 +15,9 @@ aliases:
  - "tabix"
 versions:
  - "0.3.4--h283732a_7"
+ - "0.3.4--hf7d323f_8"
 description: "shpc-registry automated BioContainers addition for segemehl"
-config: {"url": "https://biocontainers.pro/tools/segemehl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for segemehl", "latest": {"0.3.4--h283732a_7": "sha256:02ac65a0b7bcf1c25bf4189be655a4d694c54ca704dd700335e7440b52d832be"}, "tags": {"0.3.4--h283732a_7": "sha256:02ac65a0b7bcf1c25bf4189be655a4d694c54ca704dd700335e7440b52d832be"}, "docker": "quay.io/biocontainers/segemehl", "aliases": {"haarz.x": "/usr/local/bin/haarz.x", "segemehl.x": "/usr/local/bin/segemehl.x", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/segemehl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for segemehl", "latest": {"0.3.4--hf7d323f_8": "sha256:987c37d4bb73c71bf68cc44d1d091b53f7bdca298489ff975530eebac49503d3"}, "tags": {"0.3.4--h283732a_7": "sha256:02ac65a0b7bcf1c25bf4189be655a4d694c54ca704dd700335e7440b52d832be", "0.3.4--hf7d323f_8": "sha256:987c37d4bb73c71bf68cc44d1d091b53f7bdca298489ff975530eebac49503d3"}, "docker": "quay.io/biocontainers/segemehl", "aliases": {"haarz.x": "/usr/local/bin/haarz.x", "segemehl.x": "/usr/local/bin/segemehl.x", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/segemehl.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/segemehl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/segemehl:0.3.4--h283732a_7
+$ shpc install quay.io/biocontainers/segemehl:0.3.4--hf7d323f_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/segemehl/0.3.4--h283732a_7
-$ module help quay.io/biocontainers/segemehl/0.3.4--h283732a_7
+$ module load quay.io/biocontainers/segemehl/0.3.4--hf7d323f_8
+$ module help quay.io/biocontainers/segemehl/0.3.4--hf7d323f_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

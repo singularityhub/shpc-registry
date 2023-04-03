@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sansa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sansa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sansa/container.yaml"
-updated_at: "2023-04-02 18:36:55.817976"
+updated_at: "2023-04-03 02:30:01.248878"
 latest: "0.0.8--hc64ef6e_5"
 container_url: "https://biocontainers.pro/tools/sansa"
 aliases:
