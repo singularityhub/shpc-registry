@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/lja
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lja
+latest:
+  0.2--h5b5514e_0: sha256:a25602d48f2208b0814fa744e145126467b452de76b48cbffdcf8c4df0bcbdc3
+tags:
+  0.2--h5b5514e_0: sha256:a25602d48f2208b0814fa744e145126467b452de76b48cbffdcf8c4df0bcbdc3
+docker: quay.io/biocontainers/lja
+aliases:
+  jumboDBG: /usr/local/bin/jumboDBG
+  lja: /usr/local/bin/lja
+  run_polishing: /usr/local/bin/run_polishing
+  run_tests: /usr/local/bin/run_tests

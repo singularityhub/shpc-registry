@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fastagap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastagap
+latest:
+  1.0--hdfd78af_0: sha256:1d57fa6a763b9aac38d14d54c26fa7e7bc6dfd862829b60ea50b25bf2427d900
+tags:
+  1.0--hdfd78af_0: sha256:1d57fa6a763b9aac38d14d54c26fa7e7bc6dfd862829b60ea50b25bf2427d900
+docker: quay.io/biocontainers/fastagap
+aliases:
+  fastagap: /usr/local/bin/fastagap

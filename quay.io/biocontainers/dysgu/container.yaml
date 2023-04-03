@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/dysgu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dysgu
+latest:
+  1.3.16--py310h0de0465_0: sha256:d5b234ea95b6e111d944c889022654eac052b585c89ba1831e1c481f96517894
+tags:
+  1.3.16--py310h0de0465_0: sha256:d5b234ea95b6e111d944c889022654eac052b585c89ba1831e1c481f96517894
+docker: quay.io/biocontainers/dysgu
+aliases:
+  dysgu: /usr/local/bin/dysgu
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

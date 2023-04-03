@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/catfasta2phyml
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for catfasta2phyml
+latest:
+  1.2.0--hdfd78af_0: sha256:3f950b0242e2aace28f6bd9ea441309085c56ab9a4d762ba60dd3d9c7362034d
+tags:
+  1.2.0--hdfd78af_0: sha256:3f950b0242e2aace28f6bd9ea441309085c56ab9a4d762ba60dd3d9c7362034d
+docker: quay.io/biocontainers/catfasta2phyml
+aliases:
+  catfasta2phyml: /usr/local/bin/catfasta2phyml

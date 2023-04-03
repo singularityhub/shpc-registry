@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/zarp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for zarp
+latest:
+  0.1.1--pyhdfd78af_0: sha256:838bd19281967f7ef1a11c90a58ecae18ea82f507e092bd0529bb6e2a4dff87d
+tags:
+  0.1.1--pyhdfd78af_0: sha256:838bd19281967f7ef1a11c90a58ecae18ea82f507e092bd0529bb6e2a4dff87d
+docker: quay.io/biocontainers/zarp
+aliases:
+  email_validator: /usr/local/bin/email_validator
+  markdown-it: /usr/local/bin/markdown-it
+  zarp: /usr/local/bin/zarp
+  stone: /usr/local/bin/stone
+  yte: /usr/local/bin/yte
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  docutils: /usr/local/bin/docutils
+  f2py3.11: /usr/local/bin/f2py3.11
+  pulptest: /usr/local/bin/pulptest
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  cbc: /usr/local/bin/cbc
+  humanfriendly: /usr/local/bin/humanfriendly
+  clp: /usr/local/bin/clp
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  jp.py: /usr/local/bin/jp.py
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tabulate: /usr/local/bin/tabulate

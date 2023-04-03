@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/samestr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for samestr
+latest:
+  1.2023.4--pyhdfd78af_0: sha256:9d0d2a19c3188f2b2962f368890c89b3b6be694f03f561f3eb2b70bcda3f1a9a
+tags:
+  1.2023.4--pyhdfd78af_0: sha256:9d0d2a19c3188f2b2962f368890c89b3b6be694f03f561f3eb2b70bcda3f1a9a
+docker: quay.io/biocontainers/samestr
+aliases:
+  dump_file.py: /usr/local/bin/dump_file.py
+  filter_sam.py: /usr/local/bin/filter_sam.py
+  kp2np.py: /usr/local/bin/kp2np.py
+  kpileup.py: /usr/local/bin/kpileup.py
+  samestr: /usr/local/bin/samestr
+  muscle: /usr/local/bin/muscle
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi
+  mafft-distance: /usr/local/bin/mafft-distance
+  mafft-einsi: /usr/local/bin/mafft-einsi
+  mafft-fftns: /usr/local/bin/mafft-fftns
+  mafft-fftnsi: /usr/local/bin/mafft-fftnsi
+  mafft-ginsi: /usr/local/bin/mafft-ginsi
+  mafft-homologs.rb: /usr/local/bin/mafft-homologs.rb
+  mafft-linsi: /usr/local/bin/mafft-linsi
+  mafft-nwns: /usr/local/bin/mafft-nwns
+  mafft-nwnsi: /usr/local/bin/mafft-nwnsi
+  mafft-profile: /usr/local/bin/mafft-profile
+  mafft-qinsi: /usr/local/bin/mafft-qinsi
+  mafft-xinsi: /usr/local/bin/mafft-xinsi
+  nwns: /usr/local/bin/nwns
+  nwnsi: /usr/local/bin/nwnsi
+  mafft: /usr/local/bin/mafft
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
