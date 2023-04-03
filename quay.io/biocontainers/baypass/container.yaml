@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/baypass
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for baypass
+latest:
+  2.31--h1107714_0: sha256:4b189363402b3dc9a10abd287a638bf4e96759f10c4568bdf43c39a50c5f38f9
+tags:
+  2.31--h1107714_0: sha256:4b189363402b3dc9a10abd287a638bf4e96759f10c4568bdf43c39a50c5f38f9
+docker: quay.io/biocontainers/baypass
+aliases:
+  g_baypass: /usr/local/bin/g_baypass

@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/pyham
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyham
+latest:
+  1.1.11--pyh7cba7a3_0: sha256:8e44171523d2b7025aae77f20982f05bba03f86fc1c8d814f5394efa912377a2
+tags:
+  1.1.11--pyh7cba7a3_0: sha256:8e44171523d2b7025aae77f20982f05bba03f86fc1c8d814f5394efa912377a2
+docker: quay.io/biocontainers/pyham
+aliases:
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  orc-bugreport: /usr/local/bin/orc-bugreport
+  orcc: /usr/local/bin/orcc
+  out123: /usr/local/bin/out123
+  dumpsexp: /usr/local/bin/dumpsexp
+  gpg-error: /usr/local/bin/gpg-error
+  gpgrt-config: /usr/local/bin/gpgrt-config
+  hmac256: /usr/local/bin/hmac256
+  libgcrypt-config: /usr/local/bin/libgcrypt-config
+  mpicalc: /usr/local/bin/mpicalc
+  yat2m: /usr/local/bin/yat2m
+  tjbench: /usr/local/bin/tjbench
+  lame: /usr/local/bin/lame
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  attr: /usr/local/bin/attr
+  balsam: /usr/local/bin/balsam
+  getfattr: /usr/local/bin/getfattr
+  jackd: /usr/local/bin/jackd

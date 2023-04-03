@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ngsindex
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ngsindex
+latest:
+  0.1.7--pyh7cba7a3_0: sha256:e39ab026ca1dbf6f792dd7db63a5d6a8cde7fb9c3af3133387484b161f263287
+tags:
+  0.1.7--pyh7cba7a3_0: sha256:e39ab026ca1dbf6f792dd7db63a5d6a8cde7fb9c3af3133387484b161f263287
+docker: quay.io/biocontainers/ngsindex
+aliases:
+  summarize-index: /usr/local/bin/summarize-index
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
