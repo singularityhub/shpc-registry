@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tiny-count
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tiny-count
 latest:
-  1.2.1--py39h9f5acd7_0: sha256:00d7937f9f932d604fbf23573e7800e8aa0a3a9d0a9d0a29d9bd0d9a8ead0ed8
+  1.3.0--py39h9f5acd7_0: sha256:0d101c75f99508dc933facaec15e8839c378b8a7bf8c93d3df49a09cf560b670
 tags:
   1.2.1--py39h9f5acd7_0: sha256:00d7937f9f932d604fbf23573e7800e8aa0a3a9d0a9d0a29d9bd0d9a8ead0ed8
+  1.3.0--py39h9f5acd7_0: sha256:0d101c75f99508dc933facaec15e8839c378b8a7bf8c93d3df49a09cf560b670
 docker: quay.io/biocontainers/tiny-count
 aliases:
   htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes

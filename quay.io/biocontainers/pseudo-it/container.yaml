@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pseudo-it
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pseudo-it
 latest:
-  3.1.0--pyhdfd78af_0: sha256:1fc77100a612d231a615cee4fdec3a7a7327ec0ff1c947c7bac70b1b7f370d10
+  3.1.1--pyhdfd78af_0: sha256:970305f0a7313cc8e0b3921f7413afa72bba9988601562963409773bd03eea13
 tags:
   3.1.0--pyhdfd78af_0: sha256:1fc77100a612d231a615cee4fdec3a7a7327ec0ff1c947c7bac70b1b7f370d10
+  3.1.1--pyhdfd78af_0: sha256:970305f0a7313cc8e0b3921f7413afa72bba9988601562963409773bd03eea13
 docker: quay.io/biocontainers/pseudo-it
 aliases:
   pseudo_it.py: /usr/local/bin/pseudo_it.py
