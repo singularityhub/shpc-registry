@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/circle-map-cpp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for circle-map-cpp
 latest:
-  0.5.0--ha04fe3b_0: sha256:43a0b1f7c365055a1ef8fa0137ea5647f28f27d08c716b8d1fe9b37da868c03d
+  0.5.0--h6b7c446_1: sha256:1a460ee97d1be5bace1214ae09a5ed1ecb7a600e5993ce6138e085f9102d6ec9
 tags:
   0.5.0--ha04fe3b_0: sha256:43a0b1f7c365055a1ef8fa0137ea5647f28f27d08c716b8d1fe9b37da868c03d
+  0.5.0--h6b7c446_1: sha256:1a460ee97d1be5bace1214ae09a5ed1ecb7a600e5993ce6138e085f9102d6ec9
 docker: quay.io/biocontainers/circle-map-cpp
 aliases:
   circle_map++: /usr/local/bin/circle_map++

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pycrac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pycrac
 latest:
-  1.5.1--pyh5e36f6f_0: sha256:ecd1d27d5e584a550ffd28c6bdae218e00c8d9defeea453c68f8762be0ecf2f9
+  1.5.2--pyh7cba7a3_0: sha256:6a91970da6caa9ea4fc46d27892217fb4f756a44115d33158d9b1a7b5658d75f
 tags:
   1.5.1--pyh5e36f6f_0: sha256:ecd1d27d5e584a550ffd28c6bdae218e00c8d9defeea453c68f8762be0ecf2f9
+  1.5.2--pyh7cba7a3_0: sha256:6a91970da6caa9ea4fc46d27892217fb4f756a44115d33158d9b1a7b5658d75f
 docker: quay.io/biocontainers/pycrac
 aliases:
   pyAlignment2Tab.py: /usr/local/bin/pyAlignment2Tab.py

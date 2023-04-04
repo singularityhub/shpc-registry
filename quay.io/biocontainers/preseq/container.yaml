@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/preseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for preseq
 latest:
-  3.2.0--h867801b_3: sha256:b1d04c933457ce67cbe6fbc8d0a1877e417272796beb11f2bb31bed3c7dceeaa
+  3.2.0--hd36ca80_4: sha256:6c643d7caaa41e3d0fcdacdd1c391181a2ef38520f6a2d6709eb83d0a46a5813
 tags:
   3.2.0--h867801b_3: sha256:b1d04c933457ce67cbe6fbc8d0a1877e417272796beb11f2bb31bed3c7dceeaa
+  3.2.0--hd36ca80_4: sha256:6c643d7caaa41e3d0fcdacdd1c391181a2ef38520f6a2d6709eb83d0a46a5813
 docker: quay.io/biocontainers/preseq
 aliases:
   preseq: /usr/local/bin/preseq

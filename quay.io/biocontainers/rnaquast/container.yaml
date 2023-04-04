@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rnaquast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnaquast
 latest:
-  2.2.1--h9ee0642_0: sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989
+  2.2.3--h9ee0642_0: sha256:917929562006aa015b8b529935ec345110155326df2950980e075089ec415edc
 tags:
   2.2.1--h9ee0642_0: sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989
+  2.2.3--h9ee0642_0: sha256:917929562006aa015b8b529935ec345110155326df2950980e075089ec415edc
 docker: quay.io/biocontainers/rnaquast
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt

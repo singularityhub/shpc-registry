@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vcf2tsvpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcf2tsvpy
 latest:
-  0.6.0--pyh0517881_0: sha256:79dea0ac847ebbd6bf3aa12bd90b8178ed26d4ece1fb61f533c27a8ee78ed876
+  0.6.1--pyhda70652_0: sha256:76c6f118466512e6c60d6d435c9cde3e831b83f5992ee5f15930749e7d0f4e8e
 tags:
   0.6.0--pyh0517881_0: sha256:79dea0ac847ebbd6bf3aa12bd90b8178ed26d4ece1fb61f533c27a8ee78ed876
+  0.6.1--pyhda70652_0: sha256:76c6f118466512e6c60d6d435c9cde3e831b83f5992ee5f15930749e7d0f4e8e
 docker: quay.io/biocontainers/vcf2tsvpy
 aliases:
   vcf2tsvpy: /usr/local/bin/vcf2tsvpy
