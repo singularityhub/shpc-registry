@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wgdi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgdi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgdi/container.yaml"
-updated_at: "2023-04-03 04:16:27.209881"
-latest: "0.6.2--pyhdfd78af_0"
+updated_at: "2023-04-04 03:04:21.274509"
+latest: "0.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wgdi"
 aliases:
  - "divvier"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "0.6.1--pyhdfd78af_0"
  - "0.6.2--pyhdfd78af_0"
+ - "0.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for wgdi"
-config: {"url": "https://biocontainers.pro/tools/wgdi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgdi", "latest": {"0.6.2--pyhdfd78af_0": "sha256:250504ee7e5846d3ae2065002cd372f0b59b531142a83d7c5730574466805c77"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf", "0.6.2--pyhdfd78af_0": "sha256:250504ee7e5846d3ae2065002cd372f0b59b531142a83d7c5730574466805c77"}, "docker": "quay.io/biocontainers/wgdi", "aliases": {"divvier": "/usr/local/bin/divvier", "iqtree2": "/usr/local/bin/iqtree2", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "wgdi": "/usr/local/bin/wgdi", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree": "/usr/local/bin/iqtree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
+config: {"url": "https://biocontainers.pro/tools/wgdi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgdi", "latest": {"0.6.3--pyhdfd78af_0": "sha256:eaa1a7be35d4c2aa306c9fc48daf798aab7c20bf8df9a6aec3d33353fc7c1abe"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf", "0.6.2--pyhdfd78af_0": "sha256:250504ee7e5846d3ae2065002cd372f0b59b531142a83d7c5730574466805c77", "0.6.3--pyhdfd78af_0": "sha256:eaa1a7be35d4c2aa306c9fc48daf798aab7c20bf8df9a6aec3d33353fc7c1abe"}, "docker": "quay.io/biocontainers/wgdi", "aliases": {"divvier": "/usr/local/bin/divvier", "iqtree2": "/usr/local/bin/iqtree2", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "wgdi": "/usr/local/bin/wgdi", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree": "/usr/local/bin/iqtree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgdi.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/wgdi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wgdi:0.6.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/wgdi:0.6.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wgdi/0.6.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/wgdi/0.6.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/wgdi/0.6.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/wgdi/0.6.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

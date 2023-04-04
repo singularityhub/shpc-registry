@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-icobra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icobra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icobra/container.yaml"
-updated_at: "2023-04-03 03:41:40.189315"
+updated_at: "2023-04-04 02:38:59.776009"
 latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icobra"
 aliases:

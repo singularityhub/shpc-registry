@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-vision"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vision/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vision/container.yaml"
-updated_at: "2023-04-03 04:11:39.644285"
+updated_at: "2023-04-04 03:00:53.654259"
 latest: "2.0.0--r42h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/r-vision"
 

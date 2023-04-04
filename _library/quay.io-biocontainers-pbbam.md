@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbbam/container.yaml"
-updated_at: "2023-04-03 04:10:42.543116"
-latest: "2.1.0--h218f6fc_3"
+updated_at: "2023-04-04 03:00:11.607742"
+latest: "2.1.0--h65681a6_4"
 container_url: "https://biocontainers.pro/tools/pbbam"
 aliases:
  - "ccs-kinetics-bystrandify"
@@ -19,8 +19,9 @@ aliases:
  - "tabix"
 versions:
  - "2.1.0--h218f6fc_3"
+ - "2.1.0--h65681a6_4"
 description: "shpc-registry automated BioContainers addition for pbbam"
-config: {"url": "https://biocontainers.pro/tools/pbbam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbbam", "latest": {"2.1.0--h218f6fc_3": "sha256:41f6225765f09151bafb660cfdfed0ab9bc268a80a5b6df392568a5dae73cba8"}, "tags": {"2.1.0--h218f6fc_3": "sha256:41f6225765f09151bafb660cfdfed0ab9bc268a80a5b6df392568a5dae73cba8"}, "docker": "quay.io/biocontainers/pbbam", "aliases": {"ccs-kinetics-bystrandify": "/usr/local/bin/ccs-kinetics-bystrandify", "extracthifi": "/usr/local/bin/extracthifi", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "zmwfilter": "/usr/local/bin/zmwfilter", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/pbbam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbbam", "latest": {"2.1.0--h65681a6_4": "sha256:8974351da859d63aa425823067d5bdd8f498c0033725bc716f04c3da80a8088a"}, "tags": {"2.1.0--h218f6fc_3": "sha256:41f6225765f09151bafb660cfdfed0ab9bc268a80a5b6df392568a5dae73cba8", "2.1.0--h65681a6_4": "sha256:8974351da859d63aa425823067d5bdd8f498c0033725bc716f04c3da80a8088a"}, "docker": "quay.io/biocontainers/pbbam", "aliases": {"ccs-kinetics-bystrandify": "/usr/local/bin/ccs-kinetics-bystrandify", "extracthifi": "/usr/local/bin/extracthifi", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "zmwfilter": "/usr/local/bin/zmwfilter", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbbam.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pbbam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbbam:2.1.0--h218f6fc_3
+$ shpc install quay.io/biocontainers/pbbam:2.1.0--h65681a6_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbbam/2.1.0--h218f6fc_3
-$ module help quay.io/biocontainers/pbbam/2.1.0--h218f6fc_3
+$ module load quay.io/biocontainers/pbbam/2.1.0--h65681a6_4
+$ module help quay.io/biocontainers/pbbam/2.1.0--h65681a6_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

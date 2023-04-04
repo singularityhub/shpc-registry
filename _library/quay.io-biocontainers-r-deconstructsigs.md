@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-deconstructsigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-deconstructsigs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-deconstructsigs/container.yaml"
-updated_at: "2023-04-03 03:45:50.637867"
+updated_at: "2023-04-04 02:42:03.562460"
 latest: "1.9.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-deconstructsigs"
 aliases:

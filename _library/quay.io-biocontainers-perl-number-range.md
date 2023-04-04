@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-number-range"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-number-range/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-number-range/container.yaml"
-updated_at: "2023-04-03 04:22:29.806480"
+updated_at: "2023-04-04 03:08:45.305234"
 latest: "0.12--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-number-range"
 aliases:

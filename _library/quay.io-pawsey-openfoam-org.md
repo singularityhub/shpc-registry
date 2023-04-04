@@ -4,8 +4,8 @@ name:  "quay.io/pawsey/openfoam-org"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/openfoam-org/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/openfoam-org/container.yaml"
-updated_at: "2023-04-03 03:33:18.976639"
-latest: "8"
+updated_at: "2023-04-04 02:32:45.835434"
+latest: "10"
 container_url: "https://quay.io/repository/pawsey/openfoam-org"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "5.x"
  - "2.4.x"
  - "2.2.0"
+ - "10"
 description: "OpenFOAM (openfoam.org) images built on top of MPICH."
-config: {"docker": "quay.io/pawsey/openfoam-org", "url": "https://quay.io/repository/pawsey/openfoam-org", "maintainer": "@marcodelapierre", "description": "OpenFOAM (openfoam.org) images built on top of MPICH.", "latest": {"8": "sha256:13eafb0fa58dafbdaacf8000886bdd3c9c63ee29c35f09a2cc1cdf44c1871226"}, "tags": {"8": "sha256:13eafb0fa58dafbdaacf8000886bdd3c9c63ee29c35f09a2cc1cdf44c1871226", "7": "sha256:3d427b3dec890193bb671185acefdc91fb126363b5f368d147603002b4708afe", "5.x": "sha256:301765ba65e135ad1954bc8dabfc1a76ad716000ae8142d0c0a61810b3dce922", "2.4.x": "sha256:526ed37410c31789c5da9f3dd5f842835989533181b0c7e7feafd1eaa683ff43", "2.2.0": "sha256:32f0a464f0ea128e6b68b58e90719c24b5acb962dc8b7b8767440f8d70ed9156"}, "overrides": {"2.2.0": "aliases/2.2.0.yaml", "2.4.x": "aliases/2.4.x.yaml", "5.x": "aliases/5.x.yaml", "7": "aliases/7.yaml", "8": "aliases/8.yaml"}}
+config: {"docker": "quay.io/pawsey/openfoam-org", "url": "https://quay.io/repository/pawsey/openfoam-org", "maintainer": "@marcodelapierre", "description": "OpenFOAM (openfoam.org) images built on top of MPICH.", "latest": {"10": "sha256:e3fedac5f2da94d6d2be90366671441ba3ff90d3de30146da4d950adcdf0e9c9"}, "tags": {"8": "sha256:13eafb0fa58dafbdaacf8000886bdd3c9c63ee29c35f09a2cc1cdf44c1871226", "7": "sha256:3d427b3dec890193bb671185acefdc91fb126363b5f368d147603002b4708afe", "5.x": "sha256:301765ba65e135ad1954bc8dabfc1a76ad716000ae8142d0c0a61810b3dce922", "2.4.x": "sha256:526ed37410c31789c5da9f3dd5f842835989533181b0c7e7feafd1eaa683ff43", "2.2.0": "sha256:32f0a464f0ea128e6b68b58e90719c24b5acb962dc8b7b8767440f8d70ed9156", "10": "sha256:e3fedac5f2da94d6d2be90366671441ba3ff90d3de30146da4d950adcdf0e9c9"}, "overrides": {"2.2.0": "aliases/2.2.0.yaml", "2.4.x": "aliases/2.4.x.yaml", "5.x": "aliases/5.x.yaml", "7": "aliases/7.yaml", "8": "aliases/8.yaml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/openfoam-org.
@@ -30,7 +31,7 @@ $ shpc install quay.io/pawsey/openfoam-org
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/openfoam-org:8
+$ shpc install quay.io/pawsey/openfoam-org:10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/openfoam-org/8
-$ module help quay.io/pawsey/openfoam-org/8
+$ module load quay.io/pawsey/openfoam-org/10
+$ module help quay.io/pawsey/openfoam-org/10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

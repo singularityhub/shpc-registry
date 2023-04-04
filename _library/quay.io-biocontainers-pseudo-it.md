@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pseudo-it"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pseudo-it/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pseudo-it/container.yaml"
-updated_at: "2023-04-03 03:51:23.257064"
-latest: "3.1.0--pyhdfd78af_0"
+updated_at: "2023-04-04 02:46:06.706381"
+latest: "3.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pseudo-it"
 aliases:
  - "pseudo_it.py"
@@ -36,8 +36,9 @@ aliases:
  - "annotateBed"
 versions:
  - "3.1.0--pyhdfd78af_0"
+ - "3.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pseudo-it"
-config: {"url": "https://biocontainers.pro/tools/pseudo-it", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pseudo-it", "latest": {"3.1.0--pyhdfd78af_0": "sha256:1fc77100a612d231a615cee4fdec3a7a7327ec0ff1c947c7bac70b1b7f370d10"}, "tags": {"3.1.0--pyhdfd78af_0": "sha256:1fc77100a612d231a615cee4fdec3a7a7327ec0ff1c947c7bac70b1b7f370d10"}, "docker": "quay.io/biocontainers/pseudo-it", "aliases": {"pseudo_it.py": "/usr/local/bin/pseudo_it.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "gatk": "/usr/local/bin/gatk", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "picard": "/usr/local/bin/picard", "gff2gff.py": "/usr/local/bin/gff2gff.py", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed"}}
+config: {"url": "https://biocontainers.pro/tools/pseudo-it", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pseudo-it", "latest": {"3.1.1--pyhdfd78af_0": "sha256:970305f0a7313cc8e0b3921f7413afa72bba9988601562963409773bd03eea13"}, "tags": {"3.1.0--pyhdfd78af_0": "sha256:1fc77100a612d231a615cee4fdec3a7a7327ec0ff1c947c7bac70b1b7f370d10", "3.1.1--pyhdfd78af_0": "sha256:970305f0a7313cc8e0b3921f7413afa72bba9988601562963409773bd03eea13"}, "docker": "quay.io/biocontainers/pseudo-it", "aliases": {"pseudo_it.py": "/usr/local/bin/pseudo_it.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "gatk": "/usr/local/bin/gatk", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "picard": "/usr/local/bin/picard", "gff2gff.py": "/usr/local/bin/gff2gff.py", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pseudo-it.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/pseudo-it
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pseudo-it:3.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pseudo-it:3.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pseudo-it/3.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pseudo-it/3.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pseudo-it/3.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pseudo-it/3.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

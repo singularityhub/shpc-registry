@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanomath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomath/container.yaml"
-updated_at: "2023-04-03 04:25:21.593567"
-latest: "1.2.1--pyhdfd78af_0"
+updated_at: "2023-04-04 03:10:52.041652"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanomath"
 aliases:
  - "f2py3.9"
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.2.1--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nanomath"
-config: {"url": "https://biocontainers.pro/tools/nanomath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanomath", "latest": {"1.2.1--pyhdfd78af_0": "sha256:a768a517d2a217db0c27f9e5312e3a6874800d65fe1e135887bfcf04fda3cfac"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:a768a517d2a217db0c27f9e5312e3a6874800d65fe1e135887bfcf04fda3cfac"}, "docker": "quay.io/biocontainers/nanomath", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/nanomath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanomath", "latest": {"1.3.0--pyhdfd78af_0": "sha256:8532c9dcc119bb3d07344804a04fef8d9db2e093d8369a064b42c8f58ff1415e"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:a768a517d2a217db0c27f9e5312e3a6874800d65fe1e135887bfcf04fda3cfac", "1.3.0--pyhdfd78af_0": "sha256:8532c9dcc119bb3d07344804a04fef8d9db2e093d8369a064b42c8f58ff1415e"}, "docker": "quay.io/biocontainers/nanomath", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanomath.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/nanomath
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanomath:1.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nanomath:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanomath/1.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/nanomath/1.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/nanomath/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/nanomath/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

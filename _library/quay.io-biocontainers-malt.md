@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/malt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/malt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/malt/container.yaml"
-updated_at: "2023-04-03 03:43:17.659592"
+updated_at: "2023-04-04 02:40:11.248702"
 latest: "0.61--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/malt"
 aliases:

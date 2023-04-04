@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-shinyngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shinyngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shinyngs/container.yaml"
-updated_at: "2023-04-03 03:45:50.246309"
+updated_at: "2023-04-04 02:42:03.256829"
 latest: "1.5.6--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-shinyngs"
 aliases:
