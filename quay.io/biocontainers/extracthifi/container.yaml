@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/extracthifi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for extracthifi
 latest:
-  1.0.0--0: sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa
+  1.0.0--h9ee0642_1: sha256:9aaf86402fe56992af469292f7694e5fe4584283a64df57b4d565da92ad843c6
 tags:
   1.0.0--0: sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa
+  1.0.0--h9ee0642_1: sha256:9aaf86402fe56992af469292f7694e5fe4584283a64df57b4d565da92ad843c6
 docker: quay.io/biocontainers/extracthifi
 aliases:
   extracthifi: /usr/local/bin/extracthifi

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fastqpuri
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastqpuri
 latest:
-  1.0.7--r41h67092d7_4: sha256:986507af918272086f85cdb538c7d0bb18bd641b045c49d2979ed1d68a64ba73
+  1.0.7--r42h67092d7_5: sha256:7176d0119bfe56b6cba82622d97bb443001d24efc8e945be4e751af5d94a1e16
 tags:
   1.0.7--r41h67092d7_4: sha256:986507af918272086f85cdb538c7d0bb18bd641b045c49d2979ed1d68a64ba73
+  1.0.7--r42h67092d7_5: sha256:7176d0119bfe56b6cba82622d97bb443001d24efc8e945be4e751af5d94a1e16
 docker: quay.io/biocontainers/fastqpuri
 aliases:
   Qreport: /usr/local/bin/Qreport
