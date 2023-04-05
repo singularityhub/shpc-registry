@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/segmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segmetrics/container.yaml"
-updated_at: "2023-04-04 03:07:52.260802"
-latest: "1.2.1--pyhdfd78af_0"
+updated_at: "2023-04-05 02:58:19.772630"
+latest: "1.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/segmetrics"
 aliases:
  - "aomdec"
@@ -41,8 +41,9 @@ aliases:
  - "opj_decompress"
 versions:
  - "1.2.1--pyhdfd78af_0"
+ - "1.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for segmetrics"
-config: {"url": "https://biocontainers.pro/tools/segmetrics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segmetrics", "latest": {"1.2.1--pyhdfd78af_0": "sha256:86cb12f1a08afa192720f5dfc28c25144a1f008fbc83e0c153bc1209d70e5127"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:86cb12f1a08afa192720f5dfc28c25144a1f008fbc83e0c153bc1209d70e5127"}, "docker": "quay.io/biocontainers/segmetrics", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "dask": "/usr/local/bin/dask", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aec": "/usr/local/bin/aec", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "fitscopy": "/usr/local/bin/fitscopy", "fpack": "/usr/local/bin/fpack", "funpack": "/usr/local/bin/funpack", "imcopy": "/usr/local/bin/imcopy", "smem": "/usr/local/bin/smem", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
+config: {"url": "https://biocontainers.pro/tools/segmetrics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segmetrics", "latest": {"1.2.3--pyhdfd78af_0": "sha256:6624ac1fb3b4ee0627eb67ca95a900fba27eaa6de2ce73deafda90b050994912"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:86cb12f1a08afa192720f5dfc28c25144a1f008fbc83e0c153bc1209d70e5127", "1.2.3--pyhdfd78af_0": "sha256:6624ac1fb3b4ee0627eb67ca95a900fba27eaa6de2ce73deafda90b050994912"}, "docker": "quay.io/biocontainers/segmetrics", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "dask": "/usr/local/bin/dask", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aec": "/usr/local/bin/aec", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "fitscopy": "/usr/local/bin/fitscopy", "fpack": "/usr/local/bin/fpack", "funpack": "/usr/local/bin/funpack", "imcopy": "/usr/local/bin/imcopy", "smem": "/usr/local/bin/smem", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/segmetrics.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/segmetrics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/segmetrics:1.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/segmetrics:1.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/segmetrics/1.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/segmetrics/1.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/segmetrics/1.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/segmetrics/1.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

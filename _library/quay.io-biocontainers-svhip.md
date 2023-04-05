@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svhip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svhip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svhip/container.yaml"
-updated_at: "2023-04-04 02:44:20.601088"
-latest: "1.0.6--hdfd78af_0"
+updated_at: "2023-04-05 02:34:12.648579"
+latest: "1.0.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svhip"
 aliases:
  - "RNAmultifold"
@@ -38,8 +38,9 @@ aliases:
  - "RNAforester"
 versions:
  - "1.0.6--hdfd78af_0"
+ - "1.0.7--hdfd78af_0"
 description: "singularity registry hpc automated addition for svhip"
-config: {"url": "https://biocontainers.pro/tools/svhip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svhip", "latest": {"1.0.6--hdfd78af_0": "sha256:487c7567245d6b76313dc86d85bef4aff8f868b94845e09b8c5bbc45fbbb1d77"}, "tags": {"1.0.6--hdfd78af_0": "sha256:487c7567245d6b76313dc86d85bef4aff8f868b94845e09b8c5bbc45fbbb1d77"}, "docker": "quay.io/biocontainers/svhip", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "svhip": "/usr/local/bin/svhip", "tjbench": "/usr/local/bin/tjbench", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
+config: {"url": "https://biocontainers.pro/tools/svhip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svhip", "latest": {"1.0.7--hdfd78af_0": "sha256:c4a865d60edf3899fb6b4cc1e49c6826c25a557c36fc7aed4cd8047b6c9499c7"}, "tags": {"1.0.6--hdfd78af_0": "sha256:487c7567245d6b76313dc86d85bef4aff8f868b94845e09b8c5bbc45fbbb1d77", "1.0.7--hdfd78af_0": "sha256:c4a865d60edf3899fb6b4cc1e49c6826c25a557c36fc7aed4cd8047b6c9499c7"}, "docker": "quay.io/biocontainers/svhip", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "svhip": "/usr/local/bin/svhip", "tjbench": "/usr/local/bin/tjbench", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svhip.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/svhip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svhip:1.0.6--hdfd78af_0
+$ shpc install quay.io/biocontainers/svhip:1.0.7--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svhip/1.0.6--hdfd78af_0
-$ module help quay.io/biocontainers/svhip/1.0.6--hdfd78af_0
+$ module load quay.io/biocontainers/svhip/1.0.7--hdfd78af_0
+$ module help quay.io/biocontainers/svhip/1.0.7--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/nthits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nthits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nthits/container.yaml"
-updated_at: "2023-04-04 02:49:13.105565"
-latest: "0.0.1--h9f5acd7_2"
+updated_at: "2023-04-05 02:39:13.163518"
+latest: "1.0.1--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/nthits"
 aliases:
  - "nthits"
 versions:
  - "0.0.1--h9f5acd7_2"
+ - "1.0.1--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for nthits"
-config: {"url": "https://biocontainers.pro/tools/nthits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nthits", "latest": {"0.0.1--h9f5acd7_2": "sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2"}, "tags": {"0.0.1--h9f5acd7_2": "sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2"}, "docker": "quay.io/biocontainers/nthits", "aliases": {"nthits": "/usr/local/bin/nthits"}}
+config: {"url": "https://biocontainers.pro/tools/nthits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nthits", "latest": {"1.0.1--h9f5acd7_0": "sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189"}, "tags": {"0.0.1--h9f5acd7_2": "sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2", "1.0.1--h9f5acd7_0": "sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189"}, "docker": "quay.io/biocontainers/nthits", "aliases": {"nthits": "/usr/local/bin/nthits"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nthits.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/nthits
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nthits:0.0.1--h9f5acd7_2
+$ shpc install quay.io/biocontainers/nthits:1.0.1--h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nthits/0.0.1--h9f5acd7_2
-$ module help quay.io/biocontainers/nthits/0.0.1--h9f5acd7_2
+$ module load quay.io/biocontainers/nthits/1.0.1--h9f5acd7_0
+$ module help quay.io/biocontainers/nthits/1.0.1--h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pycrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycrac/container.yaml"
-updated_at: "2023-04-04 03:05:43.414013"
-latest: "1.5.1--pyh5e36f6f_0"
+updated_at: "2023-04-05 02:56:07.997693"
+latest: "1.5.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pycrac"
 aliases:
  - "pyAlignment2Tab.py"
@@ -42,8 +42,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.5.1--pyh5e36f6f_0"
+ - "1.5.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for pycrac"
-config: {"url": "https://biocontainers.pro/tools/pycrac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycrac", "latest": {"1.5.1--pyh5e36f6f_0": "sha256:ecd1d27d5e584a550ffd28c6bdae218e00c8d9defeea453c68f8762be0ecf2f9"}, "tags": {"1.5.1--pyh5e36f6f_0": "sha256:ecd1d27d5e584a550ffd28c6bdae218e00c8d9defeea453c68f8762be0ecf2f9"}, "docker": "quay.io/biocontainers/pycrac", "aliases": {"pyAlignment2Tab.py": "/usr/local/bin/pyAlignment2Tab.py", "pyBarcodeFilter.py": "/usr/local/bin/pyBarcodeFilter.py", "pyBinCollector.py": "/usr/local/bin/pyBinCollector.py", "pyCalculateChromosomeLengths.py": "/usr/local/bin/pyCalculateChromosomeLengths.py", "pyCalculateFDRs.py": "/usr/local/bin/pyCalculateFDRs.py", "pyCalculateMutationFrequencies.py": "/usr/local/bin/pyCalculateMutationFrequencies.py", "pyCheckGTFfile.py": "/usr/local/bin/pyCheckGTFfile.py", "pyClusterReads.py": "/usr/local/bin/pyClusterReads.py", "pyExtractLinesFromGTF.py": "/usr/local/bin/pyExtractLinesFromGTF.py", "pyFasta2tab.py": "/usr/local/bin/pyFasta2tab.py", "pyFastqDuplicateRemover.py": "/usr/local/bin/pyFastqDuplicateRemover.py", "pyFastqJoiner.py": "/usr/local/bin/pyFastqJoiner.py", "pyFastqSplitter.py": "/usr/local/bin/pyFastqSplitter.py", "pyFilterGTF.py": "/usr/local/bin/pyFilterGTF.py", "pyGTF2bed.py": "/usr/local/bin/pyGTF2bed.py", "pyGTF2bedGraph.py": "/usr/local/bin/pyGTF2bedGraph.py", "pyGTF2sgr.py": "/usr/local/bin/pyGTF2sgr.py", "pyGetGTFSources.py": "/usr/local/bin/pyGetGTFSources.py", "pyGetGeneNamesFromGTF.py": "/usr/local/bin/pyGetGeneNamesFromGTF.py", "pyMotif.py": "/usr/local/bin/pyMotif.py", "pyNormalizeIntervalLengths.py": "/usr/local/bin/pyNormalizeIntervalLengths.py", "pyPileup.py": "/usr/local/bin/pyPileup.py", "pyReadAligner.py": "/usr/local/bin/pyReadAligner.py", "pyReadCounters.py": "/usr/local/bin/pyReadCounters.py", "pySelectMotifsFromGTF.py": "/usr/local/bin/pySelectMotifsFromGTF.py", "pybed2GTF.py": "/usr/local/bin/pybed2GTF.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pycrac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycrac", "latest": {"1.5.2--pyh7cba7a3_0": "sha256:6a91970da6caa9ea4fc46d27892217fb4f756a44115d33158d9b1a7b5658d75f"}, "tags": {"1.5.1--pyh5e36f6f_0": "sha256:ecd1d27d5e584a550ffd28c6bdae218e00c8d9defeea453c68f8762be0ecf2f9", "1.5.2--pyh7cba7a3_0": "sha256:6a91970da6caa9ea4fc46d27892217fb4f756a44115d33158d9b1a7b5658d75f"}, "docker": "quay.io/biocontainers/pycrac", "aliases": {"pyAlignment2Tab.py": "/usr/local/bin/pyAlignment2Tab.py", "pyBarcodeFilter.py": "/usr/local/bin/pyBarcodeFilter.py", "pyBinCollector.py": "/usr/local/bin/pyBinCollector.py", "pyCalculateChromosomeLengths.py": "/usr/local/bin/pyCalculateChromosomeLengths.py", "pyCalculateFDRs.py": "/usr/local/bin/pyCalculateFDRs.py", "pyCalculateMutationFrequencies.py": "/usr/local/bin/pyCalculateMutationFrequencies.py", "pyCheckGTFfile.py": "/usr/local/bin/pyCheckGTFfile.py", "pyClusterReads.py": "/usr/local/bin/pyClusterReads.py", "pyExtractLinesFromGTF.py": "/usr/local/bin/pyExtractLinesFromGTF.py", "pyFasta2tab.py": "/usr/local/bin/pyFasta2tab.py", "pyFastqDuplicateRemover.py": "/usr/local/bin/pyFastqDuplicateRemover.py", "pyFastqJoiner.py": "/usr/local/bin/pyFastqJoiner.py", "pyFastqSplitter.py": "/usr/local/bin/pyFastqSplitter.py", "pyFilterGTF.py": "/usr/local/bin/pyFilterGTF.py", "pyGTF2bed.py": "/usr/local/bin/pyGTF2bed.py", "pyGTF2bedGraph.py": "/usr/local/bin/pyGTF2bedGraph.py", "pyGTF2sgr.py": "/usr/local/bin/pyGTF2sgr.py", "pyGetGTFSources.py": "/usr/local/bin/pyGetGTFSources.py", "pyGetGeneNamesFromGTF.py": "/usr/local/bin/pyGetGeneNamesFromGTF.py", "pyMotif.py": "/usr/local/bin/pyMotif.py", "pyNormalizeIntervalLengths.py": "/usr/local/bin/pyNormalizeIntervalLengths.py", "pyPileup.py": "/usr/local/bin/pyPileup.py", "pyReadAligner.py": "/usr/local/bin/pyReadAligner.py", "pyReadCounters.py": "/usr/local/bin/pyReadCounters.py", "pySelectMotifsFromGTF.py": "/usr/local/bin/pySelectMotifsFromGTF.py", "pybed2GTF.py": "/usr/local/bin/pybed2GTF.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycrac.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/pycrac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pycrac:1.5.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/pycrac:1.5.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pycrac/1.5.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/pycrac/1.5.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/pycrac/1.5.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/pycrac/1.5.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

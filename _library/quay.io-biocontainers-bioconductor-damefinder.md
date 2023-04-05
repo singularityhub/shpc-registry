@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-damefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-damefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-damefinder/container.yaml"
-updated_at: "2023-04-04 02:43:11.284095"
+updated_at: "2023-04-05 02:33:01.888707"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-damefinder"
 

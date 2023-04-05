@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ribor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribor/container.yaml"
-updated_at: "2023-04-04 02:44:58.525767"
+updated_at: "2023-04-05 02:34:51.701559"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribor"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tie-hash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-hash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-hash/container.yaml"
-updated_at: "2023-04-04 02:33:51.730937"
+updated_at: "2023-04-05 02:23:32.599467"
 latest: "1.05--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-tie-hash"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/circle-map-cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circle-map-cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circle-map-cpp/container.yaml"
-updated_at: "2023-04-04 03:05:38.502962"
-latest: "0.5.0--ha04fe3b_0"
+updated_at: "2023-04-05 02:56:02.961657"
+latest: "0.5.0--h6b7c446_1"
 container_url: "https://biocontainers.pro/tools/circle-map-cpp"
 aliases:
  - "circle_map++"
@@ -36,8 +36,9 @@ aliases:
  - "multiBamCov"
 versions:
  - "0.5.0--ha04fe3b_0"
+ - "0.5.0--h6b7c446_1"
 description: "singularity registry hpc automated addition for circle-map-cpp"
-config: {"url": "https://biocontainers.pro/tools/circle-map-cpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for circle-map-cpp", "latest": {"0.5.0--ha04fe3b_0": "sha256:43a0b1f7c365055a1ef8fa0137ea5647f28f27d08c716b8d1fe9b37da868c03d"}, "tags": {"0.5.0--ha04fe3b_0": "sha256:43a0b1f7c365055a1ef8fa0137ea5647f28f27d08c716b8d1fe9b37da868c03d"}, "docker": "quay.io/biocontainers/circle-map-cpp", "aliases": {"circle_map++": "/usr/local/bin/circle_map++", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
+config: {"url": "https://biocontainers.pro/tools/circle-map-cpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for circle-map-cpp", "latest": {"0.5.0--h6b7c446_1": "sha256:1a460ee97d1be5bace1214ae09a5ed1ecb7a600e5993ce6138e085f9102d6ec9"}, "tags": {"0.5.0--ha04fe3b_0": "sha256:43a0b1f7c365055a1ef8fa0137ea5647f28f27d08c716b8d1fe9b37da868c03d", "0.5.0--h6b7c446_1": "sha256:1a460ee97d1be5bace1214ae09a5ed1ecb7a600e5993ce6138e085f9102d6ec9"}, "docker": "quay.io/biocontainers/circle-map-cpp", "aliases": {"circle_map++": "/usr/local/bin/circle_map++", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circle-map-cpp.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/circle-map-cpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circle-map-cpp:0.5.0--ha04fe3b_0
+$ shpc install quay.io/biocontainers/circle-map-cpp:0.5.0--h6b7c446_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circle-map-cpp/0.5.0--ha04fe3b_0
-$ module help quay.io/biocontainers/circle-map-cpp/0.5.0--ha04fe3b_0
+$ module load quay.io/biocontainers/circle-map-cpp/0.5.0--h6b7c446_1
+$ module help quay.io/biocontainers/circle-map-cpp/0.5.0--h6b7c446_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

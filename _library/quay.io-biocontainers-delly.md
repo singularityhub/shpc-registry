@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/delly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delly/container.yaml"
-updated_at: "2023-04-04 02:56:42.200935"
-latest: "1.1.6--ha41ced6_0"
+updated_at: "2023-04-05 02:46:54.035696"
+latest: "1.1.6--h2af1cb8_1"
 container_url: "https://biocontainers.pro/tools/delly"
 aliases:
  - "delly"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.1.5--ha41ced6_1"
  - "1.1.6--ha41ced6_0"
+ - "1.1.6--h2af1cb8_1"
 description: "shpc-registry automated BioContainers addition for delly"
-config: {"url": "https://biocontainers.pro/tools/delly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for delly", "latest": {"1.1.6--ha41ced6_0": "sha256:1483554d377d5b30d98d2aa040a3eb33d6710b0caffe5e1002a047f36c21f452"}, "tags": {"1.1.5--ha41ced6_1": "sha256:d6bf4e579f3b588d59e744cfbac51752b9a901af8dae06a22be65f436539dcd7", "1.1.6--ha41ced6_0": "sha256:1483554d377d5b30d98d2aa040a3eb33d6710b0caffe5e1002a047f36c21f452"}, "docker": "quay.io/biocontainers/delly", "aliases": {"delly": "/usr/local/bin/delly", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/delly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for delly", "latest": {"1.1.6--h2af1cb8_1": "sha256:1374d649c50930088fb7a4fd867e349f18036266e4d7c6800081b57b9a6fbbfc"}, "tags": {"1.1.5--ha41ced6_1": "sha256:d6bf4e579f3b588d59e744cfbac51752b9a901af8dae06a22be65f436539dcd7", "1.1.6--ha41ced6_0": "sha256:1483554d377d5b30d98d2aa040a3eb33d6710b0caffe5e1002a047f36c21f452", "1.1.6--h2af1cb8_1": "sha256:1374d649c50930088fb7a4fd867e349f18036266e4d7c6800081b57b9a6fbbfc"}, "docker": "quay.io/biocontainers/delly", "aliases": {"delly": "/usr/local/bin/delly", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/delly.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/delly
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/delly:1.1.6--ha41ced6_0
+$ shpc install quay.io/biocontainers/delly:1.1.6--h2af1cb8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/delly/1.1.6--ha41ced6_0
-$ module help quay.io/biocontainers/delly/1.1.6--ha41ced6_0
+$ module load quay.io/biocontainers/delly/1.1.6--h2af1cb8_1
+$ module help quay.io/biocontainers/delly/1.1.6--h2af1cb8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

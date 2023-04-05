@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sequencetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequencetools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequencetools/container.yaml"
-updated_at: "2023-04-04 02:53:03.803103"
-latest: "1.5.2--hec16e2b_1"
+updated_at: "2023-04-05 02:43:10.224057"
+latest: "1.5.3--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/sequencetools"
 aliases:
  - "genoStats"
@@ -23,8 +23,9 @@ aliases:
  - "md5fa"
 versions:
  - "1.5.2--hec16e2b_1"
+ - "1.5.3--hec16e2b_0"
 description: "shpc-registry automated BioContainers addition for sequencetools"
-config: {"url": "https://biocontainers.pro/tools/sequencetools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequencetools", "latest": {"1.5.2--hec16e2b_1": "sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f"}, "tags": {"1.5.2--hec16e2b_1": "sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f"}, "docker": "quay.io/biocontainers/sequencetools", "aliases": {"genoStats": "/usr/local/bin/genoStats", "pileupCaller": "/usr/local/bin/pileupCaller", "vcf2eigenstrat": "/usr/local/bin/vcf2eigenstrat", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/sequencetools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequencetools", "latest": {"1.5.3--hec16e2b_0": "sha256:38d1d0e42b489a1ce256e43e1313710f308a61a2ceb70709ee01522ff7fdfefc"}, "tags": {"1.5.2--hec16e2b_1": "sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f", "1.5.3--hec16e2b_0": "sha256:38d1d0e42b489a1ce256e43e1313710f308a61a2ceb70709ee01522ff7fdfefc"}, "docker": "quay.io/biocontainers/sequencetools", "aliases": {"genoStats": "/usr/local/bin/genoStats", "pileupCaller": "/usr/local/bin/pileupCaller", "vcf2eigenstrat": "/usr/local/bin/vcf2eigenstrat", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequencetools.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/sequencetools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequencetools:1.5.2--hec16e2b_1
+$ shpc install quay.io/biocontainers/sequencetools:1.5.3--hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequencetools/1.5.2--hec16e2b_1
-$ module help quay.io/biocontainers/sequencetools/1.5.2--hec16e2b_1
+$ module load quay.io/biocontainers/sequencetools/1.5.3--hec16e2b_0
+$ module help quay.io/biocontainers/sequencetools/1.5.3--hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

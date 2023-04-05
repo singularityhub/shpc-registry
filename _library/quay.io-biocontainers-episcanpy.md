@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/episcanpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/episcanpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/episcanpy/container.yaml"
-updated_at: "2023-04-04 03:04:15.476448"
+updated_at: "2023-04-05 02:54:37.769451"
 latest: "0.3.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/episcanpy"
 aliases:
