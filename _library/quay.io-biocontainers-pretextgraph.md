@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pretextgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextgraph/container.yaml"
-updated_at: "2023-04-05 02:37:11.332428"
+updated_at: "2023-04-06 02:46:20.167400"
 latest: "0.0.6--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/pretextgraph"
 aliases:

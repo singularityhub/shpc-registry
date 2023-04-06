@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msisensor-pro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msisensor-pro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msisensor-pro/container.yaml"
-updated_at: "2023-04-05 02:59:59.821972"
-latest: "1.2.0--ha04fe3b_4"
+updated_at: "2023-04-06 03:10:15.091901"
+latest: "1.2.0--h6b7c446_5"
 container_url: "https://biocontainers.pro/tools/msisensor-pro"
 aliases:
  - "msisensor-pro"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "v1.2.0--hfc31af2_0"
  - "1.2.0--ha04fe3b_4"
+ - "1.2.0--h6b7c446_5"
 description: "shpc-registry automated BioContainers addition for msisensor-pro"
-config: {"url": "https://biocontainers.pro/tools/msisensor-pro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msisensor-pro", "latest": {"1.2.0--ha04fe3b_4": "sha256:9499c1a8c58ae0ab30c37a51d36a4d795a2093425e1ad671d0ce0d33723940b7"}, "tags": {"v1.2.0--hfc31af2_0": "sha256:7a73de995ab598c1819d5476f7450ad0c311d5235651a6466c445d74338d230e", "1.2.0--ha04fe3b_4": "sha256:9499c1a8c58ae0ab30c37a51d36a4d795a2093425e1ad671d0ce0d33723940b7"}, "docker": "quay.io/biocontainers/msisensor-pro", "aliases": {"msisensor-pro": "/usr/local/bin/msisensor-pro", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/msisensor-pro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msisensor-pro", "latest": {"1.2.0--h6b7c446_5": "sha256:0eee22d164943f85240465d8fa7b2efb1131ba1a416852436210e9caab6ca1db"}, "tags": {"v1.2.0--hfc31af2_0": "sha256:7a73de995ab598c1819d5476f7450ad0c311d5235651a6466c445d74338d230e", "1.2.0--ha04fe3b_4": "sha256:9499c1a8c58ae0ab30c37a51d36a4d795a2093425e1ad671d0ce0d33723940b7", "1.2.0--h6b7c446_5": "sha256:0eee22d164943f85240465d8fa7b2efb1131ba1a416852436210e9caab6ca1db"}, "docker": "quay.io/biocontainers/msisensor-pro", "aliases": {"msisensor-pro": "/usr/local/bin/msisensor-pro", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msisensor-pro.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/msisensor-pro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msisensor-pro:1.2.0--ha04fe3b_4
+$ shpc install quay.io/biocontainers/msisensor-pro:1.2.0--h6b7c446_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msisensor-pro/1.2.0--ha04fe3b_4
-$ module help quay.io/biocontainers/msisensor-pro/1.2.0--ha04fe3b_4
+$ module load quay.io/biocontainers/msisensor-pro/1.2.0--h6b7c446_5
+$ module help quay.io/biocontainers/msisensor-pro/1.2.0--h6b7c446_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

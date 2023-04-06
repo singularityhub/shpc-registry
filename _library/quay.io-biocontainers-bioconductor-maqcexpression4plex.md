@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maqcexpression4plex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maqcexpression4plex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maqcexpression4plex/container.yaml"
-updated_at: "2023-04-05 02:29:34.193877"
+updated_at: "2023-04-06 02:38:20.714210"
 latest: "1.41.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maqcexpression4plex"
 

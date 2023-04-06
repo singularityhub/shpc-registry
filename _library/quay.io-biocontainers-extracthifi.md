@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/extracthifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extracthifi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extracthifi/container.yaml"
-updated_at: "2023-04-05 02:38:49.045454"
-latest: "1.0.0--0"
+updated_at: "2023-04-06 02:48:03.223605"
+latest: "1.0.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/extracthifi"
 aliases:
  - "extracthifi"
 versions:
  - "1.0.0--0"
+ - "1.0.0--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for extracthifi"
-config: {"url": "https://biocontainers.pro/tools/extracthifi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extracthifi", "latest": {"1.0.0--0": "sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa"}, "tags": {"1.0.0--0": "sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa"}, "docker": "quay.io/biocontainers/extracthifi", "aliases": {"extracthifi": "/usr/local/bin/extracthifi"}}
+config: {"url": "https://biocontainers.pro/tools/extracthifi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extracthifi", "latest": {"1.0.0--h9ee0642_1": "sha256:9aaf86402fe56992af469292f7694e5fe4584283a64df57b4d565da92ad843c6"}, "tags": {"1.0.0--0": "sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa", "1.0.0--h9ee0642_1": "sha256:9aaf86402fe56992af469292f7694e5fe4584283a64df57b4d565da92ad843c6"}, "docker": "quay.io/biocontainers/extracthifi", "aliases": {"extracthifi": "/usr/local/bin/extracthifi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extracthifi.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/extracthifi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/extracthifi:1.0.0--0
+$ shpc install quay.io/biocontainers/extracthifi:1.0.0--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/extracthifi/1.0.0--0
-$ module help quay.io/biocontainers/extracthifi/1.0.0--0
+$ module load quay.io/biocontainers/extracthifi/1.0.0--h9ee0642_1
+$ module help quay.io/biocontainers/extracthifi/1.0.0--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

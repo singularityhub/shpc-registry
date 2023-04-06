@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vibrant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vibrant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vibrant/container.yaml"
-updated_at: "2023-04-05 03:05:33.750747"
-latest: "1.2.1--hdfd78af_2"
+updated_at: "2023-04-06 03:16:00.838688"
+latest: "1.2.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/vibrant"
 aliases:
  - "VIBRANT_annotation.py"
@@ -25,8 +25,9 @@ aliases:
  - "esl-alirev"
 versions:
  - "1.2.1--hdfd78af_2"
+ - "1.2.1--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for vibrant"
-config: {"url": "https://biocontainers.pro/tools/vibrant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vibrant", "latest": {"1.2.1--hdfd78af_2": "sha256:12d656f306c195b53ef653dd42c2d3558abdb835710112840d62d7c25aa62530"}, "tags": {"1.2.1--hdfd78af_2": "sha256:12d656f306c195b53ef653dd42c2d3558abdb835710112840d62d7c25aa62530"}, "docker": "quay.io/biocontainers/vibrant", "aliases": {"VIBRANT_annotation.py": "/usr/local/bin/VIBRANT_annotation.py", "VIBRANT_extract_nucleotide.py": "/usr/local/bin/VIBRANT_extract_nucleotide.py", "VIBRANT_extract_protein.py": "/usr/local/bin/VIBRANT_extract_protein.py", "VIBRANT_run.py": "/usr/local/bin/VIBRANT_run.py", "download-db.sh": "/usr/local/bin/download-db.sh", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev"}}
+config: {"url": "https://biocontainers.pro/tools/vibrant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vibrant", "latest": {"1.2.1--hdfd78af_4": "sha256:79a3b6eb49d7ded054d8d65e2a7d28c810b2edf6f742437cb697c9484367b6d4"}, "tags": {"1.2.1--hdfd78af_2": "sha256:12d656f306c195b53ef653dd42c2d3558abdb835710112840d62d7c25aa62530", "1.2.1--hdfd78af_4": "sha256:79a3b6eb49d7ded054d8d65e2a7d28c810b2edf6f742437cb697c9484367b6d4"}, "docker": "quay.io/biocontainers/vibrant", "aliases": {"VIBRANT_annotation.py": "/usr/local/bin/VIBRANT_annotation.py", "VIBRANT_extract_nucleotide.py": "/usr/local/bin/VIBRANT_extract_nucleotide.py", "VIBRANT_extract_protein.py": "/usr/local/bin/VIBRANT_extract_protein.py", "VIBRANT_run.py": "/usr/local/bin/VIBRANT_run.py", "download-db.sh": "/usr/local/bin/download-db.sh", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vibrant.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/vibrant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vibrant:1.2.1--hdfd78af_2
+$ shpc install quay.io/biocontainers/vibrant:1.2.1--hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vibrant/1.2.1--hdfd78af_2
-$ module help quay.io/biocontainers/vibrant/1.2.1--hdfd78af_2
+$ module load quay.io/biocontainers/vibrant/1.2.1--hdfd78af_4
+$ module help quay.io/biocontainers/vibrant/1.2.1--hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/matam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matam/container.yaml"
-updated_at: "2023-04-05 02:23:00.335286"
-latest: "1.6.0--hd03093a_3"
+updated_at: "2023-04-06 02:31:24.703615"
+latest: "1.6.1--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/matam"
 aliases:
  - "AbundanceStats"
@@ -45,8 +45,9 @@ aliases:
  - "ktImportFCP"
 versions:
  - "1.6.0--hd03093a_3"
+ - "1.6.1--hd03093a_0"
 description: "shpc-registry automated BioContainers addition for matam"
-config: {"url": "https://biocontainers.pro/tools/matam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for matam", "latest": {"1.6.0--hd03093a_3": "sha256:4b67c13e4fb04747c427b8fd42f44cf886f9f8e0ed87a715b79ed3c40476e367"}, "tags": {"1.6.0--hd03093a_3": "sha256:4b67c13e4fb04747c427b8fd42f44cf886f9f8e0ed87a715b79ed3c40476e367"}, "docker": "quay.io/biocontainers/matam", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "hmmgs": "/usr/local/bin/hmmgs", "index_default_ssu_rrna_db.py": "/usr/local/bin/index_default_ssu_rrna_db.py", "indexdb_rna": "/usr/local/bin/indexdb_rna", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "matam_assembly.py": "/usr/local/bin/matam_assembly.py", "matam_compare_samples.py": "/usr/local/bin/matam_compare_samples.py", "matam_db_preprocessing.py": "/usr/local/bin/matam_db_preprocessing.py", "merge-paired-reads.sh": "/usr/local/bin/merge-paired-reads.sh", "sga": "/usr/local/bin/sga", "sga-astat.py": "/usr/local/bin/sga-astat.py", "sga-bam2de.pl": "/usr/local/bin/sga-bam2de.pl", "sga-mergeDriver.pl": "/usr/local/bin/sga-mergeDriver.pl", "sortmerna": "/usr/local/bin/sortmerna", "unmerge-paired-reads.sh": "/usr/local/bin/unmerge-paired-reads.sh", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
+config: {"url": "https://biocontainers.pro/tools/matam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for matam", "latest": {"1.6.1--hd03093a_0": "sha256:d8369f9a38449aa4a51ccd1770bb537144622b350bd3b310af06fe70ac3e0b80"}, "tags": {"1.6.0--hd03093a_3": "sha256:4b67c13e4fb04747c427b8fd42f44cf886f9f8e0ed87a715b79ed3c40476e367", "1.6.1--hd03093a_0": "sha256:d8369f9a38449aa4a51ccd1770bb537144622b350bd3b310af06fe70ac3e0b80"}, "docker": "quay.io/biocontainers/matam", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "hmmgs": "/usr/local/bin/hmmgs", "index_default_ssu_rrna_db.py": "/usr/local/bin/index_default_ssu_rrna_db.py", "indexdb_rna": "/usr/local/bin/indexdb_rna", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "matam_assembly.py": "/usr/local/bin/matam_assembly.py", "matam_compare_samples.py": "/usr/local/bin/matam_compare_samples.py", "matam_db_preprocessing.py": "/usr/local/bin/matam_db_preprocessing.py", "merge-paired-reads.sh": "/usr/local/bin/merge-paired-reads.sh", "sga": "/usr/local/bin/sga", "sga-astat.py": "/usr/local/bin/sga-astat.py", "sga-bam2de.pl": "/usr/local/bin/sga-bam2de.pl", "sga-mergeDriver.pl": "/usr/local/bin/sga-mergeDriver.pl", "sortmerna": "/usr/local/bin/sortmerna", "unmerge-paired-reads.sh": "/usr/local/bin/unmerge-paired-reads.sh", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/matam.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/matam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/matam:1.6.0--hd03093a_3
+$ shpc install quay.io/biocontainers/matam:1.6.1--hd03093a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/matam/1.6.0--hd03093a_3
-$ module help quay.io/biocontainers/matam/1.6.0--hd03093a_3
+$ module load quay.io/biocontainers/matam/1.6.1--hd03093a_0
+$ module help quay.io/biocontainers/matam/1.6.1--hd03093a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
