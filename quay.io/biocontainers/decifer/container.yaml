@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/decifer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for decifer
 latest:
-  2.1.3--py310h243b37b_0: sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a
+  2.1.4--py311hfed2083_0: sha256:24cd68c7f7b693a1fd1dd7720ddfa6da4fbb5096b21940a40280f2f4d80e28e0
 tags:
   2.1.3--py310h243b37b_0: sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a
+  2.1.4--py311hfed2083_0: sha256:24cd68c7f7b693a1fd1dd7720ddfa6da4fbb5096b21940a40280f2f4d80e28e0
 docker: quay.io/biocontainers/decifer
 aliases:
   decifer: /usr/local/bin/decifer

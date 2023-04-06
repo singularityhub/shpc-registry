@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hera
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hera
 latest:
-  1.1--he0d949c_8: sha256:ade80529a22e864eb607eb1edb305ba8b2b6bc59ffc8ae1be05ac459769fdc92
+  1.1--hb5cc67a_9: sha256:22dc7d9e66398925dfa6644f5a54c7646f3ae32d088c2cf7cd5eb047d16cff6f
 tags:
   1.1--he0d949c_8: sha256:ade80529a22e864eb607eb1edb305ba8b2b6bc59ffc8ae1be05ac459769fdc92
+  1.1--hb5cc67a_9: sha256:22dc7d9e66398925dfa6644f5a54c7646f3ae32d088c2cf7cd5eb047d16cff6f
 docker: quay.io/biocontainers/hera
 aliases:
   hera: /usr/local/bin/hera
