@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabinkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabinkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabinkit/container.yaml"
-updated_at: "2023-04-06 02:36:14.384812"
+updated_at: "2023-04-07 02:31:58.183967"
 latest: "0.2.2--r42hbd632db_5"
 container_url: "https://biocontainers.pro/tools/metabinkit"
 aliases:

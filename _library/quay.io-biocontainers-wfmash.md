@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wfmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wfmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wfmash/container.yaml"
-updated_at: "2023-04-06 02:49:14.990040"
-latest: "0.10.2--hfdddef0_0"
+updated_at: "2023-04-07 02:53:04.809336"
+latest: "0.10.2--h71f629c_1"
 container_url: "https://biocontainers.pro/tools/wfmash"
 aliases:
  - "wfmash"
@@ -18,8 +18,9 @@ versions:
  - "0.10.0--hfdddef0_2"
  - "0.10.1--hfdddef0_0"
  - "0.10.2--hfdddef0_0"
+ - "0.10.2--h71f629c_1"
 description: "shpc-registry automated BioContainers addition for wfmash"
-config: {"url": "https://biocontainers.pro/tools/wfmash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wfmash", "latest": {"0.10.2--hfdddef0_0": "sha256:6a45ccf742075051599b8d15ad26e10b054504ab3cc70559d8d9a01d623be415"}, "tags": {"0.9.1--hfdddef0_3": "sha256:a4d74aac03fac24d65c01df40db6018830824f22ed0e1a3645f6ddcbb0186fbc", "0.10.0--hfdddef0_0": "sha256:835276ccd4754e135c64c509f909077fd9d29dc32e9e0d04566b23587abee4c2", "0.10.0--hfdddef0_2": "sha256:c1ba386d30c832d896605d3903975a986993d7d3d8e121e2d5257e7cc3b35054", "0.10.1--hfdddef0_0": "sha256:14e8ad45827a0cff4f7cfdf259d8cf94551d30ce834b2c55a918d0acebca2baf", "0.10.2--hfdddef0_0": "sha256:6a45ccf742075051599b8d15ad26e10b054504ab3cc70559d8d9a01d623be415"}, "docker": "quay.io/biocontainers/wfmash", "aliases": {"wfmash": "/usr/local/bin/wfmash", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/wfmash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wfmash", "latest": {"0.10.2--h71f629c_1": "sha256:7c9bd0a8cbf23716bae907cbb134197712915dc32c6e95cf5284dbace87faf80"}, "tags": {"0.9.1--hfdddef0_3": "sha256:a4d74aac03fac24d65c01df40db6018830824f22ed0e1a3645f6ddcbb0186fbc", "0.10.0--hfdddef0_0": "sha256:835276ccd4754e135c64c509f909077fd9d29dc32e9e0d04566b23587abee4c2", "0.10.0--hfdddef0_2": "sha256:c1ba386d30c832d896605d3903975a986993d7d3d8e121e2d5257e7cc3b35054", "0.10.1--hfdddef0_0": "sha256:14e8ad45827a0cff4f7cfdf259d8cf94551d30ce834b2c55a918d0acebca2baf", "0.10.2--hfdddef0_0": "sha256:6a45ccf742075051599b8d15ad26e10b054504ab3cc70559d8d9a01d623be415", "0.10.2--h71f629c_1": "sha256:7c9bd0a8cbf23716bae907cbb134197712915dc32c6e95cf5284dbace87faf80"}, "docker": "quay.io/biocontainers/wfmash", "aliases": {"wfmash": "/usr/local/bin/wfmash", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wfmash.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/wfmash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wfmash:0.10.2--hfdddef0_0
+$ shpc install quay.io/biocontainers/wfmash:0.10.2--h71f629c_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wfmash/0.10.2--hfdddef0_0
-$ module help quay.io/biocontainers/wfmash/0.10.2--hfdddef0_0
+$ module load quay.io/biocontainers/wfmash/0.10.2--h71f629c_1
+$ module help quay.io/biocontainers/wfmash/0.10.2--h71f629c_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

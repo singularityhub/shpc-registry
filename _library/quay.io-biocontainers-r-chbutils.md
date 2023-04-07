@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-chbutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chbutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chbutils/container.yaml"
-updated_at: "2023-04-06 03:19:08.542431"
+updated_at: "2023-04-07 03:09:15.581175"
 latest: "0.1_2017_10_26--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-chbutils"
 aliases:

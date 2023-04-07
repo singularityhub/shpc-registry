@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-globaltest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-globaltest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-globaltest/container.yaml"
-updated_at: "2023-04-06 03:14:09.102530"
+updated_at: "2023-04-07 03:11:54.256452"
 latest: "5.52.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-globaltest"
 

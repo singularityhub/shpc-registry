@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plant_tribes_gene_family_classifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plant_tribes_gene_family_classifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_gene_family_classifier/container.yaml"
-updated_at: "2023-04-06 02:53:03.965055"
+updated_at: "2023-04-07 02:35:18.878711"
 latest: "1.0.4--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/plant_tribes_gene_family_classifier"
 aliases:

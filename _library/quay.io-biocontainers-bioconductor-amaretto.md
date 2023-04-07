@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-amaretto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-amaretto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-amaretto/container.yaml"
-updated_at: "2023-04-06 03:09:31.111974"
+updated_at: "2023-04-07 02:59:04.038422"
 latest: "1.13.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-amaretto"
 aliases:

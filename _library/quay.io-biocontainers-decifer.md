@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/decifer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decifer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decifer/container.yaml"
-updated_at: "2023-04-06 02:45:57.760969"
-latest: "2.1.3--py310h243b37b_0"
+updated_at: "2023-04-07 03:06:15.374911"
+latest: "2.1.4--py311hfed2083_0"
 container_url: "https://biocontainers.pro/tools/decifer"
 aliases:
  - "decifer"
@@ -28,8 +28,9 @@ aliases:
  - "opj_compress"
 versions:
  - "2.1.3--py310h243b37b_0"
+ - "2.1.4--py311hfed2083_0"
 description: "shpc-registry automated BioContainers addition for decifer"
-config: {"url": "https://biocontainers.pro/tools/decifer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for decifer", "latest": {"2.1.3--py310h243b37b_0": "sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a"}, "tags": {"2.1.3--py310h243b37b_0": "sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a"}, "docker": "quay.io/biocontainers/decifer", "aliases": {"decifer": "/usr/local/bin/decifer", "dimacs-solver": "/usr/local/bin/dimacs-solver", "dimacs-to-lgf": "/usr/local/bin/dimacs-to-lgf", "fitbeta": "/usr/local/bin/fitbeta", "generatestatetrees": "/usr/local/bin/generatestatetrees", "lemon-0.x-to-1.x.sh": "/usr/local/bin/lemon-0.x-to-1.x.sh", "lgf-gen": "/usr/local/bin/lgf-gen", "mergestatetrees": "/usr/local/bin/mergestatetrees", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "glpsol": "/usr/local/bin/glpsol", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress"}}
+config: {"url": "https://biocontainers.pro/tools/decifer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for decifer", "latest": {"2.1.4--py311hfed2083_0": "sha256:24cd68c7f7b693a1fd1dd7720ddfa6da4fbb5096b21940a40280f2f4d80e28e0"}, "tags": {"2.1.3--py310h243b37b_0": "sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a", "2.1.4--py311hfed2083_0": "sha256:24cd68c7f7b693a1fd1dd7720ddfa6da4fbb5096b21940a40280f2f4d80e28e0"}, "docker": "quay.io/biocontainers/decifer", "aliases": {"decifer": "/usr/local/bin/decifer", "dimacs-solver": "/usr/local/bin/dimacs-solver", "dimacs-to-lgf": "/usr/local/bin/dimacs-to-lgf", "fitbeta": "/usr/local/bin/fitbeta", "generatestatetrees": "/usr/local/bin/generatestatetrees", "lemon-0.x-to-1.x.sh": "/usr/local/bin/lemon-0.x-to-1.x.sh", "lgf-gen": "/usr/local/bin/lgf-gen", "mergestatetrees": "/usr/local/bin/mergestatetrees", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "glpsol": "/usr/local/bin/glpsol", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/decifer.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/decifer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/decifer:2.1.3--py310h243b37b_0
+$ shpc install quay.io/biocontainers/decifer:2.1.4--py311hfed2083_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/decifer/2.1.3--py310h243b37b_0
-$ module help quay.io/biocontainers/decifer/2.1.3--py310h243b37b_0
+$ module load quay.io/biocontainers/decifer/2.1.4--py311hfed2083_0
+$ module help quay.io/biocontainers/decifer/2.1.4--py311hfed2083_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

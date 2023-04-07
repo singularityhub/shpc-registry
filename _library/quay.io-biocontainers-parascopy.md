@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/parascopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parascopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parascopy/container.yaml"
-updated_at: "2023-04-06 02:42:08.346231"
-latest: "1.9.7--py39h6519bef_0"
+updated_at: "2023-04-07 02:40:49.768420"
+latest: "1.11.0--py37h7321523_0"
 container_url: "https://biocontainers.pro/tools/parascopy"
 aliases:
  - "_parascopy_freebayes"
@@ -23,8 +23,11 @@ aliases:
 versions:
  - "1.9.1--py39heba0655_0"
  - "1.9.7--py39h6519bef_0"
+ - "1.11.0--py37h7321523_0"
+ - "1.10.6--py39h002a086_0"
+ - "1.9.7--py39h002a086_1"
 description: "shpc-registry automated BioContainers addition for parascopy"
-config: {"url": "https://biocontainers.pro/tools/parascopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parascopy", "latest": {"1.9.7--py39h6519bef_0": "sha256:370fd811e849293ffb438c84d1fd0bc80acb926fdd1cd2bd0d6f7e089020a808"}, "tags": {"1.9.1--py39heba0655_0": "sha256:510ea5bec833767af1c344ca772bae2d9bab06a4cf6c260cec1ebf528b5887c3", "1.9.7--py39h6519bef_0": "sha256:370fd811e849293ffb438c84d1fd0bc80acb926fdd1cd2bd0d6f7e089020a808"}, "docker": "quay.io/biocontainers/parascopy", "aliases": {"_parascopy_freebayes": "/usr/local/bin/_parascopy_freebayes", "parascopy": "/usr/local/bin/parascopy", "tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.9": "/usr/local/bin/f2py3.9", "ace2sam": "/usr/local/bin/ace2sam"}}
+config: {"url": "https://biocontainers.pro/tools/parascopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parascopy", "latest": {"1.11.0--py37h7321523_0": "sha256:777f728dae0454ad9d726060d1a280d9fdb38079196f017bf699c2ba1deb4f47"}, "tags": {"1.9.1--py39heba0655_0": "sha256:510ea5bec833767af1c344ca772bae2d9bab06a4cf6c260cec1ebf528b5887c3", "1.9.7--py39h6519bef_0": "sha256:370fd811e849293ffb438c84d1fd0bc80acb926fdd1cd2bd0d6f7e089020a808", "1.11.0--py37h7321523_0": "sha256:777f728dae0454ad9d726060d1a280d9fdb38079196f017bf699c2ba1deb4f47", "1.10.6--py39h002a086_0": "sha256:a69109d64a78ecff71d45f6855b6135893c940e0590a0ff8e69c50123d1c199b", "1.9.7--py39h002a086_1": "sha256:b98cacd798cb996302663d5035a9eb1ac297d4a0a9a3f2f91991b6c1f2a93db5"}, "docker": "quay.io/biocontainers/parascopy", "aliases": {"_parascopy_freebayes": "/usr/local/bin/_parascopy_freebayes", "parascopy": "/usr/local/bin/parascopy", "tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.9": "/usr/local/bin/f2py3.9", "ace2sam": "/usr/local/bin/ace2sam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parascopy.
@@ -39,7 +42,7 @@ $ shpc install quay.io/biocontainers/parascopy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parascopy:1.9.7--py39h6519bef_0
+$ shpc install quay.io/biocontainers/parascopy:1.11.0--py37h7321523_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parascopy/1.9.7--py39h6519bef_0
-$ module help quay.io/biocontainers/parascopy/1.9.7--py39h6519bef_0
+$ module load quay.io/biocontainers/parascopy/1.11.0--py37h7321523_0
+$ module help quay.io/biocontainers/parascopy/1.11.0--py37h7321523_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

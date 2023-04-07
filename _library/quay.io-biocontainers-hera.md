@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hera/container.yaml"
-updated_at: "2023-04-06 03:01:49.783129"
-latest: "1.1--he0d949c_8"
+updated_at: "2023-04-07 02:32:41.626466"
+latest: "1.1--hb5cc67a_9"
 container_url: "https://biocontainers.pro/tools/hera"
 aliases:
  - "hera"
@@ -22,8 +22,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.1--he0d949c_8"
+ - "1.1--hb5cc67a_9"
 description: "shpc-registry automated BioContainers addition for hera"
-config: {"url": "https://biocontainers.pro/tools/hera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hera", "latest": {"1.1--he0d949c_8": "sha256:ade80529a22e864eb607eb1edb305ba8b2b6bc59ffc8ae1be05ac459769fdc92"}, "tags": {"1.1--he0d949c_8": "sha256:ade80529a22e864eb607eb1edb305ba8b2b6bc59ffc8ae1be05ac459769fdc92"}, "docker": "quay.io/biocontainers/hera", "aliases": {"hera": "/usr/local/bin/hera", "hera_build": "/usr/local/bin/hera_build", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/hera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hera", "latest": {"1.1--hb5cc67a_9": "sha256:22dc7d9e66398925dfa6644f5a54c7646f3ae32d088c2cf7cd5eb047d16cff6f"}, "tags": {"1.1--he0d949c_8": "sha256:ade80529a22e864eb607eb1edb305ba8b2b6bc59ffc8ae1be05ac459769fdc92", "1.1--hb5cc67a_9": "sha256:22dc7d9e66398925dfa6644f5a54c7646f3ae32d088c2cf7cd5eb047d16cff6f"}, "docker": "quay.io/biocontainers/hera", "aliases": {"hera": "/usr/local/bin/hera", "hera_build": "/usr/local/bin/hera_build", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hera.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/hera
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hera:1.1--he0d949c_8
+$ shpc install quay.io/biocontainers/hera:1.1--hb5cc67a_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hera/1.1--he0d949c_8
-$ module help quay.io/biocontainers/hera/1.1--he0d949c_8
+$ module load quay.io/biocontainers/hera/1.1--hb5cc67a_9
+$ module help quay.io/biocontainers/hera/1.1--hb5cc67a_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

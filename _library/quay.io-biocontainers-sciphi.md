@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sciphi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sciphi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sciphi/container.yaml"
-updated_at: "2023-04-06 02:34:28.164689"
+updated_at: "2023-04-07 03:12:45.385478"
 latest: "0.1.7--h7ff8a90_2"
 container_url: "https://biocontainers.pro/tools/sciphi"
 aliases:
