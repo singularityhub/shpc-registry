@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/imods
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for imods
 latest:
-  1.0.4--h9ee0642_2: sha256:8d80e4d866d798c252838089bde35ec1d105e2bc03aca731802f0cc64cb15718
+  1.0.4--h9ee0642_3: sha256:30a1caf3c275295807d3524e954733b1bc46dcc247fd698a8033f3be817c90fb
 tags:
   1.0.4--h9ee0642_2: sha256:8d80e4d866d798c252838089bde35ec1d105e2bc03aca731802f0cc64cb15718
+  1.0.4--h9ee0642_3: sha256:30a1caf3c275295807d3524e954733b1bc46dcc247fd698a8033f3be817c90fb
 docker: quay.io/biocontainers/imods
 aliases:
   imc: /usr/local/bin/imc
