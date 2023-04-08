@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sexdeterrmine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sexdeterrmine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sexdeterrmine/container.yaml"
-updated_at: "2023-04-07 02:50:48.098369"
+updated_at: "2023-04-08 02:47:48.919190"
 latest: "1.1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sexdeterrmine"
 aliases:

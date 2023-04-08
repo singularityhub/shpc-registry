@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hmmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hmmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hmmer/container.yaml"
-updated_at: "2023-04-07 03:17:08.405302"
+updated_at: "2023-04-08 03:14:12.248542"
 latest: "3.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hmmer"
 aliases:

@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/tensorflow/container.yaml"
-updated_at: "2023-04-07 03:16:31.231650"
+updated_at: "2023-04-08 03:13:35.127547"
 latest: "23.02-tf2-py3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:tensorflow/tags"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nedrex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nedrex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nedrex/container.yaml"
-updated_at: "2023-04-07 03:02:24.295241"
+updated_at: "2023-04-08 02:59:27.706713"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nedrex"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-panvizgenerator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panvizgenerator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panvizgenerator/container.yaml"
-updated_at: "2023-04-07 03:15:15.672932"
+updated_at: "2023-04-08 03:12:19.348736"
 latest: "1.22.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-panvizgenerator"
 

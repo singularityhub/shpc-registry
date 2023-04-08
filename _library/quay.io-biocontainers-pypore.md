@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypore/container.yaml"
-updated_at: "2023-04-07 03:01:48.717060"
+updated_at: "2023-04-08 02:58:52.063534"
 latest: "0.0.6.dev20180702231556--py27h4329609_5"
 container_url: "https://biocontainers.pro/tools/pypore"
 aliases:

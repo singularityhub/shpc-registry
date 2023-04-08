@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trnanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trnanalysis/container.yaml"
-updated_at: "2023-04-07 02:33:31.108215"
+updated_at: "2023-04-08 02:30:29.663151"
 latest: "0.1.10--py_1"
 container_url: "https://biocontainers.pro/tools/trnanalysis"
 aliases:

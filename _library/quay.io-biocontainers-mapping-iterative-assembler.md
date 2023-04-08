@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapping-iterative-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapping-iterative-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapping-iterative-assembler/container.yaml"
-updated_at: "2023-04-07 02:33:53.564500"
+updated_at: "2023-04-08 02:30:52.164868"
 latest: "1.0--h87f3376_3"
 container_url: "https://biocontainers.pro/tools/mapping-iterative-assembler"
 aliases:

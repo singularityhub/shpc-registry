@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hulk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hulk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hulk/container.yaml"
-updated_at: "2023-04-07 02:48:04.775599"
+updated_at: "2023-04-08 02:45:04.852093"
 latest: "1.0.0--h375a9b1_0"
 container_url: "https://biocontainers.pro/tools/hulk"
 aliases:

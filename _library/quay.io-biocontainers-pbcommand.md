@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbcommand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbcommand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbcommand/container.yaml"
-updated_at: "2023-04-07 02:38:46.142577"
+updated_at: "2023-04-08 02:35:44.624623"
 latest: "2.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/pbcommand"
 aliases:

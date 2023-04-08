@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextalign/container.yaml"
-updated_at: "2023-04-07 03:14:00.989074"
+updated_at: "2023-04-08 03:11:04.797014"
 latest: "2.13.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/nextalign"
 aliases:

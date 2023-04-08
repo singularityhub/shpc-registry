@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/imods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imods/container.yaml"
-updated_at: "2023-04-07 02:44:14.402073"
-latest: "1.0.4--h9ee0642_2"
+updated_at: "2023-04-08 02:41:13.444431"
+latest: "1.0.4--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/imods"
 aliases:
  - "imc"
@@ -14,8 +14,9 @@ aliases:
  - "imove"
 versions:
  - "1.0.4--h9ee0642_2"
+ - "1.0.4--h9ee0642_3"
 description: "singularity registry hpc automated addition for imods"
-config: {"url": "https://biocontainers.pro/tools/imods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for imods", "latest": {"1.0.4--h9ee0642_2": "sha256:8d80e4d866d798c252838089bde35ec1d105e2bc03aca731802f0cc64cb15718"}, "tags": {"1.0.4--h9ee0642_2": "sha256:8d80e4d866d798c252838089bde35ec1d105e2bc03aca731802f0cc64cb15718"}, "docker": "quay.io/biocontainers/imods", "aliases": {"imc": "/usr/local/bin/imc", "imode_gcc": "/usr/local/bin/imode_gcc", "imodview": "/usr/local/bin/imodview", "imove": "/usr/local/bin/imove"}}
+config: {"url": "https://biocontainers.pro/tools/imods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for imods", "latest": {"1.0.4--h9ee0642_3": "sha256:30a1caf3c275295807d3524e954733b1bc46dcc247fd698a8033f3be817c90fb"}, "tags": {"1.0.4--h9ee0642_2": "sha256:8d80e4d866d798c252838089bde35ec1d105e2bc03aca731802f0cc64cb15718", "1.0.4--h9ee0642_3": "sha256:30a1caf3c275295807d3524e954733b1bc46dcc247fd698a8033f3be817c90fb"}, "docker": "quay.io/biocontainers/imods", "aliases": {"imc": "/usr/local/bin/imc", "imode_gcc": "/usr/local/bin/imode_gcc", "imodview": "/usr/local/bin/imodview", "imove": "/usr/local/bin/imove"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/imods.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/imods
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/imods:1.0.4--h9ee0642_2
+$ shpc install quay.io/biocontainers/imods:1.0.4--h9ee0642_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/imods/1.0.4--h9ee0642_2
-$ module help quay.io/biocontainers/imods/1.0.4--h9ee0642_2
+$ module load quay.io/biocontainers/imods/1.0.4--h9ee0642_3
+$ module help quay.io/biocontainers/imods/1.0.4--h9ee0642_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

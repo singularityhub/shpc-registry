@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/slepc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/slepc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/slepc/container.yaml"
-updated_at: "2023-04-07 03:16:49.343861"
+updated_at: "2023-04-08 03:13:53.236167"
 latest: "3.18.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/slepc"
 

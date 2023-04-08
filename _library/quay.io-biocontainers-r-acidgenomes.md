@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidgenomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidgenomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidgenomes/container.yaml"
-updated_at: "2023-04-07 03:06:06.168897"
+updated_at: "2023-04-08 03:03:09.491313"
 latest: "0.4.8--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-acidgenomes"
 

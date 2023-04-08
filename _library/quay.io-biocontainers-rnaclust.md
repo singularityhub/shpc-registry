@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaclust/container.yaml"
-updated_at: "2023-04-07 03:11:56.099792"
+updated_at: "2023-04-08 03:09:00.123310"
 latest: "1.3--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/rnaclust"
 aliases:

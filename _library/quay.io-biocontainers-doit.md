@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/doit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/doit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/doit/container.yaml"
-updated_at: "2023-04-07 02:30:50.034191"
+updated_at: "2023-04-08 02:27:47.911557"
 latest: "0.29.0--py27_0"
 container_url: "https://biocontainers.pro/tools/doit"
 aliases:

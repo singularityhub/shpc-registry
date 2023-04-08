@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/matplotlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matplotlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matplotlib/container.yaml"
-updated_at: "2023-04-07 02:49:26.607719"
+updated_at: "2023-04-08 02:46:27.023460"
 latest: "3.5.1"
 container_url: "https://biocontainers.pro/tools/matplotlib"
 aliases:

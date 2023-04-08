@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slow5tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slow5tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slow5tools/container.yaml"
-updated_at: "2023-04-07 02:50:49.311788"
+updated_at: "2023-04-08 02:47:50.151184"
 latest: "0.6.0--h0326b38_2"
 container_url: "https://biocontainers.pro/tools/slow5tools"
 aliases:

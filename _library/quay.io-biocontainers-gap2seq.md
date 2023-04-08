@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gap2seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gap2seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gap2seq/container.yaml"
-updated_at: "2023-04-07 02:30:03.543042"
+updated_at: "2023-04-08 02:27:01.295492"
 latest: "3.1--py39h6c8c9e3_3"
 container_url: "https://biocontainers.pro/tools/gap2seq"
 aliases:
