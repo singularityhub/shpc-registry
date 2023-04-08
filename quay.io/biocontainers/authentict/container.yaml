@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/authentict
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for authentict
 latest:
-  1.0.0--py311h9f5acd7_1: sha256:f3ade9b8864db384ff402d9654fc3a5bb7d70cb1ba7d49d1d42c2aee432ce878
+  1.0.1--py311h9f5acd7_0: sha256:546ee3b3d012a38e1abd6d4719e4fea199e410d728adc67fcb618b1f7bbf73b1
 tags:
   1.0.0--py311h9f5acd7_1: sha256:f3ade9b8864db384ff402d9654fc3a5bb7d70cb1ba7d49d1d42c2aee432ce878
+  1.0.1--py311h9f5acd7_0: sha256:546ee3b3d012a38e1abd6d4719e4fea199e410d728adc67fcb618b1f7bbf73b1
 docker: quay.io/biocontainers/authentict
 aliases:
   AuthentiCT: /usr/local/bin/AuthentiCT
