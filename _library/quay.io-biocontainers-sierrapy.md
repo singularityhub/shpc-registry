@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sierrapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sierrapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sierrapy/container.yaml"
-updated_at: "2023-04-08 03:08:08.135357"
-latest: "0.4.1--pyh7cba7a3_0"
+updated_at: "2023-04-09 03:18:32.500178"
+latest: "0.4.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sierrapy"
 aliases:
  - "gql-cli"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.4.1--pyh7cba7a3_0"
+ - "0.4.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for sierrapy"
-config: {"url": "https://biocontainers.pro/tools/sierrapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sierrapy", "latest": {"0.4.1--pyh7cba7a3_0": "sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7"}, "tags": {"0.4.1--pyh7cba7a3_0": "sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7"}, "docker": "quay.io/biocontainers/sierrapy", "aliases": {"gql-cli": "/usr/local/bin/gql-cli", "sierrapy": "/usr/local/bin/sierrapy", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/sierrapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sierrapy", "latest": {"0.4.2--pyh7cba7a3_0": "sha256:07fa9d7022f728cd8150f77663e287143b131882237ea6c16cd345b95e7499ac"}, "tags": {"0.4.1--pyh7cba7a3_0": "sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7", "0.4.2--pyh7cba7a3_0": "sha256:07fa9d7022f728cd8150f77663e287143b131882237ea6c16cd345b95e7499ac"}, "docker": "quay.io/biocontainers/sierrapy", "aliases": {"gql-cli": "/usr/local/bin/gql-cli", "sierrapy": "/usr/local/bin/sierrapy", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sierrapy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/sierrapy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sierrapy:0.4.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/sierrapy:0.4.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sierrapy/0.4.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/sierrapy/0.4.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/sierrapy/0.4.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/sierrapy/0.4.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

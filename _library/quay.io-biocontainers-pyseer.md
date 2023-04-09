@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyseer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyseer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyseer/container.yaml"
-updated_at: "2023-04-08 03:02:54.079031"
+updated_at: "2023-04-09 03:12:40.337029"
 latest: "1.3.10--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/pyseer"
 aliases:

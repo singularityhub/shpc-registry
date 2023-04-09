@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scirpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scirpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scirpy/container.yaml"
-updated_at: "2023-04-08 03:07:06.655506"
-latest: "0.12.0--pyhdfd78af_0"
+updated_at: "2023-04-09 03:17:23.908766"
+latest: "0.12.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scirpy"
 aliases:
  - "airr-tools"
@@ -26,8 +26,9 @@ versions:
  - "0.10.1--pyhdfd78af_0"
  - "0.11.2--pyhdfd78af_0"
  - "0.12.0--pyhdfd78af_0"
+ - "0.12.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scirpy"
-config: {"url": "https://biocontainers.pro/tools/scirpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scirpy", "latest": {"0.12.0--pyhdfd78af_0": "sha256:bf6f5950938b32dc493ac33333bc80eceaa26ee8ada95b80e2c4664088f00e2e"}, "tags": {"0.9.1--pyhdfd78af_0": "sha256:b9c7892ee076733df38e6d66abacdce0a5900964a9391437cf5923d5afc89bd8", "0.11.1--pyhdfd78af_0": "sha256:111e7aa99a5e2acabfde209ea48930a61f2ff03545aaca3617d3e21c77bed890", "0.10.1--pyhdfd78af_0": "sha256:c151e600fbd6e13f091ac1664ab790c0c6ba01ebc07e2f2a136b558099d74c82", "0.11.2--pyhdfd78af_0": "sha256:d164e82da90a50a656cb1103d9fa39770ebd306cace80c65d827b1d086296943", "0.12.0--pyhdfd78af_0": "sha256:bf6f5950938b32dc493ac33333bc80eceaa26ee8ada95b80e2c4664088f00e2e"}, "docker": "quay.io/biocontainers/scirpy", "aliases": {"airr-tools": "/usr/local/bin/airr-tools", "dunamai": "/usr/local/bin/dunamai", "scanpy": "/usr/local/bin/scanpy", "igraph": "/usr/local/bin/igraph", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk"}}
+config: {"url": "https://biocontainers.pro/tools/scirpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scirpy", "latest": {"0.12.1--pyhdfd78af_0": "sha256:5d4ea23990e56f19a3e15e2598402fe02a2a3cffcb59fd2e277facd9e54b9e94"}, "tags": {"0.9.1--pyhdfd78af_0": "sha256:b9c7892ee076733df38e6d66abacdce0a5900964a9391437cf5923d5afc89bd8", "0.11.1--pyhdfd78af_0": "sha256:111e7aa99a5e2acabfde209ea48930a61f2ff03545aaca3617d3e21c77bed890", "0.10.1--pyhdfd78af_0": "sha256:c151e600fbd6e13f091ac1664ab790c0c6ba01ebc07e2f2a136b558099d74c82", "0.11.2--pyhdfd78af_0": "sha256:d164e82da90a50a656cb1103d9fa39770ebd306cace80c65d827b1d086296943", "0.12.0--pyhdfd78af_0": "sha256:bf6f5950938b32dc493ac33333bc80eceaa26ee8ada95b80e2c4664088f00e2e", "0.12.1--pyhdfd78af_0": "sha256:5d4ea23990e56f19a3e15e2598402fe02a2a3cffcb59fd2e277facd9e54b9e94"}, "docker": "quay.io/biocontainers/scirpy", "aliases": {"airr-tools": "/usr/local/bin/airr-tools", "dunamai": "/usr/local/bin/dunamai", "scanpy": "/usr/local/bin/scanpy", "igraph": "/usr/local/bin/igraph", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scirpy.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/scirpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scirpy:0.12.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scirpy:0.12.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scirpy/0.12.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/scirpy/0.12.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/scirpy/0.12.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/scirpy/0.12.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

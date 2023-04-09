@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bprmeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bprmeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bprmeth/container.yaml"
-updated_at: "2023-04-08 02:53:10.031955"
+updated_at: "2023-04-09 03:01:43.423813"
 latest: "1.24.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bprmeth"
 aliases:
