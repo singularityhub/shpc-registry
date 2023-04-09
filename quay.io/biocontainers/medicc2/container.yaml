@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/medicc2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for medicc2
 latest:
-  0.8.3--py39h67e14b5_0: sha256:8e7f2614d7cc5dab2dfc0a3f50e77f0cb1118ccf49bbad6f0475cf7994ae4218
+  0.9.1--py39h67e14b5_0: sha256:dc38684144fc08ad0243ce66a423c9113154ee40339146fca5bf9126e92ffe81
 tags:
   0.8.1--py39h67e14b5_0: sha256:8389cc73c5124a25a6131d2052c0702edfaf9bfffdf7b36ebeb817c54d4f717a
   0.8.1--py39h67e14b5_1: sha256:4e76c53bd60278bf922fea8f08f6523a11dff17efc18702af9042da3683ebc6c
   0.8.3--py39h67e14b5_0: sha256:8e7f2614d7cc5dab2dfc0a3f50e77f0cb1118ccf49bbad6f0475cf7994ae4218
+  0.9.1--py39h67e14b5_0: sha256:dc38684144fc08ad0243ce66a423c9113154ee40339146fca5bf9126e92ffe81
 docker: quay.io/biocontainers/medicc2
 aliases:
   farcompilestrings: /usr/local/bin/farcompilestrings
