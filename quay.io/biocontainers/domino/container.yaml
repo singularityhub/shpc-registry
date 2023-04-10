@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/domino
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for domino
 latest:
-  0.1.1--pyhdfd78af_0: sha256:0a1c230c4b90b5d9c4381b25d707fba8fad6e0cf652eaa3f32b57acc9d814288
+  1.0.0--pyhdfd78af_0: sha256:a51a6a2f901b6e4acfc86fa38035aa1e733b3dac031fc9bc86bf5b9dffcb2206
 tags:
   0.1.1--pyhdfd78af_0: sha256:0a1c230c4b90b5d9c4381b25d707fba8fad6e0cf652eaa3f32b57acc9d814288
+  1.0.0--pyhdfd78af_0: sha256:a51a6a2f901b6e4acfc86fa38035aa1e733b3dac031fc9bc86bf5b9dffcb2206
 docker: quay.io/biocontainers/domino
 aliases:
   community: /usr/local/bin/community
