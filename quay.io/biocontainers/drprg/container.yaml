@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/drprg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for drprg
+latest:
+  0.1.1--h1f4ba0c_0: sha256:78e5ae97a6661f5da1eb61090518f8fc01455f91b3541e8fd0d856e29d74f950
+tags:
+  0.1.1--h1f4ba0c_0: sha256:78e5ae97a6661f5da1eb61090518f8fc01455f91b3541e8fd0d856e29d74f950
+docker: quay.io/biocontainers/drprg
+aliases:
+  drprg: /usr/local/bin/drprg
+  make_prg: /usr/local/bin/make_prg
+  pandora: /usr/local/bin/pandora
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi
+  mafft-distance: /usr/local/bin/mafft-distance
+  mafft-einsi: /usr/local/bin/mafft-einsi
+  mafft-fftns: /usr/local/bin/mafft-fftns
+  mafft-fftnsi: /usr/local/bin/mafft-fftnsi
+  mafft-ginsi: /usr/local/bin/mafft-ginsi
+  mafft-homologs.rb: /usr/local/bin/mafft-homologs.rb
+  mafft-linsi: /usr/local/bin/mafft-linsi
+  mafft-nwns: /usr/local/bin/mafft-nwns
+  mafft-nwnsi: /usr/local/bin/mafft-nwnsi
+  mafft-profile: /usr/local/bin/mafft-profile
+  mafft-qinsi: /usr/local/bin/mafft-qinsi
+  mafft-xinsi: /usr/local/bin/mafft-xinsi
+  nwns: /usr/local/bin/nwns
+  nwnsi: /usr/local/bin/nwnsi
+  mafft: /usr/local/bin/mafft
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl

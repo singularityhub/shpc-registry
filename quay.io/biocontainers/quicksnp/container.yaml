@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/quicksnp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for quicksnp
+latest:
+  1.0.1--py311hdfd78af_0: sha256:167989617174b79d85cb8a4b7751b27b0d506a8bdf3bdc8acb10961118c343d0
+tags:
+  1.0.1--py311hdfd78af_0: sha256:167989617174b79d85cb8a4b7751b27b0d506a8bdf3bdc8acb10961118c343d0
+docker: quay.io/biocontainers/quicksnp
+aliases:
+  QuickSNP.py: /usr/local/bin/QuickSNP.py
+  h5delete: /usr/local/bin/h5delete
+  tjbench: /usr/local/bin/tjbench
+  aec: /usr/local/bin/aec
+  doesitcache: /usr/local/bin/doesitcache
+  ipython3: /usr/local/bin/ipython3
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  ipython: /usr/local/bin/ipython
+  natsort: /usr/local/bin/natsort
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  pygmentize: /usr/local/bin/pygmentize
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif

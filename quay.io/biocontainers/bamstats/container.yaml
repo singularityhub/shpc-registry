@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bamstats
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bamstats
+latest:
+  0.3.5--he881be0_0: sha256:179a9d7aad5efee29b749fa71d3d955f1d4aac5d1aec3a52ccb9b65fa34a6b91
+tags:
+  0.3.5--he881be0_0: sha256:179a9d7aad5efee29b749fa71d3d955f1d4aac5d1aec3a52ccb9b65fa34a6b91
+docker: quay.io/biocontainers/bamstats
+aliases:
+  bamstats: /usr/local/bin/bamstats

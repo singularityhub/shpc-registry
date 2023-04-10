@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/core-snp-filter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for core-snp-filter
+latest:
+  0.1.1--h87f3376_0: sha256:08196e3bb493450970e8cb9ef784d7298f8d583938eea7fa5cc62fbd3421343a
+tags:
+  0.1.1--h87f3376_0: sha256:08196e3bb493450970e8cb9ef784d7298f8d583938eea7fa5cc62fbd3421343a
+docker: quay.io/biocontainers/core-snp-filter
+aliases:
+  coresnpfilter: /usr/local/bin/coresnpfilter
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/milonga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for milonga
+latest:
+  1.0.1--hdfd78af_0: sha256:31429d69e7eb1ad062275898918ba50f4d3af087bd3c099b85c2823928ee70c4
+tags:
+  1.0.1--hdfd78af_0: sha256:31429d69e7eb1ad062275898918ba50f4d3af087bd3c099b85c2823928ee70c4
+docker: quay.io/biocontainers/milonga
+aliases:
+  NanoFilt: /usr/local/bin/NanoFilt
+  NanoStat: /usr/local/bin/NanoStat
+  TMalign: /usr/local/bin/TMalign
+  abricate: /usr/local/bin/abricate
+  abricate-get_db: /usr/local/bin/abricate-get_db
+  bioawk: /usr/local/bin/bioawk
+  checkm: /usr/local/bin/checkm
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  create_hybrid_samplesheet.sh: /usr/local/bin/create_hybrid_samplesheet.sh
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  milonga.py: /usr/local/bin/milonga.py
+  milonga_setup.sh: /usr/local/bin/milonga_setup.sh
+  platon: /usr/local/bin/platon
+  qcat: /usr/local/bin/qcat
+  qcat-eval: /usr/local/bin/qcat-eval
+  qcat-eval-truth: /usr/local/bin/qcat-eval-truth
+  qcat-roc: /usr/local/bin/qcat-roc
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  taxonkit: /usr/local/bin/taxonkit
+  unicycler: /usr/local/bin/unicycler
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  poa: /usr/local/bin/poa
+  porechop: /usr/local/bin/porechop
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
+  flye-modules: /usr/local/bin/flye-modules
+  flye-samtools: /usr/local/bin/flye-samtools
+  delta2vcf: /usr/local/bin/delta2vcf
+  flye: /usr/local/bin/flye
+  flye-minimap2: /usr/local/bin/flye-minimap2
+  pilon: /usr/local/bin/pilon
+  rppr: /usr/local/bin/rppr
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  clustalo: /usr/local/bin/clustalo
+  guppy: /usr/local/bin/guppy
+  pplacer: /usr/local/bin/pplacer
+  any2fasta: /usr/local/bin/any2fasta
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  rsync: /usr/local/bin/rsync
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
