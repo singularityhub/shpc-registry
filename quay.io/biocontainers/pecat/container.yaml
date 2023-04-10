@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/pecat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pecat
+latest:
+  0.0.1--h5b5514e_0: sha256:cebf6e63e3cb8799318dd819404f14c351a07ac8f7388a464e14d16e80de8dcd
+tags:
+  0.0.1--h5b5514e_0: sha256:cebf6e63e3cb8799318dd819404f14c351a07ac8f7388a464e14d16e80de8dcd
+docker: quay.io/biocontainers/pecat
+aliases:
+  pecat.pl: /usr/local/bin/pecat.pl
+  rampler: /usr/local/bin/rampler
+  racon: /usr/local/bin/racon
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  sdust: /usr/local/bin/sdust
+  k8: /usr/local/bin/k8
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  python3.1: /usr/local/bin/python3.1
