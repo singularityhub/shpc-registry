@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pomoxis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pomoxis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pomoxis/container.yaml"
-updated_at: "2023-04-09 02:34:33.658000"
-latest: "0.3.11--pyhdfd78af_0"
+updated_at: "2023-04-10 02:33:02.119334"
+latest: "0.3.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pomoxis"
 aliases:
  - "assess_assembly"
@@ -47,8 +47,9 @@ versions:
  - "0.3.9--pyhdfd78af_0"
  - "0.3.10--pyhdfd78af_0"
  - "0.3.11--pyhdfd78af_0"
+ - "0.3.12--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pomoxis"
-config: {"url": "https://biocontainers.pro/tools/pomoxis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pomoxis", "latest": {"0.3.11--pyhdfd78af_0": "sha256:d248f9fc957bf655308d7d95e5cebec81d560aea87880c556a4e503c8fedc096"}, "tags": {"0.3.9--pyhdfd78af_0": "sha256:3aa7f109f3857cdfc5b23d00cf24af7b93b8664c603afc7348ac747311b870fa", "0.3.10--pyhdfd78af_0": "sha256:b42d95b742be3dc8333f57892c4aa2cc5cd739e796b33c7f310696856dcdea4d", "0.3.11--pyhdfd78af_0": "sha256:d248f9fc957bf655308d7d95e5cebec81d560aea87880c556a4e503c8fedc096"}, "docker": "quay.io/biocontainers/pomoxis", "aliases": {"assess_assembly": "/usr/local/bin/assess_assembly", "assess_homopolymers": "/usr/local/bin/assess_homopolymers", "catalogue_errors": "/usr/local/bin/catalogue_errors", "common_errors_from_bam": "/usr/local/bin/common_errors_from_bam", "coverage_from_bam": "/usr/local/bin/coverage_from_bam", "coverage_from_fastx": "/usr/local/bin/coverage_from_fastx", "fast_convert": "/usr/local/bin/fast_convert", "find_indels": "/usr/local/bin/find_indels", "intersect_assembly_errors": "/usr/local/bin/intersect_assembly_errors", "long_fastx": "/usr/local/bin/long_fastx", "mini_align": "/usr/local/bin/mini_align", "mini_assemble": "/usr/local/bin/mini_assemble", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "pomoxis_path": "/usr/local/bin/pomoxis_path", "porechop": "/usr/local/bin/porechop", "qscores_from_summary": "/usr/local/bin/qscores_from_summary", "ref_seqs_from_bam": "/usr/local/bin/ref_seqs_from_bam", "reverse_bed": "/usr/local/bin/reverse_bed", "split_fastx": "/usr/local/bin/split_fastx", "stats_from_bam": "/usr/local/bin/stats_from_bam", "subsample_bam": "/usr/local/bin/subsample_bam", "summary_from_stats": "/usr/local/bin/summary_from_stats", "tag_bam": "/usr/local/bin/tag_bam", "trim_alignments": "/usr/local/bin/trim_alignments", "seqkit": "/usr/local/bin/seqkit", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "gff2gff.py": "/usr/local/bin/gff2gff.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
+config: {"url": "https://biocontainers.pro/tools/pomoxis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pomoxis", "latest": {"0.3.12--pyhdfd78af_0": "sha256:7cd162388795f3a938a6b53bdb1aaca39f4c610a529c3a56e1536b561f6a1cd1"}, "tags": {"0.3.9--pyhdfd78af_0": "sha256:3aa7f109f3857cdfc5b23d00cf24af7b93b8664c603afc7348ac747311b870fa", "0.3.10--pyhdfd78af_0": "sha256:b42d95b742be3dc8333f57892c4aa2cc5cd739e796b33c7f310696856dcdea4d", "0.3.11--pyhdfd78af_0": "sha256:d248f9fc957bf655308d7d95e5cebec81d560aea87880c556a4e503c8fedc096", "0.3.12--pyhdfd78af_0": "sha256:7cd162388795f3a938a6b53bdb1aaca39f4c610a529c3a56e1536b561f6a1cd1"}, "docker": "quay.io/biocontainers/pomoxis", "aliases": {"assess_assembly": "/usr/local/bin/assess_assembly", "assess_homopolymers": "/usr/local/bin/assess_homopolymers", "catalogue_errors": "/usr/local/bin/catalogue_errors", "common_errors_from_bam": "/usr/local/bin/common_errors_from_bam", "coverage_from_bam": "/usr/local/bin/coverage_from_bam", "coverage_from_fastx": "/usr/local/bin/coverage_from_fastx", "fast_convert": "/usr/local/bin/fast_convert", "find_indels": "/usr/local/bin/find_indels", "intersect_assembly_errors": "/usr/local/bin/intersect_assembly_errors", "long_fastx": "/usr/local/bin/long_fastx", "mini_align": "/usr/local/bin/mini_align", "mini_assemble": "/usr/local/bin/mini_assemble", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "pomoxis_path": "/usr/local/bin/pomoxis_path", "porechop": "/usr/local/bin/porechop", "qscores_from_summary": "/usr/local/bin/qscores_from_summary", "ref_seqs_from_bam": "/usr/local/bin/ref_seqs_from_bam", "reverse_bed": "/usr/local/bin/reverse_bed", "split_fastx": "/usr/local/bin/split_fastx", "stats_from_bam": "/usr/local/bin/stats_from_bam", "subsample_bam": "/usr/local/bin/subsample_bam", "summary_from_stats": "/usr/local/bin/summary_from_stats", "tag_bam": "/usr/local/bin/tag_bam", "trim_alignments": "/usr/local/bin/trim_alignments", "seqkit": "/usr/local/bin/seqkit", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "gff2gff.py": "/usr/local/bin/gff2gff.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pomoxis.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/pomoxis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pomoxis:0.3.11--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pomoxis:0.3.12--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pomoxis/0.3.11--pyhdfd78af_0
-$ module help quay.io/biocontainers/pomoxis/0.3.11--pyhdfd78af_0
+$ module load quay.io/biocontainers/pomoxis/0.3.12--pyhdfd78af_0
+$ module help quay.io/biocontainers/pomoxis/0.3.12--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

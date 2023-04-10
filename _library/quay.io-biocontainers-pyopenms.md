@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyopenms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopenms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopenms/container.yaml"
-updated_at: "2023-04-09 03:24:22.784668"
-latest: "2.8.0--py36h24c8720_1"
+updated_at: "2023-04-10 03:18:44.865525"
+latest: "2.9.1--py39h4b47abe_0"
 container_url: "https://biocontainers.pro/tools/pyopenms"
 aliases:
  - "svm-predict"
@@ -20,8 +20,9 @@ aliases:
  - "PSVIWriter"
 versions:
  - "2.8.0--py36h24c8720_1"
+ - "2.9.1--py39h4b47abe_0"
 description: "shpc-registry automated BioContainers addition for pyopenms"
-config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "docker": "quay.io/biocontainers/pyopenms", "aliases": {"svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter"}}
+config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.9.1--py39h4b47abe_0": "sha256:21f3bb3bfa0368c6e1583fd6b2d48100651c4424a8d94ff234bf6947485097d0"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c", "2.9.1--py39h4b47abe_0": "sha256:21f3bb3bfa0368c6e1583fd6b2d48100651c4424a8d94ff234bf6947485097d0"}, "docker": "quay.io/biocontainers/pyopenms", "aliases": {"svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopenms.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pyopenms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyopenms:2.8.0--py36h24c8720_1
+$ shpc install quay.io/biocontainers/pyopenms:2.9.1--py39h4b47abe_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyopenms/2.8.0--py36h24c8720_1
-$ module help quay.io/biocontainers/pyopenms/2.8.0--py36h24c8720_1
+$ module load quay.io/biocontainers/pyopenms/2.9.1--py39h4b47abe_0
+$ module help quay.io/biocontainers/pyopenms/2.9.1--py39h4b47abe_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

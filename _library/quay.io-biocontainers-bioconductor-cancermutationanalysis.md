@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cancermutationanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancermutationanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancermutationanalysis/container.yaml"
-updated_at: "2023-04-09 03:09:31.229080"
+updated_at: "2023-04-10 03:04:10.469094"
 latest: "1.32.0--r40hd029910_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancermutationanalysis"
 aliases:
