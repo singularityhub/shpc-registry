@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grapetree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grapetree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grapetree/container.yaml"
-updated_at: "2023-04-10 02:56:09.273325"
+updated_at: "2023-04-11 02:52:19.042208"
 latest: "2.1--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/grapetree"
 aliases:

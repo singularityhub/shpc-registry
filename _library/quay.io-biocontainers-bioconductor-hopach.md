@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hopach"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hopach/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hopach/container.yaml"
-updated_at: "2023-04-10 02:46:27.451870"
+updated_at: "2023-04-11 02:41:45.228840"
 latest: "2.58.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hopach"
 

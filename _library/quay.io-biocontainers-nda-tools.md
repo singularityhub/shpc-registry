@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nda-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nda-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nda-tools/container.yaml"
-updated_at: "2023-04-10 02:52:09.163533"
-latest: "0.2.23--pyh7cba7a3_0"
+updated_at: "2023-04-11 02:47:56.895705"
+latest: "0.2.24--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/nda-tools"
 aliases:
  - "downloadcmd"
@@ -33,8 +33,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.2.23--pyh7cba7a3_0"
+ - "0.2.24--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for nda-tools"
-config: {"url": "https://biocontainers.pro/tools/nda-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nda-tools", "latest": {"0.2.23--pyh7cba7a3_0": "sha256:fd0c43e10bf116b3d6ced7db781c4d2235f62c0182230608cf2346b31515e784"}, "tags": {"0.2.23--pyh7cba7a3_0": "sha256:fd0c43e10bf116b3d6ced7db781c4d2235f62c0182230608cf2346b31515e784"}, "docker": "quay.io/biocontainers/nda-tools", "aliases": {"downloadcmd": "/usr/local/bin/downloadcmd", "integration_tests": "/usr/local/bin/integration_tests", "keyring": "/usr/local/bin/keyring", "unit_tests": "/usr/local/bin/unit_tests", "vtcmd": "/usr/local/bin/vtcmd", "jp.py": "/usr/local/bin/jp.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment", "dbus-uuidgen": "/usr/local/bin/dbus-uuidgen", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/nda-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nda-tools", "latest": {"0.2.24--pyh7cba7a3_0": "sha256:e4c2de910fe7f473ee7717e93cf3b07af437635501a515da97972055327388b3"}, "tags": {"0.2.23--pyh7cba7a3_0": "sha256:fd0c43e10bf116b3d6ced7db781c4d2235f62c0182230608cf2346b31515e784", "0.2.24--pyh7cba7a3_0": "sha256:e4c2de910fe7f473ee7717e93cf3b07af437635501a515da97972055327388b3"}, "docker": "quay.io/biocontainers/nda-tools", "aliases": {"downloadcmd": "/usr/local/bin/downloadcmd", "integration_tests": "/usr/local/bin/integration_tests", "keyring": "/usr/local/bin/keyring", "unit_tests": "/usr/local/bin/unit_tests", "vtcmd": "/usr/local/bin/vtcmd", "jp.py": "/usr/local/bin/jp.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment", "dbus-uuidgen": "/usr/local/bin/dbus-uuidgen", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nda-tools.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/nda-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nda-tools:0.2.23--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/nda-tools:0.2.24--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nda-tools/0.2.23--pyh7cba7a3_0
-$ module help quay.io/biocontainers/nda-tools/0.2.23--pyh7cba7a3_0
+$ module load quay.io/biocontainers/nda-tools/0.2.24--pyh7cba7a3_0
+$ module help quay.io/biocontainers/nda-tools/0.2.24--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

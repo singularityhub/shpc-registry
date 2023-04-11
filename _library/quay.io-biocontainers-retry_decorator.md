@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/retry_decorator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/retry_decorator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/retry_decorator/container.yaml"
-updated_at: "2023-04-10 03:02:06.029069"
+updated_at: "2023-04-11 02:58:45.834930"
 latest: "1.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/retry_decorator"
 aliases:

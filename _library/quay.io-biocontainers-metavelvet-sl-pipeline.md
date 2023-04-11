@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metavelvet-sl-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet-sl-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet-sl-pipeline/container.yaml"
-updated_at: "2023-04-10 02:40:14.499765"
+updated_at: "2023-04-11 02:34:58.596809"
 latest: "1.0--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/metavelvet-sl-pipeline"
 aliases:

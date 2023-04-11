@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/satrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/satrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/satrap/container.yaml"
-updated_at: "2023-04-10 03:21:40.062636"
+updated_at: "2023-04-11 03:19:10.408500"
 latest: "0.2--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/satrap"
 aliases:

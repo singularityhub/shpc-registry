@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-net-ftp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-net-ftp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-net-ftp/container.yaml"
-updated_at: "2023-04-10 02:52:42.565607"
+updated_at: "2023-04-11 02:48:33.518381"
 latest: "2.79--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-net-ftp"
 

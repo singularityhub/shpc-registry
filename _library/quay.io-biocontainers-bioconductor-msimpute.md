@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msimpute/container.yaml"
-updated_at: "2023-04-10 03:01:52.358964"
+updated_at: "2023-04-11 02:58:30.978475"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msimpute"
 

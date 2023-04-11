@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/domino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/domino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/domino/container.yaml"
-updated_at: "2023-04-10 02:44:58.119229"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2023-04-11 02:40:06.477782"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/domino"
 aliases:
  - "community"
@@ -24,8 +24,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for domino"
-config: {"url": "https://biocontainers.pro/tools/domino", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for domino", "latest": {"0.1.1--pyhdfd78af_0": "sha256:0a1c230c4b90b5d9c4381b25d707fba8fad6e0cf652eaa3f32b57acc9d814288"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:0a1c230c4b90b5d9c4381b25d707fba8fad6e0cf652eaa3f32b57acc9d814288"}, "docker": "quay.io/biocontainers/domino", "aliases": {"community": "/usr/local/bin/community", "domino": "/usr/local/bin/domino", "pybind11-config": "/usr/local/bin/pybind11-config", "slicer": "/usr/local/bin/slicer", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/domino", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for domino", "latest": {"1.0.0--pyhdfd78af_0": "sha256:a51a6a2f901b6e4acfc86fa38035aa1e733b3dac031fc9bc86bf5b9dffcb2206"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:0a1c230c4b90b5d9c4381b25d707fba8fad6e0cf652eaa3f32b57acc9d814288", "1.0.0--pyhdfd78af_0": "sha256:a51a6a2f901b6e4acfc86fa38035aa1e733b3dac031fc9bc86bf5b9dffcb2206"}, "docker": "quay.io/biocontainers/domino", "aliases": {"community": "/usr/local/bin/community", "domino": "/usr/local/bin/domino", "pybind11-config": "/usr/local/bin/pybind11-config", "slicer": "/usr/local/bin/slicer", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/domino.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/domino
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/domino:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/domino:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/domino/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/domino/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/domino/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/domino/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

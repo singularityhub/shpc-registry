@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/k8"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/k8/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/k8/container.yaml"
-updated_at: "2023-04-10 02:48:14.063672"
+updated_at: "2023-04-11 02:43:42.200598"
 latest: "0.2.5--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/k8"
 aliases:

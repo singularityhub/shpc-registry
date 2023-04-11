@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract-codon-alignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract-codon-alignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract-codon-alignment/container.yaml"
-updated_at: "2023-04-10 02:54:40.959862"
+updated_at: "2023-04-11 02:50:42.832205"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/extract-codon-alignment"
 aliases:
