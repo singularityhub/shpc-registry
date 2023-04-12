@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gofuncr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gofuncr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gofuncr/container.yaml"
-updated_at: "2023-04-11 02:53:31.350740"
+updated_at: "2023-04-12 02:55:49.770769"
 latest: "1.18.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gofuncr"
 aliases:

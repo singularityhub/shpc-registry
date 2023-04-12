@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb/container.yaml"
-updated_at: "2023-04-11 02:31:35.250426"
+updated_at: "2023-04-12 02:32:09.318759"
 latest: "1.00.0--r40hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribosomaldatabaseproject11.5mgdb"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpsift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpsift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpsift/container.yaml"
-updated_at: "2023-04-11 02:56:22.087771"
+updated_at: "2023-04-12 02:58:57.593568"
 latest: "5.1d--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snpsift"
 aliases:

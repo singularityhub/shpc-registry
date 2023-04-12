@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tidyp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidyp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidyp/container.yaml"
-updated_at: "2023-04-11 03:06:44.908931"
+updated_at: "2023-04-12 03:10:10.949033"
 latest: "1.04--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/tidyp"
 aliases:

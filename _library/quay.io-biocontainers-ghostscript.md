@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghostscript"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostscript/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostscript/container.yaml"
-updated_at: "2023-04-11 02:59:52.743282"
+updated_at: "2023-04-12 03:02:45.976080"
 latest: "9.18--1"
 container_url: "https://biocontainers.pro/tools/ghostscript"
 aliases:

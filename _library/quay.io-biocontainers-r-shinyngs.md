@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-shinyngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shinyngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shinyngs/container.yaml"
-updated_at: "2023-04-11 03:04:38.470749"
-latest: "1.5.6--r42hdfd78af_1"
+updated_at: "2023-04-12 03:07:57.144157"
+latest: "1.7.1--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-shinyngs"
 aliases:
  - "make_app_from_files.R"
@@ -17,8 +17,11 @@ versions:
  - "1.5.1--r42hdfd78af_0"
  - "1.5.5--r42hdfd78af_0"
  - "1.5.6--r42hdfd78af_1"
+ - "1.7.1--r42hdfd78af_1"
+ - "1.6.1--r42hdfd78af_0"
+ - "1.5.9--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-shinyngs"
-config: {"url": "https://biocontainers.pro/tools/r-shinyngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shinyngs", "latest": {"1.5.6--r42hdfd78af_1": "sha256:3e7b35d0b59b27096c646800a9b6a0f6fb6792c1d573df885353e2000b3b2406"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0b2271a598ca51e7099addc4126c557292666b864121fb1a9011c35e919ff79b", "1.4.2--r42hdfd78af_1": "sha256:3330de58c91d3f130fb40ab7bcc3f163b9e33f63af72f511ca90383659b1cdd2", "1.3.2--r41hdfd78af_0": "sha256:f47057276e3e039cde275fab6ab3d5e1e67e7f05f7f3d61810afb613d6521a3b", "1.4.2--r42hdfd78af_3": "sha256:c983dcf329f4ddee9b8cae70b5fc979322f806051cd6b6dfea37390664f0f826", "1.5.1--r42hdfd78af_0": "sha256:264d95da54d2efc272715b255acf3d03a0ce77c608f2acc8c12c63193ca533b0", "1.5.5--r42hdfd78af_0": "sha256:e3d3807e113700aef476693884d108a55f8e147c0589112fb5bcad182a1bf0fd", "1.5.6--r42hdfd78af_1": "sha256:3e7b35d0b59b27096c646800a9b6a0f6fb6792c1d573df885353e2000b3b2406"}, "docker": "quay.io/biocontainers/r-shinyngs", "aliases": {"make_app_from_files.R": "/usr/local/bin/make_app_from_files.R"}}
+config: {"url": "https://biocontainers.pro/tools/r-shinyngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shinyngs", "latest": {"1.7.1--r42hdfd78af_1": "sha256:62d0fee9d5855f185ab0ebc11f0fbb272e3ba1befbf5add082ce906608657bf7"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0b2271a598ca51e7099addc4126c557292666b864121fb1a9011c35e919ff79b", "1.4.2--r42hdfd78af_1": "sha256:3330de58c91d3f130fb40ab7bcc3f163b9e33f63af72f511ca90383659b1cdd2", "1.3.2--r41hdfd78af_0": "sha256:f47057276e3e039cde275fab6ab3d5e1e67e7f05f7f3d61810afb613d6521a3b", "1.4.2--r42hdfd78af_3": "sha256:c983dcf329f4ddee9b8cae70b5fc979322f806051cd6b6dfea37390664f0f826", "1.5.1--r42hdfd78af_0": "sha256:264d95da54d2efc272715b255acf3d03a0ce77c608f2acc8c12c63193ca533b0", "1.5.5--r42hdfd78af_0": "sha256:e3d3807e113700aef476693884d108a55f8e147c0589112fb5bcad182a1bf0fd", "1.5.6--r42hdfd78af_1": "sha256:3e7b35d0b59b27096c646800a9b6a0f6fb6792c1d573df885353e2000b3b2406", "1.7.1--r42hdfd78af_1": "sha256:62d0fee9d5855f185ab0ebc11f0fbb272e3ba1befbf5add082ce906608657bf7", "1.6.1--r42hdfd78af_0": "sha256:d147029f739f6df18c531c5ac910ad77690632436e3e51c36950c7e48fddc50e", "1.5.9--r42hdfd78af_0": "sha256:ae5f93320da17a8775a78642a4fe8b7ad4ab0e28e1bf6db69d3584e6b1d9eef3"}, "docker": "quay.io/biocontainers/r-shinyngs", "aliases": {"make_app_from_files.R": "/usr/local/bin/make_app_from_files.R"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-shinyngs.
@@ -33,7 +36,7 @@ $ shpc install quay.io/biocontainers/r-shinyngs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-shinyngs:1.5.6--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-shinyngs:1.7.1--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-shinyngs/1.5.6--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-shinyngs/1.5.6--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-shinyngs/1.7.1--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-shinyngs/1.7.1--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

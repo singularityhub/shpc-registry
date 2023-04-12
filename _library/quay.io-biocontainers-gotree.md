@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gotree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gotree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gotree/container.yaml"
-updated_at: "2023-04-11 02:58:24.042686"
+updated_at: "2023-04-12 03:01:09.671129"
 latest: "0.4.3--h4b4d50d_2"
 container_url: "https://biocontainers.pro/tools/gotree"
 aliases:

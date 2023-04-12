@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/trgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trgt/container.yaml"
-updated_at: "2023-04-11 02:59:34.461726"
-latest: "0.3.4--hdfd78af_0"
+updated_at: "2023-04-12 03:02:26.347857"
+latest: "0.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trgt"
 aliases:
  - "trgt"
  - "trvz"
 versions:
  - "0.3.4--hdfd78af_0"
+ - "0.4.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for trgt"
-config: {"url": "https://biocontainers.pro/tools/trgt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trgt", "latest": {"0.3.4--hdfd78af_0": "sha256:fd43ea17e09f402bb0ee677021fc860a9308c081ec998cecf9030541b06a4aa7"}, "tags": {"0.3.4--hdfd78af_0": "sha256:fd43ea17e09f402bb0ee677021fc860a9308c081ec998cecf9030541b06a4aa7"}, "docker": "quay.io/biocontainers/trgt", "aliases": {"trgt": "/usr/local/bin/trgt", "trvz": "/usr/local/bin/trvz"}}
+config: {"url": "https://biocontainers.pro/tools/trgt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trgt", "latest": {"0.4.0--hdfd78af_0": "sha256:337aff680c8552224faefaa2f5bcedb7f7ec94ae585e085fc8ae4538c56b114d"}, "tags": {"0.3.4--hdfd78af_0": "sha256:fd43ea17e09f402bb0ee677021fc860a9308c081ec998cecf9030541b06a4aa7", "0.4.0--hdfd78af_0": "sha256:337aff680c8552224faefaa2f5bcedb7f7ec94ae585e085fc8ae4538c56b114d"}, "docker": "quay.io/biocontainers/trgt", "aliases": {"trgt": "/usr/local/bin/trgt", "trvz": "/usr/local/bin/trvz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trgt.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/trgt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trgt:0.3.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/trgt:0.4.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trgt/0.3.4--hdfd78af_0
-$ module help quay.io/biocontainers/trgt/0.3.4--hdfd78af_0
+$ module load quay.io/biocontainers/trgt/0.4.0--hdfd78af_0
+$ module help quay.io/biocontainers/trgt/0.4.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

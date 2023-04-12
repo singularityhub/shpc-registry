@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mimseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimseq/container.yaml"
-updated_at: "2023-04-11 03:07:41.539072"
-latest: "1.3--pyhdfd78af_0"
+updated_at: "2023-04-12 03:11:12.832720"
+latest: "1.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mimseq"
 aliases:
  - "atoiindex"
@@ -64,8 +64,9 @@ versions:
  - "1.2--pyhdfd78af_0"
  - "1.2.1--pyhdfd78af_0"
  - "1.3--pyhdfd78af_0"
+ - "1.3.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mimseq"
-config: {"url": "https://biocontainers.pro/tools/mimseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimseq", "latest": {"1.3--pyhdfd78af_0": "sha256:ce1b9e1aee697f0c4175bf911fa0f07336823e95baa395db6c6a7851b311d706"}, "tags": {"1.2--pyhdfd78af_0": "sha256:7f03bf31b08f2b425b4effab2d248b429953b9e4660494265e0a0dcaf8e65262", "1.2.1--pyhdfd78af_0": "sha256:bfbf4e61b7d6912b81824d040cff1c97306d2d712608c3e3d591f460f1fa712d", "1.3--pyhdfd78af_0": "sha256:ce1b9e1aee697f0c4175bf911fa0f07336823e95baa395db6c6a7851b311d706"}, "docker": "quay.io/biocontainers/mimseq", "aliases": {"atoiindex": "/usr/local/bin/atoiindex", "cmetindex": "/usr/local/bin/cmetindex", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "git2_cli": "/usr/local/bin/git2_cli", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_process": "/usr/local/bin/gmap_process", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites", "gvf_iit": "/usr/local/bin/gvf_iit", "iit_dump": "/usr/local/bin/iit_dump", "iit_get": "/usr/local/bin/iit_get", "iit_store": "/usr/local/bin/iit_store", "md_coords": "/usr/local/bin/md_coords", "mimseq": "/usr/local/bin/mimseq", "psl_genes": "/usr/local/bin/psl_genes", "psl_introns": "/usr/local/bin/psl_introns", "psl_splicesites": "/usr/local/bin/psl_splicesites", "pyfiglet": "/usr/local/bin/pyfiglet", "sam_sort": "/usr/local/bin/sam_sort", "snpindex": "/usr/local/bin/snpindex", "trindex": "/usr/local/bin/trindex", "vcf_iit": "/usr/local/bin/vcf_iit", "gmap": "/usr/local/bin/gmap", "pandoc-server": "/usr/local/bin/pandoc-server", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan"}}
+config: {"url": "https://biocontainers.pro/tools/mimseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimseq", "latest": {"1.3.2--pyhdfd78af_0": "sha256:48995bb9e4d00c9473ae1e68ae8f91d559a928bf9a6609906c9ac8056943411a"}, "tags": {"1.2--pyhdfd78af_0": "sha256:7f03bf31b08f2b425b4effab2d248b429953b9e4660494265e0a0dcaf8e65262", "1.2.1--pyhdfd78af_0": "sha256:bfbf4e61b7d6912b81824d040cff1c97306d2d712608c3e3d591f460f1fa712d", "1.3--pyhdfd78af_0": "sha256:ce1b9e1aee697f0c4175bf911fa0f07336823e95baa395db6c6a7851b311d706", "1.3.2--pyhdfd78af_0": "sha256:48995bb9e4d00c9473ae1e68ae8f91d559a928bf9a6609906c9ac8056943411a"}, "docker": "quay.io/biocontainers/mimseq", "aliases": {"atoiindex": "/usr/local/bin/atoiindex", "cmetindex": "/usr/local/bin/cmetindex", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "git2_cli": "/usr/local/bin/git2_cli", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_process": "/usr/local/bin/gmap_process", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites", "gvf_iit": "/usr/local/bin/gvf_iit", "iit_dump": "/usr/local/bin/iit_dump", "iit_get": "/usr/local/bin/iit_get", "iit_store": "/usr/local/bin/iit_store", "md_coords": "/usr/local/bin/md_coords", "mimseq": "/usr/local/bin/mimseq", "psl_genes": "/usr/local/bin/psl_genes", "psl_introns": "/usr/local/bin/psl_introns", "psl_splicesites": "/usr/local/bin/psl_splicesites", "pyfiglet": "/usr/local/bin/pyfiglet", "sam_sort": "/usr/local/bin/sam_sort", "snpindex": "/usr/local/bin/snpindex", "trindex": "/usr/local/bin/trindex", "vcf_iit": "/usr/local/bin/vcf_iit", "gmap": "/usr/local/bin/gmap", "pandoc-server": "/usr/local/bin/pandoc-server", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mimseq.
@@ -80,7 +81,7 @@ $ shpc install quay.io/biocontainers/mimseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mimseq:1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mimseq:1.3.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -92,8 +93,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mimseq/1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/mimseq/1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/mimseq/1.3.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/mimseq/1.3.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

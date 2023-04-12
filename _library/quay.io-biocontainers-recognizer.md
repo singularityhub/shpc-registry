@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recognizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recognizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recognizer/container.yaml"
-updated_at: "2023-04-11 02:42:51.757281"
+updated_at: "2023-04-12 02:44:18.545726"
 latest: "1.8.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recognizer"
 aliases:

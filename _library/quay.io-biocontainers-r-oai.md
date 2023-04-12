@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-oai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-oai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-oai/container.yaml"
-updated_at: "2023-04-11 02:43:10.002767"
+updated_at: "2023-04-12 02:44:37.985580"
 latest: "0.2.2--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-oai"
 aliases:

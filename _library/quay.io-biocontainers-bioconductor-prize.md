@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prize/container.yaml"
-updated_at: "2023-04-11 02:56:22.417043"
+updated_at: "2023-04-12 02:58:57.945303"
 latest: "1.17.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prize"
 aliases:
