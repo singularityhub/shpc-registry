@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ccmetagen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ccmetagen
 latest:
-  1.4.0--pyh5e36f6f_0: sha256:32a2c8f007b83e50e3e428683eabf083623dd33f7bef88c61f811dc777c9cdb1
+  1.4.1--pyh7cba7a3_0: sha256:c081a10240769c3708ffc23dc7a355256455324b8e8c2d90f7b28038662974db
 tags:
   1.4.0--pyh5e36f6f_0: sha256:32a2c8f007b83e50e3e428683eabf083623dd33f7bef88c61f811dc777c9cdb1
+  1.4.1--pyh7cba7a3_0: sha256:c081a10240769c3708ffc23dc7a355256455324b8e8c2d90f7b28038662974db
 docker: quay.io/biocontainers/ccmetagen
 aliases:
   CCMetagen.py: /usr/local/bin/CCMetagen.py
