@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biocode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocode/container.yaml"
-updated_at: "2023-04-12 02:35:00.085186"
+updated_at: "2023-04-13 02:33:47.027372"
 latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biocode"
 aliases:

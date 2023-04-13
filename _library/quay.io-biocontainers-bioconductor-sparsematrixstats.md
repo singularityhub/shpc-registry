@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sparsematrixstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsematrixstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsematrixstats/container.yaml"
-updated_at: "2023-04-12 02:47:23.130630"
+updated_at: "2023-04-13 02:44:16.555005"
 latest: "1.10.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsematrixstats"
 

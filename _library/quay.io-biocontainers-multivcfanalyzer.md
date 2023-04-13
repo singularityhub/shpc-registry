@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multivcfanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multivcfanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multivcfanalyzer/container.yaml"
-updated_at: "2023-04-12 02:45:00.178493"
+updated_at: "2023-04-13 02:42:15.354973"
 latest: "0.85.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/multivcfanalyzer"
 aliases:

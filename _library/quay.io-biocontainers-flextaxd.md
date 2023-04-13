@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flextaxd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flextaxd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flextaxd/container.yaml"
-updated_at: "2023-04-12 02:47:42.037959"
-latest: "0.4.3--pyhdfd78af_0"
+updated_at: "2023-04-13 02:44:32.668971"
+latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flextaxd"
 aliases:
  - "flextaxd"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.4.3--pyhdfd78af_0"
+ - "0.4.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for flextaxd"
-config: {"url": "https://biocontainers.pro/tools/flextaxd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flextaxd", "latest": {"0.4.3--pyhdfd78af_0": "sha256:4865515478ee12bdd28c346208539e1cb372a2bc260aca8ed03a3d79b9336ca0"}, "tags": {"0.4.3--pyhdfd78af_0": "sha256:4865515478ee12bdd28c346208539e1cb372a2bc260aca8ed03a3d79b9336ca0"}, "docker": "quay.io/biocontainers/flextaxd", "aliases": {"flextaxd": "/usr/local/bin/flextaxd", "flextaxd-create": "/usr/local/bin/flextaxd-create", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/flextaxd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flextaxd", "latest": {"0.4.4--pyhdfd78af_0": "sha256:7b3412cec1559b1520983092a7e668829849c36dd10036b2d8e65d1bdcf84a44"}, "tags": {"0.4.3--pyhdfd78af_0": "sha256:4865515478ee12bdd28c346208539e1cb372a2bc260aca8ed03a3d79b9336ca0", "0.4.4--pyhdfd78af_0": "sha256:7b3412cec1559b1520983092a7e668829849c36dd10036b2d8e65d1bdcf84a44"}, "docker": "quay.io/biocontainers/flextaxd", "aliases": {"flextaxd": "/usr/local/bin/flextaxd", "flextaxd-create": "/usr/local/bin/flextaxd-create", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flextaxd.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/flextaxd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flextaxd:0.4.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flextaxd:0.4.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flextaxd/0.4.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/flextaxd/0.4.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/flextaxd/0.4.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/flextaxd/0.4.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

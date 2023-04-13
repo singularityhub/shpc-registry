@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lightstringgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightstringgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lightstringgraph/container.yaml"
-updated_at: "2023-04-12 02:52:05.901488"
+updated_at: "2023-04-13 02:48:17.947093"
 latest: "0.4.0--ha04c180_3"
 container_url: "https://biocontainers.pro/tools/lightstringgraph"
 aliases:

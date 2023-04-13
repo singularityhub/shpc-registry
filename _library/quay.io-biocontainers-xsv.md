@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xsv/container.yaml"
-updated_at: "2023-04-12 03:13:58.993847"
+updated_at: "2023-04-13 03:06:56.341275"
 latest: "0.10.3--0"
 container_url: "https://biocontainers.pro/tools/xsv"
 aliases:

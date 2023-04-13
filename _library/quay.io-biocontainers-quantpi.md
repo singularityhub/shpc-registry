@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quantpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quantpi/container.yaml"
-updated_at: "2023-04-12 03:18:43.722735"
+updated_at: "2023-04-13 03:10:58.241635"
 latest: "0.2.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/quantpi"
 aliases:

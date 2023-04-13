@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylocsfpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylocsfpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylocsfpp/container.yaml"
-updated_at: "2023-04-12 02:39:50.759794"
+updated_at: "2023-04-13 02:37:52.002142"
 latest: "1.2.0_9643238d--h54ed327_5"
 container_url: "https://biocontainers.pro/tools/phylocsfpp"
 aliases:

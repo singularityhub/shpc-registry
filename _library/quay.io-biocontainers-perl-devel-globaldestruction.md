@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-globaldestruction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-globaldestruction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-globaldestruction/container.yaml"
-updated_at: "2023-04-12 02:40:27.433946"
+updated_at: "2023-04-13 02:38:22.770174"
 latest: "0.14--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-devel-globaldestruction"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/skani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skani/container.yaml"
-updated_at: "2023-04-12 03:16:51.948921"
-latest: "0.1.0--h9f5acd7_0"
+updated_at: "2023-04-13 03:09:23.662754"
+latest: "0.1.1--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/skani"
 aliases:
  - "skani"
 versions:
  - "0.1.0--h9f5acd7_0"
+ - "0.1.1--h9f5acd7_0"
 description: "singularity registry hpc automated addition for skani"
-config: {"url": "https://biocontainers.pro/tools/skani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skani", "latest": {"0.1.0--h9f5acd7_0": "sha256:b3d0afd09f684cbcb92b73737db2a0f75421c008804a66ba2a3f04357076facf"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:b3d0afd09f684cbcb92b73737db2a0f75421c008804a66ba2a3f04357076facf"}, "docker": "quay.io/biocontainers/skani", "aliases": {"skani": "/usr/local/bin/skani"}}
+config: {"url": "https://biocontainers.pro/tools/skani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skani", "latest": {"0.1.1--h9f5acd7_0": "sha256:9db3ad6c21b830bee564baca3b957f6565c0a1d177262b6e68289fe34a9c9e54"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:b3d0afd09f684cbcb92b73737db2a0f75421c008804a66ba2a3f04357076facf", "0.1.1--h9f5acd7_0": "sha256:9db3ad6c21b830bee564baca3b957f6565c0a1d177262b6e68289fe34a9c9e54"}, "docker": "quay.io/biocontainers/skani", "aliases": {"skani": "/usr/local/bin/skani"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skani.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/skani
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skani:0.1.0--h9f5acd7_0
+$ shpc install quay.io/biocontainers/skani:0.1.1--h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skani/0.1.0--h9f5acd7_0
-$ module help quay.io/biocontainers/skani/0.1.0--h9f5acd7_0
+$ module load quay.io/biocontainers/skani/0.1.1--h9f5acd7_0
+$ module help quay.io/biocontainers/skani/0.1.1--h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

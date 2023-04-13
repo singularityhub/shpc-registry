@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/evofr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evofr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evofr/container.yaml"
-updated_at: "2023-04-12 02:46:49.966288"
-latest: "0.1.16--pyhdfd78af_0"
+updated_at: "2023-04-13 02:43:48.517316"
+latest: "0.1.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/evofr"
 aliases:
  - "f2py3.11"
@@ -27,8 +27,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.16--pyhdfd78af_0"
+ - "0.1.18--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for evofr"
-config: {"url": "https://biocontainers.pro/tools/evofr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for evofr", "latest": {"0.1.16--pyhdfd78af_0": "sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2"}, "tags": {"0.1.16--pyhdfd78af_0": "sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2"}, "docker": "quay.io/biocontainers/evofr", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/evofr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for evofr", "latest": {"0.1.18--pyhdfd78af_0": "sha256:3f8060d4a41df9f728226001cfa5ecf023bfed902f2223f5307744d5c1502cf7"}, "tags": {"0.1.16--pyhdfd78af_0": "sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2", "0.1.18--pyhdfd78af_0": "sha256:3f8060d4a41df9f728226001cfa5ecf023bfed902f2223f5307744d5c1502cf7"}, "docker": "quay.io/biocontainers/evofr", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/evofr.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/evofr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/evofr:0.1.16--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/evofr:0.1.18--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/evofr/0.1.16--pyhdfd78af_0
-$ module help quay.io/biocontainers/evofr/0.1.16--pyhdfd78af_0
+$ module load quay.io/biocontainers/evofr/0.1.18--pyhdfd78af_0
+$ module help quay.io/biocontainers/evofr/0.1.18--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

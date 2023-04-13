@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-readbrukerflexdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-readbrukerflexdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-readbrukerflexdata/container.yaml"
-updated_at: "2023-04-12 02:35:13.211244"
+updated_at: "2023-04-13 02:33:57.785473"
 latest: "1.8.5--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-readbrukerflexdata"
 aliases:

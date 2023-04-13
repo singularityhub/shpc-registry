@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/htseq-clip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htseq-clip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htseq-clip/container.yaml"
-updated_at: "2023-04-12 02:36:12.591685"
-latest: "2.14.0b0--pyh086e186_0"
+updated_at: "2023-04-13 02:34:47.553298"
+latest: "2.18.2b0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/htseq-clip"
 aliases:
  - "htseq-clip"
@@ -34,8 +34,9 @@ aliases:
  - "transicc"
 versions:
  - "2.14.0b0--pyh086e186_0"
+ - "2.18.2b0--pyh086e186_0"
 description: "singularity registry hpc automated addition for htseq-clip"
-config: {"url": "https://biocontainers.pro/tools/htseq-clip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for htseq-clip", "latest": {"2.14.0b0--pyh086e186_0": "sha256:775e23d8c5b4ea3619173efe64e09c5a095cf379f206d4cb56987504e86d81d3"}, "tags": {"2.14.0b0--pyh086e186_0": "sha256:775e23d8c5b4ea3619173efe64e09c5a095cf379f206d4cb56987504e86d81d3"}, "docker": "quay.io/biocontainers/htseq-clip", "aliases": {"htseq-clip": "/usr/local/bin/htseq-clip", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/htseq-clip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for htseq-clip", "latest": {"2.18.2b0--pyh086e186_0": "sha256:52914fbc08e67cf85fd9bf75e55b461cb56bf8e498adcecf1e6e66c712fe535a"}, "tags": {"2.14.0b0--pyh086e186_0": "sha256:775e23d8c5b4ea3619173efe64e09c5a095cf379f206d4cb56987504e86d81d3", "2.18.2b0--pyh086e186_0": "sha256:52914fbc08e67cf85fd9bf75e55b461cb56bf8e498adcecf1e6e66c712fe535a"}, "docker": "quay.io/biocontainers/htseq-clip", "aliases": {"htseq-clip": "/usr/local/bin/htseq-clip", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/htseq-clip.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/htseq-clip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/htseq-clip:2.14.0b0--pyh086e186_0
+$ shpc install quay.io/biocontainers/htseq-clip:2.18.2b0--pyh086e186_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/htseq-clip/2.14.0b0--pyh086e186_0
-$ module help quay.io/biocontainers/htseq-clip/2.14.0b0--pyh086e186_0
+$ module load quay.io/biocontainers/htseq-clip/2.18.2b0--pyh086e186_0
+$ module help quay.io/biocontainers/htseq-clip/2.18.2b0--pyh086e186_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
