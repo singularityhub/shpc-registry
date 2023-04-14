@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-purrr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-purrr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-purrr/container.yaml"
-updated_at: "2023-04-13 03:02:13.159945"
+updated_at: "2023-04-14 03:10:11.704406"
 latest: "0.2.2--1"
 container_url: "https://biocontainers.pro/tools/r-purrr"
 aliases:

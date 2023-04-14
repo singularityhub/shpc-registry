@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-parallel-loops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parallel-loops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parallel-loops/container.yaml"
-updated_at: "2023-04-13 02:58:56.824963"
+updated_at: "2023-04-14 03:06:06.257746"
 latest: "0.10--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-parallel-loops"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-vgam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vgam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vgam/container.yaml"
-updated_at: "2023-04-13 03:02:59.363696"
+updated_at: "2023-04-14 03:11:08.922093"
 latest: "1.0_2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-vgam"
 aliases:

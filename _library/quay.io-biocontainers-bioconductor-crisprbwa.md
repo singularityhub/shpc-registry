@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crisprbwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprbwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprbwa/container.yaml"
-updated_at: "2023-04-13 03:14:44.698301"
+updated_at: "2023-04-14 03:25:49.436713"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprbwa"
 aliases:

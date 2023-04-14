@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-miasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-miasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-miasim/container.yaml"
-updated_at: "2023-04-13 02:41:09.931143"
+updated_at: "2023-04-14 02:43:41.240920"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-miasim"
 

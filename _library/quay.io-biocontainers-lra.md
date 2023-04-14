@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lra/container.yaml"
-updated_at: "2023-04-13 03:06:23.554579"
-latest: "1.3.4--hff880f7_2"
+updated_at: "2023-04-14 03:15:23.380892"
+latest: "1.3.7.2--hff880f7_0"
 container_url: "https://biocontainers.pro/tools/lra"
 aliases:
  - "lra"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.3.4--hea94271_1"
  - "1.3.4--hff880f7_2"
+ - "1.3.7.2--hff880f7_0"
 description: "shpc-registry automated BioContainers addition for lra"
-config: {"url": "https://biocontainers.pro/tools/lra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lra", "latest": {"1.3.4--hff880f7_2": "sha256:ffee9a9b9fe77c110dff7da8856814a17fbbfd2c22e66b61cd114be77ed5fbe3"}, "tags": {"1.3.4--hea94271_1": "sha256:daa1b6cc3ffdc267b73c5da2671b8907ffe3723281fd572964ba5ad3bb5927b3", "1.3.4--hff880f7_2": "sha256:ffee9a9b9fe77c110dff7da8856814a17fbbfd2c22e66b61cd114be77ed5fbe3"}, "docker": "quay.io/biocontainers/lra", "aliases": {"lra": "/usr/local/bin/lra", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/lra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lra", "latest": {"1.3.7.2--hff880f7_0": "sha256:1d6fc708a8508678686163a45ae23cfab5ea0aab68fd8fa9dc602e926ff4ec54"}, "tags": {"1.3.4--hea94271_1": "sha256:daa1b6cc3ffdc267b73c5da2671b8907ffe3723281fd572964ba5ad3bb5927b3", "1.3.4--hff880f7_2": "sha256:ffee9a9b9fe77c110dff7da8856814a17fbbfd2c22e66b61cd114be77ed5fbe3", "1.3.7.2--hff880f7_0": "sha256:1d6fc708a8508678686163a45ae23cfab5ea0aab68fd8fa9dc602e926ff4ec54"}, "docker": "quay.io/biocontainers/lra", "aliases": {"lra": "/usr/local/bin/lra", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lra.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/lra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lra:1.3.4--hff880f7_2
+$ shpc install quay.io/biocontainers/lra:1.3.7.2--hff880f7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lra/1.3.4--hff880f7_2
-$ module help quay.io/biocontainers/lra/1.3.4--hff880f7_2
+$ module load quay.io/biocontainers/lra/1.3.7.2--hff880f7_0
+$ module help quay.io/biocontainers/lra/1.3.7.2--hff880f7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

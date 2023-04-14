@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perl-ostype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perl-ostype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perl-ostype/container.yaml"
-updated_at: "2023-04-13 02:38:13.125609"
+updated_at: "2023-04-14 02:39:59.143497"
 latest: "1.010--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-perl-ostype"
 aliases:

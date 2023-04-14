@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomelake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomelake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomelake/container.yaml"
-updated_at: "2023-04-13 02:50:14.105248"
+updated_at: "2023-04-14 02:55:06.021504"
 latest: "0.1.5--py37h516909a_0"
 container_url: "https://biocontainers.pro/tools/genomelake"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-saigegds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-saigegds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-saigegds/container.yaml"
-updated_at: "2023-04-13 03:16:50.412376"
+updated_at: "2023-04-14 03:28:27.526961"
 latest: "1.12.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-saigegds"
 

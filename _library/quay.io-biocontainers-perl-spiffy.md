@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-spiffy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-spiffy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-spiffy/container.yaml"
-updated_at: "2023-04-13 02:44:50.004853"
+updated_at: "2023-04-14 02:48:19.119773"
 latest: "0.46--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-spiffy"
 aliases:
