@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/boquila
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for boquila
 latest:
-  0.6.0--hdfd78af_0: sha256:87eccf9ce054cbd981f39f47a6e738cfef526a4294ca7c41487a723e7a9a3337
+  0.6.1--hdfd78af_0: sha256:47b2696d859a14c70d1a4351a0281710ddcb80c73abc65f9bd4b060f8ee7b6f6
 tags:
   0.6.0--hdfd78af_0: sha256:87eccf9ce054cbd981f39f47a6e738cfef526a4294ca7c41487a723e7a9a3337
+  0.6.1--hdfd78af_0: sha256:47b2696d859a14c70d1a4351a0281710ddcb80c73abc65f9bd4b060f8ee7b6f6
 docker: quay.io/biocontainers/boquila
 aliases:
   boquila: /usr/local/bin/boquila
