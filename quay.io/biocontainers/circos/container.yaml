@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/circos
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circos
 latest:
-  0.69.8--hdfd78af_1: sha256:6b6ff77d418d0ac3fb3bf30850ce113dc215b4c584e4ee7fd894b4730072e00c
+  0.69.9--hdfd78af_0: sha256:e498952eb3d5aca4a049cc5bf0bd40139f761f2bf0f8b33b3dfab53af43394e0
 tags:
   0.69.8--hdfd78af_1: sha256:6b6ff77d418d0ac3fb3bf30850ce113dc215b4c584e4ee7fd894b4730072e00c
+  0.69.9--hdfd78af_0: sha256:e498952eb3d5aca4a049cc5bf0bd40139f761f2bf0f8b33b3dfab53af43394e0
 docker: quay.io/biocontainers/circos

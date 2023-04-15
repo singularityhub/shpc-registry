@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nf-test
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nf-test
 latest:
-  0.7.1--h4a94de4_0: sha256:1c5339755137898063d2647e8039594d44219bc0c6cfd5f8caf0f62c0b270081
+  0.7.3--h4a94de4_0: sha256:0972f49f7785f870e326ec85674d617c5857e90b1ad5a1a8246499797df13a37
 tags:
   0.7.1--h4a94de4_0: sha256:1c5339755137898063d2647e8039594d44219bc0c6cfd5f8caf0f62c0b270081
+  0.7.3--h4a94de4_0: sha256:0972f49f7785f870e326ec85674d617c5857e90b1ad5a1a8246499797df13a37
 docker: quay.io/biocontainers/nf-test
 aliases:
   nf-test: /usr/local/bin/nf-test
