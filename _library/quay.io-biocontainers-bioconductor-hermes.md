@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hermes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hermes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hermes/container.yaml"
-updated_at: "2023-04-14 03:04:34.038182"
+updated_at: "2023-04-15 02:58:42.329581"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hermes"
 aliases:

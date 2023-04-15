@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccpromise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccpromise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccpromise/container.yaml"
-updated_at: "2023-04-14 03:26:51.954721"
+updated_at: "2023-04-15 03:16:39.005413"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccpromise"
 aliases:

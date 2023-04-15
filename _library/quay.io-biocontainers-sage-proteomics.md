@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sage-proteomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sage-proteomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sage-proteomics/container.yaml"
-updated_at: "2023-04-14 02:37:51.023440"
-latest: "0.9.4--hec16e2b_0"
+updated_at: "2023-04-15 02:37:21.461091"
+latest: "0.10.0--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/sage-proteomics"
 aliases:
  - "sage"
 versions:
  - "0.8.1--hec16e2b_0"
  - "0.9.4--hec16e2b_0"
+ - "0.10.0--hec16e2b_0"
 description: "singularity registry hpc automated addition for sage-proteomics"
-config: {"url": "https://biocontainers.pro/tools/sage-proteomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sage-proteomics", "latest": {"0.9.4--hec16e2b_0": "sha256:ec89353ebcdda930283732d7bf904bc5d624a2f864672ea24d467066afaa8087"}, "tags": {"0.8.1--hec16e2b_0": "sha256:c66ead864888868623284914f811e4c4c2894a8bb7bb6d55f55bb5aae15dcf6f", "0.9.4--hec16e2b_0": "sha256:ec89353ebcdda930283732d7bf904bc5d624a2f864672ea24d467066afaa8087"}, "docker": "quay.io/biocontainers/sage-proteomics", "aliases": {"sage": "/usr/local/bin/sage"}}
+config: {"url": "https://biocontainers.pro/tools/sage-proteomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sage-proteomics", "latest": {"0.10.0--hec16e2b_0": "sha256:6c3566fa2397f6207eea2789c1d6b5264f31bea18653e9def0c5ae1c090c30dc"}, "tags": {"0.8.1--hec16e2b_0": "sha256:c66ead864888868623284914f811e4c4c2894a8bb7bb6d55f55bb5aae15dcf6f", "0.9.4--hec16e2b_0": "sha256:ec89353ebcdda930283732d7bf904bc5d624a2f864672ea24d467066afaa8087", "0.10.0--hec16e2b_0": "sha256:6c3566fa2397f6207eea2789c1d6b5264f31bea18653e9def0c5ae1c090c30dc"}, "docker": "quay.io/biocontainers/sage-proteomics", "aliases": {"sage": "/usr/local/bin/sage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sage-proteomics.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sage-proteomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sage-proteomics:0.9.4--hec16e2b_0
+$ shpc install quay.io/biocontainers/sage-proteomics:0.10.0--hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sage-proteomics/0.9.4--hec16e2b_0
-$ module help quay.io/biocontainers/sage-proteomics/0.9.4--hec16e2b_0
+$ module load quay.io/biocontainers/sage-proteomics/0.10.0--hec16e2b_0
+$ module help quay.io/biocontainers/sage-proteomics/0.10.0--hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

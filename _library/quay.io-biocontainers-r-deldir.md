@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-deldir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-deldir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-deldir/container.yaml"
-updated_at: "2023-04-14 02:32:12.054518"
+updated_at: "2023-04-15 02:32:47.336875"
 latest: "0.1_12--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-deldir"
 aliases:

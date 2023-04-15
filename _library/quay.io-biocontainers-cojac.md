@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cojac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cojac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cojac/container.yaml"
-updated_at: "2023-04-14 03:17:37.723584"
-latest: "0.2--hdfd78af_0"
+updated_at: "2023-04-15 03:09:10.259026"
+latest: "0.9--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/cojac"
 aliases:
  - "cooc-colourmut"
@@ -23,8 +23,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.2--hdfd78af_0"
+ - "0.9--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for cojac"
-config: {"url": "https://biocontainers.pro/tools/cojac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cojac", "latest": {"0.2--hdfd78af_0": "sha256:8455969a912054a6fa222c3c36143d327b51fe9904035390d5d36bd8731c47db"}, "tags": {"0.2--hdfd78af_0": "sha256:8455969a912054a6fa222c3c36143d327b51fe9904035390d5d36bd8731c47db"}, "docker": "quay.io/biocontainers/cojac", "aliases": {"cooc-colourmut": "/usr/local/bin/cooc-colourmut", "cooc-curate": "/usr/local/bin/cooc-curate", "cooc-mutbamscan": "/usr/local/bin/cooc-mutbamscan", "cooc-pubmut": "/usr/local/bin/cooc-pubmut", "cooc-tabmut": "/usr/local/bin/cooc-tabmut", "phe2cojac": "/usr/local/bin/phe2cojac", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cojac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cojac", "latest": {"0.9--pyh7cba7a3_0": "sha256:8e3a7cd864dc6192e5458b3c4863166472c7e160accaf93f43c8ceae76b4a498"}, "tags": {"0.2--hdfd78af_0": "sha256:8455969a912054a6fa222c3c36143d327b51fe9904035390d5d36bd8731c47db", "0.9--pyh7cba7a3_0": "sha256:8e3a7cd864dc6192e5458b3c4863166472c7e160accaf93f43c8ceae76b4a498"}, "docker": "quay.io/biocontainers/cojac", "aliases": {"cooc-colourmut": "/usr/local/bin/cooc-colourmut", "cooc-curate": "/usr/local/bin/cooc-curate", "cooc-mutbamscan": "/usr/local/bin/cooc-mutbamscan", "cooc-pubmut": "/usr/local/bin/cooc-pubmut", "cooc-tabmut": "/usr/local/bin/cooc-tabmut", "phe2cojac": "/usr/local/bin/phe2cojac", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cojac.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/cojac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cojac:0.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/cojac:0.9--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cojac/0.2--hdfd78af_0
-$ module help quay.io/biocontainers/cojac/0.2--hdfd78af_0
+$ module load quay.io/biocontainers/cojac/0.9--pyh7cba7a3_0
+$ module help quay.io/biocontainers/cojac/0.9--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/boquila"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boquila/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boquila/container.yaml"
-updated_at: "2023-04-14 02:56:34.949579"
-latest: "0.6.0--hdfd78af_0"
+updated_at: "2023-04-15 02:52:20.226241"
+latest: "0.6.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/boquila"
 aliases:
  - "boquila"
 versions:
  - "0.6.0--hdfd78af_0"
+ - "0.6.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for boquila"
-config: {"url": "https://biocontainers.pro/tools/boquila", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for boquila", "latest": {"0.6.0--hdfd78af_0": "sha256:87eccf9ce054cbd981f39f47a6e738cfef526a4294ca7c41487a723e7a9a3337"}, "tags": {"0.6.0--hdfd78af_0": "sha256:87eccf9ce054cbd981f39f47a6e738cfef526a4294ca7c41487a723e7a9a3337"}, "docker": "quay.io/biocontainers/boquila", "aliases": {"boquila": "/usr/local/bin/boquila"}}
+config: {"url": "https://biocontainers.pro/tools/boquila", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for boquila", "latest": {"0.6.1--hdfd78af_0": "sha256:47b2696d859a14c70d1a4351a0281710ddcb80c73abc65f9bd4b060f8ee7b6f6"}, "tags": {"0.6.0--hdfd78af_0": "sha256:87eccf9ce054cbd981f39f47a6e738cfef526a4294ca7c41487a723e7a9a3337", "0.6.1--hdfd78af_0": "sha256:47b2696d859a14c70d1a4351a0281710ddcb80c73abc65f9bd4b060f8ee7b6f6"}, "docker": "quay.io/biocontainers/boquila", "aliases": {"boquila": "/usr/local/bin/boquila"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/boquila.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/boquila
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/boquila:0.6.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/boquila:0.6.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/boquila/0.6.0--hdfd78af_0
-$ module help quay.io/biocontainers/boquila/0.6.0--hdfd78af_0
+$ module load quay.io/biocontainers/boquila/0.6.1--hdfd78af_0
+$ module help quay.io/biocontainers/boquila/0.6.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
