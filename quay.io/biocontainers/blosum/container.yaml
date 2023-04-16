@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/blosum
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for blosum
 latest:
-  2.0.1--pyhdfd78af_0: sha256:ec4ae85ea03278b0de4884efef2f2c2868bee63d17d5ae4bd3abcce447c90f53
+  2.0.2--pyhdfd78af_0: sha256:0736baf72c75713674cf2a6ea723056fc44403f8e2ad106f1c69868098e2eed3
 tags:
   1.2.2--pyhdfd78af_0: sha256:51328abf50975ba73389fc7c095c07f5accbdd9dd38915fe57f2c97136310c81
   2.0.1--pyhdfd78af_0: sha256:ec4ae85ea03278b0de4884efef2f2c2868bee63d17d5ae4bd3abcce447c90f53
+  2.0.2--pyhdfd78af_0: sha256:0736baf72c75713674cf2a6ea723056fc44403f8e2ad106f1c69868098e2eed3
 docker: quay.io/biocontainers/blosum
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

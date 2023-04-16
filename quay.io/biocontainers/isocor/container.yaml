@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/isocor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for isocor
 latest:
-  2.2.0--py_0: sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e
+  2.2.1--pyhdfd78af_0: sha256:d7401c5651820c241c0ceeaffa1f7bded03b59b9180fdbb7e8773616d18cf00f
 tags:
   2.2.0--py_0: sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e
+  2.2.1--pyhdfd78af_0: sha256:d7401c5651820c241c0ceeaffa1f7bded03b59b9180fdbb7e8773616d18cf00f
 docker: quay.io/biocontainers/isocor
 aliases:
   isocor: /usr/local/bin/isocor

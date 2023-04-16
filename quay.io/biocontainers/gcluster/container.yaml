@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gcluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gcluster
 latest:
-  2.0.5--hdfd78af_1: sha256:7388de9566bf822b6e59b40e9a9e14022985004d165a1f6f265048a049102bd4
+  2.06--hdfd78af_0: sha256:897ce3aa26db9f138dc7915b625ccce8107f8f340bbd4b7365fcd9828d9ef3f9
 tags:
   2.0.5--hdfd78af_1: sha256:7388de9566bf822b6e59b40e9a9e14022985004d165a1f6f265048a049102bd4
+  2.06--hdfd78af_0: sha256:897ce3aa26db9f138dc7915b625ccce8107f8f340bbd4b7365fcd9828d9ef3f9
 docker: quay.io/biocontainers/gcluster
 aliases:
   Gcluster.pl: /usr/local/bin/Gcluster.pl

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gcta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gcta
 latest:
-  1.93.2beta--h9ee0642_1: sha256:f0b0a7f6810020ece4400d56832d19316668222a27217731a06d13f51d81fe6b
+  1.94.1--h9ee0642_0: sha256:14708fd307cb7fc19b9991553f33539502370ecd2b377a8815d830ca9df77967
 tags:
   1.93.2beta--h9ee0642_1: sha256:f0b0a7f6810020ece4400d56832d19316668222a27217731a06d13f51d81fe6b
+  1.94.1--h9ee0642_0: sha256:14708fd307cb7fc19b9991553f33539502370ecd2b377a8815d830ca9df77967
 docker: quay.io/biocontainers/gcta
 aliases:
   gcta64: /usr/local/bin/gcta64

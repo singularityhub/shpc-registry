@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/strling
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for strling
 latest:
-  0.5.1--h04c669c_4: sha256:48f282d9efac3a12f7957e1587214a295619bea0e44fe2eeba55dc6d6f7aa80b
+  0.5.2--h04c669c_0: sha256:7e1dde9deaaf9002d59706385eb6433dbf58792d25acaa3bc05d1b42b80adefe
 tags:
   0.5.1--h8a6b41c_3: sha256:7165d1845c2e8b1f9c071e7369924958d3a6dbde32d8758bcbef5eb3c0073e33
   0.5.1--h04c669c_4: sha256:48f282d9efac3a12f7957e1587214a295619bea0e44fe2eeba55dc6d6f7aa80b
+  0.5.2--h04c669c_0: sha256:7e1dde9deaaf9002d59706385eb6433dbf58792d25acaa3bc05d1b42b80adefe
 docker: quay.io/biocontainers/strling
 aliases:
   bg-bpipe: /usr/local/bin/bg-bpipe
