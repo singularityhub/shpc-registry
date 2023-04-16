@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnp-diprofile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-diprofile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-diprofile/container.yaml"
-updated_at: "2023-04-15 02:59:31.024470"
+updated_at: "2023-04-16 03:02:40.922122"
 latest: "1.0--hf1761c0_4"
 container_url: "https://biocontainers.pro/tools/dnp-diprofile"
 aliases:

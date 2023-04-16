@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/circos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circos/container.yaml"
-updated_at: "2023-04-15 02:58:46.621274"
-latest: "0.69.8--hdfd78af_1"
+updated_at: "2023-04-16 03:01:56.717078"
+latest: "0.69.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/circos"
 
 versions:
  - "0.69.8--hdfd78af_1"
+ - "0.69.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for circos"
-config: {"url": "https://biocontainers.pro/tools/circos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circos", "latest": {"0.69.8--hdfd78af_1": "sha256:6b6ff77d418d0ac3fb3bf30850ce113dc215b4c584e4ee7fd894b4730072e00c"}, "tags": {"0.69.8--hdfd78af_1": "sha256:6b6ff77d418d0ac3fb3bf30850ce113dc215b4c584e4ee7fd894b4730072e00c"}, "docker": "quay.io/biocontainers/circos"}
+config: {"url": "https://biocontainers.pro/tools/circos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circos", "latest": {"0.69.9--hdfd78af_0": "sha256:e498952eb3d5aca4a049cc5bf0bd40139f761f2bf0f8b33b3dfab53af43394e0"}, "tags": {"0.69.8--hdfd78af_1": "sha256:6b6ff77d418d0ac3fb3bf30850ce113dc215b4c584e4ee7fd894b4730072e00c", "0.69.9--hdfd78af_0": "sha256:e498952eb3d5aca4a049cc5bf0bd40139f761f2bf0f8b33b3dfab53af43394e0"}, "docker": "quay.io/biocontainers/circos"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circos.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/circos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circos:0.69.8--hdfd78af_1
+$ shpc install quay.io/biocontainers/circos:0.69.9--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circos/0.69.8--hdfd78af_1
-$ module help quay.io/biocontainers/circos/0.69.8--hdfd78af_1
+$ module load quay.io/biocontainers/circos/0.69.9--hdfd78af_0
+$ module help quay.io/biocontainers/circos/0.69.9--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

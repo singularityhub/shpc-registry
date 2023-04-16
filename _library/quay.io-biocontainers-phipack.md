@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phipack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phipack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phipack/container.yaml"
-updated_at: "2023-04-15 02:36:41.528608"
+updated_at: "2023-04-16 02:40:18.564863"
 latest: "1.1--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/phipack"
 aliases:

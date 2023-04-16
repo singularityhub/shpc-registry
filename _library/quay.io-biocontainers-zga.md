@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zga/container.yaml"
-updated_at: "2023-04-15 02:50:26.979515"
-latest: "0.0.9.post2--pyhdfd78af_1"
+updated_at: "2023-04-16 02:53:46.762091"
+latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/zga"
 aliases:
  - "checkm"
@@ -41,8 +41,9 @@ aliases:
  - "summarizecoverage.sh"
 versions:
  - "0.0.9.post2--pyhdfd78af_1"
+ - "0.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for zga"
-config: {"url": "https://biocontainers.pro/tools/zga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zga", "latest": {"0.0.9.post2--pyhdfd78af_1": "sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df"}, "tags": {"0.0.9.post2--pyhdfd78af_1": "sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df"}, "docker": "quay.io/biocontainers/zga", "aliases": {"checkm": "/usr/local/bin/checkm", "dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "nxtrim": "/usr/local/bin/nxtrim", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "unicycler": "/usr/local/bin/unicycler", "unicycler_align": "/usr/local/bin/unicycler_align", "unicycler_check": "/usr/local/bin/unicycler_check", "unicycler_polish": "/usr/local/bin/unicycler_polish", "unicycler_scrub": "/usr/local/bin/unicycler_scrub", "update_version.sh": "/usr/local/bin/update_version.sh", "zga": "/usr/local/bin/zga", "filter-table": "/usr/local/bin/filter-table", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "spdi2prod": "/usr/local/bin/spdi2prod", "fastp": "/usr/local/bin/fastp", "pilon": "/usr/local/bin/pilon", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "rppr": "/usr/local/bin/rppr", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh"}}
+config: {"url": "https://biocontainers.pro/tools/zga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zga", "latest": {"0.1.0--pyhdfd78af_0": "sha256:bdc08cdad66770b01d00b9b14256167b883f142e9030831919085ecfde5a9614"}, "tags": {"0.0.9.post2--pyhdfd78af_1": "sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df", "0.1.0--pyhdfd78af_0": "sha256:bdc08cdad66770b01d00b9b14256167b883f142e9030831919085ecfde5a9614"}, "docker": "quay.io/biocontainers/zga", "aliases": {"checkm": "/usr/local/bin/checkm", "dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "nxtrim": "/usr/local/bin/nxtrim", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "unicycler": "/usr/local/bin/unicycler", "unicycler_align": "/usr/local/bin/unicycler_align", "unicycler_check": "/usr/local/bin/unicycler_check", "unicycler_polish": "/usr/local/bin/unicycler_polish", "unicycler_scrub": "/usr/local/bin/unicycler_scrub", "update_version.sh": "/usr/local/bin/update_version.sh", "zga": "/usr/local/bin/zga", "filter-table": "/usr/local/bin/filter-table", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "spdi2prod": "/usr/local/bin/spdi2prod", "fastp": "/usr/local/bin/fastp", "pilon": "/usr/local/bin/pilon", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "rppr": "/usr/local/bin/rppr", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zga.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/zga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zga:0.0.9.post2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/zga:0.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zga/0.0.9.post2--pyhdfd78af_1
-$ module help quay.io/biocontainers/zga/0.0.9.post2--pyhdfd78af_1
+$ module load quay.io/biocontainers/zga/0.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/zga/0.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
