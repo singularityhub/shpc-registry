@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blosum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blosum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blosum/container.yaml"
-updated_at: "2023-04-16 02:38:39.173922"
-latest: "2.0.1--pyhdfd78af_0"
+updated_at: "2023-04-17 02:36:57.714519"
+latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blosum"
 aliases:
  - "2to3-3.11"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "1.2.2--pyhdfd78af_0"
  - "2.0.1--pyhdfd78af_0"
+ - "2.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for blosum"
-config: {"url": "https://biocontainers.pro/tools/blosum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blosum", "latest": {"2.0.1--pyhdfd78af_0": "sha256:ec4ae85ea03278b0de4884efef2f2c2868bee63d17d5ae4bd3abcce447c90f53"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:51328abf50975ba73389fc7c095c07f5accbdd9dd38915fe57f2c97136310c81", "2.0.1--pyhdfd78af_0": "sha256:ec4ae85ea03278b0de4884efef2f2c2868bee63d17d5ae4bd3abcce447c90f53"}, "docker": "quay.io/biocontainers/blosum", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/blosum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blosum", "latest": {"2.0.2--pyhdfd78af_0": "sha256:0736baf72c75713674cf2a6ea723056fc44403f8e2ad106f1c69868098e2eed3"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:51328abf50975ba73389fc7c095c07f5accbdd9dd38915fe57f2c97136310c81", "2.0.1--pyhdfd78af_0": "sha256:ec4ae85ea03278b0de4884efef2f2c2868bee63d17d5ae4bd3abcce447c90f53", "2.0.2--pyhdfd78af_0": "sha256:0736baf72c75713674cf2a6ea723056fc44403f8e2ad106f1c69868098e2eed3"}, "docker": "quay.io/biocontainers/blosum", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blosum.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/blosum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blosum:2.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/blosum:2.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blosum/2.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/blosum/2.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/blosum/2.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/blosum/2.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

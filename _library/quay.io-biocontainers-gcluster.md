@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcluster/container.yaml"
-updated_at: "2023-04-16 02:50:09.136113"
-latest: "2.0.5--hdfd78af_1"
+updated_at: "2023-04-17 02:50:48.037061"
+latest: "2.06--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gcluster"
 aliases:
  - "Gcluster.pl"
@@ -23,8 +23,9 @@ aliases:
  - "mcxassemble"
 versions:
  - "2.0.5--hdfd78af_1"
+ - "2.06--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gcluster"
-config: {"url": "https://biocontainers.pro/tools/gcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcluster", "latest": {"2.0.5--hdfd78af_1": "sha256:7388de9566bf822b6e59b40e9a9e14022985004d165a1f6f265048a049102bd4"}, "tags": {"2.0.5--hdfd78af_1": "sha256:7388de9566bf822b6e59b40e9a9e14022985004d165a1f6f265048a049102bd4"}, "docker": "quay.io/biocontainers/gcluster", "aliases": {"Gcluster.pl": "/usr/local/bin/Gcluster.pl", "interested_gene_generation.pl": "/usr/local/bin/interested_gene_generation.pl", "test.pl": "/usr/local/bin/test.pl", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
+config: {"url": "https://biocontainers.pro/tools/gcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcluster", "latest": {"2.06--hdfd78af_0": "sha256:897ce3aa26db9f138dc7915b625ccce8107f8f340bbd4b7365fcd9828d9ef3f9"}, "tags": {"2.0.5--hdfd78af_1": "sha256:7388de9566bf822b6e59b40e9a9e14022985004d165a1f6f265048a049102bd4", "2.06--hdfd78af_0": "sha256:897ce3aa26db9f138dc7915b625ccce8107f8f340bbd4b7365fcd9828d9ef3f9"}, "docker": "quay.io/biocontainers/gcluster", "aliases": {"Gcluster.pl": "/usr/local/bin/Gcluster.pl", "interested_gene_generation.pl": "/usr/local/bin/interested_gene_generation.pl", "test.pl": "/usr/local/bin/test.pl", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gcluster.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/gcluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gcluster:2.0.5--hdfd78af_1
+$ shpc install quay.io/biocontainers/gcluster:2.06--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gcluster/2.0.5--hdfd78af_1
-$ module help quay.io/biocontainers/gcluster/2.0.5--hdfd78af_1
+$ module load quay.io/biocontainers/gcluster/2.06--hdfd78af_0
+$ module help quay.io/biocontainers/gcluster/2.06--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

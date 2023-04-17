@@ -4,7 +4,7 @@ name:  "rocker/tidyverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/tidyverse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
-updated_at: "2023-04-16 03:21:48.521295"
+updated_at: "2023-04-17 03:28:47.329259"
 latest: "4.2.3"
 container_url: "https://hub.docker.com/r/rocker/tidyverse"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "4.0.5"
  - "4.2.3"
 description: "Version-stable build of R, rstudio, and R packages "
-config: {"docker": "rocker/tidyverse", "url": "https://hub.docker.com/r/rocker/tidyverse", "maintainer": "@vsoch", "description": "Version-stable build of R, rstudio, and R packages ", "latest": {"4.2.3": "sha256:98777881e070b639c8a32d2dfc1831bd700eab9a46ad9753b73cee26ff9b47f9"}, "tags": {"4.2.2": "sha256:b8781ecf39977e8f4c6b3db534fcb3e2315f5821d5386aaf76317160d7f03198", "3.6.3": "sha256:e3be20f79432e88e5e242d553d2bba76caf61c41d14186edd1f6a2343800de74", "4.1.3": "sha256:14e1cb78e0321f044c82b872863f39deeda03a522ae8bdc11921b49e0f2342f0", "4.0.5": "sha256:95121772818a815b1068cb2b0156e462abefd442008e1f8b626fc7f47b8c51ae", "4.2.3": "sha256:98777881e070b639c8a32d2dfc1831bd700eab9a46ad9753b73cee26ff9b47f9"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-tidyverse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/tidyverse", "url": "https://hub.docker.com/r/rocker/tidyverse", "maintainer": "@vsoch", "description": "Version-stable build of R, rstudio, and R packages ", "latest": {"4.2.3": "sha256:6fca13b5d9daa2bc47ed1156da5300a46ab97e9e56c3d6091497822b588baee9"}, "tags": {"4.2.2": "sha256:b8781ecf39977e8f4c6b3db534fcb3e2315f5821d5386aaf76317160d7f03198", "3.6.3": "sha256:e3be20f79432e88e5e242d553d2bba76caf61c41d14186edd1f6a2343800de74", "4.1.3": "sha256:14e1cb78e0321f044c82b872863f39deeda03a522ae8bdc11921b49e0f2342f0", "4.0.5": "sha256:95121772818a815b1068cb2b0156e462abefd442008e1f8b626fc7f47b8c51ae", "4.2.3": "sha256:6fca13b5d9daa2bc47ed1156da5300a46ab97e9e56c3d6091497822b588baee9"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-tidyverse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/tidyverse.

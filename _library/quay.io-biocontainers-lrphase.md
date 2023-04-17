@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lrphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrphase/container.yaml"
-updated_at: "2023-04-16 02:44:37.022686"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2023-04-17 02:44:08.552803"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lrphase"
 aliases:
  - "LRphase"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for lrphase"
-config: {"url": "https://biocontainers.pro/tools/lrphase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lrphase", "latest": {"1.1.0--pyhdfd78af_0": "sha256:bba644306bbfabff0e7838c6fb44a5a333762f797bb2abe01f9306a69e3a4535"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:d52524e471f034ef9d55a72a1edde940613f300f7013a1eb98c69430742d68cc", "1.1.0--pyhdfd78af_0": "sha256:bba644306bbfabff0e7838c6fb44a5a333762f797bb2abe01f9306a69e3a4535"}, "docker": "quay.io/biocontainers/lrphase", "aliases": {"LRphase": "/usr/local/bin/LRphase", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/lrphase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lrphase", "latest": {"1.1.2--pyhdfd78af_0": "sha256:38152a9b46457202e3b9610968ff78f172861c5485a1d80d92495331a6e89f36"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:d52524e471f034ef9d55a72a1edde940613f300f7013a1eb98c69430742d68cc", "1.1.0--pyhdfd78af_0": "sha256:bba644306bbfabff0e7838c6fb44a5a333762f797bb2abe01f9306a69e3a4535", "1.1.2--pyhdfd78af_0": "sha256:38152a9b46457202e3b9610968ff78f172861c5485a1d80d92495331a6e89f36"}, "docker": "quay.io/biocontainers/lrphase", "aliases": {"LRphase": "/usr/local/bin/LRphase", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lrphase.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/lrphase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lrphase:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/lrphase:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lrphase/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/lrphase/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/lrphase/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/lrphase/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

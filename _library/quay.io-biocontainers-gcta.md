@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gcta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcta/container.yaml"
-updated_at: "2023-04-16 03:21:04.902753"
-latest: "1.93.2beta--h9ee0642_1"
+updated_at: "2023-04-17 03:27:54.584258"
+latest: "1.94.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/gcta"
 aliases:
  - "gcta64"
 versions:
  - "1.93.2beta--h9ee0642_1"
+ - "1.94.1--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for gcta"
-config: {"url": "https://biocontainers.pro/tools/gcta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcta", "latest": {"1.93.2beta--h9ee0642_1": "sha256:f0b0a7f6810020ece4400d56832d19316668222a27217731a06d13f51d81fe6b"}, "tags": {"1.93.2beta--h9ee0642_1": "sha256:f0b0a7f6810020ece4400d56832d19316668222a27217731a06d13f51d81fe6b"}, "docker": "quay.io/biocontainers/gcta", "aliases": {"gcta64": "/usr/local/bin/gcta64"}}
+config: {"url": "https://biocontainers.pro/tools/gcta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcta", "latest": {"1.94.1--h9ee0642_0": "sha256:14708fd307cb7fc19b9991553f33539502370ecd2b377a8815d830ca9df77967"}, "tags": {"1.93.2beta--h9ee0642_1": "sha256:f0b0a7f6810020ece4400d56832d19316668222a27217731a06d13f51d81fe6b", "1.94.1--h9ee0642_0": "sha256:14708fd307cb7fc19b9991553f33539502370ecd2b377a8815d830ca9df77967"}, "docker": "quay.io/biocontainers/gcta", "aliases": {"gcta64": "/usr/local/bin/gcta64"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gcta.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gcta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gcta:1.93.2beta--h9ee0642_1
+$ shpc install quay.io/biocontainers/gcta:1.94.1--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gcta/1.93.2beta--h9ee0642_1
-$ module help quay.io/biocontainers/gcta/1.93.2beta--h9ee0642_1
+$ module load quay.io/biocontainers/gcta/1.94.1--h9ee0642_0
+$ module help quay.io/biocontainers/gcta/1.94.1--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

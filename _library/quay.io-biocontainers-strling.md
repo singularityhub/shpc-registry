@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strling/container.yaml"
-updated_at: "2023-04-16 03:19:15.697241"
-latest: "0.5.1--h04c669c_4"
+updated_at: "2023-04-17 03:25:41.926450"
+latest: "0.5.2--h04c669c_0"
 container_url: "https://biocontainers.pro/tools/strling"
 aliases:
  - "bg-bpipe"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "0.5.1--h8a6b41c_3"
  - "0.5.1--h04c669c_4"
+ - "0.5.2--h04c669c_0"
 description: "shpc-registry automated BioContainers addition for strling"
-config: {"url": "https://biocontainers.pro/tools/strling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strling", "latest": {"0.5.1--h04c669c_4": "sha256:48f282d9efac3a12f7957e1587214a295619bea0e44fe2eeba55dc6d6f7aa80b"}, "tags": {"0.5.1--h8a6b41c_3": "sha256:7165d1845c2e8b1f9c071e7369924958d3a6dbde32d8758bcbef5eb3c0073e33", "0.5.1--h04c669c_4": "sha256:48f282d9efac3a12f7957e1587214a295619bea0e44fe2eeba55dc6d6f7aa80b"}, "docker": "quay.io/biocontainers/strling", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "strling": "/usr/local/bin/strling", "strling-outliers.py": "/usr/local/bin/strling-outliers.py", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
+config: {"url": "https://biocontainers.pro/tools/strling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strling", "latest": {"0.5.2--h04c669c_0": "sha256:7e1dde9deaaf9002d59706385eb6433dbf58792d25acaa3bc05d1b42b80adefe"}, "tags": {"0.5.1--h8a6b41c_3": "sha256:7165d1845c2e8b1f9c071e7369924958d3a6dbde32d8758bcbef5eb3c0073e33", "0.5.1--h04c669c_4": "sha256:48f282d9efac3a12f7957e1587214a295619bea0e44fe2eeba55dc6d6f7aa80b", "0.5.2--h04c669c_0": "sha256:7e1dde9deaaf9002d59706385eb6433dbf58792d25acaa3bc05d1b42b80adefe"}, "docker": "quay.io/biocontainers/strling", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "strling": "/usr/local/bin/strling", "strling-outliers.py": "/usr/local/bin/strling-outliers.py", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strling.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/strling
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strling:0.5.1--h04c669c_4
+$ shpc install quay.io/biocontainers/strling:0.5.2--h04c669c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strling/0.5.1--h04c669c_4
-$ module help quay.io/biocontainers/strling/0.5.1--h04c669c_4
+$ module load quay.io/biocontainers/strling/0.5.2--h04c669c_0
+$ module help quay.io/biocontainers/strling/0.5.2--h04c669c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

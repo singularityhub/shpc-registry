@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsort/container.yaml"
-updated_at: "2023-04-16 03:04:53.848199"
+updated_at: "2023-04-17 03:08:34.115500"
 latest: "0.1.4--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/gsort"
 aliases:
