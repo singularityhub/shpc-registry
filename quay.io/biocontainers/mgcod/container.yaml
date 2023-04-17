@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mgcod
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mgcod
 latest:
-  1.0.0--hdfd78af_0: sha256:6e4ea36eb702757f1891d08298aa1e1c784837c8acf2304ea0992c176d6ef444
+  1.0.1--hdfd78af_0: sha256:b0cfaec2f64684a88983c02899ada22257b48a3761c6144bbddf6068f67afebc
 tags:
   1.0.0--hdfd78af_0: sha256:6e4ea36eb702757f1891d08298aa1e1c784837c8acf2304ea0992c176d6ef444
+  1.0.1--hdfd78af_0: sha256:b0cfaec2f64684a88983c02899ada22257b48a3761c6144bbddf6068f67afebc
 docker: quay.io/biocontainers/mgcod
 aliases:
   data.py: /usr/local/bin/data.py

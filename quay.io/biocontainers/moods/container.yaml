@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/moods
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for moods
 latest:
-  1.9.4.1--py36hf484d3e_0: sha256:4104151994349a4f85e4a6fc8d810b2a66aab7de54dbadd53200675977500126
+  1.9.4.1--py37h675a0cb_2: sha256:fd7385b3661197aeee37395efcf79cd853774ddfc2f46e12832a2af8ecfe7de2
 tags:
   1.9.4.1--py36hf484d3e_0: sha256:4104151994349a4f85e4a6fc8d810b2a66aab7de54dbadd53200675977500126
+  1.9.4.1--py37h675a0cb_2: sha256:fd7385b3661197aeee37395efcf79cd853774ddfc2f46e12832a2af8ecfe7de2
 docker: quay.io/biocontainers/moods
 aliases:
   ccache-swig: /usr/local/bin/ccache-swig
