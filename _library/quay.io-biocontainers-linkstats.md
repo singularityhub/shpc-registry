@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/linkstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linkstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linkstats/container.yaml"
-updated_at: "2023-04-17 03:05:38.309060"
+updated_at: "2023-04-17 03:28:44.258593"
 latest: "0.1.3--py310h3545f30_5"
 container_url: "https://biocontainers.pro/tools/linkstats"
 aliases:

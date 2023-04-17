@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kronik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kronik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kronik/container.yaml"
-updated_at: "2023-04-17 02:43:44.468704"
+updated_at: "2023-04-17 03:01:52.791671"
 latest: "2.20--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/kronik"
 aliases:
