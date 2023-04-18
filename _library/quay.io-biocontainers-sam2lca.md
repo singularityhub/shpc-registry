@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sam2lca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam2lca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam2lca/container.yaml"
-updated_at: "2023-04-17 03:04:13.953703"
-latest: "1.1.2--pyhdfd78af_1"
+updated_at: "2023-04-18 02:44:17.706343"
+latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sam2lca"
 aliases:
  - "sam2lca"
@@ -21,8 +21,9 @@ aliases:
  - "unpigz"
 versions:
  - "1.1.2--pyhdfd78af_1"
+ - "1.1.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sam2lca"
-config: {"url": "https://biocontainers.pro/tools/sam2lca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam2lca", "latest": {"1.1.2--pyhdfd78af_1": "sha256:a0ce611f6e4d0ecbe70dbca9cc6fd3513f10d4a73aa6048439c8032924e469ac"}, "tags": {"1.1.2--pyhdfd78af_1": "sha256:a0ce611f6e4d0ecbe70dbca9cc6fd3513f10d4a73aa6048439c8032924e469ac"}, "docker": "quay.io/biocontainers/sam2lca", "aliases": {"sam2lca": "/usr/local/bin/sam2lca", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
+config: {"url": "https://biocontainers.pro/tools/sam2lca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam2lca", "latest": {"1.1.3--pyhdfd78af_0": "sha256:2d14563c5312c2c288c5c39f686e79004a76b98f036e0b568e0d779e56ac6056"}, "tags": {"1.1.2--pyhdfd78af_1": "sha256:a0ce611f6e4d0ecbe70dbca9cc6fd3513f10d4a73aa6048439c8032924e469ac", "1.1.3--pyhdfd78af_0": "sha256:2d14563c5312c2c288c5c39f686e79004a76b98f036e0b568e0d779e56ac6056"}, "docker": "quay.io/biocontainers/sam2lca", "aliases": {"sam2lca": "/usr/local/bin/sam2lca", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sam2lca.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/sam2lca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sam2lca:1.1.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/sam2lca:1.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sam2lca/1.1.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/sam2lca/1.1.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/sam2lca/1.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/sam2lca/1.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

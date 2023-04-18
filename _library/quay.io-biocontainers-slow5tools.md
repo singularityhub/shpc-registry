@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/slow5tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slow5tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slow5tools/container.yaml"
-updated_at: "2023-04-17 03:19:28.616999"
-latest: "0.6.0--h0326b38_2"
+updated_at: "2023-04-18 02:56:56.262102"
+latest: "1.0.0--h0326b38_0"
 container_url: "https://biocontainers.pro/tools/slow5tools"
 aliases:
  - "slow5tools"
@@ -21,8 +21,12 @@ aliases:
  - "h5copy"
 versions:
  - "0.6.0--h0326b38_2"
+ - "1.0.0--h0326b38_0"
+ - "0.9.0--h0326b38_0"
+ - "0.8.0--h0326b38_0"
+ - "0.7.0--h0326b38_0"
 description: "shpc-registry automated BioContainers addition for slow5tools"
-config: {"url": "https://biocontainers.pro/tools/slow5tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slow5tools", "latest": {"0.6.0--h0326b38_2": "sha256:fa2549fa31797e890061e4e6c911d2d378486cf17f6e98adeb93f17500e5cdca"}, "tags": {"0.6.0--h0326b38_2": "sha256:fa2549fa31797e890061e4e6c911d2d378486cf17f6e98adeb93f17500e5cdca"}, "docker": "quay.io/biocontainers/slow5tools", "aliases": {"slow5tools": "/usr/local/bin/slow5tools", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/slow5tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slow5tools", "latest": {"1.0.0--h0326b38_0": "sha256:90f91ba8044f03abbe5fbfc26d59d59238a335b15ca0bbee4c78ee9af2f344bb"}, "tags": {"0.6.0--h0326b38_2": "sha256:fa2549fa31797e890061e4e6c911d2d378486cf17f6e98adeb93f17500e5cdca", "1.0.0--h0326b38_0": "sha256:90f91ba8044f03abbe5fbfc26d59d59238a335b15ca0bbee4c78ee9af2f344bb", "0.9.0--h0326b38_0": "sha256:19de6d9091eb7b94692378a04127193cd49c5161d021363b57fef29293afa5f0", "0.8.0--h0326b38_0": "sha256:04b7875daa1314c2f8d4d5fffeb6b58e6391be2b69a704379453c3596ac88d21", "0.7.0--h0326b38_0": "sha256:179fa0baacc5088811445883d0867358899b69f7ec2bbebad607a28199a3c510"}, "docker": "quay.io/biocontainers/slow5tools", "aliases": {"slow5tools": "/usr/local/bin/slow5tools", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slow5tools.
@@ -37,7 +41,7 @@ $ shpc install quay.io/biocontainers/slow5tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/slow5tools:0.6.0--h0326b38_2
+$ shpc install quay.io/biocontainers/slow5tools:1.0.0--h0326b38_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/slow5tools/0.6.0--h0326b38_2
-$ module help quay.io/biocontainers/slow5tools/0.6.0--h0326b38_2
+$ module load quay.io/biocontainers/slow5tools/1.0.0--h0326b38_0
+$ module help quay.io/biocontainers/slow5tools/1.0.0--h0326b38_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

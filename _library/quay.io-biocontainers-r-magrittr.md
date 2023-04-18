@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-magrittr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-magrittr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-magrittr/container.yaml"
-updated_at: "2023-04-17 03:21:15.664280"
+updated_at: "2023-04-18 02:58:22.960419"
 latest: "1.5--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-magrittr"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smoothxg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smoothxg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smoothxg/container.yaml"
-updated_at: "2023-04-17 03:31:29.339781"
-latest: "0.6.8--hfb1f815_0"
+updated_at: "2023-04-18 03:06:37.970783"
+latest: "0.7.0--hfb1f815_0"
 container_url: "https://biocontainers.pro/tools/smoothxg"
 aliases:
  - "smoothxg"
@@ -13,8 +13,9 @@ versions:
  - "0.6.5--hfb1f815_2"
  - "0.6.7--hfb1f815_1"
  - "0.6.8--hfb1f815_0"
+ - "0.7.0--hfb1f815_0"
 description: "shpc-registry automated BioContainers addition for smoothxg"
-config: {"url": "https://biocontainers.pro/tools/smoothxg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smoothxg", "latest": {"0.6.8--hfb1f815_0": "sha256:e1dc69f6bf1496a516a496fea187ae37c0b0dd125eacf8561f44dd71eb6348a1"}, "tags": {"0.6.5--hfb1f815_2": "sha256:c4c82cbbf83b65d767c3f6af2b8a6fb5894ddb828d75d1a7f94da3224b2299ea", "0.6.7--hfb1f815_1": "sha256:0d752f242a36a696064edd84137b62fa7416645c324be5c1f30f4d69b8754189", "0.6.8--hfb1f815_0": "sha256:e1dc69f6bf1496a516a496fea187ae37c0b0dd125eacf8561f44dd71eb6348a1"}, "docker": "quay.io/biocontainers/smoothxg", "aliases": {"smoothxg": "/usr/local/bin/smoothxg"}}
+config: {"url": "https://biocontainers.pro/tools/smoothxg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smoothxg", "latest": {"0.7.0--hfb1f815_0": "sha256:81ae8327cb62678ff597096f25141448f2ec3e3269b6e7c90e59acc94bb2ba38"}, "tags": {"0.6.5--hfb1f815_2": "sha256:c4c82cbbf83b65d767c3f6af2b8a6fb5894ddb828d75d1a7f94da3224b2299ea", "0.6.7--hfb1f815_1": "sha256:0d752f242a36a696064edd84137b62fa7416645c324be5c1f30f4d69b8754189", "0.6.8--hfb1f815_0": "sha256:e1dc69f6bf1496a516a496fea187ae37c0b0dd125eacf8561f44dd71eb6348a1", "0.7.0--hfb1f815_0": "sha256:81ae8327cb62678ff597096f25141448f2ec3e3269b6e7c90e59acc94bb2ba38"}, "docker": "quay.io/biocontainers/smoothxg", "aliases": {"smoothxg": "/usr/local/bin/smoothxg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smoothxg.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/smoothxg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smoothxg:0.6.8--hfb1f815_0
+$ shpc install quay.io/biocontainers/smoothxg:0.7.0--hfb1f815_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smoothxg/0.6.8--hfb1f815_0
-$ module help quay.io/biocontainers/smoothxg/0.6.8--hfb1f815_0
+$ module load quay.io/biocontainers/smoothxg/0.7.0--hfb1f815_0
+$ module help quay.io/biocontainers/smoothxg/0.7.0--hfb1f815_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

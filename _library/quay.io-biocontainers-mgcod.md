@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mgcod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgcod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgcod/container.yaml"
-updated_at: "2023-04-17 03:13:28.802162"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2023-04-18 02:52:01.123224"
+latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mgcod"
 aliases:
  - "data.py"
@@ -26,8 +26,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.0.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for mgcod"
-config: {"url": "https://biocontainers.pro/tools/mgcod", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgcod", "latest": {"1.0.0--hdfd78af_0": "sha256:6e4ea36eb702757f1891d08298aa1e1c784837c8acf2304ea0992c176d6ef444"}, "tags": {"1.0.0--hdfd78af_0": "sha256:6e4ea36eb702757f1891d08298aa1e1c784837c8acf2304ea0992c176d6ef444"}, "docker": "quay.io/biocontainers/mgcod", "aliases": {"data.py": "/usr/local/bin/data.py", "mgcod.py": "/usr/local/bin/mgcod.py", "multiprocess_mgcod.py": "/usr/local/bin/multiprocess_mgcod.py", "pipeline.py": "/usr/local/bin/pipeline.py", "results.py": "/usr/local/bin/results.py", "visualizations.py": "/usr/local/bin/visualizations.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/mgcod", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgcod", "latest": {"1.0.1--hdfd78af_0": "sha256:b0cfaec2f64684a88983c02899ada22257b48a3761c6144bbddf6068f67afebc"}, "tags": {"1.0.0--hdfd78af_0": "sha256:6e4ea36eb702757f1891d08298aa1e1c784837c8acf2304ea0992c176d6ef444", "1.0.1--hdfd78af_0": "sha256:b0cfaec2f64684a88983c02899ada22257b48a3761c6144bbddf6068f67afebc"}, "docker": "quay.io/biocontainers/mgcod", "aliases": {"data.py": "/usr/local/bin/data.py", "mgcod.py": "/usr/local/bin/mgcod.py", "multiprocess_mgcod.py": "/usr/local/bin/multiprocess_mgcod.py", "pipeline.py": "/usr/local/bin/pipeline.py", "results.py": "/usr/local/bin/results.py", "visualizations.py": "/usr/local/bin/visualizations.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgcod.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/mgcod
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgcod:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/mgcod:1.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgcod/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/mgcod/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/mgcod/1.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/mgcod/1.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

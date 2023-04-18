@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bandits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bandits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bandits/container.yaml"
-updated_at: "2023-04-17 03:07:23.903696"
+updated_at: "2023-04-18 02:47:04.139633"
 latest: "1.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bandits"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tesorter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesorter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesorter/container.yaml"
-updated_at: "2023-04-17 03:22:31.300743"
-latest: "1.3.0--py_0"
+updated_at: "2023-04-18 02:59:23.862180"
+latest: "1.4.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tesorter"
 aliases:
  - "LTR_retriever.py"
@@ -27,8 +27,9 @@ aliases:
  - "readme.pdf"
 versions:
  - "1.3.0--py_0"
+ - "1.4.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tesorter"
-config: {"url": "https://biocontainers.pro/tools/tesorter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tesorter", "latest": {"1.3.0--py_0": "sha256:9cdc74b9e07458e3e4a57a3e15faa45137cb748b31a39f40cbfc9e200bc27788"}, "tags": {"1.3.0--py_0": "sha256:9cdc74b9e07458e3e4a57a3e15faa45137cb748b31a39f40cbfc9e200bc27788"}, "docker": "quay.io/biocontainers/tesorter", "aliases": {"LTR_retriever.py": "/usr/local/bin/LTR_retriever.py", "RepeatMasker.py": "/usr/local/bin/RepeatMasker.py", "TEsorter": "/usr/local/bin/TEsorter", "TEsorter-test": "/usr/local/bin/TEsorter-test", "concatenate_domains.py": "/usr/local/bin/concatenate_domains.py", "get_record.py": "/usr/local/bin/get_record.py", "ppserver.py": "/usr/local/bin/ppserver.py", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/tesorter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tesorter", "latest": {"1.4.6--pyhdfd78af_0": "sha256:65a6a909483f9a405a7fa5106ea409c981cfb09eee545b6916b54e9347f95081"}, "tags": {"1.3.0--py_0": "sha256:9cdc74b9e07458e3e4a57a3e15faa45137cb748b31a39f40cbfc9e200bc27788", "1.4.6--pyhdfd78af_0": "sha256:65a6a909483f9a405a7fa5106ea409c981cfb09eee545b6916b54e9347f95081"}, "docker": "quay.io/biocontainers/tesorter", "aliases": {"LTR_retriever.py": "/usr/local/bin/LTR_retriever.py", "RepeatMasker.py": "/usr/local/bin/RepeatMasker.py", "TEsorter": "/usr/local/bin/TEsorter", "TEsorter-test": "/usr/local/bin/TEsorter-test", "concatenate_domains.py": "/usr/local/bin/concatenate_domains.py", "get_record.py": "/usr/local/bin/get_record.py", "ppserver.py": "/usr/local/bin/ppserver.py", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tesorter.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/tesorter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tesorter:1.3.0--py_0
+$ shpc install quay.io/biocontainers/tesorter:1.4.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tesorter/1.3.0--py_0
-$ module help quay.io/biocontainers/tesorter/1.3.0--py_0
+$ module load quay.io/biocontainers/tesorter/1.4.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/tesorter/1.4.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

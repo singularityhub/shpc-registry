@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ascat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ascat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ascat/container.yaml"
-updated_at: "2023-04-17 02:51:00.163327"
-latest: "3.0.0--r42hdfd78af_1"
+updated_at: "2023-04-18 02:32:25.513061"
+latest: "3.1.1--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ascat"
 
 versions:
  - "3.0.0--r41hdfd78af_0"
  - "3.0.0--r42hdfd78af_1"
+ - "3.1.1--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ascat"
-config: {"url": "https://biocontainers.pro/tools/ascat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ascat", "latest": {"3.0.0--r42hdfd78af_1": "sha256:f8c11375b1ac1b50d5b85196e35ff5af94ded8d45fd0a69a4657d02a21355e12"}, "tags": {"3.0.0--r41hdfd78af_0": "sha256:e2848d59330279ee11ca493300ec507dfeed5261cdb729d6719b857a0d855dd1", "3.0.0--r42hdfd78af_1": "sha256:f8c11375b1ac1b50d5b85196e35ff5af94ded8d45fd0a69a4657d02a21355e12"}, "docker": "quay.io/biocontainers/ascat"}
+config: {"url": "https://biocontainers.pro/tools/ascat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ascat", "latest": {"3.1.1--r42hdfd78af_0": "sha256:d9fdf22f84f1af0c202a9d90336a7d49aea163d93b384455cd0f4662550bc9cf"}, "tags": {"3.0.0--r41hdfd78af_0": "sha256:e2848d59330279ee11ca493300ec507dfeed5261cdb729d6719b857a0d855dd1", "3.0.0--r42hdfd78af_1": "sha256:f8c11375b1ac1b50d5b85196e35ff5af94ded8d45fd0a69a4657d02a21355e12", "3.1.1--r42hdfd78af_0": "sha256:d9fdf22f84f1af0c202a9d90336a7d49aea163d93b384455cd0f4662550bc9cf"}, "docker": "quay.io/biocontainers/ascat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ascat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ascat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ascat:3.0.0--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/ascat:3.1.1--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ascat/3.0.0--r42hdfd78af_1
-$ module help quay.io/biocontainers/ascat/3.0.0--r42hdfd78af_1
+$ module load quay.io/biocontainers/ascat/3.1.1--r42hdfd78af_0
+$ module help quay.io/biocontainers/ascat/3.1.1--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
