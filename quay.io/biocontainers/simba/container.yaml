@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/simba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for simba
 latest:
-  1.1--pyhdfd78af_0: sha256:8947ee7a83ad53fcc315209ff5fef1dbb49da2419dab574d82df465b43452448
+  1.2--pyh7cba7a3_0: sha256:943a1dd16bcc1fbf7c695d1a2b2b836839623374951f31c9eda66c3d6a33aae3
 tags:
   1.1--pyhdfd78af_0: sha256:8947ee7a83ad53fcc315209ff5fef1dbb49da2419dab574d82df465b43452448
+  1.2--pyh7cba7a3_0: sha256:943a1dd16bcc1fbf7c695d1a2b2b836839623374951f31c9eda66c3d6a33aae3
 docker: quay.io/biocontainers/simba
 aliases:
   torchbiggraph_config: /usr/local/bin/torchbiggraph_config

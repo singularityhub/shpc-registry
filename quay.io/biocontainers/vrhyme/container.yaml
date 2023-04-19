@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vrhyme
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vrhyme
 latest:
-  1.1.0--pyhdfd78af_0: sha256:2b1e5342e9b1e6808e131a2a7c5e097fa39e87fc87567174db4ed3d22e6cd05e
+  1.1.0--pyhdfd78af_1: sha256:85c3da35c16785fcf234fa81c7eea0b9c82c16f858c2c4f250feb2752d04e2b4
 tags:
   1.1.0--pyhdfd78af_0: sha256:2b1e5342e9b1e6808e131a2a7c5e097fa39e87fc87567174db4ed3d22e6cd05e
+  1.1.0--pyhdfd78af_1: sha256:85c3da35c16785fcf234fa81c7eea0b9c82c16f858c2c4f250feb2752d04e2b4
 docker: quay.io/biocontainers/vrhyme
 aliases:
   alternative_bins_to_fasta.py: /usr/local/bin/alternative_bins_to_fasta.py

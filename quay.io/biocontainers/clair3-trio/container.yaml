@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/clair3-trio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for clair3-trio
 latest:
-  0.3--py36hb9dc472_2: sha256:686ef253d602b4c1c9dbd52bcc5127f7ec08096d012baa9af971295b52ba19f5
+  0.5--py36hb9dc472_0: sha256:6c85e073ea22a767cc581088f9ffb814b5acdc99a4f1d47144e9efbaa44b71d2
 tags:
   0.3--py36hb9dc472_1: sha256:8fbba669b4cfead32d76807dff1485569364b99def76664cf8c5efdedd00547e
   0.3--py36hb9dc472_2: sha256:686ef253d602b4c1c9dbd52bcc5127f7ec08096d012baa9af971295b52ba19f5
+  0.5--py36hb9dc472_0: sha256:6c85e073ea22a767cc581088f9ffb814b5acdc99a4f1d47144e9efbaa44b71d2
 docker: quay.io/biocontainers/clair3-trio
 aliases:
   clair3.py: /usr/local/bin/clair3.py
