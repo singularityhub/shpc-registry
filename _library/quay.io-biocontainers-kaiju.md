@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kaiju"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kaiju/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kaiju/container.yaml"
-updated_at: "2023-04-18 02:43:34.675937"
+updated_at: "2023-04-19 02:44:01.514515"
 latest: "1.9.2--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/kaiju"
 aliases:

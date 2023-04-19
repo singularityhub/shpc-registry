@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-math-bigint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-bigint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-bigint/container.yaml"
-updated_at: "2023-04-18 02:41:18.754313"
-latest: "1.999837--pl5321hdfd78af_0"
+updated_at: "2023-04-19 02:42:04.576996"
+latest: "1.999838--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-math-bigint"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.999837--pl5321hdfd78af_0"
+ - "1.999838--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-math-bigint"
-config: {"url": "https://biocontainers.pro/tools/perl-math-bigint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-bigint", "latest": {"1.999837--pl5321hdfd78af_0": "sha256:4868e5e1464818f7756a27ef93e27f84af8855e53e2a604beec4e35d8d4e5973"}, "tags": {"1.999837--pl5321hdfd78af_0": "sha256:4868e5e1464818f7756a27ef93e27f84af8855e53e2a604beec4e35d8d4e5973"}, "docker": "quay.io/biocontainers/perl-math-bigint", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-math-bigint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-bigint", "latest": {"1.999838--pl5321hdfd78af_0": "sha256:ad1b96d33f540f00081f7e520f7d3bc1382f9fcfef705697c1b0ff7668b67767"}, "tags": {"1.999837--pl5321hdfd78af_0": "sha256:4868e5e1464818f7756a27ef93e27f84af8855e53e2a604beec4e35d8d4e5973", "1.999838--pl5321hdfd78af_0": "sha256:ad1b96d33f540f00081f7e520f7d3bc1382f9fcfef705697c1b0ff7668b67767"}, "docker": "quay.io/biocontainers/perl-math-bigint", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-math-bigint.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-math-bigint
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-math-bigint:1.999837--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-math-bigint:1.999838--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-math-bigint/1.999837--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-math-bigint/1.999837--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-math-bigint/1.999838--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-math-bigint/1.999838--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

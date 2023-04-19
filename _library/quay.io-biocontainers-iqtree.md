@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/iqtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iqtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iqtree/container.yaml"
-updated_at: "2023-04-18 02:34:50.329204"
-latest: "2.2.0.3--hb97b32f_1"
+updated_at: "2023-04-19 02:36:37.307089"
+latest: "2.2.2.3--hb97b32f_0"
 container_url: "https://biocontainers.pro/tools/iqtree"
 aliases:
  - "iqtree"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "2.2.0_beta--hb97b32f_1"
  - "2.2.0.3--hb97b32f_1"
+ - "2.2.2.3--hb97b32f_0"
 description: "shpc-registry automated BioContainers addition for iqtree"
-config: {"url": "https://biocontainers.pro/tools/iqtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iqtree", "latest": {"2.2.0.3--hb97b32f_1": "sha256:a4d3f266bfac25f8018eaf03b14db48c66aa6eb02391ad28cf19520d61c3e5fb"}, "tags": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3", "2.2.0.3--hb97b32f_1": "sha256:a4d3f266bfac25f8018eaf03b14db48c66aa6eb02391ad28cf19520d61c3e5fb"}, "docker": "quay.io/biocontainers/iqtree", "aliases": {"iqtree": "/usr/local/bin/iqtree", "iqtree2": "/usr/local/bin/iqtree2"}}
+config: {"url": "https://biocontainers.pro/tools/iqtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iqtree", "latest": {"2.2.2.3--hb97b32f_0": "sha256:4442ecc36f74f42136a862eb4418c07cc3b220fcdc89c933127a14f61af66f97"}, "tags": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3", "2.2.0.3--hb97b32f_1": "sha256:a4d3f266bfac25f8018eaf03b14db48c66aa6eb02391ad28cf19520d61c3e5fb", "2.2.2.3--hb97b32f_0": "sha256:4442ecc36f74f42136a862eb4418c07cc3b220fcdc89c933127a14f61af66f97"}, "docker": "quay.io/biocontainers/iqtree", "aliases": {"iqtree": "/usr/local/bin/iqtree", "iqtree2": "/usr/local/bin/iqtree2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iqtree.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/iqtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/iqtree:2.2.0.3--hb97b32f_1
+$ shpc install quay.io/biocontainers/iqtree:2.2.2.3--hb97b32f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/iqtree/2.2.0.3--hb97b32f_1
-$ module help quay.io/biocontainers/iqtree/2.2.0.3--hb97b32f_1
+$ module load quay.io/biocontainers/iqtree/2.2.2.3--hb97b32f_0
+$ module help quay.io/biocontainers/iqtree/2.2.2.3--hb97b32f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
