@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ptairms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ptairms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ptairms/container.yaml"
-updated_at: "2023-04-19 02:53:47.193308"
+updated_at: "2023-04-20 02:51:45.204103"
 latest: "1.6.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ptairms"
 aliases:

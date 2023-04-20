@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-differentialregulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-differentialregulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-differentialregulation/container.yaml"
-updated_at: "2023-04-19 02:58:16.059769"
+updated_at: "2023-04-20 02:56:16.707994"
 latest: "1.2.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-differentialregulation"
 aliases:

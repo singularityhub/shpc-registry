@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barseqcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barseqcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barseqcount/container.yaml"
-updated_at: "2023-04-19 02:52:34.039832"
+updated_at: "2023-04-20 02:50:32.246409"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/barseqcount"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simba/container.yaml"
-updated_at: "2023-04-19 02:58:56.622371"
-latest: "1.1--pyhdfd78af_0"
+updated_at: "2023-04-20 02:56:57.869775"
+latest: "1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/simba"
 aliases:
  - "torchbiggraph_config"
@@ -30,8 +30,9 @@ aliases:
  - "natsort"
 versions:
  - "1.1--pyhdfd78af_0"
+ - "1.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for simba"
-config: {"url": "https://biocontainers.pro/tools/simba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simba", "latest": {"1.1--pyhdfd78af_0": "sha256:8947ee7a83ad53fcc315209ff5fef1dbb49da2419dab574d82df465b43452448"}, "tags": {"1.1--pyhdfd78af_0": "sha256:8947ee7a83ad53fcc315209ff5fef1dbb49da2419dab574d82df465b43452448"}, "docker": "quay.io/biocontainers/simba", "aliases": {"torchbiggraph_config": "/usr/local/bin/torchbiggraph_config", "torchbiggraph_eval": "/usr/local/bin/torchbiggraph_eval", "torchbiggraph_example_fb15k": "/usr/local/bin/torchbiggraph_example_fb15k", "torchbiggraph_example_livejournal": "/usr/local/bin/torchbiggraph_example_livejournal", "torchbiggraph_export_to_tsv": "/usr/local/bin/torchbiggraph_export_to_tsv", "torchbiggraph_import_from_parquet": "/usr/local/bin/torchbiggraph_import_from_parquet", "torchbiggraph_import_from_tsv": "/usr/local/bin/torchbiggraph_import_from_tsv", "torchbiggraph_partitionserver": "/usr/local/bin/torchbiggraph_partitionserver", "torchbiggraph_train": "/usr/local/bin/torchbiggraph_train", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort"}}
+config: {"url": "https://biocontainers.pro/tools/simba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simba", "latest": {"1.2--pyh7cba7a3_0": "sha256:943a1dd16bcc1fbf7c695d1a2b2b836839623374951f31c9eda66c3d6a33aae3"}, "tags": {"1.1--pyhdfd78af_0": "sha256:8947ee7a83ad53fcc315209ff5fef1dbb49da2419dab574d82df465b43452448", "1.2--pyh7cba7a3_0": "sha256:943a1dd16bcc1fbf7c695d1a2b2b836839623374951f31c9eda66c3d6a33aae3"}, "docker": "quay.io/biocontainers/simba", "aliases": {"torchbiggraph_config": "/usr/local/bin/torchbiggraph_config", "torchbiggraph_eval": "/usr/local/bin/torchbiggraph_eval", "torchbiggraph_example_fb15k": "/usr/local/bin/torchbiggraph_example_fb15k", "torchbiggraph_example_livejournal": "/usr/local/bin/torchbiggraph_example_livejournal", "torchbiggraph_export_to_tsv": "/usr/local/bin/torchbiggraph_export_to_tsv", "torchbiggraph_import_from_parquet": "/usr/local/bin/torchbiggraph_import_from_parquet", "torchbiggraph_import_from_tsv": "/usr/local/bin/torchbiggraph_import_from_tsv", "torchbiggraph_partitionserver": "/usr/local/bin/torchbiggraph_partitionserver", "torchbiggraph_train": "/usr/local/bin/torchbiggraph_train", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simba.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/simba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simba:1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/simba:1.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simba/1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/simba/1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/simba/1.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/simba/1.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

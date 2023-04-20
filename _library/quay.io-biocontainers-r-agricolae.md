@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-agricolae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-agricolae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-agricolae/container.yaml"
-updated_at: "2023-04-19 03:11:21.488312"
+updated_at: "2023-04-20 03:09:25.497127"
 latest: "1.2_4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-agricolae"
 aliases:

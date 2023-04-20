@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/merfin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merfin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merfin/container.yaml"
-updated_at: "2023-04-19 03:19:27.854517"
+updated_at: "2023-04-20 03:17:35.527556"
 latest: "1.0--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/merfin"
 aliases:

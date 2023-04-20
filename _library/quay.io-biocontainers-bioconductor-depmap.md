@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-depmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-depmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-depmap/container.yaml"
-updated_at: "2023-04-19 02:53:47.497337"
+updated_at: "2023-04-20 02:51:45.506236"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-depmap"
 

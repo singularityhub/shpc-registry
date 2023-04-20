@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clair3-trio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clair3-trio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clair3-trio/container.yaml"
-updated_at: "2023-04-19 03:19:09.614200"
-latest: "0.3--py36hb9dc472_2"
+updated_at: "2023-04-20 03:17:17.005856"
+latest: "0.5--py36hb9dc472_0"
 container_url: "https://biocontainers.pro/tools/clair3-trio"
 aliases:
  - "clair3.py"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "0.3--py36hb9dc472_1"
  - "0.3--py36hb9dc472_2"
+ - "0.5--py36hb9dc472_0"
 description: "singularity registry hpc automated addition for clair3-trio"
-config: {"url": "https://biocontainers.pro/tools/clair3-trio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clair3-trio", "latest": {"0.3--py36hb9dc472_2": "sha256:686ef253d602b4c1c9dbd52bcc5127f7ec08096d012baa9af971295b52ba19f5"}, "tags": {"0.3--py36hb9dc472_1": "sha256:8fbba669b4cfead32d76807dff1485569364b99def76664cf8c5efdedd00547e", "0.3--py36hb9dc472_2": "sha256:686ef253d602b4c1c9dbd52bcc5127f7ec08096d012baa9af971295b52ba19f5"}, "docker": "quay.io/biocontainers/clair3-trio", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3_trio.sh": "/usr/local/bin/run_clair3_trio.sh", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "tensorboard": "/usr/local/bin/tensorboard", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "env_parallel": "/usr/local/bin/env_parallel"}}
+config: {"url": "https://biocontainers.pro/tools/clair3-trio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clair3-trio", "latest": {"0.5--py36hb9dc472_0": "sha256:6c85e073ea22a767cc581088f9ffb814b5acdc99a4f1d47144e9efbaa44b71d2"}, "tags": {"0.3--py36hb9dc472_1": "sha256:8fbba669b4cfead32d76807dff1485569364b99def76664cf8c5efdedd00547e", "0.3--py36hb9dc472_2": "sha256:686ef253d602b4c1c9dbd52bcc5127f7ec08096d012baa9af971295b52ba19f5", "0.5--py36hb9dc472_0": "sha256:6c85e073ea22a767cc581088f9ffb814b5acdc99a4f1d47144e9efbaa44b71d2"}, "docker": "quay.io/biocontainers/clair3-trio", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3_trio.sh": "/usr/local/bin/run_clair3_trio.sh", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "tensorboard": "/usr/local/bin/tensorboard", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "env_parallel": "/usr/local/bin/env_parallel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clair3-trio.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/clair3-trio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clair3-trio:0.3--py36hb9dc472_2
+$ shpc install quay.io/biocontainers/clair3-trio:0.5--py36hb9dc472_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clair3-trio/0.3--py36hb9dc472_2
-$ module help quay.io/biocontainers/clair3-trio/0.3--py36hb9dc472_2
+$ module load quay.io/biocontainers/clair3-trio/0.5--py36hb9dc472_0
+$ module help quay.io/biocontainers/clair3-trio/0.5--py36hb9dc472_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

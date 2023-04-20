@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/islandpath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/islandpath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/islandpath/container.yaml"
-updated_at: "2023-04-19 03:19:17.525548"
+updated_at: "2023-04-20 03:17:25.126973"
 latest: "1.0.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/islandpath"
 aliases:
