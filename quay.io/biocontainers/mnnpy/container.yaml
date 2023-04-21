@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mnnpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mnnpy
 latest:
-  0.1.9.5--py38hbff2b2d_4: sha256:257262fe751167d15d0d8fa5c1e6f781a5061529f078d15fa58650265e1405c8
+  0.1.9.5--py37h8902056_5: sha256:1975a3a2978170e1879d563f5763c8dac9dc92c8e0e5db43d4b486e88b1e7c8c
 tags:
   0.1.9.5--py38hbff2b2d_4: sha256:257262fe751167d15d0d8fa5c1e6f781a5061529f078d15fa58650265e1405c8
+  0.1.9.5--py37h8902056_5: sha256:1975a3a2978170e1879d563f5763c8dac9dc92c8e0e5db43d4b486e88b1e7c8c
 docker: quay.io/biocontainers/mnnpy
 aliases:
   numba: /usr/local/bin/numba

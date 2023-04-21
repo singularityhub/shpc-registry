@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rnabloom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnabloom
 latest:
-  2.0.0--hdfd78af_0: sha256:e18997e0f9a2c89461315cedaddd1f540ca59ba6d112c8c1bec113e74ab3bb87
+  2.0.1--hdfd78af_0: sha256:21c0ce62ebdf68b10a8f6f6d46ba11eaaa3fd5461bb6100877d13879a0637575
 tags:
   2.0.0--hdfd78af_0: sha256:e18997e0f9a2c89461315cedaddd1f540ca59ba6d112c8c1bec113e74ab3bb87
+  2.0.1--hdfd78af_0: sha256:21c0ce62ebdf68b10a8f6f6d46ba11eaaa3fd5461bb6100877d13879a0637575
 docker: quay.io/biocontainers/rnabloom
 aliases:
   ntcard: /usr/local/bin/ntcard
