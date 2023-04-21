@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epimuller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epimuller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epimuller/container.yaml"
-updated_at: "2023-04-20 02:57:40.776614"
+updated_at: "2023-04-21 02:58:01.016328"
 latest: "0.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/epimuller"
 aliases:

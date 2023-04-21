@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/backports.csv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/backports.csv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/backports.csv/container.yaml"
-updated_at: "2023-04-20 02:47:47.668563"
+updated_at: "2023-04-21 02:48:13.638901"
 latest: "1.0.1--py36_0"
 container_url: "https://biocontainers.pro/tools/backports.csv"
 aliases:

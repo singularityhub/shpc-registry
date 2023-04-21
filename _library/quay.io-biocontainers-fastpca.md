@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastpca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastpca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastpca/container.yaml"
-updated_at: "2023-04-20 03:15:36.858029"
+updated_at: "2023-04-21 03:16:20.829615"
 latest: "0.9.1"
 container_url: "https://biocontainers.pro/tools/fastpca"
 aliases:

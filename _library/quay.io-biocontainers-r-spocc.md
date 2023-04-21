@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spocc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spocc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spocc/container.yaml"
-updated_at: "2023-04-20 03:14:33.336870"
+updated_at: "2023-04-21 03:15:17.276342"
 latest: "0.9.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-spocc"
 aliases:

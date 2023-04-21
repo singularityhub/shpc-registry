@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seqsetvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqsetvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqsetvis/container.yaml"
-updated_at: "2023-04-20 03:15:31.589705"
+updated_at: "2023-04-21 03:16:15.571182"
 latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqsetvis"
 aliases:

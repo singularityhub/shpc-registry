@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pathtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pathtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pathtools/container.yaml"
-updated_at: "2023-04-20 02:39:39.408835"
+updated_at: "2023-04-21 02:40:03.202307"
 latest: "3.75--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-pathtools"
 aliases:

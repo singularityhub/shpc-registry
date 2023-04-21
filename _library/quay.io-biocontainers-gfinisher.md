@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfinisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfinisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfinisher/container.yaml"
-updated_at: "2023-04-20 02:34:36.914574"
+updated_at: "2023-04-21 02:35:01.034216"
 latest: "1.4--py27_0"
 container_url: "https://biocontainers.pro/tools/gfinisher"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioexcel_seqqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioexcel_seqqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioexcel_seqqc/container.yaml"
-updated_at: "2023-04-20 02:51:00.629594"
+updated_at: "2023-04-21 02:51:25.711535"
 latest: "0.6--py_0"
 container_url: "https://biocontainers.pro/tools/bioexcel_seqqc"
 aliases:

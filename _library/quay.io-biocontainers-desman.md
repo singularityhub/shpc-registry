@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/desman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/desman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/desman/container.yaml"
-updated_at: "2023-04-20 02:53:52.610565"
+updated_at: "2023-04-21 02:54:15.417729"
 latest: "2.1--py39h00cc477_7"
 container_url: "https://biocontainers.pro/tools/desman"
 aliases:

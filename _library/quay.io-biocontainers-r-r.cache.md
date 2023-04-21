@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.cache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.cache/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.cache/container.yaml"
-updated_at: "2023-04-20 02:43:56.907377"
+updated_at: "2023-04-21 02:44:20.379968"
 latest: "0.12.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-r.cache"
 aliases:
