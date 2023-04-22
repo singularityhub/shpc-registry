@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-tailfindr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-tailfindr
 latest:
-  1.3--r42h9f5acd7_2: sha256:a3b3be22466b5a950347c9510656bfdb1f72f5d375259d80c0b49c6784d24082
+  1.4--r42h9f5acd7_0: sha256:cca205413108e425f0f768e7a0fec310b8f103f85172d5a1310c64b2980a7c04
 tags:
   1.3--r41h9f5acd7_1: sha256:ba477450466abbcf5f0f23da24f86d2dabb956973c73ea53ec1f464c5fbdc25f
   1.3--r42h9f5acd7_2: sha256:a3b3be22466b5a950347c9510656bfdb1f72f5d375259d80c0b49c6784d24082
+  1.4--r42h9f5acd7_0: sha256:cca205413108e425f0f768e7a0fec310b8f103f85172d5a1310c64b2980a7c04
 docker: quay.io/biocontainers/r-tailfindr
 aliases:
   mirror_server: /usr/local/bin/mirror_server

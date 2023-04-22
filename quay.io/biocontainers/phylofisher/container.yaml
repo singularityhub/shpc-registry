@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phylofisher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phylofisher
 latest:
-  1.2.5--pyhdfd78af_0: sha256:f7cd674f5616080d61e63f567fa8100f35cb5031c92b1379839a9f413bfbdbb3
+  1.2.7--pyhdfd78af_0: sha256:cf44fbd92cbd0eb2b5c239d63a861ca494a982f7a0fc8c740ea017343cb74454
 tags:
   1.2.5--pyhdfd78af_0: sha256:f7cd674f5616080d61e63f567fa8100f35cb5031c92b1379839a9f413bfbdbb3
+  1.2.7--pyhdfd78af_0: sha256:cf44fbd92cbd0eb2b5c239d63a861ca494a982f7a0fc8c740ea017343cb74454
 docker: quay.io/biocontainers/phylofisher
 aliases:
   aa_comp_calculator.py: /usr/local/bin/aa_comp_calculator.py
