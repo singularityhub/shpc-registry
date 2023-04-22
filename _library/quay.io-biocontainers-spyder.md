@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spyder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spyder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spyder/container.yaml"
-updated_at: "2023-04-21 03:13:16.459864"
+updated_at: "2023-04-22 03:28:06.876708"
 latest: "3.3.1--py35_1"
 container_url: "https://biocontainers.pro/tools/spyder"
 aliases:

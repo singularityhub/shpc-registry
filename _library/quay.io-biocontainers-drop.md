@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/drop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drop/container.yaml"
-updated_at: "2023-04-21 03:13:09.423675"
-latest: "1.2.4--pyhdfd78af_0"
+updated_at: "2023-04-22 03:27:57.419084"
+latest: "1.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drop"
 aliases:
  - "drop"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "1.2.2--pyhdfd78af_0"
  - "1.2.4--pyhdfd78af_0"
+ - "1.3.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for drop"
-config: {"url": "https://biocontainers.pro/tools/drop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drop", "latest": {"1.2.4--pyhdfd78af_0": "sha256:a674737190f379c27cb4604103c15f87696686a5882a7d6de1ee827b67e11a74"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:4f844567e238de0bb3d2e5f90f921386b6db893371ae2b481fa43cbc0df2153e", "1.2.4--pyhdfd78af_0": "sha256:a674737190f379c27cb4604103c15f87696686a5882a7d6de1ee827b67e11a74"}, "docker": "quay.io/biocontainers/drop", "aliases": {"drop": "/usr/local/bin/drop", "git2_cli": "/usr/local/bin/git2_cli", "wbuild": "/usr/local/bin/wbuild", "gatk": "/usr/local/bin/gatk", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "gff2gff.py": "/usr/local/bin/gff2gff.py"}}
+config: {"url": "https://biocontainers.pro/tools/drop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drop", "latest": {"1.3.3--pyhdfd78af_0": "sha256:cbf3da1b2ae8698b1c366970354245e7647b0d3512404b7739527ee0a7b83a82"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:4f844567e238de0bb3d2e5f90f921386b6db893371ae2b481fa43cbc0df2153e", "1.2.4--pyhdfd78af_0": "sha256:a674737190f379c27cb4604103c15f87696686a5882a7d6de1ee827b67e11a74", "1.3.3--pyhdfd78af_0": "sha256:cbf3da1b2ae8698b1c366970354245e7647b0d3512404b7739527ee0a7b83a82"}, "docker": "quay.io/biocontainers/drop", "aliases": {"drop": "/usr/local/bin/drop", "git2_cli": "/usr/local/bin/git2_cli", "wbuild": "/usr/local/bin/wbuild", "gatk": "/usr/local/bin/gatk", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "gff2gff.py": "/usr/local/bin/gff2gff.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drop.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/drop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/drop:1.2.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/drop:1.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/drop/1.2.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/drop/1.2.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/drop/1.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/drop/1.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

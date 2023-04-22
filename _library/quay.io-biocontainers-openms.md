@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openms/container.yaml"
-updated_at: "2023-04-21 02:46:00.624870"
+updated_at: "2023-04-22 02:51:58.683233"
 latest: "2.9.1--h135471a_1"
 container_url: "https://biocontainers.pro/tools/openms"
 

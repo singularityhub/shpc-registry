@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cazy_webscraper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cazy_webscraper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cazy_webscraper/container.yaml"
-updated_at: "2023-04-21 03:15:06.970525"
+updated_at: "2023-04-22 03:30:28.263816"
 latest: "2.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cazy_webscraper"
 aliases:

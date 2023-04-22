@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fly.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fly.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fly.db0/container.yaml"
-updated_at: "2023-04-21 02:35:34.247696"
+updated_at: "2023-04-22 02:37:28.800891"
 latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fly.db0"
 aliases:

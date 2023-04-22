@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnabloom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabloom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnabloom/container.yaml"
-updated_at: "2023-04-21 02:43:51.781705"
-latest: "2.0.0--hdfd78af_0"
+updated_at: "2023-04-22 02:49:02.706109"
+latest: "2.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rnabloom"
 aliases:
  - "ntcard"
@@ -23,8 +23,9 @@ aliases:
  - "k8"
 versions:
  - "2.0.0--hdfd78af_0"
+ - "2.0.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rnabloom"
-config: {"url": "https://biocontainers.pro/tools/rnabloom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabloom", "latest": {"2.0.0--hdfd78af_0": "sha256:e18997e0f9a2c89461315cedaddd1f540ca59ba6d112c8c1bec113e74ab3bb87"}, "tags": {"2.0.0--hdfd78af_0": "sha256:e18997e0f9a2c89461315cedaddd1f540ca59ba6d112c8c1bec113e74ab3bb87"}, "docker": "quay.io/biocontainers/rnabloom", "aliases": {"ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "rnabloom": "/usr/local/bin/rnabloom", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/rnabloom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabloom", "latest": {"2.0.1--hdfd78af_0": "sha256:21c0ce62ebdf68b10a8f6f6d46ba11eaaa3fd5461bb6100877d13879a0637575"}, "tags": {"2.0.0--hdfd78af_0": "sha256:e18997e0f9a2c89461315cedaddd1f540ca59ba6d112c8c1bec113e74ab3bb87", "2.0.1--hdfd78af_0": "sha256:21c0ce62ebdf68b10a8f6f6d46ba11eaaa3fd5461bb6100877d13879a0637575"}, "docker": "quay.io/biocontainers/rnabloom", "aliases": {"ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "rnabloom": "/usr/local/bin/rnabloom", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnabloom.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/rnabloom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnabloom:2.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/rnabloom:2.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnabloom/2.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/rnabloom/2.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/rnabloom/2.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/rnabloom/2.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

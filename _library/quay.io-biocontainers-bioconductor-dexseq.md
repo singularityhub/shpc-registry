@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-dexseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dexseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dexseq/container.yaml"
-updated_at: "2023-04-21 02:48:52.413024"
-latest: "1.44.0--r42hdfd78af_0"
+updated_at: "2023-04-22 02:55:49.644213"
+latest: "1.44.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-dexseq"
 
 versions:
  - "1.40.0--r41hdfd78af_0"
  - "1.44.0--r42hdfd78af_0"
+ - "1.44.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-dexseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dexseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dexseq", "latest": {"1.44.0--r42hdfd78af_0": "sha256:57a263b14740d0605ab2d257a857e5da3cfdfea3354a187b178d1382383d53ef"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:a682473c623a834bc5b221baa2503b921420f3c9bbcda8e16b5f8743361b8d42", "1.44.0--r42hdfd78af_0": "sha256:57a263b14740d0605ab2d257a857e5da3cfdfea3354a187b178d1382383d53ef"}, "docker": "quay.io/biocontainers/bioconductor-dexseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dexseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dexseq", "latest": {"1.44.0--r42hdfd78af_2": "sha256:169d81fd01689860459241da11d47b3a20702a965c0613f4e0378d3b7c0eed24"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:a682473c623a834bc5b221baa2503b921420f3c9bbcda8e16b5f8743361b8d42", "1.44.0--r42hdfd78af_0": "sha256:57a263b14740d0605ab2d257a857e5da3cfdfea3354a187b178d1382383d53ef", "1.44.0--r42hdfd78af_2": "sha256:169d81fd01689860459241da11d47b3a20702a965c0613f4e0378d3b7c0eed24"}, "docker": "quay.io/biocontainers/bioconductor-dexseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dexseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dexseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dexseq:1.44.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dexseq:1.44.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dexseq/1.44.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dexseq/1.44.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dexseq/1.44.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-dexseq/1.44.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

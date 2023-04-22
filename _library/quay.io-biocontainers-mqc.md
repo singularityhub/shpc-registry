@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mqc/container.yaml"
-updated_at: "2023-04-21 02:47:14.770332"
+updated_at: "2023-04-22 02:53:37.531000"
 latest: "1.10--py27pl5.22.0r3.4.1_1"
 container_url: "https://biocontainers.pro/tools/mqc"
 aliases:

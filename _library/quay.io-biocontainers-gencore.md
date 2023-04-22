@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gencore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gencore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gencore/container.yaml"
-updated_at: "2023-04-21 03:11:08.691017"
+updated_at: "2023-04-22 03:25:22.407279"
 latest: "0.17.2--h12f7fa2_1"
 container_url: "https://biocontainers.pro/tools/gencore"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stranger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stranger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stranger/container.yaml"
-updated_at: "2023-04-21 03:05:05.841203"
+updated_at: "2023-04-22 03:17:38.269644"
 latest: "0.8.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/stranger"
 aliases:

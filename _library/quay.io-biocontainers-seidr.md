@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seidr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seidr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seidr/container.yaml"
-updated_at: "2023-04-21 03:17:07.714235"
+updated_at: "2023-04-22 03:33:05.697297"
 latest: "0.14.2--mpi_mpich_h0475154"
 container_url: "https://biocontainers.pro/tools/seidr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multixrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multixrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multixrank/container.yaml"
-updated_at: "2023-04-21 03:08:37.701275"
+updated_at: "2023-04-22 03:22:06.516428"
 latest: "0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/multixrank"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.1--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for multixrank"
-config: {"url": "https://biocontainers.pro/tools/multixrank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multixrank", "latest": {"0.1--pyh7cba7a3_0": "sha256:e8f0eb62cc19d3e2d764327e27ce685e716d52f0e186cb7e10b2be9b61d2ca6d"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:e8f0eb62cc19d3e2d764327e27ce685e716d52f0e186cb7e10b2be9b61d2ca6d"}, "docker": "quay.io/biocontainers/multixrank", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/multixrank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multixrank", "latest": {"0.1--pyh7cba7a3_0": "sha256:cb2a0d22413dbc5f0424c09787a8f10d7ccef5f7a6442e746f391f07274851c5"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:cb2a0d22413dbc5f0424c09787a8f10d7ccef5f7a6442e746f391f07274851c5"}, "docker": "quay.io/biocontainers/multixrank", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multixrank.

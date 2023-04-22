@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tangles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tangles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tangles/container.yaml"
-updated_at: "2023-04-21 02:55:10.489284"
+updated_at: "2023-04-22 03:04:22.245747"
 latest: "0.8.1"
 container_url: "https://biocontainers.pro/tools/r-tangles"
 aliases:
