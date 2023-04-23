@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/vembrane
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vembrane
 latest:
-  0.14.0--pyhdfd78af_0: sha256:c609e33edb333796dac2da1ba7e286a40835798cd3aec4a0c5c5c9c5267963fd
+  1.0.0--pyhdfd78af_0: sha256:739c07511e80f9f8c0d933b53d83c92dcd0d475f6ff5df0957871b6bf75122b2
 tags:
   0.8.0--pyhdfd78af_0: sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4
   0.13.2--pyhdfd78af_0: sha256:40197cbbd8207933838f2f3ce6854b94f5ccc005fd85486c7ef5cb8b611610d0
@@ -10,6 +10,7 @@ tags:
   0.11.2--pyhdfd78af_0: sha256:489b3a09a0b561fe4e374138d3a3caf2db16b36589eaed3762da16263b244ae7
   0.10.1--pyhdfd78af_1: sha256:890896de65e18e8d70780d17f43a9fc60e4e102c6f7540dd80988982a0b7f252
   0.14.0--pyhdfd78af_0: sha256:c609e33edb333796dac2da1ba7e286a40835798cd3aec4a0c5c5c9c5267963fd
+  1.0.0--pyhdfd78af_0: sha256:739c07511e80f9f8c0d933b53d83c92dcd0d475f6ff5df0957871b6bf75122b2
 docker: quay.io/biocontainers/vembrane
 aliases:
   vembrane: /usr/local/bin/vembrane
