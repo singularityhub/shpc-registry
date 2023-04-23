@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/salsa2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salsa2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salsa2/container.yaml"
-updated_at: "2023-04-22 03:01:05.363991"
+updated_at: "2023-04-23 03:00:04.058891"
 latest: "2.3--py27h16ec135_1"
 container_url: "https://biocontainers.pro/tools/salsa2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/visceral-evaluatesegmentation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/visceral-evaluatesegmentation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/visceral-evaluatesegmentation/container.yaml"
-updated_at: "2023-04-22 03:32:46.974415"
+updated_at: "2023-04-23 03:24:48.817522"
 latest: "2015.07.03--hc9558a2_1"
 container_url: "https://biocontainers.pro/tools/visceral-evaluatesegmentation"
 aliases:

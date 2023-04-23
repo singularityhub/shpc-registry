@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/boost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/boost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/boost/container.yaml"
-updated_at: "2023-04-22 03:37:09.620909"
+updated_at: "2023-04-23 03:28:06.614275"
 latest: "1.78.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/boost"
 

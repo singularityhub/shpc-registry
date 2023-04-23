@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/polymutt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polymutt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polymutt/container.yaml"
-updated_at: "2023-04-22 03:28:58.488300"
+updated_at: "2023-04-23 03:21:52.253109"
 latest: "0.18--0"
 container_url: "https://biocontainers.pro/tools/polymutt"
 aliases:
