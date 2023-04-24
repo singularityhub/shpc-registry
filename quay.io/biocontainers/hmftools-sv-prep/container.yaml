@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hmftools-sv-prep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-sv-prep
 latest:
-  1.0.1--hdfd78af_0: sha256:1bf66da49eaaa426729704f23d235c2e0ef1cf34b478946a7820fcafdd43f87a
+  1.1--hdfd78af_1: sha256:ab54294fd32baec15cb4ce8da87a4b9dbed0fad141c3aee61400ce9ef95d013c
 tags:
   1.0.1--hdfd78af_0: sha256:1bf66da49eaaa426729704f23d235c2e0ef1cf34b478946a7820fcafdd43f87a
+  1.1--hdfd78af_1: sha256:ab54294fd32baec15cb4ce8da87a4b9dbed0fad141c3aee61400ce9ef95d013c
 docker: quay.io/biocontainers/hmftools-sv-prep
 aliases:
   SvPrep: /usr/local/bin/SvPrep

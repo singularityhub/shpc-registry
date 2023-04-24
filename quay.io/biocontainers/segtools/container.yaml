@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/segtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for segtools
 latest:
-  1.2.4--pyh864c0ab_1: sha256:725c332493ddefcb7a68eb42699fcdd9764888f339168271f53eabdb1571cd83
+  1.3.0--pyh7cba7a3_0: sha256:984f1450a2d81c2afa90719c7d26dadee35bf81f2a0efd906fa9000c1c5358c1
 tags:
   1.2.4--pyh864c0ab_1: sha256:725c332493ddefcb7a68eb42699fcdd9764888f339168271f53eabdb1571cd83
+  1.3.0--pyh7cba7a3_0: sha256:984f1450a2d81c2afa90719c7d26dadee35bf81f2a0efd906fa9000c1c5358c1
 docker: quay.io/biocontainers/segtools
 aliases:
   bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph

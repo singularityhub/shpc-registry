@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/snakemake-wrapper-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snakemake-wrapper-utils
 latest:
-  0.5.2--pyhdfd78af_0: sha256:0a623443043116e7f1f1fa5fd068a8c16c3faff88a64cb6f97dc1d30c3b85503
+  0.5.3--pyhdfd78af_0: sha256:9b8b7bdccbd471b46fd38104b522d2cddbbc5668620c90ce5a86cf465b7165cd
 tags:
   0.5.0--pyhdfd78af_0: sha256:7c86d05a79932b21435d9d5e1973cc1b8719cd9a0970743b6d34cff3015f2c65
   0.5.2--pyhdfd78af_0: sha256:0a623443043116e7f1f1fa5fd068a8c16c3faff88a64cb6f97dc1d30c3b85503
+  0.5.3--pyhdfd78af_0: sha256:9b8b7bdccbd471b46fd38104b522d2cddbbc5668620c90ce5a86cf465b7165cd
 docker: quay.io/biocontainers/snakemake-wrapper-utils
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10
