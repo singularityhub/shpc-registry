@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-nsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-nsp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-nsp/container.yaml"
-updated_at: "2023-04-23 02:42:50.389463"
+updated_at: "2023-04-24 02:39:08.947921"
 latest: "1.31--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-text-nsp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-delayeddataframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayeddataframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayeddataframe/container.yaml"
-updated_at: "2023-04-23 02:53:08.856530"
+updated_at: "2023-04-24 02:51:41.175050"
 latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayeddataframe"
 aliases:

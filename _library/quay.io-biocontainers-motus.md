@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/motus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/motus/container.yaml"
-updated_at: "2023-04-23 02:49:08.974635"
-latest: "3.0.3--pyhdfd78af_0"
+updated_at: "2023-04-24 02:46:50.633882"
+latest: "3.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/motus"
 aliases:
  - "metaSNV.py"
@@ -23,8 +23,9 @@ aliases:
  - "export2sam.pl"
 versions:
  - "3.0.3--pyhdfd78af_0"
+ - "3.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for motus"
-config: {"url": "https://biocontainers.pro/tools/motus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for motus", "latest": {"3.0.3--pyhdfd78af_0": "sha256:2ea5d3a9448305bf1b7805cb078bbbd968771ddc9ee6a0d5a48c5a8f17e12b1e"}, "tags": {"3.0.3--pyhdfd78af_0": "sha256:2ea5d3a9448305bf1b7805cb078bbbd968771ddc9ee6a0d5a48c5a8f17e12b1e"}, "docker": "quay.io/biocontainers/motus", "aliases": {"metaSNV.py": "/usr/local/bin/metaSNV.py", "metaSNV_post.py": "/usr/local/bin/metaSNV_post.py", "motus": "/usr/local/bin/motus", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.9": "/usr/local/bin/f2py3.9", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/motus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for motus", "latest": {"3.1.0--pyhdfd78af_0": "sha256:59e04b6be75355e392c32556c36fa9056802de1b9dc75d4276b3fcca69a42e76"}, "tags": {"3.0.3--pyhdfd78af_0": "sha256:2ea5d3a9448305bf1b7805cb078bbbd968771ddc9ee6a0d5a48c5a8f17e12b1e", "3.1.0--pyhdfd78af_0": "sha256:59e04b6be75355e392c32556c36fa9056802de1b9dc75d4276b3fcca69a42e76"}, "docker": "quay.io/biocontainers/motus", "aliases": {"metaSNV.py": "/usr/local/bin/metaSNV.py", "metaSNV_post.py": "/usr/local/bin/metaSNV_post.py", "motus": "/usr/local/bin/motus", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.9": "/usr/local/bin/f2py3.9", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/motus.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/motus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/motus:3.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/motus:3.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/motus/3.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/motus/3.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/motus/3.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/motus/3.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

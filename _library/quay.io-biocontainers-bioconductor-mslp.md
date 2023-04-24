@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mslp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mslp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mslp/container.yaml"
-updated_at: "2023-04-23 02:48:52.258211"
+updated_at: "2023-04-24 02:46:30.271849"
 latest: "1.0.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mslp"
 aliases:

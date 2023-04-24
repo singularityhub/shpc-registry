@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gnet2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gnet2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gnet2/container.yaml"
-updated_at: "2023-04-23 02:45:56.881024"
+updated_at: "2023-04-24 02:42:55.425130"
 latest: "1.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gnet2"
 aliases:

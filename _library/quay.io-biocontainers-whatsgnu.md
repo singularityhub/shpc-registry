@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/whatsgnu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/whatsgnu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/whatsgnu/container.yaml"
-updated_at: "2023-04-23 02:41:05.468009"
-latest: "1.3--hdfd78af_0"
+updated_at: "2023-04-24 02:37:02.207958"
+latest: "1.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/whatsgnu"
 aliases:
  - "Complete_Reference_selector.py"
@@ -25,8 +25,10 @@ aliases:
  - "readme.pdf"
 versions:
  - "1.3--hdfd78af_0"
+ - "1.5--hdfd78af_0"
+ - "1.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for whatsgnu"
-config: {"url": "https://biocontainers.pro/tools/whatsgnu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for whatsgnu", "latest": {"1.3--hdfd78af_0": "sha256:23accaaaa41fc4610fe982e60af4eda7bcaaf9fb41f935f128e420b729254bd4"}, "tags": {"1.3--hdfd78af_0": "sha256:23accaaaa41fc4610fe982e60af4eda7bcaaf9fb41f935f128e420b729254bd4"}, "docker": "quay.io/biocontainers/whatsgnu", "aliases": {"Complete_Reference_selector.py": "/usr/local/bin/Complete_Reference_selector.py", "WhatsGNU_database_customizer.py": "/usr/local/bin/WhatsGNU_database_customizer.py", "WhatsGNU_get_GenBank_genomes.py": "/usr/local/bin/WhatsGNU_get_GenBank_genomes.py", "WhatsGNU_main.py": "/usr/local/bin/WhatsGNU_main.py", "WhatsGNU_plotter.py": "/usr/local/bin/WhatsGNU_plotter.py", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/whatsgnu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for whatsgnu", "latest": {"1.5--hdfd78af_0": "sha256:cb6415f06afa5dcbd1fdd58c56a25945cd2f6d546c0446394e2169f755c4bbb6"}, "tags": {"1.3--hdfd78af_0": "sha256:23accaaaa41fc4610fe982e60af4eda7bcaaf9fb41f935f128e420b729254bd4", "1.5--hdfd78af_0": "sha256:cb6415f06afa5dcbd1fdd58c56a25945cd2f6d546c0446394e2169f755c4bbb6", "1.4--hdfd78af_0": "sha256:3fa85935949e8a2f0263fb43d0f3a6f55538d221c5de69dda54bf7f3ce24ad04"}, "docker": "quay.io/biocontainers/whatsgnu", "aliases": {"Complete_Reference_selector.py": "/usr/local/bin/Complete_Reference_selector.py", "WhatsGNU_database_customizer.py": "/usr/local/bin/WhatsGNU_database_customizer.py", "WhatsGNU_get_GenBank_genomes.py": "/usr/local/bin/WhatsGNU_get_GenBank_genomes.py", "WhatsGNU_main.py": "/usr/local/bin/WhatsGNU_main.py", "WhatsGNU_plotter.py": "/usr/local/bin/WhatsGNU_plotter.py", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/whatsgnu.
@@ -41,7 +43,7 @@ $ shpc install quay.io/biocontainers/whatsgnu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/whatsgnu:1.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/whatsgnu:1.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/whatsgnu/1.3--hdfd78af_0
-$ module help quay.io/biocontainers/whatsgnu/1.3--hdfd78af_0
+$ module load quay.io/biocontainers/whatsgnu/1.5--hdfd78af_0
+$ module help quay.io/biocontainers/whatsgnu/1.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fragbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fragbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fragbuilder/container.yaml"
-updated_at: "2023-04-23 02:39:27.597744"
+updated_at: "2023-04-24 02:35:05.162066"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fragbuilder"
 aliases:
