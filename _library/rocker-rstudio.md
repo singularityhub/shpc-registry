@@ -4,8 +4,8 @@ name:  "rocker/rstudio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/rstudio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/rstudio/container.yaml"
-updated_at: "2023-04-24 03:32:21.427892"
-latest: "4.2.3"
+updated_at: "2023-04-25 03:19:51.304913"
+latest: "4.3.0"
 container_url: "https://hub.docker.com/r/rocker/rstudio"
 aliases:
  - "R"
@@ -21,8 +21,9 @@ versions:
  - "4.1.3"
  - "4.0.5"
  - "4.2.3"
+ - "4.3.0"
 description: "Rstudio server image"
-config: {"docker": "rocker/rstudio", "url": "https://hub.docker.com/r/rocker/rstudio", "maintainer": "@vsoch", "description": "Rstudio server image", "latest": {"4.2.3": "sha256:5b8ca66f02b5cbce9e974d9be35219aec12b44938d13111078c1da3fbfe89c14"}, "tags": {"4.2.2": "sha256:ade808ddd034dae82e417183f43b0cf2a77ff53aa9ec9e2373f55a9b786ca86f", "3.6.3": "sha256:a2014be0cc26059c3f7fbbef66b25599b7c8871f880caac12037f9a142f60b81", "4.1.3": "sha256:ef892dc1f3c1b406faa9323daaef7dcef5be1df993e1d74345f175ded0766863", "4.0.5": "sha256:5e8e85f1a9eefc7c12301146c1a473bc3f0d5dfd0440af18d2c291987b5f4324", "4.2.3": "sha256:5b8ca66f02b5cbce9e974d9be35219aec12b44938d13111078c1da3fbfe89c14"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-rstudio-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/rstudio", "url": "https://hub.docker.com/r/rocker/rstudio", "maintainer": "@vsoch", "description": "Rstudio server image", "latest": {"4.3.0": "sha256:b4a712b7d939d1e20fb81a4e1a13dc58f9104b650b48e6c2ec10f3dfba991eef"}, "tags": {"4.2.2": "sha256:7d49841f8a144bdf1ec4133035c5ff624b9a60319a549c96a64879fbdadfd4af", "3.6.3": "sha256:a2014be0cc26059c3f7fbbef66b25599b7c8871f880caac12037f9a142f60b81", "4.1.3": "sha256:ab51079b0d982312e9c440438cbc415f7006b865c6e6a2e15c63a56a55caa6a4", "4.0.5": "sha256:4c158b48e96d90a0ae7c3dedaf628b6cb4f6ba59dc36d0115fa9d16b275e604d", "4.2.3": "sha256:1598143dceff1c930bc7a4a60236a5cd10492213940d9d90322c91c1f1c31839", "4.3.0": "sha256:b4a712b7d939d1e20fb81a4e1a13dc58f9104b650b48e6c2ec10f3dfba991eef"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-rstudio-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/rstudio.
@@ -37,7 +38,7 @@ $ shpc install rocker/rstudio
 Or a specific version:
 
 ```bash
-$ shpc install rocker/rstudio:4.2.3
+$ shpc install rocker/rstudio:4.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/rstudio/4.2.3
-$ module help rocker/rstudio/4.2.3
+$ module load rocker/rstudio/4.3.0
+$ module help rocker/rstudio/4.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

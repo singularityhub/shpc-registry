@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-authen-sasl-saslprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-authen-sasl-saslprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-authen-sasl-saslprep/container.yaml"
-updated_at: "2023-04-24 03:08:29.609898"
+updated_at: "2023-04-25 03:00:28.714335"
 latest: "1.100--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-authen-sasl-saslprep"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwise/container.yaml"
-updated_at: "2023-04-24 03:06:50.996274"
+updated_at: "2023-04-25 02:59:07.705152"
 latest: "1.0.0--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/bwise"
 aliases:

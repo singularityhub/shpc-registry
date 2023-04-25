@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moss/container.yaml"
-updated_at: "2023-04-24 03:21:53.826679"
+updated_at: "2023-04-25 03:11:20.141637"
 latest: "0.1.1--hf77a93e_5"
 container_url: "https://biocontainers.pro/tools/moss"
 aliases:

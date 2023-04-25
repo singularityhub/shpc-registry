@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rasusa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rasusa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rasusa/container.yaml"
-updated_at: "2023-04-24 02:38:51.176631"
-latest: "0.7.0--hec16e2b_1"
+updated_at: "2023-04-25 02:36:27.439792"
+latest: "0.7.1--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/rasusa"
 aliases:
  - "rasusa"
 versions:
  - "0.7.0--hec16e2b_1"
+ - "0.7.1--hec16e2b_0"
 description: "shpc-registry automated BioContainers addition for rasusa"
-config: {"url": "https://biocontainers.pro/tools/rasusa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rasusa", "latest": {"0.7.0--hec16e2b_1": "sha256:0ece28f6a09a00cc777718efee938fe5721cf4f3295ffaad1138d3711633c970"}, "tags": {"0.7.0--hec16e2b_1": "sha256:0ece28f6a09a00cc777718efee938fe5721cf4f3295ffaad1138d3711633c970"}, "docker": "quay.io/biocontainers/rasusa", "aliases": {"rasusa": "/usr/local/bin/rasusa"}}
+config: {"url": "https://biocontainers.pro/tools/rasusa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rasusa", "latest": {"0.7.1--hec16e2b_0": "sha256:3b9615b296caef2e0a4c995a13e5532d72dbfa6484172afbe85202c7448142aa"}, "tags": {"0.7.0--hec16e2b_1": "sha256:0ece28f6a09a00cc777718efee938fe5721cf4f3295ffaad1138d3711633c970", "0.7.1--hec16e2b_0": "sha256:3b9615b296caef2e0a4c995a13e5532d72dbfa6484172afbe85202c7448142aa"}, "docker": "quay.io/biocontainers/rasusa", "aliases": {"rasusa": "/usr/local/bin/rasusa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rasusa.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rasusa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rasusa:0.7.0--hec16e2b_1
+$ shpc install quay.io/biocontainers/rasusa:0.7.1--hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rasusa/0.7.0--hec16e2b_1
-$ module help quay.io/biocontainers/rasusa/0.7.0--hec16e2b_1
+$ module load quay.io/biocontainers/rasusa/0.7.1--hec16e2b_0
+$ module help quay.io/biocontainers/rasusa/0.7.1--hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

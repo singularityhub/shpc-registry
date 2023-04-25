@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-sv-prep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-sv-prep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-sv-prep/container.yaml"
-updated_at: "2023-04-24 02:47:52.278598"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2023-04-25 02:43:41.018983"
+latest: "1.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-sv-prep"
 aliases:
  - "SvPrep"
@@ -36,8 +36,9 @@ aliases:
  - "jps"
 versions:
  - "1.0.1--hdfd78af_0"
+ - "1.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for hmftools-sv-prep"
-config: {"url": "https://biocontainers.pro/tools/hmftools-sv-prep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-sv-prep", "latest": {"1.0.1--hdfd78af_0": "sha256:1bf66da49eaaa426729704f23d235c2e0ef1cf34b478946a7820fcafdd43f87a"}, "tags": {"1.0.1--hdfd78af_0": "sha256:1bf66da49eaaa426729704f23d235c2e0ef1cf34b478946a7820fcafdd43f87a"}, "docker": "quay.io/biocontainers/hmftools-sv-prep", "aliases": {"SvPrep": "/usr/local/bin/SvPrep", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-sv-prep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-sv-prep", "latest": {"1.1--hdfd78af_1": "sha256:ab54294fd32baec15cb4ce8da87a4b9dbed0fad141c3aee61400ce9ef95d013c"}, "tags": {"1.0.1--hdfd78af_0": "sha256:1bf66da49eaaa426729704f23d235c2e0ef1cf34b478946a7820fcafdd43f87a", "1.1--hdfd78af_1": "sha256:ab54294fd32baec15cb4ce8da87a4b9dbed0fad141c3aee61400ce9ef95d013c"}, "docker": "quay.io/biocontainers/hmftools-sv-prep", "aliases": {"SvPrep": "/usr/local/bin/SvPrep", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-sv-prep.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/hmftools-sv-prep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-sv-prep:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-sv-prep:1.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-sv-prep/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-sv-prep/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-sv-prep/1.1--hdfd78af_1
+$ module help quay.io/biocontainers/hmftools-sv-prep/1.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

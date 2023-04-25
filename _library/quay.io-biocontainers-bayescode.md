@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bayescode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayescode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayescode/container.yaml"
-updated_at: "2023-04-24 02:46:52.915457"
+updated_at: "2023-04-25 02:42:53.248908"
 latest: "1.1.6--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/bayescode"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parallel-meta-suite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parallel-meta-suite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parallel-meta-suite/container.yaml"
-updated_at: "2023-04-24 02:52:38.697163"
+updated_at: "2023-04-25 02:47:31.532585"
 latest: "1.0--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/parallel-meta-suite"
 aliases:

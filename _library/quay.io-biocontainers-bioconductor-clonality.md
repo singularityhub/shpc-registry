@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clonality"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clonality/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clonality/container.yaml"
-updated_at: "2023-04-24 02:41:54.660231"
+updated_at: "2023-04-25 02:38:54.112068"
 latest: "1.46.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clonality"
 

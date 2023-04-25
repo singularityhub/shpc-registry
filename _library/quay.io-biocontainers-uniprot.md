@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uniprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uniprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uniprot/container.yaml"
-updated_at: "2023-04-24 03:20:04.393981"
+updated_at: "2023-04-25 03:09:51.043113"
 latest: "1.3--py36_0"
 container_url: "https://biocontainers.pro/tools/uniprot"
 aliases:

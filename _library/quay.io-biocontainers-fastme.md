@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastme/container.yaml"
-updated_at: "2023-04-24 03:11:07.552420"
+updated_at: "2023-04-25 03:02:37.585551"
 latest: "2.1.6.1--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/fastme"
 aliases:
