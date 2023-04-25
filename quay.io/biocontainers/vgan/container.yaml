@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/vgan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vgan
 latest:
-  1.0.2--h9ee0642_0: sha256:eb80b09fec95b97b30171a45a9ff17eb2d685b3cbbad378633db71e8ca97cf3a
+  2.0.1--h9ee0642_0: sha256:02724db14d870213501beb1f22fe80a6ac6908a8b5351e74b3bfb5f00d17aaf7
 tags:
   1.0.0--h9ee0642_0: sha256:f9dc8985ea433743023ff9499cd6c23e6cffdb1335b024d315bc47469f08926c
   1.0.1--h9ee0642_0: sha256:4e2802be45a59eaf31150ba13684d4b22ff5b3bbd1e7dbe5a9d64a69a2a8cd6d
   1.0.2--h9ee0642_0: sha256:eb80b09fec95b97b30171a45a9ff17eb2d685b3cbbad378633db71e8ca97cf3a
+  2.0.1--h9ee0642_0: sha256:02724db14d870213501beb1f22fe80a6ac6908a8b5351e74b3bfb5f00d17aaf7
 docker: quay.io/biocontainers/vgan
 aliases:
   vgan: /usr/local/bin/vgan

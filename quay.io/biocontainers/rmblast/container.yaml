@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/rmblast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rmblast
 latest:
-  2.11.0--h6200dbe_0: sha256:35bfaf4fc9138db97d259e20fd841e11789c2c27e3a21f3ce04f0c9ad6dda69e
+  2.13.0--h5049791_0: sha256:cf57fdef5364bd2700741c1809fdafff0f7faba40f78dbb41e0500c26e5fe7ae
 tags:
   2.9.0--h2d02072_0: sha256:851b999b4326e2fdb0e0aa1803c30452d8e04a85ca5242a6d695836623f5d54c
   2.11.0--h6200dbe_0: sha256:35bfaf4fc9138db97d259e20fd841e11789c2c27e3a21f3ce04f0c9ad6dda69e
   2.10.0--h2d02072_0: sha256:65dd33a34d3310810b257829b248d53e82b86c74884bf6cbf89a10ee91066f63
+  2.13.0--h5049791_0: sha256:cf57fdef5364bd2700741c1809fdafff0f7faba40f78dbb41e0500c26e5fe7ae
 docker: quay.io/biocontainers/rmblast
 aliases:
   rmblastn: /usr/local/bin/rmblastn

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyfish
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyfish
 latest:
-  1.0.2--pyh7cba7a3_0: sha256:780fa592a1ee6ea88b84c230e95e45adddb24fbee1c0208086a77cf33f95c0b9
+  1.0.3--pyh7cba7a3_0: sha256:6a114a426187e401b276afdeb2cc6391add69e98e99e0ab9b2fb723fbeda80e1
 tags:
   1.0.2--pyh7cba7a3_0: sha256:780fa592a1ee6ea88b84c230e95e45adddb24fbee1c0208086a77cf33f95c0b9
+  1.0.3--pyh7cba7a3_0: sha256:6a114a426187e401b276afdeb2cc6391add69e98e99e0ab9b2fb723fbeda80e1
 docker: quay.io/biocontainers/pyfish
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
