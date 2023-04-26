@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mindagap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mindagap
 latest:
-  0.0.2--pyhdfd78af_0: sha256:28c4399b6deeb03b74079ce339f9e318d0f5006c46257583666d0a03d5e06674
+  0.0.2--pyhdfd78af_1: sha256:011c9606f611354d23aa353a6e584c2b0e21fb0bd2d5ab9794b20482edfe2f1f
 tags:
   0.0.2--pyhdfd78af_0: sha256:28c4399b6deeb03b74079ce339f9e318d0f5006c46257583666d0a03d5e06674
+  0.0.2--pyhdfd78af_1: sha256:011c9606f611354d23aa353a6e584c2b0e21fb0bd2d5ab9794b20482edfe2f1f
 docker: quay.io/biocontainers/mindagap
 aliases:
   Dockerfile: /usr/local/bin/Dockerfile

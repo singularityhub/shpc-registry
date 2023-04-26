@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/lamassemble
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lamassemble
 latest:
-  1.4.2--pyh3252c3a_0: sha256:5ecef7ef2e290a4388e6d025ecc4916cd5783094fe25d1beac158aa91275a918
+  1.6.0--pyh7cba7a3_0: sha256:5b3d98437104051e330d90438b63746a736b601321e9f2a082139e5c6fe7ae8e
 tags:
   1.4.2--pyh3252c3a_0: sha256:5ecef7ef2e290a4388e6d025ecc4916cd5783094fe25d1beac158aa91275a918
+  1.6.0--pyh7cba7a3_0: sha256:5b3d98437104051e330d90438b63746a736b601321e9f2a082139e5c6fe7ae8e
+  1.5.0--pyh7cba7a3_0: sha256:687521b1f11605c3a2b6652adbdbee7eaecfef1bb789e0519cde43757333b7f8
 docker: quay.io/biocontainers/lamassemble
 aliases:
   fastq-interleave: /usr/local/bin/fastq-interleave
