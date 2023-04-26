@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqtools/container.yaml"
-updated_at: "2023-04-25 03:09:59.517209"
+updated_at: "2023-04-26 03:23:12.512006"
 latest: "1.32.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqtools"
 

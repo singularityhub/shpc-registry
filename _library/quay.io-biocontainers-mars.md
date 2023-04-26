@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mars/container.yaml"
-updated_at: "2023-04-25 02:44:53.755041"
+updated_at: "2023-04-26 02:49:34.169060"
 latest: "1.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mars"
 aliases:

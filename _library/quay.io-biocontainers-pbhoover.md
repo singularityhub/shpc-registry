@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbhoover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbhoover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbhoover/container.yaml"
-updated_at: "2023-04-25 03:02:19.819225"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2023-04-26 03:12:47.876673"
+latest: "1.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pbhoover"
 aliases:
  - "bash5tools.py"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "1.0.7--pyhdfd78af_5"
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for pbhoover"
-config: {"url": "https://biocontainers.pro/tools/pbhoover", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbhoover", "latest": {"1.1.0--pyhdfd78af_0": "sha256:37373e162ef9f18757a04ac456a53d1b88a26d31b2e25164418d174f3a248e12"}, "tags": {"1.0.7--pyhdfd78af_5": "sha256:8e2902231220a245a3225e850dc4313956f7e29de2d6e950b84603f5ba8c7764", "1.1.0--pyhdfd78af_0": "sha256:37373e162ef9f18757a04ac456a53d1b88a26d31b2e25164418d174f3a248e12"}, "docker": "quay.io/biocontainers/pbhoover", "aliases": {"bash5tools.py": "/usr/local/bin/bash5tools.py", "cmph5tools.py": "/usr/local/bin/cmph5tools.py", "dataset.py": "/usr/local/bin/dataset.py", "pbhoover": "/usr/local/bin/pbhoover", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/pbhoover", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbhoover", "latest": {"1.1.0--pyhdfd78af_1": "sha256:aa22e678a49e0319085222ea724d98bc79047dbd079c6a28006bdeb3e366c38b"}, "tags": {"1.0.7--pyhdfd78af_5": "sha256:8e2902231220a245a3225e850dc4313956f7e29de2d6e950b84603f5ba8c7764", "1.1.0--pyhdfd78af_0": "sha256:37373e162ef9f18757a04ac456a53d1b88a26d31b2e25164418d174f3a248e12", "1.1.0--pyhdfd78af_1": "sha256:aa22e678a49e0319085222ea724d98bc79047dbd079c6a28006bdeb3e366c38b"}, "docker": "quay.io/biocontainers/pbhoover", "aliases": {"bash5tools.py": "/usr/local/bin/bash5tools.py", "cmph5tools.py": "/usr/local/bin/cmph5tools.py", "dataset.py": "/usr/local/bin/dataset.py", "pbhoover": "/usr/local/bin/pbhoover", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbhoover.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/pbhoover
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbhoover:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pbhoover:1.1.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbhoover/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pbhoover/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pbhoover/1.1.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/pbhoover/1.1.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

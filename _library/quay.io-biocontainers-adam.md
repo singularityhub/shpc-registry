@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/adam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adam/container.yaml"
-updated_at: "2023-04-25 02:40:59.320211"
+updated_at: "2023-04-26 02:44:18.983678"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/adam"
 aliases:

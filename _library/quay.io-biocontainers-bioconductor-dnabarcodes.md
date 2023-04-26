@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dnabarcodes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnabarcodes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnabarcodes/container.yaml"
-updated_at: "2023-04-25 03:08:09.824758"
+updated_at: "2023-04-26 03:20:40.508782"
 latest: "1.28.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnabarcodes"
 aliases:

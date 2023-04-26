@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phables/container.yaml"
-updated_at: "2023-04-25 02:33:26.401278"
+updated_at: "2023-04-26 02:34:04.900661"
 latest: "0.2.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/phables"
 aliases:

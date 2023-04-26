@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parafly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parafly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parafly/container.yaml"
-updated_at: "2023-04-25 02:40:45.925773"
+updated_at: "2023-04-26 02:44:00.419082"
 latest: "r2013_01_21--1"
 container_url: "https://biocontainers.pro/tools/parafly"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gargammel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gargammel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gargammel/container.yaml"
-updated_at: "2023-04-25 03:12:17.232828"
+updated_at: "2023-04-26 03:26:21.624121"
 latest: "1.1.2--h51667aa_5"
 container_url: "https://biocontainers.pro/tools/gargammel"
 

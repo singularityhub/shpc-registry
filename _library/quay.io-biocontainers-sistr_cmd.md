@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sistr_cmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sistr_cmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sistr_cmd/container.yaml"
-updated_at: "2023-04-25 02:42:22.840140"
+updated_at: "2023-04-26 02:46:12.656159"
 latest: "1.1.1--pyh7cba7a3_3"
 container_url: "https://biocontainers.pro/tools/sistr_cmd"
 aliases:

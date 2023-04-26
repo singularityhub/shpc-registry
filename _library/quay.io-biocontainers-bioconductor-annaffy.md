@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-annaffy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annaffy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annaffy/container.yaml"
-updated_at: "2023-04-25 02:40:06.455498"
+updated_at: "2023-04-26 02:43:05.779339"
 latest: "1.70.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annaffy"
 

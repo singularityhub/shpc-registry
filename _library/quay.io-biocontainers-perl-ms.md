@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ms/container.yaml"
-updated_at: "2023-04-25 02:59:10.146118"
+updated_at: "2023-04-26 03:08:38.122016"
 latest: "0.207002--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ms"
 aliases:

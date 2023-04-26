@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfish/container.yaml"
-updated_at: "2023-04-25 03:10:43.622030"
-latest: "1.0.2--pyh7cba7a3_0"
+updated_at: "2023-04-26 03:24:12.920788"
+latest: "1.0.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pyfish"
 aliases:
  - "f2py3.11"
@@ -32,8 +32,9 @@ aliases:
  - "transicc"
 versions:
  - "1.0.2--pyh7cba7a3_0"
+ - "1.0.3--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for pyfish"
-config: {"url": "https://biocontainers.pro/tools/pyfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfish", "latest": {"1.0.2--pyh7cba7a3_0": "sha256:780fa592a1ee6ea88b84c230e95e45adddb24fbee1c0208086a77cf33f95c0b9"}, "tags": {"1.0.2--pyh7cba7a3_0": "sha256:780fa592a1ee6ea88b84c230e95e45adddb24fbee1c0208086a77cf33f95c0b9"}, "docker": "quay.io/biocontainers/pyfish", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "pyfish": "/usr/local/bin/pyfish", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/pyfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfish", "latest": {"1.0.3--pyh7cba7a3_0": "sha256:6a114a426187e401b276afdeb2cc6391add69e98e99e0ab9b2fb723fbeda80e1"}, "tags": {"1.0.2--pyh7cba7a3_0": "sha256:780fa592a1ee6ea88b84c230e95e45adddb24fbee1c0208086a77cf33f95c0b9", "1.0.3--pyh7cba7a3_0": "sha256:6a114a426187e401b276afdeb2cc6391add69e98e99e0ab9b2fb723fbeda80e1"}, "docker": "quay.io/biocontainers/pyfish", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "pyfish": "/usr/local/bin/pyfish", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfish.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/pyfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfish:1.0.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pyfish:1.0.3--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfish/1.0.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pyfish/1.0.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pyfish/1.0.3--pyh7cba7a3_0
+$ module help quay.io/biocontainers/pyfish/1.0.3--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sojourner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sojourner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sojourner/container.yaml"
-updated_at: "2023-04-25 03:02:59.614677"
+updated_at: "2023-04-26 03:13:40.572970"
 latest: "1.11.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sojourner"
 aliases:

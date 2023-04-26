@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cvlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cvlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cvlr/container.yaml"
-updated_at: "2023-04-25 03:09:44.360051"
+updated_at: "2023-04-26 03:22:51.538801"
 latest: "1.0--h2bab7d6_2"
 container_url: "https://biocontainers.pro/tools/cvlr"
 aliases:
