@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/learnmsa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for learnmsa
 latest:
-  1.1.1--pyhdfd78af_0: sha256:66888945c7f807fe6f43c67fce091f423b2d8657593d3910485c852d317e1b1b
+  1.1.2--pyhdfd78af_0: sha256:45e7a767d0f5bf9df94a899b7a5694af3467d2adb4203bf86be044cda219c6b1
 tags:
   1.1.1--pyhdfd78af_0: sha256:66888945c7f807fe6f43c67fce091f423b2d8657593d3910485c852d317e1b1b
+  1.1.2--pyhdfd78af_0: sha256:45e7a767d0f5bf9df94a899b7a5694af3467d2adb4203bf86be044cda219c6b1
 docker: quay.io/biocontainers/learnmsa
 aliases:
   attr: /usr/local/bin/attr

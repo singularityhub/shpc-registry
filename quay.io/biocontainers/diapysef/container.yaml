@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/diapysef
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for diapysef
 latest:
-  0.3.5--pyh864c0ab_1: sha256:ce948216dba925aa2849e1f548aa2c97e6604fa496599b41b25517b4b2b3e712
+  1.0.10--pyh7cba7a3_0: sha256:5761aaabcdd2e6cc9b59f289c522977fdc5fa4ed1f2d3febe60e966a63e2cad3
 tags:
   0.3.5--pyh864c0ab_1: sha256:ce948216dba925aa2849e1f548aa2c97e6604fa496599b41b25517b4b2b3e712
+  1.0.10--pyh7cba7a3_0: sha256:5761aaabcdd2e6cc9b59f289c522977fdc5fa4ed1f2d3febe60e966a63e2cad3
 docker: quay.io/biocontainers/diapysef
 aliases:
   annotate_mq_ionmobility.py: /usr/local/bin/annotate_mq_ionmobility.py
