@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/read-it-and-keep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/read-it-and-keep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/read-it-and-keep/container.yaml"
-updated_at: "2023-04-26 03:17:17.853087"
+updated_at: "2023-04-27 02:42:30.195618"
 latest: "0.3.0--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/read-it-and-keep"
 aliases:

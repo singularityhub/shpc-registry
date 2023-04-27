@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hiline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hiline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hiline/container.yaml"
-updated_at: "2023-04-26 03:32:58.229679"
+updated_at: "2023-04-27 02:59:08.452036"
 latest: "0.2.4--py39h8aee962_0"
 container_url: "https://biocontainers.pro/tools/hiline"
 aliases:

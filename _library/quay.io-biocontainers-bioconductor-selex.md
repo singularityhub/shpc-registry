@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-selex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-selex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-selex/container.yaml"
-updated_at: "2023-04-26 03:06:02.989425"
+updated_at: "2023-04-27 02:57:40.747542"
 latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-selex"
 aliases:

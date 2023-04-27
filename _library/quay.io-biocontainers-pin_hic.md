@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pin_hic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pin_hic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pin_hic/container.yaml"
-updated_at: "2023-04-26 03:31:11.903325"
+updated_at: "2023-04-27 03:18:11.666872"
 latest: "3.0.0--h7132678_1"
 container_url: "https://biocontainers.pro/tools/pin_hic"
 aliases:

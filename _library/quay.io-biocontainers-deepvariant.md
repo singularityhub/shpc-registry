@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepvariant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepvariant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepvariant/container.yaml"
-updated_at: "2023-04-26 03:10:52.691899"
-latest: "1.4.0--py36hf3e76ba_0"
+updated_at: "2023-04-27 03:12:54.063087"
+latest: "1.5.0--py36hf3e76ba_0"
 container_url: "https://biocontainers.pro/tools/deepvariant"
 aliases:
  - "bq"
@@ -26,8 +26,9 @@ aliases:
  - "hsdb"
 versions:
  - "1.4.0--py36hf3e76ba_0"
+ - "1.5.0--py36hf3e76ba_0"
 description: "shpc-registry automated BioContainers addition for deepvariant"
-config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "freeze_graph": "/usr/local/bin/freeze_graph", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "unzip": "/usr/local/bin/unzip", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb"}}
+config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.5.0--py36hf3e76ba_0": "sha256:1c34e133cd05dfe3c19468670c0011f6df639d7459710cced7cda2954f5a9da6"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3", "1.5.0--py36hf3e76ba_0": "sha256:1c34e133cd05dfe3c19468670c0011f6df639d7459710cced7cda2954f5a9da6"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {"bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "freeze_graph": "/usr/local/bin/freeze_graph", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "unzip": "/usr/local/bin/unzip", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepvariant.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/deepvariant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepvariant:1.4.0--py36hf3e76ba_0
+$ shpc install quay.io/biocontainers/deepvariant:1.5.0--py36hf3e76ba_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepvariant/1.4.0--py36hf3e76ba_0
-$ module help quay.io/biocontainers/deepvariant/1.4.0--py36hf3e76ba_0
+$ module load quay.io/biocontainers/deepvariant/1.5.0--py36hf3e76ba_0
+$ module help quay.io/biocontainers/deepvariant/1.5.0--py36hf3e76ba_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

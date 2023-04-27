@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-calder2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-calder2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-calder2/container.yaml"
-updated_at: "2023-04-26 03:30:20.778308"
-latest: "0.3--r42hdfd78af_1"
+updated_at: "2023-04-27 02:49:03.231471"
+latest: "0.7--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-calder2"
 aliases:
  - "calder"
@@ -26,8 +26,10 @@ aliases:
 versions:
  - "0.3--r41hdfd78af_0"
  - "0.3--r42hdfd78af_1"
+ - "0.7--r42hdfd78af_0"
+ - "0.6--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-calder2"
-config: {"url": "https://biocontainers.pro/tools/r-calder2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-calder2", "latest": {"0.3--r42hdfd78af_1": "sha256:e0379b46316c5314bf485b6cbbc9a36bfcca733f2dda0e0fb6ad84c555886976"}, "tags": {"0.3--r41hdfd78af_0": "sha256:5b7418c4363afc83719f1ccae41daf587668cd5e6a46c1da214baf94a9caafdb", "0.3--r42hdfd78af_1": "sha256:e0379b46316c5314bf485b6cbbc9a36bfcca733f2dda0e0fb6ad84c555886976"}, "docker": "quay.io/biocontainers/r-calder2", "aliases": {"calder": "/usr/local/bin/calder", "dask": "/usr/local/bin/dask", "dask scheduler": "/usr/local/bin/dask scheduler", "dask ssh": "/usr/local/bin/dask ssh", "dask worker": "/usr/local/bin/dask worker", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
+config: {"url": "https://biocontainers.pro/tools/r-calder2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-calder2", "latest": {"0.7--r42hdfd78af_0": "sha256:a15449a8f9a4b990545ab2d140be9fddd036c094beebc91a06c43ee606ae741f"}, "tags": {"0.3--r41hdfd78af_0": "sha256:5b7418c4363afc83719f1ccae41daf587668cd5e6a46c1da214baf94a9caafdb", "0.3--r42hdfd78af_1": "sha256:e0379b46316c5314bf485b6cbbc9a36bfcca733f2dda0e0fb6ad84c555886976", "0.7--r42hdfd78af_0": "sha256:a15449a8f9a4b990545ab2d140be9fddd036c094beebc91a06c43ee606ae741f", "0.6--r42hdfd78af_0": "sha256:e40611245263bf917df976b3b1fe98da6ff4ddabc946bfe40468e07ab6ab48e8"}, "docker": "quay.io/biocontainers/r-calder2", "aliases": {"calder": "/usr/local/bin/calder", "dask": "/usr/local/bin/dask", "dask scheduler": "/usr/local/bin/dask scheduler", "dask ssh": "/usr/local/bin/dask ssh", "dask worker": "/usr/local/bin/dask worker", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-calder2.
@@ -42,7 +44,7 @@ $ shpc install quay.io/biocontainers/r-calder2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-calder2:0.3--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-calder2:0.7--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-calder2/0.3--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-calder2/0.3--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-calder2/0.7--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-calder2/0.7--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rasusa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rasusa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rasusa/container.yaml"
-updated_at: "2023-04-26 02:38:07.318971"
+updated_at: "2023-04-27 03:10:51.443511"
 latest: "0.7.1--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/rasusa"
 aliases:
