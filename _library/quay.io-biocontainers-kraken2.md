@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kraken2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraken2/container.yaml"
-updated_at: "2023-04-27 02:47:10.280608"
-latest: "2.1.2--pl5321h9f5acd7_2"
+updated_at: "2023-04-28 02:48:07.361715"
+latest: "2.1.2--pl5321h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/kraken2"
 aliases:
  - "kraken2"
@@ -23,8 +23,9 @@ aliases:
  - "fuse-segments"
 versions:
  - "2.1.2--pl5321h9f5acd7_2"
+ - "2.1.2--pl5321h9f5acd7_3"
 description: "shpc-registry automated BioContainers addition for kraken2"
-config: {"url": "https://biocontainers.pro/tools/kraken2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken2", "latest": {"2.1.2--pl5321h9f5acd7_2": "sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980"}, "tags": {"2.1.2--pl5321h9f5acd7_2": "sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980"}, "docker": "quay.io/biocontainers/kraken2", "aliases": {"kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
+config: {"url": "https://biocontainers.pro/tools/kraken2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken2", "latest": {"2.1.2--pl5321h9f5acd7_3": "sha256:7906d6b83f3f267e1bf2757d4c645182aa8268835ff161e247549d8e052b7688"}, "tags": {"2.1.2--pl5321h9f5acd7_2": "sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980", "2.1.2--pl5321h9f5acd7_3": "sha256:7906d6b83f3f267e1bf2757d4c645182aa8268835ff161e247549d8e052b7688"}, "docker": "quay.io/biocontainers/kraken2", "aliases": {"kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraken2.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/kraken2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kraken2:2.1.2--pl5321h9f5acd7_2
+$ shpc install quay.io/biocontainers/kraken2:2.1.2--pl5321h9f5acd7_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kraken2/2.1.2--pl5321h9f5acd7_2
-$ module help quay.io/biocontainers/kraken2/2.1.2--pl5321h9f5acd7_2
+$ module load quay.io/biocontainers/kraken2/2.1.2--pl5321h9f5acd7_3
+$ module help quay.io/biocontainers/kraken2/2.1.2--pl5321h9f5acd7_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

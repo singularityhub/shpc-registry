@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/feelnc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/feelnc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/feelnc/container.yaml"
-updated_at: "2023-04-27 02:55:21.842319"
+updated_at: "2023-04-28 02:56:47.350351"
 latest: "0.2--pl526_0"
 container_url: "https://biocontainers.pro/tools/feelnc"
 aliases:

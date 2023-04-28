@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngslca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngslca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngslca/container.yaml"
-updated_at: "2023-04-27 03:03:26.879923"
-latest: "1.0.5--h470d46e_0"
+updated_at: "2023-04-28 03:05:18.658824"
+latest: "1.0.5--h6448e42_1"
 container_url: "https://biocontainers.pro/tools/ngslca"
 aliases:
  - "ngsLCA"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0.5--h470d46e_0"
+ - "1.0.5--h6448e42_1"
 description: "singularity registry hpc automated addition for ngslca"
-config: {"url": "https://biocontainers.pro/tools/ngslca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngslca", "latest": {"1.0.5--h470d46e_0": "sha256:34ebdc114757332e611bff8eb000d88b12300c0380feea73be815580722ab38d"}, "tags": {"1.0.5--h470d46e_0": "sha256:34ebdc114757332e611bff8eb000d88b12300c0380feea73be815580722ab38d"}, "docker": "quay.io/biocontainers/ngslca", "aliases": {"ngsLCA": "/usr/local/bin/ngsLCA", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ngslca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngslca", "latest": {"1.0.5--h6448e42_1": "sha256:17eb034ec154c54ba581460913fb5da4a83a22885bd1c53f8648a84fcb7778b3"}, "tags": {"1.0.5--h470d46e_0": "sha256:34ebdc114757332e611bff8eb000d88b12300c0380feea73be815580722ab38d", "1.0.5--h6448e42_1": "sha256:17eb034ec154c54ba581460913fb5da4a83a22885bd1c53f8648a84fcb7778b3"}, "docker": "quay.io/biocontainers/ngslca", "aliases": {"ngsLCA": "/usr/local/bin/ngsLCA", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngslca.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/ngslca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngslca:1.0.5--h470d46e_0
+$ shpc install quay.io/biocontainers/ngslca:1.0.5--h6448e42_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngslca/1.0.5--h470d46e_0
-$ module help quay.io/biocontainers/ngslca/1.0.5--h470d46e_0
+$ module load quay.io/biocontainers/ngslca/1.0.5--h6448e42_1
+$ module help quay.io/biocontainers/ngslca/1.0.5--h6448e42_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

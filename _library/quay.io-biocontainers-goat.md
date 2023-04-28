@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goat/container.yaml"
-updated_at: "2023-04-27 02:42:44.834261"
+updated_at: "2023-04-28 02:43:28.407487"
 latest: "0.2.5--h92d785c_0"
 container_url: "https://biocontainers.pro/tools/goat"
 aliases:

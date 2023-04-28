@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/platypus-variant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/platypus-variant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/platypus-variant/container.yaml"
-updated_at: "2023-04-27 03:14:20.774061"
-latest: "0.8.1.2--py27hb698ca4_5"
+updated_at: "2023-04-28 03:16:49.092547"
+latest: "0.8.1.2--py27h1e129b4_6"
 container_url: "https://biocontainers.pro/tools/platypus-variant"
 aliases:
  - "platypus"
@@ -21,8 +21,9 @@ aliases:
  - "tabix"
 versions:
  - "0.8.1.2--py27hb698ca4_5"
+ - "0.8.1.2--py27h1e129b4_6"
 description: "shpc-registry automated BioContainers addition for platypus-variant"
-config: {"url": "https://biocontainers.pro/tools/platypus-variant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for platypus-variant", "latest": {"0.8.1.2--py27hb698ca4_5": "sha256:b26b2fcdc85c69a3f39c753935691d4a04748b5edab2e923a147f4f7532e228c"}, "tags": {"0.8.1.2--py27hb698ca4_5": "sha256:b26b2fcdc85c69a3f39c753935691d4a04748b5edab2e923a147f4f7532e228c"}, "docker": "quay.io/biocontainers/platypus-variant", "aliases": {"platypus": "/usr/local/bin/platypus", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/platypus-variant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for platypus-variant", "latest": {"0.8.1.2--py27h1e129b4_6": "sha256:373cf54eb8d71b0b2727da829eafa4715c579b869602e15c3f3025de5d5ded75"}, "tags": {"0.8.1.2--py27hb698ca4_5": "sha256:b26b2fcdc85c69a3f39c753935691d4a04748b5edab2e923a147f4f7532e228c", "0.8.1.2--py27h1e129b4_6": "sha256:373cf54eb8d71b0b2727da829eafa4715c579b869602e15c3f3025de5d5ded75"}, "docker": "quay.io/biocontainers/platypus-variant", "aliases": {"platypus": "/usr/local/bin/platypus", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/platypus-variant.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/platypus-variant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/platypus-variant:0.8.1.2--py27hb698ca4_5
+$ shpc install quay.io/biocontainers/platypus-variant:0.8.1.2--py27h1e129b4_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/platypus-variant/0.8.1.2--py27hb698ca4_5
-$ module help quay.io/biocontainers/platypus-variant/0.8.1.2--py27hb698ca4_5
+$ module load quay.io/biocontainers/platypus-variant/0.8.1.2--py27h1e129b4_6
+$ module help quay.io/biocontainers/platypus-variant/0.8.1.2--py27h1e129b4_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

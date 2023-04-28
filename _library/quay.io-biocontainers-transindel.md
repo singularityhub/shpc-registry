@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transindel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transindel/container.yaml"
-updated_at: "2023-04-27 02:54:37.110124"
-latest: "1.0--hdfd78af_2"
+updated_at: "2023-04-28 02:55:59.219668"
+latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/transindel"
 aliases:
  - "transIndel_build_DNA.py"
@@ -23,8 +23,9 @@ aliases:
  - "python2.7"
 versions:
  - "1.0--hdfd78af_2"
+ - "2.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for transindel"
-config: {"url": "https://biocontainers.pro/tools/transindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transindel", "latest": {"1.0--hdfd78af_2": "sha256:628a19184a45264569593ef19ca163c464f4c9a968d4914504d30878f1700577"}, "tags": {"1.0--hdfd78af_2": "sha256:628a19184a45264569593ef19ca163c464f4c9a968d4914504d30878f1700577"}, "docker": "quay.io/biocontainers/transindel", "aliases": {"transIndel_build_DNA.py": "/usr/local/bin/transIndel_build_DNA.py", "transIndel_build_RNA.py": "/usr/local/bin/transIndel_build_RNA.py", "transIndel_call.py": "/usr/local/bin/transIndel_call.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/transindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transindel", "latest": {"2.0--hdfd78af_0": "sha256:fa9e0e5a5f2c99a12acbdae772e89191f6020def981214a7a08d2eccd01791c7"}, "tags": {"1.0--hdfd78af_2": "sha256:628a19184a45264569593ef19ca163c464f4c9a968d4914504d30878f1700577", "2.0--hdfd78af_0": "sha256:fa9e0e5a5f2c99a12acbdae772e89191f6020def981214a7a08d2eccd01791c7"}, "docker": "quay.io/biocontainers/transindel", "aliases": {"transIndel_build_DNA.py": "/usr/local/bin/transIndel_build_DNA.py", "transIndel_build_RNA.py": "/usr/local/bin/transIndel_build_RNA.py", "transIndel_call.py": "/usr/local/bin/transIndel_call.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transindel.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/transindel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transindel:1.0--hdfd78af_2
+$ shpc install quay.io/biocontainers/transindel:2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transindel/1.0--hdfd78af_2
-$ module help quay.io/biocontainers/transindel/1.0--hdfd78af_2
+$ module load quay.io/biocontainers/transindel/2.0--hdfd78af_0
+$ module help quay.io/biocontainers/transindel/2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

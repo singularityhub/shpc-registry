@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/greenhill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/greenhill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/greenhill/container.yaml"
-updated_at: "2023-04-27 02:43:32.775307"
+updated_at: "2023-04-28 02:44:18.558360"
 latest: "1.0.0--hf1761c0_0"
 container_url: "https://biocontainers.pro/tools/greenhill"
 aliases:

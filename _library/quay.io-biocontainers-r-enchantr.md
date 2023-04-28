@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-enchantr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-enchantr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-enchantr/container.yaml"
-updated_at: "2023-04-27 02:47:08.486799"
+updated_at: "2023-04-28 02:48:05.481590"
 latest: "0.1.1--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-enchantr"
 aliases:

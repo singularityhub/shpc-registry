@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/diapysef"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diapysef/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diapysef/container.yaml"
-updated_at: "2023-04-27 03:02:13.605742"
-latest: "0.3.5--pyh864c0ab_1"
+updated_at: "2023-04-28 03:04:01.449632"
+latest: "1.0.10--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/diapysef"
 aliases:
  - "annotate_mq_ionmobility.py"
@@ -26,8 +26,9 @@ aliases:
  - "PSVIWriter"
 versions:
  - "0.3.5--pyh864c0ab_1"
+ - "1.0.10--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for diapysef"
-config: {"url": "https://biocontainers.pro/tools/diapysef", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diapysef", "latest": {"0.3.5--pyh864c0ab_1": "sha256:ce948216dba925aa2849e1f548aa2c97e6604fa496599b41b25517b4b2b3e712"}, "tags": {"0.3.5--pyh864c0ab_1": "sha256:ce948216dba925aa2849e1f548aa2c97e6604fa496599b41b25517b4b2b3e712"}, "docker": "quay.io/biocontainers/diapysef", "aliases": {"annotate_mq_ionmobility.py": "/usr/local/bin/annotate_mq_ionmobility.py", "convertTDFtoMzML.py": "/usr/local/bin/convertTDFtoMzML.py", "create_library.py": "/usr/local/bin/create_library.py", "get_dia_windows.py": "/usr/local/bin/get_dia_windows.py", "high_precision_irt.py": "/usr/local/bin/high_precision_irt.py", "plot_dia_windows.py": "/usr/local/bin/plot_dia_windows.py", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter"}}
+config: {"url": "https://biocontainers.pro/tools/diapysef", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diapysef", "latest": {"1.0.10--pyh7cba7a3_0": "sha256:5761aaabcdd2e6cc9b59f289c522977fdc5fa4ed1f2d3febe60e966a63e2cad3"}, "tags": {"0.3.5--pyh864c0ab_1": "sha256:ce948216dba925aa2849e1f548aa2c97e6604fa496599b41b25517b4b2b3e712", "1.0.10--pyh7cba7a3_0": "sha256:5761aaabcdd2e6cc9b59f289c522977fdc5fa4ed1f2d3febe60e966a63e2cad3"}, "docker": "quay.io/biocontainers/diapysef", "aliases": {"annotate_mq_ionmobility.py": "/usr/local/bin/annotate_mq_ionmobility.py", "convertTDFtoMzML.py": "/usr/local/bin/convertTDFtoMzML.py", "create_library.py": "/usr/local/bin/create_library.py", "get_dia_windows.py": "/usr/local/bin/get_dia_windows.py", "high_precision_irt.py": "/usr/local/bin/high_precision_irt.py", "plot_dia_windows.py": "/usr/local/bin/plot_dia_windows.py", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diapysef.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/diapysef
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/diapysef:0.3.5--pyh864c0ab_1
+$ shpc install quay.io/biocontainers/diapysef:1.0.10--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/diapysef/0.3.5--pyh864c0ab_1
-$ module help quay.io/biocontainers/diapysef/0.3.5--pyh864c0ab_1
+$ module load quay.io/biocontainers/diapysef/1.0.10--pyh7cba7a3_0
+$ module help quay.io/biocontainers/diapysef/1.0.10--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

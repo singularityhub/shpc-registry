@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simpleaffy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simpleaffy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simpleaffy/container.yaml"
-updated_at: "2023-04-27 02:42:18.579682"
+updated_at: "2023-04-28 02:43:00.840246"
 latest: "2.66.0--r40hd029910_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-simpleaffy"
 aliases:

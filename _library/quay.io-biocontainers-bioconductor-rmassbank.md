@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmassbank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmassbank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmassbank/container.yaml"
-updated_at: "2023-04-27 02:45:18.654368"
+updated_at: "2023-04-28 02:46:09.937188"
 latest: "3.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmassbank"
 aliases:
