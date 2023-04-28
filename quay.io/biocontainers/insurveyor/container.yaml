@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/insurveyor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for insurveyor
 latest:
-  1.0.2--h9f5acd7_0: sha256:cba49eaee8f188cd994994d5eb08f9738f0ced1ef51488809ec446f216116b03
+  1.1.1--h9f5acd7_0: sha256:89f3afed826d3480ac7db1c2ca30079de7eaef38d0f2d23bbde1a77396e11cbd
 tags:
   1.0.2--h9f5acd7_0: sha256:cba49eaee8f188cd994994d5eb08f9738f0ced1ef51488809ec446f216116b03
+  1.1.1--h9f5acd7_0: sha256:89f3afed826d3480ac7db1c2ca30079de7eaef38d0f2d23bbde1a77396e11cbd
 docker: quay.io/biocontainers/insurveyor
 aliases:
   add_filtering_info: /usr/local/bin/add_filtering_info

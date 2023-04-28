@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mmquant
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mmquant
 latest:
-  1.0.4--hd03093a_1: sha256:cc14611f926d053a17e8972998398bc3ed6a7db754dc40f3a7cc61e39db178e9
+  1.0.5--hd03093a_0: sha256:7f919367b43e508f76d787d53b9293c952fa4da516abde062e574d3b7feb1bfc
 tags:
   1.0.4--hd03093a_1: sha256:cc14611f926d053a17e8972998398bc3ed6a7db754dc40f3a7cc61e39db178e9
+  1.0.5--hd03093a_0: sha256:7f919367b43e508f76d787d53b9293c952fa4da516abde062e574d3b7feb1bfc
 docker: quay.io/biocontainers/mmquant
 aliases:
   mmquant: /usr/local/bin/mmquant
