@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-single.mtec.transcriptomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/container.yaml"
-updated_at: "2023-04-28 03:21:58.038483"
+updated_at: "2023-04-29 03:19:13.685328"
 latest: "1.25.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-single.mtec.transcriptomes"
 

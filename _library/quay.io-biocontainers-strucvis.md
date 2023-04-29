@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strucvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strucvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strucvis/container.yaml"
-updated_at: "2023-04-28 03:08:07.782290"
-latest: "0.6--hdfd78af_0"
+updated_at: "2023-04-29 03:05:45.951218"
+latest: "0.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/strucvis"
 aliases:
  - "RNAmultifold"
@@ -37,8 +37,9 @@ aliases:
  - "RNAforester"
 versions:
  - "0.6--hdfd78af_0"
+ - "0.7--hdfd78af_0"
 description: "singularity registry hpc automated addition for strucvis"
-config: {"url": "https://biocontainers.pro/tools/strucvis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strucvis", "latest": {"0.6--hdfd78af_0": "sha256:d5124ce57ad8b829a6d5657a2a7b2a7a8dca27dcc0c00e836f5a89a8cf6ec294"}, "tags": {"0.6--hdfd78af_0": "sha256:d5124ce57ad8b829a6d5657a2a7b2a7a8dca27dcc0c00e836f5a89a8cf6ec294"}, "docker": "quay.io/biocontainers/strucvis", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "strucVis": "/usr/local/bin/strucVis", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
+config: {"url": "https://biocontainers.pro/tools/strucvis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strucvis", "latest": {"0.7--hdfd78af_0": "sha256:0efb38279bd300c5974e9d627b793204d5c90831f9d47b2ca2ed2bcefc4a2e91"}, "tags": {"0.6--hdfd78af_0": "sha256:d5124ce57ad8b829a6d5657a2a7b2a7a8dca27dcc0c00e836f5a89a8cf6ec294", "0.7--hdfd78af_0": "sha256:0efb38279bd300c5974e9d627b793204d5c90831f9d47b2ca2ed2bcefc4a2e91"}, "docker": "quay.io/biocontainers/strucvis", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "strucVis": "/usr/local/bin/strucVis", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strucvis.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/strucvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strucvis:0.6--hdfd78af_0
+$ shpc install quay.io/biocontainers/strucvis:0.7--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strucvis/0.6--hdfd78af_0
-$ module help quay.io/biocontainers/strucvis/0.6--hdfd78af_0
+$ module load quay.io/biocontainers/strucvis/0.7--hdfd78af_0
+$ module help quay.io/biocontainers/strucvis/0.7--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

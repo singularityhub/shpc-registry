@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unitig-caller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitig-caller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unitig-caller/container.yaml"
-updated_at: "2023-04-28 02:47:06.700904"
-latest: "1.3.0--py39h307a098_0"
+updated_at: "2023-04-29 02:44:45.579513"
+latest: "1.3.0--py37h2c368fa_1"
 container_url: "https://biocontainers.pro/tools/unitig-caller"
 aliases:
  - "Bifrost"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.3.0--py39h307a098_0"
+ - "1.3.0--py37h2c368fa_1"
 description: "shpc-registry automated BioContainers addition for unitig-caller"
-config: {"url": "https://biocontainers.pro/tools/unitig-caller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitig-caller", "latest": {"1.3.0--py39h307a098_0": "sha256:1ffab8eede992b34218a162fbb3eaf9173528818795eb1acad711172561912e8"}, "tags": {"1.3.0--py39h307a098_0": "sha256:1ffab8eede992b34218a162fbb3eaf9173528818795eb1acad711172561912e8"}, "docker": "quay.io/biocontainers/unitig-caller", "aliases": {"Bifrost": "/usr/local/bin/Bifrost", "unitig-caller": "/usr/local/bin/unitig-caller", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/unitig-caller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitig-caller", "latest": {"1.3.0--py37h2c368fa_1": "sha256:9e28fe200f439e20ba8a72e272312736561e32a86d2db03f9dc76a5f26211bcf"}, "tags": {"1.3.0--py39h307a098_0": "sha256:1ffab8eede992b34218a162fbb3eaf9173528818795eb1acad711172561912e8", "1.3.0--py37h2c368fa_1": "sha256:9e28fe200f439e20ba8a72e272312736561e32a86d2db03f9dc76a5f26211bcf"}, "docker": "quay.io/biocontainers/unitig-caller", "aliases": {"Bifrost": "/usr/local/bin/Bifrost", "unitig-caller": "/usr/local/bin/unitig-caller", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unitig-caller.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/unitig-caller
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unitig-caller:1.3.0--py39h307a098_0
+$ shpc install quay.io/biocontainers/unitig-caller:1.3.0--py37h2c368fa_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unitig-caller/1.3.0--py39h307a098_0
-$ module help quay.io/biocontainers/unitig-caller/1.3.0--py39h307a098_0
+$ module load quay.io/biocontainers/unitig-caller/1.3.0--py37h2c368fa_1
+$ module help quay.io/biocontainers/unitig-caller/1.3.0--py37h2c368fa_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

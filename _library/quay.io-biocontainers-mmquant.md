@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mmquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmquant/container.yaml"
-updated_at: "2023-04-28 03:13:15.823707"
-latest: "1.0.4--hd03093a_1"
+updated_at: "2023-04-29 03:10:54.310703"
+latest: "1.0.5--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/mmquant"
 aliases:
  - "mmquant"
 versions:
  - "1.0.4--hd03093a_1"
+ - "1.0.5--hd03093a_0"
 description: "shpc-registry automated BioContainers addition for mmquant"
-config: {"url": "https://biocontainers.pro/tools/mmquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmquant", "latest": {"1.0.4--hd03093a_1": "sha256:cc14611f926d053a17e8972998398bc3ed6a7db754dc40f3a7cc61e39db178e9"}, "tags": {"1.0.4--hd03093a_1": "sha256:cc14611f926d053a17e8972998398bc3ed6a7db754dc40f3a7cc61e39db178e9"}, "docker": "quay.io/biocontainers/mmquant", "aliases": {"mmquant": "/usr/local/bin/mmquant"}}
+config: {"url": "https://biocontainers.pro/tools/mmquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmquant", "latest": {"1.0.5--hd03093a_0": "sha256:7f919367b43e508f76d787d53b9293c952fa4da516abde062e574d3b7feb1bfc"}, "tags": {"1.0.4--hd03093a_1": "sha256:cc14611f926d053a17e8972998398bc3ed6a7db754dc40f3a7cc61e39db178e9", "1.0.5--hd03093a_0": "sha256:7f919367b43e508f76d787d53b9293c952fa4da516abde062e574d3b7feb1bfc"}, "docker": "quay.io/biocontainers/mmquant", "aliases": {"mmquant": "/usr/local/bin/mmquant"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmquant.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mmquant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmquant:1.0.4--hd03093a_1
+$ shpc install quay.io/biocontainers/mmquant:1.0.5--hd03093a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmquant/1.0.4--hd03093a_1
-$ module help quay.io/biocontainers/mmquant/1.0.4--hd03093a_1
+$ module load quay.io/biocontainers/mmquant/1.0.5--hd03093a_0
+$ module help quay.io/biocontainers/mmquant/1.0.5--hd03093a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

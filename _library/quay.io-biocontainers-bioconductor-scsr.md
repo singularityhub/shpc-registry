@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scsr/container.yaml"
-updated_at: "2023-04-28 03:17:34.236303"
-latest: "1.23.0--r40_0"
+updated_at: "2023-04-29 03:15:10.233350"
+latest: "crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout"
 container_url: "https://biocontainers.pro/tools/bioconductor-scsr"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,9 @@ aliases:
  - "c99"
 versions:
  - "1.23.0--r40_0"
+ - "crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout"
 description: "shpc-registry automated BioContainers addition for bioconductor-scsr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scsr", "latest": {"1.23.0--r40_0": "sha256:223b8b2f6011547e22772cb6e738ad736e2c4c55b001ae51568ef327d55f2f18"}, "tags": {"1.23.0--r40_0": "sha256:223b8b2f6011547e22772cb6e738ad736e2c4c55b001ae51568ef327d55f2f18"}, "docker": "quay.io/biocontainers/bioconductor-scsr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scsr", "latest": {"crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout": "crane digest quay.io/biocontainers/bioconductor-scsr:crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout: parsing reference \"quay.io/biocontainers/bioconductor-scsr:crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout\": could not parse reference"}, "tags": {"1.23.0--r40_0": "crane digest quay.io/biocontainers/bioconductor-scsr:1.23.0--r40_0: unsupported status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n", "crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout": "crane digest quay.io/biocontainers/bioconductor-scsr:crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout: parsing reference \"quay.io/biocontainers/bioconductor-scsr:crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout\": could not parse reference"}, "docker": "quay.io/biocontainers/bioconductor-scsr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scsr.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scsr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scsr:1.23.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-scsr:crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scsr/1.23.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-scsr/1.23.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-scsr/crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout
+$ module help quay.io/biocontainers/bioconductor-scsr/crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

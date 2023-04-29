@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dicey"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dicey/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dicey/container.yaml"
-updated_at: "2023-04-28 03:00:51.538555"
-latest: "0.2.3--ha41ced6_0"
+updated_at: "2023-04-29 02:58:28.132183"
+latest: "0.2.3--h2af1cb8_1"
 container_url: "https://biocontainers.pro/tools/dicey"
 aliases:
  - "dicey"
@@ -16,8 +16,9 @@ versions:
  - "0.1.8--ha41ced6_3"
  - "0.2.1--ha41ced6_0"
  - "0.2.3--ha41ced6_0"
+ - "0.2.3--h2af1cb8_1"
 description: "shpc-registry automated BioContainers addition for dicey"
-config: {"url": "https://biocontainers.pro/tools/dicey", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dicey", "latest": {"0.2.3--ha41ced6_0": "sha256:bf28a5d3c822adb77e930defdc3615fa54068700403296cf2b14ab7bae648689"}, "tags": {"0.1.8--ha41ced6_3": "sha256:93bbc25eca8732e7290c48c91e427d19df351dd25897d7bafc3ca9e6d5af4048", "0.2.1--ha41ced6_0": "sha256:40b09f5b1f7022d537796283d773629d23f51f677a244308238cbddff8ce8f25", "0.2.3--ha41ced6_0": "sha256:bf28a5d3c822adb77e930defdc3615fa54068700403296cf2b14ab7bae648689"}, "docker": "quay.io/biocontainers/dicey", "aliases": {"dicey": "/usr/local/bin/dicey", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/dicey", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dicey", "latest": {"0.2.3--h2af1cb8_1": "sha256:293990b8d16643449c664f1e00622c99d005aef3f5fb682ccd144e90e0ce972a"}, "tags": {"0.1.8--ha41ced6_3": "sha256:93bbc25eca8732e7290c48c91e427d19df351dd25897d7bafc3ca9e6d5af4048", "0.2.1--ha41ced6_0": "sha256:40b09f5b1f7022d537796283d773629d23f51f677a244308238cbddff8ce8f25", "0.2.3--ha41ced6_0": "sha256:bf28a5d3c822adb77e930defdc3615fa54068700403296cf2b14ab7bae648689", "0.2.3--h2af1cb8_1": "sha256:293990b8d16643449c664f1e00622c99d005aef3f5fb682ccd144e90e0ce972a"}, "docker": "quay.io/biocontainers/dicey", "aliases": {"dicey": "/usr/local/bin/dicey", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dicey.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/dicey
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dicey:0.2.3--ha41ced6_0
+$ shpc install quay.io/biocontainers/dicey:0.2.3--h2af1cb8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dicey/0.2.3--ha41ced6_0
-$ module help quay.io/biocontainers/dicey/0.2.3--ha41ced6_0
+$ module load quay.io/biocontainers/dicey/0.2.3--h2af1cb8_1
+$ module help quay.io/biocontainers/dicey/0.2.3--h2af1cb8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

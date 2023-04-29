@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/straglr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straglr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/straglr/container.yaml"
-updated_at: "2023-04-28 02:34:17.435011"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2023-04-29 02:32:04.040508"
+latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/straglr"
 aliases:
  - "pathos_connect"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.3.0--pyhdfd78af_0"
  - "1.4.0--pyhdfd78af_0"
+ - "1.4.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for straglr"
-config: {"url": "https://biocontainers.pro/tools/straglr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straglr", "latest": {"1.4.0--pyhdfd78af_0": "sha256:07f275460d28286002daf3aa54de02a533f5a3406b1874f75c0bcf96813da913"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627", "1.4.0--pyhdfd78af_0": "sha256:07f275460d28286002daf3aa54de02a533f5a3406b1874f75c0bcf96813da913"}, "docker": "quay.io/biocontainers/straglr", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "straglr.py": "/usr/local/bin/straglr.py", "straglr_compare.py": "/usr/local/bin/straglr_compare.py", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
+config: {"url": "https://biocontainers.pro/tools/straglr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straglr", "latest": {"1.4.1--pyhdfd78af_0": "sha256:373914b663a4391e4bc479e891e2c1de0a8b2d41fdfe8fad85a492342a370875"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627", "1.4.0--pyhdfd78af_0": "sha256:07f275460d28286002daf3aa54de02a533f5a3406b1874f75c0bcf96813da913", "1.4.1--pyhdfd78af_0": "sha256:373914b663a4391e4bc479e891e2c1de0a8b2d41fdfe8fad85a492342a370875"}, "docker": "quay.io/biocontainers/straglr", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "straglr.py": "/usr/local/bin/straglr.py", "straglr_compare.py": "/usr/local/bin/straglr_compare.py", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/straglr.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/straglr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/straglr:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/straglr:1.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/straglr/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/straglr/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/straglr/1.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/straglr/1.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

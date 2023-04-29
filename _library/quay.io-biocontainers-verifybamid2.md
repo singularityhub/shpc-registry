@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/verifybamid2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifybamid2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifybamid2/container.yaml"
-updated_at: "2023-04-28 02:43:32.771970"
-latest: "2.0.1--h19d48f6_8"
+updated_at: "2023-04-29 02:41:11.038715"
+latest: "2.0.1--h6a62bbb_9"
 container_url: "https://biocontainers.pro/tools/verifybamid2"
 aliases:
  - "verifybamid2"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "2.0.1--h19d48f6_8"
+ - "2.0.1--h6a62bbb_9"
 description: "shpc-registry automated BioContainers addition for verifybamid2"
-config: {"url": "https://biocontainers.pro/tools/verifybamid2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifybamid2", "latest": {"2.0.1--h19d48f6_8": "sha256:66df5df3fa382b9891bf9426e6d6ec2783b2c01e1a0df333910d2e518ca38083"}, "tags": {"2.0.1--h19d48f6_8": "sha256:66df5df3fa382b9891bf9426e6d6ec2783b2c01e1a0df333910d2e518ca38083"}, "docker": "quay.io/biocontainers/verifybamid2", "aliases": {"verifybamid2": "/usr/local/bin/verifybamid2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/verifybamid2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifybamid2", "latest": {"2.0.1--h6a62bbb_9": "sha256:f46ce7c1924dd85decb0447cdbbfdedb1e83e6d93382f850eefa9bb8fd1b43d5"}, "tags": {"2.0.1--h19d48f6_8": "sha256:66df5df3fa382b9891bf9426e6d6ec2783b2c01e1a0df333910d2e518ca38083", "2.0.1--h6a62bbb_9": "sha256:f46ce7c1924dd85decb0447cdbbfdedb1e83e6d93382f850eefa9bb8fd1b43d5"}, "docker": "quay.io/biocontainers/verifybamid2", "aliases": {"verifybamid2": "/usr/local/bin/verifybamid2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verifybamid2.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/verifybamid2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verifybamid2:2.0.1--h19d48f6_8
+$ shpc install quay.io/biocontainers/verifybamid2:2.0.1--h6a62bbb_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verifybamid2/2.0.1--h19d48f6_8
-$ module help quay.io/biocontainers/verifybamid2/2.0.1--h19d48f6_8
+$ module load quay.io/biocontainers/verifybamid2/2.0.1--h6a62bbb_9
+$ module help quay.io/biocontainers/verifybamid2/2.0.1--h6a62bbb_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

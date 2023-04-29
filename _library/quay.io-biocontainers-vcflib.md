@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcflib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcflib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcflib/container.yaml"
-updated_at: "2023-04-28 03:17:28.780994"
-latest: "1.0.3--ha04fe3b_2"
+updated_at: "2023-04-29 03:15:05.111366"
+latest: "1.0.3--h6b7c446_3"
 container_url: "https://biocontainers.pro/tools/vcflib"
 aliases:
  - "tabix++"
@@ -20,8 +20,9 @@ aliases:
  - "hapLrt"
 versions:
  - "1.0.3--ha04fe3b_2"
+ - "1.0.3--h6b7c446_3"
 description: "shpc-registry automated BioContainers addition for vcflib"
-config: {"url": "https://biocontainers.pro/tools/vcflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcflib", "latest": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "tags": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "docker": "quay.io/biocontainers/vcflib", "aliases": {"tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt"}}
+config: {"url": "https://biocontainers.pro/tools/vcflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcflib", "latest": {"1.0.3--h6b7c446_3": "sha256:7ff994be6c5f3b306ef9e40674b16db8c10e30040a9ba367963e06feb1dbd5b1"}, "tags": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3", "1.0.3--h6b7c446_3": "sha256:7ff994be6c5f3b306ef9e40674b16db8c10e30040a9ba367963e06feb1dbd5b1"}, "docker": "quay.io/biocontainers/vcflib", "aliases": {"tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcflib.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/vcflib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcflib:1.0.3--ha04fe3b_2
+$ shpc install quay.io/biocontainers/vcflib:1.0.3--h6b7c446_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcflib/1.0.3--ha04fe3b_2
-$ module help quay.io/biocontainers/vcflib/1.0.3--ha04fe3b_2
+$ module load quay.io/biocontainers/vcflib/1.0.3--h6b7c446_3
+$ module help quay.io/biocontainers/vcflib/1.0.3--h6b7c446_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

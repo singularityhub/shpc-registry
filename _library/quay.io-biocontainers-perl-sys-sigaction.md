@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sys-sigaction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sys-sigaction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sys-sigaction/container.yaml"
-updated_at: "2023-04-28 02:55:10.865010"
+updated_at: "2023-04-29 02:52:48.672670"
 latest: "0.23--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-sys-sigaction"
 aliases:

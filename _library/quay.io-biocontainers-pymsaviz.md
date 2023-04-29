@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pymsaviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymsaviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymsaviz/container.yaml"
-updated_at: "2023-04-28 02:44:25.431927"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2023-04-29 02:42:04.025294"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pymsaviz"
 aliases:
  - "f2py3.11"
@@ -32,8 +32,10 @@ aliases:
  - "transicc"
 versions:
  - "0.2.2--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pymsaviz"
-config: {"url": "https://biocontainers.pro/tools/pymsaviz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pymsaviz", "latest": {"0.2.2--pyhdfd78af_0": "sha256:6063eca7067725c31f5523a07212a22dd3d9d4f0aa8a389e829f4b85e5331a1e"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:6063eca7067725c31f5523a07212a22dd3d9d4f0aa8a389e829f4b85e5331a1e"}, "docker": "quay.io/biocontainers/pymsaviz", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "pymsaviz": "/usr/local/bin/pymsaviz", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/pymsaviz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pymsaviz", "latest": {"0.4.0--pyhdfd78af_0": "sha256:8468a4dc455e66770416130473c945a7db9735e90e05db3e94f1cd56ac4617b5"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:6063eca7067725c31f5523a07212a22dd3d9d4f0aa8a389e829f4b85e5331a1e", "0.4.0--pyhdfd78af_0": "sha256:8468a4dc455e66770416130473c945a7db9735e90e05db3e94f1cd56ac4617b5", "0.3.0--pyhdfd78af_0": "sha256:2605b36e81775711fee6e72bbc3ae875c2dba2661cae51aa575aff59bb7199dc"}, "docker": "quay.io/biocontainers/pymsaviz", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "pymsaviz": "/usr/local/bin/pymsaviz", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymsaviz.
@@ -48,7 +50,7 @@ $ shpc install quay.io/biocontainers/pymsaviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pymsaviz:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pymsaviz:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pymsaviz/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/pymsaviz/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/pymsaviz/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pymsaviz/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

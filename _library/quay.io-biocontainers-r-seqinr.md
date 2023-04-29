@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-seqinr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seqinr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seqinr/container.yaml"
-updated_at: "2023-04-28 03:15:35.720959"
+updated_at: "2023-04-29 03:13:13.584956"
 latest: "3.4_5--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-seqinr"
 aliases:

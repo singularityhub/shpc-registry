@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgat-pipelines-nosetests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-pipelines-nosetests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-pipelines-nosetests/container.yaml"
-updated_at: "2023-04-28 02:41:35.212235"
+updated_at: "2023-04-29 02:39:13.898958"
 latest: "0.0.4--py35r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/cgat-pipelines-nosetests"
 aliases:

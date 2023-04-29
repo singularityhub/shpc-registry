@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcapc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcapc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcapc/container.yaml"
-updated_at: "2023-04-28 03:03:53.649927"
+updated_at: "2023-04-29 03:01:30.774453"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcapc"
 aliases:

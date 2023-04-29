@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mauve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mauve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mauve/container.yaml"
-updated_at: "2023-04-28 03:11:38.992012"
+updated_at: "2023-04-29 03:09:17.107647"
 latest: "2.4.0.r4736--h9bed127_2"
 container_url: "https://biocontainers.pro/tools/mauve"
 aliases:

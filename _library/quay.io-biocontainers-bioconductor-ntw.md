@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-ntw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ntw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ntw/container.yaml"
-updated_at: "2023-04-28 02:58:15.119026"
-latest: "1.48.0--r42hdfd78af_0"
+updated_at: "2023-04-29 02:55:51.134213"
+latest: "crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>"
 container_url: "https://biocontainers.pro/tools/bioconductor-ntw"
 
 versions:
  - "1.44.0--r41hdfd78af_0"
  - "1.48.0--r42hdfd78af_0"
+ - "crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>"
+ - "<body>"
+ - "<center><h1>504 Gateway Time-out</h1></center>"
+ - "</body>"
+ - "</html>"
 description: "shpc-registry automated BioContainers addition for bioconductor-ntw"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ntw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ntw", "latest": {"1.48.0--r42hdfd78af_0": "sha256:daa8182dfbe2ac0578c44eead0781ca1d48953c4afee6aa0ff989dc355de2574"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:016cc04957306b27520229f84aed35683fd8438166e6eb16691185f01eb1e5fa", "1.48.0--r42hdfd78af_0": "sha256:daa8182dfbe2ac0578c44eead0781ca1d48953c4afee6aa0ff989dc355de2574"}, "docker": "quay.io/biocontainers/bioconductor-ntw"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ntw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ntw", "latest": {"crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>": "crane digest quay.io/biocontainers/bioconductor-ntw:crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>: parsing reference \"quay.io/biocontainers/bioconductor-ntw:crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>\": could not parse reference"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:016cc04957306b27520229f84aed35683fd8438166e6eb16691185f01eb1e5fa", "1.48.0--r42hdfd78af_0": "sha256:daa8182dfbe2ac0578c44eead0781ca1d48953c4afee6aa0ff989dc355de2574", "crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>": "crane digest quay.io/biocontainers/bioconductor-ntw:crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>: parsing reference \"quay.io/biocontainers/bioconductor-ntw:crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>\": could not parse reference", "<body>": "crane digest quay.io/biocontainers/bioconductor-ntw:<body>: parsing reference \"quay.io/biocontainers/bioconductor-ntw:<body>\": could not parse reference", "<center><h1>504 Gateway Time-out</h1></center>": "crane digest quay.io/biocontainers/bioconductor-ntw:<center><h1>504 Gateway Time-out</h1></center>: parsing reference \"quay.io/biocontainers/bioconductor-ntw:<center><h1>504 Gateway Time-out</h1></center>\": could not parse reference", "</body>": "crane digest quay.io/biocontainers/bioconductor-ntw:</body>: parsing reference \"quay.io/biocontainers/bioconductor-ntw:</body>\": could not parse reference", "</html>": "crane digest quay.io/biocontainers/bioconductor-ntw:</html>: parsing reference \"quay.io/biocontainers/bioconductor-ntw:</html>\": could not parse reference"}, "docker": "quay.io/biocontainers/bioconductor-ntw"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ntw.
@@ -27,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ntw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ntw:1.48.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ntw:crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ntw/1.48.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ntw/1.48.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ntw/crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>
+$ module help quay.io/biocontainers/bioconductor-ntw/crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
