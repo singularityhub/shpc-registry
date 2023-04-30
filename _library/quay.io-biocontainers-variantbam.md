@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variantbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variantbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variantbam/container.yaml"
-updated_at: "2023-04-29 02:58:56.811433"
+updated_at: "2023-04-30 03:00:02.020843"
 latest: "1.4.4a--h468198e_6"
 container_url: "https://biocontainers.pro/tools/variantbam"
 aliases:
