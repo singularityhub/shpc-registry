@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longstitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longstitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longstitch/container.yaml"
-updated_at: "2023-05-01 02:36:50.776310"
+updated_at: "2023-05-01 03:06:35.330225"
 latest: "1.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longstitch"
 aliases:
