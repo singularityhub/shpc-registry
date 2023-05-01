@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tyto
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tyto
 latest:
-  1.0b3--pyhdfd78af_0: sha256:451a39ce44a398007feb7706fb7efe99119de3e78df1e773b6f33a19779eeb0d
+  1.4--pyhdfd78af_0: sha256:de46959730137bad33d3bc6f1ef3ca78c543c18f1c3fbea98f335cb1d9389c10
 tags:
   1.0b3--pyhdfd78af_0: sha256:451a39ce44a398007feb7706fb7efe99119de3e78df1e773b6f33a19779eeb0d
+  1.4--pyhdfd78af_0: sha256:de46959730137bad33d3bc6f1ef3ca78c543c18f1c3fbea98f335cb1d9389c10
 docker: quay.io/biocontainers/tyto
 aliases:
   csv2rdf: /usr/local/bin/csv2rdf
