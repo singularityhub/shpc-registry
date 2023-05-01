@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/superdsm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for superdsm
+latest:
+  0.1--pyhdfd78af_0: sha256:46b2af7c92f0621815d8fc6e4bdf853bcd72a3aef4ab04da8f5cdbe635e12efa
+tags:
+  0.1--pyhdfd78af_0: sha256:46b2af7c92f0621815d8fc6e4bdf853bcd72a3aef4ab04da8f5cdbe635e12efa
+docker: quay.io/biocontainers/superdsm
+aliases:
+  corepack: /usr/local/bin/corepack
+  dask: /usr/local/bin/dask
+  dav1d: /usr/local/bin/dav1d
+  dsdp5: /usr/local/bin/dsdp5
+  gpustat: /usr/local/bin/gpustat
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm
+  npx: /usr/local/bin/npx
+  py-spy: /usr/local/bin/py-spy
+  ray: /usr/local/bin/ray
+  virtualenv: /usr/local/bin/virtualenv
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology

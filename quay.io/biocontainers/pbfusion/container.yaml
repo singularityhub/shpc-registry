@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pbfusion
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pbfusion
+latest:
+  0.1.0--hdfd78af_0: sha256:3c1c3d83a9949a0bfbce7721f03dc9a0182cdc78679ec58c488d74bd994e4824
+tags:
+  0.1.0--hdfd78af_0: sha256:3c1c3d83a9949a0bfbce7721f03dc9a0182cdc78679ec58c488d74bd994e4824
+docker: quay.io/biocontainers/pbfusion
+aliases:
+  gffcache: /usr/local/bin/gffcache
+  pbfusion: /usr/local/bin/pbfusion
