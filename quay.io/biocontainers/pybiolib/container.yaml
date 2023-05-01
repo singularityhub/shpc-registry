@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/pybiolib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pybiolib
+latest:
+  1.1.825--pyhdfd78af_0: sha256:f72afaa64b3e814158be3c71b30ef036815c7f4fa72d6c618ef10762e96183be
+tags:
+  1.1.825--pyhdfd78af_0: sha256:f72afaa64b3e814158be3c71b30ef036815c7f4fa72d6c618ef10762e96183be
+docker: quay.io/biocontainers/pybiolib
+aliases:
+  biolib: /usr/local/bin/biolib
+  gunicorn: /usr/local/bin/gunicorn
+  wsdump: /usr/local/bin/wsdump
+  flask: /usr/local/bin/flask
+  cmark: /usr/local/bin/cmark
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  pygmentize: /usr/local/bin/pygmentize
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1

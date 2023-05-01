@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/pyctv_taxonomy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyctv_taxonomy
+latest:
+  0.25--pyhdfd78af_0: sha256:90f4424d99b9f683e932ed86a144dec693acf96e4625fc71dee8146a2c4b53a1
+tags:
+  0.25--pyhdfd78af_0: sha256:90f4424d99b9f683e932ed86a144dec693acf96e4625fc71dee8146a2c4b53a1
+docker: quay.io/biocontainers/pyctv_taxonomy
+aliases:
+  pyctv.py: /usr/local/bin/pyctv.py
+  pyctv_taxonomy.py: /usr/local/bin/pyctv_taxonomy.py
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1
