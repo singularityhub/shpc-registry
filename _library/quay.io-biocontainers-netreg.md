@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/netreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netreg/container.yaml"
-updated_at: "2023-04-30 03:18:17.225927"
+updated_at: "2023-05-01 03:28:24.081136"
 latest: "1.8.0--h9fd3d4c_0"
 container_url: "https://biocontainers.pro/tools/netreg"
 aliases:

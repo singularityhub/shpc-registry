@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geofastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geofastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geofastq/container.yaml"
-updated_at: "2023-04-30 02:36:41.222330"
+updated_at: "2023-05-01 02:39:19.548962"
 latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geofastq"
 

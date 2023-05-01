@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gs-tama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gs-tama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gs-tama/container.yaml"
-updated_at: "2023-04-30 02:36:39.337039"
+updated_at: "2023-05-01 02:39:17.235229"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gs-tama"
 aliases:
