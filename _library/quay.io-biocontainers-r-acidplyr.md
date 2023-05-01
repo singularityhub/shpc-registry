@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidplyr/container.yaml"
-updated_at: "2023-05-01 03:40:54.339666"
+updated_at: "2023-05-01 03:44:19.689106"
 latest: "0.3.7--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-acidplyr"
 

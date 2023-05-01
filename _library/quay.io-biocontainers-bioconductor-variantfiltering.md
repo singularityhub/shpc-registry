@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-variantfiltering"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-variantfiltering/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-variantfiltering/container.yaml"
-updated_at: "2023-05-01 03:28:50.662232"
+updated_at: "2023-05-01 03:32:02.779100"
 latest: "1.34.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-variantfiltering"
 

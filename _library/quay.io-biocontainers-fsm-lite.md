@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fsm-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fsm-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fsm-lite/container.yaml"
-updated_at: "2023-05-01 03:48:53.565069"
+updated_at: "2023-05-01 03:52:27.351871"
 latest: "1.0--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/fsm-lite"
 aliases:
