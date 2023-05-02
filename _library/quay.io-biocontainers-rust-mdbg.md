@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rust-mdbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-mdbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-mdbg/container.yaml"
-updated_at: "2023-05-01 03:23:09.573325"
+updated_at: "2023-05-02 02:55:12.726661"
 latest: "1.0.1--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/rust-mdbg"
 aliases:

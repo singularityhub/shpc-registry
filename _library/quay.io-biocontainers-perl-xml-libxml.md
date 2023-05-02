@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-libxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-libxml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-libxml/container.yaml"
-updated_at: "2023-05-01 03:27:02.533520"
+updated_at: "2023-05-02 03:00:46.540738"
 latest: "2.0207--pl5321h661654b_0"
 container_url: "https://biocontainers.pro/tools/perl-xml-libxml"
 aliases:

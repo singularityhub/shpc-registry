@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/abpoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abpoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abpoa/container.yaml"
-updated_at: "2023-05-01 03:21:48.551321"
-latest: "1.4.1--h7132678_1"
+updated_at: "2023-05-02 02:53:17.205900"
+latest: "1.4.1--h7132678_2"
 container_url: "https://biocontainers.pro/tools/abpoa"
 aliases:
  - "abpoa"
 versions:
  - "1.4.1--h7132678_1"
+ - "1.4.1--h7132678_2"
 description: "shpc-registry automated BioContainers addition for abpoa"
-config: {"url": "https://biocontainers.pro/tools/abpoa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abpoa", "latest": {"1.4.1--h7132678_1": "sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d"}, "tags": {"1.4.1--h7132678_1": "sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d"}, "docker": "quay.io/biocontainers/abpoa", "aliases": {"abpoa": "/usr/local/bin/abpoa"}}
+config: {"url": "https://biocontainers.pro/tools/abpoa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abpoa", "latest": {"1.4.1--h7132678_2": "sha256:c0b499af682159c7aa76b6fe79055c6bbe66d7a79aeac679eaae7cef15d9b1f4"}, "tags": {"1.4.1--h7132678_1": "sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d", "1.4.1--h7132678_2": "sha256:c0b499af682159c7aa76b6fe79055c6bbe66d7a79aeac679eaae7cef15d9b1f4"}, "docker": "quay.io/biocontainers/abpoa", "aliases": {"abpoa": "/usr/local/bin/abpoa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abpoa.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/abpoa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abpoa:1.4.1--h7132678_1
+$ shpc install quay.io/biocontainers/abpoa:1.4.1--h7132678_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abpoa/1.4.1--h7132678_1
-$ module help quay.io/biocontainers/abpoa/1.4.1--h7132678_1
+$ module load quay.io/biocontainers/abpoa/1.4.1--h7132678_2
+$ module help quay.io/biocontainers/abpoa/1.4.1--h7132678_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

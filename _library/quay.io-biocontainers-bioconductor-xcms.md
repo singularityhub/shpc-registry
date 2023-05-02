@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xcms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xcms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xcms/container.yaml"
-updated_at: "2023-05-01 03:26:56.738066"
+updated_at: "2023-05-02 03:00:38.319278"
 latest: "3.20.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xcms"
 aliases:

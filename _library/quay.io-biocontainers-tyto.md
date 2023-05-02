@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tyto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tyto/container.yaml"
-updated_at: "2023-05-01 03:48:38.217263"
-latest: "1.0b3--pyhdfd78af_0"
+updated_at: "2023-05-02 03:31:25.477622"
+latest: "1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tyto"
 aliases:
  - "csv2rdf"
@@ -21,8 +21,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.0b3--pyhdfd78af_0"
+ - "1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tyto"
-config: {"url": "https://biocontainers.pro/tools/tyto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tyto", "latest": {"1.0b3--pyhdfd78af_0": "sha256:451a39ce44a398007feb7706fb7efe99119de3e78df1e773b6f33a19779eeb0d"}, "tags": {"1.0b3--pyhdfd78af_0": "sha256:451a39ce44a398007feb7706fb7efe99119de3e78df1e773b6f33a19779eeb0d"}, "docker": "quay.io/biocontainers/tyto", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "normalizer": "/usr/local/bin/normalizer", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/tyto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tyto", "latest": {"1.4--pyhdfd78af_0": "sha256:de46959730137bad33d3bc6f1ef3ca78c543c18f1c3fbea98f335cb1d9389c10"}, "tags": {"1.0b3--pyhdfd78af_0": "sha256:451a39ce44a398007feb7706fb7efe99119de3e78df1e773b6f33a19779eeb0d", "1.4--pyhdfd78af_0": "sha256:de46959730137bad33d3bc6f1ef3ca78c543c18f1c3fbea98f335cb1d9389c10"}, "docker": "quay.io/biocontainers/tyto", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "normalizer": "/usr/local/bin/normalizer", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tyto.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/tyto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tyto:1.0b3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tyto:1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tyto/1.0b3--pyhdfd78af_0
-$ module help quay.io/biocontainers/tyto/1.0b3--pyhdfd78af_0
+$ module load quay.io/biocontainers/tyto/1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/tyto/1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
