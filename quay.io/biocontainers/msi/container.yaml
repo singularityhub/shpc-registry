@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/msi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for msi
 latest:
-  0.3.6--hdfd78af_0: sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9
+  0.3.7--hdfd78af_0: sha256:3ef30425d0ba26c0d929e7804f7c6290ce95731ee8caacbb4e3251453bff417f
 tags:
   0.3.6--hdfd78af_0: sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9
+  0.3.7--hdfd78af_0: sha256:3ef30425d0ba26c0d929e7804f7c6290ce95731ee8caacbb4e3251453bff417f
 docker: quay.io/biocontainers/msi
 aliases:
   bam2fastq: /usr/local/bin/bam2fastq

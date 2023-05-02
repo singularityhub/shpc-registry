@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/ncbi-amrfinderplus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbi-amrfinderplus
 latest:
-  3.11.4--h6e70893_0: sha256:cf21fdecfeec79fa451ad886a5b89b7944d700a631195794f7119f8b133f225b
+  3.11.11--h6e70893_0: sha256:0d7f38b5fcf0176afb116537b063488bb47740e7a76ec1dfe9a80410b86d3172
 tags:
   3.9.8--h671e170_0: sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7
   3.10.45--h6e70893_0: sha256:092bf3870139e32f920f3070f569c0290d096604d9be67003a9d127875c26444
   3.11.2--h6e70893_0: sha256:1cea397c09bb9d9690ad5ad59eb685e8e2477bcfad9d0b98c820c6720a2d9c94
   3.11.4--h6e70893_0: sha256:cf21fdecfeec79fa451ad886a5b89b7944d700a631195794f7119f8b133f225b
+  3.11.11--h6e70893_0: sha256:0d7f38b5fcf0176afb116537b063488bb47740e7a76ec1dfe9a80410b86d3172
 docker: quay.io/biocontainers/ncbi-amrfinderplus
 aliases:
   amr_report: /usr/local/bin/amr_report
