@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lumpy-sv-minimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lumpy-sv-minimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lumpy-sv-minimal/container.yaml"
-updated_at: "2023-05-02 03:15:43.070729"
+updated_at: "2023-05-03 03:00:50.459413"
 latest: "0.3.1--hff880f7_2"
 container_url: "https://biocontainers.pro/tools/lumpy-sv-minimal"
 aliases:

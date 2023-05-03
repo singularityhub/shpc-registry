@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msi/container.yaml"
-updated_at: "2023-05-02 03:00:55.643440"
-latest: "0.3.6--hdfd78af_0"
+updated_at: "2023-05-03 02:50:29.230490"
+latest: "0.3.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msi"
 aliases:
  - "bam2fastq"
@@ -58,8 +58,9 @@ aliases:
  - "_giftogd2"
 versions:
  - "0.3.6--hdfd78af_0"
+ - "0.3.7--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for msi"
-config: {"url": "https://biocontainers.pro/tools/msi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msi", "latest": {"0.3.6--hdfd78af_0": "sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9"}, "tags": {"0.3.6--hdfd78af_0": "sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9"}, "docker": "quay.io/biocontainers/msi", "aliases": {"bam2fastq": "/usr/local/bin/bam2fastq", "bam_add_tags": "/usr/local/bin/bam_add_tags", "bam_annotate.sh": "/usr/local/bin/bam_annotate.sh", "bam_umi_count": "/usr/local/bin/bam_umi_count", "fastq2bam": "/usr/local/bin/fastq2bam", "fastq_filter_n": "/usr/local/bin/fastq_filter_n", "fastq_filterpair": "/usr/local/bin/fastq_filterpair", "fastq_info": "/usr/local/bin/fastq_info", "fastq_not_empty": "/usr/local/bin/fastq_not_empty", "fastq_num_reads": "/usr/local/bin/fastq_num_reads", "fastq_pre_barcodes": "/usr/local/bin/fastq_pre_barcodes", "fastq_split_interleaved": "/usr/local/bin/fastq_split_interleaved", "fastq_tests": "/usr/local/bin/fastq_tests", "fastq_trim_poly_at": "/usr/local/bin/fastq_trim_poly_at", "fastq_truncate": "/usr/local/bin/fastq_truncate", "fastq_validator.sh": "/usr/local/bin/fastq_validator.sh", "isONclust": "/usr/local/bin/isONclust", "metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "msi": "/usr/local/bin/msi", "msi_cluster2reads": "/usr/local/bin/msi_cluster2reads", "msi_clustr2map.pl": "/usr/local/bin/msi_clustr2map.pl", "msi_clustr_add_size.pl": "/usr/local/bin/msi_clustr_add_size.pl", "msi_display_report": "/usr/local/bin/msi_display_report", "msi_docker": "/usr/local/bin/msi_docker", "msi_fastq_stats.sh": "/usr/local/bin/msi_fastq_stats.sh", "msi_incremental.sh": "/usr/local/bin/msi_incremental.sh", "msi_install.sh": "/usr/local/bin/msi_install.sh", "msi_rename_columns.sh": "/usr/local/bin/msi_rename_columns.sh", "msi_res2taxatable": "/usr/local/bin/msi_res2taxatable", "msi_shared.sh": "/usr/local/bin/msi_shared.sh", "msi_tidyup_results": "/usr/local/bin/msi_tidyup_results", "msi_tidyup_table": "/usr/local/bin/msi_tidyup_table", "msi_time_it": "/usr/local/bin/msi_time_it", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh", "filter-table": "/usr/local/bin/filter-table", "spdi2prod": "/usr/local/bin/spdi2prod", "_bdftogd": "/usr/local/bin/_bdftogd", "_gd2copypal": "/usr/local/bin/_gd2copypal", "_gd2togif": "/usr/local/bin/_gd2togif", "_gd2topng": "/usr/local/bin/_gd2topng", "_gdcmpgif": "/usr/local/bin/_gdcmpgif", "_gdparttopng": "/usr/local/bin/_gdparttopng", "_gdtopng": "/usr/local/bin/_gdtopng", "_giftogd2": "/usr/local/bin/_giftogd2"}}
+config: {"url": "https://biocontainers.pro/tools/msi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msi", "latest": {"0.3.7--hdfd78af_0": "sha256:3ef30425d0ba26c0d929e7804f7c6290ce95731ee8caacbb4e3251453bff417f"}, "tags": {"0.3.6--hdfd78af_0": "sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9", "0.3.7--hdfd78af_0": "sha256:3ef30425d0ba26c0d929e7804f7c6290ce95731ee8caacbb4e3251453bff417f"}, "docker": "quay.io/biocontainers/msi", "aliases": {"bam2fastq": "/usr/local/bin/bam2fastq", "bam_add_tags": "/usr/local/bin/bam_add_tags", "bam_annotate.sh": "/usr/local/bin/bam_annotate.sh", "bam_umi_count": "/usr/local/bin/bam_umi_count", "fastq2bam": "/usr/local/bin/fastq2bam", "fastq_filter_n": "/usr/local/bin/fastq_filter_n", "fastq_filterpair": "/usr/local/bin/fastq_filterpair", "fastq_info": "/usr/local/bin/fastq_info", "fastq_not_empty": "/usr/local/bin/fastq_not_empty", "fastq_num_reads": "/usr/local/bin/fastq_num_reads", "fastq_pre_barcodes": "/usr/local/bin/fastq_pre_barcodes", "fastq_split_interleaved": "/usr/local/bin/fastq_split_interleaved", "fastq_tests": "/usr/local/bin/fastq_tests", "fastq_trim_poly_at": "/usr/local/bin/fastq_trim_poly_at", "fastq_truncate": "/usr/local/bin/fastq_truncate", "fastq_validator.sh": "/usr/local/bin/fastq_validator.sh", "isONclust": "/usr/local/bin/isONclust", "metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "msi": "/usr/local/bin/msi", "msi_cluster2reads": "/usr/local/bin/msi_cluster2reads", "msi_clustr2map.pl": "/usr/local/bin/msi_clustr2map.pl", "msi_clustr_add_size.pl": "/usr/local/bin/msi_clustr_add_size.pl", "msi_display_report": "/usr/local/bin/msi_display_report", "msi_docker": "/usr/local/bin/msi_docker", "msi_fastq_stats.sh": "/usr/local/bin/msi_fastq_stats.sh", "msi_incremental.sh": "/usr/local/bin/msi_incremental.sh", "msi_install.sh": "/usr/local/bin/msi_install.sh", "msi_rename_columns.sh": "/usr/local/bin/msi_rename_columns.sh", "msi_res2taxatable": "/usr/local/bin/msi_res2taxatable", "msi_shared.sh": "/usr/local/bin/msi_shared.sh", "msi_tidyup_results": "/usr/local/bin/msi_tidyup_results", "msi_tidyup_table": "/usr/local/bin/msi_tidyup_table", "msi_time_it": "/usr/local/bin/msi_time_it", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh", "filter-table": "/usr/local/bin/filter-table", "spdi2prod": "/usr/local/bin/spdi2prod", "_bdftogd": "/usr/local/bin/_bdftogd", "_gd2copypal": "/usr/local/bin/_gd2copypal", "_gd2togif": "/usr/local/bin/_gd2togif", "_gd2topng": "/usr/local/bin/_gd2topng", "_gdcmpgif": "/usr/local/bin/_gdcmpgif", "_gdparttopng": "/usr/local/bin/_gdparttopng", "_gdtopng": "/usr/local/bin/_gdtopng", "_giftogd2": "/usr/local/bin/_giftogd2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msi.
@@ -74,7 +75,7 @@ $ shpc install quay.io/biocontainers/msi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msi:0.3.6--hdfd78af_0
+$ shpc install quay.io/biocontainers/msi:0.3.7--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -86,8 +87,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msi/0.3.6--hdfd78af_0
-$ module help quay.io/biocontainers/msi/0.3.6--hdfd78af_0
+$ module load quay.io/biocontainers/msi/0.3.7--hdfd78af_0
+$ module help quay.io/biocontainers/msi/0.3.7--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
