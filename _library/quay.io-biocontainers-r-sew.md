@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sew"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sew/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sew/container.yaml"
-updated_at: "2023-05-04 02:38:04.995765"
+updated_at: "2023-05-04 02:50:53.142302"
 latest: "1.0.1--r42h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/r-sew"
 aliases:

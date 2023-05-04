@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowspy/container.yaml"
-updated_at: "2023-05-04 03:21:33.598042"
+updated_at: "2023-05-04 03:29:19.907188"
 latest: "1.4.0--r40h399db7b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowspy"
 aliases:

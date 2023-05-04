@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metavelvet-annois"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet-annois/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet-annois/container.yaml"
-updated_at: "2023-05-04 03:18:22.988211"
+updated_at: "2023-05-04 03:26:32.290092"
 latest: "0.2.01--pl5321hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/metavelvet-annois"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-noisyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-noisyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-noisyr/container.yaml"
-updated_at: "2023-05-04 02:52:59.107171"
+updated_at: "2023-05-04 03:04:07.404920"
 latest: "1.0.0--r42h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-noisyr"
 aliases:

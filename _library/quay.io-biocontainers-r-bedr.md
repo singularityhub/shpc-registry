@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bedr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bedr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bedr/container.yaml"
-updated_at: "2023-05-04 02:46:22.258776"
+updated_at: "2023-05-04 02:58:18.285997"
 latest: "1.0.4--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-bedr"
 aliases:

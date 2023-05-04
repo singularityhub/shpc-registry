@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dpeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dpeak/container.yaml"
-updated_at: "2023-05-04 02:50:17.043525"
+updated_at: "2023-05-04 03:01:42.358072"
 latest: "2.0.1--r42h9f5acd7_7"
 container_url: "https://biocontainers.pro/tools/r-dpeak"
 aliases:

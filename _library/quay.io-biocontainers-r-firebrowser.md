@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-firebrowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-firebrowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-firebrowser/container.yaml"
-updated_at: "2023-05-04 03:25:33.998223"
+updated_at: "2023-05-04 03:32:49.608205"
 latest: "1.1.35--r42hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-firebrowser"
 aliases:

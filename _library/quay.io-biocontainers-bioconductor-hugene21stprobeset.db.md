@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hugene21stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hugene21stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hugene21stprobeset.db/container.yaml"
-updated_at: "2023-05-04 03:20:35.078521"
+updated_at: "2023-05-04 03:28:28.954989"
 latest: "8.8.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-hugene21stprobeset.db"
 
