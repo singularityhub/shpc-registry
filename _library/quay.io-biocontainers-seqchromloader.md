@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqchromloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqchromloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqchromloader/container.yaml"
-updated_at: "2023-05-03 03:12:27.051928"
-latest: "0.2.4--pyhdfd78af_0"
+updated_at: "2023-05-04 03:20:42.040628"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqchromloader"
 aliases:
  - "pyfasta"
@@ -37,8 +37,9 @@ aliases:
  - "bamToBed"
 versions:
  - "0.2.4--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for seqchromloader"
-config: {"url": "https://biocontainers.pro/tools/seqchromloader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqchromloader", "latest": {"0.2.4--pyhdfd78af_0": "sha256:19ac50bd67878369e72a6aa7813d68a689de2510b83a82e7f2d6c62e7c4ccef6"}, "tags": {"0.2.4--pyhdfd78af_0": "sha256:19ac50bd67878369e72a6aa7813d68a689de2510b83a82e7f2d6c62e7c4ccef6"}, "docker": "quay.io/biocontainers/seqchromloader", "aliases": {"pyfasta": "/usr/local/bin/pyfasta", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
+config: {"url": "https://biocontainers.pro/tools/seqchromloader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqchromloader", "latest": {"0.4.0--pyhdfd78af_0": "sha256:47bfe632d342ea57a004dce1bb1a5059f3763537be2e095343108362e5cdb033"}, "tags": {"0.2.4--pyhdfd78af_0": "sha256:19ac50bd67878369e72a6aa7813d68a689de2510b83a82e7f2d6c62e7c4ccef6", "0.4.0--pyhdfd78af_0": "sha256:47bfe632d342ea57a004dce1bb1a5059f3763537be2e095343108362e5cdb033"}, "docker": "quay.io/biocontainers/seqchromloader", "aliases": {"pyfasta": "/usr/local/bin/pyfasta", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqchromloader.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/seqchromloader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqchromloader:0.2.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seqchromloader:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqchromloader/0.2.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/seqchromloader/0.2.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/seqchromloader/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/seqchromloader/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

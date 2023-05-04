@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mitoz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitoz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitoz/container.yaml"
-updated_at: "2023-05-03 02:44:11.461139"
+updated_at: "2023-05-04 02:46:25.153637"
 latest: "3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mitoz"
 aliases:

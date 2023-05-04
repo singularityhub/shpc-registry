@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirlab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirlab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirlab/container.yaml"
-updated_at: "2023-05-03 03:12:45.809645"
+updated_at: "2023-05-04 03:21:05.143669"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirlab"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/igdiscover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igdiscover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igdiscover/container.yaml"
-updated_at: "2023-05-03 03:06:06.936774"
-latest: "0.15.1--pyhdfd78af_0"
+updated_at: "2023-05-04 03:12:59.540355"
+latest: "0.15.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/igdiscover"
 aliases:
  - "aclocal.bak"
@@ -40,8 +40,9 @@ versions:
  - "0.13--pyhdfd78af_0"
  - "0.12.3--py_1"
  - "0.11--py36_0"
+ - "0.15.1--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for igdiscover"
-config: {"url": "https://biocontainers.pro/tools/igdiscover", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igdiscover", "latest": {"0.15.1--pyhdfd78af_0": "sha256:f3ce56d6828b2cf7898a7e7daecd3d83729f0b9ae5d2c8c0be188f87ab0ead28"}, "tags": {"0.9--py36_1": "sha256:71df4a6d8576297bd50a18dffdd5d2b3d93c211829c2013fe356fbaecf28c5e4", "0.15.1--pyhdfd78af_0": "sha256:f3ce56d6828b2cf7898a7e7daecd3d83729f0b9ae5d2c8c0be188f87ab0ead28", "0.14--pyhdfd78af_0": "sha256:cc438b67c7aa540405aed692015e0a53872d76449020ad28f1ba968582fbe783", "0.13--pyhdfd78af_0": "sha256:03b8432cb55646cc2d5662f1fdb2328a3774ce469070b11eb9a66009a8d37744", "0.12.3--py_1": "sha256:80f6bfda27374457995f8c76f711530dfa544b27ea56607ad1792af89291a72b", "0.11--py36_0": "sha256:41be00401d7381142796f30f4031be81163afb8a22413f6d6798cd098d8c9ad2"}, "docker": "quay.io/biocontainers/igdiscover", "aliases": {"aclocal.bak": "/usr/local/bin/aclocal.bak", "autoheader.bak": "/usr/local/bin/autoheader.bak", "autom4te.bak": "/usr/local/bin/autom4te.bak", "automake.bak": "/usr/local/bin/automake.bak", "autoreconf.bak": "/usr/local/bin/autoreconf.bak", "autoscan.bak": "/usr/local/bin/autoscan.bak", "autoupdate.bak": "/usr/local/bin/autoupdate.bak", "edit_imgt_file.pl": "/usr/local/bin/edit_imgt_file.pl", "ifnames.bak": "/usr/local/bin/ifnames.bak", "igblastn": "/usr/local/bin/igblastn", "igblastp": "/usr/local/bin/igblastp", "igdiscover": "/usr/local/bin/igdiscover", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "sqt": "/usr/local/bin/sqt", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "flash": "/usr/local/bin/flash", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "perl5.22.0": "/usr/local/bin/perl5.22.0", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py"}}
+config: {"url": "https://biocontainers.pro/tools/igdiscover", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igdiscover", "latest": {"0.15.1--pyhdfd78af_1": "sha256:bf6d38be9b2154d669262d9582bcdcb9a5cf55c0d3f6fd67865bfba46a515d99"}, "tags": {"0.9--py36_1": "sha256:71df4a6d8576297bd50a18dffdd5d2b3d93c211829c2013fe356fbaecf28c5e4", "0.15.1--pyhdfd78af_0": "sha256:f3ce56d6828b2cf7898a7e7daecd3d83729f0b9ae5d2c8c0be188f87ab0ead28", "0.14--pyhdfd78af_0": "sha256:cc438b67c7aa540405aed692015e0a53872d76449020ad28f1ba968582fbe783", "0.13--pyhdfd78af_0": "sha256:03b8432cb55646cc2d5662f1fdb2328a3774ce469070b11eb9a66009a8d37744", "0.12.3--py_1": "sha256:80f6bfda27374457995f8c76f711530dfa544b27ea56607ad1792af89291a72b", "0.11--py36_0": "sha256:41be00401d7381142796f30f4031be81163afb8a22413f6d6798cd098d8c9ad2", "0.15.1--pyhdfd78af_1": "sha256:bf6d38be9b2154d669262d9582bcdcb9a5cf55c0d3f6fd67865bfba46a515d99"}, "docker": "quay.io/biocontainers/igdiscover", "aliases": {"aclocal.bak": "/usr/local/bin/aclocal.bak", "autoheader.bak": "/usr/local/bin/autoheader.bak", "autom4te.bak": "/usr/local/bin/autom4te.bak", "automake.bak": "/usr/local/bin/automake.bak", "autoreconf.bak": "/usr/local/bin/autoreconf.bak", "autoscan.bak": "/usr/local/bin/autoscan.bak", "autoupdate.bak": "/usr/local/bin/autoupdate.bak", "edit_imgt_file.pl": "/usr/local/bin/edit_imgt_file.pl", "ifnames.bak": "/usr/local/bin/ifnames.bak", "igblastn": "/usr/local/bin/igblastn", "igblastp": "/usr/local/bin/igblastp", "igdiscover": "/usr/local/bin/igdiscover", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "sqt": "/usr/local/bin/sqt", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "flash": "/usr/local/bin/flash", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "perl5.22.0": "/usr/local/bin/perl5.22.0", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igdiscover.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/igdiscover
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/igdiscover:0.15.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/igdiscover:0.15.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/igdiscover/0.15.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/igdiscover/0.15.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/igdiscover/0.15.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/igdiscover/0.15.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

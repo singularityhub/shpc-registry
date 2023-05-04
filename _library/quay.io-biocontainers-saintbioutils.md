@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/saintbioutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saintbioutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saintbioutils/container.yaml"
-updated_at: "2023-05-03 02:58:02.698941"
-latest: "0.0.24--pyh7cba7a3_0"
+updated_at: "2023-05-04 03:03:10.517363"
+latest: "0.0.25--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/saintbioutils"
 aliases:
  - "f2py3.11"
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.0.24--pyh7cba7a3_0"
+ - "0.0.25--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for saintbioutils"
-config: {"url": "https://biocontainers.pro/tools/saintbioutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for saintbioutils", "latest": {"0.0.24--pyh7cba7a3_0": "sha256:5c5c81001857c802aafc57bb531e81ca7b333c892b425529ce03702b7a9184a0"}, "tags": {"0.0.24--pyh7cba7a3_0": "sha256:5c5c81001857c802aafc57bb531e81ca7b333c892b425529ce03702b7a9184a0"}, "docker": "quay.io/biocontainers/saintbioutils", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/saintbioutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for saintbioutils", "latest": {"0.0.25--pyh7cba7a3_0": "sha256:1b038763c7a5eceda170e26d459bf90a529acaa4b4aa08b7ff06ac1ff9eb90a6"}, "tags": {"0.0.24--pyh7cba7a3_0": "sha256:5c5c81001857c802aafc57bb531e81ca7b333c892b425529ce03702b7a9184a0", "0.0.25--pyh7cba7a3_0": "sha256:1b038763c7a5eceda170e26d459bf90a529acaa4b4aa08b7ff06ac1ff9eb90a6"}, "docker": "quay.io/biocontainers/saintbioutils", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/saintbioutils.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/saintbioutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/saintbioutils:0.0.24--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/saintbioutils:0.0.25--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/saintbioutils/0.0.24--pyh7cba7a3_0
-$ module help quay.io/biocontainers/saintbioutils/0.0.24--pyh7cba7a3_0
+$ module load quay.io/biocontainers/saintbioutils/0.0.25--pyh7cba7a3_0
+$ module help quay.io/biocontainers/saintbioutils/0.0.25--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

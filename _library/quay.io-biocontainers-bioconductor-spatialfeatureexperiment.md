@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spatialfeatureexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialfeatureexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialfeatureexperiment/container.yaml"
-updated_at: "2023-05-03 03:11:37.640299"
+updated_at: "2023-05-04 03:19:41.876211"
 latest: "1.0.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialfeatureexperiment"
 aliases:

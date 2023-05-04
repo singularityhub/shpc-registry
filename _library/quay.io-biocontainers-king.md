@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/king"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/king/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/king/container.yaml"
-updated_at: "2023-05-03 03:05:39.096497"
+updated_at: "2023-05-04 03:12:25.891951"
 latest: "2.2.7--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/king"
 aliases:
