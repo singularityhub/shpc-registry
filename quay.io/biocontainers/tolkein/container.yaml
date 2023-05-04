@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/tolkein
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tolkein
+latest:
+  0.5.0--pyh7cba7a3_0: sha256:dcb570e2556f6e6b30bc1129a056a6bd23beccc50d957e04e6bb34271224857d
+tags:
+  0.5.0--pyh7cba7a3_0: sha256:dcb570e2556f6e6b30bc1129a056a6bd23beccc50d957e04e6bb34271224857d
+docker: quay.io/biocontainers/tolkein
+aliases:
+  tolkein: /usr/local/bin/tolkein
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1
