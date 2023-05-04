@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biobb_flexdyn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_flexdyn
 latest:
-  3.9.0--pyhdfd78af_1: sha256:bbbde590c430ece6699d465f7ebd67a3e9f3999f5a5d1921cdb3684d65d78891
+  4.0.1--pyhdfd78af_0: sha256:3aa314994a031dc3b0fc9dafc2c139e3ed5b88e89dafc83b490cd723632ad603
 tags:
   3.9.0--pyhdfd78af_1: sha256:bbbde590c430ece6699d465f7ebd67a3e9f3999f5a5d1921cdb3684d65d78891
+  4.0.1--pyhdfd78af_0: sha256:3aa314994a031dc3b0fc9dafc2c139e3ed5b88e89dafc83b490cd723632ad603
 docker: quay.io/biocontainers/biobb_flexdyn
 aliases:
   NOLB: /usr/local/bin/NOLB

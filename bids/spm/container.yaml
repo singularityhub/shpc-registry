@@ -10,7 +10,7 @@ tags:
   v0.0.20: sha256:e72a97f0aad8a4e635d7c1d92f6fbf38ee98cb117eba520e26bbc135c052255c
   chrisfilo-patch-1: sha256:a569a8fc2b9b4b99bea1ea0b61c3772961708ec1890080084ed008fe27846a44
   enh_various: sha256:e477c8a30722eafe8fc61592bf17b64c0afd5f737140589ef55d76ebc47bffd7
-  unstable: sha256:e5fcd822f8d599d86d7d098f2815fdb7fd912c98566d7edaa0d3c0da838c0ed9
+  unstable: sha256:46ce21dddcc5b3a069111dd563c01256491a1ca48eb36d5488953da436d6c56f
 aliases:
   spm12: /opt/spm12/spm12
 filter:

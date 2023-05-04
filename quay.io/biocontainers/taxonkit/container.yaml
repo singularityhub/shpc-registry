@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/taxonkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for taxonkit
 latest:
-  0.14.1--h9ee0642_0: sha256:a2cd57387109854daf8d7766f2e2a12701f630f2d28640c3cf2da02faaac5765
+  0.14.2--h9ee0642_0: sha256:03f7df94d1c2be8f3821b2b278f937a9e0e8668382049b1555073fc92e0e32f8
 tags:
   0.9.0--h9ee0642_0: sha256:af690fd2053972ea7572d57d3df433a5dc04150eb3cdd0a41b3fa417c67cea7d
   0.13.0--h9ee0642_0: sha256:fe310da17a905b9c9087b845496731f44a84b8467464770899ccd4fa41f12202
@@ -11,6 +11,7 @@ tags:
   0.10.1--h9ee0642_0: sha256:36a782dd788fc806e910b70ef34e28bf5bb44d49fcaf661ed0011d1fe6bbf7c5
   0.14.0--h9ee0642_0: sha256:256042c0844ddf792d9a2fe9aac4859bf3efee7c9c8834613f6773bcdf05166c
   0.14.1--h9ee0642_0: sha256:a2cd57387109854daf8d7766f2e2a12701f630f2d28640c3cf2da02faaac5765
+  0.14.2--h9ee0642_0: sha256:03f7df94d1c2be8f3821b2b278f937a9e0e8668382049b1555073fc92e0e32f8
 docker: quay.io/biocontainers/taxonkit
 aliases:
   taxonkit: /usr/local/bin/taxonkit

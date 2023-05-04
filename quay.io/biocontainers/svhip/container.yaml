@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/svhip
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svhip
 latest:
-  1.0.7--hdfd78af_0: sha256:c4a865d60edf3899fb6b4cc1e49c6826c25a557c36fc7aed4cd8047b6c9499c7
+  1.0.8--hdfd78af_0: sha256:f00653a906b9ca2079ce07ce4f01a964f4f6876b0e526cad78167af7d56bdb26
 tags:
   1.0.6--hdfd78af_0: sha256:487c7567245d6b76313dc86d85bef4aff8f868b94845e09b8c5bbc45fbbb1d77
   1.0.7--hdfd78af_0: sha256:c4a865d60edf3899fb6b4cc1e49c6826c25a557c36fc7aed4cd8047b6c9499c7
+  1.0.8--hdfd78af_0: sha256:f00653a906b9ca2079ce07ce4f01a964f4f6876b0e526cad78167af7d56bdb26
 docker: quay.io/biocontainers/svhip
 aliases:
   RNAmultifold: /usr/local/bin/RNAmultifold
