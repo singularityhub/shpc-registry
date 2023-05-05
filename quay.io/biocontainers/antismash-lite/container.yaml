@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/antismash-lite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for antismash-lite
 latest:
-  6.1.1--pyhdfd78af_0: sha256:f5c47cde9daeb4788b33f554794da7fb5030b97658d960279d7ccf55112abb43
+  6.1.1--pyhdfd78af_1: sha256:52276bec2de30a3ba59ab9f18bd08d681299ac6bfc676c7cbb2b6a55c9ee33cc
 tags:
   6.1.1--pyhdfd78af_0: sha256:f5c47cde9daeb4788b33f554794da7fb5030b97658d960279d7ccf55112abb43
+  6.1.1--pyhdfd78af_1: sha256:52276bec2de30a3ba59ab9f18bd08d681299ac6bfc676c7cbb2b6a55c9ee33cc
 docker: quay.io/biocontainers/antismash-lite
 aliases:
   antismash: /usr/local/bin/antismash

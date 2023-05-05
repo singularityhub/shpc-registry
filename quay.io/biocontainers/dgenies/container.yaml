@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dgenies
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dgenies
 latest:
-  1.4.0--pyhdfd78af_0: sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989
+  1.5.0--pyhdfd78af_0: sha256:3dd27df4cd4a089b624cc3ad2f2b814c02e8ce296d1c036418e4e8eddd5d0c85
 tags:
   1.4.0--pyhdfd78af_0: sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989
+  1.5.0--pyhdfd78af_0: sha256:3dd27df4cd4a089b624cc3ad2f2b814c02e8ce296d1c036418e4e8eddd5d0c85
 docker: quay.io/biocontainers/dgenies
 aliases:
   dgenies: /usr/local/bin/dgenies
