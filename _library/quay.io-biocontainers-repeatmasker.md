@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/repeatmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repeatmasker/container.yaml"
-updated_at: "2023-05-04 02:54:45.543460"
-latest: "4.1.2.p1--pl5321hdfd78af_1"
+updated_at: "2023-05-05 02:41:35.781347"
+latest: "4.1.5--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/repeatmasker"
 aliases:
  - "DateRepeats"
@@ -38,8 +38,9 @@ aliases:
  - "gnutls-serv"
 versions:
  - "4.1.2.p1--pl5321hdfd78af_1"
+ - "4.1.5--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for repeatmasker"
-config: {"url": "https://biocontainers.pro/tools/repeatmasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatmasker", "latest": {"4.1.2.p1--pl5321hdfd78af_1": "sha256:c1e8e28e521e04cd0477e78771aa31f4e3e208204dfc986aeb7ce97d2b007c22"}, "tags": {"4.1.2.p1--pl5321hdfd78af_1": "sha256:c1e8e28e521e04cd0477e78771aa31f4e3e208204dfc986aeb7ce97d2b007c22"}, "docker": "quay.io/biocontainers/repeatmasker", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "maskFile.pl": "/usr/local/bin/maskFile.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv"}}
+config: {"url": "https://biocontainers.pro/tools/repeatmasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatmasker", "latest": {"4.1.5--pl5321hdfd78af_0": "sha256:40b549a86b5b38094241641d5297bd4511561fa81d7d988bd52bedbf86231163"}, "tags": {"4.1.2.p1--pl5321hdfd78af_1": "sha256:c1e8e28e521e04cd0477e78771aa31f4e3e208204dfc986aeb7ce97d2b007c22", "4.1.5--pl5321hdfd78af_0": "sha256:40b549a86b5b38094241641d5297bd4511561fa81d7d988bd52bedbf86231163"}, "docker": "quay.io/biocontainers/repeatmasker", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "maskFile.pl": "/usr/local/bin/maskFile.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repeatmasker.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/repeatmasker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/repeatmasker:4.1.2.p1--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/repeatmasker:4.1.5--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/repeatmasker/4.1.2.p1--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/repeatmasker/4.1.2.p1--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/repeatmasker/4.1.5--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/repeatmasker/4.1.5--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

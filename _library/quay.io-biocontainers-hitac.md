@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hitac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hitac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hitac/container.yaml"
-updated_at: "2023-05-04 03:13:52.336857"
-latest: "2.0.28--pyhdfd78af_0"
+updated_at: "2023-05-05 03:02:05.907255"
+latest: "2.0.30--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hitac"
 aliases:
  - "hiclass"
@@ -24,8 +24,9 @@ versions:
  - "2.0.21--pyhdfd78af_0"
  - "2.0.23--pyhdfd78af_0"
  - "2.0.28--pyhdfd78af_0"
+ - "2.0.30--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hitac"
-config: {"url": "https://biocontainers.pro/tools/hitac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hitac", "latest": {"2.0.28--pyhdfd78af_0": "sha256:a4dbd62a173cdcf4e08c03ad4509e8fdbac4a48bb1590a29fae960bcead1e1e3"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4", "2.0.21--pyhdfd78af_0": "sha256:a5fa1532708e157cc37614dcff5294da86c2260aa10b8305612409d5fb9d339d", "2.0.23--pyhdfd78af_0": "sha256:c27a6c5243fa97fb5f32945abda8c36cfa53802ece59ae79ee5cb0a54014684a", "2.0.28--pyhdfd78af_0": "sha256:a4dbd62a173cdcf4e08c03ad4509e8fdbac4a48bb1590a29fae960bcead1e1e3"}, "docker": "quay.io/biocontainers/hitac", "aliases": {"hiclass": "/usr/local/bin/hiclass", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
+config: {"url": "https://biocontainers.pro/tools/hitac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hitac", "latest": {"2.0.30--pyhdfd78af_0": "sha256:b6c5dbdbc955089b3ea8309093e5bbe324020e5a208e7e5d1d53c4478ae064a3"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4", "2.0.21--pyhdfd78af_0": "sha256:a5fa1532708e157cc37614dcff5294da86c2260aa10b8305612409d5fb9d339d", "2.0.23--pyhdfd78af_0": "sha256:c27a6c5243fa97fb5f32945abda8c36cfa53802ece59ae79ee5cb0a54014684a", "2.0.28--pyhdfd78af_0": "sha256:a4dbd62a173cdcf4e08c03ad4509e8fdbac4a48bb1590a29fae960bcead1e1e3", "2.0.30--pyhdfd78af_0": "sha256:b6c5dbdbc955089b3ea8309093e5bbe324020e5a208e7e5d1d53c4478ae064a3"}, "docker": "quay.io/biocontainers/hitac", "aliases": {"hiclass": "/usr/local/bin/hiclass", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hitac.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/hitac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hitac:2.0.28--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hitac:2.0.30--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hitac/2.0.28--pyhdfd78af_0
-$ module help quay.io/biocontainers/hitac/2.0.28--pyhdfd78af_0
+$ module load quay.io/biocontainers/hitac/2.0.30--pyhdfd78af_0
+$ module help quay.io/biocontainers/hitac/2.0.30--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plotsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plotsr/container.yaml"
-updated_at: "2023-05-04 02:55:58.818910"
-latest: "0.5.4--pyh5e36f6f_0"
+updated_at: "2023-05-05 02:42:53.156990"
+latest: "1.0.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/plotsr"
 aliases:
  - "plotsr"
@@ -36,8 +36,9 @@ aliases:
  - "giftool"
 versions:
  - "0.5.4--pyh5e36f6f_0"
+ - "1.0.0--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for plotsr"
-config: {"url": "https://biocontainers.pro/tools/plotsr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plotsr", "latest": {"0.5.4--pyh5e36f6f_0": "sha256:de6cbfbc8aee6b8521d961ed002eb47b35a36a18f9f289bc564a1eddd207e9ca"}, "tags": {"0.5.4--pyh5e36f6f_0": "sha256:de6cbfbc8aee6b8521d961ed002eb47b35a36a18f9f289bc564a1eddd207e9ca"}, "docker": "quay.io/biocontainers/plotsr", "aliases": {"plotsr": "/usr/local/bin/plotsr", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
+config: {"url": "https://biocontainers.pro/tools/plotsr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plotsr", "latest": {"1.0.0--pyh7cba7a3_0": "sha256:fdb84d6c26da3e5e5bf0a4448cf76eaf6eb4ee5abc079b0cacbfa554b2491a35"}, "tags": {"0.5.4--pyh5e36f6f_0": "sha256:de6cbfbc8aee6b8521d961ed002eb47b35a36a18f9f289bc564a1eddd207e9ca", "1.0.0--pyh7cba7a3_0": "sha256:fdb84d6c26da3e5e5bf0a4448cf76eaf6eb4ee5abc079b0cacbfa554b2491a35"}, "docker": "quay.io/biocontainers/plotsr", "aliases": {"plotsr": "/usr/local/bin/plotsr", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plotsr.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/plotsr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plotsr:0.5.4--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/plotsr:1.0.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plotsr/0.5.4--pyh5e36f6f_0
-$ module help quay.io/biocontainers/plotsr/0.5.4--pyh5e36f6f_0
+$ module load quay.io/biocontainers/plotsr/1.0.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/plotsr/1.0.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

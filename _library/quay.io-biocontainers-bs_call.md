@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bs_call"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bs_call/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bs_call/container.yaml"
-updated_at: "2023-05-04 03:28:02.613696"
+updated_at: "2023-05-05 03:18:25.793017"
 latest: "2.02--h7c6eca5_6"
 container_url: "https://biocontainers.pro/tools/bs_call"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/duet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duet/container.yaml"
-updated_at: "2023-05-04 02:49:54.459172"
+updated_at: "2023-05-05 02:36:05.840593"
 latest: "0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/duet"
 aliases:

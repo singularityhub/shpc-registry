@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-padog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-padog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-padog/container.yaml"
-updated_at: "2023-05-04 03:09:20.155691"
+updated_at: "2023-05-05 02:57:11.287160"
 latest: "1.40.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-padog"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gb_taxonomy_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gb_taxonomy_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gb_taxonomy_tools/container.yaml"
-updated_at: "2023-05-04 02:46:59.698138"
+updated_at: "2023-05-05 02:32:50.323013"
 latest: "1.0.1--h87f3376_3"
 container_url: "https://biocontainers.pro/tools/gb_taxonomy_tools"
 aliases:
