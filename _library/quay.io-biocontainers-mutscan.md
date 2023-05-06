@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mutscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutscan/container.yaml"
-updated_at: "2023-05-05 02:33:39.611514"
+updated_at: "2023-05-06 02:33:04.222086"
 latest: "1.14.0--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/mutscan"
 aliases:

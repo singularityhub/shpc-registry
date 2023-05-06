@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fitter/container.yaml"
-updated_at: "2023-05-05 03:12:44.098687"
+updated_at: "2023-05-06 03:20:56.902932"
 latest: "1.4.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/fitter"
 aliases:

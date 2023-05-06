@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/antismash-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/antismash-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/antismash-lite/container.yaml"
-updated_at: "2023-05-05 02:52:30.849798"
-latest: "6.1.1--pyhdfd78af_0"
+updated_at: "2023-05-06 02:56:04.082366"
+latest: "6.1.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/antismash-lite"
 aliases:
  - "antismash"
@@ -36,8 +36,9 @@ aliases:
  - "clustalw2phylip"
 versions:
  - "6.1.1--pyhdfd78af_0"
+ - "6.1.1--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for antismash-lite"
-config: {"url": "https://biocontainers.pro/tools/antismash-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for antismash-lite", "latest": {"6.1.1--pyhdfd78af_0": "sha256:f5c47cde9daeb4788b33f554794da7fb5030b97658d960279d7ccf55112abb43"}, "tags": {"6.1.1--pyhdfd78af_0": "sha256:f5c47cde9daeb4788b33f554794da7fb5030b97658d960279d7ccf55112abb43"}, "docker": "quay.io/biocontainers/antismash-lite", "aliases": {"antismash": "/usr/local/bin/antismash", "download-antismash-databases": "/usr/local/bin/download-antismash-databases", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmc2": "/usr/local/bin/hmmc2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "less2scss": "/usr/local/bin/less2scss", "pyscss": "/usr/local/bin/pyscss", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip"}}
+config: {"url": "https://biocontainers.pro/tools/antismash-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for antismash-lite", "latest": {"6.1.1--pyhdfd78af_1": "sha256:52276bec2de30a3ba59ab9f18bd08d681299ac6bfc676c7cbb2b6a55c9ee33cc"}, "tags": {"6.1.1--pyhdfd78af_0": "sha256:f5c47cde9daeb4788b33f554794da7fb5030b97658d960279d7ccf55112abb43", "6.1.1--pyhdfd78af_1": "sha256:52276bec2de30a3ba59ab9f18bd08d681299ac6bfc676c7cbb2b6a55c9ee33cc"}, "docker": "quay.io/biocontainers/antismash-lite", "aliases": {"antismash": "/usr/local/bin/antismash", "download-antismash-databases": "/usr/local/bin/download-antismash-databases", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmc2": "/usr/local/bin/hmmc2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "less2scss": "/usr/local/bin/less2scss", "pyscss": "/usr/local/bin/pyscss", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/antismash-lite.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/antismash-lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/antismash-lite:6.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/antismash-lite:6.1.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/antismash-lite/6.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/antismash-lite/6.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/antismash-lite/6.1.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/antismash-lite/6.1.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

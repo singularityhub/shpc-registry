@@ -4,8 +4,8 @@ name:  "rocker/ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/ml/container.yaml"
-updated_at: "2023-05-05 02:30:32.665659"
-latest: "4.2.3"
+updated_at: "2023-05-06 02:29:16.752483"
+latest: "4.3.0"
 container_url: "https://hub.docker.com/r/rocker/ml"
 aliases:
  - "R"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "4.2.2"
  - "4.2.3"
+ - "4.3.0"
 description: "Docker images with R + machine learning libraries (CPU versions)."
-config: {"docker": "rocker/ml", "url": "https://hub.docker.com/r/rocker/ml", "maintainer": "@vsoch", "description": "Docker images with R + machine learning libraries (CPU versions).", "latest": {"4.2.3": "sha256:ea154a0acefb13c9650a20a20d38ce893b9d468b6f7e9eaf0f04e45de31aaba6"}, "tags": {"4.2.2": "sha256:e85088b01c1fb49df79d6b8f8f1c07fd4f9b835c5498935f1b03deb5b3dcfa9a", "4.2.3": "sha256:ea154a0acefb13c9650a20a20d38ce893b9d468b6f7e9eaf0f04e45de31aaba6"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/ml", "url": "https://hub.docker.com/r/rocker/ml", "maintainer": "@vsoch", "description": "Docker images with R + machine learning libraries (CPU versions).", "latest": {"4.3.0": "sha256:edf9f47d237793f4270048ed3e69857fd198f11fbe16b5504f944eb6e6dc2a6e"}, "tags": {"4.2.2": "sha256:32e41f80d137fee995362317485867b437f24beb86eeda1ccae7bd63150833a6", "4.2.3": "sha256:c1c65c1dbe6970607aff64f0334414f4d09c13efac04f93a093d9d558fe4d77d", "4.3.0": "sha256:edf9f47d237793f4270048ed3e69857fd198f11fbe16b5504f944eb6e6dc2a6e"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/ml.
@@ -34,7 +35,7 @@ $ shpc install rocker/ml
 Or a specific version:
 
 ```bash
-$ shpc install rocker/ml:4.2.3
+$ shpc install rocker/ml:4.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/ml/4.2.3
-$ module help rocker/ml/4.2.3
+$ module load rocker/ml/4.3.0
+$ module help rocker/ml/4.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

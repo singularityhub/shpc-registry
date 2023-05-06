@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sequenza"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sequenza/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sequenza/container.yaml"
-updated_at: "2023-05-05 02:38:52.664343"
+updated_at: "2023-05-06 02:39:01.563591"
 latest: "3.0.0--r42h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-sequenza"
 aliases:

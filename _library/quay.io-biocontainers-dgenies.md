@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dgenies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dgenies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dgenies/container.yaml"
-updated_at: "2023-05-05 02:40:21.306522"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2023-05-06 02:40:44.078994"
+latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dgenies"
 aliases:
  - "dgenies"
@@ -21,8 +21,9 @@ aliases:
  - "fonttools"
 versions:
  - "1.4.0--pyhdfd78af_0"
+ - "1.5.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dgenies"
-config: {"url": "https://biocontainers.pro/tools/dgenies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dgenies", "latest": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "docker": "quay.io/biocontainers/dgenies", "aliases": {"dgenies": "/usr/local/bin/dgenies", "pbr": "/usr/local/bin/pbr", "flask": "/usr/local/bin/flask", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "markdown_py": "/usr/local/bin/markdown_py", "fonttools": "/usr/local/bin/fonttools"}}
+config: {"url": "https://biocontainers.pro/tools/dgenies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dgenies", "latest": {"1.5.0--pyhdfd78af_0": "sha256:3dd27df4cd4a089b624cc3ad2f2b814c02e8ce296d1c036418e4e8eddd5d0c85"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989", "1.5.0--pyhdfd78af_0": "sha256:3dd27df4cd4a089b624cc3ad2f2b814c02e8ce296d1c036418e4e8eddd5d0c85"}, "docker": "quay.io/biocontainers/dgenies", "aliases": {"dgenies": "/usr/local/bin/dgenies", "pbr": "/usr/local/bin/pbr", "flask": "/usr/local/bin/flask", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "markdown_py": "/usr/local/bin/markdown_py", "fonttools": "/usr/local/bin/fonttools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dgenies.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/dgenies
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dgenies:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dgenies:1.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dgenies/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/dgenies/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/dgenies/1.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/dgenies/1.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

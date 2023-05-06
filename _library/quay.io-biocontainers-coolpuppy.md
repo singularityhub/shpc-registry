@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coolpuppy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coolpuppy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coolpuppy/container.yaml"
-updated_at: "2023-05-05 02:51:01.421725"
+updated_at: "2023-05-06 02:54:14.383748"
 latest: "1.0.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/coolpuppy"
 aliases:

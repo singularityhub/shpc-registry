@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hanselx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hanselx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hanselx/container.yaml"
-updated_at: "2023-05-05 03:13:39.263862"
+updated_at: "2023-05-06 03:22:05.000517"
 latest: "0.0.92--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/hanselx"
 aliases:

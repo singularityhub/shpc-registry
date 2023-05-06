@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandas/container.yaml"
-updated_at: "2023-05-05 02:40:00.310227"
+updated_at: "2023-05-06 02:40:19.878024"
 latest: "1.5.2"
 container_url: "https://biocontainers.pro/tools/pandas"
 aliases:

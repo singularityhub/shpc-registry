@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-grep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-grep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-grep/container.yaml"
-updated_at: "2023-05-05 02:53:08.314548"
+updated_at: "2023-05-06 02:56:52.004400"
 latest: "0.02--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-file-grep"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tapestry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tapestry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tapestry/container.yaml"
-updated_at: "2023-05-05 03:03:14.073413"
-latest: "1.0.0--py_0"
+updated_at: "2023-05-06 03:09:34.732116"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tapestry"
 aliases:
  - "clean"
@@ -22,8 +22,9 @@ aliases:
  - "python3.7-config"
 versions:
  - "1.0.0--py_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tapestry"
-config: {"url": "https://biocontainers.pro/tools/tapestry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tapestry", "latest": {"1.0.0--py_0": "sha256:4d7c580a970c4867423f7e13a192641208eb6737abd0264666829e481e27bea7"}, "tags": {"1.0.0--py_0": "sha256:4d7c580a970c4867423f7e13a192641208eb6737abd0264666829e481e27bea7"}, "docker": "quay.io/biocontainers/tapestry", "aliases": {"clean": "/usr/local/bin/clean", "weave": "/usr/local/bin/weave", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/tapestry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tapestry", "latest": {"1.0.1--pyhdfd78af_0": "sha256:9f6ac81bfb5b42dedf97995638488e7f9f266cd7638138974d05efe0aa6688b2"}, "tags": {"1.0.0--py_0": "sha256:4d7c580a970c4867423f7e13a192641208eb6737abd0264666829e481e27bea7", "1.0.1--pyhdfd78af_0": "sha256:9f6ac81bfb5b42dedf97995638488e7f9f266cd7638138974d05efe0aa6688b2"}, "docker": "quay.io/biocontainers/tapestry", "aliases": {"clean": "/usr/local/bin/clean", "weave": "/usr/local/bin/weave", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tapestry.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/tapestry
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tapestry:1.0.0--py_0
+$ shpc install quay.io/biocontainers/tapestry:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tapestry/1.0.0--py_0
-$ module help quay.io/biocontainers/tapestry/1.0.0--py_0
+$ module load quay.io/biocontainers/tapestry/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/tapestry/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

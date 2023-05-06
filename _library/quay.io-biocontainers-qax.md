@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qax/container.yaml"
-updated_at: "2023-05-05 02:37:11.951479"
+updated_at: "2023-05-06 02:37:03.744372"
 latest: "0.9.6--hac521b0_1"
 container_url: "https://biocontainers.pro/tools/qax"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbptyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbptyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbptyper/container.yaml"
-updated_at: "2023-05-05 02:59:23.959319"
+updated_at: "2023-05-06 03:04:42.690918"
 latest: "1.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pbptyper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-survey"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-survey/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-survey/container.yaml"
-updated_at: "2023-05-05 02:32:10.751286"
+updated_at: "2023-05-06 02:31:15.002632"
 latest: "3.31_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-survey"
 aliases:
