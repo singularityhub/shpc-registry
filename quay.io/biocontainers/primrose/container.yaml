@@ -2,9 +2,17 @@ url: https://biocontainers.pro/tools/primrose
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for primrose
 latest:
-  1.3.0--h9ee0642_0: sha256:ea2d49caee235c569a315686b73d922f09c42132985fdebd880cbd99bec9a651
+  1.3.0--h9ee0642_0: 'crane digest quay.io/biocontainers/primrose:1.3.0--h9ee0642_0:
+    UNAUTHORIZED: access to the requested resource is not authorized; map[]'
 tags:
-  1.3.0--h9ee0642_0: sha256:ea2d49caee235c569a315686b73d922f09c42132985fdebd880cbd99bec9a651
+  1.3.0--h9ee0642_0: 'crane digest quay.io/biocontainers/primrose:1.3.0--h9ee0642_0:
+    UNAUTHORIZED: access to the requested resource is not authorized; map[]'
+  'crane ls quay.io/biocontainers/primrose: UNAUTHORIZED: access to the requested resource is not authorized; map[]': 'crane
+    digest quay.io/biocontainers/primrose:crane ls quay.io/biocontainers/primrose:
+    UNAUTHORIZED: access to the requested resource is not authorized; map[]: parsing
+    reference "quay.io/biocontainers/primrose:crane ls quay.io/biocontainers/primrose:
+    UNAUTHORIZED: access to the requested resource is not authorized; map[]": could
+    not parse reference'
 docker: quay.io/biocontainers/primrose
 aliases:
   primrose: /usr/local/bin/primrose

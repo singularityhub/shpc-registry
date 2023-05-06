@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/samap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for samap
 latest:
-  1.0.14--pyhdfd78af_0: sha256:6315b6c610f6a424cf3a4496df8c65660a3b237efe844052aa9642b8f8a1adf1
+  1.0.15--pyhdfd78af_0: sha256:ba309ef7b79bb2f439bc1db005f96e8a4da2be6eb414600794e3b16df1682340
 tags:
   1.0.7--pyhdfd78af_0: sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5
   1.0.12--pyhdfd78af_0: sha256:97f9aad499e51d36b89d850924553a8a9c32191a6d0685474e47f3238668d811
   1.0.13--pyhdfd78af_0: sha256:e4dc695b6fd2f045a91e6ebdcb008c9f05442147154c2f01a7dd7ff4eea7de1a
   1.0.14--pyhdfd78af_0: sha256:6315b6c610f6a424cf3a4496df8c65660a3b237efe844052aa9642b8f8a1adf1
+  1.0.15--pyhdfd78af_0: sha256:ba309ef7b79bb2f439bc1db005f96e8a4da2be6eb414600794e3b16df1682340
 docker: quay.io/biocontainers/samap
 aliases:
   dunamai: /usr/local/bin/dunamai

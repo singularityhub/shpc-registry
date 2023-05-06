@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cellxgene
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cellxgene
 latest:
-  1.1.1--pyhdfd78af_0: sha256:aadbb8e2d4c2d5e52eb318e66811c9a706bb2bc5b2a746c8f202be5044df42a4
+  1.1.2--pyhdfd78af_0: sha256:3614460ac05dd962bcd3fd027883e5450f25e24c4093f3bb53c96c681241da79
 tags:
   1.1.1--pyhdfd78af_0: sha256:aadbb8e2d4c2d5e52eb318e66811c9a706bb2bc5b2a746c8f202be5044df42a4
+  1.1.2--pyhdfd78af_0: sha256:3614460ac05dd962bcd3fd027883e5450f25e24c4093f3bb53c96c681241da79
 docker: quay.io/biocontainers/cellxgene
 aliases:
   cellxgene: /usr/local/bin/cellxgene

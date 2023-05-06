@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phyloacc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phyloacc
 latest:
-  2.1.1--py39h7fdc5df_0: sha256:de9ae7845a108824945af09f34b23bdf030c832f4ddf7dc6d30fe67c54953911
+  2.2.0--py39h7fdc5df_0: sha256:e9f551fc48bcabad8b8cef41e726c1f8409e3f64468d394f68a59c3942b1a88f
 tags:
   2.1.1--py39h7fdc5df_0: sha256:de9ae7845a108824945af09f34b23bdf030c832f4ddf7dc6d30fe67c54953911
+  2.2.0--py39h7fdc5df_0: sha256:e9f551fc48bcabad8b8cef41e726c1f8409e3f64468d394f68a59c3942b1a88f
 docker: quay.io/biocontainers/phyloacc
 aliases:
   PhyloAcc-GT: /usr/local/bin/PhyloAcc-GT

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/panaroo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for panaroo
 latest:
-  1.3.2--pyhdfd78af_0: sha256:727d698bcf014b74753c3c500231f402d5f15c5521fae7b33b885d2ec3cc063e
+  1.3.3--pyhdfd78af_0: sha256:653c56eaccf3daa01483773ca8ae747f8e1a4ab476bcedf1f852974c75a62388
 tags:
   1.3.0--pyhdfd78af_0: sha256:125127c02d81fc41b4a23a3e24cd3d4e003b7bc0f252583faf560a4b37ffcc55
   1.3.2--pyhdfd78af_0: sha256:727d698bcf014b74753c3c500231f402d5f15c5521fae7b33b885d2ec3cc063e
+  1.3.3--pyhdfd78af_0: sha256:653c56eaccf3daa01483773ca8ae747f8e1a4ab476bcedf1f852974c75a62388
 docker: quay.io/biocontainers/panaroo
 aliases:
   add_gff3_locus_tags.py: /usr/local/bin/add_gff3_locus_tags.py

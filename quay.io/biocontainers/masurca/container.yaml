@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/masurca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for masurca
 latest:
-  4.0.9--pl5321h6e1a2d6_1: sha256:51e3f4c3b5bfa20f6ec2059f5ce04ac25c1a3a9dc599085a7e3054cb0952f7c2
+  4.1.0--pl5321h6e1a2d6_0: sha256:472dc29e5b23be97f13559a5fbaa6a9e3558d865783a846fe354d9c84d1cb1fc
 tags:
   4.0.9--pl5321h6e1a2d6_1: sha256:51e3f4c3b5bfa20f6ec2059f5ce04ac25c1a3a9dc599085a7e3054cb0952f7c2
+  4.1.0--pl5321h6e1a2d6_0: sha256:472dc29e5b23be97f13559a5fbaa6a9e3558d865783a846fe354d9c84d1cb1fc
 docker: quay.io/biocontainers/masurca
 aliases:
   MasurcaCelera.pm: /usr/local/bin/MasurcaCelera.pm
