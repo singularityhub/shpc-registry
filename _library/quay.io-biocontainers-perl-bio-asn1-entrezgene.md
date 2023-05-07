@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-asn1-entrezgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-asn1-entrezgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-asn1-entrezgene/container.yaml"
-updated_at: "2023-05-06 03:37:01.869266"
+updated_at: "2023-05-07 03:21:16.067286"
 latest: "1.73--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-bio-asn1-entrezgene"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rrparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rrparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rrparser/container.yaml"
-updated_at: "2023-05-06 02:47:01.256388"
-latest: "2.5.0"
+updated_at: "2023-05-07 02:48:56.595605"
+latest: "2.5.2"
 container_url: "https://biocontainers.pro/tools/rrparser"
 aliases:
  - "normalizer"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.5.0"
+ - "2.5.2"
 description: "shpc-registry automated BioContainers addition for rrparser"
-config: {"url": "https://biocontainers.pro/tools/rrparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rrparser", "latest": {"2.5.0": "sha256:00cb8362bb2bf90e4e7fe2a6b0688afd710a41a62cfc89e75f3411efa1ff648d"}, "tags": {"2.5.0": "sha256:00cb8362bb2bf90e4e7fe2a6b0688afd710a41a62cfc89e75f3411efa1ff648d"}, "docker": "quay.io/biocontainers/rrparser", "aliases": {"normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/rrparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rrparser", "latest": {"2.5.2": "sha256:339a98941958a49e8ce1b8ad587609fc0b2ed84a549380b39401de81d23a9553"}, "tags": {"2.5.0": "sha256:00cb8362bb2bf90e4e7fe2a6b0688afd710a41a62cfc89e75f3411efa1ff648d", "2.5.2": "sha256:339a98941958a49e8ce1b8ad587609fc0b2ed84a549380b39401de81d23a9553"}, "docker": "quay.io/biocontainers/rrparser", "aliases": {"normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rrparser.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/rrparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rrparser:2.5.0
+$ shpc install quay.io/biocontainers/rrparser:2.5.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rrparser/2.5.0
-$ module help quay.io/biocontainers/rrparser/2.5.0
+$ module load quay.io/biocontainers/rrparser/2.5.2
+$ module help quay.io/biocontainers/rrparser/2.5.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

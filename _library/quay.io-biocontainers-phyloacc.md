@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phyloacc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyloacc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyloacc/container.yaml"
-updated_at: "2023-05-06 03:05:50.843912"
-latest: "2.1.1--py39h7fdc5df_0"
+updated_at: "2023-05-07 03:01:14.245620"
+latest: "2.2.0--py39h7fdc5df_0"
 container_url: "https://biocontainers.pro/tools/phyloacc"
 aliases:
  - "PhyloAcc-GT"
@@ -40,8 +40,9 @@ aliases:
  - "rst2xml.py"
 versions:
  - "2.1.1--py39h7fdc5df_0"
+ - "2.2.0--py39h7fdc5df_0"
 description: "singularity registry hpc automated addition for phyloacc"
-config: {"url": "https://biocontainers.pro/tools/phyloacc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phyloacc", "latest": {"2.1.1--py39h7fdc5df_0": "sha256:de9ae7845a108824945af09f34b23bdf030c832f4ddf7dc6d30fe67c54953911"}, "tags": {"2.1.1--py39h7fdc5df_0": "sha256:de9ae7845a108824945af09f34b23bdf030c832f4ddf7dc6d30fe67c54953911"}, "docker": "quay.io/biocontainers/phyloacc", "aliases": {"PhyloAcc-GT": "/usr/local/bin/PhyloAcc-GT", "PhyloAcc-ST": "/usr/local/bin/PhyloAcc-ST", "phyloacc.py": "/usr/local/bin/phyloacc.py", "phyloacc_post.py": "/usr/local/bin/phyloacc_post.py", "tjbench": "/usr/local/bin/tjbench", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py", "jsonschema": "/usr/local/bin/jsonschema", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py"}}
+config: {"url": "https://biocontainers.pro/tools/phyloacc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phyloacc", "latest": {"2.2.0--py39h7fdc5df_0": "sha256:e9f551fc48bcabad8b8cef41e726c1f8409e3f64468d394f68a59c3942b1a88f"}, "tags": {"2.1.1--py39h7fdc5df_0": "sha256:de9ae7845a108824945af09f34b23bdf030c832f4ddf7dc6d30fe67c54953911", "2.2.0--py39h7fdc5df_0": "sha256:e9f551fc48bcabad8b8cef41e726c1f8409e3f64468d394f68a59c3942b1a88f"}, "docker": "quay.io/biocontainers/phyloacc", "aliases": {"PhyloAcc-GT": "/usr/local/bin/PhyloAcc-GT", "PhyloAcc-ST": "/usr/local/bin/PhyloAcc-ST", "phyloacc.py": "/usr/local/bin/phyloacc.py", "phyloacc_post.py": "/usr/local/bin/phyloacc_post.py", "tjbench": "/usr/local/bin/tjbench", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py", "jsonschema": "/usr/local/bin/jsonschema", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phyloacc.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/phyloacc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phyloacc:2.1.1--py39h7fdc5df_0
+$ shpc install quay.io/biocontainers/phyloacc:2.2.0--py39h7fdc5df_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phyloacc/2.1.1--py39h7fdc5df_0
-$ module help quay.io/biocontainers/phyloacc/2.1.1--py39h7fdc5df_0
+$ module load quay.io/biocontainers/phyloacc/2.2.0--py39h7fdc5df_0
+$ module help quay.io/biocontainers/phyloacc/2.2.0--py39h7fdc5df_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/primrose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primrose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primrose/container.yaml"
-updated_at: "2023-05-06 02:46:38.067918"
+updated_at: "2023-05-07 02:48:41.306676"
 latest: "1.3.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/primrose"
 aliases:
  - "primrose"
 versions:
  - "1.3.0--h9ee0642_0"
+ - "crane ls quay.io/biocontainers/primrose: UNAUTHORIZED: access to the requested resource is not authorized; map[]"
 description: "singularity registry hpc automated addition for primrose"
-config: {"url": "https://biocontainers.pro/tools/primrose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for primrose", "latest": {"1.3.0--h9ee0642_0": "sha256:ea2d49caee235c569a315686b73d922f09c42132985fdebd880cbd99bec9a651"}, "tags": {"1.3.0--h9ee0642_0": "sha256:ea2d49caee235c569a315686b73d922f09c42132985fdebd880cbd99bec9a651"}, "docker": "quay.io/biocontainers/primrose", "aliases": {"primrose": "/usr/local/bin/primrose"}}
+config: {"url": "https://biocontainers.pro/tools/primrose", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for primrose", "latest": {"1.3.0--h9ee0642_0": "crane digest quay.io/biocontainers/primrose:1.3.0--h9ee0642_0: UNAUTHORIZED: access to the requested resource is not authorized; map[]"}, "tags": {"1.3.0--h9ee0642_0": "crane digest quay.io/biocontainers/primrose:1.3.0--h9ee0642_0: UNAUTHORIZED: access to the requested resource is not authorized; map[]", "crane ls quay.io/biocontainers/primrose: UNAUTHORIZED: access to the requested resource is not authorized; map[]": "crane digest quay.io/biocontainers/primrose:crane ls quay.io/biocontainers/primrose: UNAUTHORIZED: access to the requested resource is not authorized; map[]: parsing reference \"quay.io/biocontainers/primrose:crane ls quay.io/biocontainers/primrose: UNAUTHORIZED: access to the requested resource is not authorized; map[]\": could not parse reference"}, "docker": "quay.io/biocontainers/primrose", "aliases": {"primrose": "/usr/local/bin/primrose"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primrose.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pod-escapes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-escapes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-escapes/container.yaml"
-updated_at: "2023-05-06 02:55:06.245482"
+updated_at: "2023-05-07 02:54:13.154122"
 latest: "1.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-pod-escapes"
 aliases:

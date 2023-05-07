@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seq2science"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq2science/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq2science/container.yaml"
-updated_at: "2023-05-06 02:38:58.877896"
-latest: "0.9.8--pyhdfd78af_0"
+updated_at: "2023-05-07 02:43:35.552876"
+latest: "0.9.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seq2science"
 aliases:
  - "bedToGenePred"
@@ -43,8 +43,9 @@ versions:
  - "0.9.6--pyhdfd78af_0"
  - "0.9.7--pyhdfd78af_0"
  - "0.9.8--pyhdfd78af_0"
+ - "0.9.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for seq2science"
-config: {"url": "https://biocontainers.pro/tools/seq2science", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2science", "latest": {"0.9.8--pyhdfd78af_0": "sha256:f6200fcac2718371753ba360d1eb3eeb1622059dd3273d64c8a702482ac64992"}, "tags": {"0.9.5--pypyhdfd78af_0": "sha256:1ec1ffbef1631388f8e4981042356e2e04b9e40fa08407ec0040c6d8bda6f495", "0.9.6--pyhdfd78af_0": "sha256:f0865b8e1d01085a27d47effa050e396d28e0c722616454f80454576f0ba193a", "0.9.7--pyhdfd78af_0": "sha256:3095d5e48e8d819772840561fab444aa350ed3a00387e9ececd56f9f8bc68726", "0.9.8--pyhdfd78af_0": "sha256:f6200fcac2718371753ba360d1eb3eeb1622059dd3273d64c8a702482ac64992"}, "docker": "quay.io/biocontainers/seq2science", "aliases": {"bedToGenePred": "/usr/local/bin/bedToGenePred", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "deseq2science": "/usr/local/bin/deseq2science", "dumpsolv": "/usr/local/bin/dumpsolv", "genePredToBed": "/usr/local/bin/genePredToBed", "genePredToGtf": "/usr/local/bin/genePredToGtf", "genomepy": "/usr/local/bin/genomepy", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "pysradb": "/usr/local/bin/pysradb", "repo2solv": "/usr/local/bin/repo2solv", "seq2science": "/usr/local/bin/seq2science", "testsolv": "/usr/local/bin/testsolv", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "nosetests": "/usr/local/bin/nosetests", "pulptest": "/usr/local/bin/pulptest", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/seq2science", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2science", "latest": {"0.9.9--pyhdfd78af_0": "sha256:0d198e10accbe41a9dcf4adda4880b699c4e5c25ac818962a0cd36b4cc360ff4"}, "tags": {"0.9.5--pypyhdfd78af_0": "sha256:1ec1ffbef1631388f8e4981042356e2e04b9e40fa08407ec0040c6d8bda6f495", "0.9.6--pyhdfd78af_0": "sha256:f0865b8e1d01085a27d47effa050e396d28e0c722616454f80454576f0ba193a", "0.9.7--pyhdfd78af_0": "sha256:3095d5e48e8d819772840561fab444aa350ed3a00387e9ececd56f9f8bc68726", "0.9.8--pyhdfd78af_0": "sha256:f6200fcac2718371753ba360d1eb3eeb1622059dd3273d64c8a702482ac64992", "0.9.9--pyhdfd78af_0": "sha256:0d198e10accbe41a9dcf4adda4880b699c4e5c25ac818962a0cd36b4cc360ff4"}, "docker": "quay.io/biocontainers/seq2science", "aliases": {"bedToGenePred": "/usr/local/bin/bedToGenePred", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "deseq2science": "/usr/local/bin/deseq2science", "dumpsolv": "/usr/local/bin/dumpsolv", "genePredToBed": "/usr/local/bin/genePredToBed", "genePredToGtf": "/usr/local/bin/genePredToGtf", "genomepy": "/usr/local/bin/genomepy", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "pysradb": "/usr/local/bin/pysradb", "repo2solv": "/usr/local/bin/repo2solv", "seq2science": "/usr/local/bin/seq2science", "testsolv": "/usr/local/bin/testsolv", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "nosetests": "/usr/local/bin/nosetests", "pulptest": "/usr/local/bin/pulptest", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seq2science.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/seq2science
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seq2science:0.9.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seq2science:0.9.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seq2science/0.9.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/seq2science/0.9.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/seq2science/0.9.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/seq2science/0.9.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

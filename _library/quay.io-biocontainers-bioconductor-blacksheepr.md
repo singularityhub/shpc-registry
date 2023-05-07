@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-blacksheepr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blacksheepr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blacksheepr/container.yaml"
-updated_at: "2023-05-06 03:03:14.489202"
+updated_at: "2023-05-07 02:59:32.992776"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blacksheepr"
 
