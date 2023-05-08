@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-ngs-sdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-ngs-sdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-ngs-sdk/container.yaml"
-updated_at: "2023-05-08 02:35:55.209480"
+updated_at: "2023-05-08 03:40:54.527413"
 latest: "3.0.1--pl5321h629fbf0_0"
 container_url: "https://biocontainers.pro/tools/ncbi-ngs-sdk"
 

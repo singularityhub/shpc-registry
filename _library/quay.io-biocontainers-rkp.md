@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rkp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rkp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rkp/container.yaml"
-updated_at: "2023-05-08 02:39:46.232530"
+updated_at: "2023-05-08 03:44:37.535724"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/rkp"
 aliases:

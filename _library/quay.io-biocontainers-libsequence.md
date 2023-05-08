@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libsequence"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libsequence/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libsequence/container.yaml"
-updated_at: "2023-05-08 02:39:10.966792"
+updated_at: "2023-05-08 03:44:04.545972"
 latest: "1.9.8--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/libsequence"
 aliases:

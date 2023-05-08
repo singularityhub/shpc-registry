@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prophasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophasm/container.yaml"
-updated_at: "2023-05-08 03:21:07.664810"
+updated_at: "2023-05-08 04:24:29.138654"
 latest: "0.1.1--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/prophasm"
 aliases:
