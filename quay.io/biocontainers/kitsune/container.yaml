@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/kitsune
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kitsune
+latest:
+  1.3.3--pyhdfd78af_0: sha256:dea5da191097d7956ddcb61b7419dd360491f40d10269f7f56fbe42454cbc753
+tags:
+  1.3.3--pyhdfd78af_0: sha256:dea5da191097d7956ddcb61b7419dd360491f40d10269f7f56fbe42454cbc753
+docker: quay.io/biocontainers/kitsune
+aliases:
+  kitsune: /usr/local/bin/kitsune
+  jellyfish: /usr/local/bin/jellyfish
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1
