@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-emdbook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-emdbook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-emdbook/container.yaml"
-updated_at: "2023-05-07 03:13:53.462210"
+updated_at: "2023-05-08 03:13:50.077170"
 latest: "1.3.9--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-emdbook"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapad/container.yaml"
-updated_at: "2023-05-07 03:07:38.313685"
+updated_at: "2023-05-08 03:07:03.273388"
 latest: "0.42.1--h21d3286_0"
 container_url: "https://biocontainers.pro/tools/mapad"
 aliases:
