@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/milonga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for milonga
 latest:
-  1.0.1--hdfd78af_0: sha256:31429d69e7eb1ad062275898918ba50f4d3af087bd3c099b85c2823928ee70c4
+  1.0.3--hdfd78af_0: sha256:267ed3f8c56119f6fe5d3c343bbf685871a5a55e443e964f96d8b5161c611208
 tags:
   1.0.1--hdfd78af_0: sha256:31429d69e7eb1ad062275898918ba50f4d3af087bd3c099b85c2823928ee70c4
+  1.0.3--hdfd78af_0: sha256:267ed3f8c56119f6fe5d3c343bbf685871a5a55e443e964f96d8b5161c611208
 docker: quay.io/biocontainers/milonga
 aliases:
   NanoFilt: /usr/local/bin/NanoFilt

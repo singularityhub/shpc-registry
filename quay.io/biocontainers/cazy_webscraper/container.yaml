@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/cazy_webscraper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cazy_webscraper
 latest:
-  2.2.7--pyhdfd78af_0: sha256:c0cc4e274e22dd6cee2d11b62e049bd538ebe441fa750b10dfd61b4829962938
+  2.2.8--pyhdfd78af_0: sha256:9ae3fd1c302800b0776d4f6eb6918bea47c47b487b9a001fcce0cd8bd26b6e04
 tags:
   2.2.1--pyhdfd78af_0: sha256:81c78834e559f3e523b48adcede93a4ba1c0e71e27cbbc9f7b8bcf8806c47b7b
   2.2.2--pyhdfd78af_0: sha256:78070b07abdede9069e02e3bfeb88225c18911d9c8da208c00612c239c7a12eb
   2.2.7--pyhdfd78af_0: sha256:c0cc4e274e22dd6cee2d11b62e049bd538ebe441fa750b10dfd61b4829962938
+  2.2.8--pyhdfd78af_0: sha256:9ae3fd1c302800b0776d4f6eb6918bea47c47b487b9a001fcce0cd8bd26b6e04
 docker: quay.io/biocontainers/cazy_webscraper
 aliases:
   cazy_webscraper: /usr/local/bin/cazy_webscraper
