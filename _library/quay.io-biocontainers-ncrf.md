@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncrf/container.yaml"
-updated_at: "2023-05-08 04:01:14.807611"
+updated_at: "2023-05-09 03:00:18.019563"
 latest: "1.01.02--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/ncrf"
 aliases:

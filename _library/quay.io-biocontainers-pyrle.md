@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyrle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrle/container.yaml"
-updated_at: "2023-05-08 04:20:15.383866"
-latest: "0.0.35--py36h91eb985_1"
+updated_at: "2023-05-09 03:22:34.710079"
+latest: "0.0.36--py37h8902056_0"
 container_url: "https://biocontainers.pro/tools/pyrle"
 aliases:
  - "tabulate"
@@ -20,8 +20,9 @@ aliases:
  - "python3.6m-config"
 versions:
  - "0.0.35--py36h91eb985_1"
+ - "0.0.36--py37h8902056_0"
 description: "shpc-registry automated BioContainers addition for pyrle"
-config: {"url": "https://biocontainers.pro/tools/pyrle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrle", "latest": {"0.0.35--py36h91eb985_1": "sha256:89769f0c752b33dcb5fdd8dc20b1d6992071fdc2859cea01090c5ef05366e96a"}, "tags": {"0.0.35--py36h91eb985_1": "sha256:89769f0c752b33dcb5fdd8dc20b1d6992071fdc2859cea01090c5ef05366e96a"}, "docker": "quay.io/biocontainers/pyrle", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyrle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrle", "latest": {"0.0.36--py37h8902056_0": "sha256:6359d9b31596b21bfdace09db2c3768dc143421a16b2e4044307fdbc751dd358"}, "tags": {"0.0.35--py36h91eb985_1": "sha256:89769f0c752b33dcb5fdd8dc20b1d6992071fdc2859cea01090c5ef05366e96a", "0.0.36--py37h8902056_0": "sha256:6359d9b31596b21bfdace09db2c3768dc143421a16b2e4044307fdbc751dd358"}, "docker": "quay.io/biocontainers/pyrle", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyrle.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pyrle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyrle:0.0.35--py36h91eb985_1
+$ shpc install quay.io/biocontainers/pyrle:0.0.36--py37h8902056_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyrle/0.0.35--py36h91eb985_1
-$ module help quay.io/biocontainers/pyrle/0.0.35--py36h91eb985_1
+$ module load quay.io/biocontainers/pyrle/0.0.36--py37h8902056_0
+$ module help quay.io/biocontainers/pyrle/0.0.36--py37h8902056_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

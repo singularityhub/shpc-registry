@@ -4,8 +4,8 @@ name:  "ncbi/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ncbi/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
-updated_at: "2023-05-08 03:39:10.135784"
-latest: "2.13.0"
+updated_at: "2023-05-09 02:34:26.369917"
+latest: "2.14.0"
 container_url: "https://hub.docker.com/r/ncbi/blast"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.12.0"
  - "latest"
  - "2.13.0"
+ - "2.14.0"
 description: "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences."
-config: {"docker": "ncbi/blast", "url": "https://hub.docker.com/r/ncbi/blast", "maintainer": "@vsoch", "description": "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences.", "latest": {"2.13.0": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced"}, "tags": {"2.11.0": "sha256:6591661d046e5d5d4c5c45baf8bcfcc8b9188590f87b25dc1f625cb29383b922", "2.12.0": "sha256:367f06bf5d5fc9f6ea2dd24bee7571e3b5be589175a902c257261f3f41784517", "latest": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced", "2.13.0": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced"}}
+config: {"docker": "ncbi/blast", "url": "https://hub.docker.com/r/ncbi/blast", "maintainer": "@vsoch", "description": "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences.", "latest": {"2.14.0": "sha256:b12ea8a499936a67c0597d6481466bc75378c7c462d7f161724f0154e12634da"}, "tags": {"2.11.0": "sha256:6591661d046e5d5d4c5c45baf8bcfcc8b9188590f87b25dc1f625cb29383b922", "2.12.0": "sha256:367f06bf5d5fc9f6ea2dd24bee7571e3b5be589175a902c257261f3f41784517", "latest": "sha256:b12ea8a499936a67c0597d6481466bc75378c7c462d7f161724f0154e12634da", "2.13.0": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced", "2.14.0": "sha256:b12ea8a499936a67c0597d6481466bc75378c7c462d7f161724f0154e12634da"}}
 ---
 
 This module is a singularity container wrapper for ncbi/blast.
@@ -29,7 +30,7 @@ $ shpc install ncbi/blast
 Or a specific version:
 
 ```bash
-$ shpc install ncbi/blast:2.13.0
+$ shpc install ncbi/blast:2.14.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ncbi/blast/2.13.0
-$ module help ncbi/blast/2.13.0
+$ module load ncbi/blast/2.14.0
+$ module help ncbi/blast/2.14.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

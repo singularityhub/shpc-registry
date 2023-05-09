@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tadcompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tadcompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tadcompare/container.yaml"
-updated_at: "2023-05-08 04:21:56.899163"
+updated_at: "2023-05-09 03:24:35.980511"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tadcompare"
 

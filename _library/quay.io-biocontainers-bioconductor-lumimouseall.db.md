@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumimouseall.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumimouseall.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumimouseall.db/container.yaml"
-updated_at: "2023-05-08 04:00:37.340297"
+updated_at: "2023-05-09 02:59:34.915454"
 latest: "1.22.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumimouseall.db"
 

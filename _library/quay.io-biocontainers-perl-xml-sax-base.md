@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-sax-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-sax-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-sax-base/container.yaml"
-updated_at: "2023-05-08 04:22:29.801686"
+updated_at: "2023-05-09 03:25:15.671562"
 latest: "1.09--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-xml-sax-base"
 aliases:
