@@ -4,7 +4,7 @@ name:  "bids/pymvpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/pymvpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/pymvpa/container.yaml"
-updated_at: "2023-05-09 02:34:23.572178"
+updated_at: "2023-05-10 02:33:33.843199"
 latest: "v4.0.1"
 container_url: "https://hub.docker.com/r/bids/pymvpa"
 
@@ -13,8 +13,9 @@ versions:
  - "v2.0.2"
  - "v4.0.1"
  - "unstable"
+ - "v4.0.3"
 description: "Take fMRI data and generates ROI based MultiVariate Pattern Analysis (MVPA) outputs (https://github.com/BIDS-Apps/PyMVPA)"
-config: {"docker": "bids/pymvpa", "url": "https://hub.docker.com/r/bids/pymvpa", "maintainer": "@vsoch", "description": "Take fMRI data and generates ROI based MultiVariate Pattern Analysis (MVPA) outputs (https://github.com/BIDS-Apps/PyMVPA)", "latest": {"v4.0.1": "sha256:e29fbce4e72f4dc53fcada1ddeb2e7bfc8ef7f696b5b6ac8492c9d0689ce8e5d"}, "tags": {"latest": "sha256:4db80de326a0a9cffd1b5e0b1a2601bd145bb00449aa270be61a6b4ff5d335ac", "v2.0.2": "sha256:4db80de326a0a9cffd1b5e0b1a2601bd145bb00449aa270be61a6b4ff5d335ac", "v4.0.1": "sha256:e29fbce4e72f4dc53fcada1ddeb2e7bfc8ef7f696b5b6ac8492c9d0689ce8e5d", "unstable": "sha256:4db80de326a0a9cffd1b5e0b1a2601bd145bb00449aa270be61a6b4ff5d335ac"}, "filter": ["v*"]}
+config: {"docker": "bids/pymvpa", "url": "https://hub.docker.com/r/bids/pymvpa", "maintainer": "@vsoch", "description": "Take fMRI data and generates ROI based MultiVariate Pattern Analysis (MVPA) outputs (https://github.com/BIDS-Apps/PyMVPA)", "latest": {"v4.0.1": "sha256:e29fbce4e72f4dc53fcada1ddeb2e7bfc8ef7f696b5b6ac8492c9d0689ce8e5d"}, "tags": {"latest": "sha256:b9b443b6803ec40e82fd617cb9062641a1c4bbd6a6cd6d77c2a3dc2136e77b57", "v2.0.2": "sha256:af3641ba786f60fc1907807f98039532c4321dfab220abbe058bc38329095f6d", "v4.0.1": "sha256:e29fbce4e72f4dc53fcada1ddeb2e7bfc8ef7f696b5b6ac8492c9d0689ce8e5d", "unstable": "sha256:b9b443b6803ec40e82fd617cb9062641a1c4bbd6a6cd6d77c2a3dc2136e77b57", "v4.0.3": "sha256:b9b443b6803ec40e82fd617cb9062641a1c4bbd6a6cd6d77c2a3dc2136e77b57"}, "filter": ["v*"]}
 ---
 
 This module is a singularity container wrapper for bids/pymvpa.

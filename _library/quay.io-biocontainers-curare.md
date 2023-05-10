@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/curare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/curare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/curare/container.yaml"
-updated_at: "2023-05-09 02:46:40.742007"
+updated_at: "2023-05-10 02:48:29.468143"
 latest: "0.4.5--pypyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/curare"
 aliases:

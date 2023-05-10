@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/contrafold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contrafold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contrafold/container.yaml"
-updated_at: "2023-05-09 02:59:32.421813"
+updated_at: "2023-05-10 02:46:55.118958"
 latest: "2.02--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/contrafold"
 aliases:

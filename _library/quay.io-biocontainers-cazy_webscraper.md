@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cazy_webscraper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cazy_webscraper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cazy_webscraper/container.yaml"
-updated_at: "2023-05-09 02:53:15.895485"
-latest: "2.2.7--pyhdfd78af_0"
+updated_at: "2023-05-10 02:35:55.966813"
+latest: "2.2.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cazy_webscraper"
 aliases:
  - "cazy_webscraper"
@@ -31,8 +31,9 @@ versions:
  - "2.2.1--pyhdfd78af_0"
  - "2.2.2--pyhdfd78af_0"
  - "2.2.7--pyhdfd78af_0"
+ - "2.2.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cazy_webscraper"
-config: {"url": "https://biocontainers.pro/tools/cazy_webscraper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cazy_webscraper", "latest": {"2.2.7--pyhdfd78af_0": "sha256:c0cc4e274e22dd6cee2d11b62e049bd538ebe441fa750b10dfd61b4829962938"}, "tags": {"2.2.1--pyhdfd78af_0": "sha256:81c78834e559f3e523b48adcede93a4ba1c0e71e27cbbc9f7b8bcf8806c47b7b", "2.2.2--pyhdfd78af_0": "sha256:78070b07abdede9069e02e3bfeb88225c18911d9c8da208c00612c239c7a12eb", "2.2.7--pyhdfd78af_0": "sha256:c0cc4e274e22dd6cee2d11b62e049bd538ebe441fa750b10dfd61b4829962938"}, "docker": "quay.io/biocontainers/cazy_webscraper", "aliases": {"cazy_webscraper": "/usr/local/bin/cazy_webscraper", "cw_extract_db_seqs": "/usr/local/bin/cw_extract_db_seqs", "cw_get_genbank_seqs": "/usr/local/bin/cw_get_genbank_seqs", "cw_get_genomics": "/usr/local/bin/cw_get_genomics", "cw_get_gtdb_taxs": "/usr/local/bin/cw_get_gtdb_taxs", "cw_get_ncbi_taxs": "/usr/local/bin/cw_get_ncbi_taxs", "cw_get_pdb_structures": "/usr/local/bin/cw_get_pdb_structures", "cw_get_uniprot_data": "/usr/local/bin/cw_get_uniprot_data", "cw_query_database": "/usr/local/bin/cw_query_database", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/cazy_webscraper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cazy_webscraper", "latest": {"2.2.8--pyhdfd78af_0": "sha256:9ae3fd1c302800b0776d4f6eb6918bea47c47b487b9a001fcce0cd8bd26b6e04"}, "tags": {"2.2.1--pyhdfd78af_0": "sha256:81c78834e559f3e523b48adcede93a4ba1c0e71e27cbbc9f7b8bcf8806c47b7b", "2.2.2--pyhdfd78af_0": "sha256:78070b07abdede9069e02e3bfeb88225c18911d9c8da208c00612c239c7a12eb", "2.2.7--pyhdfd78af_0": "sha256:c0cc4e274e22dd6cee2d11b62e049bd538ebe441fa750b10dfd61b4829962938", "2.2.8--pyhdfd78af_0": "sha256:9ae3fd1c302800b0776d4f6eb6918bea47c47b487b9a001fcce0cd8bd26b6e04"}, "docker": "quay.io/biocontainers/cazy_webscraper", "aliases": {"cazy_webscraper": "/usr/local/bin/cazy_webscraper", "cw_extract_db_seqs": "/usr/local/bin/cw_extract_db_seqs", "cw_get_genbank_seqs": "/usr/local/bin/cw_get_genbank_seqs", "cw_get_genomics": "/usr/local/bin/cw_get_genomics", "cw_get_gtdb_taxs": "/usr/local/bin/cw_get_gtdb_taxs", "cw_get_ncbi_taxs": "/usr/local/bin/cw_get_ncbi_taxs", "cw_get_pdb_structures": "/usr/local/bin/cw_get_pdb_structures", "cw_get_uniprot_data": "/usr/local/bin/cw_get_uniprot_data", "cw_query_database": "/usr/local/bin/cw_query_database", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cazy_webscraper.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/cazy_webscraper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cazy_webscraper:2.2.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cazy_webscraper:2.2.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cazy_webscraper/2.2.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/cazy_webscraper/2.2.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/cazy_webscraper/2.2.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/cazy_webscraper/2.2.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

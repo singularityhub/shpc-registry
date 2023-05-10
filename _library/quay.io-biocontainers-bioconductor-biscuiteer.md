@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biscuiteer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biscuiteer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biscuiteer/container.yaml"
-updated_at: "2023-05-09 03:20:04.401761"
+updated_at: "2023-05-10 02:35:36.088543"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biscuiteer"
 

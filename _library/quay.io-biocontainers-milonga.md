@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/milonga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/milonga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/milonga/container.yaml"
-updated_at: "2023-05-09 03:03:22.524809"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2023-05-10 03:00:40.817843"
+latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/milonga"
 aliases:
  - "NanoFilt"
@@ -57,8 +57,9 @@ aliases:
  - "hwloc-calc"
 versions:
  - "1.0.1--hdfd78af_0"
+ - "1.0.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for milonga"
-config: {"url": "https://biocontainers.pro/tools/milonga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for milonga", "latest": {"1.0.1--hdfd78af_0": "sha256:31429d69e7eb1ad062275898918ba50f4d3af087bd3c099b85c2823928ee70c4"}, "tags": {"1.0.1--hdfd78af_0": "sha256:31429d69e7eb1ad062275898918ba50f4d3af087bd3c099b85c2823928ee70c4"}, "docker": "quay.io/biocontainers/milonga", "aliases": {"NanoFilt": "/usr/local/bin/NanoFilt", "NanoStat": "/usr/local/bin/NanoStat", "TMalign": "/usr/local/bin/TMalign", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "bioawk": "/usr/local/bin/bioawk", "checkm": "/usr/local/bin/checkm", "coronaspades.py": "/usr/local/bin/coronaspades.py", "create_hybrid_samplesheet.sh": "/usr/local/bin/create_hybrid_samplesheet.sh", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "milonga.py": "/usr/local/bin/milonga.py", "milonga_setup.sh": "/usr/local/bin/milonga_setup.sh", "platon": "/usr/local/bin/platon", "qcat": "/usr/local/bin/qcat", "qcat-eval": "/usr/local/bin/qcat-eval", "qcat-eval-truth": "/usr/local/bin/qcat-eval-truth", "qcat-roc": "/usr/local/bin/qcat-roc", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "taxonkit": "/usr/local/bin/taxonkit", "unicycler": "/usr/local/bin/unicycler", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "poa": "/usr/local/bin/poa", "porechop": "/usr/local/bin/porechop", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "delta2vcf": "/usr/local/bin/delta2vcf", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "pilon": "/usr/local/bin/pilon", "rppr": "/usr/local/bin/rppr", "RNAmultifold": "/usr/local/bin/RNAmultifold", "rsync-ssl": "/usr/local/bin/rsync-ssl", "clustalo": "/usr/local/bin/clustalo", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "any2fasta": "/usr/local/bin/any2fasta", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "rsync": "/usr/local/bin/rsync", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
+config: {"url": "https://biocontainers.pro/tools/milonga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for milonga", "latest": {"1.0.3--hdfd78af_0": "sha256:267ed3f8c56119f6fe5d3c343bbf685871a5a55e443e964f96d8b5161c611208"}, "tags": {"1.0.1--hdfd78af_0": "sha256:31429d69e7eb1ad062275898918ba50f4d3af087bd3c099b85c2823928ee70c4", "1.0.3--hdfd78af_0": "sha256:267ed3f8c56119f6fe5d3c343bbf685871a5a55e443e964f96d8b5161c611208"}, "docker": "quay.io/biocontainers/milonga", "aliases": {"NanoFilt": "/usr/local/bin/NanoFilt", "NanoStat": "/usr/local/bin/NanoStat", "TMalign": "/usr/local/bin/TMalign", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "bioawk": "/usr/local/bin/bioawk", "checkm": "/usr/local/bin/checkm", "coronaspades.py": "/usr/local/bin/coronaspades.py", "create_hybrid_samplesheet.sh": "/usr/local/bin/create_hybrid_samplesheet.sh", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "milonga.py": "/usr/local/bin/milonga.py", "milonga_setup.sh": "/usr/local/bin/milonga_setup.sh", "platon": "/usr/local/bin/platon", "qcat": "/usr/local/bin/qcat", "qcat-eval": "/usr/local/bin/qcat-eval", "qcat-eval-truth": "/usr/local/bin/qcat-eval-truth", "qcat-roc": "/usr/local/bin/qcat-roc", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "taxonkit": "/usr/local/bin/taxonkit", "unicycler": "/usr/local/bin/unicycler", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "poa": "/usr/local/bin/poa", "porechop": "/usr/local/bin/porechop", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "delta2vcf": "/usr/local/bin/delta2vcf", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "pilon": "/usr/local/bin/pilon", "rppr": "/usr/local/bin/rppr", "RNAmultifold": "/usr/local/bin/RNAmultifold", "rsync-ssl": "/usr/local/bin/rsync-ssl", "clustalo": "/usr/local/bin/clustalo", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "any2fasta": "/usr/local/bin/any2fasta", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "rsync": "/usr/local/bin/rsync", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/milonga.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/milonga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/milonga:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/milonga:1.0.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/milonga/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/milonga/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/milonga/1.0.3--hdfd78af_0
+$ module help quay.io/biocontainers/milonga/1.0.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
