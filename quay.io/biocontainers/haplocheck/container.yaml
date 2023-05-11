@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/haplocheck
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for haplocheck
 latest:
-  1.3.3--h4a94de4_0: sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc
+  1.3.3--h4a94de4_1: sha256:7b9bfe5941489313e2fcd9d33aca27821702c6667341674055236a44968d2400
 tags:
   1.3.3--h4a94de4_0: sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc
+  1.3.3--h4a94de4_1: sha256:7b9bfe5941489313e2fcd9d33aca27821702c6667341674055236a44968d2400
 docker: quay.io/biocontainers/haplocheck
 aliases:
   cloudgene.yaml: /usr/local/bin/cloudgene.yaml

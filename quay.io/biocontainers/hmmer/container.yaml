@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/hmmer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmmer
 latest:
-  3.3.2--h87f3376_2: sha256:9fa6fb904bbd8bcaf5ecbb15affaad82d7b6b3ab8afc1a369d362d2c061f1237
+  3.3.2--h87f3376_3: sha256:6c28cf46c80d9f8b672f49c42a57b0b3e0364b89bda57401c2b8a7fdb72d7fb5
 tags:
   3.3.2--h87f3376_2: sha256:9fa6fb904bbd8bcaf5ecbb15affaad82d7b6b3ab8afc1a369d362d2c061f1237
+  3.3.2--h87f3376_3: sha256:6c28cf46c80d9f8b672f49c42a57b0b3e0364b89bda57401c2b8a7fdb72d7fb5
 docker: quay.io/biocontainers/hmmer

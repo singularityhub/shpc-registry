@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cansam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cansam
 latest:
-  21d64bb--h7ff8a90_5: sha256:246cc80e1455e0681994be5e15b285f58350fd78774b6ad952cb3c0ab800a940
+  21d64bb--h7ff8a90_6: sha256:69b21472bb35f9c3a03d227fa8f25a26c2ca68c89b03b18a141cf81a5814c429
 tags:
   21d64bb--h7ff8a90_5: sha256:246cc80e1455e0681994be5e15b285f58350fd78774b6ad952cb3c0ab800a940
+  21d64bb--h7ff8a90_6: sha256:69b21472bb35f9c3a03d227fa8f25a26c2ca68c89b03b18a141cf81a5814c429
 docker: quay.io/biocontainers/cansam
 aliases:
   samcat: /usr/local/bin/samcat

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mlrho
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mlrho
 latest:
-  2.9--hde3ca97_6: sha256:940a6a493ecca35cd3a585f2f62faf465193f054311183146c30de13327b1cae
+  2.9--hde3ca97_7: sha256:5a0512e8bc8bf04201c15190ef8ee9e4710498e2dc56eb9b20225c6cd6d3d5aa
 tags:
   2.9--hde3ca97_6: sha256:940a6a493ecca35cd3a585f2f62faf465193f054311183146c30de13327b1cae
+  2.9--hde3ca97_7: sha256:5a0512e8bc8bf04201c15190ef8ee9e4710498e2dc56eb9b20225c6cd6d3d5aa
 docker: quay.io/biocontainers/mlrho
 aliases:
   mlRho: /usr/local/bin/mlRho

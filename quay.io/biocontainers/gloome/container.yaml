@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gloome
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gloome
 latest:
-  VR01.266--h9f5acd7_1: sha256:64b163645b6c960368ac6b2eff22515ed6ba7052878b52d5b047d52cdd2379a9
+  VR01.266--h9f5acd7_2: sha256:822451682f60094ab3dcbb9146de8ada8741b69d33f998d761cc85b7ece43284
 tags:
   VR01.266--h9f5acd7_1: sha256:64b163645b6c960368ac6b2eff22515ed6ba7052878b52d5b047d52cdd2379a9
+  VR01.266--h9f5acd7_2: sha256:822451682f60094ab3dcbb9146de8ada8741b69d33f998d761cc85b7ece43284
 docker: quay.io/biocontainers/gloome
 aliases:
   gainLoss: /usr/local/bin/gainLoss

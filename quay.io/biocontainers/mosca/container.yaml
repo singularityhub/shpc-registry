@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mosca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mosca
 latest:
-  1.3.5--0: sha256:566d31231678ce9abf9ff870e6d575d7b9178f3d6221b5ba55ba72a48a1d3e27
+  2.1.0--hdfd78af_0: sha256:88e59e7c3cdc98fd8dd0e88edd3f53c1a554bad1d99657450f8cdaeaab314003
 tags:
   1.3.5--0: sha256:566d31231678ce9abf9ff870e6d575d7b9178f3d6221b5ba55ba72a48a1d3e27
+  2.1.0--hdfd78af_0: sha256:88e59e7c3cdc98fd8dd0e88edd3f53c1a554bad1d99657450f8cdaeaab314003
 docker: quay.io/biocontainers/mosca
 aliases:
   Contents.xsd: /usr/local/bin/Contents.xsd

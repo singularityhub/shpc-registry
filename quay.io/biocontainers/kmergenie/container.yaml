@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/kmergenie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kmergenie
 latest:
-  1.7051--py38r42h3b68952_4: sha256:2c864366201cf08e098d6d460f15fdb1f11c7ee4b959f02f7199582c7d2b13cd
+  1.7051--py39r42h2add14b_5: sha256:0ae96b5fbbb3fe2fb052bf89ebf54208b91e0dd2b9fedc58963c0adab67fd86f
 tags:
   1.7051--py39r41h2add14b_3: sha256:fd65f2010653b00d9ca276320fd3f8b17fc557746796ec910cdb1756233910d0
   1.7051--py38r42h3b68952_4: sha256:2c864366201cf08e098d6d460f15fdb1f11c7ee4b959f02f7199582c7d2b13cd
+  1.7051--py39r42h2add14b_5: sha256:0ae96b5fbbb3fe2fb052bf89ebf54208b91e0dd2b9fedc58963c0adab67fd86f
 docker: quay.io/biocontainers/kmergenie
 aliases:
   __init__.py: /usr/local/bin/__init__.py

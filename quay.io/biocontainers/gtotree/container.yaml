@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gtotree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gtotree
 latest:
-  1.7.08--h9ee0642_0: sha256:22bffd2736e8e08fc60494dc790c9f44975576ad60aa9ddb9a4c718124432fbb
+  1.7.10--h9ee0642_0: sha256:ddaf6bf806846ad14c79092e56fd0bcded85f4ec24eb9a7c9912b7f7aa3082e1
 tags:
   1.7.07--h9ee0642_0: sha256:52d5baa05fabc6be56ac5cb64dfc01eb358bc96bc7cf4e94025d5abb2935821f
   1.7.08--h9ee0642_0: sha256:22bffd2736e8e08fc60494dc790c9f44975576ad60aa9ddb9a4c718124432fbb
+  1.7.10--h9ee0642_0: sha256:ddaf6bf806846ad14c79092e56fd0bcded85f4ec24eb9a7c9912b7f7aa3082e1
 docker: quay.io/biocontainers/gtotree
 aliases:
   GToTree: /usr/local/bin/GToTree

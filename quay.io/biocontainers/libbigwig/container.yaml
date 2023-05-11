@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/libbigwig
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libbigwig
 latest:
-  0.4.7--h1d40642_0: sha256:956927f13965b99fa747854709f47b8c8589d2372c345960063b6b787c202729
+  0.4.7--h1d40642_1: sha256:da327f78dfde4caaccaa4f613066badd6a162805d9f4935ca645bbddde412e8d
 tags:
   0.4.7--h1d40642_0: sha256:956927f13965b99fa747854709f47b8c8589d2372c345960063b6b787c202729
+  0.4.7--h1d40642_1: sha256:da327f78dfde4caaccaa4f613066badd6a162805d9f4935ca645bbddde412e8d
 docker: quay.io/biocontainers/libbigwig
