@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methtargetedngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methtargetedngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methtargetedngs/container.yaml"
-updated_at: "2023-05-11 02:46:55.199909"
+updated_at: "2023-05-11 03:03:45.329448"
 latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methtargetedngs"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/digestiflow-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/digestiflow-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/digestiflow-cli/container.yaml"
-updated_at: "2023-05-11 03:05:12.157781"
+updated_at: "2023-05-11 03:21:59.856997"
 latest: "0.5.8--h1f4ba0c_3"
 container_url: "https://biocontainers.pro/tools/digestiflow-cli"
 aliases:
