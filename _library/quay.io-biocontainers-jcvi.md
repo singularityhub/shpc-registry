@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jcvi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jcvi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jcvi/container.yaml"
-updated_at: "2023-05-10 03:05:28.064485"
+updated_at: "2023-05-11 03:13:16.836832"
 latest: "1.1.5--py36h29c9776_0"
 container_url: "https://biocontainers.pro/tools/jcvi"
 aliases:

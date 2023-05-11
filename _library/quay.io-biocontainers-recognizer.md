@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/recognizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recognizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recognizer/container.yaml"
-updated_at: "2023-05-10 02:39:08.882866"
-latest: "1.8.3--hdfd78af_0"
+updated_at: "2023-05-11 03:18:16.872181"
+latest: "1.9.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recognizer"
 aliases:
  - "ktClassifyHits"
@@ -23,8 +23,9 @@ aliases:
  - "ktImportFCP"
 versions:
  - "1.8.3--hdfd78af_0"
+ - "1.9.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for recognizer"
-config: {"url": "https://biocontainers.pro/tools/recognizer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recognizer", "latest": {"1.8.3--hdfd78af_0": "sha256:60847fe452ed6e4f4c30a677c8ecea0b4f788acbcc8ab44514a6355c0b4e5275"}, "tags": {"1.8.3--hdfd78af_0": "sha256:60847fe452ed6e4f4c30a677c8ecea0b4f788acbcc8ab44514a6355c0b4e5275"}, "docker": "quay.io/biocontainers/recognizer", "aliases": {"ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "recognizer.py": "/usr/local/bin/recognizer.py", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
+config: {"url": "https://biocontainers.pro/tools/recognizer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recognizer", "latest": {"1.9.1--hdfd78af_0": "sha256:c23814888a82c8d5c321087a6838e93b50a4a5d24413ef5842b8f9cb6a7e15d5"}, "tags": {"1.8.3--hdfd78af_0": "sha256:60847fe452ed6e4f4c30a677c8ecea0b4f788acbcc8ab44514a6355c0b4e5275", "1.9.1--hdfd78af_0": "sha256:c23814888a82c8d5c321087a6838e93b50a4a5d24413ef5842b8f9cb6a7e15d5"}, "docker": "quay.io/biocontainers/recognizer", "aliases": {"ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "recognizer.py": "/usr/local/bin/recognizer.py", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recognizer.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/recognizer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/recognizer:1.8.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/recognizer:1.9.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/recognizer/1.8.3--hdfd78af_0
-$ module help quay.io/biocontainers/recognizer/1.8.3--hdfd78af_0
+$ module load quay.io/biocontainers/recognizer/1.9.1--hdfd78af_0
+$ module help quay.io/biocontainers/recognizer/1.9.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

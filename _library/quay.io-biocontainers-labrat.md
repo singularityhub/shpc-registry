@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/labrat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/labrat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/labrat/container.yaml"
-updated_at: "2023-05-10 03:25:45.234092"
+updated_at: "2023-05-11 03:00:17.316846"
 latest: "0.3.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/labrat"
 aliases:

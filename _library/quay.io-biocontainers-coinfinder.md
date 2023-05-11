@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coinfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coinfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coinfinder/container.yaml"
-updated_at: "2023-05-10 02:46:26.008624"
+updated_at: "2023-05-11 02:57:18.897454"
 latest: "1.2.1--py39h2ce926b_0"
 container_url: "https://biocontainers.pro/tools/coinfinder"
 aliases:

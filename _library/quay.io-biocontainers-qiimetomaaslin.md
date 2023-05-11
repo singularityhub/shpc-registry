@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qiimetomaaslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qiimetomaaslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qiimetomaaslin/container.yaml"
-updated_at: "2023-05-10 02:57:48.485347"
+updated_at: "2023-05-11 02:52:55.484523"
 latest: "1.1.0--py27_1"
 container_url: "https://biocontainers.pro/tools/qiimetomaaslin"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pegasuspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegasuspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegasuspy/container.yaml"
-updated_at: "2023-05-10 02:59:02.208937"
+updated_at: "2023-05-11 02:50:31.159561"
 latest: "1.7.1--py39hbf8eff0_1"
 container_url: "https://biocontainers.pro/tools/pegasuspy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-asciitable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-asciitable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-asciitable/container.yaml"
-updated_at: "2023-05-10 02:55:18.476367"
+updated_at: "2023-05-11 03:05:15.520120"
 latest: "0.22--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-text-asciitable"
 aliases:

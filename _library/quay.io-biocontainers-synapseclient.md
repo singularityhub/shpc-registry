@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/synapseclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synapseclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synapseclient/container.yaml"
-updated_at: "2023-05-10 03:20:49.806074"
-latest: "2.7.0--pyh7cba7a3_0"
+updated_at: "2023-05-11 03:13:21.841801"
+latest: "2.7.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/synapseclient"
 aliases:
  - "keyring"
@@ -22,8 +22,9 @@ aliases:
  - "dbus-test-tool"
 versions:
  - "2.7.0--pyh7cba7a3_0"
+ - "2.7.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for synapseclient"
-config: {"url": "https://biocontainers.pro/tools/synapseclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for synapseclient", "latest": {"2.7.0--pyh7cba7a3_0": "sha256:c50226759523160f06f15d49f1f0bc65ccb33328afce86b9a9cf9ff36aa08084"}, "tags": {"2.7.0--pyh7cba7a3_0": "sha256:c50226759523160f06f15d49f1f0bc65ccb33328afce86b9a9cf9ff36aa08084"}, "docker": "quay.io/biocontainers/synapseclient", "aliases": {"keyring": "/usr/local/bin/keyring", "synapse": "/usr/local/bin/synapse", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
+config: {"url": "https://biocontainers.pro/tools/synapseclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for synapseclient", "latest": {"2.7.1--pyh7cba7a3_0": "sha256:61a428da1828832f176115f29ec47a037c242080461fb7f56d2ca55f25d3d653"}, "tags": {"2.7.0--pyh7cba7a3_0": "sha256:c50226759523160f06f15d49f1f0bc65ccb33328afce86b9a9cf9ff36aa08084", "2.7.1--pyh7cba7a3_0": "sha256:61a428da1828832f176115f29ec47a037c242080461fb7f56d2ca55f25d3d653"}, "docker": "quay.io/biocontainers/synapseclient", "aliases": {"keyring": "/usr/local/bin/keyring", "synapse": "/usr/local/bin/synapse", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/synapseclient.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/synapseclient
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/synapseclient:2.7.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/synapseclient:2.7.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/synapseclient/2.7.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/synapseclient/2.7.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/synapseclient/2.7.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/synapseclient/2.7.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
