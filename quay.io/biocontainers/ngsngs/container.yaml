@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/ngsngs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ngsngs
+latest:
+  0.9.0--h6448e42_0: sha256:a98120e8edea1eed923008318d178946c7ff99756e512ccfb504fb873fcfef4b
+tags:
+  0.9.0--h6448e42_0: sha256:a98120e8edea1eed923008318d178946c7ff99756e512ccfb504fb873fcfef4b
+docker: quay.io/biocontainers/ngsngs
+aliases:
+  ngsngs: /usr/local/bin/ngsngs
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

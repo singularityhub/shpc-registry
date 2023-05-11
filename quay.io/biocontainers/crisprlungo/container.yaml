@@ -1,0 +1,80 @@
+url: https://biocontainers.pro/tools/crisprlungo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for crisprlungo
+latest:
+  0.1.14--py310h086e186_0: sha256:80d3264a0897e89a628a0b41eeb42bcd63a2a5de6029c3d01b3f3c56892aab42
+tags:
+  0.1.14--py310h086e186_0: sha256:80d3264a0897e89a628a0b41eeb42bcd63a2a5de6029c3d01b3f3c56892aab42
+docker: quay.io/biocontainers/crisprlungo
+aliases:
+  CRISPResso: /usr/local/bin/CRISPResso
+  CRISPRessoAggregate: /usr/local/bin/CRISPRessoAggregate
+  CRISPRessoBatch: /usr/local/bin/CRISPRessoBatch
+  CRISPRessoCompare: /usr/local/bin/CRISPRessoCompare
+  CRISPRessoPooled: /usr/local/bin/CRISPRessoPooled
+  CRISPRessoPooledWGSCompare: /usr/local/bin/CRISPRessoPooledWGSCompare
+  CRISPRessoWGS: /usr/local/bin/CRISPRessoWGS
+  CRISPRlungo: /usr/local/bin/CRISPRlungo
+  CRISPRlungoBatch: /usr/local/bin/CRISPRlungoBatch
+  CRISPRlungoCompare: /usr/local/bin/CRISPRlungoCompare
+  c-index-test: /usr/local/bin/c-index-test
+  cas-offinder: /usr/local/bin/cas-offinder
+  ccmake: /usr/local/bin/ccmake
+  clang: /usr/local/bin/clang
+  clang++: /usr/local/bin/clang++
+  clang-8: /usr/local/bin/clang-8
+  clang-check: /usr/local/bin/clang-check
+  clang-cl: /usr/local/bin/clang-cl
+  clang-cpp: /usr/local/bin/clang-cpp
+  clang-extdef-mapping: /usr/local/bin/clang-extdef-mapping
+  clang-format: /usr/local/bin/clang-format
+  clang-import-test: /usr/local/bin/clang-import-test
+  clang-offload-bundler: /usr/local/bin/clang-offload-bundler
+  clang-refactor: /usr/local/bin/clang-refactor
+  clang-rename: /usr/local/bin/clang-rename
+  cmake: /usr/local/bin/cmake
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  diagtool: /usr/local/bin/diagtool
+  ed2k-link: /usr/local/bin/ed2k-link
+  edonr256-hash: /usr/local/bin/edonr256-hash
+  edonr512-hash: /usr/local/bin/edonr512-hash
+  git-clang-format: /usr/local/bin/git-clang-format
+  gost12-256-hash: /usr/local/bin/gost12-256-hash
+  gost12-512-hash: /usr/local/bin/gost12-512-hash
+  has160-hash: /usr/local/bin/has160-hash
+  hmaptool: /usr/local/bin/hmaptool
+  magnet-link: /usr/local/bin/magnet-link
+  poclcc: /usr/local/bin/poclcc
+  rhash: /usr/local/bin/rhash
+  scan-build: /usr/local/bin/scan-build
+  scan-view: /usr/local/bin/scan-view
+  sfv-hash: /usr/local/bin/sfv-hash
+  tiger-hash: /usr/local/bin/tiger-hash
+  tth-hash: /usr/local/bin/tth-hash
+  whirlpool-hash: /usr/local/bin/whirlpool-hash
+  flash: /usr/local/bin/flash
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  tjbench: /usr/local/bin/tjbench
+  cutadapt: /usr/local/bin/cutadapt
+  trimmomatic: /usr/local/bin/trimmomatic
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  jpackage: /usr/local/bin/jpackage
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
