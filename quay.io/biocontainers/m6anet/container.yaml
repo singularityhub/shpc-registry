@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/m6anet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for m6anet
+latest:
+  2.0.2--pyhdfd78af_0: sha256:774c962203226a214e435df070ecff216c9770ffde30bc33c0d09db6d42f12e3
+tags:
+  2.0.2--pyhdfd78af_0: sha256:774c962203226a214e435df070ecff216c9770ffde30bc33c0d09db6d42f12e3
+docker: quay.io/biocontainers/m6anet
+aliases:
+  m6anet: /usr/local/bin/m6anet
+  m6anet-compute_norm_factors: /usr/local/bin/m6anet-compute_norm_factors
+  m6anet-dataprep: /usr/local/bin/m6anet-dataprep
+  m6anet-run_inference: /usr/local/bin/m6anet-run_inference
+  m6anet-train: /usr/local/bin/m6anet-train
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.8: /usr/local/bin/f2py3.8
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
