@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ivar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ivar/container.yaml"
-updated_at: "2023-05-11 03:25:35.316348"
-latest: "1.4.2--h6b7c446_0"
+updated_at: "2023-05-12 02:50:28.771878"
+latest: "1.4.2--h6b7c446_1"
 container_url: "https://biocontainers.pro/tools/ivar"
 aliases:
  - "ivar"
@@ -26,8 +26,9 @@ versions:
  - "1.4--h6b7c446_1"
  - "1.3.2--ha04fe3b_1"
  - "1.4.2--h6b7c446_0"
+ - "1.4.2--h6b7c446_1"
 description: "shpc-registry automated BioContainers addition for ivar"
-config: {"url": "https://biocontainers.pro/tools/ivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ivar", "latest": {"1.4.2--h6b7c446_0": "sha256:f3af849617f93459497af44aa9448abc346f0aa19ff1938be61aeacf72cbc486"}, "tags": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931", "1.3--h089eab3_1": "sha256:8826f9d967aa3f56a51662744f535483e0644165f186fc1d9399a7f037fea77f", "1.3.2--ha04fe3b_0": "sha256:8e7e8351863d16a15d364fd577b724f562c88abafe4891a66360233601594840", "1.4--h6b7c446_1": "sha256:0fa9e230e541512c13303ac7f4654c24f97a31535e727bd3b68338d67ed8fecd", "1.3.2--ha04fe3b_1": "sha256:0ecdc6956287408db59fe7f32f75a783e51c81ff08c909e8b00929b0928ea874", "1.4.2--h6b7c446_0": "sha256:f3af849617f93459497af44aa9448abc346f0aa19ff1938be61aeacf72cbc486"}, "docker": "quay.io/biocontainers/ivar", "aliases": {"ivar": "/usr/local/bin/ivar", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/ivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ivar", "latest": {"1.4.2--h6b7c446_1": "sha256:0324a6d8db42aa6eed27e61fce22c8278c273198d4a8d0490216ace2eeee251e"}, "tags": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931", "1.3--h089eab3_1": "sha256:8826f9d967aa3f56a51662744f535483e0644165f186fc1d9399a7f037fea77f", "1.3.2--ha04fe3b_0": "sha256:8e7e8351863d16a15d364fd577b724f562c88abafe4891a66360233601594840", "1.4--h6b7c446_1": "sha256:0fa9e230e541512c13303ac7f4654c24f97a31535e727bd3b68338d67ed8fecd", "1.3.2--ha04fe3b_1": "sha256:0ecdc6956287408db59fe7f32f75a783e51c81ff08c909e8b00929b0928ea874", "1.4.2--h6b7c446_0": "sha256:f3af849617f93459497af44aa9448abc346f0aa19ff1938be61aeacf72cbc486", "1.4.2--h6b7c446_1": "sha256:0324a6d8db42aa6eed27e61fce22c8278c273198d4a8d0490216ace2eeee251e"}, "docker": "quay.io/biocontainers/ivar", "aliases": {"ivar": "/usr/local/bin/ivar", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ivar.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/ivar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ivar:1.4.2--h6b7c446_0
+$ shpc install quay.io/biocontainers/ivar:1.4.2--h6b7c446_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ivar/1.4.2--h6b7c446_0
-$ module help quay.io/biocontainers/ivar/1.4.2--h6b7c446_0
+$ module load quay.io/biocontainers/ivar/1.4.2--h6b7c446_1
+$ module help quay.io/biocontainers/ivar/1.4.2--h6b7c446_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

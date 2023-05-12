@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/hmmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmer/container.yaml"
-updated_at: "2023-05-11 02:52:23.074601"
-latest: "3.3.2--h87f3376_2"
+updated_at: "2023-05-12 02:41:42.543969"
+latest: "3.3.2--h87f3376_3"
 container_url: "https://biocontainers.pro/tools/hmmer"
 
 versions:
  - "3.3.2--h87f3376_2"
+ - "3.3.2--h87f3376_3"
 description: "shpc-registry automated BioContainers addition for hmmer"
-config: {"url": "https://biocontainers.pro/tools/hmmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmer", "latest": {"3.3.2--h87f3376_2": "sha256:9fa6fb904bbd8bcaf5ecbb15affaad82d7b6b3ab8afc1a369d362d2c061f1237"}, "tags": {"3.3.2--h87f3376_2": "sha256:9fa6fb904bbd8bcaf5ecbb15affaad82d7b6b3ab8afc1a369d362d2c061f1237"}, "docker": "quay.io/biocontainers/hmmer"}
+config: {"url": "https://biocontainers.pro/tools/hmmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmer", "latest": {"3.3.2--h87f3376_3": "sha256:6c28cf46c80d9f8b672f49c42a57b0b3e0364b89bda57401c2b8a7fdb72d7fb5"}, "tags": {"3.3.2--h87f3376_2": "sha256:9fa6fb904bbd8bcaf5ecbb15affaad82d7b6b3ab8afc1a369d362d2c061f1237", "3.3.2--h87f3376_3": "sha256:6c28cf46c80d9f8b672f49c42a57b0b3e0364b89bda57401c2b8a7fdb72d7fb5"}, "docker": "quay.io/biocontainers/hmmer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmmer.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/hmmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmmer:3.3.2--h87f3376_2
+$ shpc install quay.io/biocontainers/hmmer:3.3.2--h87f3376_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmmer/3.3.2--h87f3376_2
-$ module help quay.io/biocontainers/hmmer/3.3.2--h87f3376_2
+$ module load quay.io/biocontainers/hmmer/3.3.2--h87f3376_3
+$ module help quay.io/biocontainers/hmmer/3.3.2--h87f3376_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

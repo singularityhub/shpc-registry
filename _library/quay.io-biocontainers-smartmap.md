@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smartmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smartmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smartmap/container.yaml"
-updated_at: "2023-05-11 03:01:13.813934"
+updated_at: "2023-05-12 02:33:39.925716"
 latest: "1.0.0--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/smartmap"
 aliases:

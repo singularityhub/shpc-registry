@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bellmans-gapc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bellmans-gapc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bellmans-gapc/container.yaml"
-updated_at: "2023-05-11 03:28:58.099236"
-latest: "2022.07.04--h16d3260_0"
+updated_at: "2023-05-12 02:49:40.893709"
+latest: "2022.07.04--h16d3260_1"
 container_url: "https://biocontainers.pro/tools/bellmans-gapc"
 aliases:
  - "gapc"
 versions:
  - "2022.07.04--h16d3260_0"
+ - "2022.07.04--h16d3260_1"
 description: "shpc-registry automated BioContainers addition for bellmans-gapc"
-config: {"url": "https://biocontainers.pro/tools/bellmans-gapc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bellmans-gapc", "latest": {"2022.07.04--h16d3260_0": "sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b"}, "tags": {"2022.07.04--h16d3260_0": "sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b"}, "docker": "quay.io/biocontainers/bellmans-gapc", "aliases": {"gapc": "/usr/local/bin/gapc"}}
+config: {"url": "https://biocontainers.pro/tools/bellmans-gapc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bellmans-gapc", "latest": {"2022.07.04--h16d3260_1": "sha256:9a79a53143c234a37ed994b5b744950591e820e2854f0c9c0d5995bd62b4bd89"}, "tags": {"2022.07.04--h16d3260_0": "sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b", "2022.07.04--h16d3260_1": "sha256:9a79a53143c234a37ed994b5b744950591e820e2854f0c9c0d5995bd62b4bd89"}, "docker": "quay.io/biocontainers/bellmans-gapc", "aliases": {"gapc": "/usr/local/bin/gapc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bellmans-gapc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bellmans-gapc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bellmans-gapc:2022.07.04--h16d3260_0
+$ shpc install quay.io/biocontainers/bellmans-gapc:2022.07.04--h16d3260_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bellmans-gapc/2022.07.04--h16d3260_0
-$ module help quay.io/biocontainers/bellmans-gapc/2022.07.04--h16d3260_0
+$ module load quay.io/biocontainers/bellmans-gapc/2022.07.04--h16d3260_1
+$ module help quay.io/biocontainers/bellmans-gapc/2022.07.04--h16d3260_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

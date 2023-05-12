@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/cdbtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdbtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdbtools/container.yaml"
-updated_at: "2023-05-11 02:57:48.073457"
-latest: "0.99--hd03093a_7"
+updated_at: "2023-05-12 02:50:29.110623"
+latest: "0.99--hd03093a_8"
 container_url: "https://biocontainers.pro/tools/cdbtools"
 aliases:
  - "cdbfasta"
  - "cdbyank"
 versions:
  - "0.99--hd03093a_7"
+ - "0.99--hd03093a_8"
 description: "shpc-registry automated BioContainers addition for cdbtools"
-config: {"url": "https://biocontainers.pro/tools/cdbtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdbtools", "latest": {"0.99--hd03093a_7": "sha256:f3024dcb89fa94850824379687816d4964f1bbc2e4c8431df88e4d0b9b6d4570"}, "tags": {"0.99--hd03093a_7": "sha256:f3024dcb89fa94850824379687816d4964f1bbc2e4c8431df88e4d0b9b6d4570"}, "docker": "quay.io/biocontainers/cdbtools", "aliases": {"cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank"}}
+config: {"url": "https://biocontainers.pro/tools/cdbtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdbtools", "latest": {"0.99--hd03093a_8": "sha256:ea7b74e00ca796bde147ee9819d71839a6e2041682e760286f448b009743361a"}, "tags": {"0.99--hd03093a_7": "sha256:f3024dcb89fa94850824379687816d4964f1bbc2e4c8431df88e4d0b9b6d4570", "0.99--hd03093a_8": "sha256:ea7b74e00ca796bde147ee9819d71839a6e2041682e760286f448b009743361a"}, "docker": "quay.io/biocontainers/cdbtools", "aliases": {"cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cdbtools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/cdbtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cdbtools:0.99--hd03093a_7
+$ shpc install quay.io/biocontainers/cdbtools:0.99--hd03093a_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cdbtools/0.99--hd03093a_7
-$ module help quay.io/biocontainers/cdbtools/0.99--hd03093a_7
+$ module load quay.io/biocontainers/cdbtools/0.99--hd03093a_8
+$ module help quay.io/biocontainers/cdbtools/0.99--hd03093a_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

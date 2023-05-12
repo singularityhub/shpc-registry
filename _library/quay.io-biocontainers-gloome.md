@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gloome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gloome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gloome/container.yaml"
-updated_at: "2023-05-11 03:22:14.851564"
-latest: "VR01.266--h9f5acd7_1"
+updated_at: "2023-05-12 03:08:15.684380"
+latest: "VR01.266--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/gloome"
 aliases:
  - "gainLoss"
 versions:
  - "VR01.266--h9f5acd7_1"
+ - "VR01.266--h9f5acd7_2"
 description: "singularity registry hpc automated addition for gloome"
-config: {"url": "https://biocontainers.pro/tools/gloome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gloome", "latest": {"VR01.266--h9f5acd7_1": "sha256:64b163645b6c960368ac6b2eff22515ed6ba7052878b52d5b047d52cdd2379a9"}, "tags": {"VR01.266--h9f5acd7_1": "sha256:64b163645b6c960368ac6b2eff22515ed6ba7052878b52d5b047d52cdd2379a9"}, "docker": "quay.io/biocontainers/gloome", "aliases": {"gainLoss": "/usr/local/bin/gainLoss"}}
+config: {"url": "https://biocontainers.pro/tools/gloome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gloome", "latest": {"VR01.266--h9f5acd7_2": "sha256:822451682f60094ab3dcbb9146de8ada8741b69d33f998d761cc85b7ece43284"}, "tags": {"VR01.266--h9f5acd7_1": "sha256:64b163645b6c960368ac6b2eff22515ed6ba7052878b52d5b047d52cdd2379a9", "VR01.266--h9f5acd7_2": "sha256:822451682f60094ab3dcbb9146de8ada8741b69d33f998d761cc85b7ece43284"}, "docker": "quay.io/biocontainers/gloome", "aliases": {"gainLoss": "/usr/local/bin/gainLoss"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gloome.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gloome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gloome:VR01.266--h9f5acd7_1
+$ shpc install quay.io/biocontainers/gloome:VR01.266--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gloome/VR01.266--h9f5acd7_1
-$ module help quay.io/biocontainers/gloome/VR01.266--h9f5acd7_1
+$ module load quay.io/biocontainers/gloome/VR01.266--h9f5acd7_2
+$ module help quay.io/biocontainers/gloome/VR01.266--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

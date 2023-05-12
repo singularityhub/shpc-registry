@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svaba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svaba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svaba/container.yaml"
-updated_at: "2023-05-11 03:25:32.019260"
+updated_at: "2023-05-12 02:53:50.043440"
 latest: "1.1.0--h468198e_3"
 container_url: "https://biocontainers.pro/tools/svaba"
 aliases:

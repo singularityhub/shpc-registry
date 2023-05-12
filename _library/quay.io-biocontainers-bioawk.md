@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioawk/container.yaml"
-updated_at: "2023-05-11 02:57:22.112100"
-latest: "1.0--h7132678_7"
+updated_at: "2023-05-12 02:43:45.819055"
+latest: "1.0--h7132678_8"
 container_url: "https://biocontainers.pro/tools/bioawk"
 aliases:
  - "bioawk"
 versions:
  - "1.0--h7132678_7"
+ - "1.0--h7132678_8"
 description: "shpc-registry automated BioContainers addition for bioawk"
-config: {"url": "https://biocontainers.pro/tools/bioawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioawk", "latest": {"1.0--h7132678_7": "sha256:0eff4c13f667526eaad90302737c5b7c01d63b3b876e81b4cd7723af5c5a118b"}, "tags": {"1.0--h7132678_7": "sha256:0eff4c13f667526eaad90302737c5b7c01d63b3b876e81b4cd7723af5c5a118b"}, "docker": "quay.io/biocontainers/bioawk", "aliases": {"bioawk": "/usr/local/bin/bioawk"}}
+config: {"url": "https://biocontainers.pro/tools/bioawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioawk", "latest": {"1.0--h7132678_8": "sha256:ace6ed6ad1fe0249d4005c49f1f1250f8e05e2410ea5f29ed6de2433906b3efc"}, "tags": {"1.0--h7132678_7": "sha256:0eff4c13f667526eaad90302737c5b7c01d63b3b876e81b4cd7723af5c5a118b", "1.0--h7132678_8": "sha256:ace6ed6ad1fe0249d4005c49f1f1250f8e05e2410ea5f29ed6de2433906b3efc"}, "docker": "quay.io/biocontainers/bioawk", "aliases": {"bioawk": "/usr/local/bin/bioawk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioawk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioawk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioawk:1.0--h7132678_7
+$ shpc install quay.io/biocontainers/bioawk:1.0--h7132678_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioawk/1.0--h7132678_7
-$ module help quay.io/biocontainers/bioawk/1.0--h7132678_7
+$ module load quay.io/biocontainers/bioawk/1.0--h7132678_8
+$ module help quay.io/biocontainers/bioawk/1.0--h7132678_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

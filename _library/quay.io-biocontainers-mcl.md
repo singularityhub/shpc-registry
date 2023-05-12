@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mcl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mcl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mcl/container.yaml"
-updated_at: "2023-05-11 03:12:53.524012"
+updated_at: "2023-05-12 02:55:12.026523"
 latest: "14.137--pl5321hec16e2b_8"
 container_url: "https://biocontainers.pro/tools/mcl"
 aliases:
