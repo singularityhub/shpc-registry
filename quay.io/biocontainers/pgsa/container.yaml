@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pgsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pgsa
 latest:
-  1.2--h87f3376_4: sha256:bd43ae4be8f01c0dd6feeb50759f622b7fa0a3d3eb59967534b1fca70c392d7a
+  1.2--h87f3376_5: sha256:9586f778a9410ee7499b0321813df3171b7230c2986f69d88c287b6b32d66fa4
 tags:
   1.2--h87f3376_4: sha256:bd43ae4be8f01c0dd6feeb50759f622b7fa0a3d3eb59967534b1fca70c392d7a
+  1.2--h87f3376_5: sha256:9586f778a9410ee7499b0321813df3171b7230c2986f69d88c287b6b32d66fa4
 docker: quay.io/biocontainers/pgsa
 aliases:
   PgSAgen: /usr/local/bin/PgSAgen

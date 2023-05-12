@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mtglink
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mtglink
 latest:
-  2.4.0--hdfd78af_0: sha256:d7a0abed2bf58e7fe86ff4cd49fab3a9218dbef663f4845aa92e97338e1702e2
+  2.4.1--hdfd78af_0: sha256:bf26656ece9ef96a36f621c7fa17a25afa347d672030287ebe6811b6e5f7c933
 tags:
   2.4.0--hdfd78af_0: sha256:d7a0abed2bf58e7fe86ff4cd49fab3a9218dbef663f4845aa92e97338e1702e2
+  2.4.1--hdfd78af_0: sha256:bf26656ece9ef96a36f621c7fa17a25afa347d672030287ebe6811b6e5f7c933
 docker: quay.io/biocontainers/mtglink
 aliases:
   LRez: /usr/local/bin/LRez

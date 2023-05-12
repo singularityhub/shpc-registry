@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioframe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioframe
 latest:
-  0.4.0--pyhdfd78af_0: sha256:8a816ed8508812fd6757548f0d9daf6a9064f349e512c1b1274a08c25fcdb37e
+  0.4.1--pyhdfd78af_0: sha256:6053643e52baa1a18ec6e9ec6c56fba39da5642b7c6f69f58bf8c2aac04385b7
 tags:
   0.3.3--pyhdfd78af_0: sha256:d0d4f6e99abcbc4b5b94225ead9eb539b58749e58da0bf1387dbac36281355ab
   0.4.0--pyhdfd78af_0: sha256:8a816ed8508812fd6757548f0d9daf6a9064f349e512c1b1274a08c25fcdb37e
+  0.4.1--pyhdfd78af_0: sha256:6053643e52baa1a18ec6e9ec6c56fba39da5642b7c6f69f58bf8c2aac04385b7
 docker: quay.io/biocontainers/bioframe
 aliases:
   bam2pairs: /usr/local/bin/bam2pairs

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/forgi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for forgi
 latest:
-  2.1.1--py36hffcf100_1: sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d
+  2.1.1--py38hfd5ab5c_2: sha256:4bd0cb8e8799d21572db4f4dc0ff25810314de64ea38de04efd3a365978a0705
 tags:
   2.1.1--py36hffcf100_1: sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d
+  2.1.1--py38hfd5ab5c_2: sha256:4bd0cb8e8799d21572db4f4dc0ff25810314de64ea38de04efd3a365978a0705
 docker: quay.io/biocontainers/forgi
 aliases:
   compare_RNA.py: /usr/local/bin/compare_RNA.py

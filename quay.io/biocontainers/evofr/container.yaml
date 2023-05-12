@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/evofr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for evofr
 latest:
-  0.1.18--pyhdfd78af_0: sha256:3f8060d4a41df9f728226001cfa5ecf023bfed902f2223f5307744d5c1502cf7
+  0.1.18--pyhdfd78af_1: sha256:075c037c45b8b1d88291368f58f6f7a91a23557ff3ebd70b59057b00428e13d4
 tags:
   0.1.16--pyhdfd78af_0: sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2
   0.1.18--pyhdfd78af_0: sha256:3f8060d4a41df9f728226001cfa5ecf023bfed902f2223f5307744d5c1502cf7
+  0.1.18--pyhdfd78af_1: sha256:075c037c45b8b1d88291368f58f6f7a91a23557ff3ebd70b59057b00428e13d4
 docker: quay.io/biocontainers/evofr
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

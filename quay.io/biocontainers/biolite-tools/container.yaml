@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biolite-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biolite-tools
 latest:
-  0.4.0--hd03093a_6: sha256:63fb1431d4d78e1fd4c7bd30cd202a63c38aa47fb47d36d9270d7759b19eecc0
+  0.4.0--hd03093a_7: sha256:aab7b33cbbbeb79c8ed8073cb4180ac7c95b3fb62d2d8cb2dd2c9b702a621c9d
 tags:
   0.4.0--hd03093a_6: sha256:63fb1431d4d78e1fd4c7bd30cd202a63c38aa47fb47d36d9270d7759b19eecc0
+  0.4.0--hd03093a_7: sha256:aab7b33cbbbeb79c8ed8073cb4180ac7c95b3fb62d2d8cb2dd2c9b702a621c9d
 docker: quay.io/biocontainers/biolite-tools
 aliases:
   bl-coverage: /usr/local/bin/bl-coverage

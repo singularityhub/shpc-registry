@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/nanoq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanoq
 latest:
-  0.10.0--hec16e2b_0: sha256:1a9bb37e76388dd2bb3eb339bd693db4491c21e0c5439277ef99fa86ff6dd322
+  0.10.0--hec16e2b_1: sha256:166006664debcc5bbaa169aa1144d314a2a4d20e95f065847999b0fe68430f1c
 tags:
   0.9.0--hec16e2b_1: sha256:af189ba24d7292e77f3d429517685f4b5e2a711f9213bc1c0dfa29da1af9b5a7
   0.10.0--hec16e2b_0: sha256:1a9bb37e76388dd2bb3eb339bd693db4491c21e0c5439277ef99fa86ff6dd322
+  0.10.0--hec16e2b_1: sha256:166006664debcc5bbaa169aa1144d314a2a4d20e95f065847999b0fe68430f1c
 docker: quay.io/biocontainers/nanoq
 aliases:
   nanoq: /usr/local/bin/nanoq

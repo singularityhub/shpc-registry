@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snp-dists
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snp-dists
 latest:
-  0.8.2--h7132678_1: sha256:6b76ed35d97bc655daeb0cd0d164c45124cc1b514a3b93796a97c94c988509e9
+  0.8.2--h7132678_2: sha256:87842feba601f88192a3cb2ba931b71477de8877fcd6c5d885a6ad2ae1c3f55c
 tags:
   0.8.2--h7132678_1: sha256:6b76ed35d97bc655daeb0cd0d164c45124cc1b514a3b93796a97c94c988509e9
+  0.8.2--h7132678_2: sha256:87842feba601f88192a3cb2ba931b71477de8877fcd6c5d885a6ad2ae1c3f55c
 docker: quay.io/biocontainers/snp-dists
 aliases:
   snp-dists: /usr/local/bin/snp-dists

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/markermag
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for markermag
 latest:
-  1.1.27--pyh5e36f6f_0: sha256:a70af4fa746c22ed6ac95d009f6c51ee5a76aba9cae29c5c258947e44282443e
+  1.1.28--pyh7cba7a3_0: sha256:9d5cbf3f2f80b1cfdc9ccc4c421bc931db71dba69b2d389c8af11eabc6d888ee
 tags:
   1.1.27--pyh5e36f6f_0: sha256:a70af4fa746c22ed6ac95d009f6c51ee5a76aba9cae29c5c258947e44282443e
+  1.1.28--pyh7cba7a3_0: sha256:9d5cbf3f2f80b1cfdc9ccc4c421bc931db71dba69b2d389c8af11eabc6d888ee
 docker: quay.io/biocontainers/markermag
 aliases:
   MarkerMAG: /usr/local/bin/MarkerMAG

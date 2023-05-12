@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-heap-simple-xs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-heap-simple-xs
 latest:
-  0.10--pl5321hec16e2b_4: sha256:3cd2ebbc9b5715b2c8ae033258ed692d11ffa0c6f2fe579a03861f8063a8c6f0
+  0.10--pl5321hec16e2b_5: sha256:a6f0de1a492fcf4a57a987033e0d31f1395e096b1a8fdd55050983f5af9f5c4a
 tags:
   0.10--pl5321hec16e2b_4: sha256:3cd2ebbc9b5715b2c8ae033258ed692d11ffa0c6f2fe579a03861f8063a8c6f0
+  0.10--pl5321hec16e2b_5: sha256:a6f0de1a492fcf4a57a987033e0d31f1395e096b1a8fdd55050983f5af9f5c4a
 docker: quay.io/biocontainers/perl-heap-simple-xs
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

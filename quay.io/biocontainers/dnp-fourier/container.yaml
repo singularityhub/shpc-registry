@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dnp-fourier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dnp-fourier
 latest:
-  1.0--h87f3376_3: sha256:5876b3d64a4e0efc23a01378557fcd6cf0c3178bab69c3ada307d6ffb3fc3407
+  1.0--h87f3376_4: sha256:2d2669c833a9067de83e9b4d45f2f525e747185908391e590d5d6c97c67296ba
 tags:
   1.0--h87f3376_3: sha256:5876b3d64a4e0efc23a01378557fcd6cf0c3178bab69c3ada307d6ffb3fc3407
+  1.0--h87f3376_4: sha256:2d2669c833a9067de83e9b4d45f2f525e747185908391e590d5d6c97c67296ba
 docker: quay.io/biocontainers/dnp-fourier
 aliases:
   dnp-fourier: /usr/local/bin/dnp-fourier
