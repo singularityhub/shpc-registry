@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/exonerate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for exonerate
 latest:
-  2.4.0--h09da616_5: sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a
+  2.4.0--h09da616_6: sha256:f4d7ac7d7cbc0995b5752fdcb71a90d19cc0e324cf0e7f1ffca25f19859799db
 tags:
   2.4.0--h09da616_5: sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a
+  2.4.0--h09da616_6: sha256:f4d7ac7d7cbc0995b5752fdcb71a90d19cc0e324cf0e7f1ffca25f19859799db
 docker: quay.io/biocontainers/exonerate
 aliases:
   esd2esi: /usr/local/bin/esd2esi

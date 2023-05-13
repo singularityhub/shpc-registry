@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/unitem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for unitem
 latest:
-  1.2.5--pyhdfd78af_0: sha256:a3835948a4b73902d5bc4b50daf81fea4a6ec432d4f6a16e69f96952c3699ee0
+  1.2.6--pyhdfd78af_0: sha256:6d26fd88649e87906d7c6b58711563a046ed9598cebecb4dbed339d681f2a30c
 tags:
   1.2.1--pyhdfd78af_0: sha256:f91f000bbe2867fd260df8f34421d4c2941c00d05fd3e48fafaf43f5c8e20d64
   1.2.4--pyhdfd78af_0: sha256:ecdc26233d603ed8cebb3c6fb87095affa26f6a4e19b78c9a7977a81702e2c20
   1.2.5--pyhdfd78af_0: sha256:a3835948a4b73902d5bc4b50daf81fea4a6ec432d4f6a16e69f96952c3699ee0
+  1.2.6--pyhdfd78af_0: sha256:6d26fd88649e87906d7c6b58711563a046ed9598cebecb4dbed339d681f2a30c
 docker: quay.io/biocontainers/unitem
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan
