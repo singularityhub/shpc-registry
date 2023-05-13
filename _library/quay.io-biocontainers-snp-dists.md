@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/snp-dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-dists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-dists/container.yaml"
-updated_at: "2023-05-12 03:11:53.084812"
-latest: "0.8.2--h7132678_1"
+updated_at: "2023-05-13 02:59:50.921230"
+latest: "0.8.2--h7132678_2"
 container_url: "https://biocontainers.pro/tools/snp-dists"
 aliases:
  - "snp-dists"
 versions:
  - "0.8.2--h7132678_1"
+ - "0.8.2--h7132678_2"
 description: "shpc-registry automated BioContainers addition for snp-dists"
-config: {"url": "https://biocontainers.pro/tools/snp-dists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-dists", "latest": {"0.8.2--h7132678_1": "sha256:6b76ed35d97bc655daeb0cd0d164c45124cc1b514a3b93796a97c94c988509e9"}, "tags": {"0.8.2--h7132678_1": "sha256:6b76ed35d97bc655daeb0cd0d164c45124cc1b514a3b93796a97c94c988509e9"}, "docker": "quay.io/biocontainers/snp-dists", "aliases": {"snp-dists": "/usr/local/bin/snp-dists"}}
+config: {"url": "https://biocontainers.pro/tools/snp-dists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-dists", "latest": {"0.8.2--h7132678_2": "sha256:87842feba601f88192a3cb2ba931b71477de8877fcd6c5d885a6ad2ae1c3f55c"}, "tags": {"0.8.2--h7132678_1": "sha256:6b76ed35d97bc655daeb0cd0d164c45124cc1b514a3b93796a97c94c988509e9", "0.8.2--h7132678_2": "sha256:87842feba601f88192a3cb2ba931b71477de8877fcd6c5d885a6ad2ae1c3f55c"}, "docker": "quay.io/biocontainers/snp-dists", "aliases": {"snp-dists": "/usr/local/bin/snp-dists"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snp-dists.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/snp-dists
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snp-dists:0.8.2--h7132678_1
+$ shpc install quay.io/biocontainers/snp-dists:0.8.2--h7132678_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snp-dists/0.8.2--h7132678_1
-$ module help quay.io/biocontainers/snp-dists/0.8.2--h7132678_1
+$ module load quay.io/biocontainers/snp-dists/0.8.2--h7132678_2
+$ module help quay.io/biocontainers/snp-dists/0.8.2--h7132678_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

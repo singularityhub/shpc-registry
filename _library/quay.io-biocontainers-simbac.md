@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/simbac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simbac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simbac/container.yaml"
-updated_at: "2023-05-12 02:52:39.451235"
-latest: "0.1a--h5e66344_3"
+updated_at: "2023-05-13 02:47:35.353767"
+latest: "0.1a--h5e66344_4"
 container_url: "https://biocontainers.pro/tools/simbac"
 aliases:
  - "SimBac"
 versions:
  - "0.1a--h5e66344_3"
+ - "0.1a--h5e66344_4"
 description: "shpc-registry automated BioContainers addition for simbac"
-config: {"url": "https://biocontainers.pro/tools/simbac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simbac", "latest": {"0.1a--h5e66344_3": "sha256:b8974e0721471901c6e3fc5c15469e98196c33ef7fa55e885abd6b65d5800f2b"}, "tags": {"0.1a--h5e66344_3": "sha256:b8974e0721471901c6e3fc5c15469e98196c33ef7fa55e885abd6b65d5800f2b"}, "docker": "quay.io/biocontainers/simbac", "aliases": {"SimBac": "/usr/local/bin/SimBac"}}
+config: {"url": "https://biocontainers.pro/tools/simbac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simbac", "latest": {"0.1a--h5e66344_4": "sha256:d6f334cc7d9c9c8440e2a1a2c328de457280dd9b9a4363ac4513862e8a84761a"}, "tags": {"0.1a--h5e66344_3": "sha256:b8974e0721471901c6e3fc5c15469e98196c33ef7fa55e885abd6b65d5800f2b", "0.1a--h5e66344_4": "sha256:d6f334cc7d9c9c8440e2a1a2c328de457280dd9b9a4363ac4513862e8a84761a"}, "docker": "quay.io/biocontainers/simbac", "aliases": {"SimBac": "/usr/local/bin/SimBac"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simbac.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/simbac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simbac:0.1a--h5e66344_3
+$ shpc install quay.io/biocontainers/simbac:0.1a--h5e66344_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simbac/0.1a--h5e66344_3
-$ module help quay.io/biocontainers/simbac/0.1a--h5e66344_3
+$ module load quay.io/biocontainers/simbac/0.1a--h5e66344_4
+$ module help quay.io/biocontainers/simbac/0.1a--h5e66344_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

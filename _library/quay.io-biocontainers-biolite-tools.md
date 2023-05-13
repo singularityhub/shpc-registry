@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biolite-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biolite-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biolite-tools/container.yaml"
-updated_at: "2023-05-12 03:06:11.347654"
-latest: "0.4.0--hd03093a_6"
+updated_at: "2023-05-13 02:56:16.518621"
+latest: "0.4.0--hd03093a_7"
 container_url: "https://biocontainers.pro/tools/biolite-tools"
 aliases:
  - "bl-coverage"
@@ -21,8 +21,9 @@ aliases:
  - "bl-threshold"
 versions:
  - "0.4.0--hd03093a_6"
+ - "0.4.0--hd03093a_7"
 description: "shpc-registry automated BioContainers addition for biolite-tools"
-config: {"url": "https://biocontainers.pro/tools/biolite-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biolite-tools", "latest": {"0.4.0--hd03093a_6": "sha256:63fb1431d4d78e1fd4c7bd30cd202a63c38aa47fb47d36d9270d7759b19eecc0"}, "tags": {"0.4.0--hd03093a_6": "sha256:63fb1431d4d78e1fd4c7bd30cd202a63c38aa47fb47d36d9270d7759b19eecc0"}, "docker": "quay.io/biocontainers/biolite-tools", "aliases": {"bl-coverage": "/usr/local/bin/bl-coverage", "bl-exclude": "/usr/local/bin/bl-exclude", "bl-fasta2fastq": "/usr/local/bin/bl-fasta2fastq", "bl-fastq2fasta": "/usr/local/bin/bl-fastq2fasta", "bl-filter-illumina": "/usr/local/bin/bl-filter-illumina", "bl-insert-stats": "/usr/local/bin/bl-insert-stats", "bl-interleave": "/usr/local/bin/bl-interleave", "bl-pair-reads": "/usr/local/bin/bl-pair-reads", "bl-pileup-stats": "/usr/local/bin/bl-pileup-stats", "bl-randomize": "/usr/local/bin/bl-randomize", "bl-threshold": "/usr/local/bin/bl-threshold"}}
+config: {"url": "https://biocontainers.pro/tools/biolite-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biolite-tools", "latest": {"0.4.0--hd03093a_7": "sha256:aab7b33cbbbeb79c8ed8073cb4180ac7c95b3fb62d2d8cb2dd2c9b702a621c9d"}, "tags": {"0.4.0--hd03093a_6": "sha256:63fb1431d4d78e1fd4c7bd30cd202a63c38aa47fb47d36d9270d7759b19eecc0", "0.4.0--hd03093a_7": "sha256:aab7b33cbbbeb79c8ed8073cb4180ac7c95b3fb62d2d8cb2dd2c9b702a621c9d"}, "docker": "quay.io/biocontainers/biolite-tools", "aliases": {"bl-coverage": "/usr/local/bin/bl-coverage", "bl-exclude": "/usr/local/bin/bl-exclude", "bl-fasta2fastq": "/usr/local/bin/bl-fasta2fastq", "bl-fastq2fasta": "/usr/local/bin/bl-fastq2fasta", "bl-filter-illumina": "/usr/local/bin/bl-filter-illumina", "bl-insert-stats": "/usr/local/bin/bl-insert-stats", "bl-interleave": "/usr/local/bin/bl-interleave", "bl-pair-reads": "/usr/local/bin/bl-pair-reads", "bl-pileup-stats": "/usr/local/bin/bl-pileup-stats", "bl-randomize": "/usr/local/bin/bl-randomize", "bl-threshold": "/usr/local/bin/bl-threshold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biolite-tools.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/biolite-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biolite-tools:0.4.0--hd03093a_6
+$ shpc install quay.io/biocontainers/biolite-tools:0.4.0--hd03093a_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biolite-tools/0.4.0--hd03093a_6
-$ module help quay.io/biocontainers/biolite-tools/0.4.0--hd03093a_6
+$ module load quay.io/biocontainers/biolite-tools/0.4.0--hd03093a_7
+$ module help quay.io/biocontainers/biolite-tools/0.4.0--hd03093a_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

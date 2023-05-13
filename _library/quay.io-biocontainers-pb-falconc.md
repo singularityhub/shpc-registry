@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pb-falconc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-falconc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-falconc/container.yaml"
-updated_at: "2023-05-12 02:45:28.801823"
-latest: "1.15.0--h3279499_0"
+updated_at: "2023-05-13 02:41:38.281740"
+latest: "1.15.0--h3279499_1"
 container_url: "https://biocontainers.pro/tools/pb-falconc"
 aliases:
  - "falconc"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.15.0--h3279499_0"
+ - "1.15.0--h3279499_1"
 description: "shpc-registry automated BioContainers addition for pb-falconc"
-config: {"url": "https://biocontainers.pro/tools/pb-falconc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-falconc", "latest": {"1.15.0--h3279499_0": "sha256:305f8aee4ff4aa2fcb66f2417f2ae4e82cc00b2eac9b5eef5a4cb1673e00fa23"}, "tags": {"1.15.0--h3279499_0": "sha256:305f8aee4ff4aa2fcb66f2417f2ae4e82cc00b2eac9b5eef5a4cb1673e00fa23"}, "docker": "quay.io/biocontainers/pb-falconc", "aliases": {"falconc": "/usr/local/bin/falconc", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/pb-falconc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-falconc", "latest": {"1.15.0--h3279499_1": "sha256:e29f9a4c9737320e17e1764d55dbfe52ce1569bb0c104ddee6748411b0f45fc0"}, "tags": {"1.15.0--h3279499_0": "sha256:305f8aee4ff4aa2fcb66f2417f2ae4e82cc00b2eac9b5eef5a4cb1673e00fa23", "1.15.0--h3279499_1": "sha256:e29f9a4c9737320e17e1764d55dbfe52ce1569bb0c104ddee6748411b0f45fc0"}, "docker": "quay.io/biocontainers/pb-falconc", "aliases": {"falconc": "/usr/local/bin/falconc", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pb-falconc.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/pb-falconc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pb-falconc:1.15.0--h3279499_0
+$ shpc install quay.io/biocontainers/pb-falconc:1.15.0--h3279499_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pb-falconc/1.15.0--h3279499_0
-$ module help quay.io/biocontainers/pb-falconc/1.15.0--h3279499_0
+$ module load quay.io/biocontainers/pb-falconc/1.15.0--h3279499_1
+$ module help quay.io/biocontainers/pb-falconc/1.15.0--h3279499_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

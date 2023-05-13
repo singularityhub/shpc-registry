@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/forgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/forgi/container.yaml"
-updated_at: "2023-05-12 02:42:25.186357"
-latest: "2.1.1--py36hffcf100_1"
+updated_at: "2023-05-13 02:39:05.084646"
+latest: "2.1.1--py38hfd5ab5c_2"
 container_url: "https://biocontainers.pro/tools/forgi"
 aliases:
  - "compare_RNA.py"
@@ -26,8 +26,9 @@ aliases:
  - "python3.6m-config"
 versions:
  - "2.1.1--py36hffcf100_1"
+ - "2.1.1--py38hfd5ab5c_2"
 description: "shpc-registry automated BioContainers addition for forgi"
-config: {"url": "https://biocontainers.pro/tools/forgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forgi", "latest": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d"}, "tags": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d"}, "docker": "quay.io/biocontainers/forgi", "aliases": {"compare_RNA.py": "/usr/local/bin/compare_RNA.py", "describe_cg.py": "/usr/local/bin/describe_cg.py", "forgi_config.py": "/usr/local/bin/forgi_config.py", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "visualize_rna.py": "/usr/local/bin/visualize_rna.py", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/forgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forgi", "latest": {"2.1.1--py38hfd5ab5c_2": "sha256:4bd0cb8e8799d21572db4f4dc0ff25810314de64ea38de04efd3a365978a0705"}, "tags": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d", "2.1.1--py38hfd5ab5c_2": "sha256:4bd0cb8e8799d21572db4f4dc0ff25810314de64ea38de04efd3a365978a0705"}, "docker": "quay.io/biocontainers/forgi", "aliases": {"compare_RNA.py": "/usr/local/bin/compare_RNA.py", "describe_cg.py": "/usr/local/bin/describe_cg.py", "forgi_config.py": "/usr/local/bin/forgi_config.py", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "visualize_rna.py": "/usr/local/bin/visualize_rna.py", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/forgi.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/forgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/forgi:2.1.1--py36hffcf100_1
+$ shpc install quay.io/biocontainers/forgi:2.1.1--py38hfd5ab5c_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/forgi/2.1.1--py36hffcf100_1
-$ module help quay.io/biocontainers/forgi/2.1.1--py36hffcf100_1
+$ module load quay.io/biocontainers/forgi/2.1.1--py38hfd5ab5c_2
+$ module help quay.io/biocontainers/forgi/2.1.1--py38hfd5ab5c_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mtglink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtglink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtglink/container.yaml"
-updated_at: "2023-05-12 02:53:26.861413"
-latest: "2.4.0--hdfd78af_0"
+updated_at: "2023-05-13 02:48:14.057648"
+latest: "2.4.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mtglink"
 aliases:
  - "LRez"
@@ -52,8 +52,9 @@ aliases:
  - "exact-tandems"
 versions:
  - "2.4.0--hdfd78af_0"
+ - "2.4.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mtglink"
-config: {"url": "https://biocontainers.pro/tools/mtglink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtglink", "latest": {"2.4.0--hdfd78af_0": "sha256:d7a0abed2bf58e7fe86ff4cd49fab3a9218dbef663f4845aa92e97338e1702e2"}, "tags": {"2.4.0--hdfd78af_0": "sha256:d7a0abed2bf58e7fe86ff4cd49fab3a9218dbef663f4845aa92e97338e1702e2"}, "docker": "quay.io/biocontainers/mtglink", "aliases": {"LRez": "/usr/local/bin/LRez", "MindTheGap": "/usr/local/bin/MindTheGap", "ProgDynOptim.py": "/usr/local/bin/ProgDynOptim.py", "barcodesExtraction.py": "/usr/local/bin/barcodesExtraction.py", "bed2gfa.py": "/usr/local/bin/bed2gfa.py", "dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo", "fasta2bed.py": "/usr/local/bin/fasta2bed.py", "gapFilling.py": "/usr/local/bin/gapFilling.py", "gfa1tofasta.py": "/usr/local/bin/gfa1tofasta.py", "gfa2tofasta.py": "/usr/local/bin/gfa2tofasta.py", "gfapy-convert": "/usr/local/bin/gfapy-convert", "gfapy-mergelinear": "/usr/local/bin/gfapy-mergelinear", "gfapy-renumber": "/usr/local/bin/gfapy-renumber", "gfapy-validate": "/usr/local/bin/gfapy-validate", "helpers.py": "/usr/local/bin/helpers.py", "localAssemblyDBG.py": "/usr/local/bin/localAssemblyDBG.py", "localAssemblyIRO.py": "/usr/local/bin/localAssemblyIRO.py", "main.py": "/usr/local/bin/main.py", "matrix2gfa.py": "/usr/local/bin/matrix2gfa.py", "mergegfa.py": "/usr/local/bin/mergegfa.py", "mtglink.py": "/usr/local/bin/mtglink.py", "pathos_connect": "/usr/local/bin/pathos_connect", "paths2gfa.py": "/usr/local/bin/paths2gfa.py", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "qualitativeEvaluation.py": "/usr/local/bin/qualitativeEvaluation.py", "readsRetrieval.py": "/usr/local/bin/readsRetrieval.py", "stats_alignment.py": "/usr/local/bin/stats_alignment.py", "test.py": "/usr/local/bin/test.py", "vcf2gfa.py": "/usr/local/bin/vcf2gfa.py", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems"}}
+config: {"url": "https://biocontainers.pro/tools/mtglink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtglink", "latest": {"2.4.1--hdfd78af_0": "sha256:bf26656ece9ef96a36f621c7fa17a25afa347d672030287ebe6811b6e5f7c933"}, "tags": {"2.4.0--hdfd78af_0": "sha256:d7a0abed2bf58e7fe86ff4cd49fab3a9218dbef663f4845aa92e97338e1702e2", "2.4.1--hdfd78af_0": "sha256:bf26656ece9ef96a36f621c7fa17a25afa347d672030287ebe6811b6e5f7c933"}, "docker": "quay.io/biocontainers/mtglink", "aliases": {"LRez": "/usr/local/bin/LRez", "MindTheGap": "/usr/local/bin/MindTheGap", "ProgDynOptim.py": "/usr/local/bin/ProgDynOptim.py", "barcodesExtraction.py": "/usr/local/bin/barcodesExtraction.py", "bed2gfa.py": "/usr/local/bin/bed2gfa.py", "dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo", "fasta2bed.py": "/usr/local/bin/fasta2bed.py", "gapFilling.py": "/usr/local/bin/gapFilling.py", "gfa1tofasta.py": "/usr/local/bin/gfa1tofasta.py", "gfa2tofasta.py": "/usr/local/bin/gfa2tofasta.py", "gfapy-convert": "/usr/local/bin/gfapy-convert", "gfapy-mergelinear": "/usr/local/bin/gfapy-mergelinear", "gfapy-renumber": "/usr/local/bin/gfapy-renumber", "gfapy-validate": "/usr/local/bin/gfapy-validate", "helpers.py": "/usr/local/bin/helpers.py", "localAssemblyDBG.py": "/usr/local/bin/localAssemblyDBG.py", "localAssemblyIRO.py": "/usr/local/bin/localAssemblyIRO.py", "main.py": "/usr/local/bin/main.py", "matrix2gfa.py": "/usr/local/bin/matrix2gfa.py", "mergegfa.py": "/usr/local/bin/mergegfa.py", "mtglink.py": "/usr/local/bin/mtglink.py", "pathos_connect": "/usr/local/bin/pathos_connect", "paths2gfa.py": "/usr/local/bin/paths2gfa.py", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "qualitativeEvaluation.py": "/usr/local/bin/qualitativeEvaluation.py", "readsRetrieval.py": "/usr/local/bin/readsRetrieval.py", "stats_alignment.py": "/usr/local/bin/stats_alignment.py", "test.py": "/usr/local/bin/test.py", "vcf2gfa.py": "/usr/local/bin/vcf2gfa.py", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mtglink.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/mtglink
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mtglink:2.4.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/mtglink:2.4.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mtglink/2.4.0--hdfd78af_0
-$ module help quay.io/biocontainers/mtglink/2.4.0--hdfd78af_0
+$ module load quay.io/biocontainers/mtglink/2.4.1--hdfd78af_0
+$ module help quay.io/biocontainers/mtglink/2.4.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

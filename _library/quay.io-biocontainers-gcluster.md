@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcluster/container.yaml"
-updated_at: "2023-05-12 02:33:21.087420"
+updated_at: "2023-05-13 02:32:16.841033"
 latest: "2.06--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gcluster"
 aliases:

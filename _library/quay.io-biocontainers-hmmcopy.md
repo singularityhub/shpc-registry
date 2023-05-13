@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmmcopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmcopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmcopy/container.yaml"
-updated_at: "2023-05-12 02:40:33.947384"
+updated_at: "2023-05-13 02:37:42.429549"
 latest: "0.1.1--h5b5514e_8"
 container_url: "https://biocontainers.pro/tools/hmmcopy"
 aliases:

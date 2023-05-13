@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lrbase.hsa.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lrbase.hsa.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lrbase.hsa.eg.db/container.yaml"
-updated_at: "2023-05-12 02:53:31.465677"
+updated_at: "2023-05-13 02:48:17.817568"
 latest: "2.0.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lrbase.hsa.eg.db"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/btrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btrim/container.yaml"
-updated_at: "2023-05-12 02:47:41.674207"
-latest: "1.0.1--h9f5acd7_4"
+updated_at: "2023-05-13 02:43:28.028189"
+latest: "1.0.1--h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/btrim"
 aliases:
  - "btrim"
 versions:
  - "1.0.1--h9f5acd7_4"
+ - "1.0.1--h9f5acd7_5"
 description: "shpc-registry automated BioContainers addition for btrim"
-config: {"url": "https://biocontainers.pro/tools/btrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for btrim", "latest": {"1.0.1--h9f5acd7_4": "sha256:97287a335ce891434e0dc38cc940c3f33f6365f1a6a1bc6c909b503a4b58b9fa"}, "tags": {"1.0.1--h9f5acd7_4": "sha256:97287a335ce891434e0dc38cc940c3f33f6365f1a6a1bc6c909b503a4b58b9fa"}, "docker": "quay.io/biocontainers/btrim", "aliases": {"btrim": "/usr/local/bin/btrim"}}
+config: {"url": "https://biocontainers.pro/tools/btrim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for btrim", "latest": {"1.0.1--h9f5acd7_5": "sha256:a1571d0a967071f40b26110075efc1075657002e25a59eab325c632ce3986c9a"}, "tags": {"1.0.1--h9f5acd7_4": "sha256:97287a335ce891434e0dc38cc940c3f33f6365f1a6a1bc6c909b503a4b58b9fa", "1.0.1--h9f5acd7_5": "sha256:a1571d0a967071f40b26110075efc1075657002e25a59eab325c632ce3986c9a"}, "docker": "quay.io/biocontainers/btrim", "aliases": {"btrim": "/usr/local/bin/btrim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/btrim.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/btrim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/btrim:1.0.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/btrim:1.0.1--h9f5acd7_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/btrim/1.0.1--h9f5acd7_4
-$ module help quay.io/biocontainers/btrim/1.0.1--h9f5acd7_4
+$ module load quay.io/biocontainers/btrim/1.0.1--h9f5acd7_5
+$ module help quay.io/biocontainers/btrim/1.0.1--h9f5acd7_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/markermag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markermag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markermag/container.yaml"
-updated_at: "2023-05-12 03:28:48.119837"
-latest: "1.1.27--pyh5e36f6f_0"
+updated_at: "2023-05-13 03:11:01.371755"
+latest: "1.1.28--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/markermag"
 aliases:
  - "MarkerMAG"
@@ -36,8 +36,9 @@ aliases:
  - "seqtk"
 versions:
  - "1.1.27--pyh5e36f6f_0"
+ - "1.1.28--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for markermag"
-config: {"url": "https://biocontainers.pro/tools/markermag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markermag", "latest": {"1.1.27--pyh5e36f6f_0": "sha256:a70af4fa746c22ed6ac95d009f6c51ee5a76aba9cae29c5c258947e44282443e"}, "tags": {"1.1.27--pyh5e36f6f_0": "sha256:a70af4fa746c22ed6ac95d009f6c51ee5a76aba9cae29c5c258947e44282443e"}, "docker": "quay.io/biocontainers/markermag", "aliases": {"MarkerMAG": "/usr/local/bin/MarkerMAG", "barrnap": "/usr/local/bin/barrnap", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "truspades.py": "/usr/local/bin/truspades.py", "seqtk": "/usr/local/bin/seqtk"}}
+config: {"url": "https://biocontainers.pro/tools/markermag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markermag", "latest": {"1.1.28--pyh7cba7a3_0": "sha256:9d5cbf3f2f80b1cfdc9ccc4c421bc931db71dba69b2d389c8af11eabc6d888ee"}, "tags": {"1.1.27--pyh5e36f6f_0": "sha256:a70af4fa746c22ed6ac95d009f6c51ee5a76aba9cae29c5c258947e44282443e", "1.1.28--pyh7cba7a3_0": "sha256:9d5cbf3f2f80b1cfdc9ccc4c421bc931db71dba69b2d389c8af11eabc6d888ee"}, "docker": "quay.io/biocontainers/markermag", "aliases": {"MarkerMAG": "/usr/local/bin/MarkerMAG", "barrnap": "/usr/local/bin/barrnap", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "truspades.py": "/usr/local/bin/truspades.py", "seqtk": "/usr/local/bin/seqtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/markermag.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/markermag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/markermag:1.1.27--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/markermag:1.1.28--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/markermag/1.1.27--pyh5e36f6f_0
-$ module help quay.io/biocontainers/markermag/1.1.27--pyh5e36f6f_0
+$ module load quay.io/biocontainers/markermag/1.1.28--pyh7cba7a3_0
+$ module help quay.io/biocontainers/markermag/1.1.28--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

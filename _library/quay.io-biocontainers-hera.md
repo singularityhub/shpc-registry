@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hera/container.yaml"
-updated_at: "2023-05-12 03:17:54.385363"
+updated_at: "2023-05-13 03:03:43.139151"
 latest: "1.1--hb5cc67a_9"
 container_url: "https://biocontainers.pro/tools/hera"
 aliases:

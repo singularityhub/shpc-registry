@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/shustring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shustring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shustring/container.yaml"
-updated_at: "2023-05-12 03:33:59.147889"
-latest: "2.6--hec16e2b_5"
+updated_at: "2023-05-13 03:14:39.576301"
+latest: "2.6--hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/shustring"
 aliases:
  - "shustring"
 versions:
  - "2.6--hec16e2b_5"
+ - "2.6--hec16e2b_6"
 description: "shpc-registry automated BioContainers addition for shustring"
-config: {"url": "https://biocontainers.pro/tools/shustring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shustring", "latest": {"2.6--hec16e2b_5": "sha256:e7ac14742b0c999542c858d465f40174b88de495888160ba9181e5feae92503a"}, "tags": {"2.6--hec16e2b_5": "sha256:e7ac14742b0c999542c858d465f40174b88de495888160ba9181e5feae92503a"}, "docker": "quay.io/biocontainers/shustring", "aliases": {"shustring": "/usr/local/bin/shustring"}}
+config: {"url": "https://biocontainers.pro/tools/shustring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shustring", "latest": {"2.6--hec16e2b_6": "sha256:1cbbb450ad4013bb4edbf8fd4072ec77743e1944d5f06304caad07ae3c6fc36a"}, "tags": {"2.6--hec16e2b_5": "sha256:e7ac14742b0c999542c858d465f40174b88de495888160ba9181e5feae92503a", "2.6--hec16e2b_6": "sha256:1cbbb450ad4013bb4edbf8fd4072ec77743e1944d5f06304caad07ae3c6fc36a"}, "docker": "quay.io/biocontainers/shustring", "aliases": {"shustring": "/usr/local/bin/shustring"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shustring.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/shustring
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shustring:2.6--hec16e2b_5
+$ shpc install quay.io/biocontainers/shustring:2.6--hec16e2b_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shustring/2.6--hec16e2b_5
-$ module help quay.io/biocontainers/shustring/2.6--hec16e2b_5
+$ module load quay.io/biocontainers/shustring/2.6--hec16e2b_6
+$ module help quay.io/biocontainers/shustring/2.6--hec16e2b_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

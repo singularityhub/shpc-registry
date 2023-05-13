@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-http-daemon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-daemon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-daemon/container.yaml"
-updated_at: "2023-05-12 02:37:14.182897"
-latest: "6.15--pl5321hdfd78af_0"
+updated_at: "2023-05-13 02:35:10.939784"
+latest: "6.16--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-daemon"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "6.14--pl5321hdfd78af_0"
  - "6.15--pl5321hdfd78af_0"
+ - "6.16--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-http-daemon"
-config: {"url": "https://biocontainers.pro/tools/perl-http-daemon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-daemon", "latest": {"6.15--pl5321hdfd78af_0": "sha256:1f5a2c62f264fc53c9777b86a435c4bb0e30428034a02b8b487fecf420c25faf"}, "tags": {"6.14--pl5321hdfd78af_0": "sha256:ee79adb1b2dd319cb5e14c6a91253e5ea28b7e6385f23fc3464b2722e84c4183", "6.15--pl5321hdfd78af_0": "sha256:1f5a2c62f264fc53c9777b86a435c4bb0e30428034a02b8b487fecf420c25faf"}, "docker": "quay.io/biocontainers/perl-http-daemon", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-http-daemon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-daemon", "latest": {"6.16--pl5321hdfd78af_0": "sha256:b1ebc5f45240207ea56a6464f21501a3ce6182d9855d5d1851238edde4cbc691"}, "tags": {"6.14--pl5321hdfd78af_0": "sha256:ee79adb1b2dd319cb5e14c6a91253e5ea28b7e6385f23fc3464b2722e84c4183", "6.15--pl5321hdfd78af_0": "sha256:1f5a2c62f264fc53c9777b86a435c4bb0e30428034a02b8b487fecf420c25faf", "6.16--pl5321hdfd78af_0": "sha256:b1ebc5f45240207ea56a6464f21501a3ce6182d9855d5d1851238edde4cbc691"}, "docker": "quay.io/biocontainers/perl-http-daemon", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-http-daemon.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-http-daemon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-http-daemon:6.15--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-http-daemon:6.16--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-http-daemon/6.15--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-http-daemon/6.15--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-http-daemon/6.16--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-http-daemon/6.16--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

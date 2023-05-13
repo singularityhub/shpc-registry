@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dart/container.yaml"
-updated_at: "2023-05-12 02:59:28.115377"
-latest: "1.4.6--h2ccddb4_2"
+updated_at: "2023-05-13 02:52:07.000020"
+latest: "1.4.6--h2ccddb4_3"
 container_url: "https://biocontainers.pro/tools/dart"
 aliases:
  - "bwt_index"
  - "dart"
 versions:
  - "1.4.6--h2ccddb4_2"
+ - "1.4.6--h2ccddb4_3"
 description: "shpc-registry automated BioContainers addition for dart"
-config: {"url": "https://biocontainers.pro/tools/dart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dart", "latest": {"1.4.6--h2ccddb4_2": "sha256:b614e86b5f3d13eecb280fba216d6a541ddd1a779ea727ce1b13a6d5287d477e"}, "tags": {"1.4.6--h2ccddb4_2": "sha256:b614e86b5f3d13eecb280fba216d6a541ddd1a779ea727ce1b13a6d5287d477e"}, "docker": "quay.io/biocontainers/dart", "aliases": {"bwt_index": "/usr/local/bin/bwt_index", "dart": "/usr/local/bin/dart"}}
+config: {"url": "https://biocontainers.pro/tools/dart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dart", "latest": {"1.4.6--h2ccddb4_3": "sha256:f56bf61e8fe395b415d39e5612ffd42bb36d95a90fa0a05ad7ad86121a797e33"}, "tags": {"1.4.6--h2ccddb4_2": "sha256:b614e86b5f3d13eecb280fba216d6a541ddd1a779ea727ce1b13a6d5287d477e", "1.4.6--h2ccddb4_3": "sha256:f56bf61e8fe395b415d39e5612ffd42bb36d95a90fa0a05ad7ad86121a797e33"}, "docker": "quay.io/biocontainers/dart", "aliases": {"bwt_index": "/usr/local/bin/bwt_index", "dart": "/usr/local/bin/dart"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dart.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dart
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dart:1.4.6--h2ccddb4_2
+$ shpc install quay.io/biocontainers/dart:1.4.6--h2ccddb4_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dart/1.4.6--h2ccddb4_2
-$ module help quay.io/biocontainers/dart/1.4.6--h2ccddb4_2
+$ module load quay.io/biocontainers/dart/1.4.6--h2ccddb4_3
+$ module help quay.io/biocontainers/dart/1.4.6--h2ccddb4_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

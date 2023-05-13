@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-heap-simple-xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-heap-simple-xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-heap-simple-xs/container.yaml"
-updated_at: "2023-05-12 02:40:01.208978"
-latest: "0.10--pl5321hec16e2b_4"
+updated_at: "2023-05-13 02:37:17.553177"
+latest: "0.10--pl5321hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/perl-heap-simple-xs"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.10--pl5321hec16e2b_4"
+ - "0.10--pl5321hec16e2b_5"
 description: "shpc-registry automated BioContainers addition for perl-heap-simple-xs"
-config: {"url": "https://biocontainers.pro/tools/perl-heap-simple-xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-heap-simple-xs", "latest": {"0.10--pl5321hec16e2b_4": "sha256:3cd2ebbc9b5715b2c8ae033258ed692d11ffa0c6f2fe579a03861f8063a8c6f0"}, "tags": {"0.10--pl5321hec16e2b_4": "sha256:3cd2ebbc9b5715b2c8ae033258ed692d11ffa0c6f2fe579a03861f8063a8c6f0"}, "docker": "quay.io/biocontainers/perl-heap-simple-xs", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-heap-simple-xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-heap-simple-xs", "latest": {"0.10--pl5321hec16e2b_5": "sha256:a6f0de1a492fcf4a57a987033e0d31f1395e096b1a8fdd55050983f5af9f5c4a"}, "tags": {"0.10--pl5321hec16e2b_4": "sha256:3cd2ebbc9b5715b2c8ae033258ed692d11ffa0c6f2fe579a03861f8063a8c6f0", "0.10--pl5321hec16e2b_5": "sha256:a6f0de1a492fcf4a57a987033e0d31f1395e096b1a8fdd55050983f5af9f5c4a"}, "docker": "quay.io/biocontainers/perl-heap-simple-xs", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-heap-simple-xs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-heap-simple-xs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-heap-simple-xs:0.10--pl5321hec16e2b_4
+$ shpc install quay.io/biocontainers/perl-heap-simple-xs:0.10--pl5321hec16e2b_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-heap-simple-xs/0.10--pl5321hec16e2b_4
-$ module help quay.io/biocontainers/perl-heap-simple-xs/0.10--pl5321hec16e2b_4
+$ module load quay.io/biocontainers/perl-heap-simple-xs/0.10--pl5321hec16e2b_5
+$ module help quay.io/biocontainers/perl-heap-simple-xs/0.10--pl5321hec16e2b_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
