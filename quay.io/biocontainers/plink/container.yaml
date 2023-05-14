@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/plink
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for plink
 latest:
-  1.90b6.21--hec16e2b_3: sha256:9f77ca902366073cda803e2b1266010ff57fc3bc1d07c084ed8f97a9e4827bde
+  1.90b6.21--hec16e2b_4: sha256:bdccab437af505633bf1bc259e587493585b1899d055dc78a5db66aac3c2c2fa
 tags:
   1.90b6.21--hec16e2b_2: sha256:5c07df8983b120774e6d0dea8a32aa3ec44f7ee75b0438af038eb8f36acdc8c0
   1.90b6.21--hec16e2b_3: sha256:9f77ca902366073cda803e2b1266010ff57fc3bc1d07c084ed8f97a9e4827bde
+  1.90b6.21--hec16e2b_4: sha256:bdccab437af505633bf1bc259e587493585b1899d055dc78a5db66aac3c2c2fa
 docker: quay.io/biocontainers/plink

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ncbi-datasets-cli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbi-datasets-cli
 latest:
-  13.14.0: sha256:03bff7f6d75ef7fb00839fb9ab9a5afbe13465905274a1fd4bc2e365ed00338f
+  14.26.0: sha256:599d42c3a759c2a4a1425d42c1b65c6dd8d4b4e4b83b44cf12d5fce147f8bf9b
 tags:
   13.14.0: sha256:03bff7f6d75ef7fb00839fb9ab9a5afbe13465905274a1fd4bc2e365ed00338f
+  14.26.0: sha256:599d42c3a759c2a4a1425d42c1b65c6dd8d4b4e4b83b44cf12d5fce147f8bf9b
 docker: quay.io/biocontainers/ncbi-datasets-cli
 aliases:
   dataformat: /usr/local/bin/dataformat

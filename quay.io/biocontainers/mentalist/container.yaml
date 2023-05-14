@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mentalist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mentalist
 latest:
-  0.2.4--hec16e2b_5: sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009
+  0.2.4--hec16e2b_6: sha256:633c9c7dd3864ef575fbd6464d9c6418c78686379c938e3c614be424eddc1f9b
 tags:
   0.2.4--hec16e2b_5: sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009
+  0.2.4--hec16e2b_6: sha256:633c9c7dd3864ef575fbd6464d9c6418c78686379c938e3c614be424eddc1f9b
 docker: quay.io/biocontainers/mentalist
 aliases:
   MentaLiST.jl: /usr/local/bin/MentaLiST.jl

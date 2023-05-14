@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/abundancebin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abundancebin
 latest:
-  1.0.1--h9f5acd7_4: sha256:e76410ccbe886ff5c22e61568f392b8bcbd4f7afc05afd2b82dca10ce3569623
+  1.0.1--h9f5acd7_5: sha256:df5f713e91203566a88789a7ea9a600d92c57c6e9224a6753e02f1014ff7d231
 tags:
   1.0.1--h9f5acd7_4: sha256:e76410ccbe886ff5c22e61568f392b8bcbd4f7afc05afd2b82dca10ce3569623
+  1.0.1--h9f5acd7_5: sha256:df5f713e91203566a88789a7ea9a600d92c57c6e9224a6753e02f1014ff7d231
 docker: quay.io/biocontainers/abundancebin
 aliases:
   abundancebin: /usr/local/bin/abundancebin

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/linearpartition
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for linearpartition
 latest:
-  1.0--h9f5acd7_1: sha256:b8c63c72f7ef8928ff94f4fdbf374ccd254192df27b91c00e2d5493a0ead99df
+  1.0--h9f5acd7_2: sha256:b00d7525c1578a4e5795aa9112fa73c72468d265ca2858efcd74ab027c7e9234
 tags:
   1.0--h9f5acd7_1: sha256:b8c63c72f7ef8928ff94f4fdbf374ccd254192df27b91c00e2d5493a0ead99df
+  1.0--h9f5acd7_2: sha256:b00d7525c1578a4e5795aa9112fa73c72468d265ca2858efcd74ab027c7e9234
 docker: quay.io/biocontainers/linearpartition
 aliases:
   draw_heatmap: /usr/local/bin/draw_heatmap

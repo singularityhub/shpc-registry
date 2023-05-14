@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/polypolish
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for polypolish
 latest:
-  0.5.0--h87f3376_2: sha256:b404c83acb84c8a7bbcdc8a7e83af00e81de0d87a9d45528d4131ad57c0dd1cb
+  0.5.0--h87f3376_3: sha256:d81aa78d125ff2971620a000785e594d8da73ab3afda9ef4c7a6d40ca680ae6d
 tags:
   0.5.0--h87f3376_2: sha256:b404c83acb84c8a7bbcdc8a7e83af00e81de0d87a9d45528d4131ad57c0dd1cb
+  0.5.0--h87f3376_3: sha256:d81aa78d125ff2971620a000785e594d8da73ab3afda9ef4c7a6d40ca680ae6d
 docker: quay.io/biocontainers/polypolish
 aliases:
   polypolish: /usr/local/bin/polypolish

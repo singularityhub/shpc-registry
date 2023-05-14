@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/yacrd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for yacrd
 latest:
-  1.0.0--hc308579_0: sha256:aa06ab658ee12917d5be9406cd2f7d2f644079d5fcc27b17d28c73bb47780f9e
+  1.0.0--hc308579_1: sha256:8e6e4d501a72126dada2679a48b7d8f73640cf4565a60af981e2dc0116d4a790
 tags:
   1.0.0--hc308579_0: sha256:aa06ab658ee12917d5be9406cd2f7d2f644079d5fcc27b17d28c73bb47780f9e
+  1.0.0--hc308579_1: sha256:8e6e4d501a72126dada2679a48b7d8f73640cf4565a60af981e2dc0116d4a790
 docker: quay.io/biocontainers/yacrd
 aliases:
   yacrd: /usr/local/bin/yacrd

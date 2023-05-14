@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-padwalker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-padwalker
 latest:
-  2.5--pl5321h9f5acd7_1: sha256:24eeab9e13960ba2cd36c26ab16336747bf26da38f104d36f0e83de6d1ec4050
+  2.5--pl5321h9f5acd7_2: sha256:48759a891279a73296f88a0221290d0e44ec720905107dbda8f9f95da66afd0f
 tags:
   2.5--pl5321h9f5acd7_1: sha256:24eeab9e13960ba2cd36c26ab16336747bf26da38f104d36f0e83de6d1ec4050
+  2.5--pl5321h9f5acd7_2: sha256:48759a891279a73296f88a0221290d0e44ec720905107dbda8f9f95da66afd0f
 docker: quay.io/biocontainers/perl-padwalker
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fastme
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastme
 latest:
-  2.1.6.1--hec16e2b_1: sha256:c8d8a3ec03c7fb87f9dc0bd79bbca11dc409588d9f9e32d5fb9c9bad38e9df39
+  2.1.6.1--hec16e2b_2: sha256:34a4a0f31a024593d96a0da3d475539a180553f98272a16ff56eb4634a9622f3
 tags:
   2.1.6.1--hec16e2b_1: sha256:c8d8a3ec03c7fb87f9dc0bd79bbca11dc409588d9f9e32d5fb9c9bad38e9df39
+  2.1.6.1--hec16e2b_2: sha256:34a4a0f31a024593d96a0da3d475539a180553f98272a16ff56eb4634a9622f3
 docker: quay.io/biocontainers/fastme
 aliases:
   fastme: /usr/local/bin/fastme

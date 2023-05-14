@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rnahybrid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnahybrid
 latest:
-  2.1.2--hec16e2b_1: sha256:e504e8166c19d20e67584cfbcd01d6bf02d2cae9b5debbbbda4bf7d31e14fbe8
+  2.1.2--hec16e2b_2: sha256:56c0eaf1270fcbc01b0b7af7f9811c610557fcd414f774d93427bc79f3db5fbf
 tags:
   2.1.2--hec16e2b_1: sha256:e504e8166c19d20e67584cfbcd01d6bf02d2cae9b5debbbbda4bf7d31e14fbe8
+  2.1.2--hec16e2b_2: sha256:56c0eaf1270fcbc01b0b7af7f9811c610557fcd414f774d93427bc79f3db5fbf
 docker: quay.io/biocontainers/rnahybrid
 aliases:
   RNAcalibrate: /usr/local/bin/RNAcalibrate

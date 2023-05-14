@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fido
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fido
 latest:
-  1.0--h9f5acd7_4: sha256:fb93081e2598407c1b8f1867f1defa44ad54d274dfd7b00b1adaf680f6d3434f
+  1.0--h9f5acd7_5: sha256:f73a6450c9886e0e1c999ebae44b4fec4621206cfdda5d79777f5451cc93bba9
 tags:
   1.0--h9f5acd7_4: sha256:fb93081e2598407c1b8f1867f1defa44ad54d274dfd7b00b1adaf680f6d3434f
+  1.0--h9f5acd7_5: sha256:f73a6450c9886e0e1c999ebae44b4fec4621206cfdda5d79777f5451cc93bba9
 docker: quay.io/biocontainers/fido
 aliases:
   Fido: /usr/local/bin/Fido
