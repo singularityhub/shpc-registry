@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/cryfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cryfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cryfa/container.yaml"
-updated_at: "2023-05-13 02:40:11.249063"
-latest: "20.04--h9f5acd7_0"
+updated_at: "2023-05-14 02:43:59.705073"
+latest: "20.04--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/cryfa"
 aliases:
  - "cryfa"
  - "keygen"
 versions:
  - "20.04--h9f5acd7_0"
+ - "20.04--h9f5acd7_1"
 description: "shpc-registry automated BioContainers addition for cryfa"
-config: {"url": "https://biocontainers.pro/tools/cryfa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cryfa", "latest": {"20.04--h9f5acd7_0": "sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20"}, "tags": {"20.04--h9f5acd7_0": "sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20"}, "docker": "quay.io/biocontainers/cryfa", "aliases": {"cryfa": "/usr/local/bin/cryfa", "keygen": "/usr/local/bin/keygen"}}
+config: {"url": "https://biocontainers.pro/tools/cryfa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cryfa", "latest": {"20.04--h9f5acd7_1": "sha256:b35791684e15295a3e7f3854ac637ff722c1a1724fd2268e821c332e1bd541ee"}, "tags": {"20.04--h9f5acd7_0": "sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20", "20.04--h9f5acd7_1": "sha256:b35791684e15295a3e7f3854ac637ff722c1a1724fd2268e821c332e1bd541ee"}, "docker": "quay.io/biocontainers/cryfa", "aliases": {"cryfa": "/usr/local/bin/cryfa", "keygen": "/usr/local/bin/keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cryfa.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/cryfa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cryfa:20.04--h9f5acd7_0
+$ shpc install quay.io/biocontainers/cryfa:20.04--h9f5acd7_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cryfa/20.04--h9f5acd7_0
-$ module help quay.io/biocontainers/cryfa/20.04--h9f5acd7_0
+$ module load quay.io/biocontainers/cryfa/20.04--h9f5acd7_1
+$ module help quay.io/biocontainers/cryfa/20.04--h9f5acd7_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

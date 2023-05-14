@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/variantbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variantbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variantbam/container.yaml"
-updated_at: "2023-05-13 02:57:16.307462"
-latest: "1.4.4a--h468198e_6"
+updated_at: "2023-05-14 03:01:27.079619"
+latest: "1.4.4a--h468198e_7"
 container_url: "https://biocontainers.pro/tools/variantbam"
 aliases:
  - "variant"
 versions:
  - "1.4.4a--h468198e_6"
+ - "1.4.4a--h468198e_7"
 description: "shpc-registry automated BioContainers addition for variantbam"
-config: {"url": "https://biocontainers.pro/tools/variantbam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variantbam", "latest": {"1.4.4a--h468198e_6": "sha256:9df194aa4587d56ce8ece6926ade793be0095947f7a7c3e791b1969a295422cd"}, "tags": {"1.4.4a--h468198e_6": "sha256:9df194aa4587d56ce8ece6926ade793be0095947f7a7c3e791b1969a295422cd"}, "docker": "quay.io/biocontainers/variantbam", "aliases": {"variant": "/usr/local/bin/variant"}}
+config: {"url": "https://biocontainers.pro/tools/variantbam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variantbam", "latest": {"1.4.4a--h468198e_7": "sha256:f2c5cf962edf6ba89963831a083be2004f0800f060c936e269d2d85cf44819d0"}, "tags": {"1.4.4a--h468198e_6": "sha256:9df194aa4587d56ce8ece6926ade793be0095947f7a7c3e791b1969a295422cd", "1.4.4a--h468198e_7": "sha256:f2c5cf962edf6ba89963831a083be2004f0800f060c936e269d2d85cf44819d0"}, "docker": "quay.io/biocontainers/variantbam", "aliases": {"variant": "/usr/local/bin/variant"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/variantbam.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/variantbam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/variantbam:1.4.4a--h468198e_6
+$ shpc install quay.io/biocontainers/variantbam:1.4.4a--h468198e_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/variantbam/1.4.4a--h468198e_6
-$ module help quay.io/biocontainers/variantbam/1.4.4a--h468198e_6
+$ module load quay.io/biocontainers/variantbam/1.4.4a--h468198e_7
+$ module help quay.io/biocontainers/variantbam/1.4.4a--h468198e_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

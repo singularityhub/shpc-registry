@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/geofetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geofetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geofetch/container.yaml"
-updated_at: "2023-05-13 03:12:40.482043"
-latest: "0.12.1--pyh7cba7a3_0"
+updated_at: "2023-05-14 03:17:07.520709"
+latest: "0.12.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/geofetch"
 aliases:
  - "f2py3.11"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "0.12.0--pyh7cba7a3_0"
  - "0.12.1--pyh7cba7a3_0"
+ - "0.12.2--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for geofetch"
-config: {"url": "https://biocontainers.pro/tools/geofetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geofetch", "latest": {"0.12.1--pyh7cba7a3_0": "sha256:b279b8bbd2e86aa2d4f9ae6988967174586d6f4072723050276e8433a60c66c5"}, "tags": {"0.12.0--pyh7cba7a3_0": "sha256:9518cba6862d92fc62ebb645b7dd21d4a155606348b92857289c72c4a11139d3", "0.12.1--pyh7cba7a3_0": "sha256:b279b8bbd2e86aa2d4f9ae6988967174586d6f4072723050276e8433a60c66c5"}, "docker": "quay.io/biocontainers/geofetch", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "geofetch": "/usr/local/bin/geofetch", "markdown-it": "/usr/local/bin/markdown-it", "sraconvert": "/usr/local/bin/sraconvert", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/geofetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geofetch", "latest": {"0.12.2--pyh7cba7a3_0": "sha256:3ad10795812fcb36434b6fea3a6ceb9bca3a8f12ea4e1951427c8e3a49965dde"}, "tags": {"0.12.0--pyh7cba7a3_0": "sha256:9518cba6862d92fc62ebb645b7dd21d4a155606348b92857289c72c4a11139d3", "0.12.1--pyh7cba7a3_0": "sha256:b279b8bbd2e86aa2d4f9ae6988967174586d6f4072723050276e8433a60c66c5", "0.12.2--pyh7cba7a3_0": "sha256:3ad10795812fcb36434b6fea3a6ceb9bca3a8f12ea4e1951427c8e3a49965dde"}, "docker": "quay.io/biocontainers/geofetch", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "geofetch": "/usr/local/bin/geofetch", "markdown-it": "/usr/local/bin/markdown-it", "sraconvert": "/usr/local/bin/sraconvert", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geofetch.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/geofetch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/geofetch:0.12.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/geofetch:0.12.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/geofetch/0.12.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/geofetch/0.12.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/geofetch/0.12.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/geofetch/0.12.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

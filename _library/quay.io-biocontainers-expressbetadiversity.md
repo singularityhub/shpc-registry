@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/expressbetadiversity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expressbetadiversity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expressbetadiversity/container.yaml"
-updated_at: "2023-05-13 03:06:54.315218"
-latest: "1.0.10--h9f5acd7_3"
+updated_at: "2023-05-14 03:11:18.385437"
+latest: "1.0.10--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/expressbetadiversity"
 aliases:
  - "AbstractPlot.py"
@@ -25,8 +25,9 @@ aliases:
  - "gif2webp"
 versions:
  - "1.0.10--h9f5acd7_3"
+ - "1.0.10--h9f5acd7_4"
 description: "shpc-registry automated BioContainers addition for expressbetadiversity"
-config: {"url": "https://biocontainers.pro/tools/expressbetadiversity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expressbetadiversity", "latest": {"1.0.10--h9f5acd7_3": "sha256:76a28028846c5b78d430ff2646a91fa980827269c99c22b15fd791eff6c00d90"}, "tags": {"1.0.10--h9f5acd7_3": "sha256:76a28028846c5b78d430ff2646a91fa980827269c99c22b15fd791eff6c00d90"}, "docker": "quay.io/biocontainers/expressbetadiversity", "aliases": {"AbstractPlot.py": "/usr/local/bin/AbstractPlot.py", "ExpressBetaDiversity": "/usr/local/bin/ExpressBetaDiversity", "convertToEBD.py": "/usr/local/bin/convertToEBD.py", "convertToFullMatrix.py": "/usr/local/bin/convertToFullMatrix.py", "pcoaPlot.py": "/usr/local/bin/pcoaPlot.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
+config: {"url": "https://biocontainers.pro/tools/expressbetadiversity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expressbetadiversity", "latest": {"1.0.10--h9f5acd7_4": "sha256:eb4e57f8438c9150145dd462e1eff69ca020b5160840a71d73b1a95035f30837"}, "tags": {"1.0.10--h9f5acd7_3": "sha256:76a28028846c5b78d430ff2646a91fa980827269c99c22b15fd791eff6c00d90", "1.0.10--h9f5acd7_4": "sha256:eb4e57f8438c9150145dd462e1eff69ca020b5160840a71d73b1a95035f30837"}, "docker": "quay.io/biocontainers/expressbetadiversity", "aliases": {"AbstractPlot.py": "/usr/local/bin/AbstractPlot.py", "ExpressBetaDiversity": "/usr/local/bin/ExpressBetaDiversity", "convertToEBD.py": "/usr/local/bin/convertToEBD.py", "convertToFullMatrix.py": "/usr/local/bin/convertToFullMatrix.py", "pcoaPlot.py": "/usr/local/bin/pcoaPlot.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expressbetadiversity.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/expressbetadiversity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/expressbetadiversity:1.0.10--h9f5acd7_3
+$ shpc install quay.io/biocontainers/expressbetadiversity:1.0.10--h9f5acd7_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/expressbetadiversity/1.0.10--h9f5acd7_3
-$ module help quay.io/biocontainers/expressbetadiversity/1.0.10--h9f5acd7_3
+$ module load quay.io/biocontainers/expressbetadiversity/1.0.10--h9f5acd7_4
+$ module help quay.io/biocontainers/expressbetadiversity/1.0.10--h9f5acd7_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

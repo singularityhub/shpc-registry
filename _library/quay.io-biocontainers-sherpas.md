@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sherpas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sherpas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sherpas/container.yaml"
-updated_at: "2023-05-13 02:50:47.716074"
-latest: "1.0.2--h2df963e_2"
+updated_at: "2023-05-14 02:54:49.236463"
+latest: "1.0.2--h2df963e_3"
 container_url: "https://biocontainers.pro/tools/sherpas"
 aliases:
  - "SHERPAS"
 versions:
  - "1.0.2--h2df963e_2"
+ - "1.0.2--h2df963e_3"
 description: "shpc-registry automated BioContainers addition for sherpas"
-config: {"url": "https://biocontainers.pro/tools/sherpas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sherpas", "latest": {"1.0.2--h2df963e_2": "sha256:33063490cbf9298117682f7960e9c98d39313fd5eedd3af74c953b72c838d83b"}, "tags": {"1.0.2--h2df963e_2": "sha256:33063490cbf9298117682f7960e9c98d39313fd5eedd3af74c953b72c838d83b"}, "docker": "quay.io/biocontainers/sherpas", "aliases": {"SHERPAS": "/usr/local/bin/SHERPAS"}}
+config: {"url": "https://biocontainers.pro/tools/sherpas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sherpas", "latest": {"1.0.2--h2df963e_3": "sha256:79e346d8b5274eef1555e0a9a95e29d8fae8ab91c14b97f099a54df28e57d544"}, "tags": {"1.0.2--h2df963e_2": "sha256:33063490cbf9298117682f7960e9c98d39313fd5eedd3af74c953b72c838d83b", "1.0.2--h2df963e_3": "sha256:79e346d8b5274eef1555e0a9a95e29d8fae8ab91c14b97f099a54df28e57d544"}, "docker": "quay.io/biocontainers/sherpas", "aliases": {"SHERPAS": "/usr/local/bin/SHERPAS"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sherpas.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sherpas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sherpas:1.0.2--h2df963e_2
+$ shpc install quay.io/biocontainers/sherpas:1.0.2--h2df963e_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sherpas/1.0.2--h2df963e_2
-$ module help quay.io/biocontainers/sherpas/1.0.2--h2df963e_2
+$ module load quay.io/biocontainers/sherpas/1.0.2--h2df963e_3
+$ module help quay.io/biocontainers/sherpas/1.0.2--h2df963e_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

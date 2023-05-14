@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaplatanus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaplatanus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaplatanus/container.yaml"
-updated_at: "2023-05-13 02:45:27.840935"
+updated_at: "2023-05-14 02:49:22.866493"
 latest: "1.3.1--hf1761c0_0"
 container_url: "https://biocontainers.pro/tools/metaplatanus"
 aliases:

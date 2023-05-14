@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mtsv-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtsv-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtsv-tools/container.yaml"
-updated_at: "2023-05-13 03:02:48.828399"
-latest: "2.0.2--hec16e2b_1"
+updated_at: "2023-05-14 03:07:07.894484"
+latest: "2.0.2--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/mtsv-tools"
 aliases:
  - "mtsv-binner"
@@ -16,8 +16,9 @@ aliases:
  - "mtsv-readprep"
 versions:
  - "2.0.2--hec16e2b_1"
+ - "2.0.2--hec16e2b_2"
 description: "shpc-registry automated BioContainers addition for mtsv-tools"
-config: {"url": "https://biocontainers.pro/tools/mtsv-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtsv-tools", "latest": {"2.0.2--hec16e2b_1": "sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13"}, "tags": {"2.0.2--hec16e2b_1": "sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13"}, "docker": "quay.io/biocontainers/mtsv-tools", "aliases": {"mtsv-binner": "/usr/local/bin/mtsv-binner", "mtsv-build": "/usr/local/bin/mtsv-build", "mtsv-chunk": "/usr/local/bin/mtsv-chunk", "mtsv-collapse": "/usr/local/bin/mtsv-collapse", "mtsv-collapse-old": "/usr/local/bin/mtsv-collapse-old", "mtsv-readprep": "/usr/local/bin/mtsv-readprep"}}
+config: {"url": "https://biocontainers.pro/tools/mtsv-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtsv-tools", "latest": {"2.0.2--hec16e2b_2": "sha256:0128d05ea0ede67a16a9ed71ddc3bf42f6480a31548dc69a63f6714164479fd2"}, "tags": {"2.0.2--hec16e2b_1": "sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13", "2.0.2--hec16e2b_2": "sha256:0128d05ea0ede67a16a9ed71ddc3bf42f6480a31548dc69a63f6714164479fd2"}, "docker": "quay.io/biocontainers/mtsv-tools", "aliases": {"mtsv-binner": "/usr/local/bin/mtsv-binner", "mtsv-build": "/usr/local/bin/mtsv-build", "mtsv-chunk": "/usr/local/bin/mtsv-chunk", "mtsv-collapse": "/usr/local/bin/mtsv-collapse", "mtsv-collapse-old": "/usr/local/bin/mtsv-collapse-old", "mtsv-readprep": "/usr/local/bin/mtsv-readprep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mtsv-tools.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/mtsv-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mtsv-tools:2.0.2--hec16e2b_1
+$ shpc install quay.io/biocontainers/mtsv-tools:2.0.2--hec16e2b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mtsv-tools/2.0.2--hec16e2b_1
-$ module help quay.io/biocontainers/mtsv-tools/2.0.2--hec16e2b_1
+$ module load quay.io/biocontainers/mtsv-tools/2.0.2--hec16e2b_2
+$ module help quay.io/biocontainers/mtsv-tools/2.0.2--hec16e2b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

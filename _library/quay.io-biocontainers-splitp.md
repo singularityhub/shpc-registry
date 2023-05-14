@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/splitp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitp/container.yaml"
-updated_at: "2023-05-13 02:57:22.944101"
-latest: "0.1.0--h9f5acd7_1"
+updated_at: "2023-05-14 03:01:33.872283"
+latest: "0.1.0--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/splitp"
 aliases:
  - "splitp"
 versions:
  - "0.1.0--h9f5acd7_1"
+ - "0.1.0--h9f5acd7_2"
 description: "singularity registry hpc automated addition for splitp"
-config: {"url": "https://biocontainers.pro/tools/splitp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitp", "latest": {"0.1.0--h9f5acd7_1": "sha256:55edf2f66f0a3f01074842a7a4a476b5e10628b87dde671200ed1be4e5d1cc6c"}, "tags": {"0.1.0--h9f5acd7_1": "sha256:55edf2f66f0a3f01074842a7a4a476b5e10628b87dde671200ed1be4e5d1cc6c"}, "docker": "quay.io/biocontainers/splitp", "aliases": {"splitp": "/usr/local/bin/splitp"}}
+config: {"url": "https://biocontainers.pro/tools/splitp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitp", "latest": {"0.1.0--h9f5acd7_2": "sha256:b154b9166d56d0a48edd10112465871bb6ebe378635d42c3b260a97c33181694"}, "tags": {"0.1.0--h9f5acd7_1": "sha256:55edf2f66f0a3f01074842a7a4a476b5e10628b87dde671200ed1be4e5d1cc6c", "0.1.0--h9f5acd7_2": "sha256:b154b9166d56d0a48edd10112465871bb6ebe378635d42c3b260a97c33181694"}, "docker": "quay.io/biocontainers/splitp", "aliases": {"splitp": "/usr/local/bin/splitp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/splitp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/splitp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/splitp:0.1.0--h9f5acd7_1
+$ shpc install quay.io/biocontainers/splitp:0.1.0--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/splitp/0.1.0--h9f5acd7_1
-$ module help quay.io/biocontainers/splitp/0.1.0--h9f5acd7_1
+$ module load quay.io/biocontainers/splitp/0.1.0--h9f5acd7_2
+$ module help quay.io/biocontainers/splitp/0.1.0--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

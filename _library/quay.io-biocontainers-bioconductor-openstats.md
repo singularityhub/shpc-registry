@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-openstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-openstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-openstats/container.yaml"
-updated_at: "2023-05-13 02:56:28.918692"
+updated_at: "2023-05-14 03:00:38.461434"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-openstats"
 aliases:

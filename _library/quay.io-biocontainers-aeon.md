@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aeon/container.yaml"
-updated_at: "2023-05-13 02:42:59.726472"
-latest: "0.1.1--py39h3b2373f_0"
+updated_at: "2023-05-14 02:46:51.534654"
+latest: "0.1.1--py39h3b2373f_1"
 container_url: "https://biocontainers.pro/tools/aeon"
 aliases:
  - "2to3-3.9"
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1.1--py39h3b2373f_0"
+ - "0.1.1--py39h3b2373f_1"
 description: "singularity registry hpc automated addition for aeon"
-config: {"url": "https://biocontainers.pro/tools/aeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aeon", "latest": {"0.1.1--py39h3b2373f_0": "sha256:947800f8b7cbccf4e0620bd09707dfe3878b0335a4d0a70753fdf7846985b0a7"}, "tags": {"0.1.1--py39h3b2373f_0": "sha256:947800f8b7cbccf4e0620bd09707dfe3878b0335a4d0a70753fdf7846985b0a7"}, "docker": "quay.io/biocontainers/aeon", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/aeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aeon", "latest": {"0.1.1--py39h3b2373f_1": "sha256:ce5a017491aaf37bda3c01498d3ab05c808f4d3295521daa584f444bea3e834c"}, "tags": {"0.1.1--py39h3b2373f_0": "sha256:947800f8b7cbccf4e0620bd09707dfe3878b0335a4d0a70753fdf7846985b0a7", "0.1.1--py39h3b2373f_1": "sha256:ce5a017491aaf37bda3c01498d3ab05c808f4d3295521daa584f444bea3e834c"}, "docker": "quay.io/biocontainers/aeon", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aeon.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/aeon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aeon:0.1.1--py39h3b2373f_0
+$ shpc install quay.io/biocontainers/aeon:0.1.1--py39h3b2373f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aeon/0.1.1--py39h3b2373f_0
-$ module help quay.io/biocontainers/aeon/0.1.1--py39h3b2373f_0
+$ module load quay.io/biocontainers/aeon/0.1.1--py39h3b2373f_1
+$ module help quay.io/biocontainers/aeon/0.1.1--py39h3b2373f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

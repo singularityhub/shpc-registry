@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmerstream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmerstream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmerstream/container.yaml"
-updated_at: "2023-05-13 03:00:11.287898"
-latest: "1.1--hd03093a_3"
+updated_at: "2023-05-14 03:04:26.221258"
+latest: "1.1--hd03093a_4"
 container_url: "https://biocontainers.pro/tools/kmerstream"
 aliases:
  - "KmerStream"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.1--hd03093a_3"
+ - "1.1--hd03093a_4"
 description: "shpc-registry automated BioContainers addition for kmerstream"
-config: {"url": "https://biocontainers.pro/tools/kmerstream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmerstream", "latest": {"1.1--hd03093a_3": "sha256:0e23b0fd1581335b41e230e6acedaafb6576d8187b75021da9b7a27c5edbc596"}, "tags": {"1.1--hd03093a_3": "sha256:0e23b0fd1581335b41e230e6acedaafb6576d8187b75021da9b7a27c5edbc596"}, "docker": "quay.io/biocontainers/kmerstream", "aliases": {"KmerStream": "/usr/local/bin/KmerStream", "KmerStreamEstimate.py": "/usr/local/bin/KmerStreamEstimate.py", "KmerStreamJoin": "/usr/local/bin/KmerStreamJoin", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/kmerstream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmerstream", "latest": {"1.1--hd03093a_4": "sha256:5eac6f283be6d2176b24ce61aaf9e56f9ed4650bce2df5e7ceab954926a5ba42"}, "tags": {"1.1--hd03093a_3": "sha256:0e23b0fd1581335b41e230e6acedaafb6576d8187b75021da9b7a27c5edbc596", "1.1--hd03093a_4": "sha256:5eac6f283be6d2176b24ce61aaf9e56f9ed4650bce2df5e7ceab954926a5ba42"}, "docker": "quay.io/biocontainers/kmerstream", "aliases": {"KmerStream": "/usr/local/bin/KmerStream", "KmerStreamEstimate.py": "/usr/local/bin/KmerStreamEstimate.py", "KmerStreamJoin": "/usr/local/bin/KmerStreamJoin", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmerstream.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/kmerstream
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmerstream:1.1--hd03093a_3
+$ shpc install quay.io/biocontainers/kmerstream:1.1--hd03093a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmerstream/1.1--hd03093a_3
-$ module help quay.io/biocontainers/kmerstream/1.1--hd03093a_3
+$ module load quay.io/biocontainers/kmerstream/1.1--hd03093a_4
+$ module help quay.io/biocontainers/kmerstream/1.1--hd03093a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

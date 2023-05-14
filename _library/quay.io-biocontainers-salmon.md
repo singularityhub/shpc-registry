@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/salmon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salmon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salmon/container.yaml"
-updated_at: "2023-05-13 02:54:09.140434"
-latest: "1.10.1--h7e5ed60_0"
+updated_at: "2023-05-14 02:58:15.295595"
+latest: "1.10.1--h7e5ed60_1"
 container_url: "https://biocontainers.pro/tools/salmon"
 aliases:
  - "salmon"
@@ -17,8 +17,9 @@ versions:
  - "1.8.0--h7e5ed60_1"
  - "1.9.0--h7e5ed60_1"
  - "1.10.1--h7e5ed60_0"
+ - "1.10.1--h7e5ed60_1"
 description: "shpc-registry automated BioContainers addition for salmon"
-config: {"url": "https://biocontainers.pro/tools/salmon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for salmon", "latest": {"1.10.1--h7e5ed60_0": "sha256:4a7c354e941f5f564cc814a34924b98e7a2489d76ea0543602b62ce2a83c3bf3"}, "tags": {"1.4.0--h84f40af_1": "sha256:bad1f9d2ffeac08bf7087d706634f7724f978c4ba6f9c26eddca5aad004c8e4c", "1.5.2--h84f40af_0": "sha256:4ae09a47788f08317bd2f758ac4c8804c9e87d88caf500c449e18ac4794d0332", "1.6.0--h84f40af_0": "sha256:e1da9c3e2abe7c1cd36062b9fa13c336e69ee3dd9e1f285fb3736fed4bdf7b48", "1.7.0--h10bb6b4_1": "sha256:4b42a8bf872393e5207f101c2650dbd6a45f7bfde58ae68211e75e0aa668db6e", "1.8.0--h7e5ed60_1": "sha256:a9cccd97c393306641308f208c4c3ed1f20aade9aab44361da315ae286a01cee", "1.9.0--h7e5ed60_1": "sha256:e56485bfa26913aebaa6351b2ddb1308d0dc0352bf15e7f5431bc58ba5465809", "1.10.1--h7e5ed60_0": "sha256:4a7c354e941f5f564cc814a34924b98e7a2489d76ea0543602b62ce2a83c3bf3"}, "docker": "quay.io/biocontainers/salmon", "aliases": {"salmon": "/usr/local/bin/salmon"}}
+config: {"url": "https://biocontainers.pro/tools/salmon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for salmon", "latest": {"1.10.1--h7e5ed60_1": "sha256:afd364e0927456558d3717030e11075852442c847e97658a6ba8489715d76b82"}, "tags": {"1.4.0--h84f40af_1": "sha256:bad1f9d2ffeac08bf7087d706634f7724f978c4ba6f9c26eddca5aad004c8e4c", "1.5.2--h84f40af_0": "sha256:4ae09a47788f08317bd2f758ac4c8804c9e87d88caf500c449e18ac4794d0332", "1.6.0--h84f40af_0": "sha256:e1da9c3e2abe7c1cd36062b9fa13c336e69ee3dd9e1f285fb3736fed4bdf7b48", "1.7.0--h10bb6b4_1": "sha256:4b42a8bf872393e5207f101c2650dbd6a45f7bfde58ae68211e75e0aa668db6e", "1.8.0--h7e5ed60_1": "sha256:a9cccd97c393306641308f208c4c3ed1f20aade9aab44361da315ae286a01cee", "1.9.0--h7e5ed60_1": "sha256:e56485bfa26913aebaa6351b2ddb1308d0dc0352bf15e7f5431bc58ba5465809", "1.10.1--h7e5ed60_0": "sha256:4a7c354e941f5f564cc814a34924b98e7a2489d76ea0543602b62ce2a83c3bf3", "1.10.1--h7e5ed60_1": "sha256:afd364e0927456558d3717030e11075852442c847e97658a6ba8489715d76b82"}, "docker": "quay.io/biocontainers/salmon", "aliases": {"salmon": "/usr/local/bin/salmon"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/salmon.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/salmon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/salmon:1.10.1--h7e5ed60_0
+$ shpc install quay.io/biocontainers/salmon:1.10.1--h7e5ed60_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/salmon/1.10.1--h7e5ed60_0
-$ module help quay.io/biocontainers/salmon/1.10.1--h7e5ed60_0
+$ module load quay.io/biocontainers/salmon/1.10.1--h7e5ed60_1
+$ module help quay.io/biocontainers/salmon/1.10.1--h7e5ed60_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

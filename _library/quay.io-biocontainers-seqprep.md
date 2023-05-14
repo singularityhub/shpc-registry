@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/seqprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqprep/container.yaml"
-updated_at: "2023-05-13 02:34:37.194855"
-latest: "1.3.2--h7132678_6"
+updated_at: "2023-05-14 02:38:20.002590"
+latest: "1.3.2--h7132678_7"
 container_url: "https://biocontainers.pro/tools/seqprep"
 aliases:
  - "SeqPrep"
 versions:
  - "1.3.2--h7132678_6"
+ - "1.3.2--h7132678_7"
 description: "shpc-registry automated BioContainers addition for seqprep"
-config: {"url": "https://biocontainers.pro/tools/seqprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqprep", "latest": {"1.3.2--h7132678_6": "sha256:621b50d9033079d3bbce7713649c5ab86cbe84e4be6ac6b6dddeabbcc8efb600"}, "tags": {"1.3.2--h7132678_6": "sha256:621b50d9033079d3bbce7713649c5ab86cbe84e4be6ac6b6dddeabbcc8efb600"}, "docker": "quay.io/biocontainers/seqprep", "aliases": {"SeqPrep": "/usr/local/bin/SeqPrep"}}
+config: {"url": "https://biocontainers.pro/tools/seqprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqprep", "latest": {"1.3.2--h7132678_7": "sha256:3eea931b23a7c9d2b8bec097e002f0c33cabef51cb32ad83cb218449a8fffed8"}, "tags": {"1.3.2--h7132678_6": "sha256:621b50d9033079d3bbce7713649c5ab86cbe84e4be6ac6b6dddeabbcc8efb600", "1.3.2--h7132678_7": "sha256:3eea931b23a7c9d2b8bec097e002f0c33cabef51cb32ad83cb218449a8fffed8"}, "docker": "quay.io/biocontainers/seqprep", "aliases": {"SeqPrep": "/usr/local/bin/SeqPrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqprep.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/seqprep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqprep:1.3.2--h7132678_6
+$ shpc install quay.io/biocontainers/seqprep:1.3.2--h7132678_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqprep/1.3.2--h7132678_6
-$ module help quay.io/biocontainers/seqprep/1.3.2--h7132678_6
+$ module load quay.io/biocontainers/seqprep/1.3.2--h7132678_7
+$ module help quay.io/biocontainers/seqprep/1.3.2--h7132678_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

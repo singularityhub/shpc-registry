@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/secedo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/secedo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/secedo/container.yaml"
-updated_at: "2023-05-13 02:44:36.182213"
-latest: "1.0.7--h2ac389b_1"
+updated_at: "2023-05-14 02:48:30.077932"
+latest: "1.0.7--h2ac389b_2"
 container_url: "https://biocontainers.pro/tools/secedo"
 aliases:
  - "pileup"
  - "secedo"
 versions:
  - "1.0.7--h2ac389b_1"
+ - "1.0.7--h2ac389b_2"
 description: "singularity registry hpc automated addition for secedo"
-config: {"url": "https://biocontainers.pro/tools/secedo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for secedo", "latest": {"1.0.7--h2ac389b_1": "sha256:e0d9ae2b4f01956d5e010976a767722a64bd9c6519cc96f07de10a36d69e21ab"}, "tags": {"1.0.7--h2ac389b_1": "sha256:e0d9ae2b4f01956d5e010976a767722a64bd9c6519cc96f07de10a36d69e21ab"}, "docker": "quay.io/biocontainers/secedo", "aliases": {"pileup": "/usr/local/bin/pileup", "secedo": "/usr/local/bin/secedo"}}
+config: {"url": "https://biocontainers.pro/tools/secedo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for secedo", "latest": {"1.0.7--h2ac389b_2": "sha256:e3cb12540afbd91887f8f1f7da2d726ae30b003b391d929838f85dcc5947a975"}, "tags": {"1.0.7--h2ac389b_1": "sha256:e0d9ae2b4f01956d5e010976a767722a64bd9c6519cc96f07de10a36d69e21ab", "1.0.7--h2ac389b_2": "sha256:e3cb12540afbd91887f8f1f7da2d726ae30b003b391d929838f85dcc5947a975"}, "docker": "quay.io/biocontainers/secedo", "aliases": {"pileup": "/usr/local/bin/pileup", "secedo": "/usr/local/bin/secedo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/secedo.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/secedo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/secedo:1.0.7--h2ac389b_1
+$ shpc install quay.io/biocontainers/secedo:1.0.7--h2ac389b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/secedo/1.0.7--h2ac389b_1
-$ module help quay.io/biocontainers/secedo/1.0.7--h2ac389b_1
+$ module load quay.io/biocontainers/secedo/1.0.7--h2ac389b_2
+$ module help quay.io/biocontainers/secedo/1.0.7--h2ac389b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gbmunge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbmunge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbmunge/container.yaml"
-updated_at: "2023-05-13 02:38:46.046210"
-latest: "2018.07.06--hec16e2b_4"
+updated_at: "2023-05-14 02:42:33.064083"
+latest: "2018.07.06--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/gbmunge"
 aliases:
  - "gbmunge"
 versions:
  - "2018.07.06--hec16e2b_4"
+ - "2018.07.06--hec16e2b_5"
 description: "shpc-registry automated BioContainers addition for gbmunge"
-config: {"url": "https://biocontainers.pro/tools/gbmunge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gbmunge", "latest": {"2018.07.06--hec16e2b_4": "sha256:818cc218ed20d40030152ff0e960f73e1dc026ad44342597e0d15d61c4de1bc5"}, "tags": {"2018.07.06--hec16e2b_4": "sha256:818cc218ed20d40030152ff0e960f73e1dc026ad44342597e0d15d61c4de1bc5"}, "docker": "quay.io/biocontainers/gbmunge", "aliases": {"gbmunge": "/usr/local/bin/gbmunge"}}
+config: {"url": "https://biocontainers.pro/tools/gbmunge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gbmunge", "latest": {"2018.07.06--hec16e2b_5": "sha256:6c5010b8807c5468811270a1ee3df3f7ad53699f9af31bf6a258ba4e848e9d1d"}, "tags": {"2018.07.06--hec16e2b_4": "sha256:818cc218ed20d40030152ff0e960f73e1dc026ad44342597e0d15d61c4de1bc5", "2018.07.06--hec16e2b_5": "sha256:6c5010b8807c5468811270a1ee3df3f7ad53699f9af31bf6a258ba4e848e9d1d"}, "docker": "quay.io/biocontainers/gbmunge", "aliases": {"gbmunge": "/usr/local/bin/gbmunge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gbmunge.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gbmunge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gbmunge:2018.07.06--hec16e2b_4
+$ shpc install quay.io/biocontainers/gbmunge:2018.07.06--hec16e2b_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gbmunge/2018.07.06--hec16e2b_4
-$ module help quay.io/biocontainers/gbmunge/2018.07.06--hec16e2b_4
+$ module load quay.io/biocontainers/gbmunge/2018.07.06--hec16e2b_5
+$ module help quay.io/biocontainers/gbmunge/2018.07.06--hec16e2b_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
