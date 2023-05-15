@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scmageck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmageck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmageck/container.yaml"
-updated_at: "2023-05-15 03:05:43.200210"
+updated_at: "2023-05-15 04:02:59.715322"
 latest: "1.9.1--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmageck"
 

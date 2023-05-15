@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgenome/container.yaml"
-updated_at: "2023-05-15 02:51:00.890888"
+updated_at: "2023-05-15 03:44:16.920925"
 latest: "1.3.1--h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/libgenome"
 

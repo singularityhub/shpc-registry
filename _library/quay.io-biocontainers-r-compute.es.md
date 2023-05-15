@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-compute.es"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-compute.es/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-compute.es/container.yaml"
-updated_at: "2023-05-15 03:17:57.028024"
+updated_at: "2023-05-15 04:18:35.816089"
 latest: "0.2_4--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-compute.es"
 aliases:
