@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-padwalker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-padwalker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-padwalker/container.yaml"
-updated_at: "2023-05-14 03:16:09.529861"
-latest: "2.5--pl5321h9f5acd7_1"
+updated_at: "2023-05-15 03:17:53.148644"
+latest: "2.5--pl5321h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/perl-padwalker"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "2.5--pl5321h9f5acd7_1"
+ - "2.5--pl5321h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for perl-padwalker"
-config: {"url": "https://biocontainers.pro/tools/perl-padwalker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-padwalker", "latest": {"2.5--pl5321h9f5acd7_1": "sha256:24eeab9e13960ba2cd36c26ab16336747bf26da38f104d36f0e83de6d1ec4050"}, "tags": {"2.5--pl5321h9f5acd7_1": "sha256:24eeab9e13960ba2cd36c26ab16336747bf26da38f104d36f0e83de6d1ec4050"}, "docker": "quay.io/biocontainers/perl-padwalker", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-padwalker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-padwalker", "latest": {"2.5--pl5321h9f5acd7_2": "sha256:48759a891279a73296f88a0221290d0e44ec720905107dbda8f9f95da66afd0f"}, "tags": {"2.5--pl5321h9f5acd7_1": "sha256:24eeab9e13960ba2cd36c26ab16336747bf26da38f104d36f0e83de6d1ec4050", "2.5--pl5321h9f5acd7_2": "sha256:48759a891279a73296f88a0221290d0e44ec720905107dbda8f9f95da66afd0f"}, "docker": "quay.io/biocontainers/perl-padwalker", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-padwalker.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-padwalker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-padwalker:2.5--pl5321h9f5acd7_1
+$ shpc install quay.io/biocontainers/perl-padwalker:2.5--pl5321h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-padwalker/2.5--pl5321h9f5acd7_1
-$ module help quay.io/biocontainers/perl-padwalker/2.5--pl5321h9f5acd7_1
+$ module load quay.io/biocontainers/perl-padwalker/2.5--pl5321h9f5acd7_2
+$ module help quay.io/biocontainers/perl-padwalker/2.5--pl5321h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vartrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartrix/container.yaml"
-updated_at: "2023-05-14 02:48:06.946406"
-latest: "1.1.22--hd11b1f6_1"
+updated_at: "2023-05-15 02:49:41.865592"
+latest: "1.1.22--hd11b1f6_2"
 container_url: "https://biocontainers.pro/tools/vartrix"
 aliases:
  - "vartrix"
 versions:
  - "1.1.22--hd11b1f6_1"
+ - "1.1.22--hd11b1f6_2"
 description: "shpc-registry automated BioContainers addition for vartrix"
-config: {"url": "https://biocontainers.pro/tools/vartrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vartrix", "latest": {"1.1.22--hd11b1f6_1": "sha256:8a2b494c0eb0afe4f0d77417e2cb8c9459b925e91c084f96df3ce84ba7ed4261"}, "tags": {"1.1.22--hd11b1f6_1": "sha256:8a2b494c0eb0afe4f0d77417e2cb8c9459b925e91c084f96df3ce84ba7ed4261"}, "docker": "quay.io/biocontainers/vartrix", "aliases": {"vartrix": "/usr/local/bin/vartrix"}}
+config: {"url": "https://biocontainers.pro/tools/vartrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vartrix", "latest": {"1.1.22--hd11b1f6_2": "sha256:eeb54bd52048d4934eb6603d9aac116ef536887f7445472f9c6ab67967f2a169"}, "tags": {"1.1.22--hd11b1f6_1": "sha256:8a2b494c0eb0afe4f0d77417e2cb8c9459b925e91c084f96df3ce84ba7ed4261", "1.1.22--hd11b1f6_2": "sha256:eeb54bd52048d4934eb6603d9aac116ef536887f7445472f9c6ab67967f2a169"}, "docker": "quay.io/biocontainers/vartrix", "aliases": {"vartrix": "/usr/local/bin/vartrix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vartrix.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vartrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vartrix:1.1.22--hd11b1f6_1
+$ shpc install quay.io/biocontainers/vartrix:1.1.22--hd11b1f6_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vartrix/1.1.22--hd11b1f6_1
-$ module help quay.io/biocontainers/vartrix/1.1.22--hd11b1f6_1
+$ module load quay.io/biocontainers/vartrix/1.1.22--hd11b1f6_2
+$ module help quay.io/biocontainers/vartrix/1.1.22--hd11b1f6_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/ncbi-datasets-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-datasets-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-datasets-cli/container.yaml"
-updated_at: "2023-05-14 03:02:28.320482"
-latest: "13.14.0"
+updated_at: "2023-05-15 03:04:09.999340"
+latest: "14.26.0"
 container_url: "https://biocontainers.pro/tools/ncbi-datasets-cli"
 aliases:
  - "dataformat"
  - "datasets"
 versions:
  - "13.14.0"
+ - "14.26.0"
 description: "shpc-registry automated BioContainers addition for ncbi-datasets-cli"
-config: {"url": "https://biocontainers.pro/tools/ncbi-datasets-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-datasets-cli", "latest": {"13.14.0": "sha256:03bff7f6d75ef7fb00839fb9ab9a5afbe13465905274a1fd4bc2e365ed00338f"}, "tags": {"13.14.0": "sha256:03bff7f6d75ef7fb00839fb9ab9a5afbe13465905274a1fd4bc2e365ed00338f"}, "docker": "quay.io/biocontainers/ncbi-datasets-cli", "aliases": {"dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-datasets-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-datasets-cli", "latest": {"14.26.0": "sha256:599d42c3a759c2a4a1425d42c1b65c6dd8d4b4e4b83b44cf12d5fce147f8bf9b"}, "tags": {"13.14.0": "sha256:03bff7f6d75ef7fb00839fb9ab9a5afbe13465905274a1fd4bc2e365ed00338f", "14.26.0": "sha256:599d42c3a759c2a4a1425d42c1b65c6dd8d4b4e4b83b44cf12d5fce147f8bf9b"}, "docker": "quay.io/biocontainers/ncbi-datasets-cli", "aliases": {"dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-datasets-cli.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/ncbi-datasets-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-datasets-cli:13.14.0
+$ shpc install quay.io/biocontainers/ncbi-datasets-cli:14.26.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-datasets-cli/13.14.0
-$ module help quay.io/biocontainers/ncbi-datasets-cli/13.14.0
+$ module load quay.io/biocontainers/ncbi-datasets-cli/14.26.0
+$ module help quay.io/biocontainers/ncbi-datasets-cli/14.26.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

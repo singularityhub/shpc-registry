@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/muscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muscle/container.yaml"
-updated_at: "2023-05-14 02:38:42.175217"
-latest: "5.1--h9f5acd7_1"
+updated_at: "2023-05-15 02:40:15.159221"
+latest: "5.1--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/muscle"
 aliases:
  - "muscle"
 versions:
  - "5.1--h9f5acd7_1"
+ - "5.1--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for muscle"
-config: {"url": "https://biocontainers.pro/tools/muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muscle", "latest": {"5.1--h9f5acd7_1": "sha256:f8875d3ab2357f8909ed6df60df1adfe9ce9ab03d3660412e2b7d88bed347a69"}, "tags": {"5.1--h9f5acd7_1": "sha256:f8875d3ab2357f8909ed6df60df1adfe9ce9ab03d3660412e2b7d88bed347a69"}, "docker": "quay.io/biocontainers/muscle", "aliases": {"muscle": "/usr/local/bin/muscle"}}
+config: {"url": "https://biocontainers.pro/tools/muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muscle", "latest": {"5.1--h9f5acd7_2": "sha256:5145c135276cb6178bdaccec0556b087533f04b44b4d5583d1ac442b3aeb0a68"}, "tags": {"5.1--h9f5acd7_1": "sha256:f8875d3ab2357f8909ed6df60df1adfe9ce9ab03d3660412e2b7d88bed347a69", "5.1--h9f5acd7_2": "sha256:5145c135276cb6178bdaccec0556b087533f04b44b4d5583d1ac442b3aeb0a68"}, "docker": "quay.io/biocontainers/muscle", "aliases": {"muscle": "/usr/local/bin/muscle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/muscle.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/muscle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/muscle:5.1--h9f5acd7_1
+$ shpc install quay.io/biocontainers/muscle:5.1--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/muscle/5.1--h9f5acd7_1
-$ module help quay.io/biocontainers/muscle/5.1--h9f5acd7_1
+$ module load quay.io/biocontainers/muscle/5.1--h9f5acd7_2
+$ module help quay.io/biocontainers/muscle/5.1--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

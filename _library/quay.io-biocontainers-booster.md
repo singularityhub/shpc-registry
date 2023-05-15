@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/booster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/booster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/booster/container.yaml"
-updated_at: "2023-05-14 03:00:34.067442"
-latest: "0.1.2--hec16e2b_4"
+updated_at: "2023-05-15 03:02:14.654509"
+latest: "0.1.2--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/booster"
 aliases:
  - "booster"
 versions:
  - "0.1.2--hec16e2b_4"
+ - "0.1.2--hec16e2b_5"
 description: "shpc-registry automated BioContainers addition for booster"
-config: {"url": "https://biocontainers.pro/tools/booster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for booster", "latest": {"0.1.2--hec16e2b_4": "sha256:548ea4089fd808f6a5f9a62754914f03fcce65305195aa79dda765f64c48c6eb"}, "tags": {"0.1.2--hec16e2b_4": "sha256:548ea4089fd808f6a5f9a62754914f03fcce65305195aa79dda765f64c48c6eb"}, "docker": "quay.io/biocontainers/booster", "aliases": {"booster": "/usr/local/bin/booster"}}
+config: {"url": "https://biocontainers.pro/tools/booster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for booster", "latest": {"0.1.2--hec16e2b_5": "sha256:e094b11b25e548a1a9f33d77bfa63799ac07b8d3c6964da241eaee368cdfae42"}, "tags": {"0.1.2--hec16e2b_4": "sha256:548ea4089fd808f6a5f9a62754914f03fcce65305195aa79dda765f64c48c6eb", "0.1.2--hec16e2b_5": "sha256:e094b11b25e548a1a9f33d77bfa63799ac07b8d3c6964da241eaee368cdfae42"}, "docker": "quay.io/biocontainers/booster", "aliases": {"booster": "/usr/local/bin/booster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/booster.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/booster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/booster:0.1.2--hec16e2b_4
+$ shpc install quay.io/biocontainers/booster:0.1.2--hec16e2b_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/booster/0.1.2--hec16e2b_4
-$ module help quay.io/biocontainers/booster/0.1.2--hec16e2b_4
+$ module load quay.io/biocontainers/booster/0.1.2--hec16e2b_5
+$ module help quay.io/biocontainers/booster/0.1.2--hec16e2b_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

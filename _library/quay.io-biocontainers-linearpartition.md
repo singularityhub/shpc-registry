@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/linearpartition"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linearpartition/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linearpartition/container.yaml"
-updated_at: "2023-05-14 03:01:53.264789"
-latest: "1.0--h9f5acd7_1"
+updated_at: "2023-05-15 03:03:34.497591"
+latest: "1.0--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/linearpartition"
 aliases:
  - "draw_heatmap"
@@ -22,8 +22,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "1.0--h9f5acd7_1"
+ - "1.0--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for linearpartition"
-config: {"url": "https://biocontainers.pro/tools/linearpartition", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for linearpartition", "latest": {"1.0--h9f5acd7_1": "sha256:b8c63c72f7ef8928ff94f4fdbf374ccd254192df27b91c00e2d5493a0ead99df"}, "tags": {"1.0--h9f5acd7_1": "sha256:b8c63c72f7ef8928ff94f4fdbf374ccd254192df27b91c00e2d5493a0ead99df"}, "docker": "quay.io/biocontainers/linearpartition", "aliases": {"draw_heatmap": "/usr/local/bin/draw_heatmap", "gflags2man.py": "/usr/local/bin/gflags2man.py", "linearpartition": "/usr/local/bin/linearpartition", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/linearpartition", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for linearpartition", "latest": {"1.0--h9f5acd7_2": "sha256:b00d7525c1578a4e5795aa9112fa73c72468d265ca2858efcd74ab027c7e9234"}, "tags": {"1.0--h9f5acd7_1": "sha256:b8c63c72f7ef8928ff94f4fdbf374ccd254192df27b91c00e2d5493a0ead99df", "1.0--h9f5acd7_2": "sha256:b00d7525c1578a4e5795aa9112fa73c72468d265ca2858efcd74ab027c7e9234"}, "docker": "quay.io/biocontainers/linearpartition", "aliases": {"draw_heatmap": "/usr/local/bin/draw_heatmap", "gflags2man.py": "/usr/local/bin/gflags2man.py", "linearpartition": "/usr/local/bin/linearpartition", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/linearpartition.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/linearpartition
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/linearpartition:1.0--h9f5acd7_1
+$ shpc install quay.io/biocontainers/linearpartition:1.0--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/linearpartition/1.0--h9f5acd7_1
-$ module help quay.io/biocontainers/linearpartition/1.0--h9f5acd7_1
+$ module load quay.io/biocontainers/linearpartition/1.0--h9f5acd7_2
+$ module help quay.io/biocontainers/linearpartition/1.0--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

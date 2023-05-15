@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/moabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moabs/container.yaml"
-updated_at: "2023-05-14 03:01:21.788075"
-latest: "1.3.9.6--pl5321r42h87262cc_4"
+updated_at: "2023-05-15 03:03:02.571272"
+latest: "1.3.9.6--pl5321r42h87262cc_5"
 container_url: "https://biocontainers.pro/tools/moabs"
 aliases:
  - "bamsort.sh"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "1.3.9.6--pl5321r41h87262cc_3"
  - "1.3.9.6--pl5321r42h87262cc_4"
+ - "1.3.9.6--pl5321r42h87262cc_5"
 description: "shpc-registry automated BioContainers addition for moabs"
-config: {"url": "https://biocontainers.pro/tools/moabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moabs", "latest": {"1.3.9.6--pl5321r42h87262cc_4": "sha256:c67001022771a3eb45d4f4a836220afd2f11d01f3818be8b4cd8387bdf8799d9"}, "tags": {"1.3.9.6--pl5321r41h87262cc_3": "sha256:656f4b98a7b42f3023c2c2b4bcbdfac065f72d16e89cee10389f82925fb8769c", "1.3.9.6--pl5321r42h87262cc_4": "sha256:c67001022771a3eb45d4f4a836220afd2f11d01f3818be8b4cd8387bdf8799d9"}, "docker": "quay.io/biocontainers/moabs", "aliases": {"bamsort.sh": "/usr/local/bin/bamsort.sh", "bbf": "/usr/local/bin/bbf", "bseqc2": "/usr/local/bin/bseqc2", "bseqc2mbiasplot.R": "/usr/local/bin/bseqc2mbiasplot.R", "bsmap": "/usr/local/bin/bsmap", "mcall": "/usr/local/bin/mcall", "mcomp": "/usr/local/bin/mcomp", "moabs": "/usr/local/bin/moabs", "numCI": "/usr/local/bin/numCI", "pefilter": "/usr/local/bin/pefilter", "preprocess_novoalign.sh": "/usr/local/bin/preprocess_novoalign.sh", "redepth.pl": "/usr/local/bin/redepth.pl", "routines.pm": "/usr/local/bin/routines.pm", "template_for_cfg": "/usr/local/bin/template_for_cfg", "template_for_qsub": "/usr/local/bin/template_for_qsub", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "samtools": "/usr/local/bin/samtools", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/moabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moabs", "latest": {"1.3.9.6--pl5321r42h87262cc_5": "sha256:f1b860c9f72eabdbffef763c9680cd44049bc085c28ca452e1c406dd6bd382b7"}, "tags": {"1.3.9.6--pl5321r41h87262cc_3": "sha256:656f4b98a7b42f3023c2c2b4bcbdfac065f72d16e89cee10389f82925fb8769c", "1.3.9.6--pl5321r42h87262cc_4": "sha256:c67001022771a3eb45d4f4a836220afd2f11d01f3818be8b4cd8387bdf8799d9", "1.3.9.6--pl5321r42h87262cc_5": "sha256:f1b860c9f72eabdbffef763c9680cd44049bc085c28ca452e1c406dd6bd382b7"}, "docker": "quay.io/biocontainers/moabs", "aliases": {"bamsort.sh": "/usr/local/bin/bamsort.sh", "bbf": "/usr/local/bin/bbf", "bseqc2": "/usr/local/bin/bseqc2", "bseqc2mbiasplot.R": "/usr/local/bin/bseqc2mbiasplot.R", "bsmap": "/usr/local/bin/bsmap", "mcall": "/usr/local/bin/mcall", "mcomp": "/usr/local/bin/mcomp", "moabs": "/usr/local/bin/moabs", "numCI": "/usr/local/bin/numCI", "pefilter": "/usr/local/bin/pefilter", "preprocess_novoalign.sh": "/usr/local/bin/preprocess_novoalign.sh", "redepth.pl": "/usr/local/bin/redepth.pl", "routines.pm": "/usr/local/bin/routines.pm", "template_for_cfg": "/usr/local/bin/template_for_cfg", "template_for_qsub": "/usr/local/bin/template_for_qsub", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "samtools": "/usr/local/bin/samtools", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moabs.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/moabs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/moabs:1.3.9.6--pl5321r42h87262cc_4
+$ shpc install quay.io/biocontainers/moabs:1.3.9.6--pl5321r42h87262cc_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/moabs/1.3.9.6--pl5321r42h87262cc_4
-$ module help quay.io/biocontainers/moabs/1.3.9.6--pl5321r42h87262cc_4
+$ module load quay.io/biocontainers/moabs/1.3.9.6--pl5321r42h87262cc_5
+$ module help quay.io/biocontainers/moabs/1.3.9.6--pl5321r42h87262cc_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

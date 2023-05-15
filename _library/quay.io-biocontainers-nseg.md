@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/nseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nseg/container.yaml"
-updated_at: "2023-05-14 02:52:17.563380"
-latest: "1.0.1--hec16e2b_2"
+updated_at: "2023-05-15 02:53:54.132418"
+latest: "1.0.1--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/nseg"
 aliases:
  - "nmerge"
  - "nseg"
 versions:
  - "1.0.1--hec16e2b_2"
+ - "1.0.1--hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for nseg"
-config: {"url": "https://biocontainers.pro/tools/nseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nseg", "latest": {"1.0.1--hec16e2b_2": "sha256:ecb65fda2abb6f2e61debff988b14eaaecc09fa340e960b69a10fb3102b35af1"}, "tags": {"1.0.1--hec16e2b_2": "sha256:ecb65fda2abb6f2e61debff988b14eaaecc09fa340e960b69a10fb3102b35af1"}, "docker": "quay.io/biocontainers/nseg", "aliases": {"nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg"}}
+config: {"url": "https://biocontainers.pro/tools/nseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nseg", "latest": {"1.0.1--hec16e2b_3": "sha256:0bdbbbaed595facafbdf0f9ab4ba264fda38febb9663e9b507ab0ea0e979f4fd"}, "tags": {"1.0.1--hec16e2b_2": "sha256:ecb65fda2abb6f2e61debff988b14eaaecc09fa340e960b69a10fb3102b35af1", "1.0.1--hec16e2b_3": "sha256:0bdbbbaed595facafbdf0f9ab4ba264fda38febb9663e9b507ab0ea0e979f4fd"}, "docker": "quay.io/biocontainers/nseg", "aliases": {"nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nseg.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/nseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nseg:1.0.1--hec16e2b_2
+$ shpc install quay.io/biocontainers/nseg:1.0.1--hec16e2b_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nseg/1.0.1--hec16e2b_2
-$ module help quay.io/biocontainers/nseg/1.0.1--hec16e2b_2
+$ module load quay.io/biocontainers/nseg/1.0.1--hec16e2b_3
+$ module help quay.io/biocontainers/nseg/1.0.1--hec16e2b_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

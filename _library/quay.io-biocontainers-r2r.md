@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r2r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r2r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r2r/container.yaml"
-updated_at: "2023-05-14 02:58:39.978383"
-latest: "1.0.6--pl5321h87f3376_2"
+updated_at: "2023-05-15 03:00:19.422964"
+latest: "1.0.6--pl5321h87f3376_3"
 container_url: "https://biocontainers.pro/tools/r2r"
 aliases:
  - "r2r"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.0.6--pl5321h87f3376_2"
+ - "1.0.6--pl5321h87f3376_3"
 description: "shpc-registry automated BioContainers addition for r2r"
-config: {"url": "https://biocontainers.pro/tools/r2r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r2r", "latest": {"1.0.6--pl5321h87f3376_2": "sha256:db108e06e0db7bd1f37880ce29c6e4003a590b7102f451a0574283886525c6d1"}, "tags": {"1.0.6--pl5321h87f3376_2": "sha256:db108e06e0db7bd1f37880ce29c6e4003a590b7102f451a0574283886525c6d1"}, "docker": "quay.io/biocontainers/r2r", "aliases": {"r2r": "/usr/local/bin/r2r", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/r2r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r2r", "latest": {"1.0.6--pl5321h87f3376_3": "sha256:d5520a23b72dfed7b6989b0724fb75391a0fdaaebec9a7f69f17d1daeb8ddd4f"}, "tags": {"1.0.6--pl5321h87f3376_2": "sha256:db108e06e0db7bd1f37880ce29c6e4003a590b7102f451a0574283886525c6d1", "1.0.6--pl5321h87f3376_3": "sha256:d5520a23b72dfed7b6989b0724fb75391a0fdaaebec9a7f69f17d1daeb8ddd4f"}, "docker": "quay.io/biocontainers/r2r", "aliases": {"r2r": "/usr/local/bin/r2r", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r2r.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r2r
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r2r:1.0.6--pl5321h87f3376_2
+$ shpc install quay.io/biocontainers/r2r:1.0.6--pl5321h87f3376_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r2r/1.0.6--pl5321h87f3376_2
-$ module help quay.io/biocontainers/r2r/1.0.6--pl5321h87f3376_2
+$ module load quay.io/biocontainers/r2r/1.0.6--pl5321h87f3376_3
+$ module help quay.io/biocontainers/r2r/1.0.6--pl5321h87f3376_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

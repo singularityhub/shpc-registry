@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gfa1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfa1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfa1/container.yaml"
-updated_at: "2023-05-14 02:50:49.210831"
-latest: "0.53.alpha--h7132678_0"
+updated_at: "2023-05-15 02:52:25.312015"
+latest: "0.53.alpha--h7132678_1"
 container_url: "https://biocontainers.pro/tools/gfa1"
 aliases:
  - "falcon2gfa"
@@ -15,8 +15,9 @@ aliases:
  - "supernova2gfa"
 versions:
  - "0.53.alpha--h7132678_0"
+ - "0.53.alpha--h7132678_1"
 description: "singularity registry hpc automated addition for gfa1"
-config: {"url": "https://biocontainers.pro/tools/gfa1", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfa1", "latest": {"0.53.alpha--h7132678_0": "sha256:f42d02eb1cc0ffab97d0fd992fa16374fd61fb22a7348c747db2755da1e96474"}, "tags": {"0.53.alpha--h7132678_0": "sha256:f42d02eb1cc0ffab97d0fd992fa16374fd61fb22a7348c747db2755da1e96474"}, "docker": "quay.io/biocontainers/gfa1", "aliases": {"falcon2gfa": "/usr/local/bin/falcon2gfa", "fastg2gfa": "/usr/local/bin/fastg2gfa", "gfaview": "/usr/local/bin/gfaview", "mag2gfa": "/usr/local/bin/mag2gfa", "supernova2gfa": "/usr/local/bin/supernova2gfa"}}
+config: {"url": "https://biocontainers.pro/tools/gfa1", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfa1", "latest": {"0.53.alpha--h7132678_1": "sha256:be9b026fc2527e86ab561257ed978637b1c2cd707de0c48c4a242830ad2ececd"}, "tags": {"0.53.alpha--h7132678_0": "sha256:f42d02eb1cc0ffab97d0fd992fa16374fd61fb22a7348c747db2755da1e96474", "0.53.alpha--h7132678_1": "sha256:be9b026fc2527e86ab561257ed978637b1c2cd707de0c48c4a242830ad2ececd"}, "docker": "quay.io/biocontainers/gfa1", "aliases": {"falcon2gfa": "/usr/local/bin/falcon2gfa", "fastg2gfa": "/usr/local/bin/fastg2gfa", "gfaview": "/usr/local/bin/gfaview", "mag2gfa": "/usr/local/bin/mag2gfa", "supernova2gfa": "/usr/local/bin/supernova2gfa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfa1.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/gfa1
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfa1:0.53.alpha--h7132678_0
+$ shpc install quay.io/biocontainers/gfa1:0.53.alpha--h7132678_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfa1/0.53.alpha--h7132678_0
-$ module help quay.io/biocontainers/gfa1/0.53.alpha--h7132678_0
+$ module load quay.io/biocontainers/gfa1/0.53.alpha--h7132678_1
+$ module help quay.io/biocontainers/gfa1/0.53.alpha--h7132678_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/prophex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophex/container.yaml"
-updated_at: "2023-05-14 03:05:05.345802"
-latest: "0.1.1--h7132678_3"
+updated_at: "2023-05-15 03:06:47.236076"
+latest: "0.1.1--h7132678_4"
 container_url: "https://biocontainers.pro/tools/prophex"
 aliases:
  - "prophex"
 versions:
  - "0.1.1--h7132678_3"
+ - "0.1.1--h7132678_4"
 description: "shpc-registry automated BioContainers addition for prophex"
-config: {"url": "https://biocontainers.pro/tools/prophex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophex", "latest": {"0.1.1--h7132678_3": "sha256:d1e9926dbe7546f027d828acf08759bdbf80fce3cbbdaba00752e15e48cc619b"}, "tags": {"0.1.1--h7132678_3": "sha256:d1e9926dbe7546f027d828acf08759bdbf80fce3cbbdaba00752e15e48cc619b"}, "docker": "quay.io/biocontainers/prophex", "aliases": {"prophex": "/usr/local/bin/prophex"}}
+config: {"url": "https://biocontainers.pro/tools/prophex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophex", "latest": {"0.1.1--h7132678_4": "sha256:198c57c974a4ec2dced0557018d7b29f40e3f67ced0cd5dc65554e506fa9a824"}, "tags": {"0.1.1--h7132678_3": "sha256:d1e9926dbe7546f027d828acf08759bdbf80fce3cbbdaba00752e15e48cc619b", "0.1.1--h7132678_4": "sha256:198c57c974a4ec2dced0557018d7b29f40e3f67ced0cd5dc65554e506fa9a824"}, "docker": "quay.io/biocontainers/prophex", "aliases": {"prophex": "/usr/local/bin/prophex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prophex.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/prophex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prophex:0.1.1--h7132678_3
+$ shpc install quay.io/biocontainers/prophex:0.1.1--h7132678_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prophex/0.1.1--h7132678_3
-$ module help quay.io/biocontainers/prophex/0.1.1--h7132678_3
+$ module load quay.io/biocontainers/prophex/0.1.1--h7132678_4
+$ module help quay.io/biocontainers/prophex/0.1.1--h7132678_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

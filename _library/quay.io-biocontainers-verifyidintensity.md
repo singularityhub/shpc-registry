@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/verifyidintensity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifyidintensity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifyidintensity/container.yaml"
-updated_at: "2023-05-14 03:05:21.205055"
-latest: "0.0.1--h7ff8a90_2"
+updated_at: "2023-05-15 03:07:03.252693"
+latest: "0.0.1--h7ff8a90_3"
 container_url: "https://biocontainers.pro/tools/verifyidintensity"
 aliases:
  - "verifyIDintensity"
 versions:
  - "0.0.1--h7ff8a90_2"
+ - "0.0.1--h7ff8a90_3"
 description: "shpc-registry automated BioContainers addition for verifyidintensity"
-config: {"url": "https://biocontainers.pro/tools/verifyidintensity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifyidintensity", "latest": {"0.0.1--h7ff8a90_2": "sha256:bd0fd29d2513849dc3d258d99ac25235672c7be4fd49f89410cf8441a3833c65"}, "tags": {"0.0.1--h7ff8a90_2": "sha256:bd0fd29d2513849dc3d258d99ac25235672c7be4fd49f89410cf8441a3833c65"}, "docker": "quay.io/biocontainers/verifyidintensity", "aliases": {"verifyIDintensity": "/usr/local/bin/verifyIDintensity"}}
+config: {"url": "https://biocontainers.pro/tools/verifyidintensity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verifyidintensity", "latest": {"0.0.1--h7ff8a90_3": "sha256:6e7e98a8248d6a8cae5b13c9d77c1a8648777325461f829cae66ffb904f383c4"}, "tags": {"0.0.1--h7ff8a90_2": "sha256:bd0fd29d2513849dc3d258d99ac25235672c7be4fd49f89410cf8441a3833c65", "0.0.1--h7ff8a90_3": "sha256:6e7e98a8248d6a8cae5b13c9d77c1a8648777325461f829cae66ffb904f383c4"}, "docker": "quay.io/biocontainers/verifyidintensity", "aliases": {"verifyIDintensity": "/usr/local/bin/verifyIDintensity"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verifyidintensity.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/verifyidintensity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verifyidintensity:0.0.1--h7ff8a90_2
+$ shpc install quay.io/biocontainers/verifyidintensity:0.0.1--h7ff8a90_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verifyidintensity/0.0.1--h7ff8a90_2
-$ module help quay.io/biocontainers/verifyidintensity/0.0.1--h7ff8a90_2
+$ module load quay.io/biocontainers/verifyidintensity/0.0.1--h7ff8a90_3
+$ module help quay.io/biocontainers/verifyidintensity/0.0.1--h7ff8a90_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

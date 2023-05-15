@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hapbin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapbin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapbin/container.yaml"
-updated_at: "2023-05-14 02:43:34.257308"
-latest: "1.3.0--h87f3376_3"
+updated_at: "2023-05-15 02:45:08.230349"
+latest: "1.3.0--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/hapbin"
 aliases:
  - "ehhbin"
@@ -13,8 +13,9 @@ aliases:
  - "xpehhbin"
 versions:
  - "1.3.0--h87f3376_3"
+ - "1.3.0--h87f3376_4"
 description: "shpc-registry automated BioContainers addition for hapbin"
-config: {"url": "https://biocontainers.pro/tools/hapbin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hapbin", "latest": {"1.3.0--h87f3376_3": "sha256:5460436000502eaad2e74461cfafa4f0339a16a4fadc2e5f479fe2339bc0430d"}, "tags": {"1.3.0--h87f3376_3": "sha256:5460436000502eaad2e74461cfafa4f0339a16a4fadc2e5f479fe2339bc0430d"}, "docker": "quay.io/biocontainers/hapbin", "aliases": {"ehhbin": "/usr/local/bin/ehhbin", "hapbinconv": "/usr/local/bin/hapbinconv", "xpehhbin": "/usr/local/bin/xpehhbin"}}
+config: {"url": "https://biocontainers.pro/tools/hapbin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hapbin", "latest": {"1.3.0--h87f3376_4": "sha256:4438711921df3a5bff26c4d28ee0434384591036bd9672c2aa6986cf8d3bf23d"}, "tags": {"1.3.0--h87f3376_3": "sha256:5460436000502eaad2e74461cfafa4f0339a16a4fadc2e5f479fe2339bc0430d", "1.3.0--h87f3376_4": "sha256:4438711921df3a5bff26c4d28ee0434384591036bd9672c2aa6986cf8d3bf23d"}, "docker": "quay.io/biocontainers/hapbin", "aliases": {"ehhbin": "/usr/local/bin/ehhbin", "hapbinconv": "/usr/local/bin/hapbinconv", "xpehhbin": "/usr/local/bin/xpehhbin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hapbin.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/hapbin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hapbin:1.3.0--h87f3376_3
+$ shpc install quay.io/biocontainers/hapbin:1.3.0--h87f3376_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hapbin/1.3.0--h87f3376_3
-$ module help quay.io/biocontainers/hapbin/1.3.0--h87f3376_3
+$ module load quay.io/biocontainers/hapbin/1.3.0--h87f3376_4
+$ module help quay.io/biocontainers/hapbin/1.3.0--h87f3376_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

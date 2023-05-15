@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-survcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-survcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-survcomp/container.yaml"
-updated_at: "2023-05-14 02:48:20.702531"
-latest: "1.48.0--r42hc247a5b_0"
+updated_at: "2023-05-15 02:49:55.860257"
+latest: "1.48.0--r42hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-survcomp"
 
 versions:
  - "1.44.1--r41hc247a5b_1"
  - "1.48.0--r42hc247a5b_0"
+ - "1.48.0--r42hc247a5b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-survcomp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-survcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-survcomp", "latest": {"1.48.0--r42hc247a5b_0": "sha256:1ffde0b01b75af513d8b94738832570fc8253f53b5a22afe9540fb16bbc5c66d"}, "tags": {"1.44.1--r41hc247a5b_1": "sha256:7e9b331f948570c8fe5498279f2f2456342c2a8e7b55aa7d4707e52516497017", "1.48.0--r42hc247a5b_0": "sha256:1ffde0b01b75af513d8b94738832570fc8253f53b5a22afe9540fb16bbc5c66d"}, "docker": "quay.io/biocontainers/bioconductor-survcomp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-survcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-survcomp", "latest": {"1.48.0--r42hc247a5b_1": "sha256:166adf4859310522c812e497c80e8a9e0c72223b75a723e71f29d02de8437978"}, "tags": {"1.44.1--r41hc247a5b_1": "sha256:7e9b331f948570c8fe5498279f2f2456342c2a8e7b55aa7d4707e52516497017", "1.48.0--r42hc247a5b_0": "sha256:1ffde0b01b75af513d8b94738832570fc8253f53b5a22afe9540fb16bbc5c66d", "1.48.0--r42hc247a5b_1": "sha256:166adf4859310522c812e497c80e8a9e0c72223b75a723e71f29d02de8437978"}, "docker": "quay.io/biocontainers/bioconductor-survcomp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-survcomp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-survcomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-survcomp:1.48.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-survcomp:1.48.0--r42hc247a5b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-survcomp/1.48.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-survcomp/1.48.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-survcomp/1.48.0--r42hc247a5b_1
+$ module help quay.io/biocontainers/bioconductor-survcomp/1.48.0--r42hc247a5b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

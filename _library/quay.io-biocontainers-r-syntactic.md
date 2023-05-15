@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-syntactic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-syntactic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-syntactic/container.yaml"
-updated_at: "2023-05-14 03:17:26.424051"
+updated_at: "2023-05-15 03:19:10.426438"
 latest: "0.6.6--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-syntactic"
 
