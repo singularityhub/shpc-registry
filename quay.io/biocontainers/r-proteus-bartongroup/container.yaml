@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-proteus-bartongroup
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-proteus-bartongroup
+latest:
+  0.2.16--r42hdfd78af_0: sha256:ccaff64ed1434cbf03a07c871d20ab0b7530801528934c260275ba39a395b471
+tags:
+  0.2.16--r42hdfd78af_0: sha256:ccaff64ed1434cbf03a07c871d20ab0b7530801528934c260275ba39a395b471
+docker: quay.io/biocontainers/r-proteus-bartongroup
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  pandoc: /usr/local/bin/pandoc

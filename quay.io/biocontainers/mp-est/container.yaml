@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mp-est
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mp-est
+latest:
+  3.0.0--hec16e2b_0: sha256:4ef7a6819f4fc28f2bbe10eda327f53f9249f1bc1747a773572854b05d8cc043
+tags:
+  3.0.0--hec16e2b_0: sha256:4ef7a6819f4fc28f2bbe10eda327f53f9249f1bc1747a773572854b05d8cc043
+docker: quay.io/biocontainers/mp-est
+aliases:
+  mpest: /usr/local/bin/mpest

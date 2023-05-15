@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/umicollapse
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for umicollapse
+latest:
+  1.0.0--hdfd78af_1: sha256:756146df626c8c294140d0688e9f3d1d7486707f8ae28d3dbaeffb0ba752d9d8
+tags:
+  1.0.0--hdfd78af_1: sha256:756146df626c8c294140d0688e9f3d1d7486707f8ae28d3dbaeffb0ba752d9d8
+docker: quay.io/biocontainers/umicollapse
+aliases:
+  umicollapse: /usr/local/bin/umicollapse
+  tjbench: /usr/local/bin/tjbench
+  jpackage: /usr/local/bin/jpackage
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
