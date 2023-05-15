@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/longreadsum
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for longreadsum
+latest:
+  1.2.0--py310h6d153b4_0: sha256:5b3c1ef8809f5456de922cfa035cc5fc24bdb98299857936b3765b1a557d0dbb
+tags:
+  1.2.0--py310h6d153b4_0: sha256:5b3c1ef8809f5456de922cfa035cc5fc24bdb98299857936b3765b1a557d0dbb
+docker: quay.io/biocontainers/longreadsum
+aliases:
+  bam_plot.py: /usr/local/bin/bam_plot.py
+  cli.py: /usr/local/bin/cli.py
+  entry_point.py: /usr/local/bin/entry_point.py
+  fast5_signal_plot.py: /usr/local/bin/fast5_signal_plot.py
+  fasta_plot.py: /usr/local/bin/fasta_plot.py
+  generate_html.py: /usr/local/bin/generate_html.py
+  longreadsum: /usr/local/bin/longreadsum
+  plot_utils.py: /usr/local/bin/plot_utils.py
+  seqtxt_plot.py: /usr/local/bin/seqtxt_plot.py
+  tjbench: /usr/local/bin/tjbench
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy

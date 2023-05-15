@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/perl-bio-phylo-forest-dbtree
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-bio-phylo-forest-dbtree
+latest:
+  0.58--pl5321hdfd78af_0: sha256:683d3fae3f17c3f6cb375fd714adb1a8c4b1cb859fec6b7832c2aaac41f667db
+tags:
+  0.58--pl5321hdfd78af_0: sha256:683d3fae3f17c3f6cb375fd714adb1a8c4b1cb859fec6b7832c2aaac41f667db
+docker: quay.io/biocontainers/perl-bio-phylo-forest-dbtree
+aliases:
+  dbicadmin: /usr/local/bin/dbicadmin
+  megatree-loader: /usr/local/bin/megatree-loader
+  megatree-ncbi-loader: /usr/local/bin/megatree-ncbi-loader
+  megatree-phylotree-loader: /usr/local/bin/megatree-phylotree-loader
+  megatree-pruner: /usr/local/bin/megatree-pruner
+  config_data: /usr/local/bin/config_data
+  imgsize: /usr/local/bin/imgsize
+  xml_grep: /usr/local/bin/xml_grep
+  xml_merge: /usr/local/bin/xml_merge
+  xml_pp: /usr/local/bin/xml_pp
+  xml_spellcheck: /usr/local/bin/xml_spellcheck
+  xml_split: /usr/local/bin/xml_split
+  tpage: /usr/local/bin/tpage
+  ttree: /usr/local/bin/ttree
+  webtidy: /usr/local/bin/webtidy
+  tidyp: /usr/local/bin/tidyp
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  htmltree: /usr/local/bin/htmltree
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  bdftogd: /usr/local/bin/bdftogd
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng

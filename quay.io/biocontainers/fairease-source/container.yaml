@@ -1,0 +1,68 @@
+url: https://biocontainers.pro/tools/fairease-source
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fairease-source
+latest:
+  1.4.1--pyh7cba7a3_0: sha256:3c393d22f743433735142e70fff80a061ca107913da2bdf14f2c20f4dee1af87
+tags:
+  1.4.1--pyh7cba7a3_0: sha256:3c393d22f743433735142e70fff80a061ca107913da2bdf14f2c20f4dee1af87
+docker: quay.io/biocontainers/fairease-source
+aliases:
+  create_probes_earth_map.py: /usr/local/bin/create_probes_earth_map.py
+  csv2kml: /usr/local/bin/csv2kml
+  data_information_calc.py: /usr/local/bin/data_information_calc.py
+  depth_aggregator.py: /usr/local/bin/depth_aggregator.py
+  depth_calc.py: /usr/local/bin/depth_calc.py
+  duplicated_records_remover.py: /usr/local/bin/duplicated_records_remover.py
+  find_variable_name.py: /usr/local/bin/find_variable_name.py
+  insitu_evaluation.py: /usr/local/bin/insitu_evaluation.py
+  insitu_tac_platforms_finder.py: /usr/local/bin/insitu_tac_platforms_finder.py
+  insitu_tac_pre_processing.py: /usr/local/bin/insitu_tac_pre_processing.py
+  insitu_tac_timeseries_extractor.py: /usr/local/bin/insitu_tac_timeseries_extractor.py
+  kml2pykml: /usr/local/bin/kml2pykml
+  mean_variance_nc_variable.py: /usr/local/bin/mean_variance_nc_variable.py
+  metadata_merger.py: /usr/local/bin/metadata_merger.py
+  model_datasets_concatenator.py: /usr/local/bin/model_datasets_concatenator.py
+  model_postpro.py: /usr/local/bin/model_postpro.py
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
+  obs_postpro.py: /usr/local/bin/obs_postpro.py
+  pointwise_datasets_concatenator.py: /usr/local/bin/pointwise_datasets_concatenator.py
+  ptmp_to_temp.py: /usr/local/bin/ptmp_to_temp.py
+  quality_check_applier.py: /usr/local/bin/quality_check_applier.py
+  real_time_concatenator.py: /usr/local/bin/real_time_concatenator.py
+  records_monotonicity_fixer.py: /usr/local/bin/records_monotonicity_fixer.py
+  rejection_statistics.py: /usr/local/bin/rejection_statistics.py
+  time_averager.py: /usr/local/bin/time_averager.py
+  time_calc.py: /usr/local/bin/time_calc.py
+  time_check.py: /usr/local/bin/time_check.py
+  time_from_index.py: /usr/local/bin/time_from_index.py
+  time_series_post_processing.py: /usr/local/bin/time_series_post_processing.py
+  unique_values_nc_variable.py: /usr/local/bin/unique_values_nc_variable.py
+  validate_kml: /usr/local/bin/validate_kml
+  vertical_interpolation.py: /usr/local/bin/vertical_interpolation.py
+  h5delete: /usr/local/bin/h5delete
+  unidecode: /usr/local/bin/unidecode
+  tjbench: /usr/local/bin/tjbench
+  aec: /usr/local/bin/aec
+  f2py3.11: /usr/local/bin/f2py3.11
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
