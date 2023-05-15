@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ray
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ray
 latest:
-  2.3.1--h105e827_4: sha256:eb31e83b1423b3f2f1a406e8ee6aeca49c679beadf61badb814174118f40f0fa
+  2.3.1--h105e827_5: sha256:b038f14bc2f0a6c94d2afd3b1a9c2f70c4d4c06a0d1ab61de22989ef75c5a661
 tags:
   2.3.1--h105e827_4: sha256:eb31e83b1423b3f2f1a406e8ee6aeca49c679beadf61badb814174118f40f0fa
+  2.3.1--h105e827_5: sha256:b038f14bc2f0a6c94d2afd3b1a9c2f70c4d4c06a0d1ab61de22989ef75c5a661
 docker: quay.io/biocontainers/ray
 aliases:
   Ray: /usr/local/bin/Ray

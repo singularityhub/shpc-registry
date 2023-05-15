@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rust-ncbitaxonomy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rust-ncbitaxonomy
 latest:
-  1.0.7--h94d9fb8_2: sha256:2a15e01071448b8ceaa9ae7aea45da2b1f20a38afc8fda5f65099d68193f99a8
+  1.0.7--h6145f2c_4: sha256:31df5df71ebc0fa39dacacea9dfae46c496fc916c0f5811dc4aab39641d5912a
 tags:
   1.0.7--h94d9fb8_2: sha256:2a15e01071448b8ceaa9ae7aea45da2b1f20a38afc8fda5f65099d68193f99a8
+  1.0.7--h6145f2c_4: sha256:31df5df71ebc0fa39dacacea9dfae46c496fc916c0f5811dc4aab39641d5912a
 docker: quay.io/biocontainers/rust-ncbitaxonomy
 aliases:
   taxonomy_filter_fastq: /usr/local/bin/taxonomy_filter_fastq

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/popgen-entropy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for popgen-entropy
 latest:
-  2.0--hc73b757_6: sha256:a33eabe9f3d808b95f540c19038eb00db7427490200a8bfc73517eb0da919bc2
+  2.0--hc73b757_7: sha256:f0e6eb5c76f55a7399fa9304d89ba8a39f1bc5c492abb76db3bdea0a9caa6b10
 tags:
   2.0--hc73b757_6: sha256:a33eabe9f3d808b95f540c19038eb00db7427490200a8bfc73517eb0da919bc2
+  2.0--hc73b757_7: sha256:f0e6eb5c76f55a7399fa9304d89ba8a39f1bc5c492abb76db3bdea0a9caa6b10
 docker: quay.io/biocontainers/popgen-entropy
 aliases:
   entropy: /usr/local/bin/entropy

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kssd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kssd
 latest:
-  2.21--h7132678_0: sha256:0689f82346b3e9c007f48baa8d1dfa0558b01ff66d26e09dc0693032ae608f16
+  2.21--h7132678_1: sha256:2f1c6d168303359e09d69149b9546519277b4c48b97653f20896b251db4ef7a1
 tags:
   2.21--h7132678_0: sha256:0689f82346b3e9c007f48baa8d1dfa0558b01ff66d26e09dc0693032ae608f16
+  2.21--h7132678_1: sha256:2f1c6d168303359e09d69149b9546519277b4c48b97653f20896b251db4ef7a1
 docker: quay.io/biocontainers/kssd
 aliases:
   kssd: /usr/local/bin/kssd

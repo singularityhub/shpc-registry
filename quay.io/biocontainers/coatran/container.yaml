@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/coatran
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for coatran
 latest:
-  0.0.1--h9f5acd7_1: sha256:a06f219fe42b1f23edd5c6718dbaf582a459bd1d5ddb86c8193e1094adc1c052
+  0.0.1--h4ac6f70_3: sha256:58f940650adaaad24e0f158dd3a274bf04fbbda343ab8f0e129944e298a35db9
 tags:
   0.0.1--h9f5acd7_1: sha256:a06f219fe42b1f23edd5c6718dbaf582a459bd1d5ddb86c8193e1094adc1c052
+  0.0.1--h4ac6f70_3: sha256:58f940650adaaad24e0f158dd3a274bf04fbbda343ab8f0e129944e298a35db9
 docker: quay.io/biocontainers/coatran
 aliases:
   coatran_constant: /usr/local/bin/coatran_constant

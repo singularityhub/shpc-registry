@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/nextflow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nextflow
 latest:
-  22.10.6--h4a94de4_0: sha256:7cee9ef519fae6ce9bee24693c5914a6a7ffde5d196823805114cfc9aac53105
+  23.04.1--h4a94de4_2: sha256:f052db0d37c285d7fd60079e594d50404a094a711b9f7deb92b7b96b6b2a67f1
 tags:
   22.10.0--h4a94de4_0: sha256:c04ca8aca1b35ce4a912acbe5df5b795179d28440da9b27cc87198a8ea1ea859
   22.10.1--h4a94de4_0: sha256:0e58fcbbf77e6fc6e3d77507ff624d81bcc9c436026093a8cda5b5deb72f048c
   22.10.4--h4a94de4_0: sha256:096fee76e53ec0f5a252d86b4b681310c2c523961e26ef3af12db86351250268
   22.10.6--h4a94de4_0: sha256:7cee9ef519fae6ce9bee24693c5914a6a7ffde5d196823805114cfc9aac53105
+  23.04.1--h4a94de4_2: sha256:f052db0d37c285d7fd60079e594d50404a094a711b9f7deb92b7b96b6b2a67f1
 docker: quay.io/biocontainers/nextflow
 aliases:
   nextflow: /usr/local/bin/nextflow

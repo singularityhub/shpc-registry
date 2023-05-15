@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-extutils-cppguess
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-extutils-cppguess
 latest:
-  0.26--pl5321h9f5acd7_0: sha256:5ebb71cbac97e1752b3e22147e52d9dbbc9dbc88f2ba8f92a09d40cdb73078bc
+  0.26--pl5321h4ac6f70_1: sha256:a8b88d8c0676b289d4985da6097001530d65bfc261fae69c8a4093cda3eadd81
 tags:
   0.26--pl5321h9f5acd7_0: sha256:5ebb71cbac97e1752b3e22147e52d9dbbc9dbc88f2ba8f92a09d40cdb73078bc
+  0.26--pl5321h4ac6f70_1: sha256:a8b88d8c0676b289d4985da6097001530d65bfc261fae69c8a4093cda3eadd81
 docker: quay.io/biocontainers/perl-extutils-cppguess
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
