@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fqzcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqzcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqzcomp/container.yaml"
-updated_at: "2023-05-15 03:46:33.802563"
-latest: "4.6--hd03093a_3"
+updated_at: "2023-05-16 02:51:34.935373"
+latest: "4.6--hd03093a_4"
 container_url: "https://biocontainers.pro/tools/fqzcomp"
 aliases:
  - "fqz_comp"
 versions:
  - "4.6--hd03093a_3"
+ - "4.6--hd03093a_4"
 description: "shpc-registry automated BioContainers addition for fqzcomp"
-config: {"url": "https://biocontainers.pro/tools/fqzcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqzcomp", "latest": {"4.6--hd03093a_3": "sha256:94f34b44472d749e0832eeaaa24cd1e2d6a358d6a8406d6e0adbb94bff9db8a3"}, "tags": {"4.6--hd03093a_3": "sha256:94f34b44472d749e0832eeaaa24cd1e2d6a358d6a8406d6e0adbb94bff9db8a3"}, "docker": "quay.io/biocontainers/fqzcomp", "aliases": {"fqz_comp": "/usr/local/bin/fqz_comp"}}
+config: {"url": "https://biocontainers.pro/tools/fqzcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqzcomp", "latest": {"4.6--hd03093a_4": "sha256:af97e7af72a0a858c7bc9e820051e95af87f55564a15e478e674b8235b7411fe"}, "tags": {"4.6--hd03093a_3": "sha256:94f34b44472d749e0832eeaaa24cd1e2d6a358d6a8406d6e0adbb94bff9db8a3", "4.6--hd03093a_4": "sha256:af97e7af72a0a858c7bc9e820051e95af87f55564a15e478e674b8235b7411fe"}, "docker": "quay.io/biocontainers/fqzcomp", "aliases": {"fqz_comp": "/usr/local/bin/fqz_comp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqzcomp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fqzcomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fqzcomp:4.6--hd03093a_3
+$ shpc install quay.io/biocontainers/fqzcomp:4.6--hd03093a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fqzcomp/4.6--hd03093a_3
-$ module help quay.io/biocontainers/fqzcomp/4.6--hd03093a_3
+$ module load quay.io/biocontainers/fqzcomp/4.6--hd03093a_4
+$ module help quay.io/biocontainers/fqzcomp/4.6--hd03093a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

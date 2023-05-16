@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/provean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/provean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/provean/container.yaml"
-updated_at: "2023-05-15 04:12:31.525672"
-latest: "1.1.5--h87f3376_1"
+updated_at: "2023-05-16 03:12:29.027358"
+latest: "1.1.5--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/provean"
 aliases:
  - "provean"
@@ -37,8 +37,9 @@ aliases:
  - "clstr_rev.pl"
 versions:
  - "1.1.5--h87f3376_1"
+ - "1.1.5--hdbdd923_2"
 description: "singularity registry hpc automated addition for provean"
-config: {"url": "https://biocontainers.pro/tools/provean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for provean", "latest": {"1.1.5--h87f3376_1": "sha256:e3e21b1e0949c6ce71ca91ea86a92e3c51b89c79cbfde6d8388587b7b54c3dc7"}, "tags": {"1.1.5--h87f3376_1": "sha256:e3e21b1e0949c6ce71ca91ea86a92e3c51b89c79cbfde6d8388587b7b54c3dc7"}, "docker": "quay.io/biocontainers/provean", "aliases": {"provean": "/usr/local/bin/provean", "provean.sh": "/usr/local/bin/provean.sh", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div", "cd-hit-div.pl": "/usr/local/bin/cd-hit-div.pl", "cd-hit-est-2d": "/usr/local/bin/cd-hit-est-2d", "cd-hit-para.pl": "/usr/local/bin/cd-hit-para.pl", "clstr2tree.pl": "/usr/local/bin/clstr2tree.pl", "clstr2txt.pl": "/usr/local/bin/clstr2txt.pl", "clstr2xml.pl": "/usr/local/bin/clstr2xml.pl", "clstr_cut.pl": "/usr/local/bin/clstr_cut.pl", "clstr_merge.pl": "/usr/local/bin/clstr_merge.pl", "clstr_merge_noorder.pl": "/usr/local/bin/clstr_merge_noorder.pl", "clstr_quality_eval.pl": "/usr/local/bin/clstr_quality_eval.pl", "clstr_quality_eval_by_link.pl": "/usr/local/bin/clstr_quality_eval_by_link.pl", "clstr_reduce.pl": "/usr/local/bin/clstr_reduce.pl", "clstr_renumber.pl": "/usr/local/bin/clstr_renumber.pl", "clstr_rep.pl": "/usr/local/bin/clstr_rep.pl", "clstr_reps_faa_rev.pl": "/usr/local/bin/clstr_reps_faa_rev.pl", "clstr_rev.pl": "/usr/local/bin/clstr_rev.pl"}}
+config: {"url": "https://biocontainers.pro/tools/provean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for provean", "latest": {"1.1.5--hdbdd923_2": "sha256:93aa495a461ddf9f261e8873e53635490937a9c7d09c0b646b92ff4061a41c26"}, "tags": {"1.1.5--h87f3376_1": "sha256:e3e21b1e0949c6ce71ca91ea86a92e3c51b89c79cbfde6d8388587b7b54c3dc7", "1.1.5--hdbdd923_2": "sha256:93aa495a461ddf9f261e8873e53635490937a9c7d09c0b646b92ff4061a41c26"}, "docker": "quay.io/biocontainers/provean", "aliases": {"provean": "/usr/local/bin/provean", "provean.sh": "/usr/local/bin/provean.sh", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div", "cd-hit-div.pl": "/usr/local/bin/cd-hit-div.pl", "cd-hit-est-2d": "/usr/local/bin/cd-hit-est-2d", "cd-hit-para.pl": "/usr/local/bin/cd-hit-para.pl", "clstr2tree.pl": "/usr/local/bin/clstr2tree.pl", "clstr2txt.pl": "/usr/local/bin/clstr2txt.pl", "clstr2xml.pl": "/usr/local/bin/clstr2xml.pl", "clstr_cut.pl": "/usr/local/bin/clstr_cut.pl", "clstr_merge.pl": "/usr/local/bin/clstr_merge.pl", "clstr_merge_noorder.pl": "/usr/local/bin/clstr_merge_noorder.pl", "clstr_quality_eval.pl": "/usr/local/bin/clstr_quality_eval.pl", "clstr_quality_eval_by_link.pl": "/usr/local/bin/clstr_quality_eval_by_link.pl", "clstr_reduce.pl": "/usr/local/bin/clstr_reduce.pl", "clstr_renumber.pl": "/usr/local/bin/clstr_renumber.pl", "clstr_rep.pl": "/usr/local/bin/clstr_rep.pl", "clstr_reps_faa_rev.pl": "/usr/local/bin/clstr_reps_faa_rev.pl", "clstr_rev.pl": "/usr/local/bin/clstr_rev.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/provean.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/provean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/provean:1.1.5--h87f3376_1
+$ shpc install quay.io/biocontainers/provean:1.1.5--hdbdd923_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/provean/1.1.5--h87f3376_1
-$ module help quay.io/biocontainers/provean/1.1.5--h87f3376_1
+$ module load quay.io/biocontainers/provean/1.1.5--hdbdd923_2
+$ module help quay.io/biocontainers/provean/1.1.5--hdbdd923_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

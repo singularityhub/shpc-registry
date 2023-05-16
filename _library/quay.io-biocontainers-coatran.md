@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coatran"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coatran/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coatran/container.yaml"
-updated_at: "2023-05-15 03:53:27.416107"
-latest: "0.0.1--h9f5acd7_1"
+updated_at: "2023-05-16 02:57:06.771479"
+latest: "0.0.1--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/coatran"
 aliases:
  - "coatran_constant"
@@ -14,8 +14,9 @@ aliases:
  - "coatran_transtree"
 versions:
  - "0.0.1--h9f5acd7_1"
+ - "0.0.1--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for coatran"
-config: {"url": "https://biocontainers.pro/tools/coatran", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coatran", "latest": {"0.0.1--h9f5acd7_1": "sha256:a06f219fe42b1f23edd5c6718dbaf582a459bd1d5ddb86c8193e1094adc1c052"}, "tags": {"0.0.1--h9f5acd7_1": "sha256:a06f219fe42b1f23edd5c6718dbaf582a459bd1d5ddb86c8193e1094adc1c052"}, "docker": "quay.io/biocontainers/coatran", "aliases": {"coatran_constant": "/usr/local/bin/coatran_constant", "coatran_expgrowth": "/usr/local/bin/coatran_expgrowth", "coatran_inftime": "/usr/local/bin/coatran_inftime", "coatran_transtree": "/usr/local/bin/coatran_transtree"}}
+config: {"url": "https://biocontainers.pro/tools/coatran", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coatran", "latest": {"0.0.1--h4ac6f70_3": "sha256:58f940650adaaad24e0f158dd3a274bf04fbbda343ab8f0e129944e298a35db9"}, "tags": {"0.0.1--h9f5acd7_1": "sha256:a06f219fe42b1f23edd5c6718dbaf582a459bd1d5ddb86c8193e1094adc1c052", "0.0.1--h4ac6f70_3": "sha256:58f940650adaaad24e0f158dd3a274bf04fbbda343ab8f0e129944e298a35db9"}, "docker": "quay.io/biocontainers/coatran", "aliases": {"coatran_constant": "/usr/local/bin/coatran_constant", "coatran_expgrowth": "/usr/local/bin/coatran_expgrowth", "coatran_inftime": "/usr/local/bin/coatran_inftime", "coatran_transtree": "/usr/local/bin/coatran_transtree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coatran.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/coatran
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coatran:0.0.1--h9f5acd7_1
+$ shpc install quay.io/biocontainers/coatran:0.0.1--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coatran/0.0.1--h9f5acd7_1
-$ module help quay.io/biocontainers/coatran/0.0.1--h9f5acd7_1
+$ module load quay.io/biocontainers/coatran/0.0.1--h4ac6f70_3
+$ module help quay.io/biocontainers/coatran/0.0.1--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/humid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/humid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/humid/container.yaml"
-updated_at: "2023-05-15 04:17:05.115665"
-latest: "1.0.2--h5f740d0_0"
+updated_at: "2023-05-16 03:16:12.444630"
+latest: "1.0.2--hadf994f_2"
 container_url: "https://biocontainers.pro/tools/humid"
 aliases:
  - "humid"
  - "igzip"
 versions:
  - "1.0.2--h5f740d0_0"
+ - "1.0.2--hadf994f_2"
 description: "singularity registry hpc automated addition for humid"
-config: {"url": "https://biocontainers.pro/tools/humid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for humid", "latest": {"1.0.2--h5f740d0_0": "sha256:92ffab70af8abdad85fde89082996a41034d2fc84d9411737874feee0dc56607"}, "tags": {"1.0.2--h5f740d0_0": "sha256:92ffab70af8abdad85fde89082996a41034d2fc84d9411737874feee0dc56607"}, "docker": "quay.io/biocontainers/humid", "aliases": {"humid": "/usr/local/bin/humid", "igzip": "/usr/local/bin/igzip"}}
+config: {"url": "https://biocontainers.pro/tools/humid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for humid", "latest": {"1.0.2--hadf994f_2": "sha256:7697ee0e41ad92d29020a12752e9eb7d309be4ca4cbbeed7ca6361379ebc8ef9"}, "tags": {"1.0.2--h5f740d0_0": "sha256:92ffab70af8abdad85fde89082996a41034d2fc84d9411737874feee0dc56607", "1.0.2--hadf994f_2": "sha256:7697ee0e41ad92d29020a12752e9eb7d309be4ca4cbbeed7ca6361379ebc8ef9"}, "docker": "quay.io/biocontainers/humid", "aliases": {"humid": "/usr/local/bin/humid", "igzip": "/usr/local/bin/igzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/humid.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/humid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/humid:1.0.2--h5f740d0_0
+$ shpc install quay.io/biocontainers/humid:1.0.2--hadf994f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/humid/1.0.2--h5f740d0_0
-$ module help quay.io/biocontainers/humid/1.0.2--h5f740d0_0
+$ module load quay.io/biocontainers/humid/1.0.2--hadf994f_2
+$ module help quay.io/biocontainers/humid/1.0.2--hadf994f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

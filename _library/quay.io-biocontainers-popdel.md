@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/popdel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popdel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popdel/container.yaml"
-updated_at: "2023-05-15 03:43:10.903737"
-latest: "1.5.0--hd36ca80_5"
+updated_at: "2023-05-16 02:48:54.897629"
+latest: "1.5.0--h146fbdb_6"
 container_url: "https://biocontainers.pro/tools/popdel"
 aliases:
  - "popdel"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.5.0--h867801b_4"
  - "1.5.0--hd36ca80_5"
+ - "1.5.0--h146fbdb_6"
 description: "shpc-registry automated BioContainers addition for popdel"
-config: {"url": "https://biocontainers.pro/tools/popdel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popdel", "latest": {"1.5.0--hd36ca80_5": "sha256:9ac70793d6a7909e242d0e5e155a474896841ea8ff286bec58ab1b3ef827bb18"}, "tags": {"1.5.0--h867801b_4": "sha256:cb479343ab3c3e10b3fac1ab81e6ee91226d417ff4a6c3a37d178d46c49ef8f4", "1.5.0--hd36ca80_5": "sha256:9ac70793d6a7909e242d0e5e155a474896841ea8ff286bec58ab1b3ef827bb18"}, "docker": "quay.io/biocontainers/popdel", "aliases": {"popdel": "/usr/local/bin/popdel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/popdel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popdel", "latest": {"1.5.0--h146fbdb_6": "sha256:444ccb43c0491359bf597892de4129cf8664e8719679921f650caf74e79d7de6"}, "tags": {"1.5.0--h867801b_4": "sha256:cb479343ab3c3e10b3fac1ab81e6ee91226d417ff4a6c3a37d178d46c49ef8f4", "1.5.0--hd36ca80_5": "sha256:9ac70793d6a7909e242d0e5e155a474896841ea8ff286bec58ab1b3ef827bb18", "1.5.0--h146fbdb_6": "sha256:444ccb43c0491359bf597892de4129cf8664e8719679921f650caf74e79d7de6"}, "docker": "quay.io/biocontainers/popdel", "aliases": {"popdel": "/usr/local/bin/popdel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/popdel.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/popdel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/popdel:1.5.0--hd36ca80_5
+$ shpc install quay.io/biocontainers/popdel:1.5.0--h146fbdb_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/popdel/1.5.0--hd36ca80_5
-$ module help quay.io/biocontainers/popdel/1.5.0--hd36ca80_5
+$ module load quay.io/biocontainers/popdel/1.5.0--h146fbdb_6
+$ module help quay.io/biocontainers/popdel/1.5.0--h146fbdb_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

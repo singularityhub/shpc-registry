@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quip/container.yaml"
-updated_at: "2023-05-15 03:55:05.485402"
+updated_at: "2023-05-16 02:58:25.421121"
 latest: "1.1.8--h5bf99c6_1"
 container_url: "https://biocontainers.pro/tools/quip"
 aliases:

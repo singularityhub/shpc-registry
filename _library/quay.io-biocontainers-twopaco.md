@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/twopaco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twopaco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twopaco/container.yaml"
-updated_at: "2023-05-15 04:04:41.229532"
-latest: "1.0.0--h7bb7ee6_0"
+updated_at: "2023-05-16 03:06:09.512354"
+latest: "1.0.0--h7bb7ee6_1"
 container_url: "https://biocontainers.pro/tools/twopaco"
 aliases:
  - "graphdump"
  - "twopaco"
 versions:
  - "1.0.0--h7bb7ee6_0"
+ - "1.0.0--h7bb7ee6_1"
 description: "shpc-registry automated BioContainers addition for twopaco"
-config: {"url": "https://biocontainers.pro/tools/twopaco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for twopaco", "latest": {"1.0.0--h7bb7ee6_0": "sha256:4298066fa23a4a32f94d04a0d52bf4d43f22dfa79125828c3497b725953b2462"}, "tags": {"1.0.0--h7bb7ee6_0": "sha256:4298066fa23a4a32f94d04a0d52bf4d43f22dfa79125828c3497b725953b2462"}, "docker": "quay.io/biocontainers/twopaco", "aliases": {"graphdump": "/usr/local/bin/graphdump", "twopaco": "/usr/local/bin/twopaco"}}
+config: {"url": "https://biocontainers.pro/tools/twopaco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for twopaco", "latest": {"1.0.0--h7bb7ee6_1": "sha256:f86ca8684971a699bd6f336f108b265a51af57f85810ae1df0a89b966213e5e9"}, "tags": {"1.0.0--h7bb7ee6_0": "sha256:4298066fa23a4a32f94d04a0d52bf4d43f22dfa79125828c3497b725953b2462", "1.0.0--h7bb7ee6_1": "sha256:f86ca8684971a699bd6f336f108b265a51af57f85810ae1df0a89b966213e5e9"}, "docker": "quay.io/biocontainers/twopaco", "aliases": {"graphdump": "/usr/local/bin/graphdump", "twopaco": "/usr/local/bin/twopaco"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/twopaco.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/twopaco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/twopaco:1.0.0--h7bb7ee6_0
+$ shpc install quay.io/biocontainers/twopaco:1.0.0--h7bb7ee6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/twopaco/1.0.0--h7bb7ee6_0
-$ module help quay.io/biocontainers/twopaco/1.0.0--h7bb7ee6_0
+$ module load quay.io/biocontainers/twopaco/1.0.0--h7bb7ee6_1
+$ module help quay.io/biocontainers/twopaco/1.0.0--h7bb7ee6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

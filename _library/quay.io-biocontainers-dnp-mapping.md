@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dnp-mapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-mapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-mapping/container.yaml"
-updated_at: "2023-05-15 03:39:36.025918"
-latest: "1.0--h9f5acd7_1"
+updated_at: "2023-05-16 02:46:03.218745"
+latest: "1.0--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/dnp-mapping"
 aliases:
  - "dnp-mapping"
 versions:
  - "1.0--h9f5acd7_1"
+ - "1.0--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for dnp-mapping"
-config: {"url": "https://biocontainers.pro/tools/dnp-mapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-mapping", "latest": {"1.0--h9f5acd7_1": "sha256:61d02254f14045902e6fbfac0f75bab2ef5d6b0dd03de924be9a204de708364f"}, "tags": {"1.0--h9f5acd7_1": "sha256:61d02254f14045902e6fbfac0f75bab2ef5d6b0dd03de924be9a204de708364f"}, "docker": "quay.io/biocontainers/dnp-mapping", "aliases": {"dnp-mapping": "/usr/local/bin/dnp-mapping"}}
+config: {"url": "https://biocontainers.pro/tools/dnp-mapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-mapping", "latest": {"1.0--h9f5acd7_2": "sha256:c297de031689c20b202bc674d615aa998181c382d9184ae2ef623015b9bcb24d"}, "tags": {"1.0--h9f5acd7_1": "sha256:61d02254f14045902e6fbfac0f75bab2ef5d6b0dd03de924be9a204de708364f", "1.0--h9f5acd7_2": "sha256:c297de031689c20b202bc674d615aa998181c382d9184ae2ef623015b9bcb24d"}, "docker": "quay.io/biocontainers/dnp-mapping", "aliases": {"dnp-mapping": "/usr/local/bin/dnp-mapping"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnp-mapping.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dnp-mapping
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnp-mapping:1.0--h9f5acd7_1
+$ shpc install quay.io/biocontainers/dnp-mapping:1.0--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnp-mapping/1.0--h9f5acd7_1
-$ module help quay.io/biocontainers/dnp-mapping/1.0--h9f5acd7_1
+$ module load quay.io/biocontainers/dnp-mapping/1.0--h9f5acd7_2
+$ module help quay.io/biocontainers/dnp-mapping/1.0--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

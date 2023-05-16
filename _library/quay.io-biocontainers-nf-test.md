@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nf-test"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nf-test/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nf-test/container.yaml"
-updated_at: "2023-05-15 03:54:48.601854"
-latest: "0.7.3--h4a94de4_0"
+updated_at: "2023-05-16 02:58:11.845358"
+latest: "0.7.3--h2a3209d_2"
 container_url: "https://biocontainers.pro/tools/nf-test"
 aliases:
  - "nf-test"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.7.1--h4a94de4_0"
  - "0.7.3--h4a94de4_0"
+ - "0.7.3--h2a3209d_2"
 description: "singularity registry hpc automated addition for nf-test"
-config: {"url": "https://biocontainers.pro/tools/nf-test", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nf-test", "latest": {"0.7.3--h4a94de4_0": "sha256:0972f49f7785f870e326ec85674d617c5857e90b1ad5a1a8246499797df13a37"}, "tags": {"0.7.1--h4a94de4_0": "sha256:1c5339755137898063d2647e8039594d44219bc0c6cfd5f8caf0f62c0b270081", "0.7.3--h4a94de4_0": "sha256:0972f49f7785f870e326ec85674d617c5857e90b1ad5a1a8246499797df13a37"}, "docker": "quay.io/biocontainers/nf-test", "aliases": {"nf-test": "/usr/local/bin/nf-test", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du", "echo": "/usr/local/bin/echo"}}
+config: {"url": "https://biocontainers.pro/tools/nf-test", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nf-test", "latest": {"0.7.3--h2a3209d_2": "sha256:6b1697f105c2ed08564ca54094c76aaa2a2da4cf32acc2e4ff614057bbed3b01"}, "tags": {"0.7.1--h4a94de4_0": "sha256:1c5339755137898063d2647e8039594d44219bc0c6cfd5f8caf0f62c0b270081", "0.7.3--h4a94de4_0": "sha256:0972f49f7785f870e326ec85674d617c5857e90b1ad5a1a8246499797df13a37", "0.7.3--h2a3209d_2": "sha256:6b1697f105c2ed08564ca54094c76aaa2a2da4cf32acc2e4ff614057bbed3b01"}, "docker": "quay.io/biocontainers/nf-test", "aliases": {"nf-test": "/usr/local/bin/nf-test", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du", "echo": "/usr/local/bin/echo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nf-test.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/nf-test
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nf-test:0.7.3--h4a94de4_0
+$ shpc install quay.io/biocontainers/nf-test:0.7.3--h2a3209d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nf-test/0.7.3--h4a94de4_0
-$ module help quay.io/biocontainers/nf-test/0.7.3--h4a94de4_0
+$ module load quay.io/biocontainers/nf-test/0.7.3--h2a3209d_2
+$ module help quay.io/biocontainers/nf-test/0.7.3--h2a3209d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

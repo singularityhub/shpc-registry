@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/flash2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flash2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flash2/container.yaml"
-updated_at: "2023-05-15 03:35:43.130354"
-latest: "2.2.00--h7132678_4"
+updated_at: "2023-05-16 02:42:56.862981"
+latest: "2.2.00--h7132678_5"
 container_url: "https://biocontainers.pro/tools/flash2"
 aliases:
  - "flash2"
 versions:
  - "2.2.00--h7132678_4"
+ - "2.2.00--h7132678_5"
 description: "shpc-registry automated BioContainers addition for flash2"
-config: {"url": "https://biocontainers.pro/tools/flash2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flash2", "latest": {"2.2.00--h7132678_4": "sha256:de692808d98a7fc4cceb0a78addfdd1a5e41a1dd07deb31a334d1ed388a372f4"}, "tags": {"2.2.00--h7132678_4": "sha256:de692808d98a7fc4cceb0a78addfdd1a5e41a1dd07deb31a334d1ed388a372f4"}, "docker": "quay.io/biocontainers/flash2", "aliases": {"flash2": "/usr/local/bin/flash2"}}
+config: {"url": "https://biocontainers.pro/tools/flash2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flash2", "latest": {"2.2.00--h7132678_5": "sha256:8d9ea0c90699316266c803c1a2d20c707e71d6b84ac0fc26c3c8a7f0ce11c3a6"}, "tags": {"2.2.00--h7132678_4": "sha256:de692808d98a7fc4cceb0a78addfdd1a5e41a1dd07deb31a334d1ed388a372f4", "2.2.00--h7132678_5": "sha256:8d9ea0c90699316266c803c1a2d20c707e71d6b84ac0fc26c3c8a7f0ce11c3a6"}, "docker": "quay.io/biocontainers/flash2", "aliases": {"flash2": "/usr/local/bin/flash2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flash2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/flash2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flash2:2.2.00--h7132678_4
+$ shpc install quay.io/biocontainers/flash2:2.2.00--h7132678_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flash2/2.2.00--h7132678_4
-$ module help quay.io/biocontainers/flash2/2.2.00--h7132678_4
+$ module load quay.io/biocontainers/flash2/2.2.00--h7132678_5
+$ module help quay.io/biocontainers/flash2/2.2.00--h7132678_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

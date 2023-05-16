@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimal/container.yaml"
-updated_at: "2023-05-15 03:56:11.515750"
+updated_at: "2023-05-16 02:59:18.992408"
 latest: "1.4.1--h9f5acd7_6"
 container_url: "https://biocontainers.pro/tools/trimal"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/edena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edena/container.yaml"
-updated_at: "2023-05-15 04:01:11.024519"
-latest: "3.131028--h9f5acd7_4"
+updated_at: "2023-05-16 03:03:20.127086"
+latest: "3.131028--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/edena"
 aliases:
  - "edena"
 versions:
  - "3.131028--h9f5acd7_4"
+ - "3.131028--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for edena"
-config: {"url": "https://biocontainers.pro/tools/edena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edena", "latest": {"3.131028--h9f5acd7_4": "sha256:f93e665eab1c6db72ad08dd2dd35990b33c70010e890df878e548c0e48dd8064"}, "tags": {"3.131028--h9f5acd7_4": "sha256:f93e665eab1c6db72ad08dd2dd35990b33c70010e890df878e548c0e48dd8064"}, "docker": "quay.io/biocontainers/edena", "aliases": {"edena": "/usr/local/bin/edena"}}
+config: {"url": "https://biocontainers.pro/tools/edena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edena", "latest": {"3.131028--h4ac6f70_6": "sha256:6f6f95fa9f7a169371b46b2def25b683e5714082d43bf9c3139fc5e4ddc81d9e"}, "tags": {"3.131028--h9f5acd7_4": "sha256:f93e665eab1c6db72ad08dd2dd35990b33c70010e890df878e548c0e48dd8064", "3.131028--h4ac6f70_6": "sha256:6f6f95fa9f7a169371b46b2def25b683e5714082d43bf9c3139fc5e4ddc81d9e"}, "docker": "quay.io/biocontainers/edena", "aliases": {"edena": "/usr/local/bin/edena"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edena.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/edena
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/edena:3.131028--h9f5acd7_4
+$ shpc install quay.io/biocontainers/edena:3.131028--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/edena/3.131028--h9f5acd7_4
-$ module help quay.io/biocontainers/edena/3.131028--h9f5acd7_4
+$ module load quay.io/biocontainers/edena/3.131028--h4ac6f70_6
+$ module help quay.io/biocontainers/edena/3.131028--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

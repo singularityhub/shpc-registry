@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abismal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abismal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abismal/container.yaml"
-updated_at: "2023-05-15 04:16:00.928732"
-latest: "3.1.1--hd03093a_0"
+updated_at: "2023-05-16 03:15:19.933197"
+latest: "3.1.1--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/abismal"
 aliases:
  - "abismal"
@@ -13,8 +13,9 @@ aliases:
  - "simreads"
 versions:
  - "3.1.1--hd03093a_0"
+ - "3.1.1--hd03093a_1"
 description: "shpc-registry automated BioContainers addition for abismal"
-config: {"url": "https://biocontainers.pro/tools/abismal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abismal", "latest": {"3.1.1--hd03093a_0": "sha256:ba2852ae4d7adc88ca99f8d25ab7df9a74bf397138867dfd88ecd6130ab5998d"}, "tags": {"3.1.1--hd03093a_0": "sha256:ba2852ae4d7adc88ca99f8d25ab7df9a74bf397138867dfd88ecd6130ab5998d"}, "docker": "quay.io/biocontainers/abismal", "aliases": {"abismal": "/usr/local/bin/abismal", "abismalidx": "/usr/local/bin/abismalidx", "simreads": "/usr/local/bin/simreads"}}
+config: {"url": "https://biocontainers.pro/tools/abismal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abismal", "latest": {"3.1.1--hd03093a_1": "sha256:787094fb7bee8f4f5ce8965231db57cfb680a47953d2eb9d9d9df594534f8c4c"}, "tags": {"3.1.1--hd03093a_0": "sha256:ba2852ae4d7adc88ca99f8d25ab7df9a74bf397138867dfd88ecd6130ab5998d", "3.1.1--hd03093a_1": "sha256:787094fb7bee8f4f5ce8965231db57cfb680a47953d2eb9d9d9df594534f8c4c"}, "docker": "quay.io/biocontainers/abismal", "aliases": {"abismal": "/usr/local/bin/abismal", "abismalidx": "/usr/local/bin/abismalidx", "simreads": "/usr/local/bin/simreads"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abismal.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/abismal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abismal:3.1.1--hd03093a_0
+$ shpc install quay.io/biocontainers/abismal:3.1.1--hd03093a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abismal/3.1.1--hd03093a_0
-$ module help quay.io/biocontainers/abismal/3.1.1--hd03093a_0
+$ module load quay.io/biocontainers/abismal/3.1.1--hd03093a_1
+$ module help quay.io/biocontainers/abismal/3.1.1--hd03093a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

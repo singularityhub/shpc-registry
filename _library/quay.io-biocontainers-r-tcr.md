@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tcr/container.yaml"
-updated_at: "2023-05-15 03:50:43.927117"
+updated_at: "2023-05-16 02:54:55.842894"
 latest: "2.3.2--r42hecf12ef_4"
 container_url: "https://biocontainers.pro/tools/r-tcr"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/irfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irfinder/container.yaml"
-updated_at: "2023-05-15 04:01:16.284565"
-latest: "1.3.1--hec16e2b_2"
+updated_at: "2023-05-16 03:03:24.470649"
+latest: "1.3.1--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/irfinder"
 aliases:
  - "IRFinder"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.3.1--hec16e2b_2"
+ - "1.3.1--hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for irfinder"
-config: {"url": "https://biocontainers.pro/tools/irfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irfinder", "latest": {"1.3.1--hec16e2b_2": "sha256:75da0f3da1b5d823d5d6b882376dcebd07ac2cf81a7727c1d061e2563b9005bd"}, "tags": {"1.3.1--hec16e2b_2": "sha256:75da0f3da1b5d823d5d6b882376dcebd07ac2cf81a7727c1d061e2563b9005bd"}, "docker": "quay.io/biocontainers/irfinder", "aliases": {"IRFinder": "/usr/local/bin/IRFinder", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/irfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irfinder", "latest": {"1.3.1--hec16e2b_3": "sha256:a6565268aef8daeb25065d072e7d1d68e8348a09ced7e8cbd0b777ef06ce92d8"}, "tags": {"1.3.1--hec16e2b_2": "sha256:75da0f3da1b5d823d5d6b882376dcebd07ac2cf81a7727c1d061e2563b9005bd", "1.3.1--hec16e2b_3": "sha256:a6565268aef8daeb25065d072e7d1d68e8348a09ced7e8cbd0b777ef06ce92d8"}, "docker": "quay.io/biocontainers/irfinder", "aliases": {"IRFinder": "/usr/local/bin/IRFinder", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irfinder.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/irfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/irfinder:1.3.1--hec16e2b_2
+$ shpc install quay.io/biocontainers/irfinder:1.3.1--hec16e2b_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/irfinder/1.3.1--hec16e2b_2
-$ module help quay.io/biocontainers/irfinder/1.3.1--hec16e2b_2
+$ module load quay.io/biocontainers/irfinder/1.3.1--hec16e2b_3
+$ module help quay.io/biocontainers/irfinder/1.3.1--hec16e2b_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

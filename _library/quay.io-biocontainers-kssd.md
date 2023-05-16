@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/kssd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kssd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kssd/container.yaml"
-updated_at: "2023-05-15 03:52:33.403634"
-latest: "2.21--h7132678_0"
+updated_at: "2023-05-16 02:56:23.748725"
+latest: "2.21--h7132678_1"
 container_url: "https://biocontainers.pro/tools/kssd"
 aliases:
  - "kssd"
 versions:
  - "2.21--h7132678_0"
+ - "2.21--h7132678_1"
 description: "shpc-registry automated BioContainers addition for kssd"
-config: {"url": "https://biocontainers.pro/tools/kssd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kssd", "latest": {"2.21--h7132678_0": "sha256:0689f82346b3e9c007f48baa8d1dfa0558b01ff66d26e09dc0693032ae608f16"}, "tags": {"2.21--h7132678_0": "sha256:0689f82346b3e9c007f48baa8d1dfa0558b01ff66d26e09dc0693032ae608f16"}, "docker": "quay.io/biocontainers/kssd", "aliases": {"kssd": "/usr/local/bin/kssd"}}
+config: {"url": "https://biocontainers.pro/tools/kssd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kssd", "latest": {"2.21--h7132678_1": "sha256:2f1c6d168303359e09d69149b9546519277b4c48b97653f20896b251db4ef7a1"}, "tags": {"2.21--h7132678_0": "sha256:0689f82346b3e9c007f48baa8d1dfa0558b01ff66d26e09dc0693032ae608f16", "2.21--h7132678_1": "sha256:2f1c6d168303359e09d69149b9546519277b4c48b97653f20896b251db4ef7a1"}, "docker": "quay.io/biocontainers/kssd", "aliases": {"kssd": "/usr/local/bin/kssd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kssd.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/kssd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kssd:2.21--h7132678_0
+$ shpc install quay.io/biocontainers/kssd:2.21--h7132678_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kssd/2.21--h7132678_0
-$ module help quay.io/biocontainers/kssd/2.21--h7132678_0
+$ module load quay.io/biocontainers/kssd/2.21--h7132678_1
+$ module help quay.io/biocontainers/kssd/2.21--h7132678_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

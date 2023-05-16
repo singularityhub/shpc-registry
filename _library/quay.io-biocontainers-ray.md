@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ray/container.yaml"
-updated_at: "2023-05-15 04:13:45.040669"
-latest: "2.3.1--h105e827_4"
+updated_at: "2023-05-16 03:13:29.414805"
+latest: "2.3.1--h105e827_5"
 container_url: "https://biocontainers.pro/tools/ray"
 aliases:
  - "Ray"
@@ -21,8 +21,9 @@ aliases:
  - "oshrun"
 versions:
  - "2.3.1--h105e827_4"
+ - "2.3.1--h105e827_5"
 description: "shpc-registry automated BioContainers addition for ray"
-config: {"url": "https://biocontainers.pro/tools/ray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ray", "latest": {"2.3.1--h105e827_4": "sha256:eb31e83b1423b3f2f1a406e8ee6aeca49c679beadf61badb814174118f40f0fa"}, "tags": {"2.3.1--h105e827_4": "sha256:eb31e83b1423b3f2f1a406e8ee6aeca49c679beadf61badb814174118f40f0fa"}, "docker": "quay.io/biocontainers/ray", "aliases": {"Ray": "/usr/local/bin/Ray", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/ray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ray", "latest": {"2.3.1--h105e827_5": "sha256:b038f14bc2f0a6c94d2afd3b1a9c2f70c4d4c06a0d1ab61de22989ef75c5a661"}, "tags": {"2.3.1--h105e827_4": "sha256:eb31e83b1423b3f2f1a406e8ee6aeca49c679beadf61badb814174118f40f0fa", "2.3.1--h105e827_5": "sha256:b038f14bc2f0a6c94d2afd3b1a9c2f70c4d4c06a0d1ab61de22989ef75c5a661"}, "docker": "quay.io/biocontainers/ray", "aliases": {"Ray": "/usr/local/bin/Ray", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ray.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ray:2.3.1--h105e827_4
+$ shpc install quay.io/biocontainers/ray:2.3.1--h105e827_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ray/2.3.1--h105e827_4
-$ module help quay.io/biocontainers/ray/2.3.1--h105e827_4
+$ module load quay.io/biocontainers/ray/2.3.1--h105e827_5
+$ module help quay.io/biocontainers/ray/2.3.1--h105e827_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

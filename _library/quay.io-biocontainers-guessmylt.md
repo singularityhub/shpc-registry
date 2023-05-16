@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/guessmylt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/guessmylt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/guessmylt/container.yaml"
-updated_at: "2023-05-15 03:55:00.781840"
+updated_at: "2023-05-16 02:58:21.532941"
 latest: "0.2.5--py_0"
 container_url: "https://biocontainers.pro/tools/guessmylt"
 aliases:
