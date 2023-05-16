@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/muse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for muse
 latest:
-  1.0.rc--h5b5514e_6: sha256:c8ffa1f7b3576796d13380f942812076479f3cdd7a807ff6991877c90dd698ed
+  1.0.rc--h43eeafb_8: sha256:ceb69e23a5c14c8f82f123c2cce4e812b8e12c3bee3ebf91fbe659cefe90648c
 tags:
   1.0.rc--h5b5514e_6: sha256:c8ffa1f7b3576796d13380f942812076479f3cdd7a807ff6991877c90dd698ed
+  1.0.rc--h43eeafb_8: sha256:ceb69e23a5c14c8f82f123c2cce4e812b8e12c3bee3ebf91fbe659cefe90648c
 docker: quay.io/biocontainers/muse
 aliases:
   MuSE: /usr/local/bin/MuSE

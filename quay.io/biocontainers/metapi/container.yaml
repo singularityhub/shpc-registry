@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metapi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metapi
 latest:
-  2.4.0--pyhdfd78af_0: sha256:a43dd515da46fa320151998a6d9eb9658618630af60b41bfb13f8a9b4c4d1bac
+  2.5.0--pyhdfd78af_0: sha256:da6cae2c24d563625b0078b4498201af91aa8c383106bc990b3af105abe17fdb
 tags:
   2.4.0--pyhdfd78af_0: sha256:a43dd515da46fa320151998a6d9eb9658618630af60b41bfb13f8a9b4c4d1bac
+  2.5.0--pyhdfd78af_0: sha256:da6cae2c24d563625b0078b4498201af91aa8c383106bc990b3af105abe17fdb
 docker: quay.io/biocontainers/metapi
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0

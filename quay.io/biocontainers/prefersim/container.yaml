@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/prefersim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for prefersim
 latest:
-  1.0--h940b034_4: sha256:19aa8bd10a372556f0ade847ebfbde520c6d5cfa7b3da13fa9fb9c3612a0660c
+  1.0--h245ed52_6: sha256:6c0f9b1ec1cba6cf1a4f32199dbe2e80db72f14b77eef46063a9bfe54d27e6b3
 tags:
   1.0--h940b034_4: sha256:19aa8bd10a372556f0ade847ebfbde520c6d5cfa7b3da13fa9fb9c3612a0660c
+  1.0--h245ed52_6: sha256:6c0f9b1ec1cba6cf1a4f32199dbe2e80db72f14b77eef46063a9bfe54d27e6b3
 docker: quay.io/biocontainers/prefersim
 aliases:
   PReFerSim: /usr/local/bin/PReFerSim

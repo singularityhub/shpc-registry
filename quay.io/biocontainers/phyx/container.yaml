@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phyx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phyx
 latest:
-  1.1--hb7044ba_2: sha256:feb27c2f8c5bb5428e001c288903ae00f8367e1f5eeb6d1c424585c43e4ce489
+  1.1--h377b3bb_4: sha256:cde25367b2af07b6f42c3f94c790873384d088d18c79b054dbd6493cd2cb5a90
 tags:
   1.1--hb7044ba_2: sha256:feb27c2f8c5bb5428e001c288903ae00f8367e1f5eeb6d1c424585c43e4ce489
+  1.1--h377b3bb_4: sha256:cde25367b2af07b6f42c3f94c790873384d088d18c79b054dbd6493cd2cb5a90
 docker: quay.io/biocontainers/phyx
 aliases:
   pxaa2cdn: /usr/local/bin/pxaa2cdn

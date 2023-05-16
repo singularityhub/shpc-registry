@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/karect
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for karect
 latest:
-  1.0--h9f5acd7_4: sha256:5c49a42ea8edf231d2b624faa2290254e7fa948b1b1407b7b08ff5c5138de2df
+  1.0--h4ac6f70_6: sha256:8956608740893088f301b3251a68c7e2c6bee8254b27416eb2f6cffbad843389
 tags:
   1.0--h9f5acd7_4: sha256:5c49a42ea8edf231d2b624faa2290254e7fa948b1b1407b7b08ff5c5138de2df
+  1.0--h4ac6f70_6: sha256:8956608740893088f301b3251a68c7e2c6bee8254b27416eb2f6cffbad843389
 docker: quay.io/biocontainers/karect
 aliases:
   karect: /usr/local/bin/karect

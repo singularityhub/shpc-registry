@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dnp-corrprofile
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dnp-corrprofile
 latest:
-  1.0--hf1761c0_3: sha256:01696c8f88bcfd50f0b5fa3f83b15edd58799af1c07b9654090394b5a46e4257
+  1.0--h6a68c12_5: sha256:255292c3da7dfe9ebb710a2adf84452950e31135d1f03b8e65dcc7f068dfd3c1
 tags:
   1.0--hf1761c0_3: sha256:01696c8f88bcfd50f0b5fa3f83b15edd58799af1c07b9654090394b5a46e4257
+  1.0--h6a68c12_5: sha256:255292c3da7dfe9ebb710a2adf84452950e31135d1f03b8e65dcc7f068dfd3c1
 docker: quay.io/biocontainers/dnp-corrprofile
 aliases:
   dnp-corrprofile: /usr/local/bin/dnp-corrprofile

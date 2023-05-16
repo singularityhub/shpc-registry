@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fqgrep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fqgrep
 latest:
-  1.0.2--h9f5acd7_0: sha256:42a060b8612a1115c65fbe88746e107e085419d9a9718c9c34d3776cddc41e0d
+  1.0.2--h4ac6f70_2: sha256:21847e08814941818b19fe792d508447a1554f72e9f3e5c1debdd5aaba43fc4e
 tags:
   1.0.2--h9f5acd7_0: sha256:42a060b8612a1115c65fbe88746e107e085419d9a9718c9c34d3776cddc41e0d
+  1.0.2--h4ac6f70_2: sha256:21847e08814941818b19fe792d508447a1554f72e9f3e5c1debdd5aaba43fc4e
 docker: quay.io/biocontainers/fqgrep
 aliases:
   fqgrep: /usr/local/bin/fqgrep

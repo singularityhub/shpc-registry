@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/uvaia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for uvaia
 latest:
-  2.0.1--hc308579_0: sha256:de75ff534bbc25d266e2af1c439b3d9ed0837b63db06e4cc74bb1450b669fb4c
+  2.0.1--h8bd2d3b_2: sha256:851e6c97b98a3e2d271e86332d449bb94da82c4e2606f1dc8291cfe6acebfb13
 tags:
   2.0.1--hc308579_0: sha256:de75ff534bbc25d266e2af1c439b3d9ed0837b63db06e4cc74bb1450b669fb4c
+  2.0.1--h8bd2d3b_2: sha256:851e6c97b98a3e2d271e86332d449bb94da82c4e2606f1dc8291cfe6acebfb13
 docker: quay.io/biocontainers/uvaia
 aliases:
   uvaia: /usr/local/bin/uvaia

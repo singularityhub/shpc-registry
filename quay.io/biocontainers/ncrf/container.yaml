@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ncrf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncrf
 latest:
-  1.01.02--hec16e2b_3: sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6
+  1.01.02--h031d066_5: sha256:9da8870a85aa26fae19df40ff734baf98e1f410f339b3d8c0a2541c9c6d15a2f
 tags:
   1.01.02--hec16e2b_3: sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6
+  1.01.02--h031d066_5: sha256:9da8870a85aa26fae19df40ff734baf98e1f410f339b3d8c0a2541c9c6d15a2f
 docker: quay.io/biocontainers/ncrf
 aliases:
   NCRF: /usr/local/bin/NCRF

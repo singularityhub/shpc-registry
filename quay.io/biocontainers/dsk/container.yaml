@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dsk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dsk
 latest:
-  2.3.3--h5b5514e_2: sha256:7dc2b558c08c23666a3aedc8fcfff8c220991a4da4e44a71a3bfa31846fb43a3
+  2.3.3--h43eeafb_4: sha256:beddb088bf39626a7deb865c192af7b85e4d9cc6fdfa3cf7da9a63f044772a30
 tags:
   2.3.3--h5b5514e_2: sha256:7dc2b558c08c23666a3aedc8fcfff8c220991a4da4e44a71a3bfa31846fb43a3
+  2.3.3--h43eeafb_4: sha256:beddb088bf39626a7deb865c192af7b85e4d9cc6fdfa3cf7da9a63f044772a30
 docker: quay.io/biocontainers/dsk
 aliases:
   dsk: /usr/local/bin/dsk
