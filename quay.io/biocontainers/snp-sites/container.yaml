@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snp-sites
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snp-sites
 latest:
-  2.5.1--h7132678_2: sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826
+  2.5.1--he4a0461_4: sha256:b62321cd56eb7abf69623058963b352f8b5caeb9ce0c8a2a89ab16de654c842d
 tags:
   2.5.1--h7132678_2: sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826
+  2.5.1--he4a0461_4: sha256:b62321cd56eb7abf69623058963b352f8b5caeb9ce0c8a2a89ab16de654c842d
 docker: quay.io/biocontainers/snp-sites
 aliases:
   snp-sites: /usr/local/bin/snp-sites

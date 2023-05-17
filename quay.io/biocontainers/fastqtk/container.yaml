@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fastqtk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastqtk
 latest:
-  0.27--h5b5514e_1: sha256:c4fa685a5ee96a2b528b40e9676e06d1cfa259cbe6cedbca57562b09d2b50320
+  0.27--h43eeafb_3: sha256:78e043ed8d538fca28d00ff47bbe86295064158ca18a814bf4e40249d4719d51
 tags:
   0.27--h5b5514e_1: sha256:c4fa685a5ee96a2b528b40e9676e06d1cfa259cbe6cedbca57562b09d2b50320
+  0.27--h43eeafb_3: sha256:78e043ed8d538fca28d00ff47bbe86295064158ca18a814bf4e40249d4719d51
 docker: quay.io/biocontainers/fastqtk
 aliases:
   fastqtk: /usr/local/bin/fastqtk

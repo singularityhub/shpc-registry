@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-config-any
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-config-any
 latest:
-  0.32--pl5321hec16e2b_3: sha256:ea712f84b35ffd0c4ca46f54492251cbb43460f560a5eea35b7e265a8e779e52
+  0.33--pl5321h031d066_2: sha256:52df7f09c989dea5067bdb053b3aba4059a545c8a8c84317f026bea9a9326c9e
 tags:
   0.32--pl5321hec16e2b_3: sha256:ea712f84b35ffd0c4ca46f54492251cbb43460f560a5eea35b7e265a8e779e52
+  0.33--pl5321h031d066_2: sha256:52df7f09c989dea5067bdb053b3aba4059a545c8a8c84317f026bea9a9326c9e
 docker: quay.io/biocontainers/perl-config-any
 aliases:
   cpanm: /usr/local/bin/cpanm

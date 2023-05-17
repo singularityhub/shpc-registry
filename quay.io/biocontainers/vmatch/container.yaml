@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vmatch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vmatch
 latest:
-  2.3.0--hec16e2b_4: sha256:23c75961f1aa6960e280955628070b0f90984464fa25dda23d5a9e3d0b0425b5
+  2.3.0--hec16e2b_5: sha256:faf4d6f1b954f075f472fbffaac5b064faf07774b40cb59713bb69f2dffa9e4b
 tags:
   2.3.0--hec16e2b_4: sha256:23c75961f1aa6960e280955628070b0f90984464fa25dda23d5a9e3d0b0425b5
+  2.3.0--hec16e2b_5: sha256:faf4d6f1b954f075f472fbffaac5b064faf07774b40cb59713bb69f2dffa9e4b
 docker: quay.io/biocontainers/vmatch
 aliases:
   Vmatchtrans.pl: /usr/local/bin/Vmatchtrans.pl

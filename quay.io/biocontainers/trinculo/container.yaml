@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/trinculo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trinculo
 latest:
-  0.96--h2b92225_6: sha256:eb8160f618b752e153ada51f1900255493a994fe5d71d26810f4883e2444ac9a
+  0.96--h2b92225_7: sha256:e1f48735941ddb1501e5e0e4ef6e940a924f38a2d83a4b1b34738806e792ab32
 tags:
   0.96--h2b92225_6: sha256:eb8160f618b752e153ada51f1900255493a994fe5d71d26810f4883e2444ac9a
+  0.96--h2b92225_7: sha256:e1f48735941ddb1501e5e0e4ef6e940a924f38a2d83a4b1b34738806e792ab32
 docker: quay.io/biocontainers/trinculo
 aliases:
   trinculo: /usr/local/bin/trinculo

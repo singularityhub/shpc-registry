@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/frogs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for frogs
 latest:
-  4.0.1--h9ee0642_0: sha256:a431cfb483be854dd73634d68494c14f955f5da00075dd9989d02e1a273365fd
+  4.1.0--h9ee0642_1: sha256:d8b1995ab028e65aae68803e3fbbf5e89f30a92e2937644b4f962d123a6366d6
 tags:
   4.0.1--h9ee0642_0: sha256:a431cfb483be854dd73634d68494c14f955f5da00075dd9989d02e1a273365fd
+  4.1.0--h9ee0642_1: sha256:d8b1995ab028e65aae68803e3fbbf5e89f30a92e2937644b4f962d123a6366d6
 docker: quay.io/biocontainers/frogs
 aliases:
   AbundanceStats: /usr/local/bin/AbundanceStats
