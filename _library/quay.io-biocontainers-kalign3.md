@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/kalign3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kalign3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kalign3/container.yaml"
-updated_at: "2023-05-16 02:53:30.879860"
-latest: "3.3.2--hec16e2b_0"
+updated_at: "2023-05-17 03:00:09.068396"
+latest: "3.3.2--h031d066_2"
 container_url: "https://biocontainers.pro/tools/kalign3"
 aliases:
  - "kalign"
  - "kchaos"
 versions:
  - "3.3.2--hec16e2b_0"
+ - "3.3.2--h031d066_2"
 description: "shpc-registry automated BioContainers addition for kalign3"
-config: {"url": "https://biocontainers.pro/tools/kalign3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kalign3", "latest": {"3.3.2--hec16e2b_0": "sha256:23b624001b98d1c7374b7c77303b3dadef92a46e5a986a3c5f94ec525992fb25"}, "tags": {"3.3.2--hec16e2b_0": "sha256:23b624001b98d1c7374b7c77303b3dadef92a46e5a986a3c5f94ec525992fb25"}, "docker": "quay.io/biocontainers/kalign3", "aliases": {"kalign": "/usr/local/bin/kalign", "kchaos": "/usr/local/bin/kchaos"}}
+config: {"url": "https://biocontainers.pro/tools/kalign3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kalign3", "latest": {"3.3.2--h031d066_2": "sha256:51693074f7dca989620607ae3578854830880e2971fa34feba8537b71d471b08"}, "tags": {"3.3.2--hec16e2b_0": "sha256:23b624001b98d1c7374b7c77303b3dadef92a46e5a986a3c5f94ec525992fb25", "3.3.2--h031d066_2": "sha256:51693074f7dca989620607ae3578854830880e2971fa34feba8537b71d471b08"}, "docker": "quay.io/biocontainers/kalign3", "aliases": {"kalign": "/usr/local/bin/kalign", "kchaos": "/usr/local/bin/kchaos"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kalign3.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/kalign3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kalign3:3.3.2--hec16e2b_0
+$ shpc install quay.io/biocontainers/kalign3:3.3.2--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kalign3/3.3.2--hec16e2b_0
-$ module help quay.io/biocontainers/kalign3/3.3.2--hec16e2b_0
+$ module load quay.io/biocontainers/kalign3/3.3.2--h031d066_2
+$ module help quay.io/biocontainers/kalign3/3.3.2--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

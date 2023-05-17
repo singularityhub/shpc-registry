@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqtk/container.yaml"
-updated_at: "2023-05-16 02:46:01.077736"
-latest: "0.2.1--h9f5acd7_0"
+updated_at: "2023-05-17 02:50:29.028255"
+latest: "0.2.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/fqtk"
 aliases:
  - "fqtk"
 versions:
  - "0.2.0--h9f5acd7_0"
  - "0.2.1--h9f5acd7_0"
+ - "0.2.1--h4ac6f70_2"
 description: "singularity registry hpc automated addition for fqtk"
-config: {"url": "https://biocontainers.pro/tools/fqtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqtk", "latest": {"0.2.1--h9f5acd7_0": "sha256:baae6d9c3f50c13121c651915174c300164a405b06aabe53c69ff9e58f3f2bc5"}, "tags": {"0.2.0--h9f5acd7_0": "sha256:14bdfc6ceba1585638ccf09033dfe68882bd0bf75ee5f807596e9d6676f5cbcd", "0.2.1--h9f5acd7_0": "sha256:baae6d9c3f50c13121c651915174c300164a405b06aabe53c69ff9e58f3f2bc5"}, "docker": "quay.io/biocontainers/fqtk", "aliases": {"fqtk": "/usr/local/bin/fqtk"}}
+config: {"url": "https://biocontainers.pro/tools/fqtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqtk", "latest": {"0.2.1--h4ac6f70_2": "sha256:aff0201fcaa402c80df6127cfcbc22327e226b01fe19b3871b1e654009a35702"}, "tags": {"0.2.0--h9f5acd7_0": "sha256:14bdfc6ceba1585638ccf09033dfe68882bd0bf75ee5f807596e9d6676f5cbcd", "0.2.1--h9f5acd7_0": "sha256:baae6d9c3f50c13121c651915174c300164a405b06aabe53c69ff9e58f3f2bc5", "0.2.1--h4ac6f70_2": "sha256:aff0201fcaa402c80df6127cfcbc22327e226b01fe19b3871b1e654009a35702"}, "docker": "quay.io/biocontainers/fqtk", "aliases": {"fqtk": "/usr/local/bin/fqtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqtk.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fqtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fqtk:0.2.1--h9f5acd7_0
+$ shpc install quay.io/biocontainers/fqtk:0.2.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fqtk/0.2.1--h9f5acd7_0
-$ module help quay.io/biocontainers/fqtk/0.2.1--h9f5acd7_0
+$ module load quay.io/biocontainers/fqtk/0.2.1--h4ac6f70_2
+$ module help quay.io/biocontainers/fqtk/0.2.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

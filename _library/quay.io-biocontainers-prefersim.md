@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/prefersim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prefersim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prefersim/container.yaml"
-updated_at: "2023-05-16 03:20:21.762250"
-latest: "1.0--h940b034_4"
+updated_at: "2023-05-17 03:34:14.206773"
+latest: "1.0--h245ed52_6"
 container_url: "https://biocontainers.pro/tools/prefersim"
 aliases:
  - "PReFerSim"
 versions:
  - "1.0--h940b034_4"
+ - "1.0--h245ed52_6"
 description: "shpc-registry automated BioContainers addition for prefersim"
-config: {"url": "https://biocontainers.pro/tools/prefersim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prefersim", "latest": {"1.0--h940b034_4": "sha256:19aa8bd10a372556f0ade847ebfbde520c6d5cfa7b3da13fa9fb9c3612a0660c"}, "tags": {"1.0--h940b034_4": "sha256:19aa8bd10a372556f0ade847ebfbde520c6d5cfa7b3da13fa9fb9c3612a0660c"}, "docker": "quay.io/biocontainers/prefersim", "aliases": {"PReFerSim": "/usr/local/bin/PReFerSim"}}
+config: {"url": "https://biocontainers.pro/tools/prefersim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prefersim", "latest": {"1.0--h245ed52_6": "sha256:6c0f9b1ec1cba6cf1a4f32199dbe2e80db72f14b77eef46063a9bfe54d27e6b3"}, "tags": {"1.0--h940b034_4": "sha256:19aa8bd10a372556f0ade847ebfbde520c6d5cfa7b3da13fa9fb9c3612a0660c", "1.0--h245ed52_6": "sha256:6c0f9b1ec1cba6cf1a4f32199dbe2e80db72f14b77eef46063a9bfe54d27e6b3"}, "docker": "quay.io/biocontainers/prefersim", "aliases": {"PReFerSim": "/usr/local/bin/PReFerSim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prefersim.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/prefersim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prefersim:1.0--h940b034_4
+$ shpc install quay.io/biocontainers/prefersim:1.0--h245ed52_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prefersim/1.0--h940b034_4
-$ module help quay.io/biocontainers/prefersim/1.0--h940b034_4
+$ module load quay.io/biocontainers/prefersim/1.0--h245ed52_6
+$ module help quay.io/biocontainers/prefersim/1.0--h245ed52_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

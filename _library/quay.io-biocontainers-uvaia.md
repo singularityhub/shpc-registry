@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/uvaia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uvaia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uvaia/container.yaml"
-updated_at: "2023-05-16 02:39:14.826601"
-latest: "2.0.1--hc308579_0"
+updated_at: "2023-05-17 02:41:26.210628"
+latest: "2.0.1--h8bd2d3b_2"
 container_url: "https://biocontainers.pro/tools/uvaia"
 aliases:
  - "uvaia"
@@ -15,8 +15,9 @@ aliases:
  - "uvaialign"
 versions:
  - "2.0.1--hc308579_0"
+ - "2.0.1--h8bd2d3b_2"
 description: "shpc-registry automated BioContainers addition for uvaia"
-config: {"url": "https://biocontainers.pro/tools/uvaia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uvaia", "latest": {"2.0.1--hc308579_0": "sha256:de75ff534bbc25d266e2af1c439b3d9ed0837b63db06e4cc74bb1450b669fb4c"}, "tags": {"2.0.1--hc308579_0": "sha256:de75ff534bbc25d266e2af1c439b3d9ed0837b63db06e4cc74bb1450b669fb4c"}, "docker": "quay.io/biocontainers/uvaia", "aliases": {"uvaia": "/usr/local/bin/uvaia", "uvaia_legacy": "/usr/local/bin/uvaia_legacy", "uvaiaball": "/usr/local/bin/uvaiaball", "uvaiaclust": "/usr/local/bin/uvaiaclust", "uvaialign": "/usr/local/bin/uvaialign"}}
+config: {"url": "https://biocontainers.pro/tools/uvaia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uvaia", "latest": {"2.0.1--h8bd2d3b_2": "sha256:851e6c97b98a3e2d271e86332d449bb94da82c4e2606f1dc8291cfe6acebfb13"}, "tags": {"2.0.1--hc308579_0": "sha256:de75ff534bbc25d266e2af1c439b3d9ed0837b63db06e4cc74bb1450b669fb4c", "2.0.1--h8bd2d3b_2": "sha256:851e6c97b98a3e2d271e86332d449bb94da82c4e2606f1dc8291cfe6acebfb13"}, "docker": "quay.io/biocontainers/uvaia", "aliases": {"uvaia": "/usr/local/bin/uvaia", "uvaia_legacy": "/usr/local/bin/uvaia_legacy", "uvaiaball": "/usr/local/bin/uvaiaball", "uvaiaclust": "/usr/local/bin/uvaiaclust", "uvaialign": "/usr/local/bin/uvaialign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/uvaia.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/uvaia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/uvaia:2.0.1--hc308579_0
+$ shpc install quay.io/biocontainers/uvaia:2.0.1--h8bd2d3b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/uvaia/2.0.1--hc308579_0
-$ module help quay.io/biocontainers/uvaia/2.0.1--hc308579_0
+$ module load quay.io/biocontainers/uvaia/2.0.1--h8bd2d3b_2
+$ module help quay.io/biocontainers/uvaia/2.0.1--h8bd2d3b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

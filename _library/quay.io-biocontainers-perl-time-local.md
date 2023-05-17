@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-time-local"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-time-local/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-time-local/container.yaml"
-updated_at: "2023-05-16 02:36:16.238338"
+updated_at: "2023-05-17 02:37:28.669993"
 latest: "1.2300--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/perl-time-local"
 aliases:
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.30--pl5321hdfd78af_0"
  - "1.2300--pl5.22.0_0"
+ - "1.35--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-time-local"
-config: {"url": "https://biocontainers.pro/tools/perl-time-local", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-time-local", "latest": {"1.2300--pl5.22.0_0": "sha256:db91b1d6c11471eb040a03973305e9b92348e5f772fc27d246991bae1711357d"}, "tags": {"1.30--pl5321hdfd78af_0": "sha256:0eb70a778831c45b2296aa5f46555e7f6bf6cdf0eda52148d4e96c85b0fff2c7", "1.2300--pl5.22.0_0": "sha256:db91b1d6c11471eb040a03973305e9b92348e5f772fc27d246991bae1711357d"}, "docker": "quay.io/biocontainers/perl-time-local", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-time-local", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-time-local", "latest": {"1.2300--pl5.22.0_0": "sha256:db91b1d6c11471eb040a03973305e9b92348e5f772fc27d246991bae1711357d"}, "tags": {"1.30--pl5321hdfd78af_0": "sha256:0eb70a778831c45b2296aa5f46555e7f6bf6cdf0eda52148d4e96c85b0fff2c7", "1.2300--pl5.22.0_0": "sha256:db91b1d6c11471eb040a03973305e9b92348e5f772fc27d246991bae1711357d", "1.35--pl5321hdfd78af_0": "sha256:edfb233a0d9a99e807e9fa37d6c1c4b8783e9e81aaaaa320e31ba041570ddaad"}, "docker": "quay.io/biocontainers/perl-time-local", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-time-local.

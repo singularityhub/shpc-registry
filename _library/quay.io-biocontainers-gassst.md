@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gassst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gassst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gassst/container.yaml"
-updated_at: "2023-05-16 02:48:38.486881"
-latest: "1.28--h87f3376_0"
+updated_at: "2023-05-17 02:53:55.761975"
+latest: "1.28--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/gassst"
 aliases:
  - "Gassst"
 versions:
  - "1.28--h87f3376_0"
+ - "1.28--hdbdd923_2"
 description: "singularity registry hpc automated addition for gassst"
-config: {"url": "https://biocontainers.pro/tools/gassst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gassst", "latest": {"1.28--h87f3376_0": "sha256:542b88b547b43885076a66778eda80cd4af6e3643706db82bff071bb4e605b38"}, "tags": {"1.28--h87f3376_0": "sha256:542b88b547b43885076a66778eda80cd4af6e3643706db82bff071bb4e605b38"}, "docker": "quay.io/biocontainers/gassst", "aliases": {"Gassst": "/usr/local/bin/Gassst"}}
+config: {"url": "https://biocontainers.pro/tools/gassst", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gassst", "latest": {"1.28--hdbdd923_2": "sha256:72eecf1e1c281b6806e410c7d50e458b63ef76dd102b3de3be53bff60fd64286"}, "tags": {"1.28--h87f3376_0": "sha256:542b88b547b43885076a66778eda80cd4af6e3643706db82bff071bb4e605b38", "1.28--hdbdd923_2": "sha256:72eecf1e1c281b6806e410c7d50e458b63ef76dd102b3de3be53bff60fd64286"}, "docker": "quay.io/biocontainers/gassst", "aliases": {"Gassst": "/usr/local/bin/Gassst"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gassst.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gassst
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gassst:1.28--h87f3376_0
+$ shpc install quay.io/biocontainers/gassst:1.28--hdbdd923_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gassst/1.28--h87f3376_0
-$ module help quay.io/biocontainers/gassst/1.28--h87f3376_0
+$ module load quay.io/biocontainers/gassst/1.28--hdbdd923_2
+$ module help quay.io/biocontainers/gassst/1.28--hdbdd923_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/contrafold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contrafold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contrafold/container.yaml"
-updated_at: "2023-05-16 02:46:30.819012"
-latest: "2.02--h9f5acd7_1"
+updated_at: "2023-05-17 02:51:08.613255"
+latest: "2.02--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/contrafold"
 aliases:
  - "contrafold"
@@ -14,8 +14,9 @@ aliases:
  - "streamzip"
 versions:
  - "2.02--h9f5acd7_1"
+ - "2.02--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for contrafold"
-config: {"url": "https://biocontainers.pro/tools/contrafold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for contrafold", "latest": {"2.02--h9f5acd7_1": "sha256:5bcefef7adfe3c3517f092bfa9ca4fcab9e3fc099dba56e35bac24d1975c2eea"}, "tags": {"2.02--h9f5acd7_1": "sha256:5bcefef7adfe3c3517f092bfa9ca4fcab9e3fc099dba56e35bac24d1975c2eea"}, "docker": "quay.io/biocontainers/contrafold", "aliases": {"contrafold": "/usr/local/bin/contrafold", "score_prediction": "/usr/local/bin/score_prediction", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/contrafold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for contrafold", "latest": {"2.02--h4ac6f70_3": "sha256:ac7783d6f69169a24310b6b679d4a00d95148c1f3f8ec7589425c4a4c00b21e4"}, "tags": {"2.02--h9f5acd7_1": "sha256:5bcefef7adfe3c3517f092bfa9ca4fcab9e3fc099dba56e35bac24d1975c2eea", "2.02--h4ac6f70_3": "sha256:ac7783d6f69169a24310b6b679d4a00d95148c1f3f8ec7589425c4a4c00b21e4"}, "docker": "quay.io/biocontainers/contrafold", "aliases": {"contrafold": "/usr/local/bin/contrafold", "score_prediction": "/usr/local/bin/score_prediction", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/contrafold.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/contrafold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/contrafold:2.02--h9f5acd7_1
+$ shpc install quay.io/biocontainers/contrafold:2.02--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/contrafold/2.02--h9f5acd7_1
-$ module help quay.io/biocontainers/contrafold/2.02--h9f5acd7_1
+$ module load quay.io/biocontainers/contrafold/2.02--h4ac6f70_3
+$ module help quay.io/biocontainers/contrafold/2.02--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-peer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-peer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-peer/container.yaml"
-updated_at: "2023-05-16 02:45:18.168203"
+updated_at: "2023-05-17 02:49:31.782297"
 latest: "1.3--r341h470a237_1"
 container_url: "https://biocontainers.pro/tools/r-peer"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/muse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muse/container.yaml"
-updated_at: "2023-05-16 02:57:03.706128"
-latest: "1.0.rc--h5b5514e_6"
+updated_at: "2023-05-17 03:04:44.638158"
+latest: "1.0.rc--h43eeafb_8"
 container_url: "https://biocontainers.pro/tools/muse"
 aliases:
  - "MuSE"
 versions:
  - "1.0.rc--h5b5514e_6"
+ - "1.0.rc--h43eeafb_8"
 description: "shpc-registry automated BioContainers addition for muse"
-config: {"url": "https://biocontainers.pro/tools/muse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muse", "latest": {"1.0.rc--h5b5514e_6": "sha256:c8ffa1f7b3576796d13380f942812076479f3cdd7a807ff6991877c90dd698ed"}, "tags": {"1.0.rc--h5b5514e_6": "sha256:c8ffa1f7b3576796d13380f942812076479f3cdd7a807ff6991877c90dd698ed"}, "docker": "quay.io/biocontainers/muse", "aliases": {"MuSE": "/usr/local/bin/MuSE"}}
+config: {"url": "https://biocontainers.pro/tools/muse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muse", "latest": {"1.0.rc--h43eeafb_8": "sha256:ceb69e23a5c14c8f82f123c2cce4e812b8e12c3bee3ebf91fbe659cefe90648c"}, "tags": {"1.0.rc--h5b5514e_6": "sha256:c8ffa1f7b3576796d13380f942812076479f3cdd7a807ff6991877c90dd698ed", "1.0.rc--h43eeafb_8": "sha256:ceb69e23a5c14c8f82f123c2cce4e812b8e12c3bee3ebf91fbe659cefe90648c"}, "docker": "quay.io/biocontainers/muse", "aliases": {"MuSE": "/usr/local/bin/MuSE"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/muse.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/muse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/muse:1.0.rc--h5b5514e_6
+$ shpc install quay.io/biocontainers/muse:1.0.rc--h43eeafb_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/muse/1.0.rc--h5b5514e_6
-$ module help quay.io/biocontainers/muse/1.0.rc--h5b5514e_6
+$ module load quay.io/biocontainers/muse/1.0.rc--h43eeafb_8
+$ module help quay.io/biocontainers/muse/1.0.rc--h43eeafb_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

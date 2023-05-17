@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/karect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/karect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/karect/container.yaml"
-updated_at: "2023-05-16 03:04:27.994895"
-latest: "1.0--h9f5acd7_4"
+updated_at: "2023-05-17 03:14:15.652194"
+latest: "1.0--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/karect"
 aliases:
  - "karect"
 versions:
  - "1.0--h9f5acd7_4"
+ - "1.0--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for karect"
-config: {"url": "https://biocontainers.pro/tools/karect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for karect", "latest": {"1.0--h9f5acd7_4": "sha256:5c49a42ea8edf231d2b624faa2290254e7fa948b1b1407b7b08ff5c5138de2df"}, "tags": {"1.0--h9f5acd7_4": "sha256:5c49a42ea8edf231d2b624faa2290254e7fa948b1b1407b7b08ff5c5138de2df"}, "docker": "quay.io/biocontainers/karect", "aliases": {"karect": "/usr/local/bin/karect"}}
+config: {"url": "https://biocontainers.pro/tools/karect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for karect", "latest": {"1.0--h4ac6f70_6": "sha256:8956608740893088f301b3251a68c7e2c6bee8254b27416eb2f6cffbad843389"}, "tags": {"1.0--h9f5acd7_4": "sha256:5c49a42ea8edf231d2b624faa2290254e7fa948b1b1407b7b08ff5c5138de2df", "1.0--h4ac6f70_6": "sha256:8956608740893088f301b3251a68c7e2c6bee8254b27416eb2f6cffbad843389"}, "docker": "quay.io/biocontainers/karect", "aliases": {"karect": "/usr/local/bin/karect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/karect.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/karect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/karect:1.0--h9f5acd7_4
+$ shpc install quay.io/biocontainers/karect:1.0--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/karect/1.0--h9f5acd7_4
-$ module help quay.io/biocontainers/karect/1.0--h9f5acd7_4
+$ module load quay.io/biocontainers/karect/1.0--h4ac6f70_6
+$ module help quay.io/biocontainers/karect/1.0--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

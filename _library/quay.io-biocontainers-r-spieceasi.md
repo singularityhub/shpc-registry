@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-spieceasi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spieceasi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spieceasi/container.yaml"
-updated_at: "2023-05-16 02:35:39.640580"
-latest: "1.1.1--r42h87f3376_2"
+updated_at: "2023-05-17 02:36:37.930806"
+latest: "1.1.1--r42hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/r-spieceasi"
 
 versions:
  - "1.1.1--r41h87f3376_1"
  - "1.1.1--r42h87f3376_2"
+ - "1.1.1--r42hdbdd923_4"
 description: "shpc-registry automated BioContainers addition for r-spieceasi"
-config: {"url": "https://biocontainers.pro/tools/r-spieceasi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spieceasi", "latest": {"1.1.1--r42h87f3376_2": "sha256:739dba8b0f9a8ff6fa1d27c29cf92d50bd2890ebba26515cf3fcb65de1aea346"}, "tags": {"1.1.1--r41h87f3376_1": "sha256:daae54f3a91d74b9444a97b0772ba11ca12dc2b477e6fa299b8f2d08b8ef7861", "1.1.1--r42h87f3376_2": "sha256:739dba8b0f9a8ff6fa1d27c29cf92d50bd2890ebba26515cf3fcb65de1aea346"}, "docker": "quay.io/biocontainers/r-spieceasi"}
+config: {"url": "https://biocontainers.pro/tools/r-spieceasi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spieceasi", "latest": {"1.1.1--r42hdbdd923_4": "sha256:7cb6b401ae1f0d3085b525474ecab33caf8c1890d1cc1d04fc369a33b195d23f"}, "tags": {"1.1.1--r41h87f3376_1": "sha256:daae54f3a91d74b9444a97b0772ba11ca12dc2b477e6fa299b8f2d08b8ef7861", "1.1.1--r42h87f3376_2": "sha256:739dba8b0f9a8ff6fa1d27c29cf92d50bd2890ebba26515cf3fcb65de1aea346", "1.1.1--r42hdbdd923_4": "sha256:7cb6b401ae1f0d3085b525474ecab33caf8c1890d1cc1d04fc369a33b195d23f"}, "docker": "quay.io/biocontainers/r-spieceasi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spieceasi.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-spieceasi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-spieceasi:1.1.1--r42h87f3376_2
+$ shpc install quay.io/biocontainers/r-spieceasi:1.1.1--r42hdbdd923_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-spieceasi/1.1.1--r42h87f3376_2
-$ module help quay.io/biocontainers/r-spieceasi/1.1.1--r42h87f3376_2
+$ module load quay.io/biocontainers/r-spieceasi/1.1.1--r42hdbdd923_4
+$ module help quay.io/biocontainers/r-spieceasi/1.1.1--r42hdbdd923_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

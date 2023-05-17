@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phyx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyx/container.yaml"
-updated_at: "2023-05-16 03:01:44.208775"
-latest: "1.1--hb7044ba_2"
+updated_at: "2023-05-17 03:10:47.466562"
+latest: "1.1--h377b3bb_4"
 container_url: "https://biocontainers.pro/tools/phyx"
 aliases:
  - "pxaa2cdn"
@@ -65,8 +65,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.1--hb7044ba_2"
+ - "1.1--h377b3bb_4"
 description: "shpc-registry automated BioContainers addition for phyx"
-config: {"url": "https://biocontainers.pro/tools/phyx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyx", "latest": {"1.1--hb7044ba_2": "sha256:feb27c2f8c5bb5428e001c288903ae00f8367e1f5eeb6d1c424585c43e4ce489"}, "tags": {"1.1--hb7044ba_2": "sha256:feb27c2f8c5bb5428e001c288903ae00f8367e1f5eeb6d1c424585c43e4ce489"}, "docker": "quay.io/biocontainers/phyx", "aliases": {"pxaa2cdn": "/usr/local/bin/pxaa2cdn", "pxbdfit": "/usr/local/bin/pxbdfit", "pxbdsim": "/usr/local/bin/pxbdsim", "pxboot": "/usr/local/bin/pxboot", "pxbp": "/usr/local/bin/pxbp", "pxcat": "/usr/local/bin/pxcat", "pxclsq": "/usr/local/bin/pxclsq", "pxcltr": "/usr/local/bin/pxcltr", "pxcolt": "/usr/local/bin/pxcolt", "pxcomp": "/usr/local/bin/pxcomp", "pxconsq": "/usr/local/bin/pxconsq", "pxcontrates": "/usr/local/bin/pxcontrates", "pxfqfilt": "/usr/local/bin/pxfqfilt", "pxlog": "/usr/local/bin/pxlog", "pxlssq": "/usr/local/bin/pxlssq", "pxlstr": "/usr/local/bin/pxlstr", "pxmono": "/usr/local/bin/pxmono", "pxmrca": "/usr/local/bin/pxmrca", "pxmrcacut": "/usr/local/bin/pxmrcacut", "pxmrcaname": "/usr/local/bin/pxmrcaname", "pxnj": "/usr/local/bin/pxnj", "pxnw": "/usr/local/bin/pxnw", "pxrecode": "/usr/local/bin/pxrecode", "pxrevcomp": "/usr/local/bin/pxrevcomp", "pxrls": "/usr/local/bin/pxrls", "pxrlt": "/usr/local/bin/pxrlt", "pxrmk": "/usr/local/bin/pxrmk", "pxrms": "/usr/local/bin/pxrms", "pxrmt": "/usr/local/bin/pxrmt", "pxrr": "/usr/local/bin/pxrr", "pxs2fa": "/usr/local/bin/pxs2fa", "pxs2nex": "/usr/local/bin/pxs2nex", "pxs2phy": "/usr/local/bin/pxs2phy", "pxseqgen": "/usr/local/bin/pxseqgen", "pxssort": "/usr/local/bin/pxssort", "pxsstat": "/usr/local/bin/pxsstat", "pxstrec": "/usr/local/bin/pxstrec", "pxsw": "/usr/local/bin/pxsw", "pxt2new": "/usr/local/bin/pxt2new", "pxt2nex": "/usr/local/bin/pxt2nex", "pxtcol": "/usr/local/bin/pxtcol", "pxtcomb": "/usr/local/bin/pxtcomb", "pxtgen": "/usr/local/bin/pxtgen", "pxtlate": "/usr/local/bin/pxtlate", "pxtrt": "/usr/local/bin/pxtrt", "pxtscale": "/usr/local/bin/pxtscale", "pxupgma": "/usr/local/bin/pxupgma", "pxvcf2fa": "/usr/local/bin/pxvcf2fa", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/phyx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyx", "latest": {"1.1--h377b3bb_4": "sha256:cde25367b2af07b6f42c3f94c790873384d088d18c79b054dbd6493cd2cb5a90"}, "tags": {"1.1--hb7044ba_2": "sha256:feb27c2f8c5bb5428e001c288903ae00f8367e1f5eeb6d1c424585c43e4ce489", "1.1--h377b3bb_4": "sha256:cde25367b2af07b6f42c3f94c790873384d088d18c79b054dbd6493cd2cb5a90"}, "docker": "quay.io/biocontainers/phyx", "aliases": {"pxaa2cdn": "/usr/local/bin/pxaa2cdn", "pxbdfit": "/usr/local/bin/pxbdfit", "pxbdsim": "/usr/local/bin/pxbdsim", "pxboot": "/usr/local/bin/pxboot", "pxbp": "/usr/local/bin/pxbp", "pxcat": "/usr/local/bin/pxcat", "pxclsq": "/usr/local/bin/pxclsq", "pxcltr": "/usr/local/bin/pxcltr", "pxcolt": "/usr/local/bin/pxcolt", "pxcomp": "/usr/local/bin/pxcomp", "pxconsq": "/usr/local/bin/pxconsq", "pxcontrates": "/usr/local/bin/pxcontrates", "pxfqfilt": "/usr/local/bin/pxfqfilt", "pxlog": "/usr/local/bin/pxlog", "pxlssq": "/usr/local/bin/pxlssq", "pxlstr": "/usr/local/bin/pxlstr", "pxmono": "/usr/local/bin/pxmono", "pxmrca": "/usr/local/bin/pxmrca", "pxmrcacut": "/usr/local/bin/pxmrcacut", "pxmrcaname": "/usr/local/bin/pxmrcaname", "pxnj": "/usr/local/bin/pxnj", "pxnw": "/usr/local/bin/pxnw", "pxrecode": "/usr/local/bin/pxrecode", "pxrevcomp": "/usr/local/bin/pxrevcomp", "pxrls": "/usr/local/bin/pxrls", "pxrlt": "/usr/local/bin/pxrlt", "pxrmk": "/usr/local/bin/pxrmk", "pxrms": "/usr/local/bin/pxrms", "pxrmt": "/usr/local/bin/pxrmt", "pxrr": "/usr/local/bin/pxrr", "pxs2fa": "/usr/local/bin/pxs2fa", "pxs2nex": "/usr/local/bin/pxs2nex", "pxs2phy": "/usr/local/bin/pxs2phy", "pxseqgen": "/usr/local/bin/pxseqgen", "pxssort": "/usr/local/bin/pxssort", "pxsstat": "/usr/local/bin/pxsstat", "pxstrec": "/usr/local/bin/pxstrec", "pxsw": "/usr/local/bin/pxsw", "pxt2new": "/usr/local/bin/pxt2new", "pxt2nex": "/usr/local/bin/pxt2nex", "pxtcol": "/usr/local/bin/pxtcol", "pxtcomb": "/usr/local/bin/pxtcomb", "pxtgen": "/usr/local/bin/pxtgen", "pxtlate": "/usr/local/bin/pxtlate", "pxtrt": "/usr/local/bin/pxtrt", "pxtscale": "/usr/local/bin/pxtscale", "pxupgma": "/usr/local/bin/pxupgma", "pxvcf2fa": "/usr/local/bin/pxvcf2fa", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phyx.
@@ -81,7 +82,7 @@ $ shpc install quay.io/biocontainers/phyx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phyx:1.1--hb7044ba_2
+$ shpc install quay.io/biocontainers/phyx:1.1--h377b3bb_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -93,8 +94,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phyx/1.1--hb7044ba_2
-$ module help quay.io/biocontainers/phyx/1.1--hb7044ba_2
+$ module load quay.io/biocontainers/phyx/1.1--h377b3bb_4
+$ module help quay.io/biocontainers/phyx/1.1--h377b3bb_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

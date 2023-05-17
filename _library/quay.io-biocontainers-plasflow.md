@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasflow/container.yaml"
-updated_at: "2023-05-16 02:59:18.091910"
+updated_at: "2023-05-17 03:07:39.484575"
 latest: "1.1.0--py35_0"
 container_url: "https://biocontainers.pro/tools/plasflow"
 aliases:

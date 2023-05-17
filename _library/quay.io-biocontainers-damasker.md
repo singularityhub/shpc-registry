@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/damasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/damasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/damasker/container.yaml"
-updated_at: "2023-05-16 03:19:13.962981"
-latest: "1.0p1--hec16e2b_4"
+updated_at: "2023-05-17 03:32:48.925433"
+latest: "1.0p1--h031d066_6"
 container_url: "https://biocontainers.pro/tools/damasker"
 aliases:
  - "HPC.REPmask"
@@ -15,8 +15,9 @@ aliases:
  - "datander"
 versions:
  - "1.0p1--hec16e2b_4"
+ - "1.0p1--h031d066_6"
 description: "shpc-registry automated BioContainers addition for damasker"
-config: {"url": "https://biocontainers.pro/tools/damasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for damasker", "latest": {"1.0p1--hec16e2b_4": "sha256:ed4af8957f360fd46c6efad21cf255cb92a2d9a42a3b422c503122ca38477740"}, "tags": {"1.0p1--hec16e2b_4": "sha256:ed4af8957f360fd46c6efad21cf255cb92a2d9a42a3b422c503122ca38477740"}, "docker": "quay.io/biocontainers/damasker", "aliases": {"HPC.REPmask": "/usr/local/bin/HPC.REPmask", "HPC.TANmask": "/usr/local/bin/HPC.TANmask", "REPmask": "/usr/local/bin/REPmask", "TANmask": "/usr/local/bin/TANmask", "datander": "/usr/local/bin/datander"}}
+config: {"url": "https://biocontainers.pro/tools/damasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for damasker", "latest": {"1.0p1--h031d066_6": "sha256:e8acfae33b317163a5e105ad913d27c704ef8abff3223d4ce2f2d91eb896fb72"}, "tags": {"1.0p1--hec16e2b_4": "sha256:ed4af8957f360fd46c6efad21cf255cb92a2d9a42a3b422c503122ca38477740", "1.0p1--h031d066_6": "sha256:e8acfae33b317163a5e105ad913d27c704ef8abff3223d4ce2f2d91eb896fb72"}, "docker": "quay.io/biocontainers/damasker", "aliases": {"HPC.REPmask": "/usr/local/bin/HPC.REPmask", "HPC.TANmask": "/usr/local/bin/HPC.TANmask", "REPmask": "/usr/local/bin/REPmask", "TANmask": "/usr/local/bin/TANmask", "datander": "/usr/local/bin/datander"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/damasker.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/damasker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/damasker:1.0p1--hec16e2b_4
+$ shpc install quay.io/biocontainers/damasker:1.0p1--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/damasker/1.0p1--hec16e2b_4
-$ module help quay.io/biocontainers/damasker/1.0p1--hec16e2b_4
+$ module load quay.io/biocontainers/damasker/1.0p1--h031d066_6
+$ module help quay.io/biocontainers/damasker/1.0p1--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncrf/container.yaml"
-updated_at: "2023-05-16 02:48:31.343792"
-latest: "1.01.02--hec16e2b_3"
+updated_at: "2023-05-17 02:53:46.376239"
+latest: "1.01.02--h031d066_5"
 container_url: "https://biocontainers.pro/tools/ncrf"
 aliases:
  - "NCRF"
@@ -31,8 +31,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "1.01.02--hec16e2b_3"
+ - "1.01.02--h031d066_5"
 description: "shpc-registry automated BioContainers addition for ncrf"
-config: {"url": "https://biocontainers.pro/tools/ncrf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncrf", "latest": {"1.01.02--hec16e2b_3": "sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6"}, "tags": {"1.01.02--hec16e2b_3": "sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6"}, "docker": "quay.io/biocontainers/ncrf", "aliases": {"NCRF": "/usr/local/bin/NCRF", "ncrf_cat": "/usr/local/bin/ncrf_cat", "ncrf_cat.py": "/usr/local/bin/ncrf_cat.py", "ncrf_consensus_filter": "/usr/local/bin/ncrf_consensus_filter", "ncrf_consensus_filter.py": "/usr/local/bin/ncrf_consensus_filter.py", "ncrf_parse.py": "/usr/local/bin/ncrf_parse.py", "ncrf_resolve_overlaps": "/usr/local/bin/ncrf_resolve_overlaps", "ncrf_resolve_overlaps.py": "/usr/local/bin/ncrf_resolve_overlaps.py", "ncrf_sort": "/usr/local/bin/ncrf_sort", "ncrf_sort.py": "/usr/local/bin/ncrf_sort.py", "ncrf_summary": "/usr/local/bin/ncrf_summary", "ncrf_summary.py": "/usr/local/bin/ncrf_summary.py", "ncrf_to_bed": "/usr/local/bin/ncrf_to_bed", "ncrf_to_bed.py": "/usr/local/bin/ncrf_to_bed.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/ncrf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncrf", "latest": {"1.01.02--h031d066_5": "sha256:9da8870a85aa26fae19df40ff734baf98e1f410f339b3d8c0a2541c9c6d15a2f"}, "tags": {"1.01.02--hec16e2b_3": "sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6", "1.01.02--h031d066_5": "sha256:9da8870a85aa26fae19df40ff734baf98e1f410f339b3d8c0a2541c9c6d15a2f"}, "docker": "quay.io/biocontainers/ncrf", "aliases": {"NCRF": "/usr/local/bin/NCRF", "ncrf_cat": "/usr/local/bin/ncrf_cat", "ncrf_cat.py": "/usr/local/bin/ncrf_cat.py", "ncrf_consensus_filter": "/usr/local/bin/ncrf_consensus_filter", "ncrf_consensus_filter.py": "/usr/local/bin/ncrf_consensus_filter.py", "ncrf_parse.py": "/usr/local/bin/ncrf_parse.py", "ncrf_resolve_overlaps": "/usr/local/bin/ncrf_resolve_overlaps", "ncrf_resolve_overlaps.py": "/usr/local/bin/ncrf_resolve_overlaps.py", "ncrf_sort": "/usr/local/bin/ncrf_sort", "ncrf_sort.py": "/usr/local/bin/ncrf_sort.py", "ncrf_summary": "/usr/local/bin/ncrf_summary", "ncrf_summary.py": "/usr/local/bin/ncrf_summary.py", "ncrf_to_bed": "/usr/local/bin/ncrf_to_bed", "ncrf_to_bed.py": "/usr/local/bin/ncrf_to_bed.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncrf.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/ncrf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncrf:1.01.02--hec16e2b_3
+$ shpc install quay.io/biocontainers/ncrf:1.01.02--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncrf/1.01.02--hec16e2b_3
-$ module help quay.io/biocontainers/ncrf/1.01.02--hec16e2b_3
+$ module load quay.io/biocontainers/ncrf/1.01.02--h031d066_5
+$ module help quay.io/biocontainers/ncrf/1.01.02--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

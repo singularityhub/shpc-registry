@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fasta_windows"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasta_windows/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasta_windows/container.yaml"
-updated_at: "2023-05-16 03:12:42.217753"
-latest: "0.2.4--hec16e2b_1"
+updated_at: "2023-05-17 03:24:34.176950"
+latest: "0.2.4--h031d066_3"
 container_url: "https://biocontainers.pro/tools/fasta_windows"
 aliases:
  - "fasta_windows"
 versions:
  - "0.2.4--hec16e2b_1"
+ - "0.2.4--h031d066_3"
 description: "shpc-registry automated BioContainers addition for fasta_windows"
-config: {"url": "https://biocontainers.pro/tools/fasta_windows", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasta_windows", "latest": {"0.2.4--hec16e2b_1": "sha256:cdcbceb94d381b3a24fcdd25694d1cbb2a86f00bc2f5d81da0b23d58340e0445"}, "tags": {"0.2.4--hec16e2b_1": "sha256:cdcbceb94d381b3a24fcdd25694d1cbb2a86f00bc2f5d81da0b23d58340e0445"}, "docker": "quay.io/biocontainers/fasta_windows", "aliases": {"fasta_windows": "/usr/local/bin/fasta_windows"}}
+config: {"url": "https://biocontainers.pro/tools/fasta_windows", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasta_windows", "latest": {"0.2.4--h031d066_3": "sha256:1779fac716a9724c924a0e446f2ffe9cf6201901cb0a882a0c1b9e5e064a9979"}, "tags": {"0.2.4--hec16e2b_1": "sha256:cdcbceb94d381b3a24fcdd25694d1cbb2a86f00bc2f5d81da0b23d58340e0445", "0.2.4--h031d066_3": "sha256:1779fac716a9724c924a0e446f2ffe9cf6201901cb0a882a0c1b9e5e064a9979"}, "docker": "quay.io/biocontainers/fasta_windows", "aliases": {"fasta_windows": "/usr/local/bin/fasta_windows"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fasta_windows.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fasta_windows
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fasta_windows:0.2.4--hec16e2b_1
+$ shpc install quay.io/biocontainers/fasta_windows:0.2.4--h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fasta_windows/0.2.4--hec16e2b_1
-$ module help quay.io/biocontainers/fasta_windows/0.2.4--hec16e2b_1
+$ module load quay.io/biocontainers/fasta_windows/0.2.4--h031d066_3
+$ module help quay.io/biocontainers/fasta_windows/0.2.4--h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

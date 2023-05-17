@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaphyler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaphyler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaphyler/container.yaml"
-updated_at: "2023-05-16 02:59:21.726030"
-latest: "1.25--hec16e2b_6"
+updated_at: "2023-05-17 03:07:43.968315"
+latest: "1.25--h031d066_7"
 container_url: "https://biocontainers.pro/tools/metaphyler"
 aliases:
  - "buildMetaphyler.pl"
@@ -30,8 +30,9 @@ aliases:
  - "makemat"
 versions:
  - "1.25--hec16e2b_6"
+ - "1.25--h031d066_7"
 description: "shpc-registry automated BioContainers addition for metaphyler"
-config: {"url": "https://biocontainers.pro/tools/metaphyler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaphyler", "latest": {"1.25--hec16e2b_6": "sha256:45fe1435b5b087ce26d44fa6ab07ae5f574f39c74b5678c3fdd8503ed375c0bd"}, "tags": {"1.25--hec16e2b_6": "sha256:45fe1435b5b087ce26d44fa6ab07ae5f574f39c74b5678c3fdd8503ed375c0bd"}, "docker": "quay.io/biocontainers/metaphyler", "aliases": {"buildMetaphyler.pl": "/usr/local/bin/buildMetaphyler.pl", "combine": "/usr/local/bin/combine", "installMetaphyler.pl": "/usr/local/bin/installMetaphyler.pl", "metaphylerClassify": "/usr/local/bin/metaphylerClassify", "metaphylerTrain": "/usr/local/bin/metaphylerTrain", "report.pl": "/usr/local/bin/report.pl", "runClassifier.pl": "/usr/local/bin/runClassifier.pl", "runMetaphyler.pl": "/usr/local/bin/runMetaphyler.pl", "simuReads": "/usr/local/bin/simuReads", "taxprof": "/usr/local/bin/taxprof", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/metaphyler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaphyler", "latest": {"1.25--h031d066_7": "sha256:38046cc041aa01de689f1fa1cb80bf85a56261f2b736e125018055204a38c44b"}, "tags": {"1.25--hec16e2b_6": "sha256:45fe1435b5b087ce26d44fa6ab07ae5f574f39c74b5678c3fdd8503ed375c0bd", "1.25--h031d066_7": "sha256:38046cc041aa01de689f1fa1cb80bf85a56261f2b736e125018055204a38c44b"}, "docker": "quay.io/biocontainers/metaphyler", "aliases": {"buildMetaphyler.pl": "/usr/local/bin/buildMetaphyler.pl", "combine": "/usr/local/bin/combine", "installMetaphyler.pl": "/usr/local/bin/installMetaphyler.pl", "metaphylerClassify": "/usr/local/bin/metaphylerClassify", "metaphylerTrain": "/usr/local/bin/metaphylerTrain", "report.pl": "/usr/local/bin/report.pl", "runClassifier.pl": "/usr/local/bin/runClassifier.pl", "runMetaphyler.pl": "/usr/local/bin/runMetaphyler.pl", "simuReads": "/usr/local/bin/simuReads", "taxprof": "/usr/local/bin/taxprof", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaphyler.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/metaphyler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaphyler:1.25--hec16e2b_6
+$ shpc install quay.io/biocontainers/metaphyler:1.25--h031d066_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaphyler/1.25--hec16e2b_6
-$ module help quay.io/biocontainers/metaphyler/1.25--hec16e2b_6
+$ module load quay.io/biocontainers/metaphyler/1.25--h031d066_7
+$ module help quay.io/biocontainers/metaphyler/1.25--h031d066_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

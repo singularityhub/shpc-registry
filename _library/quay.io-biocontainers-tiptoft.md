@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tiptoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiptoft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiptoft/container.yaml"
-updated_at: "2023-05-16 02:36:10.506860"
+updated_at: "2023-05-17 02:37:20.796698"
 latest: "1.0.2--py37h8902056_3"
 container_url: "https://biocontainers.pro/tools/tiptoft"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/psdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psdm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psdm/container.yaml"
-updated_at: "2023-05-16 02:59:44.765900"
-latest: "0.2.0--hec16e2b_1"
+updated_at: "2023-05-17 03:08:14.405858"
+latest: "0.2.0--h031d066_3"
 container_url: "https://biocontainers.pro/tools/psdm"
 aliases:
  - "psdm"
 versions:
  - "0.2.0--hec16e2b_1"
+ - "0.2.0--h031d066_3"
 description: "shpc-registry automated BioContainers addition for psdm"
-config: {"url": "https://biocontainers.pro/tools/psdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psdm", "latest": {"0.2.0--hec16e2b_1": "sha256:d217f8d5850dfd3dcafa49b194eba7b5579b94a81565570557b81118de305b6a"}, "tags": {"0.2.0--hec16e2b_1": "sha256:d217f8d5850dfd3dcafa49b194eba7b5579b94a81565570557b81118de305b6a"}, "docker": "quay.io/biocontainers/psdm", "aliases": {"psdm": "/usr/local/bin/psdm"}}
+config: {"url": "https://biocontainers.pro/tools/psdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psdm", "latest": {"0.2.0--h031d066_3": "sha256:fa495bbe1c600390216466570cb4ff4b5bcdd419d83aaae55e7fe43dff97dac3"}, "tags": {"0.2.0--hec16e2b_1": "sha256:d217f8d5850dfd3dcafa49b194eba7b5579b94a81565570557b81118de305b6a", "0.2.0--h031d066_3": "sha256:fa495bbe1c600390216466570cb4ff4b5bcdd419d83aaae55e7fe43dff97dac3"}, "docker": "quay.io/biocontainers/psdm", "aliases": {"psdm": "/usr/local/bin/psdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psdm.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/psdm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psdm:0.2.0--hec16e2b_1
+$ shpc install quay.io/biocontainers/psdm:0.2.0--h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psdm/0.2.0--hec16e2b_1
-$ module help quay.io/biocontainers/psdm/0.2.0--hec16e2b_1
+$ module load quay.io/biocontainers/psdm/0.2.0--h031d066_3
+$ module help quay.io/biocontainers/psdm/0.2.0--h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

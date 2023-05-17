@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tidyheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidyheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidyheatmap/container.yaml"
-updated_at: "2023-05-16 02:52:18.421518"
+updated_at: "2023-05-17 02:58:36.916351"
 latest: "1.8.1--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-tidyheatmap"
 

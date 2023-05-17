@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/svict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svict/container.yaml"
-updated_at: "2023-05-16 02:48:37.895905"
-latest: "1.0.1--hd03093a_3"
+updated_at: "2023-05-17 02:53:54.939967"
+latest: "1.0.1--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/svict"
 aliases:
  - "svict"
 versions:
  - "1.0.1--hd03093a_3"
+ - "1.0.1--hdcf5f25_5"
 description: "shpc-registry automated BioContainers addition for svict"
-config: {"url": "https://biocontainers.pro/tools/svict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svict", "latest": {"1.0.1--hd03093a_3": "sha256:d8cb74d96578e959454d209906996bcac2c441f98cf674a2cee5a0f5472743e9"}, "tags": {"1.0.1--hd03093a_3": "sha256:d8cb74d96578e959454d209906996bcac2c441f98cf674a2cee5a0f5472743e9"}, "docker": "quay.io/biocontainers/svict", "aliases": {"svict": "/usr/local/bin/svict"}}
+config: {"url": "https://biocontainers.pro/tools/svict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svict", "latest": {"1.0.1--hdcf5f25_5": "sha256:ec4b0a49aef6f45b90ae3cd5ca37ab81d2394802b5dee0d681d2f40408b1fe54"}, "tags": {"1.0.1--hd03093a_3": "sha256:d8cb74d96578e959454d209906996bcac2c441f98cf674a2cee5a0f5472743e9", "1.0.1--hdcf5f25_5": "sha256:ec4b0a49aef6f45b90ae3cd5ca37ab81d2394802b5dee0d681d2f40408b1fe54"}, "docker": "quay.io/biocontainers/svict", "aliases": {"svict": "/usr/local/bin/svict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svict.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/svict
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svict:1.0.1--hd03093a_3
+$ shpc install quay.io/biocontainers/svict:1.0.1--hdcf5f25_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svict/1.0.1--hd03093a_3
-$ module help quay.io/biocontainers/svict/1.0.1--hd03093a_3
+$ module load quay.io/biocontainers/svict/1.0.1--hdcf5f25_5
+$ module help quay.io/biocontainers/svict/1.0.1--hdcf5f25_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/autogrid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autogrid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autogrid/container.yaml"
-updated_at: "2023-05-16 02:35:47.445813"
-latest: "4.2.6--h9f5acd7_1"
+updated_at: "2023-05-17 02:36:48.917755"
+latest: "4.2.6--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/autogrid"
 aliases:
  - "autogrid4"
 versions:
  - "4.2.6--h9f5acd7_1"
+ - "4.2.6--h4ac6f70_3"
 description: "singularity registry hpc automated addition for autogrid"
-config: {"url": "https://biocontainers.pro/tools/autogrid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autogrid", "latest": {"4.2.6--h9f5acd7_1": "sha256:d596f8bbcd037ca092e5df0ab4c2b1cddf58d680a0d58704221175a7aaff56c4"}, "tags": {"4.2.6--h9f5acd7_1": "sha256:d596f8bbcd037ca092e5df0ab4c2b1cddf58d680a0d58704221175a7aaff56c4"}, "docker": "quay.io/biocontainers/autogrid", "aliases": {"autogrid4": "/usr/local/bin/autogrid4"}}
+config: {"url": "https://biocontainers.pro/tools/autogrid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autogrid", "latest": {"4.2.6--h4ac6f70_3": "sha256:b579ddcf2bd976846802770fca3d6f6e454f97fbdbd0a442b5e4c3e6f44f3abf"}, "tags": {"4.2.6--h9f5acd7_1": "sha256:d596f8bbcd037ca092e5df0ab4c2b1cddf58d680a0d58704221175a7aaff56c4", "4.2.6--h4ac6f70_3": "sha256:b579ddcf2bd976846802770fca3d6f6e454f97fbdbd0a442b5e4c3e6f44f3abf"}, "docker": "quay.io/biocontainers/autogrid", "aliases": {"autogrid4": "/usr/local/bin/autogrid4"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autogrid.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/autogrid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/autogrid:4.2.6--h9f5acd7_1
+$ shpc install quay.io/biocontainers/autogrid:4.2.6--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/autogrid/4.2.6--h9f5acd7_1
-$ module help quay.io/biocontainers/autogrid/4.2.6--h9f5acd7_1
+$ module load quay.io/biocontainers/autogrid/4.2.6--h4ac6f70_3
+$ module help quay.io/biocontainers/autogrid/4.2.6--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-purbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-purbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-purbayes/container.yaml"
-updated_at: "2023-05-16 02:51:00.176294"
+updated_at: "2023-05-17 02:56:57.776037"
 latest: "1.3--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-purbayes"
 aliases:
