@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/roguenarok
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for roguenarok
 latest:
-  1.0.1--hec16e2b_1: sha256:371cfa16e827812d40d4fd7292b42531f2f4d3a0b8fa496624c500e909c62b2c
+  1.0.1--h031d066_3: sha256:dadf83db2e4879de33806f03b1e75e57b1edf6cbafcce8a6cd9fba88b194e511
 tags:
   1.0.1--hec16e2b_1: sha256:371cfa16e827812d40d4fd7292b42531f2f4d3a0b8fa496624c500e909c62b2c
+  1.0.1--h031d066_3: sha256:dadf83db2e4879de33806f03b1e75e57b1edf6cbafcce8a6cd9fba88b194e511
 docker: quay.io/biocontainers/roguenarok
 aliases:
   RogueNaRok: /usr/local/bin/RogueNaRok

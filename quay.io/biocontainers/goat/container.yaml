@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/goat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for goat
 latest:
-  0.2.5--h92d785c_0: sha256:c2328cf080c4bb54a0fc848617c13f131006cad9303d81f82b88aaa655b1e3fd
+  0.2.5--h9d3141d_2: sha256:6f0470a092a28424edcb2a3fd3d2dcc963f94e768c9f466f1b4c6f546cc260d5
 tags:
   0.2.0--h92d785c_0: sha256:b8b9f6fb938aabf6ff97e9f78334fe19da86c65ea2de6054c98bab12f07dc1d6
   0.2.5--h92d785c_0: sha256:c2328cf080c4bb54a0fc848617c13f131006cad9303d81f82b88aaa655b1e3fd
+  0.2.5--h9d3141d_2: sha256:6f0470a092a28424edcb2a3fd3d2dcc963f94e768c9f466f1b4c6f546cc260d5
 docker: quay.io/biocontainers/goat
 aliases:
   goat-cli: /usr/local/bin/goat-cli

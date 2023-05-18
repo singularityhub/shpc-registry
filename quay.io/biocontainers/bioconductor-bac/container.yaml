@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-bac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bac
 latest:
-  1.58.0--r42hc0cfd56_0: sha256:f292b2f24764f9cd69bf1770b16e9f910ff088b906b462761be6741a719b51c4
+  1.58.0--r42ha9d7317_2: sha256:19e6a878c30f39e67fa0e0bce177273067845e32d1df336f3a45e5f2a1ceb31f
 tags:
   1.54.0--r41hc0cfd56_2: sha256:c69a959426dd39720597992418aa0f30699ddb2d0b706f6a023fcd7f7b8ce945
   1.58.0--r42hc0cfd56_0: sha256:f292b2f24764f9cd69bf1770b16e9f910ff088b906b462761be6741a719b51c4
+  1.58.0--r42ha9d7317_2: sha256:19e6a878c30f39e67fa0e0bce177273067845e32d1df336f3a45e5f2a1ceb31f
 docker: quay.io/biocontainers/bioconductor-bac

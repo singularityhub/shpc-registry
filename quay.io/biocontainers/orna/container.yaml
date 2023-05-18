@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/orna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orna
 latest:
-  2.0--hd65806c_2: sha256:0f2806f8faaba4178cd5609b4d1a8ade755ea883c00e911477b29842bbac438b
+  2.0--h385d65c_4: sha256:5ec93ba3eedcad865d79ee7f53c777a5b6485cc3f314c93c55722cfbe54388db
 tags:
   2.0--hd65806c_2: sha256:0f2806f8faaba4178cd5609b4d1a8ade755ea883c00e911477b29842bbac438b
+  2.0--h385d65c_4: sha256:5ec93ba3eedcad865d79ee7f53c777a5b6485cc3f314c93c55722cfbe54388db
 docker: quay.io/biocontainers/orna
 aliases:
   ORNA: /usr/local/bin/ORNA

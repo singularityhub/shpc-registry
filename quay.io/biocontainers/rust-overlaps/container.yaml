@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rust-overlaps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rust-overlaps
 latest:
-  0.1.1--h7132678_7: sha256:02d445e0122a974a8febacd13901aee09f5f4c171116698fe7fa052907d8441a
+  0.1.1--he4a0461_9: sha256:a933a2ea33492bd51feaee3416b3fc064afd047ee458ab5663afdb9c0509c7b6
 tags:
   0.1.1--h7132678_7: sha256:02d445e0122a974a8febacd13901aee09f5f4c171116698fe7fa052907d8441a
+  0.1.1--he4a0461_9: sha256:a933a2ea33492bd51feaee3416b3fc064afd047ee458ab5663afdb9c0509c7b6
 docker: quay.io/biocontainers/rust-overlaps
 aliases:
   rust-overlaps: /usr/local/bin/rust-overlaps

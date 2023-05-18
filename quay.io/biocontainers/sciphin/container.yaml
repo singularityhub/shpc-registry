@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sciphin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sciphin
 latest:
-  1.0.1--h7ff8a90_1: sha256:c9586cd3ed93dd56927a4609a62101051a1f8adbf0e61632bfa39ae41df6b171
+  1.0.1--h21ec9f0_2: sha256:8b0b36726b3e384665600e5e5289be38bcf13abaefdad9f35847301f98ddb0f6
 tags:
   1.0.1--h7ff8a90_1: sha256:c9586cd3ed93dd56927a4609a62101051a1f8adbf0e61632bfa39ae41df6b171
+  1.0.1--h21ec9f0_2: sha256:8b0b36726b3e384665600e5e5289be38bcf13abaefdad9f35847301f98ddb0f6
 docker: quay.io/biocontainers/sciphin
 aliases:
   sciphin: /usr/local/bin/sciphin
