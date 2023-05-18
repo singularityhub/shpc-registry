@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-timescape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timescape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timescape/container.yaml"
-updated_at: "2023-05-18 03:28:06.379391"
+updated_at: "2023-05-18 05:05:42.296257"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timescape"
 aliases:

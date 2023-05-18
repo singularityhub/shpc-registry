@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/encode-blacklist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/encode-blacklist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/encode-blacklist/container.yaml"
-updated_at: "2023-05-18 03:28:13.555080"
+updated_at: "2023-05-18 05:05:51.474409"
 latest: "2.0--ha7703dc_3"
 container_url: "https://biocontainers.pro/tools/encode-blacklist"
 aliases:
