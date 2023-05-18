@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/brawn
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for brawn
+latest:
+  1.0.1--pyhdfd78af_0: sha256:501b58cbf967ad6e9c8b0acb3169a3b51a18a6c7ec63dd39c01eba27d4c824f0
+tags:
+  1.0.1--pyhdfd78af_0: sha256:501b58cbf967ad6e9c8b0acb3169a3b51a18a6c7ec63dd39c01eba27d4c824f0
+docker: quay.io/biocontainers/brawn
+aliases:
+  brawn: /usr/local/bin/brawn
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

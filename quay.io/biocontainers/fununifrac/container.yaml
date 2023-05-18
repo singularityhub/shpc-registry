@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/fununifrac
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fununifrac
+latest:
+  0.0.1--pyh7cba7a3_0: sha256:68fa46a13e9e7f84b2192a8faff02fe3175a706e484bdc9b175b20f6f8c04f25
+tags:
+  0.0.1--pyh7cba7a3_0: sha256:68fa46a13e9e7f84b2192a8faff02fe3175a706e484bdc9b175b20f6f8c04f25
+docker: quay.io/biocontainers/fununifrac
+aliases:
+  compute_edges.py: /usr/local/bin/compute_edges.py
+  compute_fununifrac.py: /usr/local/bin/compute_fununifrac.py
+  create_edge_matrix.py: /usr/local/bin/create_edge_matrix.py
+  tjbench: /usr/local/bin/tjbench
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  f2py3.9: /usr/local/bin/f2py3.9
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

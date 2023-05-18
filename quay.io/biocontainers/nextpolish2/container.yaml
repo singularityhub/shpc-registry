@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/nextpolish2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nextpolish2
+latest:
+  0.1.0--hd03093a_0: sha256:365eec84cc21ecfcc17dad88441c6126b95720f14d9da45bedc22126a09772f7
+tags:
+  0.1.0--hd03093a_0: sha256:365eec84cc21ecfcc17dad88441c6126b95720f14d9da45bedc22126a09772f7
+docker: quay.io/biocontainers/nextpolish2
+aliases:
+  nextPolish2: /usr/local/bin/nextPolish2
+  yak: /usr/local/bin/yak
