@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ncbitax2lin
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ncbitax2lin
+latest:
+  2.3.2--pyhdfd78af_0: sha256:6ac6af4ace7865d3929a485ae3bd97a2664ae0b8929214eb5d7dc4df1d40142f
+tags:
+  2.3.2--pyhdfd78af_0: sha256:6ac6af4ace7865d3929a485ae3bd97a2664ae0b8929214eb5d7dc4df1d40142f
+docker: quay.io/biocontainers/ncbitax2lin
+aliases:
+  ncbitax2lin: /usr/local/bin/ncbitax2lin
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

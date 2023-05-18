@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/spagrn
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spagrn
+latest:
+  1.0.4--pyhca03a8a_0: sha256:f1cb25d6b315596d89830e257b9d28e4eacb0173a373242b6ec0c6fc75d651dc
+tags:
+  1.0.4--pyhca03a8a_0: sha256:f1cb25d6b315596d89830e257b9d28e4eacb0173a373242b6ec0c6fc75d651dc
+docker: quay.io/biocontainers/spagrn
+aliases:
+  dask: /usr/local/bin/dask
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  io_demo: /usr/local/bin/io_demo
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  produce_x_platform_fuzz_corpus: /usr/local/bin/produce_x_platform_fuzz_corpus
+  run_x_platform_fuzz_corpus: /usr/local/bin/run_x_platform_fuzz_corpus
+  ucx_info: /usr/local/bin/ucx_info
+  ucx_perftest: /usr/local/bin/ucx_perftest
+  ucx_read_profile: /usr/local/bin/ucx_read_profile
+  h5delete: /usr/local/bin/h5delete
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  sha256_profile: /usr/local/bin/sha256_profile
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  scanpy: /usr/local/bin/scanpy
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps

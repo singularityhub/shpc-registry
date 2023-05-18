@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/crussmap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for crussmap
+latest:
+  1.0.0--h86f6036_0: sha256:58f5d8238be0f05125eeb118a0f21592ec2c1a502c2894b77c66d85f358a51c3
+tags:
+  1.0.0--h86f6036_0: sha256:58f5d8238be0f05125eeb118a0f21592ec2c1a502c2894b77c66d85f358a51c3
+docker: quay.io/biocontainers/crussmap
+aliases:
+  crussmap: /usr/local/bin/crussmap

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/deeplcretrainer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for deeplcretrainer
+latest:
+  0.1.17--pyh7cba7a3_0: sha256:207c0ff610fdc8d2ef7c8158afdf435889daf40531467b1c92225970c7c492ab
+tags:
+  0.1.17--pyh7cba7a3_0: sha256:207c0ff610fdc8d2ef7c8158afdf435889daf40531467b1c92225970c7c492ab
+docker: quay.io/biocontainers/deeplcretrainer
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
