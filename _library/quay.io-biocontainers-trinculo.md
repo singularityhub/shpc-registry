@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/trinculo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trinculo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trinculo/container.yaml"
-updated_at: "2023-05-17 02:38:59.250845"
-latest: "0.96--h2b92225_6"
+updated_at: "2023-05-18 02:37:35.120046"
+latest: "0.96--h2b92225_7"
 container_url: "https://biocontainers.pro/tools/trinculo"
 aliases:
  - "trinculo"
 versions:
  - "0.96--h2b92225_6"
+ - "0.96--h2b92225_7"
 description: "shpc-registry automated BioContainers addition for trinculo"
-config: {"url": "https://biocontainers.pro/tools/trinculo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trinculo", "latest": {"0.96--h2b92225_6": "sha256:eb8160f618b752e153ada51f1900255493a994fe5d71d26810f4883e2444ac9a"}, "tags": {"0.96--h2b92225_6": "sha256:eb8160f618b752e153ada51f1900255493a994fe5d71d26810f4883e2444ac9a"}, "docker": "quay.io/biocontainers/trinculo", "aliases": {"trinculo": "/usr/local/bin/trinculo"}}
+config: {"url": "https://biocontainers.pro/tools/trinculo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trinculo", "latest": {"0.96--h2b92225_7": "sha256:e1f48735941ddb1501e5e0e4ef6e940a924f38a2d83a4b1b34738806e792ab32"}, "tags": {"0.96--h2b92225_6": "sha256:eb8160f618b752e153ada51f1900255493a994fe5d71d26810f4883e2444ac9a", "0.96--h2b92225_7": "sha256:e1f48735941ddb1501e5e0e4ef6e940a924f38a2d83a4b1b34738806e792ab32"}, "docker": "quay.io/biocontainers/trinculo", "aliases": {"trinculo": "/usr/local/bin/trinculo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trinculo.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/trinculo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trinculo:0.96--h2b92225_6
+$ shpc install quay.io/biocontainers/trinculo:0.96--h2b92225_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trinculo/0.96--h2b92225_6
-$ module help quay.io/biocontainers/trinculo/0.96--h2b92225_6
+$ module load quay.io/biocontainers/trinculo/0.96--h2b92225_7
+$ module help quay.io/biocontainers/trinculo/0.96--h2b92225_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

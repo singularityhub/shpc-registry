@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/libidn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libidn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libidn/container.yaml"
-updated_at: "2023-05-17 02:43:15.732124"
-latest: "7.45.0--h87f3376_6"
+updated_at: "2023-05-18 02:41:38.275611"
+latest: "7.45.0--hdbdd923_8"
 container_url: "https://biocontainers.pro/tools/libidn"
 aliases:
  - "idn"
 versions:
  - "7.45.0--h87f3376_6"
+ - "7.45.0--hdbdd923_8"
 description: "shpc-registry automated BioContainers addition for libidn"
-config: {"url": "https://biocontainers.pro/tools/libidn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libidn", "latest": {"7.45.0--h87f3376_6": "sha256:04c8fc17e0ef3e5aae46f5b16a28639e3529238c0ecc944e0fb82bf0ed511d42"}, "tags": {"7.45.0--h87f3376_6": "sha256:04c8fc17e0ef3e5aae46f5b16a28639e3529238c0ecc944e0fb82bf0ed511d42"}, "docker": "quay.io/biocontainers/libidn", "aliases": {"idn": "/usr/local/bin/idn"}}
+config: {"url": "https://biocontainers.pro/tools/libidn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libidn", "latest": {"7.45.0--hdbdd923_8": "sha256:45a6b67538905f9d82bf89cb2950e5903eff9b300641d51ec58a5dd14da0e569"}, "tags": {"7.45.0--h87f3376_6": "sha256:04c8fc17e0ef3e5aae46f5b16a28639e3529238c0ecc944e0fb82bf0ed511d42", "7.45.0--hdbdd923_8": "sha256:45a6b67538905f9d82bf89cb2950e5903eff9b300641d51ec58a5dd14da0e569"}, "docker": "quay.io/biocontainers/libidn", "aliases": {"idn": "/usr/local/bin/idn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libidn.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/libidn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libidn:7.45.0--h87f3376_6
+$ shpc install quay.io/biocontainers/libidn:7.45.0--hdbdd923_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libidn/7.45.0--h87f3376_6
-$ module help quay.io/biocontainers/libidn/7.45.0--h87f3376_6
+$ module load quay.io/biocontainers/libidn/7.45.0--hdbdd923_8
+$ module help quay.io/biocontainers/libidn/7.45.0--hdbdd923_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

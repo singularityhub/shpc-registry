@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dart/container.yaml"
-updated_at: "2023-05-17 03:04:17.629406"
+updated_at: "2023-05-18 03:01:51.844848"
 latest: "1.4.6--h2ccddb4_3"
 container_url: "https://biocontainers.pro/tools/dart"
 aliases:

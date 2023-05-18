@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aster/container.yaml"
-updated_at: "2023-05-17 02:36:56.388208"
-latest: "1.15--h9f5acd7_0"
+updated_at: "2023-05-18 02:35:42.709107"
+latest: "1.15--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/aster"
 aliases:
  - "asterisk"
@@ -16,8 +16,9 @@ versions:
  - "1.13--h9f5acd7_1"
  - "1.10--h9f5acd7_0"
  - "1.15--h9f5acd7_0"
+ - "1.15--h4ac6f70_2"
 description: "singularity registry hpc automated addition for aster"
-config: {"url": "https://biocontainers.pro/tools/aster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aster", "latest": {"1.15--h9f5acd7_0": "sha256:448675af5acef5e394212ed13e27508b496c9b0e38ec12eae3e9d4f304e03846"}, "tags": {"1.3--h9f5acd7_1": "sha256:7662b11a19008b7a13b77ae116f2d20231d3ca19b47fabf4977b90b438fd4d9f", "1.13--h9f5acd7_1": "sha256:e920b1c7056a761b814990427ee02e0912436dfb1a2c577a9e06d7e0daad50fc", "1.10--h9f5acd7_0": "sha256:560eb7339e54eed72efd2206afd091a429200cba29787b2821bc4a0f86da3065", "1.15--h9f5acd7_0": "sha256:448675af5acef5e394212ed13e27508b496c9b0e38ec12eae3e9d4f304e03846"}, "docker": "quay.io/biocontainers/aster", "aliases": {"asterisk": "/usr/local/bin/asterisk", "astral": "/usr/local/bin/astral", "astral-pro": "/usr/local/bin/astral-pro"}}
+config: {"url": "https://biocontainers.pro/tools/aster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aster", "latest": {"1.15--h4ac6f70_2": "sha256:6a4a575329c24067145d5f98e368e032eef5d68d27527918e5429c0d8af9aed6"}, "tags": {"1.3--h9f5acd7_1": "sha256:7662b11a19008b7a13b77ae116f2d20231d3ca19b47fabf4977b90b438fd4d9f", "1.13--h9f5acd7_1": "sha256:e920b1c7056a761b814990427ee02e0912436dfb1a2c577a9e06d7e0daad50fc", "1.10--h9f5acd7_0": "sha256:560eb7339e54eed72efd2206afd091a429200cba29787b2821bc4a0f86da3065", "1.15--h9f5acd7_0": "sha256:448675af5acef5e394212ed13e27508b496c9b0e38ec12eae3e9d4f304e03846", "1.15--h4ac6f70_2": "sha256:6a4a575329c24067145d5f98e368e032eef5d68d27527918e5429c0d8af9aed6"}, "docker": "quay.io/biocontainers/aster", "aliases": {"asterisk": "/usr/local/bin/asterisk", "astral": "/usr/local/bin/astral", "astral-pro": "/usr/local/bin/astral-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aster.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/aster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aster:1.15--h9f5acd7_0
+$ shpc install quay.io/biocontainers/aster:1.15--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aster/1.15--h9f5acd7_0
-$ module help quay.io/biocontainers/aster/1.15--h9f5acd7_0
+$ module load quay.io/biocontainers/aster/1.15--h4ac6f70_2
+$ module help quay.io/biocontainers/aster/1.15--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

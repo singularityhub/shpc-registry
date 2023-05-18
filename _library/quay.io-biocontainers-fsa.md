@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fsa/container.yaml"
-updated_at: "2023-05-17 02:41:06.707995"
+updated_at: "2023-05-18 02:39:35.448611"
 latest: "1.15.9--h5b5514e_3"
 container_url: "https://biocontainers.pro/tools/fsa"
 aliases:

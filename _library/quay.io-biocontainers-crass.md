@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crass/container.yaml"
-updated_at: "2023-05-17 02:45:28.286644"
-latest: "1.0.1--h5b5514e_3"
+updated_at: "2023-05-18 02:43:42.957084"
+latest: "1.0.1--h43eeafb_5"
 container_url: "https://biocontainers.pro/tools/crass"
 aliases:
  - "crass"
@@ -23,8 +23,9 @@ aliases:
  - "SAX2Print"
 versions:
  - "1.0.1--h5b5514e_3"
+ - "1.0.1--h43eeafb_5"
 description: "shpc-registry automated BioContainers addition for crass"
-config: {"url": "https://biocontainers.pro/tools/crass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crass", "latest": {"1.0.1--h5b5514e_3": "sha256:62a56fe76ea875d720f6c57627c61769198ab2c479d22f0bf8f1f8b70fbe3632"}, "tags": {"1.0.1--h5b5514e_3": "sha256:62a56fe76ea875d720f6c57627c61769198ab2c479d22f0bf8f1f8b70fbe3632"}, "docker": "quay.io/biocontainers/crass", "aliases": {"crass": "/usr/local/bin/crass", "crass-assembler": "/usr/local/bin/crass-assembler", "crisprtools": "/usr/local/bin/crisprtools", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
+config: {"url": "https://biocontainers.pro/tools/crass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crass", "latest": {"1.0.1--h43eeafb_5": "sha256:73b1688d71dd97b2ea0fd00bc8e6b312d3f507ff5d7ebc63d162e9e612e9d2ef"}, "tags": {"1.0.1--h5b5514e_3": "sha256:62a56fe76ea875d720f6c57627c61769198ab2c479d22f0bf8f1f8b70fbe3632", "1.0.1--h43eeafb_5": "sha256:73b1688d71dd97b2ea0fd00bc8e6b312d3f507ff5d7ebc63d162e9e612e9d2ef"}, "docker": "quay.io/biocontainers/crass", "aliases": {"crass": "/usr/local/bin/crass", "crass-assembler": "/usr/local/bin/crass-assembler", "crisprtools": "/usr/local/bin/crisprtools", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crass.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/crass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crass:1.0.1--h5b5514e_3
+$ shpc install quay.io/biocontainers/crass:1.0.1--h43eeafb_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crass/1.0.1--h5b5514e_3
-$ module help quay.io/biocontainers/crass/1.0.1--h5b5514e_3
+$ module load quay.io/biocontainers/crass/1.0.1--h43eeafb_5
+$ module help quay.io/biocontainers/crass/1.0.1--h43eeafb_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

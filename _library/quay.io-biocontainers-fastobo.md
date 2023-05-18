@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastobo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastobo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastobo/container.yaml"
-updated_at: "2023-05-17 02:55:16.486872"
-latest: "0.12.2--py39h67e14b5_0"
+updated_at: "2023-05-18 02:53:04.336578"
+latest: "0.12.2--py39h67e14b5_1"
 container_url: "https://biocontainers.pro/tools/fastobo"
 aliases:
  - "2to3-3.7"
@@ -23,8 +23,9 @@ versions:
  - "0.11.1--py37h675a0cb_1"
  - "0.10.1--py38h6ed170a_0"
  - "0.12.2--py39h67e14b5_0"
+ - "0.12.2--py39h67e14b5_1"
 description: "shpc-registry automated BioContainers addition for fastobo"
-config: {"url": "https://biocontainers.pro/tools/fastobo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastobo", "latest": {"0.12.2--py39h67e14b5_0": "sha256:cd22d7caa9fb316568a89ac6b12612500c002811a31831282f3d0b788e8dd232"}, "tags": {"0.9.3--py37hfa133b6_0": "sha256:198362f9416f7adef5678bf2cc4da2c9807c0ba5e1affdb8b71339157089cacd", "0.12.1--py39h67e14b5_0": "sha256:895c619807741a5fede2803f5e31c75674584a009a8f1a8a3dfc6140956c1dc4", "0.11.1--py37h675a0cb_1": "sha256:f7e05ca04e1a4016a20c649f1e4bb567c9c9346f8db944b1c4bf0f915b3ee37a", "0.10.1--py38h6ed170a_0": "sha256:f6746300cd2e15cd312c3dde32850a6ecc4dbb263593335c6ca32b224834aab5", "0.12.2--py39h67e14b5_0": "sha256:cd22d7caa9fb316568a89ac6b12612500c002811a31831282f3d0b788e8dd232"}, "docker": "quay.io/biocontainers/fastobo", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/fastobo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastobo", "latest": {"0.12.2--py39h67e14b5_1": "sha256:8761cffce96d433f755a9438cc6c7e203fe966fd4ce55889f39aa2084e70533c"}, "tags": {"0.9.3--py37hfa133b6_0": "sha256:198362f9416f7adef5678bf2cc4da2c9807c0ba5e1affdb8b71339157089cacd", "0.12.1--py39h67e14b5_0": "sha256:895c619807741a5fede2803f5e31c75674584a009a8f1a8a3dfc6140956c1dc4", "0.11.1--py37h675a0cb_1": "sha256:f7e05ca04e1a4016a20c649f1e4bb567c9c9346f8db944b1c4bf0f915b3ee37a", "0.10.1--py38h6ed170a_0": "sha256:f6746300cd2e15cd312c3dde32850a6ecc4dbb263593335c6ca32b224834aab5", "0.12.2--py39h67e14b5_0": "sha256:cd22d7caa9fb316568a89ac6b12612500c002811a31831282f3d0b788e8dd232", "0.12.2--py39h67e14b5_1": "sha256:8761cffce96d433f755a9438cc6c7e203fe966fd4ce55889f39aa2084e70533c"}, "docker": "quay.io/biocontainers/fastobo", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastobo.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/fastobo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastobo:0.12.2--py39h67e14b5_0
+$ shpc install quay.io/biocontainers/fastobo:0.12.2--py39h67e14b5_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastobo/0.12.2--py39h67e14b5_0
-$ module help quay.io/biocontainers/fastobo/0.12.2--py39h67e14b5_0
+$ module load quay.io/biocontainers/fastobo/0.12.2--py39h67e14b5_1
+$ module help quay.io/biocontainers/fastobo/0.12.2--py39h67e14b5_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

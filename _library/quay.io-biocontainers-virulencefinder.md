@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virulencefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virulencefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virulencefinder/container.yaml"
-updated_at: "2023-05-17 03:01:18.074062"
+updated_at: "2023-05-18 02:58:56.770226"
 latest: "2.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virulencefinder"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/yaha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yaha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yaha/container.yaml"
-updated_at: "2023-05-17 03:14:13.731297"
-latest: "0.1.83--h87f3376_4"
+updated_at: "2023-05-18 03:11:32.300116"
+latest: "0.1.83--hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/yaha"
 aliases:
  - "yaha"
 versions:
  - "0.1.83--h87f3376_4"
+ - "0.1.83--hdbdd923_6"
 description: "shpc-registry automated BioContainers addition for yaha"
-config: {"url": "https://biocontainers.pro/tools/yaha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yaha", "latest": {"0.1.83--h87f3376_4": "sha256:49e7f5b262016a0a9c40883a520cfc49060ba5309228600fa99716088edeedd4"}, "tags": {"0.1.83--h87f3376_4": "sha256:49e7f5b262016a0a9c40883a520cfc49060ba5309228600fa99716088edeedd4"}, "docker": "quay.io/biocontainers/yaha", "aliases": {"yaha": "/usr/local/bin/yaha"}}
+config: {"url": "https://biocontainers.pro/tools/yaha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yaha", "latest": {"0.1.83--hdbdd923_6": "sha256:cd354eec43aee143fcbf226e3e629aa1ad8b4bb9d25403391cfc08b86ba431e0"}, "tags": {"0.1.83--h87f3376_4": "sha256:49e7f5b262016a0a9c40883a520cfc49060ba5309228600fa99716088edeedd4", "0.1.83--hdbdd923_6": "sha256:cd354eec43aee143fcbf226e3e629aa1ad8b4bb9d25403391cfc08b86ba431e0"}, "docker": "quay.io/biocontainers/yaha", "aliases": {"yaha": "/usr/local/bin/yaha"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yaha.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/yaha
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yaha:0.1.83--h87f3376_4
+$ shpc install quay.io/biocontainers/yaha:0.1.83--hdbdd923_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yaha/0.1.83--h87f3376_4
-$ module help quay.io/biocontainers/yaha/0.1.83--h87f3376_4
+$ module load quay.io/biocontainers/yaha/0.1.83--hdbdd923_6
+$ module help quay.io/biocontainers/yaha/0.1.83--hdbdd923_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

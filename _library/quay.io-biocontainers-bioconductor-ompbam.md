@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ompbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ompbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ompbam/container.yaml"
-updated_at: "2023-05-17 03:00:15.384421"
-latest: "1.2.0--r42hc247a5b_0"
+updated_at: "2023-05-18 02:57:57.723434"
+latest: "1.2.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ompbam"
 
 versions:
  - "1.2.0--r42hc247a5b_0"
+ - "1.2.0--r42hf17093f_1"
 description: "singularity registry hpc automated addition for bioconductor-ompbam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ompbam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ompbam", "latest": {"1.2.0--r42hc247a5b_0": "sha256:bbd78db9870b497796cc8fd86f2b5994e34895f4adcb306b9f4d54f089706e7d"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:bbd78db9870b497796cc8fd86f2b5994e34895f4adcb306b9f4d54f089706e7d"}, "docker": "quay.io/biocontainers/bioconductor-ompbam"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ompbam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ompbam", "latest": {"1.2.0--r42hf17093f_1": "sha256:463c070c6c2da625c90459b7f7f319a19149ac78cae5474c1358b4c1b8ba1699"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:bbd78db9870b497796cc8fd86f2b5994e34895f4adcb306b9f4d54f089706e7d", "1.2.0--r42hf17093f_1": "sha256:463c070c6c2da625c90459b7f7f319a19149ac78cae5474c1358b4c1b8ba1699"}, "docker": "quay.io/biocontainers/bioconductor-ompbam"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ompbam.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ompbam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ompbam:1.2.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-ompbam:1.2.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ompbam/1.2.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-ompbam/1.2.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-ompbam/1.2.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-ompbam/1.2.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

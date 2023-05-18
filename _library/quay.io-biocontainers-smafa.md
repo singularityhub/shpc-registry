@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smafa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smafa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smafa/container.yaml"
-updated_at: "2023-05-17 03:31:41.539742"
-latest: "0.7.0--hec16e2b_0"
+updated_at: "2023-05-18 03:28:41.726953"
+latest: "0.7.0--h031d066_2"
 container_url: "https://biocontainers.pro/tools/smafa"
 aliases:
  - "smafa"
@@ -13,8 +13,9 @@ versions:
  - "0.5.0--hec16e2b_2"
  - "0.7.0--hec16e2b_0"
  - "0.6.1--hec16e2b_0"
+ - "0.7.0--h031d066_2"
 description: "shpc-registry automated BioContainers addition for smafa"
-config: {"url": "https://biocontainers.pro/tools/smafa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smafa", "latest": {"0.7.0--hec16e2b_0": "sha256:4c24f70d2287dc1f9c8cd69c0ee923fb062e0ef5f0ef56b4a346cf45fc6ff1a5"}, "tags": {"0.5.0--hec16e2b_2": "sha256:bfab3052298105cd88386083a2cca6b77dba01f1f0768276a8ab87f0941b4c12", "0.7.0--hec16e2b_0": "sha256:4c24f70d2287dc1f9c8cd69c0ee923fb062e0ef5f0ef56b4a346cf45fc6ff1a5", "0.6.1--hec16e2b_0": "sha256:495a070b0e9fc09638cd9e2d98edcddf2795907ed37970533074ca633269a378"}, "docker": "quay.io/biocontainers/smafa", "aliases": {"smafa": "/usr/local/bin/smafa"}}
+config: {"url": "https://biocontainers.pro/tools/smafa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smafa", "latest": {"0.7.0--h031d066_2": "sha256:89c7df4ea7cf7821710931fda7d8ddac12298dcb297412174ddb503b073e0270"}, "tags": {"0.5.0--hec16e2b_2": "sha256:bfab3052298105cd88386083a2cca6b77dba01f1f0768276a8ab87f0941b4c12", "0.7.0--hec16e2b_0": "sha256:4c24f70d2287dc1f9c8cd69c0ee923fb062e0ef5f0ef56b4a346cf45fc6ff1a5", "0.6.1--hec16e2b_0": "sha256:495a070b0e9fc09638cd9e2d98edcddf2795907ed37970533074ca633269a378", "0.7.0--h031d066_2": "sha256:89c7df4ea7cf7821710931fda7d8ddac12298dcb297412174ddb503b073e0270"}, "docker": "quay.io/biocontainers/smafa", "aliases": {"smafa": "/usr/local/bin/smafa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smafa.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/smafa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smafa:0.7.0--hec16e2b_0
+$ shpc install quay.io/biocontainers/smafa:0.7.0--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smafa/0.7.0--hec16e2b_0
-$ module help quay.io/biocontainers/smafa/0.7.0--hec16e2b_0
+$ module load quay.io/biocontainers/smafa/0.7.0--h031d066_2
+$ module help quay.io/biocontainers/smafa/0.7.0--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

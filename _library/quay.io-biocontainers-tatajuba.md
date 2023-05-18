@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/tatajuba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tatajuba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tatajuba/container.yaml"
-updated_at: "2023-05-17 03:09:26.033423"
-latest: "1.0.4--h7132678_1"
+updated_at: "2023-05-18 03:06:49.775521"
+latest: "1.0.4--he4a0461_3"
 container_url: "https://biocontainers.pro/tools/tatajuba"
 aliases:
  - "tatajuba"
 versions:
  - "1.0.4--h7132678_1"
+ - "1.0.4--he4a0461_3"
 description: "shpc-registry automated BioContainers addition for tatajuba"
-config: {"url": "https://biocontainers.pro/tools/tatajuba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tatajuba", "latest": {"1.0.4--h7132678_1": "sha256:94c0e10fe9d50cfcbc5b910d42cd19c5ff398a6b9b6bcd2e4a612f4e7c2e3ee7"}, "tags": {"1.0.4--h7132678_1": "sha256:94c0e10fe9d50cfcbc5b910d42cd19c5ff398a6b9b6bcd2e4a612f4e7c2e3ee7"}, "docker": "quay.io/biocontainers/tatajuba", "aliases": {"tatajuba": "/usr/local/bin/tatajuba"}}
+config: {"url": "https://biocontainers.pro/tools/tatajuba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tatajuba", "latest": {"1.0.4--he4a0461_3": "sha256:ab507a60d16cd67ea7d72814d04319682ce0b7502ed3a9caa2b4f1d0347fc7c5"}, "tags": {"1.0.4--h7132678_1": "sha256:94c0e10fe9d50cfcbc5b910d42cd19c5ff398a6b9b6bcd2e4a612f4e7c2e3ee7", "1.0.4--he4a0461_3": "sha256:ab507a60d16cd67ea7d72814d04319682ce0b7502ed3a9caa2b4f1d0347fc7c5"}, "docker": "quay.io/biocontainers/tatajuba", "aliases": {"tatajuba": "/usr/local/bin/tatajuba"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tatajuba.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/tatajuba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tatajuba:1.0.4--h7132678_1
+$ shpc install quay.io/biocontainers/tatajuba:1.0.4--he4a0461_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tatajuba/1.0.4--h7132678_1
-$ module help quay.io/biocontainers/tatajuba/1.0.4--h7132678_1
+$ module load quay.io/biocontainers/tatajuba/1.0.4--he4a0461_3
+$ module help quay.io/biocontainers/tatajuba/1.0.4--he4a0461_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

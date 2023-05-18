@@ -4,7 +4,7 @@ name:  "consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/consul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/consul/container.yaml"
-updated_at: "2023-05-17 03:36:00.358777"
+updated_at: "2023-05-18 03:32:56.744685"
 latest: "1.15"
 container_url: "https://hub.docker.com/_/consul"
 aliases:

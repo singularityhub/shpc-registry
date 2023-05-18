@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/snp-sites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-sites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-sites/container.yaml"
-updated_at: "2023-05-17 03:34:34.535832"
-latest: "2.5.1--h7132678_2"
+updated_at: "2023-05-18 03:31:32.147336"
+latest: "2.5.1--he4a0461_4"
 container_url: "https://biocontainers.pro/tools/snp-sites"
 aliases:
  - "snp-sites"
 versions:
  - "2.5.1--h7132678_2"
+ - "2.5.1--he4a0461_4"
 description: "shpc-registry automated BioContainers addition for snp-sites"
-config: {"url": "https://biocontainers.pro/tools/snp-sites", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-sites", "latest": {"2.5.1--h7132678_2": "sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826"}, "tags": {"2.5.1--h7132678_2": "sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826"}, "docker": "quay.io/biocontainers/snp-sites", "aliases": {"snp-sites": "/usr/local/bin/snp-sites"}}
+config: {"url": "https://biocontainers.pro/tools/snp-sites", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-sites", "latest": {"2.5.1--he4a0461_4": "sha256:b62321cd56eb7abf69623058963b352f8b5caeb9ce0c8a2a89ab16de654c842d"}, "tags": {"2.5.1--h7132678_2": "sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826", "2.5.1--he4a0461_4": "sha256:b62321cd56eb7abf69623058963b352f8b5caeb9ce0c8a2a89ab16de654c842d"}, "docker": "quay.io/biocontainers/snp-sites", "aliases": {"snp-sites": "/usr/local/bin/snp-sites"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snp-sites.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/snp-sites
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snp-sites:2.5.1--h7132678_2
+$ shpc install quay.io/biocontainers/snp-sites:2.5.1--he4a0461_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snp-sites/2.5.1--h7132678_2
-$ module help quay.io/biocontainers/snp-sites/2.5.1--h7132678_2
+$ module load quay.io/biocontainers/snp-sites/2.5.1--he4a0461_4
+$ module help quay.io/biocontainers/snp-sites/2.5.1--he4a0461_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

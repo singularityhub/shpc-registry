@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/assembly-stats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly-stats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly-stats/container.yaml"
-updated_at: "2023-05-17 02:52:33.031984"
-latest: "1.0.1--h9f5acd7_5"
+updated_at: "2023-05-18 02:50:25.780142"
+latest: "1.0.1--h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/assembly-stats"
 aliases:
  - "assembly-stats"
 versions:
  - "1.0.1--h9f5acd7_5"
+ - "1.0.1--h4ac6f70_7"
 description: "shpc-registry automated BioContainers addition for assembly-stats"
-config: {"url": "https://biocontainers.pro/tools/assembly-stats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assembly-stats", "latest": {"1.0.1--h9f5acd7_5": "sha256:13419ab79fc4f9e10acd8c34c8e7ca1ed37dcffdaa6b6b8950ae5e2228209229"}, "tags": {"1.0.1--h9f5acd7_5": "sha256:13419ab79fc4f9e10acd8c34c8e7ca1ed37dcffdaa6b6b8950ae5e2228209229"}, "docker": "quay.io/biocontainers/assembly-stats", "aliases": {"assembly-stats": "/usr/local/bin/assembly-stats"}}
+config: {"url": "https://biocontainers.pro/tools/assembly-stats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assembly-stats", "latest": {"1.0.1--h4ac6f70_7": "sha256:f25db878659d69d5ff3bd38691b595fd05723baddda76f0b63ffaa5ab1a3ea97"}, "tags": {"1.0.1--h9f5acd7_5": "sha256:13419ab79fc4f9e10acd8c34c8e7ca1ed37dcffdaa6b6b8950ae5e2228209229", "1.0.1--h4ac6f70_7": "sha256:f25db878659d69d5ff3bd38691b595fd05723baddda76f0b63ffaa5ab1a3ea97"}, "docker": "quay.io/biocontainers/assembly-stats", "aliases": {"assembly-stats": "/usr/local/bin/assembly-stats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/assembly-stats.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/assembly-stats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/assembly-stats:1.0.1--h9f5acd7_5
+$ shpc install quay.io/biocontainers/assembly-stats:1.0.1--h4ac6f70_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/assembly-stats/1.0.1--h9f5acd7_5
-$ module help quay.io/biocontainers/assembly-stats/1.0.1--h9f5acd7_5
+$ module load quay.io/biocontainers/assembly-stats/1.0.1--h4ac6f70_7
+$ module help quay.io/biocontainers/assembly-stats/1.0.1--h4ac6f70_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
