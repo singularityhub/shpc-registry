@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/papi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/papi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/papi/container.yaml"
-updated_at: "2023-05-18 03:55:05.918028"
+updated_at: "2023-05-19 02:34:19.067845"
 latest: "6.0.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/papi"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-aceperl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-aceperl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-aceperl/container.yaml"
-updated_at: "2023-05-18 03:57:38.006328"
-latest: "1.92--pl5321hec16e2b_4"
+updated_at: "2023-05-19 02:36:01.761162"
+latest: "1.92--pl5321h031d066_5"
 container_url: "https://biocontainers.pro/tools/perl-aceperl"
 aliases:
  - "ace.pl"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.92--pl5321hec16e2b_4"
+ - "1.92--pl5321h031d066_5"
 description: "shpc-registry automated BioContainers addition for perl-aceperl"
-config: {"url": "https://biocontainers.pro/tools/perl-aceperl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-aceperl", "latest": {"1.92--pl5321hec16e2b_4": "sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25"}, "tags": {"1.92--pl5321hec16e2b_4": "sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25"}, "docker": "quay.io/biocontainers/perl-aceperl", "aliases": {"ace.pl": "/usr/local/bin/ace.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-aceperl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-aceperl", "latest": {"1.92--pl5321h031d066_5": "sha256:d5b9e103f8c8a279c98497c5960d5dde999e3410ce7b0d2998321c7de265dcac"}, "tags": {"1.92--pl5321hec16e2b_4": "sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25", "1.92--pl5321h031d066_5": "sha256:d5b9e103f8c8a279c98497c5960d5dde999e3410ce7b0d2998321c7de265dcac"}, "docker": "quay.io/biocontainers/perl-aceperl", "aliases": {"ace.pl": "/usr/local/bin/ace.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-aceperl.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-aceperl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-aceperl:1.92--pl5321hec16e2b_4
+$ shpc install quay.io/biocontainers/perl-aceperl:1.92--pl5321h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-aceperl/1.92--pl5321hec16e2b_4
-$ module help quay.io/biocontainers/perl-aceperl/1.92--pl5321hec16e2b_4
+$ module load quay.io/biocontainers/perl-aceperl/1.92--pl5321h031d066_5
+$ module help quay.io/biocontainers/perl-aceperl/1.92--pl5321h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

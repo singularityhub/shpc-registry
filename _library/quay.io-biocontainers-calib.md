@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/calib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/calib/container.yaml"
-updated_at: "2023-05-18 04:47:55.713481"
-latest: "0.3.4--hd03093a_3"
+updated_at: "2023-05-19 03:07:06.439955"
+latest: "0.3.4--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/calib"
 aliases:
  - "calib"
  - "calib_cons"
 versions:
  - "0.3.4--hd03093a_3"
+ - "0.3.4--hdcf5f25_5"
 description: "shpc-registry automated BioContainers addition for calib"
-config: {"url": "https://biocontainers.pro/tools/calib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for calib", "latest": {"0.3.4--hd03093a_3": "sha256:3c6e3dfd1c7d09da5b9174ae9e4fa2c4d1627ab1366dbe9632e3894790e4a5f0"}, "tags": {"0.3.4--hd03093a_3": "sha256:3c6e3dfd1c7d09da5b9174ae9e4fa2c4d1627ab1366dbe9632e3894790e4a5f0"}, "docker": "quay.io/biocontainers/calib", "aliases": {"calib": "/usr/local/bin/calib", "calib_cons": "/usr/local/bin/calib_cons"}}
+config: {"url": "https://biocontainers.pro/tools/calib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for calib", "latest": {"0.3.4--hdcf5f25_5": "sha256:31178d7e1c849d9fb68146c1abda0fc11af12ee0c499e0001887c0a694d46162"}, "tags": {"0.3.4--hd03093a_3": "sha256:3c6e3dfd1c7d09da5b9174ae9e4fa2c4d1627ab1366dbe9632e3894790e4a5f0", "0.3.4--hdcf5f25_5": "sha256:31178d7e1c849d9fb68146c1abda0fc11af12ee0c499e0001887c0a694d46162"}, "docker": "quay.io/biocontainers/calib", "aliases": {"calib": "/usr/local/bin/calib", "calib_cons": "/usr/local/bin/calib_cons"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/calib.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/calib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/calib:0.3.4--hd03093a_3
+$ shpc install quay.io/biocontainers/calib:0.3.4--hdcf5f25_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/calib/0.3.4--hd03093a_3
-$ module help quay.io/biocontainers/calib/0.3.4--hd03093a_3
+$ module load quay.io/biocontainers/calib/0.3.4--hdcf5f25_5
+$ module help quay.io/biocontainers/calib/0.3.4--hdcf5f25_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

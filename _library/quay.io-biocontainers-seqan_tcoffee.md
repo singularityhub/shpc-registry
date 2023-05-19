@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/seqan_tcoffee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqan_tcoffee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqan_tcoffee/container.yaml"
-updated_at: "2023-05-18 04:05:59.584955"
-latest: "1.13.8--h19e8d03_2"
+updated_at: "2023-05-19 02:41:29.443336"
+latest: "1.13.8--h6dccd9a_4"
 container_url: "https://biocontainers.pro/tools/seqan_tcoffee"
 aliases:
  - "seqan_tcoffee"
 versions:
  - "1.13.8--h19e8d03_2"
+ - "1.13.8--h6dccd9a_4"
 description: "shpc-registry automated BioContainers addition for seqan_tcoffee"
-config: {"url": "https://biocontainers.pro/tools/seqan_tcoffee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan_tcoffee", "latest": {"1.13.8--h19e8d03_2": "sha256:f6e7db8052671cecc4f31871811b21b66b6b92229554313e1da7e39578eaa653"}, "tags": {"1.13.8--h19e8d03_2": "sha256:f6e7db8052671cecc4f31871811b21b66b6b92229554313e1da7e39578eaa653"}, "docker": "quay.io/biocontainers/seqan_tcoffee", "aliases": {"seqan_tcoffee": "/usr/local/bin/seqan_tcoffee"}}
+config: {"url": "https://biocontainers.pro/tools/seqan_tcoffee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan_tcoffee", "latest": {"1.13.8--h6dccd9a_4": "sha256:d223201425dc8b43c1eef3b2acf99b8b55aa740b70f82bec71076d2c2cad75d5"}, "tags": {"1.13.8--h19e8d03_2": "sha256:f6e7db8052671cecc4f31871811b21b66b6b92229554313e1da7e39578eaa653", "1.13.8--h6dccd9a_4": "sha256:d223201425dc8b43c1eef3b2acf99b8b55aa740b70f82bec71076d2c2cad75d5"}, "docker": "quay.io/biocontainers/seqan_tcoffee", "aliases": {"seqan_tcoffee": "/usr/local/bin/seqan_tcoffee"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqan_tcoffee.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/seqan_tcoffee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqan_tcoffee:1.13.8--h19e8d03_2
+$ shpc install quay.io/biocontainers/seqan_tcoffee:1.13.8--h6dccd9a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqan_tcoffee/1.13.8--h19e8d03_2
-$ module help quay.io/biocontainers/seqan_tcoffee/1.13.8--h19e8d03_2
+$ module load quay.io/biocontainers/seqan_tcoffee/1.13.8--h6dccd9a_4
+$ module help quay.io/biocontainers/seqan_tcoffee/1.13.8--h6dccd9a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

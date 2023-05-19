@@ -4,7 +4,7 @@ name:  "ghcr.io/singularityhub/github-ci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/singularityhub/github-ci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/singularityhub/github-ci/container.yaml"
-updated_at: "2023-05-18 03:55:33.653248"
+updated_at: "2023-05-19 02:34:37.587917"
 latest: "latest"
 container_url: "https://github.com/singularityhub/github-ci/pkgs/container/github-ci"
 

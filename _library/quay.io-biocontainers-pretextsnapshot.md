@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pretextsnapshot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextsnapshot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextsnapshot/container.yaml"
-updated_at: "2023-05-18 04:08:15.471265"
-latest: "0.0.4--h9f5acd7_1"
+updated_at: "2023-05-19 02:42:52.789899"
+latest: "0.0.4--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/pretextsnapshot"
 aliases:
  - "PretextSnapshot"
@@ -15,8 +15,9 @@ aliases:
  - "PretextSnapshot.sse42"
 versions:
  - "0.0.4--h9f5acd7_1"
+ - "0.0.4--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for pretextsnapshot"
-config: {"url": "https://biocontainers.pro/tools/pretextsnapshot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextsnapshot", "latest": {"0.0.4--h9f5acd7_1": "sha256:a38608ebccf66184e54602d681f833f211ecbc08a910cf996227930fcc214977"}, "tags": {"0.0.4--h9f5acd7_1": "sha256:a38608ebccf66184e54602d681f833f211ecbc08a910cf996227930fcc214977"}, "docker": "quay.io/biocontainers/pretextsnapshot", "aliases": {"PretextSnapshot": "/usr/local/bin/PretextSnapshot", "PretextSnapshot.avx": "/usr/local/bin/PretextSnapshot.avx", "PretextSnapshot.avx2": "/usr/local/bin/PretextSnapshot.avx2", "PretextSnapshot.sse41": "/usr/local/bin/PretextSnapshot.sse41", "PretextSnapshot.sse42": "/usr/local/bin/PretextSnapshot.sse42"}}
+config: {"url": "https://biocontainers.pro/tools/pretextsnapshot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextsnapshot", "latest": {"0.0.4--h4ac6f70_3": "sha256:b205e2ffc312d9aefc342f735e311d018ef1aadfadf170a12ada1a97e557195e"}, "tags": {"0.0.4--h9f5acd7_1": "sha256:a38608ebccf66184e54602d681f833f211ecbc08a910cf996227930fcc214977", "0.0.4--h4ac6f70_3": "sha256:b205e2ffc312d9aefc342f735e311d018ef1aadfadf170a12ada1a97e557195e"}, "docker": "quay.io/biocontainers/pretextsnapshot", "aliases": {"PretextSnapshot": "/usr/local/bin/PretextSnapshot", "PretextSnapshot.avx": "/usr/local/bin/PretextSnapshot.avx", "PretextSnapshot.avx2": "/usr/local/bin/PretextSnapshot.avx2", "PretextSnapshot.sse41": "/usr/local/bin/PretextSnapshot.sse41", "PretextSnapshot.sse42": "/usr/local/bin/PretextSnapshot.sse42"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pretextsnapshot.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pretextsnapshot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pretextsnapshot:0.0.4--h9f5acd7_1
+$ shpc install quay.io/biocontainers/pretextsnapshot:0.0.4--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pretextsnapshot/0.0.4--h9f5acd7_1
-$ module help quay.io/biocontainers/pretextsnapshot/0.0.4--h9f5acd7_1
+$ module load quay.io/biocontainers/pretextsnapshot/0.0.4--h4ac6f70_3
+$ module help quay.io/biocontainers/pretextsnapshot/0.0.4--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

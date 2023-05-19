@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sciphin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sciphin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sciphin/container.yaml"
-updated_at: "2023-05-18 04:21:35.185973"
-latest: "1.0.1--h7ff8a90_1"
+updated_at: "2023-05-19 02:50:55.925413"
+latest: "1.0.1--h21ec9f0_2"
 container_url: "https://biocontainers.pro/tools/sciphin"
 aliases:
  - "sciphin"
 versions:
  - "1.0.1--h7ff8a90_1"
+ - "1.0.1--h21ec9f0_2"
 description: "singularity registry hpc automated addition for sciphin"
-config: {"url": "https://biocontainers.pro/tools/sciphin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sciphin", "latest": {"1.0.1--h7ff8a90_1": "sha256:c9586cd3ed93dd56927a4609a62101051a1f8adbf0e61632bfa39ae41df6b171"}, "tags": {"1.0.1--h7ff8a90_1": "sha256:c9586cd3ed93dd56927a4609a62101051a1f8adbf0e61632bfa39ae41df6b171"}, "docker": "quay.io/biocontainers/sciphin", "aliases": {"sciphin": "/usr/local/bin/sciphin"}}
+config: {"url": "https://biocontainers.pro/tools/sciphin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sciphin", "latest": {"1.0.1--h21ec9f0_2": "sha256:8b0b36726b3e384665600e5e5289be38bcf13abaefdad9f35847301f98ddb0f6"}, "tags": {"1.0.1--h7ff8a90_1": "sha256:c9586cd3ed93dd56927a4609a62101051a1f8adbf0e61632bfa39ae41df6b171", "1.0.1--h21ec9f0_2": "sha256:8b0b36726b3e384665600e5e5289be38bcf13abaefdad9f35847301f98ddb0f6"}, "docker": "quay.io/biocontainers/sciphin", "aliases": {"sciphin": "/usr/local/bin/sciphin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sciphin.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sciphin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sciphin:1.0.1--h7ff8a90_1
+$ shpc install quay.io/biocontainers/sciphin:1.0.1--h21ec9f0_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sciphin/1.0.1--h7ff8a90_1
-$ module help quay.io/biocontainers/sciphin/1.0.1--h7ff8a90_1
+$ module load quay.io/biocontainers/sciphin/1.0.1--h21ec9f0_2
+$ module help quay.io/biocontainers/sciphin/1.0.1--h21ec9f0_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

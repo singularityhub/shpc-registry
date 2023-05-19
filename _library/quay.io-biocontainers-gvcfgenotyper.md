@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gvcfgenotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcfgenotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcfgenotyper/container.yaml"
-updated_at: "2023-05-18 05:02:24.718797"
-latest: "2019.02.26--h468198e_2"
+updated_at: "2023-05-19 03:16:01.160805"
+latest: "2019.02.26--hf5e1c6e_4"
 container_url: "https://biocontainers.pro/tools/gvcfgenotyper"
 aliases:
  - "gvcfgenotyper"
 versions:
  - "2019.02.26--h468198e_2"
+ - "2019.02.26--hf5e1c6e_4"
 description: "shpc-registry automated BioContainers addition for gvcfgenotyper"
-config: {"url": "https://biocontainers.pro/tools/gvcfgenotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcfgenotyper", "latest": {"2019.02.26--h468198e_2": "sha256:bfaf411ececc4f25e50939ba22c9cf4a2d12f1e612356333903af1694268c8ae"}, "tags": {"2019.02.26--h468198e_2": "sha256:bfaf411ececc4f25e50939ba22c9cf4a2d12f1e612356333903af1694268c8ae"}, "docker": "quay.io/biocontainers/gvcfgenotyper", "aliases": {"gvcfgenotyper": "/usr/local/bin/gvcfgenotyper"}}
+config: {"url": "https://biocontainers.pro/tools/gvcfgenotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcfgenotyper", "latest": {"2019.02.26--hf5e1c6e_4": "sha256:9b06ad6a58211d2d6d8b1c0d2732baf6892c29cbb00339f8aad6b48320f9a7eb"}, "tags": {"2019.02.26--h468198e_2": "sha256:bfaf411ececc4f25e50939ba22c9cf4a2d12f1e612356333903af1694268c8ae", "2019.02.26--hf5e1c6e_4": "sha256:9b06ad6a58211d2d6d8b1c0d2732baf6892c29cbb00339f8aad6b48320f9a7eb"}, "docker": "quay.io/biocontainers/gvcfgenotyper", "aliases": {"gvcfgenotyper": "/usr/local/bin/gvcfgenotyper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gvcfgenotyper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gvcfgenotyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gvcfgenotyper:2019.02.26--h468198e_2
+$ shpc install quay.io/biocontainers/gvcfgenotyper:2019.02.26--hf5e1c6e_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gvcfgenotyper/2019.02.26--h468198e_2
-$ module help quay.io/biocontainers/gvcfgenotyper/2019.02.26--h468198e_2
+$ module load quay.io/biocontainers/gvcfgenotyper/2019.02.26--hf5e1c6e_4
+$ module help quay.io/biocontainers/gvcfgenotyper/2019.02.26--hf5e1c6e_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

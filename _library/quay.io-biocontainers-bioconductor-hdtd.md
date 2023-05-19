@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hdtd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hdtd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hdtd/container.yaml"
-updated_at: "2023-05-18 04:17:21.636523"
-latest: "1.32.0--r42hc247a5b_0"
+updated_at: "2023-05-19 02:48:23.569988"
+latest: "1.32.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hdtd"
 
 versions:
  - "1.28.0--r41hc247a5b_2"
  - "1.32.0--r42hc247a5b_0"
+ - "1.32.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hdtd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hdtd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hdtd", "latest": {"1.32.0--r42hc247a5b_0": "sha256:8e6990e0bbbcfcd895d3bba246233cd03068a40e4f44988a382b193772fe98d4"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:ac44a5366106295c7e0a27e655a7c96cc62213290f9c493d41dd9169490787e2", "1.32.0--r42hc247a5b_0": "sha256:8e6990e0bbbcfcd895d3bba246233cd03068a40e4f44988a382b193772fe98d4"}, "docker": "quay.io/biocontainers/bioconductor-hdtd"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hdtd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hdtd", "latest": {"1.32.0--r42hf17093f_1": "sha256:933125b046df7d6d74e09a67ce3e37d0d15daf5448bc76028ea69040206b0d4c"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:ac44a5366106295c7e0a27e655a7c96cc62213290f9c493d41dd9169490787e2", "1.32.0--r42hc247a5b_0": "sha256:8e6990e0bbbcfcd895d3bba246233cd03068a40e4f44988a382b193772fe98d4", "1.32.0--r42hf17093f_1": "sha256:933125b046df7d6d74e09a67ce3e37d0d15daf5448bc76028ea69040206b0d4c"}, "docker": "quay.io/biocontainers/bioconductor-hdtd"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hdtd.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hdtd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hdtd:1.32.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-hdtd:1.32.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hdtd/1.32.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-hdtd/1.32.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-hdtd/1.32.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-hdtd/1.32.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

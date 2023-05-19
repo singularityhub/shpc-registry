@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pepr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pepr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pepr/container.yaml"
-updated_at: "2023-05-18 04:05:08.920665"
+updated_at: "2023-05-19 02:40:58.433468"
 latest: "1.1.24--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/pepr"
 aliases:

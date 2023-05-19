@@ -4,7 +4,7 @@ name:  "bids/matlab-compiler-runtime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/matlab-compiler-runtime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/matlab-compiler-runtime/container.yaml"
-updated_at: "2023-05-18 03:55:39.486323"
+updated_at: "2023-05-19 02:34:41.522973"
 latest: "R2016b"
 container_url: "https://hub.docker.com/r/bids/matlab-compiler-runtime"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popscle/container.yaml"
-updated_at: "2023-05-18 04:37:51.937453"
+updated_at: "2023-05-19 03:00:59.310128"
 latest: "0.1beta--h985387c_1"
 container_url: "https://biocontainers.pro/tools/popscle"
 aliases:

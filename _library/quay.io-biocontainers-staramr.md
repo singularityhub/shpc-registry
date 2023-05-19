@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staramr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staramr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staramr/container.yaml"
-updated_at: "2023-05-18 04:36:02.775779"
+updated_at: "2023-05-19 02:59:51.207329"
 latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staramr"
 aliases:

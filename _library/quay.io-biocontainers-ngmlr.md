@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ngmlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngmlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngmlr/container.yaml"
-updated_at: "2023-05-18 03:57:46.900495"
-latest: "0.2.7--hd03093a_4"
+updated_at: "2023-05-19 02:36:07.979491"
+latest: "0.2.7--hdcf5f25_6"
 container_url: "https://biocontainers.pro/tools/ngmlr"
 aliases:
  - "ngmlr"
 versions:
  - "0.2.7--hd03093a_4"
+ - "0.2.7--hdcf5f25_6"
 description: "shpc-registry automated BioContainers addition for ngmlr"
-config: {"url": "https://biocontainers.pro/tools/ngmlr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmlr", "latest": {"0.2.7--hd03093a_4": "sha256:2ddaed41716f36fa1aefeec4273ef37faaa6160242a21c0fa1df3497bc72c078"}, "tags": {"0.2.7--hd03093a_4": "sha256:2ddaed41716f36fa1aefeec4273ef37faaa6160242a21c0fa1df3497bc72c078"}, "docker": "quay.io/biocontainers/ngmlr", "aliases": {"ngmlr": "/usr/local/bin/ngmlr"}}
+config: {"url": "https://biocontainers.pro/tools/ngmlr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmlr", "latest": {"0.2.7--hdcf5f25_6": "sha256:219b57f901904e3a719747b1c8c280e8142db25288285ba45f8ae67204225469"}, "tags": {"0.2.7--hd03093a_4": "sha256:2ddaed41716f36fa1aefeec4273ef37faaa6160242a21c0fa1df3497bc72c078", "0.2.7--hdcf5f25_6": "sha256:219b57f901904e3a719747b1c8c280e8142db25288285ba45f8ae67204225469"}, "docker": "quay.io/biocontainers/ngmlr", "aliases": {"ngmlr": "/usr/local/bin/ngmlr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngmlr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ngmlr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngmlr:0.2.7--hd03093a_4
+$ shpc install quay.io/biocontainers/ngmlr:0.2.7--hdcf5f25_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngmlr/0.2.7--hd03093a_4
-$ module help quay.io/biocontainers/ngmlr/0.2.7--hd03093a_4
+$ module load quay.io/biocontainers/ngmlr/0.2.7--hdcf5f25_6
+$ module help quay.io/biocontainers/ngmlr/0.2.7--hdcf5f25_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

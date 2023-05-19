@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/goat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goat/container.yaml"
-updated_at: "2023-05-18 04:52:34.530858"
-latest: "0.2.5--h92d785c_0"
+updated_at: "2023-05-19 03:09:55.255296"
+latest: "0.2.5--h9d3141d_2"
 container_url: "https://biocontainers.pro/tools/goat"
 aliases:
  - "goat-cli"
 versions:
  - "0.2.0--h92d785c_0"
  - "0.2.5--h92d785c_0"
+ - "0.2.5--h9d3141d_2"
 description: "shpc-registry automated BioContainers addition for goat"
-config: {"url": "https://biocontainers.pro/tools/goat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goat", "latest": {"0.2.5--h92d785c_0": "sha256:c2328cf080c4bb54a0fc848617c13f131006cad9303d81f82b88aaa655b1e3fd"}, "tags": {"0.2.0--h92d785c_0": "sha256:b8b9f6fb938aabf6ff97e9f78334fe19da86c65ea2de6054c98bab12f07dc1d6", "0.2.5--h92d785c_0": "sha256:c2328cf080c4bb54a0fc848617c13f131006cad9303d81f82b88aaa655b1e3fd"}, "docker": "quay.io/biocontainers/goat", "aliases": {"goat-cli": "/usr/local/bin/goat-cli"}}
+config: {"url": "https://biocontainers.pro/tools/goat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goat", "latest": {"0.2.5--h9d3141d_2": "sha256:6f0470a092a28424edcb2a3fd3d2dcc963f94e768c9f466f1b4c6f546cc260d5"}, "tags": {"0.2.0--h92d785c_0": "sha256:b8b9f6fb938aabf6ff97e9f78334fe19da86c65ea2de6054c98bab12f07dc1d6", "0.2.5--h92d785c_0": "sha256:c2328cf080c4bb54a0fc848617c13f131006cad9303d81f82b88aaa655b1e3fd", "0.2.5--h9d3141d_2": "sha256:6f0470a092a28424edcb2a3fd3d2dcc963f94e768c9f466f1b4c6f546cc260d5"}, "docker": "quay.io/biocontainers/goat", "aliases": {"goat-cli": "/usr/local/bin/goat-cli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/goat.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/goat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/goat:0.2.5--h92d785c_0
+$ shpc install quay.io/biocontainers/goat:0.2.5--h9d3141d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/goat/0.2.5--h92d785c_0
-$ module help quay.io/biocontainers/goat/0.2.5--h92d785c_0
+$ module load quay.io/biocontainers/goat/0.2.5--h9d3141d_2
+$ module help quay.io/biocontainers/goat/0.2.5--h9d3141d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

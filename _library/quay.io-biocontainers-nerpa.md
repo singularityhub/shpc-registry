@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nerpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nerpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nerpa/container.yaml"
-updated_at: "2023-05-18 05:08:41.624137"
-latest: "1.0.0--py37h96cfd12_3"
+updated_at: "2023-05-19 03:20:05.906309"
+latest: "1.0.0--py39hc16433a_4"
 container_url: "https://biocontainers.pro/tools/nerpa"
 aliases:
  - "NRPsMatcher"
@@ -23,8 +23,9 @@ aliases:
  - "f2py3.7"
 versions:
  - "1.0.0--py37h96cfd12_3"
+ - "1.0.0--py39hc16433a_4"
 description: "shpc-registry automated BioContainers addition for nerpa"
-config: {"url": "https://biocontainers.pro/tools/nerpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nerpa", "latest": {"1.0.0--py37h96cfd12_3": "sha256:69ec060b9b2a85c55eec39740432cff442ca9bcec83cf741dd0e823c13ae5119"}, "tags": {"1.0.0--py37h96cfd12_3": "sha256:69ec060b9b2a85c55eec39740432cff442ca9bcec83cf741dd0e823c13ae5119"}, "docker": "quay.io/biocontainers/nerpa", "aliases": {"NRPsMatcher": "/usr/local/bin/NRPsMatcher", "nerpa.py": "/usr/local/bin/nerpa.py", "nerpa_init.py": "/usr/local/bin/nerpa_init.py", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.7": "/usr/local/bin/f2py3.7"}}
+config: {"url": "https://biocontainers.pro/tools/nerpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nerpa", "latest": {"1.0.0--py39hc16433a_4": "sha256:db5ddf9e15538ec189cd4476e9875e18eeb04564b3ea1635070caadb7ba3c7c0"}, "tags": {"1.0.0--py37h96cfd12_3": "sha256:69ec060b9b2a85c55eec39740432cff442ca9bcec83cf741dd0e823c13ae5119", "1.0.0--py39hc16433a_4": "sha256:db5ddf9e15538ec189cd4476e9875e18eeb04564b3ea1635070caadb7ba3c7c0"}, "docker": "quay.io/biocontainers/nerpa", "aliases": {"NRPsMatcher": "/usr/local/bin/NRPsMatcher", "nerpa.py": "/usr/local/bin/nerpa.py", "nerpa_init.py": "/usr/local/bin/nerpa_init.py", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.7": "/usr/local/bin/f2py3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nerpa.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/nerpa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nerpa:1.0.0--py37h96cfd12_3
+$ shpc install quay.io/biocontainers/nerpa:1.0.0--py39hc16433a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nerpa/1.0.0--py37h96cfd12_3
-$ module help quay.io/biocontainers/nerpa/1.0.0--py37h96cfd12_3
+$ module load quay.io/biocontainers/nerpa/1.0.0--py39hc16433a_4
+$ module help quay.io/biocontainers/nerpa/1.0.0--py39hc16433a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

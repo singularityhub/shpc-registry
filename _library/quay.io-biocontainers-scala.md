@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scala"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scala/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scala/container.yaml"
-updated_at: "2023-05-18 04:31:24.453832"
+updated_at: "2023-05-19 02:56:59.527015"
 latest: "2.11.8--1"
 container_url: "https://biocontainers.pro/tools/scala"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irep/container.yaml"
-updated_at: "2023-05-18 05:07:03.543400"
+updated_at: "2023-05-19 03:19:00.042996"
 latest: "1.1.7--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/irep"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krakentools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakentools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krakentools/container.yaml"
-updated_at: "2023-05-18 05:10:07.171926"
+updated_at: "2023-05-19 03:20:59.263507"
 latest: "1.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/krakentools"
 aliases:

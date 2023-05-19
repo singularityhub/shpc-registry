@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rust-overlaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-overlaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-overlaps/container.yaml"
-updated_at: "2023-05-18 05:10:15.324132"
-latest: "0.1.1--h7132678_7"
+updated_at: "2023-05-19 03:21:04.789029"
+latest: "0.1.1--he4a0461_9"
 container_url: "https://biocontainers.pro/tools/rust-overlaps"
 aliases:
  - "rust-overlaps"
 versions:
  - "0.1.1--h7132678_7"
+ - "0.1.1--he4a0461_9"
 description: "shpc-registry automated BioContainers addition for rust-overlaps"
-config: {"url": "https://biocontainers.pro/tools/rust-overlaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-overlaps", "latest": {"0.1.1--h7132678_7": "sha256:02d445e0122a974a8febacd13901aee09f5f4c171116698fe7fa052907d8441a"}, "tags": {"0.1.1--h7132678_7": "sha256:02d445e0122a974a8febacd13901aee09f5f4c171116698fe7fa052907d8441a"}, "docker": "quay.io/biocontainers/rust-overlaps", "aliases": {"rust-overlaps": "/usr/local/bin/rust-overlaps"}}
+config: {"url": "https://biocontainers.pro/tools/rust-overlaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-overlaps", "latest": {"0.1.1--he4a0461_9": "sha256:a933a2ea33492bd51feaee3416b3fc064afd047ee458ab5663afdb9c0509c7b6"}, "tags": {"0.1.1--h7132678_7": "sha256:02d445e0122a974a8febacd13901aee09f5f4c171116698fe7fa052907d8441a", "0.1.1--he4a0461_9": "sha256:a933a2ea33492bd51feaee3416b3fc064afd047ee458ab5663afdb9c0509c7b6"}, "docker": "quay.io/biocontainers/rust-overlaps", "aliases": {"rust-overlaps": "/usr/local/bin/rust-overlaps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rust-overlaps.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rust-overlaps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rust-overlaps:0.1.1--h7132678_7
+$ shpc install quay.io/biocontainers/rust-overlaps:0.1.1--he4a0461_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rust-overlaps/0.1.1--h7132678_7
-$ module help quay.io/biocontainers/rust-overlaps/0.1.1--h7132678_7
+$ module load quay.io/biocontainers/rust-overlaps/0.1.1--he4a0461_9
+$ module help quay.io/biocontainers/rust-overlaps/0.1.1--he4a0461_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

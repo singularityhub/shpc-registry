@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phonenumbers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phonenumbers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phonenumbers/container.yaml"
-updated_at: "2023-05-18 04:42:08.750718"
+updated_at: "2023-05-19 03:03:37.209838"
 latest: "7.2.4--py35_0"
 container_url: "https://biocontainers.pro/tools/phonenumbers"
 aliases:

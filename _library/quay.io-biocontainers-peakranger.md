@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/peakranger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakranger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peakranger/container.yaml"
-updated_at: "2023-05-18 04:01:43.353091"
-latest: "1.18--h7ff8a90_6"
+updated_at: "2023-05-19 02:38:50.368958"
+latest: "1.18--h21ec9f0_8"
 container_url: "https://biocontainers.pro/tools/peakranger"
 aliases:
  - "peakranger"
 versions:
  - "1.18--h7ff8a90_6"
+ - "1.18--h21ec9f0_8"
 description: "shpc-registry automated BioContainers addition for peakranger"
-config: {"url": "https://biocontainers.pro/tools/peakranger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peakranger", "latest": {"1.18--h7ff8a90_6": "sha256:8b5362df08ee2ab33efb3e1bada5178a18cb30960c3f598994969bc00fd6a0b4"}, "tags": {"1.18--h7ff8a90_6": "sha256:8b5362df08ee2ab33efb3e1bada5178a18cb30960c3f598994969bc00fd6a0b4"}, "docker": "quay.io/biocontainers/peakranger", "aliases": {"peakranger": "/usr/local/bin/peakranger"}}
+config: {"url": "https://biocontainers.pro/tools/peakranger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peakranger", "latest": {"1.18--h21ec9f0_8": "sha256:d6e7521fc55e2b48daeff0485f53bbef182929ede9704099e1934072a69b7d79"}, "tags": {"1.18--h7ff8a90_6": "sha256:8b5362df08ee2ab33efb3e1bada5178a18cb30960c3f598994969bc00fd6a0b4", "1.18--h21ec9f0_8": "sha256:d6e7521fc55e2b48daeff0485f53bbef182929ede9704099e1934072a69b7d79"}, "docker": "quay.io/biocontainers/peakranger", "aliases": {"peakranger": "/usr/local/bin/peakranger"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peakranger.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/peakranger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peakranger:1.18--h7ff8a90_6
+$ shpc install quay.io/biocontainers/peakranger:1.18--h21ec9f0_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peakranger/1.18--h7ff8a90_6
-$ module help quay.io/biocontainers/peakranger/1.18--h7ff8a90_6
+$ module load quay.io/biocontainers/peakranger/1.18--h21ec9f0_8
+$ module help quay.io/biocontainers/peakranger/1.18--h21ec9f0_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

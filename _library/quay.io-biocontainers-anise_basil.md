@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anise_basil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anise_basil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anise_basil/container.yaml"
-updated_at: "2023-05-18 04:29:24.556177"
-latest: "1.2.0--py36hcb2eddc_3"
+updated_at: "2023-05-19 02:55:40.683268"
+latest: "1.2.0--py39h1442aad_6"
 container_url: "https://biocontainers.pro/tools/anise_basil"
 aliases:
  - "anise"
@@ -22,8 +22,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.2.0--py36hcb2eddc_3"
+ - "1.2.0--py39h1442aad_6"
 description: "shpc-registry automated BioContainers addition for anise_basil"
-config: {"url": "https://biocontainers.pro/tools/anise_basil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anise_basil", "latest": {"1.2.0--py36hcb2eddc_3": "sha256:fba04d9b4155ce0cad72e78602e1f9d08e84cd3ae4765da8c264b640727dde12"}, "tags": {"1.2.0--py36hcb2eddc_3": "sha256:fba04d9b4155ce0cad72e78602e1f9d08e84cd3ae4765da8c264b640727dde12"}, "docker": "quay.io/biocontainers/anise_basil", "aliases": {"anise": "/usr/local/bin/anise", "basil": "/usr/local/bin/basil", "filter_basil.py": "/usr/local/bin/filter_basil.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/anise_basil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anise_basil", "latest": {"1.2.0--py39h1442aad_6": "sha256:a2bffd2574d4c3160ebfc15ace4c600079383b8b8499b3ead00d50c810cabde7"}, "tags": {"1.2.0--py36hcb2eddc_3": "sha256:fba04d9b4155ce0cad72e78602e1f9d08e84cd3ae4765da8c264b640727dde12", "1.2.0--py39h1442aad_6": "sha256:a2bffd2574d4c3160ebfc15ace4c600079383b8b8499b3ead00d50c810cabde7"}, "docker": "quay.io/biocontainers/anise_basil", "aliases": {"anise": "/usr/local/bin/anise", "basil": "/usr/local/bin/basil", "filter_basil.py": "/usr/local/bin/filter_basil.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anise_basil.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/anise_basil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anise_basil:1.2.0--py36hcb2eddc_3
+$ shpc install quay.io/biocontainers/anise_basil:1.2.0--py39h1442aad_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anise_basil/1.2.0--py36hcb2eddc_3
-$ module help quay.io/biocontainers/anise_basil/1.2.0--py36hcb2eddc_3
+$ module load quay.io/biocontainers/anise_basil/1.2.0--py39h1442aad_6
+$ module help quay.io/biocontainers/anise_basil/1.2.0--py39h1442aad_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

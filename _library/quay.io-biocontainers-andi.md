@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/andi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/andi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/andi/container.yaml"
-updated_at: "2023-05-18 04:52:46.234729"
-latest: "0.13--hcde4609_3"
+updated_at: "2023-05-19 03:10:02.716510"
+latest: "0.13--h082502c_4"
 container_url: "https://biocontainers.pro/tools/andi"
 aliases:
  - "andi"
  - "gsl-randist"
 versions:
  - "0.13--hcde4609_3"
+ - "0.13--h082502c_4"
 description: "shpc-registry automated BioContainers addition for andi"
-config: {"url": "https://biocontainers.pro/tools/andi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for andi", "latest": {"0.13--hcde4609_3": "sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428"}, "tags": {"0.13--hcde4609_3": "sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428"}, "docker": "quay.io/biocontainers/andi", "aliases": {"andi": "/usr/local/bin/andi", "gsl-randist": "/usr/local/bin/gsl-randist"}}
+config: {"url": "https://biocontainers.pro/tools/andi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for andi", "latest": {"0.13--h082502c_4": "sha256:a1e26a176a651eebc2ba2267e759a1cba2f5b22d34f9a7a2f28dd344bb1942a0"}, "tags": {"0.13--hcde4609_3": "sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428", "0.13--h082502c_4": "sha256:a1e26a176a651eebc2ba2267e759a1cba2f5b22d34f9a7a2f28dd344bb1942a0"}, "docker": "quay.io/biocontainers/andi", "aliases": {"andi": "/usr/local/bin/andi", "gsl-randist": "/usr/local/bin/gsl-randist"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/andi.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/andi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/andi:0.13--hcde4609_3
+$ shpc install quay.io/biocontainers/andi:0.13--h082502c_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/andi/0.13--hcde4609_3
-$ module help quay.io/biocontainers/andi/0.13--hcde4609_3
+$ module load quay.io/biocontainers/andi/0.13--h082502c_4
+$ module help quay.io/biocontainers/andi/0.13--h082502c_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

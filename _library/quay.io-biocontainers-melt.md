@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/melt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/melt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/melt/container.yaml"
-updated_at: "2023-05-18 05:07:33.614809"
+updated_at: "2023-05-19 03:19:19.912932"
 latest: "1.0.3--pyh864c0ab_4"
 container_url: "https://biocontainers.pro/tools/melt"
 aliases:

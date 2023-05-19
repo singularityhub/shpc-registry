@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-isoformswitchanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isoformswitchanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isoformswitchanalyzer/container.yaml"
-updated_at: "2023-05-18 04:08:59.812234"
-latest: "1.20.0--r42hc0cfd56_0"
+updated_at: "2023-05-19 02:43:20.353503"
+latest: "1.20.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-isoformswitchanalyzer"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hd029910_0"
  - "1.12.0--r40hd029910_1"
  - "1.10.0--r40h037d062_0"
+ - "1.20.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-isoformswitchanalyzer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-isoformswitchanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isoformswitchanalyzer", "latest": {"1.20.0--r42hc0cfd56_0": "sha256:99c7744b47c0f5d95e0357fc3488b98a6011ed42c1419c4b9524bc5a8d408cbb"}, "tags": {"1.8.0--r36h516909a_0": "sha256:5d2d80aaeeda3a7eea2b17a381914c533d3eb1bc9da4a524d861193e41932e42", "1.20.0--r42hc0cfd56_0": "sha256:99c7744b47c0f5d95e0357fc3488b98a6011ed42c1419c4b9524bc5a8d408cbb", "1.16.0--r41hc0cfd56_2": "sha256:0d693da976062039de3770e116b211414b931c7732dae3dfa08553b1cdf84c8c", "1.14.0--r41hd029910_0": "sha256:b0a3110c4a7a2b93522649c0d29315f87a90e4d645e46cc6ff6a32f5abd3e2d9", "1.12.0--r40hd029910_1": "sha256:8a309e965f4287b07de86d1574a82a8ac13b09515d4530903af48ca43df6feca", "1.10.0--r40h037d062_0": "sha256:63dc68ef56a17afbf903bfc108d20e76a3123a0381b505e05ff7e22c28a49ce8"}, "docker": "quay.io/biocontainers/bioconductor-isoformswitchanalyzer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-isoformswitchanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isoformswitchanalyzer", "latest": {"1.20.0--r42ha9d7317_1": "sha256:a34bb8d30b24ea04a74fe1ce47192a1ca7a4f9671f0c3915a09c12cffa097490"}, "tags": {"1.8.0--r36h516909a_0": "sha256:5d2d80aaeeda3a7eea2b17a381914c533d3eb1bc9da4a524d861193e41932e42", "1.20.0--r42hc0cfd56_0": "sha256:99c7744b47c0f5d95e0357fc3488b98a6011ed42c1419c4b9524bc5a8d408cbb", "1.16.0--r41hc0cfd56_2": "sha256:0d693da976062039de3770e116b211414b931c7732dae3dfa08553b1cdf84c8c", "1.14.0--r41hd029910_0": "sha256:b0a3110c4a7a2b93522649c0d29315f87a90e4d645e46cc6ff6a32f5abd3e2d9", "1.12.0--r40hd029910_1": "sha256:8a309e965f4287b07de86d1574a82a8ac13b09515d4530903af48ca43df6feca", "1.10.0--r40h037d062_0": "sha256:63dc68ef56a17afbf903bfc108d20e76a3123a0381b505e05ff7e22c28a49ce8", "1.20.0--r42ha9d7317_1": "sha256:a34bb8d30b24ea04a74fe1ce47192a1ca7a4f9671f0c3915a09c12cffa097490"}, "docker": "quay.io/biocontainers/bioconductor-isoformswitchanalyzer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-isoformswitchanalyzer.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-isoformswitchanalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-isoformswitchanalyzer:1.20.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-isoformswitchanalyzer:1.20.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-isoformswitchanalyzer/1.20.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-isoformswitchanalyzer/1.20.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-isoformswitchanalyzer/1.20.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-isoformswitchanalyzer/1.20.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

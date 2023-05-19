@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-immunedeconv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-immunedeconv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-immunedeconv/container.yaml"
-updated_at: "2023-05-18 04:43:23.724604"
-latest: "2.1.2--r42hdfd78af_0"
+updated_at: "2023-05-19 03:04:22.902790"
+latest: "2.1.2--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-immunedeconv"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.1.1--r42hdfd78af_0"
  - "2.1.1--r42hdfd78af_1"
  - "2.1.2--r42hdfd78af_0"
+ - "2.1.2--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-immunedeconv"
-config: {"url": "https://biocontainers.pro/tools/r-immunedeconv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-immunedeconv", "latest": {"2.1.2--r42hdfd78af_0": "sha256:613f9cea7b86d6202e70e16349f5431b318783e3b857d1bb6b974c7da90cf33f"}, "tags": {"2.1.0--r41hdfd78af_0": "sha256:adb586fa12a7ed29ab239b2f1ae4e6328de5d5eeb4ed30a1b9907a26f62fa3a9", "2.1.0--r42hdfd78af_1": "sha256:5be53611a4b1a3bb8d0ecfb60365f47817d1fec5a24605cae2f2635ebe2d993e", "2.1.1--r42hdfd78af_0": "sha256:a50882cc289c5bb25b47dce65fdc42f77cc1bd6957c98cbdfbbb660209d3f3b4", "2.1.1--r42hdfd78af_1": "sha256:b72f2bbf7a7e643f529ec81341b27b64f5e59212dfe489771b956d74b82669c4", "2.1.2--r42hdfd78af_0": "sha256:613f9cea7b86d6202e70e16349f5431b318783e3b857d1bb6b974c7da90cf33f"}, "docker": "quay.io/biocontainers/r-immunedeconv"}
+config: {"url": "https://biocontainers.pro/tools/r-immunedeconv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-immunedeconv", "latest": {"2.1.2--r42hdfd78af_1": "sha256:af43ff8d9ed432ca790bcd49e5fbd7589e2c57e0c76011a11c5a83b0ef434467"}, "tags": {"2.1.0--r41hdfd78af_0": "sha256:adb586fa12a7ed29ab239b2f1ae4e6328de5d5eeb4ed30a1b9907a26f62fa3a9", "2.1.0--r42hdfd78af_1": "sha256:5be53611a4b1a3bb8d0ecfb60365f47817d1fec5a24605cae2f2635ebe2d993e", "2.1.1--r42hdfd78af_0": "sha256:a50882cc289c5bb25b47dce65fdc42f77cc1bd6957c98cbdfbbb660209d3f3b4", "2.1.1--r42hdfd78af_1": "sha256:b72f2bbf7a7e643f529ec81341b27b64f5e59212dfe489771b956d74b82669c4", "2.1.2--r42hdfd78af_0": "sha256:613f9cea7b86d6202e70e16349f5431b318783e3b857d1bb6b974c7da90cf33f", "2.1.2--r42hdfd78af_1": "sha256:af43ff8d9ed432ca790bcd49e5fbd7589e2c57e0c76011a11c5a83b0ef434467"}, "docker": "quay.io/biocontainers/r-immunedeconv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-immunedeconv.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-immunedeconv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-immunedeconv:2.1.2--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-immunedeconv:2.1.2--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-immunedeconv/2.1.2--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-immunedeconv/2.1.2--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-immunedeconv/2.1.2--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-immunedeconv/2.1.2--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

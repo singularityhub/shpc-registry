@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simlord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simlord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simlord/container.yaml"
-updated_at: "2023-05-18 05:06:49.035343"
-latest: "1.0.4--py310h1425a21_2"
+updated_at: "2023-05-19 03:18:50.833303"
+latest: "1.0.4--py39hf95cd2a_3"
 container_url: "https://biocontainers.pro/tools/simlord"
 aliases:
  - "simlord"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.4--py310h1425a21_2"
+ - "1.0.4--py39hf95cd2a_3"
 description: "shpc-registry automated BioContainers addition for simlord"
-config: {"url": "https://biocontainers.pro/tools/simlord", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simlord", "latest": {"1.0.4--py310h1425a21_2": "sha256:8409743fb9ebe22a5f42ab133eda3df09a80bb577f9b2479b5a8f2456dd4759c"}, "tags": {"1.0.4--py310h1425a21_2": "sha256:8409743fb9ebe22a5f42ab133eda3df09a80bb577f9b2479b5a8f2456dd4759c"}, "docker": "quay.io/biocontainers/simlord", "aliases": {"simlord": "/usr/local/bin/simlord", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/simlord", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simlord", "latest": {"1.0.4--py39hf95cd2a_3": "sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f"}, "tags": {"1.0.4--py310h1425a21_2": "sha256:8409743fb9ebe22a5f42ab133eda3df09a80bb577f9b2479b5a8f2456dd4759c", "1.0.4--py39hf95cd2a_3": "sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f"}, "docker": "quay.io/biocontainers/simlord", "aliases": {"simlord": "/usr/local/bin/simlord", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simlord.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/simlord
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simlord:1.0.4--py310h1425a21_2
+$ shpc install quay.io/biocontainers/simlord:1.0.4--py39hf95cd2a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simlord/1.0.4--py310h1425a21_2
-$ module help quay.io/biocontainers/simlord/1.0.4--py310h1425a21_2
+$ module load quay.io/biocontainers/simlord/1.0.4--py39hf95cd2a_3
+$ module help quay.io/biocontainers/simlord/1.0.4--py39hf95cd2a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

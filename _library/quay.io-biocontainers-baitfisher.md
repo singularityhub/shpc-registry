@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/baitfisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baitfisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baitfisher/container.yaml"
-updated_at: "2023-05-18 04:08:04.382357"
-latest: "1.0--h9f5acd7_4"
+updated_at: "2023-05-19 02:42:45.467514"
+latest: "1.0--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/baitfisher"
 aliases:
  - "BaitFilter"
  - "BaitFisher"
 versions:
  - "1.0--h9f5acd7_4"
+ - "1.0--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for baitfisher"
-config: {"url": "https://biocontainers.pro/tools/baitfisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for baitfisher", "latest": {"1.0--h9f5acd7_4": "sha256:2df41913a7c8553153e0343bc96f32a5bf47ee90215c5275fb82d4d57a1be6e2"}, "tags": {"1.0--h9f5acd7_4": "sha256:2df41913a7c8553153e0343bc96f32a5bf47ee90215c5275fb82d4d57a1be6e2"}, "docker": "quay.io/biocontainers/baitfisher", "aliases": {"BaitFilter": "/usr/local/bin/BaitFilter", "BaitFisher": "/usr/local/bin/BaitFisher"}}
+config: {"url": "https://biocontainers.pro/tools/baitfisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for baitfisher", "latest": {"1.0--h4ac6f70_6": "sha256:d5c18f6017fb11ac9ae3e2fb1f8b5514df23e063407506699ebad3ac9eb29720"}, "tags": {"1.0--h9f5acd7_4": "sha256:2df41913a7c8553153e0343bc96f32a5bf47ee90215c5275fb82d4d57a1be6e2", "1.0--h4ac6f70_6": "sha256:d5c18f6017fb11ac9ae3e2fb1f8b5514df23e063407506699ebad3ac9eb29720"}, "docker": "quay.io/biocontainers/baitfisher", "aliases": {"BaitFilter": "/usr/local/bin/BaitFilter", "BaitFisher": "/usr/local/bin/BaitFisher"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/baitfisher.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/baitfisher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/baitfisher:1.0--h9f5acd7_4
+$ shpc install quay.io/biocontainers/baitfisher:1.0--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/baitfisher/1.0--h9f5acd7_4
-$ module help quay.io/biocontainers/baitfisher/1.0--h9f5acd7_4
+$ module load quay.io/biocontainers/baitfisher/1.0--h4ac6f70_6
+$ module help quay.io/biocontainers/baitfisher/1.0--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
