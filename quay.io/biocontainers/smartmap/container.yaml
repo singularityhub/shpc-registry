@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/smartmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smartmap
 latest:
-  1.0.0--hd03093a_2: sha256:0b02eb2278c16528f05dea773b489bb7ba9b72becf42db11e437e44e8e68a201
+  1.0.0--hdcf5f25_3: sha256:1d2e90ecb69447900dbd85a34ba6c56905e14aca059ad48c5494da7d384f1837
 tags:
   1.0.0--hd03093a_2: sha256:0b02eb2278c16528f05dea773b489bb7ba9b72becf42db11e437e44e8e68a201
+  1.0.0--hdcf5f25_3: sha256:1d2e90ecb69447900dbd85a34ba6c56905e14aca059ad48c5494da7d384f1837
 docker: quay.io/biocontainers/smartmap
 aliases:
   SmartMap: /usr/local/bin/SmartMap

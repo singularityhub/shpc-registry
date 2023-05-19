@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sumaclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sumaclust
 latest:
-  1.0.31--hec16e2b_4: sha256:0642b5f80857abb50e39bb07ff25e278d177b1f6a4247997e5c646759b4a9095
+  1.0.31--h031d066_6: sha256:bbf70dfed517e2fa3460e0ce3b0ec7b07ab4993abe23a856dedefcf6a1682c8e
 tags:
   1.0.31--hec16e2b_4: sha256:0642b5f80857abb50e39bb07ff25e278d177b1f6a4247997e5c646759b4a9095
+  1.0.31--h031d066_6: sha256:bbf70dfed517e2fa3460e0ce3b0ec7b07ab4993abe23a856dedefcf6a1682c8e
 docker: quay.io/biocontainers/sumaclust
 aliases:
   sumaclust: /usr/local/bin/sumaclust

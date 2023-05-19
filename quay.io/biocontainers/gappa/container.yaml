@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gappa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gappa
 latest:
-  0.8.0--hd03093a_1: sha256:de63bd594a237f8afd1ec2d0e3c9be70938a03b70491b2ff645a41cebcaed0f6
+  0.8.0--hdcf5f25_3: sha256:c9aaf12447e4c74d5aca027b26cb430842680b7ab3f0cb823fc4e40cbf680088
 tags:
   0.8.0--hd03093a_1: sha256:de63bd594a237f8afd1ec2d0e3c9be70938a03b70491b2ff645a41cebcaed0f6
+  0.8.0--hdcf5f25_3: sha256:c9aaf12447e4c74d5aca027b26cb430842680b7ab3f0cb823fc4e40cbf680088
 docker: quay.io/biocontainers/gappa
 aliases:
   gappa: /usr/local/bin/gappa

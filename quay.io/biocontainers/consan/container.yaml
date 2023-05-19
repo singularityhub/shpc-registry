@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/consan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for consan
 latest:
-  1.2--hec16e2b_3: sha256:80ccd27c6c491b5ca514c48296a1f5523a60a5d43d9032d9c4c7402424fe6045
+  1.2--h031d066_5: sha256:0d0d6a06a7028b2749737530591b4b280ba1ead1611b216dbbdc8570ea40fdec
 tags:
   1.2--hec16e2b_3: sha256:80ccd27c6c491b5ca514c48296a1f5523a60a5d43d9032d9c4c7402424fe6045
+  1.2--h031d066_5: sha256:0d0d6a06a7028b2749737530591b4b280ba1ead1611b216dbbdc8570ea40fdec
 docker: quay.io/biocontainers/consan
 aliases:
   bstats: /usr/local/bin/bstats

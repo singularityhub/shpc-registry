@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metaplatanus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metaplatanus
 latest:
-  1.3.1--hf1761c0_0: sha256:2da93a556e67b9da7184b59996bb2a229eadb5223aa256ee16008a800a367250
+  1.3.1--h6a68c12_1: sha256:42419497b64f33207342c04909feb5b879ad7322a1b433faf982fc70a66cc120
 tags:
   1.3.1--hf1761c0_0: sha256:2da93a556e67b9da7184b59996bb2a229eadb5223aa256ee16008a800a367250
+  1.3.1--h6a68c12_1: sha256:42419497b64f33207342c04909feb5b879ad7322a1b433faf982fc70a66cc120
 docker: quay.io/biocontainers/metaplatanus
 aliases:
   aggregateBinDepths.pl: /usr/local/bin/aggregateBinDepths.pl

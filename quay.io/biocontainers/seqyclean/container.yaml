@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seqyclean
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqyclean
 latest:
-  1.10.09--h5b5514e_3: sha256:c4eb656a91914b4975e14bdc3ba79ed8aaa4b92ac6322ae0866a51da9af35332
+  1.10.09--h43eeafb_5: sha256:16447ec83f71be66c0c1a60d4f9d7ecf61af3b8830df9c5892311017f9dfbaa7
 tags:
   1.10.09--h5b5514e_3: sha256:c4eb656a91914b4975e14bdc3ba79ed8aaa4b92ac6322ae0866a51da9af35332
+  1.10.09--h43eeafb_5: sha256:16447ec83f71be66c0c1a60d4f9d7ecf61af3b8830df9c5892311017f9dfbaa7
 docker: quay.io/biocontainers/seqyclean
 aliases:
   seqyclean: /usr/local/bin/seqyclean

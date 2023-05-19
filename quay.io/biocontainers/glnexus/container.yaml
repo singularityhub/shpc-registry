@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/glnexus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for glnexus
 latest:
-  1.4.1--h671cb6e_1: sha256:6e78c1d53f0510bb7ab9685302cb64b406e9156b403c711931139dd5a77caed7
+  1.4.1--h5c1b0a6_3: sha256:bbec4c1f5d2c077cb5ab6896b8789c870fd51bc2a4937f7827bd08721b067579
 tags:
   1.4.1--h671cb6e_1: sha256:6e78c1d53f0510bb7ab9685302cb64b406e9156b403c711931139dd5a77caed7
+  1.4.1--h5c1b0a6_3: sha256:bbec4c1f5d2c077cb5ab6896b8789c870fd51bc2a4937f7827bd08721b067579
 docker: quay.io/biocontainers/glnexus
 aliases:
   glnexus_cli: /usr/local/bin/glnexus_cli
