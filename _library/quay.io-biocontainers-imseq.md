@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/imseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imseq/container.yaml"
-updated_at: "2023-05-19 03:12:49.192285"
-latest: "1.1.0--hd03093a_5"
+updated_at: "2023-05-20 03:16:54.823893"
+latest: "1.1.0--hdcf5f25_7"
 container_url: "https://biocontainers.pro/tools/imseq"
 aliases:
  - "imseq"
 versions:
  - "1.1.0--hd03093a_5"
+ - "1.1.0--hdcf5f25_7"
 description: "shpc-registry automated BioContainers addition for imseq"
-config: {"url": "https://biocontainers.pro/tools/imseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imseq", "latest": {"1.1.0--hd03093a_5": "sha256:2a881fa617299402bebd37dd28631206dbad8b74fd556b601a2419d05521f88c"}, "tags": {"1.1.0--hd03093a_5": "sha256:2a881fa617299402bebd37dd28631206dbad8b74fd556b601a2419d05521f88c"}, "docker": "quay.io/biocontainers/imseq", "aliases": {"imseq": "/usr/local/bin/imseq"}}
+config: {"url": "https://biocontainers.pro/tools/imseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imseq", "latest": {"1.1.0--hdcf5f25_7": "sha256:4b0bc72e8a647243a1ff5f8e2081f0f272aa3257a5e0d69e88ae543d4ca7d598"}, "tags": {"1.1.0--hd03093a_5": "sha256:2a881fa617299402bebd37dd28631206dbad8b74fd556b601a2419d05521f88c", "1.1.0--hdcf5f25_7": "sha256:4b0bc72e8a647243a1ff5f8e2081f0f272aa3257a5e0d69e88ae543d4ca7d598"}, "docker": "quay.io/biocontainers/imseq", "aliases": {"imseq": "/usr/local/bin/imseq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/imseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/imseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/imseq:1.1.0--hd03093a_5
+$ shpc install quay.io/biocontainers/imseq:1.1.0--hdcf5f25_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/imseq/1.1.0--hd03093a_5
-$ module help quay.io/biocontainers/imseq/1.1.0--hd03093a_5
+$ module load quay.io/biocontainers/imseq/1.1.0--hdcf5f25_7
+$ module help quay.io/biocontainers/imseq/1.1.0--hdcf5f25_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

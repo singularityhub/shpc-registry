@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/blend-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blend-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blend-bio/container.yaml"
-updated_at: "2023-05-19 02:42:57.734927"
-latest: "1.0.0--h7132678_0"
+updated_at: "2023-05-20 02:42:20.823431"
+latest: "1.0.0--he4a0461_2"
 container_url: "https://biocontainers.pro/tools/blend-bio"
 aliases:
  - "blend"
  - "sdust"
 versions:
  - "1.0.0--h7132678_0"
+ - "1.0.0--he4a0461_2"
 description: "singularity registry hpc automated addition for blend-bio"
-config: {"url": "https://biocontainers.pro/tools/blend-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blend-bio", "latest": {"1.0.0--h7132678_0": "sha256:065a1dad5fa04908aa223561f10958b87a451ba47a083cf97ee6f5203bd37146"}, "tags": {"1.0.0--h7132678_0": "sha256:065a1dad5fa04908aa223561f10958b87a451ba47a083cf97ee6f5203bd37146"}, "docker": "quay.io/biocontainers/blend-bio", "aliases": {"blend": "/usr/local/bin/blend", "sdust": "/usr/local/bin/sdust"}}
+config: {"url": "https://biocontainers.pro/tools/blend-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blend-bio", "latest": {"1.0.0--he4a0461_2": "sha256:c617f7e585ebb4ad924fccac22dfae86daa30d373657ba0cf74ae641ca1cf1d7"}, "tags": {"1.0.0--h7132678_0": "sha256:065a1dad5fa04908aa223561f10958b87a451ba47a083cf97ee6f5203bd37146", "1.0.0--he4a0461_2": "sha256:c617f7e585ebb4ad924fccac22dfae86daa30d373657ba0cf74ae641ca1cf1d7"}, "docker": "quay.io/biocontainers/blend-bio", "aliases": {"blend": "/usr/local/bin/blend", "sdust": "/usr/local/bin/sdust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blend-bio.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/blend-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blend-bio:1.0.0--h7132678_0
+$ shpc install quay.io/biocontainers/blend-bio:1.0.0--he4a0461_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blend-bio/1.0.0--h7132678_0
-$ module help quay.io/biocontainers/blend-bio/1.0.0--h7132678_0
+$ module load quay.io/biocontainers/blend-bio/1.0.0--he4a0461_2
+$ module help quay.io/biocontainers/blend-bio/1.0.0--he4a0461_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

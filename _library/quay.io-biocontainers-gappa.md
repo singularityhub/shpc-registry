@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gappa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gappa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gappa/container.yaml"
-updated_at: "2023-05-19 03:20:09.875169"
-latest: "0.8.0--hd03093a_1"
+updated_at: "2023-05-20 03:25:46.059514"
+latest: "0.8.0--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/gappa"
 aliases:
  - "gappa"
 versions:
  - "0.8.0--hd03093a_1"
+ - "0.8.0--hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for gappa"
-config: {"url": "https://biocontainers.pro/tools/gappa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gappa", "latest": {"0.8.0--hd03093a_1": "sha256:de63bd594a237f8afd1ec2d0e3c9be70938a03b70491b2ff645a41cebcaed0f6"}, "tags": {"0.8.0--hd03093a_1": "sha256:de63bd594a237f8afd1ec2d0e3c9be70938a03b70491b2ff645a41cebcaed0f6"}, "docker": "quay.io/biocontainers/gappa", "aliases": {"gappa": "/usr/local/bin/gappa"}}
+config: {"url": "https://biocontainers.pro/tools/gappa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gappa", "latest": {"0.8.0--hdcf5f25_3": "sha256:c9aaf12447e4c74d5aca027b26cb430842680b7ab3f0cb823fc4e40cbf680088"}, "tags": {"0.8.0--hd03093a_1": "sha256:de63bd594a237f8afd1ec2d0e3c9be70938a03b70491b2ff645a41cebcaed0f6", "0.8.0--hdcf5f25_3": "sha256:c9aaf12447e4c74d5aca027b26cb430842680b7ab3f0cb823fc4e40cbf680088"}, "docker": "quay.io/biocontainers/gappa", "aliases": {"gappa": "/usr/local/bin/gappa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gappa.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gappa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gappa:0.8.0--hd03093a_1
+$ shpc install quay.io/biocontainers/gappa:0.8.0--hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gappa/0.8.0--hd03093a_1
-$ module help quay.io/biocontainers/gappa/0.8.0--hd03093a_1
+$ module load quay.io/biocontainers/gappa/0.8.0--hdcf5f25_3
+$ module help quay.io/biocontainers/gappa/0.8.0--hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

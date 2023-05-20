@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sumaclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sumaclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sumaclust/container.yaml"
-updated_at: "2023-05-19 02:36:21.452217"
-latest: "1.0.31--hec16e2b_4"
+updated_at: "2023-05-20 02:34:14.037043"
+latest: "1.0.31--h031d066_6"
 container_url: "https://biocontainers.pro/tools/sumaclust"
 aliases:
  - "sumaclust"
 versions:
  - "1.0.31--hec16e2b_4"
+ - "1.0.31--h031d066_6"
 description: "shpc-registry automated BioContainers addition for sumaclust"
-config: {"url": "https://biocontainers.pro/tools/sumaclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sumaclust", "latest": {"1.0.31--hec16e2b_4": "sha256:0642b5f80857abb50e39bb07ff25e278d177b1f6a4247997e5c646759b4a9095"}, "tags": {"1.0.31--hec16e2b_4": "sha256:0642b5f80857abb50e39bb07ff25e278d177b1f6a4247997e5c646759b4a9095"}, "docker": "quay.io/biocontainers/sumaclust", "aliases": {"sumaclust": "/usr/local/bin/sumaclust"}}
+config: {"url": "https://biocontainers.pro/tools/sumaclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sumaclust", "latest": {"1.0.31--h031d066_6": "sha256:bbf70dfed517e2fa3460e0ce3b0ec7b07ab4993abe23a856dedefcf6a1682c8e"}, "tags": {"1.0.31--hec16e2b_4": "sha256:0642b5f80857abb50e39bb07ff25e278d177b1f6a4247997e5c646759b4a9095", "1.0.31--h031d066_6": "sha256:bbf70dfed517e2fa3460e0ce3b0ec7b07ab4993abe23a856dedefcf6a1682c8e"}, "docker": "quay.io/biocontainers/sumaclust", "aliases": {"sumaclust": "/usr/local/bin/sumaclust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sumaclust.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sumaclust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sumaclust:1.0.31--hec16e2b_4
+$ shpc install quay.io/biocontainers/sumaclust:1.0.31--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sumaclust/1.0.31--hec16e2b_4
-$ module help quay.io/biocontainers/sumaclust/1.0.31--hec16e2b_4
+$ module load quay.io/biocontainers/sumaclust/1.0.31--h031d066_6
+$ module help quay.io/biocontainers/sumaclust/1.0.31--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

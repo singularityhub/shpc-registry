@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mdust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdust/container.yaml"
-updated_at: "2023-05-19 02:59:15.849811"
-latest: "2006.10.17--hec16e2b_4"
+updated_at: "2023-05-20 03:00:56.275597"
+latest: "2006.10.17--h031d066_6"
 container_url: "https://biocontainers.pro/tools/mdust"
 aliases:
  - "mdust"
 versions:
  - "2006.10.17--hec16e2b_4"
+ - "2006.10.17--h031d066_6"
 description: "shpc-registry automated BioContainers addition for mdust"
-config: {"url": "https://biocontainers.pro/tools/mdust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mdust", "latest": {"2006.10.17--hec16e2b_4": "sha256:6a238cb90621acd3a08c738229cd7d47361bf6350f368b7a494e0421d55d795d"}, "tags": {"2006.10.17--hec16e2b_4": "sha256:6a238cb90621acd3a08c738229cd7d47361bf6350f368b7a494e0421d55d795d"}, "docker": "quay.io/biocontainers/mdust", "aliases": {"mdust": "/usr/local/bin/mdust"}}
+config: {"url": "https://biocontainers.pro/tools/mdust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mdust", "latest": {"2006.10.17--h031d066_6": "sha256:e3dbeb026f83c40d550c41db16c0c6c55617f67edac54cc488ebd173e1b2d1e5"}, "tags": {"2006.10.17--hec16e2b_4": "sha256:6a238cb90621acd3a08c738229cd7d47361bf6350f368b7a494e0421d55d795d", "2006.10.17--h031d066_6": "sha256:e3dbeb026f83c40d550c41db16c0c6c55617f67edac54cc488ebd173e1b2d1e5"}, "docker": "quay.io/biocontainers/mdust", "aliases": {"mdust": "/usr/local/bin/mdust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mdust.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mdust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mdust:2006.10.17--hec16e2b_4
+$ shpc install quay.io/biocontainers/mdust:2006.10.17--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mdust/2006.10.17--hec16e2b_4
-$ module help quay.io/biocontainers/mdust/2006.10.17--hec16e2b_4
+$ module load quay.io/biocontainers/mdust/2006.10.17--h031d066_6
+$ module help quay.io/biocontainers/mdust/2006.10.17--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

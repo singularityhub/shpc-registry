@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/nanoplexer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplexer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplexer/container.yaml"
-updated_at: "2023-05-19 02:57:53.152210"
-latest: "0.1.2--h7132678_2"
+updated_at: "2023-05-20 02:59:24.879825"
+latest: "0.1.2--he4a0461_4"
 container_url: "https://biocontainers.pro/tools/nanoplexer"
 aliases:
  - "nanoplexer"
 versions:
  - "0.1.2--h7132678_2"
+ - "0.1.2--he4a0461_4"
 description: "shpc-registry automated BioContainers addition for nanoplexer"
-config: {"url": "https://biocontainers.pro/tools/nanoplexer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplexer", "latest": {"0.1.2--h7132678_2": "sha256:9d5ed38902c8878c6fb38a06ab3e9cd738d79a08ba18468a7f4e376ca1b6317e"}, "tags": {"0.1.2--h7132678_2": "sha256:9d5ed38902c8878c6fb38a06ab3e9cd738d79a08ba18468a7f4e376ca1b6317e"}, "docker": "quay.io/biocontainers/nanoplexer", "aliases": {"nanoplexer": "/usr/local/bin/nanoplexer"}}
+config: {"url": "https://biocontainers.pro/tools/nanoplexer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplexer", "latest": {"0.1.2--he4a0461_4": "sha256:3ec4c6af4a9c440a9ebf52ec87785ccac4d6c192aa73f5c60413aceb89eb61fb"}, "tags": {"0.1.2--h7132678_2": "sha256:9d5ed38902c8878c6fb38a06ab3e9cd738d79a08ba18468a7f4e376ca1b6317e", "0.1.2--he4a0461_4": "sha256:3ec4c6af4a9c440a9ebf52ec87785ccac4d6c192aa73f5c60413aceb89eb61fb"}, "docker": "quay.io/biocontainers/nanoplexer", "aliases": {"nanoplexer": "/usr/local/bin/nanoplexer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoplexer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/nanoplexer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoplexer:0.1.2--h7132678_2
+$ shpc install quay.io/biocontainers/nanoplexer:0.1.2--he4a0461_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoplexer/0.1.2--h7132678_2
-$ module help quay.io/biocontainers/nanoplexer/0.1.2--h7132678_2
+$ module load quay.io/biocontainers/nanoplexer/0.1.2--he4a0461_4
+$ module help quay.io/biocontainers/nanoplexer/0.1.2--he4a0461_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

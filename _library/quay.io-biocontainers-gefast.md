@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gefast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gefast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gefast/container.yaml"
-updated_at: "2023-05-19 03:14:19.393226"
-latest: "2.0.1--h9f5acd7_1"
+updated_at: "2023-05-20 03:18:45.657149"
+latest: "2.0.1--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/gefast"
 aliases:
  - "GeFaST"
 versions:
  - "2.0.1--h9f5acd7_1"
+ - "2.0.1--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for gefast"
-config: {"url": "https://biocontainers.pro/tools/gefast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gefast", "latest": {"2.0.1--h9f5acd7_1": "sha256:cb17e28f40249c0092129cbfea891eebfc450b4a9f6392c654fab19cd154bce1"}, "tags": {"2.0.1--h9f5acd7_1": "sha256:cb17e28f40249c0092129cbfea891eebfc450b4a9f6392c654fab19cd154bce1"}, "docker": "quay.io/biocontainers/gefast", "aliases": {"GeFaST": "/usr/local/bin/GeFaST"}}
+config: {"url": "https://biocontainers.pro/tools/gefast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gefast", "latest": {"2.0.1--h4ac6f70_3": "sha256:148956a13ff704c63f68f785c7da3dd335ed07a97764fffcfc04614d6203159d"}, "tags": {"2.0.1--h9f5acd7_1": "sha256:cb17e28f40249c0092129cbfea891eebfc450b4a9f6392c654fab19cd154bce1", "2.0.1--h4ac6f70_3": "sha256:148956a13ff704c63f68f785c7da3dd335ed07a97764fffcfc04614d6203159d"}, "docker": "quay.io/biocontainers/gefast", "aliases": {"GeFaST": "/usr/local/bin/GeFaST"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gefast.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gefast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gefast:2.0.1--h9f5acd7_1
+$ shpc install quay.io/biocontainers/gefast:2.0.1--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gefast/2.0.1--h9f5acd7_1
-$ module help quay.io/biocontainers/gefast/2.0.1--h9f5acd7_1
+$ module load quay.io/biocontainers/gefast/2.0.1--h4ac6f70_3
+$ module help quay.io/biocontainers/gefast/2.0.1--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

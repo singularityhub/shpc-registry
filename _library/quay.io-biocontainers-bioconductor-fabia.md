@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-fabia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fabia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fabia/container.yaml"
-updated_at: "2023-05-19 03:02:44.381073"
-latest: "2.44.0--r42hc0cfd56_0"
+updated_at: "2023-05-20 03:05:07.738853"
+latest: "2.44.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fabia"
 
 versions:
  - "2.40.0--r41hc0cfd56_2"
  - "2.44.0--r42hc0cfd56_0"
+ - "2.44.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fabia"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fabia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fabia", "latest": {"2.44.0--r42hc0cfd56_0": "sha256:e6b763536d2dafabad12d4c848257348a8e92eabd90f8db67aac6a804924e826"}, "tags": {"2.40.0--r41hc0cfd56_2": "sha256:44b7c08f1dedd7567d6353bd0865a882d5470b490a431d0f03db116a9d7c14fa", "2.44.0--r42hc0cfd56_0": "sha256:e6b763536d2dafabad12d4c848257348a8e92eabd90f8db67aac6a804924e826"}, "docker": "quay.io/biocontainers/bioconductor-fabia"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fabia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fabia", "latest": {"2.44.0--r42ha9d7317_1": "sha256:1950104ff870bd02c6386c760d6fb6a9ec2cba22bcd7ddcb2275231bf4604798"}, "tags": {"2.40.0--r41hc0cfd56_2": "sha256:44b7c08f1dedd7567d6353bd0865a882d5470b490a431d0f03db116a9d7c14fa", "2.44.0--r42hc0cfd56_0": "sha256:e6b763536d2dafabad12d4c848257348a8e92eabd90f8db67aac6a804924e826", "2.44.0--r42ha9d7317_1": "sha256:1950104ff870bd02c6386c760d6fb6a9ec2cba22bcd7ddcb2275231bf4604798"}, "docker": "quay.io/biocontainers/bioconductor-fabia"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fabia.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fabia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fabia:2.44.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-fabia:2.44.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fabia/2.44.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-fabia/2.44.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-fabia/2.44.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-fabia/2.44.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

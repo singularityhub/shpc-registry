@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/seqyclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqyclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqyclean/container.yaml"
-updated_at: "2023-05-19 02:38:38.932419"
-latest: "1.10.09--h5b5514e_3"
+updated_at: "2023-05-20 02:37:03.633091"
+latest: "1.10.09--h43eeafb_5"
 container_url: "https://biocontainers.pro/tools/seqyclean"
 aliases:
  - "seqyclean"
 versions:
  - "1.10.09--h5b5514e_3"
+ - "1.10.09--h43eeafb_5"
 description: "shpc-registry automated BioContainers addition for seqyclean"
-config: {"url": "https://biocontainers.pro/tools/seqyclean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqyclean", "latest": {"1.10.09--h5b5514e_3": "sha256:c4eb656a91914b4975e14bdc3ba79ed8aaa4b92ac6322ae0866a51da9af35332"}, "tags": {"1.10.09--h5b5514e_3": "sha256:c4eb656a91914b4975e14bdc3ba79ed8aaa4b92ac6322ae0866a51da9af35332"}, "docker": "quay.io/biocontainers/seqyclean", "aliases": {"seqyclean": "/usr/local/bin/seqyclean"}}
+config: {"url": "https://biocontainers.pro/tools/seqyclean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqyclean", "latest": {"1.10.09--h43eeafb_5": "sha256:16447ec83f71be66c0c1a60d4f9d7ecf61af3b8830df9c5892311017f9dfbaa7"}, "tags": {"1.10.09--h5b5514e_3": "sha256:c4eb656a91914b4975e14bdc3ba79ed8aaa4b92ac6322ae0866a51da9af35332", "1.10.09--h43eeafb_5": "sha256:16447ec83f71be66c0c1a60d4f9d7ecf61af3b8830df9c5892311017f9dfbaa7"}, "docker": "quay.io/biocontainers/seqyclean", "aliases": {"seqyclean": "/usr/local/bin/seqyclean"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqyclean.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/seqyclean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqyclean:1.10.09--h5b5514e_3
+$ shpc install quay.io/biocontainers/seqyclean:1.10.09--h43eeafb_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqyclean/1.10.09--h5b5514e_3
-$ module help quay.io/biocontainers/seqyclean/1.10.09--h5b5514e_3
+$ module load quay.io/biocontainers/seqyclean/1.10.09--h43eeafb_5
+$ module help quay.io/biocontainers/seqyclean/1.10.09--h43eeafb_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

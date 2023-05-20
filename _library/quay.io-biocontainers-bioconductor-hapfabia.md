@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hapfabia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapfabia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapfabia/container.yaml"
-updated_at: "2023-05-19 02:40:16.904690"
-latest: "1.40.0--r42hc0cfd56_0"
+updated_at: "2023-05-20 02:39:02.000025"
+latest: "1.40.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapfabia"
 
 versions:
  - "1.36.0--r41hc0cfd56_2"
  - "1.40.0--r42hc0cfd56_0"
+ - "1.40.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hapfabia"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hapfabia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapfabia", "latest": {"1.40.0--r42hc0cfd56_0": "sha256:9ad18f35eb7b70f5aff1d2e03f26b38f575647102fdf17f3e098702bcbb35e09"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:c4e92ea65ba47de1f41aab6dd1f80a2e2fcb214cc820459ef38d57947b376802", "1.40.0--r42hc0cfd56_0": "sha256:9ad18f35eb7b70f5aff1d2e03f26b38f575647102fdf17f3e098702bcbb35e09"}, "docker": "quay.io/biocontainers/bioconductor-hapfabia"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hapfabia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapfabia", "latest": {"1.40.0--r42ha9d7317_1": "sha256:1f20ae3b083775278e73d84470eec5415d5426167ff34c3b09a4aa9900ae299d"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:c4e92ea65ba47de1f41aab6dd1f80a2e2fcb214cc820459ef38d57947b376802", "1.40.0--r42hc0cfd56_0": "sha256:9ad18f35eb7b70f5aff1d2e03f26b38f575647102fdf17f3e098702bcbb35e09", "1.40.0--r42ha9d7317_1": "sha256:1f20ae3b083775278e73d84470eec5415d5426167ff34c3b09a4aa9900ae299d"}, "docker": "quay.io/biocontainers/bioconductor-hapfabia"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hapfabia.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hapfabia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hapfabia:1.40.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-hapfabia:1.40.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hapfabia/1.40.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-hapfabia/1.40.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-hapfabia/1.40.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-hapfabia/1.40.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

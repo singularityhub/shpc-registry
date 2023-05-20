@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/expam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expam/container.yaml"
-updated_at: "2023-05-19 02:37:48.141807"
-latest: "1.2.0--py39hbf8eff0_0"
+updated_at: "2023-05-20 02:35:58.802598"
+latest: "1.2.0--py39hf95cd2a_2"
 container_url: "https://biocontainers.pro/tools/expam"
 aliases:
  - "expam"
@@ -37,8 +37,9 @@ aliases:
  - "h5import"
 versions:
  - "1.2.0--py39hbf8eff0_0"
+ - "1.2.0--py39hf95cd2a_2"
 description: "singularity registry hpc automated addition for expam"
-config: {"url": "https://biocontainers.pro/tools/expam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for expam", "latest": {"1.2.0--py39hbf8eff0_0": "sha256:f127505c59577e788e5a41c499e96615470c224bcf59f9e578a3c9bb4f29413b"}, "tags": {"1.2.0--py39hbf8eff0_0": "sha256:f127505c59577e788e5a41c499e96615470c224bcf59f9e578a3c9bb4f29413b"}, "docker": "quay.io/biocontainers/expam", "aliases": {"expam": "/usr/local/bin/expam", "expam_limit": "/usr/local/bin/expam_limit", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import"}}
+config: {"url": "https://biocontainers.pro/tools/expam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for expam", "latest": {"1.2.0--py39hf95cd2a_2": "sha256:aaf24accdc345399993e8fc8d1fa575274973a207c8ff18a672a29c529cc951e"}, "tags": {"1.2.0--py39hbf8eff0_0": "sha256:f127505c59577e788e5a41c499e96615470c224bcf59f9e578a3c9bb4f29413b", "1.2.0--py39hf95cd2a_2": "sha256:aaf24accdc345399993e8fc8d1fa575274973a207c8ff18a672a29c529cc951e"}, "docker": "quay.io/biocontainers/expam", "aliases": {"expam": "/usr/local/bin/expam", "expam_limit": "/usr/local/bin/expam_limit", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expam.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/expam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/expam:1.2.0--py39hbf8eff0_0
+$ shpc install quay.io/biocontainers/expam:1.2.0--py39hf95cd2a_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/expam/1.2.0--py39hbf8eff0_0
-$ module help quay.io/biocontainers/expam/1.2.0--py39hbf8eff0_0
+$ module load quay.io/biocontainers/expam/1.2.0--py39hf95cd2a_2
+$ module help quay.io/biocontainers/expam/1.2.0--py39hf95cd2a_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

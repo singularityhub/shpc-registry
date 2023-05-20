@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-loose.rock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-loose.rock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-loose.rock/container.yaml"
-updated_at: "2023-05-19 02:36:59.199112"
+updated_at: "2023-05-20 02:34:56.249673"
 latest: "1.0.13--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-loose.rock"
 aliases:

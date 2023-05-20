@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-biox-seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-biox-seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-biox-seq/container.yaml"
-updated_at: "2023-05-19 02:37:06.189283"
+updated_at: "2023-05-20 02:35:03.936399"
 latest: "0.008007--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-biox-seq"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rnasnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnasnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnasnp/container.yaml"
-updated_at: "2023-05-19 03:17:39.806441"
-latest: "1.2--h87f3376_7"
+updated_at: "2023-05-20 03:22:48.213652"
+latest: "1.2--hdbdd923_9"
 container_url: "https://biocontainers.pro/tools/rnasnp"
 aliases:
  - "RNAsnp"
 versions:
  - "1.2--h1b792b2_6"
  - "1.2--h87f3376_7"
+ - "1.2--hdbdd923_9"
 description: "shpc-registry automated BioContainers addition for rnasnp"
-config: {"url": "https://biocontainers.pro/tools/rnasnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasnp", "latest": {"1.2--h87f3376_7": "sha256:8ad8e65d4b7d43f3c7732744eae1dbfd2cf3f1ad671f53a9c9a8a2002fc8eabe"}, "tags": {"1.2--h1b792b2_6": "sha256:213f29bc7bf7bbaa4e2dc929bddac209e1b452867bf63662435dc5090a999362", "1.2--h87f3376_7": "sha256:8ad8e65d4b7d43f3c7732744eae1dbfd2cf3f1ad671f53a9c9a8a2002fc8eabe"}, "docker": "quay.io/biocontainers/rnasnp", "aliases": {"RNAsnp": "/usr/local/bin/RNAsnp"}}
+config: {"url": "https://biocontainers.pro/tools/rnasnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasnp", "latest": {"1.2--hdbdd923_9": "sha256:cf18049aa0e33387f7ed234b66760d61ebd9a3e30e7001dc62b810c73aa2487b"}, "tags": {"1.2--h1b792b2_6": "sha256:213f29bc7bf7bbaa4e2dc929bddac209e1b452867bf63662435dc5090a999362", "1.2--h87f3376_7": "sha256:8ad8e65d4b7d43f3c7732744eae1dbfd2cf3f1ad671f53a9c9a8a2002fc8eabe", "1.2--hdbdd923_9": "sha256:cf18049aa0e33387f7ed234b66760d61ebd9a3e30e7001dc62b810c73aa2487b"}, "docker": "quay.io/biocontainers/rnasnp", "aliases": {"RNAsnp": "/usr/local/bin/RNAsnp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnasnp.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rnasnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnasnp:1.2--h87f3376_7
+$ shpc install quay.io/biocontainers/rnasnp:1.2--hdbdd923_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnasnp/1.2--h87f3376_7
-$ module help quay.io/biocontainers/rnasnp/1.2--h87f3376_7
+$ module load quay.io/biocontainers/rnasnp/1.2--hdbdd923_9
+$ module help quay.io/biocontainers/rnasnp/1.2--hdbdd923_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

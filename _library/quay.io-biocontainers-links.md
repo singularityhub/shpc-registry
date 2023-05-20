@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/links"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/links/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/links/container.yaml"
-updated_at: "2023-05-19 03:00:54.017495"
+updated_at: "2023-05-20 03:02:50.358856"
 latest: "2.0.1--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/links"
 aliases:

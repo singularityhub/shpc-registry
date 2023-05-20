@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/clustalo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustalo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustalo/container.yaml"
-updated_at: "2023-05-19 02:43:04.205256"
-latest: "1.2.4--h87f3376_5"
+updated_at: "2023-05-20 02:42:28.777459"
+latest: "1.2.4--hdbdd923_7"
 container_url: "https://biocontainers.pro/tools/clustalo"
 aliases:
  - "clustalo"
 versions:
  - "1.2.4--h87f3376_5"
+ - "1.2.4--hdbdd923_7"
 description: "shpc-registry automated BioContainers addition for clustalo"
-config: {"url": "https://biocontainers.pro/tools/clustalo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalo", "latest": {"1.2.4--h87f3376_5": "sha256:7e636b5b9836aa37d704a4d5e593843ca77221741c333b5a225357c93d75b6a0"}, "tags": {"1.2.4--h87f3376_5": "sha256:7e636b5b9836aa37d704a4d5e593843ca77221741c333b5a225357c93d75b6a0"}, "docker": "quay.io/biocontainers/clustalo", "aliases": {"clustalo": "/usr/local/bin/clustalo"}}
+config: {"url": "https://biocontainers.pro/tools/clustalo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalo", "latest": {"1.2.4--hdbdd923_7": "sha256:9c256e51803324aec3227e7bbe000eddef872a09882b3bd6de6c49124c04e6af"}, "tags": {"1.2.4--h87f3376_5": "sha256:7e636b5b9836aa37d704a4d5e593843ca77221741c333b5a225357c93d75b6a0", "1.2.4--hdbdd923_7": "sha256:9c256e51803324aec3227e7bbe000eddef872a09882b3bd6de6c49124c04e6af"}, "docker": "quay.io/biocontainers/clustalo", "aliases": {"clustalo": "/usr/local/bin/clustalo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clustalo.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/clustalo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clustalo:1.2.4--h87f3376_5
+$ shpc install quay.io/biocontainers/clustalo:1.2.4--hdbdd923_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clustalo/1.2.4--h87f3376_5
-$ module help quay.io/biocontainers/clustalo/1.2.4--h87f3376_5
+$ module load quay.io/biocontainers/clustalo/1.2.4--hdbdd923_7
+$ module help quay.io/biocontainers/clustalo/1.2.4--hdbdd923_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

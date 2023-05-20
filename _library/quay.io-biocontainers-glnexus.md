@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/glnexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glnexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glnexus/container.yaml"
-updated_at: "2023-05-19 02:38:41.739813"
-latest: "1.4.1--h671cb6e_1"
+updated_at: "2023-05-20 02:37:07.009878"
+latest: "1.4.1--h5c1b0a6_3"
 container_url: "https://biocontainers.pro/tools/glnexus"
 aliases:
  - "glnexus_cli"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.4.1--h671cb6e_1"
+ - "1.4.1--h5c1b0a6_3"
 description: "shpc-registry automated BioContainers addition for glnexus"
-config: {"url": "https://biocontainers.pro/tools/glnexus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glnexus", "latest": {"1.4.1--h671cb6e_1": "sha256:6e78c1d53f0510bb7ab9685302cb64b406e9156b403c711931139dd5a77caed7"}, "tags": {"1.4.1--h671cb6e_1": "sha256:6e78c1d53f0510bb7ab9685302cb64b406e9156b403c711931139dd5a77caed7"}, "docker": "quay.io/biocontainers/glnexus", "aliases": {"glnexus_cli": "/usr/local/bin/glnexus_cli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/glnexus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glnexus", "latest": {"1.4.1--h5c1b0a6_3": "sha256:bbec4c1f5d2c077cb5ab6896b8789c870fd51bc2a4937f7827bd08721b067579"}, "tags": {"1.4.1--h671cb6e_1": "sha256:6e78c1d53f0510bb7ab9685302cb64b406e9156b403c711931139dd5a77caed7", "1.4.1--h5c1b0a6_3": "sha256:bbec4c1f5d2c077cb5ab6896b8789c870fd51bc2a4937f7827bd08721b067579"}, "docker": "quay.io/biocontainers/glnexus", "aliases": {"glnexus_cli": "/usr/local/bin/glnexus_cli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glnexus.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/glnexus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/glnexus:1.4.1--h671cb6e_1
+$ shpc install quay.io/biocontainers/glnexus:1.4.1--h5c1b0a6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/glnexus/1.4.1--h671cb6e_1
-$ module help quay.io/biocontainers/glnexus/1.4.1--h671cb6e_1
+$ module load quay.io/biocontainers/glnexus/1.4.1--h5c1b0a6_3
+$ module help quay.io/biocontainers/glnexus/1.4.1--h5c1b0a6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
