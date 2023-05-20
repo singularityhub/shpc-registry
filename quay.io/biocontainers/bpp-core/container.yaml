@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bpp-core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bpp-core
 latest:
-  2.4.1--h9f5acd7_4: sha256:18bf85db6e9a85269ccc2272901af7f0c997c17a2d0f8b9d0e6710c2b330357f
+  2.4.1--h9f5acd7_6: sha256:b9d2b4ddb00c16cbe2448b5e8725336e91f4c9102c778bd7bf6536a15975e555
 tags:
   2.4.1--h9f5acd7_4: sha256:18bf85db6e9a85269ccc2272901af7f0c997c17a2d0f8b9d0e6710c2b330357f
+  2.4.1--h9f5acd7_6: sha256:b9d2b4ddb00c16cbe2448b5e8725336e91f4c9102c778bd7bf6536a15975e555
 docker: quay.io/biocontainers/bpp-core

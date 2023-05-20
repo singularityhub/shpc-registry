@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/pbcopper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbcopper
 latest:
-  2.2.0--ha04c180_0: sha256:f95994cca53ac39252bcd1af34d5382064eb644eb7087207bf53331a49f2962d
+  2.2.0--hfce7173_2: sha256:4a14941e4123cd8ac1272f9a373ed5c6515e25c514e180b2448f8a22bb262494
 tags:
   2.0.0--ha04c180_1: sha256:36a7dc44485e8c5103ca3528112c58d43e60c246d44e65ea270ffbfa144bee5f
   2.2.0--ha04c180_0: sha256:f95994cca53ac39252bcd1af34d5382064eb644eb7087207bf53331a49f2962d
+  2.2.0--hfce7173_2: sha256:4a14941e4123cd8ac1272f9a373ed5c6515e25c514e180b2448f8a22bb262494
 docker: quay.io/biocontainers/pbcopper

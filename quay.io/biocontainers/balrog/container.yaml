@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/balrog
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for balrog
 latest:
-  0.5.1--hd03093a_2: sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae
+  0.5.1--hd03093a_4: sha256:62ee740a6179565748d150938031708491b9dd3801ab1f5c456c44c58567f822
 tags:
   0.5.1--hd03093a_2: sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae
+  0.5.1--hd03093a_4: sha256:62ee740a6179565748d150938031708491b9dd3801ab1f5c456c44c58567f822
 docker: quay.io/biocontainers/balrog
 aliases:
   balrog: /usr/local/bin/balrog

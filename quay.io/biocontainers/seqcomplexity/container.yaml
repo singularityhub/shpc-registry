@@ -5,6 +5,7 @@ latest:
   0.1.2--he9f29cb_0: sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20
 tags:
   0.1.2--he9f29cb_0: sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20
+  0.1.2: sha256:e04769b948f69a299573f3d793df950bbc44da54789db89db6b559ccce440d69
 docker: quay.io/biocontainers/seqcomplexity
 aliases:
   seqcomplexity: /usr/local/bin/seqcomplexity

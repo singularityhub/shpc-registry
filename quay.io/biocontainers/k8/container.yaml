@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/k8
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for k8
 latest:
-  0.2.5--hd03093a_2: sha256:a38324382ff30253f5765d7012f49447c79e7887188e2f37c5167206620074c9
+  0.2.5--hdcf5f25_4: sha256:d75f340daccef624e8e0b69beb94ebbe47253506391183dbba347a099972e14a
 tags:
   0.2.5--hd03093a_2: sha256:a38324382ff30253f5765d7012f49447c79e7887188e2f37c5167206620074c9
+  0.2.5--hdcf5f25_4: sha256:d75f340daccef624e8e0b69beb94ebbe47253506391183dbba347a099972e14a
 docker: quay.io/biocontainers/k8
 aliases:
   k8: /usr/local/bin/k8

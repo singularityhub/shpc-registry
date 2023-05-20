@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/dinf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dinf
 latest:
-  0.4.0--pyhdfd78af_0: sha256:acc2127b5a62276923b3fa9ebde4715852c6b1228f72005f3d16491635c76e3a
+  0.5.0--pyhdfd78af_0: sha256:3ef2f4197705eddd9ddb03c83c3f7948c1a876cdbe531f5e267c673e0776575b
 tags:
   0.3.0--pyhdfd78af_0: sha256:2afc23b7de241389632da7ec7f949932241a1cf9d4742bb8d8a681f8b8fdc1ad
   0.4.0--pyhdfd78af_0: sha256:acc2127b5a62276923b3fa9ebde4715852c6b1228f72005f3d16491635c76e3a
+  0.5.0--pyhdfd78af_0: sha256:3ef2f4197705eddd9ddb03c83c3f7948c1a876cdbe531f5e267c673e0776575b
 docker: quay.io/biocontainers/dinf
 aliases:
   demes: /usr/local/bin/demes
