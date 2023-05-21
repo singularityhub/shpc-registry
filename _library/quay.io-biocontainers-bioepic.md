@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioepic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioepic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioepic/container.yaml"
-updated_at: "2023-05-20 03:02:04.874190"
+updated_at: "2023-05-21 03:03:15.215226"
 latest: "0.1.6--py35_0"
 container_url: "https://biocontainers.pro/tools/bioepic"
 aliases:

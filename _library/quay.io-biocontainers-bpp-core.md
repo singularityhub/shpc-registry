@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bpp-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-core/container.yaml"
-updated_at: "2023-05-20 02:36:31.288725"
-latest: "2.4.1--h9f5acd7_4"
+updated_at: "2023-05-21 02:41:42.311376"
+latest: "2.4.1--h9f5acd7_6"
 container_url: "https://biocontainers.pro/tools/bpp-core"
 
 versions:
  - "2.4.1--h9f5acd7_4"
+ - "2.4.1--h9f5acd7_6"
 description: "shpc-registry automated BioContainers addition for bpp-core"
-config: {"url": "https://biocontainers.pro/tools/bpp-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-core", "latest": {"2.4.1--h9f5acd7_4": "sha256:18bf85db6e9a85269ccc2272901af7f0c997c17a2d0f8b9d0e6710c2b330357f"}, "tags": {"2.4.1--h9f5acd7_4": "sha256:18bf85db6e9a85269ccc2272901af7f0c997c17a2d0f8b9d0e6710c2b330357f"}, "docker": "quay.io/biocontainers/bpp-core"}
+config: {"url": "https://biocontainers.pro/tools/bpp-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-core", "latest": {"2.4.1--h9f5acd7_6": "sha256:b9d2b4ddb00c16cbe2448b5e8725336e91f4c9102c778bd7bf6536a15975e555"}, "tags": {"2.4.1--h9f5acd7_4": "sha256:18bf85db6e9a85269ccc2272901af7f0c997c17a2d0f8b9d0e6710c2b330357f", "2.4.1--h9f5acd7_6": "sha256:b9d2b4ddb00c16cbe2448b5e8725336e91f4c9102c778bd7bf6536a15975e555"}, "docker": "quay.io/biocontainers/bpp-core"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bpp-core.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bpp-core
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bpp-core:2.4.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/bpp-core:2.4.1--h9f5acd7_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bpp-core/2.4.1--h9f5acd7_4
-$ module help quay.io/biocontainers/bpp-core/2.4.1--h9f5acd7_4
+$ module load quay.io/biocontainers/bpp-core/2.4.1--h9f5acd7_6
+$ module help quay.io/biocontainers/bpp-core/2.4.1--h9f5acd7_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

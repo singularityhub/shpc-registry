@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varda2-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varda2-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varda2-client/container.yaml"
-updated_at: "2023-05-20 02:54:21.883619"
+updated_at: "2023-05-21 02:56:32.363722"
 latest: "0.9--py_0"
 container_url: "https://biocontainers.pro/tools/varda2-client"
 

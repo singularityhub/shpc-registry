@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/c4counter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/c4counter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/c4counter/container.yaml"
-updated_at: "2023-05-20 02:41:31.138950"
+updated_at: "2023-05-21 02:45:38.295526"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/c4counter"
 aliases:

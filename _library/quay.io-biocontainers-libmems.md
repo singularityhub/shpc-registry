@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libmems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libmems/container.yaml"
-updated_at: "2023-05-20 02:52:19.041543"
+updated_at: "2023-05-21 02:54:39.978072"
 latest: "1.6.0--h2df963e_5"
 container_url: "https://biocontainers.pro/tools/libmems"
 

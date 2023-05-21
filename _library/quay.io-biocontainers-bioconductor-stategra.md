@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stategra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stategra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stategra/container.yaml"
-updated_at: "2023-05-20 02:40:07.238853"
+updated_at: "2023-05-21 02:44:33.579430"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stategra"
 

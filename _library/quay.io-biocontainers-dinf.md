@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dinf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinf/container.yaml"
-updated_at: "2023-05-20 02:39:44.245766"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2023-05-21 02:44:15.865714"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dinf"
 aliases:
  - "demes"
@@ -43,8 +43,9 @@ aliases:
 versions:
  - "0.3.0--pyhdfd78af_0"
  - "0.4.0--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dinf"
-config: {"url": "https://biocontainers.pro/tools/dinf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dinf", "latest": {"0.4.0--pyhdfd78af_0": "sha256:acc2127b5a62276923b3fa9ebde4715852c6b1228f72005f3d16491635c76e3a"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:2afc23b7de241389632da7ec7f949932241a1cf9d4742bb8d8a681f8b8fdc1ad", "0.4.0--pyhdfd78af_0": "sha256:acc2127b5a62276923b3fa9ebde4715852c6b1228f72005f3d16491635c76e3a"}, "docker": "quay.io/biocontainers/dinf", "aliases": {"demes": "/usr/local/bin/demes", "demesdraw": "/usr/local/bin/demesdraw", "dinf": "/usr/local/bin/dinf", "dinf-plot": "/usr/local/bin/dinf-plot", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "cyvcf2": "/usr/local/bin/cyvcf2", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "jsonschema": "/usr/local/bin/jsonschema", "protoc": "/usr/local/bin/protoc", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp"}}
+config: {"url": "https://biocontainers.pro/tools/dinf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dinf", "latest": {"0.5.0--pyhdfd78af_0": "sha256:3ef2f4197705eddd9ddb03c83c3f7948c1a876cdbe531f5e267c673e0776575b"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:2afc23b7de241389632da7ec7f949932241a1cf9d4742bb8d8a681f8b8fdc1ad", "0.4.0--pyhdfd78af_0": "sha256:acc2127b5a62276923b3fa9ebde4715852c6b1228f72005f3d16491635c76e3a", "0.5.0--pyhdfd78af_0": "sha256:3ef2f4197705eddd9ddb03c83c3f7948c1a876cdbe531f5e267c673e0776575b"}, "docker": "quay.io/biocontainers/dinf", "aliases": {"demes": "/usr/local/bin/demes", "demesdraw": "/usr/local/bin/demesdraw", "dinf": "/usr/local/bin/dinf", "dinf-plot": "/usr/local/bin/dinf-plot", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "cyvcf2": "/usr/local/bin/cyvcf2", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "jsonschema": "/usr/local/bin/jsonschema", "protoc": "/usr/local/bin/protoc", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dinf.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/dinf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dinf:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dinf:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dinf/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/dinf/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/dinf/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/dinf/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

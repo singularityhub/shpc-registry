@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/balrog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/balrog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/balrog/container.yaml"
-updated_at: "2023-05-20 03:14:36.459071"
-latest: "0.5.1--hd03093a_2"
+updated_at: "2023-05-21 03:13:33.093751"
+latest: "0.5.1--hd03093a_4"
 container_url: "https://biocontainers.pro/tools/balrog"
 aliases:
  - "balrog"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.5.1--hd03093a_2"
+ - "0.5.1--hd03093a_4"
 description: "shpc-registry automated BioContainers addition for balrog"
-config: {"url": "https://biocontainers.pro/tools/balrog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for balrog", "latest": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae"}, "tags": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae"}, "docker": "quay.io/biocontainers/balrog", "aliases": {"balrog": "/usr/local/bin/balrog", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/balrog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for balrog", "latest": {"0.5.1--hd03093a_4": "sha256:62ee740a6179565748d150938031708491b9dd3801ab1f5c456c44c58567f822"}, "tags": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae", "0.5.1--hd03093a_4": "sha256:62ee740a6179565748d150938031708491b9dd3801ab1f5c456c44c58567f822"}, "docker": "quay.io/biocontainers/balrog", "aliases": {"balrog": "/usr/local/bin/balrog", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/balrog.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/balrog
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/balrog:0.5.1--hd03093a_2
+$ shpc install quay.io/biocontainers/balrog:0.5.1--hd03093a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/balrog/0.5.1--hd03093a_2
-$ module help quay.io/biocontainers/balrog/0.5.1--hd03093a_2
+$ module load quay.io/biocontainers/balrog/0.5.1--hd03093a_4
+$ module help quay.io/biocontainers/balrog/0.5.1--hd03093a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

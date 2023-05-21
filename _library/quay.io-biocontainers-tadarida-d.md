@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tadarida-d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadarida-d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadarida-d/container.yaml"
-updated_at: "2023-05-20 03:14:48.107762"
-latest: "1.03--hf71b8e2_6"
+updated_at: "2023-05-21 03:13:43.491853"
+latest: "1.03--h70a11eb_8"
 container_url: "https://biocontainers.pro/tools/tadarida-d"
 aliases:
  - "qdoc3"
@@ -26,8 +26,9 @@ aliases:
  - "sndfile-metadata-set"
 versions:
  - "1.03--hf71b8e2_6"
+ - "1.03--h70a11eb_8"
 description: "shpc-registry automated BioContainers addition for tadarida-d"
-config: {"url": "https://biocontainers.pro/tools/tadarida-d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadarida-d", "latest": {"1.03--hf71b8e2_6": "sha256:eb10379fc1249aed32e297659a5b03ca8d83a32c1d14428c3c1c58e89dfdccbd"}, "tags": {"1.03--hf71b8e2_6": "sha256:eb10379fc1249aed32e297659a5b03ca8d83a32c1d14428c3c1c58e89dfdccbd"}, "docker": "quay.io/biocontainers/tadarida-d", "aliases": {"qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "tadaridaD": "/usr/local/bin/tadaridaD", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info", "sndfile-interleave": "/usr/local/bin/sndfile-interleave", "sndfile-metadata-get": "/usr/local/bin/sndfile-metadata-get", "sndfile-metadata-set": "/usr/local/bin/sndfile-metadata-set"}}
+config: {"url": "https://biocontainers.pro/tools/tadarida-d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadarida-d", "latest": {"1.03--h70a11eb_8": "sha256:13238bdd80639a59453309fcdcd09d329e2a2ad8759edbb7a0ecdf1df6250480"}, "tags": {"1.03--hf71b8e2_6": "sha256:eb10379fc1249aed32e297659a5b03ca8d83a32c1d14428c3c1c58e89dfdccbd", "1.03--h70a11eb_8": "sha256:13238bdd80639a59453309fcdcd09d329e2a2ad8759edbb7a0ecdf1df6250480"}, "docker": "quay.io/biocontainers/tadarida-d", "aliases": {"qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "tadaridaD": "/usr/local/bin/tadaridaD", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info", "sndfile-interleave": "/usr/local/bin/sndfile-interleave", "sndfile-metadata-get": "/usr/local/bin/sndfile-metadata-get", "sndfile-metadata-set": "/usr/local/bin/sndfile-metadata-set"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tadarida-d.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/tadarida-d
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tadarida-d:1.03--hf71b8e2_6
+$ shpc install quay.io/biocontainers/tadarida-d:1.03--h70a11eb_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tadarida-d/1.03--hf71b8e2_6
-$ module help quay.io/biocontainers/tadarida-d/1.03--hf71b8e2_6
+$ module load quay.io/biocontainers/tadarida-d/1.03--h70a11eb_8
+$ module help quay.io/biocontainers/tadarida-d/1.03--h70a11eb_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

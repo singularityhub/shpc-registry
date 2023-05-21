@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pancake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pancake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pancake/container.yaml"
-updated_at: "2023-05-20 02:34:31.669903"
+updated_at: "2023-05-21 02:40:09.708462"
 latest: "1.1.2--py_2"
 container_url: "https://biocontainers.pro/tools/pancake"
 aliases:

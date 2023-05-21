@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squeakr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squeakr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squeakr/container.yaml"
-updated_at: "2023-05-20 03:03:07.950270"
+updated_at: "2023-05-21 03:04:06.110844"
 latest: "0.6--h475c287_4"
 container_url: "https://biocontainers.pro/tools/squeakr"
 aliases:

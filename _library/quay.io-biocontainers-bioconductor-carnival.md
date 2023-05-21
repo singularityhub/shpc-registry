@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-carnival"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-carnival/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-carnival/container.yaml"
-updated_at: "2023-05-20 02:39:47.526409"
+updated_at: "2023-05-21 02:44:18.528078"
 latest: "2.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-carnival"
 aliases:

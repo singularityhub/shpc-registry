@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abyss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abyss/container.yaml"
-updated_at: "2023-05-20 03:23:08.718544"
-latest: "2.3.5--h41cdee2_1"
+updated_at: "2023-05-21 03:20:21.182957"
+latest: "2.3.6--h41cdee2_0"
 container_url: "https://biocontainers.pro/tools/abyss"
 aliases:
  - "ABYSS"
@@ -67,8 +67,9 @@ aliases:
  - "eject"
 versions:
  - "2.3.5--h41cdee2_1"
+ - "2.3.6--h41cdee2_0"
 description: "shpc-registry automated BioContainers addition for abyss"
-config: {"url": "https://biocontainers.pro/tools/abyss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abyss", "latest": {"2.3.5--h41cdee2_1": "sha256:bed6c7d2dad58b24b3e8c1927b61c92c846772c9f77db51eb7f9d3f543030c4d"}, "tags": {"2.3.5--h41cdee2_1": "sha256:bed6c7d2dad58b24b3e8c1927b61c92c846772c9f77db51eb7f9d3f543030c4d"}, "docker": "quay.io/biocontainers/abyss", "aliases": {"ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "abyss-align": "/usr/local/bin/abyss-align", "abyss-bloom": "/usr/local/bin/abyss-bloom", "abyss-bloom-dbg": "/usr/local/bin/abyss-bloom-dbg", "abyss-bloom-dist.mk": "/usr/local/bin/abyss-bloom-dist.mk", "abyss-bloom-dist.mk.Makefile": "/usr/local/bin/abyss-bloom-dist.mk.Makefile", "abyss-bowtie": "/usr/local/bin/abyss-bowtie", "abyss-bowtie2": "/usr/local/bin/abyss-bowtie2", "abyss-bwa": "/usr/local/bin/abyss-bwa", "abyss-bwamem": "/usr/local/bin/abyss-bwamem", "abyss-bwasw": "/usr/local/bin/abyss-bwasw", "abyss-db-txt": "/usr/local/bin/abyss-db-txt", "abyss-dida": "/usr/local/bin/abyss-dida", "abyss-fac": "/usr/local/bin/abyss-fac", "abyss-fatoagp": "/usr/local/bin/abyss-fatoagp", "abyss-filtergraph": "/usr/local/bin/abyss-filtergraph", "abyss-fixmate": "/usr/local/bin/abyss-fixmate", "abyss-fixmate-ssq": "/usr/local/bin/abyss-fixmate-ssq", "abyss-gapfill": "/usr/local/bin/abyss-gapfill", "abyss-gc": "/usr/local/bin/abyss-gc", "abyss-index": "/usr/local/bin/abyss-index", "abyss-junction": "/usr/local/bin/abyss-junction", "abyss-kaligner": "/usr/local/bin/abyss-kaligner", "abyss-layout": "/usr/local/bin/abyss-layout", "abyss-longseqdist": "/usr/local/bin/abyss-longseqdist", "abyss-map": "/usr/local/bin/abyss-map", "abyss-map-ssq": "/usr/local/bin/abyss-map-ssq", "abyss-mergepairs": "/usr/local/bin/abyss-mergepairs", "abyss-overlap": "/usr/local/bin/abyss-overlap", "abyss-paired-dbg": "/usr/local/bin/abyss-paired-dbg", "abyss-paired-dbg-mpi": "/usr/local/bin/abyss-paired-dbg-mpi", "abyss-pe": "/usr/local/bin/abyss-pe", "abyss-pe.Makefile": "/usr/local/bin/abyss-pe.Makefile", "abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-samtoafg": "/usr/local/bin/abyss-samtoafg", "abyss-scaffold": "/usr/local/bin/abyss-scaffold", "abyss-sealer": "/usr/local/bin/abyss-sealer", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "abyss-tabtomd": "/usr/local/bin/abyss-tabtomd", "abyss-todot": "/usr/local/bin/abyss-todot", "abyss-tofastq": "/usr/local/bin/abyss-tofastq", "irqtop": "/usr/local/bin/irqtop", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "prlimit": "/usr/local/bin/prlimit", "scriptlive": "/usr/local/bin/scriptlive", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
+config: {"url": "https://biocontainers.pro/tools/abyss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abyss", "latest": {"2.3.6--h41cdee2_0": "sha256:b236b48a0b1a854e2c98dbc7cfd5c7c032c25c708143eccb0cf5bc43c75761d4"}, "tags": {"2.3.5--h41cdee2_1": "sha256:bed6c7d2dad58b24b3e8c1927b61c92c846772c9f77db51eb7f9d3f543030c4d", "2.3.6--h41cdee2_0": "sha256:b236b48a0b1a854e2c98dbc7cfd5c7c032c25c708143eccb0cf5bc43c75761d4"}, "docker": "quay.io/biocontainers/abyss", "aliases": {"ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "abyss-align": "/usr/local/bin/abyss-align", "abyss-bloom": "/usr/local/bin/abyss-bloom", "abyss-bloom-dbg": "/usr/local/bin/abyss-bloom-dbg", "abyss-bloom-dist.mk": "/usr/local/bin/abyss-bloom-dist.mk", "abyss-bloom-dist.mk.Makefile": "/usr/local/bin/abyss-bloom-dist.mk.Makefile", "abyss-bowtie": "/usr/local/bin/abyss-bowtie", "abyss-bowtie2": "/usr/local/bin/abyss-bowtie2", "abyss-bwa": "/usr/local/bin/abyss-bwa", "abyss-bwamem": "/usr/local/bin/abyss-bwamem", "abyss-bwasw": "/usr/local/bin/abyss-bwasw", "abyss-db-txt": "/usr/local/bin/abyss-db-txt", "abyss-dida": "/usr/local/bin/abyss-dida", "abyss-fac": "/usr/local/bin/abyss-fac", "abyss-fatoagp": "/usr/local/bin/abyss-fatoagp", "abyss-filtergraph": "/usr/local/bin/abyss-filtergraph", "abyss-fixmate": "/usr/local/bin/abyss-fixmate", "abyss-fixmate-ssq": "/usr/local/bin/abyss-fixmate-ssq", "abyss-gapfill": "/usr/local/bin/abyss-gapfill", "abyss-gc": "/usr/local/bin/abyss-gc", "abyss-index": "/usr/local/bin/abyss-index", "abyss-junction": "/usr/local/bin/abyss-junction", "abyss-kaligner": "/usr/local/bin/abyss-kaligner", "abyss-layout": "/usr/local/bin/abyss-layout", "abyss-longseqdist": "/usr/local/bin/abyss-longseqdist", "abyss-map": "/usr/local/bin/abyss-map", "abyss-map-ssq": "/usr/local/bin/abyss-map-ssq", "abyss-mergepairs": "/usr/local/bin/abyss-mergepairs", "abyss-overlap": "/usr/local/bin/abyss-overlap", "abyss-paired-dbg": "/usr/local/bin/abyss-paired-dbg", "abyss-paired-dbg-mpi": "/usr/local/bin/abyss-paired-dbg-mpi", "abyss-pe": "/usr/local/bin/abyss-pe", "abyss-pe.Makefile": "/usr/local/bin/abyss-pe.Makefile", "abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-samtoafg": "/usr/local/bin/abyss-samtoafg", "abyss-scaffold": "/usr/local/bin/abyss-scaffold", "abyss-sealer": "/usr/local/bin/abyss-sealer", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "abyss-tabtomd": "/usr/local/bin/abyss-tabtomd", "abyss-todot": "/usr/local/bin/abyss-todot", "abyss-tofastq": "/usr/local/bin/abyss-tofastq", "irqtop": "/usr/local/bin/irqtop", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "prlimit": "/usr/local/bin/prlimit", "scriptlive": "/usr/local/bin/scriptlive", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abyss.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/abyss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abyss:2.3.5--h41cdee2_1
+$ shpc install quay.io/biocontainers/abyss:2.3.6--h41cdee2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abyss/2.3.5--h41cdee2_1
-$ module help quay.io/biocontainers/abyss/2.3.5--h41cdee2_1
+$ module load quay.io/biocontainers/abyss/2.3.6--h41cdee2_0
+$ module help quay.io/biocontainers/abyss/2.3.6--h41cdee2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

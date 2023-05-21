@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pbcopper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbcopper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbcopper/container.yaml"
-updated_at: "2023-05-20 03:01:01.635229"
-latest: "2.2.0--ha04c180_0"
+updated_at: "2023-05-21 03:02:22.235405"
+latest: "2.2.0--hfce7173_2"
 container_url: "https://biocontainers.pro/tools/pbcopper"
 
 versions:
  - "2.0.0--ha04c180_1"
  - "2.2.0--ha04c180_0"
+ - "2.2.0--hfce7173_2"
 description: "shpc-registry automated BioContainers addition for pbcopper"
-config: {"url": "https://biocontainers.pro/tools/pbcopper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbcopper", "latest": {"2.2.0--ha04c180_0": "sha256:f95994cca53ac39252bcd1af34d5382064eb644eb7087207bf53331a49f2962d"}, "tags": {"2.0.0--ha04c180_1": "sha256:36a7dc44485e8c5103ca3528112c58d43e60c246d44e65ea270ffbfa144bee5f", "2.2.0--ha04c180_0": "sha256:f95994cca53ac39252bcd1af34d5382064eb644eb7087207bf53331a49f2962d"}, "docker": "quay.io/biocontainers/pbcopper"}
+config: {"url": "https://biocontainers.pro/tools/pbcopper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbcopper", "latest": {"2.2.0--hfce7173_2": "sha256:4a14941e4123cd8ac1272f9a373ed5c6515e25c514e180b2448f8a22bb262494"}, "tags": {"2.0.0--ha04c180_1": "sha256:36a7dc44485e8c5103ca3528112c58d43e60c246d44e65ea270ffbfa144bee5f", "2.2.0--ha04c180_0": "sha256:f95994cca53ac39252bcd1af34d5382064eb644eb7087207bf53331a49f2962d", "2.2.0--hfce7173_2": "sha256:4a14941e4123cd8ac1272f9a373ed5c6515e25c514e180b2448f8a22bb262494"}, "docker": "quay.io/biocontainers/pbcopper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbcopper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pbcopper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbcopper:2.2.0--ha04c180_0
+$ shpc install quay.io/biocontainers/pbcopper:2.2.0--hfce7173_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbcopper/2.2.0--ha04c180_0
-$ module help quay.io/biocontainers/pbcopper/2.2.0--ha04c180_0
+$ module load quay.io/biocontainers/pbcopper/2.2.0--hfce7173_2
+$ module help quay.io/biocontainers/pbcopper/2.2.0--hfce7173_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

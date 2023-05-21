@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-dbd-mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-mysql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-mysql/container.yaml"
-updated_at: "2023-05-20 02:53:08.377098"
-latest: "4.050--pl5321h9f5acd7_0"
+updated_at: "2023-05-21 02:55:26.393588"
+latest: "4.050--pl5321h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/perl-dbd-mysql"
 aliases:
  - "use-devel-checklib"
@@ -19,8 +19,9 @@ aliases:
  - "streamzip"
 versions:
  - "4.050--pl5321h9f5acd7_0"
+ - "4.050--pl5321h4ac6f70_1"
 description: "shpc-registry automated BioContainers addition for perl-dbd-mysql"
-config: {"url": "https://biocontainers.pro/tools/perl-dbd-mysql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-mysql", "latest": {"4.050--pl5321h9f5acd7_0": "sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a"}, "tags": {"4.050--pl5321h9f5acd7_0": "sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a"}, "docker": "quay.io/biocontainers/perl-dbd-mysql", "aliases": {"use-devel-checklib": "/usr/local/bin/use-devel-checklib", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-dbd-mysql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-mysql", "latest": {"4.050--pl5321h4ac6f70_1": "sha256:60b9f18e6c70007466c09b03b253d3b03e0c287fb52b0c485e9f55c445d88c7d"}, "tags": {"4.050--pl5321h9f5acd7_0": "sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a", "4.050--pl5321h4ac6f70_1": "sha256:60b9f18e6c70007466c09b03b253d3b03e0c287fb52b0c485e9f55c445d88c7d"}, "docker": "quay.io/biocontainers/perl-dbd-mysql", "aliases": {"use-devel-checklib": "/usr/local/bin/use-devel-checklib", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-dbd-mysql.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/perl-dbd-mysql
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-dbd-mysql:4.050--pl5321h9f5acd7_0
+$ shpc install quay.io/biocontainers/perl-dbd-mysql:4.050--pl5321h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-dbd-mysql/4.050--pl5321h9f5acd7_0
-$ module help quay.io/biocontainers/perl-dbd-mysql/4.050--pl5321h9f5acd7_0
+$ module load quay.io/biocontainers/perl-dbd-mysql/4.050--pl5321h4ac6f70_1
+$ module help quay.io/biocontainers/perl-dbd-mysql/4.050--pl5321h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

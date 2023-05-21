@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phispy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phispy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phispy/container.yaml"
-updated_at: "2023-05-20 03:26:45.833268"
-latest: "4.2.21--py39hc16433a_1"
+updated_at: "2023-05-21 03:23:14.768792"
+latest: "4.2.21--py38h2494328_2"
 container_url: "https://biocontainers.pro/tools/phispy"
 aliases:
  - "PhiSpy.py"
@@ -26,8 +26,9 @@ aliases:
 versions:
  - "4.2.6--py36hae55d0a_1"
  - "4.2.21--py39hc16433a_1"
+ - "4.2.21--py38h2494328_2"
 description: "shpc-registry automated BioContainers addition for phispy"
-config: {"url": "https://biocontainers.pro/tools/phispy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phispy", "latest": {"4.2.21--py39hc16433a_1": "sha256:74e4f0c952d216c32b96d85575b1bc254d106d3e1e5ff36d65a401a991b5fef7"}, "tags": {"4.2.6--py36hae55d0a_1": "sha256:998468b17ab66ce4a3d725ebe5620b2e813c549376069bd7aa7a6e626f225b7a", "4.2.21--py39hc16433a_1": "sha256:74e4f0c952d216c32b96d85575b1bc254d106d3e1e5ff36d65a401a991b5fef7"}, "docker": "quay.io/biocontainers/phispy", "aliases": {"PhiSpy.py": "/usr/local/bin/PhiSpy.py", "compare_predictions_to_phages.py": "/usr/local/bin/compare_predictions_to_phages.py", "make_training_sets.py": "/usr/local/bin/make_training_sets.py", "mark_prophage_features.py": "/usr/local/bin/mark_prophage_features.py", "plot_stats.py": "/usr/local/bin/plot_stats.py", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/phispy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phispy", "latest": {"4.2.21--py38h2494328_2": "sha256:a94c1f8f633f22f46182fc024e4d28be87c2e1862b0af8f6f7b8468333910248"}, "tags": {"4.2.6--py36hae55d0a_1": "sha256:998468b17ab66ce4a3d725ebe5620b2e813c549376069bd7aa7a6e626f225b7a", "4.2.21--py39hc16433a_1": "sha256:74e4f0c952d216c32b96d85575b1bc254d106d3e1e5ff36d65a401a991b5fef7", "4.2.21--py38h2494328_2": "sha256:a94c1f8f633f22f46182fc024e4d28be87c2e1862b0af8f6f7b8468333910248"}, "docker": "quay.io/biocontainers/phispy", "aliases": {"PhiSpy.py": "/usr/local/bin/PhiSpy.py", "compare_predictions_to_phages.py": "/usr/local/bin/compare_predictions_to_phages.py", "make_training_sets.py": "/usr/local/bin/make_training_sets.py", "mark_prophage_features.py": "/usr/local/bin/mark_prophage_features.py", "plot_stats.py": "/usr/local/bin/plot_stats.py", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phispy.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/phispy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phispy:4.2.21--py39hc16433a_1
+$ shpc install quay.io/biocontainers/phispy:4.2.21--py38h2494328_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phispy/4.2.21--py39hc16433a_1
-$ module help quay.io/biocontainers/phispy/4.2.21--py39hc16433a_1
+$ module load quay.io/biocontainers/phispy/4.2.21--py38h2494328_2
+$ module help quay.io/biocontainers/phispy/4.2.21--py38h2494328_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

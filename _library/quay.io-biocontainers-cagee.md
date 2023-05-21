@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cagee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cagee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cagee/container.yaml"
-updated_at: "2023-05-20 03:05:05.811626"
-latest: "1.0--hc5b1d88_0"
+updated_at: "2023-05-21 03:05:37.670892"
+latest: "1.0--hc5b1d88_1"
 container_url: "https://biocontainers.pro/tools/cagee"
 aliases:
  - "cagee"
@@ -26,8 +26,9 @@ aliases:
  - "lstopo-no-graphics"
 versions:
  - "1.0--hc5b1d88_0"
+ - "1.0--hc5b1d88_1"
 description: "singularity registry hpc automated addition for cagee"
-config: {"url": "https://biocontainers.pro/tools/cagee", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cagee", "latest": {"1.0--hc5b1d88_0": "sha256:4d019ff9d4fe43e8179864b73887b2cd86f9a4aaaaacaf546d400f95af288a25"}, "tags": {"1.0--hc5b1d88_0": "sha256:4d019ff9d4fe43e8179864b73887b2cd86f9a4aaaaacaf546d400f95af288a25"}, "docker": "quay.io/biocontainers/cagee", "aliases": {"cagee": "/usr/local/bin/cagee", "diffmat_precalc": "/usr/local/bin/diffmat_precalc", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
+config: {"url": "https://biocontainers.pro/tools/cagee", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cagee", "latest": {"1.0--hc5b1d88_1": "sha256:c86b77b43b53d8cd42781268215e948b4c7654932f7f77737d5f240535c87b5e"}, "tags": {"1.0--hc5b1d88_0": "sha256:4d019ff9d4fe43e8179864b73887b2cd86f9a4aaaaacaf546d400f95af288a25", "1.0--hc5b1d88_1": "sha256:c86b77b43b53d8cd42781268215e948b4c7654932f7f77737d5f240535c87b5e"}, "docker": "quay.io/biocontainers/cagee", "aliases": {"cagee": "/usr/local/bin/cagee", "diffmat_precalc": "/usr/local/bin/diffmat_precalc", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cagee.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/cagee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cagee:1.0--hc5b1d88_0
+$ shpc install quay.io/biocontainers/cagee:1.0--hc5b1d88_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cagee/1.0--hc5b1d88_0
-$ module help quay.io/biocontainers/cagee/1.0--hc5b1d88_0
+$ module load quay.io/biocontainers/cagee/1.0--hc5b1d88_1
+$ module help quay.io/biocontainers/cagee/1.0--hc5b1d88_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

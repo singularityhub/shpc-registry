@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chia-rep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chia-rep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chia-rep/container.yaml"
-updated_at: "2023-05-20 03:04:57.866371"
-latest: "3.1.1--py36h4aaaa08_2"
+updated_at: "2023-05-21 03:05:31.395492"
+latest: "3.1.1--py38hcbe9525_3"
 container_url: "https://biocontainers.pro/tools/chia-rep"
 aliases:
  - "f2py3.6"
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "3.1.1--py36h4aaaa08_2"
+ - "3.1.1--py38hcbe9525_3"
 description: "shpc-registry automated BioContainers addition for chia-rep"
-config: {"url": "https://biocontainers.pro/tools/chia-rep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chia-rep", "latest": {"3.1.1--py36h4aaaa08_2": "sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80"}, "tags": {"3.1.1--py36h4aaaa08_2": "sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80"}, "docker": "quay.io/biocontainers/chia-rep", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/chia-rep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chia-rep", "latest": {"3.1.1--py38hcbe9525_3": "sha256:7d3090432b03be84a7351c2c6fca87689b3a4fbce09b33d27a2ee11bf9d85a50"}, "tags": {"3.1.1--py36h4aaaa08_2": "sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80", "3.1.1--py38hcbe9525_3": "sha256:7d3090432b03be84a7351c2c6fca87689b3a4fbce09b33d27a2ee11bf9d85a50"}, "docker": "quay.io/biocontainers/chia-rep", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chia-rep.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/chia-rep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chia-rep:3.1.1--py36h4aaaa08_2
+$ shpc install quay.io/biocontainers/chia-rep:3.1.1--py38hcbe9525_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chia-rep/3.1.1--py36h4aaaa08_2
-$ module help quay.io/biocontainers/chia-rep/3.1.1--py36h4aaaa08_2
+$ module load quay.io/biocontainers/chia-rep/3.1.1--py38hcbe9525_3
+$ module help quay.io/biocontainers/chia-rep/3.1.1--py38hcbe9525_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
