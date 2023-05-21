@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/telr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for telr
 latest:
-  0.2--pyhdfd78af_2: sha256:1605145779cd5aa45f94a3d7abb229dcd640e1a27a4f4b9819f90a50b116d3db
+  1.1--pyhdfd78af_0: sha256:732edeb283c5bb2d76c03cae72fccb2bc6e1ce6becfc924d0865b04c72dde995
 tags:
   0.2--pyhdfd78af_1: sha256:747495fb7770dff6d91720f5236ce20d1d88c9ec036728c30796b292d887a6e1
   0.2--pyhdfd78af_2: sha256:1605145779cd5aa45f94a3d7abb229dcd640e1a27a4f4b9819f90a50b116d3db
+  1.1--pyhdfd78af_0: sha256:732edeb283c5bb2d76c03cae72fccb2bc6e1ce6becfc924d0865b04c72dde995
 docker: quay.io/biocontainers/telr
 aliases:
   DateRepeats: /usr/local/bin/DateRepeats

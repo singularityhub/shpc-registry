@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bifrost
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bifrost
 latest:
-  1.2.0--h5b5514e_0: sha256:506e372ae617f1cb6b05ae9a19562cf4b06ce0f41931caee777c1101cc37576d
+  1.2.0--h43eeafb_2: sha256:a003f4b3ee571fa7119ec58e626f5f712972bd53fbcc1b79c02041fd0c685f1b
 tags:
   1.0.6.5--h5b5514e_1: sha256:933b5a1374ae058685ce41ba2e0f1e5b8d25078a0acceb6064758af2d7272dfe
   1.2.0--h5b5514e_0: sha256:506e372ae617f1cb6b05ae9a19562cf4b06ce0f41931caee777c1101cc37576d
+  1.2.0--h43eeafb_2: sha256:a003f4b3ee571fa7119ec58e626f5f712972bd53fbcc1b79c02041fd0c685f1b
 docker: quay.io/biocontainers/bifrost
 aliases:
   Bifrost: /usr/local/bin/Bifrost

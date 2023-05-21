@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mhc-annotation
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mhc-annotation
 latest:
-  0.1.1--pyhdfd78af_0: sha256:10ddc6f54545e3889fea200d48b4a2827109ff00a00b0eae2d3b6a184331915c
+  0.1.1--pyhdfd78af_1: sha256:1cf7a6267bcd4ab1b67bbbffbf9012e61489fa10c2b02602c53989f301eeac1b
 tags:
   0.1.1--pyhdfd78af_0: sha256:10ddc6f54545e3889fea200d48b4a2827109ff00a00b0eae2d3b6a184331915c
+  0.1.1--pyhdfd78af_1: sha256:1cf7a6267bcd4ab1b67bbbffbf9012e61489fa10c2b02602c53989f301eeac1b
 docker: quay.io/biocontainers/mhc-annotation
 aliases:
   mhca: /usr/local/bin/mhca

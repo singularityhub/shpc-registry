@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/multixrank
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for multixrank
 latest:
-  0.1--pyh7cba7a3_0: sha256:cb2a0d22413dbc5f0424c09787a8f10d7ccef5f7a6442e746f391f07274851c5
+  0.1--pyh7cba7a3_1: sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9
 tags:
-  0.1--pyh7cba7a3_0: sha256:cb2a0d22413dbc5f0424c09787a8f10d7ccef5f7a6442e746f391f07274851c5
+  0.1--pyh7cba7a3_0: sha256:1db2fa3f350a243062e3149c97905e7f2d52c1413605492eda36535770774097
+  0.1--pyh7cba7a3_1: sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9
 docker: quay.io/biocontainers/multixrank
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

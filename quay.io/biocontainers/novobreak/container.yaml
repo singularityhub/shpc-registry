@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/novobreak
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for novobreak
 latest:
-  1.1.3rc--h7132678_8: sha256:f3eb4e7de7cbe9ef3251aae8b770633daf6eb66e8602bed7d329b2df5ef95cd5
+  1.1.3rc--he4a0461_9: sha256:737bcdbdcfa1b3ff212d41195027047eb2106e537fa8d40c1331f78bf27dc634
 tags:
   1.1.3rc--h7132678_8: sha256:f3eb4e7de7cbe9ef3251aae8b770633daf6eb66e8602bed7d329b2df5ef95cd5
+  1.1.3rc--he4a0461_9: sha256:737bcdbdcfa1b3ff212d41195027047eb2106e537fa8d40c1331f78bf27dc634
 docker: quay.io/biocontainers/novobreak
 aliases:
   SSAKE: /usr/local/bin/SSAKE

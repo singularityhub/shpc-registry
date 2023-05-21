@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cnordt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cnordt
 latest:
-  1.40.0--r42hc0cfd56_0: sha256:85d7ec446f6eadb143fe33a20d60db0b77f4bab48d991b7fcf8e85a57f9e9ece
+  1.40.0--r42ha9d7317_1: sha256:f0d4b24433e903c33ed7c56b72c364416e3b27b8f4bcea8c6b21f69311f00d5d
 tags:
   1.36.0--r41hc0cfd56_2: sha256:b5665dbbd4f6ed24ddaf827fcd7bee33f05d8c3cb2e9411659b8158164a86405
   1.40.0--r42hc0cfd56_0: sha256:85d7ec446f6eadb143fe33a20d60db0b77f4bab48d991b7fcf8e85a57f9e9ece
+  1.40.0--r42ha9d7317_1: sha256:f0d4b24433e903c33ed7c56b72c364416e3b27b8f4bcea8c6b21f69311f00d5d
 docker: quay.io/biocontainers/bioconductor-cnordt
 aliases:
   diffimg: /usr/local/bin/diffimg

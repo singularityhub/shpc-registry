@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/minibusco
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for minibusco
 latest:
-  0.2--pyhdfd78af_0: sha256:b7ee67ba8d13f7273ee2a6dba1c2ae187f78834452b4c8fe7bbeafc4bad445bb
+  0.2.1--pyh7cba7a3_0: sha256:afc89647aa8c13e0a3aebbe7fe5c44eff1beca19783aa253d10babbeb34f12b5
 tags:
   0.2--pyhdfd78af_0: sha256:b7ee67ba8d13f7273ee2a6dba1c2ae187f78834452b4c8fe7bbeafc4bad445bb
+  0.2.1--pyh7cba7a3_0: sha256:afc89647aa8c13e0a3aebbe7fe5c44eff1beca19783aa253d10babbeb34f12b5
 docker: quay.io/biocontainers/minibusco
 aliases:
   minibusco: /usr/local/bin/minibusco

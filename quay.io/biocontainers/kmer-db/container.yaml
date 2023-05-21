@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/kmer-db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kmer-db
 latest:
-  1.11.1--hd03093a_0: sha256:aea5183fa63441fcf90e265c58bdf11156d429bf416e7ad15781fce078d79774
+  1.11.1--hdcf5f25_2: sha256:dd7887758d4459f5390a978acb3d2be9aee1be106f23a95b6a2cbfa7cbfc0031
 tags:
   1.9.4--hd03093a_1: sha256:88e69e42a7990d16651420b61616795fa82e01f1947ddceb9765756384db3346
   1.11.1--hd03093a_0: sha256:aea5183fa63441fcf90e265c58bdf11156d429bf416e7ad15781fce078d79774
+  1.11.1--hdcf5f25_2: sha256:dd7887758d4459f5390a978acb3d2be9aee1be106f23a95b6a2cbfa7cbfc0031
 docker: quay.io/biocontainers/kmer-db
 aliases:
   kmer-db: /usr/local/bin/kmer-db

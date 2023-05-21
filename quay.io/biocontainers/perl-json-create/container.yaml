@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-json-create
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-json-create
 latest:
-  0.35--pl5321hec16e2b_1: sha256:e8532e8a7283032edad5d186dafc7d5b7797e22eb1d11981b0ec438db17909a4
+  0.35--pl5321h031d066_2: sha256:847328562def0f87ddcc3cb63fd3b86ec5c7ec86882787f3c3ff3c487807857f
 tags:
   0.35--pl5321hec16e2b_1: sha256:e8532e8a7283032edad5d186dafc7d5b7797e22eb1d11981b0ec438db17909a4
+  0.35--pl5321h031d066_2: sha256:847328562def0f87ddcc3cb63fd3b86ec5c7ec86882787f3c3ff3c487807857f
 docker: quay.io/biocontainers/perl-json-create
 aliases:
   validjson: /usr/local/bin/validjson

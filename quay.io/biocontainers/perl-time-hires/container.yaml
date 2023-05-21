@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-time-hires
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-time-hires
 latest:
-  1.9764--pl5321hec16e2b_2: sha256:058b7110f15320ecbfd6c52bf18536c4f034eace8ec8740a8043b4091142fb40
+  1.9764--pl5321h031d066_4: sha256:f2483c5f3a6209bc74f17f806e734dcd12a529714a9930117def4ad27a1b0fd1
 tags:
   1.9764--pl5321hec16e2b_2: sha256:058b7110f15320ecbfd6c52bf18536c4f034eace8ec8740a8043b4091142fb40
+  1.9764--pl5321h031d066_4: sha256:f2483c5f3a6209bc74f17f806e734dcd12a529714a9930117def4ad27a1b0fd1
 docker: quay.io/biocontainers/perl-time-hires
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

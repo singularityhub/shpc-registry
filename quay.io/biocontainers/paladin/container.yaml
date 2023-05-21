@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/paladin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for paladin
 latest:
-  1.4.6--h41a57b0_3: sha256:e4afff1c8e0676c39d5d4deb39f02aefb3f81d2ff153aceb47554af1d6d92d41
+  1.4.6--h9bb4366_5: sha256:841ab0ba9a3c28a2aee66f185375972ce6101a9f8d3826b233be97a324c2503e
 tags:
   1.4.6--h41a57b0_3: sha256:e4afff1c8e0676c39d5d4deb39f02aefb3f81d2ff153aceb47554af1d6d92d41
+  1.4.6--h9bb4366_5: sha256:841ab0ba9a3c28a2aee66f185375972ce6101a9f8d3826b233be97a324c2503e
 docker: quay.io/biocontainers/paladin
 aliases:
   paladin: /usr/local/bin/paladin
