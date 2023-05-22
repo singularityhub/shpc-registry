@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hificnv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hificnv
+latest:
+  0.1.6b--h9ee0642_0: sha256:ce9d28ff470b8df8291606ddc47f091ff41dfada9d7b80d7d28de49a595cd000
+tags:
+  0.1.6b--h9ee0642_0: sha256:ce9d28ff470b8df8291606ddc47f091ff41dfada9d7b80d7d28de49a595cd000
+docker: quay.io/biocontainers/hificnv
+aliases:
+  hificnv: /usr/local/bin/hificnv

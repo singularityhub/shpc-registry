@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gndiff
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gndiff
+latest:
+  0.2.0--he881be0_0: sha256:ccb9a26b2c6309efe0b397a4a180184828a184b0aaf700e22068464f20093a31
+tags:
+  0.2.0--he881be0_0: sha256:ccb9a26b2c6309efe0b397a4a180184828a184b0aaf700e22068464f20093a31
+docker: quay.io/biocontainers/gndiff
+aliases:
+  gndiff: /usr/local/bin/gndiff
