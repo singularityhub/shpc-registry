@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cmph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cmph
 latest:
-  2.0--hec16e2b_4: sha256:27d98fd34f53a01049952c0f677cdd0132aa3915d7924673bb1533ce088a3f1b
+  2.0--h031d066_6: sha256:99507504300c0347b4e2647743e002c40a3464d5220e5c7f70c63a44379574da
 tags:
   2.0--hec16e2b_4: sha256:27d98fd34f53a01049952c0f677cdd0132aa3915d7924673bb1533ce088a3f1b
+  2.0--h031d066_6: sha256:99507504300c0347b4e2647743e002c40a3464d5220e5c7f70c63a44379574da
 docker: quay.io/biocontainers/cmph
 aliases:
   cmph: /usr/local/bin/cmph

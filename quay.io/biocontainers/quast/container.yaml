@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/quast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for quast
 latest:
-  5.2.0--py39pl5321h2add14b_2: sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6
+  5.2.0--py38pl5321h5cf8b27_3: sha256:6cdddca8c71c30bf24a07037eabbe725978f31ec968b4a3c58ef425b9c531ebd
 tags:
   5.2.0--py39pl5321h2add14b_2: sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6
+  5.2.0--py38pl5321h5cf8b27_3: sha256:6cdddca8c71c30bf24a07037eabbe725978f31ec968b4a3c58ef425b9c531ebd
 docker: quay.io/biocontainers/quast
 aliases:
   icarus.py: /usr/local/bin/icarus.py

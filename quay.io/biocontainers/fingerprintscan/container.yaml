@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fingerprintscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fingerprintscan
 latest:
-  3_597--h9f5acd7_2: sha256:556c6fbb16e97eaf3bf157c69b599feb7489d52e21e80d17187bc4e413a2e604
+  3_597--h4ac6f70_4: sha256:08ff97edd50f6999dfee28104efa39ea9c443c2c3175eb9fdf1dedfa6d2f1d40
 tags:
   3_597--h9f5acd7_2: sha256:556c6fbb16e97eaf3bf157c69b599feb7489d52e21e80d17187bc4e413a2e604
+  3_597--h4ac6f70_4: sha256:08ff97edd50f6999dfee28104efa39ea9c443c2c3175eb9fdf1dedfa6d2f1d40
 docker: quay.io/biocontainers/fingerprintscan
 aliases:
   fingerPRINTScan: /usr/local/bin/fingerPRINTScan

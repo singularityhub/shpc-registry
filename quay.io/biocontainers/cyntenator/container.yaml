@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cyntenator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cyntenator
 latest:
-  0.0.r2326--h9f5acd7_1: sha256:ae28c25e18ba5128d5b1aad96173b186643e81d43fef755f1513f548b7aa5c4c
+  0.0.r2326--h4ac6f70_3: sha256:687b7cc1d74d06a7d058dfc02e5c81d39e375e2e0f8bcd0479ab093e69ca2862
 tags:
   0.0.r2326--h9f5acd7_1: sha256:ae28c25e18ba5128d5b1aad96173b186643e81d43fef755f1513f548b7aa5c4c
+  0.0.r2326--h4ac6f70_3: sha256:687b7cc1d74d06a7d058dfc02e5c81d39e375e2e0f8bcd0479ab093e69ca2862
 docker: quay.io/biocontainers/cyntenator
 aliases:
   cyntenator: /usr/local/bin/cyntenator

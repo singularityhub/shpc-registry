@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cgpbigwig
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cgpbigwig
 latest:
-  1.6.0--h87c70b1_6: sha256:e80c81302f23bcd627795dc469e47a5d36b634a447329677cabb54e02386bdff
+  1.6.0--h8eb9e39_7: sha256:8e023b0d4c1d64c7c2aa0240be4696522ae71c2238bb335d33d20ada45710cae
 tags:
   1.6.0--hbb96afb_5: sha256:b1305ed5c3ffac91f0d50f9e1bfa4ab2ca985b57af67d8df5b78161e2539e734
   1.6.0--h87c70b1_6: sha256:e80c81302f23bcd627795dc469e47a5d36b634a447329677cabb54e02386bdff
+  1.6.0--h8eb9e39_7: sha256:8e023b0d4c1d64c7c2aa0240be4696522ae71c2238bb335d33d20ada45710cae
 docker: quay.io/biocontainers/cgpbigwig
 aliases:
   asn1Coding: /usr/local/bin/asn1Coding

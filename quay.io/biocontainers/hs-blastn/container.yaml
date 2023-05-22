@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hs-blastn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hs-blastn
 latest:
-  0.0.5--h9f5acd7_4: sha256:86d0eb8c71eb209d57b38cc24312448321830088227a89f0b5a943b4823cbba7
+  0.0.5--h4ac6f70_5: sha256:4db1ecd1268a7e98d06e125fdb7bae45dcc91c0551d8082dd96cd23ba5ce0ad8
 tags:
   0.0.5--h9f5acd7_4: sha256:86d0eb8c71eb209d57b38cc24312448321830088227a89f0b5a943b4823cbba7
+  0.0.5--h4ac6f70_5: sha256:4db1ecd1268a7e98d06e125fdb7bae45dcc91c0551d8082dd96cd23ba5ce0ad8
 docker: quay.io/biocontainers/hs-blastn
 aliases:
   hs-blastn: /usr/local/bin/hs-blastn

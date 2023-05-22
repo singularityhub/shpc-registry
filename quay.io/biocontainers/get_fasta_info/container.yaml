@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/get_fasta_info
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for get_fasta_info
 latest:
-  2.4--h7132678_0: sha256:1d2e5a089c229cc1215b63ed870f234f3fd5032e1afce41c5c178df2318f09ae
+  2.4--he4a0461_2: sha256:6cd9c895b3b5fb70461dba6fc556c70245fd3f0d293029417f17b85fe57c90d4
 tags:
   2.4--h7132678_0: sha256:1d2e5a089c229cc1215b63ed870f234f3fd5032e1afce41c5c178df2318f09ae
+  2.4--he4a0461_2: sha256:6cd9c895b3b5fb70461dba6fc556c70245fd3f0d293029417f17b85fe57c90d4
 docker: quay.io/biocontainers/get_fasta_info
 aliases:
   get_fasta_info: /usr/local/bin/get_fasta_info

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/readfq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for readfq
 latest:
-  2015.08.30--h7132678_3: sha256:cdc93f495618e9544da2ccbe82c5440c1ac29759a2443bd90602408b511be744
+  2015.08.30--he4a0461_5: sha256:8548418415a37572aa1d983f4726063afffc2c5d4ecfd8cd635a75ec00c4698f
 tags:
   2015.08.30--h7132678_3: sha256:cdc93f495618e9544da2ccbe82c5440c1ac29759a2443bd90602408b511be744
+  2015.08.30--he4a0461_5: sha256:8548418415a37572aa1d983f4726063afffc2c5d4ecfd8cd635a75ec00c4698f
 docker: quay.io/biocontainers/readfq
 aliases:
   readfq: /usr/local/bin/readfq

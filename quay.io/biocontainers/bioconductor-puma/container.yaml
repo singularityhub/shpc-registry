@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-puma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-puma
 latest:
-  3.40.0--r42hc0cfd56_0: sha256:dad776e858c2d9f8f42b660cd0c79d52f83f2508d2c5882733b78f239a9a1a6d
+  3.40.0--r42ha9d7317_1: sha256:b1a92ff98d5a46b34edfa2941a7abfef10b906b496a61ca1001169c8d89fbd1e
 tags:
   3.36.0--r41hc0cfd56_2: sha256:77f41aba9551cad89fe3cc372ff9d7e376f8613e293edc58201cc3a31e964578
   3.40.0--r42hc0cfd56_0: sha256:dad776e858c2d9f8f42b660cd0c79d52f83f2508d2c5882733b78f239a9a1a6d
+  3.40.0--r42ha9d7317_1: sha256:b1a92ff98d5a46b34edfa2941a7abfef10b906b496a61ca1001169c8d89fbd1e
 docker: quay.io/biocontainers/bioconductor-puma

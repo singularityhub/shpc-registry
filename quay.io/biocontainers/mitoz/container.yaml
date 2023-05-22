@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mitoz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mitoz
 latest:
-  3.6--pyhdfd78af_0: sha256:59febbfc0ac29211f742882264cc6c47a3f5e9c40f114e9696d3b14be1b4073a
+  3.6--pyhdfd78af_1: sha256:10f8c79f50f0acf30183361ab531a011e0b055be562fdae51acb04aa12fa97be
 tags:
   3.5--pypl5321hdfd78af_0: sha256:19a0070bc18537fd73ea3327709cab94e978aeb0f0bd6bf03a4a896f23b8e589
   3.6--pyhdfd78af_0: sha256:59febbfc0ac29211f742882264cc6c47a3f5e9c40f114e9696d3b14be1b4073a
+  3.6--pyhdfd78af_1: sha256:10f8c79f50f0acf30183361ab531a011e0b055be562fdae51acb04aa12fa97be
 docker: quay.io/biocontainers/mitoz
 aliases:
   RNAmultifold: /usr/local/bin/RNAmultifold

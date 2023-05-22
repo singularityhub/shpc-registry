@@ -2,10 +2,12 @@ url: https://biocontainers.pro/tools/xs-sim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xs-sim
 latest:
-  2--hec16e2b_0: sha256:0f15956d614206128523486dceef409646538e16863827f491b75d3f46aebe5d
+  2--h031d066_2: sha256:0d4b5b2c7f60c31932d795e100f8b5cc6bf7dfc66ca1953e0a761485dcedc96e
 tags:
   1.0.0--hec16e2b_2: sha256:3ffc1886a4573f187e5ab8af18b93a5931e13b5fdfb1ca8de69a8fddded0fb75
   2--hec16e2b_0: sha256:0f15956d614206128523486dceef409646538e16863827f491b75d3f46aebe5d
+  2--h031d066_2: sha256:0d4b5b2c7f60c31932d795e100f8b5cc6bf7dfc66ca1953e0a761485dcedc96e
+  2--hec16e2b_1: sha256:d276b5e8f4940949e1258a14f8699db319d7dda4fab2b0c92a8006391729c97a
 docker: quay.io/biocontainers/xs-sim
 aliases:
   XS: /usr/local/bin/XS

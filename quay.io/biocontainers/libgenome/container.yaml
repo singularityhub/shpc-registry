@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/libgenome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libgenome
 latest:
-  1.3.1--h9f5acd7_5: sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a
+  1.3.1--h4ac6f70_7: sha256:6550787b273bebe18f74aa10f7bc34e5b0133e6e6b2a11c63fc13d7618451979
 tags:
   1.3.1--h9f5acd7_5: sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a
+  1.3.1--h4ac6f70_7: sha256:6550787b273bebe18f74aa10f7bc34e5b0133e6e6b2a11c63fc13d7618451979
 docker: quay.io/biocontainers/libgenome

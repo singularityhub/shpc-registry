@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gcen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gcen
 latest:
-  0.6.3--h9f5acd7_0: sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95
+  0.6.3--h9f5acd7_2: sha256:4b66c90b6d6e32c76fe78910a12022920783e4b096afc1434511f91f28c5cf17
 tags:
   0.6.3--h9f5acd7_0: sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95
+  0.6.3--h9f5acd7_2: sha256:4b66c90b6d6e32c76fe78910a12022920783e4b096afc1434511f91f28c5cf17
 docker: quay.io/biocontainers/gcen
 aliases:
   calculate_accuracy: /usr/local/bin/calculate_accuracy

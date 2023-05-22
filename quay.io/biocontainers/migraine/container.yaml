@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/migraine
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for migraine
 latest:
-  0.6.0--h9f5acd7_1: sha256:706ef4cb96d7a213c0f33a00cd6b9de71008f8f950a7444a42395eb367452bf4
+  0.6.0--h4ac6f70_3: sha256:c8e699b0fd9b6659c8bcbed7b7c687291151a2926d8828d8c5ff24ab39504c5d
 tags:
   0.6.0--h9f5acd7_1: sha256:706ef4cb96d7a213c0f33a00cd6b9de71008f8f950a7444a42395eb367452bf4
+  0.6.0--h4ac6f70_3: sha256:c8e699b0fd9b6659c8bcbed7b7c687291151a2926d8828d8c5ff24ab39504c5d
 docker: quay.io/biocontainers/migraine
 aliases:
   migraine: /usr/local/bin/migraine

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tepeaks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tepeaks
 latest:
-  0.1--h87262cc_3: sha256:fccac70deea34946f3ee5bbf089e575d551c011a3194b703125a4d0aed872eb4
+  0.1--ha503a2d_5: sha256:3b112a99935912bb03a4800cf4b58789544d133be963f5a515fd3b52063b8c8b
 tags:
   0.1--h87262cc_3: sha256:fccac70deea34946f3ee5bbf089e575d551c011a3194b703125a4d0aed872eb4
+  0.1--ha503a2d_5: sha256:3b112a99935912bb03a4800cf4b58789544d133be963f5a515fd3b52063b8c8b
 docker: quay.io/biocontainers/tepeaks
 aliases:
   TEpeaks: /usr/local/bin/TEpeaks

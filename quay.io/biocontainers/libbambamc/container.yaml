@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/libbambamc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libbambamc
 latest:
-  0.0.50--h7132678_3: sha256:50404e5571b3e0e69017283966d2b1326673482a20298ad9c0c070ffa84782cb
+  0.0.50--he4a0461_5: sha256:0d701fd1caf0ade504ecffeedbb95932d45f7693ca4a77c794f253920a0d3add
 tags:
   0.0.50--h7132678_3: sha256:50404e5571b3e0e69017283966d2b1326673482a20298ad9c0c070ffa84782cb
+  0.0.50--he4a0461_5: sha256:0d701fd1caf0ade504ecffeedbb95932d45f7693ca4a77c794f253920a0d3add
 docker: quay.io/biocontainers/libbambamc
