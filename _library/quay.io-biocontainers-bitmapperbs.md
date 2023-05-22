@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bitmapperbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bitmapperbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bitmapperbs/container.yaml"
-updated_at: "2023-05-21 03:20:37.632103"
-latest: "1.0.2.3--h468198e_4"
+updated_at: "2023-05-22 03:22:33.157042"
+latest: "1.0.2.3--hf5e1c6e_5"
 container_url: "https://biocontainers.pro/tools/bitmapperbs"
 aliases:
  - "bitmapperBS"
  - "psascan"
 versions:
  - "1.0.2.3--h468198e_4"
+ - "1.0.2.3--hf5e1c6e_5"
 description: "shpc-registry automated BioContainers addition for bitmapperbs"
-config: {"url": "https://biocontainers.pro/tools/bitmapperbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bitmapperbs", "latest": {"1.0.2.3--h468198e_4": "sha256:a2c4b026457f7f033c62f5a5c85413b478737039a20b1903625321f2b35cbdf9"}, "tags": {"1.0.2.3--h468198e_4": "sha256:a2c4b026457f7f033c62f5a5c85413b478737039a20b1903625321f2b35cbdf9"}, "docker": "quay.io/biocontainers/bitmapperbs", "aliases": {"bitmapperBS": "/usr/local/bin/bitmapperBS", "psascan": "/usr/local/bin/psascan"}}
+config: {"url": "https://biocontainers.pro/tools/bitmapperbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bitmapperbs", "latest": {"1.0.2.3--hf5e1c6e_5": "sha256:0338c4d3ef48be113a716d105822c07c36abd31a0817245d4c822aa707665f06"}, "tags": {"1.0.2.3--h468198e_4": "sha256:a2c4b026457f7f033c62f5a5c85413b478737039a20b1903625321f2b35cbdf9", "1.0.2.3--hf5e1c6e_5": "sha256:0338c4d3ef48be113a716d105822c07c36abd31a0817245d4c822aa707665f06"}, "docker": "quay.io/biocontainers/bitmapperbs", "aliases": {"bitmapperBS": "/usr/local/bin/bitmapperBS", "psascan": "/usr/local/bin/psascan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bitmapperbs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bitmapperbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bitmapperbs:1.0.2.3--h468198e_4
+$ shpc install quay.io/biocontainers/bitmapperbs:1.0.2.3--hf5e1c6e_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bitmapperbs/1.0.2.3--h468198e_4
-$ module help quay.io/biocontainers/bitmapperbs/1.0.2.3--h468198e_4
+$ module load quay.io/biocontainers/bitmapperbs/1.0.2.3--hf5e1c6e_5
+$ module help quay.io/biocontainers/bitmapperbs/1.0.2.3--hf5e1c6e_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mhc-annotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhc-annotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhc-annotation/container.yaml"
-updated_at: "2023-05-21 03:18:00.421655"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2023-05-22 03:19:53.602010"
+latest: "0.1.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mhc-annotation"
 aliases:
  - "mhca"
@@ -36,8 +36,9 @@ aliases:
  - "get_scores_in_intervals.py"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for mhc-annotation"
-config: {"url": "https://biocontainers.pro/tools/mhc-annotation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mhc-annotation", "latest": {"0.1.1--pyhdfd78af_0": "sha256:10ddc6f54545e3889fea200d48b4a2827109ff00a00b0eae2d3b6a184331915c"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:10ddc6f54545e3889fea200d48b4a2827109ff00a00b0eae2d3b6a184331915c"}, "docker": "quay.io/biocontainers/mhc-annotation", "aliases": {"mhca": "/usr/local/bin/mhca", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
+config: {"url": "https://biocontainers.pro/tools/mhc-annotation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mhc-annotation", "latest": {"0.1.1--pyhdfd78af_1": "sha256:1cf7a6267bcd4ab1b67bbbffbf9012e61489fa10c2b02602c53989f301eeac1b"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:10ddc6f54545e3889fea200d48b4a2827109ff00a00b0eae2d3b6a184331915c", "0.1.1--pyhdfd78af_1": "sha256:1cf7a6267bcd4ab1b67bbbffbf9012e61489fa10c2b02602c53989f301eeac1b"}, "docker": "quay.io/biocontainers/mhc-annotation", "aliases": {"mhca": "/usr/local/bin/mhca", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mhc-annotation.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/mhc-annotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mhc-annotation:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mhc-annotation:0.1.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mhc-annotation/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/mhc-annotation/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/mhc-annotation/0.1.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/mhc-annotation/0.1.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bwise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwise/container.yaml"
-updated_at: "2023-05-21 03:11:13.515602"
-latest: "1.0.0--h5b5514e_2"
+updated_at: "2023-05-22 03:12:54.447299"
+latest: "1.0.0--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/bwise"
 aliases:
  - "bcalm"
@@ -21,8 +21,9 @@ aliases:
  - "h5cc"
 versions:
  - "1.0.0--h5b5514e_2"
+ - "1.0.0--h43eeafb_3"
 description: "shpc-registry automated BioContainers addition for bwise"
-config: {"url": "https://biocontainers.pro/tools/bwise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwise", "latest": {"1.0.0--h5b5514e_2": "sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311"}, "tags": {"1.0.0--h5b5514e_2": "sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311"}, "docker": "quay.io/biocontainers/bwise", "aliases": {"bcalm": "/usr/local/bin/bcalm", "bgreat": "/usr/local/bin/bgreat", "btrim": "/usr/local/bin/btrim", "bwise": "/usr/local/bin/bwise", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/bwise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwise", "latest": {"1.0.0--h43eeafb_3": "sha256:e74d7abf5c686cba53c018e3157fb897a00f66f6ca2a41fb1908a15fac005f8c"}, "tags": {"1.0.0--h5b5514e_2": "sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311", "1.0.0--h43eeafb_3": "sha256:e74d7abf5c686cba53c018e3157fb897a00f66f6ca2a41fb1908a15fac005f8c"}, "docker": "quay.io/biocontainers/bwise", "aliases": {"bcalm": "/usr/local/bin/bcalm", "bgreat": "/usr/local/bin/bgreat", "btrim": "/usr/local/bin/btrim", "bwise": "/usr/local/bin/bwise", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwise.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bwise
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwise:1.0.0--h5b5514e_2
+$ shpc install quay.io/biocontainers/bwise:1.0.0--h43eeafb_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwise/1.0.0--h5b5514e_2
-$ module help quay.io/biocontainers/bwise/1.0.0--h5b5514e_2
+$ module load quay.io/biocontainers/bwise/1.0.0--h43eeafb_3
+$ module help quay.io/biocontainers/bwise/1.0.0--h43eeafb_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

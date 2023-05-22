@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/raptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raptor/container.yaml"
-updated_at: "2023-05-21 03:18:54.508958"
-latest: "2.0.0--h19e8d03_1"
+updated_at: "2023-05-22 03:20:48.766447"
+latest: "2.0.0--h6dccd9a_3"
 container_url: "https://biocontainers.pro/tools/raptor"
 aliases:
  - "raptor"
 versions:
  - "2.0.0--h19e8d03_1"
+ - "2.0.0--h6dccd9a_3"
 description: "shpc-registry automated BioContainers addition for raptor"
-config: {"url": "https://biocontainers.pro/tools/raptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raptor", "latest": {"2.0.0--h19e8d03_1": "sha256:86149b282f2927d0ab258d8b5e4cf82113ed965ec05bb3c5c0af7053dc20cf3b"}, "tags": {"2.0.0--h19e8d03_1": "sha256:86149b282f2927d0ab258d8b5e4cf82113ed965ec05bb3c5c0af7053dc20cf3b"}, "docker": "quay.io/biocontainers/raptor", "aliases": {"raptor": "/usr/local/bin/raptor"}}
+config: {"url": "https://biocontainers.pro/tools/raptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raptor", "latest": {"2.0.0--h6dccd9a_3": "sha256:dcac76e9ec14c71e01114703a02862ba2d961f12cc9c34627b467d5ba6971497"}, "tags": {"2.0.0--h19e8d03_1": "sha256:86149b282f2927d0ab258d8b5e4cf82113ed965ec05bb3c5c0af7053dc20cf3b", "2.0.0--h6dccd9a_3": "sha256:dcac76e9ec14c71e01114703a02862ba2d961f12cc9c34627b467d5ba6971497"}, "docker": "quay.io/biocontainers/raptor", "aliases": {"raptor": "/usr/local/bin/raptor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/raptor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/raptor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/raptor:2.0.0--h19e8d03_1
+$ shpc install quay.io/biocontainers/raptor:2.0.0--h6dccd9a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/raptor/2.0.0--h19e8d03_1
-$ module help quay.io/biocontainers/raptor/2.0.0--h19e8d03_1
+$ module load quay.io/biocontainers/raptor/2.0.0--h6dccd9a_3
+$ module help quay.io/biocontainers/raptor/2.0.0--h6dccd9a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

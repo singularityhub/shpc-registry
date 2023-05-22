@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mmannot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmannot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmannot/container.yaml"
-updated_at: "2023-05-21 03:03:24.729836"
-latest: "1.0.3--hd03093a_0"
+updated_at: "2023-05-22 03:04:48.594706"
+latest: "1.1--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/mmannot"
 aliases:
  - "addNH"
  - "mmannot"
 versions:
  - "1.0.3--hd03093a_0"
+ - "1.1--hdcf5f25_2"
 description: "singularity registry hpc automated addition for mmannot"
-config: {"url": "https://biocontainers.pro/tools/mmannot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmannot", "latest": {"1.0.3--hd03093a_0": "sha256:eaa22b49303808faa0ee3c286294985da4e192daa807832a9478da5a800ce4a9"}, "tags": {"1.0.3--hd03093a_0": "sha256:eaa22b49303808faa0ee3c286294985da4e192daa807832a9478da5a800ce4a9"}, "docker": "quay.io/biocontainers/mmannot", "aliases": {"addNH": "/usr/local/bin/addNH", "mmannot": "/usr/local/bin/mmannot"}}
+config: {"url": "https://biocontainers.pro/tools/mmannot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmannot", "latest": {"1.1--hdcf5f25_2": "sha256:aa0957c65da9f7493cf9967156d02ba44b2be605fb8c9ecf64f4b813ccff1ce3"}, "tags": {"1.0.3--hd03093a_0": "sha256:eaa22b49303808faa0ee3c286294985da4e192daa807832a9478da5a800ce4a9", "1.1--hdcf5f25_2": "sha256:aa0957c65da9f7493cf9967156d02ba44b2be605fb8c9ecf64f4b813ccff1ce3"}, "docker": "quay.io/biocontainers/mmannot", "aliases": {"addNH": "/usr/local/bin/addNH", "mmannot": "/usr/local/bin/mmannot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmannot.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mmannot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmannot:1.0.3--hd03093a_0
+$ shpc install quay.io/biocontainers/mmannot:1.1--hdcf5f25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmannot/1.0.3--hd03093a_0
-$ module help quay.io/biocontainers/mmannot/1.0.3--hd03093a_0
+$ module load quay.io/biocontainers/mmannot/1.1--hdcf5f25_2
+$ module help quay.io/biocontainers/mmannot/1.1--hdcf5f25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

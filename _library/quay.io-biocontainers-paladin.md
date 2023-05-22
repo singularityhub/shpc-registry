@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/paladin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paladin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paladin/container.yaml"
-updated_at: "2023-05-21 02:47:29.487290"
-latest: "1.4.6--h41a57b0_3"
+updated_at: "2023-05-22 02:48:26.313443"
+latest: "1.4.6--h9bb4366_5"
 container_url: "https://biocontainers.pro/tools/paladin"
 aliases:
  - "paladin"
 versions:
  - "1.4.6--h41a57b0_3"
+ - "1.4.6--h9bb4366_5"
 description: "shpc-registry automated BioContainers addition for paladin"
-config: {"url": "https://biocontainers.pro/tools/paladin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for paladin", "latest": {"1.4.6--h41a57b0_3": "sha256:e4afff1c8e0676c39d5d4deb39f02aefb3f81d2ff153aceb47554af1d6d92d41"}, "tags": {"1.4.6--h41a57b0_3": "sha256:e4afff1c8e0676c39d5d4deb39f02aefb3f81d2ff153aceb47554af1d6d92d41"}, "docker": "quay.io/biocontainers/paladin", "aliases": {"paladin": "/usr/local/bin/paladin"}}
+config: {"url": "https://biocontainers.pro/tools/paladin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for paladin", "latest": {"1.4.6--h9bb4366_5": "sha256:841ab0ba9a3c28a2aee66f185375972ce6101a9f8d3826b233be97a324c2503e"}, "tags": {"1.4.6--h41a57b0_3": "sha256:e4afff1c8e0676c39d5d4deb39f02aefb3f81d2ff153aceb47554af1d6d92d41", "1.4.6--h9bb4366_5": "sha256:841ab0ba9a3c28a2aee66f185375972ce6101a9f8d3826b233be97a324c2503e"}, "docker": "quay.io/biocontainers/paladin", "aliases": {"paladin": "/usr/local/bin/paladin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/paladin.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/paladin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/paladin:1.4.6--h41a57b0_3
+$ shpc install quay.io/biocontainers/paladin:1.4.6--h9bb4366_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/paladin/1.4.6--h41a57b0_3
-$ module help quay.io/biocontainers/paladin/1.4.6--h41a57b0_3
+$ module load quay.io/biocontainers/paladin/1.4.6--h9bb4366_5
+$ module help quay.io/biocontainers/paladin/1.4.6--h9bb4366_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

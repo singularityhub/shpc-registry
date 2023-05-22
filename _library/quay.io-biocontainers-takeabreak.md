@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/takeabreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/takeabreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/takeabreak/container.yaml"
-updated_at: "2023-05-21 03:10:29.322925"
-latest: "1.1.2--h5b5514e_5"
+updated_at: "2023-05-22 03:12:09.779269"
+latest: "1.1.2--h43eeafb_7"
 container_url: "https://biocontainers.pro/tools/takeabreak"
 aliases:
  - "TakeABreak"
 versions:
  - "1.1.2--h5b5514e_5"
+ - "1.1.2--h43eeafb_7"
 description: "shpc-registry automated BioContainers addition for takeabreak"
-config: {"url": "https://biocontainers.pro/tools/takeabreak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for takeabreak", "latest": {"1.1.2--h5b5514e_5": "sha256:0a73a3e9efabc85fda45e054b6c294cca979ef31311ed1d2b7cc5c8e1140e38e"}, "tags": {"1.1.2--h5b5514e_5": "sha256:0a73a3e9efabc85fda45e054b6c294cca979ef31311ed1d2b7cc5c8e1140e38e"}, "docker": "quay.io/biocontainers/takeabreak", "aliases": {"TakeABreak": "/usr/local/bin/TakeABreak"}}
+config: {"url": "https://biocontainers.pro/tools/takeabreak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for takeabreak", "latest": {"1.1.2--h43eeafb_7": "sha256:8f545eac7745e3b8e97e608b0f9595b6d265446fdd3add4d323a2787737ff334"}, "tags": {"1.1.2--h5b5514e_5": "sha256:0a73a3e9efabc85fda45e054b6c294cca979ef31311ed1d2b7cc5c8e1140e38e", "1.1.2--h43eeafb_7": "sha256:8f545eac7745e3b8e97e608b0f9595b6d265446fdd3add4d323a2787737ff334"}, "docker": "quay.io/biocontainers/takeabreak", "aliases": {"TakeABreak": "/usr/local/bin/TakeABreak"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/takeabreak.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/takeabreak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/takeabreak:1.1.2--h5b5514e_5
+$ shpc install quay.io/biocontainers/takeabreak:1.1.2--h43eeafb_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/takeabreak/1.1.2--h5b5514e_5
-$ module help quay.io/biocontainers/takeabreak/1.1.2--h5b5514e_5
+$ module load quay.io/biocontainers/takeabreak/1.1.2--h43eeafb_7
+$ module help quay.io/biocontainers/takeabreak/1.1.2--h43eeafb_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

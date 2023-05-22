@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sibeliaz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sibeliaz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sibeliaz/container.yaml"
-updated_at: "2023-05-21 03:15:11.678801"
-latest: "1.2.5--h7bb7ee6_2"
+updated_at: "2023-05-22 03:16:59.854878"
+latest: "1.2.5--hbb2dabb_3"
 container_url: "https://biocontainers.pro/tools/sibeliaz"
 aliases:
  - "graphdump"
@@ -16,8 +16,9 @@ aliases:
  - "twopaco"
 versions:
  - "1.2.5--h7bb7ee6_2"
+ - "1.2.5--hbb2dabb_3"
 description: "shpc-registry automated BioContainers addition for sibeliaz"
-config: {"url": "https://biocontainers.pro/tools/sibeliaz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sibeliaz", "latest": {"1.2.5--h7bb7ee6_2": "sha256:105863ec791c124d3ac9f6ac68ad9807d10a68c02dd62e45a8d6e3bc96e376b8"}, "tags": {"1.2.5--h7bb7ee6_2": "sha256:105863ec791c124d3ac9f6ac68ad9807d10a68c02dd62e45a8d6e3bc96e376b8"}, "docker": "quay.io/biocontainers/sibeliaz", "aliases": {"graphdump": "/usr/local/bin/graphdump", "maf2synteny": "/usr/local/bin/maf2synteny", "sibeliaz": "/usr/local/bin/sibeliaz", "sibeliaz-lcb": "/usr/local/bin/sibeliaz-lcb", "spoa": "/usr/local/bin/spoa", "twopaco": "/usr/local/bin/twopaco"}}
+config: {"url": "https://biocontainers.pro/tools/sibeliaz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sibeliaz", "latest": {"1.2.5--hbb2dabb_3": "sha256:88c6b9203f92994fd9bbce359e3e8a61d8bc08017266a799a1bac0b23fac7e73"}, "tags": {"1.2.5--h7bb7ee6_2": "sha256:105863ec791c124d3ac9f6ac68ad9807d10a68c02dd62e45a8d6e3bc96e376b8", "1.2.5--hbb2dabb_3": "sha256:88c6b9203f92994fd9bbce359e3e8a61d8bc08017266a799a1bac0b23fac7e73"}, "docker": "quay.io/biocontainers/sibeliaz", "aliases": {"graphdump": "/usr/local/bin/graphdump", "maf2synteny": "/usr/local/bin/maf2synteny", "sibeliaz": "/usr/local/bin/sibeliaz", "sibeliaz-lcb": "/usr/local/bin/sibeliaz-lcb", "spoa": "/usr/local/bin/spoa", "twopaco": "/usr/local/bin/twopaco"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sibeliaz.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/sibeliaz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sibeliaz:1.2.5--h7bb7ee6_2
+$ shpc install quay.io/biocontainers/sibeliaz:1.2.5--hbb2dabb_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sibeliaz/1.2.5--h7bb7ee6_2
-$ module help quay.io/biocontainers/sibeliaz/1.2.5--h7bb7ee6_2
+$ module load quay.io/biocontainers/sibeliaz/1.2.5--hbb2dabb_3
+$ module help quay.io/biocontainers/sibeliaz/1.2.5--hbb2dabb_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

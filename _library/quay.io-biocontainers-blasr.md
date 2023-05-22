@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blasr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blasr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blasr/container.yaml"
-updated_at: "2023-05-21 02:43:15.303939"
+updated_at: "2023-05-22 02:44:01.249205"
 latest: "5.3.9c6f0a5--0"
 container_url: "https://biocontainers.pro/tools/blasr"
 aliases:

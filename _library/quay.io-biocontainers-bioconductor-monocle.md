@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-monocle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-monocle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-monocle/container.yaml"
-updated_at: "2023-05-21 03:08:41.324404"
-latest: "2.26.0--r42hc247a5b_0"
+updated_at: "2023-05-22 03:10:18.366411"
+latest: "2.26.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-monocle"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "2.20.0--r41h399db7b_0"
  - "2.18.0--r40h399db7b_2"
  - "2.16.0--r40h5f743cb_0"
+ - "2.26.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-monocle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-monocle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-monocle", "latest": {"2.26.0--r42hc247a5b_0": "sha256:e9a8139512f2bd14a5ea1cfd28d2d295d23a58e7f89d0fdc5878f0ab15775fe7"}, "tags": {"2.8.0--r341hfc679d8_0": "sha256:a351da663530d44884ecb005cf40003b01a99da5b431fae7388753a04698e31b", "2.26.0--r42hc247a5b_0": "sha256:e9a8139512f2bd14a5ea1cfd28d2d295d23a58e7f89d0fdc5878f0ab15775fe7", "2.22.0--r41hc247a5b_2": "sha256:712af7b0a485ed214d67f103523379f7e7b0f13b52c236b383095b5933ba5295", "2.20.0--r41h399db7b_0": "sha256:51411ba7c19918c72e0fa85407c2ef666abf6057e54c5e4cdd00170def05eaf7", "2.18.0--r40h399db7b_2": "sha256:282c1b4d9064c8a08274ec13138ac15938ec5b6e52328f66c3b018843ba5896f", "2.16.0--r40h5f743cb_0": "sha256:2fae4aeec7b50901dc616a19e8637cc5ba3791c438bc90a1eb58d9500a7c1fc2"}, "docker": "quay.io/biocontainers/bioconductor-monocle", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-monocle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-monocle", "latest": {"2.26.0--r42hf17093f_1": "sha256:c4fcb11b8952cc5230ff9bf898f44fc2f05626792161e7425c2dc07658813ecf"}, "tags": {"2.8.0--r341hfc679d8_0": "sha256:a351da663530d44884ecb005cf40003b01a99da5b431fae7388753a04698e31b", "2.26.0--r42hc247a5b_0": "sha256:e9a8139512f2bd14a5ea1cfd28d2d295d23a58e7f89d0fdc5878f0ab15775fe7", "2.22.0--r41hc247a5b_2": "sha256:712af7b0a485ed214d67f103523379f7e7b0f13b52c236b383095b5933ba5295", "2.20.0--r41h399db7b_0": "sha256:51411ba7c19918c72e0fa85407c2ef666abf6057e54c5e4cdd00170def05eaf7", "2.18.0--r40h399db7b_2": "sha256:282c1b4d9064c8a08274ec13138ac15938ec5b6e52328f66c3b018843ba5896f", "2.16.0--r40h5f743cb_0": "sha256:2fae4aeec7b50901dc616a19e8637cc5ba3791c438bc90a1eb58d9500a7c1fc2", "2.26.0--r42hf17093f_1": "sha256:c4fcb11b8952cc5230ff9bf898f44fc2f05626792161e7425c2dc07658813ecf"}, "docker": "quay.io/biocontainers/bioconductor-monocle", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-monocle.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-monocle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-monocle:2.26.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-monocle:2.26.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-monocle/2.26.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-monocle/2.26.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-monocle/2.26.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-monocle/2.26.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

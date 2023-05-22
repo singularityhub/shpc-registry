@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rna-seqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rna-seqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rna-seqc/container.yaml"
-updated_at: "2023-05-21 02:49:56.661208"
-latest: "2.3.5--h335d4e2_3"
+updated_at: "2023-05-22 02:50:58.587323"
+latest: "2.3.5--ha241645_5"
 container_url: "https://biocontainers.pro/tools/rna-seqc"
 aliases:
  - "rnaseqc"
 versions:
  - "2.3.5--h335d4e2_3"
+ - "2.3.5--ha241645_5"
 description: "shpc-registry automated BioContainers addition for rna-seqc"
-config: {"url": "https://biocontainers.pro/tools/rna-seqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rna-seqc", "latest": {"2.3.5--h335d4e2_3": "sha256:0b135dad0c88d19a477a85d4f7765bbff19d6aa99eb1b316ab2132debebc68f8"}, "tags": {"2.3.5--h335d4e2_3": "sha256:0b135dad0c88d19a477a85d4f7765bbff19d6aa99eb1b316ab2132debebc68f8"}, "docker": "quay.io/biocontainers/rna-seqc", "aliases": {"rnaseqc": "/usr/local/bin/rnaseqc"}}
+config: {"url": "https://biocontainers.pro/tools/rna-seqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rna-seqc", "latest": {"2.3.5--ha241645_5": "sha256:f633668278fb0323be0e52035a5a11fbc3dc7126d52f09f6ef2ce13a0a58a3fd"}, "tags": {"2.3.5--h335d4e2_3": "sha256:0b135dad0c88d19a477a85d4f7765bbff19d6aa99eb1b316ab2132debebc68f8", "2.3.5--ha241645_5": "sha256:f633668278fb0323be0e52035a5a11fbc3dc7126d52f09f6ef2ce13a0a58a3fd"}, "docker": "quay.io/biocontainers/rna-seqc", "aliases": {"rnaseqc": "/usr/local/bin/rnaseqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rna-seqc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rna-seqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rna-seqc:2.3.5--h335d4e2_3
+$ shpc install quay.io/biocontainers/rna-seqc:2.3.5--ha241645_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rna-seqc/2.3.5--h335d4e2_3
-$ module help quay.io/biocontainers/rna-seqc/2.3.5--h335d4e2_3
+$ module load quay.io/biocontainers/rna-seqc/2.3.5--ha241645_5
+$ module help quay.io/biocontainers/rna-seqc/2.3.5--ha241645_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

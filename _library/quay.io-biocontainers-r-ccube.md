@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-ccube"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ccube/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ccube/container.yaml"
-updated_at: "2023-05-21 03:15:32.229322"
-latest: "1.0_beta.1--r42h46c59ee_2"
+updated_at: "2023-05-22 03:17:21.036516"
+latest: "1.0_beta.1--r42he153687_4"
 container_url: "https://biocontainers.pro/tools/r-ccube"
 
 versions:
  - "1.0_beta.1--r41h46c59ee_1"
  - "1.0_beta.1--r42h46c59ee_2"
+ - "1.0_beta.1--r42he153687_4"
 description: "shpc-registry automated BioContainers addition for r-ccube"
-config: {"url": "https://biocontainers.pro/tools/r-ccube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ccube", "latest": {"1.0_beta.1--r42h46c59ee_2": "sha256:04fb357f16795109854eb04600a650f95917609aef29d4a625e95a42d50caa5c"}, "tags": {"1.0_beta.1--r41h46c59ee_1": "sha256:88ef4c800eadf6640eabc8db3502bd241773702f07db48353f5f286dd26110f5", "1.0_beta.1--r42h46c59ee_2": "sha256:04fb357f16795109854eb04600a650f95917609aef29d4a625e95a42d50caa5c"}, "docker": "quay.io/biocontainers/r-ccube"}
+config: {"url": "https://biocontainers.pro/tools/r-ccube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ccube", "latest": {"1.0_beta.1--r42he153687_4": "sha256:0482ff191487ddcd45e6af68bc1d3d13cdbe3d1e970c873ba11def9db6e5a878"}, "tags": {"1.0_beta.1--r41h46c59ee_1": "sha256:88ef4c800eadf6640eabc8db3502bd241773702f07db48353f5f286dd26110f5", "1.0_beta.1--r42h46c59ee_2": "sha256:04fb357f16795109854eb04600a650f95917609aef29d4a625e95a42d50caa5c", "1.0_beta.1--r42he153687_4": "sha256:0482ff191487ddcd45e6af68bc1d3d13cdbe3d1e970c873ba11def9db6e5a878"}, "docker": "quay.io/biocontainers/r-ccube"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ccube.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-ccube
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ccube:1.0_beta.1--r42h46c59ee_2
+$ shpc install quay.io/biocontainers/r-ccube:1.0_beta.1--r42he153687_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ccube/1.0_beta.1--r42h46c59ee_2
-$ module help quay.io/biocontainers/r-ccube/1.0_beta.1--r42h46c59ee_2
+$ module load quay.io/biocontainers/r-ccube/1.0_beta.1--r42he153687_4
+$ module help quay.io/biocontainers/r-ccube/1.0_beta.1--r42he153687_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

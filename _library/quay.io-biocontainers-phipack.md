@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/phipack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phipack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phipack/container.yaml"
-updated_at: "2023-05-21 02:46:52.570641"
-latest: "1.1--hec16e2b_2"
+updated_at: "2023-05-22 02:47:47.400732"
+latest: "1.1--h031d066_4"
 container_url: "https://biocontainers.pro/tools/phipack"
 aliases:
  - "Phi"
  - "Profile"
 versions:
  - "1.1--hec16e2b_2"
+ - "1.1--h031d066_4"
 description: "shpc-registry automated BioContainers addition for phipack"
-config: {"url": "https://biocontainers.pro/tools/phipack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phipack", "latest": {"1.1--hec16e2b_2": "sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96"}, "tags": {"1.1--hec16e2b_2": "sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96"}, "docker": "quay.io/biocontainers/phipack", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile"}}
+config: {"url": "https://biocontainers.pro/tools/phipack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phipack", "latest": {"1.1--h031d066_4": "sha256:e6405c4d06d41949a45c9fc6bdf1e8f27bcb127f2e3330a8fb33f9580ec0e224"}, "tags": {"1.1--hec16e2b_2": "sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96", "1.1--h031d066_4": "sha256:e6405c4d06d41949a45c9fc6bdf1e8f27bcb127f2e3330a8fb33f9580ec0e224"}, "docker": "quay.io/biocontainers/phipack", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phipack.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/phipack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phipack:1.1--hec16e2b_2
+$ shpc install quay.io/biocontainers/phipack:1.1--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phipack/1.1--hec16e2b_2
-$ module help quay.io/biocontainers/phipack/1.1--hec16e2b_2
+$ module load quay.io/biocontainers/phipack/1.1--h031d066_4
+$ module help quay.io/biocontainers/phipack/1.1--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

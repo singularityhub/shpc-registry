@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-socket"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-socket/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-socket/container.yaml"
-updated_at: "2023-05-21 02:46:32.037342"
-latest: "2.027--pl5321hec16e2b_3"
+updated_at: "2023-05-22 02:47:26.018217"
+latest: "2.027--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/perl-socket"
 
 versions:
  - "2.027--pl5321hec16e2b_3"
+ - "2.027--pl5321h031d066_4"
 description: "shpc-registry automated BioContainers addition for perl-socket"
-config: {"url": "https://biocontainers.pro/tools/perl-socket", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-socket", "latest": {"2.027--pl5321hec16e2b_3": "sha256:6258d58b6164744d67b1afa7223265b24789a2295e612ee247cd575221ab6399"}, "tags": {"2.027--pl5321hec16e2b_3": "sha256:6258d58b6164744d67b1afa7223265b24789a2295e612ee247cd575221ab6399"}, "docker": "quay.io/biocontainers/perl-socket"}
+config: {"url": "https://biocontainers.pro/tools/perl-socket", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-socket", "latest": {"2.027--pl5321h031d066_4": "sha256:6fd2993c0fee09393b9849455f1d6da72b79ea5350bcf366a640d1e8370fff1a"}, "tags": {"2.027--pl5321hec16e2b_3": "sha256:6258d58b6164744d67b1afa7223265b24789a2295e612ee247cd575221ab6399", "2.027--pl5321h031d066_4": "sha256:6fd2993c0fee09393b9849455f1d6da72b79ea5350bcf366a640d1e8370fff1a"}, "docker": "quay.io/biocontainers/perl-socket"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-socket.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-socket
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-socket:2.027--pl5321hec16e2b_3
+$ shpc install quay.io/biocontainers/perl-socket:2.027--pl5321h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-socket/2.027--pl5321hec16e2b_3
-$ module help quay.io/biocontainers/perl-socket/2.027--pl5321hec16e2b_3
+$ module load quay.io/biocontainers/perl-socket/2.027--pl5321h031d066_4
+$ module help quay.io/biocontainers/perl-socket/2.027--pl5321h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

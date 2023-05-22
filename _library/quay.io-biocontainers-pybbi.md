@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybbi/container.yaml"
-updated_at: "2023-05-21 02:51:28.376603"
-latest: "0.3.2--py38hc5a206b_1"
+updated_at: "2023-05-22 02:52:33.525432"
+latest: "0.3.2--py310h473005b_2"
 container_url: "https://biocontainers.pro/tools/pybbi"
 aliases:
  - "f2py3.8"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.3.2--py38hc5a206b_1"
+ - "0.3.2--py310h473005b_2"
 description: "shpc-registry automated BioContainers addition for pybbi"
-config: {"url": "https://biocontainers.pro/tools/pybbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybbi", "latest": {"0.3.2--py38hc5a206b_1": "sha256:694a45b3be12e2576aca8557bb23764a25954d86bd062386d7e5871b019feec2"}, "tags": {"0.3.2--py38hc5a206b_1": "sha256:694a45b3be12e2576aca8557bb23764a25954d86bd062386d7e5871b019feec2"}, "docker": "quay.io/biocontainers/pybbi", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybbi", "latest": {"0.3.2--py310h473005b_2": "sha256:f86d9f21a261d6f502d190da83fdf28fb49a2aabc5280b6716c1ffff1bd4ca72"}, "tags": {"0.3.2--py38hc5a206b_1": "sha256:694a45b3be12e2576aca8557bb23764a25954d86bd062386d7e5871b019feec2", "0.3.2--py310h473005b_2": "sha256:f86d9f21a261d6f502d190da83fdf28fb49a2aabc5280b6716c1ffff1bd4ca72"}, "docker": "quay.io/biocontainers/pybbi", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybbi.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pybbi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybbi:0.3.2--py38hc5a206b_1
+$ shpc install quay.io/biocontainers/pybbi:0.3.2--py310h473005b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybbi/0.3.2--py38hc5a206b_1
-$ module help quay.io/biocontainers/pybbi/0.3.2--py38hc5a206b_1
+$ module load quay.io/biocontainers/pybbi/0.3.2--py310h473005b_2
+$ module help quay.io/biocontainers/pybbi/0.3.2--py310h473005b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

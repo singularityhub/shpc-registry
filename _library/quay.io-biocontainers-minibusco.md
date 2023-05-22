@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/minibusco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minibusco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minibusco/container.yaml"
-updated_at: "2023-05-21 03:19:15.963444"
-latest: "0.2--pyhdfd78af_0"
+updated_at: "2023-05-22 03:21:10.554621"
+latest: "0.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/minibusco"
 aliases:
  - "minibusco"
@@ -37,8 +37,9 @@ aliases:
  - "esl-sfetch"
 versions:
  - "0.2--pyhdfd78af_0"
+ - "0.2.1--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for minibusco"
-config: {"url": "https://biocontainers.pro/tools/minibusco", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for minibusco", "latest": {"0.2--pyhdfd78af_0": "sha256:b7ee67ba8d13f7273ee2a6dba1c2ae187f78834452b4c8fe7bbeafc4bad445bb"}, "tags": {"0.2--pyhdfd78af_0": "sha256:b7ee67ba8d13f7273ee2a6dba1c2ae187f78834452b4c8fe7bbeafc4bad445bb"}, "docker": "quay.io/biocontainers/minibusco", "aliases": {"minibusco": "/usr/local/bin/minibusco", "miniprot": "/usr/local/bin/miniprot", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch"}}
+config: {"url": "https://biocontainers.pro/tools/minibusco", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for minibusco", "latest": {"0.2.1--pyh7cba7a3_0": "sha256:afc89647aa8c13e0a3aebbe7fe5c44eff1beca19783aa253d10babbeb34f12b5"}, "tags": {"0.2--pyhdfd78af_0": "sha256:b7ee67ba8d13f7273ee2a6dba1c2ae187f78834452b4c8fe7bbeafc4bad445bb", "0.2.1--pyh7cba7a3_0": "sha256:afc89647aa8c13e0a3aebbe7fe5c44eff1beca19783aa253d10babbeb34f12b5"}, "docker": "quay.io/biocontainers/minibusco", "aliases": {"minibusco": "/usr/local/bin/minibusco", "miniprot": "/usr/local/bin/miniprot", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minibusco.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/minibusco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minibusco:0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/minibusco:0.2.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minibusco/0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/minibusco/0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/minibusco/0.2.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/minibusco/0.2.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

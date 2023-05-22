@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/exparna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/exparna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/exparna/container.yaml"
-updated_at: "2023-05-21 02:52:56.288764"
-latest: "1.0.1--pl5321h9f5acd7_5"
+updated_at: "2023-05-22 02:54:05.082823"
+latest: "1.0.1--pl5321h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/exparna"
 aliases:
  - "ExpaRNA"
@@ -22,8 +22,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "1.0.1--pl5321h9f5acd7_5"
+ - "1.0.1--pl5321h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for exparna"
-config: {"url": "https://biocontainers.pro/tools/exparna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exparna", "latest": {"1.0.1--pl5321h9f5acd7_5": "sha256:b49fb292fb9b0cb3806ed7ae453b997759f188f2a76a7500af2c83286bf0849d"}, "tags": {"1.0.1--pl5321h9f5acd7_5": "sha256:b49fb292fb9b0cb3806ed7ae453b997759f188f2a76a7500af2c83286bf0849d"}, "docker": "quay.io/biocontainers/exparna", "aliases": {"ExpaRNA": "/usr/local/bin/ExpaRNA", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/exparna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exparna", "latest": {"1.0.1--pl5321h4ac6f70_6": "sha256:32f140615929f445104f5505da62262077c9bced1f3f54a8835caa5cca882150"}, "tags": {"1.0.1--pl5321h9f5acd7_5": "sha256:b49fb292fb9b0cb3806ed7ae453b997759f188f2a76a7500af2c83286bf0849d", "1.0.1--pl5321h4ac6f70_6": "sha256:32f140615929f445104f5505da62262077c9bced1f3f54a8835caa5cca882150"}, "docker": "quay.io/biocontainers/exparna", "aliases": {"ExpaRNA": "/usr/local/bin/ExpaRNA", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/exparna.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/exparna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/exparna:1.0.1--pl5321h9f5acd7_5
+$ shpc install quay.io/biocontainers/exparna:1.0.1--pl5321h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/exparna/1.0.1--pl5321h9f5acd7_5
-$ module help quay.io/biocontainers/exparna/1.0.1--pl5321h9f5acd7_5
+$ module load quay.io/biocontainers/exparna/1.0.1--pl5321h4ac6f70_6
+$ module help quay.io/biocontainers/exparna/1.0.1--pl5321h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

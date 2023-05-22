@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mlrho"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlrho/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlrho/container.yaml"
-updated_at: "2023-05-21 02:53:45.067024"
+updated_at: "2023-05-22 02:54:52.534959"
 latest: "2.9--hde3ca97_7"
 container_url: "https://biocontainers.pro/tools/mlrho"
 aliases:

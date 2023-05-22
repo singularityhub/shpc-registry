@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/novobreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novobreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novobreak/container.yaml"
-updated_at: "2023-05-21 02:50:35.425245"
-latest: "1.1.3rc--h7132678_8"
+updated_at: "2023-05-22 02:51:38.600451"
+latest: "1.1.3rc--he4a0461_9"
 container_url: "https://biocontainers.pro/tools/novobreak"
 aliases:
  - "SSAKE"
@@ -48,8 +48,9 @@ aliases:
  - "idle"
 versions:
  - "1.1.3rc--h7132678_8"
+ - "1.1.3rc--he4a0461_9"
 description: "shpc-registry automated BioContainers addition for novobreak"
-config: {"url": "https://biocontainers.pro/tools/novobreak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novobreak", "latest": {"1.1.3rc--h7132678_8": "sha256:f3eb4e7de7cbe9ef3251aae8b770633daf6eb66e8602bed7d329b2df5ef95cd5"}, "tags": {"1.1.3rc--h7132678_8": "sha256:f3eb4e7de7cbe9ef3251aae8b770633daf6eb66e8602bed7d329b2df5ef95cd5"}, "docker": "quay.io/biocontainers/novobreak", "aliases": {"SSAKE": "/usr/local/bin/SSAKE", "TQS.py": "/usr/local/bin/TQS.py", "TQSexport.py": "/usr/local/bin/TQSexport.py", "TQSfastq.pl": "/usr/local/bin/TQSfastq.pl", "TQSfastq.py": "/usr/local/bin/TQSfastq.py", "analyzePositionSSAKE.pl": "/usr/local/bin/analyzePositionSSAKE.pl", "fetch_discordant.pl": "/usr/local/bin/fetch_discordant.pl", "filter_sv.bak.pl": "/usr/local/bin/filter_sv.bak.pl", "filter_sv.pl": "/usr/local/bin/filter_sv.pl", "filter_sv2.pl": "/usr/local/bin/filter_sv2.pl", "filter_sv_icgc.pl": "/usr/local/bin/filter_sv_icgc.pl", "getStats.pl": "/usr/local/bin/getStats.pl", "group_bp_reads.pl": "/usr/local/bin/group_bp_reads.pl", "infer_bp.pl": "/usr/local/bin/infer_bp.pl", "infer_bp_v4.pl": "/usr/local/bin/infer_bp_v4.pl", "infer_sv.pl": "/usr/local/bin/infer_sv.pl", "makeFastaFileFromScaffolds.pl": "/usr/local/bin/makeFastaFileFromScaffolds.pl", "makePairedOutput.pl": "/usr/local/bin/makePairedOutput.pl", "makePairedOutput2EQUALfiles.pl": "/usr/local/bin/makePairedOutput2EQUALfiles.pl", "makePairedOutput2UNEQUALfiles.pl": "/usr/local/bin/makePairedOutput2UNEQUALfiles.pl", "nLength.pl": "/usr/local/bin/nLength.pl", "novoBreak": "/usr/local/bin/novoBreak", "qseq2fasta.pl": "/usr/local/bin/qseq2fasta.pl", "qseq2fastq.pl": "/usr/local/bin/qseq2fastq.pl", "run_novoBreak.sh": "/usr/local/bin/run_novoBreak.sh", "run_novobreak": "/usr/local/bin/run_novobreak", "run_ssake.pl": "/usr/local/bin/run_ssake.pl", "splitInput.pl": "/usr/local/bin/splitInput.pl", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
+config: {"url": "https://biocontainers.pro/tools/novobreak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novobreak", "latest": {"1.1.3rc--he4a0461_9": "sha256:737bcdbdcfa1b3ff212d41195027047eb2106e537fa8d40c1331f78bf27dc634"}, "tags": {"1.1.3rc--h7132678_8": "sha256:f3eb4e7de7cbe9ef3251aae8b770633daf6eb66e8602bed7d329b2df5ef95cd5", "1.1.3rc--he4a0461_9": "sha256:737bcdbdcfa1b3ff212d41195027047eb2106e537fa8d40c1331f78bf27dc634"}, "docker": "quay.io/biocontainers/novobreak", "aliases": {"SSAKE": "/usr/local/bin/SSAKE", "TQS.py": "/usr/local/bin/TQS.py", "TQSexport.py": "/usr/local/bin/TQSexport.py", "TQSfastq.pl": "/usr/local/bin/TQSfastq.pl", "TQSfastq.py": "/usr/local/bin/TQSfastq.py", "analyzePositionSSAKE.pl": "/usr/local/bin/analyzePositionSSAKE.pl", "fetch_discordant.pl": "/usr/local/bin/fetch_discordant.pl", "filter_sv.bak.pl": "/usr/local/bin/filter_sv.bak.pl", "filter_sv.pl": "/usr/local/bin/filter_sv.pl", "filter_sv2.pl": "/usr/local/bin/filter_sv2.pl", "filter_sv_icgc.pl": "/usr/local/bin/filter_sv_icgc.pl", "getStats.pl": "/usr/local/bin/getStats.pl", "group_bp_reads.pl": "/usr/local/bin/group_bp_reads.pl", "infer_bp.pl": "/usr/local/bin/infer_bp.pl", "infer_bp_v4.pl": "/usr/local/bin/infer_bp_v4.pl", "infer_sv.pl": "/usr/local/bin/infer_sv.pl", "makeFastaFileFromScaffolds.pl": "/usr/local/bin/makeFastaFileFromScaffolds.pl", "makePairedOutput.pl": "/usr/local/bin/makePairedOutput.pl", "makePairedOutput2EQUALfiles.pl": "/usr/local/bin/makePairedOutput2EQUALfiles.pl", "makePairedOutput2UNEQUALfiles.pl": "/usr/local/bin/makePairedOutput2UNEQUALfiles.pl", "nLength.pl": "/usr/local/bin/nLength.pl", "novoBreak": "/usr/local/bin/novoBreak", "qseq2fasta.pl": "/usr/local/bin/qseq2fasta.pl", "qseq2fastq.pl": "/usr/local/bin/qseq2fastq.pl", "run_novoBreak.sh": "/usr/local/bin/run_novoBreak.sh", "run_novobreak": "/usr/local/bin/run_novobreak", "run_ssake.pl": "/usr/local/bin/run_ssake.pl", "splitInput.pl": "/usr/local/bin/splitInput.pl", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novobreak.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/novobreak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/novobreak:1.1.3rc--h7132678_8
+$ shpc install quay.io/biocontainers/novobreak:1.1.3rc--he4a0461_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/novobreak/1.1.3rc--h7132678_8
-$ module help quay.io/biocontainers/novobreak/1.1.3rc--h7132678_8
+$ module load quay.io/biocontainers/novobreak/1.1.3rc--he4a0461_9
+$ module help quay.io/biocontainers/novobreak/1.1.3rc--he4a0461_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

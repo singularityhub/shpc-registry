@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngshmmalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngshmmalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngshmmalign/container.yaml"
-updated_at: "2023-05-21 02:41:10.096715"
-latest: "0.1.1--ha04c180_4"
+updated_at: "2023-05-22 02:41:50.476302"
+latest: "0.1.1--hfce7173_6"
 container_url: "https://biocontainers.pro/tools/ngshmmalign"
 aliases:
  - "ngshmmalign"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.1--ha04c180_4"
+ - "0.1.1--hfce7173_6"
 description: "shpc-registry automated BioContainers addition for ngshmmalign"
-config: {"url": "https://biocontainers.pro/tools/ngshmmalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngshmmalign", "latest": {"0.1.1--ha04c180_4": "sha256:215848fa34c835be224695bfa3d60d88abab91cd231871b7748e1ab0ba314c46"}, "tags": {"0.1.1--ha04c180_4": "sha256:215848fa34c835be224695bfa3d60d88abab91cd231871b7748e1ab0ba314c46"}, "docker": "quay.io/biocontainers/ngshmmalign", "aliases": {"ngshmmalign": "/usr/local/bin/ngshmmalign", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ngshmmalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngshmmalign", "latest": {"0.1.1--hfce7173_6": "sha256:02a30452216028c3e95c1ca36e0f4287bdd1664a3a37c982f5d5ba2ee6b5dbbb"}, "tags": {"0.1.1--ha04c180_4": "sha256:215848fa34c835be224695bfa3d60d88abab91cd231871b7748e1ab0ba314c46", "0.1.1--hfce7173_6": "sha256:02a30452216028c3e95c1ca36e0f4287bdd1664a3a37c982f5d5ba2ee6b5dbbb"}, "docker": "quay.io/biocontainers/ngshmmalign", "aliases": {"ngshmmalign": "/usr/local/bin/ngshmmalign", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngshmmalign.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/ngshmmalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngshmmalign:0.1.1--ha04c180_4
+$ shpc install quay.io/biocontainers/ngshmmalign:0.1.1--hfce7173_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngshmmalign/0.1.1--ha04c180_4
-$ module help quay.io/biocontainers/ngshmmalign/0.1.1--ha04c180_4
+$ module load quay.io/biocontainers/ngshmmalign/0.1.1--hfce7173_6
+$ module help quay.io/biocontainers/ngshmmalign/0.1.1--hfce7173_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

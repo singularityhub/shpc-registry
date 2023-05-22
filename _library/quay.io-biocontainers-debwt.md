@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/debwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/debwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/debwt/container.yaml"
-updated_at: "2023-05-21 03:11:09.358633"
-latest: "1.0.1--h7132678_5"
+updated_at: "2023-05-22 03:12:50.240595"
+latest: "1.0.1--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/debwt"
 aliases:
  - "deBWT"
 versions:
  - "1.0.1--h7132678_5"
+ - "1.0.1--he4a0461_7"
 description: "shpc-registry automated BioContainers addition for debwt"
-config: {"url": "https://biocontainers.pro/tools/debwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for debwt", "latest": {"1.0.1--h7132678_5": "sha256:bae1b7a22194b702a6a9440f245664a5e6073edfc560c9deb81e457d16edfaf8"}, "tags": {"1.0.1--h7132678_5": "sha256:bae1b7a22194b702a6a9440f245664a5e6073edfc560c9deb81e457d16edfaf8"}, "docker": "quay.io/biocontainers/debwt", "aliases": {"deBWT": "/usr/local/bin/deBWT"}}
+config: {"url": "https://biocontainers.pro/tools/debwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for debwt", "latest": {"1.0.1--he4a0461_7": "sha256:4079340c9e726e9f5758634be6985e063bb9442b30879179abf5580b9889d577"}, "tags": {"1.0.1--h7132678_5": "sha256:bae1b7a22194b702a6a9440f245664a5e6073edfc560c9deb81e457d16edfaf8", "1.0.1--he4a0461_7": "sha256:4079340c9e726e9f5758634be6985e063bb9442b30879179abf5580b9889d577"}, "docker": "quay.io/biocontainers/debwt", "aliases": {"deBWT": "/usr/local/bin/deBWT"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/debwt.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/debwt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/debwt:1.0.1--h7132678_5
+$ shpc install quay.io/biocontainers/debwt:1.0.1--he4a0461_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/debwt/1.0.1--h7132678_5
-$ module help quay.io/biocontainers/debwt/1.0.1--h7132678_5
+$ module load quay.io/biocontainers/debwt/1.0.1--he4a0461_7
+$ module help quay.io/biocontainers/debwt/1.0.1--he4a0461_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

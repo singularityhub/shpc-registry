@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/aprfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aprfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aprfinder/container.yaml"
-updated_at: "2023-05-21 02:55:31.430812"
-latest: "1.5--hec16e2b_0"
+updated_at: "2023-05-22 02:56:32.610954"
+latest: "1.5--h031d066_2"
 container_url: "https://biocontainers.pro/tools/aprfinder"
 aliases:
  - "aprfinder"
 versions:
  - "1.5--hec16e2b_0"
+ - "1.5--h031d066_2"
 description: "singularity registry hpc automated addition for aprfinder"
-config: {"url": "https://biocontainers.pro/tools/aprfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aprfinder", "latest": {"1.5--hec16e2b_0": "sha256:34baea9d56a6db9076a1482fe75a94e54c16264c8732f7d482c1a6f92af97399"}, "tags": {"1.5--hec16e2b_0": "sha256:34baea9d56a6db9076a1482fe75a94e54c16264c8732f7d482c1a6f92af97399"}, "docker": "quay.io/biocontainers/aprfinder", "aliases": {"aprfinder": "/usr/local/bin/aprfinder"}}
+config: {"url": "https://biocontainers.pro/tools/aprfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aprfinder", "latest": {"1.5--h031d066_2": "sha256:b42cdfa8593b0eca5d36583ead2d64025699704e1eba274124c70166dedcf81a"}, "tags": {"1.5--hec16e2b_0": "sha256:34baea9d56a6db9076a1482fe75a94e54c16264c8732f7d482c1a6f92af97399", "1.5--h031d066_2": "sha256:b42cdfa8593b0eca5d36583ead2d64025699704e1eba274124c70166dedcf81a"}, "docker": "quay.io/biocontainers/aprfinder", "aliases": {"aprfinder": "/usr/local/bin/aprfinder"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aprfinder.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/aprfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aprfinder:1.5--hec16e2b_0
+$ shpc install quay.io/biocontainers/aprfinder:1.5--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aprfinder/1.5--hec16e2b_0
-$ module help quay.io/biocontainers/aprfinder/1.5--hec16e2b_0
+$ module load quay.io/biocontainers/aprfinder/1.5--h031d066_2
+$ module help quay.io/biocontainers/aprfinder/1.5--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

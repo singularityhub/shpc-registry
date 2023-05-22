@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multixrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multixrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multixrank/container.yaml"
-updated_at: "2023-05-21 03:13:35.459706"
-latest: "0.1--pyh7cba7a3_0"
+updated_at: "2023-05-22 03:15:19.633016"
+latest: "0.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/multixrank"
 aliases:
  - "f2py3.11"
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1--pyh7cba7a3_0"
+ - "0.1--pyh7cba7a3_1"
 description: "singularity registry hpc automated addition for multixrank"
-config: {"url": "https://biocontainers.pro/tools/multixrank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multixrank", "latest": {"0.1--pyh7cba7a3_0": "sha256:cb2a0d22413dbc5f0424c09787a8f10d7ccef5f7a6442e746f391f07274851c5"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:cb2a0d22413dbc5f0424c09787a8f10d7ccef5f7a6442e746f391f07274851c5"}, "docker": "quay.io/biocontainers/multixrank", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/multixrank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multixrank", "latest": {"0.1--pyh7cba7a3_1": "sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:1db2fa3f350a243062e3149c97905e7f2d52c1413605492eda36535770774097", "0.1--pyh7cba7a3_1": "sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9"}, "docker": "quay.io/biocontainers/multixrank", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multixrank.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/multixrank
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multixrank:0.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/multixrank:0.1--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multixrank/0.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/multixrank/0.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/multixrank/0.1--pyh7cba7a3_1
+$ module help quay.io/biocontainers/multixrank/0.1--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

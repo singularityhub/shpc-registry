@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rapsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapsearch/container.yaml"
-updated_at: "2023-05-21 02:55:04.001897"
-latest: "2.24--h2df963e_5"
+updated_at: "2023-05-22 02:56:06.982638"
+latest: "2.24--h376f1d3_7"
 container_url: "https://biocontainers.pro/tools/rapsearch"
 aliases:
  - "prerapsearch"
  - "rapsearch"
 versions:
  - "2.24--h2df963e_5"
+ - "2.24--h376f1d3_7"
 description: "shpc-registry automated BioContainers addition for rapsearch"
-config: {"url": "https://biocontainers.pro/tools/rapsearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapsearch", "latest": {"2.24--h2df963e_5": "sha256:2d789f3c7e2fa71baa602f900756bb03909ede7c124f2b8eb9c048aeed07b88e"}, "tags": {"2.24--h2df963e_5": "sha256:2d789f3c7e2fa71baa602f900756bb03909ede7c124f2b8eb9c048aeed07b88e"}, "docker": "quay.io/biocontainers/rapsearch", "aliases": {"prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch"}}
+config: {"url": "https://biocontainers.pro/tools/rapsearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapsearch", "latest": {"2.24--h376f1d3_7": "sha256:eabb58114b05e1edd4aefb05bb60901689eb68e1abc0556577e09b3ca39cb336"}, "tags": {"2.24--h2df963e_5": "sha256:2d789f3c7e2fa71baa602f900756bb03909ede7c124f2b8eb9c048aeed07b88e", "2.24--h376f1d3_7": "sha256:eabb58114b05e1edd4aefb05bb60901689eb68e1abc0556577e09b3ca39cb336"}, "docker": "quay.io/biocontainers/rapsearch", "aliases": {"prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rapsearch.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rapsearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rapsearch:2.24--h2df963e_5
+$ shpc install quay.io/biocontainers/rapsearch:2.24--h376f1d3_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rapsearch/2.24--h2df963e_5
-$ module help quay.io/biocontainers/rapsearch/2.24--h2df963e_5
+$ module load quay.io/biocontainers/rapsearch/2.24--h376f1d3_7
+$ module help quay.io/biocontainers/rapsearch/2.24--h376f1d3_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

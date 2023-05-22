@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/solexaqa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/solexaqa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/solexaqa/container.yaml"
-updated_at: "2023-05-21 03:15:06.316080"
-latest: "3.1.7.1--h36ad0af_3"
+updated_at: "2023-05-22 03:16:54.222713"
+latest: "3.1.7.1--h69fb01c_5"
 container_url: "https://biocontainers.pro/tools/solexaqa"
 aliases:
  - "SolexaQA++"
 versions:
  - "3.1.7.1--h36ad0af_3"
+ - "3.1.7.1--h69fb01c_5"
 description: "shpc-registry automated BioContainers addition for solexaqa"
-config: {"url": "https://biocontainers.pro/tools/solexaqa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for solexaqa", "latest": {"3.1.7.1--h36ad0af_3": "sha256:88488a2fb8fec3bff0bfa2570abb52c303a849d63e56863ba2f6c1ad05a08c8c"}, "tags": {"3.1.7.1--h36ad0af_3": "sha256:88488a2fb8fec3bff0bfa2570abb52c303a849d63e56863ba2f6c1ad05a08c8c"}, "docker": "quay.io/biocontainers/solexaqa", "aliases": {"SolexaQA++": "/usr/local/bin/SolexaQA++"}}
+config: {"url": "https://biocontainers.pro/tools/solexaqa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for solexaqa", "latest": {"3.1.7.1--h69fb01c_5": "sha256:305d7af6bee54aba343ebceef101981ef343bd53112d4f64f83e964d3c51a5f0"}, "tags": {"3.1.7.1--h36ad0af_3": "sha256:88488a2fb8fec3bff0bfa2570abb52c303a849d63e56863ba2f6c1ad05a08c8c", "3.1.7.1--h69fb01c_5": "sha256:305d7af6bee54aba343ebceef101981ef343bd53112d4f64f83e964d3c51a5f0"}, "docker": "quay.io/biocontainers/solexaqa", "aliases": {"SolexaQA++": "/usr/local/bin/SolexaQA++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/solexaqa.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/solexaqa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/solexaqa:3.1.7.1--h36ad0af_3
+$ shpc install quay.io/biocontainers/solexaqa:3.1.7.1--h69fb01c_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/solexaqa/3.1.7.1--h36ad0af_3
-$ module help quay.io/biocontainers/solexaqa/3.1.7.1--h36ad0af_3
+$ module load quay.io/biocontainers/solexaqa/3.1.7.1--h69fb01c_5
+$ module help quay.io/biocontainers/solexaqa/3.1.7.1--h69fb01c_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
