@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tap-harness-env"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tap-harness-env/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tap-harness-env/container.yaml"
-updated_at: "2023-05-22 02:57:00.854954"
+updated_at: "2023-05-22 03:17:24.141977"
 latest: "3.30--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-tap-harness-env"
 aliases:

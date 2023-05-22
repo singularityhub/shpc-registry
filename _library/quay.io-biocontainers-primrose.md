@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primrose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primrose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primrose/container.yaml"
-updated_at: "2023-05-22 02:50:55.240653"
+updated_at: "2023-05-22 03:11:34.569594"
 latest: "1.3.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/primrose"
 aliases:
