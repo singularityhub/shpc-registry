@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/parallel-meta-suite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for parallel-meta-suite
 latest:
-  1.0--h9f5acd7_3: sha256:d0fc64986df3702c3be1e878aa91d59b174f779fc285d711c48ed8b6823395ec
+  1.0--h4ac6f70_4: sha256:57c3eae5fdec2ed4d80d986cd5c37fdfd6c7a1d9ffe1e3584d0eb9f342ba9c80
 tags:
   1.0--h9f5acd7_3: sha256:d0fc64986df3702c3be1e878aa91d59b174f779fc285d711c48ed8b6823395ec
+  1.0--h4ac6f70_4: sha256:57c3eae5fdec2ed4d80d986cd5c37fdfd6c7a1d9ffe1e3584d0eb9f342ba9c80
 docker: quay.io/biocontainers/parallel-meta-suite
 aliases:
   ExtractRNA.o: /usr/local/bin/ExtractRNA.o

@@ -5,6 +5,7 @@ latest:
   1.9.4--py39h9ee0642_5: sha256:fe8c5c651660faf9b3bdeb4265c0c76d7429607d0df9919086351d0c5eadbad6
 tags:
   1.9.4--py39h9ee0642_5: sha256:fe8c5c651660faf9b3bdeb4265c0c76d7429607d0df9919086351d0c5eadbad6
+  1.9.4: sha256:83ef7e4898dd776f3930ca7671ed1c6ec6a5befb03e798dedcda5b946f88e7ed
 docker: quay.io/biocontainers/metanovo
 aliases:
   bp_export_proteins.py: /usr/local/bin/bp_export_proteins.py

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-genomictuples
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genomictuples
 latest:
-  1.32.0--r42hc247a5b_0: sha256:29f3e7f0436601c5e745ecb0f3498b11f0dc7d54b417e3923a3a88b44bf2d162
+  1.32.0--r42hf17093f_1: sha256:52a168a34950d1fb709876c05afda917709b92844a3cc10f6b7ad60e641268ce
 tags:
   1.28.0--r41hc247a5b_2: sha256:ba646903267be89a5541677cc410b66802c81702330a95fef85df83c6557d57b
   1.32.0--r42hc247a5b_0: sha256:29f3e7f0436601c5e745ecb0f3498b11f0dc7d54b417e3923a3a88b44bf2d162
+  1.32.0--r42hf17093f_1: sha256:52a168a34950d1fb709876c05afda917709b92844a3cc10f6b7ad60e641268ce
 docker: quay.io/biocontainers/bioconductor-genomictuples

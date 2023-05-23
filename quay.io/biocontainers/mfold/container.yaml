@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mfold
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mfold
 latest:
-  3.6--h1aed7a7_1: sha256:757bbdbfde35024a3ec25fb33ef53b5479e2ddf53de0d65bb5e155b2492a0194
+  3.6--h8537716_3: sha256:328376d1ade487fdabc8123895a38e9da7b8d3e67c53887b2255cd367b286ce8
 tags:
   3.6--h1aed7a7_1: sha256:757bbdbfde35024a3ec25fb33ef53b5479e2ddf53de0d65bb5e155b2492a0194
+  3.6--h8537716_3: sha256:328376d1ade487fdabc8123895a38e9da7b8d3e67c53887b2255cd367b286ce8
 docker: quay.io/biocontainers/mfold
 aliases:
   add_dHdSTm: /usr/local/bin/add_dHdSTm

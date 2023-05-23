@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sbol-utilities
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sbol-utilities
 latest:
-  1.0a16--pyhdfd78af_0: sha256:0d48dd44a56e227f67ce1ae3a243bc001cddc68feeed413dc0298a4addfc7d0f
+  1.0a17--pyhdfd78af_0: sha256:f0c6dd2ed3ee860d3796b42212c036e9fe5c77148e92289787b37026967be8bc
 tags:
   1.0a16--pyhdfd78af_0: sha256:0d48dd44a56e227f67ce1ae3a243bc001cddc68feeed413dc0298a4addfc7d0f
+  1.0a17--pyhdfd78af_0: sha256:f0c6dd2ed3ee860d3796b42212c036e9fe5c77148e92289787b37026967be8bc
 docker: quay.io/biocontainers/sbol-utilities
 aliases:
   corepack: /usr/local/bin/corepack

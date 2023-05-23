@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/extract-sv-reads
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for extract-sv-reads
 latest:
-  1.3.0--pl5321h2df963e_3: sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622
+  1.3.0--pl5321h376f1d3_4: sha256:ab377bdb5bd02b56da34e4f4ca8871a29bd5351b1031d622b806da2fcf9049cc
 tags:
   1.3.0--pl5321h2df963e_3: sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622
+  1.3.0--pl5321h376f1d3_4: sha256:ab377bdb5bd02b56da34e4f4ca8871a29bd5351b1031d622b806da2fcf9049cc
 docker: quay.io/biocontainers/extract-sv-reads
 aliases:
   extract-sv-reads: /usr/local/bin/extract-sv-reads

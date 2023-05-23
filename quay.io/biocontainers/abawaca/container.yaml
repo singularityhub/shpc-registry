@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/abawaca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abawaca
 latest:
-  1.00--h9f5acd7_4: sha256:df48ab45446d2e77faf912e9a990632a04e0aa7fa45133636f599504107bf724
+  1.00--h4ac6f70_6: sha256:91de874d4ed747bc28ea53377926f4a10a03c7e27755932d2ba285109ca7dabf
 tags:
   1.00--h9f5acd7_4: sha256:df48ab45446d2e77faf912e9a990632a04e0aa7fa45133636f599504107bf724
+  1.00--h4ac6f70_6: sha256:91de874d4ed747bc28ea53377926f4a10a03c7e27755932d2ba285109ca7dabf
 docker: quay.io/biocontainers/abawaca
 aliases:
   abawaca: /usr/local/bin/abawaca

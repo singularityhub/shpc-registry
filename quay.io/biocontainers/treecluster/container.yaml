@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/treecluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treecluster
 latest:
-  1.0.3--pyh3252c3a_0: sha256:1584f1aad9d10b9b3c5cbb6f1da0c1c98cf3358fa7fdc5f66348e7ff475a2b11
+  1.0.4--pyh7cba7a3_0: sha256:9b85cc4901b16fea5d3023fa2600e6c1efd7fb38938c67165e6267cc74cacb5c
 tags:
   1.0.3--pyh3252c3a_0: sha256:1584f1aad9d10b9b3c5cbb6f1da0c1c98cf3358fa7fdc5f66348e7ff475a2b11
+  1.0.4--pyh7cba7a3_0: sha256:9b85cc4901b16fea5d3023fa2600e6c1efd7fb38938c67165e6267cc74cacb5c
 docker: quay.io/biocontainers/treecluster
 aliases:
   TreeCluster.py: /usr/local/bin/TreeCluster.py

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-list-moreutils-xs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-list-moreutils-xs
 latest:
-  0.430--pl5321hec16e2b_1: sha256:ab8439bcda9bc85ec3fe88cc63102a124035312e17f4810380d149534bc3d71c
+  0.430--pl5321h031d066_2: sha256:d7514f63463623027efbe20084bbdd55439c3d35c54a1fe73331394b3eb3c80d
 tags:
   0.430--pl5321hec16e2b_1: sha256:ab8439bcda9bc85ec3fe88cc63102a124035312e17f4810380d149534bc3d71c
+  0.430--pl5321h031d066_2: sha256:d7514f63463623027efbe20084bbdd55439c3d35c54a1fe73331394b3eb3c80d
 docker: quay.io/biocontainers/perl-list-moreutils-xs
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
