@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/tepeaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tepeaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tepeaks/container.yaml"
-updated_at: "2023-05-22 03:30:57.599542"
-latest: "0.1--h87262cc_3"
+updated_at: "2023-05-23 03:07:10.912640"
+latest: "0.1--ha503a2d_5"
 container_url: "https://biocontainers.pro/tools/tepeaks"
 aliases:
  - "TEpeaks"
 versions:
  - "0.1--h87262cc_3"
+ - "0.1--ha503a2d_5"
 description: "shpc-registry automated BioContainers addition for tepeaks"
-config: {"url": "https://biocontainers.pro/tools/tepeaks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tepeaks", "latest": {"0.1--h87262cc_3": "sha256:fccac70deea34946f3ee5bbf089e575d551c011a3194b703125a4d0aed872eb4"}, "tags": {"0.1--h87262cc_3": "sha256:fccac70deea34946f3ee5bbf089e575d551c011a3194b703125a4d0aed872eb4"}, "docker": "quay.io/biocontainers/tepeaks", "aliases": {"TEpeaks": "/usr/local/bin/TEpeaks"}}
+config: {"url": "https://biocontainers.pro/tools/tepeaks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tepeaks", "latest": {"0.1--ha503a2d_5": "sha256:3b112a99935912bb03a4800cf4b58789544d133be963f5a515fd3b52063b8c8b"}, "tags": {"0.1--h87262cc_3": "sha256:fccac70deea34946f3ee5bbf089e575d551c011a3194b703125a4d0aed872eb4", "0.1--ha503a2d_5": "sha256:3b112a99935912bb03a4800cf4b58789544d133be963f5a515fd3b52063b8c8b"}, "docker": "quay.io/biocontainers/tepeaks", "aliases": {"TEpeaks": "/usr/local/bin/TEpeaks"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tepeaks.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/tepeaks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tepeaks:0.1--h87262cc_3
+$ shpc install quay.io/biocontainers/tepeaks:0.1--ha503a2d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tepeaks/0.1--h87262cc_3
-$ module help quay.io/biocontainers/tepeaks/0.1--h87262cc_3
+$ module load quay.io/biocontainers/tepeaks/0.1--ha503a2d_5
+$ module help quay.io/biocontainers/tepeaks/0.1--ha503a2d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

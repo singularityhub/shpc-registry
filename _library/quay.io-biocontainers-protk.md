@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/protk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protk/container.yaml"
-updated_at: "2023-05-22 03:43:03.886214"
+updated_at: "2023-05-23 03:19:16.638159"
 latest: "1.4.4a--hc9114bc_1"
 container_url: "https://biocontainers.pro/tools/protk"
 aliases:

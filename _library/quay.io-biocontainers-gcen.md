@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gcen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcen/container.yaml"
-updated_at: "2023-05-22 03:45:48.833932"
-latest: "0.6.3--h9f5acd7_0"
+updated_at: "2023-05-23 03:21:58.764347"
+latest: "0.6.3--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/gcen"
 aliases:
  - "calculate_accuracy"
@@ -27,8 +27,9 @@ aliases:
  - "annotate"
 versions:
  - "0.6.3--h9f5acd7_0"
+ - "0.6.3--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for gcen"
-config: {"url": "https://biocontainers.pro/tools/gcen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcen", "latest": {"0.6.3--h9f5acd7_0": "sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95"}, "tags": {"0.6.3--h9f5acd7_0": "sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95"}, "docker": "quay.io/biocontainers/gcen", "aliases": {"calculate_accuracy": "/usr/local/bin/calculate_accuracy", "csv_to_tsv": "/usr/local/bin/csv_to_tsv", "data_filter": "/usr/local/bin/data_filter", "data_norm": "/usr/local/bin/data_norm", "data_stat": "/usr/local/bin/data_stat", "enrich": "/usr/local/bin/enrich", "generate_expr_matrix_from_rsem": "/usr/local/bin/generate_expr_matrix_from_rsem", "generate_expr_matrix_from_stringtie": "/usr/local/bin/generate_expr_matrix_from_stringtie", "module_identify": "/usr/local/bin/module_identify", "network_build": "/usr/local/bin/network_build", "network_extract": "/usr/local/bin/network_extract", "network_merge": "/usr/local/bin/network_merge", "network_shuffle": "/usr/local/bin/network_shuffle", "network_stat": "/usr/local/bin/network_stat", "rwr": "/usr/local/bin/rwr", "tsv_to_csv": "/usr/local/bin/tsv_to_csv", "annotate": "/usr/local/bin/annotate"}}
+config: {"url": "https://biocontainers.pro/tools/gcen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcen", "latest": {"0.6.3--h9f5acd7_2": "sha256:4b66c90b6d6e32c76fe78910a12022920783e4b096afc1434511f91f28c5cf17"}, "tags": {"0.6.3--h9f5acd7_0": "sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95", "0.6.3--h9f5acd7_2": "sha256:4b66c90b6d6e32c76fe78910a12022920783e4b096afc1434511f91f28c5cf17"}, "docker": "quay.io/biocontainers/gcen", "aliases": {"calculate_accuracy": "/usr/local/bin/calculate_accuracy", "csv_to_tsv": "/usr/local/bin/csv_to_tsv", "data_filter": "/usr/local/bin/data_filter", "data_norm": "/usr/local/bin/data_norm", "data_stat": "/usr/local/bin/data_stat", "enrich": "/usr/local/bin/enrich", "generate_expr_matrix_from_rsem": "/usr/local/bin/generate_expr_matrix_from_rsem", "generate_expr_matrix_from_stringtie": "/usr/local/bin/generate_expr_matrix_from_stringtie", "module_identify": "/usr/local/bin/module_identify", "network_build": "/usr/local/bin/network_build", "network_extract": "/usr/local/bin/network_extract", "network_merge": "/usr/local/bin/network_merge", "network_shuffle": "/usr/local/bin/network_shuffle", "network_stat": "/usr/local/bin/network_stat", "rwr": "/usr/local/bin/rwr", "tsv_to_csv": "/usr/local/bin/tsv_to_csv", "annotate": "/usr/local/bin/annotate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gcen.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/gcen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gcen:0.6.3--h9f5acd7_0
+$ shpc install quay.io/biocontainers/gcen:0.6.3--h9f5acd7_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gcen/0.6.3--h9f5acd7_0
-$ module help quay.io/biocontainers/gcen/0.6.3--h9f5acd7_0
+$ module load quay.io/biocontainers/gcen/0.6.3--h9f5acd7_2
+$ module help quay.io/biocontainers/gcen/0.6.3--h9f5acd7_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

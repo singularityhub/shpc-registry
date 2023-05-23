@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dextractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dextractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dextractor/container.yaml"
-updated_at: "2023-05-22 03:25:22.833562"
-latest: "1.0p2--h7a6849f_5"
+updated_at: "2023-05-23 03:01:37.633501"
+latest: "1.0p2--he47dfe4_7"
 container_url: "https://biocontainers.pro/tools/dextractor"
 aliases:
  - "dex2DB"
@@ -28,8 +28,9 @@ aliases:
  - "h5copy"
 versions:
  - "1.0p2--h7a6849f_5"
+ - "1.0p2--he47dfe4_7"
 description: "shpc-registry automated BioContainers addition for dextractor"
-config: {"url": "https://biocontainers.pro/tools/dextractor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dextractor", "latest": {"1.0p2--h7a6849f_5": "sha256:6ce12cec2c4d2e2ff88acb7d37b7566e33200f6ad4ad846209555826e754ec96"}, "tags": {"1.0p2--h7a6849f_5": "sha256:6ce12cec2c4d2e2ff88acb7d37b7566e33200f6ad4ad846209555826e754ec96"}, "docker": "quay.io/biocontainers/dextractor", "aliases": {"dex2DB": "/usr/local/bin/dex2DB", "dexar": "/usr/local/bin/dexar", "dexqv": "/usr/local/bin/dexqv", "dexta": "/usr/local/bin/dexta", "dextract": "/usr/local/bin/dextract", "undexar": "/usr/local/bin/undexar", "undexqv": "/usr/local/bin/undexqv", "undexta": "/usr/local/bin/undexta", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/dextractor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dextractor", "latest": {"1.0p2--he47dfe4_7": "sha256:c7adcf3436eafc1e01401a986789f49b349f08b29585cd790aaeb0cb49549fe4"}, "tags": {"1.0p2--h7a6849f_5": "sha256:6ce12cec2c4d2e2ff88acb7d37b7566e33200f6ad4ad846209555826e754ec96", "1.0p2--he47dfe4_7": "sha256:c7adcf3436eafc1e01401a986789f49b349f08b29585cd790aaeb0cb49549fe4"}, "docker": "quay.io/biocontainers/dextractor", "aliases": {"dex2DB": "/usr/local/bin/dex2DB", "dexar": "/usr/local/bin/dexar", "dexqv": "/usr/local/bin/dexqv", "dexta": "/usr/local/bin/dexta", "dextract": "/usr/local/bin/dextract", "undexar": "/usr/local/bin/undexar", "undexqv": "/usr/local/bin/undexqv", "undexta": "/usr/local/bin/undexta", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dextractor.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/dextractor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dextractor:1.0p2--h7a6849f_5
+$ shpc install quay.io/biocontainers/dextractor:1.0p2--he47dfe4_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dextractor/1.0p2--h7a6849f_5
-$ module help quay.io/biocontainers/dextractor/1.0p2--h7a6849f_5
+$ module load quay.io/biocontainers/dextractor/1.0p2--he47dfe4_7
+$ module help quay.io/biocontainers/dextractor/1.0p2--he47dfe4_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

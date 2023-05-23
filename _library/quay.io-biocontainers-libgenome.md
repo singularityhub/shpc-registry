@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgenome/container.yaml"
-updated_at: "2023-05-22 03:14:27.957312"
-latest: "1.3.1--h9f5acd7_5"
+updated_at: "2023-05-23 02:50:37.654467"
+latest: "1.3.1--h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/libgenome"
 
 versions:
  - "1.3.1--h9f5acd7_5"
+ - "1.3.1--h4ac6f70_7"
 description: "shpc-registry automated BioContainers addition for libgenome"
-config: {"url": "https://biocontainers.pro/tools/libgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgenome", "latest": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a"}, "docker": "quay.io/biocontainers/libgenome"}
+config: {"url": "https://biocontainers.pro/tools/libgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgenome", "latest": {"1.3.1--h4ac6f70_7": "sha256:6550787b273bebe18f74aa10f7bc34e5b0133e6e6b2a11c63fc13d7618451979"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a", "1.3.1--h4ac6f70_7": "sha256:6550787b273bebe18f74aa10f7bc34e5b0133e6e6b2a11c63fc13d7618451979"}, "docker": "quay.io/biocontainers/libgenome"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libgenome.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libgenome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libgenome:1.3.1--h9f5acd7_5
+$ shpc install quay.io/biocontainers/libgenome:1.3.1--h4ac6f70_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libgenome/1.3.1--h9f5acd7_5
-$ module help quay.io/biocontainers/libgenome/1.3.1--h9f5acd7_5
+$ module load quay.io/biocontainers/libgenome/1.3.1--h4ac6f70_7
+$ module help quay.io/biocontainers/libgenome/1.3.1--h4ac6f70_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

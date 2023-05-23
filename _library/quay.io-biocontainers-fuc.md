@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fuc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fuc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fuc/container.yaml"
-updated_at: "2023-05-22 03:31:44.552855"
+updated_at: "2023-05-23 03:07:59.166778"
 latest: "0.36.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/fuc"
 aliases:

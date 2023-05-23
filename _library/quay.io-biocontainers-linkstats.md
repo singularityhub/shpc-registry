@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/linkstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linkstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linkstats/container.yaml"
-updated_at: "2023-05-22 03:12:53.191815"
-latest: "0.1.3--py310h3545f30_5"
+updated_at: "2023-05-23 02:48:59.462291"
+latest: "0.1.3--py39h978ffc7_6"
 container_url: "https://biocontainers.pro/tools/linkstats"
 aliases:
  - "LinkStats"
@@ -35,8 +35,9 @@ aliases:
 versions:
  - "0.1.3--py38ha7cf762_4"
  - "0.1.3--py310h3545f30_5"
+ - "0.1.3--py39h978ffc7_6"
 description: "singularity registry hpc automated addition for linkstats"
-config: {"url": "https://biocontainers.pro/tools/linkstats", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for linkstats", "latest": {"0.1.3--py310h3545f30_5": "sha256:2c3798472da09988ed439c9c591070cc7e4ad28f2fe1ab380e1c25011ea8781d"}, "tags": {"0.1.3--py38ha7cf762_4": "sha256:59a418205aa92b1347dc61295def8b05f71caa0b78c752d3724d3f943b8860c7", "0.1.3--py310h3545f30_5": "sha256:2c3798472da09988ed439c9c591070cc7e4ad28f2fe1ab380e1c25011ea8781d"}, "docker": "quay.io/biocontainers/linkstats", "aliases": {"LinkStats": "/usr/local/bin/LinkStats", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.8": "/usr/local/bin/f2py3.8", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/linkstats", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for linkstats", "latest": {"0.1.3--py39h978ffc7_6": "sha256:b86769f524fc916887de4f5fbceace1c5746e4f7f1f5ff4d8a24c3b8dc068f70"}, "tags": {"0.1.3--py38ha7cf762_4": "sha256:59a418205aa92b1347dc61295def8b05f71caa0b78c752d3724d3f943b8860c7", "0.1.3--py310h3545f30_5": "sha256:2c3798472da09988ed439c9c591070cc7e4ad28f2fe1ab380e1c25011ea8781d", "0.1.3--py39h978ffc7_6": "sha256:b86769f524fc916887de4f5fbceace1c5746e4f7f1f5ff4d8a24c3b8dc068f70"}, "docker": "quay.io/biocontainers/linkstats", "aliases": {"LinkStats": "/usr/local/bin/LinkStats", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.8": "/usr/local/bin/f2py3.8", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/linkstats.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/linkstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/linkstats:0.1.3--py310h3545f30_5
+$ shpc install quay.io/biocontainers/linkstats:0.1.3--py39h978ffc7_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/linkstats/0.1.3--py310h3545f30_5
-$ module help quay.io/biocontainers/linkstats/0.1.3--py310h3545f30_5
+$ module load quay.io/biocontainers/linkstats/0.1.3--py39h978ffc7_6
+$ module help quay.io/biocontainers/linkstats/0.1.3--py39h978ffc7_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

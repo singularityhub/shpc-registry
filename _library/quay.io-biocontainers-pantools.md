@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pantools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pantools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pantools/container.yaml"
-updated_at: "2023-05-22 03:41:51.036848"
-latest: "4.1.1--hdfd78af_0"
+updated_at: "2023-05-23 03:18:04.549194"
+latest: "4.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pantools"
 aliases:
  - "pantools"
@@ -25,8 +25,9 @@ versions:
  - "4.1.0--hdfd78af_0"
  - "4.0.0--ha11b4f6_1"
  - "4.1.1--hdfd78af_0"
+ - "4.2.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pantools"
-config: {"url": "https://biocontainers.pro/tools/pantools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pantools", "latest": {"4.1.1--hdfd78af_0": "sha256:b3bd31de490ba8694def1eafb0e3b0756e2b6e307e958bc4ccdcad240b267799"}, "tags": {"3.3.3--hdfd78af_0": "sha256:0818dc6a8f863fe62feb9e1e3558be44c2cf3175ff1412a5b6ed4bf775f57559", "3.4.0--hdfd78af_0": "sha256:1cc614cf02205cd8ccddf1215af915dde1e8db3cee6dc4a1d3df6b516d4fe85d", "4.1.0--hdfd78af_0": "sha256:6945cab3e9726e6fae54c53bca3f431a97da7f2246982b562e5f65a74b812be6", "4.0.0--ha11b4f6_1": "sha256:3900d137519b36d5b21296b7a41111f17a0c13e8ef1febe42ecc94ba41f1667d", "4.1.1--hdfd78af_0": "sha256:b3bd31de490ba8694def1eafb0e3b0756e2b6e307e958bc4ccdcad240b267799"}, "docker": "quay.io/biocontainers/pantools", "aliases": {"pantools": "/usr/local/bin/pantools", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline"}}
+config: {"url": "https://biocontainers.pro/tools/pantools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pantools", "latest": {"4.2.0--hdfd78af_0": "sha256:9b9775656a164f75d34f9faf738f89dd8ba276a274b00c2581de8830e1190e3e"}, "tags": {"3.3.3--hdfd78af_0": "sha256:0818dc6a8f863fe62feb9e1e3558be44c2cf3175ff1412a5b6ed4bf775f57559", "3.4.0--hdfd78af_0": "sha256:1cc614cf02205cd8ccddf1215af915dde1e8db3cee6dc4a1d3df6b516d4fe85d", "4.1.0--hdfd78af_0": "sha256:6945cab3e9726e6fae54c53bca3f431a97da7f2246982b562e5f65a74b812be6", "4.0.0--ha11b4f6_1": "sha256:3900d137519b36d5b21296b7a41111f17a0c13e8ef1febe42ecc94ba41f1667d", "4.1.1--hdfd78af_0": "sha256:b3bd31de490ba8694def1eafb0e3b0756e2b6e307e958bc4ccdcad240b267799", "4.2.0--hdfd78af_0": "sha256:9b9775656a164f75d34f9faf738f89dd8ba276a274b00c2581de8830e1190e3e"}, "docker": "quay.io/biocontainers/pantools", "aliases": {"pantools": "/usr/local/bin/pantools", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pantools.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/pantools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pantools:4.1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/pantools:4.2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pantools/4.1.1--hdfd78af_0
-$ module help quay.io/biocontainers/pantools/4.1.1--hdfd78af_0
+$ module load quay.io/biocontainers/pantools/4.2.0--hdfd78af_0
+$ module help quay.io/biocontainers/pantools/4.2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

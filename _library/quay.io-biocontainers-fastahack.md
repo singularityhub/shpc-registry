@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastahack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastahack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastahack/container.yaml"
-updated_at: "2023-05-22 03:05:22.473835"
-latest: "2016.07.2--h9f5acd7_4"
+updated_at: "2023-05-23 02:41:13.714672"
+latest: "2016.07.2--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/fastahack"
 aliases:
  - "fastahack"
 versions:
  - "2016.07.2--h9f5acd7_4"
+ - "2016.07.2--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for fastahack"
-config: {"url": "https://biocontainers.pro/tools/fastahack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastahack", "latest": {"2016.07.2--h9f5acd7_4": "sha256:5fad12f37ddef35fe586482c52c534ae4f15c56a5f930e360303c49cb6d15794"}, "tags": {"2016.07.2--h9f5acd7_4": "sha256:5fad12f37ddef35fe586482c52c534ae4f15c56a5f930e360303c49cb6d15794"}, "docker": "quay.io/biocontainers/fastahack", "aliases": {"fastahack": "/usr/local/bin/fastahack"}}
+config: {"url": "https://biocontainers.pro/tools/fastahack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastahack", "latest": {"2016.07.2--h4ac6f70_6": "sha256:825da41b36f482334955341165fc79b513cffc47c9e07b5f5cccc981f2766dc3"}, "tags": {"2016.07.2--h9f5acd7_4": "sha256:5fad12f37ddef35fe586482c52c534ae4f15c56a5f930e360303c49cb6d15794", "2016.07.2--h4ac6f70_6": "sha256:825da41b36f482334955341165fc79b513cffc47c9e07b5f5cccc981f2766dc3"}, "docker": "quay.io/biocontainers/fastahack", "aliases": {"fastahack": "/usr/local/bin/fastahack"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastahack.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fastahack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastahack:2016.07.2--h9f5acd7_4
+$ shpc install quay.io/biocontainers/fastahack:2016.07.2--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastahack/2016.07.2--h9f5acd7_4
-$ module help quay.io/biocontainers/fastahack/2016.07.2--h9f5acd7_4
+$ module load quay.io/biocontainers/fastahack/2016.07.2--h4ac6f70_6
+$ module help quay.io/biocontainers/fastahack/2016.07.2--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/migraine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/migraine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/migraine/container.yaml"
-updated_at: "2023-05-22 03:16:05.265642"
-latest: "0.6.0--h9f5acd7_1"
+updated_at: "2023-05-23 02:52:17.564080"
+latest: "0.6.0--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/migraine"
 aliases:
  - "migraine"
 versions:
  - "0.6.0--h9f5acd7_1"
+ - "0.6.0--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for migraine"
-config: {"url": "https://biocontainers.pro/tools/migraine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migraine", "latest": {"0.6.0--h9f5acd7_1": "sha256:706ef4cb96d7a213c0f33a00cd6b9de71008f8f950a7444a42395eb367452bf4"}, "tags": {"0.6.0--h9f5acd7_1": "sha256:706ef4cb96d7a213c0f33a00cd6b9de71008f8f950a7444a42395eb367452bf4"}, "docker": "quay.io/biocontainers/migraine", "aliases": {"migraine": "/usr/local/bin/migraine"}}
+config: {"url": "https://biocontainers.pro/tools/migraine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migraine", "latest": {"0.6.0--h4ac6f70_3": "sha256:c8e699b0fd9b6659c8bcbed7b7c687291151a2926d8828d8c5ff24ab39504c5d"}, "tags": {"0.6.0--h9f5acd7_1": "sha256:706ef4cb96d7a213c0f33a00cd6b9de71008f8f950a7444a42395eb367452bf4", "0.6.0--h4ac6f70_3": "sha256:c8e699b0fd9b6659c8bcbed7b7c687291151a2926d8828d8c5ff24ab39504c5d"}, "docker": "quay.io/biocontainers/migraine", "aliases": {"migraine": "/usr/local/bin/migraine"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/migraine.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/migraine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/migraine:0.6.0--h9f5acd7_1
+$ shpc install quay.io/biocontainers/migraine:0.6.0--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/migraine/0.6.0--h9f5acd7_1
-$ module help quay.io/biocontainers/migraine/0.6.0--h9f5acd7_1
+$ module load quay.io/biocontainers/migraine/0.6.0--h4ac6f70_3
+$ module help quay.io/biocontainers/migraine/0.6.0--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

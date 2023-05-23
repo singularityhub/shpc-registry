@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hs-blastn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hs-blastn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hs-blastn/container.yaml"
-updated_at: "2023-05-22 03:27:36.102192"
-latest: "0.0.5--h9f5acd7_4"
+updated_at: "2023-05-23 03:03:48.994763"
+latest: "0.0.5--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/hs-blastn"
 aliases:
  - "hs-blastn"
@@ -21,8 +21,9 @@ aliases:
  - "disambiguate-nucleotides"
 versions:
  - "0.0.5--h9f5acd7_4"
+ - "0.0.5--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for hs-blastn"
-config: {"url": "https://biocontainers.pro/tools/hs-blastn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hs-blastn", "latest": {"0.0.5--h9f5acd7_4": "sha256:86d0eb8c71eb209d57b38cc24312448321830088227a89f0b5a943b4823cbba7"}, "tags": {"0.0.5--h9f5acd7_4": "sha256:86d0eb8c71eb209d57b38cc24312448321830088227a89f0b5a943b4823cbba7"}, "docker": "quay.io/biocontainers/hs-blastn", "aliases": {"hs-blastn": "/usr/local/bin/hs-blastn", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/hs-blastn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hs-blastn", "latest": {"0.0.5--h4ac6f70_5": "sha256:4db1ecd1268a7e98d06e125fdb7bae45dcc91c0551d8082dd96cd23ba5ce0ad8"}, "tags": {"0.0.5--h9f5acd7_4": "sha256:86d0eb8c71eb209d57b38cc24312448321830088227a89f0b5a943b4823cbba7", "0.0.5--h4ac6f70_5": "sha256:4db1ecd1268a7e98d06e125fdb7bae45dcc91c0551d8082dd96cd23ba5ce0ad8"}, "docker": "quay.io/biocontainers/hs-blastn", "aliases": {"hs-blastn": "/usr/local/bin/hs-blastn", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hs-blastn.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/hs-blastn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hs-blastn:0.0.5--h9f5acd7_4
+$ shpc install quay.io/biocontainers/hs-blastn:0.0.5--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hs-blastn/0.0.5--h9f5acd7_4
-$ module help quay.io/biocontainers/hs-blastn/0.0.5--h9f5acd7_4
+$ module load quay.io/biocontainers/hs-blastn/0.0.5--h4ac6f70_5
+$ module help quay.io/biocontainers/hs-blastn/0.0.5--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

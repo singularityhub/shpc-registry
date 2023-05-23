@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/appspam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/appspam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/appspam/container.yaml"
-updated_at: "2023-05-22 03:00:41.106791"
-latest: "1.03--h9f5acd7_2"
+updated_at: "2023-05-23 02:36:16.348846"
+latest: "1.03--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/appspam"
 aliases:
  - "appspam"
 versions:
  - "1.03--h9f5acd7_2"
+ - "1.03--h9f5acd7_3"
 description: "shpc-registry automated BioContainers addition for appspam"
-config: {"url": "https://biocontainers.pro/tools/appspam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for appspam", "latest": {"1.03--h9f5acd7_2": "sha256:73dafecacd7cc3b654f3cdfb5e0b70f9f4150f17f15e343e0584559b63b7db88"}, "tags": {"1.03--h9f5acd7_2": "sha256:73dafecacd7cc3b654f3cdfb5e0b70f9f4150f17f15e343e0584559b63b7db88"}, "docker": "quay.io/biocontainers/appspam", "aliases": {"appspam": "/usr/local/bin/appspam"}}
+config: {"url": "https://biocontainers.pro/tools/appspam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for appspam", "latest": {"1.03--h9f5acd7_3": "sha256:13df04dd778259d4096e73443e97bcb7995aa6b50e0e67a5151fa42c9c616d69"}, "tags": {"1.03--h9f5acd7_2": "sha256:73dafecacd7cc3b654f3cdfb5e0b70f9f4150f17f15e343e0584559b63b7db88", "1.03--h9f5acd7_3": "sha256:13df04dd778259d4096e73443e97bcb7995aa6b50e0e67a5151fa42c9c616d69"}, "docker": "quay.io/biocontainers/appspam", "aliases": {"appspam": "/usr/local/bin/appspam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/appspam.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/appspam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/appspam:1.03--h9f5acd7_2
+$ shpc install quay.io/biocontainers/appspam:1.03--h9f5acd7_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/appspam/1.03--h9f5acd7_2
-$ module help quay.io/biocontainers/appspam/1.03--h9f5acd7_2
+$ module load quay.io/biocontainers/appspam/1.03--h9f5acd7_3
+$ module help quay.io/biocontainers/appspam/1.03--h9f5acd7_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

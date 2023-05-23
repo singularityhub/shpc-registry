@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fsm-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fsm-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fsm-lite/container.yaml"
-updated_at: "2023-05-22 03:24:26.911614"
-latest: "1.0--h9f5acd7_3"
+updated_at: "2023-05-23 03:00:42.708072"
+latest: "1.0--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/fsm-lite"
 aliases:
  - "fsm-lite"
 versions:
  - "1.0--h9f5acd7_3"
+ - "1.0--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for fsm-lite"
-config: {"url": "https://biocontainers.pro/tools/fsm-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsm-lite", "latest": {"1.0--h9f5acd7_3": "sha256:8ed52c99ac8db024429e3ba47761f42f6df752713efc22a1eb45c609b04be72c"}, "tags": {"1.0--h9f5acd7_3": "sha256:8ed52c99ac8db024429e3ba47761f42f6df752713efc22a1eb45c609b04be72c"}, "docker": "quay.io/biocontainers/fsm-lite", "aliases": {"fsm-lite": "/usr/local/bin/fsm-lite"}}
+config: {"url": "https://biocontainers.pro/tools/fsm-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsm-lite", "latest": {"1.0--h4ac6f70_5": "sha256:484e7826547b60115d8512874d487f184be9a777cacc0df06ac596e115b88734"}, "tags": {"1.0--h9f5acd7_3": "sha256:8ed52c99ac8db024429e3ba47761f42f6df752713efc22a1eb45c609b04be72c", "1.0--h4ac6f70_5": "sha256:484e7826547b60115d8512874d487f184be9a777cacc0df06ac596e115b88734"}, "docker": "quay.io/biocontainers/fsm-lite", "aliases": {"fsm-lite": "/usr/local/bin/fsm-lite"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fsm-lite.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fsm-lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fsm-lite:1.0--h9f5acd7_3
+$ shpc install quay.io/biocontainers/fsm-lite:1.0--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fsm-lite/1.0--h9f5acd7_3
-$ module help quay.io/biocontainers/fsm-lite/1.0--h9f5acd7_3
+$ module load quay.io/biocontainers/fsm-lite/1.0--h4ac6f70_5
+$ module help quay.io/biocontainers/fsm-lite/1.0--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

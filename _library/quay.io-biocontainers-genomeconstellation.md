@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/genomeconstellation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomeconstellation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomeconstellation/container.yaml"
-updated_at: "2023-05-22 03:43:01.145717"
-latest: "0.21.1--h7ff8a90_2"
+updated_at: "2023-05-23 03:19:13.953724"
+latest: "0.21.1--h21ec9f0_4"
 container_url: "https://biocontainers.pro/tools/genomeconstellation"
 aliases:
  - "jgi_gc"
 versions:
  - "0.21.1--h7ff8a90_2"
+ - "0.21.1--h21ec9f0_4"
 description: "shpc-registry automated BioContainers addition for genomeconstellation"
-config: {"url": "https://biocontainers.pro/tools/genomeconstellation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomeconstellation", "latest": {"0.21.1--h7ff8a90_2": "sha256:9f3d37984a6cce543b5096bb9240e67ed68c467d0d3f5ae3a3377d4728c99578"}, "tags": {"0.21.1--h7ff8a90_2": "sha256:9f3d37984a6cce543b5096bb9240e67ed68c467d0d3f5ae3a3377d4728c99578"}, "docker": "quay.io/biocontainers/genomeconstellation", "aliases": {"jgi_gc": "/usr/local/bin/jgi_gc"}}
+config: {"url": "https://biocontainers.pro/tools/genomeconstellation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomeconstellation", "latest": {"0.21.1--h21ec9f0_4": "sha256:55d1b3de31cf4fd683942e57fd2f5aa94656e7db81ea9dbd66318fda67612a0d"}, "tags": {"0.21.1--h7ff8a90_2": "sha256:9f3d37984a6cce543b5096bb9240e67ed68c467d0d3f5ae3a3377d4728c99578", "0.21.1--h21ec9f0_4": "sha256:55d1b3de31cf4fd683942e57fd2f5aa94656e7db81ea9dbd66318fda67612a0d"}, "docker": "quay.io/biocontainers/genomeconstellation", "aliases": {"jgi_gc": "/usr/local/bin/jgi_gc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomeconstellation.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/genomeconstellation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomeconstellation:0.21.1--h7ff8a90_2
+$ shpc install quay.io/biocontainers/genomeconstellation:0.21.1--h21ec9f0_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomeconstellation/0.21.1--h7ff8a90_2
-$ module help quay.io/biocontainers/genomeconstellation/0.21.1--h7ff8a90_2
+$ module load quay.io/biocontainers/genomeconstellation/0.21.1--h21ec9f0_4
+$ module help quay.io/biocontainers/genomeconstellation/0.21.1--h21ec9f0_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

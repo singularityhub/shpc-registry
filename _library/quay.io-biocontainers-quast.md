@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quast/container.yaml"
-updated_at: "2023-05-22 03:11:42.508088"
-latest: "5.2.0--py39pl5321h2add14b_2"
+updated_at: "2023-05-23 02:47:45.906884"
+latest: "5.2.0--py38pl5321h5cf8b27_3"
 container_url: "https://biocontainers.pro/tools/quast"
 aliases:
  - "icarus.py"
@@ -29,8 +29,9 @@ aliases:
  - "trainGlimmerHMM"
 versions:
  - "5.2.0--py39pl5321h2add14b_2"
+ - "5.2.0--py38pl5321h5cf8b27_3"
 description: "shpc-registry automated BioContainers addition for quast"
-config: {"url": "https://biocontainers.pro/tools/quast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quast", "latest": {"5.2.0--py39pl5321h2add14b_2": "sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6"}, "tags": {"5.2.0--py39pl5321h2add14b_2": "sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6"}, "docker": "quay.io/biocontainers/quast", "aliases": {"icarus.py": "/usr/local/bin/icarus.py", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM"}}
+config: {"url": "https://biocontainers.pro/tools/quast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quast", "latest": {"5.2.0--py38pl5321h5cf8b27_3": "sha256:6cdddca8c71c30bf24a07037eabbe725978f31ec968b4a3c58ef425b9c531ebd"}, "tags": {"5.2.0--py39pl5321h2add14b_2": "sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6", "5.2.0--py38pl5321h5cf8b27_3": "sha256:6cdddca8c71c30bf24a07037eabbe725978f31ec968b4a3c58ef425b9c531ebd"}, "docker": "quay.io/biocontainers/quast", "aliases": {"icarus.py": "/usr/local/bin/icarus.py", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quast.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/quast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quast:5.2.0--py39pl5321h2add14b_2
+$ shpc install quay.io/biocontainers/quast:5.2.0--py38pl5321h5cf8b27_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quast/5.2.0--py39pl5321h2add14b_2
-$ module help quay.io/biocontainers/quast/5.2.0--py39pl5321h2add14b_2
+$ module load quay.io/biocontainers/quast/5.2.0--py38pl5321h5cf8b27_3
+$ module help quay.io/biocontainers/quast/5.2.0--py38pl5321h5cf8b27_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

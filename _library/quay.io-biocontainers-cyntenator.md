@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/cyntenator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyntenator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyntenator/container.yaml"
-updated_at: "2023-05-22 03:14:23.220939"
-latest: "0.0.r2326--h9f5acd7_1"
+updated_at: "2023-05-23 02:50:32.665530"
+latest: "0.0.r2326--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/cyntenator"
 aliases:
  - "cyntenator"
 versions:
  - "0.0.r2326--h9f5acd7_1"
+ - "0.0.r2326--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for cyntenator"
-config: {"url": "https://biocontainers.pro/tools/cyntenator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyntenator", "latest": {"0.0.r2326--h9f5acd7_1": "sha256:ae28c25e18ba5128d5b1aad96173b186643e81d43fef755f1513f548b7aa5c4c"}, "tags": {"0.0.r2326--h9f5acd7_1": "sha256:ae28c25e18ba5128d5b1aad96173b186643e81d43fef755f1513f548b7aa5c4c"}, "docker": "quay.io/biocontainers/cyntenator", "aliases": {"cyntenator": "/usr/local/bin/cyntenator"}}
+config: {"url": "https://biocontainers.pro/tools/cyntenator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyntenator", "latest": {"0.0.r2326--h4ac6f70_3": "sha256:687b7cc1d74d06a7d058dfc02e5c81d39e375e2e0f8bcd0479ab093e69ca2862"}, "tags": {"0.0.r2326--h9f5acd7_1": "sha256:ae28c25e18ba5128d5b1aad96173b186643e81d43fef755f1513f548b7aa5c4c", "0.0.r2326--h4ac6f70_3": "sha256:687b7cc1d74d06a7d058dfc02e5c81d39e375e2e0f8bcd0479ab093e69ca2862"}, "docker": "quay.io/biocontainers/cyntenator", "aliases": {"cyntenator": "/usr/local/bin/cyntenator"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cyntenator.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/cyntenator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cyntenator:0.0.r2326--h9f5acd7_1
+$ shpc install quay.io/biocontainers/cyntenator:0.0.r2326--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cyntenator/0.0.r2326--h9f5acd7_1
-$ module help quay.io/biocontainers/cyntenator/0.0.r2326--h9f5acd7_1
+$ module load quay.io/biocontainers/cyntenator/0.0.r2326--h4ac6f70_3
+$ module help quay.io/biocontainers/cyntenator/0.0.r2326--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

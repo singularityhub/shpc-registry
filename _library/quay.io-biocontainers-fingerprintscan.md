@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fingerprintscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fingerprintscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fingerprintscan/container.yaml"
-updated_at: "2023-05-22 03:21:58.864611"
-latest: "3_597--h9f5acd7_2"
+updated_at: "2023-05-23 02:58:13.477991"
+latest: "3_597--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/fingerprintscan"
 aliases:
  - "fingerPRINTScan"
 versions:
  - "3_597--h9f5acd7_2"
+ - "3_597--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for fingerprintscan"
-config: {"url": "https://biocontainers.pro/tools/fingerprintscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fingerprintscan", "latest": {"3_597--h9f5acd7_2": "sha256:556c6fbb16e97eaf3bf157c69b599feb7489d52e21e80d17187bc4e413a2e604"}, "tags": {"3_597--h9f5acd7_2": "sha256:556c6fbb16e97eaf3bf157c69b599feb7489d52e21e80d17187bc4e413a2e604"}, "docker": "quay.io/biocontainers/fingerprintscan", "aliases": {"fingerPRINTScan": "/usr/local/bin/fingerPRINTScan"}}
+config: {"url": "https://biocontainers.pro/tools/fingerprintscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fingerprintscan", "latest": {"3_597--h4ac6f70_4": "sha256:08ff97edd50f6999dfee28104efa39ea9c443c2c3175eb9fdf1dedfa6d2f1d40"}, "tags": {"3_597--h9f5acd7_2": "sha256:556c6fbb16e97eaf3bf157c69b599feb7489d52e21e80d17187bc4e413a2e604", "3_597--h4ac6f70_4": "sha256:08ff97edd50f6999dfee28104efa39ea9c443c2c3175eb9fdf1dedfa6d2f1d40"}, "docker": "quay.io/biocontainers/fingerprintscan", "aliases": {"fingerPRINTScan": "/usr/local/bin/fingerPRINTScan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fingerprintscan.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fingerprintscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fingerprintscan:3_597--h9f5acd7_2
+$ shpc install quay.io/biocontainers/fingerprintscan:3_597--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fingerprintscan/3_597--h9f5acd7_2
-$ module help quay.io/biocontainers/fingerprintscan/3_597--h9f5acd7_2
+$ module load quay.io/biocontainers/fingerprintscan/3_597--h4ac6f70_4
+$ module help quay.io/biocontainers/fingerprintscan/3_597--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

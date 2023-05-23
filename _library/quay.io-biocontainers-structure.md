@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/structure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/structure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/structure/container.yaml"
-updated_at: "2023-05-22 03:14:30.946564"
-latest: "2.3.4--hec16e2b_4"
+updated_at: "2023-05-23 02:50:40.844824"
+latest: "2.3.4--h031d066_6"
 container_url: "https://biocontainers.pro/tools/structure"
 aliases:
  - "structure"
 versions:
  - "2.3.4--hec16e2b_4"
+ - "2.3.4--h031d066_6"
 description: "shpc-registry automated BioContainers addition for structure"
-config: {"url": "https://biocontainers.pro/tools/structure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for structure", "latest": {"2.3.4--hec16e2b_4": "sha256:1262296ea0fd9387033f22766b4ada46d8fb1ed475959bc57defe913293eceea"}, "tags": {"2.3.4--hec16e2b_4": "sha256:1262296ea0fd9387033f22766b4ada46d8fb1ed475959bc57defe913293eceea"}, "docker": "quay.io/biocontainers/structure", "aliases": {"structure": "/usr/local/bin/structure"}}
+config: {"url": "https://biocontainers.pro/tools/structure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for structure", "latest": {"2.3.4--h031d066_6": "sha256:f5dead4da22d9f2f1aac5e9b1b60f742d49202a2e7baf97c587e15bf6996cbba"}, "tags": {"2.3.4--hec16e2b_4": "sha256:1262296ea0fd9387033f22766b4ada46d8fb1ed475959bc57defe913293eceea", "2.3.4--h031d066_6": "sha256:f5dead4da22d9f2f1aac5e9b1b60f742d49202a2e7baf97c587e15bf6996cbba"}, "docker": "quay.io/biocontainers/structure", "aliases": {"structure": "/usr/local/bin/structure"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/structure.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/structure
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/structure:2.3.4--hec16e2b_4
+$ shpc install quay.io/biocontainers/structure:2.3.4--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/structure/2.3.4--hec16e2b_4
-$ module help quay.io/biocontainers/structure/2.3.4--hec16e2b_4
+$ module load quay.io/biocontainers/structure/2.3.4--h031d066_6
+$ module help quay.io/biocontainers/structure/2.3.4--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

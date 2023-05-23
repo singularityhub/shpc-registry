@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cghseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cghseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cghseg/container.yaml"
-updated_at: "2023-05-22 03:05:10.212801"
+updated_at: "2023-05-23 02:41:00.692836"
 latest: "1.0.5--r40h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-cghseg"
 

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libmems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libmems/container.yaml"
-updated_at: "2023-05-22 03:16:11.162814"
-latest: "1.6.0--h2df963e_5"
+updated_at: "2023-05-23 02:52:23.594455"
+latest: "1.6.0--h376f1d3_6"
 container_url: "https://biocontainers.pro/tools/libmems"
 
 versions:
  - "1.6.0--h2df963e_5"
+ - "1.6.0--h376f1d3_6"
 description: "shpc-registry automated BioContainers addition for libmems"
-config: {"url": "https://biocontainers.pro/tools/libmems", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmems", "latest": {"1.6.0--h2df963e_5": "sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0"}, "tags": {"1.6.0--h2df963e_5": "sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0"}, "docker": "quay.io/biocontainers/libmems"}
+config: {"url": "https://biocontainers.pro/tools/libmems", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmems", "latest": {"1.6.0--h376f1d3_6": "sha256:98e3fdf02207775549ef6188e5a48e06482fcde2f56077787b539609bb18d15f"}, "tags": {"1.6.0--h2df963e_5": "sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0", "1.6.0--h376f1d3_6": "sha256:98e3fdf02207775549ef6188e5a48e06482fcde2f56077787b539609bb18d15f"}, "docker": "quay.io/biocontainers/libmems"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libmems.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libmems
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libmems:1.6.0--h2df963e_5
+$ shpc install quay.io/biocontainers/libmems:1.6.0--h376f1d3_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libmems/1.6.0--h2df963e_5
-$ module help quay.io/biocontainers/libmems/1.6.0--h2df963e_5
+$ module load quay.io/biocontainers/libmems/1.6.0--h376f1d3_6
+$ module help quay.io/biocontainers/libmems/1.6.0--h376f1d3_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

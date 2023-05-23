@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/mehari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mehari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mehari/container.yaml"
-updated_at: "2023-05-22 03:39:52.880281"
-latest: "0.2.0--he55741f_0"
+updated_at: "2023-05-23 03:16:05.495350"
+latest: "0.3.1--h7e29777_2"
 container_url: "https://biocontainers.pro/tools/mehari"
 aliases:
  - "mehari"
 versions:
  - "0.2.0--he55741f_0"
+ - "0.3.1--h7e29777_2"
+ - "0.2.1--he55741f_0"
 description: "singularity registry hpc automated addition for mehari"
-config: {"url": "https://biocontainers.pro/tools/mehari", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mehari", "latest": {"0.2.0--he55741f_0": "sha256:3cc52cbadfa7f224506f03af8f2138629b65371f436c95a832445c0ce827d121"}, "tags": {"0.2.0--he55741f_0": "sha256:3cc52cbadfa7f224506f03af8f2138629b65371f436c95a832445c0ce827d121"}, "docker": "quay.io/biocontainers/mehari", "aliases": {"mehari": "/usr/local/bin/mehari"}}
+config: {"url": "https://biocontainers.pro/tools/mehari", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mehari", "latest": {"0.3.1--h7e29777_2": "sha256:5715d9dbb6b3ed8a7bf15092d79b01b7bd277e6ca7b0a835a39d80268135af52"}, "tags": {"0.2.0--he55741f_0": "sha256:3cc52cbadfa7f224506f03af8f2138629b65371f436c95a832445c0ce827d121", "0.3.1--h7e29777_2": "sha256:5715d9dbb6b3ed8a7bf15092d79b01b7bd277e6ca7b0a835a39d80268135af52", "0.2.1--he55741f_0": "sha256:6bc5bd19b9263d093ece69b3789c95ab44c6a4b6d7b7a180794e15f640a15719"}, "docker": "quay.io/biocontainers/mehari", "aliases": {"mehari": "/usr/local/bin/mehari"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mehari.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/mehari
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mehari:0.2.0--he55741f_0
+$ shpc install quay.io/biocontainers/mehari:0.3.1--h7e29777_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mehari/0.2.0--he55741f_0
-$ module help quay.io/biocontainers/mehari/0.2.0--he55741f_0
+$ module load quay.io/biocontainers/mehari/0.3.1--h7e29777_2
+$ module help quay.io/biocontainers/mehari/0.3.1--h7e29777_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

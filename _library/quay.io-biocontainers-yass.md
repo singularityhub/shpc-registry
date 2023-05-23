@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/yass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yass/container.yaml"
-updated_at: "2023-05-22 03:24:41.962051"
-latest: "1.14--hec16e2b_4"
+updated_at: "2023-05-23 03:00:57.655062"
+latest: "1.14--h031d066_6"
 container_url: "https://biocontainers.pro/tools/yass"
 aliases:
  - "yass"
 versions:
  - "1.14--hec16e2b_4"
+ - "1.14--h031d066_6"
 description: "shpc-registry automated BioContainers addition for yass"
-config: {"url": "https://biocontainers.pro/tools/yass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yass", "latest": {"1.14--hec16e2b_4": "sha256:113978fad44a05bd09585d62a1fc6df4e33b7c5f3bd01c305039d8641abe1fd4"}, "tags": {"1.14--hec16e2b_4": "sha256:113978fad44a05bd09585d62a1fc6df4e33b7c5f3bd01c305039d8641abe1fd4"}, "docker": "quay.io/biocontainers/yass", "aliases": {"yass": "/usr/local/bin/yass"}}
+config: {"url": "https://biocontainers.pro/tools/yass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yass", "latest": {"1.14--h031d066_6": "sha256:55b40ddb3167479c03f00a75c03142a6ec294bcfe4113374bf54b568a0c93942"}, "tags": {"1.14--hec16e2b_4": "sha256:113978fad44a05bd09585d62a1fc6df4e33b7c5f3bd01c305039d8641abe1fd4", "1.14--h031d066_6": "sha256:55b40ddb3167479c03f00a75c03142a6ec294bcfe4113374bf54b568a0c93942"}, "docker": "quay.io/biocontainers/yass", "aliases": {"yass": "/usr/local/bin/yass"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yass.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/yass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yass:1.14--hec16e2b_4
+$ shpc install quay.io/biocontainers/yass:1.14--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yass/1.14--hec16e2b_4
-$ module help quay.io/biocontainers/yass/1.14--hec16e2b_4
+$ module load quay.io/biocontainers/yass/1.14--h031d066_6
+$ module help quay.io/biocontainers/yass/1.14--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

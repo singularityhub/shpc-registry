@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pindel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pindel/container.yaml"
-updated_at: "2023-05-22 03:39:36.539501"
-latest: "0.2.5b9--hf77a93e_9"
+updated_at: "2023-05-23 03:15:49.164889"
+latest: "0.2.5b9--h84372a0_10"
 container_url: "https://biocontainers.pro/tools/pindel"
 aliases:
  - "pindel"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.2.5b9--h28e74a2_8"
  - "0.2.5b9--hf77a93e_9"
+ - "0.2.5b9--h84372a0_10"
 description: "shpc-registry automated BioContainers addition for pindel"
-config: {"url": "https://biocontainers.pro/tools/pindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pindel", "latest": {"0.2.5b9--hf77a93e_9": "sha256:9ec98f91c9790e73f956ea160cc93c19872207e4328181dffefb66c4451a4219"}, "tags": {"0.2.5b9--h28e74a2_8": "sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef", "0.2.5b9--hf77a93e_9": "sha256:9ec98f91c9790e73f956ea160cc93c19872207e4328181dffefb66c4451a4219"}, "docker": "quay.io/biocontainers/pindel", "aliases": {"pindel": "/usr/local/bin/pindel", "pindel2vcf": "/usr/local/bin/pindel2vcf", "pindel2vcf4tcga": "/usr/local/bin/pindel2vcf4tcga", "sam2pindel": "/usr/local/bin/sam2pindel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/pindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pindel", "latest": {"0.2.5b9--h84372a0_10": "sha256:66edbb07cd6808362a01171dc3c41860a68af6db97ea7434abebeb5dacf2a5b8"}, "tags": {"0.2.5b9--h28e74a2_8": "sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef", "0.2.5b9--hf77a93e_9": "sha256:9ec98f91c9790e73f956ea160cc93c19872207e4328181dffefb66c4451a4219", "0.2.5b9--h84372a0_10": "sha256:66edbb07cd6808362a01171dc3c41860a68af6db97ea7434abebeb5dacf2a5b8"}, "docker": "quay.io/biocontainers/pindel", "aliases": {"pindel": "/usr/local/bin/pindel", "pindel2vcf": "/usr/local/bin/pindel2vcf", "pindel2vcf4tcga": "/usr/local/bin/pindel2vcf4tcga", "sam2pindel": "/usr/local/bin/sam2pindel", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pindel.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/pindel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pindel:0.2.5b9--hf77a93e_9
+$ shpc install quay.io/biocontainers/pindel:0.2.5b9--h84372a0_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pindel/0.2.5b9--hf77a93e_9
-$ module help quay.io/biocontainers/pindel/0.2.5b9--hf77a93e_9
+$ module load quay.io/biocontainers/pindel/0.2.5b9--h84372a0_10
+$ module help quay.io/biocontainers/pindel/0.2.5b9--h84372a0_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libbambamc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libbambamc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libbambamc/container.yaml"
-updated_at: "2023-05-22 03:16:42.290192"
-latest: "0.0.50--h7132678_3"
+updated_at: "2023-05-23 02:52:55.307873"
+latest: "0.0.50--he4a0461_5"
 container_url: "https://biocontainers.pro/tools/libbambamc"
 
 versions:
  - "0.0.50--h7132678_3"
+ - "0.0.50--he4a0461_5"
 description: "shpc-registry automated BioContainers addition for libbambamc"
-config: {"url": "https://biocontainers.pro/tools/libbambamc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libbambamc", "latest": {"0.0.50--h7132678_3": "sha256:50404e5571b3e0e69017283966d2b1326673482a20298ad9c0c070ffa84782cb"}, "tags": {"0.0.50--h7132678_3": "sha256:50404e5571b3e0e69017283966d2b1326673482a20298ad9c0c070ffa84782cb"}, "docker": "quay.io/biocontainers/libbambamc"}
+config: {"url": "https://biocontainers.pro/tools/libbambamc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libbambamc", "latest": {"0.0.50--he4a0461_5": "sha256:0d701fd1caf0ade504ecffeedbb95932d45f7693ca4a77c794f253920a0d3add"}, "tags": {"0.0.50--h7132678_3": "sha256:50404e5571b3e0e69017283966d2b1326673482a20298ad9c0c070ffa84782cb", "0.0.50--he4a0461_5": "sha256:0d701fd1caf0ade504ecffeedbb95932d45f7693ca4a77c794f253920a0d3add"}, "docker": "quay.io/biocontainers/libbambamc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libbambamc.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libbambamc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libbambamc:0.0.50--h7132678_3
+$ shpc install quay.io/biocontainers/libbambamc:0.0.50--he4a0461_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libbambamc/0.0.50--h7132678_3
-$ module help quay.io/biocontainers/libbambamc/0.0.50--h7132678_3
+$ module load quay.io/biocontainers/libbambamc/0.0.50--he4a0461_5
+$ module help quay.io/biocontainers/libbambamc/0.0.50--he4a0461_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

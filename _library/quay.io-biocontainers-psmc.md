@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/psmc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psmc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psmc/container.yaml"
-updated_at: "2023-05-22 03:22:04.568755"
-latest: "0.6.5--h5b5514e_0"
+updated_at: "2023-05-23 02:58:19.195072"
+latest: "0.6.5--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/psmc"
 aliases:
  - "Makefile"
@@ -38,8 +38,9 @@ aliases:
  - "splitfa.o"
 versions:
  - "0.6.5--h5b5514e_0"
+ - "0.6.5--h43eeafb_2"
 description: "singularity registry hpc automated addition for psmc"
-config: {"url": "https://biocontainers.pro/tools/psmc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psmc", "latest": {"0.6.5--h5b5514e_0": "sha256:0969906a912c973a0ff9d7db26cd7f7ac97361ed8f220a1ada1576f7629af0e2"}, "tags": {"0.6.5--h5b5514e_0": "sha256:0969906a912c973a0ff9d7db26cd7f7ac97361ed8f220a1ada1576f7629af0e2"}, "docker": "quay.io/biocontainers/psmc", "aliases": {"Makefile": "/usr/local/bin/Makefile", "avg.pl": "/usr/local/bin/avg.pl", "calD": "/usr/local/bin/calD", "calD.c": "/usr/local/bin/calD.c", "calD.o": "/usr/local/bin/calD.o", "cntcpg": "/usr/local/bin/cntcpg", "cntcpg.c": "/usr/local/bin/cntcpg.c", "cntcpg.o": "/usr/local/bin/cntcpg.o", "ctime_plot.pl": "/usr/local/bin/ctime_plot.pl", "dec2ctime.pl": "/usr/local/bin/dec2ctime.pl", "decode2bed.pl": "/usr/local/bin/decode2bed.pl", "fq2psmcfa": "/usr/local/bin/fq2psmcfa", "fq2psmcfa.c": "/usr/local/bin/fq2psmcfa.c", "fq2psmcfa.o": "/usr/local/bin/fq2psmcfa.o", "history2ms.pl": "/usr/local/bin/history2ms.pl", "khash.h": "/usr/local/bin/khash.h", "ms2psmcfa.pl": "/usr/local/bin/ms2psmcfa.pl", "mutDiff": "/usr/local/bin/mutDiff", "mutDiff.c": "/usr/local/bin/mutDiff.c", "mutDiff.o": "/usr/local/bin/mutDiff.o", "pcnt_bezier.lua": "/usr/local/bin/pcnt_bezier.lua", "psmc": "/usr/local/bin/psmc", "psmc2history.pl": "/usr/local/bin/psmc2history.pl", "psmc_plot.pl": "/usr/local/bin/psmc_plot.pl", "psmc_trunc.pl": "/usr/local/bin/psmc_trunc.pl", "splitfa": "/usr/local/bin/splitfa", "splitfa.c": "/usr/local/bin/splitfa.c", "splitfa.o": "/usr/local/bin/splitfa.o"}}
+config: {"url": "https://biocontainers.pro/tools/psmc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psmc", "latest": {"0.6.5--h43eeafb_2": "sha256:7e182e57bf5eb74f0250daff84de814c832f3503e79dda82adb506bb73c0ea0b"}, "tags": {"0.6.5--h5b5514e_0": "sha256:0969906a912c973a0ff9d7db26cd7f7ac97361ed8f220a1ada1576f7629af0e2", "0.6.5--h43eeafb_2": "sha256:7e182e57bf5eb74f0250daff84de814c832f3503e79dda82adb506bb73c0ea0b"}, "docker": "quay.io/biocontainers/psmc", "aliases": {"Makefile": "/usr/local/bin/Makefile", "avg.pl": "/usr/local/bin/avg.pl", "calD": "/usr/local/bin/calD", "calD.c": "/usr/local/bin/calD.c", "calD.o": "/usr/local/bin/calD.o", "cntcpg": "/usr/local/bin/cntcpg", "cntcpg.c": "/usr/local/bin/cntcpg.c", "cntcpg.o": "/usr/local/bin/cntcpg.o", "ctime_plot.pl": "/usr/local/bin/ctime_plot.pl", "dec2ctime.pl": "/usr/local/bin/dec2ctime.pl", "decode2bed.pl": "/usr/local/bin/decode2bed.pl", "fq2psmcfa": "/usr/local/bin/fq2psmcfa", "fq2psmcfa.c": "/usr/local/bin/fq2psmcfa.c", "fq2psmcfa.o": "/usr/local/bin/fq2psmcfa.o", "history2ms.pl": "/usr/local/bin/history2ms.pl", "khash.h": "/usr/local/bin/khash.h", "ms2psmcfa.pl": "/usr/local/bin/ms2psmcfa.pl", "mutDiff": "/usr/local/bin/mutDiff", "mutDiff.c": "/usr/local/bin/mutDiff.c", "mutDiff.o": "/usr/local/bin/mutDiff.o", "pcnt_bezier.lua": "/usr/local/bin/pcnt_bezier.lua", "psmc": "/usr/local/bin/psmc", "psmc2history.pl": "/usr/local/bin/psmc2history.pl", "psmc_plot.pl": "/usr/local/bin/psmc_plot.pl", "psmc_trunc.pl": "/usr/local/bin/psmc_trunc.pl", "splitfa": "/usr/local/bin/splitfa", "splitfa.c": "/usr/local/bin/splitfa.c", "splitfa.o": "/usr/local/bin/splitfa.o"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psmc.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/psmc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psmc:0.6.5--h5b5514e_0
+$ shpc install quay.io/biocontainers/psmc:0.6.5--h43eeafb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psmc/0.6.5--h5b5514e_0
-$ module help quay.io/biocontainers/psmc/0.6.5--h5b5514e_0
+$ module load quay.io/biocontainers/psmc/0.6.5--h43eeafb_2
+$ module help quay.io/biocontainers/psmc/0.6.5--h43eeafb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cage/container.yaml"
-updated_at: "2023-05-22 03:21:31.880997"
-latest: "2016.05.13--hb0f8ad4_5"
+updated_at: "2023-05-23 02:57:45.933164"
+latest: "2016.05.13--haebcb10_6"
 container_url: "https://biocontainers.pro/tools/cage"
 aliases:
  - "bamdump"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2016.05.13--hb0f8ad4_5"
+ - "2016.05.13--haebcb10_6"
 description: "shpc-registry automated BioContainers addition for cage"
-config: {"url": "https://biocontainers.pro/tools/cage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cage", "latest": {"2016.05.13--hb0f8ad4_5": "sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2"}, "tags": {"2016.05.13--hb0f8ad4_5": "sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2"}, "docker": "quay.io/biocontainers/cage", "aliases": {"bamdump": "/usr/local/bin/bamdump", "cage": "/usr/local/bin/cage", "cage-classify.py": "/usr/local/bin/cage-classify.py", "bamtools": "/usr/local/bin/bamtools", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/cage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cage", "latest": {"2016.05.13--haebcb10_6": "sha256:eda5a8ee2fe05329e21b4d7000803c54d9facd0fa844659758835c277469b313"}, "tags": {"2016.05.13--hb0f8ad4_5": "sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2", "2016.05.13--haebcb10_6": "sha256:eda5a8ee2fe05329e21b4d7000803c54d9facd0fa844659758835c277469b313"}, "docker": "quay.io/biocontainers/cage", "aliases": {"bamdump": "/usr/local/bin/bamdump", "cage": "/usr/local/bin/cage", "cage-classify.py": "/usr/local/bin/cage-classify.py", "bamtools": "/usr/local/bin/bamtools", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cage.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/cage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cage:2016.05.13--hb0f8ad4_5
+$ shpc install quay.io/biocontainers/cage:2016.05.13--haebcb10_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cage/2016.05.13--hb0f8ad4_5
-$ module help quay.io/biocontainers/cage/2016.05.13--hb0f8ad4_5
+$ module load quay.io/biocontainers/cage/2016.05.13--haebcb10_6
+$ module help quay.io/biocontainers/cage/2016.05.13--haebcb10_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

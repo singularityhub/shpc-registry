@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-unicode-normalize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-normalize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-normalize/container.yaml"
-updated_at: "2023-05-22 03:12:12.590964"
-latest: "1.26--pl5321h9f5acd7_3"
+updated_at: "2023-05-23 02:48:16.923637"
+latest: "1.26--pl5321h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/perl-unicode-normalize"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.26--pl5321h9f5acd7_3"
+ - "1.26--pl5321h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for perl-unicode-normalize"
-config: {"url": "https://biocontainers.pro/tools/perl-unicode-normalize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-normalize", "latest": {"1.26--pl5321h9f5acd7_3": "sha256:3c5ef4cf0560f1b2b868e4ca0747ee2f400e7599033e3905fd1f22edaa39529a"}, "tags": {"1.26--pl5321h9f5acd7_3": "sha256:3c5ef4cf0560f1b2b868e4ca0747ee2f400e7599033e3905fd1f22edaa39529a"}, "docker": "quay.io/biocontainers/perl-unicode-normalize", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-unicode-normalize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-normalize", "latest": {"1.26--pl5321h4ac6f70_5": "sha256:046afcdf5f8c53e1914d898fde7029814b4ff2ff502cdba15f200a61810cddac"}, "tags": {"1.26--pl5321h9f5acd7_3": "sha256:3c5ef4cf0560f1b2b868e4ca0747ee2f400e7599033e3905fd1f22edaa39529a", "1.26--pl5321h4ac6f70_5": "sha256:046afcdf5f8c53e1914d898fde7029814b4ff2ff502cdba15f200a61810cddac"}, "docker": "quay.io/biocontainers/perl-unicode-normalize", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-unicode-normalize.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-unicode-normalize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-unicode-normalize:1.26--pl5321h9f5acd7_3
+$ shpc install quay.io/biocontainers/perl-unicode-normalize:1.26--pl5321h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-unicode-normalize/1.26--pl5321h9f5acd7_3
-$ module help quay.io/biocontainers/perl-unicode-normalize/1.26--pl5321h9f5acd7_3
+$ module load quay.io/biocontainers/perl-unicode-normalize/1.26--pl5321h4ac6f70_5
+$ module help quay.io/biocontainers/perl-unicode-normalize/1.26--pl5321h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
