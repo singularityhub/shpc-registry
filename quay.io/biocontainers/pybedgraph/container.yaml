@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pybedgraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pybedgraph
 latest:
-  0.5.43--py38h8ded8fe_3: sha256:6b469fd45ac09b81fd3c5af96ad4eb5097123f909497b70bc7ed396977257579
+  0.5.43--py39he10ea66_4: sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8
 tags:
   0.5.43--py38h8ded8fe_3: sha256:6b469fd45ac09b81fd3c5af96ad4eb5097123f909497b70bc7ed396977257579
+  0.5.43--py39he10ea66_4: sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8
 docker: quay.io/biocontainers/pybedgraph
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

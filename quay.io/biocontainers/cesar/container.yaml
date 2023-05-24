@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cesar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cesar
 latest:
-  1.01--h87f3376_0: sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089
+  1.01--hdbdd923_2: sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81
 tags:
   1.01--h87f3376_0: sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089
+  1.01--hdbdd923_2: sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81
 docker: quay.io/biocontainers/cesar
 aliases:
   cesar: /usr/local/bin/cesar

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-birewire
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-birewire
 latest:
-  3.30.0--r42hc0cfd56_0: sha256:a091494c12958b3bed4db632cf8ec076c73f03021bbfb7b3d4b2e2749afa0d26
+  3.30.0--r42ha9d7317_2: sha256:8366163846d02fe8c4ccb00ae2099ec80c37ef3e7fabd7af3a66bd60e8bb7201
 tags:
   3.26.5--r41hc0cfd56_0: sha256:47dba4ddd32a66dda80ba63e8886a6d250a2a911a85a20ed5321f613b249eed4
   3.30.0--r42hc0cfd56_0: sha256:a091494c12958b3bed4db632cf8ec076c73f03021bbfb7b3d4b2e2749afa0d26
+  3.30.0--r42ha9d7317_2: sha256:8366163846d02fe8c4ccb00ae2099ec80c37ef3e7fabd7af3a66bd60e8bb7201
 docker: quay.io/biocontainers/bioconductor-birewire
 aliases:
   glpsol: /usr/local/bin/glpsol

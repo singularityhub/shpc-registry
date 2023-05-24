@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metamaps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metamaps
 latest:
-  0.1.98102e9--h7ff8a90_1: sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692
+  0.1.98102e9--h21ec9f0_2: sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6
 tags:
   0.1.98102e9--h7ff8a90_1: sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692
+  0.1.98102e9--h21ec9f0_2: sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6
 docker: quay.io/biocontainers/metamaps
 aliases:
   DBinfo.pl: /usr/local/bin/DBinfo.pl

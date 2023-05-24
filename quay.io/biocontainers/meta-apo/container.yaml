@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/meta-apo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for meta-apo
 latest:
-  1.1--h9f5acd7_4: sha256:d6bd635509c102b5f0bef9f957111af3d513644900f51c024a2ac46601b024c1
+  1.1--h4ac6f70_6: sha256:380fc9536a2024a02ec9f70e002b69be13198bbbc8af6932e9ae0e6094faedba
 tags:
   1.1--h9f5acd7_4: sha256:d6bd635509c102b5f0bef9f957111af3d513644900f51c024a2ac46601b024c1
+  1.1--h4ac6f70_6: sha256:380fc9536a2024a02ec9f70e002b69be13198bbbc8af6932e9ae0e6094faedba
 docker: quay.io/biocontainers/meta-apo
 aliases:
   meta-apo-calibrate: /usr/local/bin/meta-apo-calibrate

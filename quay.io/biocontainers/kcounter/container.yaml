@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kcounter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kcounter
 latest:
-  0.1.1--py37h8902056_1: sha256:aa44cefa403d840b5279ab1f312db42c2abec05cb743e7a917d0ea1d914475de
+  0.1.1--py310h4b81fae_4: sha256:c69c09bb30148ad328c39431552f6adb4c6e66b0c416f0b45e037ddbee31ff54
 tags:
   0.1.1--py37h8902056_1: sha256:aa44cefa403d840b5279ab1f312db42c2abec05cb743e7a917d0ea1d914475de
+  0.1.1--py310h4b81fae_4: sha256:c69c09bb30148ad328c39431552f6adb4c6e66b0c416f0b45e037ddbee31ff54
 docker: quay.io/biocontainers/kcounter
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

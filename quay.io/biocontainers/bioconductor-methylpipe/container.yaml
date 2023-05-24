@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-methylpipe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylpipe
 latest:
-  1.32.0--r42hc0cfd56_0: sha256:2c60894031057989d65b9154aabcbc4dc71fffc8b4ef5eda06b74e889cdee10e
+  1.32.0--r42ha9d7317_1: sha256:afd0386290b3d8dab522ecc73fc7d9c19bb489d326e20c7e47fea99b1c1179e6
 tags:
   1.27.0--r41h5c21468_1: sha256:a06b7dffceaca9a426504ef830ea398e9d8e557799c17ca92d2d60b54f38988d
   1.32.0--r42hc0cfd56_0: sha256:2c60894031057989d65b9154aabcbc4dc71fffc8b4ef5eda06b74e889cdee10e
+  1.32.0--r42ha9d7317_1: sha256:afd0386290b3d8dab522ecc73fc7d9c19bb489d326e20c7e47fea99b1c1179e6
 docker: quay.io/biocontainers/bioconductor-methylpipe

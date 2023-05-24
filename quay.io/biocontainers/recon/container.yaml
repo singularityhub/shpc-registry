@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/recon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for recon
 latest:
-  1.08--hec16e2b_4: sha256:574ca009a2637d0ca0b94c8d27b14ee43ad5fd8c3504e68d69b4e8cc0e21ddcb
+  1.08--h031d066_6: sha256:e1be8ca1d58394331349516ff8f7e1ccb3295e284666d946f53b7bdeb41335e2
 tags:
   1.08--hec16e2b_4: sha256:574ca009a2637d0ca0b94c8d27b14ee43ad5fd8c3504e68d69b4e8cc0e21ddcb
+  1.08--h031d066_6: sha256:e1be8ca1d58394331349516ff8f7e1ccb3295e284666d946f53b7bdeb41335e2
 docker: quay.io/biocontainers/recon
 aliases:
   edgeredef: /usr/local/bin/edgeredef
