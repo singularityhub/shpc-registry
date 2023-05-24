@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/parallel-meta-suite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parallel-meta-suite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parallel-meta-suite/container.yaml"
-updated_at: "2023-05-23 02:38:58.725511"
-latest: "1.0--h9f5acd7_3"
+updated_at: "2023-05-24 02:40:25.176851"
+latest: "1.0--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/parallel-meta-suite"
 aliases:
  - "ExtractRNA.o"
@@ -40,8 +40,9 @@ aliases:
  - "esl-alirev"
 versions:
  - "1.0--h9f5acd7_3"
+ - "1.0--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for parallel-meta-suite"
-config: {"url": "https://biocontainers.pro/tools/parallel-meta-suite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parallel-meta-suite", "latest": {"1.0--h9f5acd7_3": "sha256:d0fc64986df3702c3be1e878aa91d59b174f779fc285d711c48ed8b6823395ec"}, "tags": {"1.0--h9f5acd7_3": "sha256:d0fc64986df3702c3be1e878aa91d59b174f779fc285d711c48ed8b6823395ec"}, "docker": "quay.io/biocontainers/parallel-meta-suite", "aliases": {"ExtractRNA.o": "/usr/local/bin/ExtractRNA.o", "PM-comp-corr": "/usr/local/bin/PM-comp-corr", "PM-comp-func": "/usr/local/bin/PM-comp-func", "PM-comp-taxa": "/usr/local/bin/PM-comp-taxa", "PM-extract-rna": "/usr/local/bin/PM-extract-rna", "PM-format-seq": "/usr/local/bin/PM-format-seq", "PM-install": "/usr/local/bin/PM-install", "PM-parallel-meta": "/usr/local/bin/PM-parallel-meta", "PM-pipeline": "/usr/local/bin/PM-pipeline", "PM-plot-taxa": "/usr/local/bin/PM-plot-taxa", "PM-predict-func": "/usr/local/bin/PM-predict-func", "PM-predict-func-contribute": "/usr/local/bin/PM-predict-func-contribute", "PM-predict-func-nsti": "/usr/local/bin/PM-predict-func-nsti", "PM-rand-rare": "/usr/local/bin/PM-rand-rare", "PM-rare-curv": "/usr/local/bin/PM-rare-curv", "PM-select-func": "/usr/local/bin/PM-select-func", "PM-select-taxa": "/usr/local/bin/PM-select-taxa", "PM-split-seq": "/usr/local/bin/PM-split-seq", "PM-update-taxa": "/usr/local/bin/PM-update-taxa", "placeholder": "/usr/local/bin/placeholder", "vsearch": "/usr/local/bin/vsearch", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev"}}
+config: {"url": "https://biocontainers.pro/tools/parallel-meta-suite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parallel-meta-suite", "latest": {"1.0--h4ac6f70_4": "sha256:57c3eae5fdec2ed4d80d986cd5c37fdfd6c7a1d9ffe1e3584d0eb9f342ba9c80"}, "tags": {"1.0--h9f5acd7_3": "sha256:d0fc64986df3702c3be1e878aa91d59b174f779fc285d711c48ed8b6823395ec", "1.0--h4ac6f70_4": "sha256:57c3eae5fdec2ed4d80d986cd5c37fdfd6c7a1d9ffe1e3584d0eb9f342ba9c80"}, "docker": "quay.io/biocontainers/parallel-meta-suite", "aliases": {"ExtractRNA.o": "/usr/local/bin/ExtractRNA.o", "PM-comp-corr": "/usr/local/bin/PM-comp-corr", "PM-comp-func": "/usr/local/bin/PM-comp-func", "PM-comp-taxa": "/usr/local/bin/PM-comp-taxa", "PM-extract-rna": "/usr/local/bin/PM-extract-rna", "PM-format-seq": "/usr/local/bin/PM-format-seq", "PM-install": "/usr/local/bin/PM-install", "PM-parallel-meta": "/usr/local/bin/PM-parallel-meta", "PM-pipeline": "/usr/local/bin/PM-pipeline", "PM-plot-taxa": "/usr/local/bin/PM-plot-taxa", "PM-predict-func": "/usr/local/bin/PM-predict-func", "PM-predict-func-contribute": "/usr/local/bin/PM-predict-func-contribute", "PM-predict-func-nsti": "/usr/local/bin/PM-predict-func-nsti", "PM-rand-rare": "/usr/local/bin/PM-rand-rare", "PM-rare-curv": "/usr/local/bin/PM-rare-curv", "PM-select-func": "/usr/local/bin/PM-select-func", "PM-select-taxa": "/usr/local/bin/PM-select-taxa", "PM-split-seq": "/usr/local/bin/PM-split-seq", "PM-update-taxa": "/usr/local/bin/PM-update-taxa", "placeholder": "/usr/local/bin/placeholder", "vsearch": "/usr/local/bin/vsearch", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parallel-meta-suite.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/parallel-meta-suite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parallel-meta-suite:1.0--h9f5acd7_3
+$ shpc install quay.io/biocontainers/parallel-meta-suite:1.0--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parallel-meta-suite/1.0--h9f5acd7_3
-$ module help quay.io/biocontainers/parallel-meta-suite/1.0--h9f5acd7_3
+$ module load quay.io/biocontainers/parallel-meta-suite/1.0--h4ac6f70_4
+$ module help quay.io/biocontainers/parallel-meta-suite/1.0--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

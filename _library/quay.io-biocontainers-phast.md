@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phast/container.yaml"
-updated_at: "2023-05-23 03:03:40.383273"
-latest: "1.5--hec16e2b_4"
+updated_at: "2023-05-24 03:04:09.340906"
+latest: "1.5--h031d066_6"
 container_url: "https://biocontainers.pro/tools/phast"
 aliases:
  - "all_dists"
@@ -50,8 +50,9 @@ aliases:
  - "tree_doctor"
 versions:
  - "1.5--hec16e2b_4"
+ - "1.5--h031d066_6"
 description: "shpc-registry automated BioContainers addition for phast"
-config: {"url": "https://biocontainers.pro/tools/phast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phast", "latest": {"1.5--hec16e2b_4": "sha256:b5339a2be861216f9d8d8a8aa5a7488be46808f7cb1e74c752c2036a88817c90"}, "tags": {"1.5--hec16e2b_4": "sha256:b5339a2be861216f9d8d8a8aa5a7488be46808f7cb1e74c752c2036a88817c90"}, "docker": "quay.io/biocontainers/phast", "aliases": {"all_dists": "/usr/local/bin/all_dists", "base_evolve": "/usr/local/bin/base_evolve", "chooseLines": "/usr/local/bin/chooseLines", "clean_genes": "/usr/local/bin/clean_genes", "consEntropy": "/usr/local/bin/consEntropy", "convert_coords": "/usr/local/bin/convert_coords", "display_rate_matrix": "/usr/local/bin/display_rate_matrix", "dless": "/usr/local/bin/dless", "dlessP": "/usr/local/bin/dlessP", "draw_tree": "/usr/local/bin/draw_tree", "eval_predictions": "/usr/local/bin/eval_predictions", "exoniphy": "/usr/local/bin/exoniphy", "hmm_train": "/usr/local/bin/hmm_train", "hmm_tweak": "/usr/local/bin/hmm_tweak", "hmm_view": "/usr/local/bin/hmm_view", "indelFit": "/usr/local/bin/indelFit", "indelHistory": "/usr/local/bin/indelHistory", "maf_parse": "/usr/local/bin/maf_parse", "makeHKY": "/usr/local/bin/makeHKY", "modFreqs": "/usr/local/bin/modFreqs", "msa_diff": "/usr/local/bin/msa_diff", "msa_split": "/usr/local/bin/msa_split", "msa_view": "/usr/local/bin/msa_view", "pbsDecode": "/usr/local/bin/pbsDecode", "pbsEncode": "/usr/local/bin/pbsEncode", "pbsScoreMatrix": "/usr/local/bin/pbsScoreMatrix", "pbsTrain": "/usr/local/bin/pbsTrain", "phast": "/usr/local/bin/phast", "phastBias": "/usr/local/bin/phastBias", "phastCons": "/usr/local/bin/phastCons", "phastMotif": "/usr/local/bin/phastMotif", "phastOdds": "/usr/local/bin/phastOdds", "phyloBoot": "/usr/local/bin/phyloBoot", "phyloFit": "/usr/local/bin/phyloFit", "phyloP": "/usr/local/bin/phyloP", "prequel": "/usr/local/bin/prequel", "refeature": "/usr/local/bin/refeature", "stringiphy": "/usr/local/bin/stringiphy", "treeGen": "/usr/local/bin/treeGen", "tree_doctor": "/usr/local/bin/tree_doctor"}}
+config: {"url": "https://biocontainers.pro/tools/phast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phast", "latest": {"1.5--h031d066_6": "sha256:9f1363615f5174af9ca3915360e0486add86a05f7bda2f7a915a039894ca022d"}, "tags": {"1.5--hec16e2b_4": "sha256:b5339a2be861216f9d8d8a8aa5a7488be46808f7cb1e74c752c2036a88817c90", "1.5--h031d066_6": "sha256:9f1363615f5174af9ca3915360e0486add86a05f7bda2f7a915a039894ca022d"}, "docker": "quay.io/biocontainers/phast", "aliases": {"all_dists": "/usr/local/bin/all_dists", "base_evolve": "/usr/local/bin/base_evolve", "chooseLines": "/usr/local/bin/chooseLines", "clean_genes": "/usr/local/bin/clean_genes", "consEntropy": "/usr/local/bin/consEntropy", "convert_coords": "/usr/local/bin/convert_coords", "display_rate_matrix": "/usr/local/bin/display_rate_matrix", "dless": "/usr/local/bin/dless", "dlessP": "/usr/local/bin/dlessP", "draw_tree": "/usr/local/bin/draw_tree", "eval_predictions": "/usr/local/bin/eval_predictions", "exoniphy": "/usr/local/bin/exoniphy", "hmm_train": "/usr/local/bin/hmm_train", "hmm_tweak": "/usr/local/bin/hmm_tweak", "hmm_view": "/usr/local/bin/hmm_view", "indelFit": "/usr/local/bin/indelFit", "indelHistory": "/usr/local/bin/indelHistory", "maf_parse": "/usr/local/bin/maf_parse", "makeHKY": "/usr/local/bin/makeHKY", "modFreqs": "/usr/local/bin/modFreqs", "msa_diff": "/usr/local/bin/msa_diff", "msa_split": "/usr/local/bin/msa_split", "msa_view": "/usr/local/bin/msa_view", "pbsDecode": "/usr/local/bin/pbsDecode", "pbsEncode": "/usr/local/bin/pbsEncode", "pbsScoreMatrix": "/usr/local/bin/pbsScoreMatrix", "pbsTrain": "/usr/local/bin/pbsTrain", "phast": "/usr/local/bin/phast", "phastBias": "/usr/local/bin/phastBias", "phastCons": "/usr/local/bin/phastCons", "phastMotif": "/usr/local/bin/phastMotif", "phastOdds": "/usr/local/bin/phastOdds", "phyloBoot": "/usr/local/bin/phyloBoot", "phyloFit": "/usr/local/bin/phyloFit", "phyloP": "/usr/local/bin/phyloP", "prequel": "/usr/local/bin/prequel", "refeature": "/usr/local/bin/refeature", "stringiphy": "/usr/local/bin/stringiphy", "treeGen": "/usr/local/bin/treeGen", "tree_doctor": "/usr/local/bin/tree_doctor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phast.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/phast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phast:1.5--hec16e2b_4
+$ shpc install quay.io/biocontainers/phast:1.5--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phast/1.5--hec16e2b_4
-$ module help quay.io/biocontainers/phast/1.5--hec16e2b_4
+$ module load quay.io/biocontainers/phast/1.5--h031d066_6
+$ module help quay.io/biocontainers/phast/1.5--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

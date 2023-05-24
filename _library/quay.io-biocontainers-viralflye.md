@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viralflye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viralflye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viralflye/container.yaml"
-updated_at: "2023-05-23 03:03:38.252490"
+updated_at: "2023-05-24 03:04:07.309897"
 latest: "0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viralflye"
 aliases:

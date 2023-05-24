@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/parebrick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parebrick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parebrick/container.yaml"
-updated_at: "2023-05-23 03:17:26.623362"
-latest: "0.4--pyhdfd78af_0"
+updated_at: "2023-05-24 03:17:23.896562"
+latest: "0.5.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/parebrick"
 aliases:
  - "PaReBrick"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "0.3.7--pyhdfd78af_0"
  - "0.4--pyhdfd78af_0"
+ - "0.5.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for parebrick"
-config: {"url": "https://biocontainers.pro/tools/parebrick", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for parebrick", "latest": {"0.4--pyhdfd78af_0": "sha256:8c251c33beb730823a595f15a9b021ddd5151f0f6b1fe51059ebea38f21ff30e"}, "tags": {"0.3.7--pyhdfd78af_0": "sha256:8e71a4e16b1c8eb27673862b46552e8e3bf6864af4e6da81e2426e45b7bef579", "0.4--pyhdfd78af_0": "sha256:8c251c33beb730823a595f15a9b021ddd5151f0f6b1fe51059ebea38f21ff30e"}, "docker": "quay.io/biocontainers/parebrick", "aliases": {"PaReBrick": "/usr/local/bin/PaReBrick", "PaReBrick-Charts": "/usr/local/bin/PaReBrick-Charts", "parebrick": "/usr/local/bin/parebrick", "parebrick-charts": "/usr/local/bin/parebrick-charts", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "coverage": "/usr/local/bin/coverage", "ete3": "/usr/local/bin/ete3", "nosetests": "/usr/local/bin/nosetests", "xkbcli": "/usr/local/bin/xkbcli", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
+config: {"url": "https://biocontainers.pro/tools/parebrick", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for parebrick", "latest": {"0.5.5--pyhdfd78af_0": "sha256:51037107b2fe899b6ef0c9f1988669607e223b9c0263f80e291f88dedda22bc1"}, "tags": {"0.3.7--pyhdfd78af_0": "sha256:8e71a4e16b1c8eb27673862b46552e8e3bf6864af4e6da81e2426e45b7bef579", "0.4--pyhdfd78af_0": "sha256:8c251c33beb730823a595f15a9b021ddd5151f0f6b1fe51059ebea38f21ff30e", "0.5.5--pyhdfd78af_0": "sha256:51037107b2fe899b6ef0c9f1988669607e223b9c0263f80e291f88dedda22bc1"}, "docker": "quay.io/biocontainers/parebrick", "aliases": {"PaReBrick": "/usr/local/bin/PaReBrick", "PaReBrick-Charts": "/usr/local/bin/PaReBrick-Charts", "parebrick": "/usr/local/bin/parebrick", "parebrick-charts": "/usr/local/bin/parebrick-charts", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "coverage": "/usr/local/bin/coverage", "ete3": "/usr/local/bin/ete3", "nosetests": "/usr/local/bin/nosetests", "xkbcli": "/usr/local/bin/xkbcli", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parebrick.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/parebrick
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parebrick:0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/parebrick:0.5.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parebrick/0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/parebrick/0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/parebrick/0.5.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/parebrick/0.5.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

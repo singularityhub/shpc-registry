@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-perlio-gzip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perlio-gzip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perlio-gzip/container.yaml"
-updated_at: "2023-05-23 02:42:52.427103"
-latest: "0.20--pl5321h7132678_3"
+updated_at: "2023-05-24 02:44:06.317252"
+latest: "0.20--pl5321he4a0461_5"
 container_url: "https://biocontainers.pro/tools/perl-perlio-gzip"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.20--pl5321h7132678_3"
+ - "0.20--pl5321he4a0461_5"
 description: "shpc-registry automated BioContainers addition for perl-perlio-gzip"
-config: {"url": "https://biocontainers.pro/tools/perl-perlio-gzip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perlio-gzip", "latest": {"0.20--pl5321h7132678_3": "sha256:f569b9c062e14ebe23dc59cc57a1095135ab6d44672cd4fea032df446fd14d1d"}, "tags": {"0.20--pl5321h7132678_3": "sha256:f569b9c062e14ebe23dc59cc57a1095135ab6d44672cd4fea032df446fd14d1d"}, "docker": "quay.io/biocontainers/perl-perlio-gzip", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-perlio-gzip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perlio-gzip", "latest": {"0.20--pl5321he4a0461_5": "sha256:0b90fb6c0e02fe683c271300b09ca515867f9d11b995c7a1a58a73bd609caa2c"}, "tags": {"0.20--pl5321h7132678_3": "sha256:f569b9c062e14ebe23dc59cc57a1095135ab6d44672cd4fea032df446fd14d1d", "0.20--pl5321he4a0461_5": "sha256:0b90fb6c0e02fe683c271300b09ca515867f9d11b995c7a1a58a73bd609caa2c"}, "docker": "quay.io/biocontainers/perl-perlio-gzip", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-perlio-gzip.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-perlio-gzip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-perlio-gzip:0.20--pl5321h7132678_3
+$ shpc install quay.io/biocontainers/perl-perlio-gzip:0.20--pl5321he4a0461_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-perlio-gzip/0.20--pl5321h7132678_3
-$ module help quay.io/biocontainers/perl-perlio-gzip/0.20--pl5321h7132678_3
+$ module load quay.io/biocontainers/perl-perlio-gzip/0.20--pl5321he4a0461_5
+$ module help quay.io/biocontainers/perl-perlio-gzip/0.20--pl5321he4a0461_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kakscalculator2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kakscalculator2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kakscalculator2/container.yaml"
-updated_at: "2023-05-23 03:10:29.666136"
-latest: "2.0.1--h9f5acd7_2"
+updated_at: "2023-05-24 03:10:40.739204"
+latest: "2.0.1--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/kakscalculator2"
 aliases:
  - "AXTConvertor"
@@ -13,8 +13,9 @@ aliases:
  - "KaKs_Calculator"
 versions:
  - "2.0.1--h9f5acd7_2"
+ - "2.0.1--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for kakscalculator2"
-config: {"url": "https://biocontainers.pro/tools/kakscalculator2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kakscalculator2", "latest": {"2.0.1--h9f5acd7_2": "sha256:172eea3e171ef608e73e2bbae63645d9dd4c82052f6bdf924d19326fcdba6d40"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:172eea3e171ef608e73e2bbae63645d9dd4c82052f6bdf924d19326fcdba6d40"}, "docker": "quay.io/biocontainers/kakscalculator2", "aliases": {"AXTConvertor": "/usr/local/bin/AXTConvertor", "ConPairs": "/usr/local/bin/ConPairs", "KaKs_Calculator": "/usr/local/bin/KaKs_Calculator"}}
+config: {"url": "https://biocontainers.pro/tools/kakscalculator2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kakscalculator2", "latest": {"2.0.1--h4ac6f70_4": "sha256:f8e8cf39e32e533e60344df1cc9385128402284f47f40b01bd834931d27f0048"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:172eea3e171ef608e73e2bbae63645d9dd4c82052f6bdf924d19326fcdba6d40", "2.0.1--h4ac6f70_4": "sha256:f8e8cf39e32e533e60344df1cc9385128402284f47f40b01bd834931d27f0048"}, "docker": "quay.io/biocontainers/kakscalculator2", "aliases": {"AXTConvertor": "/usr/local/bin/AXTConvertor", "ConPairs": "/usr/local/bin/ConPairs", "KaKs_Calculator": "/usr/local/bin/KaKs_Calculator"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kakscalculator2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/kakscalculator2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kakscalculator2:2.0.1--h9f5acd7_2
+$ shpc install quay.io/biocontainers/kakscalculator2:2.0.1--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kakscalculator2/2.0.1--h9f5acd7_2
-$ module help quay.io/biocontainers/kakscalculator2/2.0.1--h9f5acd7_2
+$ module load quay.io/biocontainers/kakscalculator2/2.0.1--h4ac6f70_4
+$ module help quay.io/biocontainers/kakscalculator2/2.0.1--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

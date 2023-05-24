@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/phasius"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phasius/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phasius/container.yaml"
-updated_at: "2023-05-23 03:20:27.382065"
-latest: "0.1.0--h9f5acd7_0"
+updated_at: "2023-05-24 03:20:19.029521"
+latest: "0.1.0--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/phasius"
 aliases:
  - "phasius"
 versions:
  - "0.1.0--h9f5acd7_0"
+ - "0.1.0--h4ac6f70_2"
 description: "singularity registry hpc automated addition for phasius"
-config: {"url": "https://biocontainers.pro/tools/phasius", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phasius", "latest": {"0.1.0--h9f5acd7_0": "sha256:627720aeac0c96383e368e9a641af791954b141718be3d5639152fef4e853f58"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:627720aeac0c96383e368e9a641af791954b141718be3d5639152fef4e853f58"}, "docker": "quay.io/biocontainers/phasius", "aliases": {"phasius": "/usr/local/bin/phasius"}}
+config: {"url": "https://biocontainers.pro/tools/phasius", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phasius", "latest": {"0.1.0--h4ac6f70_2": "sha256:aca9a69957b856f6848e20a33e38a7efd9821e82382ccbff5715e1841c9214c9"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:627720aeac0c96383e368e9a641af791954b141718be3d5639152fef4e853f58", "0.1.0--h4ac6f70_2": "sha256:aca9a69957b856f6848e20a33e38a7efd9821e82382ccbff5715e1841c9214c9"}, "docker": "quay.io/biocontainers/phasius", "aliases": {"phasius": "/usr/local/bin/phasius"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phasius.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/phasius
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phasius:0.1.0--h9f5acd7_0
+$ shpc install quay.io/biocontainers/phasius:0.1.0--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phasius/0.1.0--h9f5acd7_0
-$ module help quay.io/biocontainers/phasius/0.1.0--h9f5acd7_0
+$ module load quay.io/biocontainers/phasius/0.1.0--h4ac6f70_2
+$ module help quay.io/biocontainers/phasius/0.1.0--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

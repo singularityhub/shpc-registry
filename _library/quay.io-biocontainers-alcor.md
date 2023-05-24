@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/alcor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alcor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alcor/container.yaml"
-updated_at: "2023-05-23 03:18:52.954679"
-latest: "1.9--hd03093a_0"
+updated_at: "2023-05-24 03:18:47.424051"
+latest: "1.9--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/alcor"
 aliases:
  - "AlcoR"
 versions:
  - "1.9--hd03093a_0"
+ - "1.9--hdcf5f25_2"
 description: "singularity registry hpc automated addition for alcor"
-config: {"url": "https://biocontainers.pro/tools/alcor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alcor", "latest": {"1.9--hd03093a_0": "sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a"}, "tags": {"1.9--hd03093a_0": "sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a"}, "docker": "quay.io/biocontainers/alcor", "aliases": {"AlcoR": "/usr/local/bin/AlcoR"}}
+config: {"url": "https://biocontainers.pro/tools/alcor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alcor", "latest": {"1.9--hdcf5f25_2": "sha256:1d1712e4957d5adedd972fbbfbae6df0917dfd134a5e164f1cf498c8f667cb42"}, "tags": {"1.9--hd03093a_0": "sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a", "1.9--hdcf5f25_2": "sha256:1d1712e4957d5adedd972fbbfbae6df0917dfd134a5e164f1cf498c8f667cb42"}, "docker": "quay.io/biocontainers/alcor", "aliases": {"AlcoR": "/usr/local/bin/AlcoR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alcor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/alcor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alcor:1.9--hd03093a_0
+$ shpc install quay.io/biocontainers/alcor:1.9--hdcf5f25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alcor/1.9--hd03093a_0
-$ module help quay.io/biocontainers/alcor/1.9--hd03093a_0
+$ module load quay.io/biocontainers/alcor/1.9--hdcf5f25_2
+$ module help quay.io/biocontainers/alcor/1.9--hdcf5f25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

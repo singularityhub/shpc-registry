@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-unicode-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-map/container.yaml"
-updated_at: "2023-05-23 03:14:23.473297"
-latest: "0.112--pl5321h9f5acd7_5"
+updated_at: "2023-05-24 03:14:28.404698"
+latest: "0.112--pl5321h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/perl-unicode-map"
 aliases:
  - "map"
@@ -16,8 +16,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.112--pl5321h9f5acd7_5"
+ - "0.112--pl5321h4ac6f70_7"
 description: "shpc-registry automated BioContainers addition for perl-unicode-map"
-config: {"url": "https://biocontainers.pro/tools/perl-unicode-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-map", "latest": {"0.112--pl5321h9f5acd7_5": "sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108"}, "tags": {"0.112--pl5321h9f5acd7_5": "sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108"}, "docker": "quay.io/biocontainers/perl-unicode-map", "aliases": {"map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-unicode-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-map", "latest": {"0.112--pl5321h4ac6f70_7": "sha256:64b3413d9a3550408a57aaa2fab6d32b175e548eb597a66829fc423681b8a0fd"}, "tags": {"0.112--pl5321h9f5acd7_5": "sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108", "0.112--pl5321h4ac6f70_7": "sha256:64b3413d9a3550408a57aaa2fab6d32b175e548eb597a66829fc423681b8a0fd"}, "docker": "quay.io/biocontainers/perl-unicode-map", "aliases": {"map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-unicode-map.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-unicode-map
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-unicode-map:0.112--pl5321h9f5acd7_5
+$ shpc install quay.io/biocontainers/perl-unicode-map:0.112--pl5321h4ac6f70_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-unicode-map/0.112--pl5321h9f5acd7_5
-$ module help quay.io/biocontainers/perl-unicode-map/0.112--pl5321h9f5acd7_5
+$ module load quay.io/biocontainers/perl-unicode-map/0.112--pl5321h4ac6f70_7
+$ module help quay.io/biocontainers/perl-unicode-map/0.112--pl5321h4ac6f70_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

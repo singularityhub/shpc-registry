@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/probeit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probeit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probeit/container.yaml"
-updated_at: "2023-05-23 03:08:39.729282"
-latest: "2.2--py38h8ded8fe_1"
+updated_at: "2023-05-24 03:08:54.352938"
+latest: "2.2--py38hcbe9525_2"
 container_url: "https://biocontainers.pro/tools/probeit"
 aliases:
  - "genmap"
@@ -25,8 +25,9 @@ versions:
  - "v1.9--py38hc37a69a_1"
  - "2.2--py38h8ded8fe_1"
  - "2.0--py27h304d29a_0"
+ - "2.2--py38hcbe9525_2"
 description: "shpc-registry automated BioContainers addition for probeit"
-config: {"url": "https://biocontainers.pro/tools/probeit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probeit", "latest": {"2.2--py38h8ded8fe_1": "sha256:e26ae46557525d14b86447cd9f68d25a3e8173ff7d1693020220f0be59b5c30c"}, "tags": {"v1.9--py38hc37a69a_1": "sha256:a6f818dede4e5c1528dfaef296dcad730de61579254380369f2e8abc148e3dc4", "2.2--py38h8ded8fe_1": "sha256:e26ae46557525d14b86447cd9f68d25a3e8173ff7d1693020220f0be59b5c30c", "2.0--py27h304d29a_0": "sha256:c4968c0ac245eaea703feef94f1fec3ae96be982640ce194e0852a63ac785ef2"}, "docker": "quay.io/biocontainers/probeit", "aliases": {"genmap": "/usr/local/bin/genmap", "probeit": "/usr/local/bin/probeit", "setcover": "/usr/local/bin/setcover", "seqkit": "/usr/local/bin/seqkit", "mmseqs": "/usr/local/bin/mmseqs", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq"}}
+config: {"url": "https://biocontainers.pro/tools/probeit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probeit", "latest": {"2.2--py38hcbe9525_2": "sha256:082267955930a425b7a16f241e8d1c310bd6a9a1035187def52024c1f0980465"}, "tags": {"v1.9--py38hc37a69a_1": "sha256:a6f818dede4e5c1528dfaef296dcad730de61579254380369f2e8abc148e3dc4", "2.2--py38h8ded8fe_1": "sha256:e26ae46557525d14b86447cd9f68d25a3e8173ff7d1693020220f0be59b5c30c", "2.0--py27h304d29a_0": "sha256:c4968c0ac245eaea703feef94f1fec3ae96be982640ce194e0852a63ac785ef2", "2.2--py38hcbe9525_2": "sha256:082267955930a425b7a16f241e8d1c310bd6a9a1035187def52024c1f0980465"}, "docker": "quay.io/biocontainers/probeit", "aliases": {"genmap": "/usr/local/bin/genmap", "probeit": "/usr/local/bin/probeit", "setcover": "/usr/local/bin/setcover", "seqkit": "/usr/local/bin/seqkit", "mmseqs": "/usr/local/bin/mmseqs", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/probeit.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/probeit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/probeit:2.2--py38h8ded8fe_1
+$ shpc install quay.io/biocontainers/probeit:2.2--py38hcbe9525_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/probeit/2.2--py38h8ded8fe_1
-$ module help quay.io/biocontainers/probeit/2.2--py38h8ded8fe_1
+$ module load quay.io/biocontainers/probeit/2.2--py38hcbe9525_2
+$ module help quay.io/biocontainers/probeit/2.2--py38hcbe9525_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

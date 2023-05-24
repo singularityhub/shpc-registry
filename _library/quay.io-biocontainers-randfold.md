@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/randfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/randfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/randfold/container.yaml"
-updated_at: "2023-05-23 03:05:57.950024"
-latest: "2.0.1--hec16e2b_4"
+updated_at: "2023-05-24 03:06:20.369161"
+latest: "2.0.1--h031d066_6"
 container_url: "https://biocontainers.pro/tools/randfold"
 aliases:
  - "afetch"
@@ -24,8 +24,9 @@ aliases:
  - "weight"
 versions:
  - "2.0.1--hec16e2b_4"
+ - "2.0.1--h031d066_6"
 description: "shpc-registry automated BioContainers addition for randfold"
-config: {"url": "https://biocontainers.pro/tools/randfold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for randfold", "latest": {"2.0.1--hec16e2b_4": "sha256:c392a31446a0cc452d7f0b0b0c2d570e98d005b9c29aa3897c4302b2c9e26316"}, "tags": {"2.0.1--hec16e2b_4": "sha256:c392a31446a0cc452d7f0b0b0c2d570e98d005b9c29aa3897c4302b2c9e26316"}, "docker": "quay.io/biocontainers/randfold", "aliases": {"afetch": "/usr/local/bin/afetch", "alistat": "/usr/local/bin/alistat", "compalign": "/usr/local/bin/compalign", "compstruct": "/usr/local/bin/compstruct", "randfold": "/usr/local/bin/randfold", "revcomp": "/usr/local/bin/revcomp", "seqsplit": "/usr/local/bin/seqsplit", "seqstat": "/usr/local/bin/seqstat", "sfetch": "/usr/local/bin/sfetch", "shuffle": "/usr/local/bin/shuffle", "sindex": "/usr/local/bin/sindex", "sreformat": "/usr/local/bin/sreformat", "translate": "/usr/local/bin/translate", "weight": "/usr/local/bin/weight"}}
+config: {"url": "https://biocontainers.pro/tools/randfold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for randfold", "latest": {"2.0.1--h031d066_6": "sha256:5b470be8852a813976fa17b3260f4685f662a83865708a9760197c9091c01278"}, "tags": {"2.0.1--hec16e2b_4": "sha256:c392a31446a0cc452d7f0b0b0c2d570e98d005b9c29aa3897c4302b2c9e26316", "2.0.1--h031d066_6": "sha256:5b470be8852a813976fa17b3260f4685f662a83865708a9760197c9091c01278"}, "docker": "quay.io/biocontainers/randfold", "aliases": {"afetch": "/usr/local/bin/afetch", "alistat": "/usr/local/bin/alistat", "compalign": "/usr/local/bin/compalign", "compstruct": "/usr/local/bin/compstruct", "randfold": "/usr/local/bin/randfold", "revcomp": "/usr/local/bin/revcomp", "seqsplit": "/usr/local/bin/seqsplit", "seqstat": "/usr/local/bin/seqstat", "sfetch": "/usr/local/bin/sfetch", "shuffle": "/usr/local/bin/shuffle", "sindex": "/usr/local/bin/sindex", "sreformat": "/usr/local/bin/sreformat", "translate": "/usr/local/bin/translate", "weight": "/usr/local/bin/weight"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/randfold.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/randfold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/randfold:2.0.1--hec16e2b_4
+$ shpc install quay.io/biocontainers/randfold:2.0.1--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/randfold/2.0.1--hec16e2b_4
-$ module help quay.io/biocontainers/randfold/2.0.1--hec16e2b_4
+$ module load quay.io/biocontainers/randfold/2.0.1--h031d066_6
+$ module help quay.io/biocontainers/randfold/2.0.1--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

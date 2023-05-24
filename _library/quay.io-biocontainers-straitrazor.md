@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/straitrazor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straitrazor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/straitrazor/container.yaml"
-updated_at: "2023-05-23 02:39:51.380606"
-latest: "3.0.1--h9f5acd7_4"
+updated_at: "2023-05-24 02:41:14.245814"
+latest: "3.0.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/straitrazor"
 aliases:
  - "str8rzr"
 versions:
  - "3.0.1--h9f5acd7_4"
+ - "3.0.1--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for straitrazor"
-config: {"url": "https://biocontainers.pro/tools/straitrazor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straitrazor", "latest": {"3.0.1--h9f5acd7_4": "sha256:5b33438bf941d1b8a2d963f1b04342c398d72543c467fdde8aaf8b6f8d41b7f5"}, "tags": {"3.0.1--h9f5acd7_4": "sha256:5b33438bf941d1b8a2d963f1b04342c398d72543c467fdde8aaf8b6f8d41b7f5"}, "docker": "quay.io/biocontainers/straitrazor", "aliases": {"str8rzr": "/usr/local/bin/str8rzr"}}
+config: {"url": "https://biocontainers.pro/tools/straitrazor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straitrazor", "latest": {"3.0.1--h4ac6f70_6": "sha256:bb0bb0479c18127414e44f8124531875932a31238279b33baaabb063ff0b097e"}, "tags": {"3.0.1--h9f5acd7_4": "sha256:5b33438bf941d1b8a2d963f1b04342c398d72543c467fdde8aaf8b6f8d41b7f5", "3.0.1--h4ac6f70_6": "sha256:bb0bb0479c18127414e44f8124531875932a31238279b33baaabb063ff0b097e"}, "docker": "quay.io/biocontainers/straitrazor", "aliases": {"str8rzr": "/usr/local/bin/str8rzr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/straitrazor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/straitrazor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/straitrazor:3.0.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/straitrazor:3.0.1--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/straitrazor/3.0.1--h9f5acd7_4
-$ module help quay.io/biocontainers/straitrazor/3.0.1--h9f5acd7_4
+$ module load quay.io/biocontainers/straitrazor/3.0.1--h4ac6f70_6
+$ module help quay.io/biocontainers/straitrazor/3.0.1--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

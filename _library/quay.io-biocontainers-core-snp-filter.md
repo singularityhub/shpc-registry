@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/core-snp-filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/core-snp-filter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/core-snp-filter/container.yaml"
-updated_at: "2023-05-23 02:42:30.461580"
-latest: "0.1.1--h87f3376_0"
+updated_at: "2023-05-24 02:43:44.841213"
+latest: "0.1.1--hdbdd923_1"
 container_url: "https://biocontainers.pro/tools/core-snp-filter"
 aliases:
  - "coresnpfilter"
@@ -17,8 +17,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.1--h87f3376_0"
+ - "0.1.1--hdbdd923_1"
 description: "singularity registry hpc automated addition for core-snp-filter"
-config: {"url": "https://biocontainers.pro/tools/core-snp-filter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for core-snp-filter", "latest": {"0.1.1--h87f3376_0": "sha256:08196e3bb493450970e8cb9ef784d7298f8d583938eea7fa5cc62fbd3421343a"}, "tags": {"0.1.1--h87f3376_0": "sha256:08196e3bb493450970e8cb9ef784d7298f8d583938eea7fa5cc62fbd3421343a"}, "docker": "quay.io/biocontainers/core-snp-filter", "aliases": {"coresnpfilter": "/usr/local/bin/coresnpfilter", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/core-snp-filter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for core-snp-filter", "latest": {"0.1.1--hdbdd923_1": "sha256:c56017cae5b358458a780d103aed0b1f61b92f90353c881ae3da86104f3e9eda"}, "tags": {"0.1.1--h87f3376_0": "sha256:08196e3bb493450970e8cb9ef784d7298f8d583938eea7fa5cc62fbd3421343a", "0.1.1--hdbdd923_1": "sha256:c56017cae5b358458a780d103aed0b1f61b92f90353c881ae3da86104f3e9eda"}, "docker": "quay.io/biocontainers/core-snp-filter", "aliases": {"coresnpfilter": "/usr/local/bin/coresnpfilter", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/core-snp-filter.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/core-snp-filter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/core-snp-filter:0.1.1--h87f3376_0
+$ shpc install quay.io/biocontainers/core-snp-filter:0.1.1--hdbdd923_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/core-snp-filter/0.1.1--h87f3376_0
-$ module help quay.io/biocontainers/core-snp-filter/0.1.1--h87f3376_0
+$ module load quay.io/biocontainers/core-snp-filter/0.1.1--hdbdd923_1
+$ module help quay.io/biocontainers/core-snp-filter/0.1.1--hdbdd923_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

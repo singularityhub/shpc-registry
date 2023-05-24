@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/archer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/archer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/archer/container.yaml"
-updated_at: "2023-05-23 02:49:09.958253"
+updated_at: "2023-05-24 02:50:08.991419"
 latest: "0.1.1--he881be0_0"
 container_url: "https://biocontainers.pro/tools/archer"
 aliases:

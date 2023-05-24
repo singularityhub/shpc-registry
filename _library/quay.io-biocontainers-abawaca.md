@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/abawaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abawaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abawaca/container.yaml"
-updated_at: "2023-05-23 03:14:49.687899"
-latest: "1.00--h9f5acd7_4"
+updated_at: "2023-05-24 03:14:53.691600"
+latest: "1.00--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/abawaca"
 aliases:
  - "abawaca"
 versions:
  - "1.00--h9f5acd7_4"
+ - "1.00--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for abawaca"
-config: {"url": "https://biocontainers.pro/tools/abawaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abawaca", "latest": {"1.00--h9f5acd7_4": "sha256:df48ab45446d2e77faf912e9a990632a04e0aa7fa45133636f599504107bf724"}, "tags": {"1.00--h9f5acd7_4": "sha256:df48ab45446d2e77faf912e9a990632a04e0aa7fa45133636f599504107bf724"}, "docker": "quay.io/biocontainers/abawaca", "aliases": {"abawaca": "/usr/local/bin/abawaca"}}
+config: {"url": "https://biocontainers.pro/tools/abawaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abawaca", "latest": {"1.00--h4ac6f70_6": "sha256:91de874d4ed747bc28ea53377926f4a10a03c7e27755932d2ba285109ca7dabf"}, "tags": {"1.00--h9f5acd7_4": "sha256:df48ab45446d2e77faf912e9a990632a04e0aa7fa45133636f599504107bf724", "1.00--h4ac6f70_6": "sha256:91de874d4ed747bc28ea53377926f4a10a03c7e27755932d2ba285109ca7dabf"}, "docker": "quay.io/biocontainers/abawaca", "aliases": {"abawaca": "/usr/local/bin/abawaca"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abawaca.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/abawaca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abawaca:1.00--h9f5acd7_4
+$ shpc install quay.io/biocontainers/abawaca:1.00--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abawaca/1.00--h9f5acd7_4
-$ module help quay.io/biocontainers/abawaca/1.00--h9f5acd7_4
+$ module load quay.io/biocontainers/abawaca/1.00--h4ac6f70_6
+$ module help quay.io/biocontainers/abawaca/1.00--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

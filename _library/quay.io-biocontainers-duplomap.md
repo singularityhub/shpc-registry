@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/duplomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duplomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duplomap/container.yaml"
-updated_at: "2023-05-23 02:42:24.978398"
-latest: "0.9.5--h7132678_2"
+updated_at: "2023-05-24 02:43:39.515197"
+latest: "0.9.5--he4a0461_3"
 container_url: "https://biocontainers.pro/tools/duplomap"
 aliases:
  - "duplomap"
@@ -22,8 +22,9 @@ aliases:
  - "md5fa"
 versions:
  - "0.9.5--h7132678_2"
+ - "0.9.5--he4a0461_3"
 description: "shpc-registry automated BioContainers addition for duplomap"
-config: {"url": "https://biocontainers.pro/tools/duplomap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duplomap", "latest": {"0.9.5--h7132678_2": "sha256:205bf25a1c6991a1b9e7eec0b659d0d57e734611f9ecb802dfd5a0083b628570"}, "tags": {"0.9.5--h7132678_2": "sha256:205bf25a1c6991a1b9e7eec0b659d0d57e734611f9ecb802dfd5a0083b628570"}, "docker": "quay.io/biocontainers/duplomap", "aliases": {"duplomap": "/usr/local/bin/duplomap", "duplomap-prepare": "/usr/local/bin/duplomap-prepare", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/duplomap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duplomap", "latest": {"0.9.5--he4a0461_3": "sha256:d12bc6989241bf8d5e4e0e55b91158346975f796cb9521c9e94e1c3ab99b8edc"}, "tags": {"0.9.5--h7132678_2": "sha256:205bf25a1c6991a1b9e7eec0b659d0d57e734611f9ecb802dfd5a0083b628570", "0.9.5--he4a0461_3": "sha256:d12bc6989241bf8d5e4e0e55b91158346975f796cb9521c9e94e1c3ab99b8edc"}, "docker": "quay.io/biocontainers/duplomap", "aliases": {"duplomap": "/usr/local/bin/duplomap", "duplomap-prepare": "/usr/local/bin/duplomap-prepare", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/duplomap.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/duplomap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/duplomap:0.9.5--h7132678_2
+$ shpc install quay.io/biocontainers/duplomap:0.9.5--he4a0461_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/duplomap/0.9.5--h7132678_2
-$ module help quay.io/biocontainers/duplomap/0.9.5--h7132678_2
+$ module load quay.io/biocontainers/duplomap/0.9.5--he4a0461_3
+$ module help quay.io/biocontainers/duplomap/0.9.5--he4a0461_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

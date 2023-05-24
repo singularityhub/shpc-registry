@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/confindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/confindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/confindr/container.yaml"
-updated_at: "2023-05-23 03:12:22.161692"
-latest: "0.7.4--py_0"
+updated_at: "2023-05-24 03:12:30.324422"
+latest: "0.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/confindr"
 aliases:
  - "confindr"
@@ -28,8 +28,9 @@ aliases:
  - "addssu.sh"
 versions:
  - "0.7.4--py_0"
+ - "0.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for confindr"
-config: {"url": "https://biocontainers.pro/tools/confindr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for confindr", "latest": {"0.7.4--py_0": "sha256:f282610616c8fd04bafcd365303b6c9dbdc010406fea44f3bcdd7c0010e55688"}, "tags": {"0.7.4--py_0": "sha256:f282610616c8fd04bafcd365303b6c9dbdc010406fea44f3bcdd7c0010e55688"}, "docker": "quay.io/biocontainers/confindr", "aliases": {"confindr": "/usr/local/bin/confindr", "confindr.py": "/usr/local/bin/confindr.py", "confindr_create_db": "/usr/local/bin/confindr_create_db", "confindr_database_setup": "/usr/local/bin/confindr_database_setup", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh"}}
+config: {"url": "https://biocontainers.pro/tools/confindr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for confindr", "latest": {"0.8.1--pyhdfd78af_0": "sha256:6485b0258a55055c90269070dccf1888d7631e91151888444e6305679e281e7c"}, "tags": {"0.7.4--py_0": "sha256:f282610616c8fd04bafcd365303b6c9dbdc010406fea44f3bcdd7c0010e55688", "0.8.1--pyhdfd78af_0": "sha256:6485b0258a55055c90269070dccf1888d7631e91151888444e6305679e281e7c"}, "docker": "quay.io/biocontainers/confindr", "aliases": {"confindr": "/usr/local/bin/confindr", "confindr.py": "/usr/local/bin/confindr.py", "confindr_create_db": "/usr/local/bin/confindr_create_db", "confindr_database_setup": "/usr/local/bin/confindr_database_setup", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/confindr.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/confindr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/confindr:0.7.4--py_0
+$ shpc install quay.io/biocontainers/confindr:0.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/confindr/0.7.4--py_0
-$ module help quay.io/biocontainers/confindr/0.7.4--py_0
+$ module load quay.io/biocontainers/confindr/0.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/confindr/0.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

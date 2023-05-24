@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-unicode-utf8"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-utf8/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-utf8/container.yaml"
-updated_at: "2023-05-23 02:38:33.841900"
+updated_at: "2023-05-24 02:40:00.898907"
 latest: "0.62--pl5321h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/perl-unicode-utf8"
 aliases:

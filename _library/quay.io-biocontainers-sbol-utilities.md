@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sbol-utilities"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sbol-utilities/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sbol-utilities/container.yaml"
-updated_at: "2023-05-23 03:05:18.014101"
-latest: "1.0a16--pyhdfd78af_0"
+updated_at: "2023-05-24 03:05:42.314907"
+latest: "1.0a17--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sbol-utilities"
 aliases:
  - "corepack"
@@ -53,8 +53,9 @@ aliases:
  - "gtk-update-icon-cache"
 versions:
  - "1.0a16--pyhdfd78af_0"
+ - "1.0a17--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sbol-utilities"
-config: {"url": "https://biocontainers.pro/tools/sbol-utilities", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sbol-utilities", "latest": {"1.0a16--pyhdfd78af_0": "sha256:0d48dd44a56e227f67ce1ae3a243bc001cddc68feeed413dc0298a4addfc7d0f"}, "tags": {"1.0a16--pyhdfd78af_0": "sha256:0d48dd44a56e227f67ce1ae3a243bc001cddc68feeed413dc0298a4addfc7d0f"}, "docker": "quay.io/biocontainers/sbol-utilities", "aliases": {"corepack": "/usr/local/bin/corepack", "excel-to-sbol": "/usr/local/bin/excel-to-sbol", "fasta2sbol": "/usr/local/bin/fasta2sbol", "genbank2sbol": "/usr/local/bin/genbank2sbol", "graph-sbol": "/usr/local/bin/graph-sbol", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "owlrl": "/usr/local/bin/owlrl", "pyshacl": "/usr/local/bin/pyshacl", "sbol-calculate-sequences": "/usr/local/bin/sbol-calculate-sequences", "sbol-converter": "/usr/local/bin/sbol-converter", "sbol-diff": "/usr/local/bin/sbol-diff", "sbol-expand-derivations": "/usr/local/bin/sbol-expand-derivations", "sbol2fasta": "/usr/local/bin/sbol2fasta", "sbol2genbank": "/usr/local/bin/sbol2genbank", "sbol2to3": "/usr/local/bin/sbol2to3", "sbol3to2": "/usr/local/bin/sbol3to2", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache"}}
+config: {"url": "https://biocontainers.pro/tools/sbol-utilities", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sbol-utilities", "latest": {"1.0a17--pyhdfd78af_0": "sha256:f0c6dd2ed3ee860d3796b42212c036e9fe5c77148e92289787b37026967be8bc"}, "tags": {"1.0a16--pyhdfd78af_0": "sha256:0d48dd44a56e227f67ce1ae3a243bc001cddc68feeed413dc0298a4addfc7d0f", "1.0a17--pyhdfd78af_0": "sha256:f0c6dd2ed3ee860d3796b42212c036e9fe5c77148e92289787b37026967be8bc"}, "docker": "quay.io/biocontainers/sbol-utilities", "aliases": {"corepack": "/usr/local/bin/corepack", "excel-to-sbol": "/usr/local/bin/excel-to-sbol", "fasta2sbol": "/usr/local/bin/fasta2sbol", "genbank2sbol": "/usr/local/bin/genbank2sbol", "graph-sbol": "/usr/local/bin/graph-sbol", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "owlrl": "/usr/local/bin/owlrl", "pyshacl": "/usr/local/bin/pyshacl", "sbol-calculate-sequences": "/usr/local/bin/sbol-calculate-sequences", "sbol-converter": "/usr/local/bin/sbol-converter", "sbol-diff": "/usr/local/bin/sbol-diff", "sbol-expand-derivations": "/usr/local/bin/sbol-expand-derivations", "sbol2fasta": "/usr/local/bin/sbol2fasta", "sbol2genbank": "/usr/local/bin/sbol2genbank", "sbol2to3": "/usr/local/bin/sbol2to3", "sbol3to2": "/usr/local/bin/sbol3to2", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sbol-utilities.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/sbol-utilities
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sbol-utilities:1.0a16--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sbol-utilities:1.0a17--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sbol-utilities/1.0a16--pyhdfd78af_0
-$ module help quay.io/biocontainers/sbol-utilities/1.0a16--pyhdfd78af_0
+$ module load quay.io/biocontainers/sbol-utilities/1.0a17--pyhdfd78af_0
+$ module help quay.io/biocontainers/sbol-utilities/1.0a17--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

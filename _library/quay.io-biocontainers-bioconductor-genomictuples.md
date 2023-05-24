@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-genomictuples"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomictuples/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomictuples/container.yaml"
-updated_at: "2023-05-23 03:01:49.283337"
-latest: "1.32.0--r42hc247a5b_0"
+updated_at: "2023-05-24 03:02:21.959136"
+latest: "1.32.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomictuples"
 
 versions:
  - "1.28.0--r41hc247a5b_2"
  - "1.32.0--r42hc247a5b_0"
+ - "1.32.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomictuples"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomictuples", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomictuples", "latest": {"1.32.0--r42hc247a5b_0": "sha256:29f3e7f0436601c5e745ecb0f3498b11f0dc7d54b417e3923a3a88b44bf2d162"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:ba646903267be89a5541677cc410b66802c81702330a95fef85df83c6557d57b", "1.32.0--r42hc247a5b_0": "sha256:29f3e7f0436601c5e745ecb0f3498b11f0dc7d54b417e3923a3a88b44bf2d162"}, "docker": "quay.io/biocontainers/bioconductor-genomictuples"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomictuples", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomictuples", "latest": {"1.32.0--r42hf17093f_1": "sha256:52a168a34950d1fb709876c05afda917709b92844a3cc10f6b7ad60e641268ce"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:ba646903267be89a5541677cc410b66802c81702330a95fef85df83c6557d57b", "1.32.0--r42hc247a5b_0": "sha256:29f3e7f0436601c5e745ecb0f3498b11f0dc7d54b417e3923a3a88b44bf2d162", "1.32.0--r42hf17093f_1": "sha256:52a168a34950d1fb709876c05afda917709b92844a3cc10f6b7ad60e641268ce"}, "docker": "quay.io/biocontainers/bioconductor-genomictuples"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomictuples.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomictuples
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomictuples:1.32.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-genomictuples:1.32.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomictuples/1.32.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-genomictuples/1.32.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-genomictuples/1.32.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-genomictuples/1.32.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

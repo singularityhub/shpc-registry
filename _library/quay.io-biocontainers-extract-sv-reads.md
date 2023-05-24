@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/extract-sv-reads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract-sv-reads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract-sv-reads/container.yaml"
-updated_at: "2023-05-23 03:16:44.759640"
-latest: "1.3.0--pl5321h2df963e_3"
+updated_at: "2023-05-24 03:16:44.221498"
+latest: "1.3.0--pl5321h376f1d3_4"
 container_url: "https://biocontainers.pro/tools/extract-sv-reads"
 aliases:
  - "extract-sv-reads"
@@ -16,8 +16,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.3.0--pl5321h2df963e_3"
+ - "1.3.0--pl5321h376f1d3_4"
 description: "shpc-registry automated BioContainers addition for extract-sv-reads"
-config: {"url": "https://biocontainers.pro/tools/extract-sv-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract-sv-reads", "latest": {"1.3.0--pl5321h2df963e_3": "sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622"}, "tags": {"1.3.0--pl5321h2df963e_3": "sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622"}, "docker": "quay.io/biocontainers/extract-sv-reads", "aliases": {"extract-sv-reads": "/usr/local/bin/extract-sv-reads", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/extract-sv-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract-sv-reads", "latest": {"1.3.0--pl5321h376f1d3_4": "sha256:ab377bdb5bd02b56da34e4f4ca8871a29bd5351b1031d622b806da2fcf9049cc"}, "tags": {"1.3.0--pl5321h2df963e_3": "sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622", "1.3.0--pl5321h376f1d3_4": "sha256:ab377bdb5bd02b56da34e4f4ca8871a29bd5351b1031d622b806da2fcf9049cc"}, "docker": "quay.io/biocontainers/extract-sv-reads", "aliases": {"extract-sv-reads": "/usr/local/bin/extract-sv-reads", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extract-sv-reads.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/extract-sv-reads
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/extract-sv-reads:1.3.0--pl5321h2df963e_3
+$ shpc install quay.io/biocontainers/extract-sv-reads:1.3.0--pl5321h376f1d3_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/extract-sv-reads/1.3.0--pl5321h2df963e_3
-$ module help quay.io/biocontainers/extract-sv-reads/1.3.0--pl5321h2df963e_3
+$ module load quay.io/biocontainers/extract-sv-reads/1.3.0--pl5321h376f1d3_4
+$ module help quay.io/biocontainers/extract-sv-reads/1.3.0--pl5321h376f1d3_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

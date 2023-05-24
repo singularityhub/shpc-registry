@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perbase/container.yaml"
-updated_at: "2023-05-23 02:38:27.176290"
-latest: "0.8.5--h93ac3e5_1"
+updated_at: "2023-05-24 02:39:54.406225"
+latest: "0.8.5--h787ab5b_3"
 container_url: "https://biocontainers.pro/tools/perbase"
 aliases:
  - "perbase"
 versions:
  - "0.8.5--h93ac3e5_1"
+ - "0.8.5--h787ab5b_3"
 description: "shpc-registry automated BioContainers addition for perbase"
-config: {"url": "https://biocontainers.pro/tools/perbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perbase", "latest": {"0.8.5--h93ac3e5_1": "sha256:306bfc77a7e69036f16afb048c93abef6661c15ea5c4d21c13bb108935d90328"}, "tags": {"0.8.5--h93ac3e5_1": "sha256:306bfc77a7e69036f16afb048c93abef6661c15ea5c4d21c13bb108935d90328"}, "docker": "quay.io/biocontainers/perbase", "aliases": {"perbase": "/usr/local/bin/perbase"}}
+config: {"url": "https://biocontainers.pro/tools/perbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perbase", "latest": {"0.8.5--h787ab5b_3": "sha256:aceec74cd00d995a86cbcb077ac8f177311bc751faa0f3429ebecfeed3eadc35"}, "tags": {"0.8.5--h93ac3e5_1": "sha256:306bfc77a7e69036f16afb048c93abef6661c15ea5c4d21c13bb108935d90328", "0.8.5--h787ab5b_3": "sha256:aceec74cd00d995a86cbcb077ac8f177311bc751faa0f3429ebecfeed3eadc35"}, "docker": "quay.io/biocontainers/perbase", "aliases": {"perbase": "/usr/local/bin/perbase"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perbase.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/perbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perbase:0.8.5--h93ac3e5_1
+$ shpc install quay.io/biocontainers/perbase:0.8.5--h787ab5b_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perbase/0.8.5--h93ac3e5_1
-$ module help quay.io/biocontainers/perbase/0.8.5--h93ac3e5_1
+$ module load quay.io/biocontainers/perbase/0.8.5--h787ab5b_3
+$ module help quay.io/biocontainers/perbase/0.8.5--h787ab5b_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

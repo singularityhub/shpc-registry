@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/atlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas/container.yaml"
-updated_at: "2023-05-23 03:01:19.373770"
-latest: "0.9.9--h42556f1_1"
+updated_at: "2023-05-24 03:01:52.690959"
+latest: "0.9.9--h0bf65d5_3"
 container_url: "https://biocontainers.pro/tools/atlas"
 aliases:
  - "atlas"
 versions:
  - "0.9.9--h42556f1_1"
+ - "0.9.9--h0bf65d5_3"
 description: "shpc-registry automated BioContainers addition for atlas"
-config: {"url": "https://biocontainers.pro/tools/atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atlas", "latest": {"0.9.9--h42556f1_1": "sha256:b356e7fa38d7c7a1cb110479105437c32084a33fedeebfe58c9d8f37fdc50383"}, "tags": {"0.9.9--h42556f1_1": "sha256:b356e7fa38d7c7a1cb110479105437c32084a33fedeebfe58c9d8f37fdc50383"}, "docker": "quay.io/biocontainers/atlas", "aliases": {"atlas": "/usr/local/bin/atlas"}}
+config: {"url": "https://biocontainers.pro/tools/atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atlas", "latest": {"0.9.9--h0bf65d5_3": "sha256:a67db52475ff46c2debb1eb5704f001b1e1130aeca1d12ceb8ed6884d78e50a1"}, "tags": {"0.9.9--h42556f1_1": "sha256:b356e7fa38d7c7a1cb110479105437c32084a33fedeebfe58c9d8f37fdc50383", "0.9.9--h0bf65d5_3": "sha256:a67db52475ff46c2debb1eb5704f001b1e1130aeca1d12ceb8ed6884d78e50a1"}, "docker": "quay.io/biocontainers/atlas", "aliases": {"atlas": "/usr/local/bin/atlas"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atlas.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/atlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/atlas:0.9.9--h42556f1_1
+$ shpc install quay.io/biocontainers/atlas:0.9.9--h0bf65d5_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/atlas/0.9.9--h42556f1_1
-$ module help quay.io/biocontainers/atlas/0.9.9--h42556f1_1
+$ module load quay.io/biocontainers/atlas/0.9.9--h0bf65d5_3
+$ module help quay.io/biocontainers/atlas/0.9.9--h0bf65d5_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kyototycoon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kyototycoon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kyototycoon/container.yaml"
-updated_at: "2023-05-23 02:53:40.770232"
-latest: "20170410--hf64b9f5_2"
+updated_at: "2023-05-24 02:54:29.358309"
+latest: "20170410--h27c383b_4"
 container_url: "https://biocontainers.pro/tools/kyototycoon"
 aliases:
  - "kccachetest"
@@ -38,8 +38,10 @@ versions:
  - "20170410--hf64b9f5_2"
  - "20170410--hd344e51_1"
  - "20170410--h896b458_0"
+ - "20170410--h27c383b_4"
+ - "20170410--hf64b9f5_3"
 description: "shpc-registry automated BioContainers addition for kyototycoon"
-config: {"url": "https://biocontainers.pro/tools/kyototycoon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kyototycoon", "latest": {"20170410--hf64b9f5_2": "sha256:8f514fe6f5129d839b2d060cc58433dfac80f3f7d01cc9da7c450f9c577648ac"}, "tags": {"2017.04.10--hd344e51_3": "sha256:6651b8770a005a6cce1af51ae6dbeea7a73b8ba9dadd92249fa796d7dc6fbc0e", "20170410--hf64b9f5_2": "sha256:8f514fe6f5129d839b2d060cc58433dfac80f3f7d01cc9da7c450f9c577648ac", "20170410--hd344e51_1": "sha256:f814042945631d1bca3a97f1b46831c4c6a647a799c04ffe0d77ce7f88ce8d7c", "20170410--h896b458_0": "sha256:acda5ac9fdcfec966e0147031fe8ea4f02ada6dbdbd3b169273ed18377af6bdb"}, "docker": "quay.io/biocontainers/kyototycoon", "aliases": {"kccachetest": "/usr/local/bin/kccachetest", "kcdirmgr": "/usr/local/bin/kcdirmgr", "kcdirtest": "/usr/local/bin/kcdirtest", "kcforestmgr": "/usr/local/bin/kcforestmgr", "kcforesttest": "/usr/local/bin/kcforesttest", "kcgrasstest": "/usr/local/bin/kcgrasstest", "kchashmgr": "/usr/local/bin/kchashmgr", "kchashtest": "/usr/local/bin/kchashtest", "kclangctest": "/usr/local/bin/kclangctest", "kcpolymgr": "/usr/local/bin/kcpolymgr", "kcpolytest": "/usr/local/bin/kcpolytest", "kcprototest": "/usr/local/bin/kcprototest", "kcstashtest": "/usr/local/bin/kcstashtest", "kctreemgr": "/usr/local/bin/kctreemgr", "kctreetest": "/usr/local/bin/kctreetest", "kcutilmgr": "/usr/local/bin/kcutilmgr", "kcutiltest": "/usr/local/bin/kcutiltest", "ktremotemgr": "/usr/local/bin/ktremotemgr", "ktremotetest": "/usr/local/bin/ktremotetest", "ktserver": "/usr/local/bin/ktserver", "kttimedmgr": "/usr/local/bin/kttimedmgr", "kttimedtest": "/usr/local/bin/kttimedtest", "ktutilmgr": "/usr/local/bin/ktutilmgr", "ktutilserv": "/usr/local/bin/ktutilserv", "ktutiltest": "/usr/local/bin/ktutiltest"}}
+config: {"url": "https://biocontainers.pro/tools/kyototycoon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kyototycoon", "latest": {"20170410--h27c383b_4": "sha256:63003a4d2a53e2b54e48a89130b2d1a74834ba647596877ab4e7873f5aa686c4"}, "tags": {"2017.04.10--hd344e51_3": "sha256:6651b8770a005a6cce1af51ae6dbeea7a73b8ba9dadd92249fa796d7dc6fbc0e", "20170410--hf64b9f5_2": "sha256:8f514fe6f5129d839b2d060cc58433dfac80f3f7d01cc9da7c450f9c577648ac", "20170410--hd344e51_1": "sha256:f814042945631d1bca3a97f1b46831c4c6a647a799c04ffe0d77ce7f88ce8d7c", "20170410--h896b458_0": "sha256:acda5ac9fdcfec966e0147031fe8ea4f02ada6dbdbd3b169273ed18377af6bdb", "20170410--h27c383b_4": "sha256:63003a4d2a53e2b54e48a89130b2d1a74834ba647596877ab4e7873f5aa686c4", "20170410--hf64b9f5_3": "sha256:344352d5edaa4ffba425ed21025b37449d41829380e619549b5d3cc30e6ea594"}, "docker": "quay.io/biocontainers/kyototycoon", "aliases": {"kccachetest": "/usr/local/bin/kccachetest", "kcdirmgr": "/usr/local/bin/kcdirmgr", "kcdirtest": "/usr/local/bin/kcdirtest", "kcforestmgr": "/usr/local/bin/kcforestmgr", "kcforesttest": "/usr/local/bin/kcforesttest", "kcgrasstest": "/usr/local/bin/kcgrasstest", "kchashmgr": "/usr/local/bin/kchashmgr", "kchashtest": "/usr/local/bin/kchashtest", "kclangctest": "/usr/local/bin/kclangctest", "kcpolymgr": "/usr/local/bin/kcpolymgr", "kcpolytest": "/usr/local/bin/kcpolytest", "kcprototest": "/usr/local/bin/kcprototest", "kcstashtest": "/usr/local/bin/kcstashtest", "kctreemgr": "/usr/local/bin/kctreemgr", "kctreetest": "/usr/local/bin/kctreetest", "kcutilmgr": "/usr/local/bin/kcutilmgr", "kcutiltest": "/usr/local/bin/kcutiltest", "ktremotemgr": "/usr/local/bin/ktremotemgr", "ktremotetest": "/usr/local/bin/ktremotetest", "ktserver": "/usr/local/bin/ktserver", "kttimedmgr": "/usr/local/bin/kttimedmgr", "kttimedtest": "/usr/local/bin/kttimedtest", "ktutilmgr": "/usr/local/bin/ktutilmgr", "ktutilserv": "/usr/local/bin/ktutilserv", "ktutiltest": "/usr/local/bin/ktutiltest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kyototycoon.
@@ -54,7 +56,7 @@ $ shpc install quay.io/biocontainers/kyototycoon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kyototycoon:20170410--hf64b9f5_2
+$ shpc install quay.io/biocontainers/kyototycoon:20170410--h27c383b_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kyototycoon/20170410--hf64b9f5_2
-$ module help quay.io/biocontainers/kyototycoon/20170410--hf64b9f5_2
+$ module load quay.io/biocontainers/kyototycoon/20170410--h27c383b_4
+$ module help quay.io/biocontainers/kyototycoon/20170410--h27c383b_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

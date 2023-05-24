@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybmtools/container.yaml"
-updated_at: "2023-05-23 03:11:08.949292"
+updated_at: "2023-05-24 03:11:18.990257"
 latest: "0.1.3--py39h792ddb7_0"
 container_url: "https://biocontainers.pro/tools/pybmtools"
 aliases:
