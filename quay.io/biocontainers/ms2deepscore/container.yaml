@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/ms2deepscore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ms2deepscore
+latest:
+  0.4.0--pyhdfd78af_0: sha256:15b9202143fea24dbd2549fce878c550407d6a077e289c5f13f4215950a3755d
+tags:
+  0.4.0--pyhdfd78af_0: sha256:15b9202143fea24dbd2549fce878c550407d6a077e289c5f13f4215950a3755d
+docker: quay.io/biocontainers/ms2deepscore
+aliases:
+  flatc: /usr/local/bin/flatc
+  h5delete: /usr/local/bin/h5delete
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  aec: /usr/local/bin/aec
+  tjbench: /usr/local/bin/tjbench
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  markdown_py: /usr/local/bin/markdown_py
+  numba: /usr/local/bin/numba
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub

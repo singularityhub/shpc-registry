@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/panfeed
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panfeed
+latest:
+  1.5.0--pyhdfd78af_0: sha256:ee35faf0bd99c468cecce894b2790789fd0399d52eb5f05c44407af9e70f69fb
+tags:
+  1.5.0--pyhdfd78af_0: sha256:ee35faf0bd99c468cecce894b2790789fd0399d52eb5f05c44407af9e70f69fb
+docker: quay.io/biocontainers/panfeed
+aliases:
+  panfeed: /usr/local/bin/panfeed
+  panfeed-get-clusters: /usr/local/bin/panfeed-get-clusters
+  panfeed-get-kmers: /usr/local/bin/panfeed-get-kmers
+  panfeed-plot: /usr/local/bin/panfeed-plot
+  tjbench: /usr/local/bin/tjbench
+  f2py3.11: /usr/local/bin/f2py3.11
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
