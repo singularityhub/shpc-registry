@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/clinvar-tsv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clinvar-tsv
 latest:
-  0.4.1--pyhdfd78af_0: sha256:34c80732e46c48667f40e081acb748630e47ff6d372d4fc17e6a82ea60d18295
+  0.5.0--pyhdfd78af_0: sha256:6cd096722e0679cd4ad3ec772e98dcd89deb35c4938b29840aa1da11fc12fb1d
 tags:
   0.4.1--pyhdfd78af_0: sha256:34c80732e46c48667f40e081acb748630e47ff6d372d4fc17e6a82ea60d18295
+  0.5.0--pyhdfd78af_0: sha256:6cd096722e0679cd4ad3ec772e98dcd89deb35c4938b29840aa1da11fc12fb1d
 docker: quay.io/biocontainers/clinvar-tsv
 aliases:
   clinvar_tsv: /usr/local/bin/clinvar_tsv

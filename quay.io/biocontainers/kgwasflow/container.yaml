@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kgwasflow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kgwasflow
 latest:
-  1.2.1--pyhdfd78af_0: sha256:4f21decf9dc99c21b6409d0be5534312d441d7ec0472d766e6f99eea5b6aa018
+  1.2.3--pyhdfd78af_0: sha256:b1c5d75fcf8711c654b57dbf14f69c4901fc492cefe2465ae6e4fea551cedd46
 tags:
   1.2.1--pyhdfd78af_0: sha256:4f21decf9dc99c21b6409d0be5534312d441d7ec0472d766e6f99eea5b6aa018
+  1.2.3--pyhdfd78af_0: sha256:b1c5d75fcf8711c654b57dbf14f69c4901fc492cefe2465ae6e4fea551cedd46
 docker: quay.io/biocontainers/kgwasflow
 aliases:
   jsondiff: /usr/local/bin/jsondiff

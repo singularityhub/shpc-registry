@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mammal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mammal
 latest:
-  1.1.1--h87f3376_0: sha256:233eb078fad2e6eb913e2e69ccda7d1cd6cabfa25259022ae44596d94712a6f6
+  1.1.1--hdbdd923_2: sha256:cb61ffcb3e175a64b77ff19945163f1ccae9546284428517c3ba67af402bb286
 tags:
   1.1.1--h87f3376_0: sha256:233eb078fad2e6eb913e2e69ccda7d1cd6cabfa25259022ae44596d94712a6f6
+  1.1.1--hdbdd923_2: sha256:cb61ffcb3e175a64b77ff19945163f1ccae9546284428517c3ba67af402bb286
 docker: quay.io/biocontainers/mammal
 aliases:
   charfreq: /usr/local/bin/charfreq

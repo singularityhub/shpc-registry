@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-eir
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-eir
 latest:
-  1.38.0--r42hc247a5b_0: sha256:7b1c86afdea6e0cd60ab278ff18da230f439a3dfb493623eca205876cc7af2b7
+  1.38.0--r42hf17093f_1: sha256:e9a7d64cfafbc68d9c108d0aad21858b7f87c4d4c909b6acaeb07edac32fdd3a
 tags:
   1.34.0--r41hc247a5b_2: sha256:2fbb2bc95428289a24ddce95824f0dbde014016fcbf66d18a78411c7501f1e64
   1.38.0--r42hc247a5b_0: sha256:7b1c86afdea6e0cd60ab278ff18da230f439a3dfb493623eca205876cc7af2b7
+  1.38.0--r42hf17093f_1: sha256:e9a7d64cfafbc68d9c108d0aad21858b7f87c4d4c909b6acaeb07edac32fdd3a
 docker: quay.io/biocontainers/bioconductor-eir
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

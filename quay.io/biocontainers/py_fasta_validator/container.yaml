@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/py_fasta_validator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for py_fasta_validator
 latest:
-  0.6--py39h6935b12_0: sha256:f5274a5bf7b3e8c1a7b8e47a2e62333daa04cd33e163399755802da3ffbb23d1
+  0.6--py39hd65a603_3: sha256:941dd9f0469a53304c376faa1eb9672b77dddb0334d8033414e1742d08926264
 tags:
   0.5--py38h4a32c8e_3: sha256:a9e80e766f3cb5917faec86d426463017d36ab566451ef5c437a2570ee25d582
   0.6--py39h6935b12_0: sha256:f5274a5bf7b3e8c1a7b8e47a2e62333daa04cd33e163399755802da3ffbb23d1
+  0.6--py39hd65a603_3: sha256:941dd9f0469a53304c376faa1eb9672b77dddb0334d8033414e1742d08926264
 docker: quay.io/biocontainers/py_fasta_validator
 aliases:
   py_fasta_validator: /usr/local/bin/py_fasta_validator

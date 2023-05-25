@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/grep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for grep
 latest:
-  3.4--hcb20899_2: sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc
+  3.4--hf43ccf4_4: sha256:8a95935ff6ab5836c294b2c0d7c183e85f7d4d3bb9603a76d6cd3d4ec83680e6
 tags:
   3.4--hcb20899_2: sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc
+  3.4--hf43ccf4_4: sha256:8a95935ff6ab5836c294b2c0d7c183e85f7d4d3bb9603a76d6cd3d4ec83680e6
 docker: quay.io/biocontainers/grep
 aliases:
   egrep: /usr/local/bin/egrep

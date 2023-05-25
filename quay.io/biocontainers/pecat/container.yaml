@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pecat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pecat
 latest:
-  0.0.1--h5b5514e_0: sha256:cebf6e63e3cb8799318dd819404f14c351a07ac8f7388a464e14d16e80de8dcd
+  0.0.2--h5b5514e_0: sha256:1ac01f1a4b68765237f4f1247f03ea3172a8e66afacb973e21758c3b602ed5c7
 tags:
   0.0.1--h5b5514e_0: sha256:cebf6e63e3cb8799318dd819404f14c351a07ac8f7388a464e14d16e80de8dcd
+  0.0.2--h5b5514e_0: sha256:1ac01f1a4b68765237f4f1247f03ea3172a8e66afacb973e21758c3b602ed5c7
 docker: quay.io/biocontainers/pecat
 aliases:
   pecat.pl: /usr/local/bin/pecat.pl

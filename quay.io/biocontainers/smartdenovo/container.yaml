@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/smartdenovo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smartdenovo
 latest:
-  1.0.0--hec16e2b_5: sha256:0d45291b3ba458ea76b2a8aaa0f2b94b2a064721ac62e47ac053c80d55e4b13b
+  1.0.0--h031d066_7: sha256:e98d67ff989b2707d04247395a800d8e18178e56689ef315f333872ca82bddc4
 tags:
   1.0.0--hec16e2b_5: sha256:0d45291b3ba458ea76b2a8aaa0f2b94b2a064721ac62e47ac053c80d55e4b13b
+  1.0.0--h031d066_7: sha256:e98d67ff989b2707d04247395a800d8e18178e56689ef315f333872ca82bddc4
 docker: quay.io/biocontainers/smartdenovo
 aliases:
   pairaln: /usr/local/bin/pairaln

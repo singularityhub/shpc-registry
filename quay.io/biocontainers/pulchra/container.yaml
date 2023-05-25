@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pulchra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pulchra
 latest:
-  3.06--hec16e2b_2: sha256:9b68b17228447aafa87caa2a78a841179b5563180970eb9a9e621dc6ae644c4d
+  3.06--h031d066_4: sha256:ee90cccfd03022181f2b8ce35eff63d7e112fa53edbcdd09b6388a77cb4af21b
 tags:
   3.06--hec16e2b_2: sha256:9b68b17228447aafa87caa2a78a841179b5563180970eb9a9e621dc6ae644c4d
+  3.06--h031d066_4: sha256:ee90cccfd03022181f2b8ce35eff63d7e112fa53edbcdd09b6388a77cb4af21b
 docker: quay.io/biocontainers/pulchra
 aliases:
   pulchra: /usr/local/bin/pulchra

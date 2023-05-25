@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-pipette
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pipette
 latest:
-  0.10.8--r42hdfd78af_0: sha256:cad9b9559afbabb4088bbc13c0c625a2ef305eb92d9ea48a53cf44c43bc8deee
+  0.10.9--r42hdfd78af_1: sha256:03d247614ce3d141009342b16850f4eaf4b825053cbd5784c5b97cf57b3aa6cd
 tags:
   0.8.0--r41hdfd78af_0: sha256:5ac1750a3fdd6f03d7b8b54ab314e91e1c5b5a9c5324a21cecc549e83969f0f2
   0.10.1--r42hdfd78af_1: sha256:6a9cf12053e3e28412e519dfee8562db04ea2fadf522354a4332b10a2c6ce596
@@ -10,4 +10,5 @@ tags:
   0.10.4--r42hdfd78af_0: sha256:fd20f81411a4508200e45a6a8c6d4a740e7c3f92fd971bfbda87a4e0dce4cb3a
   0.10.4--r42hdfd78af_1: sha256:bfdcce1af4957bef49305b576ac31e522850ef636dd962175b966c8ce1e36e55
   0.10.8--r42hdfd78af_0: sha256:cad9b9559afbabb4088bbc13c0c625a2ef305eb92d9ea48a53cf44c43bc8deee
+  0.10.9--r42hdfd78af_1: sha256:03d247614ce3d141009342b16850f4eaf4b825053cbd5784c5b97cf57b3aa6cd
 docker: quay.io/biocontainers/r-pipette
