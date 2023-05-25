@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/methphaser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for methphaser
+latest:
+  0.0.3--hdfd78af_0: sha256:042ffeeaedd1fbcad1163d4cf27abf7113557e345cb2d6b2e6e05924609900b6
+tags:
+  0.0.3--hdfd78af_0: sha256:042ffeeaedd1fbcad1163d4cf27abf7113557e345cb2d6b2e6e05924609900b6
+docker: quay.io/biocontainers/methphaser
+aliases:
+  meth_phaser_parallel: /usr/local/bin/meth_phaser_parallel
+  meth_phaser_post_processing: /usr/local/bin/meth_phaser_post_processing
+  methphasing: /usr/local/bin/methphasing
+  tjbench: /usr/local/bin/tjbench
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

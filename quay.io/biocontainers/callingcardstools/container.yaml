@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/callingcardstools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for callingcardstools
+latest:
+  1.0.0--pyhca03a8a_0: sha256:b38c184d2a48b1f29947c07f9bc1ca03510f2d8e1cab7b076eb0e5ad8b7b4813
+tags:
+  1.0.0--pyhca03a8a_0: sha256:b38c184d2a48b1f29947c07f9bc1ca03510f2d8e1cab7b076eb0e5ad8b7b4813
+docker: quay.io/biocontainers/callingcardstools
+aliases:
+  callingcardstools: /usr/local/bin/callingcardstools
+  dul-receive-pack: /usr/local/bin/dul-receive-pack
+  dul-upload-pack: /usr/local/bin/dul-upload-pack
+  dulwich: /usr/local/bin/dulwich
+  keyring: /usr/local/bin/keyring
+  pkginfo: /usr/local/bin/pkginfo
+  poetry: /usr/local/bin/poetry
+  pyproject-build: /usr/local/bin/pyproject-build
+  python-build: /usr/local/bin/python-build
+  virtualenv: /usr/local/bin/virtualenv
+  doesitcache: /usr/local/bin/doesitcache
+  jsonschema: /usr/local/bin/jsonschema
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

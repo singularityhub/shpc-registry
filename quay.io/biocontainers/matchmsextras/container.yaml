@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/matchmsextras
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for matchmsextras
+latest:
+  0.4.1--pyhdfd78af_0: sha256:994b06c47980dbe7731c54d0ee2b2030d172ffbb22ddeb0996d5d5bf187fd022
+tags:
+  0.4.1--pyhdfd78af_0: sha256:994b06c47980dbe7731c54d0ee2b2030d172ffbb22ddeb0996d5d5bf187fd022
+docker: quay.io/biocontainers/matchmsextras
+aliases:
+  community: /usr/local/bin/community
+  tjbench: /usr/local/bin/tjbench
+  f2py3.11: /usr/local/bin/f2py3.11
+  numba: /usr/local/bin/numba
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
