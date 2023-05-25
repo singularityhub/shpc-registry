@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-birewire"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-birewire/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-birewire/container.yaml"
-updated_at: "2023-05-24 03:08:35.437825"
-latest: "3.30.0--r42hc0cfd56_0"
+updated_at: "2023-05-25 03:10:37.859708"
+latest: "3.30.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-birewire"
 aliases:
  - "glpsol"
 versions:
  - "3.26.5--r41hc0cfd56_0"
  - "3.30.0--r42hc0cfd56_0"
+ - "3.30.0--r42ha9d7317_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-birewire"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-birewire", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-birewire", "latest": {"3.30.0--r42hc0cfd56_0": "sha256:a091494c12958b3bed4db632cf8ec076c73f03021bbfb7b3d4b2e2749afa0d26"}, "tags": {"3.26.5--r41hc0cfd56_0": "sha256:47dba4ddd32a66dda80ba63e8886a6d250a2a911a85a20ed5321f613b249eed4", "3.30.0--r42hc0cfd56_0": "sha256:a091494c12958b3bed4db632cf8ec076c73f03021bbfb7b3d4b2e2749afa0d26"}, "docker": "quay.io/biocontainers/bioconductor-birewire", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-birewire", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-birewire", "latest": {"3.30.0--r42ha9d7317_2": "sha256:8366163846d02fe8c4ccb00ae2099ec80c37ef3e7fabd7af3a66bd60e8bb7201"}, "tags": {"3.26.5--r41hc0cfd56_0": "sha256:47dba4ddd32a66dda80ba63e8886a6d250a2a911a85a20ed5321f613b249eed4", "3.30.0--r42hc0cfd56_0": "sha256:a091494c12958b3bed4db632cf8ec076c73f03021bbfb7b3d4b2e2749afa0d26", "3.30.0--r42ha9d7317_2": "sha256:8366163846d02fe8c4ccb00ae2099ec80c37ef3e7fabd7af3a66bd60e8bb7201"}, "docker": "quay.io/biocontainers/bioconductor-birewire", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-birewire.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-birewire
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-birewire:3.30.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-birewire:3.30.0--r42ha9d7317_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-birewire/3.30.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-birewire/3.30.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-birewire/3.30.0--r42ha9d7317_2
+$ module help quay.io/biocontainers/bioconductor-birewire/3.30.0--r42ha9d7317_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

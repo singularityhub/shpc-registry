@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia-hpcvis/paraview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
-updated_at: "2023-05-24 02:36:11.499247"
+updated_at: "2023-05-25 02:34:17.080868"
 latest: "egl-5.6.0rc3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags"
 aliases:
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "egl-py3-5.9.0"
  - "egl-5.6.0rc3"
+ - "egl-py3-5.11.0"
 description: "ParaView is one of the most popular visualization software for analyzing HPC datasets."
-config: {"docker": "nvcr.io/nvidia-hpcvis/paraview", "latest": {"egl-5.6.0rc3": "sha256:9cbcadb743b8f1047ddf27837f443cb60c7b30bc54fc319178717fb069a44a47"}, "tags": {"egl-py3-5.9.0": "sha256:8733b19cad0a415d523d8c5e0dffb46a182b056e3f7bd4a2606ab588eed4cbda", "egl-5.6.0rc3": "sha256:9cbcadb743b8f1047ddf27837f443cb60c7b30bc54fc319178717fb069a44a47"}, "filter": ["egl*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags", "description": "ParaView is one of the most popular visualization software for analyzing HPC datasets.", "aliases": {"pvdataserver": "/opt/paraview/bin/pvdataserver", "pvrenderserver": "/opt/paraview/bin/pvrenderserver", "pvbatch": "/opt/paraview/bin/pvbatch", "pypython": "/opt/paraview/bin/pvpython", "pvserver": "/opt/paraview/bin/pvserver"}, "features": {"gpu": true}}
+config: {"docker": "nvcr.io/nvidia-hpcvis/paraview", "latest": {"egl-5.6.0rc3": "sha256:9cbcadb743b8f1047ddf27837f443cb60c7b30bc54fc319178717fb069a44a47"}, "tags": {"egl-py3-5.9.0": "sha256:8733b19cad0a415d523d8c5e0dffb46a182b056e3f7bd4a2606ab588eed4cbda", "egl-5.6.0rc3": "sha256:9cbcadb743b8f1047ddf27837f443cb60c7b30bc54fc319178717fb069a44a47", "egl-py3-5.11.0": "sha256:8d4dc2b875b1b9366eda63bf6e503c00d52547d9c4768b34b1b7532825eb7788"}, "filter": ["egl*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags", "description": "ParaView is one of the most popular visualization software for analyzing HPC datasets.", "aliases": {"pvdataserver": "/opt/paraview/bin/pvdataserver", "pvrenderserver": "/opt/paraview/bin/pvrenderserver", "pvbatch": "/opt/paraview/bin/pvbatch", "pypython": "/opt/paraview/bin/pvpython", "pvserver": "/opt/paraview/bin/pvserver"}, "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/nvidia-hpcvis/paraview.

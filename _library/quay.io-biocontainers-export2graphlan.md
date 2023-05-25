@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/export2graphlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/export2graphlan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/export2graphlan/container.yaml"
-updated_at: "2023-05-24 03:21:44.444408"
+updated_at: "2023-05-25 03:25:29.881541"
 latest: "0.22--py_0"
 container_url: "https://biocontainers.pro/tools/export2graphlan"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psap/container.yaml"
-updated_at: "2023-05-24 02:48:44.815871"
+updated_at: "2023-05-25 02:48:23.513277"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psap"
 aliases:

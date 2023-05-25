@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/minia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minia/container.yaml"
-updated_at: "2023-05-24 02:38:16.188553"
-latest: "3.2.6--hd03093a_1"
+updated_at: "2023-05-25 02:36:37.509280"
+latest: "3.2.6--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/minia"
 aliases:
  - "gatb-h5dump"
@@ -13,8 +13,9 @@ aliases:
  - "minia"
 versions:
  - "3.2.6--hd03093a_1"
+ - "3.2.6--hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for minia"
-config: {"url": "https://biocontainers.pro/tools/minia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minia", "latest": {"3.2.6--hd03093a_1": "sha256:3378184951a6e726e80b9ccacaebbca1218530c46703b860f3c15ae8b1c1ab4b"}, "tags": {"3.2.6--hd03093a_1": "sha256:3378184951a6e726e80b9ccacaebbca1218530c46703b860f3c15ae8b1c1ab4b"}, "docker": "quay.io/biocontainers/minia", "aliases": {"gatb-h5dump": "/usr/local/bin/gatb-h5dump", "merci": "/usr/local/bin/merci", "minia": "/usr/local/bin/minia"}}
+config: {"url": "https://biocontainers.pro/tools/minia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minia", "latest": {"3.2.6--hdcf5f25_3": "sha256:37ef072171bd3978fabdff1e83ef7ae07cb47ed45eb2457df3d47e75751d1918"}, "tags": {"3.2.6--hd03093a_1": "sha256:3378184951a6e726e80b9ccacaebbca1218530c46703b860f3c15ae8b1c1ab4b", "3.2.6--hdcf5f25_3": "sha256:37ef072171bd3978fabdff1e83ef7ae07cb47ed45eb2457df3d47e75751d1918"}, "docker": "quay.io/biocontainers/minia", "aliases": {"gatb-h5dump": "/usr/local/bin/gatb-h5dump", "merci": "/usr/local/bin/merci", "minia": "/usr/local/bin/minia"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minia.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/minia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minia:3.2.6--hd03093a_1
+$ shpc install quay.io/biocontainers/minia:3.2.6--hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minia/3.2.6--hd03093a_1
-$ module help quay.io/biocontainers/minia/3.2.6--hd03093a_1
+$ module load quay.io/biocontainers/minia/3.2.6--hdcf5f25_3
+$ module help quay.io/biocontainers/minia/3.2.6--hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

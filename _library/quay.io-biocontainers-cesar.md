@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/cesar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cesar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cesar/container.yaml"
-updated_at: "2023-05-24 02:44:50.024571"
-latest: "1.01--h87f3376_0"
+updated_at: "2023-05-25 02:43:59.347510"
+latest: "1.01--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/cesar"
 aliases:
  - "cesar"
 versions:
  - "1.01--h87f3376_0"
+ - "1.01--hdbdd923_2"
 description: "singularity registry hpc automated addition for cesar"
-config: {"url": "https://biocontainers.pro/tools/cesar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cesar", "latest": {"1.01--h87f3376_0": "sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089"}, "tags": {"1.01--h87f3376_0": "sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089"}, "docker": "quay.io/biocontainers/cesar", "aliases": {"cesar": "/usr/local/bin/cesar"}}
+config: {"url": "https://biocontainers.pro/tools/cesar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cesar", "latest": {"1.01--hdbdd923_2": "sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81"}, "tags": {"1.01--h87f3376_0": "sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089", "1.01--hdbdd923_2": "sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81"}, "docker": "quay.io/biocontainers/cesar", "aliases": {"cesar": "/usr/local/bin/cesar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cesar.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/cesar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cesar:1.01--h87f3376_0
+$ shpc install quay.io/biocontainers/cesar:1.01--hdbdd923_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cesar/1.01--h87f3376_0
-$ module help quay.io/biocontainers/cesar/1.01--h87f3376_0
+$ module load quay.io/biocontainers/cesar/1.01--hdbdd923_2
+$ module help quay.io/biocontainers/cesar/1.01--hdbdd923_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

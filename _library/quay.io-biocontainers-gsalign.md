@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gsalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsalign/container.yaml"
-updated_at: "2023-05-24 02:47:45.006699"
-latest: "1.0.22--hc9193f5_2"
+updated_at: "2023-05-25 02:47:16.385098"
+latest: "1.0.22--h8b853e6_4"
 container_url: "https://biocontainers.pro/tools/gsalign"
 aliases:
  - "GSAlign"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.9--hdb83ec4_0"
  - "1.0.22--hc9193f5_2"
+ - "1.0.22--h8b853e6_4"
 description: "shpc-registry automated BioContainers addition for gsalign"
-config: {"url": "https://biocontainers.pro/tools/gsalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gsalign", "latest": {"1.0.22--hc9193f5_2": "sha256:8d787f216254bcf85e7a0b257cf2a32a2af4fb9da9e60e6675dfcb211cb5615b"}, "tags": {"1.0.9--hdb83ec4_0": "sha256:16540873bed0cc08b51b7c7284270e4625f1586480be6df0f1c9d76e0ba2d7c2", "1.0.22--hc9193f5_2": "sha256:8d787f216254bcf85e7a0b257cf2a32a2af4fb9da9e60e6675dfcb211cb5615b"}, "docker": "quay.io/biocontainers/gsalign", "aliases": {"GSAlign": "/usr/local/bin/GSAlign", "bwt_index": "/usr/local/bin/bwt_index"}}
+config: {"url": "https://biocontainers.pro/tools/gsalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gsalign", "latest": {"1.0.22--h8b853e6_4": "sha256:36b5a76a23f729f06faa6ba9fff54df4a8e80fba2e4cc4cc4a262b7857eae9fc"}, "tags": {"1.0.9--hdb83ec4_0": "sha256:16540873bed0cc08b51b7c7284270e4625f1586480be6df0f1c9d76e0ba2d7c2", "1.0.22--hc9193f5_2": "sha256:8d787f216254bcf85e7a0b257cf2a32a2af4fb9da9e60e6675dfcb211cb5615b", "1.0.22--h8b853e6_4": "sha256:36b5a76a23f729f06faa6ba9fff54df4a8e80fba2e4cc4cc4a262b7857eae9fc"}, "docker": "quay.io/biocontainers/gsalign", "aliases": {"GSAlign": "/usr/local/bin/GSAlign", "bwt_index": "/usr/local/bin/bwt_index"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gsalign.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gsalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gsalign:1.0.22--hc9193f5_2
+$ shpc install quay.io/biocontainers/gsalign:1.0.22--h8b853e6_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gsalign/1.0.22--hc9193f5_2
-$ module help quay.io/biocontainers/gsalign/1.0.22--hc9193f5_2
+$ module load quay.io/biocontainers/gsalign/1.0.22--h8b853e6_4
+$ module help quay.io/biocontainers/gsalign/1.0.22--h8b853e6_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

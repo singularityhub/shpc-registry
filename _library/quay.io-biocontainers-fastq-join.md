@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastq-join"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-join/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-join/container.yaml"
-updated_at: "2023-05-24 02:44:15.971545"
-latest: "1.3.1--h9f5acd7_5"
+updated_at: "2023-05-25 02:43:21.251915"
+latest: "1.3.1--h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/fastq-join"
 aliases:
  - "fastq-join"
 versions:
  - "1.3.1--h9f5acd7_5"
+ - "1.3.1--h4ac6f70_7"
 description: "shpc-registry automated BioContainers addition for fastq-join"
-config: {"url": "https://biocontainers.pro/tools/fastq-join", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-join", "latest": {"1.3.1--h9f5acd7_5": "sha256:36c5408357a3a1d2a6639116b83f13c16826bc2eb1384c8f6edc714c4c06144f"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:36c5408357a3a1d2a6639116b83f13c16826bc2eb1384c8f6edc714c4c06144f"}, "docker": "quay.io/biocontainers/fastq-join", "aliases": {"fastq-join": "/usr/local/bin/fastq-join"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-join", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-join", "latest": {"1.3.1--h4ac6f70_7": "sha256:1a3375f4b03f50a4f59c244fbf2ae0b2b8b042ed992275f6a9dbcdfb37e6a7f0"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:36c5408357a3a1d2a6639116b83f13c16826bc2eb1384c8f6edc714c4c06144f", "1.3.1--h4ac6f70_7": "sha256:1a3375f4b03f50a4f59c244fbf2ae0b2b8b042ed992275f6a9dbcdfb37e6a7f0"}, "docker": "quay.io/biocontainers/fastq-join", "aliases": {"fastq-join": "/usr/local/bin/fastq-join"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-join.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fastq-join
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-join:1.3.1--h9f5acd7_5
+$ shpc install quay.io/biocontainers/fastq-join:1.3.1--h4ac6f70_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-join/1.3.1--h9f5acd7_5
-$ module help quay.io/biocontainers/fastq-join/1.3.1--h9f5acd7_5
+$ module load quay.io/biocontainers/fastq-join/1.3.1--h4ac6f70_7
+$ module help quay.io/biocontainers/fastq-join/1.3.1--h4ac6f70_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

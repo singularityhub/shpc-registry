@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rasusa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rasusa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rasusa/container.yaml"
-updated_at: "2023-05-24 03:15:25.757795"
-latest: "0.7.1--hec16e2b_0"
+updated_at: "2023-05-25 03:18:22.048275"
+latest: "0.7.1--h031d066_2"
 container_url: "https://biocontainers.pro/tools/rasusa"
 aliases:
  - "rasusa"
 versions:
  - "0.7.0--hec16e2b_1"
  - "0.7.1--hec16e2b_0"
+ - "0.7.1--h031d066_2"
 description: "shpc-registry automated BioContainers addition for rasusa"
-config: {"url": "https://biocontainers.pro/tools/rasusa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rasusa", "latest": {"0.7.1--hec16e2b_0": "sha256:3b9615b296caef2e0a4c995a13e5532d72dbfa6484172afbe85202c7448142aa"}, "tags": {"0.7.0--hec16e2b_1": "sha256:0ece28f6a09a00cc777718efee938fe5721cf4f3295ffaad1138d3711633c970", "0.7.1--hec16e2b_0": "sha256:3b9615b296caef2e0a4c995a13e5532d72dbfa6484172afbe85202c7448142aa"}, "docker": "quay.io/biocontainers/rasusa", "aliases": {"rasusa": "/usr/local/bin/rasusa"}}
+config: {"url": "https://biocontainers.pro/tools/rasusa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rasusa", "latest": {"0.7.1--h031d066_2": "sha256:94d5e0a00070a336bb5da9a28811e8d138d1eec3a4cb1e9f16815f3893e80a64"}, "tags": {"0.7.0--hec16e2b_1": "sha256:0ece28f6a09a00cc777718efee938fe5721cf4f3295ffaad1138d3711633c970", "0.7.1--hec16e2b_0": "sha256:3b9615b296caef2e0a4c995a13e5532d72dbfa6484172afbe85202c7448142aa", "0.7.1--h031d066_2": "sha256:94d5e0a00070a336bb5da9a28811e8d138d1eec3a4cb1e9f16815f3893e80a64"}, "docker": "quay.io/biocontainers/rasusa", "aliases": {"rasusa": "/usr/local/bin/rasusa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rasusa.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rasusa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rasusa:0.7.1--hec16e2b_0
+$ shpc install quay.io/biocontainers/rasusa:0.7.1--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rasusa/0.7.1--hec16e2b_0
-$ module help quay.io/biocontainers/rasusa/0.7.1--hec16e2b_0
+$ module load quay.io/biocontainers/rasusa/0.7.1--h031d066_2
+$ module help quay.io/biocontainers/rasusa/0.7.1--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

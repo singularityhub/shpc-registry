@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chromdraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromdraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromdraw/container.yaml"
-updated_at: "2023-05-24 02:44:08.951036"
-latest: "2.28.0--r42hc247a5b_0"
+updated_at: "2023-05-25 02:43:13.304642"
+latest: "2.28.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromdraw"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "2.22.0--r41h399db7b_0"
  - "2.20.0--r40h399db7b_1"
  - "2.18.0--r40h5f743cb_0"
+ - "2.28.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromdraw"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromdraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromdraw", "latest": {"2.28.0--r42hc247a5b_0": "sha256:992f8f2bef7632975a3e3254f3c21c12aef9730c455ed8ab357f545592ef1ffc"}, "tags": {"2.8.0--r3.4.1_0": "sha256:dbdc1702a3c869418a860a4007d3156e31e3a2065931c6dc2f55576e7f402075", "2.28.0--r42hc247a5b_0": "sha256:992f8f2bef7632975a3e3254f3c21c12aef9730c455ed8ab357f545592ef1ffc", "2.24.0--r41hc247a5b_2": "sha256:b7ea68912677a8c1c0cb654293e6cb935131dd6378feb424dbd7d646c29aace6", "2.22.0--r41h399db7b_0": "sha256:d8f089465e3d61bb53f5f5e3a9d78464ddbbad47f45f5e28a4908608e8052a23", "2.20.0--r40h399db7b_1": "sha256:3951d9fe820b057a8c9b6d63bac46cd0aa612311e18ff46456a62c713f668ecc", "2.18.0--r40h5f743cb_0": "sha256:76a0699ce60cba793143930d83c696f25121ad61777e33e4b18deb5d02bbff3f"}, "docker": "quay.io/biocontainers/bioconductor-chromdraw", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromdraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromdraw", "latest": {"2.28.0--r42hf17093f_1": "sha256:9882938f6168596b2ac4b8876252da9e208dd564fbbfa54f8cf72957370a29d1"}, "tags": {"2.8.0--r3.4.1_0": "sha256:dbdc1702a3c869418a860a4007d3156e31e3a2065931c6dc2f55576e7f402075", "2.28.0--r42hc247a5b_0": "sha256:992f8f2bef7632975a3e3254f3c21c12aef9730c455ed8ab357f545592ef1ffc", "2.24.0--r41hc247a5b_2": "sha256:b7ea68912677a8c1c0cb654293e6cb935131dd6378feb424dbd7d646c29aace6", "2.22.0--r41h399db7b_0": "sha256:d8f089465e3d61bb53f5f5e3a9d78464ddbbad47f45f5e28a4908608e8052a23", "2.20.0--r40h399db7b_1": "sha256:3951d9fe820b057a8c9b6d63bac46cd0aa612311e18ff46456a62c713f668ecc", "2.18.0--r40h5f743cb_0": "sha256:76a0699ce60cba793143930d83c696f25121ad61777e33e4b18deb5d02bbff3f", "2.28.0--r42hf17093f_1": "sha256:9882938f6168596b2ac4b8876252da9e208dd564fbbfa54f8cf72957370a29d1"}, "docker": "quay.io/biocontainers/bioconductor-chromdraw", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromdraw.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chromdraw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chromdraw:2.28.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-chromdraw:2.28.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chromdraw/2.28.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-chromdraw/2.28.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-chromdraw/2.28.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-chromdraw/2.28.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

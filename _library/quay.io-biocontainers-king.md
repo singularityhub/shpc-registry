@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/king"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/king/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/king/container.yaml"
-updated_at: "2023-05-24 02:43:05.188134"
-latest: "2.2.7--hd03093a_0"
+updated_at: "2023-05-25 02:42:01.637672"
+latest: "2.2.7--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/king"
 aliases:
  - "king"
 versions:
  - "2.2.7--hd03093a_0"
+ - "2.2.7--hdcf5f25_2"
 description: "shpc-registry automated BioContainers addition for king"
-config: {"url": "https://biocontainers.pro/tools/king", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for king", "latest": {"2.2.7--hd03093a_0": "sha256:a858ae9560c407057952bc18e4b5bfd7401022dbe275f66836bbc0e9eec677fa"}, "tags": {"2.2.7--hd03093a_0": "sha256:a858ae9560c407057952bc18e4b5bfd7401022dbe275f66836bbc0e9eec677fa"}, "docker": "quay.io/biocontainers/king", "aliases": {"king": "/usr/local/bin/king"}}
+config: {"url": "https://biocontainers.pro/tools/king", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for king", "latest": {"2.2.7--hdcf5f25_2": "sha256:89bdcaa2f5f8a76989ef15bf297dd32496fb8ba91acd834428d50a36ff373090"}, "tags": {"2.2.7--hd03093a_0": "sha256:a858ae9560c407057952bc18e4b5bfd7401022dbe275f66836bbc0e9eec677fa", "2.2.7--hdcf5f25_2": "sha256:89bdcaa2f5f8a76989ef15bf297dd32496fb8ba91acd834428d50a36ff373090"}, "docker": "quay.io/biocontainers/king", "aliases": {"king": "/usr/local/bin/king"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/king.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/king
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/king:2.2.7--hd03093a_0
+$ shpc install quay.io/biocontainers/king:2.2.7--hdcf5f25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/king/2.2.7--hd03093a_0
-$ module help quay.io/biocontainers/king/2.2.7--hd03093a_0
+$ module load quay.io/biocontainers/king/2.2.7--hdcf5f25_2
+$ module help quay.io/biocontainers/king/2.2.7--hdcf5f25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

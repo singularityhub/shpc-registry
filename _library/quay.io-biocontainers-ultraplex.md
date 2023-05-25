@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ultraplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ultraplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ultraplex/container.yaml"
-updated_at: "2023-05-24 02:38:09.757410"
-latest: "1.2.5--py38hbff2b2d_1"
+updated_at: "2023-05-25 02:36:30.180579"
+latest: "1.2.5--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/ultraplex"
 aliases:
  - "ultraplex"
@@ -21,8 +21,9 @@ aliases:
  - "python3.8"
 versions:
  - "1.2.5--py38hbff2b2d_1"
+ - "1.2.5--py38he5da3d1_2"
 description: "shpc-registry automated BioContainers addition for ultraplex"
-config: {"url": "https://biocontainers.pro/tools/ultraplex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ultraplex", "latest": {"1.2.5--py38hbff2b2d_1": "sha256:ddbad5d727fc973a41af1ea912875d0d5dae098ced96529579f0f9d467b14ec6"}, "tags": {"1.2.5--py38hbff2b2d_1": "sha256:ddbad5d727fc973a41af1ea912875d0d5dae098ced96529579f0f9d467b14ec6"}, "docker": "quay.io/biocontainers/ultraplex", "aliases": {"ultraplex": "/usr/local/bin/ultraplex", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
+config: {"url": "https://biocontainers.pro/tools/ultraplex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ultraplex", "latest": {"1.2.5--py38he5da3d1_2": "sha256:91534aea10a0522397d4484bb47300c79cb96ffe41aada57b7055ead51a8e08a"}, "tags": {"1.2.5--py38hbff2b2d_1": "sha256:ddbad5d727fc973a41af1ea912875d0d5dae098ced96529579f0f9d467b14ec6", "1.2.5--py38he5da3d1_2": "sha256:91534aea10a0522397d4484bb47300c79cb96ffe41aada57b7055ead51a8e08a"}, "docker": "quay.io/biocontainers/ultraplex", "aliases": {"ultraplex": "/usr/local/bin/ultraplex", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ultraplex.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ultraplex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ultraplex:1.2.5--py38hbff2b2d_1
+$ shpc install quay.io/biocontainers/ultraplex:1.2.5--py38he5da3d1_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ultraplex/1.2.5--py38hbff2b2d_1
-$ module help quay.io/biocontainers/ultraplex/1.2.5--py38hbff2b2d_1
+$ module load quay.io/biocontainers/ultraplex/1.2.5--py38he5da3d1_2
+$ module help quay.io/biocontainers/ultraplex/1.2.5--py38he5da3d1_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

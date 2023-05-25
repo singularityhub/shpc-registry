@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-eventpointer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eventpointer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eventpointer/container.yaml"
-updated_at: "2023-05-24 02:43:26.204699"
-latest: "3.6.0--r42hc0cfd56_0"
+updated_at: "2023-05-25 02:42:25.304319"
+latest: "3.6.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-eventpointer"
 aliases:
  - "glpsol"
 versions:
  - "3.2.0--r41hc0cfd56_2"
  - "3.6.0--r42hc0cfd56_0"
+ - "3.6.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-eventpointer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eventpointer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eventpointer", "latest": {"3.6.0--r42hc0cfd56_0": "sha256:8a88c9e414cce96c24247dde77a40d7dec6c7cd6a5fcf573baa81ba56e936609"}, "tags": {"3.2.0--r41hc0cfd56_2": "sha256:fee5dea8e503b4caa8bda43ac8d3aa9f27fa3d7ca1724846ff104039e2554dfd", "3.6.0--r42hc0cfd56_0": "sha256:8a88c9e414cce96c24247dde77a40d7dec6c7cd6a5fcf573baa81ba56e936609"}, "docker": "quay.io/biocontainers/bioconductor-eventpointer", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eventpointer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eventpointer", "latest": {"3.6.0--r42ha9d7317_1": "sha256:a048382473bd584fee8a2bef26ae0a4264e6d5c9336c178d359f752fb060a948"}, "tags": {"3.2.0--r41hc0cfd56_2": "sha256:fee5dea8e503b4caa8bda43ac8d3aa9f27fa3d7ca1724846ff104039e2554dfd", "3.6.0--r42hc0cfd56_0": "sha256:8a88c9e414cce96c24247dde77a40d7dec6c7cd6a5fcf573baa81ba56e936609", "3.6.0--r42ha9d7317_1": "sha256:a048382473bd584fee8a2bef26ae0a4264e6d5c9336c178d359f752fb060a948"}, "docker": "quay.io/biocontainers/bioconductor-eventpointer", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eventpointer.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-eventpointer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-eventpointer:3.6.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-eventpointer:3.6.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-eventpointer/3.6.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-eventpointer/3.6.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-eventpointer/3.6.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-eventpointer/3.6.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

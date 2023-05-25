@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/breseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breseq/container.yaml"
-updated_at: "2023-05-24 02:43:07.240389"
-latest: "0.38.1--h5b5514e_0"
+updated_at: "2023-05-25 02:42:03.927996"
+latest: "0.38.1--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/breseq"
 aliases:
  - "breseq"
@@ -24,8 +24,9 @@ versions:
  - "0.37.1--h5b5514e_0"
  - "0.37.1--h5b5514e_1"
  - "0.38.1--h5b5514e_0"
+ - "0.38.1--h43eeafb_1"
 description: "shpc-registry automated BioContainers addition for breseq"
-config: {"url": "https://biocontainers.pro/tools/breseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for breseq", "latest": {"0.38.1--h5b5514e_0": "sha256:17622715538290ed28c210327ec9e8027c7ba107803e1619808b5243e28257c0"}, "tags": {"0.37.1--h5b5514e_0": "sha256:a6200568daae92ababf6a575aba17899f2d0b355edf233a8c1644fdc81d07eb0", "0.37.1--h5b5514e_1": "sha256:22d2b0d6210d7e0cea68b521528fbfa06c335d26875bfc48c3445d31d2a38045", "0.38.1--h5b5514e_0": "sha256:17622715538290ed28c210327ec9e8027c7ba107803e1619808b5243e28257c0"}, "docker": "quay.io/biocontainers/breseq", "aliases": {"breseq": "/usr/local/bin/breseq", "gdtools": "/usr/local/bin/gdtools", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
+config: {"url": "https://biocontainers.pro/tools/breseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for breseq", "latest": {"0.38.1--h43eeafb_1": "sha256:b51fb9df6e916cd45255e373760bbad0335a2020eb83d35fc72926be6706255e"}, "tags": {"0.37.1--h5b5514e_0": "sha256:a6200568daae92ababf6a575aba17899f2d0b355edf233a8c1644fdc81d07eb0", "0.37.1--h5b5514e_1": "sha256:22d2b0d6210d7e0cea68b521528fbfa06c335d26875bfc48c3445d31d2a38045", "0.38.1--h5b5514e_0": "sha256:17622715538290ed28c210327ec9e8027c7ba107803e1619808b5243e28257c0", "0.38.1--h43eeafb_1": "sha256:b51fb9df6e916cd45255e373760bbad0335a2020eb83d35fc72926be6706255e"}, "docker": "quay.io/biocontainers/breseq", "aliases": {"breseq": "/usr/local/bin/breseq", "gdtools": "/usr/local/bin/gdtools", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/breseq.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/breseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/breseq:0.38.1--h5b5514e_0
+$ shpc install quay.io/biocontainers/breseq:0.38.1--h43eeafb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/breseq/0.38.1--h5b5514e_0
-$ module help quay.io/biocontainers/breseq/0.38.1--h5b5514e_0
+$ module load quay.io/biocontainers/breseq/0.38.1--h43eeafb_1
+$ module help quay.io/biocontainers/breseq/0.38.1--h43eeafb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

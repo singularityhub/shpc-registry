@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybedgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedgraph/container.yaml"
-updated_at: "2023-05-24 03:20:48.153357"
-latest: "0.5.43--py38h8ded8fe_3"
+updated_at: "2023-05-25 03:24:26.294719"
+latest: "0.5.43--py39he10ea66_4"
 container_url: "https://biocontainers.pro/tools/pybedgraph"
 aliases:
  - "f2py3.8"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.5.43--py38h8ded8fe_3"
+ - "0.5.43--py39he10ea66_4"
 description: "shpc-registry automated BioContainers addition for pybedgraph"
-config: {"url": "https://biocontainers.pro/tools/pybedgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedgraph", "latest": {"0.5.43--py38h8ded8fe_3": "sha256:6b469fd45ac09b81fd3c5af96ad4eb5097123f909497b70bc7ed396977257579"}, "tags": {"0.5.43--py38h8ded8fe_3": "sha256:6b469fd45ac09b81fd3c5af96ad4eb5097123f909497b70bc7ed396977257579"}, "docker": "quay.io/biocontainers/pybedgraph", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybedgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedgraph", "latest": {"0.5.43--py39he10ea66_4": "sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8"}, "tags": {"0.5.43--py38h8ded8fe_3": "sha256:6b469fd45ac09b81fd3c5af96ad4eb5097123f909497b70bc7ed396977257579", "0.5.43--py39he10ea66_4": "sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8"}, "docker": "quay.io/biocontainers/pybedgraph", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybedgraph.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pybedgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybedgraph:0.5.43--py38h8ded8fe_3
+$ shpc install quay.io/biocontainers/pybedgraph:0.5.43--py39he10ea66_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybedgraph/0.5.43--py38h8ded8fe_3
-$ module help quay.io/biocontainers/pybedgraph/0.5.43--py38h8ded8fe_3
+$ module load quay.io/biocontainers/pybedgraph/0.5.43--py39he10ea66_4
+$ module help quay.io/biocontainers/pybedgraph/0.5.43--py39he10ea66_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

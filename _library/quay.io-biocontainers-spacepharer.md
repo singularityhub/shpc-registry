@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spacepharer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spacepharer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spacepharer/container.yaml"
-updated_at: "2023-05-24 02:49:14.587181"
-latest: "5.c2e680a--pl5321hf1761c0_1"
+updated_at: "2023-05-25 02:48:56.735989"
+latest: "5.c2e680a--pl5321h6a68c12_3"
 container_url: "https://biocontainers.pro/tools/spacepharer"
 aliases:
  - "spacepharer"
@@ -18,8 +18,9 @@ aliases:
  - "streamzip"
 versions:
  - "5.c2e680a--pl5321hf1761c0_1"
+ - "5.c2e680a--pl5321h6a68c12_3"
 description: "shpc-registry automated BioContainers addition for spacepharer"
-config: {"url": "https://biocontainers.pro/tools/spacepharer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spacepharer", "latest": {"5.c2e680a--pl5321hf1761c0_1": "sha256:2d65181967a4d8ff4db3f48d7980fa2195545d6439bfed56fe59cd8c5b26c704"}, "tags": {"5.c2e680a--pl5321hf1761c0_1": "sha256:2d65181967a4d8ff4db3f48d7980fa2195545d6439bfed56fe59cd8c5b26c704"}, "docker": "quay.io/biocontainers/spacepharer", "aliases": {"spacepharer": "/usr/local/bin/spacepharer", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/spacepharer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spacepharer", "latest": {"5.c2e680a--pl5321h6a68c12_3": "sha256:f7d6be0037c30122995fbd289733003345e43187ecd6477d311f28b794fd5e65"}, "tags": {"5.c2e680a--pl5321hf1761c0_1": "sha256:2d65181967a4d8ff4db3f48d7980fa2195545d6439bfed56fe59cd8c5b26c704", "5.c2e680a--pl5321h6a68c12_3": "sha256:f7d6be0037c30122995fbd289733003345e43187ecd6477d311f28b794fd5e65"}, "docker": "quay.io/biocontainers/spacepharer", "aliases": {"spacepharer": "/usr/local/bin/spacepharer", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spacepharer.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/spacepharer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spacepharer:5.c2e680a--pl5321hf1761c0_1
+$ shpc install quay.io/biocontainers/spacepharer:5.c2e680a--pl5321h6a68c12_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spacepharer/5.c2e680a--pl5321hf1761c0_1
-$ module help quay.io/biocontainers/spacepharer/5.c2e680a--pl5321hf1761c0_1
+$ module load quay.io/biocontainers/spacepharer/5.c2e680a--pl5321h6a68c12_3
+$ module help quay.io/biocontainers/spacepharer/5.c2e680a--pl5321h6a68c12_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

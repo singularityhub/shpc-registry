@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metamaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamaps/container.yaml"
-updated_at: "2023-05-24 02:56:17.956393"
-latest: "0.1.98102e9--h7ff8a90_1"
+updated_at: "2023-05-25 02:56:48.510536"
+latest: "0.1.98102e9--h21ec9f0_2"
 container_url: "https://biocontainers.pro/tools/metamaps"
 aliases:
  - "DBinfo.pl"
@@ -40,8 +40,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.1.98102e9--h7ff8a90_1"
+ - "0.1.98102e9--h21ec9f0_2"
 description: "shpc-registry automated BioContainers addition for metamaps"
-config: {"url": "https://biocontainers.pro/tools/metamaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metamaps", "latest": {"0.1.98102e9--h7ff8a90_1": "sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692"}, "tags": {"0.1.98102e9--h7ff8a90_1": "sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692"}, "docker": "quay.io/biocontainers/metamaps", "aliases": {"DBinfo.pl": "/usr/local/bin/DBinfo.pl", "annotateRefSeqSequencesWithUniqueTaxonIDs.pl": "/usr/local/bin/annotateRefSeqSequencesWithUniqueTaxonIDs.pl", "benchmarkInference.pl": "/usr/local/bin/benchmarkInference.pl", "buildDB.pl": "/usr/local/bin/buildDB.pl", "callCentrifugeOnConvertedDB.pl": "/usr/local/bin/callCentrifugeOnConvertedDB.pl", "callKraken2OnConvertedDB.pl": "/usr/local/bin/callKraken2OnConvertedDB.pl", "callKrakenOnConvertedDB.pl": "/usr/local/bin/callKrakenOnConvertedDB.pl", "combineAndAnnotateReferences.pl": "/usr/local/bin/combineAndAnnotateReferences.pl", "convertMetaMapsToCentrifuge.pl": "/usr/local/bin/convertMetaMapsToCentrifuge.pl", "convertMetaMapsToKraken.pl": "/usr/local/bin/convertMetaMapsToKraken.pl", "convertMetaMapsToMash.pl": "/usr/local/bin/convertMetaMapsToMash.pl", "doPlots.R": "/usr/local/bin/doPlots.R", "downloadRefSeq.pl": "/usr/local/bin/downloadRefSeq.pl", "estimateSelfSimilarity.pl": "/usr/local/bin/estimateSelfSimilarity.pl", "firstQuartileScore.pl": "/usr/local/bin/firstQuartileScore.pl", "fixSimulationStore.pl": "/usr/local/bin/fixSimulationStore.pl", "geneLevelAnalysis.pl": "/usr/local/bin/geneLevelAnalysis.pl", "metamaps": "/usr/local/bin/metamaps", "plotMappingSummary.R": "/usr/local/bin/plotMappingSummary.R", "plotUnknownResults.R": "/usr/local/bin/plotUnknownResults.R", "shortenContigIDs.pl": "/usr/local/bin/shortenContigIDs.pl", "simulate.pl": "/usr/local/bin/simulate.pl", "test2.pl": "/usr/local/bin/test2.pl", "validateDB.pl": "/usr/local/bin/validateDB.pl", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/metamaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metamaps", "latest": {"0.1.98102e9--h21ec9f0_2": "sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6"}, "tags": {"0.1.98102e9--h7ff8a90_1": "sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692", "0.1.98102e9--h21ec9f0_2": "sha256:57432c76f40209806c7c559a27f987ec503a9adfae9a1658471f0f108cf593e6"}, "docker": "quay.io/biocontainers/metamaps", "aliases": {"DBinfo.pl": "/usr/local/bin/DBinfo.pl", "annotateRefSeqSequencesWithUniqueTaxonIDs.pl": "/usr/local/bin/annotateRefSeqSequencesWithUniqueTaxonIDs.pl", "benchmarkInference.pl": "/usr/local/bin/benchmarkInference.pl", "buildDB.pl": "/usr/local/bin/buildDB.pl", "callCentrifugeOnConvertedDB.pl": "/usr/local/bin/callCentrifugeOnConvertedDB.pl", "callKraken2OnConvertedDB.pl": "/usr/local/bin/callKraken2OnConvertedDB.pl", "callKrakenOnConvertedDB.pl": "/usr/local/bin/callKrakenOnConvertedDB.pl", "combineAndAnnotateReferences.pl": "/usr/local/bin/combineAndAnnotateReferences.pl", "convertMetaMapsToCentrifuge.pl": "/usr/local/bin/convertMetaMapsToCentrifuge.pl", "convertMetaMapsToKraken.pl": "/usr/local/bin/convertMetaMapsToKraken.pl", "convertMetaMapsToMash.pl": "/usr/local/bin/convertMetaMapsToMash.pl", "doPlots.R": "/usr/local/bin/doPlots.R", "downloadRefSeq.pl": "/usr/local/bin/downloadRefSeq.pl", "estimateSelfSimilarity.pl": "/usr/local/bin/estimateSelfSimilarity.pl", "firstQuartileScore.pl": "/usr/local/bin/firstQuartileScore.pl", "fixSimulationStore.pl": "/usr/local/bin/fixSimulationStore.pl", "geneLevelAnalysis.pl": "/usr/local/bin/geneLevelAnalysis.pl", "metamaps": "/usr/local/bin/metamaps", "plotMappingSummary.R": "/usr/local/bin/plotMappingSummary.R", "plotUnknownResults.R": "/usr/local/bin/plotUnknownResults.R", "shortenContigIDs.pl": "/usr/local/bin/shortenContigIDs.pl", "simulate.pl": "/usr/local/bin/simulate.pl", "test2.pl": "/usr/local/bin/test2.pl", "validateDB.pl": "/usr/local/bin/validateDB.pl", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metamaps.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/metamaps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metamaps:0.1.98102e9--h7ff8a90_1
+$ shpc install quay.io/biocontainers/metamaps:0.1.98102e9--h21ec9f0_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metamaps/0.1.98102e9--h7ff8a90_1
-$ module help quay.io/biocontainers/metamaps/0.1.98102e9--h7ff8a90_1
+$ module load quay.io/biocontainers/metamaps/0.1.98102e9--h21ec9f0_2
+$ module help quay.io/biocontainers/metamaps/0.1.98102e9--h21ec9f0_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

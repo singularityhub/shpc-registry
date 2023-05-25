@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-set-object"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-set-object/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-set-object/container.yaml"
-updated_at: "2023-05-24 03:05:21.006390"
-latest: "1.42--pl5321hec16e2b_1"
+updated_at: "2023-05-25 03:06:58.545223"
+latest: "1.42--pl5321h031d066_3"
 container_url: "https://biocontainers.pro/tools/perl-set-object"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.42--pl5321hec16e2b_1"
+ - "1.42--pl5321h031d066_3"
 description: "singularity registry hpc automated addition for perl-set-object"
-config: {"url": "https://biocontainers.pro/tools/perl-set-object", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-set-object", "latest": {"1.42--pl5321hec16e2b_1": "sha256:5246d56b3e7415ac302f1004470f10ff5e05335ff010ac69cce6f26596e31b31"}, "tags": {"1.42--pl5321hec16e2b_1": "sha256:5246d56b3e7415ac302f1004470f10ff5e05335ff010ac69cce6f26596e31b31"}, "docker": "quay.io/biocontainers/perl-set-object", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-set-object", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-set-object", "latest": {"1.42--pl5321h031d066_3": "sha256:9f40d3ea00660bd29a720f371c44846ff87a445766b4297c46731186d7d81ce8"}, "tags": {"1.42--pl5321hec16e2b_1": "sha256:5246d56b3e7415ac302f1004470f10ff5e05335ff010ac69cce6f26596e31b31", "1.42--pl5321h031d066_3": "sha256:9f40d3ea00660bd29a720f371c44846ff87a445766b4297c46731186d7d81ce8"}, "docker": "quay.io/biocontainers/perl-set-object", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-set-object.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-set-object
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-set-object:1.42--pl5321hec16e2b_1
+$ shpc install quay.io/biocontainers/perl-set-object:1.42--pl5321h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-set-object/1.42--pl5321hec16e2b_1
-$ module help quay.io/biocontainers/perl-set-object/1.42--pl5321hec16e2b_1
+$ module load quay.io/biocontainers/perl-set-object/1.42--pl5321h031d066_3
+$ module help quay.io/biocontainers/perl-set-object/1.42--pl5321h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

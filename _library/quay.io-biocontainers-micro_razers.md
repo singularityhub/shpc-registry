@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/micro_razers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micro_razers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micro_razers/container.yaml"
-updated_at: "2023-05-24 03:18:50.905821"
-latest: "1.0.6--h19e8d03_5"
+updated_at: "2023-05-25 03:22:13.681139"
+latest: "1.0.6--h6dccd9a_7"
 container_url: "https://biocontainers.pro/tools/micro_razers"
 aliases:
  - "micro_razers"
 versions:
  - "1.0.6--h19e8d03_5"
+ - "1.0.6--h6dccd9a_7"
 description: "shpc-registry automated BioContainers addition for micro_razers"
-config: {"url": "https://biocontainers.pro/tools/micro_razers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for micro_razers", "latest": {"1.0.6--h19e8d03_5": "sha256:6b722f7caeadfedb9649b97cf68f519bb9f2af4974a83e2c917cef72d2b97851"}, "tags": {"1.0.6--h19e8d03_5": "sha256:6b722f7caeadfedb9649b97cf68f519bb9f2af4974a83e2c917cef72d2b97851"}, "docker": "quay.io/biocontainers/micro_razers", "aliases": {"micro_razers": "/usr/local/bin/micro_razers"}}
+config: {"url": "https://biocontainers.pro/tools/micro_razers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for micro_razers", "latest": {"1.0.6--h6dccd9a_7": "sha256:d9707b9769187165acc3f51a8ff0f401817f332af5d8e91daaec3274022cc7b2"}, "tags": {"1.0.6--h19e8d03_5": "sha256:6b722f7caeadfedb9649b97cf68f519bb9f2af4974a83e2c917cef72d2b97851", "1.0.6--h6dccd9a_7": "sha256:d9707b9769187165acc3f51a8ff0f401817f332af5d8e91daaec3274022cc7b2"}, "docker": "quay.io/biocontainers/micro_razers", "aliases": {"micro_razers": "/usr/local/bin/micro_razers"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/micro_razers.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/micro_razers
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/micro_razers:1.0.6--h19e8d03_5
+$ shpc install quay.io/biocontainers/micro_razers:1.0.6--h6dccd9a_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/micro_razers/1.0.6--h19e8d03_5
-$ module help quay.io/biocontainers/micro_razers/1.0.6--h19e8d03_5
+$ module load quay.io/biocontainers/micro_razers/1.0.6--h6dccd9a_7
+$ module help quay.io/biocontainers/micro_razers/1.0.6--h6dccd9a_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
