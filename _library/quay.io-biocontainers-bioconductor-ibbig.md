@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ibbig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ibbig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ibbig/container.yaml"
-updated_at: "2023-05-25 02:56:17.320605"
-latest: "1.42.0--r42hc0cfd56_0"
+updated_at: "2023-05-26 02:39:43.861593"
+latest: "1.42.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-ibbig"
 
 versions:
  - "1.38.0--r41hc0cfd56_2"
  - "1.42.0--r42hc0cfd56_0"
+ - "1.42.0--r42ha9d7317_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-ibbig"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ibbig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibbig", "latest": {"1.42.0--r42hc0cfd56_0": "sha256:8adfd78d9444c1553b7abee5d2e36009c3cae8449910e9e914b940813565ab73"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d", "1.42.0--r42hc0cfd56_0": "sha256:8adfd78d9444c1553b7abee5d2e36009c3cae8449910e9e914b940813565ab73"}, "docker": "quay.io/biocontainers/bioconductor-ibbig"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ibbig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibbig", "latest": {"1.42.0--r42ha9d7317_2": "sha256:f96b4e707d1a205e73b7e67c19f3c660944fd14742b2cefa02cf78a6c28e410b"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d", "1.42.0--r42hc0cfd56_0": "sha256:8adfd78d9444c1553b7abee5d2e36009c3cae8449910e9e914b940813565ab73", "1.42.0--r42ha9d7317_2": "sha256:f96b4e707d1a205e73b7e67c19f3c660944fd14742b2cefa02cf78a6c28e410b"}, "docker": "quay.io/biocontainers/bioconductor-ibbig"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ibbig.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ibbig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ibbig:1.42.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-ibbig:1.42.0--r42ha9d7317_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ibbig/1.42.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-ibbig/1.42.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-ibbig/1.42.0--r42ha9d7317_2
+$ module help quay.io/biocontainers/bioconductor-ibbig/1.42.0--r42ha9d7317_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

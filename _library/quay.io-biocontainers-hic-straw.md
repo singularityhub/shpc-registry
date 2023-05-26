@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hic-straw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hic-straw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hic-straw/container.yaml"
-updated_at: "2023-05-25 03:30:31.492452"
-latest: "1.3.1--py39hc1feb53_0"
+updated_at: "2023-05-26 03:15:20.497190"
+latest: "1.3.1--py38h5e0e482_3"
 container_url: "https://biocontainers.pro/tools/hic-straw"
 aliases:
  - "pybind11-config"
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.3.1--py39hc1feb53_0"
+ - "1.3.1--py38h5e0e482_3"
 description: "singularity registry hpc automated addition for hic-straw"
-config: {"url": "https://biocontainers.pro/tools/hic-straw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hic-straw", "latest": {"1.3.1--py39hc1feb53_0": "sha256:5ae5c5519433b49a3380233146c62f4031cbbcba07101fd8d38d409abc0136d4"}, "tags": {"1.3.1--py39hc1feb53_0": "sha256:5ae5c5519433b49a3380233146c62f4031cbbcba07101fd8d38d409abc0136d4"}, "docker": "quay.io/biocontainers/hic-straw", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/hic-straw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hic-straw", "latest": {"1.3.1--py38h5e0e482_3": "sha256:dfd1140240fe4fd58d94f81d6568ce883b22604ef31d8dd9aaecf236820fd788"}, "tags": {"1.3.1--py39hc1feb53_0": "sha256:5ae5c5519433b49a3380233146c62f4031cbbcba07101fd8d38d409abc0136d4", "1.3.1--py38h5e0e482_3": "sha256:dfd1140240fe4fd58d94f81d6568ce883b22604ef31d8dd9aaecf236820fd788"}, "docker": "quay.io/biocontainers/hic-straw", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hic-straw.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/hic-straw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hic-straw:1.3.1--py39hc1feb53_0
+$ shpc install quay.io/biocontainers/hic-straw:1.3.1--py38h5e0e482_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hic-straw/1.3.1--py39hc1feb53_0
-$ module help quay.io/biocontainers/hic-straw/1.3.1--py39hc1feb53_0
+$ module load quay.io/biocontainers/hic-straw/1.3.1--py38h5e0e482_3
+$ module help quay.io/biocontainers/hic-straw/1.3.1--py38h5e0e482_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

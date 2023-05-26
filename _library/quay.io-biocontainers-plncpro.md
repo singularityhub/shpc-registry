@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plncpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plncpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plncpro/container.yaml"
-updated_at: "2023-05-25 02:56:49.152171"
-latest: "1.2.2--py37h96cfd12_3"
+updated_at: "2023-05-26 02:40:16.771002"
+latest: "1.2.2--py39h1f90b4d_5"
 container_url: "https://biocontainers.pro/tools/plncpro"
 aliases:
  - "plncpro"
@@ -22,8 +22,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.2.2--py37h96cfd12_3"
+ - "1.2.2--py39h1f90b4d_5"
 description: "shpc-registry automated BioContainers addition for plncpro"
-config: {"url": "https://biocontainers.pro/tools/plncpro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plncpro", "latest": {"1.2.2--py37h96cfd12_3": "sha256:acc9acd73f65eb7343634cfb4e776e9e4a9ea8485df4c16eaeb1fc9a56c6bc6c"}, "tags": {"1.2.2--py37h96cfd12_3": "sha256:acc9acd73f65eb7343634cfb4e776e9e4a9ea8485df4c16eaeb1fc9a56c6bc6c"}, "docker": "quay.io/biocontainers/plncpro", "aliases": {"plncpro": "/usr/local/bin/plncpro", "plncpro_format_ff.sh": "/usr/local/bin/plncpro_format_ff.sh", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/plncpro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plncpro", "latest": {"1.2.2--py39h1f90b4d_5": "sha256:7e8322a53c9bd5a0c3bc5f2de34d73323ef494d5f62afc46a7ee02cfbcdbd282"}, "tags": {"1.2.2--py37h96cfd12_3": "sha256:acc9acd73f65eb7343634cfb4e776e9e4a9ea8485df4c16eaeb1fc9a56c6bc6c", "1.2.2--py39h1f90b4d_5": "sha256:7e8322a53c9bd5a0c3bc5f2de34d73323ef494d5f62afc46a7ee02cfbcdbd282"}, "docker": "quay.io/biocontainers/plncpro", "aliases": {"plncpro": "/usr/local/bin/plncpro", "plncpro_format_ff.sh": "/usr/local/bin/plncpro_format_ff.sh", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plncpro.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/plncpro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plncpro:1.2.2--py37h96cfd12_3
+$ shpc install quay.io/biocontainers/plncpro:1.2.2--py39h1f90b4d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plncpro/1.2.2--py37h96cfd12_3
-$ module help quay.io/biocontainers/plncpro/1.2.2--py37h96cfd12_3
+$ module load quay.io/biocontainers/plncpro/1.2.2--py39h1f90b4d_5
+$ module help quay.io/biocontainers/plncpro/1.2.2--py39h1f90b4d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

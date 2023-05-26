@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-params-validate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-params-validate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-params-validate/container.yaml"
-updated_at: "2023-05-25 03:32:11.120248"
-latest: "1.31--pl5321hec16e2b_0"
+updated_at: "2023-05-26 03:17:04.544747"
+latest: "1.31--pl5321h031d066_2"
 container_url: "https://biocontainers.pro/tools/perl-params-validate"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.30--pl5321hec16e2b_1"
  - "1.31--pl5321hec16e2b_0"
+ - "1.31--pl5321h031d066_2"
 description: "shpc-registry automated BioContainers addition for perl-params-validate"
-config: {"url": "https://biocontainers.pro/tools/perl-params-validate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-params-validate", "latest": {"1.31--pl5321hec16e2b_0": "sha256:a4c816e556829c9250d005673765013ec4ef8b11af732b13302a874190e85971"}, "tags": {"1.30--pl5321hec16e2b_1": "sha256:b2506256c6013e667479d5b070a3b778fd1d18cc20db5a459dee527328dfc995", "1.31--pl5321hec16e2b_0": "sha256:a4c816e556829c9250d005673765013ec4ef8b11af732b13302a874190e85971"}, "docker": "quay.io/biocontainers/perl-params-validate", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-params-validate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-params-validate", "latest": {"1.31--pl5321h031d066_2": "sha256:65773c937ed552ddf5177cfb4a3906715b2437a8f834df1385f38d917e002f3a"}, "tags": {"1.30--pl5321hec16e2b_1": "sha256:b2506256c6013e667479d5b070a3b778fd1d18cc20db5a459dee527328dfc995", "1.31--pl5321hec16e2b_0": "sha256:a4c816e556829c9250d005673765013ec4ef8b11af732b13302a874190e85971", "1.31--pl5321h031d066_2": "sha256:65773c937ed552ddf5177cfb4a3906715b2437a8f834df1385f38d917e002f3a"}, "docker": "quay.io/biocontainers/perl-params-validate", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-params-validate.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-params-validate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-params-validate:1.31--pl5321hec16e2b_0
+$ shpc install quay.io/biocontainers/perl-params-validate:1.31--pl5321h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-params-validate/1.31--pl5321hec16e2b_0
-$ module help quay.io/biocontainers/perl-params-validate/1.31--pl5321hec16e2b_0
+$ module load quay.io/biocontainers/perl-params-validate/1.31--pl5321h031d066_2
+$ module help quay.io/biocontainers/perl-params-validate/1.31--pl5321h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-epistasisga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epistasisga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epistasisga/container.yaml"
-updated_at: "2023-05-25 03:06:44.349191"
-latest: "1.0.0--r42hc247a5b_0"
+updated_at: "2023-05-26 02:50:31.713607"
+latest: "1.0.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-epistasisga"
 aliases:
  - "glpsol"
 versions:
  - "1.0.0--r42hc247a5b_0"
+ - "1.0.0--r42hf17093f_1"
 description: "singularity registry hpc automated addition for bioconductor-epistasisga"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epistasisga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-epistasisga", "latest": {"1.0.0--r42hc247a5b_0": "sha256:504a3d6c60343c7e17ea0d8851e46764c70c5b9a3839be9f62f195defc9cf10f"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:504a3d6c60343c7e17ea0d8851e46764c70c5b9a3839be9f62f195defc9cf10f"}, "docker": "quay.io/biocontainers/bioconductor-epistasisga", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epistasisga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-epistasisga", "latest": {"1.0.0--r42hf17093f_1": "sha256:8427b5a4fcac9deef39fd2eba7cd1f6233696f01c7de3bfa5fcf3125261110b3"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:504a3d6c60343c7e17ea0d8851e46764c70c5b9a3839be9f62f195defc9cf10f", "1.0.0--r42hf17093f_1": "sha256:8427b5a4fcac9deef39fd2eba7cd1f6233696f01c7de3bfa5fcf3125261110b3"}, "docker": "quay.io/biocontainers/bioconductor-epistasisga", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epistasisga.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epistasisga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epistasisga:1.0.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-epistasisga:1.0.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epistasisga/1.0.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-epistasisga/1.0.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-epistasisga/1.0.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-epistasisga/1.0.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

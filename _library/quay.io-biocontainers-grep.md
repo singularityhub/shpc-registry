@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grep/container.yaml"
-updated_at: "2023-05-25 03:10:17.049756"
-latest: "3.4--hcb20899_2"
+updated_at: "2023-05-26 02:54:12.740221"
+latest: "3.4--hf43ccf4_4"
 container_url: "https://biocontainers.pro/tools/grep"
 aliases:
  - "egrep"
@@ -14,8 +14,9 @@ aliases:
  - "pcregrep"
 versions:
  - "3.4--hcb20899_2"
+ - "3.4--hf43ccf4_4"
 description: "shpc-registry automated BioContainers addition for grep"
-config: {"url": "https://biocontainers.pro/tools/grep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grep", "latest": {"3.4--hcb20899_2": "sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc"}, "tags": {"3.4--hcb20899_2": "sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc"}, "docker": "quay.io/biocontainers/grep", "aliases": {"egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "pcregrep": "/usr/local/bin/pcregrep"}}
+config: {"url": "https://biocontainers.pro/tools/grep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grep", "latest": {"3.4--hf43ccf4_4": "sha256:8a95935ff6ab5836c294b2c0d7c183e85f7d4d3bb9603a76d6cd3d4ec83680e6"}, "tags": {"3.4--hcb20899_2": "sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc", "3.4--hf43ccf4_4": "sha256:8a95935ff6ab5836c294b2c0d7c183e85f7d4d3bb9603a76d6cd3d4ec83680e6"}, "docker": "quay.io/biocontainers/grep", "aliases": {"egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "pcregrep": "/usr/local/bin/pcregrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grep.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/grep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grep:3.4--hcb20899_2
+$ shpc install quay.io/biocontainers/grep:3.4--hf43ccf4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grep/3.4--hcb20899_2
-$ module help quay.io/biocontainers/grep/3.4--hcb20899_2
+$ module load quay.io/biocontainers/grep/3.4--hf43ccf4_4
+$ module help quay.io/biocontainers/grep/3.4--hf43ccf4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

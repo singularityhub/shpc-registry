@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-multtest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multtest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multtest/container.yaml"
-updated_at: "2023-05-25 03:24:19.845009"
-latest: "2.54.0--r42hc0cfd56_0"
+updated_at: "2023-05-26 03:08:51.968688"
+latest: "2.54.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-multtest"
 
 versions:
  - "2.50.0--r41hc0cfd56_2"
  - "2.54.0--r42hc0cfd56_0"
+ - "2.54.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-multtest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-multtest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multtest", "latest": {"2.54.0--r42hc0cfd56_0": "sha256:8e7ab14a56d3765f6590bc2cc4eb61883bdc12578212549b33fa0fa26a8bc8c7"}, "tags": {"2.50.0--r41hc0cfd56_2": "sha256:487ca81662aa34fa3e7d7f1b95f7203cfbb9b31335e7383f2b9dc0025a86f454", "2.54.0--r42hc0cfd56_0": "sha256:8e7ab14a56d3765f6590bc2cc4eb61883bdc12578212549b33fa0fa26a8bc8c7"}, "docker": "quay.io/biocontainers/bioconductor-multtest"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-multtest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multtest", "latest": {"2.54.0--r42ha9d7317_1": "sha256:16432acdcee4b7223c678b99e8a236824463cdbc55251a5f15cee91b2f8ed758"}, "tags": {"2.50.0--r41hc0cfd56_2": "sha256:487ca81662aa34fa3e7d7f1b95f7203cfbb9b31335e7383f2b9dc0025a86f454", "2.54.0--r42hc0cfd56_0": "sha256:8e7ab14a56d3765f6590bc2cc4eb61883bdc12578212549b33fa0fa26a8bc8c7", "2.54.0--r42ha9d7317_1": "sha256:16432acdcee4b7223c678b99e8a236824463cdbc55251a5f15cee91b2f8ed758"}, "docker": "quay.io/biocontainers/bioconductor-multtest"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-multtest.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-multtest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-multtest:2.54.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-multtest:2.54.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-multtest/2.54.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-multtest/2.54.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-multtest/2.54.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-multtest/2.54.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

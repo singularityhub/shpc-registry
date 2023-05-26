@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-preprocesscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-preprocesscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-preprocesscore/container.yaml"
-updated_at: "2023-05-25 03:26:32.825614"
-latest: "1.60.2--r42hc0cfd56_0"
+updated_at: "2023-05-26 03:11:10.665110"
+latest: "1.60.2--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-preprocesscore"
 
 versions:
  - "1.56.0--r41hc0cfd56_3"
  - "1.60.0--r42hc0cfd56_0"
  - "1.60.2--r42hc0cfd56_0"
+ - "1.60.2--r42ha9d7317_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-preprocesscore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-preprocesscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-preprocesscore", "latest": {"1.60.2--r42hc0cfd56_0": "sha256:45e93a3bc9e4d6eb0e0b62a61d3b630ff18f6fb0f00e952b9b5dd50560d712de"}, "tags": {"1.56.0--r41hc0cfd56_3": "sha256:04f16830ab80ff8d1b47df3698ff59af740b2e9da59e15cc4f910da054a7c7b7", "1.60.0--r42hc0cfd56_0": "sha256:d87a72c772626795a2de52db4663c25e790d2e2eb9f9f0f793663f9ea51c939a", "1.60.2--r42hc0cfd56_0": "sha256:45e93a3bc9e4d6eb0e0b62a61d3b630ff18f6fb0f00e952b9b5dd50560d712de"}, "docker": "quay.io/biocontainers/bioconductor-preprocesscore"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-preprocesscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-preprocesscore", "latest": {"1.60.2--r42ha9d7317_2": "sha256:150ab94d9b7de05dfa14e79858be93d4d5a8195a063ec4a4ac3ef9cefbfed344"}, "tags": {"1.56.0--r41hc0cfd56_3": "sha256:04f16830ab80ff8d1b47df3698ff59af740b2e9da59e15cc4f910da054a7c7b7", "1.60.0--r42hc0cfd56_0": "sha256:d87a72c772626795a2de52db4663c25e790d2e2eb9f9f0f793663f9ea51c939a", "1.60.2--r42hc0cfd56_0": "sha256:45e93a3bc9e4d6eb0e0b62a61d3b630ff18f6fb0f00e952b9b5dd50560d712de", "1.60.2--r42ha9d7317_2": "sha256:150ab94d9b7de05dfa14e79858be93d4d5a8195a063ec4a4ac3ef9cefbfed344"}, "docker": "quay.io/biocontainers/bioconductor-preprocesscore"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-preprocesscore.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-preprocesscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-preprocesscore:1.60.2--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-preprocesscore:1.60.2--r42ha9d7317_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-preprocesscore/1.60.2--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-preprocesscore/1.60.2--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-preprocesscore/1.60.2--r42ha9d7317_2
+$ module help quay.io/biocontainers/bioconductor-preprocesscore/1.60.2--r42ha9d7317_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

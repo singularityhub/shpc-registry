@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/weeder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weeder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/weeder/container.yaml"
-updated_at: "2023-05-25 03:35:52.251826"
-latest: "2.0--h9f5acd7_6"
+updated_at: "2023-05-26 03:20:53.139254"
+latest: "2.0--h4ac6f70_8"
 container_url: "https://biocontainers.pro/tools/weeder"
 aliases:
  - "weeder2"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.0--h9f5acd7_6"
+ - "2.0--h4ac6f70_8"
 description: "shpc-registry automated BioContainers addition for weeder"
-config: {"url": "https://biocontainers.pro/tools/weeder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weeder", "latest": {"2.0--h9f5acd7_6": "sha256:457c6fff18b3c16c95df4aa4e17fd02098df198175f231019bf35732a4e873f4"}, "tags": {"2.0--h9f5acd7_6": "sha256:457c6fff18b3c16c95df4aa4e17fd02098df198175f231019bf35732a4e873f4"}, "docker": "quay.io/biocontainers/weeder", "aliases": {"weeder2": "/usr/local/bin/weeder2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/weeder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weeder", "latest": {"2.0--h4ac6f70_8": "sha256:c98cbcac36453a06c3ffcdbfe673efd93879e0a69999e91f9c6408ca1276f556"}, "tags": {"2.0--h9f5acd7_6": "sha256:457c6fff18b3c16c95df4aa4e17fd02098df198175f231019bf35732a4e873f4", "2.0--h4ac6f70_8": "sha256:c98cbcac36453a06c3ffcdbfe673efd93879e0a69999e91f9c6408ca1276f556"}, "docker": "quay.io/biocontainers/weeder", "aliases": {"weeder2": "/usr/local/bin/weeder2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/weeder.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/weeder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/weeder:2.0--h9f5acd7_6
+$ shpc install quay.io/biocontainers/weeder:2.0--h4ac6f70_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/weeder/2.0--h9f5acd7_6
-$ module help quay.io/biocontainers/weeder/2.0--h9f5acd7_6
+$ module load quay.io/biocontainers/weeder/2.0--h4ac6f70_8
+$ module help quay.io/biocontainers/weeder/2.0--h4ac6f70_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

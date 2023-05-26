@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/py_fasta_validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py_fasta_validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py_fasta_validator/container.yaml"
-updated_at: "2023-05-25 03:22:56.683850"
-latest: "0.6--py39h6935b12_0"
+updated_at: "2023-05-26 03:07:25.512021"
+latest: "0.6--py39hd65a603_3"
 container_url: "https://biocontainers.pro/tools/py_fasta_validator"
 aliases:
  - "py_fasta_validator"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.5--py38h4a32c8e_3"
  - "0.6--py39h6935b12_0"
+ - "0.6--py39hd65a603_3"
 description: "singularity registry hpc automated addition for py_fasta_validator"
-config: {"url": "https://biocontainers.pro/tools/py_fasta_validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for py_fasta_validator", "latest": {"0.6--py39h6935b12_0": "sha256:f5274a5bf7b3e8c1a7b8e47a2e62333daa04cd33e163399755802da3ffbb23d1"}, "tags": {"0.5--py38h4a32c8e_3": "sha256:a9e80e766f3cb5917faec86d426463017d36ab566451ef5c437a2570ee25d582", "0.6--py39h6935b12_0": "sha256:f5274a5bf7b3e8c1a7b8e47a2e62333daa04cd33e163399755802da3ffbb23d1"}, "docker": "quay.io/biocontainers/py_fasta_validator", "aliases": {"py_fasta_validator": "/usr/local/bin/py_fasta_validator", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/py_fasta_validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for py_fasta_validator", "latest": {"0.6--py39hd65a603_3": "sha256:941dd9f0469a53304c376faa1eb9672b77dddb0334d8033414e1742d08926264"}, "tags": {"0.5--py38h4a32c8e_3": "sha256:a9e80e766f3cb5917faec86d426463017d36ab566451ef5c437a2570ee25d582", "0.6--py39h6935b12_0": "sha256:f5274a5bf7b3e8c1a7b8e47a2e62333daa04cd33e163399755802da3ffbb23d1", "0.6--py39hd65a603_3": "sha256:941dd9f0469a53304c376faa1eb9672b77dddb0334d8033414e1742d08926264"}, "docker": "quay.io/biocontainers/py_fasta_validator", "aliases": {"py_fasta_validator": "/usr/local/bin/py_fasta_validator", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/py_fasta_validator.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/py_fasta_validator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/py_fasta_validator:0.6--py39h6935b12_0
+$ shpc install quay.io/biocontainers/py_fasta_validator:0.6--py39hd65a603_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/py_fasta_validator/0.6--py39h6935b12_0
-$ module help quay.io/biocontainers/py_fasta_validator/0.6--py39h6935b12_0
+$ module load quay.io/biocontainers/py_fasta_validator/0.6--py39hd65a603_3
+$ module help quay.io/biocontainers/py_fasta_validator/0.6--py39hd65a603_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hybran"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hybran/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hybran/container.yaml"
-updated_at: "2023-05-25 03:06:17.651234"
-latest: "1.5.2--pyhdfd78af_1"
+updated_at: "2023-05-26 02:50:04.034728"
+latest: "1.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hybran"
 aliases:
  - "TMalign"
@@ -49,8 +49,9 @@ aliases:
  - "abiview"
 versions:
  - "1.5.2--pyhdfd78af_1"
+ - "1.6.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hybran"
-config: {"url": "https://biocontainers.pro/tools/hybran", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hybran", "latest": {"1.5.2--pyhdfd78af_1": "sha256:1dec647d0b88b79d3d3245818d907b82f09306dfbc2c6935623636ef0c8b5ddb"}, "tags": {"1.5.2--pyhdfd78af_1": "sha256:1dec647d0b88b79d3d3245818d907b82f09306dfbc2c6935623636ef0c8b5ddb"}, "docker": "quay.io/biocontainers/hybran", "aliases": {"TMalign": "/usr/local/bin/TMalign", "aria2c": "/usr/local/bin/aria2c", "create_dbs.py": "/usr/local/bin/create_dbs.py", "download_eggnog_data.py": "/usr/local/bin/download_eggnog_data.py", "emapper.py": "/usr/local/bin/emapper.py", "f2py3.11": "/usr/local/bin/f2py3.11", "hmm_mapper.py": "/usr/local/bin/hmm_mapper.py", "hmm_server.py": "/usr/local/bin/hmm_server.py", "hmm_worker.py": "/usr/local/bin/hmm_worker.py", "hybran": "/usr/local/bin/hybran", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "ratt": "/usr/local/bin/ratt", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "2to3-3.11": "/usr/local/bin/2to3-3.11", "clustalo": "/usr/local/bin/clustalo", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat", "megablast": "/usr/local/bin/megablast", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview"}}
+config: {"url": "https://biocontainers.pro/tools/hybran", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hybran", "latest": {"1.6.1--pyhdfd78af_0": "sha256:089ac597b26aa627706a6dc56577b9180809bead5b65bd1d1eda89e0f3407adb"}, "tags": {"1.5.2--pyhdfd78af_1": "sha256:1dec647d0b88b79d3d3245818d907b82f09306dfbc2c6935623636ef0c8b5ddb", "1.6.1--pyhdfd78af_0": "sha256:089ac597b26aa627706a6dc56577b9180809bead5b65bd1d1eda89e0f3407adb"}, "docker": "quay.io/biocontainers/hybran", "aliases": {"TMalign": "/usr/local/bin/TMalign", "aria2c": "/usr/local/bin/aria2c", "create_dbs.py": "/usr/local/bin/create_dbs.py", "download_eggnog_data.py": "/usr/local/bin/download_eggnog_data.py", "emapper.py": "/usr/local/bin/emapper.py", "f2py3.11": "/usr/local/bin/f2py3.11", "hmm_mapper.py": "/usr/local/bin/hmm_mapper.py", "hmm_server.py": "/usr/local/bin/hmm_server.py", "hmm_worker.py": "/usr/local/bin/hmm_worker.py", "hybran": "/usr/local/bin/hybran", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "ratt": "/usr/local/bin/ratt", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "2to3-3.11": "/usr/local/bin/2to3-3.11", "clustalo": "/usr/local/bin/clustalo", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat", "megablast": "/usr/local/bin/megablast", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hybran.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/hybran
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hybran:1.5.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/hybran:1.6.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hybran/1.5.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/hybran/1.5.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/hybran/1.6.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/hybran/1.6.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macarron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macarron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macarron/container.yaml"
-updated_at: "2023-05-25 03:26:35.214241"
+updated_at: "2023-05-26 03:11:13.137310"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macarron"
 aliases:

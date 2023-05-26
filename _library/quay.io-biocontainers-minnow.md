@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minnow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minnow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minnow/container.yaml"
-updated_at: "2023-05-25 03:00:07.815456"
+updated_at: "2023-05-26 02:43:41.310471"
 latest: "beta_1.3--h7f8bfb2_2"
 container_url: "https://biocontainers.pro/tools/minnow"
 aliases:

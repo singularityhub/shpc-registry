@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/corset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corset/container.yaml"
-updated_at: "2023-05-25 03:18:28.541098"
-latest: "1.09--hd03093a_3"
+updated_at: "2023-05-26 03:02:45.579955"
+latest: "1.09--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/corset"
 aliases:
  - "corset"
  - "corset_fasta_ID_changer"
 versions:
  - "1.09--hd03093a_3"
+ - "1.09--hdcf5f25_4"
 description: "shpc-registry automated BioContainers addition for corset"
-config: {"url": "https://biocontainers.pro/tools/corset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for corset", "latest": {"1.09--hd03093a_3": "sha256:b60f3da57f6a2b491ca3509e589d299402e536843b0d4a4885df94f357ad933a"}, "tags": {"1.09--hd03093a_3": "sha256:b60f3da57f6a2b491ca3509e589d299402e536843b0d4a4885df94f357ad933a"}, "docker": "quay.io/biocontainers/corset", "aliases": {"corset": "/usr/local/bin/corset", "corset_fasta_ID_changer": "/usr/local/bin/corset_fasta_ID_changer"}}
+config: {"url": "https://biocontainers.pro/tools/corset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for corset", "latest": {"1.09--hdcf5f25_4": "sha256:2fdd3c566c12116e28358f636d1e65060a53f2ae42f59e530437980831d94369"}, "tags": {"1.09--hd03093a_3": "sha256:b60f3da57f6a2b491ca3509e589d299402e536843b0d4a4885df94f357ad933a", "1.09--hdcf5f25_4": "sha256:2fdd3c566c12116e28358f636d1e65060a53f2ae42f59e530437980831d94369"}, "docker": "quay.io/biocontainers/corset", "aliases": {"corset": "/usr/local/bin/corset", "corset_fasta_ID_changer": "/usr/local/bin/corset_fasta_ID_changer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/corset.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/corset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/corset:1.09--hd03093a_3
+$ shpc install quay.io/biocontainers/corset:1.09--hdcf5f25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/corset/1.09--hd03093a_3
-$ module help quay.io/biocontainers/corset/1.09--hd03093a_3
+$ module load quay.io/biocontainers/corset/1.09--hdcf5f25_4
+$ module help quay.io/biocontainers/corset/1.09--hdcf5f25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

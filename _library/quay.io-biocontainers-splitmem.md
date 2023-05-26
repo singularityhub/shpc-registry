@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/splitmem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitmem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitmem/container.yaml"
-updated_at: "2023-05-25 02:57:30.681823"
-latest: "1.0--h9f5acd7_4"
+updated_at: "2023-05-26 02:40:59.979526"
+latest: "1.0--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/splitmem"
 aliases:
  - "splitMEM"
 versions:
  - "1.0--h9f5acd7_4"
+ - "1.0--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for splitmem"
-config: {"url": "https://biocontainers.pro/tools/splitmem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for splitmem", "latest": {"1.0--h9f5acd7_4": "sha256:f157295b5dda2e29a559fe549ae5b0e9feae9dc47ee0510db1f978683c337493"}, "tags": {"1.0--h9f5acd7_4": "sha256:f157295b5dda2e29a559fe549ae5b0e9feae9dc47ee0510db1f978683c337493"}, "docker": "quay.io/biocontainers/splitmem", "aliases": {"splitMEM": "/usr/local/bin/splitMEM"}}
+config: {"url": "https://biocontainers.pro/tools/splitmem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for splitmem", "latest": {"1.0--h4ac6f70_6": "sha256:031a2fe0c1058f71e882236294b8f077185f37dd6fbaed48b448c799ad355c19"}, "tags": {"1.0--h9f5acd7_4": "sha256:f157295b5dda2e29a559fe549ae5b0e9feae9dc47ee0510db1f978683c337493", "1.0--h4ac6f70_6": "sha256:031a2fe0c1058f71e882236294b8f077185f37dd6fbaed48b448c799ad355c19"}, "docker": "quay.io/biocontainers/splitmem", "aliases": {"splitMEM": "/usr/local/bin/splitMEM"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/splitmem.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/splitmem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/splitmem:1.0--h9f5acd7_4
+$ shpc install quay.io/biocontainers/splitmem:1.0--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/splitmem/1.0--h9f5acd7_4
-$ module help quay.io/biocontainers/splitmem/1.0--h9f5acd7_4
+$ module load quay.io/biocontainers/splitmem/1.0--h4ac6f70_6
+$ module help quay.io/biocontainers/splitmem/1.0--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

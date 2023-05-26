@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mammal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mammal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mammal/container.yaml"
-updated_at: "2023-05-25 03:08:56.514867"
-latest: "1.1.1--h87f3376_0"
+updated_at: "2023-05-26 02:52:49.056629"
+latest: "1.1.1--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/mammal"
 aliases:
  - "charfreq"
@@ -16,8 +16,9 @@ aliases:
  - "mult-mix-lwt"
 versions:
  - "1.1.1--h87f3376_0"
+ - "1.1.1--hdbdd923_2"
 description: "singularity registry hpc automated addition for mammal"
-config: {"url": "https://biocontainers.pro/tools/mammal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mammal", "latest": {"1.1.1--h87f3376_0": "sha256:233eb078fad2e6eb913e2e69ccda7d1cd6cabfa25259022ae44596d94712a6f6"}, "tags": {"1.1.1--h87f3376_0": "sha256:233eb078fad2e6eb913e2e69ccda7d1cd6cabfa25259022ae44596d94712a6f6"}, "docker": "quay.io/biocontainers/mammal", "aliases": {"charfreq": "/usr/local/bin/charfreq", "dgpe": "/usr/local/bin/dgpe", "mammal": "/usr/local/bin/mammal", "mammal-sigma": "/usr/local/bin/mammal-sigma", "mult-data": "/usr/local/bin/mult-data", "mult-mix-lwt": "/usr/local/bin/mult-mix-lwt"}}
+config: {"url": "https://biocontainers.pro/tools/mammal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mammal", "latest": {"1.1.1--hdbdd923_2": "sha256:cb61ffcb3e175a64b77ff19945163f1ccae9546284428517c3ba67af402bb286"}, "tags": {"1.1.1--h87f3376_0": "sha256:233eb078fad2e6eb913e2e69ccda7d1cd6cabfa25259022ae44596d94712a6f6", "1.1.1--hdbdd923_2": "sha256:cb61ffcb3e175a64b77ff19945163f1ccae9546284428517c3ba67af402bb286"}, "docker": "quay.io/biocontainers/mammal", "aliases": {"charfreq": "/usr/local/bin/charfreq", "dgpe": "/usr/local/bin/dgpe", "mammal": "/usr/local/bin/mammal", "mammal-sigma": "/usr/local/bin/mammal-sigma", "mult-data": "/usr/local/bin/mult-data", "mult-mix-lwt": "/usr/local/bin/mult-mix-lwt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mammal.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/mammal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mammal:1.1.1--h87f3376_0
+$ shpc install quay.io/biocontainers/mammal:1.1.1--hdbdd923_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mammal/1.1.1--h87f3376_0
-$ module help quay.io/biocontainers/mammal/1.1.1--h87f3376_0
+$ module load quay.io/biocontainers/mammal/1.1.1--hdbdd923_2
+$ module help quay.io/biocontainers/mammal/1.1.1--hdbdd923_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

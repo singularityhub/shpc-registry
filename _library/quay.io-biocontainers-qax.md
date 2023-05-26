@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/qax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qax/container.yaml"
-updated_at: "2023-05-25 02:51:40.381622"
-latest: "0.9.6--hac521b0_1"
+updated_at: "2023-05-26 02:34:57.428218"
+latest: "0.9.6--h3767383_2"
 container_url: "https://biocontainers.pro/tools/qax"
 aliases:
  - "qax"
@@ -15,8 +15,9 @@ aliases:
  - "ziptool"
 versions:
  - "0.9.6--hac521b0_1"
+ - "0.9.6--h3767383_2"
 description: "shpc-registry automated BioContainers addition for qax"
-config: {"url": "https://biocontainers.pro/tools/qax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qax", "latest": {"0.9.6--hac521b0_1": "sha256:ce9893b86cd763810e66ea6a762996c4e9d28dd85877f07662210d16297daa9b"}, "tags": {"0.9.6--hac521b0_1": "sha256:ce9893b86cd763810e66ea6a762996c4e9d28dd85877f07662210d16297daa9b"}, "docker": "quay.io/biocontainers/qax", "aliases": {"qax": "/usr/local/bin/qax", "zip": "/usr/local/bin/zip", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool"}}
+config: {"url": "https://biocontainers.pro/tools/qax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qax", "latest": {"0.9.6--h3767383_2": "sha256:c057f089373656ab9ccd891c325a2c1d40e968dbf26fd5a6b5fa1827365a7282"}, "tags": {"0.9.6--hac521b0_1": "sha256:ce9893b86cd763810e66ea6a762996c4e9d28dd85877f07662210d16297daa9b", "0.9.6--h3767383_2": "sha256:c057f089373656ab9ccd891c325a2c1d40e968dbf26fd5a6b5fa1827365a7282"}, "docker": "quay.io/biocontainers/qax", "aliases": {"qax": "/usr/local/bin/qax", "zip": "/usr/local/bin/zip", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qax.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/qax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/qax:0.9.6--hac521b0_1
+$ shpc install quay.io/biocontainers/qax:0.9.6--h3767383_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/qax/0.9.6--hac521b0_1
-$ module help quay.io/biocontainers/qax/0.9.6--hac521b0_1
+$ module load quay.io/biocontainers/qax/0.9.6--h3767383_2
+$ module help quay.io/biocontainers/qax/0.9.6--h3767383_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

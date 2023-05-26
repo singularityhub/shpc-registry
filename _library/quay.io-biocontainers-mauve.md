@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mauve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mauve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mauve/container.yaml"
-updated_at: "2023-05-25 03:28:38.456218"
-latest: "2.4.0.r4736--h9bed127_2"
+updated_at: "2023-05-26 03:13:22.772186"
+latest: "2.4.0.r4736--h43d4aaa_3"
 container_url: "https://biocontainers.pro/tools/mauve"
 aliases:
  - "Mauve"
@@ -52,8 +52,9 @@ aliases:
 versions:
  - "2.4.0.snapshot_2015_02_13--hdfd78af_4"
  - "2.4.0.r4736--h9bed127_2"
+ - "2.4.0.r4736--h43d4aaa_3"
 description: "shpc-registry automated BioContainers addition for mauve"
-config: {"url": "https://biocontainers.pro/tools/mauve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mauve", "latest": {"2.4.0.r4736--h9bed127_2": "sha256:10ec3f8e1e7707c1aac8b3001e445b6773cf0c63203443f4e843a921666f70b6"}, "tags": {"2.4.0.snapshot_2015_02_13--hdfd78af_4": "sha256:6ade83c13e7430252285f568f3bcc6dfc378371b76630cb35da8d34c7fa10c2f", "2.4.0.r4736--h9bed127_2": "sha256:10ec3f8e1e7707c1aac8b3001e445b6773cf0c63203443f4e843a921666f70b6"}, "docker": "quay.io/biocontainers/mauve", "aliases": {"Mauve": "/usr/local/bin/Mauve", "MauveCM": "/usr/local/bin/MauveCM", "addUnalignedIntervals": "/usr/local/bin/addUnalignedIntervals", "alignmentProjector": "/usr/local/bin/alignmentProjector", "backbone_global_to_local": "/usr/local/bin/backbone_global_to_local", "bbAnalyze": "/usr/local/bin/bbAnalyze", "bbFilter": "/usr/local/bin/bbFilter", "coordinateTranslate": "/usr/local/bin/coordinateTranslate", "createBackboneMFA": "/usr/local/bin/createBackboneMFA", "extractBCITrees": "/usr/local/bin/extractBCITrees", "getAlignmentWindows": "/usr/local/bin/getAlignmentWindows", "getOrthologList": "/usr/local/bin/getOrthologList", "makeBadgerMatrix": "/usr/local/bin/makeBadgerMatrix", "mauveAligner": "/usr/local/bin/mauveAligner", "mauveStatic": "/usr/local/bin/mauveStatic", "mauveToXMFA": "/usr/local/bin/mauveToXMFA", "mfa2xmfa": "/usr/local/bin/mfa2xmfa", "progressiveMauve": "/usr/local/bin/progressiveMauve", "progressiveMauveStatic": "/usr/local/bin/progressiveMauveStatic", "projectAndStrip": "/usr/local/bin/projectAndStrip", "randomGeneSample": "/usr/local/bin/randomGeneSample", "repeatoire": "/usr/local/bin/repeatoire", "scoreAlignment": "/usr/local/bin/scoreAlignment", "stripGapColumns": "/usr/local/bin/stripGapColumns", "stripSubsetLCBs": "/usr/local/bin/stripSubsetLCBs", "toGrimmFormat": "/usr/local/bin/toGrimmFormat", "toMultiFastA": "/usr/local/bin/toMultiFastA", "toRawSequence": "/usr/local/bin/toRawSequence", "uniqueMerCount": "/usr/local/bin/uniqueMerCount", "uniquifyTrees": "/usr/local/bin/uniquifyTrees", "xmfa2maf": "/usr/local/bin/xmfa2maf", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/mauve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mauve", "latest": {"2.4.0.r4736--h43d4aaa_3": "sha256:2fdc8bb1abf112fb5003325d17c8d9990a1c8cc8239fd6fad5020ba210b1b5fa"}, "tags": {"2.4.0.snapshot_2015_02_13--hdfd78af_4": "sha256:6ade83c13e7430252285f568f3bcc6dfc378371b76630cb35da8d34c7fa10c2f", "2.4.0.r4736--h9bed127_2": "sha256:10ec3f8e1e7707c1aac8b3001e445b6773cf0c63203443f4e843a921666f70b6", "2.4.0.r4736--h43d4aaa_3": "sha256:2fdc8bb1abf112fb5003325d17c8d9990a1c8cc8239fd6fad5020ba210b1b5fa"}, "docker": "quay.io/biocontainers/mauve", "aliases": {"Mauve": "/usr/local/bin/Mauve", "MauveCM": "/usr/local/bin/MauveCM", "addUnalignedIntervals": "/usr/local/bin/addUnalignedIntervals", "alignmentProjector": "/usr/local/bin/alignmentProjector", "backbone_global_to_local": "/usr/local/bin/backbone_global_to_local", "bbAnalyze": "/usr/local/bin/bbAnalyze", "bbFilter": "/usr/local/bin/bbFilter", "coordinateTranslate": "/usr/local/bin/coordinateTranslate", "createBackboneMFA": "/usr/local/bin/createBackboneMFA", "extractBCITrees": "/usr/local/bin/extractBCITrees", "getAlignmentWindows": "/usr/local/bin/getAlignmentWindows", "getOrthologList": "/usr/local/bin/getOrthologList", "makeBadgerMatrix": "/usr/local/bin/makeBadgerMatrix", "mauveAligner": "/usr/local/bin/mauveAligner", "mauveStatic": "/usr/local/bin/mauveStatic", "mauveToXMFA": "/usr/local/bin/mauveToXMFA", "mfa2xmfa": "/usr/local/bin/mfa2xmfa", "progressiveMauve": "/usr/local/bin/progressiveMauve", "progressiveMauveStatic": "/usr/local/bin/progressiveMauveStatic", "projectAndStrip": "/usr/local/bin/projectAndStrip", "randomGeneSample": "/usr/local/bin/randomGeneSample", "repeatoire": "/usr/local/bin/repeatoire", "scoreAlignment": "/usr/local/bin/scoreAlignment", "stripGapColumns": "/usr/local/bin/stripGapColumns", "stripSubsetLCBs": "/usr/local/bin/stripSubsetLCBs", "toGrimmFormat": "/usr/local/bin/toGrimmFormat", "toMultiFastA": "/usr/local/bin/toMultiFastA", "toRawSequence": "/usr/local/bin/toRawSequence", "uniqueMerCount": "/usr/local/bin/uniqueMerCount", "uniquifyTrees": "/usr/local/bin/uniquifyTrees", "xmfa2maf": "/usr/local/bin/xmfa2maf", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mauve.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/mauve
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mauve:2.4.0.r4736--h9bed127_2
+$ shpc install quay.io/biocontainers/mauve:2.4.0.r4736--h43d4aaa_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mauve/2.4.0.r4736--h9bed127_2
-$ module help quay.io/biocontainers/mauve/2.4.0.r4736--h9bed127_2
+$ module load quay.io/biocontainers/mauve/2.4.0.r4736--h43d4aaa_3
+$ module help quay.io/biocontainers/mauve/2.4.0.r4736--h43d4aaa_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

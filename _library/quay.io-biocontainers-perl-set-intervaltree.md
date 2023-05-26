@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-set-intervaltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-set-intervaltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-set-intervaltree/container.yaml"
-updated_at: "2023-05-25 03:25:21.166683"
-latest: "0.12--pl5321h87f3376_2"
+updated_at: "2023-05-26 03:09:55.588482"
+latest: "0.12--pl5321hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/perl-set-intervaltree"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.12--pl5321h87f3376_2"
+ - "0.12--pl5321hdbdd923_3"
 description: "shpc-registry automated BioContainers addition for perl-set-intervaltree"
-config: {"url": "https://biocontainers.pro/tools/perl-set-intervaltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-set-intervaltree", "latest": {"0.12--pl5321h87f3376_2": "sha256:41c9272dbc20defd7a1137ccb901981174e7093bf5aabc07cc8c34d7f3c7f6d2"}, "tags": {"0.12--pl5321h87f3376_2": "sha256:41c9272dbc20defd7a1137ccb901981174e7093bf5aabc07cc8c34d7f3c7f6d2"}, "docker": "quay.io/biocontainers/perl-set-intervaltree", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-set-intervaltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-set-intervaltree", "latest": {"0.12--pl5321hdbdd923_3": "sha256:dad6100a5e20e246ed3049035febc7d39350070f42e3a54a2e6816c0a6c02111"}, "tags": {"0.12--pl5321h87f3376_2": "sha256:41c9272dbc20defd7a1137ccb901981174e7093bf5aabc07cc8c34d7f3c7f6d2", "0.12--pl5321hdbdd923_3": "sha256:dad6100a5e20e246ed3049035febc7d39350070f42e3a54a2e6816c0a6c02111"}, "docker": "quay.io/biocontainers/perl-set-intervaltree", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-set-intervaltree.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-set-intervaltree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-set-intervaltree:0.12--pl5321h87f3376_2
+$ shpc install quay.io/biocontainers/perl-set-intervaltree:0.12--pl5321hdbdd923_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-set-intervaltree/0.12--pl5321h87f3376_2
-$ module help quay.io/biocontainers/perl-set-intervaltree/0.12--pl5321h87f3376_2
+$ module load quay.io/biocontainers/perl-set-intervaltree/0.12--pl5321hdbdd923_3
+$ module help quay.io/biocontainers/perl-set-intervaltree/0.12--pl5321hdbdd923_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

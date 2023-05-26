@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/cafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cafe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cafe/container.yaml"
-updated_at: "2023-05-25 03:07:13.800518"
-latest: "5.0.0--h5b5514e_1"
+updated_at: "2023-05-26 02:51:02.096721"
+latest: "5.0.0--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/cafe"
 aliases:
  - "cafe5"
 versions:
  - "5.0.0--h5b5514e_1"
+ - "5.0.0--h43eeafb_3"
 description: "shpc-registry automated BioContainers addition for cafe"
-config: {"url": "https://biocontainers.pro/tools/cafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cafe", "latest": {"5.0.0--h5b5514e_1": "sha256:53927ab415c8c09c6e1070c5caa3d7f043b260becf9f3ced1bb62400b2a08bf2"}, "tags": {"5.0.0--h5b5514e_1": "sha256:53927ab415c8c09c6e1070c5caa3d7f043b260becf9f3ced1bb62400b2a08bf2"}, "docker": "quay.io/biocontainers/cafe", "aliases": {"cafe5": "/usr/local/bin/cafe5"}}
+config: {"url": "https://biocontainers.pro/tools/cafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cafe", "latest": {"5.0.0--h43eeafb_3": "sha256:bee2c8e724d0fc15f822adf642c3deccd6e3d160ada7fd82438be716cfe1dda5"}, "tags": {"5.0.0--h5b5514e_1": "sha256:53927ab415c8c09c6e1070c5caa3d7f043b260becf9f3ced1bb62400b2a08bf2", "5.0.0--h43eeafb_3": "sha256:bee2c8e724d0fc15f822adf642c3deccd6e3d160ada7fd82438be716cfe1dda5"}, "docker": "quay.io/biocontainers/cafe", "aliases": {"cafe5": "/usr/local/bin/cafe5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cafe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/cafe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cafe:5.0.0--h5b5514e_1
+$ shpc install quay.io/biocontainers/cafe:5.0.0--h43eeafb_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cafe/5.0.0--h5b5514e_1
-$ module help quay.io/biocontainers/cafe/5.0.0--h5b5514e_1
+$ module load quay.io/biocontainers/cafe/5.0.0--h43eeafb_3
+$ module help quay.io/biocontainers/cafe/5.0.0--h43eeafb_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

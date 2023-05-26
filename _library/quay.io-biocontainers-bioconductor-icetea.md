@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-icetea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icetea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icetea/container.yaml"
-updated_at: "2023-05-25 03:08:48.179259"
+updated_at: "2023-05-26 02:52:40.469484"
 latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icetea"
 aliases:
