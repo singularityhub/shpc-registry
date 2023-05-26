@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/psiclass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for psiclass
 latest:
-  1.0.3--h87f3376_1: sha256:964cd6947a5923c5c2d66b6bb28c988d97d6db0dd3fa7eb5225888a80d67ac3e
+  1.0.3--hdbdd923_2: sha256:5659e83ade16829081529f1a05274c98f41206bd407dfc8a52de6a8eacf7f950
 tags:
   1.0.3--h87f3376_0: sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2
   1.0.3--h87f3376_1: sha256:964cd6947a5923c5c2d66b6bb28c988d97d6db0dd3fa7eb5225888a80d67ac3e
+  1.0.3--hdbdd923_2: sha256:5659e83ade16829081529f1a05274c98f41206bd407dfc8a52de6a8eacf7f950
 docker: quay.io/biocontainers/psiclass
 aliases:
   add-genename: /usr/local/bin/add-genename

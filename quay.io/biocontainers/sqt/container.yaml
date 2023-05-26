@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sqt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sqt
 latest:
-  0.8.0--py37h8902056_4: sha256:5f7ab5a66822393ae7ad5798c623ed65d152131c65278acf32bc8db302ad1519
+  0.8.0--py310h4b81fae_5: sha256:5102c8ccc9235d55afe8277a64adbcc8ff87db5672d35393ccf33b03e9286adc
 tags:
   0.8.0--py37h8902056_4: sha256:5f7ab5a66822393ae7ad5798c623ed65d152131c65278acf32bc8db302ad1519
+  0.8.0--py310h4b81fae_5: sha256:5102c8ccc9235d55afe8277a64adbcc8ff87db5672d35393ccf33b03e9286adc
 docker: quay.io/biocontainers/sqt
 aliases:
   attr: /usr/local/bin/attr

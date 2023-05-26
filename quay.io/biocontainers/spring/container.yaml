@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/spring
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spring
 latest:
-  1.1.0--h9f5acd7_0: sha256:cef9815bea26dd1f47e3cb3a2ac71f03ac0c372972bab8e80b43e56bc3ce1a0f
+  1.1.0--h4ac6f70_2: sha256:07f915837048af7a3c36cc13e0f2ee26877c222113f5eed0fad831a9d3814ef4
 tags:
   1.1.0--h9f5acd7_0: sha256:cef9815bea26dd1f47e3cb3a2ac71f03ac0c372972bab8e80b43e56bc3ce1a0f
+  1.1.0--h4ac6f70_2: sha256:07f915837048af7a3c36cc13e0f2ee26877c222113f5eed0fad831a9d3814ef4
 docker: quay.io/biocontainers/spring
 aliases:
   spring: /usr/local/bin/spring

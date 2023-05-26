@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/krbalancing
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for krbalancing
 latest:
-  0.0.5--py38h4a32c8e_4: sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d
+  0.0.5--py310h0dbaff4_7: sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3
 tags:
   0.0.5--py38h4a32c8e_4: sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d
+  0.0.5--py310h0dbaff4_7: sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3
 docker: quay.io/biocontainers/krbalancing
 aliases:
   pybind11-config: /usr/local/bin/pybind11-config

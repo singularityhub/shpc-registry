@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/desman
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for desman
 latest:
-  2.1--py39h00cc477_7: sha256:75fbcb4f3d1b8939351c4b8101ad45851899e6cda78a2d0412c399f59b84b306
+  2.1--py310hcc7fd71_8: sha256:1ab796a8757f71da6657234de23b00f5e4b76a0cf0c6d5b7f0689863624fc1f2
 tags:
   2.1--py39h00cc477_7: sha256:75fbcb4f3d1b8939351c4b8101ad45851899e6cda78a2d0412c399f59b84b306
+  2.1--py310hcc7fd71_8: sha256:1ab796a8757f71da6657234de23b00f5e4b76a0cf0c6d5b7f0689863624fc1f2
 docker: quay.io/biocontainers/desman
 aliases:
   AddLengths.pl: /usr/local/bin/AddLengths.pl

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/moss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for moss
 latest:
-  0.1.1--hf77a93e_5: sha256:912ed0182ee7bc6f540e8080eafb914bc8ff6ff33806144696b4de6131388f46
+  0.1.1--h84372a0_6: sha256:d1f85a2e7babe86c0d67608306019d712c151915edf246ebc4c9d6f38ebe5bd8
 tags:
   0.1.1--h28e74a2_4: sha256:0c1adee4440fffa9c20c9683e94cbdfd3220b8b05111c832ec946557197ed255
   0.1.1--hf77a93e_5: sha256:912ed0182ee7bc6f540e8080eafb914bc8ff6ff33806144696b4de6131388f46
+  0.1.1--h84372a0_6: sha256:d1f85a2e7babe86c0d67608306019d712c151915edf246ebc4c9d6f38ebe5bd8
 docker: quay.io/biocontainers/moss
 aliases:
   moss: /usr/local/bin/moss

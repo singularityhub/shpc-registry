@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mscoreutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mscoreutils
 latest:
-  1.10.0--r42hc247a5b_0: sha256:b991342ba20d3f7157de11f4f344ae9dea5140e9d2f54b616117ccd055625cc1
+  1.10.0--r42hf17093f_1: sha256:4c1890ac0cbcef98dcf491f31d1ef79adaad8a25690a8cf862074e81fe4fe5a6
 tags:
   1.6.2--r41hc247a5b_0: sha256:27e654ec2ffcf65573f539bbf0d203a93b154bac6a51a4161f24ca5eb7c6f150
   1.10.0--r42hc247a5b_0: sha256:b991342ba20d3f7157de11f4f344ae9dea5140e9d2f54b616117ccd055625cc1
+  1.10.0--r42hf17093f_1: sha256:4c1890ac0cbcef98dcf491f31d1ef79adaad8a25690a8cf862074e81fe4fe5a6
 docker: quay.io/biocontainers/bioconductor-mscoreutils

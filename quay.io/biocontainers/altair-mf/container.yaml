@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/altair-mf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for altair-mf
 latest:
-  1.0.1--hd03093a_0: sha256:ab0a68275b589ed0ddfea848e8940c3e3441f1f81228b7ec4047012fb25c008f
+  1.0.1--hdcf5f25_2: sha256:1f3a445851daa9ff933055eb1133b785b2219b7c9de57c188d7d0141c9bf8518
 tags:
   1.0.1--hd03093a_0: sha256:ab0a68275b589ed0ddfea848e8940c3e3441f1f81228b7ec4047012fb25c008f
+  1.0.1--hdcf5f25_2: sha256:1f3a445851daa9ff933055eb1133b785b2219b7c9de57c188d7d0141c9bf8518
 docker: quay.io/biocontainers/altair-mf
 aliases:
   AltaiR: /usr/local/bin/AltaiR

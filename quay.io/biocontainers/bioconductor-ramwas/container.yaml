@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ramwas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ramwas
 latest:
-  1.22.0--r42hc0cfd56_0: sha256:54b9d5995b5375eb47b43044a6306bd74616b76c0eee56dacdfbcb0aaa7bdec0
+  1.22.0--r42ha9d7317_1: sha256:33b1d62e4e625743b790fea855f7c57e178b42c4c5cb93136c4fc2b0108d0014
 tags:
   1.8.0--r36h516909a_1: sha256:812e544f776fbc4af27dd1ad862ea6c74a4a9849b2403cc452dcf792a4d4cf9a
   1.22.0--r42hc0cfd56_0: sha256:54b9d5995b5375eb47b43044a6306bd74616b76c0eee56dacdfbcb0aaa7bdec0
@@ -10,6 +10,7 @@ tags:
   1.16.0--r41hd029910_0: sha256:e9d62be7b8323519e8dab0b9354dc0b5491d91b56f96c384668e360016b9922e
   1.14.0--r40hd029910_1: sha256:dcc7233f17f99af6d7b9f25781162bff974046a0ebe82c6e6a315e862c3706d5
   1.12.0--r40h037d062_0: sha256:136de63820e263b5d8bbfe14aae04ee4dda3e11c1b06cc2ac2336fffc3570274
+  1.22.0--r42ha9d7317_1: sha256:33b1d62e4e625743b790fea855f7c57e178b42c4c5cb93136c4fc2b0108d0014
 docker: quay.io/biocontainers/bioconductor-ramwas
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

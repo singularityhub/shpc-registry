@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ecoprimers
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ecoprimers
 latest:
-  1.0--h7132678_5: sha256:7c28d6e30b6303f9796697b511a4356cfe02ac319cc208bd467a0398060de06e
+  1.0--he4a0461_7: sha256:1c286ee950420b8c573ebd2837145ec71c90a393eff58af25e8928020446bb66
 tags:
   1.0--h7132678_5: sha256:7c28d6e30b6303f9796697b511a4356cfe02ac319cc208bd467a0398060de06e
+  1.0--he4a0461_7: sha256:1c286ee950420b8c573ebd2837145ec71c90a393eff58af25e8928020446bb66
 docker: quay.io/biocontainers/ecoprimers
 aliases:
   ecoPrimers: /usr/local/bin/ecoPrimers

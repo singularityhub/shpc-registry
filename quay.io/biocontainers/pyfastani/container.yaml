@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyfastani
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyfastani
 latest:
-  0.4.1--py39h2add14b_0: sha256:6d64b2758d97d4e89f64635e226878075f5629c650141452af088c793b204f04
+  0.4.1--py39h4e691d4_3: sha256:e84548ee3b5f15b62aac4e98e5c3d7aa8c860760d5f06821fb34ec9ac807b16f
 tags:
   0.4.1--py39h2add14b_0: sha256:6d64b2758d97d4e89f64635e226878075f5629c650141452af088c793b204f04
+  0.4.1--py39h4e691d4_3: sha256:e84548ee3b5f15b62aac4e98e5c3d7aa8c860760d5f06821fb34ec9ac807b16f
 docker: quay.io/biocontainers/pyfastani
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

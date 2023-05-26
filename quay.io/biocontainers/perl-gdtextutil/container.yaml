@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-gdtextutil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-gdtextutil
 latest:
-  0.86--pl5321hec16e2b_7: sha256:4fa1f9eb462eae0aecfd7fb58e3dd258939ccba6529230f695f3a98ec09cb608
+  0.86--pl5321h031d066_8: sha256:9c6aba812440fcc2dc20636d3a59b215925c2f8a281f7ee70490d85840220b43
 tags:
   0.86--pl5321hec16e2b_7: sha256:4fa1f9eb462eae0aecfd7fb58e3dd258939ccba6529230f695f3a98ec09cb608
+  0.86--pl5321h031d066_8: sha256:9c6aba812440fcc2dc20636d3a59b215925c2f8a281f7ee70490d85840220b43
 docker: quay.io/biocontainers/perl-gdtextutil
 aliases:
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl

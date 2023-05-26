@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hmmcopy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmmcopy
 latest:
-  0.1.1--h5b5514e_8: sha256:af9470030886895e010bd5cde44340d23043c76fd38467536ac2625f2aa9437a
+  0.1.1--h43eeafb_9: sha256:b54327b50b4b2ea820cb4e628fc8d534f13e4e2260f24dd9f786201d768d2f03
 tags:
   0.1.1--h5b5514e_8: sha256:af9470030886895e010bd5cde44340d23043c76fd38467536ac2625f2aa9437a
+  0.1.1--h43eeafb_9: sha256:b54327b50b4b2ea820cb4e628fc8d534f13e4e2260f24dd9f786201d768d2f03
 docker: quay.io/biocontainers/hmmcopy
 aliases:
   bigWigInfo: /usr/local/bin/bigWigInfo

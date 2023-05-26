@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bsmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bsmap
 latest:
-  2.90--h5b5514e_4: sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2
+  2.90--h43eeafb_5: sha256:a8eb6e9db12a74dda8c744e76b91d552a278ee5c9c067eda828a04a47e06c3e5
 tags:
   2.90--h5b5514e_4: sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2
+  2.90--h43eeafb_5: sha256:a8eb6e9db12a74dda8c744e76b91d552a278ee5c9c067eda828a04a47e06c3e5
 docker: quay.io/biocontainers/bsmap
 aliases:
   bsmap: /usr/local/bin/bsmap

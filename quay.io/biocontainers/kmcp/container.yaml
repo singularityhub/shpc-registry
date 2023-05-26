@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kmcp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kmcp
 latest:
-  0.9.1--h9ee0642_0: sha256:55dcafd3e81d5509044fc86c1b8f1a6f456ce512ec8debf2d39f5cd43abb2721
+  0.9.2--h9ee0642_0: sha256:c754575619c0a93e1ccdce239ca3f494ea0842ac39d46bf08874345fb0aa231c
 tags:
   0.9.1--h9ee0642_0: sha256:55dcafd3e81d5509044fc86c1b8f1a6f456ce512ec8debf2d39f5cd43abb2721
+  0.9.2--h9ee0642_0: sha256:c754575619c0a93e1ccdce239ca3f494ea0842ac39d46bf08874345fb0aa231c
 docker: quay.io/biocontainers/kmcp
 aliases:
   kmcp: /usr/local/bin/kmcp
