@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/malder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for malder
 latest:
-  1.0.1e83d4e--h56c1e55_5: sha256:79416269a3002d178e735a65d454a49539be5953b80e75b4398c4cf942442c85
+  1.0.1e83d4e--h66ff86e_7: sha256:2746fe1d8fec4175438d1c24578dc90008b7f3a3879eeb7ed54a32512c940162
 tags:
   1.0.1e83d4e--h56c1e55_5: sha256:79416269a3002d178e735a65d454a49539be5953b80e75b4398c4cf942442c85
+  1.0.1e83d4e--h66ff86e_7: sha256:2746fe1d8fec4175438d1c24578dc90008b7f3a3879eeb7ed54a32512c940162
 docker: quay.io/biocontainers/malder
 aliases:
   malder: /usr/local/bin/malder

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scrappie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scrappie
 latest:
-  1.4.2--py37pl5321hcc03fe6_3: sha256:228129414a1be5137c2aaac313673b0a6102290f6873f7bb39669213598c90b3
+  1.4.2--py38pl5321h7811ddc_5: sha256:fe43c3e6527c34b3e06bcbec151271410c43b40001a8ff364348c65dc61b77d3
 tags:
   1.4.2--py37pl5321hcc03fe6_3: sha256:228129414a1be5137c2aaac313673b0a6102290f6873f7bb39669213598c90b3
+  1.4.2--py38pl5321h7811ddc_5: sha256:fe43c3e6527c34b3e06bcbec151271410c43b40001a8ff364348c65dc61b77d3
 docker: quay.io/biocontainers/scrappie
 aliases:
   scrappie: /usr/local/bin/scrappie

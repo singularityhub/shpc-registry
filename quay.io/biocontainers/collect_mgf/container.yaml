@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/collect_mgf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for collect_mgf
 latest:
-  1.0--hec16e2b_3: sha256:c65a4f373bda875cd2c457946670d30d44f4f7485a84fcb53ed159fc8eeb2bd1
+  1.0--h031d066_5: sha256:db072db8aa13159c7a2fc873f4eabbc1c07e260ef1bff3b69f894ca0031d9b9c
 tags:
   1.0--hec16e2b_3: sha256:c65a4f373bda875cd2c457946670d30d44f4f7485a84fcb53ed159fc8eeb2bd1
+  1.0--h031d066_5: sha256:db072db8aa13159c7a2fc873f4eabbc1c07e260ef1bff3b69f894ca0031d9b9c
 docker: quay.io/biocontainers/collect_mgf
 aliases:
   collect_mgf: /usr/local/bin/collect_mgf

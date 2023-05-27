@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/quicktree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for quicktree
 latest:
-  2.5--hec16e2b_2: sha256:d64436ddbbbf92083b7d7a1acba36192ab78bf45fbfcc360a1c6834e886dcc9a
+  2.5--h031d066_4: sha256:d99994f63ca16fdae59083db0c0690995d58255f114e824640f4923e16589711
 tags:
   2.5--hec16e2b_2: sha256:d64436ddbbbf92083b7d7a1acba36192ab78bf45fbfcc360a1c6834e886dcc9a
+  2.5--h031d066_4: sha256:d99994f63ca16fdae59083db0c0690995d58255f114e824640f4923e16589711
 docker: quay.io/biocontainers/quicktree
 aliases:
   quicktree: /usr/local/bin/quicktree

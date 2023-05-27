@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/beamspy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for beamspy
 latest:
-  1.1.0--py_0: sha256:7fdf5784946dba81f2b58fe2750b8925cfe4dcf1201ff00bd7f600a47777374a
+  1.2.0--pyhdfd78af_0: sha256:45fe9a8d94ab3220de78a8c66d5afb10c18d8d8593f00c501137466c2a7f0923
 tags:
   1.1.0--py_0: sha256:7fdf5784946dba81f2b58fe2750b8925cfe4dcf1201ff00bd7f600a47777374a
+  1.2.0--pyhdfd78af_0: sha256:45fe9a8d94ab3220de78a8c66d5afb10c18d8d8593f00c501137466c2a7f0923
 docker: quay.io/biocontainers/beamspy
 aliases:
   beamspy: /usr/local/bin/beamspy

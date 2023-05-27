@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-bandle
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-bandle
 latest:
-  1.2.0--r42hc247a5b_0: sha256:73cfdabd6414a167a2e6fdc1e1f695c11eaf66b0436f28c0951e048eab869676
+  1.2.0--r42hf17093f_1: sha256:6ae6ec3eb17741e0aca7bfe7992d03eb15ccd289e9fad541e152b04d2043502c
 tags:
   1.2.0--r42hc247a5b_0: sha256:73cfdabd6414a167a2e6fdc1e1f695c11eaf66b0436f28c0951e048eab869676
+  1.2.0--r42hf17093f_1: sha256:6ae6ec3eb17741e0aca7bfe7992d03eb15ccd289e9fad541e152b04d2043502c
 docker: quay.io/biocontainers/bioconductor-bandle
 aliases:
   zipcmp: /usr/local/bin/zipcmp

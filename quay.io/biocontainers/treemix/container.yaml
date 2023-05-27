@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/treemix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treemix
 latest:
-  1.13--hc564dbc_6: sha256:d8b1c1fa1b228e52ed4feb9e96b044d5ff3f776e9b0951affc1ae71fe8849129
+  1.13--hf961e7c_8: sha256:eae67acfb6bd3099c6125b7d94296e796b3274a6b03432014cdccbc2ca70b059
 tags:
   1.13--boost1.64_gsl2.2_0: sha256:49b7b2234549b331adf8c1af85707b99c4c902b521799052ef60c1c0e4e78779
   1.13--hc564dbc_6: sha256:d8b1c1fa1b228e52ed4feb9e96b044d5ff3f776e9b0951affc1ae71fe8849129
+  1.13--hf961e7c_8: sha256:eae67acfb6bd3099c6125b7d94296e796b3274a6b03432014cdccbc2ca70b059
 docker: quay.io/biocontainers/treemix
 aliases:
   f4ratio: /usr/local/bin/f4ratio

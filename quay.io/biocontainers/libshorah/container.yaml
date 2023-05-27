@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/libshorah
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for libshorah
 latest:
-  1.99.4--py39hcdbde3b_0: sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994
+  1.99.4--py39h641c068_1: sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b
 tags:
   1.99.4--py39hcdbde3b_0: sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994
+  1.99.4--py39h641c068_1: sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b
 docker: quay.io/biocontainers/libshorah
 aliases:
   htsfile: /usr/local/bin/htsfile
