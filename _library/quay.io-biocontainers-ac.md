@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ac/container.yaml"
-updated_at: "2023-05-26 03:09:13.395735"
-latest: "1.1--h87f3376_2"
+updated_at: "2023-05-27 03:07:06.010449"
+latest: "1.1--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/ac"
 aliases:
  - "AC"
 versions:
  - "1.1--h87f3376_2"
+ - "1.1--hdbdd923_4"
 description: "shpc-registry automated BioContainers addition for ac"
-config: {"url": "https://biocontainers.pro/tools/ac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ac", "latest": {"1.1--h87f3376_2": "sha256:c38f2916e02283c67ad86f8a0083d77da97447272877191f09dced17f5159bc9"}, "tags": {"1.1--h87f3376_2": "sha256:c38f2916e02283c67ad86f8a0083d77da97447272877191f09dced17f5159bc9"}, "docker": "quay.io/biocontainers/ac", "aliases": {"AC": "/usr/local/bin/AC"}}
+config: {"url": "https://biocontainers.pro/tools/ac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ac", "latest": {"1.1--hdbdd923_4": "sha256:d7934ca00653cdb016aa09c4d10212f6b2d04645f089f333640bc9e4811b696e"}, "tags": {"1.1--h87f3376_2": "sha256:c38f2916e02283c67ad86f8a0083d77da97447272877191f09dced17f5159bc9", "1.1--hdbdd923_4": "sha256:d7934ca00653cdb016aa09c4d10212f6b2d04645f089f333640bc9e4811b696e"}, "docker": "quay.io/biocontainers/ac", "aliases": {"AC": "/usr/local/bin/AC"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ac.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ac:1.1--h87f3376_2
+$ shpc install quay.io/biocontainers/ac:1.1--hdbdd923_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ac/1.1--h87f3376_2
-$ module help quay.io/biocontainers/ac/1.1--h87f3376_2
+$ module load quay.io/biocontainers/ac/1.1--hdbdd923_4
+$ module help quay.io/biocontainers/ac/1.1--hdbdd923_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

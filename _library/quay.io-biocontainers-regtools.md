@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/regtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regtools/container.yaml"
-updated_at: "2023-05-26 02:38:31.365601"
-latest: "1.0.0--hd03093a_0"
+updated_at: "2023-05-27 02:37:16.641657"
+latest: "1.0.0--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/regtools"
 aliases:
  - "regtools"
 versions:
  - "0.6.1--hd03093a_0"
  - "1.0.0--hd03093a_0"
+ - "1.0.0--hdcf5f25_2"
 description: "shpc-registry automated BioContainers addition for regtools"
-config: {"url": "https://biocontainers.pro/tools/regtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regtools", "latest": {"1.0.0--hd03093a_0": "sha256:b87ec3433be5ecd879a883e67e1f7ea8f6aadabe891d3d899e37b0b8de20052e"}, "tags": {"0.6.1--hd03093a_0": "sha256:950f4a810da644abac24e2a9fd51529af0bca543290f6441d7b6b47bacb230ec", "1.0.0--hd03093a_0": "sha256:b87ec3433be5ecd879a883e67e1f7ea8f6aadabe891d3d899e37b0b8de20052e"}, "docker": "quay.io/biocontainers/regtools", "aliases": {"regtools": "/usr/local/bin/regtools"}}
+config: {"url": "https://biocontainers.pro/tools/regtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regtools", "latest": {"1.0.0--hdcf5f25_2": "sha256:63588e30624fffb69f8734ce2522054aca1addf96e317b00982e9507a93671c7"}, "tags": {"0.6.1--hd03093a_0": "sha256:950f4a810da644abac24e2a9fd51529af0bca543290f6441d7b6b47bacb230ec", "1.0.0--hd03093a_0": "sha256:b87ec3433be5ecd879a883e67e1f7ea8f6aadabe891d3d899e37b0b8de20052e", "1.0.0--hdcf5f25_2": "sha256:63588e30624fffb69f8734ce2522054aca1addf96e317b00982e9507a93671c7"}, "docker": "quay.io/biocontainers/regtools", "aliases": {"regtools": "/usr/local/bin/regtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/regtools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/regtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/regtools:1.0.0--hd03093a_0
+$ shpc install quay.io/biocontainers/regtools:1.0.0--hdcf5f25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/regtools/1.0.0--hd03093a_0
-$ module help quay.io/biocontainers/regtools/1.0.0--hd03093a_0
+$ module load quay.io/biocontainers/regtools/1.0.0--hdcf5f25_2
+$ module help quay.io/biocontainers/regtools/1.0.0--hdcf5f25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

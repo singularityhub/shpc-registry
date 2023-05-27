@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pubscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pubscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pubscore/container.yaml"
-updated_at: "2023-05-26 02:59:23.806531"
+updated_at: "2023-05-27 02:57:31.198651"
 latest: "1.6.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pubscore"
 

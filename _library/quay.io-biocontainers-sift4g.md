@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sift4g"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sift4g/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sift4g/container.yaml"
-updated_at: "2023-05-26 03:21:28.800232"
-latest: "2.0.0--h87f3376_4"
+updated_at: "2023-05-27 03:19:02.157106"
+latest: "2.0.0--hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/sift4g"
 aliases:
  - "sift4g"
 versions:
  - "2.0.0--h87f3376_4"
+ - "2.0.0--hdbdd923_6"
 description: "shpc-registry automated BioContainers addition for sift4g"
-config: {"url": "https://biocontainers.pro/tools/sift4g", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sift4g", "latest": {"2.0.0--h87f3376_4": "sha256:cfa96b310d3bafaa0788eb9cfbcb2d8420f2319d11ea47337f19f15444b8672d"}, "tags": {"2.0.0--h87f3376_4": "sha256:cfa96b310d3bafaa0788eb9cfbcb2d8420f2319d11ea47337f19f15444b8672d"}, "docker": "quay.io/biocontainers/sift4g", "aliases": {"sift4g": "/usr/local/bin/sift4g"}}
+config: {"url": "https://biocontainers.pro/tools/sift4g", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sift4g", "latest": {"2.0.0--hdbdd923_6": "sha256:83a64f2c493a5f9568db706c79f5a907a7baa03072467bb55cf9979e95d07c19"}, "tags": {"2.0.0--h87f3376_4": "sha256:cfa96b310d3bafaa0788eb9cfbcb2d8420f2319d11ea47337f19f15444b8672d", "2.0.0--hdbdd923_6": "sha256:83a64f2c493a5f9568db706c79f5a907a7baa03072467bb55cf9979e95d07c19"}, "docker": "quay.io/biocontainers/sift4g", "aliases": {"sift4g": "/usr/local/bin/sift4g"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sift4g.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sift4g
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sift4g:2.0.0--h87f3376_4
+$ shpc install quay.io/biocontainers/sift4g:2.0.0--hdbdd923_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sift4g/2.0.0--h87f3376_4
-$ module help quay.io/biocontainers/sift4g/2.0.0--h87f3376_4
+$ module load quay.io/biocontainers/sift4g/2.0.0--hdbdd923_6
+$ module help quay.io/biocontainers/sift4g/2.0.0--hdbdd923_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/moss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moss/container.yaml"
-updated_at: "2023-05-26 03:12:48.183126"
-latest: "0.1.1--hf77a93e_5"
+updated_at: "2023-05-27 03:10:34.114240"
+latest: "0.1.1--h84372a0_6"
 container_url: "https://biocontainers.pro/tools/moss"
 aliases:
  - "moss"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "0.1.1--h28e74a2_4"
  - "0.1.1--hf77a93e_5"
+ - "0.1.1--h84372a0_6"
 description: "shpc-registry automated BioContainers addition for moss"
-config: {"url": "https://biocontainers.pro/tools/moss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moss", "latest": {"0.1.1--hf77a93e_5": "sha256:912ed0182ee7bc6f540e8080eafb914bc8ff6ff33806144696b4de6131388f46"}, "tags": {"0.1.1--h28e74a2_4": "sha256:0c1adee4440fffa9c20c9683e94cbdfd3220b8b05111c832ec946557197ed255", "0.1.1--hf77a93e_5": "sha256:912ed0182ee7bc6f540e8080eafb914bc8ff6ff33806144696b4de6131388f46"}, "docker": "quay.io/biocontainers/moss", "aliases": {"moss": "/usr/local/bin/moss", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/moss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moss", "latest": {"0.1.1--h84372a0_6": "sha256:d1f85a2e7babe86c0d67608306019d712c151915edf246ebc4c9d6f38ebe5bd8"}, "tags": {"0.1.1--h28e74a2_4": "sha256:0c1adee4440fffa9c20c9683e94cbdfd3220b8b05111c832ec946557197ed255", "0.1.1--hf77a93e_5": "sha256:912ed0182ee7bc6f540e8080eafb914bc8ff6ff33806144696b4de6131388f46", "0.1.1--h84372a0_6": "sha256:d1f85a2e7babe86c0d67608306019d712c151915edf246ebc4c9d6f38ebe5bd8"}, "docker": "quay.io/biocontainers/moss", "aliases": {"moss": "/usr/local/bin/moss", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moss.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/moss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/moss:0.1.1--hf77a93e_5
+$ shpc install quay.io/biocontainers/moss:0.1.1--h84372a0_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/moss/0.1.1--hf77a93e_5
-$ module help quay.io/biocontainers/moss/0.1.1--hf77a93e_5
+$ module load quay.io/biocontainers/moss/0.1.1--h84372a0_6
+$ module help quay.io/biocontainers/moss/0.1.1--h84372a0_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

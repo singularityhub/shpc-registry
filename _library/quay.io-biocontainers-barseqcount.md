@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/barseqcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barseqcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barseqcount/container.yaml"
-updated_at: "2023-05-26 03:15:36.753309"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2023-05-27 03:13:18.524199"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/barseqcount"
 aliases:
  - "barseqcount"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "0.1.3--pyhdfd78af_0"
  - "0.1.4--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for barseqcount"
-config: {"url": "https://biocontainers.pro/tools/barseqcount", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barseqcount", "latest": {"0.1.4--pyhdfd78af_0": "sha256:62f0ecbabe03ccd93058157d6335f9718927b8646ebdc6348cfa1eebd04626ed"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:5f36beae69bd40918e73d09fd0c1b695eb0934f4986626375ddc3d0bb1a24cfe", "0.1.4--pyhdfd78af_0": "sha256:62f0ecbabe03ccd93058157d6335f9718927b8646ebdc6348cfa1eebd04626ed"}, "docker": "quay.io/biocontainers/barseqcount", "aliases": {"barseqcount": "/usr/local/bin/barseqcount", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/barseqcount", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barseqcount", "latest": {"0.1.5--pyhdfd78af_0": "sha256:e14ba0ba0a75343f82e8b73c19bcacc45efdfeb7d7ad9e55c5c506850541c04f"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:5f36beae69bd40918e73d09fd0c1b695eb0934f4986626375ddc3d0bb1a24cfe", "0.1.4--pyhdfd78af_0": "sha256:62f0ecbabe03ccd93058157d6335f9718927b8646ebdc6348cfa1eebd04626ed", "0.1.5--pyhdfd78af_0": "sha256:e14ba0ba0a75343f82e8b73c19bcacc45efdfeb7d7ad9e55c5c506850541c04f"}, "docker": "quay.io/biocontainers/barseqcount", "aliases": {"barseqcount": "/usr/local/bin/barseqcount", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barseqcount.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/barseqcount
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/barseqcount:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/barseqcount:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/barseqcount/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/barseqcount/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/barseqcount/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/barseqcount/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

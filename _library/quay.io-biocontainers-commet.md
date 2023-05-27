@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/commet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/commet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/commet/container.yaml"
-updated_at: "2023-05-26 03:20:02.539330"
+updated_at: "2023-05-27 03:17:38.181357"
 latest: "24.7.14--r42hfada1a9_8"
 container_url: "https://biocontainers.pro/tools/commet"
 aliases:

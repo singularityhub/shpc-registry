@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stereogene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stereogene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stereogene/container.yaml"
-updated_at: "2023-05-26 03:10:20.243765"
-latest: "2.20--h87f3376_4"
+updated_at: "2023-05-27 03:08:11.239667"
+latest: "2.20--hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/stereogene"
 aliases:
  - "Binner"
@@ -16,8 +16,9 @@ aliases:
  - "StereoGene"
 versions:
  - "2.20--h87f3376_4"
+ - "2.20--hdbdd923_6"
 description: "shpc-registry automated BioContainers addition for stereogene"
-config: {"url": "https://biocontainers.pro/tools/stereogene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stereogene", "latest": {"2.20--h87f3376_4": "sha256:e53a555a358aa82cbe3631c4c49d25d468fe02c33950342b4f48dca1edd3f773"}, "tags": {"2.20--h87f3376_4": "sha256:e53a555a358aa82cbe3631c4c49d25d468fe02c33950342b4f48dca1edd3f773"}, "docker": "quay.io/biocontainers/stereogene", "aliases": {"Binner": "/usr/local/bin/Binner", "Confounder": "/usr/local/bin/Confounder", "ParseGenes": "/usr/local/bin/ParseGenes", "Projector": "/usr/local/bin/Projector", "Smoother": "/usr/local/bin/Smoother", "StereoGene": "/usr/local/bin/StereoGene"}}
+config: {"url": "https://biocontainers.pro/tools/stereogene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stereogene", "latest": {"2.20--hdbdd923_6": "sha256:67c21ec2810635fde7d7fa048b7b6df4caf39de7592c600e0e8da4e1499d6bf8"}, "tags": {"2.20--h87f3376_4": "sha256:e53a555a358aa82cbe3631c4c49d25d468fe02c33950342b4f48dca1edd3f773", "2.20--hdbdd923_6": "sha256:67c21ec2810635fde7d7fa048b7b6df4caf39de7592c600e0e8da4e1499d6bf8"}, "docker": "quay.io/biocontainers/stereogene", "aliases": {"Binner": "/usr/local/bin/Binner", "Confounder": "/usr/local/bin/Confounder", "ParseGenes": "/usr/local/bin/ParseGenes", "Projector": "/usr/local/bin/Projector", "Smoother": "/usr/local/bin/Smoother", "StereoGene": "/usr/local/bin/StereoGene"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stereogene.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/stereogene
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stereogene:2.20--h87f3376_4
+$ shpc install quay.io/biocontainers/stereogene:2.20--hdbdd923_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stereogene/2.20--h87f3376_4
-$ module help quay.io/biocontainers/stereogene/2.20--h87f3376_4
+$ module load quay.io/biocontainers/stereogene/2.20--hdbdd923_6
+$ module help quay.io/biocontainers/stereogene/2.20--hdbdd923_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

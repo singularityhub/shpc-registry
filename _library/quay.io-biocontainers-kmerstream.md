@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmerstream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmerstream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmerstream/container.yaml"
-updated_at: "2023-05-26 03:05:20.659929"
+updated_at: "2023-05-27 03:03:16.283075"
 latest: "1.1--hd03093a_4"
 container_url: "https://biocontainers.pro/tools/kmerstream"
 aliases:

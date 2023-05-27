@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastk/container.yaml"
-updated_at: "2023-05-26 03:11:56.613284"
-latest: "1.0--h3e8787d_2"
+updated_at: "2023-05-27 03:09:44.660497"
+latest: "1.0--h4ef89c6_4"
 container_url: "https://biocontainers.pro/tools/fastk"
 aliases:
  - "FastK"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "1.0--h3e8787d_1"
  - "1.0--h3e8787d_2"
+ - "1.0--h4ef89c6_4"
 description: "singularity registry hpc automated addition for fastk"
-config: {"url": "https://biocontainers.pro/tools/fastk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastk", "latest": {"1.0--h3e8787d_2": "sha256:83fe636b9865e427afee92d748fb37c1b18eb3f4a4a641b585b050f53a1274d1"}, "tags": {"1.0--h3e8787d_1": "sha256:4b7bfa967244033afaf0a70097d2951df519979cff99a6c6d56fc5c50356705b", "1.0--h3e8787d_2": "sha256:83fe636b9865e427afee92d748fb37c1b18eb3f4a4a641b585b050f53a1274d1"}, "docker": "quay.io/biocontainers/fastk", "aliases": {"FastK": "/usr/local/bin/FastK", "Fastcp": "/usr/local/bin/Fastcp", "Fastmerge": "/usr/local/bin/Fastmerge", "Fastmv": "/usr/local/bin/Fastmv", "Fastrm": "/usr/local/bin/Fastrm", "Haplex": "/usr/local/bin/Haplex", "Histex": "/usr/local/bin/Histex", "Homex": "/usr/local/bin/Homex", "Logex": "/usr/local/bin/Logex", "Profex": "/usr/local/bin/Profex", "Symmex": "/usr/local/bin/Symmex", "Tabex": "/usr/local/bin/Tabex", "Vennex": "/usr/local/bin/Vennex"}}
+config: {"url": "https://biocontainers.pro/tools/fastk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastk", "latest": {"1.0--h4ef89c6_4": "sha256:0503e48703d45e062b2b6875476241d7e95829f6b097b010e0c3476fa058f38a"}, "tags": {"1.0--h3e8787d_1": "sha256:4b7bfa967244033afaf0a70097d2951df519979cff99a6c6d56fc5c50356705b", "1.0--h3e8787d_2": "sha256:83fe636b9865e427afee92d748fb37c1b18eb3f4a4a641b585b050f53a1274d1", "1.0--h4ef89c6_4": "sha256:0503e48703d45e062b2b6875476241d7e95829f6b097b010e0c3476fa058f38a"}, "docker": "quay.io/biocontainers/fastk", "aliases": {"FastK": "/usr/local/bin/FastK", "Fastcp": "/usr/local/bin/Fastcp", "Fastmerge": "/usr/local/bin/Fastmerge", "Fastmv": "/usr/local/bin/Fastmv", "Fastrm": "/usr/local/bin/Fastrm", "Haplex": "/usr/local/bin/Haplex", "Histex": "/usr/local/bin/Histex", "Homex": "/usr/local/bin/Homex", "Logex": "/usr/local/bin/Logex", "Profex": "/usr/local/bin/Profex", "Symmex": "/usr/local/bin/Symmex", "Tabex": "/usr/local/bin/Tabex", "Vennex": "/usr/local/bin/Vennex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastk.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/fastk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastk:1.0--h3e8787d_2
+$ shpc install quay.io/biocontainers/fastk:1.0--h4ef89c6_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastk/1.0--h3e8787d_2
-$ module help quay.io/biocontainers/fastk/1.0--h3e8787d_2
+$ module load quay.io/biocontainers/fastk/1.0--h4ef89c6_4
+$ module help quay.io/biocontainers/fastk/1.0--h4ef89c6_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bsmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bsmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bsmap/container.yaml"
-updated_at: "2023-05-26 02:55:09.823030"
-latest: "2.90--h5b5514e_4"
+updated_at: "2023-05-27 02:53:24.333360"
+latest: "2.90--h43eeafb_5"
 container_url: "https://biocontainers.pro/tools/bsmap"
 aliases:
  - "bsmap"
@@ -25,8 +25,9 @@ aliases:
  - "python-config"
 versions:
  - "2.90--h5b5514e_4"
+ - "2.90--h43eeafb_5"
 description: "shpc-registry automated BioContainers addition for bsmap"
-config: {"url": "https://biocontainers.pro/tools/bsmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bsmap", "latest": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "tags": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "docker": "quay.io/biocontainers/bsmap", "aliases": {"bsmap": "/usr/local/bin/bsmap", "bsp2sam.py": "/usr/local/bin/bsp2sam.py", "methdiff.py": "/usr/local/bin/methdiff.py", "methratio.py": "/usr/local/bin/methratio.py", "sam2bam.sh": "/usr/local/bin/sam2bam.sh", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
+config: {"url": "https://biocontainers.pro/tools/bsmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bsmap", "latest": {"2.90--h43eeafb_5": "sha256:a8eb6e9db12a74dda8c744e76b91d552a278ee5c9c067eda828a04a47e06c3e5"}, "tags": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2", "2.90--h43eeafb_5": "sha256:a8eb6e9db12a74dda8c744e76b91d552a278ee5c9c067eda828a04a47e06c3e5"}, "docker": "quay.io/biocontainers/bsmap", "aliases": {"bsmap": "/usr/local/bin/bsmap", "bsp2sam.py": "/usr/local/bin/bsp2sam.py", "methdiff.py": "/usr/local/bin/methdiff.py", "methratio.py": "/usr/local/bin/methratio.py", "sam2bam.sh": "/usr/local/bin/sam2bam.sh", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bsmap.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bsmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bsmap:2.90--h5b5514e_4
+$ shpc install quay.io/biocontainers/bsmap:2.90--h43eeafb_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bsmap/2.90--h5b5514e_4
-$ module help quay.io/biocontainers/bsmap/2.90--h5b5514e_4
+$ module load quay.io/biocontainers/bsmap/2.90--h43eeafb_5
+$ module help quay.io/biocontainers/bsmap/2.90--h43eeafb_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

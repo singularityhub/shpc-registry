@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ecoprimers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecoprimers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecoprimers/container.yaml"
-updated_at: "2023-05-26 03:12:16.389523"
-latest: "1.0--h7132678_5"
+updated_at: "2023-05-27 03:10:03.565014"
+latest: "1.0--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/ecoprimers"
 aliases:
  - "ecoPrimers"
 versions:
  - "1.0--h7132678_5"
+ - "1.0--he4a0461_7"
 description: "shpc-registry automated BioContainers addition for ecoprimers"
-config: {"url": "https://biocontainers.pro/tools/ecoprimers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecoprimers", "latest": {"1.0--h7132678_5": "sha256:7c28d6e30b6303f9796697b511a4356cfe02ac319cc208bd467a0398060de06e"}, "tags": {"1.0--h7132678_5": "sha256:7c28d6e30b6303f9796697b511a4356cfe02ac319cc208bd467a0398060de06e"}, "docker": "quay.io/biocontainers/ecoprimers", "aliases": {"ecoPrimers": "/usr/local/bin/ecoPrimers"}}
+config: {"url": "https://biocontainers.pro/tools/ecoprimers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecoprimers", "latest": {"1.0--he4a0461_7": "sha256:1c286ee950420b8c573ebd2837145ec71c90a393eff58af25e8928020446bb66"}, "tags": {"1.0--h7132678_5": "sha256:7c28d6e30b6303f9796697b511a4356cfe02ac319cc208bd467a0398060de06e", "1.0--he4a0461_7": "sha256:1c286ee950420b8c573ebd2837145ec71c90a393eff58af25e8928020446bb66"}, "docker": "quay.io/biocontainers/ecoprimers", "aliases": {"ecoPrimers": "/usr/local/bin/ecoPrimers"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ecoprimers.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ecoprimers
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ecoprimers:1.0--h7132678_5
+$ shpc install quay.io/biocontainers/ecoprimers:1.0--he4a0461_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ecoprimers/1.0--h7132678_5
-$ module help quay.io/biocontainers/ecoprimers/1.0--h7132678_5
+$ module load quay.io/biocontainers/ecoprimers/1.0--he4a0461_7
+$ module help quay.io/biocontainers/ecoprimers/1.0--he4a0461_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

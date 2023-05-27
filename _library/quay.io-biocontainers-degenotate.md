@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/degenotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/degenotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/degenotate/container.yaml"
-updated_at: "2023-05-26 03:01:59.102605"
-latest: "1.1.3--pyhdfd78af_0"
+updated_at: "2023-05-27 02:59:59.925554"
+latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/degenotate"
 aliases:
  - "degenotate.py"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.1.2--pyhdfd78af_0"
  - "1.1.3--pyhdfd78af_0"
+ - "1.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for degenotate"
-config: {"url": "https://biocontainers.pro/tools/degenotate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for degenotate", "latest": {"1.1.3--pyhdfd78af_0": "sha256:2994dbbddf9b7e0a454e26c3da599db8fd4e8e5285b097042086de71bc8240a9"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:3feb46e6814af282497e051be937b075ed742cafeb64e51f72a3a265d203c447", "1.1.3--pyhdfd78af_0": "sha256:2994dbbddf9b7e0a454e26c3da599db8fd4e8e5285b097042086de71bc8240a9"}, "docker": "quay.io/biocontainers/degenotate", "aliases": {"degenotate.py": "/usr/local/bin/degenotate.py", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/degenotate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for degenotate", "latest": {"1.2.1--pyhdfd78af_0": "sha256:88ca3292b59de074d75c8aecba5dff3e64471f04863d92dc2ecc1ab061d96b08"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:3feb46e6814af282497e051be937b075ed742cafeb64e51f72a3a265d203c447", "1.1.3--pyhdfd78af_0": "sha256:2994dbbddf9b7e0a454e26c3da599db8fd4e8e5285b097042086de71bc8240a9", "1.2.1--pyhdfd78af_0": "sha256:88ca3292b59de074d75c8aecba5dff3e64471f04863d92dc2ecc1ab061d96b08"}, "docker": "quay.io/biocontainers/degenotate", "aliases": {"degenotate.py": "/usr/local/bin/degenotate.py", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/degenotate.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/degenotate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/degenotate:1.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/degenotate:1.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/degenotate/1.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/degenotate/1.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/degenotate/1.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/degenotate/1.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
