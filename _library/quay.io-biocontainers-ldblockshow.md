@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ldblockshow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ldblockshow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ldblockshow/container.yaml"
-updated_at: "2023-05-27 02:55:25.142848"
-latest: "1.40--pl5321hd03093a_2"
+updated_at: "2023-05-28 03:06:24.100645"
+latest: "1.40--pl5321hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/ldblockshow"
 aliases:
  - "LDBlockShow"
@@ -15,8 +15,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.40--pl5321hd03093a_2"
+ - "1.40--pl5321hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for ldblockshow"
-config: {"url": "https://biocontainers.pro/tools/ldblockshow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ldblockshow", "latest": {"1.40--pl5321hd03093a_2": "sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2"}, "tags": {"1.40--pl5321hd03093a_2": "sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2"}, "docker": "quay.io/biocontainers/ldblockshow", "aliases": {"LDBlockShow": "/usr/local/bin/LDBlockShow", "ShowLDSVG": "/usr/local/bin/ShowLDSVG", "plink": "/usr/local/bin/plink", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/ldblockshow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ldblockshow", "latest": {"1.40--pl5321hdcf5f25_3": "sha256:4658b8eeda5aac52691f625bc0e6eea7d97dd7bf85ebbee0570ff23673d3827e"}, "tags": {"1.40--pl5321hd03093a_2": "sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2", "1.40--pl5321hdcf5f25_3": "sha256:4658b8eeda5aac52691f625bc0e6eea7d97dd7bf85ebbee0570ff23673d3827e"}, "docker": "quay.io/biocontainers/ldblockshow", "aliases": {"LDBlockShow": "/usr/local/bin/LDBlockShow", "ShowLDSVG": "/usr/local/bin/ShowLDSVG", "plink": "/usr/local/bin/plink", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ldblockshow.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/ldblockshow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ldblockshow:1.40--pl5321hd03093a_2
+$ shpc install quay.io/biocontainers/ldblockshow:1.40--pl5321hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ldblockshow/1.40--pl5321hd03093a_2
-$ module help quay.io/biocontainers/ldblockshow/1.40--pl5321hd03093a_2
+$ module load quay.io/biocontainers/ldblockshow/1.40--pl5321hdcf5f25_3
+$ module help quay.io/biocontainers/ldblockshow/1.40--pl5321hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

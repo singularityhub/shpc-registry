@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/malder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/malder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/malder/container.yaml"
-updated_at: "2023-05-27 03:15:30.468969"
-latest: "1.0.1e83d4e--h56c1e55_5"
+updated_at: "2023-05-28 03:26:42.233697"
+latest: "1.0.1e83d4e--h66ff86e_7"
 container_url: "https://biocontainers.pro/tools/malder"
 aliases:
  - "malder"
@@ -15,8 +15,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "1.0.1e83d4e--h56c1e55_5"
+ - "1.0.1e83d4e--h66ff86e_7"
 description: "shpc-registry automated BioContainers addition for malder"
-config: {"url": "https://biocontainers.pro/tools/malder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for malder", "latest": {"1.0.1e83d4e--h56c1e55_5": "sha256:79416269a3002d178e735a65d454a49539be5953b80e75b4398c4cf942442c85"}, "tags": {"1.0.1e83d4e--h56c1e55_5": "sha256:79416269a3002d178e735a65d454a49539be5953b80e75b4398c4cf942442c85"}, "docker": "quay.io/biocontainers/malder", "aliases": {"malder": "/usr/local/bin/malder", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/malder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for malder", "latest": {"1.0.1e83d4e--h66ff86e_7": "sha256:2746fe1d8fec4175438d1c24578dc90008b7f3a3879eeb7ed54a32512c940162"}, "tags": {"1.0.1e83d4e--h56c1e55_5": "sha256:79416269a3002d178e735a65d454a49539be5953b80e75b4398c4cf942442c85", "1.0.1e83d4e--h66ff86e_7": "sha256:2746fe1d8fec4175438d1c24578dc90008b7f3a3879eeb7ed54a32512c940162"}, "docker": "quay.io/biocontainers/malder", "aliases": {"malder": "/usr/local/bin/malder", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/malder.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/malder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/malder:1.0.1e83d4e--h56c1e55_5
+$ shpc install quay.io/biocontainers/malder:1.0.1e83d4e--h66ff86e_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/malder/1.0.1e83d4e--h56c1e55_5
-$ module help quay.io/biocontainers/malder/1.0.1e83d4e--h56c1e55_5
+$ module load quay.io/biocontainers/malder/1.0.1e83d4e--h66ff86e_7
+$ module help quay.io/biocontainers/malder/1.0.1e83d4e--h66ff86e_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

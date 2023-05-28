@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sracipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sracipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sracipe/container.yaml"
-updated_at: "2023-05-27 03:04:48.918601"
-latest: "1.14.0--r42hc247a5b_0"
+updated_at: "2023-05-28 03:15:56.296395"
+latest: "1.14.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sracipe"
 aliases:
  - "f2py3.9"
@@ -19,8 +19,9 @@ versions:
  - "1.8.0--r41h399db7b_0"
  - "1.14.0--r42hc247a5b_0"
  - "1.10.0--r41hc247a5b_2"
+ - "1.14.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-sracipe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sracipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sracipe", "latest": {"1.14.0--r42hc247a5b_0": "sha256:dd35caea54b75d873a44dac5fd643c7ff8b23f57141b77b4aff5ab201c23e4b4"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:a77a84d486474d9c2d149499c0c1b0fe0efe697c5533ca1bcb3d45a24a65e771", "1.14.0--r42hc247a5b_0": "sha256:dd35caea54b75d873a44dac5fd643c7ff8b23f57141b77b4aff5ab201c23e4b4", "1.10.0--r41hc247a5b_2": "sha256:c921429d8e9df5b6da6811144571ae13263c63649852669eef0361252b4fee0a"}, "docker": "quay.io/biocontainers/bioconductor-sracipe", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sracipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sracipe", "latest": {"1.14.0--r42hf17093f_1": "sha256:f50195c6cc1d17e58f0deaf40db66588a17cb7f28984fb417ad5f8a79009c0d3"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:a77a84d486474d9c2d149499c0c1b0fe0efe697c5533ca1bcb3d45a24a65e771", "1.14.0--r42hc247a5b_0": "sha256:dd35caea54b75d873a44dac5fd643c7ff8b23f57141b77b4aff5ab201c23e4b4", "1.10.0--r41hc247a5b_2": "sha256:c921429d8e9df5b6da6811144571ae13263c63649852669eef0361252b4fee0a", "1.14.0--r42hf17093f_1": "sha256:f50195c6cc1d17e58f0deaf40db66588a17cb7f28984fb417ad5f8a79009c0d3"}, "docker": "quay.io/biocontainers/bioconductor-sracipe", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sracipe.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sracipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sracipe:1.14.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-sracipe:1.14.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sracipe/1.14.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-sracipe/1.14.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-sracipe/1.14.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-sracipe/1.14.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

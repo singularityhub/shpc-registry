@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-snpstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snpstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snpstats/container.yaml"
-updated_at: "2023-05-27 03:18:28.590438"
-latest: "1.48.0--r42hc0cfd56_0"
+updated_at: "2023-05-28 03:29:41.703467"
+latest: "1.48.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-snpstats"
 
 versions:
  - "1.44.0--r41hc0cfd56_2"
  - "1.48.0--r42hc0cfd56_0"
+ - "1.48.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-snpstats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snpstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snpstats", "latest": {"1.48.0--r42hc0cfd56_0": "sha256:a085b431035477dbb3558aac77026cb54931a464717f9de5056fb472c8947e3c"}, "tags": {"1.44.0--r41hc0cfd56_2": "sha256:41d9269ca37c23bbba4b5ad85dc68bb4f395902566bad603d948ea9d1d2a69a9", "1.48.0--r42hc0cfd56_0": "sha256:a085b431035477dbb3558aac77026cb54931a464717f9de5056fb472c8947e3c"}, "docker": "quay.io/biocontainers/bioconductor-snpstats"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snpstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snpstats", "latest": {"1.48.0--r42ha9d7317_1": "sha256:bd7ea33b3c71f64536c88c34084e8c302a849adc04c6b92b53fb0b6f6584b5e5"}, "tags": {"1.44.0--r41hc0cfd56_2": "sha256:41d9269ca37c23bbba4b5ad85dc68bb4f395902566bad603d948ea9d1d2a69a9", "1.48.0--r42hc0cfd56_0": "sha256:a085b431035477dbb3558aac77026cb54931a464717f9de5056fb472c8947e3c", "1.48.0--r42ha9d7317_1": "sha256:bd7ea33b3c71f64536c88c34084e8c302a849adc04c6b92b53fb0b6f6584b5e5"}, "docker": "quay.io/biocontainers/bioconductor-snpstats"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snpstats.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-snpstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-snpstats:1.48.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-snpstats:1.48.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-snpstats/1.48.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-snpstats/1.48.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-snpstats/1.48.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-snpstats/1.48.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

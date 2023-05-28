@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/infernal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/infernal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/infernal/container.yaml"
-updated_at: "2023-05-27 02:35:33.507947"
-latest: "1.1.4--pl5321hec16e2b_1"
+updated_at: "2023-05-28 02:46:09.988783"
+latest: "1.1.4--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/infernal"
 aliases:
  - "cmalign"
@@ -20,8 +20,9 @@ aliases:
  - "cmstat"
 versions:
  - "1.1.4--pl5321hec16e2b_1"
+ - "1.1.4--pl5321h031d066_4"
 description: "shpc-registry automated BioContainers addition for infernal"
-config: {"url": "https://biocontainers.pro/tools/infernal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for infernal", "latest": {"1.1.4--pl5321hec16e2b_1": "sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb"}, "tags": {"1.1.4--pl5321hec16e2b_1": "sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb"}, "docker": "quay.io/biocontainers/infernal", "aliases": {"cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/infernal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for infernal", "latest": {"1.1.4--pl5321h031d066_4": "sha256:6d00e938e89e6a0bed59512b56aa70671419202f1f0047499ceb916e2cb960e0"}, "tags": {"1.1.4--pl5321hec16e2b_1": "sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb", "1.1.4--pl5321h031d066_4": "sha256:6d00e938e89e6a0bed59512b56aa70671419202f1f0047499ceb916e2cb960e0"}, "docker": "quay.io/biocontainers/infernal", "aliases": {"cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/infernal.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/infernal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/infernal:1.1.4--pl5321hec16e2b_1
+$ shpc install quay.io/biocontainers/infernal:1.1.4--pl5321h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/infernal/1.1.4--pl5321hec16e2b_1
-$ module help quay.io/biocontainers/infernal/1.1.4--pl5321hec16e2b_1
+$ module load quay.io/biocontainers/infernal/1.1.4--pl5321h031d066_4
+$ module help quay.io/biocontainers/infernal/1.1.4--pl5321h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

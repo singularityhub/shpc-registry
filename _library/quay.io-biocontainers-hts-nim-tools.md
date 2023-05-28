@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hts-nim-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hts-nim-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hts-nim-tools/container.yaml"
-updated_at: "2023-05-27 02:39:17.604185"
+updated_at: "2023-05-28 02:49:59.638579"
 latest: "0.3.11--hbeb723e_0"
 container_url: "https://biocontainers.pro/tools/hts-nim-tools"
 aliases:

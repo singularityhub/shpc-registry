@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/micall-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micall-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micall-lite/container.yaml"
-updated_at: "2023-05-27 02:54:59.222857"
-latest: "0.1rc5--py38hbff2b2d_3"
+updated_at: "2023-05-28 03:05:57.608073"
+latest: "0.1rc5--py310h4b81fae_4"
 container_url: "https://biocontainers.pro/tools/micall-lite"
 aliases:
  - "micall"
@@ -21,8 +21,9 @@ aliases:
  - "2to3-3.8"
 versions:
  - "0.1rc5--py38hbff2b2d_3"
+ - "0.1rc5--py310h4b81fae_4"
 description: "shpc-registry automated BioContainers addition for micall-lite"
-config: {"url": "https://biocontainers.pro/tools/micall-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for micall-lite", "latest": {"0.1rc5--py38hbff2b2d_3": "sha256:168f963f43d3b0bf016cd9ce07528da2f483e203cdf96212bc397e77f002954c"}, "tags": {"0.1rc5--py38hbff2b2d_3": "sha256:168f963f43d3b0bf016cd9ce07528da2f483e203cdf96212bc397e77f002954c"}, "docker": "quay.io/biocontainers/micall-lite", "aliases": {"micall": "/usr/local/bin/micall", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "2to3-3.8": "/usr/local/bin/2to3-3.8"}}
+config: {"url": "https://biocontainers.pro/tools/micall-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for micall-lite", "latest": {"0.1rc5--py310h4b81fae_4": "sha256:530da186d91a2e6515406a7edac9b020ca605a741a05cd4e8dc9dabb3f1ce8bb"}, "tags": {"0.1rc5--py38hbff2b2d_3": "sha256:168f963f43d3b0bf016cd9ce07528da2f483e203cdf96212bc397e77f002954c", "0.1rc5--py310h4b81fae_4": "sha256:530da186d91a2e6515406a7edac9b020ca605a741a05cd4e8dc9dabb3f1ce8bb"}, "docker": "quay.io/biocontainers/micall-lite", "aliases": {"micall": "/usr/local/bin/micall", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "2to3-3.8": "/usr/local/bin/2to3-3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/micall-lite.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/micall-lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/micall-lite:0.1rc5--py38hbff2b2d_3
+$ shpc install quay.io/biocontainers/micall-lite:0.1rc5--py310h4b81fae_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/micall-lite/0.1rc5--py38hbff2b2d_3
-$ module help quay.io/biocontainers/micall-lite/0.1rc5--py38hbff2b2d_3
+$ module load quay.io/biocontainers/micall-lite/0.1rc5--py310h4b81fae_4
+$ module help quay.io/biocontainers/micall-lite/0.1rc5--py310h4b81fae_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libshorah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libshorah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libshorah/container.yaml"
-updated_at: "2023-05-27 02:56:04.899125"
-latest: "1.99.4--py39hcdbde3b_0"
+updated_at: "2023-05-28 03:07:04.642726"
+latest: "1.99.4--py39h641c068_1"
 container_url: "https://biocontainers.pro/tools/libshorah"
 aliases:
  - "htsfile"
@@ -18,8 +18,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.99.4--py39hcdbde3b_0"
+ - "1.99.4--py39h641c068_1"
 description: "singularity registry hpc automated addition for libshorah"
-config: {"url": "https://biocontainers.pro/tools/libshorah", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libshorah", "latest": {"1.99.4--py39hcdbde3b_0": "sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994"}, "tags": {"1.99.4--py39hcdbde3b_0": "sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994"}, "docker": "quay.io/biocontainers/libshorah", "aliases": {"htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/libshorah", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libshorah", "latest": {"1.99.4--py39h641c068_1": "sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b"}, "tags": {"1.99.4--py39hcdbde3b_0": "sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994", "1.99.4--py39h641c068_1": "sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b"}, "docker": "quay.io/biocontainers/libshorah", "aliases": {"htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libshorah.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/libshorah
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libshorah:1.99.4--py39hcdbde3b_0
+$ shpc install quay.io/biocontainers/libshorah:1.99.4--py39h641c068_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libshorah/1.99.4--py39hcdbde3b_0
-$ module help quay.io/biocontainers/libshorah/1.99.4--py39hcdbde3b_0
+$ module load quay.io/biocontainers/libshorah/1.99.4--py39h641c068_1
+$ module help quay.io/biocontainers/libshorah/1.99.4--py39h641c068_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-indirect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-indirect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-indirect/container.yaml"
-updated_at: "2023-05-27 02:41:31.787342"
-latest: "0.39--pl5321hec16e2b_2"
+updated_at: "2023-05-28 02:52:15.464806"
+latest: "0.39--pl5321h031d066_3"
 container_url: "https://biocontainers.pro/tools/perl-indirect"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.39--pl5321hec16e2b_2"
+ - "0.39--pl5321h031d066_3"
 description: "shpc-registry automated BioContainers addition for perl-indirect"
-config: {"url": "https://biocontainers.pro/tools/perl-indirect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-indirect", "latest": {"0.39--pl5321hec16e2b_2": "sha256:cc6764f5cac46273579fc35282c3b0ae38c7018929fc7be7210cb5f0706b8af8"}, "tags": {"0.39--pl5321hec16e2b_2": "sha256:cc6764f5cac46273579fc35282c3b0ae38c7018929fc7be7210cb5f0706b8af8"}, "docker": "quay.io/biocontainers/perl-indirect", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-indirect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-indirect", "latest": {"0.39--pl5321h031d066_3": "sha256:a9b07d07d4b338ae1621407664065279a6aa2c5fb2668a46b73d65899bd0d556"}, "tags": {"0.39--pl5321hec16e2b_2": "sha256:cc6764f5cac46273579fc35282c3b0ae38c7018929fc7be7210cb5f0706b8af8", "0.39--pl5321h031d066_3": "sha256:a9b07d07d4b338ae1621407664065279a6aa2c5fb2668a46b73d65899bd0d556"}, "docker": "quay.io/biocontainers/perl-indirect", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-indirect.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-indirect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-indirect:0.39--pl5321hec16e2b_2
+$ shpc install quay.io/biocontainers/perl-indirect:0.39--pl5321h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-indirect/0.39--pl5321hec16e2b_2
-$ module help quay.io/biocontainers/perl-indirect/0.39--pl5321hec16e2b_2
+$ module load quay.io/biocontainers/perl-indirect/0.39--pl5321h031d066_3
+$ module help quay.io/biocontainers/perl-indirect/0.39--pl5321h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

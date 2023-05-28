@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-term-app-roles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-app-roles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-app-roles/container.yaml"
-updated_at: "2023-05-27 02:35:55.520847"
+updated_at: "2023-05-28 02:46:32.735205"
 latest: "0.031--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-app-roles"
 aliases:

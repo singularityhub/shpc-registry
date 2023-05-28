@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/carnac-lr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carnac-lr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/carnac-lr/container.yaml"
-updated_at: "2023-05-27 02:45:35.154747"
-latest: "1.0.0--h87f3376_2"
+updated_at: "2023-05-28 02:56:22.111568"
+latest: "1.0.0--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/carnac-lr"
 aliases:
  - "CARNAC-LR"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.0--h87f3376_2"
+ - "1.0.0--hdbdd923_4"
 description: "shpc-registry automated BioContainers addition for carnac-lr"
-config: {"url": "https://biocontainers.pro/tools/carnac-lr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for carnac-lr", "latest": {"1.0.0--h87f3376_2": "sha256:6956f76c647d8a8cecd5ab95d15717c4781bb93a2e6332d2eacfefaa31101ffb"}, "tags": {"1.0.0--h87f3376_2": "sha256:6956f76c647d8a8cecd5ab95d15717c4781bb93a2e6332d2eacfefaa31101ffb"}, "docker": "quay.io/biocontainers/carnac-lr", "aliases": {"CARNAC-LR": "/usr/local/bin/CARNAC-LR", "CARNAC_to_fasta": "/usr/local/bin/CARNAC_to_fasta", "CARNAC_to_fasta.py": "/usr/local/bin/CARNAC_to_fasta.py", "paf_to_CARNAC.py": "/usr/local/bin/paf_to_CARNAC.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/carnac-lr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for carnac-lr", "latest": {"1.0.0--hdbdd923_4": "sha256:51c2aa1fda4badc37f0fd5440c6a5f8ff19feb6932c4d9b20c068ae18e4c9f68"}, "tags": {"1.0.0--h87f3376_2": "sha256:6956f76c647d8a8cecd5ab95d15717c4781bb93a2e6332d2eacfefaa31101ffb", "1.0.0--hdbdd923_4": "sha256:51c2aa1fda4badc37f0fd5440c6a5f8ff19feb6932c4d9b20c068ae18e4c9f68"}, "docker": "quay.io/biocontainers/carnac-lr", "aliases": {"CARNAC-LR": "/usr/local/bin/CARNAC-LR", "CARNAC_to_fasta": "/usr/local/bin/CARNAC_to_fasta", "CARNAC_to_fasta.py": "/usr/local/bin/CARNAC_to_fasta.py", "paf_to_CARNAC.py": "/usr/local/bin/paf_to_CARNAC.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/carnac-lr.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/carnac-lr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/carnac-lr:1.0.0--h87f3376_2
+$ shpc install quay.io/biocontainers/carnac-lr:1.0.0--hdbdd923_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/carnac-lr/1.0.0--h87f3376_2
-$ module help quay.io/biocontainers/carnac-lr/1.0.0--h87f3376_2
+$ module load quay.io/biocontainers/carnac-lr/1.0.0--hdbdd923_4
+$ module help quay.io/biocontainers/carnac-lr/1.0.0--hdbdd923_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

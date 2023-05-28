@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beamspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beamspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beamspy/container.yaml"
-updated_at: "2023-05-27 02:57:33.938196"
-latest: "1.1.0--py_0"
+updated_at: "2023-05-28 03:08:35.300415"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beamspy"
 aliases:
  - "beamspy"
@@ -27,8 +27,9 @@ aliases:
  - "qwebengine_convert_dict"
 versions:
  - "1.1.0--py_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for beamspy"
-config: {"url": "https://biocontainers.pro/tools/beamspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beamspy", "latest": {"1.1.0--py_0": "sha256:7fdf5784946dba81f2b58fe2750b8925cfe4dcf1201ff00bd7f600a47777374a"}, "tags": {"1.1.0--py_0": "sha256:7fdf5784946dba81f2b58fe2750b8925cfe4dcf1201ff00bd7f600a47777374a"}, "docker": "quay.io/biocontainers/beamspy", "aliases": {"beamspy": "/usr/local/bin/beamspy", "pyside2-lupdate": "/usr/local/bin/pyside2-lupdate", "pyside2-rcc": "/usr/local/bin/pyside2-rcc", "pyside2-uic": "/usr/local/bin/pyside2-uic", "pyside_tool.py": "/usr/local/bin/pyside_tool.py", "shiboken2": "/usr/local/bin/shiboken2", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/beamspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beamspy", "latest": {"1.2.0--pyhdfd78af_0": "sha256:45fe9a8d94ab3220de78a8c66d5afb10c18d8d8593f00c501137466c2a7f0923"}, "tags": {"1.1.0--py_0": "sha256:7fdf5784946dba81f2b58fe2750b8925cfe4dcf1201ff00bd7f600a47777374a", "1.2.0--pyhdfd78af_0": "sha256:45fe9a8d94ab3220de78a8c66d5afb10c18d8d8593f00c501137466c2a7f0923"}, "docker": "quay.io/biocontainers/beamspy", "aliases": {"beamspy": "/usr/local/bin/beamspy", "pyside2-lupdate": "/usr/local/bin/pyside2-lupdate", "pyside2-rcc": "/usr/local/bin/pyside2-rcc", "pyside2-uic": "/usr/local/bin/pyside2-uic", "pyside_tool.py": "/usr/local/bin/pyside_tool.py", "shiboken2": "/usr/local/bin/shiboken2", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beamspy.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/beamspy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beamspy:1.1.0--py_0
+$ shpc install quay.io/biocontainers/beamspy:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beamspy/1.1.0--py_0
-$ module help quay.io/biocontainers/beamspy/1.1.0--py_0
+$ module load quay.io/biocontainers/beamspy/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/beamspy/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

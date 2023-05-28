@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastani/container.yaml"
-updated_at: "2023-05-27 03:06:20.776964"
-latest: "1.33--h0fdf51a_1"
+updated_at: "2023-05-28 03:17:28.018997"
+latest: "1.33--h4dfc31f_3"
 container_url: "https://biocontainers.pro/tools/fastani"
 aliases:
  - "fastANI"
 versions:
  - "1.33--h0fdf51a_1"
+ - "1.33--h4dfc31f_3"
 description: "shpc-registry automated BioContainers addition for fastani"
-config: {"url": "https://biocontainers.pro/tools/fastani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastani", "latest": {"1.33--h0fdf51a_1": "sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe"}, "tags": {"1.33--h0fdf51a_1": "sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe"}, "docker": "quay.io/biocontainers/fastani", "aliases": {"fastANI": "/usr/local/bin/fastANI"}}
+config: {"url": "https://biocontainers.pro/tools/fastani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastani", "latest": {"1.33--h4dfc31f_3": "sha256:d7e42634baa4c5518145a30ae5f43ca0c8bea3e07241047f3aea9a531953b1ff"}, "tags": {"1.33--h0fdf51a_1": "sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe", "1.33--h4dfc31f_3": "sha256:d7e42634baa4c5518145a30ae5f43ca0c8bea3e07241047f3aea9a531953b1ff"}, "docker": "quay.io/biocontainers/fastani", "aliases": {"fastANI": "/usr/local/bin/fastANI"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastani.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fastani
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastani:1.33--h0fdf51a_1
+$ shpc install quay.io/biocontainers/fastani:1.33--h4dfc31f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastani/1.33--h0fdf51a_1
-$ module help quay.io/biocontainers/fastani/1.33--h0fdf51a_1
+$ module load quay.io/biocontainers/fastani/1.33--h4dfc31f_3
+$ module help quay.io/biocontainers/fastani/1.33--h4dfc31f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-jmosaics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jmosaics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jmosaics/container.yaml"
-updated_at: "2023-05-27 02:39:00.659387"
+updated_at: "2023-05-28 02:49:42.314925"
 latest: "1.10.0--0"
 container_url: "https://biocontainers.pro/tools/bioconductor-jmosaics"
 aliases:

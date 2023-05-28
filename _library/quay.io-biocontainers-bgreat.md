@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bgreat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bgreat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bgreat/container.yaml"
-updated_at: "2023-05-27 02:48:47.900693"
-latest: "2.0.0--h5b5514e_4"
+updated_at: "2023-05-28 02:59:37.769759"
+latest: "2.0.0--h5b5514e_6"
 container_url: "https://biocontainers.pro/tools/bgreat"
 aliases:
  - "bgreat"
 versions:
  - "2.0.0--h5b5514e_4"
+ - "2.0.0--h5b5514e_6"
 description: "shpc-registry automated BioContainers addition for bgreat"
-config: {"url": "https://biocontainers.pro/tools/bgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bgreat", "latest": {"2.0.0--h5b5514e_4": "sha256:82b2058349acec28931b3b15c808c27d398c4ae7f9624098256d007670702fbe"}, "tags": {"2.0.0--h5b5514e_4": "sha256:82b2058349acec28931b3b15c808c27d398c4ae7f9624098256d007670702fbe"}, "docker": "quay.io/biocontainers/bgreat", "aliases": {"bgreat": "/usr/local/bin/bgreat"}}
+config: {"url": "https://biocontainers.pro/tools/bgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bgreat", "latest": {"2.0.0--h5b5514e_6": "sha256:283bf000d198421f9ba8839e1ef3aa6faafa8b920adbe034fc1841e681aed232"}, "tags": {"2.0.0--h5b5514e_4": "sha256:82b2058349acec28931b3b15c808c27d398c4ae7f9624098256d007670702fbe", "2.0.0--h5b5514e_6": "sha256:283bf000d198421f9ba8839e1ef3aa6faafa8b920adbe034fc1841e681aed232"}, "docker": "quay.io/biocontainers/bgreat", "aliases": {"bgreat": "/usr/local/bin/bgreat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bgreat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bgreat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bgreat:2.0.0--h5b5514e_4
+$ shpc install quay.io/biocontainers/bgreat:2.0.0--h5b5514e_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bgreat/2.0.0--h5b5514e_4
-$ module help quay.io/biocontainers/bgreat/2.0.0--h5b5514e_4
+$ module load quay.io/biocontainers/bgreat/2.0.0--h5b5514e_6
+$ module help quay.io/biocontainers/bgreat/2.0.0--h5b5514e_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

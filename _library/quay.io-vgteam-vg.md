@@ -4,7 +4,7 @@ name:  "quay.io/vgteam/vg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/vgteam/vg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/vgteam/vg/container.yaml"
-updated_at: "2023-05-27 03:19:30.242157"
+updated_at: "2023-05-28 03:30:45.168762"
 latest: "latest"
 container_url: "https://quay.io/repository/vgteam/vg?tab=info"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "latest"
 description: "Tools for working with genomic variation graphs. https://github.com/vgteam/vg"
-config: {"docker": "quay.io/vgteam/vg", "url": "https://quay.io/repository/vgteam/vg?tab=info", "maintainer": "@vsoch", "description": "Tools for working with genomic variation graphs. https://github.com/vgteam/vg", "latest": {"latest": "sha256:1407af14f35bd9212e929d0c49735e515eed243f7884b185f929221433001f77"}, "tags": {"latest": "sha256:1407af14f35bd9212e929d0c49735e515eed243f7884b185f929221433001f77"}, "filter": ["latest"], "aliases": {"vg": "/vg/bin/vg"}}
+config: {"docker": "quay.io/vgteam/vg", "url": "https://quay.io/repository/vgteam/vg?tab=info", "maintainer": "@vsoch", "description": "Tools for working with genomic variation graphs. https://github.com/vgteam/vg", "latest": {"latest": "sha256:d87d55e77370c1afa44a9cb0092be980ba71643bf6476ae8d533f24fd53365e7"}, "tags": {"latest": "sha256:d87d55e77370c1afa44a9cb0092be980ba71643bf6476ae8d533f24fd53365e7"}, "filter": ["latest"], "aliases": {"vg": "/vg/bin/vg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/vgteam/vg.

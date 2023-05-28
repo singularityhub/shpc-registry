@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/collect_mgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collect_mgf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collect_mgf/container.yaml"
-updated_at: "2023-05-27 03:09:11.799453"
-latest: "1.0--hec16e2b_3"
+updated_at: "2023-05-28 03:20:20.688115"
+latest: "1.0--h031d066_5"
 container_url: "https://biocontainers.pro/tools/collect_mgf"
 aliases:
  - "collect_mgf"
 versions:
  - "1.0--hec16e2b_3"
+ - "1.0--h031d066_5"
 description: "shpc-registry automated BioContainers addition for collect_mgf"
-config: {"url": "https://biocontainers.pro/tools/collect_mgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collect_mgf", "latest": {"1.0--hec16e2b_3": "sha256:c65a4f373bda875cd2c457946670d30d44f4f7485a84fcb53ed159fc8eeb2bd1"}, "tags": {"1.0--hec16e2b_3": "sha256:c65a4f373bda875cd2c457946670d30d44f4f7485a84fcb53ed159fc8eeb2bd1"}, "docker": "quay.io/biocontainers/collect_mgf", "aliases": {"collect_mgf": "/usr/local/bin/collect_mgf"}}
+config: {"url": "https://biocontainers.pro/tools/collect_mgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collect_mgf", "latest": {"1.0--h031d066_5": "sha256:db072db8aa13159c7a2fc873f4eabbc1c07e260ef1bff3b69f894ca0031d9b9c"}, "tags": {"1.0--hec16e2b_3": "sha256:c65a4f373bda875cd2c457946670d30d44f4f7485a84fcb53ed159fc8eeb2bd1", "1.0--h031d066_5": "sha256:db072db8aa13159c7a2fc873f4eabbc1c07e260ef1bff3b69f894ca0031d9b9c"}, "docker": "quay.io/biocontainers/collect_mgf", "aliases": {"collect_mgf": "/usr/local/bin/collect_mgf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/collect_mgf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/collect_mgf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/collect_mgf:1.0--hec16e2b_3
+$ shpc install quay.io/biocontainers/collect_mgf:1.0--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/collect_mgf/1.0--hec16e2b_3
-$ module help quay.io/biocontainers/collect_mgf/1.0--hec16e2b_3
+$ module load quay.io/biocontainers/collect_mgf/1.0--h031d066_5
+$ module help quay.io/biocontainers/collect_mgf/1.0--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

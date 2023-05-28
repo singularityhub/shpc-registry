@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scrappie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scrappie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scrappie/container.yaml"
-updated_at: "2023-05-27 03:10:18.911066"
-latest: "1.4.2--py37pl5321hcc03fe6_3"
+updated_at: "2023-05-28 03:21:28.425562"
+latest: "1.4.2--py38pl5321h7811ddc_5"
 container_url: "https://biocontainers.pro/tools/scrappie"
 aliases:
  - "scrappie"
@@ -22,8 +22,9 @@ aliases:
  - "python3.7m-config"
 versions:
  - "1.4.2--py37pl5321hcc03fe6_3"
+ - "1.4.2--py38pl5321h7811ddc_5"
 description: "shpc-registry automated BioContainers addition for scrappie"
-config: {"url": "https://biocontainers.pro/tools/scrappie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scrappie", "latest": {"1.4.2--py37pl5321hcc03fe6_3": "sha256:228129414a1be5137c2aaac313673b0a6102290f6873f7bb39669213598c90b3"}, "tags": {"1.4.2--py37pl5321hcc03fe6_3": "sha256:228129414a1be5137c2aaac313673b0a6102290f6873f7bb39669213598c90b3"}, "docker": "quay.io/biocontainers/scrappie", "aliases": {"scrappie": "/usr/local/bin/scrappie", "scrappy": "/usr/local/bin/scrappy", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
+config: {"url": "https://biocontainers.pro/tools/scrappie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scrappie", "latest": {"1.4.2--py38pl5321h7811ddc_5": "sha256:fe43c3e6527c34b3e06bcbec151271410c43b40001a8ff364348c65dc61b77d3"}, "tags": {"1.4.2--py37pl5321hcc03fe6_3": "sha256:228129414a1be5137c2aaac313673b0a6102290f6873f7bb39669213598c90b3", "1.4.2--py38pl5321h7811ddc_5": "sha256:fe43c3e6527c34b3e06bcbec151271410c43b40001a8ff364348c65dc61b77d3"}, "docker": "quay.io/biocontainers/scrappie", "aliases": {"scrappie": "/usr/local/bin/scrappie", "scrappy": "/usr/local/bin/scrappy", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scrappie.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/scrappie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scrappie:1.4.2--py37pl5321hcc03fe6_3
+$ shpc install quay.io/biocontainers/scrappie:1.4.2--py38pl5321h7811ddc_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scrappie/1.4.2--py37pl5321hcc03fe6_3
-$ module help quay.io/biocontainers/scrappie/1.4.2--py37pl5321hcc03fe6_3
+$ module load quay.io/biocontainers/scrappie/1.4.2--py38pl5321h7811ddc_5
+$ module help quay.io/biocontainers/scrappie/1.4.2--py38pl5321h7811ddc_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

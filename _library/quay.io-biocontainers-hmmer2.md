@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmmer2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmer2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmer2/container.yaml"
-updated_at: "2023-05-27 03:05:22.447630"
-latest: "2.3.2--hec16e2b_7"
+updated_at: "2023-05-28 03:16:30.097352"
+latest: "2.3.2--h031d066_9"
 container_url: "https://biocontainers.pro/tools/hmmer2"
 aliases:
  - "hmmalign2"
@@ -19,8 +19,9 @@ aliases:
  - "hmmsearch2"
 versions:
  - "2.3.2--hec16e2b_7"
+ - "2.3.2--h031d066_9"
 description: "shpc-registry automated BioContainers addition for hmmer2"
-config: {"url": "https://biocontainers.pro/tools/hmmer2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmer2", "latest": {"2.3.2--hec16e2b_7": "sha256:d60e6e1d1b1a464c63f6cf4f677200c1ff8cf9030ce6477214fae34ba42a56f4"}, "tags": {"2.3.2--hec16e2b_7": "sha256:d60e6e1d1b1a464c63f6cf4f677200c1ff8cf9030ce6477214fae34ba42a56f4"}, "docker": "quay.io/biocontainers/hmmer2", "aliases": {"hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2"}}
+config: {"url": "https://biocontainers.pro/tools/hmmer2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmer2", "latest": {"2.3.2--h031d066_9": "sha256:6569ab6291bdf274ee6e805e7a3e59b482a7db37f173c950832b45598e2e7bca"}, "tags": {"2.3.2--hec16e2b_7": "sha256:d60e6e1d1b1a464c63f6cf4f677200c1ff8cf9030ce6477214fae34ba42a56f4", "2.3.2--h031d066_9": "sha256:6569ab6291bdf274ee6e805e7a3e59b482a7db37f173c950832b45598e2e7bca"}, "docker": "quay.io/biocontainers/hmmer2", "aliases": {"hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmmer2.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/hmmer2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmmer2:2.3.2--hec16e2b_7
+$ shpc install quay.io/biocontainers/hmmer2:2.3.2--h031d066_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmmer2/2.3.2--hec16e2b_7
-$ module help quay.io/biocontainers/hmmer2/2.3.2--hec16e2b_7
+$ module load quay.io/biocontainers/hmmer2/2.3.2--h031d066_9
+$ module help quay.io/biocontainers/hmmer2/2.3.2--h031d066_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

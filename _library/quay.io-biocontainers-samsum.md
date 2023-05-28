@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/samsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samsum/container.yaml"
-updated_at: "2023-05-27 02:37:37.638507"
-latest: "0.1.4--py36hffcf100_2"
+updated_at: "2023-05-28 02:48:17.300365"
+latest: "0.1.4--py39hf662ef1_3"
 container_url: "https://biocontainers.pro/tools/samsum"
 aliases:
  - "pyfastx"
@@ -22,8 +22,9 @@ aliases:
  - "python3.6m-config"
 versions:
  - "0.1.4--py36hffcf100_2"
+ - "0.1.4--py39hf662ef1_3"
 description: "shpc-registry automated BioContainers addition for samsum"
-config: {"url": "https://biocontainers.pro/tools/samsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samsum", "latest": {"0.1.4--py36hffcf100_2": "sha256:8d94f17326d703d462d1281076b78eacdcd1883de203ebc508eabbc3551b42ec"}, "tags": {"0.1.4--py36hffcf100_2": "sha256:8d94f17326d703d462d1281076b78eacdcd1883de203ebc508eabbc3551b42ec"}, "docker": "quay.io/biocontainers/samsum", "aliases": {"pyfastx": "/usr/local/bin/pyfastx", "samsum": "/usr/local/bin/samsum", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/samsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samsum", "latest": {"0.1.4--py39hf662ef1_3": "sha256:46e847336dd07a9cb31590c3c7f1b3c0bcf115ae5215e64386ccec56b145726f"}, "tags": {"0.1.4--py36hffcf100_2": "sha256:8d94f17326d703d462d1281076b78eacdcd1883de203ebc508eabbc3551b42ec", "0.1.4--py39hf662ef1_3": "sha256:46e847336dd07a9cb31590c3c7f1b3c0bcf115ae5215e64386ccec56b145726f"}, "docker": "quay.io/biocontainers/samsum", "aliases": {"pyfastx": "/usr/local/bin/pyfastx", "samsum": "/usr/local/bin/samsum", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samsum.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/samsum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samsum:0.1.4--py36hffcf100_2
+$ shpc install quay.io/biocontainers/samsum:0.1.4--py39hf662ef1_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samsum/0.1.4--py36hffcf100_2
-$ module help quay.io/biocontainers/samsum/0.1.4--py36hffcf100_2
+$ module load quay.io/biocontainers/samsum/0.1.4--py39hf662ef1_3
+$ module help quay.io/biocontainers/samsum/0.1.4--py39hf662ef1_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

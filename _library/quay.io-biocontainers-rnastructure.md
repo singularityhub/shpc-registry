@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnastructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnastructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnastructure/container.yaml"
-updated_at: "2023-05-27 03:00:35.402288"
-latest: "6.3--h87f3376_1"
+updated_at: "2023-05-28 03:11:40.455099"
+latest: "6.3--hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/rnastructure"
 aliases:
  - "AccessFold"
@@ -76,8 +76,9 @@ aliases:
  - "validate"
 versions:
  - "6.3--h87f3376_1"
+ - "6.3--hdbdd923_3"
 description: "shpc-registry automated BioContainers addition for rnastructure"
-config: {"url": "https://biocontainers.pro/tools/rnastructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnastructure", "latest": {"6.3--h87f3376_1": "sha256:f81fbbafc35076e3e95e9c132a6c2dd6050c1afe56c5173bdb4237f3a2617b5f"}, "tags": {"6.3--h87f3376_1": "sha256:f81fbbafc35076e3e95e9c132a6c2dd6050c1afe56c5173bdb4237f3a2617b5f"}, "docker": "quay.io/biocontainers/rnastructure", "aliases": {"AccessFold": "/usr/local/bin/AccessFold", "AllSub": "/usr/local/bin/AllSub", "CircleCompare": "/usr/local/bin/CircleCompare", "CycleFold": "/usr/local/bin/CycleFold", "DuplexFold": "/usr/local/bin/DuplexFold", "DuplexFold-smp": "/usr/local/bin/DuplexFold-smp", "DynalignDotPlot": "/usr/local/bin/DynalignDotPlot", "EDcalculator": "/usr/local/bin/EDcalculator", "EDcalculator-smp": "/usr/local/bin/EDcalculator-smp", "ETEcalculator": "/usr/local/bin/ETEcalculator", "ETEcalculator-smp": "/usr/local/bin/ETEcalculator-smp", "EnergyPlot": "/usr/local/bin/EnergyPlot", "EnsembleEnergy": "/usr/local/bin/EnsembleEnergy", "Fold": "/usr/local/bin/Fold", "Fold-smp": "/usr/local/bin/Fold-smp", "MaxExpect": "/usr/local/bin/MaxExpect", "MaxExpect-smp": "/usr/local/bin/MaxExpect-smp", "NAPSS": "/usr/local/bin/NAPSS", "OligoWalk": "/usr/local/bin/OligoWalk", "PARTS": "/usr/local/bin/PARTS", "ProbKnot": "/usr/local/bin/ProbKnot", "ProbKnot-smp": "/usr/local/bin/ProbKnot-smp", "ProbScan": "/usr/local/bin/ProbScan", "ProbabilityPlot": "/usr/local/bin/ProbabilityPlot", "ProbablePair": "/usr/local/bin/ProbablePair", "ProbablePair-smp": "/usr/local/bin/ProbablePair-smp", "RemovePseudoknots": "/usr/local/bin/RemovePseudoknots", "RemovePseudoknots-smp": "/usr/local/bin/RemovePseudoknots-smp", "Rsample": "/usr/local/bin/Rsample", "Rsample-smp": "/usr/local/bin/Rsample-smp", "ShapeKnots": "/usr/local/bin/ShapeKnots", "ShapeKnots-smp": "/usr/local/bin/ShapeKnots-smp", "StructureProb": "/usr/local/bin/StructureProb", "StructureProb-smp": "/usr/local/bin/StructureProb-smp", "SymmetryTester": "/usr/local/bin/SymmetryTester", "TurboFold": "/usr/local/bin/TurboFold", "TurboFold-smp": "/usr/local/bin/TurboFold-smp", "TurboHomology": "/usr/local/bin/TurboHomology", "bifold": "/usr/local/bin/bifold", "bifold-smp": "/usr/local/bin/bifold-smp", "bipartition": "/usr/local/bin/bipartition", "bipartition-smp": "/usr/local/bin/bipartition-smp", "ct2dot": "/usr/local/bin/ct2dot", "design": "/usr/local/bin/design", "dot2ct": "/usr/local/bin/dot2ct", "draw": "/usr/local/bin/draw", "dynalign": "/usr/local/bin/dynalign", "dynalign-smp": "/usr/local/bin/dynalign-smp", "dynalign_ii": "/usr/local/bin/dynalign_ii", "dynalign_ii-smp": "/usr/local/bin/dynalign_ii-smp", "efn2": "/usr/local/bin/efn2", "efn2-smp": "/usr/local/bin/efn2-smp", "multilign": "/usr/local/bin/multilign", "multilign-smp": "/usr/local/bin/multilign-smp", "oligoscreen": "/usr/local/bin/oligoscreen", "oligoscreen-smp": "/usr/local/bin/oligoscreen-smp", "orega": "/usr/local/bin/orega", "orega-smp": "/usr/local/bin/orega-smp", "partition": "/usr/local/bin/partition", "partition-smp": "/usr/local/bin/partition-smp", "phmm": "/usr/local/bin/phmm", "refold": "/usr/local/bin/refold", "scorer": "/usr/local/bin/scorer", "stochastic": "/usr/local/bin/stochastic", "stochastic-smp": "/usr/local/bin/stochastic-smp", "validate": "/usr/local/bin/validate"}}
+config: {"url": "https://biocontainers.pro/tools/rnastructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnastructure", "latest": {"6.3--hdbdd923_3": "sha256:ca79dbf8575680aefd41ca02be609faaea8499cab39f2bb9b1b21dfc5b5b6cd8"}, "tags": {"6.3--h87f3376_1": "sha256:f81fbbafc35076e3e95e9c132a6c2dd6050c1afe56c5173bdb4237f3a2617b5f", "6.3--hdbdd923_3": "sha256:ca79dbf8575680aefd41ca02be609faaea8499cab39f2bb9b1b21dfc5b5b6cd8"}, "docker": "quay.io/biocontainers/rnastructure", "aliases": {"AccessFold": "/usr/local/bin/AccessFold", "AllSub": "/usr/local/bin/AllSub", "CircleCompare": "/usr/local/bin/CircleCompare", "CycleFold": "/usr/local/bin/CycleFold", "DuplexFold": "/usr/local/bin/DuplexFold", "DuplexFold-smp": "/usr/local/bin/DuplexFold-smp", "DynalignDotPlot": "/usr/local/bin/DynalignDotPlot", "EDcalculator": "/usr/local/bin/EDcalculator", "EDcalculator-smp": "/usr/local/bin/EDcalculator-smp", "ETEcalculator": "/usr/local/bin/ETEcalculator", "ETEcalculator-smp": "/usr/local/bin/ETEcalculator-smp", "EnergyPlot": "/usr/local/bin/EnergyPlot", "EnsembleEnergy": "/usr/local/bin/EnsembleEnergy", "Fold": "/usr/local/bin/Fold", "Fold-smp": "/usr/local/bin/Fold-smp", "MaxExpect": "/usr/local/bin/MaxExpect", "MaxExpect-smp": "/usr/local/bin/MaxExpect-smp", "NAPSS": "/usr/local/bin/NAPSS", "OligoWalk": "/usr/local/bin/OligoWalk", "PARTS": "/usr/local/bin/PARTS", "ProbKnot": "/usr/local/bin/ProbKnot", "ProbKnot-smp": "/usr/local/bin/ProbKnot-smp", "ProbScan": "/usr/local/bin/ProbScan", "ProbabilityPlot": "/usr/local/bin/ProbabilityPlot", "ProbablePair": "/usr/local/bin/ProbablePair", "ProbablePair-smp": "/usr/local/bin/ProbablePair-smp", "RemovePseudoknots": "/usr/local/bin/RemovePseudoknots", "RemovePseudoknots-smp": "/usr/local/bin/RemovePseudoknots-smp", "Rsample": "/usr/local/bin/Rsample", "Rsample-smp": "/usr/local/bin/Rsample-smp", "ShapeKnots": "/usr/local/bin/ShapeKnots", "ShapeKnots-smp": "/usr/local/bin/ShapeKnots-smp", "StructureProb": "/usr/local/bin/StructureProb", "StructureProb-smp": "/usr/local/bin/StructureProb-smp", "SymmetryTester": "/usr/local/bin/SymmetryTester", "TurboFold": "/usr/local/bin/TurboFold", "TurboFold-smp": "/usr/local/bin/TurboFold-smp", "TurboHomology": "/usr/local/bin/TurboHomology", "bifold": "/usr/local/bin/bifold", "bifold-smp": "/usr/local/bin/bifold-smp", "bipartition": "/usr/local/bin/bipartition", "bipartition-smp": "/usr/local/bin/bipartition-smp", "ct2dot": "/usr/local/bin/ct2dot", "design": "/usr/local/bin/design", "dot2ct": "/usr/local/bin/dot2ct", "draw": "/usr/local/bin/draw", "dynalign": "/usr/local/bin/dynalign", "dynalign-smp": "/usr/local/bin/dynalign-smp", "dynalign_ii": "/usr/local/bin/dynalign_ii", "dynalign_ii-smp": "/usr/local/bin/dynalign_ii-smp", "efn2": "/usr/local/bin/efn2", "efn2-smp": "/usr/local/bin/efn2-smp", "multilign": "/usr/local/bin/multilign", "multilign-smp": "/usr/local/bin/multilign-smp", "oligoscreen": "/usr/local/bin/oligoscreen", "oligoscreen-smp": "/usr/local/bin/oligoscreen-smp", "orega": "/usr/local/bin/orega", "orega-smp": "/usr/local/bin/orega-smp", "partition": "/usr/local/bin/partition", "partition-smp": "/usr/local/bin/partition-smp", "phmm": "/usr/local/bin/phmm", "refold": "/usr/local/bin/refold", "scorer": "/usr/local/bin/scorer", "stochastic": "/usr/local/bin/stochastic", "stochastic-smp": "/usr/local/bin/stochastic-smp", "validate": "/usr/local/bin/validate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnastructure.
@@ -92,7 +93,7 @@ $ shpc install quay.io/biocontainers/rnastructure
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnastructure:6.3--h87f3376_1
+$ shpc install quay.io/biocontainers/rnastructure:6.3--hdbdd923_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -104,8 +105,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnastructure/6.3--h87f3376_1
-$ module help quay.io/biocontainers/rnastructure/6.3--h87f3376_1
+$ module load quay.io/biocontainers/rnastructure/6.3--hdbdd923_3
+$ module help quay.io/biocontainers/rnastructure/6.3--hdbdd923_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

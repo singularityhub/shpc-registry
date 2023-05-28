@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pynast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pynast/container.yaml"
-updated_at: "2023-05-27 02:35:06.700889"
+updated_at: "2023-05-28 02:45:42.604692"
 latest: "1.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/pynast"
 aliases:

@@ -4,8 +4,8 @@ name:  "spack/ubuntu-bionic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/spack/ubuntu-bionic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/spack/ubuntu-bionic/container.yaml"
-updated_at: "2023-05-27 02:33:24.368792"
-latest: "v0.19.2"
+updated_at: "2023-05-28 02:43:58.042226"
+latest: "develop-2023-05-14"
 container_url: "https://hub.docker.com/r/spack/ubuntu-bionic"
 aliases:
  - "sbang"
@@ -25,8 +25,10 @@ versions:
  - "v0.19.0"
  - "v0.19.1"
  - "v0.19.2"
+ - "develop-2023-05-14"
+ - "v0.20.0"
 description: "Ubuntu 18.04 with Spack preinstalled."
-config: {"docker": "spack/ubuntu-bionic", "url": "https://hub.docker.com/r/spack/ubuntu-bionic", "maintainer": "@vsoch", "description": "Ubuntu 18.04 with Spack preinstalled.", "latest": {"v0.19.2": "sha256:1e6c9907e59b749665451d9a53fe586dbcfc3fd26d4af599ec12c66b0c2def30"}, "tags": {"0.16.1": "sha256:8261977ff63fe420446c349f0e3bd4e09a6417ebb1008ab472861041f1edd11b", "0.16.2": "sha256:698899684998df4a49f02bce1cffca9aa59644477f94b1909fc26b2adf4c4be4", "0.16.3": "sha256:fd9bfae1b8133bfb1c8636434f5ec24b2deae94e6b21d533cf6ee6df19af0772", "latest": "sha256:eb5c51ca60c746fb7a9a1e898d14fa3b983dc75b693e904fb5ecdb080134715c", "0.16": "sha256:5c6e3f016333b48bc85fa3e42634bb77d8af318c28c69b575e279cd875a93fe0", "prerelease": "sha256:e8565c944612471f06df71364e2ae390a9483837d116b208e7b476086b05ba4a", "v0.17.2": "sha256:29730dee9527826dfb3de157f46daefa68cedb611b2b393d06f4cb074c3223c5", "v0.18.0": "sha256:585efe3455c4ecd1781f7cb711e5b072a3fbc18acc200550d9264f1124de51f1", "v0.18.1": "sha256:a08a59a72667ff9e2f66c9fdfe26f1aa856ab9c91e98e798fc1be91a51c9d677", "v0.17.3": "sha256:4f81a2008abd021dc128481caa31f607a0a659e08756886f79296b6dc3f0bf09", "v0.19.0": "sha256:4fe221bae91f1efa64ad10bb158ea2317781a64ecc6877cb61e80bdab15957de", "v0.19.1": "sha256:ba47c03551762bbd0c46758d576039af41dfb5e27f2619ab31cd4c382c17f7df", "v0.19.2": "sha256:1e6c9907e59b749665451d9a53fe586dbcfc3fd26d4af599ec12c66b0c2def30"}, "aliases": {"sbang": "/opt/spack/bin/sbang", "spack": "/opt/spack/bin/spack", "spack-python": "/opt/spack/bin/spack-python"}}
+config: {"docker": "spack/ubuntu-bionic", "url": "https://hub.docker.com/r/spack/ubuntu-bionic", "maintainer": "@vsoch", "description": "Ubuntu 18.04 with Spack preinstalled.", "latest": {"develop-2023-05-14": "sha256:94f2f86d2a8d96e4e6a1ccbc7b9ddcad1f3145ccc83c92feba60cb4e0da14900"}, "tags": {"0.16.1": "sha256:8261977ff63fe420446c349f0e3bd4e09a6417ebb1008ab472861041f1edd11b", "0.16.2": "sha256:698899684998df4a49f02bce1cffca9aa59644477f94b1909fc26b2adf4c4be4", "0.16.3": "sha256:fd9bfae1b8133bfb1c8636434f5ec24b2deae94e6b21d533cf6ee6df19af0772", "latest": "sha256:ef9ce45c0c47c61675e605fe5efa4e8950600856cbb83e959eda4f2ede740efc", "0.16": "sha256:5c6e3f016333b48bc85fa3e42634bb77d8af318c28c69b575e279cd875a93fe0", "prerelease": "sha256:e8565c944612471f06df71364e2ae390a9483837d116b208e7b476086b05ba4a", "v0.17.2": "sha256:29730dee9527826dfb3de157f46daefa68cedb611b2b393d06f4cb074c3223c5", "v0.18.0": "sha256:585efe3455c4ecd1781f7cb711e5b072a3fbc18acc200550d9264f1124de51f1", "v0.18.1": "sha256:a08a59a72667ff9e2f66c9fdfe26f1aa856ab9c91e98e798fc1be91a51c9d677", "v0.17.3": "sha256:4f81a2008abd021dc128481caa31f607a0a659e08756886f79296b6dc3f0bf09", "v0.19.0": "sha256:4fe221bae91f1efa64ad10bb158ea2317781a64ecc6877cb61e80bdab15957de", "v0.19.1": "sha256:ba47c03551762bbd0c46758d576039af41dfb5e27f2619ab31cd4c382c17f7df", "v0.19.2": "sha256:1e6c9907e59b749665451d9a53fe586dbcfc3fd26d4af599ec12c66b0c2def30", "develop-2023-05-14": "sha256:94f2f86d2a8d96e4e6a1ccbc7b9ddcad1f3145ccc83c92feba60cb4e0da14900", "v0.20.0": "sha256:30ee804802b1fef7f0b9cc5943f246a044fa0072dd296bdada5ee89a8138eabc"}, "aliases": {"sbang": "/opt/spack/bin/sbang", "spack": "/opt/spack/bin/spack", "spack-python": "/opt/spack/bin/spack-python"}}
 ---
 
 This module is a singularity container wrapper for spack/ubuntu-bionic.
@@ -41,7 +43,7 @@ $ shpc install spack/ubuntu-bionic
 Or a specific version:
 
 ```bash
-$ shpc install spack/ubuntu-bionic:v0.19.2
+$ shpc install spack/ubuntu-bionic:develop-2023-05-14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load spack/ubuntu-bionic/v0.19.2
-$ module help spack/ubuntu-bionic/v0.19.2
+$ module load spack/ubuntu-bionic/develop-2023-05-14
+$ module help spack/ubuntu-bionic/develop-2023-05-14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

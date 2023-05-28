@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strcount/container.yaml"
-updated_at: "2023-05-27 03:17:13.154937"
+updated_at: "2023-05-28 03:28:25.427445"
 latest: "0.1.1--py310h7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/strcount"
 aliases:

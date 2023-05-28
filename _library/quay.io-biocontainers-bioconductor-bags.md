@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-bags"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bags/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bags/container.yaml"
-updated_at: "2023-05-27 02:49:46.985672"
-latest: "2.38.0--r42hc0cfd56_0"
+updated_at: "2023-05-28 03:00:37.505279"
+latest: "2.38.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bags"
 
 versions:
  - "2.34.0--r41hc0cfd56_2"
  - "2.38.0--r42hc0cfd56_0"
+ - "2.38.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-bags"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bags", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bags", "latest": {"2.38.0--r42hc0cfd56_0": "sha256:a9ee479894d37901b0455ea21d59e9379d1ee04a81a7765079e48e686319bd07"}, "tags": {"2.34.0--r41hc0cfd56_2": "sha256:e19834e60b160acce84abf426a9144ee909129a362e5ef856ca556fb86417ca1", "2.38.0--r42hc0cfd56_0": "sha256:a9ee479894d37901b0455ea21d59e9379d1ee04a81a7765079e48e686319bd07"}, "docker": "quay.io/biocontainers/bioconductor-bags"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bags", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bags", "latest": {"2.38.0--r42ha9d7317_1": "sha256:4e4b17bafd7a04fbd9e6f670c429a41c8e2416fd2344d727105d1e3037f415f4"}, "tags": {"2.34.0--r41hc0cfd56_2": "sha256:e19834e60b160acce84abf426a9144ee909129a362e5ef856ca556fb86417ca1", "2.38.0--r42hc0cfd56_0": "sha256:a9ee479894d37901b0455ea21d59e9379d1ee04a81a7765079e48e686319bd07", "2.38.0--r42ha9d7317_1": "sha256:4e4b17bafd7a04fbd9e6f670c429a41c8e2416fd2344d727105d1e3037f415f4"}, "docker": "quay.io/biocontainers/bioconductor-bags"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bags.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bags
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bags:2.38.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-bags:2.38.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bags/2.38.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-bags/2.38.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-bags/2.38.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-bags/2.38.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

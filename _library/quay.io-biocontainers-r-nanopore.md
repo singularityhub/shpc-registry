@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-nanopore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nanopore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nanopore/container.yaml"
-updated_at: "2023-05-27 03:03:47.670264"
-latest: "0.2.9--r42h87f3376_5"
+updated_at: "2023-05-28 03:14:55.125334"
+latest: "0.2.9--r42hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/r-nanopore"
 aliases:
  - "pandoc"
 versions:
  - "0.2.9--r41hec16e2b_4"
  - "0.2.9--r42h87f3376_5"
+ - "0.2.9--r42hdbdd923_6"
 description: "shpc-registry automated BioContainers addition for r-nanopore"
-config: {"url": "https://biocontainers.pro/tools/r-nanopore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nanopore", "latest": {"0.2.9--r42h87f3376_5": "sha256:f68cf156a5b5f9ff5c8ebc0e907ee86f8ac9f6917c60e05586dd5796847ed685"}, "tags": {"0.2.9--r41hec16e2b_4": "sha256:0a20e89f63ffa07a5d187168ca622610a3c5eff97d5921b5df93ccb543558d23", "0.2.9--r42h87f3376_5": "sha256:f68cf156a5b5f9ff5c8ebc0e907ee86f8ac9f6917c60e05586dd5796847ed685"}, "docker": "quay.io/biocontainers/r-nanopore", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-nanopore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nanopore", "latest": {"0.2.9--r42hdbdd923_6": "sha256:2d16ab736cf27a19a966871b27d67f5d49ece9724fd12282c3a43370fe01527a"}, "tags": {"0.2.9--r41hec16e2b_4": "sha256:0a20e89f63ffa07a5d187168ca622610a3c5eff97d5921b5df93ccb543558d23", "0.2.9--r42h87f3376_5": "sha256:f68cf156a5b5f9ff5c8ebc0e907ee86f8ac9f6917c60e05586dd5796847ed685", "0.2.9--r42hdbdd923_6": "sha256:2d16ab736cf27a19a966871b27d67f5d49ece9724fd12282c3a43370fe01527a"}, "docker": "quay.io/biocontainers/r-nanopore", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nanopore.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-nanopore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-nanopore:0.2.9--r42h87f3376_5
+$ shpc install quay.io/biocontainers/r-nanopore:0.2.9--r42hdbdd923_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-nanopore/0.2.9--r42h87f3376_5
-$ module help quay.io/biocontainers/r-nanopore/0.2.9--r42h87f3376_5
+$ module load quay.io/biocontainers/r-nanopore/0.2.9--r42hdbdd923_6
+$ module help quay.io/biocontainers/r-nanopore/0.2.9--r42hdbdd923_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/prinseq-plus-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prinseq-plus-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prinseq-plus-plus/container.yaml"
-updated_at: "2023-05-27 02:36:56.082624"
-latest: "1.2.4--h7ff8a90_2"
+updated_at: "2023-05-28 02:47:34.645385"
+latest: "1.2.4--h21ec9f0_4"
 container_url: "https://biocontainers.pro/tools/prinseq-plus-plus"
 aliases:
  - "prinseq++"
 versions:
  - "1.2.4--h7ff8a90_2"
+ - "1.2.4--h21ec9f0_4"
 description: "shpc-registry automated BioContainers addition for prinseq-plus-plus"
-config: {"url": "https://biocontainers.pro/tools/prinseq-plus-plus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prinseq-plus-plus", "latest": {"1.2.4--h7ff8a90_2": "sha256:cf25da5853576ccdd6cf80b3227854d6a2a01ead7a8be6d32b273077c14b0a6d"}, "tags": {"1.2.4--h7ff8a90_2": "sha256:cf25da5853576ccdd6cf80b3227854d6a2a01ead7a8be6d32b273077c14b0a6d"}, "docker": "quay.io/biocontainers/prinseq-plus-plus", "aliases": {"prinseq++": "/usr/local/bin/prinseq++"}}
+config: {"url": "https://biocontainers.pro/tools/prinseq-plus-plus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prinseq-plus-plus", "latest": {"1.2.4--h21ec9f0_4": "sha256:fc7c449535490139ee4e36d919efa40fbeb23849a17451ad9a63858aa39a71ac"}, "tags": {"1.2.4--h7ff8a90_2": "sha256:cf25da5853576ccdd6cf80b3227854d6a2a01ead7a8be6d32b273077c14b0a6d", "1.2.4--h21ec9f0_4": "sha256:fc7c449535490139ee4e36d919efa40fbeb23849a17451ad9a63858aa39a71ac"}, "docker": "quay.io/biocontainers/prinseq-plus-plus", "aliases": {"prinseq++": "/usr/local/bin/prinseq++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prinseq-plus-plus.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/prinseq-plus-plus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prinseq-plus-plus:1.2.4--h7ff8a90_2
+$ shpc install quay.io/biocontainers/prinseq-plus-plus:1.2.4--h21ec9f0_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prinseq-plus-plus/1.2.4--h7ff8a90_2
-$ module help quay.io/biocontainers/prinseq-plus-plus/1.2.4--h7ff8a90_2
+$ module load quay.io/biocontainers/prinseq-plus-plus/1.2.4--h21ec9f0_4
+$ module help quay.io/biocontainers/prinseq-plus-plus/1.2.4--h21ec9f0_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

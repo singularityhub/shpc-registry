@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-whopgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-whopgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-whopgenome/container.yaml"
-updated_at: "2023-05-27 03:15:08.647811"
-latest: "0.9.7--r42hecf12ef_7"
+updated_at: "2023-05-28 03:26:20.658553"
+latest: "0.9.7--r42h21a89ab_8"
 container_url: "https://biocontainers.pro/tools/r-whopgenome"
 
 versions:
  - "0.9.7--r41hecf12ef_6"
  - "0.9.7--r42hecf12ef_7"
+ - "0.9.7--r42h21a89ab_8"
 description: "shpc-registry automated BioContainers addition for r-whopgenome"
-config: {"url": "https://biocontainers.pro/tools/r-whopgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-whopgenome", "latest": {"0.9.7--r42hecf12ef_7": "sha256:8e1dfe2a78dbfbe1b4383706f50f1bc1813c91fbde4ca5889926daf3b2d5eb2b"}, "tags": {"0.9.7--r41hecf12ef_6": "sha256:4cd432591ab478c4b526e4b7e92e06ef32339ca1c11fc0211a792553f109af09", "0.9.7--r42hecf12ef_7": "sha256:8e1dfe2a78dbfbe1b4383706f50f1bc1813c91fbde4ca5889926daf3b2d5eb2b"}, "docker": "quay.io/biocontainers/r-whopgenome"}
+config: {"url": "https://biocontainers.pro/tools/r-whopgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-whopgenome", "latest": {"0.9.7--r42h21a89ab_8": "sha256:71f763694008a02289f03032037de57f8cd1b1bb6e6f24741bdeef1992c79f34"}, "tags": {"0.9.7--r41hecf12ef_6": "sha256:4cd432591ab478c4b526e4b7e92e06ef32339ca1c11fc0211a792553f109af09", "0.9.7--r42hecf12ef_7": "sha256:8e1dfe2a78dbfbe1b4383706f50f1bc1813c91fbde4ca5889926daf3b2d5eb2b", "0.9.7--r42h21a89ab_8": "sha256:71f763694008a02289f03032037de57f8cd1b1bb6e6f24741bdeef1992c79f34"}, "docker": "quay.io/biocontainers/r-whopgenome"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-whopgenome.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-whopgenome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-whopgenome:0.9.7--r42hecf12ef_7
+$ shpc install quay.io/biocontainers/r-whopgenome:0.9.7--r42h21a89ab_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-whopgenome/0.9.7--r42hecf12ef_7
-$ module help quay.io/biocontainers/r-whopgenome/0.9.7--r42hecf12ef_7
+$ module load quay.io/biocontainers/r-whopgenome/0.9.7--r42h21a89ab_8
+$ module help quay.io/biocontainers/r-whopgenome/0.9.7--r42h21a89ab_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

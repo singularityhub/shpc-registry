@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strawc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strawc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strawc/container.yaml"
-updated_at: "2023-05-27 03:08:33.426011"
-latest: "0.0.2.1--py38h25fca73_1"
+updated_at: "2023-05-28 03:19:41.188222"
+latest: "0.0.2.1--py39h038aedc_2"
 container_url: "https://biocontainers.pro/tools/strawc"
 aliases:
  - "pybind11-config"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.0.2.1--py38h25fca73_1"
+ - "0.0.2.1--py39h038aedc_2"
 description: "shpc-registry automated BioContainers addition for strawc"
-config: {"url": "https://biocontainers.pro/tools/strawc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strawc", "latest": {"0.0.2.1--py38h25fca73_1": "sha256:3c43fd9d6a5b4e4abe52d2dab616721646bd6c8ee84656c44f0b2f92a4f2d5a0"}, "tags": {"0.0.2.1--py38h25fca73_1": "sha256:3c43fd9d6a5b4e4abe52d2dab616721646bd6c8ee84656c44f0b2f92a4f2d5a0"}, "docker": "quay.io/biocontainers/strawc", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/strawc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strawc", "latest": {"0.0.2.1--py39h038aedc_2": "sha256:2aba27a125c01f54a0f5d7a95905c074c2ed16ab90a5a38d5c2d86020e195533"}, "tags": {"0.0.2.1--py38h25fca73_1": "sha256:3c43fd9d6a5b4e4abe52d2dab616721646bd6c8ee84656c44f0b2f92a4f2d5a0", "0.0.2.1--py39h038aedc_2": "sha256:2aba27a125c01f54a0f5d7a95905c074c2ed16ab90a5a38d5c2d86020e195533"}, "docker": "quay.io/biocontainers/strawc", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strawc.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/strawc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strawc:0.0.2.1--py38h25fca73_1
+$ shpc install quay.io/biocontainers/strawc:0.0.2.1--py39h038aedc_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strawc/0.0.2.1--py38h25fca73_1
-$ module help quay.io/biocontainers/strawc/0.0.2.1--py38h25fca73_1
+$ module load quay.io/biocontainers/strawc/0.0.2.1--py39h038aedc_2
+$ module help quay.io/biocontainers/strawc/0.0.2.1--py39h038aedc_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vcf2parquet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2parquet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2parquet/container.yaml"
-updated_at: "2023-05-27 02:47:26.421401"
-latest: "0.3.1--hc308579_0"
+updated_at: "2023-05-28 02:58:16.040750"
+latest: "0.3.1--h8bd2d3b_2"
 container_url: "https://biocontainers.pro/tools/vcf2parquet"
 aliases:
  - "vcf2parquet"
 versions:
  - "0.3.1--hc308579_0"
+ - "0.3.1--h8bd2d3b_2"
 description: "singularity registry hpc automated addition for vcf2parquet"
-config: {"url": "https://biocontainers.pro/tools/vcf2parquet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2parquet", "latest": {"0.3.1--hc308579_0": "sha256:81ac4b2a8ad072ef8a537e192e9c170c70b9e12212e28a33cb353e40427361d1"}, "tags": {"0.3.1--hc308579_0": "sha256:81ac4b2a8ad072ef8a537e192e9c170c70b9e12212e28a33cb353e40427361d1"}, "docker": "quay.io/biocontainers/vcf2parquet", "aliases": {"vcf2parquet": "/usr/local/bin/vcf2parquet"}}
+config: {"url": "https://biocontainers.pro/tools/vcf2parquet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2parquet", "latest": {"0.3.1--h8bd2d3b_2": "sha256:5c4ecc04c6eca0bdb60a4857b2a006dd6f778b8ef43b99201a533a4f9e8ea96e"}, "tags": {"0.3.1--hc308579_0": "sha256:81ac4b2a8ad072ef8a537e192e9c170c70b9e12212e28a33cb353e40427361d1", "0.3.1--h8bd2d3b_2": "sha256:5c4ecc04c6eca0bdb60a4857b2a006dd6f778b8ef43b99201a533a4f9e8ea96e"}, "docker": "quay.io/biocontainers/vcf2parquet", "aliases": {"vcf2parquet": "/usr/local/bin/vcf2parquet"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf2parquet.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vcf2parquet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf2parquet:0.3.1--hc308579_0
+$ shpc install quay.io/biocontainers/vcf2parquet:0.3.1--h8bd2d3b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf2parquet/0.3.1--hc308579_0
-$ module help quay.io/biocontainers/vcf2parquet/0.3.1--hc308579_0
+$ module load quay.io/biocontainers/vcf2parquet/0.3.1--h8bd2d3b_2
+$ module help quay.io/biocontainers/vcf2parquet/0.3.1--h8bd2d3b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

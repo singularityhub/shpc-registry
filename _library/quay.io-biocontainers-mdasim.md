@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mdasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdasim/container.yaml"
-updated_at: "2023-05-27 03:16:38.806880"
-latest: "2.1.1--h5c6ebe3_3"
+updated_at: "2023-05-28 03:27:50.573199"
+latest: "2.1.1--h103dbdd_5"
 container_url: "https://biocontainers.pro/tools/mdasim"
 aliases:
  - "mdasim"
@@ -21,8 +21,9 @@ aliases:
  - "oshrun"
 versions:
  - "2.1.1--h5c6ebe3_3"
+ - "2.1.1--h103dbdd_5"
 description: "shpc-registry automated BioContainers addition for mdasim"
-config: {"url": "https://biocontainers.pro/tools/mdasim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mdasim", "latest": {"2.1.1--h5c6ebe3_3": "sha256:aa32932a2ab0050383992ba6bfa92af1f66b2ac94d94d447a075216f4879955c"}, "tags": {"2.1.1--h5c6ebe3_3": "sha256:aa32932a2ab0050383992ba6bfa92af1f66b2ac94d94d447a075216f4879955c"}, "docker": "quay.io/biocontainers/mdasim", "aliases": {"mdasim": "/usr/local/bin/mdasim", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/mdasim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mdasim", "latest": {"2.1.1--h103dbdd_5": "sha256:c2473b274154d64811d3f218cb1a7cd74080419c6d4eff8fc0f67f00532c16d1"}, "tags": {"2.1.1--h5c6ebe3_3": "sha256:aa32932a2ab0050383992ba6bfa92af1f66b2ac94d94d447a075216f4879955c", "2.1.1--h103dbdd_5": "sha256:c2473b274154d64811d3f218cb1a7cd74080419c6d4eff8fc0f67f00532c16d1"}, "docker": "quay.io/biocontainers/mdasim", "aliases": {"mdasim": "/usr/local/bin/mdasim", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mdasim.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/mdasim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mdasim:2.1.1--h5c6ebe3_3
+$ shpc install quay.io/biocontainers/mdasim:2.1.1--h103dbdd_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mdasim/2.1.1--h5c6ebe3_3
-$ module help quay.io/biocontainers/mdasim/2.1.1--h5c6ebe3_3
+$ module load quay.io/biocontainers/mdasim/2.1.1--h103dbdd_5
+$ module help quay.io/biocontainers/mdasim/2.1.1--h103dbdd_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

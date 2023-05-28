@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ryuto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ryuto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ryuto/container.yaml"
-updated_at: "2023-05-27 02:57:57.284435"
-latest: "1.6.3--h3c77e6d_1"
+updated_at: "2023-05-28 03:08:59.201317"
+latest: "1.6.3--hb03c83d_2"
 container_url: "https://biocontainers.pro/tools/ryuto"
 aliases:
  - "ryuto"
@@ -16,8 +16,9 @@ versions:
  - "1.6.2--h986a166_0"
  - "1.6.3--hf71abe7_0"
  - "1.6.3--h3c77e6d_1"
+ - "1.6.3--hb03c83d_2"
 description: "shpc-registry automated BioContainers addition for ryuto"
-config: {"url": "https://biocontainers.pro/tools/ryuto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ryuto", "latest": {"1.6.3--h3c77e6d_1": "sha256:69f4b40458d18924914df6ffdd0169578d37cde5b92dc1844d400bf6da1f4663"}, "tags": {"1.6.2--h986a166_0": "sha256:f01e8dd6820263da949de9bc873c8cdf0e6571e72649709fa261d4bea92aef42", "1.6.3--hf71abe7_0": "sha256:563fb920750814b0c38f5df438f9316988d6a222e2eee02b1f0273ab8078d86f", "1.6.3--h3c77e6d_1": "sha256:69f4b40458d18924914df6ffdd0169578d37cde5b92dc1844d400bf6da1f4663"}, "docker": "quay.io/biocontainers/ryuto", "aliases": {"ryuto": "/usr/local/bin/ryuto", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ryuto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ryuto", "latest": {"1.6.3--hb03c83d_2": "sha256:ccce8b73299f42b1c3f33d3054425f7752f1a58991a598f509f85f8c179e0a21"}, "tags": {"1.6.2--h986a166_0": "sha256:f01e8dd6820263da949de9bc873c8cdf0e6571e72649709fa261d4bea92aef42", "1.6.3--hf71abe7_0": "sha256:563fb920750814b0c38f5df438f9316988d6a222e2eee02b1f0273ab8078d86f", "1.6.3--h3c77e6d_1": "sha256:69f4b40458d18924914df6ffdd0169578d37cde5b92dc1844d400bf6da1f4663", "1.6.3--hb03c83d_2": "sha256:ccce8b73299f42b1c3f33d3054425f7752f1a58991a598f509f85f8c179e0a21"}, "docker": "quay.io/biocontainers/ryuto", "aliases": {"ryuto": "/usr/local/bin/ryuto", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ryuto.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/ryuto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ryuto:1.6.3--h3c77e6d_1
+$ shpc install quay.io/biocontainers/ryuto:1.6.3--hb03c83d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ryuto/1.6.3--h3c77e6d_1
-$ module help quay.io/biocontainers/ryuto/1.6.3--h3c77e6d_1
+$ module load quay.io/biocontainers/ryuto/1.6.3--hb03c83d_2
+$ module help quay.io/biocontainers/ryuto/1.6.3--hb03c83d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

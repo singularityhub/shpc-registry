@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shustring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shustring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shustring/container.yaml"
-updated_at: "2023-05-27 03:18:19.973949"
+updated_at: "2023-05-28 03:29:32.891169"
 latest: "2.6--hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/shustring"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plant_tribes_gene_family_integrator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plant_tribes_gene_family_integrator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_gene_family_integrator/container.yaml"
-updated_at: "2023-05-27 03:04:53.721057"
+updated_at: "2023-05-28 03:16:01.182017"
 latest: "1.0.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plant_tribes_gene_family_integrator"
 aliases:

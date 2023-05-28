@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/links"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/links/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/links/container.yaml"
-updated_at: "2023-05-27 02:58:52.934490"
-latest: "2.0.1--h9f5acd7_2"
+updated_at: "2023-05-28 03:09:56.287813"
+latest: "2.0.1--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/links"
 aliases:
  - "LINKS"
@@ -17,8 +17,9 @@ aliases:
  - "streamzip"
 versions:
  - "2.0.1--h9f5acd7_2"
+ - "2.0.1--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for links"
-config: {"url": "https://biocontainers.pro/tools/links", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for links", "latest": {"2.0.1--h9f5acd7_2": "sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f"}, "docker": "quay.io/biocontainers/links", "aliases": {"LINKS": "/usr/local/bin/LINKS", "LINKS-make": "/usr/local/bin/LINKS-make", "LINKS-make-real": "/usr/local/bin/LINKS-make-real", "LINKS.pl": "/usr/local/bin/LINKS.pl", "LINKS_CPP": "/usr/local/bin/LINKS_CPP", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/links", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for links", "latest": {"2.0.1--h4ac6f70_4": "sha256:934bad8ce0ecfbc443919dddf98d5e4117ea34ca8f9ffbfb2acd29b9c79360f3"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f", "2.0.1--h4ac6f70_4": "sha256:934bad8ce0ecfbc443919dddf98d5e4117ea34ca8f9ffbfb2acd29b9c79360f3"}, "docker": "quay.io/biocontainers/links", "aliases": {"LINKS": "/usr/local/bin/LINKS", "LINKS-make": "/usr/local/bin/LINKS-make", "LINKS-make-real": "/usr/local/bin/LINKS-make-real", "LINKS.pl": "/usr/local/bin/LINKS.pl", "LINKS_CPP": "/usr/local/bin/LINKS_CPP", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/links.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/links
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/links:2.0.1--h9f5acd7_2
+$ shpc install quay.io/biocontainers/links:2.0.1--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/links/2.0.1--h9f5acd7_2
-$ module help quay.io/biocontainers/links/2.0.1--h9f5acd7_2
+$ module load quay.io/biocontainers/links/2.0.1--h4ac6f70_4
+$ module help quay.io/biocontainers/links/2.0.1--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepmicro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmicro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmicro/container.yaml"
-updated_at: "2023-05-27 02:43:09.099134"
+updated_at: "2023-05-28 02:53:54.434052"
 latest: "1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepmicro"
 aliases:
