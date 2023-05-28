@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metilene
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metilene
 latest:
-  0.2.8--hec16e2b_2: sha256:a32860d56312ec89f0e1c0b522563b14462adca62c4eb080c7e688cd2266f90c
+  0.2.8--h031d066_3: sha256:2433d6b67256896664c1fb97aab8188ecb250e3d24d021e734a5a31986cc6135
 tags:
   0.2.8--hec16e2b_2: sha256:a32860d56312ec89f0e1c0b522563b14462adca62c4eb080c7e688cd2266f90c
+  0.2.8--h031d066_3: sha256:2433d6b67256896664c1fb97aab8188ecb250e3d24d021e734a5a31986cc6135
 docker: quay.io/biocontainers/metilene
 aliases:
   metilene: /usr/local/bin/metilene

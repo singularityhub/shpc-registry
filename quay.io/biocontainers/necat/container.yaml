@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/necat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for necat
 latest:
-  0.0.1_update20200803--h5b5514e_2: sha256:51a36bc071bd80444be836df03044d9fd09dfd3b78d59591487f5e873da9589a
+  0.0.1_update20200803--h43eeafb_4: sha256:30de3800a764847f55952a0398d88f13612b1d1f7d3fdf539b7d74c8debf7a27
 tags:
   0.0.1_update20200803--h5b5514e_2: sha256:51a36bc071bd80444be836df03044d9fd09dfd3b78d59591487f5e873da9589a
+  0.0.1_update20200803--h43eeafb_4: sha256:30de3800a764847f55952a0398d88f13612b1d1f7d3fdf539b7d74c8debf7a27
 docker: quay.io/biocontainers/necat
 aliases:
   necat: /usr/local/bin/necat

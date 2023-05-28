@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-smap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-smap
 latest:
-  1.62.0--r42hc0cfd56_0: sha256:f551e7ec16a6a7009cb0c4ffebfc3558e6024d8f64419d77832f037974bf7173
+  1.62.0--r42ha9d7317_2: sha256:626cba736f5809bd61d4db87650f5215bc61dff5b5920e89700b79ab5f588a28
 tags:
   1.58.0--r41hc0cfd56_2: sha256:1384d46caf273511d77051fef7fede290dcaa7178e378d81c8fb9fefd153ddbc
   1.62.0--r42hc0cfd56_0: sha256:f551e7ec16a6a7009cb0c4ffebfc3558e6024d8f64419d77832f037974bf7173
+  1.62.0--r42ha9d7317_2: sha256:626cba736f5809bd61d4db87650f5215bc61dff5b5920e89700b79ab5f588a28
 docker: quay.io/biocontainers/bioconductor-smap

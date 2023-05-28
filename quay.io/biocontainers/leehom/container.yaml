@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/leehom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for leehom
 latest:
-  1.2.15--ha267990_5: sha256:ff751239241b445f699abaf7f824080520f36cdb1ce2dac5eab7c1b8cfda6f9e
+  1.2.15--hdc46a4b_6: sha256:42323bcc1d6a017f17515bfbaeed248ea89ed03fb0ac0cec2b7aa131ff286106
 tags:
   1.2.15--he40e34d_4: sha256:e2ceba1a6cf41bf0bbfe5fa413970c3bdb9a33de5d1643744bdff48321f8f9c7
   1.2.15--ha267990_5: sha256:ff751239241b445f699abaf7f824080520f36cdb1ce2dac5eab7c1b8cfda6f9e
+  1.2.15--hdc46a4b_6: sha256:42323bcc1d6a017f17515bfbaeed248ea89ed03fb0ac0cec2b7aa131ff286106
 docker: quay.io/biocontainers/leehom
 aliases:
   leeHom: /usr/local/bin/leeHom

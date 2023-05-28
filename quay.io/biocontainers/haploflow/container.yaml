@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/haploflow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for haploflow
 latest:
-  1.0--h2df963e_1: sha256:1485875272bbe20ce2f994e9b5c161469eefb57bcf4b7526a4bdacfdc2940c2f
+  1.0--h376f1d3_3: sha256:ba2526a0e30a199fd5a793ce3b8f3ebdad1621037afe71ffcf385859d82b6220
 tags:
   1.0--h2df963e_1: sha256:1485875272bbe20ce2f994e9b5c161469eefb57bcf4b7526a4bdacfdc2940c2f
+  1.0--h376f1d3_3: sha256:ba2526a0e30a199fd5a793ce3b8f3ebdad1621037afe71ffcf385859d82b6220
 docker: quay.io/biocontainers/haploflow
 aliases:
   haploflow: /usr/local/bin/haploflow

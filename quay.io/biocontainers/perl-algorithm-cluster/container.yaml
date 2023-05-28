@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-algorithm-cluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-algorithm-cluster
 latest:
-  1.59--pl5321hec16e2b_1: sha256:2ca0fda843e189719d3231ae9cfb5e3e96a0ce6d32f328a31c66bdc217a57869
+  1.59--pl5321h031d066_3: sha256:f6fb854f3d13a2ea2543fd41ad5c89c072bf14192018eb48662ec8e12a439b4b
 tags:
   1.59--pl5321hec16e2b_1: sha256:2ca0fda843e189719d3231ae9cfb5e3e96a0ce6d32f328a31c66bdc217a57869
+  1.59--pl5321h031d066_3: sha256:f6fb854f3d13a2ea2543fd41ad5c89c072bf14192018eb48662ec8e12a439b4b
 docker: quay.io/biocontainers/perl-algorithm-cluster
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

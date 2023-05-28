@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/divvier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for divvier
 latest:
-  1.01--h5b5514e_2: sha256:b3484d47d0b889140177b6d3358d43fd9ede5273a69c0468932be30df64e0082
+  1.01--h5b5514e_3: sha256:996ecdf6416677fe77736aae9b4a48d3247758607ce03174f9a02d6fa45508cc
 tags:
   1.01--h5b5514e_2: sha256:b3484d47d0b889140177b6d3358d43fd9ede5273a69c0468932be30df64e0082
+  1.01--h5b5514e_3: sha256:996ecdf6416677fe77736aae9b4a48d3247758607ce03174f9a02d6fa45508cc
 docker: quay.io/biocontainers/divvier
 aliases:
   divvier: /usr/local/bin/divvier

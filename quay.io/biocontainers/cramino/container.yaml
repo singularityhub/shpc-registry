@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cramino
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cramino
 latest:
-  0.9.7--h1f4ba0c_0: sha256:e7f991ca405c3f613489a6e501225ab265ba39ae7b01e8cdedbdca2abcd26e9c
+  0.9.7--h5076881_2: sha256:314c0746d7a6b987e4677394bc810fcfffef0ff655da417c48dede27984965f2
 tags:
   0.9.7--h1f4ba0c_0: sha256:e7f991ca405c3f613489a6e501225ab265ba39ae7b01e8cdedbdca2abcd26e9c
+  0.9.7--h5076881_2: sha256:314c0746d7a6b987e4677394bc810fcfffef0ff655da417c48dede27984965f2
 docker: quay.io/biocontainers/cramino
 aliases:
   cramino: /usr/local/bin/cramino

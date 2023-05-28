@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/fermi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fermi
 latest:
-  1.1_r751_beta--h7132678_6: sha256:0fc81fba09a3d38d2888ede055023249e978247ad443b95517b855ddab570960
+  1.1_r751_beta--he4a0461_8: sha256:101a5a49890767bc612606d80238619b2c6c385abe3f784d0b1ac971bc54ea12
 tags:
   1.1_r751_beta--h7132678_6: sha256:0fc81fba09a3d38d2888ede055023249e978247ad443b95517b855ddab570960
+  1.1_r751_beta--he4a0461_8: sha256:101a5a49890767bc612606d80238619b2c6c385abe3f784d0b1ac971bc54ea12
 docker: quay.io/biocontainers/fermi

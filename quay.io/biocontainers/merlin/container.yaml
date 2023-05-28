@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/merlin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for merlin
 latest:
-  1.1.2--hd03093a_5: sha256:144620fb3de22d03342ec56cdf86770c4365da5f66b426e804b1ae343460c380
+  1.1.2--hdcf5f25_7: sha256:06a26eb9409dd01b91716025548cbac7d0b46be655aa01a066949bd40b464dec
 tags:
   1.1.2--hd03093a_5: sha256:144620fb3de22d03342ec56cdf86770c4365da5f66b426e804b1ae343460c380
+  1.1.2--hdcf5f25_7: sha256:06a26eb9409dd01b91716025548cbac7d0b46be655aa01a066949bd40b464dec
 docker: quay.io/biocontainers/merlin
 aliases:
   hapmapConverter: /usr/local/bin/hapmapConverter
