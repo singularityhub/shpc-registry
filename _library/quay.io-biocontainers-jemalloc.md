@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jemalloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jemalloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jemalloc/container.yaml"
-updated_at: "2023-05-29 03:18:09.116060"
+updated_at: "2023-05-29 04:39:17.960865"
 latest: "4.5.0--0"
 container_url: "https://biocontainers.pro/tools/jemalloc"
 aliases:

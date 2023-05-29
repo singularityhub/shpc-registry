@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mhcnames"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhcnames/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhcnames/container.yaml"
-updated_at: "2023-05-29 02:53:18.049742"
+updated_at: "2023-05-29 04:02:01.686684"
 latest: "0.4.8--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/mhcnames"
 aliases:

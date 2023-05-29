@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irescue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irescue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irescue/container.yaml"
-updated_at: "2023-05-29 02:55:10.828325"
+updated_at: "2023-05-29 04:04:51.189265"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/irescue"
 aliases:

@@ -4,7 +4,7 @@ name:  "mariadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mariadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mariadb/container.yaml"
-updated_at: "2023-05-29 03:25:05.277441"
+updated_at: "2023-05-29 04:49:41.855118"
 latest: "11.0-rc"
 container_url: "https://hub.docker.com/r/_/mariadb"
 aliases:

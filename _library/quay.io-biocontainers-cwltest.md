@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cwltest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cwltest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cwltest/container.yaml"
-updated_at: "2023-05-29 03:13:15.505771"
+updated_at: "2023-05-29 04:31:55.600480"
 latest: "2.2.20220521103021--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cwltest"
 aliases:
