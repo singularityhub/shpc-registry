@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/nrpys
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nrpys
+latest:
+  0.1.1--py310h8472f5a_0: sha256:3c28459ece0043f6b6c72d3db5bb2b1dd7a9eda9aa2e7f72374a31d1a0199d66
+tags:
+  0.1.1--py310h8472f5a_0: sha256:3c28459ece0043f6b6c72d3db5bb2b1dd7a9eda9aa2e7f72374a31d1a0199d66
+docker: quay.io/biocontainers/nrpys
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
