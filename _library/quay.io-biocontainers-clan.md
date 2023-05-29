@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clan/container.yaml"
-updated_at: "2023-05-28 03:16:02.694969"
-latest: "0.05--h9f5acd7_2"
+updated_at: "2023-05-29 03:10:37.510194"
+latest: "0.05--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/clan"
 aliases:
  - "clan_annotate"
@@ -14,8 +14,9 @@ aliases:
  - "clan_search"
 versions:
  - "0.05--h9f5acd7_2"
+ - "0.05--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for clan"
-config: {"url": "https://biocontainers.pro/tools/clan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clan", "latest": {"0.05--h9f5acd7_2": "sha256:c21ca23fea4efb0f2fdd1153236ae4e763e4c75e37f048182f296e6de1da4370"}, "tags": {"0.05--h9f5acd7_2": "sha256:c21ca23fea4efb0f2fdd1153236ae4e763e4c75e37f048182f296e6de1da4370"}, "docker": "quay.io/biocontainers/clan", "aliases": {"clan_annotate": "/usr/local/bin/clan_annotate", "clan_index": "/usr/local/bin/clan_index", "clan_output": "/usr/local/bin/clan_output", "clan_search": "/usr/local/bin/clan_search"}}
+config: {"url": "https://biocontainers.pro/tools/clan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clan", "latest": {"0.05--h4ac6f70_4": "sha256:1c13b1248732bb57e41352e987514c0d11fd3a0da9f0b912a60d20e159dc462e"}, "tags": {"0.05--h9f5acd7_2": "sha256:c21ca23fea4efb0f2fdd1153236ae4e763e4c75e37f048182f296e6de1da4370", "0.05--h4ac6f70_4": "sha256:1c13b1248732bb57e41352e987514c0d11fd3a0da9f0b912a60d20e159dc462e"}, "docker": "quay.io/biocontainers/clan", "aliases": {"clan_annotate": "/usr/local/bin/clan_annotate", "clan_index": "/usr/local/bin/clan_index", "clan_output": "/usr/local/bin/clan_output", "clan_search": "/usr/local/bin/clan_search"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clan.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/clan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clan:0.05--h9f5acd7_2
+$ shpc install quay.io/biocontainers/clan:0.05--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clan/0.05--h9f5acd7_2
-$ module help quay.io/biocontainers/clan/0.05--h9f5acd7_2
+$ module load quay.io/biocontainers/clan/0.05--h4ac6f70_4
+$ module help quay.io/biocontainers/clan/0.05--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/selam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selam/container.yaml"
-updated_at: "2023-05-28 02:48:48.093521"
-latest: "0.9--h5e66344_0"
+updated_at: "2023-05-29 02:44:02.401559"
+latest: "0.9--h0432e7c_2"
 container_url: "https://biocontainers.pro/tools/selam"
 aliases:
  - "SELAM"
  - "SELAM_STATS"
 versions:
  - "0.9--h5e66344_0"
+ - "0.9--h0432e7c_2"
 description: "singularity registry hpc automated addition for selam"
-config: {"url": "https://biocontainers.pro/tools/selam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for selam", "latest": {"0.9--h5e66344_0": "sha256:8198f72a7136a90900d0effd0aee9d7c4a2d5c24efec729ab4bf3ad9c6024927"}, "tags": {"0.9--h5e66344_0": "sha256:8198f72a7136a90900d0effd0aee9d7c4a2d5c24efec729ab4bf3ad9c6024927"}, "docker": "quay.io/biocontainers/selam", "aliases": {"SELAM": "/usr/local/bin/SELAM", "SELAM_STATS": "/usr/local/bin/SELAM_STATS"}}
+config: {"url": "https://biocontainers.pro/tools/selam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for selam", "latest": {"0.9--h0432e7c_2": "sha256:7ede757fed3993f42972fdd993ebdab601edce833bf6f15c88c2d500051d3aa4"}, "tags": {"0.9--h5e66344_0": "sha256:8198f72a7136a90900d0effd0aee9d7c4a2d5c24efec729ab4bf3ad9c6024927", "0.9--h0432e7c_2": "sha256:7ede757fed3993f42972fdd993ebdab601edce833bf6f15c88c2d500051d3aa4"}, "docker": "quay.io/biocontainers/selam", "aliases": {"SELAM": "/usr/local/bin/SELAM", "SELAM_STATS": "/usr/local/bin/SELAM_STATS"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/selam.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/selam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/selam:0.9--h5e66344_0
+$ shpc install quay.io/biocontainers/selam:0.9--h0432e7c_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/selam/0.9--h5e66344_0
-$ module help quay.io/biocontainers/selam/0.9--h5e66344_0
+$ module load quay.io/biocontainers/selam/0.9--h0432e7c_2
+$ module help quay.io/biocontainers/selam/0.9--h0432e7c_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

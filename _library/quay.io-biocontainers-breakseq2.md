@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/breakseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breakseq2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breakseq2/container.yaml"
-updated_at: "2023-05-28 03:09:43.807394"
+updated_at: "2023-05-29 03:04:27.561151"
 latest: "2.2--py27_2"
 container_url: "https://biocontainers.pro/tools/breakseq2"
 aliases:

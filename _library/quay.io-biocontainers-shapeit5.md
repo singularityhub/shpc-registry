@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shapeit5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapeit5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapeit5/container.yaml"
-updated_at: "2023-05-28 02:57:02.870056"
-latest: "1.0.0--h0c8ee15_0"
+updated_at: "2023-05-29 02:52:04.795581"
+latest: "5.1.1--hb60d31d_0"
 container_url: "https://biocontainers.pro/tools/shapeit5"
 aliases:
  - "SHAPEIT5_ligate"
@@ -17,8 +17,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0.0--h0c8ee15_0"
+ - "5.1.1--hb60d31d_0"
 description: "singularity registry hpc automated addition for shapeit5"
-config: {"url": "https://biocontainers.pro/tools/shapeit5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shapeit5", "latest": {"1.0.0--h0c8ee15_0": "sha256:000bdf6df6b10d5a6d284ab45ceb1eb9bd409781d5a4f62a401f7ceee82c5194"}, "tags": {"1.0.0--h0c8ee15_0": "sha256:000bdf6df6b10d5a6d284ab45ceb1eb9bd409781d5a4f62a401f7ceee82c5194"}, "docker": "quay.io/biocontainers/shapeit5", "aliases": {"SHAPEIT5_ligate": "/usr/local/bin/SHAPEIT5_ligate", "SHAPEIT5_phase_common": "/usr/local/bin/SHAPEIT5_phase_common", "SHAPEIT5_phase_rare": "/usr/local/bin/SHAPEIT5_phase_rare", "SHAPEIT5_switch": "/usr/local/bin/SHAPEIT5_switch", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/shapeit5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shapeit5", "latest": {"5.1.1--hb60d31d_0": "sha256:f91aff59fab017df5c017efbfba1f7abb8dca0beea86e2417d63f97df6aa800d"}, "tags": {"1.0.0--h0c8ee15_0": "sha256:000bdf6df6b10d5a6d284ab45ceb1eb9bd409781d5a4f62a401f7ceee82c5194", "5.1.1--hb60d31d_0": "sha256:f91aff59fab017df5c017efbfba1f7abb8dca0beea86e2417d63f97df6aa800d"}, "docker": "quay.io/biocontainers/shapeit5", "aliases": {"SHAPEIT5_ligate": "/usr/local/bin/SHAPEIT5_ligate", "SHAPEIT5_phase_common": "/usr/local/bin/SHAPEIT5_phase_common", "SHAPEIT5_phase_rare": "/usr/local/bin/SHAPEIT5_phase_rare", "SHAPEIT5_switch": "/usr/local/bin/SHAPEIT5_switch", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shapeit5.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/shapeit5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shapeit5:1.0.0--h0c8ee15_0
+$ shpc install quay.io/biocontainers/shapeit5:5.1.1--hb60d31d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shapeit5/1.0.0--h0c8ee15_0
-$ module help quay.io/biocontainers/shapeit5/1.0.0--h0c8ee15_0
+$ module load quay.io/biocontainers/shapeit5/5.1.1--hb60d31d_0
+$ module help quay.io/biocontainers/shapeit5/5.1.1--hb60d31d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

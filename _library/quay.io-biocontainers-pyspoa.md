@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyspoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyspoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyspoa/container.yaml"
-updated_at: "2023-05-28 03:09:35.513802"
-latest: "0.0.3--py39h67e14b5_3"
+updated_at: "2023-05-29 03:04:19.574595"
+latest: "0.0.3--py310h068649b_6"
 container_url: "https://biocontainers.pro/tools/pyspoa"
 aliases:
  - "2to3-3.9"
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.0.3--py39h67e14b5_3"
+ - "0.0.3--py310h068649b_6"
 description: "shpc-registry automated BioContainers addition for pyspoa"
-config: {"url": "https://biocontainers.pro/tools/pyspoa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyspoa", "latest": {"0.0.3--py39h67e14b5_3": "sha256:1149aa0fc68f54033020f3a57f78d5f7f2843cf44da20099f8d406232eb6dc06"}, "tags": {"0.0.3--py39h67e14b5_3": "sha256:1149aa0fc68f54033020f3a57f78d5f7f2843cf44da20099f8d406232eb6dc06"}, "docker": "quay.io/biocontainers/pyspoa", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyspoa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyspoa", "latest": {"0.0.3--py310h068649b_6": "sha256:c7dcbeed6726e2381b61856242eb9fcf4b72e48e884585df0003861e8df11e4b"}, "tags": {"0.0.3--py39h67e14b5_3": "sha256:1149aa0fc68f54033020f3a57f78d5f7f2843cf44da20099f8d406232eb6dc06", "0.0.3--py310h068649b_6": "sha256:c7dcbeed6726e2381b61856242eb9fcf4b72e48e884585df0003861e8df11e4b"}, "docker": "quay.io/biocontainers/pyspoa", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyspoa.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pyspoa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyspoa:0.0.3--py39h67e14b5_3
+$ shpc install quay.io/biocontainers/pyspoa:0.0.3--py310h068649b_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyspoa/0.0.3--py39h67e14b5_3
-$ module help quay.io/biocontainers/pyspoa/0.0.3--py39h67e14b5_3
+$ module load quay.io/biocontainers/pyspoa/0.0.3--py310h068649b_6
+$ module help quay.io/biocontainers/pyspoa/0.0.3--py310h068649b_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

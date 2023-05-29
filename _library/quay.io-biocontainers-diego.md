@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diego"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diego/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diego/container.yaml"
-updated_at: "2023-05-28 03:08:19.666108"
+updated_at: "2023-05-29 03:03:05.316064"
 latest: "0.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/diego"
 aliases:

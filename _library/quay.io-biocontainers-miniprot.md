@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/miniprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miniprot/container.yaml"
-updated_at: "2023-05-28 03:00:39.980400"
-latest: "0.11--h7132678_0"
+updated_at: "2023-05-29 02:55:37.821868"
+latest: "0.11--he4a0461_2"
 container_url: "https://biocontainers.pro/tools/miniprot"
 aliases:
  - "miniprot"
@@ -18,8 +18,9 @@ versions:
  - "0.10--h7132678_0"
  - "0.9--h7132678_0"
  - "0.8--h7132678_0"
+ - "0.11--he4a0461_2"
 description: "shpc-registry automated BioContainers addition for miniprot"
-config: {"url": "https://biocontainers.pro/tools/miniprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miniprot", "latest": {"0.11--h7132678_0": "sha256:17ea7efdb2f167f6817308fe590f14454b11b23394c971d419c7d3c5a85882da"}, "tags": {"0.4--h7132678_0": "sha256:f47e9f65bc7e6abcd7e1d73dc505a737bcac805514ab44f2d7aa1a97c7d95ebd", "0.5--h7132678_0": "sha256:f2470b9f18f7c6765547e4e1429f04166238454aa0625204ea73d217743e48d9", "0.7--h7132678_0": "sha256:f6b9122f4bc36cabea25c5c81f17711d37b60b235a6c3e8e04e5979e51079c5e", "0.6--h7132678_0": "sha256:81a3a45c40ccc3d8875d0f512654dc20b91aa9a6f2e8ec1962efdbc24a80226e", "0.11--h7132678_0": "sha256:17ea7efdb2f167f6817308fe590f14454b11b23394c971d419c7d3c5a85882da", "0.10--h7132678_0": "sha256:87dba9d874fe10419c821f93afcaf4e1e734b06d917c5363f800bbb248430915", "0.9--h7132678_0": "sha256:e06fc9044e12dfc5ead39e4876996cf2f1f62a5addccd8232838ea0a028b866e", "0.8--h7132678_0": "sha256:57e5837b0f7dd72ee1019020b6ebe5179c3a88a5245cd9b580015a2bf38225e8"}, "docker": "quay.io/biocontainers/miniprot", "aliases": {"miniprot": "/usr/local/bin/miniprot"}}
+config: {"url": "https://biocontainers.pro/tools/miniprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miniprot", "latest": {"0.11--he4a0461_2": "sha256:1958c9a031388ae33fc2f25adc29ea80ae917e13fc86b1d2d235481309f4d87a"}, "tags": {"0.4--h7132678_0": "sha256:f47e9f65bc7e6abcd7e1d73dc505a737bcac805514ab44f2d7aa1a97c7d95ebd", "0.5--h7132678_0": "sha256:f2470b9f18f7c6765547e4e1429f04166238454aa0625204ea73d217743e48d9", "0.7--h7132678_0": "sha256:f6b9122f4bc36cabea25c5c81f17711d37b60b235a6c3e8e04e5979e51079c5e", "0.6--h7132678_0": "sha256:81a3a45c40ccc3d8875d0f512654dc20b91aa9a6f2e8ec1962efdbc24a80226e", "0.11--h7132678_0": "sha256:17ea7efdb2f167f6817308fe590f14454b11b23394c971d419c7d3c5a85882da", "0.10--h7132678_0": "sha256:87dba9d874fe10419c821f93afcaf4e1e734b06d917c5363f800bbb248430915", "0.9--h7132678_0": "sha256:e06fc9044e12dfc5ead39e4876996cf2f1f62a5addccd8232838ea0a028b866e", "0.8--h7132678_0": "sha256:57e5837b0f7dd72ee1019020b6ebe5179c3a88a5245cd9b580015a2bf38225e8", "0.11--he4a0461_2": "sha256:1958c9a031388ae33fc2f25adc29ea80ae917e13fc86b1d2d235481309f4d87a"}, "docker": "quay.io/biocontainers/miniprot", "aliases": {"miniprot": "/usr/local/bin/miniprot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/miniprot.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/miniprot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/miniprot:0.11--h7132678_0
+$ shpc install quay.io/biocontainers/miniprot:0.11--he4a0461_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/miniprot/0.11--h7132678_0
-$ module help quay.io/biocontainers/miniprot/0.11--h7132678_0
+$ module load quay.io/biocontainers/miniprot/0.11--he4a0461_2
+$ module help quay.io/biocontainers/miniprot/0.11--he4a0461_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

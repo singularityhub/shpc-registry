@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/adpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adpred/container.yaml"
-updated_at: "2023-05-28 02:46:04.240344"
+updated_at: "2023-05-29 02:41:22.902735"
 latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/adpred"
 aliases:

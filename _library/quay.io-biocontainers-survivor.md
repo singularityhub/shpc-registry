@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/survivor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/survivor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/survivor/container.yaml"
-updated_at: "2023-05-28 03:09:31.456950"
-latest: "1.0.7--hd03093a_2"
+updated_at: "2023-05-29 03:04:15.670884"
+latest: "1.0.7--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/survivor"
 aliases:
  - "SURVIVOR"
 versions:
  - "1.0.7--hd03093a_2"
+ - "1.0.7--hdcf5f25_4"
 description: "shpc-registry automated BioContainers addition for survivor"
-config: {"url": "https://biocontainers.pro/tools/survivor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for survivor", "latest": {"1.0.7--hd03093a_2": "sha256:3ffd3f36743cb173a0938e5b13622508e4a358c039a4560bc4526e381e2c72b8"}, "tags": {"1.0.7--hd03093a_2": "sha256:3ffd3f36743cb173a0938e5b13622508e4a358c039a4560bc4526e381e2c72b8"}, "docker": "quay.io/biocontainers/survivor", "aliases": {"SURVIVOR": "/usr/local/bin/SURVIVOR"}}
+config: {"url": "https://biocontainers.pro/tools/survivor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for survivor", "latest": {"1.0.7--hdcf5f25_4": "sha256:5fc77af8408d251df2c53de2aa471a8cb0bb2c641bb76ee2dad588dd687068c0"}, "tags": {"1.0.7--hd03093a_2": "sha256:3ffd3f36743cb173a0938e5b13622508e4a358c039a4560bc4526e381e2c72b8", "1.0.7--hdcf5f25_4": "sha256:5fc77af8408d251df2c53de2aa471a8cb0bb2c641bb76ee2dad588dd687068c0"}, "docker": "quay.io/biocontainers/survivor", "aliases": {"SURVIVOR": "/usr/local/bin/SURVIVOR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/survivor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/survivor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/survivor:1.0.7--hd03093a_2
+$ shpc install quay.io/biocontainers/survivor:1.0.7--hdcf5f25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/survivor/1.0.7--hd03093a_2
-$ module help quay.io/biocontainers/survivor/1.0.7--hd03093a_2
+$ module load quay.io/biocontainers/survivor/1.0.7--hdcf5f25_4
+$ module help quay.io/biocontainers/survivor/1.0.7--hdcf5f25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

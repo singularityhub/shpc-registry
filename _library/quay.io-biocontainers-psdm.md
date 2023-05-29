@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psdm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psdm/container.yaml"
-updated_at: "2023-05-28 03:08:55.178435"
+updated_at: "2023-05-29 03:03:39.843046"
 latest: "0.2.0--h031d066_3"
 container_url: "https://biocontainers.pro/tools/psdm"
 aliases:

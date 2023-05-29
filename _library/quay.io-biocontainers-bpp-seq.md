@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bpp-seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-seq/container.yaml"
-updated_at: "2023-05-28 02:57:49.085100"
-latest: "2.4.1--h9f5acd7_3"
+updated_at: "2023-05-29 02:52:50.240111"
+latest: "2.4.1--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/bpp-seq"
 
 versions:
  - "2.4.1--h9f5acd7_3"
+ - "2.4.1--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for bpp-seq"
-config: {"url": "https://biocontainers.pro/tools/bpp-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-seq", "latest": {"2.4.1--h9f5acd7_3": "sha256:489c03f1fd004953f07ddb923b369de9dff640c1c72d6caff8e3abdfc06560ae"}, "tags": {"2.4.1--h9f5acd7_3": "sha256:489c03f1fd004953f07ddb923b369de9dff640c1c72d6caff8e3abdfc06560ae"}, "docker": "quay.io/biocontainers/bpp-seq"}
+config: {"url": "https://biocontainers.pro/tools/bpp-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-seq", "latest": {"2.4.1--h4ac6f70_4": "sha256:a7cc354a72275009f10d11cd9ed6f2b13b2dcdaf04547d78e6ce11ac79b1da39"}, "tags": {"2.4.1--h9f5acd7_3": "sha256:489c03f1fd004953f07ddb923b369de9dff640c1c72d6caff8e3abdfc06560ae", "2.4.1--h4ac6f70_4": "sha256:a7cc354a72275009f10d11cd9ed6f2b13b2dcdaf04547d78e6ce11ac79b1da39"}, "docker": "quay.io/biocontainers/bpp-seq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bpp-seq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bpp-seq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bpp-seq:2.4.1--h9f5acd7_3
+$ shpc install quay.io/biocontainers/bpp-seq:2.4.1--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bpp-seq/2.4.1--h9f5acd7_3
-$ module help quay.io/biocontainers/bpp-seq/2.4.1--h9f5acd7_3
+$ module load quay.io/biocontainers/bpp-seq/2.4.1--h4ac6f70_4
+$ module help quay.io/biocontainers/bpp-seq/2.4.1--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sevenbridges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sevenbridges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sevenbridges/container.yaml"
-updated_at: "2023-05-28 03:09:12.279363"
+updated_at: "2023-05-29 03:03:56.743316"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sevenbridges"
 

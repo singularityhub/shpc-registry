@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/naltorfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/naltorfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/naltorfs/container.yaml"
-updated_at: "2023-05-28 03:03:58.701356"
+updated_at: "2023-05-29 02:58:50.671418"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/naltorfs"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/haploflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploflow/container.yaml"
-updated_at: "2023-05-28 02:58:23.503172"
-latest: "1.0--h2df963e_1"
+updated_at: "2023-05-29 02:53:23.955018"
+latest: "1.0--h376f1d3_3"
 container_url: "https://biocontainers.pro/tools/haploflow"
 aliases:
  - "haploflow"
 versions:
  - "1.0--h2df963e_1"
+ - "1.0--h376f1d3_3"
 description: "shpc-registry automated BioContainers addition for haploflow"
-config: {"url": "https://biocontainers.pro/tools/haploflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploflow", "latest": {"1.0--h2df963e_1": "sha256:1485875272bbe20ce2f994e9b5c161469eefb57bcf4b7526a4bdacfdc2940c2f"}, "tags": {"1.0--h2df963e_1": "sha256:1485875272bbe20ce2f994e9b5c161469eefb57bcf4b7526a4bdacfdc2940c2f"}, "docker": "quay.io/biocontainers/haploflow", "aliases": {"haploflow": "/usr/local/bin/haploflow"}}
+config: {"url": "https://biocontainers.pro/tools/haploflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploflow", "latest": {"1.0--h376f1d3_3": "sha256:ba2526a0e30a199fd5a793ce3b8f3ebdad1621037afe71ffcf385859d82b6220"}, "tags": {"1.0--h2df963e_1": "sha256:1485875272bbe20ce2f994e9b5c161469eefb57bcf4b7526a4bdacfdc2940c2f", "1.0--h376f1d3_3": "sha256:ba2526a0e30a199fd5a793ce3b8f3ebdad1621037afe71ffcf385859d82b6220"}, "docker": "quay.io/biocontainers/haploflow", "aliases": {"haploflow": "/usr/local/bin/haploflow"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haploflow.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/haploflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haploflow:1.0--h2df963e_1
+$ shpc install quay.io/biocontainers/haploflow:1.0--h376f1d3_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haploflow/1.0--h2df963e_1
-$ module help quay.io/biocontainers/haploflow/1.0--h2df963e_1
+$ module load quay.io/biocontainers/haploflow/1.0--h376f1d3_3
+$ module help quay.io/biocontainers/haploflow/1.0--h376f1d3_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

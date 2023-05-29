@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/leehom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leehom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leehom/container.yaml"
-updated_at: "2023-05-28 02:47:50.491127"
-latest: "1.2.15--ha267990_5"
+updated_at: "2023-05-29 02:43:06.232042"
+latest: "1.2.15--hdc46a4b_6"
 container_url: "https://biocontainers.pro/tools/leehom"
 aliases:
  - "leeHom"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.2.15--he40e34d_4"
  - "1.2.15--ha267990_5"
+ - "1.2.15--hdc46a4b_6"
 description: "shpc-registry automated BioContainers addition for leehom"
-config: {"url": "https://biocontainers.pro/tools/leehom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leehom", "latest": {"1.2.15--ha267990_5": "sha256:ff751239241b445f699abaf7f824080520f36cdb1ce2dac5eab7c1b8cfda6f9e"}, "tags": {"1.2.15--he40e34d_4": "sha256:e2ceba1a6cf41bf0bbfe5fa413970c3bdb9a33de5d1643744bdff48321f8f9c7", "1.2.15--ha267990_5": "sha256:ff751239241b445f699abaf7f824080520f36cdb1ce2dac5eab7c1b8cfda6f9e"}, "docker": "quay.io/biocontainers/leehom", "aliases": {"leeHom": "/usr/local/bin/leeHom", "bamtools": "/usr/local/bin/bamtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/leehom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leehom", "latest": {"1.2.15--hdc46a4b_6": "sha256:42323bcc1d6a017f17515bfbaeed248ea89ed03fb0ac0cec2b7aa131ff286106"}, "tags": {"1.2.15--he40e34d_4": "sha256:e2ceba1a6cf41bf0bbfe5fa413970c3bdb9a33de5d1643744bdff48321f8f9c7", "1.2.15--ha267990_5": "sha256:ff751239241b445f699abaf7f824080520f36cdb1ce2dac5eab7c1b8cfda6f9e", "1.2.15--hdc46a4b_6": "sha256:42323bcc1d6a017f17515bfbaeed248ea89ed03fb0ac0cec2b7aa131ff286106"}, "docker": "quay.io/biocontainers/leehom", "aliases": {"leeHom": "/usr/local/bin/leeHom", "bamtools": "/usr/local/bin/bamtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/leehom.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/leehom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/leehom:1.2.15--ha267990_5
+$ shpc install quay.io/biocontainers/leehom:1.2.15--hdc46a4b_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/leehom/1.2.15--ha267990_5
-$ module help quay.io/biocontainers/leehom/1.2.15--ha267990_5
+$ module load quay.io/biocontainers/leehom/1.2.15--hdc46a4b_6
+$ module help quay.io/biocontainers/leehom/1.2.15--hdc46a4b_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/fermi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fermi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fermi/container.yaml"
-updated_at: "2023-05-28 02:44:28.708298"
-latest: "1.1_r751_beta--h7132678_6"
+updated_at: "2023-05-29 02:39:49.895813"
+latest: "1.1_r751_beta--he4a0461_8"
 container_url: "https://biocontainers.pro/tools/fermi"
 
 versions:
  - "1.1_r751_beta--h7132678_6"
+ - "1.1_r751_beta--he4a0461_8"
 description: "shpc-registry automated BioContainers addition for fermi"
-config: {"url": "https://biocontainers.pro/tools/fermi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fermi", "latest": {"1.1_r751_beta--h7132678_6": "sha256:0fc81fba09a3d38d2888ede055023249e978247ad443b95517b855ddab570960"}, "tags": {"1.1_r751_beta--h7132678_6": "sha256:0fc81fba09a3d38d2888ede055023249e978247ad443b95517b855ddab570960"}, "docker": "quay.io/biocontainers/fermi"}
+config: {"url": "https://biocontainers.pro/tools/fermi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fermi", "latest": {"1.1_r751_beta--he4a0461_8": "sha256:101a5a49890767bc612606d80238619b2c6c385abe3f784d0b1ac971bc54ea12"}, "tags": {"1.1_r751_beta--h7132678_6": "sha256:0fc81fba09a3d38d2888ede055023249e978247ad443b95517b855ddab570960", "1.1_r751_beta--he4a0461_8": "sha256:101a5a49890767bc612606d80238619b2c6c385abe3f784d0b1ac971bc54ea12"}, "docker": "quay.io/biocontainers/fermi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fermi.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/fermi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fermi:1.1_r751_beta--h7132678_6
+$ shpc install quay.io/biocontainers/fermi:1.1_r751_beta--he4a0461_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fermi/1.1_r751_beta--h7132678_6
-$ module help quay.io/biocontainers/fermi/1.1_r751_beta--h7132678_6
+$ module load quay.io/biocontainers/fermi/1.1_r751_beta--he4a0461_8
+$ module help quay.io/biocontainers/fermi/1.1_r751_beta--he4a0461_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

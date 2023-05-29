@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dialignr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dialignr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dialignr/container.yaml"
-updated_at: "2023-05-28 03:14:18.934996"
+updated_at: "2023-05-29 03:08:55.871541"
 latest: "2.6.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dialignr"
 aliases:

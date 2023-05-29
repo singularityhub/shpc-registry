@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svdss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svdss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svdss/container.yaml"
-updated_at: "2023-05-28 03:10:01.761607"
-latest: "1.0.5--h3bdd34f_1"
+updated_at: "2023-05-29 03:04:45.192755"
+latest: "1.0.5--h35345d1_2"
 container_url: "https://biocontainers.pro/tools/svdss"
 aliases:
  - "SVDSS"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.0.5--h5631e8c_0"
  - "1.0.5--h3bdd34f_1"
+ - "1.0.5--h35345d1_2"
 description: "singularity registry hpc automated addition for svdss"
-config: {"url": "https://biocontainers.pro/tools/svdss", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svdss", "latest": {"1.0.5--h3bdd34f_1": "sha256:48e3c9b876dd43ccb4f553c7af9c2b92d5d96bbe30fc096672cd5a55c9ba1f8a"}, "tags": {"1.0.5--h5631e8c_0": "sha256:2b2122c8e7d5a54e7e754e2cbbd1899b58c19fea85631705bc76ef112b78d073", "1.0.5--h3bdd34f_1": "sha256:48e3c9b876dd43ccb4f553c7af9c2b92d5d96bbe30fc096672cd5a55c9ba1f8a"}, "docker": "quay.io/biocontainers/svdss", "aliases": {"SVDSS": "/usr/local/bin/SVDSS", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/svdss", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svdss", "latest": {"1.0.5--h35345d1_2": "sha256:4c9cdc7cd6a77a61223abda3ddde73e4fc2735991a5ef3236d580c56f90268e1"}, "tags": {"1.0.5--h5631e8c_0": "sha256:2b2122c8e7d5a54e7e754e2cbbd1899b58c19fea85631705bc76ef112b78d073", "1.0.5--h3bdd34f_1": "sha256:48e3c9b876dd43ccb4f553c7af9c2b92d5d96bbe30fc096672cd5a55c9ba1f8a", "1.0.5--h35345d1_2": "sha256:4c9cdc7cd6a77a61223abda3ddde73e4fc2735991a5ef3236d580c56f90268e1"}, "docker": "quay.io/biocontainers/svdss", "aliases": {"SVDSS": "/usr/local/bin/SVDSS", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svdss.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/svdss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svdss:1.0.5--h3bdd34f_1
+$ shpc install quay.io/biocontainers/svdss:1.0.5--h35345d1_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svdss/1.0.5--h3bdd34f_1
-$ module help quay.io/biocontainers/svdss/1.0.5--h3bdd34f_1
+$ module load quay.io/biocontainers/svdss/1.0.5--h35345d1_2
+$ module help quay.io/biocontainers/svdss/1.0.5--h35345d1_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

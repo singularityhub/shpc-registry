@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqmap/container.yaml"
-updated_at: "2023-05-28 02:51:27.937650"
+updated_at: "2023-05-29 02:46:37.510798"
 latest: "1.0.13--hc9558a2_1"
 container_url: "https://biocontainers.pro/tools/seqmap"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phanotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phanotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phanotate/container.yaml"
-updated_at: "2023-05-28 03:02:32.163310"
-latest: "1.5.1--hc16433a_0"
+updated_at: "2023-05-29 02:57:26.637427"
+latest: "1.5.1--h2494328_1"
 container_url: "https://biocontainers.pro/tools/phanotate"
 aliases:
  - "EukHighConfidenceFilter"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "1.5.0--hc16433a_2"
  - "1.5.1--hc16433a_0"
+ - "1.5.1--h2494328_1"
 description: "shpc-registry automated BioContainers addition for phanotate"
-config: {"url": "https://biocontainers.pro/tools/phanotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phanotate", "latest": {"1.5.1--hc16433a_0": "sha256:e0f97d2fa664f605223b16b34ebdd04e838f6a018d3a367766128020eac9035f"}, "tags": {"1.5.0--hc16433a_2": "sha256:27e891bbc6ba3809c74389b3871538d751455fe59d69dc4168e5374dd70a4f59", "1.5.1--hc16433a_0": "sha256:e0f97d2fa664f605223b16b34ebdd04e838f6a018d3a367766128020eac9035f"}, "docker": "quay.io/biocontainers/phanotate", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "phanotate.py": "/usr/local/bin/phanotate.py", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/phanotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phanotate", "latest": {"1.5.1--h2494328_1": "sha256:1b52ae08f4dd57380299b7bbbd49e967a0212849646f184aa34f06691ff8054a"}, "tags": {"1.5.0--hc16433a_2": "sha256:27e891bbc6ba3809c74389b3871538d751455fe59d69dc4168e5374dd70a4f59", "1.5.1--hc16433a_0": "sha256:e0f97d2fa664f605223b16b34ebdd04e838f6a018d3a367766128020eac9035f", "1.5.1--h2494328_1": "sha256:1b52ae08f4dd57380299b7bbbd49e967a0212849646f184aa34f06691ff8054a"}, "docker": "quay.io/biocontainers/phanotate", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "phanotate.py": "/usr/local/bin/phanotate.py", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phanotate.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/phanotate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phanotate:1.5.1--hc16433a_0
+$ shpc install quay.io/biocontainers/phanotate:1.5.1--h2494328_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phanotate/1.5.1--hc16433a_0
-$ module help quay.io/biocontainers/phanotate/1.5.1--hc16433a_0
+$ module load quay.io/biocontainers/phanotate/1.5.1--h2494328_1
+$ module help quay.io/biocontainers/phanotate/1.5.1--h2494328_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

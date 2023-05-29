@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/necat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/necat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/necat/container.yaml"
-updated_at: "2023-05-28 03:15:01.904556"
-latest: "0.0.1_update20200803--h5b5514e_2"
+updated_at: "2023-05-29 03:09:37.944404"
+latest: "0.0.1_update20200803--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/necat"
 aliases:
  - "necat"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.0.1_update20200803--h5b5514e_2"
+ - "0.0.1_update20200803--h43eeafb_4"
 description: "shpc-registry automated BioContainers addition for necat"
-config: {"url": "https://biocontainers.pro/tools/necat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for necat", "latest": {"0.0.1_update20200803--h5b5514e_2": "sha256:51a36bc071bd80444be836df03044d9fd09dfd3b78d59591487f5e873da9589a"}, "tags": {"0.0.1_update20200803--h5b5514e_2": "sha256:51a36bc071bd80444be836df03044d9fd09dfd3b78d59591487f5e873da9589a"}, "docker": "quay.io/biocontainers/necat", "aliases": {"necat": "/usr/local/bin/necat", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/necat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for necat", "latest": {"0.0.1_update20200803--h43eeafb_4": "sha256:30de3800a764847f55952a0398d88f13612b1d1f7d3fdf539b7d74c8debf7a27"}, "tags": {"0.0.1_update20200803--h5b5514e_2": "sha256:51a36bc071bd80444be836df03044d9fd09dfd3b78d59591487f5e873da9589a", "0.0.1_update20200803--h43eeafb_4": "sha256:30de3800a764847f55952a0398d88f13612b1d1f7d3fdf539b7d74c8debf7a27"}, "docker": "quay.io/biocontainers/necat", "aliases": {"necat": "/usr/local/bin/necat", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/necat.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/necat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/necat:0.0.1_update20200803--h5b5514e_2
+$ shpc install quay.io/biocontainers/necat:0.0.1_update20200803--h43eeafb_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/necat/0.0.1_update20200803--h5b5514e_2
-$ module help quay.io/biocontainers/necat/0.0.1_update20200803--h5b5514e_2
+$ module load quay.io/biocontainers/necat/0.0.1_update20200803--h43eeafb_4
+$ module help quay.io/biocontainers/necat/0.0.1_update20200803--h43eeafb_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

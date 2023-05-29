@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-statistics-caseresampling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-statistics-caseresampling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-statistics-caseresampling/container.yaml"
-updated_at: "2023-05-28 03:13:54.672342"
-latest: "0.15--pl5321hec16e2b_2"
+updated_at: "2023-05-29 03:08:32.133667"
+latest: "0.15--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/perl-statistics-caseresampling"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.15--pl5321hec16e2b_2"
+ - "0.15--pl5321h031d066_4"
 description: "shpc-registry automated BioContainers addition for perl-statistics-caseresampling"
-config: {"url": "https://biocontainers.pro/tools/perl-statistics-caseresampling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-statistics-caseresampling", "latest": {"0.15--pl5321hec16e2b_2": "sha256:ee5d83d66f85ae89b541ec987237039b735bcdcc88b65cb997c40cdbd90d1042"}, "tags": {"0.15--pl5321hec16e2b_2": "sha256:ee5d83d66f85ae89b541ec987237039b735bcdcc88b65cb997c40cdbd90d1042"}, "docker": "quay.io/biocontainers/perl-statistics-caseresampling", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-statistics-caseresampling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-statistics-caseresampling", "latest": {"0.15--pl5321h031d066_4": "sha256:00a9a3416b198a9d70599b370c1879045d8eea5ebdf4ecde8294b28f3f443cf7"}, "tags": {"0.15--pl5321hec16e2b_2": "sha256:ee5d83d66f85ae89b541ec987237039b735bcdcc88b65cb997c40cdbd90d1042", "0.15--pl5321h031d066_4": "sha256:00a9a3416b198a9d70599b370c1879045d8eea5ebdf4ecde8294b28f3f443cf7"}, "docker": "quay.io/biocontainers/perl-statistics-caseresampling", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-statistics-caseresampling.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-statistics-caseresampling
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-statistics-caseresampling:0.15--pl5321hec16e2b_2
+$ shpc install quay.io/biocontainers/perl-statistics-caseresampling:0.15--pl5321h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-statistics-caseresampling/0.15--pl5321hec16e2b_2
-$ module help quay.io/biocontainers/perl-statistics-caseresampling/0.15--pl5321hec16e2b_2
+$ module load quay.io/biocontainers/perl-statistics-caseresampling/0.15--pl5321h031d066_4
+$ module help quay.io/biocontainers/perl-statistics-caseresampling/0.15--pl5321h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

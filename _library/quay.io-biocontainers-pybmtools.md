@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybmtools/container.yaml"
-updated_at: "2023-05-28 03:19:31.479744"
-latest: "0.1.3--py39h792ddb7_0"
+updated_at: "2023-05-29 03:14:01.217050"
+latest: "0.1.3--py310h79000e5_1"
 container_url: "https://biocontainers.pro/tools/pybmtools"
 aliases:
  - "f2py3.9"
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1.3--py39h792ddb7_0"
+ - "0.1.3--py310h79000e5_1"
 description: "singularity registry hpc automated addition for pybmtools"
-config: {"url": "https://biocontainers.pro/tools/pybmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybmtools", "latest": {"0.1.3--py39h792ddb7_0": "sha256:cff254b0bb0dd8041f3b43678ed66a477f87d7b72d526a6a474f3e374ccb3d94"}, "tags": {"0.1.3--py39h792ddb7_0": "sha256:cff254b0bb0dd8041f3b43678ed66a477f87d7b72d526a6a474f3e374ccb3d94"}, "docker": "quay.io/biocontainers/pybmtools", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybmtools", "latest": {"0.1.3--py310h79000e5_1": "sha256:22cf5aa299f2e6b8ac8a4b0331b85183a971349cd8b8aed1fa256b78276f7d31"}, "tags": {"0.1.3--py39h792ddb7_0": "sha256:cff254b0bb0dd8041f3b43678ed66a477f87d7b72d526a6a474f3e374ccb3d94", "0.1.3--py310h79000e5_1": "sha256:22cf5aa299f2e6b8ac8a4b0331b85183a971349cd8b8aed1fa256b78276f7d31"}, "docker": "quay.io/biocontainers/pybmtools", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybmtools.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pybmtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybmtools:0.1.3--py39h792ddb7_0
+$ shpc install quay.io/biocontainers/pybmtools:0.1.3--py310h79000e5_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybmtools/0.1.3--py39h792ddb7_0
-$ module help quay.io/biocontainers/pybmtools/0.1.3--py39h792ddb7_0
+$ module load quay.io/biocontainers/pybmtools/0.1.3--py310h79000e5_1
+$ module help quay.io/biocontainers/pybmtools/0.1.3--py310h79000e5_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

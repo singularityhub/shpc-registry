@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xhmm/container.yaml"
-updated_at: "2023-05-28 03:10:50.532928"
+updated_at: "2023-05-29 03:05:32.804417"
 latest: "0.0.0.2016_01_04.cc14e52--hc5fcd1e_4"
 container_url: "https://biocontainers.pro/tools/xhmm"
 aliases:
