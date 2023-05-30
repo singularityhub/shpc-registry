@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segway/container.yaml"
-updated_at: "2023-05-30 03:23:25.155203"
+updated_at: "2023-05-30 18:15:38.729941"
 latest: "3.0.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/segway"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydmtools/container.yaml"
-updated_at: "2023-05-30 02:48:37.415902"
+updated_at: "2023-05-30 17:29:00.494975"
 latest: "0.1.1--py37hdc12a6d_0"
 container_url: "https://biocontainers.pro/tools/pydmtools"
 aliases:
