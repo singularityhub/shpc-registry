@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-smartsva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-smartsva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-smartsva/container.yaml"
-updated_at: "2023-05-29 03:44:06.095506"
+updated_at: "2023-05-30 02:41:14.757621"
 latest: "0.1.3--r42hecf12ef_6"
 container_url: "https://biocontainers.pro/tools/r-smartsva"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plassembler/container.yaml"
-updated_at: "2023-05-29 03:56:33.766565"
+updated_at: "2023-05-30 02:49:30.943737"
 latest: "1.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plassembler"
 aliases:

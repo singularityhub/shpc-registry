@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nbsplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nbsplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nbsplice/container.yaml"
-updated_at: "2023-05-29 04:35:21.036974"
+updated_at: "2023-05-30 03:14:55.589040"
 latest: "1.15.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nbsplice"
 aliases:

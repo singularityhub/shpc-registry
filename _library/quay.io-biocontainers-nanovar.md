@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanovar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanovar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanovar/container.yaml"
-updated_at: "2023-05-29 04:26:48.262250"
+updated_at: "2023-05-30 03:09:20.624988"
 latest: "1.4.1--py37h8902056_1"
 container_url: "https://biocontainers.pro/tools/nanovar"
 aliases:
