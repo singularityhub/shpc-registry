@@ -8,7 +8,7 @@ tags:
   '3.0a9': sha256:d6fcadbfb948b2e92285cd12ce8e06c184c370a370fdc6aec52e3099da64d66b 
 aliases:
 - name: charmrun  
-  command: charmrun
+  command: /opt/namd/bin/charmrun
 - name: namd3
-  command: namd3
+  command: /opt/namd/bin/namd3
 

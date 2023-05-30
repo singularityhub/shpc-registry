@@ -9,5 +9,5 @@ tags:
   '2021.5.14_121': sha256:9479772560d24d31ef8f006e558a8a57b67ee1034776b061be5200cf3d92d9d6
 aliases:
 - name: lmp 
-  command: lmp 
+  command: /opt/lammps/bin/lmp
 

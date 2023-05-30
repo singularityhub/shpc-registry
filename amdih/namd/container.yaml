@@ -9,7 +9,7 @@ tags:
   '2.15a2': sha256:f516c3a214bdcbabbf8d0302872ecf4f9904a3a99415f2ee597c1a02721366d6
 aliases:
 - name: charmrun  
-  command: charmrun
+  command: /opt/namd/bin/charmrun
 - name: namd2
-  command: namd2
+  command: /opt/namd/bin/namd2
 
