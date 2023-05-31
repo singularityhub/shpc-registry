@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathogen-profiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathogen-profiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathogen-profiler/container.yaml"
-updated_at: "2023-05-30 17:42:03.227941"
+updated_at: "2023-05-31 03:14:08.236237"
 latest: "2.0.4--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/pathogen-profiler"
 aliases:

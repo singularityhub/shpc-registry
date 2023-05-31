@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-eval-closure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-eval-closure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-eval-closure/container.yaml"
-updated_at: "2023-05-30 17:29:08.911974"
+updated_at: "2023-05-31 03:04:23.599795"
 latest: "0.14--pl5321h9f5acd7_6"
 container_url: "https://biocontainers.pro/tools/perl-eval-closure"
 aliases:

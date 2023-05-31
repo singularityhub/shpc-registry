@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/watchdog-wms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/watchdog-wms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/watchdog-wms/container.yaml"
-updated_at: "2023-05-30 18:16:18.569526"
+updated_at: "2023-05-31 03:40:13.809539"
 latest: "2.0.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/watchdog-wms"
 aliases:

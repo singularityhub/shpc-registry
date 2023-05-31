@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-slqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-slqpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-slqpcr/container.yaml"
-updated_at: "2023-05-30 17:59:18.506556"
+updated_at: "2023-05-31 03:27:16.259008"
 latest: "1.64.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-slqpcr"
 

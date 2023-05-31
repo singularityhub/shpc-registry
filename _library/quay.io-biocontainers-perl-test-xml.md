@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-xml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-xml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-xml/container.yaml"
-updated_at: "2023-05-30 17:48:00.511236"
+updated_at: "2023-05-31 03:18:37.988097"
 latest: "0.08--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-test-xml"
 aliases:
