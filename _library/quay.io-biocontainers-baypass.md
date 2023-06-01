@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baypass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baypass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baypass/container.yaml"
-updated_at: "2023-05-31 03:28:06.681353"
+updated_at: "2023-06-01 03:15:29.507085"
 latest: "2.31--h1107714_0"
 container_url: "https://biocontainers.pro/tools/baypass"
 aliases:

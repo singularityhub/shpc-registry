@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hgu133b.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgu133b.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu133b.db/container.yaml"
-updated_at: "2023-05-31 03:18:25.072410"
+updated_at: "2023-06-01 03:58:50.858460"
 latest: "3.13.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgu133b.db"
 aliases:

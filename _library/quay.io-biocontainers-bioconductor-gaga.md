@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gaga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gaga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gaga/container.yaml"
-updated_at: "2023-05-31 03:38:41.754920"
+updated_at: "2023-06-01 03:20:39.956951"
 latest: "2.44.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gaga"
 

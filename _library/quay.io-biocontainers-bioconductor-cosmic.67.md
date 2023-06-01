@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cosmic.67"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosmic.67/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosmic.67/container.yaml"
-updated_at: "2023-05-31 03:29:30.664752"
+updated_at: "2023-06-01 03:43:17.820848"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosmic.67"
 
