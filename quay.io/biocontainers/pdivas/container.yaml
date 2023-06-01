@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/pdivas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pdivas
+latest:
+  1.1.0--pyh7cba7a3_0: sha256:4b8ee67b924d17da80350c5e12d7d3f3427952c64c4c43d33044a4e685e42867
+tags:
+  1.1.0--pyh7cba7a3_0: sha256:4b8ee67b924d17da80350c5e12d7d3f3427952c64c4c43d33044a4e685e42867
+docker: quay.io/biocontainers/pdivas
+aliases:
+  pdivas: /usr/local/bin/pdivas
+  cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

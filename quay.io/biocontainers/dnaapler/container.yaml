@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/dnaapler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dnaapler
+latest:
+  0.1.0--pyhdfd78af_0: sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66
+tags:
+  0.1.0--pyhdfd78af_0: sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66
+docker: quay.io/biocontainers/dnaapler
+aliases:
+  dnaapler: /usr/local/bin/dnaapler
+  pyrodigal: /usr/local/bin/pyrodigal
+  test_pcre: /usr/local/bin/test_pcre
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns
+  snp2hgvs: /usr/local/bin/snp2hgvs
+  snp2tbl: /usr/local/bin/snp2tbl
+  sort-table: /usr/local/bin/sort-table
+  spdi2tbl: /usr/local/bin/spdi2tbl
+  split-at-intron: /usr/local/bin/split-at-intron
+  tbl2xml: /usr/local/bin/tbl2xml
+  transmute.Linux: /usr/local/bin/transmute.Linux
