@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/cpc2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cpc2
+latest:
+  1.0.1--hdfd78af_0: sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80
+tags:
+  1.0.1--hdfd78af_0: sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80
+docker: quay.io/biocontainers/cpc2
+aliases:
+  CPC2.py: /usr/local/bin/CPC2.py
+  compress.py: /usr/local/bin/compress.py
+  seqio.py: /usr/local/bin/seqio.py
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
