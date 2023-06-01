@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ddrage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ddrage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ddrage/container.yaml"
-updated_at: "2023-06-01 03:53:21.790548"
+updated_at: "2023-06-01 03:35:33.589999"
 latest: "1.7.1--py_0"
 container_url: "https://biocontainers.pro/tools/ddrage"
 

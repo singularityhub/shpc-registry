@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-walk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-walk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-walk/container.yaml"
-updated_at: "2023-06-01 03:56:09.018443"
+updated_at: "2023-06-01 04:04:04.400574"
 latest: "2.01--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-data-walk"
 aliases:

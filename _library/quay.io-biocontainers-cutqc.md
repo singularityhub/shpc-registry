@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cutqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutqc/container.yaml"
-updated_at: "2023-06-01 03:15:00.027567"
+updated_at: "2023-06-01 03:54:08.612343"
 latest: "0.07--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cutqc"
 aliases:

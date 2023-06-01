@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/leviosam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leviosam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leviosam/container.yaml"
-updated_at: "2023-06-01 03:26:29.921184"
+updated_at: "2023-06-01 03:59:52.198778"
 latest: "5.2.1--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/leviosam"
 aliases:

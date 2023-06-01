@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hicstuff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicstuff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicstuff/container.yaml"
-updated_at: "2023-06-01 03:29:57.325224"
+updated_at: "2023-06-01 03:29:45.932427"
 latest: "3.1.5--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/hicstuff"
 aliases:
