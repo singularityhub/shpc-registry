@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/psass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for psass
 latest:
-  3.1.0--h468198e_2: sha256:19ed3f73a1de04d740ea6acf36737cbf3776e1706c0a8ffb7b07a3596090db38
+  3.1.0--hf5e1c6e_4: sha256:d63417c762923ae9da7c20e2c11ebb8cdfcae7059c5a5916db18f99f0848a088
 tags:
   3.1.0--h468198e_2: sha256:19ed3f73a1de04d740ea6acf36737cbf3776e1706c0a8ffb7b07a3596090db38
+  3.1.0--hf5e1c6e_4: sha256:d63417c762923ae9da7c20e2c11ebb8cdfcae7059c5a5916db18f99f0848a088
 docker: quay.io/biocontainers/psass
 aliases:
   psass: /usr/local/bin/psass

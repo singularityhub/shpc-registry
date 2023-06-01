@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/r-samr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-samr
 latest:
-  3.0--r42hec16e2b_6: sha256:598dcdf87e158d871857594b289b8a378758bc4cd0f1024efb2eba6a9ea08e95
+  3.0--r42h031d066_7: sha256:3479c46b04e9d2e47876ffa2b134c79aa1e329cf42b3f96fb3def2b2e359d1a5
 tags:
   3.0--r41hec16e2b_5: sha256:a239cf260718c3285f25d9a3954d246dfd2bc6ed44826843720a0dbb45d95f68
   3.0--r42hec16e2b_6: sha256:598dcdf87e158d871857594b289b8a378758bc4cd0f1024efb2eba6a9ea08e95
+  3.0--r42h031d066_7: sha256:3479c46b04e9d2e47876ffa2b134c79aa1e329cf42b3f96fb3def2b2e359d1a5
 docker: quay.io/biocontainers/r-samr

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fasta_ushuffle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fasta_ushuffle
 latest:
-  0.2--hec16e2b_4: sha256:fbd097083ae7a15580446ca860d6324f7ed736ff0dfad79490a3d05cacea1f23
+  0.2--h031d066_6: sha256:8b682bdbce9c1dbcecc19a57db54e70c51c10bb13e147d1a6eab430cd01c0371
 tags:
   0.2--hec16e2b_4: sha256:fbd097083ae7a15580446ca860d6324f7ed736ff0dfad79490a3d05cacea1f23
+  0.2--h031d066_6: sha256:8b682bdbce9c1dbcecc19a57db54e70c51c10bb13e147d1a6eab430cd01c0371
 docker: quay.io/biocontainers/fasta_ushuffle
 aliases:
   fasta_ushuffle: /usr/local/bin/fasta_ushuffle

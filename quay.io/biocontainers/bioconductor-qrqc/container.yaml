@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-qrqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qrqc
 latest:
-  1.52.0--r42hc0cfd56_0: sha256:550b242f58c032995187ac2026df27ba647abfb74f22bfce761eaf941e129ea7
+  1.52.0--r42ha9d7317_1: sha256:4593a5006a6e7fb079370c35f118bde0c29b8dae7aefd5100c04fc46fd22931d
 tags:
   1.48.0--r41hc0cfd56_2: sha256:5a7238717a8fc2c737d0cd1e533234769e7fcb59f450cf93d1ae715ab4e34b7d
   1.52.0--r42hc0cfd56_0: sha256:550b242f58c032995187ac2026df27ba647abfb74f22bfce761eaf941e129ea7
+  1.52.0--r42ha9d7317_1: sha256:4593a5006a6e7fb079370c35f118bde0c29b8dae7aefd5100c04fc46fd22931d
 docker: quay.io/biocontainers/bioconductor-qrqc

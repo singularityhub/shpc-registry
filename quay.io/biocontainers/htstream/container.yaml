@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/htstream
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for htstream
 latest:
-  1.3.3--h39f6147_2: sha256:9a6dfe01cf8c656645abb2c430c529cab66cd9652ba3d1c5f4d1bfc1d9b4f650
+  1.3.3--he82b154_4: sha256:77d16606afea262612acc312bb3d08f2a8cfbc80d1de3ac8aac73edc5a0a7e8b
 tags:
   1.3.3--h39f6147_2: sha256:9a6dfe01cf8c656645abb2c430c529cab66cd9652ba3d1c5f4d1bfc1d9b4f650
+  1.3.3--he82b154_4: sha256:77d16606afea262612acc312bb3d08f2a8cfbc80d1de3ac8aac73edc5a0a7e8b
 docker: quay.io/biocontainers/htstream
 aliases:
   hts_AdapterTrimmer: /usr/local/bin/hts_AdapterTrimmer

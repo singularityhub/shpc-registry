@@ -1,13 +1,14 @@
 docker: amdih/namd3
-url: https://www.amd.com/en/technologies/infinity-hub/namd 
-description: NAMD is a molecular dynamics package designed for simulating the movement of biomolecules over time. 
-maintainer: "@cristiandipietrantonio"
+url: https://www.amd.com/en/technologies/infinity-hub/namd
+description: NAMD is a molecular dynamics package designed for simulating the movement
+  of biomolecules over time.
+maintainer: '@cristiandipietrantonio'
 latest:
-  '3.0a9': sha256:d6fcadbfb948b2e92285cd12ce8e06c184c370a370fdc6aec52e3099da64d66b 
+  3.0a9: sha256:d6fcadbfb948b2e92285cd12ce8e06c184c370a370fdc6aec52e3099da64d66b
 tags:
-  '3.0a9': sha256:d6fcadbfb948b2e92285cd12ce8e06c184c370a370fdc6aec52e3099da64d66b 
+  3.0a9: sha256:d6fcadbfb948b2e92285cd12ce8e06c184c370a370fdc6aec52e3099da64d66b
 aliases:
-- name: charmrun  
+- name: charmrun
   command: /opt/namd/bin/charmrun
 - name: namd3
   command: /opt/namd/bin/namd3

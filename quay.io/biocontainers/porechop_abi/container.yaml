@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/porechop_abi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for porechop_abi
 latest:
-  0.5.0--py39h6935b12_0: sha256:818644f677de42bcc5b39aa2bff63ca7487823d67aa0cbcbd06e8590adba44fc
+  0.5.0--py310h2b6aa90_2: sha256:6422fdb833aff59574b946f92f7d8eb7f49ff13ac76591a2cfc79a9b335d153f
 tags:
   0.5.0--py39h6935b12_0: sha256:818644f677de42bcc5b39aa2bff63ca7487823d67aa0cbcbd06e8590adba44fc
+  0.5.0--py310h2b6aa90_2: sha256:6422fdb833aff59574b946f92f7d8eb7f49ff13ac76591a2cfc79a9b335d153f
 docker: quay.io/biocontainers/porechop_abi
 aliases:
   porechop_abi: /usr/local/bin/porechop_abi

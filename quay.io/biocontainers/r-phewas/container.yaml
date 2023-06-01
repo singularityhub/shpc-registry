@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/r-phewas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-phewas
 latest:
-  0.12.1--r42hb2e0dee_5: sha256:35f67ae0f71b6f20c1fc80dec89d8d365635fb832f4c289c3b3cff6469c289ab
+  0.12.1--r42haf399aa_7: sha256:3b6a56802ed9fc47bc36f4029f5482624892337c64ffce178666aba8c807e28f
 tags:
   0.12.1--r41hb2e0dee_4: sha256:c69fd88cfedca31216d3959e4e1977466424ffc77b82c9b5b793c921bcbe8540
   0.12.1--r42hb2e0dee_5: sha256:35f67ae0f71b6f20c1fc80dec89d8d365635fb832f4c289c3b3cff6469c289ab
+  0.12.1--r42haf399aa_7: sha256:3b6a56802ed9fc47bc36f4029f5482624892337c64ffce178666aba8c807e28f
 docker: quay.io/biocontainers/r-phewas

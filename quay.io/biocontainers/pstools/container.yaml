@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pstools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pstools
 latest:
-  0.2a3--hd03093a_1: sha256:1bea826891be47ef54403e8c67f759f35645aca366d73669e99c131014738c35
+  0.2a3--hdcf5f25_3: sha256:1c1d55dc8f8165b8a79f5554ae2aacc138ba289adc48cef75ce1c4a5555e9ebc
 tags:
   0.2a3--hd03093a_1: sha256:1bea826891be47ef54403e8c67f759f35645aca366d73669e99c131014738c35
+  0.2a3--hdcf5f25_3: sha256:1c1d55dc8f8165b8a79f5554ae2aacc138ba289adc48cef75ce1c4a5555e9ebc
 docker: quay.io/biocontainers/pstools
 aliases:
   pstools: /usr/local/bin/pstools

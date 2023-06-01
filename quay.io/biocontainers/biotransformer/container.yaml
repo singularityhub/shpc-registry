@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biotransformer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biotransformer
 latest:
-  3.0--hdfd78af_0: sha256:e111d4c5fcea251363d8126c75e70012d1ba494d72accc6e102f4cb645c6cddd
+  3.0.20230403--hdfd78af_0: sha256:b4c9d646c55b27ca0fe06b4f5e149deec874e93def46d15b6cd5236c64f79f6e
 tags:
   3.0--hdfd78af_0: sha256:e111d4c5fcea251363d8126c75e70012d1ba494d72accc6e102f4cb645c6cddd
+  3.0.20230403--hdfd78af_0: sha256:b4c9d646c55b27ca0fe06b4f5e149deec874e93def46d15b6cd5236c64f79f6e
 docker: quay.io/biocontainers/biotransformer
 aliases:
   biotransformer: /usr/local/bin/biotransformer

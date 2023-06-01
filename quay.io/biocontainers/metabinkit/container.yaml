@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/metabinkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metabinkit
 latest:
-  0.2.3--r42hbd632db_0: sha256:6ccb5b495f3792209103d95b3dcdeb3bd8987bf97e4627fc2867bcc6d7d5a6f0
+  0.2.3--r42h6ead514_1: sha256:d86c2d1f569e6acc33631283c2bfcc9268105cc6b0cbcbff42d0355b99279ac6
 tags:
   0.2.2--r41hbd632db_4: sha256:df0cb8a1995cb2badb2fcf5934bb0b6f5343c10cb167055b11230536204f3087
   0.2.2--r42hbd632db_5: sha256:9dc6d509dddda59aa87f4f25a751d9ea789c4217f56996b49b25a560cff451bf
   0.2.3--r42hbd632db_0: sha256:6ccb5b495f3792209103d95b3dcdeb3bd8987bf97e4627fc2867bcc6d7d5a6f0
+  0.2.3--r42h6ead514_1: sha256:d86c2d1f569e6acc33631283c2bfcc9268105cc6b0cbcbff42d0355b99279ac6
 docker: quay.io/biocontainers/metabinkit
 aliases:
   metabin: /usr/local/bin/metabin
