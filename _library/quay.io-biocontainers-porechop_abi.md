@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/porechop_abi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/porechop_abi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/porechop_abi/container.yaml"
-updated_at: "2023-06-01 03:51:58.565473"
-latest: "0.5.0--py39h6935b12_0"
+updated_at: "2023-06-02 03:17:50.091953"
+latest: "0.5.0--py310h2b6aa90_2"
 container_url: "https://biocontainers.pro/tools/porechop_abi"
 aliases:
  - "porechop_abi"
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.5.0--py39h6935b12_0"
+ - "0.5.0--py310h2b6aa90_2"
 description: "singularity registry hpc automated addition for porechop_abi"
-config: {"url": "https://biocontainers.pro/tools/porechop_abi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for porechop_abi", "latest": {"0.5.0--py39h6935b12_0": "sha256:818644f677de42bcc5b39aa2bff63ca7487823d67aa0cbcbd06e8590adba44fc"}, "tags": {"0.5.0--py39h6935b12_0": "sha256:818644f677de42bcc5b39aa2bff63ca7487823d67aa0cbcbd06e8590adba44fc"}, "docker": "quay.io/biocontainers/porechop_abi", "aliases": {"porechop_abi": "/usr/local/bin/porechop_abi", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/porechop_abi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for porechop_abi", "latest": {"0.5.0--py310h2b6aa90_2": "sha256:6422fdb833aff59574b946f92f7d8eb7f49ff13ac76591a2cfc79a9b335d153f"}, "tags": {"0.5.0--py39h6935b12_0": "sha256:818644f677de42bcc5b39aa2bff63ca7487823d67aa0cbcbd06e8590adba44fc", "0.5.0--py310h2b6aa90_2": "sha256:6422fdb833aff59574b946f92f7d8eb7f49ff13ac76591a2cfc79a9b335d153f"}, "docker": "quay.io/biocontainers/porechop_abi", "aliases": {"porechop_abi": "/usr/local/bin/porechop_abi", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/porechop_abi.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/porechop_abi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/porechop_abi:0.5.0--py39h6935b12_0
+$ shpc install quay.io/biocontainers/porechop_abi:0.5.0--py310h2b6aa90_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/porechop_abi/0.5.0--py39h6935b12_0
-$ module help quay.io/biocontainers/porechop_abi/0.5.0--py39h6935b12_0
+$ module load quay.io/biocontainers/porechop_abi/0.5.0--py310h2b6aa90_2
+$ module help quay.io/biocontainers/porechop_abi/0.5.0--py310h2b6aa90_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

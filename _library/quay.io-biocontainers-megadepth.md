@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/megadepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megadepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megadepth/container.yaml"
-updated_at: "2023-06-01 03:54:12.477748"
-latest: "1.2.0--hff880f7_4"
+updated_at: "2023-06-02 03:20:29.951611"
+latest: "1.2.0--h6ab5fc9_5"
 container_url: "https://biocontainers.pro/tools/megadepth"
 aliases:
  - "megadepth"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.2.0--hea94271_3"
  - "1.2.0--hff880f7_4"
+ - "1.2.0--h6ab5fc9_5"
 description: "shpc-registry automated BioContainers addition for megadepth"
-config: {"url": "https://biocontainers.pro/tools/megadepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megadepth", "latest": {"1.2.0--hff880f7_4": "sha256:f7fe73e4f462ddfab88de385f8b62b61ee713fc1df1a8e880e83dde5b520f660"}, "tags": {"1.2.0--hea94271_3": "sha256:bf9265ae2ea0eb9eeefed48f3479b008d7c18e83d5fb9ed2482bf8b8c73c8390", "1.2.0--hff880f7_4": "sha256:f7fe73e4f462ddfab88de385f8b62b61ee713fc1df1a8e880e83dde5b520f660"}, "docker": "quay.io/biocontainers/megadepth", "aliases": {"megadepth": "/usr/local/bin/megadepth", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/megadepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megadepth", "latest": {"1.2.0--h6ab5fc9_5": "sha256:7c3a03837b1dd28f90aa242b103ff997f02d759b69721733fbd56a893a876fe9"}, "tags": {"1.2.0--hea94271_3": "sha256:bf9265ae2ea0eb9eeefed48f3479b008d7c18e83d5fb9ed2482bf8b8c73c8390", "1.2.0--hff880f7_4": "sha256:f7fe73e4f462ddfab88de385f8b62b61ee713fc1df1a8e880e83dde5b520f660", "1.2.0--h6ab5fc9_5": "sha256:7c3a03837b1dd28f90aa242b103ff997f02d759b69721733fbd56a893a876fe9"}, "docker": "quay.io/biocontainers/megadepth", "aliases": {"megadepth": "/usr/local/bin/megadepth", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/megadepth.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/megadepth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/megadepth:1.2.0--hff880f7_4
+$ shpc install quay.io/biocontainers/megadepth:1.2.0--h6ab5fc9_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/megadepth/1.2.0--hff880f7_4
-$ module help quay.io/biocontainers/megadepth/1.2.0--hff880f7_4
+$ module load quay.io/biocontainers/megadepth/1.2.0--h6ab5fc9_5
+$ module help quay.io/biocontainers/megadepth/1.2.0--h6ab5fc9_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metabinkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabinkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabinkit/container.yaml"
-updated_at: "2023-06-01 04:15:17.492048"
-latest: "0.2.3--r42hbd632db_0"
+updated_at: "2023-06-02 03:45:46.097175"
+latest: "0.2.3--r42h6ead514_1"
 container_url: "https://biocontainers.pro/tools/metabinkit"
 aliases:
  - "metabin"
@@ -28,8 +28,9 @@ versions:
  - "0.2.2--r41hbd632db_4"
  - "0.2.2--r42hbd632db_5"
  - "0.2.3--r42hbd632db_0"
+ - "0.2.3--r42h6ead514_1"
 description: "shpc-registry automated BioContainers addition for metabinkit"
-config: {"url": "https://biocontainers.pro/tools/metabinkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinkit", "latest": {"0.2.3--r42hbd632db_0": "sha256:6ccb5b495f3792209103d95b3dcdeb3bd8987bf97e4627fc2867bcc6d7d5a6f0"}, "tags": {"0.2.2--r41hbd632db_4": "sha256:df0cb8a1995cb2badb2fcf5934bb0b6f5343c10cb167055b11230536204f3087", "0.2.2--r42hbd632db_5": "sha256:9dc6d509dddda59aa87f4f25a751d9ea789c4217f56996b49b25a560cff451bf", "0.2.3--r42hbd632db_0": "sha256:6ccb5b495f3792209103d95b3dcdeb3bd8987bf97e4627fc2867bcc6d7d5a6f0"}, "docker": "quay.io/biocontainers/metabinkit", "aliases": {"metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/metabinkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinkit", "latest": {"0.2.3--r42h6ead514_1": "sha256:d86c2d1f569e6acc33631283c2bfcc9268105cc6b0cbcbff42d0355b99279ac6"}, "tags": {"0.2.2--r41hbd632db_4": "sha256:df0cb8a1995cb2badb2fcf5934bb0b6f5343c10cb167055b11230536204f3087", "0.2.2--r42hbd632db_5": "sha256:9dc6d509dddda59aa87f4f25a751d9ea789c4217f56996b49b25a560cff451bf", "0.2.3--r42hbd632db_0": "sha256:6ccb5b495f3792209103d95b3dcdeb3bd8987bf97e4627fc2867bcc6d7d5a6f0", "0.2.3--r42h6ead514_1": "sha256:d86c2d1f569e6acc33631283c2bfcc9268105cc6b0cbcbff42d0355b99279ac6"}, "docker": "quay.io/biocontainers/metabinkit", "aliases": {"metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabinkit.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/metabinkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metabinkit:0.2.3--r42hbd632db_0
+$ shpc install quay.io/biocontainers/metabinkit:0.2.3--r42h6ead514_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metabinkit/0.2.3--r42hbd632db_0
-$ module help quay.io/biocontainers/metabinkit/0.2.3--r42hbd632db_0
+$ module load quay.io/biocontainers/metabinkit/0.2.3--r42h6ead514_1
+$ module help quay.io/biocontainers/metabinkit/0.2.3--r42h6ead514_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

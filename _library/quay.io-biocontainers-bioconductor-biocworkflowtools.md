@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocworkflowtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocworkflowtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocworkflowtools/container.yaml"
-updated_at: "2023-06-01 03:31:53.458862"
+updated_at: "2023-06-02 02:53:53.602932"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocworkflowtools"
 aliases:

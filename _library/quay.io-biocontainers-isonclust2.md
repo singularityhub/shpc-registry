@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isonclust2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isonclust2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isonclust2/container.yaml"
-updated_at: "2023-06-01 03:34:42.849331"
+updated_at: "2023-06-02 02:57:15.562327"
 latest: "2.3--hc9558a2_0"
 container_url: "https://biocontainers.pro/tools/isonclust2"
 aliases:

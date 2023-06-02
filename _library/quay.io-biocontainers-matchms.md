@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/matchms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matchms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matchms/container.yaml"
-updated_at: "2023-06-01 03:51:19.807109"
-latest: "0.18.0--pyh7cba7a3_0"
+updated_at: "2023-06-02 03:17:04.146144"
+latest: "0.19.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/matchms"
 aliases:
  - "numba"
@@ -26,8 +26,9 @@ versions:
  - "0.14.0--pyh5e36f6f_0"
  - "0.13.0--pyh5e36f6f_0"
  - "0.18.0--pyh7cba7a3_0"
+ - "0.19.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for matchms"
-config: {"url": "https://biocontainers.pro/tools/matchms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for matchms", "latest": {"0.18.0--pyh7cba7a3_0": "sha256:c2ad348646f2dfb3544b4bc63f8c0bc485dc0e41372f6f92789d8c044c830b2b"}, "tags": {"0.9.2--pyh5e36f6f_0": "sha256:d1a8f1d785b8993724305e4684caae5bc194b9fbb99053883eacfead753f20c0", "0.17.0--pyh7cba7a3_0": "sha256:e627c7edc52623413aaaa9a8e0d5ab36745a674a134fc9068ebfca9c2b64fef4", "0.16.0--pyh5e36f6f_0": "sha256:cdf51e0e46be5f20c34b9ab1cb65a91fb2e442816ef18b1a9c7b6f684dc686b9", "0.15.0--pyh5e36f6f_0": "sha256:7eb8d5731823c178bef092c725dcb4c2caebef300ac97c4607ff23bba500602a", "0.14.0--pyh5e36f6f_0": "sha256:99c8f316ffe94fdff131082c7cd6b46034c5d88eacf11dd1d2dc3b752fd688c3", "0.13.0--pyh5e36f6f_0": "sha256:7063e83d9cbf4047af3950a2fa29ec82e374f446ac033cea554759df9517537b", "0.18.0--pyh7cba7a3_0": "sha256:c2ad348646f2dfb3544b4bc63f8c0bc485dc0e41372f6f92789d8c044c830b2b"}, "docker": "quay.io/biocontainers/matchms", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "normalizer": "/usr/local/bin/normalizer", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/matchms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for matchms", "latest": {"0.19.0--pyh7cba7a3_0": "sha256:89953c25bd9b6f146c757f773ffa85fccbbb6e74ad2933d037db7624d33484d6"}, "tags": {"0.9.2--pyh5e36f6f_0": "sha256:d1a8f1d785b8993724305e4684caae5bc194b9fbb99053883eacfead753f20c0", "0.17.0--pyh7cba7a3_0": "sha256:e627c7edc52623413aaaa9a8e0d5ab36745a674a134fc9068ebfca9c2b64fef4", "0.16.0--pyh5e36f6f_0": "sha256:cdf51e0e46be5f20c34b9ab1cb65a91fb2e442816ef18b1a9c7b6f684dc686b9", "0.15.0--pyh5e36f6f_0": "sha256:7eb8d5731823c178bef092c725dcb4c2caebef300ac97c4607ff23bba500602a", "0.14.0--pyh5e36f6f_0": "sha256:99c8f316ffe94fdff131082c7cd6b46034c5d88eacf11dd1d2dc3b752fd688c3", "0.13.0--pyh5e36f6f_0": "sha256:7063e83d9cbf4047af3950a2fa29ec82e374f446ac033cea554759df9517537b", "0.18.0--pyh7cba7a3_0": "sha256:c2ad348646f2dfb3544b4bc63f8c0bc485dc0e41372f6f92789d8c044c830b2b", "0.19.0--pyh7cba7a3_0": "sha256:89953c25bd9b6f146c757f773ffa85fccbbb6e74ad2933d037db7624d33484d6"}, "docker": "quay.io/biocontainers/matchms", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "normalizer": "/usr/local/bin/normalizer", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/matchms.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/matchms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/matchms:0.18.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/matchms:0.19.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/matchms/0.18.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/matchms/0.18.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/matchms/0.19.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/matchms/0.19.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/inforna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inforna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inforna/container.yaml"
-updated_at: "2023-06-01 03:40:57.791089"
-latest: "2.1.2--h9f5acd7_5"
+updated_at: "2023-06-02 03:04:41.152877"
+latest: "2.1.2--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/inforna"
 aliases:
  - "INFO-RNA"
@@ -23,8 +23,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "2.1.2--h9f5acd7_5"
+ - "2.1.2--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for inforna"
-config: {"url": "https://biocontainers.pro/tools/inforna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for inforna", "latest": {"2.1.2--h9f5acd7_5": "sha256:37aaf4b909173e7c5bc2a1d4ca1db6c08014f4f5c25d305a2d40c424cc301749"}, "tags": {"2.1.2--h9f5acd7_5": "sha256:37aaf4b909173e7c5bc2a1d4ca1db6c08014f4f5c25d305a2d40c424cc301749"}, "docker": "quay.io/biocontainers/inforna", "aliases": {"INFO-RNA": "/usr/local/bin/INFO-RNA", "INFO-RNA-2.1.2": "/usr/local/bin/INFO-RNA-2.1.2", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/inforna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for inforna", "latest": {"2.1.2--h4ac6f70_6": "sha256:613d8b62a25dd73c4b5c2665d64cc3e23fb6cbde726a4b68fb96ddd9d64f3b69"}, "tags": {"2.1.2--h9f5acd7_5": "sha256:37aaf4b909173e7c5bc2a1d4ca1db6c08014f4f5c25d305a2d40c424cc301749", "2.1.2--h4ac6f70_6": "sha256:613d8b62a25dd73c4b5c2665d64cc3e23fb6cbde726a4b68fb96ddd9d64f3b69"}, "docker": "quay.io/biocontainers/inforna", "aliases": {"INFO-RNA": "/usr/local/bin/INFO-RNA", "INFO-RNA-2.1.2": "/usr/local/bin/INFO-RNA-2.1.2", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/inforna.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/inforna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/inforna:2.1.2--h9f5acd7_5
+$ shpc install quay.io/biocontainers/inforna:2.1.2--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/inforna/2.1.2--h9f5acd7_5
-$ module help quay.io/biocontainers/inforna/2.1.2--h9f5acd7_5
+$ module load quay.io/biocontainers/inforna/2.1.2--h4ac6f70_6
+$ module help quay.io/biocontainers/inforna/2.1.2--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

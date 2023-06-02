@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/clearcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clearcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clearcut/container.yaml"
-updated_at: "2023-06-01 03:41:55.073427"
-latest: "1.0.9--hec16e2b_4"
+updated_at: "2023-06-02 03:05:50.109784"
+latest: "1.0.9--h031d066_6"
 container_url: "https://biocontainers.pro/tools/clearcut"
 aliases:
  - "clearcut"
 versions:
  - "1.0.9--hec16e2b_4"
+ - "1.0.9--h031d066_6"
 description: "shpc-registry automated BioContainers addition for clearcut"
-config: {"url": "https://biocontainers.pro/tools/clearcut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clearcut", "latest": {"1.0.9--hec16e2b_4": "sha256:3301cd7dff0967d52a44b23f79cc6c6c4ce141d57110c19ca74f59f9db256e41"}, "tags": {"1.0.9--hec16e2b_4": "sha256:3301cd7dff0967d52a44b23f79cc6c6c4ce141d57110c19ca74f59f9db256e41"}, "docker": "quay.io/biocontainers/clearcut", "aliases": {"clearcut": "/usr/local/bin/clearcut"}}
+config: {"url": "https://biocontainers.pro/tools/clearcut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clearcut", "latest": {"1.0.9--h031d066_6": "sha256:5bcc4d0be237284834b07870efa0146680816657a50502a2ecf0f3e56b966239"}, "tags": {"1.0.9--hec16e2b_4": "sha256:3301cd7dff0967d52a44b23f79cc6c6c4ce141d57110c19ca74f59f9db256e41", "1.0.9--h031d066_6": "sha256:5bcc4d0be237284834b07870efa0146680816657a50502a2ecf0f3e56b966239"}, "docker": "quay.io/biocontainers/clearcut", "aliases": {"clearcut": "/usr/local/bin/clearcut"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clearcut.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/clearcut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clearcut:1.0.9--hec16e2b_4
+$ shpc install quay.io/biocontainers/clearcut:1.0.9--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clearcut/1.0.9--hec16e2b_4
-$ module help quay.io/biocontainers/clearcut/1.0.9--hec16e2b_4
+$ module load quay.io/biocontainers/clearcut/1.0.9--h031d066_6
+$ module help quay.io/biocontainers/clearcut/1.0.9--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

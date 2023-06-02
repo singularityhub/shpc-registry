@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-graper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graper/container.yaml"
-updated_at: "2023-06-01 03:59:57.008094"
-latest: "1.14.0--r42hc247a5b_0"
+updated_at: "2023-06-02 03:27:17.888035"
+latest: "1.14.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-graper"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41h399db7b_0"
  - "1.10.0--r41hc247a5b_2"
  - "1.14.0--r42hc247a5b_0"
+ - "1.14.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-graper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-graper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graper", "latest": {"1.14.0--r42hc247a5b_0": "sha256:f2669970d62caf530bc2542e963cd6d0bbfd02d383cec95bcf7dbe014a3f79e7"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:9129dad9604cb638c68329dd5e1b938970375678548910a62e2e42006d5f2823", "1.10.0--r41hc247a5b_2": "sha256:252e9059b19175b8ca5971766cd0396f2ffb6c1337310a840ad1d9297a769167", "1.14.0--r42hc247a5b_0": "sha256:f2669970d62caf530bc2542e963cd6d0bbfd02d383cec95bcf7dbe014a3f79e7"}, "docker": "quay.io/biocontainers/bioconductor-graper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-graper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graper", "latest": {"1.14.0--r42hf17093f_1": "sha256:00bb57c437f0f8c079f0817ac4daab16956307069fb3b11053c0e8371056f333"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:9129dad9604cb638c68329dd5e1b938970375678548910a62e2e42006d5f2823", "1.10.0--r41hc247a5b_2": "sha256:252e9059b19175b8ca5971766cd0396f2ffb6c1337310a840ad1d9297a769167", "1.14.0--r42hc247a5b_0": "sha256:f2669970d62caf530bc2542e963cd6d0bbfd02d383cec95bcf7dbe014a3f79e7", "1.14.0--r42hf17093f_1": "sha256:00bb57c437f0f8c079f0817ac4daab16956307069fb3b11053c0e8371056f333"}, "docker": "quay.io/biocontainers/bioconductor-graper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-graper.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-graper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-graper:1.14.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-graper:1.14.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-graper/1.14.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-graper/1.14.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-graper/1.14.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-graper/1.14.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methylpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylpy/container.yaml"
-updated_at: "2023-06-01 04:12:01.662338"
+updated_at: "2023-06-02 03:41:50.347383"
 latest: "1.4.3--py27h41a55b7_0"
 container_url: "https://biocontainers.pro/tools/methylpy"
 aliases:

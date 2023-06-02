@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msalign2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msalign2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msalign2/container.yaml"
-updated_at: "2023-06-01 03:47:18.762925"
-latest: "1.0--h7132678_3"
+updated_at: "2023-06-02 03:12:16.307166"
+latest: "1.0--he4a0461_5"
 container_url: "https://biocontainers.pro/tools/msalign2"
 aliases:
  - "msalign2"
@@ -21,8 +21,9 @@ aliases:
  - "pngtogd2"
 versions:
  - "1.0--h7132678_3"
+ - "1.0--he4a0461_5"
 description: "shpc-registry automated BioContainers addition for msalign2"
-config: {"url": "https://biocontainers.pro/tools/msalign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msalign2", "latest": {"1.0--h7132678_3": "sha256:c7d2321b8132c2d896ce94d7932ff756839af4314215fe09d58f6fdd89031e6e"}, "tags": {"1.0--h7132678_3": "sha256:c7d2321b8132c2d896ce94d7932ff756839af4314215fe09d58f6fdd89031e6e"}, "docker": "quay.io/biocontainers/msalign2", "aliases": {"msalign2": "/usr/local/bin/msalign2", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd", "pngtogd2": "/usr/local/bin/pngtogd2"}}
+config: {"url": "https://biocontainers.pro/tools/msalign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msalign2", "latest": {"1.0--he4a0461_5": "sha256:1d42f9b0e3bf4ae4a439ecde56d0ee0ae99313e5bb2df222d50003cc86629bdd"}, "tags": {"1.0--h7132678_3": "sha256:c7d2321b8132c2d896ce94d7932ff756839af4314215fe09d58f6fdd89031e6e", "1.0--he4a0461_5": "sha256:1d42f9b0e3bf4ae4a439ecde56d0ee0ae99313e5bb2df222d50003cc86629bdd"}, "docker": "quay.io/biocontainers/msalign2", "aliases": {"msalign2": "/usr/local/bin/msalign2", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd", "pngtogd2": "/usr/local/bin/pngtogd2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msalign2.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/msalign2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msalign2:1.0--h7132678_3
+$ shpc install quay.io/biocontainers/msalign2:1.0--he4a0461_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msalign2/1.0--h7132678_3
-$ module help quay.io/biocontainers/msalign2/1.0--h7132678_3
+$ module load quay.io/biocontainers/msalign2/1.0--he4a0461_5
+$ module help quay.io/biocontainers/msalign2/1.0--he4a0461_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

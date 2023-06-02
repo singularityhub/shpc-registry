@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hemdag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hemdag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hemdag/container.yaml"
-updated_at: "2023-06-01 03:36:36.945537"
+updated_at: "2023-06-02 02:59:29.778511"
 latest: "2.7.4--r42hecf12ef_4"
 container_url: "https://biocontainers.pro/tools/r-hemdag"
 

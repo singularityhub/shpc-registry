@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/httpretty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/httpretty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/httpretty/container.yaml"
-updated_at: "2023-06-01 03:46:35.076889"
+updated_at: "2023-06-02 03:11:24.229759"
 latest: "0.8.10--py35_0"
 container_url: "https://biocontainers.pro/tools/httpretty"
 aliases:

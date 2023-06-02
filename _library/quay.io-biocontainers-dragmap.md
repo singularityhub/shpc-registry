@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dragmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dragmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dragmap/container.yaml"
-updated_at: "2023-06-01 04:01:02.874430"
-latest: "1.3.0--h72d16da_1"
+updated_at: "2023-06-02 03:28:37.457737"
+latest: "1.3.0--h91baf5a_3"
 container_url: "https://biocontainers.pro/tools/dragmap"
 aliases:
  - "dragen-os"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.3.0--h72d16da_1"
+ - "1.3.0--h91baf5a_3"
 description: "shpc-registry automated BioContainers addition for dragmap"
-config: {"url": "https://biocontainers.pro/tools/dragmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dragmap", "latest": {"1.3.0--h72d16da_1": "sha256:9897f8e6444a98e8092ea3c7bdbf3a053935e3093acb3da536960d67c2ac8881"}, "tags": {"1.3.0--h72d16da_1": "sha256:9897f8e6444a98e8092ea3c7bdbf3a053935e3093acb3da536960d67c2ac8881"}, "docker": "quay.io/biocontainers/dragmap", "aliases": {"dragen-os": "/usr/local/bin/dragen-os", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/dragmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dragmap", "latest": {"1.3.0--h91baf5a_3": "sha256:5bb470921463c13d001cee598f0961d5ffe973357753267274aa8eb82fb7f06e"}, "tags": {"1.3.0--h72d16da_1": "sha256:9897f8e6444a98e8092ea3c7bdbf3a053935e3093acb3da536960d67c2ac8881", "1.3.0--h91baf5a_3": "sha256:5bb470921463c13d001cee598f0961d5ffe973357753267274aa8eb82fb7f06e"}, "docker": "quay.io/biocontainers/dragmap", "aliases": {"dragen-os": "/usr/local/bin/dragen-os", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dragmap.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/dragmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dragmap:1.3.0--h72d16da_1
+$ shpc install quay.io/biocontainers/dragmap:1.3.0--h91baf5a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dragmap/1.3.0--h72d16da_1
-$ module help quay.io/biocontainers/dragmap/1.3.0--h72d16da_1
+$ module load quay.io/biocontainers/dragmap/1.3.0--h91baf5a_3
+$ module help quay.io/biocontainers/dragmap/1.3.0--h91baf5a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

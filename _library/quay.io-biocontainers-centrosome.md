@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/centrosome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centrosome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centrosome/container.yaml"
-updated_at: "2023-06-01 04:13:03.684005"
-latest: "1.2.1--py39h919a90d_0"
+updated_at: "2023-06-02 03:43:04.724179"
+latest: "1.2.1--py310h5aa3a86_2"
 container_url: "https://biocontainers.pro/tools/centrosome"
 aliases:
  - "aomdec"
@@ -25,8 +25,9 @@ aliases:
  - "zopflipng"
 versions:
  - "1.2.1--py39h919a90d_0"
+ - "1.2.1--py310h5aa3a86_2"
 description: "shpc-registry automated BioContainers addition for centrosome"
-config: {"url": "https://biocontainers.pro/tools/centrosome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centrosome", "latest": {"1.2.1--py39h919a90d_0": "sha256:c69100fcbd1f8a78542dccfee785dc7109eb0f80ba82c17e4b5ee7d717bff89d"}, "tags": {"1.2.1--py39h919a90d_0": "sha256:c69100fcbd1f8a78542dccfee785dc7109eb0f80ba82c17e4b5ee7d717bff89d"}, "docker": "quay.io/biocontainers/centrosome", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
+config: {"url": "https://biocontainers.pro/tools/centrosome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centrosome", "latest": {"1.2.1--py310h5aa3a86_2": "sha256:35890ff19fa1d7cb12defec85878101fc9d4afec0777cfe68f6ac0f39c1a2aba"}, "tags": {"1.2.1--py39h919a90d_0": "sha256:c69100fcbd1f8a78542dccfee785dc7109eb0f80ba82c17e4b5ee7d717bff89d", "1.2.1--py310h5aa3a86_2": "sha256:35890ff19fa1d7cb12defec85878101fc9d4afec0777cfe68f6ac0f39c1a2aba"}, "docker": "quay.io/biocontainers/centrosome", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/centrosome.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/centrosome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/centrosome:1.2.1--py39h919a90d_0
+$ shpc install quay.io/biocontainers/centrosome:1.2.1--py310h5aa3a86_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/centrosome/1.2.1--py39h919a90d_0
-$ module help quay.io/biocontainers/centrosome/1.2.1--py39h919a90d_0
+$ module load quay.io/biocontainers/centrosome/1.2.1--py310h5aa3a86_2
+$ module help quay.io/biocontainers/centrosome/1.2.1--py310h5aa3a86_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

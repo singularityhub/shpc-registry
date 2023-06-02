@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fgsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgsv/container.yaml"
-updated_at: "2023-06-01 03:53:00.786970"
-latest: "0.0.1--hdfd78af_0"
+updated_at: "2023-06-02 03:19:04.777917"
+latest: "0.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fgsv"
 aliases:
  - "fgsv"
@@ -36,8 +36,9 @@ aliases:
  - "jps"
 versions:
  - "0.0.1--hdfd78af_0"
+ - "0.0.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for fgsv"
-config: {"url": "https://biocontainers.pro/tools/fgsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgsv", "latest": {"0.0.1--hdfd78af_0": "sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8"}, "tags": {"0.0.1--hdfd78af_0": "sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8"}, "docker": "quay.io/biocontainers/fgsv", "aliases": {"fgsv": "/usr/local/bin/fgsv", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/fgsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgsv", "latest": {"0.0.2--hdfd78af_0": "sha256:8c909b2c768ae38e2208108c61aebdd047d5fb54e24d6c199d5442e4dbb48468"}, "tags": {"0.0.1--hdfd78af_0": "sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8", "0.0.2--hdfd78af_0": "sha256:8c909b2c768ae38e2208108c61aebdd047d5fb54e24d6c199d5442e4dbb48468"}, "docker": "quay.io/biocontainers/fgsv", "aliases": {"fgsv": "/usr/local/bin/fgsv", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgsv.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/fgsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fgsv:0.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/fgsv:0.0.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fgsv/0.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/fgsv/0.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/fgsv/0.0.2--hdfd78af_0
+$ module help quay.io/biocontainers/fgsv/0.0.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

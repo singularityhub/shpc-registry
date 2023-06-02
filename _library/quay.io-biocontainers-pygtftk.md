@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pygtftk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygtftk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygtftk/container.yaml"
-updated_at: "2023-06-01 03:51:00.086336"
-latest: "1.6.2--py39h2add14b_0"
+updated_at: "2023-06-02 03:16:40.805049"
+latest: "1.6.2--py39h4e691d4_1"
 container_url: "https://biocontainers.pro/tools/pygtftk"
 aliases:
  - "gtftk"
@@ -21,8 +21,9 @@ aliases:
  - "gtscompare"
 versions:
  - "1.6.2--py39h2add14b_0"
+ - "1.6.2--py39h4e691d4_1"
 description: "shpc-registry automated BioContainers addition for pygtftk"
-config: {"url": "https://biocontainers.pro/tools/pygtftk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygtftk", "latest": {"1.6.2--py39h2add14b_0": "sha256:f7437ebf3922bad00411708efbd1ff8e0590ea64ee6ff016d074175d32bccd7e"}, "tags": {"1.6.2--py39h2add14b_0": "sha256:f7437ebf3922bad00411708efbd1ff8e0590ea64ee6ff016d074175d32bccd7e"}, "docker": "quay.io/biocontainers/pygtftk", "aliases": {"gtftk": "/usr/local/bin/gtftk", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "nosetests": "/usr/local/bin/nosetests", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare"}}
+config: {"url": "https://biocontainers.pro/tools/pygtftk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygtftk", "latest": {"1.6.2--py39h4e691d4_1": "sha256:5656b827dff9a0397772d2a93b6cd528b06e11ff92c5629984cef3214459ac58"}, "tags": {"1.6.2--py39h2add14b_0": "sha256:f7437ebf3922bad00411708efbd1ff8e0590ea64ee6ff016d074175d32bccd7e", "1.6.2--py39h4e691d4_1": "sha256:5656b827dff9a0397772d2a93b6cd528b06e11ff92c5629984cef3214459ac58"}, "docker": "quay.io/biocontainers/pygtftk", "aliases": {"gtftk": "/usr/local/bin/gtftk", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "nosetests": "/usr/local/bin/nosetests", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygtftk.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pygtftk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pygtftk:1.6.2--py39h2add14b_0
+$ shpc install quay.io/biocontainers/pygtftk:1.6.2--py39h4e691d4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pygtftk/1.6.2--py39h2add14b_0
-$ module help quay.io/biocontainers/pygtftk/1.6.2--py39h2add14b_0
+$ module load quay.io/biocontainers/pygtftk/1.6.2--py39h4e691d4_1
+$ module help quay.io/biocontainers/pygtftk/1.6.2--py39h4e691d4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

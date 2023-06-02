@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zagros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zagros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zagros/container.yaml"
-updated_at: "2023-06-01 03:44:10.439084"
-latest: "1.0.0--h7fd9d64_7"
+updated_at: "2023-06-02 03:08:30.403873"
+latest: "1.0.0--h733e4d7_9"
 container_url: "https://biocontainers.pro/tools/zagros"
 aliases:
  - "extractDEs"
@@ -13,8 +13,9 @@ aliases:
  - "zagros"
 versions:
  - "1.0.0--h7fd9d64_7"
+ - "1.0.0--h733e4d7_9"
 description: "shpc-registry automated BioContainers addition for zagros"
-config: {"url": "https://biocontainers.pro/tools/zagros", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zagros", "latest": {"1.0.0--h7fd9d64_7": "sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1"}, "tags": {"1.0.0--h7fd9d64_7": "sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1"}, "docker": "quay.io/biocontainers/zagros", "aliases": {"extractDEs": "/usr/local/bin/extractDEs", "thermo": "/usr/local/bin/thermo", "zagros": "/usr/local/bin/zagros"}}
+config: {"url": "https://biocontainers.pro/tools/zagros", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zagros", "latest": {"1.0.0--h733e4d7_9": "sha256:a0944481536903408fe95a79d82b67f5fb2aa5a1221fd8de35d4e6719468542b"}, "tags": {"1.0.0--h7fd9d64_7": "sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1", "1.0.0--h733e4d7_9": "sha256:a0944481536903408fe95a79d82b67f5fb2aa5a1221fd8de35d4e6719468542b"}, "docker": "quay.io/biocontainers/zagros", "aliases": {"extractDEs": "/usr/local/bin/extractDEs", "thermo": "/usr/local/bin/thermo", "zagros": "/usr/local/bin/zagros"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zagros.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/zagros
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zagros:1.0.0--h7fd9d64_7
+$ shpc install quay.io/biocontainers/zagros:1.0.0--h733e4d7_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zagros/1.0.0--h7fd9d64_7
-$ module help quay.io/biocontainers/zagros/1.0.0--h7fd9d64_7
+$ module load quay.io/biocontainers/zagros/1.0.0--h733e4d7_9
+$ module help quay.io/biocontainers/zagros/1.0.0--h733e4d7_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

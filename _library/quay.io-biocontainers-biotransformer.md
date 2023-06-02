@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biotransformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biotransformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biotransformer/container.yaml"
-updated_at: "2023-06-01 03:50:24.176239"
-latest: "3.0--hdfd78af_0"
+updated_at: "2023-06-02 03:15:58.557766"
+latest: "3.0.20230403--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biotransformer"
 aliases:
  - "biotransformer"
@@ -21,8 +21,9 @@ aliases:
  - "2to3-3.10"
 versions:
  - "3.0--hdfd78af_0"
+ - "3.0.20230403--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biotransformer"
-config: {"url": "https://biocontainers.pro/tools/biotransformer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biotransformer", "latest": {"3.0--hdfd78af_0": "sha256:e111d4c5fcea251363d8126c75e70012d1ba494d72accc6e102f4cb645c6cddd"}, "tags": {"3.0--hdfd78af_0": "sha256:e111d4c5fcea251363d8126c75e70012d1ba494d72accc6e102f4cb645c6cddd"}, "docker": "quay.io/biocontainers/biotransformer", "aliases": {"biotransformer": "/usr/local/bin/biotransformer", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
+config: {"url": "https://biocontainers.pro/tools/biotransformer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biotransformer", "latest": {"3.0.20230403--hdfd78af_0": "sha256:b4c9d646c55b27ca0fe06b4f5e149deec874e93def46d15b6cd5236c64f79f6e"}, "tags": {"3.0--hdfd78af_0": "sha256:e111d4c5fcea251363d8126c75e70012d1ba494d72accc6e102f4cb645c6cddd", "3.0.20230403--hdfd78af_0": "sha256:b4c9d646c55b27ca0fe06b4f5e149deec874e93def46d15b6cd5236c64f79f6e"}, "docker": "quay.io/biocontainers/biotransformer", "aliases": {"biotransformer": "/usr/local/bin/biotransformer", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biotransformer.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/biotransformer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biotransformer:3.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/biotransformer:3.0.20230403--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biotransformer/3.0--hdfd78af_0
-$ module help quay.io/biocontainers/biotransformer/3.0--hdfd78af_0
+$ module load quay.io/biocontainers/biotransformer/3.0.20230403--hdfd78af_0
+$ module help quay.io/biocontainers/biotransformer/3.0.20230403--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

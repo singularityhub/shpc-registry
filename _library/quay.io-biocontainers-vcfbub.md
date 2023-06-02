@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vcfbub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfbub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfbub/container.yaml"
-updated_at: "2023-06-01 03:34:16.602832"
-latest: "0.1.0--hec16e2b_0"
+updated_at: "2023-06-02 02:56:44.568519"
+latest: "0.1.0--h031d066_2"
 container_url: "https://biocontainers.pro/tools/vcfbub"
 aliases:
  - "vcfbub"
 versions:
  - "0.1.0--hec16e2b_0"
+ - "0.1.0--h031d066_2"
 description: "singularity registry hpc automated addition for vcfbub"
-config: {"url": "https://biocontainers.pro/tools/vcfbub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcfbub", "latest": {"0.1.0--hec16e2b_0": "sha256:bb0f3542a8a6bcd67d1a50eaae820a4bbc5cd5b4f0dae30bbb1ae096d286bafd"}, "tags": {"0.1.0--hec16e2b_0": "sha256:bb0f3542a8a6bcd67d1a50eaae820a4bbc5cd5b4f0dae30bbb1ae096d286bafd"}, "docker": "quay.io/biocontainers/vcfbub", "aliases": {"vcfbub": "/usr/local/bin/vcfbub"}}
+config: {"url": "https://biocontainers.pro/tools/vcfbub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcfbub", "latest": {"0.1.0--h031d066_2": "sha256:54baafe6ebd7076d272cf4f30fc6dffd148516d065f68a229a9f9accd0072df0"}, "tags": {"0.1.0--hec16e2b_0": "sha256:bb0f3542a8a6bcd67d1a50eaae820a4bbc5cd5b4f0dae30bbb1ae096d286bafd", "0.1.0--h031d066_2": "sha256:54baafe6ebd7076d272cf4f30fc6dffd148516d065f68a229a9f9accd0072df0"}, "docker": "quay.io/biocontainers/vcfbub", "aliases": {"vcfbub": "/usr/local/bin/vcfbub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcfbub.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vcfbub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcfbub:0.1.0--hec16e2b_0
+$ shpc install quay.io/biocontainers/vcfbub:0.1.0--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcfbub/0.1.0--hec16e2b_0
-$ module help quay.io/biocontainers/vcfbub/0.1.0--hec16e2b_0
+$ module load quay.io/biocontainers/vcfbub/0.1.0--h031d066_2
+$ module help quay.io/biocontainers/vcfbub/0.1.0--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fasta_ushuffle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasta_ushuffle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasta_ushuffle/container.yaml"
-updated_at: "2023-06-01 03:44:29.339649"
-latest: "0.2--hec16e2b_4"
+updated_at: "2023-06-02 03:08:53.015836"
+latest: "0.2--h031d066_6"
 container_url: "https://biocontainers.pro/tools/fasta_ushuffle"
 aliases:
  - "fasta_ushuffle"
  - "ushuffle"
 versions:
  - "0.2--hec16e2b_4"
+ - "0.2--h031d066_6"
 description: "shpc-registry automated BioContainers addition for fasta_ushuffle"
-config: {"url": "https://biocontainers.pro/tools/fasta_ushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasta_ushuffle", "latest": {"0.2--hec16e2b_4": "sha256:fbd097083ae7a15580446ca860d6324f7ed736ff0dfad79490a3d05cacea1f23"}, "tags": {"0.2--hec16e2b_4": "sha256:fbd097083ae7a15580446ca860d6324f7ed736ff0dfad79490a3d05cacea1f23"}, "docker": "quay.io/biocontainers/fasta_ushuffle", "aliases": {"fasta_ushuffle": "/usr/local/bin/fasta_ushuffle", "ushuffle": "/usr/local/bin/ushuffle"}}
+config: {"url": "https://biocontainers.pro/tools/fasta_ushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasta_ushuffle", "latest": {"0.2--h031d066_6": "sha256:8b682bdbce9c1dbcecc19a57db54e70c51c10bb13e147d1a6eab430cd01c0371"}, "tags": {"0.2--hec16e2b_4": "sha256:fbd097083ae7a15580446ca860d6324f7ed736ff0dfad79490a3d05cacea1f23", "0.2--h031d066_6": "sha256:8b682bdbce9c1dbcecc19a57db54e70c51c10bb13e147d1a6eab430cd01c0371"}, "docker": "quay.io/biocontainers/fasta_ushuffle", "aliases": {"fasta_ushuffle": "/usr/local/bin/fasta_ushuffle", "ushuffle": "/usr/local/bin/ushuffle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fasta_ushuffle.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fasta_ushuffle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fasta_ushuffle:0.2--hec16e2b_4
+$ shpc install quay.io/biocontainers/fasta_ushuffle:0.2--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fasta_ushuffle/0.2--hec16e2b_4
-$ module help quay.io/biocontainers/fasta_ushuffle/0.2--hec16e2b_4
+$ module load quay.io/biocontainers/fasta_ushuffle/0.2--h031d066_6
+$ module help quay.io/biocontainers/fasta_ushuffle/0.2--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

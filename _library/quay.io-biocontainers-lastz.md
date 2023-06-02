@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lastz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lastz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lastz/container.yaml"
-updated_at: "2023-06-01 03:55:31.520359"
-latest: "1.04.15--hec16e2b_1"
+updated_at: "2023-06-02 03:22:03.031558"
+latest: "1.04.15--h031d066_3"
 container_url: "https://biocontainers.pro/tools/lastz"
 aliases:
  - "lastz"
@@ -13,8 +13,9 @@ aliases:
  - "lastz_D"
 versions:
  - "1.04.15--hec16e2b_1"
+ - "1.04.15--h031d066_3"
 description: "shpc-registry automated BioContainers addition for lastz"
-config: {"url": "https://biocontainers.pro/tools/lastz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lastz", "latest": {"1.04.15--hec16e2b_1": "sha256:bca1bdeabf63ea0c19eaf9128d2c5075a50400a594ee71e97e8ebf03c7661b89"}, "tags": {"1.04.15--hec16e2b_1": "sha256:bca1bdeabf63ea0c19eaf9128d2c5075a50400a594ee71e97e8ebf03c7661b89"}, "docker": "quay.io/biocontainers/lastz", "aliases": {"lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D"}}
+config: {"url": "https://biocontainers.pro/tools/lastz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lastz", "latest": {"1.04.15--h031d066_3": "sha256:70dddce735229fa858b5dad176ab09baf82c63db1634694569f4a1d0da34afe6"}, "tags": {"1.04.15--hec16e2b_1": "sha256:bca1bdeabf63ea0c19eaf9128d2c5075a50400a594ee71e97e8ebf03c7661b89", "1.04.15--h031d066_3": "sha256:70dddce735229fa858b5dad176ab09baf82c63db1634694569f4a1d0da34afe6"}, "docker": "quay.io/biocontainers/lastz", "aliases": {"lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lastz.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/lastz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lastz:1.04.15--hec16e2b_1
+$ shpc install quay.io/biocontainers/lastz:1.04.15--h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lastz/1.04.15--hec16e2b_1
-$ module help quay.io/biocontainers/lastz/1.04.15--hec16e2b_1
+$ module load quay.io/biocontainers/lastz/1.04.15--h031d066_3
+$ module help quay.io/biocontainers/lastz/1.04.15--h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

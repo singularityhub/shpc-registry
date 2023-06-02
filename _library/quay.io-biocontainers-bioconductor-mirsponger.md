@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mirsponger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirsponger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirsponger/container.yaml"
-updated_at: "2023-06-01 03:52:19.276245"
-latest: "2.2.0--r42hc247a5b_0"
+updated_at: "2023-06-02 03:18:14.555985"
+latest: "2.2.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirsponger"
 aliases:
  - "glpsol"
 versions:
  - "1.20.1--r41hc247a5b_1"
  - "2.2.0--r42hc247a5b_0"
+ - "2.2.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirsponger"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirsponger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirsponger", "latest": {"2.2.0--r42hc247a5b_0": "sha256:63c5c4ddf17990837b1e689b9b62ea01a98a7788044b6469e0f482c21baf1f81"}, "tags": {"1.20.1--r41hc247a5b_1": "sha256:f8708faad531ebb77657c78a7aa02bc4b8ea9a9449370e633a9367b07972ce57", "2.2.0--r42hc247a5b_0": "sha256:63c5c4ddf17990837b1e689b9b62ea01a98a7788044b6469e0f482c21baf1f81"}, "docker": "quay.io/biocontainers/bioconductor-mirsponger", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirsponger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirsponger", "latest": {"2.2.0--r42hf17093f_1": "sha256:4b8760e4779b32d32cd2cad2861b133c4a684c620740ebd4ab6274b481ed5eaf"}, "tags": {"1.20.1--r41hc247a5b_1": "sha256:f8708faad531ebb77657c78a7aa02bc4b8ea9a9449370e633a9367b07972ce57", "2.2.0--r42hc247a5b_0": "sha256:63c5c4ddf17990837b1e689b9b62ea01a98a7788044b6469e0f482c21baf1f81", "2.2.0--r42hf17093f_1": "sha256:4b8760e4779b32d32cd2cad2861b133c4a684c620740ebd4ab6274b481ed5eaf"}, "docker": "quay.io/biocontainers/bioconductor-mirsponger", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirsponger.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirsponger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirsponger:2.2.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-mirsponger:2.2.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirsponger/2.2.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-mirsponger/2.2.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-mirsponger/2.2.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-mirsponger/2.2.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

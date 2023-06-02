@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/splitp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitp/container.yaml"
-updated_at: "2023-06-01 03:56:29.505880"
+updated_at: "2023-06-02 03:23:11.613839"
 latest: "0.1.0--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/splitp"
 aliases:

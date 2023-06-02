@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pracma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pracma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pracma/container.yaml"
-updated_at: "2023-06-01 03:56:09.885873"
+updated_at: "2023-06-02 03:22:48.171251"
 latest: "1.8.8--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-pracma"
 aliases:

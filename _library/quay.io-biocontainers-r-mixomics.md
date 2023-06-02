@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mixomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mixomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mixomics/container.yaml"
-updated_at: "2023-06-01 04:09:35.290229"
+updated_at: "2023-06-02 03:38:54.504369"
 latest: "6.3.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-mixomics"
 

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/psass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psass/container.yaml"
-updated_at: "2023-06-01 03:59:42.346776"
-latest: "3.1.0--h468198e_2"
+updated_at: "2023-06-02 03:27:00.242970"
+latest: "3.1.0--hf5e1c6e_4"
 container_url: "https://biocontainers.pro/tools/psass"
 aliases:
  - "psass"
 versions:
  - "3.1.0--h468198e_2"
+ - "3.1.0--hf5e1c6e_4"
 description: "shpc-registry automated BioContainers addition for psass"
-config: {"url": "https://biocontainers.pro/tools/psass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psass", "latest": {"3.1.0--h468198e_2": "sha256:19ed3f73a1de04d740ea6acf36737cbf3776e1706c0a8ffb7b07a3596090db38"}, "tags": {"3.1.0--h468198e_2": "sha256:19ed3f73a1de04d740ea6acf36737cbf3776e1706c0a8ffb7b07a3596090db38"}, "docker": "quay.io/biocontainers/psass", "aliases": {"psass": "/usr/local/bin/psass"}}
+config: {"url": "https://biocontainers.pro/tools/psass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psass", "latest": {"3.1.0--hf5e1c6e_4": "sha256:d63417c762923ae9da7c20e2c11ebb8cdfcae7059c5a5916db18f99f0848a088"}, "tags": {"3.1.0--h468198e_2": "sha256:19ed3f73a1de04d740ea6acf36737cbf3776e1706c0a8ffb7b07a3596090db38", "3.1.0--hf5e1c6e_4": "sha256:d63417c762923ae9da7c20e2c11ebb8cdfcae7059c5a5916db18f99f0848a088"}, "docker": "quay.io/biocontainers/psass", "aliases": {"psass": "/usr/local/bin/psass"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psass.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/psass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psass:3.1.0--h468198e_2
+$ shpc install quay.io/biocontainers/psass:3.1.0--hf5e1c6e_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psass/3.1.0--h468198e_2
-$ module help quay.io/biocontainers/psass/3.1.0--h468198e_2
+$ module load quay.io/biocontainers/psass/3.1.0--hf5e1c6e_4
+$ module help quay.io/biocontainers/psass/3.1.0--hf5e1c6e_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
