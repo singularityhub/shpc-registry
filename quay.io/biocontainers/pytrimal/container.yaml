@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pytrimal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pytrimal
 latest:
-  0.5.5--py39h67e14b5_0: sha256:9de448978aad8748e875cc6112578959de1e182b0f4fb0aadcf34aaccba3657b
+  0.5.5--py310h068649b_2: sha256:f6e22f944cdb866e874442f7d22cf31ca475d1bc0ae2a8bcd6c158c21cc6e11e
 tags:
   0.5.5--py39h67e14b5_0: sha256:9de448978aad8748e875cc6112578959de1e182b0f4fb0aadcf34aaccba3657b
+  0.5.5--py310h068649b_2: sha256:f6e22f944cdb866e874442f7d22cf31ca475d1bc0ae2a8bcd6c158c21cc6e11e
 docker: quay.io/biocontainers/pytrimal
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

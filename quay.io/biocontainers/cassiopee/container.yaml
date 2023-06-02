@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cassiopee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cassiopee
 latest:
-  1.0.9--hc0e6a75_4: sha256:d9384f2ade32f8bfb536557fd5908b1e48317b42a94923bcf8d7915d53916647
+  1.0.9--h52dea56_6: sha256:269e50f1203d7b68e84241b70333e591b76340783578dedf7a3f217fdbf93ac2
 tags:
   1.0.9--hc0e6a75_4: sha256:d9384f2ade32f8bfb536557fd5908b1e48317b42a94923bcf8d7915d53916647
+  1.0.9--h52dea56_6: sha256:269e50f1203d7b68e84241b70333e591b76340783578dedf7a3f217fdbf93ac2
 docker: quay.io/biocontainers/cassiopee
 aliases:
   cassiopee: /usr/local/bin/cassiopee

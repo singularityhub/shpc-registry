@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/smhasher
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smhasher
 latest:
-  0.150.1--py36h2ad2d48_6: sha256:8bdba4a4e70771909374f5f8e7890272dd2a165ccbf911c1ae87c415d3f3a632
+  0.150.1--py39h1f90b4d_9: sha256:d40132b191ca8e68008159e16a839e0c561ce911091c471be99e60b3e744c8ce
 tags:
   0.150.1--py36h2ad2d48_6: sha256:8bdba4a4e70771909374f5f8e7890272dd2a165ccbf911c1ae87c415d3f3a632
+  0.150.1--py39h1f90b4d_9: sha256:d40132b191ca8e68008159e16a839e0c561ce911091c471be99e60b3e744c8ce
 docker: quay.io/biocontainers/smhasher
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

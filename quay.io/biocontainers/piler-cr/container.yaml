@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/piler-cr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for piler-cr
 latest:
-  1.06--h9f5acd7_2: sha256:1d7c387480eb9d86d16e70708c9e08d826982b2cfb28b985c9cc6bc7520c8eb9
+  1.06--h4ac6f70_4: sha256:81d4e8b220fd9d93e7a17712bf3f384e6c0e0802c724f25c70046b0c40ea4717
 tags:
   1.06--h9f5acd7_2: sha256:1d7c387480eb9d86d16e70708c9e08d826982b2cfb28b985c9cc6bc7520c8eb9
+  1.06--h4ac6f70_4: sha256:81d4e8b220fd9d93e7a17712bf3f384e6c0e0802c724f25c70046b0c40ea4717
 docker: quay.io/biocontainers/piler-cr
 aliases:
   pilercr: /usr/local/bin/pilercr

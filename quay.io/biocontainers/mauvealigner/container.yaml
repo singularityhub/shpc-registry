@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mauvealigner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mauvealigner
 latest:
-  1.2.0--h46c59ee_4: sha256:ca39c349ec8a579035650243993cc3ddc6eea9d7c5f06abdbb83facbc410fe43
+  1.2.0--he153687_5: sha256:6063b041b711b6350f1510694b13495300dd0bc34a3cbdd4eddfeccabf93dfd9
 tags:
   1.2.0--h46c59ee_4: sha256:ca39c349ec8a579035650243993cc3ddc6eea9d7c5f06abdbb83facbc410fe43
+  1.2.0--he153687_5: sha256:6063b041b711b6350f1510694b13495300dd0bc34a3cbdd4eddfeccabf93dfd9
 docker: quay.io/biocontainers/mauvealigner
 aliases:
   addUnalignedIntervals: /usr/local/bin/addUnalignedIntervals

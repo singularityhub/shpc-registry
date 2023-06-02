@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/anospp-analysis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for anospp-analysis
 latest:
-  0.1.3--pyh7cba7a3_0: sha256:5b0c9c143b7ddba4c7c7db1c6aaac90a9a033e045ceab76b23ebd1a34c0cfb36
+  0.2.1--pyhdfd78af_1: sha256:95487f5a2c080e746734ad4cf2bed71422312d993ba33d55f11edba606090a06
 tags:
   0.1.3--pyh7cba7a3_0: sha256:5b0c9c143b7ddba4c7c7db1c6aaac90a9a033e045ceab76b23ebd1a34c0cfb36
+  0.2.1--pyhdfd78af_1: sha256:95487f5a2c080e746734ad4cf2bed71422312d993ba33d55f11edba606090a06
 docker: quay.io/biocontainers/anospp-analysis
 aliases:
   anospp-prep: /usr/local/bin/anospp-prep

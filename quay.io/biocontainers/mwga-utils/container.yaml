@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mwga-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mwga-utils
 latest:
-  0.1.6--h9f5acd7_0: sha256:5959aac716b40fdd522cd6e7ac37333e17c1b269537902f370a552e7a7c9dc0d
+  0.1.6--h4ac6f70_2: sha256:72347643ba7d2208078cf35dd29c6cc6d8dbdde10a5fe2c7d2fa4906db8ff115
 tags:
   0.1.4--h9f5acd7_1: sha256:ca2a396654fba41221c11e51d2d93badd69836bc605f9e634e600e69532e93f5
   0.1.6--h9f5acd7_0: sha256:5959aac716b40fdd522cd6e7ac37333e17c1b269537902f370a552e7a7c9dc0d
+  0.1.6--h4ac6f70_2: sha256:72347643ba7d2208078cf35dd29c6cc6d8dbdde10a5fe2c7d2fa4906db8ff115
 docker: quay.io/biocontainers/mwga-utils
 aliases:
   metrics: /usr/local/bin/metrics

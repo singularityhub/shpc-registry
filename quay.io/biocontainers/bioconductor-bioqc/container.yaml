@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bioqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bioqc
 latest:
-  1.26.0--r42hc247a5b_0: sha256:0398c2d3c8cd78d37d4a4d4f4e006318a4970472c3e697ed3a3dc4558bd84502
+  1.26.0--r42hf17093f_1: sha256:256fccf4e7eb0832f646361010cc487263b4a80f1ef23d12f70173b34dacb73e
 tags:
   1.8.0--r341hfc679d8_0: sha256:a55dba9d4cc3b0ab78715db6384c908a0226c55588c16d4bc241589caa5283a0
   1.22.0--r41hc247a5b_2: sha256:cc76208d641da94003e4e17ade26d8bc16406dab93cd512f08a8495fe20f011e
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40h5f743cb_0: sha256:9767c349029687a2e147b7f2f220db6bf5706cb3c2a3a51e97373f53223e12c6
   1.14.0--r36he1b5a44_0: sha256:d8de53d31e4212de1670ed936d53d67d485a6f097ee5d0cd8199f7aa36ce3b4c
   1.26.0--r42hc247a5b_0: sha256:0398c2d3c8cd78d37d4a4d4f4e006318a4970472c3e697ed3a3dc4558bd84502
+  1.26.0--r42hf17093f_1: sha256:256fccf4e7eb0832f646361010cc487263b4a80f1ef23d12f70173b34dacb73e
 docker: quay.io/biocontainers/bioconductor-bioqc
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

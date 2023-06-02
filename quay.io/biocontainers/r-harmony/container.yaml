@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/r-harmony
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-harmony
 latest:
-  0.1--r42h9f5acd7_4: sha256:02a01d55d46df5ef85d305bece69df615b0c77bb0c0b91e9a2a4d588a3547a9f
+  0.1--r42h4ac6f70_5: sha256:dc93a4a12e6cec1dec913ff8f7053092a83ca18ee22c0b7eadc6eb6a6da5b73a
 tags:
   0.1--r41h9f5acd7_3: sha256:1fd01dbb8a21e4a10b2009513d6d34b85264fe6a11a8cd831a8111a8b99b7e1a
   0.1--r42h9f5acd7_4: sha256:02a01d55d46df5ef85d305bece69df615b0c77bb0c0b91e9a2a4d588a3547a9f
+  0.1--r42h4ac6f70_5: sha256:dc93a4a12e6cec1dec913ff8f7053092a83ca18ee22c0b7eadc6eb6a6da5b73a
 docker: quay.io/biocontainers/r-harmony

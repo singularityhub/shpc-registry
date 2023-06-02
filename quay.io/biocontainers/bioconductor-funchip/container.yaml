@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-funchip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-funchip
 latest:
-  1.24.0--r42hc247a5b_0: sha256:61848695e2c9249832d3edbd7e3f102c7b69db5b43a89ed655e1ece6c2804a75
+  1.24.0--r42hf17093f_1: sha256:a1820b34a7d7d67c7499949c1e19789b1a5b93f722f1f1ae559fea20de57ac03
 tags:
   1.8.0--r351hf484d3e_0: sha256:d8296eadaf1491a5a1124089cbe6398e9ae0761af41926bc5e9ca4dd3191f566
   1.20.0--r41hc247a5b_2: sha256:d0a4cd7e55ffec015fbe615a3e47c7113d36a5da335c37904d951bbf262e556d
@@ -11,6 +11,7 @@ tags:
   1.14.0--r40h5f743cb_0: sha256:3f814eec23cd33ba13ed903a9f83ee69af6ac7486d097cad471f7a810c27a965
   1.12.0--r36he1b5a44_0: sha256:202bb4608087fde7aec04c2bef281e754df83424c828237339805c351eb3a751
   1.24.0--r42hc247a5b_0: sha256:61848695e2c9249832d3edbd7e3f102c7b69db5b43a89ed655e1ece6c2804a75
+  1.24.0--r42hf17093f_1: sha256:a1820b34a7d7d67c7499949c1e19789b1a5b93f722f1f1ae559fea20de57ac03
 docker: quay.io/biocontainers/bioconductor-funchip
 aliases:
   wget: /usr/local/bin/wget

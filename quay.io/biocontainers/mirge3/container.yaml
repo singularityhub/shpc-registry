@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/mirge3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mirge3
 latest:
-  0.1.4--pyh7cba7a3_0: sha256:0d4e8aabad71ba31a0b864c4bc13406df03d7e2175521c697f68bd08605ff80e
+  0.1.4--pyh7cba7a3_1: sha256:c78ca6e0e49c69bc3be7eacd92cf175ecac01666d5e1a3be2373a43e12372202
 tags:
   0.1.1--pyh7cba7a3_0: sha256:d67c441abb353724e1496973852b3ab0b52e1965cd1067d8ee60b634b70c53e4
   0.1.2--pyh7cba7a3_0: sha256:ce4d7749521ddb5e67814144b40c9978d23b9256f455e1025332f8c51f2ca209
   0.1.4--pyh7cba7a3_0: sha256:0d4e8aabad71ba31a0b864c4bc13406df03d7e2175521c697f68bd08605ff80e
+  0.1.4--pyh7cba7a3_1: sha256:c78ca6e0e49c69bc3be7eacd92cf175ecac01666d5e1a3be2373a43e12372202
 docker: quay.io/biocontainers/mirge3
 aliases:
   miRge3.0: /usr/local/bin/miRge3.0

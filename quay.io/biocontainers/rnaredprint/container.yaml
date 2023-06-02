@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rnaredprint
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnaredprint
 latest:
-  0.3pre--py39h9f5acd7_3: sha256:9978439c4f91c1fcc5f8cf26461eb0bed59aff5191cf062b0f01e55ab76eff3c
+  0.3pre--py310h4ac6f70_4: sha256:f1887c1726a027a3f99d490e0ea65687453e59ba4b3947a3240b2504a9e1203a
 tags:
   0.3pre--py39h9f5acd7_3: sha256:9978439c4f91c1fcc5f8cf26461eb0bed59aff5191cf062b0f01e55ab76eff3c
+  0.3pre--py310h4ac6f70_4: sha256:f1887c1726a027a3f99d490e0ea65687453e59ba4b3947a3240b2504a9e1203a
 docker: quay.io/biocontainers/rnaredprint
 aliases:
   RNARedPrint: /usr/local/bin/RNARedPrint

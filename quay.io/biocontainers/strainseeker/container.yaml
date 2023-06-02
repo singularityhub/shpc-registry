@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/strainseeker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for strainseeker
 latest:
-  1.5.1--hec16e2b_2: sha256:be4bb3c9bf5d80b0623a5acc096b7b28bffdccdc28ef07e07b31d62a2dba5696
+  1.5.1--h031d066_4: sha256:c03e0c06623c5a20e894085517e83b67b26d7602e310b852aa9004d048856774
 tags:
   1.5.1--hec16e2b_2: sha256:be4bb3c9bf5d80b0623a5acc096b7b28bffdccdc28ef07e07b31d62a2dba5696
+  1.5.1--h031d066_4: sha256:c03e0c06623c5a20e894085517e83b67b26d7602e310b852aa9004d048856774
 docker: quay.io/biocontainers/strainseeker
 aliases:
   builder.pl: /usr/local/bin/builder.pl

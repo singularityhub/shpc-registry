@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-pdinfobuilder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pdinfobuilder
 latest:
-  1.62.0--r42hc0cfd56_0: sha256:11678705080d48db53bb90c4f2ed37a4cc5c0c3481c9914c6fd8fb97f681c031
+  1.62.0--r42ha9d7317_1: sha256:5ac98c300a455e0a5e5896e41dbdefceb3304c7bcb25c40adfb4688a0cc1e80a
 tags:
   1.58.0--r41hc0cfd56_2: sha256:6d7a33b0cd8ef54cb8635234040fdb74297bf914f5b5e4946cb93b3f9db0080f
   1.62.0--r42hc0cfd56_0: sha256:11678705080d48db53bb90c4f2ed37a4cc5c0c3481c9914c6fd8fb97f681c031
+  1.62.0--r42ha9d7317_1: sha256:5ac98c300a455e0a5e5896e41dbdefceb3304c7bcb25c40adfb4688a0cc1e80a
 docker: quay.io/biocontainers/bioconductor-pdinfobuilder

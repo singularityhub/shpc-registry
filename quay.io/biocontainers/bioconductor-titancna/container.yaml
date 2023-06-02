@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-titancna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-titancna
 latest:
-  1.36.0--r42hc0cfd56_0: sha256:1231f62e1bf1818f06d24f20b677b5ca922ca7878546b37d0809643ee748bea9
+  1.36.0--r42ha9d7317_1: sha256:56ad42ef82635ac04c38c07ccad03ebbf9fa6e979b0c36bc144c531ce8a58a34
 tags:
   1.32.0--r41hc0cfd56_2: sha256:274cb17823262d460c301873afe9381d09ddf214947007a516acaf4966579a2d
   1.36.0--r42hc0cfd56_0: sha256:1231f62e1bf1818f06d24f20b677b5ca922ca7878546b37d0809643ee748bea9
+  1.36.0--r42ha9d7317_1: sha256:56ad42ef82635ac04c38c07ccad03ebbf9fa6e979b0c36bc144c531ce8a58a34
 docker: quay.io/biocontainers/bioconductor-titancna
