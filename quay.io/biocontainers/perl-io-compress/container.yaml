@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/perl-io-compress
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-io-compress
 latest:
-  2.201--pl5321h87f3376_0: sha256:0144c44a01c57ac54b86676462335fe12620b7fdb2c25822e43c84a652448e79
+  2.201--pl5321hdbdd923_2: sha256:d3f3d12652640fb994d9e2c0fc875008589297a8c6f3bad7309a881b8e0988c1
 tags:
   2.201--pl5321h87f3376_0: sha256:0144c44a01c57ac54b86676462335fe12620b7fdb2c25822e43c84a652448e79
+  2.201--pl5321hdbdd923_2: sha256:d3f3d12652640fb994d9e2c0fc875008589297a8c6f3bad7309a881b8e0988c1
 docker: quay.io/biocontainers/perl-io-compress

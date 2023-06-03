@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/dmbiolib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dmbiolib
 latest:
-  0.3.10--pyhdfd78af_0: sha256:f23bf7e97ca8e2772fd6a1315659e73ed8c897ea225853f9cb9b2072b2d6145d
+  0.4.3--pyhdfd78af_0: sha256:c38876750d81b9dee771d173f7f01bf817c95c03b8a5dffc6c344d12cd6ac36c
 tags:
   0.3.8--pyhdfd78af_1: sha256:8e37b53d3738173eb10cd679c1f70b6828ecb2586343c731c66d8b3ff009b49d
   0.3.10--pyhdfd78af_0: sha256:f23bf7e97ca8e2772fd6a1315659e73ed8c897ea225853f9cb9b2072b2d6145d
+  0.4.3--pyhdfd78af_0: sha256:c38876750d81b9dee771d173f7f01bf817c95c03b8a5dffc6c344d12cd6ac36c
 docker: quay.io/biocontainers/dmbiolib
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

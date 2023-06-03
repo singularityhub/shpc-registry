@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phylobayes-mpi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylobayes-mpi
 latest:
-  1.9--h5c6ebe3_0: sha256:59cea55c90b867a650fdbcf1935c621a4a37daca90aba2c4e4317777a626fae5
+  1.9--h103dbdd_2: sha256:d3b7cba604d7816ed2efef76a99a01ec2a220cda6ade2dc025040a5d35492495
 tags:
   1.9--h5c6ebe3_0: sha256:59cea55c90b867a650fdbcf1935c621a4a37daca90aba2c4e4317777a626fae5
+  1.9--h103dbdd_2: sha256:d3b7cba604d7816ed2efef76a99a01ec2a220cda6ade2dc025040a5d35492495
 docker: quay.io/biocontainers/phylobayes-mpi
 aliases:
   bpcomp: /usr/local/bin/bpcomp

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pbbam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbbam
 latest:
-  2.1.0--h65681a6_4: sha256:8974351da859d63aa425823067d5bdd8f498c0033725bc716f04c3da80a8088a
+  2.1.0--h8db2425_5: sha256:28f564f22c49f5902d7aefa5fb85f17ca0797a6d45cffa88d729c0e632b74859
 tags:
   2.1.0--h218f6fc_3: sha256:41f6225765f09151bafb660cfdfed0ab9bc268a80a5b6df392568a5dae73cba8
   2.1.0--h65681a6_4: sha256:8974351da859d63aa425823067d5bdd8f498c0033725bc716f04c3da80a8088a
+  2.1.0--h8db2425_5: sha256:28f564f22c49f5902d7aefa5fb85f17ca0797a6d45cffa88d729c0e632b74859
 docker: quay.io/biocontainers/pbbam
 aliases:
   ccs-kinetics-bystrandify: /usr/local/bin/ccs-kinetics-bystrandify

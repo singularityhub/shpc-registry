@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-messina
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-messina
 latest:
-  1.34.0--r42hc247a5b_0: sha256:4a0b47131fa83c803b03fd3c652fe81d5c6c961b08564c927d9759ee5541b615
+  1.34.0--r42hf17093f_2: sha256:da11542f1d2109450e57612df52d43c35ebecd15902d71e6b009d89f8dda306e
 tags:
   1.30.0--r41hc247a5b_2: sha256:e1a4f18eb7a8b4e9dd6057f1753b6da2b05bd8318bc83432852696185a2b7848
   1.34.0--r42hc247a5b_0: sha256:4a0b47131fa83c803b03fd3c652fe81d5c6c961b08564c927d9759ee5541b615
+  1.34.0--r42hf17093f_2: sha256:da11542f1d2109450e57612df52d43c35ebecd15902d71e6b009d89f8dda306e
 docker: quay.io/biocontainers/bioconductor-messina

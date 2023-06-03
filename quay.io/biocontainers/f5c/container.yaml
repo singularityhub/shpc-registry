@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/f5c
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for f5c
 latest:
-  1.1--h0326b38_1: sha256:b491cfafa553e03de8e7eae3a7782d72dbe89c6821ddb9ba1cceffac75b18c4c
+  1.2--h500492e_2: sha256:2657c0828b00543f4bea74fd504a008d9e28d1dc9a03cd6fa190aaac442a6fde
 tags:
   1.1--h0326b38_1: sha256:b491cfafa553e03de8e7eae3a7782d72dbe89c6821ddb9ba1cceffac75b18c4c
+  1.2--h500492e_2: sha256:2657c0828b00543f4bea74fd504a008d9e28d1dc9a03cd6fa190aaac442a6fde
 docker: quay.io/biocontainers/f5c
 aliases:
   f5c: /usr/local/bin/f5c

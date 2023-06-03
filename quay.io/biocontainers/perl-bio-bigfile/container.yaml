@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-bio-bigfile
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-bio-bigfile
 latest:
-  1.07--pl5321h0e0aaa8_3: sha256:8aec7603ddfb3086d96a0754e4c6198d61deff0a50557afadda578a3ac336dcf
+  1.07--pl5321h84c94e8_4: sha256:2079082675435b5cdf81cb324ef1a4bfcb48187542a7239a8e018e99b5b40ce6
 tags:
   1.07--pl526hab1572f_1: sha256:1a20db37bc1ba1e679ebe4d6a7483d00263ef17ff2812dd5882ca18d862aaded
   1.07--pl5321h0e0aaa8_3: sha256:8aec7603ddfb3086d96a0754e4c6198d61deff0a50557afadda578a3ac336dcf
+  1.07--pl5321h84c94e8_4: sha256:2079082675435b5cdf81cb324ef1a4bfcb48187542a7239a8e018e99b5b40ce6
 docker: quay.io/biocontainers/perl-bio-bigfile
 aliases:
   bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl

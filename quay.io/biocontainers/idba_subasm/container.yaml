@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/idba_subasm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for idba_subasm
 latest:
-  1.1.3a2--py38pl5321h8ded8fe_5: sha256:14ec1655a93326ba80231553deb5c635b6908f4f3769f3ea12f8e1ee6edbfad3
+  1.1.3a2--py310pl5321h068649b_7: sha256:b67c886939d3b17fd9cc0c1173f4b1f92f12005c70b123937c98bd72099e6800
 tags:
   1.1.3a2--py38pl5321h8ded8fe_5: sha256:14ec1655a93326ba80231553deb5c635b6908f4f3769f3ea12f8e1ee6edbfad3
+  1.1.3a2--py310pl5321h068649b_7: sha256:b67c886939d3b17fd9cc0c1173f4b1f92f12005c70b123937c98bd72099e6800
 docker: quay.io/biocontainers/idba_subasm
 aliases:
   Makefile: /usr/local/bin/Makefile

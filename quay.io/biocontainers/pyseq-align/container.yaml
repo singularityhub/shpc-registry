@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyseq-align
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyseq-align
 latest:
-  1.0.2--py37h8902056_1: sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0
+  1.0.2--py39hf95cd2a_3: sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496
 tags:
   1.0.2--py37h8902056_1: sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0
+  1.0.2--py39hf95cd2a_3: sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496
 docker: quay.io/biocontainers/pyseq-align
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-camera
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-camera
 latest:
-  1.54.0--r42hc0cfd56_0: sha256:09f48ef9fb0c05f70eeeefdf578ae438ca941b3821cace5fca004ef714dd820c
+  1.54.0--r42ha9d7317_1: sha256:ee826d1360b1c16379a1fba5b6f9dd4b87f19969e0efe76418331dc553dd309d
 tags:
   1.50.0--r41hc0cfd56_2: sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b
   1.54.0--r42hc0cfd56_0: sha256:09f48ef9fb0c05f70eeeefdf578ae438ca941b3821cace5fca004ef714dd820c
+  1.54.0--r42ha9d7317_1: sha256:ee826d1360b1c16379a1fba5b6f9dd4b87f19969e0efe76418331dc553dd309d
 docker: quay.io/biocontainers/bioconductor-camera
 aliases:
   zipcmp: /usr/local/bin/zipcmp
