@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-aroma.affymetrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aroma.affymetrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aroma.affymetrix/container.yaml"
-updated_at: "2023-06-02 03:32:11.865014"
+updated_at: "2023-06-03 03:21:20.095231"
 latest: "3.2.1--r42h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-aroma.affymetrix"
 

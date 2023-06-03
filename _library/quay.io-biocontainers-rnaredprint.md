@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnaredprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaredprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaredprint/container.yaml"
-updated_at: "2023-06-02 02:58:18.591630"
-latest: "0.3pre--py39h9f5acd7_3"
+updated_at: "2023-06-03 03:11:03.506898"
+latest: "0.3pre--py310h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/rnaredprint"
 aliases:
  - "RNARedPrint"
@@ -27,8 +27,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "0.3pre--py39h9f5acd7_3"
+ - "0.3pre--py310h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for rnaredprint"
-config: {"url": "https://biocontainers.pro/tools/rnaredprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaredprint", "latest": {"0.3pre--py39h9f5acd7_3": "sha256:9978439c4f91c1fcc5f8cf26461eb0bed59aff5191cf062b0f01e55ab76eff3c"}, "tags": {"0.3pre--py39h9f5acd7_3": "sha256:9978439c4f91c1fcc5f8cf26461eb0bed59aff5191cf062b0f01e55ab76eff3c"}, "docker": "quay.io/biocontainers/rnaredprint", "aliases": {"RNARedPrint": "/usr/local/bin/RNARedPrint", "RNARedPrintSampler.py": "/usr/local/bin/RNARedPrintSampler.py", "RNARedPrintStructure.py": "/usr/local/bin/RNARedPrintStructure.py", "RNAmultifold": "/usr/local/bin/RNAmultifold", "calcprobs.py": "/usr/local/bin/calcprobs.py", "design-energyshift.py": "/usr/local/bin/design-energyshift.py", "design-multistate.py": "/usr/local/bin/design-multistate.py", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/rnaredprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaredprint", "latest": {"0.3pre--py310h4ac6f70_4": "sha256:f1887c1726a027a3f99d490e0ea65687453e59ba4b3947a3240b2504a9e1203a"}, "tags": {"0.3pre--py39h9f5acd7_3": "sha256:9978439c4f91c1fcc5f8cf26461eb0bed59aff5191cf062b0f01e55ab76eff3c", "0.3pre--py310h4ac6f70_4": "sha256:f1887c1726a027a3f99d490e0ea65687453e59ba4b3947a3240b2504a9e1203a"}, "docker": "quay.io/biocontainers/rnaredprint", "aliases": {"RNARedPrint": "/usr/local/bin/RNARedPrint", "RNARedPrintSampler.py": "/usr/local/bin/RNARedPrintSampler.py", "RNARedPrintStructure.py": "/usr/local/bin/RNARedPrintStructure.py", "RNAmultifold": "/usr/local/bin/RNAmultifold", "calcprobs.py": "/usr/local/bin/calcprobs.py", "design-energyshift.py": "/usr/local/bin/design-energyshift.py", "design-multistate.py": "/usr/local/bin/design-multistate.py", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnaredprint.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/rnaredprint
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnaredprint:0.3pre--py39h9f5acd7_3
+$ shpc install quay.io/biocontainers/rnaredprint:0.3pre--py310h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnaredprint/0.3pre--py39h9f5acd7_3
-$ module help quay.io/biocontainers/rnaredprint/0.3pre--py39h9f5acd7_3
+$ module load quay.io/biocontainers/rnaredprint/0.3pre--py310h4ac6f70_4
+$ module help quay.io/biocontainers/rnaredprint/0.3pre--py310h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastq-and-furious"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-and-furious/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-and-furious/container.yaml"
-updated_at: "2023-06-02 03:06:15.763342"
-latest: "0.3.2--py39hbf8eff0_0"
+updated_at: "2023-06-03 03:47:26.033796"
+latest: "0.3.2--py39hf95cd2a_3"
 container_url: "https://biocontainers.pro/tools/fastq-and-furious"
 aliases:
  - "2to3-3.9"
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.3.2--py39hbf8eff0_0"
+ - "0.3.2--py39hf95cd2a_3"
 description: "shpc-registry automated BioContainers addition for fastq-and-furious"
-config: {"url": "https://biocontainers.pro/tools/fastq-and-furious", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-and-furious", "latest": {"0.3.2--py39hbf8eff0_0": "sha256:bb8c5c3846656e29b325f0c6cd6b3e5254d8d2947afe827a1d55e8df0b38aa66"}, "tags": {"0.3.2--py39hbf8eff0_0": "sha256:bb8c5c3846656e29b325f0c6cd6b3e5254d8d2947afe827a1d55e8df0b38aa66"}, "docker": "quay.io/biocontainers/fastq-and-furious", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-and-furious", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-and-furious", "latest": {"0.3.2--py39hf95cd2a_3": "sha256:4095229570443a3f7a69cf6151102123068773ecbd8df2dcad161bb449807bf9"}, "tags": {"0.3.2--py39hbf8eff0_0": "sha256:bb8c5c3846656e29b325f0c6cd6b3e5254d8d2947afe827a1d55e8df0b38aa66", "0.3.2--py39hf95cd2a_3": "sha256:4095229570443a3f7a69cf6151102123068773ecbd8df2dcad161bb449807bf9"}, "docker": "quay.io/biocontainers/fastq-and-furious", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-and-furious.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/fastq-and-furious
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-and-furious:0.3.2--py39hbf8eff0_0
+$ shpc install quay.io/biocontainers/fastq-and-furious:0.3.2--py39hf95cd2a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-and-furious/0.3.2--py39hbf8eff0_0
-$ module help quay.io/biocontainers/fastq-and-furious/0.3.2--py39hbf8eff0_0
+$ module load quay.io/biocontainers/fastq-and-furious/0.3.2--py39hf95cd2a_3
+$ module help quay.io/biocontainers/fastq-and-furious/0.3.2--py39hf95cd2a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

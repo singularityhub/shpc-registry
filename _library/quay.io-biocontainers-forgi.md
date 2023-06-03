@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/forgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/forgi/container.yaml"
-updated_at: "2023-06-02 03:00:23.848796"
+updated_at: "2023-06-03 03:41:39.272604"
 latest: "2.1.1--py38hfd5ab5c_2"
 container_url: "https://biocontainers.pro/tools/forgi"
 aliases:

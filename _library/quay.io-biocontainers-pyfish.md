@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfish/container.yaml"
-updated_at: "2023-06-02 03:40:17.257960"
+updated_at: "2023-06-03 03:21:29.970919"
 latest: "1.0.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pyfish"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-veloviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-veloviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-veloviz/container.yaml"
-updated_at: "2023-06-02 03:06:00.358605"
-latest: "1.4.0--r42hc247a5b_0"
+updated_at: "2023-06-03 02:59:01.437174"
+latest: "1.4.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-veloviz"
 aliases:
  - "glpsol"
 versions:
  - "1.0.0--r41hc247a5b_2"
  - "1.4.0--r42hc247a5b_0"
+ - "1.4.0--r42hf17093f_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-veloviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-veloviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-veloviz", "latest": {"1.4.0--r42hc247a5b_0": "sha256:893f3de9188cbf1f68515bfa7d6e088bdcbbdfc86c3b6f2ff4811444c8ed2aaa"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:773acab824a6e8f966c76cb7fc8bf53447ce7a1ab6f0238dab0ad54bc49a33b7", "1.4.0--r42hc247a5b_0": "sha256:893f3de9188cbf1f68515bfa7d6e088bdcbbdfc86c3b6f2ff4811444c8ed2aaa"}, "docker": "quay.io/biocontainers/bioconductor-veloviz", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-veloviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-veloviz", "latest": {"1.4.0--r42hf17093f_2": "sha256:580b008799d4bf5e82ea50aa03258ec74c7b34e660fe8298ae7cc42092ad843d"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:773acab824a6e8f966c76cb7fc8bf53447ce7a1ab6f0238dab0ad54bc49a33b7", "1.4.0--r42hc247a5b_0": "sha256:893f3de9188cbf1f68515bfa7d6e088bdcbbdfc86c3b6f2ff4811444c8ed2aaa", "1.4.0--r42hf17093f_2": "sha256:580b008799d4bf5e82ea50aa03258ec74c7b34e660fe8298ae7cc42092ad843d"}, "docker": "quay.io/biocontainers/bioconductor-veloviz", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-veloviz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-veloviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-veloviz:1.4.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-veloviz:1.4.0--r42hf17093f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-veloviz/1.4.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-veloviz/1.4.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-veloviz/1.4.0--r42hf17093f_2
+$ module help quay.io/biocontainers/bioconductor-veloviz/1.4.0--r42hf17093f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

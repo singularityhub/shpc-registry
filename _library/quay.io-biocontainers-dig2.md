@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dig2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dig2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dig2/container.yaml"
-updated_at: "2023-06-02 03:24:01.861533"
-latest: "1.0--hec16e2b_4"
+updated_at: "2023-06-03 03:16:20.476398"
+latest: "1.0--h031d066_6"
 container_url: "https://biocontainers.pro/tools/dig2"
 aliases:
  - "dig2"
 versions:
  - "1.0--hec16e2b_4"
+ - "1.0--h031d066_6"
 description: "shpc-registry automated BioContainers addition for dig2"
-config: {"url": "https://biocontainers.pro/tools/dig2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dig2", "latest": {"1.0--hec16e2b_4": "sha256:40f977a1846ea2fe50b3c42ee11323b6f0bb86af1d75e6ec149552eed22cb86e"}, "tags": {"1.0--hec16e2b_4": "sha256:40f977a1846ea2fe50b3c42ee11323b6f0bb86af1d75e6ec149552eed22cb86e"}, "docker": "quay.io/biocontainers/dig2", "aliases": {"dig2": "/usr/local/bin/dig2"}}
+config: {"url": "https://biocontainers.pro/tools/dig2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dig2", "latest": {"1.0--h031d066_6": "sha256:30fa16d12a4814b047df1ab30d62c16c0e1e89c27afe1cf6c65cb9094b41558c"}, "tags": {"1.0--hec16e2b_4": "sha256:40f977a1846ea2fe50b3c42ee11323b6f0bb86af1d75e6ec149552eed22cb86e", "1.0--h031d066_6": "sha256:30fa16d12a4814b047df1ab30d62c16c0e1e89c27afe1cf6c65cb9094b41558c"}, "docker": "quay.io/biocontainers/dig2", "aliases": {"dig2": "/usr/local/bin/dig2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dig2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dig2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dig2:1.0--hec16e2b_4
+$ shpc install quay.io/biocontainers/dig2:1.0--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dig2/1.0--hec16e2b_4
-$ module help quay.io/biocontainers/dig2/1.0--hec16e2b_4
+$ module load quay.io/biocontainers/dig2/1.0--h031d066_6
+$ module help quay.io/biocontainers/dig2/1.0--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

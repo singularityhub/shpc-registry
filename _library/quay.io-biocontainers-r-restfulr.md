@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-restfulr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-restfulr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-restfulr/container.yaml"
-updated_at: "2023-06-02 03:20:49.471354"
-latest: "0.0.15--r42h73dbb54_1"
+updated_at: "2023-06-03 02:50:07.047499"
+latest: "0.0.15--r42h56115f1_2"
 container_url: "https://biocontainers.pro/tools/r-restfulr"
 
 versions:
  - "0.0.15--r41h73dbb54_0"
  - "0.0.15--r42h73dbb54_1"
+ - "0.0.15--r42h56115f1_2"
 description: "shpc-registry automated BioContainers addition for r-restfulr"
-config: {"url": "https://biocontainers.pro/tools/r-restfulr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-restfulr", "latest": {"0.0.15--r42h73dbb54_1": "sha256:5c1c466da19a9dd64c7913eaca2d62025efc0a70176f4f0947072c46b74f8568"}, "tags": {"0.0.15--r41h73dbb54_0": "sha256:340fa0079df70852cfeda06b7b65b587920b430198631b2a51cff6b1281b16df", "0.0.15--r42h73dbb54_1": "sha256:5c1c466da19a9dd64c7913eaca2d62025efc0a70176f4f0947072c46b74f8568"}, "docker": "quay.io/biocontainers/r-restfulr"}
+config: {"url": "https://biocontainers.pro/tools/r-restfulr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-restfulr", "latest": {"0.0.15--r42h56115f1_2": "sha256:e99253362d746e4be9c5966bebf9a20915579a6dda095bc1f13b376651e65a59"}, "tags": {"0.0.15--r41h73dbb54_0": "sha256:340fa0079df70852cfeda06b7b65b587920b430198631b2a51cff6b1281b16df", "0.0.15--r42h73dbb54_1": "sha256:5c1c466da19a9dd64c7913eaca2d62025efc0a70176f4f0947072c46b74f8568", "0.0.15--r42h56115f1_2": "sha256:e99253362d746e4be9c5966bebf9a20915579a6dda095bc1f13b376651e65a59"}, "docker": "quay.io/biocontainers/r-restfulr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-restfulr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-restfulr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-restfulr:0.0.15--r42h73dbb54_1
+$ shpc install quay.io/biocontainers/r-restfulr:0.0.15--r42h56115f1_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-restfulr/0.0.15--r42h73dbb54_1
-$ module help quay.io/biocontainers/r-restfulr/0.0.15--r42h73dbb54_1
+$ module load quay.io/biocontainers/r-restfulr/0.0.15--r42h56115f1_2
+$ module help quay.io/biocontainers/r-restfulr/0.0.15--r42h56115f1_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

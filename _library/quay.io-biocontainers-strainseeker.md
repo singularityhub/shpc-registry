@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strainseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainseeker/container.yaml"
-updated_at: "2023-06-02 03:35:56.485033"
-latest: "1.5.1--hec16e2b_2"
+updated_at: "2023-06-03 03:30:42.282548"
+latest: "1.5.1--h031d066_4"
 container_url: "https://biocontainers.pro/tools/strainseeker"
 aliases:
  - "builder.pl"
@@ -22,8 +22,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.5.1--hec16e2b_2"
+ - "1.5.1--h031d066_4"
 description: "shpc-registry automated BioContainers addition for strainseeker"
-config: {"url": "https://biocontainers.pro/tools/strainseeker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainseeker", "latest": {"1.5.1--hec16e2b_2": "sha256:be4bb3c9bf5d80b0623a5acc096b7b28bffdccdc28ef07e07b31d62a2dba5696"}, "tags": {"1.5.1--hec16e2b_2": "sha256:be4bb3c9bf5d80b0623a5acc096b7b28bffdccdc28ef07e07b31d62a2dba5696"}, "docker": "quay.io/biocontainers/strainseeker", "aliases": {"builder.pl": "/usr/local/bin/builder.pl", "cov.R": "/usr/local/bin/cov.R", "drawtree.R": "/usr/local/bin/drawtree.R", "gdistribution": "/usr/local/bin/gdistribution", "glistcompare": "/usr/local/bin/glistcompare", "glistmaker": "/usr/local/bin/glistmaker", "glistquery": "/usr/local/bin/glistquery", "gmer_counter": "/usr/local/bin/gmer_counter", "oe.R": "/usr/local/bin/oe.R", "seeker.pl": "/usr/local/bin/seeker.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/strainseeker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainseeker", "latest": {"1.5.1--h031d066_4": "sha256:c03e0c06623c5a20e894085517e83b67b26d7602e310b852aa9004d048856774"}, "tags": {"1.5.1--hec16e2b_2": "sha256:be4bb3c9bf5d80b0623a5acc096b7b28bffdccdc28ef07e07b31d62a2dba5696", "1.5.1--h031d066_4": "sha256:c03e0c06623c5a20e894085517e83b67b26d7602e310b852aa9004d048856774"}, "docker": "quay.io/biocontainers/strainseeker", "aliases": {"builder.pl": "/usr/local/bin/builder.pl", "cov.R": "/usr/local/bin/cov.R", "drawtree.R": "/usr/local/bin/drawtree.R", "gdistribution": "/usr/local/bin/gdistribution", "glistcompare": "/usr/local/bin/glistcompare", "glistmaker": "/usr/local/bin/glistmaker", "glistquery": "/usr/local/bin/glistquery", "gmer_counter": "/usr/local/bin/gmer_counter", "oe.R": "/usr/local/bin/oe.R", "seeker.pl": "/usr/local/bin/seeker.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strainseeker.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/strainseeker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strainseeker:1.5.1--hec16e2b_2
+$ shpc install quay.io/biocontainers/strainseeker:1.5.1--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strainseeker/1.5.1--hec16e2b_2
-$ module help quay.io/biocontainers/strainseeker/1.5.1--hec16e2b_2
+$ module load quay.io/biocontainers/strainseeker/1.5.1--h031d066_4
+$ module help quay.io/biocontainers/strainseeker/1.5.1--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

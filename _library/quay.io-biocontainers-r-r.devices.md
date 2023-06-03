@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.devices"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.devices/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.devices/container.yaml"
-updated_at: "2023-06-02 03:16:01.485333"
+updated_at: "2023-06-03 02:59:37.092119"
 latest: "2.15.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.devices"
 aliases:

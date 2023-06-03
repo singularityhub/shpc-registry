@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/qfilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qfilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qfilt/container.yaml"
-updated_at: "2023-06-02 03:17:37.870174"
-latest: "0.0.1--h9f5acd7_4"
+updated_at: "2023-06-03 03:13:05.931327"
+latest: "0.0.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/qfilt"
 aliases:
  - "qfilt"
 versions:
  - "0.0.1--h9f5acd7_4"
+ - "0.0.1--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for qfilt"
-config: {"url": "https://biocontainers.pro/tools/qfilt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qfilt", "latest": {"0.0.1--h9f5acd7_4": "sha256:ac1e2fba0d07cf02a05b695e45b038ccd655d2d2a300448f9047ac32849a7cf4"}, "tags": {"0.0.1--h9f5acd7_4": "sha256:ac1e2fba0d07cf02a05b695e45b038ccd655d2d2a300448f9047ac32849a7cf4"}, "docker": "quay.io/biocontainers/qfilt", "aliases": {"qfilt": "/usr/local/bin/qfilt"}}
+config: {"url": "https://biocontainers.pro/tools/qfilt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qfilt", "latest": {"0.0.1--h4ac6f70_6": "sha256:1c7aa521a0d1975fb10963a2368ac192f4929063be518fe7bf327afedeff31b6"}, "tags": {"0.0.1--h9f5acd7_4": "sha256:ac1e2fba0d07cf02a05b695e45b038ccd655d2d2a300448f9047ac32849a7cf4", "0.0.1--h4ac6f70_6": "sha256:1c7aa521a0d1975fb10963a2368ac192f4929063be518fe7bf327afedeff31b6"}, "docker": "quay.io/biocontainers/qfilt", "aliases": {"qfilt": "/usr/local/bin/qfilt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qfilt.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/qfilt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/qfilt:0.0.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/qfilt:0.0.1--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/qfilt/0.0.1--h9f5acd7_4
-$ module help quay.io/biocontainers/qfilt/0.0.1--h9f5acd7_4
+$ module load quay.io/biocontainers/qfilt/0.0.1--h4ac6f70_6
+$ module help quay.io/biocontainers/qfilt/0.0.1--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

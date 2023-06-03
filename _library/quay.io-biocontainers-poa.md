@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/poa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poa/container.yaml"
-updated_at: "2023-06-02 02:56:38.613042"
-latest: "2.0--hec16e2b_4"
+updated_at: "2023-06-03 03:46:27.322776"
+latest: "2.0--h031d066_5"
 container_url: "https://biocontainers.pro/tools/poa"
 aliases:
  - "make_pscores.pl"
@@ -22,8 +22,9 @@ aliases:
  - "makemat"
 versions:
  - "2.0--hec16e2b_4"
+ - "2.0--h031d066_5"
 description: "shpc-registry automated BioContainers addition for poa"
-config: {"url": "https://biocontainers.pro/tools/poa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poa", "latest": {"2.0--hec16e2b_4": "sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f"}, "tags": {"2.0--hec16e2b_4": "sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f"}, "docker": "quay.io/biocontainers/poa", "aliases": {"make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/poa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poa", "latest": {"2.0--h031d066_5": "sha256:05c85e531ab68c0477693a3f8d6c6d03abb7de5e84d51dbfa6fe20b503e47316"}, "tags": {"2.0--hec16e2b_4": "sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f", "2.0--h031d066_5": "sha256:05c85e531ab68c0477693a3f8d6c6d03abb7de5e84d51dbfa6fe20b503e47316"}, "docker": "quay.io/biocontainers/poa", "aliases": {"make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poa.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/poa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/poa:2.0--hec16e2b_4
+$ shpc install quay.io/biocontainers/poa:2.0--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/poa/2.0--hec16e2b_4
-$ module help quay.io/biocontainers/poa/2.0--hec16e2b_4
+$ module load quay.io/biocontainers/poa/2.0--h031d066_5
+$ module help quay.io/biocontainers/poa/2.0--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

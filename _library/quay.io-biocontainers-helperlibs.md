@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/helperlibs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/helperlibs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/helperlibs/container.yaml"
-updated_at: "2023-06-02 03:36:18.066086"
+updated_at: "2023-06-03 02:56:29.260030"
 latest: "0.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/helperlibs"
 aliases:

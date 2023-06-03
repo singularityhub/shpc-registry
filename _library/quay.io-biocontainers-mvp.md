@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mvp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mvp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mvp/container.yaml"
-updated_at: "2023-06-02 03:40:04.344097"
+updated_at: "2023-06-03 03:38:15.595567"
 latest: "0.4.3--1"
 container_url: "https://biocontainers.pro/tools/mvp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rscudo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rscudo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rscudo/container.yaml"
-updated_at: "2023-06-02 03:07:56.318340"
+updated_at: "2023-06-03 03:52:04.334144"
 latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rscudo"
 aliases:

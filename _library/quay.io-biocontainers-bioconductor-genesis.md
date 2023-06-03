@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genesis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genesis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genesis/container.yaml"
-updated_at: "2023-06-02 03:44:14.778389"
+updated_at: "2023-06-03 03:17:14.964910"
 latest: "2.28.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genesis"
 aliases:

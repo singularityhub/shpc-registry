@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mosdepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosdepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mosdepth/container.yaml"
-updated_at: "2023-06-02 03:43:48.690977"
-latest: "0.3.3--h37c5b7d_2"
+updated_at: "2023-06-03 03:45:41.551203"
+latest: "0.3.3--hd299d5a_3"
 container_url: "https://biocontainers.pro/tools/mosdepth"
 aliases:
  - "mosdepth"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.3.3--h37c5b7d_2"
+ - "0.3.3--hd299d5a_3"
 description: "shpc-registry automated BioContainers addition for mosdepth"
-config: {"url": "https://biocontainers.pro/tools/mosdepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mosdepth", "latest": {"0.3.3--h37c5b7d_2": "sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e"}, "tags": {"0.3.3--h37c5b7d_2": "sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e"}, "docker": "quay.io/biocontainers/mosdepth", "aliases": {"mosdepth": "/usr/local/bin/mosdepth", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/mosdepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mosdepth", "latest": {"0.3.3--hd299d5a_3": "sha256:ef76d433d242983979b72ff2ee03624be59330ea8a5bd7c70004953d265fcced"}, "tags": {"0.3.3--h37c5b7d_2": "sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e", "0.3.3--hd299d5a_3": "sha256:ef76d433d242983979b72ff2ee03624be59330ea8a5bd7c70004953d265fcced"}, "docker": "quay.io/biocontainers/mosdepth", "aliases": {"mosdepth": "/usr/local/bin/mosdepth", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mosdepth.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mosdepth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mosdepth:0.3.3--h37c5b7d_2
+$ shpc install quay.io/biocontainers/mosdepth:0.3.3--hd299d5a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mosdepth/0.3.3--h37c5b7d_2
-$ module help quay.io/biocontainers/mosdepth/0.3.3--h37c5b7d_2
+$ module load quay.io/biocontainers/mosdepth/0.3.3--hd299d5a_3
+$ module help quay.io/biocontainers/mosdepth/0.3.3--hd299d5a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

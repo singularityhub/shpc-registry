@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/raxml-ng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raxml-ng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raxml-ng/container.yaml"
-updated_at: "2023-06-02 03:34:47.940322"
-latest: "1.1.0--h22e3c99_1"
+updated_at: "2023-06-03 02:50:14.535936"
+latest: "1.2.0--h22e3c99_0"
 container_url: "https://biocontainers.pro/tools/raxml-ng"
 aliases:
  - "raxml-ng"
@@ -22,8 +22,10 @@ aliases:
  - "oshrun"
 versions:
  - "1.1.0--h22e3c99_1"
+ - "1.2.0--h22e3c99_0"
+ - "1.1.0--h6d1f11b_3"
 description: "shpc-registry automated BioContainers addition for raxml-ng"
-config: {"url": "https://biocontainers.pro/tools/raxml-ng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raxml-ng", "latest": {"1.1.0--h22e3c99_1": "sha256:1f7d3b92b50ef5e2f7ec6330cdadf41e252e878b80657b15290e57cb54e86a82"}, "tags": {"1.1.0--h22e3c99_1": "sha256:1f7d3b92b50ef5e2f7ec6330cdadf41e252e878b80657b15290e57cb54e86a82"}, "docker": "quay.io/biocontainers/raxml-ng", "aliases": {"raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/raxml-ng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raxml-ng", "latest": {"1.2.0--h22e3c99_0": "sha256:ce0db13822ea66e9d359fb501622f7e1f83bf282f47cf4a951000f6323b4c677"}, "tags": {"1.1.0--h22e3c99_1": "sha256:1f7d3b92b50ef5e2f7ec6330cdadf41e252e878b80657b15290e57cb54e86a82", "1.2.0--h22e3c99_0": "sha256:ce0db13822ea66e9d359fb501622f7e1f83bf282f47cf4a951000f6323b4c677", "1.1.0--h6d1f11b_3": "sha256:175e69fddd618fe37c5cb311570e6e2260a086c097077feac09e57f0fb4ac4e8"}, "docker": "quay.io/biocontainers/raxml-ng", "aliases": {"raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/raxml-ng.
@@ -38,7 +40,7 @@ $ shpc install quay.io/biocontainers/raxml-ng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/raxml-ng:1.1.0--h22e3c99_1
+$ shpc install quay.io/biocontainers/raxml-ng:1.2.0--h22e3c99_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/raxml-ng/1.1.0--h22e3c99_1
-$ module help quay.io/biocontainers/raxml-ng/1.1.0--h22e3c99_1
+$ module load quay.io/biocontainers/raxml-ng/1.2.0--h22e3c99_0
+$ module help quay.io/biocontainers/raxml-ng/1.2.0--h22e3c99_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/potrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/potrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/potrace/container.yaml"
-updated_at: "2023-06-02 03:27:13.546191"
-latest: "1.11--h7132678_4"
+updated_at: "2023-06-03 02:49:27.375197"
+latest: "1.11--he4a0461_6"
 container_url: "https://biocontainers.pro/tools/potrace"
 aliases:
  - "mkbitmap"
  - "potrace"
 versions:
  - "1.11--h7132678_4"
+ - "1.11--he4a0461_6"
 description: "shpc-registry automated BioContainers addition for potrace"
-config: {"url": "https://biocontainers.pro/tools/potrace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for potrace", "latest": {"1.11--h7132678_4": "sha256:de45921cc951741c62b1a39ec9f605b44aac3431aa84636fcbdbe6362d2a4b46"}, "tags": {"1.11--h7132678_4": "sha256:de45921cc951741c62b1a39ec9f605b44aac3431aa84636fcbdbe6362d2a4b46"}, "docker": "quay.io/biocontainers/potrace", "aliases": {"mkbitmap": "/usr/local/bin/mkbitmap", "potrace": "/usr/local/bin/potrace"}}
+config: {"url": "https://biocontainers.pro/tools/potrace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for potrace", "latest": {"1.11--he4a0461_6": "sha256:49dac6feebafdde82f88a845db0d5c7f95854d033a0b4b1bb0bbb23f80f69b97"}, "tags": {"1.11--h7132678_4": "sha256:de45921cc951741c62b1a39ec9f605b44aac3431aa84636fcbdbe6362d2a4b46", "1.11--he4a0461_6": "sha256:49dac6feebafdde82f88a845db0d5c7f95854d033a0b4b1bb0bbb23f80f69b97"}, "docker": "quay.io/biocontainers/potrace", "aliases": {"mkbitmap": "/usr/local/bin/mkbitmap", "potrace": "/usr/local/bin/potrace"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/potrace.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/potrace
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/potrace:1.11--h7132678_4
+$ shpc install quay.io/biocontainers/potrace:1.11--he4a0461_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/potrace/1.11--h7132678_4
-$ module help quay.io/biocontainers/potrace/1.11--h7132678_4
+$ module load quay.io/biocontainers/potrace/1.11--he4a0461_6
+$ module help quay.io/biocontainers/potrace/1.11--he4a0461_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

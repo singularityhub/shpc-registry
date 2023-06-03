@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strainge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainge/container.yaml"
-updated_at: "2023-06-02 03:12:14.502638"
-latest: "1.3.7--py39h6359176_0"
+updated_at: "2023-06-03 03:28:20.168080"
+latest: "1.3.7--py39h31164c1_1"
 container_url: "https://biocontainers.pro/tools/strainge"
 aliases:
  - "kmercoverage"
@@ -34,8 +34,9 @@ aliases:
 versions:
  - "1.3.3--py39hcaef8bb_0"
  - "1.3.7--py39h6359176_0"
+ - "1.3.7--py39h31164c1_1"
 description: "shpc-registry automated BioContainers addition for strainge"
-config: {"url": "https://biocontainers.pro/tools/strainge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainge", "latest": {"1.3.7--py39h6359176_0": "sha256:a391c7e561166b9c0099fbd5ca7df8ce8529f6b83382e8a5edf04609ef685892"}, "tags": {"1.3.3--py39hcaef8bb_0": "sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d", "1.3.7--py39h6359176_0": "sha256:a391c7e561166b9c0099fbd5ca7df8ce8529f6b83382e8a5edf04609ef685892"}, "docker": "quay.io/biocontainers/strainge", "aliases": {"kmercoverage": "/usr/local/bin/kmercoverage", "kmerseq": "/usr/local/bin/kmerseq", "kmersimilarity": "/usr/local/bin/kmersimilarity", "kmerspectrum": "/usr/local/bin/kmerspectrum", "kmertree": "/usr/local/bin/kmertree", "pankmer": "/usr/local/bin/pankmer", "pybind11-config": "/usr/local/bin/pybind11-config", "refseq-download": "/usr/local/bin/refseq-download", "refseq-extract": "/usr/local/bin/refseq-extract", "strainge": "/usr/local/bin/strainge", "straingr": "/usr/local/bin/straingr", "straingst": "/usr/local/bin/straingst", "treepath": "/usr/local/bin/treepath", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
+config: {"url": "https://biocontainers.pro/tools/strainge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainge", "latest": {"1.3.7--py39h31164c1_1": "sha256:70e975ba2f8526d95bc907b8433731bd3fdac8e7430f6fbcf5cb4a8ea83ebc77"}, "tags": {"1.3.3--py39hcaef8bb_0": "sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d", "1.3.7--py39h6359176_0": "sha256:a391c7e561166b9c0099fbd5ca7df8ce8529f6b83382e8a5edf04609ef685892", "1.3.7--py39h31164c1_1": "sha256:70e975ba2f8526d95bc907b8433731bd3fdac8e7430f6fbcf5cb4a8ea83ebc77"}, "docker": "quay.io/biocontainers/strainge", "aliases": {"kmercoverage": "/usr/local/bin/kmercoverage", "kmerseq": "/usr/local/bin/kmerseq", "kmersimilarity": "/usr/local/bin/kmersimilarity", "kmerspectrum": "/usr/local/bin/kmerspectrum", "kmertree": "/usr/local/bin/kmertree", "pankmer": "/usr/local/bin/pankmer", "pybind11-config": "/usr/local/bin/pybind11-config", "refseq-download": "/usr/local/bin/refseq-download", "refseq-extract": "/usr/local/bin/refseq-extract", "strainge": "/usr/local/bin/strainge", "straingr": "/usr/local/bin/straingr", "straingst": "/usr/local/bin/straingst", "treepath": "/usr/local/bin/treepath", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strainge.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/strainge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strainge:1.3.7--py39h6359176_0
+$ shpc install quay.io/biocontainers/strainge:1.3.7--py39h31164c1_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strainge/1.3.7--py39h6359176_0
-$ module help quay.io/biocontainers/strainge/1.3.7--py39h6359176_0
+$ module load quay.io/biocontainers/strainge/1.3.7--py39h31164c1_1
+$ module help quay.io/biocontainers/strainge/1.3.7--py39h31164c1_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

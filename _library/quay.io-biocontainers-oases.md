@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oases"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oases/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oases/container.yaml"
-updated_at: "2023-06-02 02:57:39.877961"
+updated_at: "2023-06-03 03:21:57.715030"
 latest: "0.2.09--h470a237_1"
 container_url: "https://biocontainers.pro/tools/oases"
 aliases:

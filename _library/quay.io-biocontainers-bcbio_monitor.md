@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio_monitor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio_monitor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio_monitor/container.yaml"
-updated_at: "2023-06-02 03:25:30.626895"
+updated_at: "2023-06-03 03:33:06.003558"
 latest: "1.0.6--py_4"
 container_url: "https://biocontainers.pro/tools/bcbio_monitor"
 aliases:

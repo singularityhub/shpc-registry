@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microbecensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microbecensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microbecensus/container.yaml"
-updated_at: "2023-06-02 02:53:17.706817"
+updated_at: "2023-06-03 03:38:33.192672"
 latest: "1.1.1--0"
 container_url: "https://biocontainers.pro/tools/microbecensus"
 aliases:

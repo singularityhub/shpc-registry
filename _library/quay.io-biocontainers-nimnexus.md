@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nimnexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nimnexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nimnexus/container.yaml"
-updated_at: "2023-06-02 03:32:30.875481"
-latest: "0.1.1--hcb20899_3"
+updated_at: "2023-06-03 03:09:09.629463"
+latest: "0.1.1--hf43ccf4_4"
 container_url: "https://biocontainers.pro/tools/nimnexus"
 aliases:
  - "nimnexus"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.1.1--hcb20899_3"
+ - "0.1.1--hf43ccf4_4"
 description: "shpc-registry automated BioContainers addition for nimnexus"
-config: {"url": "https://biocontainers.pro/tools/nimnexus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nimnexus", "latest": {"0.1.1--hcb20899_3": "sha256:3a3e07cb246460cfda10bb119a4a1964d626fbe8d0541edd83d9b37f6ee3f867"}, "tags": {"0.1.1--hcb20899_3": "sha256:3a3e07cb246460cfda10bb119a4a1964d626fbe8d0541edd83d9b37f6ee3f867"}, "docker": "quay.io/biocontainers/nimnexus", "aliases": {"nimnexus": "/usr/local/bin/nimnexus", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/nimnexus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nimnexus", "latest": {"0.1.1--hf43ccf4_4": "sha256:53c7378fdab7125b1e5a12366ff88735700a2cc09fa7af0fa56dbf5628006d03"}, "tags": {"0.1.1--hcb20899_3": "sha256:3a3e07cb246460cfda10bb119a4a1964d626fbe8d0541edd83d9b37f6ee3f867", "0.1.1--hf43ccf4_4": "sha256:53c7378fdab7125b1e5a12366ff88735700a2cc09fa7af0fa56dbf5628006d03"}, "docker": "quay.io/biocontainers/nimnexus", "aliases": {"nimnexus": "/usr/local/bin/nimnexus", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nimnexus.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/nimnexus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nimnexus:0.1.1--hcb20899_3
+$ shpc install quay.io/biocontainers/nimnexus:0.1.1--hf43ccf4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nimnexus/0.1.1--hcb20899_3
-$ module help quay.io/biocontainers/nimnexus/0.1.1--hcb20899_3
+$ module load quay.io/biocontainers/nimnexus/0.1.1--hf43ccf4_4
+$ module help quay.io/biocontainers/nimnexus/0.1.1--hf43ccf4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

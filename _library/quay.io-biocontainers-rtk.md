@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rtk/container.yaml"
-updated_at: "2023-06-02 02:53:20.603416"
-latest: "0.93.2--hd03093a_2"
+updated_at: "2023-06-03 03:16:40.112780"
+latest: "0.93.2--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/rtk"
 aliases:
  - "rtk"
 versions:
  - "0.93.2--hd03093a_2"
+ - "0.93.2--hdcf5f25_4"
 description: "shpc-registry automated BioContainers addition for rtk"
-config: {"url": "https://biocontainers.pro/tools/rtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rtk", "latest": {"0.93.2--hd03093a_2": "sha256:d597102d8d468ab21ec4c46b8bc40b5d4fbaa9c1ecf3f390989da60214515b0b"}, "tags": {"0.93.2--hd03093a_2": "sha256:d597102d8d468ab21ec4c46b8bc40b5d4fbaa9c1ecf3f390989da60214515b0b"}, "docker": "quay.io/biocontainers/rtk", "aliases": {"rtk": "/usr/local/bin/rtk"}}
+config: {"url": "https://biocontainers.pro/tools/rtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rtk", "latest": {"0.93.2--hdcf5f25_4": "sha256:a33adc45a383d9cf2aa44eb469e360e630702db184b271af6b4b24be3c67394f"}, "tags": {"0.93.2--hd03093a_2": "sha256:d597102d8d468ab21ec4c46b8bc40b5d4fbaa9c1ecf3f390989da60214515b0b", "0.93.2--hdcf5f25_4": "sha256:a33adc45a383d9cf2aa44eb469e360e630702db184b271af6b4b24be3c67394f"}, "docker": "quay.io/biocontainers/rtk", "aliases": {"rtk": "/usr/local/bin/rtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rtk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rtk:0.93.2--hd03093a_2
+$ shpc install quay.io/biocontainers/rtk:0.93.2--hdcf5f25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rtk/0.93.2--hd03093a_2
-$ module help quay.io/biocontainers/rtk/0.93.2--hd03093a_2
+$ module load quay.io/biocontainers/rtk/0.93.2--hdcf5f25_4
+$ module help quay.io/biocontainers/rtk/0.93.2--hdcf5f25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

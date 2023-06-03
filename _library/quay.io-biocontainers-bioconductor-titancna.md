@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-titancna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-titancna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-titancna/container.yaml"
-updated_at: "2023-06-02 03:31:22.429021"
-latest: "1.36.0--r42hc0cfd56_0"
+updated_at: "2023-06-03 03:20:38.859312"
+latest: "1.36.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-titancna"
 
 versions:
  - "1.32.0--r41hc0cfd56_2"
  - "1.36.0--r42hc0cfd56_0"
+ - "1.36.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-titancna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-titancna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-titancna", "latest": {"1.36.0--r42hc0cfd56_0": "sha256:1231f62e1bf1818f06d24f20b677b5ca922ca7878546b37d0809643ee748bea9"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:274cb17823262d460c301873afe9381d09ddf214947007a516acaf4966579a2d", "1.36.0--r42hc0cfd56_0": "sha256:1231f62e1bf1818f06d24f20b677b5ca922ca7878546b37d0809643ee748bea9"}, "docker": "quay.io/biocontainers/bioconductor-titancna"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-titancna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-titancna", "latest": {"1.36.0--r42ha9d7317_1": "sha256:56ad42ef82635ac04c38c07ccad03ebbf9fa6e979b0c36bc144c531ce8a58a34"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:274cb17823262d460c301873afe9381d09ddf214947007a516acaf4966579a2d", "1.36.0--r42hc0cfd56_0": "sha256:1231f62e1bf1818f06d24f20b677b5ca922ca7878546b37d0809643ee748bea9", "1.36.0--r42ha9d7317_1": "sha256:56ad42ef82635ac04c38c07ccad03ebbf9fa6e979b0c36bc144c531ce8a58a34"}, "docker": "quay.io/biocontainers/bioconductor-titancna"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-titancna.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-titancna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-titancna:1.36.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-titancna:1.36.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-titancna/1.36.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-titancna/1.36.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-titancna/1.36.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-titancna/1.36.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

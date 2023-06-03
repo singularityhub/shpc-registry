@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mwga-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mwga-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mwga-utils/container.yaml"
-updated_at: "2023-06-02 03:33:33.920075"
-latest: "0.1.6--h9f5acd7_0"
+updated_at: "2023-06-03 03:02:58.298048"
+latest: "0.1.6--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/mwga-utils"
 aliases:
  - "metrics"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "0.1.4--h9f5acd7_1"
  - "0.1.6--h9f5acd7_0"
+ - "0.1.6--h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for mwga-utils"
-config: {"url": "https://biocontainers.pro/tools/mwga-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mwga-utils", "latest": {"0.1.6--h9f5acd7_0": "sha256:5959aac716b40fdd522cd6e7ac37333e17c1b269537902f370a552e7a7c9dc0d"}, "tags": {"0.1.4--h9f5acd7_1": "sha256:ca2a396654fba41221c11e51d2d93badd69836bc605f9e634e600e69532e93f5", "0.1.6--h9f5acd7_0": "sha256:5959aac716b40fdd522cd6e7ac37333e17c1b269537902f370a552e7a7c9dc0d"}, "docker": "quay.io/biocontainers/mwga-utils", "aliases": {"metrics": "/usr/local/bin/metrics", "missing_regions": "/usr/local/bin/missing_regions", "single_cov": "/usr/local/bin/single_cov", "stats": "/usr/local/bin/stats"}}
+config: {"url": "https://biocontainers.pro/tools/mwga-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mwga-utils", "latest": {"0.1.6--h4ac6f70_2": "sha256:72347643ba7d2208078cf35dd29c6cc6d8dbdde10a5fe2c7d2fa4906db8ff115"}, "tags": {"0.1.4--h9f5acd7_1": "sha256:ca2a396654fba41221c11e51d2d93badd69836bc605f9e634e600e69532e93f5", "0.1.6--h9f5acd7_0": "sha256:5959aac716b40fdd522cd6e7ac37333e17c1b269537902f370a552e7a7c9dc0d", "0.1.6--h4ac6f70_2": "sha256:72347643ba7d2208078cf35dd29c6cc6d8dbdde10a5fe2c7d2fa4906db8ff115"}, "docker": "quay.io/biocontainers/mwga-utils", "aliases": {"metrics": "/usr/local/bin/metrics", "missing_regions": "/usr/local/bin/missing_regions", "single_cov": "/usr/local/bin/single_cov", "stats": "/usr/local/bin/stats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mwga-utils.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mwga-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mwga-utils:0.1.6--h9f5acd7_0
+$ shpc install quay.io/biocontainers/mwga-utils:0.1.6--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mwga-utils/0.1.6--h9f5acd7_0
-$ module help quay.io/biocontainers/mwga-utils/0.1.6--h9f5acd7_0
+$ module load quay.io/biocontainers/mwga-utils/0.1.6--h4ac6f70_2
+$ module help quay.io/biocontainers/mwga-utils/0.1.6--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-types-serialiser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-types-serialiser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-types-serialiser/container.yaml"
-updated_at: "2023-06-02 03:30:42.146755"
+updated_at: "2023-06-03 02:55:08.653887"
 latest: "1.01--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-types-serialiser"
 aliases:

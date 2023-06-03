@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-velocyto.r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-velocyto.r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-velocyto.r/container.yaml"
-updated_at: "2023-06-02 03:19:07.689381"
-latest: "0.6--r42h46c59ee_5"
+updated_at: "2023-06-03 02:51:42.860323"
+latest: "0.6--r42he153687_6"
 container_url: "https://biocontainers.pro/tools/r-velocyto.r"
 aliases:
  - "mirror_server"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.6--r41h46c59ee_4"
  - "0.6--r42h46c59ee_5"
+ - "0.6--r42he153687_6"
 description: "shpc-registry automated BioContainers addition for r-velocyto.r"
-config: {"url": "https://biocontainers.pro/tools/r-velocyto.r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-velocyto.r", "latest": {"0.6--r42h46c59ee_5": "sha256:3de209926c985c5136bba1814b86c9bbdc6818491c1113ef784d58d09acea757"}, "tags": {"0.6--r41h46c59ee_4": "sha256:035375e26022e0f01f6c46c53c956bfb8e7f20672ce50a41dca3602f8f2ab58d", "0.6--r42h46c59ee_5": "sha256:3de209926c985c5136bba1814b86c9bbdc6818491c1113ef784d58d09acea757"}, "docker": "quay.io/biocontainers/r-velocyto.r", "aliases": {"mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/r-velocyto.r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-velocyto.r", "latest": {"0.6--r42he153687_6": "sha256:4d1c469e2e1aa7baae99ee2e92ae7211ca0b915e4112448531b1be98a066d1d5"}, "tags": {"0.6--r41h46c59ee_4": "sha256:035375e26022e0f01f6c46c53c956bfb8e7f20672ce50a41dca3602f8f2ab58d", "0.6--r42h46c59ee_5": "sha256:3de209926c985c5136bba1814b86c9bbdc6818491c1113ef784d58d09acea757", "0.6--r42he153687_6": "sha256:4d1c469e2e1aa7baae99ee2e92ae7211ca0b915e4112448531b1be98a066d1d5"}, "docker": "quay.io/biocontainers/r-velocyto.r", "aliases": {"mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-velocyto.r.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/r-velocyto.r
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-velocyto.r:0.6--r42h46c59ee_5
+$ shpc install quay.io/biocontainers/r-velocyto.r:0.6--r42he153687_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-velocyto.r/0.6--r42h46c59ee_5
-$ module help quay.io/biocontainers/r-velocyto.r/0.6--r42h46c59ee_5
+$ module load quay.io/biocontainers/r-velocyto.r/0.6--r42he153687_6
+$ module help quay.io/biocontainers/r-velocyto.r/0.6--r42he153687_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

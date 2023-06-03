@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-harmony"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-harmony/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-harmony/container.yaml"
-updated_at: "2023-06-02 03:21:25.845197"
-latest: "0.1--r42h9f5acd7_4"
+updated_at: "2023-06-03 03:10:12.675548"
+latest: "0.1--r42h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/r-harmony"
 
 versions:
  - "0.1--r41h9f5acd7_3"
  - "0.1--r42h9f5acd7_4"
+ - "0.1--r42h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for r-harmony"
-config: {"url": "https://biocontainers.pro/tools/r-harmony", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-harmony", "latest": {"0.1--r42h9f5acd7_4": "sha256:02a01d55d46df5ef85d305bece69df615b0c77bb0c0b91e9a2a4d588a3547a9f"}, "tags": {"0.1--r41h9f5acd7_3": "sha256:1fd01dbb8a21e4a10b2009513d6d34b85264fe6a11a8cd831a8111a8b99b7e1a", "0.1--r42h9f5acd7_4": "sha256:02a01d55d46df5ef85d305bece69df615b0c77bb0c0b91e9a2a4d588a3547a9f"}, "docker": "quay.io/biocontainers/r-harmony"}
+config: {"url": "https://biocontainers.pro/tools/r-harmony", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-harmony", "latest": {"0.1--r42h4ac6f70_5": "sha256:dc93a4a12e6cec1dec913ff8f7053092a83ca18ee22c0b7eadc6eb6a6da5b73a"}, "tags": {"0.1--r41h9f5acd7_3": "sha256:1fd01dbb8a21e4a10b2009513d6d34b85264fe6a11a8cd831a8111a8b99b7e1a", "0.1--r42h9f5acd7_4": "sha256:02a01d55d46df5ef85d305bece69df615b0c77bb0c0b91e9a2a4d588a3547a9f", "0.1--r42h4ac6f70_5": "sha256:dc93a4a12e6cec1dec913ff8f7053092a83ca18ee22c0b7eadc6eb6a6da5b73a"}, "docker": "quay.io/biocontainers/r-harmony"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-harmony.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-harmony
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-harmony:0.1--r42h9f5acd7_4
+$ shpc install quay.io/biocontainers/r-harmony:0.1--r42h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-harmony/0.1--r42h9f5acd7_4
-$ module help quay.io/biocontainers/r-harmony/0.1--r42h9f5acd7_4
+$ module load quay.io/biocontainers/r-harmony/0.1--r42h4ac6f70_5
+$ module help quay.io/biocontainers/r-harmony/0.1--r42h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mauvealigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mauvealigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mauvealigner/container.yaml"
-updated_at: "2023-06-02 03:04:11.036002"
-latest: "1.2.0--h46c59ee_4"
+updated_at: "2023-06-03 03:34:48.486889"
+latest: "1.2.0--he153687_5"
 container_url: "https://biocontainers.pro/tools/mauvealigner"
 aliases:
  - "addUnalignedIntervals"
@@ -39,8 +39,9 @@ aliases:
  - "xmfa2maf"
 versions:
  - "1.2.0--h46c59ee_4"
+ - "1.2.0--he153687_5"
 description: "shpc-registry automated BioContainers addition for mauvealigner"
-config: {"url": "https://biocontainers.pro/tools/mauvealigner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mauvealigner", "latest": {"1.2.0--h46c59ee_4": "sha256:ca39c349ec8a579035650243993cc3ddc6eea9d7c5f06abdbb83facbc410fe43"}, "tags": {"1.2.0--h46c59ee_4": "sha256:ca39c349ec8a579035650243993cc3ddc6eea9d7c5f06abdbb83facbc410fe43"}, "docker": "quay.io/biocontainers/mauvealigner", "aliases": {"addUnalignedIntervals": "/usr/local/bin/addUnalignedIntervals", "alignmentProjector": "/usr/local/bin/alignmentProjector", "backbone_global_to_local": "/usr/local/bin/backbone_global_to_local", "bbAnalyze": "/usr/local/bin/bbAnalyze", "bbFilter": "/usr/local/bin/bbFilter", "coordinateTranslate": "/usr/local/bin/coordinateTranslate", "createBackboneMFA": "/usr/local/bin/createBackboneMFA", "extractBCITrees": "/usr/local/bin/extractBCITrees", "getAlignmentWindows": "/usr/local/bin/getAlignmentWindows", "getOrthologList": "/usr/local/bin/getOrthologList", "makeBadgerMatrix": "/usr/local/bin/makeBadgerMatrix", "mauveAligner": "/usr/local/bin/mauveAligner", "mauveStatic": "/usr/local/bin/mauveStatic", "mauveToXMFA": "/usr/local/bin/mauveToXMFA", "mfa2xmfa": "/usr/local/bin/mfa2xmfa", "progressiveMauve": "/usr/local/bin/progressiveMauve", "progressiveMauveStatic": "/usr/local/bin/progressiveMauveStatic", "projectAndStrip": "/usr/local/bin/projectAndStrip", "randomGeneSample": "/usr/local/bin/randomGeneSample", "repeatoire": "/usr/local/bin/repeatoire", "scoreAlignment": "/usr/local/bin/scoreAlignment", "stripGapColumns": "/usr/local/bin/stripGapColumns", "stripSubsetLCBs": "/usr/local/bin/stripSubsetLCBs", "toGrimmFormat": "/usr/local/bin/toGrimmFormat", "toMultiFastA": "/usr/local/bin/toMultiFastA", "toRawSequence": "/usr/local/bin/toRawSequence", "uniqueMerCount": "/usr/local/bin/uniqueMerCount", "uniquifyTrees": "/usr/local/bin/uniquifyTrees", "xmfa2maf": "/usr/local/bin/xmfa2maf"}}
+config: {"url": "https://biocontainers.pro/tools/mauvealigner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mauvealigner", "latest": {"1.2.0--he153687_5": "sha256:6063b041b711b6350f1510694b13495300dd0bc34a3cbdd4eddfeccabf93dfd9"}, "tags": {"1.2.0--h46c59ee_4": "sha256:ca39c349ec8a579035650243993cc3ddc6eea9d7c5f06abdbb83facbc410fe43", "1.2.0--he153687_5": "sha256:6063b041b711b6350f1510694b13495300dd0bc34a3cbdd4eddfeccabf93dfd9"}, "docker": "quay.io/biocontainers/mauvealigner", "aliases": {"addUnalignedIntervals": "/usr/local/bin/addUnalignedIntervals", "alignmentProjector": "/usr/local/bin/alignmentProjector", "backbone_global_to_local": "/usr/local/bin/backbone_global_to_local", "bbAnalyze": "/usr/local/bin/bbAnalyze", "bbFilter": "/usr/local/bin/bbFilter", "coordinateTranslate": "/usr/local/bin/coordinateTranslate", "createBackboneMFA": "/usr/local/bin/createBackboneMFA", "extractBCITrees": "/usr/local/bin/extractBCITrees", "getAlignmentWindows": "/usr/local/bin/getAlignmentWindows", "getOrthologList": "/usr/local/bin/getOrthologList", "makeBadgerMatrix": "/usr/local/bin/makeBadgerMatrix", "mauveAligner": "/usr/local/bin/mauveAligner", "mauveStatic": "/usr/local/bin/mauveStatic", "mauveToXMFA": "/usr/local/bin/mauveToXMFA", "mfa2xmfa": "/usr/local/bin/mfa2xmfa", "progressiveMauve": "/usr/local/bin/progressiveMauve", "progressiveMauveStatic": "/usr/local/bin/progressiveMauveStatic", "projectAndStrip": "/usr/local/bin/projectAndStrip", "randomGeneSample": "/usr/local/bin/randomGeneSample", "repeatoire": "/usr/local/bin/repeatoire", "scoreAlignment": "/usr/local/bin/scoreAlignment", "stripGapColumns": "/usr/local/bin/stripGapColumns", "stripSubsetLCBs": "/usr/local/bin/stripSubsetLCBs", "toGrimmFormat": "/usr/local/bin/toGrimmFormat", "toMultiFastA": "/usr/local/bin/toMultiFastA", "toRawSequence": "/usr/local/bin/toRawSequence", "uniqueMerCount": "/usr/local/bin/uniqueMerCount", "uniquifyTrees": "/usr/local/bin/uniquifyTrees", "xmfa2maf": "/usr/local/bin/xmfa2maf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mauvealigner.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/mauvealigner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mauvealigner:1.2.0--h46c59ee_4
+$ shpc install quay.io/biocontainers/mauvealigner:1.2.0--he153687_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mauvealigner/1.2.0--h46c59ee_4
-$ module help quay.io/biocontainers/mauvealigner/1.2.0--h46c59ee_4
+$ module load quay.io/biocontainers/mauvealigner/1.2.0--he153687_5
+$ module help quay.io/biocontainers/mauvealigner/1.2.0--he153687_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

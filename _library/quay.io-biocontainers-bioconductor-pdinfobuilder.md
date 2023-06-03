@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-pdinfobuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pdinfobuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pdinfobuilder/container.yaml"
-updated_at: "2023-06-02 03:44:31.123834"
-latest: "1.62.0--r42hc0cfd56_0"
+updated_at: "2023-06-03 03:15:49.568582"
+latest: "1.62.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pdinfobuilder"
 
 versions:
  - "1.58.0--r41hc0cfd56_2"
  - "1.62.0--r42hc0cfd56_0"
+ - "1.62.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-pdinfobuilder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pdinfobuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pdinfobuilder", "latest": {"1.62.0--r42hc0cfd56_0": "sha256:11678705080d48db53bb90c4f2ed37a4cc5c0c3481c9914c6fd8fb97f681c031"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:6d7a33b0cd8ef54cb8635234040fdb74297bf914f5b5e4946cb93b3f9db0080f", "1.62.0--r42hc0cfd56_0": "sha256:11678705080d48db53bb90c4f2ed37a4cc5c0c3481c9914c6fd8fb97f681c031"}, "docker": "quay.io/biocontainers/bioconductor-pdinfobuilder"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pdinfobuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pdinfobuilder", "latest": {"1.62.0--r42ha9d7317_1": "sha256:5ac98c300a455e0a5e5896e41dbdefceb3304c7bcb25c40adfb4688a0cc1e80a"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:6d7a33b0cd8ef54cb8635234040fdb74297bf914f5b5e4946cb93b3f9db0080f", "1.62.0--r42hc0cfd56_0": "sha256:11678705080d48db53bb90c4f2ed37a4cc5c0c3481c9914c6fd8fb97f681c031", "1.62.0--r42ha9d7317_1": "sha256:5ac98c300a455e0a5e5896e41dbdefceb3304c7bcb25c40adfb4688a0cc1e80a"}, "docker": "quay.io/biocontainers/bioconductor-pdinfobuilder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pdinfobuilder.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pdinfobuilder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pdinfobuilder:1.62.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-pdinfobuilder:1.62.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pdinfobuilder/1.62.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-pdinfobuilder/1.62.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-pdinfobuilder/1.62.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-pdinfobuilder/1.62.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

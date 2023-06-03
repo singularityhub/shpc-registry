@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/defiant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/defiant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/defiant/container.yaml"
-updated_at: "2023-06-02 03:03:22.819582"
-latest: "1.1.4--hec16e2b_3"
+updated_at: "2023-06-03 03:12:00.800243"
+latest: "1.1.4--h031d066_5"
 container_url: "https://biocontainers.pro/tools/defiant"
 aliases:
  - "defiant"
  - "roi"
 versions:
  - "1.1.4--hec16e2b_3"
+ - "1.1.4--h031d066_5"
 description: "shpc-registry automated BioContainers addition for defiant"
-config: {"url": "https://biocontainers.pro/tools/defiant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for defiant", "latest": {"1.1.4--hec16e2b_3": "sha256:6c2b5f1d6afac379a6ca33dee5b9d87cbb8b1418a3a481f5ccd069e1f9769f5e"}, "tags": {"1.1.4--hec16e2b_3": "sha256:6c2b5f1d6afac379a6ca33dee5b9d87cbb8b1418a3a481f5ccd069e1f9769f5e"}, "docker": "quay.io/biocontainers/defiant", "aliases": {"defiant": "/usr/local/bin/defiant", "roi": "/usr/local/bin/roi"}}
+config: {"url": "https://biocontainers.pro/tools/defiant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for defiant", "latest": {"1.1.4--h031d066_5": "sha256:0f621cb5bbcaf9dc603f867464602093a26962d7a1ed61aa5ba365c0d54f8ac0"}, "tags": {"1.1.4--hec16e2b_3": "sha256:6c2b5f1d6afac379a6ca33dee5b9d87cbb8b1418a3a481f5ccd069e1f9769f5e", "1.1.4--h031d066_5": "sha256:0f621cb5bbcaf9dc603f867464602093a26962d7a1ed61aa5ba365c0d54f8ac0"}, "docker": "quay.io/biocontainers/defiant", "aliases": {"defiant": "/usr/local/bin/defiant", "roi": "/usr/local/bin/roi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/defiant.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/defiant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/defiant:1.1.4--hec16e2b_3
+$ shpc install quay.io/biocontainers/defiant:1.1.4--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/defiant/1.1.4--hec16e2b_3
-$ module help quay.io/biocontainers/defiant/1.1.4--hec16e2b_3
+$ module load quay.io/biocontainers/defiant/1.1.4--h031d066_5
+$ module help quay.io/biocontainers/defiant/1.1.4--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-diffustats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffustats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffustats/container.yaml"
-updated_at: "2023-06-02 03:14:05.833449"
-latest: "1.18.0--r42hc247a5b_0"
+updated_at: "2023-06-03 03:47:02.259380"
+latest: "1.18.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffustats"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.12.0--r41h399db7b_0"
  - "1.10.2--r40h399db7b_0"
  - "1.18.0--r42hc247a5b_0"
+ - "1.18.0--r42hf17093f_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-diffustats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diffustats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffustats", "latest": {"1.18.0--r42hc247a5b_0": "sha256:4dcaaf770799248fa889ed567f4dc7f71742b780634c81b7a188fe3c59f39496"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:314f107e5d33eba99c0fe91fd44bc8bf57cb841bc26793898d0628153509c838", "1.14.0--r41hc247a5b_2": "sha256:ad02aadbee0db1932a65dbfc91a85b05c0aed60f6f437e35724fbc2c2b849f04", "1.12.0--r41h399db7b_0": "sha256:72dbd7fd8bf350629ba1541737d7bf58f2e114d4c3b8349cf64569889ac45ac5", "1.10.2--r40h399db7b_0": "sha256:1cdf4905827df3fc4af72df403a387cae60200857df4c481eeb383339bca05a0", "1.18.0--r42hc247a5b_0": "sha256:4dcaaf770799248fa889ed567f4dc7f71742b780634c81b7a188fe3c59f39496"}, "docker": "quay.io/biocontainers/bioconductor-diffustats", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diffustats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffustats", "latest": {"1.18.0--r42hf17093f_2": "sha256:133861ac1028351df9f186001eccdd584f1ffa9dfb96227dc425f196006444ce"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:314f107e5d33eba99c0fe91fd44bc8bf57cb841bc26793898d0628153509c838", "1.14.0--r41hc247a5b_2": "sha256:ad02aadbee0db1932a65dbfc91a85b05c0aed60f6f437e35724fbc2c2b849f04", "1.12.0--r41h399db7b_0": "sha256:72dbd7fd8bf350629ba1541737d7bf58f2e114d4c3b8349cf64569889ac45ac5", "1.10.2--r40h399db7b_0": "sha256:1cdf4905827df3fc4af72df403a387cae60200857df4c481eeb383339bca05a0", "1.18.0--r42hc247a5b_0": "sha256:4dcaaf770799248fa889ed567f4dc7f71742b780634c81b7a188fe3c59f39496", "1.18.0--r42hf17093f_2": "sha256:133861ac1028351df9f186001eccdd584f1ffa9dfb96227dc425f196006444ce"}, "docker": "quay.io/biocontainers/bioconductor-diffustats", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diffustats.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-diffustats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-diffustats:1.18.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-diffustats:1.18.0--r42hf17093f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-diffustats/1.18.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-diffustats/1.18.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-diffustats/1.18.0--r42hf17093f_2
+$ module help quay.io/biocontainers/bioconductor-diffustats/1.18.0--r42hf17093f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cardinal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cardinal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cardinal/container.yaml"
-updated_at: "2023-06-02 03:15:41.556839"
-latest: "3.0.1--r42hc247a5b_0"
+updated_at: "2023-06-03 03:32:53.279727"
+latest: "3.0.1--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cardinal"
 aliases:
  - "fftw-wisdom"
@@ -19,8 +19,9 @@ versions:
  - "2.10.0--r41h399db7b_0"
  - "3.0.0--r42hc247a5b_0"
  - "3.0.1--r42hc247a5b_0"
+ - "3.0.1--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cardinal"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cardinal", "latest": {"3.0.1--r42hc247a5b_0": "sha256:6bc0cd44e88f45cab255ea28d9ca8801312d7541530d40de2c8702c37c0c8362"}, "tags": {"2.8.0--r40h399db7b_2": "sha256:49af076e3f9f5c67f9482c909e947758ea730cbcabc6a25ea3054b284f60b396", "2.12.0--r41hc247a5b_2": "sha256:bc355cf3d07962ccd4246ce8be97374089fc740d498487c4ff635c2db9fc6441", "2.10.0--r41h399db7b_0": "sha256:83536b553aba4f728628d62a59f8eaf8b9a5468f21675dcf0c0e05333ab96804", "3.0.0--r42hc247a5b_0": "sha256:134a371e7680ba9d7bbe8387106983605642a308a46e1f8ea29f965c9d0013bc", "3.0.1--r42hc247a5b_0": "sha256:6bc0cd44e88f45cab255ea28d9ca8801312d7541530d40de2c8702c37c0c8362"}, "docker": "quay.io/biocontainers/bioconductor-cardinal", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cardinal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cardinal", "latest": {"3.0.1--r42hf17093f_1": "sha256:7b258d3e3303bc1f216d3d89c919113ca1e7f472ced53dbbaeded628a9315cab"}, "tags": {"2.8.0--r40h399db7b_2": "sha256:49af076e3f9f5c67f9482c909e947758ea730cbcabc6a25ea3054b284f60b396", "2.12.0--r41hc247a5b_2": "sha256:bc355cf3d07962ccd4246ce8be97374089fc740d498487c4ff635c2db9fc6441", "2.10.0--r41h399db7b_0": "sha256:83536b553aba4f728628d62a59f8eaf8b9a5468f21675dcf0c0e05333ab96804", "3.0.0--r42hc247a5b_0": "sha256:134a371e7680ba9d7bbe8387106983605642a308a46e1f8ea29f965c9d0013bc", "3.0.1--r42hc247a5b_0": "sha256:6bc0cd44e88f45cab255ea28d9ca8801312d7541530d40de2c8702c37c0c8362", "3.0.1--r42hf17093f_1": "sha256:7b258d3e3303bc1f216d3d89c919113ca1e7f472ced53dbbaeded628a9315cab"}, "docker": "quay.io/biocontainers/bioconductor-cardinal", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cardinal.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cardinal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cardinal:3.0.1--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-cardinal:3.0.1--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cardinal/3.0.1--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-cardinal/3.0.1--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-cardinal/3.0.1--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-cardinal/3.0.1--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

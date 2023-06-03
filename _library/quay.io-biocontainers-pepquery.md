@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pepquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pepquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pepquery/container.yaml"
-updated_at: "2023-06-02 02:53:18.428745"
+updated_at: "2023-06-03 03:38:14.372865"
 latest: "2.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pepquery"
 aliases:

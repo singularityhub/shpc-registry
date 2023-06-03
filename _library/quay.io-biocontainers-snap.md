@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/snap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snap/container.yaml"
-updated_at: "2023-06-02 02:54:09.047731"
-latest: "2013_11_29--hec16e2b_4"
+updated_at: "2023-06-03 03:37:31.345446"
+latest: "2013_11_29--h031d066_6"
 container_url: "https://biocontainers.pro/tools/snap"
 
 versions:
  - "2013_11_29--hec16e2b_4"
+ - "2013_11_29--h031d066_6"
 description: "shpc-registry automated BioContainers addition for snap"
-config: {"url": "https://biocontainers.pro/tools/snap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snap", "latest": {"2013_11_29--hec16e2b_4": "sha256:e57101f47222589a6f373b50829c08925f2c7d4dda6f64b8e15da8d5f9e6b936"}, "tags": {"2013_11_29--hec16e2b_4": "sha256:e57101f47222589a6f373b50829c08925f2c7d4dda6f64b8e15da8d5f9e6b936"}, "docker": "quay.io/biocontainers/snap"}
+config: {"url": "https://biocontainers.pro/tools/snap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snap", "latest": {"2013_11_29--h031d066_6": "sha256:893d8da506c16de868830ae6a40d6ef2c2147c1ee477384a7d69e4bb1b56a538"}, "tags": {"2013_11_29--hec16e2b_4": "sha256:e57101f47222589a6f373b50829c08925f2c7d4dda6f64b8e15da8d5f9e6b936", "2013_11_29--h031d066_6": "sha256:893d8da506c16de868830ae6a40d6ef2c2147c1ee477384a7d69e4bb1b56a538"}, "docker": "quay.io/biocontainers/snap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snap.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/snap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snap:2013_11_29--hec16e2b_4
+$ shpc install quay.io/biocontainers/snap:2013_11_29--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snap/2013_11_29--hec16e2b_4
-$ module help quay.io/biocontainers/snap/2013_11_29--hec16e2b_4
+$ module load quay.io/biocontainers/snap/2013_11_29--h031d066_6
+$ module help quay.io/biocontainers/snap/2013_11_29--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

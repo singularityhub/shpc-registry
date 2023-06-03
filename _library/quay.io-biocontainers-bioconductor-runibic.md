@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-runibic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-runibic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-runibic/container.yaml"
-updated_at: "2023-06-02 03:13:52.525159"
-latest: "1.20.0--r42hc247a5b_0"
+updated_at: "2023-06-03 03:04:00.368485"
+latest: "1.20.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-runibic"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.12.0--r40h399db7b_2"
  - "1.10.0--r40h5f743cb_0"
  - "1.20.0--r42hc247a5b_0"
+ - "1.20.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-runibic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-runibic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-runibic", "latest": {"1.20.0--r42hc247a5b_0": "sha256:a0c469426d05dda24e347dae5d73fb777f31a9c063a4885ff6af5e7701dd806f"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:541144cc07c5dcfde1f9039e39af22a29500bad846bf450b55fa4c1c7c7fa80f", "1.16.0--r41hc247a5b_2": "sha256:80766744c07408dd179b4edcb9dd566d7f7a81a753f173c183c0ababd2370185", "1.14.0--r41h399db7b_0": "sha256:eec762a931dba9b3b0481c8516caee881487b1df2c92b2d74df743aa021c8cc4", "1.12.0--r40h399db7b_2": "sha256:e2dd761bbc8117dac107c5c26a76dff7922510073ed7c91b5fafe0da2b65bd76", "1.10.0--r40h5f743cb_0": "sha256:f09b69920db043e2e8199a3f38e193c93c039903b9b615bc92f74011a1a85e45", "1.20.0--r42hc247a5b_0": "sha256:a0c469426d05dda24e347dae5d73fb777f31a9c063a4885ff6af5e7701dd806f"}, "docker": "quay.io/biocontainers/bioconductor-runibic", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-runibic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-runibic", "latest": {"1.20.0--r42hf17093f_1": "sha256:526e6ee6451d908af28b85ad1136accf154bfa33bbf2b9456bc3f1c7d0eeac51"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:541144cc07c5dcfde1f9039e39af22a29500bad846bf450b55fa4c1c7c7fa80f", "1.16.0--r41hc247a5b_2": "sha256:80766744c07408dd179b4edcb9dd566d7f7a81a753f173c183c0ababd2370185", "1.14.0--r41h399db7b_0": "sha256:eec762a931dba9b3b0481c8516caee881487b1df2c92b2d74df743aa021c8cc4", "1.12.0--r40h399db7b_2": "sha256:e2dd761bbc8117dac107c5c26a76dff7922510073ed7c91b5fafe0da2b65bd76", "1.10.0--r40h5f743cb_0": "sha256:f09b69920db043e2e8199a3f38e193c93c039903b9b615bc92f74011a1a85e45", "1.20.0--r42hc247a5b_0": "sha256:a0c469426d05dda24e347dae5d73fb777f31a9c063a4885ff6af5e7701dd806f", "1.20.0--r42hf17093f_1": "sha256:526e6ee6451d908af28b85ad1136accf154bfa33bbf2b9456bc3f1c7d0eeac51"}, "docker": "quay.io/biocontainers/bioconductor-runibic", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-runibic.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-runibic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-runibic:1.20.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-runibic:1.20.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-runibic/1.20.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-runibic/1.20.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-runibic/1.20.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-runibic/1.20.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

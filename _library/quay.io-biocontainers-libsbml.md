@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libsbml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libsbml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libsbml/container.yaml"
-updated_at: "2023-06-02 03:43:49.741104"
-latest: "5.18.0--h3928612_7"
+updated_at: "2023-06-03 03:39:21.234925"
+latest: "5.18.0--h5422e7e_9"
 container_url: "https://biocontainers.pro/tools/libsbml"
 
 versions:
  - "5.18.0--h3928612_7"
+ - "5.18.0--h5422e7e_9"
 description: "shpc-registry automated BioContainers addition for libsbml"
-config: {"url": "https://biocontainers.pro/tools/libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libsbml", "latest": {"5.18.0--h3928612_7": "sha256:139ac90b5392e887589cdf9c25bb7689bba06a86d2d230a4430d80e2f649d470"}, "tags": {"5.18.0--h3928612_7": "sha256:139ac90b5392e887589cdf9c25bb7689bba06a86d2d230a4430d80e2f649d470"}, "docker": "quay.io/biocontainers/libsbml"}
+config: {"url": "https://biocontainers.pro/tools/libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libsbml", "latest": {"5.18.0--h5422e7e_9": "sha256:cf6380c5ca5451ed7503b517ead60e2f7464d3c5a8b67fe8dd85b3729606a443"}, "tags": {"5.18.0--h3928612_7": "sha256:139ac90b5392e887589cdf9c25bb7689bba06a86d2d230a4430d80e2f649d470", "5.18.0--h5422e7e_9": "sha256:cf6380c5ca5451ed7503b517ead60e2f7464d3c5a8b67fe8dd85b3729606a443"}, "docker": "quay.io/biocontainers/libsbml"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libsbml.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libsbml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libsbml:5.18.0--h3928612_7
+$ shpc install quay.io/biocontainers/libsbml:5.18.0--h5422e7e_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libsbml/5.18.0--h3928612_7
-$ module help quay.io/biocontainers/libsbml/5.18.0--h3928612_7
+$ module load quay.io/biocontainers/libsbml/5.18.0--h5422e7e_9
+$ module help quay.io/biocontainers/libsbml/5.18.0--h5422e7e_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
