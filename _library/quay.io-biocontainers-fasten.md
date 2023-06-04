@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fasten"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasten/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasten/container.yaml"
-updated_at: "2023-06-03 03:25:39.896503"
-latest: "0.5.0--hec16e2b_0"
+updated_at: "2023-06-04 03:35:20.693555"
+latest: "0.5.0--h031d066_2"
 container_url: "https://biocontainers.pro/tools/fasten"
 aliases:
  - "fasten_clean"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "0.4.4--hec16e2b_1"
  - "0.5.0--hec16e2b_0"
+ - "0.5.0--h031d066_2"
 description: "shpc-registry automated BioContainers addition for fasten"
-config: {"url": "https://biocontainers.pro/tools/fasten", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasten", "latest": {"0.5.0--hec16e2b_0": "sha256:4bc327b7a70befd2a46bdf0a8cbf4d78c1698227d7a1df62685ac27e1dcba33a"}, "tags": {"0.4.4--hec16e2b_1": "sha256:f820c7e2b4920d186e69eab5b2a2bb79c7b5e2b1d8383cfd9cef81fc22baf4b8", "0.5.0--hec16e2b_0": "sha256:4bc327b7a70befd2a46bdf0a8cbf4d78c1698227d7a1df62685ac27e1dcba33a"}, "docker": "quay.io/biocontainers/fasten", "aliases": {"fasten_clean": "/usr/local/bin/fasten_clean", "fasten_combine": "/usr/local/bin/fasten_combine", "fasten_convert": "/usr/local/bin/fasten_convert", "fasten_kmer": "/usr/local/bin/fasten_kmer", "fasten_metrics": "/usr/local/bin/fasten_metrics", "fasten_mutate": "/usr/local/bin/fasten_mutate", "fasten_pe": "/usr/local/bin/fasten_pe", "fasten_progress": "/usr/local/bin/fasten_progress", "fasten_quality_filter": "/usr/local/bin/fasten_quality_filter", "fasten_randomize": "/usr/local/bin/fasten_randomize", "fasten_regex": "/usr/local/bin/fasten_regex", "fasten_replace": "/usr/local/bin/fasten_replace", "fasten_sample": "/usr/local/bin/fasten_sample", "fasten_shuffle": "/usr/local/bin/fasten_shuffle", "fasten_sort": "/usr/local/bin/fasten_sort", "fasten_straighten": "/usr/local/bin/fasten_straighten", "fasten_trim": "/usr/local/bin/fasten_trim", "fasten_validate": "/usr/local/bin/fasten_validate"}}
+config: {"url": "https://biocontainers.pro/tools/fasten", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasten", "latest": {"0.5.0--h031d066_2": "sha256:c81deac9edbd3229ab116a81c9d311a78056d3ab2a5e9a7719716b5744e2cc02"}, "tags": {"0.4.4--hec16e2b_1": "sha256:f820c7e2b4920d186e69eab5b2a2bb79c7b5e2b1d8383cfd9cef81fc22baf4b8", "0.5.0--hec16e2b_0": "sha256:4bc327b7a70befd2a46bdf0a8cbf4d78c1698227d7a1df62685ac27e1dcba33a", "0.5.0--h031d066_2": "sha256:c81deac9edbd3229ab116a81c9d311a78056d3ab2a5e9a7719716b5744e2cc02"}, "docker": "quay.io/biocontainers/fasten", "aliases": {"fasten_clean": "/usr/local/bin/fasten_clean", "fasten_combine": "/usr/local/bin/fasten_combine", "fasten_convert": "/usr/local/bin/fasten_convert", "fasten_kmer": "/usr/local/bin/fasten_kmer", "fasten_metrics": "/usr/local/bin/fasten_metrics", "fasten_mutate": "/usr/local/bin/fasten_mutate", "fasten_pe": "/usr/local/bin/fasten_pe", "fasten_progress": "/usr/local/bin/fasten_progress", "fasten_quality_filter": "/usr/local/bin/fasten_quality_filter", "fasten_randomize": "/usr/local/bin/fasten_randomize", "fasten_regex": "/usr/local/bin/fasten_regex", "fasten_replace": "/usr/local/bin/fasten_replace", "fasten_sample": "/usr/local/bin/fasten_sample", "fasten_shuffle": "/usr/local/bin/fasten_shuffle", "fasten_sort": "/usr/local/bin/fasten_sort", "fasten_straighten": "/usr/local/bin/fasten_straighten", "fasten_trim": "/usr/local/bin/fasten_trim", "fasten_validate": "/usr/local/bin/fasten_validate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fasten.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/fasten
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fasten:0.5.0--hec16e2b_0
+$ shpc install quay.io/biocontainers/fasten:0.5.0--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fasten/0.5.0--hec16e2b_0
-$ module help quay.io/biocontainers/fasten/0.5.0--hec16e2b_0
+$ module load quay.io/biocontainers/fasten/0.5.0--h031d066_2
+$ module help quay.io/biocontainers/fasten/0.5.0--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

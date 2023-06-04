@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codonw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codonw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codonw/container.yaml"
-updated_at: "2023-06-03 03:45:25.756810"
+updated_at: "2023-06-04 03:49:49.182750"
 latest: "1.4.4--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/codonw"
 aliases:

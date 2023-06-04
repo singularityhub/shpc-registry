@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sankoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sankoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sankoff/container.yaml"
-updated_at: "2023-06-03 03:50:02.928932"
-latest: "0.2--ha038e3a_1"
+updated_at: "2023-06-04 03:53:08.050639"
+latest: "0.2--h2374e42_3"
 container_url: "https://biocontainers.pro/tools/sankoff"
 aliases:
  - "sankoff"
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.2--ha038e3a_1"
+ - "0.2--h2374e42_3"
 description: "singularity registry hpc automated addition for sankoff"
-config: {"url": "https://biocontainers.pro/tools/sankoff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sankoff", "latest": {"0.2--ha038e3a_1": "sha256:755a2ff99e9d2409f94773a1db27f32748a5a19cddad86d72283ca6c41f3c150"}, "tags": {"0.2--ha038e3a_1": "sha256:755a2ff99e9d2409f94773a1db27f32748a5a19cddad86d72283ca6c41f3c150"}, "docker": "quay.io/biocontainers/sankoff", "aliases": {"sankoff": "/usr/local/bin/sankoff", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/sankoff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sankoff", "latest": {"0.2--h2374e42_3": "sha256:c4614b0d8c4ec4936f4bcd7478261b01224a8d7510e1389a229637c2f76f6290"}, "tags": {"0.2--ha038e3a_1": "sha256:755a2ff99e9d2409f94773a1db27f32748a5a19cddad86d72283ca6c41f3c150", "0.2--h2374e42_3": "sha256:c4614b0d8c4ec4936f4bcd7478261b01224a8d7510e1389a229637c2f76f6290"}, "docker": "quay.io/biocontainers/sankoff", "aliases": {"sankoff": "/usr/local/bin/sankoff", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sankoff.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/sankoff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sankoff:0.2--ha038e3a_1
+$ shpc install quay.io/biocontainers/sankoff:0.2--h2374e42_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sankoff/0.2--ha038e3a_1
-$ module help quay.io/biocontainers/sankoff/0.2--ha038e3a_1
+$ module load quay.io/biocontainers/sankoff/0.2--h2374e42_3
+$ module help quay.io/biocontainers/sankoff/0.2--h2374e42_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nethet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nethet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nethet/container.yaml"
-updated_at: "2023-06-03 02:50:35.488610"
-latest: "1.30.0--r42hc0cfd56_0"
+updated_at: "2023-06-04 03:09:36.669360"
+latest: "1.30.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-nethet"
 aliases:
  - "glpsol"
 versions:
  - "1.26.0--r41hc0cfd56_2"
  - "1.30.0--r42hc0cfd56_0"
+ - "1.30.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-nethet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nethet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nethet", "latest": {"1.30.0--r42hc0cfd56_0": "sha256:5eb539835fa488c7b2a9cbca52b28a64e0e2578d47b096d4e30cce5a3ea3ca37"}, "tags": {"1.26.0--r41hc0cfd56_2": "sha256:606ab5d73d12de16cadba639f8a1031503f858d5e807bb87b6141b938132204c", "1.30.0--r42hc0cfd56_0": "sha256:5eb539835fa488c7b2a9cbca52b28a64e0e2578d47b096d4e30cce5a3ea3ca37"}, "docker": "quay.io/biocontainers/bioconductor-nethet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nethet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nethet", "latest": {"1.30.0--r42ha9d7317_1": "sha256:ca0bf5fd29967612e51e92e768da4829f3036f36fd07e5e17e9e09c16715c26a"}, "tags": {"1.26.0--r41hc0cfd56_2": "sha256:606ab5d73d12de16cadba639f8a1031503f858d5e807bb87b6141b938132204c", "1.30.0--r42hc0cfd56_0": "sha256:5eb539835fa488c7b2a9cbca52b28a64e0e2578d47b096d4e30cce5a3ea3ca37", "1.30.0--r42ha9d7317_1": "sha256:ca0bf5fd29967612e51e92e768da4829f3036f36fd07e5e17e9e09c16715c26a"}, "docker": "quay.io/biocontainers/bioconductor-nethet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nethet.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nethet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nethet:1.30.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-nethet:1.30.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nethet/1.30.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-nethet/1.30.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-nethet/1.30.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-nethet/1.30.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

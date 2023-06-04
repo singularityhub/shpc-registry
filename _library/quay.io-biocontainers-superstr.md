@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/superstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/superstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/superstr/container.yaml"
-updated_at: "2023-06-03 03:25:07.237131"
-latest: "1.0.1--hfe8e0ed_2"
+updated_at: "2023-06-04 03:34:55.197946"
+latest: "1.0.1--h42b275d_3"
 container_url: "https://biocontainers.pro/tools/superstr"
 aliases:
  - "superstr"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "1.0.1--hb8809f8_1"
  - "1.0.1--hfe8e0ed_2"
+ - "1.0.1--h42b275d_3"
 description: "singularity registry hpc automated addition for superstr"
-config: {"url": "https://biocontainers.pro/tools/superstr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superstr", "latest": {"1.0.1--hfe8e0ed_2": "sha256:93923ef0392233677b623edd5db59e64496515a6e4af3e4194664a192e6460d9"}, "tags": {"1.0.1--hb8809f8_1": "sha256:29e787cd718ddb6258bdfc7755491b26bc99eb9e4b7559e501eb3fa8b41e42d8", "1.0.1--hfe8e0ed_2": "sha256:93923ef0392233677b623edd5db59e64496515a6e4af3e4194664a192e6460d9"}, "docker": "quay.io/biocontainers/superstr", "aliases": {"superstr": "/usr/local/bin/superstr", "superstr-multiparse.py": "/usr/local/bin/superstr-multiparse.py", "superstr-outliers.py": "/usr/local/bin/superstr-outliers.py", "superstr-screen.py": "/usr/local/bin/superstr-screen.py", "superstr-visualise.py": "/usr/local/bin/superstr-visualise.py", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc"}}
+config: {"url": "https://biocontainers.pro/tools/superstr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superstr", "latest": {"1.0.1--h42b275d_3": "sha256:ef42df2af6549be7bfb4d20de8f463ce5ab6f769700eb23ad3b2d3bd57316f5f"}, "tags": {"1.0.1--hb8809f8_1": "sha256:29e787cd718ddb6258bdfc7755491b26bc99eb9e4b7559e501eb3fa8b41e42d8", "1.0.1--hfe8e0ed_2": "sha256:93923ef0392233677b623edd5db59e64496515a6e4af3e4194664a192e6460d9", "1.0.1--h42b275d_3": "sha256:ef42df2af6549be7bfb4d20de8f463ce5ab6f769700eb23ad3b2d3bd57316f5f"}, "docker": "quay.io/biocontainers/superstr", "aliases": {"superstr": "/usr/local/bin/superstr", "superstr-multiparse.py": "/usr/local/bin/superstr-multiparse.py", "superstr-outliers.py": "/usr/local/bin/superstr-outliers.py", "superstr-screen.py": "/usr/local/bin/superstr-screen.py", "superstr-visualise.py": "/usr/local/bin/superstr-visualise.py", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/superstr.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/superstr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/superstr:1.0.1--hfe8e0ed_2
+$ shpc install quay.io/biocontainers/superstr:1.0.1--h42b275d_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/superstr/1.0.1--hfe8e0ed_2
-$ module help quay.io/biocontainers/superstr/1.0.1--hfe8e0ed_2
+$ module load quay.io/biocontainers/superstr/1.0.1--h42b275d_3
+$ module help quay.io/biocontainers/superstr/1.0.1--h42b275d_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

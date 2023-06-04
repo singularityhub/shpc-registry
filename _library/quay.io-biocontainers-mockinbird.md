@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mockinbird"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mockinbird/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mockinbird/container.yaml"
-updated_at: "2023-06-03 03:34:41.451207"
-latest: "1.0.0a1--py36h91eb985_5"
+updated_at: "2023-06-04 03:41:58.002121"
+latest: "1.0.0a1--py39hf95cd2a_6"
 container_url: "https://biocontainers.pro/tools/mockinbird"
 aliases:
  - "XXmotif"
@@ -52,8 +52,9 @@ aliases:
  - "bowtie-inspect-s"
 versions:
  - "1.0.0a1--py36h91eb985_5"
+ - "1.0.0a1--py39hf95cd2a_6"
 description: "shpc-registry automated BioContainers addition for mockinbird"
-config: {"url": "https://biocontainers.pro/tools/mockinbird", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mockinbird", "latest": {"1.0.0a1--py36h91eb985_5": "sha256:821878ebe957b835a3d475c5004c1b0d74b3bedb566736f2190074dd712ed0da"}, "tags": {"1.0.0a1--py36h91eb985_5": "sha256:821878ebe957b835a3d475c5004c1b0d74b3bedb566736f2190074dd712ed0da"}, "docker": "quay.io/biocontainers/mockinbird", "aliases": {"XXmotif": "/usr/local/bin/XXmotif", "mb-adapter-clipper": "/usr/local/bin/mb-adapter-clipper", "mb-annotate-table": "/usr/local/bin/mb-annotate-table", "mb-bam-postprocess": "/usr/local/bin/mb-bam-postprocess", "mb-bsfinder": "/usr/local/bin/mb-bsfinder", "mb-calculate-posterior": "/usr/local/bin/mb-calculate-posterior", "mb-cap-occupancy": "/usr/local/bin/mb-cap-occupancy", "mb-create-bam-statistics": "/usr/local/bin/mb-create-bam-statistics", "mb-extract-sites": "/usr/local/bin/mb-extract-sites", "mb-filter-sites": "/usr/local/bin/mb-filter-sites", "mb-generate-negative-set": "/usr/local/bin/mb-generate-negative-set", "mb-learn-mock": "/usr/local/bin/mb-learn-mock", "mb-mockinbird2table": "/usr/local/bin/mb-mockinbird2table", "mb-naive-bsfinder": "/usr/local/bin/mb-naive-bsfinder", "mb-normalize": "/usr/local/bin/mb-normalize", "mb-pileup2sites": "/usr/local/bin/mb-pileup2sites", "mb-plot-heatmap": "/usr/local/bin/mb-plot-heatmap", "mb-plot-heatmap-small": "/usr/local/bin/mb-plot-heatmap-small", "mb-plot-kmer-enrichment": "/usr/local/bin/mb-plot-kmer-enrichment", "mb-plot-kmer-logodds": "/usr/local/bin/mb-plot-kmer-logodds", "mb-plot-metagene": "/usr/local/bin/mb-plot-metagene", "mb-plot-metagene-nobs": "/usr/local/bin/mb-plot-metagene-nobs", "mb-plot-transition-frequencies": "/usr/local/bin/mb-plot-transition-frequencies", "mb-postprocess": "/usr/local/bin/mb-postprocess", "mb-preprocess": "/usr/local/bin/mb-preprocess", "mb-remove-duplicates": "/usr/local/bin/mb-remove-duplicates", "mb-site-merger": "/usr/local/bin/mb-site-merger", "mb-softclip-analyzer": "/usr/local/bin/mb-softclip-analyzer", "mb-table2fasta": "/usr/local/bin/mb-table2fasta", "mb-upgrade-table": "/usr/local/bin/mb-upgrade-table", "mb-xxmotif": "/usr/local/bin/mb-xxmotif", "mockinbird": "/usr/local/bin/mockinbird", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "jpackage": "/usr/local/bin/jpackage", "fastqc": "/usr/local/bin/fastqc", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s"}}
+config: {"url": "https://biocontainers.pro/tools/mockinbird", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mockinbird", "latest": {"1.0.0a1--py39hf95cd2a_6": "sha256:b49489f7ed9e9788599a1a115014c37590a75bd81821da1da73320ce08b95d73"}, "tags": {"1.0.0a1--py36h91eb985_5": "sha256:821878ebe957b835a3d475c5004c1b0d74b3bedb566736f2190074dd712ed0da", "1.0.0a1--py39hf95cd2a_6": "sha256:b49489f7ed9e9788599a1a115014c37590a75bd81821da1da73320ce08b95d73"}, "docker": "quay.io/biocontainers/mockinbird", "aliases": {"XXmotif": "/usr/local/bin/XXmotif", "mb-adapter-clipper": "/usr/local/bin/mb-adapter-clipper", "mb-annotate-table": "/usr/local/bin/mb-annotate-table", "mb-bam-postprocess": "/usr/local/bin/mb-bam-postprocess", "mb-bsfinder": "/usr/local/bin/mb-bsfinder", "mb-calculate-posterior": "/usr/local/bin/mb-calculate-posterior", "mb-cap-occupancy": "/usr/local/bin/mb-cap-occupancy", "mb-create-bam-statistics": "/usr/local/bin/mb-create-bam-statistics", "mb-extract-sites": "/usr/local/bin/mb-extract-sites", "mb-filter-sites": "/usr/local/bin/mb-filter-sites", "mb-generate-negative-set": "/usr/local/bin/mb-generate-negative-set", "mb-learn-mock": "/usr/local/bin/mb-learn-mock", "mb-mockinbird2table": "/usr/local/bin/mb-mockinbird2table", "mb-naive-bsfinder": "/usr/local/bin/mb-naive-bsfinder", "mb-normalize": "/usr/local/bin/mb-normalize", "mb-pileup2sites": "/usr/local/bin/mb-pileup2sites", "mb-plot-heatmap": "/usr/local/bin/mb-plot-heatmap", "mb-plot-heatmap-small": "/usr/local/bin/mb-plot-heatmap-small", "mb-plot-kmer-enrichment": "/usr/local/bin/mb-plot-kmer-enrichment", "mb-plot-kmer-logodds": "/usr/local/bin/mb-plot-kmer-logodds", "mb-plot-metagene": "/usr/local/bin/mb-plot-metagene", "mb-plot-metagene-nobs": "/usr/local/bin/mb-plot-metagene-nobs", "mb-plot-transition-frequencies": "/usr/local/bin/mb-plot-transition-frequencies", "mb-postprocess": "/usr/local/bin/mb-postprocess", "mb-preprocess": "/usr/local/bin/mb-preprocess", "mb-remove-duplicates": "/usr/local/bin/mb-remove-duplicates", "mb-site-merger": "/usr/local/bin/mb-site-merger", "mb-softclip-analyzer": "/usr/local/bin/mb-softclip-analyzer", "mb-table2fasta": "/usr/local/bin/mb-table2fasta", "mb-upgrade-table": "/usr/local/bin/mb-upgrade-table", "mb-xxmotif": "/usr/local/bin/mb-xxmotif", "mockinbird": "/usr/local/bin/mockinbird", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "jpackage": "/usr/local/bin/jpackage", "fastqc": "/usr/local/bin/fastqc", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mockinbird.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/mockinbird
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mockinbird:1.0.0a1--py36h91eb985_5
+$ shpc install quay.io/biocontainers/mockinbird:1.0.0a1--py39hf95cd2a_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mockinbird/1.0.0a1--py36h91eb985_5
-$ module help quay.io/biocontainers/mockinbird/1.0.0a1--py36h91eb985_5
+$ module load quay.io/biocontainers/mockinbird/1.0.0a1--py39hf95cd2a_6
+$ module help quay.io/biocontainers/mockinbird/1.0.0a1--py39hf95cd2a_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

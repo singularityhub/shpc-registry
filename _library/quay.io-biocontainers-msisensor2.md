@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/msisensor2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msisensor2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msisensor2/container.yaml"
-updated_at: "2023-06-03 02:59:20.789895"
-latest: "0.1--hd03093a_0"
+updated_at: "2023-06-04 03:16:00.828143"
+latest: "0.1--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/msisensor2"
 aliases:
  - "msisensor2"
 versions:
  - "0.1--hd03093a_0"
+ - "0.1--hdcf5f25_2"
 description: "shpc-registry automated BioContainers addition for msisensor2"
-config: {"url": "https://biocontainers.pro/tools/msisensor2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msisensor2", "latest": {"0.1--hd03093a_0": "sha256:b01f4a2f7938d42047bdb94a4f2c97dbf26bd53464ad1b82f811f037e3ea3f1d"}, "tags": {"0.1--hd03093a_0": "sha256:b01f4a2f7938d42047bdb94a4f2c97dbf26bd53464ad1b82f811f037e3ea3f1d"}, "docker": "quay.io/biocontainers/msisensor2", "aliases": {"msisensor2": "/usr/local/bin/msisensor2"}}
+config: {"url": "https://biocontainers.pro/tools/msisensor2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msisensor2", "latest": {"0.1--hdcf5f25_2": "sha256:8148cf73d4f98270858358bacad3f391c72dae93582b8baf4e789141fa6ac8de"}, "tags": {"0.1--hd03093a_0": "sha256:b01f4a2f7938d42047bdb94a4f2c97dbf26bd53464ad1b82f811f037e3ea3f1d", "0.1--hdcf5f25_2": "sha256:8148cf73d4f98270858358bacad3f391c72dae93582b8baf4e789141fa6ac8de"}, "docker": "quay.io/biocontainers/msisensor2", "aliases": {"msisensor2": "/usr/local/bin/msisensor2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msisensor2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/msisensor2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msisensor2:0.1--hd03093a_0
+$ shpc install quay.io/biocontainers/msisensor2:0.1--hdcf5f25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msisensor2/0.1--hd03093a_0
-$ module help quay.io/biocontainers/msisensor2/0.1--hd03093a_0
+$ module load quay.io/biocontainers/msisensor2/0.1--hdcf5f25_2
+$ module help quay.io/biocontainers/msisensor2/0.1--hdcf5f25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

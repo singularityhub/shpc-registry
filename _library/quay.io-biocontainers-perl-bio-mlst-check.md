@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-mlst-check"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-mlst-check/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-mlst-check/container.yaml"
-updated_at: "2023-06-03 03:44:20.045840"
+updated_at: "2023-06-04 03:49:01.893142"
 latest: "2.1.1706216--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-bio-mlst-check"
 aliases:

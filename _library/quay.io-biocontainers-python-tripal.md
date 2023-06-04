@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-tripal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-tripal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-tripal/container.yaml"
-updated_at: "2023-06-03 03:05:20.425834"
+updated_at: "2023-06-04 03:20:23.387176"
 latest: "3.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/python-tripal"
 

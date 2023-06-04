@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tiny-count"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiny-count/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiny-count/container.yaml"
-updated_at: "2023-06-03 03:16:57.753744"
-latest: "1.3.0--py39h9f5acd7_0"
+updated_at: "2023-06-04 03:28:53.655250"
+latest: "1.5.0--py39h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/tiny-count"
 aliases:
  - "htseq-count-barcodes"
@@ -34,8 +34,11 @@ aliases:
 versions:
  - "1.2.1--py39h9f5acd7_0"
  - "1.3.0--py39h9f5acd7_0"
+ - "1.5.0--py39h9f5acd7_0"
+ - "1.4.0--py39h9f5acd7_0"
+ - "1.3.0--py39h4ac6f70_1"
 description: "singularity registry hpc automated addition for tiny-count"
-config: {"url": "https://biocontainers.pro/tools/tiny-count", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tiny-count", "latest": {"1.3.0--py39h9f5acd7_0": "sha256:0d101c75f99508dc933facaec15e8839c378b8a7bf8c93d3df49a09cf560b670"}, "tags": {"1.2.1--py39h9f5acd7_0": "sha256:00d7937f9f932d604fbf23573e7800e8aa0a3a9d0a9d0a29d9bd0d9a8ead0ed8", "1.3.0--py39h9f5acd7_0": "sha256:0d101c75f99508dc933facaec15e8839c378b8a7bf8c93d3df49a09cf560b670"}, "docker": "quay.io/biocontainers/tiny-count", "aliases": {"htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "tiny-count": "/usr/local/bin/tiny-count", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/tiny-count", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tiny-count", "latest": {"1.5.0--py39h9f5acd7_0": "sha256:080b63cf09d67fe06f7b0d76e14df71912577c5462fd43c9c67d42f889f7c856"}, "tags": {"1.2.1--py39h9f5acd7_0": "sha256:00d7937f9f932d604fbf23573e7800e8aa0a3a9d0a9d0a29d9bd0d9a8ead0ed8", "1.3.0--py39h9f5acd7_0": "sha256:0d101c75f99508dc933facaec15e8839c378b8a7bf8c93d3df49a09cf560b670", "1.5.0--py39h9f5acd7_0": "sha256:080b63cf09d67fe06f7b0d76e14df71912577c5462fd43c9c67d42f889f7c856", "1.4.0--py39h9f5acd7_0": "sha256:b0657a425796e1fd776636dc97c7fda760413a27673bf8e8a187e1c3fb241450", "1.3.0--py39h4ac6f70_1": "sha256:90ec915d503a4b12b4995b0afcfbf7087766eeddeda8e55df86dfd84546f5f16"}, "docker": "quay.io/biocontainers/tiny-count", "aliases": {"htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "tiny-count": "/usr/local/bin/tiny-count", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tiny-count.
@@ -50,7 +53,7 @@ $ shpc install quay.io/biocontainers/tiny-count
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tiny-count:1.3.0--py39h9f5acd7_0
+$ shpc install quay.io/biocontainers/tiny-count:1.5.0--py39h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tiny-count/1.3.0--py39h9f5acd7_0
-$ module help quay.io/biocontainers/tiny-count/1.3.0--py39h9f5acd7_0
+$ module load quay.io/biocontainers/tiny-count/1.5.0--py39h9f5acd7_0
+$ module help quay.io/biocontainers/tiny-count/1.5.0--py39h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

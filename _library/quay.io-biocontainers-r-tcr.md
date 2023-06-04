@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-tcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tcr/container.yaml"
-updated_at: "2023-06-03 02:54:21.817458"
-latest: "2.3.2--r42hecf12ef_4"
+updated_at: "2023-06-04 03:12:20.238438"
+latest: "2.3.2--r42h21a89ab_5"
 container_url: "https://biocontainers.pro/tools/r-tcr"
 
 versions:
  - "2.3.2--r41hecf12ef_3"
  - "2.3.2--r42hecf12ef_4"
+ - "2.3.2--r42h21a89ab_5"
 description: "shpc-registry automated BioContainers addition for r-tcr"
-config: {"url": "https://biocontainers.pro/tools/r-tcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tcr", "latest": {"2.3.2--r42hecf12ef_4": "sha256:aafb0f622d3b438d931ba3ea705c95a42982b247609c43bd1d778f3cc81f2385"}, "tags": {"2.3.2--r41hecf12ef_3": "sha256:4829ab11db22d5d3eab1fb791552355fe50ab4fe854d54802376889ab98c9502", "2.3.2--r42hecf12ef_4": "sha256:aafb0f622d3b438d931ba3ea705c95a42982b247609c43bd1d778f3cc81f2385"}, "docker": "quay.io/biocontainers/r-tcr"}
+config: {"url": "https://biocontainers.pro/tools/r-tcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tcr", "latest": {"2.3.2--r42h21a89ab_5": "sha256:b01477dbcd88a92e2c22f86053072b2a51ef5f92d6fcbf5b2f8083cdfeb07310"}, "tags": {"2.3.2--r41hecf12ef_3": "sha256:4829ab11db22d5d3eab1fb791552355fe50ab4fe854d54802376889ab98c9502", "2.3.2--r42hecf12ef_4": "sha256:aafb0f622d3b438d931ba3ea705c95a42982b247609c43bd1d778f3cc81f2385", "2.3.2--r42h21a89ab_5": "sha256:b01477dbcd88a92e2c22f86053072b2a51ef5f92d6fcbf5b2f8083cdfeb07310"}, "docker": "quay.io/biocontainers/r-tcr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tcr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-tcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tcr:2.3.2--r42hecf12ef_4
+$ shpc install quay.io/biocontainers/r-tcr:2.3.2--r42h21a89ab_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tcr/2.3.2--r42hecf12ef_4
-$ module help quay.io/biocontainers/r-tcr/2.3.2--r42hecf12ef_4
+$ module load quay.io/biocontainers/r-tcr/2.3.2--r42h21a89ab_5
+$ module help quay.io/biocontainers/r-tcr/2.3.2--r42h21a89ab_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

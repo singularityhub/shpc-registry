@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ima3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ima3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ima3/container.yaml"
-updated_at: "2023-06-03 03:34:02.459669"
-latest: "1.12--h87f3376_1"
+updated_at: "2023-06-04 03:41:29.973717"
+latest: "1.13--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/ima3"
 aliases:
  - "IMa3"
@@ -36,8 +36,10 @@ aliases:
  - "orted"
 versions:
  - "1.12--h87f3376_1"
+ - "1.13--h87f3376_0"
+ - "1.12--hdbdd923_3"
 description: "singularity registry hpc automated addition for ima3"
-config: {"url": "https://biocontainers.pro/tools/ima3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ima3", "latest": {"1.12--h87f3376_1": "sha256:8907ffae4a6d529cfda3b6fc186425a8d71a739411cab3656f39f68c0669faa8"}, "tags": {"1.12--h87f3376_1": "sha256:8907ffae4a6d529cfda3b6fc186425a8d71a739411cab3656f39f68c0669faa8"}, "docker": "quay.io/biocontainers/ima3", "aliases": {"IMa3": "/usr/local/bin/IMa3", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted"}}
+config: {"url": "https://biocontainers.pro/tools/ima3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ima3", "latest": {"1.13--h87f3376_0": "sha256:3c5259bcc09c27c3cb271685944bf46e2b21d755d38f89b0df8487e25e1a7c38"}, "tags": {"1.12--h87f3376_1": "sha256:8907ffae4a6d529cfda3b6fc186425a8d71a739411cab3656f39f68c0669faa8", "1.13--h87f3376_0": "sha256:3c5259bcc09c27c3cb271685944bf46e2b21d755d38f89b0df8487e25e1a7c38", "1.12--hdbdd923_3": "sha256:906f220403b68e03107b5c1033f47703b90b46e4783982ee7197dd996a4a6839"}, "docker": "quay.io/biocontainers/ima3", "aliases": {"IMa3": "/usr/local/bin/IMa3", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ima3.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/ima3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ima3:1.12--h87f3376_1
+$ shpc install quay.io/biocontainers/ima3:1.13--h87f3376_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ima3/1.12--h87f3376_1
-$ module help quay.io/biocontainers/ima3/1.12--h87f3376_1
+$ module load quay.io/biocontainers/ima3/1.13--h87f3376_0
+$ module help quay.io/biocontainers/ima3/1.13--h87f3376_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

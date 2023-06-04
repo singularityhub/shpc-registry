@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-format/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-format/container.yaml"
-updated_at: "2023-06-03 03:50:57.755315"
+updated_at: "2023-06-04 03:53:47.346310"
 latest: "0.62--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-text-format"
 aliases:

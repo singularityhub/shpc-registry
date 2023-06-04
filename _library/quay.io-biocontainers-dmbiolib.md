@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dmbiolib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dmbiolib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dmbiolib/container.yaml"
-updated_at: "2023-06-03 03:33:51.638005"
-latest: "0.3.10--pyhdfd78af_0"
+updated_at: "2023-06-04 03:41:22.145055"
+latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dmbiolib"
 aliases:
  - "f2py3.11"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "0.3.8--pyhdfd78af_1"
  - "0.3.10--pyhdfd78af_0"
+ - "0.4.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dmbiolib"
-config: {"url": "https://biocontainers.pro/tools/dmbiolib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dmbiolib", "latest": {"0.3.10--pyhdfd78af_0": "sha256:f23bf7e97ca8e2772fd6a1315659e73ed8c897ea225853f9cb9b2072b2d6145d"}, "tags": {"0.3.8--pyhdfd78af_1": "sha256:8e37b53d3738173eb10cd679c1f70b6828ecb2586343c731c66d8b3ff009b49d", "0.3.10--pyhdfd78af_0": "sha256:f23bf7e97ca8e2772fd6a1315659e73ed8c897ea225853f9cb9b2072b2d6145d"}, "docker": "quay.io/biocontainers/dmbiolib", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/dmbiolib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dmbiolib", "latest": {"0.4.3--pyhdfd78af_0": "sha256:c38876750d81b9dee771d173f7f01bf817c95c03b8a5dffc6c344d12cd6ac36c"}, "tags": {"0.3.8--pyhdfd78af_1": "sha256:8e37b53d3738173eb10cd679c1f70b6828ecb2586343c731c66d8b3ff009b49d", "0.3.10--pyhdfd78af_0": "sha256:f23bf7e97ca8e2772fd6a1315659e73ed8c897ea225853f9cb9b2072b2d6145d", "0.4.3--pyhdfd78af_0": "sha256:c38876750d81b9dee771d173f7f01bf817c95c03b8a5dffc6c344d12cd6ac36c"}, "docker": "quay.io/biocontainers/dmbiolib", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dmbiolib.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/dmbiolib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dmbiolib:0.3.10--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dmbiolib:0.4.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dmbiolib/0.3.10--pyhdfd78af_0
-$ module help quay.io/biocontainers/dmbiolib/0.3.10--pyhdfd78af_0
+$ module load quay.io/biocontainers/dmbiolib/0.4.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/dmbiolib/0.4.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

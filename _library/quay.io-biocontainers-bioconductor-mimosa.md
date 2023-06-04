@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-mimosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mimosa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mimosa/container.yaml"
-updated_at: "2023-06-03 02:52:44.370207"
-latest: "1.36.0--r42hc247a5b_0"
+updated_at: "2023-06-04 03:11:07.986452"
+latest: "1.36.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mimosa"
 
 versions:
  - "1.32.0--r41hc247a5b_2"
  - "1.36.0--r42hc247a5b_0"
+ - "1.36.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mimosa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mimosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mimosa", "latest": {"1.36.0--r42hc247a5b_0": "sha256:cc4545f4844c26e0b51dbad4292d2d7a7233ba95890564f9e9b509f87ecbce6c"}, "tags": {"1.32.0--r41hc247a5b_2": "sha256:0e2ad68c2223c504159a7f9104a75be736e64960671c5492d5d6ae8f30b1a28e", "1.36.0--r42hc247a5b_0": "sha256:cc4545f4844c26e0b51dbad4292d2d7a7233ba95890564f9e9b509f87ecbce6c"}, "docker": "quay.io/biocontainers/bioconductor-mimosa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mimosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mimosa", "latest": {"1.36.0--r42hf17093f_1": "sha256:91655672df86d932188e826f03550e373c95be423170e19a5a7cc56ffcfd6708"}, "tags": {"1.32.0--r41hc247a5b_2": "sha256:0e2ad68c2223c504159a7f9104a75be736e64960671c5492d5d6ae8f30b1a28e", "1.36.0--r42hc247a5b_0": "sha256:cc4545f4844c26e0b51dbad4292d2d7a7233ba95890564f9e9b509f87ecbce6c", "1.36.0--r42hf17093f_1": "sha256:91655672df86d932188e826f03550e373c95be423170e19a5a7cc56ffcfd6708"}, "docker": "quay.io/biocontainers/bioconductor-mimosa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mimosa.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mimosa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mimosa:1.36.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-mimosa:1.36.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mimosa/1.36.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-mimosa/1.36.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-mimosa/1.36.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-mimosa/1.36.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

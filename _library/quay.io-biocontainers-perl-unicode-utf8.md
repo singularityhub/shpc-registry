@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-unicode-utf8"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-utf8/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-utf8/container.yaml"
-updated_at: "2023-06-03 03:16:23.337945"
-latest: "0.62--pl5321h9f5acd7_4"
+updated_at: "2023-06-04 03:28:28.076730"
+latest: "0.62--pl5321h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/perl-unicode-utf8"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.62--pl5321h9f5acd7_4"
+ - "0.62--pl5321h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for perl-unicode-utf8"
-config: {"url": "https://biocontainers.pro/tools/perl-unicode-utf8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-utf8", "latest": {"0.62--pl5321h9f5acd7_4": "sha256:49e54d480975ddca902f024d20d4e0fd0b4c4d535fc9760a8bfd7bd53a851bfc"}, "tags": {"0.62--pl5321h9f5acd7_4": "sha256:49e54d480975ddca902f024d20d4e0fd0b4c4d535fc9760a8bfd7bd53a851bfc"}, "docker": "quay.io/biocontainers/perl-unicode-utf8", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-unicode-utf8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-utf8", "latest": {"0.62--pl5321h4ac6f70_6": "sha256:9419e4f8eb1e1ed243888879630833d99d1d3695890abc15a20af163e2fa9460"}, "tags": {"0.62--pl5321h9f5acd7_4": "sha256:49e54d480975ddca902f024d20d4e0fd0b4c4d535fc9760a8bfd7bd53a851bfc", "0.62--pl5321h4ac6f70_6": "sha256:9419e4f8eb1e1ed243888879630833d99d1d3695890abc15a20af163e2fa9460"}, "docker": "quay.io/biocontainers/perl-unicode-utf8", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-unicode-utf8.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-unicode-utf8
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-unicode-utf8:0.62--pl5321h9f5acd7_4
+$ shpc install quay.io/biocontainers/perl-unicode-utf8:0.62--pl5321h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-unicode-utf8/0.62--pl5321h9f5acd7_4
-$ module help quay.io/biocontainers/perl-unicode-utf8/0.62--pl5321h9f5acd7_4
+$ module load quay.io/biocontainers/perl-unicode-utf8/0.62--pl5321h4ac6f70_6
+$ module help quay.io/biocontainers/perl-unicode-utf8/0.62--pl5321h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

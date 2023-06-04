@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rosella"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rosella/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rosella/container.yaml"
-updated_at: "2023-06-03 03:19:36.572640"
-latest: "0.4.2--h6f8cb4c_1"
+updated_at: "2023-06-04 03:30:51.366803"
+latest: "0.4.2--h8e1a5b0_2"
 container_url: "https://biocontainers.pro/tools/rosella"
 aliases:
  - "remove_minimap2_duplicated_headers"
@@ -23,8 +23,9 @@ aliases:
  - "env_parallel.pdksh"
 versions:
  - "0.4.2--h6f8cb4c_1"
+ - "0.4.2--h8e1a5b0_2"
 description: "shpc-registry automated BioContainers addition for rosella"
-config: {"url": "https://biocontainers.pro/tools/rosella", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rosella", "latest": {"0.4.2--h6f8cb4c_1": "sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2"}, "tags": {"0.4.2--h6f8cb4c_1": "sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2"}, "docker": "quay.io/biocontainers/rosella", "aliases": {"remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "rosella": "/usr/local/bin/rosella", "starcode": "/usr/local/bin/starcode", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
+config: {"url": "https://biocontainers.pro/tools/rosella", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rosella", "latest": {"0.4.2--h8e1a5b0_2": "sha256:3a4d0c0189f5cc296dde835d24491f901cbef447cafff4102fed896e77838268"}, "tags": {"0.4.2--h6f8cb4c_1": "sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2", "0.4.2--h8e1a5b0_2": "sha256:3a4d0c0189f5cc296dde835d24491f901cbef447cafff4102fed896e77838268"}, "docker": "quay.io/biocontainers/rosella", "aliases": {"remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "rosella": "/usr/local/bin/rosella", "starcode": "/usr/local/bin/starcode", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rosella.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/rosella
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rosella:0.4.2--h6f8cb4c_1
+$ shpc install quay.io/biocontainers/rosella:0.4.2--h8e1a5b0_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rosella/0.4.2--h6f8cb4c_1
-$ module help quay.io/biocontainers/rosella/0.4.2--h6f8cb4c_1
+$ module load quay.io/biocontainers/rosella/0.4.2--h8e1a5b0_2
+$ module help quay.io/biocontainers/rosella/0.4.2--h8e1a5b0_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

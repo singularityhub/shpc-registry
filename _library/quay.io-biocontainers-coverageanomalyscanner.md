@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/coverageanomalyscanner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coverageanomalyscanner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coverageanomalyscanner/container.yaml"
-updated_at: "2023-06-03 03:50:28.061699"
-latest: "0.2.3--h47defd3_0"
+updated_at: "2023-06-04 03:53:25.825846"
+latest: "0.2.3--h77de753_2"
 container_url: "https://biocontainers.pro/tools/coverageanomalyscanner"
 aliases:
  - "cas"
 versions:
  - "0.2.3--h47defd3_0"
+ - "0.2.3--h77de753_2"
 description: "singularity registry hpc automated addition for coverageanomalyscanner"
-config: {"url": "https://biocontainers.pro/tools/coverageanomalyscanner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coverageanomalyscanner", "latest": {"0.2.3--h47defd3_0": "sha256:ac94da7cb2b85d9ae9c8f2e115631cc986a79f660510a796545e793e50c2db29"}, "tags": {"0.2.3--h47defd3_0": "sha256:ac94da7cb2b85d9ae9c8f2e115631cc986a79f660510a796545e793e50c2db29"}, "docker": "quay.io/biocontainers/coverageanomalyscanner", "aliases": {"cas": "/usr/local/bin/cas"}}
+config: {"url": "https://biocontainers.pro/tools/coverageanomalyscanner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coverageanomalyscanner", "latest": {"0.2.3--h77de753_2": "sha256:738f6f8e29272f6371bda95c32d6eaf647ccee4d232aebf8669c24b142573b1e"}, "tags": {"0.2.3--h47defd3_0": "sha256:ac94da7cb2b85d9ae9c8f2e115631cc986a79f660510a796545e793e50c2db29", "0.2.3--h77de753_2": "sha256:738f6f8e29272f6371bda95c32d6eaf647ccee4d232aebf8669c24b142573b1e"}, "docker": "quay.io/biocontainers/coverageanomalyscanner", "aliases": {"cas": "/usr/local/bin/cas"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coverageanomalyscanner.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/coverageanomalyscanner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coverageanomalyscanner:0.2.3--h47defd3_0
+$ shpc install quay.io/biocontainers/coverageanomalyscanner:0.2.3--h77de753_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coverageanomalyscanner/0.2.3--h47defd3_0
-$ module help quay.io/biocontainers/coverageanomalyscanner/0.2.3--h47defd3_0
+$ module load quay.io/biocontainers/coverageanomalyscanner/0.2.3--h77de753_2
+$ module help quay.io/biocontainers/coverageanomalyscanner/0.2.3--h77de753_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

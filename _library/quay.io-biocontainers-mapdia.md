@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mapdia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapdia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapdia/container.yaml"
-updated_at: "2023-06-03 03:08:30.675677"
-latest: "3.1.0--h87f3376_3"
+updated_at: "2023-06-04 03:22:40.236366"
+latest: "3.1.0--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/mapdia"
 aliases:
  - "mapDIA"
 versions:
  - "3.1.0--h87f3376_3"
+ - "3.1.0--hdbdd923_5"
 description: "shpc-registry automated BioContainers addition for mapdia"
-config: {"url": "https://biocontainers.pro/tools/mapdia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapdia", "latest": {"3.1.0--h87f3376_3": "sha256:5dd2e76310560a97ac9bffb2d9b9392fd3db34e39a004e87b1639da5d2ed47b7"}, "tags": {"3.1.0--h87f3376_3": "sha256:5dd2e76310560a97ac9bffb2d9b9392fd3db34e39a004e87b1639da5d2ed47b7"}, "docker": "quay.io/biocontainers/mapdia", "aliases": {"mapDIA": "/usr/local/bin/mapDIA"}}
+config: {"url": "https://biocontainers.pro/tools/mapdia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapdia", "latest": {"3.1.0--hdbdd923_5": "sha256:b71b49d263379d3f20be396a792cd23241635d247be1647cc8eb1bea92f31174"}, "tags": {"3.1.0--h87f3376_3": "sha256:5dd2e76310560a97ac9bffb2d9b9392fd3db34e39a004e87b1639da5d2ed47b7", "3.1.0--hdbdd923_5": "sha256:b71b49d263379d3f20be396a792cd23241635d247be1647cc8eb1bea92f31174"}, "docker": "quay.io/biocontainers/mapdia", "aliases": {"mapDIA": "/usr/local/bin/mapDIA"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapdia.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mapdia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mapdia:3.1.0--h87f3376_3
+$ shpc install quay.io/biocontainers/mapdia:3.1.0--hdbdd923_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mapdia/3.1.0--h87f3376_3
-$ module help quay.io/biocontainers/mapdia/3.1.0--h87f3376_3
+$ module load quay.io/biocontainers/mapdia/3.1.0--hdbdd923_5
+$ module help quay.io/biocontainers/mapdia/3.1.0--hdbdd923_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

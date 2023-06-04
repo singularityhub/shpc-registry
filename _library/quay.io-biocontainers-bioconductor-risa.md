@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-risa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-risa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-risa/container.yaml"
-updated_at: "2023-06-03 03:02:20.505838"
-latest: "1.40.0--r42hc247a5b_0"
+updated_at: "2023-06-04 03:18:12.333834"
+latest: "1.40.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-risa"
 aliases:
  - "zipcmp"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.36.0--r41hc247a5b_2"
  - "1.40.0--r42hc247a5b_0"
+ - "1.40.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-risa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-risa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-risa", "latest": {"1.40.0--r42hc247a5b_0": "sha256:98ae4c2bf1f1f72bbccbe906638c8a6d8396b64c92069b2f6940f53d54e7130f"}, "tags": {"1.36.0--r41hc247a5b_2": "sha256:f83c1875c1d3789508e06bff3cdef2ca85462423d7bd14a6a18f6d1126d3c872", "1.40.0--r42hc247a5b_0": "sha256:98ae4c2bf1f1f72bbccbe906638c8a6d8396b64c92069b2f6940f53d54e7130f"}, "docker": "quay.io/biocontainers/bioconductor-risa", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-risa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-risa", "latest": {"1.40.0--r42hf17093f_1": "sha256:9e68a31af7c3369a2cc2f295547b6e4b287a93beae66fa8b2136f469bda89ed9"}, "tags": {"1.36.0--r41hc247a5b_2": "sha256:f83c1875c1d3789508e06bff3cdef2ca85462423d7bd14a6a18f6d1126d3c872", "1.40.0--r42hc247a5b_0": "sha256:98ae4c2bf1f1f72bbccbe906638c8a6d8396b64c92069b2f6940f53d54e7130f", "1.40.0--r42hf17093f_1": "sha256:9e68a31af7c3369a2cc2f295547b6e4b287a93beae66fa8b2136f469bda89ed9"}, "docker": "quay.io/biocontainers/bioconductor-risa", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-risa.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-risa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-risa:1.40.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-risa:1.40.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-risa/1.40.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-risa/1.40.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-risa/1.40.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-risa/1.40.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

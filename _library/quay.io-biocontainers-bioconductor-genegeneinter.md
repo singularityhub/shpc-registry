@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genegeneinter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genegeneinter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genegeneinter/container.yaml"
-updated_at: "2023-06-03 03:27:01.263484"
-latest: "1.24.0--r42hc247a5b_0"
+updated_at: "2023-06-04 03:36:21.753124"
+latest: "1.24.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genegeneinter"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r36he1b5a44_0"
  - "1.10.0--r36he1b5a44_1"
  - "1.24.0--r42hc247a5b_0"
+ - "1.24.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-genegeneinter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genegeneinter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genegeneinter", "latest": {"1.24.0--r42hc247a5b_0": "sha256:8b67d23f269e8cf66d95186487bbf2f5924e1e8ec53adda8d89b7ea1e2c72c83"}, "tags": {"1.8.0--r351_0": "sha256:b1131d6e563f02e84c3123672330e6cc801dad1c5177a4ca11658176d4d12396", "1.20.0--r41hc247a5b_2": "sha256:ddd8ee1ac036360a9920f44f99d1c52cb1654e0e2ed3240f76d0323dda478e02", "1.18.0--r41h399db7b_0": "sha256:4b24d2cefd0765382356c12374eaa40b68f765917fb8618fe731f05379ab3ca0", "1.14.0--r40h5f743cb_0": "sha256:2d5031e80f787f862f46c6e87ed174c371308e8dc2ba80f9c2f506c7cc60f53f", "1.12.0--r36he1b5a44_0": "sha256:7b0e4ca8852113536cbcfb067e05a6dc2761e45bb556d3fa8d4b0b290d2b8f94", "1.10.0--r36he1b5a44_1": "sha256:511c6f58316ce3cf7ba7de21a228a5a925176015c22e70ec166cc93eb1756e47", "1.24.0--r42hc247a5b_0": "sha256:8b67d23f269e8cf66d95186487bbf2f5924e1e8ec53adda8d89b7ea1e2c72c83"}, "docker": "quay.io/biocontainers/bioconductor-genegeneinter", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genegeneinter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genegeneinter", "latest": {"1.24.0--r42hf17093f_1": "sha256:8c9b9b29624077649aa8389145d490f83415591f3a56c6f71bf177fc32ee3e8e"}, "tags": {"1.8.0--r351_0": "sha256:b1131d6e563f02e84c3123672330e6cc801dad1c5177a4ca11658176d4d12396", "1.20.0--r41hc247a5b_2": "sha256:ddd8ee1ac036360a9920f44f99d1c52cb1654e0e2ed3240f76d0323dda478e02", "1.18.0--r41h399db7b_0": "sha256:4b24d2cefd0765382356c12374eaa40b68f765917fb8618fe731f05379ab3ca0", "1.14.0--r40h5f743cb_0": "sha256:2d5031e80f787f862f46c6e87ed174c371308e8dc2ba80f9c2f506c7cc60f53f", "1.12.0--r36he1b5a44_0": "sha256:7b0e4ca8852113536cbcfb067e05a6dc2761e45bb556d3fa8d4b0b290d2b8f94", "1.10.0--r36he1b5a44_1": "sha256:511c6f58316ce3cf7ba7de21a228a5a925176015c22e70ec166cc93eb1756e47", "1.24.0--r42hc247a5b_0": "sha256:8b67d23f269e8cf66d95186487bbf2f5924e1e8ec53adda8d89b7ea1e2c72c83", "1.24.0--r42hf17093f_1": "sha256:8c9b9b29624077649aa8389145d490f83415591f3a56c6f71bf177fc32ee3e8e"}, "docker": "quay.io/biocontainers/bioconductor-genegeneinter", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genegeneinter.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genegeneinter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genegeneinter:1.24.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-genegeneinter:1.24.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genegeneinter/1.24.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-genegeneinter/1.24.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-genegeneinter/1.24.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-genegeneinter/1.24.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fithic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fithic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fithic/container.yaml"
-updated_at: "2023-06-03 03:04:53.978226"
-latest: "1.24.0--r42hc247a5b_0"
+updated_at: "2023-06-04 03:20:04.023844"
+latest: "1.24.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-fithic"
 aliases:
  - "c89"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r41h399db7b_0"
  - "1.16.0--r40h399db7b_1"
  - "1.14.0--r40h5f743cb_0"
+ - "1.24.0--r42hf17093f_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-fithic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fithic", "latest": {"1.24.0--r42hc247a5b_0": "sha256:3023fd7844ea97769343c4ce5879006940b3f64ac66489db25f9a170d6b4813e"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:fdacd86bff25ae93ff36ed55acac886d5fbc93a084e12e4bd19aab9ed35176c1", "1.24.0--r42hc247a5b_0": "sha256:3023fd7844ea97769343c4ce5879006940b3f64ac66489db25f9a170d6b4813e", "1.20.0--r41hc247a5b_2": "sha256:7e88980c0dc939d0b08b17299b8272aa4d60e9cd81c7ddb95dc1c6bde475269c", "1.18.0--r41h399db7b_0": "sha256:7030bcca8e2dbf049f352023b4892ca6d6a096d2d4077a6ca2499e37bf6cf6c4", "1.16.0--r40h399db7b_1": "sha256:f40968c41e01fdda2b906d5236f266a3ba448dece5135a1fcaaa69bf231308d6", "1.14.0--r40h5f743cb_0": "sha256:d176950b2f934359a7d1d1593bcd2f0a7b2602c13eb3b785369813f209b0891d"}, "docker": "quay.io/biocontainers/bioconductor-fithic", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fithic", "latest": {"1.24.0--r42hf17093f_2": "sha256:7b885df90be9f0d076143108302256a5dc079ad8e3da121970f28e7a4b87e18b"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:fdacd86bff25ae93ff36ed55acac886d5fbc93a084e12e4bd19aab9ed35176c1", "1.24.0--r42hc247a5b_0": "sha256:3023fd7844ea97769343c4ce5879006940b3f64ac66489db25f9a170d6b4813e", "1.20.0--r41hc247a5b_2": "sha256:7e88980c0dc939d0b08b17299b8272aa4d60e9cd81c7ddb95dc1c6bde475269c", "1.18.0--r41h399db7b_0": "sha256:7030bcca8e2dbf049f352023b4892ca6d6a096d2d4077a6ca2499e37bf6cf6c4", "1.16.0--r40h399db7b_1": "sha256:f40968c41e01fdda2b906d5236f266a3ba448dece5135a1fcaaa69bf231308d6", "1.14.0--r40h5f743cb_0": "sha256:d176950b2f934359a7d1d1593bcd2f0a7b2602c13eb3b785369813f209b0891d", "1.24.0--r42hf17093f_2": "sha256:7b885df90be9f0d076143108302256a5dc079ad8e3da121970f28e7a4b87e18b"}, "docker": "quay.io/biocontainers/bioconductor-fithic", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fithic.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fithic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fithic:1.24.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-fithic:1.24.0--r42hf17093f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fithic/1.24.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-fithic/1.24.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-fithic/1.24.0--r42hf17093f_2
+$ module help quay.io/biocontainers/bioconductor-fithic/1.24.0--r42hf17093f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/grabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grabix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grabix/container.yaml"
-updated_at: "2023-06-03 03:27:44.230898"
-latest: "0.1.8--hd03093a_7"
+updated_at: "2023-06-04 03:36:52.971572"
+latest: "0.1.8--hdcf5f25_9"
 container_url: "https://biocontainers.pro/tools/grabix"
 aliases:
  - "grabix"
 versions:
  - "0.1.8--hd03093a_7"
+ - "0.1.8--hdcf5f25_9"
 description: "shpc-registry automated BioContainers addition for grabix"
-config: {"url": "https://biocontainers.pro/tools/grabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grabix", "latest": {"0.1.8--hd03093a_7": "sha256:3b47aa01ebae80973bac561d1fa8cf58f3828264d744e7ee5798f72052152db8"}, "tags": {"0.1.8--hd03093a_7": "sha256:3b47aa01ebae80973bac561d1fa8cf58f3828264d744e7ee5798f72052152db8"}, "docker": "quay.io/biocontainers/grabix", "aliases": {"grabix": "/usr/local/bin/grabix"}}
+config: {"url": "https://biocontainers.pro/tools/grabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grabix", "latest": {"0.1.8--hdcf5f25_9": "sha256:10cc7c0b5b9b86cf39558b4ddd76c273966f41faa7500a293ea9fe383613ff3f"}, "tags": {"0.1.8--hd03093a_7": "sha256:3b47aa01ebae80973bac561d1fa8cf58f3828264d744e7ee5798f72052152db8", "0.1.8--hdcf5f25_9": "sha256:10cc7c0b5b9b86cf39558b4ddd76c273966f41faa7500a293ea9fe383613ff3f"}, "docker": "quay.io/biocontainers/grabix", "aliases": {"grabix": "/usr/local/bin/grabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grabix.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/grabix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grabix:0.1.8--hd03093a_7
+$ shpc install quay.io/biocontainers/grabix:0.1.8--hdcf5f25_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grabix/0.1.8--hd03093a_7
-$ module help quay.io/biocontainers/grabix/0.1.8--hd03093a_7
+$ module load quay.io/biocontainers/grabix/0.1.8--hdcf5f25_9
+$ module help quay.io/biocontainers/grabix/0.1.8--hdcf5f25_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyseq-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyseq-align/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyseq-align/container.yaml"
-updated_at: "2023-06-03 03:52:21.876187"
-latest: "1.0.2--py37h8902056_1"
+updated_at: "2023-06-04 03:54:47.622158"
+latest: "1.0.2--py39hf95cd2a_3"
 container_url: "https://biocontainers.pro/tools/pyseq-align"
 aliases:
  - "2to3-3.7"
@@ -19,8 +19,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.0.2--py37h8902056_1"
+ - "1.0.2--py39hf95cd2a_3"
 description: "shpc-registry automated BioContainers addition for pyseq-align"
-config: {"url": "https://biocontainers.pro/tools/pyseq-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseq-align", "latest": {"1.0.2--py37h8902056_1": "sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0"}, "tags": {"1.0.2--py37h8902056_1": "sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0"}, "docker": "quay.io/biocontainers/pyseq-align", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyseq-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseq-align", "latest": {"1.0.2--py39hf95cd2a_3": "sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496"}, "tags": {"1.0.2--py37h8902056_1": "sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0", "1.0.2--py39hf95cd2a_3": "sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496"}, "docker": "quay.io/biocontainers/pyseq-align", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyseq-align.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pyseq-align
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyseq-align:1.0.2--py37h8902056_1
+$ shpc install quay.io/biocontainers/pyseq-align:1.0.2--py39hf95cd2a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyseq-align/1.0.2--py37h8902056_1
-$ module help quay.io/biocontainers/pyseq-align/1.0.2--py37h8902056_1
+$ module load quay.io/biocontainers/pyseq-align/1.0.2--py39hf95cd2a_3
+$ module help quay.io/biocontainers/pyseq-align/1.0.2--py39hf95cd2a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

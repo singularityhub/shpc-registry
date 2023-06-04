@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/prequal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prequal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prequal/container.yaml"
-updated_at: "2023-06-03 03:50:20.176977"
-latest: "1.02--hb97b32f_3"
+updated_at: "2023-06-04 03:53:20.205537"
+latest: "1.02--h2202e69_5"
 container_url: "https://biocontainers.pro/tools/prequal"
 aliases:
  - "prequal"
 versions:
  - "1.02--hb97b32f_3"
+ - "1.02--h2202e69_5"
 description: "shpc-registry automated BioContainers addition for prequal"
-config: {"url": "https://biocontainers.pro/tools/prequal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prequal", "latest": {"1.02--hb97b32f_3": "sha256:1f1a14effefc24a922d9946f8fba891c80a68be7286b6311f3f72eb2aa896bf5"}, "tags": {"1.02--hb97b32f_3": "sha256:1f1a14effefc24a922d9946f8fba891c80a68be7286b6311f3f72eb2aa896bf5"}, "docker": "quay.io/biocontainers/prequal", "aliases": {"prequal": "/usr/local/bin/prequal"}}
+config: {"url": "https://biocontainers.pro/tools/prequal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prequal", "latest": {"1.02--h2202e69_5": "sha256:7b38ed3ab0afe0a12becde211ae288c346c5066d525bed3b52791afb2f44b339"}, "tags": {"1.02--hb97b32f_3": "sha256:1f1a14effefc24a922d9946f8fba891c80a68be7286b6311f3f72eb2aa896bf5", "1.02--h2202e69_5": "sha256:7b38ed3ab0afe0a12becde211ae288c346c5066d525bed3b52791afb2f44b339"}, "docker": "quay.io/biocontainers/prequal", "aliases": {"prequal": "/usr/local/bin/prequal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prequal.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/prequal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prequal:1.02--hb97b32f_3
+$ shpc install quay.io/biocontainers/prequal:1.02--h2202e69_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prequal/1.02--hb97b32f_3
-$ module help quay.io/biocontainers/prequal/1.02--hb97b32f_3
+$ module load quay.io/biocontainers/prequal/1.02--h2202e69_5
+$ module help quay.io/biocontainers/prequal/1.02--h2202e69_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

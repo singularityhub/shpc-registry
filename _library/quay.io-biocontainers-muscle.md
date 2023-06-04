@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/muscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muscle/container.yaml"
-updated_at: "2023-06-03 02:58:35.631390"
+updated_at: "2023-06-04 03:15:28.222188"
 latest: "5.1--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/muscle"
 aliases:
