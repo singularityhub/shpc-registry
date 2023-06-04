@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scssim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scssim
 latest:
-  1.0--h9f5acd7_2: sha256:ff14c7240fbfdc8f92909dbd1c81fade8541da234a439c7e617fd6cd5b15ac3f
+  1.0--h4ac6f70_4: sha256:ae28eff2092279184943b9bbbf6640518410fecb89b09f0586735f79e1ae6c85
 tags:
   1.0--h9f5acd7_2: sha256:ff14c7240fbfdc8f92909dbd1c81fade8541da234a439c7e617fd6cd5b15ac3f
+  1.0--h4ac6f70_4: sha256:ae28eff2092279184943b9bbbf6640518410fecb89b09f0586735f79e1ae6c85
 docker: quay.io/biocontainers/scssim
 aliases:
   scssim: /usr/local/bin/scssim

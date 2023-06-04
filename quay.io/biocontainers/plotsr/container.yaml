@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/plotsr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plotsr
 latest:
-  1.0.0--pyh7cba7a3_0: sha256:fdb84d6c26da3e5e5bf0a4448cf76eaf6eb4ee5abc079b0cacbfa554b2491a35
+  1.1.1--pyh7cba7a3_0: sha256:4f9dd4582cf6eefda6203f4dc2791da6cbbf1571de2b5c39097a82b329bd140a
 tags:
   0.5.4--pyh5e36f6f_0: sha256:de6cbfbc8aee6b8521d961ed002eb47b35a36a18f9f289bc564a1eddd207e9ca
   1.0.0--pyh7cba7a3_0: sha256:fdb84d6c26da3e5e5bf0a4448cf76eaf6eb4ee5abc079b0cacbfa554b2491a35
+  1.1.1--pyh7cba7a3_0: sha256:4f9dd4582cf6eefda6203f4dc2791da6cbbf1571de2b5c39097a82b329bd140a
 docker: quay.io/biocontainers/plotsr
 aliases:
   plotsr: /usr/local/bin/plotsr

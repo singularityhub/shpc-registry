@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gotohscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gotohscan
 latest:
-  1.3--hec16e2b_4: sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae
+  1.3--h031d066_6: sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4
 tags:
   1.3--hec16e2b_4: sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae
+  1.3--h031d066_6: sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4
 docker: quay.io/biocontainers/gotohscan
 aliases:
   GotohScan: /usr/local/bin/GotohScan

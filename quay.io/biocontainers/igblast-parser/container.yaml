@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/igblast-parser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for igblast-parser
 latest:
-  0.0.4--py36h91eb985_3: sha256:a045cf35ef6514fb8371f7c6a80104667af2a73753780a5e5aeb61c31e823de1
+  0.0.4--py310h4b81fae_6: sha256:e3748894a9de3d6ecf75ffb6ff2d34b439895a90a8c7c24cf5fd9dd1a9003755
 tags:
   0.0.4--py36h91eb985_3: sha256:a045cf35ef6514fb8371f7c6a80104667af2a73753780a5e5aeb61c31e823de1
+  0.0.4--py310h4b81fae_6: sha256:e3748894a9de3d6ecf75ffb6ff2d34b439895a90a8c7c24cf5fd9dd1a9003755
 docker: quay.io/biocontainers/igblast-parser
 aliases:
   igblast-parser: /usr/local/bin/igblast-parser

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/python-hppy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-hppy
 latest:
-  0.9.8--py37h8902056_5: sha256:a470cb5f35d28c319566c08ca90d7f369770ec29419469202954d6c0f1f5ae1a
+  0.9.8--py310h4b81fae_6: sha256:3052b2aaec4d1304745d6766cc0a5f6a5ba6004b42abe75768e5d88ae6834365
 tags:
   0.9.8--py37h8902056_5: sha256:a470cb5f35d28c319566c08ca90d7f369770ec29419469202954d6c0f1f5ae1a
+  0.9.8--py310h4b81fae_6: sha256:3052b2aaec4d1304745d6766cc0a5f6a5ba6004b42abe75768e5d88ae6834365
 docker: quay.io/biocontainers/python-hppy
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

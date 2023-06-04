@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/genometester4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genometester4
 latest:
-  4.0--hec16e2b_4: sha256:d03479ad3e891198a1056364ed0dde9389ba929bad199d67ad13ea8641f00424
+  4.0--h031d066_6: sha256:011cbf4d9652d9a37ac6bb6aa5e0d3b211cdb2f1fc402ab142011ab53f250baa
 tags:
   4.0--hec16e2b_4: sha256:d03479ad3e891198a1056364ed0dde9389ba929bad199d67ad13ea8641f00424
+  4.0--h031d066_6: sha256:011cbf4d9652d9a37ac6bb6aa5e0d3b211cdb2f1fc402ab142011ab53f250baa
 docker: quay.io/biocontainers/genometester4
 aliases:
   glistcompare: /usr/local/bin/glistcompare

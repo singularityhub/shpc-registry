@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/genericrepeatfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genericrepeatfinder
 latest:
-  1.0--h9f5acd7_2: sha256:d71ebb1867d9f6d3a7b6e80f39888a3276066e76ee816bf6ef9ef2a74b888226
+  1.0--h4ac6f70_3: sha256:eb503bfbeddc6caefcf260acfd2f46926d562f171a6cb63af4853fb20fa4c8f5
 tags:
   1.0--h9f5acd7_2: sha256:d71ebb1867d9f6d3a7b6e80f39888a3276066e76ee816bf6ef9ef2a74b888226
+  1.0--h4ac6f70_3: sha256:eb503bfbeddc6caefcf260acfd2f46926d562f171a6cb63af4853fb20fa4c8f5
 docker: quay.io/biocontainers/genericrepeatfinder
 aliases:
   grf-alignment: /usr/local/bin/grf-alignment

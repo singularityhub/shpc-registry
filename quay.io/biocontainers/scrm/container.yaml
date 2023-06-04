@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scrm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scrm
 latest:
-  1.7.4--h9f5acd7_2: sha256:efea949a39e5b1fdbdccc5e871995dedf0e7327fa0a7791e42ea04fdf7b2477c
+  1.7.4--h4ac6f70_4: sha256:39950fe7bb1ca7df4553146571da74447567ee3609b2c842ce6c787b8de62de0
 tags:
   1.7.4--h9f5acd7_2: sha256:efea949a39e5b1fdbdccc5e871995dedf0e7327fa0a7791e42ea04fdf7b2477c
+  1.7.4--h4ac6f70_4: sha256:39950fe7bb1ca7df4553146571da74447567ee3609b2c842ce6c787b8de62de0
 docker: quay.io/biocontainers/scrm
 aliases:
   scrm: /usr/local/bin/scrm

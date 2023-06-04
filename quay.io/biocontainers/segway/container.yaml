@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/segway
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for segway
 latest:
-  3.0.4--pyh5e36f6f_0: sha256:6632154b8ead17cb519199e38f548b1c68826bf25f4738f7c27f1cad976fb8f2
+  3.0.4--pyh7cba7a3_1: sha256:dde5e98f11262551490fc75c77b54030b8727fa64e5d331c8664a3e634577513
 tags:
   3.0.4--pyh5e36f6f_0: sha256:6632154b8ead17cb519199e38f548b1c68826bf25f4738f7c27f1cad976fb8f2
+  3.0.4--pyh7cba7a3_1: sha256:dde5e98f11262551490fc75c77b54030b8727fa64e5d331c8664a3e634577513
 docker: quay.io/biocontainers/segway
 aliases:
   bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph

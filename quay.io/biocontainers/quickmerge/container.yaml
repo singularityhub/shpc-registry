@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/quickmerge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for quickmerge
 latest:
-  0.3--pl5321h87f3376_3: sha256:af96e77e82c2b8954037f4d117eb5b71ff8d055d7ebe0405fa2746f6b0cd95fd
+  0.3--pl5321hdbdd923_5: sha256:2bea67ffaba07ebe19ed7e925bd296153f094e39917729a424c42736e30d9a0a
 tags:
   0.3--pl5321h87f3376_3: sha256:af96e77e82c2b8954037f4d117eb5b71ff8d055d7ebe0405fa2746f6b0cd95fd
+  0.3--pl5321hdbdd923_5: sha256:2bea67ffaba07ebe19ed7e925bd296153f094e39917729a424c42736e30d9a0a
 docker: quay.io/biocontainers/quickmerge
 aliases:
   merge_wrapper.py: /usr/local/bin/merge_wrapper.py
