@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/abromics_galaxy_json_extractor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for abromics_galaxy_json_extractor
+latest:
+  0.1--pyh7cba7a3_0: sha256:82c5f0cb8e22a33725b0682074bb2ac4f0a04a96786fa101b7162702fac0663e
+tags:
+  0.1--pyh7cba7a3_0: sha256:82c5f0cb8e22a33725b0682074bb2ac4f0a04a96786fa101b7162702fac0663e
+docker: quay.io/biocontainers/abromics_galaxy_json_extractor
+aliases:
+  abromics_extract: /usr/local/bin/abromics_extract
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
