@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/metabuli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metabuli
+latest:
+  1.0.0--pl5321hf1761c0_0: sha256:491537c04d1f361894bd4746e3f84d606ea8ce8ef8587cb38c838dad52d50be6
+tags:
+  1.0.0--pl5321hf1761c0_0: sha256:491537c04d1f361894bd4746e3f84d606ea8ce8ef8587cb38c838dad52d50be6
+docker: quay.io/biocontainers/metabuli
+aliases:
+  aria2c: /usr/local/bin/aria2c
+  metabuli: /usr/local/bin/metabuli
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

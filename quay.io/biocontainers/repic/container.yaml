@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/repic
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for repic
+latest:
+  0.0.0--pyh7cba7a3_0: sha256:fea1b31ed3fa8c1499f5b625f3696d52bcb10e003e9472dc0b20fcfca2e85aa2
+tags:
+  0.0.0--pyh7cba7a3_0: sha256:fea1b31ed3fa8c1499f5b625f3696d52bcb10e003e9472dc0b20fcfca2e85aa2
+docker: quay.io/biocontainers/repic
+aliases:
+  mrcfile-header: /usr/local/bin/mrcfile-header
+  mrcfile-validate: /usr/local/bin/mrcfile-validate
+  repic: /usr/local/bin/repic
+  tjbench: /usr/local/bin/tjbench
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  python3.1: /usr/local/bin/python3.1
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
