@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maxentscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxentscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxentscan/container.yaml"
-updated_at: "2023-06-05 03:18:09.903909"
+updated_at: "2023-06-05 03:39:39.639716"
 latest: "0_2004.04.21--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/maxentscan"
 aliases:

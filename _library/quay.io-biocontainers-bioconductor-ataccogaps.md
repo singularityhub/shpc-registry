@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ataccogaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ataccogaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ataccogaps/container.yaml"
-updated_at: "2023-06-05 03:10:29.736679"
+updated_at: "2023-06-05 03:31:31.419597"
 latest: "1.0.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ataccogaps"
 aliases:

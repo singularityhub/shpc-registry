@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-parathyroidse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-parathyroidse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-parathyroidse/container.yaml"
-updated_at: "2023-06-05 03:36:59.529584"
+updated_at: "2023-06-05 03:58:26.461643"
 latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-parathyroidse"
 

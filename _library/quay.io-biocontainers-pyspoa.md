@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyspoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyspoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyspoa/container.yaml"
-updated_at: "2023-06-05 03:37:40.011889"
+updated_at: "2023-06-05 03:59:05.004242"
 latest: "0.0.3--py310h068649b_6"
 container_url: "https://biocontainers.pro/tools/pyspoa"
 aliases:

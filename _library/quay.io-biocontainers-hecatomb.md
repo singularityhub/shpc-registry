@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hecatomb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hecatomb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hecatomb/container.yaml"
-updated_at: "2023-06-05 03:19:35.688679"
+updated_at: "2023-06-05 03:41:10.738311"
 latest: "1.2.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hecatomb"
 aliases:
