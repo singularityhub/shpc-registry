@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gecko
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gecko
 latest:
-  1.2--hec16e2b_2: sha256:7a96fe171453939e9d97798567247715d861220e5a9b1c20aa2a235b0a75d8a6
+  1.2--h031d066_4: sha256:c96e11a77761da6e2a7de6f01fec38fab8b4cdb1ab7c35e5094ce6e613b6c954
 tags:
   1.2--hec16e2b_2: sha256:7a96fe171453939e9d97798567247715d861220e5a9b1c20aa2a235b0a75d8a6
+  1.2--h031d066_4: sha256:c96e11a77761da6e2a7de6f01fec38fab8b4cdb1ab7c35e5094ce6e613b6c954
 docker: quay.io/biocontainers/gecko
 aliases:
   FragHits: /usr/local/bin/FragHits

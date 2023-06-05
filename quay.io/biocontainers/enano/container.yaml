@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/enano
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for enano
 latest:
-  1.0--hd03093a_4: sha256:835b9b948b72fe01ed278456a988114190286596b31c0c6fbfc45ae67eea3141
+  1.0--hdcf5f25_6: sha256:a3f5a4dab505b0704d9f4c3a627e5f9e1554c075c292731dcb2dea6183cf9ab9
 tags:
   1.0--hd03093a_4: sha256:835b9b948b72fe01ed278456a988114190286596b31c0c6fbfc45ae67eea3141
+  1.0--hdcf5f25_6: sha256:a3f5a4dab505b0704d9f4c3a627e5f9e1554c075c292731dcb2dea6183cf9ab9
 docker: quay.io/biocontainers/enano
 aliases:
   enano: /usr/local/bin/enano

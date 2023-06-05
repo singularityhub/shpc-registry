@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/machina
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for machina
 latest:
-  1.2--h7ff8a90_5: sha256:68f19a4158f839682debcefcb46b0fe89dc6de1b8114e684fb58eed05d7a4c8a
+  1.2--h21ec9f0_7: sha256:aaf3497b4bf7942be7174c0d7c54f262e6abcc5ebccfc7194644a7b5a4333d80
 tags:
   1.2--h7ff8a90_4: sha256:e8e3b1c68d42fd8ae63a6c7fc7e25352b35d069fb0e647513db8e3e31ad8eb89
   1.2--h7ff8a90_5: sha256:68f19a4158f839682debcefcb46b0fe89dc6de1b8114e684fb58eed05d7a4c8a
+  1.2--h21ec9f0_7: sha256:aaf3497b4bf7942be7174c0d7c54f262e6abcc5ebccfc7194644a7b5a4333d80
 docker: quay.io/biocontainers/machina
 aliases:
   dimacs-solver: /usr/local/bin/dimacs-solver

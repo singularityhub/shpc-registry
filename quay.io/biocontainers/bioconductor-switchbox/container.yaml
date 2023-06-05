@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-switchbox
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-switchbox
 latest:
-  1.34.0--r42hc247a5b_0: sha256:f2aa12a2b0462fee2f2575b4a701d11372b46bde72935f1d88ff2dd94940f945
+  1.34.0--r42hf17093f_2: sha256:6f1aa146f44709d9f58f5513810d7ffe2f6e2a7eeb52c70fc5c1464d60ad2a7f
 tags:
   1.30.0--r41hc247a5b_2: sha256:bff3c65132d0a4d7014e7d8da24866ff8805b2a7f9333483a83e99b1b10c9397
   1.34.0--r42hc247a5b_0: sha256:f2aa12a2b0462fee2f2575b4a701d11372b46bde72935f1d88ff2dd94940f945
+  1.34.0--r42hf17093f_2: sha256:6f1aa146f44709d9f58f5513810d7ffe2f6e2a7eeb52c70fc5c1464d60ad2a7f
 docker: quay.io/biocontainers/bioconductor-switchbox

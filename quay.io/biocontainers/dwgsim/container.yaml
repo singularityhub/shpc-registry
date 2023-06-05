@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dwgsim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dwgsim
 latest:
-  1.1.13--h20b1175_1: sha256:1feccc22a532068d3b789242097fd6dc9adf556497eac0a840d86e86e2b514b2
+  1.1.13--h50ea8bc_3: sha256:5f6d14559efbd813fc1e30e4d6a36e2314e09585de2aedcb77a84886b8e15a89
 tags:
   1.1.13--h20b1175_1: sha256:1feccc22a532068d3b789242097fd6dc9adf556497eac0a840d86e86e2b514b2
+  1.1.13--h50ea8bc_3: sha256:5f6d14559efbd813fc1e30e4d6a36e2314e09585de2aedcb77a84886b8e15a89
 docker: quay.io/biocontainers/dwgsim
 aliases:
   dwgsim: /usr/local/bin/dwgsim

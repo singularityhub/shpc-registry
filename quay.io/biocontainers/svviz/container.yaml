@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/svviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svviz
 latest:
-  1.6.2--py27h9801fc8_5: sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8
+  1.6.2--py310h4b81fae_6: sha256:1929cf7efab046281520f8b9f8d9ecee0036132322773b491d0829e7dcad521b
 tags:
   1.6.2--py27h9801fc8_5: sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8
+  1.6.2--py310h4b81fae_6: sha256:1929cf7efab046281520f8b9f8d9ecee0036132322773b491d0829e7dcad521b
 docker: quay.io/biocontainers/svviz
 aliases:
   svviz: /usr/local/bin/svviz

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ripser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ripser
 latest:
-  1.0.1--h9f5acd7_3: sha256:f14e81d5860619c05c37eb648f977417eddfda5c2f3f1fa43c56b1a0bc1817e7
+  1.0.1--h9f5acd7_4: sha256:316e4319f94d9fd2de02e39f2910efa27d05b9a6760dd40e548c09b3a3d7cfea
 tags:
   1.0.1--h9f5acd7_3: sha256:f14e81d5860619c05c37eb648f977417eddfda5c2f3f1fa43c56b1a0bc1817e7
+  1.0.1--h9f5acd7_4: sha256:316e4319f94d9fd2de02e39f2910efa27d05b9a6760dd40e548c09b3a3d7cfea
 docker: quay.io/biocontainers/ripser
 aliases:
   ripser: /usr/local/bin/ripser

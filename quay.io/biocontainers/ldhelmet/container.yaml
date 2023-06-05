@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ldhelmet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ldhelmet
 latest:
-  1.10--h057f3fe_4: sha256:8f72a7b2974aa2501d080b49c523ccde29785004a24d60566f96654255c853f7
+  1.10--heb38167_6: sha256:4d61e2c6d1d2debf5daf3f2e19c9885d517681acc7a6771564a9def21d610633
 tags:
   1.10--h057f3fe_4: sha256:8f72a7b2974aa2501d080b49c523ccde29785004a24d60566f96654255c853f7
+  1.10--heb38167_6: sha256:4d61e2c6d1d2debf5daf3f2e19c9885d517681acc7a6771564a9def21d610633
 docker: quay.io/biocontainers/ldhelmet
 aliases:
   ldhelmet: /usr/local/bin/ldhelmet

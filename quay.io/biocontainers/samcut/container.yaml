@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/samcut
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for samcut
 latest:
-  0.1.1--h9f5acd7_0: sha256:73b9841040f07589bd6389ac9b4828a9ce419cec1c21f8fc9580c60606fa37be
+  0.1.1--h4ac6f70_2: sha256:0200727e4f6e61131f6b47c9c529c7c8d31642fefab7fefe348437d57601fe9f
 tags:
   0.1.1--h9f5acd7_0: sha256:73b9841040f07589bd6389ac9b4828a9ce419cec1c21f8fc9580c60606fa37be
+  0.1.1--h4ac6f70_2: sha256:0200727e4f6e61131f6b47c9c529c7c8d31642fefab7fefe348437d57601fe9f
 docker: quay.io/biocontainers/samcut
 aliases:
   samcut: /usr/local/bin/samcut

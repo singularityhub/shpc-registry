@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/zorro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for zorro
 latest:
-  2011.12.01--hec16e2b_3: sha256:469cae7eb92606ec46a9b6996ac739c3ee4dca6622450080bf0c3ce7e42a3727
+  2011.12.01--h031d066_4: sha256:0c45c07bfbea29215a90901de1dd88760408d4ca80e31a8927b93bcab3dfa12e
 tags:
   2011.12.01--hec16e2b_3: sha256:469cae7eb92606ec46a9b6996ac739c3ee4dca6622450080bf0c3ce7e42a3727
+  2011.12.01--h031d066_4: sha256:0c45c07bfbea29215a90901de1dd88760408d4ca80e31a8927b93bcab3dfa12e
 docker: quay.io/biocontainers/zorro
 aliases:
   zorro: /usr/local/bin/zorro

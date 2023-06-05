@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cn.farms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cn.farms
 latest:
-  1.46.0--r42hc247a5b_0: sha256:be7fd485081edf176edc64b66f63b910b7c25b41dd9d444addbaee4af2aa3945
+  1.46.0--r42hf17093f_1: sha256:a318346ac7bb9afab91eb95fb8278ab504febd3734cdbc6dfd4a016757ea99dc
 tags:
   1.42.0--r41hc247a5b_2: sha256:45cfce5f03d6c88a3d0a2adacaf32e0b48cef65d4c478a415f90c98925969e6e
   1.46.0--r42hc247a5b_0: sha256:be7fd485081edf176edc64b66f63b910b7c25b41dd9d444addbaee4af2aa3945
+  1.46.0--r42hf17093f_1: sha256:a318346ac7bb9afab91eb95fb8278ab504febd3734cdbc6dfd4a016757ea99dc
 docker: quay.io/biocontainers/bioconductor-cn.farms

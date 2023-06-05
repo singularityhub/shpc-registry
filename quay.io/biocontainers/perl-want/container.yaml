@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-want
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-want
 latest:
-  0.29--pl5321hec16e2b_3: sha256:52f511288075ee05e6b2982d995c03374e8aeb70d302b38d12d62891d0c067ad
+  0.29--pl5321h031d066_5: sha256:75df7a9db5ae7cc7d5fa61565368cbd6a4ed27f6040ab38325488c8d82d69140
 tags:
   0.29--pl5321hec16e2b_3: sha256:52f511288075ee05e6b2982d995c03374e8aeb70d302b38d12d62891d0c067ad
+  0.29--pl5321h031d066_5: sha256:75df7a9db5ae7cc7d5fa61565368cbd6a4ed27f6040ab38325488c8d82d69140
 docker: quay.io/biocontainers/perl-want
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ma
 latest:
-  2.0.1--py39h6935b12_0: sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d
+  2.0.2--py39h6935b12_0: sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e
 tags:
   2.0.1--py39h6935b12_0: sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d
+  2.0.2--py39h6935b12_0: sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e
 docker: quay.io/biocontainers/ma
 aliases:
   lzma: /usr/local/bin/lzma

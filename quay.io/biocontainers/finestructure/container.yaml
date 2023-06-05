@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/finestructure
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for finestructure
 latest:
-  2.1.3--pl5321h8e5b204_5: sha256:bdfe16461dfb00fc84851bd0b802a2ec1b21a21cae58bc99f6e65dcf1c411e4e
+  2.1.3--pl5321hd319059_7: sha256:6d60d4ebbbd657fb4cdcde4f9e0acd9454ddcad9f97a9de3277e3aab352ee61e
 tags:
   2.1.3--pl5321h8e5b204_5: sha256:bdfe16461dfb00fc84851bd0b802a2ec1b21a21cae58bc99f6e65dcf1c411e4e
+  2.1.3--pl5321hd319059_7: sha256:6d60d4ebbbd657fb4cdcde4f9e0acd9454ddcad9f97a9de3277e3aab352ee61e
 docker: quay.io/biocontainers/finestructure
 aliases:
   beagle2chromopainter.pl: /usr/local/bin/beagle2chromopainter.pl

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-scuttle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scuttle
 latest:
-  1.8.0--r42hc247a5b_0: sha256:bf089e4a3db722bfa369f9c36d4dd61191c1a0548e4b0e34a7b709738a11cd6f
+  1.8.0--r42hf17093f_1: sha256:9c326597115d7610f25acff1ffb3e8d2c96808fea62c17537a8cbbf6ca909bd3
 tags:
   1.4.0--r41hc247a5b_2: sha256:ea539dbb54472123fddc2403600b90a210e75922f97b467e4816b0fc8b830a8e
   1.8.0--r42hc247a5b_0: sha256:bf089e4a3db722bfa369f9c36d4dd61191c1a0548e4b0e34a7b709738a11cd6f
+  1.8.0--r42hf17093f_1: sha256:9c326597115d7610f25acff1ffb3e8d2c96808fea62c17537a8cbbf6ca909bd3
 docker: quay.io/biocontainers/bioconductor-scuttle

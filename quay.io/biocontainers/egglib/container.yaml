@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/egglib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for egglib
 latest:
-  3.1.0--py39h67e14b5_0: sha256:0ff5dff7c486b29ca4a5fb2056cfb13f0866741787a52f149c5a09771ab567d2
+  3.1.0--py310h068649b_3: sha256:2c1d187ece5e8c87426d6b409120c03d7ea6346bdbab21bc63b7754340497dde
 tags:
   3.1.0--py39h67e14b5_0: sha256:0ff5dff7c486b29ca4a5fb2056cfb13f0866741787a52f149c5a09771ab567d2
+  3.1.0--py310h068649b_3: sha256:2c1d187ece5e8c87426d6b409120c03d7ea6346bdbab21bc63b7754340497dde
 docker: quay.io/biocontainers/egglib
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9
