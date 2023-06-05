@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gotohscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gotohscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gotohscan/container.yaml"
-updated_at: "2023-06-04 03:33:09.329869"
-latest: "1.3--hec16e2b_4"
+updated_at: "2023-06-05 03:16:38.778513"
+latest: "1.3--h031d066_6"
 container_url: "https://biocontainers.pro/tools/gotohscan"
 aliases:
  - "GotohScan"
 versions:
  - "1.3--hec16e2b_4"
+ - "1.3--h031d066_6"
 description: "shpc-registry automated BioContainers addition for gotohscan"
-config: {"url": "https://biocontainers.pro/tools/gotohscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotohscan", "latest": {"1.3--hec16e2b_4": "sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae"}, "tags": {"1.3--hec16e2b_4": "sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae"}, "docker": "quay.io/biocontainers/gotohscan", "aliases": {"GotohScan": "/usr/local/bin/GotohScan"}}
+config: {"url": "https://biocontainers.pro/tools/gotohscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotohscan", "latest": {"1.3--h031d066_6": "sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4"}, "tags": {"1.3--hec16e2b_4": "sha256:9e76a0a45ffd892c7934926846f25d08dba859f43588f87494de45cf2c581bae", "1.3--h031d066_6": "sha256:ef921b19725bb70b85cc2c6db69202c973da650f5bf89943974ca501cd99b9c4"}, "docker": "quay.io/biocontainers/gotohscan", "aliases": {"GotohScan": "/usr/local/bin/GotohScan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gotohscan.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gotohscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gotohscan:1.3--hec16e2b_4
+$ shpc install quay.io/biocontainers/gotohscan:1.3--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gotohscan/1.3--hec16e2b_4
-$ module help quay.io/biocontainers/gotohscan/1.3--hec16e2b_4
+$ module load quay.io/biocontainers/gotohscan/1.3--h031d066_6
+$ module help quay.io/biocontainers/gotohscan/1.3--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

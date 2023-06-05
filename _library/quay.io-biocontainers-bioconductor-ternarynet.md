@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ternarynet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ternarynet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ternarynet/container.yaml"
-updated_at: "2023-06-04 03:52:29.932814"
-latest: "1.42.0--r42hc247a5b_0"
+updated_at: "2023-06-05 03:35:16.858577"
+latest: "1.42.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ternarynet"
 aliases:
  - "glpsol"
 versions:
  - "1.38.0--r41hc247a5b_2"
  - "1.42.0--r42hc247a5b_0"
+ - "1.42.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ternarynet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ternarynet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ternarynet", "latest": {"1.42.0--r42hc247a5b_0": "sha256:178fa0cc8bc671cbe69da341956ef098eba0469b09970d3d4800f5b979d11d61"}, "tags": {"1.38.0--r41hc247a5b_2": "sha256:82aa58b7ad43d4b0d06d5dc27959539eba46f464817bfbb974361a0d658a5721", "1.42.0--r42hc247a5b_0": "sha256:178fa0cc8bc671cbe69da341956ef098eba0469b09970d3d4800f5b979d11d61"}, "docker": "quay.io/biocontainers/bioconductor-ternarynet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ternarynet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ternarynet", "latest": {"1.42.0--r42hf17093f_1": "sha256:d085c215fee258f164ede4f78867b40b8f69a979308899ba0c2f096a7c6eba75"}, "tags": {"1.38.0--r41hc247a5b_2": "sha256:82aa58b7ad43d4b0d06d5dc27959539eba46f464817bfbb974361a0d658a5721", "1.42.0--r42hc247a5b_0": "sha256:178fa0cc8bc671cbe69da341956ef098eba0469b09970d3d4800f5b979d11d61", "1.42.0--r42hf17093f_1": "sha256:d085c215fee258f164ede4f78867b40b8f69a979308899ba0c2f096a7c6eba75"}, "docker": "quay.io/biocontainers/bioconductor-ternarynet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ternarynet.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ternarynet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ternarynet:1.42.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-ternarynet:1.42.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ternarynet/1.42.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-ternarynet/1.42.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-ternarynet/1.42.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-ternarynet/1.42.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

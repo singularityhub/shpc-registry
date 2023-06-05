@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/boquila"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boquila/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boquila/container.yaml"
-updated_at: "2023-06-04 03:21:17.433056"
+updated_at: "2023-06-05 03:05:10.192320"
 latest: "0.6.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/boquila"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/scrm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scrm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scrm/container.yaml"
-updated_at: "2023-06-04 03:44:48.382723"
-latest: "1.7.4--h9f5acd7_2"
+updated_at: "2023-06-05 03:27:46.405262"
+latest: "1.7.4--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/scrm"
 aliases:
  - "scrm"
 versions:
  - "1.7.4--h9f5acd7_2"
+ - "1.7.4--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for scrm"
-config: {"url": "https://biocontainers.pro/tools/scrm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scrm", "latest": {"1.7.4--h9f5acd7_2": "sha256:efea949a39e5b1fdbdccc5e871995dedf0e7327fa0a7791e42ea04fdf7b2477c"}, "tags": {"1.7.4--h9f5acd7_2": "sha256:efea949a39e5b1fdbdccc5e871995dedf0e7327fa0a7791e42ea04fdf7b2477c"}, "docker": "quay.io/biocontainers/scrm", "aliases": {"scrm": "/usr/local/bin/scrm"}}
+config: {"url": "https://biocontainers.pro/tools/scrm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scrm", "latest": {"1.7.4--h4ac6f70_4": "sha256:39950fe7bb1ca7df4553146571da74447567ee3609b2c842ce6c787b8de62de0"}, "tags": {"1.7.4--h9f5acd7_2": "sha256:efea949a39e5b1fdbdccc5e871995dedf0e7327fa0a7791e42ea04fdf7b2477c", "1.7.4--h4ac6f70_4": "sha256:39950fe7bb1ca7df4553146571da74447567ee3609b2c842ce6c787b8de62de0"}, "docker": "quay.io/biocontainers/scrm", "aliases": {"scrm": "/usr/local/bin/scrm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scrm.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/scrm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scrm:1.7.4--h9f5acd7_2
+$ shpc install quay.io/biocontainers/scrm:1.7.4--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scrm/1.7.4--h9f5acd7_2
-$ module help quay.io/biocontainers/scrm/1.7.4--h9f5acd7_2
+$ module load quay.io/biocontainers/scrm/1.7.4--h4ac6f70_4
+$ module help quay.io/biocontainers/scrm/1.7.4--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

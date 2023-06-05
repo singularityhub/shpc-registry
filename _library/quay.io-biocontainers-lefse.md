@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lefse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lefse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lefse/container.yaml"
-updated_at: "2023-06-04 03:23:00.949583"
+updated_at: "2023-06-05 03:06:50.263547"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lefse"
 aliases:

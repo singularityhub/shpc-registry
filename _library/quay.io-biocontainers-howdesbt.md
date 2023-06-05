@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/howdesbt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/howdesbt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/howdesbt/container.yaml"
-updated_at: "2023-06-04 03:18:33.559682"
-latest: "2.00.10--h9f5acd7_0"
+updated_at: "2023-06-05 03:02:30.769647"
+latest: "2.00.13--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/howdesbt"
 aliases:
  - "howdesbt"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "2.00.07--h9f5acd7_0"
  - "2.00.10--h9f5acd7_0"
+ - "2.00.13--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for howdesbt"
-config: {"url": "https://biocontainers.pro/tools/howdesbt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for howdesbt", "latest": {"2.00.10--h9f5acd7_0": "sha256:605d4b3eb0ad1a35393757afab0d2014d0342e8cdefac3c39197602e28e4fdc1"}, "tags": {"2.00.07--h9f5acd7_0": "sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d", "2.00.10--h9f5acd7_0": "sha256:605d4b3eb0ad1a35393757afab0d2014d0342e8cdefac3c39197602e28e4fdc1"}, "docker": "quay.io/biocontainers/howdesbt", "aliases": {"howdesbt": "/usr/local/bin/howdesbt", "jellyfish": "/usr/local/bin/jellyfish"}}
+config: {"url": "https://biocontainers.pro/tools/howdesbt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for howdesbt", "latest": {"2.00.13--h9f5acd7_0": "sha256:cf639774810dc2849ca78bdbf439c284140703c9c6eaa41a1e7f6fa04918b1cc"}, "tags": {"2.00.07--h9f5acd7_0": "sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d", "2.00.10--h9f5acd7_0": "sha256:605d4b3eb0ad1a35393757afab0d2014d0342e8cdefac3c39197602e28e4fdc1", "2.00.13--h9f5acd7_0": "sha256:cf639774810dc2849ca78bdbf439c284140703c9c6eaa41a1e7f6fa04918b1cc"}, "docker": "quay.io/biocontainers/howdesbt", "aliases": {"howdesbt": "/usr/local/bin/howdesbt", "jellyfish": "/usr/local/bin/jellyfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/howdesbt.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/howdesbt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/howdesbt:2.00.10--h9f5acd7_0
+$ shpc install quay.io/biocontainers/howdesbt:2.00.13--h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/howdesbt/2.00.10--h9f5acd7_0
-$ module help quay.io/biocontainers/howdesbt/2.00.10--h9f5acd7_0
+$ module load quay.io/biocontainers/howdesbt/2.00.13--h9f5acd7_0
+$ module help quay.io/biocontainers/howdesbt/2.00.13--h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rcwlpipelines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcwlpipelines/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcwlpipelines/container.yaml"
-updated_at: "2023-06-04 03:15:18.974658"
-latest: "1.14.0--r42h9d45583_0"
+updated_at: "2023-06-05 02:59:22.654043"
+latest: "1.14.0--r42hd6180af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcwlpipelines"
 aliases:
  - "node"
@@ -21,8 +21,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.14.0--r42h9d45583_0"
  - "1.10.0--r41hbcef4ee_1"
+ - "1.14.0--r42hd6180af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcwlpipelines"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcwlpipelines", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcwlpipelines", "latest": {"1.14.0--r42h9d45583_0": "sha256:5d6a96e846e2f0d4ee3fb8701b6c0d81c53d6bcf6c2c180542d35547d34e97a0"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:c856038a7cf670f905648cccf353fd28e29db9ac2445ecd4afd073f8636f5f1b", "1.14.0--r42h9d45583_0": "sha256:5d6a96e846e2f0d4ee3fb8701b6c0d81c53d6bcf6c2c180542d35547d34e97a0", "1.10.0--r41hbcef4ee_1": "sha256:d58e8076718d038c1f85bd9b84641ffb0c66273066c6e80083ead2a13a799c8e"}, "docker": "quay.io/biocontainers/bioconductor-rcwlpipelines", "aliases": {"node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcwlpipelines", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcwlpipelines", "latest": {"1.14.0--r42hd6180af_1": "sha256:15fbafffffdf715835337a742e83f2f0aa63ac6abf17ff223747fb6039344349"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:c856038a7cf670f905648cccf353fd28e29db9ac2445ecd4afd073f8636f5f1b", "1.14.0--r42h9d45583_0": "sha256:5d6a96e846e2f0d4ee3fb8701b6c0d81c53d6bcf6c2c180542d35547d34e97a0", "1.10.0--r41hbcef4ee_1": "sha256:d58e8076718d038c1f85bd9b84641ffb0c66273066c6e80083ead2a13a799c8e", "1.14.0--r42hd6180af_1": "sha256:15fbafffffdf715835337a742e83f2f0aa63ac6abf17ff223747fb6039344349"}, "docker": "quay.io/biocontainers/bioconductor-rcwlpipelines", "aliases": {"node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcwlpipelines.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcwlpipelines
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcwlpipelines:1.14.0--r42h9d45583_0
+$ shpc install quay.io/biocontainers/bioconductor-rcwlpipelines:1.14.0--r42hd6180af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcwlpipelines/1.14.0--r42h9d45583_0
-$ module help quay.io/biocontainers/bioconductor-rcwlpipelines/1.14.0--r42h9d45583_0
+$ module load quay.io/biocontainers/bioconductor-rcwlpipelines/1.14.0--r42hd6180af_1
+$ module help quay.io/biocontainers/bioconductor-rcwlpipelines/1.14.0--r42hd6180af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

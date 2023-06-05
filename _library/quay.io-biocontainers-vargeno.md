@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vargeno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vargeno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vargeno/container.yaml"
-updated_at: "2023-06-04 03:52:31.425450"
-latest: "1.0.3--h9f5acd7_3"
+updated_at: "2023-06-05 03:35:18.367294"
+latest: "1.0.3--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/vargeno"
 aliases:
  - "vargeno"
 versions:
  - "1.0.3--h9f5acd7_3"
+ - "1.0.3--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for vargeno"
-config: {"url": "https://biocontainers.pro/tools/vargeno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vargeno", "latest": {"1.0.3--h9f5acd7_3": "sha256:4da3bde328e0c75ffe430ad7a8f90fcd15a0914b9a06f9649a5a99e25d07e9fc"}, "tags": {"1.0.3--h9f5acd7_3": "sha256:4da3bde328e0c75ffe430ad7a8f90fcd15a0914b9a06f9649a5a99e25d07e9fc"}, "docker": "quay.io/biocontainers/vargeno", "aliases": {"vargeno": "/usr/local/bin/vargeno"}}
+config: {"url": "https://biocontainers.pro/tools/vargeno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vargeno", "latest": {"1.0.3--h4ac6f70_5": "sha256:56a970ce73ddae4da260b0fda764a0e6b0816e4eb4990c95af3632504c6c7a4d"}, "tags": {"1.0.3--h9f5acd7_3": "sha256:4da3bde328e0c75ffe430ad7a8f90fcd15a0914b9a06f9649a5a99e25d07e9fc", "1.0.3--h4ac6f70_5": "sha256:56a970ce73ddae4da260b0fda764a0e6b0816e4eb4990c95af3632504c6c7a4d"}, "docker": "quay.io/biocontainers/vargeno", "aliases": {"vargeno": "/usr/local/bin/vargeno"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vargeno.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vargeno
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vargeno:1.0.3--h9f5acd7_3
+$ shpc install quay.io/biocontainers/vargeno:1.0.3--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vargeno/1.0.3--h9f5acd7_3
-$ module help quay.io/biocontainers/vargeno/1.0.3--h9f5acd7_3
+$ module load quay.io/biocontainers/vargeno/1.0.3--h4ac6f70_5
+$ module help quay.io/biocontainers/vargeno/1.0.3--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

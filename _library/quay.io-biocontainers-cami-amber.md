@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cami-amber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cami-amber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cami-amber/container.yaml"
-updated_at: "2023-06-04 03:13:17.839685"
-latest: "2.0.3--pyhdfd78af_0"
+updated_at: "2023-06-05 02:57:26.355473"
+latest: "2.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cami-amber"
 aliases:
  - "amber.py"
@@ -23,8 +23,9 @@ aliases:
  - "opj_dump"
 versions:
  - "2.0.3--pyhdfd78af_0"
+ - "2.0.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cami-amber"
-config: {"url": "https://biocontainers.pro/tools/cami-amber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cami-amber", "latest": {"2.0.3--pyhdfd78af_0": "sha256:6a8dd7db0c43e57440bc1c0ced91a7f74ae25605150709de0fb5b173dc36e9bf"}, "tags": {"2.0.3--pyhdfd78af_0": "sha256:6a8dd7db0c43e57440bc1c0ced91a7f74ae25605150709de0fb5b173dc36e9bf"}, "docker": "quay.io/biocontainers/cami-amber", "aliases": {"amber.py": "/usr/local/bin/amber.py", "setup.py": "/usr/local/bin/setup.py", "version.py": "/usr/local/bin/version.py", "bokeh": "/usr/local/bin/bokeh", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/cami-amber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cami-amber", "latest": {"2.0.4--pyhdfd78af_0": "sha256:2d98f9b99bd02abb4151860f9eb908062d6410f3194bd849acaf3da3b59aa462"}, "tags": {"2.0.3--pyhdfd78af_0": "sha256:6a8dd7db0c43e57440bc1c0ced91a7f74ae25605150709de0fb5b173dc36e9bf", "2.0.4--pyhdfd78af_0": "sha256:2d98f9b99bd02abb4151860f9eb908062d6410f3194bd849acaf3da3b59aa462"}, "docker": "quay.io/biocontainers/cami-amber", "aliases": {"amber.py": "/usr/local/bin/amber.py", "setup.py": "/usr/local/bin/setup.py", "version.py": "/usr/local/bin/version.py", "bokeh": "/usr/local/bin/bokeh", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cami-amber.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/cami-amber
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cami-amber:2.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cami-amber:2.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cami-amber/2.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/cami-amber/2.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/cami-amber/2.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/cami-amber/2.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

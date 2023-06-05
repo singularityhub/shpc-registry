@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fxtract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fxtract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fxtract/container.yaml"
-updated_at: "2023-06-04 03:44:12.414347"
-latest: "2.4--h131032e_0"
+updated_at: "2023-06-05 03:27:12.397713"
+latest: "2.4--h1eb128b_2"
 container_url: "https://biocontainers.pro/tools/fxtract"
 aliases:
  - "fxtract"
 versions:
  - "2.4--h131032e_0"
+ - "2.4--h1eb128b_2"
 description: "singularity registry hpc automated addition for fxtract"
-config: {"url": "https://biocontainers.pro/tools/fxtract", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fxtract", "latest": {"2.4--h131032e_0": "sha256:be1ede43ada2648df04b125e130f5f05121853c7880393e4d4135f268f55dc68"}, "tags": {"2.4--h131032e_0": "sha256:be1ede43ada2648df04b125e130f5f05121853c7880393e4d4135f268f55dc68"}, "docker": "quay.io/biocontainers/fxtract", "aliases": {"fxtract": "/usr/local/bin/fxtract"}}
+config: {"url": "https://biocontainers.pro/tools/fxtract", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fxtract", "latest": {"2.4--h1eb128b_2": "sha256:e060c9ee68a84bb1f3d2111ad49ef4109bd928101787c20e2cf2d9ebccb3a219"}, "tags": {"2.4--h131032e_0": "sha256:be1ede43ada2648df04b125e130f5f05121853c7880393e4d4135f268f55dc68", "2.4--h1eb128b_2": "sha256:e060c9ee68a84bb1f3d2111ad49ef4109bd928101787c20e2cf2d9ebccb3a219"}, "docker": "quay.io/biocontainers/fxtract", "aliases": {"fxtract": "/usr/local/bin/fxtract"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fxtract.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fxtract
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fxtract:2.4--h131032e_0
+$ shpc install quay.io/biocontainers/fxtract:2.4--h1eb128b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fxtract/2.4--h131032e_0
-$ module help quay.io/biocontainers/fxtract/2.4--h131032e_0
+$ module load quay.io/biocontainers/fxtract/2.4--h1eb128b_2
+$ module help quay.io/biocontainers/fxtract/2.4--h1eb128b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

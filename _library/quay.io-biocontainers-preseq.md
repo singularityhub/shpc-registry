@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/preseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/preseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/preseq/container.yaml"
-updated_at: "2023-06-04 03:14:13.231519"
-latest: "3.2.0--hd36ca80_4"
+updated_at: "2023-06-05 02:58:19.621847"
+latest: "3.2.0--h146fbdb_5"
 container_url: "https://biocontainers.pro/tools/preseq"
 aliases:
  - "preseq"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "3.2.0--h867801b_3"
  - "3.2.0--hd36ca80_4"
+ - "3.2.0--h146fbdb_5"
 description: "shpc-registry automated BioContainers addition for preseq"
-config: {"url": "https://biocontainers.pro/tools/preseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for preseq", "latest": {"3.2.0--hd36ca80_4": "sha256:6c643d7caaa41e3d0fcdacdd1c391181a2ef38520f6a2d6709eb83d0a46a5813"}, "tags": {"3.2.0--h867801b_3": "sha256:b1d04c933457ce67cbe6fbc8d0a1877e417272796beb11f2bb31bed3c7dceeaa", "3.2.0--hd36ca80_4": "sha256:6c643d7caaa41e3d0fcdacdd1c391181a2ef38520f6a2d6709eb83d0a46a5813"}, "docker": "quay.io/biocontainers/preseq", "aliases": {"preseq": "/usr/local/bin/preseq", "to-mr": "/usr/local/bin/to-mr", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/preseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for preseq", "latest": {"3.2.0--h146fbdb_5": "sha256:3b88ab655ba62f426f97ab5004cc6c0f74d7c9f86bd17acff055c5150165ffbd"}, "tags": {"3.2.0--h867801b_3": "sha256:b1d04c933457ce67cbe6fbc8d0a1877e417272796beb11f2bb31bed3c7dceeaa", "3.2.0--hd36ca80_4": "sha256:6c643d7caaa41e3d0fcdacdd1c391181a2ef38520f6a2d6709eb83d0a46a5813", "3.2.0--h146fbdb_5": "sha256:3b88ab655ba62f426f97ab5004cc6c0f74d7c9f86bd17acff055c5150165ffbd"}, "docker": "quay.io/biocontainers/preseq", "aliases": {"preseq": "/usr/local/bin/preseq", "to-mr": "/usr/local/bin/to-mr", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/preseq.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/preseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/preseq:3.2.0--hd36ca80_4
+$ shpc install quay.io/biocontainers/preseq:3.2.0--h146fbdb_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/preseq/3.2.0--hd36ca80_4
-$ module help quay.io/biocontainers/preseq/3.2.0--hd36ca80_4
+$ module load quay.io/biocontainers/preseq/3.2.0--h146fbdb_5
+$ module help quay.io/biocontainers/preseq/3.2.0--h146fbdb_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

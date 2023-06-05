@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/espresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/espresso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/espresso/container.yaml"
-updated_at: "2023-06-04 03:23:05.200067"
+updated_at: "2023-06-05 03:06:54.359730"
 latest: "1.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/espresso"
 aliases:

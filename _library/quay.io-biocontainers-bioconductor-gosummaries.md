@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gosummaries"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gosummaries/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gosummaries/container.yaml"
-updated_at: "2023-06-04 03:10:02.124065"
+updated_at: "2023-06-05 02:54:20.007323"
 latest: "2.34.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gosummaries"
 

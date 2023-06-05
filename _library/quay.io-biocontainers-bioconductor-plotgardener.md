@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plotgardener"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plotgardener/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plotgardener/container.yaml"
-updated_at: "2023-06-04 03:22:38.414721"
+updated_at: "2023-06-05 03:06:28.309155"
 latest: "1.4.1--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plotgardener"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-exomepeak2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-exomepeak2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-exomepeak2/container.yaml"
-updated_at: "2023-06-04 03:27:58.384756"
+updated_at: "2023-06-05 03:11:37.159506"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-exomepeak2"
 

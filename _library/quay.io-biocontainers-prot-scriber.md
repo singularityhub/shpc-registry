@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/prot-scriber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prot-scriber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prot-scriber/container.yaml"
-updated_at: "2023-06-04 03:49:02.816873"
+updated_at: "2023-06-05 03:31:51.809582"
 latest: "0.1.4--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/prot-scriber"
 aliases:
  - "prot-scriber"
 versions:
  - "0.1.4--hec16e2b_0"
+ - "0.1.4"
 description: "singularity registry hpc automated addition for prot-scriber"
-config: {"url": "https://biocontainers.pro/tools/prot-scriber", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prot-scriber", "latest": {"0.1.4--hec16e2b_0": "sha256:8c825e56691649ace668e3019ce802672dc32ee8208bc7d0edfe55174b15c49b"}, "tags": {"0.1.4--hec16e2b_0": "sha256:8c825e56691649ace668e3019ce802672dc32ee8208bc7d0edfe55174b15c49b"}, "docker": "quay.io/biocontainers/prot-scriber", "aliases": {"prot-scriber": "/usr/local/bin/prot-scriber"}}
+config: {"url": "https://biocontainers.pro/tools/prot-scriber", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prot-scriber", "latest": {"0.1.4--hec16e2b_0": "sha256:8c825e56691649ace668e3019ce802672dc32ee8208bc7d0edfe55174b15c49b"}, "tags": {"0.1.4--hec16e2b_0": "sha256:8c825e56691649ace668e3019ce802672dc32ee8208bc7d0edfe55174b15c49b", "0.1.4": "sha256:f17169034256a1d61c1cd1a4f71a025d356f26f665ca5c9a4c0c1a4df326b7f1"}, "docker": "quay.io/biocontainers/prot-scriber", "aliases": {"prot-scriber": "/usr/local/bin/prot-scriber"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prot-scriber.

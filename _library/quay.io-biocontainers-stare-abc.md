@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stare-abc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stare-abc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stare-abc/container.yaml"
-updated_at: "2023-06-04 03:23:50.012727"
-latest: "1.0.3.2--h72a8191_0"
+updated_at: "2023-06-05 03:07:37.280276"
+latest: "1.0.4--h72a8191_0"
 container_url: "https://biocontainers.pro/tools/stare-abc"
 aliases:
  - "CMakeCache.txt"
@@ -59,8 +59,9 @@ aliases:
 versions:
  - "1.0.3.1--h72a8191_0"
  - "1.0.3.2--h72a8191_0"
+ - "1.0.4--h72a8191_0"
 description: "singularity registry hpc automated addition for stare-abc"
-config: {"url": "https://biocontainers.pro/tools/stare-abc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for stare-abc", "latest": {"1.0.3.2--h72a8191_0": "sha256:9885c3a49bfdaf8bd89c0e2115623bb16c13f66f08467c734f18ae49404c3166"}, "tags": {"1.0.3.1--h72a8191_0": "sha256:76e0d7be6f7b19d408336ca2d3569c1c9179bf7efe186e6389077f387054e83a", "1.0.3.2--h72a8191_0": "sha256:9885c3a49bfdaf8bd89c0e2115623bb16c13f66f08467c734f18ae49404c3166"}, "docker": "quay.io/biocontainers/stare-abc", "aliases": {"CMakeCache.txt": "/usr/local/bin/CMakeCache.txt", "CMakeLists.txt": "/usr/local/bin/CMakeLists.txt", "Juicebox_KR_normalization.sh": "/usr/local/bin/Juicebox_KR_normalization.sh", "Makefile": "/usr/local/bin/Makefile", "PSCM_to_PSEM": "/usr/local/bin/PSCM_to_PSEM", "PSCM_to_PSEM.cpp": "/usr/local/bin/PSCM_to_PSEM.cpp", "ReplaceInvalidChars": "/usr/local/bin/ReplaceInvalidChars", "ReplaceInvalidChars.cpp": "/usr/local/bin/ReplaceInvalidChars.cpp", "STARE.sh": "/usr/local/bin/STARE.sh", "STARE_ABCpp": "/usr/local/bin/STARE_ABCpp", "STARE_ABCpp.cpp": "/usr/local/bin/STARE_ABCpp.cpp", "STARE_MiscFunctions.cpp": "/usr/local/bin/STARE_MiscFunctions.cpp", "STARE_MiscFunctions.h": "/usr/local/bin/STARE_MiscFunctions.h", "TF_Gene_Scorer_Reshape": "/usr/local/bin/TF_Gene_Scorer_Reshape", "TF_Gene_Scorer_Reshape.cpp": "/usr/local/bin/TF_Gene_Scorer_Reshape.cpp", "TRAPmulti": "/usr/local/bin/TRAPmulti", "TRAPmulti.cpp": "/usr/local/bin/TRAPmulti.cpp", "cmake_install.cmake": "/usr/local/bin/cmake_install.cmake", "compile_STARE_Linux.sh": "/usr/local/bin/compile_STARE_Linux.sh", "compile_STARE_macOS.sh": "/usr/local/bin/compile_STARE_macOS.sh", "controlTestCases.sh": "/usr/local/bin/controlTestCases.sh", "libSTARELib.a": "/usr/local/bin/libSTARELib.a", "runTestCases.sh": "/usr/local/bin/runTestCases.sh", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
+config: {"url": "https://biocontainers.pro/tools/stare-abc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for stare-abc", "latest": {"1.0.4--h72a8191_0": "sha256:6eece6e05948efea4479969d1cc62269fa2601e56a75e76767421d52d55051b1"}, "tags": {"1.0.3.1--h72a8191_0": "sha256:76e0d7be6f7b19d408336ca2d3569c1c9179bf7efe186e6389077f387054e83a", "1.0.3.2--h72a8191_0": "sha256:9885c3a49bfdaf8bd89c0e2115623bb16c13f66f08467c734f18ae49404c3166", "1.0.4--h72a8191_0": "sha256:6eece6e05948efea4479969d1cc62269fa2601e56a75e76767421d52d55051b1"}, "docker": "quay.io/biocontainers/stare-abc", "aliases": {"CMakeCache.txt": "/usr/local/bin/CMakeCache.txt", "CMakeLists.txt": "/usr/local/bin/CMakeLists.txt", "Juicebox_KR_normalization.sh": "/usr/local/bin/Juicebox_KR_normalization.sh", "Makefile": "/usr/local/bin/Makefile", "PSCM_to_PSEM": "/usr/local/bin/PSCM_to_PSEM", "PSCM_to_PSEM.cpp": "/usr/local/bin/PSCM_to_PSEM.cpp", "ReplaceInvalidChars": "/usr/local/bin/ReplaceInvalidChars", "ReplaceInvalidChars.cpp": "/usr/local/bin/ReplaceInvalidChars.cpp", "STARE.sh": "/usr/local/bin/STARE.sh", "STARE_ABCpp": "/usr/local/bin/STARE_ABCpp", "STARE_ABCpp.cpp": "/usr/local/bin/STARE_ABCpp.cpp", "STARE_MiscFunctions.cpp": "/usr/local/bin/STARE_MiscFunctions.cpp", "STARE_MiscFunctions.h": "/usr/local/bin/STARE_MiscFunctions.h", "TF_Gene_Scorer_Reshape": "/usr/local/bin/TF_Gene_Scorer_Reshape", "TF_Gene_Scorer_Reshape.cpp": "/usr/local/bin/TF_Gene_Scorer_Reshape.cpp", "TRAPmulti": "/usr/local/bin/TRAPmulti", "TRAPmulti.cpp": "/usr/local/bin/TRAPmulti.cpp", "cmake_install.cmake": "/usr/local/bin/cmake_install.cmake", "compile_STARE_Linux.sh": "/usr/local/bin/compile_STARE_Linux.sh", "compile_STARE_macOS.sh": "/usr/local/bin/compile_STARE_macOS.sh", "controlTestCases.sh": "/usr/local/bin/controlTestCases.sh", "libSTARELib.a": "/usr/local/bin/libSTARELib.a", "runTestCases.sh": "/usr/local/bin/runTestCases.sh", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stare-abc.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/stare-abc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stare-abc:1.0.3.2--h72a8191_0
+$ shpc install quay.io/biocontainers/stare-abc:1.0.4--h72a8191_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stare-abc/1.0.3.2--h72a8191_0
-$ module help quay.io/biocontainers/stare-abc/1.0.3.2--h72a8191_0
+$ module load quay.io/biocontainers/stare-abc/1.0.4--h72a8191_0
+$ module help quay.io/biocontainers/stare-abc/1.0.4--h72a8191_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

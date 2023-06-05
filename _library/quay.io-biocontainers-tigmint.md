@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tigmint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tigmint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tigmint/container.yaml"
-updated_at: "2023-06-04 03:08:09.319497"
-latest: "1.2.9--py39h6935b12_1"
+updated_at: "2023-06-05 02:52:30.410011"
+latest: "1.2.10--py310h590eda1_0"
 container_url: "https://biocontainers.pro/tools/tigmint"
 aliases:
  - "gunzip"
@@ -51,8 +51,9 @@ versions:
  - "1.2.8--py39h6935b12_0"
  - "1.2.9--py39h6935b12_0"
  - "1.2.9--py39h6935b12_1"
+ - "1.2.10--py310h590eda1_0"
 description: "shpc-registry automated BioContainers addition for tigmint"
-config: {"url": "https://biocontainers.pro/tools/tigmint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tigmint", "latest": {"1.2.9--py39h6935b12_1": "sha256:64140107edf0e282d42eb1e3a8f74e0f7ed8cb376c6ebc745cbc9782cc139f3d"}, "tags": {"1.2.7--py39h6935b12_0": "sha256:26b81398baad6bd7c6d14b733169a9f9f33e1c32059aed9c3e77839b452db4f2", "1.2.8--py39h6935b12_0": "sha256:084ca6502997bfa864d62227529d0f6aa0fcd7b1fd30dd5ee6d3e081f0a9e8b1", "1.2.9--py39h6935b12_0": "sha256:a4a3f1baba595dd5276220e2a219fdbe63bb90ee8b43d110e1167c9ecc9024ca", "1.2.9--py39h6935b12_1": "sha256:64140107edf0e282d42eb1e3a8f74e0f7ed8cb376c6ebc745cbc9782cc139f3d"}, "docker": "quay.io/biocontainers/tigmint", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "zip": "/usr/local/bin/zip", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "tar": "/usr/local/bin/tar", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl"}}
+config: {"url": "https://biocontainers.pro/tools/tigmint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tigmint", "latest": {"1.2.10--py310h590eda1_0": "sha256:c8a1ce9909ef0eaa9f287419635ef213fbd57adf4b1f88b34975e481bea80054"}, "tags": {"1.2.7--py39h6935b12_0": "sha256:26b81398baad6bd7c6d14b733169a9f9f33e1c32059aed9c3e77839b452db4f2", "1.2.8--py39h6935b12_0": "sha256:084ca6502997bfa864d62227529d0f6aa0fcd7b1fd30dd5ee6d3e081f0a9e8b1", "1.2.9--py39h6935b12_0": "sha256:a4a3f1baba595dd5276220e2a219fdbe63bb90ee8b43d110e1167c9ecc9024ca", "1.2.9--py39h6935b12_1": "sha256:64140107edf0e282d42eb1e3a8f74e0f7ed8cb376c6ebc745cbc9782cc139f3d", "1.2.10--py310h590eda1_0": "sha256:c8a1ce9909ef0eaa9f287419635ef213fbd57adf4b1f88b34975e481bea80054"}, "docker": "quay.io/biocontainers/tigmint", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "zip": "/usr/local/bin/zip", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "tar": "/usr/local/bin/tar", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tigmint.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/tigmint
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tigmint:1.2.9--py39h6935b12_1
+$ shpc install quay.io/biocontainers/tigmint:1.2.10--py310h590eda1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tigmint/1.2.9--py39h6935b12_1
-$ module help quay.io/biocontainers/tigmint/1.2.9--py39h6935b12_1
+$ module load quay.io/biocontainers/tigmint/1.2.10--py310h590eda1_0
+$ module help quay.io/biocontainers/tigmint/1.2.10--py310h590eda1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

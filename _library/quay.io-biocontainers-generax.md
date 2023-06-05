@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/generax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/generax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/generax/container.yaml"
-updated_at: "2023-06-04 03:23:58.662150"
-latest: "2.0.4--h5c6ebe3_1"
+updated_at: "2023-06-05 03:07:45.520858"
+latest: "2.0.4--h103dbdd_3"
 container_url: "https://biocontainers.pro/tools/generax"
 aliases:
  - "generax"
@@ -21,8 +21,9 @@ aliases:
  - "oshrun"
 versions:
  - "2.0.4--h5c6ebe3_1"
+ - "2.0.4--h103dbdd_3"
 description: "shpc-registry automated BioContainers addition for generax"
-config: {"url": "https://biocontainers.pro/tools/generax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for generax", "latest": {"2.0.4--h5c6ebe3_1": "sha256:6927b12e31ded0b8da869dc946f3a5b0bcd3333f43ecffb1710db40b9e340726"}, "tags": {"2.0.4--h5c6ebe3_1": "sha256:6927b12e31ded0b8da869dc946f3a5b0bcd3333f43ecffb1710db40b9e340726"}, "docker": "quay.io/biocontainers/generax", "aliases": {"generax": "/usr/local/bin/generax", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/generax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for generax", "latest": {"2.0.4--h103dbdd_3": "sha256:31a286a9800383699b36a8c6c80905051bc158e2805f81b3b6e59b9c2b7c4ecf"}, "tags": {"2.0.4--h5c6ebe3_1": "sha256:6927b12e31ded0b8da869dc946f3a5b0bcd3333f43ecffb1710db40b9e340726", "2.0.4--h103dbdd_3": "sha256:31a286a9800383699b36a8c6c80905051bc158e2805f81b3b6e59b9c2b7c4ecf"}, "docker": "quay.io/biocontainers/generax", "aliases": {"generax": "/usr/local/bin/generax", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/generax.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/generax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/generax:2.0.4--h5c6ebe3_1
+$ shpc install quay.io/biocontainers/generax:2.0.4--h103dbdd_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/generax/2.0.4--h5c6ebe3_1
-$ module help quay.io/biocontainers/generax/2.0.4--h5c6ebe3_1
+$ module load quay.io/biocontainers/generax/2.0.4--h103dbdd_3
+$ module help quay.io/biocontainers/generax/2.0.4--h103dbdd_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyimzml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyimzml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyimzml/container.yaml"
-updated_at: "2023-06-04 03:40:53.488125"
+updated_at: "2023-06-05 03:24:02.036265"
 latest: "1.5.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/pyimzml"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/nthits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nthits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nthits/container.yaml"
-updated_at: "2023-06-04 03:43:08.597609"
-latest: "1.0.1--h9f5acd7_0"
+updated_at: "2023-06-05 03:26:12.356272"
+latest: "1.0.1--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/nthits"
 aliases:
  - "nthits"
 versions:
  - "0.0.1--h9f5acd7_2"
  - "1.0.1--h9f5acd7_0"
+ - "1.0.1--h4ac6f70_1"
 description: "shpc-registry automated BioContainers addition for nthits"
-config: {"url": "https://biocontainers.pro/tools/nthits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nthits", "latest": {"1.0.1--h9f5acd7_0": "sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189"}, "tags": {"0.0.1--h9f5acd7_2": "sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2", "1.0.1--h9f5acd7_0": "sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189"}, "docker": "quay.io/biocontainers/nthits", "aliases": {"nthits": "/usr/local/bin/nthits"}}
+config: {"url": "https://biocontainers.pro/tools/nthits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nthits", "latest": {"1.0.1--h4ac6f70_1": "sha256:339c93321fc09996c023c74d3d0623bc2eeba8fbd85fed8c0b863cfa9b0dbe13"}, "tags": {"0.0.1--h9f5acd7_2": "sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2", "1.0.1--h9f5acd7_0": "sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189", "1.0.1--h4ac6f70_1": "sha256:339c93321fc09996c023c74d3d0623bc2eeba8fbd85fed8c0b863cfa9b0dbe13"}, "docker": "quay.io/biocontainers/nthits", "aliases": {"nthits": "/usr/local/bin/nthits"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nthits.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/nthits
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nthits:1.0.1--h9f5acd7_0
+$ shpc install quay.io/biocontainers/nthits:1.0.1--h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nthits/1.0.1--h9f5acd7_0
-$ module help quay.io/biocontainers/nthits/1.0.1--h9f5acd7_0
+$ module load quay.io/biocontainers/nthits/1.0.1--h4ac6f70_1
+$ module help quay.io/biocontainers/nthits/1.0.1--h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

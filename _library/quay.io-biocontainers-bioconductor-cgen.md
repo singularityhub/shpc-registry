@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cgen/container.yaml"
-updated_at: "2023-06-04 03:27:53.775457"
-latest: "3.34.0--r42hefde4a7_0"
+updated_at: "2023-06-05 03:11:32.738817"
+latest: "3.34.0--r42h9913872_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cgen"
 
 versions:
  - "3.30.0--r41hefde4a7_2"
  - "3.34.0--r42hefde4a7_0"
+ - "3.34.0--r42h9913872_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cgen"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cgen", "latest": {"3.34.0--r42hefde4a7_0": "sha256:9aec86d82f54e7ac579e32458680906a498b5e8c5158fe16be73fe26bb01d7be"}, "tags": {"3.30.0--r41hefde4a7_2": "sha256:aae7b16f9b984647f1a1e4a21c52ba8650dbd1390ca7f35156045acdbde3a4be", "3.34.0--r42hefde4a7_0": "sha256:9aec86d82f54e7ac579e32458680906a498b5e8c5158fe16be73fe26bb01d7be"}, "docker": "quay.io/biocontainers/bioconductor-cgen"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cgen", "latest": {"3.34.0--r42h9913872_1": "sha256:a00ec88c61a50f8d1f21526b9b16fb1aa4403ae8a21adc345c972c6ed462da4f"}, "tags": {"3.30.0--r41hefde4a7_2": "sha256:aae7b16f9b984647f1a1e4a21c52ba8650dbd1390ca7f35156045acdbde3a4be", "3.34.0--r42hefde4a7_0": "sha256:9aec86d82f54e7ac579e32458680906a498b5e8c5158fe16be73fe26bb01d7be", "3.34.0--r42h9913872_1": "sha256:a00ec88c61a50f8d1f21526b9b16fb1aa4403ae8a21adc345c972c6ed462da4f"}, "docker": "quay.io/biocontainers/bioconductor-cgen"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cgen.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cgen:3.34.0--r42hefde4a7_0
+$ shpc install quay.io/biocontainers/bioconductor-cgen:3.34.0--r42h9913872_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cgen/3.34.0--r42hefde4a7_0
-$ module help quay.io/biocontainers/bioconductor-cgen/3.34.0--r42hefde4a7_0
+$ module load quay.io/biocontainers/bioconductor-cgen/3.34.0--r42h9913872_1
+$ module help quay.io/biocontainers/bioconductor-cgen/3.34.0--r42h9913872_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

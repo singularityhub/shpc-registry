@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-workflow-executor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-workflow-executor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-workflow-executor/container.yaml"
-updated_at: "2023-06-04 03:21:44.201900"
+updated_at: "2023-06-05 03:05:35.957127"
 latest: "0.2.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/galaxy-workflow-executor"
 aliases:

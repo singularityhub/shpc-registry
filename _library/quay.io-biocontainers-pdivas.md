@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pdivas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdivas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdivas/container.yaml"
-updated_at: "2023-06-04 03:21:05.931731"
+updated_at: "2023-06-05 03:04:59.068871"
 latest: "1.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pdivas"
 aliases:

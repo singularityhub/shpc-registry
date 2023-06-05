@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quickmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quickmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quickmerge/container.yaml"
-updated_at: "2023-06-04 03:38:12.608267"
-latest: "0.3--pl5321h87f3376_3"
+updated_at: "2023-06-05 03:21:27.444138"
+latest: "0.3--pl5321hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/quickmerge"
 aliases:
  - "merge_wrapper.py"
@@ -22,8 +22,9 @@ aliases:
  - "mummerplot"
 versions:
  - "0.3--pl5321h87f3376_3"
+ - "0.3--pl5321hdbdd923_5"
 description: "shpc-registry automated BioContainers addition for quickmerge"
-config: {"url": "https://biocontainers.pro/tools/quickmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quickmerge", "latest": {"0.3--pl5321h87f3376_3": "sha256:af96e77e82c2b8954037f4d117eb5b71ff8d055d7ebe0405fa2746f6b0cd95fd"}, "tags": {"0.3--pl5321h87f3376_3": "sha256:af96e77e82c2b8954037f4d117eb5b71ff8d055d7ebe0405fa2746f6b0cd95fd"}, "docker": "quay.io/biocontainers/quickmerge", "aliases": {"merge_wrapper.py": "/usr/local/bin/merge_wrapper.py", "quickmerge": "/usr/local/bin/quickmerge", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/quickmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quickmerge", "latest": {"0.3--pl5321hdbdd923_5": "sha256:2bea67ffaba07ebe19ed7e925bd296153f094e39917729a424c42736e30d9a0a"}, "tags": {"0.3--pl5321h87f3376_3": "sha256:af96e77e82c2b8954037f4d117eb5b71ff8d055d7ebe0405fa2746f6b0cd95fd", "0.3--pl5321hdbdd923_5": "sha256:2bea67ffaba07ebe19ed7e925bd296153f094e39917729a424c42736e30d9a0a"}, "docker": "quay.io/biocontainers/quickmerge", "aliases": {"merge_wrapper.py": "/usr/local/bin/merge_wrapper.py", "quickmerge": "/usr/local/bin/quickmerge", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quickmerge.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/quickmerge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quickmerge:0.3--pl5321h87f3376_3
+$ shpc install quay.io/biocontainers/quickmerge:0.3--pl5321hdbdd923_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quickmerge/0.3--pl5321h87f3376_3
-$ module help quay.io/biocontainers/quickmerge/0.3--pl5321h87f3376_3
+$ module load quay.io/biocontainers/quickmerge/0.3--pl5321hdbdd923_5
+$ module help quay.io/biocontainers/quickmerge/0.3--pl5321hdbdd923_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

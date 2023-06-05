@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mummer/container.yaml"
-updated_at: "2023-06-04 03:51:55.560495"
-latest: "3.23--pl5321h87f3376_14"
+updated_at: "2023-06-05 03:34:41.743402"
+latest: "3.23--pl5321hdbdd923_16"
 container_url: "https://biocontainers.pro/tools/mummer"
 aliases:
  - "mummer"
 versions:
  - "3.23--pl5321h87f3376_14"
+ - "3.23--pl5321hdbdd923_16"
 description: "shpc-registry automated BioContainers addition for mummer"
-config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f"}, "tags": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f"}, "docker": "quay.io/biocontainers/mummer", "aliases": {"mummer": "/usr/local/bin/mummer"}}
+config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl5321hdbdd923_16": "sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6"}, "tags": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f", "3.23--pl5321hdbdd923_16": "sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6"}, "docker": "quay.io/biocontainers/mummer", "aliases": {"mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mummer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mummer:3.23--pl5321h87f3376_14
+$ shpc install quay.io/biocontainers/mummer:3.23--pl5321hdbdd923_16
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mummer/3.23--pl5321h87f3376_14
-$ module help quay.io/biocontainers/mummer/3.23--pl5321h87f3376_14
+$ module load quay.io/biocontainers/mummer/3.23--pl5321hdbdd923_16
+$ module help quay.io/biocontainers/mummer/3.23--pl5321hdbdd923_16
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

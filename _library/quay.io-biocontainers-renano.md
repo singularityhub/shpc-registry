@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/renano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/renano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/renano/container.yaml"
-updated_at: "2023-06-04 03:41:46.549725"
-latest: "1.3--hd03093a_1"
+updated_at: "2023-06-05 03:24:53.509584"
+latest: "1.3--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/renano"
 aliases:
  - "renano"
 versions:
  - "1.3--hd03093a_1"
+ - "1.3--hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for renano"
-config: {"url": "https://biocontainers.pro/tools/renano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for renano", "latest": {"1.3--hd03093a_1": "sha256:92b1f6e590c7bfe279cde04a8f3a3017e81a14e8fae5cea38586b4366a3f1027"}, "tags": {"1.3--hd03093a_1": "sha256:92b1f6e590c7bfe279cde04a8f3a3017e81a14e8fae5cea38586b4366a3f1027"}, "docker": "quay.io/biocontainers/renano", "aliases": {"renano": "/usr/local/bin/renano"}}
+config: {"url": "https://biocontainers.pro/tools/renano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for renano", "latest": {"1.3--hdcf5f25_3": "sha256:ae335a498fe3c1e8f471d8fa037a3ff61e9ca5698816b5d91d9fb054961a6906"}, "tags": {"1.3--hd03093a_1": "sha256:92b1f6e590c7bfe279cde04a8f3a3017e81a14e8fae5cea38586b4366a3f1027", "1.3--hdcf5f25_3": "sha256:ae335a498fe3c1e8f471d8fa037a3ff61e9ca5698816b5d91d9fb054961a6906"}, "docker": "quay.io/biocontainers/renano", "aliases": {"renano": "/usr/local/bin/renano"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/renano.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/renano
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/renano:1.3--hd03093a_1
+$ shpc install quay.io/biocontainers/renano:1.3--hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/renano/1.3--hd03093a_1
-$ module help quay.io/biocontainers/renano/1.3--hd03093a_1
+$ module load quay.io/biocontainers/renano/1.3--hdcf5f25_3
+$ module help quay.io/biocontainers/renano/1.3--hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

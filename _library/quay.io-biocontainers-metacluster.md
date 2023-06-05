@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metacluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacluster/container.yaml"
-updated_at: "2023-06-04 03:11:27.485736"
-latest: "5.1--h9f5acd7_4"
+updated_at: "2023-06-05 02:55:42.250446"
+latest: "5.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/metacluster"
 aliases:
  - "MetaCluster4Fast"
@@ -13,8 +13,9 @@ aliases:
  - "MetaCluster5_2"
 versions:
  - "5.1--h9f5acd7_4"
+ - "5.1--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for metacluster"
-config: {"url": "https://biocontainers.pro/tools/metacluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metacluster", "latest": {"5.1--h9f5acd7_4": "sha256:332254c868999fcb1ad8329f9f81e48fbe52e35ba76514c866e6351f1ef5fac0"}, "tags": {"5.1--h9f5acd7_4": "sha256:332254c868999fcb1ad8329f9f81e48fbe52e35ba76514c866e6351f1ef5fac0"}, "docker": "quay.io/biocontainers/metacluster", "aliases": {"MetaCluster4Fast": "/usr/local/bin/MetaCluster4Fast", "MetaCluster5_1": "/usr/local/bin/MetaCluster5_1", "MetaCluster5_2": "/usr/local/bin/MetaCluster5_2"}}
+config: {"url": "https://biocontainers.pro/tools/metacluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metacluster", "latest": {"5.1--h4ac6f70_6": "sha256:e01c15f812b89a041aa16a10d93352c7a4b9f533918468a26cbfb0b8f21961a8"}, "tags": {"5.1--h9f5acd7_4": "sha256:332254c868999fcb1ad8329f9f81e48fbe52e35ba76514c866e6351f1ef5fac0", "5.1--h4ac6f70_6": "sha256:e01c15f812b89a041aa16a10d93352c7a4b9f533918468a26cbfb0b8f21961a8"}, "docker": "quay.io/biocontainers/metacluster", "aliases": {"MetaCluster4Fast": "/usr/local/bin/MetaCluster4Fast", "MetaCluster5_1": "/usr/local/bin/MetaCluster5_1", "MetaCluster5_2": "/usr/local/bin/MetaCluster5_2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metacluster.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/metacluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metacluster:5.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/metacluster:5.1--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metacluster/5.1--h9f5acd7_4
-$ module help quay.io/biocontainers/metacluster/5.1--h9f5acd7_4
+$ module load quay.io/biocontainers/metacluster/5.1--h4ac6f70_6
+$ module help quay.io/biocontainers/metacluster/5.1--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

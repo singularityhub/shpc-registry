@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ac-diamond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ac-diamond/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ac-diamond/container.yaml"
-updated_at: "2023-06-04 03:42:08.977245"
-latest: "1.0--h46c59ee_4"
+updated_at: "2023-06-05 03:25:15.188395"
+latest: "1.0--he153687_6"
 container_url: "https://biocontainers.pro/tools/ac-diamond"
 aliases:
  - "ac-diamond"
 versions:
  - "1.0--h46c59ee_4"
+ - "1.0--he153687_6"
 description: "shpc-registry automated BioContainers addition for ac-diamond"
-config: {"url": "https://biocontainers.pro/tools/ac-diamond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ac-diamond", "latest": {"1.0--h46c59ee_4": "sha256:797beea248d4d705ae728663cb7ce82fc873b790fdfb774c61ae18ac416d596a"}, "tags": {"1.0--h46c59ee_4": "sha256:797beea248d4d705ae728663cb7ce82fc873b790fdfb774c61ae18ac416d596a"}, "docker": "quay.io/biocontainers/ac-diamond", "aliases": {"ac-diamond": "/usr/local/bin/ac-diamond"}}
+config: {"url": "https://biocontainers.pro/tools/ac-diamond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ac-diamond", "latest": {"1.0--he153687_6": "sha256:4a1cdeb6ac067d7375a2518e7edae73d46a89104493b379156c8b62510b6ab1c"}, "tags": {"1.0--h46c59ee_4": "sha256:797beea248d4d705ae728663cb7ce82fc873b790fdfb774c61ae18ac416d596a", "1.0--he153687_6": "sha256:4a1cdeb6ac067d7375a2518e7edae73d46a89104493b379156c8b62510b6ab1c"}, "docker": "quay.io/biocontainers/ac-diamond", "aliases": {"ac-diamond": "/usr/local/bin/ac-diamond"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ac-diamond.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ac-diamond
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ac-diamond:1.0--h46c59ee_4
+$ shpc install quay.io/biocontainers/ac-diamond:1.0--he153687_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ac-diamond/1.0--h46c59ee_4
-$ module help quay.io/biocontainers/ac-diamond/1.0--h46c59ee_4
+$ module load quay.io/biocontainers/ac-diamond/1.0--he153687_6
+$ module help quay.io/biocontainers/ac-diamond/1.0--he153687_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

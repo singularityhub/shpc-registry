@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-list-someutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-list-someutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-list-someutils/container.yaml"
-updated_at: "2023-06-04 03:33:02.423909"
-latest: "0.59--pl5321h9f5acd7_0"
+updated_at: "2023-06-05 03:16:32.276449"
+latest: "0.59--pl5321h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/perl-list-someutils"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.58--pl5321h9f5acd7_1"
  - "0.59--pl5321h9f5acd7_0"
+ - "0.59--pl5321h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for perl-list-someutils"
-config: {"url": "https://biocontainers.pro/tools/perl-list-someutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-list-someutils", "latest": {"0.59--pl5321h9f5acd7_0": "sha256:11d31a8ab3ae8b7218128bedec7751cbf63932b019e6306f2bbff7bffe6b4d0e"}, "tags": {"0.58--pl5321h9f5acd7_1": "sha256:951f0ddf081115e1c804c91f02179a4ee190d14023ab6627f153d633a49a8e8e", "0.59--pl5321h9f5acd7_0": "sha256:11d31a8ab3ae8b7218128bedec7751cbf63932b019e6306f2bbff7bffe6b4d0e"}, "docker": "quay.io/biocontainers/perl-list-someutils", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-list-someutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-list-someutils", "latest": {"0.59--pl5321h4ac6f70_2": "sha256:75a413ed24d8d16e0852c0166b64f495a29fea1d5664bd5fd85934e0e3f0a77c"}, "tags": {"0.58--pl5321h9f5acd7_1": "sha256:951f0ddf081115e1c804c91f02179a4ee190d14023ab6627f153d633a49a8e8e", "0.59--pl5321h9f5acd7_0": "sha256:11d31a8ab3ae8b7218128bedec7751cbf63932b019e6306f2bbff7bffe6b4d0e", "0.59--pl5321h4ac6f70_2": "sha256:75a413ed24d8d16e0852c0166b64f495a29fea1d5664bd5fd85934e0e3f0a77c"}, "docker": "quay.io/biocontainers/perl-list-someutils", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-list-someutils.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-list-someutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-list-someutils:0.59--pl5321h9f5acd7_0
+$ shpc install quay.io/biocontainers/perl-list-someutils:0.59--pl5321h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-list-someutils/0.59--pl5321h9f5acd7_0
-$ module help quay.io/biocontainers/perl-list-someutils/0.59--pl5321h9f5acd7_0
+$ module load quay.io/biocontainers/perl-list-someutils/0.59--pl5321h4ac6f70_2
+$ module help quay.io/biocontainers/perl-list-someutils/0.59--pl5321h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dinamo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinamo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinamo/container.yaml"
-updated_at: "2023-06-04 03:09:51.262512"
-latest: "1.0--h2df963e_2"
+updated_at: "2023-06-05 02:54:09.489403"
+latest: "1.0--h376f1d3_4"
 container_url: "https://biocontainers.pro/tools/dinamo"
 aliases:
  - "dinamo"
 versions:
  - "1.0--h2df963e_2"
+ - "1.0--h376f1d3_4"
 description: "shpc-registry automated BioContainers addition for dinamo"
-config: {"url": "https://biocontainers.pro/tools/dinamo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dinamo", "latest": {"1.0--h2df963e_2": "sha256:ab8ac75d97e570584c3ab7f30c6f1c9eb2675a3253dc7326bd39bc3aa48cccf3"}, "tags": {"1.0--h2df963e_2": "sha256:ab8ac75d97e570584c3ab7f30c6f1c9eb2675a3253dc7326bd39bc3aa48cccf3"}, "docker": "quay.io/biocontainers/dinamo", "aliases": {"dinamo": "/usr/local/bin/dinamo"}}
+config: {"url": "https://biocontainers.pro/tools/dinamo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dinamo", "latest": {"1.0--h376f1d3_4": "sha256:64227a611f7a3bc8fc4571cbcd5428d4e6ed4694c7f409c4fb04b46ac9acecde"}, "tags": {"1.0--h2df963e_2": "sha256:ab8ac75d97e570584c3ab7f30c6f1c9eb2675a3253dc7326bd39bc3aa48cccf3", "1.0--h376f1d3_4": "sha256:64227a611f7a3bc8fc4571cbcd5428d4e6ed4694c7f409c4fb04b46ac9acecde"}, "docker": "quay.io/biocontainers/dinamo", "aliases": {"dinamo": "/usr/local/bin/dinamo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dinamo.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dinamo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dinamo:1.0--h2df963e_2
+$ shpc install quay.io/biocontainers/dinamo:1.0--h376f1d3_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dinamo/1.0--h2df963e_2
-$ module help quay.io/biocontainers/dinamo/1.0--h2df963e_2
+$ module load quay.io/biocontainers/dinamo/1.0--h376f1d3_4
+$ module help quay.io/biocontainers/dinamo/1.0--h376f1d3_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

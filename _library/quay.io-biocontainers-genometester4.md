@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genometester4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genometester4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genometester4/container.yaml"
-updated_at: "2023-06-04 03:34:17.463150"
-latest: "4.0--hec16e2b_4"
+updated_at: "2023-06-05 03:17:43.983613"
+latest: "4.0--h031d066_6"
 container_url: "https://biocontainers.pro/tools/genometester4"
 aliases:
  - "glistcompare"
@@ -15,8 +15,9 @@ aliases:
  - "gmer_counter"
 versions:
  - "4.0--hec16e2b_4"
+ - "4.0--h031d066_6"
 description: "shpc-registry automated BioContainers addition for genometester4"
-config: {"url": "https://biocontainers.pro/tools/genometester4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometester4", "latest": {"4.0--hec16e2b_4": "sha256:d03479ad3e891198a1056364ed0dde9389ba929bad199d67ad13ea8641f00424"}, "tags": {"4.0--hec16e2b_4": "sha256:d03479ad3e891198a1056364ed0dde9389ba929bad199d67ad13ea8641f00424"}, "docker": "quay.io/biocontainers/genometester4", "aliases": {"glistcompare": "/usr/local/bin/glistcompare", "glistmaker": "/usr/local/bin/glistmaker", "glistquery": "/usr/local/bin/glistquery", "gmer_caller": "/usr/local/bin/gmer_caller", "gmer_counter": "/usr/local/bin/gmer_counter"}}
+config: {"url": "https://biocontainers.pro/tools/genometester4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometester4", "latest": {"4.0--h031d066_6": "sha256:011cbf4d9652d9a37ac6bb6aa5e0d3b211cdb2f1fc402ab142011ab53f250baa"}, "tags": {"4.0--hec16e2b_4": "sha256:d03479ad3e891198a1056364ed0dde9389ba929bad199d67ad13ea8641f00424", "4.0--h031d066_6": "sha256:011cbf4d9652d9a37ac6bb6aa5e0d3b211cdb2f1fc402ab142011ab53f250baa"}, "docker": "quay.io/biocontainers/genometester4", "aliases": {"glistcompare": "/usr/local/bin/glistcompare", "glistmaker": "/usr/local/bin/glistmaker", "glistquery": "/usr/local/bin/glistquery", "gmer_caller": "/usr/local/bin/gmer_caller", "gmer_counter": "/usr/local/bin/gmer_counter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genometester4.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/genometester4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genometester4:4.0--hec16e2b_4
+$ shpc install quay.io/biocontainers/genometester4:4.0--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genometester4/4.0--hec16e2b_4
-$ module help quay.io/biocontainers/genometester4/4.0--hec16e2b_4
+$ module load quay.io/biocontainers/genometester4/4.0--h031d066_6
+$ module help quay.io/biocontainers/genometester4/4.0--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

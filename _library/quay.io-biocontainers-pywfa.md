@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/pywfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywfa/container.yaml"
-updated_at: "2023-06-04 03:45:56.824662"
-latest: "0.4.1--hec16e2b_0"
+updated_at: "2023-06-05 03:28:51.234369"
+latest: "0.5.0--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/pywfa"
 
 versions:
  - "0.4.1--hec16e2b_0"
+ - "0.5.0--hec16e2b_0"
+ - "0.4.2--hec16e2b_0"
 description: "singularity registry hpc automated addition for pywfa"
-config: {"url": "https://biocontainers.pro/tools/pywfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywfa", "latest": {"0.4.1--hec16e2b_0": "sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0"}, "tags": {"0.4.1--hec16e2b_0": "sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0"}, "docker": "quay.io/biocontainers/pywfa"}
+config: {"url": "https://biocontainers.pro/tools/pywfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywfa", "latest": {"0.5.0--hec16e2b_0": "sha256:f082c548ed89a70b89e3fe84f6ff07f1f845bc3076e2734396e3b7532517170b"}, "tags": {"0.4.1--hec16e2b_0": "sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0", "0.5.0--hec16e2b_0": "sha256:f082c548ed89a70b89e3fe84f6ff07f1f845bc3076e2734396e3b7532517170b", "0.4.2--hec16e2b_0": "sha256:7cbec4a01b3f5a878e45a0e4595445817485880239baaf0062aa0427ea447918"}, "docker": "quay.io/biocontainers/pywfa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pywfa.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/pywfa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pywfa:0.4.1--hec16e2b_0
+$ shpc install quay.io/biocontainers/pywfa:0.5.0--hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pywfa/0.4.1--hec16e2b_0
-$ module help quay.io/biocontainers/pywfa/0.4.1--hec16e2b_0
+$ module load quay.io/biocontainers/pywfa/0.5.0--hec16e2b_0
+$ module help quay.io/biocontainers/pywfa/0.5.0--hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

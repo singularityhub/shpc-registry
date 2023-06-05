@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genericrepeatfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genericrepeatfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genericrepeatfinder/container.yaml"
-updated_at: "2023-06-04 03:18:52.872447"
-latest: "1.0--h9f5acd7_2"
+updated_at: "2023-06-05 03:02:49.976681"
+latest: "1.0--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/genericrepeatfinder"
 aliases:
  - "grf-alignment"
@@ -28,8 +28,9 @@ aliases:
  - "cd-hit-div.pl"
 versions:
  - "1.0--h9f5acd7_2"
+ - "1.0--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for genericrepeatfinder"
-config: {"url": "https://biocontainers.pro/tools/genericrepeatfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genericrepeatfinder", "latest": {"1.0--h9f5acd7_2": "sha256:d71ebb1867d9f6d3a7b6e80f39888a3276066e76ee816bf6ef9ef2a74b888226"}, "tags": {"1.0--h9f5acd7_2": "sha256:d71ebb1867d9f6d3a7b6e80f39888a3276066e76ee816bf6ef9ef2a74b888226"}, "docker": "quay.io/biocontainers/genericrepeatfinder", "aliases": {"grf-alignment": "/usr/local/bin/grf-alignment", "grf-alignment2": "/usr/local/bin/grf-alignment2", "grf-dbn": "/usr/local/bin/grf-dbn", "grf-filter": "/usr/local/bin/grf-filter", "grf-intersperse": "/usr/local/bin/grf-intersperse", "grf-main": "/usr/local/bin/grf-main", "grf-mite-cluster": "/usr/local/bin/grf-mite-cluster", "grf-nest": "/usr/local/bin/grf-nest", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div", "cd-hit-div.pl": "/usr/local/bin/cd-hit-div.pl"}}
+config: {"url": "https://biocontainers.pro/tools/genericrepeatfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genericrepeatfinder", "latest": {"1.0--h4ac6f70_3": "sha256:eb503bfbeddc6caefcf260acfd2f46926d562f171a6cb63af4853fb20fa4c8f5"}, "tags": {"1.0--h9f5acd7_2": "sha256:d71ebb1867d9f6d3a7b6e80f39888a3276066e76ee816bf6ef9ef2a74b888226", "1.0--h4ac6f70_3": "sha256:eb503bfbeddc6caefcf260acfd2f46926d562f171a6cb63af4853fb20fa4c8f5"}, "docker": "quay.io/biocontainers/genericrepeatfinder", "aliases": {"grf-alignment": "/usr/local/bin/grf-alignment", "grf-alignment2": "/usr/local/bin/grf-alignment2", "grf-dbn": "/usr/local/bin/grf-dbn", "grf-filter": "/usr/local/bin/grf-filter", "grf-intersperse": "/usr/local/bin/grf-intersperse", "grf-main": "/usr/local/bin/grf-main", "grf-mite-cluster": "/usr/local/bin/grf-mite-cluster", "grf-nest": "/usr/local/bin/grf-nest", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div", "cd-hit-div.pl": "/usr/local/bin/cd-hit-div.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genericrepeatfinder.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/genericrepeatfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genericrepeatfinder:1.0--h9f5acd7_2
+$ shpc install quay.io/biocontainers/genericrepeatfinder:1.0--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genericrepeatfinder/1.0--h9f5acd7_2
-$ module help quay.io/biocontainers/genericrepeatfinder/1.0--h9f5acd7_2
+$ module load quay.io/biocontainers/genericrepeatfinder/1.0--h4ac6f70_3
+$ module help quay.io/biocontainers/genericrepeatfinder/1.0--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

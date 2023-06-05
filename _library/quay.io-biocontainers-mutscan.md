@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mutscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutscan/container.yaml"
-updated_at: "2023-06-04 03:39:55.215238"
-latest: "1.14.0--h5b5514e_2"
+updated_at: "2023-06-05 03:23:05.876662"
+latest: "1.14.0--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/mutscan"
 aliases:
  - "mutscan"
 versions:
  - "1.14.0--h5b5514e_2"
+ - "1.14.0--h43eeafb_4"
 description: "shpc-registry automated BioContainers addition for mutscan"
-config: {"url": "https://biocontainers.pro/tools/mutscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mutscan", "latest": {"1.14.0--h5b5514e_2": "sha256:4f31f7f329fb45c19bcb101897234c5d79d509843fb4001ec6f90132c0c65602"}, "tags": {"1.14.0--h5b5514e_2": "sha256:4f31f7f329fb45c19bcb101897234c5d79d509843fb4001ec6f90132c0c65602"}, "docker": "quay.io/biocontainers/mutscan", "aliases": {"mutscan": "/usr/local/bin/mutscan"}}
+config: {"url": "https://biocontainers.pro/tools/mutscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mutscan", "latest": {"1.14.0--h43eeafb_4": "sha256:6dc463ec1888dd98172ee37d1af038ceea0fc59593b5967e84952a4a00376013"}, "tags": {"1.14.0--h5b5514e_2": "sha256:4f31f7f329fb45c19bcb101897234c5d79d509843fb4001ec6f90132c0c65602", "1.14.0--h43eeafb_4": "sha256:6dc463ec1888dd98172ee37d1af038ceea0fc59593b5967e84952a4a00376013"}, "docker": "quay.io/biocontainers/mutscan", "aliases": {"mutscan": "/usr/local/bin/mutscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mutscan.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mutscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mutscan:1.14.0--h5b5514e_2
+$ shpc install quay.io/biocontainers/mutscan:1.14.0--h43eeafb_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mutscan/1.14.0--h5b5514e_2
-$ module help quay.io/biocontainers/mutscan/1.14.0--h5b5514e_2
+$ module load quay.io/biocontainers/mutscan/1.14.0--h43eeafb_4
+$ module help quay.io/biocontainers/mutscan/1.14.0--h43eeafb_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

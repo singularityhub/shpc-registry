@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bx-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bx-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bx-python/container.yaml"
-updated_at: "2023-06-04 03:16:28.320103"
+updated_at: "2023-06-05 03:00:29.559623"
 latest: "0.8.11--py36h5e0341f_0"
 container_url: "https://biocontainers.pro/tools/bx-python"
 

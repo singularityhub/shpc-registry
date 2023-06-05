@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-maftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maftools/container.yaml"
-updated_at: "2023-06-04 03:42:00.769302"
-latest: "2.14.0--r42hc0cfd56_0"
+updated_at: "2023-06-05 03:25:07.279371"
+latest: "2.14.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-maftools"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "2.8.0--r41hd029910_0"
  - "2.14.0--r42hc0cfd56_0"
  - "2.10.05--r41hc0cfd56_0"
+ - "2.14.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-maftools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maftools", "latest": {"2.14.0--r42hc0cfd56_0": "sha256:85a197c81a55ad102b0e09fde189ccd6409e76e24d540e89bda27eb69e2cd954"}, "tags": {"2.8.0--r41hd029910_0": "sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73", "2.14.0--r42hc0cfd56_0": "sha256:85a197c81a55ad102b0e09fde189ccd6409e76e24d540e89bda27eb69e2cd954", "2.10.05--r41hc0cfd56_0": "sha256:058f7104c820216854a0b054a85f7224ebe2cf33977e5c9a931d86c02a6053e8"}, "docker": "quay.io/biocontainers/bioconductor-maftools", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maftools", "latest": {"2.14.0--r42ha9d7317_1": "sha256:28b7309e8bc7c2f38e14394d54104d874ad8ffee478d0589756c0e161a55131d"}, "tags": {"2.8.0--r41hd029910_0": "sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73", "2.14.0--r42hc0cfd56_0": "sha256:85a197c81a55ad102b0e09fde189ccd6409e76e24d540e89bda27eb69e2cd954", "2.10.05--r41hc0cfd56_0": "sha256:058f7104c820216854a0b054a85f7224ebe2cf33977e5c9a931d86c02a6053e8", "2.14.0--r42ha9d7317_1": "sha256:28b7309e8bc7c2f38e14394d54104d874ad8ffee478d0589756c0e161a55131d"}, "docker": "quay.io/biocontainers/bioconductor-maftools", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maftools.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-maftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-maftools:2.14.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-maftools:2.14.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-maftools/2.14.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-maftools/2.14.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-maftools/2.14.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-maftools/2.14.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

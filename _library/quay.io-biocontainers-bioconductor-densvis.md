@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-densvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-densvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-densvis/container.yaml"
-updated_at: "2023-06-04 03:44:55.446450"
-latest: "1.8.0--r42hc247a5b_0"
+updated_at: "2023-06-05 03:27:52.890166"
+latest: "1.8.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-densvis"
 
 versions:
  - "1.4.0--r41hc247a5b_2"
  - "1.8.0--r42hc247a5b_0"
+ - "1.8.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-densvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-densvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-densvis", "latest": {"1.8.0--r42hc247a5b_0": "sha256:ab9ef67509ad1c79e50c0db6eb69509eb01504304a3f52799de86cb51e790476"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:594159b6af145a90070412d0f1ebb3044f7ab1efdb982430ecdbb0f829764088", "1.8.0--r42hc247a5b_0": "sha256:ab9ef67509ad1c79e50c0db6eb69509eb01504304a3f52799de86cb51e790476"}, "docker": "quay.io/biocontainers/bioconductor-densvis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-densvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-densvis", "latest": {"1.8.0--r42hf17093f_1": "sha256:b25468cde970279f008fcbe82ada05c0e5820ff8f262d0dfed1616dc92d8cb1a"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:594159b6af145a90070412d0f1ebb3044f7ab1efdb982430ecdbb0f829764088", "1.8.0--r42hc247a5b_0": "sha256:ab9ef67509ad1c79e50c0db6eb69509eb01504304a3f52799de86cb51e790476", "1.8.0--r42hf17093f_1": "sha256:b25468cde970279f008fcbe82ada05c0e5820ff8f262d0dfed1616dc92d8cb1a"}, "docker": "quay.io/biocontainers/bioconductor-densvis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-densvis.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-densvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-densvis:1.8.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-densvis:1.8.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-densvis/1.8.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-densvis/1.8.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-densvis/1.8.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-densvis/1.8.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

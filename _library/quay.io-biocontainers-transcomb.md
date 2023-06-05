@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transcomb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transcomb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transcomb/container.yaml"
-updated_at: "2023-06-04 03:48:25.723747"
+updated_at: "2023-06-05 03:31:16.014570"
 latest: "1.0--boost1.60_0"
 container_url: "https://biocontainers.pro/tools/transcomb"
 aliases:
