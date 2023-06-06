@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dwgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dwgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dwgsim/container.yaml"
-updated_at: "2023-06-05 03:20:35.020985"
-latest: "1.1.13--h20b1175_1"
+updated_at: "2023-06-06 03:06:36.970173"
+latest: "1.1.13--h50ea8bc_3"
 container_url: "https://biocontainers.pro/tools/dwgsim"
 aliases:
  - "dwgsim"
  - "dwgsim_eval"
 versions:
  - "1.1.13--h20b1175_1"
+ - "1.1.13--h50ea8bc_3"
 description: "shpc-registry automated BioContainers addition for dwgsim"
-config: {"url": "https://biocontainers.pro/tools/dwgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dwgsim", "latest": {"1.1.13--h20b1175_1": "sha256:1feccc22a532068d3b789242097fd6dc9adf556497eac0a840d86e86e2b514b2"}, "tags": {"1.1.13--h20b1175_1": "sha256:1feccc22a532068d3b789242097fd6dc9adf556497eac0a840d86e86e2b514b2"}, "docker": "quay.io/biocontainers/dwgsim", "aliases": {"dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval"}}
+config: {"url": "https://biocontainers.pro/tools/dwgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dwgsim", "latest": {"1.1.13--h50ea8bc_3": "sha256:5f6d14559efbd813fc1e30e4d6a36e2314e09585de2aedcb77a84886b8e15a89"}, "tags": {"1.1.13--h20b1175_1": "sha256:1feccc22a532068d3b789242097fd6dc9adf556497eac0a840d86e86e2b514b2", "1.1.13--h50ea8bc_3": "sha256:5f6d14559efbd813fc1e30e4d6a36e2314e09585de2aedcb77a84886b8e15a89"}, "docker": "quay.io/biocontainers/dwgsim", "aliases": {"dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dwgsim.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dwgsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dwgsim:1.1.13--h20b1175_1
+$ shpc install quay.io/biocontainers/dwgsim:1.1.13--h50ea8bc_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dwgsim/1.1.13--h20b1175_1
-$ module help quay.io/biocontainers/dwgsim/1.1.13--h20b1175_1
+$ module load quay.io/biocontainers/dwgsim/1.1.13--h50ea8bc_3
+$ module help quay.io/biocontainers/dwgsim/1.1.13--h50ea8bc_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

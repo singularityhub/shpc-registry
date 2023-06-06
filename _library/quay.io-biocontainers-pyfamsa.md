@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfamsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfamsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfamsa/container.yaml"
-updated_at: "2023-06-05 03:14:36.291556"
-latest: "0.2.0--py39h67e14b5_0"
+updated_at: "2023-06-06 03:02:29.650486"
+latest: "0.2.0--py310h068649b_2"
 container_url: "https://biocontainers.pro/tools/pyfamsa"
 aliases:
  - "2to3-3.9"
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.2.0--py39h67e14b5_0"
+ - "0.2.0--py310h068649b_2"
 description: "singularity registry hpc automated addition for pyfamsa"
-config: {"url": "https://biocontainers.pro/tools/pyfamsa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfamsa", "latest": {"0.2.0--py39h67e14b5_0": "sha256:1dc3ead7158b13c690e0a4128644047891f391742e3fa14976dbdbdf981bcef9"}, "tags": {"0.2.0--py39h67e14b5_0": "sha256:1dc3ead7158b13c690e0a4128644047891f391742e3fa14976dbdbdf981bcef9"}, "docker": "quay.io/biocontainers/pyfamsa", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyfamsa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfamsa", "latest": {"0.2.0--py310h068649b_2": "sha256:50ff424e6e3099c22f2de308c6f312dfffb047bee1b940d43261a794c229087d"}, "tags": {"0.2.0--py39h67e14b5_0": "sha256:1dc3ead7158b13c690e0a4128644047891f391742e3fa14976dbdbdf981bcef9", "0.2.0--py310h068649b_2": "sha256:50ff424e6e3099c22f2de308c6f312dfffb047bee1b940d43261a794c229087d"}, "docker": "quay.io/biocontainers/pyfamsa", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfamsa.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pyfamsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfamsa:0.2.0--py39h67e14b5_0
+$ shpc install quay.io/biocontainers/pyfamsa:0.2.0--py310h068649b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfamsa/0.2.0--py39h67e14b5_0
-$ module help quay.io/biocontainers/pyfamsa/0.2.0--py39h67e14b5_0
+$ module load quay.io/biocontainers/pyfamsa/0.2.0--py310h068649b_2
+$ module help quay.io/biocontainers/pyfamsa/0.2.0--py310h068649b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

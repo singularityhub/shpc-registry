@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gecko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gecko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gecko/container.yaml"
-updated_at: "2023-06-05 03:42:34.929298"
-latest: "1.2--hec16e2b_2"
+updated_at: "2023-06-06 03:25:20.317131"
+latest: "1.2--h031d066_4"
 container_url: "https://biocontainers.pro/tools/gecko"
 aliases:
  - "FragHits"
@@ -36,8 +36,9 @@ aliases:
  - "workflow.sh"
 versions:
  - "1.2--hec16e2b_2"
+ - "1.2--h031d066_4"
 description: "shpc-registry automated BioContainers addition for gecko"
-config: {"url": "https://biocontainers.pro/tools/gecko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gecko", "latest": {"1.2--hec16e2b_2": "sha256:7a96fe171453939e9d97798567247715d861220e5a9b1c20aa2a235b0a75d8a6"}, "tags": {"1.2--hec16e2b_2": "sha256:7a96fe171453939e9d97798567247715d861220e5a9b1c20aa2a235b0a75d8a6"}, "docker": "quay.io/biocontainers/gecko", "aliases": {"FragHits": "/usr/local/bin/FragHits", "allVsAll.sh": "/usr/local/bin/allVsAll.sh", "combineFrags": "/usr/local/bin/combineFrags", "comparison.sh": "/usr/local/bin/comparison.sh", "csvExtractBorders": "/usr/local/bin/csvExtractBorders", "csvFrags2text": "/usr/local/bin/csvFrags2text", "dictionary.sh": "/usr/local/bin/dictionary.sh", "filterFrags": "/usr/local/bin/filterFrags", "filterHits": "/usr/local/bin/filterHits", "fragStat": "/usr/local/bin/fragStat", "frags2align.sh": "/usr/local/bin/frags2align.sh", "frags2borders.sh": "/usr/local/bin/frags2borders.sh", "frags2text": "/usr/local/bin/frags2text", "getInfo": "/usr/local/bin/getInfo", "hdStat": "/usr/local/bin/hdStat", "hits": "/usr/local/bin/hits", "hitsStat": "/usr/local/bin/hitsStat", "indexmaker": "/usr/local/bin/indexmaker", "matrix.mat": "/usr/local/bin/matrix.mat", "reverseComplement": "/usr/local/bin/reverseComplement", "sortHits": "/usr/local/bin/sortHits", "sortWords": "/usr/local/bin/sortWords", "w2hd": "/usr/local/bin/w2hd", "words": "/usr/local/bin/words", "wordsStat": "/usr/local/bin/wordsStat", "workflow.sh": "/usr/local/bin/workflow.sh"}}
+config: {"url": "https://biocontainers.pro/tools/gecko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gecko", "latest": {"1.2--h031d066_4": "sha256:c96e11a77761da6e2a7de6f01fec38fab8b4cdb1ab7c35e5094ce6e613b6c954"}, "tags": {"1.2--hec16e2b_2": "sha256:7a96fe171453939e9d97798567247715d861220e5a9b1c20aa2a235b0a75d8a6", "1.2--h031d066_4": "sha256:c96e11a77761da6e2a7de6f01fec38fab8b4cdb1ab7c35e5094ce6e613b6c954"}, "docker": "quay.io/biocontainers/gecko", "aliases": {"FragHits": "/usr/local/bin/FragHits", "allVsAll.sh": "/usr/local/bin/allVsAll.sh", "combineFrags": "/usr/local/bin/combineFrags", "comparison.sh": "/usr/local/bin/comparison.sh", "csvExtractBorders": "/usr/local/bin/csvExtractBorders", "csvFrags2text": "/usr/local/bin/csvFrags2text", "dictionary.sh": "/usr/local/bin/dictionary.sh", "filterFrags": "/usr/local/bin/filterFrags", "filterHits": "/usr/local/bin/filterHits", "fragStat": "/usr/local/bin/fragStat", "frags2align.sh": "/usr/local/bin/frags2align.sh", "frags2borders.sh": "/usr/local/bin/frags2borders.sh", "frags2text": "/usr/local/bin/frags2text", "getInfo": "/usr/local/bin/getInfo", "hdStat": "/usr/local/bin/hdStat", "hits": "/usr/local/bin/hits", "hitsStat": "/usr/local/bin/hitsStat", "indexmaker": "/usr/local/bin/indexmaker", "matrix.mat": "/usr/local/bin/matrix.mat", "reverseComplement": "/usr/local/bin/reverseComplement", "sortHits": "/usr/local/bin/sortHits", "sortWords": "/usr/local/bin/sortWords", "w2hd": "/usr/local/bin/w2hd", "words": "/usr/local/bin/words", "wordsStat": "/usr/local/bin/wordsStat", "workflow.sh": "/usr/local/bin/workflow.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gecko.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/gecko
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gecko:1.2--hec16e2b_2
+$ shpc install quay.io/biocontainers/gecko:1.2--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gecko/1.2--hec16e2b_2
-$ module help quay.io/biocontainers/gecko/1.2--hec16e2b_2
+$ module load quay.io/biocontainers/gecko/1.2--h031d066_4
+$ module help quay.io/biocontainers/gecko/1.2--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-mitoclone2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mitoclone2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mitoclone2/container.yaml"
-updated_at: "2023-06-05 03:36:03.278331"
-latest: "1.4.0--r42hc247a5b_0"
+updated_at: "2023-06-06 03:19:12.057319"
+latest: "1.4.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mitoclone2"
 
 versions:
  - "1.0.0--r41hc247a5b_2"
  - "1.4.0--r42hc247a5b_0"
+ - "1.4.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mitoclone2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mitoclone2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mitoclone2", "latest": {"1.4.0--r42hc247a5b_0": "sha256:af37a807fa2a0e4ab1da9e91cfdb9f8696ef3702c300bdbc0593f159b26298ae"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:bab002f7303685066a2f0cca57c4240a86fed25576ba0479b6e910b68a67afe0", "1.4.0--r42hc247a5b_0": "sha256:af37a807fa2a0e4ab1da9e91cfdb9f8696ef3702c300bdbc0593f159b26298ae"}, "docker": "quay.io/biocontainers/bioconductor-mitoclone2"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mitoclone2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mitoclone2", "latest": {"1.4.0--r42hf17093f_1": "sha256:8045c79caeebe01297518d7623d5f37367c71d8ee5592dbcd9a83aa5b2e69794"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:bab002f7303685066a2f0cca57c4240a86fed25576ba0479b6e910b68a67afe0", "1.4.0--r42hc247a5b_0": "sha256:af37a807fa2a0e4ab1da9e91cfdb9f8696ef3702c300bdbc0593f159b26298ae", "1.4.0--r42hf17093f_1": "sha256:8045c79caeebe01297518d7623d5f37367c71d8ee5592dbcd9a83aa5b2e69794"}, "docker": "quay.io/biocontainers/bioconductor-mitoclone2"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mitoclone2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mitoclone2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mitoclone2:1.4.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-mitoclone2:1.4.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mitoclone2/1.4.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-mitoclone2/1.4.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-mitoclone2/1.4.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-mitoclone2/1.4.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

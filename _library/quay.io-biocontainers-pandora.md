@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pandora"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandora/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandora/container.yaml"
-updated_at: "2023-06-05 03:28:46.207957"
-latest: "0.9.1--h9f5acd7_1"
+updated_at: "2023-06-06 03:12:16.782828"
+latest: "0.9.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/pandora"
 aliases:
  - "pandora"
 versions:
  - "0.9.1--h9f5acd7_1"
+ - "0.9.1--h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for pandora"
-config: {"url": "https://biocontainers.pro/tools/pandora", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandora", "latest": {"0.9.1--h9f5acd7_1": "sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6"}, "tags": {"0.9.1--h9f5acd7_1": "sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6"}, "docker": "quay.io/biocontainers/pandora", "aliases": {"pandora": "/usr/local/bin/pandora"}}
+config: {"url": "https://biocontainers.pro/tools/pandora", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandora", "latest": {"0.9.1--h4ac6f70_2": "sha256:d714ce7f52e78aaa0cce3af62f64c4b0c8fbd8bfea1b5d6bbc68e20350f8e2e8"}, "tags": {"0.9.1--h9f5acd7_1": "sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6", "0.9.1--h4ac6f70_2": "sha256:d714ce7f52e78aaa0cce3af62f64c4b0c8fbd8bfea1b5d6bbc68e20350f8e2e8"}, "docker": "quay.io/biocontainers/pandora", "aliases": {"pandora": "/usr/local/bin/pandora"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pandora.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pandora
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pandora:0.9.1--h9f5acd7_1
+$ shpc install quay.io/biocontainers/pandora:0.9.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pandora/0.9.1--h9f5acd7_1
-$ module help quay.io/biocontainers/pandora/0.9.1--h9f5acd7_1
+$ module load quay.io/biocontainers/pandora/0.9.1--h4ac6f70_2
+$ module help quay.io/biocontainers/pandora/0.9.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

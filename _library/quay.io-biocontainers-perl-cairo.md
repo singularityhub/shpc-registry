@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-cairo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cairo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cairo/container.yaml"
-updated_at: "2023-06-05 03:30:26.133510"
-latest: "1.109--pl5321h80db5c4_1"
+updated_at: "2023-06-06 03:13:46.214581"
+latest: "1.109--pl5321hb0b1468_2"
 container_url: "https://biocontainers.pro/tools/perl-cairo"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.109--pl5321h80db5c4_1"
+ - "1.109--pl5321hb0b1468_2"
 description: "shpc-registry automated BioContainers addition for perl-cairo"
-config: {"url": "https://biocontainers.pro/tools/perl-cairo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cairo", "latest": {"1.109--pl5321h80db5c4_1": "sha256:427533bfce3e97759599403cb6396869d58c5a13dac1be81fdd90b669d702f4b"}, "tags": {"1.109--pl5321h80db5c4_1": "sha256:427533bfce3e97759599403cb6396869d58c5a13dac1be81fdd90b669d702f4b"}, "docker": "quay.io/biocontainers/perl-cairo", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-cairo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cairo", "latest": {"1.109--pl5321hb0b1468_2": "sha256:f7a17f22019c6d4d76fbc7f04dde58f45c50f353994c3f26a964868d2f727b0d"}, "tags": {"1.109--pl5321h80db5c4_1": "sha256:427533bfce3e97759599403cb6396869d58c5a13dac1be81fdd90b669d702f4b", "1.109--pl5321hb0b1468_2": "sha256:f7a17f22019c6d4d76fbc7f04dde58f45c50f353994c3f26a964868d2f727b0d"}, "docker": "quay.io/biocontainers/perl-cairo", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-cairo.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-cairo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-cairo:1.109--pl5321h80db5c4_1
+$ shpc install quay.io/biocontainers/perl-cairo:1.109--pl5321hb0b1468_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-cairo/1.109--pl5321h80db5c4_1
-$ module help quay.io/biocontainers/perl-cairo/1.109--pl5321h80db5c4_1
+$ module load quay.io/biocontainers/perl-cairo/1.109--pl5321hb0b1468_2
+$ module help quay.io/biocontainers/perl-cairo/1.109--pl5321hb0b1468_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

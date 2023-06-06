@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastspar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastspar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastspar/container.yaml"
-updated_at: "2023-06-05 03:49:34.796484"
-latest: "1.0.0--he5b3f4d_3"
+updated_at: "2023-06-06 03:32:10.747836"
+latest: "1.0.0--hac4c98c_5"
 container_url: "https://biocontainers.pro/tools/fastspar"
 aliases:
  - "fastspar"
@@ -14,8 +14,9 @@ aliases:
  - "fastspar_reduce"
 versions:
  - "1.0.0--he5b3f4d_3"
+ - "1.0.0--hac4c98c_5"
 description: "shpc-registry automated BioContainers addition for fastspar"
-config: {"url": "https://biocontainers.pro/tools/fastspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastspar", "latest": {"1.0.0--he5b3f4d_3": "sha256:33bd34aa33f7d0b52778ebe9382a19f0c137920135acae647bb87e2dfead9a33"}, "tags": {"1.0.0--he5b3f4d_3": "sha256:33bd34aa33f7d0b52778ebe9382a19f0c137920135acae647bb87e2dfead9a33"}, "docker": "quay.io/biocontainers/fastspar", "aliases": {"fastspar": "/usr/local/bin/fastspar", "fastspar_bootstrap": "/usr/local/bin/fastspar_bootstrap", "fastspar_pvalues": "/usr/local/bin/fastspar_pvalues", "fastspar_reduce": "/usr/local/bin/fastspar_reduce"}}
+config: {"url": "https://biocontainers.pro/tools/fastspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastspar", "latest": {"1.0.0--hac4c98c_5": "sha256:384de55641349834be2e18a23bb8b7d64e317ed91eac6563ef9f57b6f38cae70"}, "tags": {"1.0.0--he5b3f4d_3": "sha256:33bd34aa33f7d0b52778ebe9382a19f0c137920135acae647bb87e2dfead9a33", "1.0.0--hac4c98c_5": "sha256:384de55641349834be2e18a23bb8b7d64e317ed91eac6563ef9f57b6f38cae70"}, "docker": "quay.io/biocontainers/fastspar", "aliases": {"fastspar": "/usr/local/bin/fastspar", "fastspar_bootstrap": "/usr/local/bin/fastspar_bootstrap", "fastspar_pvalues": "/usr/local/bin/fastspar_pvalues", "fastspar_reduce": "/usr/local/bin/fastspar_reduce"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastspar.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/fastspar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastspar:1.0.0--he5b3f4d_3
+$ shpc install quay.io/biocontainers/fastspar:1.0.0--hac4c98c_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastspar/1.0.0--he5b3f4d_3
-$ module help quay.io/biocontainers/fastspar/1.0.0--he5b3f4d_3
+$ module load quay.io/biocontainers/fastspar/1.0.0--hac4c98c_5
+$ module help quay.io/biocontainers/fastspar/1.0.0--hac4c98c_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

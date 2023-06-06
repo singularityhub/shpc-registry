@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dadaist2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dadaist2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dadaist2/container.yaml"
-updated_at: "2023-06-05 03:40:16.457907"
+updated_at: "2023-06-06 03:23:02.961486"
 latest: "1.2.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dadaist2"
 

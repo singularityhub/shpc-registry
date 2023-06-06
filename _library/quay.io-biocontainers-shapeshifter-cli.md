@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shapeshifter-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapeshifter-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapeshifter-cli/container.yaml"
-updated_at: "2023-06-05 03:05:32.275683"
+updated_at: "2023-06-06 02:57:18.880282"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/shapeshifter-cli"
 aliases:

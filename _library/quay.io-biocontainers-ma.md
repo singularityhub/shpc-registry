@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ma/container.yaml"
-updated_at: "2023-06-05 03:29:24.431664"
-latest: "2.0.1--py39h6935b12_0"
+updated_at: "2023-06-06 03:12:50.318389"
+latest: "2.0.2--py39h6935b12_0"
 container_url: "https://biocontainers.pro/tools/ma"
 aliases:
  - "lzma"
@@ -20,8 +20,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "2.0.1--py39h6935b12_0"
+ - "2.0.2--py39h6935b12_0"
 description: "shpc-registry automated BioContainers addition for ma"
-config: {"url": "https://biocontainers.pro/tools/ma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ma", "latest": {"2.0.1--py39h6935b12_0": "sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d"}, "tags": {"2.0.1--py39h6935b12_0": "sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d"}, "docker": "quay.io/biocontainers/ma", "aliases": {"lzma": "/usr/local/bin/lzma", "lzmadec": "/usr/local/bin/lzmadec", "lzmainfo": "/usr/local/bin/lzmainfo", "maCMD": "/usr/local/bin/maCMD", "unlzma": "/usr/local/bin/unlzma", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/ma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ma", "latest": {"2.0.2--py39h6935b12_0": "sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e"}, "tags": {"2.0.1--py39h6935b12_0": "sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d", "2.0.2--py39h6935b12_0": "sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e"}, "docker": "quay.io/biocontainers/ma", "aliases": {"lzma": "/usr/local/bin/lzma", "lzmadec": "/usr/local/bin/lzmadec", "lzmainfo": "/usr/local/bin/lzmainfo", "maCMD": "/usr/local/bin/maCMD", "unlzma": "/usr/local/bin/unlzma", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ma.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/ma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ma:2.0.1--py39h6935b12_0
+$ shpc install quay.io/biocontainers/ma:2.0.2--py39h6935b12_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ma/2.0.1--py39h6935b12_0
-$ module help quay.io/biocontainers/ma/2.0.1--py39h6935b12_0
+$ module load quay.io/biocontainers/ma/2.0.2--py39h6935b12_0
+$ module help quay.io/biocontainers/ma/2.0.2--py39h6935b12_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

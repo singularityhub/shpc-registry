@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rfmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rfmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rfmix/container.yaml"
-updated_at: "2023-06-05 03:44:00.663906"
-latest: "2.03.r0.9505bfa--h87f3376_3"
+updated_at: "2023-06-06 03:26:41.893169"
+latest: "2.03.r0.9505bfa--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/rfmix"
 aliases:
  - "rfmix"
  - "simulate"
 versions:
  - "2.03.r0.9505bfa--h87f3376_3"
+ - "2.03.r0.9505bfa--hdbdd923_5"
 description: "shpc-registry automated BioContainers addition for rfmix"
-config: {"url": "https://biocontainers.pro/tools/rfmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rfmix", "latest": {"2.03.r0.9505bfa--h87f3376_3": "sha256:d86bf897af37bd05d4b933597ee9e6b07117e76d946f65439986f0a5609eb005"}, "tags": {"2.03.r0.9505bfa--h87f3376_3": "sha256:d86bf897af37bd05d4b933597ee9e6b07117e76d946f65439986f0a5609eb005"}, "docker": "quay.io/biocontainers/rfmix", "aliases": {"rfmix": "/usr/local/bin/rfmix", "simulate": "/usr/local/bin/simulate"}}
+config: {"url": "https://biocontainers.pro/tools/rfmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rfmix", "latest": {"2.03.r0.9505bfa--hdbdd923_5": "sha256:b2c59b85ebe24f9518ae88aa1e6364184da5da4d5941e238d5bc404d64d452d8"}, "tags": {"2.03.r0.9505bfa--h87f3376_3": "sha256:d86bf897af37bd05d4b933597ee9e6b07117e76d946f65439986f0a5609eb005", "2.03.r0.9505bfa--hdbdd923_5": "sha256:b2c59b85ebe24f9518ae88aa1e6364184da5da4d5941e238d5bc404d64d452d8"}, "docker": "quay.io/biocontainers/rfmix", "aliases": {"rfmix": "/usr/local/bin/rfmix", "simulate": "/usr/local/bin/simulate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rfmix.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rfmix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rfmix:2.03.r0.9505bfa--h87f3376_3
+$ shpc install quay.io/biocontainers/rfmix:2.03.r0.9505bfa--hdbdd923_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rfmix/2.03.r0.9505bfa--h87f3376_3
-$ module help quay.io/biocontainers/rfmix/2.03.r0.9505bfa--h87f3376_3
+$ module load quay.io/biocontainers/rfmix/2.03.r0.9505bfa--hdbdd923_5
+$ module help quay.io/biocontainers/rfmix/2.03.r0.9505bfa--hdbdd923_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

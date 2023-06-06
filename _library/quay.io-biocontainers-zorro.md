@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zorro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zorro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zorro/container.yaml"
-updated_at: "2023-06-05 03:52:18.366508"
-latest: "2011.12.01--hec16e2b_3"
+updated_at: "2023-06-06 03:35:02.412921"
+latest: "2011.12.01--h031d066_4"
 container_url: "https://biocontainers.pro/tools/zorro"
 aliases:
  - "zorro"
@@ -17,8 +17,9 @@ aliases:
  - "streamzip"
 versions:
  - "2011.12.01--hec16e2b_3"
+ - "2011.12.01--h031d066_4"
 description: "shpc-registry automated BioContainers addition for zorro"
-config: {"url": "https://biocontainers.pro/tools/zorro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zorro", "latest": {"2011.12.01--hec16e2b_3": "sha256:469cae7eb92606ec46a9b6996ac739c3ee4dca6622450080bf0c3ce7e42a3727"}, "tags": {"2011.12.01--hec16e2b_3": "sha256:469cae7eb92606ec46a9b6996ac739c3ee4dca6622450080bf0c3ce7e42a3727"}, "docker": "quay.io/biocontainers/zorro", "aliases": {"zorro": "/usr/local/bin/zorro", "zorro_dist.pl": "/usr/local/bin/zorro_dist.pl", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/zorro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zorro", "latest": {"2011.12.01--h031d066_4": "sha256:0c45c07bfbea29215a90901de1dd88760408d4ca80e31a8927b93bcab3dfa12e"}, "tags": {"2011.12.01--hec16e2b_3": "sha256:469cae7eb92606ec46a9b6996ac739c3ee4dca6622450080bf0c3ce7e42a3727", "2011.12.01--h031d066_4": "sha256:0c45c07bfbea29215a90901de1dd88760408d4ca80e31a8927b93bcab3dfa12e"}, "docker": "quay.io/biocontainers/zorro", "aliases": {"zorro": "/usr/local/bin/zorro", "zorro_dist.pl": "/usr/local/bin/zorro_dist.pl", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zorro.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/zorro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zorro:2011.12.01--hec16e2b_3
+$ shpc install quay.io/biocontainers/zorro:2011.12.01--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zorro/2011.12.01--hec16e2b_3
-$ module help quay.io/biocontainers/zorro/2011.12.01--hec16e2b_3
+$ module load quay.io/biocontainers/zorro/2011.12.01--h031d066_4
+$ module help quay.io/biocontainers/zorro/2011.12.01--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svviz/container.yaml"
-updated_at: "2023-06-05 03:33:50.454389"
-latest: "1.6.2--py27h9801fc8_5"
+updated_at: "2023-06-06 03:17:05.071167"
+latest: "1.6.2--py310h4b81fae_6"
 container_url: "https://biocontainers.pro/tools/svviz"
 aliases:
  - "svviz"
@@ -21,8 +21,9 @@ aliases:
  - "idle"
 versions:
  - "1.6.2--py27h9801fc8_5"
+ - "1.6.2--py310h4b81fae_6"
 description: "shpc-registry automated BioContainers addition for svviz"
-config: {"url": "https://biocontainers.pro/tools/svviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svviz", "latest": {"1.6.2--py27h9801fc8_5": "sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8"}, "tags": {"1.6.2--py27h9801fc8_5": "sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8"}, "docker": "quay.io/biocontainers/svviz", "aliases": {"svviz": "/usr/local/bin/svviz", "flask": "/usr/local/bin/flask", "faidx": "/usr/local/bin/faidx", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
+config: {"url": "https://biocontainers.pro/tools/svviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svviz", "latest": {"1.6.2--py310h4b81fae_6": "sha256:1929cf7efab046281520f8b9f8d9ecee0036132322773b491d0829e7dcad521b"}, "tags": {"1.6.2--py27h9801fc8_5": "sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8", "1.6.2--py310h4b81fae_6": "sha256:1929cf7efab046281520f8b9f8d9ecee0036132322773b491d0829e7dcad521b"}, "docker": "quay.io/biocontainers/svviz", "aliases": {"svviz": "/usr/local/bin/svviz", "flask": "/usr/local/bin/flask", "faidx": "/usr/local/bin/faidx", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svviz.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/svviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svviz:1.6.2--py27h9801fc8_5
+$ shpc install quay.io/biocontainers/svviz:1.6.2--py310h4b81fae_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svviz/1.6.2--py27h9801fc8_5
-$ module help quay.io/biocontainers/svviz/1.6.2--py27h9801fc8_5
+$ module load quay.io/biocontainers/svviz/1.6.2--py310h4b81fae_6
+$ module help quay.io/biocontainers/svviz/1.6.2--py310h4b81fae_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

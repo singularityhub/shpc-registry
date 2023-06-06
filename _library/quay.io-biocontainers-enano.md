@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/enano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enano/container.yaml"
-updated_at: "2023-06-05 03:53:30.832697"
-latest: "1.0--hd03093a_4"
+updated_at: "2023-06-06 03:36:19.156828"
+latest: "1.0--hdcf5f25_6"
 container_url: "https://biocontainers.pro/tools/enano"
 aliases:
  - "enano"
 versions:
  - "1.0--hd03093a_4"
+ - "1.0--hdcf5f25_6"
 description: "shpc-registry automated BioContainers addition for enano"
-config: {"url": "https://biocontainers.pro/tools/enano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for enano", "latest": {"1.0--hd03093a_4": "sha256:835b9b948b72fe01ed278456a988114190286596b31c0c6fbfc45ae67eea3141"}, "tags": {"1.0--hd03093a_4": "sha256:835b9b948b72fe01ed278456a988114190286596b31c0c6fbfc45ae67eea3141"}, "docker": "quay.io/biocontainers/enano", "aliases": {"enano": "/usr/local/bin/enano"}}
+config: {"url": "https://biocontainers.pro/tools/enano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for enano", "latest": {"1.0--hdcf5f25_6": "sha256:a3f5a4dab505b0704d9f4c3a627e5f9e1554c075c292731dcb2dea6183cf9ab9"}, "tags": {"1.0--hd03093a_4": "sha256:835b9b948b72fe01ed278456a988114190286596b31c0c6fbfc45ae67eea3141", "1.0--hdcf5f25_6": "sha256:a3f5a4dab505b0704d9f4c3a627e5f9e1554c075c292731dcb2dea6183cf9ab9"}, "docker": "quay.io/biocontainers/enano", "aliases": {"enano": "/usr/local/bin/enano"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enano.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/enano
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enano:1.0--hd03093a_4
+$ shpc install quay.io/biocontainers/enano:1.0--hdcf5f25_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enano/1.0--hd03093a_4
-$ module help quay.io/biocontainers/enano/1.0--hd03093a_4
+$ module load quay.io/biocontainers/enano/1.0--hdcf5f25_6
+$ module help quay.io/biocontainers/enano/1.0--hdcf5f25_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

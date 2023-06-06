@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/matchmsextras"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matchmsextras/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matchmsextras/container.yaml"
-updated_at: "2023-06-05 03:36:23.450113"
+updated_at: "2023-06-06 03:19:30.119581"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/matchmsextras"
 aliases:

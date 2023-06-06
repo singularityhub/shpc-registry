@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tscr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tscr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tscr/container.yaml"
-updated_at: "2023-06-05 03:13:28.717927"
-latest: "1.10.0--r42hc0cfd56_0"
+updated_at: "2023-06-06 03:01:51.115145"
+latest: "1.10.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tscr"
 aliases:
  - "pandoc-server"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.6.1--r41hc0cfd56_1"
  - "1.10.0--r42hc0cfd56_0"
+ - "1.10.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-tscr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tscr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tscr", "latest": {"1.10.0--r42hc0cfd56_0": "sha256:bc5cbaaf4772d6d0be2cf1340ca286514158816b5b8049980b1be1e1ff34c70c"}, "tags": {"1.6.1--r41hc0cfd56_1": "sha256:c3214aa9061a874eba035a392d418a9534232d45d30c3597d6985cebd6be48a3", "1.10.0--r42hc0cfd56_0": "sha256:bc5cbaaf4772d6d0be2cf1340ca286514158816b5b8049980b1be1e1ff34c70c"}, "docker": "quay.io/biocontainers/bioconductor-tscr", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tscr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tscr", "latest": {"1.10.0--r42ha9d7317_1": "sha256:9b7efe3299a56876b64672e0bd0f7b86f728fd155e18bfaa0fa51e2753450e9b"}, "tags": {"1.6.1--r41hc0cfd56_1": "sha256:c3214aa9061a874eba035a392d418a9534232d45d30c3597d6985cebd6be48a3", "1.10.0--r42hc0cfd56_0": "sha256:bc5cbaaf4772d6d0be2cf1340ca286514158816b5b8049980b1be1e1ff34c70c", "1.10.0--r42ha9d7317_1": "sha256:9b7efe3299a56876b64672e0bd0f7b86f728fd155e18bfaa0fa51e2753450e9b"}, "docker": "quay.io/biocontainers/bioconductor-tscr", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tscr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tscr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tscr:1.10.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-tscr:1.10.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tscr/1.10.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-tscr/1.10.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-tscr/1.10.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-tscr/1.10.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

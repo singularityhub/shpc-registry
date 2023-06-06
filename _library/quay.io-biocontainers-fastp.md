@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastp/container.yaml"
-updated_at: "2023-06-05 03:47:48.475547"
-latest: "0.23.2--h5f740d0_3"
+updated_at: "2023-06-06 03:30:19.213323"
+latest: "0.23.4--h5f740d0_0"
 container_url: "https://biocontainers.pro/tools/fastp"
 aliases:
  - "fastp"
 versions:
  - "0.22.0--h2e03b76_0"
  - "0.23.2--h5f740d0_3"
+ - "0.23.4--h5f740d0_0"
 description: "shpc-registry automated BioContainers addition for fastp"
-config: {"url": "https://biocontainers.pro/tools/fastp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastp", "latest": {"0.23.2--h5f740d0_3": "sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b"}, "tags": {"0.22.0--h2e03b76_0": "sha256:e94097ae4ca17394b35d59a20d9a9f6d8972992bd47d1783f00c26e86ca82c2b", "0.23.2--h5f740d0_3": "sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b"}, "docker": "quay.io/biocontainers/fastp", "aliases": {"fastp": "/usr/local/bin/fastp"}}
+config: {"url": "https://biocontainers.pro/tools/fastp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastp", "latest": {"0.23.4--h5f740d0_0": "sha256:b635334b6bb25eba14d0b8c240a45a51234984247d79715f8cd0b7959df850c2"}, "tags": {"0.22.0--h2e03b76_0": "sha256:e94097ae4ca17394b35d59a20d9a9f6d8972992bd47d1783f00c26e86ca82c2b", "0.23.2--h5f740d0_3": "sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b", "0.23.4--h5f740d0_0": "sha256:b635334b6bb25eba14d0b8c240a45a51234984247d79715f8cd0b7959df850c2"}, "docker": "quay.io/biocontainers/fastp", "aliases": {"fastp": "/usr/local/bin/fastp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastp.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastp:0.23.2--h5f740d0_3
+$ shpc install quay.io/biocontainers/fastp:0.23.4--h5f740d0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastp/0.23.2--h5f740d0_3
-$ module help quay.io/biocontainers/fastp/0.23.2--h5f740d0_3
+$ module load quay.io/biocontainers/fastp/0.23.4--h5f740d0_0
+$ module help quay.io/biocontainers/fastp/0.23.4--h5f740d0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

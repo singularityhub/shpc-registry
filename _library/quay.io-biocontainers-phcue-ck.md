@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/phcue-ck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phcue-ck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phcue-ck/container.yaml"
-updated_at: "2023-06-05 03:38:49.154595"
-latest: "0.2.0--h1f4ba0c_0"
+updated_at: "2023-06-06 03:21:43.078653"
+latest: "0.2.0--h5076881_2"
 container_url: "https://biocontainers.pro/tools/phcue-ck"
 aliases:
  - "phcue-ck"
 versions:
  - "0.2.0--h1f4ba0c_0"
+ - "0.2.0--h5076881_2"
 description: "singularity registry hpc automated addition for phcue-ck"
-config: {"url": "https://biocontainers.pro/tools/phcue-ck", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phcue-ck", "latest": {"0.2.0--h1f4ba0c_0": "sha256:c9525c902a42e9ba54e35917a79c9e3098e6c9cc80f9c74f8c5c615e66d5e550"}, "tags": {"0.2.0--h1f4ba0c_0": "sha256:c9525c902a42e9ba54e35917a79c9e3098e6c9cc80f9c74f8c5c615e66d5e550"}, "docker": "quay.io/biocontainers/phcue-ck", "aliases": {"phcue-ck": "/usr/local/bin/phcue-ck"}}
+config: {"url": "https://biocontainers.pro/tools/phcue-ck", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phcue-ck", "latest": {"0.2.0--h5076881_2": "sha256:ddd4e8463e210aaff076345b37cf87c508295a2c8d791aca617ddfcd317bb936"}, "tags": {"0.2.0--h1f4ba0c_0": "sha256:c9525c902a42e9ba54e35917a79c9e3098e6c9cc80f9c74f8c5c615e66d5e550", "0.2.0--h5076881_2": "sha256:ddd4e8463e210aaff076345b37cf87c508295a2c8d791aca617ddfcd317bb936"}, "docker": "quay.io/biocontainers/phcue-ck", "aliases": {"phcue-ck": "/usr/local/bin/phcue-ck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phcue-ck.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/phcue-ck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phcue-ck:0.2.0--h1f4ba0c_0
+$ shpc install quay.io/biocontainers/phcue-ck:0.2.0--h5076881_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phcue-ck/0.2.0--h1f4ba0c_0
-$ module help quay.io/biocontainers/phcue-ck/0.2.0--h1f4ba0c_0
+$ module load quay.io/biocontainers/phcue-ck/0.2.0--h5076881_2
+$ module help quay.io/biocontainers/phcue-ck/0.2.0--h5076881_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

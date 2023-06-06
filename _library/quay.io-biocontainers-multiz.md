@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multiz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiz/container.yaml"
-updated_at: "2023-06-05 03:16:19.676081"
-latest: "11.2--hec16e2b_3"
+updated_at: "2023-06-06 03:03:51.278267"
+latest: "11.2--h031d066_5"
 container_url: "https://biocontainers.pro/tools/multiz"
 aliases:
  - "all_bz"
@@ -28,8 +28,9 @@ aliases:
  - "tba"
 versions:
  - "11.2--hec16e2b_3"
+ - "11.2--h031d066_5"
 description: "shpc-registry automated BioContainers addition for multiz"
-config: {"url": "https://biocontainers.pro/tools/multiz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiz", "latest": {"11.2--hec16e2b_3": "sha256:abc1b8e9323a83320bf967f869ad2c15cbcd14c0242e7952d866de3c949e8b69"}, "tags": {"11.2--hec16e2b_3": "sha256:abc1b8e9323a83320bf967f869ad2c15cbcd14c0242e7952d866de3c949e8b69"}, "docker": "quay.io/biocontainers/multiz", "aliases": {"all_bz": "/usr/local/bin/all_bz", "blastzWrapper": "/usr/local/bin/blastzWrapper", "get_covered": "/usr/local/bin/get_covered", "get_standard_headers": "/usr/local/bin/get_standard_headers", "lav2maf": "/usr/local/bin/lav2maf", "maf2fasta": "/usr/local/bin/maf2fasta", "maf2lav": "/usr/local/bin/maf2lav", "mafFind": "/usr/local/bin/mafFind", "maf_checkThread": "/usr/local/bin/maf_checkThread", "maf_order": "/usr/local/bin/maf_order", "maf_project": "/usr/local/bin/maf_project", "maf_sort": "/usr/local/bin/maf_sort", "multic": "/usr/local/bin/multic", "multiz": "/usr/local/bin/multiz", "pair2tb": "/usr/local/bin/pair2tb", "roast": "/usr/local/bin/roast", "single_cov2": "/usr/local/bin/single_cov2", "tba": "/usr/local/bin/tba"}}
+config: {"url": "https://biocontainers.pro/tools/multiz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiz", "latest": {"11.2--h031d066_5": "sha256:5dcf13e67076a441e8f4179f29c1da2ff07b86b976555505e646205ed15c0fea"}, "tags": {"11.2--hec16e2b_3": "sha256:abc1b8e9323a83320bf967f869ad2c15cbcd14c0242e7952d866de3c949e8b69", "11.2--h031d066_5": "sha256:5dcf13e67076a441e8f4179f29c1da2ff07b86b976555505e646205ed15c0fea"}, "docker": "quay.io/biocontainers/multiz", "aliases": {"all_bz": "/usr/local/bin/all_bz", "blastzWrapper": "/usr/local/bin/blastzWrapper", "get_covered": "/usr/local/bin/get_covered", "get_standard_headers": "/usr/local/bin/get_standard_headers", "lav2maf": "/usr/local/bin/lav2maf", "maf2fasta": "/usr/local/bin/maf2fasta", "maf2lav": "/usr/local/bin/maf2lav", "mafFind": "/usr/local/bin/mafFind", "maf_checkThread": "/usr/local/bin/maf_checkThread", "maf_order": "/usr/local/bin/maf_order", "maf_project": "/usr/local/bin/maf_project", "maf_sort": "/usr/local/bin/maf_sort", "multic": "/usr/local/bin/multic", "multiz": "/usr/local/bin/multiz", "pair2tb": "/usr/local/bin/pair2tb", "roast": "/usr/local/bin/roast", "single_cov2": "/usr/local/bin/single_cov2", "tba": "/usr/local/bin/tba"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multiz.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/multiz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multiz:11.2--hec16e2b_3
+$ shpc install quay.io/biocontainers/multiz:11.2--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multiz/11.2--hec16e2b_3
-$ module help quay.io/biocontainers/multiz/11.2--hec16e2b_3
+$ module load quay.io/biocontainers/multiz/11.2--h031d066_5
+$ module help quay.io/biocontainers/multiz/11.2--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

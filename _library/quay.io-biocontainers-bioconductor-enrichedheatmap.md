@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-enrichedheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichedheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichedheatmap/container.yaml"
-updated_at: "2023-06-05 03:50:39.547013"
-latest: "1.27.2--r42hc247a5b_0"
+updated_at: "2023-06-06 03:33:19.016140"
+latest: "1.27.2--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichedheatmap"
 
 versions:
  - "1.24.0--r41hc247a5b_2"
  - "1.27.2--r42hc247a5b_0"
+ - "1.27.2--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-enrichedheatmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichedheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enrichedheatmap", "latest": {"1.27.2--r42hc247a5b_0": "sha256:300d0907c65fb6750c4ecc9a0d9462d901e66d94ce109e109ede3d98a035b3e3"}, "tags": {"1.24.0--r41hc247a5b_2": "sha256:60171a93bee57a9c114ea1523e46b5de3d61500b24d5c94f7fb16a38e54078e9", "1.27.2--r42hc247a5b_0": "sha256:300d0907c65fb6750c4ecc9a0d9462d901e66d94ce109e109ede3d98a035b3e3"}, "docker": "quay.io/biocontainers/bioconductor-enrichedheatmap"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichedheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enrichedheatmap", "latest": {"1.27.2--r42hf17093f_1": "sha256:a60984339235bda46bf71eef8576468aab29bf63507b058684d1c274e941117f"}, "tags": {"1.24.0--r41hc247a5b_2": "sha256:60171a93bee57a9c114ea1523e46b5de3d61500b24d5c94f7fb16a38e54078e9", "1.27.2--r42hc247a5b_0": "sha256:300d0907c65fb6750c4ecc9a0d9462d901e66d94ce109e109ede3d98a035b3e3", "1.27.2--r42hf17093f_1": "sha256:a60984339235bda46bf71eef8576468aab29bf63507b058684d1c274e941117f"}, "docker": "quay.io/biocontainers/bioconductor-enrichedheatmap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-enrichedheatmap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-enrichedheatmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-enrichedheatmap:1.27.2--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-enrichedheatmap:1.27.2--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-enrichedheatmap/1.27.2--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-enrichedheatmap/1.27.2--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-enrichedheatmap/1.27.2--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-enrichedheatmap/1.27.2--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-fastseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fastseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fastseg/container.yaml"
-updated_at: "2023-06-05 03:07:44.955514"
-latest: "1.44.0--r42hc247a5b_0"
+updated_at: "2023-06-06 02:58:33.714527"
+latest: "1.44.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fastseg"
 
 versions:
  - "1.40.0--r41hc247a5b_2"
  - "1.44.0--r42hc247a5b_0"
+ - "1.44.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fastseg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fastseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fastseg", "latest": {"1.44.0--r42hc247a5b_0": "sha256:6bb7aabd3e04fac6c642ab382a3ab7fd4d2b0c409e6a9c1ed7c9dc55d3560ff4"}, "tags": {"1.40.0--r41hc247a5b_2": "sha256:9c87eef8aa54836cccd6086645028ea6feb4ff2fe216133ae068472e95e65381", "1.44.0--r42hc247a5b_0": "sha256:6bb7aabd3e04fac6c642ab382a3ab7fd4d2b0c409e6a9c1ed7c9dc55d3560ff4"}, "docker": "quay.io/biocontainers/bioconductor-fastseg"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fastseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fastseg", "latest": {"1.44.0--r42hf17093f_1": "sha256:c6ea0ba447507071fbb02432a458f3f981b8a7fc82effea0059813454c9a29da"}, "tags": {"1.40.0--r41hc247a5b_2": "sha256:9c87eef8aa54836cccd6086645028ea6feb4ff2fe216133ae068472e95e65381", "1.44.0--r42hc247a5b_0": "sha256:6bb7aabd3e04fac6c642ab382a3ab7fd4d2b0c409e6a9c1ed7c9dc55d3560ff4", "1.44.0--r42hf17093f_1": "sha256:c6ea0ba447507071fbb02432a458f3f981b8a7fc82effea0059813454c9a29da"}, "docker": "quay.io/biocontainers/bioconductor-fastseg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fastseg.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fastseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fastseg:1.44.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-fastseg:1.44.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fastseg/1.44.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-fastseg/1.44.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-fastseg/1.44.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-fastseg/1.44.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

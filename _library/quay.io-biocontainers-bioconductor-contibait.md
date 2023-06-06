@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-contibait"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-contibait/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-contibait/container.yaml"
-updated_at: "2023-06-05 03:16:17.812438"
-latest: "1.26.0--r42hc247a5b_0"
+updated_at: "2023-06-06 03:03:50.098391"
+latest: "1.26.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-contibait"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.15.0--r40h5f743cb_0"
  - "1.14.0--r36he1b5a44_0"
  - "1.26.0--r42hc247a5b_0"
+ - "1.26.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-contibait"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-contibait", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-contibait", "latest": {"1.26.0--r42hc247a5b_0": "sha256:c7fa5878f2ee401c20d8e4ccff5417765440780fee87d27ff6a1980fda30e7d6"}, "tags": {"1.8.0--r341hfc679d8_0": "sha256:53646242d04e863a4b3fb8e61cb8b0426e4985c6c24364135b02f5ed57f16d17", "1.22.0--r41hc247a5b_2": "sha256:93544750937522ee15a0789a45b598859be3a7b9a5c69e83d3f6da7feb33a317", "1.20.0--r41h399db7b_0": "sha256:ff666f8ee50b8574e2ec1b2ac46639f5fb542a5523400ba16dde5679a97ede0d", "1.18.0--r40h399db7b_1": "sha256:50b3d2511106ad0ce915d70d7a3f31529827a68c0e90059b0acc4624e60fd5cb", "1.15.0--r40h5f743cb_0": "sha256:08bc5b9d0b679adeac2966ec24c1c04a29db864f291390e9f4b0b24ce391d78e", "1.14.0--r36he1b5a44_0": "sha256:149d7809bf77476073523455644fa4f31a86a0751ea70d4bec472078d3d31c4c", "1.26.0--r42hc247a5b_0": "sha256:c7fa5878f2ee401c20d8e4ccff5417765440780fee87d27ff6a1980fda30e7d6"}, "docker": "quay.io/biocontainers/bioconductor-contibait", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-contibait", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-contibait", "latest": {"1.26.0--r42hf17093f_1": "sha256:b364b750e0f24a9105d87f90dbf4950da0400b8fdb4dafc71356f06dbe5f8309"}, "tags": {"1.8.0--r341hfc679d8_0": "sha256:53646242d04e863a4b3fb8e61cb8b0426e4985c6c24364135b02f5ed57f16d17", "1.22.0--r41hc247a5b_2": "sha256:93544750937522ee15a0789a45b598859be3a7b9a5c69e83d3f6da7feb33a317", "1.20.0--r41h399db7b_0": "sha256:ff666f8ee50b8574e2ec1b2ac46639f5fb542a5523400ba16dde5679a97ede0d", "1.18.0--r40h399db7b_1": "sha256:50b3d2511106ad0ce915d70d7a3f31529827a68c0e90059b0acc4624e60fd5cb", "1.15.0--r40h5f743cb_0": "sha256:08bc5b9d0b679adeac2966ec24c1c04a29db864f291390e9f4b0b24ce391d78e", "1.14.0--r36he1b5a44_0": "sha256:149d7809bf77476073523455644fa4f31a86a0751ea70d4bec472078d3d31c4c", "1.26.0--r42hc247a5b_0": "sha256:c7fa5878f2ee401c20d8e4ccff5417765440780fee87d27ff6a1980fda30e7d6", "1.26.0--r42hf17093f_1": "sha256:b364b750e0f24a9105d87f90dbf4950da0400b8fdb4dafc71356f06dbe5f8309"}, "docker": "quay.io/biocontainers/bioconductor-contibait", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-contibait.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-contibait
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-contibait:1.26.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-contibait:1.26.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-contibait/1.26.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-contibait/1.26.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-contibait/1.26.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-contibait/1.26.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

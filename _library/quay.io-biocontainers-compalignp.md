@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/compalignp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/compalignp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/compalignp/container.yaml"
-updated_at: "2023-06-05 03:57:09.393559"
+updated_at: "2023-06-06 03:40:09.789632"
 latest: "1.0--h516909a_2"
 container_url: "https://biocontainers.pro/tools/compalignp"
 aliases:

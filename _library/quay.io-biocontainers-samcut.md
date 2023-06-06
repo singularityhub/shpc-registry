@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/samcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samcut/container.yaml"
-updated_at: "2023-06-05 03:10:02.346378"
-latest: "0.1.1--h9f5acd7_0"
+updated_at: "2023-06-06 02:59:52.316945"
+latest: "0.1.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/samcut"
 aliases:
  - "samcut"
 versions:
  - "0.1.1--h9f5acd7_0"
+ - "0.1.1--h4ac6f70_2"
 description: "singularity registry hpc automated addition for samcut"
-config: {"url": "https://biocontainers.pro/tools/samcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samcut", "latest": {"0.1.1--h9f5acd7_0": "sha256:73b9841040f07589bd6389ac9b4828a9ce419cec1c21f8fc9580c60606fa37be"}, "tags": {"0.1.1--h9f5acd7_0": "sha256:73b9841040f07589bd6389ac9b4828a9ce419cec1c21f8fc9580c60606fa37be"}, "docker": "quay.io/biocontainers/samcut", "aliases": {"samcut": "/usr/local/bin/samcut"}}
+config: {"url": "https://biocontainers.pro/tools/samcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for samcut", "latest": {"0.1.1--h4ac6f70_2": "sha256:0200727e4f6e61131f6b47c9c529c7c8d31642fefab7fefe348437d57601fe9f"}, "tags": {"0.1.1--h9f5acd7_0": "sha256:73b9841040f07589bd6389ac9b4828a9ce419cec1c21f8fc9580c60606fa37be", "0.1.1--h4ac6f70_2": "sha256:0200727e4f6e61131f6b47c9c529c7c8d31642fefab7fefe348437d57601fe9f"}, "docker": "quay.io/biocontainers/samcut", "aliases": {"samcut": "/usr/local/bin/samcut"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samcut.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/samcut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samcut:0.1.1--h9f5acd7_0
+$ shpc install quay.io/biocontainers/samcut:0.1.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samcut/0.1.1--h9f5acd7_0
-$ module help quay.io/biocontainers/samcut/0.1.1--h9f5acd7_0
+$ module load quay.io/biocontainers/samcut/0.1.1--h4ac6f70_2
+$ module help quay.io/biocontainers/samcut/0.1.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

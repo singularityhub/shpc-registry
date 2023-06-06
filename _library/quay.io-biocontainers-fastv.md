@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastv/container.yaml"
-updated_at: "2023-06-05 03:17:55.347472"
-latest: "0.8.1--hd03093a_2"
+updated_at: "2023-06-06 03:04:56.515721"
+latest: "0.8.1--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/fastv"
 aliases:
  - "fastv"
 versions:
  - "0.8.1--hd03093a_2"
+ - "0.8.1--hdcf5f25_4"
 description: "shpc-registry automated BioContainers addition for fastv"
-config: {"url": "https://biocontainers.pro/tools/fastv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastv", "latest": {"0.8.1--hd03093a_2": "sha256:4b64e899b424ad47bb4f6adbd0c067329be1717028472ad89a01d09eb9aaf73e"}, "tags": {"0.8.1--hd03093a_2": "sha256:4b64e899b424ad47bb4f6adbd0c067329be1717028472ad89a01d09eb9aaf73e"}, "docker": "quay.io/biocontainers/fastv", "aliases": {"fastv": "/usr/local/bin/fastv"}}
+config: {"url": "https://biocontainers.pro/tools/fastv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastv", "latest": {"0.8.1--hdcf5f25_4": "sha256:ec01cb0c9a360bc308d5ce09a69244256fdfd20d5aaf0f9f5a0b954335a748ba"}, "tags": {"0.8.1--hd03093a_2": "sha256:4b64e899b424ad47bb4f6adbd0c067329be1717028472ad89a01d09eb9aaf73e", "0.8.1--hdcf5f25_4": "sha256:ec01cb0c9a360bc308d5ce09a69244256fdfd20d5aaf0f9f5a0b954335a748ba"}, "docker": "quay.io/biocontainers/fastv", "aliases": {"fastv": "/usr/local/bin/fastv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastv.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fastv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastv:0.8.1--hd03093a_2
+$ shpc install quay.io/biocontainers/fastv:0.8.1--hdcf5f25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastv/0.8.1--hd03093a_2
-$ module help quay.io/biocontainers/fastv/0.8.1--hd03093a_2
+$ module load quay.io/biocontainers/fastv/0.8.1--hdcf5f25_4
+$ module help quay.io/biocontainers/fastv/0.8.1--hdcf5f25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

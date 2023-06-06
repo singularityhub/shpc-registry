@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/suds-jurko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suds-jurko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suds-jurko/container.yaml"
-updated_at: "2023-06-05 03:45:47.815089"
+updated_at: "2023-06-06 03:28:22.770318"
 latest: "0.6--py36_1"
 container_url: "https://biocontainers.pro/tools/suds-jurko"
 aliases:

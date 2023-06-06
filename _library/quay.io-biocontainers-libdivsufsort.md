@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libdivsufsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libdivsufsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libdivsufsort/container.yaml"
-updated_at: "2023-06-05 03:21:35.382897"
-latest: "2.0.2--hec16e2b_6"
+updated_at: "2023-06-06 03:07:14.357189"
+latest: "2.0.2--h031d066_8"
 container_url: "https://biocontainers.pro/tools/libdivsufsort"
 
 versions:
  - "2.0.2--hec16e2b_6"
+ - "2.0.2--h031d066_8"
 description: "shpc-registry automated BioContainers addition for libdivsufsort"
-config: {"url": "https://biocontainers.pro/tools/libdivsufsort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libdivsufsort", "latest": {"2.0.2--hec16e2b_6": "sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c"}, "tags": {"2.0.2--hec16e2b_6": "sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c"}, "docker": "quay.io/biocontainers/libdivsufsort"}
+config: {"url": "https://biocontainers.pro/tools/libdivsufsort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libdivsufsort", "latest": {"2.0.2--h031d066_8": "sha256:da5ac54d0795bc69c0fd45c233d65e8cb09cd4454b49eca0d7278bfac2cd41e4"}, "tags": {"2.0.2--hec16e2b_6": "sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c", "2.0.2--h031d066_8": "sha256:da5ac54d0795bc69c0fd45c233d65e8cb09cd4454b49eca0d7278bfac2cd41e4"}, "docker": "quay.io/biocontainers/libdivsufsort"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libdivsufsort.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libdivsufsort
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libdivsufsort:2.0.2--hec16e2b_6
+$ shpc install quay.io/biocontainers/libdivsufsort:2.0.2--h031d066_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libdivsufsort/2.0.2--hec16e2b_6
-$ module help quay.io/biocontainers/libdivsufsort/2.0.2--hec16e2b_6
+$ module load quay.io/biocontainers/libdivsufsort/2.0.2--h031d066_8
+$ module help quay.io/biocontainers/libdivsufsort/2.0.2--h031d066_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

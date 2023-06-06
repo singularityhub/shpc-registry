@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-math-cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-cdf/container.yaml"
-updated_at: "2023-06-05 03:53:43.920872"
-latest: "0.1--pl5321hec16e2b_7"
+updated_at: "2023-06-06 03:36:33.225728"
+latest: "0.1--pl5321h031d066_9"
 container_url: "https://biocontainers.pro/tools/perl-math-cdf"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.1--pl5321hec16e2b_7"
+ - "0.1--pl5321h031d066_9"
 description: "shpc-registry automated BioContainers addition for perl-math-cdf"
-config: {"url": "https://biocontainers.pro/tools/perl-math-cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-cdf", "latest": {"0.1--pl5321hec16e2b_7": "sha256:73511372b587115f61bf317f1716bf4ff3377cc0c5c3b2db3e4f3a261b29d864"}, "tags": {"0.1--pl5321hec16e2b_7": "sha256:73511372b587115f61bf317f1716bf4ff3377cc0c5c3b2db3e4f3a261b29d864"}, "docker": "quay.io/biocontainers/perl-math-cdf", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-math-cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-cdf", "latest": {"0.1--pl5321h031d066_9": "sha256:1b30cb1ed25cffb85deb62bbd323fa1ec82b390c32a17ede0b8f7e1e4419fada"}, "tags": {"0.1--pl5321hec16e2b_7": "sha256:73511372b587115f61bf317f1716bf4ff3377cc0c5c3b2db3e4f3a261b29d864", "0.1--pl5321h031d066_9": "sha256:1b30cb1ed25cffb85deb62bbd323fa1ec82b390c32a17ede0b8f7e1e4419fada"}, "docker": "quay.io/biocontainers/perl-math-cdf", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-math-cdf.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-math-cdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-math-cdf:0.1--pl5321hec16e2b_7
+$ shpc install quay.io/biocontainers/perl-math-cdf:0.1--pl5321h031d066_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-math-cdf/0.1--pl5321hec16e2b_7
-$ module help quay.io/biocontainers/perl-math-cdf/0.1--pl5321hec16e2b_7
+$ module load quay.io/biocontainers/perl-math-cdf/0.1--pl5321h031d066_9
+$ module help quay.io/biocontainers/perl-math-cdf/0.1--pl5321h031d066_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
