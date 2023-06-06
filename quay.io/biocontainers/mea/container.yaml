@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mea
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mea
 latest:
-  0.6.4--h9f5acd7_6: sha256:4ec460373e84be86764ff4a66b90fcaada455f94e2ca1f803cb20c47fa5396d1
+  0.6.4--h4ac6f70_8: sha256:026a87d4811d2db3988742e367aabdfc15b56ece49d9ac4d6ad9f1db0b935508
 tags:
   0.6.4--h9f5acd7_6: sha256:4ec460373e84be86764ff4a66b90fcaada455f94e2ca1f803cb20c47fa5396d1
+  0.6.4--h4ac6f70_8: sha256:026a87d4811d2db3988742e367aabdfc15b56ece49d9ac4d6ad9f1db0b935508
 docker: quay.io/biocontainers/mea
 aliases:
   mea: /usr/local/bin/mea

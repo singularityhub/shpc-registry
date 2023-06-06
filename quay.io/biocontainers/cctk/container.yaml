@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cctk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cctk
 latest:
-  1.0.1--pyhdfd78af_0: sha256:3dc26557178f7afdc5dd9315340cac54276b690bcb3eeefd0316bb0857954e70
+  1.0.2--pyhdfd78af_0: sha256:10894ea23f725312c4bcad0b41a8d9384c60f09c7927bb6b691429b89bc5a4d8
 tags:
   1.0--pyhdfd78af_0: sha256:046a352de85151b1ac1500e8c2f1f1edc1454f027e956246d11e1d03a95dc96b
   1.0.1--pyhdfd78af_0: sha256:3dc26557178f7afdc5dd9315340cac54276b690bcb3eeefd0316bb0857954e70
+  1.0.2--pyhdfd78af_0: sha256:10894ea23f725312c4bcad0b41a8d9384c60f09c7927bb6b691429b89bc5a4d8
 docker: quay.io/biocontainers/cctk
 aliases:
   cctk: /usr/local/bin/cctk

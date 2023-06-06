@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/qgrs-cpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for qgrs-cpp
 latest:
-  1.0--h87f3376_2: sha256:a521ba710442d28ccbe42a533925121e948d2a80503e6580e47fa9fad5d2e53e
+  1.0--hdbdd923_4: sha256:37a513bf2aef84bd075e9649501ace9cc028c1590aa787a40063d2d7efefecdf
 tags:
   1.0--h87f3376_2: sha256:a521ba710442d28ccbe42a533925121e948d2a80503e6580e47fa9fad5d2e53e
+  1.0--hdbdd923_4: sha256:37a513bf2aef84bd075e9649501ace9cc028c1590aa787a40063d2d7efefecdf
 docker: quay.io/biocontainers/qgrs-cpp
 aliases:
   qgrs: /usr/local/bin/qgrs

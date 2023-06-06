@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bwread
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bwread
 latest:
-  0.0.4--py36h91eb985_1: sha256:fa215217735135cd88ca5e05f18f09618f554e020913f990c94e947eb795fc4a
+  0.0.5--py310h4b81fae_1: sha256:dac19dfc8c48aad18684c9521a3f3310a3e1b8856022a9a5e79b54953afc4d3d
 tags:
   0.0.4--py36h91eb985_1: sha256:fa215217735135cd88ca5e05f18f09618f554e020913f990c94e947eb795fc4a
+  0.0.5--py310h4b81fae_1: sha256:dac19dfc8c48aad18684c9521a3f3310a3e1b8856022a9a5e79b54953afc4d3d
 docker: quay.io/biocontainers/bwread
 aliases:
   tabulate: /usr/local/bin/tabulate

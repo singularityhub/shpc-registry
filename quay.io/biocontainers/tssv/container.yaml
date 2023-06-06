@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tssv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tssv
 latest:
-  1.1.2--py36h2ad2d48_1: sha256:111a0f88b12743134d2eb7052315fc36a5f50f1374c372a2a8ec7e55a422c09e
+  1.1.2--py310h0dbaff4_3: sha256:935617e9b5bc00ce6138d7d3a0c552b2b5ed8e7a6f31cc8a10a319ea7247ed2a
 tags:
   1.1.2--py36h2ad2d48_1: sha256:111a0f88b12743134d2eb7052315fc36a5f50f1374c372a2a8ec7e55a422c09e
+  1.1.2--py310h0dbaff4_3: sha256:935617e9b5bc00ce6138d7d3a0c552b2b5ed8e7a6f31cc8a10a319ea7247ed2a
 docker: quay.io/biocontainers/tssv
 aliases:
   tannotate: /usr/local/bin/tannotate

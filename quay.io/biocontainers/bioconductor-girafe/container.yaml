@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-girafe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-girafe
 latest:
-  1.50.0--r42hc247a5b_0: sha256:10b76bcae5076eff03b5ac33800707984aa783cc90517750ec6847dea2009e97
+  1.50.0--r42hf17093f_1: sha256:cc1461393acfe9dc6f154280cd67f58d3bf0dd6dc193c3a8f4503f6af7c50325
 tags:
   1.46.0--r41hc247a5b_2: sha256:620d6ac3d3f16184656f23d27dc39470eab1cacac20b3fc3e8b45cb7cccf4044
   1.50.0--r42hc247a5b_0: sha256:10b76bcae5076eff03b5ac33800707984aa783cc90517750ec6847dea2009e97
+  1.50.0--r42hf17093f_1: sha256:cc1461393acfe9dc6f154280cd67f58d3bf0dd6dc193c3a8f4503f6af7c50325
 docker: quay.io/biocontainers/bioconductor-girafe

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vechat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vechat
 latest:
-  1.1.1--hd03093a_0: sha256:3fd6073f81707055f4af8c636a906f8b16778446aabb0c715f5d34adf264854e
+  1.1.1--hdcf5f25_1: sha256:7adc5b3573eb87d8a91dda5bc449e05655955c8caaaa674363aba42f4686e38f
 tags:
   1.1.1--hd03093a_0: sha256:3fd6073f81707055f4af8c636a906f8b16778446aabb0c715f5d34adf264854e
+  1.1.1--hdcf5f25_1: sha256:7adc5b3573eb87d8a91dda5bc449e05655955c8caaaa674363aba42f4686e38f
 docker: quay.io/biocontainers/vechat
 aliases:
   fpa: /usr/local/bin/fpa

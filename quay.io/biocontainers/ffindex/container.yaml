@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/ffindex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ffindex
 latest:
-  0.98--h9f5acd7_2: sha256:b3c72a2816aa3af70d8b60844daf0acebff71a8899ff8c591038cf1d3ceb47c4
+  0.98--h4ac6f70_4: sha256:c7f7d1c1ff90d8c2371fe22b740995eef73c24eeb0a261a5b1c0091d32ef1eca
 tags:
   0.98--h9f5acd7_2: sha256:b3c72a2816aa3af70d8b60844daf0acebff71a8899ff8c591038cf1d3ceb47c4
+  0.98--h4ac6f70_4: sha256:c7f7d1c1ff90d8c2371fe22b740995eef73c24eeb0a261a5b1c0091d32ef1eca
 docker: quay.io/biocontainers/ffindex

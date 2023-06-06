@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/maelstrom-core
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for maelstrom-core
 latest:
-  0.1.1--h92d785c_0: sha256:2bc60264f4bf2695d45e880bed4d5ca4c7a7e9a22ce4d1faccb8bf97f6f38dee
+  0.1.1--h9d3141d_2: sha256:cf5d3c83d8d12c3336fdd65c5b1ee4b61f0ef3f33a6b5a44ca373fd653038e68
 tags:
   0.1.1--h92d785c_0: sha256:2bc60264f4bf2695d45e880bed4d5ca4c7a7e9a22ce4d1faccb8bf97f6f38dee
+  0.1.1--h9d3141d_2: sha256:cf5d3c83d8d12c3336fdd65c5b1ee4b61f0ef3f33a6b5a44ca373fd653038e68
 docker: quay.io/biocontainers/maelstrom-core
 aliases:
   maelstrom-core: /usr/local/bin/maelstrom-core

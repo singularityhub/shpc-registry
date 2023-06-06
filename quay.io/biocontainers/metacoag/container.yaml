@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metacoag
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metacoag
 latest:
-  1.1.1--pyh7cba7a3_0: sha256:d5af19a807df541a7594b8c1691193277e45f203ce964cbceedc6578833f4e4e
+  1.1.2--pyh7cba7a3_0: sha256:315b2141c17cb3cb66a9484fd78ddd1f31ef86ba8fe9436c2581f358b8de14b8
 tags:
   1.1--pyhfa5458b_0: sha256:6cf11755dd3917f775efe137e42cc37a97da2482a6744c01a7f498ea245a0f13
   1.1.1--pyh7cba7a3_0: sha256:d5af19a807df541a7594b8c1691193277e45f203ce964cbceedc6578833f4e4e
+  1.1.2--pyh7cba7a3_0: sha256:315b2141c17cb3cb66a9484fd78ddd1f31ef86ba8fe9436c2581f358b8de14b8
 docker: quay.io/biocontainers/metacoag
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan

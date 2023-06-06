@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ragout
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ragout
 latest:
-  2.3--py36h2ad2d48_4: sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f
+  2.3--py38h2494328_6: sha256:434a49f523b60736a7ead3ba4d1b359b58e03fee10354ebda815434d9388b7f3
 tags:
   2.3--py36h2ad2d48_4: sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f
+  2.3--py38h2494328_6: sha256:434a49f523b60736a7ead3ba4d1b359b58e03fee10354ebda815434d9388b7f3
 docker: quay.io/biocontainers/ragout
 aliases:
   C-Sibelia.py: /usr/local/bin/C-Sibelia.py

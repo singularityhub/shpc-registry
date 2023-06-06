@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/goldrush
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for goldrush
 latest:
-  1.0.2--py39h243b37b_0: sha256:c8ddc62149b8bf40b7d1bd9afccf3fef70b54f8ebe9b5b27edaa8aada1658df1
+  1.0.3--py38h4a32c8e_0: sha256:dc9eea3ec509f0e3dcb06a81627b29474f4fa5d8623cd8a7a01e88c8db0d137d
 tags:
   1.0.2--py39h243b37b_0: sha256:c8ddc62149b8bf40b7d1bd9afccf3fef70b54f8ebe9b5b27edaa8aada1658df1
+  1.0.3--py38h4a32c8e_0: sha256:dc9eea3ec509f0e3dcb06a81627b29474f4fa5d8623cd8a7a01e88c8db0d137d
 docker: quay.io/biocontainers/goldrush
 aliases:
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short

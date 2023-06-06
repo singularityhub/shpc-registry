@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/haslr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for haslr
 latest:
-  0.8a1--py37h595c7a6_3: sha256:ac6f248384731e4a987f9115632a820f3d9ce78f412fc68df7382dc0cb1ab5b3
+  0.8a1--py39hd65a603_4: sha256:3302dcd3728b48dae013c9750ce0e735b16daf10a23118b346b2d2f60dd0e7e0
 tags:
   0.8a1--py37h595c7a6_3: sha256:ac6f248384731e4a987f9115632a820f3d9ce78f412fc68df7382dc0cb1ab5b3
+  0.8a1--py39hd65a603_4: sha256:3302dcd3728b48dae013c9750ce0e735b16daf10a23118b346b2d2f60dd0e7e0
 docker: quay.io/biocontainers/haslr
 aliases:
   fastutils: /usr/local/bin/fastutils

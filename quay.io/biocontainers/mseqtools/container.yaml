@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mseqtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mseqtools
 latest:
-  0.9.1--h7132678_1: sha256:f11e9eae8dc8cab36dbfd299d17b226c48a6b186c496b5a95293dd48ee458bb1
+  0.9.1--he4a0461_3: sha256:c74e409e059105aebcf342aced4fb93ef7a30d6518215f51aefd7c6bc31a6d34
 tags:
   0.9.1--h7132678_1: sha256:f11e9eae8dc8cab36dbfd299d17b226c48a6b186c496b5a95293dd48ee458bb1
+  0.9.1--he4a0461_3: sha256:c74e409e059105aebcf342aced4fb93ef7a30d6518215f51aefd7c6bc31a6d34
 docker: quay.io/biocontainers/mseqtools
 aliases:
   gunzip: /usr/local/bin/gunzip

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/orfipy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for orfipy
 latest:
-  0.0.4--py38h4a32c8e_1: sha256:991017f28253f56f6a29f588d1e4317aa769c35f21d9cbf270cc048cbf4695bb
+  0.0.4--py39h1f90b4d_2: sha256:e444fe0b55ed07cfd619959b743bb3e521c7f3203fafaf01880f7f6cc506fcb5
 tags:
   0.0.4--py38h4a32c8e_1: sha256:991017f28253f56f6a29f588d1e4317aa769c35f21d9cbf270cc048cbf4695bb
+  0.0.4--py39h1f90b4d_2: sha256:e444fe0b55ed07cfd619959b743bb3e521c7f3203fafaf01880f7f6cc506fcb5
 docker: quay.io/biocontainers/orfipy
 aliases:
   orfipy: /usr/local/bin/orfipy

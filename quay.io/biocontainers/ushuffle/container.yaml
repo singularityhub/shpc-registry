@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ushuffle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ushuffle
 latest:
-  1.2.2--py27h9801fc8_5: sha256:448fd7d06f5e4bba86ef8e2084f495234deed1b4a40c135ca3faeb4d0dba9d07
+  1.2.2--py39hf95cd2a_7: sha256:02a08b1ebeb77d310cba03f5849b0b06a93009f74e5ab7bd89ddb3f3742869d4
 tags:
   1.2.2--py27h9801fc8_5: sha256:448fd7d06f5e4bba86ef8e2084f495234deed1b4a40c135ca3faeb4d0dba9d07
+  1.2.2--py39hf95cd2a_7: sha256:02a08b1ebeb77d310cba03f5849b0b06a93009f74e5ab7bd89ddb3f3742869d4
 docker: quay.io/biocontainers/ushuffle
 aliases:
   ushuffle: /usr/local/bin/ushuffle

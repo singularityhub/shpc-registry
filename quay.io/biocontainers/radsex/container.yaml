@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/radsex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for radsex
 latest:
-  1.2.0--h5b5514e_1: sha256:ff19a1406972f5d4ea34c7f949eea7ee7a8165d5fe8546db4f6cee9676b9c063
+  1.2.0--h43eeafb_3: sha256:a112e23532db836103c8027f242e3c0d7624db5d08cc83ba09fbcb55fead3d96
 tags:
   1.2.0--h5b5514e_1: sha256:ff19a1406972f5d4ea34c7f949eea7ee7a8165d5fe8546db4f6cee9676b9c063
+  1.2.0--h43eeafb_3: sha256:a112e23532db836103c8027f242e3c0d7624db5d08cc83ba09fbcb55fead3d96
 docker: quay.io/biocontainers/radsex
 aliases:
   radsex: /usr/local/bin/radsex

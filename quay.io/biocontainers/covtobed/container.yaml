@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/covtobed
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for covtobed
 latest:
-  1.3.5--ha7703dc_1: sha256:12aaf04110f12cff1a9f45218eacb29265dbe81602fc3bf6f43adf64450aabeb
+  1.3.5--hf393df8_2: sha256:204a2db9004e10949855fa83de020f41d036719c695cc70626de17cb36a49131
 tags:
   1.3.5--ha7703dc_1: sha256:12aaf04110f12cff1a9f45218eacb29265dbe81602fc3bf6f43adf64450aabeb
+  1.3.5--hf393df8_2: sha256:204a2db9004e10949855fa83de020f41d036719c695cc70626de17cb36a49131
 docker: quay.io/biocontainers/covtobed
 aliases:
   covtobed: /usr/local/bin/covtobed

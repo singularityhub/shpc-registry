@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/reseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for reseq
 latest:
-  1.1--py37h3a4aa43_2: sha256:312c546111b31bcf8102850521306694b539350a3f744bdbacbcfa5edfe1c4e9
+  1.1--py39h1affd0e_3: sha256:9c73550d7052d2d162b4919b85871d98b4970282110ef8e9afa8b1e6311e05f3
 tags:
   1.1--py37h3a4aa43_2: sha256:312c546111b31bcf8102850521306694b539350a3f744bdbacbcfa5edfe1c4e9
+  1.1--py39h1affd0e_3: sha256:9c73550d7052d2d162b4919b85871d98b4970282110ef8e9afa8b1e6311e05f3
 docker: quay.io/biocontainers/reseq
 aliases:
   plotDataStats.py: /usr/local/bin/plotDataStats.py

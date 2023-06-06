@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/famseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for famseq
 latest:
-  1.0.3--h9f5acd7_4: sha256:e5dd767e9ebc277efc6bc621b15a7d792298a7d0ee57a2c6409c03a0197ff564
+  1.0.3--h4ac6f70_6: sha256:33df4273324baf9ebcec964eb3b76371ae4bff3613d1d2bc2315710541bfe9e1
 tags:
   1.0.3--h9f5acd7_4: sha256:e5dd767e9ebc277efc6bc621b15a7d792298a7d0ee57a2c6409c03a0197ff564
+  1.0.3--h4ac6f70_6: sha256:33df4273324baf9ebcec964eb3b76371ae4bff3613d1d2bc2315710541bfe9e1
 docker: quay.io/biocontainers/famseq
 aliases:
   FamSeq: /usr/local/bin/FamSeq

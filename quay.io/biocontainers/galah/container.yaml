@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/galah
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galah
 latest:
-  0.3.1--hec16e2b_1: sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41
+  0.3.1--h031d066_2: sha256:67d2ef920d8b8fac955690297d9db8666047544f89e9c48fa681c3ff2b1fb2d9
 tags:
   0.3.1--hec16e2b_1: sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41
+  0.3.1--h031d066_2: sha256:67d2ef920d8b8fac955690297d9db8666047544f89e9c48fa681c3ff2b1fb2d9
 docker: quay.io/biocontainers/galah
 aliases:
   dashing: /usr/local/bin/dashing
