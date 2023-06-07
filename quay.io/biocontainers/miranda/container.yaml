@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/miranda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for miranda
 latest:
-  3.3a--hec16e2b_4: sha256:5681a6107514bb7156eafba3e6784a4b83d768454dea9b14f93968640ac2f0aa
+  3.3a--h031d066_6: sha256:94665640c12048259d9e1edd3b582ae7ed4ce325b7c3bf52dd4e1720911f20f6
 tags:
   3.3a--hec16e2b_4: sha256:5681a6107514bb7156eafba3e6784a4b83d768454dea9b14f93968640ac2f0aa
+  3.3a--h031d066_6: sha256:94665640c12048259d9e1edd3b582ae7ed4ce325b7c3bf52dd4e1720911f20f6
 docker: quay.io/biocontainers/miranda
 aliases:
   miranda: /usr/local/bin/miranda

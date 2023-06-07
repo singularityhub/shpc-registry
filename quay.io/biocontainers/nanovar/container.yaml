@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nanovar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanovar
 latest:
-  1.4.1--py37h8902056_1: sha256:7ecf3a09a52418b6d2aaa01c176bfccea9ce7edcbbc4512e9a64e5d09f4a1706
+  1.4.1--py38he5da3d1_2: sha256:4bf04d517cc829cc5ce9e7c76e4ebe5a4bbfa261229c0413f476fd326cb0378d
 tags:
   1.4.1--py37h8902056_1: sha256:7ecf3a09a52418b6d2aaa01c176bfccea9ce7edcbbc4512e9a64e5d09f4a1706
+  1.4.1--py38he5da3d1_2: sha256:4bf04d517cc829cc5ce9e7c76e4ebe5a4bbfa261229c0413f476fd326cb0378d
 docker: quay.io/biocontainers/nanovar
 aliases:
   cytocad: /usr/local/bin/cytocad

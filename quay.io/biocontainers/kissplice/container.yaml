@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kissplice
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kissplice
 latest:
-  2.5.5--h5b5514e_0: sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1
+  2.5.5--h43eeafb_2: sha256:073687d2a67acf1a02a2b9b68c5453b98d524f36943416cfab5a788af8ba5878
 tags:
   2.5.5--h5b5514e_0: sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1
+  2.5.5--h43eeafb_2: sha256:073687d2a67acf1a02a2b9b68c5453b98d524f36943416cfab5a788af8ba5878
 docker: quay.io/biocontainers/kissplice
 aliases:
   bcalm: /usr/local/bin/bcalm

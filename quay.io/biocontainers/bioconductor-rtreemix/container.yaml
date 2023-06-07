@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rtreemix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtreemix
 latest:
-  1.60.0--r42hc247a5b_0: sha256:ad5089f311eff740cee255604227bcdee5bf4e85aa1f81fec8969d991f772ecc
+  1.60.0--r42hf17093f_1: sha256:e104985392c30a90540a3d38b834c5b14a3281cf86f42f794c95e7d29c0973c7
 tags:
   1.56.0--r41hc247a5b_2: sha256:41f000b32e82c69425a948f7908085a3284845003363abbd10892cb5deed3c14
   1.60.0--r42hc247a5b_0: sha256:ad5089f311eff740cee255604227bcdee5bf4e85aa1f81fec8969d991f772ecc
+  1.60.0--r42hf17093f_1: sha256:e104985392c30a90540a3d38b834c5b14a3281cf86f42f794c95e7d29c0973c7
 docker: quay.io/biocontainers/bioconductor-rtreemix

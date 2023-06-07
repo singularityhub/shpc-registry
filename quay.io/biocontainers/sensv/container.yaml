@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sensv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sensv
 latest:
-  1.0.4--h5b5514e_1: sha256:89efedfdcac3e246e2cefb5860ae78a8d21dc72d2581d5b9bde22adf0b2cd301
+  1.0.4--h43eeafb_2: sha256:9bc27ada3af9f71e572559275ae7e3d3411985e3149973f85cbba2fe33cbdfdf
 tags:
   v1.0.1--h8b12597_0: sha256:001423fe13c250b9d74dcdca4043a55e6e654f5326b93ed5ced03514d3b85d5b
   1.0.4--h5b5514e_1: sha256:89efedfdcac3e246e2cefb5860ae78a8d21dc72d2581d5b9bde22adf0b2cd301
+  1.0.4--h43eeafb_2: sha256:9bc27ada3af9f71e572559275ae7e3d3411985e3149973f85cbba2fe33cbdfdf
 docker: quay.io/biocontainers/sensv
 aliases:
   Makefile: /usr/local/bin/Makefile

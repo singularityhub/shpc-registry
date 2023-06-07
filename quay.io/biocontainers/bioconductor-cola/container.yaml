@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cola
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cola
 latest:
-  2.4.0--r42hc247a5b_0: sha256:c84985241edc3edd31a45312c1334be0781fcb34463b02bd01ef3d8f0802a7fe
+  2.4.0--r42hf17093f_1: sha256:b36c113a570afb8a01150ee4efaeb711c3ffb58bb1b2ad5fd34f05a1e32b1fa3
 tags:
   2.0.0--r41hc247a5b_2: sha256:830504cb3b77991958e21dce8fa75b9a58f12f9202f6b498410cf0316740d04e
   2.4.0--r42hc247a5b_0: sha256:c84985241edc3edd31a45312c1334be0781fcb34463b02bd01ef3d8f0802a7fe
+  2.4.0--r42hf17093f_1: sha256:b36c113a570afb8a01150ee4efaeb711c3ffb58bb1b2ad5fd34f05a1e32b1fa3
 docker: quay.io/biocontainers/bioconductor-cola

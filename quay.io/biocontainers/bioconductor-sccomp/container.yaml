@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sccomp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-sccomp
 latest:
-  1.1.0--r42hc247a5b_0: sha256:7d49980da8b0e0cf08a6ca4d413bfc1b5c79630726f16a5603c2ad93c400776d
+  1.1.0--r42hf17093f_1: sha256:df828ec7d9d64cefe4f89f346b49a1d828198e6f07010438e940aa931b22b155
 tags:
   1.1.0--r42hc247a5b_0: sha256:7d49980da8b0e0cf08a6ca4d413bfc1b5c79630726f16a5603c2ad93c400776d
+  1.1.0--r42hf17093f_1: sha256:df828ec7d9d64cefe4f89f346b49a1d828198e6f07010438e940aa931b22b155
 docker: quay.io/biocontainers/bioconductor-sccomp
 aliases:
   geosop: /usr/local/bin/geosop

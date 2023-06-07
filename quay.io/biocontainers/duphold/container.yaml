@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/duphold
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for duphold
 latest:
-  0.2.1--hec16e2b_3: sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237
+  0.2.1--h031d066_4: sha256:c87ba36d6c06c0b88283425e1914dba45fef68a8a06ea4792d99819706d2e5f0
 tags:
   0.2.1--hec16e2b_3: sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237
+  0.2.1--h031d066_4: sha256:c87ba36d6c06c0b88283425e1914dba45fef68a8a06ea4792d99819706d2e5f0
 docker: quay.io/biocontainers/duphold
 aliases:
   duphold: /usr/local/bin/duphold

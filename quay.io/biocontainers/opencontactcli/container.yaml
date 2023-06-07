@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/opencontactcli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for opencontactcli
 latest:
-  1.1--py36h5f405dc_6: sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c
+  1.1--py39hdd8045a_7: sha256:5e6cf597c03a565762d614f345c4a2bb63233d25ca48bd37495f6b3d1f791546
 tags:
   1.1--py36h5f405dc_6: sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c
+  1.1--py39hdd8045a_7: sha256:5e6cf597c03a565762d614f345c4a2bb63233d25ca48bd37495f6b3d1f791546
 docker: quay.io/biocontainers/opencontactcli
 aliases:
   OpenContactCLI: /usr/local/bin/OpenContactCLI
