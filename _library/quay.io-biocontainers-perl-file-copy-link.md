@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-file-copy-link"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-copy-link/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-copy-link/container.yaml"
-updated_at: "2023-06-06 03:02:52.089502"
-latest: "0.140--pl5321hec16e2b_4"
+updated_at: "2023-06-07 03:05:21.876012"
+latest: "0.140--pl5321h031d066_6"
 container_url: "https://biocontainers.pro/tools/perl-file-copy-link"
 aliases:
  - "copylink"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.140--pl5321hec16e2b_4"
+ - "0.140--pl5321h031d066_6"
 description: "shpc-registry automated BioContainers addition for perl-file-copy-link"
-config: {"url": "https://biocontainers.pro/tools/perl-file-copy-link", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-copy-link", "latest": {"0.140--pl5321hec16e2b_4": "sha256:50976d5eeefdff467850f2c771b42dbab3e432d1a9692362db78beb021660366"}, "tags": {"0.140--pl5321hec16e2b_4": "sha256:50976d5eeefdff467850f2c771b42dbab3e432d1a9692362db78beb021660366"}, "docker": "quay.io/biocontainers/perl-file-copy-link", "aliases": {"copylink": "/usr/local/bin/copylink", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-copy-link", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-copy-link", "latest": {"0.140--pl5321h031d066_6": "sha256:5367f07d881e0592a2179cc8ca887866c82a9f85e569aa6ff3982f14840385f9"}, "tags": {"0.140--pl5321hec16e2b_4": "sha256:50976d5eeefdff467850f2c771b42dbab3e432d1a9692362db78beb021660366", "0.140--pl5321h031d066_6": "sha256:5367f07d881e0592a2179cc8ca887866c82a9f85e569aa6ff3982f14840385f9"}, "docker": "quay.io/biocontainers/perl-file-copy-link", "aliases": {"copylink": "/usr/local/bin/copylink", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-copy-link.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-file-copy-link
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-file-copy-link:0.140--pl5321hec16e2b_4
+$ shpc install quay.io/biocontainers/perl-file-copy-link:0.140--pl5321h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-file-copy-link/0.140--pl5321hec16e2b_4
-$ module help quay.io/biocontainers/perl-file-copy-link/0.140--pl5321hec16e2b_4
+$ module load quay.io/biocontainers/perl-file-copy-link/0.140--pl5321h031d066_6
+$ module help quay.io/biocontainers/perl-file-copy-link/0.140--pl5321h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

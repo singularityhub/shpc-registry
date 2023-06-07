@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-gosummaries"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gosummaries/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gosummaries/container.yaml"
-updated_at: "2023-06-06 02:58:32.532685"
-latest: "2.34.0--r42hc247a5b_0"
+updated_at: "2023-06-07 02:59:08.926934"
+latest: "2.34.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gosummaries"
 
 versions:
  - "2.30.0--r41hc247a5b_2"
  - "2.34.0--r42hc247a5b_0"
+ - "2.34.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-gosummaries"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gosummaries", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gosummaries", "latest": {"2.34.0--r42hc247a5b_0": "sha256:4a72988a628d61e390e1af42a0a1f2b08601ff1da1bb2306957198486c23c275"}, "tags": {"2.30.0--r41hc247a5b_2": "sha256:005138f73ce407b7736b9d7963e863a7e5d169133ce2806bc8f40d1598fbe85b", "2.34.0--r42hc247a5b_0": "sha256:4a72988a628d61e390e1af42a0a1f2b08601ff1da1bb2306957198486c23c275"}, "docker": "quay.io/biocontainers/bioconductor-gosummaries"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gosummaries", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gosummaries", "latest": {"2.34.0--r42hf17093f_1": "sha256:07c26b1935399f349e8c6073efc37dfa71b8155d0f51e49f064ae2b6044246df"}, "tags": {"2.30.0--r41hc247a5b_2": "sha256:005138f73ce407b7736b9d7963e863a7e5d169133ce2806bc8f40d1598fbe85b", "2.34.0--r42hc247a5b_0": "sha256:4a72988a628d61e390e1af42a0a1f2b08601ff1da1bb2306957198486c23c275", "2.34.0--r42hf17093f_1": "sha256:07c26b1935399f349e8c6073efc37dfa71b8155d0f51e49f064ae2b6044246df"}, "docker": "quay.io/biocontainers/bioconductor-gosummaries"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gosummaries.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gosummaries
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gosummaries:2.34.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-gosummaries:2.34.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gosummaries/2.34.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-gosummaries/2.34.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-gosummaries/2.34.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-gosummaries/2.34.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

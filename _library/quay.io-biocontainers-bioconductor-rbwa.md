@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rbwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbwa/container.yaml"
-updated_at: "2023-06-06 03:00:29.384499"
-latest: "1.2.0--r42h87de86e_0"
+updated_at: "2023-06-07 03:01:57.459415"
+latest: "1.2.0--r42hd5da469_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbwa"
 
 versions:
  - "1.2.0--r42h87de86e_0"
+ - "1.2.0--r42hd5da469_2"
 description: "singularity registry hpc automated addition for bioconductor-rbwa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rbwa", "latest": {"1.2.0--r42h87de86e_0": "sha256:b175f0ae1a0d4013e9605bcc5f027906a26aa23c2b653ba19cc942521840218b"}, "tags": {"1.2.0--r42h87de86e_0": "sha256:b175f0ae1a0d4013e9605bcc5f027906a26aa23c2b653ba19cc942521840218b"}, "docker": "quay.io/biocontainers/bioconductor-rbwa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rbwa", "latest": {"1.2.0--r42hd5da469_2": "sha256:64e5d286a34936a3b7efbdb3c97c8eb297528bc16171e0a0e582d5d8a70d0558"}, "tags": {"1.2.0--r42h87de86e_0": "sha256:b175f0ae1a0d4013e9605bcc5f027906a26aa23c2b653ba19cc942521840218b", "1.2.0--r42hd5da469_2": "sha256:64e5d286a34936a3b7efbdb3c97c8eb297528bc16171e0a0e582d5d8a70d0558"}, "docker": "quay.io/biocontainers/bioconductor-rbwa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbwa.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rbwa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rbwa:1.2.0--r42h87de86e_0
+$ shpc install quay.io/biocontainers/bioconductor-rbwa:1.2.0--r42hd5da469_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rbwa/1.2.0--r42h87de86e_0
-$ module help quay.io/biocontainers/bioconductor-rbwa/1.2.0--r42h87de86e_0
+$ module load quay.io/biocontainers/bioconductor-rbwa/1.2.0--r42hd5da469_2
+$ module help quay.io/biocontainers/bioconductor-rbwa/1.2.0--r42hd5da469_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

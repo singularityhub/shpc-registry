@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicinteractionnodes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicinteractionnodes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicinteractionnodes/container.yaml"
-updated_at: "2023-06-06 03:09:14.255408"
+updated_at: "2023-06-07 03:14:33.217437"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicinteractionnodes"
 aliases:

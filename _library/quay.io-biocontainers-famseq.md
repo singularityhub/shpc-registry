@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/famseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/famseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/famseq/container.yaml"
-updated_at: "2023-06-06 03:16:33.467485"
-latest: "1.0.3--h9f5acd7_4"
+updated_at: "2023-06-07 03:25:03.000294"
+latest: "1.0.3--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/famseq"
 aliases:
  - "FamSeq"
 versions:
  - "1.0.3--h9f5acd7_4"
+ - "1.0.3--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for famseq"
-config: {"url": "https://biocontainers.pro/tools/famseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for famseq", "latest": {"1.0.3--h9f5acd7_4": "sha256:e5dd767e9ebc277efc6bc621b15a7d792298a7d0ee57a2c6409c03a0197ff564"}, "tags": {"1.0.3--h9f5acd7_4": "sha256:e5dd767e9ebc277efc6bc621b15a7d792298a7d0ee57a2c6409c03a0197ff564"}, "docker": "quay.io/biocontainers/famseq", "aliases": {"FamSeq": "/usr/local/bin/FamSeq"}}
+config: {"url": "https://biocontainers.pro/tools/famseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for famseq", "latest": {"1.0.3--h4ac6f70_6": "sha256:33df4273324baf9ebcec964eb3b76371ae4bff3613d1d2bc2315710541bfe9e1"}, "tags": {"1.0.3--h9f5acd7_4": "sha256:e5dd767e9ebc277efc6bc621b15a7d792298a7d0ee57a2c6409c03a0197ff564", "1.0.3--h4ac6f70_6": "sha256:33df4273324baf9ebcec964eb3b76371ae4bff3613d1d2bc2315710541bfe9e1"}, "docker": "quay.io/biocontainers/famseq", "aliases": {"FamSeq": "/usr/local/bin/FamSeq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/famseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/famseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/famseq:1.0.3--h9f5acd7_4
+$ shpc install quay.io/biocontainers/famseq:1.0.3--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/famseq/1.0.3--h9f5acd7_4
-$ module help quay.io/biocontainers/famseq/1.0.3--h9f5acd7_4
+$ module load quay.io/biocontainers/famseq/1.0.3--h4ac6f70_6
+$ module help quay.io/biocontainers/famseq/1.0.3--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

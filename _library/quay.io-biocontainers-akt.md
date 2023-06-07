@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/akt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/akt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/akt/container.yaml"
-updated_at: "2023-06-06 03:40:10.379131"
-latest: "0.3.3--h5b5514e_2"
+updated_at: "2023-06-07 03:58:48.532738"
+latest: "0.3.3--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/akt"
 aliases:
  - "akt"
 versions:
  - "0.3.3--h5b5514e_2"
+ - "0.3.3--h43eeafb_4"
 description: "shpc-registry automated BioContainers addition for akt"
-config: {"url": "https://biocontainers.pro/tools/akt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for akt", "latest": {"0.3.3--h5b5514e_2": "sha256:595a159fdd57877a53d54764fdbd37c7ccd22491346f81792d81e3a560441a93"}, "tags": {"0.3.3--h5b5514e_2": "sha256:595a159fdd57877a53d54764fdbd37c7ccd22491346f81792d81e3a560441a93"}, "docker": "quay.io/biocontainers/akt", "aliases": {"akt": "/usr/local/bin/akt"}}
+config: {"url": "https://biocontainers.pro/tools/akt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for akt", "latest": {"0.3.3--h43eeafb_4": "sha256:b5a3cd3bafd3392799af8317d1bd27484a4a9fa984dba61678fa50087cbcdfc3"}, "tags": {"0.3.3--h5b5514e_2": "sha256:595a159fdd57877a53d54764fdbd37c7ccd22491346f81792d81e3a560441a93", "0.3.3--h43eeafb_4": "sha256:b5a3cd3bafd3392799af8317d1bd27484a4a9fa984dba61678fa50087cbcdfc3"}, "docker": "quay.io/biocontainers/akt", "aliases": {"akt": "/usr/local/bin/akt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/akt.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/akt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/akt:0.3.3--h5b5514e_2
+$ shpc install quay.io/biocontainers/akt:0.3.3--h43eeafb_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/akt/0.3.3--h5b5514e_2
-$ module help quay.io/biocontainers/akt/0.3.3--h5b5514e_2
+$ module load quay.io/biocontainers/akt/0.3.3--h43eeafb_4
+$ module help quay.io/biocontainers/akt/0.3.3--h43eeafb_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

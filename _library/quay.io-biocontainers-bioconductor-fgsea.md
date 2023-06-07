@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fgsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fgsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fgsea/container.yaml"
-updated_at: "2023-06-06 03:39:29.371388"
-latest: "1.24.0--r42hc247a5b_0"
+updated_at: "2023-06-07 03:57:49.582904"
+latest: "1.24.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fgsea"
 aliases:
  - "c89"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r41h399db7b_0"
  - "1.16.0--r40h399db7b_1"
  - "1.14.0--r40h5f743cb_0"
+ - "1.24.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fgsea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fgsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fgsea", "latest": {"1.24.0--r42hc247a5b_0": "sha256:8089fda8d4efbaffd5d7d5100bf3be7c5ea48951ad1e9219427ecbad5a6b2125"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:6764fa3db66be3d214366a836eca06d4ab405e8172e6cf90be504b544b4dc65f", "1.24.0--r42hc247a5b_0": "sha256:8089fda8d4efbaffd5d7d5100bf3be7c5ea48951ad1e9219427ecbad5a6b2125", "1.20.0--r41hc247a5b_2": "sha256:e5ba13f819fa121a77bb37ce262483fbc435c6195eeeaf267da7f742aedf6b92", "1.18.0--r41h399db7b_0": "sha256:b44aa9d249cd804b5ea2ceb777bc2bbaf9ffa2df436445244b4802a3d5dfdf17", "1.16.0--r40h399db7b_1": "sha256:78d59211ed86ddb168d08ae5391650ca7d2c5ebe501e60205bd3421f068f7ec1", "1.14.0--r40h5f743cb_0": "sha256:0e31d732fd7560fa13de09512026b345af61abd53ff1c6fa1af9a3c1bb243294"}, "docker": "quay.io/biocontainers/bioconductor-fgsea", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fgsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fgsea", "latest": {"1.24.0--r42hf17093f_1": "sha256:f9da7c516ed966b74ce93fcdd50fc4664b187cde3d747844d7359b28450253b2"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:6764fa3db66be3d214366a836eca06d4ab405e8172e6cf90be504b544b4dc65f", "1.24.0--r42hc247a5b_0": "sha256:8089fda8d4efbaffd5d7d5100bf3be7c5ea48951ad1e9219427ecbad5a6b2125", "1.20.0--r41hc247a5b_2": "sha256:e5ba13f819fa121a77bb37ce262483fbc435c6195eeeaf267da7f742aedf6b92", "1.18.0--r41h399db7b_0": "sha256:b44aa9d249cd804b5ea2ceb777bc2bbaf9ffa2df436445244b4802a3d5dfdf17", "1.16.0--r40h399db7b_1": "sha256:78d59211ed86ddb168d08ae5391650ca7d2c5ebe501e60205bd3421f068f7ec1", "1.14.0--r40h5f743cb_0": "sha256:0e31d732fd7560fa13de09512026b345af61abd53ff1c6fa1af9a3c1bb243294", "1.24.0--r42hf17093f_1": "sha256:f9da7c516ed966b74ce93fcdd50fc4664b187cde3d747844d7359b28450253b2"}, "docker": "quay.io/biocontainers/bioconductor-fgsea", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fgsea.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fgsea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fgsea:1.24.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-fgsea:1.24.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fgsea/1.24.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-fgsea/1.24.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-fgsea/1.24.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-fgsea/1.24.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

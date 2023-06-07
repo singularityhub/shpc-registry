@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cctk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cctk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cctk/container.yaml"
-updated_at: "2023-06-06 03:06:08.467222"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2023-06-07 03:10:05.610134"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cctk"
 aliases:
  - "cctk"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.0--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cctk"
-config: {"url": "https://biocontainers.pro/tools/cctk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cctk", "latest": {"1.0.1--pyhdfd78af_0": "sha256:3dc26557178f7afdc5dd9315340cac54276b690bcb3eeefd0316bb0857954e70"}, "tags": {"1.0--pyhdfd78af_0": "sha256:046a352de85151b1ac1500e8c2f1f1edc1454f027e956246d11e1d03a95dc96b", "1.0.1--pyhdfd78af_0": "sha256:3dc26557178f7afdc5dd9315340cac54276b690bcb3eeefd0316bb0857954e70"}, "docker": "quay.io/biocontainers/cctk", "aliases": {"cctk": "/usr/local/bin/cctk", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "minced": "/usr/local/bin/minced", "dendropy-format": "/usr/local/bin/dendropy-format", "jpackage": "/usr/local/bin/jpackage", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh"}}
+config: {"url": "https://biocontainers.pro/tools/cctk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cctk", "latest": {"1.0.2--pyhdfd78af_0": "sha256:10894ea23f725312c4bcad0b41a8d9384c60f09c7927bb6b691429b89bc5a4d8"}, "tags": {"1.0--pyhdfd78af_0": "sha256:046a352de85151b1ac1500e8c2f1f1edc1454f027e956246d11e1d03a95dc96b", "1.0.1--pyhdfd78af_0": "sha256:3dc26557178f7afdc5dd9315340cac54276b690bcb3eeefd0316bb0857954e70", "1.0.2--pyhdfd78af_0": "sha256:10894ea23f725312c4bcad0b41a8d9384c60f09c7927bb6b691429b89bc5a4d8"}, "docker": "quay.io/biocontainers/cctk", "aliases": {"cctk": "/usr/local/bin/cctk", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "minced": "/usr/local/bin/minced", "dendropy-format": "/usr/local/bin/dendropy-format", "jpackage": "/usr/local/bin/jpackage", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cctk.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/cctk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cctk:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cctk:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cctk/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/cctk/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/cctk/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/cctk/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

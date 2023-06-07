@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pairsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pairsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pairsnp/container.yaml"
-updated_at: "2023-06-06 03:30:30.519763"
-latest: "0.3.1--hd03093a_0"
+updated_at: "2023-06-07 03:44:58.189989"
+latest: "0.3.1--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/pairsnp"
 aliases:
  - "pairsnp"
 versions:
  - "0.3.1--hd03093a_0"
+ - "0.3.1--hdcf5f25_2"
 description: "shpc-registry automated BioContainers addition for pairsnp"
-config: {"url": "https://biocontainers.pro/tools/pairsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pairsnp", "latest": {"0.3.1--hd03093a_0": "sha256:e40980cdccd3c1c2eb98f6a0f20cdbe76a5b2327cab8d7816587750809d3e306"}, "tags": {"0.3.1--hd03093a_0": "sha256:e40980cdccd3c1c2eb98f6a0f20cdbe76a5b2327cab8d7816587750809d3e306"}, "docker": "quay.io/biocontainers/pairsnp", "aliases": {"pairsnp": "/usr/local/bin/pairsnp"}}
+config: {"url": "https://biocontainers.pro/tools/pairsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pairsnp", "latest": {"0.3.1--hdcf5f25_2": "sha256:48d2bd55544c9c7bfa2b01a51999a74eabe40206686537ead86c01951171571c"}, "tags": {"0.3.1--hd03093a_0": "sha256:e40980cdccd3c1c2eb98f6a0f20cdbe76a5b2327cab8d7816587750809d3e306", "0.3.1--hdcf5f25_2": "sha256:48d2bd55544c9c7bfa2b01a51999a74eabe40206686537ead86c01951171571c"}, "docker": "quay.io/biocontainers/pairsnp", "aliases": {"pairsnp": "/usr/local/bin/pairsnp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pairsnp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pairsnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pairsnp:0.3.1--hd03093a_0
+$ shpc install quay.io/biocontainers/pairsnp:0.3.1--hdcf5f25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pairsnp/0.3.1--hd03093a_0
-$ module help quay.io/biocontainers/pairsnp/0.3.1--hd03093a_0
+$ module load quay.io/biocontainers/pairsnp/0.3.1--hdcf5f25_2
+$ module help quay.io/biocontainers/pairsnp/0.3.1--hdcf5f25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

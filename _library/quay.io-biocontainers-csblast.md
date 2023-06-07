@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/csblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csblast/container.yaml"
-updated_at: "2023-06-06 03:27:00.933644"
-latest: "2.2.3--h9f5acd7_1"
+updated_at: "2023-06-07 03:39:58.858499"
+latest: "2.2.3--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/csblast"
 aliases:
  - "csblast"
  - "csbuild"
 versions:
  - "2.2.3--h9f5acd7_1"
+ - "2.2.3--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for csblast"
-config: {"url": "https://biocontainers.pro/tools/csblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for csblast", "latest": {"2.2.3--h9f5acd7_1": "sha256:14e900025b43dcc8104578bda9a843760f994ced1a1d639ad701397eac508ccd"}, "tags": {"2.2.3--h9f5acd7_1": "sha256:14e900025b43dcc8104578bda9a843760f994ced1a1d639ad701397eac508ccd"}, "docker": "quay.io/biocontainers/csblast", "aliases": {"csblast": "/usr/local/bin/csblast", "csbuild": "/usr/local/bin/csbuild"}}
+config: {"url": "https://biocontainers.pro/tools/csblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for csblast", "latest": {"2.2.3--h4ac6f70_3": "sha256:38d1000ee334556a76be30948f5b60e6a2277a7491b68b2ac49bc7265fff2208"}, "tags": {"2.2.3--h9f5acd7_1": "sha256:14e900025b43dcc8104578bda9a843760f994ced1a1d639ad701397eac508ccd", "2.2.3--h4ac6f70_3": "sha256:38d1000ee334556a76be30948f5b60e6a2277a7491b68b2ac49bc7265fff2208"}, "docker": "quay.io/biocontainers/csblast", "aliases": {"csblast": "/usr/local/bin/csblast", "csbuild": "/usr/local/bin/csbuild"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/csblast.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/csblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/csblast:2.2.3--h9f5acd7_1
+$ shpc install quay.io/biocontainers/csblast:2.2.3--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/csblast/2.2.3--h9f5acd7_1
-$ module help quay.io/biocontainers/csblast/2.2.3--h9f5acd7_1
+$ module load quay.io/biocontainers/csblast/2.2.3--h4ac6f70_3
+$ module help quay.io/biocontainers/csblast/2.2.3--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

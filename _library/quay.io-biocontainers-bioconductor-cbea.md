@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cbea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbea/container.yaml"
-updated_at: "2023-06-06 03:25:21.504120"
-latest: "1.2.0--r42hc247a5b_0"
+updated_at: "2023-06-07 03:37:37.784857"
+latest: "1.2.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbea"
 aliases:
  - "installBiocDataPackage.sh"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.2.0--r42hc247a5b_0"
+ - "1.2.0--r42hf17093f_1"
 description: "singularity registry hpc automated addition for bioconductor-cbea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cbea", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cbea", "latest": {"1.2.0--r42hc247a5b_0": "sha256:b8016993d14a879b1a355da4923691c3c14cd5f2dec8e169b0b290d8a7250b3b"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:b8016993d14a879b1a355da4923691c3c14cd5f2dec8e169b0b290d8a7250b3b"}, "docker": "quay.io/biocontainers/bioconductor-cbea", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cbea", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cbea", "latest": {"1.2.0--r42hf17093f_1": "sha256:242bd16c88609879a8b21a54c894afee9311d6121966c038788c3898bc83266c"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:b8016993d14a879b1a355da4923691c3c14cd5f2dec8e169b0b290d8a7250b3b", "1.2.0--r42hf17093f_1": "sha256:242bd16c88609879a8b21a54c894afee9311d6121966c038788c3898bc83266c"}, "docker": "quay.io/biocontainers/bioconductor-cbea", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cbea.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cbea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cbea:1.2.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-cbea:1.2.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cbea/1.2.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-cbea/1.2.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-cbea/1.2.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-cbea/1.2.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

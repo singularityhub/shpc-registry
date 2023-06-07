@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vtools/container.yaml"
-updated_at: "2023-06-06 03:19:37.825439"
-latest: "1.1.0--py38h17adfb0_4"
+updated_at: "2023-06-07 03:29:27.320432"
+latest: "1.1.0--py38h24c8ff8_5"
 container_url: "https://biocontainers.pro/tools/vtools"
 aliases:
  - "vtools-evaluate"
@@ -24,8 +24,9 @@ aliases:
  - "idle3.8"
 versions:
  - "1.1.0--py38h17adfb0_4"
+ - "1.1.0--py38h24c8ff8_5"
 description: "shpc-registry automated BioContainers addition for vtools"
-config: {"url": "https://biocontainers.pro/tools/vtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vtools", "latest": {"1.1.0--py38h17adfb0_4": "sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da"}, "tags": {"1.1.0--py38h17adfb0_4": "sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da"}, "docker": "quay.io/biocontainers/vtools", "aliases": {"vtools-evaluate": "/usr/local/bin/vtools-evaluate", "vtools-filter": "/usr/local/bin/vtools-filter", "vtools-gcoverage": "/usr/local/bin/vtools-gcoverage", "vtools-stats": "/usr/local/bin/vtools-stats", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "tqdm": "/usr/local/bin/tqdm", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
+config: {"url": "https://biocontainers.pro/tools/vtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vtools", "latest": {"1.1.0--py38h24c8ff8_5": "sha256:7515288439c187828673120c1ee5cc22cce1164897697fb401f6dc9e70358aa3"}, "tags": {"1.1.0--py38h17adfb0_4": "sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da", "1.1.0--py38h24c8ff8_5": "sha256:7515288439c187828673120c1ee5cc22cce1164897697fb401f6dc9e70358aa3"}, "docker": "quay.io/biocontainers/vtools", "aliases": {"vtools-evaluate": "/usr/local/bin/vtools-evaluate", "vtools-filter": "/usr/local/bin/vtools-filter", "vtools-gcoverage": "/usr/local/bin/vtools-gcoverage", "vtools-stats": "/usr/local/bin/vtools-stats", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "tqdm": "/usr/local/bin/tqdm", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vtools.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vtools:1.1.0--py38h17adfb0_4
+$ shpc install quay.io/biocontainers/vtools:1.1.0--py38h24c8ff8_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vtools/1.1.0--py38h17adfb0_4
-$ module help quay.io/biocontainers/vtools/1.1.0--py38h17adfb0_4
+$ module load quay.io/biocontainers/vtools/1.1.0--py38h24c8ff8_5
+$ module help quay.io/biocontainers/vtools/1.1.0--py38h24c8ff8_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dfam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dfam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dfam/container.yaml"
-updated_at: "2023-06-06 03:21:27.931679"
+updated_at: "2023-06-07 03:32:03.770138"
 latest: "3.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dfam"
 aliases:

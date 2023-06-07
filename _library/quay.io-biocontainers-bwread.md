@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bwread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwread/container.yaml"
-updated_at: "2023-06-06 03:15:55.856737"
-latest: "0.0.4--py36h91eb985_1"
+updated_at: "2023-06-07 03:24:09.345578"
+latest: "0.0.5--py310h4b81fae_1"
 container_url: "https://biocontainers.pro/tools/bwread"
 aliases:
  - "tabulate"
@@ -20,8 +20,9 @@ aliases:
  - "python3.6m-config"
 versions:
  - "0.0.4--py36h91eb985_1"
+ - "0.0.5--py310h4b81fae_1"
 description: "shpc-registry automated BioContainers addition for bwread"
-config: {"url": "https://biocontainers.pro/tools/bwread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwread", "latest": {"0.0.4--py36h91eb985_1": "sha256:fa215217735135cd88ca5e05f18f09618f554e020913f990c94e947eb795fc4a"}, "tags": {"0.0.4--py36h91eb985_1": "sha256:fa215217735135cd88ca5e05f18f09618f554e020913f990c94e947eb795fc4a"}, "docker": "quay.io/biocontainers/bwread", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/bwread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwread", "latest": {"0.0.5--py310h4b81fae_1": "sha256:dac19dfc8c48aad18684c9521a3f3310a3e1b8856022a9a5e79b54953afc4d3d"}, "tags": {"0.0.4--py36h91eb985_1": "sha256:fa215217735135cd88ca5e05f18f09618f554e020913f990c94e947eb795fc4a", "0.0.5--py310h4b81fae_1": "sha256:dac19dfc8c48aad18684c9521a3f3310a3e1b8856022a9a5e79b54953afc4d3d"}, "docker": "quay.io/biocontainers/bwread", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwread.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bwread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwread:0.0.4--py36h91eb985_1
+$ shpc install quay.io/biocontainers/bwread:0.0.5--py310h4b81fae_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwread/0.0.4--py36h91eb985_1
-$ module help quay.io/biocontainers/bwread/0.0.4--py36h91eb985_1
+$ module load quay.io/biocontainers/bwread/0.0.5--py310h4b81fae_1
+$ module help quay.io/biocontainers/bwread/0.0.5--py310h4b81fae_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

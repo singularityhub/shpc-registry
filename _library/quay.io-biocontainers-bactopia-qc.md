@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bactopia-qc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-qc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-qc/container.yaml"
-updated_at: "2023-06-06 02:59:14.820947"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2023-06-07 03:00:09.994443"
+latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-qc"
 aliases:
  - "NanoPlot"
@@ -56,8 +56,9 @@ aliases:
  - "bbcms.sh"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.0.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for bactopia-qc"
-config: {"url": "https://biocontainers.pro/tools/bactopia-qc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-qc", "latest": {"1.0.0--hdfd78af_0": "sha256:ddd9625487cf922e85c608594c7446a3dc57543cf5aeccef2857dc2dd456b40f"}, "tags": {"1.0.0--hdfd78af_0": "sha256:ddd9625487cf922e85c608594c7446a3dc57543cf5aeccef2857dc2dd456b40f"}, "docker": "quay.io/biocontainers/bactopia-qc", "aliases": {"NanoPlot": "/usr/local/bin/NanoPlot", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bactopia-qc": "/usr/local/bin/bactopia-qc", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "check-fastqs.py": "/usr/local/bin/check-fastqs.py", "csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "fastq-scan": "/usr/local/bin/fastq-scan", "kaleido": "/usr/local/bin/kaleido", "lighter": "/usr/local/bin/lighter", "mathjax-path": "/usr/local/bin/mathjax-path", "nanoq": "/usr/local/bin/nanoq", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "porechop": "/usr/local/bin/porechop", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "rasusa": "/usr/local/bin/rasusa", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "timezone-dump": "/usr/local/bin/timezone-dump", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "fastp": "/usr/local/bin/fastp", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "sha256_profile": "/usr/local/bin/sha256_profile", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "rename": "/usr/local/bin/rename", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bactopia-qc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-qc", "latest": {"1.0.1--hdfd78af_0": "sha256:724cb7c17835fa0ac45ffa6b5899b8747ef8acc78fbfbfbd8b698972465528cf"}, "tags": {"1.0.0--hdfd78af_0": "sha256:ddd9625487cf922e85c608594c7446a3dc57543cf5aeccef2857dc2dd456b40f", "1.0.1--hdfd78af_0": "sha256:724cb7c17835fa0ac45ffa6b5899b8747ef8acc78fbfbfbd8b698972465528cf"}, "docker": "quay.io/biocontainers/bactopia-qc", "aliases": {"NanoPlot": "/usr/local/bin/NanoPlot", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bactopia-qc": "/usr/local/bin/bactopia-qc", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "check-fastqs.py": "/usr/local/bin/check-fastqs.py", "csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "fastq-scan": "/usr/local/bin/fastq-scan", "kaleido": "/usr/local/bin/kaleido", "lighter": "/usr/local/bin/lighter", "mathjax-path": "/usr/local/bin/mathjax-path", "nanoq": "/usr/local/bin/nanoq", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "porechop": "/usr/local/bin/porechop", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "rasusa": "/usr/local/bin/rasusa", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "timezone-dump": "/usr/local/bin/timezone-dump", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "fastp": "/usr/local/bin/fastp", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "sha256_profile": "/usr/local/bin/sha256_profile", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "rename": "/usr/local/bin/rename", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bactopia-qc.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/bactopia-qc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bactopia-qc:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/bactopia-qc:1.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bactopia-qc/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/bactopia-qc/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/bactopia-qc/1.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/bactopia-qc/1.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

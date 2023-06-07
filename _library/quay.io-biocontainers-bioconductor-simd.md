@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-simd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simd/container.yaml"
-updated_at: "2023-06-06 03:25:53.511930"
-latest: "1.16.0--r42hc0cfd56_0"
+updated_at: "2023-06-07 03:38:23.169926"
+latest: "1.16.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-simd"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hc0cfd56_0"
  - "1.12.0--r41hc0cfd56_2"
  - "1.10.0--r41hd029910_0"
+ - "1.16.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-simd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simd", "latest": {"1.16.0--r42hc0cfd56_0": "sha256:945b409d9c9096b82c4923ca75ef58153d09ace99ea7f2100da4f8e8a60c8201"}, "tags": {"1.8.0--r40hd029910_1": "sha256:41135bd62c1dfada774280070b2ad4e7088def851857bb0025aafad5cd6ae277", "1.16.0--r42hc0cfd56_0": "sha256:945b409d9c9096b82c4923ca75ef58153d09ace99ea7f2100da4f8e8a60c8201", "1.12.0--r41hc0cfd56_2": "sha256:6dfd6dddeecab262d27191f16ded42db6f1650a7b88122e42e02b803198782c7", "1.10.0--r41hd029910_0": "sha256:0370c7870c0ec7067d01084b64b8b5a587b3548d43e04e5e9caf96dcd7a75dea"}, "docker": "quay.io/biocontainers/bioconductor-simd", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simd", "latest": {"1.16.0--r42ha9d7317_1": "sha256:c30d2644f20510dee9f73e45103394c250b42b1b58a2744422e1139184a3ec03"}, "tags": {"1.8.0--r40hd029910_1": "sha256:41135bd62c1dfada774280070b2ad4e7088def851857bb0025aafad5cd6ae277", "1.16.0--r42hc0cfd56_0": "sha256:945b409d9c9096b82c4923ca75ef58153d09ace99ea7f2100da4f8e8a60c8201", "1.12.0--r41hc0cfd56_2": "sha256:6dfd6dddeecab262d27191f16ded42db6f1650a7b88122e42e02b803198782c7", "1.10.0--r41hd029910_0": "sha256:0370c7870c0ec7067d01084b64b8b5a587b3548d43e04e5e9caf96dcd7a75dea", "1.16.0--r42ha9d7317_1": "sha256:c30d2644f20510dee9f73e45103394c250b42b1b58a2744422e1139184a3ec03"}, "docker": "quay.io/biocontainers/bioconductor-simd", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simd.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simd:1.16.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-simd:1.16.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simd/1.16.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-simd/1.16.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-simd/1.16.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-simd/1.16.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

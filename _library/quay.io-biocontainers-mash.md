@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mash/container.yaml"
-updated_at: "2023-06-06 03:29:55.177377"
-latest: "2.3--hd3113c8_4"
+updated_at: "2023-06-07 03:44:08.222794"
+latest: "2.3--hd3113c8_6"
 container_url: "https://biocontainers.pro/tools/mash"
 aliases:
  - "mash"
@@ -15,8 +15,9 @@ aliases:
  - "capnpc-capnp"
 versions:
  - "2.3--hd3113c8_4"
+ - "2.3--hd3113c8_6"
 description: "shpc-registry automated BioContainers addition for mash"
-config: {"url": "https://biocontainers.pro/tools/mash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mash", "latest": {"2.3--hd3113c8_4": "sha256:c49edb7dac7626d3a022e2685cfe89f8b0e43b955990578f1b2ee3b6b1a0694c"}, "tags": {"2.3--hd3113c8_4": "sha256:c49edb7dac7626d3a022e2685cfe89f8b0e43b955990578f1b2ee3b6b1a0694c"}, "docker": "quay.io/biocontainers/mash", "aliases": {"mash": "/usr/local/bin/mash", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp"}}
+config: {"url": "https://biocontainers.pro/tools/mash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mash", "latest": {"2.3--hd3113c8_6": "sha256:895225b5483db9ef63b0c6aeab9b7dd63c7a9bc578d746b1fe76ee24635b3ed1"}, "tags": {"2.3--hd3113c8_4": "sha256:c49edb7dac7626d3a022e2685cfe89f8b0e43b955990578f1b2ee3b6b1a0694c", "2.3--hd3113c8_6": "sha256:895225b5483db9ef63b0c6aeab9b7dd63c7a9bc578d746b1fe76ee24635b3ed1"}, "docker": "quay.io/biocontainers/mash", "aliases": {"mash": "/usr/local/bin/mash", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mash.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mash:2.3--hd3113c8_4
+$ shpc install quay.io/biocontainers/mash:2.3--hd3113c8_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mash/2.3--hd3113c8_4
-$ module help quay.io/biocontainers/mash/2.3--hd3113c8_4
+$ module load quay.io/biocontainers/mash/2.3--hd3113c8_6
+$ module help quay.io/biocontainers/mash/2.3--hd3113c8_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

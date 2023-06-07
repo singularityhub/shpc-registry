@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mea/container.yaml"
-updated_at: "2023-06-06 03:01:52.300739"
-latest: "0.6.4--h9f5acd7_6"
+updated_at: "2023-06-07 03:03:55.334710"
+latest: "0.6.4--h4ac6f70_8"
 container_url: "https://biocontainers.pro/tools/mea"
 aliases:
  - "mea"
@@ -13,8 +13,9 @@ aliases:
  - "mea_mix"
 versions:
  - "0.6.4--h9f5acd7_6"
+ - "0.6.4--h4ac6f70_8"
 description: "shpc-registry automated BioContainers addition for mea"
-config: {"url": "https://biocontainers.pro/tools/mea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mea", "latest": {"0.6.4--h9f5acd7_6": "sha256:4ec460373e84be86764ff4a66b90fcaada455f94e2ca1f803cb20c47fa5396d1"}, "tags": {"0.6.4--h9f5acd7_6": "sha256:4ec460373e84be86764ff4a66b90fcaada455f94e2ca1f803cb20c47fa5396d1"}, "docker": "quay.io/biocontainers/mea", "aliases": {"mea": "/usr/local/bin/mea", "mea_eval": "/usr/local/bin/mea_eval", "mea_mix": "/usr/local/bin/mea_mix"}}
+config: {"url": "https://biocontainers.pro/tools/mea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mea", "latest": {"0.6.4--h4ac6f70_8": "sha256:026a87d4811d2db3988742e367aabdfc15b56ece49d9ac4d6ad9f1db0b935508"}, "tags": {"0.6.4--h9f5acd7_6": "sha256:4ec460373e84be86764ff4a66b90fcaada455f94e2ca1f803cb20c47fa5396d1", "0.6.4--h4ac6f70_8": "sha256:026a87d4811d2db3988742e367aabdfc15b56ece49d9ac4d6ad9f1db0b935508"}, "docker": "quay.io/biocontainers/mea", "aliases": {"mea": "/usr/local/bin/mea", "mea_eval": "/usr/local/bin/mea_eval", "mea_mix": "/usr/local/bin/mea_mix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mea.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/mea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mea:0.6.4--h9f5acd7_6
+$ shpc install quay.io/biocontainers/mea:0.6.4--h4ac6f70_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mea/0.6.4--h9f5acd7_6
-$ module help quay.io/biocontainers/mea/0.6.4--h9f5acd7_6
+$ module load quay.io/biocontainers/mea/0.6.4--h4ac6f70_8
+$ module help quay.io/biocontainers/mea/0.6.4--h4ac6f70_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

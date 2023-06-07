@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mlinterfaces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlinterfaces/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlinterfaces/container.yaml"
-updated_at: "2023-06-06 02:56:59.843689"
-latest: "1.78.0--r42hc247a5b_0"
+updated_at: "2023-06-07 02:56:55.564033"
+latest: "1.78.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlinterfaces"
 aliases:
  - "glpsol"
 versions:
  - "1.74.0--r41hc247a5b_2"
  - "1.78.0--r42hc247a5b_0"
+ - "1.78.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mlinterfaces"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mlinterfaces", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlinterfaces", "latest": {"1.78.0--r42hc247a5b_0": "sha256:5dcf1162f68ae8b7eee92051d2a3cba4bacc04e9abd2c03d1016a15bca5228f4"}, "tags": {"1.74.0--r41hc247a5b_2": "sha256:5aac51be351ed3c511e40e1dae34256152d71d0a0cf534bfe5f83a12b0cc8290", "1.78.0--r42hc247a5b_0": "sha256:5dcf1162f68ae8b7eee92051d2a3cba4bacc04e9abd2c03d1016a15bca5228f4"}, "docker": "quay.io/biocontainers/bioconductor-mlinterfaces", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mlinterfaces", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlinterfaces", "latest": {"1.78.0--r42hf17093f_1": "sha256:84f7a8e566a378276ae5fda5ecd01e93928b2c8b31455c4730450ee33c6c2339"}, "tags": {"1.74.0--r41hc247a5b_2": "sha256:5aac51be351ed3c511e40e1dae34256152d71d0a0cf534bfe5f83a12b0cc8290", "1.78.0--r42hc247a5b_0": "sha256:5dcf1162f68ae8b7eee92051d2a3cba4bacc04e9abd2c03d1016a15bca5228f4", "1.78.0--r42hf17093f_1": "sha256:84f7a8e566a378276ae5fda5ecd01e93928b2c8b31455c4730450ee33c6c2339"}, "docker": "quay.io/biocontainers/bioconductor-mlinterfaces", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mlinterfaces.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mlinterfaces
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mlinterfaces:1.78.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-mlinterfaces:1.78.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mlinterfaces/1.78.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-mlinterfaces/1.78.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-mlinterfaces/1.78.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-mlinterfaces/1.78.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

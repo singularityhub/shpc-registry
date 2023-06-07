@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/ffindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffindex/container.yaml"
-updated_at: "2023-06-06 03:40:12.149979"
-latest: "0.98--h9f5acd7_2"
+updated_at: "2023-06-07 03:58:51.081500"
+latest: "0.98--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/ffindex"
 
 versions:
  - "0.98--h9f5acd7_2"
+ - "0.98--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for ffindex"
-config: {"url": "https://biocontainers.pro/tools/ffindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ffindex", "latest": {"0.98--h9f5acd7_2": "sha256:b3c72a2816aa3af70d8b60844daf0acebff71a8899ff8c591038cf1d3ceb47c4"}, "tags": {"0.98--h9f5acd7_2": "sha256:b3c72a2816aa3af70d8b60844daf0acebff71a8899ff8c591038cf1d3ceb47c4"}, "docker": "quay.io/biocontainers/ffindex"}
+config: {"url": "https://biocontainers.pro/tools/ffindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ffindex", "latest": {"0.98--h4ac6f70_4": "sha256:c7f7d1c1ff90d8c2371fe22b740995eef73c24eeb0a261a5b1c0091d32ef1eca"}, "tags": {"0.98--h9f5acd7_2": "sha256:b3c72a2816aa3af70d8b60844daf0acebff71a8899ff8c591038cf1d3ceb47c4", "0.98--h4ac6f70_4": "sha256:c7f7d1c1ff90d8c2371fe22b740995eef73c24eeb0a261a5b1c0091d32ef1eca"}, "docker": "quay.io/biocontainers/ffindex"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ffindex.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/ffindex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ffindex:0.98--h9f5acd7_2
+$ shpc install quay.io/biocontainers/ffindex:0.98--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ffindex/0.98--h9f5acd7_2
-$ module help quay.io/biocontainers/ffindex/0.98--h9f5acd7_2
+$ module load quay.io/biocontainers/ffindex/0.98--h4ac6f70_4
+$ module help quay.io/biocontainers/ffindex/0.98--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

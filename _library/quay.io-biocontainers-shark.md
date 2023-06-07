@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/shark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shark/container.yaml"
-updated_at: "2023-06-06 03:00:11.813630"
-latest: "1.2.0--hd03093a_2"
+updated_at: "2023-06-07 03:01:32.294027"
+latest: "1.2.0--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/shark"
 aliases:
  - "shark"
 versions:
  - "1.2.0--hd03093a_2"
+ - "1.2.0--hdcf5f25_4"
 description: "shpc-registry automated BioContainers addition for shark"
-config: {"url": "https://biocontainers.pro/tools/shark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shark", "latest": {"1.2.0--hd03093a_2": "sha256:74328f24292a91afd091a19a0d1cb3e9582ee5f7e98bc2997606f81bb64493af"}, "tags": {"1.2.0--hd03093a_2": "sha256:74328f24292a91afd091a19a0d1cb3e9582ee5f7e98bc2997606f81bb64493af"}, "docker": "quay.io/biocontainers/shark", "aliases": {"shark": "/usr/local/bin/shark"}}
+config: {"url": "https://biocontainers.pro/tools/shark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shark", "latest": {"1.2.0--hdcf5f25_4": "sha256:2e2cffdbd391479fc3e44898fe26136561cd3a4da976e4c4e4fc8c61d76ac063"}, "tags": {"1.2.0--hd03093a_2": "sha256:74328f24292a91afd091a19a0d1cb3e9582ee5f7e98bc2997606f81bb64493af", "1.2.0--hdcf5f25_4": "sha256:2e2cffdbd391479fc3e44898fe26136561cd3a4da976e4c4e4fc8c61d76ac063"}, "docker": "quay.io/biocontainers/shark", "aliases": {"shark": "/usr/local/bin/shark"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shark.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/shark
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shark:1.2.0--hd03093a_2
+$ shpc install quay.io/biocontainers/shark:1.2.0--hdcf5f25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shark/1.2.0--hd03093a_2
-$ module help quay.io/biocontainers/shark/1.2.0--hd03093a_2
+$ module load quay.io/biocontainers/shark/1.2.0--hdcf5f25_4
+$ module help quay.io/biocontainers/shark/1.2.0--hdcf5f25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

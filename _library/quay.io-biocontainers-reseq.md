@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reseq/container.yaml"
-updated_at: "2023-06-06 02:57:45.371429"
-latest: "1.1--py37h3a4aa43_2"
+updated_at: "2023-06-07 02:58:01.554665"
+latest: "1.1--py39h1affd0e_3"
 container_url: "https://biocontainers.pro/tools/reseq"
 aliases:
  - "plotDataStats.py"
@@ -22,8 +22,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.1--py37h3a4aa43_2"
+ - "1.1--py39h1affd0e_3"
 description: "shpc-registry automated BioContainers addition for reseq"
-config: {"url": "https://biocontainers.pro/tools/reseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for reseq", "latest": {"1.1--py37h3a4aa43_2": "sha256:312c546111b31bcf8102850521306694b539350a3f744bdbacbcfa5edfe1c4e9"}, "tags": {"1.1--py37h3a4aa43_2": "sha256:312c546111b31bcf8102850521306694b539350a3f744bdbacbcfa5edfe1c4e9"}, "docker": "quay.io/biocontainers/reseq", "aliases": {"plotDataStats.py": "/usr/local/bin/plotDataStats.py", "reseq": "/usr/local/bin/reseq", "reseq-prepare-names.py": "/usr/local/bin/reseq-prepare-names.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/reseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for reseq", "latest": {"1.1--py39h1affd0e_3": "sha256:9c73550d7052d2d162b4919b85871d98b4970282110ef8e9afa8b1e6311e05f3"}, "tags": {"1.1--py37h3a4aa43_2": "sha256:312c546111b31bcf8102850521306694b539350a3f744bdbacbcfa5edfe1c4e9", "1.1--py39h1affd0e_3": "sha256:9c73550d7052d2d162b4919b85871d98b4970282110ef8e9afa8b1e6311e05f3"}, "docker": "quay.io/biocontainers/reseq", "aliases": {"plotDataStats.py": "/usr/local/bin/plotDataStats.py", "reseq": "/usr/local/bin/reseq", "reseq-prepare-names.py": "/usr/local/bin/reseq-prepare-names.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reseq.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/reseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reseq:1.1--py37h3a4aa43_2
+$ shpc install quay.io/biocontainers/reseq:1.1--py39h1affd0e_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reseq/1.1--py37h3a4aa43_2
-$ module help quay.io/biocontainers/reseq/1.1--py37h3a4aa43_2
+$ module load quay.io/biocontainers/reseq/1.1--py39h1affd0e_3
+$ module help quay.io/biocontainers/reseq/1.1--py39h1affd0e_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

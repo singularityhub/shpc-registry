@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ragout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ragout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ragout/container.yaml"
-updated_at: "2023-06-06 03:05:44.404552"
-latest: "2.3--py36h2ad2d48_4"
+updated_at: "2023-06-07 03:09:30.865013"
+latest: "2.3--py38h2494328_6"
 container_url: "https://biocontainers.pro/tools/ragout"
 aliases:
  - "C-Sibelia.py"
@@ -25,8 +25,9 @@ aliases:
  - "pyvenv"
 versions:
  - "2.3--py36h2ad2d48_4"
+ - "2.3--py38h2494328_6"
 description: "shpc-registry automated BioContainers addition for ragout"
-config: {"url": "https://biocontainers.pro/tools/ragout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ragout", "latest": {"2.3--py36h2ad2d48_4": "sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f"}, "tags": {"2.3--py36h2ad2d48_4": "sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f"}, "docker": "quay.io/biocontainers/ragout", "aliases": {"C-Sibelia.py": "/usr/local/bin/C-Sibelia.py", "Sibelia": "/usr/local/bin/Sibelia", "ragout": "/usr/local/bin/ragout", "ragout-maf2synteny": "/usr/local/bin/ragout-maf2synteny", "ragout-overlap": "/usr/local/bin/ragout-overlap", "snpEffAnnotate.py": "/usr/local/bin/snpEffAnnotate.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/ragout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ragout", "latest": {"2.3--py38h2494328_6": "sha256:434a49f523b60736a7ead3ba4d1b359b58e03fee10354ebda815434d9388b7f3"}, "tags": {"2.3--py36h2ad2d48_4": "sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f", "2.3--py38h2494328_6": "sha256:434a49f523b60736a7ead3ba4d1b359b58e03fee10354ebda815434d9388b7f3"}, "docker": "quay.io/biocontainers/ragout", "aliases": {"C-Sibelia.py": "/usr/local/bin/C-Sibelia.py", "Sibelia": "/usr/local/bin/Sibelia", "ragout": "/usr/local/bin/ragout", "ragout-maf2synteny": "/usr/local/bin/ragout-maf2synteny", "ragout-overlap": "/usr/local/bin/ragout-overlap", "snpEffAnnotate.py": "/usr/local/bin/snpEffAnnotate.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ragout.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/ragout
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ragout:2.3--py36h2ad2d48_4
+$ shpc install quay.io/biocontainers/ragout:2.3--py38h2494328_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ragout/2.3--py36h2ad2d48_4
-$ module help quay.io/biocontainers/ragout/2.3--py36h2ad2d48_4
+$ module load quay.io/biocontainers/ragout/2.3--py38h2494328_6
+$ module help quay.io/biocontainers/ragout/2.3--py38h2494328_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

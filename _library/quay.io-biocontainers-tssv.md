@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tssv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tssv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tssv/container.yaml"
-updated_at: "2023-06-06 03:32:30.332425"
-latest: "1.1.2--py36h2ad2d48_1"
+updated_at: "2023-06-07 03:47:49.767399"
+latest: "1.1.2--py310h0dbaff4_3"
 container_url: "https://biocontainers.pro/tools/tssv"
 aliases:
  - "tannotate"
@@ -22,8 +22,9 @@ aliases:
  - "idle3.6"
 versions:
  - "1.1.2--py36h2ad2d48_1"
+ - "1.1.2--py310h0dbaff4_3"
 description: "shpc-registry automated BioContainers addition for tssv"
-config: {"url": "https://biocontainers.pro/tools/tssv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tssv", "latest": {"1.1.2--py36h2ad2d48_1": "sha256:111a0f88b12743134d2eb7052315fc36a5f50f1374c372a2a8ec7e55a422c09e"}, "tags": {"1.1.2--py36h2ad2d48_1": "sha256:111a0f88b12743134d2eb7052315fc36a5f50f1374c372a2a8ec7e55a422c09e"}, "docker": "quay.io/biocontainers/tssv", "aliases": {"tannotate": "/usr/local/bin/tannotate", "tssv": "/usr/local/bin/tssv", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "f2py3.6": "/usr/local/bin/f2py3.6", "normalizer": "/usr/local/bin/normalizer", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
+config: {"url": "https://biocontainers.pro/tools/tssv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tssv", "latest": {"1.1.2--py310h0dbaff4_3": "sha256:935617e9b5bc00ce6138d7d3a0c552b2b5ed8e7a6f31cc8a10a319ea7247ed2a"}, "tags": {"1.1.2--py36h2ad2d48_1": "sha256:111a0f88b12743134d2eb7052315fc36a5f50f1374c372a2a8ec7e55a422c09e", "1.1.2--py310h0dbaff4_3": "sha256:935617e9b5bc00ce6138d7d3a0c552b2b5ed8e7a6f31cc8a10a319ea7247ed2a"}, "docker": "quay.io/biocontainers/tssv", "aliases": {"tannotate": "/usr/local/bin/tannotate", "tssv": "/usr/local/bin/tssv", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "f2py3.6": "/usr/local/bin/f2py3.6", "normalizer": "/usr/local/bin/normalizer", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tssv.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/tssv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tssv:1.1.2--py36h2ad2d48_1
+$ shpc install quay.io/biocontainers/tssv:1.1.2--py310h0dbaff4_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tssv/1.1.2--py36h2ad2d48_1
-$ module help quay.io/biocontainers/tssv/1.1.2--py36h2ad2d48_1
+$ module load quay.io/biocontainers/tssv/1.1.2--py310h0dbaff4_3
+$ module help quay.io/biocontainers/tssv/1.1.2--py310h0dbaff4_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

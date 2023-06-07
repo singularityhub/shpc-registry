@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/maelstrom-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maelstrom-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maelstrom-core/container.yaml"
-updated_at: "2023-06-06 03:06:49.737905"
-latest: "0.1.1--h92d785c_0"
+updated_at: "2023-06-07 03:11:05.178493"
+latest: "0.1.1--h9d3141d_2"
 container_url: "https://biocontainers.pro/tools/maelstrom-core"
 aliases:
  - "maelstrom-core"
 versions:
  - "0.1.1--h92d785c_0"
+ - "0.1.1--h9d3141d_2"
 description: "singularity registry hpc automated addition for maelstrom-core"
-config: {"url": "https://biocontainers.pro/tools/maelstrom-core", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maelstrom-core", "latest": {"0.1.1--h92d785c_0": "sha256:2bc60264f4bf2695d45e880bed4d5ca4c7a7e9a22ce4d1faccb8bf97f6f38dee"}, "tags": {"0.1.1--h92d785c_0": "sha256:2bc60264f4bf2695d45e880bed4d5ca4c7a7e9a22ce4d1faccb8bf97f6f38dee"}, "docker": "quay.io/biocontainers/maelstrom-core", "aliases": {"maelstrom-core": "/usr/local/bin/maelstrom-core"}}
+config: {"url": "https://biocontainers.pro/tools/maelstrom-core", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maelstrom-core", "latest": {"0.1.1--h9d3141d_2": "sha256:cf5d3c83d8d12c3336fdd65c5b1ee4b61f0ef3f33a6b5a44ca373fd653038e68"}, "tags": {"0.1.1--h92d785c_0": "sha256:2bc60264f4bf2695d45e880bed4d5ca4c7a7e9a22ce4d1faccb8bf97f6f38dee", "0.1.1--h9d3141d_2": "sha256:cf5d3c83d8d12c3336fdd65c5b1ee4b61f0ef3f33a6b5a44ca373fd653038e68"}, "docker": "quay.io/biocontainers/maelstrom-core", "aliases": {"maelstrom-core": "/usr/local/bin/maelstrom-core"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maelstrom-core.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/maelstrom-core
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/maelstrom-core:0.1.1--h92d785c_0
+$ shpc install quay.io/biocontainers/maelstrom-core:0.1.1--h9d3141d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/maelstrom-core/0.1.1--h92d785c_0
-$ module help quay.io/biocontainers/maelstrom-core/0.1.1--h92d785c_0
+$ module load quay.io/biocontainers/maelstrom-core/0.1.1--h9d3141d_2
+$ module help quay.io/biocontainers/maelstrom-core/0.1.1--h9d3141d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

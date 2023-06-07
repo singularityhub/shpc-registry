@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/srnamapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srnamapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srnamapper/container.yaml"
-updated_at: "2023-06-06 03:31:59.625863"
-latest: "1.0.8--h7132678_1"
+updated_at: "2023-06-07 03:47:06.044992"
+latest: "1.0.8--he4a0461_2"
 container_url: "https://biocontainers.pro/tools/srnamapper"
 aliases:
  - "srnaMapper"
 versions:
  - "1.0.8--h7132678_1"
+ - "1.0.8--he4a0461_2"
 description: "shpc-registry automated BioContainers addition for srnamapper"
-config: {"url": "https://biocontainers.pro/tools/srnamapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srnamapper", "latest": {"1.0.8--h7132678_1": "sha256:836601646e94f18acb5dbac65d67252cdb3a50469ef4ad96d0126d0cf7ce7c88"}, "tags": {"1.0.8--h7132678_1": "sha256:836601646e94f18acb5dbac65d67252cdb3a50469ef4ad96d0126d0cf7ce7c88"}, "docker": "quay.io/biocontainers/srnamapper", "aliases": {"srnaMapper": "/usr/local/bin/srnaMapper"}}
+config: {"url": "https://biocontainers.pro/tools/srnamapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srnamapper", "latest": {"1.0.8--he4a0461_2": "sha256:e107b89e1cdda16fa428f610ea124b04f53aeee973bcedc8f820c121dd05d4f7"}, "tags": {"1.0.8--h7132678_1": "sha256:836601646e94f18acb5dbac65d67252cdb3a50469ef4ad96d0126d0cf7ce7c88", "1.0.8--he4a0461_2": "sha256:e107b89e1cdda16fa428f610ea124b04f53aeee973bcedc8f820c121dd05d4f7"}, "docker": "quay.io/biocontainers/srnamapper", "aliases": {"srnaMapper": "/usr/local/bin/srnaMapper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/srnamapper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/srnamapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/srnamapper:1.0.8--h7132678_1
+$ shpc install quay.io/biocontainers/srnamapper:1.0.8--he4a0461_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/srnamapper/1.0.8--h7132678_1
-$ module help quay.io/biocontainers/srnamapper/1.0.8--h7132678_1
+$ module load quay.io/biocontainers/srnamapper/1.0.8--he4a0461_2
+$ module help quay.io/biocontainers/srnamapper/1.0.8--he4a0461_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

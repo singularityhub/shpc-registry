@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fegenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fegenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fegenie/container.yaml"
-updated_at: "2023-06-06 03:11:39.464198"
-latest: "1.2--py311r40hdfd78af_2"
+updated_at: "2023-06-07 03:18:02.634239"
+latest: "1.2--py311r40hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/fegenie"
 aliases:
  - "FeGenie.py"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "1.2--py310r40hdfd78af_1"
  - "1.2--py311r40hdfd78af_2"
+ - "1.2--py311r40hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for fegenie"
-config: {"url": "https://biocontainers.pro/tools/fegenie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fegenie", "latest": {"1.2--py311r40hdfd78af_2": "sha256:7da1b107bb1b1cfe4c59cac2550827f8f6c24efa092098c6d7811631c7df224c"}, "tags": {"1.2--py310r40hdfd78af_1": "sha256:17eb874ab13962a0dc74b77e19803744772ef64791d2d6a3926c2843bab1c002", "1.2--py311r40hdfd78af_2": "sha256:7da1b107bb1b1cfe4c59cac2550827f8f6c24efa092098c6d7811631c7df224c"}, "docker": "quay.io/biocontainers/fegenie", "aliases": {"FeGenie.py": "/usr/local/bin/FeGenie.py", "aggregateBinDepths.pl": "/usr/local/bin/aggregateBinDepths.pl", "aggregateContigOverlapsByBin.pl": "/usr/local/bin/aggregateContigOverlapsByBin.pl", "contigOverlaps": "/usr/local/bin/contigOverlaps", "jgi_summarize_bam_contig_depths": "/usr/local/bin/jgi_summarize_bam_contig_depths", "merge_depths.pl": "/usr/local/bin/merge_depths.pl", "metabat": "/usr/local/bin/metabat", "metabat1": "/usr/local/bin/metabat1", "metabat2": "/usr/local/bin/metabat2", "runMetaBat.sh": "/usr/local/bin/runMetaBat.sh", "pandoc-server": "/usr/local/bin/pandoc-server", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns"}}
+config: {"url": "https://biocontainers.pro/tools/fegenie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fegenie", "latest": {"1.2--py311r40hdfd78af_3": "sha256:08ffd70da8a9dd27f3585f72a392c84e219219a972d80f8cb5d777e9da1971e3"}, "tags": {"1.2--py310r40hdfd78af_1": "sha256:17eb874ab13962a0dc74b77e19803744772ef64791d2d6a3926c2843bab1c002", "1.2--py311r40hdfd78af_2": "sha256:7da1b107bb1b1cfe4c59cac2550827f8f6c24efa092098c6d7811631c7df224c", "1.2--py311r40hdfd78af_3": "sha256:08ffd70da8a9dd27f3585f72a392c84e219219a972d80f8cb5d777e9da1971e3"}, "docker": "quay.io/biocontainers/fegenie", "aliases": {"FeGenie.py": "/usr/local/bin/FeGenie.py", "aggregateBinDepths.pl": "/usr/local/bin/aggregateBinDepths.pl", "aggregateContigOverlapsByBin.pl": "/usr/local/bin/aggregateContigOverlapsByBin.pl", "contigOverlaps": "/usr/local/bin/contigOverlaps", "jgi_summarize_bam_contig_depths": "/usr/local/bin/jgi_summarize_bam_contig_depths", "merge_depths.pl": "/usr/local/bin/merge_depths.pl", "metabat": "/usr/local/bin/metabat", "metabat1": "/usr/local/bin/metabat1", "metabat2": "/usr/local/bin/metabat2", "runMetaBat.sh": "/usr/local/bin/runMetaBat.sh", "pandoc-server": "/usr/local/bin/pandoc-server", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fegenie.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/fegenie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fegenie:1.2--py311r40hdfd78af_2
+$ shpc install quay.io/biocontainers/fegenie:1.2--py311r40hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fegenie/1.2--py311r40hdfd78af_2
-$ module help quay.io/biocontainers/fegenie/1.2--py311r40hdfd78af_2
+$ module load quay.io/biocontainers/fegenie/1.2--py311r40hdfd78af_3
+$ module help quay.io/biocontainers/fegenie/1.2--py311r40hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

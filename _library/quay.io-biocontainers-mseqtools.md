@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mseqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mseqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mseqtools/container.yaml"
-updated_at: "2023-06-06 03:16:07.132123"
-latest: "0.9.1--h7132678_1"
+updated_at: "2023-06-07 03:24:25.314539"
+latest: "0.9.1--he4a0461_3"
 container_url: "https://biocontainers.pro/tools/mseqtools"
 aliases:
  - "gunzip"
@@ -25,8 +25,9 @@ aliases:
  - "znew"
 versions:
  - "0.9.1--h7132678_1"
+ - "0.9.1--he4a0461_3"
 description: "shpc-registry automated BioContainers addition for mseqtools"
-config: {"url": "https://biocontainers.pro/tools/mseqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mseqtools", "latest": {"0.9.1--h7132678_1": "sha256:f11e9eae8dc8cab36dbfd299d17b226c48a6b186c496b5a95293dd48ee458bb1"}, "tags": {"0.9.1--h7132678_1": "sha256:f11e9eae8dc8cab36dbfd299d17b226c48a6b186c496b5a95293dd48ee458bb1"}, "docker": "quay.io/biocontainers/mseqtools", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "mseqtools": "/usr/local/bin/mseqtools", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew"}}
+config: {"url": "https://biocontainers.pro/tools/mseqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mseqtools", "latest": {"0.9.1--he4a0461_3": "sha256:c74e409e059105aebcf342aced4fb93ef7a30d6518215f51aefd7c6bc31a6d34"}, "tags": {"0.9.1--h7132678_1": "sha256:f11e9eae8dc8cab36dbfd299d17b226c48a6b186c496b5a95293dd48ee458bb1", "0.9.1--he4a0461_3": "sha256:c74e409e059105aebcf342aced4fb93ef7a30d6518215f51aefd7c6bc31a6d34"}, "docker": "quay.io/biocontainers/mseqtools", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "mseqtools": "/usr/local/bin/mseqtools", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mseqtools.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/mseqtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mseqtools:0.9.1--h7132678_1
+$ shpc install quay.io/biocontainers/mseqtools:0.9.1--he4a0461_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mseqtools/0.9.1--h7132678_1
-$ module help quay.io/biocontainers/mseqtools/0.9.1--h7132678_1
+$ module load quay.io/biocontainers/mseqtools/0.9.1--he4a0461_3
+$ module help quay.io/biocontainers/mseqtools/0.9.1--he4a0461_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

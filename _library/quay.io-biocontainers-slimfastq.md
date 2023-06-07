@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/slimfastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slimfastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slimfastq/container.yaml"
-updated_at: "2023-06-06 03:20:09.327539"
-latest: "2.04--h87f3376_2"
+updated_at: "2023-06-07 03:30:12.099322"
+latest: "2.04--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/slimfastq"
 aliases:
  - "slimfastq"
  - "slimfastq.multi"
 versions:
  - "2.04--h87f3376_2"
+ - "2.04--hdbdd923_4"
 description: "shpc-registry automated BioContainers addition for slimfastq"
-config: {"url": "https://biocontainers.pro/tools/slimfastq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slimfastq", "latest": {"2.04--h87f3376_2": "sha256:6948357675511a0e48eb20262b37bb3a230843833734de09f183c85563302aef"}, "tags": {"2.04--h87f3376_2": "sha256:6948357675511a0e48eb20262b37bb3a230843833734de09f183c85563302aef"}, "docker": "quay.io/biocontainers/slimfastq", "aliases": {"slimfastq": "/usr/local/bin/slimfastq", "slimfastq.multi": "/usr/local/bin/slimfastq.multi"}}
+config: {"url": "https://biocontainers.pro/tools/slimfastq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slimfastq", "latest": {"2.04--hdbdd923_4": "sha256:f173014d279f0456e6c1949b90cee02bbe517926f7bd6ef22573830b366dbf39"}, "tags": {"2.04--h87f3376_2": "sha256:6948357675511a0e48eb20262b37bb3a230843833734de09f183c85563302aef", "2.04--hdbdd923_4": "sha256:f173014d279f0456e6c1949b90cee02bbe517926f7bd6ef22573830b366dbf39"}, "docker": "quay.io/biocontainers/slimfastq", "aliases": {"slimfastq": "/usr/local/bin/slimfastq", "slimfastq.multi": "/usr/local/bin/slimfastq.multi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slimfastq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/slimfastq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/slimfastq:2.04--h87f3376_2
+$ shpc install quay.io/biocontainers/slimfastq:2.04--hdbdd923_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/slimfastq/2.04--h87f3376_2
-$ module help quay.io/biocontainers/slimfastq/2.04--h87f3376_2
+$ module load quay.io/biocontainers/slimfastq/2.04--hdbdd923_4
+$ module help quay.io/biocontainers/slimfastq/2.04--hdbdd923_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

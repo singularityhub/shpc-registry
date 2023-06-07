@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-dmrcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrcaller/container.yaml"
-updated_at: "2023-06-06 03:23:56.150665"
-latest: "1.30.0--r42hc247a5b_0"
+updated_at: "2023-06-07 03:35:35.965585"
+latest: "1.30.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrcaller"
 
 versions:
  - "1.26.0--r41hc247a5b_2"
  - "1.30.0--r42hc247a5b_0"
+ - "1.30.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-dmrcaller"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrcaller", "latest": {"1.30.0--r42hc247a5b_0": "sha256:84948a3f47c2e2b401893caa287d8bba8ba4dd0aeb8bc03e8cdc78717d4354d2"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:ea08aa357f5fcb65e695bf0931f03e48e35254135e4fdc4969a641abaf0fecf7", "1.30.0--r42hc247a5b_0": "sha256:84948a3f47c2e2b401893caa287d8bba8ba4dd0aeb8bc03e8cdc78717d4354d2"}, "docker": "quay.io/biocontainers/bioconductor-dmrcaller"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrcaller", "latest": {"1.30.0--r42hf17093f_1": "sha256:8bc4ac5076ce07d6118e925ae6a19cc6f4a2b3339fc8a470f3667640c8e9d198"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:ea08aa357f5fcb65e695bf0931f03e48e35254135e4fdc4969a641abaf0fecf7", "1.30.0--r42hc247a5b_0": "sha256:84948a3f47c2e2b401893caa287d8bba8ba4dd0aeb8bc03e8cdc78717d4354d2", "1.30.0--r42hf17093f_1": "sha256:8bc4ac5076ce07d6118e925ae6a19cc6f4a2b3339fc8a470f3667640c8e9d198"}, "docker": "quay.io/biocontainers/bioconductor-dmrcaller"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dmrcaller.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dmrcaller
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dmrcaller:1.30.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-dmrcaller:1.30.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dmrcaller/1.30.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-dmrcaller/1.30.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-dmrcaller/1.30.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-dmrcaller/1.30.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

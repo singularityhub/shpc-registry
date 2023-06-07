@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peakachu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakachu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peakachu/container.yaml"
-updated_at: "2023-06-06 03:41:32.735757"
-latest: "0.2.0--py36h91eb985_2"
+updated_at: "2023-06-07 04:00:46.339237"
+latest: "0.2.0--py38he5da3d1_3"
 container_url: "https://biocontainers.pro/tools/peakachu"
 aliases:
  - "blockbuster.x"
@@ -22,8 +22,9 @@ aliases:
  - "bed_count_by_interval.py"
 versions:
  - "0.2.0--py36h91eb985_2"
+ - "0.2.0--py38he5da3d1_3"
 description: "shpc-registry automated BioContainers addition for peakachu"
-config: {"url": "https://biocontainers.pro/tools/peakachu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peakachu", "latest": {"0.2.0--py36h91eb985_2": "sha256:0858e75e0b0eacff2ccabd49349bc0168aa05ff7879fbabe2f95c1c9c3ae63d4"}, "tags": {"0.2.0--py36h91eb985_2": "sha256:0858e75e0b0eacff2ccabd49349bc0168aa05ff7879fbabe2f95c1c9c3ae63d4"}, "docker": "quay.io/biocontainers/peakachu", "aliases": {"blockbuster.x": "/usr/local/bin/blockbuster.x", "peakachu": "/usr/local/bin/peakachu", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/peakachu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peakachu", "latest": {"0.2.0--py38he5da3d1_3": "sha256:04a96efb638bfae603181a0caa608ebdea37ca4eb6bb9dd8a44f3de86291fa6d"}, "tags": {"0.2.0--py36h91eb985_2": "sha256:0858e75e0b0eacff2ccabd49349bc0168aa05ff7879fbabe2f95c1c9c3ae63d4", "0.2.0--py38he5da3d1_3": "sha256:04a96efb638bfae603181a0caa608ebdea37ca4eb6bb9dd8a44f3de86291fa6d"}, "docker": "quay.io/biocontainers/peakachu", "aliases": {"blockbuster.x": "/usr/local/bin/blockbuster.x", "peakachu": "/usr/local/bin/peakachu", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peakachu.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/peakachu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peakachu:0.2.0--py36h91eb985_2
+$ shpc install quay.io/biocontainers/peakachu:0.2.0--py38he5da3d1_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peakachu/0.2.0--py36h91eb985_2
-$ module help quay.io/biocontainers/peakachu/0.2.0--py36h91eb985_2
+$ module load quay.io/biocontainers/peakachu/0.2.0--py38he5da3d1_3
+$ module help quay.io/biocontainers/peakachu/0.2.0--py38he5da3d1_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/radsex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/radsex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/radsex/container.yaml"
-updated_at: "2023-06-06 03:03:47.153001"
-latest: "1.2.0--h5b5514e_1"
+updated_at: "2023-06-07 03:06:41.473734"
+latest: "1.2.0--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/radsex"
 aliases:
  - "radsex"
 versions:
  - "1.2.0--h5b5514e_1"
+ - "1.2.0--h43eeafb_3"
 description: "shpc-registry automated BioContainers addition for radsex"
-config: {"url": "https://biocontainers.pro/tools/radsex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for radsex", "latest": {"1.2.0--h5b5514e_1": "sha256:ff19a1406972f5d4ea34c7f949eea7ee7a8165d5fe8546db4f6cee9676b9c063"}, "tags": {"1.2.0--h5b5514e_1": "sha256:ff19a1406972f5d4ea34c7f949eea7ee7a8165d5fe8546db4f6cee9676b9c063"}, "docker": "quay.io/biocontainers/radsex", "aliases": {"radsex": "/usr/local/bin/radsex"}}
+config: {"url": "https://biocontainers.pro/tools/radsex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for radsex", "latest": {"1.2.0--h43eeafb_3": "sha256:a112e23532db836103c8027f242e3c0d7624db5d08cc83ba09fbcb55fead3d96"}, "tags": {"1.2.0--h5b5514e_1": "sha256:ff19a1406972f5d4ea34c7f949eea7ee7a8165d5fe8546db4f6cee9676b9c063", "1.2.0--h43eeafb_3": "sha256:a112e23532db836103c8027f242e3c0d7624db5d08cc83ba09fbcb55fead3d96"}, "docker": "quay.io/biocontainers/radsex", "aliases": {"radsex": "/usr/local/bin/radsex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/radsex.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/radsex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/radsex:1.2.0--h5b5514e_1
+$ shpc install quay.io/biocontainers/radsex:1.2.0--h43eeafb_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/radsex/1.2.0--h5b5514e_1
-$ module help quay.io/biocontainers/radsex/1.2.0--h5b5514e_1
+$ module load quay.io/biocontainers/radsex/1.2.0--h43eeafb_3
+$ module help quay.io/biocontainers/radsex/1.2.0--h43eeafb_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

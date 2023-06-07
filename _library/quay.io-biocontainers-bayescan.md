@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bayescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayescan/container.yaml"
-updated_at: "2023-06-06 03:03:31.488551"
-latest: "2.0.1--h9f5acd7_4"
+updated_at: "2023-06-07 03:06:19.063098"
+latest: "2.0.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/bayescan"
 aliases:
  - "bayescan2"
 versions:
  - "2.0.1--h9f5acd7_4"
+ - "2.0.1--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for bayescan"
-config: {"url": "https://biocontainers.pro/tools/bayescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayescan", "latest": {"2.0.1--h9f5acd7_4": "sha256:eb0c8ff2758b2cc408436b45b88cdcaed3e6b5a2d070528f5b58af60ed9da0cb"}, "tags": {"2.0.1--h9f5acd7_4": "sha256:eb0c8ff2758b2cc408436b45b88cdcaed3e6b5a2d070528f5b58af60ed9da0cb"}, "docker": "quay.io/biocontainers/bayescan", "aliases": {"bayescan2": "/usr/local/bin/bayescan2"}}
+config: {"url": "https://biocontainers.pro/tools/bayescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayescan", "latest": {"2.0.1--h4ac6f70_6": "sha256:8e78edefe66fad67b3f641b77e3b5d3bbae6f2a2059736740aed9cd3605eeaa8"}, "tags": {"2.0.1--h9f5acd7_4": "sha256:eb0c8ff2758b2cc408436b45b88cdcaed3e6b5a2d070528f5b58af60ed9da0cb", "2.0.1--h4ac6f70_6": "sha256:8e78edefe66fad67b3f641b77e3b5d3bbae6f2a2059736740aed9cd3605eeaa8"}, "docker": "quay.io/biocontainers/bayescan", "aliases": {"bayescan2": "/usr/local/bin/bayescan2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bayescan.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bayescan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bayescan:2.0.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/bayescan:2.0.1--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bayescan/2.0.1--h9f5acd7_4
-$ module help quay.io/biocontainers/bayescan/2.0.1--h9f5acd7_4
+$ module load quay.io/biocontainers/bayescan/2.0.1--h4ac6f70_6
+$ module help quay.io/biocontainers/bayescan/2.0.1--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

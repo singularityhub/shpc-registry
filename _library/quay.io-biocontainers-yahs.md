@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/yahs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yahs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yahs/container.yaml"
-updated_at: "2023-06-06 03:18:41.508872"
-latest: "1.2a.2--h7132678_0"
+updated_at: "2023-06-07 03:28:05.955493"
+latest: "1.2a.2--he4a0461_2"
 container_url: "https://biocontainers.pro/tools/yahs"
 aliases:
  - "agp_to_fasta"
@@ -13,8 +13,9 @@ aliases:
  - "yahs"
 versions:
  - "1.2a.2--h7132678_0"
+ - "1.2a.2--he4a0461_2"
 description: "shpc-registry automated BioContainers addition for yahs"
-config: {"url": "https://biocontainers.pro/tools/yahs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yahs", "latest": {"1.2a.2--h7132678_0": "sha256:c946489c2a3b5f18f55f8a48059f544db6aed5f94fdde4f712f21210be861f98"}, "tags": {"1.2a.2--h7132678_0": "sha256:c946489c2a3b5f18f55f8a48059f544db6aed5f94fdde4f712f21210be861f98"}, "docker": "quay.io/biocontainers/yahs", "aliases": {"agp_to_fasta": "/usr/local/bin/agp_to_fasta", "juicer": "/usr/local/bin/juicer", "yahs": "/usr/local/bin/yahs"}}
+config: {"url": "https://biocontainers.pro/tools/yahs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yahs", "latest": {"1.2a.2--he4a0461_2": "sha256:d930dec811e552dd88b9a337307c5cb7f6431e4de9d43dce7f1bb760e9c50a09"}, "tags": {"1.2a.2--h7132678_0": "sha256:c946489c2a3b5f18f55f8a48059f544db6aed5f94fdde4f712f21210be861f98", "1.2a.2--he4a0461_2": "sha256:d930dec811e552dd88b9a337307c5cb7f6431e4de9d43dce7f1bb760e9c50a09"}, "docker": "quay.io/biocontainers/yahs", "aliases": {"agp_to_fasta": "/usr/local/bin/agp_to_fasta", "juicer": "/usr/local/bin/juicer", "yahs": "/usr/local/bin/yahs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yahs.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/yahs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yahs:1.2a.2--h7132678_0
+$ shpc install quay.io/biocontainers/yahs:1.2a.2--he4a0461_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yahs/1.2a.2--h7132678_0
-$ module help quay.io/biocontainers/yahs/1.2a.2--h7132678_0
+$ module load quay.io/biocontainers/yahs/1.2a.2--he4a0461_2
+$ module help quay.io/biocontainers/yahs/1.2a.2--he4a0461_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

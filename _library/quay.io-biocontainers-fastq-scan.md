@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastq-scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-scan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-scan/container.yaml"
-updated_at: "2023-06-06 03:07:49.602174"
-latest: "1.0.1--h9f5acd7_0"
+updated_at: "2023-06-07 03:12:31.532260"
+latest: "1.0.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/fastq-scan"
 aliases:
  - "fastq-scan"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.0.0--h9f5acd7_1"
  - "1.0.1--h9f5acd7_0"
+ - "1.0.1--h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for fastq-scan"
-config: {"url": "https://biocontainers.pro/tools/fastq-scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-scan", "latest": {"1.0.1--h9f5acd7_0": "sha256:d20b2c80fff4cdebded1a7934aa857c880d2f3b7cb19d6c400ed667c250222ba"}, "tags": {"1.0.0--h9f5acd7_1": "sha256:02ecc930d960f1e6861fa00afa4c143afa03ad6b98fc118aa118ee950cb5e27e", "1.0.1--h9f5acd7_0": "sha256:d20b2c80fff4cdebded1a7934aa857c880d2f3b7cb19d6c400ed667c250222ba"}, "docker": "quay.io/biocontainers/fastq-scan", "aliases": {"fastq-scan": "/usr/local/bin/fastq-scan", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-scan", "latest": {"1.0.1--h4ac6f70_2": "sha256:679fdd3ffd61e54c2852221dfe9e9ed112c341e20514843ef40b337b11fd4969"}, "tags": {"1.0.0--h9f5acd7_1": "sha256:02ecc930d960f1e6861fa00afa4c143afa03ad6b98fc118aa118ee950cb5e27e", "1.0.1--h9f5acd7_0": "sha256:d20b2c80fff4cdebded1a7934aa857c880d2f3b7cb19d6c400ed667c250222ba", "1.0.1--h4ac6f70_2": "sha256:679fdd3ffd61e54c2852221dfe9e9ed112c341e20514843ef40b337b11fd4969"}, "docker": "quay.io/biocontainers/fastq-scan", "aliases": {"fastq-scan": "/usr/local/bin/fastq-scan", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-scan.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/fastq-scan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-scan:1.0.1--h9f5acd7_0
+$ shpc install quay.io/biocontainers/fastq-scan:1.0.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-scan/1.0.1--h9f5acd7_0
-$ module help quay.io/biocontainers/fastq-scan/1.0.1--h9f5acd7_0
+$ module load quay.io/biocontainers/fastq-scan/1.0.1--h4ac6f70_2
+$ module help quay.io/biocontainers/fastq-scan/1.0.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

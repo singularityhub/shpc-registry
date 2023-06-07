@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/psascan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psascan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psascan/container.yaml"
-updated_at: "2023-06-06 03:02:33.777172"
-latest: "0.1.0--h9f5acd7_3"
+updated_at: "2023-06-07 03:04:55.138733"
+latest: "0.1.0--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/psascan"
 aliases:
  - "psascan"
 versions:
  - "0.1.0--h9f5acd7_3"
+ - "0.1.0--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for psascan"
-config: {"url": "https://biocontainers.pro/tools/psascan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psascan", "latest": {"0.1.0--h9f5acd7_3": "sha256:944b5ed6b0d4327153537bbf9705ec789c85c87f7df6309db80abfbe5ca3658b"}, "tags": {"0.1.0--h9f5acd7_3": "sha256:944b5ed6b0d4327153537bbf9705ec789c85c87f7df6309db80abfbe5ca3658b"}, "docker": "quay.io/biocontainers/psascan", "aliases": {"psascan": "/usr/local/bin/psascan"}}
+config: {"url": "https://biocontainers.pro/tools/psascan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psascan", "latest": {"0.1.0--h4ac6f70_4": "sha256:c2a0f5595a448c37c36a4e977d16dbc7ec242b0e595d3fe07bbf50e9b8f7e22c"}, "tags": {"0.1.0--h9f5acd7_3": "sha256:944b5ed6b0d4327153537bbf9705ec789c85c87f7df6309db80abfbe5ca3658b", "0.1.0--h4ac6f70_4": "sha256:c2a0f5595a448c37c36a4e977d16dbc7ec242b0e595d3fe07bbf50e9b8f7e22c"}, "docker": "quay.io/biocontainers/psascan", "aliases": {"psascan": "/usr/local/bin/psascan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psascan.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/psascan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psascan:0.1.0--h9f5acd7_3
+$ shpc install quay.io/biocontainers/psascan:0.1.0--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psascan/0.1.0--h9f5acd7_3
-$ module help quay.io/biocontainers/psascan/0.1.0--h9f5acd7_3
+$ module load quay.io/biocontainers/psascan/0.1.0--h4ac6f70_4
+$ module help quay.io/biocontainers/psascan/0.1.0--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

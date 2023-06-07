@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bedtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bedtk/container.yaml"
-updated_at: "2023-06-06 03:30:48.011014"
-latest: "0.0.r25.dirty--h7132678_2"
+updated_at: "2023-06-07 03:45:23.377504"
+latest: "0.0.r25.dirty--he4a0461_4"
 container_url: "https://biocontainers.pro/tools/bedtk"
 aliases:
  - "bedtk"
 versions:
  - "0.0.r25.dirty--h7132678_2"
+ - "0.0.r25.dirty--he4a0461_4"
 description: "shpc-registry automated BioContainers addition for bedtk"
-config: {"url": "https://biocontainers.pro/tools/bedtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bedtk", "latest": {"0.0.r25.dirty--h7132678_2": "sha256:7b6775d5f691908e9cd6cd6e2d70ee8ac7cb43ed5acea2f09d235930f9c3aed5"}, "tags": {"0.0.r25.dirty--h7132678_2": "sha256:7b6775d5f691908e9cd6cd6e2d70ee8ac7cb43ed5acea2f09d235930f9c3aed5"}, "docker": "quay.io/biocontainers/bedtk", "aliases": {"bedtk": "/usr/local/bin/bedtk"}}
+config: {"url": "https://biocontainers.pro/tools/bedtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bedtk", "latest": {"0.0.r25.dirty--he4a0461_4": "sha256:1e5b41de8a079e2820596a8cf2e76538cdacf7fa40da0f51717436da77b6f765"}, "tags": {"0.0.r25.dirty--h7132678_2": "sha256:7b6775d5f691908e9cd6cd6e2d70ee8ac7cb43ed5acea2f09d235930f9c3aed5", "0.0.r25.dirty--he4a0461_4": "sha256:1e5b41de8a079e2820596a8cf2e76538cdacf7fa40da0f51717436da77b6f765"}, "docker": "quay.io/biocontainers/bedtk", "aliases": {"bedtk": "/usr/local/bin/bedtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bedtk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bedtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bedtk:0.0.r25.dirty--h7132678_2
+$ shpc install quay.io/biocontainers/bedtk:0.0.r25.dirty--he4a0461_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bedtk/0.0.r25.dirty--h7132678_2
-$ module help quay.io/biocontainers/bedtk/0.0.r25.dirty--h7132678_2
+$ module load quay.io/biocontainers/bedtk/0.0.r25.dirty--he4a0461_4
+$ module help quay.io/biocontainers/bedtk/0.0.r25.dirty--he4a0461_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

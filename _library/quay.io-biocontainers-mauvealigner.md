@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mauvealigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mauvealigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mauvealigner/container.yaml"
-updated_at: "2023-06-06 03:29:34.123692"
+updated_at: "2023-06-07 03:43:38.046647"
 latest: "1.2.0--he153687_5"
 container_url: "https://biocontainers.pro/tools/mauvealigner"
 aliases:

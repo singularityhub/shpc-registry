@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/leviosam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leviosam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leviosam/container.yaml"
-updated_at: "2023-06-06 03:09:56.491529"
-latest: "5.2.1--h9f5acd7_1"
+updated_at: "2023-06-07 03:15:34.365471"
+latest: "5.2.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/leviosam"
 aliases:
  - "leviosam"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "5.2.1--h9f5acd7_1"
+ - "5.2.1--h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for leviosam"
-config: {"url": "https://biocontainers.pro/tools/leviosam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leviosam", "latest": {"5.2.1--h9f5acd7_1": "sha256:f9ce2891e676628c9c99c59abb272f644a5a337d1ff11dfa6a76702ccd0b2310"}, "tags": {"5.2.1--h9f5acd7_1": "sha256:f9ce2891e676628c9c99c59abb272f644a5a337d1ff11dfa6a76702ccd0b2310"}, "docker": "quay.io/biocontainers/leviosam", "aliases": {"leviosam": "/usr/local/bin/leviosam", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/leviosam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leviosam", "latest": {"5.2.1--h4ac6f70_2": "sha256:f9f3f90bae12be3834c416f18a1b6bc57e075104a39f36d645f3f86adcdd7890"}, "tags": {"5.2.1--h9f5acd7_1": "sha256:f9ce2891e676628c9c99c59abb272f644a5a337d1ff11dfa6a76702ccd0b2310", "5.2.1--h4ac6f70_2": "sha256:f9f3f90bae12be3834c416f18a1b6bc57e075104a39f36d645f3f86adcdd7890"}, "docker": "quay.io/biocontainers/leviosam", "aliases": {"leviosam": "/usr/local/bin/leviosam", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/leviosam.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/leviosam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/leviosam:5.2.1--h9f5acd7_1
+$ shpc install quay.io/biocontainers/leviosam:5.2.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/leviosam/5.2.1--h9f5acd7_1
-$ module help quay.io/biocontainers/leviosam/5.2.1--h9f5acd7_1
+$ module load quay.io/biocontainers/leviosam/5.2.1--h4ac6f70_2
+$ module help quay.io/biocontainers/leviosam/5.2.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

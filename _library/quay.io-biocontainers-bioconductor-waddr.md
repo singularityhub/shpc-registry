@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-waddr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-waddr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-waddr/container.yaml"
-updated_at: "2023-06-06 03:12:28.980126"
-latest: "1.12.0--r42hc247a5b_0"
+updated_at: "2023-06-07 03:19:13.392641"
+latest: "1.12.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-waddr"
 aliases:
  - "f2py3.10"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "1.8.0--r41hc247a5b_2"
  - "1.12.0--r42hc247a5b_0"
+ - "1.12.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-waddr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-waddr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-waddr", "latest": {"1.12.0--r42hc247a5b_0": "sha256:6de5e4db6b350aadf5f9b9eedb15b8325c9e4af8685294694c43586f4094207b"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:1a31462e770f43891071166754345cb380c9ec4910745b95bceac569bf8bb677", "1.12.0--r42hc247a5b_0": "sha256:6de5e4db6b350aadf5f9b9eedb15b8325c9e4af8685294694c43586f4094207b"}, "docker": "quay.io/biocontainers/bioconductor-waddr", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-waddr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-waddr", "latest": {"1.12.0--r42hf17093f_1": "sha256:67596e138bc84877a39aa087d71a3faa6d30f3740abdfa89ba9092a777ea0412"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:1a31462e770f43891071166754345cb380c9ec4910745b95bceac569bf8bb677", "1.12.0--r42hc247a5b_0": "sha256:6de5e4db6b350aadf5f9b9eedb15b8325c9e4af8685294694c43586f4094207b", "1.12.0--r42hf17093f_1": "sha256:67596e138bc84877a39aa087d71a3faa6d30f3740abdfa89ba9092a777ea0412"}, "docker": "quay.io/biocontainers/bioconductor-waddr", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-waddr.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-waddr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-waddr:1.12.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-waddr:1.12.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-waddr/1.12.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-waddr/1.12.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-waddr/1.12.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-waddr/1.12.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

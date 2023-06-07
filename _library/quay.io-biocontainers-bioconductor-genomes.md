@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomes/container.yaml"
-updated_at: "2023-06-06 03:22:10.416199"
+updated_at: "2023-06-07 03:33:05.097307"
 latest: "3.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomes"
 

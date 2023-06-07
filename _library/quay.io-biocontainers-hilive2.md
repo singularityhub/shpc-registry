@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hilive2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hilive2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hilive2/container.yaml"
-updated_at: "2023-06-06 03:18:12.495581"
-latest: "2.0a--h2e6a766_2"
+updated_at: "2023-06-07 03:27:24.776355"
+latest: "2.0--he629db7_3"
 container_url: "https://biocontainers.pro/tools/hilive2"
 aliases:
  - "hilive"
@@ -13,8 +13,9 @@ aliases:
  - "hilive-out"
 versions:
  - "2.0a--h2e6a766_2"
+ - "2.0--he629db7_3"
 description: "shpc-registry automated BioContainers addition for hilive2"
-config: {"url": "https://biocontainers.pro/tools/hilive2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hilive2", "latest": {"2.0a--h2e6a766_2": "sha256:8672f9f210bba35b64cee5cebd5610ed03a5acb11ec6df4a9846ed18aa7dfbd6"}, "tags": {"2.0a--h2e6a766_2": "sha256:8672f9f210bba35b64cee5cebd5610ed03a5acb11ec6df4a9846ed18aa7dfbd6"}, "docker": "quay.io/biocontainers/hilive2", "aliases": {"hilive": "/usr/local/bin/hilive", "hilive-build": "/usr/local/bin/hilive-build", "hilive-out": "/usr/local/bin/hilive-out"}}
+config: {"url": "https://biocontainers.pro/tools/hilive2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hilive2", "latest": {"2.0--he629db7_3": "sha256:35a84cd3b0f5e1ef7dae63ad1cd0693db8c911846eb89d93847ae69c81cad726"}, "tags": {"2.0a--h2e6a766_2": "sha256:8672f9f210bba35b64cee5cebd5610ed03a5acb11ec6df4a9846ed18aa7dfbd6", "2.0--he629db7_3": "sha256:35a84cd3b0f5e1ef7dae63ad1cd0693db8c911846eb89d93847ae69c81cad726"}, "docker": "quay.io/biocontainers/hilive2", "aliases": {"hilive": "/usr/local/bin/hilive", "hilive-build": "/usr/local/bin/hilive-build", "hilive-out": "/usr/local/bin/hilive-out"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hilive2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/hilive2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hilive2:2.0a--h2e6a766_2
+$ shpc install quay.io/biocontainers/hilive2:2.0--he629db7_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hilive2/2.0a--h2e6a766_2
-$ module help quay.io/biocontainers/hilive2/2.0a--h2e6a766_2
+$ module load quay.io/biocontainers/hilive2/2.0--he629db7_3
+$ module help quay.io/biocontainers/hilive2/2.0--he629db7_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

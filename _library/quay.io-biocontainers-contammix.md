@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/contammix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contammix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contammix/container.yaml"
-updated_at: "2023-06-06 03:08:14.103854"
-latest: "1.0.11--r42h9f5acd7_1"
+updated_at: "2023-06-07 03:13:06.781060"
+latest: "1.0.11--r42h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/contammix"
 aliases:
  - "contammix"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.0.11--r41h9f5acd7_0"
  - "1.0.11--r42h9f5acd7_1"
+ - "1.0.11--r42h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for contammix"
-config: {"url": "https://biocontainers.pro/tools/contammix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for contammix", "latest": {"1.0.11--r42h9f5acd7_1": "sha256:d082727eaa25a672f29d94e5b6a5d73780599ead0be1eb85dd441bed6da6ed15"}, "tags": {"1.0.11--r41h9f5acd7_0": "sha256:4e0d9a087bb9ea2b41d3cd2510036320d7aef6d73c9e39df4627525900bb1902", "1.0.11--r42h9f5acd7_1": "sha256:d082727eaa25a672f29d94e5b6a5d73780599ead0be1eb85dd441bed6da6ed15"}, "docker": "quay.io/biocontainers/contammix", "aliases": {"contammix": "/usr/local/bin/contammix", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/contammix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for contammix", "latest": {"1.0.11--r42h4ac6f70_2": "sha256:8a73f1c80c62821311682bf9637d1979d51c653e3af56a39dd1028faaa8434b2"}, "tags": {"1.0.11--r41h9f5acd7_0": "sha256:4e0d9a087bb9ea2b41d3cd2510036320d7aef6d73c9e39df4627525900bb1902", "1.0.11--r42h9f5acd7_1": "sha256:d082727eaa25a672f29d94e5b6a5d73780599ead0be1eb85dd441bed6da6ed15", "1.0.11--r42h4ac6f70_2": "sha256:8a73f1c80c62821311682bf9637d1979d51c653e3af56a39dd1028faaa8434b2"}, "docker": "quay.io/biocontainers/contammix", "aliases": {"contammix": "/usr/local/bin/contammix", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/contammix.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/contammix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/contammix:1.0.11--r42h9f5acd7_1
+$ shpc install quay.io/biocontainers/contammix:1.0.11--r42h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/contammix/1.0.11--r42h9f5acd7_1
-$ module help quay.io/biocontainers/contammix/1.0.11--r42h9f5acd7_1
+$ module load quay.io/biocontainers/contammix/1.0.11--r42h4ac6f70_2
+$ module help quay.io/biocontainers/contammix/1.0.11--r42h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

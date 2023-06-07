@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-edger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-edger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-edger/container.yaml"
-updated_at: "2023-06-06 03:26:13.653632"
-latest: "3.40.0--r42hc247a5b_0"
+updated_at: "2023-06-07 03:38:51.829566"
+latest: "3.40.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-edger"
 
 versions:
  - "3.36.0--r41hc247a5b_2"
  - "3.40.0--r42hc247a5b_0"
+ - "3.40.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-edger"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-edger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-edger", "latest": {"3.40.0--r42hc247a5b_0": "sha256:e6ec9c69f2b6bd609b7fd42a2cf9cb346e0f35e1a9a49a3aaaf08365e03956cf"}, "tags": {"3.36.0--r41hc247a5b_2": "sha256:fd4131e86260ead320c0fa1bf1de50c50c018f8ee3dfe1a7626af42f0860b9e8", "3.40.0--r42hc247a5b_0": "sha256:e6ec9c69f2b6bd609b7fd42a2cf9cb346e0f35e1a9a49a3aaaf08365e03956cf"}, "docker": "quay.io/biocontainers/bioconductor-edger"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-edger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-edger", "latest": {"3.40.0--r42hf17093f_1": "sha256:b180a5d2102bdc1693b5c7a219aee157e163ffc1a99273225920b8a4eda11ab7"}, "tags": {"3.36.0--r41hc247a5b_2": "sha256:fd4131e86260ead320c0fa1bf1de50c50c018f8ee3dfe1a7626af42f0860b9e8", "3.40.0--r42hc247a5b_0": "sha256:e6ec9c69f2b6bd609b7fd42a2cf9cb346e0f35e1a9a49a3aaaf08365e03956cf", "3.40.0--r42hf17093f_1": "sha256:b180a5d2102bdc1693b5c7a219aee157e163ffc1a99273225920b8a4eda11ab7"}, "docker": "quay.io/biocontainers/bioconductor-edger"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-edger.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-edger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-edger:3.40.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-edger:3.40.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-edger/3.40.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-edger/3.40.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-edger/3.40.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-edger/3.40.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

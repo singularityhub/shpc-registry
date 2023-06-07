@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vechat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vechat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vechat/container.yaml"
-updated_at: "2023-06-06 03:05:24.851677"
-latest: "1.1.1--hd03093a_0"
+updated_at: "2023-06-07 03:09:02.562824"
+latest: "1.1.1--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/vechat"
 aliases:
  - "fpa"
@@ -24,8 +24,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.1.1--hd03093a_0"
+ - "1.1.1--hdcf5f25_1"
 description: "singularity registry hpc automated addition for vechat"
-config: {"url": "https://biocontainers.pro/tools/vechat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vechat", "latest": {"1.1.1--hd03093a_0": "sha256:3fd6073f81707055f4af8c636a906f8b16778446aabb0c715f5d34adf264854e"}, "tags": {"1.1.1--hd03093a_0": "sha256:3fd6073f81707055f4af8c636a906f8b16778446aabb0c715f5d34adf264854e"}, "docker": "quay.io/biocontainers/vechat", "aliases": {"fpa": "/usr/local/bin/fpa", "vechat": "/usr/local/bin/vechat", "yacrd": "/usr/local/bin/yacrd", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "racon": "/usr/local/bin/racon", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/vechat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vechat", "latest": {"1.1.1--hdcf5f25_1": "sha256:7adc5b3573eb87d8a91dda5bc449e05655955c8caaaa674363aba42f4686e38f"}, "tags": {"1.1.1--hd03093a_0": "sha256:3fd6073f81707055f4af8c636a906f8b16778446aabb0c715f5d34adf264854e", "1.1.1--hdcf5f25_1": "sha256:7adc5b3573eb87d8a91dda5bc449e05655955c8caaaa674363aba42f4686e38f"}, "docker": "quay.io/biocontainers/vechat", "aliases": {"fpa": "/usr/local/bin/fpa", "vechat": "/usr/local/bin/vechat", "yacrd": "/usr/local/bin/yacrd", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "racon": "/usr/local/bin/racon", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vechat.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vechat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vechat:1.1.1--hd03093a_0
+$ shpc install quay.io/biocontainers/vechat:1.1.1--hdcf5f25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vechat/1.1.1--hd03093a_0
-$ module help quay.io/biocontainers/vechat/1.1.1--hd03093a_0
+$ module load quay.io/biocontainers/vechat/1.1.1--hdcf5f25_1
+$ module help quay.io/biocontainers/vechat/1.1.1--hdcf5f25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

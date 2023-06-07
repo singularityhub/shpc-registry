@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/maf2synteny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maf2synteny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maf2synteny/container.yaml"
-updated_at: "2023-06-06 03:29:04.310978"
-latest: "1.2--h87f3376_1"
+updated_at: "2023-06-07 03:42:55.371637"
+latest: "1.2--hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/maf2synteny"
 aliases:
  - "maf2synteny"
 versions:
  - "1.2--h87f3376_1"
+ - "1.2--hdbdd923_3"
 description: "shpc-registry automated BioContainers addition for maf2synteny"
-config: {"url": "https://biocontainers.pro/tools/maf2synteny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maf2synteny", "latest": {"1.2--h87f3376_1": "sha256:e689496243bbcc4a7b0960e91ab59c6a580e1c0d65b20033236c9cd8c083a5b2"}, "tags": {"1.2--h87f3376_1": "sha256:e689496243bbcc4a7b0960e91ab59c6a580e1c0d65b20033236c9cd8c083a5b2"}, "docker": "quay.io/biocontainers/maf2synteny", "aliases": {"maf2synteny": "/usr/local/bin/maf2synteny"}}
+config: {"url": "https://biocontainers.pro/tools/maf2synteny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maf2synteny", "latest": {"1.2--hdbdd923_3": "sha256:0eaf4538351340e292663a9516639793ad6fb2818d64ff8f531a559bd3ebdb17"}, "tags": {"1.2--h87f3376_1": "sha256:e689496243bbcc4a7b0960e91ab59c6a580e1c0d65b20033236c9cd8c083a5b2", "1.2--hdbdd923_3": "sha256:0eaf4538351340e292663a9516639793ad6fb2818d64ff8f531a559bd3ebdb17"}, "docker": "quay.io/biocontainers/maf2synteny", "aliases": {"maf2synteny": "/usr/local/bin/maf2synteny"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maf2synteny.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/maf2synteny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/maf2synteny:1.2--h87f3376_1
+$ shpc install quay.io/biocontainers/maf2synteny:1.2--hdbdd923_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/maf2synteny/1.2--h87f3376_1
-$ module help quay.io/biocontainers/maf2synteny/1.2--h87f3376_1
+$ module load quay.io/biocontainers/maf2synteny/1.2--hdbdd923_3
+$ module help quay.io/biocontainers/maf2synteny/1.2--hdbdd923_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/covtobed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covtobed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covtobed/container.yaml"
-updated_at: "2023-06-06 03:38:41.838988"
-latest: "1.3.5--ha7703dc_1"
+updated_at: "2023-06-07 03:56:42.116266"
+latest: "1.3.5--hf393df8_2"
 container_url: "https://biocontainers.pro/tools/covtobed"
 aliases:
  - "covtobed"
  - "bamtools"
 versions:
  - "1.3.5--ha7703dc_1"
+ - "1.3.5--hf393df8_2"
 description: "shpc-registry automated BioContainers addition for covtobed"
-config: {"url": "https://biocontainers.pro/tools/covtobed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for covtobed", "latest": {"1.3.5--ha7703dc_1": "sha256:12aaf04110f12cff1a9f45218eacb29265dbe81602fc3bf6f43adf64450aabeb"}, "tags": {"1.3.5--ha7703dc_1": "sha256:12aaf04110f12cff1a9f45218eacb29265dbe81602fc3bf6f43adf64450aabeb"}, "docker": "quay.io/biocontainers/covtobed", "aliases": {"covtobed": "/usr/local/bin/covtobed", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/covtobed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for covtobed", "latest": {"1.3.5--hf393df8_2": "sha256:204a2db9004e10949855fa83de020f41d036719c695cc70626de17cb36a49131"}, "tags": {"1.3.5--ha7703dc_1": "sha256:12aaf04110f12cff1a9f45218eacb29265dbe81602fc3bf6f43adf64450aabeb", "1.3.5--hf393df8_2": "sha256:204a2db9004e10949855fa83de020f41d036719c695cc70626de17cb36a49131"}, "docker": "quay.io/biocontainers/covtobed", "aliases": {"covtobed": "/usr/local/bin/covtobed", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/covtobed.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/covtobed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/covtobed:1.3.5--ha7703dc_1
+$ shpc install quay.io/biocontainers/covtobed:1.3.5--hf393df8_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/covtobed/1.3.5--ha7703dc_1
-$ module help quay.io/biocontainers/covtobed/1.3.5--ha7703dc_1
+$ module load quay.io/biocontainers/covtobed/1.3.5--hf393df8_2
+$ module help quay.io/biocontainers/covtobed/1.3.5--hf393df8_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

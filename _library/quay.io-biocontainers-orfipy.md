@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orfipy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfipy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfipy/container.yaml"
-updated_at: "2023-06-06 03:16:59.351718"
-latest: "0.0.4--py38h4a32c8e_1"
+updated_at: "2023-06-07 03:25:40.044400"
+latest: "0.0.4--py39h1f90b4d_2"
 container_url: "https://biocontainers.pro/tools/orfipy"
 aliases:
  - "orfipy"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.0.4--py38h4a32c8e_1"
+ - "0.0.4--py39h1f90b4d_2"
 description: "shpc-registry automated BioContainers addition for orfipy"
-config: {"url": "https://biocontainers.pro/tools/orfipy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfipy", "latest": {"0.0.4--py38h4a32c8e_1": "sha256:991017f28253f56f6a29f588d1e4317aa769c35f21d9cbf270cc048cbf4695bb"}, "tags": {"0.0.4--py38h4a32c8e_1": "sha256:991017f28253f56f6a29f588d1e4317aa769c35f21d9cbf270cc048cbf4695bb"}, "docker": "quay.io/biocontainers/orfipy", "aliases": {"orfipy": "/usr/local/bin/orfipy", "pyfastx": "/usr/local/bin/pyfastx", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/orfipy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfipy", "latest": {"0.0.4--py39h1f90b4d_2": "sha256:e444fe0b55ed07cfd619959b743bb3e521c7f3203fafaf01880f7f6cc506fcb5"}, "tags": {"0.0.4--py38h4a32c8e_1": "sha256:991017f28253f56f6a29f588d1e4317aa769c35f21d9cbf270cc048cbf4695bb", "0.0.4--py39h1f90b4d_2": "sha256:e444fe0b55ed07cfd619959b743bb3e521c7f3203fafaf01880f7f6cc506fcb5"}, "docker": "quay.io/biocontainers/orfipy", "aliases": {"orfipy": "/usr/local/bin/orfipy", "pyfastx": "/usr/local/bin/pyfastx", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orfipy.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/orfipy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orfipy:0.0.4--py38h4a32c8e_1
+$ shpc install quay.io/biocontainers/orfipy:0.0.4--py39h1f90b4d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orfipy/0.0.4--py38h4a32c8e_1
-$ module help quay.io/biocontainers/orfipy/0.0.4--py38h4a32c8e_1
+$ module load quay.io/biocontainers/orfipy/0.0.4--py39h1f90b4d_2
+$ module help quay.io/biocontainers/orfipy/0.0.4--py39h1f90b4d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/starseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starseqr/container.yaml"
-updated_at: "2023-06-06 03:38:09.635397"
-latest: "0.6.7--py39h5371cbf_4"
+updated_at: "2023-06-07 03:55:56.202766"
+latest: "0.6.7--py310hd6be1da_5"
 container_url: "https://biocontainers.pro/tools/starseqr"
 aliases:
  - "gffread"
@@ -18,8 +18,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.6.7--py39h5371cbf_4"
+ - "0.6.7--py310hd6be1da_5"
 description: "shpc-registry automated BioContainers addition for starseqr"
-config: {"url": "https://biocontainers.pro/tools/starseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starseqr", "latest": {"0.6.7--py39h5371cbf_4": "sha256:765b1e3c60a4bd37466be25cbdb4b3f4fcf1a9c5e83f068d3035afdf65095e9c"}, "tags": {"0.6.7--py39h5371cbf_4": "sha256:765b1e3c60a4bd37466be25cbdb4b3f4fcf1a9c5e83f068d3035afdf65095e9c"}, "docker": "quay.io/biocontainers/starseqr", "aliases": {"gffread": "/usr/local/bin/gffread", "starseqr.py": "/usr/local/bin/starseqr.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/starseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starseqr", "latest": {"0.6.7--py310hd6be1da_5": "sha256:88eed12b4814cda4a6d39dada95e662e00ac8191a4f403a511aa26cd7cf478c4"}, "tags": {"0.6.7--py39h5371cbf_4": "sha256:765b1e3c60a4bd37466be25cbdb4b3f4fcf1a9c5e83f068d3035afdf65095e9c", "0.6.7--py310hd6be1da_5": "sha256:88eed12b4814cda4a6d39dada95e662e00ac8191a4f403a511aa26cd7cf478c4"}, "docker": "quay.io/biocontainers/starseqr", "aliases": {"gffread": "/usr/local/bin/gffread", "starseqr.py": "/usr/local/bin/starseqr.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/starseqr.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/starseqr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/starseqr:0.6.7--py39h5371cbf_4
+$ shpc install quay.io/biocontainers/starseqr:0.6.7--py310hd6be1da_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/starseqr/0.6.7--py39h5371cbf_4
-$ module help quay.io/biocontainers/starseqr/0.6.7--py39h5371cbf_4
+$ module load quay.io/biocontainers/starseqr/0.6.7--py310hd6be1da_5
+$ module help quay.io/biocontainers/starseqr/0.6.7--py310hd6be1da_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

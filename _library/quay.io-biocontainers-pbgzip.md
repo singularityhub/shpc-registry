@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pbgzip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbgzip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbgzip/container.yaml"
-updated_at: "2023-06-06 03:01:59.694094"
-latest: "2016.08.04--h67092d7_3"
+updated_at: "2023-06-07 03:04:05.795723"
+latest: "2016.08.04--h9d449c0_4"
 container_url: "https://biocontainers.pro/tools/pbgzip"
 aliases:
  - "pbgzip"
 versions:
  - "2016.08.04--h67092d7_3"
+ - "2016.08.04--h9d449c0_4"
 description: "shpc-registry automated BioContainers addition for pbgzip"
-config: {"url": "https://biocontainers.pro/tools/pbgzip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbgzip", "latest": {"2016.08.04--h67092d7_3": "sha256:a3259f6de5fb63cf9e07e546aec7c9086a6a04f88ab736ff84608a5b9385706f"}, "tags": {"2016.08.04--h67092d7_3": "sha256:a3259f6de5fb63cf9e07e546aec7c9086a6a04f88ab736ff84608a5b9385706f"}, "docker": "quay.io/biocontainers/pbgzip", "aliases": {"pbgzip": "/usr/local/bin/pbgzip"}}
+config: {"url": "https://biocontainers.pro/tools/pbgzip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbgzip", "latest": {"2016.08.04--h9d449c0_4": "sha256:dfef1b7444ee57396c805060b1f7edc1d8042e00a8f70eec4191c77054ff7be3"}, "tags": {"2016.08.04--h67092d7_3": "sha256:a3259f6de5fb63cf9e07e546aec7c9086a6a04f88ab736ff84608a5b9385706f", "2016.08.04--h9d449c0_4": "sha256:dfef1b7444ee57396c805060b1f7edc1d8042e00a8f70eec4191c77054ff7be3"}, "docker": "quay.io/biocontainers/pbgzip", "aliases": {"pbgzip": "/usr/local/bin/pbgzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbgzip.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pbgzip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbgzip:2016.08.04--h67092d7_3
+$ shpc install quay.io/biocontainers/pbgzip:2016.08.04--h9d449c0_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbgzip/2016.08.04--h67092d7_3
-$ module help quay.io/biocontainers/pbgzip/2016.08.04--h67092d7_3
+$ module load quay.io/biocontainers/pbgzip/2016.08.04--h9d449c0_4
+$ module help quay.io/biocontainers/pbgzip/2016.08.04--h9d449c0_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
