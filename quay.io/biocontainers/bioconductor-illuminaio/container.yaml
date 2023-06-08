@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-illuminaio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-illuminaio
 latest:
-  0.40.0--r42hc0cfd56_0: sha256:6f9edfc017010bfc81b395869829915e6e8cb7f3584470b85440672210f36057
+  0.40.0--r42ha9d7317_2: sha256:049d5ee73cc527fcca0e61e5006e955b6f6533f01496163124729759e1df8478
 tags:
   0.36.0--r41hc0cfd56_2: sha256:9efc92f2fa72f18d6533e4ab7038eb611a548d2da10167cc44edcb0293b1e13b
   0.40.0--r42hc0cfd56_0: sha256:6f9edfc017010bfc81b395869829915e6e8cb7f3584470b85440672210f36057
+  0.40.0--r42ha9d7317_2: sha256:049d5ee73cc527fcca0e61e5006e955b6f6533f01496163124729759e1df8478
 docker: quay.io/biocontainers/bioconductor-illuminaio

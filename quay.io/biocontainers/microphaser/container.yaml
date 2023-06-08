@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/microphaser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for microphaser
 latest:
-  0.8.0--h33b3098_0: sha256:b4274fcad623e4397ec2d237f5fb3a5b437fdccf3f99a987ad22a56acfecd394
+  0.8.0--hdc3fcad_2: sha256:f32bdddbe1ccedac81990eb3a0c730ab102905807ae66a0fc25d6fb6c888edf1
 tags:
   0.7.0--h33b3098_1: sha256:f8efebb325c85230d3c71fbf1308af512e2926bb6f2aa45f0c34e5e1b42f6b2a
   0.8.0--h33b3098_0: sha256:b4274fcad623e4397ec2d237f5fb3a5b437fdccf3f99a987ad22a56acfecd394
+  0.8.0--hdc3fcad_2: sha256:f32bdddbe1ccedac81990eb3a0c730ab102905807ae66a0fc25d6fb6c888edf1
 docker: quay.io/biocontainers/microphaser
 aliases:
   microphaser: /usr/local/bin/microphaser

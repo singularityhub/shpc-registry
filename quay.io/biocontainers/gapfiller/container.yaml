@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gapfiller
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gapfiller
 latest:
-  2.1.2--h7ff8a90_3: sha256:a5e07022c9eeb8029b1ee571ba5214a1a3806f763ea02448586cdd336623fe60
+  2.1.2--h7ff8a90_4: sha256:d4b99648da52e325ae894f03f57904dc8eff8d29843c499fbfdc70ef36038b9f
 tags:
   2.1.2--h7ff8a90_3: sha256:a5e07022c9eeb8029b1ee571ba5214a1a3806f763ea02448586cdd336623fe60
+  2.1.2--h7ff8a90_4: sha256:d4b99648da52e325ae894f03f57904dc8eff8d29843c499fbfdc70ef36038b9f
 docker: quay.io/biocontainers/gapfiller
 aliases:
   GapFiller: /usr/local/bin/GapFiller

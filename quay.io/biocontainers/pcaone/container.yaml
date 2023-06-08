@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pcaone
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pcaone
 latest:
-  0.3.2--h761a8d5_0: sha256:0d73402b7ad65f453c1493ad33400dcb54a23e027cbbc8658feea27f21ab3794
+  0.3.2--hf73f384_2: sha256:1f5135499db289a991268b131890fb958b9d0e2a7d34854cf67f74b80b4a958f
 tags:
   0.3.1--h761a8d5_0: sha256:d99c680eaf58f9aa301d77a4addae9b092eef9bc7c5e5f34cbde5de681277366
   0.3.2--h761a8d5_0: sha256:0d73402b7ad65f453c1493ad33400dcb54a23e027cbbc8658feea27f21ab3794
+  0.3.2--hf73f384_2: sha256:1f5135499db289a991268b131890fb958b9d0e2a7d34854cf67f74b80b4a958f
 docker: quay.io/biocontainers/pcaone
 aliases:
   PCAone: /usr/local/bin/PCAone

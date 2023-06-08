@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/angsd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for angsd
 latest:
-  0.940--h6448e42_1: sha256:33684484386bb42303196e8b1ff5c4170d4b8bdc72e7e73e349b434fadbbef25
+  0.940--hce60e53_2: sha256:68d0d98b4462630dcce46b926e6e3812ac05003dc1a8fb54c46b867b0fe200f9
 tags:
   0.939--h470d46e_1: sha256:969d28663c9479680380e8ced285063d51eb7056f0db8b2ed3ebed66497297d3
   0.940--h470d46e_0: sha256:8c66bcd4193150fe945d585c42b6510a11b301b4152b84be734d739366ee8714
   0.940--h6448e42_1: sha256:33684484386bb42303196e8b1ff5c4170d4b8bdc72e7e73e349b434fadbbef25
+  0.940--hce60e53_2: sha256:68d0d98b4462630dcce46b926e6e3812ac05003dc1a8fb54c46b867b0fe200f9
 docker: quay.io/biocontainers/angsd
 aliases:
   NGSadmix: /usr/local/bin/NGSadmix

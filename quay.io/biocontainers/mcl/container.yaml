@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mcl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mcl
 latest:
-  14.137--pl5321hec16e2b_8: sha256:18327f4fcf1427fa7fcd08b852dfc7597581871ae23d86603333aa28593c94ac
+  14.137--pl5321h031d066_9: sha256:576283dc19b0880e40e47a803c1c1f66b1d095066fdbbef70fb9fd4a35fa9c77
 tags:
   14.137--pl5321hec16e2b_8: sha256:18327f4fcf1427fa7fcd08b852dfc7597581871ae23d86603333aa28593c94ac
+  14.137--pl5321h031d066_9: sha256:576283dc19b0880e40e47a803c1c1f66b1d095066fdbbef70fb9fd4a35fa9c77
 docker: quay.io/biocontainers/mcl
 aliases:
   mcl: /usr/local/bin/mcl

@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-bambu
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bambu
 latest:
-  3.0.8--r42hc247a5b_0: sha256:6a79bba2c1abc9a7c3a2d71e3a2aefd3ab86c6cdb8152ae96c71d5b6242508a2
+  3.0.8--r42hf17093f_1: sha256:f3471d69e85010d27a52830b87d3c894eae2fe6dcecbecb871be43817099f540
 tags:
   2.0.6--r41hc247a5b_1: sha256:dc456fb2c0abfeb865104670cade38e62205daeb15347b24fe5c3f0d4d9b93d5
   3.0.1--r42hc247a5b_0: sha256:15e9236ba5abe34941a3106b28684765c37748b82e9722811a1b4e6749b21304
   3.0.5--r42hc247a5b_0: sha256:bcbac11f98154c82436dae8f9dbe0820f5d1e39f31f2dd4cb59d887ff50ac33f
   3.0.6--r42hc247a5b_0: sha256:93b63b7d752a33a20d864810828d1d30eaaa43be34c79eb38add2d11d2dc25ae
   3.0.8--r42hc247a5b_0: sha256:6a79bba2c1abc9a7c3a2d71e3a2aefd3ab86c6cdb8152ae96c71d5b6242508a2
+  3.0.8--r42hf17093f_1: sha256:f3471d69e85010d27a52830b87d3c894eae2fe6dcecbecb871be43817099f540
 docker: quay.io/biocontainers/bioconductor-bambu
 aliases:
   xgboost: /usr/local/bin/xgboost

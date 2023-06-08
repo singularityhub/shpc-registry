@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hopach
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hopach
 latest:
-  2.58.0--r42hc0cfd56_0: sha256:2927cdcb00fb64ab8434f33f3437e26e58fa9679af9bcd2e7cf68ac92d140bef
+  2.58.0--r42ha9d7317_1: sha256:d506269b56ea4b3156184f8b407022400776cfd88898a86e9f2f410e3d0e1503
 tags:
   2.54.0--r41hc0cfd56_2: sha256:a9ada561104f5a197859106c33e5f516830d3e3a3b5611382cc851179ef083c1
   2.58.0--r42hc0cfd56_0: sha256:2927cdcb00fb64ab8434f33f3437e26e58fa9679af9bcd2e7cf68ac92d140bef
+  2.58.0--r42ha9d7317_1: sha256:d506269b56ea4b3156184f8b407022400776cfd88898a86e9f2f410e3d0e1503
 docker: quay.io/biocontainers/bioconductor-hopach

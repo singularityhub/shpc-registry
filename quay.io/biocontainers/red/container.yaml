@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/red
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for red
 latest:
-  2018.09.10--h9f5acd7_0: sha256:a4674781d8393ec8cacfd050f94ea8300a4d37b5e44123abd629f9e5316d8035
+  2018.09.10--h4ac6f70_2: sha256:d2dd7804a9f8b94479e8b9c29341429cbb2dda4dc4ba99cd10d88ece9a72e4be
 tags:
   2018.09.10--h9f5acd7_0: sha256:a4674781d8393ec8cacfd050f94ea8300a4d37b5e44123abd629f9e5316d8035
+  2018.09.10--h4ac6f70_2: sha256:d2dd7804a9f8b94479e8b9c29341429cbb2dda4dc4ba99cd10d88ece9a72e4be
 docker: quay.io/biocontainers/red
 aliases:
   Red: /usr/local/bin/Red

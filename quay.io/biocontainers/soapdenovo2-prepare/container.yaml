@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/soapdenovo2-prepare
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for soapdenovo2-prepare
 latest:
-  2.0--h7132678_6: sha256:d25bea9c5457bb13a0ad5254599bb545f555d99900ac9e01c13431443dd76d61
+  2.0--he4a0461_8: sha256:db855622ff18f988bb3b907d7bc7c510a8e38b7db47e11904a9d0ab707d32622
 tags:
   2.0--h7132678_6: sha256:d25bea9c5457bb13a0ad5254599bb545f555d99900ac9e01c13431443dd76d61
+  2.0--he4a0461_8: sha256:db855622ff18f988bb3b907d7bc7c510a8e38b7db47e11904a9d0ab707d32622
 docker: quay.io/biocontainers/soapdenovo2-prepare
 aliases:
   finalFusion: /usr/local/bin/finalFusion

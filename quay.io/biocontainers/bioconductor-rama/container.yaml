@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rama
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rama
 latest:
-  1.72.0--r42hc0cfd56_0: sha256:e65e8ed776e829fde5b5ebc0f72f20370319818c0dc2f2f2f88ef3243a6731f5
+  1.72.0--r42ha9d7317_2: sha256:607773286be23660540b33b8d11d12896c780b7a107dd4938f42487e36ad0400
 tags:
   1.68.0--r41hc0cfd56_2: sha256:31d2c232e93d19a63983fc5dda4b325a1de1b033d789c4a25fd9be630b73129e
   1.72.0--r42hc0cfd56_0: sha256:e65e8ed776e829fde5b5ebc0f72f20370319818c0dc2f2f2f88ef3243a6731f5
+  1.72.0--r42ha9d7317_2: sha256:607773286be23660540b33b8d11d12896c780b7a107dd4938f42487e36ad0400
 docker: quay.io/biocontainers/bioconductor-rama

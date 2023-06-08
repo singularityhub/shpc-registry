@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rsem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rsem
 latest:
-  1.3.3--pl5321h6b7c446_6: sha256:d12e10de995173cc4e0c806746f30363b7ef99cf8d964da2d6a7653bd3068544
+  1.3.3--pl5321h0033a41_7: sha256:4d71359d148fed821f557ee737fb3766aaae636e61981c15868bbd102c1e4ddc
 tags:
   1.3.3--pl5321ha04fe3b_5: sha256:e436327fa9811f86220f4ee4dc5da42a75b84c2ddc4307478452fa085cf18a29
   1.3.3--pl5321h6b7c446_6: sha256:d12e10de995173cc4e0c806746f30363b7ef99cf8d964da2d6a7653bd3068544
+  1.3.3--pl5321h0033a41_7: sha256:4d71359d148fed821f557ee737fb3766aaae636e61981c15868bbd102c1e4ddc
 docker: quay.io/biocontainers/rsem
 aliases:
   bigWigSummary: /usr/local/bin/bigWigSummary

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/physlr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for physlr
 latest:
-  1.0.4--py39h2df963e_3: sha256:0354b252da85bffe9d99e170523edaf7186cfd5d7cc4a3ac2af44ab49ac8ce3e
+  1.0.4--py39h376f1d3_5: sha256:2a54f45db8e7c05cad4ca7256d5675aba7496fff045ff408b9d3a184f6d70b06
 tags:
   1.0.4--py39h2df963e_2: sha256:9d04b07d3ba6f3148cfa9cdeb537fbe6be927ca7126d7483f04f968055df4787
   1.0.4--py39h2df963e_3: sha256:0354b252da85bffe9d99e170523edaf7186cfd5d7cc4a3ac2af44ab49ac8ce3e
+  1.0.4--py39h376f1d3_5: sha256:2a54f45db8e7c05cad4ca7256d5675aba7496fff045ff408b9d3a184f6d70b06
 docker: quay.io/biocontainers/physlr
 aliases:
   ntcard: /usr/local/bin/ntcard

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ufcg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ufcg
 latest:
-  1.0.3c--hdfd78af_0: sha256:5df9d3a8fcc1c1c6a39dec808d31b5d9a4e798f840dd48254109dff33ebdf782
+  1.0.4--hdfd78af_0: sha256:0d042d65d6e16d62cdc7c7fd49c4fb15d3529e2693f8ba2c5606aca35cb8d189
 tags:
   1.0.3c--hdfd78af_0: sha256:5df9d3a8fcc1c1c6a39dec808d31b5d9a4e798f840dd48254109dff33ebdf782
+  1.0.4--hdfd78af_0: sha256:0d042d65d6e16d62cdc7c7fd49c4fb15d3529e2693f8ba2c5606aca35cb8d189
 docker: quay.io/biocontainers/ufcg
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
