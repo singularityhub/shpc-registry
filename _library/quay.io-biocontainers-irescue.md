@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/irescue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irescue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irescue/container.yaml"
-updated_at: "2023-06-07 04:00:13.419625"
-latest: "1.0.3--pyhdfd78af_0"
+updated_at: "2023-06-08 03:39:10.064954"
+latest: "1.0.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/irescue"
 aliases:
  - "irescue"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.3--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for irescue"
-config: {"url": "https://biocontainers.pro/tools/irescue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irescue", "latest": {"1.0.3--pyhdfd78af_0": "sha256:de700a3659b1d53d8383c605c4285db0df3d50b3a08c6c8558d36b6dd0c8757a"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:4615c3c231c82e8e75f5734eadc535824b2e021debaa0d971e31952d7425ac14", "1.0.3--pyhdfd78af_0": "sha256:de700a3659b1d53d8383c605c4285db0df3d50b3a08c6c8558d36b6dd0c8757a"}, "docker": "quay.io/biocontainers/irescue", "aliases": {"irescue": "/usr/local/bin/irescue", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "normalizer": "/usr/local/bin/normalizer", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq"}}
+config: {"url": "https://biocontainers.pro/tools/irescue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irescue", "latest": {"1.0.3--pyhdfd78af_1": "sha256:79b04b8a6cc07e2c0ac30d7cad908d987b475251c5c72a77432eb84a2288bcaf"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:4615c3c231c82e8e75f5734eadc535824b2e021debaa0d971e31952d7425ac14", "1.0.3--pyhdfd78af_0": "sha256:de700a3659b1d53d8383c605c4285db0df3d50b3a08c6c8558d36b6dd0c8757a", "1.0.3--pyhdfd78af_1": "sha256:79b04b8a6cc07e2c0ac30d7cad908d987b475251c5c72a77432eb84a2288bcaf"}, "docker": "quay.io/biocontainers/irescue", "aliases": {"irescue": "/usr/local/bin/irescue", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "normalizer": "/usr/local/bin/normalizer", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irescue.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/irescue
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/irescue:1.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/irescue:1.0.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/irescue/1.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/irescue/1.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/irescue/1.0.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/irescue/1.0.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

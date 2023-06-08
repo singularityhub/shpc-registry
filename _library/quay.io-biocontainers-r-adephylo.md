@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-adephylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-adephylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-adephylo/container.yaml"
-updated_at: "2023-06-07 03:00:01.521247"
+updated_at: "2023-06-08 02:57:00.643968"
 latest: "1.1_11--r351h96ca727_3"
 container_url: "https://biocontainers.pro/tools/r-adephylo"
 aliases:

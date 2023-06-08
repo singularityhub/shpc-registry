@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ococo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ococo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ococo/container.yaml"
-updated_at: "2023-06-07 03:27:33.236394"
+updated_at: "2023-06-08 03:16:20.400720"
 latest: "0.1.2.7--h146fbdb_8"
 container_url: "https://biocontainers.pro/tools/ococo"
 aliases:

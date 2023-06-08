@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ribotaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotaper/container.yaml"
-updated_at: "2023-06-07 03:22:42.666799"
-latest: "1.3.1a--hec16e2b_5"
+updated_at: "2023-06-08 03:12:54.792224"
+latest: "1.3.1a--h031d066_6"
 container_url: "https://biocontainers.pro/tools/ribotaper"
 aliases:
  - "Ribotaper.sh"
@@ -24,8 +24,9 @@ aliases:
  - "bedtools"
 versions:
  - "1.3.1a--hec16e2b_5"
+ - "1.3.1a--h031d066_6"
 description: "shpc-registry automated BioContainers addition for ribotaper"
-config: {"url": "https://biocontainers.pro/tools/ribotaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribotaper", "latest": {"1.3.1a--hec16e2b_5": "sha256:a83127119089d22f75df125c7040b118961ba0ea10d31f4eb40badb595e2a253"}, "tags": {"1.3.1a--hec16e2b_5": "sha256:a83127119089d22f75df125c7040b118961ba0ea10d31f4eb40badb595e2a253"}, "docker": "quay.io/biocontainers/ribotaper", "aliases": {"Ribotaper.sh": "/usr/local/bin/Ribotaper.sh", "Ribotaper_ORF_find.sh": "/usr/local/bin/Ribotaper_ORF_find.sh", "create_annotations_files.bash": "/usr/local/bin/create_annotations_files.bash", "create_metaplots.bash": "/usr/local/bin/create_metaplots.bash", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
+config: {"url": "https://biocontainers.pro/tools/ribotaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribotaper", "latest": {"1.3.1a--h031d066_6": "sha256:7d305e8e28df027e89339ab32fb42e7a1d95c135b5018a2872b2dc6d11a691d8"}, "tags": {"1.3.1a--hec16e2b_5": "sha256:a83127119089d22f75df125c7040b118961ba0ea10d31f4eb40badb595e2a253", "1.3.1a--h031d066_6": "sha256:7d305e8e28df027e89339ab32fb42e7a1d95c135b5018a2872b2dc6d11a691d8"}, "docker": "quay.io/biocontainers/ribotaper", "aliases": {"Ribotaper.sh": "/usr/local/bin/Ribotaper.sh", "Ribotaper_ORF_find.sh": "/usr/local/bin/Ribotaper_ORF_find.sh", "create_annotations_files.bash": "/usr/local/bin/create_annotations_files.bash", "create_metaplots.bash": "/usr/local/bin/create_metaplots.bash", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribotaper.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/ribotaper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ribotaper:1.3.1a--hec16e2b_5
+$ shpc install quay.io/biocontainers/ribotaper:1.3.1a--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ribotaper/1.3.1a--hec16e2b_5
-$ module help quay.io/biocontainers/ribotaper/1.3.1a--hec16e2b_5
+$ module load quay.io/biocontainers/ribotaper/1.3.1a--h031d066_6
+$ module help quay.io/biocontainers/ribotaper/1.3.1a--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

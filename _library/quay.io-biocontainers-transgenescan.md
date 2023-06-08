@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transgenescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transgenescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transgenescan/container.yaml"
-updated_at: "2023-06-07 03:41:50.201792"
-latest: "1.3.0--hec16e2b_0"
+updated_at: "2023-06-08 03:26:21.910996"
+latest: "1.3.0--h031d066_2"
 container_url: "https://biocontainers.pro/tools/transgenescan"
 aliases:
  - "FGS_gff.py"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.2.1--hec16e2b_3"
  - "1.3.0--hec16e2b_0"
+ - "1.3.0--h031d066_2"
 description: "shpc-registry automated BioContainers addition for transgenescan"
-config: {"url": "https://biocontainers.pro/tools/transgenescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transgenescan", "latest": {"1.3.0--hec16e2b_0": "sha256:994327b77b349a58608a66df19f1934cb7744f101ae5d92953691280dcf2102d"}, "tags": {"1.2.1--hec16e2b_3": "sha256:16d075a5ad7b30b49e7a521e4793a647702355742b7c61c0cdbd61924311c52b", "1.3.0--hec16e2b_0": "sha256:994327b77b349a58608a66df19f1934cb7744f101ae5d92953691280dcf2102d"}, "docker": "quay.io/biocontainers/transgenescan", "aliases": {"FGS_gff.py": "/usr/local/bin/FGS_gff.py", "TransGeneScan": "/usr/local/bin/TransGeneScan", "post_process.pl": "/usr/local/bin/post_process.pl", "processFragOut.py": "/usr/local/bin/processFragOut.py", "run_TransGeneScan.pl": "/usr/local/bin/run_TransGeneScan.pl"}}
+config: {"url": "https://biocontainers.pro/tools/transgenescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transgenescan", "latest": {"1.3.0--h031d066_2": "sha256:170c21dac4fc3dd978aaed4dd464d2ec27dd25d8b638efcc41e507c0c9332084"}, "tags": {"1.2.1--hec16e2b_3": "sha256:16d075a5ad7b30b49e7a521e4793a647702355742b7c61c0cdbd61924311c52b", "1.3.0--hec16e2b_0": "sha256:994327b77b349a58608a66df19f1934cb7744f101ae5d92953691280dcf2102d", "1.3.0--h031d066_2": "sha256:170c21dac4fc3dd978aaed4dd464d2ec27dd25d8b638efcc41e507c0c9332084"}, "docker": "quay.io/biocontainers/transgenescan", "aliases": {"FGS_gff.py": "/usr/local/bin/FGS_gff.py", "TransGeneScan": "/usr/local/bin/TransGeneScan", "post_process.pl": "/usr/local/bin/post_process.pl", "processFragOut.py": "/usr/local/bin/processFragOut.py", "run_TransGeneScan.pl": "/usr/local/bin/run_TransGeneScan.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transgenescan.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/transgenescan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transgenescan:1.3.0--hec16e2b_0
+$ shpc install quay.io/biocontainers/transgenescan:1.3.0--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transgenescan/1.3.0--hec16e2b_0
-$ module help quay.io/biocontainers/transgenescan/1.3.0--hec16e2b_0
+$ module load quay.io/biocontainers/transgenescan/1.3.0--h031d066_2
+$ module help quay.io/biocontainers/transgenescan/1.3.0--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

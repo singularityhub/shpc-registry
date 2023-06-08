@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bs_call"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bs_call/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bs_call/container.yaml"
-updated_at: "2023-06-07 03:55:31.610144"
-latest: "2.02--h7c6eca5_6"
+updated_at: "2023-06-08 03:35:53.609428"
+latest: "2.02--h2156619_8"
 container_url: "https://biocontainers.pro/tools/bs_call"
 aliases:
  - "bs_call"
  - "dbSNP_idx"
 versions:
  - "2.02--h7c6eca5_6"
+ - "2.02--h2156619_8"
 description: "shpc-registry automated BioContainers addition for bs_call"
-config: {"url": "https://biocontainers.pro/tools/bs_call", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bs_call", "latest": {"2.02--h7c6eca5_6": "sha256:f79a73c5da0181343c500784f89b0c3120a1aaba97decdf4bc18bdf0b87e7fc2"}, "tags": {"2.02--h7c6eca5_6": "sha256:f79a73c5da0181343c500784f89b0c3120a1aaba97decdf4bc18bdf0b87e7fc2"}, "docker": "quay.io/biocontainers/bs_call", "aliases": {"bs_call": "/usr/local/bin/bs_call", "dbSNP_idx": "/usr/local/bin/dbSNP_idx"}}
+config: {"url": "https://biocontainers.pro/tools/bs_call", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bs_call", "latest": {"2.02--h2156619_8": "sha256:a62b6bbb8234f9c12fb9ad71d5ebf117583677594d32e762238e6223569b99a7"}, "tags": {"2.02--h7c6eca5_6": "sha256:f79a73c5da0181343c500784f89b0c3120a1aaba97decdf4bc18bdf0b87e7fc2", "2.02--h2156619_8": "sha256:a62b6bbb8234f9c12fb9ad71d5ebf117583677594d32e762238e6223569b99a7"}, "docker": "quay.io/biocontainers/bs_call", "aliases": {"bs_call": "/usr/local/bin/bs_call", "dbSNP_idx": "/usr/local/bin/dbSNP_idx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bs_call.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bs_call
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bs_call:2.02--h7c6eca5_6
+$ shpc install quay.io/biocontainers/bs_call:2.02--h2156619_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bs_call/2.02--h7c6eca5_6
-$ module help quay.io/biocontainers/bs_call/2.02--h7c6eca5_6
+$ module load quay.io/biocontainers/bs_call/2.02--h2156619_8
+$ module help quay.io/biocontainers/bs_call/2.02--h2156619_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

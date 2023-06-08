@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/poseidon-xerxes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poseidon-xerxes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poseidon-xerxes/container.yaml"
-updated_at: "2023-06-07 03:43:15.632163"
+updated_at: "2023-06-08 03:27:21.501636"
 latest: "0.1.2.2--h9325052_1"
 container_url: "https://biocontainers.pro/tools/poseidon-xerxes"
 aliases:

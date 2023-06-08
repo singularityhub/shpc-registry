@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kissplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kissplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kissplice/container.yaml"
-updated_at: "2023-06-07 03:29:05.515238"
-latest: "2.5.5--h5b5514e_0"
+updated_at: "2023-06-08 03:17:25.145902"
+latest: "2.5.5--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/kissplice"
 aliases:
  - "bcalm"
@@ -19,8 +19,9 @@ aliases:
  - "h5cc"
 versions:
  - "2.5.5--h5b5514e_0"
+ - "2.5.5--h43eeafb_2"
 description: "shpc-registry automated BioContainers addition for kissplice"
-config: {"url": "https://biocontainers.pro/tools/kissplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kissplice", "latest": {"2.5.5--h5b5514e_0": "sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1"}, "tags": {"2.5.5--h5b5514e_0": "sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1"}, "docker": "quay.io/biocontainers/kissplice", "aliases": {"bcalm": "/usr/local/bin/bcalm", "kissplice": "/usr/local/bin/kissplice", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/kissplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kissplice", "latest": {"2.5.5--h43eeafb_2": "sha256:073687d2a67acf1a02a2b9b68c5453b98d524f36943416cfab5a788af8ba5878"}, "tags": {"2.5.5--h5b5514e_0": "sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1", "2.5.5--h43eeafb_2": "sha256:073687d2a67acf1a02a2b9b68c5453b98d524f36943416cfab5a788af8ba5878"}, "docker": "quay.io/biocontainers/kissplice", "aliases": {"bcalm": "/usr/local/bin/bcalm", "kissplice": "/usr/local/bin/kissplice", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kissplice.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/kissplice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kissplice:2.5.5--h5b5514e_0
+$ shpc install quay.io/biocontainers/kissplice:2.5.5--h43eeafb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kissplice/2.5.5--h5b5514e_0
-$ module help quay.io/biocontainers/kissplice/2.5.5--h5b5514e_0
+$ module load quay.io/biocontainers/kissplice/2.5.5--h43eeafb_2
+$ module help quay.io/biocontainers/kissplice/2.5.5--h43eeafb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

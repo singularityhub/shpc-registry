@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ibdmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ibdmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ibdmix/container.yaml"
-updated_at: "2023-06-07 03:58:05.402033"
-latest: "1.0.1--h9f5acd7_0"
+updated_at: "2023-06-08 03:37:41.080199"
+latest: "1.0.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/ibdmix"
 aliases:
  - "generate_gt"
@@ -13,8 +13,9 @@ aliases:
  - "ibdmix"
 versions:
  - "1.0.1--h9f5acd7_0"
+ - "1.0.1--h4ac6f70_2"
 description: "singularity registry hpc automated addition for ibdmix"
-config: {"url": "https://biocontainers.pro/tools/ibdmix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ibdmix", "latest": {"1.0.1--h9f5acd7_0": "sha256:a32dfb581a988f7f443cfee3481c9d5093c1a4b349f2f32d38b645c556ca68a2"}, "tags": {"1.0.1--h9f5acd7_0": "sha256:a32dfb581a988f7f443cfee3481c9d5093c1a4b349f2f32d38b645c556ca68a2"}, "docker": "quay.io/biocontainers/ibdmix", "aliases": {"generate_gt": "/usr/local/bin/generate_gt", "gt_lods": "/usr/local/bin/gt_lods", "ibdmix": "/usr/local/bin/ibdmix"}}
+config: {"url": "https://biocontainers.pro/tools/ibdmix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ibdmix", "latest": {"1.0.1--h4ac6f70_2": "sha256:860a6f03f6971c5179a7bd68e56969864a5c7159a600a2787a992a2a047f6856"}, "tags": {"1.0.1--h9f5acd7_0": "sha256:a32dfb581a988f7f443cfee3481c9d5093c1a4b349f2f32d38b645c556ca68a2", "1.0.1--h4ac6f70_2": "sha256:860a6f03f6971c5179a7bd68e56969864a5c7159a600a2787a992a2a047f6856"}, "docker": "quay.io/biocontainers/ibdmix", "aliases": {"generate_gt": "/usr/local/bin/generate_gt", "gt_lods": "/usr/local/bin/gt_lods", "ibdmix": "/usr/local/bin/ibdmix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ibdmix.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ibdmix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ibdmix:1.0.1--h9f5acd7_0
+$ shpc install quay.io/biocontainers/ibdmix:1.0.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ibdmix/1.0.1--h9f5acd7_0
-$ module help quay.io/biocontainers/ibdmix/1.0.1--h9f5acd7_0
+$ module load quay.io/biocontainers/ibdmix/1.0.1--h4ac6f70_2
+$ module help quay.io/biocontainers/ibdmix/1.0.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-futile.options"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-futile.options/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-futile.options/container.yaml"
-updated_at: "2023-06-07 03:29:31.994893"
+updated_at: "2023-06-08 03:17:43.548638"
 latest: "1.0.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-futile.options"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/falco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/falco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/falco/container.yaml"
-updated_at: "2023-06-07 03:21:09.683720"
-latest: "1.2.1--hd36ca80_4"
+updated_at: "2023-06-08 03:11:49.022040"
+latest: "1.2.1--h146fbdb_5"
 container_url: "https://biocontainers.pro/tools/falco"
 aliases:
  - "falco"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.2.1--h867801b_3"
  - "1.2.1--hd36ca80_4"
+ - "1.2.1--h146fbdb_5"
 description: "shpc-registry automated BioContainers addition for falco"
-config: {"url": "https://biocontainers.pro/tools/falco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for falco", "latest": {"1.2.1--hd36ca80_4": "sha256:237d6382e9353759cba9fdd521a8ff4afb6b0d50c9148824b04d367abb500d96"}, "tags": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2", "1.2.1--hd36ca80_4": "sha256:237d6382e9353759cba9fdd521a8ff4afb6b0d50c9148824b04d367abb500d96"}, "docker": "quay.io/biocontainers/falco", "aliases": {"falco": "/usr/local/bin/falco", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/falco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for falco", "latest": {"1.2.1--h146fbdb_5": "sha256:025f86e5c01d1bf6e1a90791926a0046852860592d2b2b2b9d2366b0532d57f0"}, "tags": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2", "1.2.1--hd36ca80_4": "sha256:237d6382e9353759cba9fdd521a8ff4afb6b0d50c9148824b04d367abb500d96", "1.2.1--h146fbdb_5": "sha256:025f86e5c01d1bf6e1a90791926a0046852860592d2b2b2b9d2366b0532d57f0"}, "docker": "quay.io/biocontainers/falco", "aliases": {"falco": "/usr/local/bin/falco", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/falco.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/falco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/falco:1.2.1--hd36ca80_4
+$ shpc install quay.io/biocontainers/falco:1.2.1--h146fbdb_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/falco/1.2.1--hd36ca80_4
-$ module help quay.io/biocontainers/falco/1.2.1--hd36ca80_4
+$ module load quay.io/biocontainers/falco/1.2.1--h146fbdb_5
+$ module help quay.io/biocontainers/falco/1.2.1--h146fbdb_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

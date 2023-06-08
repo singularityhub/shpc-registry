@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/minimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimap/container.yaml"
-updated_at: "2023-06-07 03:12:41.207995"
-latest: "0.2_r124--h7132678_5"
+updated_at: "2023-06-08 03:05:52.241353"
+latest: "0.2_r124--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/minimap"
 
 versions:
  - "0.2_r124--h7132678_5"
+ - "0.2_r124--he4a0461_7"
 description: "shpc-registry automated BioContainers addition for minimap"
-config: {"url": "https://biocontainers.pro/tools/minimap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minimap", "latest": {"0.2_r124--h7132678_5": "sha256:9c29e2f2f305f9eec90e3a45b08fb0a292d77a8e2de8b7426f47d735fcec53ce"}, "tags": {"0.2_r124--h7132678_5": "sha256:9c29e2f2f305f9eec90e3a45b08fb0a292d77a8e2de8b7426f47d735fcec53ce"}, "docker": "quay.io/biocontainers/minimap"}
+config: {"url": "https://biocontainers.pro/tools/minimap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minimap", "latest": {"0.2_r124--he4a0461_7": "sha256:7a74cd991e5bf37ebef6b05eef29a1c6f8514db911a997c8c49129a682b1593f"}, "tags": {"0.2_r124--h7132678_5": "sha256:9c29e2f2f305f9eec90e3a45b08fb0a292d77a8e2de8b7426f47d735fcec53ce", "0.2_r124--he4a0461_7": "sha256:7a74cd991e5bf37ebef6b05eef29a1c6f8514db911a997c8c49129a682b1593f"}, "docker": "quay.io/biocontainers/minimap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minimap.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/minimap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minimap:0.2_r124--h7132678_5
+$ shpc install quay.io/biocontainers/minimap:0.2_r124--he4a0461_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minimap/0.2_r124--h7132678_5
-$ module help quay.io/biocontainers/minimap/0.2_r124--h7132678_5
+$ module load quay.io/biocontainers/minimap/0.2_r124--he4a0461_7
+$ module help quay.io/biocontainers/minimap/0.2_r124--he4a0461_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/miranda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miranda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miranda/container.yaml"
-updated_at: "2023-06-07 03:24:51.939355"
-latest: "3.3a--hec16e2b_4"
+updated_at: "2023-06-08 03:14:26.471027"
+latest: "3.3a--h031d066_6"
 container_url: "https://biocontainers.pro/tools/miranda"
 aliases:
  - "miranda"
 versions:
  - "3.3a--hec16e2b_4"
+ - "3.3a--h031d066_6"
 description: "shpc-registry automated BioContainers addition for miranda"
-config: {"url": "https://biocontainers.pro/tools/miranda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miranda", "latest": {"3.3a--hec16e2b_4": "sha256:5681a6107514bb7156eafba3e6784a4b83d768454dea9b14f93968640ac2f0aa"}, "tags": {"3.3a--hec16e2b_4": "sha256:5681a6107514bb7156eafba3e6784a4b83d768454dea9b14f93968640ac2f0aa"}, "docker": "quay.io/biocontainers/miranda", "aliases": {"miranda": "/usr/local/bin/miranda"}}
+config: {"url": "https://biocontainers.pro/tools/miranda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miranda", "latest": {"3.3a--h031d066_6": "sha256:94665640c12048259d9e1edd3b582ae7ed4ce325b7c3bf52dd4e1720911f20f6"}, "tags": {"3.3a--hec16e2b_4": "sha256:5681a6107514bb7156eafba3e6784a4b83d768454dea9b14f93968640ac2f0aa", "3.3a--h031d066_6": "sha256:94665640c12048259d9e1edd3b582ae7ed4ce325b7c3bf52dd4e1720911f20f6"}, "docker": "quay.io/biocontainers/miranda", "aliases": {"miranda": "/usr/local/bin/miranda"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/miranda.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/miranda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/miranda:3.3a--hec16e2b_4
+$ shpc install quay.io/biocontainers/miranda:3.3a--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/miranda/3.3a--hec16e2b_4
-$ module help quay.io/biocontainers/miranda/3.3a--hec16e2b_4
+$ module load quay.io/biocontainers/miranda/3.3a--h031d066_6
+$ module help quay.io/biocontainers/miranda/3.3a--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

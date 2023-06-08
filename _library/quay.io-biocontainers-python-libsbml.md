@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-libsbml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-libsbml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-libsbml/container.yaml"
-updated_at: "2023-06-07 03:18:35.204633"
-latest: "5.18.0--py37hdb953fb_4"
+updated_at: "2023-06-08 03:10:00.214822"
+latest: "5.18.0--py38hfa3b0b9_6"
 container_url: "https://biocontainers.pro/tools/python-libsbml"
 aliases:
  - "2to3-3.7"
@@ -19,8 +19,9 @@ aliases:
  - "pyvenv"
 versions:
  - "5.18.0--py37hdb953fb_4"
+ - "5.18.0--py38hfa3b0b9_6"
 description: "shpc-registry automated BioContainers addition for python-libsbml"
-config: {"url": "https://biocontainers.pro/tools/python-libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-libsbml", "latest": {"5.18.0--py37hdb953fb_4": "sha256:bce45246db7f032e3997937cc4c17e2e473c9062829062c1aab2e96e3f136a63"}, "tags": {"5.18.0--py37hdb953fb_4": "sha256:bce45246db7f032e3997937cc4c17e2e473c9062829062c1aab2e96e3f136a63"}, "docker": "quay.io/biocontainers/python-libsbml", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/python-libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-libsbml", "latest": {"5.18.0--py38hfa3b0b9_6": "sha256:38ced9e2c66d636d3366041bbe52b9c6443513a80569bbfb25aa491a2c2ef3ab"}, "tags": {"5.18.0--py37hdb953fb_4": "sha256:bce45246db7f032e3997937cc4c17e2e473c9062829062c1aab2e96e3f136a63", "5.18.0--py38hfa3b0b9_6": "sha256:38ced9e2c66d636d3366041bbe52b9c6443513a80569bbfb25aa491a2c2ef3ab"}, "docker": "quay.io/biocontainers/python-libsbml", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-libsbml.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/python-libsbml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-libsbml:5.18.0--py37hdb953fb_4
+$ shpc install quay.io/biocontainers/python-libsbml:5.18.0--py38hfa3b0b9_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-libsbml/5.18.0--py37hdb953fb_4
-$ module help quay.io/biocontainers/python-libsbml/5.18.0--py37hdb953fb_4
+$ module load quay.io/biocontainers/python-libsbml/5.18.0--py38hfa3b0b9_6
+$ module help quay.io/biocontainers/python-libsbml/5.18.0--py38hfa3b0b9_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

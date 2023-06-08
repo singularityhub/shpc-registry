@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tpp/container.yaml"
-updated_at: "2023-06-07 03:47:36.059965"
+updated_at: "2023-06-08 03:30:22.924198"
 latest: "3.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tpp"
 

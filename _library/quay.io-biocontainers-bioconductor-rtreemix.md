@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rtreemix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtreemix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtreemix/container.yaml"
-updated_at: "2023-06-07 03:42:46.920553"
-latest: "1.60.0--r42hc247a5b_0"
+updated_at: "2023-06-08 03:27:01.367057"
+latest: "1.60.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtreemix"
 
 versions:
  - "1.56.0--r41hc247a5b_2"
  - "1.60.0--r42hc247a5b_0"
+ - "1.60.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtreemix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtreemix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtreemix", "latest": {"1.60.0--r42hc247a5b_0": "sha256:ad5089f311eff740cee255604227bcdee5bf4e85aa1f81fec8969d991f772ecc"}, "tags": {"1.56.0--r41hc247a5b_2": "sha256:41f000b32e82c69425a948f7908085a3284845003363abbd10892cb5deed3c14", "1.60.0--r42hc247a5b_0": "sha256:ad5089f311eff740cee255604227bcdee5bf4e85aa1f81fec8969d991f772ecc"}, "docker": "quay.io/biocontainers/bioconductor-rtreemix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtreemix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtreemix", "latest": {"1.60.0--r42hf17093f_1": "sha256:e104985392c30a90540a3d38b834c5b14a3281cf86f42f794c95e7d29c0973c7"}, "tags": {"1.56.0--r41hc247a5b_2": "sha256:41f000b32e82c69425a948f7908085a3284845003363abbd10892cb5deed3c14", "1.60.0--r42hc247a5b_0": "sha256:ad5089f311eff740cee255604227bcdee5bf4e85aa1f81fec8969d991f772ecc", "1.60.0--r42hf17093f_1": "sha256:e104985392c30a90540a3d38b834c5b14a3281cf86f42f794c95e7d29c0973c7"}, "docker": "quay.io/biocontainers/bioconductor-rtreemix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtreemix.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtreemix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtreemix:1.60.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-rtreemix:1.60.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtreemix/1.60.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-rtreemix/1.60.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-rtreemix/1.60.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-rtreemix/1.60.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

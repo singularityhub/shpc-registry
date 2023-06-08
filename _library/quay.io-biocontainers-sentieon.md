@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sentieon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sentieon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sentieon/container.yaml"
-updated_at: "2023-06-07 03:16:13.200531"
-latest: "202112.07--h5b5514e_0"
+updated_at: "2023-06-08 03:08:20.775176"
+latest: "202112.07--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/sentieon"
 aliases:
  - "sentieon"
@@ -21,8 +21,9 @@ versions:
  - "202112.06--h5b5514e_0"
  - "202112.06--h5b5514e_1"
  - "202112.07--h5b5514e_0"
+ - "202112.07--h43eeafb_2"
 description: "shpc-registry automated BioContainers addition for sentieon"
-config: {"url": "https://biocontainers.pro/tools/sentieon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sentieon", "latest": {"202112.07--h5b5514e_0": "sha256:eef3a77dfa211ca808f7e12dbcb45bcf3c24f7bdffa9b6e63518d3d49c64d1fb"}, "tags": {"202112.05--h5b5514e_1": "sha256:77ac2ecdf69680d30338e4c369f69795d40d9a44f6da1099ec00e602ef2e44d6", "202112.06--h5b5514e_0": "sha256:3c10a25f512c051776d9cfb77984b0c9b4c2a2ff1c2adaf5d6533a083e469665", "202112.06--h5b5514e_1": "sha256:2f8ef0f9155f837fcb4c053aea22fc94540592d0e3fcbf32956ea83f6e686a85", "202112.07--h5b5514e_0": "sha256:eef3a77dfa211ca808f7e12dbcb45bcf3c24f7bdffa9b6e63518d3d49c64d1fb"}, "docker": "quay.io/biocontainers/sentieon", "aliases": {"sentieon": "/usr/local/bin/sentieon", "sentieon-bwa": "/usr/local/bin/sentieon-bwa", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/sentieon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sentieon", "latest": {"202112.07--h43eeafb_2": "sha256:8a9c7893da49f3e0f6635a1dc6bedd62caf756df723bf802ddec181e25f90a01"}, "tags": {"202112.05--h5b5514e_1": "sha256:77ac2ecdf69680d30338e4c369f69795d40d9a44f6da1099ec00e602ef2e44d6", "202112.06--h5b5514e_0": "sha256:3c10a25f512c051776d9cfb77984b0c9b4c2a2ff1c2adaf5d6533a083e469665", "202112.06--h5b5514e_1": "sha256:2f8ef0f9155f837fcb4c053aea22fc94540592d0e3fcbf32956ea83f6e686a85", "202112.07--h5b5514e_0": "sha256:eef3a77dfa211ca808f7e12dbcb45bcf3c24f7bdffa9b6e63518d3d49c64d1fb", "202112.07--h43eeafb_2": "sha256:8a9c7893da49f3e0f6635a1dc6bedd62caf756df723bf802ddec181e25f90a01"}, "docker": "quay.io/biocontainers/sentieon", "aliases": {"sentieon": "/usr/local/bin/sentieon", "sentieon-bwa": "/usr/local/bin/sentieon-bwa", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sentieon.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/sentieon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sentieon:202112.07--h5b5514e_0
+$ shpc install quay.io/biocontainers/sentieon:202112.07--h43eeafb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sentieon/202112.07--h5b5514e_0
-$ module help quay.io/biocontainers/sentieon/202112.07--h5b5514e_0
+$ module load quay.io/biocontainers/sentieon/202112.07--h43eeafb_2
+$ module help quay.io/biocontainers/sentieon/202112.07--h43eeafb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

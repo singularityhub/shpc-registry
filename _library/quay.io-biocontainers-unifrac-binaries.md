@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unifrac-binaries"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unifrac-binaries/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unifrac-binaries/container.yaml"
-updated_at: "2023-06-07 03:25:01.292191"
-latest: "1.3.1--h73f19ed_0"
+updated_at: "2023-06-08 03:14:33.054266"
+latest: "1.3.2--hb7a8b62_2"
 container_url: "https://biocontainers.pro/tools/unifrac-binaries"
 aliases:
  - "faithpd"
@@ -21,8 +21,9 @@ versions:
  - "1.2--h73f19ed_1"
  - "1.3--h73f19ed_0"
  - "1.3.1--h73f19ed_0"
+ - "1.3.2--hb7a8b62_2"
 description: "singularity registry hpc automated addition for unifrac-binaries"
-config: {"url": "https://biocontainers.pro/tools/unifrac-binaries", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unifrac-binaries", "latest": {"1.3.1--h73f19ed_0": "sha256:160867dc5dbf8f102827dabf330f59d0ef4fcef94d2ab3b51f7b600a3539d773"}, "tags": {"1.2.1--h73f19ed_0": "sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82", "1.2--h73f19ed_1": "sha256:abf06bfaa768b6445729da95163f7d2cb5de0ed24a342f8cdf0abf627f0a668e", "1.3--h73f19ed_0": "sha256:0f4151fe3507771bd2c253dc60dfc76b52d22cecfbcfa84e05883f31d5676107", "1.3.1--h73f19ed_0": "sha256:160867dc5dbf8f102827dabf330f59d0ef4fcef94d2ab3b51f7b600a3539d773"}, "docker": "quay.io/biocontainers/unifrac-binaries", "aliases": {"faithpd": "/usr/local/bin/faithpd", "ssu": "/usr/local/bin/ssu", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/unifrac-binaries", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unifrac-binaries", "latest": {"1.3.2--hb7a8b62_2": "sha256:2e9d25bf4ee145311464aa55e0fda00120130db35e6bfe4d8c50262673e44190"}, "tags": {"1.2.1--h73f19ed_0": "sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82", "1.2--h73f19ed_1": "sha256:abf06bfaa768b6445729da95163f7d2cb5de0ed24a342f8cdf0abf627f0a668e", "1.3--h73f19ed_0": "sha256:0f4151fe3507771bd2c253dc60dfc76b52d22cecfbcfa84e05883f31d5676107", "1.3.1--h73f19ed_0": "sha256:160867dc5dbf8f102827dabf330f59d0ef4fcef94d2ab3b51f7b600a3539d773", "1.3.2--hb7a8b62_2": "sha256:2e9d25bf4ee145311464aa55e0fda00120130db35e6bfe4d8c50262673e44190"}, "docker": "quay.io/biocontainers/unifrac-binaries", "aliases": {"faithpd": "/usr/local/bin/faithpd", "ssu": "/usr/local/bin/ssu", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unifrac-binaries.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/unifrac-binaries
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unifrac-binaries:1.3.1--h73f19ed_0
+$ shpc install quay.io/biocontainers/unifrac-binaries:1.3.2--hb7a8b62_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unifrac-binaries/1.3.1--h73f19ed_0
-$ module help quay.io/biocontainers/unifrac-binaries/1.3.1--h73f19ed_0
+$ module load quay.io/biocontainers/unifrac-binaries/1.3.2--hb7a8b62_2
+$ module help quay.io/biocontainers/unifrac-binaries/1.3.2--hb7a8b62_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

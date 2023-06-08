@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/megahit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megahit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megahit/container.yaml"
-updated_at: "2023-06-07 03:20:16.773747"
-latest: "1.2.9--h5b5514e_2"
+updated_at: "2023-06-08 03:11:11.559839"
+latest: "1.2.9--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/megahit"
 aliases:
  - "megahit"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.2.9--h2e03b76_1"
  - "1.2.9--h5b5514e_2"
+ - "1.2.9--h43eeafb_4"
 description: "shpc-registry automated BioContainers addition for megahit"
-config: {"url": "https://biocontainers.pro/tools/megahit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megahit", "latest": {"1.2.9--h5b5514e_2": "sha256:65621942192b5c103e04084a4075e83b5651b43957a4cfe1038b8ff51e8d1518"}, "tags": {"1.2.9--h2e03b76_1": "sha256:08798a4ea02e792fcf38286ba6bfa702c6ffe4d809981e3839bf17d306965972", "1.2.9--h5b5514e_2": "sha256:65621942192b5c103e04084a4075e83b5651b43957a4cfe1038b8ff51e8d1518"}, "docker": "quay.io/biocontainers/megahit", "aliases": {"megahit": "/usr/local/bin/megahit", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "megahit_toolkit": "/usr/local/bin/megahit_toolkit", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/megahit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megahit", "latest": {"1.2.9--h43eeafb_4": "sha256:fb2ef7d5195d26dbb519e117d15377582bc71f370b579f787e6f87b36b9fa68b"}, "tags": {"1.2.9--h2e03b76_1": "sha256:08798a4ea02e792fcf38286ba6bfa702c6ffe4d809981e3839bf17d306965972", "1.2.9--h5b5514e_2": "sha256:65621942192b5c103e04084a4075e83b5651b43957a4cfe1038b8ff51e8d1518", "1.2.9--h43eeafb_4": "sha256:fb2ef7d5195d26dbb519e117d15377582bc71f370b579f787e6f87b36b9fa68b"}, "docker": "quay.io/biocontainers/megahit", "aliases": {"megahit": "/usr/local/bin/megahit", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "megahit_toolkit": "/usr/local/bin/megahit_toolkit", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/megahit.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/megahit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/megahit:1.2.9--h5b5514e_2
+$ shpc install quay.io/biocontainers/megahit:1.2.9--h43eeafb_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/megahit/1.2.9--h5b5514e_2
-$ module help quay.io/biocontainers/megahit/1.2.9--h5b5514e_2
+$ module load quay.io/biocontainers/megahit/1.2.9--h43eeafb_4
+$ module help quay.io/biocontainers/megahit/1.2.9--h43eeafb_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

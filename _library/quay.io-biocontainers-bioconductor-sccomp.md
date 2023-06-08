@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sccomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sccomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sccomp/container.yaml"
-updated_at: "2023-06-07 03:11:47.639085"
-latest: "1.1.0--r42hc247a5b_0"
+updated_at: "2023-06-08 03:05:14.695705"
+latest: "1.1.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sccomp"
 aliases:
  - "geosop"
@@ -28,8 +28,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.1.0--r42hc247a5b_0"
+ - "1.1.0--r42hf17093f_1"
 description: "singularity registry hpc automated addition for bioconductor-sccomp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sccomp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sccomp", "latest": {"1.1.0--r42hc247a5b_0": "sha256:7d49980da8b0e0cf08a6ca4d413bfc1b5c79630726f16a5603c2ad93c400776d"}, "tags": {"1.1.0--r42hc247a5b_0": "sha256:7d49980da8b0e0cf08a6ca4d413bfc1b5c79630726f16a5603c2ad93c400776d"}, "docker": "quay.io/biocontainers/bioconductor-sccomp", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sccomp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sccomp", "latest": {"1.1.0--r42hf17093f_1": "sha256:df828ec7d9d64cefe4f89f346b49a1d828198e6f07010438e940aa931b22b155"}, "tags": {"1.1.0--r42hc247a5b_0": "sha256:7d49980da8b0e0cf08a6ca4d413bfc1b5c79630726f16a5603c2ad93c400776d", "1.1.0--r42hf17093f_1": "sha256:df828ec7d9d64cefe4f89f346b49a1d828198e6f07010438e940aa931b22b155"}, "docker": "quay.io/biocontainers/bioconductor-sccomp", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sccomp.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sccomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sccomp:1.1.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-sccomp:1.1.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sccomp/1.1.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-sccomp/1.1.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-sccomp/1.1.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-sccomp/1.1.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

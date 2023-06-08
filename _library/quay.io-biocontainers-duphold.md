@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/duphold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duphold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duphold/container.yaml"
-updated_at: "2023-06-07 03:50:15.073039"
-latest: "0.2.1--hec16e2b_3"
+updated_at: "2023-06-08 03:32:13.807653"
+latest: "0.2.1--h031d066_4"
 container_url: "https://biocontainers.pro/tools/duphold"
 aliases:
  - "duphold"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.2.1--hec16e2b_3"
+ - "0.2.1--h031d066_4"
 description: "shpc-registry automated BioContainers addition for duphold"
-config: {"url": "https://biocontainers.pro/tools/duphold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duphold", "latest": {"0.2.1--hec16e2b_3": "sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237"}, "tags": {"0.2.1--hec16e2b_3": "sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237"}, "docker": "quay.io/biocontainers/duphold", "aliases": {"duphold": "/usr/local/bin/duphold", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/duphold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duphold", "latest": {"0.2.1--h031d066_4": "sha256:c87ba36d6c06c0b88283425e1914dba45fef68a8a06ea4792d99819706d2e5f0"}, "tags": {"0.2.1--hec16e2b_3": "sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237", "0.2.1--h031d066_4": "sha256:c87ba36d6c06c0b88283425e1914dba45fef68a8a06ea4792d99819706d2e5f0"}, "docker": "quay.io/biocontainers/duphold", "aliases": {"duphold": "/usr/local/bin/duphold", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/duphold.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/duphold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/duphold:0.2.1--hec16e2b_3
+$ shpc install quay.io/biocontainers/duphold:0.2.1--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/duphold/0.2.1--hec16e2b_3
-$ module help quay.io/biocontainers/duphold/0.2.1--hec16e2b_3
+$ module load quay.io/biocontainers/duphold/0.2.1--h031d066_4
+$ module help quay.io/biocontainers/duphold/0.2.1--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

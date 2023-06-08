@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/pear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pear/container.yaml"
-updated_at: "2023-06-07 03:01:40.827710"
-latest: "0.9.6--h67092d7_8"
+updated_at: "2023-06-08 02:58:09.111844"
+latest: "0.9.6--h9d449c0_10"
 container_url: "https://biocontainers.pro/tools/pear"
 aliases:
  - "pear"
  - "pearRM"
 versions:
  - "0.9.6--h67092d7_8"
+ - "0.9.6--h9d449c0_10"
 description: "shpc-registry automated BioContainers addition for pear"
-config: {"url": "https://biocontainers.pro/tools/pear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pear", "latest": {"0.9.6--h67092d7_8": "sha256:a7f529795c2d8d94f4c197fbdb62452299536ed03978200cd995b32c7315ac5e"}, "tags": {"0.9.6--h67092d7_8": "sha256:a7f529795c2d8d94f4c197fbdb62452299536ed03978200cd995b32c7315ac5e"}, "docker": "quay.io/biocontainers/pear", "aliases": {"pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM"}}
+config: {"url": "https://biocontainers.pro/tools/pear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pear", "latest": {"0.9.6--h9d449c0_10": "sha256:e12f7c93da40fbd416491489e5ff86dae979ccfc7530f9a4573c46725bc90f34"}, "tags": {"0.9.6--h67092d7_8": "sha256:a7f529795c2d8d94f4c197fbdb62452299536ed03978200cd995b32c7315ac5e", "0.9.6--h9d449c0_10": "sha256:e12f7c93da40fbd416491489e5ff86dae979ccfc7530f9a4573c46725bc90f34"}, "docker": "quay.io/biocontainers/pear", "aliases": {"pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pear.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/pear
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pear:0.9.6--h67092d7_8
+$ shpc install quay.io/biocontainers/pear:0.9.6--h9d449c0_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pear/0.9.6--h67092d7_8
-$ module help quay.io/biocontainers/pear/0.9.6--h67092d7_8
+$ module load quay.io/biocontainers/pear/0.9.6--h9d449c0_10
+$ module help quay.io/biocontainers/pear/0.9.6--h9d449c0_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

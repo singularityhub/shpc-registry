@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rock/container.yaml"
-updated_at: "2023-06-07 03:53:00.811100"
-latest: "2.0--h9f5acd7_0"
+updated_at: "2023-06-08 03:34:09.195311"
+latest: "2.0--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/rock"
 aliases:
  - "rock"
 versions:
  - "2.0--h9f5acd7_0"
+ - "2.0--h4ac6f70_2"
 description: "singularity registry hpc automated addition for rock"
-config: {"url": "https://biocontainers.pro/tools/rock", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rock", "latest": {"2.0--h9f5acd7_0": "sha256:7c1eccd07a6499a89d315006ab918590bcbe0ba8ee5914a59ffb038a0a03c2c1"}, "tags": {"2.0--h9f5acd7_0": "sha256:7c1eccd07a6499a89d315006ab918590bcbe0ba8ee5914a59ffb038a0a03c2c1"}, "docker": "quay.io/biocontainers/rock", "aliases": {"rock": "/usr/local/bin/rock"}}
+config: {"url": "https://biocontainers.pro/tools/rock", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rock", "latest": {"2.0--h4ac6f70_2": "sha256:0fce6a4d905e1ff56ba87b40dc58ac7463bded4ee9a571c1e1423c232882165b"}, "tags": {"2.0--h9f5acd7_0": "sha256:7c1eccd07a6499a89d315006ab918590bcbe0ba8ee5914a59ffb038a0a03c2c1", "2.0--h4ac6f70_2": "sha256:0fce6a4d905e1ff56ba87b40dc58ac7463bded4ee9a571c1e1423c232882165b"}, "docker": "quay.io/biocontainers/rock", "aliases": {"rock": "/usr/local/bin/rock"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rock.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rock
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rock:2.0--h9f5acd7_0
+$ shpc install quay.io/biocontainers/rock:2.0--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rock/2.0--h9f5acd7_0
-$ module help quay.io/biocontainers/rock/2.0--h9f5acd7_0
+$ module load quay.io/biocontainers/rock/2.0--h4ac6f70_2
+$ module help quay.io/biocontainers/rock/2.0--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

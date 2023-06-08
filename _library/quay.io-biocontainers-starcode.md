@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/starcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starcode/container.yaml"
-updated_at: "2023-06-07 03:35:53.347678"
-latest: "1.4--hec16e2b_2"
+updated_at: "2023-06-08 03:22:11.254879"
+latest: "1.4--h031d066_4"
 container_url: "https://biocontainers.pro/tools/starcode"
 aliases:
  - "starcode"
 versions:
  - "1.4--hec16e2b_2"
+ - "1.4--h031d066_4"
 description: "shpc-registry automated BioContainers addition for starcode"
-config: {"url": "https://biocontainers.pro/tools/starcode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starcode", "latest": {"1.4--hec16e2b_2": "sha256:130c9c6d1dd73e5b7e28c79c7ef798ce3beab3603679767c8d31e0eb36825aac"}, "tags": {"1.4--hec16e2b_2": "sha256:130c9c6d1dd73e5b7e28c79c7ef798ce3beab3603679767c8d31e0eb36825aac"}, "docker": "quay.io/biocontainers/starcode", "aliases": {"starcode": "/usr/local/bin/starcode"}}
+config: {"url": "https://biocontainers.pro/tools/starcode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starcode", "latest": {"1.4--h031d066_4": "sha256:c783ce561e6f606776ceeb457285f28e6ff42e9d4272f980eb506e54a9a28fe3"}, "tags": {"1.4--hec16e2b_2": "sha256:130c9c6d1dd73e5b7e28c79c7ef798ce3beab3603679767c8d31e0eb36825aac", "1.4--h031d066_4": "sha256:c783ce561e6f606776ceeb457285f28e6ff42e9d4272f980eb506e54a9a28fe3"}, "docker": "quay.io/biocontainers/starcode", "aliases": {"starcode": "/usr/local/bin/starcode"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/starcode.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/starcode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/starcode:1.4--hec16e2b_2
+$ shpc install quay.io/biocontainers/starcode:1.4--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/starcode/1.4--hec16e2b_2
-$ module help quay.io/biocontainers/starcode/1.4--hec16e2b_2
+$ module load quay.io/biocontainers/starcode/1.4--h031d066_4
+$ module help quay.io/biocontainers/starcode/1.4--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

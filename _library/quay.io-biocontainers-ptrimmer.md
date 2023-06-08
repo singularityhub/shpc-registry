@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ptrimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ptrimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ptrimmer/container.yaml"
-updated_at: "2023-06-07 02:57:51.210144"
-latest: "1.3.3--h20b1175_3"
+updated_at: "2023-06-08 02:55:29.734207"
+latest: "1.3.3--h50ea8bc_5"
 container_url: "https://biocontainers.pro/tools/ptrimmer"
 aliases:
  - "ptrimmer"
 versions:
  - "1.3.3--h20b1175_3"
+ - "1.3.3--h50ea8bc_5"
 description: "shpc-registry automated BioContainers addition for ptrimmer"
-config: {"url": "https://biocontainers.pro/tools/ptrimmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ptrimmer", "latest": {"1.3.3--h20b1175_3": "sha256:d516a4370f67baf243fc19cf83f21ce3cec0b9f6112eab48ae9af6a9cf607f0e"}, "tags": {"1.3.3--h20b1175_3": "sha256:d516a4370f67baf243fc19cf83f21ce3cec0b9f6112eab48ae9af6a9cf607f0e"}, "docker": "quay.io/biocontainers/ptrimmer", "aliases": {"ptrimmer": "/usr/local/bin/ptrimmer"}}
+config: {"url": "https://biocontainers.pro/tools/ptrimmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ptrimmer", "latest": {"1.3.3--h50ea8bc_5": "sha256:18a091694e62e08b67237af54c6a592ef2887b6e684b90051c04675a5099dd34"}, "tags": {"1.3.3--h20b1175_3": "sha256:d516a4370f67baf243fc19cf83f21ce3cec0b9f6112eab48ae9af6a9cf607f0e", "1.3.3--h50ea8bc_5": "sha256:18a091694e62e08b67237af54c6a592ef2887b6e684b90051c04675a5099dd34"}, "docker": "quay.io/biocontainers/ptrimmer", "aliases": {"ptrimmer": "/usr/local/bin/ptrimmer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ptrimmer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ptrimmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ptrimmer:1.3.3--h20b1175_3
+$ shpc install quay.io/biocontainers/ptrimmer:1.3.3--h50ea8bc_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ptrimmer/1.3.3--h20b1175_3
-$ module help quay.io/biocontainers/ptrimmer/1.3.3--h20b1175_3
+$ module load quay.io/biocontainers/ptrimmer/1.3.3--h50ea8bc_5
+$ module help quay.io/biocontainers/ptrimmer/1.3.3--h50ea8bc_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

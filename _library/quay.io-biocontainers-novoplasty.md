@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novoplasty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoplasty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novoplasty/container.yaml"
-updated_at: "2023-06-07 03:35:48.249933"
+updated_at: "2023-06-08 03:22:07.706712"
 latest: "4.3.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/novoplasty"
 aliases:

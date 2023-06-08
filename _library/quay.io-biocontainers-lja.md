@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lja/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lja/container.yaml"
-updated_at: "2023-06-07 03:56:22.322587"
-latest: "0.2--h5b5514e_0"
+updated_at: "2023-06-08 03:36:28.891841"
+latest: "0.2--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/lja"
 aliases:
  - "jumboDBG"
@@ -14,8 +14,9 @@ aliases:
  - "run_tests"
 versions:
  - "0.2--h5b5514e_0"
+ - "0.2--h5b5514e_2"
 description: "singularity registry hpc automated addition for lja"
-config: {"url": "https://biocontainers.pro/tools/lja", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lja", "latest": {"0.2--h5b5514e_0": "sha256:a25602d48f2208b0814fa744e145126467b452de76b48cbffdcf8c4df0bcbdc3"}, "tags": {"0.2--h5b5514e_0": "sha256:a25602d48f2208b0814fa744e145126467b452de76b48cbffdcf8c4df0bcbdc3"}, "docker": "quay.io/biocontainers/lja", "aliases": {"jumboDBG": "/usr/local/bin/jumboDBG", "lja": "/usr/local/bin/lja", "run_polishing": "/usr/local/bin/run_polishing", "run_tests": "/usr/local/bin/run_tests"}}
+config: {"url": "https://biocontainers.pro/tools/lja", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lja", "latest": {"0.2--h5b5514e_2": "sha256:c20765a354521d877d329182bd74f2e7a5aad9c364af8bb2371121ca4effd3a4"}, "tags": {"0.2--h5b5514e_0": "sha256:a25602d48f2208b0814fa744e145126467b452de76b48cbffdcf8c4df0bcbdc3", "0.2--h5b5514e_2": "sha256:c20765a354521d877d329182bd74f2e7a5aad9c364af8bb2371121ca4effd3a4"}, "docker": "quay.io/biocontainers/lja", "aliases": {"jumboDBG": "/usr/local/bin/jumboDBG", "lja": "/usr/local/bin/lja", "run_polishing": "/usr/local/bin/run_polishing", "run_tests": "/usr/local/bin/run_tests"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lja.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/lja
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lja:0.2--h5b5514e_0
+$ shpc install quay.io/biocontainers/lja:0.2--h5b5514e_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lja/0.2--h5b5514e_0
-$ module help quay.io/biocontainers/lja/0.2--h5b5514e_0
+$ module load quay.io/biocontainers/lja/0.2--h5b5514e_2
+$ module help quay.io/biocontainers/lja/0.2--h5b5514e_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

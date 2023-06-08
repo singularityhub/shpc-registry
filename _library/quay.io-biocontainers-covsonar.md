@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/covsonar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covsonar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covsonar/container.yaml"
-updated_at: "2023-06-07 03:49:32.927668"
+updated_at: "2023-06-08 03:31:44.289454"
 latest: "2.0.0a1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/covsonar"
 aliases:

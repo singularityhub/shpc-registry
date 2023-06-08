@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gfaffix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfaffix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfaffix/container.yaml"
-updated_at: "2023-06-07 03:37:45.784980"
-latest: "0.1.4--hec16e2b_0"
+updated_at: "2023-06-08 03:23:30.140321"
+latest: "0.1.4--h031d066_2"
 container_url: "https://biocontainers.pro/tools/gfaffix"
 aliases:
  - "gfaffix"
 versions:
  - "0.1.4--hec16e2b_0"
+ - "0.1.4--h031d066_2"
 description: "shpc-registry automated BioContainers addition for gfaffix"
-config: {"url": "https://biocontainers.pro/tools/gfaffix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfaffix", "latest": {"0.1.4--hec16e2b_0": "sha256:b501573c8e52d99a2a5c2bd31386e2a7b34160e51561829c7876378cba7d4607"}, "tags": {"0.1.4--hec16e2b_0": "sha256:b501573c8e52d99a2a5c2bd31386e2a7b34160e51561829c7876378cba7d4607"}, "docker": "quay.io/biocontainers/gfaffix", "aliases": {"gfaffix": "/usr/local/bin/gfaffix"}}
+config: {"url": "https://biocontainers.pro/tools/gfaffix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfaffix", "latest": {"0.1.4--h031d066_2": "sha256:f60080d6f5f2297ebaee98a93666f1815a094da6d1f8e1404b7917c2c14337cb"}, "tags": {"0.1.4--hec16e2b_0": "sha256:b501573c8e52d99a2a5c2bd31386e2a7b34160e51561829c7876378cba7d4607", "0.1.4--h031d066_2": "sha256:f60080d6f5f2297ebaee98a93666f1815a094da6d1f8e1404b7917c2c14337cb"}, "docker": "quay.io/biocontainers/gfaffix", "aliases": {"gfaffix": "/usr/local/bin/gfaffix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfaffix.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gfaffix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfaffix:0.1.4--hec16e2b_0
+$ shpc install quay.io/biocontainers/gfaffix:0.1.4--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfaffix/0.1.4--hec16e2b_0
-$ module help quay.io/biocontainers/gfaffix/0.1.4--hec16e2b_0
+$ module load quay.io/biocontainers/gfaffix/0.1.4--h031d066_2
+$ module help quay.io/biocontainers/gfaffix/0.1.4--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

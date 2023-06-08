@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/prodigal-gv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prodigal-gv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prodigal-gv/container.yaml"
-updated_at: "2023-06-07 04:01:22.221621"
-latest: "2.11.0--h7132678_0"
+updated_at: "2023-06-08 03:39:57.792845"
+latest: "2.11.0--he4a0461_2"
 container_url: "https://biocontainers.pro/tools/prodigal-gv"
 aliases:
  - "prodigal-gv"
@@ -13,8 +13,9 @@ versions:
  - "2.9.0--h7132678_0"
  - "2.10.0--h7132678_0"
  - "2.11.0--h7132678_0"
+ - "2.11.0--he4a0461_2"
 description: "singularity registry hpc automated addition for prodigal-gv"
-config: {"url": "https://biocontainers.pro/tools/prodigal-gv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prodigal-gv", "latest": {"2.11.0--h7132678_0": "sha256:78f582d3532af710bc6b6ab8dd7baa363f613be85df91f968e706bdd2a81e3a4"}, "tags": {"2.9.0--h7132678_0": "sha256:0dc5f2817890c8606a131c36ee0a68d821da45caa113d6f286702ae1bfd004c7", "2.10.0--h7132678_0": "sha256:a8455963b9aef96b7507d4e29e7bf3f93584aabee6dc74ae6425d33dc3046c1e", "2.11.0--h7132678_0": "sha256:78f582d3532af710bc6b6ab8dd7baa363f613be85df91f968e706bdd2a81e3a4"}, "docker": "quay.io/biocontainers/prodigal-gv", "aliases": {"prodigal-gv": "/usr/local/bin/prodigal-gv"}}
+config: {"url": "https://biocontainers.pro/tools/prodigal-gv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prodigal-gv", "latest": {"2.11.0--he4a0461_2": "sha256:7e6bdc37b9354dbef7f25ea66f6963ac3897415748536923bf3572c17b0155db"}, "tags": {"2.9.0--h7132678_0": "sha256:0dc5f2817890c8606a131c36ee0a68d821da45caa113d6f286702ae1bfd004c7", "2.10.0--h7132678_0": "sha256:a8455963b9aef96b7507d4e29e7bf3f93584aabee6dc74ae6425d33dc3046c1e", "2.11.0--h7132678_0": "sha256:78f582d3532af710bc6b6ab8dd7baa363f613be85df91f968e706bdd2a81e3a4", "2.11.0--he4a0461_2": "sha256:7e6bdc37b9354dbef7f25ea66f6963ac3897415748536923bf3572c17b0155db"}, "docker": "quay.io/biocontainers/prodigal-gv", "aliases": {"prodigal-gv": "/usr/local/bin/prodigal-gv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prodigal-gv.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/prodigal-gv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prodigal-gv:2.11.0--h7132678_0
+$ shpc install quay.io/biocontainers/prodigal-gv:2.11.0--he4a0461_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prodigal-gv/2.11.0--h7132678_0
-$ module help quay.io/biocontainers/prodigal-gv/2.11.0--h7132678_0
+$ module load quay.io/biocontainers/prodigal-gv/2.11.0--he4a0461_2
+$ module help quay.io/biocontainers/prodigal-gv/2.11.0--he4a0461_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

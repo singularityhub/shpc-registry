@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sequenza-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequenza-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequenza-utils/container.yaml"
-updated_at: "2023-06-07 03:05:02.489830"
-latest: "3.0.0--py27h95a95ce_5"
+updated_at: "2023-06-08 03:00:29.714877"
+latest: "3.0.0--py38hcbe9525_6"
 container_url: "https://biocontainers.pro/tools/sequenza-utils"
 aliases:
  - "sequenza-utils"
@@ -21,8 +21,9 @@ aliases:
  - "ace2sam"
 versions:
  - "3.0.0--py27h95a95ce_5"
+ - "3.0.0--py38hcbe9525_6"
 description: "shpc-registry automated BioContainers addition for sequenza-utils"
-config: {"url": "https://biocontainers.pro/tools/sequenza-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequenza-utils", "latest": {"3.0.0--py27h95a95ce_5": "sha256:cd725cb5730ad0ea7536e0f5231d4462a83d4691f2c23ea63089fd9aaeaaffd2"}, "tags": {"3.0.0--py27h95a95ce_5": "sha256:cd725cb5730ad0ea7536e0f5231d4462a83d4691f2c23ea63089fd9aaeaaffd2"}, "docker": "quay.io/biocontainers/sequenza-utils", "aliases": {"sequenza-utils": "/usr/local/bin/sequenza-utils", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ace2sam": "/usr/local/bin/ace2sam"}}
+config: {"url": "https://biocontainers.pro/tools/sequenza-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequenza-utils", "latest": {"3.0.0--py38hcbe9525_6": "sha256:305f7f3b3093eb630b0343a4a8d5c7cb619608903455f1dfbebdc597a1443d1d"}, "tags": {"3.0.0--py27h95a95ce_5": "sha256:cd725cb5730ad0ea7536e0f5231d4462a83d4691f2c23ea63089fd9aaeaaffd2", "3.0.0--py38hcbe9525_6": "sha256:305f7f3b3093eb630b0343a4a8d5c7cb619608903455f1dfbebdc597a1443d1d"}, "docker": "quay.io/biocontainers/sequenza-utils", "aliases": {"sequenza-utils": "/usr/local/bin/sequenza-utils", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ace2sam": "/usr/local/bin/ace2sam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequenza-utils.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/sequenza-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequenza-utils:3.0.0--py27h95a95ce_5
+$ shpc install quay.io/biocontainers/sequenza-utils:3.0.0--py38hcbe9525_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequenza-utils/3.0.0--py27h95a95ce_5
-$ module help quay.io/biocontainers/sequenza-utils/3.0.0--py27h95a95ce_5
+$ module load quay.io/biocontainers/sequenza-utils/3.0.0--py38hcbe9525_6
+$ module help quay.io/biocontainers/sequenza-utils/3.0.0--py38hcbe9525_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

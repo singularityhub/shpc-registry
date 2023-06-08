@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-simlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simlr/container.yaml"
-updated_at: "2023-06-07 03:19:59.204739"
-latest: "1.24.0--r42hc247a5b_0"
+updated_at: "2023-06-08 03:10:59.024153"
+latest: "1.24.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-simlr"
 aliases:
  - "2to3-3.6"
@@ -25,8 +25,9 @@ versions:
  - "1.18.0--r41h399db7b_0"
  - "1.16.0--r40h399db7b_1"
  - "1.14.0--r40h5f743cb_0"
+ - "1.24.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-simlr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simlr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simlr", "latest": {"1.24.0--r42hc247a5b_0": "sha256:80daf9ac9dc0515cbca25085943edf9c65e496bacc512fa6d812745fe9c67a43"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:727c0f0455c8bbeebaf9b88d6564d2ceae9dc812a50f403840ecd6ffaf714b73", "1.24.0--r42hc247a5b_0": "sha256:80daf9ac9dc0515cbca25085943edf9c65e496bacc512fa6d812745fe9c67a43", "1.20.0--r41hc247a5b_2": "sha256:85a4990aba7475386676dd91e200a7a0887cffa8466a7d118dfe06dcd118a22d", "1.18.0--r41h399db7b_0": "sha256:f1b8656c8fca04ebdc62a13cdcce5864d4e097b56b2fca232ab35d3a36cd46db", "1.16.0--r40h399db7b_1": "sha256:6c2a37dceb9a8699c1a99339bb1bfa18db782f54ef1e6e2e337dd95a0da340ff", "1.14.0--r40h5f743cb_0": "sha256:f0d8b8141fc85a05cc5c6cf6f8983cd004d7346fd5e33296591b377548347348"}, "docker": "quay.io/biocontainers/bioconductor-simlr", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv", "c89": "/usr/local/bin/c89"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simlr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simlr", "latest": {"1.24.0--r42hf17093f_1": "sha256:5b298e576a8243643308d8974aff85b799cc2485c65cb758a068f135f23e8442"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:727c0f0455c8bbeebaf9b88d6564d2ceae9dc812a50f403840ecd6ffaf714b73", "1.24.0--r42hc247a5b_0": "sha256:80daf9ac9dc0515cbca25085943edf9c65e496bacc512fa6d812745fe9c67a43", "1.20.0--r41hc247a5b_2": "sha256:85a4990aba7475386676dd91e200a7a0887cffa8466a7d118dfe06dcd118a22d", "1.18.0--r41h399db7b_0": "sha256:f1b8656c8fca04ebdc62a13cdcce5864d4e097b56b2fca232ab35d3a36cd46db", "1.16.0--r40h399db7b_1": "sha256:6c2a37dceb9a8699c1a99339bb1bfa18db782f54ef1e6e2e337dd95a0da340ff", "1.14.0--r40h5f743cb_0": "sha256:f0d8b8141fc85a05cc5c6cf6f8983cd004d7346fd5e33296591b377548347348", "1.24.0--r42hf17093f_1": "sha256:5b298e576a8243643308d8974aff85b799cc2485c65cb758a068f135f23e8442"}, "docker": "quay.io/biocontainers/bioconductor-simlr", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv", "c89": "/usr/local/bin/c89"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simlr.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simlr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simlr:1.24.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-simlr:1.24.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simlr/1.24.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-simlr/1.24.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-simlr/1.24.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-simlr/1.24.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

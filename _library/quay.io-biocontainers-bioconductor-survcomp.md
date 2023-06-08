@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-survcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-survcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-survcomp/container.yaml"
-updated_at: "2023-06-07 03:29:43.015137"
+updated_at: "2023-06-08 03:17:51.288624"
 latest: "1.48.0--r42hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-survcomp"
 

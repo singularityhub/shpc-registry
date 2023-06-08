@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgf-formatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgf-formatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgf-formatter/container.yaml"
-updated_at: "2023-06-07 03:46:46.037098"
+updated_at: "2023-06-08 03:29:48.163502"
 latest: "1.0.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/mgf-formatter"
 aliases:

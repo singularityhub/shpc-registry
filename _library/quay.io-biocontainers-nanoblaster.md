@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoblaster/container.yaml"
-updated_at: "2023-06-07 03:43:51.570625"
+updated_at: "2023-06-08 03:27:46.679373"
 latest: "0.16--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/nanoblaster"
 aliases:

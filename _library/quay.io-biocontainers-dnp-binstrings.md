@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dnp-binstrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-binstrings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-binstrings/container.yaml"
-updated_at: "2023-06-07 03:29:02.033551"
-latest: "1.0--hf1761c0_3"
+updated_at: "2023-06-08 03:17:22.724680"
+latest: "1.0--h6a68c12_5"
 container_url: "https://biocontainers.pro/tools/dnp-binstrings"
 aliases:
  - "dnp-binstrings"
 versions:
  - "1.0--hf1761c0_3"
+ - "1.0--h6a68c12_5"
 description: "shpc-registry automated BioContainers addition for dnp-binstrings"
-config: {"url": "https://biocontainers.pro/tools/dnp-binstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-binstrings", "latest": {"1.0--hf1761c0_3": "sha256:6639e192eb293a40e7b38d18900a3e41d5900003231e5b02ef34db5b384fbfaa"}, "tags": {"1.0--hf1761c0_3": "sha256:6639e192eb293a40e7b38d18900a3e41d5900003231e5b02ef34db5b384fbfaa"}, "docker": "quay.io/biocontainers/dnp-binstrings", "aliases": {"dnp-binstrings": "/usr/local/bin/dnp-binstrings"}}
+config: {"url": "https://biocontainers.pro/tools/dnp-binstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-binstrings", "latest": {"1.0--h6a68c12_5": "sha256:7540b77be9b6962316ba8ab23c3a80f64c9656d63e416d41bc994d42b39cd5cc"}, "tags": {"1.0--hf1761c0_3": "sha256:6639e192eb293a40e7b38d18900a3e41d5900003231e5b02ef34db5b384fbfaa", "1.0--h6a68c12_5": "sha256:7540b77be9b6962316ba8ab23c3a80f64c9656d63e416d41bc994d42b39cd5cc"}, "docker": "quay.io/biocontainers/dnp-binstrings", "aliases": {"dnp-binstrings": "/usr/local/bin/dnp-binstrings"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnp-binstrings.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dnp-binstrings
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnp-binstrings:1.0--hf1761c0_3
+$ shpc install quay.io/biocontainers/dnp-binstrings:1.0--h6a68c12_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnp-binstrings/1.0--hf1761c0_3
-$ module help quay.io/biocontainers/dnp-binstrings/1.0--hf1761c0_3
+$ module load quay.io/biocontainers/dnp-binstrings/1.0--h6a68c12_5
+$ module help quay.io/biocontainers/dnp-binstrings/1.0--h6a68c12_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

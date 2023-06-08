@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colorbrewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colorbrewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colorbrewer/container.yaml"
-updated_at: "2023-06-07 03:20:27.595578"
+updated_at: "2023-06-08 03:11:19.277591"
 latest: "0.2--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/colorbrewer"
 aliases:
