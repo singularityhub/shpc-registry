@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genoboo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genoboo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genoboo/container.yaml"
-updated_at: "2023-06-08 03:22:41.850292"
+updated_at: "2023-06-08 03:54:15.570938"
 latest: "0.4.3--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/genoboo"
 aliases:

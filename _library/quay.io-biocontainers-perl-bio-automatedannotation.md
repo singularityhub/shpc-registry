@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-automatedannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-automatedannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-automatedannotation/container.yaml"
-updated_at: "2023-06-08 03:26:41.464222"
+updated_at: "2023-06-08 03:59:31.936273"
 latest: "2021.01.04.08.19.58.619--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-automatedannotation"
 aliases:

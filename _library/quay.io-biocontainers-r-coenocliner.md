@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-coenocliner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-coenocliner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-coenocliner/container.yaml"
-updated_at: "2023-06-08 03:38:50.483665"
+updated_at: "2023-06-08 04:15:33.325470"
 latest: "0.2_2--r351h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-coenocliner"
 aliases:

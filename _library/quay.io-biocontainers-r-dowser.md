@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dowser/container.yaml"
-updated_at: "2023-06-08 03:03:49.024472"
+updated_at: "2023-06-08 03:29:28.294142"
 latest: "1.1.0--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-dowser"
 aliases:
