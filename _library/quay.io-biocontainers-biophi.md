@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biophi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biophi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biophi/container.yaml"
-updated_at: "2023-06-08 03:27:23.011630"
-latest: "1.0.8--pyhdfd78af_1"
+updated_at: "2023-06-09 03:06:18.443759"
+latest: "1.0.9--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biophi"
 aliases:
  - "ANARCI"
@@ -36,8 +36,9 @@ versions:
  - "1.0.6--pyhdfd78af_0"
  - "1.0.7--pyhdfd78af_0"
  - "1.0.8--pyhdfd78af_1"
+ - "1.0.9--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for biophi"
-config: {"url": "https://biocontainers.pro/tools/biophi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biophi", "latest": {"1.0.8--pyhdfd78af_1": "sha256:af2fd6993e725e0c208eb41a678c041834dee20f030abba79ced527d9345e480"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:19d21733389ffcc3b7d8eefb06f1aae5703fd5d594f561079d0bdb30ca6d1531", "1.0.6--pyhdfd78af_0": "sha256:e5d36d76b583fb449ed30e93960294256b5c3bc7562054d6826c0e738aee7742", "1.0.7--pyhdfd78af_0": "sha256:b7e00a9bdcb1fc53988972bf30896fc79f377be05a8a2a6c84aeb771eea9b74b", "1.0.8--pyhdfd78af_1": "sha256:af2fd6993e725e0c208eb41a678c041834dee20f030abba79ced527d9345e480"}, "docker": "quay.io/biocontainers/biophi", "aliases": {"ANARCI": "/usr/local/bin/ANARCI", "biophi": "/usr/local/bin/biophi", "celery": "/usr/local/bin/celery", "fairseq-eval-lm": "/usr/local/bin/fairseq-eval-lm", "fairseq-generate": "/usr/local/bin/fairseq-generate", "fairseq-interactive": "/usr/local/bin/fairseq-interactive", "fairseq-preprocess": "/usr/local/bin/fairseq-preprocess", "fairseq-score": "/usr/local/bin/fairseq-score", "fairseq-train": "/usr/local/bin/fairseq-train", "fairseq-validate": "/usr/local/bin/fairseq-validate", "sacrebleu": "/usr/local/bin/sacrebleu", "sapiens": "/usr/local/bin/sapiens", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "vba_extract.py": "/usr/local/bin/vba_extract.py", "flask": "/usr/local/bin/flask", "tabulate": "/usr/local/bin/tabulate", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard"}}
+config: {"url": "https://biocontainers.pro/tools/biophi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biophi", "latest": {"1.0.9--pyhdfd78af_1": "sha256:00e0f28531ad0a50b89281fcfea418deeb8f18ee68d4a2c80908a15b3f6a9292"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:19d21733389ffcc3b7d8eefb06f1aae5703fd5d594f561079d0bdb30ca6d1531", "1.0.6--pyhdfd78af_0": "sha256:e5d36d76b583fb449ed30e93960294256b5c3bc7562054d6826c0e738aee7742", "1.0.7--pyhdfd78af_0": "sha256:b7e00a9bdcb1fc53988972bf30896fc79f377be05a8a2a6c84aeb771eea9b74b", "1.0.8--pyhdfd78af_1": "sha256:af2fd6993e725e0c208eb41a678c041834dee20f030abba79ced527d9345e480", "1.0.9--pyhdfd78af_1": "sha256:00e0f28531ad0a50b89281fcfea418deeb8f18ee68d4a2c80908a15b3f6a9292"}, "docker": "quay.io/biocontainers/biophi", "aliases": {"ANARCI": "/usr/local/bin/ANARCI", "biophi": "/usr/local/bin/biophi", "celery": "/usr/local/bin/celery", "fairseq-eval-lm": "/usr/local/bin/fairseq-eval-lm", "fairseq-generate": "/usr/local/bin/fairseq-generate", "fairseq-interactive": "/usr/local/bin/fairseq-interactive", "fairseq-preprocess": "/usr/local/bin/fairseq-preprocess", "fairseq-score": "/usr/local/bin/fairseq-score", "fairseq-train": "/usr/local/bin/fairseq-train", "fairseq-validate": "/usr/local/bin/fairseq-validate", "sacrebleu": "/usr/local/bin/sacrebleu", "sapiens": "/usr/local/bin/sapiens", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "vba_extract.py": "/usr/local/bin/vba_extract.py", "flask": "/usr/local/bin/flask", "tabulate": "/usr/local/bin/tabulate", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biophi.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/biophi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biophi:1.0.8--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/biophi:1.0.9--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biophi/1.0.8--pyhdfd78af_1
-$ module help quay.io/biocontainers/biophi/1.0.8--pyhdfd78af_1
+$ module load quay.io/biocontainers/biophi/1.0.9--pyhdfd78af_1
+$ module help quay.io/biocontainers/biophi/1.0.9--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

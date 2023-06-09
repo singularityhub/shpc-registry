@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/disty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/disty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/disty/container.yaml"
-updated_at: "2023-06-08 04:07:04.235844"
-latest: "0.1.0--hd03093a_5"
+updated_at: "2023-06-09 03:39:48.432933"
+latest: "0.1.0--hdcf5f25_7"
 container_url: "https://biocontainers.pro/tools/disty"
 aliases:
  - "disty"
 versions:
  - "0.1.0--hd03093a_5"
+ - "0.1.0--hdcf5f25_7"
 description: "shpc-registry automated BioContainers addition for disty"
-config: {"url": "https://biocontainers.pro/tools/disty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for disty", "latest": {"0.1.0--hd03093a_5": "sha256:db726204cfcd37a5789ea55421acfbe5c5b9ce2ecf4f53114fccf28d5973ce12"}, "tags": {"0.1.0--hd03093a_5": "sha256:db726204cfcd37a5789ea55421acfbe5c5b9ce2ecf4f53114fccf28d5973ce12"}, "docker": "quay.io/biocontainers/disty", "aliases": {"disty": "/usr/local/bin/disty"}}
+config: {"url": "https://biocontainers.pro/tools/disty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for disty", "latest": {"0.1.0--hdcf5f25_7": "sha256:9d829648a3b8f76165a2a8dfb557c74d0cafba4f983b0c38a2ccda1daf6b5911"}, "tags": {"0.1.0--hd03093a_5": "sha256:db726204cfcd37a5789ea55421acfbe5c5b9ce2ecf4f53114fccf28d5973ce12", "0.1.0--hdcf5f25_7": "sha256:9d829648a3b8f76165a2a8dfb557c74d0cafba4f983b0c38a2ccda1daf6b5911"}, "docker": "quay.io/biocontainers/disty", "aliases": {"disty": "/usr/local/bin/disty"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/disty.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/disty
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/disty:0.1.0--hd03093a_5
+$ shpc install quay.io/biocontainers/disty:0.1.0--hdcf5f25_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/disty/0.1.0--hd03093a_5
-$ module help quay.io/biocontainers/disty/0.1.0--hd03093a_5
+$ module load quay.io/biocontainers/disty/0.1.0--hdcf5f25_7
+$ module help quay.io/biocontainers/disty/0.1.0--hdcf5f25_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

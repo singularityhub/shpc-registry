@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/phylocsfpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylocsfpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylocsfpp/container.yaml"
-updated_at: "2023-06-08 04:07:06.948290"
-latest: "1.2.0_9643238d--h54ed327_5"
+updated_at: "2023-06-09 03:39:50.699313"
+latest: "1.2.0_9643238d--ha666654_6"
 container_url: "https://biocontainers.pro/tools/phylocsfpp"
 aliases:
  - "phylocsf++"
 versions:
  - "1.2.0_9643238d--h54ed327_5"
+ - "1.2.0_9643238d--ha666654_6"
 description: "shpc-registry automated BioContainers addition for phylocsfpp"
-config: {"url": "https://biocontainers.pro/tools/phylocsfpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylocsfpp", "latest": {"1.2.0_9643238d--h54ed327_5": "sha256:487185b710260ed70141d67f804375985114a58e66b93316df6015b5f8e2db45"}, "tags": {"1.2.0_9643238d--h54ed327_5": "sha256:487185b710260ed70141d67f804375985114a58e66b93316df6015b5f8e2db45"}, "docker": "quay.io/biocontainers/phylocsfpp", "aliases": {"phylocsf++": "/usr/local/bin/phylocsf++"}}
+config: {"url": "https://biocontainers.pro/tools/phylocsfpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylocsfpp", "latest": {"1.2.0_9643238d--ha666654_6": "sha256:41ab92c49619218fa1f148d33fcbffd825e1863018225bc25658979765d83bc2"}, "tags": {"1.2.0_9643238d--h54ed327_5": "sha256:487185b710260ed70141d67f804375985114a58e66b93316df6015b5f8e2db45", "1.2.0_9643238d--ha666654_6": "sha256:41ab92c49619218fa1f148d33fcbffd825e1863018225bc25658979765d83bc2"}, "docker": "quay.io/biocontainers/phylocsfpp", "aliases": {"phylocsf++": "/usr/local/bin/phylocsf++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylocsfpp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/phylocsfpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylocsfpp:1.2.0_9643238d--h54ed327_5
+$ shpc install quay.io/biocontainers/phylocsfpp:1.2.0_9643238d--ha666654_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylocsfpp/1.2.0_9643238d--h54ed327_5
-$ module help quay.io/biocontainers/phylocsfpp/1.2.0_9643238d--h54ed327_5
+$ module load quay.io/biocontainers/phylocsfpp/1.2.0_9643238d--ha666654_6
+$ module help quay.io/biocontainers/phylocsfpp/1.2.0_9643238d--ha666654_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

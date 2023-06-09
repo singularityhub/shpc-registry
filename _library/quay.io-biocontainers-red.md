@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/red"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/red/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/red/container.yaml"
-updated_at: "2023-06-08 03:56:54.281056"
-latest: "2018.09.10--h9f5acd7_0"
+updated_at: "2023-06-09 03:31:13.012753"
+latest: "2018.09.10--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/red"
 aliases:
  - "Red"
 versions:
  - "2018.09.10--h9f5acd7_0"
+ - "2018.09.10--h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for red"
-config: {"url": "https://biocontainers.pro/tools/red", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for red", "latest": {"2018.09.10--h9f5acd7_0": "sha256:a4674781d8393ec8cacfd050f94ea8300a4d37b5e44123abd629f9e5316d8035"}, "tags": {"2018.09.10--h9f5acd7_0": "sha256:a4674781d8393ec8cacfd050f94ea8300a4d37b5e44123abd629f9e5316d8035"}, "docker": "quay.io/biocontainers/red", "aliases": {"Red": "/usr/local/bin/Red"}}
+config: {"url": "https://biocontainers.pro/tools/red", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for red", "latest": {"2018.09.10--h4ac6f70_2": "sha256:d2dd7804a9f8b94479e8b9c29341429cbb2dda4dc4ba99cd10d88ece9a72e4be"}, "tags": {"2018.09.10--h9f5acd7_0": "sha256:a4674781d8393ec8cacfd050f94ea8300a4d37b5e44123abd629f9e5316d8035", "2018.09.10--h4ac6f70_2": "sha256:d2dd7804a9f8b94479e8b9c29341429cbb2dda4dc4ba99cd10d88ece9a72e4be"}, "docker": "quay.io/biocontainers/red", "aliases": {"Red": "/usr/local/bin/Red"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/red.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/red
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/red:2018.09.10--h9f5acd7_0
+$ shpc install quay.io/biocontainers/red:2018.09.10--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/red/2018.09.10--h9f5acd7_0
-$ module help quay.io/biocontainers/red/2018.09.10--h9f5acd7_0
+$ module load quay.io/biocontainers/red/2018.09.10--h4ac6f70_2
+$ module help quay.io/biocontainers/red/2018.09.10--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

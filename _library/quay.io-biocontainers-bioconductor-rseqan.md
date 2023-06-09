@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rseqan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rseqan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rseqan/container.yaml"
-updated_at: "2023-06-08 03:33:19.199357"
-latest: "1.18.0--r42hc247a5b_0"
+updated_at: "2023-06-09 03:11:20.277727"
+latest: "1.18.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rseqan"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hc247a5b_2"
  - "1.12.0--r41h399db7b_0"
  - "1.10.0--r40h399db7b_1"
+ - "1.18.0--r42hf17093f_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-rseqan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rseqan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rseqan", "latest": {"1.18.0--r42hc247a5b_0": "sha256:220e8b177aceffed50fc3d2c4e6716b3e416dd6b12a45eee8d4fa41bef0fba86"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:5224091b16249137433f17a08e7fd4af0961d3252a936e16d784b7eebc1c82cf", "1.18.0--r42hc247a5b_0": "sha256:220e8b177aceffed50fc3d2c4e6716b3e416dd6b12a45eee8d4fa41bef0fba86", "1.14.0--r41hc247a5b_2": "sha256:a7b3a53fb0dcd554198eddea6d2bb1e2f6e3d77450e9aa6b7c651b8ad27aae99", "1.12.0--r41h399db7b_0": "sha256:419eed18b0868cb796f95a89188c9000009bb6a22950b527c6b9f40d89aba258", "1.10.0--r40h399db7b_1": "sha256:42c4e2fbc7651fe1d7d3bc5a8ef32ac7689ffc75e83041018971e96cf7f9acbb"}, "docker": "quay.io/biocontainers/bioconductor-rseqan", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rseqan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rseqan", "latest": {"1.18.0--r42hf17093f_2": "sha256:5d409e47e3226b17e7d47ef6d21b5e2d758bfcf32c92851b9d8d443781f6e16a"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:5224091b16249137433f17a08e7fd4af0961d3252a936e16d784b7eebc1c82cf", "1.18.0--r42hc247a5b_0": "sha256:220e8b177aceffed50fc3d2c4e6716b3e416dd6b12a45eee8d4fa41bef0fba86", "1.14.0--r41hc247a5b_2": "sha256:a7b3a53fb0dcd554198eddea6d2bb1e2f6e3d77450e9aa6b7c651b8ad27aae99", "1.12.0--r41h399db7b_0": "sha256:419eed18b0868cb796f95a89188c9000009bb6a22950b527c6b9f40d89aba258", "1.10.0--r40h399db7b_1": "sha256:42c4e2fbc7651fe1d7d3bc5a8ef32ac7689ffc75e83041018971e96cf7f9acbb", "1.18.0--r42hf17093f_2": "sha256:5d409e47e3226b17e7d47ef6d21b5e2d758bfcf32c92851b9d8d443781f6e16a"}, "docker": "quay.io/biocontainers/bioconductor-rseqan", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rseqan.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rseqan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rseqan:1.18.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-rseqan:1.18.0--r42hf17093f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rseqan/1.18.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-rseqan/1.18.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-rseqan/1.18.0--r42hf17093f_2
+$ module help quay.io/biocontainers/bioconductor-rseqan/1.18.0--r42hf17093f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

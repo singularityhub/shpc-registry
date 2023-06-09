@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-msgpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-msgpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-msgpack/container.yaml"
-updated_at: "2023-06-08 03:20:06.982252"
-latest: "0.6.1--py36h2ad2d48_5"
+updated_at: "2023-06-09 03:00:11.880089"
+latest: "0.6.1--py310h0dbaff4_8"
 container_url: "https://biocontainers.pro/tools/python-msgpack"
 aliases:
  - "2to3-3.6"
@@ -19,8 +19,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.6.1--py36h2ad2d48_5"
+ - "0.6.1--py310h0dbaff4_8"
 description: "shpc-registry automated BioContainers addition for python-msgpack"
-config: {"url": "https://biocontainers.pro/tools/python-msgpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-msgpack", "latest": {"0.6.1--py36h2ad2d48_5": "sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24"}, "tags": {"0.6.1--py36h2ad2d48_5": "sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24"}, "docker": "quay.io/biocontainers/python-msgpack", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/python-msgpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-msgpack", "latest": {"0.6.1--py310h0dbaff4_8": "sha256:d64c8895277d5af30369a3b22d256b14584c4cb2f085000d1d709c3aadace272"}, "tags": {"0.6.1--py36h2ad2d48_5": "sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24", "0.6.1--py310h0dbaff4_8": "sha256:d64c8895277d5af30369a3b22d256b14584c4cb2f085000d1d709c3aadace272"}, "docker": "quay.io/biocontainers/python-msgpack", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-msgpack.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/python-msgpack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-msgpack:0.6.1--py36h2ad2d48_5
+$ shpc install quay.io/biocontainers/python-msgpack:0.6.1--py310h0dbaff4_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-msgpack/0.6.1--py36h2ad2d48_5
-$ module help quay.io/biocontainers/python-msgpack/0.6.1--py36h2ad2d48_5
+$ module load quay.io/biocontainers/python-msgpack/0.6.1--py310h0dbaff4_8
+$ module help quay.io/biocontainers/python-msgpack/0.6.1--py310h0dbaff4_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

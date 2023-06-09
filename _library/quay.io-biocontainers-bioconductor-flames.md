@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-flames"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flames/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flames/container.yaml"
-updated_at: "2023-06-08 03:24:45.092231"
-latest: "1.3.4--r42hc247a5b_0"
+updated_at: "2023-06-09 03:04:05.274010"
+latest: "1.3.4--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flames"
 
 versions:
  - "1.0.2--r41hc247a5b_2"
  - "1.3.4--r42hc247a5b_0"
+ - "1.3.4--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-flames"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flames", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flames", "latest": {"1.3.4--r42hc247a5b_0": "sha256:bd8ad9146cb8f6b85d9d6a35a652dd6fbd0bf19d5095a2c3c45b89963d88bf0e"}, "tags": {"1.0.2--r41hc247a5b_2": "sha256:ab2aa45994b7945338a56f90d80e77eac1332ea66f88bd25097e05c535d96f87", "1.3.4--r42hc247a5b_0": "sha256:bd8ad9146cb8f6b85d9d6a35a652dd6fbd0bf19d5095a2c3c45b89963d88bf0e"}, "docker": "quay.io/biocontainers/bioconductor-flames"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flames", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flames", "latest": {"1.3.4--r42hf17093f_1": "sha256:9574e1d0d89b2186da009b79c89ffed0047080df74ee27d9978bba76d825eb3a"}, "tags": {"1.0.2--r41hc247a5b_2": "sha256:ab2aa45994b7945338a56f90d80e77eac1332ea66f88bd25097e05c535d96f87", "1.3.4--r42hc247a5b_0": "sha256:bd8ad9146cb8f6b85d9d6a35a652dd6fbd0bf19d5095a2c3c45b89963d88bf0e", "1.3.4--r42hf17093f_1": "sha256:9574e1d0d89b2186da009b79c89ffed0047080df74ee27d9978bba76d825eb3a"}, "docker": "quay.io/biocontainers/bioconductor-flames"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flames.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flames
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flames:1.3.4--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-flames:1.3.4--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flames/1.3.4--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-flames/1.3.4--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-flames/1.3.4--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-flames/1.3.4--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

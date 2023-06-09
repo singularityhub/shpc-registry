@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iow/container.yaml"
-updated_at: "2023-06-08 04:17:09.539676"
+updated_at: "2023-06-09 03:48:21.644878"
 latest: "1.0.5--py39h67e14b5_2"
 container_url: "https://biocontainers.pro/tools/iow"
 aliases:

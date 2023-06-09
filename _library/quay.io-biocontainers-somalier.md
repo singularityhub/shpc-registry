@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/somalier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somalier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/somalier/container.yaml"
-updated_at: "2023-06-08 03:25:55.930687"
-latest: "0.2.15--h37c5b7d_0"
+updated_at: "2023-06-09 03:05:04.977132"
+latest: "0.2.15--hd299d5a_1"
 container_url: "https://biocontainers.pro/tools/somalier"
 aliases:
  - "somalier"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.2.15--h37c5b7d_0"
+ - "0.2.15--hd299d5a_1"
 description: "shpc-registry automated BioContainers addition for somalier"
-config: {"url": "https://biocontainers.pro/tools/somalier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somalier", "latest": {"0.2.15--h37c5b7d_0": "sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4"}, "tags": {"0.2.15--h37c5b7d_0": "sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4"}, "docker": "quay.io/biocontainers/somalier", "aliases": {"somalier": "/usr/local/bin/somalier", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/somalier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somalier", "latest": {"0.2.15--hd299d5a_1": "sha256:bd2b70a6c2fcc660f631e000275de5dec8caf09e3cb6dbe4c123a427e3ef73b7"}, "tags": {"0.2.15--h37c5b7d_0": "sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4", "0.2.15--hd299d5a_1": "sha256:bd2b70a6c2fcc660f631e000275de5dec8caf09e3cb6dbe4c123a427e3ef73b7"}, "docker": "quay.io/biocontainers/somalier", "aliases": {"somalier": "/usr/local/bin/somalier", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/somalier.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/somalier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/somalier:0.2.15--h37c5b7d_0
+$ shpc install quay.io/biocontainers/somalier:0.2.15--hd299d5a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/somalier/0.2.15--h37c5b7d_0
-$ module help quay.io/biocontainers/somalier/0.2.15--h37c5b7d_0
+$ module load quay.io/biocontainers/somalier/0.2.15--hd299d5a_1
+$ module help quay.io/biocontainers/somalier/0.2.15--hd299d5a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-fraser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fraser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fraser/container.yaml"
-updated_at: "2023-06-08 04:03:30.339810"
-latest: "1.10.0--r42hc247a5b_0"
+updated_at: "2023-06-09 03:36:48.251429"
+latest: "1.10.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fraser"
 
 versions:
  - "1.6.1--r41hc247a5b_2"
  - "1.10.0--r42hc247a5b_0"
+ - "1.10.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fraser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fraser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fraser", "latest": {"1.10.0--r42hc247a5b_0": "sha256:c899a2844efa30b0085897fca3cf8c7cad0d6e109c2cc1f0dcfe84a4e5a948ea"}, "tags": {"1.6.1--r41hc247a5b_2": "sha256:96a57a428bd816e508ffe1bfeeed028ebb58019aead777fc56354873699abbbb", "1.10.0--r42hc247a5b_0": "sha256:c899a2844efa30b0085897fca3cf8c7cad0d6e109c2cc1f0dcfe84a4e5a948ea"}, "docker": "quay.io/biocontainers/bioconductor-fraser"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fraser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fraser", "latest": {"1.10.0--r42hf17093f_1": "sha256:679c2a8317958e5f1ca440773f4c63daa9e244217d5fc388b470b06569063804"}, "tags": {"1.6.1--r41hc247a5b_2": "sha256:96a57a428bd816e508ffe1bfeeed028ebb58019aead777fc56354873699abbbb", "1.10.0--r42hc247a5b_0": "sha256:c899a2844efa30b0085897fca3cf8c7cad0d6e109c2cc1f0dcfe84a4e5a948ea", "1.10.0--r42hf17093f_1": "sha256:679c2a8317958e5f1ca440773f4c63daa9e244217d5fc388b470b06569063804"}, "docker": "quay.io/biocontainers/bioconductor-fraser"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fraser.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fraser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fraser:1.10.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-fraser:1.10.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fraser/1.10.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-fraser/1.10.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-fraser/1.10.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-fraser/1.10.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

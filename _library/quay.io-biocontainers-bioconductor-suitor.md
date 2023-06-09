@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-suitor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-suitor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-suitor/container.yaml"
-updated_at: "2023-06-08 03:19:49.363889"
-latest: "1.0.0--r42hc0cfd56_0"
+updated_at: "2023-06-09 02:59:57.246024"
+latest: "1.0.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-suitor"
 
 versions:
  - "1.0.0--r42hc0cfd56_0"
+ - "1.0.0--r42ha9d7317_1"
 description: "singularity registry hpc automated addition for bioconductor-suitor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-suitor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-suitor", "latest": {"1.0.0--r42hc0cfd56_0": "sha256:b8d19ddab0fc6efcbc7448b1aeed741b58d14e0ece91ac61fa09267dc74f0ebb"}, "tags": {"1.0.0--r42hc0cfd56_0": "sha256:b8d19ddab0fc6efcbc7448b1aeed741b58d14e0ece91ac61fa09267dc74f0ebb"}, "docker": "quay.io/biocontainers/bioconductor-suitor"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-suitor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-suitor", "latest": {"1.0.0--r42ha9d7317_1": "sha256:ddfcc30bb2f68a8727f4dd24ed49e97ec3dd1725257867181ab277116ee932ec"}, "tags": {"1.0.0--r42hc0cfd56_0": "sha256:b8d19ddab0fc6efcbc7448b1aeed741b58d14e0ece91ac61fa09267dc74f0ebb", "1.0.0--r42ha9d7317_1": "sha256:ddfcc30bb2f68a8727f4dd24ed49e97ec3dd1725257867181ab277116ee932ec"}, "docker": "quay.io/biocontainers/bioconductor-suitor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-suitor.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-suitor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-suitor:1.0.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-suitor:1.0.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-suitor/1.0.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-suitor/1.0.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-suitor/1.0.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-suitor/1.0.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

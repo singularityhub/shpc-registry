@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orfquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfquant/container.yaml"
-updated_at: "2023-06-08 03:20:48.917600"
+updated_at: "2023-06-09 03:00:47.325844"
 latest: "1.1.0--r42h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/orfquant"
 aliases:

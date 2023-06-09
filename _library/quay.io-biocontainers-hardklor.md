@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/hardklor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hardklor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hardklor/container.yaml"
-updated_at: "2023-06-08 03:38:45.920274"
-latest: "2.3.2--h87f3376_2"
+updated_at: "2023-06-09 03:15:56.248390"
+latest: "2.3.2--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/hardklor"
 aliases:
  - "hardklor"
 versions:
  - "2.3.2--h87f3376_2"
+ - "2.3.2--hdbdd923_4"
 description: "shpc-registry automated BioContainers addition for hardklor"
-config: {"url": "https://biocontainers.pro/tools/hardklor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hardklor", "latest": {"2.3.2--h87f3376_2": "sha256:fe507306b8bfcf84ec3531ac8150bf32cc295727570acd00594f2a1cbb1cb1eb"}, "tags": {"2.3.2--h87f3376_2": "sha256:fe507306b8bfcf84ec3531ac8150bf32cc295727570acd00594f2a1cbb1cb1eb"}, "docker": "quay.io/biocontainers/hardklor", "aliases": {"hardklor": "/usr/local/bin/hardklor"}}
+config: {"url": "https://biocontainers.pro/tools/hardklor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hardklor", "latest": {"2.3.2--hdbdd923_4": "sha256:0a53aca888a1ed97c898389f5fde33088238d282fb21b1db0cdc0a9adad68eca"}, "tags": {"2.3.2--h87f3376_2": "sha256:fe507306b8bfcf84ec3531ac8150bf32cc295727570acd00594f2a1cbb1cb1eb", "2.3.2--hdbdd923_4": "sha256:0a53aca888a1ed97c898389f5fde33088238d282fb21b1db0cdc0a9adad68eca"}, "docker": "quay.io/biocontainers/hardklor", "aliases": {"hardklor": "/usr/local/bin/hardklor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hardklor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/hardklor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hardklor:2.3.2--h87f3376_2
+$ shpc install quay.io/biocontainers/hardklor:2.3.2--hdbdd923_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hardklor/2.3.2--h87f3376_2
-$ module help quay.io/biocontainers/hardklor/2.3.2--h87f3376_2
+$ module load quay.io/biocontainers/hardklor/2.3.2--hdbdd923_4
+$ module help quay.io/biocontainers/hardklor/2.3.2--hdbdd923_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

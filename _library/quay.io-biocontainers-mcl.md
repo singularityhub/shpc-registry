@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mcl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mcl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mcl/container.yaml"
-updated_at: "2023-06-08 03:32:29.961951"
-latest: "14.137--pl5321hec16e2b_8"
+updated_at: "2023-06-09 03:10:38.723664"
+latest: "14.137--pl5321h031d066_9"
 container_url: "https://biocontainers.pro/tools/mcl"
 aliases:
  - "mcl"
@@ -24,8 +24,9 @@ aliases:
  - "mcxload"
 versions:
  - "14.137--pl5321hec16e2b_8"
+ - "14.137--pl5321h031d066_9"
 description: "shpc-registry automated BioContainers addition for mcl"
-config: {"url": "https://biocontainers.pro/tools/mcl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mcl", "latest": {"14.137--pl5321hec16e2b_8": "sha256:18327f4fcf1427fa7fcd08b852dfc7597581871ae23d86603333aa28593c94ac"}, "tags": {"14.137--pl5321hec16e2b_8": "sha256:18327f4fcf1427fa7fcd08b852dfc7597581871ae23d86603333aa28593c94ac"}, "docker": "quay.io/biocontainers/mcl", "aliases": {"mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble", "mcxdeblast": "/usr/local/bin/mcxdeblast", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload"}}
+config: {"url": "https://biocontainers.pro/tools/mcl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mcl", "latest": {"14.137--pl5321h031d066_9": "sha256:576283dc19b0880e40e47a803c1c1f66b1d095066fdbbef70fb9fd4a35fa9c77"}, "tags": {"14.137--pl5321hec16e2b_8": "sha256:18327f4fcf1427fa7fcd08b852dfc7597581871ae23d86603333aa28593c94ac", "14.137--pl5321h031d066_9": "sha256:576283dc19b0880e40e47a803c1c1f66b1d095066fdbbef70fb9fd4a35fa9c77"}, "docker": "quay.io/biocontainers/mcl", "aliases": {"mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble", "mcxdeblast": "/usr/local/bin/mcxdeblast", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mcl.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/mcl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mcl:14.137--pl5321hec16e2b_8
+$ shpc install quay.io/biocontainers/mcl:14.137--pl5321h031d066_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mcl/14.137--pl5321hec16e2b_8
-$ module help quay.io/biocontainers/mcl/14.137--pl5321hec16e2b_8
+$ module load quay.io/biocontainers/mcl/14.137--pl5321h031d066_9
+$ module help quay.io/biocontainers/mcl/14.137--pl5321h031d066_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

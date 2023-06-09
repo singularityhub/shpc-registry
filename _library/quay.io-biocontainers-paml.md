@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/paml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paml/container.yaml"
-updated_at: "2023-06-08 03:39:03.451956"
-latest: "4.10.6--hec16e2b_0"
+updated_at: "2023-06-09 03:16:10.768480"
+latest: "4.10.6--h031d066_2"
 container_url: "https://biocontainers.pro/tools/paml"
 aliases:
  - "baseml"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "4.9--hec16e2b_7"
  - "4.10.6--hec16e2b_0"
+ - "4.10.6--h031d066_2"
 description: "shpc-registry automated BioContainers addition for paml"
-config: {"url": "https://biocontainers.pro/tools/paml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for paml", "latest": {"4.10.6--hec16e2b_0": "sha256:c8d7a4fea26864f55e90300c84dfd0f8b61dd832e7e0a42e315d055285a3bc0e"}, "tags": {"4.9--hec16e2b_7": "sha256:8a4612423d8664ba34989e4e085b7cd0ea9f9b730bac67d97bf61745768d5020", "4.10.6--hec16e2b_0": "sha256:c8d7a4fea26864f55e90300c84dfd0f8b61dd832e7e0a42e315d055285a3bc0e"}, "docker": "quay.io/biocontainers/paml", "aliases": {"baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver", "infinitesites": "/usr/local/bin/infinitesites", "mcmctree": "/usr/local/bin/mcmctree", "pamp": "/usr/local/bin/pamp", "yn00": "/usr/local/bin/yn00"}}
+config: {"url": "https://biocontainers.pro/tools/paml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for paml", "latest": {"4.10.6--h031d066_2": "sha256:5bc7ceea0bf33bc1975bffeb64e9c4ca3955fac9320d87dc5a443b405ac12cff"}, "tags": {"4.9--hec16e2b_7": "sha256:8a4612423d8664ba34989e4e085b7cd0ea9f9b730bac67d97bf61745768d5020", "4.10.6--hec16e2b_0": "sha256:c8d7a4fea26864f55e90300c84dfd0f8b61dd832e7e0a42e315d055285a3bc0e", "4.10.6--h031d066_2": "sha256:5bc7ceea0bf33bc1975bffeb64e9c4ca3955fac9320d87dc5a443b405ac12cff"}, "docker": "quay.io/biocontainers/paml", "aliases": {"baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver", "infinitesites": "/usr/local/bin/infinitesites", "mcmctree": "/usr/local/bin/mcmctree", "pamp": "/usr/local/bin/pamp", "yn00": "/usr/local/bin/yn00"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/paml.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/paml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/paml:4.10.6--hec16e2b_0
+$ shpc install quay.io/biocontainers/paml:4.10.6--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/paml/4.10.6--hec16e2b_0
-$ module help quay.io/biocontainers/paml/4.10.6--hec16e2b_0
+$ module load quay.io/biocontainers/paml/4.10.6--h031d066_2
+$ module help quay.io/biocontainers/paml/4.10.6--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

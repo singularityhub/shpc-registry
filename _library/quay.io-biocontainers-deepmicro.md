@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepmicro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmicro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmicro/container.yaml"
-updated_at: "2023-06-08 04:16:43.166637"
-latest: "1.4--pyhdfd78af_0"
+updated_at: "2023-06-09 03:47:58.691385"
+latest: "1.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/deepmicro"
 aliases:
  - "DM.py"
@@ -42,8 +42,9 @@ versions:
  - "1.2--pyhdfd78af_0"
  - "1.3--pyhdfd78af_0"
  - "1.4--pyhdfd78af_0"
+ - "1.4--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for deepmicro"
-config: {"url": "https://biocontainers.pro/tools/deepmicro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepmicro", "latest": {"1.4--pyhdfd78af_0": "sha256:0591f6bbd993334172eb979f51a838072fc98da0a0eecebb7be254d702d60241"}, "tags": {"1.2--pyhdfd78af_0": "sha256:a39179ff56ecfd2e186edf19148c3e2ac071ab74ae7e2cca20020d5a53fb8e9a", "1.3--pyhdfd78af_0": "sha256:d2afa9ae1c27c781dfcf21fd694c21745e5a024f36ac0f4acb23574725b040b7", "1.4--pyhdfd78af_0": "sha256:0591f6bbd993334172eb979f51a838072fc98da0a0eecebb7be254d702d60241"}, "docker": "quay.io/biocontainers/deepmicro", "aliases": {"DM.py": "/usr/local/bin/DM.py", "DNN_models.py": "/usr/local/bin/DNN_models.py", "exception_handle.py": "/usr/local/bin/exception_handle.py", "flatc": "/usr/local/bin/flatc", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "aec": "/usr/local/bin/aec", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/deepmicro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepmicro", "latest": {"1.4--pyhdfd78af_1": "sha256:45457364418054ca06f95f2c028484d0d2dbf4763901b2e45470f3c136353039"}, "tags": {"1.2--pyhdfd78af_0": "sha256:a39179ff56ecfd2e186edf19148c3e2ac071ab74ae7e2cca20020d5a53fb8e9a", "1.3--pyhdfd78af_0": "sha256:d2afa9ae1c27c781dfcf21fd694c21745e5a024f36ac0f4acb23574725b040b7", "1.4--pyhdfd78af_0": "sha256:0591f6bbd993334172eb979f51a838072fc98da0a0eecebb7be254d702d60241", "1.4--pyhdfd78af_1": "sha256:45457364418054ca06f95f2c028484d0d2dbf4763901b2e45470f3c136353039"}, "docker": "quay.io/biocontainers/deepmicro", "aliases": {"DM.py": "/usr/local/bin/DM.py", "DNN_models.py": "/usr/local/bin/DNN_models.py", "exception_handle.py": "/usr/local/bin/exception_handle.py", "flatc": "/usr/local/bin/flatc", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "aec": "/usr/local/bin/aec", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepmicro.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/deepmicro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepmicro:1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/deepmicro:1.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepmicro/1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/deepmicro/1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/deepmicro/1.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/deepmicro/1.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

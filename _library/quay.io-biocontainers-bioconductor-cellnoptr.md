@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellnoptr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
-updated_at: "2023-06-08 03:34:04.855914"
-latest: "1.44.0--r42hc0cfd56_0"
+updated_at: "2023-06-09 03:11:58.694208"
+latest: "1.44.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellnoptr"
 aliases:
  - "diffimg"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.40.0--r41hc0cfd56_2"
  - "1.44.0--r42hc0cfd56_0"
+ - "1.44.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellnoptr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellnoptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellnoptr", "latest": {"1.44.0--r42hc0cfd56_0": "sha256:8a48fee81fa0d958b09f8ed405c32ba4e4b45ce2554639c111b19d3020af5a9d"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930", "1.44.0--r42hc0cfd56_0": "sha256:8a48fee81fa0d958b09f8ed405c32ba4e4b45ce2554639c111b19d3020af5a9d"}, "docker": "quay.io/biocontainers/bioconductor-cellnoptr", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellnoptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellnoptr", "latest": {"1.44.0--r42ha9d7317_1": "sha256:3efed90bf0258675160e83d80627f7a191b5c3d33a0232f519d5d99a79d3d313"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930", "1.44.0--r42hc0cfd56_0": "sha256:8a48fee81fa0d958b09f8ed405c32ba4e4b45ce2554639c111b19d3020af5a9d", "1.44.0--r42ha9d7317_1": "sha256:3efed90bf0258675160e83d80627f7a191b5c3d33a0232f519d5d99a79d3d313"}, "docker": "quay.io/biocontainers/bioconductor-cellnoptr", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellnoptr.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellnoptr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellnoptr:1.44.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-cellnoptr:1.44.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellnoptr/1.44.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-cellnoptr/1.44.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-cellnoptr/1.44.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-cellnoptr/1.44.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

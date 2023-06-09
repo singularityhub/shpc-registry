@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-triplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-triplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-triplex/container.yaml"
-updated_at: "2023-06-08 03:58:11.454845"
-latest: "1.38.0--r42hc0cfd56_0"
+updated_at: "2023-06-09 03:32:18.568749"
+latest: "1.38.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-triplex"
 
 versions:
  - "1.34.0--r41hc0cfd56_2"
  - "1.38.0--r42hc0cfd56_0"
+ - "1.38.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-triplex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-triplex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-triplex", "latest": {"1.38.0--r42hc0cfd56_0": "sha256:e6b0b5a0b8011e2ddca8fc33bd133b4a6da7c8a87b81497ba66d7c6f628ccafc"}, "tags": {"1.34.0--r41hc0cfd56_2": "sha256:4707a4abd583efb9de5100cec5b617208e82d7695d5ddba7cd1d5ae146a5d067", "1.38.0--r42hc0cfd56_0": "sha256:e6b0b5a0b8011e2ddca8fc33bd133b4a6da7c8a87b81497ba66d7c6f628ccafc"}, "docker": "quay.io/biocontainers/bioconductor-triplex"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-triplex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-triplex", "latest": {"1.38.0--r42ha9d7317_1": "sha256:7d4725371cbd4ae1252a0f135552a33edd478f7a55bac7673a6d633a7daf794c"}, "tags": {"1.34.0--r41hc0cfd56_2": "sha256:4707a4abd583efb9de5100cec5b617208e82d7695d5ddba7cd1d5ae146a5d067", "1.38.0--r42hc0cfd56_0": "sha256:e6b0b5a0b8011e2ddca8fc33bd133b4a6da7c8a87b81497ba66d7c6f628ccafc", "1.38.0--r42ha9d7317_1": "sha256:7d4725371cbd4ae1252a0f135552a33edd478f7a55bac7673a6d633a7daf794c"}, "docker": "quay.io/biocontainers/bioconductor-triplex"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-triplex.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-triplex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-triplex:1.38.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-triplex:1.38.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-triplex/1.38.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-triplex/1.38.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-triplex/1.38.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-triplex/1.38.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

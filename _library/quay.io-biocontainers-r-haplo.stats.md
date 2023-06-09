@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-haplo.stats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-haplo.stats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-haplo.stats/container.yaml"
-updated_at: "2023-06-08 04:10:07.190909"
+updated_at: "2023-06-09 03:42:23.185036"
 latest: "1.7.7--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-haplo.stats"
 aliases:

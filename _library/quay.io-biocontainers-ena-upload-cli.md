@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ena-upload-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-upload-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ena-upload-cli/container.yaml"
-updated_at: "2023-06-08 03:51:16.291087"
-latest: "0.6.1--pyh5e36f6f_0"
+updated_at: "2023-06-09 03:26:29.243684"
+latest: "0.6.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ena-upload-cli"
 aliases:
  - "ena-upload-cli"
@@ -21,8 +21,9 @@ aliases:
  - "python3.10"
 versions:
  - "0.6.1--pyh5e36f6f_0"
+ - "0.6.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for ena-upload-cli"
-config: {"url": "https://biocontainers.pro/tools/ena-upload-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-upload-cli", "latest": {"0.6.1--pyh5e36f6f_0": "sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6"}, "tags": {"0.6.1--pyh5e36f6f_0": "sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6"}, "docker": "quay.io/biocontainers/ena-upload-cli", "aliases": {"ena-upload-cli": "/usr/local/bin/ena-upload-cli", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "normalizer": "/usr/local/bin/normalizer", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/ena-upload-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-upload-cli", "latest": {"0.6.2--pyh7cba7a3_0": "sha256:4c2b1e5fad9c1d51b04487016f19df04f877606c9b721d53210c2faf8e1fe8e2"}, "tags": {"0.6.1--pyh5e36f6f_0": "sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6", "0.6.2--pyh7cba7a3_0": "sha256:4c2b1e5fad9c1d51b04487016f19df04f877606c9b721d53210c2faf8e1fe8e2"}, "docker": "quay.io/biocontainers/ena-upload-cli", "aliases": {"ena-upload-cli": "/usr/local/bin/ena-upload-cli", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "normalizer": "/usr/local/bin/normalizer", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ena-upload-cli.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ena-upload-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ena-upload-cli:0.6.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/ena-upload-cli:0.6.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ena-upload-cli/0.6.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/ena-upload-cli/0.6.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/ena-upload-cli/0.6.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/ena-upload-cli/0.6.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/3seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/3seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/3seq/container.yaml"
-updated_at: "2023-06-08 04:07:01.875393"
-latest: "1.8--h9f5acd7_1"
+updated_at: "2023-06-09 03:39:46.499261"
+latest: "1.8--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/3seq"
 aliases:
  - "3seq"
 versions:
  - "1.8--h9f5acd7_1"
+ - "1.8--h4ac6f70_3"
 description: "singularity registry hpc automated addition for 3seq"
-config: {"url": "https://biocontainers.pro/tools/3seq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for 3seq", "latest": {"1.8--h9f5acd7_1": "sha256:471d0948d34338bb871ef005b267bd08119f1d4fde178a4a755e696f635542e7"}, "tags": {"1.8--h9f5acd7_1": "sha256:471d0948d34338bb871ef005b267bd08119f1d4fde178a4a755e696f635542e7"}, "docker": "quay.io/biocontainers/3seq", "aliases": {"3seq": "/usr/local/bin/3seq"}}
+config: {"url": "https://biocontainers.pro/tools/3seq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for 3seq", "latest": {"1.8--h4ac6f70_3": "sha256:123ed1ea5ca100ed021890684d2629b7fceabfa9dad8e7d99a658a53f3ff0dbf"}, "tags": {"1.8--h9f5acd7_1": "sha256:471d0948d34338bb871ef005b267bd08119f1d4fde178a4a755e696f635542e7", "1.8--h4ac6f70_3": "sha256:123ed1ea5ca100ed021890684d2629b7fceabfa9dad8e7d99a658a53f3ff0dbf"}, "docker": "quay.io/biocontainers/3seq", "aliases": {"3seq": "/usr/local/bin/3seq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/3seq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/3seq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/3seq:1.8--h9f5acd7_1
+$ shpc install quay.io/biocontainers/3seq:1.8--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/3seq/1.8--h9f5acd7_1
-$ module help quay.io/biocontainers/3seq/1.8--h9f5acd7_1
+$ module load quay.io/biocontainers/3seq/1.8--h4ac6f70_3
+$ module help quay.io/biocontainers/3seq/1.8--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

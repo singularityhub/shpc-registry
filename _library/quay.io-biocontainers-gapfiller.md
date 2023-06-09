@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gapfiller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gapfiller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gapfiller/container.yaml"
-updated_at: "2023-06-08 03:22:00.062425"
-latest: "2.1.2--h7ff8a90_3"
+updated_at: "2023-06-09 03:01:47.080915"
+latest: "2.1.2--h7ff8a90_4"
 container_url: "https://biocontainers.pro/tools/gapfiller"
 aliases:
  - "GapFiller"
 versions:
  - "2.1.2--h7ff8a90_3"
+ - "2.1.2--h7ff8a90_4"
 description: "shpc-registry automated BioContainers addition for gapfiller"
-config: {"url": "https://biocontainers.pro/tools/gapfiller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gapfiller", "latest": {"2.1.2--h7ff8a90_3": "sha256:a5e07022c9eeb8029b1ee571ba5214a1a3806f763ea02448586cdd336623fe60"}, "tags": {"2.1.2--h7ff8a90_3": "sha256:a5e07022c9eeb8029b1ee571ba5214a1a3806f763ea02448586cdd336623fe60"}, "docker": "quay.io/biocontainers/gapfiller", "aliases": {"GapFiller": "/usr/local/bin/GapFiller"}}
+config: {"url": "https://biocontainers.pro/tools/gapfiller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gapfiller", "latest": {"2.1.2--h7ff8a90_4": "sha256:d4b99648da52e325ae894f03f57904dc8eff8d29843c499fbfdc70ef36038b9f"}, "tags": {"2.1.2--h7ff8a90_3": "sha256:a5e07022c9eeb8029b1ee571ba5214a1a3806f763ea02448586cdd336623fe60", "2.1.2--h7ff8a90_4": "sha256:d4b99648da52e325ae894f03f57904dc8eff8d29843c499fbfdc70ef36038b9f"}, "docker": "quay.io/biocontainers/gapfiller", "aliases": {"GapFiller": "/usr/local/bin/GapFiller"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gapfiller.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gapfiller
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gapfiller:2.1.2--h7ff8a90_3
+$ shpc install quay.io/biocontainers/gapfiller:2.1.2--h7ff8a90_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gapfiller/2.1.2--h7ff8a90_3
-$ module help quay.io/biocontainers/gapfiller/2.1.2--h7ff8a90_3
+$ module load quay.io/biocontainers/gapfiller/2.1.2--h7ff8a90_4
+$ module help quay.io/biocontainers/gapfiller/2.1.2--h7ff8a90_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

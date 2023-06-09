@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-soybeanprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-soybeanprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-soybeanprobe/container.yaml"
-updated_at: "2023-06-08 03:47:16.025425"
+updated_at: "2023-06-09 03:23:05.996533"
 latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-soybeanprobe"
 

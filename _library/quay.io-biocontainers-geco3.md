@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/geco3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geco3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geco3/container.yaml"
-updated_at: "2023-06-08 03:54:03.494174"
-latest: "1.0--hec16e2b_2"
+updated_at: "2023-06-09 03:28:50.153436"
+latest: "1.0--h031d066_4"
 container_url: "https://biocontainers.pro/tools/geco3"
 aliases:
  - "GeCo3"
  - "GeDe3"
 versions:
  - "1.0--hec16e2b_2"
+ - "1.0--h031d066_4"
 description: "shpc-registry automated BioContainers addition for geco3"
-config: {"url": "https://biocontainers.pro/tools/geco3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geco3", "latest": {"1.0--hec16e2b_2": "sha256:5272443167985ac059e2cafb1dbcfa3424d38b47a6f6daf487c4a1f694509436"}, "tags": {"1.0--hec16e2b_2": "sha256:5272443167985ac059e2cafb1dbcfa3424d38b47a6f6daf487c4a1f694509436"}, "docker": "quay.io/biocontainers/geco3", "aliases": {"GeCo3": "/usr/local/bin/GeCo3", "GeDe3": "/usr/local/bin/GeDe3"}}
+config: {"url": "https://biocontainers.pro/tools/geco3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geco3", "latest": {"1.0--h031d066_4": "sha256:e11849f82e41170a733f4e04a2b0ad533218647dcca2020e6d07dc3e665fa5a8"}, "tags": {"1.0--hec16e2b_2": "sha256:5272443167985ac059e2cafb1dbcfa3424d38b47a6f6daf487c4a1f694509436", "1.0--h031d066_4": "sha256:e11849f82e41170a733f4e04a2b0ad533218647dcca2020e6d07dc3e665fa5a8"}, "docker": "quay.io/biocontainers/geco3", "aliases": {"GeCo3": "/usr/local/bin/GeCo3", "GeDe3": "/usr/local/bin/GeDe3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geco3.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/geco3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/geco3:1.0--hec16e2b_2
+$ shpc install quay.io/biocontainers/geco3:1.0--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/geco3/1.0--hec16e2b_2
-$ module help quay.io/biocontainers/geco3/1.0--hec16e2b_2
+$ module load quay.io/biocontainers/geco3/1.0--h031d066_4
+$ module help quay.io/biocontainers/geco3/1.0--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

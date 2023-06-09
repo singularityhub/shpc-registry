@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dashing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dashing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dashing/container.yaml"
-updated_at: "2023-06-08 04:12:56.275710"
-latest: "1.0--hfb1f815_0"
+updated_at: "2023-06-09 03:44:46.179625"
+latest: "1.0--h40c17d1_2"
 container_url: "https://biocontainers.pro/tools/dashing"
 aliases:
  - "dashing"
 versions:
  - "1.0--hfb1f815_0"
+ - "1.0--h40c17d1_2"
 description: "shpc-registry automated BioContainers addition for dashing"
-config: {"url": "https://biocontainers.pro/tools/dashing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dashing", "latest": {"1.0--hfb1f815_0": "sha256:c9d7eacebbd93f4cd248c921d16f592d5674d022abfc6d09810748f22494084d"}, "tags": {"1.0--hfb1f815_0": "sha256:c9d7eacebbd93f4cd248c921d16f592d5674d022abfc6d09810748f22494084d"}, "docker": "quay.io/biocontainers/dashing", "aliases": {"dashing": "/usr/local/bin/dashing"}}
+config: {"url": "https://biocontainers.pro/tools/dashing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dashing", "latest": {"1.0--h40c17d1_2": "sha256:45bd9d1a9be72f433438416c5deea42ccdfe018abeb205c73b1a0407cd58d28c"}, "tags": {"1.0--hfb1f815_0": "sha256:c9d7eacebbd93f4cd248c921d16f592d5674d022abfc6d09810748f22494084d", "1.0--h40c17d1_2": "sha256:45bd9d1a9be72f433438416c5deea42ccdfe018abeb205c73b1a0407cd58d28c"}, "docker": "quay.io/biocontainers/dashing", "aliases": {"dashing": "/usr/local/bin/dashing"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dashing.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dashing
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dashing:1.0--hfb1f815_0
+$ shpc install quay.io/biocontainers/dashing:1.0--h40c17d1_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dashing/1.0--hfb1f815_0
-$ module help quay.io/biocontainers/dashing/1.0--hfb1f815_0
+$ module load quay.io/biocontainers/dashing/1.0--h40c17d1_2
+$ module help quay.io/biocontainers/dashing/1.0--h40c17d1_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

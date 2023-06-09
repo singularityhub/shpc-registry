@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-illuminaio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminaio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminaio/container.yaml"
-updated_at: "2023-06-08 03:17:28.229905"
-latest: "0.40.0--r42hc0cfd56_0"
+updated_at: "2023-06-09 02:57:59.694302"
+latest: "0.40.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminaio"
 
 versions:
  - "0.36.0--r41hc0cfd56_2"
  - "0.40.0--r42hc0cfd56_0"
+ - "0.40.0--r42ha9d7317_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-illuminaio"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminaio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminaio", "latest": {"0.40.0--r42hc0cfd56_0": "sha256:6f9edfc017010bfc81b395869829915e6e8cb7f3584470b85440672210f36057"}, "tags": {"0.36.0--r41hc0cfd56_2": "sha256:9efc92f2fa72f18d6533e4ab7038eb611a548d2da10167cc44edcb0293b1e13b", "0.40.0--r42hc0cfd56_0": "sha256:6f9edfc017010bfc81b395869829915e6e8cb7f3584470b85440672210f36057"}, "docker": "quay.io/biocontainers/bioconductor-illuminaio"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminaio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminaio", "latest": {"0.40.0--r42ha9d7317_2": "sha256:049d5ee73cc527fcca0e61e5006e955b6f6533f01496163124729759e1df8478"}, "tags": {"0.36.0--r41hc0cfd56_2": "sha256:9efc92f2fa72f18d6533e4ab7038eb611a548d2da10167cc44edcb0293b1e13b", "0.40.0--r42hc0cfd56_0": "sha256:6f9edfc017010bfc81b395869829915e6e8cb7f3584470b85440672210f36057", "0.40.0--r42ha9d7317_2": "sha256:049d5ee73cc527fcca0e61e5006e955b6f6533f01496163124729759e1df8478"}, "docker": "quay.io/biocontainers/bioconductor-illuminaio"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-illuminaio.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-illuminaio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-illuminaio:0.40.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-illuminaio:0.40.0--r42ha9d7317_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-illuminaio/0.40.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-illuminaio/0.40.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-illuminaio/0.40.0--r42ha9d7317_2
+$ module help quay.io/biocontainers/bioconductor-illuminaio/0.40.0--r42ha9d7317_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

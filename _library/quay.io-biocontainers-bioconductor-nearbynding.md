@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nearbynding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nearbynding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nearbynding/container.yaml"
-updated_at: "2023-06-08 03:21:17.859616"
+updated_at: "2023-06-09 03:01:11.373608"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nearbynding"
 
