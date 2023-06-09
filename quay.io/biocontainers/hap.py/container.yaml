@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hap.py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hap.py
 latest:
-  0.3.14--py27h5c5a3ab_0: sha256:d81998ec2c4ea63588a76f760a942ac5e170749617eb9d77d1fc05446d97b3e4
+  0.3.15--py27hcb73b3d_0: sha256:d63b963a6cb01b4830393b22369e7b91d298e4156dde353739e74e4cfa4f96d0
 tags:
   0.3.7--py27_1: sha256:ebb9d998e938cc6d659c2d9fe214c94ae05786d8c6cd79456763bac4856f61c5
   0.3.14--py27h5c5a3ab_0: sha256:d81998ec2c4ea63588a76f760a942ac5e170749617eb9d77d1fc05446d97b3e4
+  0.3.15--py27hcb73b3d_0: sha256:d63b963a6cb01b4830393b22369e7b91d298e4156dde353739e74e4cfa4f96d0
 docker: quay.io/biocontainers/hap.py
 aliases:
   alleles: /usr/local/bin/alleles

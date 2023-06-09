@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/alder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for alder
 latest:
-  1.03--h12039ba_4: sha256:f5bba5778a833d7cf1216e2f11dfd812920f756940b44cc900d4dabac4e75e59
+  1.03--h1d1b5ed_6: sha256:f3335c12043dbf166e3d9f70b9a3e8948f5319779fd031217c5b1ed27ce4f165
 tags:
   1.03--h12039ba_4: sha256:f5bba5778a833d7cf1216e2f11dfd812920f756940b44cc900d4dabac4e75e59
+  1.03--h1d1b5ed_6: sha256:f3335c12043dbf166e3d9f70b9a3e8948f5319779fd031217c5b1ed27ce4f165
 docker: quay.io/biocontainers/alder
 aliases:
   alder: /usr/local/bin/alder

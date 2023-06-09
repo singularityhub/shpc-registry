@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/shapeit4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shapeit4
 latest:
-  4.2.2--h24bf969_1: sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861
+  4.2.2--h3fe290a_3: sha256:5f48c74a5cf6ce180071ec080b7ec88ef196a8477d8b9c1e0d71dc5a5ae54edd
 tags:
   4.2.2--h24bf969_1: sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861
+  4.2.2--h3fe290a_3: sha256:5f48c74a5cf6ce180071ec080b7ec88ef196a8477d8b9c1e0d71dc5a5ae54edd
 docker: quay.io/biocontainers/shapeit4
 aliases:
   shapeit4: /usr/local/bin/shapeit4

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ghostz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ghostz
 latest:
-  1.0.2--h87f3376_3: sha256:57262b2b9c1baa903369459658733aa12c0f1a843c56199299587cfbbaf02460
+  1.0.2--hdbdd923_5: sha256:867cf04129aa8984b62438f2d3d69a60b27ece38793255e1a5eb87565a411568
 tags:
   1.0.2--h87f3376_3: sha256:57262b2b9c1baa903369459658733aa12c0f1a843c56199299587cfbbaf02460
+  1.0.2--hdbdd923_5: sha256:867cf04129aa8984b62438f2d3d69a60b27ece38793255e1a5eb87565a411568
 docker: quay.io/biocontainers/ghostz
 aliases:
   ghostz: /usr/local/bin/ghostz

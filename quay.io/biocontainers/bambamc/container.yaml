@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bambamc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bambamc
 latest:
-  0.0.50--h7132678_5: sha256:1747302f343455876f6a7850483e817a8bfbb598c25c2f68faad94a3ba71662e
+  0.0.50--he4a0461_7: sha256:e9dd17d6bf9e8e7a239ec3e670093504d0a80d6c0d6dcda0098ddee5a55e2dc0
 tags:
   0.0.50--h7132678_5: sha256:1747302f343455876f6a7850483e817a8bfbb598c25c2f68faad94a3ba71662e
+  0.0.50--he4a0461_7: sha256:e9dd17d6bf9e8e7a239ec3e670093504d0a80d6c0d6dcda0098ddee5a55e2dc0
 docker: quay.io/biocontainers/bambamc

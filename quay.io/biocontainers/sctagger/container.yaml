@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sctagger
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sctagger
 latest:
-  1.1--hdfd78af_0: sha256:c339826d461afdf19f37a81afd9c77e07cc78d9fd70ce8bc7d9950d7d332bca1
+  1.1.1--hdfd78af_0: sha256:a6c99e79628cc4164a3ff640b8162d110bb098f48cf9c9d225cb8f9448dc0c78
 tags:
   1.1--hdfd78af_0: sha256:c339826d461afdf19f37a81afd9c77e07cc78d9fd70ce8bc7d9950d7d332bca1
+  1.1.1--hdfd78af_0: sha256:a6c99e79628cc4164a3ff640b8162d110bb098f48cf9c9d225cb8f9448dc0c78
 docker: quay.io/biocontainers/sctagger
 aliases:
   scTagger.py: /usr/local/bin/scTagger.py

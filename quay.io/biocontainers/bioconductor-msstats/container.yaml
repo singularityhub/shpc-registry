@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-msstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msstats
 latest:
-  4.6.0--r42hc247a5b_0: sha256:37794e41771f4b8d2ac5b9323548510d751c99e8b784e7adba5bb909f983f70e
+  4.6.0--r42hf17093f_1: sha256:2871b8eceb0e35f879129887732450b14e3a7e3beb8f0380b450550e5b57e5ed
 tags:
   4.2.0--r41hc247a5b_2: sha256:30fff28de8ae26535478b877095c7c5094da752d41bdc9af42b1f56de5fe7f57
   4.6.0--r42hc247a5b_0: sha256:37794e41771f4b8d2ac5b9323548510d751c99e8b784e7adba5bb909f983f70e
+  4.6.0--r42hf17093f_1: sha256:2871b8eceb0e35f879129887732450b14e3a7e3beb8f0380b450550e5b57e5ed
 docker: quay.io/biocontainers/bioconductor-msstats
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

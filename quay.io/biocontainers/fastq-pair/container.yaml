@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fastq-pair
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastq-pair
 latest:
-  1.0--h87f3376_3: sha256:7d3baecef5283435197244b5c3db6dfb7b51060089e4c464307c90af43262a78
+  1.0--hdbdd923_5: sha256:520a373c0d126db156e8b5aedd3ac0049db960360cb889724c2736d7f1295f44
 tags:
   1.0--h87f3376_3: sha256:7d3baecef5283435197244b5c3db6dfb7b51060089e4c464307c90af43262a78
+  1.0--hdbdd923_5: sha256:520a373c0d126db156e8b5aedd3ac0049db960360cb889724c2736d7f1295f44
 docker: quay.io/biocontainers/fastq-pair
 aliases:
   fastq_pair: /usr/local/bin/fastq_pair

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-moosex-role-withoverloading
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-moosex-role-withoverloading
 latest:
-  0.17--pl5321h9f5acd7_4: sha256:e33c1aef2328d2f212b969ac25ae65a1d35a4bf88b3eac1d5091b28332642dff
+  0.17--pl5321h4ac6f70_5: sha256:9cfe9ad76c22b3fe31a06b0dab36d9c60aff5d4bfb300b9934eeef3ee44808fc
 tags:
   0.17--pl5321h9f5acd7_4: sha256:e33c1aef2328d2f212b969ac25ae65a1d35a4bf88b3eac1d5091b28332642dff
+  0.17--pl5321h4ac6f70_5: sha256:9cfe9ad76c22b3fe31a06b0dab36d9c60aff5d4bfb300b9934eeef3ee44808fc
 docker: quay.io/biocontainers/perl-moosex-role-withoverloading
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-data-uuid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-data-uuid
 latest:
-  1.226--pl5321h9f5acd7_1: sha256:2c982bcbdda65deeb9b521818babb613cedf20939d318c4731e4adbaeced7c29
+  1.226--pl5321h4ac6f70_3: sha256:04eb2de23ef92e6b3dcc138bc8b851becd6950bba73ea68acd8aa80f1ca991e9
 tags:
   1.226--pl5321h9f5acd7_1: sha256:2c982bcbdda65deeb9b521818babb613cedf20939d318c4731e4adbaeced7c29
+  1.226--pl5321h4ac6f70_3: sha256:04eb2de23ef92e6b3dcc138bc8b851becd6950bba73ea68acd8aa80f1ca991e9
 docker: quay.io/biocontainers/perl-data-uuid
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

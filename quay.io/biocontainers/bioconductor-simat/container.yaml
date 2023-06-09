@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-simat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-simat
 latest:
-  1.30.0--r42hc247a5b_0: sha256:aa28514c00cb575eade452e362ca3aba531cf14385022601b5eab38048ec4392
+  1.30.0--r42hf17093f_1: sha256:3327e1732276d6451570d0b20c4683afcd14db30be8d12eadc541749f7997f7d
 tags:
   1.26.0--r41hc247a5b_2: sha256:eb99a9cb119d1b9764d753e33536187980f366f741e152a2cecdc36ec9bfe4eb
   1.30.0--r42hc247a5b_0: sha256:aa28514c00cb575eade452e362ca3aba531cf14385022601b5eab38048ec4392
+  1.30.0--r42hf17093f_1: sha256:3327e1732276d6451570d0b20c4683afcd14db30be8d12eadc541749f7997f7d
 docker: quay.io/biocontainers/bioconductor-simat
 aliases:
   zipcmp: /usr/local/bin/zipcmp

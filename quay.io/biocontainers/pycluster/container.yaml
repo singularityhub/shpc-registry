@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pycluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pycluster
 latest:
-  1.54--py37h37892f8_6: sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4
+  1.54--py38h24c8ff8_7: sha256:c535c4475c3a2fe373a55054f3f22563534bc4ff4b8ad206f368d9913767e72f
 tags:
   1.54--py37h37892f8_6: sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4
+  1.54--py38h24c8ff8_7: sha256:c535c4475c3a2fe373a55054f3f22563534bc4ff4b8ad206f368d9913767e72f
 docker: quay.io/biocontainers/pycluster
 aliases:
   f2py3.7: /usr/local/bin/f2py3.7
