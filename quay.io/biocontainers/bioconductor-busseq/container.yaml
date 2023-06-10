@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-busseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-busseq
 latest:
-  1.4.0--r42hc247a5b_0: sha256:1002555479cf3e6902ce8dd13fd7024c040d2c68053e8627fff7a4c42566abd4
+  1.4.0--r42hf17093f_1: sha256:f42fd4189c19abf6ec3fe190b45e2fb8977171963ca9c57c7d91d8211b233eb3
 tags:
   1.0.0--r41hc247a5b_2: sha256:2c31d1f21e405f01519043bb7a14f2860e94b8826ba5891faa137ec11940e81c
   1.4.0--r42hc247a5b_0: sha256:1002555479cf3e6902ce8dd13fd7024c040d2c68053e8627fff7a4c42566abd4
+  1.4.0--r42hf17093f_1: sha256:f42fd4189c19abf6ec3fe190b45e2fb8977171963ca9c57c7d91d8211b233eb3
 docker: quay.io/biocontainers/bioconductor-busseq

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/trinotate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trinotate
 latest:
-  4.0.0--pl5321hdfd78af_0: sha256:ebf2b2ae0ef5d6e30f881a3f067c27c8456f1b68ecae0300a1156ee0b5719aa8
+  4.0.1--pl5321hdfd78af_0: sha256:b6f107457068a2995fc4d2651d61cd811ba2d20cf234964fe9864c25bee8b42a
 tags:
   3.2.2--pl5321hdfd78af_1: sha256:582f3f381c3ee5855c3749fbb663979a64752ff85834d2d907768ecc1e41ebe8
   4.0.0--pl5321hdfd78af_0: sha256:ebf2b2ae0ef5d6e30f881a3f067c27c8456f1b68ecae0300a1156ee0b5719aa8
+  4.0.1--pl5321hdfd78af_0: sha256:b6f107457068a2995fc4d2651d61cd811ba2d20cf234964fe9864c25bee8b42a
 docker: quay.io/biocontainers/trinotate
 aliases:
   Build_Trinotate_Boilerplate_SQLite_db.pl: /usr/local/bin/Build_Trinotate_Boilerplate_SQLite_db.pl

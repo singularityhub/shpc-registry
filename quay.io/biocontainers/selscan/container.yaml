@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/selscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for selscan
 latest:
-  1.2.0a--h0fdf51a_4: sha256:9aecb16dd630cfc483aea257e45608250e388861730e5220ed7a2ccd3750c21e
+  1.2.0a--h4dfc31f_6: sha256:1f1f0f1993e11b3b7cfa15465f1701f74f5dd14d83e259f2fdb06b7820bf2328
 tags:
   1.2.0a--h0fdf51a_4: sha256:9aecb16dd630cfc483aea257e45608250e388861730e5220ed7a2ccd3750c21e
+  1.2.0a--h4dfc31f_6: sha256:1f1f0f1993e11b3b7cfa15465f1701f74f5dd14d83e259f2fdb06b7820bf2328
 docker: quay.io/biocontainers/selscan
 aliases:
   norm: /usr/local/bin/norm

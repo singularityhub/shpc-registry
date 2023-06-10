@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/orientagraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for orientagraph
 latest:
-  1.1--h52d0f6c_2: sha256:9ca4f01a89ed40ecaf9560cc77b80cfbe204b590141a1c07730f3d6eaa1e3e92
+  1.1--hcfb5669_4: sha256:35af31c4fd287935c64e59546fc4d37e70f21176a0fc93cb9ea6ef5811419447
 tags:
   1.1--h52d0f6c_2: sha256:9ca4f01a89ed40ecaf9560cc77b80cfbe204b590141a1c07730f3d6eaa1e3e92
+  1.1--hcfb5669_4: sha256:35af31c4fd287935c64e59546fc4d37e70f21176a0fc93cb9ea6ef5811419447
 docker: quay.io/biocontainers/orientagraph
 aliases:
   f4ratio: /usr/local/bin/f4ratio

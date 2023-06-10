@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cd-hit-auxtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cd-hit-auxtools
 latest:
-  4.8.1--h9f5acd7_2: sha256:a7cbdf49e5f9f4f6533e8b8e1b23260f79c3e5fca3acd6e0c1ae8a0db9da32b0
+  4.8.1--h4ac6f70_3: sha256:34caae56cdd57c0fb8c20cb586e4092d0c1cbad6777b67d039a294be647a5a87
 tags:
   4.8.1--h9f5acd7_2: sha256:a7cbdf49e5f9f4f6533e8b8e1b23260f79c3e5fca3acd6e0c1ae8a0db9da32b0
+  4.8.1--h4ac6f70_3: sha256:34caae56cdd57c0fb8c20cb586e4092d0c1cbad6777b67d039a294be647a5a87
 docker: quay.io/biocontainers/cd-hit-auxtools
 aliases:
   cd-hit-dup: /usr/local/bin/cd-hit-dup

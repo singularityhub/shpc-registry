@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/circularmapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circularmapper
 latest:
-  1.93.5--h4a94de4_1: sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895
+  1.93.5--h2a3209d_3: sha256:973c0be83ed4ed4543e3b5926849600e91db64b7ef56a2a743375abecab02b30
 tags:
   1.93.5--h4a94de4_1: sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895
+  1.93.5--h2a3209d_3: sha256:973c0be83ed4ed4543e3b5926849600e91db64b7ef56a2a743375abecab02b30
 docker: quay.io/biocontainers/circularmapper
 aliases:
   circulargenerator: /usr/local/bin/circulargenerator

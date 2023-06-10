@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-bio-db-hts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-bio-db-hts
 latest:
-  3.01--pl5321hc88714e_7: sha256:49dcbbec9742117680512140e836fe7057a1a87add8405b31420857007b723a5
+  3.01--pl5321h6141fd1_8: sha256:f37960cb5373d372f157e5680d6c81c8d63e00ce537930855fb34a859b0e1bcf
 tags:
   3.01--pl5321hb0d9459_6: sha256:63873f385e6c5723bb76e111d340945046ef25b2957a6bf5a2ea11c5dd8cebd9
   3.01--pl5321hc88714e_7: sha256:49dcbbec9742117680512140e836fe7057a1a87add8405b31420857007b723a5
+  3.01--pl5321h6141fd1_8: sha256:f37960cb5373d372f157e5680d6c81c8d63e00ce537930855fb34a859b0e1bcf
 docker: quay.io/biocontainers/perl-bio-db-hts
 aliases:
   bp_aacomp: /usr/local/bin/bp_aacomp

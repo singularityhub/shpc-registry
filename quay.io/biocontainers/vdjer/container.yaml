@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vdjer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vdjer
 latest:
-  0.12--h5b5514e_5: sha256:291c96051d1cdeb546c0ddb36015504ece7799f559c15c86f8eeebfd1be1b7be
+  0.12--h43eeafb_7: sha256:7cb8dab69daae29b4e7b88313886c65150a1a9260ba69de537344312531e6c7c
 tags:
   0.12--h5b5514e_5: sha256:291c96051d1cdeb546c0ddb36015504ece7799f559c15c86f8eeebfd1be1b7be
+  0.12--h43eeafb_7: sha256:7cb8dab69daae29b4e7b88313886c65150a1a9260ba69de537344312531e6c7c
 docker: quay.io/biocontainers/vdjer
 aliases:
   vdjer: /usr/local/bin/vdjer

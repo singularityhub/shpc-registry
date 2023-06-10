@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ska
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ska
 latest:
-  1.0--hd03093a_3: sha256:0a7ab433c00bbd91a0ad97a4af61b7cd404e7da98e39bb7f4a3275120c251e01
+  1.0--hdcf5f25_5: sha256:5dc32788db1ff30c0545e6ff9671c879230bba8044b663370e65834c688a1efb
 tags:
   1.0--hd03093a_3: sha256:0a7ab433c00bbd91a0ad97a4af61b7cd404e7da98e39bb7f4a3275120c251e01
+  1.0--hdcf5f25_5: sha256:5dc32788db1ff30c0545e6ff9671c879230bba8044b663370e65834c688a1efb
 docker: quay.io/biocontainers/ska
 aliases:
   ska: /usr/local/bin/ska

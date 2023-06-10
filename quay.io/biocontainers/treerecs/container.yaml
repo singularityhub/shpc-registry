@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/treerecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treerecs
 latest:
-  1.2--h9f5acd7_2: sha256:b87f210730d7e2c501fbb84d72030402de4e0a26477f138035a3bc54d44be1b3
+  1.2--h9f5acd7_3: sha256:5124bfda9d4b484ad41ba826d4edd985899ca4a2b3b9629de81d83edbbaaad29
 tags:
   1.2--h9f5acd7_2: sha256:b87f210730d7e2c501fbb84d72030402de4e0a26477f138035a3bc54d44be1b3
+  1.2--h9f5acd7_3: sha256:5124bfda9d4b484ad41ba826d4edd985899ca4a2b3b9629de81d83edbbaaad29
 docker: quay.io/biocontainers/treerecs
 aliases:
   treerecs: /usr/local/bin/treerecs

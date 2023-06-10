@@ -1,13 +1,14 @@
 docker: amdih/pytorch
 url: https://www.amd.com/en/technologies/infinity-hub/pytorch
-description: PyTorch is a GPU accelerated tensor computational framework with a Python front end.
-maintainer: "@cristiandipietrantonio"
+description: PyTorch is a GPU accelerated tensor computational framework with a Python
+  front end.
+maintainer: '@cristiandipietrantonio'
 latest:
-  'rocm5.0_ubuntu18.04_py3.7_pytorch_1.10.0' : sha256:b075da4b74e9349e3fd9e38695c5800f391f1aec414f80d3846f67e21c70c0ce
+  rocm5.0_ubuntu18.04_py3.7_pytorch_1.10.0: sha256:b075da4b74e9349e3fd9e38695c5800f391f1aec414f80d3846f67e21c70c0ce
 tags:
-  'rocm5.0_ubuntu18.04_py3.7_pytorch_1.10.0' : sha256:b075da4b74e9349e3fd9e38695c5800f391f1aec414f80d3846f67e21c70c0ce
+  rocm5.0_ubuntu18.04_py3.7_pytorch_1.10.0: sha256:b075da4b74e9349e3fd9e38695c5800f391f1aec414f80d3846f67e21c70c0ce
 aliases:
-- name: python3 
+- name: python3
   command: /opt/conda/bin/python3
 - name: python
   command: /opt/conda/bin/python
