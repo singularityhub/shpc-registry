@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ppanini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ppanini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ppanini/container.yaml"
-updated_at: "2023-06-09 03:26:41.131020"
+updated_at: "2023-06-10 03:11:58.221095"
 latest: "0.7.4--py_0"
 container_url: "https://biocontainers.pro/tools/ppanini"
 aliases:

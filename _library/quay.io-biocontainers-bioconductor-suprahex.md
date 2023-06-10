@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-suprahex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-suprahex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-suprahex/container.yaml"
-updated_at: "2023-06-09 03:05:04.335110"
+updated_at: "2023-06-10 02:52:17.867974"
 latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-suprahex"
 

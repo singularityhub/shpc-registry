@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqsamplesize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqsamplesize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqsamplesize/container.yaml"
-updated_at: "2023-06-09 03:26:07.566412"
-latest: "2.8.0--r42hc247a5b_0"
+updated_at: "2023-06-10 03:11:27.876163"
+latest: "2.8.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqsamplesize"
 
 versions:
  - "2.4.1--r41hc247a5b_1"
  - "2.8.0--r42hc247a5b_0"
+ - "2.8.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaseqsamplesize"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqsamplesize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqsamplesize", "latest": {"2.8.0--r42hc247a5b_0": "sha256:e2bb6da2be99845a36ad07c076d57395fb319fbe5e8eac3be28d4218a5ad8214"}, "tags": {"2.4.1--r41hc247a5b_1": "sha256:d3afd62e336e0e70ded562decfeb76b9c3f5e426d4603367edee704542799cc7", "2.8.0--r42hc247a5b_0": "sha256:e2bb6da2be99845a36ad07c076d57395fb319fbe5e8eac3be28d4218a5ad8214"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqsamplesize"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqsamplesize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqsamplesize", "latest": {"2.8.0--r42hf17093f_1": "sha256:dc79aac70a9852bbecf01a725035e6d71a778a0b21d1825f5792b4a4eb1c3631"}, "tags": {"2.4.1--r41hc247a5b_1": "sha256:d3afd62e336e0e70ded562decfeb76b9c3f5e426d4603367edee704542799cc7", "2.8.0--r42hc247a5b_0": "sha256:e2bb6da2be99845a36ad07c076d57395fb319fbe5e8eac3be28d4218a5ad8214", "2.8.0--r42hf17093f_1": "sha256:dc79aac70a9852bbecf01a725035e6d71a778a0b21d1825f5792b4a4eb1c3631"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqsamplesize"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaseqsamplesize.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaseqsamplesize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaseqsamplesize:2.8.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-rnaseqsamplesize:2.8.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaseqsamplesize/2.8.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-rnaseqsamplesize/2.8.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-rnaseqsamplesize/2.8.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-rnaseqsamplesize/2.8.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

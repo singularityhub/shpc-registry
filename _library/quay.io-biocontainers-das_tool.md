@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/das_tool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/das_tool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/das_tool/container.yaml"
-updated_at: "2023-06-09 03:48:09.521639"
+updated_at: "2023-06-10 03:31:39.957901"
 latest: "1.1.6--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/das_tool"
 aliases:

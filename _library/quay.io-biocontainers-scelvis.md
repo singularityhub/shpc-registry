@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scelvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scelvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scelvis/container.yaml"
-updated_at: "2023-06-09 03:09:39.893820"
+updated_at: "2023-06-10 02:56:26.529176"
 latest: "0.8.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scelvis"
 aliases:

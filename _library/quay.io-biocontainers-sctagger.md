@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sctagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sctagger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sctagger/container.yaml"
-updated_at: "2023-06-09 03:10:52.125663"
-latest: "1.1--hdfd78af_0"
+updated_at: "2023-06-10 02:57:31.728745"
+latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sctagger"
 aliases:
  - "scTagger.py"
@@ -32,8 +32,9 @@ aliases:
  - "transicc"
 versions:
  - "1.1--hdfd78af_0"
+ - "1.1.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for sctagger"
-config: {"url": "https://biocontainers.pro/tools/sctagger", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sctagger", "latest": {"1.1--hdfd78af_0": "sha256:c339826d461afdf19f37a81afd9c77e07cc78d9fd70ce8bc7d9950d7d332bca1"}, "tags": {"1.1--hdfd78af_0": "sha256:c339826d461afdf19f37a81afd9c77e07cc78d9fd70ce8bc7d9950d7d332bca1"}, "docker": "quay.io/biocontainers/sctagger", "aliases": {"scTagger.py": "/usr/local/bin/scTagger.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/sctagger", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sctagger", "latest": {"1.1.1--hdfd78af_0": "sha256:a6c99e79628cc4164a3ff640b8162d110bb098f48cf9c9d225cb8f9448dc0c78"}, "tags": {"1.1--hdfd78af_0": "sha256:c339826d461afdf19f37a81afd9c77e07cc78d9fd70ce8bc7d9950d7d332bca1", "1.1.1--hdfd78af_0": "sha256:a6c99e79628cc4164a3ff640b8162d110bb098f48cf9c9d225cb8f9448dc0c78"}, "docker": "quay.io/biocontainers/sctagger", "aliases": {"scTagger.py": "/usr/local/bin/scTagger.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sctagger.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/sctagger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sctagger:1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/sctagger:1.1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sctagger/1.1--hdfd78af_0
-$ module help quay.io/biocontainers/sctagger/1.1--hdfd78af_0
+$ module load quay.io/biocontainers/sctagger/1.1.1--hdfd78af_0
+$ module help quay.io/biocontainers/sctagger/1.1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biodiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biodiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biodiff/container.yaml"
-updated_at: "2023-06-09 03:13:55.724366"
-latest: "0.2.2--hec16e2b_4"
+updated_at: "2023-06-10 03:00:18.029879"
+latest: "0.2.2--h031d066_5"
 container_url: "https://biocontainers.pro/tools/biodiff"
 aliases:
  - "biodiff"
@@ -14,8 +14,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.2.2--hec16e2b_4"
+ - "0.2.2--h031d066_5"
 description: "shpc-registry automated BioContainers addition for biodiff"
-config: {"url": "https://biocontainers.pro/tools/biodiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biodiff", "latest": {"0.2.2--hec16e2b_4": "sha256:4a7e24a29c6514cfa76032b92c7e9f3a41a05b323768419443c1f4ae5f65aef4"}, "tags": {"0.2.2--hec16e2b_4": "sha256:4a7e24a29c6514cfa76032b92c7e9f3a41a05b323768419443c1f4ae5f65aef4"}, "docker": "quay.io/biocontainers/biodiff", "aliases": {"biodiff": "/usr/local/bin/biodiff", "udiff2vcf": "/usr/local/bin/udiff2vcf", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/biodiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biodiff", "latest": {"0.2.2--h031d066_5": "sha256:96e9668360a138be5353ddce294eb366e332e0ab7798f3966362d2c5db75dbc3"}, "tags": {"0.2.2--hec16e2b_4": "sha256:4a7e24a29c6514cfa76032b92c7e9f3a41a05b323768419443c1f4ae5f65aef4", "0.2.2--h031d066_5": "sha256:96e9668360a138be5353ddce294eb366e332e0ab7798f3966362d2c5db75dbc3"}, "docker": "quay.io/biocontainers/biodiff", "aliases": {"biodiff": "/usr/local/bin/biodiff", "udiff2vcf": "/usr/local/bin/udiff2vcf", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biodiff.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/biodiff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biodiff:0.2.2--hec16e2b_4
+$ shpc install quay.io/biocontainers/biodiff:0.2.2--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biodiff/0.2.2--hec16e2b_4
-$ module help quay.io/biocontainers/biodiff/0.2.2--hec16e2b_4
+$ module load quay.io/biocontainers/biodiff/0.2.2--h031d066_5
+$ module help quay.io/biocontainers/biodiff/0.2.2--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

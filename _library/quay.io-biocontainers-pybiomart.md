@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybiomart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybiomart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybiomart/container.yaml"
-updated_at: "2023-06-09 03:41:43.158496"
+updated_at: "2023-06-10 03:25:45.296365"
 latest: "0.2.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/pybiomart"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/kronik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kronik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kronik/container.yaml"
-updated_at: "2023-06-09 03:13:07.862504"
-latest: "2.20--h9f5acd7_4"
+updated_at: "2023-06-10 02:59:34.239707"
+latest: "2.20--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/kronik"
 aliases:
  - "kronik"
 versions:
  - "2.20--h9f5acd7_4"
+ - "2.20--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for kronik"
-config: {"url": "https://biocontainers.pro/tools/kronik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kronik", "latest": {"2.20--h9f5acd7_4": "sha256:9291060a2af21a908ce19d62f53c9816549f485904dd689a0f1f8792e1660e9a"}, "tags": {"2.20--h9f5acd7_4": "sha256:9291060a2af21a908ce19d62f53c9816549f485904dd689a0f1f8792e1660e9a"}, "docker": "quay.io/biocontainers/kronik", "aliases": {"kronik": "/usr/local/bin/kronik"}}
+config: {"url": "https://biocontainers.pro/tools/kronik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kronik", "latest": {"2.20--h4ac6f70_6": "sha256:bfb99c879872dd8aef84e4e2664beaac7bd896a3d6707f4ec8f0a249f1db7e88"}, "tags": {"2.20--h9f5acd7_4": "sha256:9291060a2af21a908ce19d62f53c9816549f485904dd689a0f1f8792e1660e9a", "2.20--h4ac6f70_6": "sha256:bfb99c879872dd8aef84e4e2664beaac7bd896a3d6707f4ec8f0a249f1db7e88"}, "docker": "quay.io/biocontainers/kronik", "aliases": {"kronik": "/usr/local/bin/kronik"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kronik.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/kronik
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kronik:2.20--h9f5acd7_4
+$ shpc install quay.io/biocontainers/kronik:2.20--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kronik/2.20--h9f5acd7_4
-$ module help quay.io/biocontainers/kronik/2.20--h9f5acd7_4
+$ module load quay.io/biocontainers/kronik/2.20--h4ac6f70_6
+$ module help quay.io/biocontainers/kronik/2.20--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

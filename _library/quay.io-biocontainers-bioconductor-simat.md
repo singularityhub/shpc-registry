@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-simat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simat/container.yaml"
-updated_at: "2023-06-09 03:08:53.426866"
-latest: "1.30.0--r42hc247a5b_0"
+updated_at: "2023-06-10 02:55:44.543969"
+latest: "1.30.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-simat"
 aliases:
  - "zipcmp"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.26.0--r41hc247a5b_2"
  - "1.30.0--r42hc247a5b_0"
+ - "1.30.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-simat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simat", "latest": {"1.30.0--r42hc247a5b_0": "sha256:aa28514c00cb575eade452e362ca3aba531cf14385022601b5eab38048ec4392"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:eb99a9cb119d1b9764d753e33536187980f366f741e152a2cecdc36ec9bfe4eb", "1.30.0--r42hc247a5b_0": "sha256:aa28514c00cb575eade452e362ca3aba531cf14385022601b5eab38048ec4392"}, "docker": "quay.io/biocontainers/bioconductor-simat", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simat", "latest": {"1.30.0--r42hf17093f_1": "sha256:3327e1732276d6451570d0b20c4683afcd14db30be8d12eadc541749f7997f7d"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:eb99a9cb119d1b9764d753e33536187980f366f741e152a2cecdc36ec9bfe4eb", "1.30.0--r42hc247a5b_0": "sha256:aa28514c00cb575eade452e362ca3aba531cf14385022601b5eab38048ec4392", "1.30.0--r42hf17093f_1": "sha256:3327e1732276d6451570d0b20c4683afcd14db30be8d12eadc541749f7997f7d"}, "docker": "quay.io/biocontainers/bioconductor-simat", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simat.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simat:1.30.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-simat:1.30.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simat/1.30.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-simat/1.30.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-simat/1.30.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-simat/1.30.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

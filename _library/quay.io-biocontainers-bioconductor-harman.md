@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-harman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harman/container.yaml"
-updated_at: "2023-06-09 03:22:05.968524"
+updated_at: "2023-06-10 03:07:47.101578"
 latest: "1.26.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-harman"
 

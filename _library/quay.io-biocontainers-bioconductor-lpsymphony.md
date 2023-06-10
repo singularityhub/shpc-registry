@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-lpsymphony"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lpsymphony/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lpsymphony/container.yaml"
-updated_at: "2023-06-09 03:42:11.210932"
-latest: "1.26.0--r42h38f54d8_0"
+updated_at: "2023-06-10 03:26:11.362113"
+latest: "1.26.0--r42ha1e849b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-lpsymphony"
 aliases:
  - "ncurses5-config"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r36he1b5a44_0"
  - "1.12.0--r36he1b5a44_1"
  - "1.26.0--r42h38f54d8_0"
+ - "1.26.0--r42ha1e849b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-lpsymphony"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lpsymphony", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lpsymphony", "latest": {"1.26.0--r42h38f54d8_0": "sha256:70ae93a32fb7393bf415691d4a4eac90f8d43a53bb8dc7c9eeb6339f598700ca"}, "tags": {"1.8.0--r341hfc679d8_0": "sha256:a4f6bb16081254b99909e7d960be7c44bac839f9380d8b536705a1c5afc51239", "1.22.0--r41hc247a5b_2": "sha256:24d1ce7e7398e857afba7990373eb8bd33189fe7d0e207adabc89f317b451465", "1.20.0--r41h399db7b_0": "sha256:1607e09b4a265e3dd69686113fff420d105a961b7434cbd97857a54484996544", "1.18.0--r40h399db7b_1": "sha256:6987c63a6dfbaf29d208fafd4fbbc01d446c603b214802f1cfe311c5551e2466", "1.14.0--r36he1b5a44_0": "sha256:af599539596d594f06333e876a304ba6c77853a87c6831270b6f8358d7e7c3c5", "1.12.0--r36he1b5a44_1": "sha256:a2b8942a05204685f2700eb7bd7fcc5089a8dcdd83aed8c43010d7f8d204f0a1", "1.26.0--r42h38f54d8_0": "sha256:70ae93a32fb7393bf415691d4a4eac90f8d43a53bb8dc7c9eeb6339f598700ca"}, "docker": "quay.io/biocontainers/bioconductor-lpsymphony", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lpsymphony", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lpsymphony", "latest": {"1.26.0--r42ha1e849b_1": "sha256:9212b4d2a95ffcf105a2c625b481ed4e9a47ca83a3c0a8b746a7df6eea31afa0"}, "tags": {"1.8.0--r341hfc679d8_0": "sha256:a4f6bb16081254b99909e7d960be7c44bac839f9380d8b536705a1c5afc51239", "1.22.0--r41hc247a5b_2": "sha256:24d1ce7e7398e857afba7990373eb8bd33189fe7d0e207adabc89f317b451465", "1.20.0--r41h399db7b_0": "sha256:1607e09b4a265e3dd69686113fff420d105a961b7434cbd97857a54484996544", "1.18.0--r40h399db7b_1": "sha256:6987c63a6dfbaf29d208fafd4fbbc01d446c603b214802f1cfe311c5551e2466", "1.14.0--r36he1b5a44_0": "sha256:af599539596d594f06333e876a304ba6c77853a87c6831270b6f8358d7e7c3c5", "1.12.0--r36he1b5a44_1": "sha256:a2b8942a05204685f2700eb7bd7fcc5089a8dcdd83aed8c43010d7f8d204f0a1", "1.26.0--r42h38f54d8_0": "sha256:70ae93a32fb7393bf415691d4a4eac90f8d43a53bb8dc7c9eeb6339f598700ca", "1.26.0--r42ha1e849b_1": "sha256:9212b4d2a95ffcf105a2c625b481ed4e9a47ca83a3c0a8b746a7df6eea31afa0"}, "docker": "quay.io/biocontainers/bioconductor-lpsymphony", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lpsymphony.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lpsymphony
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lpsymphony:1.26.0--r42h38f54d8_0
+$ shpc install quay.io/biocontainers/bioconductor-lpsymphony:1.26.0--r42ha1e849b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lpsymphony/1.26.0--r42h38f54d8_0
-$ module help quay.io/biocontainers/bioconductor-lpsymphony/1.26.0--r42h38f54d8_0
+$ module load quay.io/biocontainers/bioconductor-lpsymphony/1.26.0--r42ha1e849b_1
+$ module help quay.io/biocontainers/bioconductor-lpsymphony/1.26.0--r42ha1e849b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

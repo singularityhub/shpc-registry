@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/linearpartition"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linearpartition/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linearpartition/container.yaml"
-updated_at: "2023-06-09 03:12:17.265994"
+updated_at: "2023-06-10 02:58:48.380912"
 latest: "1.0--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/linearpartition"
 aliases:

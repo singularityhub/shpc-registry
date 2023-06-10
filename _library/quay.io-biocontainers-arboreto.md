@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arboreto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arboreto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arboreto/container.yaml"
-updated_at: "2023-06-09 03:47:19.286741"
+updated_at: "2023-06-10 03:30:53.817597"
 latest: "0.1.6--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/arboreto"
 aliases:

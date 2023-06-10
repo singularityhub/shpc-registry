@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ghostz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostz/container.yaml"
-updated_at: "2023-06-09 03:08:44.901505"
-latest: "1.0.2--h87f3376_3"
+updated_at: "2023-06-10 02:55:36.755139"
+latest: "1.0.2--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/ghostz"
 aliases:
  - "ghostz"
 versions:
  - "1.0.2--h87f3376_3"
+ - "1.0.2--hdbdd923_5"
 description: "shpc-registry automated BioContainers addition for ghostz"
-config: {"url": "https://biocontainers.pro/tools/ghostz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostz", "latest": {"1.0.2--h87f3376_3": "sha256:57262b2b9c1baa903369459658733aa12c0f1a843c56199299587cfbbaf02460"}, "tags": {"1.0.2--h87f3376_3": "sha256:57262b2b9c1baa903369459658733aa12c0f1a843c56199299587cfbbaf02460"}, "docker": "quay.io/biocontainers/ghostz", "aliases": {"ghostz": "/usr/local/bin/ghostz"}}
+config: {"url": "https://biocontainers.pro/tools/ghostz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostz", "latest": {"1.0.2--hdbdd923_5": "sha256:867cf04129aa8984b62438f2d3d69a60b27ece38793255e1a5eb87565a411568"}, "tags": {"1.0.2--h87f3376_3": "sha256:57262b2b9c1baa903369459658733aa12c0f1a843c56199299587cfbbaf02460", "1.0.2--hdbdd923_5": "sha256:867cf04129aa8984b62438f2d3d69a60b27ece38793255e1a5eb87565a411568"}, "docker": "quay.io/biocontainers/ghostz", "aliases": {"ghostz": "/usr/local/bin/ghostz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghostz.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ghostz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ghostz:1.0.2--h87f3376_3
+$ shpc install quay.io/biocontainers/ghostz:1.0.2--hdbdd923_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ghostz/1.0.2--h87f3376_3
-$ module help quay.io/biocontainers/ghostz/1.0.2--h87f3376_3
+$ module load quay.io/biocontainers/ghostz/1.0.2--hdbdd923_5
+$ module help quay.io/biocontainers/ghostz/1.0.2--hdbdd923_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

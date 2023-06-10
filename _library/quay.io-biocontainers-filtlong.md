@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/filtlong"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/filtlong/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/filtlong/container.yaml"
-updated_at: "2023-06-09 03:36:03.235375"
-latest: "0.2.1--hd03093a_1"
+updated_at: "2023-06-10 03:20:32.649357"
+latest: "0.2.1--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/filtlong"
 aliases:
  - "filtlong"
 versions:
  - "0.2.1--hd03093a_1"
+ - "0.2.1--hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for filtlong"
-config: {"url": "https://biocontainers.pro/tools/filtlong", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filtlong", "latest": {"0.2.1--hd03093a_1": "sha256:e53a2eb7c9880047f0767fe8315696265d14d2bf575aac973b4e72a2448b494b"}, "tags": {"0.2.1--hd03093a_1": "sha256:e53a2eb7c9880047f0767fe8315696265d14d2bf575aac973b4e72a2448b494b"}, "docker": "quay.io/biocontainers/filtlong", "aliases": {"filtlong": "/usr/local/bin/filtlong"}}
+config: {"url": "https://biocontainers.pro/tools/filtlong", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filtlong", "latest": {"0.2.1--hdcf5f25_3": "sha256:4cb81b47e89b1f97ec8c6b6edee723d2fb9e6c79acbeab2e3101dcb9bbf7b3d8"}, "tags": {"0.2.1--hd03093a_1": "sha256:e53a2eb7c9880047f0767fe8315696265d14d2bf575aac973b4e72a2448b494b", "0.2.1--hdcf5f25_3": "sha256:4cb81b47e89b1f97ec8c6b6edee723d2fb9e6c79acbeab2e3101dcb9bbf7b3d8"}, "docker": "quay.io/biocontainers/filtlong", "aliases": {"filtlong": "/usr/local/bin/filtlong"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/filtlong.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/filtlong
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/filtlong:0.2.1--hd03093a_1
+$ shpc install quay.io/biocontainers/filtlong:0.2.1--hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/filtlong/0.2.1--hd03093a_1
-$ module help quay.io/biocontainers/filtlong/0.2.1--hd03093a_1
+$ module load quay.io/biocontainers/filtlong/0.2.1--hdcf5f25_3
+$ module help quay.io/biocontainers/filtlong/0.2.1--hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

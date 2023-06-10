@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngs-chew"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-chew/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-chew/container.yaml"
-updated_at: "2023-06-09 03:35:42.638275"
+updated_at: "2023-06-10 03:20:13.887583"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngs-chew"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isoseq3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoseq3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isoseq3/container.yaml"
-updated_at: "2023-06-09 03:42:25.848682"
-latest: "3.8.2--h9ee0642_0"
+updated_at: "2023-06-10 03:26:24.701565"
+latest: "4.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/isoseq3"
 aliases:
  - "isoseq3"
@@ -13,8 +13,9 @@ versions:
  - "3.8.0--h9ee0642_0"
  - "3.8.1--h9ee0642_0"
  - "3.8.2--h9ee0642_0"
+ - "4.0.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for isoseq3"
-config: {"url": "https://biocontainers.pro/tools/isoseq3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isoseq3", "latest": {"3.8.2--h9ee0642_0": "sha256:74246884442c5c360b7abf4e264d092aa630699d06b3a433ca139fae02af8a16"}, "tags": {"3.8.0--h9ee0642_0": "sha256:3380db4a010394b4e4f14a843edce78e6e4e93d5790b32e83cb0cbef0bc97acb", "3.8.1--h9ee0642_0": "sha256:f635fa3baade7a0f796218b5d0dcf44af2f46dfad7d6c013cb60533b97bb904c", "3.8.2--h9ee0642_0": "sha256:74246884442c5c360b7abf4e264d092aa630699d06b3a433ca139fae02af8a16"}, "docker": "quay.io/biocontainers/isoseq3", "aliases": {"isoseq3": "/usr/local/bin/isoseq3"}}
+config: {"url": "https://biocontainers.pro/tools/isoseq3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isoseq3", "latest": {"4.0.0--h9ee0642_0": "sha256:a37ae92400d0f887e93f3c8a311e7706611e3943be0970a5a8036d46089aa240"}, "tags": {"3.8.0--h9ee0642_0": "sha256:3380db4a010394b4e4f14a843edce78e6e4e93d5790b32e83cb0cbef0bc97acb", "3.8.1--h9ee0642_0": "sha256:f635fa3baade7a0f796218b5d0dcf44af2f46dfad7d6c013cb60533b97bb904c", "3.8.2--h9ee0642_0": "sha256:74246884442c5c360b7abf4e264d092aa630699d06b3a433ca139fae02af8a16", "4.0.0--h9ee0642_0": "sha256:a37ae92400d0f887e93f3c8a311e7706611e3943be0970a5a8036d46089aa240"}, "docker": "quay.io/biocontainers/isoseq3", "aliases": {"isoseq3": "/usr/local/bin/isoseq3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isoseq3.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/isoseq3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isoseq3:3.8.2--h9ee0642_0
+$ shpc install quay.io/biocontainers/isoseq3:4.0.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isoseq3/3.8.2--h9ee0642_0
-$ module help quay.io/biocontainers/isoseq3/3.8.2--h9ee0642_0
+$ module load quay.io/biocontainers/isoseq3/4.0.0--h9ee0642_0
+$ module help quay.io/biocontainers/isoseq3/4.0.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

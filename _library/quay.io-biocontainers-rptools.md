@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rptools/container.yaml"
-updated_at: "2023-06-09 03:00:40.809876"
+updated_at: "2023-06-10 02:48:18.394537"
 latest: "5.13.1"
 container_url: "https://biocontainers.pro/tools/rptools"
 aliases:

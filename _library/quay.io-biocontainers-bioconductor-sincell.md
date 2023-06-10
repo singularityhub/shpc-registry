@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-sincell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sincell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sincell/container.yaml"
-updated_at: "2023-06-09 03:19:43.756738"
-latest: "1.30.0--r42hc247a5b_0"
+updated_at: "2023-06-10 03:05:36.815971"
+latest: "1.30.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sincell"
 aliases:
  - "glpsol"
 versions:
  - "1.26.0--r41hc247a5b_2"
  - "1.30.0--r42hc247a5b_0"
+ - "1.30.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-sincell"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sincell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sincell", "latest": {"1.30.0--r42hc247a5b_0": "sha256:30f35c52d0aa9dbd975842fedaae58183221afd3dedeef05fd6d5d09c6c80936"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:a09c3465a040bc9e6e0c205e2efb52bc769f7ab2bc6c124f906fd50737db2124", "1.30.0--r42hc247a5b_0": "sha256:30f35c52d0aa9dbd975842fedaae58183221afd3dedeef05fd6d5d09c6c80936"}, "docker": "quay.io/biocontainers/bioconductor-sincell", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sincell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sincell", "latest": {"1.30.0--r42hf17093f_1": "sha256:dfa117861ea25492e0e6478f8eb9929af02e1c620bfbe67fece55f026c6db1d7"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:a09c3465a040bc9e6e0c205e2efb52bc769f7ab2bc6c124f906fd50737db2124", "1.30.0--r42hc247a5b_0": "sha256:30f35c52d0aa9dbd975842fedaae58183221afd3dedeef05fd6d5d09c6c80936", "1.30.0--r42hf17093f_1": "sha256:dfa117861ea25492e0e6478f8eb9929af02e1c620bfbe67fece55f026c6db1d7"}, "docker": "quay.io/biocontainers/bioconductor-sincell", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sincell.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sincell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sincell:1.30.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-sincell:1.30.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sincell/1.30.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-sincell/1.30.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-sincell/1.30.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-sincell/1.30.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

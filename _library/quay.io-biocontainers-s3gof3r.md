@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/s3gof3r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/s3gof3r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/s3gof3r/container.yaml"
-updated_at: "2023-06-09 03:42:21.195472"
+updated_at: "2023-06-10 03:26:20.461451"
 latest: "0.5.0--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/s3gof3r"
 aliases:

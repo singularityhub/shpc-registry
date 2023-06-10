@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hap.py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hap.py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hap.py/container.yaml"
-updated_at: "2023-06-09 03:21:19.163464"
-latest: "0.3.14--py27h5c5a3ab_0"
+updated_at: "2023-06-10 03:07:04.236035"
+latest: "0.3.15--py27hcb73b3d_0"
 container_url: "https://biocontainers.pro/tools/hap.py"
 aliases:
  - "alleles"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "0.3.7--py27_1"
  - "0.3.14--py27h5c5a3ab_0"
+ - "0.3.15--py27hcb73b3d_0"
 description: "shpc-registry automated BioContainers addition for hap.py"
-config: {"url": "https://biocontainers.pro/tools/hap.py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hap.py", "latest": {"0.3.14--py27h5c5a3ab_0": "sha256:d81998ec2c4ea63588a76f760a942ac5e170749617eb9d77d1fc05446d97b3e4"}, "tags": {"0.3.7--py27_1": "sha256:ebb9d998e938cc6d659c2d9fe214c94ae05786d8c6cd79456763bac4856f61c5", "0.3.14--py27h5c5a3ab_0": "sha256:d81998ec2c4ea63588a76f760a942ac5e170749617eb9d77d1fc05446d97b3e4"}, "docker": "quay.io/biocontainers/hap.py", "aliases": {"alleles": "/usr/local/bin/alleles", "bamstats.py": "/usr/local/bin/bamstats.py", "blocksplit": "/usr/local/bin/blocksplit", "cnx.py": "/usr/local/bin/cnx.py", "dipenum": "/usr/local/bin/dipenum", "fastainfo": "/usr/local/bin/fastainfo", "ftx.py": "/usr/local/bin/ftx.py", "gvcf2bed": "/usr/local/bin/gvcf2bed", "hap.py": "/usr/local/bin/hap.py", "hapcmp": "/usr/local/bin/hapcmp", "hapenum": "/usr/local/bin/hapenum", "multimerge": "/usr/local/bin/multimerge", "ovc.py": "/usr/local/bin/ovc.py", "pre.py": "/usr/local/bin/pre.py", "preprocess": "/usr/local/bin/preprocess", "qfy.py": "/usr/local/bin/qfy.py", "quantify": "/usr/local/bin/quantify", "roc": "/usr/local/bin/roc", "scmp": "/usr/local/bin/scmp", "som.py": "/usr/local/bin/som.py", "test_haplotypes": "/usr/local/bin/test_haplotypes", "validatevcf": "/usr/local/bin/validatevcf", "vcfhdr2json": "/usr/local/bin/vcfhdr2json", "xcmp": "/usr/local/bin/xcmp", "vcfcheck": "/usr/local/bin/vcfcheck", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "nosetests": "/usr/local/bin/nosetests", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py"}}
+config: {"url": "https://biocontainers.pro/tools/hap.py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hap.py", "latest": {"0.3.15--py27hcb73b3d_0": "sha256:d63b963a6cb01b4830393b22369e7b91d298e4156dde353739e74e4cfa4f96d0"}, "tags": {"0.3.7--py27_1": "sha256:ebb9d998e938cc6d659c2d9fe214c94ae05786d8c6cd79456763bac4856f61c5", "0.3.14--py27h5c5a3ab_0": "sha256:d81998ec2c4ea63588a76f760a942ac5e170749617eb9d77d1fc05446d97b3e4", "0.3.15--py27hcb73b3d_0": "sha256:d63b963a6cb01b4830393b22369e7b91d298e4156dde353739e74e4cfa4f96d0"}, "docker": "quay.io/biocontainers/hap.py", "aliases": {"alleles": "/usr/local/bin/alleles", "bamstats.py": "/usr/local/bin/bamstats.py", "blocksplit": "/usr/local/bin/blocksplit", "cnx.py": "/usr/local/bin/cnx.py", "dipenum": "/usr/local/bin/dipenum", "fastainfo": "/usr/local/bin/fastainfo", "ftx.py": "/usr/local/bin/ftx.py", "gvcf2bed": "/usr/local/bin/gvcf2bed", "hap.py": "/usr/local/bin/hap.py", "hapcmp": "/usr/local/bin/hapcmp", "hapenum": "/usr/local/bin/hapenum", "multimerge": "/usr/local/bin/multimerge", "ovc.py": "/usr/local/bin/ovc.py", "pre.py": "/usr/local/bin/pre.py", "preprocess": "/usr/local/bin/preprocess", "qfy.py": "/usr/local/bin/qfy.py", "quantify": "/usr/local/bin/quantify", "roc": "/usr/local/bin/roc", "scmp": "/usr/local/bin/scmp", "som.py": "/usr/local/bin/som.py", "test_haplotypes": "/usr/local/bin/test_haplotypes", "validatevcf": "/usr/local/bin/validatevcf", "vcfhdr2json": "/usr/local/bin/vcfhdr2json", "xcmp": "/usr/local/bin/xcmp", "vcfcheck": "/usr/local/bin/vcfcheck", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "nosetests": "/usr/local/bin/nosetests", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hap.py.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/hap.py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hap.py:0.3.14--py27h5c5a3ab_0
+$ shpc install quay.io/biocontainers/hap.py:0.3.15--py27hcb73b3d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hap.py/0.3.14--py27h5c5a3ab_0
-$ module help quay.io/biocontainers/hap.py/0.3.14--py27h5c5a3ab_0
+$ module load quay.io/biocontainers/hap.py/0.3.15--py27hcb73b3d_0
+$ module help quay.io/biocontainers/hap.py/0.3.15--py27hcb73b3d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

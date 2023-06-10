@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ratatosk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ratatosk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ratatosk/container.yaml"
-updated_at: "2023-06-09 03:10:47.557358"
-latest: "0.7.6.3--h5b5514e_0"
+updated_at: "2023-06-10 02:57:27.550338"
+latest: "0.7.6.3--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/ratatosk"
 aliases:
  - "Ratatosk"
 versions:
  - "0.7.6.3--h5b5514e_0"
+ - "0.7.6.3--h43eeafb_2"
 description: "singularity registry hpc automated addition for ratatosk"
-config: {"url": "https://biocontainers.pro/tools/ratatosk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ratatosk", "latest": {"0.7.6.3--h5b5514e_0": "sha256:19319f6b739e7fa05c5e25eb1f22effdf02b14c0fffe0f5f38f484d4f4fc1572"}, "tags": {"0.7.6.3--h5b5514e_0": "sha256:19319f6b739e7fa05c5e25eb1f22effdf02b14c0fffe0f5f38f484d4f4fc1572"}, "docker": "quay.io/biocontainers/ratatosk", "aliases": {"Ratatosk": "/usr/local/bin/Ratatosk"}}
+config: {"url": "https://biocontainers.pro/tools/ratatosk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ratatosk", "latest": {"0.7.6.3--h43eeafb_2": "sha256:19db80414eb8daa0a190d8d8a71c5a89f6253fa1f2968ba69b71661b07ba6b07"}, "tags": {"0.7.6.3--h5b5514e_0": "sha256:19319f6b739e7fa05c5e25eb1f22effdf02b14c0fffe0f5f38f484d4f4fc1572", "0.7.6.3--h43eeafb_2": "sha256:19db80414eb8daa0a190d8d8a71c5a89f6253fa1f2968ba69b71661b07ba6b07"}, "docker": "quay.io/biocontainers/ratatosk", "aliases": {"Ratatosk": "/usr/local/bin/Ratatosk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ratatosk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ratatosk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ratatosk:0.7.6.3--h5b5514e_0
+$ shpc install quay.io/biocontainers/ratatosk:0.7.6.3--h43eeafb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ratatosk/0.7.6.3--h5b5514e_0
-$ module help quay.io/biocontainers/ratatosk/0.7.6.3--h5b5514e_0
+$ module load quay.io/biocontainers/ratatosk/0.7.6.3--h43eeafb_2
+$ module help quay.io/biocontainers/ratatosk/0.7.6.3--h43eeafb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

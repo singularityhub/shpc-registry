@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fmcsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fmcsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fmcsr/container.yaml"
-updated_at: "2023-06-09 03:17:33.833350"
-latest: "1.40.0--r42hc247a5b_0"
+updated_at: "2023-06-10 03:03:37.715082"
+latest: "1.40.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fmcsr"
 aliases:
  - "rsvg-convert"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.36.0--r41hc247a5b_2"
  - "1.40.0--r42hc247a5b_0"
+ - "1.40.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fmcsr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fmcsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fmcsr", "latest": {"1.40.0--r42hc247a5b_0": "sha256:3ec1e4bfb931bf792aa5b853e75e9f63398c7de2795533c7f5a13f77069ea4ee"}, "tags": {"1.36.0--r41hc247a5b_2": "sha256:042cde91e3d0b262e80e0852d811d3d465c90417fe2a34329529ec214b212e12", "1.40.0--r42hc247a5b_0": "sha256:3ec1e4bfb931bf792aa5b853e75e9f63398c7de2795533c7f5a13f77069ea4ee"}, "docker": "quay.io/biocontainers/bioconductor-fmcsr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fmcsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fmcsr", "latest": {"1.40.0--r42hf17093f_1": "sha256:1b09eae278980efe67061cefd49a1b9c2ebb795b33ddbf026d5fa418973d4b45"}, "tags": {"1.36.0--r41hc247a5b_2": "sha256:042cde91e3d0b262e80e0852d811d3d465c90417fe2a34329529ec214b212e12", "1.40.0--r42hc247a5b_0": "sha256:3ec1e4bfb931bf792aa5b853e75e9f63398c7de2795533c7f5a13f77069ea4ee", "1.40.0--r42hf17093f_1": "sha256:1b09eae278980efe67061cefd49a1b9c2ebb795b33ddbf026d5fa418973d4b45"}, "docker": "quay.io/biocontainers/bioconductor-fmcsr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fmcsr.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fmcsr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fmcsr:1.40.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-fmcsr:1.40.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fmcsr/1.40.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-fmcsr/1.40.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-fmcsr/1.40.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-fmcsr/1.40.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

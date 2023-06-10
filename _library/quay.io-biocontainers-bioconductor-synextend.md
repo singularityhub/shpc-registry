@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-synextend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synextend/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synextend/container.yaml"
-updated_at: "2023-06-09 03:12:48.242674"
-latest: "1.10.2--r42hc0cfd56_0"
+updated_at: "2023-06-10 02:59:16.163206"
+latest: "1.10.2--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-synextend"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.2--r42hc0cfd56_0"
+ - "1.10.2--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-synextend"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synextend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synextend", "latest": {"1.10.2--r42hc0cfd56_0": "sha256:68eecad67fc5884749147f3a015b3de4ce630fff2f4b6783b84a57c2eb2940cf"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4cfe457a4cb59bede6d82f0f70b3f02a8778eb3d2ff66c49ff9762af4247f67b", "1.10.2--r42hc0cfd56_0": "sha256:68eecad67fc5884749147f3a015b3de4ce630fff2f4b6783b84a57c2eb2940cf"}, "docker": "quay.io/biocontainers/bioconductor-synextend"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synextend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synextend", "latest": {"1.10.2--r42ha9d7317_1": "sha256:8cdddb491f60c907498d29556dea9eb8e1bf25e01f818f9065a33bcc5444f60f"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4cfe457a4cb59bede6d82f0f70b3f02a8778eb3d2ff66c49ff9762af4247f67b", "1.10.2--r42hc0cfd56_0": "sha256:68eecad67fc5884749147f3a015b3de4ce630fff2f4b6783b84a57c2eb2940cf", "1.10.2--r42ha9d7317_1": "sha256:8cdddb491f60c907498d29556dea9eb8e1bf25e01f818f9065a33bcc5444f60f"}, "docker": "quay.io/biocontainers/bioconductor-synextend"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synextend.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-synextend
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-synextend:1.10.2--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-synextend:1.10.2--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-synextend/1.10.2--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-synextend/1.10.2--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-synextend/1.10.2--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-synextend/1.10.2--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

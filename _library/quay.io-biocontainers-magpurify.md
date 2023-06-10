@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magpurify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magpurify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magpurify/container.yaml"
-updated_at: "2023-06-09 03:34:25.773973"
+updated_at: "2023-06-10 03:19:03.827579"
 latest: "2.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/magpurify"
 aliases:

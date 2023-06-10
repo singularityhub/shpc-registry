@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-classifyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-classifyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-classifyr/container.yaml"
-updated_at: "2023-06-09 03:04:43.787109"
-latest: "3.2.0--r42hc247a5b_0"
+updated_at: "2023-06-10 02:51:58.798893"
+latest: "3.2.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-classifyr"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "2.14.0--r41hdfd78af_0"
  - "2.12.0--r41hdfd78af_0"
  - "2.10.0--r40hdfd78af_1"
+ - "3.2.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-classifyr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-classifyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-classifyr", "latest": {"3.2.0--r42hc247a5b_0": "sha256:81f599d5e2347abf65ad52754a8f6ca49cdf7e701d50f4c67405d91681382851"}, "tags": {"2.8.0--r40_0": "sha256:f14cdb92ef54f296956a34c84ff3b51c062697fce76667c9a0108c67999c134c", "3.2.0--r42hc247a5b_0": "sha256:81f599d5e2347abf65ad52754a8f6ca49cdf7e701d50f4c67405d91681382851", "2.14.0--r41hdfd78af_0": "sha256:238595df9192fe5729da0d54f75a8ff7bf9ca4d851c02af6d45695fac02254e7", "2.12.0--r41hdfd78af_0": "sha256:c7f088f2602a1167123519801ab310f617bafb7cdf559bc60b200b95f2af6fe4", "2.10.0--r40hdfd78af_1": "sha256:8800a5846723f03513543cf7f7233b25fa9f90ae12a2538e7f188096fa69fc8d"}, "docker": "quay.io/biocontainers/bioconductor-classifyr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-classifyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-classifyr", "latest": {"3.2.0--r42hf17093f_1": "sha256:9da8ca4d497f82261a1ea09dd4f5e547a5b7f1e87319df475037f5188ec04c30"}, "tags": {"2.8.0--r40_0": "sha256:f14cdb92ef54f296956a34c84ff3b51c062697fce76667c9a0108c67999c134c", "3.2.0--r42hc247a5b_0": "sha256:81f599d5e2347abf65ad52754a8f6ca49cdf7e701d50f4c67405d91681382851", "2.14.0--r41hdfd78af_0": "sha256:238595df9192fe5729da0d54f75a8ff7bf9ca4d851c02af6d45695fac02254e7", "2.12.0--r41hdfd78af_0": "sha256:c7f088f2602a1167123519801ab310f617bafb7cdf559bc60b200b95f2af6fe4", "2.10.0--r40hdfd78af_1": "sha256:8800a5846723f03513543cf7f7233b25fa9f90ae12a2538e7f188096fa69fc8d", "3.2.0--r42hf17093f_1": "sha256:9da8ca4d497f82261a1ea09dd4f5e547a5b7f1e87319df475037f5188ec04c30"}, "docker": "quay.io/biocontainers/bioconductor-classifyr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-classifyr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-classifyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-classifyr:3.2.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-classifyr:3.2.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-classifyr/3.2.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-classifyr/3.2.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-classifyr/3.2.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-classifyr/3.2.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spatzie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatzie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatzie/container.yaml"
-updated_at: "2023-06-09 03:45:49.133775"
+updated_at: "2023-06-10 03:29:31.230050"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatzie"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-otubase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-otubase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-otubase/container.yaml"
-updated_at: "2023-06-09 03:36:43.006568"
+updated_at: "2023-06-10 03:21:09.009431"
 latest: "1.48.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-otubase"
 

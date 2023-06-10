@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prokka/container.yaml"
-updated_at: "2023-06-09 03:05:44.435830"
+updated_at: "2023-06-10 02:52:54.074679"
 latest: "1.14.6--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/prokka"
 aliases:

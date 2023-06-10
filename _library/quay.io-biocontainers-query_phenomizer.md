@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/query_phenomizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/query_phenomizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/query_phenomizer/container.yaml"
-updated_at: "2023-06-09 03:13:47.157149"
+updated_at: "2023-06-10 03:00:10.043128"
 latest: "1.2--py_0"
 container_url: "https://biocontainers.pro/tools/query_phenomizer"
 

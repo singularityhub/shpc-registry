@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/livekraken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/livekraken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/livekraken/container.yaml"
-updated_at: "2023-06-09 03:46:12.523752"
+updated_at: "2023-06-10 03:29:52.784560"
 latest: "1.0--pl5321h376f1d3_9"
 container_url: "https://biocontainers.pro/tools/livekraken"
 aliases:

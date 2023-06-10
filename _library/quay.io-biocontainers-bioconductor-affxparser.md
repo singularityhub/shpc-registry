@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-affxparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affxparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affxparser/container.yaml"
-updated_at: "2023-06-09 03:23:56.199733"
-latest: "1.70.0--r42hc247a5b_0"
+updated_at: "2023-06-10 03:09:27.191778"
+latest: "1.70.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-affxparser"
 
 versions:
  - "1.66.0--r41hc247a5b_2"
  - "1.70.0--r42hc247a5b_0"
+ - "1.70.0--r42hf17093f_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-affxparser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affxparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affxparser", "latest": {"1.70.0--r42hc247a5b_0": "sha256:5efb72c2040bce9cf426ffbc24d07356e1870076106726e0eafcc1ef2f4418bf"}, "tags": {"1.66.0--r41hc247a5b_2": "sha256:12bd20c6e471d9ff385f4bdc90309eff7c2f8cec7c2a5ffba592d85c1e640d72", "1.70.0--r42hc247a5b_0": "sha256:5efb72c2040bce9cf426ffbc24d07356e1870076106726e0eafcc1ef2f4418bf"}, "docker": "quay.io/biocontainers/bioconductor-affxparser"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affxparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affxparser", "latest": {"1.70.0--r42hf17093f_2": "sha256:9fb86d47e04c550abca7e0c292d89b1d59802c6a55f2d7d22da78b0d410b7397"}, "tags": {"1.66.0--r41hc247a5b_2": "sha256:12bd20c6e471d9ff385f4bdc90309eff7c2f8cec7c2a5ffba592d85c1e640d72", "1.70.0--r42hc247a5b_0": "sha256:5efb72c2040bce9cf426ffbc24d07356e1870076106726e0eafcc1ef2f4418bf", "1.70.0--r42hf17093f_2": "sha256:9fb86d47e04c550abca7e0c292d89b1d59802c6a55f2d7d22da78b0d410b7397"}, "docker": "quay.io/biocontainers/bioconductor-affxparser"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affxparser.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-affxparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-affxparser:1.70.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-affxparser:1.70.0--r42hf17093f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-affxparser/1.70.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-affxparser/1.70.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-affxparser/1.70.0--r42hf17093f_2
+$ module help quay.io/biocontainers/bioconductor-affxparser/1.70.0--r42hf17093f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
