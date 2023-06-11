@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dist_est
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dist_est
 latest:
-  1.1--h87f3376_0: sha256:86d5415907e2ba76c890f72efcaef9b555158c3b2ca2e4e029dfaf5231209bcc
+  1.1--hdbdd923_2: sha256:97d8af66966553592b0c5053c19953f45055b152c3f743597766993ed1916511
 tags:
   1.1--h87f3376_0: sha256:86d5415907e2ba76c890f72efcaef9b555158c3b2ca2e4e029dfaf5231209bcc
+  1.1--hdbdd923_2: sha256:97d8af66966553592b0c5053c19953f45055b152c3f743597766993ed1916511
 docker: quay.io/biocontainers/dist_est
 aliases:
   dist_est: /usr/local/bin/dist_est

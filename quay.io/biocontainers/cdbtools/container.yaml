@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cdbtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cdbtools
 latest:
-  0.99--hd03093a_8: sha256:ea7b74e00ca796bde147ee9819d71839a6e2041682e760286f448b009743361a
+  0.99--hdcf5f25_9: sha256:7f8776cf60345014e3040c965f8379f40d61e3d35492a89868a7d5a2b852dea8
 tags:
   0.99--hd03093a_7: sha256:f3024dcb89fa94850824379687816d4964f1bbc2e4c8431df88e4d0b9b6d4570
-  0.99--hd03093a_8: sha256:ea7b74e00ca796bde147ee9819d71839a6e2041682e760286f448b009743361a
+  0.99--hd03093a_8: sha256:43d3098ede010b7cdd493ee0fe4b3650df84c89419a2642a2095356d26a8423f
+  0.99--hdcf5f25_9: sha256:7f8776cf60345014e3040c965f8379f40d61e3d35492a89868a7d5a2b852dea8
 docker: quay.io/biocontainers/cdbtools
 aliases:
   cdbfasta: /usr/local/bin/cdbfasta

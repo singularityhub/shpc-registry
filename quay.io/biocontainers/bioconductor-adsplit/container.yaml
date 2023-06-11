@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-adsplit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-adsplit
 latest:
-  1.68.0--r42hc247a5b_0: sha256:4e83cc2418d6d49510a3c71ca93739f9df1d4f7c5386b0c98ffa3d70697772a9
+  1.68.0--r42hf17093f_1: sha256:c243793b44c563ffa810c87c421cc36a2b420a3f8313703ef02391a8a747b30d
 tags:
   1.64.0--r41hc247a5b_2: sha256:e4dd6d27681cf17eb292caf820f636bede369e7cc1b126224a8f78fa6e90b3d9
   1.68.0--r42hc247a5b_0: sha256:4e83cc2418d6d49510a3c71ca93739f9df1d4f7c5386b0c98ffa3d70697772a9
+  1.68.0--r42hf17093f_1: sha256:c243793b44c563ffa810c87c421cc36a2b420a3f8313703ef02391a8a747b30d
 docker: quay.io/biocontainers/bioconductor-adsplit

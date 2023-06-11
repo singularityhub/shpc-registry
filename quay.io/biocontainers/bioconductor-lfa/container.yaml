@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-lfa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lfa
 latest:
-  1.28.0--r42hc0cfd56_0: sha256:f2bf92d7cb373346915ee0619043cf20e87518a07f133be7df1d8840a366fa8b
+  1.28.0--r42ha9d7317_1: sha256:3ac878dcc56e1cf96a52910158267da39a4b005e7f744188d92e081beb622125
 tags:
   1.8.0--r3.4.1_0: sha256:cc3f599fcb740bdcac72567ade8fda293fffead73a4b81bcfcd8a4e6ff520223
   1.28.0--r42hc0cfd56_0: sha256:f2bf92d7cb373346915ee0619043cf20e87518a07f133be7df1d8840a366fa8b
@@ -10,6 +10,7 @@ tags:
   1.22.0--r41hd029910_0: sha256:041ccad90c4cc283580b7c690b5a9964ccf8288ecc25f3c1dabf3b0a87240427
   1.20.0--r40hd029910_1: sha256:f0e970283ec4ee1eee329d309be8a312ae8017fb1ba593f3635b1614b6b77acf
   1.18.0--r40h037d062_0: sha256:76e4eeea8f2c5b93da5c83bdf406e454659e7eba84c3ccc87c2ab33b443513a8
+  1.28.0--r42ha9d7317_1: sha256:3ac878dcc56e1cf96a52910158267da39a4b005e7f744188d92e081beb622125
 docker: quay.io/biocontainers/bioconductor-lfa
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bwapy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bwapy
 latest:
-  0.1.4--py38h4c6a040_4: sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e
+  0.1.4--py38h7cf9df2_7: sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256
 tags:
   0.1.4--py38h4c6a040_4: sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e
+  0.1.4--py38h7cf9df2_7: sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256
 docker: quay.io/biocontainers/bwapy
 aliases:
   bwamempy: /usr/local/bin/bwamempy

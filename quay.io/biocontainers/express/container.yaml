@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/express
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for express
 latest:
-  1.5.1--h9f5acd7_4: sha256:47689fffe3e46a7195ad0d4784732e37840f78d23f1d10b86c99d4edc68a15a6
+  1.5.1--h4ac6f70_5: sha256:46117ecce1459271890c1095a8bea2293abd8ed0cbd44f9d8e981e6bdd6a0dd8
 tags:
   1.5.1--h9f5acd7_4: sha256:47689fffe3e46a7195ad0d4784732e37840f78d23f1d10b86c99d4edc68a15a6
+  1.5.1--h4ac6f70_5: sha256:46117ecce1459271890c1095a8bea2293abd8ed0cbd44f9d8e981e6bdd6a0dd8
 docker: quay.io/biocontainers/express
 aliases:
   express: /usr/local/bin/express

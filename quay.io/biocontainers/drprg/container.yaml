@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/drprg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for drprg
 latest:
-  0.1.1--h1f4ba0c_0: sha256:78e5ae97a6661f5da1eb61090518f8fc01455f91b3541e8fd0d856e29d74f950
+  0.1.1--h5076881_1: sha256:908e10aa922f4baea18cc31ef4879e552bbdaacf8266833b8e175e4e766363e1
 tags:
   0.1.1--h1f4ba0c_0: sha256:78e5ae97a6661f5da1eb61090518f8fc01455f91b3541e8fd0d856e29d74f950
+  0.1.1--h5076881_1: sha256:908e10aa922f4baea18cc31ef4879e552bbdaacf8266833b8e175e4e766363e1
 docker: quay.io/biocontainers/drprg
 aliases:
   drprg: /usr/local/bin/drprg

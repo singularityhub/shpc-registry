@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cvlr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cvlr
 latest:
-  1.0--h2bab7d6_2: sha256:c7b7b214e1fb6b92f8086ec73284479a563110f360d191dec12f08cb62ea335c
+  1.0--hc5c7111_3: sha256:9e268037d8454defb4910b040d445bc7ea047ce61b252e53cfbfb1480203e066
 tags:
   1.0--he292522_1: sha256:34cc6e310095b97129fec96fe7e40d6c40a0b81141e2f06e98926efb01334972
   1.0--h2bab7d6_2: sha256:c7b7b214e1fb6b92f8086ec73284479a563110f360d191dec12f08cb62ea335c
+  1.0--hc5c7111_3: sha256:9e268037d8454defb4910b040d445bc7ea047ce61b252e53cfbfb1480203e066
 docker: quay.io/biocontainers/cvlr
 aliases:
   cvlr-cluster: /usr/local/bin/cvlr-cluster
