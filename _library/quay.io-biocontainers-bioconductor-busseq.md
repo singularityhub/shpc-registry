@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-busseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-busseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-busseq/container.yaml"
-updated_at: "2023-06-10 03:01:40.032896"
-latest: "1.4.0--r42hc247a5b_0"
+updated_at: "2023-06-11 03:19:51.472928"
+latest: "1.4.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-busseq"
 
 versions:
  - "1.0.0--r41hc247a5b_2"
  - "1.4.0--r42hc247a5b_0"
+ - "1.4.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-busseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-busseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-busseq", "latest": {"1.4.0--r42hc247a5b_0": "sha256:1002555479cf3e6902ce8dd13fd7024c040d2c68053e8627fff7a4c42566abd4"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:2c31d1f21e405f01519043bb7a14f2860e94b8826ba5891faa137ec11940e81c", "1.4.0--r42hc247a5b_0": "sha256:1002555479cf3e6902ce8dd13fd7024c040d2c68053e8627fff7a4c42566abd4"}, "docker": "quay.io/biocontainers/bioconductor-busseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-busseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-busseq", "latest": {"1.4.0--r42hf17093f_1": "sha256:f42fd4189c19abf6ec3fe190b45e2fb8977171963ca9c57c7d91d8211b233eb3"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:2c31d1f21e405f01519043bb7a14f2860e94b8826ba5891faa137ec11940e81c", "1.4.0--r42hc247a5b_0": "sha256:1002555479cf3e6902ce8dd13fd7024c040d2c68053e8627fff7a4c42566abd4", "1.4.0--r42hf17093f_1": "sha256:f42fd4189c19abf6ec3fe190b45e2fb8977171963ca9c57c7d91d8211b233eb3"}, "docker": "quay.io/biocontainers/bioconductor-busseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-busseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-busseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-busseq:1.4.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-busseq:1.4.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-busseq/1.4.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-busseq/1.4.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-busseq/1.4.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-busseq/1.4.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

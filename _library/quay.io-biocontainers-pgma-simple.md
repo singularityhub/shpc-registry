@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pgma-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgma-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgma-simple/container.yaml"
-updated_at: "2023-06-10 02:53:13.846941"
-latest: "0.1--h9f5acd7_4"
+updated_at: "2023-06-11 03:11:20.183760"
+latest: "0.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/pgma-simple"
 aliases:
  - "pgma"
 versions:
  - "0.1--h9f5acd7_4"
+ - "0.1--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for pgma-simple"
-config: {"url": "https://biocontainers.pro/tools/pgma-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pgma-simple", "latest": {"0.1--h9f5acd7_4": "sha256:74a7dc6d1dd8df00486d19884583e58485a4302527a23086d8d8692a25b947e6"}, "tags": {"0.1--h9f5acd7_4": "sha256:74a7dc6d1dd8df00486d19884583e58485a4302527a23086d8d8692a25b947e6"}, "docker": "quay.io/biocontainers/pgma-simple", "aliases": {"pgma": "/usr/local/bin/pgma"}}
+config: {"url": "https://biocontainers.pro/tools/pgma-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pgma-simple", "latest": {"0.1--h4ac6f70_6": "sha256:399a6c15845f75a577b76807d9aaf75054f60fd1e3f549fcd9128f25d09508e7"}, "tags": {"0.1--h9f5acd7_4": "sha256:74a7dc6d1dd8df00486d19884583e58485a4302527a23086d8d8692a25b947e6", "0.1--h4ac6f70_6": "sha256:399a6c15845f75a577b76807d9aaf75054f60fd1e3f549fcd9128f25d09508e7"}, "docker": "quay.io/biocontainers/pgma-simple", "aliases": {"pgma": "/usr/local/bin/pgma"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgma-simple.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pgma-simple
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgma-simple:0.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/pgma-simple:0.1--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgma-simple/0.1--h9f5acd7_4
-$ module help quay.io/biocontainers/pgma-simple/0.1--h9f5acd7_4
+$ module load quay.io/biocontainers/pgma-simple/0.1--h4ac6f70_6
+$ module help quay.io/biocontainers/pgma-simple/0.1--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gctb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gctb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gctb/container.yaml"
-updated_at: "2023-06-10 03:29:47.334146"
-latest: "2.0--hec16e2b_0"
+updated_at: "2023-06-11 03:47:59.957688"
+latest: "2.0--h031d066_2"
 container_url: "https://biocontainers.pro/tools/gctb"
 aliases:
  - "gctb"
 versions:
  - "2.0--hec16e2b_0"
+ - "2.0--h031d066_2"
 description: "singularity registry hpc automated addition for gctb"
-config: {"url": "https://biocontainers.pro/tools/gctb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gctb", "latest": {"2.0--hec16e2b_0": "sha256:e43572f640df477ed441c770ffe645b43d075b9abed060eb579915bdec97d2a8"}, "tags": {"2.0--hec16e2b_0": "sha256:e43572f640df477ed441c770ffe645b43d075b9abed060eb579915bdec97d2a8"}, "docker": "quay.io/biocontainers/gctb", "aliases": {"gctb": "/usr/local/bin/gctb"}}
+config: {"url": "https://biocontainers.pro/tools/gctb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gctb", "latest": {"2.0--h031d066_2": "sha256:d05efac776e958b32da3cb593c829bd24249908b80ebfc93172e62eb74979d53"}, "tags": {"2.0--hec16e2b_0": "sha256:e43572f640df477ed441c770ffe645b43d075b9abed060eb579915bdec97d2a8", "2.0--h031d066_2": "sha256:d05efac776e958b32da3cb593c829bd24249908b80ebfc93172e62eb74979d53"}, "docker": "quay.io/biocontainers/gctb", "aliases": {"gctb": "/usr/local/bin/gctb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gctb.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gctb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gctb:2.0--hec16e2b_0
+$ shpc install quay.io/biocontainers/gctb:2.0--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gctb/2.0--hec16e2b_0
-$ module help quay.io/biocontainers/gctb/2.0--hec16e2b_0
+$ module load quay.io/biocontainers/gctb/2.0--h031d066_2
+$ module help quay.io/biocontainers/gctb/2.0--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

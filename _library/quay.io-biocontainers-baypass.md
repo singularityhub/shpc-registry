@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/baypass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baypass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baypass/container.yaml"
-updated_at: "2023-06-10 02:48:10.334994"
-latest: "2.31--h1107714_0"
+updated_at: "2023-06-11 03:06:13.830742"
+latest: "2.31--h1c9e865_2"
 container_url: "https://biocontainers.pro/tools/baypass"
 aliases:
  - "g_baypass"
 versions:
  - "2.31--h1107714_0"
+ - "2.31--h1c9e865_2"
 description: "singularity registry hpc automated addition for baypass"
-config: {"url": "https://biocontainers.pro/tools/baypass", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for baypass", "latest": {"2.31--h1107714_0": "sha256:4b189363402b3dc9a10abd287a638bf4e96759f10c4568bdf43c39a50c5f38f9"}, "tags": {"2.31--h1107714_0": "sha256:4b189363402b3dc9a10abd287a638bf4e96759f10c4568bdf43c39a50c5f38f9"}, "docker": "quay.io/biocontainers/baypass", "aliases": {"g_baypass": "/usr/local/bin/g_baypass"}}
+config: {"url": "https://biocontainers.pro/tools/baypass", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for baypass", "latest": {"2.31--h1c9e865_2": "sha256:2493bd8cb88902de0769adc67746ebbd6da15fc3b2cea7cbd6110d205001369d"}, "tags": {"2.31--h1107714_0": "sha256:4b189363402b3dc9a10abd287a638bf4e96759f10c4568bdf43c39a50c5f38f9", "2.31--h1c9e865_2": "sha256:2493bd8cb88902de0769adc67746ebbd6da15fc3b2cea7cbd6110d205001369d"}, "docker": "quay.io/biocontainers/baypass", "aliases": {"g_baypass": "/usr/local/bin/g_baypass"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/baypass.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/baypass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/baypass:2.31--h1107714_0
+$ shpc install quay.io/biocontainers/baypass:2.31--h1c9e865_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/baypass/2.31--h1107714_0
-$ module help quay.io/biocontainers/baypass/2.31--h1107714_0
+$ module load quay.io/biocontainers/baypass/2.31--h1c9e865_2
+$ module help quay.io/biocontainers/baypass/2.31--h1c9e865_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

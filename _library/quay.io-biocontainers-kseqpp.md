@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/kseqpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kseqpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kseqpp/container.yaml"
-updated_at: "2023-06-10 03:00:40.213495"
-latest: "1.0.0--hd03093a_1"
+updated_at: "2023-06-11 03:18:51.453913"
+latest: "1.1.1--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/kseqpp"
 
 versions:
  - "1.0.0--hd03093a_0"
  - "1.0.0--hd03093a_1"
+ - "1.1.1--hdcf5f25_1"
+ - "1.0.0--hdcf5f25_3"
 description: "singularity registry hpc automated addition for kseqpp"
-config: {"url": "https://biocontainers.pro/tools/kseqpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kseqpp", "latest": {"1.0.0--hd03093a_1": "sha256:e9ad86acad1e2278502f125f90808ec44ab482d05555674af858f382ddba56b7"}, "tags": {"1.0.0--hd03093a_0": "sha256:a7262463433b5a59e11a31e5c2afc7a43bedb2df6e7a00c0fc645784add96997", "1.0.0--hd03093a_1": "sha256:e9ad86acad1e2278502f125f90808ec44ab482d05555674af858f382ddba56b7"}, "docker": "quay.io/biocontainers/kseqpp"}
+config: {"url": "https://biocontainers.pro/tools/kseqpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kseqpp", "latest": {"1.1.1--hdcf5f25_1": "sha256:694d540d933c4f0cdbb1dbb04c89f3706873465a194ec775ddd33995d035fb69"}, "tags": {"1.0.0--hd03093a_0": "sha256:a7262463433b5a59e11a31e5c2afc7a43bedb2df6e7a00c0fc645784add96997", "1.0.0--hd03093a_1": "sha256:e9ad86acad1e2278502f125f90808ec44ab482d05555674af858f382ddba56b7", "1.1.1--hdcf5f25_1": "sha256:694d540d933c4f0cdbb1dbb04c89f3706873465a194ec775ddd33995d035fb69", "1.0.0--hdcf5f25_3": "sha256:178431d40df4c588472fdedb0c17468ceca4150a69914f3cc65d3795b63087b2"}, "docker": "quay.io/biocontainers/kseqpp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kseqpp.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/kseqpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kseqpp:1.0.0--hd03093a_1
+$ shpc install quay.io/biocontainers/kseqpp:1.1.1--hdcf5f25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kseqpp/1.0.0--hd03093a_1
-$ module help quay.io/biocontainers/kseqpp/1.0.0--hd03093a_1
+$ module load quay.io/biocontainers/kseqpp/1.1.1--hdcf5f25_1
+$ module help quay.io/biocontainers/kseqpp/1.1.1--hdcf5f25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

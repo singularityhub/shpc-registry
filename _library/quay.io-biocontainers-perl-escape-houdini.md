@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-escape-houdini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-escape-houdini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-escape-houdini/container.yaml"
-updated_at: "2023-06-10 03:00:33.809662"
-latest: "0.3.0--pl5321hec16e2b_2"
+updated_at: "2023-06-11 03:18:45.074769"
+latest: "0.3.0--pl5321h031d066_3"
 container_url: "https://biocontainers.pro/tools/perl-escape-houdini"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.3.0--pl5321hec16e2b_2"
+ - "0.3.0--pl5321h031d066_3"
 description: "shpc-registry automated BioContainers addition for perl-escape-houdini"
-config: {"url": "https://biocontainers.pro/tools/perl-escape-houdini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-escape-houdini", "latest": {"0.3.0--pl5321hec16e2b_2": "sha256:9ff4d7e4be358aea91b72b97eb91a9bf14120f136e3ab96882bca8dc1aedd70e"}, "tags": {"0.3.0--pl5321hec16e2b_2": "sha256:9ff4d7e4be358aea91b72b97eb91a9bf14120f136e3ab96882bca8dc1aedd70e"}, "docker": "quay.io/biocontainers/perl-escape-houdini", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-escape-houdini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-escape-houdini", "latest": {"0.3.0--pl5321h031d066_3": "sha256:e63bfa5f2a2fe0e2832a11e6806eb9f8579b5c25710936782fb0947f0a2b6a5c"}, "tags": {"0.3.0--pl5321hec16e2b_2": "sha256:9ff4d7e4be358aea91b72b97eb91a9bf14120f136e3ab96882bca8dc1aedd70e", "0.3.0--pl5321h031d066_3": "sha256:e63bfa5f2a2fe0e2832a11e6806eb9f8579b5c25710936782fb0947f0a2b6a5c"}, "docker": "quay.io/biocontainers/perl-escape-houdini", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-escape-houdini.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-escape-houdini
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-escape-houdini:0.3.0--pl5321hec16e2b_2
+$ shpc install quay.io/biocontainers/perl-escape-houdini:0.3.0--pl5321h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-escape-houdini/0.3.0--pl5321hec16e2b_2
-$ module help quay.io/biocontainers/perl-escape-houdini/0.3.0--pl5321hec16e2b_2
+$ module load quay.io/biocontainers/perl-escape-houdini/0.3.0--pl5321h031d066_3
+$ module help quay.io/biocontainers/perl-escape-houdini/0.3.0--pl5321h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

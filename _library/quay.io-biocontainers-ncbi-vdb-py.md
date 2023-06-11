@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-vdb-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-vdb-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-vdb-py/container.yaml"
-updated_at: "2023-06-10 03:16:58.548194"
-latest: "3.0.2--hdfd78af_0"
+updated_at: "2023-06-11 03:35:11.725691"
+latest: "3.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ncbi-vdb-py"
 aliases:
  - "2to3-3.10"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "3.0.0--hdfd78af_0"
  - "3.0.2--hdfd78af_0"
+ - "3.0.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ncbi-vdb-py"
-config: {"url": "https://biocontainers.pro/tools/ncbi-vdb-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-vdb-py", "latest": {"3.0.2--hdfd78af_0": "sha256:46b9c36fea38d24c473c7d8da50d470c0f7d3a4993cd8c4d03787c0388abb98c"}, "tags": {"3.0.0--hdfd78af_0": "sha256:20d4b99eb6724ef8d903aa6e28fbbe0989ad6185c57a177e30c7f191ad442b83", "3.0.2--hdfd78af_0": "sha256:46b9c36fea38d24c473c7d8da50d470c0f7d3a4993cd8c4d03787c0388abb98c"}, "docker": "quay.io/biocontainers/ncbi-vdb-py", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-vdb-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-vdb-py", "latest": {"3.0.5--hdfd78af_0": "sha256:3f7acf927be36a1e8216e60b7c240a076da7ba68707ef20387f00fde572f9f96"}, "tags": {"3.0.0--hdfd78af_0": "sha256:20d4b99eb6724ef8d903aa6e28fbbe0989ad6185c57a177e30c7f191ad442b83", "3.0.2--hdfd78af_0": "sha256:46b9c36fea38d24c473c7d8da50d470c0f7d3a4993cd8c4d03787c0388abb98c", "3.0.5--hdfd78af_0": "sha256:3f7acf927be36a1e8216e60b7c240a076da7ba68707ef20387f00fde572f9f96"}, "docker": "quay.io/biocontainers/ncbi-vdb-py", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-vdb-py.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/ncbi-vdb-py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-vdb-py:3.0.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/ncbi-vdb-py:3.0.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-vdb-py/3.0.2--hdfd78af_0
-$ module help quay.io/biocontainers/ncbi-vdb-py/3.0.2--hdfd78af_0
+$ module load quay.io/biocontainers/ncbi-vdb-py/3.0.5--hdfd78af_0
+$ module help quay.io/biocontainers/ncbi-vdb-py/3.0.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

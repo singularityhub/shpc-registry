@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pb-falcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-falcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-falcon/container.yaml"
-updated_at: "2023-06-10 03:08:27.838475"
-latest: "2.2.4--py37h6a4bb35_3"
+updated_at: "2023-06-11 03:26:39.824840"
+latest: "2.2.4--py39hb7ef6d5_4"
 container_url: "https://biocontainers.pro/tools/pb-falcon"
 
 versions:
  - "2.2.4--py38ha1fcc84_2"
  - "2.2.4--py37h6a4bb35_3"
+ - "2.2.4--py39hb7ef6d5_4"
 description: "shpc-registry automated BioContainers addition for pb-falcon"
-config: {"url": "https://biocontainers.pro/tools/pb-falcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-falcon", "latest": {"2.2.4--py37h6a4bb35_3": "sha256:98e6432e4642bd1cfaed26f08c7c1186e7cf59d890f3e26730d5fc90d92a8ee9"}, "tags": {"2.2.4--py38ha1fcc84_2": "sha256:8270d1a95e6fb20c991ad67947600a55db8a50650b94b0efa0a58d5b76f23487", "2.2.4--py37h6a4bb35_3": "sha256:98e6432e4642bd1cfaed26f08c7c1186e7cf59d890f3e26730d5fc90d92a8ee9"}, "docker": "quay.io/biocontainers/pb-falcon"}
+config: {"url": "https://biocontainers.pro/tools/pb-falcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pb-falcon", "latest": {"2.2.4--py39hb7ef6d5_4": "sha256:41fec34240293ad57029600b8c7c2d311142d1c0bc087d729bdd6efc2bbeec4b"}, "tags": {"2.2.4--py38ha1fcc84_2": "sha256:8270d1a95e6fb20c991ad67947600a55db8a50650b94b0efa0a58d5b76f23487", "2.2.4--py37h6a4bb35_3": "sha256:98e6432e4642bd1cfaed26f08c7c1186e7cf59d890f3e26730d5fc90d92a8ee9", "2.2.4--py39hb7ef6d5_4": "sha256:41fec34240293ad57029600b8c7c2d311142d1c0bc087d729bdd6efc2bbeec4b"}, "docker": "quay.io/biocontainers/pb-falcon"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pb-falcon.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pb-falcon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pb-falcon:2.2.4--py37h6a4bb35_3
+$ shpc install quay.io/biocontainers/pb-falcon:2.2.4--py39hb7ef6d5_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pb-falcon/2.2.4--py37h6a4bb35_3
-$ module help quay.io/biocontainers/pb-falcon/2.2.4--py37h6a4bb35_3
+$ module load quay.io/biocontainers/pb-falcon/2.2.4--py39hb7ef6d5_4
+$ module help quay.io/biocontainers/pb-falcon/2.2.4--py39hb7ef6d5_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

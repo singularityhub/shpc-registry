@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vdjer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vdjer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vdjer/container.yaml"
-updated_at: "2023-06-10 03:07:11.179322"
-latest: "0.12--h5b5514e_5"
+updated_at: "2023-06-11 03:25:23.309297"
+latest: "0.12--h43eeafb_7"
 container_url: "https://biocontainers.pro/tools/vdjer"
 aliases:
  - "vdjer"
 versions:
  - "0.12--h5b5514e_5"
+ - "0.12--h43eeafb_7"
 description: "shpc-registry automated BioContainers addition for vdjer"
-config: {"url": "https://biocontainers.pro/tools/vdjer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vdjer", "latest": {"0.12--h5b5514e_5": "sha256:291c96051d1cdeb546c0ddb36015504ece7799f559c15c86f8eeebfd1be1b7be"}, "tags": {"0.12--h5b5514e_5": "sha256:291c96051d1cdeb546c0ddb36015504ece7799f559c15c86f8eeebfd1be1b7be"}, "docker": "quay.io/biocontainers/vdjer", "aliases": {"vdjer": "/usr/local/bin/vdjer"}}
+config: {"url": "https://biocontainers.pro/tools/vdjer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vdjer", "latest": {"0.12--h43eeafb_7": "sha256:7cb8dab69daae29b4e7b88313886c65150a1a9260ba69de537344312531e6c7c"}, "tags": {"0.12--h5b5514e_5": "sha256:291c96051d1cdeb546c0ddb36015504ece7799f559c15c86f8eeebfd1be1b7be", "0.12--h43eeafb_7": "sha256:7cb8dab69daae29b4e7b88313886c65150a1a9260ba69de537344312531e6c7c"}, "docker": "quay.io/biocontainers/vdjer", "aliases": {"vdjer": "/usr/local/bin/vdjer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vdjer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vdjer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vdjer:0.12--h5b5514e_5
+$ shpc install quay.io/biocontainers/vdjer:0.12--h43eeafb_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vdjer/0.12--h5b5514e_5
-$ module help quay.io/biocontainers/vdjer/0.12--h5b5514e_5
+$ module load quay.io/biocontainers/vdjer/0.12--h43eeafb_7
+$ module help quay.io/biocontainers/vdjer/0.12--h43eeafb_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

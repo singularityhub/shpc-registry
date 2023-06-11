@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libgtextutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgtextutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgtextutils/container.yaml"
-updated_at: "2023-06-10 03:07:05.743754"
-latest: "0.7--h87f3376_9"
+updated_at: "2023-06-11 03:25:17.787160"
+latest: "0.7--hdbdd923_11"
 container_url: "https://biocontainers.pro/tools/libgtextutils"
 
 versions:
  - "0.7--h87f3376_9"
+ - "0.7--hdbdd923_11"
 description: "shpc-registry automated BioContainers addition for libgtextutils"
-config: {"url": "https://biocontainers.pro/tools/libgtextutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgtextutils", "latest": {"0.7--h87f3376_9": "sha256:e0db5758a99daecf61134b07ec0d60f8086ec3be275199d0b9a2ac098bb985ec"}, "tags": {"0.7--h87f3376_9": "sha256:e0db5758a99daecf61134b07ec0d60f8086ec3be275199d0b9a2ac098bb985ec"}, "docker": "quay.io/biocontainers/libgtextutils"}
+config: {"url": "https://biocontainers.pro/tools/libgtextutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgtextutils", "latest": {"0.7--hdbdd923_11": "sha256:21f213713d3c59cccb13a5a5493e904012084a8d540393dea5ca6ef94844639e"}, "tags": {"0.7--h87f3376_9": "sha256:e0db5758a99daecf61134b07ec0d60f8086ec3be275199d0b9a2ac098bb985ec", "0.7--hdbdd923_11": "sha256:21f213713d3c59cccb13a5a5493e904012084a8d540393dea5ca6ef94844639e"}, "docker": "quay.io/biocontainers/libgtextutils"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libgtextutils.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libgtextutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libgtextutils:0.7--h87f3376_9
+$ shpc install quay.io/biocontainers/libgtextutils:0.7--hdbdd923_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libgtextutils/0.7--h87f3376_9
-$ module help quay.io/biocontainers/libgtextutils/0.7--h87f3376_9
+$ module load quay.io/biocontainers/libgtextutils/0.7--hdbdd923_11
+$ module help quay.io/biocontainers/libgtextutils/0.7--hdbdd923_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

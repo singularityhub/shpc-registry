@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/circularmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circularmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circularmapper/container.yaml"
-updated_at: "2023-06-10 03:22:41.552155"
-latest: "1.93.5--h4a94de4_1"
+updated_at: "2023-06-11 03:40:55.532743"
+latest: "1.93.5--h2a3209d_3"
 container_url: "https://biocontainers.pro/tools/circularmapper"
 aliases:
  - "circulargenerator"
@@ -22,8 +22,9 @@ aliases:
  - "jjs"
 versions:
  - "1.93.5--h4a94de4_1"
+ - "1.93.5--h2a3209d_3"
 description: "shpc-registry automated BioContainers addition for circularmapper"
-config: {"url": "https://biocontainers.pro/tools/circularmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circularmapper", "latest": {"1.93.5--h4a94de4_1": "sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895"}, "tags": {"1.93.5--h4a94de4_1": "sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895"}, "docker": "quay.io/biocontainers/circularmapper", "aliases": {"circulargenerator": "/usr/local/bin/circulargenerator", "realignsamfile": "/usr/local/bin/realignsamfile", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/circularmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circularmapper", "latest": {"1.93.5--h2a3209d_3": "sha256:973c0be83ed4ed4543e3b5926849600e91db64b7ef56a2a743375abecab02b30"}, "tags": {"1.93.5--h4a94de4_1": "sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895", "1.93.5--h2a3209d_3": "sha256:973c0be83ed4ed4543e3b5926849600e91db64b7ef56a2a743375abecab02b30"}, "docker": "quay.io/biocontainers/circularmapper", "aliases": {"circulargenerator": "/usr/local/bin/circulargenerator", "realignsamfile": "/usr/local/bin/realignsamfile", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circularmapper.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/circularmapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circularmapper:1.93.5--h4a94de4_1
+$ shpc install quay.io/biocontainers/circularmapper:1.93.5--h2a3209d_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circularmapper/1.93.5--h4a94de4_1
-$ module help quay.io/biocontainers/circularmapper/1.93.5--h4a94de4_1
+$ module load quay.io/biocontainers/circularmapper/1.93.5--h2a3209d_3
+$ module help quay.io/biocontainers/circularmapper/1.93.5--h2a3209d_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-rrbgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rrbgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rrbgen/container.yaml"
-updated_at: "2023-06-10 02:57:45.140304"
-latest: "0.0.6--r42h9f5acd7_7"
+updated_at: "2023-06-11 03:15:55.117201"
+latest: "0.0.6--r42h4ac6f70_9"
 container_url: "https://biocontainers.pro/tools/r-rrbgen"
 
 versions:
  - "0.0.6--r41h9f5acd7_6"
  - "0.0.6--r42h9f5acd7_7"
+ - "0.0.6--r42h4ac6f70_9"
 description: "shpc-registry automated BioContainers addition for r-rrbgen"
-config: {"url": "https://biocontainers.pro/tools/r-rrbgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rrbgen", "latest": {"0.0.6--r42h9f5acd7_7": "sha256:1129cf324330c6a72a428d93bbb5f5a2b1183fbb46210c48da4e9a9394ac8785"}, "tags": {"0.0.6--r41h9f5acd7_6": "sha256:484ac797fab2a3f76843f4123df2f791dd6d7f31921228ef095479d42474b2e3", "0.0.6--r42h9f5acd7_7": "sha256:1129cf324330c6a72a428d93bbb5f5a2b1183fbb46210c48da4e9a9394ac8785"}, "docker": "quay.io/biocontainers/r-rrbgen"}
+config: {"url": "https://biocontainers.pro/tools/r-rrbgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rrbgen", "latest": {"0.0.6--r42h4ac6f70_9": "sha256:1d97ea429ce18212a67ea44ac98ce1805b4b5b32801a98098bfa0d142e268516"}, "tags": {"0.0.6--r41h9f5acd7_6": "sha256:484ac797fab2a3f76843f4123df2f791dd6d7f31921228ef095479d42474b2e3", "0.0.6--r42h9f5acd7_7": "sha256:1129cf324330c6a72a428d93bbb5f5a2b1183fbb46210c48da4e9a9394ac8785", "0.0.6--r42h4ac6f70_9": "sha256:1d97ea429ce18212a67ea44ac98ce1805b4b5b32801a98098bfa0d142e268516"}, "docker": "quay.io/biocontainers/r-rrbgen"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rrbgen.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-rrbgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-rrbgen:0.0.6--r42h9f5acd7_7
+$ shpc install quay.io/biocontainers/r-rrbgen:0.0.6--r42h4ac6f70_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-rrbgen/0.0.6--r42h9f5acd7_7
-$ module help quay.io/biocontainers/r-rrbgen/0.0.6--r42h9f5acd7_7
+$ module load quay.io/biocontainers/r-rrbgen/0.0.6--r42h4ac6f70_9
+$ module help quay.io/biocontainers/r-rrbgen/0.0.6--r42h4ac6f70_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

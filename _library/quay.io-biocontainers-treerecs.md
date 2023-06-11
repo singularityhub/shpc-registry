@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/treerecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treerecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treerecs/container.yaml"
-updated_at: "2023-06-10 03:16:20.262163"
-latest: "1.2--h9f5acd7_2"
+updated_at: "2023-06-11 03:34:33.171103"
+latest: "1.2--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/treerecs"
 aliases:
  - "treerecs"
 versions:
  - "1.2--h9f5acd7_2"
+ - "1.2--h9f5acd7_3"
 description: "shpc-registry automated BioContainers addition for treerecs"
-config: {"url": "https://biocontainers.pro/tools/treerecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treerecs", "latest": {"1.2--h9f5acd7_2": "sha256:b87f210730d7e2c501fbb84d72030402de4e0a26477f138035a3bc54d44be1b3"}, "tags": {"1.2--h9f5acd7_2": "sha256:b87f210730d7e2c501fbb84d72030402de4e0a26477f138035a3bc54d44be1b3"}, "docker": "quay.io/biocontainers/treerecs", "aliases": {"treerecs": "/usr/local/bin/treerecs"}}
+config: {"url": "https://biocontainers.pro/tools/treerecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treerecs", "latest": {"1.2--h9f5acd7_3": "sha256:5124bfda9d4b484ad41ba826d4edd985899ca4a2b3b9629de81d83edbbaaad29"}, "tags": {"1.2--h9f5acd7_2": "sha256:b87f210730d7e2c501fbb84d72030402de4e0a26477f138035a3bc54d44be1b3", "1.2--h9f5acd7_3": "sha256:5124bfda9d4b484ad41ba826d4edd985899ca4a2b3b9629de81d83edbbaaad29"}, "docker": "quay.io/biocontainers/treerecs", "aliases": {"treerecs": "/usr/local/bin/treerecs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treerecs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/treerecs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treerecs:1.2--h9f5acd7_2
+$ shpc install quay.io/biocontainers/treerecs:1.2--h9f5acd7_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treerecs/1.2--h9f5acd7_2
-$ module help quay.io/biocontainers/treerecs/1.2--h9f5acd7_2
+$ module load quay.io/biocontainers/treerecs/1.2--h9f5acd7_3
+$ module help quay.io/biocontainers/treerecs/1.2--h9f5acd7_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

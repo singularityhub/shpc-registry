@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cd-hit-auxtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cd-hit-auxtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cd-hit-auxtools/container.yaml"
-updated_at: "2023-06-10 03:25:11.062796"
-latest: "4.8.1--h9f5acd7_2"
+updated_at: "2023-06-11 03:43:24.842536"
+latest: "4.8.1--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/cd-hit-auxtools"
 aliases:
  - "cd-hit-dup"
@@ -13,8 +13,9 @@ aliases:
  - "read-linker"
 versions:
  - "4.8.1--h9f5acd7_2"
+ - "4.8.1--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for cd-hit-auxtools"
-config: {"url": "https://biocontainers.pro/tools/cd-hit-auxtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cd-hit-auxtools", "latest": {"4.8.1--h9f5acd7_2": "sha256:a7cbdf49e5f9f4f6533e8b8e1b23260f79c3e5fca3acd6e0c1ae8a0db9da32b0"}, "tags": {"4.8.1--h9f5acd7_2": "sha256:a7cbdf49e5f9f4f6533e8b8e1b23260f79c3e5fca3acd6e0c1ae8a0db9da32b0"}, "docker": "quay.io/biocontainers/cd-hit-auxtools", "aliases": {"cd-hit-dup": "/usr/local/bin/cd-hit-dup", "cd-hit-lap": "/usr/local/bin/cd-hit-lap", "read-linker": "/usr/local/bin/read-linker"}}
+config: {"url": "https://biocontainers.pro/tools/cd-hit-auxtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cd-hit-auxtools", "latest": {"4.8.1--h4ac6f70_3": "sha256:34caae56cdd57c0fb8c20cb586e4092d0c1cbad6777b67d039a294be647a5a87"}, "tags": {"4.8.1--h9f5acd7_2": "sha256:a7cbdf49e5f9f4f6533e8b8e1b23260f79c3e5fca3acd6e0c1ae8a0db9da32b0", "4.8.1--h4ac6f70_3": "sha256:34caae56cdd57c0fb8c20cb586e4092d0c1cbad6777b67d039a294be647a5a87"}, "docker": "quay.io/biocontainers/cd-hit-auxtools", "aliases": {"cd-hit-dup": "/usr/local/bin/cd-hit-dup", "cd-hit-lap": "/usr/local/bin/cd-hit-lap", "read-linker": "/usr/local/bin/read-linker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cd-hit-auxtools.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/cd-hit-auxtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cd-hit-auxtools:4.8.1--h9f5acd7_2
+$ shpc install quay.io/biocontainers/cd-hit-auxtools:4.8.1--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cd-hit-auxtools/4.8.1--h9f5acd7_2
-$ module help quay.io/biocontainers/cd-hit-auxtools/4.8.1--h9f5acd7_2
+$ module load quay.io/biocontainers/cd-hit-auxtools/4.8.1--h4ac6f70_3
+$ module help quay.io/biocontainers/cd-hit-auxtools/4.8.1--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nwalign3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nwalign3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nwalign3/container.yaml"
-updated_at: "2023-06-10 03:16:19.664707"
-latest: "0.1.2--py39h5371cbf_1"
+updated_at: "2023-06-11 03:34:32.557154"
+latest: "0.1.2--py38h24c8ff8_3"
 container_url: "https://biocontainers.pro/tools/nwalign3"
 aliases:
  - "nwalign3"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1.2--py39h5371cbf_1"
+ - "0.1.2--py38h24c8ff8_3"
 description: "singularity registry hpc automated addition for nwalign3"
-config: {"url": "https://biocontainers.pro/tools/nwalign3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nwalign3", "latest": {"0.1.2--py39h5371cbf_1": "sha256:ee11f13a1b8d7b3af2f9b7f2c04e3b9dd0500dad01db26684b3270929cfd1c85"}, "tags": {"0.1.2--py39h5371cbf_1": "sha256:ee11f13a1b8d7b3af2f9b7f2c04e3b9dd0500dad01db26684b3270929cfd1c85"}, "docker": "quay.io/biocontainers/nwalign3", "aliases": {"nwalign3": "/usr/local/bin/nwalign3", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/nwalign3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nwalign3", "latest": {"0.1.2--py38h24c8ff8_3": "sha256:a581601cf43c3ad48932e9783d9d25198ee123ad216b2e73d149932e0e4e675f"}, "tags": {"0.1.2--py39h5371cbf_1": "sha256:ee11f13a1b8d7b3af2f9b7f2c04e3b9dd0500dad01db26684b3270929cfd1c85", "0.1.2--py38h24c8ff8_3": "sha256:a581601cf43c3ad48932e9783d9d25198ee123ad216b2e73d149932e0e4e675f"}, "docker": "quay.io/biocontainers/nwalign3", "aliases": {"nwalign3": "/usr/local/bin/nwalign3", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nwalign3.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/nwalign3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nwalign3:0.1.2--py39h5371cbf_1
+$ shpc install quay.io/biocontainers/nwalign3:0.1.2--py38h24c8ff8_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nwalign3/0.1.2--py39h5371cbf_1
-$ module help quay.io/biocontainers/nwalign3/0.1.2--py39h5371cbf_1
+$ module load quay.io/biocontainers/nwalign3/0.1.2--py38h24c8ff8_3
+$ module help quay.io/biocontainers/nwalign3/0.1.2--py38h24c8ff8_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

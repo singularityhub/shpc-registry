@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gecode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gecode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gecode/container.yaml"
-updated_at: "2023-06-10 03:07:05.146899"
-latest: "6.2.0--h8561491_2"
+updated_at: "2023-06-11 03:25:17.176884"
+latest: "6.2.0--h53e199c_4"
 container_url: "https://biocontainers.pro/tools/gecode"
 aliases:
  - "all-interval"
@@ -67,8 +67,9 @@ aliases:
 versions:
  - "6.2.0--h3272c59_1"
  - "6.2.0--h8561491_2"
+ - "6.2.0--h53e199c_4"
 description: "shpc-registry automated BioContainers addition for gecode"
-config: {"url": "https://biocontainers.pro/tools/gecode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gecode", "latest": {"6.2.0--h8561491_2": "sha256:70a939e5996a05b370b458bab27d97cc8056de40a1241b4bcee556dcb0bd54f8"}, "tags": {"6.2.0--h3272c59_1": "sha256:1a6df1734b89669e4a73d66a3f5a3888bab83540abfdc268944ebfafb3e6d363", "6.2.0--h8561491_2": "sha256:70a939e5996a05b370b458bab27d97cc8056de40a1241b4bcee556dcb0bd54f8"}, "docker": "quay.io/biocontainers/gecode", "aliases": {"all-interval": "/usr/local/bin/all-interval", "alpha": "/usr/local/bin/alpha", "bacp": "/usr/local/bin/bacp", "bibd": "/usr/local/bin/bibd", "bin-packing": "/usr/local/bin/bin-packing", "black-hole": "/usr/local/bin/black-hole", "car-sequencing": "/usr/local/bin/car-sequencing", "cartesian-heart": "/usr/local/bin/cartesian-heart", "colored-matrix": "/usr/local/bin/colored-matrix", "crew": "/usr/local/bin/crew", "crossword": "/usr/local/bin/crossword", "crowded-chess": "/usr/local/bin/crowded-chess", "descartes-folium": "/usr/local/bin/descartes-folium", "dominating-queens": "/usr/local/bin/dominating-queens", "domino": "/usr/local/bin/domino", "donald": "/usr/local/bin/donald", "efpa": "/usr/local/bin/efpa", "eq20": "/usr/local/bin/eq20", "fzn-gecode": "/usr/local/bin/fzn-gecode", "golf": "/usr/local/bin/golf", "golomb-ruler": "/usr/local/bin/golomb-ruler", "graph-color": "/usr/local/bin/graph-color", "grocery": "/usr/local/bin/grocery", "hamming": "/usr/local/bin/hamming", "ind-set": "/usr/local/bin/ind-set", "job-shop": "/usr/local/bin/job-shop", "kakuro": "/usr/local/bin/kakuro", "knights": "/usr/local/bin/knights", "langford-number": "/usr/local/bin/langford-number", "magic-sequence": "/usr/local/bin/magic-sequence", "magic-square": "/usr/local/bin/magic-square", "minesweeper": "/usr/local/bin/minesweeper", "money": "/usr/local/bin/money", "multi-bin-packing": "/usr/local/bin/multi-bin-packing", "mzn-gecode": "/usr/local/bin/mzn-gecode", "nonogram": "/usr/local/bin/nonogram", "open-shop": "/usr/local/bin/open-shop", "ortho-latin": "/usr/local/bin/ortho-latin", "partition": "/usr/local/bin/partition", "pentominoes": "/usr/local/bin/pentominoes", "perfect-square": "/usr/local/bin/perfect-square", "photo": "/usr/local/bin/photo", "qcp": "/usr/local/bin/qcp", "queen-armies": "/usr/local/bin/queen-armies", "queens": "/usr/local/bin/queens", "radiotherapy": "/usr/local/bin/radiotherapy", "sat": "/usr/local/bin/sat", "schurs-lemma": "/usr/local/bin/schurs-lemma", "sports-league": "/usr/local/bin/sports-league", "steel-mill": "/usr/local/bin/steel-mill", "steiner": "/usr/local/bin/steiner", "sudoku": "/usr/local/bin/sudoku", "sudoku-advanced": "/usr/local/bin/sudoku-advanced", "tsp": "/usr/local/bin/tsp", "warehouses": "/usr/local/bin/warehouses", "word-square": "/usr/local/bin/word-square"}}
+config: {"url": "https://biocontainers.pro/tools/gecode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gecode", "latest": {"6.2.0--h53e199c_4": "sha256:568ab90648ba7c986c3bcc908d8258fe1500cf96c606a0d5773e258d2a83a90e"}, "tags": {"6.2.0--h3272c59_1": "sha256:1a6df1734b89669e4a73d66a3f5a3888bab83540abfdc268944ebfafb3e6d363", "6.2.0--h8561491_2": "sha256:70a939e5996a05b370b458bab27d97cc8056de40a1241b4bcee556dcb0bd54f8", "6.2.0--h53e199c_4": "sha256:568ab90648ba7c986c3bcc908d8258fe1500cf96c606a0d5773e258d2a83a90e"}, "docker": "quay.io/biocontainers/gecode", "aliases": {"all-interval": "/usr/local/bin/all-interval", "alpha": "/usr/local/bin/alpha", "bacp": "/usr/local/bin/bacp", "bibd": "/usr/local/bin/bibd", "bin-packing": "/usr/local/bin/bin-packing", "black-hole": "/usr/local/bin/black-hole", "car-sequencing": "/usr/local/bin/car-sequencing", "cartesian-heart": "/usr/local/bin/cartesian-heart", "colored-matrix": "/usr/local/bin/colored-matrix", "crew": "/usr/local/bin/crew", "crossword": "/usr/local/bin/crossword", "crowded-chess": "/usr/local/bin/crowded-chess", "descartes-folium": "/usr/local/bin/descartes-folium", "dominating-queens": "/usr/local/bin/dominating-queens", "domino": "/usr/local/bin/domino", "donald": "/usr/local/bin/donald", "efpa": "/usr/local/bin/efpa", "eq20": "/usr/local/bin/eq20", "fzn-gecode": "/usr/local/bin/fzn-gecode", "golf": "/usr/local/bin/golf", "golomb-ruler": "/usr/local/bin/golomb-ruler", "graph-color": "/usr/local/bin/graph-color", "grocery": "/usr/local/bin/grocery", "hamming": "/usr/local/bin/hamming", "ind-set": "/usr/local/bin/ind-set", "job-shop": "/usr/local/bin/job-shop", "kakuro": "/usr/local/bin/kakuro", "knights": "/usr/local/bin/knights", "langford-number": "/usr/local/bin/langford-number", "magic-sequence": "/usr/local/bin/magic-sequence", "magic-square": "/usr/local/bin/magic-square", "minesweeper": "/usr/local/bin/minesweeper", "money": "/usr/local/bin/money", "multi-bin-packing": "/usr/local/bin/multi-bin-packing", "mzn-gecode": "/usr/local/bin/mzn-gecode", "nonogram": "/usr/local/bin/nonogram", "open-shop": "/usr/local/bin/open-shop", "ortho-latin": "/usr/local/bin/ortho-latin", "partition": "/usr/local/bin/partition", "pentominoes": "/usr/local/bin/pentominoes", "perfect-square": "/usr/local/bin/perfect-square", "photo": "/usr/local/bin/photo", "qcp": "/usr/local/bin/qcp", "queen-armies": "/usr/local/bin/queen-armies", "queens": "/usr/local/bin/queens", "radiotherapy": "/usr/local/bin/radiotherapy", "sat": "/usr/local/bin/sat", "schurs-lemma": "/usr/local/bin/schurs-lemma", "sports-league": "/usr/local/bin/sports-league", "steel-mill": "/usr/local/bin/steel-mill", "steiner": "/usr/local/bin/steiner", "sudoku": "/usr/local/bin/sudoku", "sudoku-advanced": "/usr/local/bin/sudoku-advanced", "tsp": "/usr/local/bin/tsp", "warehouses": "/usr/local/bin/warehouses", "word-square": "/usr/local/bin/word-square"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gecode.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/gecode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gecode:6.2.0--h8561491_2
+$ shpc install quay.io/biocontainers/gecode:6.2.0--h53e199c_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gecode/6.2.0--h8561491_2
-$ module help quay.io/biocontainers/gecode/6.2.0--h8561491_2
+$ module load quay.io/biocontainers/gecode/6.2.0--h53e199c_4
+$ module help quay.io/biocontainers/gecode/6.2.0--h53e199c_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

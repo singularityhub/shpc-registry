@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/modeltest-ng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modeltest-ng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/modeltest-ng/container.yaml"
-updated_at: "2023-06-10 03:06:22.239305"
-latest: "0.1.7--h5c6ebe3_0"
+updated_at: "2023-06-11 03:24:34.243940"
+latest: "0.1.7--h103dbdd_2"
 container_url: "https://biocontainers.pro/tools/modeltest-ng"
 aliases:
  - "modeltest-ng"
@@ -22,8 +22,9 @@ aliases:
  - "oshrun"
 versions:
  - "0.1.7--h5c6ebe3_0"
+ - "0.1.7--h103dbdd_2"
 description: "shpc-registry automated BioContainers addition for modeltest-ng"
-config: {"url": "https://biocontainers.pro/tools/modeltest-ng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for modeltest-ng", "latest": {"0.1.7--h5c6ebe3_0": "sha256:7cc84ec52a7810e39b81e51fbeafcd19481c143dd164d7e898024577d4463d7d"}, "tags": {"0.1.7--h5c6ebe3_0": "sha256:7cc84ec52a7810e39b81e51fbeafcd19481c143dd164d7e898024577d4463d7d"}, "docker": "quay.io/biocontainers/modeltest-ng", "aliases": {"modeltest-ng": "/usr/local/bin/modeltest-ng", "modeltest-ng-mpi": "/usr/local/bin/modeltest-ng-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/modeltest-ng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for modeltest-ng", "latest": {"0.1.7--h103dbdd_2": "sha256:b5306ea5a166a3fdc2ed44bfff05280910381e4b16326c826ab08b9caa968466"}, "tags": {"0.1.7--h5c6ebe3_0": "sha256:7cc84ec52a7810e39b81e51fbeafcd19481c143dd164d7e898024577d4463d7d", "0.1.7--h103dbdd_2": "sha256:b5306ea5a166a3fdc2ed44bfff05280910381e4b16326c826ab08b9caa968466"}, "docker": "quay.io/biocontainers/modeltest-ng", "aliases": {"modeltest-ng": "/usr/local/bin/modeltest-ng", "modeltest-ng-mpi": "/usr/local/bin/modeltest-ng-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/modeltest-ng.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/modeltest-ng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/modeltest-ng:0.1.7--h5c6ebe3_0
+$ shpc install quay.io/biocontainers/modeltest-ng:0.1.7--h103dbdd_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/modeltest-ng/0.1.7--h5c6ebe3_0
-$ module help quay.io/biocontainers/modeltest-ng/0.1.7--h5c6ebe3_0
+$ module load quay.io/biocontainers/modeltest-ng/0.1.7--h103dbdd_2
+$ module help quay.io/biocontainers/modeltest-ng/0.1.7--h103dbdd_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gvcf2coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcf2coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcf2coverage/container.yaml"
-updated_at: "2023-06-10 03:07:08.780747"
-latest: "0.1--h04c669c_6"
+updated_at: "2023-06-11 03:25:20.891991"
+latest: "0.1--hbbffb53_7"
 container_url: "https://biocontainers.pro/tools/gvcf2coverage"
 aliases:
  - "gvcf2coverage"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "0.1--h8a6b41c_5"
  - "0.1--h04c669c_6"
+ - "0.1--hbbffb53_7"
 description: "shpc-registry automated BioContainers addition for gvcf2coverage"
-config: {"url": "https://biocontainers.pro/tools/gvcf2coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf2coverage", "latest": {"0.1--h04c669c_6": "sha256:7dedb326f099820381b0013b14046b031905aba70fc8fc9779fa5da69a9bed9d"}, "tags": {"0.1--h8a6b41c_5": "sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887", "0.1--h04c669c_6": "sha256:7dedb326f099820381b0013b14046b031905aba70fc8fc9779fa5da69a9bed9d"}, "docker": "quay.io/biocontainers/gvcf2coverage", "aliases": {"gvcf2coverage": "/usr/local/bin/gvcf2coverage", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/gvcf2coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf2coverage", "latest": {"0.1--hbbffb53_7": "sha256:c420a2c1dbde8f2459a0307628bdf6353dcd13ac44e5e43b9d1d0aa333399ac9"}, "tags": {"0.1--h8a6b41c_5": "sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887", "0.1--h04c669c_6": "sha256:7dedb326f099820381b0013b14046b031905aba70fc8fc9779fa5da69a9bed9d", "0.1--hbbffb53_7": "sha256:c420a2c1dbde8f2459a0307628bdf6353dcd13ac44e5e43b9d1d0aa333399ac9"}, "docker": "quay.io/biocontainers/gvcf2coverage", "aliases": {"gvcf2coverage": "/usr/local/bin/gvcf2coverage", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gvcf2coverage.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/gvcf2coverage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gvcf2coverage:0.1--h04c669c_6
+$ shpc install quay.io/biocontainers/gvcf2coverage:0.1--hbbffb53_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gvcf2coverage/0.1--h04c669c_6
-$ module help quay.io/biocontainers/gvcf2coverage/0.1--h04c669c_6
+$ module load quay.io/biocontainers/gvcf2coverage/0.1--hbbffb53_7
+$ module help quay.io/biocontainers/gvcf2coverage/0.1--hbbffb53_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

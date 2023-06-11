@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pymvpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymvpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymvpa/container.yaml"
-updated_at: "2023-06-10 03:12:04.242023"
-latest: "2.6.5--py39h70e0db4_5"
+updated_at: "2023-06-11 03:30:16.176513"
+latest: "2.6.5--py310hda10691_8"
 container_url: "https://biocontainers.pro/tools/pymvpa"
 aliases:
  - "ccache-swig"
@@ -32,8 +32,9 @@ aliases:
  - "nspr-config"
 versions:
  - "2.6.5--py39h70e0db4_5"
+ - "2.6.5--py310hda10691_8"
 description: "shpc-registry automated BioContainers addition for pymvpa"
-config: {"url": "https://biocontainers.pro/tools/pymvpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymvpa", "latest": {"2.6.5--py39h70e0db4_5": "sha256:8511e0b9e2e8bfb7fdb8b67b23e4b0baf71a91f61a8d76dfd9c9e8d29795179c"}, "tags": {"2.6.5--py39h70e0db4_5": "sha256:8511e0b9e2e8bfb7fdb8b67b23e4b0baf71a91f61a8d76dfd9c9e8d29795179c"}, "docker": "quay.io/biocontainers/pymvpa", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "nib-conform": "/usr/local/bin/nib-conform", "nib-dicomfs": "/usr/local/bin/nib-dicomfs", "nib-diff": "/usr/local/bin/nib-diff", "nib-ls": "/usr/local/bin/nib-ls", "nib-nifti-dx": "/usr/local/bin/nib-nifti-dx", "nib-roi": "/usr/local/bin/nib-roi", "nib-stats": "/usr/local/bin/nib-stats", "nib-tck2trk": "/usr/local/bin/nib-tck2trk", "nib-trk2tck": "/usr/local/bin/nib-trk2tck", "parrec2nii": "/usr/local/bin/parrec2nii", "swig": "/usr/local/bin/swig", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config"}}
+config: {"url": "https://biocontainers.pro/tools/pymvpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymvpa", "latest": {"2.6.5--py310hda10691_8": "sha256:5122c074b0aad966b8f212f48c4bd86a1a1eed67d173ac5b18569a4fc2dab848"}, "tags": {"2.6.5--py39h70e0db4_5": "sha256:8511e0b9e2e8bfb7fdb8b67b23e4b0baf71a91f61a8d76dfd9c9e8d29795179c", "2.6.5--py310hda10691_8": "sha256:5122c074b0aad966b8f212f48c4bd86a1a1eed67d173ac5b18569a4fc2dab848"}, "docker": "quay.io/biocontainers/pymvpa", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "nib-conform": "/usr/local/bin/nib-conform", "nib-dicomfs": "/usr/local/bin/nib-dicomfs", "nib-diff": "/usr/local/bin/nib-diff", "nib-ls": "/usr/local/bin/nib-ls", "nib-nifti-dx": "/usr/local/bin/nib-nifti-dx", "nib-roi": "/usr/local/bin/nib-roi", "nib-stats": "/usr/local/bin/nib-stats", "nib-tck2trk": "/usr/local/bin/nib-tck2trk", "nib-trk2tck": "/usr/local/bin/nib-trk2tck", "parrec2nii": "/usr/local/bin/parrec2nii", "swig": "/usr/local/bin/swig", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymvpa.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/pymvpa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pymvpa:2.6.5--py39h70e0db4_5
+$ shpc install quay.io/biocontainers/pymvpa:2.6.5--py310hda10691_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pymvpa/2.6.5--py39h70e0db4_5
-$ module help quay.io/biocontainers/pymvpa/2.6.5--py39h70e0db4_5
+$ module load quay.io/biocontainers/pymvpa/2.6.5--py310hda10691_8
+$ module help quay.io/biocontainers/pymvpa/2.6.5--py310hda10691_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

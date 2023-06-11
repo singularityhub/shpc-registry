@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panacus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panacus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panacus/container.yaml"
-updated_at: "2023-06-10 03:31:36.311406"
-latest: "0.2--hec16e2b_0"
+updated_at: "2023-06-11 03:49:48.353205"
+latest: "0.2.1--h031d066_0"
 container_url: "https://biocontainers.pro/tools/panacus"
 aliases:
  - "panacus"
@@ -34,8 +34,9 @@ aliases:
  - "transicc"
 versions:
  - "0.2--hec16e2b_0"
+ - "0.2.1--h031d066_0"
 description: "singularity registry hpc automated addition for panacus"
-config: {"url": "https://biocontainers.pro/tools/panacus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panacus", "latest": {"0.2--hec16e2b_0": "sha256:f3e1a7d43d4694a287483512a7190f611193486ea91913ffe0e64e156d803bff"}, "tags": {"0.2--hec16e2b_0": "sha256:f3e1a7d43d4694a287483512a7190f611193486ea91913ffe0e64e156d803bff"}, "docker": "quay.io/biocontainers/panacus", "aliases": {"panacus": "/usr/local/bin/panacus", "panacus-visualize": "/usr/local/bin/panacus-visualize", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/panacus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panacus", "latest": {"0.2.1--h031d066_0": "sha256:24d5008ebfc7f57512c371365b2fb42e054a0e55d9743d59c34cf040c182dd5a"}, "tags": {"0.2--hec16e2b_0": "sha256:f3e1a7d43d4694a287483512a7190f611193486ea91913ffe0e64e156d803bff", "0.2.1--h031d066_0": "sha256:24d5008ebfc7f57512c371365b2fb42e054a0e55d9743d59c34cf040c182dd5a"}, "docker": "quay.io/biocontainers/panacus", "aliases": {"panacus": "/usr/local/bin/panacus", "panacus-visualize": "/usr/local/bin/panacus-visualize", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panacus.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/panacus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panacus:0.2--hec16e2b_0
+$ shpc install quay.io/biocontainers/panacus:0.2.1--h031d066_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panacus/0.2--hec16e2b_0
-$ module help quay.io/biocontainers/panacus/0.2--hec16e2b_0
+$ module load quay.io/biocontainers/panacus/0.2.1--h031d066_0
+$ module help quay.io/biocontainers/panacus/0.2.1--h031d066_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

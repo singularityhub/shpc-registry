@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-methylmnm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylmnm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylmnm/container.yaml"
-updated_at: "2023-06-10 03:03:27.034763"
-latest: "1.36.0--r42hc0cfd56_0"
+updated_at: "2023-06-11 03:21:39.551889"
+latest: "1.36.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylmnm"
 
 versions:
  - "1.32.0--r41hc0cfd56_2"
  - "1.36.0--r42hc0cfd56_0"
+ - "1.36.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylmnm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylmnm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylmnm", "latest": {"1.36.0--r42hc0cfd56_0": "sha256:87a100f6d8389c8addab16a4435e1c2566ced3978e21efdb579933ba2a9bd36e"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:76db74e93222fe45d45b039dc5148f5358756aa274897d1ac54ec05530fb4178", "1.36.0--r42hc0cfd56_0": "sha256:87a100f6d8389c8addab16a4435e1c2566ced3978e21efdb579933ba2a9bd36e"}, "docker": "quay.io/biocontainers/bioconductor-methylmnm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylmnm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylmnm", "latest": {"1.36.0--r42ha9d7317_1": "sha256:cbff63a479c6d5e16e94480946e85885a9a5bf7dd5f546d6eb69c1bb8363baa2"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:76db74e93222fe45d45b039dc5148f5358756aa274897d1ac54ec05530fb4178", "1.36.0--r42hc0cfd56_0": "sha256:87a100f6d8389c8addab16a4435e1c2566ced3978e21efdb579933ba2a9bd36e", "1.36.0--r42ha9d7317_1": "sha256:cbff63a479c6d5e16e94480946e85885a9a5bf7dd5f546d6eb69c1bb8363baa2"}, "docker": "quay.io/biocontainers/bioconductor-methylmnm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylmnm.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylmnm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylmnm:1.36.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-methylmnm:1.36.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylmnm/1.36.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-methylmnm/1.36.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-methylmnm/1.36.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-methylmnm/1.36.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

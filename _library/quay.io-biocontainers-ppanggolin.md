@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ppanggolin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ppanggolin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ppanggolin/container.yaml"
-updated_at: "2023-06-10 03:15:26.522558"
-latest: "1.2.105--py39hbf8eff0_0"
+updated_at: "2023-06-11 03:33:39.026928"
+latest: "1.2.105--py310h4b81fae_1"
 container_url: "https://biocontainers.pro/tools/ppanggolin"
 aliases:
  - "gawk-5.0.1"
@@ -26,8 +26,9 @@ versions:
  - "1.1.136--py37h73a75cf_1"
  - "1.0.13--py36h516909a_0"
  - "1.2.105--py39hbf8eff0_0"
+ - "1.2.105--py310h4b81fae_1"
 description: "shpc-registry automated BioContainers addition for ppanggolin"
-config: {"url": "https://biocontainers.pro/tools/ppanggolin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ppanggolin", "latest": {"1.2.105--py39hbf8eff0_0": "sha256:866d8c387968084e15160ec5e0d9602a4896709bd802a9800e4b0c8c0b42f2ac"}, "tags": {"v0.3.88--py36h516909a_1": "sha256:042eac580f6968117ee323c4840d0478333a6c0595561c21632b08675b95e54a", "1.2.74--py38hbff2b2d_1": "sha256:cc90238050f7954da4ba0da234a309675acd1b22c55e750b98ac63ba1e537fc3", "1.1.136--py37h73a75cf_1": "sha256:ac677fcb63237c628d8a6d0004eed60b2493919a61402e630f502106e76288c6", "1.0.13--py36h516909a_0": "sha256:383be1b487824b606911306d8d44bda5bf05f201cfdb5e9b57b3d31bd062e171", "1.2.105--py39hbf8eff0_0": "sha256:866d8c387968084e15160ec5e0d9602a4896709bd802a9800e4b0c8c0b42f2ac"}, "docker": "quay.io/biocontainers/ppanggolin", "aliases": {"gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "ppanggolin": "/usr/local/bin/ppanggolin", "mmseqs": "/usr/local/bin/mmseqs", "aragorn": "/usr/local/bin/aragorn", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan"}}
+config: {"url": "https://biocontainers.pro/tools/ppanggolin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ppanggolin", "latest": {"1.2.105--py310h4b81fae_1": "sha256:3d6f75af210f47a192485e94f4a2a7eac228036975023306532f70282285a24b"}, "tags": {"v0.3.88--py36h516909a_1": "sha256:042eac580f6968117ee323c4840d0478333a6c0595561c21632b08675b95e54a", "1.2.74--py38hbff2b2d_1": "sha256:cc90238050f7954da4ba0da234a309675acd1b22c55e750b98ac63ba1e537fc3", "1.1.136--py37h73a75cf_1": "sha256:ac677fcb63237c628d8a6d0004eed60b2493919a61402e630f502106e76288c6", "1.0.13--py36h516909a_0": "sha256:383be1b487824b606911306d8d44bda5bf05f201cfdb5e9b57b3d31bd062e171", "1.2.105--py39hbf8eff0_0": "sha256:866d8c387968084e15160ec5e0d9602a4896709bd802a9800e4b0c8c0b42f2ac", "1.2.105--py310h4b81fae_1": "sha256:3d6f75af210f47a192485e94f4a2a7eac228036975023306532f70282285a24b"}, "docker": "quay.io/biocontainers/ppanggolin", "aliases": {"gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "ppanggolin": "/usr/local/bin/ppanggolin", "mmseqs": "/usr/local/bin/mmseqs", "aragorn": "/usr/local/bin/aragorn", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ppanggolin.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/ppanggolin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ppanggolin:1.2.105--py39hbf8eff0_0
+$ shpc install quay.io/biocontainers/ppanggolin:1.2.105--py310h4b81fae_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ppanggolin/1.2.105--py39hbf8eff0_0
-$ module help quay.io/biocontainers/ppanggolin/1.2.105--py39hbf8eff0_0
+$ module load quay.io/biocontainers/ppanggolin/1.2.105--py310h4b81fae_1
+$ module help quay.io/biocontainers/ppanggolin/1.2.105--py310h4b81fae_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
