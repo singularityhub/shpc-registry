@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pb-falconc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pb-falconc
 latest:
-  1.15.0--h3279499_1: sha256:e29f9a4c9737320e17e1764d55dbfe52ce1569bb0c104ddee6748411b0f45fc0
+  1.15.0--haabb649_2: sha256:90cf14e741ebb5e9d4f8d67c31339ddd9bf972914701cba4676aa5306fa9a433
 tags:
   1.15.0--h3279499_0: sha256:305f8aee4ff4aa2fcb66f2417f2ae4e82cc00b2eac9b5eef5a4cb1673e00fa23
-  1.15.0--h3279499_1: sha256:e29f9a4c9737320e17e1764d55dbfe52ce1569bb0c104ddee6748411b0f45fc0
+  1.15.0--h3279499_1: sha256:d04b658176d97aeaddd7b419339d9194d6e40cb02cc4afba0555cf458d69a5db
+  1.15.0--haabb649_2: sha256:90cf14e741ebb5e9d4f8d67c31339ddd9bf972914701cba4676aa5306fa9a433
 docker: quay.io/biocontainers/pb-falconc
 aliases:
   falconc: /usr/local/bin/falconc

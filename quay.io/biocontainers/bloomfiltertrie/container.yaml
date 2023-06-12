@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bloomfiltertrie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bloomfiltertrie
 latest:
-  0.8.7--hec16e2b_4: sha256:a71936df236a1f9972956d24c57736874f99bf0f6f42d44f4008009b23f3705a
+  0.8.7--h031d066_5: sha256:a31bf024e7ae40fdbf55f0072ece3a9b08ad2423ebf891ca3b215b94ffaf9ab7
 tags:
   0.8.7--hec16e2b_3: sha256:08adec15bffd0c4dda0082d8f33425cf27edf2e044c74eb3a091957daad33103
-  0.8.7--hec16e2b_4: sha256:a71936df236a1f9972956d24c57736874f99bf0f6f42d44f4008009b23f3705a
+  0.8.7--hec16e2b_4: sha256:0d96bdd5c749659bdfeb3d936a408967bb8104f54c5af062a2425ec159608da5
+  0.8.7--h031d066_5: sha256:a31bf024e7ae40fdbf55f0072ece3a9b08ad2423ebf891ca3b215b94ffaf9ab7
 docker: quay.io/biocontainers/bloomfiltertrie
 aliases:
   bft: /usr/local/bin/bft

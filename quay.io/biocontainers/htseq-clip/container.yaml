@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/htseq-clip
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for htseq-clip
 latest:
-  2.18.2b0--pyh086e186_0: sha256:52914fbc08e67cf85fd9bf75e55b461cb56bf8e498adcecf1e6e66c712fe535a
+  2.19.0b0--pyh086e186_0: sha256:3d8e5f6e7387221e3dcbc313589beb9f4b8987ee7b928525fcfec2aa9a566686
 tags:
   2.14.0b0--pyh086e186_0: sha256:775e23d8c5b4ea3619173efe64e09c5a095cf379f206d4cb56987504e86d81d3
   2.18.2b0--pyh086e186_0: sha256:52914fbc08e67cf85fd9bf75e55b461cb56bf8e498adcecf1e6e66c712fe535a
+  2.19.0b0--pyh086e186_0: sha256:3d8e5f6e7387221e3dcbc313589beb9f4b8987ee7b928525fcfec2aa9a566686
 docker: quay.io/biocontainers/htseq-clip
 aliases:
   htseq-clip: /usr/local/bin/htseq-clip

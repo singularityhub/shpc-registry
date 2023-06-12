@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-baynorm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-baynorm
 latest:
-  1.16.0--r42hc247a5b_0: sha256:0a66485ab70b68d885e1f7b7b00a9cbfd74991f1c5a7063333fc72743ec6d077
+  1.16.0--r42hf17093f_1: sha256:2b6d1a674fafda237f77ef2d86f922bb14265091d292e0795d8a8b993092cad3
 tags:
   1.8.0--r40h399db7b_1: sha256:88285a0f0e14fad190212258d19605281f9f67310bb05b8e43f9ff052a73a3ca
   1.16.0--r42hc247a5b_0: sha256:0a66485ab70b68d885e1f7b7b00a9cbfd74991f1c5a7063333fc72743ec6d077
   1.12.0--r41hc247a5b_2: sha256:f38ec361af7e2119d7c273eeb71d01fd47ec7b9aed7081aeea31d4898b35c2fe
+  1.16.0--r42hf17093f_1: sha256:2b6d1a674fafda237f77ef2d86f922bb14265091d292e0795d8a8b993092cad3
 docker: quay.io/biocontainers/bioconductor-baynorm
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/xhmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xhmm
 latest:
-  0.0.0.2016_01_04.cc14e52--hc5fcd1e_4: sha256:78fd1ae344727697639f4c200e108a2649a4560b7e82ecbfad26c1e9f35592fc
+  0.0.0.2016_01_04.cc14e52--hc5fcd1e_5: sha256:472b12f42783d2feb63a446bfc17970df04ed5e2ce0f10eee4eece8dec249057
 tags:
   0.0.0.2016_01_04.cc14e52--hc5fcd1e_4: sha256:78fd1ae344727697639f4c200e108a2649a4560b7e82ecbfad26c1e9f35592fc
+  0.0.0.2016_01_04.cc14e52--hc5fcd1e_5: sha256:472b12f42783d2feb63a446bfc17970df04ed5e2ce0f10eee4eece8dec249057
 docker: quay.io/biocontainers/xhmm
 aliases:
   xhmm: /usr/local/bin/xhmm

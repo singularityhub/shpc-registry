@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hits
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hits
 latest:
-  0.4.0--py38hbff2b2d_0: sha256:9c82839a2162397d82440a9c44229f9bf96e334703d657e7612ad4b4d3bfdb99
+  0.4.0--py38he5da3d1_1: sha256:e1baf539fca4508f8555150693ad7f9c909cdd6502fd60c1bdd8f37ffcdf4919
 tags:
   0.3.3--py37h8902056_1: sha256:104159d3c55a1e82a7433e76503af1b8389a68783a8754880d6a2c0f6aed2d80
   0.4.0--py38hbff2b2d_0: sha256:9c82839a2162397d82440a9c44229f9bf96e334703d657e7612ad4b4d3bfdb99
+  0.4.0--py38he5da3d1_1: sha256:e1baf539fca4508f8555150693ad7f9c909cdd6502fd60c1bdd8f37ffcdf4919
 docker: quay.io/biocontainers/hits
 aliases:
   jupyter-dejavu: /usr/local/bin/jupyter-dejavu

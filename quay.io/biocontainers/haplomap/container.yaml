@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/haplomap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for haplomap
 latest:
-  0.1.0--hb5289fc_0: sha256:b9e6e7325db8b1abd95c2ce0235ff282477ab154292b35e95dfeffcaf102e05b
+  0.1.0--h8cec121_2: sha256:66d41ba8edb455fbb1851328025c285b16ffe460caba74cdbf178fd83776b968
 tags:
   0.1.0--hb5289fc_0: sha256:b9e6e7325db8b1abd95c2ce0235ff282477ab154292b35e95dfeffcaf102e05b
+  0.1.0--h8cec121_2: sha256:66d41ba8edb455fbb1851328025c285b16ffe460caba74cdbf178fd83776b968
 docker: quay.io/biocontainers/haplomap
 aliases:
   haplomap: /usr/local/bin/haplomap

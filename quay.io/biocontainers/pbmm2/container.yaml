@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pbmm2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbmm2
 latest:
-  1.10.0--h9ee0642_0: sha256:f00bb97c3e6fcec879acb3c5c485a154eae8a0582b84b5a43a3b2dbd168a4b38
+  1.12.0--h9ee0642_0: sha256:d16e5df5bfab75ff2defd2984ec6cb7665473e383045e2a075ea1261ae188861
 tags:
   1.9.0--h9ee0642_0: sha256:0393f964d064053459ae410a0c8d313bbf5cd06b74906c53d13c094cb327ee79
   1.10.0--h9ee0642_0: sha256:f00bb97c3e6fcec879acb3c5c485a154eae8a0582b84b5a43a3b2dbd168a4b38
+  1.12.0--h9ee0642_0: sha256:d16e5df5bfab75ff2defd2984ec6cb7665473e383045e2a075ea1261ae188861
 docker: quay.io/biocontainers/pbmm2
 aliases:
   pbmm2: /usr/local/bin/pbmm2

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-normr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-normr
 latest:
-  1.24.0--r42hc247a5b_0: sha256:b0f52efb3d246787f3eb0e6840694d6ea970811a5342d80a665348b0ff4b70b9
+  1.24.0--r42hf17093f_1: sha256:a169bd773529f5889b171cf59c59675e818dbd7831f72f685fbee5df83790231
 tags:
   1.8.0--r351hf484d3e_0: sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373
   1.24.0--r42hc247a5b_0: sha256:b0f52efb3d246787f3eb0e6840694d6ea970811a5342d80a665348b0ff4b70b9
@@ -10,6 +10,7 @@ tags:
   1.18.0--r41h399db7b_0: sha256:95b5672879fcbcb987342fa8568fc604c56c0792bdff643488e6bebfca4f6fbd
   1.16.0--r40h399db7b_1: sha256:10d2f92396a19d47c12f819594a369ab39273f9b249e60b6f5657940535f7061
   1.14.0--r40h5f743cb_0: sha256:76bee8dbb95c8e4868bafe74b7d1aa8212f571aae7b0bd89c580c5f5c8a4a4b6
+  1.24.0--r42hf17093f_1: sha256:a169bd773529f5889b171cf59c59675e818dbd7831f72f685fbee5df83790231
 docker: quay.io/biocontainers/bioconductor-normr
 aliases:
   wget: /usr/local/bin/wget

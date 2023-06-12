@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ont_vbz_hdf_plugin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ont_vbz_hdf_plugin
 latest:
-  1.0.1--hb6da537_3: sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397
+  1.0.1--h3f9cce5_5: sha256:f9e82bb2b166fd86cc7da325dc02e8767c9cd8d448e7323c49c392e30aa82c4b
 tags:
   1.0.1--hb6da537_3: sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397
+  1.0.1--h3f9cce5_5: sha256:f9e82bb2b166fd86cc7da325dc02e8767c9cd8d448e7323c49c392e30aa82c4b
 docker: quay.io/biocontainers/ont_vbz_hdf_plugin
 aliases:
   mirror_server: /usr/local/bin/mirror_server

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hybpiper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hybpiper
 latest:
-  2.1.3--hec16e2b_0: sha256:58eff0cec13e6a0af10ca226307f645c3309499f071f3dcbfe2a31d95afb0877
+  2.1.3--h031d066_1: sha256:a3a77e2d4350d1e57b6e565758f03c5a50bd6d0b990640b0ced8c0c2514ad33a
 tags:
   2.1.3--hec16e2b_0: sha256:58eff0cec13e6a0af10ca226307f645c3309499f071f3dcbfe2a31d95afb0877
+  2.1.3--h031d066_1: sha256:a3a77e2d4350d1e57b6e565758f03c5a50bd6d0b990640b0ced8c0c2514ad33a
 docker: quay.io/biocontainers/hybpiper
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh

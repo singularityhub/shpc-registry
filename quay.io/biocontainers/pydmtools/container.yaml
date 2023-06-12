@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pydmtools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pydmtools
 latest:
-  0.1.1--py37hdc12a6d_0: sha256:91b53fbaa67b5c7f7b75c4e36340f9b152db42e8f0cf9cbdd2ccc50b19d77a29
+  0.1.1--py38h5df1436_1: sha256:230f249f43560c76216d39f0ebdd4835892043c4be4ceb2068077b2af6bddbd1
 tags:
   0.1.1--py37hdc12a6d_0: sha256:91b53fbaa67b5c7f7b75c4e36340f9b152db42e8f0cf9cbdd2ccc50b19d77a29
+  0.1.1--py38h5df1436_1: sha256:230f249f43560c76216d39f0ebdd4835892043c4be4ceb2068077b2af6bddbd1
 docker: quay.io/biocontainers/pydmtools
 aliases:
   f2py3.7: /usr/local/bin/f2py3.7
