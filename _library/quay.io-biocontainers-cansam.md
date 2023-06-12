@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cansam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cansam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cansam/container.yaml"
-updated_at: "2023-06-11 03:49:13.492938"
-latest: "21d64bb--h7ff8a90_6"
+updated_at: "2023-06-12 03:43:13.034103"
+latest: "21d64bb--h21ec9f0_7"
 container_url: "https://biocontainers.pro/tools/cansam"
 aliases:
  - "samcat"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "21d64bb--h7ff8a90_5"
  - "21d64bb--h7ff8a90_6"
+ - "21d64bb--h21ec9f0_7"
 description: "shpc-registry automated BioContainers addition for cansam"
-config: {"url": "https://biocontainers.pro/tools/cansam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cansam", "latest": {"21d64bb--h7ff8a90_6": "sha256:69b21472bb35f9c3a03d227fa8f25a26c2ca68c89b03b18a141cf81a5814c429"}, "tags": {"21d64bb--h7ff8a90_5": "sha256:246cc80e1455e0681994be5e15b285f58350fd78774b6ad952cb3c0ab800a940", "21d64bb--h7ff8a90_6": "sha256:69b21472bb35f9c3a03d227fa8f25a26c2ca68c89b03b18a141cf81a5814c429"}, "docker": "quay.io/biocontainers/cansam", "aliases": {"samcat": "/usr/local/bin/samcat", "samcount": "/usr/local/bin/samcount", "samgroupbyname": "/usr/local/bin/samgroupbyname", "samhead": "/usr/local/bin/samhead", "samsort": "/usr/local/bin/samsort", "samsplit": "/usr/local/bin/samsplit"}}
+config: {"url": "https://biocontainers.pro/tools/cansam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cansam", "latest": {"21d64bb--h21ec9f0_7": "sha256:b8a9e02eb067d9ae12824d4595394207134563587b9fa5352ee07d2838854094"}, "tags": {"21d64bb--h7ff8a90_5": "sha256:246cc80e1455e0681994be5e15b285f58350fd78774b6ad952cb3c0ab800a940", "21d64bb--h7ff8a90_6": "sha256:fddfb6d7013f696b5aa41197e202388c1dc04b3b4e15b0df6d6027f002ad5592", "21d64bb--h21ec9f0_7": "sha256:b8a9e02eb067d9ae12824d4595394207134563587b9fa5352ee07d2838854094"}, "docker": "quay.io/biocontainers/cansam", "aliases": {"samcat": "/usr/local/bin/samcat", "samcount": "/usr/local/bin/samcount", "samgroupbyname": "/usr/local/bin/samgroupbyname", "samhead": "/usr/local/bin/samhead", "samsort": "/usr/local/bin/samsort", "samsplit": "/usr/local/bin/samsplit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cansam.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/cansam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cansam:21d64bb--h7ff8a90_6
+$ shpc install quay.io/biocontainers/cansam:21d64bb--h21ec9f0_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cansam/21d64bb--h7ff8a90_6
-$ module help quay.io/biocontainers/cansam/21d64bb--h7ff8a90_6
+$ module load quay.io/biocontainers/cansam/21d64bb--h21ec9f0_7
+$ module help quay.io/biocontainers/cansam/21d64bb--h21ec9f0_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

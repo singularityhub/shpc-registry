@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-trackviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trackviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trackviewer/container.yaml"
-updated_at: "2023-06-11 03:37:15.799153"
-latest: "1.34.0--r42hc247a5b_0"
+updated_at: "2023-06-12 03:30:46.170256"
+latest: "1.34.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-trackviewer"
 
 versions:
  - "1.30.0--r41hc247a5b_2"
  - "1.34.0--r42hc247a5b_0"
+ - "1.34.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-trackviewer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trackviewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trackviewer", "latest": {"1.34.0--r42hc247a5b_0": "sha256:3fe65bedd670cfff11f444724b9c21c68c021ff417b994ca98f222a495e6b696"}, "tags": {"1.30.0--r41hc247a5b_2": "sha256:03e7509cc2f6f2ac3e93d8317297c70058df55d0ccb9004a4a52b67cfb971b33", "1.34.0--r42hc247a5b_0": "sha256:3fe65bedd670cfff11f444724b9c21c68c021ff417b994ca98f222a495e6b696"}, "docker": "quay.io/biocontainers/bioconductor-trackviewer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trackviewer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trackviewer", "latest": {"1.34.0--r42hf17093f_1": "sha256:0ea18c0f9803062563d8cb9514870d6a83d21f460ddb5ab94241027e8b826da5"}, "tags": {"1.30.0--r41hc247a5b_2": "sha256:03e7509cc2f6f2ac3e93d8317297c70058df55d0ccb9004a4a52b67cfb971b33", "1.34.0--r42hc247a5b_0": "sha256:3fe65bedd670cfff11f444724b9c21c68c021ff417b994ca98f222a495e6b696", "1.34.0--r42hf17093f_1": "sha256:0ea18c0f9803062563d8cb9514870d6a83d21f460ddb5ab94241027e8b826da5"}, "docker": "quay.io/biocontainers/bioconductor-trackviewer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trackviewer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trackviewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trackviewer:1.34.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-trackviewer:1.34.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trackviewer/1.34.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-trackviewer/1.34.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-trackviewer/1.34.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-trackviewer/1.34.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

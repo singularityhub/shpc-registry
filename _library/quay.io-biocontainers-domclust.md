@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/domclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/domclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/domclust/container.yaml"
-updated_at: "2023-06-11 03:18:26.463767"
+updated_at: "2023-06-12 03:11:14.183230"
 latest: "1.2.8a--h470a237_1"
 container_url: "https://biocontainers.pro/tools/domclust"
 aliases:

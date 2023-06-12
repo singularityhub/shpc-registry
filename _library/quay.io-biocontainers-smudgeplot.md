@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smudgeplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smudgeplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smudgeplot/container.yaml"
-updated_at: "2023-06-11 03:24:39.084726"
+updated_at: "2023-06-12 03:17:40.295108"
 latest: "0.2.5--py38r42he5da3d1_3"
 container_url: "https://biocontainers.pro/tools/smudgeplot"
 aliases:

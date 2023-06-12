@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioawk/container.yaml"
-updated_at: "2023-06-11 03:46:09.793219"
-latest: "1.0--h7132678_8"
+updated_at: "2023-06-12 03:40:03.330412"
+latest: "1.0--he4a0461_9"
 container_url: "https://biocontainers.pro/tools/bioawk"
 aliases:
  - "bioawk"
 versions:
  - "1.0--h7132678_7"
  - "1.0--h7132678_8"
+ - "1.0--he4a0461_9"
 description: "shpc-registry automated BioContainers addition for bioawk"
-config: {"url": "https://biocontainers.pro/tools/bioawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioawk", "latest": {"1.0--h7132678_8": "sha256:ace6ed6ad1fe0249d4005c49f1f1250f8e05e2410ea5f29ed6de2433906b3efc"}, "tags": {"1.0--h7132678_7": "sha256:0eff4c13f667526eaad90302737c5b7c01d63b3b876e81b4cd7723af5c5a118b", "1.0--h7132678_8": "sha256:ace6ed6ad1fe0249d4005c49f1f1250f8e05e2410ea5f29ed6de2433906b3efc"}, "docker": "quay.io/biocontainers/bioawk", "aliases": {"bioawk": "/usr/local/bin/bioawk"}}
+config: {"url": "https://biocontainers.pro/tools/bioawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioawk", "latest": {"1.0--he4a0461_9": "sha256:55a0b991fd0057f91ead905cc6eedbf107d352a45eec9d29177ea9b4e3bda557"}, "tags": {"1.0--h7132678_7": "sha256:0eff4c13f667526eaad90302737c5b7c01d63b3b876e81b4cd7723af5c5a118b", "1.0--h7132678_8": "sha256:e845d58f2e19aacec8e5cc48764639296c0f13d34bf84190b309a7ee471bcef3", "1.0--he4a0461_9": "sha256:55a0b991fd0057f91ead905cc6eedbf107d352a45eec9d29177ea9b4e3bda557"}, "docker": "quay.io/biocontainers/bioawk", "aliases": {"bioawk": "/usr/local/bin/bioawk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioawk.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioawk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioawk:1.0--h7132678_8
+$ shpc install quay.io/biocontainers/bioawk:1.0--he4a0461_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioawk/1.0--h7132678_8
-$ module help quay.io/biocontainers/bioawk/1.0--h7132678_8
+$ module load quay.io/biocontainers/bioawk/1.0--he4a0461_9
+$ module help quay.io/biocontainers/bioawk/1.0--he4a0461_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

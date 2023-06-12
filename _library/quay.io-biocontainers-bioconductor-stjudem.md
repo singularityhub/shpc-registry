@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stjudem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stjudem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stjudem/container.yaml"
-updated_at: "2023-06-11 03:20:02.408808"
+updated_at: "2023-06-12 03:12:53.399441"
 latest: "1.37.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stjudem"
 

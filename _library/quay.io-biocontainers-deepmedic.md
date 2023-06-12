@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepmedic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmedic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmedic/container.yaml"
-updated_at: "2023-06-11 03:31:01.151252"
+updated_at: "2023-06-12 03:24:16.855179"
 latest: "0.6.1--py_1"
 container_url: "https://biocontainers.pro/tools/deepmedic"
 aliases:

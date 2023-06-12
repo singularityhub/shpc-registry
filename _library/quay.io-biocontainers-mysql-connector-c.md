@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mysql-connector-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysql-connector-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mysql-connector-c/container.yaml"
-updated_at: "2023-06-11 03:41:35.034413"
+updated_at: "2023-06-12 03:35:16.780026"
 latest: "6.1.6--2"
 container_url: "https://biocontainers.pro/tools/mysql-connector-c"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/needle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/needle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/needle/container.yaml"
-updated_at: "2023-06-11 03:29:35.882983"
-latest: "1.0.1--h19e8d03_1"
+updated_at: "2023-06-12 03:22:47.549109"
+latest: "1.0.1--h6dccd9a_3"
 container_url: "https://biocontainers.pro/tools/needle"
 aliases:
  - "needle"
 versions:
  - "1.0.1--h19e8d03_1"
+ - "1.0.1--h6dccd9a_3"
 description: "shpc-registry automated BioContainers addition for needle"
-config: {"url": "https://biocontainers.pro/tools/needle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for needle", "latest": {"1.0.1--h19e8d03_1": "sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f"}, "tags": {"1.0.1--h19e8d03_1": "sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f"}, "docker": "quay.io/biocontainers/needle", "aliases": {"needle": "/usr/local/bin/needle"}}
+config: {"url": "https://biocontainers.pro/tools/needle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for needle", "latest": {"1.0.1--h6dccd9a_3": "sha256:31a3e95fcf248eb55eb3742d594a74a55ab3996e32d938a3a8694cd2f59774e9"}, "tags": {"1.0.1--h19e8d03_1": "sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f", "1.0.1--h6dccd9a_3": "sha256:31a3e95fcf248eb55eb3742d594a74a55ab3996e32d938a3a8694cd2f59774e9"}, "docker": "quay.io/biocontainers/needle", "aliases": {"needle": "/usr/local/bin/needle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/needle.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/needle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/needle:1.0.1--h19e8d03_1
+$ shpc install quay.io/biocontainers/needle:1.0.1--h6dccd9a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/needle/1.0.1--h19e8d03_1
-$ module help quay.io/biocontainers/needle/1.0.1--h19e8d03_1
+$ module load quay.io/biocontainers/needle/1.0.1--h6dccd9a_3
+$ module help quay.io/biocontainers/needle/1.0.1--h6dccd9a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcsfilesystem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcsfilesystem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcsfilesystem/container.yaml"
-updated_at: "2023-06-11 03:29:45.298881"
+updated_at: "2023-06-12 03:22:57.373564"
 latest: "1.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcsfilesystem"
 

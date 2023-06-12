@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/libbigwig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libbigwig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libbigwig/container.yaml"
-updated_at: "2023-06-11 03:15:28.094494"
-latest: "0.4.7--h1d40642_1"
+updated_at: "2023-06-12 03:08:09.170349"
+latest: "0.4.7--h09f99ed_4"
 container_url: "https://biocontainers.pro/tools/libbigwig"
 
 versions:
  - "0.4.7--h1d40642_0"
  - "0.4.7--h1d40642_1"
+ - "0.4.7--h09f99ed_4"
 description: "shpc-registry automated BioContainers addition for libbigwig"
-config: {"url": "https://biocontainers.pro/tools/libbigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libbigwig", "latest": {"0.4.7--h1d40642_1": "sha256:da327f78dfde4caaccaa4f613066badd6a162805d9f4935ca645bbddde412e8d"}, "tags": {"0.4.7--h1d40642_0": "sha256:956927f13965b99fa747854709f47b8c8589d2372c345960063b6b787c202729", "0.4.7--h1d40642_1": "sha256:da327f78dfde4caaccaa4f613066badd6a162805d9f4935ca645bbddde412e8d"}, "docker": "quay.io/biocontainers/libbigwig"}
+config: {"url": "https://biocontainers.pro/tools/libbigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libbigwig", "latest": {"0.4.7--h09f99ed_4": "sha256:0c654cd9f5c0745cfa9ccc06992aa900a013d012816262748e1d3b19191e6129"}, "tags": {"0.4.7--h1d40642_0": "sha256:956927f13965b99fa747854709f47b8c8589d2372c345960063b6b787c202729", "0.4.7--h1d40642_1": "sha256:1a5b4aeef47708bb32e7f9c5e7dc3b6f6d6889ec86d7da702f35655f87350407", "0.4.7--h09f99ed_4": "sha256:0c654cd9f5c0745cfa9ccc06992aa900a013d012816262748e1d3b19191e6129"}, "docker": "quay.io/biocontainers/libbigwig"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libbigwig.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/libbigwig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libbigwig:0.4.7--h1d40642_1
+$ shpc install quay.io/biocontainers/libbigwig:0.4.7--h09f99ed_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libbigwig/0.4.7--h1d40642_1
-$ module help quay.io/biocontainers/libbigwig/0.4.7--h1d40642_1
+$ module load quay.io/biocontainers/libbigwig/0.4.7--h09f99ed_4
+$ module help quay.io/biocontainers/libbigwig/0.4.7--h09f99ed_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

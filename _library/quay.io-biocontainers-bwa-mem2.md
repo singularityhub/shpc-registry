@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bwa-mem2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-mem2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-mem2/container.yaml"
-updated_at: "2023-06-11 03:28:22.661003"
-latest: "2.2.1--hd03093a_2"
+updated_at: "2023-06-12 03:21:31.953616"
+latest: "2.2.1--hd03093a_5"
 container_url: "https://biocontainers.pro/tools/bwa-mem2"
 aliases:
  - "bwa-mem2"
@@ -16,8 +16,9 @@ aliases:
  - "bwa-mem2.sse42"
 versions:
  - "2.2.1--hd03093a_2"
+ - "2.2.1--hd03093a_5"
 description: "shpc-registry automated BioContainers addition for bwa-mem2"
-config: {"url": "https://biocontainers.pro/tools/bwa-mem2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa-mem2", "latest": {"2.2.1--hd03093a_2": "sha256:df046077d0771d622d2889039050a995a71430ed155f0f94f52e944bf2785b2a"}, "tags": {"2.2.1--hd03093a_2": "sha256:df046077d0771d622d2889039050a995a71430ed155f0f94f52e944bf2785b2a"}, "docker": "quay.io/biocontainers/bwa-mem2", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42"}}
+config: {"url": "https://biocontainers.pro/tools/bwa-mem2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa-mem2", "latest": {"2.2.1--hd03093a_5": "sha256:1ca6cb92cd81bb11603ceeb67bee567f3f927537aefa1da991d23a956f832e35"}, "tags": {"2.2.1--hd03093a_2": "sha256:df046077d0771d622d2889039050a995a71430ed155f0f94f52e944bf2785b2a", "2.2.1--hd03093a_5": "sha256:1ca6cb92cd81bb11603ceeb67bee567f3f927537aefa1da991d23a956f832e35"}, "docker": "quay.io/biocontainers/bwa-mem2", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa-mem2.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bwa-mem2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwa-mem2:2.2.1--hd03093a_2
+$ shpc install quay.io/biocontainers/bwa-mem2:2.2.1--hd03093a_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwa-mem2/2.2.1--hd03093a_2
-$ module help quay.io/biocontainers/bwa-mem2/2.2.1--hd03093a_2
+$ module load quay.io/biocontainers/bwa-mem2/2.2.1--hd03093a_5
+$ module help quay.io/biocontainers/bwa-mem2/2.2.1--hd03093a_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

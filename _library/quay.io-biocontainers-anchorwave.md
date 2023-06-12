@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anchorwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anchorwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anchorwave/container.yaml"
-updated_at: "2023-06-11 03:29:53.221821"
-latest: "1.2.1--hd03093a_0"
+updated_at: "2023-06-12 03:23:05.597361"
+latest: "1.2.1--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/anchorwave"
 aliases:
  - "anchorwave"
@@ -71,8 +71,9 @@ versions:
  - "1.1.1--hd03093a_0"
  - "1.2.0--hd03093a_0"
  - "1.2.1--hd03093a_0"
+ - "1.2.1--hdcf5f25_1"
 description: "shpc-registry automated BioContainers addition for anchorwave"
-config: {"url": "https://biocontainers.pro/tools/anchorwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anchorwave", "latest": {"1.2.1--hd03093a_0": "sha256:a63bc34ea073bfacba79cd8cfc358c3492547c308913dba1cc5a21bac7aeb39f"}, "tags": {"1.0.1--hd03093a_1": "sha256:e3dadaa9e1be9595a12bca26ec63781261af6f2cb17b3658c55694d392308a1c", "1.1.1--hd03093a_0": "sha256:cf7893ba0455bcb91b4e34bacf282cd835507a4f015b1fa67d0a2e991d27e3e5", "1.2.0--hd03093a_0": "sha256:32ba057491692076990f3cee677cde2500f02b9cbc564096a93ff802e0c6b94b", "1.2.1--hd03093a_0": "sha256:a63bc34ea073bfacba79cd8cfc358c3492547c308913dba1cc5a21bac7aeb39f"}, "docker": "quay.io/biocontainers/anchorwave", "aliases": {"anchorwave": "/usr/local/bin/anchorwave", "anchorwave_avx2": "/usr/local/bin/anchorwave_avx2", "anchorwave_avx512": "/usr/local/bin/anchorwave_avx512", "anchorwave_sse2": "/usr/local/bin/anchorwave_sse2", "anchorwave_sse4.1": "/usr/local/bin/anchorwave_sse4.1", "atoiindex": "/usr/local/bin/atoiindex", "bulk-counts": "/usr/local/bin/bulk-counts", "cmetindex": "/usr/local/bin/cmetindex", "configure": "/usr/local/bin/configure", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "gmap.nosimd": "/usr/local/bin/gmap.nosimd", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_cat": "/usr/local/bin/gmap_cat", "gmap_process": "/usr/local/bin/gmap_process", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.nosimd": "/usr/local/bin/gmapl.nosimd", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.nosimd": "/usr/local/bin/gsnap.nosimd", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.nosimd": "/usr/local/bin/gsnapl.nosimd", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites", "gvf_iit": "/usr/local/bin/gvf_iit", "iit_dump": "/usr/local/bin/iit_dump", "iit_get": "/usr/local/bin/iit_get", "iit_store": "/usr/local/bin/iit_store", "indexdb_cat": "/usr/local/bin/indexdb_cat", "md_coords": "/usr/local/bin/md_coords", "psl_genes": "/usr/local/bin/psl_genes", "psl_introns": "/usr/local/bin/psl_introns", "psl_splicesites": "/usr/local/bin/psl_splicesites", "sam_sort": "/usr/local/bin/sam_sort", "sc-counts": "/usr/local/bin/sc-counts", "snpindex": "/usr/local/bin/snpindex", "trindex": "/usr/local/bin/trindex", "vcf_iit": "/usr/local/bin/vcf_iit", "velocity-counts": "/usr/local/bin/velocity-counts", "gmap": "/usr/local/bin/gmap", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/anchorwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anchorwave", "latest": {"1.2.1--hdcf5f25_1": "sha256:00886e18f1e6a95f63caab602ff1208cbdf21ea0593a5cbc1cbeee8fc0f66e35"}, "tags": {"1.0.1--hd03093a_1": "sha256:e3dadaa9e1be9595a12bca26ec63781261af6f2cb17b3658c55694d392308a1c", "1.1.1--hd03093a_0": "sha256:cf7893ba0455bcb91b4e34bacf282cd835507a4f015b1fa67d0a2e991d27e3e5", "1.2.0--hd03093a_0": "sha256:32ba057491692076990f3cee677cde2500f02b9cbc564096a93ff802e0c6b94b", "1.2.1--hd03093a_0": "sha256:a63bc34ea073bfacba79cd8cfc358c3492547c308913dba1cc5a21bac7aeb39f", "1.2.1--hdcf5f25_1": "sha256:00886e18f1e6a95f63caab602ff1208cbdf21ea0593a5cbc1cbeee8fc0f66e35"}, "docker": "quay.io/biocontainers/anchorwave", "aliases": {"anchorwave": "/usr/local/bin/anchorwave", "anchorwave_avx2": "/usr/local/bin/anchorwave_avx2", "anchorwave_avx512": "/usr/local/bin/anchorwave_avx512", "anchorwave_sse2": "/usr/local/bin/anchorwave_sse2", "anchorwave_sse4.1": "/usr/local/bin/anchorwave_sse4.1", "atoiindex": "/usr/local/bin/atoiindex", "bulk-counts": "/usr/local/bin/bulk-counts", "cmetindex": "/usr/local/bin/cmetindex", "configure": "/usr/local/bin/configure", "cpuid": "/usr/local/bin/cpuid", "dbsnp_iit": "/usr/local/bin/dbsnp_iit", "ensembl_genes": "/usr/local/bin/ensembl_genes", "fa_coords": "/usr/local/bin/fa_coords", "get-genome": "/usr/local/bin/get-genome", "gff3_genes": "/usr/local/bin/gff3_genes", "gff3_introns": "/usr/local/bin/gff3_introns", "gff3_splicesites": "/usr/local/bin/gff3_splicesites", "gmap.nosimd": "/usr/local/bin/gmap.nosimd", "gmap.sse42": "/usr/local/bin/gmap.sse42", "gmap_build": "/usr/local/bin/gmap_build", "gmap_cat": "/usr/local/bin/gmap_cat", "gmap_process": "/usr/local/bin/gmap_process", "gmapindex": "/usr/local/bin/gmapindex", "gmapl": "/usr/local/bin/gmapl", "gmapl.nosimd": "/usr/local/bin/gmapl.nosimd", "gmapl.sse42": "/usr/local/bin/gmapl.sse42", "gsnap": "/usr/local/bin/gsnap", "gsnap.nosimd": "/usr/local/bin/gsnap.nosimd", "gsnap.sse42": "/usr/local/bin/gsnap.sse42", "gsnapl": "/usr/local/bin/gsnapl", "gsnapl.nosimd": "/usr/local/bin/gsnapl.nosimd", "gsnapl.sse42": "/usr/local/bin/gsnapl.sse42", "gtf_genes": "/usr/local/bin/gtf_genes", "gtf_introns": "/usr/local/bin/gtf_introns", "gtf_splicesites": "/usr/local/bin/gtf_splicesites", "gtf_transcript_splicesites": "/usr/local/bin/gtf_transcript_splicesites", "gvf_iit": "/usr/local/bin/gvf_iit", "iit_dump": "/usr/local/bin/iit_dump", "iit_get": "/usr/local/bin/iit_get", "iit_store": "/usr/local/bin/iit_store", "indexdb_cat": "/usr/local/bin/indexdb_cat", "md_coords": "/usr/local/bin/md_coords", "psl_genes": "/usr/local/bin/psl_genes", "psl_introns": "/usr/local/bin/psl_introns", "psl_splicesites": "/usr/local/bin/psl_splicesites", "sam_sort": "/usr/local/bin/sam_sort", "sc-counts": "/usr/local/bin/sc-counts", "snpindex": "/usr/local/bin/snpindex", "trindex": "/usr/local/bin/trindex", "vcf_iit": "/usr/local/bin/vcf_iit", "velocity-counts": "/usr/local/bin/velocity-counts", "gmap": "/usr/local/bin/gmap", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anchorwave.
@@ -87,7 +88,7 @@ $ shpc install quay.io/biocontainers/anchorwave
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anchorwave:1.2.1--hd03093a_0
+$ shpc install quay.io/biocontainers/anchorwave:1.2.1--hdcf5f25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -99,8 +100,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anchorwave/1.2.1--hd03093a_0
-$ module help quay.io/biocontainers/anchorwave/1.2.1--hd03093a_0
+$ module load quay.io/biocontainers/anchorwave/1.2.1--hdcf5f25_1
+$ module help quay.io/biocontainers/anchorwave/1.2.1--hdcf5f25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

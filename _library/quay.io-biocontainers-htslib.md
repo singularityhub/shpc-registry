@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/htslib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htslib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htslib/container.yaml"
-updated_at: "2023-06-11 03:29:30.996919"
-latest: "1.17--h6bc39ce_0"
+updated_at: "2023-06-12 03:22:42.540278"
+latest: "1.17--h6bc39ce_1"
 container_url: "https://biocontainers.pro/tools/htslib"
 aliases:
  - "htsfile"
@@ -19,8 +19,9 @@ versions:
  - "1.13--h9093b5e_0"
  - "1.12--h9093b5e_1"
  - "1.17--h6bc39ce_0"
+ - "1.17--h6bc39ce_1"
 description: "shpc-registry automated BioContainers addition for htslib"
-config: {"url": "https://biocontainers.pro/tools/htslib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htslib", "latest": {"1.17--h6bc39ce_0": "sha256:d6ef41ea2628e9be0e011da30c58c88688e3696647f386dddee505d6f88b09ac"}, "tags": {"1.9--h244ad75_9": "sha256:fb71016f0da0e0eca1f1bfa6f2c6519edfbd1f34e99146cdb21848730c2424e6", "1.16--h6bc39ce_0": "sha256:bf2eee651d4d046236342539b79cb508088426e554dcf121e2df0eb6c8b39538", "1.15.1--h6bc39ce_1": "sha256:673c2abd7b6cb2e53e3df0e8dcbb46f4de87bb858150bcac6efc2bf3f34214e5", "1.14--h9753748_2": "sha256:f0a033ee9eb770a32062b44ab6fe5406376f002796d3c1ab037889eec0e435ed", "1.13--h9093b5e_0": "sha256:393c9fa17a41923bc362195ede93316bf0bb1c7ab0c68a62bfb80826e08950ad", "1.12--h9093b5e_1": "sha256:f1966b161b274bfffaad728f76072d4e243866204aef3b913519231f28d6ba56", "1.17--h6bc39ce_0": "sha256:d6ef41ea2628e9be0e011da30c58c88688e3696647f386dddee505d6f88b09ac"}, "docker": "quay.io/biocontainers/htslib", "aliases": {"htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/htslib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htslib", "latest": {"1.17--h6bc39ce_1": "sha256:4186ec57b8f92ad5d87d5992553985703f70f941def0967138a001dc6ee94d15"}, "tags": {"1.9--h244ad75_9": "sha256:fb71016f0da0e0eca1f1bfa6f2c6519edfbd1f34e99146cdb21848730c2424e6", "1.16--h6bc39ce_0": "sha256:bf2eee651d4d046236342539b79cb508088426e554dcf121e2df0eb6c8b39538", "1.15.1--h6bc39ce_1": "sha256:673c2abd7b6cb2e53e3df0e8dcbb46f4de87bb858150bcac6efc2bf3f34214e5", "1.14--h9753748_2": "sha256:f0a033ee9eb770a32062b44ab6fe5406376f002796d3c1ab037889eec0e435ed", "1.13--h9093b5e_0": "sha256:393c9fa17a41923bc362195ede93316bf0bb1c7ab0c68a62bfb80826e08950ad", "1.12--h9093b5e_1": "sha256:f1966b161b274bfffaad728f76072d4e243866204aef3b913519231f28d6ba56", "1.17--h6bc39ce_0": "sha256:d6ef41ea2628e9be0e011da30c58c88688e3696647f386dddee505d6f88b09ac", "1.17--h6bc39ce_1": "sha256:4186ec57b8f92ad5d87d5992553985703f70f941def0967138a001dc6ee94d15"}, "docker": "quay.io/biocontainers/htslib", "aliases": {"htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/htslib.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/htslib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/htslib:1.17--h6bc39ce_0
+$ shpc install quay.io/biocontainers/htslib:1.17--h6bc39ce_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/htslib/1.17--h6bc39ce_0
-$ module help quay.io/biocontainers/htslib/1.17--h6bc39ce_0
+$ module load quay.io/biocontainers/htslib/1.17--h6bc39ce_1
+$ module help quay.io/biocontainers/htslib/1.17--h6bc39ce_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

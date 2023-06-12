@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mlrho"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlrho/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlrho/container.yaml"
-updated_at: "2023-06-11 03:45:02.292927"
-latest: "2.9--hde3ca97_7"
+updated_at: "2023-06-12 03:38:52.974333"
+latest: "2.9--h95f4acd_8"
 container_url: "https://biocontainers.pro/tools/mlrho"
 aliases:
  - "mlRho"
 versions:
  - "2.9--hde3ca97_6"
  - "2.9--hde3ca97_7"
+ - "2.9--h95f4acd_8"
 description: "shpc-registry automated BioContainers addition for mlrho"
-config: {"url": "https://biocontainers.pro/tools/mlrho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mlrho", "latest": {"2.9--hde3ca97_7": "sha256:5a0512e8bc8bf04201c15190ef8ee9e4710498e2dc56eb9b20225c6cd6d3d5aa"}, "tags": {"2.9--hde3ca97_6": "sha256:940a6a493ecca35cd3a585f2f62faf465193f054311183146c30de13327b1cae", "2.9--hde3ca97_7": "sha256:5a0512e8bc8bf04201c15190ef8ee9e4710498e2dc56eb9b20225c6cd6d3d5aa"}, "docker": "quay.io/biocontainers/mlrho", "aliases": {"mlRho": "/usr/local/bin/mlRho"}}
+config: {"url": "https://biocontainers.pro/tools/mlrho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mlrho", "latest": {"2.9--h95f4acd_8": "sha256:86771317af267aa38998e057135db0dbe7d31f8cc32162bb0e63571052523e71"}, "tags": {"2.9--hde3ca97_6": "sha256:940a6a493ecca35cd3a585f2f62faf465193f054311183146c30de13327b1cae", "2.9--hde3ca97_7": "sha256:f88f61d4152a07fa3a69e31db3702233c3fcdb61f59307382e063300c9248bc0", "2.9--h95f4acd_8": "sha256:86771317af267aa38998e057135db0dbe7d31f8cc32162bb0e63571052523e71"}, "docker": "quay.io/biocontainers/mlrho", "aliases": {"mlRho": "/usr/local/bin/mlRho"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mlrho.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mlrho
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mlrho:2.9--hde3ca97_7
+$ shpc install quay.io/biocontainers/mlrho:2.9--h95f4acd_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mlrho/2.9--hde3ca97_7
-$ module help quay.io/biocontainers/mlrho/2.9--hde3ca97_7
+$ module load quay.io/biocontainers/mlrho/2.9--h95f4acd_8
+$ module help quay.io/biocontainers/mlrho/2.9--h95f4acd_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

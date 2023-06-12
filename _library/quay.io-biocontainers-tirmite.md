@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tirmite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tirmite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tirmite/container.yaml"
-updated_at: "2023-06-11 03:43:36.065935"
+updated_at: "2023-06-12 03:37:22.817660"
 latest: "1.1.4--py_0"
 container_url: "https://biocontainers.pro/tools/tirmite"
 aliases:

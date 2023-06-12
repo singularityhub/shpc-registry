@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/drprg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drprg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drprg/container.yaml"
-updated_at: "2023-06-11 03:18:52.066511"
-latest: "0.1.1--h1f4ba0c_0"
+updated_at: "2023-06-12 03:11:40.822117"
+latest: "0.1.1--h5076881_1"
 container_url: "https://biocontainers.pro/tools/drprg"
 aliases:
  - "drprg"
@@ -38,8 +38,9 @@ aliases:
  - "run-roh.pl"
 versions:
  - "0.1.1--h1f4ba0c_0"
+ - "0.1.1--h5076881_1"
 description: "singularity registry hpc automated addition for drprg"
-config: {"url": "https://biocontainers.pro/tools/drprg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drprg", "latest": {"0.1.1--h1f4ba0c_0": "sha256:78e5ae97a6661f5da1eb61090518f8fc01455f91b3541e8fd0d856e29d74f950"}, "tags": {"0.1.1--h1f4ba0c_0": "sha256:78e5ae97a6661f5da1eb61090518f8fc01455f91b3541e8fd0d856e29d74f950"}, "docker": "quay.io/biocontainers/drprg", "aliases": {"drprg": "/usr/local/bin/drprg", "make_prg": "/usr/local/bin/make_prg", "pandora": "/usr/local/bin/pandora", "gff2gff.py": "/usr/local/bin/gff2gff.py", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
+config: {"url": "https://biocontainers.pro/tools/drprg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drprg", "latest": {"0.1.1--h5076881_1": "sha256:908e10aa922f4baea18cc31ef4879e552bbdaacf8266833b8e175e4e766363e1"}, "tags": {"0.1.1--h1f4ba0c_0": "sha256:78e5ae97a6661f5da1eb61090518f8fc01455f91b3541e8fd0d856e29d74f950", "0.1.1--h5076881_1": "sha256:908e10aa922f4baea18cc31ef4879e552bbdaacf8266833b8e175e4e766363e1"}, "docker": "quay.io/biocontainers/drprg", "aliases": {"drprg": "/usr/local/bin/drprg", "make_prg": "/usr/local/bin/make_prg", "pandora": "/usr/local/bin/pandora", "gff2gff.py": "/usr/local/bin/gff2gff.py", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drprg.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/drprg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/drprg:0.1.1--h1f4ba0c_0
+$ shpc install quay.io/biocontainers/drprg:0.1.1--h5076881_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/drprg/0.1.1--h1f4ba0c_0
-$ module help quay.io/biocontainers/drprg/0.1.1--h1f4ba0c_0
+$ module load quay.io/biocontainers/drprg/0.1.1--h5076881_1
+$ module help quay.io/biocontainers/drprg/0.1.1--h5076881_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/angsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/angsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/angsd/container.yaml"
-updated_at: "2023-06-11 03:32:54.095332"
+updated_at: "2023-06-12 03:26:14.392361"
 latest: "0.940--hce60e53_2"
 container_url: "https://biocontainers.pro/tools/angsd"
 aliases:

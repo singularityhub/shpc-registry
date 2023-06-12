@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/guide-counter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/guide-counter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/guide-counter/container.yaml"
-updated_at: "2023-06-11 03:06:05.640940"
-latest: "0.1.3--h87f3376_1"
+updated_at: "2023-06-12 02:58:28.250523"
+latest: "0.1.3--hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/guide-counter"
 aliases:
  - "guide-counter"
 versions:
  - "0.1.3--h87f3376_1"
+ - "0.1.3--hdbdd923_3"
 description: "singularity registry hpc automated addition for guide-counter"
-config: {"url": "https://biocontainers.pro/tools/guide-counter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for guide-counter", "latest": {"0.1.3--h87f3376_1": "sha256:e35be03a49a9317b76cec69dd2dce458e8641f942786ba12d2b98f5938ebeb83"}, "tags": {"0.1.3--h87f3376_1": "sha256:e35be03a49a9317b76cec69dd2dce458e8641f942786ba12d2b98f5938ebeb83"}, "docker": "quay.io/biocontainers/guide-counter", "aliases": {"guide-counter": "/usr/local/bin/guide-counter"}}
+config: {"url": "https://biocontainers.pro/tools/guide-counter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for guide-counter", "latest": {"0.1.3--hdbdd923_3": "sha256:3732663b4b3e6c69fdbcfb99be623a3ff8f26ab36daa12344cc5261e6b6b2f10"}, "tags": {"0.1.3--h87f3376_1": "sha256:e35be03a49a9317b76cec69dd2dce458e8641f942786ba12d2b98f5938ebeb83", "0.1.3--hdbdd923_3": "sha256:3732663b4b3e6c69fdbcfb99be623a3ff8f26ab36daa12344cc5261e6b6b2f10"}, "docker": "quay.io/biocontainers/guide-counter", "aliases": {"guide-counter": "/usr/local/bin/guide-counter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/guide-counter.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/guide-counter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/guide-counter:0.1.3--h87f3376_1
+$ shpc install quay.io/biocontainers/guide-counter:0.1.3--hdbdd923_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/guide-counter/0.1.3--h87f3376_1
-$ module help quay.io/biocontainers/guide-counter/0.1.3--h87f3376_1
+$ module load quay.io/biocontainers/guide-counter/0.1.3--hdbdd923_3
+$ module help quay.io/biocontainers/guide-counter/0.1.3--hdbdd923_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

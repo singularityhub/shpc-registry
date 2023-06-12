@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnablueprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnablueprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnablueprint/container.yaml"
-updated_at: "2023-06-11 03:25:03.240401"
-latest: "1.3.2--pl5321hfe0f59a_5"
+updated_at: "2023-06-12 03:18:05.360723"
+latest: "1.3.2--pl5321h820c706_6"
 container_url: "https://biocontainers.pro/tools/rnablueprint"
 aliases:
  - "RNAblueprint"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.3.2--pl5321hfe0f59a_4"
  - "1.3.2--pl5321hfe0f59a_5"
+ - "1.3.2--pl5321h820c706_6"
 description: "shpc-registry automated BioContainers addition for rnablueprint"
-config: {"url": "https://biocontainers.pro/tools/rnablueprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnablueprint", "latest": {"1.3.2--pl5321hfe0f59a_5": "sha256:ff0cac1439807bc2c505fee50b34eee60eadc4a2c4722bedb0fcb4d6282a92f1"}, "tags": {"1.3.2--pl5321hfe0f59a_4": "sha256:65508ec8d7339babb19298d60bf59fb690f5c9bc345ae499c76ecddae9dc0939", "1.3.2--pl5321hfe0f59a_5": "sha256:ff0cac1439807bc2c505fee50b34eee60eadc4a2c4722bedb0fcb4d6282a92f1"}, "docker": "quay.io/biocontainers/rnablueprint", "aliases": {"RNAblueprint": "/usr/local/bin/RNAblueprint", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/rnablueprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnablueprint", "latest": {"1.3.2--pl5321h820c706_6": "sha256:f499702f9fc48f8d5369cb3f76738de233f5fc779572f92bb6bc34a115df6360"}, "tags": {"1.3.2--pl5321hfe0f59a_4": "sha256:65508ec8d7339babb19298d60bf59fb690f5c9bc345ae499c76ecddae9dc0939", "1.3.2--pl5321hfe0f59a_5": "sha256:ff0cac1439807bc2c505fee50b34eee60eadc4a2c4722bedb0fcb4d6282a92f1", "1.3.2--pl5321h820c706_6": "sha256:f499702f9fc48f8d5369cb3f76738de233f5fc779572f92bb6bc34a115df6360"}, "docker": "quay.io/biocontainers/rnablueprint", "aliases": {"RNAblueprint": "/usr/local/bin/RNAblueprint", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnablueprint.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/rnablueprint
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnablueprint:1.3.2--pl5321hfe0f59a_5
+$ shpc install quay.io/biocontainers/rnablueprint:1.3.2--pl5321h820c706_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnablueprint/1.3.2--pl5321hfe0f59a_5
-$ module help quay.io/biocontainers/rnablueprint/1.3.2--pl5321hfe0f59a_5
+$ module load quay.io/biocontainers/rnablueprint/1.3.2--pl5321h820c706_6
+$ module help quay.io/biocontainers/rnablueprint/1.3.2--pl5321h820c706_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

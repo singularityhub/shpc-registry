@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/open-cravat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/open-cravat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/open-cravat/container.yaml"
-updated_at: "2023-06-11 03:05:29.177346"
-latest: "2.3.0--pyh7cba7a3_0"
+updated_at: "2023-06-12 02:57:50.252275"
+latest: "2.3.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/open-cravat"
 aliases:
  - "oc"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.2.9--pyh7cba7a3_0"
  - "2.3.0--pyh7cba7a3_0"
+ - "2.3.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for open-cravat"
-config: {"url": "https://biocontainers.pro/tools/open-cravat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for open-cravat", "latest": {"2.3.0--pyh7cba7a3_0": "sha256:f37a8c968f96f9851ae9a4baeb926ecefd7d757cef309688ff708ebb170bf90f"}, "tags": {"2.2.9--pyh7cba7a3_0": "sha256:8b595553c32f27853b91c2fc9eecdec1c20d107e17d0fc894d2893070b866fa1", "2.3.0--pyh7cba7a3_0": "sha256:f37a8c968f96f9851ae9a4baeb926ecefd7d757cef309688ff708ebb170bf90f"}, "docker": "quay.io/biocontainers/open-cravat", "aliases": {"oc": "/usr/local/bin/oc", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "vba_extract.py": "/usr/local/bin/vba_extract.py", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "markdown_py": "/usr/local/bin/markdown_py", "normalizer": "/usr/local/bin/normalizer", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
+config: {"url": "https://biocontainers.pro/tools/open-cravat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for open-cravat", "latest": {"2.3.1--pyh7cba7a3_0": "sha256:a0f1933ec33c1c609a4e1884b375cce7f869cd7bb55c22d04cc326488298a91c"}, "tags": {"2.2.9--pyh7cba7a3_0": "sha256:8b595553c32f27853b91c2fc9eecdec1c20d107e17d0fc894d2893070b866fa1", "2.3.0--pyh7cba7a3_0": "sha256:f37a8c968f96f9851ae9a4baeb926ecefd7d757cef309688ff708ebb170bf90f", "2.3.1--pyh7cba7a3_0": "sha256:a0f1933ec33c1c609a4e1884b375cce7f869cd7bb55c22d04cc326488298a91c"}, "docker": "quay.io/biocontainers/open-cravat", "aliases": {"oc": "/usr/local/bin/oc", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "vba_extract.py": "/usr/local/bin/vba_extract.py", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "markdown_py": "/usr/local/bin/markdown_py", "normalizer": "/usr/local/bin/normalizer", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/open-cravat.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/open-cravat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/open-cravat:2.3.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/open-cravat:2.3.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/open-cravat/2.3.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/open-cravat/2.3.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/open-cravat/2.3.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/open-cravat/2.3.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

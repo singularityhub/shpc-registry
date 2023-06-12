@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haplocheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplocheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplocheck/container.yaml"
-updated_at: "2023-06-11 03:48:28.581139"
-latest: "1.3.3--h4a94de4_1"
+updated_at: "2023-06-12 03:42:26.627655"
+latest: "1.3.3--h2a3209d_2"
 container_url: "https://biocontainers.pro/tools/haplocheck"
 aliases:
  - "cloudgene.yaml"
@@ -26,8 +26,9 @@ aliases:
 versions:
  - "1.3.3--h4a94de4_0"
  - "1.3.3--h4a94de4_1"
+ - "1.3.3--h2a3209d_2"
 description: "shpc-registry automated BioContainers addition for haplocheck"
-config: {"url": "https://biocontainers.pro/tools/haplocheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haplocheck", "latest": {"1.3.3--h4a94de4_1": "sha256:7b9bfe5941489313e2fcd9d33aca27821702c6667341674055236a44968d2400"}, "tags": {"1.3.3--h4a94de4_0": "sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc", "1.3.3--h4a94de4_1": "sha256:7b9bfe5941489313e2fcd9d33aca27821702c6667341674055236a44968d2400"}, "docker": "quay.io/biocontainers/haplocheck", "aliases": {"cloudgene.yaml": "/usr/local/bin/cloudgene.yaml", "haplocheck": "/usr/local/bin/haplocheck", "haplocheck.jar": "/usr/local/bin/haplocheck.jar", "mutserve.jar": "/usr/local/bin/mutserve.jar", "rCRS.fasta": "/usr/local/bin/rCRS.fasta", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/haplocheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haplocheck", "latest": {"1.3.3--h2a3209d_2": "sha256:1d4e006a69dab62cc0304509be83cc8c11f932cbf6a88fe4aacbb072e8eebacd"}, "tags": {"1.3.3--h4a94de4_0": "sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc", "1.3.3--h4a94de4_1": "sha256:7b9bfe5941489313e2fcd9d33aca27821702c6667341674055236a44968d2400", "1.3.3--h2a3209d_2": "sha256:1d4e006a69dab62cc0304509be83cc8c11f932cbf6a88fe4aacbb072e8eebacd"}, "docker": "quay.io/biocontainers/haplocheck", "aliases": {"cloudgene.yaml": "/usr/local/bin/cloudgene.yaml", "haplocheck": "/usr/local/bin/haplocheck", "haplocheck.jar": "/usr/local/bin/haplocheck.jar", "mutserve.jar": "/usr/local/bin/mutserve.jar", "rCRS.fasta": "/usr/local/bin/rCRS.fasta", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haplocheck.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/haplocheck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haplocheck:1.3.3--h4a94de4_1
+$ shpc install quay.io/biocontainers/haplocheck:1.3.3--h2a3209d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haplocheck/1.3.3--h4a94de4_1
-$ module help quay.io/biocontainers/haplocheck/1.3.3--h4a94de4_1
+$ module load quay.io/biocontainers/haplocheck/1.3.3--h2a3209d_2
+$ module help quay.io/biocontainers/haplocheck/1.3.3--h2a3209d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

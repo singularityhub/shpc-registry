@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trinculo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trinculo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trinculo/container.yaml"
-updated_at: "2023-06-11 03:38:12.946875"
+updated_at: "2023-06-12 03:31:46.004279"
 latest: "0.96--h2b92225_7"
 container_url: "https://biocontainers.pro/tools/trinculo"
 aliases:

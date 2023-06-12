@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/omega-h"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/omega-h/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/omega-h/container.yaml"
-updated_at: "2023-06-11 03:02:41.789720"
+updated_at: "2023-06-12 02:54:58.586361"
 latest: "9.34.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/omega-h"
 

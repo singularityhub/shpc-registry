@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taeper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taeper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taeper/container.yaml"
-updated_at: "2023-06-11 03:49:45.628807"
+updated_at: "2023-06-12 03:43:46.104260"
 latest: "0.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/taeper"
 aliases:

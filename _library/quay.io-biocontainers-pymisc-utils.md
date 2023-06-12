@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymisc-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymisc-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymisc-utils/container.yaml"
-updated_at: "2023-06-11 03:31:31.008330"
+updated_at: "2023-06-12 03:24:47.969925"
 latest: "0.2.11--pyh7cba7a3_6"
 container_url: "https://biocontainers.pro/tools/pymisc-utils"
 aliases:

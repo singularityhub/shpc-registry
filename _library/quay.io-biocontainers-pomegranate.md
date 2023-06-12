@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pomegranate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pomegranate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pomegranate/container.yaml"
-updated_at: "2023-06-11 03:30:46.030333"
+updated_at: "2023-06-12 03:24:01.162015"
 latest: "0.3.7--py36_2"
 container_url: "https://biocontainers.pro/tools/pomegranate"
 aliases:

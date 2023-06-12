@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ldblock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ldblock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ldblock/container.yaml"
-updated_at: "2023-06-11 03:25:56.163545"
+updated_at: "2023-06-12 03:19:00.203414"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ldblock"
 

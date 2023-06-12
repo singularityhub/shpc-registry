@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/contammix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contammix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contammix/container.yaml"
-updated_at: "2023-06-11 03:15:31.155681"
+updated_at: "2023-06-12 03:08:12.275916"
 latest: "1.0.11--r42h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/contammix"
 aliases:

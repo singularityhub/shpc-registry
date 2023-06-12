@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/web.py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/web.py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/web.py/container.yaml"
-updated_at: "2023-06-11 03:12:26.690563"
+updated_at: "2023-06-12 03:05:01.393077"
 latest: "0.37--py27_1"
 container_url: "https://biocontainers.pro/tools/web.py"
 aliases:

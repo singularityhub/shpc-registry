@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/gsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsearch/container.yaml"
-updated_at: "2023-06-11 03:11:18.067218"
-latest: "0.0.12--h87f3376_0"
+updated_at: "2023-06-12 03:03:50.353480"
+latest: "0.1.2--h43eeafb_6"
 container_url: "https://biocontainers.pro/tools/gsearch"
 aliases:
  - "request"
  - "tohnsw"
 versions:
  - "0.0.12--h87f3376_0"
+ - "0.1.2--h43eeafb_6"
 description: "singularity registry hpc automated addition for gsearch"
-config: {"url": "https://biocontainers.pro/tools/gsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsearch", "latest": {"0.0.12--h87f3376_0": "sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43"}, "tags": {"0.0.12--h87f3376_0": "sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43"}, "docker": "quay.io/biocontainers/gsearch", "aliases": {"request": "/usr/local/bin/request", "tohnsw": "/usr/local/bin/tohnsw"}}
+config: {"url": "https://biocontainers.pro/tools/gsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsearch", "latest": {"0.1.2--h43eeafb_6": "sha256:dd9e7d11197dc1519906f745c7bd520c9d3302832113eab879deba0a3ae553fd"}, "tags": {"0.0.12--h87f3376_0": "sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43", "0.1.2--h43eeafb_6": "sha256:dd9e7d11197dc1519906f745c7bd520c9d3302832113eab879deba0a3ae553fd"}, "docker": "quay.io/biocontainers/gsearch", "aliases": {"request": "/usr/local/bin/request", "tohnsw": "/usr/local/bin/tohnsw"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gsearch.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/gsearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gsearch:0.0.12--h87f3376_0
+$ shpc install quay.io/biocontainers/gsearch:0.1.2--h43eeafb_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gsearch/0.0.12--h87f3376_0
-$ module help quay.io/biocontainers/gsearch/0.0.12--h87f3376_0
+$ module load quay.io/biocontainers/gsearch/0.1.2--h43eeafb_6
+$ module help quay.io/biocontainers/gsearch/0.1.2--h43eeafb_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

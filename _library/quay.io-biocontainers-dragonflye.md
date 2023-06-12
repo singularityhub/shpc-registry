@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dragonflye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dragonflye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dragonflye/container.yaml"
-updated_at: "2023-06-11 03:12:30.013216"
-latest: "1.1.0--hdfd78af_0"
+updated_at: "2023-06-12 03:05:04.832053"
+latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dragonflye"
 aliases:
  - "assembly-scan"
@@ -50,8 +50,9 @@ versions:
  - "1.0.13--hdfd78af_0"
  - "1.0.14--hdfd78af_0"
  - "1.1.0--hdfd78af_0"
+ - "1.1.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dragonflye"
-config: {"url": "https://biocontainers.pro/tools/dragonflye", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dragonflye", "latest": {"1.1.0--hdfd78af_0": "sha256:d698e110c4590c10d9dc21c955dfad00d4a1a5c55242394ea439f8f5821fa04b"}, "tags": {"1.0.9--hdfd78af_0": "sha256:3ee956287ddd0abcc4db884b12cbdec1c1233de50304468e6677c8d0b28659aa", "1.0.13--hdfd78af_0": "sha256:ccd80cb057e8003ae7ddbbf9c00189ccded4b30ad7b57980e2c9abcf96ad7fd6", "1.0.14--hdfd78af_0": "sha256:c04524b05166dd1587b4bda1bc11e9479c23a223f77bc467501157efea21fe09", "1.1.0--hdfd78af_0": "sha256:d698e110c4590c10d9dc21c955dfad00d4a1a5c55242394ea439f8f5821fa04b"}, "docker": "quay.io/biocontainers/dragonflye", "aliases": {"assembly-scan": "/usr/local/bin/assembly-scan", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "dragonflye": "/usr/local/bin/dragonflye", "fast5_subset": "/usr/local/bin/fast5_subset", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "hdf2tf.py": "/usr/local/bin/hdf2tf.py", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "nanoq": "/usr/local/bin/nanoq", "porechop": "/usr/local/bin/porechop", "rasusa": "/usr/local/bin/rasusa", "raven": "/usr/local/bin/raven", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "whatshap": "/usr/local/bin/whatshap", "fastp": "/usr/local/bin/fastp", "pilon": "/usr/local/bin/pilon", "minimap2.py": "/usr/local/bin/minimap2.py", "samclip": "/usr/local/bin/samclip", "any2fasta": "/usr/local/bin/any2fasta", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler"}}
+config: {"url": "https://biocontainers.pro/tools/dragonflye", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dragonflye", "latest": {"1.1.1--hdfd78af_0": "sha256:169cb709b4bde4d7e06192bbab466d77e987b92aa2ccc59cdb8eb2dbe2b6ed86"}, "tags": {"1.0.9--hdfd78af_0": "sha256:3ee956287ddd0abcc4db884b12cbdec1c1233de50304468e6677c8d0b28659aa", "1.0.13--hdfd78af_0": "sha256:ccd80cb057e8003ae7ddbbf9c00189ccded4b30ad7b57980e2c9abcf96ad7fd6", "1.0.14--hdfd78af_0": "sha256:c04524b05166dd1587b4bda1bc11e9479c23a223f77bc467501157efea21fe09", "1.1.0--hdfd78af_0": "sha256:d698e110c4590c10d9dc21c955dfad00d4a1a5c55242394ea439f8f5821fa04b", "1.1.1--hdfd78af_0": "sha256:169cb709b4bde4d7e06192bbab466d77e987b92aa2ccc59cdb8eb2dbe2b6ed86"}, "docker": "quay.io/biocontainers/dragonflye", "aliases": {"assembly-scan": "/usr/local/bin/assembly-scan", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "dragonflye": "/usr/local/bin/dragonflye", "fast5_subset": "/usr/local/bin/fast5_subset", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "hdf2tf.py": "/usr/local/bin/hdf2tf.py", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "nanoq": "/usr/local/bin/nanoq", "porechop": "/usr/local/bin/porechop", "rasusa": "/usr/local/bin/rasusa", "raven": "/usr/local/bin/raven", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "whatshap": "/usr/local/bin/whatshap", "fastp": "/usr/local/bin/fastp", "pilon": "/usr/local/bin/pilon", "minimap2.py": "/usr/local/bin/minimap2.py", "samclip": "/usr/local/bin/samclip", "any2fasta": "/usr/local/bin/any2fasta", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dragonflye.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/dragonflye
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dragonflye:1.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/dragonflye:1.1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dragonflye/1.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/dragonflye/1.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/dragonflye/1.1.1--hdfd78af_0
+$ module help quay.io/biocontainers/dragonflye/1.1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

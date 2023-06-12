@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/express"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/express/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/express/container.yaml"
-updated_at: "2023-06-11 03:15:45.958853"
-latest: "1.5.1--h9f5acd7_4"
+updated_at: "2023-06-12 03:08:27.264513"
+latest: "1.5.1--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/express"
 aliases:
  - "express"
 versions:
  - "1.5.1--h9f5acd7_4"
+ - "1.5.1--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for express"
-config: {"url": "https://biocontainers.pro/tools/express", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for express", "latest": {"1.5.1--h9f5acd7_4": "sha256:47689fffe3e46a7195ad0d4784732e37840f78d23f1d10b86c99d4edc68a15a6"}, "tags": {"1.5.1--h9f5acd7_4": "sha256:47689fffe3e46a7195ad0d4784732e37840f78d23f1d10b86c99d4edc68a15a6"}, "docker": "quay.io/biocontainers/express", "aliases": {"express": "/usr/local/bin/express"}}
+config: {"url": "https://biocontainers.pro/tools/express", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for express", "latest": {"1.5.1--h4ac6f70_5": "sha256:46117ecce1459271890c1095a8bea2293abd8ed0cbd44f9d8e981e6bdd6a0dd8"}, "tags": {"1.5.1--h9f5acd7_4": "sha256:47689fffe3e46a7195ad0d4784732e37840f78d23f1d10b86c99d4edc68a15a6", "1.5.1--h4ac6f70_5": "sha256:46117ecce1459271890c1095a8bea2293abd8ed0cbd44f9d8e981e6bdd6a0dd8"}, "docker": "quay.io/biocontainers/express", "aliases": {"express": "/usr/local/bin/express"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/express.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/express
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/express:1.5.1--h9f5acd7_4
+$ shpc install quay.io/biocontainers/express:1.5.1--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/express/1.5.1--h9f5acd7_4
-$ module help quay.io/biocontainers/express/1.5.1--h9f5acd7_4
+$ module load quay.io/biocontainers/express/1.5.1--h4ac6f70_5
+$ module help quay.io/biocontainers/express/1.5.1--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

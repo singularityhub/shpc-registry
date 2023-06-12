@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bwapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwapy/container.yaml"
-updated_at: "2023-06-11 03:47:58.112429"
-latest: "0.1.4--py38h4c6a040_4"
+updated_at: "2023-06-12 03:41:55.193745"
+latest: "0.1.4--py38h7cf9df2_7"
 container_url: "https://biocontainers.pro/tools/bwapy"
 aliases:
  - "bwamempy"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.1.4--py38h4c6a040_4"
+ - "0.1.4--py38h7cf9df2_7"
 description: "shpc-registry automated BioContainers addition for bwapy"
-config: {"url": "https://biocontainers.pro/tools/bwapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwapy", "latest": {"0.1.4--py38h4c6a040_4": "sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e"}, "tags": {"0.1.4--py38h4c6a040_4": "sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e"}, "docker": "quay.io/biocontainers/bwapy", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bwapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwapy", "latest": {"0.1.4--py38h7cf9df2_7": "sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256"}, "tags": {"0.1.4--py38h4c6a040_4": "sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e", "0.1.4--py38h7cf9df2_7": "sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256"}, "docker": "quay.io/biocontainers/bwapy", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwapy.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bwapy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwapy:0.1.4--py38h4c6a040_4
+$ shpc install quay.io/biocontainers/bwapy:0.1.4--py38h7cf9df2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwapy/0.1.4--py38h4c6a040_4
-$ module help quay.io/biocontainers/bwapy/0.1.4--py38h4c6a040_4
+$ module load quay.io/biocontainers/bwapy/0.1.4--py38h7cf9df2_7
+$ module help quay.io/biocontainers/bwapy/0.1.4--py38h7cf9df2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

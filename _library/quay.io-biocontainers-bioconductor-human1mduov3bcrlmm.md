@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-human1mduov3bcrlmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-human1mduov3bcrlmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-human1mduov3bcrlmm/container.yaml"
-updated_at: "2023-06-11 03:45:41.056783"
+updated_at: "2023-06-12 03:39:33.559937"
 latest: "1.0.4--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-human1mduov3bcrlmm"
 
