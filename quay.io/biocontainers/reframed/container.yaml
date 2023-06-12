@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/reframed
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for reframed
+latest:
+  1.4.0--pyhdfd78af_0: sha256:58695701f85c98f0ebc3e8acd79a049dae787ad27a760b62f884f71ec82c0fe7
+tags:
+  1.4.0--pyhdfd78af_0: sha256:58695701f85c98f0ebc3e8acd79a049dae787ad27a760b62f884f71ec82c0fe7
+docker: quay.io/biocontainers/reframed
+aliases:
+  isympy: /usr/local/bin/isympy
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1
