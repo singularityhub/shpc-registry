@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/safesim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/safesim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/safesim/container.yaml"
-updated_at: "2023-06-12 03:03:11.389246"
+updated_at: "2023-06-12 04:31:01.749147"
 latest: "0.1.6.8d44580--h784672f_2"
 container_url: "https://biocontainers.pro/tools/safesim"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-veloviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-veloviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-veloviz/container.yaml"
-updated_at: "2023-06-12 03:03:50.661993"
+updated_at: "2023-06-12 04:31:52.292418"
 latest: "1.4.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-veloviz"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clsify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clsify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clsify/container.yaml"
-updated_at: "2023-06-12 03:24:26.568416"
+updated_at: "2023-06-12 05:00:10.365039"
 latest: "0.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/clsify"
 aliases:

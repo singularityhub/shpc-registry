@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plotcritic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotcritic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plotcritic/container.yaml"
-updated_at: "2023-06-12 03:37:28.821254"
+updated_at: "2023-06-12 05:17:00.143533"
 latest: "1.0.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/plotcritic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/constax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/constax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/constax/container.yaml"
-updated_at: "2023-06-12 03:41:09.569402"
+updated_at: "2023-06-12 05:21:41.447778"
 latest: "2.0.19--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/constax"
 aliases:
