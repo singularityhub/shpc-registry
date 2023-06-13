@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ebarrays
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ebarrays
 latest:
-  2.62.0--r42hc0cfd56_0: sha256:658fb16ff8cb1ff517fa70a6919e787e8410ecf09ed3fb6decfbf7afe8fe22db
+  2.62.0--r42ha9d7317_1: sha256:82dd6d99e868fdf040170fae1e92ce7d88f4fe276fb0839e41929ac0fd5f6091
 tags:
   2.58.0--r41hc0cfd56_2: sha256:33b1d46cbff32e9aa14d918ab97b366f58da70739d16c60997a871226ac6dcfa
   2.62.0--r42hc0cfd56_0: sha256:658fb16ff8cb1ff517fa70a6919e787e8410ecf09ed3fb6decfbf7afe8fe22db
+  2.62.0--r42ha9d7317_1: sha256:82dd6d99e868fdf040170fae1e92ce7d88f4fe276fb0839e41929ac0fd5f6091
 docker: quay.io/biocontainers/bioconductor-ebarrays

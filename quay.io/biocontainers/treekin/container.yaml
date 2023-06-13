@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/treekin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treekin
 latest:
-  0.5.1--hc6f38ce_3: sha256:cbccc9ce38c3cfd6de133631df629f51797d709a3d877a0f4bebc7612e475738
+  0.5.1--hf3d7b6d_4: sha256:d13a42f26ce0f23bfc8beb3caa65297a3aaf0cb786b5fa8811067f6022172e34
 tags:
   0.5.1--hc6f38ce_2: sha256:98a3ac9e950a5636288d1cf83bb1e331cc9336d8e8336a479936e094843ac865
-  0.5.1--hc6f38ce_3: sha256:cbccc9ce38c3cfd6de133631df629f51797d709a3d877a0f4bebc7612e475738
+  0.5.1--hc6f38ce_3: sha256:3f2010a154d6c9031960378fe2c01dca0341038c57d41056be55328d162e5aab
+  0.5.1--hf3d7b6d_4: sha256:d13a42f26ce0f23bfc8beb3caa65297a3aaf0cb786b5fa8811067f6022172e34
 docker: quay.io/biocontainers/treekin
 aliases:
   qd-config: /usr/local/bin/qd-config

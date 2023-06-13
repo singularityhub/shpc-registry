@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mosaicatcher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mosaicatcher
 latest:
-  0.3.1--h66ab1b6_2: sha256:249f4ec44e4bef980fef9d67218ea0511f2e565a6c2c788fc0a8a9905c30a5ad
+  0.3.1--h5642b88_3: sha256:f35e3def9960e98fc7a3f0fd07b285cd38f098cc841e5f80d5af8aeedbf7b3ce
 tags:
   0.3.1--hefd527f_1: sha256:4c02db963230108b295b36c2cb220cf8b17336c4ae803aeb91c0a33109046f51
   0.3.1--h66ab1b6_2: sha256:249f4ec44e4bef980fef9d67218ea0511f2e565a6c2c788fc0a8a9905c30a5ad
+  0.3.1--h5642b88_3: sha256:f35e3def9960e98fc7a3f0fd07b285cd38f098cc841e5f80d5af8aeedbf7b3ce
 docker: quay.io/biocontainers/mosaicatcher
 aliases:
   mosaicatcher: /usr/local/bin/mosaicatcher

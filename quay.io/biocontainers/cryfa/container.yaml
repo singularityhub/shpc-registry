@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cryfa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cryfa
 latest:
-  20.04--h9f5acd7_1: sha256:b35791684e15295a3e7f3854ac637ff722c1a1724fd2268e821c332e1bd541ee
+  20.04--h4ac6f70_2: sha256:041708c397f34e61cd008bc6a44628601e4fe0f1b8672cf32f4a648eaad3473b
 tags:
   20.04--h9f5acd7_0: sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20
   20.04--h9f5acd7_1: sha256:b35791684e15295a3e7f3854ac637ff722c1a1724fd2268e821c332e1bd541ee
+  20.04--h4ac6f70_2: sha256:041708c397f34e61cd008bc6a44628601e4fe0f1b8672cf32f4a648eaad3473b
 docker: quay.io/biocontainers/cryfa
 aliases:
   cryfa: /usr/local/bin/cryfa

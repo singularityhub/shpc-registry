@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/predicthaplo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for predicthaplo
 latest:
-  2.1.4--h9b88814_4: sha256:8790ff4b7a48bb6ec9400abef6fee0ad686b9c1223ffbcfa308050d42bc2b20d
+  2.1.4--h9b88814_5: sha256:5a9889594b9274038d5cc759389aa77eeb18ee8ff9d0f9277b71cfd4ee7abb9f
 tags:
   2.1.4--h9b88814_3: sha256:89587c8e93a7f2c0035787d80ae508f83c8b77215a1f34f515502a038a69e8e7
   2.1.4--h9b88814_4: sha256:8790ff4b7a48bb6ec9400abef6fee0ad686b9c1223ffbcfa308050d42bc2b20d
+  2.1.4--h9b88814_5: sha256:5a9889594b9274038d5cc759389aa77eeb18ee8ff9d0f9277b71cfd4ee7abb9f
 docker: quay.io/biocontainers/predicthaplo
 aliases:
   predicthaplo: /usr/local/bin/predicthaplo

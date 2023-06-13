@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/transrate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for transrate
 latest:
-  1.0.3--hec16e2b_4: sha256:8fd9c3da3fbd9f405b2ac878a5565fbc2d14b50ae6229f76e98e379ea6f1d003
+  1.0.3--h031d066_5: sha256:58efe0f18a1b729d1ad88b105281fe6347f4bce5c4073cf3a8b3862961eb8ee3
 tags:
   1.0.3--hec16e2b_4: sha256:8fd9c3da3fbd9f405b2ac878a5565fbc2d14b50ae6229f76e98e379ea6f1d003
+  1.0.3--h031d066_5: sha256:58efe0f18a1b729d1ad88b105281fe6347f4bce5c4073cf3a8b3862961eb8ee3
 docker: quay.io/biocontainers/transrate

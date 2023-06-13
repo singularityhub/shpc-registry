@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/expressbetadiversity
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for expressbetadiversity
 latest:
-  1.0.10--h9f5acd7_4: sha256:eb4e57f8438c9150145dd462e1eff69ca020b5160840a71d73b1a95035f30837
+  1.0.10--h4ac6f70_5: sha256:2941cd628ac6086841816c12a37b94388d327d055c367e26b765c364c2e844df
 tags:
   1.0.10--h9f5acd7_3: sha256:76a28028846c5b78d430ff2646a91fa980827269c99c22b15fd791eff6c00d90
   1.0.10--h9f5acd7_4: sha256:eb4e57f8438c9150145dd462e1eff69ca020b5160840a71d73b1a95035f30837
+  1.0.10--h4ac6f70_5: sha256:2941cd628ac6086841816c12a37b94388d327d055c367e26b765c364c2e844df
 docker: quay.io/biocontainers/expressbetadiversity
 aliases:
   AbstractPlot.py: /usr/local/bin/AbstractPlot.py

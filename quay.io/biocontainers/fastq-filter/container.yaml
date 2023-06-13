@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fastq-filter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastq-filter
 latest:
-  0.3.0--py39hbf8eff0_0: sha256:d2d32e7beeffebd5b754952cf79e6b19b4e20c7ea6d0a291f3f21bee25f35927
+  0.3.0--py310h4b81fae_1: sha256:98741e292e7ddccba27e4d29acf10f4e6f0599e18179c4481b1cfa43b68151a4
 tags:
   0.3.0--py39hbf8eff0_0: sha256:d2d32e7beeffebd5b754952cf79e6b19b4e20c7ea6d0a291f3f21bee25f35927
+  0.3.0--py310h4b81fae_1: sha256:98741e292e7ddccba27e4d29acf10f4e6f0599e18179c4481b1cfa43b68151a4
 docker: quay.io/biocontainers/fastq-filter
 aliases:
   fastq-filter: /usr/local/bin/fastq-filter

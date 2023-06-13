@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/genrich
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genrich
 latest:
-  0.6.1--h7132678_3: sha256:6808acb0f07c36cfbdb8384bd9124564a522b4b3e66fcbe3fdf0a5eeb844086d
+  0.6.1--he4a0461_4: sha256:a3c00a97bc4eee75ce1481eccbd6977ce9d11ac3153ad31217774ac4cecb8455
 tags:
   0.6.1--h7132678_2: sha256:f6aa2933a4cb8829b7ffa452deffc7a3b79a40f4b04647740d17504a7f86c295
   0.6.1--h7132678_3: sha256:6808acb0f07c36cfbdb8384bd9124564a522b4b3e66fcbe3fdf0a5eeb844086d
+  0.6.1--he4a0461_4: sha256:a3c00a97bc4eee75ce1481eccbd6977ce9d11ac3153ad31217774ac4cecb8455
 docker: quay.io/biocontainers/genrich
 aliases:
   Genrich: /usr/local/bin/Genrich

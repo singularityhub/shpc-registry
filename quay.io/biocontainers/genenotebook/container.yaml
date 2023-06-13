@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/genenotebook
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genenotebook
 latest:
-  0.3.2--h9f5acd7_1: sha256:1c473e5447ab6b7f68af14002412fc5d3a2dc167008705707e31b90b1602fa91
+  0.3.2--h4ac6f70_2: sha256:72dbe5395ab1000b34f9e8fd3f3b4ef35240c104ab49496889886a1e2a756d15
 tags:
   0.3.1--h9f5acd7_1: sha256:a30f10d56d1312fe0385ff04c55967b7073e782d8b38ef204e6b954701b15c41
   0.3.2--h9f5acd7_1: sha256:1c473e5447ab6b7f68af14002412fc5d3a2dc167008705707e31b90b1602fa91
+  0.3.2--h4ac6f70_2: sha256:72dbe5395ab1000b34f9e8fd3f3b4ef35240c104ab49496889886a1e2a756d15
 docker: quay.io/biocontainers/genenotebook
 aliases:
   genenotebook: /usr/local/bin/genenotebook

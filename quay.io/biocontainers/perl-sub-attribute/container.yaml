@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-sub-attribute
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-sub-attribute
 latest:
-  0.07--pl5321hec16e2b_0: sha256:4a2552a18fde26e2c9ef182020ec38fc848d0427954d10f1f3c2983da533f155
+  0.07--pl5321h031d066_1: sha256:b8eea3017173f3f4e7858f4b4e5c810b0f7493c4b5cd96a0c5dc6eaade53cce6
 tags:
   0.07--pl5321hec16e2b_0: sha256:4a2552a18fde26e2c9ef182020ec38fc848d0427954d10f1f3c2983da533f155
+  0.07--pl5321h031d066_1: sha256:b8eea3017173f3f4e7858f4b4e5c810b0f7493c4b5cd96a0c5dc6eaade53cce6
 docker: quay.io/biocontainers/perl-sub-attribute
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

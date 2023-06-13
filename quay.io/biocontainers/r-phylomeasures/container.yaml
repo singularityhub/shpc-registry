@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/r-phylomeasures
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-phylomeasures
 latest:
-  2.1--r42hecf12ef_7: sha256:91568c9c1071573a2621ac9daa64af2af86804fca73b29ad733ea9a443570c07
+  2.1--r42h21a89ab_8: sha256:d42e475f9d4e2f63b92dce5fc1c82571f1d0943d4b48406f52e4f9e27aea06c3
 tags:
   2.1--r41hecf12ef_6: sha256:7d029f2fe087adb567e769721cda436ee9dd1e46d5656975f3e69aaa7abc940b
   2.1--r42hecf12ef_7: sha256:91568c9c1071573a2621ac9daa64af2af86804fca73b29ad733ea9a443570c07
+  2.1--r42h21a89ab_8: sha256:d42e475f9d4e2f63b92dce5fc1c82571f1d0943d4b48406f52e4f9e27aea06c3
 docker: quay.io/biocontainers/r-phylomeasures
