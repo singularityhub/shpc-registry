@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/shustring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shustring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shustring/container.yaml"
-updated_at: "2023-06-12 04:36:45.198000"
-latest: "2.6--hec16e2b_6"
+updated_at: "2023-06-13 02:53:59.521388"
+latest: "2.6--h031d066_7"
 container_url: "https://biocontainers.pro/tools/shustring"
 aliases:
  - "shustring"
 versions:
  - "2.6--hec16e2b_5"
  - "2.6--hec16e2b_6"
+ - "2.6--h031d066_7"
 description: "shpc-registry automated BioContainers addition for shustring"
-config: {"url": "https://biocontainers.pro/tools/shustring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shustring", "latest": {"2.6--hec16e2b_6": "sha256:1cbbb450ad4013bb4edbf8fd4072ec77743e1944d5f06304caad07ae3c6fc36a"}, "tags": {"2.6--hec16e2b_5": "sha256:e7ac14742b0c999542c858d465f40174b88de495888160ba9181e5feae92503a", "2.6--hec16e2b_6": "sha256:1cbbb450ad4013bb4edbf8fd4072ec77743e1944d5f06304caad07ae3c6fc36a"}, "docker": "quay.io/biocontainers/shustring", "aliases": {"shustring": "/usr/local/bin/shustring"}}
+config: {"url": "https://biocontainers.pro/tools/shustring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shustring", "latest": {"2.6--h031d066_7": "sha256:691800dbb1d7d3f5f24f6798cc0518725ba847a268719ce0373912ea70e82ed3"}, "tags": {"2.6--hec16e2b_5": "sha256:e7ac14742b0c999542c858d465f40174b88de495888160ba9181e5feae92503a", "2.6--hec16e2b_6": "sha256:65c8036455f97c684fd7c8d6414f5c204340b1ff1ee471ef386cd3b19cd7c210", "2.6--h031d066_7": "sha256:691800dbb1d7d3f5f24f6798cc0518725ba847a268719ce0373912ea70e82ed3"}, "docker": "quay.io/biocontainers/shustring", "aliases": {"shustring": "/usr/local/bin/shustring"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shustring.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/shustring
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shustring:2.6--hec16e2b_6
+$ shpc install quay.io/biocontainers/shustring:2.6--h031d066_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shustring/2.6--hec16e2b_6
-$ module help quay.io/biocontainers/shustring/2.6--hec16e2b_6
+$ module load quay.io/biocontainers/shustring/2.6--h031d066_7
+$ module help quay.io/biocontainers/shustring/2.6--h031d066_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/gdc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdc/container.yaml"
-updated_at: "2023-06-12 04:30:52.084327"
-latest: "2.0--hd03093a_3"
+updated_at: "2023-06-13 02:49:41.517248"
+latest: "2.0--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/gdc"
 
 versions:
  - "2.0--hd03093a_3"
+ - "2.0--hdcf5f25_5"
 description: "shpc-registry automated BioContainers addition for gdc"
-config: {"url": "https://biocontainers.pro/tools/gdc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdc", "latest": {"2.0--hd03093a_3": "sha256:e64e16a86dfa1cba22d5ec58144a5d8ddbd980fd559d8706f3b0b18b9d029148"}, "tags": {"2.0--hd03093a_3": "sha256:e64e16a86dfa1cba22d5ec58144a5d8ddbd980fd559d8706f3b0b18b9d029148"}, "docker": "quay.io/biocontainers/gdc"}
+config: {"url": "https://biocontainers.pro/tools/gdc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdc", "latest": {"2.0--hdcf5f25_5": "sha256:22ae6ab10b489fa5aa568e28d88b8ce2c8a6684069f7375799083a0eb63dad49"}, "tags": {"2.0--hd03093a_3": "sha256:e64e16a86dfa1cba22d5ec58144a5d8ddbd980fd559d8706f3b0b18b9d029148", "2.0--hdcf5f25_5": "sha256:22ae6ab10b489fa5aa568e28d88b8ce2c8a6684069f7375799083a0eb63dad49"}, "docker": "quay.io/biocontainers/gdc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gdc.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/gdc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gdc:2.0--hd03093a_3
+$ shpc install quay.io/biocontainers/gdc:2.0--hdcf5f25_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gdc/2.0--hd03093a_3
-$ module help quay.io/biocontainers/gdc/2.0--hd03093a_3
+$ module load quay.io/biocontainers/gdc/2.0--hdcf5f25_5
+$ module help quay.io/biocontainers/gdc/2.0--hdcf5f25_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

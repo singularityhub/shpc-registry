@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/tidehunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidehunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidehunter/container.yaml"
-updated_at: "2023-06-12 05:04:44.223337"
-latest: "1.5.4--h5b5514e_1"
+updated_at: "2023-06-13 03:13:37.026130"
+latest: "1.5.4--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/tidehunter"
 aliases:
  - "TideHunter"
 versions:
  - "1.5.3--h5b5514e_1"
  - "1.5.4--h5b5514e_1"
+ - "1.5.4--h43eeafb_2"
 description: "shpc-registry automated BioContainers addition for tidehunter"
-config: {"url": "https://biocontainers.pro/tools/tidehunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tidehunter", "latest": {"1.5.4--h5b5514e_1": "sha256:8cf15e6b9e18201f24f47fb1a72cfa078ad95eaec18b661c0776893964327dc7"}, "tags": {"1.5.3--h5b5514e_1": "sha256:31584417a87d80a58d58623648ad5ae8f9c383769fbc92e8a2c4a503d85754a4", "1.5.4--h5b5514e_1": "sha256:8cf15e6b9e18201f24f47fb1a72cfa078ad95eaec18b661c0776893964327dc7"}, "docker": "quay.io/biocontainers/tidehunter", "aliases": {"TideHunter": "/usr/local/bin/TideHunter"}}
+config: {"url": "https://biocontainers.pro/tools/tidehunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tidehunter", "latest": {"1.5.4--h43eeafb_2": "sha256:40284799af7cc88d4a03acfc5a6fda67e483ba40a432c1357f4e187674600013"}, "tags": {"1.5.3--h5b5514e_1": "sha256:31584417a87d80a58d58623648ad5ae8f9c383769fbc92e8a2c4a503d85754a4", "1.5.4--h5b5514e_1": "sha256:1f9928318d48d21ab70dc89dad4c6c5a92367f5574b46bd7a9361e3e2519119e", "1.5.4--h43eeafb_2": "sha256:40284799af7cc88d4a03acfc5a6fda67e483ba40a432c1357f4e187674600013"}, "docker": "quay.io/biocontainers/tidehunter", "aliases": {"TideHunter": "/usr/local/bin/TideHunter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tidehunter.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/tidehunter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tidehunter:1.5.4--h5b5514e_1
+$ shpc install quay.io/biocontainers/tidehunter:1.5.4--h43eeafb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tidehunter/1.5.4--h5b5514e_1
-$ module help quay.io/biocontainers/tidehunter/1.5.4--h5b5514e_1
+$ module load quay.io/biocontainers/tidehunter/1.5.4--h43eeafb_2
+$ module help quay.io/biocontainers/tidehunter/1.5.4--h43eeafb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

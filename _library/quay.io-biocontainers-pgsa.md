@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgsa/container.yaml"
-updated_at: "2023-06-12 05:06:21.792340"
-latest: "1.2--h87f3376_5"
+updated_at: "2023-06-13 03:14:48.744449"
+latest: "1.2--hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/pgsa"
 aliases:
  - "PgSAgen"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.2--h87f3376_4"
  - "1.2--h87f3376_5"
+ - "1.2--hdbdd923_6"
 description: "shpc-registry automated BioContainers addition for pgsa"
-config: {"url": "https://biocontainers.pro/tools/pgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pgsa", "latest": {"1.2--h87f3376_5": "sha256:9586f778a9410ee7499b0321813df3171b7230c2986f69d88c287b6b32d66fa4"}, "tags": {"1.2--h87f3376_4": "sha256:bd43ae4be8f01c0dd6feeb50759f622b7fa0a3d3eb59967534b1fca70c392d7a", "1.2--h87f3376_5": "sha256:9586f778a9410ee7499b0321813df3171b7230c2986f69d88c287b6b32d66fa4"}, "docker": "quay.io/biocontainers/pgsa", "aliases": {"PgSAgen": "/usr/local/bin/PgSAgen", "PgSAtest": "/usr/local/bin/PgSAtest"}}
+config: {"url": "https://biocontainers.pro/tools/pgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pgsa", "latest": {"1.2--hdbdd923_6": "sha256:fe2673896604d0d1f5932641c64ae4776528d92c9ff8eebd3a673d4982cb9fc3"}, "tags": {"1.2--h87f3376_4": "sha256:bd43ae4be8f01c0dd6feeb50759f622b7fa0a3d3eb59967534b1fca70c392d7a", "1.2--h87f3376_5": "sha256:9586f778a9410ee7499b0321813df3171b7230c2986f69d88c287b6b32d66fa4", "1.2--hdbdd923_6": "sha256:fe2673896604d0d1f5932641c64ae4776528d92c9ff8eebd3a673d4982cb9fc3"}, "docker": "quay.io/biocontainers/pgsa", "aliases": {"PgSAgen": "/usr/local/bin/PgSAgen", "PgSAtest": "/usr/local/bin/PgSAtest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgsa.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pgsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgsa:1.2--h87f3376_5
+$ shpc install quay.io/biocontainers/pgsa:1.2--hdbdd923_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgsa/1.2--h87f3376_5
-$ module help quay.io/biocontainers/pgsa/1.2--h87f3376_5
+$ module load quay.io/biocontainers/pgsa/1.2--hdbdd923_6
+$ module help quay.io/biocontainers/pgsa/1.2--hdbdd923_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

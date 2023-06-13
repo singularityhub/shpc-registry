@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/skani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skani/container.yaml"
-updated_at: "2023-06-12 04:34:51.683774"
-latest: "0.1.3--h9f5acd7_0"
+updated_at: "2023-06-13 02:52:42.931555"
+latest: "0.1.3--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/skani"
 aliases:
  - "skani"
@@ -13,8 +13,9 @@ versions:
  - "0.1.0--h9f5acd7_0"
  - "0.1.1--h9f5acd7_0"
  - "0.1.3--h9f5acd7_0"
+ - "0.1.3--h4ac6f70_2"
 description: "singularity registry hpc automated addition for skani"
-config: {"url": "https://biocontainers.pro/tools/skani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skani", "latest": {"0.1.3--h9f5acd7_0": "sha256:c3c197bff2961baa751ca944cc742fc52fd87604c906a69ccd0f5bde84bf0862"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:b3d0afd09f684cbcb92b73737db2a0f75421c008804a66ba2a3f04357076facf", "0.1.1--h9f5acd7_0": "sha256:9db3ad6c21b830bee564baca3b957f6565c0a1d177262b6e68289fe34a9c9e54", "0.1.3--h9f5acd7_0": "sha256:c3c197bff2961baa751ca944cc742fc52fd87604c906a69ccd0f5bde84bf0862"}, "docker": "quay.io/biocontainers/skani", "aliases": {"skani": "/usr/local/bin/skani"}}
+config: {"url": "https://biocontainers.pro/tools/skani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skani", "latest": {"0.1.3--h4ac6f70_2": "sha256:70f6761b55bab2c937deee47d0ef5624817b83a879e3a19c95198eabe951d232"}, "tags": {"0.1.0--h9f5acd7_0": "sha256:b3d0afd09f684cbcb92b73737db2a0f75421c008804a66ba2a3f04357076facf", "0.1.1--h9f5acd7_0": "sha256:9db3ad6c21b830bee564baca3b957f6565c0a1d177262b6e68289fe34a9c9e54", "0.1.3--h9f5acd7_0": "sha256:2ea1d3d1d3faf96963c4b7abd3d5af512b1cba1c90b01dbbc4246ba786a3c5ba", "0.1.3--h4ac6f70_2": "sha256:70f6761b55bab2c937deee47d0ef5624817b83a879e3a19c95198eabe951d232"}, "docker": "quay.io/biocontainers/skani", "aliases": {"skani": "/usr/local/bin/skani"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skani.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/skani
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skani:0.1.3--h9f5acd7_0
+$ shpc install quay.io/biocontainers/skani:0.1.3--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skani/0.1.3--h9f5acd7_0
-$ module help quay.io/biocontainers/skani/0.1.3--h9f5acd7_0
+$ module load quay.io/biocontainers/skani/0.1.3--h4ac6f70_2
+$ module help quay.io/biocontainers/skani/0.1.3--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/consent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consent/container.yaml"
-updated_at: "2023-06-12 04:23:10.319131"
-latest: "2.2.2--h5b5514e_2"
+updated_at: "2023-06-13 02:43:46.779743"
+latest: "2.2.2--h5b5514e_3"
 container_url: "https://biocontainers.pro/tools/consent"
 aliases:
  - "CONSENT-correct"
@@ -21,8 +21,9 @@ aliases:
  - "k8"
 versions:
  - "2.2.2--h5b5514e_2"
+ - "2.2.2--h5b5514e_3"
 description: "shpc-registry automated BioContainers addition for consent"
-config: {"url": "https://biocontainers.pro/tools/consent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for consent", "latest": {"2.2.2--h5b5514e_2": "sha256:98f032fc58c454aafcbf1b47edcc57ac35b7dca2f5ee08b91b253da292c43940"}, "tags": {"2.2.2--h5b5514e_2": "sha256:98f032fc58c454aafcbf1b47edcc57ac35b7dca2f5ee08b91b253da292c43940"}, "docker": "quay.io/biocontainers/consent", "aliases": {"CONSENT-correct": "/usr/local/bin/CONSENT-correct", "CONSENT-correction": "/usr/local/bin/CONSENT-correction", "CONSENT-explode": "/usr/local/bin/CONSENT-explode", "CONSENT-merge": "/usr/local/bin/CONSENT-merge", "CONSENT-polish": "/usr/local/bin/CONSENT-polish", "CONSENT-polishing": "/usr/local/bin/CONSENT-polishing", "CONSENT-reformatPAF": "/usr/local/bin/CONSENT-reformatPAF", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/consent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for consent", "latest": {"2.2.2--h5b5514e_3": "sha256:e8aa2c4888e551e61964aa8e01f4056772c2cc93975e595e0ab87ede5bb8f75a"}, "tags": {"2.2.2--h5b5514e_2": "sha256:98f032fc58c454aafcbf1b47edcc57ac35b7dca2f5ee08b91b253da292c43940", "2.2.2--h5b5514e_3": "sha256:e8aa2c4888e551e61964aa8e01f4056772c2cc93975e595e0ab87ede5bb8f75a"}, "docker": "quay.io/biocontainers/consent", "aliases": {"CONSENT-correct": "/usr/local/bin/CONSENT-correct", "CONSENT-correction": "/usr/local/bin/CONSENT-correction", "CONSENT-explode": "/usr/local/bin/CONSENT-explode", "CONSENT-merge": "/usr/local/bin/CONSENT-merge", "CONSENT-polish": "/usr/local/bin/CONSENT-polish", "CONSENT-polishing": "/usr/local/bin/CONSENT-polishing", "CONSENT-reformatPAF": "/usr/local/bin/CONSENT-reformatPAF", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/consent.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/consent
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/consent:2.2.2--h5b5514e_2
+$ shpc install quay.io/biocontainers/consent:2.2.2--h5b5514e_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/consent/2.2.2--h5b5514e_2
-$ module help quay.io/biocontainers/consent/2.2.2--h5b5514e_2
+$ module load quay.io/biocontainers/consent/2.2.2--h5b5514e_3
+$ module help quay.io/biocontainers/consent/2.2.2--h5b5514e_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

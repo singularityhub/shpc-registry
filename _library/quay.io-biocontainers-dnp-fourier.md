@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dnp-fourier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-fourier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-fourier/container.yaml"
-updated_at: "2023-06-12 05:21:17.841811"
-latest: "1.0--h87f3376_4"
+updated_at: "2023-06-13 03:25:50.258140"
+latest: "1.0--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/dnp-fourier"
 aliases:
  - "dnp-fourier"
 versions:
  - "1.0--h87f3376_3"
  - "1.0--h87f3376_4"
+ - "1.0--hdbdd923_5"
 description: "shpc-registry automated BioContainers addition for dnp-fourier"
-config: {"url": "https://biocontainers.pro/tools/dnp-fourier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-fourier", "latest": {"1.0--h87f3376_4": "sha256:2d2669c833a9067de83e9b4d45f2f525e747185908391e590d5d6c97c67296ba"}, "tags": {"1.0--h87f3376_3": "sha256:5876b3d64a4e0efc23a01378557fcd6cf0c3178bab69c3ada307d6ffb3fc3407", "1.0--h87f3376_4": "sha256:2d2669c833a9067de83e9b4d45f2f525e747185908391e590d5d6c97c67296ba"}, "docker": "quay.io/biocontainers/dnp-fourier", "aliases": {"dnp-fourier": "/usr/local/bin/dnp-fourier"}}
+config: {"url": "https://biocontainers.pro/tools/dnp-fourier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnp-fourier", "latest": {"1.0--hdbdd923_5": "sha256:98f1de2e4131260ebcb614e9c74389c922c603eaafc6067165eb46232cac31f5"}, "tags": {"1.0--h87f3376_3": "sha256:5876b3d64a4e0efc23a01378557fcd6cf0c3178bab69c3ada307d6ffb3fc3407", "1.0--h87f3376_4": "sha256:945e437e9f0dc5069f3b88d537be1eb567f7d869afbaabb426d8dfb9bb2493e7", "1.0--hdbdd923_5": "sha256:98f1de2e4131260ebcb614e9c74389c922c603eaafc6067165eb46232cac31f5"}, "docker": "quay.io/biocontainers/dnp-fourier", "aliases": {"dnp-fourier": "/usr/local/bin/dnp-fourier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnp-fourier.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dnp-fourier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnp-fourier:1.0--h87f3376_4
+$ shpc install quay.io/biocontainers/dnp-fourier:1.0--hdbdd923_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnp-fourier/1.0--h87f3376_4
-$ module help quay.io/biocontainers/dnp-fourier/1.0--h87f3376_4
+$ module load quay.io/biocontainers/dnp-fourier/1.0--hdbdd923_5
+$ module help quay.io/biocontainers/dnp-fourier/1.0--hdbdd923_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

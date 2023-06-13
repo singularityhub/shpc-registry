@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/foldcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldcomp/container.yaml"
-updated_at: "2023-06-12 05:09:38.383652"
-latest: "0.0.5--h5b5514e_1"
+updated_at: "2023-06-13 03:17:07.839526"
+latest: "0.0.5--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/foldcomp"
 aliases:
  - "foldcomp"
@@ -13,8 +13,9 @@ versions:
  - "0.0.2--h5b5514e_0"
  - "0.0.4--h5b5514e_0"
  - "0.0.5--h5b5514e_1"
+ - "0.0.5--h43eeafb_2"
 description: "singularity registry hpc automated addition for foldcomp"
-config: {"url": "https://biocontainers.pro/tools/foldcomp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for foldcomp", "latest": {"0.0.5--h5b5514e_1": "sha256:9deaa7d3f8dd2d2a0d639ec8708f21d858a663dff964c29d17640b3de1957445"}, "tags": {"0.0.2--h5b5514e_0": "sha256:584a4c9cc9bcdb5c75f23d8621f827e6ac48013d4b00b16afc20815828cb7608", "0.0.4--h5b5514e_0": "sha256:e567e5da15a5e3d90327613333984776dfba0b8e9eb396d036fecf9b241563c2", "0.0.5--h5b5514e_1": "sha256:9deaa7d3f8dd2d2a0d639ec8708f21d858a663dff964c29d17640b3de1957445"}, "docker": "quay.io/biocontainers/foldcomp", "aliases": {"foldcomp": "/usr/local/bin/foldcomp"}}
+config: {"url": "https://biocontainers.pro/tools/foldcomp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for foldcomp", "latest": {"0.0.5--h43eeafb_2": "sha256:8aaaadb0bc0b494311cd64e648ee5e1e7516e1d9d893e5fb2cceaa11e6db3564"}, "tags": {"0.0.2--h5b5514e_0": "sha256:584a4c9cc9bcdb5c75f23d8621f827e6ac48013d4b00b16afc20815828cb7608", "0.0.4--h5b5514e_0": "sha256:e567e5da15a5e3d90327613333984776dfba0b8e9eb396d036fecf9b241563c2", "0.0.5--h5b5514e_1": "sha256:dc9ab574d458895584f0de06100323a5551f2cea3d60a4c55b7b89f95e4a6349", "0.0.5--h43eeafb_2": "sha256:8aaaadb0bc0b494311cd64e648ee5e1e7516e1d9d893e5fb2cceaa11e6db3564"}, "docker": "quay.io/biocontainers/foldcomp", "aliases": {"foldcomp": "/usr/local/bin/foldcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/foldcomp.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/foldcomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/foldcomp:0.0.5--h5b5514e_1
+$ shpc install quay.io/biocontainers/foldcomp:0.0.5--h43eeafb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/foldcomp/0.0.5--h5b5514e_1
-$ module help quay.io/biocontainers/foldcomp/0.0.5--h5b5514e_1
+$ module load quay.io/biocontainers/foldcomp/0.0.5--h43eeafb_2
+$ module help quay.io/biocontainers/foldcomp/0.0.5--h43eeafb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

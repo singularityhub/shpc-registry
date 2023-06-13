@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rust-mdbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-mdbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-mdbg/container.yaml"
-updated_at: "2023-06-12 05:09:01.121610"
-latest: "1.0.1--h9f5acd7_1"
+updated_at: "2023-06-13 03:16:41.349810"
+latest: "1.0.1--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/rust-mdbg"
 aliases:
  - "rust-mdbg"
  - "to_basespace"
 versions:
  - "1.0.1--h9f5acd7_1"
+ - "1.0.1--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for rust-mdbg"
-config: {"url": "https://biocontainers.pro/tools/rust-mdbg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-mdbg", "latest": {"1.0.1--h9f5acd7_1": "sha256:c14f965f418e980000d177f861600eb13b5d91cd96466fc1f79f6c5955035b91"}, "tags": {"1.0.1--h9f5acd7_1": "sha256:c14f965f418e980000d177f861600eb13b5d91cd96466fc1f79f6c5955035b91"}, "docker": "quay.io/biocontainers/rust-mdbg", "aliases": {"rust-mdbg": "/usr/local/bin/rust-mdbg", "to_basespace": "/usr/local/bin/to_basespace"}}
+config: {"url": "https://biocontainers.pro/tools/rust-mdbg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-mdbg", "latest": {"1.0.1--h4ac6f70_3": "sha256:ae14fd179734052fbd7552625bd3cecb77ddc91f9e8c6fddadd8d0cebe1b1097"}, "tags": {"1.0.1--h9f5acd7_1": "sha256:c14f965f418e980000d177f861600eb13b5d91cd96466fc1f79f6c5955035b91", "1.0.1--h4ac6f70_3": "sha256:ae14fd179734052fbd7552625bd3cecb77ddc91f9e8c6fddadd8d0cebe1b1097"}, "docker": "quay.io/biocontainers/rust-mdbg", "aliases": {"rust-mdbg": "/usr/local/bin/rust-mdbg", "to_basespace": "/usr/local/bin/to_basespace"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rust-mdbg.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rust-mdbg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rust-mdbg:1.0.1--h9f5acd7_1
+$ shpc install quay.io/biocontainers/rust-mdbg:1.0.1--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rust-mdbg/1.0.1--h9f5acd7_1
-$ module help quay.io/biocontainers/rust-mdbg/1.0.1--h9f5acd7_1
+$ module load quay.io/biocontainers/rust-mdbg/1.0.1--h4ac6f70_3
+$ module help quay.io/biocontainers/rust-mdbg/1.0.1--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

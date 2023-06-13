@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ont_vbz_hdf_plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont_vbz_hdf_plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont_vbz_hdf_plugin/container.yaml"
-updated_at: "2023-06-12 04:27:45.008117"
-latest: "1.0.1--hb6da537_3"
+updated_at: "2023-06-13 02:47:16.827605"
+latest: "1.0.1--h3f9cce5_5"
 container_url: "https://biocontainers.pro/tools/ont_vbz_hdf_plugin"
 aliases:
  - "mirror_server"
@@ -20,8 +20,9 @@ aliases:
  - "h5copy"
 versions:
  - "1.0.1--hb6da537_3"
+ - "1.0.1--h3f9cce5_5"
 description: "shpc-registry automated BioContainers addition for ont_vbz_hdf_plugin"
-config: {"url": "https://biocontainers.pro/tools/ont_vbz_hdf_plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ont_vbz_hdf_plugin", "latest": {"1.0.1--hb6da537_3": "sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397"}, "tags": {"1.0.1--hb6da537_3": "sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397"}, "docker": "quay.io/biocontainers/ont_vbz_hdf_plugin", "aliases": {"mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/ont_vbz_hdf_plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ont_vbz_hdf_plugin", "latest": {"1.0.1--h3f9cce5_5": "sha256:f9e82bb2b166fd86cc7da325dc02e8767c9cd8d448e7323c49c392e30aa82c4b"}, "tags": {"1.0.1--hb6da537_3": "sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397", "1.0.1--h3f9cce5_5": "sha256:f9e82bb2b166fd86cc7da325dc02e8767c9cd8d448e7323c49c392e30aa82c4b"}, "docker": "quay.io/biocontainers/ont_vbz_hdf_plugin", "aliases": {"mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ont_vbz_hdf_plugin.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/ont_vbz_hdf_plugin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ont_vbz_hdf_plugin:1.0.1--hb6da537_3
+$ shpc install quay.io/biocontainers/ont_vbz_hdf_plugin:1.0.1--h3f9cce5_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ont_vbz_hdf_plugin/1.0.1--hb6da537_3
-$ module help quay.io/biocontainers/ont_vbz_hdf_plugin/1.0.1--hb6da537_3
+$ module load quay.io/biocontainers/ont_vbz_hdf_plugin/1.0.1--h3f9cce5_5
+$ module help quay.io/biocontainers/ont_vbz_hdf_plugin/1.0.1--h3f9cce5_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/splicemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splicemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splicemap/container.yaml"
-updated_at: "2023-06-12 04:32:06.042893"
-latest: "3.3.5.2--h9f5acd7_4"
+updated_at: "2023-06-13 02:50:38.069029"
+latest: "3.3.5.2--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/splicemap"
 aliases:
  - "SpliceMap"
@@ -35,8 +35,9 @@ aliases:
  - "2to3-3.9"
 versions:
  - "3.3.5.2--h9f5acd7_4"
+ - "3.3.5.2--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for splicemap"
-config: {"url": "https://biocontainers.pro/tools/splicemap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for splicemap", "latest": {"3.3.5.2--h9f5acd7_4": "sha256:570bbfc229dd65ee9fda0375bec232704a60773ce6b76678d02a370b8f3007bc"}, "tags": {"3.3.5.2--h9f5acd7_4": "sha256:570bbfc229dd65ee9fda0375bec232704a60773ce6b76678d02a370b8f3007bc"}, "docker": "quay.io/biocontainers/splicemap", "aliases": {"SpliceMap": "/usr/local/bin/SpliceMap", "amalgamateSAM": "/usr/local/bin/amalgamateSAM", "colorJunction": "/usr/local/bin/colorJunction", "countsam": "/usr/local/bin/countsam", "findNovelJunctions": "/usr/local/bin/findNovelJunctions", "neighborFilter": "/usr/local/bin/neighborFilter", "nnrFilter": "/usr/local/bin/nnrFilter", "precipitateSAM": "/usr/local/bin/precipitateSAM", "randomJunctionFilter": "/usr/local/bin/randomJunctionFilter", "runSpliceMap": "/usr/local/bin/runSpliceMap", "sortsam": "/usr/local/bin/sortsam", "statSpliceMap": "/usr/local/bin/statSpliceMap", "subseq": "/usr/local/bin/subseq", "uniqueJunctionFilter": "/usr/local/bin/uniqueJunctionFilter", "wig2barwig": "/usr/local/bin/wig2barwig", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "2to3-3.9": "/usr/local/bin/2to3-3.9"}}
+config: {"url": "https://biocontainers.pro/tools/splicemap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for splicemap", "latest": {"3.3.5.2--h4ac6f70_5": "sha256:567888d0de7a736ba9fdf75ddd320eb80cf4738bad8c13cbb3514abdf291002b"}, "tags": {"3.3.5.2--h9f5acd7_4": "sha256:570bbfc229dd65ee9fda0375bec232704a60773ce6b76678d02a370b8f3007bc", "3.3.5.2--h4ac6f70_5": "sha256:567888d0de7a736ba9fdf75ddd320eb80cf4738bad8c13cbb3514abdf291002b"}, "docker": "quay.io/biocontainers/splicemap", "aliases": {"SpliceMap": "/usr/local/bin/SpliceMap", "amalgamateSAM": "/usr/local/bin/amalgamateSAM", "colorJunction": "/usr/local/bin/colorJunction", "countsam": "/usr/local/bin/countsam", "findNovelJunctions": "/usr/local/bin/findNovelJunctions", "neighborFilter": "/usr/local/bin/neighborFilter", "nnrFilter": "/usr/local/bin/nnrFilter", "precipitateSAM": "/usr/local/bin/precipitateSAM", "randomJunctionFilter": "/usr/local/bin/randomJunctionFilter", "runSpliceMap": "/usr/local/bin/runSpliceMap", "sortsam": "/usr/local/bin/sortsam", "statSpliceMap": "/usr/local/bin/statSpliceMap", "subseq": "/usr/local/bin/subseq", "uniqueJunctionFilter": "/usr/local/bin/uniqueJunctionFilter", "wig2barwig": "/usr/local/bin/wig2barwig", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "2to3-3.9": "/usr/local/bin/2to3-3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/splicemap.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/splicemap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/splicemap:3.3.5.2--h9f5acd7_4
+$ shpc install quay.io/biocontainers/splicemap:3.3.5.2--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/splicemap/3.3.5.2--h9f5acd7_4
-$ module help quay.io/biocontainers/splicemap/3.3.5.2--h9f5acd7_4
+$ module load quay.io/biocontainers/splicemap/3.3.5.2--h4ac6f70_5
+$ module help quay.io/biocontainers/splicemap/3.3.5.2--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

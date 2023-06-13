@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastqsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqsplitter/container.yaml"
-updated_at: "2023-06-12 04:44:10.510742"
-latest: "1.2.0--py38hbff2b2d_3"
+updated_at: "2023-06-13 02:58:47.136839"
+latest: "1.2.0--py38he5da3d1_5"
 container_url: "https://biocontainers.pro/tools/fastqsplitter"
 aliases:
  - "fastqsplitter"
@@ -21,8 +21,9 @@ aliases:
  - "python3.8"
 versions:
  - "1.2.0--py38hbff2b2d_3"
+ - "1.2.0--py38he5da3d1_5"
 description: "shpc-registry automated BioContainers addition for fastqsplitter"
-config: {"url": "https://biocontainers.pro/tools/fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqsplitter", "latest": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a"}, "tags": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a"}, "docker": "quay.io/biocontainers/fastqsplitter", "aliases": {"fastqsplitter": "/usr/local/bin/fastqsplitter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
+config: {"url": "https://biocontainers.pro/tools/fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqsplitter", "latest": {"1.2.0--py38he5da3d1_5": "sha256:9ee4f5950b5bc624bbbca60a6664bec19a373ce9f1241398dcd58d3445fae53b"}, "tags": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a", "1.2.0--py38he5da3d1_5": "sha256:9ee4f5950b5bc624bbbca60a6664bec19a373ce9f1241398dcd58d3445fae53b"}, "docker": "quay.io/biocontainers/fastqsplitter", "aliases": {"fastqsplitter": "/usr/local/bin/fastqsplitter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqsplitter.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/fastqsplitter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastqsplitter:1.2.0--py38hbff2b2d_3
+$ shpc install quay.io/biocontainers/fastqsplitter:1.2.0--py38he5da3d1_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastqsplitter/1.2.0--py38hbff2b2d_3
-$ module help quay.io/biocontainers/fastqsplitter/1.2.0--py38hbff2b2d_3
+$ module load quay.io/biocontainers/fastqsplitter/1.2.0--py38he5da3d1_5
+$ module help quay.io/biocontainers/fastqsplitter/1.2.0--py38he5da3d1_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

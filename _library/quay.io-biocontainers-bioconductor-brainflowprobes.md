@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brainflowprobes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainflowprobes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainflowprobes/container.yaml"
-updated_at: "2023-06-12 05:12:52.137335"
+updated_at: "2023-06-13 03:19:30.936909"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainflowprobes"
 

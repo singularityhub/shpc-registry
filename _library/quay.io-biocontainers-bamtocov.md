@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamtocov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamtocov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamtocov/container.yaml"
-updated_at: "2023-06-12 04:32:39.271538"
-latest: "2.7.0--hbd632db_1"
+updated_at: "2023-06-13 02:51:03.733964"
+latest: "2.7.0--h6ead514_2"
 container_url: "https://biocontainers.pro/tools/bamtocov"
 aliases:
  - "average-coverage.py"
@@ -28,8 +28,9 @@ aliases:
  - "tabix"
 versions:
  - "2.7.0--hbd632db_1"
+ - "2.7.0--h6ead514_2"
 description: "shpc-registry automated BioContainers addition for bamtocov"
-config: {"url": "https://biocontainers.pro/tools/bamtocov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamtocov", "latest": {"2.7.0--hbd632db_1": "sha256:adaf35c67d230809d289ee9efee15906fbcb62b9e39c3aadb631e70e54f648d8"}, "tags": {"2.7.0--hbd632db_1": "sha256:adaf35c67d230809d289ee9efee15906fbcb62b9e39c3aadb631e70e54f648d8"}, "docker": "quay.io/biocontainers/bamtocov", "aliases": {"average-coverage.py": "/usr/local/bin/average-coverage.py", "bamcountrefs": "/usr/local/bin/bamcountrefs", "bamtarget": "/usr/local/bin/bamtarget", "bamtocounts": "/usr/local/bin/bamtocounts", "bamtocov": "/usr/local/bin/bamtocov", "comparecounts.py": "/usr/local/bin/comparecounts.py", "covToWig.py": "/usr/local/bin/covToWig.py", "covtotarget": "/usr/local/bin/covtotarget", "feat-counts.py": "/usr/local/bin/feat-counts.py", "gff2bed.py": "/usr/local/bin/gff2bed.py", "low-cov-multisample.py": "/usr/local/bin/low-cov-multisample.py", "make-target-from-bam.py": "/usr/local/bin/make-target-from-bam.py", "prokka-annotation-refupdate.py": "/usr/local/bin/prokka-annotation-refupdate.py", "strip-seq-from-bam.py": "/usr/local/bin/strip-seq-from-bam.py", "gff2bed": "/usr/local/bin/gff2bed", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bamtocov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamtocov", "latest": {"2.7.0--h6ead514_2": "sha256:1afe525fc47c74c94e1588ebf5fb64a1ba0c3087b04cf86f6b3b56bb32224099"}, "tags": {"2.7.0--hbd632db_1": "sha256:adaf35c67d230809d289ee9efee15906fbcb62b9e39c3aadb631e70e54f648d8", "2.7.0--h6ead514_2": "sha256:1afe525fc47c74c94e1588ebf5fb64a1ba0c3087b04cf86f6b3b56bb32224099"}, "docker": "quay.io/biocontainers/bamtocov", "aliases": {"average-coverage.py": "/usr/local/bin/average-coverage.py", "bamcountrefs": "/usr/local/bin/bamcountrefs", "bamtarget": "/usr/local/bin/bamtarget", "bamtocounts": "/usr/local/bin/bamtocounts", "bamtocov": "/usr/local/bin/bamtocov", "comparecounts.py": "/usr/local/bin/comparecounts.py", "covToWig.py": "/usr/local/bin/covToWig.py", "covtotarget": "/usr/local/bin/covtotarget", "feat-counts.py": "/usr/local/bin/feat-counts.py", "gff2bed.py": "/usr/local/bin/gff2bed.py", "low-cov-multisample.py": "/usr/local/bin/low-cov-multisample.py", "make-target-from-bam.py": "/usr/local/bin/make-target-from-bam.py", "prokka-annotation-refupdate.py": "/usr/local/bin/prokka-annotation-refupdate.py", "strip-seq-from-bam.py": "/usr/local/bin/strip-seq-from-bam.py", "gff2bed": "/usr/local/bin/gff2bed", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamtocov.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bamtocov
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamtocov:2.7.0--hbd632db_1
+$ shpc install quay.io/biocontainers/bamtocov:2.7.0--h6ead514_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamtocov/2.7.0--hbd632db_1
-$ module help quay.io/biocontainers/bamtocov/2.7.0--hbd632db_1
+$ module load quay.io/biocontainers/bamtocov/2.7.0--h6ead514_2
+$ module help quay.io/biocontainers/bamtocov/2.7.0--h6ead514_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

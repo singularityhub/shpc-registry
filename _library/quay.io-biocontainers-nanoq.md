@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanoq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoq/container.yaml"
-updated_at: "2023-06-12 04:58:41.720704"
-latest: "0.10.0--hec16e2b_1"
+updated_at: "2023-06-13 03:09:04.151755"
+latest: "0.10.0--h031d066_2"
 container_url: "https://biocontainers.pro/tools/nanoq"
 aliases:
  - "nanoq"
@@ -13,8 +13,9 @@ versions:
  - "0.9.0--hec16e2b_1"
  - "0.10.0--hec16e2b_0"
  - "0.10.0--hec16e2b_1"
+ - "0.10.0--h031d066_2"
 description: "shpc-registry automated BioContainers addition for nanoq"
-config: {"url": "https://biocontainers.pro/tools/nanoq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoq", "latest": {"0.10.0--hec16e2b_1": "sha256:166006664debcc5bbaa169aa1144d314a2a4d20e95f065847999b0fe68430f1c"}, "tags": {"0.9.0--hec16e2b_1": "sha256:af189ba24d7292e77f3d429517685f4b5e2a711f9213bc1c0dfa29da1af9b5a7", "0.10.0--hec16e2b_0": "sha256:1a9bb37e76388dd2bb3eb339bd693db4491c21e0c5439277ef99fa86ff6dd322", "0.10.0--hec16e2b_1": "sha256:166006664debcc5bbaa169aa1144d314a2a4d20e95f065847999b0fe68430f1c"}, "docker": "quay.io/biocontainers/nanoq", "aliases": {"nanoq": "/usr/local/bin/nanoq"}}
+config: {"url": "https://biocontainers.pro/tools/nanoq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoq", "latest": {"0.10.0--h031d066_2": "sha256:e3f7fc6e04ed0b2ae8753264c9898d981f798ada6a41689bf788e40824816ae4"}, "tags": {"0.9.0--hec16e2b_1": "sha256:af189ba24d7292e77f3d429517685f4b5e2a711f9213bc1c0dfa29da1af9b5a7", "0.10.0--hec16e2b_0": "sha256:1a9bb37e76388dd2bb3eb339bd693db4491c21e0c5439277ef99fa86ff6dd322", "0.10.0--hec16e2b_1": "sha256:7395468f267fb5771465ecb3b69f56f06737d7944d92f098295a3086f0dc159e", "0.10.0--h031d066_2": "sha256:e3f7fc6e04ed0b2ae8753264c9898d981f798ada6a41689bf788e40824816ae4"}, "docker": "quay.io/biocontainers/nanoq", "aliases": {"nanoq": "/usr/local/bin/nanoq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/nanoq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoq:0.10.0--hec16e2b_1
+$ shpc install quay.io/biocontainers/nanoq:0.10.0--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoq/0.10.0--hec16e2b_1
-$ module help quay.io/biocontainers/nanoq/0.10.0--hec16e2b_1
+$ module load quay.io/biocontainers/nanoq/0.10.0--h031d066_2
+$ module help quay.io/biocontainers/nanoq/0.10.0--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

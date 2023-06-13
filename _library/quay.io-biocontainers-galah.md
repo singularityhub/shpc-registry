@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galah/container.yaml"
-updated_at: "2023-06-12 05:24:06.957503"
+updated_at: "2023-06-13 03:27:56.411403"
 latest: "0.3.1--h031d066_2"
 container_url: "https://biocontainers.pro/tools/galah"
 aliases:

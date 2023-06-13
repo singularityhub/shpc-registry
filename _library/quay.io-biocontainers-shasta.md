@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shasta/container.yaml"
-updated_at: "2023-06-12 04:52:24.833424"
-latest: "0.11.1--h9f5acd7_0"
+updated_at: "2023-06-13 03:04:27.604255"
+latest: "0.11.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/shasta"
 aliases:
  - "shasta"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.8.0--h7d875b9_0"
  - "0.11.1--h9f5acd7_0"
+ - "0.11.1--h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for shasta"
-config: {"url": "https://biocontainers.pro/tools/shasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shasta", "latest": {"0.11.1--h9f5acd7_0": "sha256:26940faf086a2a0d30e8985ad0e1c4b2bf61ae75daae903ac7ec7bff1cc49ddc"}, "tags": {"0.8.0--h7d875b9_0": "sha256:428bf4e38fcbc8f8bada933aa892d3188623145388eaf5a34ef7b695973a1d35", "0.11.1--h9f5acd7_0": "sha256:26940faf086a2a0d30e8985ad0e1c4b2bf61ae75daae903ac7ec7bff1cc49ddc"}, "docker": "quay.io/biocontainers/shasta", "aliases": {"shasta": "/usr/local/bin/shasta", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/shasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shasta", "latest": {"0.11.1--h4ac6f70_2": "sha256:687879ecbac3447ed54b458343fa77ae1a2ec6cc12a2dd013db6979526e7007b"}, "tags": {"0.8.0--h7d875b9_0": "sha256:428bf4e38fcbc8f8bada933aa892d3188623145388eaf5a34ef7b695973a1d35", "0.11.1--h9f5acd7_0": "sha256:26940faf086a2a0d30e8985ad0e1c4b2bf61ae75daae903ac7ec7bff1cc49ddc", "0.11.1--h4ac6f70_2": "sha256:687879ecbac3447ed54b458343fa77ae1a2ec6cc12a2dd013db6979526e7007b"}, "docker": "quay.io/biocontainers/shasta", "aliases": {"shasta": "/usr/local/bin/shasta", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shasta.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/shasta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shasta:0.11.1--h9f5acd7_0
+$ shpc install quay.io/biocontainers/shasta:0.11.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shasta/0.11.1--h9f5acd7_0
-$ module help quay.io/biocontainers/shasta/0.11.1--h9f5acd7_0
+$ module load quay.io/biocontainers/shasta/0.11.1--h4ac6f70_2
+$ module help quay.io/biocontainers/shasta/0.11.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

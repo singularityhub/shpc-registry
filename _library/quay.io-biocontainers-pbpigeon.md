@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/pbpigeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbpigeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbpigeon/container.yaml"
-updated_at: "2023-06-12 04:39:51.358805"
-latest: "1.0.0--h9f5acd7_1"
+updated_at: "2023-06-13 02:55:59.753484"
+latest: "1.0.0--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/pbpigeon"
 aliases:
  - "pigeon"
 versions:
  - "0.1.2--hdfd78af_0"
  - "1.0.0--h9f5acd7_1"
+ - "1.0.0--h4ac6f70_2"
 description: "singularity registry hpc automated addition for pbpigeon"
-config: {"url": "https://biocontainers.pro/tools/pbpigeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbpigeon", "latest": {"1.0.0--h9f5acd7_1": "sha256:957abc67c1a77c8a814710e36dc8ff2d1a3b5be2d27ab0768d4ba6de7804107f"}, "tags": {"0.1.2--hdfd78af_0": "sha256:15bbdf5c521e568fb265799e162856315dbaf42809827fb8e4175a57e521466e", "1.0.0--h9f5acd7_1": "sha256:957abc67c1a77c8a814710e36dc8ff2d1a3b5be2d27ab0768d4ba6de7804107f"}, "docker": "quay.io/biocontainers/pbpigeon", "aliases": {"pigeon": "/usr/local/bin/pigeon"}}
+config: {"url": "https://biocontainers.pro/tools/pbpigeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbpigeon", "latest": {"1.0.0--h4ac6f70_2": "sha256:13ff2f6b2c421ea7c6283bfff4e4841291383e58b35c1c4a079f43cc798e861b"}, "tags": {"0.1.2--hdfd78af_0": "sha256:15bbdf5c521e568fb265799e162856315dbaf42809827fb8e4175a57e521466e", "1.0.0--h9f5acd7_1": "sha256:957abc67c1a77c8a814710e36dc8ff2d1a3b5be2d27ab0768d4ba6de7804107f", "1.0.0--h4ac6f70_2": "sha256:13ff2f6b2c421ea7c6283bfff4e4841291383e58b35c1c4a079f43cc798e861b"}, "docker": "quay.io/biocontainers/pbpigeon", "aliases": {"pigeon": "/usr/local/bin/pigeon"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbpigeon.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/pbpigeon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbpigeon:1.0.0--h9f5acd7_1
+$ shpc install quay.io/biocontainers/pbpigeon:1.0.0--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbpigeon/1.0.0--h9f5acd7_1
-$ module help quay.io/biocontainers/pbpigeon/1.0.0--h9f5acd7_1
+$ module load quay.io/biocontainers/pbpigeon/1.0.0--h4ac6f70_2
+$ module help quay.io/biocontainers/pbpigeon/1.0.0--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

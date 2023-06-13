@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rhdf5lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhdf5lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhdf5lib/container.yaml"
-updated_at: "2023-06-12 04:43:46.528034"
-latest: "1.20.0--r42hc0cfd56_1"
+updated_at: "2023-06-13 02:58:31.520891"
+latest: "1.20.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhdf5lib"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.1--r40hd029910_0"
  - "1.10.0--r40h037d062_0"
  - "1.20.0--r42hc0cfd56_1"
+ - "1.20.0--r42ha9d7317_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhdf5lib"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhdf5lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhdf5lib", "latest": {"1.20.0--r42hc0cfd56_1": "sha256:3e7208d146bb319c0407007802c5f5171541ddff4c10d86b1ce0d4f99e50c748"}, "tags": {"1.8.0--r36h516909a_0": "sha256:3f58b7631c8ec182f001a272e64d0ba8c10bd437bf68fc3c540fad2b92ce5431", "1.20.0--r42hc0cfd56_0": "sha256:ef98992395876a9f81c3440bd65d8b81c9d7e235c87fddf3e051e7a0a421c40b", "1.16.0--r41hc0cfd56_2": "sha256:a9b5d121b11565ffb3aa96885c5aaa12f30e22832557bba1945f3885c31cda48", "1.14.0--r41hd029910_0": "sha256:f84cfbefe3bf0eecc418db6eb3cbd2db1ed6892fd096cc0fa06ce70623a3c842", "1.12.1--r40hd029910_0": "sha256:a6180500c8abc2f827146b3707119719bf4be9a18b16d4e509ba95ee6cf5c7f8", "1.10.0--r40h037d062_0": "sha256:2fc1ec2b98ca0b3275d1fd67010d9ee3554a0289dd2e9b6ec9c71232fdab3f13", "1.20.0--r42hc0cfd56_1": "sha256:3e7208d146bb319c0407007802c5f5171541ddff4c10d86b1ce0d4f99e50c748"}, "docker": "quay.io/biocontainers/bioconductor-rhdf5lib", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhdf5lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhdf5lib", "latest": {"1.20.0--r42ha9d7317_2": "sha256:fed31e3076a48fbe3269d4a3de68ed27d0b8e9d670d43f297cdcb7a6a37853fa"}, "tags": {"1.8.0--r36h516909a_0": "sha256:3f58b7631c8ec182f001a272e64d0ba8c10bd437bf68fc3c540fad2b92ce5431", "1.20.0--r42hc0cfd56_0": "sha256:ef98992395876a9f81c3440bd65d8b81c9d7e235c87fddf3e051e7a0a421c40b", "1.16.0--r41hc0cfd56_2": "sha256:a9b5d121b11565ffb3aa96885c5aaa12f30e22832557bba1945f3885c31cda48", "1.14.0--r41hd029910_0": "sha256:f84cfbefe3bf0eecc418db6eb3cbd2db1ed6892fd096cc0fa06ce70623a3c842", "1.12.1--r40hd029910_0": "sha256:a6180500c8abc2f827146b3707119719bf4be9a18b16d4e509ba95ee6cf5c7f8", "1.10.0--r40h037d062_0": "sha256:2fc1ec2b98ca0b3275d1fd67010d9ee3554a0289dd2e9b6ec9c71232fdab3f13", "1.20.0--r42hc0cfd56_1": "sha256:3e7208d146bb319c0407007802c5f5171541ddff4c10d86b1ce0d4f99e50c748", "1.20.0--r42ha9d7317_2": "sha256:fed31e3076a48fbe3269d4a3de68ed27d0b8e9d670d43f297cdcb7a6a37853fa"}, "docker": "quay.io/biocontainers/bioconductor-rhdf5lib", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhdf5lib.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rhdf5lib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rhdf5lib:1.20.0--r42hc0cfd56_1
+$ shpc install quay.io/biocontainers/bioconductor-rhdf5lib:1.20.0--r42ha9d7317_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rhdf5lib/1.20.0--r42hc0cfd56_1
-$ module help quay.io/biocontainers/bioconductor-rhdf5lib/1.20.0--r42hc0cfd56_1
+$ module load quay.io/biocontainers/bioconductor-rhdf5lib/1.20.0--r42ha9d7317_2
+$ module help quay.io/biocontainers/bioconductor-rhdf5lib/1.20.0--r42ha9d7317_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

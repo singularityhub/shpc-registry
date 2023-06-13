@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/apt-probeset-summarize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apt-probeset-summarize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apt-probeset-summarize/container.yaml"
-updated_at: "2023-06-12 04:50:02.304244"
-latest: "2.10.0--h9f5acd7_4"
+updated_at: "2023-06-13 03:02:45.109993"
+latest: "2.10.0--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/apt-probeset-summarize"
 aliases:
  - "apt-probeset-summarize"
 versions:
  - "2.10.0--h9f5acd7_3"
  - "2.10.0--h9f5acd7_4"
+ - "2.10.0--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for apt-probeset-summarize"
-config: {"url": "https://biocontainers.pro/tools/apt-probeset-summarize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for apt-probeset-summarize", "latest": {"2.10.0--h9f5acd7_4": "sha256:4f97eb1b2f68bfd6a118b2d8ff0d18b9561a4320a70a3bc36bef6405109d28a7"}, "tags": {"2.10.0--h9f5acd7_3": "sha256:9b0d8782daca43d81dd1e18752c012e435d24d45efe5fb0a17ef243ddefcd390", "2.10.0--h9f5acd7_4": "sha256:4f97eb1b2f68bfd6a118b2d8ff0d18b9561a4320a70a3bc36bef6405109d28a7"}, "docker": "quay.io/biocontainers/apt-probeset-summarize", "aliases": {"apt-probeset-summarize": "/usr/local/bin/apt-probeset-summarize"}}
+config: {"url": "https://biocontainers.pro/tools/apt-probeset-summarize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for apt-probeset-summarize", "latest": {"2.10.0--h4ac6f70_5": "sha256:6fec38aa2e1870bd60b04f6512ae12401bc5ba08eee86f40e142b2e51464cdeb"}, "tags": {"2.10.0--h9f5acd7_3": "sha256:9b0d8782daca43d81dd1e18752c012e435d24d45efe5fb0a17ef243ddefcd390", "2.10.0--h9f5acd7_4": "sha256:165e1e61b1fa5f0268378738fbeccebc5e7fa740140f5456131b4ecd621e10d6", "2.10.0--h4ac6f70_5": "sha256:6fec38aa2e1870bd60b04f6512ae12401bc5ba08eee86f40e142b2e51464cdeb"}, "docker": "quay.io/biocontainers/apt-probeset-summarize", "aliases": {"apt-probeset-summarize": "/usr/local/bin/apt-probeset-summarize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/apt-probeset-summarize.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/apt-probeset-summarize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/apt-probeset-summarize:2.10.0--h9f5acd7_4
+$ shpc install quay.io/biocontainers/apt-probeset-summarize:2.10.0--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/apt-probeset-summarize/2.10.0--h9f5acd7_4
-$ module help quay.io/biocontainers/apt-probeset-summarize/2.10.0--h9f5acd7_4
+$ module load quay.io/biocontainers/apt-probeset-summarize/2.10.0--h4ac6f70_5
+$ module help quay.io/biocontainers/apt-probeset-summarize/2.10.0--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-biomartr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biomartr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biomartr/container.yaml"
-updated_at: "2023-06-12 04:38:22.719784"
-latest: "1.0.2--r42h3342da4_1"
+updated_at: "2023-06-13 02:55:02.324939"
+latest: "1.0.3--r42h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-biomartr"
 
 versions:
  - "1.0.2--r41h3342da4_0"
  - "1.0.2--r42h3342da4_1"
+ - "1.0.3--r42h3342da4_0"
 description: "shpc-registry automated BioContainers addition for r-biomartr"
-config: {"url": "https://biocontainers.pro/tools/r-biomartr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biomartr", "latest": {"1.0.2--r42h3342da4_1": "sha256:27a2405009dfdd6e929c47aca82eca7b3ccb7eb7bdbaae7f9e99f69fb7a80593"}, "tags": {"1.0.2--r41h3342da4_0": "sha256:c4135b83551875e0260531672bb71d2edcaad5ae544a6a3424c80540d30d687f", "1.0.2--r42h3342da4_1": "sha256:27a2405009dfdd6e929c47aca82eca7b3ccb7eb7bdbaae7f9e99f69fb7a80593"}, "docker": "quay.io/biocontainers/r-biomartr"}
+config: {"url": "https://biocontainers.pro/tools/r-biomartr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biomartr", "latest": {"1.0.3--r42h3342da4_0": "sha256:68d9ab8aa5ab77077c2fc3f1630510db1f2e00618de93bd6cb611ab15bab4a84"}, "tags": {"1.0.2--r41h3342da4_0": "sha256:c4135b83551875e0260531672bb71d2edcaad5ae544a6a3424c80540d30d687f", "1.0.2--r42h3342da4_1": "sha256:27a2405009dfdd6e929c47aca82eca7b3ccb7eb7bdbaae7f9e99f69fb7a80593", "1.0.3--r42h3342da4_0": "sha256:68d9ab8aa5ab77077c2fc3f1630510db1f2e00618de93bd6cb611ab15bab4a84"}, "docker": "quay.io/biocontainers/r-biomartr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biomartr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-biomartr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-biomartr:1.0.2--r42h3342da4_1
+$ shpc install quay.io/biocontainers/r-biomartr:1.0.3--r42h3342da4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-biomartr/1.0.2--r42h3342da4_1
-$ module help quay.io/biocontainers/r-biomartr/1.0.2--r42h3342da4_1
+$ module load quay.io/biocontainers/r-biomartr/1.0.3--r42h3342da4_0
+$ module help quay.io/biocontainers/r-biomartr/1.0.3--r42h3342da4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

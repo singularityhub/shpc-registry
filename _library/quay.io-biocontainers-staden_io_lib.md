@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staden_io_lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staden_io_lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staden_io_lib/container.yaml"
-updated_at: "2023-06-12 04:33:07.855122"
+updated_at: "2023-06-13 02:51:25.972241"
 latest: "1.14.14--h9ed8d9f_6"
 container_url: "https://biocontainers.pro/tools/staden_io_lib"
 aliases:

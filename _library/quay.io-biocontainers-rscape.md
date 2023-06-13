@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rscape/container.yaml"
-updated_at: "2023-06-12 04:50:26.348211"
-latest: "1.4.0--h87f3376_2"
+updated_at: "2023-06-13 03:03:02.592596"
+latest: "1.4.0--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/rscape"
 aliases:
  - "FUNCS.pm"
@@ -34,8 +34,9 @@ aliases:
  - "nspr-config"
 versions:
  - "1.4.0--h87f3376_2"
+ - "1.4.0--hdbdd923_4"
 description: "shpc-registry automated BioContainers addition for rscape"
-config: {"url": "https://biocontainers.pro/tools/rscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rscape", "latest": {"1.4.0--h87f3376_2": "sha256:9d7f7ca8dba7431034a3725490de563b7c744dd6f36cc1bfee66a66be89c2b4b"}, "tags": {"1.4.0--h87f3376_2": "sha256:9d7f7ca8dba7431034a3725490de563b7c744dd6f36cc1bfee66a66be89c2b4b"}, "docker": "quay.io/biocontainers/rscape", "aliases": {"FUNCS.pm": "/usr/local/bin/FUNCS.pm", "MetamakeDemos.pl": "/usr/local/bin/MetamakeDemos.pl", "PDBFUNCS.pm": "/usr/local/bin/PDBFUNCS.pm", "R-scape": "/usr/local/bin/R-scape", "R-scape-sim": "/usr/local/bin/R-scape-sim", "R-scape-sim-nobps": "/usr/local/bin/R-scape-sim-nobps", "R-view": "/usr/local/bin/R-view", "SelectSubFamilyFromStockholm.pl": "/usr/local/bin/SelectSubFamilyFromStockholm.pl", "Stockholm.pm": "/usr/local/bin/Stockholm.pm", "appcov": "/usr/local/bin/appcov", "msafilter": "/usr/local/bin/msafilter", "pdb_parse.pl": "/usr/local/bin/pdb_parse.pl", "r2r": "/usr/local/bin/r2r", "r2r_msa_comply.pl": "/usr/local/bin/r2r_msa_comply.pl", "chrpath": "/usr/local/bin/chrpath", "gnuplot": "/usr/local/bin/gnuplot", "FastTree": "/usr/local/bin/FastTree", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config"}}
+config: {"url": "https://biocontainers.pro/tools/rscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rscape", "latest": {"1.4.0--hdbdd923_4": "sha256:c70e5b9a161c9fa5d035b807d8cffb4105c3b5d343f4b520ce318c5a2e30575d"}, "tags": {"1.4.0--h87f3376_2": "sha256:9d7f7ca8dba7431034a3725490de563b7c744dd6f36cc1bfee66a66be89c2b4b", "1.4.0--hdbdd923_4": "sha256:c70e5b9a161c9fa5d035b807d8cffb4105c3b5d343f4b520ce318c5a2e30575d"}, "docker": "quay.io/biocontainers/rscape", "aliases": {"FUNCS.pm": "/usr/local/bin/FUNCS.pm", "MetamakeDemos.pl": "/usr/local/bin/MetamakeDemos.pl", "PDBFUNCS.pm": "/usr/local/bin/PDBFUNCS.pm", "R-scape": "/usr/local/bin/R-scape", "R-scape-sim": "/usr/local/bin/R-scape-sim", "R-scape-sim-nobps": "/usr/local/bin/R-scape-sim-nobps", "R-view": "/usr/local/bin/R-view", "SelectSubFamilyFromStockholm.pl": "/usr/local/bin/SelectSubFamilyFromStockholm.pl", "Stockholm.pm": "/usr/local/bin/Stockholm.pm", "appcov": "/usr/local/bin/appcov", "msafilter": "/usr/local/bin/msafilter", "pdb_parse.pl": "/usr/local/bin/pdb_parse.pl", "r2r": "/usr/local/bin/r2r", "r2r_msa_comply.pl": "/usr/local/bin/r2r_msa_comply.pl", "chrpath": "/usr/local/bin/chrpath", "gnuplot": "/usr/local/bin/gnuplot", "FastTree": "/usr/local/bin/FastTree", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rscape.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/rscape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rscape:1.4.0--h87f3376_2
+$ shpc install quay.io/biocontainers/rscape:1.4.0--hdbdd923_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rscape/1.4.0--h87f3376_2
-$ module help quay.io/biocontainers/rscape/1.4.0--h87f3376_2
+$ module load quay.io/biocontainers/rscape/1.4.0--hdbdd923_4
+$ module help quay.io/biocontainers/rscape/1.4.0--hdbdd923_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

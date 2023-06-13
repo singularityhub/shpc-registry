@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hicdcplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdcplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdcplus/container.yaml"
-updated_at: "2023-06-12 04:59:47.191370"
-latest: "1.6.0--r42hc247a5b_0"
+updated_at: "2023-06-13 03:09:53.638744"
+latest: "1.6.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdcplus"
 aliases:
  - "glpsol"
 versions:
  - "1.2.1--r41hc247a5b_1"
  - "1.6.0--r42hc247a5b_0"
+ - "1.6.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hicdcplus"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdcplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdcplus", "latest": {"1.6.0--r42hc247a5b_0": "sha256:2e4d62e6812c7619a1c4e202eba328880465a3785ba5fbf27b6b54aa5fccc7b6"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd", "1.6.0--r42hc247a5b_0": "sha256:2e4d62e6812c7619a1c4e202eba328880465a3785ba5fbf27b6b54aa5fccc7b6"}, "docker": "quay.io/biocontainers/bioconductor-hicdcplus", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdcplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdcplus", "latest": {"1.6.0--r42hf17093f_1": "sha256:689b796b7a5ee52a21323f46e9ba6ec29010981697703f0771d9bd1449ab58cd"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd", "1.6.0--r42hc247a5b_0": "sha256:2e4d62e6812c7619a1c4e202eba328880465a3785ba5fbf27b6b54aa5fccc7b6", "1.6.0--r42hf17093f_1": "sha256:689b796b7a5ee52a21323f46e9ba6ec29010981697703f0771d9bd1449ab58cd"}, "docker": "quay.io/biocontainers/bioconductor-hicdcplus", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicdcplus.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hicdcplus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hicdcplus:1.6.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-hicdcplus:1.6.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hicdcplus/1.6.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-hicdcplus/1.6.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-hicdcplus/1.6.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-hicdcplus/1.6.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

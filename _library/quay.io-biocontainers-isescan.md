@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isescan/container.yaml"
-updated_at: "2023-06-12 05:16:47.427440"
-latest: "1.7.2.3--hec16e2b_1"
+updated_at: "2023-06-13 03:22:27.074842"
+latest: "1.7.2.3--h031d066_2"
 container_url: "https://biocontainers.pro/tools/isescan"
 aliases:
  - "FragGeneScan"
@@ -30,8 +30,9 @@ aliases:
  - "disambiguate-nucleotides"
 versions:
  - "1.7.2.3--hec16e2b_1"
+ - "1.7.2.3--h031d066_2"
 description: "shpc-registry automated BioContainers addition for isescan"
-config: {"url": "https://biocontainers.pro/tools/isescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isescan", "latest": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab"}, "tags": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab"}, "docker": "quay.io/biocontainers/isescan", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "constants.py": "/usr/local/bin/constants.py", "isPredict.py": "/usr/local/bin/isPredict.py", "is_analysis.py": "/usr/local/bin/is_analysis.py", "isescan.py": "/usr/local/bin/isescan.py", "pred.py": "/usr/local/bin/pred.py", "pyssw.py": "/usr/local/bin/pyssw.py", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "ssw_wrap.py": "/usr/local/bin/ssw_wrap.py", "tools.py": "/usr/local/bin/tools.py", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/isescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isescan", "latest": {"1.7.2.3--h031d066_2": "sha256:aa356d6320bd08b745eb5844885c56c94b14f3ede8270e622c94fde14896c392"}, "tags": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab", "1.7.2.3--h031d066_2": "sha256:aa356d6320bd08b745eb5844885c56c94b14f3ede8270e622c94fde14896c392"}, "docker": "quay.io/biocontainers/isescan", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "constants.py": "/usr/local/bin/constants.py", "isPredict.py": "/usr/local/bin/isPredict.py", "is_analysis.py": "/usr/local/bin/is_analysis.py", "isescan.py": "/usr/local/bin/isescan.py", "pred.py": "/usr/local/bin/pred.py", "pyssw.py": "/usr/local/bin/pyssw.py", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "ssw_wrap.py": "/usr/local/bin/ssw_wrap.py", "tools.py": "/usr/local/bin/tools.py", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isescan.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/isescan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isescan:1.7.2.3--hec16e2b_1
+$ shpc install quay.io/biocontainers/isescan:1.7.2.3--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isescan/1.7.2.3--hec16e2b_1
-$ module help quay.io/biocontainers/isescan/1.7.2.3--hec16e2b_1
+$ module load quay.io/biocontainers/isescan/1.7.2.3--h031d066_2
+$ module help quay.io/biocontainers/isescan/1.7.2.3--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

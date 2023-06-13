@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-methylkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylkit/container.yaml"
-updated_at: "2023-06-12 04:30:00.462444"
-latest: "1.24.0--r42hc247a5b_0"
+updated_at: "2023-06-13 02:49:01.834749"
+latest: "1.24.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylkit"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.18.0--r41h399db7b_0"
  - "1.16.1--r40h399db7b_0"
  - "1.14.1--r40h5f743cb_0"
+ - "1.24.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylkit"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylkit", "latest": {"1.24.0--r42hc247a5b_0": "sha256:2fafe50bdc5b1c4b395a43252a96e01ff19625f6b1191e1f9e0037a7f9caf7be"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:909ebe59da99357056b614d693d766fdc8a7c3fb13b40aac7415771485a7eb9d", "1.24.0--r42hc247a5b_0": "sha256:2fafe50bdc5b1c4b395a43252a96e01ff19625f6b1191e1f9e0037a7f9caf7be", "1.20.0--r41hc247a5b_2": "sha256:d79515869b0ed0abc0a10a8a002446cc5c54803b6e203ff76b8faba2a85b07d3", "1.18.0--r41h399db7b_0": "sha256:d07b8d2b40ccc89d3a5aba404c9838896cbbac923f5cba687dc925f5c4fc3550", "1.16.1--r40h399db7b_0": "sha256:6588ac83ebe4805f4d7b561d5db04e8c6ae240fb52659e9cd250ac4c5e326c0a", "1.14.1--r40h5f743cb_0": "sha256:fc3f51fa17884aca1ef397ec56a8c7bdf2a444a7dac398da556afa8fcbc0d8d3"}, "docker": "quay.io/biocontainers/bioconductor-methylkit", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylkit", "latest": {"1.24.0--r42hf17093f_1": "sha256:a41620e457db22d376f2c452e6bf75f84ed2100e1285f12b13ee40562d343a51"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:909ebe59da99357056b614d693d766fdc8a7c3fb13b40aac7415771485a7eb9d", "1.24.0--r42hc247a5b_0": "sha256:2fafe50bdc5b1c4b395a43252a96e01ff19625f6b1191e1f9e0037a7f9caf7be", "1.20.0--r41hc247a5b_2": "sha256:d79515869b0ed0abc0a10a8a002446cc5c54803b6e203ff76b8faba2a85b07d3", "1.18.0--r41h399db7b_0": "sha256:d07b8d2b40ccc89d3a5aba404c9838896cbbac923f5cba687dc925f5c4fc3550", "1.16.1--r40h399db7b_0": "sha256:6588ac83ebe4805f4d7b561d5db04e8c6ae240fb52659e9cd250ac4c5e326c0a", "1.14.1--r40h5f743cb_0": "sha256:fc3f51fa17884aca1ef397ec56a8c7bdf2a444a7dac398da556afa8fcbc0d8d3", "1.24.0--r42hf17093f_1": "sha256:a41620e457db22d376f2c452e6bf75f84ed2100e1285f12b13ee40562d343a51"}, "docker": "quay.io/biocontainers/bioconductor-methylkit", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylkit.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylkit:1.24.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-methylkit:1.24.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylkit/1.24.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-methylkit/1.24.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-methylkit/1.24.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-methylkit/1.24.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

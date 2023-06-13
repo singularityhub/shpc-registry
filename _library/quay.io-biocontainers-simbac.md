@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/simbac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simbac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simbac/container.yaml"
-updated_at: "2023-06-12 04:33:29.438430"
-latest: "0.1a--h5e66344_4"
+updated_at: "2023-06-13 02:51:42.801128"
+latest: "0.1a--h0432e7c_5"
 container_url: "https://biocontainers.pro/tools/simbac"
 aliases:
  - "SimBac"
 versions:
  - "0.1a--h5e66344_3"
  - "0.1a--h5e66344_4"
+ - "0.1a--h0432e7c_5"
 description: "shpc-registry automated BioContainers addition for simbac"
-config: {"url": "https://biocontainers.pro/tools/simbac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simbac", "latest": {"0.1a--h5e66344_4": "sha256:d6f334cc7d9c9c8440e2a1a2c328de457280dd9b9a4363ac4513862e8a84761a"}, "tags": {"0.1a--h5e66344_3": "sha256:b8974e0721471901c6e3fc5c15469e98196c33ef7fa55e885abd6b65d5800f2b", "0.1a--h5e66344_4": "sha256:d6f334cc7d9c9c8440e2a1a2c328de457280dd9b9a4363ac4513862e8a84761a"}, "docker": "quay.io/biocontainers/simbac", "aliases": {"SimBac": "/usr/local/bin/SimBac"}}
+config: {"url": "https://biocontainers.pro/tools/simbac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simbac", "latest": {"0.1a--h0432e7c_5": "sha256:a8f002174c77cc113fc026cb2d9b01866546d6e7123cc3bb2848be0db02daa16"}, "tags": {"0.1a--h5e66344_3": "sha256:b8974e0721471901c6e3fc5c15469e98196c33ef7fa55e885abd6b65d5800f2b", "0.1a--h5e66344_4": "sha256:99bbd37117fdaef056509ef502008fceb765480f23e82fff295bea7cbd0fca8b", "0.1a--h0432e7c_5": "sha256:a8f002174c77cc113fc026cb2d9b01866546d6e7123cc3bb2848be0db02daa16"}, "docker": "quay.io/biocontainers/simbac", "aliases": {"SimBac": "/usr/local/bin/SimBac"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simbac.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/simbac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simbac:0.1a--h5e66344_4
+$ shpc install quay.io/biocontainers/simbac:0.1a--h0432e7c_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simbac/0.1a--h5e66344_4
-$ module help quay.io/biocontainers/simbac/0.1a--h5e66344_4
+$ module load quay.io/biocontainers/simbac/0.1a--h0432e7c_5
+$ module help quay.io/biocontainers/simbac/0.1a--h0432e7c_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

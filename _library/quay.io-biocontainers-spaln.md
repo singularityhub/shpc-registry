@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spaln/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spaln/container.yaml"
-updated_at: "2023-06-12 04:57:12.199934"
-latest: "2.4.13--pl5321h9f5acd7_1"
+updated_at: "2023-06-13 03:07:57.759363"
+latest: "2.4.13--pl5321h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/spaln"
 aliases:
  - "catchr.pl"
@@ -22,8 +22,9 @@ versions:
  - "2.4.9--pl5321hd03093a_0"
  - "2.4.13--pl5321h9f5acd7_0"
  - "2.4.13--pl5321h9f5acd7_1"
+ - "2.4.13--pl5321h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for spaln"
-config: {"url": "https://biocontainers.pro/tools/spaln", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spaln", "latest": {"2.4.13--pl5321h9f5acd7_1": "sha256:c73fabba2559945cfe6b58910b75e0c520c4ae7a816726dbe3072ffbff8e4dab"}, "tags": {"2.4.9--pl5321hd03093a_0": "sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858", "2.4.13--pl5321h9f5acd7_0": "sha256:56acb30ea1b953c21a8e8e76d7ba6118bbcf9860f2dcd3e4a4fda66b75400927", "2.4.13--pl5321h9f5acd7_1": "sha256:c73fabba2559945cfe6b58910b75e0c520c4ae7a816726dbe3072ffbff8e4dab"}, "docker": "quay.io/biocontainers/spaln", "aliases": {"catchr.pl": "/usr/local/bin/catchr.pl", "makblk.pl": "/usr/local/bin/makblk.pl", "makdbs": "/usr/local/bin/makdbs", "makeidx.pl": "/usr/local/bin/makeidx.pl", "makmdm": "/usr/local/bin/makmdm", "sortgrcd": "/usr/local/bin/sortgrcd", "spaln": "/usr/local/bin/spaln", "spspaln.pl": "/usr/local/bin/spspaln.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/spaln", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spaln", "latest": {"2.4.13--pl5321h4ac6f70_2": "sha256:a70af0d5daf8c0e9d13d8d7bd6f8f5230ecbd8c7d016c0d7e636047c4e710fcf"}, "tags": {"2.4.9--pl5321hd03093a_0": "sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858", "2.4.13--pl5321h9f5acd7_0": "sha256:56acb30ea1b953c21a8e8e76d7ba6118bbcf9860f2dcd3e4a4fda66b75400927", "2.4.13--pl5321h9f5acd7_1": "sha256:2ace59f46140dd2ab4d8abba3fb31b2c0fa227e01b7c53e95f0c5ce396effb73", "2.4.13--pl5321h4ac6f70_2": "sha256:a70af0d5daf8c0e9d13d8d7bd6f8f5230ecbd8c7d016c0d7e636047c4e710fcf"}, "docker": "quay.io/biocontainers/spaln", "aliases": {"catchr.pl": "/usr/local/bin/catchr.pl", "makblk.pl": "/usr/local/bin/makblk.pl", "makdbs": "/usr/local/bin/makdbs", "makeidx.pl": "/usr/local/bin/makeidx.pl", "makmdm": "/usr/local/bin/makmdm", "sortgrcd": "/usr/local/bin/sortgrcd", "spaln": "/usr/local/bin/spaln", "spspaln.pl": "/usr/local/bin/spspaln.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spaln.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/spaln
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spaln:2.4.13--pl5321h9f5acd7_1
+$ shpc install quay.io/biocontainers/spaln:2.4.13--pl5321h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spaln/2.4.13--pl5321h9f5acd7_1
-$ module help quay.io/biocontainers/spaln/2.4.13--pl5321h9f5acd7_1
+$ module load quay.io/biocontainers/spaln/2.4.13--pl5321h4ac6f70_2
+$ module help quay.io/biocontainers/spaln/2.4.13--pl5321h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

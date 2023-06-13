@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipcomp/container.yaml"
-updated_at: "2023-06-12 05:17:36.647004"
-latest: "1.28.0--r42hc0cfd56_0"
+updated_at: "2023-06-13 03:23:03.874177"
+latest: "1.28.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipcomp"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.22.0--r41hd029910_0"
  - "1.20.0--r40hd029910_2"
  - "1.18.0--r40h037d062_0"
+ - "1.28.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipcomp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipcomp", "latest": {"1.28.0--r42hc0cfd56_0": "sha256:3242eeb5c6cdaa895981a524ecc7dbbdfb174293acb3bc5272548ebc22ecb618"}, "tags": {"1.8.0--r3.4.1_0": "sha256:0b04e3775e9354d1d1d6c39c9ec6d62a9cf8c3a6d1b03d041f834d560876cd7c", "1.28.0--r42hc0cfd56_0": "sha256:3242eeb5c6cdaa895981a524ecc7dbbdfb174293acb3bc5272548ebc22ecb618", "1.24.0--r41hc0cfd56_2": "sha256:6c7996496037c75005709d09eaf0bbda3296184dba6c2675fe8b3e6b9ed76d65", "1.22.0--r41hd029910_0": "sha256:22a5715f03cad9d4a0de62bb077df1fd6eb924e126ece4c0fb4fa819667c28d5", "1.20.0--r40hd029910_2": "sha256:2a1291444a97e9b451d3f00c4594b34d23040a9c4e1fbefe29e076ad4556cf73", "1.18.0--r40h037d062_0": "sha256:b4ab7d51dd1ad62c2ce0d5d834e81b42d7ba245a4d2a649ba12da0a7718e7746"}, "docker": "quay.io/biocontainers/bioconductor-chipcomp", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipcomp", "latest": {"1.28.0--r42ha9d7317_1": "sha256:fb0b46fedf494a4c4f08493db85ceb1fcbfd52bf21023019e2ddacc6bb027430"}, "tags": {"1.8.0--r3.4.1_0": "sha256:0b04e3775e9354d1d1d6c39c9ec6d62a9cf8c3a6d1b03d041f834d560876cd7c", "1.28.0--r42hc0cfd56_0": "sha256:3242eeb5c6cdaa895981a524ecc7dbbdfb174293acb3bc5272548ebc22ecb618", "1.24.0--r41hc0cfd56_2": "sha256:6c7996496037c75005709d09eaf0bbda3296184dba6c2675fe8b3e6b9ed76d65", "1.22.0--r41hd029910_0": "sha256:22a5715f03cad9d4a0de62bb077df1fd6eb924e126ece4c0fb4fa819667c28d5", "1.20.0--r40hd029910_2": "sha256:2a1291444a97e9b451d3f00c4594b34d23040a9c4e1fbefe29e076ad4556cf73", "1.18.0--r40h037d062_0": "sha256:b4ab7d51dd1ad62c2ce0d5d834e81b42d7ba245a4d2a649ba12da0a7718e7746", "1.28.0--r42ha9d7317_1": "sha256:fb0b46fedf494a4c4f08493db85ceb1fcbfd52bf21023019e2ddacc6bb027430"}, "docker": "quay.io/biocontainers/bioconductor-chipcomp", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipcomp.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipcomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipcomp:1.28.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-chipcomp:1.28.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipcomp/1.28.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-chipcomp/1.28.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-chipcomp/1.28.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-chipcomp/1.28.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
