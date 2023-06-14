@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/py2bit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for py2bit
 latest:
-  0.3.0--py310h1425a21_7: sha256:87deddb5652581e0790472d2ef1f5ea07883d764daa895127750084a281acbeb
+  0.3.0--py39hf95cd2a_8: sha256:e30553b4632bc4ab4270a6bffdb2a883cc4eaeffee7661c26875f60c3cabb7fa
 tags:
   0.3.0--py38hbff2b2d_6: sha256:1a862eb1ecd5913bd7b4834f327f18bb26ab9b0f6e20d8141a3c77ee01c58296
   0.3.0--py310h1425a21_7: sha256:87deddb5652581e0790472d2ef1f5ea07883d764daa895127750084a281acbeb
+  0.3.0--py39hf95cd2a_8: sha256:e30553b4632bc4ab4270a6bffdb2a883cc4eaeffee7661c26875f60c3cabb7fa
 docker: quay.io/biocontainers/py2bit
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

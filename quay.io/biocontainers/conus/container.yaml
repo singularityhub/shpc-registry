@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/conus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for conus
 latest:
-  1.0--hec16e2b_4: sha256:97d5be833eb1f96ab3f952a8947c9004759417bb47c2565db17d99a7a4ae16e7
+  1.0--h031d066_5: sha256:6cb51319c4f8945d17763f5fccec058473c7cf7e836379b11a28df777014f190
 tags:
   1.0--hec16e2b_3: sha256:023454dfb3eff56eba8120e57ad9676f43db6a540a8256a1790f430c3bd35901
   1.0--hec16e2b_4: sha256:97d5be833eb1f96ab3f952a8947c9004759417bb47c2565db17d99a7a4ae16e7
+  1.0--h031d066_5: sha256:6cb51319c4f8945d17763f5fccec058473c7cf7e836379b11a28df777014f190
 docker: quay.io/biocontainers/conus
 aliases:
   ambtest: /usr/local/bin/ambtest

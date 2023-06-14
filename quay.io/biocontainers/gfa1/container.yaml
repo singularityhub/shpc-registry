@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gfa1
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gfa1
 latest:
-  0.53.alpha--h7132678_1: sha256:be9b026fc2527e86ab561257ed978637b1c2cd707de0c48c4a242830ad2ececd
+  0.53.alpha--he4a0461_2: sha256:1665da30c47769d82aa2085b4582696af49c6f3a29688df22f6b4c0776a9f391
 tags:
   0.53.alpha--h7132678_0: sha256:f42d02eb1cc0ffab97d0fd992fa16374fd61fb22a7348c747db2755da1e96474
   0.53.alpha--h7132678_1: sha256:be9b026fc2527e86ab561257ed978637b1c2cd707de0c48c4a242830ad2ececd
+  0.53.alpha--he4a0461_2: sha256:1665da30c47769d82aa2085b4582696af49c6f3a29688df22f6b4c0776a9f391
 docker: quay.io/biocontainers/gfa1
 aliases:
   falcon2gfa: /usr/local/bin/falcon2gfa

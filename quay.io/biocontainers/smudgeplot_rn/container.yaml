@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/smudgeplot_rn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smudgeplot_rn
 latest:
-  0.2.5_RN--py311r42hec16e2b_4: sha256:1a34e0b12d461a230a398c86c13b68520d8f8f42c32712ac7d58801212131b97
+  0.2.5_RN--py311r42h031d066_5: sha256:bf6bef3e8916d1e1427efee5f3aa6a3a047926bfab46b90487224e47bb3a4803
 tags:
   0.2.5_RN--py310r41h779adbc_2: sha256:65153eb99b634041fe41c4ea1fe070367b2dc23ddae94d7fe260a95d28defefb
   0.2.5_RN--py311r42hec16e2b_4: sha256:1a34e0b12d461a230a398c86c13b68520d8f8f42c32712ac7d58801212131b97
+  0.2.5_RN--py311r42h031d066_5: sha256:bf6bef3e8916d1e1427efee5f3aa6a3a047926bfab46b90487224e47bb3a4803
 docker: quay.io/biocontainers/smudgeplot_rn
 aliases:
   smudgeplot.py: /usr/local/bin/smudgeplot.py

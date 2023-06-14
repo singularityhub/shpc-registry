@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-scoper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-scoper
 latest:
-  1.2.1--r42hecf12ef_1: sha256:0feda596bfef14250e3636c36080f1bf06f6febd5918664c1fc62adc75619514
+  1.2.1--r42h21a89ab_2: sha256:da832cfbc262734bd359db2acec6798259a2cfb9eaaa6726f85c9ae18579f9ce
 tags:
   1.2.1--r42hecf12ef_1: sha256:0feda596bfef14250e3636c36080f1bf06f6febd5918664c1fc62adc75619514
+  1.2.1--r42h21a89ab_2: sha256:da832cfbc262734bd359db2acec6798259a2cfb9eaaa6726f85c9ae18579f9ce
 docker: quay.io/biocontainers/r-scoper
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

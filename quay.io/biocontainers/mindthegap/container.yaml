@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mindthegap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mindthegap
 latest:
-  2.3.0--hd03093a_2: sha256:825aa6d341f3e8153c63c6a9a9b2f15850cf8b1d258ab0fbbacd4fa6e8f3b6d4
+  2.3.0--hdcf5f25_3: sha256:571eabf983ba9288549f87401b12275b056849fae941831f8a4da18023b7fbf0
 tags:
   2.3.0--hd03093a_1: sha256:9a4c61eb00c2b9b64235adb72e93acb22483e447c80ca3b5f340cbf488af5179
   2.3.0--hd03093a_2: sha256:825aa6d341f3e8153c63c6a9a9b2f15850cf8b1d258ab0fbbacd4fa6e8f3b6d4
+  2.3.0--hdcf5f25_3: sha256:571eabf983ba9288549f87401b12275b056849fae941831f8a4da18023b7fbf0
 docker: quay.io/biocontainers/mindthegap
 aliases:
   MindTheGap: /usr/local/bin/MindTheGap

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bactopia-assembler
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bactopia-assembler
 latest:
-  1.0.1--hdfd78af_0: sha256:5d36cb27f72544a3809bbd3c71d41ef4418fa693da83bb095491ead29d372926
+  1.0.2--hdfd78af_0: sha256:2364e26311ce2e1acc2dbf2d3e378a49e984ca59d393c8941e920b2efe0cc199
 tags:
   1.0.1--hdfd78af_0: sha256:5d36cb27f72544a3809bbd3c71d41ef4418fa693da83bb095491ead29d372926
+  1.0.2--hdfd78af_0: sha256:2364e26311ce2e1acc2dbf2d3e378a49e984ca59d393c8941e920b2efe0cc199
 docker: quay.io/biocontainers/bactopia-assembler
 aliases:
   assembly-scan: /usr/local/bin/assembly-scan

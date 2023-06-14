@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/prophex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for prophex
 latest:
-  0.1.1--h7132678_4: sha256:198c57c974a4ec2dced0557018d7b29f40e3f67ced0cd5dc65554e506fa9a824
+  0.1.1--he4a0461_5: sha256:2ceb8948b221d46cf25f4af238c412d65b646ffbbd4b64da0b8cb48ab4daa976
 tags:
   0.1.1--h7132678_3: sha256:d1e9926dbe7546f027d828acf08759bdbf80fce3cbbdaba00752e15e48cc619b
   0.1.1--h7132678_4: sha256:198c57c974a4ec2dced0557018d7b29f40e3f67ced0cd5dc65554e506fa9a824
+  0.1.1--he4a0461_5: sha256:2ceb8948b221d46cf25f4af238c412d65b646ffbbd4b64da0b8cb48ab4daa976
 docker: quay.io/biocontainers/prophex
 aliases:
   prophex: /usr/local/bin/prophex
