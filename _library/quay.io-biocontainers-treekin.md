@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treekin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treekin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treekin/container.yaml"
-updated_at: "2023-06-13 02:49:30.410590"
-latest: "0.5.1--hc6f38ce_3"
+updated_at: "2023-06-14 02:48:27.663670"
+latest: "0.5.1--hf3d7b6d_4"
 container_url: "https://biocontainers.pro/tools/treekin"
 aliases:
  - "qd-config"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.5.1--hc6f38ce_2"
  - "0.5.1--hc6f38ce_3"
+ - "0.5.1--hf3d7b6d_4"
 description: "shpc-registry automated BioContainers addition for treekin"
-config: {"url": "https://biocontainers.pro/tools/treekin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treekin", "latest": {"0.5.1--hc6f38ce_3": "sha256:cbccc9ce38c3cfd6de133631df629f51797d709a3d877a0f4bebc7612e475738"}, "tags": {"0.5.1--hc6f38ce_2": "sha256:98a3ac9e950a5636288d1cf83bb1e331cc9336d8e8336a479936e094843ac865", "0.5.1--hc6f38ce_3": "sha256:cbccc9ce38c3cfd6de133631df629f51797d709a3d877a0f4bebc7612e475738"}, "docker": "quay.io/biocontainers/treekin", "aliases": {"qd-config": "/usr/local/bin/qd-config", "treekin": "/usr/local/bin/treekin"}}
+config: {"url": "https://biocontainers.pro/tools/treekin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treekin", "latest": {"0.5.1--hf3d7b6d_4": "sha256:d13a42f26ce0f23bfc8beb3caa65297a3aaf0cb786b5fa8811067f6022172e34"}, "tags": {"0.5.1--hc6f38ce_2": "sha256:98a3ac9e950a5636288d1cf83bb1e331cc9336d8e8336a479936e094843ac865", "0.5.1--hc6f38ce_3": "sha256:3f2010a154d6c9031960378fe2c01dca0341038c57d41056be55328d162e5aab", "0.5.1--hf3d7b6d_4": "sha256:d13a42f26ce0f23bfc8beb3caa65297a3aaf0cb786b5fa8811067f6022172e34"}, "docker": "quay.io/biocontainers/treekin", "aliases": {"qd-config": "/usr/local/bin/qd-config", "treekin": "/usr/local/bin/treekin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treekin.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/treekin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treekin:0.5.1--hc6f38ce_3
+$ shpc install quay.io/biocontainers/treekin:0.5.1--hf3d7b6d_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treekin/0.5.1--hc6f38ce_3
-$ module help quay.io/biocontainers/treekin/0.5.1--hc6f38ce_3
+$ module load quay.io/biocontainers/treekin/0.5.1--hf3d7b6d_4
+$ module help quay.io/biocontainers/treekin/0.5.1--hf3d7b6d_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

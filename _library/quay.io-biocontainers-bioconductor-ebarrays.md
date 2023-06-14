@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ebarrays"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ebarrays/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ebarrays/container.yaml"
-updated_at: "2023-06-13 03:00:47.741803"
-latest: "2.62.0--r42hc0cfd56_0"
+updated_at: "2023-06-14 02:59:39.938034"
+latest: "2.62.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ebarrays"
 
 versions:
  - "2.58.0--r41hc0cfd56_2"
  - "2.62.0--r42hc0cfd56_0"
+ - "2.62.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ebarrays"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ebarrays", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebarrays", "latest": {"2.62.0--r42hc0cfd56_0": "sha256:658fb16ff8cb1ff517fa70a6919e787e8410ecf09ed3fb6decfbf7afe8fe22db"}, "tags": {"2.58.0--r41hc0cfd56_2": "sha256:33b1d46cbff32e9aa14d918ab97b366f58da70739d16c60997a871226ac6dcfa", "2.62.0--r42hc0cfd56_0": "sha256:658fb16ff8cb1ff517fa70a6919e787e8410ecf09ed3fb6decfbf7afe8fe22db"}, "docker": "quay.io/biocontainers/bioconductor-ebarrays"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ebarrays", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebarrays", "latest": {"2.62.0--r42ha9d7317_1": "sha256:82dd6d99e868fdf040170fae1e92ce7d88f4fe276fb0839e41929ac0fd5f6091"}, "tags": {"2.58.0--r41hc0cfd56_2": "sha256:33b1d46cbff32e9aa14d918ab97b366f58da70739d16c60997a871226ac6dcfa", "2.62.0--r42hc0cfd56_0": "sha256:658fb16ff8cb1ff517fa70a6919e787e8410ecf09ed3fb6decfbf7afe8fe22db", "2.62.0--r42ha9d7317_1": "sha256:82dd6d99e868fdf040170fae1e92ce7d88f4fe276fb0839e41929ac0fd5f6091"}, "docker": "quay.io/biocontainers/bioconductor-ebarrays"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ebarrays.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ebarrays
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ebarrays:2.62.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-ebarrays:2.62.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ebarrays/2.62.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-ebarrays/2.62.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-ebarrays/2.62.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-ebarrays/2.62.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

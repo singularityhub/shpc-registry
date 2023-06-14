@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-class-xsaccessor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-xsaccessor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-xsaccessor/container.yaml"
-updated_at: "2023-06-13 03:14:34.042248"
-latest: "1.19--pl5321hec16e2b_5"
+updated_at: "2023-06-14 03:13:26.577414"
+latest: "1.19--pl5321h031d066_6"
 container_url: "https://biocontainers.pro/tools/perl-class-xsaccessor"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.19--pl5321hec16e2b_5"
+ - "1.19--pl5321h031d066_6"
 description: "shpc-registry automated BioContainers addition for perl-class-xsaccessor"
-config: {"url": "https://biocontainers.pro/tools/perl-class-xsaccessor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-xsaccessor", "latest": {"1.19--pl5321hec16e2b_5": "sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446"}, "tags": {"1.19--pl5321hec16e2b_5": "sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446"}, "docker": "quay.io/biocontainers/perl-class-xsaccessor", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-class-xsaccessor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-xsaccessor", "latest": {"1.19--pl5321h031d066_6": "sha256:0206f0da3399a6abb1fa1682295add6067c862bac08bdd348d0010b7682a7e80"}, "tags": {"1.19--pl5321hec16e2b_5": "sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446", "1.19--pl5321h031d066_6": "sha256:0206f0da3399a6abb1fa1682295add6067c862bac08bdd348d0010b7682a7e80"}, "docker": "quay.io/biocontainers/perl-class-xsaccessor", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-class-xsaccessor.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-class-xsaccessor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-class-xsaccessor:1.19--pl5321hec16e2b_5
+$ shpc install quay.io/biocontainers/perl-class-xsaccessor:1.19--pl5321h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-class-xsaccessor/1.19--pl5321hec16e2b_5
-$ module help quay.io/biocontainers/perl-class-xsaccessor/1.19--pl5321hec16e2b_5
+$ module load quay.io/biocontainers/perl-class-xsaccessor/1.19--pl5321h031d066_6
+$ module help quay.io/biocontainers/perl-class-xsaccessor/1.19--pl5321h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

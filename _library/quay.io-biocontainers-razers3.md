@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/razers3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/razers3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/razers3/container.yaml"
-updated_at: "2023-06-13 02:56:06.656030"
-latest: "3.5.8--h19e8d03_3"
+updated_at: "2023-06-14 02:55:00.656906"
+latest: "3.5.8--h6dccd9a_4"
 container_url: "https://biocontainers.pro/tools/razers3"
 aliases:
  - "razers3"
 versions:
  - "3.5.8--h19e8d03_2"
  - "3.5.8--h19e8d03_3"
+ - "3.5.8--h6dccd9a_4"
 description: "shpc-registry automated BioContainers addition for razers3"
-config: {"url": "https://biocontainers.pro/tools/razers3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for razers3", "latest": {"3.5.8--h19e8d03_3": "sha256:3b029bec8af6bdd00a79a510927e89179cee6f388b1f8355e99df0809f3d6945"}, "tags": {"3.5.8--h19e8d03_2": "sha256:6fa1a8edecb657c83c35570973ccffb55309006e0b9f68e8c32ee7300b055cae", "3.5.8--h19e8d03_3": "sha256:3b029bec8af6bdd00a79a510927e89179cee6f388b1f8355e99df0809f3d6945"}, "docker": "quay.io/biocontainers/razers3", "aliases": {"razers3": "/usr/local/bin/razers3"}}
+config: {"url": "https://biocontainers.pro/tools/razers3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for razers3", "latest": {"3.5.8--h6dccd9a_4": "sha256:2d65a111d157a968ab96dbdd23ca6bdc4e7f69a4114c0c60f3197b99ca379b31"}, "tags": {"3.5.8--h19e8d03_2": "sha256:6fa1a8edecb657c83c35570973ccffb55309006e0b9f68e8c32ee7300b055cae", "3.5.8--h19e8d03_3": "sha256:3b029bec8af6bdd00a79a510927e89179cee6f388b1f8355e99df0809f3d6945", "3.5.8--h6dccd9a_4": "sha256:2d65a111d157a968ab96dbdd23ca6bdc4e7f69a4114c0c60f3197b99ca379b31"}, "docker": "quay.io/biocontainers/razers3", "aliases": {"razers3": "/usr/local/bin/razers3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/razers3.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/razers3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/razers3:3.5.8--h19e8d03_3
+$ shpc install quay.io/biocontainers/razers3:3.5.8--h6dccd9a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/razers3/3.5.8--h19e8d03_3
-$ module help quay.io/biocontainers/razers3/3.5.8--h19e8d03_3
+$ module load quay.io/biocontainers/razers3/3.5.8--h6dccd9a_4
+$ module help quay.io/biocontainers/razers3/3.5.8--h6dccd9a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/transrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transrate/container.yaml"
-updated_at: "2023-06-13 03:11:13.851155"
-latest: "1.0.3--hec16e2b_4"
+updated_at: "2023-06-14 03:10:03.230945"
+latest: "1.0.3--h031d066_5"
 container_url: "https://biocontainers.pro/tools/transrate"
 
 versions:
  - "1.0.3--hec16e2b_4"
+ - "1.0.3--h031d066_5"
 description: "shpc-registry automated BioContainers addition for transrate"
-config: {"url": "https://biocontainers.pro/tools/transrate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transrate", "latest": {"1.0.3--hec16e2b_4": "sha256:8fd9c3da3fbd9f405b2ac878a5565fbc2d14b50ae6229f76e98e379ea6f1d003"}, "tags": {"1.0.3--hec16e2b_4": "sha256:8fd9c3da3fbd9f405b2ac878a5565fbc2d14b50ae6229f76e98e379ea6f1d003"}, "docker": "quay.io/biocontainers/transrate"}
+config: {"url": "https://biocontainers.pro/tools/transrate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transrate", "latest": {"1.0.3--h031d066_5": "sha256:58efe0f18a1b729d1ad88b105281fe6347f4bce5c4073cf3a8b3862961eb8ee3"}, "tags": {"1.0.3--hec16e2b_4": "sha256:8fd9c3da3fbd9f405b2ac878a5565fbc2d14b50ae6229f76e98e379ea6f1d003", "1.0.3--h031d066_5": "sha256:58efe0f18a1b729d1ad88b105281fe6347f4bce5c4073cf3a8b3862961eb8ee3"}, "docker": "quay.io/biocontainers/transrate"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transrate.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/transrate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transrate:1.0.3--hec16e2b_4
+$ shpc install quay.io/biocontainers/transrate:1.0.3--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transrate/1.0.3--hec16e2b_4
-$ module help quay.io/biocontainers/transrate/1.0.3--hec16e2b_4
+$ module load quay.io/biocontainers/transrate/1.0.3--h031d066_5
+$ module help quay.io/biocontainers/transrate/1.0.3--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

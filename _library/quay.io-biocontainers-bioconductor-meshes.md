@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meshes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meshes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meshes/container.yaml"
-updated_at: "2023-06-13 03:17:24.683252"
+updated_at: "2023-06-14 03:16:20.140286"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meshes"
 aliases:

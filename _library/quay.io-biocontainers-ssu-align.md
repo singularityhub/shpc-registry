@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ssu-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssu-align/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssu-align/container.yaml"
-updated_at: "2023-06-13 03:23:45.088278"
-latest: "0.1.1--hec16e2b_5"
+updated_at: "2023-06-14 03:22:42.159522"
+latest: "0.1.1--h031d066_6"
 container_url: "https://biocontainers.pro/tools/ssu-align"
 aliases:
  - "_ssu-align"
@@ -52,8 +52,9 @@ aliases:
 versions:
  - "0.1.1--hec16e2b_4"
  - "0.1.1--hec16e2b_5"
+ - "0.1.1--h031d066_6"
 description: "shpc-registry automated BioContainers addition for ssu-align"
-config: {"url": "https://biocontainers.pro/tools/ssu-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ssu-align", "latest": {"0.1.1--hec16e2b_5": "sha256:9c53d6d959feb6416bc2682d2a142953c30adc4edc1fcd39bf37947dd1a15663"}, "tags": {"0.1.1--hec16e2b_4": "sha256:aff66b1638bfc295c7be7b4b90f38b7aeee5af976e1f5a26051c064c573d751d", "0.1.1--hec16e2b_5": "sha256:9c53d6d959feb6416bc2682d2a142953c30adc4edc1fcd39bf37947dd1a15663"}, "docker": "quay.io/biocontainers/ssu-align", "aliases": {"_ssu-align": "/usr/local/bin/_ssu-align", "_ssu-build": "/usr/local/bin/_ssu-build", "_ssu-draw": "/usr/local/bin/_ssu-draw", "_ssu-mask": "/usr/local/bin/_ssu-mask", "_ssu-merge": "/usr/local/bin/_ssu-merge", "_ssu-prep": "/usr/local/bin/_ssu-prep", "ssu-align": "/usr/local/bin/ssu-align", "ssu-build": "/usr/local/bin/ssu-build", "ssu-cmalign": "/usr/local/bin/ssu-cmalign", "ssu-cmbuild": "/usr/local/bin/ssu-cmbuild", "ssu-cmcalibrate": "/usr/local/bin/ssu-cmcalibrate", "ssu-cmemit": "/usr/local/bin/ssu-cmemit", "ssu-cmfetch": "/usr/local/bin/ssu-cmfetch", "ssu-cmscore": "/usr/local/bin/ssu-cmscore", "ssu-cmsearch": "/usr/local/bin/ssu-cmsearch", "ssu-cmstat": "/usr/local/bin/ssu-cmstat", "ssu-draw": "/usr/local/bin/ssu-draw", "ssu-esl-afetch": "/usr/local/bin/ssu-esl-afetch", "ssu-esl-alimanip": "/usr/local/bin/ssu-esl-alimanip", "ssu-esl-alimap": "/usr/local/bin/ssu-esl-alimap", "ssu-esl-alimask": "/usr/local/bin/ssu-esl-alimask", "ssu-esl-alimerge": "/usr/local/bin/ssu-esl-alimerge", "ssu-esl-alistat": "/usr/local/bin/ssu-esl-alistat", "ssu-esl-cluster": "/usr/local/bin/ssu-esl-cluster", "ssu-esl-compalign": "/usr/local/bin/ssu-esl-compalign", "ssu-esl-compstruct": "/usr/local/bin/ssu-esl-compstruct", "ssu-esl-histplot": "/usr/local/bin/ssu-esl-histplot", "ssu-esl-mask": "/usr/local/bin/ssu-esl-mask", "ssu-esl-reformat": "/usr/local/bin/ssu-esl-reformat", "ssu-esl-selectn": "/usr/local/bin/ssu-esl-selectn", "ssu-esl-seqrange": "/usr/local/bin/ssu-esl-seqrange", "ssu-esl-seqstat": "/usr/local/bin/ssu-esl-seqstat", "ssu-esl-sfetch": "/usr/local/bin/ssu-esl-sfetch", "ssu-esl-shuffle": "/usr/local/bin/ssu-esl-shuffle", "ssu-esl-ssdraw": "/usr/local/bin/ssu-esl-ssdraw", "ssu-esl-weight": "/usr/local/bin/ssu-esl-weight", "ssu-mask": "/usr/local/bin/ssu-mask", "ssu-merge": "/usr/local/bin/ssu-merge", "ssu-prep": "/usr/local/bin/ssu-prep", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/ssu-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ssu-align", "latest": {"0.1.1--h031d066_6": "sha256:7699102b69a4502e659769b3931445f162ec56cf4058fe8bb86b5848ec9c8c0b"}, "tags": {"0.1.1--hec16e2b_4": "sha256:aff66b1638bfc295c7be7b4b90f38b7aeee5af976e1f5a26051c064c573d751d", "0.1.1--hec16e2b_5": "sha256:c00b95b2fd7aa9d0f6c93317441c5550f5eaf906e9795f3fe45d24d45264c6d1", "0.1.1--h031d066_6": "sha256:7699102b69a4502e659769b3931445f162ec56cf4058fe8bb86b5848ec9c8c0b"}, "docker": "quay.io/biocontainers/ssu-align", "aliases": {"_ssu-align": "/usr/local/bin/_ssu-align", "_ssu-build": "/usr/local/bin/_ssu-build", "_ssu-draw": "/usr/local/bin/_ssu-draw", "_ssu-mask": "/usr/local/bin/_ssu-mask", "_ssu-merge": "/usr/local/bin/_ssu-merge", "_ssu-prep": "/usr/local/bin/_ssu-prep", "ssu-align": "/usr/local/bin/ssu-align", "ssu-build": "/usr/local/bin/ssu-build", "ssu-cmalign": "/usr/local/bin/ssu-cmalign", "ssu-cmbuild": "/usr/local/bin/ssu-cmbuild", "ssu-cmcalibrate": "/usr/local/bin/ssu-cmcalibrate", "ssu-cmemit": "/usr/local/bin/ssu-cmemit", "ssu-cmfetch": "/usr/local/bin/ssu-cmfetch", "ssu-cmscore": "/usr/local/bin/ssu-cmscore", "ssu-cmsearch": "/usr/local/bin/ssu-cmsearch", "ssu-cmstat": "/usr/local/bin/ssu-cmstat", "ssu-draw": "/usr/local/bin/ssu-draw", "ssu-esl-afetch": "/usr/local/bin/ssu-esl-afetch", "ssu-esl-alimanip": "/usr/local/bin/ssu-esl-alimanip", "ssu-esl-alimap": "/usr/local/bin/ssu-esl-alimap", "ssu-esl-alimask": "/usr/local/bin/ssu-esl-alimask", "ssu-esl-alimerge": "/usr/local/bin/ssu-esl-alimerge", "ssu-esl-alistat": "/usr/local/bin/ssu-esl-alistat", "ssu-esl-cluster": "/usr/local/bin/ssu-esl-cluster", "ssu-esl-compalign": "/usr/local/bin/ssu-esl-compalign", "ssu-esl-compstruct": "/usr/local/bin/ssu-esl-compstruct", "ssu-esl-histplot": "/usr/local/bin/ssu-esl-histplot", "ssu-esl-mask": "/usr/local/bin/ssu-esl-mask", "ssu-esl-reformat": "/usr/local/bin/ssu-esl-reformat", "ssu-esl-selectn": "/usr/local/bin/ssu-esl-selectn", "ssu-esl-seqrange": "/usr/local/bin/ssu-esl-seqrange", "ssu-esl-seqstat": "/usr/local/bin/ssu-esl-seqstat", "ssu-esl-sfetch": "/usr/local/bin/ssu-esl-sfetch", "ssu-esl-shuffle": "/usr/local/bin/ssu-esl-shuffle", "ssu-esl-ssdraw": "/usr/local/bin/ssu-esl-ssdraw", "ssu-esl-weight": "/usr/local/bin/ssu-esl-weight", "ssu-mask": "/usr/local/bin/ssu-mask", "ssu-merge": "/usr/local/bin/ssu-merge", "ssu-prep": "/usr/local/bin/ssu-prep", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ssu-align.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/ssu-align
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ssu-align:0.1.1--hec16e2b_5
+$ shpc install quay.io/biocontainers/ssu-align:0.1.1--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ssu-align/0.1.1--hec16e2b_5
-$ module help quay.io/biocontainers/ssu-align/0.1.1--hec16e2b_5
+$ module load quay.io/biocontainers/ssu-align/0.1.1--h031d066_6
+$ module help quay.io/biocontainers/ssu-align/0.1.1--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

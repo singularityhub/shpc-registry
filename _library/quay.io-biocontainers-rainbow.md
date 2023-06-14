@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rainbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rainbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rainbow/container.yaml"
-updated_at: "2023-06-13 02:49:52.294009"
-latest: "2.0.4--hec16e2b_8"
+updated_at: "2023-06-14 02:48:49.321419"
+latest: "2.0.4--h031d066_9"
 container_url: "https://biocontainers.pro/tools/rainbow"
 aliases:
  - "rainbow"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.0.4--hec16e2b_7"
  - "2.0.4--hec16e2b_8"
+ - "2.0.4--h031d066_9"
 description: "shpc-registry automated BioContainers addition for rainbow"
-config: {"url": "https://biocontainers.pro/tools/rainbow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rainbow", "latest": {"2.0.4--hec16e2b_8": "sha256:e1a8cc04c568f90a3f0ee1cf638f4004dd80a065b561033dc14a93da9123d2be"}, "tags": {"2.0.4--hec16e2b_7": "sha256:66f491eaf1d8e5ce24a464416e9a66f02906153f34ca07073384ef24b32af1ee", "2.0.4--hec16e2b_8": "sha256:e1a8cc04c568f90a3f0ee1cf638f4004dd80a065b561033dc14a93da9123d2be"}, "docker": "quay.io/biocontainers/rainbow", "aliases": {"rainbow": "/usr/local/bin/rainbow", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/rainbow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rainbow", "latest": {"2.0.4--h031d066_9": "sha256:bff87c7c17b5d87a0b33858c7136b595a45a1477f49e4069a7ce4d9dde28d7c9"}, "tags": {"2.0.4--hec16e2b_7": "sha256:66f491eaf1d8e5ce24a464416e9a66f02906153f34ca07073384ef24b32af1ee", "2.0.4--hec16e2b_8": "sha256:0bd2804b17910687a7fddd43e23edf4191de4705e3b56fd5a5c4098945da3359", "2.0.4--h031d066_9": "sha256:bff87c7c17b5d87a0b33858c7136b595a45a1477f49e4069a7ce4d9dde28d7c9"}, "docker": "quay.io/biocontainers/rainbow", "aliases": {"rainbow": "/usr/local/bin/rainbow", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rainbow.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/rainbow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rainbow:2.0.4--hec16e2b_8
+$ shpc install quay.io/biocontainers/rainbow:2.0.4--h031d066_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rainbow/2.0.4--hec16e2b_8
-$ module help quay.io/biocontainers/rainbow/2.0.4--hec16e2b_8
+$ module load quay.io/biocontainers/rainbow/2.0.4--h031d066_9
+$ module help quay.io/biocontainers/rainbow/2.0.4--h031d066_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

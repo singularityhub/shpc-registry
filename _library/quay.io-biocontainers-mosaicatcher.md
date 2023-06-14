@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mosaicatcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosaicatcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mosaicatcher/container.yaml"
-updated_at: "2023-06-13 02:48:22.359113"
-latest: "0.3.1--h66ab1b6_2"
+updated_at: "2023-06-14 02:47:20.408945"
+latest: "0.3.1--h5642b88_3"
 container_url: "https://biocontainers.pro/tools/mosaicatcher"
 aliases:
  - "mosaicatcher"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "0.3.1--hefd527f_1"
  - "0.3.1--h66ab1b6_2"
+ - "0.3.1--h5642b88_3"
 description: "singularity registry hpc automated addition for mosaicatcher"
-config: {"url": "https://biocontainers.pro/tools/mosaicatcher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mosaicatcher", "latest": {"0.3.1--h66ab1b6_2": "sha256:249f4ec44e4bef980fef9d67218ea0511f2e565a6c2c788fc0a8a9905c30a5ad"}, "tags": {"0.3.1--hefd527f_1": "sha256:4c02db963230108b295b36c2cb220cf8b17336c4ae803aeb91c0a33109046f51", "0.3.1--h66ab1b6_2": "sha256:249f4ec44e4bef980fef9d67218ea0511f2e565a6c2c788fc0a8a9905c30a5ad"}, "docker": "quay.io/biocontainers/mosaicatcher", "aliases": {"mosaicatcher": "/usr/local/bin/mosaicatcher", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/mosaicatcher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mosaicatcher", "latest": {"0.3.1--h5642b88_3": "sha256:f35e3def9960e98fc7a3f0fd07b285cd38f098cc841e5f80d5af8aeedbf7b3ce"}, "tags": {"0.3.1--hefd527f_1": "sha256:4c02db963230108b295b36c2cb220cf8b17336c4ae803aeb91c0a33109046f51", "0.3.1--h66ab1b6_2": "sha256:249f4ec44e4bef980fef9d67218ea0511f2e565a6c2c788fc0a8a9905c30a5ad", "0.3.1--h5642b88_3": "sha256:f35e3def9960e98fc7a3f0fd07b285cd38f098cc841e5f80d5af8aeedbf7b3ce"}, "docker": "quay.io/biocontainers/mosaicatcher", "aliases": {"mosaicatcher": "/usr/local/bin/mosaicatcher", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mosaicatcher.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mosaicatcher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mosaicatcher:0.3.1--h66ab1b6_2
+$ shpc install quay.io/biocontainers/mosaicatcher:0.3.1--h5642b88_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mosaicatcher/0.3.1--h66ab1b6_2
-$ module help quay.io/biocontainers/mosaicatcher/0.3.1--h66ab1b6_2
+$ module load quay.io/biocontainers/mosaicatcher/0.3.1--h5642b88_3
+$ module help quay.io/biocontainers/mosaicatcher/0.3.1--h5642b88_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

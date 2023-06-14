@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-hemdag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hemdag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hemdag/container.yaml"
-updated_at: "2023-06-13 03:27:41.005026"
-latest: "2.7.4--r42hecf12ef_4"
+updated_at: "2023-06-14 03:26:37.024377"
+latest: "2.7.4--r42h21a89ab_5"
 container_url: "https://biocontainers.pro/tools/r-hemdag"
 
 versions:
  - "2.7.4--r41hecf12ef_3"
  - "2.7.4--r42hecf12ef_4"
+ - "2.7.4--r42h21a89ab_5"
 description: "shpc-registry automated BioContainers addition for r-hemdag"
-config: {"url": "https://biocontainers.pro/tools/r-hemdag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hemdag", "latest": {"2.7.4--r42hecf12ef_4": "sha256:0a68351a00abec4e57ca90130cecc13e953ab827b07e02d33749679ecaf0765f"}, "tags": {"2.7.4--r41hecf12ef_3": "sha256:d82eb11a905e6c664a26c002bde658edbf428e53cf76c34e99fea8054ebd0708", "2.7.4--r42hecf12ef_4": "sha256:0a68351a00abec4e57ca90130cecc13e953ab827b07e02d33749679ecaf0765f"}, "docker": "quay.io/biocontainers/r-hemdag"}
+config: {"url": "https://biocontainers.pro/tools/r-hemdag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hemdag", "latest": {"2.7.4--r42h21a89ab_5": "sha256:eac0d62269da8cf58e90f15f90d621ade04f6a52f0756845c95097f3a471479e"}, "tags": {"2.7.4--r41hecf12ef_3": "sha256:d82eb11a905e6c664a26c002bde658edbf428e53cf76c34e99fea8054ebd0708", "2.7.4--r42hecf12ef_4": "sha256:0a68351a00abec4e57ca90130cecc13e953ab827b07e02d33749679ecaf0765f", "2.7.4--r42h21a89ab_5": "sha256:eac0d62269da8cf58e90f15f90d621ade04f6a52f0756845c95097f3a471479e"}, "docker": "quay.io/biocontainers/r-hemdag"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hemdag.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-hemdag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-hemdag:2.7.4--r42hecf12ef_4
+$ shpc install quay.io/biocontainers/r-hemdag:2.7.4--r42h21a89ab_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-hemdag/2.7.4--r42hecf12ef_4
-$ module help quay.io/biocontainers/r-hemdag/2.7.4--r42hecf12ef_4
+$ module load quay.io/biocontainers/r-hemdag/2.7.4--r42h21a89ab_5
+$ module help quay.io/biocontainers/r-hemdag/2.7.4--r42h21a89ab_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

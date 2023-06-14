@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rapifilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapifilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapifilt/container.yaml"
-updated_at: "2023-06-13 02:58:35.129406"
-latest: "1.0--hb97b32f_4"
+updated_at: "2023-06-14 02:57:28.055624"
+latest: "1.0--h2202e69_5"
 container_url: "https://biocontainers.pro/tools/rapifilt"
 aliases:
  - "rapifilt"
 versions:
  - "1.0--hb97b32f_3"
  - "1.0--hb97b32f_4"
+ - "1.0--h2202e69_5"
 description: "shpc-registry automated BioContainers addition for rapifilt"
-config: {"url": "https://biocontainers.pro/tools/rapifilt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapifilt", "latest": {"1.0--hb97b32f_4": "sha256:4d16f3971d0e3f106ed5af3b9b1fa213cc7379feb6ab3eb8a002974c9f05922f"}, "tags": {"1.0--hb97b32f_3": "sha256:6d51fddf2e855204a838fbac981dd5320e61ca1d96cf3ef0a50eba97db21541b", "1.0--hb97b32f_4": "sha256:4d16f3971d0e3f106ed5af3b9b1fa213cc7379feb6ab3eb8a002974c9f05922f"}, "docker": "quay.io/biocontainers/rapifilt", "aliases": {"rapifilt": "/usr/local/bin/rapifilt"}}
+config: {"url": "https://biocontainers.pro/tools/rapifilt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapifilt", "latest": {"1.0--h2202e69_5": "sha256:0394a95ff52ccf492b788244be4d88500e669bb5aac544c00c50714617eb7dc4"}, "tags": {"1.0--hb97b32f_3": "sha256:6d51fddf2e855204a838fbac981dd5320e61ca1d96cf3ef0a50eba97db21541b", "1.0--hb97b32f_4": "sha256:1dce6346ddccf78dc916397722e3cfa3aa88b9562cb28e2faf3b832b730a17e0", "1.0--h2202e69_5": "sha256:0394a95ff52ccf492b788244be4d88500e669bb5aac544c00c50714617eb7dc4"}, "docker": "quay.io/biocontainers/rapifilt", "aliases": {"rapifilt": "/usr/local/bin/rapifilt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rapifilt.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rapifilt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rapifilt:1.0--hb97b32f_4
+$ shpc install quay.io/biocontainers/rapifilt:1.0--h2202e69_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rapifilt/1.0--hb97b32f_4
-$ module help quay.io/biocontainers/rapifilt/1.0--hb97b32f_4
+$ module load quay.io/biocontainers/rapifilt/1.0--h2202e69_5
+$ module help quay.io/biocontainers/rapifilt/1.0--h2202e69_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

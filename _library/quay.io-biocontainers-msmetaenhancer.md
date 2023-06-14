@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msmetaenhancer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msmetaenhancer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msmetaenhancer/container.yaml"
-updated_at: "2023-06-13 02:57:30.489061"
-latest: "0.2.5--pyhdfd78af_0"
+updated_at: "2023-06-14 02:56:23.979971"
+latest: "0.3.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/msmetaenhancer"
 aliases:
  - "xml2-config.bak"
@@ -20,8 +20,9 @@ aliases:
  - "brotli"
 versions:
  - "0.2.5--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for msmetaenhancer"
-config: {"url": "https://biocontainers.pro/tools/msmetaenhancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msmetaenhancer", "latest": {"0.2.5--pyhdfd78af_0": "sha256:ff09e6c18c69be623dae7a7063d3bf031ba0e7eea721be8eae918e282e74d48d"}, "tags": {"0.2.5--pyhdfd78af_0": "sha256:ff09e6c18c69be623dae7a7063d3bf031ba0e7eea721be8eae918e282e74d48d"}, "docker": "quay.io/biocontainers/msmetaenhancer", "aliases": {"xml2-config.bak": "/usr/local/bin/xml2-config.bak", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/msmetaenhancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msmetaenhancer", "latest": {"0.3.0--pyhdfd78af_1": "sha256:ad0f66a8843b27e2fe027006ad7b23972857fceb26d47a1d5699fdecb2cb0ff2"}, "tags": {"0.2.5--pyhdfd78af_0": "sha256:ff09e6c18c69be623dae7a7063d3bf031ba0e7eea721be8eae918e282e74d48d", "0.3.0--pyhdfd78af_1": "sha256:ad0f66a8843b27e2fe027006ad7b23972857fceb26d47a1d5699fdecb2cb0ff2"}, "docker": "quay.io/biocontainers/msmetaenhancer", "aliases": {"xml2-config.bak": "/usr/local/bin/xml2-config.bak", "tabulate": "/usr/local/bin/tabulate", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msmetaenhancer.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/msmetaenhancer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msmetaenhancer:0.2.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/msmetaenhancer:0.3.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msmetaenhancer/0.2.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/msmetaenhancer/0.2.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/msmetaenhancer/0.3.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/msmetaenhancer/0.3.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

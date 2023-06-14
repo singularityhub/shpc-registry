@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-icheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icheck/container.yaml"
-updated_at: "2023-06-13 03:21:39.468390"
+updated_at: "2023-06-14 03:20:36.762636"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icheck"
 

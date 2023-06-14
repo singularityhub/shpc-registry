@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rgreat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgreat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgreat/container.yaml"
-updated_at: "2023-06-13 02:55:47.036496"
-latest: "2.0.0--r42hc247a5b_0"
+updated_at: "2023-06-14 02:54:41.246409"
+latest: "2.0.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgreat"
 aliases:
  - "bmp2tiff"
@@ -24,8 +24,9 @@ versions:
  - "1.24.0--r41hdfd78af_0"
  - "1.22.0--r40hdfd78af_1"
  - "1.20.0--r40_0"
+ - "2.0.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgreat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgreat", "latest": {"2.0.0--r42hc247a5b_0": "sha256:28f179c49d7c4517c69d3381765abd20f53333310c6938dd0aed90ad3bd9a503"}, "tags": {"1.8.0--r3.4.1_0": "sha256:307a11a4ff4a03b5aeb83e06ad202340ae56372277729b4e1ba6d48ff9256dbe", "2.0.0--r42hc247a5b_0": "sha256:28f179c49d7c4517c69d3381765abd20f53333310c6938dd0aed90ad3bd9a503", "1.26.0--r41hdfd78af_0": "sha256:8faf28c39966b68daa7b052697586985412c296a2d0c7406ce7b09bc111d9810", "1.24.0--r41hdfd78af_0": "sha256:3b11b6ce5e7486b91932fb6282994c7548479eaa4234e172d14764bda53e764e", "1.22.0--r40hdfd78af_1": "sha256:f715eb964d0597f9767206028b2b5e8b8f8a1a3f9b5e35c71437abbf19cc33a2", "1.20.0--r40_0": "sha256:3e8f0450f42d1a61d0cbb4ea5dce15e31d5512aa5eb280f42863f6db55cf460f"}, "docker": "quay.io/biocontainers/bioconductor-rgreat", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgreat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgreat", "latest": {"2.0.0--r42hf17093f_1": "sha256:a1ad71489ba81985c9e74a045d1487ee9d78790d839721a67024dce00f6795b7"}, "tags": {"1.8.0--r3.4.1_0": "sha256:307a11a4ff4a03b5aeb83e06ad202340ae56372277729b4e1ba6d48ff9256dbe", "2.0.0--r42hc247a5b_0": "sha256:28f179c49d7c4517c69d3381765abd20f53333310c6938dd0aed90ad3bd9a503", "1.26.0--r41hdfd78af_0": "sha256:8faf28c39966b68daa7b052697586985412c296a2d0c7406ce7b09bc111d9810", "1.24.0--r41hdfd78af_0": "sha256:3b11b6ce5e7486b91932fb6282994c7548479eaa4234e172d14764bda53e764e", "1.22.0--r40hdfd78af_1": "sha256:f715eb964d0597f9767206028b2b5e8b8f8a1a3f9b5e35c71437abbf19cc33a2", "1.20.0--r40_0": "sha256:3e8f0450f42d1a61d0cbb4ea5dce15e31d5512aa5eb280f42863f6db55cf460f", "2.0.0--r42hf17093f_1": "sha256:a1ad71489ba81985c9e74a045d1487ee9d78790d839721a67024dce00f6795b7"}, "docker": "quay.io/biocontainers/bioconductor-rgreat", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgreat.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgreat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgreat:2.0.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-rgreat:2.0.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgreat/2.0.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-rgreat/2.0.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-rgreat/2.0.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-rgreat/2.0.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

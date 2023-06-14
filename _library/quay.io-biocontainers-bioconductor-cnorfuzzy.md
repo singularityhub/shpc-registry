@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cnorfuzzy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnorfuzzy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnorfuzzy/container.yaml"
-updated_at: "2023-06-13 03:28:22.674601"
-latest: "1.40.0--r42hc0cfd56_0"
+updated_at: "2023-06-14 03:27:18.429196"
+latest: "1.40.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnorfuzzy"
 aliases:
  - "diffimg"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.36.0--r41hc0cfd56_2"
  - "1.40.0--r42hc0cfd56_0"
+ - "1.40.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnorfuzzy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnorfuzzy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnorfuzzy", "latest": {"1.40.0--r42hc0cfd56_0": "sha256:ad67bc38f0e1c7d991df7478da88f8f07a09dcb514990feb0a8865dfaf631840"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:594c5536c5f30094a62a76d050f202884436116b4d9145f9b8a67d22e1e48b4a", "1.40.0--r42hc0cfd56_0": "sha256:ad67bc38f0e1c7d991df7478da88f8f07a09dcb514990feb0a8865dfaf631840"}, "docker": "quay.io/biocontainers/bioconductor-cnorfuzzy", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnorfuzzy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnorfuzzy", "latest": {"1.40.0--r42ha9d7317_1": "sha256:00c906157d41152b99d811be50a6840579d0c7a32c655c5a908abf4ee9532d24"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:594c5536c5f30094a62a76d050f202884436116b4d9145f9b8a67d22e1e48b4a", "1.40.0--r42hc0cfd56_0": "sha256:ad67bc38f0e1c7d991df7478da88f8f07a09dcb514990feb0a8865dfaf631840", "1.40.0--r42ha9d7317_1": "sha256:00c906157d41152b99d811be50a6840579d0c7a32c655c5a908abf4ee9532d24"}, "docker": "quay.io/biocontainers/bioconductor-cnorfuzzy", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnorfuzzy.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnorfuzzy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnorfuzzy:1.40.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-cnorfuzzy:1.40.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnorfuzzy/1.40.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-cnorfuzzy/1.40.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-cnorfuzzy/1.40.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-cnorfuzzy/1.40.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

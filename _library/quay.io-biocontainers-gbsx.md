@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gbsx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbsx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbsx/container.yaml"
-updated_at: "2023-06-13 02:58:08.974763"
+updated_at: "2023-06-14 02:57:02.070255"
 latest: "1.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gbsx"
 aliases:

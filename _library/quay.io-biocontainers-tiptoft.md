@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tiptoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiptoft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiptoft/container.yaml"
-updated_at: "2023-06-13 02:53:17.795232"
-latest: "1.0.2--py37h8902056_3"
+updated_at: "2023-06-14 02:52:12.879706"
+latest: "1.0.2--py39hf95cd2a_4"
 container_url: "https://biocontainers.pro/tools/tiptoft"
 aliases:
  - "tiptoft"
@@ -22,8 +22,9 @@ aliases:
  - "python3.7-config"
 versions:
  - "1.0.2--py37h8902056_3"
+ - "1.0.2--py39hf95cd2a_4"
 description: "shpc-registry automated BioContainers addition for tiptoft"
-config: {"url": "https://biocontainers.pro/tools/tiptoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tiptoft", "latest": {"1.0.2--py37h8902056_3": "sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5"}, "tags": {"1.0.2--py37h8902056_3": "sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5"}, "docker": "quay.io/biocontainers/tiptoft", "aliases": {"tiptoft": "/usr/local/bin/tiptoft", "tiptoft_database_downloader": "/usr/local/bin/tiptoft_database_downloader", "fastaq": "/usr/local/bin/fastaq", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/tiptoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tiptoft", "latest": {"1.0.2--py39hf95cd2a_4": "sha256:34b47b509c3c9e2e7d7e15126a6f58071ab8cc4c89821dda2f38c04fcc0f657d"}, "tags": {"1.0.2--py37h8902056_3": "sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5", "1.0.2--py39hf95cd2a_4": "sha256:34b47b509c3c9e2e7d7e15126a6f58071ab8cc4c89821dda2f38c04fcc0f657d"}, "docker": "quay.io/biocontainers/tiptoft", "aliases": {"tiptoft": "/usr/local/bin/tiptoft", "tiptoft_database_downloader": "/usr/local/bin/tiptoft_database_downloader", "fastaq": "/usr/local/bin/fastaq", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tiptoft.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/tiptoft
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tiptoft:1.0.2--py37h8902056_3
+$ shpc install quay.io/biocontainers/tiptoft:1.0.2--py39hf95cd2a_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tiptoft/1.0.2--py37h8902056_3
-$ module help quay.io/biocontainers/tiptoft/1.0.2--py37h8902056_3
+$ module load quay.io/biocontainers/tiptoft/1.0.2--py39hf95cd2a_4
+$ module help quay.io/biocontainers/tiptoft/1.0.2--py39hf95cd2a_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

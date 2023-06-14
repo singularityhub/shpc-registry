@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-sub-attribute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-attribute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-attribute/container.yaml"
-updated_at: "2023-06-13 02:51:05.840134"
-latest: "0.07--pl5321hec16e2b_0"
+updated_at: "2023-06-14 02:50:01.718396"
+latest: "0.07--pl5321h031d066_1"
 container_url: "https://biocontainers.pro/tools/perl-sub-attribute"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.07--pl5321hec16e2b_0"
+ - "0.07--pl5321h031d066_1"
 description: "shpc-registry automated BioContainers addition for perl-sub-attribute"
-config: {"url": "https://biocontainers.pro/tools/perl-sub-attribute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sub-attribute", "latest": {"0.07--pl5321hec16e2b_0": "sha256:4a2552a18fde26e2c9ef182020ec38fc848d0427954d10f1f3c2983da533f155"}, "tags": {"0.07--pl5321hec16e2b_0": "sha256:4a2552a18fde26e2c9ef182020ec38fc848d0427954d10f1f3c2983da533f155"}, "docker": "quay.io/biocontainers/perl-sub-attribute", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sub-attribute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sub-attribute", "latest": {"0.07--pl5321h031d066_1": "sha256:b8eea3017173f3f4e7858f4b4e5c810b0f7493c4b5cd96a0c5dc6eaade53cce6"}, "tags": {"0.07--pl5321hec16e2b_0": "sha256:4a2552a18fde26e2c9ef182020ec38fc848d0427954d10f1f3c2983da533f155", "0.07--pl5321h031d066_1": "sha256:b8eea3017173f3f4e7858f4b4e5c810b0f7493c4b5cd96a0c5dc6eaade53cce6"}, "docker": "quay.io/biocontainers/perl-sub-attribute", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sub-attribute.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-sub-attribute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sub-attribute:0.07--pl5321hec16e2b_0
+$ shpc install quay.io/biocontainers/perl-sub-attribute:0.07--pl5321h031d066_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sub-attribute/0.07--pl5321hec16e2b_0
-$ module help quay.io/biocontainers/perl-sub-attribute/0.07--pl5321hec16e2b_0
+$ module load quay.io/biocontainers/perl-sub-attribute/0.07--pl5321h031d066_1
+$ module help quay.io/biocontainers/perl-sub-attribute/0.07--pl5321h031d066_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
