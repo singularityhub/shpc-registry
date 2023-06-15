@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/migrate-n"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/migrate-n/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/migrate-n/container.yaml"
-updated_at: "2023-06-14 02:50:12.419992"
-latest: "3.6.11--hde308d1_5"
+updated_at: "2023-06-15 03:26:58.339611"
+latest: "3.6.11--h728fce2_6"
 container_url: "https://biocontainers.pro/tools/migrate-n"
 aliases:
  - "migrate-n"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "3.6.11--hde308d1_4"
  - "3.6.11--hde308d1_5"
+ - "3.6.11--h728fce2_6"
 description: "shpc-registry automated BioContainers addition for migrate-n"
-config: {"url": "https://biocontainers.pro/tools/migrate-n", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migrate-n", "latest": {"3.6.11--hde308d1_5": "sha256:81be9c38b5c26fa0c18932df05c8019aa2d698ebe2a2e1aa60e0907b26c5bf59"}, "tags": {"3.6.11--hde308d1_4": "sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804", "3.6.11--hde308d1_5": "sha256:81be9c38b5c26fa0c18932df05c8019aa2d698ebe2a2e1aa60e0907b26c5bf59"}, "docker": "quay.io/biocontainers/migrate-n", "aliases": {"migrate-n": "/usr/local/bin/migrate-n", "migrate-n-mpi": "/usr/local/bin/migrate-n-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/migrate-n", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migrate-n", "latest": {"3.6.11--h728fce2_6": "sha256:7eca408ede00625fc4b8a53181a7dcf692a0881de10f43f9de0e2caa4e75ddc6"}, "tags": {"3.6.11--hde308d1_4": "sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804", "3.6.11--hde308d1_5": "sha256:81be9c38b5c26fa0c18932df05c8019aa2d698ebe2a2e1aa60e0907b26c5bf59", "3.6.11--h728fce2_6": "sha256:7eca408ede00625fc4b8a53181a7dcf692a0881de10f43f9de0e2caa4e75ddc6"}, "docker": "quay.io/biocontainers/migrate-n", "aliases": {"migrate-n": "/usr/local/bin/migrate-n", "migrate-n-mpi": "/usr/local/bin/migrate-n-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/migrate-n.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/migrate-n
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/migrate-n:3.6.11--hde308d1_5
+$ shpc install quay.io/biocontainers/migrate-n:3.6.11--h728fce2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/migrate-n/3.6.11--hde308d1_5
-$ module help quay.io/biocontainers/migrate-n/3.6.11--hde308d1_5
+$ module load quay.io/biocontainers/migrate-n/3.6.11--h728fce2_6
+$ module help quay.io/biocontainers/migrate-n/3.6.11--h728fce2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

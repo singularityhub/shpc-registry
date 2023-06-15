@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/align_it"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/align_it/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/align_it/container.yaml"
-updated_at: "2023-06-14 02:44:48.728848"
-latest: "1.0.4--hd03093a_2"
+updated_at: "2023-06-15 03:14:41.315989"
+latest: "1.0.4--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/align_it"
 aliases:
  - "align-it"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "1.0.4--hd03093a_1"
  - "1.0.4--hd03093a_2"
+ - "1.0.4--hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for align_it"
-config: {"url": "https://biocontainers.pro/tools/align_it", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for align_it", "latest": {"1.0.4--hd03093a_2": "sha256:e3f1a73163348ac205e7478536c5906d3315f6e386e97b825ae2514b50eecadb"}, "tags": {"1.0.4--hd03093a_1": "sha256:e290322e782e4ba005a340ba08964c031924df4465eaaaa1ebbdd5cfbe9100a8", "1.0.4--hd03093a_2": "sha256:e3f1a73163348ac205e7478536c5906d3315f6e386e97b825ae2514b50eecadb"}, "docker": "quay.io/biocontainers/align_it", "aliases": {"align-it": "/usr/local/bin/align-it", "babel": "/usr/local/bin/babel", "obchiral": "/usr/local/bin/obchiral", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
+config: {"url": "https://biocontainers.pro/tools/align_it", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for align_it", "latest": {"1.0.4--hdcf5f25_3": "sha256:5a1bb473a36a7c4f0609b30391e6b51ea4bb05191b2512393c8b7a253eeea268"}, "tags": {"1.0.4--hd03093a_1": "sha256:e290322e782e4ba005a340ba08964c031924df4465eaaaa1ebbdd5cfbe9100a8", "1.0.4--hd03093a_2": "sha256:e3f1a73163348ac205e7478536c5906d3315f6e386e97b825ae2514b50eecadb", "1.0.4--hdcf5f25_3": "sha256:5a1bb473a36a7c4f0609b30391e6b51ea4bb05191b2512393c8b7a253eeea268"}, "docker": "quay.io/biocontainers/align_it", "aliases": {"align-it": "/usr/local/bin/align-it", "babel": "/usr/local/bin/babel", "obchiral": "/usr/local/bin/obchiral", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/align_it.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/align_it
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/align_it:1.0.4--hd03093a_2
+$ shpc install quay.io/biocontainers/align_it:1.0.4--hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/align_it/1.0.4--hd03093a_2
-$ module help quay.io/biocontainers/align_it/1.0.4--hd03093a_2
+$ module load quay.io/biocontainers/align_it/1.0.4--hdcf5f25_3
+$ module help quay.io/biocontainers/align_it/1.0.4--hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

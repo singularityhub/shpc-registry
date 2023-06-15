@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rgccacmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgccacmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgccacmd/container.yaml"
-updated_at: "2023-06-14 03:06:53.418721"
-latest: "3.0.2--r41h9ee0642_0"
+updated_at: "2023-06-15 03:22:42.478330"
+latest: "3.0.3--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rgccacmd"
 aliases:
  - "idn2"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.0.2--r41h9ee0642_0"
+ - "3.0.3--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rgccacmd"
-config: {"url": "https://biocontainers.pro/tools/rgccacmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgccacmd", "latest": {"3.0.2--r41h9ee0642_0": "sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38"}, "tags": {"3.0.2--r41h9ee0642_0": "sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38"}, "docker": "quay.io/biocontainers/rgccacmd", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/rgccacmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgccacmd", "latest": {"3.0.3--r42hdfd78af_0": "sha256:26dad6d52266edc3f6d7f3e5bcaaca4f3527588684e96a2e31573fd981e029d0"}, "tags": {"3.0.2--r41h9ee0642_0": "sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38", "3.0.3--r42hdfd78af_0": "sha256:26dad6d52266edc3f6d7f3e5bcaaca4f3527588684e96a2e31573fd981e029d0"}, "docker": "quay.io/biocontainers/rgccacmd", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rgccacmd.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/rgccacmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rgccacmd:3.0.2--r41h9ee0642_0
+$ shpc install quay.io/biocontainers/rgccacmd:3.0.3--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rgccacmd/3.0.2--r41h9ee0642_0
-$ module help quay.io/biocontainers/rgccacmd/3.0.2--r41h9ee0642_0
+$ module load quay.io/biocontainers/rgccacmd/3.0.3--r42hdfd78af_0
+$ module help quay.io/biocontainers/rgccacmd/3.0.3--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

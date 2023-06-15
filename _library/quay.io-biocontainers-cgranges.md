@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cgranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgranges/container.yaml"
-updated_at: "2023-06-14 03:02:49.648221"
-latest: "0.1--py39hbf8eff0_1"
+updated_at: "2023-06-15 02:50:38.796557"
+latest: "0.1--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/cgranges"
 aliases:
  - "2to3-3.9"
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1--py39hbf8eff0_1"
+ - "0.1--py38he5da3d1_2"
 description: "singularity registry hpc automated addition for cgranges"
-config: {"url": "https://biocontainers.pro/tools/cgranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cgranges", "latest": {"0.1--py39hbf8eff0_1": "sha256:8d627022e13b0ecffc7ff47650abf7be033e71df6ae967dfda552459b17a2c78"}, "tags": {"0.1--py39hbf8eff0_1": "sha256:8d627022e13b0ecffc7ff47650abf7be033e71df6ae967dfda552459b17a2c78"}, "docker": "quay.io/biocontainers/cgranges", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cgranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cgranges", "latest": {"0.1--py38he5da3d1_2": "sha256:27b6c99bd9d023483b57bfbc3b1989a62e0d5e0c4481f31969ed6b40eaa4b7a2"}, "tags": {"0.1--py39hbf8eff0_1": "sha256:8d627022e13b0ecffc7ff47650abf7be033e71df6ae967dfda552459b17a2c78", "0.1--py38he5da3d1_2": "sha256:27b6c99bd9d023483b57bfbc3b1989a62e0d5e0c4481f31969ed6b40eaa4b7a2"}, "docker": "quay.io/biocontainers/cgranges", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgranges.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/cgranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgranges:0.1--py39hbf8eff0_1
+$ shpc install quay.io/biocontainers/cgranges:0.1--py38he5da3d1_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgranges/0.1--py39hbf8eff0_1
-$ module help quay.io/biocontainers/cgranges/0.1--py39hbf8eff0_1
+$ module load quay.io/biocontainers/cgranges/0.1--py38he5da3d1_2
+$ module help quay.io/biocontainers/cgranges/0.1--py38he5da3d1_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

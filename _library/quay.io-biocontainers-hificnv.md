@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hificnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hificnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hificnv/container.yaml"
-updated_at: "2023-06-14 03:08:41.164499"
+updated_at: "2023-06-15 03:22:49.217053"
 latest: "0.1.6b--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/hificnv"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.1.6b--h9ee0642_0"
 description: "singularity registry hpc automated addition for hificnv"
-config: {"url": "https://biocontainers.pro/tools/hificnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hificnv", "latest": {"0.1.6b--h9ee0642_0": "sha256:ce9d28ff470b8df8291606ddc47f091ff41dfada9d7b80d7d28de49a595cd000"}, "tags": {"0.1.6b--h9ee0642_0": "sha256:ce9d28ff470b8df8291606ddc47f091ff41dfada9d7b80d7d28de49a595cd000"}, "docker": "quay.io/biocontainers/hificnv", "aliases": {"hificnv": "/usr/local/bin/hificnv"}}
+config: {"url": "https://biocontainers.pro/tools/hificnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hificnv", "latest": {"0.1.6b--h9ee0642_0": "sha256:760a600f74f1fc2f186fc1bbcc221eee2db14b0c1d46f666a0215da32d1a6afc"}, "tags": {"0.1.6b--h9ee0642_0": "sha256:760a600f74f1fc2f186fc1bbcc221eee2db14b0c1d46f666a0215da32d1a6afc"}, "docker": "quay.io/biocontainers/hificnv", "aliases": {"hificnv": "/usr/local/bin/hificnv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hificnv.

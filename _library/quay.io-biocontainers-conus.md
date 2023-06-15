@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/conus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conus/container.yaml"
-updated_at: "2023-06-14 02:54:34.989584"
-latest: "1.0--hec16e2b_4"
+updated_at: "2023-06-15 03:14:24.873943"
+latest: "1.0--h031d066_5"
 container_url: "https://biocontainers.pro/tools/conus"
 aliases:
  - "ambtest"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.0--hec16e2b_3"
  - "1.0--hec16e2b_4"
+ - "1.0--h031d066_5"
 description: "shpc-registry automated BioContainers addition for conus"
-config: {"url": "https://biocontainers.pro/tools/conus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for conus", "latest": {"1.0--hec16e2b_4": "sha256:97d5be833eb1f96ab3f952a8947c9004759417bb47c2565db17d99a7a4ae16e7"}, "tags": {"1.0--hec16e2b_3": "sha256:023454dfb3eff56eba8120e57ad9676f43db6a540a8256a1790f430c3bd35901", "1.0--hec16e2b_4": "sha256:97d5be833eb1f96ab3f952a8947c9004759417bb47c2565db17d99a7a4ae16e7"}, "docker": "quay.io/biocontainers/conus", "aliases": {"ambtest": "/usr/local/bin/ambtest", "conus_compare": "/usr/local/bin/conus_compare", "conus_fold": "/usr/local/bin/conus_fold", "conus_train": "/usr/local/bin/conus_train", "findopt": "/usr/local/bin/findopt", "pocheck": "/usr/local/bin/pocheck", "reorder": "/usr/local/bin/reorder", "scheck": "/usr/local/bin/scheck", "stk2ct": "/usr/local/bin/stk2ct", "weedamb": "/usr/local/bin/weedamb"}}
+config: {"url": "https://biocontainers.pro/tools/conus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for conus", "latest": {"1.0--h031d066_5": "sha256:6cb51319c4f8945d17763f5fccec058473c7cf7e836379b11a28df777014f190"}, "tags": {"1.0--hec16e2b_3": "sha256:023454dfb3eff56eba8120e57ad9676f43db6a540a8256a1790f430c3bd35901", "1.0--hec16e2b_4": "sha256:97d5be833eb1f96ab3f952a8947c9004759417bb47c2565db17d99a7a4ae16e7", "1.0--h031d066_5": "sha256:6cb51319c4f8945d17763f5fccec058473c7cf7e836379b11a28df777014f190"}, "docker": "quay.io/biocontainers/conus", "aliases": {"ambtest": "/usr/local/bin/ambtest", "conus_compare": "/usr/local/bin/conus_compare", "conus_fold": "/usr/local/bin/conus_fold", "conus_train": "/usr/local/bin/conus_train", "findopt": "/usr/local/bin/findopt", "pocheck": "/usr/local/bin/pocheck", "reorder": "/usr/local/bin/reorder", "scheck": "/usr/local/bin/scheck", "stk2ct": "/usr/local/bin/stk2ct", "weedamb": "/usr/local/bin/weedamb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/conus.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/conus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/conus:1.0--hec16e2b_4
+$ shpc install quay.io/biocontainers/conus:1.0--h031d066_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/conus/1.0--hec16e2b_4
-$ module help quay.io/biocontainers/conus/1.0--hec16e2b_4
+$ module load quay.io/biocontainers/conus/1.0--h031d066_5
+$ module help quay.io/biocontainers/conus/1.0--h031d066_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

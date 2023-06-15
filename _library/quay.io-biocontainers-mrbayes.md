@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mrbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mrbayes/container.yaml"
-updated_at: "2023-06-14 03:23:50.759784"
-latest: "3.2.7--h5465cc4_5"
+updated_at: "2023-06-15 03:21:52.242593"
+latest: "3.2.7--h1b649f3_6"
 container_url: "https://biocontainers.pro/tools/mrbayes"
 aliases:
  - "mb"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "3.2.7--h5465cc4_4"
  - "3.2.7--h5465cc4_5"
+ - "3.2.7--h1b649f3_6"
 description: "shpc-registry automated BioContainers addition for mrbayes"
-config: {"url": "https://biocontainers.pro/tools/mrbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mrbayes", "latest": {"3.2.7--h5465cc4_5": "sha256:ca5b56f1e49aa32ed0b64d2a58cbd61378145df6e483324c03b9faa0b3b163ad"}, "tags": {"3.2.7--h5465cc4_4": "sha256:c07cbbd563dec595ac4bf4aaedd87ce4c0fcc548ff92bc48a8a7d5cd151ec0a1", "3.2.7--h5465cc4_5": "sha256:ca5b56f1e49aa32ed0b64d2a58cbd61378145df6e483324c03b9faa0b3b163ad"}, "docker": "quay.io/biocontainers/mrbayes", "aliases": {"mb": "/usr/local/bin/mb", "mb-mpi": "/usr/local/bin/mb-mpi", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info"}}
+config: {"url": "https://biocontainers.pro/tools/mrbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mrbayes", "latest": {"3.2.7--h1b649f3_6": "sha256:c287b75d5e22fe45f98440575e66a678b5c68a5d96885d611e526e4dc4c1a288"}, "tags": {"3.2.7--h5465cc4_4": "sha256:c07cbbd563dec595ac4bf4aaedd87ce4c0fcc548ff92bc48a8a7d5cd151ec0a1", "3.2.7--h5465cc4_5": "sha256:ca5b56f1e49aa32ed0b64d2a58cbd61378145df6e483324c03b9faa0b3b163ad", "3.2.7--h1b649f3_6": "sha256:c287b75d5e22fe45f98440575e66a678b5c68a5d96885d611e526e4dc4c1a288"}, "docker": "quay.io/biocontainers/mrbayes", "aliases": {"mb": "/usr/local/bin/mb", "mb-mpi": "/usr/local/bin/mb-mpi", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mrbayes.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/mrbayes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mrbayes:3.2.7--h5465cc4_5
+$ shpc install quay.io/biocontainers/mrbayes:3.2.7--h1b649f3_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mrbayes/3.2.7--h5465cc4_5
-$ module help quay.io/biocontainers/mrbayes/3.2.7--h5465cc4_5
+$ module load quay.io/biocontainers/mrbayes/3.2.7--h1b649f3_6
+$ module help quay.io/biocontainers/mrbayes/3.2.7--h1b649f3_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

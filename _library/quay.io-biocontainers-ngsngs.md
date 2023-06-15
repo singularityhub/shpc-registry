@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngsngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsngs/container.yaml"
-updated_at: "2023-06-14 03:13:41.455728"
-latest: "0.9.0--h6448e42_0"
+updated_at: "2023-06-15 02:47:06.209375"
+latest: "0.9.0--hce60e53_1"
 container_url: "https://biocontainers.pro/tools/ngsngs"
 aliases:
  - "ngsngs"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.9.0--h6448e42_0"
+ - "0.9.0--hce60e53_1"
 description: "singularity registry hpc automated addition for ngsngs"
-config: {"url": "https://biocontainers.pro/tools/ngsngs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngsngs", "latest": {"0.9.0--h6448e42_0": "sha256:a98120e8edea1eed923008318d178946c7ff99756e512ccfb504fb873fcfef4b"}, "tags": {"0.9.0--h6448e42_0": "sha256:a98120e8edea1eed923008318d178946c7ff99756e512ccfb504fb873fcfef4b"}, "docker": "quay.io/biocontainers/ngsngs", "aliases": {"ngsngs": "/usr/local/bin/ngsngs", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ngsngs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngsngs", "latest": {"0.9.0--hce60e53_1": "sha256:0880fe15c7b5480e38abf882a0decd4449e5e8f6343a535d3b8d3d96ae1582f7"}, "tags": {"0.9.0--h6448e42_0": "sha256:a98120e8edea1eed923008318d178946c7ff99756e512ccfb504fb873fcfef4b", "0.9.0--hce60e53_1": "sha256:0880fe15c7b5480e38abf882a0decd4449e5e8f6343a535d3b8d3d96ae1582f7"}, "docker": "quay.io/biocontainers/ngsngs", "aliases": {"ngsngs": "/usr/local/bin/ngsngs", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngsngs.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/ngsngs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngsngs:0.9.0--h6448e42_0
+$ shpc install quay.io/biocontainers/ngsngs:0.9.0--hce60e53_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngsngs/0.9.0--h6448e42_0
-$ module help quay.io/biocontainers/ngsngs/0.9.0--h6448e42_0
+$ module load quay.io/biocontainers/ngsngs/0.9.0--hce60e53_1
+$ module help quay.io/biocontainers/ngsngs/0.9.0--hce60e53_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

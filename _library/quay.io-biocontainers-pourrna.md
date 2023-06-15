@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pourrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pourrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pourrna/container.yaml"
-updated_at: "2023-06-14 03:24:12.691687"
-latest: "1.2.0--h9f5acd7_3"
+updated_at: "2023-06-15 03:16:54.505492"
+latest: "1.2.0--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/pourrna"
 aliases:
  - "RNAmultifold"
@@ -22,8 +22,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "1.2.0--h9f5acd7_3"
+ - "1.2.0--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for pourrna"
-config: {"url": "https://biocontainers.pro/tools/pourrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pourrna", "latest": {"1.2.0--h9f5acd7_3": "sha256:af8773ea627de914eff33cccd3e9d8c435ed19d0a78ae9ba7302e5072c1bbb21"}, "tags": {"1.2.0--h9f5acd7_3": "sha256:af8773ea627de914eff33cccd3e9d8c435ed19d0a78ae9ba7302e5072c1bbb21"}, "docker": "quay.io/biocontainers/pourrna", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "pourRNA": "/usr/local/bin/pourRNA", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/pourrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pourrna", "latest": {"1.2.0--h4ac6f70_4": "sha256:865d69c4ac5d3cb82cec2a6744b381ef2838589454e8b2e60bcf99b4758abfe6"}, "tags": {"1.2.0--h9f5acd7_3": "sha256:af8773ea627de914eff33cccd3e9d8c435ed19d0a78ae9ba7302e5072c1bbb21", "1.2.0--h4ac6f70_4": "sha256:865d69c4ac5d3cb82cec2a6744b381ef2838589454e8b2e60bcf99b4758abfe6"}, "docker": "quay.io/biocontainers/pourrna", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "pourRNA": "/usr/local/bin/pourRNA", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pourrna.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pourrna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pourrna:1.2.0--h9f5acd7_3
+$ shpc install quay.io/biocontainers/pourrna:1.2.0--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pourrna/1.2.0--h9f5acd7_3
-$ module help quay.io/biocontainers/pourrna/1.2.0--h9f5acd7_3
+$ module load quay.io/biocontainers/pourrna/1.2.0--h4ac6f70_4
+$ module help quay.io/biocontainers/pourrna/1.2.0--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

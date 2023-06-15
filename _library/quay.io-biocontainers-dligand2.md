@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dligand2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dligand2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dligand2/container.yaml"
-updated_at: "2023-06-14 02:51:29.110629"
-latest: "0.1.0--h9f5acd7_3"
+updated_at: "2023-06-15 03:24:45.858280"
+latest: "0.1.0--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/dligand2"
 aliases:
  - "dligand2"
 versions:
  - "0.1.0--h9f5acd7_2"
  - "0.1.0--h9f5acd7_3"
+ - "0.1.0--h4ac6f70_4"
 description: "shpc-registry automated BioContainers addition for dligand2"
-config: {"url": "https://biocontainers.pro/tools/dligand2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dligand2", "latest": {"0.1.0--h9f5acd7_3": "sha256:32a00862a2c8532521814be12271219169b5afa6bf9b0035a686d954a97c7f51"}, "tags": {"0.1.0--h9f5acd7_2": "sha256:dba2c50c7bc8e1a143921ac2c675c486f9c2b8a6b205058e584cf89dff1dfd28", "0.1.0--h9f5acd7_3": "sha256:32a00862a2c8532521814be12271219169b5afa6bf9b0035a686d954a97c7f51"}, "docker": "quay.io/biocontainers/dligand2", "aliases": {"dligand2": "/usr/local/bin/dligand2"}}
+config: {"url": "https://biocontainers.pro/tools/dligand2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dligand2", "latest": {"0.1.0--h4ac6f70_4": "sha256:acd149318a1d1268e5197fb4a016bb54804b3075f048eec7d8f974d5f557b5b1"}, "tags": {"0.1.0--h9f5acd7_2": "sha256:dba2c50c7bc8e1a143921ac2c675c486f9c2b8a6b205058e584cf89dff1dfd28", "0.1.0--h9f5acd7_3": "sha256:32a00862a2c8532521814be12271219169b5afa6bf9b0035a686d954a97c7f51", "0.1.0--h4ac6f70_4": "sha256:acd149318a1d1268e5197fb4a016bb54804b3075f048eec7d8f974d5f557b5b1"}, "docker": "quay.io/biocontainers/dligand2", "aliases": {"dligand2": "/usr/local/bin/dligand2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dligand2.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dligand2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dligand2:0.1.0--h9f5acd7_3
+$ shpc install quay.io/biocontainers/dligand2:0.1.0--h4ac6f70_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dligand2/0.1.0--h9f5acd7_3
-$ module help quay.io/biocontainers/dligand2/0.1.0--h9f5acd7_3
+$ module load quay.io/biocontainers/dligand2/0.1.0--h4ac6f70_4
+$ module help quay.io/biocontainers/dligand2/0.1.0--h4ac6f70_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

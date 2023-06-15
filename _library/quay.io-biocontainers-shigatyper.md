@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shigatyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shigatyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shigatyper/container.yaml"
-updated_at: "2023-06-14 03:04:35.363541"
-latest: "2.0.3--pyhdfd78af_0"
+updated_at: "2023-06-15 03:01:49.834999"
+latest: "2.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shigatyper"
 aliases:
  - "shigatyper"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.0.1--pyhdfd78af_1"
  - "2.0.3--pyhdfd78af_0"
+ - "2.0.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for shigatyper"
-config: {"url": "https://biocontainers.pro/tools/shigatyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shigatyper", "latest": {"2.0.3--pyhdfd78af_0": "sha256:5a9b8a7c99ac1e862ce3a486019d0707b53f5764ceff08a96ce7e7776ed0d72e"}, "tags": {"2.0.1--pyhdfd78af_1": "sha256:42e5f7739299c4d70b3dae3585ac9fcf2dced5c135ea21365332f85244cf7d88", "2.0.3--pyhdfd78af_0": "sha256:5a9b8a7c99ac1e862ce3a486019d0707b53f5764ceff08a96ce7e7776ed0d72e"}, "docker": "quay.io/biocontainers/shigatyper", "aliases": {"shigatyper": "/usr/local/bin/shigatyper", "gff2gff.py": "/usr/local/bin/gff2gff.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats"}}
+config: {"url": "https://biocontainers.pro/tools/shigatyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shigatyper", "latest": {"2.0.4--pyhdfd78af_0": "sha256:351fa4cc41df0f1c6e12c49793f3ef919b206e0f0d57980aba907fcea4399fe7"}, "tags": {"2.0.1--pyhdfd78af_1": "sha256:42e5f7739299c4d70b3dae3585ac9fcf2dced5c135ea21365332f85244cf7d88", "2.0.3--pyhdfd78af_0": "sha256:5a9b8a7c99ac1e862ce3a486019d0707b53f5764ceff08a96ce7e7776ed0d72e", "2.0.4--pyhdfd78af_0": "sha256:351fa4cc41df0f1c6e12c49793f3ef919b206e0f0d57980aba907fcea4399fe7"}, "docker": "quay.io/biocontainers/shigatyper", "aliases": {"shigatyper": "/usr/local/bin/shigatyper", "gff2gff.py": "/usr/local/bin/gff2gff.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shigatyper.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/shigatyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shigatyper:2.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/shigatyper:2.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shigatyper/2.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/shigatyper/2.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/shigatyper/2.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/shigatyper/2.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

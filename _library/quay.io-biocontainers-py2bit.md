@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/py2bit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py2bit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py2bit/container.yaml"
-updated_at: "2023-06-14 03:22:15.299174"
-latest: "0.3.0--py310h1425a21_7"
+updated_at: "2023-06-15 03:04:39.071704"
+latest: "0.3.0--py39hf95cd2a_8"
 container_url: "https://biocontainers.pro/tools/py2bit"
 aliases:
  - "2to3-3.8"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.3.0--py38hbff2b2d_6"
  - "0.3.0--py310h1425a21_7"
+ - "0.3.0--py39hf95cd2a_8"
 description: "shpc-registry automated BioContainers addition for py2bit"
-config: {"url": "https://biocontainers.pro/tools/py2bit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for py2bit", "latest": {"0.3.0--py310h1425a21_7": "sha256:87deddb5652581e0790472d2ef1f5ea07883d764daa895127750084a281acbeb"}, "tags": {"0.3.0--py38hbff2b2d_6": "sha256:1a862eb1ecd5913bd7b4834f327f18bb26ab9b0f6e20d8141a3c77ee01c58296", "0.3.0--py310h1425a21_7": "sha256:87deddb5652581e0790472d2ef1f5ea07883d764daa895127750084a281acbeb"}, "docker": "quay.io/biocontainers/py2bit", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/py2bit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for py2bit", "latest": {"0.3.0--py39hf95cd2a_8": "sha256:e30553b4632bc4ab4270a6bffdb2a883cc4eaeffee7661c26875f60c3cabb7fa"}, "tags": {"0.3.0--py38hbff2b2d_6": "sha256:1a862eb1ecd5913bd7b4834f327f18bb26ab9b0f6e20d8141a3c77ee01c58296", "0.3.0--py310h1425a21_7": "sha256:87deddb5652581e0790472d2ef1f5ea07883d764daa895127750084a281acbeb", "0.3.0--py39hf95cd2a_8": "sha256:e30553b4632bc4ab4270a6bffdb2a883cc4eaeffee7661c26875f60c3cabb7fa"}, "docker": "quay.io/biocontainers/py2bit", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/py2bit.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/py2bit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/py2bit:0.3.0--py310h1425a21_7
+$ shpc install quay.io/biocontainers/py2bit:0.3.0--py39hf95cd2a_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/py2bit/0.3.0--py310h1425a21_7
-$ module help quay.io/biocontainers/py2bit/0.3.0--py310h1425a21_7
+$ module load quay.io/biocontainers/py2bit/0.3.0--py39hf95cd2a_8
+$ module help quay.io/biocontainers/py2bit/0.3.0--py39hf95cd2a_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

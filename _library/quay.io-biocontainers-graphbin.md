@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/graphbin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphbin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphbin/container.yaml"
-updated_at: "2023-06-14 02:49:20.168937"
-latest: "1.6.1--pyhdfd78af_0"
+updated_at: "2023-06-15 03:17:29.542200"
+latest: "1.7.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/graphbin"
 aliases:
  - "graphbin"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.5--pyhdfd78af_0"
  - "1.6.1--pyhdfd78af_0"
+ - "1.7.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for graphbin"
-config: {"url": "https://biocontainers.pro/tools/graphbin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphbin", "latest": {"1.6.1--pyhdfd78af_0": "sha256:bc671c78bf507f670bd1fcebbba3657e1c17ad2154531d548aac3a3881d3cd73"}, "tags": {"1.5--pyhdfd78af_0": "sha256:1a7d56fb51f0e05d9d1851a9db34823675e7f33b5f93f6a62980014c3ec00927", "1.6.1--pyhdfd78af_0": "sha256:bc671c78bf507f670bd1fcebbba3657e1c17ad2154531d548aac3a3881d3cd73"}, "docker": "quay.io/biocontainers/graphbin", "aliases": {"graphbin": "/usr/local/bin/graphbin", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9"}}
+config: {"url": "https://biocontainers.pro/tools/graphbin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphbin", "latest": {"1.7.0--pyh7cba7a3_0": "sha256:919dd72949fb52e3498a9d8eb1d493dce7acc4429e7761c5ac963e8aa71701f5"}, "tags": {"1.5--pyhdfd78af_0": "sha256:1a7d56fb51f0e05d9d1851a9db34823675e7f33b5f93f6a62980014c3ec00927", "1.6.1--pyhdfd78af_0": "sha256:bc671c78bf507f670bd1fcebbba3657e1c17ad2154531d548aac3a3881d3cd73", "1.7.0--pyh7cba7a3_0": "sha256:919dd72949fb52e3498a9d8eb1d493dce7acc4429e7761c5ac963e8aa71701f5"}, "docker": "quay.io/biocontainers/graphbin", "aliases": {"graphbin": "/usr/local/bin/graphbin", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphbin.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/graphbin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphbin:1.6.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/graphbin:1.7.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphbin/1.6.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/graphbin/1.6.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/graphbin/1.7.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/graphbin/1.7.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

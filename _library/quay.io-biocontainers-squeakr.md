@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/squeakr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squeakr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squeakr/container.yaml"
-updated_at: "2023-06-14 02:57:59.376177"
-latest: "0.6--h475c287_4"
+updated_at: "2023-06-15 03:13:59.585740"
+latest: "0.6--hbd2b730_5"
 container_url: "https://biocontainers.pro/tools/squeakr"
 aliases:
  - "squeakr"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.6--h475c287_3"
  - "0.6--h475c287_4"
+ - "0.6--hbd2b730_5"
 description: "shpc-registry automated BioContainers addition for squeakr"
-config: {"url": "https://biocontainers.pro/tools/squeakr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for squeakr", "latest": {"0.6--h475c287_4": "sha256:37b727df56bfa10fca7c384dc6da9e79d078c1df3734d43dbcda9b04d4fc6332"}, "tags": {"0.6--h475c287_3": "sha256:398ae869085cca776e9d8e92784a4fd93c61dbdad7298f1790bd4995308ec379", "0.6--h475c287_4": "sha256:37b727df56bfa10fca7c384dc6da9e79d078c1df3734d43dbcda9b04d4fc6332"}, "docker": "quay.io/biocontainers/squeakr", "aliases": {"squeakr": "/usr/local/bin/squeakr", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/squeakr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for squeakr", "latest": {"0.6--hbd2b730_5": "sha256:e7d23de035fcdb9255c1b89dfc890984b8edcb0b65205a4999c3d1017aa4122d"}, "tags": {"0.6--h475c287_3": "sha256:398ae869085cca776e9d8e92784a4fd93c61dbdad7298f1790bd4995308ec379", "0.6--h475c287_4": "sha256:37b727df56bfa10fca7c384dc6da9e79d078c1df3734d43dbcda9b04d4fc6332", "0.6--hbd2b730_5": "sha256:e7d23de035fcdb9255c1b89dfc890984b8edcb0b65205a4999c3d1017aa4122d"}, "docker": "quay.io/biocontainers/squeakr", "aliases": {"squeakr": "/usr/local/bin/squeakr", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/squeakr.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/squeakr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/squeakr:0.6--h475c287_4
+$ shpc install quay.io/biocontainers/squeakr:0.6--hbd2b730_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/squeakr/0.6--h475c287_4
-$ module help quay.io/biocontainers/squeakr/0.6--h475c287_4
+$ module load quay.io/biocontainers/squeakr/0.6--hbd2b730_5
+$ module help quay.io/biocontainers/squeakr/0.6--hbd2b730_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

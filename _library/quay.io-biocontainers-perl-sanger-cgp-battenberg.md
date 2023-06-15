@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-sanger-cgp-battenberg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sanger-cgp-battenberg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sanger-cgp-battenberg/container.yaml"
-updated_at: "2023-06-14 02:48:14.539113"
-latest: "1.4.1--pl5321hec16e2b_8"
+updated_at: "2023-06-15 02:48:48.620811"
+latest: "1.4.1--pl5321h031d066_9"
 container_url: "https://biocontainers.pro/tools/perl-sanger-cgp-battenberg"
 aliases:
  - "alleleCounter"
@@ -46,8 +46,9 @@ aliases:
  - "vcf-convert"
 versions:
  - "1.4.1--pl5321hec16e2b_8"
+ - "1.4.1--pl5321h031d066_9"
 description: "shpc-registry automated BioContainers addition for perl-sanger-cgp-battenberg"
-config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-battenberg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-battenberg", "latest": {"1.4.1--pl5321hec16e2b_8": "sha256:bff9d392d2121073c8882a304d3ab3719b5c90e85efab8f96b97534fd5592d5c"}, "tags": {"1.4.1--pl5321hec16e2b_8": "sha256:bff9d392d2121073c8882a304d3ab3719b5c90e85efab8f96b97534fd5592d5c"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-battenberg", "aliases": {"alleleCounter": "/usr/local/bin/alleleCounter", "alleleCounter.pl": "/usr/local/bin/alleleCounter.pl", "bamToBw.pl": "/usr/local/bin/bamToBw.pl", "bam_stats.pl": "/usr/local/bin/bam_stats.pl", "bam_to_sra_sub.pl": "/usr/local/bin/bam_to_sra_sub.pl", "battenberg.pl": "/usr/local/bin/battenberg.pl", "battenberg_CN_to_VCF.pl": "/usr/local/bin/battenberg_CN_to_VCF.pl", "battenberg_version.pl": "/usr/local/bin/battenberg_version.pl", "bwa_aln.pl": "/usr/local/bin/bwa_aln.pl", "bwa_mem.pl": "/usr/local/bin/bwa_mem.pl", "cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "detectExtremeDepth.pl": "/usr/local/bin/detectExtremeDepth.pl", "diff_bams.pl": "/usr/local/bin/diff_bams.pl", "download_generate_bberg_ref_files.pl": "/usr/local/bin/download_generate_bberg_ref_files.pl", "gcov2perl": "/usr/local/bin/gcov2perl", "gnos_pull.pl": "/usr/local/bin/gnos_pull.pl", "impute2": "/usr/local/bin/impute2", "monitor.pl": "/usr/local/bin/monitor.pl", "ppi2html": "/usr/local/bin/ppi2html", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "xam_coverage_bins.pl": "/usr/local/bin/xam_coverage_bins.pl", "xml_to_bas.pl": "/usr/local/bin/xml_to_bas.pl", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-battenberg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-battenberg", "latest": {"1.4.1--pl5321h031d066_9": "sha256:135141553dcfcb13b431bfee46f3282fe4922e08dfd83cd2aaf89ffb21d634b2"}, "tags": {"1.4.1--pl5321hec16e2b_8": "sha256:bff9d392d2121073c8882a304d3ab3719b5c90e85efab8f96b97534fd5592d5c", "1.4.1--pl5321h031d066_9": "sha256:135141553dcfcb13b431bfee46f3282fe4922e08dfd83cd2aaf89ffb21d634b2"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-battenberg", "aliases": {"alleleCounter": "/usr/local/bin/alleleCounter", "alleleCounter.pl": "/usr/local/bin/alleleCounter.pl", "bamToBw.pl": "/usr/local/bin/bamToBw.pl", "bam_stats.pl": "/usr/local/bin/bam_stats.pl", "bam_to_sra_sub.pl": "/usr/local/bin/bam_to_sra_sub.pl", "battenberg.pl": "/usr/local/bin/battenberg.pl", "battenberg_CN_to_VCF.pl": "/usr/local/bin/battenberg_CN_to_VCF.pl", "battenberg_version.pl": "/usr/local/bin/battenberg_version.pl", "bwa_aln.pl": "/usr/local/bin/bwa_aln.pl", "bwa_mem.pl": "/usr/local/bin/bwa_mem.pl", "cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "detectExtremeDepth.pl": "/usr/local/bin/detectExtremeDepth.pl", "diff_bams.pl": "/usr/local/bin/diff_bams.pl", "download_generate_bberg_ref_files.pl": "/usr/local/bin/download_generate_bberg_ref_files.pl", "gcov2perl": "/usr/local/bin/gcov2perl", "gnos_pull.pl": "/usr/local/bin/gnos_pull.pl", "impute2": "/usr/local/bin/impute2", "monitor.pl": "/usr/local/bin/monitor.pl", "ppi2html": "/usr/local/bin/ppi2html", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "xam_coverage_bins.pl": "/usr/local/bin/xam_coverage_bins.pl", "xml_to_bas.pl": "/usr/local/bin/xml_to_bas.pl", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sanger-cgp-battenberg.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/perl-sanger-cgp-battenberg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sanger-cgp-battenberg:1.4.1--pl5321hec16e2b_8
+$ shpc install quay.io/biocontainers/perl-sanger-cgp-battenberg:1.4.1--pl5321h031d066_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sanger-cgp-battenberg/1.4.1--pl5321hec16e2b_8
-$ module help quay.io/biocontainers/perl-sanger-cgp-battenberg/1.4.1--pl5321hec16e2b_8
+$ module load quay.io/biocontainers/perl-sanger-cgp-battenberg/1.4.1--pl5321h031d066_9
+$ module help quay.io/biocontainers/perl-sanger-cgp-battenberg/1.4.1--pl5321h031d066_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

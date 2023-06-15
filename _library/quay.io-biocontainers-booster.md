@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/booster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/booster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/booster/container.yaml"
-updated_at: "2023-06-14 03:18:23.986561"
-latest: "0.1.2--hec16e2b_5"
+updated_at: "2023-06-15 02:54:26.116552"
+latest: "0.1.2--h031d066_6"
 container_url: "https://biocontainers.pro/tools/booster"
 aliases:
  - "booster"
 versions:
  - "0.1.2--hec16e2b_4"
  - "0.1.2--hec16e2b_5"
+ - "0.1.2--h031d066_6"
 description: "shpc-registry automated BioContainers addition for booster"
-config: {"url": "https://biocontainers.pro/tools/booster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for booster", "latest": {"0.1.2--hec16e2b_5": "sha256:e094b11b25e548a1a9f33d77bfa63799ac07b8d3c6964da241eaee368cdfae42"}, "tags": {"0.1.2--hec16e2b_4": "sha256:548ea4089fd808f6a5f9a62754914f03fcce65305195aa79dda765f64c48c6eb", "0.1.2--hec16e2b_5": "sha256:e094b11b25e548a1a9f33d77bfa63799ac07b8d3c6964da241eaee368cdfae42"}, "docker": "quay.io/biocontainers/booster", "aliases": {"booster": "/usr/local/bin/booster"}}
+config: {"url": "https://biocontainers.pro/tools/booster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for booster", "latest": {"0.1.2--h031d066_6": "sha256:e41cac09753cdc4de09c21dc203f3baa30224469f120daf4402d74b927b3fae0"}, "tags": {"0.1.2--hec16e2b_4": "sha256:548ea4089fd808f6a5f9a62754914f03fcce65305195aa79dda765f64c48c6eb", "0.1.2--hec16e2b_5": "sha256:e094b11b25e548a1a9f33d77bfa63799ac07b8d3c6964da241eaee368cdfae42", "0.1.2--h031d066_6": "sha256:e41cac09753cdc4de09c21dc203f3baa30224469f120daf4402d74b927b3fae0"}, "docker": "quay.io/biocontainers/booster", "aliases": {"booster": "/usr/local/bin/booster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/booster.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/booster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/booster:0.1.2--hec16e2b_5
+$ shpc install quay.io/biocontainers/booster:0.1.2--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/booster/0.1.2--hec16e2b_5
-$ module help quay.io/biocontainers/booster/0.1.2--hec16e2b_5
+$ module load quay.io/biocontainers/booster/0.1.2--h031d066_6
+$ module help quay.io/biocontainers/booster/0.1.2--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

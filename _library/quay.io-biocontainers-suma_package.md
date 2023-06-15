@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/suma_package"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suma_package/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suma_package/container.yaml"
-updated_at: "2023-06-14 03:17:33.146740"
-latest: "1.0.00--h7132678_6"
+updated_at: "2023-06-15 03:16:45.884250"
+latest: "1.0.00--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/suma_package"
 aliases:
  - "sumaclust"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.00--h7132678_5"
  - "1.0.00--h7132678_6"
+ - "1.0.00--he4a0461_7"
 description: "shpc-registry automated BioContainers addition for suma_package"
-config: {"url": "https://biocontainers.pro/tools/suma_package", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suma_package", "latest": {"1.0.00--h7132678_6": "sha256:b32f17db38efcc209c2c3463dc3f13164b23cc18938622a8198b962c48ad3a50"}, "tags": {"1.0.00--h7132678_5": "sha256:781cd79ca306b4ed25847f9a095dc97ddce2a2d647e4857ec618082fc2dac600", "1.0.00--h7132678_6": "sha256:b32f17db38efcc209c2c3463dc3f13164b23cc18938622a8198b962c48ad3a50"}, "docker": "quay.io/biocontainers/suma_package", "aliases": {"sumaclust": "/usr/local/bin/sumaclust", "sumatra": "/usr/local/bin/sumatra"}}
+config: {"url": "https://biocontainers.pro/tools/suma_package", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suma_package", "latest": {"1.0.00--he4a0461_7": "sha256:2d288ca6eca16a2c8a6947fca77a4c9093ed5a03ea2d8c1e24cb5bac67a36938"}, "tags": {"1.0.00--h7132678_5": "sha256:781cd79ca306b4ed25847f9a095dc97ddce2a2d647e4857ec618082fc2dac600", "1.0.00--h7132678_6": "sha256:b32f17db38efcc209c2c3463dc3f13164b23cc18938622a8198b962c48ad3a50", "1.0.00--he4a0461_7": "sha256:2d288ca6eca16a2c8a6947fca77a4c9093ed5a03ea2d8c1e24cb5bac67a36938"}, "docker": "quay.io/biocontainers/suma_package", "aliases": {"sumaclust": "/usr/local/bin/sumaclust", "sumatra": "/usr/local/bin/sumatra"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/suma_package.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/suma_package
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/suma_package:1.0.00--h7132678_6
+$ shpc install quay.io/biocontainers/suma_package:1.0.00--he4a0461_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/suma_package/1.0.00--h7132678_6
-$ module help quay.io/biocontainers/suma_package/1.0.00--h7132678_6
+$ module load quay.io/biocontainers/suma_package/1.0.00--he4a0461_7
+$ module help quay.io/biocontainers/suma_package/1.0.00--he4a0461_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

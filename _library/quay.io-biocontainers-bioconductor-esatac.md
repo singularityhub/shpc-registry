@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-esatac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-esatac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-esatac/container.yaml"
-updated_at: "2023-06-14 03:06:13.904380"
+updated_at: "2023-06-15 02:51:12.666152"
 latest: "1.20.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-esatac"
 aliases:

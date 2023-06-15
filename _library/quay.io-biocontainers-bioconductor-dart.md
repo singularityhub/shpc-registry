@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dart/container.yaml"
-updated_at: "2023-06-14 03:01:27.355414"
+updated_at: "2023-06-15 03:27:33.456715"
 latest: "1.46.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dart"
 

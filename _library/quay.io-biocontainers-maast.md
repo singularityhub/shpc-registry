@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/maast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maast/container.yaml"
-updated_at: "2023-06-14 03:17:32.237863"
-latest: "1.0.7--py36hffcf100_0"
+updated_at: "2023-06-15 03:01:48.897997"
+latest: "1.0.7--py38he9326dd_1"
 container_url: "https://biocontainers.pro/tools/maast"
 aliases:
  - "lbunzip2"
@@ -39,8 +39,9 @@ aliases:
  - "unpigz"
 versions:
  - "1.0.7--py36hffcf100_0"
+ - "1.0.7--py38he9326dd_1"
 description: "singularity registry hpc automated addition for maast"
-config: {"url": "https://biocontainers.pro/tools/maast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maast", "latest": {"1.0.7--py36hffcf100_0": "sha256:e3b55ff0d4d2ee3b2192bcb1ba3a3d020c52d0826ecfca1509ef5a6a3dddff33"}, "tags": {"1.0.7--py36hffcf100_0": "sha256:e3b55ff0d4d2ee3b2192bcb1ba3a3d020c52d0826ecfca1509ef5a6a3dddff33"}, "docker": "quay.io/biocontainers/maast", "aliases": {"lbunzip2": "/usr/local/bin/lbunzip2", "lbzcat": "/usr/local/bin/lbzcat", "lbzip2": "/usr/local/bin/lbzip2", "maast": "/usr/local/bin/maast", "delta2vcf": "/usr/local/bin/delta2vcf", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match", "show-aligns": "/usr/local/bin/show-aligns", "show-coords": "/usr/local/bin/show-coords", "show-diff": "/usr/local/bin/show-diff", "show-snps": "/usr/local/bin/show-snps", "show-tiling": "/usr/local/bin/show-tiling", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
+config: {"url": "https://biocontainers.pro/tools/maast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for maast", "latest": {"1.0.7--py38he9326dd_1": "sha256:ed3ecb3074213800c0e6edada799d18246e204c063890d313c57ff902718ff1f"}, "tags": {"1.0.7--py36hffcf100_0": "sha256:e3b55ff0d4d2ee3b2192bcb1ba3a3d020c52d0826ecfca1509ef5a6a3dddff33", "1.0.7--py38he9326dd_1": "sha256:ed3ecb3074213800c0e6edada799d18246e204c063890d313c57ff902718ff1f"}, "docker": "quay.io/biocontainers/maast", "aliases": {"lbunzip2": "/usr/local/bin/lbunzip2", "lbzcat": "/usr/local/bin/lbzcat", "lbzip2": "/usr/local/bin/lbzip2", "maast": "/usr/local/bin/maast", "delta2vcf": "/usr/local/bin/delta2vcf", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match", "show-aligns": "/usr/local/bin/show-aligns", "show-coords": "/usr/local/bin/show-coords", "show-diff": "/usr/local/bin/show-diff", "show-snps": "/usr/local/bin/show-snps", "show-tiling": "/usr/local/bin/show-tiling", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maast.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/maast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/maast:1.0.7--py36hffcf100_0
+$ shpc install quay.io/biocontainers/maast:1.0.7--py38he9326dd_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/maast/1.0.7--py36hffcf100_0
-$ module help quay.io/biocontainers/maast/1.0.7--py36hffcf100_0
+$ module load quay.io/biocontainers/maast/1.0.7--py38he9326dd_1
+$ module help quay.io/biocontainers/maast/1.0.7--py38he9326dd_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

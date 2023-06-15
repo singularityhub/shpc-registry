@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/seq-gen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq-gen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq-gen/container.yaml"
-updated_at: "2023-06-14 03:06:10.615089"
-latest: "1.3.4--hec16e2b_6"
+updated_at: "2023-06-15 03:17:57.516264"
+latest: "1.3.4--h031d066_7"
 container_url: "https://biocontainers.pro/tools/seq-gen"
 aliases:
  - "seq-gen"
 versions:
  - "1.3.4--hec16e2b_5"
  - "1.3.4--hec16e2b_6"
+ - "1.3.4--h031d066_7"
 description: "shpc-registry automated BioContainers addition for seq-gen"
-config: {"url": "https://biocontainers.pro/tools/seq-gen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq-gen", "latest": {"1.3.4--hec16e2b_6": "sha256:14a0659111fa4b722cd21db1eebea72ee3ec2ab2e5833215935690565f925961"}, "tags": {"1.3.4--hec16e2b_5": "sha256:0eb70dcc3eec532514832056071ba3d9ec250807ef9268e2ceebc91d71d85e39", "1.3.4--hec16e2b_6": "sha256:14a0659111fa4b722cd21db1eebea72ee3ec2ab2e5833215935690565f925961"}, "docker": "quay.io/biocontainers/seq-gen", "aliases": {"seq-gen": "/usr/local/bin/seq-gen"}}
+config: {"url": "https://biocontainers.pro/tools/seq-gen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq-gen", "latest": {"1.3.4--h031d066_7": "sha256:04e12317a609a3b2a1c2322901d9fd18f273b9d9e358f896dab2fbf7ca220d3f"}, "tags": {"1.3.4--hec16e2b_5": "sha256:0eb70dcc3eec532514832056071ba3d9ec250807ef9268e2ceebc91d71d85e39", "1.3.4--hec16e2b_6": "sha256:14a0659111fa4b722cd21db1eebea72ee3ec2ab2e5833215935690565f925961", "1.3.4--h031d066_7": "sha256:04e12317a609a3b2a1c2322901d9fd18f273b9d9e358f896dab2fbf7ca220d3f"}, "docker": "quay.io/biocontainers/seq-gen", "aliases": {"seq-gen": "/usr/local/bin/seq-gen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seq-gen.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/seq-gen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seq-gen:1.3.4--hec16e2b_6
+$ shpc install quay.io/biocontainers/seq-gen:1.3.4--h031d066_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seq-gen/1.3.4--hec16e2b_6
-$ module help quay.io/biocontainers/seq-gen/1.3.4--hec16e2b_6
+$ module load quay.io/biocontainers/seq-gen/1.3.4--h031d066_7
+$ module help quay.io/biocontainers/seq-gen/1.3.4--h031d066_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

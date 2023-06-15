@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/yacrd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yacrd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yacrd/container.yaml"
-updated_at: "2023-06-14 03:11:34.297271"
-latest: "1.0.0--hc308579_1"
+updated_at: "2023-06-15 03:20:52.492345"
+latest: "1.0.0--h8bd2d3b_2"
 container_url: "https://biocontainers.pro/tools/yacrd"
 aliases:
  - "yacrd"
 versions:
  - "1.0.0--hc308579_0"
  - "1.0.0--hc308579_1"
+ - "1.0.0--h8bd2d3b_2"
 description: "shpc-registry automated BioContainers addition for yacrd"
-config: {"url": "https://biocontainers.pro/tools/yacrd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yacrd", "latest": {"1.0.0--hc308579_1": "sha256:8e6e4d501a72126dada2679a48b7d8f73640cf4565a60af981e2dc0116d4a790"}, "tags": {"1.0.0--hc308579_0": "sha256:aa06ab658ee12917d5be9406cd2f7d2f644079d5fcc27b17d28c73bb47780f9e", "1.0.0--hc308579_1": "sha256:8e6e4d501a72126dada2679a48b7d8f73640cf4565a60af981e2dc0116d4a790"}, "docker": "quay.io/biocontainers/yacrd", "aliases": {"yacrd": "/usr/local/bin/yacrd"}}
+config: {"url": "https://biocontainers.pro/tools/yacrd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yacrd", "latest": {"1.0.0--h8bd2d3b_2": "sha256:ebbdb4f7e8b5b7c421fdcb0fddde7bbac1d3036821dfd235df472a7e295d58ec"}, "tags": {"1.0.0--hc308579_0": "sha256:aa06ab658ee12917d5be9406cd2f7d2f644079d5fcc27b17d28c73bb47780f9e", "1.0.0--hc308579_1": "sha256:8e6e4d501a72126dada2679a48b7d8f73640cf4565a60af981e2dc0116d4a790", "1.0.0--h8bd2d3b_2": "sha256:ebbdb4f7e8b5b7c421fdcb0fddde7bbac1d3036821dfd235df472a7e295d58ec"}, "docker": "quay.io/biocontainers/yacrd", "aliases": {"yacrd": "/usr/local/bin/yacrd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yacrd.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/yacrd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yacrd:1.0.0--hc308579_1
+$ shpc install quay.io/biocontainers/yacrd:1.0.0--h8bd2d3b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yacrd/1.0.0--hc308579_1
-$ module help quay.io/biocontainers/yacrd/1.0.0--hc308579_1
+$ module load quay.io/biocontainers/yacrd/1.0.0--h8bd2d3b_2
+$ module help quay.io/biocontainers/yacrd/1.0.0--h8bd2d3b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
