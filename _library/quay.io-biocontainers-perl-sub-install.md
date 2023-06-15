@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sub-install"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-install/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-install/container.yaml"
-updated_at: "2023-06-15 02:42:11.468845"
+updated_at: "2023-06-15 03:28:38.052697"
 latest: "0.928--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-sub-install"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cameo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cameo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cameo/container.yaml"
-updated_at: "2023-06-15 02:50:08.262528"
+updated_at: "2023-06-15 03:31:56.588967"
 latest: "0.13.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cameo"
 aliases:

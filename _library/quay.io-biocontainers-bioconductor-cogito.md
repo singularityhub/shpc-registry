@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cogito"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogito/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogito/container.yaml"
-updated_at: "2023-06-15 02:52:36.119639"
+updated_at: "2023-06-15 03:53:59.393400"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogito"
 aliases:
