@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-iranges
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-iranges
 latest:
-  2.32.0--r42hc0cfd56_0: sha256:451329f72269065154433a0661a0afd53c2b1a0c9367360ee4d17bf88012afd4
+  2.32.0--r42ha9d7317_1: sha256:2c960ad0eaf833a1019c315fb01a09a458269a56bede4351a0686744700873aa
 tags:
   2.8.2--r3.4.1_0: sha256:f601f2fc26f9fc1b4346a03c380ed998c2a7ede6ce9c83b1027509ce5605233b
   2.32.0--r42hc0cfd56_0: sha256:451329f72269065154433a0661a0afd53c2b1a0c9367360ee4d17bf88012afd4
@@ -10,6 +10,7 @@ tags:
   2.26.0--r41hd029910_0: sha256:e44e006d62fc7edfd6cc6fc1a4373f161cea0cd4d2b0aa3739fa68685ed5b59c
   2.24.1--r40hd029910_0: sha256:1c23ceb1c0c4c0cd27edcdd31071b84d978d67de76c0c33b2dbc4532ea272534
   2.22.1--r40h037d062_0: sha256:8bfba6113a1407c84a649ce8009e37197eb85380b2bcedd967473e87f8e86197
+  2.32.0--r42ha9d7317_1: sha256:2c960ad0eaf833a1019c315fb01a09a458269a56bede4351a0686744700873aa
 docker: quay.io/biocontainers/bioconductor-iranges
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

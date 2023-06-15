@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-genextender
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genextender
 latest:
-  1.24.0--r42hc0cfd56_0: sha256:191d048f843eddd835c491d32bf94caba1c38e6752861b2bea0c7ba1b600ce8b
+  1.24.0--r42ha9d7317_1: sha256:e700be8889f6cc17a7f341ea6f0bc69addbce1d75523270a77ba3bf04db1859a
 tags:
   1.8.0--r351h14c3975_0: sha256:16543730d16e93f0a2dbef6e8ef7cf4321e8dca5251dd8625a5379329ca56deb
   1.24.0--r42hc0cfd56_0: sha256:191d048f843eddd835c491d32bf94caba1c38e6752861b2bea0c7ba1b600ce8b
@@ -10,6 +10,7 @@ tags:
   1.18.0--r41hd029910_0: sha256:34d1f0278a2a229dfe3f16b0414483326c25766f5a1ab2ee9b057ae0bcb9fd16
   1.16.0--r40hd029910_1: sha256:1b3a1efc347ba4bf2f3a7c820b89646e056ca4aa6641d8d5e6eb93dde793eda3
   1.14.0--r40h037d062_0: sha256:07d7994b4190a9f2abb9e10841e5ea06427ed0cae4833800fdf1b6311e3c0394
+  1.24.0--r42ha9d7317_1: sha256:e700be8889f6cc17a7f341ea6f0bc69addbce1d75523270a77ba3bf04db1859a
 docker: quay.io/biocontainers/bioconductor-genextender
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

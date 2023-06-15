@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/molpopgen-analysis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for molpopgen-analysis
 latest:
-  0.8.8--h7fd9d64_8: sha256:364436e67b67b7633512c1ff898aac1d3836f1608cfa230345b4394d1fbf1c0d
+  0.8.8--h733e4d7_9: sha256:6c167975988035ee04e95ff45b625989166a56b00e4631e62170a1a53f3a361c
 tags:
   0.8.8--h7fd9d64_8: sha256:364436e67b67b7633512c1ff898aac1d3836f1608cfa230345b4394d1fbf1c0d
+  0.8.8--h733e4d7_9: sha256:6c167975988035ee04e95ff45b625989166a56b00e4631e62170a1a53f3a361c
 docker: quay.io/biocontainers/molpopgen-analysis
 aliases:
   Fexact: /usr/local/bin/Fexact

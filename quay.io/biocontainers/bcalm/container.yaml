@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bcalm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bcalm
 latest:
-  2.2.3--h5b5514e_4: sha256:6e398f4357c85be08ff9d9607f2a73ee8c46c8b51fa52df83d42e50f5f6be8dc
+  2.2.3--h43eeafb_5: sha256:b46ab2f7ad7ef905c3164f7b4f94087dac0a7280a8e3cfd5311784c426f83254
 tags:
   2.2.3--h5b5514e_3: sha256:4259eb31aeb9f935607e54fe490f53e864810dea412b11c6369b18f132e4c87b
   2.2.3--h5b5514e_4: sha256:6e398f4357c85be08ff9d9607f2a73ee8c46c8b51fa52df83d42e50f5f6be8dc
+  2.2.3--h43eeafb_5: sha256:b46ab2f7ad7ef905c3164f7b4f94087dac0a7280a8e3cfd5311784c426f83254
 docker: quay.io/biocontainers/bcalm
 aliases:
   bcalm: /usr/local/bin/bcalm

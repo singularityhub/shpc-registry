@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mfqe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mfqe
 latest:
-  0.5.0--hec16e2b_3: sha256:e2a1c0dd9dbd2a4bdf090565fb33f919af2ae93b6828a5f2fb043ac27d89cc7f
+  0.5.0--h031d066_4: sha256:18f3804069167df4fd978e70ad8918944943104c73a55b25eaac52e3a541dab8
 tags:
   0.5.0--hec16e2b_2: sha256:06bd33e40788e21d2cc388596c705dbe1cd00e36e1f62c06d2fe60e41ac81d6f
   0.5.0--hec16e2b_3: sha256:e2a1c0dd9dbd2a4bdf090565fb33f919af2ae93b6828a5f2fb043ac27d89cc7f
+  0.5.0--h031d066_4: sha256:18f3804069167df4fd978e70ad8918944943104c73a55b25eaac52e3a541dab8
 docker: quay.io/biocontainers/mfqe
 aliases:
   mfqe: /usr/local/bin/mfqe

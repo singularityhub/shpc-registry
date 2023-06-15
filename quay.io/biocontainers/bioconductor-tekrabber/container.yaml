@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tekrabber
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-tekrabber
 latest:
-  1.2.0--r42hc247a5b_0: sha256:82edf61017dde6fcae80e5027dfe303825030cd145a861ecad8133d81cd50caa
+  1.2.0--r42hf17093f_1: sha256:7a419124582fb114039c60c9fb1e45fdf68023131bdddc24b51d15e96bb587cd
 tags:
   1.2.0--r42hc247a5b_0: sha256:82edf61017dde6fcae80e5027dfe303825030cd145a861ecad8133d81cd50caa
+  1.2.0--r42hf17093f_1: sha256:7a419124582fb114039c60c9fb1e45fdf68023131bdddc24b51d15e96bb587cd
 docker: quay.io/biocontainers/bioconductor-tekrabber
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
