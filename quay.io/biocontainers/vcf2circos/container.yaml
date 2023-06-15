@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/vcf2circos
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcf2circos
+latest:
+  1.1--pyhdfd78af_0: sha256:5173d4e762b3a88713dc40a2d70d0d44bd6198d6e63b84710927ce31df60bc37
+tags:
+  1.1--pyhdfd78af_0: sha256:5173d4e762b3a88713dc40a2d70d0d44bd6198d6e63b84710927ce31df60bc37
+docker: quay.io/biocontainers/vcf2circos
+aliases:
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  pyfiglet: /usr/local/bin/pyfiglet
+  vcf2circos: /usr/local/bin/vcf2circos
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  flask: /usr/local/bin/flask
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  f2py3.11: /usr/local/bin/f2py3.11
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  pygmentize: /usr/local/bin/pygmentize
+  tqdm: /usr/local/bin/tqdm
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1

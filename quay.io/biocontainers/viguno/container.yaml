@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/viguno
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for viguno
+latest:
+  0.1.1--h7e29777_0: sha256:8a42109d38493410adf689fa56a859c7cec55efe6d85f02b0c3f0a694e02234f
+tags:
+  0.1.1--h7e29777_0: sha256:8a42109d38493410adf689fa56a859c7cec55efe6d85f02b0c3f0a694e02234f
+docker: quay.io/biocontainers/viguno
+aliases:
+  viguno: /usr/local/bin/viguno

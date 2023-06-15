@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/vamos
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vamos
+latest:
+  1.2.6--hd7d8470_0: sha256:479ebf30b12dc718ee1b18e72d73ca8aa1f5cc0fa98016b645754d961987fde6
+tags:
+  1.2.6--hd7d8470_0: sha256:479ebf30b12dc718ee1b18e72d73ca8aa1f5cc0fa98016b645754d961987fde6
+docker: quay.io/biocontainers/vamos
+aliases:
+  vamos: /usr/local/bin/vamos
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
