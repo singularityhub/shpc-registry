@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fermi-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fermi-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fermi-lite/container.yaml"
-updated_at: "2023-06-15 03:24:25.006395"
-latest: "0.1--h7132678_6"
+updated_at: "2023-06-16 03:38:37.314402"
+latest: "0.1--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/fermi-lite"
 aliases:
  - "fml-asm"
 versions:
  - "0.1--h7132678_5"
  - "0.1--h7132678_6"
+ - "0.1--he4a0461_7"
 description: "shpc-registry automated BioContainers addition for fermi-lite"
-config: {"url": "https://biocontainers.pro/tools/fermi-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fermi-lite", "latest": {"0.1--h7132678_6": "sha256:c1d23cfccc01f7f4a86bf1a5062bcacce60151f038188a58b6d0ce6f92c670fe"}, "tags": {"0.1--h7132678_5": "sha256:cd0193712125eac5ddf1632862f4882efde3a116788c9a3a317a847f6d6cb518", "0.1--h7132678_6": "sha256:c1d23cfccc01f7f4a86bf1a5062bcacce60151f038188a58b6d0ce6f92c670fe"}, "docker": "quay.io/biocontainers/fermi-lite", "aliases": {"fml-asm": "/usr/local/bin/fml-asm"}}
+config: {"url": "https://biocontainers.pro/tools/fermi-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fermi-lite", "latest": {"0.1--he4a0461_7": "sha256:3835883cf7bfa3d0e956d0af89afb151e5afc259073dc6fe396f2f1b18dcab32"}, "tags": {"0.1--h7132678_5": "sha256:cd0193712125eac5ddf1632862f4882efde3a116788c9a3a317a847f6d6cb518", "0.1--h7132678_6": "sha256:c1d23cfccc01f7f4a86bf1a5062bcacce60151f038188a58b6d0ce6f92c670fe", "0.1--he4a0461_7": "sha256:3835883cf7bfa3d0e956d0af89afb151e5afc259073dc6fe396f2f1b18dcab32"}, "docker": "quay.io/biocontainers/fermi-lite", "aliases": {"fml-asm": "/usr/local/bin/fml-asm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fermi-lite.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fermi-lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fermi-lite:0.1--h7132678_6
+$ shpc install quay.io/biocontainers/fermi-lite:0.1--he4a0461_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fermi-lite/0.1--h7132678_6
-$ module help quay.io/biocontainers/fermi-lite/0.1--h7132678_6
+$ module load quay.io/biocontainers/fermi-lite/0.1--he4a0461_7
+$ module help quay.io/biocontainers/fermi-lite/0.1--he4a0461_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ocrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ocrad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ocrad/container.yaml"
-updated_at: "2023-06-15 03:51:20.474905"
+updated_at: "2023-06-16 02:45:08.195501"
 latest: "0.21--h470a237_1"
 container_url: "https://biocontainers.pro/tools/ocrad"
 aliases:

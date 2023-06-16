@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/albatradis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/albatradis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/albatradis/container.yaml"
-updated_at: "2023-06-15 03:26:29.089094"
-latest: "1.0.4--py36h91eb985_3"
+updated_at: "2023-06-16 03:20:41.938133"
+latest: "1.0.4--py310h4b81fae_4"
 container_url: "https://biocontainers.pro/tools/albatradis"
 aliases:
  - "add_tradis_tags"
@@ -47,8 +47,9 @@ aliases:
  - "bp_find-blast-matches"
 versions:
  - "1.0.4--py36h91eb985_3"
+ - "1.0.4--py310h4b81fae_4"
 description: "shpc-registry automated BioContainers addition for albatradis"
-config: {"url": "https://biocontainers.pro/tools/albatradis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for albatradis", "latest": {"1.0.4--py36h91eb985_3": "sha256:dbfb4e5ef61956a66895e4229b2807f553d2fd44a8307193f9fac46582248a76"}, "tags": {"1.0.4--py36h91eb985_3": "sha256:dbfb4e5ef61956a66895e4229b2807f553d2fd44a8307193f9fac46582248a76"}, "docker": "quay.io/biocontainers/albatradis", "aliases": {"add_tradis_tags": "/usr/local/bin/add_tradis_tags", "albatradis": "/usr/local/bin/albatradis", "albatradis-annotation": "/usr/local/bin/albatradis-annotation", "albatradis-artemis_project": "/usr/local/bin/albatradis-artemis_project", "albatradis-gene_reports": "/usr/local/bin/albatradis-gene_reports", "albatradis-presence_absence": "/usr/local/bin/albatradis-presence_absence", "albatradis-scatterplot": "/usr/local/bin/albatradis-scatterplot", "bacteria_tradis": "/usr/local/bin/bacteria_tradis", "basqcol": "/usr/local/bin/basqcol", "check_tradis_tags": "/usr/local/bin/check_tradis_tags", "combine_tradis_plots": "/usr/local/bin/combine_tradis_plots", "fetchseq": "/usr/local/bin/fetchseq", "filter_tradis_tags": "/usr/local/bin/filter_tradis_tags", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "remove_tradis_tags": "/usr/local/bin/remove_tradis_tags", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "tradis_comparison.R": "/usr/local/bin/tradis_comparison.R", "tradis_essentiality.R": "/usr/local/bin/tradis_essentiality.R", "tradis_gene_insert_sites": "/usr/local/bin/tradis_gene_insert_sites", "tradis_merge_plots": "/usr/local/bin/tradis_merge_plots", "tradis_plot": "/usr/local/bin/tradis_plot", "trunkreads": "/usr/local/bin/trunkreads", "fastaq": "/usr/local/bin/fastaq", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches"}}
+config: {"url": "https://biocontainers.pro/tools/albatradis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for albatradis", "latest": {"1.0.4--py310h4b81fae_4": "sha256:2c5969bd316710f7c2fea2ca37605459f3a4dd4a1e5173e8551fb9a29263acde"}, "tags": {"1.0.4--py36h91eb985_3": "sha256:dbfb4e5ef61956a66895e4229b2807f553d2fd44a8307193f9fac46582248a76", "1.0.4--py310h4b81fae_4": "sha256:2c5969bd316710f7c2fea2ca37605459f3a4dd4a1e5173e8551fb9a29263acde"}, "docker": "quay.io/biocontainers/albatradis", "aliases": {"add_tradis_tags": "/usr/local/bin/add_tradis_tags", "albatradis": "/usr/local/bin/albatradis", "albatradis-annotation": "/usr/local/bin/albatradis-annotation", "albatradis-artemis_project": "/usr/local/bin/albatradis-artemis_project", "albatradis-gene_reports": "/usr/local/bin/albatradis-gene_reports", "albatradis-presence_absence": "/usr/local/bin/albatradis-presence_absence", "albatradis-scatterplot": "/usr/local/bin/albatradis-scatterplot", "bacteria_tradis": "/usr/local/bin/bacteria_tradis", "basqcol": "/usr/local/bin/basqcol", "check_tradis_tags": "/usr/local/bin/check_tradis_tags", "combine_tradis_plots": "/usr/local/bin/combine_tradis_plots", "fetchseq": "/usr/local/bin/fetchseq", "filter_tradis_tags": "/usr/local/bin/filter_tradis_tags", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "remove_tradis_tags": "/usr/local/bin/remove_tradis_tags", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "tradis_comparison.R": "/usr/local/bin/tradis_comparison.R", "tradis_essentiality.R": "/usr/local/bin/tradis_essentiality.R", "tradis_gene_insert_sites": "/usr/local/bin/tradis_gene_insert_sites", "tradis_merge_plots": "/usr/local/bin/tradis_merge_plots", "tradis_plot": "/usr/local/bin/tradis_plot", "trunkreads": "/usr/local/bin/trunkreads", "fastaq": "/usr/local/bin/fastaq", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/albatradis.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/albatradis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/albatradis:1.0.4--py36h91eb985_3
+$ shpc install quay.io/biocontainers/albatradis:1.0.4--py310h4b81fae_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/albatradis/1.0.4--py36h91eb985_3
-$ module help quay.io/biocontainers/albatradis/1.0.4--py36h91eb985_3
+$ module load quay.io/biocontainers/albatradis/1.0.4--py310h4b81fae_4
+$ module help quay.io/biocontainers/albatradis/1.0.4--py310h4b81fae_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

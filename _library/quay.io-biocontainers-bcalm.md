@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bcalm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcalm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcalm/container.yaml"
-updated_at: "2023-06-15 03:30:11.271221"
-latest: "2.2.3--h5b5514e_4"
+updated_at: "2023-06-16 03:39:18.346137"
+latest: "2.2.3--h43eeafb_5"
 container_url: "https://biocontainers.pro/tools/bcalm"
 aliases:
  - "bcalm"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "2.2.3--h5b5514e_3"
  - "2.2.3--h5b5514e_4"
+ - "2.2.3--h43eeafb_5"
 description: "shpc-registry automated BioContainers addition for bcalm"
-config: {"url": "https://biocontainers.pro/tools/bcalm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcalm", "latest": {"2.2.3--h5b5514e_4": "sha256:6e398f4357c85be08ff9d9607f2a73ee8c46c8b51fa52df83d42e50f5f6be8dc"}, "tags": {"2.2.3--h5b5514e_3": "sha256:4259eb31aeb9f935607e54fe490f53e864810dea412b11c6369b18f132e4c87b", "2.2.3--h5b5514e_4": "sha256:6e398f4357c85be08ff9d9607f2a73ee8c46c8b51fa52df83d42e50f5f6be8dc"}, "docker": "quay.io/biocontainers/bcalm", "aliases": {"bcalm": "/usr/local/bin/bcalm", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/bcalm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcalm", "latest": {"2.2.3--h43eeafb_5": "sha256:b46ab2f7ad7ef905c3164f7b4f94087dac0a7280a8e3cfd5311784c426f83254"}, "tags": {"2.2.3--h5b5514e_3": "sha256:4259eb31aeb9f935607e54fe490f53e864810dea412b11c6369b18f132e4c87b", "2.2.3--h5b5514e_4": "sha256:6e398f4357c85be08ff9d9607f2a73ee8c46c8b51fa52df83d42e50f5f6be8dc", "2.2.3--h43eeafb_5": "sha256:b46ab2f7ad7ef905c3164f7b4f94087dac0a7280a8e3cfd5311784c426f83254"}, "docker": "quay.io/biocontainers/bcalm", "aliases": {"bcalm": "/usr/local/bin/bcalm", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcalm.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bcalm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bcalm:2.2.3--h5b5514e_4
+$ shpc install quay.io/biocontainers/bcalm:2.2.3--h43eeafb_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bcalm/2.2.3--h5b5514e_4
-$ module help quay.io/biocontainers/bcalm/2.2.3--h5b5514e_4
+$ module load quay.io/biocontainers/bcalm/2.2.3--h43eeafb_5
+$ module help quay.io/biocontainers/bcalm/2.2.3--h43eeafb_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

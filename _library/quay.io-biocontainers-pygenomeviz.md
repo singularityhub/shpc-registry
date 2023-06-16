@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygenomeviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygenomeviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygenomeviz/container.yaml"
-updated_at: "2023-06-15 03:50:22.755810"
+updated_at: "2023-06-16 03:05:44.531865"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pygenomeviz"
 aliases:

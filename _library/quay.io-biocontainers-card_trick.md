@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/card_trick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/card_trick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/card_trick/container.yaml"
-updated_at: "2023-06-15 03:14:17.973125"
+updated_at: "2023-06-16 02:58:45.422637"
 latest: "0.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/card_trick"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mosbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mosbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mosbi/container.yaml"
-updated_at: "2023-06-15 03:30:00.909331"
-latest: "1.4.0--r42hc247a5b_0"
+updated_at: "2023-06-16 03:43:31.172582"
+latest: "1.4.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mosbi"
 aliases:
  - "glpsol"
 versions:
  - "1.0.3--r41hc247a5b_1"
  - "1.4.0--r42hc247a5b_0"
+ - "1.4.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mosbi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mosbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mosbi", "latest": {"1.4.0--r42hc247a5b_0": "sha256:2ac27f805332fa9294d1338731ee194a5482baad49f8aaa045062084410fe765"}, "tags": {"1.0.3--r41hc247a5b_1": "sha256:61b4684a4cd64bad5db71e78cdf0da3219eac2ec12ce812fb0bc45b1973a78f8", "1.4.0--r42hc247a5b_0": "sha256:2ac27f805332fa9294d1338731ee194a5482baad49f8aaa045062084410fe765"}, "docker": "quay.io/biocontainers/bioconductor-mosbi", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mosbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mosbi", "latest": {"1.4.0--r42hf17093f_1": "sha256:acce461bcc739211e2156945a591d944782daf2be31b1317bbbb15427f019816"}, "tags": {"1.0.3--r41hc247a5b_1": "sha256:61b4684a4cd64bad5db71e78cdf0da3219eac2ec12ce812fb0bc45b1973a78f8", "1.4.0--r42hc247a5b_0": "sha256:2ac27f805332fa9294d1338731ee194a5482baad49f8aaa045062084410fe765", "1.4.0--r42hf17093f_1": "sha256:acce461bcc739211e2156945a591d944782daf2be31b1317bbbb15427f019816"}, "docker": "quay.io/biocontainers/bioconductor-mosbi", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mosbi.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mosbi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mosbi:1.4.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-mosbi:1.4.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mosbi/1.4.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-mosbi/1.4.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-mosbi/1.4.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-mosbi/1.4.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

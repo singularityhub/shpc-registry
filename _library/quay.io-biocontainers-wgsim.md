@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgsim/container.yaml"
-updated_at: "2023-06-15 03:15:10.538152"
-latest: "1.0--h7132678_6"
+updated_at: "2023-06-16 03:37:42.552688"
+latest: "1.0--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/wgsim"
 aliases:
  - "wgsim"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.0--h7132678_5"
  - "1.0--h7132678_6"
+ - "1.0--he4a0461_7"
 description: "shpc-registry automated BioContainers addition for wgsim"
-config: {"url": "https://biocontainers.pro/tools/wgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgsim", "latest": {"1.0--h7132678_6": "sha256:2c6f858bbc2e93fc0d3a48c81511855ea6980cee871a0a26be455257ca639023"}, "tags": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c", "1.0--h7132678_6": "sha256:2c6f858bbc2e93fc0d3a48c81511855ea6980cee871a0a26be455257ca639023"}, "docker": "quay.io/biocontainers/wgsim", "aliases": {"wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/wgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgsim", "latest": {"1.0--he4a0461_7": "sha256:be81c52fe7d8e0173f64ead0a11789bf3efca49c9c4411bb307a1456f89172b4"}, "tags": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c", "1.0--h7132678_6": "sha256:2c6f858bbc2e93fc0d3a48c81511855ea6980cee871a0a26be455257ca639023", "1.0--he4a0461_7": "sha256:be81c52fe7d8e0173f64ead0a11789bf3efca49c9c4411bb307a1456f89172b4"}, "docker": "quay.io/biocontainers/wgsim", "aliases": {"wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgsim.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/wgsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wgsim:1.0--h7132678_6
+$ shpc install quay.io/biocontainers/wgsim:1.0--he4a0461_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wgsim/1.0--h7132678_6
-$ module help quay.io/biocontainers/wgsim/1.0--h7132678_6
+$ module load quay.io/biocontainers/wgsim/1.0--he4a0461_7
+$ module help quay.io/biocontainers/wgsim/1.0--he4a0461_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

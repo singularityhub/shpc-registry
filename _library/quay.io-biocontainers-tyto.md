@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tyto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tyto/container.yaml"
-updated_at: "2023-06-15 03:13:31.737216"
+updated_at: "2023-06-16 03:00:34.758154"
 latest: "1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tyto"
 aliases:

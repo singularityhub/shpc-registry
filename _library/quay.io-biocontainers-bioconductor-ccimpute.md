@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ccimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccimpute/container.yaml"
-updated_at: "2023-06-15 03:15:18.700327"
-latest: "1.0.0--r42hc247a5b_0"
+updated_at: "2023-06-16 03:02:05.150776"
+latest: "1.0.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccimpute"
 
 versions:
  - "1.0.0--r42hc247a5b_0"
+ - "1.0.0--r42hf17093f_1"
 description: "singularity registry hpc automated addition for bioconductor-ccimpute"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ccimpute", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ccimpute", "latest": {"1.0.0--r42hc247a5b_0": "sha256:f40957655be9ef92a3730ac5d382e2d141bf2367267678d1c5550828efe394e0"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:f40957655be9ef92a3730ac5d382e2d141bf2367267678d1c5550828efe394e0"}, "docker": "quay.io/biocontainers/bioconductor-ccimpute"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ccimpute", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ccimpute", "latest": {"1.0.0--r42hf17093f_1": "sha256:f526c0d29141ff79c287829b4208929cd3f12a04bb4fccd72d014a8f67d16d5b"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:f40957655be9ef92a3730ac5d382e2d141bf2367267678d1c5550828efe394e0", "1.0.0--r42hf17093f_1": "sha256:f526c0d29141ff79c287829b4208929cd3f12a04bb4fccd72d014a8f67d16d5b"}, "docker": "quay.io/biocontainers/bioconductor-ccimpute"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ccimpute.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ccimpute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ccimpute:1.0.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-ccimpute:1.0.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ccimpute/1.0.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-ccimpute/1.0.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-ccimpute/1.0.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-ccimpute/1.0.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

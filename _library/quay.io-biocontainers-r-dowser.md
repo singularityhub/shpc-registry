@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dowser/container.yaml"
-updated_at: "2023-06-15 03:19:59.796318"
-latest: "1.1.0--r42h3121a25_1"
+updated_at: "2023-06-16 03:22:47.355104"
+latest: "1.2.0--r42h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-dowser"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.1.0--r42h3121a25_1"
+ - "1.2.0--r42h3121a25_0"
 description: "singularity registry hpc automated addition for r-dowser"
-config: {"url": "https://biocontainers.pro/tools/r-dowser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dowser", "latest": {"1.1.0--r42h3121a25_1": "sha256:b8bcd242c524746c294d5ebe64dc179f06d0ffface943efc05a5ed011d5abe8a"}, "tags": {"1.1.0--r42h3121a25_1": "sha256:b8bcd242c524746c294d5ebe64dc179f06d0ffface943efc05a5ed011d5abe8a"}, "docker": "quay.io/biocontainers/r-dowser", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-dowser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dowser", "latest": {"1.2.0--r42h3121a25_0": "sha256:6c579c2567c111d91eda185e4d9c7114e97fbe96c8506cd76df779100f90892a"}, "tags": {"1.1.0--r42h3121a25_1": "sha256:b8bcd242c524746c294d5ebe64dc179f06d0ffface943efc05a5ed011d5abe8a", "1.2.0--r42h3121a25_0": "sha256:6c579c2567c111d91eda185e4d9c7114e97fbe96c8506cd76df779100f90892a"}, "docker": "quay.io/biocontainers/r-dowser", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dowser.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/r-dowser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dowser:1.1.0--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-dowser:1.2.0--r42h3121a25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dowser/1.1.0--r42h3121a25_1
-$ module help quay.io/biocontainers/r-dowser/1.1.0--r42h3121a25_1
+$ module load quay.io/biocontainers/r-dowser/1.2.0--r42h3121a25_0
+$ module help quay.io/biocontainers/r-dowser/1.2.0--r42h3121a25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

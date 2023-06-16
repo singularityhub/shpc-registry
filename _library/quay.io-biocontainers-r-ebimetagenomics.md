@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ebimetagenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ebimetagenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ebimetagenomics/container.yaml"
-updated_at: "2023-06-15 03:30:54.561817"
+updated_at: "2023-06-16 03:34:55.415421"
 latest: "0.6--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-ebimetagenomics"
 aliases:

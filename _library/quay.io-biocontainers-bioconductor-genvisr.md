@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genvisr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genvisr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genvisr/container.yaml"
-updated_at: "2023-06-15 03:17:21.591356"
+updated_at: "2023-06-16 02:46:40.513507"
 latest: "1.29.3--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genvisr"
 aliases:

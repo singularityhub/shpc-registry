@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/salmon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salmon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salmon/container.yaml"
-updated_at: "2023-06-15 03:25:38.343622"
+updated_at: "2023-06-16 02:48:00.781032"
 latest: "1.10.1--hecfa306_2"
 container_url: "https://biocontainers.pro/tools/salmon"
 aliases:

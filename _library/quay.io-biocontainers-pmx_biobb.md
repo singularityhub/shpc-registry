@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pmx_biobb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmx_biobb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmx_biobb/container.yaml"
-updated_at: "2023-06-15 03:38:46.349963"
-latest: "2.0.0--py37h1aed7a7_2"
+updated_at: "2023-06-16 02:43:26.331423"
+latest: "3.0.3--py310h8537716_4"
 container_url: "https://biocontainers.pro/tools/pmx_biobb"
 aliases:
  - "pmx"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.0.0--py37hc94c342_3"
  - "2.0.0--py37h1aed7a7_2"
+ - "3.0.3--py310h8537716_4"
 description: "shpc-registry automated BioContainers addition for pmx_biobb"
-config: {"url": "https://biocontainers.pro/tools/pmx_biobb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmx_biobb", "latest": {"2.0.0--py37h1aed7a7_2": "sha256:b1cbde276643af57a90c86ddb13bc63546a3098d9b555d97d815265ba663e92f"}, "tags": {"1.0.0--py37hc94c342_3": "sha256:131e2e50a98da7e1dfe8d1f4c33e80d3cf1ef6d5c87486115800d4252a38e12d", "2.0.0--py37h1aed7a7_2": "sha256:b1cbde276643af57a90c86ddb13bc63546a3098d9b555d97d815265ba663e92f"}, "docker": "quay.io/biocontainers/pmx_biobb", "aliases": {"pmx": "/usr/local/bin/pmx", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
+config: {"url": "https://biocontainers.pro/tools/pmx_biobb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmx_biobb", "latest": {"3.0.3--py310h8537716_4": "sha256:1393d4751b3962a9000fecdd30c09495c9c153096a3246911d5fe5c4db994217"}, "tags": {"1.0.0--py37hc94c342_3": "sha256:131e2e50a98da7e1dfe8d1f4c33e80d3cf1ef6d5c87486115800d4252a38e12d", "2.0.0--py37h1aed7a7_2": "sha256:b1cbde276643af57a90c86ddb13bc63546a3098d9b555d97d815265ba663e92f", "3.0.3--py310h8537716_4": "sha256:1393d4751b3962a9000fecdd30c09495c9c153096a3246911d5fe5c4db994217"}, "docker": "quay.io/biocontainers/pmx_biobb", "aliases": {"pmx": "/usr/local/bin/pmx", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pmx_biobb.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pmx_biobb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pmx_biobb:2.0.0--py37h1aed7a7_2
+$ shpc install quay.io/biocontainers/pmx_biobb:3.0.3--py310h8537716_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pmx_biobb/2.0.0--py37h1aed7a7_2
-$ module help quay.io/biocontainers/pmx_biobb/2.0.0--py37h1aed7a7_2
+$ module load quay.io/biocontainers/pmx_biobb/3.0.3--py310h8537716_4
+$ module help quay.io/biocontainers/pmx_biobb/3.0.3--py310h8537716_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

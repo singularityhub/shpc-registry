@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctat-mutations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctat-mutations/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctat-mutations/container.yaml"
-updated_at: "2023-06-15 03:11:17.442197"
+updated_at: "2023-06-16 02:43:21.195641"
 latest: "2.0.1--py27_5"
 container_url: "https://biocontainers.pro/tools/ctat-mutations"
 aliases:

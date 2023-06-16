@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cancerit-allelecount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cancerit-allelecount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cancerit-allelecount/container.yaml"
-updated_at: "2023-06-15 03:14:06.433628"
+updated_at: "2023-06-16 03:21:46.551243"
 latest: "4.3.0--h57116a3_5"
 container_url: "https://biocontainers.pro/tools/cancerit-allelecount"
 aliases:

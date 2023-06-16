@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/molpopgen-analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/molpopgen-analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/molpopgen-analysis/container.yaml"
-updated_at: "2023-06-15 03:13:45.914439"
-latest: "0.8.8--h7fd9d64_8"
+updated_at: "2023-06-16 02:52:44.870319"
+latest: "0.8.8--h733e4d7_9"
 container_url: "https://biocontainers.pro/tools/molpopgen-analysis"
 aliases:
  - "Fexact"
@@ -26,8 +26,9 @@ aliases:
  - "tabix"
 versions:
  - "0.8.8--h7fd9d64_8"
+ - "0.8.8--h733e4d7_9"
 description: "shpc-registry automated BioContainers addition for molpopgen-analysis"
-config: {"url": "https://biocontainers.pro/tools/molpopgen-analysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for molpopgen-analysis", "latest": {"0.8.8--h7fd9d64_8": "sha256:364436e67b67b7633512c1ff898aac1d3836f1608cfa230345b4394d1fbf1c0d"}, "tags": {"0.8.8--h7fd9d64_8": "sha256:364436e67b67b7633512c1ff898aac1d3836f1608cfa230345b4394d1fbf1c0d"}, "docker": "quay.io/biocontainers/molpopgen-analysis", "aliases": {"Fexact": "/usr/local/bin/Fexact", "HBKpermute": "/usr/local/bin/HBKpermute", "MKtest": "/usr/local/bin/MKtest", "compute": "/usr/local/bin/compute", "descPoly": "/usr/local/bin/descPoly", "extractCoding": "/usr/local/bin/extractCoding", "gestimator": "/usr/local/bin/gestimator", "kimura80": "/usr/local/bin/kimura80", "polydNdS": "/usr/local/bin/polydNdS", "rsq": "/usr/local/bin/rsq", "sharedPoly": "/usr/local/bin/sharedPoly", "snntest": "/usr/local/bin/snntest", "translateCoding": "/usr/local/bin/translateCoding", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/molpopgen-analysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for molpopgen-analysis", "latest": {"0.8.8--h733e4d7_9": "sha256:6c167975988035ee04e95ff45b625989166a56b00e4631e62170a1a53f3a361c"}, "tags": {"0.8.8--h7fd9d64_8": "sha256:364436e67b67b7633512c1ff898aac1d3836f1608cfa230345b4394d1fbf1c0d", "0.8.8--h733e4d7_9": "sha256:6c167975988035ee04e95ff45b625989166a56b00e4631e62170a1a53f3a361c"}, "docker": "quay.io/biocontainers/molpopgen-analysis", "aliases": {"Fexact": "/usr/local/bin/Fexact", "HBKpermute": "/usr/local/bin/HBKpermute", "MKtest": "/usr/local/bin/MKtest", "compute": "/usr/local/bin/compute", "descPoly": "/usr/local/bin/descPoly", "extractCoding": "/usr/local/bin/extractCoding", "gestimator": "/usr/local/bin/gestimator", "kimura80": "/usr/local/bin/kimura80", "polydNdS": "/usr/local/bin/polydNdS", "rsq": "/usr/local/bin/rsq", "sharedPoly": "/usr/local/bin/sharedPoly", "snntest": "/usr/local/bin/snntest", "translateCoding": "/usr/local/bin/translateCoding", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/molpopgen-analysis.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/molpopgen-analysis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/molpopgen-analysis:0.8.8--h7fd9d64_8
+$ shpc install quay.io/biocontainers/molpopgen-analysis:0.8.8--h733e4d7_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/molpopgen-analysis/0.8.8--h7fd9d64_8
-$ module help quay.io/biocontainers/molpopgen-analysis/0.8.8--h7fd9d64_8
+$ module load quay.io/biocontainers/molpopgen-analysis/0.8.8--h733e4d7_9
+$ module help quay.io/biocontainers/molpopgen-analysis/0.8.8--h733e4d7_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

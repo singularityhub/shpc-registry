@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamtools/container.yaml"
-updated_at: "2023-06-15 03:20:27.086106"
-latest: "2.5.2--hd03093a_1"
+updated_at: "2023-06-16 02:42:04.110388"
+latest: "2.5.2--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/bamtools"
 aliases:
  - "bamtools"
 versions:
  - "2.5.2--hd03093a_0"
  - "2.5.2--hd03093a_1"
+ - "2.5.2--hdcf5f25_2"
 description: "shpc-registry automated BioContainers addition for bamtools"
-config: {"url": "https://biocontainers.pro/tools/bamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamtools", "latest": {"2.5.2--hd03093a_1": "sha256:9eb87f5ff78176c78fab5677976373ab86cabf9ddb0b1ae764ad4009858f417f"}, "tags": {"2.5.2--hd03093a_0": "sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804", "2.5.2--hd03093a_1": "sha256:9eb87f5ff78176c78fab5677976373ab86cabf9ddb0b1ae764ad4009858f417f"}, "docker": "quay.io/biocontainers/bamtools", "aliases": {"bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/bamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamtools", "latest": {"2.5.2--hdcf5f25_2": "sha256:2a6a12c50661287d5605d04e1ab7a67fe9b15994fac26371b52099fd5c59166a"}, "tags": {"2.5.2--hd03093a_0": "sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804", "2.5.2--hd03093a_1": "sha256:9eb87f5ff78176c78fab5677976373ab86cabf9ddb0b1ae764ad4009858f417f", "2.5.2--hdcf5f25_2": "sha256:2a6a12c50661287d5605d04e1ab7a67fe9b15994fac26371b52099fd5c59166a"}, "docker": "quay.io/biocontainers/bamtools", "aliases": {"bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamtools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bamtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamtools:2.5.2--hd03093a_1
+$ shpc install quay.io/biocontainers/bamtools:2.5.2--hdcf5f25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamtools/2.5.2--hd03093a_1
-$ module help quay.io/biocontainers/bamtools/2.5.2--hd03093a_1
+$ module load quay.io/biocontainers/bamtools/2.5.2--hdcf5f25_2
+$ module help quay.io/biocontainers/bamtools/2.5.2--hdcf5f25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

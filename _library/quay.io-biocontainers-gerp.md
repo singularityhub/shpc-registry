@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gerp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gerp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gerp/container.yaml"
-updated_at: "2023-06-15 03:36:31.066350"
+updated_at: "2023-06-16 02:56:29.292029"
 latest: "2.1--h1b792b2_2"
 container_url: "https://biocontainers.pro/tools/gerp"
 aliases:

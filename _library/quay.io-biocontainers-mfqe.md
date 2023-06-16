@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mfqe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mfqe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mfqe/container.yaml"
-updated_at: "2023-06-15 03:38:23.750756"
-latest: "0.5.0--hec16e2b_3"
+updated_at: "2023-06-16 03:26:21.498005"
+latest: "0.5.0--h031d066_4"
 container_url: "https://biocontainers.pro/tools/mfqe"
 aliases:
  - "mfqe"
 versions:
  - "0.5.0--hec16e2b_2"
  - "0.5.0--hec16e2b_3"
+ - "0.5.0--h031d066_4"
 description: "shpc-registry automated BioContainers addition for mfqe"
-config: {"url": "https://biocontainers.pro/tools/mfqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mfqe", "latest": {"0.5.0--hec16e2b_3": "sha256:e2a1c0dd9dbd2a4bdf090565fb33f919af2ae93b6828a5f2fb043ac27d89cc7f"}, "tags": {"0.5.0--hec16e2b_2": "sha256:06bd33e40788e21d2cc388596c705dbe1cd00e36e1f62c06d2fe60e41ac81d6f", "0.5.0--hec16e2b_3": "sha256:e2a1c0dd9dbd2a4bdf090565fb33f919af2ae93b6828a5f2fb043ac27d89cc7f"}, "docker": "quay.io/biocontainers/mfqe", "aliases": {"mfqe": "/usr/local/bin/mfqe"}}
+config: {"url": "https://biocontainers.pro/tools/mfqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mfqe", "latest": {"0.5.0--h031d066_4": "sha256:18f3804069167df4fd978e70ad8918944943104c73a55b25eaac52e3a541dab8"}, "tags": {"0.5.0--hec16e2b_2": "sha256:06bd33e40788e21d2cc388596c705dbe1cd00e36e1f62c06d2fe60e41ac81d6f", "0.5.0--hec16e2b_3": "sha256:e2a1c0dd9dbd2a4bdf090565fb33f919af2ae93b6828a5f2fb043ac27d89cc7f", "0.5.0--h031d066_4": "sha256:18f3804069167df4fd978e70ad8918944943104c73a55b25eaac52e3a541dab8"}, "docker": "quay.io/biocontainers/mfqe", "aliases": {"mfqe": "/usr/local/bin/mfqe"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mfqe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mfqe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mfqe:0.5.0--hec16e2b_3
+$ shpc install quay.io/biocontainers/mfqe:0.5.0--h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mfqe/0.5.0--hec16e2b_3
-$ module help quay.io/biocontainers/mfqe/0.5.0--hec16e2b_3
+$ module load quay.io/biocontainers/mfqe/0.5.0--h031d066_4
+$ module help quay.io/biocontainers/mfqe/0.5.0--h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamsnap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamsnap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamsnap/container.yaml"
-updated_at: "2023-06-15 03:15:34.055252"
+updated_at: "2023-06-16 03:07:21.216346"
 latest: "0.2.19--py_0"
 container_url: "https://biocontainers.pro/tools/bamsnap"
 aliases:

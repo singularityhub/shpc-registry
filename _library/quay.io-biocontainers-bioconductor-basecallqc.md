@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-basecallqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basecallqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basecallqc/container.yaml"
-updated_at: "2023-06-15 03:47:45.847943"
+updated_at: "2023-06-16 02:45:05.787894"
 latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basecallqc"
 aliases:
