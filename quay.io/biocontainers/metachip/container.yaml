@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metachip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metachip
 latest:
-  1.10.12--pyh5e36f6f_0: sha256:c6ea2a8aaa7017621599d8c24312d9891c2fb7f1f642c22a3775140bdf0580a0
+  1.10.13--pyh7cba7a3_0: sha256:f7e028d95bc283f0d9a48d95fff5c82acd8485be651db846789fc10a28401cc4
 tags:
   1.10.9--pyh5e36f6f_0: sha256:82cf7e556b9a4453582fcbcc366841436e3a9ebcfa7e72de87617995c83da413
   1.10.12--pyh5e36f6f_0: sha256:c6ea2a8aaa7017621599d8c24312d9891c2fb7f1f642c22a3775140bdf0580a0
+  1.10.13--pyh7cba7a3_0: sha256:f7e028d95bc283f0d9a48d95fff5c82acd8485be651db846789fc10a28401cc4
 docker: quay.io/biocontainers/metachip
 aliases:
   MetaCHIP: /usr/local/bin/MetaCHIP

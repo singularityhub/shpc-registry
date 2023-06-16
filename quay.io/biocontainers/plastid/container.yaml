@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/plastid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for plastid
 latest:
-  0.6.1--py39h1b88516_1: sha256:b1ca9e620e29006699101e06a874ed52823eab2435d7729cfc7312389e8b3398
+  0.6.1--py39had3e4b6_2: sha256:fa75c9a285863669b1d964a75c9d5900f57dd38d33ec584b18b65b48222be0aa
 tags:
   0.6.1--py37ha26db04_0: sha256:2a3d98e213e3387fc81cc30c25f25c8824266c9738be2e1dc3f075daefe867a4
   0.6.1--py39h1b88516_1: sha256:b1ca9e620e29006699101e06a874ed52823eab2435d7729cfc7312389e8b3398
+  0.6.1--py39had3e4b6_2: sha256:fa75c9a285863669b1d964a75c9d5900f57dd38d33ec584b18b65b48222be0aa
 docker: quay.io/biocontainers/plastid
 aliases:
   counts_in_region: /usr/local/bin/counts_in_region

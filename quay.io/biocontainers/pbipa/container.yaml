@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pbipa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbipa
 latest:
-  1.8.0--hbd632db_1: sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395
+  1.8.0--h6ead514_2: sha256:a14f31751647d6d636632974cb1d15bde547f5d7e708d7ba79d591db04de251a
 tags:
   1.8.0--hbd632db_1: sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395
+  1.8.0--h6ead514_2: sha256:a14f31751647d6d636632974cb1d15bde547f5d7e708d7ba79d591db04de251a
 docker: quay.io/biocontainers/pbipa
 aliases:
   falconc: /usr/local/bin/falconc

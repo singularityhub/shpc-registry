@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/svtk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svtk
 latest:
-  0.0.20190615--py39hbf8eff0_3: sha256:a244c9e28c37777988ffdf7d96d79f10c1daed96c4b17de4d2800d03750a4831
+  0.0.20190615--py38he5da3d1_4: sha256:e4cebaa93b649c11dc5e85a594630797be47671119429b7dd46b47e9001eb8c8
 tags:
   0.0.20190615--py39hbf8eff0_3: sha256:a244c9e28c37777988ffdf7d96d79f10c1daed96c4b17de4d2800d03750a4831
+  0.0.20190615--py38he5da3d1_4: sha256:e4cebaa93b649c11dc5e85a594630797be47671119429b7dd46b47e9001eb8c8
 docker: quay.io/biocontainers/svtk
 aliases:
   svtk: /usr/local/bin/svtk

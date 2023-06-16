@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cnvnator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cnvnator
 latest:
-  0.4.1--py310h2dce045_7: sha256:c1b4fdcf9349b7a2ff083775c1ec0dde2a943bc0cb21ee026eda7ac4366f8b46
+  0.4.1--py311h5852ca0_8: sha256:12dc9ea621f1978f9cd7ba91b58b6b57817fe8893c82fc8361f450502ffe77e2
 tags:
   0.4.1--py310h0cf855d_6: sha256:30dfbd51533e163373e4515ef3ee7daba6334f1076fab40f794c3b9861b846f7
   0.4.1--py310h2dce045_7: sha256:c1b4fdcf9349b7a2ff083775c1ec0dde2a943bc0cb21ee026eda7ac4366f8b46
+  0.4.1--py311h5852ca0_8: sha256:12dc9ea621f1978f9cd7ba91b58b6b57817fe8893c82fc8361f450502ffe77e2
 docker: quay.io/biocontainers/cnvnator
 aliases:
   afterimage-config: /usr/local/bin/afterimage-config

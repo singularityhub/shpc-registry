@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/velvet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for velvet
 latest:
-  1.2.10--h7132678_5: sha256:eaf254b874804a5785453098daf4e9f0d0ae7d1f21086fb22d9224d691114ca7
+  1.2.10--he4a0461_6: sha256:349d908b449a84cc203974f85e28d5bb2d002c320bb40541f43913cda0847131
 tags:
   1.2.10--h7132678_5: sha256:eaf254b874804a5785453098daf4e9f0d0ae7d1f21086fb22d9224d691114ca7
+  1.2.10--he4a0461_6: sha256:349d908b449a84cc203974f85e28d5bb2d002c320bb40541f43913cda0847131
 docker: quay.io/biocontainers/velvet
 aliases:
   velvetg: /usr/local/bin/velvetg

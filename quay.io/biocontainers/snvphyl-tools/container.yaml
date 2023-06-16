@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snvphyl-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snvphyl-tools
 latest:
-  1.8.2--pl5321hec16e2b_7: sha256:fe1f048582277dc804e194a3dab05e8e7f1286478b04d01af204733932d8cca9
+  1.8.2--pl5321h031d066_8: sha256:7596eefba724af0f222d6e326f9262ef569c64983153ff8204c9ec93a683a555
 tags:
   1.8.2--pl5321hec16e2b_7: sha256:fe1f048582277dc804e194a3dab05e8e7f1286478b04d01af204733932d8cca9
+  1.8.2--pl5321h031d066_8: sha256:7596eefba724af0f222d6e326f9262ef569c64983153ff8204c9ec93a683a555
 docker: quay.io/biocontainers/snvphyl-tools
 aliases:
   consolidate_vcfs.pl: /usr/local/bin/consolidate_vcfs.pl
