@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-flowcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowcore/container.yaml"
-updated_at: "2023-06-16 02:46:38.515427"
-latest: "2.10.0--r42hc247a5b_0"
+updated_at: "2023-06-17 02:41:24.176471"
+latest: "2.10.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowcore"
 
 versions:
  - "2.6.0--r41hc247a5b_2"
  - "2.10.0--r42hc247a5b_0"
+ - "2.10.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowcore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowcore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowcore", "latest": {"2.10.0--r42hc247a5b_0": "sha256:a3dce66c6c5087a0cf27e3f1dd7fbb31d81b72a6f0d51491cfd1f20e119325ad"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:38f322759f3d3c90238c8ee8bbbc454254595f8af1672b946a994d17e99d436d", "2.10.0--r42hc247a5b_0": "sha256:a3dce66c6c5087a0cf27e3f1dd7fbb31d81b72a6f0d51491cfd1f20e119325ad"}, "docker": "quay.io/biocontainers/bioconductor-flowcore"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowcore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowcore", "latest": {"2.10.0--r42hf17093f_1": "sha256:d24178a7f9718eba2de147c7c53fbf58be77292cfe647199b34ad5055fb66e49"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:38f322759f3d3c90238c8ee8bbbc454254595f8af1672b946a994d17e99d436d", "2.10.0--r42hc247a5b_0": "sha256:a3dce66c6c5087a0cf27e3f1dd7fbb31d81b72a6f0d51491cfd1f20e119325ad", "2.10.0--r42hf17093f_1": "sha256:d24178a7f9718eba2de147c7c53fbf58be77292cfe647199b34ad5055fb66e49"}, "docker": "quay.io/biocontainers/bioconductor-flowcore"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowcore.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowcore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowcore:2.10.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-flowcore:2.10.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowcore/2.10.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-flowcore/2.10.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-flowcore/2.10.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-flowcore/2.10.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

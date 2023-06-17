@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metachip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metachip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metachip/container.yaml"
-updated_at: "2023-06-16 03:31:06.440666"
-latest: "1.10.12--pyh5e36f6f_0"
+updated_at: "2023-06-17 03:21:52.684856"
+latest: "1.10.13--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/metachip"
 aliases:
  - "MetaCHIP"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.10.9--pyh5e36f6f_0"
  - "1.10.12--pyh5e36f6f_0"
+ - "1.10.13--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for metachip"
-config: {"url": "https://biocontainers.pro/tools/metachip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metachip", "latest": {"1.10.12--pyh5e36f6f_0": "sha256:c6ea2a8aaa7017621599d8c24312d9891c2fb7f1f642c22a3775140bdf0580a0"}, "tags": {"1.10.9--pyh5e36f6f_0": "sha256:82cf7e556b9a4453582fcbcc366841436e3a9ebcfa7e72de87617995c83da413", "1.10.12--pyh5e36f6f_0": "sha256:c6ea2a8aaa7017621599d8c24312d9891c2fb7f1f642c22a3775140bdf0580a0"}, "docker": "quay.io/biocontainers/metachip", "aliases": {"MetaCHIP": "/usr/local/bin/MetaCHIP", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "ete3": "/usr/local/bin/ete3", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "xkbcli": "/usr/local/bin/xkbcli", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi"}}
+config: {"url": "https://biocontainers.pro/tools/metachip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metachip", "latest": {"1.10.13--pyh7cba7a3_0": "sha256:f7e028d95bc283f0d9a48d95fff5c82acd8485be651db846789fc10a28401cc4"}, "tags": {"1.10.9--pyh5e36f6f_0": "sha256:82cf7e556b9a4453582fcbcc366841436e3a9ebcfa7e72de87617995c83da413", "1.10.12--pyh5e36f6f_0": "sha256:c6ea2a8aaa7017621599d8c24312d9891c2fb7f1f642c22a3775140bdf0580a0", "1.10.13--pyh7cba7a3_0": "sha256:f7e028d95bc283f0d9a48d95fff5c82acd8485be651db846789fc10a28401cc4"}, "docker": "quay.io/biocontainers/metachip", "aliases": {"MetaCHIP": "/usr/local/bin/MetaCHIP", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "ete3": "/usr/local/bin/ete3", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "xkbcli": "/usr/local/bin/xkbcli", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metachip.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/metachip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metachip:1.10.12--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/metachip:1.10.13--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metachip/1.10.12--pyh5e36f6f_0
-$ module help quay.io/biocontainers/metachip/1.10.12--pyh5e36f6f_0
+$ module load quay.io/biocontainers/metachip/1.10.13--pyh7cba7a3_0
+$ module help quay.io/biocontainers/metachip/1.10.13--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

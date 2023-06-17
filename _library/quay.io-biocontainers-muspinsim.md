@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/muspinsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muspinsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muspinsim/container.yaml"
-updated_at: "2023-06-16 03:22:33.038473"
-latest: "2.2.1"
+updated_at: "2023-06-17 03:13:58.459139"
+latest: "2.3.0"
 container_url: "https://biocontainers.pro/tools/muspinsim"
 aliases:
  - "ase"
@@ -35,8 +35,9 @@ versions:
  - "2.0.2"
  - "2.2.0"
  - "2.2.1"
+ - "2.3.0"
 description: "shpc-registry automated BioContainers addition for muspinsim"
-config: {"url": "https://biocontainers.pro/tools/muspinsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muspinsim", "latest": {"2.2.1": "sha256:e4d172eb5de26aba90532e1c1ea2497dd4ec63a2247918294de94afbcaaf257b"}, "tags": {"1.1.0": "sha256:a7dcb5d935ac087732b106ce210dc14a8eea5609a5288d497c2538c6643c4dff", "2.0.2": "sha256:8f114a69d15e316141b42e3b0415b1be7b950e53aafae0abe692f968aec96583", "2.2.0": "sha256:644ecbe72f243bf34dee6e7f664d14a4e9c48cff554771a8ff12be8d3231459e", "2.2.1": "sha256:e4d172eb5de26aba90532e1c1ea2497dd4ec63a2247918294de94afbcaaf257b"}, "docker": "quay.io/biocontainers/muspinsim", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "magresaverage": "/usr/local/bin/magresaverage", "muspinsim": "/usr/local/bin/muspinsim", "muspinsim.mpi": "/usr/local/bin/muspinsim.mpi", "phylogen": "/usr/local/bin/phylogen", "soprano_submitter": "/usr/local/bin/soprano_submitter", "vasp2cell": "/usr/local/bin/vasp2cell", "flask": "/usr/local/bin/flask", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp"}}
+config: {"url": "https://biocontainers.pro/tools/muspinsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for muspinsim", "latest": {"2.3.0": "sha256:4bbc267ed705a9ec0e16730736a3da1837dd999678a12c29dc0ac6d92af4548c"}, "tags": {"1.1.0": "sha256:a7dcb5d935ac087732b106ce210dc14a8eea5609a5288d497c2538c6643c4dff", "2.0.2": "sha256:8f114a69d15e316141b42e3b0415b1be7b950e53aafae0abe692f968aec96583", "2.2.0": "sha256:644ecbe72f243bf34dee6e7f664d14a4e9c48cff554771a8ff12be8d3231459e", "2.2.1": "sha256:e4d172eb5de26aba90532e1c1ea2497dd4ec63a2247918294de94afbcaaf257b", "2.3.0": "sha256:4bbc267ed705a9ec0e16730736a3da1837dd999678a12c29dc0ac6d92af4548c"}, "docker": "quay.io/biocontainers/muspinsim", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "magresaverage": "/usr/local/bin/magresaverage", "muspinsim": "/usr/local/bin/muspinsim", "muspinsim.mpi": "/usr/local/bin/muspinsim.mpi", "phylogen": "/usr/local/bin/phylogen", "soprano_submitter": "/usr/local/bin/soprano_submitter", "vasp2cell": "/usr/local/bin/vasp2cell", "flask": "/usr/local/bin/flask", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/muspinsim.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/muspinsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/muspinsim:2.2.1
+$ shpc install quay.io/biocontainers/muspinsim:2.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/muspinsim/2.2.1
-$ module help quay.io/biocontainers/muspinsim/2.2.1
+$ module load quay.io/biocontainers/muspinsim/2.3.0
+$ module help quay.io/biocontainers/muspinsim/2.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plastid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plastid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plastid/container.yaml"
-updated_at: "2023-06-16 03:16:16.479735"
-latest: "0.6.1--py39h1b88516_1"
+updated_at: "2023-06-17 03:08:23.539268"
+latest: "0.6.1--py39had3e4b6_2"
 container_url: "https://biocontainers.pro/tools/plastid"
 aliases:
  - "counts_in_region"
@@ -54,8 +54,9 @@ aliases:
 versions:
  - "0.6.1--py37ha26db04_0"
  - "0.6.1--py39h1b88516_1"
+ - "0.6.1--py39had3e4b6_2"
 description: "shpc-registry automated BioContainers addition for plastid"
-config: {"url": "https://biocontainers.pro/tools/plastid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plastid", "latest": {"0.6.1--py39h1b88516_1": "sha256:b1ca9e620e29006699101e06a874ed52823eab2435d7729cfc7312389e8b3398"}, "tags": {"0.6.1--py37ha26db04_0": "sha256:2a3d98e213e3387fc81cc30c25f25c8824266c9738be2e1dc3f075daefe867a4", "0.6.1--py39h1b88516_1": "sha256:b1ca9e620e29006699101e06a874ed52823eab2435d7729cfc7312389e8b3398"}, "docker": "quay.io/biocontainers/plastid", "aliases": {"counts_in_region": "/usr/local/bin/counts_in_region", "crossmap": "/usr/local/bin/crossmap", "cs": "/usr/local/bin/cs", "fasta_clipping_histogram.pl": "/usr/local/bin/fasta_clipping_histogram.pl", "fasta_formatter": "/usr/local/bin/fasta_formatter", "fasta_nucleotide_changer": "/usr/local/bin/fasta_nucleotide_changer", "fastq_masker": "/usr/local/bin/fastq_masker", "fastq_quality_boxplot_graph.sh": "/usr/local/bin/fastq_quality_boxplot_graph.sh", "fastq_quality_converter": "/usr/local/bin/fastq_quality_converter", "fastq_quality_filter": "/usr/local/bin/fastq_quality_filter", "fastq_quality_trimmer": "/usr/local/bin/fastq_quality_trimmer", "fastq_to_fasta": "/usr/local/bin/fastq_to_fasta", "fastx_artifacts_filter": "/usr/local/bin/fastx_artifacts_filter", "fastx_barcode_splitter.pl": "/usr/local/bin/fastx_barcode_splitter.pl", "fastx_clipper": "/usr/local/bin/fastx_clipper", "fastx_collapser": "/usr/local/bin/fastx_collapser", "fastx_nucleotide_distribution_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_graph.sh", "fastx_nucleotide_distribution_line_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_line_graph.sh", "fastx_quality_stats": "/usr/local/bin/fastx_quality_stats", "fastx_renamer": "/usr/local/bin/fastx_renamer", "fastx_reverse_complement": "/usr/local/bin/fastx_reverse_complement", "fastx_trimmer": "/usr/local/bin/fastx_trimmer", "fastx_uncollapser": "/usr/local/bin/fastx_uncollapser", "findjuncs": "/usr/local/bin/findjuncs", "get_count_vectors": "/usr/local/bin/get_count_vectors", "gff_parent_types": "/usr/local/bin/gff_parent_types", "make_wiggle": "/usr/local/bin/make_wiggle", "metagene": "/usr/local/bin/metagene", "phase_by_size": "/usr/local/bin/phase_by_size", "psite": "/usr/local/bin/psite", "reformat_transcripts": "/usr/local/bin/reformat_transcripts", "slidejuncs": "/usr/local/bin/slidejuncs", "test_table_equality": "/usr/local/bin/test_table_equality", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "nosetests": "/usr/local/bin/nosetests", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/plastid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plastid", "latest": {"0.6.1--py39had3e4b6_2": "sha256:fa75c9a285863669b1d964a75c9d5900f57dd38d33ec584b18b65b48222be0aa"}, "tags": {"0.6.1--py37ha26db04_0": "sha256:2a3d98e213e3387fc81cc30c25f25c8824266c9738be2e1dc3f075daefe867a4", "0.6.1--py39h1b88516_1": "sha256:b1ca9e620e29006699101e06a874ed52823eab2435d7729cfc7312389e8b3398", "0.6.1--py39had3e4b6_2": "sha256:fa75c9a285863669b1d964a75c9d5900f57dd38d33ec584b18b65b48222be0aa"}, "docker": "quay.io/biocontainers/plastid", "aliases": {"counts_in_region": "/usr/local/bin/counts_in_region", "crossmap": "/usr/local/bin/crossmap", "cs": "/usr/local/bin/cs", "fasta_clipping_histogram.pl": "/usr/local/bin/fasta_clipping_histogram.pl", "fasta_formatter": "/usr/local/bin/fasta_formatter", "fasta_nucleotide_changer": "/usr/local/bin/fasta_nucleotide_changer", "fastq_masker": "/usr/local/bin/fastq_masker", "fastq_quality_boxplot_graph.sh": "/usr/local/bin/fastq_quality_boxplot_graph.sh", "fastq_quality_converter": "/usr/local/bin/fastq_quality_converter", "fastq_quality_filter": "/usr/local/bin/fastq_quality_filter", "fastq_quality_trimmer": "/usr/local/bin/fastq_quality_trimmer", "fastq_to_fasta": "/usr/local/bin/fastq_to_fasta", "fastx_artifacts_filter": "/usr/local/bin/fastx_artifacts_filter", "fastx_barcode_splitter.pl": "/usr/local/bin/fastx_barcode_splitter.pl", "fastx_clipper": "/usr/local/bin/fastx_clipper", "fastx_collapser": "/usr/local/bin/fastx_collapser", "fastx_nucleotide_distribution_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_graph.sh", "fastx_nucleotide_distribution_line_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_line_graph.sh", "fastx_quality_stats": "/usr/local/bin/fastx_quality_stats", "fastx_renamer": "/usr/local/bin/fastx_renamer", "fastx_reverse_complement": "/usr/local/bin/fastx_reverse_complement", "fastx_trimmer": "/usr/local/bin/fastx_trimmer", "fastx_uncollapser": "/usr/local/bin/fastx_uncollapser", "findjuncs": "/usr/local/bin/findjuncs", "get_count_vectors": "/usr/local/bin/get_count_vectors", "gff_parent_types": "/usr/local/bin/gff_parent_types", "make_wiggle": "/usr/local/bin/make_wiggle", "metagene": "/usr/local/bin/metagene", "phase_by_size": "/usr/local/bin/phase_by_size", "psite": "/usr/local/bin/psite", "reformat_transcripts": "/usr/local/bin/reformat_transcripts", "slidejuncs": "/usr/local/bin/slidejuncs", "test_table_equality": "/usr/local/bin/test_table_equality", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "nosetests": "/usr/local/bin/nosetests", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plastid.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/plastid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plastid:0.6.1--py39h1b88516_1
+$ shpc install quay.io/biocontainers/plastid:0.6.1--py39had3e4b6_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plastid/0.6.1--py39h1b88516_1
-$ module help quay.io/biocontainers/plastid/0.6.1--py39h1b88516_1
+$ module load quay.io/biocontainers/plastid/0.6.1--py39had3e4b6_2
+$ module help quay.io/biocontainers/plastid/0.6.1--py39had3e4b6_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

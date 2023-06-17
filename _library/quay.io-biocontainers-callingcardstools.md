@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/callingcardstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/callingcardstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/callingcardstools/container.yaml"
-updated_at: "2023-06-16 03:11:59.473348"
+updated_at: "2023-06-17 03:04:33.110879"
 latest: "1.0.0--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/callingcardstools"
 aliases:

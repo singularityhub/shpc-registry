@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pengls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pengls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pengls/container.yaml"
-updated_at: "2023-06-16 03:19:52.048127"
+updated_at: "2023-06-17 03:11:35.322931"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pengls"
 

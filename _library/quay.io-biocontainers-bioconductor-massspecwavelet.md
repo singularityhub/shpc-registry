@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-massspecwavelet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-massspecwavelet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-massspecwavelet/container.yaml"
-updated_at: "2023-06-16 02:56:35.814577"
-latest: "1.64.0--r42hc0cfd56_0"
+updated_at: "2023-06-17 02:50:33.858005"
+latest: "1.64.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-massspecwavelet"
 
 versions:
  - "1.60.1--r41hc0cfd56_0"
  - "1.64.0--r42hc0cfd56_0"
+ - "1.64.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-massspecwavelet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-massspecwavelet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-massspecwavelet", "latest": {"1.64.0--r42hc0cfd56_0": "sha256:f654755894fd79d737ee2f288e4e259550314c41560cbebc625fd77600befa07"}, "tags": {"1.60.1--r41hc0cfd56_0": "sha256:2512be2726fc609d5fb75f41e717d5cfa9a103540c6a25a140b44d7476e005f9", "1.64.0--r42hc0cfd56_0": "sha256:f654755894fd79d737ee2f288e4e259550314c41560cbebc625fd77600befa07"}, "docker": "quay.io/biocontainers/bioconductor-massspecwavelet"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-massspecwavelet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-massspecwavelet", "latest": {"1.64.0--r42ha9d7317_1": "sha256:40957a143d02721b9043a7e7f90e51103bae5f06f655ce4922f6f64bff845839"}, "tags": {"1.60.1--r41hc0cfd56_0": "sha256:2512be2726fc609d5fb75f41e717d5cfa9a103540c6a25a140b44d7476e005f9", "1.64.0--r42hc0cfd56_0": "sha256:f654755894fd79d737ee2f288e4e259550314c41560cbebc625fd77600befa07", "1.64.0--r42ha9d7317_1": "sha256:40957a143d02721b9043a7e7f90e51103bae5f06f655ce4922f6f64bff845839"}, "docker": "quay.io/biocontainers/bioconductor-massspecwavelet"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-massspecwavelet.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-massspecwavelet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-massspecwavelet:1.64.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-massspecwavelet:1.64.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-massspecwavelet/1.64.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-massspecwavelet/1.64.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-massspecwavelet/1.64.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-massspecwavelet/1.64.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

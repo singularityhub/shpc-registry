@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-class-methodmaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-methodmaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-methodmaker/container.yaml"
-updated_at: "2023-06-16 03:11:04.419448"
-latest: "2.24--pl5321hec16e2b_3"
+updated_at: "2023-06-17 03:03:41.975242"
+latest: "2.24--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/perl-class-methodmaker"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "2.24--pl5321hec16e2b_3"
+ - "2.24--pl5321h031d066_4"
 description: "shpc-registry automated BioContainers addition for perl-class-methodmaker"
-config: {"url": "https://biocontainers.pro/tools/perl-class-methodmaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-methodmaker", "latest": {"2.24--pl5321hec16e2b_3": "sha256:b7dd4e291ef1d243b2394e689e603c7d4410d311dcd916a82c4b94e6af69ab4c"}, "tags": {"2.24--pl5321hec16e2b_3": "sha256:b7dd4e291ef1d243b2394e689e603c7d4410d311dcd916a82c4b94e6af69ab4c"}, "docker": "quay.io/biocontainers/perl-class-methodmaker", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-class-methodmaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-methodmaker", "latest": {"2.24--pl5321h031d066_4": "sha256:1890add8af393388b3b4446ad8a924c61db71335eca4fd0b7a63e7981846fcdb"}, "tags": {"2.24--pl5321hec16e2b_3": "sha256:b7dd4e291ef1d243b2394e689e603c7d4410d311dcd916a82c4b94e6af69ab4c", "2.24--pl5321h031d066_4": "sha256:1890add8af393388b3b4446ad8a924c61db71335eca4fd0b7a63e7981846fcdb"}, "docker": "quay.io/biocontainers/perl-class-methodmaker", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-class-methodmaker.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-class-methodmaker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-class-methodmaker:2.24--pl5321hec16e2b_3
+$ shpc install quay.io/biocontainers/perl-class-methodmaker:2.24--pl5321h031d066_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-class-methodmaker/2.24--pl5321hec16e2b_3
-$ module help quay.io/biocontainers/perl-class-methodmaker/2.24--pl5321hec16e2b_3
+$ module load quay.io/biocontainers/perl-class-methodmaker/2.24--pl5321h031d066_4
+$ module help quay.io/biocontainers/perl-class-methodmaker/2.24--pl5321h031d066_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
