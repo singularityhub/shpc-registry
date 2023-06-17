@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pydnase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pydnase
 latest:
-  0.3.0--py37h8902056_4: sha256:93a278a199cf75a2c4a1a733c398129f7588b16eaa43482e6ceacf861b22e058
+  0.3.0--py38he5da3d1_5: sha256:3921838d698181e8a19e9ee8cd0d749069da26d795c044ed40bb303464033c0d
 tags:
   0.3.0--py37h8902056_4: sha256:93a278a199cf75a2c4a1a733c398129f7588b16eaa43482e6ceacf861b22e058
+  0.3.0--py38he5da3d1_5: sha256:3921838d698181e8a19e9ee8cd0d749069da26d795c044ed40bb303464033c0d
 docker: quay.io/biocontainers/pydnase
 aliases:
   dnase_average_profile.py: /usr/local/bin/dnase_average_profile.py
