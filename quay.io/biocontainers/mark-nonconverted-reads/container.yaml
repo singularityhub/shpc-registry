@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mark-nonconverted-reads
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mark-nonconverted-reads
 latest:
-  1.1--py_1: sha256:32b79230609e1e75792490cf5aecb08a487f7f87c37ed1cd5d70e026b72d7f04
+  1.2--pyhdfd78af_0: sha256:34a8a4fb7e60e066a4ede2feda9304d80e7e4c6af2e258ed9711bf2d6ba09b38
 tags:
   1.1--py_1: sha256:32b79230609e1e75792490cf5aecb08a487f7f87c37ed1cd5d70e026b72d7f04
+  1.2--pyhdfd78af_0: sha256:34a8a4fb7e60e066a4ede2feda9304d80e7e4c6af2e258ed9711bf2d6ba09b38
 docker: quay.io/biocontainers/mark-nonconverted-reads
 aliases:
   mark-nonconverted-reads.py: /usr/local/bin/mark-nonconverted-reads.py

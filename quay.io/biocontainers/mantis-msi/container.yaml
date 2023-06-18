@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mantis-msi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mantis-msi
 latest:
-  1.0.5--h9f5acd7_1: sha256:3ec10ef4f1902d683b23824feed778db95dfacc6115ebeada5e50f968f05b28a
+  1.0.5--h4ac6f70_2: sha256:1da39792943b1715d2fecc6af2eff995e8cec9b655a414bddaaf2a7e70c6e3ca
 tags:
   1.0.5--h9f5acd7_1: sha256:3ec10ef4f1902d683b23824feed778db95dfacc6115ebeada5e50f968f05b28a
+  1.0.5--h4ac6f70_2: sha256:1da39792943b1715d2fecc6af2eff995e8cec9b655a414bddaaf2a7e70c6e3ca
 docker: quay.io/biocontainers/mantis-msi
 aliases:
   RepeatFinder: /usr/local/bin/RepeatFinder

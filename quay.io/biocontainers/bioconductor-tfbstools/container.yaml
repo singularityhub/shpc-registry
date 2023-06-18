@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-tfbstools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tfbstools
 latest:
-  1.36.0--r42hc0cfd56_0: sha256:9135ff6d48db4f7faf3a7f7a5e7c72d32d2611ba6f19d821e1bbf47b17b1363a
+  1.36.0--r42ha9d7317_1: sha256:81f47222b23fcbd9dd5a3613d03998e997990287a4037c3f51ecd823f77c7456
 tags:
   1.32.0--r41hc0cfd56_2: sha256:7b14058c71f3b8e599e2e44fafe43827f89e8b77a073af14d301bb3039bb8fd6
   1.36.0--r42hc0cfd56_0: sha256:9135ff6d48db4f7faf3a7f7a5e7c72d32d2611ba6f19d821e1bbf47b17b1363a
+  1.36.0--r42ha9d7317_1: sha256:81f47222b23fcbd9dd5a3613d03998e997990287a4037c3f51ecd823f77c7456
 docker: quay.io/biocontainers/bioconductor-tfbstools
