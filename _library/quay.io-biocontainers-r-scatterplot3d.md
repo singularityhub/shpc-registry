@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scatterplot3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scatterplot3d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scatterplot3d/container.yaml"
-updated_at: "2023-06-17 03:29:38.187089"
+updated_at: "2023-06-18 03:34:30.029147"
 latest: "0.3_36--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-scatterplot3d"
 aliases:

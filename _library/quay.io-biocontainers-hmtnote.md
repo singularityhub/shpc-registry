@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmtnote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmtnote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmtnote/container.yaml"
-updated_at: "2023-06-17 03:05:28.569512"
-latest: "0.7.2--pyhdfd78af_0"
+updated_at: "2023-06-18 03:15:45.196455"
+latest: "0.7.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmtnote"
 aliases:
  - "hmtnote"
@@ -21,8 +21,9 @@ aliases:
  - "ttx"
 versions:
  - "0.7.2--pyhdfd78af_0"
+ - "0.7.2--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for hmtnote"
-config: {"url": "https://biocontainers.pro/tools/hmtnote", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmtnote", "latest": {"0.7.2--pyhdfd78af_0": "sha256:330c0c5c07e1a4785aa99a6a7ba1f98095e70051367626892d80714b65a79f71"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:330c0c5c07e1a4785aa99a6a7ba1f98095e70051367626892d80714b65a79f71"}, "docker": "quay.io/biocontainers/hmtnote", "aliases": {"hmtnote": "/usr/local/bin/hmtnote", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bokeh": "/usr/local/bin/bokeh", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
+config: {"url": "https://biocontainers.pro/tools/hmtnote", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmtnote", "latest": {"0.7.2--pyhdfd78af_1": "sha256:2f6687c5a5a713b7cb2e6e4fd330c0ff84591efff1f9173bc66a327423835d6a"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:330c0c5c07e1a4785aa99a6a7ba1f98095e70051367626892d80714b65a79f71", "0.7.2--pyhdfd78af_1": "sha256:2f6687c5a5a713b7cb2e6e4fd330c0ff84591efff1f9173bc66a327423835d6a"}, "docker": "quay.io/biocontainers/hmtnote", "aliases": {"hmtnote": "/usr/local/bin/hmtnote", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bokeh": "/usr/local/bin/bokeh", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmtnote.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/hmtnote
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmtnote:0.7.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hmtnote:0.7.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmtnote/0.7.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/hmtnote/0.7.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/hmtnote/0.7.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/hmtnote/0.7.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

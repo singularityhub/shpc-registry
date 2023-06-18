@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydnase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydnase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydnase/container.yaml"
-updated_at: "2023-06-17 03:09:04.064607"
-latest: "0.3.0--py37h8902056_4"
+updated_at: "2023-06-18 03:18:35.334264"
+latest: "0.3.0--py38he5da3d1_5"
 container_url: "https://biocontainers.pro/tools/pydnase"
 aliases:
  - "dnase_average_profile.py"
@@ -30,8 +30,9 @@ aliases:
  - "bamToBed"
 versions:
  - "0.3.0--py37h8902056_4"
+ - "0.3.0--py38he5da3d1_5"
 description: "shpc-registry automated BioContainers addition for pydnase"
-config: {"url": "https://biocontainers.pro/tools/pydnase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydnase", "latest": {"0.3.0--py37h8902056_4": "sha256:93a278a199cf75a2c4a1a733c398129f7588b16eaa43482e6ceacf861b22e058"}, "tags": {"0.3.0--py37h8902056_4": "sha256:93a278a199cf75a2c4a1a733c398129f7588b16eaa43482e6ceacf861b22e058"}, "docker": "quay.io/biocontainers/pydnase", "aliases": {"dnase_average_profile.py": "/usr/local/bin/dnase_average_profile.py", "dnase_bias_estimator.py": "/usr/local/bin/dnase_bias_estimator.py", "dnase_cut_counter.py": "/usr/local/bin/dnase_cut_counter.py", "dnase_ddhs_scorer.py": "/usr/local/bin/dnase_ddhs_scorer.py", "dnase_to_JSON.py": "/usr/local/bin/dnase_to_JSON.py", "dnase_to_javatreeview.py": "/usr/local/bin/dnase_to_javatreeview.py", "dnase_wig_tracks.py": "/usr/local/bin/dnase_wig_tracks.py", "example_footprint_scores.py": "/usr/local/bin/example_footprint_scores.py", "wellington_bootstrap.py": "/usr/local/bin/wellington_bootstrap.py", "wellington_footprints.py": "/usr/local/bin/wellington_footprints.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
+config: {"url": "https://biocontainers.pro/tools/pydnase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydnase", "latest": {"0.3.0--py38he5da3d1_5": "sha256:3921838d698181e8a19e9ee8cd0d749069da26d795c044ed40bb303464033c0d"}, "tags": {"0.3.0--py37h8902056_4": "sha256:93a278a199cf75a2c4a1a733c398129f7588b16eaa43482e6ceacf861b22e058", "0.3.0--py38he5da3d1_5": "sha256:3921838d698181e8a19e9ee8cd0d749069da26d795c044ed40bb303464033c0d"}, "docker": "quay.io/biocontainers/pydnase", "aliases": {"dnase_average_profile.py": "/usr/local/bin/dnase_average_profile.py", "dnase_bias_estimator.py": "/usr/local/bin/dnase_bias_estimator.py", "dnase_cut_counter.py": "/usr/local/bin/dnase_cut_counter.py", "dnase_ddhs_scorer.py": "/usr/local/bin/dnase_ddhs_scorer.py", "dnase_to_JSON.py": "/usr/local/bin/dnase_to_JSON.py", "dnase_to_javatreeview.py": "/usr/local/bin/dnase_to_javatreeview.py", "dnase_wig_tracks.py": "/usr/local/bin/dnase_wig_tracks.py", "example_footprint_scores.py": "/usr/local/bin/example_footprint_scores.py", "wellington_bootstrap.py": "/usr/local/bin/wellington_bootstrap.py", "wellington_footprints.py": "/usr/local/bin/wellington_footprints.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydnase.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/pydnase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydnase:0.3.0--py37h8902056_4
+$ shpc install quay.io/biocontainers/pydnase:0.3.0--py38he5da3d1_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydnase/0.3.0--py37h8902056_4
-$ module help quay.io/biocontainers/pydnase/0.3.0--py37h8902056_4
+$ module load quay.io/biocontainers/pydnase/0.3.0--py38he5da3d1_5
+$ module help quay.io/biocontainers/pydnase/0.3.0--py38he5da3d1_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

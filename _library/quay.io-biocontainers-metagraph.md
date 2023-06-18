@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metagraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagraph/container.yaml"
-updated_at: "2023-06-17 03:15:19.162293"
-latest: "0.3.6--ha1a87e0_2"
+updated_at: "2023-06-18 03:23:29.286530"
+latest: "0.3.6--hf159946_3"
 container_url: "https://biocontainers.pro/tools/metagraph"
 aliases:
  - "metagraph"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "0.3.6--h15c59b9_1"
  - "0.3.6--ha1a87e0_2"
+ - "0.3.6--hf159946_3"
 description: "shpc-registry automated BioContainers addition for metagraph"
-config: {"url": "https://biocontainers.pro/tools/metagraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagraph", "latest": {"0.3.6--ha1a87e0_2": "sha256:542ff7cf6cb69599cddfc7e86c8cd7c44d854dbe07d152b77626f16c40404799"}, "tags": {"0.3.6--h15c59b9_1": "sha256:38e254af4c68bf6d0a68b45f198e813d3fa2182c870a569631fc5c7912f50914", "0.3.6--ha1a87e0_2": "sha256:542ff7cf6cb69599cddfc7e86c8cd7c44d854dbe07d152b77626f16c40404799"}, "docker": "quay.io/biocontainers/metagraph", "aliases": {"metagraph": "/usr/local/bin/metagraph", "metagraph_DNA": "/usr/local/bin/metagraph_DNA", "metagraph_Protein": "/usr/local/bin/metagraph_Protein", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/metagraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagraph", "latest": {"0.3.6--hf159946_3": "sha256:c6e02d79938a7397ded44be9e39242f85164ae6aef08c87eeac5e609c1e677d6"}, "tags": {"0.3.6--h15c59b9_1": "sha256:38e254af4c68bf6d0a68b45f198e813d3fa2182c870a569631fc5c7912f50914", "0.3.6--ha1a87e0_2": "sha256:542ff7cf6cb69599cddfc7e86c8cd7c44d854dbe07d152b77626f16c40404799", "0.3.6--hf159946_3": "sha256:c6e02d79938a7397ded44be9e39242f85164ae6aef08c87eeac5e609c1e677d6"}, "docker": "quay.io/biocontainers/metagraph", "aliases": {"metagraph": "/usr/local/bin/metagraph", "metagraph_DNA": "/usr/local/bin/metagraph_DNA", "metagraph_Protein": "/usr/local/bin/metagraph_Protein", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metagraph.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/metagraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metagraph:0.3.6--ha1a87e0_2
+$ shpc install quay.io/biocontainers/metagraph:0.3.6--hf159946_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metagraph/0.3.6--ha1a87e0_2
-$ module help quay.io/biocontainers/metagraph/0.3.6--ha1a87e0_2
+$ module load quay.io/biocontainers/metagraph/0.3.6--hf159946_3
+$ module help quay.io/biocontainers/metagraph/0.3.6--hf159946_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

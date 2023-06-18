@@ -4,8 +4,8 @@ name:  "amdih/cp2k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/cp2k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/cp2k/container.yaml"
-updated_at: "2023-06-17 03:35:57.328714"
-latest: "8.2"
+updated_at: "2023-06-18 03:39:11.888566"
+latest: "2022.2.amd3"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/cp2k"
 aliases:
  - "cp2k.popt"
@@ -23,8 +23,10 @@ aliases:
  - "parallel_rng_types_unittest.psmp"
 versions:
  - "8.2"
+ - "2022.2.amd3"
+ - "87ec1599"
 description: "CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems."
-config: {"docker": "amdih/cp2k", "url": "https://www.amd.com/en/technologies/infinity-hub/cp2k", "description": "CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems.", "maintainer": "@cristiandipietrantonio", "latest": {"8.2": "sha256:5947603de32c4e690f734075f7625563a2de18d1c3276ec10fceccdb332022ec"}, "tags": {"8.2": "sha256:5947603de32c4e690f734075f7625563a2de18d1c3276ec10fceccdb332022ec"}, "aliases": [{"name": "cp2k.popt", "command": "/opt/cp2k/bin/cp2k.popt"}, {"name": "cp2k.psmp.dbcsr_gpu", "command": "/opt/cp2k/bin/cp2k.psmp.dbcsr_gpu"}, {"name": "cp2k_shell.psmp", "command": "/opt/cp2k/bin/cp2k_shell.psmp"}, {"name": "graph.psmp", "command": "/opt/cp2k/bin/graph.psmp"}, {"name": "grid_unittest.psmp", "command": "/opt/cp2k/bin/grid_unittest.psmp"}, {"name": "memory_utilities_unittest.psmp", "command": "/opt/cp2k/bin/memory_utilities_unittest.psmp"}, {"name": "xyz2dcd.psmp", "command": "/opt/cp2k/bin/xyz2dcd.psmp"}, {"name": "cp2k.psmp", "command": "/opt/cp2k/bin/cp2k.psmp"}, {"name": "cp2k.psmp.no_dbcsr_gpu", "command": "/opt/cp2k/bin/cp2k.psmp.no_dbcsr_gpu"}, {"name": "dumpdcd.psmp", "command": "/opt/cp2k/bin/dumpdcd.psmp"}, {"name": "grid_miniapp.psmp", "command": "/opt/cp2k/bin/grid_miniapp.psmp"}, {"name": "libcp2k_unittest.psmp", "command": "/opt/cp2k/bin/libcp2k_unittest.psmp"}, {"name": "parallel_rng_types_unittest.psmp", "command": "/opt/cp2k/bin/parallel_rng_types_unittest.psmp"}]}
+config: {"docker": "amdih/cp2k", "url": "https://www.amd.com/en/technologies/infinity-hub/cp2k", "description": "CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems.", "maintainer": "@cristiandipietrantonio", "latest": {"2022.2.amd3": "sha256:ebaf3ab04c3f09e830bc762f271fc25dc9270dc20dd63879b567c6b89006014d"}, "tags": {"8.2": "sha256:5947603de32c4e690f734075f7625563a2de18d1c3276ec10fceccdb332022ec", "2022.2.amd3": "sha256:ebaf3ab04c3f09e830bc762f271fc25dc9270dc20dd63879b567c6b89006014d", "87ec1599": "sha256:deee2bb9d342b324feb60adfed6c8db19752a17c9422018460a817a52a681777"}, "aliases": [{"name": "cp2k.popt", "command": "/opt/cp2k/bin/cp2k.popt"}, {"name": "cp2k.psmp.dbcsr_gpu", "command": "/opt/cp2k/bin/cp2k.psmp.dbcsr_gpu"}, {"name": "cp2k_shell.psmp", "command": "/opt/cp2k/bin/cp2k_shell.psmp"}, {"name": "graph.psmp", "command": "/opt/cp2k/bin/graph.psmp"}, {"name": "grid_unittest.psmp", "command": "/opt/cp2k/bin/grid_unittest.psmp"}, {"name": "memory_utilities_unittest.psmp", "command": "/opt/cp2k/bin/memory_utilities_unittest.psmp"}, {"name": "xyz2dcd.psmp", "command": "/opt/cp2k/bin/xyz2dcd.psmp"}, {"name": "cp2k.psmp", "command": "/opt/cp2k/bin/cp2k.psmp"}, {"name": "cp2k.psmp.no_dbcsr_gpu", "command": "/opt/cp2k/bin/cp2k.psmp.no_dbcsr_gpu"}, {"name": "dumpdcd.psmp", "command": "/opt/cp2k/bin/dumpdcd.psmp"}, {"name": "grid_miniapp.psmp", "command": "/opt/cp2k/bin/grid_miniapp.psmp"}, {"name": "libcp2k_unittest.psmp", "command": "/opt/cp2k/bin/libcp2k_unittest.psmp"}, {"name": "parallel_rng_types_unittest.psmp", "command": "/opt/cp2k/bin/parallel_rng_types_unittest.psmp"}]}
 ---
 
 This module is a singularity container wrapper for amdih/cp2k.
@@ -39,7 +41,7 @@ $ shpc install amdih/cp2k
 Or a specific version:
 
 ```bash
-$ shpc install amdih/cp2k:8.2
+$ shpc install amdih/cp2k:2022.2.amd3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load amdih/cp2k/8.2
-$ module help amdih/cp2k/8.2
+$ module load amdih/cp2k/2022.2.amd3
+$ module help amdih/cp2k/2022.2.amd3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

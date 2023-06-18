@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phispy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phispy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phispy/container.yaml"
-updated_at: "2023-06-17 02:41:29.483748"
+updated_at: "2023-06-18 02:57:13.539293"
 latest: "4.2.21--py38h2494328_2"
 container_url: "https://biocontainers.pro/tools/phispy"
 aliases:
