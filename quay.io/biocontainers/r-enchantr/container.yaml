@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-enchantr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-enchantr
 latest:
-  0.1.1--r42hdfd78af_0: sha256:9e0ef73ee5d54d8af4779aa0c05bdeb06d7f3b11a8c897dd1ca2c3374467acac
+  0.1.2--r42hdfd78af_0: sha256:41f3f403068446904e57c34bc1b81f7fbbed127955c2b0282bec17e3820ac11e
 tags:
   0.0.1--r41hdfd78af_0: sha256:332b49d3ba5d72a479a4b7115ee51bf05e9ff62fc912204b37af9819eb0ed994
   0.0.4--r42hdfd78af_0: sha256:28aaec9bb7b062e9913e79d1dc0f99ee9dc402ac1979d1bdde966078548a6737
   0.0.6--r42hdfd78af_0: sha256:76927a0247831813550f6bad11cfd35c462c4a391681274dba8170f07ae0fc9c
   0.1.1--r42hdfd78af_0: sha256:9e0ef73ee5d54d8af4779aa0c05bdeb06d7f3b11a8c897dd1ca2c3374467acac
+  0.1.2--r42hdfd78af_0: sha256:41f3f403068446904e57c34bc1b81f7fbbed127955c2b0282bec17e3820ac11e
 docker: quay.io/biocontainers/r-enchantr
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

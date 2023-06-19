@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fastq_utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastq_utils
 latest:
-  0.25.2--h20b1175_0: sha256:db261ad9dceb302d83df8c42fb185a4e5665b52bfc6d150c7b3bfec74b90d587
+  0.25.2--h50ea8bc_1: sha256:88808fbd5011163b592c0c9bb90179b97f1cfcd41c9e5373a8ea8bdecaa4c3c2
 tags:
   0.25.1--h20b1175_1: sha256:e8ae637065c59bd201d0927942765153249cf2e286036aa7b18e7adebfc2fd33
   0.25.2--h20b1175_0: sha256:db261ad9dceb302d83df8c42fb185a4e5665b52bfc6d150c7b3bfec74b90d587
+  0.25.2--h50ea8bc_1: sha256:88808fbd5011163b592c0c9bb90179b97f1cfcd41c9e5373a8ea8bdecaa4c3c2
 docker: quay.io/biocontainers/fastq_utils
 aliases:
   bam2fastq: /usr/local/bin/bam2fastq

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/iphop
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for iphop
 latest:
-  1.3.1--pyhdfd78af_0: sha256:8ebcca5c10af9b34c7994ce30323b7668d3f09c830f9b7ce60eb961027019b7b
+  1.3.2--pyhdfd78af_0: sha256:b095c43ba35bbd1babc7f163023fd2849f2791cd1a43f15a5a4620cd91abaeee
 tags:
   1.2.0--pyhdfd78af_0: sha256:01780a617c5c3157139207813802d69d641a009cf19aacf303c2f1222b816d6a
   1.3.0--pyhdfd78af_0: sha256:979c0988be6e205d3a88d9b6658925f286f3a2230aa3c8931973919c2429a695
   1.3.1--pyhdfd78af_0: sha256:8ebcca5c10af9b34c7994ce30323b7668d3f09c830f9b7ce60eb961027019b7b
+  1.3.2--pyhdfd78af_0: sha256:b095c43ba35bbd1babc7f163023fd2849f2791cd1a43f15a5a4620cd91abaeee
 docker: quay.io/biocontainers/iphop
 aliases:
   bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS
