@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gget/container.yaml"
-updated_at: "2023-06-19 02:49:02.101420"
+updated_at: "2023-06-19 03:02:59.848791"
 latest: "0.27.7--pyh4a94de4_0"
 container_url: "https://biocontainers.pro/tools/gget"
 aliases:
