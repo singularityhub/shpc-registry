@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tekrabber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tekrabber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tekrabber/container.yaml"
-updated_at: "2023-06-18 03:06:24.987487"
+updated_at: "2023-06-19 02:56:35.075776"
 latest: "1.2.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tekrabber"
 aliases:

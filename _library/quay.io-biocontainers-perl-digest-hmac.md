@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-digest-hmac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-digest-hmac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-digest-hmac/container.yaml"
-updated_at: "2023-06-18 03:13:11.439191"
+updated_at: "2023-06-19 03:03:53.492710"
 latest: "1.04--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-digest-hmac"
 aliases:

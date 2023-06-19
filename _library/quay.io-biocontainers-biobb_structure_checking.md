@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_structure_checking"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_structure_checking/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_structure_checking/container.yaml"
-updated_at: "2023-06-18 03:29:03.854985"
+updated_at: "2023-06-19 03:21:05.851505"
 latest: "3.13.0--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/biobb_structure_checking"
 aliases:

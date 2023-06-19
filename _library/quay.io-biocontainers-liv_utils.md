@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/liv_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liv_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liv_utils/container.yaml"
-updated_at: "2023-06-18 02:58:30.048761"
+updated_at: "2023-06-19 02:48:11.904909"
 latest: "0.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liv_utils"
 aliases:

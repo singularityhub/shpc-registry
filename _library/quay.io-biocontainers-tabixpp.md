@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tabixpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tabixpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tabixpp/container.yaml"
-updated_at: "2023-06-18 03:31:21.568468"
-latest: "1.1.0--h6448e42_12"
+updated_at: "2023-06-19 03:23:36.345941"
+latest: "1.1.0--hce60e53_13"
 container_url: "https://biocontainers.pro/tools/tabixpp"
 aliases:
  - "tabix++"
@@ -22,8 +22,9 @@ versions:
  - "1.1.0--h470d46e_9"
  - "1.1.0--h470d46e_11"
  - "1.1.0--h6448e42_12"
+ - "1.1.0--hce60e53_13"
 description: "shpc-registry automated BioContainers addition for tabixpp"
-config: {"url": "https://biocontainers.pro/tools/tabixpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tabixpp", "latest": {"1.1.0--h6448e42_12": "sha256:c67de580777c2debc2125c61c638f519fbbe907a5f2e7a27e8d4a3365dec4d1d"}, "tags": {"1.1.0--h470d46e_9": "sha256:5213a96cc511c795ed76b49764adc51b7970ff8f9932dd10b8e2997c057e350a", "1.1.0--h470d46e_11": "sha256:b818bf817f6a3dc17ad0d88402c2069e3f86ea9e13939150402dafa4d4765b53", "1.1.0--h6448e42_12": "sha256:c67de580777c2debc2125c61c638f519fbbe907a5f2e7a27e8d4a3365dec4d1d"}, "docker": "quay.io/biocontainers/tabixpp", "aliases": {"tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/tabixpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tabixpp", "latest": {"1.1.0--hce60e53_13": "sha256:bc1275d506be08710e6638f3ae53230ebc93d16e19e6005a44cb67f9ea29c48a"}, "tags": {"1.1.0--h470d46e_9": "sha256:5213a96cc511c795ed76b49764adc51b7970ff8f9932dd10b8e2997c057e350a", "1.1.0--h470d46e_11": "sha256:b818bf817f6a3dc17ad0d88402c2069e3f86ea9e13939150402dafa4d4765b53", "1.1.0--h6448e42_12": "sha256:c67de580777c2debc2125c61c638f519fbbe907a5f2e7a27e8d4a3365dec4d1d", "1.1.0--hce60e53_13": "sha256:bc1275d506be08710e6638f3ae53230ebc93d16e19e6005a44cb67f9ea29c48a"}, "docker": "quay.io/biocontainers/tabixpp", "aliases": {"tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tabixpp.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/tabixpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tabixpp:1.1.0--h6448e42_12
+$ shpc install quay.io/biocontainers/tabixpp:1.1.0--hce60e53_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tabixpp/1.1.0--h6448e42_12
-$ module help quay.io/biocontainers/tabixpp/1.1.0--h6448e42_12
+$ module load quay.io/biocontainers/tabixpp/1.1.0--hce60e53_13
+$ module help quay.io/biocontainers/tabixpp/1.1.0--hce60e53_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

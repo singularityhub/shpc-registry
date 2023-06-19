@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reportfunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reportfunk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reportfunk/container.yaml"
-updated_at: "2023-06-18 03:31:37.692252"
+updated_at: "2023-06-19 03:23:53.591832"
 latest: "1.0.1--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/reportfunk"
 aliases:

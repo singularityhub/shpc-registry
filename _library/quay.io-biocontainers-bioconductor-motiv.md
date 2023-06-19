@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-motiv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-motiv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-motiv/container.yaml"
-updated_at: "2023-06-18 02:59:57.403873"
+updated_at: "2023-06-19 02:49:43.449322"
 latest: "1.43.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-motiv"
 aliases:

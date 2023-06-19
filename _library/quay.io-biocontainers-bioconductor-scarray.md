@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-scarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scarray/container.yaml"
-updated_at: "2023-06-18 03:15:42.352763"
-latest: "1.6.0--r42hc247a5b_0"
+updated_at: "2023-06-19 03:06:36.662253"
+latest: "1.6.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-scarray"
 
 versions:
  - "1.2.1--r41hc247a5b_1"
  - "1.6.0--r42hc247a5b_0"
+ - "1.6.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-scarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scarray", "latest": {"1.6.0--r42hc247a5b_0": "sha256:ee9cb72b53328e0e6bd41a3b433c3bd95a3d83659a1cf84b311d73d0aef82cc9"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:e2242fdb22bb50e2eeaa7e74ee3ce99dc43bd2c31c987c95f3bc0ad33a808071", "1.6.0--r42hc247a5b_0": "sha256:ee9cb72b53328e0e6bd41a3b433c3bd95a3d83659a1cf84b311d73d0aef82cc9"}, "docker": "quay.io/biocontainers/bioconductor-scarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scarray", "latest": {"1.6.0--r42hf17093f_1": "sha256:cd4f706a64b6a07b9ccf23f30a0258c257bc893792e1adf29477b96d9e9c286e"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:e2242fdb22bb50e2eeaa7e74ee3ce99dc43bd2c31c987c95f3bc0ad33a808071", "1.6.0--r42hc247a5b_0": "sha256:ee9cb72b53328e0e6bd41a3b433c3bd95a3d83659a1cf84b311d73d0aef82cc9", "1.6.0--r42hf17093f_1": "sha256:cd4f706a64b6a07b9ccf23f30a0258c257bc893792e1adf29477b96d9e9c286e"}, "docker": "quay.io/biocontainers/bioconductor-scarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scarray.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scarray:1.6.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-scarray:1.6.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scarray/1.6.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-scarray/1.6.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-scarray/1.6.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-scarray/1.6.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

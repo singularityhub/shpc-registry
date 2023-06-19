@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mantis-msi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mantis-msi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mantis-msi/container.yaml"
-updated_at: "2023-06-18 03:18:58.465933"
-latest: "1.0.5--h9f5acd7_1"
+updated_at: "2023-06-19 03:10:07.170337"
+latest: "1.0.5--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/mantis-msi"
 aliases:
  - "RepeatFinder"
@@ -25,8 +25,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.0.5--h9f5acd7_1"
+ - "1.0.5--h4ac6f70_2"
 description: "singularity registry hpc automated addition for mantis-msi"
-config: {"url": "https://biocontainers.pro/tools/mantis-msi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mantis-msi", "latest": {"1.0.5--h9f5acd7_1": "sha256:3ec10ef4f1902d683b23824feed778db95dfacc6115ebeada5e50f968f05b28a"}, "tags": {"1.0.5--h9f5acd7_1": "sha256:3ec10ef4f1902d683b23824feed778db95dfacc6115ebeada5e50f968f05b28a"}, "docker": "quay.io/biocontainers/mantis-msi", "aliases": {"RepeatFinder": "/usr/local/bin/RepeatFinder", "calculate_instability.py": "/usr/local/bin/calculate_instability.py", "defaults.py": "/usr/local/bin/defaults.py", "helpers.py": "/usr/local/bin/helpers.py", "kmer_count_filter.py": "/usr/local/bin/kmer_count_filter.py", "kmer_repeat_counter.py": "/usr/local/bin/kmer_repeat_counter.py", "mantis-msi.py": "/usr/local/bin/mantis-msi.py", "offset_finder.py": "/usr/local/bin/offset_finder.py", "structures.py": "/usr/local/bin/structures.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/mantis-msi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mantis-msi", "latest": {"1.0.5--h4ac6f70_2": "sha256:1da39792943b1715d2fecc6af2eff995e8cec9b655a414bddaaf2a7e70c6e3ca"}, "tags": {"1.0.5--h9f5acd7_1": "sha256:3ec10ef4f1902d683b23824feed778db95dfacc6115ebeada5e50f968f05b28a", "1.0.5--h4ac6f70_2": "sha256:1da39792943b1715d2fecc6af2eff995e8cec9b655a414bddaaf2a7e70c6e3ca"}, "docker": "quay.io/biocontainers/mantis-msi", "aliases": {"RepeatFinder": "/usr/local/bin/RepeatFinder", "calculate_instability.py": "/usr/local/bin/calculate_instability.py", "defaults.py": "/usr/local/bin/defaults.py", "helpers.py": "/usr/local/bin/helpers.py", "kmer_count_filter.py": "/usr/local/bin/kmer_count_filter.py", "kmer_repeat_counter.py": "/usr/local/bin/kmer_repeat_counter.py", "mantis-msi.py": "/usr/local/bin/mantis-msi.py", "offset_finder.py": "/usr/local/bin/offset_finder.py", "structures.py": "/usr/local/bin/structures.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mantis-msi.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/mantis-msi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mantis-msi:1.0.5--h9f5acd7_1
+$ shpc install quay.io/biocontainers/mantis-msi:1.0.5--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mantis-msi/1.0.5--h9f5acd7_1
-$ module help quay.io/biocontainers/mantis-msi/1.0.5--h9f5acd7_1
+$ module load quay.io/biocontainers/mantis-msi/1.0.5--h4ac6f70_2
+$ module help quay.io/biocontainers/mantis-msi/1.0.5--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

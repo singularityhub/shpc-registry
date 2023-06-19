@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mark-nonconverted-reads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mark-nonconverted-reads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mark-nonconverted-reads/container.yaml"
-updated_at: "2023-06-18 03:27:45.677166"
-latest: "1.1--py_1"
+updated_at: "2023-06-19 03:19:41.729597"
+latest: "1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mark-nonconverted-reads"
 aliases:
  - "mark-nonconverted-reads.py"
@@ -21,8 +21,9 @@ aliases:
  - "pydoc3.7"
 versions:
  - "1.1--py_1"
+ - "1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mark-nonconverted-reads"
-config: {"url": "https://biocontainers.pro/tools/mark-nonconverted-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mark-nonconverted-reads", "latest": {"1.1--py_1": "sha256:32b79230609e1e75792490cf5aecb08a487f7f87c37ed1cd5d70e026b72d7f04"}, "tags": {"1.1--py_1": "sha256:32b79230609e1e75792490cf5aecb08a487f7f87c37ed1cd5d70e026b72d7f04"}, "docker": "quay.io/biocontainers/mark-nonconverted-reads", "aliases": {"mark-nonconverted-reads.py": "/usr/local/bin/mark-nonconverted-reads.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
+config: {"url": "https://biocontainers.pro/tools/mark-nonconverted-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mark-nonconverted-reads", "latest": {"1.2--pyhdfd78af_0": "sha256:34a8a4fb7e60e066a4ede2feda9304d80e7e4c6af2e258ed9711bf2d6ba09b38"}, "tags": {"1.1--py_1": "sha256:32b79230609e1e75792490cf5aecb08a487f7f87c37ed1cd5d70e026b72d7f04", "1.2--pyhdfd78af_0": "sha256:34a8a4fb7e60e066a4ede2feda9304d80e7e4c6af2e258ed9711bf2d6ba09b38"}, "docker": "quay.io/biocontainers/mark-nonconverted-reads", "aliases": {"mark-nonconverted-reads.py": "/usr/local/bin/mark-nonconverted-reads.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mark-nonconverted-reads.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/mark-nonconverted-reads
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mark-nonconverted-reads:1.1--py_1
+$ shpc install quay.io/biocontainers/mark-nonconverted-reads:1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mark-nonconverted-reads/1.1--py_1
-$ module help quay.io/biocontainers/mark-nonconverted-reads/1.1--py_1
+$ module load quay.io/biocontainers/mark-nonconverted-reads/1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/mark-nonconverted-reads/1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

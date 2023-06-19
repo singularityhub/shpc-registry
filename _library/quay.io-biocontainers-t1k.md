@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/t1k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/t1k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/t1k/container.yaml"
-updated_at: "2023-06-18 03:33:16.598784"
-latest: "1.0.2--h5b5514e_0"
+updated_at: "2023-06-19 03:25:42.303824"
+latest: "1.0.2--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/t1k"
 aliases:
  - "AddGeneCoord.pl"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.0.1--h5b5514e_0"
  - "1.0.2--h5b5514e_0"
+ - "1.0.2--h43eeafb_1"
 description: "singularity registry hpc automated addition for t1k"
-config: {"url": "https://biocontainers.pro/tools/t1k", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for t1k", "latest": {"1.0.2--h5b5514e_0": "sha256:0567979515f974ec2849b5876e7c0b0163ff9863ea014e246c120ab321220207"}, "tags": {"1.0.1--h5b5514e_0": "sha256:f93393f7a52b5149490a870137e8b37c33a9b17bb825efc58ac7168b88abc1f9", "1.0.2--h5b5514e_0": "sha256:0567979515f974ec2849b5876e7c0b0163ff9863ea014e246c120ab321220207"}, "docker": "quay.io/biocontainers/t1k", "aliases": {"AddGeneCoord.pl": "/usr/local/bin/AddGeneCoord.pl", "ParseDatFile.pl": "/usr/local/bin/ParseDatFile.pl", "analyzer": "/usr/local/bin/analyzer", "bam-extractor": "/usr/local/bin/bam-extractor", "fastq-extractor": "/usr/local/bin/fastq-extractor", "genotyper": "/usr/local/bin/genotyper", "run-t1k": "/usr/local/bin/run-t1k", "t1k-build.pl": "/usr/local/bin/t1k-build.pl", "t1k-merge.py": "/usr/local/bin/t1k-merge.py", "t1k-smartseq.pl": "/usr/local/bin/t1k-smartseq.pl", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/t1k", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for t1k", "latest": {"1.0.2--h43eeafb_1": "sha256:b9fffbce4d0368236758fe0cdddff16b5767c8e1b55e7e743e26cccd7ada8e0a"}, "tags": {"1.0.1--h5b5514e_0": "sha256:f93393f7a52b5149490a870137e8b37c33a9b17bb825efc58ac7168b88abc1f9", "1.0.2--h5b5514e_0": "sha256:0567979515f974ec2849b5876e7c0b0163ff9863ea014e246c120ab321220207", "1.0.2--h43eeafb_1": "sha256:b9fffbce4d0368236758fe0cdddff16b5767c8e1b55e7e743e26cccd7ada8e0a"}, "docker": "quay.io/biocontainers/t1k", "aliases": {"AddGeneCoord.pl": "/usr/local/bin/AddGeneCoord.pl", "ParseDatFile.pl": "/usr/local/bin/ParseDatFile.pl", "analyzer": "/usr/local/bin/analyzer", "bam-extractor": "/usr/local/bin/bam-extractor", "fastq-extractor": "/usr/local/bin/fastq-extractor", "genotyper": "/usr/local/bin/genotyper", "run-t1k": "/usr/local/bin/run-t1k", "t1k-build.pl": "/usr/local/bin/t1k-build.pl", "t1k-merge.py": "/usr/local/bin/t1k-merge.py", "t1k-smartseq.pl": "/usr/local/bin/t1k-smartseq.pl", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/t1k.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/t1k
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/t1k:1.0.2--h5b5514e_0
+$ shpc install quay.io/biocontainers/t1k:1.0.2--h43eeafb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/t1k/1.0.2--h5b5514e_0
-$ module help quay.io/biocontainers/t1k/1.0.2--h5b5514e_0
+$ module load quay.io/biocontainers/t1k/1.0.2--h43eeafb_1
+$ module help quay.io/biocontainers/t1k/1.0.2--h43eeafb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
