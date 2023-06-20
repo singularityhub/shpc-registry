@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sonicparanoid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sonicparanoid
 latest:
-  1.3.8--py38h8ded8fe_2: sha256:a3e11e21e19d938fb2b6e162411a18de6623231b97b0fea02fd322086bbe92a0
+  1.3.8--py38hcbe9525_3: sha256:bd726d3613849f2262fafd49757080aa3b46db3a8ed0dbee3957c1f83c4ff6e8
 tags:
   1.3.8--py38h8ded8fe_2: sha256:a3e11e21e19d938fb2b6e162411a18de6623231b97b0fea02fd322086bbe92a0
+  1.3.8--py38hcbe9525_3: sha256:bd726d3613849f2262fafd49757080aa3b46db3a8ed0dbee3957c1f83c4ff6e8
 docker: quay.io/biocontainers/sonicparanoid
 aliases:
   filetype: /usr/local/bin/filetype

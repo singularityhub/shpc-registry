@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-csaw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-csaw
 latest:
-  1.32.0--r42hc247a5b_0: sha256:312ad5902299099a06de47dc4bd0a86e8110c9e4d2b2d4f787f1d60073baf2c8
+  1.32.0--r42hf17093f_1: sha256:8ee087043354119376f25b9ad99379099f9e9fe9c4290dcfcefa0dd499ad6de7
 tags:
   1.6.1--r3.4.1_0: sha256:5c073467653ceb9178f46d9994c62043d4ca14f7ee87c0f88987e043ce7d7601
   1.32.0--r42hc247a5b_0: sha256:312ad5902299099a06de47dc4bd0a86e8110c9e4d2b2d4f787f1d60073baf2c8
@@ -10,6 +10,7 @@ tags:
   1.26.0--r41h399db7b_0: sha256:c0122c9d0c63977e48873f68b14bad4e0b9042344dd7d345365fe2d91f094a1b
   1.24.3--r40h399db7b_0: sha256:cbdac024d39e8aefdf2374951d74f1079f3653a1dbde9c71195aa0fd1422a570
   1.22.0--r40h5f743cb_0: sha256:60c07d3a571fd0081dd0f7b0b7a144e7d4bf377396860f397a7581a9ff7bb9cc
+  1.32.0--r42hf17093f_1: sha256:8ee087043354119376f25b9ad99379099f9e9fe9c4290dcfcefa0dd499ad6de7
 docker: quay.io/biocontainers/bioconductor-csaw
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

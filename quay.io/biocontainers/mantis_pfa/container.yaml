@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mantis_pfa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mantis_pfa
 latest:
-  1.5.5--py310h1425a21_1: sha256:cbb3560bb7075f82c29ca720d2dcb02bf97e48ece2885903ae6133b298fb96c3
+  1.5.5--py38he5da3d1_2: sha256:b8e2fd481a51f826b44a953f5b22fad0ec4762f3a7c144e3f94717f560f2a557
 tags:
   1.5.5--py310h1425a21_1: sha256:cbb3560bb7075f82c29ca720d2dcb02bf97e48ece2885903ae6133b298fb96c3
+  1.5.5--py38he5da3d1_2: sha256:b8e2fd481a51f826b44a953f5b22fad0ec4762f3a7c144e3f94717f560f2a557
 docker: quay.io/biocontainers/mantis_pfa
 aliases:
   mantis: /usr/local/bin/mantis
