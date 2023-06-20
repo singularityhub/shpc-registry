@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gothresher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gothresher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gothresher/container.yaml"
-updated_at: "2023-06-19 03:06:08.025779"
+updated_at: "2023-06-20 02:46:10.383201"
 latest: "1.0.29--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/gothresher"
 aliases:

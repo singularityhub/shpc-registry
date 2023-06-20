@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fadapa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fadapa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fadapa/container.yaml"
-updated_at: "2023-06-19 02:58:32.200358"
+updated_at: "2023-06-20 02:38:42.662934"
 latest: "0.3.1--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/fadapa"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cliquems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cliquems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cliquems/container.yaml"
-updated_at: "2023-06-19 03:11:37.255811"
-latest: "1.12.0--r42hc247a5b_0"
+updated_at: "2023-06-20 02:51:33.436336"
+latest: "1.12.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cliquems"
 aliases:
  - "zipcmp"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.8.0--r41hc247a5b_2"
  - "1.12.0--r42hc247a5b_0"
+ - "1.12.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cliquems"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cliquems", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cliquems", "latest": {"1.12.0--r42hc247a5b_0": "sha256:8bff91321de656001ab907ed8ea8cf4a9d59773edbaafa2769d459932dea138f"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:03085b49b0d8db5862dd85033882f6a891a1bff797f238f93bfcb243813a1a68", "1.12.0--r42hc247a5b_0": "sha256:8bff91321de656001ab907ed8ea8cf4a9d59773edbaafa2769d459932dea138f"}, "docker": "quay.io/biocontainers/bioconductor-cliquems", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cliquems", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cliquems", "latest": {"1.12.0--r42hf17093f_1": "sha256:2f0ba27b9d79a6524b18942cc01c5e4b5c6b1f08614682cab6a41f23a9d4646a"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:03085b49b0d8db5862dd85033882f6a891a1bff797f238f93bfcb243813a1a68", "1.12.0--r42hc247a5b_0": "sha256:8bff91321de656001ab907ed8ea8cf4a9d59773edbaafa2769d459932dea138f", "1.12.0--r42hf17093f_1": "sha256:2f0ba27b9d79a6524b18942cc01c5e4b5c6b1f08614682cab6a41f23a9d4646a"}, "docker": "quay.io/biocontainers/bioconductor-cliquems", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cliquems.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cliquems
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cliquems:1.12.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-cliquems:1.12.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cliquems/1.12.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-cliquems/1.12.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-cliquems/1.12.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-cliquems/1.12.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

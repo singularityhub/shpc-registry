@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/gargammel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gargammel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gargammel/container.yaml"
-updated_at: "2023-06-19 03:10:14.951105"
-latest: "1.1.2--h51667aa_5"
+updated_at: "2023-06-20 02:50:12.701887"
+latest: "1.1.2--he905c8f_6"
 container_url: "https://biocontainers.pro/tools/gargammel"
 
 versions:
  - "1.1.2--h51667aa_5"
+ - "1.1.2--he905c8f_6"
 description: "shpc-registry automated BioContainers addition for gargammel"
-config: {"url": "https://biocontainers.pro/tools/gargammel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel", "latest": {"1.1.2--h51667aa_5": "sha256:0a3eb34310f40eaa95849036a5d38dfd1f3369db1ef5f637e28cc1a049f2bc0f"}, "tags": {"1.1.2--h51667aa_5": "sha256:0a3eb34310f40eaa95849036a5d38dfd1f3369db1ef5f637e28cc1a049f2bc0f"}, "docker": "quay.io/biocontainers/gargammel"}
+config: {"url": "https://biocontainers.pro/tools/gargammel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel", "latest": {"1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "tags": {"1.1.2--h51667aa_5": "sha256:0a3eb34310f40eaa95849036a5d38dfd1f3369db1ef5f637e28cc1a049f2bc0f", "1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "docker": "quay.io/biocontainers/gargammel"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gargammel.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/gargammel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gargammel:1.1.2--h51667aa_5
+$ shpc install quay.io/biocontainers/gargammel:1.1.2--he905c8f_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gargammel/1.1.2--h51667aa_5
-$ module help quay.io/biocontainers/gargammel/1.1.2--h51667aa_5
+$ module load quay.io/biocontainers/gargammel/1.1.2--he905c8f_6
+$ module help quay.io/biocontainers/gargammel/1.1.2--he905c8f_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

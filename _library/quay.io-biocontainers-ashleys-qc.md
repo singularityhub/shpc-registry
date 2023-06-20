@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ashleys-qc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ashleys-qc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ashleys-qc/container.yaml"
-updated_at: "2023-06-19 03:32:56.061562"
+updated_at: "2023-06-20 03:12:29.260774"
 latest: "0.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ashleys-qc"
 aliases:

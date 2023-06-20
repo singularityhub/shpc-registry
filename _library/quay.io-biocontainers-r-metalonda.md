@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metalonda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metalonda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metalonda/container.yaml"
-updated_at: "2023-06-19 03:40:49.126035"
+updated_at: "2023-06-20 03:20:14.139596"
 latest: "1.1.8--r42h3121a25_4"
 container_url: "https://biocontainers.pro/tools/r-metalonda"
 aliases:

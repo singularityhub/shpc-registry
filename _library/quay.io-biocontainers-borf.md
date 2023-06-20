@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/borf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/borf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/borf/container.yaml"
-updated_at: "2023-06-19 02:59:57.248111"
+updated_at: "2023-06-20 02:40:06.461215"
 latest: "1.2--py_0"
 container_url: "https://biocontainers.pro/tools/borf"
 aliases:

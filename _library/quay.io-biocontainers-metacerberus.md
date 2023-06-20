@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacerberus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacerberus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacerberus/container.yaml"
-updated_at: "2023-06-19 03:31:57.903694"
+updated_at: "2023-06-20 03:11:32.059562"
 latest: "1.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/metacerberus"
 aliases:

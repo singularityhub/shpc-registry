@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-namespace-autoclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-namespace-autoclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-namespace-autoclean/container.yaml"
-updated_at: "2023-06-19 03:21:45.713268"
+updated_at: "2023-06-20 03:01:30.532697"
 latest: "0.29--pl5321h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/perl-namespace-autoclean"
 aliases:

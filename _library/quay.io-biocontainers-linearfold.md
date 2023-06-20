@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/linearfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linearfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linearfold/container.yaml"
-updated_at: "2023-06-19 03:42:27.353671"
+updated_at: "2023-06-20 03:21:50.519449"
 latest: "1.0--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/linearfold"
 aliases:

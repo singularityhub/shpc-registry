@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-iggeneusage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iggeneusage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iggeneusage/container.yaml"
-updated_at: "2023-06-19 02:59:01.188583"
-latest: "1.12.0--r42hc247a5b_0"
+updated_at: "2023-06-20 02:39:11.168944"
+latest: "1.12.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-iggeneusage"
 
 versions:
  - "1.8.0--r41hc247a5b_2"
  - "1.12.0--r42hc247a5b_0"
+ - "1.12.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-iggeneusage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-iggeneusage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iggeneusage", "latest": {"1.12.0--r42hc247a5b_0": "sha256:30cfd8c5c538d84ed7c6f40b635ae3f449bde0cb75d7862793cbd337a7d46aff"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:61f76c2ff410f5efb8debdd8b6a5fadf8bc816d684d337fa336dd556ce7dc9b9", "1.12.0--r42hc247a5b_0": "sha256:30cfd8c5c538d84ed7c6f40b635ae3f449bde0cb75d7862793cbd337a7d46aff"}, "docker": "quay.io/biocontainers/bioconductor-iggeneusage"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-iggeneusage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iggeneusage", "latest": {"1.12.0--r42hf17093f_1": "sha256:3b81ba08e30026d04666c85cba0a8717c9f34d6762c6ef4df8bb1184304250e2"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:61f76c2ff410f5efb8debdd8b6a5fadf8bc816d684d337fa336dd556ce7dc9b9", "1.12.0--r42hc247a5b_0": "sha256:30cfd8c5c538d84ed7c6f40b635ae3f449bde0cb75d7862793cbd337a7d46aff", "1.12.0--r42hf17093f_1": "sha256:3b81ba08e30026d04666c85cba0a8717c9f34d6762c6ef4df8bb1184304250e2"}, "docker": "quay.io/biocontainers/bioconductor-iggeneusage"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-iggeneusage.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-iggeneusage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-iggeneusage:1.12.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-iggeneusage:1.12.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-iggeneusage/1.12.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-iggeneusage/1.12.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-iggeneusage/1.12.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-iggeneusage/1.12.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

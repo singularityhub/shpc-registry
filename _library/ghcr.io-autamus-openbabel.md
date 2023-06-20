@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/openbabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/openbabel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/openbabel/container.yaml"
-updated_at: "2023-06-19 03:44:21.953963"
+updated_at: "2023-06-20 03:23:43.110303"
 latest: "3.1.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/openbabel"
 aliases:

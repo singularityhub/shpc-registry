@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-admin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-admin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-admin/container.yaml"
-updated_at: "2023-06-19 03:01:53.349399"
+updated_at: "2023-06-20 02:42:00.453634"
 latest: "1.4.0--py36_0"
 container_url: "https://biocontainers.pro/tools/flask-admin"
 aliases:
