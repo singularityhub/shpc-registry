@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-oppar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oppar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oppar/container.yaml"
-updated_at: "2023-06-20 03:06:57.862594"
-latest: "1.26.0--r42hc0cfd56_0"
+updated_at: "2023-06-21 03:08:50.059812"
+latest: "1.26.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-oppar"
 aliases:
  - "ncurses5-config"
@@ -17,8 +17,9 @@ versions:
  - "1.20.0--r41hd029910_0"
  - "1.18.0--r40hd029910_1"
  - "1.16.0--r40h037d062_0"
+ - "1.26.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-oppar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oppar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oppar", "latest": {"1.26.0--r42hc0cfd56_0": "sha256:2276202074090add56c5411b8e1569defed434c6f1c456b6bc980617f9747394"}, "tags": {"1.8.0--r341h470a237_0": "sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b", "1.26.0--r42hc0cfd56_0": "sha256:2276202074090add56c5411b8e1569defed434c6f1c456b6bc980617f9747394", "1.22.0--r41hc0cfd56_2": "sha256:81f4db80f3bc8fc5e88758e80cd7dd02c4d42d29dc5dd82bb71a540dbef4aa17", "1.20.0--r41hd029910_0": "sha256:0dcd2b0b8634e6f1c8f81bf6b29835570c18043817cc10e2c461857a5beb355d", "1.18.0--r40hd029910_1": "sha256:028db83c3f84bf73bbd15549fa47f4ddac7a72212a5ca584953ebc1827c3a9cd", "1.16.0--r40h037d062_0": "sha256:b8b97aff4b36eb807b507374e93a70ea6e77359f3406cf0267a7c629c2a3d1c4"}, "docker": "quay.io/biocontainers/bioconductor-oppar", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oppar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oppar", "latest": {"1.26.0--r42ha9d7317_1": "sha256:e034e4d2cdf45acc1d75d6755dad5c1c8445a7a257e25f0fe9177fe915ced79a"}, "tags": {"1.8.0--r341h470a237_0": "sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b", "1.26.0--r42hc0cfd56_0": "sha256:2276202074090add56c5411b8e1569defed434c6f1c456b6bc980617f9747394", "1.22.0--r41hc0cfd56_2": "sha256:81f4db80f3bc8fc5e88758e80cd7dd02c4d42d29dc5dd82bb71a540dbef4aa17", "1.20.0--r41hd029910_0": "sha256:0dcd2b0b8634e6f1c8f81bf6b29835570c18043817cc10e2c461857a5beb355d", "1.18.0--r40hd029910_1": "sha256:028db83c3f84bf73bbd15549fa47f4ddac7a72212a5ca584953ebc1827c3a9cd", "1.16.0--r40h037d062_0": "sha256:b8b97aff4b36eb807b507374e93a70ea6e77359f3406cf0267a7c629c2a3d1c4", "1.26.0--r42ha9d7317_1": "sha256:e034e4d2cdf45acc1d75d6755dad5c1c8445a7a257e25f0fe9177fe915ced79a"}, "docker": "quay.io/biocontainers/bioconductor-oppar", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oppar.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-oppar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-oppar:1.26.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-oppar:1.26.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-oppar/1.26.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-oppar/1.26.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-oppar/1.26.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-oppar/1.26.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

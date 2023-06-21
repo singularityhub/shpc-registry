@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-erssa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-erssa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erssa/container.yaml"
-updated_at: "2023-06-20 02:41:05.699107"
+updated_at: "2023-06-21 02:41:42.883995"
 latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-erssa"
 aliases:

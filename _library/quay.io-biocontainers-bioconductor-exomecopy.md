@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-exomecopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-exomecopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-exomecopy/container.yaml"
-updated_at: "2023-06-20 03:16:11.087100"
-latest: "1.44.0--r42hc0cfd56_0"
+updated_at: "2023-06-21 03:18:35.445330"
+latest: "1.44.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-exomecopy"
 
 versions:
  - "1.40.0--r41hc0cfd56_2"
  - "1.44.0--r42hc0cfd56_0"
+ - "1.44.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-exomecopy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-exomecopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-exomecopy", "latest": {"1.44.0--r42hc0cfd56_0": "sha256:17ec3e23146669e7bb29c338cf1c8817f0aadeb4e6ece9c1a74357a829402f21"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:1ee29299606ec531c3cb60ac5e6fb99a81c003e81e514b6fd0a831587e45227d", "1.44.0--r42hc0cfd56_0": "sha256:17ec3e23146669e7bb29c338cf1c8817f0aadeb4e6ece9c1a74357a829402f21"}, "docker": "quay.io/biocontainers/bioconductor-exomecopy"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-exomecopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-exomecopy", "latest": {"1.44.0--r42ha9d7317_1": "sha256:d3f256ab3c0ffbf7aa180fb9d532701169a53d1d3653b2e149a91246886d2301"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:1ee29299606ec531c3cb60ac5e6fb99a81c003e81e514b6fd0a831587e45227d", "1.44.0--r42hc0cfd56_0": "sha256:17ec3e23146669e7bb29c338cf1c8817f0aadeb4e6ece9c1a74357a829402f21", "1.44.0--r42ha9d7317_1": "sha256:d3f256ab3c0ffbf7aa180fb9d532701169a53d1d3653b2e149a91246886d2301"}, "docker": "quay.io/biocontainers/bioconductor-exomecopy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-exomecopy.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-exomecopy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-exomecopy:1.44.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-exomecopy:1.44.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-exomecopy/1.44.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-exomecopy/1.44.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-exomecopy/1.44.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-exomecopy/1.44.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

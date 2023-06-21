@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/resmico"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/resmico/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/resmico/container.yaml"
-updated_at: "2023-06-20 03:02:12.626176"
+updated_at: "2023-06-21 03:03:50.764460"
 latest: "1.2.2--py39h4e691d4_1"
 container_url: "https://biocontainers.pro/tools/resmico"
 aliases:

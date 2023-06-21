@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-garnett"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-garnett/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-garnett/container.yaml"
-updated_at: "2023-06-20 02:46:34.644242"
+updated_at: "2023-06-21 02:47:26.754718"
 latest: "0.2.8--r42hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-garnett"
 aliases:

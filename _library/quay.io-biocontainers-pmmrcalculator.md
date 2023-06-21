@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pmmrcalculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmmrcalculator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmmrcalculator/container.yaml"
-updated_at: "2023-06-20 03:22:51.633051"
+updated_at: "2023-06-21 03:25:37.977160"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pmmrcalculator"
 aliases:

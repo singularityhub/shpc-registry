@@ -4,14 +4,14 @@ name:  "ghcr.io/singularityhub/github-ci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/singularityhub/github-ci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/singularityhub/github-ci/container.yaml"
-updated_at: "2023-06-20 03:23:58.501774"
+updated_at: "2023-06-21 03:26:48.020590"
 latest: "latest"
 container_url: "https://github.com/singularityhub/github-ci/pkgs/container/github-ci"
 
 versions:
  - "latest"
 description: "An example SIF on GitHub packages to pull with oras"
-config: {"oras": "ghcr.io/singularityhub/github-ci", "url": "https://github.com/singularityhub/github-ci/pkgs/container/github-ci", "maintainer": "@vsoch", "description": "An example SIF on GitHub packages to pull with oras", "latest": {"latest": "sha256:5d6742ff0b10c1196202765dafb43275259bcbdbd3868c19ba1d19476c088867"}, "tags": {"latest": "sha256:5d6742ff0b10c1196202765dafb43275259bcbdbd3868c19ba1d19476c088867"}}
+config: {"oras": "ghcr.io/singularityhub/github-ci", "url": "https://github.com/singularityhub/github-ci/pkgs/container/github-ci", "maintainer": "@vsoch", "description": "An example SIF on GitHub packages to pull with oras", "latest": {"latest": "sha256:4a2bbd46477bcd3400b38a5b0c0d4be49c35f5db3aebb5019cb44c9e033dda95"}, "tags": {"latest": "sha256:4a2bbd46477bcd3400b38a5b0c0d4be49c35f5db3aebb5019cb44c9e033dda95"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/singularityhub/github-ci.

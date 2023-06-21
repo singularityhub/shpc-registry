@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-peakpanther"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-peakpanther/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-peakpanther/container.yaml"
-updated_at: "2023-06-20 02:43:37.425154"
+updated_at: "2023-06-21 02:44:22.010999"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-peakpanther"
 aliases:

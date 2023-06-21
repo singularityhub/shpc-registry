@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromswitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromswitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromswitch/container.yaml"
-updated_at: "2023-06-20 02:49:39.168998"
+updated_at: "2023-06-21 02:50:40.638252"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromswitch"
 aliases:

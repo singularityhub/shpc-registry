@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genetclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genetclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genetclassifier/container.yaml"
-updated_at: "2023-06-20 02:57:33.424218"
+updated_at: "2023-06-21 02:58:57.608537"
 latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genetclassifier"
 

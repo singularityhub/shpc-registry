@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-sanger-cgp-vagrent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sanger-cgp-vagrent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sanger-cgp-vagrent/container.yaml"
-updated_at: "2023-06-20 02:59:49.687440"
-latest: "3.7.0--pl5321hec16e2b_1"
+updated_at: "2023-06-21 03:01:20.918685"
+latest: "3.7.0--pl5321h031d066_2"
 container_url: "https://biocontainers.pro/tools/perl-sanger-cgp-vagrent"
 aliases:
  - "Admin_CacheFileBuilder.pl"
@@ -26,8 +26,9 @@ aliases:
  - "bp_find-blast-matches"
 versions:
  - "3.7.0--pl5321hec16e2b_1"
+ - "3.7.0--pl5321h031d066_2"
 description: "shpc-registry automated BioContainers addition for perl-sanger-cgp-vagrent"
-config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-vagrent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-vagrent", "latest": {"3.7.0--pl5321hec16e2b_1": "sha256:21b665ffd2368e55f31813e904c17d6f23490bdb1524424d79f1c89e719bc207"}, "tags": {"3.7.0--pl5321hec16e2b_1": "sha256:21b665ffd2368e55f31813e904c17d6f23490bdb1524424d79f1c89e719bc207"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-vagrent", "aliases": {"Admin_CacheFileBuilder.pl": "/usr/local/bin/Admin_CacheFileBuilder.pl", "Admin_EnsemblReferenceFileGenerator.pl": "/usr/local/bin/Admin_EnsemblReferenceFileGenerator.pl", "Admin_EnsemblTranscriptFilter.pl": "/usr/local/bin/Admin_EnsemblTranscriptFilter.pl", "Admin_GeneRegionBedDumper.pl": "/usr/local/bin/Admin_GeneRegionBedDumper.pl", "AnnotateVcf.pl": "/usr/local/bin/AnnotateVcf.pl", "addVagrentContext.pl": "/usr/local/bin/addVagrentContext.pl", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-vagrent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-vagrent", "latest": {"3.7.0--pl5321h031d066_2": "sha256:f34e6dd505ed2144019dddbce8b65f498ed73bb404a85c97c8cfe4a1ebeb1f67"}, "tags": {"3.7.0--pl5321hec16e2b_1": "sha256:21b665ffd2368e55f31813e904c17d6f23490bdb1524424d79f1c89e719bc207", "3.7.0--pl5321h031d066_2": "sha256:f34e6dd505ed2144019dddbce8b65f498ed73bb404a85c97c8cfe4a1ebeb1f67"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-vagrent", "aliases": {"Admin_CacheFileBuilder.pl": "/usr/local/bin/Admin_CacheFileBuilder.pl", "Admin_EnsemblReferenceFileGenerator.pl": "/usr/local/bin/Admin_EnsemblReferenceFileGenerator.pl", "Admin_EnsemblTranscriptFilter.pl": "/usr/local/bin/Admin_EnsemblTranscriptFilter.pl", "Admin_GeneRegionBedDumper.pl": "/usr/local/bin/Admin_GeneRegionBedDumper.pl", "AnnotateVcf.pl": "/usr/local/bin/AnnotateVcf.pl", "addVagrentContext.pl": "/usr/local/bin/addVagrentContext.pl", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sanger-cgp-vagrent.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/perl-sanger-cgp-vagrent
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sanger-cgp-vagrent:3.7.0--pl5321hec16e2b_1
+$ shpc install quay.io/biocontainers/perl-sanger-cgp-vagrent:3.7.0--pl5321h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sanger-cgp-vagrent/3.7.0--pl5321hec16e2b_1
-$ module help quay.io/biocontainers/perl-sanger-cgp-vagrent/3.7.0--pl5321hec16e2b_1
+$ module load quay.io/biocontainers/perl-sanger-cgp-vagrent/3.7.0--pl5321h031d066_2
+$ module help quay.io/biocontainers/perl-sanger-cgp-vagrent/3.7.0--pl5321h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

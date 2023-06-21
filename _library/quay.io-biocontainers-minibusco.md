@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minibusco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minibusco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minibusco/container.yaml"
-updated_at: "2023-06-20 03:09:24.407479"
+updated_at: "2023-06-21 03:11:24.041979"
 latest: "0.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/minibusco"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eval/container.yaml"
-updated_at: "2023-06-20 03:19:21.981143"
+updated_at: "2023-06-21 03:21:57.440401"
 latest: "2.2.8--pl526_1"
 container_url: "https://biocontainers.pro/tools/eval"
 aliases:

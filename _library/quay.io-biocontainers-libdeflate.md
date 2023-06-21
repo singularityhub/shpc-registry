@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libdeflate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libdeflate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libdeflate/container.yaml"
-updated_at: "2023-06-20 02:52:58.494767"
+updated_at: "2023-06-21 02:54:09.411762"
 latest: "1.2--h516909a_1"
 container_url: "https://biocontainers.pro/tools/libdeflate"
 

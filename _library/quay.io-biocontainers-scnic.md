@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scnic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scnic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scnic/container.yaml"
-updated_at: "2023-06-20 03:08:21.167320"
+updated_at: "2023-06-21 03:10:17.447223"
 latest: "0.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scnic"
 aliases:

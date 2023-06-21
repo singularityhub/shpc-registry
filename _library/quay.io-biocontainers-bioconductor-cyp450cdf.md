@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cyp450cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cyp450cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cyp450cdf/container.yaml"
-updated_at: "2023-06-20 02:40:11.487301"
+updated_at: "2023-06-21 02:40:45.408089"
 latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-cyp450cdf"
 

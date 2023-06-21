@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-treesim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-treesim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-treesim/container.yaml"
-updated_at: "2023-06-20 03:09:23.512596"
+updated_at: "2023-06-21 03:11:23.131883"
 latest: "2.4--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-treesim"
 aliases:
