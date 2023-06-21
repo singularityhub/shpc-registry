@@ -4,7 +4,7 @@ maintainer: '@vsoch'
 description: Elasticsearch is a powerful open source search and analytics engine that
   makes data easy to explore.
 latest:
-  8.7.1: sha256:160814e5972521291420c29edf4c0348b8591ac9235156f0dbf34befcf362825
+  8.8.1: sha256:e31753d052509353f99be86892bf5c65a070805aadbb295d1b3128163061ea68
 tags:
   7.12.0: sha256:383e9fb572f3ca2fdef5ba2edb0dae2c467736af96aba2c193722aa0c08ca7ec
   7.12.1: sha256:622f854572780281bc85b5fde33be27e99670941ed8b7eea5ba4aaf533fa64ec
@@ -37,6 +37,7 @@ tags:
   8.6.2: sha256:93bc71907ca0e6e3b4f181e0dc850b90bb6cb2686c2778def0b8542398983c28
   8.7.0: sha256:53e51bde90897d77fdbc53677331504bbbdcc788cb7aadcd8fe707a77733dbb5
   8.7.1: sha256:160814e5972521291420c29edf4c0348b8591ac9235156f0dbf34befcf362825
+  8.8.1: sha256:e31753d052509353f99be86892bf5c65a070805aadbb295d1b3128163061ea68
 aliases:
   elasticsearch: /usr/share/elasticsearch/bin/elasticsearch
   elasticsearch-certgen: /usr/share/elasticsearch/bin/elasticsearch-certgen

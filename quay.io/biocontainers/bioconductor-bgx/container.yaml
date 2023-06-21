@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-bgx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bgx
 latest:
-  1.64.0--r42hc247a5b_0: sha256:99bcdeae18fcc6ed0afc495a82ece4aa52806f52842619881a661ff6f5ad2d2b
+  1.64.0--r42hf17093f_1: sha256:fc3b7c9f3623dfff28e47e29160fa984a8af88d77f93518f6b727e35386bf86a
 tags:
   1.60.0--r41hc247a5b_2: sha256:2fdd5f2dbbb89182d18c611ab2fa9630d992ee6f9e4ee2ce194d1af3ceb6bb6a
   1.64.0--r42hc247a5b_0: sha256:99bcdeae18fcc6ed0afc495a82ece4aa52806f52842619881a661ff6f5ad2d2b
+  1.64.0--r42hf17093f_1: sha256:fc3b7c9f3623dfff28e47e29160fa984a8af88d77f93518f6b727e35386bf86a
 docker: quay.io/biocontainers/bioconductor-bgx
