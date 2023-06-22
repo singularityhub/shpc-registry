@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isanalytics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isanalytics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isanalytics/container.yaml"
-updated_at: "2023-06-22 03:08:16.941429"
+updated_at: "2023-06-22 04:14:28.615074"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isanalytics"
 

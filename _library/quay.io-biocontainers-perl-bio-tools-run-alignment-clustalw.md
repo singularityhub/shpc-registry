@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-tools-run-alignment-clustalw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-tools-run-alignment-clustalw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-tools-run-alignment-clustalw/container.yaml"
-updated_at: "2023-06-22 02:49:37.314245"
+updated_at: "2023-06-22 03:49:35.637878"
 latest: "1.7.4--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-bio-tools-run-alignment-clustalw"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgat-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-scripts/container.yaml"
-updated_at: "2023-06-22 02:48:11.522515"
+updated_at: "2023-06-22 03:47:41.407940"
 latest: "0.3.2--py36h355e19c_2"
 container_url: "https://biocontainers.pro/tools/cgat-scripts"
 
