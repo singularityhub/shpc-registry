@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tassel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tassel
 latest:
-  5.2.40--hdfd78af_3: sha256:38541c190fa277e42cae3cb827d1811d18c509710f10618a21c97a369a857364
+  5.2.89--hdfd78af_0: sha256:883bea20169dee37d72180337240307810dc393b51e6aee63a599cf536a72553
 tags:
   5.2.40--hdfd78af_3: sha256:38541c190fa277e42cae3cb827d1811d18c509710f10618a21c97a369a857364
+  5.2.89--hdfd78af_0: sha256:883bea20169dee37d72180337240307810dc393b51e6aee63a599cf536a72553
 docker: quay.io/biocontainers/tassel
 aliases:
   run_anything.pl: /usr/local/bin/run_anything.pl

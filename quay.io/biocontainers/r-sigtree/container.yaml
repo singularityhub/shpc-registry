@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/r-sigtree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sigtree
 latest:
-  1.10.6--r42h73dbb54_10: sha256:70fe1f758c62b58035f8cf62fe4a83b8aae521b303f62a432ca54653862f19de
+  1.10.6--r42h56115f1_11: sha256:f0ff82a6d49500a8643366e2c9dd822f2be273d9d5bdf728c61c77924adb9b7a
 tags:
   1.10.6--r41h73dbb54_9: sha256:15cba20b52d3e01055b8be8ea06509ba7b3313c0570fe365c0fc6c7ae93cc236
   1.10.6--r42h73dbb54_10: sha256:70fe1f758c62b58035f8cf62fe4a83b8aae521b303f62a432ca54653862f19de
+  1.10.6--r42h56115f1_11: sha256:f0ff82a6d49500a8643366e2c9dd822f2be273d9d5bdf728c61c77924adb9b7a
 docker: quay.io/biocontainers/r-sigtree
