@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ruvnormalize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ruvnormalize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ruvnormalize/container.yaml"
-updated_at: "2023-06-21 03:08:35.456256"
+updated_at: "2023-06-22 03:12:15.617205"
 latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ruvnormalize"
 

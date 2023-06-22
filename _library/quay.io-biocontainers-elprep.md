@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/elprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elprep/container.yaml"
-updated_at: "2023-06-21 03:03:45.509174"
+updated_at: "2023-06-22 03:07:32.694105"
 latest: "5.1.3--he881be0_0"
 container_url: "https://biocontainers.pro/tools/elprep"
 aliases:

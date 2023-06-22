@@ -4,8 +4,8 @@ name:  "julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/julia/container.yaml"
-updated_at: "2023-06-21 03:26:48.930222"
-latest: "1.9.0"
+updated_at: "2023-06-22 03:29:50.295898"
+latest: "1.9.1"
 container_url: "https://hub.docker.com/_/julia"
 aliases:
  - "julia"
@@ -13,8 +13,9 @@ versions:
  - "1.8.3"
  - "1.8.5"
  - "1.9.0"
+ - "1.9.1"
 description: "An interpreted, high-level, high-performance dynamic programming language for technical computing."
-config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.9.0": "sha256:ebfa59bb41104232861709109dd4bf1aa91053f6b61e28c0f605231221ab30c3"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:c9c13e38ea7ef6a893b97834e75f00fec4fc07b24072088e1360171cb192ebb0", "1.9.0": "sha256:ebfa59bb41104232861709109dd4bf1aa91053f6b61e28c0f605231221ab30c3"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
+config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.9.1": "sha256:485009838c54921a97b49df1d29ca505ef6f3f8bd767fab6a58452c47e533d5e"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:c9c13e38ea7ef6a893b97834e75f00fec4fc07b24072088e1360171cb192ebb0", "1.9.0": "sha256:a4eba1f0c1c2076eef737f5f441c80de87997faab982e816fd256e50326c6c8d", "1.9.1": "sha256:485009838c54921a97b49df1d29ca505ef6f3f8bd767fab6a58452c47e533d5e"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
 ---
 
 This module is a singularity container wrapper for julia.
@@ -29,7 +30,7 @@ $ shpc install julia
 Or a specific version:
 
 ```bash
-$ shpc install julia:1.9.0
+$ shpc install julia:1.9.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load julia/1.9.0
-$ module help julia/1.9.0
+$ module load julia/1.9.1
+$ module help julia/1.9.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-yaml-libyaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-yaml-libyaml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-yaml-libyaml/container.yaml"
-updated_at: "2023-06-21 03:09:45.578132"
+updated_at: "2023-06-22 03:13:24.359606"
 latest: "0.66--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-yaml-libyaml"
 aliases:

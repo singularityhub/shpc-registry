@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/connectome-workbench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/connectome-workbench/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/connectome-workbench/container.yaml"
-updated_at: "2023-06-21 03:00:50.361973"
+updated_at: "2023-06-22 03:04:42.948281"
 latest: "1.3.2--h1b11a2a_0"
 container_url: "https://biocontainers.pro/tools/connectome-workbench"
 

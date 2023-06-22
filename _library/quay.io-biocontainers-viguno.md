@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viguno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viguno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viguno/container.yaml"
-updated_at: "2023-06-21 03:12:06.273434"
+updated_at: "2023-06-22 03:15:40.657860"
 latest: "0.1.1--h7e29777_0"
 container_url: "https://biocontainers.pro/tools/viguno"
 aliases:

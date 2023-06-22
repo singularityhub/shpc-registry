@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-number-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-number-format/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-number-format/container.yaml"
-updated_at: "2023-06-21 03:16:03.660725"
-latest: "1.75--pl5321hdfd78af_4"
+updated_at: "2023-06-22 03:19:29.900480"
+latest: "1.76--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-number-format"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.75--pl5321hdfd78af_4"
+ - "1.76--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-number-format"
-config: {"url": "https://biocontainers.pro/tools/perl-number-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-number-format", "latest": {"1.75--pl5321hdfd78af_4": "sha256:f86dfc2b54f72d472125da5249c534bd708c84727ff463a7dedc1770179290a2"}, "tags": {"1.75--pl5321hdfd78af_4": "sha256:f86dfc2b54f72d472125da5249c534bd708c84727ff463a7dedc1770179290a2"}, "docker": "quay.io/biocontainers/perl-number-format", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-number-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-number-format", "latest": {"1.76--pl5321hdfd78af_0": "sha256:af26205eabc860c60a7abdbe3c7015b1642989229a30c9ef5100ac7246de1380"}, "tags": {"1.75--pl5321hdfd78af_4": "sha256:f86dfc2b54f72d472125da5249c534bd708c84727ff463a7dedc1770179290a2", "1.76--pl5321hdfd78af_0": "sha256:af26205eabc860c60a7abdbe3c7015b1642989229a30c9ef5100ac7246de1380"}, "docker": "quay.io/biocontainers/perl-number-format", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-number-format.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-number-format
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-number-format:1.75--pl5321hdfd78af_4
+$ shpc install quay.io/biocontainers/perl-number-format:1.76--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-number-format/1.75--pl5321hdfd78af_4
-$ module help quay.io/biocontainers/perl-number-format/1.75--pl5321hdfd78af_4
+$ module load quay.io/biocontainers/perl-number-format/1.76--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-number-format/1.76--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abritamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abritamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abritamr/container.yaml"
-updated_at: "2023-06-21 02:42:08.036080"
-latest: "1.0.14--pyhdfd78af_0"
+updated_at: "2023-06-22 02:46:32.263354"
+latest: "1.0.14--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/abritamr"
 aliases:
  - "abriTAMR"
@@ -32,8 +32,9 @@ versions:
  - "1.0.9--hdfd78af_0"
  - "1.0.13--pyhdfd78af_0"
  - "1.0.14--pyhdfd78af_0"
+ - "1.0.14--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for abritamr"
-config: {"url": "https://biocontainers.pro/tools/abritamr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abritamr", "latest": {"1.0.14--pyhdfd78af_0": "sha256:1dc33feef2958332eef7b5ac1909ec99f6ba6ef306f35e22966e3b73faa4fab8"}, "tags": {"1.0.9--hdfd78af_0": "sha256:548ef2995e2e0ab8f09f81cc1f31e1d59463fcbf47494382d181fdbdc2fb8faf", "1.0.13--pyhdfd78af_0": "sha256:b9b76b502c1a391e4ef39fdc24ebfb7d95b66a85be5258091138059402793f6f", "1.0.14--pyhdfd78af_0": "sha256:1dc33feef2958332eef7b5ac1909ec99f6ba6ef306f35e22966e3b73faa4fab8"}, "docker": "quay.io/biocontainers/abritamr", "aliases": {"abriTAMR": "/usr/local/bin/abriTAMR", "abritamr": "/usr/local/bin/abritamr", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "vba_extract.py": "/usr/local/bin/vba_extract.py", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml"}}
+config: {"url": "https://biocontainers.pro/tools/abritamr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abritamr", "latest": {"1.0.14--pyhdfd78af_1": "sha256:b21081eaf50c04d1e3cc99a9713ffd339d8030724e185983c14cb2f653a380d2"}, "tags": {"1.0.9--hdfd78af_0": "sha256:548ef2995e2e0ab8f09f81cc1f31e1d59463fcbf47494382d181fdbdc2fb8faf", "1.0.13--pyhdfd78af_0": "sha256:b9b76b502c1a391e4ef39fdc24ebfb7d95b66a85be5258091138059402793f6f", "1.0.14--pyhdfd78af_0": "sha256:1dc33feef2958332eef7b5ac1909ec99f6ba6ef306f35e22966e3b73faa4fab8", "1.0.14--pyhdfd78af_1": "sha256:b21081eaf50c04d1e3cc99a9713ffd339d8030724e185983c14cb2f653a380d2"}, "docker": "quay.io/biocontainers/abritamr", "aliases": {"abriTAMR": "/usr/local/bin/abriTAMR", "abritamr": "/usr/local/bin/abritamr", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "vba_extract.py": "/usr/local/bin/vba_extract.py", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abritamr.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/abritamr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abritamr:1.0.14--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/abritamr:1.0.14--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abritamr/1.0.14--pyhdfd78af_0
-$ module help quay.io/biocontainers/abritamr/1.0.14--pyhdfd78af_0
+$ module load quay.io/biocontainers/abritamr/1.0.14--pyhdfd78af_1
+$ module help quay.io/biocontainers/abritamr/1.0.14--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

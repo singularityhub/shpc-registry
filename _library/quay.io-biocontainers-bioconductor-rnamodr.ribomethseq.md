@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnamodr.ribomethseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/container.yaml"
-updated_at: "2023-06-21 03:12:12.428586"
+updated_at: "2023-06-22 03:15:46.643663"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnamodr.ribomethseq"
 

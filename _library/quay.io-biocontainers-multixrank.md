@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multixrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multixrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multixrank/container.yaml"
-updated_at: "2023-06-21 02:43:32.873439"
+updated_at: "2023-06-22 02:47:54.534066"
 latest: "0.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/multixrank"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.1--pyh7cba7a3_0"
  - "0.1--pyh7cba7a3_1"
 description: "singularity registry hpc automated addition for multixrank"
-config: {"url": "https://biocontainers.pro/tools/multixrank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multixrank", "latest": {"0.1--pyh7cba7a3_1": "sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:1db2fa3f350a243062e3149c97905e7f2d52c1413605492eda36535770774097", "0.1--pyh7cba7a3_1": "sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9"}, "docker": "quay.io/biocontainers/multixrank", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/multixrank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multixrank", "latest": {"0.1--pyh7cba7a3_1": "sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:b1a3be3d5e6b97799dc937883e9d4213f2fe76ca67b66cd3ac9f572e1502a2fb", "0.1--pyh7cba7a3_1": "sha256:75c9e65ec08f4ef48b281b1c74bb3189bb52b8e23141d69bf7c8a31c0dc088f9"}, "docker": "quay.io/biocontainers/multixrank", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multixrank.
