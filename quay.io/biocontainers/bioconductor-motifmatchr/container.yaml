@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-motifmatchr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-motifmatchr
 latest:
-  1.20.0--r42hc247a5b_0: sha256:980af276aff49030fcba05838c3b94deb634ba0e70cb293f24a8b281fea1cab9
+  1.20.0--r42hf17093f_1: sha256:e70675509a08a1c3890b02dcd9f6a6e5c36168bc98fbdef20e14e70f9c1f8975
 tags:
   1.8.0--r36he1b5a44_0: sha256:d64446aa52a081605d338ca675df928449a90f483e23382ec785b717f9237bf0
   1.20.0--r42hc247a5b_0: sha256:980af276aff49030fcba05838c3b94deb634ba0e70cb293f24a8b281fea1cab9
@@ -10,6 +10,7 @@ tags:
   1.14.0--r41h399db7b_0: sha256:b96a9b7bc61ec1223dd53e5da7ede2f8bb7e1b7586744a46a231f8bd0de22deb
   1.12.0--r40h399db7b_1: sha256:055a2d8260d6a965a7872d76381385bd5daff1bd37ae31f4e06e46494d3a8690
   1.10.0--r40h5f743cb_0: sha256:2ef7b5ed5433f494093af77288a68dfbc079688376a7521aa1e6d59e85031f7d
+  1.20.0--r42hf17093f_1: sha256:e70675509a08a1c3890b02dcd9f6a6e5c36168bc98fbdef20e14e70f9c1f8975
 docker: quay.io/biocontainers/bioconductor-motifmatchr
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

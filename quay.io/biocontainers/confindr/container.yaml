@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/confindr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for confindr
 latest:
-  0.8.1--pyhdfd78af_0: sha256:6485b0258a55055c90269070dccf1888d7631e91151888444e6305679e281e7c
+  0.8.1--pyhdfd78af_1: sha256:598fc0b3051abaad065704641f05956381f439ca97efd4f38b10c7148b125ec9
 tags:
   0.7.4--py_0: sha256:f282610616c8fd04bafcd365303b6c9dbdc010406fea44f3bcdd7c0010e55688
   0.8.1--pyhdfd78af_0: sha256:6485b0258a55055c90269070dccf1888d7631e91151888444e6305679e281e7c
+  0.8.1--pyhdfd78af_1: sha256:598fc0b3051abaad065704641f05956381f439ca97efd4f38b10c7148b125ec9
 docker: quay.io/biocontainers/confindr
 aliases:
   confindr: /usr/local/bin/confindr

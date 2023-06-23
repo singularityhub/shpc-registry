@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pymuonsuite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pymuonsuite
 latest:
-  0.2.3: sha256:a035882cde85e758780f522b7374e430e881ff6614111649df3b5da1dbe8f32e
+  0.3.0: sha256:876818eb7140a5ac373e641928614b08ce2cf3ba056c7a78fa56dbc36f9984ce
 tags:
   0.2.1: sha256:0ebe7c44475a5a8a6e3e261394ff50bf649dfd75e9a51f1031e504f9e6d06693
   0.2.3: sha256:a035882cde85e758780f522b7374e430e881ff6614111649df3b5da1dbe8f32e
+  0.3.0: sha256:876818eb7140a5ac373e641928614b08ce2cf3ba056c7a78fa56dbc36f9984ce
 docker: quay.io/biocontainers/pymuonsuite
 aliases:
   ase: /usr/local/bin/ase

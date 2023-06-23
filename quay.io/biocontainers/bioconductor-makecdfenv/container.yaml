@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-makecdfenv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-makecdfenv
 latest:
-  1.74.0--r42hc0cfd56_0: sha256:5447b1a11e69602cf03f4dda87355fcb167e019eb9896c4b1ba94282cfe18ee6
+  1.74.0--r42ha9d7317_1: sha256:547a18f00bfcea008e9364ccd741528e43a8d6cda7b873f307aa76176a3c7fe3
 tags:
   1.70.0--r41hc0cfd56_2: sha256:b857c62c45081ddc3d3707fa6efaf2c18239edcf0b135aab71e9b67e05843c9b
   1.74.0--r42hc0cfd56_0: sha256:5447b1a11e69602cf03f4dda87355fcb167e019eb9896c4b1ba94282cfe18ee6
+  1.74.0--r42ha9d7317_1: sha256:547a18f00bfcea008e9364ccd741528e43a8d6cda7b873f307aa76176a3c7fe3
 docker: quay.io/biocontainers/bioconductor-makecdfenv

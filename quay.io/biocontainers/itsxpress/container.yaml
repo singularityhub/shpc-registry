@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/itsxpress
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for itsxpress
 latest:
-  1.8.0--pyhdfd78af_2: sha256:688a48b2d785bc59556d33d3520450fcd6b206d95a5034c7fb245c37d6f6838c
+  1.8.1--pyhdfd78af_0: sha256:e2cb4e0a347500d8b80dbc4121f7be040b299f12df3d91ff18d245187262d582
 tags:
   1.8.0--pyhdfd78af_2: sha256:688a48b2d785bc59556d33d3520450fcd6b206d95a5034c7fb245c37d6f6838c
+  1.8.1--pyhdfd78af_0: sha256:e2cb4e0a347500d8b80dbc4121f7be040b299f12df3d91ff18d245187262d582
 docker: quay.io/biocontainers/itsxpress
 aliases:
   aclocal.bak: /usr/local/bin/aclocal.bak
