@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gridss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gridss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gridss/container.yaml"
-updated_at: "2023-06-22 04:30:38.455046"
-latest: "2.13.2--h20b1175_1"
+updated_at: "2023-06-23 03:04:06.374951"
+latest: "2.13.2--h50ea8bc_2"
 container_url: "https://biocontainers.pro/tools/gridss"
 aliases:
  - "AllocateEvidence"
@@ -52,8 +52,9 @@ versions:
  - "2.12.2--h270b39a_0"
  - "2.11.1--hdfd78af_1"
  - "2.10.2--0"
+ - "2.13.2--h50ea8bc_2"
 description: "shpc-registry automated BioContainers addition for gridss"
-config: {"url": "https://biocontainers.pro/tools/gridss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gridss", "latest": {"2.13.2--h20b1175_1": "sha256:886fe9d43ff1068edefe4a07ae8a04c061e2f8e8bcfb7708df9126ac24250562"}, "tags": {"2.9.4--0": "sha256:2261cbcf0559d820ce5b726b6ba439647fd768055d1c85fd4910dbdf23984dfd", "2.13.2--h20b1175_1": "sha256:886fe9d43ff1068edefe4a07ae8a04c061e2f8e8bcfb7708df9126ac24250562", "2.12.2--h270b39a_0": "sha256:8dacc8288ad30a811a7159d69d99e04e688f6035cba841008c3e0b6f80aedd1a", "2.11.1--hdfd78af_1": "sha256:4fab80066fd2c37f36fadb8e36551e15e85342064c36788b659577f8723f9902", "2.10.2--0": "sha256:a5969e410aaa0e33b3da6f4af22230a55fd8f507701598717b8fb30acb788f51"}, "docker": "quay.io/biocontainers/gridss", "aliases": {"AllocateEvidence": "/usr/local/bin/AllocateEvidence", "AnnotateInexactHomology": "/usr/local/bin/AnnotateInexactHomology", "AnnotateInexactHomologyBedpe": "/usr/local/bin/AnnotateInexactHomologyBedpe", "AnnotateReferenceCoverage": "/usr/local/bin/AnnotateReferenceCoverage", "AnnotateUntemplatedSequence": "/usr/local/bin/AnnotateUntemplatedSequence", "AnnotateVariants": "/usr/local/bin/AnnotateVariants", "AssembleBreakends": "/usr/local/bin/AssembleBreakends", "CallVariants": "/usr/local/bin/CallVariants", "CollectCigarMetrics": "/usr/local/bin/CollectCigarMetrics", "CollectFragmentGCMetrics": "/usr/local/bin/CollectFragmentGCMetrics", "CollectGridssMetrics": "/usr/local/bin/CollectGridssMetrics", "CollectGridssMetricsAndExtractFullReads": "/usr/local/bin/CollectGridssMetricsAndExtractFullReads", "CollectGridssMetricsAndExtractSVReads": "/usr/local/bin/CollectGridssMetricsAndExtractSVReads", "CollectIdsvMetrics": "/usr/local/bin/CollectIdsvMetrics", "CollectMapqMetrics": "/usr/local/bin/CollectMapqMetrics", "CollectStructuralVariantReadMetrics": "/usr/local/bin/CollectStructuralVariantReadMetrics", "CollectTagMetrics": "/usr/local/bin/CollectTagMetrics", "ComputeSamTags": "/usr/local/bin/ComputeSamTags", "ExtractFullReads": "/usr/local/bin/ExtractFullReads", "ExtractSVReads": "/usr/local/bin/ExtractSVReads", "GeneratePonBedpe": "/usr/local/bin/GeneratePonBedpe", "IdentifyVariants": "/usr/local/bin/IdentifyVariants", "IndexedExtractFullReads": "/usr/local/bin/IndexedExtractFullReads", "ReportThresholdCoverage": "/usr/local/bin/ReportThresholdCoverage", "SoftClipsToSplitReads": "/usr/local/bin/SoftClipsToSplitReads", "gridss": "/usr/local/bin/gridss", "gridss_annotate_insertions_repeatmaster": "/usr/local/bin/gridss_annotate_insertions_repeatmaster", "gridss_somatic_filter": "/usr/local/bin/gridss_somatic_filter", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "pandoc": "/usr/local/bin/pandoc", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/gridss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gridss", "latest": {"2.13.2--h50ea8bc_2": "sha256:0c2bac7239c7b63052f190fc80cba00f927971a6b37026480f4cfcbcce8636a3"}, "tags": {"2.9.4--0": "sha256:2261cbcf0559d820ce5b726b6ba439647fd768055d1c85fd4910dbdf23984dfd", "2.13.2--h20b1175_1": "sha256:886fe9d43ff1068edefe4a07ae8a04c061e2f8e8bcfb7708df9126ac24250562", "2.12.2--h270b39a_0": "sha256:8dacc8288ad30a811a7159d69d99e04e688f6035cba841008c3e0b6f80aedd1a", "2.11.1--hdfd78af_1": "sha256:4fab80066fd2c37f36fadb8e36551e15e85342064c36788b659577f8723f9902", "2.10.2--0": "sha256:a5969e410aaa0e33b3da6f4af22230a55fd8f507701598717b8fb30acb788f51", "2.13.2--h50ea8bc_2": "sha256:0c2bac7239c7b63052f190fc80cba00f927971a6b37026480f4cfcbcce8636a3"}, "docker": "quay.io/biocontainers/gridss", "aliases": {"AllocateEvidence": "/usr/local/bin/AllocateEvidence", "AnnotateInexactHomology": "/usr/local/bin/AnnotateInexactHomology", "AnnotateInexactHomologyBedpe": "/usr/local/bin/AnnotateInexactHomologyBedpe", "AnnotateReferenceCoverage": "/usr/local/bin/AnnotateReferenceCoverage", "AnnotateUntemplatedSequence": "/usr/local/bin/AnnotateUntemplatedSequence", "AnnotateVariants": "/usr/local/bin/AnnotateVariants", "AssembleBreakends": "/usr/local/bin/AssembleBreakends", "CallVariants": "/usr/local/bin/CallVariants", "CollectCigarMetrics": "/usr/local/bin/CollectCigarMetrics", "CollectFragmentGCMetrics": "/usr/local/bin/CollectFragmentGCMetrics", "CollectGridssMetrics": "/usr/local/bin/CollectGridssMetrics", "CollectGridssMetricsAndExtractFullReads": "/usr/local/bin/CollectGridssMetricsAndExtractFullReads", "CollectGridssMetricsAndExtractSVReads": "/usr/local/bin/CollectGridssMetricsAndExtractSVReads", "CollectIdsvMetrics": "/usr/local/bin/CollectIdsvMetrics", "CollectMapqMetrics": "/usr/local/bin/CollectMapqMetrics", "CollectStructuralVariantReadMetrics": "/usr/local/bin/CollectStructuralVariantReadMetrics", "CollectTagMetrics": "/usr/local/bin/CollectTagMetrics", "ComputeSamTags": "/usr/local/bin/ComputeSamTags", "ExtractFullReads": "/usr/local/bin/ExtractFullReads", "ExtractSVReads": "/usr/local/bin/ExtractSVReads", "GeneratePonBedpe": "/usr/local/bin/GeneratePonBedpe", "IdentifyVariants": "/usr/local/bin/IdentifyVariants", "IndexedExtractFullReads": "/usr/local/bin/IndexedExtractFullReads", "ReportThresholdCoverage": "/usr/local/bin/ReportThresholdCoverage", "SoftClipsToSplitReads": "/usr/local/bin/SoftClipsToSplitReads", "gridss": "/usr/local/bin/gridss", "gridss_annotate_insertions_repeatmaster": "/usr/local/bin/gridss_annotate_insertions_repeatmaster", "gridss_somatic_filter": "/usr/local/bin/gridss_somatic_filter", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "pandoc": "/usr/local/bin/pandoc", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gridss.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/gridss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gridss:2.13.2--h20b1175_1
+$ shpc install quay.io/biocontainers/gridss:2.13.2--h50ea8bc_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gridss/2.13.2--h20b1175_1
-$ module help quay.io/biocontainers/gridss/2.13.2--h20b1175_1
+$ module load quay.io/biocontainers/gridss/2.13.2--h50ea8bc_2
+$ module help quay.io/biocontainers/gridss/2.13.2--h50ea8bc_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

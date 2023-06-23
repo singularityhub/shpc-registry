@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/syri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/syri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/syri/container.yaml"
-updated_at: "2023-06-22 03:53:07.548823"
+updated_at: "2023-06-23 03:16:16.297280"
 latest: "1.6.3--py39he10ea66_1"
 container_url: "https://biocontainers.pro/tools/syri"
 aliases:

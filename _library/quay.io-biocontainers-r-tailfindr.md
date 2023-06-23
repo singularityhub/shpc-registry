@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-tailfindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tailfindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tailfindr/container.yaml"
-updated_at: "2023-06-22 04:09:13.162818"
-latest: "1.4--r42h9f5acd7_0"
+updated_at: "2023-06-23 03:27:57.402785"
+latest: "1.4--r42h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/r-tailfindr"
 aliases:
  - "mirror_server"
@@ -22,8 +22,9 @@ versions:
  - "1.3--r41h9f5acd7_1"
  - "1.3--r42h9f5acd7_2"
  - "1.4--r42h9f5acd7_0"
+ - "1.4--r42h4ac6f70_1"
 description: "shpc-registry automated BioContainers addition for r-tailfindr"
-config: {"url": "https://biocontainers.pro/tools/r-tailfindr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tailfindr", "latest": {"1.4--r42h9f5acd7_0": "sha256:cca205413108e425f0f768e7a0fec310b8f103f85172d5a1310c64b2980a7c04"}, "tags": {"1.3--r41h9f5acd7_1": "sha256:ba477450466abbcf5f0f23da24f86d2dabb956973c73ea53ec1f464c5fbdc25f", "1.3--r42h9f5acd7_2": "sha256:a3b3be22466b5a950347c9510656bfdb1f72f5d375259d80c0b49c6784d24082", "1.4--r42h9f5acd7_0": "sha256:cca205413108e425f0f768e7a0fec310b8f103f85172d5a1310c64b2980a7c04"}, "docker": "quay.io/biocontainers/r-tailfindr", "aliases": {"mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "pandoc": "/usr/local/bin/pandoc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++"}}
+config: {"url": "https://biocontainers.pro/tools/r-tailfindr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tailfindr", "latest": {"1.4--r42h4ac6f70_1": "sha256:1904f83036f31b2b09f17f227f31bd54d31945b1410fceca5af9f19166f5197b"}, "tags": {"1.3--r41h9f5acd7_1": "sha256:ba477450466abbcf5f0f23da24f86d2dabb956973c73ea53ec1f464c5fbdc25f", "1.3--r42h9f5acd7_2": "sha256:a3b3be22466b5a950347c9510656bfdb1f72f5d375259d80c0b49c6784d24082", "1.4--r42h9f5acd7_0": "sha256:cca205413108e425f0f768e7a0fec310b8f103f85172d5a1310c64b2980a7c04", "1.4--r42h4ac6f70_1": "sha256:1904f83036f31b2b09f17f227f31bd54d31945b1410fceca5af9f19166f5197b"}, "docker": "quay.io/biocontainers/r-tailfindr", "aliases": {"mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "pandoc": "/usr/local/bin/pandoc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tailfindr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-tailfindr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tailfindr:1.4--r42h9f5acd7_0
+$ shpc install quay.io/biocontainers/r-tailfindr:1.4--r42h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tailfindr/1.4--r42h9f5acd7_0
-$ module help quay.io/biocontainers/r-tailfindr/1.4--r42h9f5acd7_0
+$ module load quay.io/biocontainers/r-tailfindr/1.4--r42h4ac6f70_1
+$ module help quay.io/biocontainers/r-tailfindr/1.4--r42h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

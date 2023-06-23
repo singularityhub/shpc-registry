@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/episcanpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/episcanpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/episcanpy/container.yaml"
-updated_at: "2023-06-22 04:31:52.659606"
-latest: "0.3.2--pyh5e36f6f_0"
+updated_at: "2023-06-23 03:05:57.916343"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/episcanpy"
 aliases:
  - "dunamai"
@@ -36,8 +36,9 @@ aliases:
  - "rst2html.py"
 versions:
  - "0.3.2--pyh5e36f6f_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for episcanpy"
-config: {"url": "https://biocontainers.pro/tools/episcanpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for episcanpy", "latest": {"0.3.2--pyh5e36f6f_0": "sha256:e870ea2c3ae1cd8faf9bc44b00c2fe13ac8652107b3f5ddef76cb74a8cbb02b1"}, "tags": {"0.3.2--pyh5e36f6f_0": "sha256:e870ea2c3ae1cd8faf9bc44b00c2fe13ac8652107b3f5ddef76cb74a8cbb02b1"}, "docker": "quay.io/biocontainers/episcanpy", "aliases": {"dunamai": "/usr/local/bin/dunamai", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "scanpy": "/usr/local/bin/scanpy", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py"}}
+config: {"url": "https://biocontainers.pro/tools/episcanpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for episcanpy", "latest": {"0.4.0--pyhdfd78af_0": "sha256:c19b356344af283fbc20ed5dfe7f84836f86fe7ff49db530331fab8bbd195cd1"}, "tags": {"0.3.2--pyh5e36f6f_0": "sha256:e870ea2c3ae1cd8faf9bc44b00c2fe13ac8652107b3f5ddef76cb74a8cbb02b1", "0.4.0--pyhdfd78af_0": "sha256:c19b356344af283fbc20ed5dfe7f84836f86fe7ff49db530331fab8bbd195cd1"}, "docker": "quay.io/biocontainers/episcanpy", "aliases": {"dunamai": "/usr/local/bin/dunamai", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "scanpy": "/usr/local/bin/scanpy", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/episcanpy.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/episcanpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/episcanpy:0.3.2--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/episcanpy:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/episcanpy/0.3.2--pyh5e36f6f_0
-$ module help quay.io/biocontainers/episcanpy/0.3.2--pyh5e36f6f_0
+$ module load quay.io/biocontainers/episcanpy/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/episcanpy/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/codonw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codonw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codonw/container.yaml"
-updated_at: "2023-06-22 04:05:39.913886"
-latest: "1.4.4--hec16e2b_5"
+updated_at: "2023-06-23 03:15:19.834029"
+latest: "1.4.4--h031d066_6"
 container_url: "https://biocontainers.pro/tools/codonw"
 aliases:
  - "aau"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.4.4--hec16e2b_4"
  - "1.4.4--hec16e2b_5"
+ - "1.4.4--h031d066_6"
 description: "shpc-registry automated BioContainers addition for codonw"
-config: {"url": "https://biocontainers.pro/tools/codonw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codonw", "latest": {"1.4.4--hec16e2b_5": "sha256:f0ef14381e1a14cdb435b06ed55710c6e8bb74978ff3abe96c7e570837fd0f2a"}, "tags": {"1.4.4--hec16e2b_4": "sha256:f25ea50420d73c881793d59af13e74e38f8f908f5d0031bb9a66010d26e41c74", "1.4.4--hec16e2b_5": "sha256:f0ef14381e1a14cdb435b06ed55710c6e8bb74978ff3abe96c7e570837fd0f2a"}, "docker": "quay.io/biocontainers/codonw", "aliases": {"aau": "/usr/local/bin/aau", "base3s": "/usr/local/bin/base3s", "bases": "/usr/local/bin/bases", "cbi": "/usr/local/bin/cbi", "codonw": "/usr/local/bin/codonw", "cu": "/usr/local/bin/cu", "cutab": "/usr/local/bin/cutab", "cutot": "/usr/local/bin/cutot", "dinuc": "/usr/local/bin/dinuc", "enc": "/usr/local/bin/enc", "fop": "/usr/local/bin/fop", "gc3s": "/usr/local/bin/gc3s", "raau": "/usr/local/bin/raau", "reader": "/usr/local/bin/reader", "rscu": "/usr/local/bin/rscu", "tidy": "/usr/local/bin/tidy", "transl": "/usr/local/bin/transl", "cai": "/usr/local/bin/cai", "gc": "/usr/local/bin/gc"}}
+config: {"url": "https://biocontainers.pro/tools/codonw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codonw", "latest": {"1.4.4--h031d066_6": "sha256:9dfee3836181b1eb2b033c4734c7cb4e2362f0a9b7b7d843a2a0b8c6676db9f5"}, "tags": {"1.4.4--hec16e2b_4": "sha256:f25ea50420d73c881793d59af13e74e38f8f908f5d0031bb9a66010d26e41c74", "1.4.4--hec16e2b_5": "sha256:f0ef14381e1a14cdb435b06ed55710c6e8bb74978ff3abe96c7e570837fd0f2a", "1.4.4--h031d066_6": "sha256:9dfee3836181b1eb2b033c4734c7cb4e2362f0a9b7b7d843a2a0b8c6676db9f5"}, "docker": "quay.io/biocontainers/codonw", "aliases": {"aau": "/usr/local/bin/aau", "base3s": "/usr/local/bin/base3s", "bases": "/usr/local/bin/bases", "cbi": "/usr/local/bin/cbi", "codonw": "/usr/local/bin/codonw", "cu": "/usr/local/bin/cu", "cutab": "/usr/local/bin/cutab", "cutot": "/usr/local/bin/cutot", "dinuc": "/usr/local/bin/dinuc", "enc": "/usr/local/bin/enc", "fop": "/usr/local/bin/fop", "gc3s": "/usr/local/bin/gc3s", "raau": "/usr/local/bin/raau", "reader": "/usr/local/bin/reader", "rscu": "/usr/local/bin/rscu", "tidy": "/usr/local/bin/tidy", "transl": "/usr/local/bin/transl", "cai": "/usr/local/bin/cai", "gc": "/usr/local/bin/gc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/codonw.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/codonw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/codonw:1.4.4--hec16e2b_5
+$ shpc install quay.io/biocontainers/codonw:1.4.4--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/codonw/1.4.4--hec16e2b_5
-$ module help quay.io/biocontainers/codonw/1.4.4--hec16e2b_5
+$ module load quay.io/biocontainers/codonw/1.4.4--h031d066_6
+$ module help quay.io/biocontainers/codonw/1.4.4--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

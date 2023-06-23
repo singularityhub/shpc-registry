@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nethet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nethet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nethet/container.yaml"
-updated_at: "2023-06-22 03:39:56.663035"
+updated_at: "2023-06-23 03:38:19.191210"
 latest: "1.30.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-nethet"
 aliases:

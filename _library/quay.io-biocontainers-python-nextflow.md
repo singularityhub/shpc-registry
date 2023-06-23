@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-nextflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-nextflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-nextflow/container.yaml"
-updated_at: "2023-06-22 04:14:43.401514"
-latest: "0.5--pyhdfd78af_0"
+updated_at: "2023-06-23 03:26:37.042884"
+latest: "0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/python-nextflow"
 aliases:
  - "nextflow"
@@ -37,8 +37,9 @@ aliases:
  - "echo"
 versions:
  - "0.5--pyhdfd78af_0"
+ - "0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for python-nextflow"
-config: {"url": "https://biocontainers.pro/tools/python-nextflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for python-nextflow", "latest": {"0.5--pyhdfd78af_0": "sha256:e13929fa1e5376f390d370ac09da7e59a5c8b48bc9ee65858353e9c61ca19b91"}, "tags": {"0.5--pyhdfd78af_0": "sha256:e13929fa1e5376f390d370ac09da7e59a5c8b48bc9ee65858353e9c61ca19b91"}, "docker": "quay.io/biocontainers/python-nextflow", "aliases": {"nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du", "echo": "/usr/local/bin/echo"}}
+config: {"url": "https://biocontainers.pro/tools/python-nextflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for python-nextflow", "latest": {"0.6--pyhdfd78af_0": "sha256:74b1169e4b53b9e3c0ff167117d9593328c6701073430b8f2e5cc8173cc44fb5"}, "tags": {"0.5--pyhdfd78af_0": "sha256:e13929fa1e5376f390d370ac09da7e59a5c8b48bc9ee65858353e9c61ca19b91", "0.6--pyhdfd78af_0": "sha256:74b1169e4b53b9e3c0ff167117d9593328c6701073430b8f2e5cc8173cc44fb5"}, "docker": "quay.io/biocontainers/python-nextflow", "aliases": {"nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "jpackage": "/usr/local/bin/jpackage", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du", "echo": "/usr/local/bin/echo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-nextflow.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/python-nextflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-nextflow:0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/python-nextflow:0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-nextflow/0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/python-nextflow/0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/python-nextflow/0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/python-nextflow/0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tassel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tassel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tassel/container.yaml"
-updated_at: "2023-06-22 04:32:58.956814"
-latest: "5.2.40--hdfd78af_3"
+updated_at: "2023-06-23 03:07:12.753438"
+latest: "5.2.89--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tassel"
 aliases:
  - "run_anything.pl"
@@ -23,8 +23,9 @@ aliases:
  - "jshell"
 versions:
  - "5.2.40--hdfd78af_3"
+ - "5.2.89--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tassel"
-config: {"url": "https://biocontainers.pro/tools/tassel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tassel", "latest": {"5.2.40--hdfd78af_3": "sha256:38541c190fa277e42cae3cb827d1811d18c509710f10618a21c97a369a857364"}, "tags": {"5.2.40--hdfd78af_3": "sha256:38541c190fa277e42cae3cb827d1811d18c509710f10618a21c97a369a857364"}, "docker": "quay.io/biocontainers/tassel", "aliases": {"run_anything.pl": "/usr/local/bin/run_anything.pl", "run_pipeline.pl": "/usr/local/bin/run_pipeline.pl", "start_tassel.pl": "/usr/local/bin/start_tassel.pl", "perl5.32.0": "/usr/local/bin/perl5.32.0", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
+config: {"url": "https://biocontainers.pro/tools/tassel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tassel", "latest": {"5.2.89--hdfd78af_0": "sha256:883bea20169dee37d72180337240307810dc393b51e6aee63a599cf536a72553"}, "tags": {"5.2.40--hdfd78af_3": "sha256:38541c190fa277e42cae3cb827d1811d18c509710f10618a21c97a369a857364", "5.2.89--hdfd78af_0": "sha256:883bea20169dee37d72180337240307810dc393b51e6aee63a599cf536a72553"}, "docker": "quay.io/biocontainers/tassel", "aliases": {"run_anything.pl": "/usr/local/bin/run_anything.pl", "run_pipeline.pl": "/usr/local/bin/run_pipeline.pl", "start_tassel.pl": "/usr/local/bin/start_tassel.pl", "perl5.32.0": "/usr/local/bin/perl5.32.0", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tassel.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/tassel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tassel:5.2.40--hdfd78af_3
+$ shpc install quay.io/biocontainers/tassel:5.2.89--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tassel/5.2.40--hdfd78af_3
-$ module help quay.io/biocontainers/tassel/5.2.40--hdfd78af_3
+$ module load quay.io/biocontainers/tassel/5.2.89--hdfd78af_0
+$ module help quay.io/biocontainers/tassel/5.2.89--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
