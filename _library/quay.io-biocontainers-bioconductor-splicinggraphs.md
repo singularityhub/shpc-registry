@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-splicinggraphs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splicinggraphs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splicinggraphs/container.yaml"
-updated_at: "2023-06-23 03:17:21.715754"
+updated_at: "2023-06-24 03:15:59.696796"
 latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splicinggraphs"
 

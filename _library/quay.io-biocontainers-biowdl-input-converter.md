@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biowdl-input-converter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biowdl-input-converter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biowdl-input-converter/container.yaml"
-updated_at: "2023-06-23 03:02:03.633092"
+updated_at: "2023-06-24 03:00:39.172323"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biowdl-input-converter"
 aliases:

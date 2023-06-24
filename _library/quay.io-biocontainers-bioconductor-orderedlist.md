@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-orderedlist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orderedlist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orderedlist/container.yaml"
-updated_at: "2023-06-23 03:44:12.685908"
+updated_at: "2023-06-24 03:43:13.859206"
 latest: "1.70.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orderedlist"
 

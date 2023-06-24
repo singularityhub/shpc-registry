@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/itsxpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itsxpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itsxpress/container.yaml"
-updated_at: "2023-06-23 03:04:15.030691"
-latest: "1.8.0--pyhdfd78af_2"
+updated_at: "2023-06-24 03:02:51.149237"
+latest: "1.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itsxpress"
 aliases:
  - "aclocal.bak"
@@ -29,8 +29,9 @@ aliases:
  - "sketchblacklist2.sh"
 versions:
  - "1.8.0--pyhdfd78af_2"
+ - "1.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for itsxpress"
-config: {"url": "https://biocontainers.pro/tools/itsxpress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itsxpress", "latest": {"1.8.0--pyhdfd78af_2": "sha256:688a48b2d785bc59556d33d3520450fcd6b206d95a5034c7fb245c37d6f6838c"}, "tags": {"1.8.0--pyhdfd78af_2": "sha256:688a48b2d785bc59556d33d3520450fcd6b206d95a5034c7fb245c37d6f6838c"}, "docker": "quay.io/biocontainers/itsxpress", "aliases": {"aclocal.bak": "/usr/local/bin/aclocal.bak", "autoheader.bak": "/usr/local/bin/autoheader.bak", "autom4te.bak": "/usr/local/bin/autom4te.bak", "automake.bak": "/usr/local/bin/automake.bak", "autoreconf.bak": "/usr/local/bin/autoreconf.bak", "autoscan.bak": "/usr/local/bin/autoscan.bak", "autoupdate.bak": "/usr/local/bin/autoupdate.bak", "ifnames.bak": "/usr/local/bin/ifnames.bak", "itsxpress": "/usr/local/bin/itsxpress", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh"}}
+config: {"url": "https://biocontainers.pro/tools/itsxpress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itsxpress", "latest": {"1.8.1--pyhdfd78af_0": "sha256:e2cb4e0a347500d8b80dbc4121f7be040b299f12df3d91ff18d245187262d582"}, "tags": {"1.8.0--pyhdfd78af_2": "sha256:688a48b2d785bc59556d33d3520450fcd6b206d95a5034c7fb245c37d6f6838c", "1.8.1--pyhdfd78af_0": "sha256:e2cb4e0a347500d8b80dbc4121f7be040b299f12df3d91ff18d245187262d582"}, "docker": "quay.io/biocontainers/itsxpress", "aliases": {"aclocal.bak": "/usr/local/bin/aclocal.bak", "autoheader.bak": "/usr/local/bin/autoheader.bak", "autom4te.bak": "/usr/local/bin/autom4te.bak", "automake.bak": "/usr/local/bin/automake.bak", "autoreconf.bak": "/usr/local/bin/autoreconf.bak", "autoscan.bak": "/usr/local/bin/autoscan.bak", "autoupdate.bak": "/usr/local/bin/autoupdate.bak", "ifnames.bak": "/usr/local/bin/ifnames.bak", "itsxpress": "/usr/local/bin/itsxpress", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itsxpress.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/itsxpress
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/itsxpress:1.8.0--pyhdfd78af_2
+$ shpc install quay.io/biocontainers/itsxpress:1.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/itsxpress/1.8.0--pyhdfd78af_2
-$ module help quay.io/biocontainers/itsxpress/1.8.0--pyhdfd78af_2
+$ module load quay.io/biocontainers/itsxpress/1.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/itsxpress/1.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

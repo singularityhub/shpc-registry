@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-matchbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matchbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matchbox/container.yaml"
-updated_at: "2023-06-23 03:12:45.381933"
+updated_at: "2023-06-24 03:11:22.790905"
 latest: "1.40.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matchbox"
 

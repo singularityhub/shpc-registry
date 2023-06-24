@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rama/container.yaml"
-updated_at: "2023-06-23 03:19:30.345914"
+updated_at: "2023-06-24 03:18:09.004854"
 latest: "1.72.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rama"
 
