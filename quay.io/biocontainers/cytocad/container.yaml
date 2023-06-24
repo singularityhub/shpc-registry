@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cytocad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cytocad
 latest:
-  1.0.3--py36h91eb985_1: sha256:0ae1ca6f9d2f7f6a684b8e209db217de93e9632b8f11ec340c929971fc3e9715
+  1.0.3--py38he5da3d1_2: sha256:44611d0035be75024c525140c6087018644aa0dfedd2096606b764dab0b2dddf
 tags:
   1.0.3--py36h91eb985_1: sha256:0ae1ca6f9d2f7f6a684b8e209db217de93e9632b8f11ec340c929971fc3e9715
+  1.0.3--py38he5da3d1_2: sha256:44611d0035be75024c525140c6087018644aa0dfedd2096606b764dab0b2dddf
 docker: quay.io/biocontainers/cytocad
 aliases:
   cytocad: /usr/local/bin/cytocad

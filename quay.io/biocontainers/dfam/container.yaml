@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dfam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dfam
 latest:
-  3.3--hdfd78af_0: sha256:8d5b520f69780225da248defded72ea2199c8e244ce04669eb953faa0a45c9e2
+  3.7--hdfd78af_0: sha256:5d45246d62d3f98adb8b305193ea5548178e4241d59a8067aa890a11a456cdd8
 tags:
   3.3--hdfd78af_0: sha256:8d5b520f69780225da248defded72ea2199c8e244ce04669eb953faa0a45c9e2
+  3.7--hdfd78af_0: sha256:5d45246d62d3f98adb8b305193ea5548178e4241d59a8067aa890a11a456cdd8
 docker: quay.io/biocontainers/dfam
 aliases:
   DateRepeats: /usr/local/bin/DateRepeats

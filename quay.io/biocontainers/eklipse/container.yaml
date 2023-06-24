@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/eklipse
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eklipse
 latest:
-  1.8--hdfd78af_0: sha256:d683befc55c7478967470295216c85ccd03d7eaa47dd672f7d628fced34f7d76
+  1.8--hdfd78af_1: sha256:99c5dfb2d0dd0e0766be334304480a1ee08e5e97c096ca44876a17600c20cebc
 tags:
   1.8--hdfd78af_0: sha256:d683befc55c7478967470295216c85ccd03d7eaa47dd672f7d628fced34f7d76
+  1.8--hdfd78af_1: sha256:99c5dfb2d0dd0e0766be334304480a1ee08e5e97c096ca44876a17600c20cebc
 docker: quay.io/biocontainers/eklipse
 aliases:
   J01415.2.gb: /usr/local/bin/J01415.2.gb

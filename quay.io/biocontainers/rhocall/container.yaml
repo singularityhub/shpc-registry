@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rhocall
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rhocall
 latest:
-  0.5.1--py39hbf8eff0_1: sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665
+  0.5.1--py38he5da3d1_2: sha256:49ed6c73dc108c696e3a9596c7ec0cc711cb5287ab933302cc9f9e24fdd44df8
 tags:
   0.5.1--py39hbf8eff0_1: sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665
+  0.5.1--py38he5da3d1_2: sha256:49ed6c73dc108c696e3a9596c7ec0cc711cb5287ab933302cc9f9e24fdd44df8
 docker: quay.io/biocontainers/rhocall
 aliases:
   rhocall: /usr/local/bin/rhocall
