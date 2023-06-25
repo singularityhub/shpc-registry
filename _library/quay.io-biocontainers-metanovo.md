@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metanovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metanovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metanovo/container.yaml"
-updated_at: "2023-06-24 03:41:40.259767"
+updated_at: "2023-06-25 03:54:56.993371"
 latest: "1.9.4--py39h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/metanovo"
 aliases:

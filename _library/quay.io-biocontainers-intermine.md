@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intermine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intermine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intermine/container.yaml"
-updated_at: "2023-06-24 03:09:55.859686"
+updated_at: "2023-06-25 03:23:06.020299"
 latest: "1.13.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/intermine"
 aliases:

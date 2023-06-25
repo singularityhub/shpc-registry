@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/annotsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annotsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annotsv/container.yaml"
-updated_at: "2023-06-24 03:11:10.669191"
-latest: "3.3.5--py311hdfd78af_0"
+updated_at: "2023-06-25 03:24:20.606584"
+latest: "3.3.6--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/annotsv"
 aliases:
  - "AnnotSV"
@@ -38,8 +38,9 @@ aliases:
  - "cp"
 versions:
  - "3.3.5--py311hdfd78af_0"
+ - "3.3.6--py311hdfd78af_0"
 description: "singularity registry hpc automated addition for annotsv"
-config: {"url": "https://biocontainers.pro/tools/annotsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annotsv", "latest": {"3.3.5--py311hdfd78af_0": "sha256:d34b5d969b943711658982e75d8da2ed27ffab6f9fdf39a0320c705392164242"}, "tags": {"3.3.5--py311hdfd78af_0": "sha256:d34b5d969b943711658982e75d8da2ed27ffab6f9fdf39a0320c705392164242"}, "docker": "quay.io/biocontainers/annotsv", "aliases": {"AnnotSV": "/usr/local/bin/AnnotSV", "INSTALL_annotations.sh": "/usr/local/bin/INSTALL_annotations.sh", "variantconvert": "/usr/local/bin/variantconvert", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "f2py3.11": "/usr/local/bin/f2py3.11", "gff2gff.py": "/usr/local/bin/gff2gff.py", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "basenc": "/usr/local/bin/basenc", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp"}}
+config: {"url": "https://biocontainers.pro/tools/annotsv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annotsv", "latest": {"3.3.6--py311hdfd78af_0": "sha256:da68ccb7db82c7e371f4d56bbd58eb7723325ed89b79b40d605f2dcfe8e2c6e5"}, "tags": {"3.3.5--py311hdfd78af_0": "sha256:d34b5d969b943711658982e75d8da2ed27ffab6f9fdf39a0320c705392164242", "3.3.6--py311hdfd78af_0": "sha256:da68ccb7db82c7e371f4d56bbd58eb7723325ed89b79b40d605f2dcfe8e2c6e5"}, "docker": "quay.io/biocontainers/annotsv", "aliases": {"AnnotSV": "/usr/local/bin/AnnotSV", "INSTALL_annotations.sh": "/usr/local/bin/INSTALL_annotations.sh", "variantconvert": "/usr/local/bin/variantconvert", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "f2py3.11": "/usr/local/bin/f2py3.11", "gff2gff.py": "/usr/local/bin/gff2gff.py", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "basenc": "/usr/local/bin/basenc", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/annotsv.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/annotsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/annotsv:3.3.5--py311hdfd78af_0
+$ shpc install quay.io/biocontainers/annotsv:3.3.6--py311hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/annotsv/3.3.5--py311hdfd78af_0
-$ module help quay.io/biocontainers/annotsv/3.3.5--py311hdfd78af_0
+$ module load quay.io/biocontainers/annotsv/3.3.6--py311hdfd78af_0
+$ module help quay.io/biocontainers/annotsv/3.3.6--py311hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

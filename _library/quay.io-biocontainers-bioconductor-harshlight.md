@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-harshlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harshlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harshlight/container.yaml"
-updated_at: "2023-06-24 03:00:13.984171"
-latest: "1.70.0--r42hc0cfd56_0"
+updated_at: "2023-06-25 03:13:27.640677"
+latest: "1.70.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-harshlight"
 
 versions:
  - "1.66.0--r41hc0cfd56_2"
  - "1.70.0--r42hc0cfd56_0"
+ - "1.70.0--r42ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-harshlight"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-harshlight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harshlight", "latest": {"1.70.0--r42hc0cfd56_0": "sha256:0e2bfa62c0359ad1c88386c0e71c5dd3e92ba9ddbbeabebe64beb866535c12c7"}, "tags": {"1.66.0--r41hc0cfd56_2": "sha256:4b17c72c615160929b78955a0a76acc0806c6ce4a9c03b9e52359a0313c893af", "1.70.0--r42hc0cfd56_0": "sha256:0e2bfa62c0359ad1c88386c0e71c5dd3e92ba9ddbbeabebe64beb866535c12c7"}, "docker": "quay.io/biocontainers/bioconductor-harshlight"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-harshlight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harshlight", "latest": {"1.70.0--r42ha9d7317_1": "sha256:370c69285fda5ff6d18da759a3a6cf05b1ab03256434663a71fd6912f32c9468"}, "tags": {"1.66.0--r41hc0cfd56_2": "sha256:4b17c72c615160929b78955a0a76acc0806c6ce4a9c03b9e52359a0313c893af", "1.70.0--r42hc0cfd56_0": "sha256:0e2bfa62c0359ad1c88386c0e71c5dd3e92ba9ddbbeabebe64beb866535c12c7", "1.70.0--r42ha9d7317_1": "sha256:370c69285fda5ff6d18da759a3a6cf05b1ab03256434663a71fd6912f32c9468"}, "docker": "quay.io/biocontainers/bioconductor-harshlight"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-harshlight.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-harshlight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-harshlight:1.70.0--r42hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-harshlight:1.70.0--r42ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-harshlight/1.70.0--r42hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-harshlight/1.70.0--r42hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-harshlight/1.70.0--r42ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-harshlight/1.70.0--r42ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

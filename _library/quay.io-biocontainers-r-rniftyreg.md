@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rniftyreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rniftyreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rniftyreg/container.yaml"
-updated_at: "2023-06-24 03:12:48.720413"
+updated_at: "2023-06-25 03:25:58.730625"
 latest: "2.2.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rniftyreg"
 aliases:

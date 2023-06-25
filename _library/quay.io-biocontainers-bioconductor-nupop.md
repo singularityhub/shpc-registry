@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nupop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nupop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nupop/container.yaml"
-updated_at: "2023-06-24 03:21:01.116232"
+updated_at: "2023-06-25 03:34:15.181322"
 latest: "2.6.0--r42h9913872_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-nupop"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eklipse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eklipse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eklipse/container.yaml"
-updated_at: "2023-06-24 03:14:02.749633"
-latest: "1.8--hdfd78af_0"
+updated_at: "2023-06-25 03:27:13.261132"
+latest: "1.8--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/eklipse"
 aliases:
  - "J01415.2.gb"
@@ -59,8 +59,9 @@ aliases:
  - "ecommon.sh"
 versions:
  - "1.8--hdfd78af_0"
+ - "1.8--hdfd78af_1"
 description: "singularity registry hpc automated addition for eklipse"
-config: {"url": "https://biocontainers.pro/tools/eklipse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eklipse", "latest": {"1.8--hdfd78af_0": "sha256:d683befc55c7478967470295216c85ccd03d7eaa47dd672f7d628fced34f7d76"}, "tags": {"1.8--hdfd78af_0": "sha256:d683befc55c7478967470295216c85ccd03d7eaa47dd672f7d628fced34f7d76"}, "docker": "quay.io/biocontainers/eklipse", "aliases": {"J01415.2.gb": "/usr/local/bin/J01415.2.gb", "NC_005089.1.gb": "/usr/local/bin/NC_005089.1.gb", "NC_012920.1.gb": "/usr/local/bin/NC_012920.1.gb", "eKLIPse.py": "/usr/local/bin/eKLIPse.py", "eKLIPse_circos.py": "/usr/local/bin/eKLIPse_circos.py", "eKLIPse_fct.py": "/usr/local/bin/eKLIPse_fct.py", "eKLIPse_fig2.png": "/usr/local/bin/eKLIPse_fig2.png", "eKLIPse_init.py": "/usr/local/bin/eKLIPse_init.py", "eKLIPse_sc.py": "/usr/local/bin/eKLIPse_sc.py", "eKLIPse_threading.py": "/usr/local/bin/eKLIPse_threading.py", "eKLIPse_userGuide.pdf": "/usr/local/bin/eKLIPse_userGuide.pdf", "eklipseHeader.png": "/usr/local/bin/eklipseHeader.png", "eklipse_home.png": "/usr/local/bin/eklipse_home.png", "eklipse_results.png": "/usr/local/bin/eklipse_results.png", "eklipse_select.png": "/usr/local/bin/eklipse_select.png", "eklipse_waiting.png": "/usr/local/bin/eklipse_waiting.png", "pl2bat.pl": "/usr/local/bin/pl2bat.pl", "pybam.py": "/usr/local/bin/pybam.py", "spinner.py": "/usr/local/bin/spinner.py", "tabulate.py": "/usr/local/bin/tabulate.py", "test_illumina.bam": "/usr/local/bin/test_illumina.bam", "test_illumina.bam.bai": "/usr/local/bin/test_illumina.bam.bai", "test_proton.bam": "/usr/local/bin/test_proton.bam", "test_proton.bam.bai": "/usr/local/bin/test_proton.bam.bai", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "test_pcre": "/usr/local/bin/test_pcre", "config_data": "/usr/local/bin/config_data", "tjbench": "/usr/local/bin/tjbench", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh"}}
+config: {"url": "https://biocontainers.pro/tools/eklipse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eklipse", "latest": {"1.8--hdfd78af_1": "sha256:99c5dfb2d0dd0e0766be334304480a1ee08e5e97c096ca44876a17600c20cebc"}, "tags": {"1.8--hdfd78af_0": "sha256:d683befc55c7478967470295216c85ccd03d7eaa47dd672f7d628fced34f7d76", "1.8--hdfd78af_1": "sha256:99c5dfb2d0dd0e0766be334304480a1ee08e5e97c096ca44876a17600c20cebc"}, "docker": "quay.io/biocontainers/eklipse", "aliases": {"J01415.2.gb": "/usr/local/bin/J01415.2.gb", "NC_005089.1.gb": "/usr/local/bin/NC_005089.1.gb", "NC_012920.1.gb": "/usr/local/bin/NC_012920.1.gb", "eKLIPse.py": "/usr/local/bin/eKLIPse.py", "eKLIPse_circos.py": "/usr/local/bin/eKLIPse_circos.py", "eKLIPse_fct.py": "/usr/local/bin/eKLIPse_fct.py", "eKLIPse_fig2.png": "/usr/local/bin/eKLIPse_fig2.png", "eKLIPse_init.py": "/usr/local/bin/eKLIPse_init.py", "eKLIPse_sc.py": "/usr/local/bin/eKLIPse_sc.py", "eKLIPse_threading.py": "/usr/local/bin/eKLIPse_threading.py", "eKLIPse_userGuide.pdf": "/usr/local/bin/eKLIPse_userGuide.pdf", "eklipseHeader.png": "/usr/local/bin/eklipseHeader.png", "eklipse_home.png": "/usr/local/bin/eklipse_home.png", "eklipse_results.png": "/usr/local/bin/eklipse_results.png", "eklipse_select.png": "/usr/local/bin/eklipse_select.png", "eklipse_waiting.png": "/usr/local/bin/eklipse_waiting.png", "pl2bat.pl": "/usr/local/bin/pl2bat.pl", "pybam.py": "/usr/local/bin/pybam.py", "spinner.py": "/usr/local/bin/spinner.py", "tabulate.py": "/usr/local/bin/tabulate.py", "test_illumina.bam": "/usr/local/bin/test_illumina.bam", "test_illumina.bam.bai": "/usr/local/bin/test_illumina.bam.bai", "test_proton.bam": "/usr/local/bin/test_proton.bam", "test_proton.bam.bai": "/usr/local/bin/test_proton.bam.bai", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "test_pcre": "/usr/local/bin/test_pcre", "config_data": "/usr/local/bin/config_data", "tjbench": "/usr/local/bin/tjbench", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eklipse.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/eklipse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eklipse:1.8--hdfd78af_0
+$ shpc install quay.io/biocontainers/eklipse:1.8--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eklipse/1.8--hdfd78af_0
-$ module help quay.io/biocontainers/eklipse/1.8--hdfd78af_0
+$ module load quay.io/biocontainers/eklipse/1.8--hdfd78af_1
+$ module help quay.io/biocontainers/eklipse/1.8--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

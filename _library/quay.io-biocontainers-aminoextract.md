@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aminoextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aminoextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aminoextract/container.yaml"
-updated_at: "2023-06-24 03:20:02.057751"
+updated_at: "2023-06-25 03:33:15.299148"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aminoextract"
 aliases:

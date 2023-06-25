@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metamobilepicker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamobilepicker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamobilepicker/container.yaml"
-updated_at: "2023-06-24 03:11:25.946382"
+updated_at: "2023-06-25 03:24:35.714697"
 latest: "0.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metamobilepicker"
 aliases:

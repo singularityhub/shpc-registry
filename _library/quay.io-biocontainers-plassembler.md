@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plassembler/container.yaml"
-updated_at: "2023-06-24 03:21:23.743770"
-latest: "1.0.0--hdfd78af_1"
+updated_at: "2023-06-25 03:34:38.025117"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plassembler"
 aliases:
  - "NanoFilt"
@@ -69,8 +69,9 @@ aliases:
 versions:
  - "0.1.5--hdfd78af_0"
  - "1.0.0--hdfd78af_1"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for plassembler"
-config: {"url": "https://biocontainers.pro/tools/plassembler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plassembler", "latest": {"1.0.0--hdfd78af_1": "sha256:f5510b54062811d74a4e2c3c1f6109486609b8a75df575b9cb5fc9997f60f485"}, "tags": {"0.1.5--hdfd78af_0": "sha256:f069f36c2a92d5708bb543a2d1375a4a233e46874ee09af94f6501606f339f8b", "1.0.0--hdfd78af_1": "sha256:f5510b54062811d74a4e2c3c1f6109486609b8a75df575b9cb5fc9997f60f485"}, "docker": "quay.io/biocontainers/plassembler", "aliases": {"NanoFilt": "/usr/local/bin/NanoFilt", "bam.py": "/usr/local/bin/bam.py", "case_one.py": "/usr/local/bin/case_one.py", "case_one_kmer.py": "/usr/local/bin/case_one_kmer.py", "case_three.py": "/usr/local/bin/case_three.py", "case_three_kmer.py": "/usr/local/bin/case_three_kmer.py", "cleanup.py": "/usr/local/bin/cleanup.py", "concat.py": "/usr/local/bin/concat.py", "coronaspades.py": "/usr/local/bin/coronaspades.py", "deduplicate.py": "/usr/local/bin/deduplicate.py", "depth.py": "/usr/local/bin/depth.py", "double_mapping.py": "/usr/local/bin/double_mapping.py", "extract.py": "/usr/local/bin/extract.py", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "input_commands.py": "/usr/local/bin/input_commands.py", "install_database.py": "/usr/local/bin/install_database.py", "log.py": "/usr/local/bin/log.py", "mapping.py": "/usr/local/bin/mapping.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "plassembler.py": "/usr/local/bin/plassembler.py", "qc.py": "/usr/local/bin/qc.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "run_flye.py": "/usr/local/bin/run_flye.py", "run_mash.py": "/usr/local/bin/run_mash.py", "run_unicycler.py": "/usr/local/bin/run_unicycler.py", "unicycler": "/usr/local/bin/unicycler", "version.py": "/usr/local/bin/version.py", "fastp": "/usr/local/bin/fastp", "seqkit": "/usr/local/bin/seqkit", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++"}}
+config: {"url": "https://biocontainers.pro/tools/plassembler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plassembler", "latest": {"1.1.0--pyhdfd78af_0": "sha256:4274bc868a2bea27cde40f8350fe8029eb942165d888c9ccaa3fb91e03acaf43"}, "tags": {"0.1.5--hdfd78af_0": "sha256:f069f36c2a92d5708bb543a2d1375a4a233e46874ee09af94f6501606f339f8b", "1.0.0--hdfd78af_1": "sha256:f5510b54062811d74a4e2c3c1f6109486609b8a75df575b9cb5fc9997f60f485", "1.1.0--pyhdfd78af_0": "sha256:4274bc868a2bea27cde40f8350fe8029eb942165d888c9ccaa3fb91e03acaf43"}, "docker": "quay.io/biocontainers/plassembler", "aliases": {"NanoFilt": "/usr/local/bin/NanoFilt", "bam.py": "/usr/local/bin/bam.py", "case_one.py": "/usr/local/bin/case_one.py", "case_one_kmer.py": "/usr/local/bin/case_one_kmer.py", "case_three.py": "/usr/local/bin/case_three.py", "case_three_kmer.py": "/usr/local/bin/case_three_kmer.py", "cleanup.py": "/usr/local/bin/cleanup.py", "concat.py": "/usr/local/bin/concat.py", "coronaspades.py": "/usr/local/bin/coronaspades.py", "deduplicate.py": "/usr/local/bin/deduplicate.py", "depth.py": "/usr/local/bin/depth.py", "double_mapping.py": "/usr/local/bin/double_mapping.py", "extract.py": "/usr/local/bin/extract.py", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "input_commands.py": "/usr/local/bin/input_commands.py", "install_database.py": "/usr/local/bin/install_database.py", "log.py": "/usr/local/bin/log.py", "mapping.py": "/usr/local/bin/mapping.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "plassembler.py": "/usr/local/bin/plassembler.py", "qc.py": "/usr/local/bin/qc.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "run_flye.py": "/usr/local/bin/run_flye.py", "run_mash.py": "/usr/local/bin/run_mash.py", "run_unicycler.py": "/usr/local/bin/run_unicycler.py", "unicycler": "/usr/local/bin/unicycler", "version.py": "/usr/local/bin/version.py", "fastp": "/usr/local/bin/fastp", "seqkit": "/usr/local/bin/seqkit", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plassembler.
@@ -85,7 +86,7 @@ $ shpc install quay.io/biocontainers/plassembler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plassembler:1.0.0--hdfd78af_1
+$ shpc install quay.io/biocontainers/plassembler:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -97,8 +98,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plassembler/1.0.0--hdfd78af_1
-$ module help quay.io/biocontainers/plassembler/1.0.0--hdfd78af_1
+$ module load quay.io/biocontainers/plassembler/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/plassembler/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

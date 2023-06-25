@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/hiphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hiphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hiphase/container.yaml"
-updated_at: "2023-06-24 03:25:10.957733"
-latest: "0.8.1--h9ee0642_0"
+updated_at: "2023-06-25 03:38:24.761799"
+latest: "0.10.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/hiphase"
 aliases:
  - "hiphase"
 versions:
  - "0.8.1--h9ee0642_0"
+ - "0.10.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for hiphase"
-config: {"url": "https://biocontainers.pro/tools/hiphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hiphase", "latest": {"0.8.1--h9ee0642_0": "sha256:d05bc9e2f41528acafb442044cf1d193cfd3cfb1fafbc6c5417b91f3b557b36b"}, "tags": {"0.8.1--h9ee0642_0": "sha256:d05bc9e2f41528acafb442044cf1d193cfd3cfb1fafbc6c5417b91f3b557b36b"}, "docker": "quay.io/biocontainers/hiphase", "aliases": {"hiphase": "/usr/local/bin/hiphase"}}
+config: {"url": "https://biocontainers.pro/tools/hiphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hiphase", "latest": {"0.10.0--h9ee0642_0": "sha256:8c8259a75e02882a590c687a33d6a405f84a679beea73b13779ec5f01db25bf1"}, "tags": {"0.8.1--h9ee0642_0": "sha256:d05bc9e2f41528acafb442044cf1d193cfd3cfb1fafbc6c5417b91f3b557b36b", "0.10.0--h9ee0642_0": "sha256:8c8259a75e02882a590c687a33d6a405f84a679beea73b13779ec5f01db25bf1"}, "docker": "quay.io/biocontainers/hiphase", "aliases": {"hiphase": "/usr/local/bin/hiphase"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hiphase.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/hiphase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hiphase:0.8.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/hiphase:0.10.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hiphase/0.8.1--h9ee0642_0
-$ module help quay.io/biocontainers/hiphase/0.8.1--h9ee0642_0
+$ module load quay.io/biocontainers/hiphase/0.10.0--h9ee0642_0
+$ module help quay.io/biocontainers/hiphase/0.10.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

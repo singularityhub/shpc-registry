@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genologics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genologics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genologics/container.yaml"
-updated_at: "2023-06-24 03:21:09.421827"
+updated_at: "2023-06-25 03:34:23.605957"
 latest: "0.4.1--py_0"
 container_url: "https://biocontainers.pro/tools/genologics"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/damasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/damasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/damasker/container.yaml"
-updated_at: "2023-06-24 03:36:09.492140"
+updated_at: "2023-06-25 03:49:26.853509"
 latest: "1.0p1--h031d066_6"
 container_url: "https://biocontainers.pro/tools/damasker"
 aliases:

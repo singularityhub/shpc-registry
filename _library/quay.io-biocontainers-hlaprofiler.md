@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hlaprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hlaprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hlaprofiler/container.yaml"
-updated_at: "2023-06-24 02:59:29.892555"
+updated_at: "2023-06-25 03:12:43.807798"
 latest: "1.0.5--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/hlaprofiler"
 aliases:
