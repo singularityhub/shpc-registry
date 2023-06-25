@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dnacauldron
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dnacauldron
 latest:
-  2.0.7--pyh5e36f6f_0: sha256:adfd210016056c7253e7c3fce656b9aa4e21d4dbf5120d7a67bce2d23ee389a5
+  2.0.8--pyh7cba7a3_0: sha256:add0dfcf2b29cfce41efb36d7f8b0569b72450175f85f397135fceebec298607
 tags:
   2.0.7--pyh5e36f6f_0: sha256:adfd210016056c7253e7c3fce656b9aa4e21d4dbf5120d7a67bce2d23ee389a5
+  2.0.8--pyh7cba7a3_0: sha256:add0dfcf2b29cfce41efb36d7f8b0569b72450175f85f397135fceebec298607
 docker: quay.io/biocontainers/dnacauldron
 aliases:
   dnacauldron: /usr/local/bin/dnacauldron
