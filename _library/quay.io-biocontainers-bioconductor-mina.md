@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mina/container.yaml"
-updated_at: "2023-06-26 04:07:01.306260"
+updated_at: "2023-06-26 04:14:45.435973"
 latest: "1.6.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mina"
 

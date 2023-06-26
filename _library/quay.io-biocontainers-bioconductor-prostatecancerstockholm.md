@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancerstockholm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancerstockholm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancerstockholm/container.yaml"
-updated_at: "2023-06-26 03:58:34.697011"
+updated_at: "2023-06-26 04:01:25.024316"
 latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancerstockholm"
 
