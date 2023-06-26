@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rmblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmblast/container.yaml"
-updated_at: "2023-06-25 03:24:09.510039"
-latest: "2.13.0--h5709495_1"
+updated_at: "2023-06-26 03:35:08.541036"
+latest: "2.14.0--h21a3994_1"
 container_url: "https://biocontainers.pro/tools/rmblast"
 aliases:
  - "rmblastn"
@@ -25,8 +25,9 @@ versions:
  - "2.10.0--h2d02072_0"
  - "2.13.0--h5049791_0"
  - "2.13.0--h5709495_1"
+ - "2.14.0--h21a3994_1"
 description: "shpc-registry automated BioContainers addition for rmblast"
-config: {"url": "https://biocontainers.pro/tools/rmblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmblast", "latest": {"2.13.0--h5709495_1": "sha256:ed1a9fee1565fb5a0f27c40ea0bfcf432e001351b984eac5c8663f9f5a4e7ea0"}, "tags": {"2.9.0--h2d02072_0": "sha256:851b999b4326e2fdb0e0aa1803c30452d8e04a85ca5242a6d695836623f5d54c", "2.11.0--h6200dbe_0": "sha256:35bfaf4fc9138db97d259e20fd841e11789c2c27e3a21f3ce04f0c9ad6dda69e", "2.10.0--h2d02072_0": "sha256:65dd33a34d3310810b257829b248d53e82b86c74884bf6cbf89a10ee91066f63", "2.13.0--h5049791_0": "sha256:cf57fdef5364bd2700741c1809fdafff0f7faba40f78dbb41e0500c26e5fe7ae", "2.13.0--h5709495_1": "sha256:ed1a9fee1565fb5a0f27c40ea0bfcf432e001351b984eac5c8663f9f5a4e7ea0"}, "docker": "quay.io/biocontainers/rmblast", "aliases": {"rmblastn": "/usr/local/bin/rmblastn", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "certtool": "/usr/local/bin/certtool"}}
+config: {"url": "https://biocontainers.pro/tools/rmblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmblast", "latest": {"2.14.0--h21a3994_1": "sha256:aebf39e219a69bfc1610c7567762a772e408e7c76ab5bdf90e78d3d57cb7fbc4"}, "tags": {"2.9.0--h2d02072_0": "sha256:851b999b4326e2fdb0e0aa1803c30452d8e04a85ca5242a6d695836623f5d54c", "2.11.0--h6200dbe_0": "sha256:35bfaf4fc9138db97d259e20fd841e11789c2c27e3a21f3ce04f0c9ad6dda69e", "2.10.0--h2d02072_0": "sha256:65dd33a34d3310810b257829b248d53e82b86c74884bf6cbf89a10ee91066f63", "2.13.0--h5049791_0": "sha256:cf57fdef5364bd2700741c1809fdafff0f7faba40f78dbb41e0500c26e5fe7ae", "2.13.0--h5709495_1": "sha256:ed1a9fee1565fb5a0f27c40ea0bfcf432e001351b984eac5c8663f9f5a4e7ea0", "2.14.0--h21a3994_1": "sha256:aebf39e219a69bfc1610c7567762a772e408e7c76ab5bdf90e78d3d57cb7fbc4"}, "docker": "quay.io/biocontainers/rmblast", "aliases": {"rmblastn": "/usr/local/bin/rmblastn", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "certtool": "/usr/local/bin/certtool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmblast.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/rmblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rmblast:2.13.0--h5709495_1
+$ shpc install quay.io/biocontainers/rmblast:2.14.0--h21a3994_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rmblast/2.13.0--h5709495_1
-$ module help quay.io/biocontainers/rmblast/2.13.0--h5709495_1
+$ module load quay.io/biocontainers/rmblast/2.14.0--h21a3994_1
+$ module help quay.io/biocontainers/rmblast/2.14.0--h21a3994_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/badread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/badread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/badread/container.yaml"
-updated_at: "2023-06-25 03:39:44.170653"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2023-06-26 03:49:58.745120"
+latest: "0.4.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/badread"
 aliases:
  - "badread"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.2.0--py_0"
  - "0.3.0--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for badread"
-config: {"url": "https://biocontainers.pro/tools/badread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for badread", "latest": {"0.3.0--pyhdfd78af_0": "sha256:de701b7212243298408abbb47597fa8e2dbd6923f24a8591c06aa26fa539b839"}, "tags": {"0.2.0--py_0": "sha256:8ca62c6bcca0457ec337629e60d783da5b7a0cbf6b9c47e863c53099c33d624f", "0.3.0--pyhdfd78af_0": "sha256:de701b7212243298408abbb47597fa8e2dbd6923f24a8591c06aa26fa539b839"}, "docker": "quay.io/biocontainers/badread", "aliases": {"badread": "/usr/local/bin/badread", "edlib-aligner": "/usr/local/bin/edlib-aligner", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/badread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for badread", "latest": {"0.4.0--pyhdfd78af_1": "sha256:db589c2778368935f6d36abea4b7d248122e843f68848f49a6260edf383a2294"}, "tags": {"0.2.0--py_0": "sha256:8ca62c6bcca0457ec337629e60d783da5b7a0cbf6b9c47e863c53099c33d624f", "0.3.0--pyhdfd78af_0": "sha256:de701b7212243298408abbb47597fa8e2dbd6923f24a8591c06aa26fa539b839", "0.4.0--pyhdfd78af_1": "sha256:db589c2778368935f6d36abea4b7d248122e843f68848f49a6260edf383a2294"}, "docker": "quay.io/biocontainers/badread", "aliases": {"badread": "/usr/local/bin/badread", "edlib-aligner": "/usr/local/bin/edlib-aligner", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/badread.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/badread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/badread:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/badread:0.4.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/badread/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/badread/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/badread/0.4.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/badread/0.4.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

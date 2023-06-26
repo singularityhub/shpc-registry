@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccimpute/container.yaml"
-updated_at: "2023-06-25 03:40:36.746677"
+updated_at: "2023-06-26 03:50:48.837867"
 latest: "1.0.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccimpute"
 

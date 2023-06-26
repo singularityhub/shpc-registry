@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-safe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-safe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-safe/container.yaml"
-updated_at: "2023-06-25 03:36:27.203873"
+updated_at: "2023-06-26 03:46:51.307383"
 latest: "3.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-safe"
 

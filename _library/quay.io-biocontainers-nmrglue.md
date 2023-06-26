@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nmrglue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nmrglue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nmrglue/container.yaml"
-updated_at: "2023-06-25 03:37:07.054938"
+updated_at: "2023-06-26 03:47:29.332496"
 latest: "0.8--py310h4b81fae_5"
 container_url: "https://biocontainers.pro/tools/nmrglue"
 aliases:

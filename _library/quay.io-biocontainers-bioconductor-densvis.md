@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-densvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-densvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-densvis/container.yaml"
-updated_at: "2023-06-25 03:49:06.552155"
+updated_at: "2023-06-26 03:58:50.819156"
 latest: "1.8.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-densvis"
 

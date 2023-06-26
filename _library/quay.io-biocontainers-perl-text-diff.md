@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-diff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-diff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-diff/container.yaml"
-updated_at: "2023-06-25 03:27:34.546710"
+updated_at: "2023-06-26 03:38:27.250367"
 latest: "1.45--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-text-diff"
 aliases:

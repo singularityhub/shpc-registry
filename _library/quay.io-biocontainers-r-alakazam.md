@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-alakazam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-alakazam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-alakazam/container.yaml"
-updated_at: "2023-06-25 03:26:32.505060"
-latest: "1.2.1--r42hecf12ef_1"
+updated_at: "2023-06-26 03:37:27.878338"
+latest: "1.2.1--r42h21a89ab_2"
 container_url: "https://biocontainers.pro/tools/r-alakazam"
 aliases:
  - "glpsol"
 versions:
  - "1.2.1--r41hecf12ef_0"
  - "1.2.1--r42hecf12ef_1"
+ - "1.2.1--r42h21a89ab_2"
 description: "shpc-registry automated BioContainers addition for r-alakazam"
-config: {"url": "https://biocontainers.pro/tools/r-alakazam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-alakazam", "latest": {"1.2.1--r42hecf12ef_1": "sha256:3e270ec77589d73f58116d068f29ce733319cd591817b1e275691cb1cda1986b"}, "tags": {"1.2.1--r41hecf12ef_0": "sha256:d8374b2f940f05bc0e9286df8ce7f7463f436c3dd029e681f9d69e7856fa8945", "1.2.1--r42hecf12ef_1": "sha256:3e270ec77589d73f58116d068f29ce733319cd591817b1e275691cb1cda1986b"}, "docker": "quay.io/biocontainers/r-alakazam", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-alakazam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-alakazam", "latest": {"1.2.1--r42h21a89ab_2": "sha256:d1e45b350c32b9bdab3cc2aa6da85fbe15dc788fe57d8308020567d7d74f8870"}, "tags": {"1.2.1--r41hecf12ef_0": "sha256:d8374b2f940f05bc0e9286df8ce7f7463f436c3dd029e681f9d69e7856fa8945", "1.2.1--r42hecf12ef_1": "sha256:3e270ec77589d73f58116d068f29ce733319cd591817b1e275691cb1cda1986b", "1.2.1--r42h21a89ab_2": "sha256:d1e45b350c32b9bdab3cc2aa6da85fbe15dc788fe57d8308020567d7d74f8870"}, "docker": "quay.io/biocontainers/r-alakazam", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-alakazam.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-alakazam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-alakazam:1.2.1--r42hecf12ef_1
+$ shpc install quay.io/biocontainers/r-alakazam:1.2.1--r42h21a89ab_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-alakazam/1.2.1--r42hecf12ef_1
-$ module help quay.io/biocontainers/r-alakazam/1.2.1--r42hecf12ef_1
+$ module load quay.io/biocontainers/r-alakazam/1.2.1--r42h21a89ab_2
+$ module help quay.io/biocontainers/r-alakazam/1.2.1--r42h21a89ab_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

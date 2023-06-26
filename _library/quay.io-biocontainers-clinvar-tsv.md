@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clinvar-tsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinvar-tsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinvar-tsv/container.yaml"
-updated_at: "2023-06-25 03:20:46.247630"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2023-06-26 03:31:49.388998"
+latest: "0.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clinvar-tsv"
 aliases:
  - "clinvar_tsv"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.4.1--pyhdfd78af_0"
  - "0.5.0--pyhdfd78af_0"
+ - "0.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for clinvar-tsv"
-config: {"url": "https://biocontainers.pro/tools/clinvar-tsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinvar-tsv", "latest": {"0.5.0--pyhdfd78af_0": "sha256:6cd096722e0679cd4ad3ec772e98dcd89deb35c4938b29840aa1da11fc12fb1d"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:34c80732e46c48667f40e081acb748630e47ff6d372d4fc17e6a82ea60d18295", "0.5.0--pyhdfd78af_0": "sha256:6cd096722e0679cd4ad3ec772e98dcd89deb35c4938b29840aa1da11fc12fb1d"}, "docker": "quay.io/biocontainers/clinvar-tsv", "aliases": {"clinvar_tsv": "/usr/local/bin/clinvar_tsv", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/clinvar-tsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinvar-tsv", "latest": {"0.6.3--pyhdfd78af_0": "sha256:ed953ad32c99cf943d609c80b2f1768496f5d0b501611356961dfc2a7060c06d"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:34c80732e46c48667f40e081acb748630e47ff6d372d4fc17e6a82ea60d18295", "0.5.0--pyhdfd78af_0": "sha256:6cd096722e0679cd4ad3ec772e98dcd89deb35c4938b29840aa1da11fc12fb1d", "0.6.3--pyhdfd78af_0": "sha256:ed953ad32c99cf943d609c80b2f1768496f5d0b501611356961dfc2a7060c06d"}, "docker": "quay.io/biocontainers/clinvar-tsv", "aliases": {"clinvar_tsv": "/usr/local/bin/clinvar_tsv", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clinvar-tsv.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/clinvar-tsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clinvar-tsv:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/clinvar-tsv:0.6.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clinvar-tsv/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/clinvar-tsv/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/clinvar-tsv/0.6.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/clinvar-tsv/0.6.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-compquadform"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-compquadform/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-compquadform/container.yaml"
-updated_at: "2023-06-25 03:36:08.932945"
+updated_at: "2023-06-26 03:46:33.959490"
 latest: "1.4.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-compquadform"
 aliases:

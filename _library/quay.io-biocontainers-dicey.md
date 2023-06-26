@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dicey"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dicey/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dicey/container.yaml"
-updated_at: "2023-06-25 03:52:45.004091"
+updated_at: "2023-06-26 04:02:17.621927"
 latest: "0.2.3--h6b1aa3f_2"
 container_url: "https://biocontainers.pro/tools/dicey"
 aliases:

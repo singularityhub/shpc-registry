@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bifet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bifet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bifet/container.yaml"
-updated_at: "2023-06-25 03:59:23.112924"
+updated_at: "2023-06-26 04:08:40.972839"
 latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bifet"
 aliases:
