@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/acdc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for acdc
+latest:
+  1.02--h4ac6f70_0: sha256:51adbf9cddd14884b1a59eba93db3d4106ba0bf331c39936583e1dd0ced95de3
+tags:
+  1.02--h4ac6f70_0: sha256:51adbf9cddd14884b1a59eba93db3d4106ba0bf331c39936583e1dd0ced95de3
+docker: quay.io/biocontainers/acdc
+aliases:
+  acdc: /usr/local/bin/acdc
+  acdc-filter-fasta-by-name.awk: /usr/local/bin/acdc-filter-fasta-by-name.awk
+  acdc-make-fastas: /usr/local/bin/acdc-make-fastas
+  kraken: /usr/local/bin/kraken
+  kraken-build: /usr/local/bin/kraken-build
+  kraken-filter: /usr/local/bin/kraken-filter
+  kraken-mpa-report: /usr/local/bin/kraken-mpa-report
+  kraken-report: /usr/local/bin/kraken-report
+  kraken-translate: /usr/local/bin/kraken-translate
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  rsync: /usr/local/bin/rsync
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  jellyfish: /usr/local/bin/jellyfish
+  tar: /usr/local/bin/tar
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

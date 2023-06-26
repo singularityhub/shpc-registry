@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/chromograph
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chromograph
+latest:
+  1.3.1--pyhdfd78af_1: sha256:6a9c1ab5a6ea8a982b518ae9145d2b92451d7425476fd44efd4fb70e10ed566f
+tags:
+  1.3.1--pyhdfd78af_1: sha256:6a9c1ab5a6ea8a982b518ae9145d2b92451d7425476fd44efd4fb70e10ed566f
+docker: quay.io/biocontainers/chromograph
+aliases:
+  chromograph: /usr/local/bin/chromograph
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.9: /usr/local/bin/f2py3.9
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
