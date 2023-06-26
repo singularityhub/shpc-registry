@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rtracklayer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtracklayer
 latest:
-  1.58.0--r42h171f361_1: sha256:1d37150196f0ce79832513502ee5ab0c6833f031bc3008da04b319333cb0ee3a
+  1.58.0--r42h58c1800_2: sha256:27a8d09e21f52513501b8faeab9e7e3502769d0f0927151ce8c5116bb3fe4901
 tags:
   1.54.0--r41h171f361_4: sha256:f0e768aa1a38d9a4fd592d90363b54de8fe61b6752192bdcf7d990b4c2b33099
   1.58.0--r42h171f361_1: sha256:1d37150196f0ce79832513502ee5ab0c6833f031bc3008da04b319333cb0ee3a
+  1.58.0--r42h58c1800_2: sha256:27a8d09e21f52513501b8faeab9e7e3502769d0f0927151ce8c5116bb3fe4901
 docker: quay.io/biocontainers/bioconductor-rtracklayer
