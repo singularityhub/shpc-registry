@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hummingbird"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hummingbird/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hummingbird/container.yaml"
-updated_at: "2023-06-26 03:50:50.497536"
-latest: "1.8.0--r42hc247a5b_0"
+updated_at: "2023-06-27 03:29:07.614497"
+latest: "1.8.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hummingbird"
 
 versions:
  - "1.4.0--r41hc247a5b_2"
  - "1.8.0--r42hc247a5b_0"
+ - "1.8.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hummingbird"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hummingbird", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hummingbird", "latest": {"1.8.0--r42hc247a5b_0": "sha256:e09bc14e803707ceff8efd24a143b334b129c02c60c1d0a7fbd36ab014f4d0a0"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:fcbfa9691dfad0dad2ff308bb91ffa807a0e0f4c161bb04e2a8902f738b857d1", "1.8.0--r42hc247a5b_0": "sha256:e09bc14e803707ceff8efd24a143b334b129c02c60c1d0a7fbd36ab014f4d0a0"}, "docker": "quay.io/biocontainers/bioconductor-hummingbird"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hummingbird", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hummingbird", "latest": {"1.8.0--r42hf17093f_1": "sha256:3c1f2e1c7ffb6e49b98bdf0f0ca9554c165e42c410bf374272d8ec6a280470de"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:fcbfa9691dfad0dad2ff308bb91ffa807a0e0f4c161bb04e2a8902f738b857d1", "1.8.0--r42hc247a5b_0": "sha256:e09bc14e803707ceff8efd24a143b334b129c02c60c1d0a7fbd36ab014f4d0a0", "1.8.0--r42hf17093f_1": "sha256:3c1f2e1c7ffb6e49b98bdf0f0ca9554c165e42c410bf374272d8ec6a280470de"}, "docker": "quay.io/biocontainers/bioconductor-hummingbird"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hummingbird.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hummingbird
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hummingbird:1.8.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-hummingbird:1.8.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hummingbird/1.8.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-hummingbird/1.8.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-hummingbird/1.8.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-hummingbird/1.8.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

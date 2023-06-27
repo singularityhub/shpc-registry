@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-linx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-linx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-linx/container.yaml"
-updated_at: "2023-06-26 03:48:19.432152"
-latest: "1.22.1--hdfd78af_0"
+updated_at: "2023-06-27 03:27:29.363855"
+latest: "1.23.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-linx"
 aliases:
  - "croco-0.6-config"
@@ -31,8 +31,9 @@ versions:
  - "1.17--hdfd78af_0"
  - "1.22--hdfd78af_0"
  - "1.22.1--hdfd78af_0"
+ - "1.23.6--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-linx"
-config: {"url": "https://biocontainers.pro/tools/hmftools-linx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-linx", "latest": {"1.22.1--hdfd78af_0": "sha256:02fbf02b9c6dc03ced20f828f83df32c4080f4e7313f889117f01317a855db0a"}, "tags": {"1.7--0": "sha256:96ad73788663f0f2576719e7f8f0c415bad6211cbec5685168f00a966b87b4b9", "1.21--hdfd78af_0": "sha256:ec48aca10f2f993fc9056c90c36a4ff1f134b0fa296b20989bc641e139a65dff", "1.20--hdfd78af_0": "sha256:c541d2c20af026c0c801fd86ed1ff2b7af6523faf382d12d3cf9fae81c200c20", "1.19--hdfd78af_0": "sha256:5a399b69c147eef6bf46c15ddd13e907c6017109488189703b9c8b37b8cbf75c", "1.18--hdfd78af_0": "sha256:8fdd0a01b4667499f6f289c91dc7eaf0664e3d55e43caf78a7cec5d8d47bcfe0", "1.17--hdfd78af_0": "sha256:6e6a7be19fb1878261e708f269468f234f74916613cf0f4f52ab7a36e83eadfa", "1.22--hdfd78af_0": "sha256:93d4f68994967e6a8d38db0468a20fd0b8de7874452e14547b34844f4102f205", "1.22.1--hdfd78af_0": "sha256:02fbf02b9c6dc03ced20f828f83df32c4080f4e7313f889117f01317a855db0a"}, "docker": "quay.io/biocontainers/hmftools-linx", "aliases": {"croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "linx": "/usr/local/bin/linx", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-linx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-linx", "latest": {"1.23.6--hdfd78af_0": "sha256:6fbe50566cd1b097ca39ce0869a56f4851e120a80d26ba25bd9e0d488c79a4b1"}, "tags": {"1.7--0": "sha256:96ad73788663f0f2576719e7f8f0c415bad6211cbec5685168f00a966b87b4b9", "1.21--hdfd78af_0": "sha256:ec48aca10f2f993fc9056c90c36a4ff1f134b0fa296b20989bc641e139a65dff", "1.20--hdfd78af_0": "sha256:c541d2c20af026c0c801fd86ed1ff2b7af6523faf382d12d3cf9fae81c200c20", "1.19--hdfd78af_0": "sha256:5a399b69c147eef6bf46c15ddd13e907c6017109488189703b9c8b37b8cbf75c", "1.18--hdfd78af_0": "sha256:8fdd0a01b4667499f6f289c91dc7eaf0664e3d55e43caf78a7cec5d8d47bcfe0", "1.17--hdfd78af_0": "sha256:6e6a7be19fb1878261e708f269468f234f74916613cf0f4f52ab7a36e83eadfa", "1.22--hdfd78af_0": "sha256:93d4f68994967e6a8d38db0468a20fd0b8de7874452e14547b34844f4102f205", "1.22.1--hdfd78af_0": "sha256:02fbf02b9c6dc03ced20f828f83df32c4080f4e7313f889117f01317a855db0a", "1.23.6--hdfd78af_0": "sha256:6fbe50566cd1b097ca39ce0869a56f4851e120a80d26ba25bd9e0d488c79a4b1"}, "docker": "quay.io/biocontainers/hmftools-linx", "aliases": {"croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "linx": "/usr/local/bin/linx", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-linx.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/hmftools-linx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-linx:1.22.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-linx:1.23.6--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-linx/1.22.1--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-linx/1.22.1--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-linx/1.23.6--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-linx/1.23.6--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

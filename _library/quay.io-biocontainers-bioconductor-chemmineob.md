@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chemmineob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chemmineob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chemmineob/container.yaml"
-updated_at: "2023-06-26 03:54:17.762529"
-latest: "1.36.0--r42hc247a5b_0"
+updated_at: "2023-06-27 03:31:21.448775"
+latest: "1.36.0--r42hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chemmineob"
 aliases:
  - "2to3-3.11"
@@ -36,8 +36,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.36.0--r42hc247a5b_0"
+ - "1.36.0--r42hc247a5b_1"
 description: "singularity registry hpc automated addition for bioconductor-chemmineob"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chemmineob", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-chemmineob", "latest": {"1.36.0--r42hc247a5b_0": "sha256:9d2ffbd36db6e7040b2f04c77164fa9cad33c32d7301e0fbe505cb8ba545c564"}, "tags": {"1.36.0--r42hc247a5b_0": "sha256:9d2ffbd36db6e7040b2f04c77164fa9cad33c32d7301e0fbe505cb8ba545c564"}, "docker": "quay.io/biocontainers/bioconductor-chemmineob", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop", "obrms": "/usr/local/bin/obrms", "obrotamer": "/usr/local/bin/obrotamer", "obrotate": "/usr/local/bin/obrotate", "obspectrophore": "/usr/local/bin/obspectrophore", "obsym": "/usr/local/bin/obsym", "obtautomer": "/usr/local/bin/obtautomer", "obthermo": "/usr/local/bin/obthermo", "roundtrip": "/usr/local/bin/roundtrip", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chemmineob", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-chemmineob", "latest": {"1.36.0--r42hc247a5b_1": "sha256:87afbed8cbe5d7e0e7a825f529577a62cbbd2be3d6b35d2ae22e61233e88abde"}, "tags": {"1.36.0--r42hc247a5b_0": "sha256:9d2ffbd36db6e7040b2f04c77164fa9cad33c32d7301e0fbe505cb8ba545c564", "1.36.0--r42hc247a5b_1": "sha256:87afbed8cbe5d7e0e7a825f529577a62cbbd2be3d6b35d2ae22e61233e88abde"}, "docker": "quay.io/biocontainers/bioconductor-chemmineob", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop", "obrms": "/usr/local/bin/obrms", "obrotamer": "/usr/local/bin/obrotamer", "obrotate": "/usr/local/bin/obrotate", "obspectrophore": "/usr/local/bin/obspectrophore", "obsym": "/usr/local/bin/obsym", "obtautomer": "/usr/local/bin/obtautomer", "obthermo": "/usr/local/bin/obthermo", "roundtrip": "/usr/local/bin/roundtrip", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chemmineob.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chemmineob
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chemmineob:1.36.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-chemmineob:1.36.0--r42hc247a5b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chemmineob/1.36.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-chemmineob/1.36.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-chemmineob/1.36.0--r42hc247a5b_1
+$ module help quay.io/biocontainers/bioconductor-chemmineob/1.36.0--r42hc247a5b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mousechrloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mousechrloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mousechrloc/container.yaml"
-updated_at: "2023-06-26 03:39:39.761526"
+updated_at: "2023-06-27 03:21:52.063991"
 latest: "2.1.6--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mousechrloc"
 

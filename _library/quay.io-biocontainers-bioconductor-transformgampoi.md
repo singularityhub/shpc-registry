@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-transformgampoi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transformgampoi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transformgampoi/container.yaml"
-updated_at: "2023-06-26 04:04:01.541794"
-latest: "1.4.0--r42hc247a5b_0"
+updated_at: "2023-06-27 03:37:40.093831"
+latest: "1.4.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-transformgampoi"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hc247a5b_0"
+ - "1.4.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-transformgampoi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-transformgampoi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transformgampoi", "latest": {"1.4.0--r42hc247a5b_0": "sha256:656e38842e804d60ca0afb310cf90d7216254d5f2156d38bd980bc14c9a6ef4e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d53aabb903c7d2b4b3acd74998ec3c31fd31fab0ead5c7b854d94db029dcb0e6", "1.4.0--r42hc247a5b_0": "sha256:656e38842e804d60ca0afb310cf90d7216254d5f2156d38bd980bc14c9a6ef4e"}, "docker": "quay.io/biocontainers/bioconductor-transformgampoi"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-transformgampoi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transformgampoi", "latest": {"1.4.0--r42hf17093f_1": "sha256:4f10c1a0edddaba3f0dc072fee69c198f073de3d8ae6697e6347d3092521a188"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d53aabb903c7d2b4b3acd74998ec3c31fd31fab0ead5c7b854d94db029dcb0e6", "1.4.0--r42hc247a5b_0": "sha256:656e38842e804d60ca0afb310cf90d7216254d5f2156d38bd980bc14c9a6ef4e", "1.4.0--r42hf17093f_1": "sha256:4f10c1a0edddaba3f0dc072fee69c198f073de3d8ae6697e6347d3092521a188"}, "docker": "quay.io/biocontainers/bioconductor-transformgampoi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-transformgampoi.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-transformgampoi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-transformgampoi:1.4.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-transformgampoi:1.4.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-transformgampoi/1.4.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-transformgampoi/1.4.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-transformgampoi/1.4.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-transformgampoi/1.4.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

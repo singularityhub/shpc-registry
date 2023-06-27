@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/captus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/captus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/captus/container.yaml"
-updated_at: "2023-06-26 03:13:37.238724"
-latest: "0.9.91--pyhdfd78af_2"
+updated_at: "2023-06-27 03:05:11.171072"
+latest: "0.9.93--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/captus"
 aliases:
  - "Xcalcmem.sh"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "0.9.91--pyhdfd78af_0"
  - "0.9.91--pyhdfd78af_2"
+ - "0.9.93--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for captus"
-config: {"url": "https://biocontainers.pro/tools/captus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for captus", "latest": {"0.9.91--pyhdfd78af_2": "sha256:2ce18ac402d51f5ec4b7977357c3ab09b42af0c3123b265e8079964b298b2151"}, "tags": {"0.9.91--pyhdfd78af_0": "sha256:7b81e5c5d4241d3021b84032a0b38bee159a998528c212a7db6ab9a6d5656ee9", "0.9.91--pyhdfd78af_2": "sha256:2ce18ac402d51f5ec4b7977357c3ab09b42af0c3123b265e8079964b298b2151"}, "docker": "quay.io/biocontainers/captus", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "captus_assembly": "/usr/local/bin/captus_assembly", "clipkit": "/usr/local/bin/clipkit", "f2py3.11": "/usr/local/bin/f2py3.11", "falco": "/usr/local/bin/falco", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "kmutate.sh": "/usr/local/bin/kmutate.sh", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "runhmm.sh": "/usr/local/bin/runhmm.sh", "megahit": "/usr/local/bin/megahit", "megahit_toolkit": "/usr/local/bin/megahit_toolkit", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh"}}
+config: {"url": "https://biocontainers.pro/tools/captus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for captus", "latest": {"0.9.93--pyhdfd78af_0": "sha256:f8b07014173be52c737b0e617917cda823ef89d54280abb733fc56e2d82e2760"}, "tags": {"0.9.91--pyhdfd78af_0": "sha256:7b81e5c5d4241d3021b84032a0b38bee159a998528c212a7db6ab9a6d5656ee9", "0.9.91--pyhdfd78af_2": "sha256:2ce18ac402d51f5ec4b7977357c3ab09b42af0c3123b265e8079964b298b2151", "0.9.93--pyhdfd78af_0": "sha256:f8b07014173be52c737b0e617917cda823ef89d54280abb733fc56e2d82e2760"}, "docker": "quay.io/biocontainers/captus", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "captus_assembly": "/usr/local/bin/captus_assembly", "clipkit": "/usr/local/bin/clipkit", "f2py3.11": "/usr/local/bin/f2py3.11", "falco": "/usr/local/bin/falco", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "kmutate.sh": "/usr/local/bin/kmutate.sh", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "runhmm.sh": "/usr/local/bin/runhmm.sh", "megahit": "/usr/local/bin/megahit", "megahit_toolkit": "/usr/local/bin/megahit_toolkit", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/captus.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/captus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/captus:0.9.91--pyhdfd78af_2
+$ shpc install quay.io/biocontainers/captus:0.9.93--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/captus/0.9.91--pyhdfd78af_2
-$ module help quay.io/biocontainers/captus/0.9.91--pyhdfd78af_2
+$ module load quay.io/biocontainers/captus/0.9.93--pyhdfd78af_0
+$ module help quay.io/biocontainers/captus/0.9.93--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

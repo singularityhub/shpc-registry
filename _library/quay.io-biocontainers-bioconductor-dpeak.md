@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-dpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dpeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dpeak/container.yaml"
-updated_at: "2023-06-26 03:40:04.138356"
-latest: "1.10.0--r42hc247a5b_0"
+updated_at: "2023-06-27 03:22:07.808049"
+latest: "1.10.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dpeak"
 
 versions:
  - "1.6.0--r41hc247a5b_2"
  - "1.10.0--r42hc247a5b_0"
+ - "1.10.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-dpeak"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dpeak", "latest": {"1.10.0--r42hc247a5b_0": "sha256:c772ecfaa760a4c37431e3368dc32892be7ddf14f66646b083f2224da0623fcd"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:b6394320d506fb0a5f7e5423f0ae157f0df50812ff6f80395fc7b94a1dde1acd", "1.10.0--r42hc247a5b_0": "sha256:c772ecfaa760a4c37431e3368dc32892be7ddf14f66646b083f2224da0623fcd"}, "docker": "quay.io/biocontainers/bioconductor-dpeak"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dpeak", "latest": {"1.10.0--r42hf17093f_1": "sha256:d9b8c682027f4fc5e88515221b4da6c336fb0c62a3e0c343b79a55ae4feb4b3e"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:b6394320d506fb0a5f7e5423f0ae157f0df50812ff6f80395fc7b94a1dde1acd", "1.10.0--r42hc247a5b_0": "sha256:c772ecfaa760a4c37431e3368dc32892be7ddf14f66646b083f2224da0623fcd", "1.10.0--r42hf17093f_1": "sha256:d9b8c682027f4fc5e88515221b4da6c336fb0c62a3e0c343b79a55ae4feb4b3e"}, "docker": "quay.io/biocontainers/bioconductor-dpeak"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dpeak.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dpeak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dpeak:1.10.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-dpeak:1.10.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dpeak/1.10.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-dpeak/1.10.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-dpeak/1.10.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-dpeak/1.10.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

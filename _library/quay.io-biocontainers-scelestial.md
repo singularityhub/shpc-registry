@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scelestial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scelestial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scelestial/container.yaml"
-updated_at: "2023-06-26 03:46:47.898706"
+updated_at: "2023-06-27 03:26:30.077328"
 latest: "1.2--h2374e42_2"
 container_url: "https://biocontainers.pro/tools/scelestial"
 aliases:

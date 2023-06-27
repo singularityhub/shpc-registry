@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-sanger-cgp-allelecount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sanger-cgp-allelecount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sanger-cgp-allelecount/container.yaml"
-updated_at: "2023-06-26 04:15:37.330264"
-latest: "4.3.0--pl5321hec16e2b_0"
+updated_at: "2023-06-27 03:45:09.228545"
+latest: "4.3.0--pl5321h031d066_1"
 container_url: "https://biocontainers.pro/tools/perl-sanger-cgp-allelecount"
 aliases:
  - "alleleCounter.pl"
@@ -29,8 +29,9 @@ aliases:
  - "vcf-convert"
 versions:
  - "4.3.0--pl5321hec16e2b_0"
+ - "4.3.0--pl5321h031d066_1"
 description: "shpc-registry automated BioContainers addition for perl-sanger-cgp-allelecount"
-config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-allelecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-allelecount", "latest": {"4.3.0--pl5321hec16e2b_0": "sha256:4a195d434a067d25cdc60f94adf8452ae91b7f3748829e206d2b35297d03d7e2"}, "tags": {"4.3.0--pl5321hec16e2b_0": "sha256:4a195d434a067d25cdc60f94adf8452ae91b7f3748829e206d2b35297d03d7e2"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-allelecount", "aliases": {"alleleCounter.pl": "/usr/local/bin/alleleCounter.pl", "alleleCounterToJson.pl": "/usr/local/bin/alleleCounterToJson.pl", "cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "gcov2perl": "/usr/local/bin/gcov2perl", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sanger-cgp-allelecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sanger-cgp-allelecount", "latest": {"4.3.0--pl5321h031d066_1": "sha256:14a04ee083efefc4a3ef6dda9d3139c58d77ddac2c9927b371db87b71f8506dc"}, "tags": {"4.3.0--pl5321hec16e2b_0": "sha256:4a195d434a067d25cdc60f94adf8452ae91b7f3748829e206d2b35297d03d7e2", "4.3.0--pl5321h031d066_1": "sha256:14a04ee083efefc4a3ef6dda9d3139c58d77ddac2c9927b371db87b71f8506dc"}, "docker": "quay.io/biocontainers/perl-sanger-cgp-allelecount", "aliases": {"alleleCounter.pl": "/usr/local/bin/alleleCounter.pl", "alleleCounterToJson.pl": "/usr/local/bin/alleleCounterToJson.pl", "cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "gcov2perl": "/usr/local/bin/gcov2perl", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sanger-cgp-allelecount.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/perl-sanger-cgp-allelecount
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-sanger-cgp-allelecount:4.3.0--pl5321hec16e2b_0
+$ shpc install quay.io/biocontainers/perl-sanger-cgp-allelecount:4.3.0--pl5321h031d066_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-sanger-cgp-allelecount/4.3.0--pl5321hec16e2b_0
-$ module help quay.io/biocontainers/perl-sanger-cgp-allelecount/4.3.0--pl5321hec16e2b_0
+$ module load quay.io/biocontainers/perl-sanger-cgp-allelecount/4.3.0--pl5321h031d066_1
+$ module help quay.io/biocontainers/perl-sanger-cgp-allelecount/4.3.0--pl5321h031d066_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

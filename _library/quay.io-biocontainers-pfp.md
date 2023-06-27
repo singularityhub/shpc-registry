@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pfp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pfp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pfp/container.yaml"
-updated_at: "2023-06-26 03:35:09.093805"
+updated_at: "2023-06-27 03:18:58.760230"
 latest: "0.3.8--h146fbdb_2"
 container_url: "https://biocontainers.pro/tools/pfp"
 aliases:
