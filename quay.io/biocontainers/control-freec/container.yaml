@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/control-freec
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for control-freec
 latest:
-  11.6--h87f3376_2: sha256:84662aa8c0eed3fd0209a4e84936ad3fe7cecddb1947992f2b45ab217ec27222
+  11.6--hdbdd923_3: sha256:246def482a76fc7fc9faaa04499853f29acc16680500d5ade3fcce4eeb074611
 tags:
   11.6--h87f3376_2: sha256:84662aa8c0eed3fd0209a4e84936ad3fe7cecddb1947992f2b45ab217ec27222
+  11.6--hdbdd923_3: sha256:246def482a76fc7fc9faaa04499853f29acc16680500d5ade3fcce4eeb074611
 docker: quay.io/biocontainers/control-freec
 aliases:
   _makeGraph_Chromosome.R: /usr/local/bin/_makeGraph_Chromosome.R

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tksm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tksm
 latest:
-  0.3.0--py310h2b6aa90_0: sha256:7f2302660b26d99a214b32df97538c2ce523d81d7216cd44f7143fbe51393657
+  0.3.1--py39hd65a603_0: sha256:3108642a0ff85a1539192f41e355f94414f1985c7cd624d6fe395151e1c591ba
 tags:
   0.3.0--py310h2b6aa90_0: sha256:7f2302660b26d99a214b32df97538c2ce523d81d7216cd44f7143fbe51393657
+  0.3.1--py39hd65a603_0: sha256:3108642a0ff85a1539192f41e355f94414f1985c7cd624d6fe395151e1c591ba
 docker: quay.io/biocontainers/tksm
 aliases:
   tksm: /usr/local/bin/tksm

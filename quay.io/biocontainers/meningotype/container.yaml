@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/meningotype
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for meningotype
 latest:
-  0.8.5--pyhdfd78af_0: sha256:9d28ae0b769f13c72a37cc86c230eb7c028f13dbe55f2843edee3ea199844501
+  0.8.5--pyhdfd78af_1: sha256:bee23daa38f122c4e294961a28d70a4cb0c7c4d0933689f27d1578579a136435
 tags:
   0.8.5--pyhdfd78af_0: sha256:9d28ae0b769f13c72a37cc86c230eb7c028f13dbe55f2843edee3ea199844501
+  0.8.5--pyhdfd78af_1: sha256:bee23daa38f122c4e294961a28d70a4cb0c7c4d0933689f27d1578579a136435
 docker: quay.io/biocontainers/meningotype
 aliases:
   gfPcr: /usr/local/bin/gfPcr

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cosmiq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cosmiq
 latest:
-  1.32.0--r42hc247a5b_0: sha256:016e964924b5c2b3b49d2dd31290b5551f1425c5126de38184ec14e659420c25
+  1.32.0--r42hf17093f_1: sha256:41f445e169d158e9ed2818eb6d2fdd1da30e1c629594074718b0544ba1e87d7c
 tags:
   1.28.0--r41hc247a5b_2: sha256:58f9831c54d25fa60a651b0706162120035a2eed282d859939b61214045a053c
   1.32.0--r42hc247a5b_0: sha256:016e964924b5c2b3b49d2dd31290b5551f1425c5126de38184ec14e659420c25
+  1.32.0--r42hf17093f_1: sha256:41f445e169d158e9ed2818eb6d2fdd1da30e1c629594074718b0544ba1e87d7c
 docker: quay.io/biocontainers/bioconductor-cosmiq
 aliases:
   zipcmp: /usr/local/bin/zipcmp

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-mait
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mait
 latest:
-  1.32.0--r42hc247a5b_0: sha256:14a90b2f59e9676c3c652a3ee81d21489f1f7356102a1651b4262efd6dae83de
+  1.32.0--r42hf17093f_1: sha256:e0de26602a6a226d8b26fa8237c593623b86fc9981109bb95e236d4ecac2bfe9
 tags:
   1.28.0--r41hc247a5b_2: sha256:e391dc12fe04223b405e3fe1d7b68f546531c69516fc1b24594143dd3af85acd
   1.32.0--r42hc247a5b_0: sha256:14a90b2f59e9676c3c652a3ee81d21489f1f7356102a1651b4262efd6dae83de
+  1.32.0--r42hf17093f_1: sha256:e0de26602a6a226d8b26fa8237c593623b86fc9981109bb95e236d4ecac2bfe9
 docker: quay.io/biocontainers/bioconductor-mait
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck
