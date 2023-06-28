@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomedata/container.yaml"
-updated_at: "2023-06-27 03:15:45.456311"
+updated_at: "2023-06-28 03:18:39.825437"
 latest: "1.6.0--py38hb4fecc3_1"
 container_url: "https://biocontainers.pro/tools/genomedata"
 aliases:

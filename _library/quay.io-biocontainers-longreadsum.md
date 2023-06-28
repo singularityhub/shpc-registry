@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/longreadsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longreadsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longreadsum/container.yaml"
-updated_at: "2023-06-27 03:13:33.879722"
-latest: "1.2.0--py310h6d153b4_0"
+updated_at: "2023-06-28 03:15:52.022349"
+latest: "1.2.0--py38h5182439_1"
 container_url: "https://biocontainers.pro/tools/longreadsum"
 aliases:
  - "bam_plot.py"
@@ -44,8 +44,9 @@ aliases:
  - "h5redeploy"
 versions:
  - "1.2.0--py310h6d153b4_0"
+ - "1.2.0--py38h5182439_1"
 description: "singularity registry hpc automated addition for longreadsum"
-config: {"url": "https://biocontainers.pro/tools/longreadsum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longreadsum", "latest": {"1.2.0--py310h6d153b4_0": "sha256:5b3c1ef8809f5456de922cfa035cc5fc24bdb98299857936b3765b1a557d0dbb"}, "tags": {"1.2.0--py310h6d153b4_0": "sha256:5b3c1ef8809f5456de922cfa035cc5fc24bdb98299857936b3765b1a557d0dbb"}, "docker": "quay.io/biocontainers/longreadsum", "aliases": {"bam_plot.py": "/usr/local/bin/bam_plot.py", "cli.py": "/usr/local/bin/cli.py", "entry_point.py": "/usr/local/bin/entry_point.py", "fast5_signal_plot.py": "/usr/local/bin/fast5_signal_plot.py", "fasta_plot.py": "/usr/local/bin/fasta_plot.py", "generate_html.py": "/usr/local/bin/generate_html.py", "longreadsum": "/usr/local/bin/longreadsum", "plot_utils.py": "/usr/local/bin/plot_utils.py", "seqtxt_plot.py": "/usr/local/bin/seqtxt_plot.py", "tjbench": "/usr/local/bin/tjbench", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy"}}
+config: {"url": "https://biocontainers.pro/tools/longreadsum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longreadsum", "latest": {"1.2.0--py38h5182439_1": "sha256:0e31ade7c1c0fff0cc1bb446b00cc2462003ebdde315bc0aabce7e6af826e24c"}, "tags": {"1.2.0--py310h6d153b4_0": "sha256:5b3c1ef8809f5456de922cfa035cc5fc24bdb98299857936b3765b1a557d0dbb", "1.2.0--py38h5182439_1": "sha256:0e31ade7c1c0fff0cc1bb446b00cc2462003ebdde315bc0aabce7e6af826e24c"}, "docker": "quay.io/biocontainers/longreadsum", "aliases": {"bam_plot.py": "/usr/local/bin/bam_plot.py", "cli.py": "/usr/local/bin/cli.py", "entry_point.py": "/usr/local/bin/entry_point.py", "fast5_signal_plot.py": "/usr/local/bin/fast5_signal_plot.py", "fasta_plot.py": "/usr/local/bin/fasta_plot.py", "generate_html.py": "/usr/local/bin/generate_html.py", "longreadsum": "/usr/local/bin/longreadsum", "plot_utils.py": "/usr/local/bin/plot_utils.py", "seqtxt_plot.py": "/usr/local/bin/seqtxt_plot.py", "tjbench": "/usr/local/bin/tjbench", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longreadsum.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/longreadsum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/longreadsum:1.2.0--py310h6d153b4_0
+$ shpc install quay.io/biocontainers/longreadsum:1.2.0--py38h5182439_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/longreadsum/1.2.0--py310h6d153b4_0
-$ module help quay.io/biocontainers/longreadsum/1.2.0--py310h6d153b4_0
+$ module load quay.io/biocontainers/longreadsum/1.2.0--py38h5182439_1
+$ module help quay.io/biocontainers/longreadsum/1.2.0--py38h5182439_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kraken2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraken2/container.yaml"
-updated_at: "2023-06-27 03:35:01.707780"
-latest: "2.1.2--pl5321h4ac6f70_4"
+updated_at: "2023-06-28 03:43:07.898800"
+latest: "2.1.3--pl5321hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/kraken2"
 aliases:
  - "kraken2"
@@ -25,8 +25,9 @@ versions:
  - "2.1.2--pl5321h9f5acd7_2"
  - "2.1.2--pl5321h9f5acd7_3"
  - "2.1.2--pl5321h4ac6f70_4"
+ - "2.1.3--pl5321hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for kraken2"
-config: {"url": "https://biocontainers.pro/tools/kraken2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken2", "latest": {"2.1.2--pl5321h4ac6f70_4": "sha256:fb9e117364facd81410de17959d94443be7eddca6e1706751a77110cef8e99ac"}, "tags": {"2.1.2--pl5321h9f5acd7_2": "sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980", "2.1.2--pl5321h9f5acd7_3": "sha256:7906d6b83f3f267e1bf2757d4c645182aa8268835ff161e247549d8e052b7688", "2.1.2--pl5321h4ac6f70_4": "sha256:fb9e117364facd81410de17959d94443be7eddca6e1706751a77110cef8e99ac"}, "docker": "quay.io/biocontainers/kraken2", "aliases": {"kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
+config: {"url": "https://biocontainers.pro/tools/kraken2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken2", "latest": {"2.1.3--pl5321hdcf5f25_0": "sha256:c1a6841172e73fd7c8e323471b7f10eb53d980ba0f01f487bc50bf984add8cb3"}, "tags": {"2.1.2--pl5321h9f5acd7_2": "sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980", "2.1.2--pl5321h9f5acd7_3": "sha256:7906d6b83f3f267e1bf2757d4c645182aa8268835ff161e247549d8e052b7688", "2.1.2--pl5321h4ac6f70_4": "sha256:fb9e117364facd81410de17959d94443be7eddca6e1706751a77110cef8e99ac", "2.1.3--pl5321hdcf5f25_0": "sha256:c1a6841172e73fd7c8e323471b7f10eb53d980ba0f01f487bc50bf984add8cb3"}, "docker": "quay.io/biocontainers/kraken2", "aliases": {"kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraken2.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/kraken2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kraken2:2.1.2--pl5321h4ac6f70_4
+$ shpc install quay.io/biocontainers/kraken2:2.1.3--pl5321hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kraken2/2.1.2--pl5321h4ac6f70_4
-$ module help quay.io/biocontainers/kraken2/2.1.2--pl5321h4ac6f70_4
+$ module load quay.io/biocontainers/kraken2/2.1.3--pl5321hdcf5f25_0
+$ module help quay.io/biocontainers/kraken2/2.1.3--pl5321hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-nanomethviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanomethviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanomethviz/container.yaml"
-updated_at: "2023-06-27 03:25:25.200387"
-latest: "2.4.0--r42hc247a5b_0"
+updated_at: "2023-06-28 03:30:55.990972"
+latest: "2.4.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanomethviz"
 
 versions:
  - "2.0.0--r41hc247a5b_2"
  - "2.4.0--r42hc247a5b_0"
+ - "2.4.0--r42hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-nanomethviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nanomethviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanomethviz", "latest": {"2.4.0--r42hc247a5b_0": "sha256:6b291e0e453e49a043e5f43861860d76fb722f37bbb30d63c908909f08a52eb7"}, "tags": {"2.0.0--r41hc247a5b_2": "sha256:dfa3d49acde10f541a873508f14d3549f2bd01df87b9d7f6e48e205b02afa038", "2.4.0--r42hc247a5b_0": "sha256:6b291e0e453e49a043e5f43861860d76fb722f37bbb30d63c908909f08a52eb7"}, "docker": "quay.io/biocontainers/bioconductor-nanomethviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nanomethviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanomethviz", "latest": {"2.4.0--r42hf17093f_1": "sha256:7ca56ab94af104b07a542e281cf79b07a32264fc5ca36439cf09b82320997ef8"}, "tags": {"2.0.0--r41hc247a5b_2": "sha256:dfa3d49acde10f541a873508f14d3549f2bd01df87b9d7f6e48e205b02afa038", "2.4.0--r42hc247a5b_0": "sha256:6b291e0e453e49a043e5f43861860d76fb722f37bbb30d63c908909f08a52eb7", "2.4.0--r42hf17093f_1": "sha256:7ca56ab94af104b07a542e281cf79b07a32264fc5ca36439cf09b82320997ef8"}, "docker": "quay.io/biocontainers/bioconductor-nanomethviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nanomethviz.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nanomethviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nanomethviz:2.4.0--r42hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-nanomethviz:2.4.0--r42hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nanomethviz/2.4.0--r42hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-nanomethviz/2.4.0--r42hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-nanomethviz/2.4.0--r42hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-nanomethviz/2.4.0--r42hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

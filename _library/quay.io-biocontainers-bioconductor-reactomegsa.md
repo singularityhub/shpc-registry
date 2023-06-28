@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reactomegsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegsa/container.yaml"
-updated_at: "2023-06-27 03:37:19.551198"
+updated_at: "2023-06-28 03:46:03.282246"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegsa"
 

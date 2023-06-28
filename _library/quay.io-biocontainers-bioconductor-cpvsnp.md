@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cpvsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cpvsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cpvsnp/container.yaml"
-updated_at: "2023-06-27 03:44:06.656400"
+updated_at: "2023-06-28 03:54:40.743025"
 latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cpvsnp"
 
