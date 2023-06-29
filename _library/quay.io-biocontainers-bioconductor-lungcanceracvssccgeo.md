@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lungcanceracvssccgeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/container.yaml"
-updated_at: "2023-06-28 03:22:05.692133"
+updated_at: "2023-06-29 03:23:23.277645"
 latest: "1.34.0--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-lungcanceracvssccgeo"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sbgnview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sbgnview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sbgnview/container.yaml"
-updated_at: "2023-06-28 03:13:42.184074"
+updated_at: "2023-06-29 03:16:45.624084"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sbgnview"
 

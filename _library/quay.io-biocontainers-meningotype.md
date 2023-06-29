@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/meningotype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meningotype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meningotype/container.yaml"
-updated_at: "2023-06-28 03:52:03.431979"
-latest: "0.8.5--pyhdfd78af_0"
+updated_at: "2023-06-29 03:47:03.232608"
+latest: "0.8.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/meningotype"
 aliases:
  - "gfPcr"
@@ -25,8 +25,9 @@ aliases:
  - "bp_blast2tree.pl"
 versions:
  - "0.8.5--pyhdfd78af_0"
+ - "0.8.5--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for meningotype"
-config: {"url": "https://biocontainers.pro/tools/meningotype", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meningotype", "latest": {"0.8.5--pyhdfd78af_0": "sha256:9d28ae0b769f13c72a37cc86c230eb7c028f13dbe55f2843edee3ea199844501"}, "tags": {"0.8.5--pyhdfd78af_0": "sha256:9d28ae0b769f13c72a37cc86c230eb7c028f13dbe55f2843edee3ea199844501"}, "docker": "quay.io/biocontainers/meningotype", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "meningotype": "/usr/local/bin/meningotype", "mlst": "/usr/local/bin/mlst", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl"}}
+config: {"url": "https://biocontainers.pro/tools/meningotype", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meningotype", "latest": {"0.8.5--pyhdfd78af_1": "sha256:bee23daa38f122c4e294961a28d70a4cb0c7c4d0933689f27d1578579a136435"}, "tags": {"0.8.5--pyhdfd78af_0": "sha256:9d28ae0b769f13c72a37cc86c230eb7c028f13dbe55f2843edee3ea199844501", "0.8.5--pyhdfd78af_1": "sha256:bee23daa38f122c4e294961a28d70a4cb0c7c4d0933689f27d1578579a136435"}, "docker": "quay.io/biocontainers/meningotype", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "meningotype": "/usr/local/bin/meningotype", "mlst": "/usr/local/bin/mlst", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meningotype.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/meningotype
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/meningotype:0.8.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/meningotype:0.8.5--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/meningotype/0.8.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/meningotype/0.8.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/meningotype/0.8.5--pyhdfd78af_1
+$ module help quay.io/biocontainers/meningotype/0.8.5--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

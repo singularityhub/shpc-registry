@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mantis-msi2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mantis-msi2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mantis-msi2/container.yaml"
-updated_at: "2023-06-28 03:21:44.999651"
-latest: "2.0.0--h9f5acd7_0"
+updated_at: "2023-06-29 03:23:06.915196"
+latest: "2.0.0--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/mantis-msi2"
 aliases:
  - "calculate_instability.py"
@@ -25,8 +25,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "2.0.0--h9f5acd7_0"
+ - "2.0.0--h4ac6f70_1"
 description: "singularity registry hpc automated addition for mantis-msi2"
-config: {"url": "https://biocontainers.pro/tools/mantis-msi2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mantis-msi2", "latest": {"2.0.0--h9f5acd7_0": "sha256:3b10c99713f1faa78f018685d984965c0dd2db000f89fc06ff02f6056a30cf45"}, "tags": {"2.0.0--h9f5acd7_0": "sha256:3b10c99713f1faa78f018685d984965c0dd2db000f89fc06ff02f6056a30cf45"}, "docker": "quay.io/biocontainers/mantis-msi2", "aliases": {"calculate_instability.py": "/usr/local/bin/calculate_instability.py", "defaults.py": "/usr/local/bin/defaults.py", "helpers.py": "/usr/local/bin/helpers.py", "kmer_count_filter.py": "/usr/local/bin/kmer_count_filter.py", "kmer_repeat_counter.py": "/usr/local/bin/kmer_repeat_counter.py", "mantis-msi2": "/usr/local/bin/mantis-msi2", "mantis-msi2-repeat-finder": "/usr/local/bin/mantis-msi2-repeat-finder", "offset_finder.py": "/usr/local/bin/offset_finder.py", "structures.py": "/usr/local/bin/structures.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/mantis-msi2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mantis-msi2", "latest": {"2.0.0--h4ac6f70_1": "sha256:277a297535b9ba599a443961482f0deff2ab5a8dd8113e81c923716c7f6db5b0"}, "tags": {"2.0.0--h9f5acd7_0": "sha256:3b10c99713f1faa78f018685d984965c0dd2db000f89fc06ff02f6056a30cf45", "2.0.0--h4ac6f70_1": "sha256:277a297535b9ba599a443961482f0deff2ab5a8dd8113e81c923716c7f6db5b0"}, "docker": "quay.io/biocontainers/mantis-msi2", "aliases": {"calculate_instability.py": "/usr/local/bin/calculate_instability.py", "defaults.py": "/usr/local/bin/defaults.py", "helpers.py": "/usr/local/bin/helpers.py", "kmer_count_filter.py": "/usr/local/bin/kmer_count_filter.py", "kmer_repeat_counter.py": "/usr/local/bin/kmer_repeat_counter.py", "mantis-msi2": "/usr/local/bin/mantis-msi2", "mantis-msi2-repeat-finder": "/usr/local/bin/mantis-msi2-repeat-finder", "offset_finder.py": "/usr/local/bin/offset_finder.py", "structures.py": "/usr/local/bin/structures.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mantis-msi2.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/mantis-msi2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mantis-msi2:2.0.0--h9f5acd7_0
+$ shpc install quay.io/biocontainers/mantis-msi2:2.0.0--h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mantis-msi2/2.0.0--h9f5acd7_0
-$ module help quay.io/biocontainers/mantis-msi2/2.0.0--h9f5acd7_0
+$ module load quay.io/biocontainers/mantis-msi2/2.0.0--h4ac6f70_1
+$ module help quay.io/biocontainers/mantis-msi2/2.0.0--h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
