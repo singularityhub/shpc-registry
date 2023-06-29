@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/emvc-2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for emvc-2
+latest:
+  1.0--h031d066_0: sha256:2a48df913184cdbb4205d841201e71e6ab0f40bbfcae54f28282504ee21fa789
+tags:
+  1.0--h031d066_0: sha256:2a48df913184cdbb4205d841201e71e6ab0f40bbfcae54f28282504ee21fa789
+docker: quay.io/biocontainers/emvc-2
+aliases:
+  candidate_variants_finder: /usr/local/bin/candidate_variants_finder
+  emvc-2: /usr/local/bin/emvc-2
+  f2py3.8: /usr/local/bin/f2py3.8
+  tqdm: /usr/local/bin/tqdm
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl
+  wgsim: /usr/local/bin/wgsim
+  wgsim_eval.pl: /usr/local/bin/wgsim_eval.pl
+  samtools: /usr/local/bin/samtools
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
