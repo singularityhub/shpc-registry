@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequip/container.yaml"
-updated_at: "2023-06-29 03:16:33.787386"
+updated_at: "2023-06-29 03:10:13.994905"
 latest: "0.09--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sequip"
 aliases:

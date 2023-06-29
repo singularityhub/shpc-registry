@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-protgear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-protgear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-protgear/container.yaml"
-updated_at: "2023-06-29 03:51:16.918785"
+updated_at: "2023-06-29 03:54:03.990023"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-protgear"
 aliases:

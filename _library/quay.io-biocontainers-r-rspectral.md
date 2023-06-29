@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rspectral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rspectral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rspectral/container.yaml"
-updated_at: "2023-06-29 03:27:08.807435"
+updated_at: "2023-06-29 03:23:38.388063"
 latest: "1.0.0.10--r42h21a89ab_1"
 container_url: "https://biocontainers.pro/tools/r-rspectral"
 aliases:

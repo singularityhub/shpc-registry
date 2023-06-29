@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kipoiseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kipoiseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kipoiseq/container.yaml"
-updated_at: "2023-06-29 03:23:00.870119"
+updated_at: "2023-06-29 03:18:25.475339"
 latest: "0.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kipoiseq"
 aliases:
