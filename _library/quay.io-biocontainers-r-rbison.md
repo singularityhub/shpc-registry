@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rbison"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rbison/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rbison/container.yaml"
-updated_at: "2023-06-29 03:19:05.308669"
+updated_at: "2023-06-30 03:44:21.109379"
 latest: "0.6.0--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-rbison"
 aliases:

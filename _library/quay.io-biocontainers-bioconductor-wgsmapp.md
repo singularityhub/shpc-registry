@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wgsmapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wgsmapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wgsmapp/container.yaml"
-updated_at: "2023-06-29 03:17:28.045805"
+updated_at: "2023-06-30 03:04:11.970110"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wgsmapp"
 
