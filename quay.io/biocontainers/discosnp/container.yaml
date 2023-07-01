@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/discosnp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for discosnp
 latest:
-  2.6.2--h5b5514e_1: sha256:625b8bc040cb5fe5acc7738ae8af97e71e2beed24ebef730e2e636427db202a0
+  2.6.2--h43eeafb_3: sha256:9b27ccf463c966eae32d2e7bfb809934113ad4e054c4659083a0a6912d09b346
 tags:
   2.6.2--h5b5514e_1: sha256:625b8bc040cb5fe5acc7738ae8af97e71e2beed24ebef730e2e636427db202a0
+  2.6.2--h43eeafb_3: sha256:9b27ccf463c966eae32d2e7bfb809934113ad4e054c4659083a0a6912d09b346
 docker: quay.io/biocontainers/discosnp
 aliases:
   SRC_counter: /usr/local/bin/SRC_counter

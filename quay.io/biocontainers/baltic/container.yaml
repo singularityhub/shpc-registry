@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/baltic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for baltic
 latest:
-  0.1.6--pyh3252c3a_0: sha256:310cf822b62e3a010b785579955af7cce26c17e087fd174dec40c7034cb56b7b
+  0.1.8--pyh7cba7a3_0: sha256:e8c747bdab9a83eef8c64b93117c3ac99b23a47c6169a334f9e523b8104cc488
 tags:
   0.1.6--pyh3252c3a_0: sha256:310cf822b62e3a010b785579955af7cce26c17e087fd174dec40c7034cb56b7b
+  0.1.8--pyh7cba7a3_0: sha256:e8c747bdab9a83eef8c64b93117c3ac99b23a47c6169a334f9e523b8104cc488
 docker: quay.io/biocontainers/baltic
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9
