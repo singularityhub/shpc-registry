@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnuvid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnuvid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnuvid/container.yaml"
-updated_at: "2023-06-30 03:09:39.770419"
+updated_at: "2023-07-01 03:21:27.853500"
 latest: "2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gnuvid"
 aliases:

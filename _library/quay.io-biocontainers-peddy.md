@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peddy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peddy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peddy/container.yaml"
-updated_at: "2023-06-30 03:33:56.127681"
+updated_at: "2023-07-01 03:41:32.691259"
 latest: "0.4.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/peddy"
 aliases:

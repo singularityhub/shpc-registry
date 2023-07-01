@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rseqan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rseqan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rseqan/container.yaml"
-updated_at: "2023-06-30 03:13:13.044162"
+updated_at: "2023-07-01 03:24:25.265899"
 latest: "1.18.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rseqan"
 aliases:

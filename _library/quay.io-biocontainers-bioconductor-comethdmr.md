@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-comethdmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-comethdmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-comethdmr/container.yaml"
-updated_at: "2023-06-30 03:14:47.365763"
+updated_at: "2023-07-01 03:25:43.852099"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-comethdmr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytaxonkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytaxonkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytaxonkit/container.yaml"
-updated_at: "2023-06-30 03:10:03.145373"
+updated_at: "2023-07-01 03:21:47.432532"
 latest: "0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pytaxonkit"
 aliases:

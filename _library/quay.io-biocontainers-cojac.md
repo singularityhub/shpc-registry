@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cojac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cojac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cojac/container.yaml"
-updated_at: "2023-06-30 03:33:41.757398"
+updated_at: "2023-07-01 03:41:20.568804"
 latest: "0.9--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/cojac"
 aliases:

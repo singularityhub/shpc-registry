@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coprarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coprarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coprarna/container.yaml"
-updated_at: "2023-06-30 03:41:48.988265"
+updated_at: "2023-07-01 03:48:06.348672"
 latest: "2.1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/coprarna"
 aliases:

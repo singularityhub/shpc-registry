@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-vcfr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vcfr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vcfr/container.yaml"
-updated_at: "2023-06-30 03:31:17.398733"
+updated_at: "2023-07-01 03:39:20.672554"
 latest: "1.8.0--r36h0357c0b_3"
 container_url: "https://biocontainers.pro/tools/r-vcfr"
 aliases:

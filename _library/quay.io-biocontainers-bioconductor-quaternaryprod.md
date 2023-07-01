@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-quaternaryprod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quaternaryprod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quaternaryprod/container.yaml"
-updated_at: "2023-06-30 02:55:03.945849"
+updated_at: "2023-07-01 03:09:21.031042"
 latest: "1.32.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-quaternaryprod"
 aliases:
