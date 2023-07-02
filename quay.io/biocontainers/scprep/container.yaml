@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/scprep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scprep
 latest:
-  1.2.2--pyhdfd78af_0: sha256:350e5f81dc86af2189edf5e92e81782fdab8528f78b4af84e94025cbe4abdd47
+  1.2.3--pyhdfd78af_0: sha256:fef4f934b60c3e22b450fd2433bdd3e1f8595bda88c369c06fb160f49e6d5eca
 tags:
   1.2.1--pyhdfd78af_0: sha256:961df1e2457d29eb2134989ed43a43e7f4f5338fd17e9a28660473453dd4f2ad
   1.2.2--pyhdfd78af_0: sha256:350e5f81dc86af2189edf5e92e81782fdab8528f78b4af84e94025cbe4abdd47
+  1.2.3--pyhdfd78af_0: sha256:fef4f934b60c3e22b450fd2433bdd3e1f8595bda88c369c06fb160f49e6d5eca
 docker: quay.io/biocontainers/scprep
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ptgaul
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ptgaul
 latest:
-  1.0.5--pyhdfd78af_0: sha256:7866cb35e0f3da79600ca39339f8cedf63e769125bfc5e087eef7f960fe2d3e2
+  1.0.5--pyhdfd78af_1: sha256:f3a07f03c1c9a07d93af9b4c6c033b3be44a6f6c68a36dd6457d71ca0cb27b7e
 tags:
   1.0.5--pyhdfd78af_0: sha256:7866cb35e0f3da79600ca39339f8cedf63e769125bfc5e087eef7f960fe2d3e2
+  1.0.5--pyhdfd78af_1: sha256:f3a07f03c1c9a07d93af9b4c6c033b3be44a6f6c68a36dd6457d71ca0cb27b7e
 docker: quay.io/biocontainers/ptgaul
 aliases:
   assembly-stats: /usr/local/bin/assembly-stats

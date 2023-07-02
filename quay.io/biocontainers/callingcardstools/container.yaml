@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/callingcardstools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for callingcardstools
 latest:
-  1.0.0--pyhca03a8a_0: sha256:b38c184d2a48b1f29947c07f9bc1ca03510f2d8e1cab7b076eb0e5ad8b7b4813
+  1.0.0--pyhca03a8a_1: sha256:abc405cb339ca12a007eeb100e2db99411a7fca3d59fef2e92334c9fc55e4163
 tags:
   1.0.0--pyhca03a8a_0: sha256:b38c184d2a48b1f29947c07f9bc1ca03510f2d8e1cab7b076eb0e5ad8b7b4813
+  1.0.0--pyhca03a8a_1: sha256:abc405cb339ca12a007eeb100e2db99411a7fca3d59fef2e92334c9fc55e4163
 docker: quay.io/biocontainers/callingcardstools
 aliases:
   callingcardstools: /usr/local/bin/callingcardstools
