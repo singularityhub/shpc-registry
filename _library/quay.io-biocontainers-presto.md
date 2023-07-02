@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/presto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/presto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/presto/container.yaml"
-updated_at: "2023-07-01 03:21:11.177144"
+updated_at: "2023-07-02 03:20:13.098436"
 latest: "0.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/presto"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacoag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacoag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacoag/container.yaml"
-updated_at: "2023-07-01 03:54:22.916226"
+updated_at: "2023-07-02 03:59:30.628989"
 latest: "1.1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/metacoag"
 aliases:

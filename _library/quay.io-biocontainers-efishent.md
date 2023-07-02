@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/efishent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/efishent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/efishent/container.yaml"
-updated_at: "2023-07-01 03:16:41.236944"
+updated_at: "2023-07-02 03:14:53.025273"
 latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/efishent"
 aliases:

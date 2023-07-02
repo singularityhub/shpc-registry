@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sys-info-driver-linux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sys-info-driver-linux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sys-info-driver-linux/container.yaml"
-updated_at: "2023-07-01 03:29:37.100212"
+updated_at: "2023-07-02 03:30:11.029513"
 latest: "0.7905--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-sys-info-driver-linux"
 aliases:

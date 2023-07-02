@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xmlbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmlbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xmlbuilder/container.yaml"
-updated_at: "2023-07-01 03:29:57.733667"
+updated_at: "2023-07-02 03:30:35.685210"
 latest: "1.0--py27_1"
 container_url: "https://biocontainers.pro/tools/xmlbuilder"
 aliases:

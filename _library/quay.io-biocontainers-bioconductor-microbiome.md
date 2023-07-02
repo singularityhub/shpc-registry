@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-microbiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiome/container.yaml"
-updated_at: "2023-07-01 03:39:33.987388"
+updated_at: "2023-07-02 03:41:59.521850"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiome"
 aliases:

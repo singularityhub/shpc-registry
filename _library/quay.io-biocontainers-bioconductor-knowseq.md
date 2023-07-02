@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-knowseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-knowseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-knowseq/container.yaml"
-updated_at: "2023-07-01 03:52:30.161683"
+updated_at: "2023-07-02 03:57:16.907306"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-knowseq"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clair3-illumina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clair3-illumina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clair3-illumina/container.yaml"
-updated_at: "2023-07-01 03:31:36.369406"
-latest: "1.0.2--h2df963e_0"
+updated_at: "2023-07-02 03:32:32.863218"
+latest: "1.0.3--h376f1d3_0"
 container_url: "https://biocontainers.pro/tools/clair3-illumina"
 aliases:
  - "clair3.py"
@@ -44,8 +44,9 @@ versions:
  - "1.0.0--h2df963e_0"
  - "1.0.1--h2df963e_0"
  - "1.0.2--h2df963e_0"
+ - "1.0.3--h376f1d3_0"
 description: "singularity registry hpc automated addition for clair3-illumina"
-config: {"url": "https://biocontainers.pro/tools/clair3-illumina", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clair3-illumina", "latest": {"1.0.2--h2df963e_0": "sha256:ce8d3dec45c55d83a5f30b2261ea1b1d66159657e25b249944092edf6a6caf23"}, "tags": {"0.1.5--h2df963e_1": "sha256:2afff90b40c83cfb538d4d13623e428bce6bc806d3a5ec98ceaa92d2207cc998", "1.0.0--h2df963e_0": "sha256:1af2c9a7bad9470fda6c743ecd73d801a944f578d602f870fc20a634823745df", "1.0.1--h2df963e_0": "sha256:19e8cf22594f1e70e660740b31f1414aaeae6ce7810313950fe8c31488c5968c", "1.0.2--h2df963e_0": "sha256:ce8d3dec45c55d83a5f30b2261ea1b1d66159657e25b249944092edf6a6caf23"}, "docker": "quay.io/biocontainers/clair3-illumina", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3.sh": "/usr/local/bin/run_clair3.sh", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "tensorboard": "/usr/local/bin/tensorboard", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh"}}
+config: {"url": "https://biocontainers.pro/tools/clair3-illumina", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clair3-illumina", "latest": {"1.0.3--h376f1d3_0": "sha256:8d864e8e119c43c47b95ee23754c6356d5febf31173de3eced5d623fb6d1736e"}, "tags": {"0.1.5--h2df963e_1": "sha256:2afff90b40c83cfb538d4d13623e428bce6bc806d3a5ec98ceaa92d2207cc998", "1.0.0--h2df963e_0": "sha256:1af2c9a7bad9470fda6c743ecd73d801a944f578d602f870fc20a634823745df", "1.0.1--h2df963e_0": "sha256:19e8cf22594f1e70e660740b31f1414aaeae6ce7810313950fe8c31488c5968c", "1.0.2--h2df963e_0": "sha256:ce8d3dec45c55d83a5f30b2261ea1b1d66159657e25b249944092edf6a6caf23", "1.0.3--h376f1d3_0": "sha256:8d864e8e119c43c47b95ee23754c6356d5febf31173de3eced5d623fb6d1736e"}, "docker": "quay.io/biocontainers/clair3-illumina", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3.sh": "/usr/local/bin/run_clair3.sh", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "tensorboard": "/usr/local/bin/tensorboard", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clair3-illumina.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/clair3-illumina
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clair3-illumina:1.0.2--h2df963e_0
+$ shpc install quay.io/biocontainers/clair3-illumina:1.0.3--h376f1d3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clair3-illumina/1.0.2--h2df963e_0
-$ module help quay.io/biocontainers/clair3-illumina/1.0.2--h2df963e_0
+$ module load quay.io/biocontainers/clair3-illumina/1.0.3--h376f1d3_0
+$ module help quay.io/biocontainers/clair3-illumina/1.0.3--h376f1d3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
