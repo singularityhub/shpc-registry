@@ -1,0 +1,62 @@
+url: https://biocontainers.pro/tools/esviritu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for esviritu
+latest:
+  0.2.2--pyhdfd78af_0: sha256:70cb2f1d48c8079a36d3cb43b781305b300f9f9b4115664b1cc69115eaa1f04e
+tags:
+  0.2.2--pyhdfd78af_0: sha256:70cb2f1d48c8079a36d3cb43b781305b300f9f9b4115664b1cc69115eaa1f04e
+docker: quay.io/biocontainers/esviritu
+aliases:
+  EsViritu: /usr/local/bin/EsViritu
+  bioawk: /usr/local/bin/bioawk
+  bwa-mem2: /usr/local/bin/bwa-mem2
+  bwa-mem2.avx: /usr/local/bin/bwa-mem2.avx
+  bwa-mem2.avx2: /usr/local/bin/bwa-mem2.avx2
+  bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
+  bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
+  bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42
+  coverm: /usr/local/bin/coverm
+  dadaist2-mergeseqs: /usr/local/bin/dadaist2-mergeseqs
+  dashing: /usr/local/bin/dashing
+  fu-16Sregion: /usr/local/bin/fu-16Sregion
+  fu-cov: /usr/local/bin/fu-cov
+  fu-homocomp: /usr/local/bin/fu-homocomp
+  fu-index: /usr/local/bin/fu-index
+  fu-msa: /usr/local/bin/fu-msa
+  fu-multirelabel: /usr/local/bin/fu-multirelabel
+  fu-nanotags: /usr/local/bin/fu-nanotags
+  fu-orf: /usr/local/bin/fu-orf
+  fu-primers: /usr/local/bin/fu-primers
+  fu-shred: /usr/local/bin/fu-shred
+  fu-split: /usr/local/bin/fu-split
+  fu-sw: /usr/local/bin/fu-sw
+  fu-tabcheck: /usr/local/bin/fu-tabcheck
+  fu-virfilter: /usr/local/bin/fu-virfilter
+  hb-info: /usr/local/bin/hb-info
+  remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
+  seqfu: /usr/local/bin/seqfu
+  starcode: /usr/local/bin/starcode
+  fastANI: /usr/local/bin/fastANI
+  seqkit: /usr/local/bin/seqkit
+  fastp: /usr/local/bin/fastp
+  test_pcre: /usr/local/bin/test_pcre
+  tjbench: /usr/local/bin/tjbench
+  igzip: /usr/local/bin/igzip
+  f2py3.11: /usr/local/bin/f2py3.11
+  sdust: /usr/local/bin/sdust
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  k8: /usr/local/bin/k8
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table

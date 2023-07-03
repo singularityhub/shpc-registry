@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/python-monovar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for python-monovar
+latest:
+  0.1--hdfd78af_0: sha256:1d09d9ad0223d657330ab01bb15c8288a3f19b98f593fb6645b896dd72d6c8f3
+tags:
+  0.1--hdfd78af_0: sha256:1d09d9ad0223d657330ab01bb15c8288a3f19b98f593fb6645b896dd72d6c8f3
+docker: quay.io/biocontainers/python-monovar
+aliases:
+  monovar.py: /usr/local/bin/monovar.py
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl
+  wgsim: /usr/local/bin/wgsim
+  wgsim_eval.pl: /usr/local/bin/wgsim_eval.pl
+  samtools: /usr/local/bin/samtools

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/table2asn
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for table2asn
+latest:
+  1.27.792--h48fe88c_0: sha256:dd9bcea5b7b970c2a1824806772f2f691f408b37cc7de6f8559e0380d7245dda
+tags:
+  1.27.792--h48fe88c_0: sha256:dd9bcea5b7b970c2a1824806772f2f691f408b37cc7de6f8559e0380d7245dda
+docker: quay.io/biocontainers/table2asn
+aliases:
+  table2asn: /usr/local/bin/table2asn

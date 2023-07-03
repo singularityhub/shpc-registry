@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/galaxy-files
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for galaxy-files
+latest:
+  23.0.4--pyhdfd78af_0: sha256:7cd7affd47066001f2b2f491aa1653c231b501bf2f48f1c1e980cb0d941f4d94
+tags:
+  23.0.4--pyhdfd78af_0: sha256:7cd7affd47066001f2b2f491aa1653c231b501bf2f48f1c1e980cb0d941f4d94
+docker: quay.io/biocontainers/galaxy-files
+aliases:
+  cheetah: /usr/local/bin/cheetah
+  cheetah-analyze: /usr/local/bin/cheetah-analyze
+  cheetah-compile: /usr/local/bin/cheetah-compile
+  docutils: /usr/local/bin/docutils
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  rst2html4.py: /usr/local/bin/rst2html4.py
+  rst2html5.py: /usr/local/bin/rst2html5.py
+  rst2html.py: /usr/local/bin/rst2html.py
+  rst2latex.py: /usr/local/bin/rst2latex.py
+  rst2man.py: /usr/local/bin/rst2man.py
+  rst2odt.py: /usr/local/bin/rst2odt.py
+  rst2odt_prepstyles.py: /usr/local/bin/rst2odt_prepstyles.py
+  rst2pseudoxml.py: /usr/local/bin/rst2pseudoxml.py
+  rst2s5.py: /usr/local/bin/rst2s5.py
+  rst2xetex.py: /usr/local/bin/rst2xetex.py
+  rst2xml.py: /usr/local/bin/rst2xml.py
+  rstpep2html.py: /usr/local/bin/rstpep2html.py
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1

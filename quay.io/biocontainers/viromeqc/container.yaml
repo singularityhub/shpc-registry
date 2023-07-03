@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/viromeqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for viromeqc
+latest:
+  1.0.2--py310h7cba7a3_0: sha256:84ef93bd8952330316779319c6359d9faa8034ecfe1e4d88808302aacfb378ba
+tags:
+  1.0.2--py310h7cba7a3_0: sha256:84ef93bd8952330316779319c6359d9faa8034ecfe1e4d88808302aacfb378ba
+docker: quay.io/biocontainers/viromeqc
+aliases:
+  fastq_len_filter.py: /usr/local/bin/fastq_len_filter.py
+  license.txt: /usr/local/bin/license.txt
+  medians.csv: /usr/local/bin/medians.csv
+  viromeQC.py: /usr/local/bin/viromeQC.py
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  test_pcre: /usr/local/bin/test_pcre
+  diamond: /usr/local/bin/diamond
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l

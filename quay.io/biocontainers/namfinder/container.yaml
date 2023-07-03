@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/namfinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for namfinder
+latest:
+  0.1.3--h4ac6f70_0: sha256:722923cbd6b5d4e78c547058f3260693c0d81bca32ac4034acacd2d9a05ee386
+tags:
+  0.1.3--h4ac6f70_0: sha256:722923cbd6b5d4e78c547058f3260693c0d81bca32ac4034acacd2d9a05ee386
+docker: quay.io/biocontainers/namfinder
+aliases:
+  namfinder: /usr/local/bin/namfinder

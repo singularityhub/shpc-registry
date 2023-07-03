@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pyopal
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyopal
+latest:
+  0.3.0--py38hcbe9525_0: sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db
+tags:
+  0.3.0--py38hcbe9525_0: sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db
+docker: quay.io/biocontainers/pyopal
+aliases:
+  archspec: /usr/local/bin/archspec
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
