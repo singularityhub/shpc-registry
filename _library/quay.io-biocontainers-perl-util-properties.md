@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-util-properties"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-util-properties/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-util-properties/container.yaml"
-updated_at: "2023-07-02 03:23:15.822835"
+updated_at: "2023-07-03 03:19:17.246662"
 latest: "0.18--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-util-properties"
 aliases:

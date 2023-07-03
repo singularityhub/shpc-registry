@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dextractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dextractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dextractor/container.yaml"
-updated_at: "2023-07-02 03:28:56.960895"
+updated_at: "2023-07-03 03:25:19.427130"
 latest: "1.0p2--he47dfe4_7"
 container_url: "https://biocontainers.pro/tools/dextractor"
 aliases:

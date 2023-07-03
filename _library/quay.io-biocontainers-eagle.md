@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eagle/container.yaml"
-updated_at: "2023-07-02 03:11:24.765084"
+updated_at: "2023-07-03 03:06:47.432109"
 latest: "0.9.4.6--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/eagle"
 aliases:

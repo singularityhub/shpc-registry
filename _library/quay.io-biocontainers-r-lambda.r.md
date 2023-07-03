@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lambda.r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lambda.r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lambda.r/container.yaml"
-updated_at: "2023-07-02 03:41:57.062371"
+updated_at: "2023-07-03 03:39:09.780863"
 latest: "1.1.7--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-lambda.r"
 aliases:

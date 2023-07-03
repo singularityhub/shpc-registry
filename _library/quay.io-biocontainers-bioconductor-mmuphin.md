@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mmuphin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmuphin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmuphin/container.yaml"
-updated_at: "2023-07-02 03:39:14.316069"
+updated_at: "2023-07-03 03:36:16.837720"
 latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmuphin"
 

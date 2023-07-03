@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graph/container.yaml"
-updated_at: "2023-07-02 03:28:52.371148"
-latest: "0.9726--pl5321hdfd78af_0"
+updated_at: "2023-07-03 03:25:14.561877"
+latest: "0.9727--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-graph"
 
 versions:
  - "0.9725--pl5321hdfd78af_0"
  - "0.9726--pl5321hdfd78af_0"
+ - "0.9727--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-graph"
-config: {"url": "https://biocontainers.pro/tools/perl-graph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graph", "latest": {"0.9726--pl5321hdfd78af_0": "sha256:067044194856d198119c049b6f434a9540e50443099163483d7311a6b782afd1"}, "tags": {"0.9725--pl5321hdfd78af_0": "sha256:12bddd0a13f2c6e9603806d960f22e045cd82f267cf904561e33554322c9ed0e", "0.9726--pl5321hdfd78af_0": "sha256:067044194856d198119c049b6f434a9540e50443099163483d7311a6b782afd1"}, "docker": "quay.io/biocontainers/perl-graph"}
+config: {"url": "https://biocontainers.pro/tools/perl-graph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graph", "latest": {"0.9727--pl5321hdfd78af_0": "sha256:da57abb20bd065bb2fa7bf72dbe9d389db238920a83e9af3ed288eb39ec6ae4a"}, "tags": {"0.9725--pl5321hdfd78af_0": "sha256:12bddd0a13f2c6e9603806d960f22e045cd82f267cf904561e33554322c9ed0e", "0.9726--pl5321hdfd78af_0": "sha256:067044194856d198119c049b6f434a9540e50443099163483d7311a6b782afd1", "0.9727--pl5321hdfd78af_0": "sha256:da57abb20bd065bb2fa7bf72dbe9d389db238920a83e9af3ed288eb39ec6ae4a"}, "docker": "quay.io/biocontainers/perl-graph"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-graph.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/perl-graph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-graph:0.9726--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-graph:0.9727--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-graph/0.9726--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-graph/0.9726--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-graph/0.9727--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-graph/0.9727--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
