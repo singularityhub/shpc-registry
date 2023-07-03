@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-notabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-notabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-notabs/container.yaml"
-updated_at: "2023-07-03 03:51:19.188187"
+updated_at: "2023-07-03 04:03:47.687421"
 latest: "2.02--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-notabs"
 aliases:

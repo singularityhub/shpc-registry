@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapid/container.yaml"
-updated_at: "2023-07-03 03:40:58.136257"
+updated_at: "2023-07-03 03:54:54.257176"
 latest: "1.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/rapid"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libxpm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libxpm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libxpm/container.yaml"
-updated_at: "2023-07-03 02:59:12.071168"
+updated_at: "2023-07-03 03:19:44.294537"
 latest: "3.5.12"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libxpm"
 

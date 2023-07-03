@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cagefightr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cagefightr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cagefightr/container.yaml"
-updated_at: "2023-07-03 03:29:16.261561"
+updated_at: "2023-07-03 03:44:57.243561"
 latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cagefightr"
 aliases:

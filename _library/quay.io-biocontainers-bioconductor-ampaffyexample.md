@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ampaffyexample"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ampaffyexample/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ampaffyexample/container.yaml"
-updated_at: "2023-07-03 03:01:16.276323"
+updated_at: "2023-07-03 03:21:26.877491"
 latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ampaffyexample"
 

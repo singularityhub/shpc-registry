@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fpa/container.yaml"
-updated_at: "2023-07-03 03:08:28.785144"
+updated_at: "2023-07-03 03:27:26.910416"
 latest: "0.5--hbcae180_2"
 container_url: "https://biocontainers.pro/tools/fpa"
 aliases:

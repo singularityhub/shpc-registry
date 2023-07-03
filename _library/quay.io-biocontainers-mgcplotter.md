@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgcplotter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgcplotter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgcplotter/container.yaml"
-updated_at: "2023-07-03 03:49:56.095566"
+updated_at: "2023-07-03 04:02:35.708301"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mgcplotter"
 aliases:

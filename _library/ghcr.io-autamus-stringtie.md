@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/stringtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/stringtie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/stringtie/container.yaml"
-updated_at: "2023-07-03 02:59:47.139271"
+updated_at: "2023-07-03 03:20:13.211792"
 latest: "2.1.7"
 container_url: "https://github.com/orgs/autamus/packages/container/package/stringtie"
 aliases:

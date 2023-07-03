@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ternarynet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ternarynet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ternarynet/container.yaml"
-updated_at: "2023-07-03 03:44:37.787196"
+updated_at: "2023-07-03 03:58:01.830021"
 latest: "1.42.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ternarynet"
 aliases:

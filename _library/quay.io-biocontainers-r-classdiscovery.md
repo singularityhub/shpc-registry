@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-classdiscovery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-classdiscovery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-classdiscovery/container.yaml"
-updated_at: "2023-07-03 03:02:54.337337"
+updated_at: "2023-07-03 03:22:48.493655"
 latest: "3.4.0--r42h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-classdiscovery"
 aliases:

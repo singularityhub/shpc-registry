@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esimsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esimsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esimsa/container.yaml"
-updated_at: "2023-07-03 03:17:11.914906"
+updated_at: "2023-07-03 03:34:50.280092"
 latest: "1.0--h470a237_1"
 container_url: "https://biocontainers.pro/tools/esimsa"
 aliases:

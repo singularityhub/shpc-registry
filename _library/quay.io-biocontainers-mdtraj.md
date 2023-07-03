@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mdtraj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdtraj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdtraj/container.yaml"
-updated_at: "2023-07-03 03:11:24.798566"
+updated_at: "2023-07-03 03:29:56.539845"
 latest: "1.9.7"
 container_url: "https://biocontainers.pro/tools/mdtraj"
 aliases:
