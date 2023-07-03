@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/oligomap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for oligomap
+latest:
+  1.0.1--hdcf5f25_0: sha256:3c0108ddd21099f961359844a4590a7b88b02be92a952e0ecc36a48597a1599c
+tags:
+  1.0.1--hdcf5f25_0: sha256:3c0108ddd21099f961359844a4590a7b88b02be92a952e0ecc36a48597a1599c
+docker: quay.io/biocontainers/oligomap
+aliases:
+  oligomap: /usr/local/bin/oligomap

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/geno2phenotb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for geno2phenotb
+latest:
+  1.0.0--pyhdfd78af_0: sha256:43fe9d40dc675b423216b913be9de98740163efcc15525e6a6077d0d35bbbc1e
+tags:
+  1.0.0--pyhdfd78af_0: sha256:43fe9d40dc675b423216b913be9de98740163efcc15525e6a6077d0d35bbbc1e
+docker: quay.io/biocontainers/geno2phenotb
+aliases:
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
+  MTBseq: /usr/local/bin/MTBseq
+  gatk3: /usr/local/bin/gatk3
+  geno2phenotb: /usr/local/bin/geno2phenotb
+  picard: /usr/local/bin/picard
+  clhsdb: /usr/local/bin/clhsdb
+  hsdb: /usr/local/bin/hsdb
+  extcheck: /usr/local/bin/extcheck
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd
+  schemagen: /usr/local/bin/schemagen
+  servertool: /usr/local/bin/servertool
+  tnameserv: /usr/local/bin/tnameserv
+  wsgen: /usr/local/bin/wsgen
+  wsimport: /usr/local/bin/wsimport
+  xjc: /usr/local/bin/xjc
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  f2py3.7: /usr/local/bin/f2py3.7
+  jfr: /usr/local/bin/jfr
+  2to3-3.7: /usr/local/bin/2to3-3.7
