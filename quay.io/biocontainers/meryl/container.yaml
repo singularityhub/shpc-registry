@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/meryl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for meryl
 latest:
-  1.3--hdbdd923_2: sha256:9cfe97fba3df7674a5edb91a4eb5a9108c39dcea0732471afaeac98d7c51ba42
+  1.4--h4ac6f70_0: sha256:d6c59f33942435084a9ee5ef38f2eb41e07a120100ca8b39c2733317e5f7db4c
 tags:
   v1.0--hc9558a2_0: sha256:09fb2dd161e0f96f755dd567d59d12b802fb757af1cc9642c5b851903dbb6099
   1.3--h87f3376_1: sha256:09d885c2ff293aff190cf2b8f8d022bbb5d590c4b3af8805d9c0536ba4a59faa
   1.2--h1b792b2_1: sha256:69343475b90a3401e09a4358365ee8c1d807b5ec534b628e324a95ac8d39731f
   1.3--hdbdd923_2: sha256:9cfe97fba3df7674a5edb91a4eb5a9108c39dcea0732471afaeac98d7c51ba42
+  1.4--h4ac6f70_0: sha256:d6c59f33942435084a9ee5ef38f2eb41e07a120100ca8b39c2733317e5f7db4c
 docker: quay.io/biocontainers/meryl
 aliases:
   meryl: /usr/local/bin/meryl

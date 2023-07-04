@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perbase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perbase
 latest:
-  0.8.5--h787ab5b_3: sha256:aceec74cd00d995a86cbcb077ac8f177311bc751faa0f3429ebecfeed3eadc35
+  0.9.0--h787ab5b_0: sha256:0cba2dbcc507e4108fb8c2bf4e5932ac869835daa72a0b7196607748cc19bb1e
 tags:
   0.8.5--h93ac3e5_1: sha256:306bfc77a7e69036f16afb048c93abef6661c15ea5c4d21c13bb108935d90328
   0.8.5--h787ab5b_3: sha256:aceec74cd00d995a86cbcb077ac8f177311bc751faa0f3429ebecfeed3eadc35
+  0.9.0--h787ab5b_0: sha256:0cba2dbcc507e4108fb8c2bf4e5932ac869835daa72a0b7196607748cc19bb1e
 docker: quay.io/biocontainers/perbase
 aliases:
   perbase: /usr/local/bin/perbase
