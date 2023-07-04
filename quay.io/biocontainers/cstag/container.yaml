@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cstag
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cstag
 latest:
-  0.3.1--pyhdfd78af_0: sha256:0abb07b2d5031df525423a1f41e4154bbdd254773ab8cdfc2a810fd6b422672f
+  0.4.1--pyhdfd78af_0: sha256:9b9e0e69c29c3a765b9a18da38efbc3afc549eb58e21dd3140e26ffff0c135c3
 tags:
   0.3.1--pyhdfd78af_0: sha256:0abb07b2d5031df525423a1f41e4154bbdd254773ab8cdfc2a810fd6b422672f
+  0.4.1--pyhdfd78af_0: sha256:9b9e0e69c29c3a765b9a18da38efbc3afc549eb58e21dd3140e26ffff0c135c3
 docker: quay.io/biocontainers/cstag
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

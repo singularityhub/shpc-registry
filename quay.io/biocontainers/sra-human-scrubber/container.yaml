@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sra-human-scrubber
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sra-human-scrubber
 latest:
-  2.0.0--hdfd78af_0: sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef
+  2.1.0--hdfd78af_0: sha256:78c738c06029ad02e908506979864f95f5e0811aff07aff8a79df3ef77414e1d
 tags:
   2.0.0--hdfd78af_0: sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef
+  2.1.0--hdfd78af_0: sha256:78c738c06029ad02e908506979864f95f5e0811aff07aff8a79df3ef77414e1d
 docker: quay.io/biocontainers/sra-human-scrubber
 aliases:
   aligns_to: /usr/local/bin/aligns_to
