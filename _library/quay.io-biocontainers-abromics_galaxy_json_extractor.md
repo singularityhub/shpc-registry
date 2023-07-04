@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abromics_galaxy_json_extractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abromics_galaxy_json_extractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abromics_galaxy_json_extractor/container.yaml"
-updated_at: "2023-07-03 03:53:16.331661"
+updated_at: "2023-07-04 03:40:02.127618"
 latest: "0.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/abromics_galaxy_json_extractor"
 aliases:
