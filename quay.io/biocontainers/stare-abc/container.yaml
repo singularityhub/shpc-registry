@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/stare-abc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for stare-abc
 latest:
-  1.0.4--h72a8191_0: sha256:6eece6e05948efea4479969d1cc62269fa2601e56a75e76767421d52d55051b1
+  1.0.4--haf6292c_1: sha256:3cb06d664d5654f391b03d11a0c56509609100e7b8ae21d01fddc4f70302d300
 tags:
   1.0.3.1--h72a8191_0: sha256:76e0d7be6f7b19d408336ca2d3569c1c9179bf7efe186e6389077f387054e83a
   1.0.3.2--h72a8191_0: sha256:9885c3a49bfdaf8bd89c0e2115623bb16c13f66f08467c734f18ae49404c3166
   1.0.4--h72a8191_0: sha256:6eece6e05948efea4479969d1cc62269fa2601e56a75e76767421d52d55051b1
+  1.0.4--haf6292c_1: sha256:3cb06d664d5654f391b03d11a0c56509609100e7b8ae21d01fddc4f70302d300
 docker: quay.io/biocontainers/stare-abc
 aliases:
   CMakeCache.txt: /usr/local/bin/CMakeCache.txt
