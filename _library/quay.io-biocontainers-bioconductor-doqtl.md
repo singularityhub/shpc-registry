@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-doqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doqtl/container.yaml"
-updated_at: "2023-07-04 03:35:00.687923"
+updated_at: "2023-07-05 03:37:07.113533"
 latest: "1.19.0--r36h516909a_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-doqtl"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treeswift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treeswift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treeswift/container.yaml"
-updated_at: "2023-07-04 03:29:06.015768"
-latest: "1.1.35--pyh7cba7a3_0"
+updated_at: "2023-07-05 03:30:49.672698"
+latest: "1.1.37--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/treeswift"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,9 @@ versions:
  - "1.1.30--pyh7cba7a3_0"
  - "1.1.33--pyh7cba7a3_0"
  - "1.1.35--pyh7cba7a3_0"
+ - "1.1.37--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for treeswift"
-config: {"url": "https://biocontainers.pro/tools/treeswift", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treeswift", "latest": {"1.1.35--pyh7cba7a3_0": "sha256:b2adeeee567444c0609e0d2862ee47b18d79e6fe2c1cbb876daf54048a030f40"}, "tags": {"1.1.6--py_0": "sha256:780afa49e29b27a166ba6394919657d53beaf478e73204e3069bbe26caec3204", "1.1.30--pyh7cba7a3_0": "sha256:3478bf11f89f8f5687acc316530158fb7604d70e28c301ea21bc081deb7b2105", "1.1.33--pyh7cba7a3_0": "sha256:2aad19ec3e920425bb2f65649ed5bf2019add1b221e2247912ce7a242b5c8f09", "1.1.35--pyh7cba7a3_0": "sha256:b2adeeee567444c0609e0d2862ee47b18d79e6fe2c1cbb876daf54048a030f40"}, "docker": "quay.io/biocontainers/treeswift", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/treeswift", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treeswift", "latest": {"1.1.37--pyh7cba7a3_0": "sha256:7a7c5fdea3d13c57fa0d225e44976c783752ae68eaccc6cbfabac3d51b152cee"}, "tags": {"1.1.6--py_0": "sha256:780afa49e29b27a166ba6394919657d53beaf478e73204e3069bbe26caec3204", "1.1.30--pyh7cba7a3_0": "sha256:3478bf11f89f8f5687acc316530158fb7604d70e28c301ea21bc081deb7b2105", "1.1.33--pyh7cba7a3_0": "sha256:2aad19ec3e920425bb2f65649ed5bf2019add1b221e2247912ce7a242b5c8f09", "1.1.35--pyh7cba7a3_0": "sha256:b2adeeee567444c0609e0d2862ee47b18d79e6fe2c1cbb876daf54048a030f40", "1.1.37--pyh7cba7a3_0": "sha256:7a7c5fdea3d13c57fa0d225e44976c783752ae68eaccc6cbfabac3d51b152cee"}, "docker": "quay.io/biocontainers/treeswift", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treeswift.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/treeswift
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treeswift:1.1.35--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/treeswift:1.1.37--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treeswift/1.1.35--pyh7cba7a3_0
-$ module help quay.io/biocontainers/treeswift/1.1.35--pyh7cba7a3_0
+$ module load quay.io/biocontainers/treeswift/1.1.37--pyh7cba7a3_0
+$ module help quay.io/biocontainers/treeswift/1.1.37--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

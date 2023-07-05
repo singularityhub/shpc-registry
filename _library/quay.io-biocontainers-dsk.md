@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dsk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dsk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dsk/container.yaml"
-updated_at: "2023-07-04 03:14:36.520060"
+updated_at: "2023-07-05 03:15:09.570302"
 latest: "2.3.3--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/dsk"
 aliases:
