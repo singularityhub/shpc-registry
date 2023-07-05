@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/paste-bio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for paste-bio
 latest:
-  1.3.0--pyh5e36f6f_0: sha256:dc6cc2816d30796cd5d882873a092da70055416c537f7521edb1ed51040a8752
+  1.4.0--pyh7cba7a3_0: sha256:ddb129786b1a0b1230081a8986329a17fcf2bc5ff300b803557d6dc7c128c733
 tags:
   1.3.0--pyh5e36f6f_0: sha256:dc6cc2816d30796cd5d882873a092da70055416c537f7521edb1ed51040a8752
+  1.4.0--pyh7cba7a3_0: sha256:ddb129786b1a0b1230081a8986329a17fcf2bc5ff300b803557d6dc7c128c733
 docker: quay.io/biocontainers/paste-bio
 aliases:
   scanpy: /usr/local/bin/scanpy
