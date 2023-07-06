@@ -1,0 +1,13 @@
+docker: rocm/tensorflow
+url: https://hub.docker.com/r/rocm/tensorflow
+maintainer: '@dipietrantonio'
+description: Tensorflow with ROCm backend support
+latest:
+  rocm5.5-tf2.11-dev: sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765
+tags:
+  rocm5.5-tf2.11-dev: sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765
+features:
+  gpu: true
+aliases:
+  python: /usr/bin/python
+  python3: /usr/bin/python3
