@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ontime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ontime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ontime/container.yaml"
-updated_at: "2023-07-05 03:05:24.494887"
+updated_at: "2023-07-06 03:57:40.867106"
 latest: "0.1.3--h031d066_2"
 container_url: "https://biocontainers.pro/tools/ontime"
 aliases:

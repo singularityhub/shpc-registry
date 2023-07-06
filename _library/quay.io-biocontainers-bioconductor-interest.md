@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-interest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interest/container.yaml"
-updated_at: "2023-07-05 03:47:23.545627"
+updated_at: "2023-07-06 03:46:07.997892"
 latest: "1.22.2--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interest"
 aliases:

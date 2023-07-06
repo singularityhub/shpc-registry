@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pdinfobuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pdinfobuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pdinfobuilder/container.yaml"
-updated_at: "2023-07-05 03:33:31.226260"
+updated_at: "2023-07-06 03:42:55.772390"
 latest: "1.62.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pdinfobuilder"
 

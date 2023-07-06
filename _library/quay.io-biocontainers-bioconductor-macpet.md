@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macpet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macpet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macpet/container.yaml"
-updated_at: "2023-07-05 03:35:14.864587"
+updated_at: "2023-07-06 03:44:52.744421"
 latest: "1.14.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-macpet"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/calisp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calisp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/calisp/container.yaml"
-updated_at: "2023-07-05 03:34:13.394024"
+updated_at: "2023-07-06 03:19:40.442438"
 latest: "3.0.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/calisp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fraser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fraser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fraser/container.yaml"
-updated_at: "2023-07-05 03:09:32.502091"
+updated_at: "2023-07-06 03:29:26.986960"
 latest: "1.10.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fraser"
 

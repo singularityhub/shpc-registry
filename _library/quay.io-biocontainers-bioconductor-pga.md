@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pga/container.yaml"
-updated_at: "2023-07-05 03:16:09.056734"
+updated_at: "2023-07-06 03:50:48.808390"
 latest: "1.18.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pga"
 aliases:

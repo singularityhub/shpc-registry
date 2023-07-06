@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/paste-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paste-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paste-bio/container.yaml"
-updated_at: "2023-07-05 03:04:52.153721"
-latest: "1.3.0--pyh5e36f6f_0"
+updated_at: "2023-07-06 03:31:53.306974"
+latest: "1.4.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/paste-bio"
 aliases:
  - "scanpy"
@@ -20,8 +20,9 @@ aliases:
  - "mirror_server"
 versions:
  - "1.3.0--pyh5e36f6f_0"
+ - "1.4.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for paste-bio"
-config: {"url": "https://biocontainers.pro/tools/paste-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for paste-bio", "latest": {"1.3.0--pyh5e36f6f_0": "sha256:dc6cc2816d30796cd5d882873a092da70055416c537f7521edb1ed51040a8752"}, "tags": {"1.3.0--pyh5e36f6f_0": "sha256:dc6cc2816d30796cd5d882873a092da70055416c537f7521edb1ed51040a8752"}, "docker": "quay.io/biocontainers/paste-bio", "aliases": {"scanpy": "/usr/local/bin/scanpy", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
+config: {"url": "https://biocontainers.pro/tools/paste-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for paste-bio", "latest": {"1.4.0--pyh7cba7a3_0": "sha256:ddb129786b1a0b1230081a8986329a17fcf2bc5ff300b803557d6dc7c128c733"}, "tags": {"1.3.0--pyh5e36f6f_0": "sha256:dc6cc2816d30796cd5d882873a092da70055416c537f7521edb1ed51040a8752", "1.4.0--pyh7cba7a3_0": "sha256:ddb129786b1a0b1230081a8986329a17fcf2bc5ff300b803557d6dc7c128c733"}, "docker": "quay.io/biocontainers/paste-bio", "aliases": {"scanpy": "/usr/local/bin/scanpy", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/paste-bio.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/paste-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/paste-bio:1.3.0--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/paste-bio:1.4.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/paste-bio/1.3.0--pyh5e36f6f_0
-$ module help quay.io/biocontainers/paste-bio/1.3.0--pyh5e36f6f_0
+$ module load quay.io/biocontainers/paste-bio/1.4.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/paste-bio/1.4.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
