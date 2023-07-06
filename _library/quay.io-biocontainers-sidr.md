@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sidr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sidr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sidr/container.yaml"
-updated_at: "2023-07-06 03:34:24.455849"
+updated_at: "2023-07-06 06:59:00.609790"
 latest: "0.0.2a2--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/sidr"
 aliases:

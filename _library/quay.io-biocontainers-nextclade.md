@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextclade"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextclade/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextclade/container.yaml"
-updated_at: "2023-07-06 03:26:33.763727"
+updated_at: "2023-07-06 06:52:48.378832"
 latest: "2.14.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/nextclade"
 aliases:

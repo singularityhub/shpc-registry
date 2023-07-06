@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snp-pileup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-pileup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-pileup/container.yaml"
-updated_at: "2023-07-06 04:07:25.934261"
+updated_at: "2023-07-06 07:24:56.838319"
 latest: "0.6.2--h0033a41_5"
 container_url: "https://biocontainers.pro/tools/snp-pileup"
 aliases:

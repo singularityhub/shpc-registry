@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ringo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ringo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ringo/container.yaml"
-updated_at: "2023-07-06 03:50:22.141681"
+updated_at: "2023-07-06 07:11:32.106852"
 latest: "1.62.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ringo"
 

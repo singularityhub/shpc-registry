@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cliquems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cliquems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cliquems/container.yaml"
-updated_at: "2023-07-06 03:33:30.200531"
+updated_at: "2023-07-06 06:58:17.440146"
 latest: "1.12.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cliquems"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hicap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicap/container.yaml"
-updated_at: "2023-07-06 04:03:36.438901"
+updated_at: "2023-07-06 07:21:56.726468"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/hicap"
 aliases:

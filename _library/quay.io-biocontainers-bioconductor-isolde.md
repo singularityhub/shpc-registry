@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isolde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isolde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isolde/container.yaml"
-updated_at: "2023-07-06 03:50:35.150769"
+updated_at: "2023-07-06 07:11:41.924118"
 latest: "1.26.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-isolde"
 aliases:
