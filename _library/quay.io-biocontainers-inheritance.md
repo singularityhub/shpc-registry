@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/inheritance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inheritance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inheritance/container.yaml"
-updated_at: "2023-07-06 03:37:53.647054"
+updated_at: "2023-07-06 03:11:11.475827"
 latest: "0.1.5--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/inheritance"
 aliases:

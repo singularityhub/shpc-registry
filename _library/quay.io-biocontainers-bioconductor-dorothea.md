@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dorothea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dorothea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dorothea/container.yaml"
-updated_at: "2023-07-06 03:16:43.251872"
+updated_at: "2023-07-06 03:37:29.969655"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dorothea"
 

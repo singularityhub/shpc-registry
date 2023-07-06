@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymix/container.yaml"
-updated_at: "2023-07-06 03:27:19.821247"
+updated_at: "2023-07-06 03:53:27.106962"
 latest: "0.8--py27hcb787e7_1"
 container_url: "https://biocontainers.pro/tools/pymix"
 aliases:

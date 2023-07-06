@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/arborx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/arborx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/arborx/container.yaml"
-updated_at: "2023-07-06 03:03:13.659954"
+updated_at: "2023-07-06 03:10:00.771387"
 latest: "1.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/arborx"
 

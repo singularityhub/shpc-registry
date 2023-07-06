@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioblend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioblend/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioblend/container.yaml"
-updated_at: "2023-07-06 03:55:45.665021"
+updated_at: "2023-07-06 04:07:32.694100"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioblend"
 aliases:

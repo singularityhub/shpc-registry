@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathostat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathostat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathostat/container.yaml"
-updated_at: "2023-07-06 03:10:49.094505"
+updated_at: "2023-07-06 03:49:11.083373"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathostat"
 aliases:

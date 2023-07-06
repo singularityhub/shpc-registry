@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maskrc-svg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maskrc-svg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maskrc-svg/container.yaml"
-updated_at: "2023-07-06 03:05:23.155699"
+updated_at: "2023-07-06 03:56:24.517293"
 latest: "0.5--1"
 container_url: "https://biocontainers.pro/tools/maskrc-svg"
 aliases:

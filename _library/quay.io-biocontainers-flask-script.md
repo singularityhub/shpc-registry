@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-script"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-script/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-script/container.yaml"
-updated_at: "2023-07-06 03:05:31.681297"
+updated_at: "2023-07-06 03:51:08.290894"
 latest: "2.0.5--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-script"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-alignmentbasedquantification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-alignmentbasedquantification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-alignmentbasedquantification/container.yaml"
-updated_at: "2023-07-06 03:14:35.011729"
+updated_at: "2023-07-06 04:03:57.264228"
 latest: "0.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-alignmentbasedquantification"
 aliases:

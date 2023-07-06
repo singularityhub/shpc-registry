@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dino/container.yaml"
-updated_at: "2023-07-06 03:23:40.944591"
+updated_at: "2023-07-06 03:26:08.741119"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dino"
 

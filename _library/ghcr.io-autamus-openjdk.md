@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/openjdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/openjdk/container.yaml"
-updated_at: "2023-07-06 03:02:48.812061"
+updated_at: "2023-07-06 03:10:13.314720"
 latest: "latest"
 container_url: "https://github.com/orgs/autamus/packages/container/package/openjdk"
 aliases:

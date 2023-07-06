@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phasius"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phasius/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phasius/container.yaml"
-updated_at: "2023-07-06 03:41:35.953131"
+updated_at: "2023-07-06 04:02:29.430165"
 latest: "0.1.0--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/phasius"
 aliases:
