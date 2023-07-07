@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ultra_bioinformatics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ultra_bioinformatics
 latest:
-  0.1--pyh7cba7a3_0: sha256:4cd07fac26308161d0dd9c203818c8047e288fbcc6a8eb0e9f4836fa0dffa655
+  0.1--pyh7cba7a3_1: sha256:2f3faeaf6bf862b5afc11dd8dceeb47bf3edf36c70eb1ef418df828889288fd1
 tags:
   0.0.4.1--pyh5e36f6f_0: sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51
   0.0.4.2--pyh7cba7a3_0: sha256:dc72b7a871c02bf2631e46ea1444b336cd2480a34ab8460d165c81cffabc611a
   0.1--pyh7cba7a3_0: sha256:4cd07fac26308161d0dd9c203818c8047e288fbcc6a8eb0e9f4836fa0dffa655
+  0.1--pyh7cba7a3_1: sha256:2f3faeaf6bf862b5afc11dd8dceeb47bf3edf36c70eb1ef418df828889288fd1
 docker: quay.io/biocontainers/ultra_bioinformatics
 aliases:
   StrobeMap: /usr/local/bin/StrobeMap

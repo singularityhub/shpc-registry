@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gwas.bayes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gwas.bayes
 latest:
-  1.8.0--r42hf17093f_1: sha256:d3c67683434712a892984e06ef3bdd788bcc0ea73ea697d450ed0a137753270d
+  1.10.0--r43hdfd78af_0: sha256:a7b8992aea2bda3ad8ed54355f9ee364ee73a18f847b7c4399f1facdb381294a
 tags:
   1.4.0--r41hc247a5b_2: sha256:1035dbb14b6a300bf5e99cba295f63bdffb60d34c28ef9949abda4eaac5d9618
   1.8.0--r42hc247a5b_0: sha256:20c2f590f2d5d7713f393c5795cb14425b35892bb28ef37ee8f806c56f1cb9db
   1.8.0--r42hf17093f_1: sha256:d3c67683434712a892984e06ef3bdd788bcc0ea73ea697d450ed0a137753270d
+  1.10.0--r43hdfd78af_0: sha256:a7b8992aea2bda3ad8ed54355f9ee364ee73a18f847b7c4399f1facdb381294a
 docker: quay.io/biocontainers/bioconductor-gwas.bayes
