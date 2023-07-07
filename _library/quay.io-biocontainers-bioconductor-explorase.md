@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-explorase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-explorase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-explorase/container.yaml"
-updated_at: "2023-07-06 07:21:46.302977"
+updated_at: "2023-07-07 03:50:18.224361"
 latest: "1.53.0--r40hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-explorase"
 aliases:

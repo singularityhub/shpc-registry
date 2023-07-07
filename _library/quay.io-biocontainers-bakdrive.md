@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bakdrive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bakdrive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bakdrive/container.yaml"
-updated_at: "2023-07-06 07:19:22.841345"
+updated_at: "2023-07-07 03:50:44.489797"
 latest: "1.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bakdrive"
 aliases:

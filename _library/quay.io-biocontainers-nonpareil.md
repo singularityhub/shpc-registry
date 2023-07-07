@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nonpareil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nonpareil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nonpareil/container.yaml"
-updated_at: "2023-07-06 07:06:32.269923"
+updated_at: "2023-07-07 03:12:39.724214"
 latest: "3.4.1--r42h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/nonpareil"
 aliases:

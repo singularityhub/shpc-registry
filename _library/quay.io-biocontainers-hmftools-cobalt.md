@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-cobalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-cobalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-cobalt/container.yaml"
-updated_at: "2023-07-06 07:13:55.909992"
+updated_at: "2023-07-07 03:16:11.823607"
 latest: "1.13--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-cobalt"
 aliases:

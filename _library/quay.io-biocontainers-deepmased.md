@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepmased"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmased/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmased/container.yaml"
-updated_at: "2023-07-06 06:41:27.299363"
+updated_at: "2023-07-07 03:09:31.591714"
 latest: "0.3.1--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/deepmased"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/celltypist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/celltypist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/celltypist/container.yaml"
-updated_at: "2023-07-06 07:20:40.301821"
+updated_at: "2023-07-07 03:26:30.481883"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/celltypist"
 aliases:

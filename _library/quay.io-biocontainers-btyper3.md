@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/btyper3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btyper3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btyper3/container.yaml"
-updated_at: "2023-07-06 06:56:29.574372"
+updated_at: "2023-07-07 03:47:32.823584"
 latest: "3.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/btyper3"
 aliases:

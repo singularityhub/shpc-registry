@@ -4,7 +4,7 @@ name:  "rocm/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocm/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocm/tensorflow/container.yaml"
-updated_at: "2023-07-06 06:40:07.274231"
+updated_at: "2023-07-07 02:59:00.949020"
 latest: "rocm5.5-tf2.11-dev"
 container_url: "https://hub.docker.com/r/rocm/tensorflow"
 aliases:

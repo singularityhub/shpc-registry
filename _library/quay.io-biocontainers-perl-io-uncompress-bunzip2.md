@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-uncompress-bunzip2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-uncompress-bunzip2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-uncompress-bunzip2/container.yaml"
-updated_at: "2023-07-06 06:48:59.470283"
+updated_at: "2023-07-07 03:41:51.674089"
 latest: "2.064--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-io-uncompress-bunzip2"
 aliases:
