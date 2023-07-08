@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdsfmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdsfmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdsfmt/container.yaml"
-updated_at: "2023-07-07 03:17:10.083165"
+updated_at: "2023-07-08 03:17:51.575068"
 latest: "1.34.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdsfmt"
 

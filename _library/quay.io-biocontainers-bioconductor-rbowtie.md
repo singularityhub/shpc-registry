@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbowtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbowtie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbowtie/container.yaml"
-updated_at: "2023-07-07 03:36:19.969126"
+updated_at: "2023-07-08 03:36:48.639542"
 latest: "1.38.0--r42hf17093f_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbowtie"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydeseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydeseq2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydeseq2/container.yaml"
-updated_at: "2023-07-07 03:14:14.185829"
-latest: "0.3.4--pyhdfd78af_0"
+updated_at: "2023-07-08 03:14:55.562123"
+latest: "0.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pydeseq2"
 aliases:
  - "h5delete"
@@ -46,8 +46,9 @@ aliases:
 versions:
  - "0.3.3--pyhdfd78af_0"
  - "0.3.4--pyhdfd78af_0"
+ - "0.3.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pydeseq2"
-config: {"url": "https://biocontainers.pro/tools/pydeseq2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydeseq2", "latest": {"0.3.4--pyhdfd78af_0": "sha256:21da3fe048cc4839ad05b455cdbe956bd807e1cdf1db2ba87e300d2491ddfca8"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:f0ee1795cd72199539fd71461096fd4daae0e4e0a4e8d7932033823c340f51eb", "0.3.4--pyhdfd78af_0": "sha256:21da3fe048cc4839ad05b455cdbe956bd807e1cdf1db2ba87e300d2491ddfca8"}, "docker": "quay.io/biocontainers/pydeseq2", "aliases": {"h5delete": "/usr/local/bin/h5delete", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-nbclassic": "/usr/local/bin/jupyter-nbclassic", "jupyter-nbclassic-bundlerextension": "/usr/local/bin/jupyter-nbclassic-bundlerextension", "jupyter-nbclassic-extension": "/usr/local/bin/jupyter-nbclassic-extension", "jupyter-nbclassic-serverextension": "/usr/local/bin/jupyter-nbclassic-serverextension", "jupyter-server": "/usr/local/bin/jupyter-server", "qtpy": "/usr/local/bin/qtpy", "wsdump": "/usr/local/bin/wsdump", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "jupyter-execute": "/usr/local/bin/jupyter-execute", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr"}}
+config: {"url": "https://biocontainers.pro/tools/pydeseq2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydeseq2", "latest": {"0.3.5--pyhdfd78af_0": "sha256:a2f7aac0c854c6d8d8f403e31ebbea8bf39a898b8965ea84bb6054c1a4834425"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:f0ee1795cd72199539fd71461096fd4daae0e4e0a4e8d7932033823c340f51eb", "0.3.4--pyhdfd78af_0": "sha256:21da3fe048cc4839ad05b455cdbe956bd807e1cdf1db2ba87e300d2491ddfca8", "0.3.5--pyhdfd78af_0": "sha256:a2f7aac0c854c6d8d8f403e31ebbea8bf39a898b8965ea84bb6054c1a4834425"}, "docker": "quay.io/biocontainers/pydeseq2", "aliases": {"h5delete": "/usr/local/bin/h5delete", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-nbclassic": "/usr/local/bin/jupyter-nbclassic", "jupyter-nbclassic-bundlerextension": "/usr/local/bin/jupyter-nbclassic-bundlerextension", "jupyter-nbclassic-extension": "/usr/local/bin/jupyter-nbclassic-extension", "jupyter-nbclassic-serverextension": "/usr/local/bin/jupyter-nbclassic-serverextension", "jupyter-server": "/usr/local/bin/jupyter-server", "qtpy": "/usr/local/bin/qtpy", "wsdump": "/usr/local/bin/wsdump", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "jupyter-execute": "/usr/local/bin/jupyter-execute", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydeseq2.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/pydeseq2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydeseq2:0.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pydeseq2:0.3.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydeseq2/0.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/pydeseq2/0.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/pydeseq2/0.3.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/pydeseq2/0.3.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

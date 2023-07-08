@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nupop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nupop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nupop/container.yaml"
-updated_at: "2023-07-07 03:16:12.478915"
-latest: "2.6.0--r42h9913872_1"
+updated_at: "2023-07-08 03:16:53.631703"
+latest: "2.8.1--r43h9913872_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nupop"
 
 versions:
  - "2.2.0--r41hefde4a7_2"
  - "2.6.0--r42hefde4a7_0"
  - "2.6.0--r42h9913872_1"
+ - "2.8.1--r43h9913872_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nupop"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nupop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nupop", "latest": {"2.6.0--r42h9913872_1": "sha256:21bc34d6f8dadb3ed29f769e9e2fe90d773e900e27ad146817ff98e4bd9abbe1"}, "tags": {"2.2.0--r41hefde4a7_2": "sha256:570f4d0cb7bb3299f4ba501423a3958c3b46bb50e96da4a4032319d029f54223", "2.6.0--r42hefde4a7_0": "sha256:b56c214c8285b07f716059a3005475ff33c05de044b123e571991a33064bf2e5", "2.6.0--r42h9913872_1": "sha256:21bc34d6f8dadb3ed29f769e9e2fe90d773e900e27ad146817ff98e4bd9abbe1"}, "docker": "quay.io/biocontainers/bioconductor-nupop"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nupop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nupop", "latest": {"2.8.1--r43h9913872_0": "sha256:2d7db9cedbabc8bcd9e595f56f38ac8870bedfdc52c85f734a53766482b3c584"}, "tags": {"2.2.0--r41hefde4a7_2": "sha256:570f4d0cb7bb3299f4ba501423a3958c3b46bb50e96da4a4032319d029f54223", "2.6.0--r42hefde4a7_0": "sha256:b56c214c8285b07f716059a3005475ff33c05de044b123e571991a33064bf2e5", "2.6.0--r42h9913872_1": "sha256:21bc34d6f8dadb3ed29f769e9e2fe90d773e900e27ad146817ff98e4bd9abbe1", "2.8.1--r43h9913872_0": "sha256:2d7db9cedbabc8bcd9e595f56f38ac8870bedfdc52c85f734a53766482b3c584"}, "docker": "quay.io/biocontainers/bioconductor-nupop"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nupop.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nupop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nupop:2.6.0--r42h9913872_1
+$ shpc install quay.io/biocontainers/bioconductor-nupop:2.8.1--r43h9913872_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nupop/2.6.0--r42h9913872_1
-$ module help quay.io/biocontainers/bioconductor-nupop/2.6.0--r42h9913872_1
+$ module load quay.io/biocontainers/bioconductor-nupop/2.8.1--r43h9913872_0
+$ module help quay.io/biocontainers/bioconductor-nupop/2.8.1--r43h9913872_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-savr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-savr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-savr/container.yaml"
-updated_at: "2023-07-07 03:16:45.759302"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-08 03:17:27.076873"
+latest: "1.37.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-savr"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
+ - "1.37.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-savr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-savr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-savr", "latest": {"1.36.0--r42hdfd78af_0": "sha256:2238287667ef8127c8091a0a097b302fca18ff4436cf426a5083f8f72d0c3bb2"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:029d83b6c85a499b28eaff0cfa4e998592f1c20913ee8f13ccda8215b76108aa", "1.36.0--r42hdfd78af_0": "sha256:2238287667ef8127c8091a0a097b302fca18ff4436cf426a5083f8f72d0c3bb2"}, "docker": "quay.io/biocontainers/bioconductor-savr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-savr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-savr", "latest": {"1.37.0--r43hdfd78af_0": "sha256:6da7eac592e1c6a3b49e64364bd17c9f633b83bf8ffe16d49705467f6005d4df"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:029d83b6c85a499b28eaff0cfa4e998592f1c20913ee8f13ccda8215b76108aa", "1.36.0--r42hdfd78af_0": "sha256:2238287667ef8127c8091a0a097b302fca18ff4436cf426a5083f8f72d0c3bb2", "1.37.0--r43hdfd78af_0": "sha256:6da7eac592e1c6a3b49e64364bd17c9f633b83bf8ffe16d49705467f6005d4df"}, "docker": "quay.io/biocontainers/bioconductor-savr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-savr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-savr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-savr:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-savr:1.37.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-savr/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-savr/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-savr/1.37.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-savr/1.37.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

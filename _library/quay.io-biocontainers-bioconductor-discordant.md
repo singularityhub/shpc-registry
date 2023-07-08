@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-discordant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-discordant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-discordant/container.yaml"
-updated_at: "2023-07-07 03:34:36.707078"
+updated_at: "2023-07-08 03:35:08.518384"
 latest: "1.22.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-discordant"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microbeannotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microbeannotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microbeannotator/container.yaml"
-updated_at: "2023-07-07 03:43:22.269693"
+updated_at: "2023-07-08 03:43:46.832470"
 latest: "2.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/microbeannotator"
 aliases:

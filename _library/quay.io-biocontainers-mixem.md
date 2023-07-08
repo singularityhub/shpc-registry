@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mixem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mixem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mixem/container.yaml"
-updated_at: "2023-07-07 03:12:38.020413"
+updated_at: "2023-07-08 03:13:19.900590"
 latest: "0.1.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mixem"
 aliases:

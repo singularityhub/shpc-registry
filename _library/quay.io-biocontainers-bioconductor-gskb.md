@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gskb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gskb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gskb/container.yaml"
-updated_at: "2023-07-07 03:27:43.071295"
+updated_at: "2023-07-08 03:28:17.809769"
 latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gskb"
 aliases:

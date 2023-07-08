@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cogps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogps/container.yaml"
-updated_at: "2023-07-07 03:05:37.124270"
-latest: "1.42.0--r42hdfd78af_0"
+updated_at: "2023-07-08 03:06:20.852631"
+latest: "1.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogps"
 
 versions:
  - "1.38.0--r41hdfd78af_0"
  - "1.42.0--r42hdfd78af_0"
+ - "1.44.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cogps"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cogps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogps", "latest": {"1.42.0--r42hdfd78af_0": "sha256:79f0205d5c54dbcd548ca6299a14980d03f416f05f81bdbc0e5f309582dad5b2"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:26b887ecc8fff72c0035efdb6e21e1757886e701783c330d9b4428cb9b3bcea7", "1.42.0--r42hdfd78af_0": "sha256:79f0205d5c54dbcd548ca6299a14980d03f416f05f81bdbc0e5f309582dad5b2"}, "docker": "quay.io/biocontainers/bioconductor-cogps"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cogps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogps", "latest": {"1.44.0--r43hdfd78af_0": "sha256:d38eb220bad5984b4a67e0975a187b8a784fad614fb01b56d259725541c752b1"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:26b887ecc8fff72c0035efdb6e21e1757886e701783c330d9b4428cb9b3bcea7", "1.42.0--r42hdfd78af_0": "sha256:79f0205d5c54dbcd548ca6299a14980d03f416f05f81bdbc0e5f309582dad5b2", "1.44.0--r43hdfd78af_0": "sha256:d38eb220bad5984b4a67e0975a187b8a784fad614fb01b56d259725541c752b1"}, "docker": "quay.io/biocontainers/bioconductor-cogps"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cogps.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cogps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cogps:1.42.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cogps:1.44.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cogps/1.42.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cogps/1.42.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cogps/1.44.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cogps/1.44.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
