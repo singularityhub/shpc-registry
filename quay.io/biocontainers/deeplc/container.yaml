@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/deeplc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deeplc
 latest:
-  2.1.9--pyhdfd78af_0: sha256:6b754766620fba5e0ac707495e79f61afb30e57d97cfcc55dda81c76f7bfa136
+  2.2.4--pyhdfd78af_0: sha256:2fc3aa78536bcd512081be0e0a92e99c056b0ea3584c1f8153620c641f25a9f7
 tags:
   1.1.2--pyhdfd78af_0: sha256:ffd2beadc46a1f104fffcfd45a9be1ef8806f4a4b1189bad8da42a66820e3524
   2.1.9--pyhdfd78af_0: sha256:6b754766620fba5e0ac707495e79f61afb30e57d97cfcc55dda81c76f7bfa136
+  2.2.4--pyhdfd78af_0: sha256:2fc3aa78536bcd512081be0e0a92e99c056b0ea3584c1f8153620c641f25a9f7
 docker: quay.io/biocontainers/deeplc
 aliases:
   deeplc: /usr/local/bin/deeplc

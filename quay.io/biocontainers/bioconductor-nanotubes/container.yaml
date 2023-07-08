@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-nanotubes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nanotubes
 latest:
-  1.14.0--r42hdfd78af_0: sha256:d1518d5c642a55b6a06008f7d7cc72373ace0d4442c181a925b8341feb57d881
+  1.16.0--r43hdfd78af_0: sha256:e44828d03fe36705987cb29802a19bb454b1732a4a89f90a20148f2a9f1b7e86
 tags:
   1.8.0--r41hdfd78af_0: sha256:787cbddfc0a4a20cf31d8a187eb490fd0223e12fff70a21d42bacd9a11f298f8
   1.14.0--r42hdfd78af_0: sha256:d1518d5c642a55b6a06008f7d7cc72373ace0d4442c181a925b8341feb57d881
   1.10.0--r41hdfd78af_1: sha256:4dffc6a0bd600ca030f286ccb71b351dc45e6433af8d74b9cb2af533e8973460
+  1.16.0--r43hdfd78af_0: sha256:e44828d03fe36705987cb29802a19bb454b1732a4a89f90a20148f2a9f1b7e86
 docker: quay.io/biocontainers/bioconductor-nanotubes
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
