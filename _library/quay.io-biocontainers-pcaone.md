@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pcaone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcaone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcaone/container.yaml"
-updated_at: "2023-07-08 03:45:54.382732"
-latest: "0.3.2--hf73f384_2"
+updated_at: "2023-07-09 04:01:31.520491"
+latest: "0.3.4--hf73f384_0"
 container_url: "https://biocontainers.pro/tools/pcaone"
 aliases:
  - "PCAone"
@@ -15,8 +15,9 @@ versions:
  - "0.3.1--h761a8d5_0"
  - "0.3.2--h761a8d5_0"
  - "0.3.2--hf73f384_2"
+ - "0.3.4--hf73f384_0"
 description: "singularity registry hpc automated addition for pcaone"
-config: {"url": "https://biocontainers.pro/tools/pcaone", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcaone", "latest": {"0.3.2--hf73f384_2": "sha256:1f5135499db289a991268b131890fb958b9d0e2a7d34854cf67f74b80b4a958f"}, "tags": {"0.3.1--h761a8d5_0": "sha256:d99c680eaf58f9aa301d77a4addae9b092eef9bc7c5e5f34cbde5de681277366", "0.3.2--h761a8d5_0": "sha256:0d73402b7ad65f453c1493ad33400dcb54a23e027cbbc8658feea27f21ab3794", "0.3.2--hf73f384_2": "sha256:1f5135499db289a991268b131890fb958b9d0e2a7d34854cf67f74b80b4a958f"}, "docker": "quay.io/biocontainers/pcaone", "aliases": {"PCAone": "/usr/local/bin/PCAone", "PCAone.avx2": "/usr/local/bin/PCAone.avx2", "PCAone.x64": "/usr/local/bin/PCAone.x64"}}
+config: {"url": "https://biocontainers.pro/tools/pcaone", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcaone", "latest": {"0.3.4--hf73f384_0": "sha256:768fce3f66843ba0d45cee84a6f913d8cfc3ab850645951557063ff259a7bdb3"}, "tags": {"0.3.1--h761a8d5_0": "sha256:d99c680eaf58f9aa301d77a4addae9b092eef9bc7c5e5f34cbde5de681277366", "0.3.2--h761a8d5_0": "sha256:0d73402b7ad65f453c1493ad33400dcb54a23e027cbbc8658feea27f21ab3794", "0.3.2--hf73f384_2": "sha256:1f5135499db289a991268b131890fb958b9d0e2a7d34854cf67f74b80b4a958f", "0.3.4--hf73f384_0": "sha256:768fce3f66843ba0d45cee84a6f913d8cfc3ab850645951557063ff259a7bdb3"}, "docker": "quay.io/biocontainers/pcaone", "aliases": {"PCAone": "/usr/local/bin/PCAone", "PCAone.avx2": "/usr/local/bin/PCAone.avx2", "PCAone.x64": "/usr/local/bin/PCAone.x64"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pcaone.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pcaone
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pcaone:0.3.2--hf73f384_2
+$ shpc install quay.io/biocontainers/pcaone:0.3.4--hf73f384_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pcaone/0.3.2--hf73f384_2
-$ module help quay.io/biocontainers/pcaone/0.3.2--hf73f384_2
+$ module load quay.io/biocontainers/pcaone/0.3.4--hf73f384_0
+$ module help quay.io/biocontainers/pcaone/0.3.4--hf73f384_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

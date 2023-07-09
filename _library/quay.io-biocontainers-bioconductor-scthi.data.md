@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-scthi.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scthi.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scthi.data/container.yaml"
-updated_at: "2023-07-08 03:17:31.343168"
-latest: "1.9.0--r42hdfd78af_0"
+updated_at: "2023-07-09 03:28:28.910250"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scthi.data"
 
 versions:
  - "1.6.0--r41hdfd78af_1"
  - "1.9.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scthi.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scthi.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scthi.data", "latest": {"1.9.0--r42hdfd78af_0": "sha256:b12e69292590b3f16329e5f57b34d8f1ce01eab56c297e1393411a365907910c"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:28fe2920b3764df74caa1555ddd4ac2f7e30ce7107225aace3ffc96990d457b6", "1.9.0--r42hdfd78af_0": "sha256:b12e69292590b3f16329e5f57b34d8f1ce01eab56c297e1393411a365907910c"}, "docker": "quay.io/biocontainers/bioconductor-scthi.data"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scthi.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scthi.data", "latest": {"1.12.0--r43hdfd78af_0": "sha256:7eaefd34601daeddee63edbe7fd55593487abd0e9d73e22b994c8dd901882ee6"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:28fe2920b3764df74caa1555ddd4ac2f7e30ce7107225aace3ffc96990d457b6", "1.9.0--r42hdfd78af_0": "sha256:b12e69292590b3f16329e5f57b34d8f1ce01eab56c297e1393411a365907910c", "1.12.0--r43hdfd78af_0": "sha256:7eaefd34601daeddee63edbe7fd55593487abd0e9d73e22b994c8dd901882ee6"}, "docker": "quay.io/biocontainers/bioconductor-scthi.data"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scthi.data.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scthi.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scthi.data:1.9.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scthi.data:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scthi.data/1.9.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scthi.data/1.9.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scthi.data/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scthi.data/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

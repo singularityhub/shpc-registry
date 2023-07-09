@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/guidescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/guidescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/guidescan/container.yaml"
-updated_at: "2023-07-08 03:43:20.314809"
+updated_at: "2023-07-09 03:58:12.616423"
 latest: "2.1.4--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/guidescan"
 aliases:

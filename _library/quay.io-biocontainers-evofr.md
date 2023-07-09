@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/evofr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evofr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evofr/container.yaml"
-updated_at: "2023-07-08 03:27:16.666821"
+updated_at: "2023-07-09 03:39:25.106878"
 latest: "0.1.18--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/evofr"
 aliases:
