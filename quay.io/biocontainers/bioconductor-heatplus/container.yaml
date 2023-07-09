@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-heatplus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-heatplus
 latest:
-  3.6.0--r42hdfd78af_0: sha256:07dae01af4a2d320674b58fe86ceea76a680600901ca3efdb9b8636c2c14863d
+  3.8.0--r43hdfd78af_0: sha256:f8e0fa5311eaa88ef8ced5c9a54213b85b7c3f9a5f7f25697b473ee93e871c44
 tags:
   3.2.0--r41hdfd78af_0: sha256:af996e312aa757687d68478acb516f6dd1efaf8e917791ec2876ff37302e61c8
   3.6.0--r42hdfd78af_0: sha256:07dae01af4a2d320674b58fe86ceea76a680600901ca3efdb9b8636c2c14863d
+  3.8.0--r43hdfd78af_0: sha256:f8e0fa5311eaa88ef8ced5c9a54213b85b7c3f9a5f7f25697b473ee93e871c44
 docker: quay.io/biocontainers/bioconductor-heatplus

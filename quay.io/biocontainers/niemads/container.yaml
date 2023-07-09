@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/niemads
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for niemads
 latest:
-  1.0.14--pyh3252c3a_0: sha256:2412a1e039529bc3aed668b1d3c4158a44e5229951faf477bdd4b4151c6e339a
+  1.0.16--pyh7cba7a3_0: sha256:608572d85600f4ebbf47579e10e99678cb73a5516c6a08045fb86edea61d66e7
 tags:
   1.0.14--pyh3252c3a_0: sha256:2412a1e039529bc3aed668b1d3c4158a44e5229951faf477bdd4b4151c6e339a
+  1.0.16--pyh7cba7a3_0: sha256:608572d85600f4ebbf47579e10e99678cb73a5516c6a08045fb86edea61d66e7
 docker: quay.io/biocontainers/niemads
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

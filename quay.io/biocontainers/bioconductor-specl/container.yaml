@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-specl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-specl
 latest:
-  1.32.0--r42hdfd78af_0: sha256:ac60f7bccd3204239bfc45364815b91a47ec53186174eef6c16265ab02e86616
+  1.34.0--r43hdfd78af_0: sha256:0f112f41a3a69d2b0d51c75c3bf927509b4dd41dd350454bd315c8365e992584
 tags:
   1.28.0--r41hdfd78af_0: sha256:fb954288febd70853e5cd2d5015011dc91132d9305b8c458026a0be50426ec27
   1.32.0--r42hdfd78af_0: sha256:ac60f7bccd3204239bfc45364815b91a47ec53186174eef6c16265ab02e86616
+  1.34.0--r43hdfd78af_0: sha256:0f112f41a3a69d2b0d51c75c3bf927509b4dd41dd350454bd315c8365e992584
 docker: quay.io/biocontainers/bioconductor-specl

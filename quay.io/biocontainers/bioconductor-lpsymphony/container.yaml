@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-lpsymphony
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lpsymphony
 latest:
-  1.26.0--r42ha1e849b_1: sha256:9212b4d2a95ffcf105a2c625b481ed4e9a47ca83a3c0a8b746a7df6eea31afa0
+  1.28.1--r43hf17093f_0: sha256:9b559d96140f7e21b05bb7506e14915f733eb50204a19a7c8af8b9386168f7a4
 tags:
   1.8.0--r341hfc679d8_0: sha256:a4f6bb16081254b99909e7d960be7c44bac839f9380d8b536705a1c5afc51239
   1.22.0--r41hc247a5b_2: sha256:24d1ce7e7398e857afba7990373eb8bd33189fe7d0e207adabc89f317b451465
@@ -12,6 +12,7 @@ tags:
   1.12.0--r36he1b5a44_1: sha256:a2b8942a05204685f2700eb7bd7fcc5089a8dcdd83aed8c43010d7f8d204f0a1
   1.26.0--r42h38f54d8_0: sha256:70ae93a32fb7393bf415691d4a4eac90f8d43a53bb8dc7c9eeb6339f598700ca
   1.26.0--r42ha1e849b_1: sha256:9212b4d2a95ffcf105a2c625b481ed4e9a47ca83a3c0a8b746a7df6eea31afa0
+  1.28.1--r43hf17093f_0: sha256:9b559d96140f7e21b05bb7506e14915f733eb50204a19a7c8af8b9386168f7a4
 docker: quay.io/biocontainers/bioconductor-lpsymphony
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

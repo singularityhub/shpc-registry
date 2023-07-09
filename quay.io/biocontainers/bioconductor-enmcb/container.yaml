@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-enmcb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-enmcb
 latest:
-  1.6.0--r41hdfd78af_0: sha256:9aa68ac9e89033b1c2c5cecebe30e8fbb2df2a2cd9bdcaea4c92a635775c9907
+  1.12.0--r43hdfd78af_0: sha256:e7ad6b97f5c2d7c06d81be00f26d34997f3faebac3ecb04a97eb2d4ca5203572
 tags:
   1.6.0--r41hdfd78af_0: sha256:9aa68ac9e89033b1c2c5cecebe30e8fbb2df2a2cd9bdcaea4c92a635775c9907
+  1.12.0--r43hdfd78af_0: sha256:e7ad6b97f5c2d7c06d81be00f26d34997f3faebac3ecb04a97eb2d4ca5203572
 docker: quay.io/biocontainers/bioconductor-enmcb

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-aroma.light
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-aroma.light
 latest:
-  3.28.0--r42hdfd78af_0: sha256:58cbd4f74438bae7b5986b7527f9e5eaaee9884bac763511a654bb377850f021
+  3.30.0--r43hdfd78af_0: sha256:540f16096f3b7856f95043ee0118e4db4bf249a2434c08095dc8ced96a373fd7
 tags:
   3.8.0--r3.4.1_0: sha256:2ea5c76876af860ae73054105b4d754e6a8ce0a04292793f18ba71830b5b4924
   3.28.0--r42hdfd78af_0: sha256:58cbd4f74438bae7b5986b7527f9e5eaaee9884bac763511a654bb377850f021
@@ -10,6 +10,7 @@ tags:
   3.22.0--r41hdfd78af_0: sha256:bb4e204dc327955a454461f1ee4b0a0da8e0b1d536421c349671e3068b451e0e
   3.20.0--r40hdfd78af_1: sha256:703e7aa2379bd3b897c20c0211c1727f0afc3224f8aa7a0d7985cfa7ecd78e89
   3.18.0--r40_0: sha256:996e082e03b45b22f710a56b26783fede2c487791328a7c18bbccd19ff89e21e
+  3.30.0--r43hdfd78af_0: sha256:540f16096f3b7856f95043ee0118e4db4bf249a2434c08095dc8ced96a373fd7
 docker: quay.io/biocontainers/bioconductor-aroma.light
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5
