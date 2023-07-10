@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-gsgalgor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gsgalgor
 latest:
-  1.8.0--r42hdfd78af_0: sha256:35aeb1e32f03235a8242c8fdafe8ff42961027e640ac74263baf6fd9a3305c6c
+  1.10.0--r43hdfd78af_0: sha256:3f8336d336d9be559f07846ef2cf346dce395d8e48941de3644f3f2190f6deba
 tags:
   1.4.0--r41hdfd78af_0: sha256:e6607565cf328cb3501616df3c7b2065dd3ab4cb65c0aef41c7854262eaa515a
   1.8.0--r42hdfd78af_0: sha256:35aeb1e32f03235a8242c8fdafe8ff42961027e640ac74263baf6fd9a3305c6c
+  1.10.0--r43hdfd78af_0: sha256:3f8336d336d9be559f07846ef2cf346dce395d8e48941de3644f3f2190f6deba
 docker: quay.io/biocontainers/bioconductor-gsgalgor
