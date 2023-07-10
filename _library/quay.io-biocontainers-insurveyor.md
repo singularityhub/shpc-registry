@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/insurveyor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insurveyor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insurveyor/container.yaml"
-updated_at: "2023-07-09 03:42:40.678195"
+updated_at: "2023-07-10 03:37:10.931680"
 latest: "1.1.1--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/insurveyor"
 aliases:

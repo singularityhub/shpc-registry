@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyopenms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopenms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopenms/container.yaml"
-updated_at: "2023-07-09 03:52:07.408389"
-latest: "2.9.1--py310h4b47abe_1"
+updated_at: "2023-07-10 03:46:09.084174"
+latest: "2.9.1--py311h9b8898c_3"
 container_url: "https://biocontainers.pro/tools/pyopenms"
 aliases:
  - "svm-predict"
@@ -22,8 +22,9 @@ versions:
  - "2.8.0--py36h24c8720_1"
  - "2.9.1--py39h4b47abe_0"
  - "2.9.1--py310h4b47abe_1"
+ - "2.9.1--py311h9b8898c_3"
 description: "shpc-registry automated BioContainers addition for pyopenms"
-config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.9.1--py310h4b47abe_1": "sha256:a9c9e6f171db0a3065bf1c51d0d771d42778981b47d5b201aba9491c3f79120a"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c", "2.9.1--py39h4b47abe_0": "sha256:21f3bb3bfa0368c6e1583fd6b2d48100651c4424a8d94ff234bf6947485097d0", "2.9.1--py310h4b47abe_1": "sha256:a9c9e6f171db0a3065bf1c51d0d771d42778981b47d5b201aba9491c3f79120a"}, "docker": "quay.io/biocontainers/pyopenms", "aliases": {"svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter"}}
+config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.9.1--py311h9b8898c_3": "sha256:c4541e5d30dfc0a67d73358816ecfa29070aadcd1685ec1a6a1824a01a3feb1b"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c", "2.9.1--py39h4b47abe_0": "sha256:21f3bb3bfa0368c6e1583fd6b2d48100651c4424a8d94ff234bf6947485097d0", "2.9.1--py310h4b47abe_1": "sha256:a9c9e6f171db0a3065bf1c51d0d771d42778981b47d5b201aba9491c3f79120a", "2.9.1--py311h9b8898c_3": "sha256:c4541e5d30dfc0a67d73358816ecfa29070aadcd1685ec1a6a1824a01a3feb1b"}, "docker": "quay.io/biocontainers/pyopenms", "aliases": {"svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopenms.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pyopenms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyopenms:2.9.1--py310h4b47abe_1
+$ shpc install quay.io/biocontainers/pyopenms:2.9.1--py311h9b8898c_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyopenms/2.9.1--py310h4b47abe_1
-$ module help quay.io/biocontainers/pyopenms/2.9.1--py310h4b47abe_1
+$ module load quay.io/biocontainers/pyopenms/2.9.1--py311h9b8898c_3
+$ module help quay.io/biocontainers/pyopenms/2.9.1--py311h9b8898c_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

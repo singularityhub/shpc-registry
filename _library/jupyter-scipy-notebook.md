@@ -4,7 +4,7 @@ name:  "jupyter/scipy-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/scipy-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/scipy-notebook/container.yaml"
-updated_at: "2023-07-09 03:07:44.078305"
+updated_at: "2023-07-10 03:02:36.253448"
 latest: "2023-06-23"
 container_url: "https://hub.docker.com/r/jupyter/scipy-notebook"
 aliases:

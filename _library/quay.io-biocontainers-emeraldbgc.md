@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emeraldbgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emeraldbgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emeraldbgc/container.yaml"
-updated_at: "2023-07-09 03:21:52.499761"
+updated_at: "2023-07-10 03:16:12.233789"
 latest: "0.2.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/emeraldbgc"
 aliases:
