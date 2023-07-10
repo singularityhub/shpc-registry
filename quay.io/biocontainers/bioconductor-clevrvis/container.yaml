@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-clevrvis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-clevrvis
+latest:
+  1.0.0--r43hdfd78af_0: sha256:90f27ac183a7a043a17fec19318632947e32af551ee0fbe67e6b20488daaf80e
+tags:
+  1.0.0--r43hdfd78af_0: sha256:90f27ac183a7a043a17fec19318632947e32af551ee0fbe67e6b20488daaf80e
+docker: quay.io/biocontainers/bioconductor-clevrvis
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc

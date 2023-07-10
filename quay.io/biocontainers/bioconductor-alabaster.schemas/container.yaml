@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-alabaster.schemas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-alabaster.schemas
+latest:
+  1.0.2--r43hdfd78af_0: sha256:55253066339f278dba6189b1102bb83edd4fc25b75ec4eca0046914ba9e82b98
+tags:
+  1.0.2--r43hdfd78af_0: sha256:55253066339f278dba6189b1102bb83edd4fc25b75ec4eca0046914ba9e82b98
+docker: quay.io/biocontainers/bioconductor-alabaster.schemas
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

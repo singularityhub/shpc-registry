@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-anvilworkflow
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-anvilworkflow
+latest:
+  1.0.1--r43hdfd78af_0: sha256:545c7c9d6f650abc1ee9ca023bb9e08ee6f7c446271c4e802fbe57c20928f49c
+tags:
+  1.0.1--r43hdfd78af_0: sha256:545c7c9d6f650abc1ee9ca023bb9e08ee6f7c446271c4e802fbe57c20928f49c
+docker: quay.io/biocontainers/bioconductor-anvilworkflow
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  pandoc: /usr/local/bin/pandoc

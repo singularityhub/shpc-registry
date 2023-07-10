@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-mytai
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-mytai
+latest:
+  0.9.3--r42hb0898b6_0: sha256:f9107df9033afb0997c29b72786fa9ed7a329fbcffac992ee4dac7058ec32720
+tags:
+  0.9.3--r42hb0898b6_0: sha256:f9107df9033afb0997c29b72786fa9ed7a329fbcffac992ee4dac7058ec32720
+docker: quay.io/biocontainers/r-mytai
+aliases:
+  tjbench: /usr/local/bin/tjbench
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc

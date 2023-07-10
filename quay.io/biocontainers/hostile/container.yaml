@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/hostile
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hostile
+latest:
+  0.0.2--pyhdfd78af_0: sha256:f5960c62146844c5d35c23c47740b1d6866ca3b358d2d77253df8a86eb7e5c9c
+tags:
+  0.0.2--pyhdfd78af_0: sha256:f5960c62146844c5d35c23c47740b1d6866ca3b358d2d77253df8a86eb7e5c9c
+docker: quay.io/biocontainers/hostile
+aliases:
+  hostile: /usr/local/bin/hostile
+  httpx: /usr/local/bin/httpx
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  docutils: /usr/local/bin/docutils
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
