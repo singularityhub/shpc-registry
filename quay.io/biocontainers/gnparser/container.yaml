@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gnparser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gnparser
+latest:
+  1.7.3--he881be0_0: sha256:0a904113afb449aa067dd164c0fe2bb2294858d482880d21b07ca4bd40b2bfe9
+tags:
+  1.7.3--he881be0_0: sha256:0a904113afb449aa067dd164c0fe2bb2294858d482880d21b07ca4bd40b2bfe9
+docker: quay.io/biocontainers/gnparser
+aliases:
+  gnparser: /usr/local/bin/gnparser

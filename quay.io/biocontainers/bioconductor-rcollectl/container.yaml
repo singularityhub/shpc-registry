@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rcollectl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-rcollectl
+latest:
+  1.0.1--r43hdfd78af_0: sha256:a92d6d29922098c2ad97056c3330844966da4f69c7442836c63c8f200cf26f98
+tags:
+  1.0.1--r43hdfd78af_0: sha256:a92d6d29922098c2ad97056c3330844966da4f69c7442836c63c8f200cf26f98
+docker: quay.io/biocontainers/bioconductor-rcollectl
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

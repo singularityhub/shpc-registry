@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-bg2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-bg2
+latest:
+  1.0.0--r43hdfd78af_0: sha256:631d8a98eb803d13e4d0ede2bb87bd8e978e3d5118651efa63edd1b3b77e9a34
+tags:
+  1.0.0--r43hdfd78af_0: sha256:631d8a98eb803d13e4d0ede2bb87bd8e978e3d5118651efa63edd1b3b77e9a34
+docker: quay.io/biocontainers/bioconductor-bg2
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

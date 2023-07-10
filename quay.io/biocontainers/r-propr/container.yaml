@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-propr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-propr
+latest:
+  4.2.6: sha256:7714125e7c1f1eb2db9de9d7a9dfa94b1af009852071af39ea3a34e6e70f3ff9
+tags:
+  4.2.6: sha256:7714125e7c1f1eb2db9de9d7a9dfa94b1af009852071af39ea3a34e6e70f3ff9
+docker: quay.io/biocontainers/r-propr
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  glpsol: /usr/local/bin/glpsol
