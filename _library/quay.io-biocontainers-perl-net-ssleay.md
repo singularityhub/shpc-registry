@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-net-ssleay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-net-ssleay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-net-ssleay/container.yaml"
-updated_at: "2023-07-10 03:26:37.168126"
+updated_at: "2023-07-10 03:58:22.371225"
 latest: "1.92--pl5321h0e0aaa8_1"
 container_url: "https://biocontainers.pro/tools/perl-net-ssleay"
 aliases:

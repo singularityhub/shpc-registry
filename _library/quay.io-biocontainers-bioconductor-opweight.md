@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-opweight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-opweight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-opweight/container.yaml"
-updated_at: "2023-07-10 03:42:59.404368"
+updated_at: "2023-07-10 04:15:36.450800"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-opweight"
 aliases:
