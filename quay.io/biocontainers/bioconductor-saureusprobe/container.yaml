@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-saureusprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-saureusprobe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:930e0e103cf4eeec8c74bc935daad60f9ed1e90450a1a0ba7a2cb25f51f54ebb
+  2.18.0--r43hdfd78af_11: sha256:04b01b245ac26a17d38a7650b6b841b7e189c8d5f304e4c65dd18827ebac90c2
 tags:
   2.18.0--r41hdfd78af_9: sha256:0117d5953709d8bb9b4dddc33d13223cf71a8d19c6983e3747bfafcac72fdb12
   2.18.0--r42hdfd78af_10: sha256:930e0e103cf4eeec8c74bc935daad60f9ed1e90450a1a0ba7a2cb25f51f54ebb
+  2.18.0--r43hdfd78af_11: sha256:04b01b245ac26a17d38a7650b6b841b7e189c8d5f304e4c65dd18827ebac90c2
 docker: quay.io/biocontainers/bioconductor-saureusprobe

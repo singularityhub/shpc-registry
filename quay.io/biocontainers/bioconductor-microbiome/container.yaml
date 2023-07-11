@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-microbiome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-microbiome
 latest:
-  1.20.0--r42hdfd78af_0: sha256:3f8c78ce7d1e5b1ba14fed390809d257a5e33e61ac49fd91aa1b7d7616af013a
+  1.22.0--r43hdfd78af_0: sha256:a6a906ad37dced39022a241acece3b27bcf8b6211b0dcf216067e1cf5929aecf
 tags:
   1.8.0--r36_0: sha256:0f2c75b56d2836c4fe244746e22180653bd98c3c1ecfffa4ea4df82757473b61
   1.20.0--r42hdfd78af_0: sha256:3f8c78ce7d1e5b1ba14fed390809d257a5e33e61ac49fd91aa1b7d7616af013a
@@ -10,6 +10,7 @@ tags:
   1.14.0--r41hdfd78af_0: sha256:2340b24aab55874b2f1d69004a1927a46b3fe476d84bd6564095de70cdd8eaea
   1.12.0--r40hdfd78af_1: sha256:437eddc8c349f5786b1599998d67ecb10c33c70a3953e3f69a2bad2eb984abf6
   1.10.0--r40_0: sha256:fbdf5ef935eecdc243ec2a00acddf887bd0b562c629ccd08d0a0ed7d0bc49fcb
+  1.22.0--r43hdfd78af_0: sha256:a6a906ad37dced39022a241acece3b27bcf8b6211b0dcf216067e1cf5929aecf
 docker: quay.io/biocontainers/bioconductor-microbiome
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

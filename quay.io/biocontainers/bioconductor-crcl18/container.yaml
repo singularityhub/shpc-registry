@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-crcl18
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-crcl18
 latest:
-  1.18.0--r42hdfd78af_0: sha256:5b73926ea2aa1df9128d979a8bdd51f24d126f18243d070f471581bb98a517b9
+  1.20.0--r43hdfd78af_0: sha256:40490a0ce05d00478296c4122ed0d93fe5252ea2408d48fa6a1176bd998a5a1c
 tags:
   1.9.0--r40_0: sha256:3ea595f7890493f57aeb93461585955abef0b5f45dc07607831d996c3bf6a36b
   1.18.0--r42hdfd78af_0: sha256:5b73926ea2aa1df9128d979a8bdd51f24d126f18243d070f471581bb98a517b9
   1.14.0--r41hdfd78af_1: sha256:10f15e0eb8b7c7bce67c8e1d34e460f49cb94228b4545dfb4b2fc2c984c67966
   1.12.0--r41hdfd78af_0: sha256:a7d673adae1ce4c8469ffd12c69fe9422bffd900551b0388f747171d6131aba0
   1.10.0--r40hdfd78af_1: sha256:09f0fbf570b37b11e062a4c7785ceb726934627d679d7a849d8e69e7dd4b7c44
+  1.20.0--r43hdfd78af_0: sha256:40490a0ce05d00478296c4122ed0d93fe5252ea2408d48fa6a1176bd998a5a1c
 docker: quay.io/biocontainers/bioconductor-crcl18
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

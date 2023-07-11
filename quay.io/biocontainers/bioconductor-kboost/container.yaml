@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-kboost
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-kboost
 latest:
-  1.6.0--r42hdfd78af_0: sha256:af827851f30b34fea0a6391b4ca677d7ff99d8c2f79ec19808388525883e82d0
+  1.8.0--r43hdfd78af_0: sha256:e561054531b9af2f648f3880ae97526aaffda266b562469fff0ff42d6be2ea1f
 tags:
   1.2.0--r41hdfd78af_0: sha256:02b99844bf80d95006c91bacbd7b2781e915d75a07f1822e7003c89f99cfbd80
   1.6.0--r42hdfd78af_0: sha256:af827851f30b34fea0a6391b4ca677d7ff99d8c2f79ec19808388525883e82d0
+  1.8.0--r43hdfd78af_0: sha256:e561054531b9af2f648f3880ae97526aaffda266b562469fff0ff42d6be2ea1f
 docker: quay.io/biocontainers/bioconductor-kboost

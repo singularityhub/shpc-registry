@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cellarepertorium
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cellarepertorium
 latest:
-  1.8.0--r42hf17093f_1: sha256:f8c3210651fa1735ba925eb8633fe898d66b5e12e9c769cf91509ed988d1940c
+  1.10.0--r43hf17093f_0: sha256:69c14af714faf9365c46a03b6a25db4b23228e368c39985fa0a4066bea1a9f9c
 tags:
   1.4.0--r41hc247a5b_2: sha256:70de99cd78206abeaa0aad446aa85c7f465cdc9266367a154130057d2d5558ac
   1.8.0--r42hc247a5b_0: sha256:34786689ecab877e6ed382697670eb1a4e585ce045514a0e770b1b8cb31c316c
   1.8.0--r42hf17093f_1: sha256:f8c3210651fa1735ba925eb8633fe898d66b5e12e9c769cf91509ed988d1940c
+  1.10.0--r43hf17093f_0: sha256:69c14af714faf9365c46a03b6a25db4b23228e368c39985fa0a4066bea1a9f9c
 docker: quay.io/biocontainers/bioconductor-cellarepertorium
