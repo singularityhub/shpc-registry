@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kaos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kaos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kaos/container.yaml"
-updated_at: "2023-07-10 03:35:44.630843"
+updated_at: "2023-07-11 02:53:58.661029"
 latest: "0.1.0--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-kaos"
 aliases:

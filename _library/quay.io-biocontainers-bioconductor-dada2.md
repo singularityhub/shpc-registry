@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dada2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dada2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dada2/container.yaml"
-updated_at: "2023-07-10 03:38:51.357464"
+updated_at: "2023-07-11 02:56:34.050510"
 latest: "1.26.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dada2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.methylation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.methylation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.methylation/container.yaml"
-updated_at: "2023-07-10 04:30:55.550649"
+updated_at: "2023-07-11 03:39:59.074325"
 latest: "1.25.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.methylation"
 aliases:

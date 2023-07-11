@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ribocrypt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribocrypt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribocrypt/container.yaml"
-updated_at: "2023-07-10 04:07:56.780190"
+updated_at: "2023-07-11 03:20:49.554967"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribocrypt"
 

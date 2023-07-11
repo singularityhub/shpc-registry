@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnadecay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnadecay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnadecay/container.yaml"
-updated_at: "2023-07-10 04:14:57.554242"
+updated_at: "2023-07-11 03:26:40.419147"
 latest: "1.18.0--r42hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnadecay"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/container.yaml"
-updated_at: "2023-07-10 03:39:54.002401"
-latest: "0.35.0--r42hdfd78af_0"
+updated_at: "2023-07-11 02:57:26.469260"
+latest: "0.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqdata.hnrnpc.bam.chr14"
 
 versions:
  - "0.32.0--r41hdfd78af_1"
  - "0.35.0--r42hdfd78af_0"
+ - "0.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaseqdata.hnrnpc.bam.chr14"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqdata.hnrnpc.bam.chr14", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqdata.hnrnpc.bam.chr14", "latest": {"0.35.0--r42hdfd78af_0": "sha256:0e2c5a2a5094de8be31c23c468539755df04befa2238fd598f9b3bccf32ba0b3"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:1c6f6e5c2657229810f1ed8e5da4ddfa95747bf39e867fd755b358062478e74d", "0.35.0--r42hdfd78af_0": "sha256:0e2c5a2a5094de8be31c23c468539755df04befa2238fd598f9b3bccf32ba0b3"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqdata.hnrnpc.bam.chr14", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqdata.hnrnpc.bam.chr14", "latest": {"0.38.0--r43hdfd78af_0": "sha256:ba5bcbd20cd7ec6e0ceb092730e5c3e2e4d7a1c25c1acc2f58d7d4dde0a2371e"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:1c6f6e5c2657229810f1ed8e5da4ddfa95747bf39e867fd755b358062478e74d", "0.35.0--r42hdfd78af_0": "sha256:0e2c5a2a5094de8be31c23c468539755df04befa2238fd598f9b3bccf32ba0b3", "0.38.0--r43hdfd78af_0": "sha256:ba5bcbd20cd7ec6e0ceb092730e5c3e2e4d7a1c25c1acc2f58d7d4dde0a2371e"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14:0.35.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14:0.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/0.35.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/0.35.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/0.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/0.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

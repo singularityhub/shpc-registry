@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/svim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svim/container.yaml"
-updated_at: "2023-07-10 04:05:12.317020"
-latest: "1.4.2--py_0"
+updated_at: "2023-07-11 03:18:32.719399"
+latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svim"
 
 versions:
  - "1.4.2--py_0"
+ - "2.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for svim"
-config: {"url": "https://biocontainers.pro/tools/svim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svim", "latest": {"1.4.2--py_0": "sha256:67ad426e01eb0b16c92551a45086d2d25595ff8b82b97a5caac58aa6009a196c"}, "tags": {"1.4.2--py_0": "sha256:67ad426e01eb0b16c92551a45086d2d25595ff8b82b97a5caac58aa6009a196c"}, "docker": "quay.io/biocontainers/svim"}
+config: {"url": "https://biocontainers.pro/tools/svim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svim", "latest": {"2.0.0--pyhdfd78af_0": "sha256:6951593cb962541603943f470225f9e6a770dfd3ae67e7d5d6392c5e797224f3"}, "tags": {"1.4.2--py_0": "sha256:67ad426e01eb0b16c92551a45086d2d25595ff8b82b97a5caac58aa6009a196c", "2.0.0--pyhdfd78af_0": "sha256:6951593cb962541603943f470225f9e6a770dfd3ae67e7d5d6392c5e797224f3"}, "docker": "quay.io/biocontainers/svim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svim.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/svim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svim:1.4.2--py_0
+$ shpc install quay.io/biocontainers/svim:2.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svim/1.4.2--py_0
-$ module help quay.io/biocontainers/svim/1.4.2--py_0
+$ module load quay.io/biocontainers/svim/2.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/svim/2.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

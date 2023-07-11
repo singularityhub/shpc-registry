@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/correlationplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/correlationplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/correlationplus/container.yaml"
-updated_at: "2023-07-10 04:18:14.703200"
+updated_at: "2023-07-11 03:29:24.430599"
 latest: "0.2.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/correlationplus"
 aliases:

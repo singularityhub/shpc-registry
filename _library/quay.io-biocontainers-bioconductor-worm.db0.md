@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-worm.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-worm.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-worm.db0/container.yaml"
-updated_at: "2023-07-10 03:39:26.189461"
+updated_at: "2023-07-11 02:57:03.210148"
 latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-worm.db0"
 aliases:

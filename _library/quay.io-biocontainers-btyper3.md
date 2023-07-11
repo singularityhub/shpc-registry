@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/btyper3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btyper3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btyper3/container.yaml"
-updated_at: "2023-07-10 04:30:34.459198"
-latest: "3.3.4--pyhdfd78af_0"
+updated_at: "2023-07-11 03:39:41.609386"
+latest: "3.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/btyper3"
 aliases:
  - "btyper3"
@@ -23,8 +23,9 @@ versions:
  - "3.3.2--pyhdfd78af_0"
  - "3.3.3--pyhdfd78af_0"
  - "3.3.4--pyhdfd78af_0"
+ - "3.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for btyper3"
-config: {"url": "https://biocontainers.pro/tools/btyper3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for btyper3", "latest": {"3.3.4--pyhdfd78af_0": "sha256:2ee0ad5ba3db0661e16af2f33aa042d2d3f37d11b016f5bcdfa04b7adf19adbc"}, "tags": {"3.3.2--pyhdfd78af_0": "sha256:6b7eea4cc2b725019bcdf458303618a77c2ac813267712585ed464b7a4eab52c", "3.3.3--pyhdfd78af_0": "sha256:f09f2e8d5a042296d15e0c32577feb9af6eeff889eb3bdbad50d0c23eaccd487", "3.3.4--pyhdfd78af_0": "sha256:2ee0ad5ba3db0661e16af2f33aa042d2d3f37d11b016f5bcdfa04b7adf19adbc"}, "docker": "quay.io/biocontainers/btyper3", "aliases": {"btyper3": "/usr/local/bin/btyper3", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/btyper3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for btyper3", "latest": {"3.4.0--pyhdfd78af_0": "sha256:09e41a58d743ecab2852a500f63c20994dc6c34d3cb6c5f968f04ec9872c0f2e"}, "tags": {"3.3.2--pyhdfd78af_0": "sha256:6b7eea4cc2b725019bcdf458303618a77c2ac813267712585ed464b7a4eab52c", "3.3.3--pyhdfd78af_0": "sha256:f09f2e8d5a042296d15e0c32577feb9af6eeff889eb3bdbad50d0c23eaccd487", "3.3.4--pyhdfd78af_0": "sha256:2ee0ad5ba3db0661e16af2f33aa042d2d3f37d11b016f5bcdfa04b7adf19adbc", "3.4.0--pyhdfd78af_0": "sha256:09e41a58d743ecab2852a500f63c20994dc6c34d3cb6c5f968f04ec9872c0f2e"}, "docker": "quay.io/biocontainers/btyper3", "aliases": {"btyper3": "/usr/local/bin/btyper3", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/btyper3.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/btyper3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/btyper3:3.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/btyper3:3.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/btyper3/3.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/btyper3/3.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/btyper3/3.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/btyper3/3.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

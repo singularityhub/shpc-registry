@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-generegionscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-generegionscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-generegionscan/container.yaml"
-updated_at: "2023-07-10 04:04:45.262350"
+updated_at: "2023-07-11 03:18:10.111799"
 latest: "1.54.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-generegionscan"
 

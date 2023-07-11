@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-decontam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decontam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decontam/container.yaml"
-updated_at: "2023-07-10 03:53:25.826986"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-11 03:08:43.686264"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decontam"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-decontam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-decontam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decontam", "latest": {"1.18.0--r42hdfd78af_0": "sha256:79befcc81f31c6c5cab94bf2ce3f26083d134605b2283c31ff5eb7df7ba4a87a"}, "tags": {"1.8.0--r40_0": "sha256:76a9c99e76c9f0e1febc42e6906514c2fc47c3718889b0a5aa2e7b50aec531e7", "1.18.0--r42hdfd78af_0": "sha256:79befcc81f31c6c5cab94bf2ce3f26083d134605b2283c31ff5eb7df7ba4a87a", "1.14.0--r41hdfd78af_0": "sha256:a8ca7f67db0cd98636883229aa84616981833783f9fbf219a01896648e96868a", "1.12.0--r41hdfd78af_0": "sha256:74a6b42b78e806cd50bdb5c83e0f0992a68dbe3b63fbaa75b1f7c7447aa110ae", "1.10.0--r40_0": "sha256:e29227694b2086e9480740000e654cab754f388daa6ce982602783c12b415827"}, "docker": "quay.io/biocontainers/bioconductor-decontam", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-decontam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decontam", "latest": {"1.20.0--r43hdfd78af_0": "sha256:5bb67cc108b05f616684f8b284e399a8cbf7b5610122db27926949300420713d"}, "tags": {"1.8.0--r40_0": "sha256:76a9c99e76c9f0e1febc42e6906514c2fc47c3718889b0a5aa2e7b50aec531e7", "1.18.0--r42hdfd78af_0": "sha256:79befcc81f31c6c5cab94bf2ce3f26083d134605b2283c31ff5eb7df7ba4a87a", "1.14.0--r41hdfd78af_0": "sha256:a8ca7f67db0cd98636883229aa84616981833783f9fbf219a01896648e96868a", "1.12.0--r41hdfd78af_0": "sha256:74a6b42b78e806cd50bdb5c83e0f0992a68dbe3b63fbaa75b1f7c7447aa110ae", "1.10.0--r40_0": "sha256:e29227694b2086e9480740000e654cab754f388daa6ce982602783c12b415827", "1.20.0--r43hdfd78af_0": "sha256:5bb67cc108b05f616684f8b284e399a8cbf7b5610122db27926949300420713d"}, "docker": "quay.io/biocontainers/bioconductor-decontam", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-decontam.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-decontam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-decontam:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-decontam:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-decontam/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-decontam/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-decontam/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-decontam/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

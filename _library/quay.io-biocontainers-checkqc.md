@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/checkqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkqc/container.yaml"
-updated_at: "2023-07-10 04:05:33.721146"
-latest: "3.8.0--pyhdfd78af_0"
+updated_at: "2023-07-11 03:18:50.523067"
+latest: "3.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkqc"
 aliases:
  - "checkqc"
@@ -35,8 +35,9 @@ versions:
  - "3.6.6--pyhdfd78af_0"
  - "3.7.0--pyhdfd78af_0"
  - "3.8.0--pyhdfd78af_0"
+ - "3.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for checkqc"
-config: {"url": "https://biocontainers.pro/tools/checkqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkqc", "latest": {"3.8.0--pyhdfd78af_0": "sha256:83df53b1083188ef1bf7c831b5589756bb9fdeab3ce5513960d1b760f4d78d81"}, "tags": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8", "3.7.0--pyhdfd78af_0": "sha256:0ed4e0db46a8dd04045115b5712621808b54b8fc69e14588fa6285cd5656f5b4", "3.8.0--pyhdfd78af_0": "sha256:83df53b1083188ef1bf7c831b5589756bb9fdeab3ce5513960d1b760f4d78d81"}, "docker": "quay.io/biocontainers/checkqc", "aliases": {"checkqc": "/usr/local/bin/checkqc", "checkqc-ws": "/usr/local/bin/checkqc-ws", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "sample-sheet": "/usr/local/bin/sample-sheet", "tabulate": "/usr/local/bin/tabulate", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/checkqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkqc", "latest": {"3.8.1--pyhdfd78af_0": "sha256:d878c0559b193809bb5b285f16f95e8c9f22a01b348e2bddf008a483debcf451"}, "tags": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8", "3.7.0--pyhdfd78af_0": "sha256:0ed4e0db46a8dd04045115b5712621808b54b8fc69e14588fa6285cd5656f5b4", "3.8.0--pyhdfd78af_0": "sha256:83df53b1083188ef1bf7c831b5589756bb9fdeab3ce5513960d1b760f4d78d81", "3.8.1--pyhdfd78af_0": "sha256:d878c0559b193809bb5b285f16f95e8c9f22a01b348e2bddf008a483debcf451"}, "docker": "quay.io/biocontainers/checkqc", "aliases": {"checkqc": "/usr/local/bin/checkqc", "checkqc-ws": "/usr/local/bin/checkqc-ws", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "sample-sheet": "/usr/local/bin/sample-sheet", "tabulate": "/usr/local/bin/tabulate", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkqc.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/checkqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/checkqc:3.8.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/checkqc:3.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/checkqc/3.8.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/checkqc/3.8.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/checkqc/3.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/checkqc/3.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
