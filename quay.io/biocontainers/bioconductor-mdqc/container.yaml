@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mdqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mdqc
 latest:
-  1.60.0--r42hdfd78af_0: sha256:4efa2d306877e15f15a88d30d74cd1d93023b46f4463f3455fedd01131154675
+  1.62.0--r43hdfd78af_0: sha256:485e6d54a56dcd68e9223a0cfc8680a953c4b9fd5ca1c5bb55ed848cd8391883
 tags:
   1.56.0--r41hdfd78af_0: sha256:d07be10810270a6b819f597c100e2b7c5a795a5d68cfbc9753cdb54e5eece3f0
   1.60.0--r42hdfd78af_0: sha256:4efa2d306877e15f15a88d30d74cd1d93023b46f4463f3455fedd01131154675
+  1.62.0--r43hdfd78af_0: sha256:485e6d54a56dcd68e9223a0cfc8680a953c4b9fd5ca1c5bb55ed848cd8391883
 docker: quay.io/biocontainers/bioconductor-mdqc

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mirtarrnaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirtarrnaseq
 latest:
-  1.6.0--r42hdfd78af_0: sha256:da6e8fa1977e9b6a3173b678367a2d08a81565ba3363d60860d6578f8856cebf
+  1.8.0--r43hdfd78af_0: sha256:8bccf7c8c7b71d418bb78af473d39496f85017c508e0e7190f20d5009cb347bf
 tags:
   1.2.0--r41hdfd78af_0: sha256:f151033b7a5c465d3cebe78fa38dde21f77f0f7a2d54e222849ff3bd70db0408
   1.6.0--r42hdfd78af_0: sha256:da6e8fa1977e9b6a3173b678367a2d08a81565ba3363d60860d6578f8856cebf
+  1.8.0--r43hdfd78af_0: sha256:8bccf7c8c7b71d418bb78af473d39496f85017c508e0e7190f20d5009cb347bf
 docker: quay.io/biocontainers/bioconductor-mirtarrnaseq

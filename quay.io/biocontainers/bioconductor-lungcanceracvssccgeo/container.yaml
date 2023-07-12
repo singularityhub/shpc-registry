@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-lungcanceracvssccgeo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lungcanceracvssccgeo
 latest:
-  1.34.0--r42hdfd78af_1: sha256:bcb752a41e6f3539d6ddfb87dd96f72b55391d74ca595c00a614c6a0524e27b6
+  1.36.0--r43hdfd78af_0: sha256:f256560504bf263fd195c0437b5fb4ca55c0b96327dd577937d700117be776f2
 tags:
   1.30.0--r41hdfd78af_1: sha256:a85961ba83366da8f9889e4b3817fa615b556d7b8dd4b1fdf9888594c00d2d2c
   1.34.0--r42hdfd78af_1: sha256:bcb752a41e6f3539d6ddfb87dd96f72b55391d74ca595c00a614c6a0524e27b6
   1.33.0--r42hdfd78af_0: sha256:454c20900dc158b8d96ed1bd07575df0bbccff6d76c4adf41a69eb425988a825
+  1.36.0--r43hdfd78af_0: sha256:f256560504bf263fd195c0437b5fb4ca55c0b96327dd577937d700117be776f2
 docker: quay.io/biocontainers/bioconductor-lungcanceracvssccgeo

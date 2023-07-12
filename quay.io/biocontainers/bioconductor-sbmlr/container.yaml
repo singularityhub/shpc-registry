@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-sbmlr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sbmlr
 latest:
-  1.94.0--r42hdfd78af_0: sha256:5de73562eeaa0faa8c43d843afd01cec968f8b62e2eac28f7808154f05105251
+  1.96.0--r43hdfd78af_0: sha256:8f8b876b99038ac1405998529587f2a9918d7d13a31cb1ee98674a93c9682ceb
 tags:
   1.90.0--r41hdfd78af_0: sha256:eb93515af3b47eff2234eccb3d9fba9d4bcf360f07460977a4676153297f2f68
   1.94.0--r42hdfd78af_0: sha256:5de73562eeaa0faa8c43d843afd01cec968f8b62e2eac28f7808154f05105251
+  1.96.0--r43hdfd78af_0: sha256:8f8b876b99038ac1405998529587f2a9918d7d13a31cb1ee98674a93c9682ceb
 docker: quay.io/biocontainers/bioconductor-sbmlr

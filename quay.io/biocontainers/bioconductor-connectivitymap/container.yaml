@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-connectivitymap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-connectivitymap
 latest:
-  1.33.0--r42hdfd78af_0: sha256:04b50d1768febe4a251bff23327df4243dc72ebf8105f7336e2843ca50fee328
+  1.36.0--r43hdfd78af_0: sha256:ebe49d59878af05b3647be68c05fb375ac4ed5008127bdd8d30d2c3b8623c21d
 tags:
   1.30.0--r41hdfd78af_1: sha256:089856a3a1c48b2de7898fba6a4ccac48fa36cbcd5b5cb12739d3ef068f63b1d
   1.33.0--r42hdfd78af_0: sha256:04b50d1768febe4a251bff23327df4243dc72ebf8105f7336e2843ca50fee328
+  1.36.0--r43hdfd78af_0: sha256:ebe49d59878af05b3647be68c05fb375ac4ed5008127bdd8d30d2c3b8623c21d
 docker: quay.io/biocontainers/bioconductor-connectivitymap

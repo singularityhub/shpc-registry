@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fastqe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastqe
 latest:
-  0.2.7--pyh5e36f6f_0: sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0
+  0.3.1--pyh7cba7a3_0: sha256:22bcff50de2ba87889bf22a4098e024e6991674897ce68f0e6759fdcc6de384a
 tags:
   0.2.7--pyh5e36f6f_0: sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0
+  0.3.1--pyh7cba7a3_0: sha256:22bcff50de2ba87889bf22a4098e024e6991674897ce68f0e6759fdcc6de384a
 docker: quay.io/biocontainers/fastqe
 aliases:
   fastqe: /usr/local/bin/fastqe

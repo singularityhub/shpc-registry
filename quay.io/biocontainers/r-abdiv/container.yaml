@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-abdiv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-abdiv
 latest:
-  0.2.0--r42h3121a25_1: sha256:9cf6d39e29d69f1dc660e90af50485053198ae542f7223a74f0e43017254d8e1
+  0.2.0--r43h3121a25_2: sha256:5e55c5d58b2a22450c78691e52c75ca92bc726b05dc85d67d6446fe491e367a3
 tags:
   0.2.0--r42h3121a25_1: sha256:9cf6d39e29d69f1dc660e90af50485053198ae542f7223a74f0e43017254d8e1
+  0.2.0--r43h3121a25_2: sha256:5e55c5d58b2a22450c78691e52c75ca92bc726b05dc85d67d6446fe491e367a3
 docker: quay.io/biocontainers/r-abdiv

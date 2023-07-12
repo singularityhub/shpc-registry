@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-xenopuslaevisprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xenopuslaevisprobe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:6c1e92c8b2f14785bcf23039b0be889d93fa36dd939fac3c2aec0863493bf568
+  2.18.0--r43hdfd78af_11: sha256:40a91c9d0824258cc70a65a9a123b56b89fb73100a3a65061748e5fc7c18cc95
 tags:
   2.18.0--r41hdfd78af_9: sha256:f9faa56d8cbe16832e6da8c3e0d98982984685e61f1cb395e779eadac66c355f
   2.18.0--r42hdfd78af_10: sha256:6c1e92c8b2f14785bcf23039b0be889d93fa36dd939fac3c2aec0863493bf568
+  2.18.0--r43hdfd78af_11: sha256:40a91c9d0824258cc70a65a9a123b56b89fb73100a3a65061748e5fc7c18cc95
 docker: quay.io/biocontainers/bioconductor-xenopuslaevisprobe
