@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-crcl18"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crcl18/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crcl18/container.yaml"
-updated_at: "2023-07-11 03:42:22.194658"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-12 03:50:48.850826"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crcl18"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -17,8 +17,9 @@ versions:
  - "1.14.0--r41hdfd78af_1"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crcl18"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crcl18", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crcl18", "latest": {"1.18.0--r42hdfd78af_0": "sha256:5b73926ea2aa1df9128d979a8bdd51f24d126f18243d070f471581bb98a517b9"}, "tags": {"1.9.0--r40_0": "sha256:3ea595f7890493f57aeb93461585955abef0b5f45dc07607831d996c3bf6a36b", "1.18.0--r42hdfd78af_0": "sha256:5b73926ea2aa1df9128d979a8bdd51f24d126f18243d070f471581bb98a517b9", "1.14.0--r41hdfd78af_1": "sha256:10f15e0eb8b7c7bce67c8e1d34e460f49cb94228b4545dfb4b2fc2c984c67966", "1.12.0--r41hdfd78af_0": "sha256:a7d673adae1ce4c8469ffd12c69fe9422bffd900551b0388f747171d6131aba0", "1.10.0--r40hdfd78af_1": "sha256:09f0fbf570b37b11e062a4c7785ceb726934627d679d7a849d8e69e7dd4b7c44"}, "docker": "quay.io/biocontainers/bioconductor-crcl18", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crcl18", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crcl18", "latest": {"1.20.0--r43hdfd78af_0": "sha256:40490a0ce05d00478296c4122ed0d93fe5252ea2408d48fa6a1176bd998a5a1c"}, "tags": {"1.9.0--r40_0": "sha256:3ea595f7890493f57aeb93461585955abef0b5f45dc07607831d996c3bf6a36b", "1.18.0--r42hdfd78af_0": "sha256:5b73926ea2aa1df9128d979a8bdd51f24d126f18243d070f471581bb98a517b9", "1.14.0--r41hdfd78af_1": "sha256:10f15e0eb8b7c7bce67c8e1d34e460f49cb94228b4545dfb4b2fc2c984c67966", "1.12.0--r41hdfd78af_0": "sha256:a7d673adae1ce4c8469ffd12c69fe9422bffd900551b0388f747171d6131aba0", "1.10.0--r40hdfd78af_1": "sha256:09f0fbf570b37b11e062a4c7785ceb726934627d679d7a849d8e69e7dd4b7c44", "1.20.0--r43hdfd78af_0": "sha256:40490a0ce05d00478296c4122ed0d93fe5252ea2408d48fa6a1176bd998a5a1c"}, "docker": "quay.io/biocontainers/bioconductor-crcl18", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crcl18.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-crcl18
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-crcl18:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-crcl18:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-crcl18/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-crcl18/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-crcl18/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-crcl18/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

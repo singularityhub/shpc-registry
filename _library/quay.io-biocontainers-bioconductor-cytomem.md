@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cytomem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytomem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytomem/container.yaml"
-updated_at: "2023-07-11 03:13:13.163595"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-07-12 03:19:57.671688"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytomem"
 
 versions:
  - "1.2.0--r42hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cytomem"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytomem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytomem", "latest": {"1.2.0--r42hdfd78af_0": "sha256:654b50f73222bc0ff6e75ff2cd9e97077f79f6ce1310e9c3900c6c2d3ef52876"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:654b50f73222bc0ff6e75ff2cd9e97077f79f6ce1310e9c3900c6c2d3ef52876"}, "docker": "quay.io/biocontainers/bioconductor-cytomem"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytomem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytomem", "latest": {"1.4.0--r43hdfd78af_0": "sha256:44e6f8532458c463e816ab9dca8afa3b6cf3413cd4e3e376fe1976f7f8f39f89"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:654b50f73222bc0ff6e75ff2cd9e97077f79f6ce1310e9c3900c6c2d3ef52876", "1.4.0--r43hdfd78af_0": "sha256:44e6f8532458c463e816ab9dca8afa3b6cf3413cd4e3e376fe1976f7f8f39f89"}, "docker": "quay.io/biocontainers/bioconductor-cytomem"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytomem.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytomem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytomem:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytomem:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytomem/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytomem/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytomem/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytomem/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

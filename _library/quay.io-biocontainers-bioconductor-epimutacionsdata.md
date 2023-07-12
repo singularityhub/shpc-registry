@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-epimutacionsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epimutacionsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epimutacionsdata/container.yaml"
-updated_at: "2023-07-11 03:10:00.412301"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-07-12 03:16:32.205730"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epimutacionsdata"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.1.0--r42hdfd78af_0"
  - "1.2.0--r42hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-epimutacionsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epimutacionsdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-epimutacionsdata", "latest": {"1.2.0--r42hdfd78af_0": "sha256:d4e31de897242ca46e13c497f3b808b15a108e8f464eb45df80b08dee15e523f"}, "tags": {"1.1.0--r42hdfd78af_0": "sha256:64dfe8ff3dadfba952b29f87177109050bff5dc5276bf4f53b7b3ac58e2792f3", "1.2.0--r42hdfd78af_0": "sha256:d4e31de897242ca46e13c497f3b808b15a108e8f464eb45df80b08dee15e523f"}, "docker": "quay.io/biocontainers/bioconductor-epimutacionsdata", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epimutacionsdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-epimutacionsdata", "latest": {"1.4.0--r43hdfd78af_0": "sha256:c884492f316e9190bf339a15183c671c77cb0fb667c4b485b6dcee8168e5ee0f"}, "tags": {"1.1.0--r42hdfd78af_0": "sha256:64dfe8ff3dadfba952b29f87177109050bff5dc5276bf4f53b7b3ac58e2792f3", "1.2.0--r42hdfd78af_0": "sha256:d4e31de897242ca46e13c497f3b808b15a108e8f464eb45df80b08dee15e523f", "1.4.0--r43hdfd78af_0": "sha256:c884492f316e9190bf339a15183c671c77cb0fb667c4b485b6dcee8168e5ee0f"}, "docker": "quay.io/biocontainers/bioconductor-epimutacionsdata", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epimutacionsdata.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epimutacionsdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epimutacionsdata:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epimutacionsdata:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epimutacionsdata/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epimutacionsdata/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epimutacionsdata/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epimutacionsdata/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

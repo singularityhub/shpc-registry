@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-cbpmanager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbpmanager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbpmanager/container.yaml"
-updated_at: "2023-07-11 03:17:55.566287"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-12 03:24:57.238704"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbpmanager"
 aliases:
  - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cbpmanager"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cbpmanager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbpmanager", "latest": {"1.6.0--r42hdfd78af_0": "sha256:d8c4f8c3b14926c9c6ef1728997c8766e75ff328870dde6b718027eaa7efa7ee"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:47136786aabc12b8aa3441eb8cc24fa03c190141fff42eef838fc626ad43648b", "1.6.0--r42hdfd78af_0": "sha256:d8c4f8c3b14926c9c6ef1728997c8766e75ff328870dde6b718027eaa7efa7ee"}, "docker": "quay.io/biocontainers/bioconductor-cbpmanager", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cbpmanager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbpmanager", "latest": {"1.8.0--r43hdfd78af_0": "sha256:da07e340491ff740d2fa8a124a7a900013f43efe08b47f96c4b83155ee7025c3"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:47136786aabc12b8aa3441eb8cc24fa03c190141fff42eef838fc626ad43648b", "1.6.0--r42hdfd78af_0": "sha256:d8c4f8c3b14926c9c6ef1728997c8766e75ff328870dde6b718027eaa7efa7ee", "1.8.0--r43hdfd78af_0": "sha256:da07e340491ff740d2fa8a124a7a900013f43efe08b47f96c4b83155ee7025c3"}, "docker": "quay.io/biocontainers/bioconductor-cbpmanager", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cbpmanager.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cbpmanager
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cbpmanager:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cbpmanager:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cbpmanager/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cbpmanager/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cbpmanager/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cbpmanager/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

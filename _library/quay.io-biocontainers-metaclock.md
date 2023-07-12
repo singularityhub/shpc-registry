@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaclock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaclock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaclock/container.yaml"
-updated_at: "2023-07-11 03:41:43.312269"
+updated_at: "2023-07-12 03:50:07.689922"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaclock"
 aliases:

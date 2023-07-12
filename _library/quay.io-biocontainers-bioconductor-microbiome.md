@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-microbiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiome/container.yaml"
-updated_at: "2023-07-11 03:14:43.940491"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-07-12 03:21:34.632500"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiome"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-microbiome"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiome", "latest": {"1.20.0--r42hdfd78af_0": "sha256:3f8c78ce7d1e5b1ba14fed390809d257a5e33e61ac49fd91aa1b7d7616af013a"}, "tags": {"1.8.0--r36_0": "sha256:0f2c75b56d2836c4fe244746e22180653bd98c3c1ecfffa4ea4df82757473b61", "1.20.0--r42hdfd78af_0": "sha256:3f8c78ce7d1e5b1ba14fed390809d257a5e33e61ac49fd91aa1b7d7616af013a", "1.16.0--r41hdfd78af_0": "sha256:b6e61908b704275ee3bc4fa3f1e7caf5b47b70d9c81bb2de86a32f1a80312da8", "1.14.0--r41hdfd78af_0": "sha256:2340b24aab55874b2f1d69004a1927a46b3fe476d84bd6564095de70cdd8eaea", "1.12.0--r40hdfd78af_1": "sha256:437eddc8c349f5786b1599998d67ecb10c33c70a3953e3f69a2bad2eb984abf6", "1.10.0--r40_0": "sha256:fbdf5ef935eecdc243ec2a00acddf887bd0b562c629ccd08d0a0ed7d0bc49fcb"}, "docker": "quay.io/biocontainers/bioconductor-microbiome", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiome", "latest": {"1.22.0--r43hdfd78af_0": "sha256:a6a906ad37dced39022a241acece3b27bcf8b6211b0dcf216067e1cf5929aecf"}, "tags": {"1.8.0--r36_0": "sha256:0f2c75b56d2836c4fe244746e22180653bd98c3c1ecfffa4ea4df82757473b61", "1.20.0--r42hdfd78af_0": "sha256:3f8c78ce7d1e5b1ba14fed390809d257a5e33e61ac49fd91aa1b7d7616af013a", "1.16.0--r41hdfd78af_0": "sha256:b6e61908b704275ee3bc4fa3f1e7caf5b47b70d9c81bb2de86a32f1a80312da8", "1.14.0--r41hdfd78af_0": "sha256:2340b24aab55874b2f1d69004a1927a46b3fe476d84bd6564095de70cdd8eaea", "1.12.0--r40hdfd78af_1": "sha256:437eddc8c349f5786b1599998d67ecb10c33c70a3953e3f69a2bad2eb984abf6", "1.10.0--r40_0": "sha256:fbdf5ef935eecdc243ec2a00acddf887bd0b562c629ccd08d0a0ed7d0bc49fcb", "1.22.0--r43hdfd78af_0": "sha256:a6a906ad37dced39022a241acece3b27bcf8b6211b0dcf216067e1cf5929aecf"}, "docker": "quay.io/biocontainers/bioconductor-microbiome", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-microbiome.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-microbiome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-microbiome:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-microbiome:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-microbiome/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-microbiome/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-microbiome/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-microbiome/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

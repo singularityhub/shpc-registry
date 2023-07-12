@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-exploremodelmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-exploremodelmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-exploremodelmatrix/container.yaml"
-updated_at: "2023-07-11 03:01:32.664361"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-07-12 03:07:30.940671"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-exploremodelmatrix"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-exploremodelmatrix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-exploremodelmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-exploremodelmatrix", "latest": {"1.10.0--r42hdfd78af_0": "sha256:bbe7283acd865135b3ef93e246ea7512bedf94309d68d217794ba294255ca303"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4ec7ee7288a004b15f6eb5ba137d167a5755a245171f27baa8b1270edb581b78", "1.10.0--r42hdfd78af_0": "sha256:bbe7283acd865135b3ef93e246ea7512bedf94309d68d217794ba294255ca303"}, "docker": "quay.io/biocontainers/bioconductor-exploremodelmatrix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-exploremodelmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-exploremodelmatrix", "latest": {"1.12.0--r43hdfd78af_0": "sha256:b0441998b451dc4289dbfeb8ffbce7780ff885ffe1ab4b783f363edabc9f5b12"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4ec7ee7288a004b15f6eb5ba137d167a5755a245171f27baa8b1270edb581b78", "1.10.0--r42hdfd78af_0": "sha256:bbe7283acd865135b3ef93e246ea7512bedf94309d68d217794ba294255ca303", "1.12.0--r43hdfd78af_0": "sha256:b0441998b451dc4289dbfeb8ffbce7780ff885ffe1ab4b783f363edabc9f5b12"}, "docker": "quay.io/biocontainers/bioconductor-exploremodelmatrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-exploremodelmatrix.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-exploremodelmatrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-exploremodelmatrix:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-exploremodelmatrix:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-exploremodelmatrix/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-exploremodelmatrix/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-exploremodelmatrix/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-exploremodelmatrix/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

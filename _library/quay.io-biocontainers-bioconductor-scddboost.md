@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scddboost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scddboost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scddboost/container.yaml"
-updated_at: "2023-07-11 03:09:05.145133"
-latest: "1.0.0--r42hf17093f_1"
+updated_at: "2023-07-12 03:15:33.459236"
+latest: "1.2.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scddboost"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.0.0--r42hc247a5b_0"
  - "1.0.0--r42hf17093f_1"
+ - "1.2.0--r43hf17093f_0"
 description: "singularity registry hpc automated addition for bioconductor-scddboost"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scddboost", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scddboost", "latest": {"1.0.0--r42hf17093f_1": "sha256:f1447fb30817142a89ef0e180eb91c5d0ed067fce0f5bf8e0a5abb3afe1dfa1d"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:6ff7e4138f450c2f87ffdc3cb99d5f26726c7509d5aeac660b3e24df0ef6f795", "1.0.0--r42hf17093f_1": "sha256:f1447fb30817142a89ef0e180eb91c5d0ed067fce0f5bf8e0a5abb3afe1dfa1d"}, "docker": "quay.io/biocontainers/bioconductor-scddboost", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scddboost", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scddboost", "latest": {"1.2.0--r43hf17093f_0": "sha256:9836eb37650636ec416e0359e04801a4b85d0df54cb861165af63a2d37ba155d"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:6ff7e4138f450c2f87ffdc3cb99d5f26726c7509d5aeac660b3e24df0ef6f795", "1.0.0--r42hf17093f_1": "sha256:f1447fb30817142a89ef0e180eb91c5d0ed067fce0f5bf8e0a5abb3afe1dfa1d", "1.2.0--r43hf17093f_0": "sha256:9836eb37650636ec416e0359e04801a4b85d0df54cb861165af63a2d37ba155d"}, "docker": "quay.io/biocontainers/bioconductor-scddboost", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scddboost.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scddboost
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scddboost:1.0.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-scddboost:1.2.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scddboost/1.0.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-scddboost/1.0.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-scddboost/1.2.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-scddboost/1.2.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

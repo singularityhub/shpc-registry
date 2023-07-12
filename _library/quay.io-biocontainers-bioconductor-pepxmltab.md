@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pepxmltab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepxmltab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepxmltab/container.yaml"
-updated_at: "2023-07-11 03:33:30.802418"
+updated_at: "2023-07-12 03:41:31.198698"
 latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepxmltab"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-oveseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oveseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oveseg/container.yaml"
-updated_at: "2023-07-11 02:56:56.120207"
-latest: "1.14.0--r42hf17093f_1"
+updated_at: "2023-07-12 03:02:36.263956"
+latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oveseg"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.14.0--r42hc247a5b_0"
  - "1.10.0--r41hc247a5b_2"
  - "1.14.0--r42hf17093f_1"
+ - "1.16.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-oveseg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oveseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oveseg", "latest": {"1.14.0--r42hf17093f_1": "sha256:2c0e1fee757399ea1f6a80e7126a8ba287aa68594a6565c1cb8947251d8e7eb6"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:28244a27b87310cbbf8eb9d1cd1aa877b156cf8bd3a5e1117ebb5c6ff63cecd0", "1.14.0--r42hc247a5b_0": "sha256:282ae98621862e791422d84fcf3b21ef9cf854b28530d9cefb76621d09f3d7ef", "1.10.0--r41hc247a5b_2": "sha256:fcfabd82cdb553aafff0ab95ea80ac63f8845bfda05d600e180ee601b184089a", "1.14.0--r42hf17093f_1": "sha256:2c0e1fee757399ea1f6a80e7126a8ba287aa68594a6565c1cb8947251d8e7eb6"}, "docker": "quay.io/biocontainers/bioconductor-oveseg", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oveseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oveseg", "latest": {"1.16.0--r43hf17093f_0": "sha256:ebcb17f4af157006243a7d004a734cfcf9eb735d4ba0ce43bb32c0f081826644"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:28244a27b87310cbbf8eb9d1cd1aa877b156cf8bd3a5e1117ebb5c6ff63cecd0", "1.14.0--r42hc247a5b_0": "sha256:282ae98621862e791422d84fcf3b21ef9cf854b28530d9cefb76621d09f3d7ef", "1.10.0--r41hc247a5b_2": "sha256:fcfabd82cdb553aafff0ab95ea80ac63f8845bfda05d600e180ee601b184089a", "1.14.0--r42hf17093f_1": "sha256:2c0e1fee757399ea1f6a80e7126a8ba287aa68594a6565c1cb8947251d8e7eb6", "1.16.0--r43hf17093f_0": "sha256:ebcb17f4af157006243a7d004a734cfcf9eb735d4ba0ce43bb32c0f081826644"}, "docker": "quay.io/biocontainers/bioconductor-oveseg", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oveseg.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-oveseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-oveseg:1.14.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-oveseg:1.16.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-oveseg/1.14.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-oveseg/1.14.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-oveseg/1.16.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-oveseg/1.16.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
