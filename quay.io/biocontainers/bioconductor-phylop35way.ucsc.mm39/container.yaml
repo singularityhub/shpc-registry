@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-phylop35way.ucsc.mm39
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-phylop35way.ucsc.mm39
 latest:
-  3.16.0--r42hdfd78af_0: sha256:ac889c52e7f157831744f6c625fc130a0eb4856dd4d92338cfdbd6ed7e9305ac
+  3.16.0--r43hdfd78af_1: sha256:a44982dc113616db2a55c2efee43d295e415e6e104176f8afe0f49ff558c97b3
 tags:
   3.16.0--r42hdfd78af_0: sha256:ac889c52e7f157831744f6c625fc130a0eb4856dd4d92338cfdbd6ed7e9305ac
+  3.16.0--r43hdfd78af_1: sha256:a44982dc113616db2a55c2efee43d295e415e6e104176f8afe0f49ff558c97b3
 docker: quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

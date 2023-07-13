@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-hemdag
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-hemdag
 latest:
-  2.7.4--r42h21a89ab_5: sha256:eac0d62269da8cf58e90f15f90d621ade04f6a52f0756845c95097f3a471479e
+  2.7.4--r43h21a89ab_6: sha256:eca0322740e14b22a40df6329a50958ec56493a9c26c2a1e32ed60e8c440dcae
 tags:
   2.7.4--r41hecf12ef_3: sha256:d82eb11a905e6c664a26c002bde658edbf428e53cf76c34e99fea8054ebd0708
   2.7.4--r42hecf12ef_4: sha256:0a68351a00abec4e57ca90130cecc13e953ab827b07e02d33749679ecaf0765f
   2.7.4--r42h21a89ab_5: sha256:eac0d62269da8cf58e90f15f90d621ade04f6a52f0756845c95097f3a471479e
+  2.7.4--r43h21a89ab_6: sha256:eca0322740e14b22a40df6329a50958ec56493a9c26c2a1e32ed60e8c440dcae
 docker: quay.io/biocontainers/r-hemdag

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mapkldata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mapkldata
 latest:
-  1.29.0--r42hdfd78af_0: sha256:c318b089b23ce7943bc699faf5d7cb9236f84b4c1344a80fa1fa7ba86237f87b
+  1.32.0--r43hdfd78af_0: sha256:6baf71f9c722a26286b435ca39b0371cea9a281cf06738d28ff522de03378da2
 tags:
   1.26.0--r41hdfd78af_1: sha256:1b288317b018fb75360969426a51ce6ad84576ed63d69f4a208f6dfb9d2e355a
   1.29.0--r42hdfd78af_0: sha256:c318b089b23ce7943bc699faf5d7cb9236f84b4c1344a80fa1fa7ba86237f87b
+  1.32.0--r43hdfd78af_0: sha256:6baf71f9c722a26286b435ca39b0371cea9a281cf06738d28ff522de03378da2
 docker: quay.io/biocontainers/bioconductor-mapkldata

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-curatedbreastdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-curatedbreastdata
 latest:
-  2.26.0--r42hdfd78af_0: sha256:0223f4d2bad8b97caaacf7e9fde7601ca70fc4a7d94b259d074e929ba2fed131
+  2.28.0--r43hdfd78af_0: sha256:09efe0dd68fdde6db4bb4a6f323255a48cc1608bcda505fde6f50c9d9b8e44fc
 tags:
   2.22.0--r41hdfd78af_1: sha256:a168390133760194b739602867e0f2ab4d66daf764d1a3f8784f207e45dea146
   2.26.0--r42hdfd78af_0: sha256:0223f4d2bad8b97caaacf7e9fde7601ca70fc4a7d94b259d074e929ba2fed131
+  2.28.0--r43hdfd78af_0: sha256:09efe0dd68fdde6db4bb4a6f323255a48cc1608bcda505fde6f50c9d9b8e44fc
 docker: quay.io/biocontainers/bioconductor-curatedbreastdata
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

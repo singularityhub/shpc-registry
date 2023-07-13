@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hgu133plus2frmavecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgu133plus2frmavecs
 latest:
-  1.5.0--r42hdfd78af_11: sha256:bf0f4e58c118bad5a3964cb799dc2771486d406cb34ff000990f406c53dfcd9e
+  1.5.0--r43hdfd78af_12: sha256:8a657da21d39cc5c079f029b62b09ec07548ad899b67650dcb9b43dd711183ba
 tags:
   1.5.0--r41hdfd78af_9: sha256:ed4a30c8389a477e735a1d3614f4a5de2479f1466179210d98a26f2371782ced
   1.5.0--r42hdfd78af_11: sha256:bf0f4e58c118bad5a3964cb799dc2771486d406cb34ff000990f406c53dfcd9e
+  1.5.0--r43hdfd78af_12: sha256:8a657da21d39cc5c079f029b62b09ec07548ad899b67650dcb9b43dd711183ba
 docker: quay.io/biocontainers/bioconductor-hgu133plus2frmavecs

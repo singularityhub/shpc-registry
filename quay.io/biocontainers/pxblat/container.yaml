@@ -5,6 +5,7 @@ latest:
   0.2.0--py310hfb835a5_0: sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4
 tags:
   0.2.0--py310hfb835a5_0: sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4
+  0.2.0--py39h1fb70d6_0: sha256:9ad2e81e69c64c9f19d6d631e0be62aacecf0aef774fbd570e25e2d185808100
 docker: quay.io/biocontainers/pxblat
 aliases:
   pxblat: /usr/local/bin/pxblat

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-affyplm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-affyplm
 latest:
-  1.74.0--r42ha9d7317_1: sha256:0e55e727cbb4753b801221f489144174bb5883d1736bbfb4d0f39d0de1afea0c
+  1.76.1--r43ha9d7317_0: sha256:e50abeafba0c35ee436305591e9e05dc960d829b6dc638147c5bc1e695cf9288
 tags:
   1.70.0--r41hc0cfd56_2: sha256:eda663877f2478247ccac4287c240dea3688a64e17b829eddab73758add10279
   1.74.0--r42hc0cfd56_0: sha256:91e22a83bbff3832ecc6935197beaaf6aeb9fee549e2cd4952fb705ac17b9143
   1.74.0--r42ha9d7317_1: sha256:0e55e727cbb4753b801221f489144174bb5883d1736bbfb4d0f39d0de1afea0c
+  1.76.1--r43ha9d7317_0: sha256:e50abeafba0c35ee436305591e9e05dc960d829b6dc638147c5bc1e695cf9288
 docker: quay.io/biocontainers/bioconductor-affyplm

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-soybeancdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-soybeancdf
 latest:
-  2.18.0--r42hdfd78af_10: sha256:f92f0120a63cfe36441277df73af063c7dcc0d383693067a836bb58f7acd4e97
+  2.18.0--r43hdfd78af_11: sha256:971bf7f0fb7c024dcc19119616fc113f80cb438d270809f53cdc8399bb2c8628
 tags:
   2.18.0--r41hdfd78af_8: sha256:4180bce2b2c7475bfd8de2911569086df966f72e62d4225c07f6cc63de3a7417
   2.18.0--r42hdfd78af_10: sha256:f92f0120a63cfe36441277df73af063c7dcc0d383693067a836bb58f7acd4e97
+  2.18.0--r43hdfd78af_11: sha256:971bf7f0fb7c024dcc19119616fc113f80cb438d270809f53cdc8399bb2c8628
 docker: quay.io/biocontainers/bioconductor-soybeancdf

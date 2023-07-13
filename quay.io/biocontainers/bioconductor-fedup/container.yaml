@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-fedup
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fedup
 latest:
-  1.6.0--r42hdfd78af_0: sha256:05dd515ce7932a18f5c5ce42b33adbab7b6d699b58619a6529a5d75195185d1e
+  1.8.0--r43hdfd78af_0: sha256:274636f9fffd60d494908353bac4398a35aa9c41e9f3c7061758d231d6020163
 tags:
   1.2.0--r41hdfd78af_0: sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd
   1.6.0--r42hdfd78af_0: sha256:05dd515ce7932a18f5c5ce42b33adbab7b6d699b58619a6529a5d75195185d1e
+  1.8.0--r43hdfd78af_0: sha256:274636f9fffd60d494908353bac4398a35aa9c41e9f3c7061758d231d6020163
 docker: quay.io/biocontainers/bioconductor-fedup
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

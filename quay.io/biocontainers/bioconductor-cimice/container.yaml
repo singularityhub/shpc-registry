@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cimice
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cimice
 latest:
-  1.6.0--r42hdfd78af_0: sha256:87d6d4c57e0decbb4ed552a00b1834fa577d5058de41421373fa4b1b94e597af
+  1.8.0--r43hdfd78af_0: sha256:533b22e2410fd630ce1e439f6d2e429585c78be40b8ae636cc1e343c7787a557
 tags:
   1.2.0--r41hdfd78af_0: sha256:95fd1d9e0d4c46b0172d8ffa457519b5de03a1f634efae3cd7956e66384b466a
   1.6.0--r42hdfd78af_0: sha256:87d6d4c57e0decbb4ed552a00b1834fa577d5058de41421373fa4b1b94e597af
+  1.8.0--r43hdfd78af_0: sha256:533b22e2410fd630ce1e439f6d2e429585c78be40b8ae636cc1e343c7787a557
 docker: quay.io/biocontainers/bioconductor-cimice

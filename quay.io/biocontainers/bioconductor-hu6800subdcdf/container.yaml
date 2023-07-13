@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hu6800subdcdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hu6800subdcdf
 latest:
-  2.18.0--r42hdfd78af_10: sha256:de8d901523a0e632b16989651e42e626f0d28d72f86771d67c4079f00a9210a0
+  2.18.0--r43hdfd78af_11: sha256:d113d638956232f038381c7f63c9a08daa8517c3a0ddcf0b705f9f1f13e3270b
 tags:
   2.18.0--r41hdfd78af_9: sha256:231f0fee5309df8a8baf4b683bff4be22b73ea822647884f8e52af9bd886e3de
   2.18.0--r42hdfd78af_10: sha256:de8d901523a0e632b16989651e42e626f0d28d72f86771d67c4079f00a9210a0
+  2.18.0--r43hdfd78af_11: sha256:d113d638956232f038381c7f63c9a08daa8517c3a0ddcf0b705f9f1f13e3270b
 docker: quay.io/biocontainers/bioconductor-hu6800subdcdf
