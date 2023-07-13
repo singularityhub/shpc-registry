@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-analysispageserver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-analysispageserver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-analysispageserver/container.yaml"
-updated_at: "2023-07-13 03:18:09.748981"
+updated_at: "2023-07-13 03:44:29.479053"
 latest: "1.21.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-analysispageserver"
 aliases:

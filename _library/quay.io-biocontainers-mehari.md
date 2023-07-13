@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mehari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mehari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mehari/container.yaml"
-updated_at: "2023-07-13 03:24:07.861439"
+updated_at: "2023-07-13 03:50:56.988574"
 latest: "0.5.7--h7e29777_0"
 container_url: "https://biocontainers.pro/tools/mehari"
 aliases:
