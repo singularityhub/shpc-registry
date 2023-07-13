@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-biochail
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-biochail
+latest:
+  1.0.0--r43hdfd78af_0: sha256:114f576c5793de0a7536334817e22de9d8538d9285906d85c126ce0a536bde41
+tags:
+  1.0.0--r43hdfd78af_0: sha256:114f576c5793de0a7536334817e22de9d8538d9285906d85c126ce0a536bde41
+docker: quay.io/biocontainers/bioconductor-biochail
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

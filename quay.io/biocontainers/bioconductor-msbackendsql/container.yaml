@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-msbackendsql
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-msbackendsql
+latest:
+  1.0.1--r43hdfd78af_0: sha256:69926e6de94bb820121926f6c2073cbce007078dca3b593b42b1ca2b83e0f473
+tags:
+  1.0.1--r43hdfd78af_0: sha256:69926e6de94bb820121926f6c2073cbce007078dca3b593b42b1ca2b83e0f473
+docker: quay.io/biocontainers/bioconductor-msbackendsql
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

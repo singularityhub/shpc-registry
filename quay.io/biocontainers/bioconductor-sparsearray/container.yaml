@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-sparsearray
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-sparsearray
+latest:
+  1.0.10--r43ha9d7317_0: sha256:2bfed3b1dcb0a1d98535a806914c632d5693c1cb775daffcebdab60ed84c44dd
+tags:
+  1.0.10--r43ha9d7317_0: sha256:2bfed3b1dcb0a1d98535a806914c632d5693c1cb775daffcebdab60ed84c44dd
+docker: quay.io/biocontainers/bioconductor-sparsearray
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

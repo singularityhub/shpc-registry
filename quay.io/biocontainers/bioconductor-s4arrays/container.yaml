@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-s4arrays
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-s4arrays
+latest:
+  1.0.4--r43ha9d7317_0: sha256:8096e69c943cbc155a07a81147c594ead505e519acfe178913f35b0ba82a03ac
+tags:
+  1.0.4--r43ha9d7317_0: sha256:8096e69c943cbc155a07a81147c594ead505e519acfe178913f35b0ba82a03ac
+docker: quay.io/biocontainers/bioconductor-s4arrays
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-alabaster.bumpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-alabaster.bumpy
+latest:
+  1.0.0--r43hdfd78af_0: sha256:201b37b8aa245d114e8a2adf1b673dcf4413a2e4e0de436a55647a396aef5e39
+tags:
+  1.0.0--r43hdfd78af_0: sha256:201b37b8aa245d114e8a2adf1b673dcf4413a2e4e0de436a55647a396aef5e39
+docker: quay.io/biocontainers/bioconductor-alabaster.bumpy
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
