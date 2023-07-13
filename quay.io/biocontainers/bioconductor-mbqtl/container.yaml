@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mbqtl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-mbqtl
+latest:
+  1.0.0--r43hdfd78af_0: sha256:3b67befccca25844adbcbb09e783468774a2b1d83a8f65dd50842afc412d17ad
+tags:
+  1.0.0--r43hdfd78af_0: sha256:3b67befccca25844adbcbb09e783468774a2b1d83a8f65dd50842afc412d17ad
+docker: quay.io/biocontainers/bioconductor-mbqtl
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

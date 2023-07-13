@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/viramp-hub
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for viramp-hub
+latest:
+  0.1.0--pyhdfd78af_0: sha256:fb5822e701bcc4228f1ac7077be76ed1fd58085544e8bf1152d7ecfe92835980
+tags:
+  0.1.0--pyhdfd78af_0: sha256:fb5822e701bcc4228f1ac7077be76ed1fd58085544e8bf1152d7ecfe92835980
+docker: quay.io/biocontainers/viramp-hub
+aliases:
+  scheme-convert: /usr/local/bin/scheme-convert
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/bioconductor-rbioformats
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-rbioformats
+latest:
+  1.0.0--r43hdfd78af_0: sha256:c928f548a80bbe8c4e19ae837327878f564b50460efac3295cfc563dedf4b391
+tags:
+  1.0.0--r43hdfd78af_0: sha256:c928f548a80bbe8c4e19ae837327878f564b50460efac3295cfc563dedf4b391
+docker: quay.io/biocontainers/bioconductor-rbioformats
+aliases:
+  jwebserver: /usr/local/bin/jwebserver
+  hb-info: /usr/local/bin/hb-info
+  jpackage: /usr/local/bin/jpackage
+  tjbench: /usr/local/bin/tjbench
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  pandoc: /usr/local/bin/pandoc
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc

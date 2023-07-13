@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-chihaya
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-chihaya
+latest:
+  1.0.0--r43hf17093f_0: sha256:02e3de6626bf00c71a7dd5412ebacaeb662bbeb77110e02728c8e343297e3c14
+tags:
+  1.0.0--r43hf17093f_0: sha256:02e3de6626bf00c71a7dd5412ebacaeb662bbeb77110e02728c8e343297e3c14
+docker: quay.io/biocontainers/bioconductor-chihaya
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
