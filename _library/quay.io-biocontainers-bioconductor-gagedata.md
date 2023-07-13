@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gagedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gagedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gagedata/container.yaml"
-updated_at: "2023-07-12 03:42:21.501900"
+updated_at: "2023-07-13 03:42:40.189872"
 latest: "2.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gagedata"
 aliases:

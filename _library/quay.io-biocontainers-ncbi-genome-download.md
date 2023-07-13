@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-genome-download"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-genome-download/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-genome-download/container.yaml"
-updated_at: "2023-07-12 03:04:52.891401"
-latest: "0.3.1--pyh5e36f6f_0"
+updated_at: "2023-07-13 03:08:12.890434"
+latest: "0.3.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/ncbi-genome-download"
 aliases:
  - "gimme_taxa.py"
@@ -21,8 +21,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.3.1--pyh5e36f6f_0"
+ - "0.3.1--pyh7cba7a3_1"
 description: "shpc-registry automated BioContainers addition for ncbi-genome-download"
-config: {"url": "https://biocontainers.pro/tools/ncbi-genome-download", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-genome-download", "latest": {"0.3.1--pyh5e36f6f_0": "sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8"}, "docker": "quay.io/biocontainers/ncbi-genome-download", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-genome-download", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-genome-download", "latest": {"0.3.1--pyh7cba7a3_1": "sha256:25965fbdec524a1ef51941ceec925941486c0f3a1f206450dc706bd8652fcd03"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8", "0.3.1--pyh7cba7a3_1": "sha256:25965fbdec524a1ef51941ceec925941486c0f3a1f206450dc706bd8652fcd03"}, "docker": "quay.io/biocontainers/ncbi-genome-download", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-genome-download.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ncbi-genome-download
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-genome-download:0.3.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/ncbi-genome-download:0.3.1--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-genome-download/0.3.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/ncbi-genome-download/0.3.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/ncbi-genome-download/0.3.1--pyh7cba7a3_1
+$ module help quay.io/biocontainers/ncbi-genome-download/0.3.1--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

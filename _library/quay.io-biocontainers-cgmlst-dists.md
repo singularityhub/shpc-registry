@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgmlst-dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgmlst-dists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgmlst-dists/container.yaml"
-updated_at: "2023-07-12 03:30:01.256975"
+updated_at: "2023-07-13 03:31:13.743590"
 latest: "0.4.0--h031d066_4"
 container_url: "https://biocontainers.pro/tools/cgmlst-dists"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-abdiv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-abdiv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-abdiv/container.yaml"
-updated_at: "2023-07-12 03:18:03.420883"
-latest: "0.2.0--r42h3121a25_1"
+updated_at: "2023-07-13 03:20:17.966240"
+latest: "0.2.0--r43h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-abdiv"
 
 versions:
  - "0.2.0--r42h3121a25_1"
+ - "0.2.0--r43h3121a25_2"
 description: "singularity registry hpc automated addition for r-abdiv"
-config: {"url": "https://biocontainers.pro/tools/r-abdiv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-abdiv", "latest": {"0.2.0--r42h3121a25_1": "sha256:9cf6d39e29d69f1dc660e90af50485053198ae542f7223a74f0e43017254d8e1"}, "tags": {"0.2.0--r42h3121a25_1": "sha256:9cf6d39e29d69f1dc660e90af50485053198ae542f7223a74f0e43017254d8e1"}, "docker": "quay.io/biocontainers/r-abdiv"}
+config: {"url": "https://biocontainers.pro/tools/r-abdiv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-abdiv", "latest": {"0.2.0--r43h3121a25_2": "sha256:5e55c5d58b2a22450c78691e52c75ca92bc726b05dc85d67d6446fe491e367a3"}, "tags": {"0.2.0--r42h3121a25_1": "sha256:9cf6d39e29d69f1dc660e90af50485053198ae542f7223a74f0e43017254d8e1", "0.2.0--r43h3121a25_2": "sha256:5e55c5d58b2a22450c78691e52c75ca92bc726b05dc85d67d6446fe491e367a3"}, "docker": "quay.io/biocontainers/r-abdiv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-abdiv.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-abdiv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-abdiv:0.2.0--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-abdiv:0.2.0--r43h3121a25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-abdiv/0.2.0--r42h3121a25_1
-$ module help quay.io/biocontainers/r-abdiv/0.2.0--r42h3121a25_1
+$ module load quay.io/biocontainers/r-abdiv/0.2.0--r43h3121a25_2
+$ module help quay.io/biocontainers/r-abdiv/0.2.0--r43h3121a25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

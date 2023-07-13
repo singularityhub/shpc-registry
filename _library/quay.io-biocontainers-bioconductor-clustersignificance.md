@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-clustersignificance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clustersignificance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clustersignificance/container.yaml"
-updated_at: "2023-07-12 03:20:28.962511"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-07-13 03:22:31.472232"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clustersignificance"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.20.0--r41hdfd78af_0"
  - "1.18.0--r40hdfd78af_1"
  - "1.16.0--r40_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clustersignificance"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clustersignificance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clustersignificance", "latest": {"1.26.0--r42hdfd78af_0": "sha256:02bf40627532b42905c6b139fec64de5f92bdcc71111d6f49bed84b3f8dc5779"}, "tags": {"1.8.2--r351_0": "sha256:26329bb2a9df64553f806901b51eac5c6c953d3c558e8353dd245377e7fff501", "1.26.0--r42hdfd78af_0": "sha256:02bf40627532b42905c6b139fec64de5f92bdcc71111d6f49bed84b3f8dc5779", "1.22.0--r41hdfd78af_0": "sha256:a369631916c7ffb320076addf96c969cf29d26a2040054d3fb21f23aa7fd0807", "1.20.0--r41hdfd78af_0": "sha256:89bf412b6436b8a272c55c455ae5fcce246da7fe324bd7449ce0da923904b805", "1.18.0--r40hdfd78af_1": "sha256:347b6c1c8a3dba9e3df42c37921c842c6904c464cae71b8970ca885636cd2a27", "1.16.0--r40_0": "sha256:2b8a56a04ff5aaf93d6f6ae393f41cbed7e16d4177aea6cc879bf4a40dfc0095"}, "docker": "quay.io/biocontainers/bioconductor-clustersignificance"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clustersignificance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clustersignificance", "latest": {"1.28.0--r43hdfd78af_0": "sha256:40452b5fdc82303feea54efd6312f00ef49d211c040f9e5e98e60b1eb5aa5bd5"}, "tags": {"1.8.2--r351_0": "sha256:26329bb2a9df64553f806901b51eac5c6c953d3c558e8353dd245377e7fff501", "1.26.0--r42hdfd78af_0": "sha256:02bf40627532b42905c6b139fec64de5f92bdcc71111d6f49bed84b3f8dc5779", "1.22.0--r41hdfd78af_0": "sha256:a369631916c7ffb320076addf96c969cf29d26a2040054d3fb21f23aa7fd0807", "1.20.0--r41hdfd78af_0": "sha256:89bf412b6436b8a272c55c455ae5fcce246da7fe324bd7449ce0da923904b805", "1.18.0--r40hdfd78af_1": "sha256:347b6c1c8a3dba9e3df42c37921c842c6904c464cae71b8970ca885636cd2a27", "1.16.0--r40_0": "sha256:2b8a56a04ff5aaf93d6f6ae393f41cbed7e16d4177aea6cc879bf4a40dfc0095", "1.28.0--r43hdfd78af_0": "sha256:40452b5fdc82303feea54efd6312f00ef49d211c040f9e5e98e60b1eb5aa5bd5"}, "docker": "quay.io/biocontainers/bioconductor-clustersignificance"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clustersignificance.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clustersignificance
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clustersignificance:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-clustersignificance:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clustersignificance/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-clustersignificance/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-clustersignificance/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-clustersignificance/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

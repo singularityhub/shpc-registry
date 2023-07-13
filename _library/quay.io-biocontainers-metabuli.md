@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metabuli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabuli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabuli/container.yaml"
-updated_at: "2023-07-12 03:18:48.427104"
-latest: "1.0.0--pl5321hf1761c0_0"
+updated_at: "2023-07-13 03:20:59.086974"
+latest: "1.0.1--pl5321h6a68c12_0"
 container_url: "https://biocontainers.pro/tools/metabuli"
 aliases:
  - "aria2c"
@@ -17,8 +17,9 @@ aliases:
  - "wget"
 versions:
  - "1.0.0--pl5321hf1761c0_0"
+ - "1.0.1--pl5321h6a68c12_0"
 description: "singularity registry hpc automated addition for metabuli"
-config: {"url": "https://biocontainers.pro/tools/metabuli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metabuli", "latest": {"1.0.0--pl5321hf1761c0_0": "sha256:491537c04d1f361894bd4746e3f84d606ea8ce8ef8587cb38c838dad52d50be6"}, "tags": {"1.0.0--pl5321hf1761c0_0": "sha256:491537c04d1f361894bd4746e3f84d606ea8ce8ef8587cb38c838dad52d50be6"}, "docker": "quay.io/biocontainers/metabuli", "aliases": {"aria2c": "/usr/local/bin/aria2c", "metabuli": "/usr/local/bin/metabuli", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/metabuli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metabuli", "latest": {"1.0.1--pl5321h6a68c12_0": "sha256:b23c455f958185c6ae79ca4676789b11c8045477f3063d06d90829de9f337563"}, "tags": {"1.0.0--pl5321hf1761c0_0": "sha256:491537c04d1f361894bd4746e3f84d606ea8ce8ef8587cb38c838dad52d50be6", "1.0.1--pl5321h6a68c12_0": "sha256:b23c455f958185c6ae79ca4676789b11c8045477f3063d06d90829de9f337563"}, "docker": "quay.io/biocontainers/metabuli", "aliases": {"aria2c": "/usr/local/bin/aria2c", "metabuli": "/usr/local/bin/metabuli", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabuli.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/metabuli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metabuli:1.0.0--pl5321hf1761c0_0
+$ shpc install quay.io/biocontainers/metabuli:1.0.1--pl5321h6a68c12_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metabuli/1.0.0--pl5321hf1761c0_0
-$ module help quay.io/biocontainers/metabuli/1.0.0--pl5321hf1761c0_0
+$ module load quay.io/biocontainers/metabuli/1.0.1--pl5321h6a68c12_0
+$ module help quay.io/biocontainers/metabuli/1.0.1--pl5321h6a68c12_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

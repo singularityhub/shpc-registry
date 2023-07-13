@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-org.sc.sgd.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.sc.sgd.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.sc.sgd.db/container.yaml"
-updated_at: "2023-07-12 03:41:01.149140"
-latest: "3.16.0--r42hdfd78af_0"
+updated_at: "2023-07-13 03:41:24.522473"
+latest: "3.17.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.sc.sgd.db"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "3.13.0--r41hdfd78af_0"
  - "3.12.0--r40hdfd78af_1"
  - "3.11.1--r40_0"
+ - "3.17.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.sc.sgd.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.sc.sgd.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.sc.sgd.db", "latest": {"3.16.0--r42hdfd78af_0": "sha256:4bb073cb4af5c63ab83ab285f09f80c2cd01ddcd4d18e8eb0a76758fd314225e"}, "tags": {"3.8.2--r36_1": "sha256:ec7035838dc3494edd508eb050d5029036d9d7e59fc46ba727b5126219a11f59", "3.16.0--r42hdfd78af_0": "sha256:4bb073cb4af5c63ab83ab285f09f80c2cd01ddcd4d18e8eb0a76758fd314225e", "3.14.0--r41hdfd78af_1": "sha256:dcc1535ab66888cd7bbff2b59f4c918899d2c89b9ea43fc64af4c3f22d950999", "3.13.0--r41hdfd78af_0": "sha256:5273de7c4fa37ec1b5c0a41d39b954ef8107402b1b8d4d9ef9e169b412702515", "3.12.0--r40hdfd78af_1": "sha256:a8df1fcf396ed2529df32620ab43b04eb7e6cd57345321ce16f633de58a9e973", "3.11.1--r40_0": "sha256:751afc9a73e550c266296d3c8b16b224539a4b5cb6b6798242c38da94c1a663d"}, "docker": "quay.io/biocontainers/bioconductor-org.sc.sgd.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.sc.sgd.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.sc.sgd.db", "latest": {"3.17.0--r43hdfd78af_0": "sha256:28539ccdb7d26a79697e54766a1d52316145a370461cdddb4f227352ab0d1641"}, "tags": {"3.8.2--r36_1": "sha256:ec7035838dc3494edd508eb050d5029036d9d7e59fc46ba727b5126219a11f59", "3.16.0--r42hdfd78af_0": "sha256:4bb073cb4af5c63ab83ab285f09f80c2cd01ddcd4d18e8eb0a76758fd314225e", "3.14.0--r41hdfd78af_1": "sha256:dcc1535ab66888cd7bbff2b59f4c918899d2c89b9ea43fc64af4c3f22d950999", "3.13.0--r41hdfd78af_0": "sha256:5273de7c4fa37ec1b5c0a41d39b954ef8107402b1b8d4d9ef9e169b412702515", "3.12.0--r40hdfd78af_1": "sha256:a8df1fcf396ed2529df32620ab43b04eb7e6cd57345321ce16f633de58a9e973", "3.11.1--r40_0": "sha256:751afc9a73e550c266296d3c8b16b224539a4b5cb6b6798242c38da94c1a663d", "3.17.0--r43hdfd78af_0": "sha256:28539ccdb7d26a79697e54766a1d52316145a370461cdddb4f227352ab0d1641"}, "docker": "quay.io/biocontainers/bioconductor-org.sc.sgd.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.sc.sgd.db.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-org.sc.sgd.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-org.sc.sgd.db:3.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-org.sc.sgd.db:3.17.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-org.sc.sgd.db/3.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-org.sc.sgd.db/3.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-org.sc.sgd.db/3.17.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-org.sc.sgd.db/3.17.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

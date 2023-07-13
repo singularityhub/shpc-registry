@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsca/container.yaml"
-updated_at: "2023-07-12 03:25:15.432058"
+updated_at: "2023-07-13 03:26:55.156472"
 latest: "2.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsca"
 aliases:

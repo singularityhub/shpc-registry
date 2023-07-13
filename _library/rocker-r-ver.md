@@ -4,8 +4,8 @@ name:  "rocker/r-ver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/r-ver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/r-ver/container.yaml"
-updated_at: "2023-07-12 02:58:34.607517"
-latest: "4.3.0"
+updated_at: "2023-07-13 03:02:17.733422"
+latest: "4.3.1"
 container_url: "https://hub.docker.com/r/rocker/r-ver"
 aliases:
  - "R"
@@ -17,8 +17,9 @@ versions:
  - "4.0.5"
  - "4.2.3"
  - "4.3.0"
+ - "4.3.1"
 description: "Version-stable build of R"
-config: {"docker": "rocker/r-ver", "url": "https://hub.docker.com/r/rocker/r-ver", "maintainer": "@marcodelapierre", "description": "Version-stable build of R", "latest": {"4.3.0": "sha256:19cc7fc01ec82aa8ad2f13fab8ec4ccc0797773aa52148441173bc454759467e"}, "tags": {"4.2.2": "sha256:59634bd1cb4621c1cf57d23509480f66a346bde29e2d2966eb7870c51c79d0de", "3.6.3": "sha256:9414f76c5f91f24617b5275b8fe4f4ff1313b3b10698a525cac0063c01f2ca6d", "4.1.3": "sha256:f8ac8d14c5e3a1d4b17f006d82ef8d9b392aa8552542b3758de659183fa54f16", "4.0.5": "sha256:b549d778cd3a7070f1336c789c6c396be4523bbe2134fb61f0d7e071dc6eff95", "4.2.3": "sha256:49474bb058ee42c6e560941d3cbc18cc131aa989c42a5d6e6e140c0d58e2c7e1", "4.3.0": "sha256:19cc7fc01ec82aa8ad2f13fab8ec4ccc0797773aa52148441173bc454759467e"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript"}}
+config: {"docker": "rocker/r-ver", "url": "https://hub.docker.com/r/rocker/r-ver", "maintainer": "@marcodelapierre", "description": "Version-stable build of R", "latest": {"4.3.1": "sha256:122391156980056b9165ec0d51f8927d13e94a26c1e4254111e63a02bb361843"}, "tags": {"4.2.2": "sha256:39696cf75761315d12d969643a7cc6e4430273b4f4f1044b04dc52a20956244c", "3.6.3": "sha256:9414f76c5f91f24617b5275b8fe4f4ff1313b3b10698a525cac0063c01f2ca6d", "4.1.3": "sha256:be1a8da28b32a2f5f3f6a981fecb466bfaddafe4d51a4fb8d9d3fd255598855c", "4.0.5": "sha256:9b77da12f0a05795a1f69c66fed8900e88b1a1a40a12149ed7b578377bb4e108", "4.2.3": "sha256:7c89f3b30b3f998215a74bfd992af90346f34b4f3d233cdfb0c93634f3b9ecf4", "4.3.0": "sha256:9d56a5245a9b9526d1019cb15311993bbecd69537b270ca81626bbf2bbeea58f", "4.3.1": "sha256:122391156980056b9165ec0d51f8927d13e94a26c1e4254111e63a02bb361843"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript"}}
 ---
 
 This module is a singularity container wrapper for rocker/r-ver.
@@ -33,7 +34,7 @@ $ shpc install rocker/r-ver
 Or a specific version:
 
 ```bash
-$ shpc install rocker/r-ver:4.3.0
+$ shpc install rocker/r-ver:4.3.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/r-ver/4.3.0
-$ module help rocker/r-ver/4.3.0
+$ module load rocker/r-ver/4.3.1
+$ module help rocker/r-ver/4.3.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

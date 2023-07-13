@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-imputelcmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-imputelcmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-imputelcmd/container.yaml"
-updated_at: "2023-07-12 03:33:32.286228"
-latest: "2.1--r42h3342da4_1"
+updated_at: "2023-07-13 03:34:27.138555"
+latest: "2.1--r43h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-imputelcmd"
 
 versions:
  - "2.1--r41h3342da4_0"
  - "2.1--r42h3342da4_1"
+ - "2.1--r43h3342da4_2"
 description: "shpc-registry automated BioContainers addition for r-imputelcmd"
-config: {"url": "https://biocontainers.pro/tools/r-imputelcmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-imputelcmd", "latest": {"2.1--r42h3342da4_1": "sha256:3758488584b4da3f9758658e47852c231aa2c2e9a0745c6b0fc0796876bb1c31"}, "tags": {"2.1--r41h3342da4_0": "sha256:8e72a79befe6e598ed2abed2cd14e03175864f4ae580a4aeaf3769be7fe61694", "2.1--r42h3342da4_1": "sha256:3758488584b4da3f9758658e47852c231aa2c2e9a0745c6b0fc0796876bb1c31"}, "docker": "quay.io/biocontainers/r-imputelcmd"}
+config: {"url": "https://biocontainers.pro/tools/r-imputelcmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-imputelcmd", "latest": {"2.1--r43h3342da4_2": "sha256:664a4ce121cd696f5e2f62fbf186d60e44df0bea1c3652ffcd3f03eb9806fa71"}, "tags": {"2.1--r41h3342da4_0": "sha256:8e72a79befe6e598ed2abed2cd14e03175864f4ae580a4aeaf3769be7fe61694", "2.1--r42h3342da4_1": "sha256:3758488584b4da3f9758658e47852c231aa2c2e9a0745c6b0fc0796876bb1c31", "2.1--r43h3342da4_2": "sha256:664a4ce121cd696f5e2f62fbf186d60e44df0bea1c3652ffcd3f03eb9806fa71"}, "docker": "quay.io/biocontainers/r-imputelcmd"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-imputelcmd.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-imputelcmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-imputelcmd:2.1--r42h3342da4_1
+$ shpc install quay.io/biocontainers/r-imputelcmd:2.1--r43h3342da4_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-imputelcmd/2.1--r42h3342da4_1
-$ module help quay.io/biocontainers/r-imputelcmd/2.1--r42h3342da4_1
+$ module load quay.io/biocontainers/r-imputelcmd/2.1--r43h3342da4_2
+$ module help quay.io/biocontainers/r-imputelcmd/2.1--r43h3342da4_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

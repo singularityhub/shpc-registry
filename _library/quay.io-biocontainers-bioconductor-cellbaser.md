@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellbaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellbaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellbaser/container.yaml"
-updated_at: "2023-07-12 03:29:04.439812"
-latest: "1.22.0--r42hdfd78af_0"
+updated_at: "2023-07-13 03:30:23.048456"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellbaser"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r41hdfd78af_0"
  - "1.14.0--r40hdfd78af_1"
  - "1.12.0--r40_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellbaser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellbaser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellbaser", "latest": {"1.22.0--r42hdfd78af_0": "sha256:cf3ac1f16f25768a5567318da7d46ce2c3a9ddfa81ca6c5cd1a60d367ec88213"}, "tags": {"1.8.0--r36_1": "sha256:acf259135abb3d6068f4e718ba7dd3db8e385dfd6caafad40382db95b54d47ce", "1.22.0--r42hdfd78af_0": "sha256:cf3ac1f16f25768a5567318da7d46ce2c3a9ddfa81ca6c5cd1a60d367ec88213", "1.18.0--r41hdfd78af_0": "sha256:70b1e2dac000062d1db20ca72b393c260a24b1ba724c5b8c9ce6cfc7ea4ce6a9", "1.16.0--r41hdfd78af_0": "sha256:cb77f7c4df8d297af1689eec62b3d22b1b1f3cd16b499662b3913d929600520f", "1.14.0--r40hdfd78af_1": "sha256:ad89b54aa136b277639782c9b8e8e5cdd0031ae106286a4c4455dbc5be1d41ab", "1.12.0--r40_0": "sha256:851084d4978ef10b6212c505cf7e703cf48854a0698fd2f983be7faf975c01d8"}, "docker": "quay.io/biocontainers/bioconductor-cellbaser", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellbaser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellbaser", "latest": {"1.24.0--r43hdfd78af_0": "sha256:444c24fcd55597bfb79af55fa818bab79915549d8d66820cb250441804822cc5"}, "tags": {"1.8.0--r36_1": "sha256:acf259135abb3d6068f4e718ba7dd3db8e385dfd6caafad40382db95b54d47ce", "1.22.0--r42hdfd78af_0": "sha256:cf3ac1f16f25768a5567318da7d46ce2c3a9ddfa81ca6c5cd1a60d367ec88213", "1.18.0--r41hdfd78af_0": "sha256:70b1e2dac000062d1db20ca72b393c260a24b1ba724c5b8c9ce6cfc7ea4ce6a9", "1.16.0--r41hdfd78af_0": "sha256:cb77f7c4df8d297af1689eec62b3d22b1b1f3cd16b499662b3913d929600520f", "1.14.0--r40hdfd78af_1": "sha256:ad89b54aa136b277639782c9b8e8e5cdd0031ae106286a4c4455dbc5be1d41ab", "1.12.0--r40_0": "sha256:851084d4978ef10b6212c505cf7e703cf48854a0698fd2f983be7faf975c01d8", "1.24.0--r43hdfd78af_0": "sha256:444c24fcd55597bfb79af55fa818bab79915549d8d66820cb250441804822cc5"}, "docker": "quay.io/biocontainers/bioconductor-cellbaser", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellbaser.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellbaser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellbaser:1.22.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cellbaser:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellbaser/1.22.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cellbaser/1.22.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cellbaser/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cellbaser/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

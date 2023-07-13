@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coregnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coregnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coregnet/container.yaml"
-updated_at: "2023-07-12 03:22:30.485822"
+updated_at: "2023-07-13 03:24:22.996119"
 latest: "1.36.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-coregnet"
 aliases:

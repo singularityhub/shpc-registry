@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyroe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyroe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyroe/container.yaml"
-updated_at: "2023-07-12 03:49:48.887825"
+updated_at: "2023-07-13 03:49:37.252812"
 latest: "0.9.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pyroe"
 aliases:

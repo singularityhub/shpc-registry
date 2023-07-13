@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-regsplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regsplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regsplice/container.yaml"
-updated_at: "2023-07-12 03:27:34.572594"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-07-13 03:29:01.505463"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regsplice"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-regsplice"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-regsplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regsplice", "latest": {"1.24.0--r42hdfd78af_0": "sha256:fa769052e0c3ca611b4d121feeb21982b2e90dcb8d7d1ff3c15463aac2c6fd53"}, "tags": {"1.8.0--r351_0": "sha256:139e20e281657962cd1cf8eb57008b535485e50b89c3580371459ab541b165be", "1.24.0--r42hdfd78af_0": "sha256:fa769052e0c3ca611b4d121feeb21982b2e90dcb8d7d1ff3c15463aac2c6fd53", "1.20.0--r41hdfd78af_0": "sha256:dd696425441a48a0af5cad4f7b08c360ed40b42078b75249c1f6b9ebb99a8602", "1.18.0--r41hdfd78af_0": "sha256:5b85991a60b4e33c2040d92f17dd5c96956532047d2d0e33ea560d68aaef51aa", "1.16.0--r40hdfd78af_1": "sha256:c68475896c4b6ceac49e526cb7e725fcb6a379163842a6a459089aaec968c67b", "1.14.0--r40_0": "sha256:4d53e31df28dacfae4968b9f7fcdf9bc5548f8f6f88f5dc28ef19d69596b5d93"}, "docker": "quay.io/biocontainers/bioconductor-regsplice", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-regsplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regsplice", "latest": {"1.26.0--r43hdfd78af_0": "sha256:d8d34f785f6610712906e7aa79947ab6cd3800de09a00d05a2f1b340dd4a3931"}, "tags": {"1.8.0--r351_0": "sha256:139e20e281657962cd1cf8eb57008b535485e50b89c3580371459ab541b165be", "1.24.0--r42hdfd78af_0": "sha256:fa769052e0c3ca611b4d121feeb21982b2e90dcb8d7d1ff3c15463aac2c6fd53", "1.20.0--r41hdfd78af_0": "sha256:dd696425441a48a0af5cad4f7b08c360ed40b42078b75249c1f6b9ebb99a8602", "1.18.0--r41hdfd78af_0": "sha256:5b85991a60b4e33c2040d92f17dd5c96956532047d2d0e33ea560d68aaef51aa", "1.16.0--r40hdfd78af_1": "sha256:c68475896c4b6ceac49e526cb7e725fcb6a379163842a6a459089aaec968c67b", "1.14.0--r40_0": "sha256:4d53e31df28dacfae4968b9f7fcdf9bc5548f8f6f88f5dc28ef19d69596b5d93", "1.26.0--r43hdfd78af_0": "sha256:d8d34f785f6610712906e7aa79947ab6cd3800de09a00d05a2f1b340dd4a3931"}, "docker": "quay.io/biocontainers/bioconductor-regsplice", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-regsplice.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-regsplice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-regsplice:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-regsplice:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-regsplice/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-regsplice/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-regsplice/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-regsplice/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

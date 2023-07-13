@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-connectivitymap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-connectivitymap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-connectivitymap/container.yaml"
-updated_at: "2023-07-12 03:23:29.141173"
-latest: "1.33.0--r42hdfd78af_0"
+updated_at: "2023-07-13 03:25:17.304318"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-connectivitymap"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
  - "1.33.0--r42hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-connectivitymap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-connectivitymap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-connectivitymap", "latest": {"1.33.0--r42hdfd78af_0": "sha256:04b50d1768febe4a251bff23327df4243dc72ebf8105f7336e2843ca50fee328"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:089856a3a1c48b2de7898fba6a4ccac48fa36cbcd5b5cb12739d3ef068f63b1d", "1.33.0--r42hdfd78af_0": "sha256:04b50d1768febe4a251bff23327df4243dc72ebf8105f7336e2843ca50fee328"}, "docker": "quay.io/biocontainers/bioconductor-connectivitymap"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-connectivitymap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-connectivitymap", "latest": {"1.36.0--r43hdfd78af_0": "sha256:ebe49d59878af05b3647be68c05fb375ac4ed5008127bdd8d30d2c3b8623c21d"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:089856a3a1c48b2de7898fba6a4ccac48fa36cbcd5b5cb12739d3ef068f63b1d", "1.33.0--r42hdfd78af_0": "sha256:04b50d1768febe4a251bff23327df4243dc72ebf8105f7336e2843ca50fee328", "1.36.0--r43hdfd78af_0": "sha256:ebe49d59878af05b3647be68c05fb375ac4ed5008127bdd8d30d2c3b8623c21d"}, "docker": "quay.io/biocontainers/bioconductor-connectivitymap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-connectivitymap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-connectivitymap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-connectivitymap:1.33.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-connectivitymap:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-connectivitymap/1.33.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-connectivitymap/1.33.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-connectivitymap/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-connectivitymap/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

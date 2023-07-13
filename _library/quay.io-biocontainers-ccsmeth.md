@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ccsmeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccsmeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccsmeth/container.yaml"
-updated_at: "2023-07-12 03:46:25.925631"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2023-07-13 03:46:28.212254"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ccsmeth"
 aliases:
  - "ccs"
@@ -42,8 +42,9 @@ versions:
  - "0.3.2--pyhdfd78af_0"
  - "0.4.0--pyhdfd78af_0"
  - "0.3.4--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ccsmeth"
-config: {"url": "https://biocontainers.pro/tools/ccsmeth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ccsmeth", "latest": {"0.4.0--pyhdfd78af_0": "sha256:14399b5658ccf5df18bd035fe62f3298c32415fad9d6d3d1842c56d615a62fb7"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:cb9b70e5db3cb7cc43083f2a1e9768b802cb37c00a6b18b4cec1f75314faf08f", "0.4.0--pyhdfd78af_0": "sha256:14399b5658ccf5df18bd035fe62f3298c32415fad9d6d3d1842c56d615a62fb7", "0.3.4--pyhdfd78af_0": "sha256:176cdf19fe702869d868633b70e247eaa8a9cad653b858c27349b094dcd3db82"}, "docker": "quay.io/biocontainers/ccsmeth", "aliases": {"ccs": "/usr/local/bin/ccs", "ccs-alt": "/usr/local/bin/ccs-alt", "ccsmeth": "/usr/local/bin/ccsmeth", "pbmm2": "/usr/local/bin/pbmm2", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed"}}
+config: {"url": "https://biocontainers.pro/tools/ccsmeth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ccsmeth", "latest": {"0.4.1--pyhdfd78af_0": "sha256:d88bb1a93a8671b66aba337e93c78f4d82cec7271578e86bb979d0fc724a1c2e"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:cb9b70e5db3cb7cc43083f2a1e9768b802cb37c00a6b18b4cec1f75314faf08f", "0.4.0--pyhdfd78af_0": "sha256:14399b5658ccf5df18bd035fe62f3298c32415fad9d6d3d1842c56d615a62fb7", "0.3.4--pyhdfd78af_0": "sha256:176cdf19fe702869d868633b70e247eaa8a9cad653b858c27349b094dcd3db82", "0.4.1--pyhdfd78af_0": "sha256:d88bb1a93a8671b66aba337e93c78f4d82cec7271578e86bb979d0fc724a1c2e"}, "docker": "quay.io/biocontainers/ccsmeth", "aliases": {"ccs": "/usr/local/bin/ccs", "ccs-alt": "/usr/local/bin/ccs-alt", "ccsmeth": "/usr/local/bin/ccsmeth", "pbmm2": "/usr/local/bin/pbmm2", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ccsmeth.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/ccsmeth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ccsmeth:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ccsmeth:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ccsmeth/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ccsmeth/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ccsmeth/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ccsmeth/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
