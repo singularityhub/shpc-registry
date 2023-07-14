@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sentieon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sentieon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sentieon/container.yaml"
-updated_at: "2023-07-13 04:19:43.305689"
+updated_at: "2023-07-14 03:51:48.403226"
 latest: "202112.07--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/sentieon"
 aliases:

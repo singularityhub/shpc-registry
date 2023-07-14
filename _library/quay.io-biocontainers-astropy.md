@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/astropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/astropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/astropy/container.yaml"
-updated_at: "2023-07-13 03:39:33.598650"
+updated_at: "2023-07-14 03:13:11.323931"
 latest: "3.0.5--py37h7b6447c_1"
 container_url: "https://biocontainers.pro/tools/astropy"
 aliases:

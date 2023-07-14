@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xsd/container.yaml"
-updated_at: "2023-07-13 03:50:38.559537"
+updated_at: "2023-07-14 03:23:38.014962"
 latest: "4.0.0_dep--h0a036d8_4"
 container_url: "https://biocontainers.pro/tools/xsd"
 aliases:

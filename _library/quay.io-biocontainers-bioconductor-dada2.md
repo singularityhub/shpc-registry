@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dada2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dada2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dada2/container.yaml"
-updated_at: "2023-07-13 03:30:51.582401"
-latest: "1.26.0--r42hf17093f_1"
+updated_at: "2023-07-14 03:04:56.721990"
+latest: "1.28.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dada2"
 aliases:
  - "wget"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r40h5f743cb_0"
  - "1.16.0--r40h5f743cb_0"
  - "1.26.0--r42hf17093f_1"
+ - "1.28.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dada2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dada2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dada2", "latest": {"1.26.0--r42hf17093f_1": "sha256:92498704ba421f1224e6ec98f293f0e7b836ae882263ef9c11b4772e01335c5f"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:91f7e534caac8cfb4a3607d835697ef28133b491b9cef4233b5c4cfcad382aa5", "1.26.0--r42hc247a5b_0": "sha256:455e98b4cf5a8681aa8b4e9f06183ac00fadecd17b0690ec97960fcb0cc1ab7f", "1.22.0--r41hc247a5b_2": "sha256:8dc3d468bd9d4a0d13156fbeb9cc8c5125e86755ffce479bdbc91cd5d6bb217d", "1.20.0--r41h399db7b_0": "sha256:80f5b71cc5e3917186831a6871c9a6ec7e2ca88567d79891edef8a306e6d315f", "1.18.0--r40h5f743cb_0": "sha256:d716e2ae6db6cc09b1c4ff9a2211e8256e9cd9cd183941c3769c5c220ac298fa", "1.16.0--r40h5f743cb_0": "sha256:4865fade8ddd1f0168a7ebcfca97a8f08542e6fc9e01d006b45b6cba772618ac", "1.26.0--r42hf17093f_1": "sha256:92498704ba421f1224e6ec98f293f0e7b836ae882263ef9c11b4772e01335c5f"}, "docker": "quay.io/biocontainers/bioconductor-dada2", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dada2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dada2", "latest": {"1.28.0--r43hf17093f_0": "sha256:b215ed2c3485cd2a0d10b5763661905bb78c6e4f2a091a64de5fbe56b4538d4d"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:91f7e534caac8cfb4a3607d835697ef28133b491b9cef4233b5c4cfcad382aa5", "1.26.0--r42hc247a5b_0": "sha256:455e98b4cf5a8681aa8b4e9f06183ac00fadecd17b0690ec97960fcb0cc1ab7f", "1.22.0--r41hc247a5b_2": "sha256:8dc3d468bd9d4a0d13156fbeb9cc8c5125e86755ffce479bdbc91cd5d6bb217d", "1.20.0--r41h399db7b_0": "sha256:80f5b71cc5e3917186831a6871c9a6ec7e2ca88567d79891edef8a306e6d315f", "1.18.0--r40h5f743cb_0": "sha256:d716e2ae6db6cc09b1c4ff9a2211e8256e9cd9cd183941c3769c5c220ac298fa", "1.16.0--r40h5f743cb_0": "sha256:4865fade8ddd1f0168a7ebcfca97a8f08542e6fc9e01d006b45b6cba772618ac", "1.26.0--r42hf17093f_1": "sha256:92498704ba421f1224e6ec98f293f0e7b836ae882263ef9c11b4772e01335c5f", "1.28.0--r43hf17093f_0": "sha256:b215ed2c3485cd2a0d10b5763661905bb78c6e4f2a091a64de5fbe56b4538d4d"}, "docker": "quay.io/biocontainers/bioconductor-dada2", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dada2.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dada2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dada2:1.26.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-dada2:1.28.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dada2/1.26.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-dada2/1.26.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-dada2/1.28.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-dada2/1.28.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

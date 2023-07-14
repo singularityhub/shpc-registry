@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/container.yaml"
-updated_at: "2023-07-13 04:15:11.579646"
+updated_at: "2023-07-14 03:47:21.472790"
 latest: "3.10.0--r42hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau9.refgene"
 

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-scshapes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scshapes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scshapes/container.yaml"
-updated_at: "2023-07-13 03:59:36.304785"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-07-14 03:32:05.174750"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scshapes"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scshapes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scshapes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scshapes", "latest": {"1.4.0--r42hdfd78af_0": "sha256:a30bd817bf8a773f555fecd595ef0baf6abf74d50358acff640c27a96c562b88"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:f7be7ced7ebdec3ff1e62e3e095a0c6acffd875108485f0456028cb16723c210", "1.4.0--r42hdfd78af_0": "sha256:a30bd817bf8a773f555fecd595ef0baf6abf74d50358acff640c27a96c562b88"}, "docker": "quay.io/biocontainers/bioconductor-scshapes"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scshapes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scshapes", "latest": {"1.6.0--r43hdfd78af_0": "sha256:fba6f9daf1434c7eb7efbc3c01388344fe300a1c39faed74e7442bc717c6dcaf"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:f7be7ced7ebdec3ff1e62e3e095a0c6acffd875108485f0456028cb16723c210", "1.4.0--r42hdfd78af_0": "sha256:a30bd817bf8a773f555fecd595ef0baf6abf74d50358acff640c27a96c562b88", "1.6.0--r43hdfd78af_0": "sha256:fba6f9daf1434c7eb7efbc3c01388344fe300a1c39faed74e7442bc717c6dcaf"}, "docker": "quay.io/biocontainers/bioconductor-scshapes"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scshapes.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scshapes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scshapes:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scshapes:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scshapes/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scshapes/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scshapes/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scshapes/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-variantannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-variantannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-variantannotation/container.yaml"
-updated_at: "2023-07-13 03:54:24.096651"
-latest: "1.44.0--r42ha9d7317_1"
+updated_at: "2023-07-14 03:27:11.932122"
+latest: "1.46.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-variantannotation"
 
 versions:
  - "1.40.0--r41hc0cfd56_2"
  - "1.44.0--r42hc0cfd56_0"
  - "1.44.0--r42ha9d7317_1"
+ - "1.46.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-variantannotation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-variantannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-variantannotation", "latest": {"1.44.0--r42ha9d7317_1": "sha256:3db56442078130a4b204f9a8f3aeff4c58a858ce5461ec656643e6906ffd9931"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:eeccbb621feb9bcdf9b55a02834d9f62ffd3909f4509e2defb0f8d1f5bb22dad", "1.44.0--r42hc0cfd56_0": "sha256:505b9bc00389502deb5aaac8f57e0a540fde55f03cdf76f03eb8876b4ea44d12", "1.44.0--r42ha9d7317_1": "sha256:3db56442078130a4b204f9a8f3aeff4c58a858ce5461ec656643e6906ffd9931"}, "docker": "quay.io/biocontainers/bioconductor-variantannotation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-variantannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-variantannotation", "latest": {"1.46.0--r43ha9d7317_0": "sha256:8cddd83e028d0cba5ee6f50ac3948b7b38928eebd06c5b5c764774dd806a061e"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:eeccbb621feb9bcdf9b55a02834d9f62ffd3909f4509e2defb0f8d1f5bb22dad", "1.44.0--r42hc0cfd56_0": "sha256:505b9bc00389502deb5aaac8f57e0a540fde55f03cdf76f03eb8876b4ea44d12", "1.44.0--r42ha9d7317_1": "sha256:3db56442078130a4b204f9a8f3aeff4c58a858ce5461ec656643e6906ffd9931", "1.46.0--r43ha9d7317_0": "sha256:8cddd83e028d0cba5ee6f50ac3948b7b38928eebd06c5b5c764774dd806a061e"}, "docker": "quay.io/biocontainers/bioconductor-variantannotation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-variantannotation.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-variantannotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-variantannotation:1.44.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-variantannotation:1.46.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-variantannotation/1.44.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-variantannotation/1.44.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-variantannotation/1.46.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-variantannotation/1.46.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

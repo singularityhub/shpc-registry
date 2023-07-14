@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-reactomegraph4r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegraph4r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegraph4r/container.yaml"
-updated_at: "2023-07-13 03:49:46.470408"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-14 03:22:49.636194"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegraph4r"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reactomegraph4r"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegraph4r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegraph4r", "latest": {"1.6.0--r42hdfd78af_0": "sha256:23d05ec7cff4d56d5e98634f43355417a8c9b733c405f0f0aa7b750029422a1e"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:78334cd35e3db205a86523cf9c94944ed5c3143724ef3443b5f70986026ce557", "1.6.0--r42hdfd78af_0": "sha256:23d05ec7cff4d56d5e98634f43355417a8c9b733c405f0f0aa7b750029422a1e"}, "docker": "quay.io/biocontainers/bioconductor-reactomegraph4r", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegraph4r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegraph4r", "latest": {"1.8.0--r43hdfd78af_0": "sha256:02a4d17a311c6064f5e46fe6c6a9badc11e61cdf3bd6f50d109ecce32fd71879"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:78334cd35e3db205a86523cf9c94944ed5c3143724ef3443b5f70986026ce557", "1.6.0--r42hdfd78af_0": "sha256:23d05ec7cff4d56d5e98634f43355417a8c9b733c405f0f0aa7b750029422a1e", "1.8.0--r43hdfd78af_0": "sha256:02a4d17a311c6064f5e46fe6c6a9badc11e61cdf3bd6f50d109ecce32fd71879"}, "docker": "quay.io/biocontainers/bioconductor-reactomegraph4r", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reactomegraph4r.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reactomegraph4r
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reactomegraph4r:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reactomegraph4r:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reactomegraph4r/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reactomegraph4r/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reactomegraph4r/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reactomegraph4r/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

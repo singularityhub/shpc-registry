@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phcue-ck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phcue-ck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phcue-ck/container.yaml"
-updated_at: "2023-07-13 04:09:14.249222"
+updated_at: "2023-07-14 03:41:34.126778"
 latest: "0.2.0--h5076881_2"
 container_url: "https://biocontainers.pro/tools/phcue-ck"
 aliases:

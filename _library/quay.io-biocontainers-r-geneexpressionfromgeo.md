@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-geneexpressionfromgeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geneexpressionfromgeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geneexpressionfromgeo/container.yaml"
-updated_at: "2023-07-13 04:10:33.822227"
-latest: "0.9--r42h3121a25_1"
+updated_at: "2023-07-14 03:42:49.822427"
+latest: "0.9--r43h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-geneexpressionfromgeo"
 aliases:
  - "installBiocDataPackage.sh"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.9--r42h3121a25_1"
+ - "0.9--r43h3121a25_2"
 description: "singularity registry hpc automated addition for r-geneexpressionfromgeo"
-config: {"url": "https://biocontainers.pro/tools/r-geneexpressionfromgeo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-geneexpressionfromgeo", "latest": {"0.9--r42h3121a25_1": "sha256:9e49045d32ac6249902939049687050ad408656fb79f3003ea816d783528212a"}, "tags": {"0.9--r42h3121a25_1": "sha256:9e49045d32ac6249902939049687050ad408656fb79f3003ea816d783528212a"}, "docker": "quay.io/biocontainers/r-geneexpressionfromgeo", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-geneexpressionfromgeo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-geneexpressionfromgeo", "latest": {"0.9--r43h3121a25_2": "sha256:39b828895ccc8de50487b75a9e3e207d6699f72ad1308e15a82aa550b0d4d312"}, "tags": {"0.9--r42h3121a25_1": "sha256:9e49045d32ac6249902939049687050ad408656fb79f3003ea816d783528212a", "0.9--r43h3121a25_2": "sha256:39b828895ccc8de50487b75a9e3e207d6699f72ad1308e15a82aa550b0d4d312"}, "docker": "quay.io/biocontainers/r-geneexpressionfromgeo", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-geneexpressionfromgeo.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/r-geneexpressionfromgeo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-geneexpressionfromgeo:0.9--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-geneexpressionfromgeo:0.9--r43h3121a25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-geneexpressionfromgeo/0.9--r42h3121a25_1
-$ module help quay.io/biocontainers/r-geneexpressionfromgeo/0.9--r42h3121a25_1
+$ module load quay.io/biocontainers/r-geneexpressionfromgeo/0.9--r43h3121a25_2
+$ module help quay.io/biocontainers/r-geneexpressionfromgeo/0.9--r43h3121a25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

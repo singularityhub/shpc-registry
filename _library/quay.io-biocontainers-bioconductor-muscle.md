@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-muscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-muscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-muscle/container.yaml"
-updated_at: "2023-07-13 03:35:15.177350"
+updated_at: "2023-07-14 03:09:08.966351"
 latest: "3.40.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-muscle"
 

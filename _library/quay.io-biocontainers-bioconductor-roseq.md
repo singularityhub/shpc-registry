@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-roseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roseq/container.yaml"
-updated_at: "2023-07-13 03:44:47.647397"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-07-14 03:18:05.272011"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-roseq"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-roseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-roseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-roseq", "latest": {"1.10.0--r42hdfd78af_0": "sha256:19a82e5b05d0ee69244076dc56588ee7f37c19b1969470ab94c0ae7d5a2f3443"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:2b7f302cda9030ec922b640794b5329e9d91f68a6d26749f2a195e36ac296429", "1.10.0--r42hdfd78af_0": "sha256:19a82e5b05d0ee69244076dc56588ee7f37c19b1969470ab94c0ae7d5a2f3443"}, "docker": "quay.io/biocontainers/bioconductor-roseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-roseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-roseq", "latest": {"1.12.0--r43hdfd78af_0": "sha256:367ded239fd94b03762970d1e3f0b7c4f662b9b1fbaa3a348559be2740630885"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:2b7f302cda9030ec922b640794b5329e9d91f68a6d26749f2a195e36ac296429", "1.10.0--r42hdfd78af_0": "sha256:19a82e5b05d0ee69244076dc56588ee7f37c19b1969470ab94c0ae7d5a2f3443", "1.12.0--r43hdfd78af_0": "sha256:367ded239fd94b03762970d1e3f0b7c4f662b9b1fbaa3a348559be2740630885"}, "docker": "quay.io/biocontainers/bioconductor-roseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-roseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-roseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-roseq:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-roseq:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-roseq/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-roseq/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-roseq/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-roseq/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

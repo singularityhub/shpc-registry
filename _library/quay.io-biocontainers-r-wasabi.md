@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-wasabi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wasabi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wasabi/container.yaml"
-updated_at: "2023-07-13 03:44:29.119472"
-latest: "1.0.1--r42hdfd78af_5"
+updated_at: "2023-07-14 03:17:47.859805"
+latest: "1.0.1--r43hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-wasabi"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.0.1--r41hdfd78af_4"
  - "1.0.1--r42hdfd78af_5"
+ - "1.0.1--r43hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-wasabi"
-config: {"url": "https://biocontainers.pro/tools/r-wasabi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wasabi", "latest": {"1.0.1--r42hdfd78af_5": "sha256:f2e9812a196b87ca475c6377ffbd4570a1707e26148f8f3093398b50e1c842db"}, "tags": {"1.0.1--r41hdfd78af_4": "sha256:c475dbda694bef4031d2c966873456584f3732d61b18f6fb1f46d02df06fb987", "1.0.1--r42hdfd78af_5": "sha256:f2e9812a196b87ca475c6377ffbd4570a1707e26148f8f3093398b50e1c842db"}, "docker": "quay.io/biocontainers/r-wasabi", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-wasabi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wasabi", "latest": {"1.0.1--r43hdfd78af_6": "sha256:24abe2bcffbca698a6948165de4747ff224bb53f12ed646f65618e352d9a2e93"}, "tags": {"1.0.1--r41hdfd78af_4": "sha256:c475dbda694bef4031d2c966873456584f3732d61b18f6fb1f46d02df06fb987", "1.0.1--r42hdfd78af_5": "sha256:f2e9812a196b87ca475c6377ffbd4570a1707e26148f8f3093398b50e1c842db", "1.0.1--r43hdfd78af_6": "sha256:24abe2bcffbca698a6948165de4747ff224bb53f12ed646f65618e352d9a2e93"}, "docker": "quay.io/biocontainers/r-wasabi", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-wasabi.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-wasabi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-wasabi:1.0.1--r42hdfd78af_5
+$ shpc install quay.io/biocontainers/r-wasabi:1.0.1--r43hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-wasabi/1.0.1--r42hdfd78af_5
-$ module help quay.io/biocontainers/r-wasabi/1.0.1--r42hdfd78af_5
+$ module load quay.io/biocontainers/r-wasabi/1.0.1--r43hdfd78af_6
+$ module help quay.io/biocontainers/r-wasabi/1.0.1--r43hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

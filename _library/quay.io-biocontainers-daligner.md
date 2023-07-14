@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/daligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/daligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/daligner/container.yaml"
-updated_at: "2023-07-13 03:50:27.761549"
+updated_at: "2023-07-14 03:23:27.979531"
 latest: "1.0.20200322--h031d066_4"
 container_url: "https://biocontainers.pro/tools/daligner"
 aliases:

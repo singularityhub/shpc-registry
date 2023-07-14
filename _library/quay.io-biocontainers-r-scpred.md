@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scpred/container.yaml"
-updated_at: "2023-07-13 04:19:17.607153"
+updated_at: "2023-07-14 03:51:22.880052"
 latest: "1.9.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-scpred"
 aliases:

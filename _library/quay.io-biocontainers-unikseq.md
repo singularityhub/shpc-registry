@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unikseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unikseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unikseq/container.yaml"
-updated_at: "2023-07-13 03:37:12.774711"
-latest: "1.3.3--hdfd78af_0"
+updated_at: "2023-07-14 03:10:59.364639"
+latest: "1.3.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unikseq"
 aliases:
  - "LINKS"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.3.2--hdfd78af_0"
  - "1.3.3--hdfd78af_0"
+ - "1.3.4--hdfd78af_0"
 description: "singularity registry hpc automated addition for unikseq"
-config: {"url": "https://biocontainers.pro/tools/unikseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unikseq", "latest": {"1.3.3--hdfd78af_0": "sha256:85eed2e9151faa711ff377ee13224c72a41fae2f7b82cb92e4aeb54c20598d72"}, "tags": {"1.3.2--hdfd78af_0": "sha256:cf72f582501cb063b13685fde4036c209558fa01f92db54c90ceb0017d487ef2", "1.3.3--hdfd78af_0": "sha256:85eed2e9151faa711ff377ee13224c72a41fae2f7b82cb92e4aeb54c20598d72"}, "docker": "quay.io/biocontainers/unikseq", "aliases": {"LINKS": "/usr/local/bin/LINKS", "unikseq-Bloom.pl": "/usr/local/bin/unikseq-Bloom.pl", "unikseq.pl": "/usr/local/bin/unikseq.pl", "writeBloom.pl": "/usr/local/bin/writeBloom.pl"}}
+config: {"url": "https://biocontainers.pro/tools/unikseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unikseq", "latest": {"1.3.4--hdfd78af_0": "sha256:1fe91e5220db331e437954d19b827961b4f0e1f1e022490f0b51a81dadcd2c15"}, "tags": {"1.3.2--hdfd78af_0": "sha256:cf72f582501cb063b13685fde4036c209558fa01f92db54c90ceb0017d487ef2", "1.3.3--hdfd78af_0": "sha256:85eed2e9151faa711ff377ee13224c72a41fae2f7b82cb92e4aeb54c20598d72", "1.3.4--hdfd78af_0": "sha256:1fe91e5220db331e437954d19b827961b4f0e1f1e022490f0b51a81dadcd2c15"}, "docker": "quay.io/biocontainers/unikseq", "aliases": {"LINKS": "/usr/local/bin/LINKS", "unikseq-Bloom.pl": "/usr/local/bin/unikseq-Bloom.pl", "unikseq.pl": "/usr/local/bin/unikseq.pl", "writeBloom.pl": "/usr/local/bin/writeBloom.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unikseq.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/unikseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unikseq:1.3.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/unikseq:1.3.4--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unikseq/1.3.3--hdfd78af_0
-$ module help quay.io/biocontainers/unikseq/1.3.3--hdfd78af_0
+$ module load quay.io/biocontainers/unikseq/1.3.4--hdfd78af_0
+$ module help quay.io/biocontainers/unikseq/1.3.4--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
