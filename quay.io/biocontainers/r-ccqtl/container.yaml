@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-ccqtl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-ccqtl
 latest:
-  0.0.1_beta.1--r42h9f5acd7_0: sha256:872413b794f9d8c1cb60d0d28b1c998f3157736411e957fe84e7e78168c4fc56
+  0.0.1_beta.2--r42h4ac6f70_1: sha256:445dabd9ad93892aacf2323c2b19d3bdbb882069d4e80f5431f3d1e2c7bdbd90
 tags:
   0.0.1_beta.1--r42h9f5acd7_0: sha256:872413b794f9d8c1cb60d0d28b1c998f3157736411e957fe84e7e78168c4fc56
+  0.0.1_beta.2--r42h4ac6f70_1: sha256:445dabd9ad93892aacf2323c2b19d3bdbb882069d4e80f5431f3d1e2c7bdbd90
 docker: quay.io/biocontainers/r-ccqtl
 aliases:
   ccqtl: /usr/local/bin/ccqtl

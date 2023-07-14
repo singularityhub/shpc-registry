@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-macat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-macat
 latest:
-  1.72.0--r42hdfd78af_0: sha256:6d0caa9558ee6186a0e783d119f57a2f98e584899b1995016a6a57d9ea577e45
+  1.74.0--r43hdfd78af_0: sha256:eabf4b1a3da1e205a5bfed68fe8f9aaf054e0be9543f0c975bddb8eb40c4ae2a
 tags:
   1.68.0--r41hdfd78af_0: sha256:9511b121b0643f5c36b44d576c82e1f884d1fcd6ef7073637bbc93c791343726
   1.72.0--r42hdfd78af_0: sha256:6d0caa9558ee6186a0e783d119f57a2f98e584899b1995016a6a57d9ea577e45
+  1.74.0--r43hdfd78af_0: sha256:eabf4b1a3da1e205a5bfed68fe8f9aaf054e0be9543f0c975bddb8eb40c4ae2a
 docker: quay.io/biocontainers/bioconductor-macat

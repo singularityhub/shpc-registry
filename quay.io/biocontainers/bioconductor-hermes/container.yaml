@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hermes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hermes
 latest:
-  1.2.0--r42hdfd78af_0: sha256:d0114e87b36438014071a76d0c65b409c8df13c11c8e2c277db9806ad8278cd4
+  1.4.0--r43hdfd78af_0: sha256:02b57c7dcd051e48401df3c2985da9c631db79794b126b3e39ade61b64427f6b
 tags:
   1.2.0--r42hdfd78af_0: sha256:d0114e87b36438014071a76d0c65b409c8df13c11c8e2c277db9806ad8278cd4
+  1.4.0--r43hdfd78af_0: sha256:02b57c7dcd051e48401df3c2985da9c631db79794b126b3e39ade61b64427f6b
 docker: quay.io/biocontainers/bioconductor-hermes
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

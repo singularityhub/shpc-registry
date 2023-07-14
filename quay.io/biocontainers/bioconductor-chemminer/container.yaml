@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-chemminer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chemminer
 latest:
-  3.50.0--r42hf17093f_1: sha256:5eb82204d243f57071ebea7405fef67594781bc0b0f22632db6e6f41c37b9986
+  3.52.0--r43hf17093f_0: sha256:108ea1c77c615f5beea8138373ce22f1c19f8a782df71f42c73425bbca4b3fe0
 tags:
   3.46.0--r41hc247a5b_2: sha256:d78371c0f7c155ca817fa8f0c7f0b7a01f433f57bb68b32a137b536934c532c1
   3.50.0--r42hc247a5b_0: sha256:67531a786f200a2233f79173bbb09f7d5939293852b61d6447fc0cdc390fe03f
   3.50.0--r42hf17093f_1: sha256:5eb82204d243f57071ebea7405fef67594781bc0b0f22632db6e6f41c37b9986
+  3.52.0--r43hf17093f_0: sha256:108ea1c77c615f5beea8138373ce22f1c19f8a782df71f42c73425bbca4b3fe0
 docker: quay.io/biocontainers/bioconductor-chemminer
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rprotobuflib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rprotobuflib
 latest:
-  2.10.0--r42hf17093f_2: sha256:5564fb91b898d897092961eb8d70d873ab48052f61294a8247fde59d3ea7f7b5
+  2.12.0--r43hf17093f_0: sha256:c80bbc0a2f4d37cff7b087bc70671833aa2585be3267b15dd8020de3599b12f3
 tags:
   2.6.0--r41hc247a5b_2: sha256:084c42539d35c7c11ddfb19a722748d933bb7f3a599f2ad30e17771d09379762
   2.10.0--r42hc247a5b_0: sha256:438593ee009dc1e1b821444f4576e4a56bac6755587b9b301a9c6d6ba91afd75
   2.10.0--r42hc247a5b_1: sha256:007b29961e4a315659bf4972390431343bb7fb3a1d2a1b1ac13e3154e3afc894
   2.10.0--r42hf17093f_2: sha256:5564fb91b898d897092961eb8d70d873ab48052f61294a8247fde59d3ea7f7b5
+  2.12.0--r43hf17093f_0: sha256:c80bbc0a2f4d37cff7b087bc70671833aa2585be3267b15dd8020de3599b12f3
 docker: quay.io/biocontainers/bioconductor-rprotobuflib

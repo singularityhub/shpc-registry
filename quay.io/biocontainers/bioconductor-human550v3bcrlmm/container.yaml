@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-human550v3bcrlmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-human550v3bcrlmm
 latest:
-  1.0.4--r42hdfd78af_10: sha256:1cb5918c78b1463c9962701c2bef3f7abfcd9e8d7dd1887e8545016c7ffd75b7
+  1.0.4--r43hdfd78af_11: sha256:1781528e32a12f42a81aaadb16743821e051ef16bdf86084d90e13b5e4d8c564
 tags:
   1.0.4--r41hdfd78af_9: sha256:dc5f97202024482ab8061af9e8425646f93e1598b8f7507f89c6fac389ece359
   1.0.4--r42hdfd78af_10: sha256:1cb5918c78b1463c9962701c2bef3f7abfcd9e8d7dd1887e8545016c7ffd75b7
+  1.0.4--r43hdfd78af_11: sha256:1781528e32a12f42a81aaadb16743821e051ef16bdf86084d90e13b5e4d8c564
 docker: quay.io/biocontainers/bioconductor-human550v3bcrlmm

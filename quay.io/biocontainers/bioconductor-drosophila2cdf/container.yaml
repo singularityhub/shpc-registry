@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-drosophila2cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-drosophila2cdf
 latest:
-  2.18.0--r42hdfd78af_10: sha256:ae7a6cf490a433bf42385f02d813c857e28aedb8ebc36765b260e998973e6d28
+  2.18.0--r43hdfd78af_11: sha256:4efd3a164977b1df505f8a314ef5c21d13c5784815d8f24a7a99749b6d96f28c
 tags:
   2.18.0--r41hdfd78af_9: sha256:11452b0f23ea09fcb3534a72f9ddad646d0281a6c2c8030fe82a1c2ea92d4014
   2.18.0--r42hdfd78af_10: sha256:ae7a6cf490a433bf42385f02d813c857e28aedb8ebc36765b260e998973e6d28
+  2.18.0--r43hdfd78af_11: sha256:4efd3a164977b1df505f8a314ef5c21d13c5784815d8f24a7a99749b6d96f28c
 docker: quay.io/biocontainers/bioconductor-drosophila2cdf

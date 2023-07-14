@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/dropest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dropest
 latest:
-  0.8.6--r42h05d83d2_6: sha256:71c9a296e45aab6075967b37a1173917253676441d52d809fca6f51c4f5ab630
+  0.8.6--r42h05d83d2_7: sha256:bb3d3fed42e26ef2e60e50a4f26fb28ecdb95023a86e923c94f4229fe1fe99b7
 tags:
   0.8.6--r41he6cf555_4: sha256:5ff67249afd14e5c1e7f2785442885a75cc509377780be54d8585fb57ba94cb9
   0.8.6--r42he6cf555_5: sha256:2e973917cf4f930219c895fcd6d075bac351f8b3508cde88332aed32acada2b2
   0.8.6--r42h05d83d2_6: sha256:71c9a296e45aab6075967b37a1173917253676441d52d809fca6f51c4f5ab630
+  0.8.6--r42h05d83d2_7: sha256:bb3d3fed42e26ef2e60e50a4f26fb28ecdb95023a86e923c94f4229fe1fe99b7
 docker: quay.io/biocontainers/dropest
 aliases:
   dropReport.Rsc: /usr/local/bin/dropReport.Rsc

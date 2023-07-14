@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rtcga.rnaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtcga.rnaseq
 latest:
-  20151101.27.0--r42hdfd78af_0: sha256:0ddbe916f86cc9d9672647705e7dd9941854efb85e93daa49ef53c5c045e538a
+  20151101.30.0--r43hdfd78af_0: sha256:383264d26859f128aedb08ff93bb6aca27f649a4d739983e9714714e18117029
 tags:
   20151101.24.0--r41hdfd78af_1: sha256:89005dda49588a32b3749910be339852a8c5a81804d6a125900b3718984124e3
   20151101.27.0--r42hdfd78af_0: sha256:0ddbe916f86cc9d9672647705e7dd9941854efb85e93daa49ef53c5c045e538a
+  20151101.30.0--r43hdfd78af_0: sha256:383264d26859f128aedb08ff93bb6aca27f649a4d739983e9714714e18117029
 docker: quay.io/biocontainers/bioconductor-rtcga.rnaseq
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

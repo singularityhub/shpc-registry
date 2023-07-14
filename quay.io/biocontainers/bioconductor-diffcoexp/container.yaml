@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-diffcoexp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-diffcoexp
 latest:
-  1.18.0--r42hdfd78af_0: sha256:0bf36f702f6bc031954e9791ddd081d88ad9a2f753004973bf7c6853f8cef5db
+  1.20.0--r43hdfd78af_0: sha256:b04abf883b3c4a7503ea2b28b15bf6f776de480bc6c52b7a2b758da8180ac60f
 tags:
   1.8.0--r40_0: sha256:580d71d9c763eb944ab1b3c6563dc3a8e1dd380edb5f6946f619f5e7a4b70da2
   1.18.0--r42hdfd78af_0: sha256:0bf36f702f6bc031954e9791ddd081d88ad9a2f753004973bf7c6853f8cef5db
   1.14.0--r41hdfd78af_0: sha256:e10a902b25c10009cd9b8e791d5165e8d48c55ec9a8c3b21d5b2353c8fe8d368
   1.12.0--r41hdfd78af_0: sha256:8253fcb2213ed18ca8c81ae2bf2766748336bff6819c4a72e3c529aad3ce3dde
   1.10.0--r40hdfd78af_1: sha256:20a5de1bcb3c730f818d5d257584a1d2e246dafa4fbd1402a3473d2eb6881705
+  1.20.0--r43hdfd78af_0: sha256:b04abf883b3c4a7503ea2b28b15bf6f776de480bc6c52b7a2b758da8180ac60f
 docker: quay.io/biocontainers/bioconductor-diffcoexp
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

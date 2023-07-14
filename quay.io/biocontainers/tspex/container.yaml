@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tspex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tspex
 latest:
-  0.6.2--py_0: sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f
+  0.6.3--pyhdfd78af_0: sha256:a06c1a1bde23e6688d4c6775590d2a54ee1b750bf4071b9867adb4dec7d75eed
 tags:
   0.6.2--py_0: sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f
+  0.6.3--pyhdfd78af_0: sha256:a06c1a1bde23e6688d4c6775590d2a54ee1b750bf4071b9867adb4dec7d75eed
 docker: quay.io/biocontainers/tspex
 aliases:
   tspex: /usr/local/bin/tspex
