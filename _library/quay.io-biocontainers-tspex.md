@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tspex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tspex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tspex/container.yaml"
-updated_at: "2023-07-14 03:11:31.145064"
-latest: "0.6.2--py_0"
+updated_at: "2023-07-15 03:17:15.597287"
+latest: "0.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tspex"
 aliases:
  - "tspex"
@@ -18,8 +18,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.6.2--py_0"
+ - "0.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tspex"
-config: {"url": "https://biocontainers.pro/tools/tspex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tspex", "latest": {"0.6.2--py_0": "sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f"}, "tags": {"0.6.2--py_0": "sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f"}, "docker": "quay.io/biocontainers/tspex", "aliases": {"tspex": "/usr/local/bin/tspex", "runxlrd.py": "/usr/local/bin/runxlrd.py", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/tspex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tspex", "latest": {"0.6.3--pyhdfd78af_0": "sha256:a06c1a1bde23e6688d4c6775590d2a54ee1b750bf4071b9867adb4dec7d75eed"}, "tags": {"0.6.2--py_0": "sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f", "0.6.3--pyhdfd78af_0": "sha256:a06c1a1bde23e6688d4c6775590d2a54ee1b750bf4071b9867adb4dec7d75eed"}, "docker": "quay.io/biocontainers/tspex", "aliases": {"tspex": "/usr/local/bin/tspex", "runxlrd.py": "/usr/local/bin/runxlrd.py", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tspex.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/tspex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tspex:0.6.2--py_0
+$ shpc install quay.io/biocontainers/tspex:0.6.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tspex/0.6.2--py_0
-$ module help quay.io/biocontainers/tspex/0.6.2--py_0
+$ module load quay.io/biocontainers/tspex/0.6.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/tspex/0.6.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

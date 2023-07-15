@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cytoglmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytoglmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytoglmm/container.yaml"
-updated_at: "2023-07-14 03:30:58.874385"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-15 03:42:13.418791"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytoglmm"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytoglmm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytoglmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytoglmm", "latest": {"1.6.0--r42hdfd78af_0": "sha256:bc1ffc1cde0e239093482f466c80cd5bf167897b83ba14f75c97f2f44c34264c"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d352afa441bdc906aacec2646ed65879183a1682cbf090be89870ad2b4e3f674", "1.6.0--r42hdfd78af_0": "sha256:bc1ffc1cde0e239093482f466c80cd5bf167897b83ba14f75c97f2f44c34264c"}, "docker": "quay.io/biocontainers/bioconductor-cytoglmm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytoglmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytoglmm", "latest": {"1.8.0--r43hdfd78af_0": "sha256:81f0525adcca147a9bf754253df763460c750ece1402a52b23c644559854cdc1"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d352afa441bdc906aacec2646ed65879183a1682cbf090be89870ad2b4e3f674", "1.6.0--r42hdfd78af_0": "sha256:bc1ffc1cde0e239093482f466c80cd5bf167897b83ba14f75c97f2f44c34264c", "1.8.0--r43hdfd78af_0": "sha256:81f0525adcca147a9bf754253df763460c750ece1402a52b23c644559854cdc1"}, "docker": "quay.io/biocontainers/bioconductor-cytoglmm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytoglmm.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytoglmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytoglmm:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytoglmm:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytoglmm/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytoglmm/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytoglmm/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytoglmm/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

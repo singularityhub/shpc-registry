@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/container.yaml"
-updated_at: "2023-07-14 03:39:40.116216"
-latest: "1.4.8--r42hdfd78af_10"
+updated_at: "2023-07-15 03:53:03.321442"
+latest: "1.4.8--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminahumanmethylation27k.db"
 
 versions:
  - "1.4.8--r41hdfd78af_9"
  - "1.4.8--r42hdfd78af_10"
+ - "1.4.8--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-illuminahumanmethylation27k.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminahumanmethylation27k.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminahumanmethylation27k.db", "latest": {"1.4.8--r42hdfd78af_10": "sha256:2327f37e985579ebbc3422adf4b9d950fa6730095c98cca6be66a1e4c1f702c1"}, "tags": {"1.4.8--r41hdfd78af_9": "sha256:271f5dcbadfd52e95eca68ce076950a4fe458826a0da1896b8b6cfc75db073c4", "1.4.8--r42hdfd78af_10": "sha256:2327f37e985579ebbc3422adf4b9d950fa6730095c98cca6be66a1e4c1f702c1"}, "docker": "quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminahumanmethylation27k.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminahumanmethylation27k.db", "latest": {"1.4.8--r43hdfd78af_11": "sha256:cdd1ef966712a9cf33e57d3c52bfa2516f70aebc4fbee07af8259da82d441fe8"}, "tags": {"1.4.8--r41hdfd78af_9": "sha256:271f5dcbadfd52e95eca68ce076950a4fe458826a0da1896b8b6cfc75db073c4", "1.4.8--r42hdfd78af_10": "sha256:2327f37e985579ebbc3422adf4b9d950fa6730095c98cca6be66a1e4c1f702c1", "1.4.8--r43hdfd78af_11": "sha256:cdd1ef966712a9cf33e57d3c52bfa2516f70aebc4fbee07af8259da82d441fe8"}, "docker": "quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db:1.4.8--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db:1.4.8--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/1.4.8--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/1.4.8--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/1.4.8--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/1.4.8--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

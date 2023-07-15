@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanocomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanocomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanocomp/container.yaml"
-updated_at: "2023-07-14 03:11:10.895726"
-latest: "1.22.0--pyhdfd78af_0"
+updated_at: "2023-07-15 03:16:49.381927"
+latest: "1.23.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanocomp"
 aliases:
  - "NanoComp"
@@ -32,8 +32,9 @@ versions:
  - "1.21.0--pyhdfd78af_0"
  - "1.22.0--pyhdfd78af_0"
  - "1.21.2--pyhdfd78af_0"
+ - "1.23.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nanocomp"
-config: {"url": "https://biocontainers.pro/tools/nanocomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanocomp", "latest": {"1.22.0--pyhdfd78af_0": "sha256:0c6a1620a8a790eec4f0ff45429525bc3bfd5012d30235be99e88ef70f3098b9"}, "tags": {"1.9.2--py_1": "sha256:a89340a72ef720c08a6360d00eda2b59f2a2e59c5f8e701fe3fa81077a8124f5", "1.20.0--pyhdfd78af_0": "sha256:111efe8d500ff547c56d1fe15fc99b689ec47f8329f18a6cf80e06cdfe91b00a", "1.19.3--pyhdfd78af_0": "sha256:1263e702b2974903f99bb3066a1cd2c1ecc3e7508706e353d408a84623e107eb", "1.18.0--pyhdfd78af_0": "sha256:3d7dd3177b55f4dd22c8c2ea2dcb19600d1efea338cb7db231e74ab0516df166", "1.17.0--pyhdfd78af_0": "sha256:f40e0e2b8ad59d72bae8c6b0d4d4776650a7def19ad561bab30490badea1177c", "1.16.1--pyhdfd78af_0": "sha256:d9c51bbfbacd0a09d9e8d66437bb2c0e2525c6e5a5994c53aa97e51344febf32", "1.21.0--pyhdfd78af_0": "sha256:b63e2d6bc17797cdae4361fc25c01533f4418857c44491f112bf18cddb6f71f0", "1.22.0--pyhdfd78af_0": "sha256:0c6a1620a8a790eec4f0ff45429525bc3bfd5012d30235be99e88ef70f3098b9", "1.21.2--pyhdfd78af_0": "sha256:423c260522c1e887d0455508586fd6c060ab2b9f44c772f0d732514110ff2921"}, "docker": "quay.io/biocontainers/nanocomp", "aliases": {"NanoComp": "/usr/local/bin/NanoComp", "NanoPlot": "/usr/local/bin/NanoPlot", "orca-server": "/usr/local/bin/orca-server", "pauvre": "/usr/local/bin/pauvre", "flask": "/usr/local/bin/flask", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen"}}
+config: {"url": "https://biocontainers.pro/tools/nanocomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanocomp", "latest": {"1.23.1--pyhdfd78af_0": "sha256:895808009363967dcf9682329883619550bba9080b2ec2321634e64b275f93e2"}, "tags": {"1.9.2--py_1": "sha256:a89340a72ef720c08a6360d00eda2b59f2a2e59c5f8e701fe3fa81077a8124f5", "1.20.0--pyhdfd78af_0": "sha256:111efe8d500ff547c56d1fe15fc99b689ec47f8329f18a6cf80e06cdfe91b00a", "1.19.3--pyhdfd78af_0": "sha256:1263e702b2974903f99bb3066a1cd2c1ecc3e7508706e353d408a84623e107eb", "1.18.0--pyhdfd78af_0": "sha256:3d7dd3177b55f4dd22c8c2ea2dcb19600d1efea338cb7db231e74ab0516df166", "1.17.0--pyhdfd78af_0": "sha256:f40e0e2b8ad59d72bae8c6b0d4d4776650a7def19ad561bab30490badea1177c", "1.16.1--pyhdfd78af_0": "sha256:d9c51bbfbacd0a09d9e8d66437bb2c0e2525c6e5a5994c53aa97e51344febf32", "1.21.0--pyhdfd78af_0": "sha256:b63e2d6bc17797cdae4361fc25c01533f4418857c44491f112bf18cddb6f71f0", "1.22.0--pyhdfd78af_0": "sha256:0c6a1620a8a790eec4f0ff45429525bc3bfd5012d30235be99e88ef70f3098b9", "1.21.2--pyhdfd78af_0": "sha256:423c260522c1e887d0455508586fd6c060ab2b9f44c772f0d732514110ff2921", "1.23.1--pyhdfd78af_0": "sha256:895808009363967dcf9682329883619550bba9080b2ec2321634e64b275f93e2"}, "docker": "quay.io/biocontainers/nanocomp", "aliases": {"NanoComp": "/usr/local/bin/NanoComp", "NanoPlot": "/usr/local/bin/NanoPlot", "orca-server": "/usr/local/bin/orca-server", "pauvre": "/usr/local/bin/pauvre", "flask": "/usr/local/bin/flask", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanocomp.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/nanocomp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanocomp:1.22.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nanocomp:1.23.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanocomp/1.22.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/nanocomp/1.22.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/nanocomp/1.23.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/nanocomp/1.23.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

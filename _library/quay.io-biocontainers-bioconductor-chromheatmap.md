@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-chromheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromheatmap/container.yaml"
-updated_at: "2023-07-14 03:02:06.755977"
-latest: "1.52.0--r42hdfd78af_0"
+updated_at: "2023-07-15 03:05:23.691698"
+latest: "1.54.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromheatmap"
 
 versions:
  - "1.48.0--r41hdfd78af_0"
  - "1.52.0--r42hdfd78af_0"
+ - "1.54.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromheatmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromheatmap", "latest": {"1.52.0--r42hdfd78af_0": "sha256:29dcb752b644622454c21b386089d403f33cd7d41fe8a753584f99146b5c5662"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:e032a99fd2181f44337b36d45d586fe88427de2276645fb87bcd560a027b7a05", "1.52.0--r42hdfd78af_0": "sha256:29dcb752b644622454c21b386089d403f33cd7d41fe8a753584f99146b5c5662"}, "docker": "quay.io/biocontainers/bioconductor-chromheatmap"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromheatmap", "latest": {"1.54.0--r43hdfd78af_0": "sha256:40df4f66683251c5223eb48d2b8b35cea577fcfbfc77cd50e15733569af3b20e"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:e032a99fd2181f44337b36d45d586fe88427de2276645fb87bcd560a027b7a05", "1.52.0--r42hdfd78af_0": "sha256:29dcb752b644622454c21b386089d403f33cd7d41fe8a753584f99146b5c5662", "1.54.0--r43hdfd78af_0": "sha256:40df4f66683251c5223eb48d2b8b35cea577fcfbfc77cd50e15733569af3b20e"}, "docker": "quay.io/biocontainers/bioconductor-chromheatmap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromheatmap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chromheatmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chromheatmap:1.52.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chromheatmap:1.54.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chromheatmap/1.52.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chromheatmap/1.52.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chromheatmap/1.54.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chromheatmap/1.54.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

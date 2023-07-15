@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-scanvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scanvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scanvis/container.yaml"
-updated_at: "2023-07-14 03:49:33.868473"
-latest: "1.12.0--r42hdfd78af_0"
+updated_at: "2023-07-15 04:05:26.168752"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scanvis"
 
 versions:
  - "1.7.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scanvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scanvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scanvis", "latest": {"1.12.0--r42hdfd78af_0": "sha256:207ac23309cdfb6b1c6b992857aa01ce83383984eb57e6ea4a0c868da49d9896"}, "tags": {"1.7.0--r41hdfd78af_0": "sha256:5d2c0f083c51c5901e8427cb774c3d02d1d9c097df1c6b6e8cf8b607be88c133", "1.12.0--r42hdfd78af_0": "sha256:207ac23309cdfb6b1c6b992857aa01ce83383984eb57e6ea4a0c868da49d9896"}, "docker": "quay.io/biocontainers/bioconductor-scanvis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scanvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scanvis", "latest": {"1.14.0--r43hdfd78af_0": "sha256:7c8c0dba79e296af155d02dee9242157da7e875213ff8c466db4f18a0b337155"}, "tags": {"1.7.0--r41hdfd78af_0": "sha256:5d2c0f083c51c5901e8427cb774c3d02d1d9c097df1c6b6e8cf8b607be88c133", "1.12.0--r42hdfd78af_0": "sha256:207ac23309cdfb6b1c6b992857aa01ce83383984eb57e6ea4a0c868da49d9896", "1.14.0--r43hdfd78af_0": "sha256:7c8c0dba79e296af155d02dee9242157da7e875213ff8c466db4f18a0b337155"}, "docker": "quay.io/biocontainers/bioconductor-scanvis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scanvis.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scanvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scanvis:1.12.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scanvis:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scanvis/1.12.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scanvis/1.12.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scanvis/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scanvis/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

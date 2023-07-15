@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gsbenchmark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsbenchmark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsbenchmark/container.yaml"
-updated_at: "2023-07-14 03:42:30.889677"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-15 03:56:37.023074"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsbenchmark"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.14.0--r41hdfd78af_1"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsbenchmark"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsbenchmark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsbenchmark", "latest": {"1.18.0--r42hdfd78af_0": "sha256:fa96bbd5cd60b4b65ae7aa76a321a31be3c33a93f06d3d4ea0771d65f7084462"}, "tags": {"1.9.0--r40_0": "sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e", "1.18.0--r42hdfd78af_0": "sha256:fa96bbd5cd60b4b65ae7aa76a321a31be3c33a93f06d3d4ea0771d65f7084462", "1.14.0--r41hdfd78af_1": "sha256:5267f1a93e3a9deaf38c485d12b36dbf6ffc2c1d6e33771f0a7988010e05c094", "1.12.0--r41hdfd78af_0": "sha256:b297974351d2efd24f67feb1ecd40fc72c71798fd0509727efd7b72d31f5a85e", "1.10.0--r40hdfd78af_1": "sha256:57959ac51618d3f02b971defbb0c9219143514a39bb4bd5f322ee4d6f55a7baa"}, "docker": "quay.io/biocontainers/bioconductor-gsbenchmark", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsbenchmark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsbenchmark", "latest": {"1.20.0--r43hdfd78af_0": "sha256:8359af9e7ca7aa45afc05fd9947896be7a64ae3ed7b8e20f98a76daa835ffac6"}, "tags": {"1.9.0--r40_0": "sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e", "1.18.0--r42hdfd78af_0": "sha256:fa96bbd5cd60b4b65ae7aa76a321a31be3c33a93f06d3d4ea0771d65f7084462", "1.14.0--r41hdfd78af_1": "sha256:5267f1a93e3a9deaf38c485d12b36dbf6ffc2c1d6e33771f0a7988010e05c094", "1.12.0--r41hdfd78af_0": "sha256:b297974351d2efd24f67feb1ecd40fc72c71798fd0509727efd7b72d31f5a85e", "1.10.0--r40hdfd78af_1": "sha256:57959ac51618d3f02b971defbb0c9219143514a39bb4bd5f322ee4d6f55a7baa", "1.20.0--r43hdfd78af_0": "sha256:8359af9e7ca7aa45afc05fd9947896be7a64ae3ed7b8e20f98a76daa835ffac6"}, "docker": "quay.io/biocontainers/bioconductor-gsbenchmark", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsbenchmark.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gsbenchmark
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gsbenchmark:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gsbenchmark:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gsbenchmark/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gsbenchmark/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gsbenchmark/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gsbenchmark/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

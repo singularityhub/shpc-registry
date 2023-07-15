@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/matchmsextras"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matchmsextras/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matchmsextras/container.yaml"
-updated_at: "2023-07-14 03:01:44.084938"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2023-07-15 03:04:55.033122"
+latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/matchmsextras"
 aliases:
  - "community"
@@ -36,8 +36,9 @@ aliases:
  - "tificc"
 versions:
  - "0.4.1--pyhdfd78af_0"
+ - "0.4.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for matchmsextras"
-config: {"url": "https://biocontainers.pro/tools/matchmsextras", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for matchmsextras", "latest": {"0.4.1--pyhdfd78af_0": "sha256:994b06c47980dbe7731c54d0ee2b2030d172ffbb22ddeb0996d5d5bf187fd022"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:994b06c47980dbe7731c54d0ee2b2030d172ffbb22ddeb0996d5d5bf187fd022"}, "docker": "quay.io/biocontainers/matchmsextras", "aliases": {"community": "/usr/local/bin/community", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "numba": "/usr/local/bin/numba", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/matchmsextras", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for matchmsextras", "latest": {"0.4.2--pyhdfd78af_0": "sha256:be3770f971ff944045a07f3f608840e7ff022bef422dabba37a3f7a2d0de6f59"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:994b06c47980dbe7731c54d0ee2b2030d172ffbb22ddeb0996d5d5bf187fd022", "0.4.2--pyhdfd78af_0": "sha256:be3770f971ff944045a07f3f608840e7ff022bef422dabba37a3f7a2d0de6f59"}, "docker": "quay.io/biocontainers/matchmsextras", "aliases": {"community": "/usr/local/bin/community", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "numba": "/usr/local/bin/numba", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/matchmsextras.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/matchmsextras
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/matchmsextras:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/matchmsextras:0.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/matchmsextras/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/matchmsextras/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/matchmsextras/0.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/matchmsextras/0.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

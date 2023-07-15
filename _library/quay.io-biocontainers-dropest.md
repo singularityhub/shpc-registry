@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dropest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropest/container.yaml"
-updated_at: "2023-07-14 03:40:39.334547"
-latest: "0.8.6--r42h05d83d2_6"
+updated_at: "2023-07-15 03:54:17.239791"
+latest: "0.8.6--r42h05d83d2_7"
 container_url: "https://biocontainers.pro/tools/dropest"
 aliases:
  - "dropReport.Rsc"
@@ -22,8 +22,9 @@ versions:
  - "0.8.6--r41he6cf555_4"
  - "0.8.6--r42he6cf555_5"
  - "0.8.6--r42h05d83d2_6"
+ - "0.8.6--r42h05d83d2_7"
 description: "shpc-registry automated BioContainers addition for dropest"
-config: {"url": "https://biocontainers.pro/tools/dropest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropest", "latest": {"0.8.6--r42h05d83d2_6": "sha256:71c9a296e45aab6075967b37a1173917253676441d52d809fca6f51c4f5ab630"}, "tags": {"0.8.6--r41he6cf555_4": "sha256:5ff67249afd14e5c1e7f2785442885a75cc509377780be54d8585fb57ba94cb9", "0.8.6--r42he6cf555_5": "sha256:2e973917cf4f930219c895fcd6d075bac351f8b3508cde88332aed32acada2b2", "0.8.6--r42h05d83d2_6": "sha256:71c9a296e45aab6075967b37a1173917253676441d52d809fca6f51c4f5ab630"}, "docker": "quay.io/biocontainers/dropest", "aliases": {"dropReport.Rsc": "/usr/local/bin/dropReport.Rsc", "dropest": "/usr/local/bin/dropest", "droptag": "/usr/local/bin/droptag", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/dropest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropest", "latest": {"0.8.6--r42h05d83d2_7": "sha256:bb3d3fed42e26ef2e60e50a4f26fb28ecdb95023a86e923c94f4229fe1fe99b7"}, "tags": {"0.8.6--r41he6cf555_4": "sha256:5ff67249afd14e5c1e7f2785442885a75cc509377780be54d8585fb57ba94cb9", "0.8.6--r42he6cf555_5": "sha256:2e973917cf4f930219c895fcd6d075bac351f8b3508cde88332aed32acada2b2", "0.8.6--r42h05d83d2_6": "sha256:71c9a296e45aab6075967b37a1173917253676441d52d809fca6f51c4f5ab630", "0.8.6--r42h05d83d2_7": "sha256:bb3d3fed42e26ef2e60e50a4f26fb28ecdb95023a86e923c94f4229fe1fe99b7"}, "docker": "quay.io/biocontainers/dropest", "aliases": {"dropReport.Rsc": "/usr/local/bin/dropReport.Rsc", "dropest": "/usr/local/bin/dropest", "droptag": "/usr/local/bin/droptag", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dropest.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/dropest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dropest:0.8.6--r42h05d83d2_6
+$ shpc install quay.io/biocontainers/dropest:0.8.6--r42h05d83d2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dropest/0.8.6--r42h05d83d2_6
-$ module help quay.io/biocontainers/dropest/0.8.6--r42h05d83d2_6
+$ module load quay.io/biocontainers/dropest/0.8.6--r42h05d83d2_7
+$ module help quay.io/biocontainers/dropest/0.8.6--r42h05d83d2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

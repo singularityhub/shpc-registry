@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sparsenetgls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsenetgls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsenetgls/container.yaml"
-updated_at: "2023-07-14 03:46:12.362251"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-07-15 04:01:14.030672"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsenetgls"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sparsenetgls"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsenetgls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsenetgls", "latest": {"1.16.0--r42hdfd78af_0": "sha256:ed88f3530745cf9b11cf8adfa81398a44c6d75af9ed0db15553492ebab4c94f9"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:e4e92b80181eaf234f3f1e3b9d2dfa7a43412c526055aa5d1008dd2edceb77a8", "1.16.0--r42hdfd78af_0": "sha256:ed88f3530745cf9b11cf8adfa81398a44c6d75af9ed0db15553492ebab4c94f9", "1.12.0--r41hdfd78af_0": "sha256:b250931556b6a4cf80465f6e5c72d9b62afd17a1ad12fad3b1eb0754b8f9628b", "1.10.0--r41hdfd78af_0": "sha256:58f795e58d2f59abfa94f6cc87a978f6e3eb38d4be5c6528abc47b5ba1d068d4"}, "docker": "quay.io/biocontainers/bioconductor-sparsenetgls", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsenetgls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsenetgls", "latest": {"1.18.0--r43hdfd78af_0": "sha256:0f66b9da74a33933166d5f2ff2e802833a5729d46cda0a4bfd1fec781c0b0677"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:e4e92b80181eaf234f3f1e3b9d2dfa7a43412c526055aa5d1008dd2edceb77a8", "1.16.0--r42hdfd78af_0": "sha256:ed88f3530745cf9b11cf8adfa81398a44c6d75af9ed0db15553492ebab4c94f9", "1.12.0--r41hdfd78af_0": "sha256:b250931556b6a4cf80465f6e5c72d9b62afd17a1ad12fad3b1eb0754b8f9628b", "1.10.0--r41hdfd78af_0": "sha256:58f795e58d2f59abfa94f6cc87a978f6e3eb38d4be5c6528abc47b5ba1d068d4", "1.18.0--r43hdfd78af_0": "sha256:0f66b9da74a33933166d5f2ff2e802833a5729d46cda0a4bfd1fec781c0b0677"}, "docker": "quay.io/biocontainers/bioconductor-sparsenetgls", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sparsenetgls.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sparsenetgls
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sparsenetgls:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sparsenetgls:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sparsenetgls/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sparsenetgls/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sparsenetgls/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sparsenetgls/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

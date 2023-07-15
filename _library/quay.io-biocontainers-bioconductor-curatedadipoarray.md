@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-curatedadipoarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedadipoarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedadipoarray/container.yaml"
-updated_at: "2023-07-14 03:49:15.207785"
-latest: "1.9.0--r42hdfd78af_0"
+updated_at: "2023-07-15 04:05:02.786239"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedadipoarray"
 
 versions:
  - "1.6.0--r41hdfd78af_1"
  - "1.9.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-curatedadipoarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedadipoarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedadipoarray", "latest": {"1.9.0--r42hdfd78af_0": "sha256:eb917b94b3562dbc44f8def14895e4c335986eed0f2433f736ac45e5654df15b"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:b7713835449de27a5dee8699ff583723b9bba6ae2c28f756b7477ab794b2b169", "1.9.0--r42hdfd78af_0": "sha256:eb917b94b3562dbc44f8def14895e4c335986eed0f2433f736ac45e5654df15b"}, "docker": "quay.io/biocontainers/bioconductor-curatedadipoarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedadipoarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedadipoarray", "latest": {"1.12.0--r43hdfd78af_0": "sha256:fa162a767f9efa895ecdd8057d67f9e6dc8aad0c9ff0a1d43f196d36f1793f92"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:b7713835449de27a5dee8699ff583723b9bba6ae2c28f756b7477ab794b2b169", "1.9.0--r42hdfd78af_0": "sha256:eb917b94b3562dbc44f8def14895e4c335986eed0f2433f736ac45e5654df15b", "1.12.0--r43hdfd78af_0": "sha256:fa162a767f9efa895ecdd8057d67f9e6dc8aad0c9ff0a1d43f196d36f1793f92"}, "docker": "quay.io/biocontainers/bioconductor-curatedadipoarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-curatedadipoarray.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-curatedadipoarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-curatedadipoarray:1.9.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-curatedadipoarray:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-curatedadipoarray/1.9.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-curatedadipoarray/1.9.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-curatedadipoarray/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-curatedadipoarray/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

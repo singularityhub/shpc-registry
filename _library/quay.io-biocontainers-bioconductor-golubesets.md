@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-golubesets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-golubesets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-golubesets/container.yaml"
-updated_at: "2023-07-14 03:49:59.142003"
-latest: "1.40.0--r42hdfd78af_0"
+updated_at: "2023-07-15 04:05:57.734250"
+latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-golubesets"
 
 versions:
  - "1.36.0--r41hdfd78af_1"
  - "1.40.0--r42hdfd78af_0"
+ - "1.42.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-golubesets"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-golubesets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-golubesets", "latest": {"1.40.0--r42hdfd78af_0": "sha256:b2212201e9de85c861644709894fbf26ad8ed385e7a8330aee8d9c3c10e97d7d"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:52f1d40300d436c9a97a41f0b0ab804f262d75053bdd663ee52c4613c81ab12e", "1.40.0--r42hdfd78af_0": "sha256:b2212201e9de85c861644709894fbf26ad8ed385e7a8330aee8d9c3c10e97d7d"}, "docker": "quay.io/biocontainers/bioconductor-golubesets"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-golubesets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-golubesets", "latest": {"1.42.0--r43hdfd78af_0": "sha256:5416ceb6b8b14ad2fdc8e4678574a12b97f820bd79412059966d090bae548343"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:52f1d40300d436c9a97a41f0b0ab804f262d75053bdd663ee52c4613c81ab12e", "1.40.0--r42hdfd78af_0": "sha256:b2212201e9de85c861644709894fbf26ad8ed385e7a8330aee8d9c3c10e97d7d", "1.42.0--r43hdfd78af_0": "sha256:5416ceb6b8b14ad2fdc8e4678574a12b97f820bd79412059966d090bae548343"}, "docker": "quay.io/biocontainers/bioconductor-golubesets"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-golubesets.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-golubesets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-golubesets:1.40.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-golubesets:1.42.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-golubesets/1.40.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-golubesets/1.40.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-golubesets/1.42.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-golubesets/1.42.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-timeomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timeomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timeomics/container.yaml"
-updated_at: "2023-07-14 03:42:27.259230"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-07-15 03:56:32.484299"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timeomics"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-timeomics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-timeomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timeomics", "latest": {"1.10.0--r42hdfd78af_0": "sha256:07bdbe60ed7a165faae5cfcdbdebf7f3944bdf76c32d0b6c6cfc7e943239065e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:6eddbef4d68b6b52a33e9fcfb83eeff49f53a5cc1ea70bcd86c238807f767290", "1.10.0--r42hdfd78af_0": "sha256:07bdbe60ed7a165faae5cfcdbdebf7f3944bdf76c32d0b6c6cfc7e943239065e"}, "docker": "quay.io/biocontainers/bioconductor-timeomics"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-timeomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timeomics", "latest": {"1.12.0--r43hdfd78af_0": "sha256:7e7bb43eefdd4b290f926a66a265d5cf8baf31f113fb3ec0b43eb2e7da9071ba"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:6eddbef4d68b6b52a33e9fcfb83eeff49f53a5cc1ea70bcd86c238807f767290", "1.10.0--r42hdfd78af_0": "sha256:07bdbe60ed7a165faae5cfcdbdebf7f3944bdf76c32d0b6c6cfc7e943239065e", "1.12.0--r43hdfd78af_0": "sha256:7e7bb43eefdd4b290f926a66a265d5cf8baf31f113fb3ec0b43eb2e7da9071ba"}, "docker": "quay.io/biocontainers/bioconductor-timeomics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-timeomics.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-timeomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-timeomics:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-timeomics:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-timeomics/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-timeomics/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-timeomics/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-timeomics/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-bufferedmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bufferedmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bufferedmatrix/container.yaml"
-updated_at: "2023-07-14 03:41:39.069567"
-latest: "1.61.0--r42ha9d7317_1"
+updated_at: "2023-07-15 03:55:32.106190"
+latest: "1.64.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bufferedmatrix"
 
 versions:
  - "1.58.0--r41hc0cfd56_2"
  - "1.61.0--r42hc0cfd56_0"
  - "1.61.0--r42ha9d7317_1"
+ - "1.64.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bufferedmatrix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bufferedmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bufferedmatrix", "latest": {"1.61.0--r42ha9d7317_1": "sha256:e17f5dcfe47d61ab35512e2552af02acf0d98b531fbca6490d22458d4bd7a234"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:481ee9df52cef21e06e72d921773b07ae900aa6234097faaa1950f31bf596196", "1.61.0--r42hc0cfd56_0": "sha256:006c7055a553badf0e38a814058946eab3d5c117b352ff749934a91936c9c850", "1.61.0--r42ha9d7317_1": "sha256:e17f5dcfe47d61ab35512e2552af02acf0d98b531fbca6490d22458d4bd7a234"}, "docker": "quay.io/biocontainers/bioconductor-bufferedmatrix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bufferedmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bufferedmatrix", "latest": {"1.64.0--r43ha9d7317_0": "sha256:7bb12521b86e462d85e73a62673ffbe91f2fdad6a930bfbba3cfe34a773a41bd"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:481ee9df52cef21e06e72d921773b07ae900aa6234097faaa1950f31bf596196", "1.61.0--r42hc0cfd56_0": "sha256:006c7055a553badf0e38a814058946eab3d5c117b352ff749934a91936c9c850", "1.61.0--r42ha9d7317_1": "sha256:e17f5dcfe47d61ab35512e2552af02acf0d98b531fbca6490d22458d4bd7a234", "1.64.0--r43ha9d7317_0": "sha256:7bb12521b86e462d85e73a62673ffbe91f2fdad6a930bfbba3cfe34a773a41bd"}, "docker": "quay.io/biocontainers/bioconductor-bufferedmatrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bufferedmatrix.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bufferedmatrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bufferedmatrix:1.61.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-bufferedmatrix:1.64.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bufferedmatrix/1.61.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-bufferedmatrix/1.61.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-bufferedmatrix/1.64.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-bufferedmatrix/1.64.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

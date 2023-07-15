@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tfbstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tfbstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tfbstools/container.yaml"
-updated_at: "2023-07-14 03:27:01.128817"
+updated_at: "2023-07-15 03:37:12.543775"
 latest: "1.36.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tfbstools"
 

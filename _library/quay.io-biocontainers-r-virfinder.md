@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-virfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-virfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-virfinder/container.yaml"
-updated_at: "2023-07-14 03:06:22.921670"
-latest: "1.1--r42hdbdd923_6"
+updated_at: "2023-07-15 03:10:45.907828"
+latest: "1.1--r43hdbdd923_7"
 container_url: "https://biocontainers.pro/tools/r-virfinder"
 
 versions:
  - "1.1--r41h87f3376_4"
  - "1.1--r42h87f3376_5"
  - "1.1--r42hdbdd923_6"
+ - "1.1--r43hdbdd923_7"
 description: "shpc-registry automated BioContainers addition for r-virfinder"
-config: {"url": "https://biocontainers.pro/tools/r-virfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-virfinder", "latest": {"1.1--r42hdbdd923_6": "sha256:ffcccf5641832dfa2deedea9b62b893fb708eb44fa851cae8bef7a958b2a53f6"}, "tags": {"1.1--r41h87f3376_4": "sha256:f4001729c61fa7b1cff0308840c0dce7dc77a9ab9aea93a5b21f88d57f1b2412", "1.1--r42h87f3376_5": "sha256:d0d294ccca7a84028de4e06df204b61459c6ff6dfea76fb07e6f87b35443e3df", "1.1--r42hdbdd923_6": "sha256:ffcccf5641832dfa2deedea9b62b893fb708eb44fa851cae8bef7a958b2a53f6"}, "docker": "quay.io/biocontainers/r-virfinder"}
+config: {"url": "https://biocontainers.pro/tools/r-virfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-virfinder", "latest": {"1.1--r43hdbdd923_7": "sha256:1b64000c3d19f48033f96eec6aee7839b91ed3381a6117e5723e3c10590c9295"}, "tags": {"1.1--r41h87f3376_4": "sha256:f4001729c61fa7b1cff0308840c0dce7dc77a9ab9aea93a5b21f88d57f1b2412", "1.1--r42h87f3376_5": "sha256:d0d294ccca7a84028de4e06df204b61459c6ff6dfea76fb07e6f87b35443e3df", "1.1--r42hdbdd923_6": "sha256:ffcccf5641832dfa2deedea9b62b893fb708eb44fa851cae8bef7a958b2a53f6", "1.1--r43hdbdd923_7": "sha256:1b64000c3d19f48033f96eec6aee7839b91ed3381a6117e5723e3c10590c9295"}, "docker": "quay.io/biocontainers/r-virfinder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-virfinder.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-virfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-virfinder:1.1--r42hdbdd923_6
+$ shpc install quay.io/biocontainers/r-virfinder:1.1--r43hdbdd923_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-virfinder/1.1--r42hdbdd923_6
-$ module help quay.io/biocontainers/r-virfinder/1.1--r42hdbdd923_6
+$ module load quay.io/biocontainers/r-virfinder/1.1--r43hdbdd923_7
+$ module help quay.io/biocontainers/r-virfinder/1.1--r43hdbdd923_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

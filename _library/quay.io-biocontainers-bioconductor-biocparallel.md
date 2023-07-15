@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biocparallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocparallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocparallel/container.yaml"
-updated_at: "2023-07-14 03:10:16.628677"
-latest: "1.32.5--r42hf17093f_1"
+updated_at: "2023-07-15 03:15:40.904879"
+latest: "1.34.2--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocparallel"
 aliases:
  - "uconv"
@@ -21,8 +21,9 @@ versions:
  - "1.22.0--r40h5f743cb_0"
  - "1.32.5--r42hc247a5b_0"
  - "1.32.5--r42hf17093f_1"
+ - "1.34.2--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocparallel"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocparallel", "latest": {"1.32.5--r42hf17093f_1": "sha256:13644952e8fa6777cfea1b60da73660624d64c852998a03791c2c1e1fe06e2c8"}, "tags": {"1.6.6--r3.3.2_1": "sha256:364c3578ee80bc268c22a276ab3e0144c18148dd8caad3aa07fab9baa098fa5d", "1.32.0--r42hc247a5b_0": "sha256:fc6506a976c2dd81be58171b27539f8636113e4e482b3b11b18aecbff88c633f", "1.28.3--r41hc247a5b_1": "sha256:7f815d1e39b2671f182acf5cbac1d35a06521d66278f996677ec7efd5b0277be", "1.26.0--r41h399db7b_0": "sha256:fdb518100c163f37656a90e607a5291384f5c14d1b83b9dee457e017dba31fea", "1.24.1--r40h399db7b_0": "sha256:e21cfa187ba38b198518cafcf5b3b95092524b112519e87c09b24bda9a5c9ef5", "1.22.0--r40h5f743cb_0": "sha256:2c30b8605f6103459edc6b6dc12b977878c43cfb5dc7b4e9b5a41fd4651a94c1", "1.32.5--r42hc247a5b_0": "sha256:bd4d02f2aba30f918b56d0516b3808197192c460ed58ba9139e630fb320de88a", "1.32.5--r42hf17093f_1": "sha256:13644952e8fa6777cfea1b60da73660624d64c852998a03791c2c1e1fe06e2c8"}, "docker": "quay.io/biocontainers/bioconductor-biocparallel", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocparallel", "latest": {"1.34.2--r43hf17093f_0": "sha256:43cb558f9ad5ec98ffab9f427a4822d8a3e03ccbbc261c566fc293e1f269d14e"}, "tags": {"1.6.6--r3.3.2_1": "sha256:364c3578ee80bc268c22a276ab3e0144c18148dd8caad3aa07fab9baa098fa5d", "1.32.0--r42hc247a5b_0": "sha256:fc6506a976c2dd81be58171b27539f8636113e4e482b3b11b18aecbff88c633f", "1.28.3--r41hc247a5b_1": "sha256:7f815d1e39b2671f182acf5cbac1d35a06521d66278f996677ec7efd5b0277be", "1.26.0--r41h399db7b_0": "sha256:fdb518100c163f37656a90e607a5291384f5c14d1b83b9dee457e017dba31fea", "1.24.1--r40h399db7b_0": "sha256:e21cfa187ba38b198518cafcf5b3b95092524b112519e87c09b24bda9a5c9ef5", "1.22.0--r40h5f743cb_0": "sha256:2c30b8605f6103459edc6b6dc12b977878c43cfb5dc7b4e9b5a41fd4651a94c1", "1.32.5--r42hc247a5b_0": "sha256:bd4d02f2aba30f918b56d0516b3808197192c460ed58ba9139e630fb320de88a", "1.32.5--r42hf17093f_1": "sha256:13644952e8fa6777cfea1b60da73660624d64c852998a03791c2c1e1fe06e2c8", "1.34.2--r43hf17093f_0": "sha256:43cb558f9ad5ec98ffab9f427a4822d8a3e03ccbbc261c566fc293e1f269d14e"}, "docker": "quay.io/biocontainers/bioconductor-biocparallel", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocparallel.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocparallel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocparallel:1.32.5--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-biocparallel:1.34.2--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocparallel/1.32.5--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-biocparallel/1.32.5--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-biocparallel/1.34.2--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-biocparallel/1.34.2--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

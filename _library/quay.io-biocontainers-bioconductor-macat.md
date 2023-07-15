@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-macat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macat/container.yaml"
-updated_at: "2023-07-14 03:06:40.493450"
-latest: "1.72.0--r42hdfd78af_0"
+updated_at: "2023-07-15 03:11:08.014434"
+latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macat"
 
 versions:
  - "1.68.0--r41hdfd78af_0"
  - "1.72.0--r42hdfd78af_0"
+ - "1.74.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-macat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-macat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macat", "latest": {"1.72.0--r42hdfd78af_0": "sha256:6d0caa9558ee6186a0e783d119f57a2f98e584899b1995016a6a57d9ea577e45"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:9511b121b0643f5c36b44d576c82e1f884d1fcd6ef7073637bbc93c791343726", "1.72.0--r42hdfd78af_0": "sha256:6d0caa9558ee6186a0e783d119f57a2f98e584899b1995016a6a57d9ea577e45"}, "docker": "quay.io/biocontainers/bioconductor-macat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-macat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macat", "latest": {"1.74.0--r43hdfd78af_0": "sha256:eabf4b1a3da1e205a5bfed68fe8f9aaf054e0be9543f0c975bddb8eb40c4ae2a"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:9511b121b0643f5c36b44d576c82e1f884d1fcd6ef7073637bbc93c791343726", "1.72.0--r42hdfd78af_0": "sha256:6d0caa9558ee6186a0e783d119f57a2f98e584899b1995016a6a57d9ea577e45", "1.74.0--r43hdfd78af_0": "sha256:eabf4b1a3da1e205a5bfed68fe8f9aaf054e0be9543f0c975bddb8eb40c4ae2a"}, "docker": "quay.io/biocontainers/bioconductor-macat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-macat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-macat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-macat:1.72.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-macat:1.74.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-macat/1.72.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-macat/1.72.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-macat/1.74.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-macat/1.74.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mpranalyze"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpranalyze/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpranalyze/container.yaml"
-updated_at: "2023-07-14 03:10:12.969368"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-07-15 03:15:36.369792"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpranalyze"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mpranalyze"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mpranalyze", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpranalyze", "latest": {"1.16.0--r42hdfd78af_0": "sha256:df3d918ef217c510308933c1bfbe07999869be0541f2369bb3516a07392979c2"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a4d8d593d82bb3143a2a6f34918b152cbef6e95e1a6aa8430684f983d6773b94", "1.16.0--r42hdfd78af_0": "sha256:df3d918ef217c510308933c1bfbe07999869be0541f2369bb3516a07392979c2", "1.12.0--r41hdfd78af_0": "sha256:a576246055c96d7ae368630ace69172f72b63431e4ab6a9854dda9570e2d80a4", "1.10.0--r41hdfd78af_0": "sha256:6568bfe9e2903981adcc79260c177eac07d85ee737d097290c25f877a0c4c1e0"}, "docker": "quay.io/biocontainers/bioconductor-mpranalyze", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mpranalyze", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpranalyze", "latest": {"1.18.0--r43hdfd78af_0": "sha256:be10a5623ff53f4f949cb4fcc9bcb96db5513901e6b7e6f808d096e680374cd9"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a4d8d593d82bb3143a2a6f34918b152cbef6e95e1a6aa8430684f983d6773b94", "1.16.0--r42hdfd78af_0": "sha256:df3d918ef217c510308933c1bfbe07999869be0541f2369bb3516a07392979c2", "1.12.0--r41hdfd78af_0": "sha256:a576246055c96d7ae368630ace69172f72b63431e4ab6a9854dda9570e2d80a4", "1.10.0--r41hdfd78af_0": "sha256:6568bfe9e2903981adcc79260c177eac07d85ee737d097290c25f877a0c4c1e0", "1.18.0--r43hdfd78af_0": "sha256:be10a5623ff53f4f949cb4fcc9bcb96db5513901e6b7e6f808d096e680374cd9"}, "docker": "quay.io/biocontainers/bioconductor-mpranalyze", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mpranalyze.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mpranalyze
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mpranalyze:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mpranalyze:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mpranalyze/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mpranalyze/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mpranalyze/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mpranalyze/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

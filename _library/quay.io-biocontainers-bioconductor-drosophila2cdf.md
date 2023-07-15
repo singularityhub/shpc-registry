@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-drosophila2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drosophila2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drosophila2cdf/container.yaml"
-updated_at: "2023-07-14 03:20:57.286305"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-15 03:29:24.548885"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-drosophila2cdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-drosophila2cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drosophila2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drosophila2cdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:ae7a6cf490a433bf42385f02d813c857e28aedb8ebc36765b260e998973e6d28"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:11452b0f23ea09fcb3534a72f9ddad646d0281a6c2c8030fe82a1c2ea92d4014", "2.18.0--r42hdfd78af_10": "sha256:ae7a6cf490a433bf42385f02d813c857e28aedb8ebc36765b260e998973e6d28"}, "docker": "quay.io/biocontainers/bioconductor-drosophila2cdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drosophila2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drosophila2cdf", "latest": {"2.18.0--r43hdfd78af_11": "sha256:4efd3a164977b1df505f8a314ef5c21d13c5784815d8f24a7a99749b6d96f28c"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:11452b0f23ea09fcb3534a72f9ddad646d0281a6c2c8030fe82a1c2ea92d4014", "2.18.0--r42hdfd78af_10": "sha256:ae7a6cf490a433bf42385f02d813c857e28aedb8ebc36765b260e998973e6d28", "2.18.0--r43hdfd78af_11": "sha256:4efd3a164977b1df505f8a314ef5c21d13c5784815d8f24a7a99749b6d96f28c"}, "docker": "quay.io/biocontainers/bioconductor-drosophila2cdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drosophila2cdf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-drosophila2cdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-drosophila2cdf:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-drosophila2cdf:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-drosophila2cdf/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-drosophila2cdf/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-drosophila2cdf/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-drosophila2cdf/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
