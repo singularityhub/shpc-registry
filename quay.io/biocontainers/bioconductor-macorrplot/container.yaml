@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-macorrplot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-macorrplot
 latest:
-  1.68.0--r42hdfd78af_0: sha256:2ed226994dbfeae00c1b31570f58ca034f4cb89bc1fc57ef3d929ce57228b7d8
+  1.70.0--r43hdfd78af_0: sha256:4116e8ab5d18d3acf34ade946bb18985745127e01892987bddb991fde0d3c99a
 tags:
   1.64.0--r41hdfd78af_0: sha256:b56c70fb4e363e6bd87cf3228a58fbd67e651ba6d03540b841058fed346e2bc6
   1.68.0--r42hdfd78af_0: sha256:2ed226994dbfeae00c1b31570f58ca034f4cb89bc1fc57ef3d929ce57228b7d8
+  1.70.0--r43hdfd78af_0: sha256:4116e8ab5d18d3acf34ade946bb18985745127e01892987bddb991fde0d3c99a
 docker: quay.io/biocontainers/bioconductor-macorrplot

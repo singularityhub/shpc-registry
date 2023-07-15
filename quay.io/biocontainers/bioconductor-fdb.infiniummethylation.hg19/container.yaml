@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-fdb.infiniummethylation.hg19
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fdb.infiniummethylation.hg19
 latest:
-  2.2.0--r42hdfd78af_14: sha256:cab4bf7374c9ebb80e5407bc8068f18c79bba90ff13c6ceb96e181195760e627
+  2.2.0--r43hdfd78af_15: sha256:0cd3f309b1aa9c5f4043eaa669102e3a52ead0a6c372ebeddfcdea8192e09500
 tags:
   2.2.0--r40_9: sha256:ea7755e7af9c750995e6a07b7a2527ce79fb62e66c67037051c71d9279c40b8b
   2.2.0--r42hdfd78af_14: sha256:cab4bf7374c9ebb80e5407bc8068f18c79bba90ff13c6ceb96e181195760e627
+  2.2.0--r43hdfd78af_15: sha256:0cd3f309b1aa9c5f4043eaa669102e3a52ead0a6c372ebeddfcdea8192e09500
 docker: quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

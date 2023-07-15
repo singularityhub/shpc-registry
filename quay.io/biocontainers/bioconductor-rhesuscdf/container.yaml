@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rhesuscdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rhesuscdf
 latest:
-  2.18.0--r42hdfd78af_10: sha256:c1c41059f31e5865d9bb6b7e2d14f82e80f1903f38f5e4139e8bc7fa47a74581
+  2.18.0--r43hdfd78af_11: sha256:3a636ab7fcde1460b94988fed881b6e140b107370356b660f10cda34d24d61b4
 tags:
   2.18.0--r41hdfd78af_9: sha256:ff03234e9ed27392458e337f2fc50794e8ac1949d52754d591a2f4f531eed38d
   2.18.0--r42hdfd78af_10: sha256:c1c41059f31e5865d9bb6b7e2d14f82e80f1903f38f5e4139e8bc7fa47a74581
+  2.18.0--r43hdfd78af_11: sha256:3a636ab7fcde1460b94988fed881b6e140b107370356b660f10cda34d24d61b4
 docker: quay.io/biocontainers/bioconductor-rhesuscdf

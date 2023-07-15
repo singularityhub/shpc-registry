@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cycle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cycle
 latest:
-  1.52.0--r42hdfd78af_0: sha256:5f1875d148858c1d860402a116f0fa6cf8a942f8ce9eea9df7ac90ad8291b794
+  1.54.0--r43hdfd78af_0: sha256:e514b3780585eea9c64149c1b12af3a1a3f6f10cc7a09c4595ec32c949b56220
 tags:
   1.48.0--r41hdfd78af_0: sha256:81a49e266bdd37853249515739b968aa493c970210b92001b3b16063e74ff8ab
   1.52.0--r42hdfd78af_0: sha256:5f1875d148858c1d860402a116f0fa6cf8a942f8ce9eea9df7ac90ad8291b794
+  1.54.0--r43hdfd78af_0: sha256:e514b3780585eea9c64149c1b12af3a1a3f6f10cc7a09c4595ec32c949b56220
 docker: quay.io/biocontainers/bioconductor-cycle

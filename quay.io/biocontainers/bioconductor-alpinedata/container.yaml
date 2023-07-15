@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-alpinedata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-alpinedata
 latest:
-  1.24.0--r42hdfd78af_0: sha256:5c0c8da6dc15dc7fb836b725f34e4d59af3a7033618abb362a14ee34f5b5ec1f
+  1.26.0--r43hdfd78af_0: sha256:c0e167ebe96d73034bba182134e83851fcf68558d33f33951148c9fb5ec8851d
 tags:
   1.8.0--r351_0: sha256:50bd4350c48c82b69052b4bb460fd7243ce50ccd9a6687024a3daeb9b066986e
   1.24.0--r42hdfd78af_0: sha256:5c0c8da6dc15dc7fb836b725f34e4d59af3a7033618abb362a14ee34f5b5ec1f
@@ -10,6 +10,7 @@ tags:
   1.18.0--r41hdfd78af_0: sha256:17918454d1eea13c4cee84c0ed55a234b70010555b5f3ebb3a70c279ce58b5a5
   1.16.0--r40hdfd78af_1: sha256:b403b9fc590a4c92b145b3c87aa443316478b23a32b753099df7a854a8f5f431
   1.14.0--r40_0: sha256:9a6459775bbe4353346208e0ed5516b72d4bf2670fa826b19b1ac4ec99bce068
+  1.26.0--r43hdfd78af_0: sha256:c0e167ebe96d73034bba182134e83851fcf68558d33f33951148c9fb5ec8851d
 docker: quay.io/biocontainers/bioconductor-alpinedata
 aliases:
   wget: /usr/local/bin/wget

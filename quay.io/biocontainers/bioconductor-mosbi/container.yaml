@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-mosbi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mosbi
 latest:
-  1.4.0--r42hf17093f_1: sha256:acce461bcc739211e2156945a591d944782daf2be31b1317bbbb15427f019816
+  1.6.0--r43hf17093f_0: sha256:05041e3de328be24df1ecc4ad44259da4195570b1c26bb85bbfcbc7bf23b5fb9
 tags:
   1.0.3--r41hc247a5b_1: sha256:61b4684a4cd64bad5db71e78cdf0da3219eac2ec12ce812fb0bc45b1973a78f8
   1.4.0--r42hc247a5b_0: sha256:2ac27f805332fa9294d1338731ee194a5482baad49f8aaa045062084410fe765
   1.4.0--r42hf17093f_1: sha256:acce461bcc739211e2156945a591d944782daf2be31b1317bbbb15427f019816
+  1.6.0--r43hf17093f_0: sha256:05041e3de328be24df1ecc4ad44259da4195570b1c26bb85bbfcbc7bf23b5fb9
 docker: quay.io/biocontainers/bioconductor-mosbi
 aliases:
   glpsol: /usr/local/bin/glpsol

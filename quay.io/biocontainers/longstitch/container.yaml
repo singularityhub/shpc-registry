@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/longstitch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for longstitch
 latest:
-  1.0.4--hdfd78af_0: sha256:e4593ecb6f232d54c69e41cec168892414fc91eeddd2c345b2b654fec4789b64
+  1.0.4--hdfd78af_1: sha256:95c6aace76922832d89f34ace28d13e387f8777d0d22de8dd39faca441b14981
 tags:
   1.0.3--hdfd78af_0: sha256:38f1711e184bd2a7cf02dee5ac1cdd7dc74417ffbe2f4cb36ee2ea3e20b68c4e
   1.0.4--hdfd78af_0: sha256:e4593ecb6f232d54c69e41cec168892414fc91eeddd2c345b2b654fec4789b64
+  1.0.4--hdfd78af_1: sha256:95c6aace76922832d89f34ace28d13e387f8777d0d22de8dd39faca441b14981
 docker: quay.io/biocontainers/longstitch
 aliases:
   LINKS: /usr/local/bin/LINKS

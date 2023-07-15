@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-immunotation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-immunotation
 latest:
-  1.5.0--r42hdfd78af_0: sha256:5c9f001b71021ae9d076a8602c39a19267e2d9c148127fa30b6e4422582655d4
+  1.8.0--r43hdfd78af_0: sha256:6a9944474ed9ffa9ca28d4acdf55c6d6a251a0841bef1ace702d763e9d764999
 tags:
   1.2.0--r41hdfd78af_0: sha256:b732c09d77e45f841d3fdf45aa6f56e44e61ed5cd818ac5ea460912c05044e41
   1.5.0--r42hdfd78af_0: sha256:5c9f001b71021ae9d076a8602c39a19267e2d9c148127fa30b6e4422582655d4
+  1.8.0--r43hdfd78af_0: sha256:6a9944474ed9ffa9ca28d4acdf55c6d6a251a0841bef1ace702d763e9d764999
 docker: quay.io/biocontainers/bioconductor-immunotation

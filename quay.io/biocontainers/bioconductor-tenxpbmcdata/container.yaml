@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-tenxpbmcdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tenxpbmcdata
 latest:
-  1.16.0--r42hdfd78af_0: sha256:bfffc505bbbde10e571d459d5514c679d08aa5260174e5f4f2aed27f77f96a3d
+  1.18.0--r43hdfd78af_0: sha256:8f83e641371b71b9cebc8a9042c1a83be8238569c1706847d1904cb4476e7b5b
 tags:
   1.8.0--r40hdfd78af_1: sha256:f804ba7a7e2151819db3a885abbc2210ae8d038614e2a8c12941f1ad5cb6ee84
   1.16.0--r42hdfd78af_0: sha256:bfffc505bbbde10e571d459d5514c679d08aa5260174e5f4f2aed27f77f96a3d
   1.12.0--r41hdfd78af_1: sha256:2f9903ed8d926d873b4d0f4c8865a6b8deba3676d3b690d8c94a4f6b0f3dbbc1
   1.10.0--r41hdfd78af_0: sha256:215700089631d532c5063b0246e26e866794c4b8d65cefc6e0f1ab96ef50c936
+  1.18.0--r43hdfd78af_0: sha256:8f83e641371b71b9cebc8a9042c1a83be8238569c1706847d1904cb4476e7b5b
 docker: quay.io/biocontainers/bioconductor-tenxpbmcdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

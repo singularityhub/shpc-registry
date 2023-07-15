@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-compran
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-compran
 latest:
-  1.6.0--r42hdfd78af_0: sha256:d57e08257b33ad33944278f1dc2e14980075e38c1502652973d6381491713670
+  1.8.0--r43hdfd78af_0: sha256:67cd0cbca39d17a3a72509bd580a57880d11483cc26dea200da89193a19fb4f1
 tags:
   1.2.0--r41hdfd78af_0: sha256:5a10337f08fdcdfa803cffcee1cb930071c4cc29ec9c30f0d8492d7fab20268c
   1.6.0--r42hdfd78af_0: sha256:d57e08257b33ad33944278f1dc2e14980075e38c1502652973d6381491713670
+  1.8.0--r43hdfd78af_0: sha256:67cd0cbca39d17a3a72509bd580a57880d11483cc26dea200da89193a19fb4f1
 docker: quay.io/biocontainers/bioconductor-compran

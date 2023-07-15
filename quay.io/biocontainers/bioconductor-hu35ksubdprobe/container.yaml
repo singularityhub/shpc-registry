@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hu35ksubdprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hu35ksubdprobe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:6321d5ff2d0592764aa373973e638622509a7f341f5734572f0102d612341769
+  2.18.0--r43hdfd78af_11: sha256:4254c8d162736827e689f782fc30c1fd5adb00fe5eebf7c82832632b77dddedb
 tags:
   2.18.0--r41hdfd78af_9: sha256:632726ca878114748f21ddb045930e8b3011dc49b84258ff9cd1a9542b6f7b2c
   2.18.0--r42hdfd78af_10: sha256:6321d5ff2d0592764aa373973e638622509a7f341f5734572f0102d612341769
+  2.18.0--r43hdfd78af_11: sha256:4254c8d162736827e689f782fc30c1fd5adb00fe5eebf7c82832632b77dddedb
 docker: quay.io/biocontainers/bioconductor-hu35ksubdprobe

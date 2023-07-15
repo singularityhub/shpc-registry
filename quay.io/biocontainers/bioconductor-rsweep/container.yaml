@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rsweep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rsweep
 latest:
-  1.10.0--r42hdfd78af_0: sha256:3749ca4e28251ea7015c326214faba69e887c488e37cb82791f86d8f541575c9
+  1.12.0--r43hdfd78af_0: sha256:9ca16be396bc98a3f2cb8b7f97628729032baffa0f8642aa5a858cb77a82dbdd
 tags:
   1.6.0--r41hdfd78af_0: sha256:7c73f2f4899d32f930b6ba4fbc24d29dbed46cd12e11208f3bd3e95984bce978
   1.10.0--r42hdfd78af_0: sha256:3749ca4e28251ea7015c326214faba69e887c488e37cb82791f86d8f541575c9
+  1.12.0--r43hdfd78af_0: sha256:9ca16be396bc98a3f2cb8b7f97628729032baffa0f8642aa5a858cb77a82dbdd
 docker: quay.io/biocontainers/bioconductor-rsweep

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-impcdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-impcdata
 latest:
-  1.34.0--r42hdfd78af_0: sha256:98b7c75c935f89bca61180c648183b88991dbc1d2671cbdf6ef61207ed23ea19
+  1.36.0--r43hdfd78af_0: sha256:4c8e83bdd79f1010e915effafca8b0e7de626c4191187c1d03e41588684b5d7a
 tags:
   1.30.0--r41hdfd78af_0: sha256:93dafe57cd084ea431e54187ffcd9d3b26257bd439fae2b89470a4b12964b4da
   1.34.0--r42hdfd78af_0: sha256:98b7c75c935f89bca61180c648183b88991dbc1d2671cbdf6ef61207ed23ea19
+  1.36.0--r43hdfd78af_0: sha256:4c8e83bdd79f1010e915effafca8b0e7de626c4191187c1d03e41588684b5d7a
 docker: quay.io/biocontainers/bioconductor-impcdata

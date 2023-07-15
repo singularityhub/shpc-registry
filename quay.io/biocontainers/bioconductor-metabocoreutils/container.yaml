@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-metabocoreutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metabocoreutils
 latest:
-  1.6.0--r42hdfd78af_0: sha256:094fe1539b1d940f4974b7f092c65dce4deb850b96cd009cc49082dc19b70cc6
+  1.8.0--r43hdfd78af_0: sha256:aaf703d6e97fb0651d79349f92b82b703ff0597f7303ce122c2e4be1973f6b74
 tags:
   1.2.0--r41hdfd78af_0: sha256:4bd83e2bd44751fa7eb0a510554f97c5c0bf8af7bdc5af3beb34f854630b94b8
   1.6.0--r42hdfd78af_0: sha256:094fe1539b1d940f4974b7f092c65dce4deb850b96cd009cc49082dc19b70cc6
+  1.8.0--r43hdfd78af_0: sha256:aaf703d6e97fb0651d79349f92b82b703ff0597f7303ce122c2e4be1973f6b74
 docker: quay.io/biocontainers/bioconductor-metabocoreutils

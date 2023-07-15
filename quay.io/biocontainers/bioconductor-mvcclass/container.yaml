@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mvcclass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mvcclass
 latest:
-  1.72.0--r42hdfd78af_0: sha256:22b9ca515ec5143e6e12282bb55dec64f2030bd514492f6ff0359f6ede97b388
+  1.74.0--r43hdfd78af_0: sha256:7c2afb4dbd3ee040e8abcc7e0c2b5c49910e93f2845eb3c2d9dac1f02a164688
 tags:
   1.68.0--r41hdfd78af_0: sha256:dceaed4e36de46f76d578e0152c1088fd7c46c8f63e808190d701fcb0772d363
   1.72.0--r42hdfd78af_0: sha256:22b9ca515ec5143e6e12282bb55dec64f2030bd514492f6ff0359f6ede97b388
+  1.74.0--r43hdfd78af_0: sha256:7c2afb4dbd3ee040e8abcc7e0c2b5c49910e93f2845eb3c2d9dac1f02a164688
 docker: quay.io/biocontainers/bioconductor-mvcclass
