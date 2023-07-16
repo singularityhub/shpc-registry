@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alpinedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alpinedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alpinedata/container.yaml"
-updated_at: "2023-07-15 03:49:47.020298"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-07-16 03:25:32.313518"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alpinedata"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-alpinedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alpinedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpinedata", "latest": {"1.24.0--r42hdfd78af_0": "sha256:5c0c8da6dc15dc7fb836b725f34e4d59af3a7033618abb362a14ee34f5b5ec1f"}, "tags": {"1.8.0--r351_0": "sha256:50bd4350c48c82b69052b4bb460fd7243ce50ccd9a6687024a3daeb9b066986e", "1.24.0--r42hdfd78af_0": "sha256:5c0c8da6dc15dc7fb836b725f34e4d59af3a7033618abb362a14ee34f5b5ec1f", "1.20.0--r41hdfd78af_1": "sha256:2bf864bd89fa69200b99dd5ac05417a27bcc2da0e8ee7c829c39c3b2247834be", "1.18.0--r41hdfd78af_0": "sha256:17918454d1eea13c4cee84c0ed55a234b70010555b5f3ebb3a70c279ce58b5a5", "1.16.0--r40hdfd78af_1": "sha256:b403b9fc590a4c92b145b3c87aa443316478b23a32b753099df7a854a8f5f431", "1.14.0--r40_0": "sha256:9a6459775bbe4353346208e0ed5516b72d4bf2670fa826b19b1ac4ec99bce068"}, "docker": "quay.io/biocontainers/bioconductor-alpinedata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alpinedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpinedata", "latest": {"1.26.0--r43hdfd78af_0": "sha256:c0e167ebe96d73034bba182134e83851fcf68558d33f33951148c9fb5ec8851d"}, "tags": {"1.8.0--r351_0": "sha256:50bd4350c48c82b69052b4bb460fd7243ce50ccd9a6687024a3daeb9b066986e", "1.24.0--r42hdfd78af_0": "sha256:5c0c8da6dc15dc7fb836b725f34e4d59af3a7033618abb362a14ee34f5b5ec1f", "1.20.0--r41hdfd78af_1": "sha256:2bf864bd89fa69200b99dd5ac05417a27bcc2da0e8ee7c829c39c3b2247834be", "1.18.0--r41hdfd78af_0": "sha256:17918454d1eea13c4cee84c0ed55a234b70010555b5f3ebb3a70c279ce58b5a5", "1.16.0--r40hdfd78af_1": "sha256:b403b9fc590a4c92b145b3c87aa443316478b23a32b753099df7a854a8f5f431", "1.14.0--r40_0": "sha256:9a6459775bbe4353346208e0ed5516b72d4bf2670fa826b19b1ac4ec99bce068", "1.26.0--r43hdfd78af_0": "sha256:c0e167ebe96d73034bba182134e83851fcf68558d33f33951148c9fb5ec8851d"}, "docker": "quay.io/biocontainers/bioconductor-alpinedata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alpinedata.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alpinedata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alpinedata:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alpinedata:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alpinedata/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alpinedata/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alpinedata/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alpinedata/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-mmcpcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mmcpcounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mmcpcounter/container.yaml"
-updated_at: "2023-07-15 03:31:55.586421"
-latest: "1.1.0--r42hdfd78af_1"
+updated_at: "2023-07-16 03:37:36.188186"
+latest: "1.1.0--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-mmcpcounter"
 
 versions:
  - "1.1.0--r41hdfd78af_0"
  - "1.1.0--r42hdfd78af_1"
+ - "1.1.0--r43hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-mmcpcounter"
-config: {"url": "https://biocontainers.pro/tools/r-mmcpcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mmcpcounter", "latest": {"1.1.0--r42hdfd78af_1": "sha256:dda72dda1ffa8b6da60d8b3adbfc2ce6e8541491adef91996538371773ac62b0"}, "tags": {"1.1.0--r41hdfd78af_0": "sha256:a14b894273cc7155b83d92a419005dd6a6916487a05b02e1a2fbc209e81ede55", "1.1.0--r42hdfd78af_1": "sha256:dda72dda1ffa8b6da60d8b3adbfc2ce6e8541491adef91996538371773ac62b0"}, "docker": "quay.io/biocontainers/r-mmcpcounter"}
+config: {"url": "https://biocontainers.pro/tools/r-mmcpcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mmcpcounter", "latest": {"1.1.0--r43hdfd78af_2": "sha256:a15e3910375e8f1cef5ca00b6d90d2abee4e8f487ead031ca12bb7aa3e135fc8"}, "tags": {"1.1.0--r41hdfd78af_0": "sha256:a14b894273cc7155b83d92a419005dd6a6916487a05b02e1a2fbc209e81ede55", "1.1.0--r42hdfd78af_1": "sha256:dda72dda1ffa8b6da60d8b3adbfc2ce6e8541491adef91996538371773ac62b0", "1.1.0--r43hdfd78af_2": "sha256:a15e3910375e8f1cef5ca00b6d90d2abee4e8f487ead031ca12bb7aa3e135fc8"}, "docker": "quay.io/biocontainers/r-mmcpcounter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mmcpcounter.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-mmcpcounter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mmcpcounter:1.1.0--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-mmcpcounter:1.1.0--r43hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mmcpcounter/1.1.0--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-mmcpcounter/1.1.0--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-mmcpcounter/1.1.0--r43hdfd78af_2
+$ module help quay.io/biocontainers/r-mmcpcounter/1.1.0--r43hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

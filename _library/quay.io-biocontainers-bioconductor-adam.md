@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adam/container.yaml"
-updated_at: "2023-07-15 04:06:48.433667"
+updated_at: "2023-07-16 03:18:41.373695"
 latest: "1.14.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-adam"
 aliases:

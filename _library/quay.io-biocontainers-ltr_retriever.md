@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ltr_retriever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_retriever/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_retriever/container.yaml"
-updated_at: "2023-07-15 03:55:21.665641"
-latest: "2.9.4--hdfd78af_0"
+updated_at: "2023-07-16 03:27:08.882307"
+latest: "2.9.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ltr_retriever"
 aliases:
  - "DateRepeats"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "2.9.0--hdfd78af_1"
  - "2.9.4--hdfd78af_0"
+ - "2.9.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ltr_retriever"
-config: {"url": "https://biocontainers.pro/tools/ltr_retriever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_retriever", "latest": {"2.9.4--hdfd78af_0": "sha256:cffaf84a6f668d21f8c7b2e21befc6b1b7eb2c151a5706a662209248319d6918"}, "tags": {"2.9.0--hdfd78af_1": "sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58", "2.9.4--hdfd78af_0": "sha256:cffaf84a6f668d21f8c7b2e21befc6b1b7eb2c151a5706a662209248319d6918"}, "docker": "quay.io/biocontainers/ltr_retriever", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "LAI": "/usr/local/bin/LAI", "LTR_retriever": "/usr/local/bin/LTR_retriever", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "queryRepeatDatabase.pl": "/usr/local/bin/queryRepeatDatabase.pl", "queryTaxonomyDatabase.pl": "/usr/local/bin/queryTaxonomyDatabase.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "certtool": "/usr/local/bin/certtool", "clstr_list.pl": "/usr/local/bin/clstr_list.pl"}}
+config: {"url": "https://biocontainers.pro/tools/ltr_retriever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_retriever", "latest": {"2.9.5--hdfd78af_0": "sha256:00026a3c90d23a584e2b31577e6c5781095a0788ed44d91555b22b365ca698e6"}, "tags": {"2.9.0--hdfd78af_1": "sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58", "2.9.4--hdfd78af_0": "sha256:cffaf84a6f668d21f8c7b2e21befc6b1b7eb2c151a5706a662209248319d6918", "2.9.5--hdfd78af_0": "sha256:00026a3c90d23a584e2b31577e6c5781095a0788ed44d91555b22b365ca698e6"}, "docker": "quay.io/biocontainers/ltr_retriever", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "LAI": "/usr/local/bin/LAI", "LTR_retriever": "/usr/local/bin/LTR_retriever", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "queryRepeatDatabase.pl": "/usr/local/bin/queryRepeatDatabase.pl", "queryTaxonomyDatabase.pl": "/usr/local/bin/queryTaxonomyDatabase.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "certtool": "/usr/local/bin/certtool", "clstr_list.pl": "/usr/local/bin/clstr_list.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ltr_retriever.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/ltr_retriever
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ltr_retriever:2.9.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/ltr_retriever:2.9.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ltr_retriever/2.9.4--hdfd78af_0
-$ module help quay.io/biocontainers/ltr_retriever/2.9.4--hdfd78af_0
+$ module load quay.io/biocontainers/ltr_retriever/2.9.5--hdfd78af_0
+$ module help quay.io/biocontainers/ltr_retriever/2.9.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

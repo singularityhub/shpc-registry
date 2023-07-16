@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-redisparam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-redisparam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-redisparam/container.yaml"
-updated_at: "2023-07-15 03:47:34.655686"
-latest: "1.0.0--r42hdfd78af_0"
+updated_at: "2023-07-16 03:13:18.005726"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-redisparam"
 
 versions:
  - "1.0.0--r42hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-redisparam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-redisparam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-redisparam", "latest": {"1.0.0--r42hdfd78af_0": "sha256:201808c494f99abb45b919624c3c4c1e7bb0d2481adc8531a072f46d8e16a522"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:201808c494f99abb45b919624c3c4c1e7bb0d2481adc8531a072f46d8e16a522"}, "docker": "quay.io/biocontainers/bioconductor-redisparam"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-redisparam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-redisparam", "latest": {"1.2.0--r43hdfd78af_0": "sha256:d660b14da32e54e846f17b10f0e68588b6b67631eb32e8769d23fa1adab46498"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:201808c494f99abb45b919624c3c4c1e7bb0d2481adc8531a072f46d8e16a522", "1.2.0--r43hdfd78af_0": "sha256:d660b14da32e54e846f17b10f0e68588b6b67631eb32e8769d23fa1adab46498"}, "docker": "quay.io/biocontainers/bioconductor-redisparam"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-redisparam.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-redisparam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-redisparam:1.0.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-redisparam:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-redisparam/1.0.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-redisparam/1.0.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-redisparam/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-redisparam/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-spia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spia/container.yaml"
-updated_at: "2023-07-15 03:51:43.571763"
-latest: "2.50.0--r42hdfd78af_0"
+updated_at: "2023-07-16 03:48:20.959272"
+latest: "2.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spia"
 
 versions:
  - "2.46.0--r41hdfd78af_0"
  - "2.50.0--r42hdfd78af_0"
+ - "2.52.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spia"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spia", "latest": {"2.50.0--r42hdfd78af_0": "sha256:75c7d27810b56e15dd69cbc5575edb011fc062fe56cd335d2745f8d828ec4553"}, "tags": {"2.46.0--r41hdfd78af_0": "sha256:6d02a3b3c635d28d5e0efb1e14bec2a2dfea8453876fa0b893a4db2ba0125d23", "2.50.0--r42hdfd78af_0": "sha256:75c7d27810b56e15dd69cbc5575edb011fc062fe56cd335d2745f8d828ec4553"}, "docker": "quay.io/biocontainers/bioconductor-spia"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spia", "latest": {"2.52.0--r43hdfd78af_0": "sha256:7f72e40a39080c6aa743e5218452627aabb1540959c9db683c6e4da82a61b03d"}, "tags": {"2.46.0--r41hdfd78af_0": "sha256:6d02a3b3c635d28d5e0efb1e14bec2a2dfea8453876fa0b893a4db2ba0125d23", "2.50.0--r42hdfd78af_0": "sha256:75c7d27810b56e15dd69cbc5575edb011fc062fe56cd335d2745f8d828ec4553", "2.52.0--r43hdfd78af_0": "sha256:7f72e40a39080c6aa743e5218452627aabb1540959c9db683c6e4da82a61b03d"}, "docker": "quay.io/biocontainers/bioconductor-spia"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spia.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spia:2.50.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spia:2.52.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spia/2.50.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spia/2.50.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spia/2.52.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spia/2.52.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

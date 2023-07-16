@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/duplex-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duplex-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duplex-tools/container.yaml"
-updated_at: "2023-07-15 03:24:16.436814"
+updated_at: "2023-07-16 03:52:00.850718"
 latest: "0.2.17--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/duplex-tools"
 aliases:

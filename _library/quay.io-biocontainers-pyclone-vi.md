@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyclone-vi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyclone-vi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyclone-vi/container.yaml"
-updated_at: "2023-07-15 03:39:58.798577"
-latest: "0.1.2--pyhb7b1952_0"
+updated_at: "2023-07-16 03:59:07.767883"
+latest: "0.1.3--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/pyclone-vi"
 aliases:
  - "pyclone-vi"
@@ -21,8 +21,9 @@ aliases:
  - "h5c++"
 versions:
  - "0.1.2--pyhb7b1952_0"
+ - "0.1.3--pyhca03a8a_0"
 description: "shpc-registry automated BioContainers addition for pyclone-vi"
-config: {"url": "https://biocontainers.pro/tools/pyclone-vi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyclone-vi", "latest": {"0.1.2--pyhb7b1952_0": "sha256:92c9ae0c6c9df4678d2268ba8c46f509c75f92a358460e4da420064a02aac690"}, "tags": {"0.1.2--pyhb7b1952_0": "sha256:92c9ae0c6c9df4678d2268ba8c46f509c75f92a358460e4da420064a02aac690"}, "docker": "quay.io/biocontainers/pyclone-vi", "aliases": {"pyclone-vi": "/usr/local/bin/pyclone-vi", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++"}}
+config: {"url": "https://biocontainers.pro/tools/pyclone-vi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyclone-vi", "latest": {"0.1.3--pyhca03a8a_0": "sha256:649fd7ecc7ac1a81989a13063d8fb6c77d7b818fec5b9a4c607c8de783c4404b"}, "tags": {"0.1.2--pyhb7b1952_0": "sha256:92c9ae0c6c9df4678d2268ba8c46f509c75f92a358460e4da420064a02aac690", "0.1.3--pyhca03a8a_0": "sha256:649fd7ecc7ac1a81989a13063d8fb6c77d7b818fec5b9a4c607c8de783c4404b"}, "docker": "quay.io/biocontainers/pyclone-vi", "aliases": {"pyclone-vi": "/usr/local/bin/pyclone-vi", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyclone-vi.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pyclone-vi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyclone-vi:0.1.2--pyhb7b1952_0
+$ shpc install quay.io/biocontainers/pyclone-vi:0.1.3--pyhca03a8a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyclone-vi/0.1.2--pyhb7b1952_0
-$ module help quay.io/biocontainers/pyclone-vi/0.1.2--pyhb7b1952_0
+$ module load quay.io/biocontainers/pyclone-vi/0.1.3--pyhca03a8a_0
+$ module help quay.io/biocontainers/pyclone-vi/0.1.3--pyhca03a8a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

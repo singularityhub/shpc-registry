@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellmapper/container.yaml"
-updated_at: "2023-07-15 03:14:29.762210"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-07-16 03:31:19.154308"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellmapper"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40_0"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellmapper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmapper", "latest": {"1.24.0--r42hdfd78af_0": "sha256:2e4078371fb3c499c49a4782128b408d2d178d9a50fcbe029275bedb69f945d3"}, "tags": {"1.8.0--r351_0": "sha256:1bfa81ea13064b5973f7c604f5f0cf02e88cb2c4839109301555e4d026764a5f", "1.24.0--r42hdfd78af_0": "sha256:2e4078371fb3c499c49a4782128b408d2d178d9a50fcbe029275bedb69f945d3", "1.20.0--r41hdfd78af_0": "sha256:75445244376a00c71453a27eef5b855292a67274559acdfcbe8df7bbe57de814", "1.18.0--r41hdfd78af_0": "sha256:04b8ecc8aff22afb7464dfbd74849d4f7432e6dedba435d1473d7aad1ca9923d", "1.16.0--r40_0": "sha256:9227920889848aefb0cdf9d6579b4043ca4bf8128df58a80abeb17eec040d0d4", "1.14.0--r40_0": "sha256:095b05d5438657d81569e53b2e843658ab401073378973981d69ad61d168746d"}, "docker": "quay.io/biocontainers/bioconductor-cellmapper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmapper", "latest": {"1.26.0--r43hdfd78af_0": "sha256:46859a1c898f39416c48476bf98ec1e4fd26bbb98c9e0558b1261aa724e4e680"}, "tags": {"1.8.0--r351_0": "sha256:1bfa81ea13064b5973f7c604f5f0cf02e88cb2c4839109301555e4d026764a5f", "1.24.0--r42hdfd78af_0": "sha256:2e4078371fb3c499c49a4782128b408d2d178d9a50fcbe029275bedb69f945d3", "1.20.0--r41hdfd78af_0": "sha256:75445244376a00c71453a27eef5b855292a67274559acdfcbe8df7bbe57de814", "1.18.0--r41hdfd78af_0": "sha256:04b8ecc8aff22afb7464dfbd74849d4f7432e6dedba435d1473d7aad1ca9923d", "1.16.0--r40_0": "sha256:9227920889848aefb0cdf9d6579b4043ca4bf8128df58a80abeb17eec040d0d4", "1.14.0--r40_0": "sha256:095b05d5438657d81569e53b2e843658ab401073378973981d69ad61d168746d", "1.26.0--r43hdfd78af_0": "sha256:46859a1c898f39416c48476bf98ec1e4fd26bbb98c9e0558b1261aa724e4e680"}, "docker": "quay.io/biocontainers/bioconductor-cellmapper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellmapper.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellmapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellmapper:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cellmapper:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellmapper/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cellmapper/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cellmapper/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cellmapper/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

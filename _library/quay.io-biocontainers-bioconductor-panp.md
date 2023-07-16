@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-panp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panp/container.yaml"
-updated_at: "2023-07-15 03:09:11.975294"
-latest: "1.68.0--r42hdfd78af_0"
+updated_at: "2023-07-16 03:30:27.017278"
+latest: "1.70.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-panp"
 
 versions:
  - "1.64.0--r41hdfd78af_0"
  - "1.68.0--r42hdfd78af_0"
+ - "1.70.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-panp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-panp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panp", "latest": {"1.68.0--r42hdfd78af_0": "sha256:83a4b5da08988b57a96c7d8a68f3ebfacf2b32efa356d4c2f4237ce4066268e7"}, "tags": {"1.64.0--r41hdfd78af_0": "sha256:d420bfc23d539b3de01d43623806e8115e747d69d314d11e4de63333697cd4d7", "1.68.0--r42hdfd78af_0": "sha256:83a4b5da08988b57a96c7d8a68f3ebfacf2b32efa356d4c2f4237ce4066268e7"}, "docker": "quay.io/biocontainers/bioconductor-panp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-panp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panp", "latest": {"1.70.0--r43hdfd78af_0": "sha256:fd79cf27ddf12caade12cc04008b019a99ed20f1661986bc725071fd3f334029"}, "tags": {"1.64.0--r41hdfd78af_0": "sha256:d420bfc23d539b3de01d43623806e8115e747d69d314d11e4de63333697cd4d7", "1.68.0--r42hdfd78af_0": "sha256:83a4b5da08988b57a96c7d8a68f3ebfacf2b32efa356d4c2f4237ce4066268e7", "1.70.0--r43hdfd78af_0": "sha256:fd79cf27ddf12caade12cc04008b019a99ed20f1661986bc725071fd3f334029"}, "docker": "quay.io/biocontainers/bioconductor-panp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-panp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-panp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-panp:1.68.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-panp:1.70.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-panp/1.68.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-panp/1.68.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-panp/1.70.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-panp/1.70.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

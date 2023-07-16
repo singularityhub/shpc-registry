@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mlseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlseq/container.yaml"
-updated_at: "2023-07-15 04:00:18.505082"
+updated_at: "2023-07-16 03:25:45.807810"
 latest: "2.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlseq"
 aliases:

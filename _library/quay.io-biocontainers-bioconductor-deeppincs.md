@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-deeppincs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deeppincs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deeppincs/container.yaml"
-updated_at: "2023-07-15 03:14:57.262169"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-16 03:18:08.763984"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deeppincs"
 aliases:
  - "jfr"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-deeppincs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-deeppincs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deeppincs", "latest": {"1.6.0--r42hdfd78af_0": "sha256:4d4e10a4f0f81c09e76923ec0ed2290ebb22d07c5a867189cb05d7f725998278"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:cc1424a98a83df94adac8ccba7c59440be6bd5b5ae9e222b8b4b18185e2f1c4a", "1.6.0--r42hdfd78af_0": "sha256:4d4e10a4f0f81c09e76923ec0ed2290ebb22d07c5a867189cb05d7f725998278"}, "docker": "quay.io/biocontainers/bioconductor-deeppincs", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-deeppincs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deeppincs", "latest": {"1.8.0--r43hdfd78af_0": "sha256:02bd382fed4ac9b411f51a668ed654670c7ba43901ed58524389341e50228d05"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:cc1424a98a83df94adac8ccba7c59440be6bd5b5ae9e222b8b4b18185e2f1c4a", "1.6.0--r42hdfd78af_0": "sha256:4d4e10a4f0f81c09e76923ec0ed2290ebb22d07c5a867189cb05d7f725998278", "1.8.0--r43hdfd78af_0": "sha256:02bd382fed4ac9b411f51a668ed654670c7ba43901ed58524389341e50228d05"}, "docker": "quay.io/biocontainers/bioconductor-deeppincs", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-deeppincs.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-deeppincs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-deeppincs:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-deeppincs:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-deeppincs/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-deeppincs/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-deeppincs/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-deeppincs/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varfish-server-worker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varfish-server-worker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varfish-server-worker/container.yaml"
-updated_at: "2023-07-15 03:53:30.486787"
-latest: "0.6.1--hdbdd923_2"
+updated_at: "2023-07-16 03:43:46.898906"
+latest: "0.9.0--hb3cd794_0"
 container_url: "https://biocontainers.pro/tools/varfish-server-worker"
 aliases:
  - "varfish-server-worker"
@@ -15,8 +15,11 @@ versions:
  - "0.5.1--h87f3376_0"
  - "0.6.1--h87f3376_1"
  - "0.6.1--hdbdd923_2"
+ - "0.9.0--hb3cd794_0"
+ - "0.8.0--hb3cd794_0"
+ - "0.7.0--hb3cd794_0"
 description: "singularity registry hpc automated addition for varfish-server-worker"
-config: {"url": "https://biocontainers.pro/tools/varfish-server-worker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varfish-server-worker", "latest": {"0.6.1--hdbdd923_2": "sha256:d02a6b7b161ebec0707e6df43342656bb365b77427e636f39039d3bc4ae739e0"}, "tags": {"0.4.0--h87f3376_0": "sha256:d98a6cc167a7a7096c1322483495f5cecfa45c5dcd864f196f58bf0957072c27", "0.5.0--h87f3376_0": "sha256:83c0c620d078b7ebc146abb6aaa269b24e2dd50622633aa7ecdee120b9d205a3", "0.5.1--h87f3376_0": "sha256:85c7fe4b0c83b2d709903f8ef83982005fc9a28f14fb997e3a64acd2059e6282", "0.6.1--h87f3376_1": "sha256:f851e757827445fb65e3d7196fb98a685ef625031a2d3b716331a1df1328dbf5", "0.6.1--hdbdd923_2": "sha256:d02a6b7b161ebec0707e6df43342656bb365b77427e636f39039d3bc4ae739e0"}, "docker": "quay.io/biocontainers/varfish-server-worker", "aliases": {"varfish-server-worker": "/usr/local/bin/varfish-server-worker"}}
+config: {"url": "https://biocontainers.pro/tools/varfish-server-worker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varfish-server-worker", "latest": {"0.9.0--hb3cd794_0": "sha256:afa7321022f4daeaa112a891c24ad46188b10745bd563733a7edd8c8a09619f4"}, "tags": {"0.4.0--h87f3376_0": "sha256:d98a6cc167a7a7096c1322483495f5cecfa45c5dcd864f196f58bf0957072c27", "0.5.0--h87f3376_0": "sha256:83c0c620d078b7ebc146abb6aaa269b24e2dd50622633aa7ecdee120b9d205a3", "0.5.1--h87f3376_0": "sha256:85c7fe4b0c83b2d709903f8ef83982005fc9a28f14fb997e3a64acd2059e6282", "0.6.1--h87f3376_1": "sha256:f851e757827445fb65e3d7196fb98a685ef625031a2d3b716331a1df1328dbf5", "0.6.1--hdbdd923_2": "sha256:d02a6b7b161ebec0707e6df43342656bb365b77427e636f39039d3bc4ae739e0", "0.9.0--hb3cd794_0": "sha256:afa7321022f4daeaa112a891c24ad46188b10745bd563733a7edd8c8a09619f4", "0.8.0--hb3cd794_0": "sha256:7170d253687206302418015d9b1d4334d16508dc034e8c1dfa0d64b62066cfae", "0.7.0--hb3cd794_0": "sha256:9ef839887f3cadf4d7dbad02814201301da5e5d4a7928320b856859dc496ff09"}, "docker": "quay.io/biocontainers/varfish-server-worker", "aliases": {"varfish-server-worker": "/usr/local/bin/varfish-server-worker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varfish-server-worker.
@@ -31,7 +34,7 @@ $ shpc install quay.io/biocontainers/varfish-server-worker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varfish-server-worker:0.6.1--hdbdd923_2
+$ shpc install quay.io/biocontainers/varfish-server-worker:0.9.0--hb3cd794_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varfish-server-worker/0.6.1--hdbdd923_2
-$ module help quay.io/biocontainers/varfish-server-worker/0.6.1--hdbdd923_2
+$ module load quay.io/biocontainers/varfish-server-worker/0.9.0--hb3cd794_0
+$ module help quay.io/biocontainers/varfish-server-worker/0.9.0--hb3cd794_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

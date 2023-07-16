@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mira/container.yaml"
-updated_at: "2023-07-15 03:26:34.293061"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-07-16 03:20:15.466119"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mira"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mira"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mira", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mira", "latest": {"1.20.0--r42hdfd78af_0": "sha256:b92fbb44f148a54702be2304ce2dfb7cad84572a0ec51df1d952acd2393b5a54"}, "tags": {"1.8.0--r36_0": "sha256:3908027b96638d7e76d4b6af82a23375770cf808274ffc4ad8a94f5645b63601", "1.20.0--r42hdfd78af_0": "sha256:b92fbb44f148a54702be2304ce2dfb7cad84572a0ec51df1d952acd2393b5a54", "1.16.0--r41hdfd78af_0": "sha256:a5ce2dcb95ea99e26f073e5154fc08083300788b30358b3f71c0f1112ad5b033", "1.14.0--r41hdfd78af_0": "sha256:9acde95835e3ae88d3e9bc435f4bce74ba03ef619e8996f5b889c21718d0d706", "1.12.0--r40hdfd78af_1": "sha256:818344028414dcada6d670a0db98d8384e8f0135e7f886efa01de299a5ca8fe6", "1.10.0--r40_0": "sha256:4228c721015bc363849f100b1a8406c92c74a1cbbd1230d1fd1ecb07e4d2ed6d"}, "docker": "quay.io/biocontainers/bioconductor-mira", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mira", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mira", "latest": {"1.22.0--r43hdfd78af_0": "sha256:5f6535501c69597fbcb52f07490fd6f433670c71e16718f698a29ecbfd0f8336"}, "tags": {"1.8.0--r36_0": "sha256:3908027b96638d7e76d4b6af82a23375770cf808274ffc4ad8a94f5645b63601", "1.20.0--r42hdfd78af_0": "sha256:b92fbb44f148a54702be2304ce2dfb7cad84572a0ec51df1d952acd2393b5a54", "1.16.0--r41hdfd78af_0": "sha256:a5ce2dcb95ea99e26f073e5154fc08083300788b30358b3f71c0f1112ad5b033", "1.14.0--r41hdfd78af_0": "sha256:9acde95835e3ae88d3e9bc435f4bce74ba03ef619e8996f5b889c21718d0d706", "1.12.0--r40hdfd78af_1": "sha256:818344028414dcada6d670a0db98d8384e8f0135e7f886efa01de299a5ca8fe6", "1.10.0--r40_0": "sha256:4228c721015bc363849f100b1a8406c92c74a1cbbd1230d1fd1ecb07e4d2ed6d", "1.22.0--r43hdfd78af_0": "sha256:5f6535501c69597fbcb52f07490fd6f433670c71e16718f698a29ecbfd0f8336"}, "docker": "quay.io/biocontainers/bioconductor-mira", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mira.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mira
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mira:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mira:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mira/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mira/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mira/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mira/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
