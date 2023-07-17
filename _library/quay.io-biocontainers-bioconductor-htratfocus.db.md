@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htratfocus.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htratfocus.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htratfocus.db/container.yaml"
-updated_at: "2023-07-16 03:32:01.912838"
+updated_at: "2023-07-17 03:55:48.821325"
 latest: "3.13.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-htratfocus.db"
 
