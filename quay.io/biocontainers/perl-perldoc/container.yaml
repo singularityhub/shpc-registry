@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-perldoc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-perldoc
+latest:
+  0.20--pl5321hdfd78af_0: sha256:1c2241adb94a5454c67ca906367152c40a847c6eae7805ac1eed0aa83133a266
+tags:
+  0.20--pl5321hdfd78af_0: sha256:1c2241adb94a5454c67ca906367152c40a847c6eae7805ac1eed0aa83133a266
+docker: quay.io/biocontainers/perl-perldoc
+aliases:
+  perl-doc: /usr/local/bin/perl-doc
