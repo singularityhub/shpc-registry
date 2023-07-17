@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proda/container.yaml"
-updated_at: "2023-07-17 03:22:12.899549"
+updated_at: "2023-07-17 03:41:37.200774"
 latest: "1.0--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/proda"
 aliases:

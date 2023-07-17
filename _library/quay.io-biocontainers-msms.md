@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msms/container.yaml"
-updated_at: "2023-07-17 03:33:29.386058"
+updated_at: "2023-07-17 03:52:47.022537"
 latest: "2.6.1--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/msms"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msnid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msnid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msnid/container.yaml"
-updated_at: "2023-07-17 03:42:04.518455"
+updated_at: "2023-07-17 04:01:19.058370"
 latest: "1.32.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-msnid"
 aliases:
