@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-qdnaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qdnaseq
 latest:
-  1.34.0--r42hdfd78af_0: sha256:68c42f27d6bc6d588b33dc1390ac457aec436ce05ba693cfcb502083e334fa8f
+  1.36.0--r43hdfd78af_0: sha256:630ccb8847d74e94e24e9e73b335dd1e713ad0584c9967f6c245bfd04d589585
 tags:
   1.8.0--0: sha256:8926eae5e345b21ffe765bc5fed8e544af3a7eff99482a0803175129b62dc851
   1.34.0--r42hdfd78af_0: sha256:68c42f27d6bc6d588b33dc1390ac457aec436ce05ba693cfcb502083e334fa8f
@@ -10,4 +10,5 @@ tags:
   1.28.0--r41hdfd78af_0: sha256:8ab6a456d9ae28305e7d5ffc6d5a27d038d527dcd3e1f62fbe03dc56ee1fbe49
   1.26.0--r40hdfd78af_1: sha256:7fa8bcbe9270beca7ea11612dd911e4784296fb33cb702cda88abf5993bbe8b6
   1.24.0--r40_0: sha256:5ef1b66ccbcdad2650935147f642020563f1f19c4a7666e26ff14d701cc21213
+  1.36.0--r43hdfd78af_0: sha256:630ccb8847d74e94e24e9e73b335dd1e713ad0584c9967f6c245bfd04d589585
 docker: quay.io/biocontainers/bioconductor-qdnaseq

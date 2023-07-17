@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-epidecoder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epidecoder
 latest:
-  1.6.0--r42hdfd78af_0: sha256:aecd0f6470b626538e14838af2f0d7b52e998ec5459d667add43b326ee04a734
+  1.8.0--r43hdfd78af_0: sha256:1576eb16decdc791222fb7b6522cccaaccf97394ac2c6d2ad5316aba79597701
 tags:
   1.2.0--r41hdfd78af_0: sha256:fb07681527bce5b83293058b4beb4be9951ae3bfbed5f361f626b8c0d628bf1d
   1.6.0--r42hdfd78af_0: sha256:aecd0f6470b626538e14838af2f0d7b52e998ec5459d667add43b326ee04a734
+  1.8.0--r43hdfd78af_0: sha256:1576eb16decdc791222fb7b6522cccaaccf97394ac2c6d2ad5316aba79597701
 docker: quay.io/biocontainers/bioconductor-epidecoder

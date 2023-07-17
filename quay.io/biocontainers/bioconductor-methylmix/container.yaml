@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-methylmix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylmix
 latest:
-  2.28.0--r42hdfd78af_0: sha256:5e3c2a87cc067607f97e0d38cec59e239a1109747914af7483bf19bf5e0f54a0
+  2.30.0--r43hdfd78af_0: sha256:7b44f4e4fa5c0c92ee2947250e4f79aefba18ca2ec49277179aba2184cfd3f94
 tags:
   2.24.0--r41hdfd78af_0: sha256:6424aa1a6941d1b32dad4fb21d2f54b52a1fdd4b756d23e8fa60babde5f0c511
   2.28.0--r42hdfd78af_0: sha256:5e3c2a87cc067607f97e0d38cec59e239a1109747914af7483bf19bf5e0f54a0
+  2.30.0--r43hdfd78af_0: sha256:7b44f4e4fa5c0c92ee2947250e4f79aefba18ca2ec49277179aba2184cfd3f94
 docker: quay.io/biocontainers/bioconductor-methylmix

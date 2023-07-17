@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-minfi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-minfi
 latest:
-  1.44.0--r42hdfd78af_0: sha256:5cd3232ce6c509160e16b28dc2e69e25d1de0acd30e5c1b25b30982564793bb3
+  1.46.0--r43hdfd78af_0: sha256:c268ba4ca6e8c9c42fc3d38ff687d59a3bc089024c248965f5d59d9761e9f00a
 tags:
   1.40.0--r41hdfd78af_0: sha256:3b8cf01b2ebf1e9b3d7df41b95860ae364788be98b3c352f617d7bd002438d96
   1.44.0--r42hdfd78af_0: sha256:5cd3232ce6c509160e16b28dc2e69e25d1de0acd30e5c1b25b30982564793bb3
+  1.46.0--r43hdfd78af_0: sha256:c268ba4ca6e8c9c42fc3d38ff687d59a3bc089024c248965f5d59d9761e9f00a
 docker: quay.io/biocontainers/bioconductor-minfi

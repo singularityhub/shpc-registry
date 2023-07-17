@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/coolpuppy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for coolpuppy
 latest:
-  1.0.0--pyh086e186_0: sha256:43d703d0e04b6bc064877dc2f7862b589b858b145b9f40a95b57f65209891476
+  1.1.0--pyh086e186_0: sha256:0e029944f0797799c4ed28e702db0e92c5ed3539f3c7320733fb101786b580fc
 tags:
   1.0.0--pyh086e186_0: sha256:43d703d0e04b6bc064877dc2f7862b589b858b145b9f40a95b57f65209891476
+  1.1.0--pyh086e186_0: sha256:0e029944f0797799c4ed28e702db0e92c5ed3539f3c7320733fb101786b580fc
 docker: quay.io/biocontainers/coolpuppy
 aliases:
   aomdec: /usr/local/bin/aomdec

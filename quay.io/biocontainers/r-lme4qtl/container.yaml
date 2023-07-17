@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-lme4qtl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-lme4qtl
 latest:
-  0.1.10--r42h9ee0642_5: sha256:3bef009e642ba4e7a46a0bfadee29b089d5593ef4897242b55582b8ca52651f2
+  0.1.10--r43h9ee0642_6: sha256:794a36fa36289aec30d4b3ad39540eb34a9432d10295b970f6bc6295f57d8b0a
 tags:
   0.1.10--r41h9ee0642_4: sha256:0044f60b307f24dcff532a867d9f8e3123829bec6b50068e11c9335d1bab97ba
   0.1.10--r42h9ee0642_5: sha256:3bef009e642ba4e7a46a0bfadee29b089d5593ef4897242b55582b8ca52651f2
+  0.1.10--r43h9ee0642_6: sha256:794a36fa36289aec30d4b3ad39540eb34a9432d10295b970f6bc6295f57d8b0a
 docker: quay.io/biocontainers/r-lme4qtl
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

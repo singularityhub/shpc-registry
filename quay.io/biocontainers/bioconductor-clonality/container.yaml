@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-clonality
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clonality
 latest:
-  1.46.0--r42hdfd78af_0: sha256:89916c114571f5d6166124e0313a77d0e535857fd4b83c174bbaf96aa37e9c20
+  1.47.0--r43hdfd78af_0: sha256:aeeb01f5e45d5a903e59d5e865f37576ac322683b150391cc12d7c9b9137b12f
 tags:
   1.42.0--r41hdfd78af_0: sha256:776ff8a567b0442049af0838a3606cbad86afe454b15acaf00e0428b166989a0
   1.46.0--r42hdfd78af_0: sha256:89916c114571f5d6166124e0313a77d0e535857fd4b83c174bbaf96aa37e9c20
+  1.47.0--r43hdfd78af_0: sha256:aeeb01f5e45d5a903e59d5e865f37576ac322683b150391cc12d7c9b9137b12f
 docker: quay.io/biocontainers/bioconductor-clonality

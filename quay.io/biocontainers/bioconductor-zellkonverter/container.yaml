@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-zellkonverter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-zellkonverter
 latest:
-  1.8.0--r42hdfd78af_0: sha256:87ae0f4521990faebc0d9c35d78b965612224b8a7315a36b5039f5ae846d5cf7
+  1.10.1--r43hdfd78af_0: sha256:5d968b651fcd4a952e9cb4f66b77864e4700b8fde9794828acd30732277c9035
 tags:
   1.4.0--r41hdfd78af_0: sha256:3e2864fd74b6299c5b04b9fada95caeee13b8dba6169096e41f7500d966e44b0
   1.8.0--r42hdfd78af_0: sha256:87ae0f4521990faebc0d9c35d78b965612224b8a7315a36b5039f5ae846d5cf7
+  1.10.1--r43hdfd78af_0: sha256:5d968b651fcd4a952e9cb4f66b77864e4700b8fde9794828acd30732277c9035
 docker: quay.io/biocontainers/bioconductor-zellkonverter

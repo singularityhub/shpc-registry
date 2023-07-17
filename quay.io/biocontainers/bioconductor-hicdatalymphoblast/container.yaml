@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hicdatalymphoblast
 latest:
-  1.33.0--r42hdfd78af_0: sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22
+  1.36.0--r43hdfd78af_0: sha256:4c07ccc4bb47b74ac8993cc9b34607153150d353d9874c5747ace7e2debff4f9
 tags:
   1.30.0--r41hdfd78af_1: sha256:45129e6c3847707dae936594ccaa2cf3fa4df57aa3586ab7efc07ef063e14df2
   1.33.0--r42hdfd78af_0: sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22
+  1.36.0--r43hdfd78af_0: sha256:4c07ccc4bb47b74ac8993cc9b34607153150d353d9874c5747ace7e2debff4f9
 docker: quay.io/biocontainers/bioconductor-hicdatalymphoblast

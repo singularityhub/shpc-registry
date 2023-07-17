@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ascat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ascat
 latest:
-  3.1.1--r42hdfd78af_0: sha256:d9fdf22f84f1af0c202a9d90336a7d49aea163d93b384455cd0f4662550bc9cf
+  3.1.1--r43hdfd78af_1: sha256:f831ea28459c358016eb38976b114c04274cc4a5d481d0b7418bbf00fa90a851
 tags:
   3.0.0--r41hdfd78af_0: sha256:e2848d59330279ee11ca493300ec507dfeed5261cdb729d6719b857a0d855dd1
   3.0.0--r42hdfd78af_1: sha256:f8c11375b1ac1b50d5b85196e35ff5af94ded8d45fd0a69a4657d02a21355e12
   3.1.1--r42hdfd78af_0: sha256:d9fdf22f84f1af0c202a9d90336a7d49aea163d93b384455cd0f4662550bc9cf
+  3.1.1--r43hdfd78af_1: sha256:f831ea28459c358016eb38976b114c04274cc4a5d481d0b7418bbf00fa90a851
 docker: quay.io/biocontainers/ascat
