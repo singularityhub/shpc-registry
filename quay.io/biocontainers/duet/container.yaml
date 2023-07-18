@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/duet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for duet
 latest:
-  0.6--pyhdfd78af_0: sha256:dea721d00a012a6602ee805b9d99dd56b280cfb38f328ffb3c436698c1b8e2f0
+  1.0--pyhdfd78af_0: sha256:c6524eafc66f1f76ede7a6023730c650660facc6232c7a73c26edf1297ac3b97
 tags:
   0.5--pyhdfd78af_0: sha256:ea0c1b422b8a9d812bc429e77ed8c45724e1a13fd51f981eaf1224be4e583920
   0.6--pyhdfd78af_0: sha256:dea721d00a012a6602ee805b9d99dd56b280cfb38f328ffb3c436698c1b8e2f0
+  1.0--pyhdfd78af_0: sha256:c6524eafc66f1f76ede7a6023730c650660facc6232c7a73c26edf1297ac3b97
 docker: quay.io/biocontainers/duet
 aliases:
   clair3.py: /usr/local/bin/clair3.py

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-droplettestfiles
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-droplettestfiles
 latest:
-  1.8.0--r42hdfd78af_0: sha256:5819f5de05b608122db6e0e4ffb5efa4b51615d87a6645d57ba7742a69da496f
+  1.10.0--r43hdfd78af_0: sha256:feae2b8222c656dc1855cec631cc9b30979d5cab75f4f83fc0d38c9e4fa6dd14
 tags:
   1.4.0--r41hdfd78af_1: sha256:36e9970f718ea5b738253b6e6cbd40726eb415b685bb1d484631272f8ca038fd
   1.8.0--r42hdfd78af_0: sha256:5819f5de05b608122db6e0e4ffb5efa4b51615d87a6645d57ba7742a69da496f
+  1.10.0--r43hdfd78af_0: sha256:feae2b8222c656dc1855cec631cc9b30979d5cab75f4f83fc0d38c9e4fa6dd14
 docker: quay.io/biocontainers/bioconductor-droplettestfiles

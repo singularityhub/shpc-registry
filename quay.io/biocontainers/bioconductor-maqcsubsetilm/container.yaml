@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-maqcsubsetilm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-maqcsubsetilm
 latest:
-  1.36.0--r42hdfd78af_0: sha256:2b9724ef8aa17ced95b461311d466353ad6285081d1dd9ce312e2d18f8755dcc
+  1.38.0--r43hdfd78af_0: sha256:fdc36bd2964fe89bfd51dcb03ab6228fc40c87302d31a5c44f06207cde4b8991
 tags:
   1.32.0--r41hdfd78af_1: sha256:e31b095c84a21901794d31aebce9107efe521e1b013312c91b307876c35261ee
   1.36.0--r42hdfd78af_0: sha256:2b9724ef8aa17ced95b461311d466353ad6285081d1dd9ce312e2d18f8755dcc
+  1.38.0--r43hdfd78af_0: sha256:fdc36bd2964fe89bfd51dcb03ab6228fc40c87302d31a5c44f06207cde4b8991
 docker: quay.io/biocontainers/bioconductor-maqcsubsetilm

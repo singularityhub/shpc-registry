@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-isogene
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-isogene
 latest:
-  1.0_24--r42h3342da4_6: sha256:a525b99984c1b83904c9870c7e8b3efd509a123c30aebc04b85e3e14cb468da5
+  1.0_24--r43h3342da4_7: sha256:15b771775fcafa509c855516ced761ad4229542aabe10d19aeed0c3304ef028e
 tags:
   1.0_24--r41h3342da4_5: sha256:1ed6ea6b917ccca7ac38a8f095bf8db9b441c9b19c1802c99c7248adb44c2a68
   1.0_24--r42h3342da4_6: sha256:a525b99984c1b83904c9870c7e8b3efd509a123c30aebc04b85e3e14cb468da5
+  1.0_24--r43h3342da4_7: sha256:15b771775fcafa509c855516ced761ad4229542aabe10d19aeed0c3304ef028e
 docker: quay.io/biocontainers/r-isogene
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

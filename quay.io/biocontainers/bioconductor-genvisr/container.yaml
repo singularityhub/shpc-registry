@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-genvisr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genvisr
 latest:
-  1.29.3--r42hdfd78af_0: sha256:1b5aaf6475c95bc41f052423be021e7da25f066ea125664572579ec86af78254
+  1.31.1--r43hdfd78af_0: sha256:4849b4d05c1e91b314266b7884acca56567a268d1e3674857d7b71ba87f23214
 tags:
   1.8.0--r3.4.1_0: sha256:c4b6c9c442066fb0e13e3c21bc5e30bc0803007402dac2b7f8ba82e56d6b8558
   1.29.3--r42hdfd78af_0: sha256:1b5aaf6475c95bc41f052423be021e7da25f066ea125664572579ec86af78254
@@ -10,6 +10,7 @@ tags:
   1.24.0--r41hdfd78af_0: sha256:9a61a641137579f6264e86dc6eee39ba072c55a83eca7971c841204ab422dc51
   1.22.1--r40hdfd78af_0: sha256:d2748a965b56bae58d6728334e79a73a089baacaf8f96afca1f5878817fdbb65
   1.20.0--r40_0: sha256:72623afe324c458551079560db642575eb70087cc9103d581fdbad85242aca8c
+  1.31.1--r43hdfd78af_0: sha256:4849b4d05c1e91b314266b7884acca56567a268d1e3674857d7b71ba87f23214
 docker: quay.io/biocontainers/bioconductor-genvisr
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

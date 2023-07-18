@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-openstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-openstats
 latest:
-  1.10.0--r42hdfd78af_0: sha256:b26d57fe7ea3d131f0629990ecded74eecfedee746b48ee944629ec98685b2a9
+  1.12.0--r43hdfd78af_0: sha256:b8d5e0afad9481b5a1e82d9deff3c9d7a9467fbd101d7e943dbe600ce9c41cff
 tags:
   1.6.0--r41hdfd78af_0: sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99
   1.10.0--r42hdfd78af_0: sha256:b26d57fe7ea3d131f0629990ecded74eecfedee746b48ee944629ec98685b2a9
+  1.12.0--r43hdfd78af_0: sha256:b8d5e0afad9481b5a1e82d9deff3c9d7a9467fbd101d7e943dbe600ce9c41cff
 docker: quay.io/biocontainers/bioconductor-openstats
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

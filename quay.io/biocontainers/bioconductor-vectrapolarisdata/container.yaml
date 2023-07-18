@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-vectrapolarisdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-vectrapolarisdata
 latest:
-  1.2.0--r42hdfd78af_0: sha256:8f7b021642ad79b643c5c57fdca59ae5e8811870deed4b7ec650efd548faa539
+  1.4.0--r43hdfd78af_0: sha256:3c3f4830e2006bcf9ecabbd353dca375f2b98eab1f39c1f6438916d7d60eb67c
 tags:
   1.2.0--r42hdfd78af_0: sha256:8f7b021642ad79b643c5c57fdca59ae5e8811870deed4b7ec650efd548faa539
+  1.4.0--r43hdfd78af_0: sha256:3c3f4830e2006bcf9ecabbd353dca375f2b98eab1f39c1f6438916d7d60eb67c
 docker: quay.io/biocontainers/bioconductor-vectrapolarisdata
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

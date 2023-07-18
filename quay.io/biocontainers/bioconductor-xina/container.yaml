@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-xina
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xina
 latest:
-  1.16.0--r42hdfd78af_0: sha256:e897bee45671cbcdd3a8578db9a51a693b179f97a55df4848579016a67f94e79
+  1.18.0--r43hdfd78af_0: sha256:7c774658827b01f0b9f319cdb3fdb658cc974633a8dd56f2edba099a6157c5b5
 tags:
   1.8.0--r40hdfd78af_1: sha256:9803f0d47ab8e00723b69666edc245290ab9413dd0d65264b88f02072dbb2ce6
   1.16.0--r42hdfd78af_0: sha256:e897bee45671cbcdd3a8578db9a51a693b179f97a55df4848579016a67f94e79
   1.12.0--r41hdfd78af_0: sha256:fc662f1d874e40ddf90bcf9e91e90abfea85a079c3aab4d6d0529d934eec11ec
   1.10.0--r41hdfd78af_0: sha256:75460d1aa403fdbc398008293322de447bdb08bfb2b25281690ef8a82553ca7e
+  1.18.0--r43hdfd78af_0: sha256:7c774658827b01f0b9f319cdb3fdb658cc974633a8dd56f2edba099a6157c5b5
 docker: quay.io/biocontainers/bioconductor-xina
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

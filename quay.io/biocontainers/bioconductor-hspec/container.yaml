@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hspec
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hspec
 latest:
-  0.99.1--r42hdfd78af_10: sha256:8b0e2abf3803feff6b8b712653c16086e56b3a93ba218db15ceb0550022db38e
+  0.99.1--r43hdfd78af_11: sha256:fc9183d34c127df4660fb88f7d799ffa40b58d65cd1475c2bcc0acfe6f97d184
 tags:
   0.99.1--r41hdfd78af_9: sha256:2774d752de3e1a314713df4bc7c916e3877025bb588a1ef2d78f2444f40bbaf8
   0.99.1--r42hdfd78af_10: sha256:8b0e2abf3803feff6b8b712653c16086e56b3a93ba218db15ceb0550022db38e
+  0.99.1--r43hdfd78af_11: sha256:fc9183d34c127df4660fb88f7d799ffa40b58d65cd1475c2bcc0acfe6f97d184
 docker: quay.io/biocontainers/bioconductor-hspec

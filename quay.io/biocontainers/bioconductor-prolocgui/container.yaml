@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-prolocgui
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-prolocgui
 latest:
-  2.8.0--r42hdfd78af_0: sha256:71759cfb61040e3a0b5d7d026bea67f331c6e12548aab70041ccf0ac2f89b804
+  2.10.0--r43hdfd78af_0: sha256:8aa0efc0d95cb2cb583822e559863f67849c0a2208aa2dbc47986836b43e0d34
 tags:
   2.4.0--r41hdfd78af_0: sha256:8c3c33b6f080ad4a2cdb3218e3cdb719d663aada4fc0c24a348e25a3bdf09fe4
   2.8.0--r42hdfd78af_0: sha256:71759cfb61040e3a0b5d7d026bea67f331c6e12548aab70041ccf0ac2f89b804
+  2.10.0--r43hdfd78af_0: sha256:8aa0efc0d95cb2cb583822e559863f67849c0a2208aa2dbc47986836b43e0d34
 docker: quay.io/biocontainers/bioconductor-prolocgui
 aliases:
   zipcmp: /usr/local/bin/zipcmp

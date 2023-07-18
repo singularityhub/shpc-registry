@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-geuvadistranscriptexpr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geuvadistranscriptexpr
 latest:
-  1.25.0--r42hdfd78af_0: sha256:576a295de248dacdf096357103a163bdedc1fabb8afd95b6f9a34d900756a7b4
+  1.28.0--r43hdfd78af_0: sha256:60474034d6562e3f611779050bad6d2dc23544143ec5d92fc597fce5fba0c8fc
 tags:
   1.22.0--r41hdfd78af_1: sha256:81dca2db2783d0e7659b4b8b069e298b4d72034ace522f7c7f0979b4260d1c73
   1.25.0--r42hdfd78af_0: sha256:576a295de248dacdf096357103a163bdedc1fabb8afd95b6f9a34d900756a7b4
+  1.28.0--r43hdfd78af_0: sha256:60474034d6562e3f611779050bad6d2dc23544143ec5d92fc597fce5fba0c8fc
 docker: quay.io/biocontainers/bioconductor-geuvadistranscriptexpr

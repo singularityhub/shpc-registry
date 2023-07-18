@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-methimpute
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methimpute
 latest:
-  1.20.0--r42hf17093f_1: sha256:b079e2aa9107ee48fcabe9bc8ac2da8d225cf3bdebebf5b28635f8cca4a1d24f
+  1.22.0--r43hf17093f_0: sha256:dd4bfbe10054a5b8d8cb89fa275299a04235e232e65fca6c0794bf03a7b4faa8
 tags:
   1.8.0--r36he1b5a44_0: sha256:aeb40641b65ca7d4a9b19448aebbd676166ddab976624fd2064bed89bd0dd575
   1.20.0--r42hc247a5b_0: sha256:157fca3dedc6cb6cece4249135eb8745c8b8f3ad663aa927999280fda91c2b0d
@@ -11,6 +11,7 @@ tags:
   1.12.0--r40h399db7b_1: sha256:139bb3dd5514932304c5f5dca53aa25f47d4475561bb39abaee81392099ea30b
   1.10.0--r40h5f743cb_0: sha256:ee061cf360ba05307df9b2cc746c0fdc4f460e506dcbee41966c4bdd6c53e393
   1.20.0--r42hf17093f_1: sha256:b079e2aa9107ee48fcabe9bc8ac2da8d225cf3bdebebf5b28635f8cca4a1d24f
+  1.22.0--r43hf17093f_0: sha256:dd4bfbe10054a5b8d8cb89fa275299a04235e232e65fca6c0794bf03a7b4faa8
 docker: quay.io/biocontainers/bioconductor-methimpute
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

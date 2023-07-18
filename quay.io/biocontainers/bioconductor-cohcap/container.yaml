@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-cohcap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cohcap
 latest:
-  1.44.0--pl5321r42hf17093f_1: sha256:cbb5e2a4c67ba3c2175b4dc3d762411c95ed6a072c8e3c63d8824de4c06a215a
+  1.46.0--pl5321r43hf17093f_0: sha256:7e76a5572e0ba46018a688fc3a938af7beaa29946aa0181c31246a12affb3021
 tags:
   1.40.0--pl5321r41hc247a5b_3: sha256:19670a6ce08344aa0a468bd6ed81414dcb0e9bf130942ab7866626993f269a3b
   1.44.0--pl5321r42hc247a5b_0: sha256:b46b84dd806fcb7247492a7146352025a8d4e859d7f2fb6e61f073e14cb047e3
   1.44.0--pl5321r42hf17093f_1: sha256:cbb5e2a4c67ba3c2175b4dc3d762411c95ed6a072c8e3c63d8824de4c06a215a
+  1.46.0--pl5321r43hf17093f_0: sha256:7e76a5572e0ba46018a688fc3a938af7beaa29946aa0181c31246a12affb3021
 docker: quay.io/biocontainers/bioconductor-cohcap
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
