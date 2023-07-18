@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phyml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyml/container.yaml"
-updated_at: "2023-07-17 03:55:58.189574"
-latest: "3.3.20211231--h37cc20f_2"
+updated_at: "2023-07-18 03:34:32.252694"
+latest: "3.3.20220408--h37cc20f_0"
 container_url: "https://biocontainers.pro/tools/phyml"
 aliases:
  - "phyml"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "3.3.20211231--hee9e358_0"
  - "3.3.20211231--h37cc20f_2"
+ - "3.3.20220408--h37cc20f_0"
 description: "shpc-registry automated BioContainers addition for phyml"
-config: {"url": "https://biocontainers.pro/tools/phyml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyml", "latest": {"3.3.20211231--h37cc20f_2": "sha256:a20ff0766f2bcf68efb50bc89461736d480eaff6d97e971a67caa44fe3f74c3d"}, "tags": {"3.3.20211231--hee9e358_0": "sha256:1be3026768229e8f439fbb3357f1a13f8c4706378daaa35a0a646816a61a880f", "3.3.20211231--h37cc20f_2": "sha256:a20ff0766f2bcf68efb50bc89461736d480eaff6d97e971a67caa44fe3f74c3d"}, "docker": "quay.io/biocontainers/phyml", "aliases": {"phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phyrex": "/usr/local/bin/phyrex", "phytime": "/usr/local/bin/phytime", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/phyml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyml", "latest": {"3.3.20220408--h37cc20f_0": "sha256:193a881e40c4b9ec62ab526d5c73dcbe30a68699969394bfd997512c9e37ae79"}, "tags": {"3.3.20211231--hee9e358_0": "sha256:1be3026768229e8f439fbb3357f1a13f8c4706378daaa35a0a646816a61a880f", "3.3.20211231--h37cc20f_2": "sha256:a20ff0766f2bcf68efb50bc89461736d480eaff6d97e971a67caa44fe3f74c3d", "3.3.20220408--h37cc20f_0": "sha256:193a881e40c4b9ec62ab526d5c73dcbe30a68699969394bfd997512c9e37ae79"}, "docker": "quay.io/biocontainers/phyml", "aliases": {"phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phyrex": "/usr/local/bin/phyrex", "phytime": "/usr/local/bin/phytime", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phyml.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/phyml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phyml:3.3.20211231--h37cc20f_2
+$ shpc install quay.io/biocontainers/phyml:3.3.20220408--h37cc20f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phyml/3.3.20211231--h37cc20f_2
-$ module help quay.io/biocontainers/phyml/3.3.20211231--h37cc20f_2
+$ module load quay.io/biocontainers/phyml/3.3.20220408--h37cc20f_0
+$ module help quay.io/biocontainers/phyml/3.3.20220408--h37cc20f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

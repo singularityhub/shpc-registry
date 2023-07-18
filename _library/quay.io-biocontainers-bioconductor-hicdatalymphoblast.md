@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hicdatalymphoblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdatalymphoblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdatalymphoblast/container.yaml"
-updated_at: "2023-07-17 04:08:32.542199"
-latest: "1.33.0--r42hdfd78af_0"
+updated_at: "2023-07-18 03:47:19.019815"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
  - "1.33.0--r42hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hicdatalymphoblast"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdatalymphoblast", "latest": {"1.33.0--r42hdfd78af_0": "sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:45129e6c3847707dae936594ccaa2cf3fa4df57aa3586ab7efc07ef063e14df2", "1.33.0--r42hdfd78af_0": "sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22"}, "docker": "quay.io/biocontainers/bioconductor-hicdatalymphoblast"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdatalymphoblast", "latest": {"1.36.0--r43hdfd78af_0": "sha256:4c07ccc4bb47b74ac8993cc9b34607153150d353d9874c5747ace7e2debff4f9"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:45129e6c3847707dae936594ccaa2cf3fa4df57aa3586ab7efc07ef063e14df2", "1.33.0--r42hdfd78af_0": "sha256:64db90d26c20c8a9e68296c37f9f1793be4fde0b8b9ed7503a06e88580f76e22", "1.36.0--r43hdfd78af_0": "sha256:4c07ccc4bb47b74ac8993cc9b34607153150d353d9874c5747ace7e2debff4f9"}, "docker": "quay.io/biocontainers/bioconductor-hicdatalymphoblast"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicdatalymphoblast.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hicdatalymphoblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hicdatalymphoblast:1.33.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hicdatalymphoblast:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.33.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.33.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hicdatalymphoblast/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

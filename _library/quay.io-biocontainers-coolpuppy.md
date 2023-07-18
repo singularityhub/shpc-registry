@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coolpuppy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coolpuppy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coolpuppy/container.yaml"
-updated_at: "2023-07-17 03:50:55.126909"
-latest: "1.0.0--pyh086e186_0"
+updated_at: "2023-07-18 03:29:11.128821"
+latest: "1.1.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/coolpuppy"
 aliases:
  - "aomdec"
@@ -46,8 +46,9 @@ aliases:
  - "pairs_merger"
 versions:
  - "1.0.0--pyh086e186_0"
+ - "1.1.0--pyh086e186_0"
 description: "singularity registry hpc automated addition for coolpuppy"
-config: {"url": "https://biocontainers.pro/tools/coolpuppy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coolpuppy", "latest": {"1.0.0--pyh086e186_0": "sha256:43d703d0e04b6bc064877dc2f7862b589b858b145b9f40a95b57f65209891476"}, "tags": {"1.0.0--pyh086e186_0": "sha256:43d703d0e04b6bc064877dc2f7862b589b858b145b9f40a95b57f65209891476"}, "docker": "quay.io/biocontainers/coolpuppy", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "coolpup.py": "/usr/local/bin/coolpup.py", "cooltools": "/usr/local/bin/cooltools", "dask": "/usr/local/bin/dask", "dav1d": "/usr/local/bin/dav1d", "dividepups.py": "/usr/local/bin/dividepups.py", "m2r2": "/usr/local/bin/m2r2", "plotpup.py": "/usr/local/bin/plotpup.py", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aec": "/usr/local/bin/aec", "cooler": "/usr/local/bin/cooler", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger"}}
+config: {"url": "https://biocontainers.pro/tools/coolpuppy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for coolpuppy", "latest": {"1.1.0--pyh086e186_0": "sha256:0e029944f0797799c4ed28e702db0e92c5ed3539f3c7320733fb101786b580fc"}, "tags": {"1.0.0--pyh086e186_0": "sha256:43d703d0e04b6bc064877dc2f7862b589b858b145b9f40a95b57f65209891476", "1.1.0--pyh086e186_0": "sha256:0e029944f0797799c4ed28e702db0e92c5ed3539f3c7320733fb101786b580fc"}, "docker": "quay.io/biocontainers/coolpuppy", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "coolpup.py": "/usr/local/bin/coolpup.py", "cooltools": "/usr/local/bin/cooltools", "dask": "/usr/local/bin/dask", "dav1d": "/usr/local/bin/dav1d", "dividepups.py": "/usr/local/bin/dividepups.py", "m2r2": "/usr/local/bin/m2r2", "plotpup.py": "/usr/local/bin/plotpup.py", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aec": "/usr/local/bin/aec", "cooler": "/usr/local/bin/cooler", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coolpuppy.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/coolpuppy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coolpuppy:1.0.0--pyh086e186_0
+$ shpc install quay.io/biocontainers/coolpuppy:1.1.0--pyh086e186_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coolpuppy/1.0.0--pyh086e186_0
-$ module help quay.io/biocontainers/coolpuppy/1.0.0--pyh086e186_0
+$ module load quay.io/biocontainers/coolpuppy/1.1.0--pyh086e186_0
+$ module help quay.io/biocontainers/coolpuppy/1.1.0--pyh086e186_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

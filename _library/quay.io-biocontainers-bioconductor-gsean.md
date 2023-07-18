@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gsean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsean/container.yaml"
-updated_at: "2023-07-17 03:43:24.581018"
-latest: "1.18.0--r42ha9d7317_1"
+updated_at: "2023-07-18 03:21:08.976857"
+latest: "1.20.2--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsean"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
  - "1.18.0--r42ha9d7317_1"
+ - "1.20.2--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsean"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsean", "latest": {"1.18.0--r42ha9d7317_1": "sha256:350e432f78e0a815541002382a49d5cefbfeed97f1a24f0e1b5420dd920c2b1d"}, "tags": {"1.8.0--r40_0": "sha256:a2a4cb7e0123975b9d12ba9c839a0ef986915c0fb8984bd1d7f54940c03e1458", "1.18.0--r42hc0cfd56_0": "sha256:19d08fb52ee2b37d00c3643e5285897dc0b8431ed94a2930bb4e390607af5e55", "1.14.0--r41hdfd78af_0": "sha256:e4d84aa5f7bb6c8cbd31e083d211f5ba2461cc598607fdfc5f22469d58b2f24d", "1.12.0--r41hdfd78af_0": "sha256:8a3c098731f532df8efc96c0f88a0b230b6db3799086a0125c3feb00d61f1931", "1.10.0--r40hdfd78af_1": "sha256:cd8cdd0eb5d154292b804640682fe77a4dc2c62ac743ab0534aa2103c7fb9cd2", "1.18.0--r42ha9d7317_1": "sha256:350e432f78e0a815541002382a49d5cefbfeed97f1a24f0e1b5420dd920c2b1d"}, "docker": "quay.io/biocontainers/bioconductor-gsean", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsean", "latest": {"1.20.2--r43ha9d7317_0": "sha256:f1e79c79fbadc3723691fece56f81d93d19acb75141a1408791a6a8526bbe61c"}, "tags": {"1.8.0--r40_0": "sha256:a2a4cb7e0123975b9d12ba9c839a0ef986915c0fb8984bd1d7f54940c03e1458", "1.18.0--r42hc0cfd56_0": "sha256:19d08fb52ee2b37d00c3643e5285897dc0b8431ed94a2930bb4e390607af5e55", "1.14.0--r41hdfd78af_0": "sha256:e4d84aa5f7bb6c8cbd31e083d211f5ba2461cc598607fdfc5f22469d58b2f24d", "1.12.0--r41hdfd78af_0": "sha256:8a3c098731f532df8efc96c0f88a0b230b6db3799086a0125c3feb00d61f1931", "1.10.0--r40hdfd78af_1": "sha256:cd8cdd0eb5d154292b804640682fe77a4dc2c62ac743ab0534aa2103c7fb9cd2", "1.18.0--r42ha9d7317_1": "sha256:350e432f78e0a815541002382a49d5cefbfeed97f1a24f0e1b5420dd920c2b1d", "1.20.2--r43ha9d7317_0": "sha256:f1e79c79fbadc3723691fece56f81d93d19acb75141a1408791a6a8526bbe61c"}, "docker": "quay.io/biocontainers/bioconductor-gsean", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsean.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gsean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gsean:1.18.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-gsean:1.20.2--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gsean/1.18.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-gsean/1.18.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-gsean/1.20.2--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-gsean/1.20.2--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

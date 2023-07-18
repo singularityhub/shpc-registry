@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-basecallqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basecallqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basecallqc/container.yaml"
-updated_at: "2023-07-17 04:11:57.661247"
-latest: "1.18.0--r41hdfd78af_0"
+updated_at: "2023-07-18 03:50:47.064401"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basecallqc"
 aliases:
  - "pandoc-citeproc"
@@ -20,8 +20,9 @@ versions:
  - "1.14.0--r40hdfd78af_1"
  - "1.12.0--r40_0"
  - "1.10.0--r36_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-basecallqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-basecallqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basecallqc", "latest": {"1.18.0--r41hdfd78af_0": "sha256:5d342cebbc171bcee550e794907986d73e7f78672b0752b31a8069c852b43d14"}, "tags": {"1.8.0--r36_1": "sha256:465adc6c16c4917ce702916b9cd73b453bc81b5da9637e9c8ca4170d666c9a14", "1.18.0--r41hdfd78af_0": "sha256:5d342cebbc171bcee550e794907986d73e7f78672b0752b31a8069c852b43d14", "1.16.0--r41hdfd78af_0": "sha256:b5c18e6e068dac50b6ddfff27ef833afa28c19e3f0f3cc7be83e97381305a3ba", "1.14.0--r40hdfd78af_1": "sha256:d342dfa759022018986178b92505281a38254cb4b3c0eb518268a7da0256f2b2", "1.12.0--r40_0": "sha256:6d143de0293b63a9b7a9d8f2784a485ef2aa83c2cf6c9d10b5603839dfbb9180", "1.10.0--r36_0": "sha256:b73f0cf89544e1b8a9774ba2aaef9c80b85fd315262f23ac3497b3feeb983077"}, "docker": "quay.io/biocontainers/bioconductor-basecallqc", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-basecallqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basecallqc", "latest": {"1.24.0--r43hdfd78af_0": "sha256:fa2597fb5ffb25544da4261e414cf9c3b9c9bfb66ddeed504ad623ed0a441ec6"}, "tags": {"1.8.0--r36_1": "sha256:465adc6c16c4917ce702916b9cd73b453bc81b5da9637e9c8ca4170d666c9a14", "1.18.0--r41hdfd78af_0": "sha256:5d342cebbc171bcee550e794907986d73e7f78672b0752b31a8069c852b43d14", "1.16.0--r41hdfd78af_0": "sha256:b5c18e6e068dac50b6ddfff27ef833afa28c19e3f0f3cc7be83e97381305a3ba", "1.14.0--r40hdfd78af_1": "sha256:d342dfa759022018986178b92505281a38254cb4b3c0eb518268a7da0256f2b2", "1.12.0--r40_0": "sha256:6d143de0293b63a9b7a9d8f2784a485ef2aa83c2cf6c9d10b5603839dfbb9180", "1.10.0--r36_0": "sha256:b73f0cf89544e1b8a9774ba2aaef9c80b85fd315262f23ac3497b3feeb983077", "1.24.0--r43hdfd78af_0": "sha256:fa2597fb5ffb25544da4261e414cf9c3b9c9bfb66ddeed504ad623ed0a441ec6"}, "docker": "quay.io/biocontainers/bioconductor-basecallqc", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-basecallqc.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-basecallqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-basecallqc:1.18.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-basecallqc:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-basecallqc/1.18.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-basecallqc/1.18.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-basecallqc/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-basecallqc/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

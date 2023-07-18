@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/superdsm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/superdsm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/superdsm/container.yaml"
-updated_at: "2023-07-17 04:14:32.750029"
-latest: "0.1--pyhdfd78af_0"
+updated_at: "2023-07-18 03:53:25.445501"
+latest: "0.1.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/superdsm"
 aliases:
  - "corepack"
@@ -46,8 +46,9 @@ aliases:
  - "hwloc-gather-topology"
 versions:
  - "0.1--pyhdfd78af_0"
+ - "0.1.3--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for superdsm"
-config: {"url": "https://biocontainers.pro/tools/superdsm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superdsm", "latest": {"0.1--pyhdfd78af_0": "sha256:46b2af7c92f0621815d8fc6e4bdf853bcd72a3aef4ab04da8f5cdbe635e12efa"}, "tags": {"0.1--pyhdfd78af_0": "sha256:46b2af7c92f0621815d8fc6e4bdf853bcd72a3aef4ab04da8f5cdbe635e12efa"}, "docker": "quay.io/biocontainers/superdsm", "aliases": {"corepack": "/usr/local/bin/corepack", "dask": "/usr/local/bin/dask", "dav1d": "/usr/local/bin/dav1d", "dsdp5": "/usr/local/bin/dsdp5", "gpustat": "/usr/local/bin/gpustat", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "py-spy": "/usr/local/bin/py-spy", "ray": "/usr/local/bin/ray", "virtualenv": "/usr/local/bin/virtualenv", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
+config: {"url": "https://biocontainers.pro/tools/superdsm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for superdsm", "latest": {"0.1.3--pyhdfd78af_1": "sha256:9fb485080d519378158373c13bbca971e96b4277502fb69cf8408cbd550ca65d"}, "tags": {"0.1--pyhdfd78af_0": "sha256:46b2af7c92f0621815d8fc6e4bdf853bcd72a3aef4ab04da8f5cdbe635e12efa", "0.1.3--pyhdfd78af_1": "sha256:9fb485080d519378158373c13bbca971e96b4277502fb69cf8408cbd550ca65d"}, "docker": "quay.io/biocontainers/superdsm", "aliases": {"corepack": "/usr/local/bin/corepack", "dask": "/usr/local/bin/dask", "dav1d": "/usr/local/bin/dav1d", "dsdp5": "/usr/local/bin/dsdp5", "gpustat": "/usr/local/bin/gpustat", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "py-spy": "/usr/local/bin/py-spy", "ray": "/usr/local/bin/ray", "virtualenv": "/usr/local/bin/virtualenv", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/superdsm.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/superdsm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/superdsm:0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/superdsm:0.1.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/superdsm/0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/superdsm/0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/superdsm/0.1.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/superdsm/0.1.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

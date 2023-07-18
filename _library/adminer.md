@@ -4,7 +4,7 @@ name:  "adminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/adminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/adminer/container.yaml"
-updated_at: "2023-07-17 03:25:25.592637"
+updated_at: "2023-07-18 03:02:12.395521"
 latest: "4.8.1"
 container_url: "https://hub.docker.com/_/adminer"
 
@@ -15,7 +15,7 @@ versions:
  - "latest"
  - "4"
 description: "Database management in a single PHP file."
-config: {"docker": "adminer", "url": "https://hub.docker.com/_/adminer", "maintainer": "@vsoch", "description": "Database management in a single PHP file.", "latest": {"4.8.1": "sha256:bb57616441db7d9bcf04f9e231bf8fd066b209374f0e30384d17988cbb4e889b"}, "tags": {"4.8.0-fastcgi": "sha256:5368f087fed03f49e9de8731ee3d9998d7e78391720d500309b5bcde2a401058", "4.8.1": "sha256:bb57616441db7d9bcf04f9e231bf8fd066b209374f0e30384d17988cbb4e889b", "4.8.1-fastcgi": "sha256:23f4d325369d5e13643f30752f30bf092cd07709a58433ae4591c95dada78de0", "latest": "sha256:bb57616441db7d9bcf04f9e231bf8fd066b209374f0e30384d17988cbb4e889b", "4": "sha256:bb57616441db7d9bcf04f9e231bf8fd066b209374f0e30384d17988cbb4e889b"}}
+config: {"docker": "adminer", "url": "https://hub.docker.com/_/adminer", "maintainer": "@vsoch", "description": "Database management in a single PHP file.", "latest": {"4.8.1": "sha256:3751b49306d8fd25567ed2222d4f1fc55415badbb827956d38e8ca3e7167a5d8"}, "tags": {"4.8.0-fastcgi": "sha256:5368f087fed03f49e9de8731ee3d9998d7e78391720d500309b5bcde2a401058", "4.8.1": "sha256:3751b49306d8fd25567ed2222d4f1fc55415badbb827956d38e8ca3e7167a5d8", "4.8.1-fastcgi": "sha256:587ab8c7348356c4c986bf9037c893dcf52a9a09adc992a84e1c4703f1f97b7a", "latest": "sha256:3751b49306d8fd25567ed2222d4f1fc55415badbb827956d38e8ca3e7167a5d8", "4": "sha256:3751b49306d8fd25567ed2222d4f1fc55415badbb827956d38e8ca3e7167a5d8"}}
 ---
 
 This module is a singularity container wrapper for adminer.

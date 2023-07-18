@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-deltagseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deltagseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deltagseg/container.yaml"
-updated_at: "2023-07-17 03:46:23.188073"
-latest: "1.37.0--r42hdfd78af_0"
+updated_at: "2023-07-18 03:24:22.177983"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deltagseg"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
  - "1.37.0--r42hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-deltagseg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-deltagseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deltagseg", "latest": {"1.37.0--r42hdfd78af_0": "sha256:a55fd98ccabea6de5affae9a581356e70a28ee52826a86417e1fe0e281db6f3a"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:278985f76cba1478a7e382e213edf950a907ed9daa699f7699d7cf845000e15a", "1.37.0--r42hdfd78af_0": "sha256:a55fd98ccabea6de5affae9a581356e70a28ee52826a86417e1fe0e281db6f3a"}, "docker": "quay.io/biocontainers/bioconductor-deltagseg"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-deltagseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deltagseg", "latest": {"1.40.0--r43hdfd78af_0": "sha256:a4bfb38e6b40ae83cbe7c44a17eac8831176e8eb9b8507019b98a1c0bcb0d49e"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:278985f76cba1478a7e382e213edf950a907ed9daa699f7699d7cf845000e15a", "1.37.0--r42hdfd78af_0": "sha256:a55fd98ccabea6de5affae9a581356e70a28ee52826a86417e1fe0e281db6f3a", "1.40.0--r43hdfd78af_0": "sha256:a4bfb38e6b40ae83cbe7c44a17eac8831176e8eb9b8507019b98a1c0bcb0d49e"}, "docker": "quay.io/biocontainers/bioconductor-deltagseg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-deltagseg.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-deltagseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-deltagseg:1.37.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-deltagseg:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-deltagseg/1.37.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-deltagseg/1.37.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-deltagseg/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-deltagseg/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

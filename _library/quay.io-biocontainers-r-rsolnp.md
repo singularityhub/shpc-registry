@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rsolnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rsolnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rsolnp/container.yaml"
-updated_at: "2023-07-17 03:25:48.390242"
+updated_at: "2023-07-18 03:02:35.933475"
 latest: "1.16--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-rsolnp"
 aliases:

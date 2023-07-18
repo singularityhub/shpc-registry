@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-sparsematrixstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsematrixstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsematrixstats/container.yaml"
-updated_at: "2023-07-17 03:41:00.518734"
-latest: "1.10.0--r42hf17093f_1"
+updated_at: "2023-07-18 03:18:34.165568"
+latest: "1.12.2--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsematrixstats"
 
 versions:
  - "1.6.0--r41hc247a5b_2"
  - "1.10.0--r42hc247a5b_0"
  - "1.10.0--r42hf17093f_1"
+ - "1.12.2--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sparsematrixstats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsematrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsematrixstats", "latest": {"1.10.0--r42hf17093f_1": "sha256:41cbe2dc321f4be2925ab4677c087992a7d2c3f86068325c56dec1b5a3fb77f6"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:a8ff49c3961f7ed73c9d8e5b5ce94f036cd93dd94347e9272752b383a8a69431", "1.10.0--r42hc247a5b_0": "sha256:82de2dd3dbd8cc934ca9c53ad3de321e6f3f0adf0899e47d4dbb353acda7b818", "1.10.0--r42hf17093f_1": "sha256:41cbe2dc321f4be2925ab4677c087992a7d2c3f86068325c56dec1b5a3fb77f6"}, "docker": "quay.io/biocontainers/bioconductor-sparsematrixstats"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsematrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sparsematrixstats", "latest": {"1.12.2--r43hf17093f_0": "sha256:fe7a9933e883ac162244bd9911217125ed5b5b0a2012259ff865c67790b4b4be"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:a8ff49c3961f7ed73c9d8e5b5ce94f036cd93dd94347e9272752b383a8a69431", "1.10.0--r42hc247a5b_0": "sha256:82de2dd3dbd8cc934ca9c53ad3de321e6f3f0adf0899e47d4dbb353acda7b818", "1.10.0--r42hf17093f_1": "sha256:41cbe2dc321f4be2925ab4677c087992a7d2c3f86068325c56dec1b5a3fb77f6", "1.12.2--r43hf17093f_0": "sha256:fe7a9933e883ac162244bd9911217125ed5b5b0a2012259ff865c67790b4b4be"}, "docker": "quay.io/biocontainers/bioconductor-sparsematrixstats"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sparsematrixstats.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sparsematrixstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sparsematrixstats:1.10.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-sparsematrixstats:1.12.2--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sparsematrixstats/1.10.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-sparsematrixstats/1.10.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-sparsematrixstats/1.12.2--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-sparsematrixstats/1.12.2--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

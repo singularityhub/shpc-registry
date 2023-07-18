@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-clonality"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clonality/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clonality/container.yaml"
-updated_at: "2023-07-17 03:41:09.503256"
-latest: "1.46.0--r42hdfd78af_0"
+updated_at: "2023-07-18 03:18:43.629333"
+latest: "1.47.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clonality"
 
 versions:
  - "1.42.0--r41hdfd78af_0"
  - "1.46.0--r42hdfd78af_0"
+ - "1.47.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clonality"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clonality", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clonality", "latest": {"1.46.0--r42hdfd78af_0": "sha256:89916c114571f5d6166124e0313a77d0e535857fd4b83c174bbaf96aa37e9c20"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:776ff8a567b0442049af0838a3606cbad86afe454b15acaf00e0428b166989a0", "1.46.0--r42hdfd78af_0": "sha256:89916c114571f5d6166124e0313a77d0e535857fd4b83c174bbaf96aa37e9c20"}, "docker": "quay.io/biocontainers/bioconductor-clonality"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clonality", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clonality", "latest": {"1.47.0--r43hdfd78af_0": "sha256:aeeb01f5e45d5a903e59d5e865f37576ac322683b150391cc12d7c9b9137b12f"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:776ff8a567b0442049af0838a3606cbad86afe454b15acaf00e0428b166989a0", "1.46.0--r42hdfd78af_0": "sha256:89916c114571f5d6166124e0313a77d0e535857fd4b83c174bbaf96aa37e9c20", "1.47.0--r43hdfd78af_0": "sha256:aeeb01f5e45d5a903e59d5e865f37576ac322683b150391cc12d7c9b9137b12f"}, "docker": "quay.io/biocontainers/bioconductor-clonality"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clonality.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clonality
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clonality:1.46.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-clonality:1.47.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clonality/1.46.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-clonality/1.46.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-clonality/1.47.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-clonality/1.47.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

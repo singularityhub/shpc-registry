@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/modle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/modle/container.yaml"
-updated_at: "2023-07-17 03:55:13.106051"
-latest: "1.0.1--h87f3376_0"
+updated_at: "2023-07-18 03:33:47.371260"
+latest: "1.1.0--h63853f4_0"
 container_url: "https://biocontainers.pro/tools/modle"
 aliases:
  - "modle"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.0--h87f3376_0"
  - "1.0.1--h87f3376_0"
+ - "1.1.0--h63853f4_0"
 description: "singularity registry hpc automated addition for modle"
-config: {"url": "https://biocontainers.pro/tools/modle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for modle", "latest": {"1.0.1--h87f3376_0": "sha256:482e9f5437c4e9ca2874fde2fb2217fde733d891d612320da4eea79e212c5d83"}, "tags": {"1.0.0--h87f3376_0": "sha256:66c28fc5e73fcb3824f740c5aaf7e7426cee6a1b1a451db713eafd6f0ba0f319", "1.0.1--h87f3376_0": "sha256:482e9f5437c4e9ca2874fde2fb2217fde733d891d612320da4eea79e212c5d83"}, "docker": "quay.io/biocontainers/modle", "aliases": {"modle": "/usr/local/bin/modle", "modle_tools": "/usr/local/bin/modle_tools"}}
+config: {"url": "https://biocontainers.pro/tools/modle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for modle", "latest": {"1.1.0--h63853f4_0": "sha256:f20c6df66f43c63e7ea2221d38de0b0747f035d54b06c5e5b7f302e49952e8a8"}, "tags": {"1.0.0--h87f3376_0": "sha256:66c28fc5e73fcb3824f740c5aaf7e7426cee6a1b1a451db713eafd6f0ba0f319", "1.0.1--h87f3376_0": "sha256:482e9f5437c4e9ca2874fde2fb2217fde733d891d612320da4eea79e212c5d83", "1.1.0--h63853f4_0": "sha256:f20c6df66f43c63e7ea2221d38de0b0747f035d54b06c5e5b7f302e49952e8a8"}, "docker": "quay.io/biocontainers/modle", "aliases": {"modle": "/usr/local/bin/modle", "modle_tools": "/usr/local/bin/modle_tools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/modle.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/modle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/modle:1.0.1--h87f3376_0
+$ shpc install quay.io/biocontainers/modle:1.1.0--h63853f4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/modle/1.0.1--h87f3376_0
-$ module help quay.io/biocontainers/modle/1.0.1--h87f3376_0
+$ module load quay.io/biocontainers/modle/1.1.0--h63853f4_0
+$ module help quay.io/biocontainers/modle/1.1.0--h63853f4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

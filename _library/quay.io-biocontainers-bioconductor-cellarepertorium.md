@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellarepertorium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellarepertorium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellarepertorium/container.yaml"
-updated_at: "2023-07-17 04:06:12.074411"
+updated_at: "2023-07-18 03:44:58.052931"
 latest: "1.10.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellarepertorium"
 

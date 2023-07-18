@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-zellkonverter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zellkonverter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zellkonverter/container.yaml"
-updated_at: "2023-07-17 03:40:35.524082"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-07-18 03:18:07.960339"
+latest: "1.10.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zellkonverter"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-zellkonverter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zellkonverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zellkonverter", "latest": {"1.8.0--r42hdfd78af_0": "sha256:87ae0f4521990faebc0d9c35d78b965612224b8a7315a36b5039f5ae846d5cf7"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:3e2864fd74b6299c5b04b9fada95caeee13b8dba6169096e41f7500d966e44b0", "1.8.0--r42hdfd78af_0": "sha256:87ae0f4521990faebc0d9c35d78b965612224b8a7315a36b5039f5ae846d5cf7"}, "docker": "quay.io/biocontainers/bioconductor-zellkonverter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zellkonverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zellkonverter", "latest": {"1.10.1--r43hdfd78af_0": "sha256:5d968b651fcd4a952e9cb4f66b77864e4700b8fde9794828acd30732277c9035"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:3e2864fd74b6299c5b04b9fada95caeee13b8dba6169096e41f7500d966e44b0", "1.8.0--r42hdfd78af_0": "sha256:87ae0f4521990faebc0d9c35d78b965612224b8a7315a36b5039f5ae846d5cf7", "1.10.1--r43hdfd78af_0": "sha256:5d968b651fcd4a952e9cb4f66b77864e4700b8fde9794828acd30732277c9035"}, "docker": "quay.io/biocontainers/bioconductor-zellkonverter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zellkonverter.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-zellkonverter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-zellkonverter:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-zellkonverter:1.10.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-zellkonverter/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-zellkonverter/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-zellkonverter/1.10.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-zellkonverter/1.10.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

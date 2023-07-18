@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sitepath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sitepath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sitepath/container.yaml"
-updated_at: "2023-07-17 03:27:34.868070"
-latest: "1.14.0--r42hf17093f_1"
+updated_at: "2023-07-18 03:04:26.909592"
+latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sitepath"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.14.0--r42hc247a5b_0"
  - "1.10.2--r41hc247a5b_1"
  - "1.14.0--r42hf17093f_1"
+ - "1.16.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sitepath"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sitepath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sitepath", "latest": {"1.14.0--r42hf17093f_1": "sha256:0f2f4362610d28652781d36a459cd2cf208ee907942ce5d022b138be056931ad"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:0d0cd4e4fd0ff11b5a99ab23a9659ab7326a252031675254ab1ce3deaa127eb6", "1.14.0--r42hc247a5b_0": "sha256:b3e570d3e634c1382fd8d3ca9642ab7994f4b041ae3c38cfac9fa0498fe082e4", "1.10.2--r41hc247a5b_1": "sha256:418818a12424c875a9d3d7f81eb3a654d5a09c0d906e8f273028dd7c04892f63", "1.14.0--r42hf17093f_1": "sha256:0f2f4362610d28652781d36a459cd2cf208ee907942ce5d022b138be056931ad"}, "docker": "quay.io/biocontainers/bioconductor-sitepath", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sitepath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sitepath", "latest": {"1.16.0--r43hf17093f_0": "sha256:69e711e8a27217d7de40197ecc1bc14394b4dbe060d72a457ea0dfd2b2bb1231"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:0d0cd4e4fd0ff11b5a99ab23a9659ab7326a252031675254ab1ce3deaa127eb6", "1.14.0--r42hc247a5b_0": "sha256:b3e570d3e634c1382fd8d3ca9642ab7994f4b041ae3c38cfac9fa0498fe082e4", "1.10.2--r41hc247a5b_1": "sha256:418818a12424c875a9d3d7f81eb3a654d5a09c0d906e8f273028dd7c04892f63", "1.14.0--r42hf17093f_1": "sha256:0f2f4362610d28652781d36a459cd2cf208ee907942ce5d022b138be056931ad", "1.16.0--r43hf17093f_0": "sha256:69e711e8a27217d7de40197ecc1bc14394b4dbe060d72a457ea0dfd2b2bb1231"}, "docker": "quay.io/biocontainers/bioconductor-sitepath", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sitepath.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sitepath
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sitepath:1.14.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-sitepath:1.16.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sitepath/1.14.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-sitepath/1.14.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-sitepath/1.16.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-sitepath/1.16.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

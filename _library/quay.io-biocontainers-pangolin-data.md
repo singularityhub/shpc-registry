@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pangolin-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangolin-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangolin-data/container.yaml"
-updated_at: "2023-07-17 04:02:42.776158"
-latest: "1.20--pyh7cba7a3_0"
+updated_at: "2023-07-18 03:41:25.336942"
+latest: "1.21--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pangolin-data"
 aliases:
  - "pangolin_data"
@@ -24,8 +24,9 @@ versions:
  - "1.14--pyh5e36f6f_0"
  - "1.19--pyh7cba7a3_0"
  - "1.20--pyh7cba7a3_0"
+ - "1.21--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for pangolin-data"
-config: {"url": "https://biocontainers.pro/tools/pangolin-data", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangolin-data", "latest": {"1.20--pyh7cba7a3_0": "sha256:fdbbe3d1d33eed5ff64f015e91b9f1a833914650dd71af007fe55e08b95a0116"}, "tags": {"1.9--pyh5e36f6f_0": "sha256:986d54d7de55e4764ee8a9eb195a46beb883fb9638879d559c815c9bd11d0f5c", "1.18.1.1--pyh7cba7a3_0": "sha256:b7ab5e8340e5a5129444aec7f5919e0a53fe276934b32cecb88769a142984e0a", "1.17--pyh7cba7a3_0": "sha256:bf3a497e0fbc90031a42813fe2a796b2975483b7232522f01238588dd7b07665", "1.16--pyh7cba7a3_0": "sha256:7cc3372b6595aa1437a34cbf0308557bba43827d8edeb3de6ef07c05fc0ddf20", "1.15.1--pyh7cba7a3_0": "sha256:52a9a687c37618bb0a8f07aae02dd2d53cf498e150c781ee571366f9ffab7295", "1.14--pyh5e36f6f_0": "sha256:9f01d930782ff756a372cd84553cf8444e329ef4a4dbfc2c5c690ef124b803ed", "1.19--pyh7cba7a3_0": "sha256:7fc8811fcd499418d7fb5ab427b909f02129ce8453398945686632df8c63cf8c", "1.20--pyh7cba7a3_0": "sha256:fdbbe3d1d33eed5ff64f015e91b9f1a833914650dd71af007fe55e08b95a0116"}, "docker": "quay.io/biocontainers/pangolin-data", "aliases": {"pangolin_data": "/usr/local/bin/pangolin_data", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pangolin-data", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangolin-data", "latest": {"1.21--pyh7cba7a3_0": "sha256:071486364ba073d27cee34bdd74f9e33db4575c3bc76b568e5736081e3f04bdb"}, "tags": {"1.9--pyh5e36f6f_0": "sha256:986d54d7de55e4764ee8a9eb195a46beb883fb9638879d559c815c9bd11d0f5c", "1.18.1.1--pyh7cba7a3_0": "sha256:b7ab5e8340e5a5129444aec7f5919e0a53fe276934b32cecb88769a142984e0a", "1.17--pyh7cba7a3_0": "sha256:bf3a497e0fbc90031a42813fe2a796b2975483b7232522f01238588dd7b07665", "1.16--pyh7cba7a3_0": "sha256:7cc3372b6595aa1437a34cbf0308557bba43827d8edeb3de6ef07c05fc0ddf20", "1.15.1--pyh7cba7a3_0": "sha256:52a9a687c37618bb0a8f07aae02dd2d53cf498e150c781ee571366f9ffab7295", "1.14--pyh5e36f6f_0": "sha256:9f01d930782ff756a372cd84553cf8444e329ef4a4dbfc2c5c690ef124b803ed", "1.19--pyh7cba7a3_0": "sha256:7fc8811fcd499418d7fb5ab427b909f02129ce8453398945686632df8c63cf8c", "1.20--pyh7cba7a3_0": "sha256:fdbbe3d1d33eed5ff64f015e91b9f1a833914650dd71af007fe55e08b95a0116", "1.21--pyh7cba7a3_0": "sha256:071486364ba073d27cee34bdd74f9e33db4575c3bc76b568e5736081e3f04bdb"}, "docker": "quay.io/biocontainers/pangolin-data", "aliases": {"pangolin_data": "/usr/local/bin/pangolin_data", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pangolin-data.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pangolin-data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pangolin-data:1.20--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pangolin-data:1.21--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pangolin-data/1.20--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pangolin-data/1.20--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pangolin-data/1.21--pyh7cba7a3_0
+$ module help quay.io/biocontainers/pangolin-data/1.21--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

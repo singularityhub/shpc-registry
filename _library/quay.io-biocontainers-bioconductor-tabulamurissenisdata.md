@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-tabulamurissenisdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tabulamurissenisdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tabulamurissenisdata/container.yaml"
-updated_at: "2023-07-17 03:53:14.213654"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-07-18 03:31:42.584972"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tabulamurissenisdata"
 
 versions:
  - "1.0.0--r41hdfd78af_1"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tabulamurissenisdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tabulamurissenisdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tabulamurissenisdata", "latest": {"1.4.0--r42hdfd78af_0": "sha256:4552a6b944e6726e221658494750b3d4bd9218aa3fef9ddd3bff1f0875ff8bee"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:b310b585a4a1b0f2c0068823cfdb2e8e84dfe033b4dc5a38b5f219976c52192e", "1.4.0--r42hdfd78af_0": "sha256:4552a6b944e6726e221658494750b3d4bd9218aa3fef9ddd3bff1f0875ff8bee"}, "docker": "quay.io/biocontainers/bioconductor-tabulamurissenisdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tabulamurissenisdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tabulamurissenisdata", "latest": {"1.6.0--r43hdfd78af_0": "sha256:a4cac3ccaa87fd76404de825fd98d96ea5c385a0262f202a09fd90a2cda8844c"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:b310b585a4a1b0f2c0068823cfdb2e8e84dfe033b4dc5a38b5f219976c52192e", "1.4.0--r42hdfd78af_0": "sha256:4552a6b944e6726e221658494750b3d4bd9218aa3fef9ddd3bff1f0875ff8bee", "1.6.0--r43hdfd78af_0": "sha256:a4cac3ccaa87fd76404de825fd98d96ea5c385a0262f202a09fd90a2cda8844c"}, "docker": "quay.io/biocontainers/bioconductor-tabulamurissenisdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tabulamurissenisdata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tabulamurissenisdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tabulamurissenisdata:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tabulamurissenisdata:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tabulamurissenisdata/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tabulamurissenisdata/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tabulamurissenisdata/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tabulamurissenisdata/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

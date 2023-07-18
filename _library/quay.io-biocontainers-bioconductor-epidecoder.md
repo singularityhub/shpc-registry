@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-epidecoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epidecoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epidecoder/container.yaml"
-updated_at: "2023-07-17 03:30:50.203870"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-18 03:07:51.469801"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epidecoder"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epidecoder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epidecoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epidecoder", "latest": {"1.6.0--r42hdfd78af_0": "sha256:aecd0f6470b626538e14838af2f0d7b52e998ec5459d667add43b326ee04a734"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:fb07681527bce5b83293058b4beb4be9951ae3bfbed5f361f626b8c0d628bf1d", "1.6.0--r42hdfd78af_0": "sha256:aecd0f6470b626538e14838af2f0d7b52e998ec5459d667add43b326ee04a734"}, "docker": "quay.io/biocontainers/bioconductor-epidecoder"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epidecoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epidecoder", "latest": {"1.8.0--r43hdfd78af_0": "sha256:1576eb16decdc791222fb7b6522cccaaccf97394ac2c6d2ad5316aba79597701"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:fb07681527bce5b83293058b4beb4be9951ae3bfbed5f361f626b8c0d628bf1d", "1.6.0--r42hdfd78af_0": "sha256:aecd0f6470b626538e14838af2f0d7b52e998ec5459d667add43b326ee04a734", "1.8.0--r43hdfd78af_0": "sha256:1576eb16decdc791222fb7b6522cccaaccf97394ac2c6d2ad5316aba79597701"}, "docker": "quay.io/biocontainers/bioconductor-epidecoder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epidecoder.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epidecoder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epidecoder:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epidecoder:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epidecoder/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epidecoder/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epidecoder/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epidecoder/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

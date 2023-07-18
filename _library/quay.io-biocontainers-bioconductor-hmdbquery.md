@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hmdbquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hmdbquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hmdbquery/container.yaml"
-updated_at: "2023-07-17 03:44:17.244288"
+updated_at: "2023-07-18 03:22:06.339646"
 latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hmdbquery"
 aliases:
