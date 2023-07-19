@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cellhts2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cellhts2
 latest:
-  2.62.0--r42hdfd78af_0: sha256:2f6641e54c747e63767f16f01664244d04fd1428a6a9bf0fcb827e0d5c64c6b7
+  2.64.0--r43hdfd78af_0: sha256:72c1dee327037ecb7f4882478367c40e74e5e9a649a8389db662b5b0d6044d24
 tags:
   2.56.0--r41hdfd78af_0: sha256:41d610c3ff499607611867c36288730eec913b0a444010e10e2ceffa8744f180
   2.62.0--r42hdfd78af_0: sha256:2f6641e54c747e63767f16f01664244d04fd1428a6a9bf0fcb827e0d5c64c6b7
+  2.64.0--r43hdfd78af_0: sha256:72c1dee327037ecb7f4882478367c40e74e5e9a649a8389db662b5b0d6044d24
 docker: quay.io/biocontainers/bioconductor-cellhts2
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

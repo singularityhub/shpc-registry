@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-eisar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-eisar
 latest:
-  1.10.0--r42hdfd78af_0: sha256:a58ee16573ee091bd2f722a2af2ba7b2e9a049b3469b1c38f93cc012eeae7058
+  1.12.0--r43hdfd78af_0: sha256:d6915cee001a379493704ba8ee2f4c7b8df5853c9034b3d39fc0f7f925ce1126
 tags:
   1.6.0--r41hdfd78af_0: sha256:cbb7a248c07968cd66daac9a8d4d4055ebfd88e0e8dd9fe1dd5ddd8061098e87
   1.10.0--r42hdfd78af_0: sha256:a58ee16573ee091bd2f722a2af2ba7b2e9a049b3469b1c38f93cc012eeae7058
+  1.12.0--r43hdfd78af_0: sha256:d6915cee001a379493704ba8ee2f4c7b8df5853c9034b3d39fc0f7f925ce1126
 docker: quay.io/biocontainers/bioconductor-eisar

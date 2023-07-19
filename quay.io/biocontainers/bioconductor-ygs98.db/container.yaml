@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ygs98.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ygs98.db
 latest:
-  3.13.0--r42hdfd78af_2: sha256:1fd64971384c09dfea3ffa95e07f21186fd07092ca158013c879b06e88256c32
+  3.13.0--r43hdfd78af_3: sha256:f3bfbc892c1d281045ef6bdf342d5ad1e6fd29758f8773839c249843e082257f
 tags:
   3.2.3--r41hdfd78af_7: sha256:20587c04a93f008820d551508fa945adb423af4957b66dbab2d7665872355c95
   3.13.0--r42hdfd78af_2: sha256:1fd64971384c09dfea3ffa95e07f21186fd07092ca158013c879b06e88256c32
+  3.13.0--r43hdfd78af_3: sha256:f3bfbc892c1d281045ef6bdf342d5ad1e6fd29758f8773839c249843e082257f
 docker: quay.io/biocontainers/bioconductor-ygs98.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

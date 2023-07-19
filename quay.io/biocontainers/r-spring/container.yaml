@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-spring
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-spring
 latest:
-  1.0.4--r42hdfd78af_1: sha256:23e173800f588f5de0b7f24d10f0b9a060fceaee2d77ec68cb1dc663cf98a197
+  1.0.4--r43hdfd78af_2: sha256:58252cf4d8678d49f50015428ca760592c6cf37c1c57f0f93deed60bcf354090
 tags:
   1.0.4--r42hdfd78af_1: sha256:23e173800f588f5de0b7f24d10f0b9a060fceaee2d77ec68cb1dc663cf98a197
+  1.0.4--r43hdfd78af_2: sha256:58252cf4d8678d49f50015428ca760592c6cf37c1c57f0f93deed60bcf354090
 docker: quay.io/biocontainers/r-spring
 aliases:
   glpsol: /usr/local/bin/glpsol

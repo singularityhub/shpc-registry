@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-prostatecancervarambally
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-prostatecancervarambally
 latest:
-  1.26.0--r42hdfd78af_0: sha256:87a534a2c6fd75b256c074e316ad73f63732fdf63caa5a33da826671612a49f0
+  1.28.0--r43hdfd78af_0: sha256:689963344fc7460a9e2c8ba6387262e6bfd55e2ba003ef5e75f00b2852163986
 tags:
   1.22.0--r41hdfd78af_1: sha256:cf62f25a049f839bb6e5720445d3d1676b94d8ea39c63c488678978f4c784b7f
   1.26.0--r42hdfd78af_0: sha256:87a534a2c6fd75b256c074e316ad73f63732fdf63caa5a33da826671612a49f0
+  1.28.0--r43hdfd78af_0: sha256:689963344fc7460a9e2c8ba6387262e6bfd55e2ba003ef5e75f00b2852163986
 docker: quay.io/biocontainers/bioconductor-prostatecancervarambally

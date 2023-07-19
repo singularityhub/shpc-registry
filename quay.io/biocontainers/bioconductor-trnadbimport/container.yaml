@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-trnadbimport
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trnadbimport
 latest:
-  1.16.0--r42hdfd78af_0: sha256:c90f1057ee7ad3c83febb361a1db4afbc98c441fe7337ad49e50caed4372123b
+  1.18.0--r43hdfd78af_0: sha256:25248939062678f01fa4cc76e591c02ab268755f3a1234395a592c26b1f5d996
 tags:
   1.8.0--r40hdfd78af_1: sha256:8ae6e1daf09f6370170f98a11526c2bf0cc86ed0ff28e14fce23a78e0840e37b
   1.16.0--r42hdfd78af_0: sha256:c90f1057ee7ad3c83febb361a1db4afbc98c441fe7337ad49e50caed4372123b
   1.12.0--r41hdfd78af_0: sha256:87c0a63cc737d26139c1e0cf1b0fca1264334baf9370ee2afce2d69f717dbe43
   1.10.0--r41hdfd78af_0: sha256:ba07f60d00970076d6d2699d0b152156375ae63c70951d1a658119439deacccd
+  1.18.0--r43hdfd78af_0: sha256:25248939062678f01fa4cc76e591c02ab268755f3a1234395a592c26b1f5d996
 docker: quay.io/biocontainers/bioconductor-trnadbimport
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

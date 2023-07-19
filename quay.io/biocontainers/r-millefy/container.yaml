@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-millefy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-millefy
 latest:
-  0.1.9--r42h9ee0642_1: sha256:dbf2dba5237e58e07f456b7658965be4496d94d63566ab6de0887cd9de52ce15
+  0.1.9--r43h9ee0642_2: sha256:4e74c6a985cb73b94a973cdf00f12e42d39cc62cc709a3382bb4f82bd1c159a5
 tags:
   0.1.9--r42h9ee0642_1: sha256:dbf2dba5237e58e07f456b7658965be4496d94d63566ab6de0887cd9de52ce15
+  0.1.9--r43h9ee0642_2: sha256:4e74c6a985cb73b94a973cdf00f12e42d39cc62cc709a3382bb4f82bd1c159a5
 docker: quay.io/biocontainers/r-millefy
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

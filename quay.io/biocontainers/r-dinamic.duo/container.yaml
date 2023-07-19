@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-dinamic.duo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-dinamic.duo
 latest:
-  1.0.2--r42h3121a25_1: sha256:4cec869ce59131bb39186bca3e641f4ad9420998ebdcca3cf112711bd982123f
+  1.0.2--r43h3121a25_2: sha256:03f9e05c7166ec2cec56e61d19582f3581edb48437244dea59423b4e57635a77
 tags:
   1.0.1--r42h3121a25_1: sha256:f4b1b3d00e3c9bc1dbd27f24751c720349d2f6f8b9998ee4f7df265950ec707a
   1.0.2--r42h3121a25_1: sha256:4cec869ce59131bb39186bca3e641f4ad9420998ebdcca3cf112711bd982123f
+  1.0.2--r43h3121a25_2: sha256:03f9e05c7166ec2cec56e61d19582f3581edb48437244dea59423b4e57635a77
 docker: quay.io/biocontainers/r-dinamic.duo
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

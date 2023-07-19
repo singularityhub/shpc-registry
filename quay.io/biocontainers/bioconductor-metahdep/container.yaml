@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-metahdep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metahdep
 latest:
-  1.56.0--r42ha9d7317_2: sha256:9bbeb7632fe1fd6e74f6edf04b5e28a6bcce2708facf9577717654a71be5f180
+  1.58.0--r43ha9d7317_0: sha256:1d6f0bc31e84d59722487b63a43be67716fd802af55a310f24cd96c0536758d4
 tags:
   1.52.0--r41hc0cfd56_2: sha256:7a582dda6071d6128d6a772acb70b9b34927477b924d75a824b38d82e84e4ad6
   1.56.0--r42hc0cfd56_0: sha256:e5ba4efb5e29b24e0f31b47b1853af3b6b735a43e867ceb376871c58d7c74d57
   1.56.0--r42ha9d7317_2: sha256:9bbeb7632fe1fd6e74f6edf04b5e28a6bcce2708facf9577717654a71be5f180
+  1.58.0--r43ha9d7317_0: sha256:1d6f0bc31e84d59722487b63a43be67716fd802af55a310f24cd96c0536758d4
 docker: quay.io/biocontainers/bioconductor-metahdep

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-genomicsupersignature
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genomicsupersignature
 latest:
-  1.6.0--r42hdfd78af_0: sha256:a9e356680040702a658e15623a4456070c2d07b23d24a1c60eaf06466093cd0c
+  1.8.0--r43hdfd78af_0: sha256:c4672884b27b7c3e3df3e4ac033b338c7fd269392143db9fe621d4591d9b7ab1
 tags:
   1.2.0--r41hdfd78af_0: sha256:96a5cd7a3ba792eca18635401fe51f454376752408fea6b329c0890813860a49
   1.6.0--r42hdfd78af_0: sha256:a9e356680040702a658e15623a4456070c2d07b23d24a1c60eaf06466093cd0c
+  1.8.0--r43hdfd78af_0: sha256:c4672884b27b7c3e3df3e4ac033b338c7fd269392143db9fe621d4591d9b7ab1
 docker: quay.io/biocontainers/bioconductor-genomicsupersignature
 aliases:
   pandoc: /usr/local/bin/pandoc

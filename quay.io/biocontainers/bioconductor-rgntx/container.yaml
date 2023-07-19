@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rgntx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rgntx
 latest:
-  1.0.0--r42hdfd78af_0: sha256:d62ed8e339a367633f8f40d472322a0eaa8f343cd6becdcbc880cefc05c9883c
+  1.2.0--r43hdfd78af_0: sha256:9ff210c6f9ca475f299977f96afc6dc76d62a1505c165a096ac6456ac9fc8848
 tags:
   1.0.0--r42hdfd78af_0: sha256:d62ed8e339a367633f8f40d472322a0eaa8f343cd6becdcbc880cefc05c9883c
+  1.2.0--r43hdfd78af_0: sha256:9ff210c6f9ca475f299977f96afc6dc76d62a1505c165a096ac6456ac9fc8848
 docker: quay.io/biocontainers/bioconductor-rgntx
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

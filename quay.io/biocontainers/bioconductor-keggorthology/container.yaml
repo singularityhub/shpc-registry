@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-keggorthology
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-keggorthology
 latest:
-  2.50.0--r42hdfd78af_0: sha256:db5d891144d528b002b4d6d5434876f9a40cd124e8fc7c2cb0bb3716cadcc921
+  2.52.0--r43hdfd78af_0: sha256:11d2414d7817109ced9e8500f053ca7e7ab930ed90d2457bab9082d8df5506c8
 tags:
   2.46.0--r41hdfd78af_0: sha256:b2e25a67727271337501c7e2317502ddedee477fea5d858a3ac800f4f5ff1cb3
   2.50.0--r42hdfd78af_0: sha256:db5d891144d528b002b4d6d5434876f9a40cd124e8fc7c2cb0bb3716cadcc921
+  2.52.0--r43hdfd78af_0: sha256:11d2414d7817109ced9e8500f053ca7e7ab930ed90d2457bab9082d8df5506c8
 docker: quay.io/biocontainers/bioconductor-keggorthology

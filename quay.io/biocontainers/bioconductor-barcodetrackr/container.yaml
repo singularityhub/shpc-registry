@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-barcodetrackr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-barcodetrackr
 latest:
-  1.6.0--r42hdfd78af_0: sha256:a658721edee1c8ca237cf3670605072b9e25706b2745dc9dcceeecf273506f82
+  1.8.0--r43hdfd78af_0: sha256:9fc5bc8bf074aa1362ab9ec5dabd56a8a93a9b880145380ecbc80cc900a756af
 tags:
   1.2.0--r41hdfd78af_0: sha256:c920bd9215d067e9a186932f8659e1af1aada1a88c70129518b0af275239af16
   1.6.0--r42hdfd78af_0: sha256:a658721edee1c8ca237cf3670605072b9e25706b2745dc9dcceeecf273506f82
+  1.8.0--r43hdfd78af_0: sha256:9fc5bc8bf074aa1362ab9ec5dabd56a8a93a9b880145380ecbc80cc900a756af
 docker: quay.io/biocontainers/bioconductor-barcodetrackr
