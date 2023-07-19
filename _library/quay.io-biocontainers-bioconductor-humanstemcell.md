@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-humanstemcell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humanstemcell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humanstemcell/container.yaml"
-updated_at: "2023-07-18 03:26:50.335039"
-latest: "0.38.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:08:01.171929"
+latest: "0.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humanstemcell"
 
 versions:
  - "0.34.0--r41hdfd78af_1"
  - "0.38.0--r42hdfd78af_0"
+ - "0.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-humanstemcell"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-humanstemcell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humanstemcell", "latest": {"0.38.0--r42hdfd78af_0": "sha256:cad5c911521c3e8a2999dd0e434783cc78cc8f2a85b1a8e1df24d8505b81b8c8"}, "tags": {"0.34.0--r41hdfd78af_1": "sha256:4b8d46e1d738ebd8470b72ea25dc9fff33b5f9e95cb3b26e5dbeac478da89f36", "0.38.0--r42hdfd78af_0": "sha256:cad5c911521c3e8a2999dd0e434783cc78cc8f2a85b1a8e1df24d8505b81b8c8"}, "docker": "quay.io/biocontainers/bioconductor-humanstemcell"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-humanstemcell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humanstemcell", "latest": {"0.40.0--r43hdfd78af_0": "sha256:7493972944c1471e7975c6150b87da5c5548a398c44e1dd4b198c9e3f6f3b343"}, "tags": {"0.34.0--r41hdfd78af_1": "sha256:4b8d46e1d738ebd8470b72ea25dc9fff33b5f9e95cb3b26e5dbeac478da89f36", "0.38.0--r42hdfd78af_0": "sha256:cad5c911521c3e8a2999dd0e434783cc78cc8f2a85b1a8e1df24d8505b81b8c8", "0.40.0--r43hdfd78af_0": "sha256:7493972944c1471e7975c6150b87da5c5548a398c44e1dd4b198c9e3f6f3b343"}, "docker": "quay.io/biocontainers/bioconductor-humanstemcell"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-humanstemcell.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-humanstemcell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-humanstemcell:0.38.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-humanstemcell:0.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-humanstemcell/0.38.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-humanstemcell/0.38.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-humanstemcell/0.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-humanstemcell/0.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

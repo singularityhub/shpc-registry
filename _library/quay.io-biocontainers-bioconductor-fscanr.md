@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-fscanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fscanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fscanr/container.yaml"
-updated_at: "2023-07-18 03:25:53.327602"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:07:06.903554"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fscanr"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fscanr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fscanr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fscanr", "latest": {"1.8.0--r42hdfd78af_0": "sha256:5252fe04429357d83f487a2941dc75dc4148d452546efae95088fc985958741a"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:c7ba85a2d37689acbeabbaeb2f8160ae7b89c7de5139255b0ee16778391589b9", "1.8.0--r42hdfd78af_0": "sha256:5252fe04429357d83f487a2941dc75dc4148d452546efae95088fc985958741a"}, "docker": "quay.io/biocontainers/bioconductor-fscanr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fscanr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fscanr", "latest": {"1.10.0--r43hdfd78af_0": "sha256:768aa38242d132ba8eef17eada72eb2b6dc6f91750ec2b5b7c0e0d4a07fdd8f8"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:c7ba85a2d37689acbeabbaeb2f8160ae7b89c7de5139255b0ee16778391589b9", "1.8.0--r42hdfd78af_0": "sha256:5252fe04429357d83f487a2941dc75dc4148d452546efae95088fc985958741a", "1.10.0--r43hdfd78af_0": "sha256:768aa38242d132ba8eef17eada72eb2b6dc6f91750ec2b5b7c0e0d4a07fdd8f8"}, "docker": "quay.io/biocontainers/bioconductor-fscanr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fscanr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fscanr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fscanr:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fscanr:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fscanr/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fscanr/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fscanr/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fscanr/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38/container.yaml"
-updated_at: "2023-07-18 03:31:23.564701"
-latest: "3.10.0--r42hdfd78af_7"
+updated_at: "2023-07-19 04:12:12.447890"
+latest: "3.10.0--r43hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase3.grch38"
 aliases:
  - "gio-launch-desktop"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "3.7.0--r36_2"
  - "3.10.0--r42hdfd78af_7"
+ - "3.10.0--r43hdfd78af_8"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.1kgenomes.phase3.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase3.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.1kgenomes.phase3.grch38", "latest": {"3.10.0--r42hdfd78af_7": "sha256:baf0d35a22fdf6a3476313761a9c022ae02cab9e1b4d1c8b15ae4169fdf7b7c6"}, "tags": {"3.7.0--r36_2": "sha256:890463822e8afd00183a267e772e3794b46e34899f55ca548a04d4e6ca72b311", "3.10.0--r42hdfd78af_7": "sha256:baf0d35a22fdf6a3476313761a9c022ae02cab9e1b4d1c8b15ae4169fdf7b7c6"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase3.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.1kgenomes.phase3.grch38", "latest": {"3.10.0--r43hdfd78af_8": "sha256:50beb4e59150b112a2e39e8c0cd05f9c1cb8b6716c8225788b10b8fe6c9df7b8"}, "tags": {"3.7.0--r36_2": "sha256:890463822e8afd00183a267e772e3794b46e34899f55ca548a04d4e6ca72b311", "3.10.0--r42hdfd78af_7": "sha256:baf0d35a22fdf6a3476313761a9c022ae02cab9e1b4d1c8b15ae4169fdf7b7c6", "3.10.0--r43hdfd78af_8": "sha256:50beb4e59150b112a2e39e8c0cd05f9c1cb8b6716c8225788b10b8fe6c9df7b8"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38:3.10.0--r42hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38:3.10.0--r43hdfd78af_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38/3.10.0--r42hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38/3.10.0--r42hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38/3.10.0--r43hdfd78af_8
+$ module help quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38/3.10.0--r43hdfd78af_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

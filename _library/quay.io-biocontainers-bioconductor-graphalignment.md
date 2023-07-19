@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-graphalignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graphalignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graphalignment/container.yaml"
-updated_at: "2023-07-18 03:39:08.099706"
-latest: "1.62.0--r42ha9d7317_2"
+updated_at: "2023-07-19 04:19:41.445493"
+latest: "1.64.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-graphalignment"
 
 versions:
  - "1.58.0--r41hc0cfd56_2"
  - "1.62.0--r42hc0cfd56_0"
  - "1.62.0--r42ha9d7317_2"
+ - "1.64.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-graphalignment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-graphalignment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graphalignment", "latest": {"1.62.0--r42ha9d7317_2": "sha256:aaf500dbe4daf5c97539b3ce0be93ea5e372b567e121231d22ef082ab85e2324"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:ed5eb1a24c546d2d320f780dbeb3c1762fa76e8f48149abd42e61a36c39ec824", "1.62.0--r42hc0cfd56_0": "sha256:ef71b7f4f622167a8fd11bd61160c5659c8eb1334e9ad221851d22714439e151", "1.62.0--r42ha9d7317_2": "sha256:aaf500dbe4daf5c97539b3ce0be93ea5e372b567e121231d22ef082ab85e2324"}, "docker": "quay.io/biocontainers/bioconductor-graphalignment"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-graphalignment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graphalignment", "latest": {"1.64.0--r43ha9d7317_0": "sha256:86761e750c2acf8d1cead97b9202385ec46e3ea55972ec6f371ac61ea0d909df"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:ed5eb1a24c546d2d320f780dbeb3c1762fa76e8f48149abd42e61a36c39ec824", "1.62.0--r42hc0cfd56_0": "sha256:ef71b7f4f622167a8fd11bd61160c5659c8eb1334e9ad221851d22714439e151", "1.62.0--r42ha9d7317_2": "sha256:aaf500dbe4daf5c97539b3ce0be93ea5e372b567e121231d22ef082ab85e2324", "1.64.0--r43ha9d7317_0": "sha256:86761e750c2acf8d1cead97b9202385ec46e3ea55972ec6f371ac61ea0d909df"}, "docker": "quay.io/biocontainers/bioconductor-graphalignment"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-graphalignment.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-graphalignment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-graphalignment:1.62.0--r42ha9d7317_2
+$ shpc install quay.io/biocontainers/bioconductor-graphalignment:1.64.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-graphalignment/1.62.0--r42ha9d7317_2
-$ module help quay.io/biocontainers/bioconductor-graphalignment/1.62.0--r42ha9d7317_2
+$ module load quay.io/biocontainers/bioconductor-graphalignment/1.64.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-graphalignment/1.64.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

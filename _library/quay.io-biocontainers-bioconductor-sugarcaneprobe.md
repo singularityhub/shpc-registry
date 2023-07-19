@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-sugarcaneprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sugarcaneprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sugarcaneprobe/container.yaml"
-updated_at: "2023-07-18 03:09:13.229971"
-latest: "2.18.0--r42hdfd78af_11"
+updated_at: "2023-07-19 03:51:46.507993"
+latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-sugarcaneprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_11"
+ - "2.18.0--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-sugarcaneprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sugarcaneprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sugarcaneprobe", "latest": {"2.18.0--r42hdfd78af_11": "sha256:a6a09b2ed21c529cd3e833871e71d319d6ac7d59e4ca869d7ef7e58d7ce294f3"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:53f28be5637da45715f7653550687debb1df806a6a5481b9471d398dbb372abd", "2.18.0--r42hdfd78af_11": "sha256:a6a09b2ed21c529cd3e833871e71d319d6ac7d59e4ca869d7ef7e58d7ce294f3"}, "docker": "quay.io/biocontainers/bioconductor-sugarcaneprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sugarcaneprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sugarcaneprobe", "latest": {"2.18.0--r43hdfd78af_12": "sha256:86599a8d56544d81cee0af39d247bc80fcc9dfb2ed985641abac0a78227f7caa"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:53f28be5637da45715f7653550687debb1df806a6a5481b9471d398dbb372abd", "2.18.0--r42hdfd78af_11": "sha256:a6a09b2ed21c529cd3e833871e71d319d6ac7d59e4ca869d7ef7e58d7ce294f3", "2.18.0--r43hdfd78af_12": "sha256:86599a8d56544d81cee0af39d247bc80fcc9dfb2ed985641abac0a78227f7caa"}, "docker": "quay.io/biocontainers/bioconductor-sugarcaneprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sugarcaneprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sugarcaneprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sugarcaneprobe:2.18.0--r42hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-sugarcaneprobe:2.18.0--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sugarcaneprobe/2.18.0--r42hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-sugarcaneprobe/2.18.0--r42hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-sugarcaneprobe/2.18.0--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-sugarcaneprobe/2.18.0--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

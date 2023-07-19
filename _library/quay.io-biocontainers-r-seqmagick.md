@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-seqmagick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seqmagick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seqmagick/container.yaml"
-updated_at: "2023-07-18 03:43:51.629879"
+updated_at: "2023-07-19 04:24:16.385483"
 latest: "0.1.5--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-seqmagick"
 

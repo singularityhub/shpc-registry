@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-crisprscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprscore/container.yaml"
-updated_at: "2023-07-18 03:28:09.144781"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:09:12.804927"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprscore"
 aliases:
  - "installBiocDataPackage.sh"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.2.0--r42hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-crisprscore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprscore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-crisprscore", "latest": {"1.2.0--r42hdfd78af_0": "sha256:fe92329f06a2c347a95a52d0809aad91514f00059ee0fb40ce2a96aed935b40b"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:fe92329f06a2c347a95a52d0809aad91514f00059ee0fb40ce2a96aed935b40b"}, "docker": "quay.io/biocontainers/bioconductor-crisprscore", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprscore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-crisprscore", "latest": {"1.4.0--r43hdfd78af_0": "sha256:85e01f0d23a5ddb730c5f650fd806d383a6952c865486c6ad4d2c20c192eb4fc"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:fe92329f06a2c347a95a52d0809aad91514f00059ee0fb40ce2a96aed935b40b", "1.4.0--r43hdfd78af_0": "sha256:85e01f0d23a5ddb730c5f650fd806d383a6952c865486c6ad4d2c20c192eb4fc"}, "docker": "quay.io/biocontainers/bioconductor-crisprscore", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crisprscore.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-crisprscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-crisprscore:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-crisprscore:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-crisprscore/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-crisprscore/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-crisprscore/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-crisprscore/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

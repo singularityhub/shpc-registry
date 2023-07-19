@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-flowvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowvs/container.yaml"
-updated_at: "2023-07-18 03:41:56.347967"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:22:25.438901"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowvs"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
  - "1.30.0--r42hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowvs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowvs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowvs", "latest": {"1.30.0--r42hdfd78af_0": "sha256:129ce177a913ac79d0fb26b30dc7076e2020a8742db5b61694d3942089f58474"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:fb17c462bac7cc5a099269be716dbe621fec44400cdf300117e6786ae2e17282", "1.30.0--r42hdfd78af_0": "sha256:129ce177a913ac79d0fb26b30dc7076e2020a8742db5b61694d3942089f58474"}, "docker": "quay.io/biocontainers/bioconductor-flowvs"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowvs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowvs", "latest": {"1.32.0--r43hdfd78af_0": "sha256:324fcb01f9bfa7a4a6ccf589653e6a5350392bbb162766ae03c49d1137b1c847"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:fb17c462bac7cc5a099269be716dbe621fec44400cdf300117e6786ae2e17282", "1.30.0--r42hdfd78af_0": "sha256:129ce177a913ac79d0fb26b30dc7076e2020a8742db5b61694d3942089f58474", "1.32.0--r43hdfd78af_0": "sha256:324fcb01f9bfa7a4a6ccf589653e6a5350392bbb162766ae03c49d1137b1c847"}, "docker": "quay.io/biocontainers/bioconductor-flowvs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowvs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowvs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowvs:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowvs:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowvs/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowvs/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowvs/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowvs/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

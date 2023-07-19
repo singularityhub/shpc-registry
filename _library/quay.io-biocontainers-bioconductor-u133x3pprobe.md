@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-u133x3pprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-u133x3pprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-u133x3pprobe/container.yaml"
-updated_at: "2023-07-18 03:07:55.998422"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-19 03:50:37.760964"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-u133x3pprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-u133x3pprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-u133x3pprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-u133x3pprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:d0ff40c9ca06a76fed9fc1704ca839a2fc74b06b6127e4b2a802c02d59ed28d8"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:f86f0465972f0d01170f7028a9361f4e0c9e5aa1da45c72f13e3d14ec94d98c6", "2.18.0--r42hdfd78af_10": "sha256:d0ff40c9ca06a76fed9fc1704ca839a2fc74b06b6127e4b2a802c02d59ed28d8"}, "docker": "quay.io/biocontainers/bioconductor-u133x3pprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-u133x3pprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-u133x3pprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:0d7db423d91fe3bf0ceb003ad840e0146618d37f1d331d9eb3d280f35388f30a"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:f86f0465972f0d01170f7028a9361f4e0c9e5aa1da45c72f13e3d14ec94d98c6", "2.18.0--r42hdfd78af_10": "sha256:d0ff40c9ca06a76fed9fc1704ca839a2fc74b06b6127e4b2a802c02d59ed28d8", "2.18.0--r43hdfd78af_11": "sha256:0d7db423d91fe3bf0ceb003ad840e0146618d37f1d331d9eb3d280f35388f30a"}, "docker": "quay.io/biocontainers/bioconductor-u133x3pprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-u133x3pprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-u133x3pprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-u133x3pprobe:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-u133x3pprobe:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-u133x3pprobe/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-u133x3pprobe/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-u133x3pprobe/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-u133x3pprobe/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

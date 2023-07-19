@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgcod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgcod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgcod/container.yaml"
-updated_at: "2023-07-18 03:15:18.335286"
+updated_at: "2023-07-19 03:57:25.321328"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mgcod"
 aliases:

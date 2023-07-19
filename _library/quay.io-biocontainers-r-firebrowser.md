@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-firebrowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-firebrowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-firebrowser/container.yaml"
-updated_at: "2023-07-18 03:17:30.542883"
-latest: "1.1.35--r42hdfd78af_4"
+updated_at: "2023-07-19 03:59:28.011968"
+latest: "1.1.35--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-firebrowser"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.35--r41hdfd78af_3"
  - "1.1.35--r42hdfd78af_4"
+ - "1.1.35--r43hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-firebrowser"
-config: {"url": "https://biocontainers.pro/tools/r-firebrowser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-firebrowser", "latest": {"1.1.35--r42hdfd78af_4": "sha256:21677c6daa74488b8e1ec5c3b98784dbf4bb8efc43bf7a545300d55e7951bfb9"}, "tags": {"1.1.35--r41hdfd78af_3": "sha256:b7434e714be97ced7ae28c9471144a4c199f481561d063a34dc53056cb2e4f5b", "1.1.35--r42hdfd78af_4": "sha256:21677c6daa74488b8e1ec5c3b98784dbf4bb8efc43bf7a545300d55e7951bfb9"}, "docker": "quay.io/biocontainers/r-firebrowser", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-firebrowser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-firebrowser", "latest": {"1.1.35--r43hdfd78af_5": "sha256:0b4e610eccdef3ded253114bc475ca3ed25eb330d11ea0cfbd805f2964a91c0a"}, "tags": {"1.1.35--r41hdfd78af_3": "sha256:b7434e714be97ced7ae28c9471144a4c199f481561d063a34dc53056cb2e4f5b", "1.1.35--r42hdfd78af_4": "sha256:21677c6daa74488b8e1ec5c3b98784dbf4bb8efc43bf7a545300d55e7951bfb9", "1.1.35--r43hdfd78af_5": "sha256:0b4e610eccdef3ded253114bc475ca3ed25eb330d11ea0cfbd805f2964a91c0a"}, "docker": "quay.io/biocontainers/r-firebrowser", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-firebrowser.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-firebrowser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-firebrowser:1.1.35--r42hdfd78af_4
+$ shpc install quay.io/biocontainers/r-firebrowser:1.1.35--r43hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-firebrowser/1.1.35--r42hdfd78af_4
-$ module help quay.io/biocontainers/r-firebrowser/1.1.35--r42hdfd78af_4
+$ module load quay.io/biocontainers/r-firebrowser/1.1.35--r43hdfd78af_5
+$ module help quay.io/biocontainers/r-firebrowser/1.1.35--r43hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

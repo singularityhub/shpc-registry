@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-receptloss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-receptloss/container.yaml"
-updated_at: "2023-07-18 03:25:11.487137"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:06:28.973673"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-receptloss"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-receptloss"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-receptloss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-receptloss", "latest": {"1.10.0--r42hdfd78af_0": "sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a", "1.10.0--r42hdfd78af_0": "sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c"}, "docker": "quay.io/biocontainers/bioconductor-receptloss"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-receptloss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-receptloss", "latest": {"1.12.0--r43hdfd78af_0": "sha256:35c5a55fb59b3cf84620f66094cf6d978f2fe72d31fc20dbc21fb76faec374b2"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a", "1.10.0--r42hdfd78af_0": "sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c", "1.12.0--r43hdfd78af_0": "sha256:35c5a55fb59b3cf84620f66094cf6d978f2fe72d31fc20dbc21fb76faec374b2"}, "docker": "quay.io/biocontainers/bioconductor-receptloss"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-receptloss.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-receptloss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-receptloss:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-receptloss:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-receptloss/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-receptloss/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-receptloss/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-receptloss/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

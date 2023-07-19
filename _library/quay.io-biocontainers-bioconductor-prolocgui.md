@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-prolocgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prolocgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prolocgui/container.yaml"
-updated_at: "2023-07-18 03:24:02.285845"
-latest: "2.8.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:05:26.513297"
+latest: "2.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prolocgui"
 aliases:
  - "zipcmp"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "2.4.0--r41hdfd78af_0"
  - "2.8.0--r42hdfd78af_0"
+ - "2.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prolocgui"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prolocgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prolocgui", "latest": {"2.8.0--r42hdfd78af_0": "sha256:71759cfb61040e3a0b5d7d026bea67f331c6e12548aab70041ccf0ac2f89b804"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:8c3c33b6f080ad4a2cdb3218e3cdb719d663aada4fc0c24a348e25a3bdf09fe4", "2.8.0--r42hdfd78af_0": "sha256:71759cfb61040e3a0b5d7d026bea67f331c6e12548aab70041ccf0ac2f89b804"}, "docker": "quay.io/biocontainers/bioconductor-prolocgui", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prolocgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prolocgui", "latest": {"2.10.0--r43hdfd78af_0": "sha256:8aa0efc0d95cb2cb583822e559863f67849c0a2208aa2dbc47986836b43e0d34"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:8c3c33b6f080ad4a2cdb3218e3cdb719d663aada4fc0c24a348e25a3bdf09fe4", "2.8.0--r42hdfd78af_0": "sha256:71759cfb61040e3a0b5d7d026bea67f331c6e12548aab70041ccf0ac2f89b804", "2.10.0--r43hdfd78af_0": "sha256:8aa0efc0d95cb2cb583822e559863f67849c0a2208aa2dbc47986836b43e0d34"}, "docker": "quay.io/biocontainers/bioconductor-prolocgui", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prolocgui.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prolocgui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prolocgui:2.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-prolocgui:2.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prolocgui/2.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-prolocgui/2.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-prolocgui/2.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-prolocgui/2.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

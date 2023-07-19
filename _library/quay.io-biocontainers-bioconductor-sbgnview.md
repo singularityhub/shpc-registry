@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-sbgnview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sbgnview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sbgnview/container.yaml"
-updated_at: "2023-07-18 03:52:34.304719"
-latest: "1.12.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:32:44.883942"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sbgnview"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sbgnview"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sbgnview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sbgnview", "latest": {"1.12.0--r42hdfd78af_0": "sha256:dda30655aac932e18d01ca8e3684a42c31e00e416efa9b0290a0aff7313f33af"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:66bc6406f9e1b7e0790074fbced0152fc24e4436c3ce0d67faec628f807aa558", "1.12.0--r42hdfd78af_0": "sha256:dda30655aac932e18d01ca8e3684a42c31e00e416efa9b0290a0aff7313f33af"}, "docker": "quay.io/biocontainers/bioconductor-sbgnview"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sbgnview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sbgnview", "latest": {"1.14.0--r43hdfd78af_0": "sha256:3a1c0af081370c8982237853486decd929e4f8389aca81de84aabd20ae0b5593"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:66bc6406f9e1b7e0790074fbced0152fc24e4436c3ce0d67faec628f807aa558", "1.12.0--r42hdfd78af_0": "sha256:dda30655aac932e18d01ca8e3684a42c31e00e416efa9b0290a0aff7313f33af", "1.14.0--r43hdfd78af_0": "sha256:3a1c0af081370c8982237853486decd929e4f8389aca81de84aabd20ae0b5593"}, "docker": "quay.io/biocontainers/bioconductor-sbgnview"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sbgnview.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sbgnview
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sbgnview:1.12.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sbgnview:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sbgnview/1.12.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sbgnview/1.12.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sbgnview/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sbgnview/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

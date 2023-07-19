@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/duet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duet/container.yaml"
-updated_at: "2023-07-18 03:11:31.998511"
-latest: "0.6--pyhdfd78af_0"
+updated_at: "2023-07-19 03:53:52.422090"
+latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/duet"
 aliases:
  - "clair3.py"
@@ -34,8 +34,9 @@ aliases:
 versions:
  - "0.5--pyhdfd78af_0"
  - "0.6--pyhdfd78af_0"
+ - "1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for duet"
-config: {"url": "https://biocontainers.pro/tools/duet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duet", "latest": {"0.6--pyhdfd78af_0": "sha256:dea721d00a012a6602ee805b9d99dd56b280cfb38f328ffb3c436698c1b8e2f0"}, "tags": {"0.5--pyhdfd78af_0": "sha256:ea0c1b422b8a9d812bc429e77ed8c45724e1a13fd51f981eaf1224be4e583920", "0.6--pyhdfd78af_0": "sha256:dea721d00a012a6602ee805b9d99dd56b280cfb38f328ffb3c436698c1b8e2f0"}, "docker": "quay.io/biocontainers/duet", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "cuteSV": "/usr/local/bin/cuteSV", "duet": "/usr/local/bin/duet", "libclair3.c": "/usr/local/bin/libclair3.c", "libclair3.o": "/usr/local/bin/libclair3.o", "longphase": "/usr/local/bin/longphase", "ngmlr": "/usr/local/bin/ngmlr", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3.sh": "/usr/local/bin/run_clair3.sh", "svim": "/usr/local/bin/svim", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2"}}
+config: {"url": "https://biocontainers.pro/tools/duet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duet", "latest": {"1.0--pyhdfd78af_0": "sha256:c6524eafc66f1f76ede7a6023730c650660facc6232c7a73c26edf1297ac3b97"}, "tags": {"0.5--pyhdfd78af_0": "sha256:ea0c1b422b8a9d812bc429e77ed8c45724e1a13fd51f981eaf1224be4e583920", "0.6--pyhdfd78af_0": "sha256:dea721d00a012a6602ee805b9d99dd56b280cfb38f328ffb3c436698c1b8e2f0", "1.0--pyhdfd78af_0": "sha256:c6524eafc66f1f76ede7a6023730c650660facc6232c7a73c26edf1297ac3b97"}, "docker": "quay.io/biocontainers/duet", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "cuteSV": "/usr/local/bin/cuteSV", "duet": "/usr/local/bin/duet", "libclair3.c": "/usr/local/bin/libclair3.c", "libclair3.o": "/usr/local/bin/libclair3.o", "longphase": "/usr/local/bin/longphase", "ngmlr": "/usr/local/bin/ngmlr", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3.sh": "/usr/local/bin/run_clair3.sh", "svim": "/usr/local/bin/svim", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/duet.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/duet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/duet:0.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/duet:1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/duet/0.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/duet/0.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/duet/1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/duet/1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

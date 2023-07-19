@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mcsurvdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcsurvdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcsurvdata/container.yaml"
-updated_at: "2023-07-18 03:03:56.447660"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-07-19 03:46:54.032942"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcsurvdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_1"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mcsurvdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mcsurvdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcsurvdata", "latest": {"1.16.0--r42hdfd78af_0": "sha256:9fbcd220ac784c3cfe984c332c848c439b14a8f0753ffeb5a44d66adab4d7b5f"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:b7d29cae7158e28fc11956e4b1fc3e6bf778c6d4b2015726f3ca40937b25fd9c", "1.16.0--r42hdfd78af_0": "sha256:9fbcd220ac784c3cfe984c332c848c439b14a8f0753ffeb5a44d66adab4d7b5f", "1.12.0--r41hdfd78af_1": "sha256:2c3ac0097216d2cce03efee51b0e9dd82d74846941c6b22296a64592cf443580", "1.10.0--r41hdfd78af_0": "sha256:ebf67a579c7ba9665c6c0d1e68326db522eb90ec635ebbf37b70425b5204a106"}, "docker": "quay.io/biocontainers/bioconductor-mcsurvdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mcsurvdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcsurvdata", "latest": {"1.18.0--r43hdfd78af_0": "sha256:cb8217c986daceaeb562f22d58a9fb43280d8708974ea8d47cde1b8e0d023a9f"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:b7d29cae7158e28fc11956e4b1fc3e6bf778c6d4b2015726f3ca40937b25fd9c", "1.16.0--r42hdfd78af_0": "sha256:9fbcd220ac784c3cfe984c332c848c439b14a8f0753ffeb5a44d66adab4d7b5f", "1.12.0--r41hdfd78af_1": "sha256:2c3ac0097216d2cce03efee51b0e9dd82d74846941c6b22296a64592cf443580", "1.10.0--r41hdfd78af_0": "sha256:ebf67a579c7ba9665c6c0d1e68326db522eb90ec635ebbf37b70425b5204a106", "1.18.0--r43hdfd78af_0": "sha256:cb8217c986daceaeb562f22d58a9fb43280d8708974ea8d47cde1b8e0d023a9f"}, "docker": "quay.io/biocontainers/bioconductor-mcsurvdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mcsurvdata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mcsurvdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mcsurvdata:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mcsurvdata:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mcsurvdata/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mcsurvdata/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mcsurvdata/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mcsurvdata/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

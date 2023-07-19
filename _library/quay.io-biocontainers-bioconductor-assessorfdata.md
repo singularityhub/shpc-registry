@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-assessorfdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-assessorfdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-assessorfdata/container.yaml"
-updated_at: "2023-07-18 03:21:39.709351"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:03:16.190750"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-assessorfdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_1"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-assessorfdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-assessorfdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-assessorfdata", "latest": {"1.16.0--r42hdfd78af_0": "sha256:7e5d3c79dfb02d1f01ddd2efe4978ce3e0177fdd6c5e0efddf8799a2f196090a"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d", "1.16.0--r42hdfd78af_0": "sha256:7e5d3c79dfb02d1f01ddd2efe4978ce3e0177fdd6c5e0efddf8799a2f196090a", "1.12.0--r41hdfd78af_1": "sha256:bb2957a01ae86c808d78368f7f6d5dd819273a64689c4923c6ee1d86400f2b9c", "1.10.0--r41hdfd78af_0": "sha256:d40f011b27b242aa448a01adc96584ae0c4a9ffec44757520c745147b7c0c54d"}, "docker": "quay.io/biocontainers/bioconductor-assessorfdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-assessorfdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-assessorfdata", "latest": {"1.18.0--r43hdfd78af_0": "sha256:c316c275f9417dfa6f3ea66797e4f56fc187082a65599ae1eec2f209e139c5e4"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d", "1.16.0--r42hdfd78af_0": "sha256:7e5d3c79dfb02d1f01ddd2efe4978ce3e0177fdd6c5e0efddf8799a2f196090a", "1.12.0--r41hdfd78af_1": "sha256:bb2957a01ae86c808d78368f7f6d5dd819273a64689c4923c6ee1d86400f2b9c", "1.10.0--r41hdfd78af_0": "sha256:d40f011b27b242aa448a01adc96584ae0c4a9ffec44757520c745147b7c0c54d", "1.18.0--r43hdfd78af_0": "sha256:c316c275f9417dfa6f3ea66797e4f56fc187082a65599ae1eec2f209e139c5e4"}, "docker": "quay.io/biocontainers/bioconductor-assessorfdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-assessorfdata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-assessorfdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-assessorfdata:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-assessorfdata:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-assessorfdata/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-assessorfdata/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-assessorfdata/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-assessorfdata/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-singlecellsignalr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecellsignalr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecellsignalr/container.yaml"
-updated_at: "2023-07-18 03:03:57.792300"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-07-19 03:46:55.323740"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecellsignalr"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-singlecellsignalr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecellsignalr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecellsignalr", "latest": {"1.10.0--r42hdfd78af_0": "sha256:1e4e1344bdabfaa761c876f12ce178a727bbc4799247a25d7bb06b983fb01e46"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:28c73bdec67d2f64237f307f5a0fa88816aec095473498fae170bb74e6a4a9d8", "1.10.0--r42hdfd78af_0": "sha256:1e4e1344bdabfaa761c876f12ce178a727bbc4799247a25d7bb06b983fb01e46"}, "docker": "quay.io/biocontainers/bioconductor-singlecellsignalr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecellsignalr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecellsignalr", "latest": {"1.12.0--r43hdfd78af_0": "sha256:f468f205c7b81caa46391b5628a213a39714b2b1556c11bcb5b3803d525b0ae6"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:28c73bdec67d2f64237f307f5a0fa88816aec095473498fae170bb74e6a4a9d8", "1.10.0--r42hdfd78af_0": "sha256:1e4e1344bdabfaa761c876f12ce178a727bbc4799247a25d7bb06b983fb01e46", "1.12.0--r43hdfd78af_0": "sha256:f468f205c7b81caa46391b5628a213a39714b2b1556c11bcb5b3803d525b0ae6"}, "docker": "quay.io/biocontainers/bioconductor-singlecellsignalr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-singlecellsignalr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-singlecellsignalr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-singlecellsignalr:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-singlecellsignalr:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-singlecellsignalr/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-singlecellsignalr/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-singlecellsignalr/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-singlecellsignalr/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

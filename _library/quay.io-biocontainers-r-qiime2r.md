@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qiime2r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qiime2r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qiime2r/container.yaml"
-updated_at: "2023-07-18 03:51:33.420667"
+updated_at: "2023-07-19 04:31:45.524914"
 latest: "0.99.20--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-qiime2r"
 aliases:

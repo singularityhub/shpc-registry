@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-annotationtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotationtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotationtools/container.yaml"
-updated_at: "2023-07-18 03:53:49.407658"
-latest: "1.72.0--r42hdfd78af_0"
+updated_at: "2023-07-19 04:33:55.705193"
+latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotationtools"
 
 versions:
  - "1.68.0--r41hdfd78af_0"
  - "1.72.0--r42hdfd78af_0"
+ - "1.74.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotationtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationtools", "latest": {"1.72.0--r42hdfd78af_0": "sha256:e2f67d06ee7fe47db2063276a9c1674911acd2c316ea7c5c898d387354931e14"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:2fcb54be94ffd3f08b8f5eca127f6522b39c145fb581b6f355676fd34b47d20c", "1.72.0--r42hdfd78af_0": "sha256:e2f67d06ee7fe47db2063276a9c1674911acd2c316ea7c5c898d387354931e14"}, "docker": "quay.io/biocontainers/bioconductor-annotationtools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationtools", "latest": {"1.74.0--r43hdfd78af_0": "sha256:d38af474ce98b392b6baf0944476d4baff9758a6a4246c970f57008b8e291cf7"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:2fcb54be94ffd3f08b8f5eca127f6522b39c145fb581b6f355676fd34b47d20c", "1.72.0--r42hdfd78af_0": "sha256:e2f67d06ee7fe47db2063276a9c1674911acd2c316ea7c5c898d387354931e14", "1.74.0--r43hdfd78af_0": "sha256:d38af474ce98b392b6baf0944476d4baff9758a6a4246c970f57008b8e291cf7"}, "docker": "quay.io/biocontainers/bioconductor-annotationtools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotationtools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-annotationtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-annotationtools:1.72.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-annotationtools:1.74.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-annotationtools/1.72.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-annotationtools/1.72.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-annotationtools/1.74.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-annotationtools/1.74.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

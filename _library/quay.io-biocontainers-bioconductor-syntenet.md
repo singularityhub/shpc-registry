@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-syntenet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-syntenet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-syntenet/container.yaml"
-updated_at: "2023-07-18 03:42:07.123768"
-latest: "1.0.0--r42hf17093f_1"
+updated_at: "2023-07-19 04:22:35.831665"
+latest: "1.2.4--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-syntenet"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r42hc247a5b_0"
  - "1.0.0--r42hf17093f_1"
+ - "1.2.4--r43hf17093f_0"
 description: "singularity registry hpc automated addition for bioconductor-syntenet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-syntenet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-syntenet", "latest": {"1.0.0--r42hf17093f_1": "sha256:c9f363fd99c5472ceae82eb1ac88c771e44eadb65cb010d4da4898a1c11f9081"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:038a44ae25dee3f72b9d4909cdd4316b73f27e03ebe1369966d20ce178f9d6f0", "1.0.0--r42hf17093f_1": "sha256:c9f363fd99c5472ceae82eb1ac88c771e44eadb65cb010d4da4898a1c11f9081"}, "docker": "quay.io/biocontainers/bioconductor-syntenet", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-syntenet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-syntenet", "latest": {"1.2.4--r43hf17093f_0": "sha256:81183a4b3078adada269017fcb385ef77ed5942c29f55211884925ae89e7535d"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:038a44ae25dee3f72b9d4909cdd4316b73f27e03ebe1369966d20ce178f9d6f0", "1.0.0--r42hf17093f_1": "sha256:c9f363fd99c5472ceae82eb1ac88c771e44eadb65cb010d4da4898a1c11f9081", "1.2.4--r43hf17093f_0": "sha256:81183a4b3078adada269017fcb385ef77ed5942c29f55211884925ae89e7535d"}, "docker": "quay.io/biocontainers/bioconductor-syntenet", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-syntenet.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-syntenet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-syntenet:1.0.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-syntenet:1.2.4--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-syntenet/1.0.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-syntenet/1.0.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-syntenet/1.2.4--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-syntenet/1.2.4--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
