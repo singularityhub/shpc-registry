@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-lintind
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-lintind
 latest:
-  1.2.0--r42hdfd78af_0: sha256:87a07db83e98fce552fc687fbc030956a492e4369bd1a80f4d01b8d154525108
+  1.4.0--r43hdfd78af_0: sha256:e7939e312365ed8b3e05072bdcc4b5ccf2aa7e6c2123fa8c6daffd81e7d60c60
 tags:
   1.2.0--r42hdfd78af_0: sha256:87a07db83e98fce552fc687fbc030956a492e4369bd1a80f4d01b8d154525108
+  1.4.0--r43hdfd78af_0: sha256:e7939e312365ed8b3e05072bdcc4b5ccf2aa7e6c2123fa8c6daffd81e7d60c60
 docker: quay.io/biocontainers/bioconductor-lintind
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

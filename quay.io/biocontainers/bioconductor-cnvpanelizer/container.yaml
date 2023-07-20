@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cnvpanelizer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cnvpanelizer
 latest:
-  1.30.0--r42hdfd78af_0: sha256:b2a04bb9207ad5f3a4b9e6f6a304fce6a23bc5cf0d814b85b1fc2df1944d2418
+  1.32.0--r43hdfd78af_0: sha256:497eb805fc21b5e5f3c2223b524e46b363222585976539393382f44ec12aa403
 tags:
   1.8.0--r3.4.1_0: sha256:f77929b5625af7599624cec042d5e04a334424acf75c75531050b53d594272bb
   1.30.0--r42hdfd78af_0: sha256:b2a04bb9207ad5f3a4b9e6f6a304fce6a23bc5cf0d814b85b1fc2df1944d2418
@@ -10,6 +10,7 @@ tags:
   1.22.0--r40hdfd78af_1: sha256:b041c4554d2cd666c8017132e9be33033bd4a425c60c1908d75ecef9f9575047
   1.20.0--r40_0: sha256:ab992494693f27272ec0f31ca88e569487baaf88370fa2584fb290dc94e50e21
   1.18.0--r36_0: sha256:6dd8c14e98d5b995d1ffdcebc571130e17071f8d580262f8665d7e48be056b13
+  1.32.0--r43hdfd78af_0: sha256:497eb805fc21b5e5f3c2223b524e46b363222585976539393382f44ec12aa403
 docker: quay.io/biocontainers/bioconductor-cnvpanelizer
 aliases:
   wget: /usr/local/bin/wget

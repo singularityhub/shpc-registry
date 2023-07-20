@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-cicero
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cicero
 latest:
-  1.16.0--r42hdfd78af_0: sha256:52b90d04de09df3b3ac0f1c6ebcb3d4058ebdb016a96ab3f726b2d785fdd4580
+  1.18.0--r43hdfd78af_0: sha256:8653c21ab9e320ee390346fc36471104a95a1c3d5df9afcc79be16d4ccf57589
 tags:
   1.8.1--r40hdfd78af_0: sha256:ce70a9b8950cb4754ad7cd583e303697b421695de5e4aca8d0cccbdc1d288875
   1.16.0--r42hdfd78af_0: sha256:52b90d04de09df3b3ac0f1c6ebcb3d4058ebdb016a96ab3f726b2d785fdd4580
   1.12.0--r41hdfd78af_0: sha256:9912b749ab283b99d6e432a5cf6d3add8ed3f023f14ba6a4b1c39cc788349bfe
   1.10.0--r41hdfd78af_0: sha256:5dacf76fdb12be538c1a2d905fb50aec0a607897606432754e24a338c786119f
+  1.18.0--r43hdfd78af_0: sha256:8653c21ab9e320ee390346fc36471104a95a1c3d5df9afcc79be16d4ccf57589
 docker: quay.io/biocontainers/bioconductor-cicero
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

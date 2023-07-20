@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cytoml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cytoml
 latest:
-  2.10.0--r42hbe66c35_0: sha256:eb650138707419d929ed5426fa4c3dcfc02c9e326fc82b899e7937ab5ee8fc01
+  2.12.0--r43h4605cfd_0: sha256:899db6ca58ad75c80ecf10157ee557c1ecd42b0cd0426f107ca8c28db7941542
 tags:
   2.6.0--r41hbe66c35_2: sha256:c7b96f10ed9224fea19ef630b3e0e61c16d644b6185d18a58f5c554794e53e4e
   2.10.0--r42hbe66c35_0: sha256:eb650138707419d929ed5426fa4c3dcfc02c9e326fc82b899e7937ab5ee8fc01
+  2.12.0--r43h4605cfd_0: sha256:899db6ca58ad75c80ecf10157ee557c1ecd42b0cd0426f107ca8c28db7941542
 docker: quay.io/biocontainers/bioconductor-cytoml

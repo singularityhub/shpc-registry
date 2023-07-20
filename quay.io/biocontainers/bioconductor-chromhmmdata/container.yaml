@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-chromhmmdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chromhmmdata
 latest:
-  0.99.2--r42hdfd78af_2: sha256:eac3189592a2d044eae1bde58b69a127791d494db13c4ad9bd8297046644bbfd
+  0.99.2--r43hdfd78af_3: sha256:8f4726701c890ca27870bbf9e68f45026fca289bbc2cd1ea33eea92a24a6c90a
 tags:
   0.99.2--r41hdfd78af_1: sha256:98c45eb5ce87ad8dd746a4a9746ff879cfe19c04eb40ba5ba8f2f8487a330935
   0.99.2--r42hdfd78af_2: sha256:eac3189592a2d044eae1bde58b69a127791d494db13c4ad9bd8297046644bbfd
+  0.99.2--r43hdfd78af_3: sha256:8f4726701c890ca27870bbf9e68f45026fca289bbc2cd1ea33eea92a24a6c90a
 docker: quay.io/biocontainers/bioconductor-chromhmmdata

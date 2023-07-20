@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-usort
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-usort
 latest:
-  1.24.0--r42hdfd78af_0: sha256:c1854337b11fff42592b24344d40033290c523169b33b33216435f9c8f9e37db
+  1.26.0--r43hdfd78af_0: sha256:39445ec6c5f8a3f1f1f34f7cf11e859d2234ff50a757b7d77fbc9595c65b7849
 tags:
   1.8.0--r351_0: sha256:e5be3add7266136d219020b0ab3d72450953aa79714fd9641b16dc3c3a378f9d
   1.24.0--r42hdfd78af_0: sha256:c1854337b11fff42592b24344d40033290c523169b33b33216435f9c8f9e37db
@@ -10,6 +10,7 @@ tags:
   1.18.0--r41hdfd78af_0: sha256:3a0ded100cd87b25a2e85533124e907f16b20a79242b05c9253932e23c3575e3
   1.16.0--r40hdfd78af_1: sha256:655bc721851a9b6e1e8afc25543c32f7fa9387a5dcf8cff267d1e97f2fa423ef
   1.14.0--r40_0: sha256:e1a0b1a9c633ae95fa4856a9f387dd98d3672390fac53fb1a3058ff8fa3c3465
+  1.26.0--r43hdfd78af_0: sha256:39445ec6c5f8a3f1f1f34f7cf11e859d2234ff50a757b7d77fbc9595c65b7849
 docker: quay.io/biocontainers/bioconductor-usort
 aliases:
   wget: /usr/local/bin/wget

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cogaps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cogaps
 latest:
-  3.18.0--r42hf17093f_1: sha256:3dd206adea1439eb9eab0cc36789d63ed0799cc5b9d67630fae64f6d13658d77
+  3.19.1--r43hf17093f_0: sha256:f1bb8d60ba11692cd41d29f82cb3e291ec84983baa6131c77c3d296b783f9c4b
 tags:
   3.8.0--r40h5f743cb_0: sha256:4af7df9c6e35c82751d7f6e5b69710ed5d03a73cf3db439717fb513f7f40b759
   3.18.0--r42hc247a5b_0: sha256:49d0b8f1d4004e1f7a5401dfe405d4237cbca772f48356ac7e32c900039560aa
@@ -10,6 +10,7 @@ tags:
   3.12.0--r41h399db7b_0: sha256:0d378736085dcd546d0d3c3df99bd4a838fda64ebc938325b51d845aa4d8775c
   3.10.0--r40h399db7b_1: sha256:aad6edec413d96294b344e528fa61e296410bfea632a2979c2c26d2ab63ffe1b
   3.18.0--r42hf17093f_1: sha256:3dd206adea1439eb9eab0cc36789d63ed0799cc5b9d67630fae64f6d13658d77
+  3.19.1--r43hf17093f_0: sha256:f1bb8d60ba11692cd41d29f82cb3e291ec84983baa6131c77c3d296b783f9c4b
 docker: quay.io/biocontainers/bioconductor-cogaps
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
