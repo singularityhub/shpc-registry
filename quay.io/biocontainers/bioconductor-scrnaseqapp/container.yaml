@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-scrnaseqapp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-scrnaseqapp
+latest:
+  1.0.1--r43hdfd78af_0: sha256:2a454057c9a681e20c1c4ddc57a113f156cb1708fc28a364197f4ddbeeab3674
+tags:
+  1.0.1--r43hdfd78af_0: sha256:2a454057c9a681e20c1c4ddc57a113f156cb1708fc28a364197f4ddbeeab3674
+docker: quay.io/biocontainers/bioconductor-scrnaseqapp
+aliases:
+  h5delete: /usr/local/bin/h5delete
+  geosop: /usr/local/bin/geosop
+  aec: /usr/local/bin/aec
+  geos-config: /usr/local/bin/geos-config
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  glpsol: /usr/local/bin/glpsol
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  pandoc: /usr/local/bin/pandoc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch

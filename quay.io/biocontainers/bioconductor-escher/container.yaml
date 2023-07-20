@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/bioconductor-escher
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-escher
+latest:
+  1.0.0--r43hdfd78af_0: sha256:88da2d693c5beb8c363e5ef58bd791d818f1359f80cb6da6809049c16f41e0d0
+tags:
+  1.0.0--r43hdfd78af_0: sha256:88da2d693c5beb8c363e5ef58bd791d818f1359f80cb6da6809049c16f41e0d0
+docker: quay.io/biocontainers/bioconductor-escher
+aliases:
+  git2: /usr/local/bin/git2
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  animate: /usr/local/bin/animate
+  composite: /usr/local/bin/composite
+  conjure: /usr/local/bin/conjure
+  convert: /usr/local/bin/convert
+  display: /usr/local/bin/display
+  identify: /usr/local/bin/identify
+  import: /usr/local/bin/import
+  magick: /usr/local/bin/magick
+  magick-script: /usr/local/bin/magick-script
+  mogrify: /usr/local/bin/mogrify
+  montage: /usr/local/bin/montage
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
+  stream: /usr/local/bin/stream
+  compare: /usr/local/bin/compare
+  hb-info: /usr/local/bin/hb-info
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj

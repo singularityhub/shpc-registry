@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/liftover
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for liftover
+latest:
+  1.1.16--py39hd65a603_0: sha256:2b07045d4bc41661ab7aab7eb1aae0c004d35f73a273b76e5c8259e36ab34122
+tags:
+  1.1.16--py39hd65a603_0: sha256:2b07045d4bc41661ab7aab7eb1aae0c004d35f73a273b76e5c8259e36ab34122
+docker: quay.io/biocontainers/liftover
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
