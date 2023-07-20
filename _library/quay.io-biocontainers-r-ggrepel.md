@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggrepel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggrepel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggrepel/container.yaml"
-updated_at: "2023-07-20 03:02:00.929200"
+updated_at: "2023-07-20 03:59:17.866056"
 latest: "0.6.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggrepel"
 aliases:

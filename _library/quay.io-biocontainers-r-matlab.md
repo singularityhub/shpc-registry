@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-matlab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-matlab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-matlab/container.yaml"
-updated_at: "2023-07-20 03:07:52.556352"
+updated_at: "2023-07-20 04:05:47.532573"
 latest: "1.0.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-matlab"
 aliases:
