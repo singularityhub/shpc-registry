@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strobealign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strobealign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strobealign/container.yaml"
-updated_at: "2023-07-19 04:01:06.641620"
-latest: "0.10.0--h43eeafb_2"
+updated_at: "2023-07-20 02:51:14.352396"
+latest: "0.11.0--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/strobealign"
 aliases:
  - "strobealign"
@@ -14,8 +14,9 @@ versions:
  - "0.9.0--h5b5514e_0"
  - "0.9.0--h43eeafb_2"
  - "0.10.0--h43eeafb_2"
+ - "0.11.0--h43eeafb_0"
 description: "singularity registry hpc automated addition for strobealign"
-config: {"url": "https://biocontainers.pro/tools/strobealign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strobealign", "latest": {"0.10.0--h43eeafb_2": "sha256:6c06d7a62d3712468f5893d80638913e9e6e722edd26594a5bf4e7b88dd84007"}, "tags": {"0.8.0--h5b5514e_0": "sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5", "0.9.0--h5b5514e_0": "sha256:d7dc12a30ef323095218d88839e8a1ea88b1e96b13fc62acc620457eb76aa3ff", "0.9.0--h43eeafb_2": "sha256:1d61628d8d9756c471ba0c1695b2d943a7fe0a059068e8058325faf7f1e442cb", "0.10.0--h43eeafb_2": "sha256:6c06d7a62d3712468f5893d80638913e9e6e722edd26594a5bf4e7b88dd84007"}, "docker": "quay.io/biocontainers/strobealign", "aliases": {"strobealign": "/usr/local/bin/strobealign"}}
+config: {"url": "https://biocontainers.pro/tools/strobealign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strobealign", "latest": {"0.11.0--h43eeafb_0": "sha256:a9f2b5da4a363631cc5841416a21bf5e5eb27bb251a610948eab2c6c73824983"}, "tags": {"0.8.0--h5b5514e_0": "sha256:ed5a49652c2d82798289955d567586f7accd48b2f0119a88eefef28d34cf63c5", "0.9.0--h5b5514e_0": "sha256:d7dc12a30ef323095218d88839e8a1ea88b1e96b13fc62acc620457eb76aa3ff", "0.9.0--h43eeafb_2": "sha256:1d61628d8d9756c471ba0c1695b2d943a7fe0a059068e8058325faf7f1e442cb", "0.10.0--h43eeafb_2": "sha256:6c06d7a62d3712468f5893d80638913e9e6e722edd26594a5bf4e7b88dd84007", "0.11.0--h43eeafb_0": "sha256:a9f2b5da4a363631cc5841416a21bf5e5eb27bb251a610948eab2c6c73824983"}, "docker": "quay.io/biocontainers/strobealign", "aliases": {"strobealign": "/usr/local/bin/strobealign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strobealign.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/strobealign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strobealign:0.10.0--h43eeafb_2
+$ shpc install quay.io/biocontainers/strobealign:0.11.0--h43eeafb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strobealign/0.10.0--h43eeafb_2
-$ module help quay.io/biocontainers/strobealign/0.10.0--h43eeafb_2
+$ module load quay.io/biocontainers/strobealign/0.11.0--h43eeafb_0
+$ module help quay.io/biocontainers/strobealign/0.11.0--h43eeafb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

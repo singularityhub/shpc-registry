@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-barcodetrackr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-barcodetrackr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-barcodetrackr/container.yaml"
-updated_at: "2023-07-19 04:06:51.866429"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-20 02:57:02.248840"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-barcodetrackr"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-barcodetrackr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-barcodetrackr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-barcodetrackr", "latest": {"1.6.0--r42hdfd78af_0": "sha256:a658721edee1c8ca237cf3670605072b9e25706b2745dc9dcceeecf273506f82"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c920bd9215d067e9a186932f8659e1af1aada1a88c70129518b0af275239af16", "1.6.0--r42hdfd78af_0": "sha256:a658721edee1c8ca237cf3670605072b9e25706b2745dc9dcceeecf273506f82"}, "docker": "quay.io/biocontainers/bioconductor-barcodetrackr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-barcodetrackr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-barcodetrackr", "latest": {"1.8.0--r43hdfd78af_0": "sha256:9fc5bc8bf074aa1362ab9ec5dabd56a8a93a9b880145380ecbc80cc900a756af"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c920bd9215d067e9a186932f8659e1af1aada1a88c70129518b0af275239af16", "1.6.0--r42hdfd78af_0": "sha256:a658721edee1c8ca237cf3670605072b9e25706b2745dc9dcceeecf273506f82", "1.8.0--r43hdfd78af_0": "sha256:9fc5bc8bf074aa1362ab9ec5dabd56a8a93a9b880145380ecbc80cc900a756af"}, "docker": "quay.io/biocontainers/bioconductor-barcodetrackr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-barcodetrackr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-barcodetrackr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-barcodetrackr:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-barcodetrackr:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-barcodetrackr/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-barcodetrackr/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-barcodetrackr/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-barcodetrackr/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

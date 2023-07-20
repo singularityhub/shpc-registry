@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-genome-download"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-genome-download/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-genome-download/container.yaml"
-updated_at: "2023-07-19 03:51:13.686698"
+updated_at: "2023-07-20 02:41:13.190143"
 latest: "0.3.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/ncbi-genome-download"
 aliases:

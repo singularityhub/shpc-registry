@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mlseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlseq/container.yaml"
-updated_at: "2023-07-19 04:28:00.201212"
-latest: "2.16.0--r42hdfd78af_0"
+updated_at: "2023-07-20 03:18:15.216778"
+latest: "2.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlseq"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "2.16.0--r42hdfd78af_0"
  - "2.12.0--r41hdfd78af_0"
  - "2.10.0--r41hdfd78af_0"
+ - "2.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mlseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mlseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlseq", "latest": {"2.16.0--r42hdfd78af_0": "sha256:c2b46105a4c2d837943aeb74567449eccff534795a69dda84a069c19980e5073"}, "tags": {"2.8.0--r40hdfd78af_1": "sha256:f83763f03c34520e36941f38217c5314a9784ad6f1388cc6595c10853de23288", "2.16.0--r42hdfd78af_0": "sha256:c2b46105a4c2d837943aeb74567449eccff534795a69dda84a069c19980e5073", "2.12.0--r41hdfd78af_0": "sha256:c00cf5e898ffa8a4e9733e47b0cf4d313575b7d516d5a348e10016455170702c", "2.10.0--r41hdfd78af_0": "sha256:2563878ebf1fa3f94a50b2764be1d5291889de924b39f5381f03781e26b97079"}, "docker": "quay.io/biocontainers/bioconductor-mlseq", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mlseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlseq", "latest": {"2.18.0--r43hdfd78af_0": "sha256:3a914c02aea5242d126cef65604509487ba84dbb9cd425977ebe8a6b06dcaf80"}, "tags": {"2.8.0--r40hdfd78af_1": "sha256:f83763f03c34520e36941f38217c5314a9784ad6f1388cc6595c10853de23288", "2.16.0--r42hdfd78af_0": "sha256:c2b46105a4c2d837943aeb74567449eccff534795a69dda84a069c19980e5073", "2.12.0--r41hdfd78af_0": "sha256:c00cf5e898ffa8a4e9733e47b0cf4d313575b7d516d5a348e10016455170702c", "2.10.0--r41hdfd78af_0": "sha256:2563878ebf1fa3f94a50b2764be1d5291889de924b39f5381f03781e26b97079", "2.18.0--r43hdfd78af_0": "sha256:3a914c02aea5242d126cef65604509487ba84dbb9cd425977ebe8a6b06dcaf80"}, "docker": "quay.io/biocontainers/bioconductor-mlseq", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mlseq.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mlseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mlseq:2.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mlseq:2.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mlseq/2.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mlseq/2.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mlseq/2.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mlseq/2.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmerge/container.yaml"
-updated_at: "2023-07-19 04:20:41.405169"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-07-20 03:10:49.633381"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmerge"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scmerge"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scmerge", "latest": {"1.14.0--r42hdfd78af_0": "sha256:d4ff388d63b8c0976ab8f41fe62d4b581e6f1e2e9b42f65e016822f51bbe0057"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:f3d563b5e87471024e9fd35107a0ac9d3781a94118f03c77714fce630bf2daa0", "1.14.0--r42hdfd78af_0": "sha256:d4ff388d63b8c0976ab8f41fe62d4b581e6f1e2e9b42f65e016822f51bbe0057", "1.10.0--r41hdfd78af_0": "sha256:ca0cfc9e993c030aa718751c4b20ffe5397a536dbfcb5ed5ed3f5d697388845b"}, "docker": "quay.io/biocontainers/bioconductor-scmerge", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scmerge", "latest": {"1.16.0--r43hdfd78af_0": "sha256:d149109a4d6485c3ff047d75007a1961e53d0b74431f2f99d6fb2360fd463191"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:f3d563b5e87471024e9fd35107a0ac9d3781a94118f03c77714fce630bf2daa0", "1.14.0--r42hdfd78af_0": "sha256:d4ff388d63b8c0976ab8f41fe62d4b581e6f1e2e9b42f65e016822f51bbe0057", "1.10.0--r41hdfd78af_0": "sha256:ca0cfc9e993c030aa718751c4b20ffe5397a536dbfcb5ed5ed3f5d697388845b", "1.16.0--r43hdfd78af_0": "sha256:d149109a4d6485c3ff047d75007a1961e53d0b74431f2f99d6fb2360fd463191"}, "docker": "quay.io/biocontainers/bioconductor-scmerge", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scmerge.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scmerge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scmerge:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scmerge:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scmerge/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scmerge/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scmerge/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scmerge/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

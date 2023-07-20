@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/elastic-blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elastic-blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elastic-blast/container.yaml"
-updated_at: "2023-07-19 04:33:56.690891"
+updated_at: "2023-07-20 03:24:11.006995"
 latest: "1.1.0--py311hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/elastic-blast"
 aliases:

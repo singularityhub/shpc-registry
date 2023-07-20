@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ptairms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ptairms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ptairms/container.yaml"
-updated_at: "2023-07-19 03:53:32.909734"
-latest: "1.6.0--r42hf17093f_1"
+updated_at: "2023-07-20 02:43:33.925307"
+latest: "1.8.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ptairms"
 aliases:
  - "zipcmp"
@@ -22,8 +22,9 @@ versions:
  - "1.2.0--r41hc247a5b_2"
  - "1.6.0--r42hc247a5b_0"
  - "1.6.0--r42hf17093f_1"
+ - "1.8.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ptairms"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ptairms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ptairms", "latest": {"1.6.0--r42hf17093f_1": "sha256:51b94128b957952c338169d5269f5c55b1b698413a615fbbe057ebd2fb1cc70a"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:0d4d0a51f70e968c145f6adaa3c64dd5b5cc7134984e109480aca57c0632a6dc", "1.6.0--r42hc247a5b_0": "sha256:cfbe95d8d851317ba21f21a134fc9b539aee7300551c03f49d8fc3eb0b78a276", "1.6.0--r42hf17093f_1": "sha256:51b94128b957952c338169d5269f5c55b1b698413a615fbbe057ebd2fb1cc70a"}, "docker": "quay.io/biocontainers/bioconductor-ptairms", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ptairms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ptairms", "latest": {"1.8.0--r43hf17093f_0": "sha256:aac866ef945c2b826f9e55ba6cb8ebb078a70f5b22296af4124ecb7b1f68f904"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:0d4d0a51f70e968c145f6adaa3c64dd5b5cc7134984e109480aca57c0632a6dc", "1.6.0--r42hc247a5b_0": "sha256:cfbe95d8d851317ba21f21a134fc9b539aee7300551c03f49d8fc3eb0b78a276", "1.6.0--r42hf17093f_1": "sha256:51b94128b957952c338169d5269f5c55b1b698413a615fbbe057ebd2fb1cc70a", "1.8.0--r43hf17093f_0": "sha256:aac866ef945c2b826f9e55ba6cb8ebb078a70f5b22296af4124ecb7b1f68f904"}, "docker": "quay.io/biocontainers/bioconductor-ptairms", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ptairms.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ptairms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ptairms:1.6.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-ptairms:1.8.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ptairms/1.6.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-ptairms/1.6.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-ptairms/1.8.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-ptairms/1.8.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

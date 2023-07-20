@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-millefy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-millefy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-millefy/container.yaml"
-updated_at: "2023-07-19 04:01:52.945077"
-latest: "0.1.9--r42h9ee0642_1"
+updated_at: "2023-07-20 02:52:01.311286"
+latest: "0.1.9--r43h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/r-millefy"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.9--r42h9ee0642_1"
+ - "0.1.9--r43h9ee0642_2"
 description: "singularity registry hpc automated addition for r-millefy"
-config: {"url": "https://biocontainers.pro/tools/r-millefy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-millefy", "latest": {"0.1.9--r42h9ee0642_1": "sha256:dbf2dba5237e58e07f456b7658965be4496d94d63566ab6de0887cd9de52ce15"}, "tags": {"0.1.9--r42h9ee0642_1": "sha256:dbf2dba5237e58e07f456b7658965be4496d94d63566ab6de0887cd9de52ce15"}, "docker": "quay.io/biocontainers/r-millefy", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-millefy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-millefy", "latest": {"0.1.9--r43h9ee0642_2": "sha256:4e74c6a985cb73b94a973cdf00f12e42d39cc62cc709a3382bb4f82bd1c159a5"}, "tags": {"0.1.9--r42h9ee0642_1": "sha256:dbf2dba5237e58e07f456b7658965be4496d94d63566ab6de0887cd9de52ce15", "0.1.9--r43h9ee0642_2": "sha256:4e74c6a985cb73b94a973cdf00f12e42d39cc62cc709a3382bb4f82bd1c159a5"}, "docker": "quay.io/biocontainers/r-millefy", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-millefy.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/r-millefy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-millefy:0.1.9--r42h9ee0642_1
+$ shpc install quay.io/biocontainers/r-millefy:0.1.9--r43h9ee0642_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-millefy/0.1.9--r42h9ee0642_1
-$ module help quay.io/biocontainers/r-millefy/0.1.9--r42h9ee0642_1
+$ module load quay.io/biocontainers/r-millefy/0.1.9--r43h9ee0642_2
+$ module help quay.io/biocontainers/r-millefy/0.1.9--r43h9ee0642_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-genomicsupersignature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicsupersignature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicsupersignature/container.yaml"
-updated_at: "2023-07-19 03:46:21.011860"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-20 02:36:16.812427"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicsupersignature"
 aliases:
  - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicsupersignature"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicsupersignature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicsupersignature", "latest": {"1.6.0--r42hdfd78af_0": "sha256:a9e356680040702a658e15623a4456070c2d07b23d24a1c60eaf06466093cd0c"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:96a5cd7a3ba792eca18635401fe51f454376752408fea6b329c0890813860a49", "1.6.0--r42hdfd78af_0": "sha256:a9e356680040702a658e15623a4456070c2d07b23d24a1c60eaf06466093cd0c"}, "docker": "quay.io/biocontainers/bioconductor-genomicsupersignature", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicsupersignature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicsupersignature", "latest": {"1.8.0--r43hdfd78af_0": "sha256:c4672884b27b7c3e3df3e4ac033b338c7fd269392143db9fe621d4591d9b7ab1"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:96a5cd7a3ba792eca18635401fe51f454376752408fea6b329c0890813860a49", "1.6.0--r42hdfd78af_0": "sha256:a9e356680040702a658e15623a4456070c2d07b23d24a1c60eaf06466093cd0c", "1.8.0--r43hdfd78af_0": "sha256:c4672884b27b7c3e3df3e4ac033b338c7fd269392143db9fe621d4591d9b7ab1"}, "docker": "quay.io/biocontainers/bioconductor-genomicsupersignature", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicsupersignature.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicsupersignature
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicsupersignature:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomicsupersignature:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicsupersignature/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomicsupersignature/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomicsupersignature/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicsupersignature/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

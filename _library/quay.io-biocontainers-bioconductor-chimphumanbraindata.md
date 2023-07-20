@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-chimphumanbraindata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chimphumanbraindata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chimphumanbraindata/container.yaml"
-updated_at: "2023-07-19 04:19:15.121730"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-20 03:09:22.026944"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chimphumanbraindata"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chimphumanbraindata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chimphumanbraindata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chimphumanbraindata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:a9b7e8a0b19f5da04d987c5fb198d501567381c236c266b586f5b28752804da3"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:dc94d743d7dc00051d265e8a854e96b49ca494af216c3213408017ecce1e283e", "1.36.0--r42hdfd78af_0": "sha256:a9b7e8a0b19f5da04d987c5fb198d501567381c236c266b586f5b28752804da3"}, "docker": "quay.io/biocontainers/bioconductor-chimphumanbraindata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chimphumanbraindata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chimphumanbraindata", "latest": {"1.38.0--r43hdfd78af_0": "sha256:648289a146a624450c0b12237a25102632f8a1d2de49aee6c26a3cdae18813b8"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:dc94d743d7dc00051d265e8a854e96b49ca494af216c3213408017ecce1e283e", "1.36.0--r42hdfd78af_0": "sha256:a9b7e8a0b19f5da04d987c5fb198d501567381c236c266b586f5b28752804da3", "1.38.0--r43hdfd78af_0": "sha256:648289a146a624450c0b12237a25102632f8a1d2de49aee6c26a3cdae18813b8"}, "docker": "quay.io/biocontainers/bioconductor-chimphumanbraindata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chimphumanbraindata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chimphumanbraindata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chimphumanbraindata:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chimphumanbraindata:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chimphumanbraindata/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chimphumanbraindata/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chimphumanbraindata/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chimphumanbraindata/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

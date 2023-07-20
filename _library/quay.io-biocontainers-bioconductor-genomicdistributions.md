@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-genomicdistributions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicdistributions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicdistributions/container.yaml"
-updated_at: "2023-07-19 04:27:06.553364"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-20 03:17:20.825221"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicdistributions"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicdistributions"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdistributions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdistributions", "latest": {"1.6.0--r42hdfd78af_0": "sha256:7a64e12c3df06744f0b679dee81d59da27d90711b44fe81d7032553c5bf0e0d9"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a9819edc4aa607acccfce4aec2119d0690084be80ced74224656b5e7227612e3", "1.6.0--r42hdfd78af_0": "sha256:7a64e12c3df06744f0b679dee81d59da27d90711b44fe81d7032553c5bf0e0d9"}, "docker": "quay.io/biocontainers/bioconductor-genomicdistributions"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdistributions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdistributions", "latest": {"1.8.0--r43hdfd78af_0": "sha256:19099cd8e72541f33ca5fa49c1f1513915252c415dfacf4a1503405696fafcc5"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a9819edc4aa607acccfce4aec2119d0690084be80ced74224656b5e7227612e3", "1.6.0--r42hdfd78af_0": "sha256:7a64e12c3df06744f0b679dee81d59da27d90711b44fe81d7032553c5bf0e0d9", "1.8.0--r43hdfd78af_0": "sha256:19099cd8e72541f33ca5fa49c1f1513915252c415dfacf4a1503405696fafcc5"}, "docker": "quay.io/biocontainers/bioconductor-genomicdistributions"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicdistributions.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicdistributions
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicdistributions:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomicdistributions:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicdistributions/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomicdistributions/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomicdistributions/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicdistributions/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

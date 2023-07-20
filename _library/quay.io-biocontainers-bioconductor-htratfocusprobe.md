@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-htratfocusprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htratfocusprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htratfocusprobe/container.yaml"
-updated_at: "2023-07-19 04:18:15.246013"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-20 03:08:21.759103"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-htratfocusprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-htratfocusprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-htratfocusprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htratfocusprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:e2f6da3a6f8e4f147ce8ad1e4eaaf4baace8a3bde7281bbbc5f34f79298c4fca"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:296f6306b2aaf9ea0354d8a2182f1cb1d6ca24c02fb891bc1472224d55569be6", "2.18.0--r42hdfd78af_10": "sha256:e2f6da3a6f8e4f147ce8ad1e4eaaf4baace8a3bde7281bbbc5f34f79298c4fca"}, "docker": "quay.io/biocontainers/bioconductor-htratfocusprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-htratfocusprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htratfocusprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:3e12132bd307744c09c8ff05c943740ccce7f561ffee7affcf1f10f7f631c319"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:296f6306b2aaf9ea0354d8a2182f1cb1d6ca24c02fb891bc1472224d55569be6", "2.18.0--r42hdfd78af_10": "sha256:e2f6da3a6f8e4f147ce8ad1e4eaaf4baace8a3bde7281bbbc5f34f79298c4fca", "2.18.0--r43hdfd78af_11": "sha256:3e12132bd307744c09c8ff05c943740ccce7f561ffee7affcf1f10f7f631c319"}, "docker": "quay.io/biocontainers/bioconductor-htratfocusprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-htratfocusprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-htratfocusprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-htratfocusprobe:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-htratfocusprobe:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-htratfocusprobe/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-htratfocusprobe/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-htratfocusprobe/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-htratfocusprobe/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

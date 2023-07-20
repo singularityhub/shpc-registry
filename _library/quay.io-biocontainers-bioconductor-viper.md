@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-viper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-viper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-viper/container.yaml"
-updated_at: "2023-07-19 04:19:52.148393"
-latest: "1.32.0--r42hdfd78af_0"
+updated_at: "2023-07-20 03:09:59.413993"
+latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-viper"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
  - "1.32.0--r42hdfd78af_0"
+ - "1.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-viper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-viper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-viper", "latest": {"1.32.0--r42hdfd78af_0": "sha256:b6d5f9530685637421abf109c6594c9a83e75a7b32115f56b19b4d1c3c12d2a5"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:5116714e0804a77e69562a6c736b893d22993aea225c212c00ecf96516dc6585", "1.32.0--r42hdfd78af_0": "sha256:b6d5f9530685637421abf109c6594c9a83e75a7b32115f56b19b4d1c3c12d2a5"}, "docker": "quay.io/biocontainers/bioconductor-viper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-viper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-viper", "latest": {"1.34.0--r43hdfd78af_0": "sha256:0485c54e582d3ff15b5ace0145b14f13dce528c14132ba1406b2bcec8bc373a8"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:5116714e0804a77e69562a6c736b893d22993aea225c212c00ecf96516dc6585", "1.32.0--r42hdfd78af_0": "sha256:b6d5f9530685637421abf109c6594c9a83e75a7b32115f56b19b4d1c3c12d2a5", "1.34.0--r43hdfd78af_0": "sha256:0485c54e582d3ff15b5ace0145b14f13dce528c14132ba1406b2bcec8bc373a8"}, "docker": "quay.io/biocontainers/bioconductor-viper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-viper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-viper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-viper:1.32.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-viper:1.34.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-viper/1.32.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-viper/1.32.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-viper/1.34.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-viper/1.34.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

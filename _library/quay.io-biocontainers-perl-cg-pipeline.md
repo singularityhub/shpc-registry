@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cg-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cg-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cg-pipeline/container.yaml"
-updated_at: "2023-07-19 03:56:08.609637"
+updated_at: "2023-07-20 02:46:11.834995"
 latest: "0.5--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-cg-pipeline"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-keggorthology"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggorthology/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggorthology/container.yaml"
-updated_at: "2023-07-19 03:52:40.452778"
-latest: "2.50.0--r42hdfd78af_0"
+updated_at: "2023-07-20 02:42:40.806604"
+latest: "2.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggorthology"
 
 versions:
  - "2.46.0--r41hdfd78af_0"
  - "2.50.0--r42hdfd78af_0"
+ - "2.52.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-keggorthology"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-keggorthology", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggorthology", "latest": {"2.50.0--r42hdfd78af_0": "sha256:db5d891144d528b002b4d6d5434876f9a40cd124e8fc7c2cb0bb3716cadcc921"}, "tags": {"2.46.0--r41hdfd78af_0": "sha256:b2e25a67727271337501c7e2317502ddedee477fea5d858a3ac800f4f5ff1cb3", "2.50.0--r42hdfd78af_0": "sha256:db5d891144d528b002b4d6d5434876f9a40cd124e8fc7c2cb0bb3716cadcc921"}, "docker": "quay.io/biocontainers/bioconductor-keggorthology"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-keggorthology", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggorthology", "latest": {"2.52.0--r43hdfd78af_0": "sha256:11d2414d7817109ced9e8500f053ca7e7ab930ed90d2457bab9082d8df5506c8"}, "tags": {"2.46.0--r41hdfd78af_0": "sha256:b2e25a67727271337501c7e2317502ddedee477fea5d858a3ac800f4f5ff1cb3", "2.50.0--r42hdfd78af_0": "sha256:db5d891144d528b002b4d6d5434876f9a40cd124e8fc7c2cb0bb3716cadcc921", "2.52.0--r43hdfd78af_0": "sha256:11d2414d7817109ced9e8500f053ca7e7ab930ed90d2457bab9082d8df5506c8"}, "docker": "quay.io/biocontainers/bioconductor-keggorthology"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-keggorthology.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-keggorthology
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-keggorthology:2.50.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-keggorthology:2.52.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-keggorthology/2.50.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-keggorthology/2.50.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-keggorthology/2.52.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-keggorthology/2.52.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

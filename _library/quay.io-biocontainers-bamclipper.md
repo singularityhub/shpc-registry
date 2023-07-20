@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamclipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamclipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamclipper/container.yaml"
-updated_at: "2023-07-19 04:03:15.876012"
+updated_at: "2023-07-20 02:53:25.581625"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bamclipper"
 aliases:

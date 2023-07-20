@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/markov_clustering"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markov_clustering/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markov_clustering/container.yaml"
-updated_at: "2023-07-19 03:56:52.137021"
+updated_at: "2023-07-20 02:46:56.059138"
 latest: "0.0.6--py_0"
 container_url: "https://biocontainers.pro/tools/markov_clustering"
 aliases:

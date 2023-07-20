@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-metahdep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metahdep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metahdep/container.yaml"
-updated_at: "2023-07-19 04:06:08.081039"
-latest: "1.56.0--r42ha9d7317_2"
+updated_at: "2023-07-20 02:56:18.147822"
+latest: "1.58.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metahdep"
 
 versions:
  - "1.52.0--r41hc0cfd56_2"
  - "1.56.0--r42hc0cfd56_0"
  - "1.56.0--r42ha9d7317_2"
+ - "1.58.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metahdep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metahdep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metahdep", "latest": {"1.56.0--r42ha9d7317_2": "sha256:9bbeb7632fe1fd6e74f6edf04b5e28a6bcce2708facf9577717654a71be5f180"}, "tags": {"1.52.0--r41hc0cfd56_2": "sha256:7a582dda6071d6128d6a772acb70b9b34927477b924d75a824b38d82e84e4ad6", "1.56.0--r42hc0cfd56_0": "sha256:e5ba4efb5e29b24e0f31b47b1853af3b6b735a43e867ceb376871c58d7c74d57", "1.56.0--r42ha9d7317_2": "sha256:9bbeb7632fe1fd6e74f6edf04b5e28a6bcce2708facf9577717654a71be5f180"}, "docker": "quay.io/biocontainers/bioconductor-metahdep"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metahdep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metahdep", "latest": {"1.58.0--r43ha9d7317_0": "sha256:1d6f0bc31e84d59722487b63a43be67716fd802af55a310f24cd96c0536758d4"}, "tags": {"1.52.0--r41hc0cfd56_2": "sha256:7a582dda6071d6128d6a772acb70b9b34927477b924d75a824b38d82e84e4ad6", "1.56.0--r42hc0cfd56_0": "sha256:e5ba4efb5e29b24e0f31b47b1853af3b6b735a43e867ceb376871c58d7c74d57", "1.56.0--r42ha9d7317_2": "sha256:9bbeb7632fe1fd6e74f6edf04b5e28a6bcce2708facf9577717654a71be5f180", "1.58.0--r43ha9d7317_0": "sha256:1d6f0bc31e84d59722487b63a43be67716fd802af55a310f24cd96c0536758d4"}, "docker": "quay.io/biocontainers/bioconductor-metahdep"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metahdep.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metahdep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metahdep:1.56.0--r42ha9d7317_2
+$ shpc install quay.io/biocontainers/bioconductor-metahdep:1.58.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metahdep/1.56.0--r42ha9d7317_2
-$ module help quay.io/biocontainers/bioconductor-metahdep/1.56.0--r42ha9d7317_2
+$ module load quay.io/biocontainers/bioconductor-metahdep/1.58.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-metahdep/1.58.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

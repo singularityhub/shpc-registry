@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-geoexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geoexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geoexplorer/container.yaml"
-updated_at: "2023-07-19 04:12:38.357299"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-07-20 03:02:48.946215"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geoexplorer"
 aliases:
  - "pandoc"
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geoexplorer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geoexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geoexplorer", "latest": {"1.4.0--r42hdfd78af_0": "sha256:3c89d24902f08cf7a1563790d3ad6dd77595032974ed54810c043a0f1836ae92"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:5beb57efef8672150738844ad7ea383b9175108b32ed1e8116f2329b9c888b1d", "1.4.0--r42hdfd78af_0": "sha256:3c89d24902f08cf7a1563790d3ad6dd77595032974ed54810c043a0f1836ae92"}, "docker": "quay.io/biocontainers/bioconductor-geoexplorer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geoexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geoexplorer", "latest": {"1.6.0--r43hdfd78af_0": "sha256:a66a3280fffb2c7c0acff25ee6759461fcd6052f4257af583b6cf82ce10d411b"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:5beb57efef8672150738844ad7ea383b9175108b32ed1e8116f2329b9c888b1d", "1.4.0--r42hdfd78af_0": "sha256:3c89d24902f08cf7a1563790d3ad6dd77595032974ed54810c043a0f1836ae92", "1.6.0--r43hdfd78af_0": "sha256:a66a3280fffb2c7c0acff25ee6759461fcd6052f4257af583b6cf82ce10d411b"}, "docker": "quay.io/biocontainers/bioconductor-geoexplorer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geoexplorer.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geoexplorer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geoexplorer:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geoexplorer:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geoexplorer/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geoexplorer/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geoexplorer/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geoexplorer/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

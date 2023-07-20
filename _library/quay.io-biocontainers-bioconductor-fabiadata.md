@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-fabiadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fabiadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fabiadata/container.yaml"
-updated_at: "2023-07-19 04:34:39.081783"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-20 03:24:53.258474"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fabiadata"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fabiadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fabiadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fabiadata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:c0ff94475067f4d6895706364afdb358a6a6c9ecab15ede9cf75a711c0c9b92b"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:e4cdfa2aa58b5f7dfe7d244dd0b63a082721200a6832fd2f658b3f6040ab3490", "1.36.0--r42hdfd78af_0": "sha256:c0ff94475067f4d6895706364afdb358a6a6c9ecab15ede9cf75a711c0c9b92b"}, "docker": "quay.io/biocontainers/bioconductor-fabiadata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fabiadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fabiadata", "latest": {"1.38.0--r43hdfd78af_0": "sha256:d2d135976d63b1b222a00c176b53681810ac9b9aec3db6b2e7907de3407810c8"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:e4cdfa2aa58b5f7dfe7d244dd0b63a082721200a6832fd2f658b3f6040ab3490", "1.36.0--r42hdfd78af_0": "sha256:c0ff94475067f4d6895706364afdb358a6a6c9ecab15ede9cf75a711c0c9b92b", "1.38.0--r43hdfd78af_0": "sha256:d2d135976d63b1b222a00c176b53681810ac9b9aec3db6b2e7907de3407810c8"}, "docker": "quay.io/biocontainers/bioconductor-fabiadata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fabiadata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fabiadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fabiadata:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fabiadata:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fabiadata/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fabiadata/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fabiadata/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fabiadata/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
