@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/conipher
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for conipher
+latest:
+  2.1.0--r41hdfd78af_0: sha256:081ec50c3920500dd7f4eba4d1fb836ba29231a3a8c7d8a270695274e11ca496
+tags:
+  2.1.0--r41hdfd78af_0: sha256:081ec50c3920500dd7f4eba4d1fb836ba29231a3a8c7d8a270695274e11ca496
+docker: quay.io/biocontainers/conipher
+aliases:
+  git2: /usr/local/bin/git2
+  hb-info: /usr/local/bin/hb-info
+  f2py3.11: /usr/local/bin/f2py3.11
+  tjbench: /usr/local/bin/tjbench
+  glpsol: /usr/local/bin/glpsol
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  pandoc: /usr/local/bin/pandoc
+  python3.1: /usr/local/bin/python3.1

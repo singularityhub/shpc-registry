@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kmtricks
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kmtricks
+latest:
+  1.4.0--h8b7377a_0: sha256:89138f7ae98572df7c3cbef49a8eb31c160d17d167cd203608e6385d199f1084
+tags:
+  1.4.0--h8b7377a_0: sha256:89138f7ae98572df7c3cbef49a8eb31c160d17d167cd203608e6385d199f1084
+docker: quay.io/biocontainers/kmtricks
+aliases:
+  kmtricks: /usr/local/bin/kmtricks
+  kmtricks-socks: /usr/local/bin/kmtricks-socks
+  kmtricksp: /usr/local/bin/kmtricksp

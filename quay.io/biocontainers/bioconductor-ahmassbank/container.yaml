@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/bioconductor-ahmassbank
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-ahmassbank
+latest:
+  1.0.0--r43hdfd78af_0: sha256:f6b0880a6de9098307e03557f66a6c3eedf36283d502d5bf804452a1dfcf316e
+tags:
+  1.0.0--r43hdfd78af_0: sha256:f6b0880a6de9098307e03557f66a6c3eedf36283d502d5bf804452a1dfcf316e
+docker: quay.io/biocontainers/bioconductor-ahmassbank
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  pandoc: /usr/local/bin/pandoc
+  python3.1: /usr/local/bin/python3.1

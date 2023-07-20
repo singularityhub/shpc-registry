@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-alabaster.spatial
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-alabaster.spatial
+latest:
+  1.0.0--r43hdfd78af_0: sha256:024586ae50b06ba818b0377dc62e090cff4f640a440307cb9b8a1b9ef8cd9f78
+tags:
+  1.0.0--r43hdfd78af_0: sha256:024586ae50b06ba818b0377dc62e090cff4f640a440307cb9b8a1b9ef8cd9f78
+docker: quay.io/biocontainers/bioconductor-alabaster.spatial
+aliases:
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  animate: /usr/local/bin/animate
+  composite: /usr/local/bin/composite
+  conjure: /usr/local/bin/conjure
+  convert: /usr/local/bin/convert
+  display: /usr/local/bin/display
+  identify: /usr/local/bin/identify
+  import: /usr/local/bin/import
+  magick: /usr/local/bin/magick
+  magick-script: /usr/local/bin/magick-script
+  mogrify: /usr/local/bin/mogrify
+  montage: /usr/local/bin/montage
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
+  stream: /usr/local/bin/stream
+  compare: /usr/local/bin/compare
+  hb-info: /usr/local/bin/hb-info
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj

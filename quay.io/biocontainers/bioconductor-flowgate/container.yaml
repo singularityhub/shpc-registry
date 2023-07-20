@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-flowgate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-flowgate
+latest:
+  1.0.0--r43hdfd78af_0: sha256:18b8c89e57e4deac304e28499132b2a7234b7117a52e16fe8ada2cbf320336d5
+tags:
+  1.0.0--r43hdfd78af_0: sha256:18b8c89e57e4deac304e28499132b2a7234b7117a52e16fe8ada2cbf320336d5
+docker: quay.io/biocontainers/bioconductor-flowgate
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
