@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-curatedadipochip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedadipochip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedadipochip/container.yaml"
-updated_at: "2023-07-20 03:43:08.615839"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-07-21 02:50:02.811372"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedadipochip"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_1"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-curatedadipochip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedadipochip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedadipochip", "latest": {"1.14.0--r42hdfd78af_0": "sha256:7e7bd3fbf9fe54e94462ecbf8430d515eda008eab835525cfc5b715bd51f9b93"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6b1ce9eccf017acdb6b74087bf6c9baf0af2c3572f8bbd8e88dd5689c7624747", "1.14.0--r42hdfd78af_0": "sha256:7e7bd3fbf9fe54e94462ecbf8430d515eda008eab835525cfc5b715bd51f9b93", "1.10.0--r41hdfd78af_1": "sha256:d7fb461fa92d48b3956fe0394552d9fa4dd216dda985616bacd2610eb4a651af"}, "docker": "quay.io/biocontainers/bioconductor-curatedadipochip", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedadipochip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedadipochip", "latest": {"1.16.0--r43hdfd78af_0": "sha256:2c0257414a38fcd61c8112f6bfda1e072e4259b61a20dd4ada4ce71e0f89dee4"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6b1ce9eccf017acdb6b74087bf6c9baf0af2c3572f8bbd8e88dd5689c7624747", "1.14.0--r42hdfd78af_0": "sha256:7e7bd3fbf9fe54e94462ecbf8430d515eda008eab835525cfc5b715bd51f9b93", "1.10.0--r41hdfd78af_1": "sha256:d7fb461fa92d48b3956fe0394552d9fa4dd216dda985616bacd2610eb4a651af", "1.16.0--r43hdfd78af_0": "sha256:2c0257414a38fcd61c8112f6bfda1e072e4259b61a20dd4ada4ce71e0f89dee4"}, "docker": "quay.io/biocontainers/bioconductor-curatedadipochip", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-curatedadipochip.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-curatedadipochip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-curatedadipochip:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-curatedadipochip:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-curatedadipochip/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-curatedadipochip/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-curatedadipochip/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-curatedadipochip/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

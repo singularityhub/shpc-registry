@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zfpkm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zfpkm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zfpkm/container.yaml"
-updated_at: "2023-07-20 04:00:25.639900"
+updated_at: "2023-07-21 03:07:11.236572"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zfpkm"
 aliases:

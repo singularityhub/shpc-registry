@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/circos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/circos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/circos/container.yaml"
-updated_at: "2023-07-20 03:28:47.532033"
+updated_at: "2023-07-21 02:35:59.710903"
 latest: "0.69.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/circos"
 aliases:

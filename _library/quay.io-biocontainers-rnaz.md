@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaz/container.yaml"
-updated_at: "2023-07-20 04:03:20.486419"
+updated_at: "2023-07-21 03:10:06.110631"
 latest: "2.1--pl526h6bb024c_4"
 container_url: "https://biocontainers.pro/tools/rnaz"
 aliases:

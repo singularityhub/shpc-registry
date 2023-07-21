@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/protobuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/protobuf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/protobuf/container.yaml"
-updated_at: "2023-07-20 03:28:44.019728"
+updated_at: "2023-07-21 02:35:56.375249"
 latest: "21.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/protobuf"
 aliases:

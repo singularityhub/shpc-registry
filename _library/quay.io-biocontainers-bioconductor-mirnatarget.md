@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-mirnatarget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirnatarget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirnatarget/container.yaml"
-updated_at: "2023-07-20 03:30:00.042990"
-latest: "1.35.0--r42hdfd78af_0"
+updated_at: "2023-07-21 02:37:09.500415"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirnatarget"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.35.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirnatarget"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirnatarget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirnatarget", "latest": {"1.35.0--r42hdfd78af_0": "sha256:9ac39028ee82ca57c3a7a56fe019bd64a455f25222685b7a673e83cfa0c968df"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:cb998ec3f37e130bc747848606eadf41356bc87042ec2653b2e9f771dc32d29e", "1.35.0--r42hdfd78af_0": "sha256:9ac39028ee82ca57c3a7a56fe019bd64a455f25222685b7a673e83cfa0c968df"}, "docker": "quay.io/biocontainers/bioconductor-mirnatarget"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirnatarget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirnatarget", "latest": {"1.38.0--r43hdfd78af_0": "sha256:056e3e70fdb46210a4ee398edb310eefe5e2cb8bc6005fcdcae6cf6c53cf1e0c"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:cb998ec3f37e130bc747848606eadf41356bc87042ec2653b2e9f771dc32d29e", "1.35.0--r42hdfd78af_0": "sha256:9ac39028ee82ca57c3a7a56fe019bd64a455f25222685b7a673e83cfa0c968df", "1.38.0--r43hdfd78af_0": "sha256:056e3e70fdb46210a4ee398edb310eefe5e2cb8bc6005fcdcae6cf6c53cf1e0c"}, "docker": "quay.io/biocontainers/bioconductor-mirnatarget"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirnatarget.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirnatarget
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirnatarget:1.35.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mirnatarget:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirnatarget/1.35.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mirnatarget/1.35.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mirnatarget/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mirnatarget/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

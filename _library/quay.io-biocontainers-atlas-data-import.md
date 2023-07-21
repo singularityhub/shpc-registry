@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atlas-data-import"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas-data-import/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas-data-import/container.yaml"
-updated_at: "2023-07-20 04:03:31.514193"
+updated_at: "2023-07-21 03:10:17.040992"
 latest: "0.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atlas-data-import"
 aliases:

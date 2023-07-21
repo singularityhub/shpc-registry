@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-reshape2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-reshape2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-reshape2/container.yaml"
-updated_at: "2023-07-20 04:06:17.110780"
+updated_at: "2023-07-21 03:12:59.689073"
 latest: "1.4.3"
 container_url: "https://biocontainers.pro/tools/r-reshape2"
 aliases:

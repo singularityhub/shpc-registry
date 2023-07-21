@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-diggitdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diggitdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diggitdata/container.yaml"
-updated_at: "2023-07-20 03:32:38.946081"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-07-21 02:39:44.682828"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diggitdata"
 
 versions:
  - "1.26.0--r41hdfd78af_1"
  - "1.30.0--r42hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diggitdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diggitdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diggitdata", "latest": {"1.30.0--r42hdfd78af_0": "sha256:8eddca6e871fe7529377366524d859451e8a22987a3afaa207aad52faa9b75d3"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:eac7649680789b8e03d22a903721a563fc57bb3340c8129da2a600da74799e53", "1.30.0--r42hdfd78af_0": "sha256:8eddca6e871fe7529377366524d859451e8a22987a3afaa207aad52faa9b75d3"}, "docker": "quay.io/biocontainers/bioconductor-diggitdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diggitdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diggitdata", "latest": {"1.32.0--r43hdfd78af_0": "sha256:19cdd42d3bb87151aabe05796fcec63ae53f1c744fa2a8a83e9d3fc795cb29a6"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:eac7649680789b8e03d22a903721a563fc57bb3340c8129da2a600da74799e53", "1.30.0--r42hdfd78af_0": "sha256:8eddca6e871fe7529377366524d859451e8a22987a3afaa207aad52faa9b75d3", "1.32.0--r43hdfd78af_0": "sha256:19cdd42d3bb87151aabe05796fcec63ae53f1c744fa2a8a83e9d3fc795cb29a6"}, "docker": "quay.io/biocontainers/bioconductor-diggitdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diggitdata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-diggitdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-diggitdata:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-diggitdata:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-diggitdata/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-diggitdata/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-diggitdata/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-diggitdata/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

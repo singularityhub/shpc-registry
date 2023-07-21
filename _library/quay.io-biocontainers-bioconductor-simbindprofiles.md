@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-simbindprofiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simbindprofiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simbindprofiles/container.yaml"
-updated_at: "2023-07-20 03:39:16.570141"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-21 02:46:16.376183"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simbindprofiles"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-simbindprofiles"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simbindprofiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simbindprofiles", "latest": {"1.36.0--r42hdfd78af_0": "sha256:bed1fd328de26b484945ccb537869929c25d2acc753ff82e4c95364261c6e883"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:226b3644c4f20f5e36b7c315c479694ed056112479bc7fb2b5a70f725b9155b5", "1.36.0--r42hdfd78af_0": "sha256:bed1fd328de26b484945ccb537869929c25d2acc753ff82e4c95364261c6e883"}, "docker": "quay.io/biocontainers/bioconductor-simbindprofiles"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simbindprofiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simbindprofiles", "latest": {"1.38.0--r43hdfd78af_0": "sha256:655ae91939eadedbe2d3c6bffc4a2c966812d56632f3859c2abe1f3c211ee59b"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:226b3644c4f20f5e36b7c315c479694ed056112479bc7fb2b5a70f725b9155b5", "1.36.0--r42hdfd78af_0": "sha256:bed1fd328de26b484945ccb537869929c25d2acc753ff82e4c95364261c6e883", "1.38.0--r43hdfd78af_0": "sha256:655ae91939eadedbe2d3c6bffc4a2c966812d56632f3859c2abe1f3c211ee59b"}, "docker": "quay.io/biocontainers/bioconductor-simbindprofiles"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simbindprofiles.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simbindprofiles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simbindprofiles:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-simbindprofiles:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simbindprofiles/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-simbindprofiles/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-simbindprofiles/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-simbindprofiles/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

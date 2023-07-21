@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yaha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yaha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yaha/container.yaml"
-updated_at: "2023-07-20 03:56:32.310982"
+updated_at: "2023-07-21 03:03:21.045075"
 latest: "0.1.83--hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/yaha"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-shortread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shortread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shortread/container.yaml"
-updated_at: "2023-07-20 04:16:27.459609"
-latest: "1.56.0--r42hf17093f_1"
+updated_at: "2023-07-21 03:23:06.341860"
+latest: "1.58.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shortread"
 
 versions:
  - "1.52.0--r41hc247a5b_2"
  - "1.56.0--r42hc247a5b_0"
  - "1.56.0--r42hf17093f_1"
+ - "1.58.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-shortread"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-shortread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shortread", "latest": {"1.56.0--r42hf17093f_1": "sha256:3a56d14e6443f2de3cebfb63c790875f293735a68b81fdbe69d9a4b77b98728c"}, "tags": {"1.52.0--r41hc247a5b_2": "sha256:77cb697d362696e9e66c70ed1131bf515a713d42d304038d788e73b1b1b1927a", "1.56.0--r42hc247a5b_0": "sha256:d5eafad82984223bd84e7af53b29a1adbf9591e7db27630875774fe3b97e77ac", "1.56.0--r42hf17093f_1": "sha256:3a56d14e6443f2de3cebfb63c790875f293735a68b81fdbe69d9a4b77b98728c"}, "docker": "quay.io/biocontainers/bioconductor-shortread"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-shortread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shortread", "latest": {"1.58.0--r43hf17093f_0": "sha256:bc0eec4e3bccc18e0a1d5d9fe29b55e78a749fa44ab0a6bccdcc8d2d439ad6d7"}, "tags": {"1.52.0--r41hc247a5b_2": "sha256:77cb697d362696e9e66c70ed1131bf515a713d42d304038d788e73b1b1b1927a", "1.56.0--r42hc247a5b_0": "sha256:d5eafad82984223bd84e7af53b29a1adbf9591e7db27630875774fe3b97e77ac", "1.56.0--r42hf17093f_1": "sha256:3a56d14e6443f2de3cebfb63c790875f293735a68b81fdbe69d9a4b77b98728c", "1.58.0--r43hf17093f_0": "sha256:bc0eec4e3bccc18e0a1d5d9fe29b55e78a749fa44ab0a6bccdcc8d2d439ad6d7"}, "docker": "quay.io/biocontainers/bioconductor-shortread"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-shortread.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-shortread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-shortread:1.56.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-shortread:1.58.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-shortread/1.56.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-shortread/1.56.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-shortread/1.58.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-shortread/1.58.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

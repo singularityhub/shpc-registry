@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/myriad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/myriad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/myriad/container.yaml"
-updated_at: "2023-07-20 04:20:45.760928"
+updated_at: "2023-07-21 03:27:21.834525"
 latest: "0.1.4--py27_0"
 container_url: "https://biocontainers.pro/tools/myriad"
 aliases:

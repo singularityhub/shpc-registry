@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidgenerics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidgenerics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidgenerics/container.yaml"
-updated_at: "2023-07-20 03:55:32.132154"
+updated_at: "2023-07-21 03:02:22.533578"
 latest: "0.6.7--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-acidgenerics"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-shinymethyldata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shinymethyldata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shinymethyldata/container.yaml"
-updated_at: "2023-07-20 04:19:35.960620"
-latest: "1.17.0--r42hdfd78af_0"
+updated_at: "2023-07-21 03:26:13.569850"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shinymethyldata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.14.0--r41hdfd78af_1"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-shinymethyldata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-shinymethyldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shinymethyldata", "latest": {"1.17.0--r42hdfd78af_0": "sha256:a7cd0c2802c81bd058df9643601358ad2bc2db0c77e3a327c7ee35108f4bf69c"}, "tags": {"1.9.0--r40_0": "sha256:01635ba91ffa3b891fdadde837242c16b228c6badb6a4779d8cb56f1a0713546", "1.17.0--r42hdfd78af_0": "sha256:a7cd0c2802c81bd058df9643601358ad2bc2db0c77e3a327c7ee35108f4bf69c", "1.14.0--r41hdfd78af_1": "sha256:af532433984b084bfd9ce37287c3d3a20f4ca8680c24330827088ee07788d1d8", "1.12.0--r41hdfd78af_0": "sha256:26f3d0ec99aacf852fd91e79013087fccd56b0e1b3170d3d78331f036d330eee", "1.10.0--r40hdfd78af_1": "sha256:8f6ca95efdb1782de6f6456bd73f8b38f1ebbfcdb6df965ec6ef0dbb03875e55"}, "docker": "quay.io/biocontainers/bioconductor-shinymethyldata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-shinymethyldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shinymethyldata", "latest": {"1.20.0--r43hdfd78af_0": "sha256:7d4590fcf16e4aaea824dc321d4bc94e07e67c885ef6f0ed6d7568a614e7fdb6"}, "tags": {"1.9.0--r40_0": "sha256:01635ba91ffa3b891fdadde837242c16b228c6badb6a4779d8cb56f1a0713546", "1.17.0--r42hdfd78af_0": "sha256:a7cd0c2802c81bd058df9643601358ad2bc2db0c77e3a327c7ee35108f4bf69c", "1.14.0--r41hdfd78af_1": "sha256:af532433984b084bfd9ce37287c3d3a20f4ca8680c24330827088ee07788d1d8", "1.12.0--r41hdfd78af_0": "sha256:26f3d0ec99aacf852fd91e79013087fccd56b0e1b3170d3d78331f036d330eee", "1.10.0--r40hdfd78af_1": "sha256:8f6ca95efdb1782de6f6456bd73f8b38f1ebbfcdb6df965ec6ef0dbb03875e55", "1.20.0--r43hdfd78af_0": "sha256:7d4590fcf16e4aaea824dc321d4bc94e07e67c885ef6f0ed6d7568a614e7fdb6"}, "docker": "quay.io/biocontainers/bioconductor-shinymethyldata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-shinymethyldata.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-shinymethyldata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-shinymethyldata:1.17.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-shinymethyldata:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-shinymethyldata/1.17.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-shinymethyldata/1.17.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-shinymethyldata/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-shinymethyldata/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

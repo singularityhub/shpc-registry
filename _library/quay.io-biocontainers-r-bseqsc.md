@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-bseqsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bseqsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bseqsc/container.yaml"
-updated_at: "2023-07-20 03:40:52.568856"
-latest: "1.0--r42hdfd78af_2"
+updated_at: "2023-07-21 02:47:51.398758"
+latest: "1.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-bseqsc"
 
 versions:
  - "1.0--r41hdfd78af_1"
  - "1.0--r42hdfd78af_2"
+ - "1.0--r43hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-bseqsc"
-config: {"url": "https://biocontainers.pro/tools/r-bseqsc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bseqsc", "latest": {"1.0--r42hdfd78af_2": "sha256:2ecdf603b33718033c3e0d044460266cbce1efc8e8488838c4dda6ebcbee0dee"}, "tags": {"1.0--r41hdfd78af_1": "sha256:4e4ecca76f5b96cf2285a31cafa8ab4576d5afc79a8274d91f449909f9d366a2", "1.0--r42hdfd78af_2": "sha256:2ecdf603b33718033c3e0d044460266cbce1efc8e8488838c4dda6ebcbee0dee"}, "docker": "quay.io/biocontainers/r-bseqsc"}
+config: {"url": "https://biocontainers.pro/tools/r-bseqsc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bseqsc", "latest": {"1.0--r43hdfd78af_3": "sha256:cd71a4c5f28427f142655a2703f9f3c403221e9959d7b193d8851f8e5d5271d9"}, "tags": {"1.0--r41hdfd78af_1": "sha256:4e4ecca76f5b96cf2285a31cafa8ab4576d5afc79a8274d91f449909f9d366a2", "1.0--r42hdfd78af_2": "sha256:2ecdf603b33718033c3e0d044460266cbce1efc8e8488838c4dda6ebcbee0dee", "1.0--r43hdfd78af_3": "sha256:cd71a4c5f28427f142655a2703f9f3c403221e9959d7b193d8851f8e5d5271d9"}, "docker": "quay.io/biocontainers/r-bseqsc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bseqsc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-bseqsc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bseqsc:1.0--r42hdfd78af_2
+$ shpc install quay.io/biocontainers/r-bseqsc:1.0--r43hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bseqsc/1.0--r42hdfd78af_2
-$ module help quay.io/biocontainers/r-bseqsc/1.0--r42hdfd78af_2
+$ module load quay.io/biocontainers/r-bseqsc/1.0--r43hdfd78af_3
+$ module help quay.io/biocontainers/r-bseqsc/1.0--r43hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

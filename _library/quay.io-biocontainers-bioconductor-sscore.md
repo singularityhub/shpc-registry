@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-sscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sscore/container.yaml"
-updated_at: "2023-07-20 04:24:17.050207"
-latest: "1.70.0--r42hdfd78af_0"
+updated_at: "2023-07-21 03:30:49.938420"
+latest: "1.72.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sscore"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
  - "1.70.0--r42hdfd78af_0"
+ - "1.72.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sscore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sscore", "latest": {"1.70.0--r42hdfd78af_0": "sha256:7fe1d48fc2d54ba4d7c2a50c65ffb3751c18c7d737ff1123161431550a696f11"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:a5c0ba44a8686ca75ea7c9591f6fd51f021ba5090234bba294f93abc50dccbf7", "1.70.0--r42hdfd78af_0": "sha256:7fe1d48fc2d54ba4d7c2a50c65ffb3751c18c7d737ff1123161431550a696f11"}, "docker": "quay.io/biocontainers/bioconductor-sscore"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sscore", "latest": {"1.72.0--r43hdfd78af_0": "sha256:a41b674b5a9a252822c9259cbb9e535588b72e41d69d35b55b3598c36e15bb89"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:a5c0ba44a8686ca75ea7c9591f6fd51f021ba5090234bba294f93abc50dccbf7", "1.70.0--r42hdfd78af_0": "sha256:7fe1d48fc2d54ba4d7c2a50c65ffb3751c18c7d737ff1123161431550a696f11", "1.72.0--r43hdfd78af_0": "sha256:a41b674b5a9a252822c9259cbb9e535588b72e41d69d35b55b3598c36e15bb89"}, "docker": "quay.io/biocontainers/bioconductor-sscore"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sscore.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sscore:1.70.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sscore:1.72.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sscore/1.70.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sscore/1.70.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sscore/1.72.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sscore/1.72.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-fobitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fobitools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fobitools/container.yaml"
-updated_at: "2023-07-20 04:15:13.710824"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-21 03:21:55.154153"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fobitools"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fobitools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fobitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fobitools", "latest": {"1.6.0--r42hdfd78af_0": "sha256:d231c8f92f9a64cc9a16ce43be63df4aca08006aa8ad23620cf3be149b13bcd3"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:780f29e27ec8fff00a25bd22b045fa8bd73bed4386b5f02bf36992d4cf5b1946", "1.6.0--r42hdfd78af_0": "sha256:d231c8f92f9a64cc9a16ce43be63df4aca08006aa8ad23620cf3be149b13bcd3"}, "docker": "quay.io/biocontainers/bioconductor-fobitools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fobitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fobitools", "latest": {"1.8.0--r43hdfd78af_0": "sha256:959ec33b78e4d0dcb20d33890f60cacc92ba51dbf80006fb105e944b6b136778"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:780f29e27ec8fff00a25bd22b045fa8bd73bed4386b5f02bf36992d4cf5b1946", "1.6.0--r42hdfd78af_0": "sha256:d231c8f92f9a64cc9a16ce43be63df4aca08006aa8ad23620cf3be149b13bcd3", "1.8.0--r43hdfd78af_0": "sha256:959ec33b78e4d0dcb20d33890f60cacc92ba51dbf80006fb105e944b6b136778"}, "docker": "quay.io/biocontainers/bioconductor-fobitools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fobitools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fobitools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fobitools:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fobitools:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fobitools/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fobitools/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fobitools/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fobitools/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

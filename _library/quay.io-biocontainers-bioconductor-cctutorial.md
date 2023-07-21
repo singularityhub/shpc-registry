@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cctutorial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cctutorial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cctutorial/container.yaml"
-updated_at: "2023-07-20 03:50:14.776830"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-21 02:57:04.410226"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cctutorial"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cctutorial"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cctutorial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cctutorial", "latest": {"1.36.0--r42hdfd78af_0": "sha256:0c458abcb5ec5dc626551caccef4167e259a85ee2add8b1c0ed2cb43186cce59"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:ed76e9748f7659dcb732416e1c4fd0ff5ff32b4f76aa364cc11f15955e758554", "1.36.0--r42hdfd78af_0": "sha256:0c458abcb5ec5dc626551caccef4167e259a85ee2add8b1c0ed2cb43186cce59"}, "docker": "quay.io/biocontainers/bioconductor-cctutorial"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cctutorial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cctutorial", "latest": {"1.38.0--r43hdfd78af_0": "sha256:232c2821760e0a017acf88bd4be95d43a0ab96fff6300645aeb44a5e5a0234d3"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:ed76e9748f7659dcb732416e1c4fd0ff5ff32b4f76aa364cc11f15955e758554", "1.36.0--r42hdfd78af_0": "sha256:0c458abcb5ec5dc626551caccef4167e259a85ee2add8b1c0ed2cb43186cce59", "1.38.0--r43hdfd78af_0": "sha256:232c2821760e0a017acf88bd4be95d43a0ab96fff6300645aeb44a5e5a0234d3"}, "docker": "quay.io/biocontainers/bioconductor-cctutorial"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cctutorial.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cctutorial
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cctutorial:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cctutorial:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cctutorial/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cctutorial/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cctutorial/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cctutorial/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

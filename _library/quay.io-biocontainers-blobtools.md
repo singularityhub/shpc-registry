@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blobtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blobtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blobtools/container.yaml"
-updated_at: "2023-07-20 04:10:19.807915"
+updated_at: "2023-07-21 03:16:59.315821"
 latest: "1.1.1--py_1"
 container_url: "https://biocontainers.pro/tools/blobtools"
 aliases:

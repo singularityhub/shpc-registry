@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-usort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-usort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-usort/container.yaml"
-updated_at: "2023-07-20 03:52:04.294140"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-07-21 02:58:53.040170"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-usort"
 aliases:
  - "wget"
@@ -25,8 +25,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-usort"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-usort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-usort", "latest": {"1.24.0--r42hdfd78af_0": "sha256:c1854337b11fff42592b24344d40033290c523169b33b33216435f9c8f9e37db"}, "tags": {"1.8.0--r351_0": "sha256:e5be3add7266136d219020b0ab3d72450953aa79714fd9641b16dc3c3a378f9d", "1.24.0--r42hdfd78af_0": "sha256:c1854337b11fff42592b24344d40033290c523169b33b33216435f9c8f9e37db", "1.20.0--r41hdfd78af_0": "sha256:5445f9687096e731f6b288feaacaaa5d52d1b38cb4d8be9734cb3e32404cc2e8", "1.18.0--r41hdfd78af_0": "sha256:3a0ded100cd87b25a2e85533124e907f16b20a79242b05c9253932e23c3575e3", "1.16.0--r40hdfd78af_1": "sha256:655bc721851a9b6e1e8afc25543c32f7fa9387a5dcf8cff267d1e97f2fa423ef", "1.14.0--r40_0": "sha256:e1a0b1a9c633ae95fa4856a9f387dd98d3672390fac53fb1a3058ff8fa3c3465"}, "docker": "quay.io/biocontainers/bioconductor-usort", "aliases": {"wget": "/usr/local/bin/wget", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-usort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-usort", "latest": {"1.26.0--r43hdfd78af_0": "sha256:39445ec6c5f8a3f1f1f34f7cf11e859d2234ff50a757b7d77fbc9595c65b7849"}, "tags": {"1.8.0--r351_0": "sha256:e5be3add7266136d219020b0ab3d72450953aa79714fd9641b16dc3c3a378f9d", "1.24.0--r42hdfd78af_0": "sha256:c1854337b11fff42592b24344d40033290c523169b33b33216435f9c8f9e37db", "1.20.0--r41hdfd78af_0": "sha256:5445f9687096e731f6b288feaacaaa5d52d1b38cb4d8be9734cb3e32404cc2e8", "1.18.0--r41hdfd78af_0": "sha256:3a0ded100cd87b25a2e85533124e907f16b20a79242b05c9253932e23c3575e3", "1.16.0--r40hdfd78af_1": "sha256:655bc721851a9b6e1e8afc25543c32f7fa9387a5dcf8cff267d1e97f2fa423ef", "1.14.0--r40_0": "sha256:e1a0b1a9c633ae95fa4856a9f387dd98d3672390fac53fb1a3058ff8fa3c3465", "1.26.0--r43hdfd78af_0": "sha256:39445ec6c5f8a3f1f1f34f7cf11e859d2234ff50a757b7d77fbc9595c65b7849"}, "docker": "quay.io/biocontainers/bioconductor-usort", "aliases": {"wget": "/usr/local/bin/wget", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-usort.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-usort
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-usort:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-usort:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-usort/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-usort/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-usort/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-usort/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

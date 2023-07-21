@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-dyebiasexamples"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dyebiasexamples/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dyebiasexamples/container.yaml"
-updated_at: "2023-07-20 04:04:19.360670"
-latest: "1.38.0--r42hdfd78af_0"
+updated_at: "2023-07-21 03:11:05.354297"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dyebiasexamples"
 
 versions:
  - "1.34.0--r41hdfd78af_1"
  - "1.38.0--r42hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dyebiasexamples"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dyebiasexamples", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dyebiasexamples", "latest": {"1.38.0--r42hdfd78af_0": "sha256:dd8a63e0299dc1b749caa6492046c50048169b970cd6a649391cb2e2d5937405"}, "tags": {"1.34.0--r41hdfd78af_1": "sha256:43202517e6a299942e2f16e27b56b661423224676fe8d0573ea1553fa126f7bf", "1.38.0--r42hdfd78af_0": "sha256:dd8a63e0299dc1b749caa6492046c50048169b970cd6a649391cb2e2d5937405"}, "docker": "quay.io/biocontainers/bioconductor-dyebiasexamples"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dyebiasexamples", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dyebiasexamples", "latest": {"1.40.0--r43hdfd78af_0": "sha256:3b1bd9dd8acca2896775e5b0c69a21bad40916f87a3d60d58aecd53642c47a15"}, "tags": {"1.34.0--r41hdfd78af_1": "sha256:43202517e6a299942e2f16e27b56b661423224676fe8d0573ea1553fa126f7bf", "1.38.0--r42hdfd78af_0": "sha256:dd8a63e0299dc1b749caa6492046c50048169b970cd6a649391cb2e2d5937405", "1.40.0--r43hdfd78af_0": "sha256:3b1bd9dd8acca2896775e5b0c69a21bad40916f87a3d60d58aecd53642c47a15"}, "docker": "quay.io/biocontainers/bioconductor-dyebiasexamples"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dyebiasexamples.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dyebiasexamples
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dyebiasexamples:1.38.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dyebiasexamples:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dyebiasexamples/1.38.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dyebiasexamples/1.38.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dyebiasexamples/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dyebiasexamples/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

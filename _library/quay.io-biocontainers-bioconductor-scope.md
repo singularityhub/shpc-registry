@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-scope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scope/container.yaml"
-updated_at: "2023-07-20 03:49:04.124361"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-07-21 02:55:53.728653"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scope"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scope"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scope", "latest": {"1.10.0--r42hdfd78af_0": "sha256:bd6bd383d186ac5dcf78ba04782cf68bfba590b165ba510e9532f0fbaf62080d"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c9d481b2cdf07962e53df2e07a7ed0e0d22f72bb68565e3986d2da7ca42c11d8", "1.10.0--r42hdfd78af_0": "sha256:bd6bd383d186ac5dcf78ba04782cf68bfba590b165ba510e9532f0fbaf62080d"}, "docker": "quay.io/biocontainers/bioconductor-scope"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scope", "latest": {"1.12.0--r43hdfd78af_0": "sha256:81a46b53caae17377a6181d2e8caa06854302b119d409ea3b5acf1fb1f6656e3"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:c9d481b2cdf07962e53df2e07a7ed0e0d22f72bb68565e3986d2da7ca42c11d8", "1.10.0--r42hdfd78af_0": "sha256:bd6bd383d186ac5dcf78ba04782cf68bfba590b165ba510e9532f0fbaf62080d", "1.12.0--r43hdfd78af_0": "sha256:81a46b53caae17377a6181d2e8caa06854302b119d409ea3b5acf1fb1f6656e3"}, "docker": "quay.io/biocontainers/bioconductor-scope"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scope.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scope:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scope:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scope/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scope/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scope/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scope/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

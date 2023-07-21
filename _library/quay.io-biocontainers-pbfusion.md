@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/pbfusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbfusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbfusion/container.yaml"
-updated_at: "2023-07-20 03:39:56.154545"
-latest: "0.1.0--hdfd78af_0"
+updated_at: "2023-07-21 02:46:55.917601"
+latest: "0.2.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pbfusion"
 aliases:
  - "gffcache"
  - "pbfusion"
 versions:
  - "0.1.0--hdfd78af_0"
+ - "0.2.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for pbfusion"
-config: {"url": "https://biocontainers.pro/tools/pbfusion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbfusion", "latest": {"0.1.0--hdfd78af_0": "sha256:3c1c3d83a9949a0bfbce7721f03dc9a0182cdc78679ec58c488d74bd994e4824"}, "tags": {"0.1.0--hdfd78af_0": "sha256:3c1c3d83a9949a0bfbce7721f03dc9a0182cdc78679ec58c488d74bd994e4824"}, "docker": "quay.io/biocontainers/pbfusion", "aliases": {"gffcache": "/usr/local/bin/gffcache", "pbfusion": "/usr/local/bin/pbfusion"}}
+config: {"url": "https://biocontainers.pro/tools/pbfusion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbfusion", "latest": {"0.2.2--hdfd78af_0": "sha256:aa8d3b936c9c6f1ed75853fd83af7d5e2d0fce4a742e275b82169a52065d567a"}, "tags": {"0.1.0--hdfd78af_0": "sha256:3c1c3d83a9949a0bfbce7721f03dc9a0182cdc78679ec58c488d74bd994e4824", "0.2.2--hdfd78af_0": "sha256:aa8d3b936c9c6f1ed75853fd83af7d5e2d0fce4a742e275b82169a52065d567a"}, "docker": "quay.io/biocontainers/pbfusion", "aliases": {"gffcache": "/usr/local/bin/gffcache", "pbfusion": "/usr/local/bin/pbfusion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbfusion.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/pbfusion
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbfusion:0.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/pbfusion:0.2.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbfusion/0.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/pbfusion/0.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/pbfusion/0.2.2--hdfd78af_0
+$ module help quay.io/biocontainers/pbfusion/0.2.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

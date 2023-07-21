@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomicalignments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicalignments/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicalignments/container.yaml"
-updated_at: "2023-07-20 03:34:58.285328"
-latest: "1.34.0--r42ha9d7317_1"
+updated_at: "2023-07-21 02:42:02.070529"
+latest: "1.36.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicalignments"
 aliases:
  - "pngcp"
@@ -24,8 +24,9 @@ versions:
  - "1.26.0--r40hd029910_1"
  - "1.24.0--r40h037d062_0"
  - "1.34.0--r42ha9d7317_1"
+ - "1.36.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicalignments"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicalignments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicalignments", "latest": {"1.34.0--r42ha9d7317_1": "sha256:32bf5fb27495a788955c99fd9fde982dc66b23511c7d2f438d5e2388d2db9eba"}, "tags": {"1.6.3--1": "sha256:3d1492a9f8edf486e4de19074ecc12256400d71cc6d4ec3479472b1dcdd7333b", "1.34.0--r42hc0cfd56_0": "sha256:8bb6ca722c9d9ca038384b9407c6529be5100628b66237627ee1b19707b80c94", "1.30.0--r41hc0cfd56_2": "sha256:2ec7685ba14cc873523ad304b3f0a4acb270f067688d048730ed254778e29227", "1.28.0--r41hd029910_0": "sha256:5fc9b53113543911b749ab9c6dff9492836a471747f9b610532cf232f1d24fee", "1.26.0--r40hd029910_1": "sha256:58e72ac2f51c3f4bbb0fc8398db059e62895e0d77fec5acd9a63b0ada8a8ee54", "1.24.0--r40h037d062_0": "sha256:dc47a66f16c69a9dc67f1b1813825552917f6d3f3750ca00a6e8a26d25ea2acb", "1.34.0--r42ha9d7317_1": "sha256:32bf5fb27495a788955c99fd9fde982dc66b23511c7d2f438d5e2388d2db9eba"}, "docker": "quay.io/biocontainers/bioconductor-genomicalignments", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicalignments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicalignments", "latest": {"1.36.0--r43ha9d7317_0": "sha256:05a8dcb406c6278c127c1dd46ffd73234cdaed369c509007d01fa883503da71e"}, "tags": {"1.6.3--1": "sha256:3d1492a9f8edf486e4de19074ecc12256400d71cc6d4ec3479472b1dcdd7333b", "1.34.0--r42hc0cfd56_0": "sha256:8bb6ca722c9d9ca038384b9407c6529be5100628b66237627ee1b19707b80c94", "1.30.0--r41hc0cfd56_2": "sha256:2ec7685ba14cc873523ad304b3f0a4acb270f067688d048730ed254778e29227", "1.28.0--r41hd029910_0": "sha256:5fc9b53113543911b749ab9c6dff9492836a471747f9b610532cf232f1d24fee", "1.26.0--r40hd029910_1": "sha256:58e72ac2f51c3f4bbb0fc8398db059e62895e0d77fec5acd9a63b0ada8a8ee54", "1.24.0--r40h037d062_0": "sha256:dc47a66f16c69a9dc67f1b1813825552917f6d3f3750ca00a6e8a26d25ea2acb", "1.34.0--r42ha9d7317_1": "sha256:32bf5fb27495a788955c99fd9fde982dc66b23511c7d2f438d5e2388d2db9eba", "1.36.0--r43ha9d7317_0": "sha256:05a8dcb406c6278c127c1dd46ffd73234cdaed369c509007d01fa883503da71e"}, "docker": "quay.io/biocontainers/bioconductor-genomicalignments", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicalignments.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicalignments
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicalignments:1.34.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-genomicalignments:1.36.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicalignments/1.34.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-genomicalignments/1.34.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-genomicalignments/1.36.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-genomicalignments/1.36.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
