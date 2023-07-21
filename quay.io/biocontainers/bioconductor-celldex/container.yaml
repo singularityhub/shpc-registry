@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-celldex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-celldex
 latest:
-  1.8.0--r42hdfd78af_0: sha256:c875db3c3394ffd691bbcc93ef9527050c0440204d1c18b6297f479682ddc76c
+  1.10.1--r43hdfd78af_0: sha256:562d3eb983ec73f6cd66d97ba9f57d41e25c3e2617d270a46c1bcc6e80ab36e1
 tags:
   1.4.0--r41hdfd78af_1: sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3
   1.8.0--r42hdfd78af_0: sha256:c875db3c3394ffd691bbcc93ef9527050c0440204d1c18b6297f479682ddc76c
+  1.10.1--r43hdfd78af_0: sha256:562d3eb983ec73f6cd66d97ba9f57d41e25c3e2617d270a46c1bcc6e80ab36e1
 docker: quay.io/biocontainers/bioconductor-celldex

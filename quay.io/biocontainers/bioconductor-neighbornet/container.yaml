@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-neighbornet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-neighbornet
 latest:
-  1.16.0--r42hdfd78af_0: sha256:76ca47ef8cac8fbcf94a42d5b89147636e0fa773a8b43f81a0e4396b064d7b3f
+  1.18.0--r43hdfd78af_0: sha256:a792d143314ddfb7add981aa63fb270661593628fd4690bd62b8edb6dfd93aff
 tags:
   1.8.0--r40hdfd78af_1: sha256:a8412f69c6fc4324b81a2f79935ad25f35201207dd936d8015754c5a0d63584c
   1.16.0--r42hdfd78af_0: sha256:76ca47ef8cac8fbcf94a42d5b89147636e0fa773a8b43f81a0e4396b064d7b3f
   1.12.0--r41hdfd78af_0: sha256:5b8f00bd12237d4055ba45443a79ba67c06e0e6c8aa997e99a9e4854f041eb7f
   1.10.0--r41hdfd78af_0: sha256:8d2926f1a07648a592305d40db4d6674eba95e50c15ebb7887b87cba824777f6
+  1.18.0--r43hdfd78af_0: sha256:a792d143314ddfb7add981aa63fb270661593628fd4690bd62b8edb6dfd93aff
 docker: quay.io/biocontainers/bioconductor-neighbornet
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

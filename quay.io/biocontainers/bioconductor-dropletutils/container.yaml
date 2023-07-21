@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-dropletutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dropletutils
 latest:
-  1.18.0--r42hf17093f_1: sha256:cc0439740089403467c2161a83561b01b05253ed86e86d7ae793960db16e0c42
+  1.20.0--r43hf17093f_0: sha256:8ddcdb902fc0c51d48ca17a23a6dcacc98b74f1140301e448a70086499c75bf1
 tags:
   1.8.0--r40h5f743cb_0: sha256:f25ef5a8370d609e09b8d09ada5006ae9283580e0ce8d124531777874b6eb77f
   1.18.0--r42hc247a5b_0: sha256:bba5ee7f5a092246ff1b7bcc2c5629046588e3efa342dcd1c146fb1b3f4274ff
@@ -10,6 +10,7 @@ tags:
   1.12.1--r41h399db7b_0: sha256:c8825376c4e0ecf3d7d270907fa80f445a4b64949f29ae53e8241ee191eba738
   1.10.3--r40h399db7b_0: sha256:a6bac4ea9f3f805282b2805535a9b77942e799130fd7f92f2a9dc9c55c3e8584
   1.18.0--r42hf17093f_1: sha256:cc0439740089403467c2161a83561b01b05253ed86e86d7ae793960db16e0c42
+  1.20.0--r43hf17093f_0: sha256:8ddcdb902fc0c51d48ca17a23a6dcacc98b74f1140301e448a70086499c75bf1
 docker: quay.io/biocontainers/bioconductor-dropletutils
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

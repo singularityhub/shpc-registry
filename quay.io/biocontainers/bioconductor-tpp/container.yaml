@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-tpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tpp
 latest:
-  3.26.0--r42hdfd78af_0: sha256:2ea33abb853f1e6ba48ab3030908733103fcb07cf54e4011aee1567b318bf1cc
+  3.28.0--r43hdfd78af_0: sha256:c5bb2f39e57fa1a4e4b7443c4681ce4585b72b93e0adc3b18da7ebb7963c6506
 tags:
   3.22.0--r41hdfd78af_0: sha256:0e279430fbc4d6f9d049b41bbd4e14b48205410ed389acbcffa373819528a5ad
   3.26.0--r42hdfd78af_0: sha256:2ea33abb853f1e6ba48ab3030908733103fcb07cf54e4011aee1567b318bf1cc
+  3.28.0--r43hdfd78af_0: sha256:c5bb2f39e57fa1a4e4b7443c4681ce4585b72b93e0adc3b18da7ebb7963c6506
 docker: quay.io/biocontainers/bioconductor-tpp

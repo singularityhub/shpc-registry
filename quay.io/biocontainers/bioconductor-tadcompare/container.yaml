@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-tadcompare
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tadcompare
 latest:
-  1.8.0--r42hdfd78af_0: sha256:6f25fa13b1e47b1e41b331dcdb91df487b763477333d38c21308010d7225db59
+  1.10.0--r43hdfd78af_0: sha256:675cefa9949f06ec6a6cbb5a8f0928ec1ab591ec822ef08c4acec5f437daeab9
 tags:
   1.4.0--r41hdfd78af_0: sha256:0acabca236c5245a6c3f9bae2e448244208445f58ab1d83ab596dc97e40735c0
   1.8.0--r42hdfd78af_0: sha256:6f25fa13b1e47b1e41b331dcdb91df487b763477333d38c21308010d7225db59
+  1.10.0--r43hdfd78af_0: sha256:675cefa9949f06ec6a6cbb5a8f0928ec1ab591ec822ef08c4acec5f437daeab9
 docker: quay.io/biocontainers/bioconductor-tadcompare

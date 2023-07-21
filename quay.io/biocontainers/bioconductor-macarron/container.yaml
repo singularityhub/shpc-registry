@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-macarron
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-macarron
 latest:
-  1.2.0--r42hdfd78af_0: sha256:358062935e5db3937e08c5eb03aa01480b3c3eb148d66ef6ba7f3b78f4867068
+  1.4.0--r43hdfd78af_0: sha256:6ec0c0dbd2d15ee33ba914d3ab996b54a8ea35a7cb5344be65ecaa3c571f2439
 tags:
   1.2.0--r42hdfd78af_0: sha256:358062935e5db3937e08c5eb03aa01480b3c3eb148d66ef6ba7f3b78f4867068
+  1.4.0--r43hdfd78af_0: sha256:6ec0c0dbd2d15ee33ba914d3ab996b54a8ea35a7cb5344be65ecaa3c571f2439
 docker: quay.io/biocontainers/bioconductor-macarron
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-netprior
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-netprior
 latest:
-  1.24.0--r42hdfd78af_0: sha256:2952dcd049fd31eb8a86095f520b268ffe716b50656780fdfb0e7ffb99feed9f
+  1.26.0--r43hdfd78af_0: sha256:114d9764150555e6dae440cae89f181d29d8a7171e18b49b72fa8e7807335b5f
 tags:
   1.8.1--r351_0: sha256:86ff56b73040e1e08f0a4f1856397ab33577e3be333acab7a7f1429683be3355
   1.24.0--r42hdfd78af_0: sha256:2952dcd049fd31eb8a86095f520b268ffe716b50656780fdfb0e7ffb99feed9f
@@ -10,6 +10,7 @@ tags:
   1.18.0--r41hdfd78af_0: sha256:968ac85cd9cdf252b690b8338255e97967d4832ae984bcd5f48cc26ced9d8ce0
   1.16.0--r40hdfd78af_1: sha256:ff7972d477e3106b1c2a2c85e9e5f2e5fb8556a80b844076dfe4416b31cdb6b5
   1.14.0--r40_0: sha256:44cfea74ec1c0e67edee871f1dfe7832d34e5ce9ae8b4a73df767edb8ce1ff94
+  1.26.0--r43hdfd78af_0: sha256:114d9764150555e6dae440cae89f181d29d8a7171e18b49b72fa8e7807335b5f
 docker: quay.io/biocontainers/bioconductor-netprior
 aliases:
   c89: /usr/local/bin/c89

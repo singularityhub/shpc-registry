@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-granulator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-granulator
 latest:
-  1.6.0--r42hdfd78af_0: sha256:7723fa8b69c2f7597ab3f739f489bbc993b8e59a4d762ba7de13a22f852f70be
+  1.8.0--r43hdfd78af_0: sha256:0867e966adf37a402054cc5ff6ae4d5190a8ef09e280183edd7a3d7ce412dcfa
 tags:
   1.2.0--r41hdfd78af_0: sha256:16a37815a50360d8634ab9f36e19366059aee28a547aa94216d0a806a142d72e
   1.6.0--r42hdfd78af_0: sha256:7723fa8b69c2f7597ab3f739f489bbc993b8e59a4d762ba7de13a22f852f70be
+  1.8.0--r43hdfd78af_0: sha256:0867e966adf37a402054cc5ff6ae4d5190a8ef09e280183edd7a3d7ce412dcfa
 docker: quay.io/biocontainers/bioconductor-granulator
 aliases:
   pandoc: /usr/local/bin/pandoc

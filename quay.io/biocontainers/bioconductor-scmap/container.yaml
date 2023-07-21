@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-scmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scmap
 latest:
-  1.20.0--r42hf17093f_1: sha256:5555e35328f7f95643bd646b580bc5117144decf921ab8c1e904cf6020ee4ebe
+  1.22.3--r43hf17093f_0: sha256:91e52110ec7cafb31422b874c175afe4cc3cf284a8b58bf2ca075560d3d67a5e
 tags:
   1.8.0--r36he1b5a44_0: sha256:21fd2e557b6371209a3d84d576e3691bbbdb357873d36848a633c13830ebe882
   1.20.0--r42hc247a5b_0: sha256:97a99d284fe8668a0a1a269e61840d3252f9a70beea80d7ef4c5ed5c3be98d2d
@@ -11,6 +11,7 @@ tags:
   1.12.0--r40h399db7b_1: sha256:d32d00dac35f35c288683d556044d184ea34534747a37f2f5de96d7253f08a3c
   1.10.0--r40h5f743cb_0: sha256:bce7cef01e7bf0e6e814f5fecc9e82a22e72bc8f5c9591fecceb4c9ea03bf252
   1.20.0--r42hf17093f_1: sha256:5555e35328f7f95643bd646b580bc5117144decf921ab8c1e904cf6020ee4ebe
+  1.22.3--r43hf17093f_0: sha256:91e52110ec7cafb31422b874c175afe4cc3cf284a8b58bf2ca075560d3d67a5e
 docker: quay.io/biocontainers/bioconductor-scmap
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

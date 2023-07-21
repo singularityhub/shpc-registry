@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-dasper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dasper
 latest:
-  1.7.0--r42hdfd78af_0: sha256:80d13405184d5528f6bc6093bf32611cdfeb8a01dcf7b6ea0137066c8b217b0c
+  1.9.0--r43hdfd78af_0: sha256:beb349c80f124816ed8a697c03fc24799d632b74d230b9b5a5d8aa34999d56dc
 tags:
   1.4.0--r41hdfd78af_0: sha256:f5b7b30ac771cf8a2f94b470f075af118c7b2f3dfb2b5eb5d45391ef89b0d366
   1.7.0--r42hdfd78af_0: sha256:80d13405184d5528f6bc6093bf32611cdfeb8a01dcf7b6ea0137066c8b217b0c
+  1.9.0--r43hdfd78af_0: sha256:beb349c80f124816ed8a697c03fc24799d632b74d230b9b5a5d8aa34999d56dc
 docker: quay.io/biocontainers/bioconductor-dasper

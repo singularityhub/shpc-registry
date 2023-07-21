@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rifi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rifi
 latest:
-  1.2.0--r42hdfd78af_0: sha256:395d37fca05f8c5561de01963baf1f250a817648de5e0de5cb9811ee9df7dc0a
+  1.4.1--r43hdfd78af_0: sha256:33e1d337300019ba6aaf66324acbffaf9e8ea2072137da49d835b46bf8c5465d
 tags:
   1.2.0--r42hdfd78af_0: sha256:395d37fca05f8c5561de01963baf1f250a817648de5e0de5cb9811ee9df7dc0a
+  1.4.1--r43hdfd78af_0: sha256:33e1d337300019ba6aaf66324acbffaf9e8ea2072137da49d835b46bf8c5465d
 docker: quay.io/biocontainers/bioconductor-rifi
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

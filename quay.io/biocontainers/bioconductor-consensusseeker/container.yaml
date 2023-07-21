@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-consensusseeker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-consensusseeker
 latest:
-  1.26.0--r42hdfd78af_0: sha256:28d6e2e693e769f81dfeb1f45762fa508adce593103ceb8f402942f680251706
+  1.28.0--r43hdfd78af_0: sha256:5051195d15643e2eb92830a4f7b080e9fc4abbfe8b8d62aa84a252a2b603b218
 tags:
   1.8.0--r341_0: sha256:dc8f12362f56063ed369aa5b9b987b0cd830dffdbf8f2c63e59b3470ad70dfaf
   1.26.0--r42hdfd78af_0: sha256:28d6e2e693e769f81dfeb1f45762fa508adce593103ceb8f402942f680251706
@@ -10,6 +10,7 @@ tags:
   1.20.0--r41hdfd78af_0: sha256:4416079b34875cdb62ca1abd3a21576e8e565cfaf6c6ad189ab7fecaa455cf2d
   1.18.0--r40hdfd78af_1: sha256:4e4aa8bae59070dab7dd6ee06b42e4339104eedeef76d43d86f392ad5b952407
   1.16.0--r40_0: sha256:a5ec5df8846213068f860595368c39b31e96fab080a9e0024aba9fd750a7ba25
+  1.28.0--r43hdfd78af_0: sha256:5051195d15643e2eb92830a4f7b080e9fc4abbfe8b8d62aa84a252a2b603b218
 docker: quay.io/biocontainers/bioconductor-consensusseeker
 aliases:
   wget: /usr/local/bin/wget

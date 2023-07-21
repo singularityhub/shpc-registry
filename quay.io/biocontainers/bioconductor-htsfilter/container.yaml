@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-htsfilter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htsfilter
 latest:
-  1.38.0--r42hdfd78af_0: sha256:58158710684d4ca7ad6c04135d89ffd444046b6c5eb63241413aa473dbe35f38
+  1.40.0--r43hdfd78af_0: sha256:4990d21fd1784286f8b7bbcec2ea24ddc0676afc82eafdd871215254e23b673d
 tags:
   1.34.0--r41hdfd78af_0: sha256:a23396136f0611fecb9a64568529ad80878187bfb844923fc9f59320d8777eec
   1.38.0--r42hdfd78af_0: sha256:58158710684d4ca7ad6c04135d89ffd444046b6c5eb63241413aa473dbe35f38
+  1.40.0--r43hdfd78af_0: sha256:4990d21fd1784286f8b7bbcec2ea24ddc0676afc82eafdd871215254e23b673d
 docker: quay.io/biocontainers/bioconductor-htsfilter
