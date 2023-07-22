@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cagefightr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cagefightr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cagefightr/container.yaml"
-updated_at: "2023-07-21 02:40:40.892606"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:37:34.552368"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cagefightr"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cagefightr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cagefightr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cagefightr", "latest": {"1.18.0--r42hdfd78af_0": "sha256:5c589dc16ad869b4e914c3fcf5566fa9fea116cce7e89995bd4618feb5a983dd"}, "tags": {"1.8.0--r40_0": "sha256:f17c893a5df3471c9b750dfa3daeb6bc7c74b98c71a11bb511bf5f06396e0a00", "1.18.0--r42hdfd78af_0": "sha256:5c589dc16ad869b4e914c3fcf5566fa9fea116cce7e89995bd4618feb5a983dd", "1.14.0--r41hdfd78af_0": "sha256:7b0452f074cc864008cf5af923238d318c9cb49a5ac4d15af7948386c54309fd", "1.12.0--r41hdfd78af_0": "sha256:cdf0dea92d656e1c50589b8c97852ab8a26eed971de77b58c42bf5d4bcfacac6", "1.10.0--r40hdfd78af_1": "sha256:5ecaed151caa0b98c1a9944079d859e1376e1d8bede4fb091e4017ac6bbe798e"}, "docker": "quay.io/biocontainers/bioconductor-cagefightr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cagefightr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cagefightr", "latest": {"1.20.0--r43hdfd78af_0": "sha256:e0cdbeada862f6bf47042c021abe261ee66516dfac71dd4555d5e4e23621317c"}, "tags": {"1.8.0--r40_0": "sha256:f17c893a5df3471c9b750dfa3daeb6bc7c74b98c71a11bb511bf5f06396e0a00", "1.18.0--r42hdfd78af_0": "sha256:5c589dc16ad869b4e914c3fcf5566fa9fea116cce7e89995bd4618feb5a983dd", "1.14.0--r41hdfd78af_0": "sha256:7b0452f074cc864008cf5af923238d318c9cb49a5ac4d15af7948386c54309fd", "1.12.0--r41hdfd78af_0": "sha256:cdf0dea92d656e1c50589b8c97852ab8a26eed971de77b58c42bf5d4bcfacac6", "1.10.0--r40hdfd78af_1": "sha256:5ecaed151caa0b98c1a9944079d859e1376e1d8bede4fb091e4017ac6bbe798e", "1.20.0--r43hdfd78af_0": "sha256:e0cdbeada862f6bf47042c021abe261ee66516dfac71dd4555d5e4e23621317c"}, "docker": "quay.io/biocontainers/bioconductor-cagefightr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cagefightr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cagefightr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cagefightr:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cagefightr:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cagefightr/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cagefightr/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cagefightr/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cagefightr/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

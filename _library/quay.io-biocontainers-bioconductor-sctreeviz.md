@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-sctreeviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sctreeviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sctreeviz/container.yaml"
-updated_at: "2023-07-21 03:00:38.102308"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:56:48.506704"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sctreeviz"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sctreeviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sctreeviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sctreeviz", "latest": {"1.4.0--r42hdfd78af_0": "sha256:8b477667be4f0e9c402ba1f76c0c957b0021501840fc26976d7b72fbc4b26f0c"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d27334f3c5a3099ae21b70a222023eff52b7dc62ba0704241f90b905fb263a79", "1.4.0--r42hdfd78af_0": "sha256:8b477667be4f0e9c402ba1f76c0c957b0021501840fc26976d7b72fbc4b26f0c"}, "docker": "quay.io/biocontainers/bioconductor-sctreeviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sctreeviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sctreeviz", "latest": {"1.6.0--r43hdfd78af_0": "sha256:7ee8c62b4cfe7368d38fddee56db1023991d404b7cd518e7e86e306aaebf8623"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d27334f3c5a3099ae21b70a222023eff52b7dc62ba0704241f90b905fb263a79", "1.4.0--r42hdfd78af_0": "sha256:8b477667be4f0e9c402ba1f76c0c957b0021501840fc26976d7b72fbc4b26f0c", "1.6.0--r43hdfd78af_0": "sha256:7ee8c62b4cfe7368d38fddee56db1023991d404b7cd518e7e86e306aaebf8623"}, "docker": "quay.io/biocontainers/bioconductor-sctreeviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sctreeviz.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sctreeviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sctreeviz:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sctreeviz:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sctreeviz/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sctreeviz/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sctreeviz/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sctreeviz/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

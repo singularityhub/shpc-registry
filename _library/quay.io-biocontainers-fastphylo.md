@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastphylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastphylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastphylo/container.yaml"
-updated_at: "2023-07-21 03:02:33.755409"
-latest: "1.0.3--h65d3618_7"
+updated_at: "2023-07-22 02:58:37.314015"
+latest: "1.0.3--h429e051_8"
 container_url: "https://biocontainers.pro/tools/fastphylo"
 aliases:
  - "fastdist"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "1.0.3--h648b6df_5"
  - "1.0.3--h65d3618_7"
+ - "1.0.3--h429e051_8"
 description: "shpc-registry automated BioContainers addition for fastphylo"
-config: {"url": "https://biocontainers.pro/tools/fastphylo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastphylo", "latest": {"1.0.3--h65d3618_7": "sha256:1271692f6992130cf253c1904166187ae1a8b595f4b737c401e69ea87fdb4c5f"}, "tags": {"1.0.3--h648b6df_5": "sha256:6e9756acdd3d68fdc034a4fe7dece58dc23c8c78d41fb1661c11aa794a33a130", "1.0.3--h65d3618_7": "sha256:1271692f6992130cf253c1904166187ae1a8b595f4b737c401e69ea87fdb4c5f"}, "docker": "quay.io/biocontainers/fastphylo", "aliases": {"fastdist": "/usr/local/bin/fastdist", "fastprot": "/usr/local/bin/fastprot", "fastprot_mpi": "/usr/local/bin/fastprot_mpi", "fnj": "/usr/local/bin/fnj", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
+config: {"url": "https://biocontainers.pro/tools/fastphylo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastphylo", "latest": {"1.0.3--h429e051_8": "sha256:e3b9e03018be63c4b1b180e390a7314fd7b74641c932607dbad2fa2d787d43f1"}, "tags": {"1.0.3--h648b6df_5": "sha256:6e9756acdd3d68fdc034a4fe7dece58dc23c8c78d41fb1661c11aa794a33a130", "1.0.3--h65d3618_7": "sha256:1271692f6992130cf253c1904166187ae1a8b595f4b737c401e69ea87fdb4c5f", "1.0.3--h429e051_8": "sha256:e3b9e03018be63c4b1b180e390a7314fd7b74641c932607dbad2fa2d787d43f1"}, "docker": "quay.io/biocontainers/fastphylo", "aliases": {"fastdist": "/usr/local/bin/fastdist", "fastprot": "/usr/local/bin/fastprot", "fastprot_mpi": "/usr/local/bin/fastprot_mpi", "fnj": "/usr/local/bin/fnj", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastphylo.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/fastphylo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastphylo:1.0.3--h65d3618_7
+$ shpc install quay.io/biocontainers/fastphylo:1.0.3--h429e051_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastphylo/1.0.3--h65d3618_7
-$ module help quay.io/biocontainers/fastphylo/1.0.3--h65d3618_7
+$ module load quay.io/biocontainers/fastphylo/1.0.3--h429e051_8
+$ module help quay.io/biocontainers/fastphylo/1.0.3--h429e051_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

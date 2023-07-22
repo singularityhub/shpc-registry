@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dnabarcodecompatibility"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnabarcodecompatibility/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnabarcodecompatibility/container.yaml"
-updated_at: "2023-07-21 03:23:14.547145"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:18:19.571946"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnabarcodecompatibility"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dnabarcodecompatibility"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dnabarcodecompatibility", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dnabarcodecompatibility", "latest": {"1.14.0--r42hdfd78af_0": "sha256:19dabcf77222e4936d317c8b26dfcb01a6da5028cc1428b5782652291da16b17"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:ca15e279d05f7933c34b8a073ddc86c680da31a6eda83d4aa9942e3d540d120a", "1.14.0--r42hdfd78af_0": "sha256:19dabcf77222e4936d317c8b26dfcb01a6da5028cc1428b5782652291da16b17", "1.10.0--r41hdfd78af_0": "sha256:cedc8bed43f9bfe0ed05fa318278472a7f616f5170f7233860bfd754a2b856d8"}, "docker": "quay.io/biocontainers/bioconductor-dnabarcodecompatibility", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dnabarcodecompatibility", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dnabarcodecompatibility", "latest": {"1.16.0--r43hdfd78af_0": "sha256:f505f0fc4c227ac5ddff7db4abfcbaf915e3f99a44853ac03344b7e1f417a463"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:ca15e279d05f7933c34b8a073ddc86c680da31a6eda83d4aa9942e3d540d120a", "1.14.0--r42hdfd78af_0": "sha256:19dabcf77222e4936d317c8b26dfcb01a6da5028cc1428b5782652291da16b17", "1.10.0--r41hdfd78af_0": "sha256:cedc8bed43f9bfe0ed05fa318278472a7f616f5170f7233860bfd754a2b856d8", "1.16.0--r43hdfd78af_0": "sha256:f505f0fc4c227ac5ddff7db4abfcbaf915e3f99a44853ac03344b7e1f417a463"}, "docker": "quay.io/biocontainers/bioconductor-dnabarcodecompatibility", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dnabarcodecompatibility.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dnabarcodecompatibility
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dnabarcodecompatibility:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dnabarcodecompatibility:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dnabarcodecompatibility/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dnabarcodecompatibility/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dnabarcodecompatibility/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dnabarcodecompatibility/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/elector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elector/container.yaml"
-updated_at: "2023-07-21 03:04:35.848388"
+updated_at: "2023-07-22 03:00:34.571970"
 latest: "1.0.4--py39he10ea66_4"
 container_url: "https://biocontainers.pro/tools/elector"
 aliases:

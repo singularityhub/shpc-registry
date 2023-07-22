@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-sgtr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sgtr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sgtr/container.yaml"
-updated_at: "2023-07-21 02:53:01.070344"
-latest: "1.1.4--r42hdbdd923_6"
+updated_at: "2023-07-22 02:49:30.568416"
+latest: "1.1.4--r43hdbdd923_7"
 container_url: "https://biocontainers.pro/tools/r-sgtr"
 
 versions:
  - "1.1.4--r41h87f3376_3"
  - "1.1.4--r42h87f3376_4"
  - "1.1.4--r42hdbdd923_6"
+ - "1.1.4--r43hdbdd923_7"
 description: "shpc-registry automated BioContainers addition for r-sgtr"
-config: {"url": "https://biocontainers.pro/tools/r-sgtr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sgtr", "latest": {"1.1.4--r42hdbdd923_6": "sha256:11cc1c1339ef77c123a288c0cfe3d4747f729498cf6e28d764a1aadf1b4141fd"}, "tags": {"1.1.4--r41h87f3376_3": "sha256:7e1fd32eed4791e3467a5dee6917694b9f49b8149f5b4dddec0a28a515e5a9b1", "1.1.4--r42h87f3376_4": "sha256:d468226b192eff5e805cfc6aeeec4ad7fb523dcb03f9f0b3efb370deaa006748", "1.1.4--r42hdbdd923_6": "sha256:11cc1c1339ef77c123a288c0cfe3d4747f729498cf6e28d764a1aadf1b4141fd"}, "docker": "quay.io/biocontainers/r-sgtr"}
+config: {"url": "https://biocontainers.pro/tools/r-sgtr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sgtr", "latest": {"1.1.4--r43hdbdd923_7": "sha256:c33b0ae22e34c4e704f780059554ae9f3131f0b7cc457629b8a8299516db13d4"}, "tags": {"1.1.4--r41h87f3376_3": "sha256:7e1fd32eed4791e3467a5dee6917694b9f49b8149f5b4dddec0a28a515e5a9b1", "1.1.4--r42h87f3376_4": "sha256:d468226b192eff5e805cfc6aeeec4ad7fb523dcb03f9f0b3efb370deaa006748", "1.1.4--r42hdbdd923_6": "sha256:11cc1c1339ef77c123a288c0cfe3d4747f729498cf6e28d764a1aadf1b4141fd", "1.1.4--r43hdbdd923_7": "sha256:c33b0ae22e34c4e704f780059554ae9f3131f0b7cc457629b8a8299516db13d4"}, "docker": "quay.io/biocontainers/r-sgtr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sgtr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-sgtr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sgtr:1.1.4--r42hdbdd923_6
+$ shpc install quay.io/biocontainers/r-sgtr:1.1.4--r43hdbdd923_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sgtr/1.1.4--r42hdbdd923_6
-$ module help quay.io/biocontainers/r-sgtr/1.1.4--r42hdbdd923_6
+$ module load quay.io/biocontainers/r-sgtr/1.1.4--r43hdbdd923_7
+$ module help quay.io/biocontainers/r-sgtr/1.1.4--r43hdbdd923_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-leapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-leapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-leapp/container.yaml"
-updated_at: "2023-07-21 03:21:21.277836"
-latest: "1.3--r42h3342da4_1"
+updated_at: "2023-07-22 03:16:32.900133"
+latest: "1.3--r43h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-leapp"
 
 versions:
  - "1.3--r41h3342da4_0"
  - "1.3--r42h3342da4_1"
+ - "1.3--r43h3342da4_2"
 description: "shpc-registry automated BioContainers addition for r-leapp"
-config: {"url": "https://biocontainers.pro/tools/r-leapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leapp", "latest": {"1.3--r42h3342da4_1": "sha256:01d5f98ace9392303ffe24b2aed72670ffd02450aa1aa0303f1ced7a631d7664"}, "tags": {"1.3--r41h3342da4_0": "sha256:cb13e5e88d0814d675aa5f3b6a49fca3ebde7ab2070f63149a2f8c6d730d0049", "1.3--r42h3342da4_1": "sha256:01d5f98ace9392303ffe24b2aed72670ffd02450aa1aa0303f1ced7a631d7664"}, "docker": "quay.io/biocontainers/r-leapp"}
+config: {"url": "https://biocontainers.pro/tools/r-leapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leapp", "latest": {"1.3--r43h3342da4_2": "sha256:965c404f5052926263e4f202fa37c781713278ebecea393d4c6644b05adedd21"}, "tags": {"1.3--r41h3342da4_0": "sha256:cb13e5e88d0814d675aa5f3b6a49fca3ebde7ab2070f63149a2f8c6d730d0049", "1.3--r42h3342da4_1": "sha256:01d5f98ace9392303ffe24b2aed72670ffd02450aa1aa0303f1ced7a631d7664", "1.3--r43h3342da4_2": "sha256:965c404f5052926263e4f202fa37c781713278ebecea393d4c6644b05adedd21"}, "docker": "quay.io/biocontainers/r-leapp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-leapp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-leapp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-leapp:1.3--r42h3342da4_1
+$ shpc install quay.io/biocontainers/r-leapp:1.3--r43h3342da4_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-leapp/1.3--r42h3342da4_1
-$ module help quay.io/biocontainers/r-leapp/1.3--r42h3342da4_1
+$ module load quay.io/biocontainers/r-leapp/1.3--r43h3342da4_2
+$ module help quay.io/biocontainers/r-leapp/1.3--r43h3342da4_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

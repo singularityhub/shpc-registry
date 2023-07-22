@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-yeastexpdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeastexpdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeastexpdata/container.yaml"
-updated_at: "2023-07-21 03:30:57.923432"
-latest: "0.44.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:25:46.094037"
+latest: "0.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeastexpdata"
 
 versions:
  - "0.40.0--r41hdfd78af_1"
  - "0.44.0--r42hdfd78af_0"
+ - "0.46.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-yeastexpdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-yeastexpdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yeastexpdata", "latest": {"0.44.0--r42hdfd78af_0": "sha256:a76ec3581f65a33fa907a3755f8c6393d34ac36ecb3199f12e39e806f30b36eb"}, "tags": {"0.40.0--r41hdfd78af_1": "sha256:b91cbc19e73158a8903f5b9edd5d86117f8e88e86e277af80ae5dac2e78f1af8", "0.44.0--r42hdfd78af_0": "sha256:a76ec3581f65a33fa907a3755f8c6393d34ac36ecb3199f12e39e806f30b36eb"}, "docker": "quay.io/biocontainers/bioconductor-yeastexpdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-yeastexpdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yeastexpdata", "latest": {"0.46.0--r43hdfd78af_0": "sha256:2d8bc88e647568e7403fb48af591212329e24adf2a9dd2ce932769660eb2ab30"}, "tags": {"0.40.0--r41hdfd78af_1": "sha256:b91cbc19e73158a8903f5b9edd5d86117f8e88e86e277af80ae5dac2e78f1af8", "0.44.0--r42hdfd78af_0": "sha256:a76ec3581f65a33fa907a3755f8c6393d34ac36ecb3199f12e39e806f30b36eb", "0.46.0--r43hdfd78af_0": "sha256:2d8bc88e647568e7403fb48af591212329e24adf2a9dd2ce932769660eb2ab30"}, "docker": "quay.io/biocontainers/bioconductor-yeastexpdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-yeastexpdata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-yeastexpdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-yeastexpdata:0.44.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-yeastexpdata:0.46.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-yeastexpdata/0.44.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-yeastexpdata/0.44.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-yeastexpdata/0.46.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-yeastexpdata/0.46.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

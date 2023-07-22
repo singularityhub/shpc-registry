@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dep/container.yaml"
-updated_at: "2023-07-21 03:02:07.867793"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:58:12.529018"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dep"
 aliases:
  - "pandoc-citeproc"
@@ -25,8 +25,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dep", "latest": {"1.20.0--r42hdfd78af_0": "sha256:298767670fb1846f9c502080c8fc59570cf0b7666087b8bb2c58f672629eab16"}, "tags": {"1.8.0--r36_0": "sha256:3947729781466045c5cac70b43180d28928c67b06b90287388ffa47af144857f", "1.20.0--r42hdfd78af_0": "sha256:298767670fb1846f9c502080c8fc59570cf0b7666087b8bb2c58f672629eab16", "1.16.0--r41hdfd78af_0": "sha256:af217970c5f3246be2bd4743f8e1ff4d97269404e4a69291ab0abbe18077c644", "1.14.0--r41hdfd78af_0": "sha256:01d15ab08930c67cd772cacbaa9043e963cc98852493091a6845a89f5118046a", "1.12.0--r40hdfd78af_1": "sha256:94b074faf28f6f1249354609c2266d9b234cbe843ad125080b810b1b78217ae5", "1.10.0--r40_0": "sha256:16a6198964d2840f64b0668ceba663c44af4e7364f7381a07305fdc7f148ca48"}, "docker": "quay.io/biocontainers/bioconductor-dep", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dep", "latest": {"1.22.0--r43hdfd78af_0": "sha256:b799df8bd08398e643b1414316f35f2bf300f5212c65de0992ec1dfd8dd02941"}, "tags": {"1.8.0--r36_0": "sha256:3947729781466045c5cac70b43180d28928c67b06b90287388ffa47af144857f", "1.20.0--r42hdfd78af_0": "sha256:298767670fb1846f9c502080c8fc59570cf0b7666087b8bb2c58f672629eab16", "1.16.0--r41hdfd78af_0": "sha256:af217970c5f3246be2bd4743f8e1ff4d97269404e4a69291ab0abbe18077c644", "1.14.0--r41hdfd78af_0": "sha256:01d15ab08930c67cd772cacbaa9043e963cc98852493091a6845a89f5118046a", "1.12.0--r40hdfd78af_1": "sha256:94b074faf28f6f1249354609c2266d9b234cbe843ad125080b810b1b78217ae5", "1.10.0--r40_0": "sha256:16a6198964d2840f64b0668ceba663c44af4e7364f7381a07305fdc7f148ca48", "1.22.0--r43hdfd78af_0": "sha256:b799df8bd08398e643b1414316f35f2bf300f5212c65de0992ec1dfd8dd02941"}, "docker": "quay.io/biocontainers/bioconductor-dep", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dep.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dep:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dep:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dep/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dep/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dep/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dep/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-consensusseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-consensusseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consensusseeker/container.yaml"
-updated_at: "2023-07-21 03:10:40.398703"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:06:21.427853"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-consensusseeker"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.20.0--r41hdfd78af_0"
  - "1.18.0--r40hdfd78af_1"
  - "1.16.0--r40_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-consensusseeker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusseeker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusseeker", "latest": {"1.26.0--r42hdfd78af_0": "sha256:28d6e2e693e769f81dfeb1f45762fa508adce593103ceb8f402942f680251706"}, "tags": {"1.8.0--r341_0": "sha256:dc8f12362f56063ed369aa5b9b987b0cd830dffdbf8f2c63e59b3470ad70dfaf", "1.26.0--r42hdfd78af_0": "sha256:28d6e2e693e769f81dfeb1f45762fa508adce593103ceb8f402942f680251706", "1.22.0--r41hdfd78af_0": "sha256:48e08dcf0aa5863e8bb3720fb8f173c5c34f257ef18d7af2a4bd099c5daf7eb4", "1.20.0--r41hdfd78af_0": "sha256:4416079b34875cdb62ca1abd3a21576e8e565cfaf6c6ad189ab7fecaa455cf2d", "1.18.0--r40hdfd78af_1": "sha256:4e4aa8bae59070dab7dd6ee06b42e4339104eedeef76d43d86f392ad5b952407", "1.16.0--r40_0": "sha256:a5ec5df8846213068f860595368c39b31e96fab080a9e0024aba9fd750a7ba25"}, "docker": "quay.io/biocontainers/bioconductor-consensusseeker", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusseeker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusseeker", "latest": {"1.28.0--r43hdfd78af_0": "sha256:5051195d15643e2eb92830a4f7b080e9fc4abbfe8b8d62aa84a252a2b603b218"}, "tags": {"1.8.0--r341_0": "sha256:dc8f12362f56063ed369aa5b9b987b0cd830dffdbf8f2c63e59b3470ad70dfaf", "1.26.0--r42hdfd78af_0": "sha256:28d6e2e693e769f81dfeb1f45762fa508adce593103ceb8f402942f680251706", "1.22.0--r41hdfd78af_0": "sha256:48e08dcf0aa5863e8bb3720fb8f173c5c34f257ef18d7af2a4bd099c5daf7eb4", "1.20.0--r41hdfd78af_0": "sha256:4416079b34875cdb62ca1abd3a21576e8e565cfaf6c6ad189ab7fecaa455cf2d", "1.18.0--r40hdfd78af_1": "sha256:4e4aa8bae59070dab7dd6ee06b42e4339104eedeef76d43d86f392ad5b952407", "1.16.0--r40_0": "sha256:a5ec5df8846213068f860595368c39b31e96fab080a9e0024aba9fd750a7ba25", "1.28.0--r43hdfd78af_0": "sha256:5051195d15643e2eb92830a4f7b080e9fc4abbfe8b8d62aa84a252a2b603b218"}, "docker": "quay.io/biocontainers/bioconductor-consensusseeker", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-consensusseeker.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-consensusseeker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-consensusseeker:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-consensusseeker:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-consensusseeker/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-consensusseeker/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-consensusseeker/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-consensusseeker/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

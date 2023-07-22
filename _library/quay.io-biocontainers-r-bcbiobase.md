@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-bcbiobase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bcbiobase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bcbiobase/container.yaml"
-updated_at: "2023-07-21 02:53:22.300142"
-latest: "0.8.1--r42hdfd78af_1"
+updated_at: "2023-07-22 02:49:50.912390"
+latest: "0.8.1--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-bcbiobase"
 
 versions:
  - "0.7.0--r41hdfd78af_0"
  - "0.8.1--r42hdfd78af_1"
+ - "0.8.1--r43hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-bcbiobase"
-config: {"url": "https://biocontainers.pro/tools/r-bcbiobase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiobase", "latest": {"0.8.1--r42hdfd78af_1": "sha256:8b43644670f137d6113ddd3cbd56cf54d17b95b9085cacada0732737f528ceb2"}, "tags": {"0.7.0--r41hdfd78af_0": "sha256:3761c429d7dcb4ccec936dba50465eacab01281cb0efa98826791784897c53b3", "0.8.1--r42hdfd78af_1": "sha256:8b43644670f137d6113ddd3cbd56cf54d17b95b9085cacada0732737f528ceb2"}, "docker": "quay.io/biocontainers/r-bcbiobase"}
+config: {"url": "https://biocontainers.pro/tools/r-bcbiobase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiobase", "latest": {"0.8.1--r43hdfd78af_2": "sha256:883dc301349138cd7c25290fb2112a0ef3323077f98a5bbca0a4dca692bcb3f2"}, "tags": {"0.7.0--r41hdfd78af_0": "sha256:3761c429d7dcb4ccec936dba50465eacab01281cb0efa98826791784897c53b3", "0.8.1--r42hdfd78af_1": "sha256:8b43644670f137d6113ddd3cbd56cf54d17b95b9085cacada0732737f528ceb2", "0.8.1--r43hdfd78af_2": "sha256:883dc301349138cd7c25290fb2112a0ef3323077f98a5bbca0a4dca692bcb3f2"}, "docker": "quay.io/biocontainers/r-bcbiobase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bcbiobase.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-bcbiobase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bcbiobase:0.8.1--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-bcbiobase:0.8.1--r43hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bcbiobase/0.8.1--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-bcbiobase/0.8.1--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-bcbiobase/0.8.1--r43hdfd78af_2
+$ module help quay.io/biocontainers/r-bcbiobase/0.8.1--r43hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

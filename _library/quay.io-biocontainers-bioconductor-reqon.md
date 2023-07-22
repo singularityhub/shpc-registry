@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-reqon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reqon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reqon/container.yaml"
-updated_at: "2023-07-21 02:47:45.562809"
-latest: "1.44.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:44:23.615590"
+latest: "1.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reqon"
 aliases:
  - "jfr"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.40.0--r41hdfd78af_0"
  - "1.44.0--r42hdfd78af_0"
+ - "1.46.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reqon"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reqon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reqon", "latest": {"1.44.0--r42hdfd78af_0": "sha256:a96c037a28a7420ad0fdda514e62f1005fb1c972828f6c9226d7b016beef4d2d"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:5d4801bde17f22db3640fd229ad6ce8a98c4d35b14d372235502f0a8db4c6f0a", "1.44.0--r42hdfd78af_0": "sha256:a96c037a28a7420ad0fdda514e62f1005fb1c972828f6c9226d7b016beef4d2d"}, "docker": "quay.io/biocontainers/bioconductor-reqon", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reqon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reqon", "latest": {"1.46.0--r43hdfd78af_0": "sha256:a58fc201fda929b6cbbd0b1e9b8e253a9258a05f52c7be7641c5c073a8496382"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:5d4801bde17f22db3640fd229ad6ce8a98c4d35b14d372235502f0a8db4c6f0a", "1.44.0--r42hdfd78af_0": "sha256:a96c037a28a7420ad0fdda514e62f1005fb1c972828f6c9226d7b016beef4d2d", "1.46.0--r43hdfd78af_0": "sha256:a58fc201fda929b6cbbd0b1e9b8e253a9258a05f52c7be7641c5c073a8496382"}, "docker": "quay.io/biocontainers/bioconductor-reqon", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reqon.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reqon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reqon:1.44.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reqon:1.46.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reqon/1.44.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reqon/1.44.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reqon/1.46.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reqon/1.46.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

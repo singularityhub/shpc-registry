@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ssize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ssize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ssize/container.yaml"
-updated_at: "2023-07-21 03:11:07.447544"
-latest: "1.72.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:06:47.094621"
+latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ssize"
 
 versions:
  - "1.68.0--r41hdfd78af_0"
  - "1.72.0--r42hdfd78af_0"
+ - "1.74.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ssize"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ssize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ssize", "latest": {"1.72.0--r42hdfd78af_0": "sha256:df8e4f84ab3381a1197dc2bd37f62c2c97859496a0d2f04edc91b094de0a904a"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:2a2188e16ff66d1af410cd4fa03bb81728b802d19665649487b4f5ccedbdb07a", "1.72.0--r42hdfd78af_0": "sha256:df8e4f84ab3381a1197dc2bd37f62c2c97859496a0d2f04edc91b094de0a904a"}, "docker": "quay.io/biocontainers/bioconductor-ssize"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ssize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ssize", "latest": {"1.74.0--r43hdfd78af_0": "sha256:e36fbec4a78c070b8d1bac978aca67be323b4ea8330408b01fddd17616bd4130"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:2a2188e16ff66d1af410cd4fa03bb81728b802d19665649487b4f5ccedbdb07a", "1.72.0--r42hdfd78af_0": "sha256:df8e4f84ab3381a1197dc2bd37f62c2c97859496a0d2f04edc91b094de0a904a", "1.74.0--r43hdfd78af_0": "sha256:e36fbec4a78c070b8d1bac978aca67be323b4ea8330408b01fddd17616bd4130"}, "docker": "quay.io/biocontainers/bioconductor-ssize"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ssize.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ssize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ssize:1.72.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ssize:1.74.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ssize/1.72.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ssize/1.72.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ssize/1.74.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ssize/1.74.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

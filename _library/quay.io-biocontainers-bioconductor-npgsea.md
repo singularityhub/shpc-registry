@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-npgsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-npgsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-npgsea/container.yaml"
-updated_at: "2023-07-21 02:38:34.753236"
-latest: "1.34.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:35:33.055850"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-npgsea"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
  - "1.34.0--r42hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-npgsea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-npgsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-npgsea", "latest": {"1.34.0--r42hdfd78af_0": "sha256:442912d12a2341e4eaf78fcb4c8706eb08e66d9c8f945b6a59cba3c64c6cd770"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:ca9c5f51864941f0705f91dda445aff428ca691863d1196c3923be7fb625f428", "1.34.0--r42hdfd78af_0": "sha256:442912d12a2341e4eaf78fcb4c8706eb08e66d9c8f945b6a59cba3c64c6cd770"}, "docker": "quay.io/biocontainers/bioconductor-npgsea"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-npgsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-npgsea", "latest": {"1.36.0--r43hdfd78af_0": "sha256:d4db1224572218adf7c79fed75492762c33db252a3b90810cca05d29ea05f552"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:ca9c5f51864941f0705f91dda445aff428ca691863d1196c3923be7fb625f428", "1.34.0--r42hdfd78af_0": "sha256:442912d12a2341e4eaf78fcb4c8706eb08e66d9c8f945b6a59cba3c64c6cd770", "1.36.0--r43hdfd78af_0": "sha256:d4db1224572218adf7c79fed75492762c33db252a3b90810cca05d29ea05f552"}, "docker": "quay.io/biocontainers/bioconductor-npgsea"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-npgsea.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-npgsea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-npgsea:1.34.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-npgsea:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-npgsea/1.34.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-npgsea/1.34.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-npgsea/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-npgsea/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

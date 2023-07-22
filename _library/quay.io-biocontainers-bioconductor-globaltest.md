@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-globaltest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-globaltest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-globaltest/container.yaml"
-updated_at: "2023-07-21 03:01:43.473477"
-latest: "5.52.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:57:49.426858"
+latest: "5.54.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-globaltest"
 
 versions:
  - "5.48.0--r41hdfd78af_0"
  - "5.52.0--r42hdfd78af_0"
+ - "5.54.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-globaltest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-globaltest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-globaltest", "latest": {"5.52.0--r42hdfd78af_0": "sha256:e9fddefe78adfecff7e6e477f5953e9d3825c4c6e8c03f96f2339322ab0ec630"}, "tags": {"5.48.0--r41hdfd78af_0": "sha256:a469741291e12972064393adafd2c398a805a996b3f1d15fee9f0beb4236fc8d", "5.52.0--r42hdfd78af_0": "sha256:e9fddefe78adfecff7e6e477f5953e9d3825c4c6e8c03f96f2339322ab0ec630"}, "docker": "quay.io/biocontainers/bioconductor-globaltest"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-globaltest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-globaltest", "latest": {"5.54.0--r43hdfd78af_0": "sha256:9c99df0e77d33aad4e874c33fce780dd2ba43fe6adb3f4fd549bf45435eacba7"}, "tags": {"5.48.0--r41hdfd78af_0": "sha256:a469741291e12972064393adafd2c398a805a996b3f1d15fee9f0beb4236fc8d", "5.52.0--r42hdfd78af_0": "sha256:e9fddefe78adfecff7e6e477f5953e9d3825c4c6e8c03f96f2339322ab0ec630", "5.54.0--r43hdfd78af_0": "sha256:9c99df0e77d33aad4e874c33fce780dd2ba43fe6adb3f4fd549bf45435eacba7"}, "docker": "quay.io/biocontainers/bioconductor-globaltest"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-globaltest.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-globaltest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-globaltest:5.52.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-globaltest:5.54.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-globaltest/5.52.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-globaltest/5.52.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-globaltest/5.54.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-globaltest/5.54.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

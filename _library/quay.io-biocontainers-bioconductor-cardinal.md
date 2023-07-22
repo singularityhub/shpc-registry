@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cardinal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cardinal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cardinal/container.yaml"
-updated_at: "2023-07-21 03:27:43.540346"
+updated_at: "2023-07-22 03:22:41.265578"
 latest: "3.0.1--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cardinal"
 aliases:

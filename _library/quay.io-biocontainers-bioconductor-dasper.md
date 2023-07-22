@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-dasper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dasper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dasper/container.yaml"
-updated_at: "2023-07-21 03:12:06.114985"
-latest: "1.7.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:07:43.194199"
+latest: "1.9.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dasper"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.7.0--r42hdfd78af_0"
+ - "1.9.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dasper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dasper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dasper", "latest": {"1.7.0--r42hdfd78af_0": "sha256:80d13405184d5528f6bc6093bf32611cdfeb8a01dcf7b6ea0137066c8b217b0c"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:f5b7b30ac771cf8a2f94b470f075af118c7b2f3dfb2b5eb5d45391ef89b0d366", "1.7.0--r42hdfd78af_0": "sha256:80d13405184d5528f6bc6093bf32611cdfeb8a01dcf7b6ea0137066c8b217b0c"}, "docker": "quay.io/biocontainers/bioconductor-dasper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dasper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dasper", "latest": {"1.9.0--r43hdfd78af_0": "sha256:beb349c80f124816ed8a697c03fc24799d632b74d230b9b5a5d8aa34999d56dc"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:f5b7b30ac771cf8a2f94b470f075af118c7b2f3dfb2b5eb5d45391ef89b0d366", "1.7.0--r42hdfd78af_0": "sha256:80d13405184d5528f6bc6093bf32611cdfeb8a01dcf7b6ea0137066c8b217b0c", "1.9.0--r43hdfd78af_0": "sha256:beb349c80f124816ed8a697c03fc24799d632b74d230b9b5a5d8aa34999d56dc"}, "docker": "quay.io/biocontainers/bioconductor-dasper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dasper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dasper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dasper:1.7.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dasper:1.9.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dasper/1.7.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dasper/1.7.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dasper/1.9.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dasper/1.9.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

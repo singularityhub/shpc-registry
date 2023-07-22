@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-neighbornet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-neighbornet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-neighbornet/container.yaml"
-updated_at: "2023-07-21 02:59:44.629001"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:55:57.249776"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-neighbornet"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-neighbornet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-neighbornet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-neighbornet", "latest": {"1.16.0--r42hdfd78af_0": "sha256:76ca47ef8cac8fbcf94a42d5b89147636e0fa773a8b43f81a0e4396b064d7b3f"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a8412f69c6fc4324b81a2f79935ad25f35201207dd936d8015754c5a0d63584c", "1.16.0--r42hdfd78af_0": "sha256:76ca47ef8cac8fbcf94a42d5b89147636e0fa773a8b43f81a0e4396b064d7b3f", "1.12.0--r41hdfd78af_0": "sha256:5b8f00bd12237d4055ba45443a79ba67c06e0e6c8aa997e99a9e4854f041eb7f", "1.10.0--r41hdfd78af_0": "sha256:8d2926f1a07648a592305d40db4d6674eba95e50c15ebb7887b87cba824777f6"}, "docker": "quay.io/biocontainers/bioconductor-neighbornet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-neighbornet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-neighbornet", "latest": {"1.18.0--r43hdfd78af_0": "sha256:a792d143314ddfb7add981aa63fb270661593628fd4690bd62b8edb6dfd93aff"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a8412f69c6fc4324b81a2f79935ad25f35201207dd936d8015754c5a0d63584c", "1.16.0--r42hdfd78af_0": "sha256:76ca47ef8cac8fbcf94a42d5b89147636e0fa773a8b43f81a0e4396b064d7b3f", "1.12.0--r41hdfd78af_0": "sha256:5b8f00bd12237d4055ba45443a79ba67c06e0e6c8aa997e99a9e4854f041eb7f", "1.10.0--r41hdfd78af_0": "sha256:8d2926f1a07648a592305d40db4d6674eba95e50c15ebb7887b87cba824777f6", "1.18.0--r43hdfd78af_0": "sha256:a792d143314ddfb7add981aa63fb270661593628fd4690bd62b8edb6dfd93aff"}, "docker": "quay.io/biocontainers/bioconductor-neighbornet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-neighbornet.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-neighbornet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-neighbornet:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-neighbornet:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-neighbornet/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-neighbornet/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-neighbornet/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-neighbornet/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

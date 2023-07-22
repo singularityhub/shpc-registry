@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hsmmsinglecell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hsmmsinglecell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hsmmsinglecell/container.yaml"
-updated_at: "2023-07-21 03:13:58.891650"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:09:31.755268"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hsmmsinglecell"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.14.0--r41hdfd78af_1"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hsmmsinglecell"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hsmmsinglecell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hsmmsinglecell", "latest": {"1.18.0--r42hdfd78af_0": "sha256:eadfa18832fe3929440e7ba08e94b610a227ade3c488522fd59ec3c0522dcb85"}, "tags": {"1.9.0--r40_0": "sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120", "1.18.0--r42hdfd78af_0": "sha256:eadfa18832fe3929440e7ba08e94b610a227ade3c488522fd59ec3c0522dcb85", "1.17.0--r42hdfd78af_0": "sha256:749245706196611fad6c38d0920e88fff0310089a309f5ff725cecfaa6bcbfb5", "1.14.0--r41hdfd78af_1": "sha256:16abc1c80db635e58b9b8194e4a9b72e517db212b713da2bb31f98cd165419d9", "1.12.0--r41hdfd78af_0": "sha256:593f52e974232f022d41ae832dd80a68d6cf785c047baf662fceb4991551cbd4", "1.10.0--r40hdfd78af_1": "sha256:54ae2532b3ab07015e512019ba12ea839d5511f479a52b88f3e9499c03dcef3e"}, "docker": "quay.io/biocontainers/bioconductor-hsmmsinglecell", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hsmmsinglecell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hsmmsinglecell", "latest": {"1.20.0--r43hdfd78af_0": "sha256:332d6a06301172680bdd1fb840acd6f965dc58d05887b76a07758f2f963318cc"}, "tags": {"1.9.0--r40_0": "sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120", "1.18.0--r42hdfd78af_0": "sha256:eadfa18832fe3929440e7ba08e94b610a227ade3c488522fd59ec3c0522dcb85", "1.17.0--r42hdfd78af_0": "sha256:749245706196611fad6c38d0920e88fff0310089a309f5ff725cecfaa6bcbfb5", "1.14.0--r41hdfd78af_1": "sha256:16abc1c80db635e58b9b8194e4a9b72e517db212b713da2bb31f98cd165419d9", "1.12.0--r41hdfd78af_0": "sha256:593f52e974232f022d41ae832dd80a68d6cf785c047baf662fceb4991551cbd4", "1.10.0--r40hdfd78af_1": "sha256:54ae2532b3ab07015e512019ba12ea839d5511f479a52b88f3e9499c03dcef3e", "1.20.0--r43hdfd78af_0": "sha256:332d6a06301172680bdd1fb840acd6f965dc58d05887b76a07758f2f963318cc"}, "docker": "quay.io/biocontainers/bioconductor-hsmmsinglecell", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hsmmsinglecell.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hsmmsinglecell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hsmmsinglecell:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hsmmsinglecell:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hsmmsinglecell/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hsmmsinglecell/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hsmmsinglecell/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hsmmsinglecell/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

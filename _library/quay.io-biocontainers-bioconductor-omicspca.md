@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-omicspca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicspca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicspca/container.yaml"
-updated_at: "2023-07-21 02:56:22.738053"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:52:44.221055"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicspca"
 aliases:
  - "pdfattach"
@@ -23,8 +23,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicspca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicspca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicspca", "latest": {"1.16.0--r42hdfd78af_0": "sha256:2a71093cfdaa710ac2fb0b4ecbd938039fd618bd01babfa285d10a59d0190e39"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:fc74489aad6dcadefad2a87e640404bd117f7198ba78eeff8cbc5ce705e77fa1", "1.16.0--r42hdfd78af_0": "sha256:2a71093cfdaa710ac2fb0b4ecbd938039fd618bd01babfa285d10a59d0190e39", "1.12.0--r41hdfd78af_0": "sha256:24e4e6a6fdf71dbae75f4fba5cab86234b5070f4a10e0f66c34aafb5125ec2a9", "1.10.0--r41hdfd78af_0": "sha256:54007588ff31d0acd12959ec6755493e7f142005dd6e8f677798f368ec8b6593"}, "docker": "quay.io/biocontainers/bioconductor-omicspca", "aliases": {"pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicspca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicspca", "latest": {"1.18.0--r43hdfd78af_0": "sha256:228993c06a1ae964b153a6f02c4f9bb7048016ed00832e1e59fd0ba3f736567f"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:fc74489aad6dcadefad2a87e640404bd117f7198ba78eeff8cbc5ce705e77fa1", "1.16.0--r42hdfd78af_0": "sha256:2a71093cfdaa710ac2fb0b4ecbd938039fd618bd01babfa285d10a59d0190e39", "1.12.0--r41hdfd78af_0": "sha256:24e4e6a6fdf71dbae75f4fba5cab86234b5070f4a10e0f66c34aafb5125ec2a9", "1.10.0--r41hdfd78af_0": "sha256:54007588ff31d0acd12959ec6755493e7f142005dd6e8f677798f368ec8b6593", "1.18.0--r43hdfd78af_0": "sha256:228993c06a1ae964b153a6f02c4f9bb7048016ed00832e1e59fd0ba3f736567f"}, "docker": "quay.io/biocontainers/bioconductor-omicspca", "aliases": {"pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicspca.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omicspca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omicspca:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omicspca:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omicspca/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omicspca/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omicspca/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omicspca/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

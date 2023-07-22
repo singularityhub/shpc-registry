@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kitsune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kitsune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kitsune/container.yaml"
-updated_at: "2023-07-21 02:51:53.787391"
+updated_at: "2023-07-22 02:48:25.270648"
 latest: "1.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kitsune"
 aliases:

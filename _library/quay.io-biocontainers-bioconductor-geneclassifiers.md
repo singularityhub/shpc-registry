@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-geneclassifiers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneclassifiers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneclassifiers/container.yaml"
-updated_at: "2023-07-21 02:52:46.199604"
-latest: "1.22.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:49:16.218436"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneclassifiers"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r41hdfd78af_0"
  - "1.14.0--r40hdfd78af_1"
  - "1.12.0--r40_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneclassifiers"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneclassifiers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneclassifiers", "latest": {"1.22.0--r42hdfd78af_0": "sha256:4628f482639d425380f08b4b5a4fae5cd7aafd7caad1812661adf303144288c7"}, "tags": {"1.8.0--r36_1": "sha256:d4323865fe8e39f5bacb14197c310acdf94f8049437b989726348673132270de", "1.22.0--r42hdfd78af_0": "sha256:4628f482639d425380f08b4b5a4fae5cd7aafd7caad1812661adf303144288c7", "1.18.0--r41hdfd78af_0": "sha256:a1b65c9f38fa0989380d878eb58eca56a00f465b457ae593038970770a05f3fa", "1.16.0--r41hdfd78af_0": "sha256:30c9907fba705f59acdfc9f314733cc89b3076cb7ca6a8a28808c63e23536443", "1.14.0--r40hdfd78af_1": "sha256:208a4041aa77fd65521f06cd0d8f56bb2a896b546a027faea16b48a0dfc44ddd", "1.12.0--r40_0": "sha256:90f2105acaa349610962dd6897a19b0d0cb581c056e1bc71843f29d19544f04f"}, "docker": "quay.io/biocontainers/bioconductor-geneclassifiers", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneclassifiers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneclassifiers", "latest": {"1.24.0--r43hdfd78af_0": "sha256:b87813ee587f9b3cba498a5d190c9934abf307adff338c649f4e135dcf2b9912"}, "tags": {"1.8.0--r36_1": "sha256:d4323865fe8e39f5bacb14197c310acdf94f8049437b989726348673132270de", "1.22.0--r42hdfd78af_0": "sha256:4628f482639d425380f08b4b5a4fae5cd7aafd7caad1812661adf303144288c7", "1.18.0--r41hdfd78af_0": "sha256:a1b65c9f38fa0989380d878eb58eca56a00f465b457ae593038970770a05f3fa", "1.16.0--r41hdfd78af_0": "sha256:30c9907fba705f59acdfc9f314733cc89b3076cb7ca6a8a28808c63e23536443", "1.14.0--r40hdfd78af_1": "sha256:208a4041aa77fd65521f06cd0d8f56bb2a896b546a027faea16b48a0dfc44ddd", "1.12.0--r40_0": "sha256:90f2105acaa349610962dd6897a19b0d0cb581c056e1bc71843f29d19544f04f", "1.24.0--r43hdfd78af_0": "sha256:b87813ee587f9b3cba498a5d190c9934abf307adff338c649f4e135dcf2b9912"}, "docker": "quay.io/biocontainers/bioconductor-geneclassifiers", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneclassifiers.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geneclassifiers
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geneclassifiers:1.22.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geneclassifiers:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geneclassifiers/1.22.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geneclassifiers/1.22.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geneclassifiers/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geneclassifiers/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

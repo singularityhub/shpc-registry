@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chromswitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromswitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromswitch/container.yaml"
-updated_at: "2023-07-21 02:44:02.763126"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-07-22 02:40:48.212774"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromswitch"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromswitch"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromswitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromswitch", "latest": {"1.20.0--r42hdfd78af_0": "sha256:f9300caaa27194337c2f3a9e5257e19a513a51dc12ab5927742e9313c5e9573d"}, "tags": {"1.8.0--r36_0": "sha256:58e7b286095d2bdb1bd0efa666ce03a8bb7ea78ccc900f7c8314b84bbadba94f", "1.20.0--r42hdfd78af_0": "sha256:f9300caaa27194337c2f3a9e5257e19a513a51dc12ab5927742e9313c5e9573d", "1.16.0--r41hdfd78af_0": "sha256:ae9f763ce305b5eb19545a1c919171eda8c90abb5bfd61e80b9608ac002797fc", "1.14.0--r41hdfd78af_0": "sha256:8328b700e398e01ea57713256952f81909a0bb78631e592ed350420e84b37772", "1.12.0--r40hdfd78af_1": "sha256:f5cda7568b8023a9af2d683f4fec738e321f4f33fbddb4c39380b1067f0ab472", "1.10.0--r40_0": "sha256:b5efa8617916d010a5f45cc19bdcb92bac50b97a4ff9b781447bb548ceff8129"}, "docker": "quay.io/biocontainers/bioconductor-chromswitch", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromswitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromswitch", "latest": {"1.22.0--r43hdfd78af_0": "sha256:a671db5c318a471fc77f9673989701aacb9e1fb325de685c1a9076b8180737a4"}, "tags": {"1.8.0--r36_0": "sha256:58e7b286095d2bdb1bd0efa666ce03a8bb7ea78ccc900f7c8314b84bbadba94f", "1.20.0--r42hdfd78af_0": "sha256:f9300caaa27194337c2f3a9e5257e19a513a51dc12ab5927742e9313c5e9573d", "1.16.0--r41hdfd78af_0": "sha256:ae9f763ce305b5eb19545a1c919171eda8c90abb5bfd61e80b9608ac002797fc", "1.14.0--r41hdfd78af_0": "sha256:8328b700e398e01ea57713256952f81909a0bb78631e592ed350420e84b37772", "1.12.0--r40hdfd78af_1": "sha256:f5cda7568b8023a9af2d683f4fec738e321f4f33fbddb4c39380b1067f0ab472", "1.10.0--r40_0": "sha256:b5efa8617916d010a5f45cc19bdcb92bac50b97a4ff9b781447bb548ceff8129", "1.22.0--r43hdfd78af_0": "sha256:a671db5c318a471fc77f9673989701aacb9e1fb325de685c1a9076b8180737a4"}, "docker": "quay.io/biocontainers/bioconductor-chromswitch", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromswitch.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chromswitch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chromswitch:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chromswitch:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chromswitch/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chromswitch/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chromswitch/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chromswitch/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

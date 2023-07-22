@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-ampvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampvis/container.yaml"
-updated_at: "2023-07-21 02:42:09.836206"
-latest: "1.27.0--r42h9ee0642_5"
+updated_at: "2023-07-22 02:38:58.910190"
+latest: "1.27.0--r43h9ee0642_6"
 container_url: "https://biocontainers.pro/tools/r-ampvis"
 
 versions:
  - "1.27.0--r41h9ee0642_4"
  - "1.27.0--r42h9ee0642_5"
+ - "1.27.0--r43h9ee0642_6"
 description: "shpc-registry automated BioContainers addition for r-ampvis"
-config: {"url": "https://biocontainers.pro/tools/r-ampvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampvis", "latest": {"1.27.0--r42h9ee0642_5": "sha256:b27ef38ca5c43156ecf172daea440effb2574ffa13830c2ca6575201dd4cbea7"}, "tags": {"1.27.0--r41h9ee0642_4": "sha256:1973dfdc21e256b0bcff8db72d413e083384f3dd3aa17771409a9f9ffa567dd4", "1.27.0--r42h9ee0642_5": "sha256:b27ef38ca5c43156ecf172daea440effb2574ffa13830c2ca6575201dd4cbea7"}, "docker": "quay.io/biocontainers/r-ampvis"}
+config: {"url": "https://biocontainers.pro/tools/r-ampvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ampvis", "latest": {"1.27.0--r43h9ee0642_6": "sha256:d396b61e24af4b9699256fdd71a85d4258b6ea682f794eb2f7a243849efb4459"}, "tags": {"1.27.0--r41h9ee0642_4": "sha256:1973dfdc21e256b0bcff8db72d413e083384f3dd3aa17771409a9f9ffa567dd4", "1.27.0--r42h9ee0642_5": "sha256:b27ef38ca5c43156ecf172daea440effb2574ffa13830c2ca6575201dd4cbea7", "1.27.0--r43h9ee0642_6": "sha256:d396b61e24af4b9699256fdd71a85d4258b6ea682f794eb2f7a243849efb4459"}, "docker": "quay.io/biocontainers/r-ampvis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ampvis.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-ampvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ampvis:1.27.0--r42h9ee0642_5
+$ shpc install quay.io/biocontainers/r-ampvis:1.27.0--r43h9ee0642_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ampvis/1.27.0--r42h9ee0642_5
-$ module help quay.io/biocontainers/r-ampvis/1.27.0--r42h9ee0642_5
+$ module load quay.io/biocontainers/r-ampvis/1.27.0--r43h9ee0642_6
+$ module help quay.io/biocontainers/r-ampvis/1.27.0--r43h9ee0642_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

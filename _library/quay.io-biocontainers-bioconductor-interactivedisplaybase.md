@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-interactivedisplaybase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interactivedisplaybase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interactivedisplaybase/container.yaml"
-updated_at: "2023-07-21 03:28:42.990236"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:23:38.057445"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interactivedisplaybase"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-interactivedisplaybase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-interactivedisplaybase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interactivedisplaybase", "latest": {"1.36.0--r42hdfd78af_0": "sha256:d62d31e5d599df6265aa11381052038f884415ec498a1ac0ca6e9a9709961621"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:78dccc73ae8c866a2ec5d7a7c8a0fdcc66ef3514cb800ca83ee2d3c0f49299a3", "1.36.0--r42hdfd78af_0": "sha256:d62d31e5d599df6265aa11381052038f884415ec498a1ac0ca6e9a9709961621"}, "docker": "quay.io/biocontainers/bioconductor-interactivedisplaybase"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-interactivedisplaybase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interactivedisplaybase", "latest": {"1.38.0--r43hdfd78af_0": "sha256:2275037c5d5314fb632b3f1c462996ffaca588c230d5bf52acf68bcc146946e9"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:78dccc73ae8c866a2ec5d7a7c8a0fdcc66ef3514cb800ca83ee2d3c0f49299a3", "1.36.0--r42hdfd78af_0": "sha256:d62d31e5d599df6265aa11381052038f884415ec498a1ac0ca6e9a9709961621", "1.38.0--r43hdfd78af_0": "sha256:2275037c5d5314fb632b3f1c462996ffaca588c230d5bf52acf68bcc146946e9"}, "docker": "quay.io/biocontainers/bioconductor-interactivedisplaybase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-interactivedisplaybase.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-interactivedisplaybase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-interactivedisplaybase:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-interactivedisplaybase:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-interactivedisplaybase/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-interactivedisplaybase/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-interactivedisplaybase/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-interactivedisplaybase/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

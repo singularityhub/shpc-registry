@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-codex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-codex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-codex/container.yaml"
-updated_at: "2023-07-21 03:27:49.478844"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-07-22 03:22:46.925438"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-codex"
 aliases:
  - "tclsh8.5"
@@ -19,8 +19,9 @@ versions:
  - "1.24.0--r41hdfd78af_0"
  - "1.22.0--r40hdfd78af_1"
  - "1.20.0--r40_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-codex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-codex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-codex", "latest": {"1.30.0--r42hdfd78af_0": "sha256:248d92850150000a9b3b55e0c8b780b2d74018c0173e101c06d46b063aadf707"}, "tags": {"1.8.0--r3.4.1_0": "sha256:22143ffc431fc8e271d3cac2908cc00253cbe47b9eccdcd20e79317ce550ae4c", "1.30.0--r42hdfd78af_0": "sha256:248d92850150000a9b3b55e0c8b780b2d74018c0173e101c06d46b063aadf707", "1.26.0--r41hdfd78af_0": "sha256:c4c2d6dd961b73ad1e5eb3f0d788beb79cd700c1702cd3e81d0666d48379ac83", "1.24.0--r41hdfd78af_0": "sha256:4ab6c56217fecbba9af3fecc1f9786ae15eb038451da8efc3464057bfd9ad200", "1.22.0--r40hdfd78af_1": "sha256:b9a23a8196a01e300759d59188fa0c1840d1b82da5e6e9e7ce2c848b72e26fda", "1.20.0--r40_0": "sha256:bac2b43e295e6887353540fe8a518c4d535849b77dd58f17ce699cf4bedb3228"}, "docker": "quay.io/biocontainers/bioconductor-codex", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-codex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-codex", "latest": {"1.32.0--r43hdfd78af_0": "sha256:c7004118e8a4fe9b395dd386bbb067071979d9078dffc40eb389d66eb640079a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:22143ffc431fc8e271d3cac2908cc00253cbe47b9eccdcd20e79317ce550ae4c", "1.30.0--r42hdfd78af_0": "sha256:248d92850150000a9b3b55e0c8b780b2d74018c0173e101c06d46b063aadf707", "1.26.0--r41hdfd78af_0": "sha256:c4c2d6dd961b73ad1e5eb3f0d788beb79cd700c1702cd3e81d0666d48379ac83", "1.24.0--r41hdfd78af_0": "sha256:4ab6c56217fecbba9af3fecc1f9786ae15eb038451da8efc3464057bfd9ad200", "1.22.0--r40hdfd78af_1": "sha256:b9a23a8196a01e300759d59188fa0c1840d1b82da5e6e9e7ce2c848b72e26fda", "1.20.0--r40_0": "sha256:bac2b43e295e6887353540fe8a518c4d535849b77dd58f17ce699cf4bedb3228", "1.32.0--r43hdfd78af_0": "sha256:c7004118e8a4fe9b395dd386bbb067071979d9078dffc40eb389d66eb640079a"}, "docker": "quay.io/biocontainers/bioconductor-codex", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-codex.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-codex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-codex:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-codex:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-codex/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-codex/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-codex/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-codex/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
