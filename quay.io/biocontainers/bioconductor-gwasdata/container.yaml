@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-gwasdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gwasdata
 latest:
-  1.36.0--r42hdfd78af_0: sha256:80ba429dc59585987479bf829f71810cfd6f2acc7b193417628926b10af76a97
+  1.38.1--r43hdfd78af_0: sha256:2dffd70bef31ea52105ab0d9557e50d67fec623526b2cd0d6f99ab955420dc10
 tags:
   1.32.0--r41hdfd78af_1: sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba
   1.36.0--r42hdfd78af_0: sha256:80ba429dc59585987479bf829f71810cfd6f2acc7b193417628926b10af76a97
+  1.38.1--r43hdfd78af_0: sha256:2dffd70bef31ea52105ab0d9557e50d67fec623526b2cd0d6f99ab955420dc10
 docker: quay.io/biocontainers/bioconductor-gwasdata
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

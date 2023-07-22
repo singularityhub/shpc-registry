@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-pumadata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pumadata
 latest:
-  2.34.0--r42hdfd78af_0: sha256:a4b62ab186855b6d8577b2ec9d0be603c627551ee00d8ea2bff70b9961b1db1a
+  2.36.0--r43hdfd78af_0: sha256:71f3aebf9dd9f82e750e41c456b933339a8662e48b6373674c0ce4ecccdac4b8
 tags:
   2.30.0--r41hdfd78af_1: sha256:a5534063f74e9200146e190842422dd010ac20653e4772fd5829a831e0faf6b1
   2.34.0--r42hdfd78af_0: sha256:a4b62ab186855b6d8577b2ec9d0be603c627551ee00d8ea2bff70b9961b1db1a
+  2.36.0--r43hdfd78af_0: sha256:71f3aebf9dd9f82e750e41c456b933339a8662e48b6373674c0ce4ecccdac4b8
 docker: quay.io/biocontainers/bioconductor-pumadata

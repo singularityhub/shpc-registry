@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-metalonda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-metalonda
 latest:
-  1.1.8--r42h3121a25_4: sha256:82fcf6f6faf689fbe9b7ffbf502ce88b7180cded80f9fe262f5302a256d226ba
+  1.1.8--r43h3121a25_5: sha256:4d826897b20c04cdf34c44c5be57bc1a21f229ded50b653762b5317469462351
 tags:
   1.1.8--r41h3121a25_3: sha256:e696bc54d78c7a05db3604cecddda9809fd00eeb82b3b80d1d9db99366b41e06
   1.1.8--r42h3121a25_4: sha256:82fcf6f6faf689fbe9b7ffbf502ce88b7180cded80f9fe262f5302a256d226ba
+  1.1.8--r43h3121a25_5: sha256:4d826897b20c04cdf34c44c5be57bc1a21f229ded50b653762b5317469462351
 docker: quay.io/biocontainers/r-metalonda
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

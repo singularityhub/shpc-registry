@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-escape
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-escape
 latest:
-  1.8.0--r42hdfd78af_0: sha256:c6ae3a3bad39f9e40d8dc40b75157a9882a2f5cd7c5df4915e07b8c9861d21c3
+  1.10.0--r43hdfd78af_0: sha256:c4e9cad88069f14b3de6e5f4c583fc1fd0e72f0cdfba719974f1af9af83e4d56
 tags:
   1.4.0--r41hdfd78af_0: sha256:757ad3f3728d26fee62ada9a3954f5d830083136531accce6d02a09f5e11e14a
   1.8.0--r42hdfd78af_0: sha256:c6ae3a3bad39f9e40d8dc40b75157a9882a2f5cd7c5df4915e07b8c9861d21c3
+  1.10.0--r43hdfd78af_0: sha256:c4e9cad88069f14b3de6e5f4c583fc1fd0e72f0cdfba719974f1af9af83e4d56
 docker: quay.io/biocontainers/bioconductor-escape

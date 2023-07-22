@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-aggregatebiovar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-aggregatebiovar
 latest:
-  1.8.0--r42hdfd78af_0: sha256:a61b5fa188901538afb569013f965e2e6bd4dd991b9d1d240b1247db6eead1b8
+  1.10.0--r43hdfd78af_0: sha256:8303704dec8980139a865a00e70271606a588f0b04b7529945e9854c212410c6
 tags:
   1.4.0--r41hdfd78af_0: sha256:acedd03811fad2a91da150d743b241be11ff3720e37ca8b8a12ec631585dff3a
   1.8.0--r42hdfd78af_0: sha256:a61b5fa188901538afb569013f965e2e6bd4dd991b9d1d240b1247db6eead1b8
+  1.10.0--r43hdfd78af_0: sha256:8303704dec8980139a865a00e70271606a588f0b04b7529945e9854c212410c6
 docker: quay.io/biocontainers/bioconductor-aggregatebiovar

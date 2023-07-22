@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-extrachips
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-extrachips
 latest:
-  1.2.0--r42hdfd78af_0: sha256:92f7188f38dadcc7b5df1cf85d0e81b398908411a6b5d25ae83980495f75ab9f
+  1.4.5--r43ha9d7317_0: sha256:d77a7ec7fbdfb10d94558f8977cdefe9f0cd50f714680f2d71fcd49a0c078df9
 tags:
   1.2.0--r42hdfd78af_0: sha256:92f7188f38dadcc7b5df1cf85d0e81b398908411a6b5d25ae83980495f75ab9f
+  1.4.5--r43ha9d7317_0: sha256:d77a7ec7fbdfb10d94558f8977cdefe9f0cd50f714680f2d71fcd49a0c078df9
 docker: quay.io/biocontainers/bioconductor-extrachips
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

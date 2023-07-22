@@ -2,12 +2,14 @@ url: https://biocontainers.pro/tools/nanocaller
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nanocaller
 latest:
-  3.2.0--hdfd78af_0: sha256:6d4fa4f958577c7b63dfd2805b97d5fd27b796d0e54fe75075f983dc05ae10e5
+  3.3.0--hdfd78af_0: sha256:7ce45e483709f39d713b061268cccc1f96d1c38631815435317cf156f9476086
 tags:
   3.0.0--hdfd78af_0: sha256:1343b132b0b56dfdccd447fe7e0f5635738b901da734c504eea51ab16c5d6291
   3.0.1--hdfd78af_0: sha256:38f9cf6036dbe69c12a4ec63465d3c91ff1f577bc59672eaa1c7bd611c7142a6
   3.2.0--hdfd78af_0: sha256:6d4fa4f958577c7b63dfd2805b97d5fd27b796d0e54fe75075f983dc05ae10e5
   3.1.0--hdfd78af_0: sha256:3aa9ca11a7d29b37bda6d37384580ec3989b023d03c4326ecd104e56d4548b76
+  3.3.0--hdfd78af_0: sha256:7ce45e483709f39d713b061268cccc1f96d1c38631815435317cf156f9476086
+  3.2.0--hdfd78af_1: sha256:a56472c9d769409a00b1ab80b81f39c695ed8c3492118b72a4b224af9ed9b086
 docker: quay.io/biocontainers/nanocaller
 aliases:
   NanoCaller: /usr/local/bin/NanoCaller

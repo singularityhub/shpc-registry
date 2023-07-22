@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rnaseqcomp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnaseqcomp
 latest:
-  1.28.0--r42hdfd78af_0: sha256:de73ca508e5295ad7c0711e738967b64623792ab30a025b811371c43409cdbfe
+  1.30.0--r43hdfd78af_0: sha256:26c18a523a6510e5d6f157eedb73856efe2ad24a7a3c4468434d7616c9d2d712
 tags:
   1.8.0--r3.4.1_0: sha256:d797e7f1b2d7237cf48d66ff1d56143bec549ed55d5d51ec69e447212c83e644
   1.28.0--r42hdfd78af_0: sha256:de73ca508e5295ad7c0711e738967b64623792ab30a025b811371c43409cdbfe
@@ -10,6 +10,7 @@ tags:
   1.22.0--r41hdfd78af_0: sha256:4a5a5a44752fa01205f4c4eec2447dfb6a741fd4ee84273135668ccb6b6644bd
   1.20.0--r40hdfd78af_1: sha256:b48604a6c518923c430f460f68c012ae112313527728a99fc73c52b780da4e6f
   1.18.0--r40_0: sha256:d9e2b8db2255ad6e678071065f46c5625b071c578e2dd223e5148935d98e8982
+  1.30.0--r43hdfd78af_0: sha256:26c18a523a6510e5d6f157eedb73856efe2ad24a7a3c4468434d7616c9d2d712
 docker: quay.io/biocontainers/bioconductor-rnaseqcomp
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

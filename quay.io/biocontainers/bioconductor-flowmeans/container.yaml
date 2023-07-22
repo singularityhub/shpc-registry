@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-flowmeans
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowmeans
 latest:
-  1.58.0--r42hdfd78af_0: sha256:38725fca7538ab32dbc44337acb487f86edb7b604b0bda009445ff151e89ab85
+  1.60.0--r43hdfd78af_0: sha256:c053b37fbd173ba5ef26d8f1ed1d115acf083b1f3a07357b666f42d7265fcffd
 tags:
   1.54.0--r41hdfd78af_0: sha256:3b5542d4c9ee9e0b8b2740d8d8ecd3bfcc12c4947c6b7ebdacc91d628c6b9bcc
   1.58.0--r42hdfd78af_0: sha256:38725fca7538ab32dbc44337acb487f86edb7b604b0bda009445ff151e89ab85
+  1.60.0--r43hdfd78af_0: sha256:c053b37fbd173ba5ef26d8f1ed1d115acf083b1f3a07357b666f42d7265fcffd
 docker: quay.io/biocontainers/bioconductor-flowmeans

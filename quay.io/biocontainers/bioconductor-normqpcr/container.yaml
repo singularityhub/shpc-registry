@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-normqpcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-normqpcr
 latest:
-  1.44.0--r42hdfd78af_0: sha256:c8d8b4248f6a294888c6c203f7d90f1c48eff0b4a3b488582856c578309981ed
+  1.46.0--r43hdfd78af_0: sha256:5ef444025ccb5288777b83018a801f8ab534967c6dbe95e9500d840def0ff1e7
 tags:
   1.40.0--r41hdfd78af_0: sha256:fd2bec571b1adaec3036374602852ae01a83d979a4882a0ad47a202530a8e426
   1.44.0--r42hdfd78af_0: sha256:c8d8b4248f6a294888c6c203f7d90f1c48eff0b4a3b488582856c578309981ed
+  1.46.0--r43hdfd78af_0: sha256:5ef444025ccb5288777b83018a801f8ab534967c6dbe95e9500d840def0ff1e7
 docker: quay.io/biocontainers/bioconductor-normqpcr

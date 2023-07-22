@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-easyreporting
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-easyreporting
 latest:
-  1.10.0--r42hdfd78af_0: sha256:a15f3199de73fda123774a8db620dc65db46e77a3d44bf52664a3b535cc105fb
+  1.12.0--r43hdfd78af_0: sha256:5e4f4ce3433e692d6fc6d6e41581e662bddbd13d31792f95c7d555c0f4b76e8e
 tags:
   1.6.0--r41hdfd78af_0: sha256:8b9bfa934772943797b94c086f0ea13d39d5a4085d934677c666a2c314641c55
   1.10.0--r42hdfd78af_0: sha256:a15f3199de73fda123774a8db620dc65db46e77a3d44bf52664a3b535cc105fb
+  1.12.0--r43hdfd78af_0: sha256:5e4f4ce3433e692d6fc6d6e41581e662bddbd13d31792f95c7d555c0f4b76e8e
 docker: quay.io/biocontainers/bioconductor-easyreporting
 aliases:
   pandoc: /usr/local/bin/pandoc

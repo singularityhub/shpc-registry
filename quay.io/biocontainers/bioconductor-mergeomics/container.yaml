@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mergeomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mergeomics
 latest:
-  1.26.0--r42hdfd78af_0: sha256:7ab8f5eb88d130451a9cef4ca123ad4e98e0286811cd30bf3a33e02cef19fe45
+  1.28.0--r43hdfd78af_0: sha256:ef0031d9329a0b7c1d8c16a29dd39449623ef583052a9c2552b1914d84ec49dc
 tags:
   1.8.0--r341_0: sha256:99e0fd7e78a931c30c4d6ef73c8e19ef4dc18777a26c75b19e09051ce3c781bc
   1.26.0--r42hdfd78af_0: sha256:7ab8f5eb88d130451a9cef4ca123ad4e98e0286811cd30bf3a33e02cef19fe45
@@ -10,6 +10,7 @@ tags:
   1.20.0--r41hdfd78af_0: sha256:becd5c7f6e081273ab41a8127e5dfb9c24cf80fc3336fc887e8dd222896fc95c
   1.18.0--r40hdfd78af_1: sha256:015252a0599a541efbda2a507201a0e8a18151e8d7f59b9e4e5e1f5a590173b4
   1.16.0--r40_0: sha256:7bf62c4e003b237be0544953947016ccf23a220d7e532e48d83b81238df413df
+  1.28.0--r43hdfd78af_0: sha256:ef0031d9329a0b7c1d8c16a29dd39449623ef583052a9c2552b1914d84ec49dc
 docker: quay.io/biocontainers/bioconductor-mergeomics
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

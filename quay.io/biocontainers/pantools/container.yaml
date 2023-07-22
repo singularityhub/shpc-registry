@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pantools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pantools
 latest:
-  4.2.1--hdfd78af_0: sha256:6a076e72e773eaecaed4f7185e9289a4eadf7fe7892dfee5ed679fdab1fc6745
+  4.2.2--hdfd78af_0: sha256:b6e460ee2eec354e76f53607304e977e79f03313e558d21c774d618e4d405928
 tags:
   3.3.3--hdfd78af_0: sha256:0818dc6a8f863fe62feb9e1e3558be44c2cf3175ff1412a5b6ed4bf775f57559
   3.4.0--hdfd78af_0: sha256:1cc614cf02205cd8ccddf1215af915dde1e8db3cee6dc4a1d3df6b516d4fe85d
@@ -11,6 +11,7 @@ tags:
   4.1.1--hdfd78af_0: sha256:b3bd31de490ba8694def1eafb0e3b0756e2b6e307e958bc4ccdcad240b267799
   4.2.0--hdfd78af_0: sha256:9b9775656a164f75d34f9faf738f89dd8ba276a274b00c2581de8830e1190e3e
   4.2.1--hdfd78af_0: sha256:6a076e72e773eaecaed4f7185e9289a4eadf7fe7892dfee5ed679fdab1fc6745
+  4.2.2--hdfd78af_0: sha256:b6e460ee2eec354e76f53607304e977e79f03313e558d21c774d618e4d405928
 docker: quay.io/biocontainers/pantools
 aliases:
   pantools: /usr/local/bin/pantools

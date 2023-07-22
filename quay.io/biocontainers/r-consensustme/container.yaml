@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/r-consensustme
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-consensustme
 latest:
-  0.0.1.9000--r42hdfd78af_1: sha256:8329d045667c2faff49a96e6b408e673e9c5821c59860297049604189616cab4
+  0.0.1.9000--r43hdfd78af_2: sha256:b9517baef001d6a72c6ab539b7c8236cd759cd2be64867196440bdaa0f7295e0
 tags:
   0.0.1.9000--r41hdfd78af_0: sha256:5d420e05b149e5c169b6508157f02f478f38a4f2e6fa79341c3e959e3f0561b1
   0.0.1.9000--r42hdfd78af_1: sha256:8329d045667c2faff49a96e6b408e673e9c5821c59860297049604189616cab4
+  0.0.1.9000--r43hdfd78af_2: sha256:b9517baef001d6a72c6ab539b7c8236cd759cd2be64867196440bdaa0f7295e0
 docker: quay.io/biocontainers/r-consensustme
