@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rnagilentdesign028282.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnagilentdesign028282.db
 latest:
-  3.2.3--r42hdfd78af_10: sha256:ebce38d2e1b50a1d55db739d7f71fb0c6e0db52ae389d5d8b0a972b06926d6b1
+  3.2.3--r43hdfd78af_11: sha256:c1448f71def48b82ffbf72cee2bcdb9366550e2c922b52f986b2d1232ece6197
 tags:
   3.2.3--r41hdfd78af_9: sha256:025cf6e90502f19b18bbd4f8e041b68d713a9a893d0b817f8ff30c880795d6f4
   3.2.3--r42hdfd78af_10: sha256:ebce38d2e1b50a1d55db739d7f71fb0c6e0db52ae389d5d8b0a972b06926d6b1
+  3.2.3--r43hdfd78af_11: sha256:c1448f71def48b82ffbf72cee2bcdb9366550e2c922b52f986b2d1232ece6197
 docker: quay.io/biocontainers/bioconductor-rnagilentdesign028282.db

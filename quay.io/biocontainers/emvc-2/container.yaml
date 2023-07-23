@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/emvc-2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for emvc-2
 latest:
-  1.0--h031d066_0: sha256:2a48df913184cdbb4205d841201e71e6ab0f40bbfcae54f28282504ee21fa789
+  1.0--h031d066_2: sha256:fa5b49f68ad1f0b61350b6d7d1aa35384b1b1b6079592e2258e4d25c4a0946d2
 tags:
   1.0--h031d066_0: sha256:2a48df913184cdbb4205d841201e71e6ab0f40bbfcae54f28282504ee21fa789
+  1.0--h031d066_2: sha256:fa5b49f68ad1f0b61350b6d7d1aa35384b1b1b6079592e2258e4d25c4a0946d2
 docker: quay.io/biocontainers/emvc-2
 aliases:
   candidate_variants_finder: /usr/local/bin/candidate_variants_finder

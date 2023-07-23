@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-tfea.chip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tfea.chip
 latest:
-  1.18.0--r42hdfd78af_0: sha256:bea8408cd9ff3170ded9ce976a9a5a474e44de92f8c240a63e005e2c55c45ffd
+  1.20.0--r43hdfd78af_0: sha256:6932247c4be4d05898c5c3c77c7417b8bf0ba123d31fb89f7a9a39c528909d03
 tags:
   1.8.0--r40_0: sha256:4c4407505e36645eada6e683f6377280155443bce56fd9d9311029c363601c05
   1.18.0--r42hdfd78af_0: sha256:bea8408cd9ff3170ded9ce976a9a5a474e44de92f8c240a63e005e2c55c45ffd
   1.14.0--r41hdfd78af_0: sha256:16577110f66620b95451a347a9c5492904d0ea9da6c7bc1e4f5d5f9c45fdc754
   1.12.0--r41hdfd78af_0: sha256:89b4fbc2a1b6500448f5a34aa06c0e3e33dfe83512303c6abbab82fa2ceac78b
   1.10.0--r40hdfd78af_1: sha256:140b3c5ab69b90ce1d6cff7a3f7f1b50a54efbd0f0a0bed198db80638639c9ad
+  1.20.0--r43hdfd78af_0: sha256:6932247c4be4d05898c5c3c77c7417b8bf0ba123d31fb89f7a9a39c528909d03
 docker: quay.io/biocontainers/bioconductor-tfea.chip
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

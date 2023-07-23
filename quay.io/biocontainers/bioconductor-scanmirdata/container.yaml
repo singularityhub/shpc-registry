@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-scanmirdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scanmirdata
 latest:
-  1.4.0--r42hdfd78af_0: sha256:0ccc3b91e5ba9d67ac1df9b8eeae09a4f915ca76026eb9e3da8c277ee31c9ab2
+  1.6.0--r43hdfd78af_0: sha256:52a13438972aa2b982a4d1d55f067528326c2614ae49817c2f1d14f409b3e35d
 tags:
   1.0.0--r41hdfd78af_1: sha256:5c94f71e4580aed50e3f58f8f2093d85567a83e377759776da6ac3455272bc43
   1.4.0--r42hdfd78af_0: sha256:0ccc3b91e5ba9d67ac1df9b8eeae09a4f915ca76026eb9e3da8c277ee31c9ab2
+  1.6.0--r43hdfd78af_0: sha256:52a13438972aa2b982a4d1d55f067528326c2614ae49817c2f1d14f409b3e35d
 docker: quay.io/biocontainers/bioconductor-scanmirdata

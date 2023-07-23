@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-nearbynding
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nearbynding
 latest:
-  1.8.0--r42hdfd78af_0: sha256:9b2aaac6bcdad960556faf4a52ceb81c855025f785b14892bda0a9af5e384542
+  1.10.0--r43hdfd78af_0: sha256:49f5a89fd750630cae1c633f97116a7e97616c3553d0bd29ec61563442171b6d
 tags:
   1.4.0--r41hdfd78af_0: sha256:752f84cfd902beeab98f2e84810b0ce77752509710a079e46ff7a6bca6068ea6
   1.8.0--r42hdfd78af_0: sha256:9b2aaac6bcdad960556faf4a52ceb81c855025f785b14892bda0a9af5e384542
+  1.10.0--r43hdfd78af_0: sha256:49f5a89fd750630cae1c633f97116a7e97616c3553d0bd29ec61563442171b6d
 docker: quay.io/biocontainers/bioconductor-nearbynding

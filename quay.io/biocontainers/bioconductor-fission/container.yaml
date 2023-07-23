@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-fission
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fission
 latest:
-  1.18.0--r42hdfd78af_0: sha256:c6d0ec11c8ebfe080802f58157e11f93d078cdc182d8eb1300d9638d8a898052
+  1.20.0--r43hdfd78af_0: sha256:6f28a034a3f50f516f333c0398353bd4a121f8859b5c65a8668c40320ea8fb9e
 tags:
   1.8.0--r40_0: sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027
   1.18.0--r42hdfd78af_0: sha256:c6d0ec11c8ebfe080802f58157e11f93d078cdc182d8eb1300d9638d8a898052
   1.14.0--r41hdfd78af_1: sha256:53cb3d8e98cb253fdb402098e8455850bb38264b3b4790b7f3beab6b2114b543
   1.12.0--r41hdfd78af_0: sha256:22fc0ca610882ca6ce4875156acd28f133481101f454d40815ccce7916a57f1b
   1.10.0--r40hdfd78af_1: sha256:1c5650c989da96acd87e57dbf4c252d97633ea880444d5580f1cf6b49f2f6a2f
+  1.20.0--r43hdfd78af_0: sha256:6f28a034a3f50f516f333c0398353bd4a121f8859b5c65a8668c40320ea8fb9e
 docker: quay.io/biocontainers/bioconductor-fission
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
