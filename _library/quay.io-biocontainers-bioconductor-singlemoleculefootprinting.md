@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-singlemoleculefootprinting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlemoleculefootprinting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlemoleculefootprinting/container.yaml"
-updated_at: "2023-07-22 02:45:58.774434"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-23 02:50:46.729167"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlemoleculefootprinting"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-singlemoleculefootprinting"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-singlemoleculefootprinting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlemoleculefootprinting", "latest": {"1.6.0--r42hdfd78af_0": "sha256:680cc581645d5cbc0718531e1a6a9127a5208622913c47af31918bddc508827b"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:935196e8734ff17b240b8a1f3156ea14f4aa2c3b8be2a7dad3fef3ddbf1eede1", "1.6.0--r42hdfd78af_0": "sha256:680cc581645d5cbc0718531e1a6a9127a5208622913c47af31918bddc508827b"}, "docker": "quay.io/biocontainers/bioconductor-singlemoleculefootprinting"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-singlemoleculefootprinting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlemoleculefootprinting", "latest": {"1.8.0--r43hdfd78af_0": "sha256:7d82a30723e52101727e6f8f7005dcfc2563f57559ca85ab66fbfc47fea08d36"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:935196e8734ff17b240b8a1f3156ea14f4aa2c3b8be2a7dad3fef3ddbf1eede1", "1.6.0--r42hdfd78af_0": "sha256:680cc581645d5cbc0718531e1a6a9127a5208622913c47af31918bddc508827b", "1.8.0--r43hdfd78af_0": "sha256:7d82a30723e52101727e6f8f7005dcfc2563f57559ca85ab66fbfc47fea08d36"}, "docker": "quay.io/biocontainers/bioconductor-singlemoleculefootprinting"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-singlemoleculefootprinting.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-singlemoleculefootprinting
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-singlemoleculefootprinting:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-singlemoleculefootprinting:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-singlemoleculefootprinting/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-singlemoleculefootprinting/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-singlemoleculefootprinting/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-singlemoleculefootprinting/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

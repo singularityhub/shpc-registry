@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytodx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytodx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytodx/container.yaml"
-updated_at: "2023-07-22 02:47:42.905412"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-23 02:52:24.943081"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytodx"
 aliases:
  - "2to3-3.8"
@@ -21,8 +21,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytodx"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytodx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytodx", "latest": {"1.18.0--r42hdfd78af_0": "sha256:c5de7d3197184e3986766c1cd24233da763a78235a792e6aaf1f962737a03236"}, "tags": {"1.8.0--r40_0": "sha256:bf344b421bee276471a2073336742f9858f8204c9b6a0ac8ee518ca974ed901e", "1.18.0--r42hdfd78af_0": "sha256:c5de7d3197184e3986766c1cd24233da763a78235a792e6aaf1f962737a03236", "1.14.0--r41hdfd78af_0": "sha256:cc9378b5f5261df2123e812fc5cecdc4c6d22f5148527bb00f989b67197dd49a", "1.12.0--r41hdfd78af_0": "sha256:1a519668af4e91896419b630999f9f02d61743dc2b7d22c8b1adffd1f6e3ce7c", "1.10.0--r40hdfd78af_1": "sha256:7d233657472d6ca2c9b0af5077ee08c2570735c69ab6dad9185265d0660fb604"}, "docker": "quay.io/biocontainers/bioconductor-cytodx", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytodx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytodx", "latest": {"1.20.0--r43hdfd78af_0": "sha256:96063da04a791a376a17bcba6f5133900aa8a8dea323456e9dd4d0299d95ad96"}, "tags": {"1.8.0--r40_0": "sha256:bf344b421bee276471a2073336742f9858f8204c9b6a0ac8ee518ca974ed901e", "1.18.0--r42hdfd78af_0": "sha256:c5de7d3197184e3986766c1cd24233da763a78235a792e6aaf1f962737a03236", "1.14.0--r41hdfd78af_0": "sha256:cc9378b5f5261df2123e812fc5cecdc4c6d22f5148527bb00f989b67197dd49a", "1.12.0--r41hdfd78af_0": "sha256:1a519668af4e91896419b630999f9f02d61743dc2b7d22c8b1adffd1f6e3ce7c", "1.10.0--r40hdfd78af_1": "sha256:7d233657472d6ca2c9b0af5077ee08c2570735c69ab6dad9185265d0660fb604", "1.20.0--r43hdfd78af_0": "sha256:96063da04a791a376a17bcba6f5133900aa8a8dea323456e9dd4d0299d95ad96"}, "docker": "quay.io/biocontainers/bioconductor-cytodx", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytodx.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytodx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytodx:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytodx:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytodx/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytodx/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytodx/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytodx/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

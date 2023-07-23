@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nxtirfcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nxtirfcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nxtirfcore/container.yaml"
-updated_at: "2023-07-22 02:46:00.778444"
-latest: "1.4.0--r42hf17093f_1"
+updated_at: "2023-07-23 02:50:48.613195"
+latest: "1.6.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nxtirfcore"
 
 versions:
  - "1.0.0--r41hc247a5b_2"
  - "1.4.0--r42hc247a5b_0"
  - "1.4.0--r42hf17093f_1"
+ - "1.6.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nxtirfcore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nxtirfcore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nxtirfcore", "latest": {"1.4.0--r42hf17093f_1": "sha256:aff4ff7d5fd5ae21311e87bcde11f1d9c6c51a882f14a66239296866bd64c941"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:6be7184ed850e5620b02aec271d5f81e627ecc41e08227178f9d7e064ea8ac11", "1.4.0--r42hc247a5b_0": "sha256:70cea63d31cd26dad4192fb577b9acd502715a4b9ac987a56bd2ce98f6a297e5", "1.4.0--r42hf17093f_1": "sha256:aff4ff7d5fd5ae21311e87bcde11f1d9c6c51a882f14a66239296866bd64c941"}, "docker": "quay.io/biocontainers/bioconductor-nxtirfcore"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nxtirfcore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nxtirfcore", "latest": {"1.6.0--r43hf17093f_0": "sha256:fe028b19fb934fca47ba8a2893de9bfbdf83ab44ce360ef9bdf661f6a3d3714c"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:6be7184ed850e5620b02aec271d5f81e627ecc41e08227178f9d7e064ea8ac11", "1.4.0--r42hc247a5b_0": "sha256:70cea63d31cd26dad4192fb577b9acd502715a4b9ac987a56bd2ce98f6a297e5", "1.4.0--r42hf17093f_1": "sha256:aff4ff7d5fd5ae21311e87bcde11f1d9c6c51a882f14a66239296866bd64c941", "1.6.0--r43hf17093f_0": "sha256:fe028b19fb934fca47ba8a2893de9bfbdf83ab44ce360ef9bdf661f6a3d3714c"}, "docker": "quay.io/biocontainers/bioconductor-nxtirfcore"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nxtirfcore.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nxtirfcore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nxtirfcore:1.4.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-nxtirfcore:1.6.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nxtirfcore/1.4.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-nxtirfcore/1.4.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-nxtirfcore/1.6.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-nxtirfcore/1.6.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

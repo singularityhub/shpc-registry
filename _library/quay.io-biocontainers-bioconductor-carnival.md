@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-carnival"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-carnival/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-carnival/container.yaml"
-updated_at: "2023-07-22 03:11:17.581102"
-latest: "2.8.0--r42hdfd78af_0"
+updated_at: "2023-07-23 03:14:47.141319"
+latest: "2.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-carnival"
 aliases:
  - "pandoc"
 versions:
  - "2.4.0--r41hdfd78af_0"
  - "2.8.0--r42hdfd78af_0"
+ - "2.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-carnival"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-carnival", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-carnival", "latest": {"2.8.0--r42hdfd78af_0": "sha256:b34523325b711cf734675b49b8f48f0afc65bbc6b52380b2db16543bb51ef71c"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:b6a8510407cbfe91fe07ba619a1f15ab22b3253261ebd7cae827db989a29cb46", "2.8.0--r42hdfd78af_0": "sha256:b34523325b711cf734675b49b8f48f0afc65bbc6b52380b2db16543bb51ef71c"}, "docker": "quay.io/biocontainers/bioconductor-carnival", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-carnival", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-carnival", "latest": {"2.10.0--r43hdfd78af_0": "sha256:fe532a47833ada8c4745e801e4936f0791231ccf70994d2e6df330a226d5af27"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:b6a8510407cbfe91fe07ba619a1f15ab22b3253261ebd7cae827db989a29cb46", "2.8.0--r42hdfd78af_0": "sha256:b34523325b711cf734675b49b8f48f0afc65bbc6b52380b2db16543bb51ef71c", "2.10.0--r43hdfd78af_0": "sha256:fe532a47833ada8c4745e801e4936f0791231ccf70994d2e6df330a226d5af27"}, "docker": "quay.io/biocontainers/bioconductor-carnival", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-carnival.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-carnival
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-carnival:2.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-carnival:2.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-carnival/2.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-carnival/2.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-carnival/2.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-carnival/2.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

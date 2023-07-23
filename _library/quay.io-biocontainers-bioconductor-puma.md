@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-puma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-puma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-puma/container.yaml"
-updated_at: "2023-07-22 03:19:18.203930"
-latest: "3.40.0--r42ha9d7317_1"
+updated_at: "2023-07-23 03:22:22.050973"
+latest: "3.42.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-puma"
 
 versions:
  - "3.36.0--r41hc0cfd56_2"
  - "3.40.0--r42hc0cfd56_0"
  - "3.40.0--r42ha9d7317_1"
+ - "3.42.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-puma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-puma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-puma", "latest": {"3.40.0--r42ha9d7317_1": "sha256:b1a92ff98d5a46b34edfa2941a7abfef10b906b496a61ca1001169c8d89fbd1e"}, "tags": {"3.36.0--r41hc0cfd56_2": "sha256:77f41aba9551cad89fe3cc372ff9d7e376f8613e293edc58201cc3a31e964578", "3.40.0--r42hc0cfd56_0": "sha256:dad776e858c2d9f8f42b660cd0c79d52f83f2508d2c5882733b78f239a9a1a6d", "3.40.0--r42ha9d7317_1": "sha256:b1a92ff98d5a46b34edfa2941a7abfef10b906b496a61ca1001169c8d89fbd1e"}, "docker": "quay.io/biocontainers/bioconductor-puma"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-puma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-puma", "latest": {"3.42.0--r43ha9d7317_0": "sha256:a7a3a58076537d375e81c25c68df7ea207e20b6dfd868bb065f47d6c26514fe7"}, "tags": {"3.36.0--r41hc0cfd56_2": "sha256:77f41aba9551cad89fe3cc372ff9d7e376f8613e293edc58201cc3a31e964578", "3.40.0--r42hc0cfd56_0": "sha256:dad776e858c2d9f8f42b660cd0c79d52f83f2508d2c5882733b78f239a9a1a6d", "3.40.0--r42ha9d7317_1": "sha256:b1a92ff98d5a46b34edfa2941a7abfef10b906b496a61ca1001169c8d89fbd1e", "3.42.0--r43ha9d7317_0": "sha256:a7a3a58076537d375e81c25c68df7ea207e20b6dfd868bb065f47d6c26514fe7"}, "docker": "quay.io/biocontainers/bioconductor-puma"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-puma.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-puma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-puma:3.40.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-puma:3.42.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-puma/3.40.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-puma/3.40.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-puma/3.42.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-puma/3.42.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

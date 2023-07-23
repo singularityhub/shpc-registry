@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gencove"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gencove/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gencove/container.yaml"
-updated_at: "2023-07-22 02:38:42.556957"
-latest: "2.5.0--pyhdfd78af_0"
+updated_at: "2023-07-23 02:43:50.972638"
+latest: "2.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gencove"
 aliases:
  - "gencove"
@@ -24,8 +24,9 @@ versions:
  - "2.4.6--pyhdfd78af_0"
  - "2.5.0--pyhdfd78af_0"
  - "2.4.7--pyhdfd78af_0"
+ - "2.5.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gencove"
-config: {"url": "https://biocontainers.pro/tools/gencove", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gencove", "latest": {"2.5.0--pyhdfd78af_0": "sha256:79a0b324cff26cad6c701b9e3501a1079913ecb826de12676a7cc6cf8819d442"}, "tags": {"2.4.5--pyhdfd78af_0": "sha256:f7d346dff471cc0543fc1f90d4ab6c6af85462c762c955812973caa5e25676a3", "2.4.6--pyhdfd78af_0": "sha256:592e024e7be8bb234bc695737f160012b804c7cbc4b5b841dba2c9e2d7b6fe68", "2.5.0--pyhdfd78af_0": "sha256:79a0b324cff26cad6c701b9e3501a1079913ecb826de12676a7cc6cf8819d442", "2.4.7--pyhdfd78af_0": "sha256:a964119c48b0df040d7aba1dc4c3b29942b846bb5b4db14a1cf8d57339b68962"}, "docker": "quay.io/biocontainers/gencove", "aliases": {"gencove": "/usr/local/bin/gencove", "jp.py": "/usr/local/bin/jp.py", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/gencove", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gencove", "latest": {"2.5.2--pyhdfd78af_0": "sha256:322f8f894e53d5664827adc8869854eb5051267a34af0781d112976b5500530c"}, "tags": {"2.4.5--pyhdfd78af_0": "sha256:f7d346dff471cc0543fc1f90d4ab6c6af85462c762c955812973caa5e25676a3", "2.4.6--pyhdfd78af_0": "sha256:592e024e7be8bb234bc695737f160012b804c7cbc4b5b841dba2c9e2d7b6fe68", "2.5.0--pyhdfd78af_0": "sha256:79a0b324cff26cad6c701b9e3501a1079913ecb826de12676a7cc6cf8819d442", "2.4.7--pyhdfd78af_0": "sha256:a964119c48b0df040d7aba1dc4c3b29942b846bb5b4db14a1cf8d57339b68962", "2.5.2--pyhdfd78af_0": "sha256:322f8f894e53d5664827adc8869854eb5051267a34af0781d112976b5500530c"}, "docker": "quay.io/biocontainers/gencove", "aliases": {"gencove": "/usr/local/bin/gencove", "jp.py": "/usr/local/bin/jp.py", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gencove.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/gencove
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gencove:2.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gencove:2.5.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gencove/2.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/gencove/2.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/gencove/2.5.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/gencove/2.5.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

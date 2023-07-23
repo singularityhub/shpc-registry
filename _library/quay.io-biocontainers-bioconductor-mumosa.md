@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-mumosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mumosa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mumosa/container.yaml"
-updated_at: "2023-07-22 03:11:52.659944"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-23 03:15:20.485281"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mumosa"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mumosa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mumosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mumosa", "latest": {"1.6.0--r42hdfd78af_0": "sha256:834d3793a62e557af5da5755dc14c5f3a1732c3db9e66c78342e65a03b4fd537"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ee5106abb0c336c9e6695d9b88b731d2b860c1087c926fcbf847a3057160ca46", "1.6.0--r42hdfd78af_0": "sha256:834d3793a62e557af5da5755dc14c5f3a1732c3db9e66c78342e65a03b4fd537"}, "docker": "quay.io/biocontainers/bioconductor-mumosa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mumosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mumosa", "latest": {"1.8.0--r43hdfd78af_0": "sha256:b8ab4ff2f9f7d6f8f48c6175e7fa0dc8e9231d8a67c291632d34ba7b884ad999"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ee5106abb0c336c9e6695d9b88b731d2b860c1087c926fcbf847a3057160ca46", "1.6.0--r42hdfd78af_0": "sha256:834d3793a62e557af5da5755dc14c5f3a1732c3db9e66c78342e65a03b4fd537", "1.8.0--r43hdfd78af_0": "sha256:b8ab4ff2f9f7d6f8f48c6175e7fa0dc8e9231d8a67c291632d34ba7b884ad999"}, "docker": "quay.io/biocontainers/bioconductor-mumosa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mumosa.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mumosa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mumosa:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mumosa:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mumosa/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mumosa/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mumosa/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mumosa/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

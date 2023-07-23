@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/constellations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/constellations/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/constellations/container.yaml"
-updated_at: "2023-07-22 02:57:51.099260"
-latest: "0.1.10--pyh5e36f6f_0"
+updated_at: "2023-07-23 03:02:02.686435"
+latest: "0.1.12--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/constellations"
 aliases:
  - "constellations"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.1.9--pyh5e36f6f_0"
  - "0.1.10--pyh5e36f6f_0"
+ - "0.1.12--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for constellations"
-config: {"url": "https://biocontainers.pro/tools/constellations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for constellations", "latest": {"0.1.10--pyh5e36f6f_0": "sha256:8c038fd145a28b5a5741efa50a5ecbd91a8dd2e69f670ff84621e62e618b0dc6"}, "tags": {"0.1.9--pyh5e36f6f_0": "sha256:1a9a999b0b2ffb81ca3a5cd5ae5d8097fa0cbd19c19cae54729bb8b9f6b1d73f", "0.1.10--pyh5e36f6f_0": "sha256:8c038fd145a28b5a5741efa50a5ecbd91a8dd2e69f670ff84621e62e618b0dc6"}, "docker": "quay.io/biocontainers/constellations", "aliases": {"constellations": "/usr/local/bin/constellations", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/constellations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for constellations", "latest": {"0.1.12--pyh7cba7a3_0": "sha256:7d3dce2549d4f7c4742471b52e48039f3134a62abe267e682788df2955d1fdab"}, "tags": {"0.1.9--pyh5e36f6f_0": "sha256:1a9a999b0b2ffb81ca3a5cd5ae5d8097fa0cbd19c19cae54729bb8b9f6b1d73f", "0.1.10--pyh5e36f6f_0": "sha256:8c038fd145a28b5a5741efa50a5ecbd91a8dd2e69f670ff84621e62e618b0dc6", "0.1.12--pyh7cba7a3_0": "sha256:7d3dce2549d4f7c4742471b52e48039f3134a62abe267e682788df2955d1fdab"}, "docker": "quay.io/biocontainers/constellations", "aliases": {"constellations": "/usr/local/bin/constellations", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/constellations.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/constellations
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/constellations:0.1.10--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/constellations:0.1.12--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/constellations/0.1.10--pyh5e36f6f_0
-$ module help quay.io/biocontainers/constellations/0.1.10--pyh5e36f6f_0
+$ module load quay.io/biocontainers/constellations/0.1.12--pyh7cba7a3_0
+$ module help quay.io/biocontainers/constellations/0.1.12--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

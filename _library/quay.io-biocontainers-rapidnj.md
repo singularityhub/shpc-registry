@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapidnj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapidnj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapidnj/container.yaml"
-updated_at: "2023-07-22 03:25:26.843604"
+updated_at: "2023-07-23 03:28:08.478714"
 latest: "2.3.2--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/rapidnj"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaither"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaither/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaither/container.yaml"
-updated_at: "2023-07-22 03:24:39.780906"
+updated_at: "2023-07-23 03:27:23.686497"
 latest: "2.36.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaither"
 aliases:

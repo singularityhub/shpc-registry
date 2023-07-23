@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-seqmagick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seqmagick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seqmagick/container.yaml"
-updated_at: "2023-07-22 03:15:00.660661"
-latest: "0.1.5--r42h3121a25_1"
+updated_at: "2023-07-23 03:18:18.570004"
+latest: "0.1.6--r43h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-seqmagick"
 
 versions:
  - "0.1.5--r41h3121a25_0"
  - "0.1.5--r42h3121a25_1"
+ - "0.1.6--r43h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-seqmagick"
-config: {"url": "https://biocontainers.pro/tools/r-seqmagick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seqmagick", "latest": {"0.1.5--r42h3121a25_1": "sha256:bf796d4ffb9cad584b8f940f660d9b95fa792e0e8ffe34c758bf8b4733f040e0"}, "tags": {"0.1.5--r41h3121a25_0": "sha256:2e4cb2e0a3b297764d50646e15e35971330fb7b9a403e4c9b5854faa3a6aa1f7", "0.1.5--r42h3121a25_1": "sha256:bf796d4ffb9cad584b8f940f660d9b95fa792e0e8ffe34c758bf8b4733f040e0"}, "docker": "quay.io/biocontainers/r-seqmagick"}
+config: {"url": "https://biocontainers.pro/tools/r-seqmagick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seqmagick", "latest": {"0.1.6--r43h3121a25_1": "sha256:f2a352b8ea3c80596c7dc975df0d546e15359e789373aff2293fe94c57ed2c8f"}, "tags": {"0.1.5--r41h3121a25_0": "sha256:2e4cb2e0a3b297764d50646e15e35971330fb7b9a403e4c9b5854faa3a6aa1f7", "0.1.5--r42h3121a25_1": "sha256:bf796d4ffb9cad584b8f940f660d9b95fa792e0e8ffe34c758bf8b4733f040e0", "0.1.6--r43h3121a25_1": "sha256:f2a352b8ea3c80596c7dc975df0d546e15359e789373aff2293fe94c57ed2c8f"}, "docker": "quay.io/biocontainers/r-seqmagick"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-seqmagick.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-seqmagick
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-seqmagick:0.1.5--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-seqmagick:0.1.6--r43h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-seqmagick/0.1.5--r42h3121a25_1
-$ module help quay.io/biocontainers/r-seqmagick/0.1.5--r42h3121a25_1
+$ module load quay.io/biocontainers/r-seqmagick/0.1.6--r43h3121a25_1
+$ module help quay.io/biocontainers/r-seqmagick/0.1.6--r43h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

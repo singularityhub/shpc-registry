@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-psygenet2r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-psygenet2r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-psygenet2r/container.yaml"
-updated_at: "2023-07-22 03:08:30.202480"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-07-23 03:12:09.142853"
+latest: "1.32.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-psygenet2r"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
  - "1.30.0--r42hdfd78af_0"
+ - "1.32.2--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-psygenet2r"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-psygenet2r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-psygenet2r", "latest": {"1.30.0--r42hdfd78af_0": "sha256:e6549459049025002e31ea0cc1978d338a1323075b40dc5252c58aa8b06af1c7"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:3304b4151619eb0d3d13ab28b5a6aec7ebd5c7477c40b966aa324ecaa6eaec6b", "1.30.0--r42hdfd78af_0": "sha256:e6549459049025002e31ea0cc1978d338a1323075b40dc5252c58aa8b06af1c7"}, "docker": "quay.io/biocontainers/bioconductor-psygenet2r"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-psygenet2r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-psygenet2r", "latest": {"1.32.2--r43hdfd78af_0": "sha256:4a0ded080a7a59bfa077f013f37ded0d301e1884503e8366516bd95eda71bf8e"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:3304b4151619eb0d3d13ab28b5a6aec7ebd5c7477c40b966aa324ecaa6eaec6b", "1.30.0--r42hdfd78af_0": "sha256:e6549459049025002e31ea0cc1978d338a1323075b40dc5252c58aa8b06af1c7", "1.32.2--r43hdfd78af_0": "sha256:4a0ded080a7a59bfa077f013f37ded0d301e1884503e8366516bd95eda71bf8e"}, "docker": "quay.io/biocontainers/bioconductor-psygenet2r"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-psygenet2r.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-psygenet2r
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-psygenet2r:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-psygenet2r:1.32.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-psygenet2r/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-psygenet2r/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-psygenet2r/1.32.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-psygenet2r/1.32.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

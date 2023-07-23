@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mehari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mehari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mehari/container.yaml"
-updated_at: "2023-07-22 02:57:09.617265"
-latest: "0.5.7--h7e29777_0"
+updated_at: "2023-07-23 03:01:23.149289"
+latest: "0.6.2--h7e29777_0"
 container_url: "https://biocontainers.pro/tools/mehari"
 aliases:
  - "mehari"
@@ -15,8 +15,9 @@ versions:
  - "0.2.1--he55741f_0"
  - "0.5.7--h7e29777_0"
  - "0.4.1--h7e29777_0"
+ - "0.6.2--h7e29777_0"
 description: "singularity registry hpc automated addition for mehari"
-config: {"url": "https://biocontainers.pro/tools/mehari", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mehari", "latest": {"0.5.7--h7e29777_0": "sha256:f340f2cf92a8c940ea729ff48c42c81a228868fec1bc7ac18b767ae2f505b429"}, "tags": {"0.2.0--he55741f_0": "sha256:3cc52cbadfa7f224506f03af8f2138629b65371f436c95a832445c0ce827d121", "0.3.1--h7e29777_2": "sha256:5715d9dbb6b3ed8a7bf15092d79b01b7bd277e6ca7b0a835a39d80268135af52", "0.2.1--he55741f_0": "sha256:6bc5bd19b9263d093ece69b3789c95ab44c6a4b6d7b7a180794e15f640a15719", "0.5.7--h7e29777_0": "sha256:f340f2cf92a8c940ea729ff48c42c81a228868fec1bc7ac18b767ae2f505b429", "0.4.1--h7e29777_0": "sha256:cb2b7e85e8736dc29af56c1fe0e70c33ec98ab1c5bb817d9be1e2d4d8d999e13"}, "docker": "quay.io/biocontainers/mehari", "aliases": {"mehari": "/usr/local/bin/mehari"}}
+config: {"url": "https://biocontainers.pro/tools/mehari", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mehari", "latest": {"0.6.2--h7e29777_0": "sha256:bd33b9e4f3f9973d1af2fb2118127c745205bece0a28ff1a05ff1ddd697ad4c0"}, "tags": {"0.2.0--he55741f_0": "sha256:3cc52cbadfa7f224506f03af8f2138629b65371f436c95a832445c0ce827d121", "0.3.1--h7e29777_2": "sha256:5715d9dbb6b3ed8a7bf15092d79b01b7bd277e6ca7b0a835a39d80268135af52", "0.2.1--he55741f_0": "sha256:6bc5bd19b9263d093ece69b3789c95ab44c6a4b6d7b7a180794e15f640a15719", "0.5.7--h7e29777_0": "sha256:f340f2cf92a8c940ea729ff48c42c81a228868fec1bc7ac18b767ae2f505b429", "0.4.1--h7e29777_0": "sha256:cb2b7e85e8736dc29af56c1fe0e70c33ec98ab1c5bb817d9be1e2d4d8d999e13", "0.6.2--h7e29777_0": "sha256:bd33b9e4f3f9973d1af2fb2118127c745205bece0a28ff1a05ff1ddd697ad4c0"}, "docker": "quay.io/biocontainers/mehari", "aliases": {"mehari": "/usr/local/bin/mehari"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mehari.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mehari
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mehari:0.5.7--h7e29777_0
+$ shpc install quay.io/biocontainers/mehari:0.6.2--h7e29777_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mehari/0.5.7--h7e29777_0
-$ module help quay.io/biocontainers/mehari/0.5.7--h7e29777_0
+$ module load quay.io/biocontainers/mehari/0.6.2--h7e29777_0
+$ module help quay.io/biocontainers/mehari/0.6.2--h7e29777_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
