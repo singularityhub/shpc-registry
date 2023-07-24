@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/dimet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dimet
+latest:
+  0.1.0--pyhdfd78af_0: sha256:a993b30cda1a57e963612a68fd991e958fa2baeacba9227e848b37cfa6f2185b
+tags:
+  0.1.0--pyhdfd78af_0: sha256:a993b30cda1a57e963612a68fd991e958fa2baeacba9227e848b37cfa6f2185b
+docker: quay.io/biocontainers/dimet
+aliases:
+  dotenv: /usr/local/bin/dotenv
+  pygrun: /usr/local/bin/pygrun
+  coverage: /usr/local/bin/coverage
+  f2py3.11: /usr/local/bin/f2py3.11
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
+  python3.1: /usr/local/bin/python3.1

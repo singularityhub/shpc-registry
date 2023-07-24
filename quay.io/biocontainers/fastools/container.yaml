@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/fastools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastools
+latest:
+  1.1.5--pyh7cba7a3_0: sha256:56287f35c8985b8221a670a56624959a0530af762ccfee5d2b18e9c3409dbd0c
+tags:
+  1.1.5--pyh7cba7a3_0: sha256:56287f35c8985b8221a670a56624959a0530af762ccfee5d2b18e9c3409dbd0c
+docker: quay.io/biocontainers/fastools
+aliases:
+  fastools: /usr/local/bin/fastools
+  split_fasta: /usr/local/bin/split_fasta
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
