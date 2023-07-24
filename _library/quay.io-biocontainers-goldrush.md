@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goldrush"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goldrush/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goldrush/container.yaml"
-updated_at: "2023-07-24 02:48:27.307906"
+updated_at: "2023-07-24 04:46:33.354921"
 latest: "1.0.3--py39h1f90b4d_1"
 container_url: "https://biocontainers.pro/tools/goldrush"
 aliases:

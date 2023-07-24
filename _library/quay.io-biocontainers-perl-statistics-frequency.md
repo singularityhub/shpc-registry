@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-statistics-frequency"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-statistics-frequency/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-statistics-frequency/container.yaml"
-updated_at: "2023-07-24 02:42:28.974892"
+updated_at: "2023-07-24 04:40:40.288821"
 latest: "0.04--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-statistics-frequency"
 aliases:

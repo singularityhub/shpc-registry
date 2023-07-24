@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chemmineob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chemmineob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chemmineob/container.yaml"
-updated_at: "2023-07-24 02:48:21.124535"
+updated_at: "2023-07-24 04:46:27.384415"
 latest: "1.36.0--r42hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chemmineob"
 aliases:
