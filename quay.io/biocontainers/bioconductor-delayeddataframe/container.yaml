@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-delayeddataframe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-delayeddataframe
 latest:
-  1.14.0--r42hdfd78af_0: sha256:96ca2e59b130fbb114cce2cabdb37ffc8d2a176874175607b981ca0d7289956a
+  1.16.0--r43hdfd78af_0: sha256:61da891bc80dc3feec667b31f99e2ad1bc13fc7227cce1021cf1daa724c05679
 tags:
   1.8.0--r41hdfd78af_0: sha256:1feb6dfb953239ade388b0787cd000360f795df81bd72e7f31a009de90a07a9a
   1.14.0--r42hdfd78af_0: sha256:96ca2e59b130fbb114cce2cabdb37ffc8d2a176874175607b981ca0d7289956a
   1.10.0--r41hdfd78af_0: sha256:e186bf0fd0ce81ad77568c88234c315805b43bc076940bad15ace3dd3950479f
+  1.16.0--r43hdfd78af_0: sha256:61da891bc80dc3feec667b31f99e2ad1bc13fc7227cce1021cf1daa724c05679
 docker: quay.io/biocontainers/bioconductor-delayeddataframe
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-xhybcasneuf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xhybcasneuf
 latest:
-  1.36.0--r42hdfd78af_0: sha256:b252f02b165d936a3e659b6ad5456588f914f93c629ad557efdd56e27a934a82
+  1.38.0--r43hdfd78af_0: sha256:8134d6277c54d6e32b9b2e2287335c76362471a5f60d315cb3c10cbaf02037c2
 tags:
   1.32.0--r41hdfd78af_1: sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a
   1.36.0--r42hdfd78af_0: sha256:b252f02b165d936a3e659b6ad5456588f914f93c629ad557efdd56e27a934a82
+  1.38.0--r43hdfd78af_0: sha256:8134d6277c54d6e32b9b2e2287335c76362471a5f60d315cb3c10cbaf02037c2
 docker: quay.io/biocontainers/bioconductor-xhybcasneuf

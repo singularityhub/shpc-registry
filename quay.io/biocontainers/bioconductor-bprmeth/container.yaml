@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bprmeth
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bprmeth
 latest:
-  1.24.0--r42hf17093f_1: sha256:27fbdaeb461bb114ee8445a6759762740afb9d8bae1fcaf0d93e2893daa07d0b
+  1.26.1--r43hf17093f_0: sha256:05f352997f0a12091b04952c33ae7f40d718b7d59832c7726c5dcec150ecb3fa
 tags:
   1.8.1--r351hf484d3e_0: sha256:22008019d0323c98a8ce16e7abaf1f5701c023335911c457e0137bfe38fd5f66
   1.24.0--r42hc247a5b_0: sha256:4908b9f454916b4c16f8c96f079457590b0b2cc45e857ad8dd9033d18ccd502f
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40h399db7b_1: sha256:3c1f5cdc7f55182a3d3445bb13ff4e095a86a46f3154873708e0f2c8f5e115a1
   1.14.0--r40h5f743cb_0: sha256:128d0539f792563e39712065000afdcf5f58289fac7dcfcb277699c2551c4054
   1.24.0--r42hf17093f_1: sha256:27fbdaeb461bb114ee8445a6759762740afb9d8bae1fcaf0d93e2893daa07d0b
+  1.26.1--r43hf17093f_0: sha256:05f352997f0a12091b04952c33ae7f40d718b7d59832c7726c5dcec150ecb3fa
 docker: quay.io/biocontainers/bioconductor-bprmeth
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

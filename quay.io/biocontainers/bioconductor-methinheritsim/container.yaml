@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-methinheritsim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methinheritsim
 latest:
-  1.20.0--r42hdfd78af_0: sha256:38cdfdf1c617f2fe37d5cf2b5f6aa865b4a3a2bac325766a16a1055b7652a9f0
+  1.22.0--r43hdfd78af_0: sha256:c5abc158f545884f44ad82aa4b165b4c5bb0605f1c52ce13764b2e31730f5c76
 tags:
   1.8.0--r36_0: sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e
   1.20.0--r42hdfd78af_0: sha256:38cdfdf1c617f2fe37d5cf2b5f6aa865b4a3a2bac325766a16a1055b7652a9f0
@@ -10,6 +10,7 @@ tags:
   1.14.0--r41hdfd78af_0: sha256:bda8c47ee91a6b1388ca1d9fef04084d03417b40affebfc5776cf05c318b5587
   1.12.0--r40hdfd78af_1: sha256:c0d94fb43fadbe67c08b413bbec5d258c068add230a12775041cae7689c05ba1
   1.10.0--r40_0: sha256:d9e50c9b3da3b8aaf8cbae0da8c9697fca7ddba88288838fdafe8f770830858f
+  1.22.0--r43hdfd78af_0: sha256:c5abc158f545884f44ad82aa4b165b4c5bb0605f1c52ce13764b2e31730f5c76
 docker: quay.io/biocontainers/bioconductor-methinheritsim
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

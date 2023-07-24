@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-compartmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-compartmap
 latest:
-  1.16.0--r42hdfd78af_0: sha256:019e9a3fb6b68ddb88328661ea5d79f87285dae2d9f84dd727a36ea51be6d2ad
+  1.18.0--r43hdfd78af_0: sha256:adf7d5ad1b8548fd9fa91b5018f9ea5d7c0a35b33c4dcd94a9ef4300345d43bc
 tags:
   1.8.0--r40hdfd78af_1: sha256:67b40860756bb2589143be08b86f93dc178d134bef3358fc38d98aeafaaa7191
   1.16.0--r42hdfd78af_0: sha256:019e9a3fb6b68ddb88328661ea5d79f87285dae2d9f84dd727a36ea51be6d2ad
   1.12.0--r41hdfd78af_0: sha256:30a4dc319d5035569291d29d56b1455d9fc6b69bb7803a11efe6ec40fa766566
   1.10.0--r41hdfd78af_0: sha256:90c2e06c7a7a32bf4c5ad4aa93f00e546a8a8e3b49d2891059d7d461faba2957
+  1.18.0--r43hdfd78af_0: sha256:adf7d5ad1b8548fd9fa91b5018f9ea5d7c0a35b33c4dcd94a9ef4300345d43bc
 docker: quay.io/biocontainers/bioconductor-compartmap
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

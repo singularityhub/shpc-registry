@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-famat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-famat
 latest:
-  1.8.0--r42hdfd78af_0: sha256:e64d9df0b904b5d528363edcae81189f224c1f3115256f21d25f2effd770b0a4
+  1.10.0--r43hdfd78af_0: sha256:6b43518ca6e73896248228951d0df45691b51af08f7ce2f9c52333349c7246a5
 tags:
   1.4.0--r41hdfd78af_0: sha256:a6fae9aa818ac1cca6ba724f07c9222a86a3992ba1c6969e5677804fdd6385b9
   1.8.0--r42hdfd78af_0: sha256:e64d9df0b904b5d528363edcae81189f224c1f3115256f21d25f2effd770b0a4
+  1.10.0--r43hdfd78af_0: sha256:6b43518ca6e73896248228951d0df45691b51af08f7ce2f9c52333349c7246a5
 docker: quay.io/biocontainers/bioconductor-famat

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-crisprviz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-crisprviz
 latest:
-  1.0.0--r42hdfd78af_0: sha256:03c62d4dcbb271bb8ef2bf39df77721b56e6f530f31d47234ed5f5d41f083d1d
+  1.2.0--r43hdfd78af_0: sha256:878b7559c53291c406bb90f4cb779126385ba2888badf4c057ca68daaf7ea32a
 tags:
   1.0.0--r42hdfd78af_0: sha256:03c62d4dcbb271bb8ef2bf39df77721b56e6f530f31d47234ed5f5d41f083d1d
+  1.2.0--r43hdfd78af_0: sha256:878b7559c53291c406bb90f4cb779126385ba2888badf4c057ca68daaf7ea32a
 docker: quay.io/biocontainers/bioconductor-crisprviz
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

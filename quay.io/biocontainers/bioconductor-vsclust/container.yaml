@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-vsclust
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-vsclust
 latest:
-  1.0.0--r42hf17093f_1: sha256:d80ab8734526f4643517542348faf6be7818ba466a386d713955707fb3834102
+  1.2.0--r43hf17093f_0: sha256:c0963c4f4e2accc0e25476bdc193288134786580476dae630a6eca39b8dde7e7
 tags:
   1.0.0--r42hc247a5b_0: sha256:5db60b6c24faa39d5b587912ce64aa33f48a1d11a3dd27f45e7be5e97cf66d91
   1.0.0--r42hf17093f_1: sha256:d80ab8734526f4643517542348faf6be7818ba466a386d713955707fb3834102
+  1.2.0--r43hf17093f_0: sha256:c0963c4f4e2accc0e25476bdc193288134786580476dae630a6eca39b8dde7e7
 docker: quay.io/biocontainers/bioconductor-vsclust
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

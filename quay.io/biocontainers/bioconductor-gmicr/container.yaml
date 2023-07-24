@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-gmicr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gmicr
 latest:
-  1.12.0--r42hdfd78af_0: sha256:c013068d4fd6b63019797ad0ff95d45bab52d37efc49c125d68e3bcf4b98ac25
+  1.14.0--r43hdfd78af_0: sha256:5c88afc545d69b8d6327bd5824399536916fe01d4574b02d493647788c7cfd47
 tags:
   1.8.0--r41hdfd78af_0: sha256:653aa524e1fdb1c3ae180d88b756b1c0ed846a73451c12215ae9c3d69cbbcdfa
   1.12.0--r42hdfd78af_0: sha256:c013068d4fd6b63019797ad0ff95d45bab52d37efc49c125d68e3bcf4b98ac25
+  1.14.0--r43hdfd78af_0: sha256:5c88afc545d69b8d6327bd5824399536916fe01d4574b02d493647788c7cfd47
 docker: quay.io/biocontainers/bioconductor-gmicr

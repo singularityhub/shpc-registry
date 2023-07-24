@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-antiprofiles
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-antiprofiles
 latest:
-  1.38.0--r42hdfd78af_0: sha256:b1103409b7ab5d4f7018c9b02db258d7d854519b6300faa2b5946594a7679943
+  1.40.0--r43hdfd78af_0: sha256:83fdb7a45538aeab1d7c20204df26123ac662089430d3cc21cdab6001ac7544b
 tags:
   1.34.0--r41hdfd78af_0: sha256:c1d2f26b12d11d187420a33f548bba066a13f5c700fda11643f23f93a65481dc
   1.38.0--r42hdfd78af_0: sha256:b1103409b7ab5d4f7018c9b02db258d7d854519b6300faa2b5946594a7679943
+  1.40.0--r43hdfd78af_0: sha256:83fdb7a45538aeab1d7c20204df26123ac662089430d3cc21cdab6001ac7544b
 docker: quay.io/biocontainers/bioconductor-antiprofiles

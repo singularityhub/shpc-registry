@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-proteinprofiles
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-proteinprofiles
 latest:
-  1.38.0--r42hdfd78af_0: sha256:77f94affd09ed53a927000eee3a06c5684c997f4033ec55400964f1f9d6cee0a
+  1.40.0--r43hdfd78af_0: sha256:aaa0f33c1525e0a456eb66dc927e7e0572aa5648755bf44b7e9d50be2b9b1056
 tags:
   1.34.0--r41hdfd78af_0: sha256:505385e153c56ce8b33bfcefddfd636bf5379ecc05d1e97a3656f1cf76a64665
   1.38.0--r42hdfd78af_0: sha256:77f94affd09ed53a927000eee3a06c5684c997f4033ec55400964f1f9d6cee0a
+  1.40.0--r43hdfd78af_0: sha256:aaa0f33c1525e0a456eb66dc927e7e0572aa5648755bf44b7e9d50be2b9b1056
 docker: quay.io/biocontainers/bioconductor-proteinprofiles

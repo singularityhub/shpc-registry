@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-prince
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-prince
 latest:
-  1.14.0--r42hdfd78af_0: sha256:66f2a8c58623620b85bde854e43d64668974472cd69a09b3aaf2903822502217
+  1.16.0--r43hdfd78af_0: sha256:a9677e2b1a845a769bd8bc0b416d6ad9f95d82968f78b47d99e432f91f62d54a
 tags:
   1.8.0--r41hdfd78af_0: sha256:7319586981f96e3373a6719d9f2f4ffc1e99e427c202fef8bc7e7d4642d0357b
   1.14.0--r42hdfd78af_0: sha256:66f2a8c58623620b85bde854e43d64668974472cd69a09b3aaf2903822502217
   1.10.0--r41hdfd78af_0: sha256:5d5ba8fd3640a2cd42564b7ad1658a4dfc72df0a64612ae7289311af2ce4c171
+  1.16.0--r43hdfd78af_0: sha256:a9677e2b1a845a769bd8bc0b416d6ad9f95d82968f78b47d99e432f91f62d54a
 docker: quay.io/biocontainers/bioconductor-prince
 aliases:
   zipcmp: /usr/local/bin/zipcmp

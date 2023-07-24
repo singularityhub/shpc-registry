@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-qsutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qsutils
 latest:
-  1.16.0--r42hdfd78af_0: sha256:613d322a92e3df7c9e03c301356f2ad52815a2aa567c1d8bf851c1983e75c752
+  1.18.0--r43hdfd78af_0: sha256:9270ac1f7c701fa0e7f074b2283997ac184edb7ddbea36b8c7f24039e2781448
 tags:
   1.8.0--r40hdfd78af_1: sha256:705107d4b54981cf41960931840219d039a19be56572935be39a37b4740a8971
   1.16.0--r42hdfd78af_0: sha256:613d322a92e3df7c9e03c301356f2ad52815a2aa567c1d8bf851c1983e75c752
   1.12.0--r41hdfd78af_0: sha256:427125f0263376e4a093bbf4ada926ba2ebb6b7de7a3b97f5f23c72dfc12e2c7
   1.10.0--r41hdfd78af_0: sha256:3ce4dc8f4328cfb2efa6cc5ed3fc2fed585b13d2695fdedf00f60bd6804a06ae
+  1.18.0--r43hdfd78af_0: sha256:9270ac1f7c701fa0e7f074b2283997ac184edb7ddbea36b8c7f24039e2781448
 docker: quay.io/biocontainers/bioconductor-qsutils
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

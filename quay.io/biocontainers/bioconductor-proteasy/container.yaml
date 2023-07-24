@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-proteasy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-proteasy
 latest:
-  1.0.0--r42hdfd78af_0: sha256:ab4982cb08eca5b9baafb519d0eda78d237321af9f0088466302c5ad4b441ed2
+  1.2.0--r43hdfd78af_0: sha256:830466186d000a37865fbaf5fd8b9b2c19893f36e4a119fb763d4b7e73d0b004
 tags:
   1.0.0--r42hdfd78af_0: sha256:ab4982cb08eca5b9baafb519d0eda78d237321af9f0088466302c5ad4b441ed2
+  1.2.0--r43hdfd78af_0: sha256:830466186d000a37865fbaf5fd8b9b2c19893f36e4a119fb763d4b7e73d0b004
 docker: quay.io/biocontainers/bioconductor-proteasy
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11
