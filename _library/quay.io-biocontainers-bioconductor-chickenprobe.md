@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-chickenprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chickenprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chickenprobe/container.yaml"
-updated_at: "2023-07-23 03:03:46.999597"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-24 03:03:18.057955"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-chickenprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-chickenprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chickenprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chickenprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:3dbc6d94d8623a34d9629c838f7e4ad426aa7d573a471106603bbb531f0069d4"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:75205cff718609f59ebceb148c1fef0f80887ddace223d23ba82f524dd2285a9", "2.18.0--r42hdfd78af_10": "sha256:3dbc6d94d8623a34d9629c838f7e4ad426aa7d573a471106603bbb531f0069d4"}, "docker": "quay.io/biocontainers/bioconductor-chickenprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chickenprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chickenprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:27b058ab8d6b756a3232ee3466e8b5f48f834e8e18602cc82cda3845a78010c0"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:75205cff718609f59ebceb148c1fef0f80887ddace223d23ba82f524dd2285a9", "2.18.0--r42hdfd78af_10": "sha256:3dbc6d94d8623a34d9629c838f7e4ad426aa7d573a471106603bbb531f0069d4", "2.18.0--r43hdfd78af_11": "sha256:27b058ab8d6b756a3232ee3466e8b5f48f834e8e18602cc82cda3845a78010c0"}, "docker": "quay.io/biocontainers/bioconductor-chickenprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chickenprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chickenprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chickenprobe:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-chickenprobe:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chickenprobe/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-chickenprobe/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-chickenprobe/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-chickenprobe/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dirichletmultinomial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dirichletmultinomial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dirichletmultinomial/container.yaml"
-updated_at: "2023-07-23 03:21:23.010148"
-latest: "1.40.0--r42hee7dd41_1"
+updated_at: "2023-07-24 03:22:21.873810"
+latest: "1.42.0--r43hee7dd41_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dirichletmultinomial"
 
 versions:
  - "1.36.0--r41hda872b5_3"
  - "1.40.0--r42hda872b5_0"
  - "1.40.0--r42hee7dd41_1"
+ - "1.42.0--r43hee7dd41_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dirichletmultinomial"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dirichletmultinomial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dirichletmultinomial", "latest": {"1.40.0--r42hee7dd41_1": "sha256:2d0fc16c75a0bf13f406db8564b43936ab7df31be0c4bbd59f2fa0ed9cce49f5"}, "tags": {"1.36.0--r41hda872b5_3": "sha256:255216cfe4681869fe889960d05b957dfe3ac2cecc8f37babb15e02cf3725c32", "1.40.0--r42hda872b5_0": "sha256:ce47eed3da7e84a71fffc84426124bddf80f1534ba840a9796fee754909b00df", "1.40.0--r42hee7dd41_1": "sha256:2d0fc16c75a0bf13f406db8564b43936ab7df31be0c4bbd59f2fa0ed9cce49f5"}, "docker": "quay.io/biocontainers/bioconductor-dirichletmultinomial"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dirichletmultinomial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dirichletmultinomial", "latest": {"1.42.0--r43hee7dd41_0": "sha256:cd9723bfd39cf1f7ed6fa2fbc1b550fe70293eb92df846f2e02ea9079cc51a9b"}, "tags": {"1.36.0--r41hda872b5_3": "sha256:255216cfe4681869fe889960d05b957dfe3ac2cecc8f37babb15e02cf3725c32", "1.40.0--r42hda872b5_0": "sha256:ce47eed3da7e84a71fffc84426124bddf80f1534ba840a9796fee754909b00df", "1.40.0--r42hee7dd41_1": "sha256:2d0fc16c75a0bf13f406db8564b43936ab7df31be0c4bbd59f2fa0ed9cce49f5", "1.42.0--r43hee7dd41_0": "sha256:cd9723bfd39cf1f7ed6fa2fbc1b550fe70293eb92df846f2e02ea9079cc51a9b"}, "docker": "quay.io/biocontainers/bioconductor-dirichletmultinomial"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dirichletmultinomial.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dirichletmultinomial
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dirichletmultinomial:1.40.0--r42hee7dd41_1
+$ shpc install quay.io/biocontainers/bioconductor-dirichletmultinomial:1.42.0--r43hee7dd41_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dirichletmultinomial/1.40.0--r42hee7dd41_1
-$ module help quay.io/biocontainers/bioconductor-dirichletmultinomial/1.40.0--r42hee7dd41_1
+$ module load quay.io/biocontainers/bioconductor-dirichletmultinomial/1.42.0--r43hee7dd41_0
+$ module help quay.io/biocontainers/bioconductor-dirichletmultinomial/1.42.0--r43hee7dd41_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

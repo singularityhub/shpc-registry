@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/annonars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annonars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annonars/container.yaml"
-updated_at: "2023-07-23 02:45:52.469237"
-latest: "0.12.7--hb3cd794_0"
+updated_at: "2023-07-24 02:44:00.642317"
+latest: "0.12.9--hb3cd794_0"
 container_url: "https://biocontainers.pro/tools/annonars"
 aliases:
  - "annonars"
@@ -16,8 +16,9 @@ versions:
  - "0.9.0--hb3cd794_0"
  - "0.8.0--hb3cd794_0"
  - "0.7.0--h63738d7_0"
+ - "0.12.9--hb3cd794_0"
 description: "singularity registry hpc automated addition for annonars"
-config: {"url": "https://biocontainers.pro/tools/annonars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annonars", "latest": {"0.12.7--hb3cd794_0": "sha256:7068702067a6837695fd8da00383ada8a70db205fc69e75d7735d71889e73ecd"}, "tags": {"0.5.0--h63738d7_0": "sha256:5c330116a257365c8c35ef82850d493137dd6c0dd3fbb2d113eabf356409491e", "0.12.7--hb3cd794_0": "sha256:7068702067a6837695fd8da00383ada8a70db205fc69e75d7735d71889e73ecd", "0.10.0--hb3cd794_0": "sha256:3fad81a9c0d13512a8917cb48b84e273b1e8eb6e8a7cd6a7599463c4d5109acd", "0.9.0--hb3cd794_0": "sha256:de91626222e5568b8d998a8b24b78b4ab78edac4077e50dcb66824a7374aec93", "0.8.0--hb3cd794_0": "sha256:a6a345fe351fecaed0fb2372ecafebb0c8fc804a2f3b16b69a6faa28338d2eee", "0.7.0--h63738d7_0": "sha256:de35b06de23d6f4df74c2e3a1b42febf3d2476f5810846b140958ba90b4201dd"}, "docker": "quay.io/biocontainers/annonars", "aliases": {"annonars": "/usr/local/bin/annonars"}}
+config: {"url": "https://biocontainers.pro/tools/annonars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annonars", "latest": {"0.12.9--hb3cd794_0": "sha256:b0a420a65017e46019997c5bc3557cb454f378cf958174029e565c6d292170ab"}, "tags": {"0.5.0--h63738d7_0": "sha256:5c330116a257365c8c35ef82850d493137dd6c0dd3fbb2d113eabf356409491e", "0.12.7--hb3cd794_0": "sha256:7068702067a6837695fd8da00383ada8a70db205fc69e75d7735d71889e73ecd", "0.10.0--hb3cd794_0": "sha256:3fad81a9c0d13512a8917cb48b84e273b1e8eb6e8a7cd6a7599463c4d5109acd", "0.9.0--hb3cd794_0": "sha256:de91626222e5568b8d998a8b24b78b4ab78edac4077e50dcb66824a7374aec93", "0.8.0--hb3cd794_0": "sha256:a6a345fe351fecaed0fb2372ecafebb0c8fc804a2f3b16b69a6faa28338d2eee", "0.7.0--h63738d7_0": "sha256:de35b06de23d6f4df74c2e3a1b42febf3d2476f5810846b140958ba90b4201dd", "0.12.9--hb3cd794_0": "sha256:b0a420a65017e46019997c5bc3557cb454f378cf958174029e565c6d292170ab"}, "docker": "quay.io/biocontainers/annonars", "aliases": {"annonars": "/usr/local/bin/annonars"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/annonars.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/annonars
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/annonars:0.12.7--hb3cd794_0
+$ shpc install quay.io/biocontainers/annonars:0.12.9--hb3cd794_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/annonars/0.12.7--hb3cd794_0
-$ module help quay.io/biocontainers/annonars/0.12.7--hb3cd794_0
+$ module load quay.io/biocontainers/annonars/0.12.9--hb3cd794_0
+$ module help quay.io/biocontainers/annonars/0.12.9--hb3cd794_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-stexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stexampledata/container.yaml"
-updated_at: "2023-07-23 02:53:53.146122"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-24 02:52:31.324916"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stexampledata"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.2.0--r41hdfd78af_1"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stexampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stexampledata", "latest": {"1.6.0--r42hdfd78af_0": "sha256:db52fc5c3cff1242f6b1e2759d6dee51c4a6b1deebe25c3e6092f61fd4cdbda7"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:81861956bee0b691214f40183a2338c6b93817731b2762326fa1fb8abac2d3cb", "1.6.0--r42hdfd78af_0": "sha256:db52fc5c3cff1242f6b1e2759d6dee51c4a6b1deebe25c3e6092f61fd4cdbda7"}, "docker": "quay.io/biocontainers/bioconductor-stexampledata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stexampledata", "latest": {"1.8.0--r43hdfd78af_0": "sha256:fc4a5b44013b4bc05a69a1576e5bf9bfe3deccd6ae855b76de14ae393d2f89c6"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:81861956bee0b691214f40183a2338c6b93817731b2762326fa1fb8abac2d3cb", "1.6.0--r42hdfd78af_0": "sha256:db52fc5c3cff1242f6b1e2759d6dee51c4a6b1deebe25c3e6092f61fd4cdbda7", "1.8.0--r43hdfd78af_0": "sha256:fc4a5b44013b4bc05a69a1576e5bf9bfe3deccd6ae855b76de14ae393d2f89c6"}, "docker": "quay.io/biocontainers/bioconductor-stexampledata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stexampledata.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stexampledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stexampledata:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-stexampledata:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stexampledata/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-stexampledata/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-stexampledata/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stexampledata/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

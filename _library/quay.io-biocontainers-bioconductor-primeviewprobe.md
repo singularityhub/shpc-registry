@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-primeviewprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-primeviewprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-primeviewprobe/container.yaml"
-updated_at: "2023-07-23 03:01:01.958547"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-24 03:00:18.583109"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-primeviewprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-primeviewprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-primeviewprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-primeviewprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:d6830c721d1fc7b20da5b8f7a81c939726dc38673924b590386d43f262d298ce"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:14ceacc8c5f2bd82d11de6d1457ab9075255863eb1cfdd452fc0021c960996df", "2.18.0--r42hdfd78af_10": "sha256:d6830c721d1fc7b20da5b8f7a81c939726dc38673924b590386d43f262d298ce"}, "docker": "quay.io/biocontainers/bioconductor-primeviewprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-primeviewprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-primeviewprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:6e77bf1a0c127f5867079b6980dbced3aaa7d027a6b32fc0a53d445a30069e5c"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:14ceacc8c5f2bd82d11de6d1457ab9075255863eb1cfdd452fc0021c960996df", "2.18.0--r42hdfd78af_10": "sha256:d6830c721d1fc7b20da5b8f7a81c939726dc38673924b590386d43f262d298ce", "2.18.0--r43hdfd78af_11": "sha256:6e77bf1a0c127f5867079b6980dbced3aaa7d027a6b32fc0a53d445a30069e5c"}, "docker": "quay.io/biocontainers/bioconductor-primeviewprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-primeviewprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-primeviewprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-primeviewprobe:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-primeviewprobe:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-primeviewprobe/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-primeviewprobe/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-primeviewprobe/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-primeviewprobe/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

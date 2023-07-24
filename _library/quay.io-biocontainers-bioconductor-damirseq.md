@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-damirseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-damirseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-damirseq/container.yaml"
-updated_at: "2023-07-23 03:12:48.600170"
-latest: "2.10.0--r42hdfd78af_0"
+updated_at: "2023-07-24 03:13:05.089199"
+latest: "2.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-damirseq"
 aliases:
  - "jfr"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "2.6.0--r41hdfd78af_0"
  - "2.10.0--r42hdfd78af_0"
+ - "2.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-damirseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-damirseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-damirseq", "latest": {"2.10.0--r42hdfd78af_0": "sha256:07b90cc443f7e359d705c977998754d9cc5fd3f7c9c6cde5b49cc40b60a3847d"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:5b50e065a9199455c20680e58fd716680c848069bb7d88a07c71ce2cd6d3c4ce", "2.10.0--r42hdfd78af_0": "sha256:07b90cc443f7e359d705c977998754d9cc5fd3f7c9c6cde5b49cc40b60a3847d"}, "docker": "quay.io/biocontainers/bioconductor-damirseq", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-damirseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-damirseq", "latest": {"2.12.0--r43hdfd78af_0": "sha256:598430a89655e83d60f196db2bbae084a60632df78f19134af83e303e952959b"}, "tags": {"2.6.0--r41hdfd78af_0": "sha256:5b50e065a9199455c20680e58fd716680c848069bb7d88a07c71ce2cd6d3c4ce", "2.10.0--r42hdfd78af_0": "sha256:07b90cc443f7e359d705c977998754d9cc5fd3f7c9c6cde5b49cc40b60a3847d", "2.12.0--r43hdfd78af_0": "sha256:598430a89655e83d60f196db2bbae084a60632df78f19134af83e303e952959b"}, "docker": "quay.io/biocontainers/bioconductor-damirseq", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-damirseq.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-damirseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-damirseq:2.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-damirseq:2.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-damirseq/2.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-damirseq/2.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-damirseq/2.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-damirseq/2.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-m3drop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m3drop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m3drop/container.yaml"
-updated_at: "2023-07-23 03:18:30.899297"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-07-24 03:19:16.106748"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-m3drop"
 aliases:
  - "c89"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-m3drop"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-m3drop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3drop", "latest": {"1.24.0--r42hdfd78af_0": "sha256:87d82693a2b4626d9b37f3d90c9b5a807f25396ac2f06cc18c3273e021b12b12"}, "tags": {"1.8.1--r351_0": "sha256:d974fdec729ceb9547ed8a4960b29a128428ab449ede7f498cec6427be81003c", "1.24.0--r42hdfd78af_0": "sha256:87d82693a2b4626d9b37f3d90c9b5a807f25396ac2f06cc18c3273e021b12b12", "1.20.0--r41hdfd78af_0": "sha256:70b157334d49a50ee16ea18f99fe35ba38d6250f7bb91152578d8944be441f25", "1.18.0--r41hdfd78af_0": "sha256:b18efacdbcaff3cc0d5e849e4fbf9d44939cb4bc1af59791f48ee7811b43cc1e", "1.16.0--r40hdfd78af_1": "sha256:2dd3b058e1cf615b7e59a269efa164da2ba21268f5776e131a703b08d274bf41", "1.14.0--r40_0": "sha256:0124e008daa2e8ffe21b7da9a7349a4aee05f2b1a3634f136707b02c3280670f"}, "docker": "quay.io/biocontainers/bioconductor-m3drop", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-m3drop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3drop", "latest": {"1.26.0--r43hdfd78af_0": "sha256:d85fb2ea3b4b7ca393a38138c1e462e381d95ce0202c0de8672bc7d0b75e8aff"}, "tags": {"1.8.1--r351_0": "sha256:d974fdec729ceb9547ed8a4960b29a128428ab449ede7f498cec6427be81003c", "1.24.0--r42hdfd78af_0": "sha256:87d82693a2b4626d9b37f3d90c9b5a807f25396ac2f06cc18c3273e021b12b12", "1.20.0--r41hdfd78af_0": "sha256:70b157334d49a50ee16ea18f99fe35ba38d6250f7bb91152578d8944be441f25", "1.18.0--r41hdfd78af_0": "sha256:b18efacdbcaff3cc0d5e849e4fbf9d44939cb4bc1af59791f48ee7811b43cc1e", "1.16.0--r40hdfd78af_1": "sha256:2dd3b058e1cf615b7e59a269efa164da2ba21268f5776e131a703b08d274bf41", "1.14.0--r40_0": "sha256:0124e008daa2e8ffe21b7da9a7349a4aee05f2b1a3634f136707b02c3280670f", "1.26.0--r43hdfd78af_0": "sha256:d85fb2ea3b4b7ca393a38138c1e462e381d95ce0202c0de8672bc7d0b75e8aff"}, "docker": "quay.io/biocontainers/bioconductor-m3drop", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-m3drop.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-m3drop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-m3drop:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-m3drop:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-m3drop/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-m3drop/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-m3drop/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-m3drop/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

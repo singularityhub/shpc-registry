@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bbcanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bbcanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bbcanalyzer/container.yaml"
-updated_at: "2023-07-23 03:17:39.609752"
-latest: "1.28.0--r42hdfd78af_0"
+updated_at: "2023-07-24 03:18:20.418981"
+latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bbcanalyzer"
 aliases:
  - "my_print_defaults"
@@ -23,8 +23,9 @@ versions:
  - "1.22.0--r41hdfd78af_0"
  - "1.20.0--r40hdfd78af_1"
  - "1.18.0--r40_0"
+ - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bbcanalyzer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bbcanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bbcanalyzer", "latest": {"1.28.0--r42hdfd78af_0": "sha256:1a870fb2be028ef7aaafbbbcfdc6c4952fb6ab17ab150db3a7f3a41a74d8dcf6"}, "tags": {"1.8.0--r3.4.1_0": "sha256:954133a45ed1c15a3606327c9100710030f15019c5b075f067538e563c9fba38", "1.28.0--r42hdfd78af_0": "sha256:1a870fb2be028ef7aaafbbbcfdc6c4952fb6ab17ab150db3a7f3a41a74d8dcf6", "1.24.0--r41hdfd78af_0": "sha256:e2782e92bc14b811e11de96d584bacd27f750b4339257b23b978dfb731d6498b", "1.22.0--r41hdfd78af_0": "sha256:025b9e815fa434287210fe5439a6da59fe63f24cca5141ce9cab0f999aa7b1b4", "1.20.0--r40hdfd78af_1": "sha256:292dfd0902746561745d32b1824dc2765b05be1bbce5d61f68f4547db8a0f513", "1.18.0--r40_0": "sha256:3fd39290a7e0ede1f92dec4646300e4fb86bb7b2828469cd566b694375dc9428"}, "docker": "quay.io/biocontainers/bioconductor-bbcanalyzer", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bbcanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bbcanalyzer", "latest": {"1.30.0--r43hdfd78af_0": "sha256:4e4ede4b35d80e3acf924e82c8346898f05c63674de318db78a2d9df56e4751c"}, "tags": {"1.8.0--r3.4.1_0": "sha256:954133a45ed1c15a3606327c9100710030f15019c5b075f067538e563c9fba38", "1.28.0--r42hdfd78af_0": "sha256:1a870fb2be028ef7aaafbbbcfdc6c4952fb6ab17ab150db3a7f3a41a74d8dcf6", "1.24.0--r41hdfd78af_0": "sha256:e2782e92bc14b811e11de96d584bacd27f750b4339257b23b978dfb731d6498b", "1.22.0--r41hdfd78af_0": "sha256:025b9e815fa434287210fe5439a6da59fe63f24cca5141ce9cab0f999aa7b1b4", "1.20.0--r40hdfd78af_1": "sha256:292dfd0902746561745d32b1824dc2765b05be1bbce5d61f68f4547db8a0f513", "1.18.0--r40_0": "sha256:3fd39290a7e0ede1f92dec4646300e4fb86bb7b2828469cd566b694375dc9428", "1.30.0--r43hdfd78af_0": "sha256:4e4ede4b35d80e3acf924e82c8346898f05c63674de318db78a2d9df56e4751c"}, "docker": "quay.io/biocontainers/bioconductor-bbcanalyzer", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bbcanalyzer.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bbcanalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bbcanalyzer:1.28.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bbcanalyzer:1.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bbcanalyzer/1.28.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bbcanalyzer/1.28.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bbcanalyzer/1.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bbcanalyzer/1.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

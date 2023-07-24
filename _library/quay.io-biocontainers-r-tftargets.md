@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-tftargets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tftargets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tftargets/container.yaml"
-updated_at: "2023-07-23 02:59:59.329761"
-latest: "1.3--r42hdfd78af_4"
+updated_at: "2023-07-24 02:59:10.089156"
+latest: "1.3--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-tftargets"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.3--r41hdfd78af_3"
  - "1.3--r42hdfd78af_4"
+ - "1.3--r43hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-tftargets"
-config: {"url": "https://biocontainers.pro/tools/r-tftargets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tftargets", "latest": {"1.3--r42hdfd78af_4": "sha256:6538615f89a1ff30b9372b3c6629646831cb88cee7b88774004f16291db60897"}, "tags": {"1.3--r41hdfd78af_3": "sha256:5688596ec712a4178e1ee71f22382a54d159056f4cea881e1e7fc85daba609d0", "1.3--r42hdfd78af_4": "sha256:6538615f89a1ff30b9372b3c6629646831cb88cee7b88774004f16291db60897"}, "docker": "quay.io/biocontainers/r-tftargets", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-tftargets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tftargets", "latest": {"1.3--r43hdfd78af_5": "sha256:69801e36accc3f7a1834490806e415390e3dd128f483ed46e6a693c74e4a9c46"}, "tags": {"1.3--r41hdfd78af_3": "sha256:5688596ec712a4178e1ee71f22382a54d159056f4cea881e1e7fc85daba609d0", "1.3--r42hdfd78af_4": "sha256:6538615f89a1ff30b9372b3c6629646831cb88cee7b88774004f16291db60897", "1.3--r43hdfd78af_5": "sha256:69801e36accc3f7a1834490806e415390e3dd128f483ed46e6a693c74e4a9c46"}, "docker": "quay.io/biocontainers/r-tftargets", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tftargets.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-tftargets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tftargets:1.3--r42hdfd78af_4
+$ shpc install quay.io/biocontainers/r-tftargets:1.3--r43hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tftargets/1.3--r42hdfd78af_4
-$ module help quay.io/biocontainers/r-tftargets/1.3--r42hdfd78af_4
+$ module load quay.io/biocontainers/r-tftargets/1.3--r43hdfd78af_5
+$ module help quay.io/biocontainers/r-tftargets/1.3--r43hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

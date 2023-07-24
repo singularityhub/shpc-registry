@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-facets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-facets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-facets/container.yaml"
-updated_at: "2023-07-23 03:09:29.688468"
-latest: "0.6.2--r42h1c9e865_3"
+updated_at: "2023-07-24 03:09:29.865735"
+latest: "0.6.2--r43haf399aa_4"
 container_url: "https://biocontainers.pro/tools/r-facets"
 
 versions:
  - "0.6.2--r41h1107714_1"
  - "0.6.2--r42h1107714_2"
  - "0.6.2--r42h1c9e865_3"
+ - "0.6.2--r43haf399aa_4"
 description: "shpc-registry automated BioContainers addition for r-facets"
-config: {"url": "https://biocontainers.pro/tools/r-facets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-facets", "latest": {"0.6.2--r42h1c9e865_3": "sha256:74a4a02e9d525f6da118515c893d9fee3f2aa942a0748ed878f009cc415e5ae7"}, "tags": {"0.6.2--r41h1107714_1": "sha256:0e2f95e9cc91ba9e34a9e75ad9164042404ace12c738f7dad145079bb2e53e0a", "0.6.2--r42h1107714_2": "sha256:7e991005daa9b8960682cc80ff9231056bbccdf281ae573870dc2ca773413071", "0.6.2--r42h1c9e865_3": "sha256:74a4a02e9d525f6da118515c893d9fee3f2aa942a0748ed878f009cc415e5ae7"}, "docker": "quay.io/biocontainers/r-facets"}
+config: {"url": "https://biocontainers.pro/tools/r-facets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-facets", "latest": {"0.6.2--r43haf399aa_4": "sha256:78e0a1fa7e4aa1922d61669d8b5d9b6427a3a220f4a9856d5e385b2282254c64"}, "tags": {"0.6.2--r41h1107714_1": "sha256:0e2f95e9cc91ba9e34a9e75ad9164042404ace12c738f7dad145079bb2e53e0a", "0.6.2--r42h1107714_2": "sha256:7e991005daa9b8960682cc80ff9231056bbccdf281ae573870dc2ca773413071", "0.6.2--r42h1c9e865_3": "sha256:74a4a02e9d525f6da118515c893d9fee3f2aa942a0748ed878f009cc415e5ae7", "0.6.2--r43haf399aa_4": "sha256:78e0a1fa7e4aa1922d61669d8b5d9b6427a3a220f4a9856d5e385b2282254c64"}, "docker": "quay.io/biocontainers/r-facets"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-facets.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-facets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-facets:0.6.2--r42h1c9e865_3
+$ shpc install quay.io/biocontainers/r-facets:0.6.2--r43haf399aa_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-facets/0.6.2--r42h1c9e865_3
-$ module help quay.io/biocontainers/r-facets/0.6.2--r42h1c9e865_3
+$ module load quay.io/biocontainers/r-facets/0.6.2--r43haf399aa_4
+$ module help quay.io/biocontainers/r-facets/0.6.2--r43haf399aa_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

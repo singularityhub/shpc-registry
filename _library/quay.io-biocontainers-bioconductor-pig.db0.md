@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pig.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pig.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pig.db0/container.yaml"
-updated_at: "2023-07-23 02:53:14.542999"
-latest: "3.16.0--r42hdfd78af_0"
+updated_at: "2023-07-24 02:51:50.546220"
+latest: "3.17.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pig.db0"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "3.13.0--r41hdfd78af_0"
  - "3.12.0--r40hdfd78af_1"
  - "3.11.2--r40_0"
+ - "3.17.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pig.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pig.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pig.db0", "latest": {"3.16.0--r42hdfd78af_0": "sha256:8e88d2918c3cf367c5a6ad7f1ff898500ab474208fbb0464257bd59d98583ca7"}, "tags": {"3.8.2--r36_1": "sha256:cfcd3a276bacdb6ace15c0e9c011f874f637b2eb7b7c3baad1269a3647b01b22", "3.16.0--r42hdfd78af_0": "sha256:8e88d2918c3cf367c5a6ad7f1ff898500ab474208fbb0464257bd59d98583ca7", "3.14.0--r41hdfd78af_1": "sha256:62fc8dfa39d305edfc9fb9c340bc13f63f482e2db48c0141536da906e33b6a57", "3.13.0--r41hdfd78af_0": "sha256:6b0b3c643e5bd380008ad14838d3440a1334cb79321dce09336f38ec8a380341", "3.12.0--r40hdfd78af_1": "sha256:cdeca6130f0385f91c360499abd6e2000c497eaa8ce30601cc99e78a052f33d7", "3.11.2--r40_0": "sha256:c8c27909b1f1656fd2f9dd774b8bf9edc593a0c0c519c3efc3e1301d0aa2948e"}, "docker": "quay.io/biocontainers/bioconductor-pig.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pig.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pig.db0", "latest": {"3.17.0--r43hdfd78af_0": "sha256:a1cfc372d5c416b631256a78f0fb0732ed2b8bf60249311520ba323f94ac8de3"}, "tags": {"3.8.2--r36_1": "sha256:cfcd3a276bacdb6ace15c0e9c011f874f637b2eb7b7c3baad1269a3647b01b22", "3.16.0--r42hdfd78af_0": "sha256:8e88d2918c3cf367c5a6ad7f1ff898500ab474208fbb0464257bd59d98583ca7", "3.14.0--r41hdfd78af_1": "sha256:62fc8dfa39d305edfc9fb9c340bc13f63f482e2db48c0141536da906e33b6a57", "3.13.0--r41hdfd78af_0": "sha256:6b0b3c643e5bd380008ad14838d3440a1334cb79321dce09336f38ec8a380341", "3.12.0--r40hdfd78af_1": "sha256:cdeca6130f0385f91c360499abd6e2000c497eaa8ce30601cc99e78a052f33d7", "3.11.2--r40_0": "sha256:c8c27909b1f1656fd2f9dd774b8bf9edc593a0c0c519c3efc3e1301d0aa2948e", "3.17.0--r43hdfd78af_0": "sha256:a1cfc372d5c416b631256a78f0fb0732ed2b8bf60249311520ba323f94ac8de3"}, "docker": "quay.io/biocontainers/bioconductor-pig.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pig.db0.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pig.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pig.db0:3.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pig.db0:3.17.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pig.db0/3.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pig.db0/3.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pig.db0/3.17.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pig.db0/3.17.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

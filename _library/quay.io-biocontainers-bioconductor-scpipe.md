@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scpipe/container.yaml"
-updated_at: "2023-07-23 02:43:31.112148"
-latest: "1.19.0--r42hf17093f_1"
+updated_at: "2023-07-24 02:41:30.081757"
+latest: "2.0.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scpipe"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r40h399db7b_1"
  - "1.10.0--r40h5f743cb_0"
  - "1.19.0--r42hf17093f_1"
+ - "2.0.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scpipe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpipe", "latest": {"1.19.0--r42hf17093f_1": "sha256:865c3aa5756e523c91a7299a3c7a7daab9d6e5624d6e3de811bb7eecd124c71f"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:d69b4633d465a1c758f192fc2d23a5022020eeaf2f20dcef292e173b57e440e4", "1.19.0--r42hc247a5b_0": "sha256:604e739251bbcc8f7e5f68a939efcebe09ca195e6a735a23bd5abaf0345e8308", "1.16.1--r41hc247a5b_0": "sha256:e6cfb0a02988f91785e165128b37a84998972e823ced4eb20f5911c60dc3ed39", "1.14.0--r41h399db7b_0": "sha256:4deca97d07c9cb9c6f74199b01a7a776aaa2aff637debb2a44b481af77d6116a", "1.12.0--r40h399db7b_1": "sha256:f0e3a72a4c05fb9b8eb92f21ae21c430464fcfe1ee0cc9cf5c8126b634f07ffb", "1.10.0--r40h5f743cb_0": "sha256:348cb2cc0638dbcaeefcead89b5d0dfe0ccbc28e3e5bf8659835e84edfe63da6", "1.19.0--r42hf17093f_1": "sha256:865c3aa5756e523c91a7299a3c7a7daab9d6e5624d6e3de811bb7eecd124c71f"}, "docker": "quay.io/biocontainers/bioconductor-scpipe", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpipe", "latest": {"2.0.0--r43hf17093f_0": "sha256:9dfa3f0b5683af9ed7fde9defa3e8b475f7586f6d4cd2c75db16bffabfa57743"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:d69b4633d465a1c758f192fc2d23a5022020eeaf2f20dcef292e173b57e440e4", "1.19.0--r42hc247a5b_0": "sha256:604e739251bbcc8f7e5f68a939efcebe09ca195e6a735a23bd5abaf0345e8308", "1.16.1--r41hc247a5b_0": "sha256:e6cfb0a02988f91785e165128b37a84998972e823ced4eb20f5911c60dc3ed39", "1.14.0--r41h399db7b_0": "sha256:4deca97d07c9cb9c6f74199b01a7a776aaa2aff637debb2a44b481af77d6116a", "1.12.0--r40h399db7b_1": "sha256:f0e3a72a4c05fb9b8eb92f21ae21c430464fcfe1ee0cc9cf5c8126b634f07ffb", "1.10.0--r40h5f743cb_0": "sha256:348cb2cc0638dbcaeefcead89b5d0dfe0ccbc28e3e5bf8659835e84edfe63da6", "1.19.0--r42hf17093f_1": "sha256:865c3aa5756e523c91a7299a3c7a7daab9d6e5624d6e3de811bb7eecd124c71f", "2.0.0--r43hf17093f_0": "sha256:9dfa3f0b5683af9ed7fde9defa3e8b475f7586f6d4cd2c75db16bffabfa57743"}, "docker": "quay.io/biocontainers/bioconductor-scpipe", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scpipe.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scpipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scpipe:1.19.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-scpipe:2.0.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scpipe/1.19.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-scpipe/1.19.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-scpipe/2.0.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-scpipe/2.0.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

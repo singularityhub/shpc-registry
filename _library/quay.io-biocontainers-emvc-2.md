@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/emvc-2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emvc-2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emvc-2/container.yaml"
-updated_at: "2023-07-23 02:52:32.865022"
-latest: "1.0--h031d066_0"
+updated_at: "2023-07-24 02:51:05.829350"
+latest: "1.0--h031d066_2"
 container_url: "https://biocontainers.pro/tools/emvc-2"
 aliases:
  - "candidate_variants_finder"
@@ -37,8 +37,9 @@ aliases:
  - "pydoc3.8"
 versions:
  - "1.0--h031d066_0"
+ - "1.0--h031d066_2"
 description: "singularity registry hpc automated addition for emvc-2"
-config: {"url": "https://biocontainers.pro/tools/emvc-2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for emvc-2", "latest": {"1.0--h031d066_0": "sha256:2a48df913184cdbb4205d841201e71e6ab0f40bbfcae54f28282504ee21fa789"}, "tags": {"1.0--h031d066_0": "sha256:2a48df913184cdbb4205d841201e71e6ab0f40bbfcae54f28282504ee21fa789"}, "docker": "quay.io/biocontainers/emvc-2", "aliases": {"candidate_variants_finder": "/usr/local/bin/candidate_variants_finder", "emvc-2": "/usr/local/bin/emvc-2", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
+config: {"url": "https://biocontainers.pro/tools/emvc-2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for emvc-2", "latest": {"1.0--h031d066_2": "sha256:fa5b49f68ad1f0b61350b6d7d1aa35384b1b1b6079592e2258e4d25c4a0946d2"}, "tags": {"1.0--h031d066_0": "sha256:2a48df913184cdbb4205d841201e71e6ab0f40bbfcae54f28282504ee21fa789", "1.0--h031d066_2": "sha256:fa5b49f68ad1f0b61350b6d7d1aa35384b1b1b6079592e2258e4d25c4a0946d2"}, "docker": "quay.io/biocontainers/emvc-2", "aliases": {"candidate_variants_finder": "/usr/local/bin/candidate_variants_finder", "emvc-2": "/usr/local/bin/emvc-2", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emvc-2.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/emvc-2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/emvc-2:1.0--h031d066_0
+$ shpc install quay.io/biocontainers/emvc-2:1.0--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/emvc-2/1.0--h031d066_0
-$ module help quay.io/biocontainers/emvc-2/1.0--h031d066_0
+$ module load quay.io/biocontainers/emvc-2/1.0--h031d066_2
+$ module help quay.io/biocontainers/emvc-2/1.0--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

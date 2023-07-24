@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-remp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
-updated_at: "2023-07-23 02:53:19.909724"
-latest: "1.22.0--r42hdfd78af_0"
+updated_at: "2023-07-24 02:51:56.239040"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-remp"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r41hdfd78af_0"
  - "1.14.0--r40hdfd78af_1"
  - "1.12.0--r40_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-remp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-remp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-remp", "latest": {"1.22.0--r42hdfd78af_0": "sha256:fefc1f89a4495a4e09b76cbf0f790576aab8a6bd3640848824e58626ef140f24"}, "tags": {"1.8.1--r36_1": "sha256:2226aacfbc6f34f9f10250ad1769c872398e69ff992d9d91495ef85559b1090a", "1.22.0--r42hdfd78af_0": "sha256:fefc1f89a4495a4e09b76cbf0f790576aab8a6bd3640848824e58626ef140f24", "1.18.0--r41hdfd78af_0": "sha256:c315793bd906c0425039b0db2efcdbfa8d4d997ececb8203c1cefe55ccb65da5", "1.16.0--r41hdfd78af_0": "sha256:5a0fb53532fca22b5fcb79f6aa0bb092b7d34a6c6a9a37ea87879fde2f4d98cd", "1.14.0--r40hdfd78af_1": "sha256:d9532eea5657a721fec641a53b11c0d43f953900cf9579bd12c55a1ed31e614e", "1.12.0--r40_0": "sha256:22a0a85eb7b6011f9222500dcc12b05c38a5cc182c5993549b04574a7c80cb17"}, "docker": "quay.io/biocontainers/bioconductor-remp", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-remp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-remp", "latest": {"1.24.0--r43hdfd78af_0": "sha256:f3762b4d7650c79bc2ce1f9667e12136e256c36a2a6ec8cfee88a32cc3925600"}, "tags": {"1.8.1--r36_1": "sha256:2226aacfbc6f34f9f10250ad1769c872398e69ff992d9d91495ef85559b1090a", "1.22.0--r42hdfd78af_0": "sha256:fefc1f89a4495a4e09b76cbf0f790576aab8a6bd3640848824e58626ef140f24", "1.18.0--r41hdfd78af_0": "sha256:c315793bd906c0425039b0db2efcdbfa8d4d997ececb8203c1cefe55ccb65da5", "1.16.0--r41hdfd78af_0": "sha256:5a0fb53532fca22b5fcb79f6aa0bb092b7d34a6c6a9a37ea87879fde2f4d98cd", "1.14.0--r40hdfd78af_1": "sha256:d9532eea5657a721fec641a53b11c0d43f953900cf9579bd12c55a1ed31e614e", "1.12.0--r40_0": "sha256:22a0a85eb7b6011f9222500dcc12b05c38a5cc182c5993549b04574a7c80cb17", "1.24.0--r43hdfd78af_0": "sha256:f3762b4d7650c79bc2ce1f9667e12136e256c36a2a6ec8cfee88a32cc3925600"}, "docker": "quay.io/biocontainers/bioconductor-remp", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-remp.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-remp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-remp:1.22.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-remp:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-remp/1.22.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-remp/1.22.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-remp/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-remp/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

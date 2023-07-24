@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-xgr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xgr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xgr/container.yaml"
-updated_at: "2023-07-23 03:06:10.836384"
-latest: "1.1.7--r42h3342da4_4"
+updated_at: "2023-07-24 03:05:54.559534"
+latest: "1.1.7--r43h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-xgr"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.7--r41h3342da4_3"
  - "1.1.7--r42h3342da4_4"
+ - "1.1.7--r43h3342da4_5"
 description: "shpc-registry automated BioContainers addition for r-xgr"
-config: {"url": "https://biocontainers.pro/tools/r-xgr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xgr", "latest": {"1.1.7--r42h3342da4_4": "sha256:8657ea289a6d9f206b32c8d9fbb11ef1bcc65341d4b8a98769ceff78df592ec4"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9", "1.1.7--r42h3342da4_4": "sha256:8657ea289a6d9f206b32c8d9fbb11ef1bcc65341d4b8a98769ceff78df592ec4"}, "docker": "quay.io/biocontainers/r-xgr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-xgr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xgr", "latest": {"1.1.7--r43h3342da4_5": "sha256:073ac964a3897c6b1ccc5c143298de4d868a923bdf8dc16c27fb4e48ba913c7c"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9", "1.1.7--r42h3342da4_4": "sha256:8657ea289a6d9f206b32c8d9fbb11ef1bcc65341d4b8a98769ceff78df592ec4", "1.1.7--r43h3342da4_5": "sha256:073ac964a3897c6b1ccc5c143298de4d868a923bdf8dc16c27fb4e48ba913c7c"}, "docker": "quay.io/biocontainers/r-xgr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-xgr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-xgr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-xgr:1.1.7--r42h3342da4_4
+$ shpc install quay.io/biocontainers/r-xgr:1.1.7--r43h3342da4_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-xgr/1.1.7--r42h3342da4_4
-$ module help quay.io/biocontainers/r-xgr/1.1.7--r42h3342da4_4
+$ module load quay.io/biocontainers/r-xgr/1.1.7--r43h3342da4_5
+$ module help quay.io/biocontainers/r-xgr/1.1.7--r43h3342da4_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

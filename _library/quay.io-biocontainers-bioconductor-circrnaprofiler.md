@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-circrnaprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-circrnaprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-circrnaprofiler/container.yaml"
-updated_at: "2023-07-23 03:27:54.900094"
-latest: "1.12.0--r42hdfd78af_0"
+updated_at: "2023-07-24 03:29:23.392507"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-circrnaprofiler"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-circrnaprofiler"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-circrnaprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-circrnaprofiler", "latest": {"1.12.0--r42hdfd78af_0": "sha256:3c5c1784ed87617733119be536537372fa7999f9f865652974c0c36588f7e9f0"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:09c7371712c325fd4d102e02ea23a82202b99f7c07c8120b595127c2836c8936", "1.12.0--r42hdfd78af_0": "sha256:3c5c1784ed87617733119be536537372fa7999f9f865652974c0c36588f7e9f0"}, "docker": "quay.io/biocontainers/bioconductor-circrnaprofiler"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-circrnaprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-circrnaprofiler", "latest": {"1.14.0--r43hdfd78af_0": "sha256:2322cb60cf7d19c755fddafea41991ff5f832acf64ee2b9db3b5bb5eb447b75a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:09c7371712c325fd4d102e02ea23a82202b99f7c07c8120b595127c2836c8936", "1.12.0--r42hdfd78af_0": "sha256:3c5c1784ed87617733119be536537372fa7999f9f865652974c0c36588f7e9f0", "1.14.0--r43hdfd78af_0": "sha256:2322cb60cf7d19c755fddafea41991ff5f832acf64ee2b9db3b5bb5eb447b75a"}, "docker": "quay.io/biocontainers/bioconductor-circrnaprofiler"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-circrnaprofiler.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-circrnaprofiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-circrnaprofiler:1.12.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-circrnaprofiler:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-circrnaprofiler/1.12.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-circrnaprofiler/1.12.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-circrnaprofiler/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-circrnaprofiler/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

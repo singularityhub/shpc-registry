@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tscan/container.yaml"
-updated_at: "2023-07-23 02:50:11.859066"
+updated_at: "2023-07-24 02:48:34.224350"
 latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tscan"
 
