@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agouti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agouti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agouti/container.yaml"
-updated_at: "2023-07-24 05:08:08.957740"
+updated_at: "2023-07-25 03:24:10.834824"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agouti"
 aliases:

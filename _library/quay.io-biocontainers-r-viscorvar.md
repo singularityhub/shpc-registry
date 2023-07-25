@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-viscorvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-viscorvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-viscorvar/container.yaml"
-updated_at: "2023-07-24 04:37:46.576057"
+updated_at: "2023-07-25 02:51:19.862256"
 latest: "0.9--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-viscorvar"
 aliases:

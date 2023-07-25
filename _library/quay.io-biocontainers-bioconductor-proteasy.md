@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-proteasy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteasy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteasy/container.yaml"
-updated_at: "2023-07-24 04:35:53.612985"
-latest: "1.0.0--r42hdfd78af_0"
+updated_at: "2023-07-25 02:49:16.962944"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteasy"
 aliases:
  - "2to3-3.11"
@@ -40,8 +40,9 @@ aliases:
  - "jarsigner"
 versions:
  - "1.0.0--r42hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-proteasy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-proteasy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-proteasy", "latest": {"1.0.0--r42hdfd78af_0": "sha256:ab4982cb08eca5b9baafb519d0eda78d237321af9f0088466302c5ad4b441ed2"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:ab4982cb08eca5b9baafb519d0eda78d237321af9f0088466302c5ad4b441ed2"}, "docker": "quay.io/biocontainers/bioconductor-proteasy", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-proteasy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-proteasy", "latest": {"1.2.0--r43hdfd78af_0": "sha256:830466186d000a37865fbaf5fd8b9b2c19893f36e4a119fb763d4b7e73d0b004"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:ab4982cb08eca5b9baafb519d0eda78d237321af9f0088466302c5ad4b441ed2", "1.2.0--r43hdfd78af_0": "sha256:830466186d000a37865fbaf5fd8b9b2c19893f36e4a119fb763d4b7e73d0b004"}, "docker": "quay.io/biocontainers/bioconductor-proteasy", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-proteasy.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/bioconductor-proteasy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-proteasy:1.0.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-proteasy:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-proteasy/1.0.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-proteasy/1.0.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-proteasy/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-proteasy/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-plotgrouper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plotgrouper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plotgrouper/container.yaml"
-updated_at: "2023-07-24 04:46:45.003676"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-07-25 03:01:00.876816"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plotgrouper"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-plotgrouper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plotgrouper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plotgrouper", "latest": {"1.16.0--r42hdfd78af_0": "sha256:bbfdc7efcae99fa5714e642609f0318e65e82c74d5fccff5fd5023b7531ac2e4"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:8deff548cec9b68298a6fe70b72c8d69dad2b6c7491daf6204c023eb1709617c", "1.16.0--r42hdfd78af_0": "sha256:bbfdc7efcae99fa5714e642609f0318e65e82c74d5fccff5fd5023b7531ac2e4", "1.12.0--r41hdfd78af_0": "sha256:40eb0062260258d628b637cdf0f862a349c377a3543286d74d5e399cc73bab52", "1.10.0--r41hdfd78af_0": "sha256:1cad300d61fb636cad129a1d49dae4b4c2266eb60c5bd2d864a569ed2f693d5c"}, "docker": "quay.io/biocontainers/bioconductor-plotgrouper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plotgrouper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plotgrouper", "latest": {"1.18.0--r43hdfd78af_0": "sha256:73bbb06bce6cf4c3d9c83d548a6f185a6ef974a0b32f0ee393e9e336a80bcb59"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:8deff548cec9b68298a6fe70b72c8d69dad2b6c7491daf6204c023eb1709617c", "1.16.0--r42hdfd78af_0": "sha256:bbfdc7efcae99fa5714e642609f0318e65e82c74d5fccff5fd5023b7531ac2e4", "1.12.0--r41hdfd78af_0": "sha256:40eb0062260258d628b637cdf0f862a349c377a3543286d74d5e399cc73bab52", "1.10.0--r41hdfd78af_0": "sha256:1cad300d61fb636cad129a1d49dae4b4c2266eb60c5bd2d864a569ed2f693d5c", "1.18.0--r43hdfd78af_0": "sha256:73bbb06bce6cf4c3d9c83d548a6f185a6ef974a0b32f0ee393e9e336a80bcb59"}, "docker": "quay.io/biocontainers/bioconductor-plotgrouper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plotgrouper.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plotgrouper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plotgrouper:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-plotgrouper:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plotgrouper/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-plotgrouper/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-plotgrouper/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-plotgrouper/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

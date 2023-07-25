@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pheatmap/container.yaml"
-updated_at: "2023-07-24 05:09:46.019993"
+updated_at: "2023-07-25 03:25:55.911329"
 latest: "1.0.8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-pheatmap"
 aliases:

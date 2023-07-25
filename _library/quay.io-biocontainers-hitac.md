@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hitac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hitac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hitac/container.yaml"
-updated_at: "2023-07-24 05:14:56.074478"
+updated_at: "2023-07-25 03:31:29.297319"
 latest: "2.0.30--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hitac"
 aliases:

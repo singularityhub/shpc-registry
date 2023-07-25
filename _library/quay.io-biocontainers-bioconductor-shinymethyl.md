@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-shinymethyl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shinymethyl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shinymethyl/container.yaml"
-updated_at: "2023-07-24 04:52:00.986373"
+updated_at: "2023-07-25 03:06:44.661165"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shinymethyl"
 

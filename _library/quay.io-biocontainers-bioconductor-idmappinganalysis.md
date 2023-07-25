@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-idmappinganalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-idmappinganalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-idmappinganalysis/container.yaml"
-updated_at: "2023-07-24 04:49:36.711244"
+updated_at: "2023-07-25 03:04:07.237202"
 latest: "1.30.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-idmappinganalysis"
 aliases:

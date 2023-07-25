@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-singlecellexperiment-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/container.yaml"
-updated_at: "2023-07-24 04:46:17.761724"
-latest: "0.0.3--hdfd78af_1"
+updated_at: "2023-07-25 03:00:31.389293"
+latest: "0.0.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecellexperiment-scripts"
 aliases:
  - "bioconductor-singlecellexperiment-scripts-post-install-tests.sh"
@@ -17,8 +17,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.0.3--hdfd78af_1"
+ - "0.0.3--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-singlecellexperiment-scripts"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecellexperiment-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecellexperiment-scripts", "latest": {"0.0.3--hdfd78af_1": "sha256:cd0fbfa6937a7e6eae825c86ad560ffaf011ffef4546096016921326b7bbeecc"}, "tags": {"0.0.3--hdfd78af_1": "sha256:cd0fbfa6937a7e6eae825c86ad560ffaf011ffef4546096016921326b7bbeecc"}, "docker": "quay.io/biocontainers/bioconductor-singlecellexperiment-scripts", "aliases": {"bioconductor-singlecellexperiment-scripts-post-install-tests.sh": "/usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh", "singlecellexperiment-create-single-cell-experiment.R": "/usr/local/bin/singlecellexperiment-create-single-cell-experiment.R", "singlecellexperiment-get-random-cells.R": "/usr/local/bin/singlecellexperiment-get-random-cells.R", "singlecellexperiment-get-random-genes.R": "/usr/local/bin/singlecellexperiment-get-random-genes.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecellexperiment-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecellexperiment-scripts", "latest": {"0.0.3--hdfd78af_2": "sha256:54c87ddbfb7db87e443824823f9e09515c7657bf37a340d0e3b86f1e29f48975"}, "tags": {"0.0.3--hdfd78af_1": "sha256:cd0fbfa6937a7e6eae825c86ad560ffaf011ffef4546096016921326b7bbeecc", "0.0.3--hdfd78af_2": "sha256:54c87ddbfb7db87e443824823f9e09515c7657bf37a340d0e3b86f1e29f48975"}, "docker": "quay.io/biocontainers/bioconductor-singlecellexperiment-scripts", "aliases": {"bioconductor-singlecellexperiment-scripts-post-install-tests.sh": "/usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh", "singlecellexperiment-create-single-cell-experiment.R": "/usr/local/bin/singlecellexperiment-create-single-cell-experiment.R", "singlecellexperiment-get-random-cells.R": "/usr/local/bin/singlecellexperiment-get-random-cells.R", "singlecellexperiment-get-random-genes.R": "/usr/local/bin/singlecellexperiment-get-random-genes.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-singlecellexperiment-scripts.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-singlecellexperiment-scripts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-singlecellexperiment-scripts:0.0.3--hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-singlecellexperiment-scripts:0.0.3--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/0.0.3--hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/0.0.3--hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/0.0.3--hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-singlecellexperiment-scripts/0.0.3--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

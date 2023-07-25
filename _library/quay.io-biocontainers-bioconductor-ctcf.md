@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ctcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ctcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ctcf/container.yaml"
-updated_at: "2023-07-24 04:59:49.934237"
-latest: "0.99.9--r42hdfd78af_0"
+updated_at: "2023-07-25 03:15:12.031766"
+latest: "0.99.11--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ctcf"
 
 versions:
  - "0.99.4--r41hdfd78af_1"
  - "0.99.9--r42hdfd78af_0"
+ - "0.99.11--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ctcf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ctcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ctcf", "latest": {"0.99.9--r42hdfd78af_0": "sha256:90eedf5fbf659a3da16fcb06bb07db1a0374b8e23010b7bfca77789d6275a31f"}, "tags": {"0.99.4--r41hdfd78af_1": "sha256:244a8c5eefdf79c541aa02e9a94d7db57cbf7f7b89b5d0485fe86cfeb960fc9e", "0.99.9--r42hdfd78af_0": "sha256:90eedf5fbf659a3da16fcb06bb07db1a0374b8e23010b7bfca77789d6275a31f"}, "docker": "quay.io/biocontainers/bioconductor-ctcf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ctcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ctcf", "latest": {"0.99.11--r43hdfd78af_0": "sha256:a740ee4609677e8bdf0b60c22bffd7c4ac905448b97cf2c157a13b4f454bdb76"}, "tags": {"0.99.4--r41hdfd78af_1": "sha256:244a8c5eefdf79c541aa02e9a94d7db57cbf7f7b89b5d0485fe86cfeb960fc9e", "0.99.9--r42hdfd78af_0": "sha256:90eedf5fbf659a3da16fcb06bb07db1a0374b8e23010b7bfca77789d6275a31f", "0.99.11--r43hdfd78af_0": "sha256:a740ee4609677e8bdf0b60c22bffd7c4ac905448b97cf2c157a13b4f454bdb76"}, "docker": "quay.io/biocontainers/bioconductor-ctcf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ctcf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ctcf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ctcf:0.99.9--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ctcf:0.99.11--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ctcf/0.99.9--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ctcf/0.99.9--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ctcf/0.99.11--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ctcf/0.99.11--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

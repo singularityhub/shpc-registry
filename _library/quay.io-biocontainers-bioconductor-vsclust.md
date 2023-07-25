@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-vsclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vsclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vsclust/container.yaml"
-updated_at: "2023-07-24 05:22:20.428695"
-latest: "1.0.0--r42hf17093f_1"
+updated_at: "2023-07-25 03:39:29.470113"
+latest: "1.2.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vsclust"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.0.0--r42hc247a5b_0"
  - "1.0.0--r42hf17093f_1"
+ - "1.2.0--r43hf17093f_0"
 description: "singularity registry hpc automated addition for bioconductor-vsclust"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vsclust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-vsclust", "latest": {"1.0.0--r42hf17093f_1": "sha256:d80ab8734526f4643517542348faf6be7818ba466a386d713955707fb3834102"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:5db60b6c24faa39d5b587912ce64aa33f48a1d11a3dd27f45e7be5e97cf66d91", "1.0.0--r42hf17093f_1": "sha256:d80ab8734526f4643517542348faf6be7818ba466a386d713955707fb3834102"}, "docker": "quay.io/biocontainers/bioconductor-vsclust", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vsclust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-vsclust", "latest": {"1.2.0--r43hf17093f_0": "sha256:c0963c4f4e2accc0e25476bdc193288134786580476dae630a6eca39b8dde7e7"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:5db60b6c24faa39d5b587912ce64aa33f48a1d11a3dd27f45e7be5e97cf66d91", "1.0.0--r42hf17093f_1": "sha256:d80ab8734526f4643517542348faf6be7818ba466a386d713955707fb3834102", "1.2.0--r43hf17093f_0": "sha256:c0963c4f4e2accc0e25476bdc193288134786580476dae630a6eca39b8dde7e7"}, "docker": "quay.io/biocontainers/bioconductor-vsclust", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vsclust.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vsclust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vsclust:1.0.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-vsclust:1.2.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vsclust/1.0.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-vsclust/1.0.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-vsclust/1.2.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-vsclust/1.2.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

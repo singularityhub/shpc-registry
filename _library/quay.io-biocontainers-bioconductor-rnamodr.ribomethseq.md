@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rnamodr.ribomethseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/container.yaml"
-updated_at: "2023-07-24 04:56:21.007926"
-latest: "1.12.0--r42hdfd78af_0"
+updated_at: "2023-07-25 03:11:26.029539"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnamodr.ribomethseq"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnamodr.ribomethseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnamodr.ribomethseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnamodr.ribomethseq", "latest": {"1.12.0--r42hdfd78af_0": "sha256:8ba560eafc79324b5ce63d6543666b4031f01994895d8e623c02aeb2f2186432"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:057c1c88a05a64a628437c6a18b7d1c0338a76a158516881d8ede3b06706f482", "1.12.0--r42hdfd78af_0": "sha256:8ba560eafc79324b5ce63d6543666b4031f01994895d8e623c02aeb2f2186432"}, "docker": "quay.io/biocontainers/bioconductor-rnamodr.ribomethseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnamodr.ribomethseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnamodr.ribomethseq", "latest": {"1.14.0--r43hdfd78af_0": "sha256:d5bf985d9cf4b31ba8175909a30a36472846f6edbaccae6804cd7453adda05c1"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:057c1c88a05a64a628437c6a18b7d1c0338a76a158516881d8ede3b06706f482", "1.12.0--r42hdfd78af_0": "sha256:8ba560eafc79324b5ce63d6543666b4031f01994895d8e623c02aeb2f2186432", "1.14.0--r43hdfd78af_0": "sha256:d5bf985d9cf4b31ba8175909a30a36472846f6edbaccae6804cd7453adda05c1"}, "docker": "quay.io/biocontainers/bioconductor-rnamodr.ribomethseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnamodr.ribomethseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnamodr.ribomethseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnamodr.ribomethseq:1.12.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnamodr.ribomethseq:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/1.12.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/1.12.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnamodr.ribomethseq/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

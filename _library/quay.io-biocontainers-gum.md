@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gum/container.yaml"
-updated_at: "2023-07-24 05:20:02.790991"
+updated_at: "2023-07-25 03:37:00.376291"
 latest: "1.1.1--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/gum"
 

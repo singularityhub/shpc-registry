@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msamtools/container.yaml"
-updated_at: "2023-07-24 04:58:37.865309"
-latest: "1.1.2--he4a0461_2"
+updated_at: "2023-07-25 03:13:54.237281"
+latest: "1.1.3--he4a0461_0"
 container_url: "https://biocontainers.pro/tools/msamtools"
 aliases:
  - "msamtools"
@@ -14,8 +14,9 @@ versions:
  - "1.1.1--h7132678_0"
  - "1.1.2--h7132678_0"
  - "1.1.2--he4a0461_2"
+ - "1.1.3--he4a0461_0"
 description: "shpc-registry automated BioContainers addition for msamtools"
-config: {"url": "https://biocontainers.pro/tools/msamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msamtools", "latest": {"1.1.2--he4a0461_2": "sha256:6055f6b0372323dbde8696444a1d88ad6d96731d8e58429471d8ca5bb7d39e08"}, "tags": {"1.1.0--h7132678_1": "sha256:8e1d08bc288c309dcc266e7817d4a8342e0f2aa3b551a8c7949ea22c8337b1ea", "1.1.1--h7132678_0": "sha256:2c5b0bbd00d429c175a08f7842e972be4a3345df0e689514096bb8b47993d6b2", "1.1.2--h7132678_0": "sha256:ab28759fe8fc09ddbbf897e50abe639928785a76f2053e9f9da3e025786db8d5", "1.1.2--he4a0461_2": "sha256:6055f6b0372323dbde8696444a1d88ad6d96731d8e58429471d8ca5bb7d39e08"}, "docker": "quay.io/biocontainers/msamtools", "aliases": {"msamtools": "/usr/local/bin/msamtools"}}
+config: {"url": "https://biocontainers.pro/tools/msamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msamtools", "latest": {"1.1.3--he4a0461_0": "sha256:e2adcb4f1c1cbfbf93eebe995d5abe5dc1a9e59f1074f143231856982a2da50c"}, "tags": {"1.1.0--h7132678_1": "sha256:8e1d08bc288c309dcc266e7817d4a8342e0f2aa3b551a8c7949ea22c8337b1ea", "1.1.1--h7132678_0": "sha256:2c5b0bbd00d429c175a08f7842e972be4a3345df0e689514096bb8b47993d6b2", "1.1.2--h7132678_0": "sha256:ab28759fe8fc09ddbbf897e50abe639928785a76f2053e9f9da3e025786db8d5", "1.1.2--he4a0461_2": "sha256:6055f6b0372323dbde8696444a1d88ad6d96731d8e58429471d8ca5bb7d39e08", "1.1.3--he4a0461_0": "sha256:e2adcb4f1c1cbfbf93eebe995d5abe5dc1a9e59f1074f143231856982a2da50c"}, "docker": "quay.io/biocontainers/msamtools", "aliases": {"msamtools": "/usr/local/bin/msamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msamtools.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/msamtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msamtools:1.1.2--he4a0461_2
+$ shpc install quay.io/biocontainers/msamtools:1.1.3--he4a0461_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msamtools/1.1.2--he4a0461_2
-$ module help quay.io/biocontainers/msamtools/1.1.2--he4a0461_2
+$ module load quay.io/biocontainers/msamtools/1.1.3--he4a0461_0
+$ module help quay.io/biocontainers/msamtools/1.1.3--he4a0461_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

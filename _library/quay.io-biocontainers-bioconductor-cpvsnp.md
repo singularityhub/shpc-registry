@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cpvsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cpvsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cpvsnp/container.yaml"
-updated_at: "2023-07-24 04:37:25.991886"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-07-25 02:50:57.519449"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cpvsnp"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
  - "1.30.0--r42hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cpvsnp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cpvsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cpvsnp", "latest": {"1.30.0--r42hdfd78af_0": "sha256:133c1750b426758d2abd0b37b01ac06077d0d9950f466637d8604533f6d00a83"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:0abc741f95d1983c8993dcc13e961b22305f9e496c611481d025fcee6e73e505", "1.30.0--r42hdfd78af_0": "sha256:133c1750b426758d2abd0b37b01ac06077d0d9950f466637d8604533f6d00a83"}, "docker": "quay.io/biocontainers/bioconductor-cpvsnp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cpvsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cpvsnp", "latest": {"1.32.0--r43hdfd78af_0": "sha256:59ee4f4361583bcfc2f5e2c39e6dd878c213f2e4607b03b8d1559f2e4a98deb0"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:0abc741f95d1983c8993dcc13e961b22305f9e496c611481d025fcee6e73e505", "1.30.0--r42hdfd78af_0": "sha256:133c1750b426758d2abd0b37b01ac06077d0d9950f466637d8604533f6d00a83", "1.32.0--r43hdfd78af_0": "sha256:59ee4f4361583bcfc2f5e2c39e6dd878c213f2e4607b03b8d1559f2e4a98deb0"}, "docker": "quay.io/biocontainers/bioconductor-cpvsnp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cpvsnp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cpvsnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cpvsnp:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cpvsnp:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cpvsnp/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cpvsnp/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cpvsnp/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cpvsnp/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

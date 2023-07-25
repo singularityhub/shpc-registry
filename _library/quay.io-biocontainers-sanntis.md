@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sanntis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sanntis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sanntis/container.yaml"
-updated_at: "2023-07-24 05:05:15.679159"
+updated_at: "2023-07-25 03:21:03.890576"
 latest: "0.9.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sanntis"
 aliases:

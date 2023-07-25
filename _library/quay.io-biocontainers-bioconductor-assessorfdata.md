@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-assessorfdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-assessorfdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-assessorfdata/container.yaml"
-updated_at: "2023-07-24 04:54:16.501710"
+updated_at: "2023-07-25 03:09:11.457895"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-assessorfdata"
 aliases:

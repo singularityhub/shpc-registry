@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-eupathdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eupathdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eupathdb/container.yaml"
-updated_at: "2023-07-24 04:55:41.146389"
-latest: "1.0.1--r42hdfd78af_10"
+updated_at: "2023-07-25 03:10:42.985777"
+latest: "1.0.1--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-eupathdb"
 
 versions:
  - "1.0.1--r41hdfd78af_9"
  - "1.0.1--r42hdfd78af_10"
+ - "1.0.1--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-eupathdb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eupathdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eupathdb", "latest": {"1.0.1--r42hdfd78af_10": "sha256:2a3feb5e9161295802a8da73f65f3974112acafc6df80c7d9d9aaedf29025a5a"}, "tags": {"1.0.1--r41hdfd78af_9": "sha256:fa7e853093aafe2efde0ad9843b77dae3735334510b8c533f5a4556a1df57430", "1.0.1--r42hdfd78af_10": "sha256:2a3feb5e9161295802a8da73f65f3974112acafc6df80c7d9d9aaedf29025a5a"}, "docker": "quay.io/biocontainers/bioconductor-eupathdb"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eupathdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eupathdb", "latest": {"1.0.1--r43hdfd78af_11": "sha256:c4fe7f0f31879725a73df946a3e3dbbad542da0989705c2a3bef8aae201e3cf4"}, "tags": {"1.0.1--r41hdfd78af_9": "sha256:fa7e853093aafe2efde0ad9843b77dae3735334510b8c533f5a4556a1df57430", "1.0.1--r42hdfd78af_10": "sha256:2a3feb5e9161295802a8da73f65f3974112acafc6df80c7d9d9aaedf29025a5a", "1.0.1--r43hdfd78af_11": "sha256:c4fe7f0f31879725a73df946a3e3dbbad542da0989705c2a3bef8aae201e3cf4"}, "docker": "quay.io/biocontainers/bioconductor-eupathdb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eupathdb.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-eupathdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-eupathdb:1.0.1--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-eupathdb:1.0.1--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-eupathdb/1.0.1--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-eupathdb/1.0.1--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-eupathdb/1.0.1--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-eupathdb/1.0.1--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

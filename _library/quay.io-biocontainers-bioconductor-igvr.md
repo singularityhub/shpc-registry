@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-igvr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-igvr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-igvr/container.yaml"
-updated_at: "2023-07-24 05:24:14.630341"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-25 03:41:33.100497"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-igvr"
 aliases:
  - "2to3-3.8"
@@ -21,8 +21,9 @@ versions:
  - "1.18.0--r42hdfd78af_0"
  - "1.14.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-igvr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-igvr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-igvr", "latest": {"1.18.0--r42hdfd78af_0": "sha256:8294788caf542f6b0ce28d0d15507d11b4cbf0e9318b59010f1997efecd9433c"}, "tags": {"1.7.8--r40_0": "sha256:be69f28158e1e9b50e2f4784354c6a0a59bc6ea39f01b86f81388b157e1e0793", "1.18.0--r42hdfd78af_0": "sha256:8294788caf542f6b0ce28d0d15507d11b4cbf0e9318b59010f1997efecd9433c", "1.14.0--r41hdfd78af_0": "sha256:50fa82d6cdff2857abf699a790019ca7d3514959032eb45ddf2f13d0510f0f22", "1.10.0--r40hdfd78af_1": "sha256:7290c5068de1f1d57138326c6b769f9e4825add555a9eb4a6f0982ae937eaff1"}, "docker": "quay.io/biocontainers/bioconductor-igvr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-igvr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-igvr", "latest": {"1.20.0--r43hdfd78af_0": "sha256:87649cfc4e1a602c7c54af049462d38b361e9d017849a7533de0b043013f8757"}, "tags": {"1.7.8--r40_0": "sha256:be69f28158e1e9b50e2f4784354c6a0a59bc6ea39f01b86f81388b157e1e0793", "1.18.0--r42hdfd78af_0": "sha256:8294788caf542f6b0ce28d0d15507d11b4cbf0e9318b59010f1997efecd9433c", "1.14.0--r41hdfd78af_0": "sha256:50fa82d6cdff2857abf699a790019ca7d3514959032eb45ddf2f13d0510f0f22", "1.10.0--r40hdfd78af_1": "sha256:7290c5068de1f1d57138326c6b769f9e4825add555a9eb4a6f0982ae937eaff1", "1.20.0--r43hdfd78af_0": "sha256:87649cfc4e1a602c7c54af049462d38b361e9d017849a7533de0b043013f8757"}, "docker": "quay.io/biocontainers/bioconductor-igvr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-igvr.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-igvr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-igvr:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-igvr:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-igvr/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-igvr/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-igvr/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-igvr/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

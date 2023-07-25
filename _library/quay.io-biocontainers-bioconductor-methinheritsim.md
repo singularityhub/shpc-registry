@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-methinheritsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methinheritsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methinheritsim/container.yaml"
-updated_at: "2023-07-24 05:26:11.473281"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-07-25 03:43:37.558217"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methinheritsim"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methinheritsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methinheritsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methinheritsim", "latest": {"1.20.0--r42hdfd78af_0": "sha256:38cdfdf1c617f2fe37d5cf2b5f6aa865b4a3a2bac325766a16a1055b7652a9f0"}, "tags": {"1.8.0--r36_0": "sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e", "1.20.0--r42hdfd78af_0": "sha256:38cdfdf1c617f2fe37d5cf2b5f6aa865b4a3a2bac325766a16a1055b7652a9f0", "1.16.0--r41hdfd78af_0": "sha256:ba8e869d560999a9373a1173b365a3372ea883c853bffc95b469e3649848f2c2", "1.14.0--r41hdfd78af_0": "sha256:bda8c47ee91a6b1388ca1d9fef04084d03417b40affebfc5776cf05c318b5587", "1.12.0--r40hdfd78af_1": "sha256:c0d94fb43fadbe67c08b413bbec5d258c068add230a12775041cae7689c05ba1", "1.10.0--r40_0": "sha256:d9e50c9b3da3b8aaf8cbae0da8c9697fca7ddba88288838fdafe8f770830858f"}, "docker": "quay.io/biocontainers/bioconductor-methinheritsim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methinheritsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methinheritsim", "latest": {"1.22.0--r43hdfd78af_0": "sha256:c5abc158f545884f44ad82aa4b165b4c5bb0605f1c52ce13764b2e31730f5c76"}, "tags": {"1.8.0--r36_0": "sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e", "1.20.0--r42hdfd78af_0": "sha256:38cdfdf1c617f2fe37d5cf2b5f6aa865b4a3a2bac325766a16a1055b7652a9f0", "1.16.0--r41hdfd78af_0": "sha256:ba8e869d560999a9373a1173b365a3372ea883c853bffc95b469e3649848f2c2", "1.14.0--r41hdfd78af_0": "sha256:bda8c47ee91a6b1388ca1d9fef04084d03417b40affebfc5776cf05c318b5587", "1.12.0--r40hdfd78af_1": "sha256:c0d94fb43fadbe67c08b413bbec5d258c068add230a12775041cae7689c05ba1", "1.10.0--r40_0": "sha256:d9e50c9b3da3b8aaf8cbae0da8c9697fca7ddba88288838fdafe8f770830858f", "1.22.0--r43hdfd78af_0": "sha256:c5abc158f545884f44ad82aa4b165b4c5bb0605f1c52ce13764b2e31730f5c76"}, "docker": "quay.io/biocontainers/bioconductor-methinheritsim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methinheritsim.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methinheritsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methinheritsim:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-methinheritsim:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methinheritsim/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-methinheritsim/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-methinheritsim/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-methinheritsim/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

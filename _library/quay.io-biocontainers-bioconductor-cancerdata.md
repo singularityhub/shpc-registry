@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cancerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancerdata/container.yaml"
-updated_at: "2023-07-24 05:09:21.349609"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-25 03:25:29.127381"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancerdata"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cancerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cancerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancerdata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:ecd3d477b2376c6a15de20a20f8ffc13925dbd092de34478f8a33a827eb53cef"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:eef6b8e0c4624468dc57df979f4b5ecd6282514567067745abc880174b8bfd02", "1.36.0--r42hdfd78af_0": "sha256:ecd3d477b2376c6a15de20a20f8ffc13925dbd092de34478f8a33a827eb53cef"}, "docker": "quay.io/biocontainers/bioconductor-cancerdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cancerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancerdata", "latest": {"1.38.0--r43hdfd78af_0": "sha256:85b4297264916ab7fdefdb74b993e2f13b7855f3f6e51bf0d68123fdb927d230"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:eef6b8e0c4624468dc57df979f4b5ecd6282514567067745abc880174b8bfd02", "1.36.0--r42hdfd78af_0": "sha256:ecd3d477b2376c6a15de20a20f8ffc13925dbd092de34478f8a33a827eb53cef", "1.38.0--r43hdfd78af_0": "sha256:85b4297264916ab7fdefdb74b993e2f13b7855f3f6e51bf0d68123fdb927d230"}, "docker": "quay.io/biocontainers/bioconductor-cancerdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cancerdata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cancerdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cancerdata:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cancerdata:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cancerdata/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cancerdata/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cancerdata/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cancerdata/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

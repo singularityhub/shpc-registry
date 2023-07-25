@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dnacopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnacopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnacopy/container.yaml"
-updated_at: "2023-07-24 05:04:11.179809"
+updated_at: "2023-07-25 03:19:54.286156"
 latest: "1.74.1--r43h9913872_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnacopy"
 

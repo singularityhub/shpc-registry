@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aneufinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aneufinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aneufinder/container.yaml"
-updated_at: "2023-07-24 05:03:21.383843"
+updated_at: "2023-07-25 03:19:00.418128"
 latest: "1.28.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aneufinder"
 
