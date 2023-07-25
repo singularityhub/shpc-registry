@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mantelcorr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mantelcorr
 latest:
-  1.68.0--r42hdfd78af_0: sha256:513c387d02929505ea70a0a34338a54122cc279a93cbb8dcd72d9f711f218423
+  1.70.0--r43hdfd78af_0: sha256:fe1f99c65fb6feb1e71896362336d105a18e72c490a4b61cc3631dff891911ea
 tags:
   1.64.0--r41hdfd78af_0: sha256:2f3aa333cf02c6c13f3f0fe2c7dfe25e7fbcf1a4dde4e254e8833e6ffc3fbd06
   1.68.0--r42hdfd78af_0: sha256:513c387d02929505ea70a0a34338a54122cc279a93cbb8dcd72d9f711f218423
+  1.70.0--r43hdfd78af_0: sha256:fe1f99c65fb6feb1e71896362336d105a18e72c490a4b61cc3631dff891911ea
 docker: quay.io/biocontainers/bioconductor-mantelcorr

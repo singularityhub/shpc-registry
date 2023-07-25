@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ensemblvep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ensemblvep
 latest:
-  1.40.0--r42hdfd78af_0: sha256:65d9ded1611a533363ba97a93ea2f7762346857e57fbd61a89d1bbc06580c60a
+  1.42.0--r43hdfd78af_0: sha256:a2ecf773480511463a058a321c1e56d2e25b8d7aced83ed0cb97ec46fe14b71c
 tags:
   1.36.0--r41hdfd78af_0: sha256:5d0921e90f42b7a3024c124738dab1ad6d8fcb199ade72db747c2a191599cc86
   1.40.0--r42hdfd78af_0: sha256:65d9ded1611a533363ba97a93ea2f7762346857e57fbd61a89d1bbc06580c60a
+  1.42.0--r43hdfd78af_0: sha256:a2ecf773480511463a058a321c1e56d2e25b8d7aced83ed0cb97ec46fe14b71c
 docker: quay.io/biocontainers/bioconductor-ensemblvep

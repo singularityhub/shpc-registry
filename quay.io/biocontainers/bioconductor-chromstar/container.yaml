@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-chromstar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chromstar
 latest:
-  1.24.0--r42hf17093f_1: sha256:7565294f0ac4d3769a26831d63a91318c409f6191ef2aa12f67354eef96d0569
+  1.26.0--r43hf17093f_0: sha256:e7cd560cf1d1ff8a205794df836daa50e8d494e4b48cec78a8c1f5e7b0ee1c39
 tags:
   1.8.1--r351hf484d3e_0: sha256:3a3a684038fd108122b90779b87c072b00e695b54e59c223c3d94060a9c51b28
   1.24.0--r42hc247a5b_0: sha256:c0c724a214ea5bbff726ac96005901f5d32eb629b943a7f959eebdd3061ee9c2
@@ -11,6 +11,7 @@ tags:
   1.18.0--r41h399db7b_0: sha256:7cadf36ec61289b34389db5c3fffe8741c34ae30794b9f4879afa78cf64fc7b7
   1.16.0--r40h399db7b_2: sha256:8006127695f14eb2b043c7d153e02cc1e357dadc7937505d111a9ba52b8047e1
   1.24.0--r42hf17093f_1: sha256:7565294f0ac4d3769a26831d63a91318c409f6191ef2aa12f67354eef96d0569
+  1.26.0--r43hf17093f_0: sha256:e7cd560cf1d1ff8a205794df836daa50e8d494e4b48cec78a8c1f5e7b0ee1c39
 docker: quay.io/biocontainers/bioconductor-chromstar
 aliases:
   wget: /usr/local/bin/wget

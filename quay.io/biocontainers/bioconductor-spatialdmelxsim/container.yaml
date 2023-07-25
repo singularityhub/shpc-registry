@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-spatialdmelxsim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spatialdmelxsim
 latest:
-  1.4.0--r42hdfd78af_0: sha256:49875f04b5f1c039c937ae3eefff436beeed60b002ea77281075e32fac07715d
+  1.6.1--r43hdfd78af_0: sha256:34862d36d2032f3dc62cba46797841d7ff9e0648f2ff2e311290edd383e2b200
 tags:
   1.0.0--r41hdfd78af_1: sha256:5686f39ea070aeef48630512f6554086c61a850830bfd1e16f3b41408ba1b687
   1.4.0--r42hdfd78af_0: sha256:49875f04b5f1c039c937ae3eefff436beeed60b002ea77281075e32fac07715d
+  1.6.1--r43hdfd78af_0: sha256:34862d36d2032f3dc62cba46797841d7ff9e0648f2ff2e311290edd383e2b200
 docker: quay.io/biocontainers/bioconductor-spatialdmelxsim

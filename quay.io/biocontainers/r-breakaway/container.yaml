@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-breakaway
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-breakaway
 latest:
-  4.7.9--r42h3121a25_1: sha256:16f4a18bf9f677d0fea550117c7266c593b8fc4de4d69902f0d989e597d124d1
+  4.7.9--r43h3121a25_2: sha256:039760e60afc42322845270eb5486ca30371c352d1adbbca23210b592fcf3006
 tags:
   4.7.9--r41h3121a25_0: sha256:e09230e9f3cb03fe2dd4f336a962bf3e90419ba779c86d85ae6adaa387130132
   4.7.9--r42h3121a25_1: sha256:16f4a18bf9f677d0fea550117c7266c593b8fc4de4d69902f0d989e597d124d1
+  4.7.9--r43h3121a25_2: sha256:039760e60afc42322845270eb5486ca30371c352d1adbbca23210b592fcf3006
 docker: quay.io/biocontainers/r-breakaway
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

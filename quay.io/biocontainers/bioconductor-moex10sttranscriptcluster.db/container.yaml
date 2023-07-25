@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-moex10sttranscriptcluster.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-moex10sttranscriptcluster.db
 latest:
-  8.8.0--r42hdfd78af_2: sha256:8bc44754fea356fd86b4dc04d8426491631c3e84369980ec4a175ebe58dab6b9
+  8.8.0--r43hdfd78af_3: sha256:a2f465f4f865fcc0b13a92b66581f163871d2d07bd8466932c8bc21c19dc3e7c
 tags:
   8.8.0--r41hdfd78af_1: sha256:037699ab46bc11be0190390cf8a8925f3b9f9b6e6e0f618d90ffd10eab60bdca
   8.8.0--r42hdfd78af_2: sha256:8bc44754fea356fd86b4dc04d8426491631c3e84369980ec4a175ebe58dab6b9
+  8.8.0--r43hdfd78af_3: sha256:a2f465f4f865fcc0b13a92b66581f163871d2d07bd8466932c8bc21c19dc3e7c
 docker: quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db

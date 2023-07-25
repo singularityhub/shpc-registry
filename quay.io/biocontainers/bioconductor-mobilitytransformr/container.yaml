@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mobilitytransformr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-mobilitytransformr
 latest:
-  1.2.0--r42hdfd78af_0: sha256:e0ee3bc11d065d7ec1af786fdf8887753eb459147ea5e2f40d9f0b2c48d44be2
+  1.4.0--r43hdfd78af_0: sha256:e1ba65a76162fc89d449fab37226eb5e9a763dcc686fd6dda791d8e525ba675e
 tags:
   1.2.0--r42hdfd78af_0: sha256:e0ee3bc11d065d7ec1af786fdf8887753eb459147ea5e2f40d9f0b2c48d44be2
+  1.4.0--r43hdfd78af_0: sha256:e1ba65a76162fc89d449fab37226eb5e9a763dcc686fd6dda791d8e525ba675e
 docker: quay.io/biocontainers/bioconductor-mobilitytransformr
 aliases:
   zipcmp: /usr/local/bin/zipcmp

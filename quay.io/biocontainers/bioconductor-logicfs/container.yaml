@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-logicfs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-logicfs
 latest:
-  2.18.0--r42hdfd78af_0: sha256:f1d5332549d775cb4337520fc4cb44a0e6560770933791cffda2ada1ecc2c737
+  2.20.0--r43hdfd78af_0: sha256:d649f4877bd6f907bdd3ac34dbee844bb723acfe905eab2437f5b13cf2e431c5
 tags:
   2.8.0--r40_0: sha256:7078b253b71f9c79c46e65d440d5d9047e874c96b6d44a507e6ec74a8895c0c1
   2.18.0--r42hdfd78af_0: sha256:f1d5332549d775cb4337520fc4cb44a0e6560770933791cffda2ada1ecc2c737
   2.14.0--r41hdfd78af_0: sha256:a30004a6f351cd1c0b8e130a862555d658e1b26e5c1e8d1c8e57fdbffbc02972
   2.12.0--r41hdfd78af_0: sha256:9f75074223e3af6ca32dd9531c17f7259b85d3b1631cee04f557be08e6f18fb7
   2.10.0--r40hdfd78af_1: sha256:47edc04b831003ef9f8921446741df8eac2ede983aa147d0c6400b3ef8164c79
+  2.20.0--r43hdfd78af_0: sha256:d649f4877bd6f907bdd3ac34dbee844bb723acfe905eab2437f5b13cf2e431c5
 docker: quay.io/biocontainers/bioconductor-logicfs
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

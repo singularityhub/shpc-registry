@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-debcam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-debcam
 latest:
-  1.16.0--r42hdfd78af_0: sha256:58e6b6fdb4eb3628d9bc9f1c5f8bf35b8491cf202da7679c24714cea16307933
+  1.18.0--r43hdfd78af_0: sha256:fb36d36abff4bc7ea2eb1da65b77f647be46b6d3666a4f5ebd1235ad3940e35f
 tags:
   1.8.0--r40hdfd78af_1: sha256:b5752289c12c7db0920c9e2c1835eb24dcda0bb3604b0bcb7e49c0ef11b6f0bf
   1.16.0--r42hdfd78af_0: sha256:58e6b6fdb4eb3628d9bc9f1c5f8bf35b8491cf202da7679c24714cea16307933
   1.12.0--r41hdfd78af_0: sha256:69cfcc99d5dce43730b24db135027c2a1b483f4e9db23984094f8548e7e113b6
   1.10.0--r41hdfd78af_0: sha256:f6c48816b463c43f96a30e5d49a688dc1b9af0c78056face8a6faa7a3882cfab
+  1.18.0--r43hdfd78af_0: sha256:fb36d36abff4bc7ea2eb1da65b77f647be46b6d3666a4f5ebd1235ad3940e35f
 docker: quay.io/biocontainers/bioconductor-debcam
 aliases:
   jfr: /usr/local/bin/jfr

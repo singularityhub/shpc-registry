@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-cellid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cellid
 latest:
-  1.6.0--r42hf17093f_1: sha256:e135e8dffc5831fce9b20de0074371ccde1243d37f4dbf72c6e7b8c931cc424f
+  1.8.1--r43hf17093f_0: sha256:2028a74173b813016f735912515a7e7147adc02baab24820524e1c78933d33ad
 tags:
   1.2.1--r41hc247a5b_1: sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46
   1.6.0--r42hc247a5b_0: sha256:0caf6533c1c42684d5ad13debf5e4e2250ed989f98e207a6bf2cea961f504a78
   1.6.0--r42hf17093f_1: sha256:e135e8dffc5831fce9b20de0074371ccde1243d37f4dbf72c6e7b8c931cc424f
+  1.8.1--r43hf17093f_0: sha256:2028a74173b813016f735912515a7e7147adc02baab24820524e1c78933d33ad
 docker: quay.io/biocontainers/bioconductor-cellid
 aliases:
   geosop: /usr/local/bin/geosop

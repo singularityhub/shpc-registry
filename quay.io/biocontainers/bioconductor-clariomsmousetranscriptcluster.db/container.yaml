@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-clariomsmousetranscriptcluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clariomsmousetranscriptcluster.db
 latest:
-  8.8.0--r42hdfd78af_2: sha256:3119cfb56f776f279cfce07708f275160e50ebb3d7758a0a245950833c3649b1
+  8.8.0--r43hdfd78af_3: sha256:8a16b26656d48fb33fe35475f8abaac94677373ca697c04031b83f2140ae285d
 tags:
   8.8.0--r41hdfd78af_1: sha256:fa07f8cd7b83bcec9db2cfa9f60edb81f33df508ce12e695a25707bf5245904d
   8.8.0--r42hdfd78af_2: sha256:3119cfb56f776f279cfce07708f275160e50ebb3d7758a0a245950833c3649b1
+  8.8.0--r43hdfd78af_3: sha256:8a16b26656d48fb33fe35475f8abaac94677373ca697c04031b83f2140ae285d
 docker: quay.io/biocontainers/bioconductor-clariomsmousetranscriptcluster.db

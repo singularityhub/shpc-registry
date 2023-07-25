@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hybran
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hybran
 latest:
-  1.6.1--pyhdfd78af_0: sha256:089ac597b26aa627706a6dc56577b9180809bead5b65bd1d1eda89e0f3407adb
+  1.7.1--pyhdfd78af_0: sha256:c365992316c940394b6a65c5dd79260f2f5c68407b8e70996f34297a156edd7f
 tags:
   1.5.2--pyhdfd78af_1: sha256:1dec647d0b88b79d3d3245818d907b82f09306dfbc2c6935623636ef0c8b5ddb
   1.6.1--pyhdfd78af_0: sha256:089ac597b26aa627706a6dc56577b9180809bead5b65bd1d1eda89e0f3407adb
+  1.7.1--pyhdfd78af_0: sha256:c365992316c940394b6a65c5dd79260f2f5c68407b8e70996f34297a156edd7f
 docker: quay.io/biocontainers/hybran
 aliases:
   TMalign: /usr/local/bin/TMalign

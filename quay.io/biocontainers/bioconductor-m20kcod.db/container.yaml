@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-m20kcod.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-m20kcod.db
 latest:
-  3.4.0--r42hdfd78af_10: sha256:0c3028bcef308bfd7a6d1dfb44357aa0b18d4acc8fa2b44f2aa9b8f7851472c4
+  3.4.0--r43hdfd78af_11: sha256:ceb33063090c27e8dfe43763bcd9a25b25a99daae65956cfcda63ecba6e86bb6
 tags:
   3.4.0--r41hdfd78af_9: sha256:e5d18802667ae30abecd736fc08f1efacd2a30b42741307d24b90ef93e4e11eb
   3.4.0--r42hdfd78af_10: sha256:0c3028bcef308bfd7a6d1dfb44357aa0b18d4acc8fa2b44f2aa9b8f7851472c4
+  3.4.0--r43hdfd78af_11: sha256:ceb33063090c27e8dfe43763bcd9a25b25a99daae65956cfcda63ecba6e86bb6
 docker: quay.io/biocontainers/bioconductor-m20kcod.db

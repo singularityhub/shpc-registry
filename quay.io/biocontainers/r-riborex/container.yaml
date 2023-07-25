@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-riborex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-riborex
 latest:
-  2.4.0--r42hdfd78af_5: sha256:fb9ee3cadec743b2e647abcfb8cc6b7d1fea168090c14c3e599adc34cf18bc4b
+  2.4.0--r43hdfd78af_6: sha256:3bc330538d52456f8a31a570d406498bf645f04f76801dd59d6272d2bb0ffb81
 tags:
   2.4.0--r41hdfd78af_4: sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf
   2.4.0--r42hdfd78af_5: sha256:fb9ee3cadec743b2e647abcfb8cc6b7d1fea168090c14c3e599adc34cf18bc4b
+  2.4.0--r43hdfd78af_6: sha256:3bc330538d52456f8a31a570d406498bf645f04f76801dd59d6272d2bb0ffb81
 docker: quay.io/biocontainers/r-riborex
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

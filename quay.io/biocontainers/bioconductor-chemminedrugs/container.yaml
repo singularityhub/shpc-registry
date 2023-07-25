@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-chemminedrugs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chemminedrugs
 latest:
-  1.0.2--r42hdfd78af_10: sha256:a4da1630190e0f7cda74d856be8193e5349b4db3b3932a9922ea3e7d32eb715b
+  1.0.2--r43hdfd78af_11: sha256:0c3119f2a6b52834d5275a42826f777c5c2508e7da3139a52fbc0b051990bf7f
 tags:
   1.0.2--r41hdfd78af_9: sha256:80d3f58de9f95c35f4273abc831ea79b0c1a3ee554632529e26469725e42fc7e
   1.0.2--r42hdfd78af_10: sha256:a4da1630190e0f7cda74d856be8193e5349b4db3b3932a9922ea3e7d32eb715b
+  1.0.2--r43hdfd78af_11: sha256:0c3119f2a6b52834d5275a42826f777c5c2508e7da3139a52fbc0b051990bf7f
 docker: quay.io/biocontainers/bioconductor-chemminedrugs
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-illuminahumanv2.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-illuminahumanv2.db
 latest:
-  1.26.0--r42hdfd78af_10: sha256:cb3b6b25d76597dadad30f6b7ff77a89e5f05d8550d56c92241486ecce72443a
+  1.26.0--r43hdfd78af_11: sha256:3605a73dec84002003cd67af0b2ee1366d12c99ed5a32feb8c7ea5320738dc58
 tags:
   1.26.0--r41hdfd78af_9: sha256:0492a0be302d7e2cf9f8ef3cf10b3fc15661d184e5b0b5215873f67500a1b942
   1.26.0--r42hdfd78af_10: sha256:cb3b6b25d76597dadad30f6b7ff77a89e5f05d8550d56c92241486ecce72443a
+  1.26.0--r43hdfd78af_11: sha256:3605a73dec84002003cd67af0b2ee1366d12c99ed5a32feb8c7ea5320738dc58
 docker: quay.io/biocontainers/bioconductor-illuminahumanv2.db

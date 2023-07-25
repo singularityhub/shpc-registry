@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-phenogeneranker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-phenogeneranker
 latest:
-  1.6.0--r42hdfd78af_0: sha256:f51f415590cbe67fff177ce01519c7b3a354ff0aff61f131a5ee8f9c5a2cd6ff
+  1.8.0--r43hdfd78af_0: sha256:b06c5d1b6468c3808c7fb9bdbdd6b2a194cec1562790f505b074fa8d8d6f9279
 tags:
   1.2.0--r41hdfd78af_0: sha256:a468b8970a17f2d0415a6ff0e959911ee1453f4e571d463d7b4b4226477dc59e
   1.6.0--r42hdfd78af_0: sha256:f51f415590cbe67fff177ce01519c7b3a354ff0aff61f131a5ee8f9c5a2cd6ff
+  1.8.0--r43hdfd78af_0: sha256:b06c5d1b6468c3808c7fb9bdbdd6b2a194cec1562790f505b074fa8d8d6f9279
 docker: quay.io/biocontainers/bioconductor-phenogeneranker
