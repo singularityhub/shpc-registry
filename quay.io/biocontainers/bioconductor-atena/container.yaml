@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-atena
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-atena
 latest:
-  1.4.0--r42hdfd78af_0: sha256:fcbe9ea21c3e91a87a6d4ac27b45eacb9991bc1695a77bd48e527ad8bede9a19
+  1.6.0--r43hdfd78af_0: sha256:e0d2377ce8d2c453d24f1762884f8ca7218e98fc6d7fbbcd1413d06d3b9127fc
 tags:
   1.0.0--r41hdfd78af_0: sha256:4348c6122fedb367c156c4f7144cd4ae74cdddc03898cb282cb94cae4df452a1
   1.4.0--r42hdfd78af_0: sha256:fcbe9ea21c3e91a87a6d4ac27b45eacb9991bc1695a77bd48e527ad8bede9a19
+  1.6.0--r43hdfd78af_0: sha256:e0d2377ce8d2c453d24f1762884f8ca7218e98fc6d7fbbcd1413d06d3b9127fc
 docker: quay.io/biocontainers/bioconductor-atena

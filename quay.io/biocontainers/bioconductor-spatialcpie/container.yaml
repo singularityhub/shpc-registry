@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-spatialcpie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spatialcpie
 latest:
-  1.14.0--r42hdfd78af_0: sha256:b40f2a67dd993f3043e6412a211e3d504b4efd40f253665e1d657b816d7640d5
+  1.16.0--r43hdfd78af_0: sha256:4d9f4a7c26eb8fc3bfef7d34c48e7fc6810842c132b56bfd95f32097db9513cf
 tags:
   1.8.0--r41hdfd78af_0: sha256:538f13f18a71140d0fb8597e655a2c8d3b832d549303cc47682e78fb6fe40891
   1.14.0--r42hdfd78af_0: sha256:b40f2a67dd993f3043e6412a211e3d504b4efd40f253665e1d657b816d7640d5
   1.10.0--r41hdfd78af_0: sha256:74a141cdfe4d4d784c294498b948c04d51fea1d5cd6fa9f65d8d393af36d3267
+  1.16.0--r43hdfd78af_0: sha256:4d9f4a7c26eb8fc3bfef7d34c48e7fc6810842c132b56bfd95f32097db9513cf
 docker: quay.io/biocontainers/bioconductor-spatialcpie
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

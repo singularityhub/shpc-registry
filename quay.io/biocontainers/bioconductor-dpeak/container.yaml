@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-dpeak
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dpeak
 latest:
-  1.10.0--r42hf17093f_1: sha256:d9b8c682027f4fc5e88515221b4da6c336fb0c62a3e0c343b79a55ae4feb4b3e
+  1.12.0--r43hf17093f_0: sha256:16cebc7944a888c910f4ccf082f68678a2aa4f78919806eaa8e02b478edee780
 tags:
   1.6.0--r41hc247a5b_2: sha256:b6394320d506fb0a5f7e5423f0ae157f0df50812ff6f80395fc7b94a1dde1acd
   1.10.0--r42hc247a5b_0: sha256:c772ecfaa760a4c37431e3368dc32892be7ddf14f66646b083f2224da0623fcd
   1.10.0--r42hf17093f_1: sha256:d9b8c682027f4fc5e88515221b4da6c336fb0c62a3e0c343b79a55ae4feb4b3e
+  1.12.0--r43hf17093f_0: sha256:16cebc7944a888c910f4ccf082f68678a2aa4f78919806eaa8e02b478edee780
 docker: quay.io/biocontainers/bioconductor-dpeak

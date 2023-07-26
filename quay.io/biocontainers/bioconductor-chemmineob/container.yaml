@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-chemmineob
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-chemmineob
 latest:
-  1.36.0--r42hc247a5b_1: sha256:87afbed8cbe5d7e0e7a825f529577a62cbbd2be3d6b35d2ae22e61233e88abde
+  1.38.0--r43hc247a5b_0: sha256:f80cea4673b4bf2ae4d87099c05ae4dd1214acdc97c4fac2d271f10975e5a7a3
 tags:
   1.36.0--r42hc247a5b_0: sha256:9d2ffbd36db6e7040b2f04c77164fa9cad33c32d7301e0fbe505cb8ba545c564
   1.36.0--r42hc247a5b_1: sha256:87afbed8cbe5d7e0e7a825f529577a62cbbd2be3d6b35d2ae22e61233e88abde
+  1.38.0--r43hc247a5b_0: sha256:f80cea4673b4bf2ae4d87099c05ae4dd1214acdc97c4fac2d271f10975e5a7a3
 docker: quay.io/biocontainers/bioconductor-chemmineob
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

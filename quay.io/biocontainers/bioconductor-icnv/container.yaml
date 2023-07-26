@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-icnv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-icnv
 latest:
-  1.18.0--r42hdfd78af_0: sha256:d2e40c193c2a7c15ef52e07ebb9ad34175703c9231d044758b13e8d306d54c0d
+  1.20.0--r43hdfd78af_0: sha256:cdbc42ecd550057c952547ec5b788c8c0a3d8d886bf728ab91f77fa5eb165133
 tags:
   1.8.0--r40_0: sha256:ca46d639df50813142859a8ab59601f98c956648d8e8ccc774398d1b99069145
   1.18.0--r42hdfd78af_0: sha256:d2e40c193c2a7c15ef52e07ebb9ad34175703c9231d044758b13e8d306d54c0d
   1.14.0--r41hdfd78af_0: sha256:46cadb25eed96f7ce6a5edfad9a9518da1de4fdc7b6163538c3622bef6237e95
   1.12.0--r41hdfd78af_0: sha256:ffc82edda6bfef8a23743d752d8b57122d27da1b6e663038e07bdbaccd1f73bc
   1.10.0--r40hdfd78af_1: sha256:50868691a214bb0c2582fa61194d380a9e62b80a3bb0ae6f9549d5fb156c1719
+  1.20.0--r43hdfd78af_0: sha256:cdbc42ecd550057c952547ec5b788c8c0a3d8d886bf728ab91f77fa5eb165133
 docker: quay.io/biocontainers/bioconductor-icnv
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

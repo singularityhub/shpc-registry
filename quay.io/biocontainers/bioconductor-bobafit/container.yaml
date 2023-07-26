@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-bobafit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-bobafit
 latest:
-  1.2.0--r42hdfd78af_0: sha256:079dea89a1567be08cbe7255353cf23398a4a575e0ad5208a3f59b5de5d10700
+  1.4.0--r43hdfd78af_0: sha256:7ea9c60e410f3323039f79ec64047fc0611fca7ad2ea76b51f27527b1c51ed65
 tags:
   1.2.0--r42hdfd78af_0: sha256:079dea89a1567be08cbe7255353cf23398a4a575e0ad5208a3f59b5de5d10700
+  1.4.0--r43hdfd78af_0: sha256:7ea9c60e410f3323039f79ec64047fc0611fca7ad2ea76b51f27527b1c51ed65
 docker: quay.io/biocontainers/bioconductor-bobafit
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

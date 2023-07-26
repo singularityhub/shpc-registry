@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cardelino
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cardelino
 latest:
-  1.0.0--r42hdfd78af_0: sha256:b10475291f5aa83d82e0e97a0f1031ca0f4141d76af3923b6aab0c2d8a8cc253
+  1.2.0--r43hdfd78af_0: sha256:5e756f126482140786fa9ba9411e1297bb49771f6830e6af80a6f024071a7dad
 tags:
   1.0.0--r42hdfd78af_0: sha256:b10475291f5aa83d82e0e97a0f1031ca0f4141d76af3923b6aab0c2d8a8cc253
+  1.2.0--r43hdfd78af_0: sha256:5e756f126482140786fa9ba9411e1297bb49771f6830e6af80a6f024071a7dad
 docker: quay.io/biocontainers/bioconductor-cardelino
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

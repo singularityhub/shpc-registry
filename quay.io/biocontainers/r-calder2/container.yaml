@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-calder2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-calder2
 latest:
-  0.7--r42hdfd78af_0: sha256:a15449a8f9a4b990545ab2d140be9fddd036c094beebc91a06c43ee606ae741f
+  0.7--r43hdfd78af_1: sha256:5743098b9eeb3659aaa5b61e4179bce20c61f7a195f2b901dc5fd9c7b4267d37
 tags:
   0.3--r41hdfd78af_0: sha256:5b7418c4363afc83719f1ccae41daf587668cd5e6a46c1da214baf94a9caafdb
   0.3--r42hdfd78af_1: sha256:e0379b46316c5314bf485b6cbbc9a36bfcca733f2dda0e0fb6ad84c555886976
   0.7--r42hdfd78af_0: sha256:a15449a8f9a4b990545ab2d140be9fddd036c094beebc91a06c43ee606ae741f
   0.6--r42hdfd78af_0: sha256:e40611245263bf917df976b3b1fe98da6ff4ddabc946bfe40468e07ab6ab48e8
+  0.7--r43hdfd78af_1: sha256:5743098b9eeb3659aaa5b61e4179bce20c61f7a195f2b901dc5fd9c7b4267d37
 docker: quay.io/biocontainers/r-calder2
 aliases:
   calder: /usr/local/bin/calder

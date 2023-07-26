@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/upimapi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for upimapi
 latest:
-  1.11.2--hdfd78af_0: sha256:1aa0e8e863fb7f76222818677e4bc226eb88ff8604d61c8394e332fd2168535c
+  1.12.0--hdfd78af_0: sha256:44722696a68af4a57d0d61572e5c7c6910d820b039946a8d428317a9eef780f8
 tags:
   1.8.5--hdfd78af_0: sha256:3959e0b860808cf09b3ed70734918ddcba3747ccafb9a6b184e1f1d2cb56a2c7
   1.8.8--hdfd78af_0: sha256:9799744544c1213f637e2463127f6acb0b6b85b6cc5780f5649faf3bddf496ee
@@ -12,6 +12,7 @@ tags:
   1.9.0--hdfd78af_0: sha256:0f748b64de5c9eb9254e7ddb845bfe68533f06f1cd3c54a9db957b206051ad49
   1.10.0--hdfd78af_0: sha256:6eb714c322379993dc026b60ddebb70cbcdcf96505b72a5b9795a212b5387b50
   1.11.2--hdfd78af_0: sha256:1aa0e8e863fb7f76222818677e4bc226eb88ff8604d61c8394e332fd2168535c
+  1.12.0--hdfd78af_0: sha256:44722696a68af4a57d0d61572e5c7c6910d820b039946a8d428317a9eef780f8
 docker: quay.io/biocontainers/upimapi
 aliases:
   firefox: /usr/local/bin/firefox

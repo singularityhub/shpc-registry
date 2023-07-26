@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ygs98cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ygs98cdf
 latest:
-  2.18.0--r42hdfd78af_10: sha256:8b3e7a1393a0b689d5848daf165a0af74809ec969fa7708451a362e496896a16
+  2.18.0--r43hdfd78af_11: sha256:5a58a9a378869cadd74c25b60dcaf08a0fd6950a0ceba6c3b77cae91cd7fb5b7
 tags:
   2.18.0--r41hdfd78af_9: sha256:b84f16f5ad2cc9cd3abc398d0f597ba38f63385d6826eab9d54f8104d5575787
   2.18.0--r42hdfd78af_10: sha256:8b3e7a1393a0b689d5848daf165a0af74809ec969fa7708451a362e496896a16
+  2.18.0--r43hdfd78af_11: sha256:5a58a9a378869cadd74c25b60dcaf08a0fd6950a0ceba6c3b77cae91cd7fb5b7
 docker: quay.io/biocontainers/bioconductor-ygs98cdf

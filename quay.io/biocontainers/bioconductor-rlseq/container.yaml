@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rlseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rlseq
 latest:
-  1.4.1--r42hdfd78af_0: sha256:6094e6a74ff0ff831b129f44aee665a58310b71d7c1daebe1c798c06a6fb7d6c
+  1.6.0--r43hdfd78af_0: sha256:2e4fbad65108f6940a958ee388a39479c6b146b5d8b6965ff465a1955593fa11
 tags:
   1.0.0--r41hdfd78af_0: sha256:7b21b1cb2af6e13d2f2122bc6c83d5a8105086893e433e613d717f0c36d98df3
   1.4.1--r42hdfd78af_0: sha256:6094e6a74ff0ff831b129f44aee665a58310b71d7c1daebe1c798c06a6fb7d6c
+  1.6.0--r43hdfd78af_0: sha256:2e4fbad65108f6940a958ee388a39479c6b146b5d8b6965ff465a1955593fa11
 docker: quay.io/biocontainers/bioconductor-rlseq

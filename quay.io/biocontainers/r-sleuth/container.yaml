@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-sleuth
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sleuth
 latest:
-  0.30.1--r42hdfd78af_0: sha256:687c3847f46f607bcd1d942ad600006e6efbbcae58d7d513d61225e2196615ac
+  0.30.1--r43hdfd78af_1: sha256:f3b645a5cdcb2c6b113be9c7cb265bf91045d3e2dd8f62975798419fa844e347
 tags:
   0.30.0--r41hdfd78af_5: sha256:6190232787b5fc4080eb23570cbb56edfaa29a8fb011a56659dfe04db96a8fe4
   0.30.1--r42hdfd78af_0: sha256:687c3847f46f607bcd1d942ad600006e6efbbcae58d7d513d61225e2196615ac
+  0.30.1--r43hdfd78af_1: sha256:f3b645a5cdcb2c6b113be9c7cb265bf91045d3e2dd8f62975798419fa844e347
 docker: quay.io/biocontainers/r-sleuth
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

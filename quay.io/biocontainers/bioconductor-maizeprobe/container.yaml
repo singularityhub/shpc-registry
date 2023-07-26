@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-maizeprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-maizeprobe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:8473e46f5dbf2429e2b49ef9ec9d4052bbca0dbe64afad423b3d5c3a3c6a54d8
+  2.18.0--r43hdfd78af_11: sha256:9e2075cd2a14e3148bf8f25f6a9d62e1ece07631c235565619aec8895615eb02
 tags:
   2.18.0--r41hdfd78af_9: sha256:d57678c7a557bedb6540b998f5c4b059f36d98eb24c91cf409114f1c4ad77bd3
   2.18.0--r42hdfd78af_10: sha256:8473e46f5dbf2429e2b49ef9ec9d4052bbca0dbe64afad423b3d5c3a3c6a54d8
+  2.18.0--r43hdfd78af_11: sha256:9e2075cd2a14e3148bf8f25f6a9d62e1ece07631c235565619aec8895615eb02
 docker: quay.io/biocontainers/bioconductor-maizeprobe
