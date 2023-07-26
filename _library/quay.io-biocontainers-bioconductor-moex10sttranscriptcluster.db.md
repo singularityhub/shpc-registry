@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db/container.yaml"
-updated_at: "2023-07-25 03:10:17.238104"
-latest: "8.8.0--r42hdfd78af_2"
+updated_at: "2023-07-26 03:03:38.084163"
+latest: "8.8.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-moex10sttranscriptcluster.db"
 
 versions:
  - "8.8.0--r41hdfd78af_1"
  - "8.8.0--r42hdfd78af_2"
+ - "8.8.0--r43hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-moex10sttranscriptcluster.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moex10sttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moex10sttranscriptcluster.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:8bc44754fea356fd86b4dc04d8426491631c3e84369980ec4a175ebe58dab6b9"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:037699ab46bc11be0190390cf8a8925f3b9f9b6e6e0f618d90ffd10eab60bdca", "8.8.0--r42hdfd78af_2": "sha256:8bc44754fea356fd86b4dc04d8426491631c3e84369980ec4a175ebe58dab6b9"}, "docker": "quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moex10sttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moex10sttranscriptcluster.db", "latest": {"8.8.0--r43hdfd78af_3": "sha256:a2f465f4f865fcc0b13a92b66581f163871d2d07bd8466932c8bc21c19dc3e7c"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:037699ab46bc11be0190390cf8a8925f3b9f9b6e6e0f618d90ffd10eab60bdca", "8.8.0--r42hdfd78af_2": "sha256:8bc44754fea356fd86b4dc04d8426491631c3e84369980ec4a175ebe58dab6b9", "8.8.0--r43hdfd78af_3": "sha256:a2f465f4f865fcc0b13a92b66581f163871d2d07bd8466932c8bc21c19dc3e7c"}, "docker": "quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db:8.8.0--r42hdfd78af_2
+$ shpc install quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db:8.8.0--r43hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db/8.8.0--r42hdfd78af_2
-$ module help quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db/8.8.0--r42hdfd78af_2
+$ module load quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db/8.8.0--r43hdfd78af_3
+$ module help quay.io/biocontainers/bioconductor-moex10sttranscriptcluster.db/8.8.0--r43hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

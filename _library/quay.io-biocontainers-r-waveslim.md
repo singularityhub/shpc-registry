@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-waveslim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-waveslim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-waveslim/container.yaml"
-updated_at: "2023-07-25 03:26:52.312901"
+updated_at: "2023-07-26 03:22:34.310252"
 latest: "1.7.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-waveslim"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spatialheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialheatmap/container.yaml"
-updated_at: "2023-07-25 03:24:15.515642"
-latest: "2.4.0--r42hdfd78af_0"
+updated_at: "2023-07-26 03:19:34.898620"
+latest: "2.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialheatmap"
 aliases:
  - "aomdec"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "2.0.0--r41hdfd78af_0"
  - "2.4.0--r42hdfd78af_0"
+ - "2.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spatialheatmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialheatmap", "latest": {"2.4.0--r42hdfd78af_0": "sha256:5eb263c88136f4815e729fc98697ddded97dc4178bbbac0f0597c3c0fd341fb8"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:e1b25948df4a9b0b4696010f34fc45302a4571a475dfd906ef8d4d141e3c54c6", "2.4.0--r42hdfd78af_0": "sha256:5eb263c88136f4815e729fc98697ddded97dc4178bbbac0f0597c3c0fd341fb8"}, "docker": "quay.io/biocontainers/bioconductor-spatialheatmap", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialheatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialheatmap", "latest": {"2.6.0--r43hdfd78af_0": "sha256:298a8e0806258969b11207836e0261d36af50a8ac1ace8e4887a6fabc34ca940"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:e1b25948df4a9b0b4696010f34fc45302a4571a475dfd906ef8d4d141e3c54c6", "2.4.0--r42hdfd78af_0": "sha256:5eb263c88136f4815e729fc98697ddded97dc4178bbbac0f0597c3c0fd341fb8", "2.6.0--r43hdfd78af_0": "sha256:298a8e0806258969b11207836e0261d36af50a8ac1ace8e4887a6fabc34ca940"}, "docker": "quay.io/biocontainers/bioconductor-spatialheatmap", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spatialheatmap.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spatialheatmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spatialheatmap:2.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spatialheatmap:2.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spatialheatmap/2.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spatialheatmap/2.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spatialheatmap/2.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spatialheatmap/2.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

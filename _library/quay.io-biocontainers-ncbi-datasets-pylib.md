@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-datasets-pylib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-datasets-pylib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-datasets-pylib/container.yaml"
-updated_at: "2023-07-25 03:02:31.307407"
+updated_at: "2023-07-26 02:54:55.295125"
 latest: "14.27.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ncbi-datasets-pylib"
 aliases:

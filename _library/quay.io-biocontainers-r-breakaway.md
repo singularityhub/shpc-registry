@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-breakaway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-breakaway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-breakaway/container.yaml"
-updated_at: "2023-07-25 03:27:56.085008"
-latest: "4.7.9--r42h3121a25_1"
+updated_at: "2023-07-26 03:23:47.660294"
+latest: "4.7.9--r43h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-breakaway"
 aliases:
  - "f2py3.10"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "4.7.9--r41h3121a25_0"
  - "4.7.9--r42h3121a25_1"
+ - "4.7.9--r43h3121a25_2"
 description: "shpc-registry automated BioContainers addition for r-breakaway"
-config: {"url": "https://biocontainers.pro/tools/r-breakaway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-breakaway", "latest": {"4.7.9--r42h3121a25_1": "sha256:16f4a18bf9f677d0fea550117c7266c593b8fc4de4d69902f0d989e597d124d1"}, "tags": {"4.7.9--r41h3121a25_0": "sha256:e09230e9f3cb03fe2dd4f336a962bf3e90419ba779c86d85ae6adaa387130132", "4.7.9--r42h3121a25_1": "sha256:16f4a18bf9f677d0fea550117c7266c593b8fc4de4d69902f0d989e597d124d1"}, "docker": "quay.io/biocontainers/r-breakaway", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-breakaway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-breakaway", "latest": {"4.7.9--r43h3121a25_2": "sha256:039760e60afc42322845270eb5486ca30371c352d1adbbca23210b592fcf3006"}, "tags": {"4.7.9--r41h3121a25_0": "sha256:e09230e9f3cb03fe2dd4f336a962bf3e90419ba779c86d85ae6adaa387130132", "4.7.9--r42h3121a25_1": "sha256:16f4a18bf9f677d0fea550117c7266c593b8fc4de4d69902f0d989e597d124d1", "4.7.9--r43h3121a25_2": "sha256:039760e60afc42322845270eb5486ca30371c352d1adbbca23210b592fcf3006"}, "docker": "quay.io/biocontainers/r-breakaway", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-breakaway.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-breakaway
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-breakaway:4.7.9--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-breakaway:4.7.9--r43h3121a25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-breakaway/4.7.9--r42h3121a25_1
-$ module help quay.io/biocontainers/r-breakaway/4.7.9--r42h3121a25_1
+$ module load quay.io/biocontainers/r-breakaway/4.7.9--r43h3121a25_2
+$ module help quay.io/biocontainers/r-breakaway/4.7.9--r43h3121a25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

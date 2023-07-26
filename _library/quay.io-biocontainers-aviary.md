@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aviary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aviary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aviary/container.yaml"
-updated_at: "2023-07-25 03:11:11.659826"
-latest: "0.5.7--pyhdfd78af_0"
+updated_at: "2023-07-26 03:04:39.142657"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aviary"
 aliases:
  - "Xcalcmem.sh"
@@ -49,8 +49,9 @@ aliases:
  - "comparegff.sh"
 versions:
  - "0.5.7--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for aviary"
-config: {"url": "https://biocontainers.pro/tools/aviary", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aviary", "latest": {"0.5.7--pyhdfd78af_0": "sha256:98adc9adbd0638865a2e771769b114aec9a41712a403c917713f91ac2573e062"}, "tags": {"0.5.7--pyhdfd78af_0": "sha256:98adc9adbd0638865a2e771769b114aec9a41712a403c917713f91ac2573e062"}, "docker": "quay.io/biocontainers/aviary", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "aviary": "/usr/local/bin/aviary", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "plac_runner.py": "/usr/local/bin/plac_runner.py", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "yte": "/usr/local/bin/yte", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh"}}
+config: {"url": "https://biocontainers.pro/tools/aviary", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aviary", "latest": {"0.6.0--pyhdfd78af_0": "sha256:900032138534430f7c29552a10cecfe82ead374efc3bec8e87e450472b4dd21d"}, "tags": {"0.5.7--pyhdfd78af_0": "sha256:98adc9adbd0638865a2e771769b114aec9a41712a403c917713f91ac2573e062", "0.6.0--pyhdfd78af_0": "sha256:900032138534430f7c29552a10cecfe82ead374efc3bec8e87e450472b4dd21d"}, "docker": "quay.io/biocontainers/aviary", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "aviary": "/usr/local/bin/aviary", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "plac_runner.py": "/usr/local/bin/plac_runner.py", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "yte": "/usr/local/bin/yte", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aviary.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/aviary
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aviary:0.5.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/aviary:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aviary/0.5.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/aviary/0.5.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/aviary/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/aviary/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

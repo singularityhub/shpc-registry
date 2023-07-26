@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-phenogeneranker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenogeneranker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenogeneranker/container.yaml"
-updated_at: "2023-07-25 03:37:13.295700"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-26 03:34:29.962603"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenogeneranker"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phenogeneranker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phenogeneranker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenogeneranker", "latest": {"1.6.0--r42hdfd78af_0": "sha256:f51f415590cbe67fff177ce01519c7b3a354ff0aff61f131a5ee8f9c5a2cd6ff"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a468b8970a17f2d0415a6ff0e959911ee1453f4e571d463d7b4b4226477dc59e", "1.6.0--r42hdfd78af_0": "sha256:f51f415590cbe67fff177ce01519c7b3a354ff0aff61f131a5ee8f9c5a2cd6ff"}, "docker": "quay.io/biocontainers/bioconductor-phenogeneranker"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phenogeneranker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenogeneranker", "latest": {"1.8.0--r43hdfd78af_0": "sha256:b06c5d1b6468c3808c7fb9bdbdd6b2a194cec1562790f505b074fa8d8d6f9279"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a468b8970a17f2d0415a6ff0e959911ee1453f4e571d463d7b4b4226477dc59e", "1.6.0--r42hdfd78af_0": "sha256:f51f415590cbe67fff177ce01519c7b3a354ff0aff61f131a5ee8f9c5a2cd6ff", "1.8.0--r43hdfd78af_0": "sha256:b06c5d1b6468c3808c7fb9bdbdd6b2a194cec1562790f505b074fa8d8d6f9279"}, "docker": "quay.io/biocontainers/bioconductor-phenogeneranker"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phenogeneranker.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phenogeneranker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phenogeneranker:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-phenogeneranker:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phenogeneranker/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-phenogeneranker/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-phenogeneranker/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phenogeneranker/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

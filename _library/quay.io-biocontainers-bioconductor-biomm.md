@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biomm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biomm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biomm/container.yaml"
-updated_at: "2023-07-25 03:33:07.376214"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-07-26 03:29:41.793135"
+latest: "1.15.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biomm"
 aliases:
  - "jfr"
@@ -22,8 +22,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.15.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biomm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biomm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biomm", "latest": {"1.14.0--r42hdfd78af_0": "sha256:5f3a6eafc91cbcdec58069b32bc727e454e331e1b89f76c6d1a7cce305d147bd"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:44de6689b5239c3c4102978033a1525401a8681d98cd50ae655726e72497c820", "1.14.0--r42hdfd78af_0": "sha256:5f3a6eafc91cbcdec58069b32bc727e454e331e1b89f76c6d1a7cce305d147bd", "1.10.0--r41hdfd78af_0": "sha256:44969fe04e606be9beb454ab14999c05eb0253d89d5644f35fd64cbe17a31588"}, "docker": "quay.io/biocontainers/bioconductor-biomm", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biomm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biomm", "latest": {"1.15.0--r43hdfd78af_0": "sha256:bfd1294bff4434598ee6bd81ad5e2e1e388b678c90db38d2775464c9449394c5"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:44de6689b5239c3c4102978033a1525401a8681d98cd50ae655726e72497c820", "1.14.0--r42hdfd78af_0": "sha256:5f3a6eafc91cbcdec58069b32bc727e454e331e1b89f76c6d1a7cce305d147bd", "1.10.0--r41hdfd78af_0": "sha256:44969fe04e606be9beb454ab14999c05eb0253d89d5644f35fd64cbe17a31588", "1.15.0--r43hdfd78af_0": "sha256:bfd1294bff4434598ee6bd81ad5e2e1e388b678c90db38d2775464c9449394c5"}, "docker": "quay.io/biocontainers/bioconductor-biomm", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biomm.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biomm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biomm:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biomm:1.15.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biomm/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biomm/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biomm/1.15.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biomm/1.15.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

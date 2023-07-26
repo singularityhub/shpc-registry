@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-aspli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aspli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aspli/container.yaml"
-updated_at: "2023-07-25 02:57:25.330402"
-latest: "2.8.0--r42hdfd78af_0"
+updated_at: "2023-07-26 02:49:06.103931"
+latest: "2.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aspli"
 aliases:
  - "pandoc"
 versions:
  - "2.4.0--r41hdfd78af_0"
  - "2.8.0--r42hdfd78af_0"
+ - "2.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-aspli"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-aspli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aspli", "latest": {"2.8.0--r42hdfd78af_0": "sha256:04a10e2b2fcb1fe4b0620a339554da31806dea6881dbba8aeab6ba6de00d4f46"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:8e4da938a3bb5be5365fdacbcc1ca101c30d45ec0d81992e3ac0de1097f76f08", "2.8.0--r42hdfd78af_0": "sha256:04a10e2b2fcb1fe4b0620a339554da31806dea6881dbba8aeab6ba6de00d4f46"}, "docker": "quay.io/biocontainers/bioconductor-aspli", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-aspli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aspli", "latest": {"2.10.0--r43hdfd78af_0": "sha256:754f15f53a26d8987a02837793bdc9b9ecce3f3278b51ddb91b046a1f27a8b3f"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:8e4da938a3bb5be5365fdacbcc1ca101c30d45ec0d81992e3ac0de1097f76f08", "2.8.0--r42hdfd78af_0": "sha256:04a10e2b2fcb1fe4b0620a339554da31806dea6881dbba8aeab6ba6de00d4f46", "2.10.0--r43hdfd78af_0": "sha256:754f15f53a26d8987a02837793bdc9b9ecce3f3278b51ddb91b046a1f27a8b3f"}, "docker": "quay.io/biocontainers/bioconductor-aspli", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-aspli.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-aspli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-aspli:2.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-aspli:2.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-aspli/2.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-aspli/2.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-aspli/2.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-aspli/2.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

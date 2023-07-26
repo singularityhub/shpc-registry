@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/seqkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqkit/container.yaml"
-updated_at: "2023-07-25 03:13:24.028637"
-latest: "2.4.0--h9ee0642_0"
+updated_at: "2023-07-26 03:07:08.193105"
+latest: "2.5.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/seqkit"
 aliases:
  - "seqkit"
 versions:
  - "2.3.1--h9ee0642_0"
  - "2.4.0--h9ee0642_0"
+ - "2.5.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for seqkit"
-config: {"url": "https://biocontainers.pro/tools/seqkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqkit", "latest": {"2.4.0--h9ee0642_0": "sha256:515f803edad2f7fafd94daa78251218d094a03f1eb55ebac483c3e040e032f36"}, "tags": {"2.3.1--h9ee0642_0": "sha256:2f3cb2be9909165a153e9b9bef2956d1d7ef7ee4c6f08984ff07f7562c3d7327", "2.4.0--h9ee0642_0": "sha256:515f803edad2f7fafd94daa78251218d094a03f1eb55ebac483c3e040e032f36"}, "docker": "quay.io/biocontainers/seqkit", "aliases": {"seqkit": "/usr/local/bin/seqkit"}}
+config: {"url": "https://biocontainers.pro/tools/seqkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqkit", "latest": {"2.5.0--h9ee0642_0": "sha256:0e2d27de945005e56ab9962c4ac03a2de362708efd88fce12284652896193823"}, "tags": {"2.3.1--h9ee0642_0": "sha256:2f3cb2be9909165a153e9b9bef2956d1d7ef7ee4c6f08984ff07f7562c3d7327", "2.4.0--h9ee0642_0": "sha256:515f803edad2f7fafd94daa78251218d094a03f1eb55ebac483c3e040e032f36", "2.5.0--h9ee0642_0": "sha256:0e2d27de945005e56ab9962c4ac03a2de362708efd88fce12284652896193823"}, "docker": "quay.io/biocontainers/seqkit", "aliases": {"seqkit": "/usr/local/bin/seqkit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqkit.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/seqkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqkit:2.4.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/seqkit:2.5.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqkit/2.4.0--h9ee0642_0
-$ module help quay.io/biocontainers/seqkit/2.4.0--h9ee0642_0
+$ module load quay.io/biocontainers/seqkit/2.5.0--h9ee0642_0
+$ module help quay.io/biocontainers/seqkit/2.5.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

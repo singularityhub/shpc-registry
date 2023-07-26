@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-qvalue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qvalue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qvalue/container.yaml"
-updated_at: "2023-07-25 02:53:33.620141"
-latest: "2.30.0--r42hdfd78af_0"
+updated_at: "2023-07-26 02:44:38.699330"
+latest: "2.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qvalue"
 aliases:
  - "tclsh8.5"
@@ -19,8 +19,9 @@ versions:
  - "2.24.0--r41hdfd78af_0"
  - "2.22.0--r40hdfd78af_1"
  - "2.20.0--r40_0"
+ - "2.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-qvalue"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qvalue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qvalue", "latest": {"2.30.0--r42hdfd78af_0": "sha256:95383d3b0f3ef3c4034adfb9d6caecf6d3aec328aa25bf7466ba8cb90a625e30"}, "tags": {"2.8.0--r3.4.1_0": "sha256:c8c30b6041ad9035bcdd9685ad6b35ec40afc6c617cdccb9f0d1299af2336703", "2.30.0--r42hdfd78af_0": "sha256:95383d3b0f3ef3c4034adfb9d6caecf6d3aec328aa25bf7466ba8cb90a625e30", "2.26.0--r41hdfd78af_0": "sha256:1a139231997e17fc976c5dafdefbf9416a64528aec86addbd15a2433a09176b1", "2.24.0--r41hdfd78af_0": "sha256:de2a74af76343fe7a5d0f1ca1ad5014438a713308fb44b89607135de29330832", "2.22.0--r40hdfd78af_1": "sha256:2cceccfa74a6ba76d5705eb57835cc06fb2b466bba1f74fd8f9c8d9655658cc2", "2.20.0--r40_0": "sha256:c5be808ae5a803d49e7538a753cf28fd22ddc1c747296bc1949583a336633289"}, "docker": "quay.io/biocontainers/bioconductor-qvalue", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qvalue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qvalue", "latest": {"2.32.0--r43hdfd78af_0": "sha256:74aba1886906f7ea0ca615f89f18d8b1fa9fe0b632b894a619d0281f626a3023"}, "tags": {"2.8.0--r3.4.1_0": "sha256:c8c30b6041ad9035bcdd9685ad6b35ec40afc6c617cdccb9f0d1299af2336703", "2.30.0--r42hdfd78af_0": "sha256:95383d3b0f3ef3c4034adfb9d6caecf6d3aec328aa25bf7466ba8cb90a625e30", "2.26.0--r41hdfd78af_0": "sha256:1a139231997e17fc976c5dafdefbf9416a64528aec86addbd15a2433a09176b1", "2.24.0--r41hdfd78af_0": "sha256:de2a74af76343fe7a5d0f1ca1ad5014438a713308fb44b89607135de29330832", "2.22.0--r40hdfd78af_1": "sha256:2cceccfa74a6ba76d5705eb57835cc06fb2b466bba1f74fd8f9c8d9655658cc2", "2.20.0--r40_0": "sha256:c5be808ae5a803d49e7538a753cf28fd22ddc1c747296bc1949583a336633289", "2.32.0--r43hdfd78af_0": "sha256:74aba1886906f7ea0ca615f89f18d8b1fa9fe0b632b894a619d0281f626a3023"}, "docker": "quay.io/biocontainers/bioconductor-qvalue", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qvalue.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qvalue
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qvalue:2.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-qvalue:2.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qvalue/2.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-qvalue/2.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-qvalue/2.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-qvalue/2.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-tronco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tronco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tronco/container.yaml"
-updated_at: "2023-07-25 03:34:17.115171"
-latest: "2.30.0--r42hdfd78af_0"
+updated_at: "2023-07-26 03:31:02.175420"
+latest: "2.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tronco"
 
 versions:
  - "2.26.0--r41hdfd78af_0"
  - "2.30.0--r42hdfd78af_0"
+ - "2.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tronco"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tronco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tronco", "latest": {"2.30.0--r42hdfd78af_0": "sha256:5eef2ac53bef5d74edf6be39d6fbbed8f6615309f26c7bf4248bea657e5b988b"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:66b2cad56fb0163745fa2224d682100d6c3722d48f4e5056bdffaeb29e471f2e", "2.30.0--r42hdfd78af_0": "sha256:5eef2ac53bef5d74edf6be39d6fbbed8f6615309f26c7bf4248bea657e5b988b"}, "docker": "quay.io/biocontainers/bioconductor-tronco"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tronco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tronco", "latest": {"2.32.0--r43hdfd78af_0": "sha256:3effecd27e6252d356e79aef2c70afb63354df1cdace3809a7bb12ce91914a0c"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:66b2cad56fb0163745fa2224d682100d6c3722d48f4e5056bdffaeb29e471f2e", "2.30.0--r42hdfd78af_0": "sha256:5eef2ac53bef5d74edf6be39d6fbbed8f6615309f26c7bf4248bea657e5b988b", "2.32.0--r43hdfd78af_0": "sha256:3effecd27e6252d356e79aef2c70afb63354df1cdace3809a7bb12ce91914a0c"}, "docker": "quay.io/biocontainers/bioconductor-tronco"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tronco.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tronco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tronco:2.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tronco:2.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tronco/2.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tronco/2.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tronco/2.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tronco/2.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

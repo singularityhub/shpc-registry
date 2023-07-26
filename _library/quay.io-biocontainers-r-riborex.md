@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-riborex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-riborex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-riborex/container.yaml"
-updated_at: "2023-07-25 02:50:20.690690"
-latest: "2.4.0--r42hdfd78af_5"
+updated_at: "2023-07-26 02:40:56.577704"
+latest: "2.4.0--r43hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-riborex"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.4.0--r41hdfd78af_4"
  - "2.4.0--r42hdfd78af_5"
+ - "2.4.0--r43hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-riborex"
-config: {"url": "https://biocontainers.pro/tools/r-riborex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-riborex", "latest": {"2.4.0--r42hdfd78af_5": "sha256:fb9ee3cadec743b2e647abcfb8cc6b7d1fea168090c14c3e599adc34cf18bc4b"}, "tags": {"2.4.0--r41hdfd78af_4": "sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf", "2.4.0--r42hdfd78af_5": "sha256:fb9ee3cadec743b2e647abcfb8cc6b7d1fea168090c14c3e599adc34cf18bc4b"}, "docker": "quay.io/biocontainers/r-riborex", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-riborex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-riborex", "latest": {"2.4.0--r43hdfd78af_6": "sha256:3bc330538d52456f8a31a570d406498bf645f04f76801dd59d6272d2bb0ffb81"}, "tags": {"2.4.0--r41hdfd78af_4": "sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf", "2.4.0--r42hdfd78af_5": "sha256:fb9ee3cadec743b2e647abcfb8cc6b7d1fea168090c14c3e599adc34cf18bc4b", "2.4.0--r43hdfd78af_6": "sha256:3bc330538d52456f8a31a570d406498bf645f04f76801dd59d6272d2bb0ffb81"}, "docker": "quay.io/biocontainers/r-riborex", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-riborex.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-riborex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-riborex:2.4.0--r42hdfd78af_5
+$ shpc install quay.io/biocontainers/r-riborex:2.4.0--r43hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-riborex/2.4.0--r42hdfd78af_5
-$ module help quay.io/biocontainers/r-riborex/2.4.0--r42hdfd78af_5
+$ module load quay.io/biocontainers/r-riborex/2.4.0--r43hdfd78af_6
+$ module help quay.io/biocontainers/r-riborex/2.4.0--r43hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

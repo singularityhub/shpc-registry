@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/boutroslabplottinggeneral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boutroslabplottinggeneral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boutroslabplottinggeneral/container.yaml"
-updated_at: "2023-07-25 03:07:26.978812"
-latest: "5.3.4--r40_2"
+updated_at: "2023-07-26 03:00:27.158128"
+latest: "5.3.4--r43h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/boutroslabplottinggeneral"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,9 @@ aliases:
  - "c99"
 versions:
  - "5.3.4--r40_2"
+ - "5.3.4--r43h9ee0642_5"
 description: "shpc-registry automated BioContainers addition for boutroslabplottinggeneral"
-config: {"url": "https://biocontainers.pro/tools/boutroslabplottinggeneral", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for boutroslabplottinggeneral", "latest": {"5.3.4--r40_2": "sha256:4deca0c85213c8960788c67711723947ff39888a8827f9866ea81d27f4ebb72b"}, "tags": {"5.3.4--r40_2": "sha256:4deca0c85213c8960788c67711723947ff39888a8827f9866ea81d27f4ebb72b"}, "docker": "quay.io/biocontainers/boutroslabplottinggeneral", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/boutroslabplottinggeneral", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for boutroslabplottinggeneral", "latest": {"5.3.4--r43h9ee0642_5": "sha256:8024e5ce3ea8b49359ce30b0369ce00456186025361d7b84230a2c5860a7ce70"}, "tags": {"5.3.4--r40_2": "sha256:4deca0c85213c8960788c67711723947ff39888a8827f9866ea81d27f4ebb72b", "5.3.4--r43h9ee0642_5": "sha256:8024e5ce3ea8b49359ce30b0369ce00456186025361d7b84230a2c5860a7ce70"}, "docker": "quay.io/biocontainers/boutroslabplottinggeneral", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/boutroslabplottinggeneral.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/boutroslabplottinggeneral
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/boutroslabplottinggeneral:5.3.4--r40_2
+$ shpc install quay.io/biocontainers/boutroslabplottinggeneral:5.3.4--r43h9ee0642_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/boutroslabplottinggeneral/5.3.4--r40_2
-$ module help quay.io/biocontainers/boutroslabplottinggeneral/5.3.4--r40_2
+$ module load quay.io/biocontainers/boutroslabplottinggeneral/5.3.4--r43h9ee0642_5
+$ module help quay.io/biocontainers/boutroslabplottinggeneral/5.3.4--r43h9ee0642_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

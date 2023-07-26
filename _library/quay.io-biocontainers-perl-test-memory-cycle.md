@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-memory-cycle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-memory-cycle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-memory-cycle/container.yaml"
-updated_at: "2023-07-25 03:21:23.605514"
+updated_at: "2023-07-26 03:16:18.151933"
 latest: "1.06--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-test-memory-cycle"
 aliases:

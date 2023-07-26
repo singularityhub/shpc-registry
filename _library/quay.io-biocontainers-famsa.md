@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/famsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/famsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/famsa/container.yaml"
-updated_at: "2023-07-25 03:01:29.841040"
+updated_at: "2023-07-26 02:53:46.905821"
 latest: "2.2.2--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/famsa"
 aliases:

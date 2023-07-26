@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-scan.upc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scan.upc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scan.upc/container.yaml"
-updated_at: "2023-07-25 03:42:10.518993"
-latest: "2.40.0--r42hdfd78af_0"
+updated_at: "2023-07-26 03:40:07.645730"
+latest: "2.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scan.upc"
 
 versions:
  - "2.36.0--r41hdfd78af_0"
  - "2.40.0--r42hdfd78af_0"
+ - "2.42.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scan.upc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scan.upc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scan.upc", "latest": {"2.40.0--r42hdfd78af_0": "sha256:37b87841cd6e5c243a23cd473e1b19e66cab962622afde23fbb208e72d9fc403"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:8a08a64b9a385d2d67c6fb4a14244605331b03c31c4a438378ef2ecc677470af", "2.40.0--r42hdfd78af_0": "sha256:37b87841cd6e5c243a23cd473e1b19e66cab962622afde23fbb208e72d9fc403"}, "docker": "quay.io/biocontainers/bioconductor-scan.upc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scan.upc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scan.upc", "latest": {"2.42.0--r43hdfd78af_0": "sha256:7716b51dbe4103e78c9735412ec91ce404b8546fdc47db66508119d2c21dea10"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:8a08a64b9a385d2d67c6fb4a14244605331b03c31c4a438378ef2ecc677470af", "2.40.0--r42hdfd78af_0": "sha256:37b87841cd6e5c243a23cd473e1b19e66cab962622afde23fbb208e72d9fc403", "2.42.0--r43hdfd78af_0": "sha256:7716b51dbe4103e78c9735412ec91ce404b8546fdc47db66508119d2c21dea10"}, "docker": "quay.io/biocontainers/bioconductor-scan.upc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scan.upc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scan.upc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scan.upc:2.40.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scan.upc:2.42.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scan.upc/2.40.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scan.upc/2.40.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scan.upc/2.42.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scan.upc/2.42.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
