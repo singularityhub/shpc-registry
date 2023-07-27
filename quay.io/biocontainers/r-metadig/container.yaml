@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/r-metadig
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-metadig
+latest:
+  0.2.1--r43h9ee0642_0: sha256:599bd06aed06a807b8278d57953e77d575e868ca1a55372e2f2cc446ef06568f
+tags:
+  0.2.1--r43h9ee0642_0: sha256:599bd06aed06a807b8278d57953e77d575e868ca1a55372e2f2cc446ef06568f
+docker: quay.io/biocontainers/r-metadig
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
