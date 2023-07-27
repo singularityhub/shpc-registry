@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-lymphclon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lymphclon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lymphclon/container.yaml"
-updated_at: "2023-07-26 03:01:58.923960"
-latest: "1.3.0--r42h3121a25_2"
+updated_at: "2023-07-27 02:45:51.661537"
+latest: "1.3.0--r43h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-lymphclon"
 
 versions:
  - "1.3.0--r42h3121a25_2"
+ - "1.3.0--r43h3121a25_3"
 description: "singularity registry hpc automated addition for r-lymphclon"
-config: {"url": "https://biocontainers.pro/tools/r-lymphclon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-lymphclon", "latest": {"1.3.0--r42h3121a25_2": "sha256:6b34135ab92378c84b52da8b655e52801941650c21b8cd4b451ca6d83950b76c"}, "tags": {"1.3.0--r42h3121a25_2": "sha256:6b34135ab92378c84b52da8b655e52801941650c21b8cd4b451ca6d83950b76c"}, "docker": "quay.io/biocontainers/r-lymphclon"}
+config: {"url": "https://biocontainers.pro/tools/r-lymphclon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-lymphclon", "latest": {"1.3.0--r43h3121a25_3": "sha256:f7801680148ffcd6419ec7b3b96c7ac508f561770fccc462bdca06adfd2277f5"}, "tags": {"1.3.0--r42h3121a25_2": "sha256:6b34135ab92378c84b52da8b655e52801941650c21b8cd4b451ca6d83950b76c", "1.3.0--r43h3121a25_3": "sha256:f7801680148ffcd6419ec7b3b96c7ac508f561770fccc462bdca06adfd2277f5"}, "docker": "quay.io/biocontainers/r-lymphclon"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lymphclon.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-lymphclon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-lymphclon:1.3.0--r42h3121a25_2
+$ shpc install quay.io/biocontainers/r-lymphclon:1.3.0--r43h3121a25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-lymphclon/1.3.0--r42h3121a25_2
-$ module help quay.io/biocontainers/r-lymphclon/1.3.0--r42h3121a25_2
+$ module load quay.io/biocontainers/r-lymphclon/1.3.0--r43h3121a25_3
+$ module help quay.io/biocontainers/r-lymphclon/1.3.0--r43h3121a25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

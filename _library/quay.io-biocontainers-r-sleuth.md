@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-sleuth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sleuth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sleuth/container.yaml"
-updated_at: "2023-07-26 03:32:06.033814"
-latest: "0.30.1--r42hdfd78af_0"
+updated_at: "2023-07-27 03:08:58.972957"
+latest: "0.30.1--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-sleuth"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.30.0--r41hdfd78af_5"
  - "0.30.1--r42hdfd78af_0"
+ - "0.30.1--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-sleuth"
-config: {"url": "https://biocontainers.pro/tools/r-sleuth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sleuth", "latest": {"0.30.1--r42hdfd78af_0": "sha256:687c3847f46f607bcd1d942ad600006e6efbbcae58d7d513d61225e2196615ac"}, "tags": {"0.30.0--r41hdfd78af_5": "sha256:6190232787b5fc4080eb23570cbb56edfaa29a8fb011a56659dfe04db96a8fe4", "0.30.1--r42hdfd78af_0": "sha256:687c3847f46f607bcd1d942ad600006e6efbbcae58d7d513d61225e2196615ac"}, "docker": "quay.io/biocontainers/r-sleuth", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-sleuth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sleuth", "latest": {"0.30.1--r43hdfd78af_1": "sha256:f3b645a5cdcb2c6b113be9c7cb265bf91045d3e2dd8f62975798419fa844e347"}, "tags": {"0.30.0--r41hdfd78af_5": "sha256:6190232787b5fc4080eb23570cbb56edfaa29a8fb011a56659dfe04db96a8fe4", "0.30.1--r42hdfd78af_0": "sha256:687c3847f46f607bcd1d942ad600006e6efbbcae58d7d513d61225e2196615ac", "0.30.1--r43hdfd78af_1": "sha256:f3b645a5cdcb2c6b113be9c7cb265bf91045d3e2dd8f62975798419fa844e347"}, "docker": "quay.io/biocontainers/r-sleuth", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sleuth.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-sleuth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sleuth:0.30.1--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-sleuth:0.30.1--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sleuth/0.30.1--r42hdfd78af_0
-$ module help quay.io/biocontainers/r-sleuth/0.30.1--r42hdfd78af_0
+$ module load quay.io/biocontainers/r-sleuth/0.30.1--r43hdfd78af_1
+$ module help quay.io/biocontainers/r-sleuth/0.30.1--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

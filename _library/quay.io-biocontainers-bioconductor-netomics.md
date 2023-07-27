@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netomics/container.yaml"
-updated_at: "2023-07-26 03:29:11.845812"
+updated_at: "2023-07-27 03:06:47.121217"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netomics"
 

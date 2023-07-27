@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-scpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scpred/container.yaml"
-updated_at: "2023-07-26 03:41:39.791218"
-latest: "1.9.2--hdfd78af_1"
+updated_at: "2023-07-27 03:16:17.258386"
+latest: "1.9.2--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-scpred"
 aliases:
  - "pandoc"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "v1.9.0--hdfd78af_2"
  - "1.9.2--hdfd78af_1"
+ - "1.9.2--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-scpred"
-config: {"url": "https://biocontainers.pro/tools/r-scpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scpred", "latest": {"1.9.2--hdfd78af_1": "sha256:47906eb781f9de9f5bffdef30f9c6743b34804ebe58c4dd4be289041ff635339"}, "tags": {"v1.9.0--hdfd78af_2": "sha256:27e1fdcc4442241e7814e2257b03c41c09b7463938a8a056f2558d5a46e60afa", "1.9.2--hdfd78af_1": "sha256:47906eb781f9de9f5bffdef30f9c6743b34804ebe58c4dd4be289041ff635339"}, "docker": "quay.io/biocontainers/r-scpred", "aliases": {"pandoc": "/usr/local/bin/pandoc", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-scpred", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scpred", "latest": {"1.9.2--hdfd78af_2": "sha256:d79ea9aced308db07b3a01fe966829c1782116a6fffd229f399f68fe7da7e5fa"}, "tags": {"v1.9.0--hdfd78af_2": "sha256:27e1fdcc4442241e7814e2257b03c41c09b7463938a8a056f2558d5a46e60afa", "1.9.2--hdfd78af_1": "sha256:47906eb781f9de9f5bffdef30f9c6743b34804ebe58c4dd4be289041ff635339", "1.9.2--hdfd78af_2": "sha256:d79ea9aced308db07b3a01fe966829c1782116a6fffd229f399f68fe7da7e5fa"}, "docker": "quay.io/biocontainers/r-scpred", "aliases": {"pandoc": "/usr/local/bin/pandoc", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scpred.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/r-scpred
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-scpred:1.9.2--hdfd78af_1
+$ shpc install quay.io/biocontainers/r-scpred:1.9.2--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-scpred/1.9.2--hdfd78af_1
-$ module help quay.io/biocontainers/r-scpred/1.9.2--hdfd78af_1
+$ module load quay.io/biocontainers/r-scpred/1.9.2--hdfd78af_2
+$ module help quay.io/biocontainers/r-scpred/1.9.2--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

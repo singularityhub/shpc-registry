@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-multisight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multisight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multisight/container.yaml"
-updated_at: "2023-07-26 03:35:09.562441"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-07-27 03:11:16.597256"
+latest: "1.7.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multisight"
 aliases:
  - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.7.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-multisight"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-multisight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multisight", "latest": {"1.6.0--r42hdfd78af_0": "sha256:3ef7ac5f3a10bb7fb40b5c1fd2c90b5a1bc364ce7cc1a3c7abe900b626a97e66"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:02ce72f1a3a1fee4a5e9791c813cb83d1754492ec35cdb90537308b65f24dd6c", "1.6.0--r42hdfd78af_0": "sha256:3ef7ac5f3a10bb7fb40b5c1fd2c90b5a1bc364ce7cc1a3c7abe900b626a97e66"}, "docker": "quay.io/biocontainers/bioconductor-multisight", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-multisight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multisight", "latest": {"1.7.0--r43hdfd78af_0": "sha256:722d512b15908a31e7e2196ab2d3c69da8ba9c10c011778c938c0e352a8734b6"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:02ce72f1a3a1fee4a5e9791c813cb83d1754492ec35cdb90537308b65f24dd6c", "1.6.0--r42hdfd78af_0": "sha256:3ef7ac5f3a10bb7fb40b5c1fd2c90b5a1bc364ce7cc1a3c7abe900b626a97e66", "1.7.0--r43hdfd78af_0": "sha256:722d512b15908a31e7e2196ab2d3c69da8ba9c10c011778c938c0e352a8734b6"}, "docker": "quay.io/biocontainers/bioconductor-multisight", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-multisight.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-multisight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-multisight:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-multisight:1.7.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-multisight/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-multisight/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-multisight/1.7.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-multisight/1.7.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

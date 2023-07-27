@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dialignr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dialignr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dialignr/container.yaml"
-updated_at: "2023-07-26 02:40:49.376738"
-latest: "2.6.0--r42hf17093f_1"
+updated_at: "2023-07-27 02:29:34.725703"
+latest: "2.8.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dialignr"
 aliases:
  - "zipcmp"
@@ -22,8 +22,9 @@ versions:
  - "2.2.0--r41hc247a5b_2"
  - "2.6.0--r42hc247a5b_0"
  - "2.6.0--r42hf17093f_1"
+ - "2.8.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dialignr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dialignr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dialignr", "latest": {"2.6.0--r42hf17093f_1": "sha256:54cfe46bfd3215de4c1070551991749b203c4d0a1c5222ed300379814a14b2dc"}, "tags": {"2.2.0--r41hc247a5b_2": "sha256:5f19f2cf1f68175db7d5d1451df164f6f2e778d28c0239672cd5065e13f80e8d", "2.6.0--r42hc247a5b_0": "sha256:50e5bf70ad7dbfd894fc2e70b6eaefd0fb41ad8e03595fcfd93847e8d3cae573", "2.6.0--r42hf17093f_1": "sha256:54cfe46bfd3215de4c1070551991749b203c4d0a1c5222ed300379814a14b2dc"}, "docker": "quay.io/biocontainers/bioconductor-dialignr", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dialignr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dialignr", "latest": {"2.8.0--r43hf17093f_0": "sha256:064fa269888df5e92c8389116b7da282e724d8382a7c00029a67efadd1f1e4e9"}, "tags": {"2.2.0--r41hc247a5b_2": "sha256:5f19f2cf1f68175db7d5d1451df164f6f2e778d28c0239672cd5065e13f80e8d", "2.6.0--r42hc247a5b_0": "sha256:50e5bf70ad7dbfd894fc2e70b6eaefd0fb41ad8e03595fcfd93847e8d3cae573", "2.6.0--r42hf17093f_1": "sha256:54cfe46bfd3215de4c1070551991749b203c4d0a1c5222ed300379814a14b2dc", "2.8.0--r43hf17093f_0": "sha256:064fa269888df5e92c8389116b7da282e724d8382a7c00029a67efadd1f1e4e9"}, "docker": "quay.io/biocontainers/bioconductor-dialignr", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dialignr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dialignr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dialignr:2.6.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-dialignr:2.8.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dialignr/2.6.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-dialignr/2.6.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-dialignr/2.8.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-dialignr/2.8.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

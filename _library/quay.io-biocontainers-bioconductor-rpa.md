@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rpa/container.yaml"
-updated_at: "2023-07-26 03:20:08.916640"
-latest: "1.54.0--r42hdfd78af_0"
+updated_at: "2023-07-27 02:59:49.109742"
+latest: "1.56.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rpa"
 aliases:
  - "pandoc"
 versions:
  - "1.50.0--r41hdfd78af_0"
  - "1.54.0--r42hdfd78af_0"
+ - "1.56.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rpa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rpa", "latest": {"1.54.0--r42hdfd78af_0": "sha256:47418d0eb1af22c852551e71af7b13d7df46ddd1baaf5eac8e2a3baa7ad32d0f"}, "tags": {"1.50.0--r41hdfd78af_0": "sha256:974284081b51d3875966e3790be07c892e29c5913a00f6bab5a9b1015f6e41a2", "1.54.0--r42hdfd78af_0": "sha256:47418d0eb1af22c852551e71af7b13d7df46ddd1baaf5eac8e2a3baa7ad32d0f"}, "docker": "quay.io/biocontainers/bioconductor-rpa", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rpa", "latest": {"1.56.0--r43hdfd78af_0": "sha256:4570842074b0b13170656913e24833c19fe10ced124e032c6ca6c6a22f649f61"}, "tags": {"1.50.0--r41hdfd78af_0": "sha256:974284081b51d3875966e3790be07c892e29c5913a00f6bab5a9b1015f6e41a2", "1.54.0--r42hdfd78af_0": "sha256:47418d0eb1af22c852551e71af7b13d7df46ddd1baaf5eac8e2a3baa7ad32d0f", "1.56.0--r43hdfd78af_0": "sha256:4570842074b0b13170656913e24833c19fe10ced124e032c6ca6c6a22f649f61"}, "docker": "quay.io/biocontainers/bioconductor-rpa", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rpa.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rpa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rpa:1.54.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rpa:1.56.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rpa/1.54.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rpa/1.54.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rpa/1.56.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rpa/1.56.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

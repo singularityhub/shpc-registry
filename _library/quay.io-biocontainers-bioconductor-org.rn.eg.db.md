@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-org.rn.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.rn.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.rn.eg.db/container.yaml"
-updated_at: "2023-07-26 03:19:01.841808"
-latest: "3.16.0--r42hdfd78af_0"
+updated_at: "2023-07-27 02:58:57.466742"
+latest: "3.17.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.rn.eg.db"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "3.13.0--r41hdfd78af_0"
  - "3.12.0--r40hdfd78af_1"
  - "3.11.1--r40_0"
+ - "3.17.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.rn.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.rn.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.rn.eg.db", "latest": {"3.16.0--r42hdfd78af_0": "sha256:2c4f10b41265fbbec870798fb0748cae06b37e840f89958810ca0282925fb9bb"}, "tags": {"3.8.2--r36_1": "sha256:c0df9c788b54a4434fc6b92d0287189aa36efaf3e0e3dd8e06be70b55c73a5e9", "3.16.0--r42hdfd78af_0": "sha256:2c4f10b41265fbbec870798fb0748cae06b37e840f89958810ca0282925fb9bb", "3.14.0--r41hdfd78af_1": "sha256:20e1fda5bd7c3565e2d9a1a1cad08a3df5eece8fa375274d96bb36fa178a6eaf", "3.13.0--r41hdfd78af_0": "sha256:b61f570a25386a92cd38c8ea83aaad5eaea8d771e3dbbee259930b6bcc76712d", "3.12.0--r40hdfd78af_1": "sha256:599df2d97ff6b178349dc93832cf09a9e51c3aef99959af7d5c1962fe97de2bc", "3.11.1--r40_0": "sha256:b2e3f5e5d0ae9fcfbf86254814564aee732986387853b1ca4fda9b7c137c37bc"}, "docker": "quay.io/biocontainers/bioconductor-org.rn.eg.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.rn.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.rn.eg.db", "latest": {"3.17.0--r43hdfd78af_0": "sha256:23f6cc564e76b2c2cb8ab0782c8375dbd16a9ba17388fec589c8418b945f64a2"}, "tags": {"3.8.2--r36_1": "sha256:c0df9c788b54a4434fc6b92d0287189aa36efaf3e0e3dd8e06be70b55c73a5e9", "3.16.0--r42hdfd78af_0": "sha256:2c4f10b41265fbbec870798fb0748cae06b37e840f89958810ca0282925fb9bb", "3.14.0--r41hdfd78af_1": "sha256:20e1fda5bd7c3565e2d9a1a1cad08a3df5eece8fa375274d96bb36fa178a6eaf", "3.13.0--r41hdfd78af_0": "sha256:b61f570a25386a92cd38c8ea83aaad5eaea8d771e3dbbee259930b6bcc76712d", "3.12.0--r40hdfd78af_1": "sha256:599df2d97ff6b178349dc93832cf09a9e51c3aef99959af7d5c1962fe97de2bc", "3.11.1--r40_0": "sha256:b2e3f5e5d0ae9fcfbf86254814564aee732986387853b1ca4fda9b7c137c37bc", "3.17.0--r43hdfd78af_0": "sha256:23f6cc564e76b2c2cb8ab0782c8375dbd16a9ba17388fec589c8418b945f64a2"}, "docker": "quay.io/biocontainers/bioconductor-org.rn.eg.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.rn.eg.db.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-org.rn.eg.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-org.rn.eg.db:3.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-org.rn.eg.db:3.17.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-org.rn.eg.db/3.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-org.rn.eg.db/3.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-org.rn.eg.db/3.17.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-org.rn.eg.db/3.17.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

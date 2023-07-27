@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-conos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-conos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-conos/container.yaml"
-updated_at: "2023-07-26 03:17:15.810207"
-latest: "1.5.0--r42h21a89ab_2"
+updated_at: "2023-07-27 02:57:35.875742"
+latest: "1.5.0--r43h21a89ab_3"
 container_url: "https://biocontainers.pro/tools/r-conos"
 aliases:
  - "glpsol"
 versions:
  - "1.5.0--r42hecf12ef_1"
  - "1.5.0--r42h21a89ab_2"
+ - "1.5.0--r43h21a89ab_3"
 description: "singularity registry hpc automated addition for r-conos"
-config: {"url": "https://biocontainers.pro/tools/r-conos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-conos", "latest": {"1.5.0--r42h21a89ab_2": "sha256:7144043067e76c31c87be93bfd2cc87adcf1601ef764953800f6bf3e54e40b7e"}, "tags": {"1.5.0--r42hecf12ef_1": "sha256:4ce4c6ab1175e1a91010471fef16810ef3bc888db8485abdfed999cabc7b7c0c", "1.5.0--r42h21a89ab_2": "sha256:7144043067e76c31c87be93bfd2cc87adcf1601ef764953800f6bf3e54e40b7e"}, "docker": "quay.io/biocontainers/r-conos", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-conos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-conos", "latest": {"1.5.0--r43h21a89ab_3": "sha256:14fa5afd67e8e10c4f991373c236fc106f829bcc16442d5c6b0fa1c6fec414b8"}, "tags": {"1.5.0--r42hecf12ef_1": "sha256:4ce4c6ab1175e1a91010471fef16810ef3bc888db8485abdfed999cabc7b7c0c", "1.5.0--r42h21a89ab_2": "sha256:7144043067e76c31c87be93bfd2cc87adcf1601ef764953800f6bf3e54e40b7e", "1.5.0--r43h21a89ab_3": "sha256:14fa5afd67e8e10c4f991373c236fc106f829bcc16442d5c6b0fa1c6fec414b8"}, "docker": "quay.io/biocontainers/r-conos", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-conos.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-conos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-conos:1.5.0--r42h21a89ab_2
+$ shpc install quay.io/biocontainers/r-conos:1.5.0--r43h21a89ab_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-conos/1.5.0--r42h21a89ab_2
-$ module help quay.io/biocontainers/r-conos/1.5.0--r42h21a89ab_2
+$ module load quay.io/biocontainers/r-conos/1.5.0--r43h21a89ab_3
+$ module help quay.io/biocontainers/r-conos/1.5.0--r43h21a89ab_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

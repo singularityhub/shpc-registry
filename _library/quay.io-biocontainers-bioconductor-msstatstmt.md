@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-msstatstmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatstmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatstmt/container.yaml"
-updated_at: "2023-07-26 03:34:05.091545"
-latest: "2.6.0--r42hdfd78af_0"
+updated_at: "2023-07-27 03:10:27.149580"
+latest: "2.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatstmt"
 
 versions:
  - "2.2.0--r41hdfd78af_0"
  - "2.6.0--r42hdfd78af_0"
+ - "2.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstatstmt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatstmt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatstmt", "latest": {"2.6.0--r42hdfd78af_0": "sha256:b5cd05eb8764c37a604d1c6ed6861d85eebec402d64344e20cb114d8ba92e8fe"}, "tags": {"2.2.0--r41hdfd78af_0": "sha256:76e654dc1b9e457c1bc8f5c6c080db6b8f06e710ac5be370dcfbab91d51f0524", "2.6.0--r42hdfd78af_0": "sha256:b5cd05eb8764c37a604d1c6ed6861d85eebec402d64344e20cb114d8ba92e8fe"}, "docker": "quay.io/biocontainers/bioconductor-msstatstmt"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatstmt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatstmt", "latest": {"2.8.0--r43hdfd78af_0": "sha256:aa52a4bdccdb2053777af629634fd72847745401d2a5a8755b8d654cd15728b9"}, "tags": {"2.2.0--r41hdfd78af_0": "sha256:76e654dc1b9e457c1bc8f5c6c080db6b8f06e710ac5be370dcfbab91d51f0524", "2.6.0--r42hdfd78af_0": "sha256:b5cd05eb8764c37a604d1c6ed6861d85eebec402d64344e20cb114d8ba92e8fe", "2.8.0--r43hdfd78af_0": "sha256:aa52a4bdccdb2053777af629634fd72847745401d2a5a8755b8d654cd15728b9"}, "docker": "quay.io/biocontainers/bioconductor-msstatstmt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstatstmt.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msstatstmt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msstatstmt:2.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msstatstmt:2.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msstatstmt/2.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msstatstmt/2.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msstatstmt/2.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msstatstmt/2.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

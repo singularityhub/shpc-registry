@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/subread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/subread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/subread/container.yaml"
-updated_at: "2023-07-26 02:44:04.068764"
-latest: "2.0.3--he4a0461_3"
+updated_at: "2023-07-27 02:32:03.328050"
+latest: "2.0.6--he4a0461_0"
 container_url: "https://biocontainers.pro/tools/subread"
 aliases:
  - "detectionCall"
@@ -29,8 +29,9 @@ versions:
  - "2.0.3--h7132678_0"
  - "2.0.3--h7132678_1"
  - "2.0.3--he4a0461_3"
+ - "2.0.6--he4a0461_0"
 description: "shpc-registry automated BioContainers addition for subread"
-config: {"url": "https://biocontainers.pro/tools/subread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for subread", "latest": {"2.0.3--he4a0461_3": "sha256:d9f33f7b19615086e85d0adbd6e75d68edd1e3fa861e859a98d5a8d267e5bcb8"}, "tags": {"2.0.1--h7132678_2": "sha256:6f4696f9eb45f8de613b889ec9adfcb200be4658de651edd14404bdd606ce729", "2.0.3--h7132678_0": "sha256:b8168397dd5c80756a36f79e0895cc2db73088c913f1e6e4fb10e80700a4b450", "2.0.3--h7132678_1": "sha256:103bc8194681315ccd060f45910f96b7ef2c64d6b4936d782a5d5e4181dd97a1", "2.0.3--he4a0461_3": "sha256:d9f33f7b19615086e85d0adbd6e75d68edd1e3fa861e859a98d5a8d267e5bcb8"}, "docker": "quay.io/biocontainers/subread", "aliases": {"detectionCall": "/usr/local/bin/detectionCall", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "txUnique": "/usr/local/bin/txUnique"}}
+config: {"url": "https://biocontainers.pro/tools/subread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for subread", "latest": {"2.0.6--he4a0461_0": "sha256:ea3bf25194820592a3e8124ddb04870ee195774ffb5c37e0a156d57b5c8854db"}, "tags": {"2.0.1--h7132678_2": "sha256:6f4696f9eb45f8de613b889ec9adfcb200be4658de651edd14404bdd606ce729", "2.0.3--h7132678_0": "sha256:b8168397dd5c80756a36f79e0895cc2db73088c913f1e6e4fb10e80700a4b450", "2.0.3--h7132678_1": "sha256:103bc8194681315ccd060f45910f96b7ef2c64d6b4936d782a5d5e4181dd97a1", "2.0.3--he4a0461_3": "sha256:d9f33f7b19615086e85d0adbd6e75d68edd1e3fa861e859a98d5a8d267e5bcb8", "2.0.6--he4a0461_0": "sha256:ea3bf25194820592a3e8124ddb04870ee195774ffb5c37e0a156d57b5c8854db"}, "docker": "quay.io/biocontainers/subread", "aliases": {"detectionCall": "/usr/local/bin/detectionCall", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "txUnique": "/usr/local/bin/txUnique"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/subread.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/subread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/subread:2.0.3--he4a0461_3
+$ shpc install quay.io/biocontainers/subread:2.0.6--he4a0461_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/subread/2.0.3--he4a0461_3
-$ module help quay.io/biocontainers/subread/2.0.3--he4a0461_3
+$ module load quay.io/biocontainers/subread/2.0.6--he4a0461_0
+$ module help quay.io/biocontainers/subread/2.0.6--he4a0461_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

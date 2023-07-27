@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-esetvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-esetvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-esetvis/container.yaml"
-updated_at: "2023-07-26 02:51:14.529497"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-07-27 02:37:32.101792"
+latest: "1.26.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-esetvis"
 aliases:
  - "c89"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-esetvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-esetvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-esetvis", "latest": {"1.24.0--r42hdfd78af_0": "sha256:a3c231543aab0e2bf9c3d6eb3f0d5de999a5b4d853f955da32e48edf9bcc8b54"}, "tags": {"1.8.0--r351_0": "sha256:7f971e1adef342a2d3b23ae8a8558b79ea276db35cd5610695a94b7654e61d7f", "1.24.0--r42hdfd78af_0": "sha256:a3c231543aab0e2bf9c3d6eb3f0d5de999a5b4d853f955da32e48edf9bcc8b54", "1.20.0--r41hdfd78af_0": "sha256:7a5d77325610e44b75bcbf3249372f87b5fa8629528fafb396836e9a1213d8cb", "1.18.0--r41hdfd78af_0": "sha256:ab7c9c69de761abdcf1cb6ee6d66865df2ae08872d0121abf9b6c593bff17079", "1.16.0--r40hdfd78af_1": "sha256:a1362db86965356815ce5a8ce23d339dbdd208ec36e7b5bf9c840de297f02430", "1.14.0--r40_0": "sha256:c48f598e0ad1ecd9bf9dca5967b678ba4077765e5efdfcb339d97362720fe47a"}, "docker": "quay.io/biocontainers/bioconductor-esetvis", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-esetvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-esetvis", "latest": {"1.26.1--r43hdfd78af_0": "sha256:6d1f60c3f3940342b815477ddf7f1b2943900cdd9df9d4d9ebd24a9ce1aaa187"}, "tags": {"1.8.0--r351_0": "sha256:7f971e1adef342a2d3b23ae8a8558b79ea276db35cd5610695a94b7654e61d7f", "1.24.0--r42hdfd78af_0": "sha256:a3c231543aab0e2bf9c3d6eb3f0d5de999a5b4d853f955da32e48edf9bcc8b54", "1.20.0--r41hdfd78af_0": "sha256:7a5d77325610e44b75bcbf3249372f87b5fa8629528fafb396836e9a1213d8cb", "1.18.0--r41hdfd78af_0": "sha256:ab7c9c69de761abdcf1cb6ee6d66865df2ae08872d0121abf9b6c593bff17079", "1.16.0--r40hdfd78af_1": "sha256:a1362db86965356815ce5a8ce23d339dbdd208ec36e7b5bf9c840de297f02430", "1.14.0--r40_0": "sha256:c48f598e0ad1ecd9bf9dca5967b678ba4077765e5efdfcb339d97362720fe47a", "1.26.1--r43hdfd78af_0": "sha256:6d1f60c3f3940342b815477ddf7f1b2943900cdd9df9d4d9ebd24a9ce1aaa187"}, "docker": "quay.io/biocontainers/bioconductor-esetvis", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-esetvis.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-esetvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-esetvis:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-esetvis:1.26.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-esetvis/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-esetvis/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-esetvis/1.26.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-esetvis/1.26.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

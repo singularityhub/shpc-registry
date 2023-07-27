@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-xtropicalisprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xtropicalisprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xtropicalisprobe/container.yaml"
-updated_at: "2023-07-26 03:06:10.331908"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-27 02:49:08.390650"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-xtropicalisprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-xtropicalisprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xtropicalisprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xtropicalisprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:f0a6cc1986c9e203d520adcdaff4bba24c9e57e8d31701fc44336b917b6a03fe"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:90fdb5003798999168126ca59c1dd4496e4534a72bc1bfef891f4a86d61f6977", "2.18.0--r42hdfd78af_10": "sha256:f0a6cc1986c9e203d520adcdaff4bba24c9e57e8d31701fc44336b917b6a03fe"}, "docker": "quay.io/biocontainers/bioconductor-xtropicalisprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xtropicalisprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xtropicalisprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:a251f2d4a82b7ca51fb532308f802ab1889f1be6b0d1ec703afbe8b373392793"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:90fdb5003798999168126ca59c1dd4496e4534a72bc1bfef891f4a86d61f6977", "2.18.0--r42hdfd78af_10": "sha256:f0a6cc1986c9e203d520adcdaff4bba24c9e57e8d31701fc44336b917b6a03fe", "2.18.0--r43hdfd78af_11": "sha256:a251f2d4a82b7ca51fb532308f802ab1889f1be6b0d1ec703afbe8b373392793"}, "docker": "quay.io/biocontainers/bioconductor-xtropicalisprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xtropicalisprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xtropicalisprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xtropicalisprobe:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-xtropicalisprobe:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xtropicalisprobe/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-xtropicalisprobe/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-xtropicalisprobe/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-xtropicalisprobe/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-symbol-util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-symbol-util/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-symbol-util/container.yaml"
-updated_at: "2023-07-26 03:33:42.636846"
+updated_at: "2023-07-27 03:10:10.515030"
 latest: "0.0203--pl5321h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/perl-symbol-util"
 aliases:

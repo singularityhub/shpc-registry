@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-flowmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowmerge/container.yaml"
-updated_at: "2023-07-26 03:13:25.610592"
-latest: "2.46.0--r42hdfd78af_0"
+updated_at: "2023-07-27 02:54:39.956518"
+latest: "2.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowmerge"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.40.0--r41hdfd78af_0"
  - "2.46.0--r42hdfd78af_0"
+ - "2.48.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowmerge"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowmerge", "latest": {"2.46.0--r42hdfd78af_0": "sha256:794aeb400b2d7726598fd2da50cacae6672693343c4e8da121d5da59586da267"}, "tags": {"2.40.0--r41hdfd78af_0": "sha256:46190eb2cc7985afea40b6494d42b2077e89942686bd0b9d1386264cdf66dfa5", "2.46.0--r42hdfd78af_0": "sha256:794aeb400b2d7726598fd2da50cacae6672693343c4e8da121d5da59586da267"}, "docker": "quay.io/biocontainers/bioconductor-flowmerge", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowmerge", "latest": {"2.48.0--r43hdfd78af_0": "sha256:899bac47d1fbe10c1c788f7a0ce6b82d2ea66aa9792fe0b75eccfdcd6903e278"}, "tags": {"2.40.0--r41hdfd78af_0": "sha256:46190eb2cc7985afea40b6494d42b2077e89942686bd0b9d1386264cdf66dfa5", "2.46.0--r42hdfd78af_0": "sha256:794aeb400b2d7726598fd2da50cacae6672693343c4e8da121d5da59586da267", "2.48.0--r43hdfd78af_0": "sha256:899bac47d1fbe10c1c788f7a0ce6b82d2ea66aa9792fe0b75eccfdcd6903e278"}, "docker": "quay.io/biocontainers/bioconductor-flowmerge", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowmerge.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowmerge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowmerge:2.46.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowmerge:2.48.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowmerge/2.46.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowmerge/2.46.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowmerge/2.48.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowmerge/2.48.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

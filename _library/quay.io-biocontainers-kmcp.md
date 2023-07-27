@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/kmcp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmcp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmcp/container.yaml"
-updated_at: "2023-07-26 03:26:56.708231"
-latest: "0.9.2--h9ee0642_0"
+updated_at: "2023-07-27 03:05:02.700626"
+latest: "0.9.3--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/kmcp"
 aliases:
  - "kmcp"
 versions:
  - "0.9.1--h9ee0642_0"
  - "0.9.2--h9ee0642_0"
+ - "0.9.3--h9ee0642_0"
 description: "singularity registry hpc automated addition for kmcp"
-config: {"url": "https://biocontainers.pro/tools/kmcp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmcp", "latest": {"0.9.2--h9ee0642_0": "sha256:c754575619c0a93e1ccdce239ca3f494ea0842ac39d46bf08874345fb0aa231c"}, "tags": {"0.9.1--h9ee0642_0": "sha256:55dcafd3e81d5509044fc86c1b8f1a6f456ce512ec8debf2d39f5cd43abb2721", "0.9.2--h9ee0642_0": "sha256:c754575619c0a93e1ccdce239ca3f494ea0842ac39d46bf08874345fb0aa231c"}, "docker": "quay.io/biocontainers/kmcp", "aliases": {"kmcp": "/usr/local/bin/kmcp"}}
+config: {"url": "https://biocontainers.pro/tools/kmcp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmcp", "latest": {"0.9.3--h9ee0642_0": "sha256:89eab7013dee076e2b9724aa7a7e27ad43f5f27da3d44b70d844e3bfcfe157a3"}, "tags": {"0.9.1--h9ee0642_0": "sha256:55dcafd3e81d5509044fc86c1b8f1a6f456ce512ec8debf2d39f5cd43abb2721", "0.9.2--h9ee0642_0": "sha256:c754575619c0a93e1ccdce239ca3f494ea0842ac39d46bf08874345fb0aa231c", "0.9.3--h9ee0642_0": "sha256:89eab7013dee076e2b9724aa7a7e27ad43f5f27da3d44b70d844e3bfcfe157a3"}, "docker": "quay.io/biocontainers/kmcp", "aliases": {"kmcp": "/usr/local/bin/kmcp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmcp.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/kmcp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmcp:0.9.2--h9ee0642_0
+$ shpc install quay.io/biocontainers/kmcp:0.9.3--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmcp/0.9.2--h9ee0642_0
-$ module help quay.io/biocontainers/kmcp/0.9.2--h9ee0642_0
+$ module load quay.io/biocontainers/kmcp/0.9.3--h9ee0642_0
+$ module help quay.io/biocontainers/kmcp/0.9.3--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

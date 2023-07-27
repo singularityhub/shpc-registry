@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-classdiscovery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-classdiscovery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-classdiscovery/container.yaml"
-updated_at: "2023-07-26 03:07:36.512506"
-latest: "3.4.0--r42h3342da4_1"
+updated_at: "2023-07-27 02:50:14.222486"
+latest: "3.4.0--r43h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-classdiscovery"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.4.0--r41h3342da4_0"
  - "3.4.0--r42h3342da4_1"
+ - "3.4.0--r43h3342da4_2"
 description: "shpc-registry automated BioContainers addition for r-classdiscovery"
-config: {"url": "https://biocontainers.pro/tools/r-classdiscovery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-classdiscovery", "latest": {"3.4.0--r42h3342da4_1": "sha256:717dd78d96e9253c229e7604a510da64bc92a324cdcb9c594d6aecf3534875a9"}, "tags": {"3.4.0--r41h3342da4_0": "sha256:a55868ca243ef85b5d9c3afe6e79febb26b879863b9535b0f71e65d8be43874a", "3.4.0--r42h3342da4_1": "sha256:717dd78d96e9253c229e7604a510da64bc92a324cdcb9c594d6aecf3534875a9"}, "docker": "quay.io/biocontainers/r-classdiscovery", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-classdiscovery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-classdiscovery", "latest": {"3.4.0--r43h3342da4_2": "sha256:88bd70df7b6e318aabecd09725182e6b34b508c07e295b22b6fe2201a557f9f8"}, "tags": {"3.4.0--r41h3342da4_0": "sha256:a55868ca243ef85b5d9c3afe6e79febb26b879863b9535b0f71e65d8be43874a", "3.4.0--r42h3342da4_1": "sha256:717dd78d96e9253c229e7604a510da64bc92a324cdcb9c594d6aecf3534875a9", "3.4.0--r43h3342da4_2": "sha256:88bd70df7b6e318aabecd09725182e6b34b508c07e295b22b6fe2201a557f9f8"}, "docker": "quay.io/biocontainers/r-classdiscovery", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-classdiscovery.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-classdiscovery
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-classdiscovery:3.4.0--r42h3342da4_1
+$ shpc install quay.io/biocontainers/r-classdiscovery:3.4.0--r43h3342da4_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-classdiscovery/3.4.0--r42h3342da4_1
-$ module help quay.io/biocontainers/r-classdiscovery/3.4.0--r42h3342da4_1
+$ module load quay.io/biocontainers/r-classdiscovery/3.4.0--r43h3342da4_2
+$ module help quay.io/biocontainers/r-classdiscovery/3.4.0--r43h3342da4_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

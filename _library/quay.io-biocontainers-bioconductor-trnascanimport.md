@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-trnascanimport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trnascanimport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trnascanimport/container.yaml"
-updated_at: "2023-07-26 03:10:01.641813"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-07-27 02:52:05.531087"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trnascanimport"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trnascanimport"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trnascanimport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trnascanimport", "latest": {"1.18.0--r42hdfd78af_0": "sha256:dfd1e53a61e2508bbdabd4f543f6fec592fb7b7a62a226d2e3160431934e21b8"}, "tags": {"1.8.0--r40_0": "sha256:baad7d1d6f038594e156994eaa25b0909e8a974836e1a8905dcbb3c48193a732", "1.18.0--r42hdfd78af_0": "sha256:dfd1e53a61e2508bbdabd4f543f6fec592fb7b7a62a226d2e3160431934e21b8", "1.14.0--r41hdfd78af_0": "sha256:0dcd727eab4c96ff704a3eef2c3e093f658b98a66df491721d4867e532f173d8", "1.12.0--r41hdfd78af_0": "sha256:15177dd0ee79e8bfbbfd18ef5c888af5287c9d34fe4e4e7ac149281dd08028ad", "1.10.0--r40hdfd78af_1": "sha256:b9a63b5c809d127c64d94e0e22ae6079500c2df2d794b6bec8d5ce51b78379e8"}, "docker": "quay.io/biocontainers/bioconductor-trnascanimport", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trnascanimport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trnascanimport", "latest": {"1.20.0--r43hdfd78af_0": "sha256:ece9faa82287646ccbe24ca6d127a19c7b07d8d688797e3266b5eaa72ff7f5b5"}, "tags": {"1.8.0--r40_0": "sha256:baad7d1d6f038594e156994eaa25b0909e8a974836e1a8905dcbb3c48193a732", "1.18.0--r42hdfd78af_0": "sha256:dfd1e53a61e2508bbdabd4f543f6fec592fb7b7a62a226d2e3160431934e21b8", "1.14.0--r41hdfd78af_0": "sha256:0dcd727eab4c96ff704a3eef2c3e093f658b98a66df491721d4867e532f173d8", "1.12.0--r41hdfd78af_0": "sha256:15177dd0ee79e8bfbbfd18ef5c888af5287c9d34fe4e4e7ac149281dd08028ad", "1.10.0--r40hdfd78af_1": "sha256:b9a63b5c809d127c64d94e0e22ae6079500c2df2d794b6bec8d5ce51b78379e8", "1.20.0--r43hdfd78af_0": "sha256:ece9faa82287646ccbe24ca6d127a19c7b07d8d688797e3266b5eaa72ff7f5b5"}, "docker": "quay.io/biocontainers/bioconductor-trnascanimport", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trnascanimport.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trnascanimport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trnascanimport:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-trnascanimport:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trnascanimport/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-trnascanimport/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-trnascanimport/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-trnascanimport/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

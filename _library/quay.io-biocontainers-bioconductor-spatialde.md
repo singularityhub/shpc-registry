@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spatialde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialde/container.yaml"
-updated_at: "2023-07-26 03:07:44.118104"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-07-27 02:50:20.187772"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialde"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spatialde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialde", "latest": {"1.4.0--r42hdfd78af_0": "sha256:a3724c9290e384f5fe79e4d2d0ac5eacc2d3fcf6d01cd42db211eafabfff3740"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:fa4cd8e16d4ba92acbfed959cf3ee9676971ccbc2f0ce901b821e76aae9b008e", "1.4.0--r42hdfd78af_0": "sha256:a3724c9290e384f5fe79e4d2d0ac5eacc2d3fcf6d01cd42db211eafabfff3740"}, "docker": "quay.io/biocontainers/bioconductor-spatialde", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialde", "latest": {"1.6.0--r43hdfd78af_0": "sha256:7b66bbb1c01e9afb6bab8f554b3a4db65c30d3f01bea2855eaec8894cfb53ff0"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:fa4cd8e16d4ba92acbfed959cf3ee9676971ccbc2f0ce901b821e76aae9b008e", "1.4.0--r42hdfd78af_0": "sha256:a3724c9290e384f5fe79e4d2d0ac5eacc2d3fcf6d01cd42db211eafabfff3740", "1.6.0--r43hdfd78af_0": "sha256:7b66bbb1c01e9afb6bab8f554b3a4db65c30d3f01bea2855eaec8894cfb53ff0"}, "docker": "quay.io/biocontainers/bioconductor-spatialde", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spatialde.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spatialde
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spatialde:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spatialde:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spatialde/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spatialde/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spatialde/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spatialde/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

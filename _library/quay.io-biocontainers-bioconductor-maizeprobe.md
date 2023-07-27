@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-maizeprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maizeprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maizeprobe/container.yaml"
-updated_at: "2023-07-26 03:36:09.323022"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-27 03:12:02.247118"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-maizeprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-maizeprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maizeprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maizeprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:8473e46f5dbf2429e2b49ef9ec9d4052bbca0dbe64afad423b3d5c3a3c6a54d8"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:d57678c7a557bedb6540b998f5c4b059f36d98eb24c91cf409114f1c4ad77bd3", "2.18.0--r42hdfd78af_10": "sha256:8473e46f5dbf2429e2b49ef9ec9d4052bbca0dbe64afad423b3d5c3a3c6a54d8"}, "docker": "quay.io/biocontainers/bioconductor-maizeprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maizeprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maizeprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:9e2075cd2a14e3148bf8f25f6a9d62e1ece07631c235565619aec8895615eb02"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:d57678c7a557bedb6540b998f5c4b059f36d98eb24c91cf409114f1c4ad77bd3", "2.18.0--r42hdfd78af_10": "sha256:8473e46f5dbf2429e2b49ef9ec9d4052bbca0dbe64afad423b3d5c3a3c6a54d8", "2.18.0--r43hdfd78af_11": "sha256:9e2075cd2a14e3148bf8f25f6a9d62e1ece07631c235565619aec8895615eb02"}, "docker": "quay.io/biocontainers/bioconductor-maizeprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maizeprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-maizeprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-maizeprobe:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-maizeprobe:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-maizeprobe/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-maizeprobe/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-maizeprobe/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-maizeprobe/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

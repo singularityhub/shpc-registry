@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spatialcpie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialcpie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialcpie/container.yaml"
-updated_at: "2023-07-26 03:05:22.496740"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-07-27 02:48:31.040590"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialcpie"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spatialcpie"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialcpie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialcpie", "latest": {"1.14.0--r42hdfd78af_0": "sha256:b40f2a67dd993f3043e6412a211e3d504b4efd40f253665e1d657b816d7640d5"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:538f13f18a71140d0fb8597e655a2c8d3b832d549303cc47682e78fb6fe40891", "1.14.0--r42hdfd78af_0": "sha256:b40f2a67dd993f3043e6412a211e3d504b4efd40f253665e1d657b816d7640d5", "1.10.0--r41hdfd78af_0": "sha256:74a141cdfe4d4d784c294498b948c04d51fea1d5cd6fa9f65d8d393af36d3267"}, "docker": "quay.io/biocontainers/bioconductor-spatialcpie", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spatialcpie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spatialcpie", "latest": {"1.16.0--r43hdfd78af_0": "sha256:4d9f4a7c26eb8fc3bfef7d34c48e7fc6810842c132b56bfd95f32097db9513cf"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:538f13f18a71140d0fb8597e655a2c8d3b832d549303cc47682e78fb6fe40891", "1.14.0--r42hdfd78af_0": "sha256:b40f2a67dd993f3043e6412a211e3d504b4efd40f253665e1d657b816d7640d5", "1.10.0--r41hdfd78af_0": "sha256:74a141cdfe4d4d784c294498b948c04d51fea1d5cd6fa9f65d8d393af36d3267", "1.16.0--r43hdfd78af_0": "sha256:4d9f4a7c26eb8fc3bfef7d34c48e7fc6810842c132b56bfd95f32097db9513cf"}, "docker": "quay.io/biocontainers/bioconductor-spatialcpie", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spatialcpie.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spatialcpie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spatialcpie:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spatialcpie:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spatialcpie/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spatialcpie/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spatialcpie/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spatialcpie/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

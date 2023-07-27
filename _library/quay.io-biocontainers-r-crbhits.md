@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-crbhits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-crbhits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-crbhits/container.yaml"
-updated_at: "2023-07-26 02:47:49.695063"
+updated_at: "2023-07-27 02:34:55.440104"
 latest: "0.0.4--r43hdbdd923_1"
 container_url: "https://biocontainers.pro/tools/r-crbhits"
 aliases:
