@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rae230b.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rae230b.db
 latest:
-  3.13.0--r42hdfd78af_2: sha256:8d42f5a2a394ff582fd45bad67ee5f42463b1791c5d0d7e8938451df6c354cbe
+  3.13.0--r43hdfd78af_3: sha256:5077b610e8b93e0b95490a1b2c08ce8e67baf3c55a1049897f44e01604a11f22
 tags:
   3.2.3--r41hdfd78af_7: sha256:cc082450c9a01dd02db4e77477bb792410a0f2cf04d63c716a36e3f3d4439e28
   3.13.0--r42hdfd78af_2: sha256:8d42f5a2a394ff582fd45bad67ee5f42463b1791c5d0d7e8938451df6c354cbe
+  3.13.0--r43hdfd78af_3: sha256:5077b610e8b93e0b95490a1b2c08ce8e67baf3c55a1049897f44e01604a11f22
 docker: quay.io/biocontainers/bioconductor-rae230b.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

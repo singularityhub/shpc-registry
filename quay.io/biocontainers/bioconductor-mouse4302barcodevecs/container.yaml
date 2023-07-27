@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mouse4302barcodevecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mouse4302barcodevecs
 latest:
-  1.35.0--r42hdfd78af_0: sha256:fa66abbf48cb27283fb6d681b8d4e126381ca712d1e8ffd36af9ffcc97ec6bc1
+  1.38.0--r43hdfd78af_0: sha256:8d0c3a30eafd661c4f0af493397d65d0fab572ffd3752a0be0a0104a58d9f972
 tags:
   1.32.0--r41hdfd78af_1: sha256:8cc27544dd1919b5126545af2b56f4ee8c4d5b74edc7cc0bb5a33cace25c930d
   1.35.0--r42hdfd78af_0: sha256:fa66abbf48cb27283fb6d681b8d4e126381ca712d1e8ffd36af9ffcc97ec6bc1
+  1.38.0--r43hdfd78af_0: sha256:8d0c3a30eafd661c4f0af493397d65d0fab572ffd3752a0be0a0104a58d9f972
 docker: quay.io/biocontainers/bioconductor-mouse4302barcodevecs

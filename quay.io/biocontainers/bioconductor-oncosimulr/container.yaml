@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-oncosimulr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-oncosimulr
 latest:
-  3.2.0--r41hc247a5b_2: sha256:07a83ce8fbb348eea23ea1c14b283f93a52d8cbd1007c54179d5db5164efa9c4
+  4.2.0--r43hf17093f_0: sha256:c901f38b593b52cb35dc4d528d44f95d16b3c8c3c06a81fd78d43f0eafbc9bed
 tags:
   3.2.0--r41hc247a5b_2: sha256:07a83ce8fbb348eea23ea1c14b283f93a52d8cbd1007c54179d5db5164efa9c4
+  4.2.0--r43hf17093f_0: sha256:c901f38b593b52cb35dc4d528d44f95d16b3c8c3c06a81fd78d43f0eafbc9bed
 docker: quay.io/biocontainers/bioconductor-oncosimulr
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ccl4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ccl4
 latest:
-  1.35.0--r42hdfd78af_0: sha256:f337424ea714693121d46aae70fd1bbd02a553308ab3b4757df5ef264d010950
+  1.38.0--r43hdfd78af_0: sha256:fadff1c85e29535773cf9d3021e67f0749088999ef502db66b5db88c51127593
 tags:
   1.32.0--r41hdfd78af_1: sha256:a9e1000eb408d4049581a6ca61e7f867263d59f06be6eec545ca0814678549f6
   1.35.0--r42hdfd78af_0: sha256:f337424ea714693121d46aae70fd1bbd02a553308ab3b4757df5ef264d010950
+  1.38.0--r43hdfd78af_0: sha256:fadff1c85e29535773cf9d3021e67f0749088999ef502db66b5db88c51127593
 docker: quay.io/biocontainers/bioconductor-ccl4

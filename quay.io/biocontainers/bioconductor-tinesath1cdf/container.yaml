@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tinesath1cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tinesath1cdf
 latest:
-  1.36.0--r42hdfd78af_0: sha256:5db6e45d14364a2cc2fb8b8798a7fdd283ddb4caa6c2265b5203ffa6b6d4f38d
+  1.38.0--r43hdfd78af_0: sha256:3de595b8feac098f57b6dba039972c9710e939758177ee9947d42872ab22c9f8
 tags:
   1.32.0--r41hdfd78af_1: sha256:f3ba60fbf58ceca383f7465d23c7c1639bef611ae825b1eee0286339f2ee567e
   1.36.0--r42hdfd78af_0: sha256:5db6e45d14364a2cc2fb8b8798a7fdd283ddb4caa6c2265b5203ffa6b6d4f38d
   1.35.0--r42hdfd78af_0: sha256:0222f4dc0f21f76954f9c060349a5a5dba2d1329aac83ddb3da149ac097728e8
+  1.38.0--r43hdfd78af_0: sha256:3de595b8feac098f57b6dba039972c9710e939758177ee9947d42872ab22c9f8
 docker: quay.io/biocontainers/bioconductor-tinesath1cdf

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-borealis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-borealis
 latest:
-  1.2.0--r42hdfd78af_0: sha256:be32856db44f40d3cda8c4d5ec16760e329419174e398e8c85a58aa782a86372
+  1.4.0--r43hdfd78af_0: sha256:b179cc9d67340bbe8dd49e473e408cdcb38da53a1406044ad6b3e834bb392154
 tags:
   1.2.0--r42hdfd78af_0: sha256:be32856db44f40d3cda8c4d5ec16760e329419174e398e8c85a58aa782a86372
+  1.4.0--r43hdfd78af_0: sha256:b179cc9d67340bbe8dd49e473e408cdcb38da53a1406044ad6b3e834bb392154
 docker: quay.io/biocontainers/bioconductor-borealis
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

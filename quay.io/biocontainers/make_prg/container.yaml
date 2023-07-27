@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/make_prg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for make_prg
 latest:
-  0.4.0--pyhdfd78af_0: sha256:bd38d353d02bd507775542ee1735e2cb74e81cdf531a05a1cbd33c50ba0fbc96
+  0.5.0--pyhdfd78af_0: sha256:be364afafaba96d5c658c33d2e8da27dc3e243e96a840567fb3d169036e829b9
 tags:
   0.1.1--pyh3252c3a_0: sha256:984bb968bd303c32c4c96f94f46d33a95e5190a8b25568b975981a350534117c
   0.4.0--pyhdfd78af_0: sha256:bd38d353d02bd507775542ee1735e2cb74e81cdf531a05a1cbd33c50ba0fbc96
+  0.5.0--pyhdfd78af_0: sha256:be364afafaba96d5c658c33d2e8da27dc3e243e96a840567fb3d169036e829b9
 docker: quay.io/biocontainers/make_prg
 aliases:
   make_prg: /usr/local/bin/make_prg

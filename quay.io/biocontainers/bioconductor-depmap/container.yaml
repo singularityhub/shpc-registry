@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-depmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-depmap
 latest:
-  1.12.0--r42hdfd78af_0: sha256:ec33d06075320fb68ce63527acbe139bb3179d99b8b8caeb9ce3a3c8da52660b
+  1.14.0--r43hdfd78af_0: sha256:3c11fbce209d3cd1f2f893ff56dc578b68d8fde4c9151f5c5fb9e79f5a0b6d5b
 tags:
   1.8.0--r41hdfd78af_1: sha256:7b9535db882b1f71e486e06c0af358553094bfbef3f6f971facefd7cf11a7330
   1.12.0--r42hdfd78af_0: sha256:ec33d06075320fb68ce63527acbe139bb3179d99b8b8caeb9ce3a3c8da52660b
+  1.14.0--r43hdfd78af_0: sha256:3c11fbce209d3cd1f2f893ff56dc578b68d8fde4c9151f5c5fb9e79f5a0b6d5b
 docker: quay.io/biocontainers/bioconductor-depmap

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-huex.1.0.st.v2frmavecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-huex.1.0.st.v2frmavecs
 latest:
-  1.1.0--r42hdfd78af_10: sha256:8c0f7f6fdfc14ddaaab629dadf64e0669ad0f5d9ef323067f3adbadc6f1c2794
+  1.1.0--r43hdfd78af_11: sha256:982989dfe9a097b56a19538c6d5e587ae9a6ff5ff28a4ddf3ea02b39847da846
 tags:
   1.1.0--r41hdfd78af_9: sha256:bb7dbaaf8e0328adc8cd5f3b8c5cff4646d55c70c84f6e94e95bf3794bc3551c
   1.1.0--r42hdfd78af_10: sha256:8c0f7f6fdfc14ddaaab629dadf64e0669ad0f5d9ef323067f3adbadc6f1c2794
+  1.1.0--r43hdfd78af_11: sha256:982989dfe9a097b56a19538c6d5e587ae9a6ff5ff28a4ddf3ea02b39847da846
 docker: quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs

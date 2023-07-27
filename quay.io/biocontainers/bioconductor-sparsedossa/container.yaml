@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-sparsedossa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sparsedossa
 latest:
-  1.22.0--r42hdfd78af_0: sha256:7fc27d9aa77930f5b55a66755284bfe1b37b055181ade209a83463a7961cb121
+  1.24.0--r43hdfd78af_0: sha256:dd6adbd05622a5778c79676b8d8b7e200b174d36b8cc44cc22befff98705d549
 tags:
   1.8.0--r36_1: sha256:fa782478f3f7996fd3693378fb8b7d4920199e1fed104590b52f7655e148435d
   1.22.0--r42hdfd78af_0: sha256:7fc27d9aa77930f5b55a66755284bfe1b37b055181ade209a83463a7961cb121
@@ -10,6 +10,7 @@ tags:
   1.16.0--r41hdfd78af_0: sha256:d5b85e00a523b00b66dbecdc82307ecab76d5fce864dc7918a913a1f3100a1a7
   1.14.0--r40hdfd78af_1: sha256:57a41485916338504da9b1297f4b3330c54d24878bc2514b07bbe6592180ea34
   1.12.0--r40_0: sha256:5e3fd5d92a7e2a17fe848202facddace183904a8b7a04197b175537548310db2
+  1.24.0--r43hdfd78af_0: sha256:dd6adbd05622a5778c79676b8d8b7e200b174d36b8cc44cc22befff98705d549
 docker: quay.io/biocontainers/bioconductor-sparsedossa
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

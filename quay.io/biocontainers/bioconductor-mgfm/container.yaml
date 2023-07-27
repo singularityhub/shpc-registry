@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mgfm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mgfm
 latest:
-  1.32.0--r42hdfd78af_0: sha256:0222523e640b15f6a61c1e59edf98cbca1075459f20fd7ce8b25f436222cafa6
+  1.34.0--r43hdfd78af_0: sha256:a6c3d38842422fb2912400c77f20f7af39fe8f4b6bd7fcd5baeb165d0f1f2b21
 tags:
   1.28.0--r41hdfd78af_0: sha256:4814e0d8fcafe9f37bf104c10dadd1652e8da07ad8d628ea0641c01429906503
   1.32.0--r42hdfd78af_0: sha256:0222523e640b15f6a61c1e59edf98cbca1075459f20fd7ce8b25f436222cafa6
+  1.34.0--r43hdfd78af_0: sha256:a6c3d38842422fb2912400c77f20f7af39fe8f4b6bd7fcd5baeb165d0f1f2b21
 docker: quay.io/biocontainers/bioconductor-mgfm

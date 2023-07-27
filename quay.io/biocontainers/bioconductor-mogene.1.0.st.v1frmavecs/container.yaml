@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mogene.1.0.st.v1frmavecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mogene.1.0.st.v1frmavecs
 latest:
-  1.1.0--r42hdfd78af_10: sha256:bde96ba56896f18c4b2e7545916f27c971f9c696655f865b22584fd10b7aa088
+  1.1.0--r43hdfd78af_11: sha256:d54c08be3ec1b1a0d485c477833fb1c6e7a7a6f546810d98b9c0839b8fbcc640
 tags:
   1.1.0--r41hdfd78af_9: sha256:85a0787f2e97a57150c6268547f4228e7f11fa3b79fa657b642e418ce7b4892e
   1.1.0--r42hdfd78af_10: sha256:bde96ba56896f18c4b2e7545916f27c971f9c696655f865b22584fd10b7aa088
+  1.1.0--r43hdfd78af_11: sha256:d54c08be3ec1b1a0d485c477833fb1c6e7a7a6f546810d98b9c0839b8fbcc640
 docker: quay.io/biocontainers/bioconductor-mogene.1.0.st.v1frmavecs

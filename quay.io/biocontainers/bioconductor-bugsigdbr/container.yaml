@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-bugsigdbr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bugsigdbr
 latest:
-  1.4.0--r42hdfd78af_0: sha256:68e400d0d10349eddc56afd95a28a3cba4aa09cadd6ede29b24d9a28fb2d3c71
+  1.6.2--r43hdfd78af_0: sha256:7c8310de9f4c0d5308e1cb590290f26931fde351f373e1c60ab3f88ac2e9207a
 tags:
   1.0.0--r41hdfd78af_0: sha256:0632fdc6278b6c74f057bc1ffb8075717e96ebfc4ebc8ba35fc8b128eebb4ecd
   1.4.0--r42hdfd78af_0: sha256:68e400d0d10349eddc56afd95a28a3cba4aa09cadd6ede29b24d9a28fb2d3c71
+  1.6.2--r43hdfd78af_0: sha256:7c8310de9f4c0d5308e1cb590290f26931fde351f373e1c60ab3f88ac2e9207a
 docker: quay.io/biocontainers/bioconductor-bugsigdbr

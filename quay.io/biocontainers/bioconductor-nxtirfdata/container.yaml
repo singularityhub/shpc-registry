@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-nxtirfdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nxtirfdata
 latest:
-  1.4.0--r42hdfd78af_0: sha256:59230306267bd4c5d6a321f835b9d4de39052a4122496793a126531a1a5c65e2
+  1.6.0--r43hdfd78af_0: sha256:841856c22a00e76bcadc2329126876c243f2547fe637d4658679e68508a30697
 tags:
   1.0.0--r41hdfd78af_1: sha256:d26ba19cda272edea0e6abd384f072b0bc42456cc2e7a9ac43681fdbc96e51af
   1.4.0--r42hdfd78af_0: sha256:59230306267bd4c5d6a321f835b9d4de39052a4122496793a126531a1a5c65e2
+  1.6.0--r43hdfd78af_0: sha256:841856c22a00e76bcadc2329126876c243f2547fe637d4658679e68508a30697
 docker: quay.io/biocontainers/bioconductor-nxtirfdata

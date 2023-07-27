@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-nanopore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-nanopore
 latest:
-  0.2.9--r42hdbdd923_6: sha256:2d16ab736cf27a19a966871b27d67f5d49ece9724fd12282c3a43370fe01527a
+  0.2.9--r43hdbdd923_7: sha256:3a86d2807d3685d8a4ac023112936b6772cd075d7932c03d203602ac8d8b8696
 tags:
   0.2.9--r41hec16e2b_4: sha256:0a20e89f63ffa07a5d187168ca622610a3c5eff97d5921b5df93ccb543558d23
   0.2.9--r42h87f3376_5: sha256:f68cf156a5b5f9ff5c8ebc0e907ee86f8ac9f6917c60e05586dd5796847ed685
   0.2.9--r42hdbdd923_6: sha256:2d16ab736cf27a19a966871b27d67f5d49ece9724fd12282c3a43370fe01527a
+  0.2.9--r43hdbdd923_7: sha256:3a86d2807d3685d8a4ac023112936b6772cd075d7932c03d203602ac8d8b8696
 docker: quay.io/biocontainers/r-nanopore
 aliases:
   pandoc: /usr/local/bin/pandoc

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-paircompviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-paircompviz
 latest:
-  1.36.0--r42hdfd78af_0: sha256:6d7b311972ddd0f1c40033b6d4699468eb2efa5d790e803b28bcb53d3d2e11c8
+  1.38.0--r43hdfd78af_0: sha256:48821f979b8980d616773bf36cebefa69f23a88e97f58ebe2045a77e568abc3d
 tags:
   1.32.0--r41hdfd78af_0: sha256:6fbc26b645a1d0c47241bd06a0ea03577ed91693b1288bf0169c7324a764f1c5
   1.36.0--r42hdfd78af_0: sha256:6d7b311972ddd0f1c40033b6d4699468eb2efa5d790e803b28bcb53d3d2e11c8
+  1.38.0--r43hdfd78af_0: sha256:48821f979b8980d616773bf36cebefa69f23a88e97f58ebe2045a77e568abc3d
 docker: quay.io/biocontainers/bioconductor-paircompviz

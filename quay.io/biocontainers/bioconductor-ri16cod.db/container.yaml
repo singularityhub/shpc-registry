@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ri16cod.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ri16cod.db
 latest:
-  3.4.0--r42hdfd78af_10: sha256:1ed4d020c2df1455654e78992fab660d47b44c8a1e6da62d99251e23d3258f24
+  3.4.0--r43hdfd78af_11: sha256:1b1a01dcb16c3da673b2a0d9918eb8cc62ffd3960a66c8db3e2bfe10d134d731
 tags:
   3.4.0--r41hdfd78af_9: sha256:b58b7c57b1125963c967eb04b56a0410bff78ee44b8f115110f5bc01a0b3f425
   3.4.0--r42hdfd78af_10: sha256:1ed4d020c2df1455654e78992fab660d47b44c8a1e6da62d99251e23d3258f24
+  3.4.0--r43hdfd78af_11: sha256:1b1a01dcb16c3da673b2a0d9918eb8cc62ffd3960a66c8db3e2bfe10d134d731
 docker: quay.io/biocontainers/bioconductor-ri16cod.db

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-matrixrider
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-matrixrider
 latest:
-  1.30.0--r42ha9d7317_1: sha256:30d35c273afc3c55407fe28f5d235237dd299ce912bb41329bfe22b6cf2edcd7
+  1.32.0--r43ha9d7317_0: sha256:568c8631228a04149b7c1c265e41b668daaf4f14e1eeeaaf6cefd188816b3bcc
 tags:
   1.26.0--r41hc0cfd56_2: sha256:6bdf7b84239b99e01350e02ab43d120a1e07dcad769e75a89a727f7c1912d838
   1.30.0--r42hc0cfd56_0: sha256:d11ca7c9ffffe563ce25c712f64b86eb92faafcc8f3e3bf214c5998e9ea2c7a9
   1.30.0--r42ha9d7317_1: sha256:30d35c273afc3c55407fe28f5d235237dd299ce912bb41329bfe22b6cf2edcd7
+  1.32.0--r43ha9d7317_0: sha256:568c8631228a04149b7c1c265e41b668daaf4f14e1eeeaaf6cefd188816b3bcc
 docker: quay.io/biocontainers/bioconductor-matrixrider
