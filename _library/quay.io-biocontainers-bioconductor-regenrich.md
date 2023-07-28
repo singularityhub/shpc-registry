@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-regenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regenrich/container.yaml"
-updated_at: "2023-07-27 05:40:05.586767"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-07-28 03:08:20.216160"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regenrich"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-regenrich"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-regenrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regenrich", "latest": {"1.8.0--r42hdfd78af_0": "sha256:43a907bb5820f53b7edcdafd37a07af7d59b06d902bfe32e82b7753a892e89b7"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:806564c719a5b70a680f7395c76e669957937d760781605b97e3ef72ee4bf8aa", "1.8.0--r42hdfd78af_0": "sha256:43a907bb5820f53b7edcdafd37a07af7d59b06d902bfe32e82b7753a892e89b7"}, "docker": "quay.io/biocontainers/bioconductor-regenrich"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-regenrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regenrich", "latest": {"1.10.0--r43hdfd78af_0": "sha256:95fb0448962242fde71d3ee6ba0716c8486afc2151eda21b5db61adbbc29617c"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:806564c719a5b70a680f7395c76e669957937d760781605b97e3ef72ee4bf8aa", "1.8.0--r42hdfd78af_0": "sha256:43a907bb5820f53b7edcdafd37a07af7d59b06d902bfe32e82b7753a892e89b7", "1.10.0--r43hdfd78af_0": "sha256:95fb0448962242fde71d3ee6ba0716c8486afc2151eda21b5db61adbbc29617c"}, "docker": "quay.io/biocontainers/bioconductor-regenrich"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-regenrich.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-regenrich
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-regenrich:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-regenrich:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-regenrich/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-regenrich/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-regenrich/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-regenrich/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

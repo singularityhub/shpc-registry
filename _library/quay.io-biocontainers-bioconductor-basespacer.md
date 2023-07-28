@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-basespacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basespacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basespacer/container.yaml"
-updated_at: "2023-07-27 05:24:18.544968"
-latest: "1.42.0--r42hdfd78af_0"
+updated_at: "2023-07-28 02:49:25.605885"
+latest: "1.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basespacer"
 
 versions:
  - "1.38.0--r41hdfd78af_0"
  - "1.42.0--r42hdfd78af_0"
+ - "1.44.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-basespacer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-basespacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basespacer", "latest": {"1.42.0--r42hdfd78af_0": "sha256:bd08d35ac68252b7a199a64f58dcc7656bee6ab96c431b39227de8212a54dee5"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:8ecdbdb59299c1825b1a080abd582fff071ec5db3633bda0453408298bfbf391", "1.42.0--r42hdfd78af_0": "sha256:bd08d35ac68252b7a199a64f58dcc7656bee6ab96c431b39227de8212a54dee5"}, "docker": "quay.io/biocontainers/bioconductor-basespacer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-basespacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basespacer", "latest": {"1.44.0--r43hdfd78af_0": "sha256:696442910e74dc780b180d6200f4c916e0810ee1e3fbb9422904aef5099ed661"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:8ecdbdb59299c1825b1a080abd582fff071ec5db3633bda0453408298bfbf391", "1.42.0--r42hdfd78af_0": "sha256:bd08d35ac68252b7a199a64f58dcc7656bee6ab96c431b39227de8212a54dee5", "1.44.0--r43hdfd78af_0": "sha256:696442910e74dc780b180d6200f4c916e0810ee1e3fbb9422904aef5099ed661"}, "docker": "quay.io/biocontainers/bioconductor-basespacer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-basespacer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-basespacer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-basespacer:1.42.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-basespacer:1.44.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-basespacer/1.42.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-basespacer/1.42.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-basespacer/1.44.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-basespacer/1.44.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

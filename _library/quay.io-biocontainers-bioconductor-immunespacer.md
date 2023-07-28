@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-immunespacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-immunespacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-immunespacer/container.yaml"
-updated_at: "2023-07-27 05:23:19.162610"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-07-28 02:48:13.831325"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-immunespacer"
 aliases:
  - "pandoc"
 versions:
  - "1.22.0--r41hdfd78af_0"
  - "1.26.0--r42hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-immunespacer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-immunespacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-immunespacer", "latest": {"1.26.0--r42hdfd78af_0": "sha256:6280e9b10bad4143c2ffa43579983ea93a1bd5e275c528a83c9b5d1083185def"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:673301a4f9c5b35acb479842931c1d83d1486be61bec65bc05e620d75caa4a2d", "1.26.0--r42hdfd78af_0": "sha256:6280e9b10bad4143c2ffa43579983ea93a1bd5e275c528a83c9b5d1083185def"}, "docker": "quay.io/biocontainers/bioconductor-immunespacer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-immunespacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-immunespacer", "latest": {"1.28.0--r43hdfd78af_0": "sha256:0e874120a88bad1b9a7cfa2b697de5186989b2d3f779a767e6f99c10c795e024"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:673301a4f9c5b35acb479842931c1d83d1486be61bec65bc05e620d75caa4a2d", "1.26.0--r42hdfd78af_0": "sha256:6280e9b10bad4143c2ffa43579983ea93a1bd5e275c528a83c9b5d1083185def", "1.28.0--r43hdfd78af_0": "sha256:0e874120a88bad1b9a7cfa2b697de5186989b2d3f779a767e6f99c10c795e024"}, "docker": "quay.io/biocontainers/bioconductor-immunespacer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-immunespacer.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-immunespacer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-immunespacer:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-immunespacer:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-immunespacer/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-immunespacer/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-immunespacer/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-immunespacer/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

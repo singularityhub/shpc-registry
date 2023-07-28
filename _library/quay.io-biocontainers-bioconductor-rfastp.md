@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rfastp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rfastp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rfastp/container.yaml"
-updated_at: "2023-07-27 05:32:04.795290"
-latest: "1.8.0--r42hf17093f_1"
+updated_at: "2023-07-28 02:58:43.841170"
+latest: "1.10.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rfastp"
 
 versions:
  - "1.4.0--r41hc247a5b_2"
  - "1.8.0--r42hc247a5b_0"
  - "1.8.0--r42hf17093f_1"
+ - "1.10.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rfastp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rfastp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfastp", "latest": {"1.8.0--r42hf17093f_1": "sha256:784cd46c947c12c9322e71341cfd26dcf4650a5dfaaa370ed799053e42fa54d8"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:9d0e94156c3c01bb2a04f6624c0588392aa9b07097db7f0daad6e9f614395fd3", "1.8.0--r42hc247a5b_0": "sha256:342ce040328895b1412a65e0c7c478f993f87ed22742f14c7dfd83c01ce23112", "1.8.0--r42hf17093f_1": "sha256:784cd46c947c12c9322e71341cfd26dcf4650a5dfaaa370ed799053e42fa54d8"}, "docker": "quay.io/biocontainers/bioconductor-rfastp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rfastp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfastp", "latest": {"1.10.0--r43hf17093f_0": "sha256:aa123498a3cf3e31baf479104b200c306c4bd70d5f19ac1eed517eefb7980323"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:9d0e94156c3c01bb2a04f6624c0588392aa9b07097db7f0daad6e9f614395fd3", "1.8.0--r42hc247a5b_0": "sha256:342ce040328895b1412a65e0c7c478f993f87ed22742f14c7dfd83c01ce23112", "1.8.0--r42hf17093f_1": "sha256:784cd46c947c12c9322e71341cfd26dcf4650a5dfaaa370ed799053e42fa54d8", "1.10.0--r43hf17093f_0": "sha256:aa123498a3cf3e31baf479104b200c306c4bd70d5f19ac1eed517eefb7980323"}, "docker": "quay.io/biocontainers/bioconductor-rfastp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rfastp.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rfastp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rfastp:1.8.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-rfastp:1.10.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rfastp/1.8.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-rfastp/1.8.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-rfastp/1.10.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-rfastp/1.10.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

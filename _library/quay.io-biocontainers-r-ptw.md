@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ptw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ptw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ptw/container.yaml"
-updated_at: "2023-07-27 05:11:18.638031"
+updated_at: "2023-07-28 02:34:09.872046"
 latest: "1.9_11--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ptw"
 aliases:

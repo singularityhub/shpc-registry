@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chipenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipenrich/container.yaml"
-updated_at: "2023-07-27 05:13:04.354192"
+updated_at: "2023-07-28 02:36:13.858062"
 latest: "2.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipenrich"
 aliases:

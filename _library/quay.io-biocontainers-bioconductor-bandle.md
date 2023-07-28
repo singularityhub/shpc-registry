@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bandle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bandle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bandle/container.yaml"
-updated_at: "2023-07-27 05:51:05.752964"
-latest: "1.2.0--r42hf17093f_1"
+updated_at: "2023-07-28 03:21:16.986000"
+latest: "1.4.1--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bandle"
 aliases:
  - "zipcmp"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.2.0--r42hc247a5b_0"
  - "1.2.0--r42hf17093f_1"
+ - "1.4.1--r43hf17093f_0"
 description: "singularity registry hpc automated addition for bioconductor-bandle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bandle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-bandle", "latest": {"1.2.0--r42hf17093f_1": "sha256:6ae6ec3eb17741e0aca7bfe7992d03eb15ccd289e9fad541e152b04d2043502c"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:73cfdabd6414a167a2e6fdc1e1f695c11eaf66b0436f28c0951e048eab869676", "1.2.0--r42hf17093f_1": "sha256:6ae6ec3eb17741e0aca7bfe7992d03eb15ccd289e9fad541e152b04d2043502c"}, "docker": "quay.io/biocontainers/bioconductor-bandle", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf", "paltohdf": "/usr/local/bin/paltohdf"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bandle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-bandle", "latest": {"1.4.1--r43hf17093f_0": "sha256:04f6361bfd5e5ca2c325b923c8bea3af9cb840ff243edf968e712bfd19a60c0d"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:73cfdabd6414a167a2e6fdc1e1f695c11eaf66b0436f28c0951e048eab869676", "1.2.0--r42hf17093f_1": "sha256:6ae6ec3eb17741e0aca7bfe7992d03eb15ccd289e9fad541e152b04d2043502c", "1.4.1--r43hf17093f_0": "sha256:04f6361bfd5e5ca2c325b923c8bea3af9cb840ff243edf968e712bfd19a60c0d"}, "docker": "quay.io/biocontainers/bioconductor-bandle", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf", "paltohdf": "/usr/local/bin/paltohdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bandle.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bandle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bandle:1.2.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-bandle:1.4.1--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bandle/1.2.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-bandle/1.2.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-bandle/1.4.1--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-bandle/1.4.1--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

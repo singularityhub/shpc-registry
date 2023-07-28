@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pairkat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pairkat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pairkat/container.yaml"
-updated_at: "2023-07-27 05:49:22.875174"
+updated_at: "2023-07-28 03:19:16.437828"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pairkat"
 

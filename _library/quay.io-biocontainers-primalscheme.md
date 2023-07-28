@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primalscheme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primalscheme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primalscheme/container.yaml"
-updated_at: "2023-07-27 05:58:30.028595"
+updated_at: "2023-07-28 03:30:00.445258"
 latest: "1.4.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/primalscheme"
 aliases:

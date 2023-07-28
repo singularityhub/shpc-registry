@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/container.yaml"
-updated_at: "2023-07-27 05:32:48.019815"
-latest: "3.10.0--r42hdfd78af_7"
+updated_at: "2023-07-28 02:59:35.707706"
+latest: "3.10.0--r43hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.topmed.freeze5.hg19"
 aliases:
  - "gio-launch-desktop"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "3.9.0--r36_1"
  - "3.10.0--r42hdfd78af_7"
+ - "3.10.0--r43hdfd78af_8"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.topmed.freeze5.hg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.topmed.freeze5.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.topmed.freeze5.hg19", "latest": {"3.10.0--r42hdfd78af_7": "sha256:4ad889002c2d79b5535aa632673b01e005073a30b227ac2838f82122ae45062e"}, "tags": {"3.9.0--r36_1": "sha256:b1fbd2443857addaaab60894ad1ed01fac93873745c7f92d3c40d83f927e4f07", "3.10.0--r42hdfd78af_7": "sha256:4ad889002c2d79b5535aa632673b01e005073a30b227ac2838f82122ae45062e"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.topmed.freeze5.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.topmed.freeze5.hg19", "latest": {"3.10.0--r43hdfd78af_8": "sha256:35296e2079d276d292c96113a281747ca43ebe3d57cd9b5aa9333eef4cc24a76"}, "tags": {"3.9.0--r36_1": "sha256:b1fbd2443857addaaab60894ad1ed01fac93873745c7f92d3c40d83f927e4f07", "3.10.0--r42hdfd78af_7": "sha256:4ad889002c2d79b5535aa632673b01e005073a30b227ac2838f82122ae45062e", "3.10.0--r43hdfd78af_8": "sha256:35296e2079d276d292c96113a281747ca43ebe3d57cd9b5aa9333eef4cc24a76"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19:3.10.0--r42hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19:3.10.0--r43hdfd78af_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/3.10.0--r42hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/3.10.0--r42hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/3.10.0--r43hdfd78af_8
+$ module help quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/3.10.0--r43hdfd78af_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

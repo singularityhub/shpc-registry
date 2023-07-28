@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cnvgsadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvgsadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvgsadata/container.yaml"
-updated_at: "2023-07-27 05:40:48.883191"
-latest: "1.34.0--r42hdfd78af_0"
+updated_at: "2023-07-28 03:09:11.192118"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvgsadata"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
  - "1.34.0--r42hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnvgsadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvgsadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvgsadata", "latest": {"1.34.0--r42hdfd78af_0": "sha256:b77d0da7084bf4527a5a6ef17de592a4c2e9c84f7f282cc3fb6882bced285dd2"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:fd0f302278ff545554699523bca6abaf77724fa9db52a3f813452ac7083b7644", "1.34.0--r42hdfd78af_0": "sha256:b77d0da7084bf4527a5a6ef17de592a4c2e9c84f7f282cc3fb6882bced285dd2"}, "docker": "quay.io/biocontainers/bioconductor-cnvgsadata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvgsadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvgsadata", "latest": {"1.36.0--r43hdfd78af_0": "sha256:1fe28f815e4ae6cf2e1fba0a48719a25b57d779d8272781bff5cc3900dfa9fe3"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:fd0f302278ff545554699523bca6abaf77724fa9db52a3f813452ac7083b7644", "1.34.0--r42hdfd78af_0": "sha256:b77d0da7084bf4527a5a6ef17de592a4c2e9c84f7f282cc3fb6882bced285dd2", "1.36.0--r43hdfd78af_0": "sha256:1fe28f815e4ae6cf2e1fba0a48719a25b57d779d8272781bff5cc3900dfa9fe3"}, "docker": "quay.io/biocontainers/bioconductor-cnvgsadata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnvgsadata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnvgsadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnvgsadata:1.34.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cnvgsadata:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnvgsadata/1.34.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cnvgsadata/1.34.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cnvgsadata/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cnvgsadata/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

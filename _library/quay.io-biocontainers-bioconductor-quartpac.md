@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-quartpac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quartpac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quartpac/container.yaml"
-updated_at: "2023-07-27 05:34:34.449088"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-07-28 03:01:43.779216"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quartpac"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
  - "1.30.0--r42hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-quartpac"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-quartpac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quartpac", "latest": {"1.30.0--r42hdfd78af_0": "sha256:6b1bcce8a513d07fb132a3d50b4f41d64c092b718d07a56a9abc41d2267e4afd"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:fc5f85102f8a9bae6af403d0879410ae7ae426d9551304717918ecf453fc7b27", "1.30.0--r42hdfd78af_0": "sha256:6b1bcce8a513d07fb132a3d50b4f41d64c092b718d07a56a9abc41d2267e4afd"}, "docker": "quay.io/biocontainers/bioconductor-quartpac"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-quartpac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quartpac", "latest": {"1.32.0--r43hdfd78af_0": "sha256:349f4dfce8834fd8b2157b197670c333a2e94cd73986e461530cf602a1e56990"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:fc5f85102f8a9bae6af403d0879410ae7ae426d9551304717918ecf453fc7b27", "1.30.0--r42hdfd78af_0": "sha256:6b1bcce8a513d07fb132a3d50b4f41d64c092b718d07a56a9abc41d2267e4afd", "1.32.0--r43hdfd78af_0": "sha256:349f4dfce8834fd8b2157b197670c333a2e94cd73986e461530cf602a1e56990"}, "docker": "quay.io/biocontainers/bioconductor-quartpac"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-quartpac.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-quartpac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-quartpac:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-quartpac:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-quartpac/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-quartpac/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-quartpac/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-quartpac/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

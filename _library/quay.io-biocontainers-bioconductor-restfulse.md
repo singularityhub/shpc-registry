@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-restfulse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-restfulse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-restfulse/container.yaml"
-updated_at: "2023-07-27 05:44:29.826989"
+updated_at: "2023-07-28 03:13:33.334665"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-restfulse"
 aliases:

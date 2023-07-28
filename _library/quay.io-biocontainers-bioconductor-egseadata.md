@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-egseadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-egseadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-egseadata/container.yaml"
-updated_at: "2023-07-27 05:15:18.640632"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-07-28 02:38:50.536111"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-egseadata"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.22.0--r41hdfd78af_1"
  - "1.20.0--r41hdfd78af_0"
  - "1.18.0--r40hdfd78af_1"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-egseadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-egseadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-egseadata", "latest": {"1.26.0--r42hdfd78af_0": "sha256:2dca331a2796347a75159f576a19695ea76bb8fa85725f08dcce227af157e79d"}, "tags": {"1.8.0--r341_0": "sha256:9a1deec659e6be10d7709627b78a06dd8ce8e5526c0f831ec4891c21c126832c", "1.26.0--r42hdfd78af_0": "sha256:2dca331a2796347a75159f576a19695ea76bb8fa85725f08dcce227af157e79d", "1.25.0--r42hdfd78af_0": "sha256:220466f819a044fa42c65c898348c4116aab8c5d3d6b37324ce03aeabdb3a4cb", "1.22.0--r41hdfd78af_1": "sha256:042be6df784b4cb2cb30f4fb00a5a4c6db1c7e4a49749a109a3dfecf2f9ac0cb", "1.20.0--r41hdfd78af_0": "sha256:484e4ad516f46cf78f339979e592118262d00d467bc45696633a9ff28be37194", "1.18.0--r40hdfd78af_1": "sha256:3f606d1305b4ae8de7de440857ec45bd5b8806aba351de57a670195868637d59"}, "docker": "quay.io/biocontainers/bioconductor-egseadata", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-egseadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-egseadata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:064ce7a54e86988b0dc8f9730998120c99e18692c9597a8d5926bd93d85c9ced"}, "tags": {"1.8.0--r341_0": "sha256:9a1deec659e6be10d7709627b78a06dd8ce8e5526c0f831ec4891c21c126832c", "1.26.0--r42hdfd78af_0": "sha256:2dca331a2796347a75159f576a19695ea76bb8fa85725f08dcce227af157e79d", "1.25.0--r42hdfd78af_0": "sha256:220466f819a044fa42c65c898348c4116aab8c5d3d6b37324ce03aeabdb3a4cb", "1.22.0--r41hdfd78af_1": "sha256:042be6df784b4cb2cb30f4fb00a5a4c6db1c7e4a49749a109a3dfecf2f9ac0cb", "1.20.0--r41hdfd78af_0": "sha256:484e4ad516f46cf78f339979e592118262d00d467bc45696633a9ff28be37194", "1.18.0--r40hdfd78af_1": "sha256:3f606d1305b4ae8de7de440857ec45bd5b8806aba351de57a670195868637d59", "1.28.0--r43hdfd78af_0": "sha256:064ce7a54e86988b0dc8f9730998120c99e18692c9597a8d5926bd93d85c9ced"}, "docker": "quay.io/biocontainers/bioconductor-egseadata", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-egseadata.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-egseadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-egseadata:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-egseadata:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-egseadata/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-egseadata/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-egseadata/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-egseadata/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

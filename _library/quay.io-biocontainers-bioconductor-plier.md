@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-plier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plier/container.yaml"
-updated_at: "2023-07-27 05:46:25.962184"
-latest: "1.68.0--r42hf17093f_1"
+updated_at: "2023-07-28 03:15:49.018292"
+latest: "1.70.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plier"
 
 versions:
  - "1.64.0--r41hc247a5b_2"
  - "1.68.0--r42hc247a5b_0"
  - "1.68.0--r42hf17093f_1"
+ - "1.70.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-plier"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plier", "latest": {"1.68.0--r42hf17093f_1": "sha256:5c025d4b0a145571a64593b75b8ac900cc1f11362f92c567ba62aaa98f53d2a5"}, "tags": {"1.64.0--r41hc247a5b_2": "sha256:fa4633ab3af277edfe4106608abacdcccbb3d6532fa4ff60ce39b02870f769d7", "1.68.0--r42hc247a5b_0": "sha256:15f5125357a42e734a70e74c7f19473b119e9b4e09303d915f7e69822b245de7", "1.68.0--r42hf17093f_1": "sha256:5c025d4b0a145571a64593b75b8ac900cc1f11362f92c567ba62aaa98f53d2a5"}, "docker": "quay.io/biocontainers/bioconductor-plier"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plier", "latest": {"1.70.0--r43hf17093f_0": "sha256:826184b83d0392ff93d137533956799acaadb26930b103cceb1a902e8e3b22bb"}, "tags": {"1.64.0--r41hc247a5b_2": "sha256:fa4633ab3af277edfe4106608abacdcccbb3d6532fa4ff60ce39b02870f769d7", "1.68.0--r42hc247a5b_0": "sha256:15f5125357a42e734a70e74c7f19473b119e9b4e09303d915f7e69822b245de7", "1.68.0--r42hf17093f_1": "sha256:5c025d4b0a145571a64593b75b8ac900cc1f11362f92c567ba62aaa98f53d2a5", "1.70.0--r43hf17093f_0": "sha256:826184b83d0392ff93d137533956799acaadb26930b103cceb1a902e8e3b22bb"}, "docker": "quay.io/biocontainers/bioconductor-plier"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plier.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plier:1.68.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-plier:1.70.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plier/1.68.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-plier/1.68.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-plier/1.70.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-plier/1.70.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

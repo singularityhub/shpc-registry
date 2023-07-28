@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/container.yaml"
-updated_at: "2023-07-27 05:16:14.459939"
-latest: "1.1.0--r42hdfd78af_10"
+updated_at: "2023-07-28 02:39:55.294683"
+latest: "1.1.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-huex.1.0.st.v2frmavecs"
 
 versions:
  - "1.1.0--r41hdfd78af_9"
  - "1.1.0--r42hdfd78af_10"
+ - "1.1.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-huex.1.0.st.v2frmavecs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-huex.1.0.st.v2frmavecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-huex.1.0.st.v2frmavecs", "latest": {"1.1.0--r42hdfd78af_10": "sha256:8c0f7f6fdfc14ddaaab629dadf64e0669ad0f5d9ef323067f3adbadc6f1c2794"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:bb7dbaaf8e0328adc8cd5f3b8c5cff4646d55c70c84f6e94e95bf3794bc3551c", "1.1.0--r42hdfd78af_10": "sha256:8c0f7f6fdfc14ddaaab629dadf64e0669ad0f5d9ef323067f3adbadc6f1c2794"}, "docker": "quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-huex.1.0.st.v2frmavecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-huex.1.0.st.v2frmavecs", "latest": {"1.1.0--r43hdfd78af_11": "sha256:982989dfe9a097b56a19538c6d5e587ae9a6ff5ff28a4ddf3ea02b39847da846"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:bb7dbaaf8e0328adc8cd5f3b8c5cff4646d55c70c84f6e94e95bf3794bc3551c", "1.1.0--r42hdfd78af_10": "sha256:8c0f7f6fdfc14ddaaab629dadf64e0669ad0f5d9ef323067f3adbadc6f1c2794", "1.1.0--r43hdfd78af_11": "sha256:982989dfe9a097b56a19538c6d5e587ae9a6ff5ff28a4ddf3ea02b39847da846"}, "docker": "quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs:1.1.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs:1.1.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/1.1.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/1.1.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/1.1.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/1.1.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

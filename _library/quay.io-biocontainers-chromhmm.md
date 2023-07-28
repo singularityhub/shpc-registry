@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromhmm/container.yaml"
-updated_at: "2023-07-27 05:57:49.894997"
+updated_at: "2023-07-28 03:29:12.721223"
 latest: "1.24--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chromhmm"
 aliases:

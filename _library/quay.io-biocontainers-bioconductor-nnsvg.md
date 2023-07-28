@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nnsvg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nnsvg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nnsvg/container.yaml"
-updated_at: "2023-07-27 05:49:30.607966"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-07-28 03:19:25.719290"
+latest: "1.4.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nnsvg"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -35,8 +35,9 @@ aliases:
  - "gsdj500"
 versions:
  - "1.2.0--r42hdfd78af_0"
+ - "1.4.1--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-nnsvg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nnsvg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-nnsvg", "latest": {"1.2.0--r42hdfd78af_0": "sha256:1dffa1b477d4ba975729a105686279e5ede4af61eee9e0c3d71e2ed8a1ed90a9"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:1dffa1b477d4ba975729a105686279e5ede4af61eee9e0c3d71e2ed8a1ed90a9"}, "docker": "quay.io/biocontainers/bioconductor-nnsvg", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nnsvg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-nnsvg", "latest": {"1.4.1--r43hdfd78af_0": "sha256:7a3282f821325b36b2b998acdaab5f4bd01c46d9e814360b203d9cff89d337dc"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:1dffa1b477d4ba975729a105686279e5ede4af61eee9e0c3d71e2ed8a1ed90a9", "1.4.1--r43hdfd78af_0": "sha256:7a3282f821325b36b2b998acdaab5f4bd01c46d9e814360b203d9cff89d337dc"}, "docker": "quay.io/biocontainers/bioconductor-nnsvg", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nnsvg.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nnsvg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nnsvg:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nnsvg:1.4.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nnsvg/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nnsvg/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nnsvg/1.4.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nnsvg/1.4.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

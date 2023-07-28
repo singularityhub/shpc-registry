@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-metap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metap/container.yaml"
-updated_at: "2023-07-27 05:34:17.255949"
-latest: "1.4--r42h3121a25_2"
+updated_at: "2023-07-28 03:01:23.158835"
+latest: "1.4--r43h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-metap"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.4--r41h3121a25_1"
  - "1.4--r42h3121a25_2"
+ - "1.4--r43h3121a25_3"
 description: "shpc-registry automated BioContainers addition for r-metap"
-config: {"url": "https://biocontainers.pro/tools/r-metap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metap", "latest": {"1.4--r42h3121a25_2": "sha256:c49f87abf837f3a7c3bb4a37043c438888e3e1d89eecb6a1f427bcd0cb9325a1"}, "tags": {"1.4--r41h3121a25_1": "sha256:00a941d0f27796d7324acce24ff54ee9626b23e5c3db7b0c060a81e32c831def", "1.4--r42h3121a25_2": "sha256:c49f87abf837f3a7c3bb4a37043c438888e3e1d89eecb6a1f427bcd0cb9325a1"}, "docker": "quay.io/biocontainers/r-metap", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-metap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metap", "latest": {"1.4--r43h3121a25_3": "sha256:f0940c50d10258822d2cd4f4c5d2de2e2b9154332975d4abb5bb239341b9023f"}, "tags": {"1.4--r41h3121a25_1": "sha256:00a941d0f27796d7324acce24ff54ee9626b23e5c3db7b0c060a81e32c831def", "1.4--r42h3121a25_2": "sha256:c49f87abf837f3a7c3bb4a37043c438888e3e1d89eecb6a1f427bcd0cb9325a1", "1.4--r43h3121a25_3": "sha256:f0940c50d10258822d2cd4f4c5d2de2e2b9154332975d4abb5bb239341b9023f"}, "docker": "quay.io/biocontainers/r-metap", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-metap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metap:1.4--r42h3121a25_2
+$ shpc install quay.io/biocontainers/r-metap:1.4--r43h3121a25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metap/1.4--r42h3121a25_2
-$ module help quay.io/biocontainers/r-metap/1.4--r42h3121a25_2
+$ module load quay.io/biocontainers/r-metap/1.4--r43h3121a25_3
+$ module help quay.io/biocontainers/r-metap/1.4--r43h3121a25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

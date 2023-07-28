@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mirmine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirmine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirmine/container.yaml"
-updated_at: "2023-07-27 05:54:31.634020"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-07-28 03:25:19.624783"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirmine"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirmine"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirmine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirmine", "latest": {"1.20.0--r42hdfd78af_0": "sha256:72a15669da0d9b58311955d5eee51a94c3a508ff82b4d60139df10d670d52311"}, "tags": {"1.8.0--r36_0": "sha256:dae5e7bae52f956f0316946c2c00d31ec111f71e9ee47ab5eb4ed899b52416e6", "1.20.0--r42hdfd78af_0": "sha256:72a15669da0d9b58311955d5eee51a94c3a508ff82b4d60139df10d670d52311", "1.16.0--r41hdfd78af_0": "sha256:d1b23439077ae4211f04f1039c5d175db018f85833ddab03dd31c50e2cfed1fd", "1.14.0--r41hdfd78af_0": "sha256:26b45887b113dd50507aa9992d0d222b08071c9a0b42b52b912d94731241f6c7", "1.12.0--r40hdfd78af_1": "sha256:a45b215b01e5c96c9627b4ee25f7eff1923b1cb1e4290d38a7d91ba8bcedb82e", "1.10.0--r40_0": "sha256:fa3136b866bfd01acccb520413b4acee836897a360b4e900d2213a6c6d9a029a"}, "docker": "quay.io/biocontainers/bioconductor-mirmine", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirmine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirmine", "latest": {"1.22.0--r43hdfd78af_0": "sha256:c7f505967751241062cbe037ea5ec0d5b2554e52c3397d96a673075b3048ca29"}, "tags": {"1.8.0--r36_0": "sha256:dae5e7bae52f956f0316946c2c00d31ec111f71e9ee47ab5eb4ed899b52416e6", "1.20.0--r42hdfd78af_0": "sha256:72a15669da0d9b58311955d5eee51a94c3a508ff82b4d60139df10d670d52311", "1.16.0--r41hdfd78af_0": "sha256:d1b23439077ae4211f04f1039c5d175db018f85833ddab03dd31c50e2cfed1fd", "1.14.0--r41hdfd78af_0": "sha256:26b45887b113dd50507aa9992d0d222b08071c9a0b42b52b912d94731241f6c7", "1.12.0--r40hdfd78af_1": "sha256:a45b215b01e5c96c9627b4ee25f7eff1923b1cb1e4290d38a7d91ba8bcedb82e", "1.10.0--r40_0": "sha256:fa3136b866bfd01acccb520413b4acee836897a360b4e900d2213a6c6d9a029a", "1.22.0--r43hdfd78af_0": "sha256:c7f505967751241062cbe037ea5ec0d5b2554e52c3397d96a673075b3048ca29"}, "docker": "quay.io/biocontainers/bioconductor-mirmine", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirmine.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirmine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirmine:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mirmine:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirmine/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mirmine/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mirmine/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mirmine/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

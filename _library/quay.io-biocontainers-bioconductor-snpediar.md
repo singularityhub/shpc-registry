@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-snpediar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snpediar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snpediar/container.yaml"
-updated_at: "2023-07-27 05:43:22.032096"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-07-28 03:12:13.192961"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snpediar"
 aliases:
  - "c89"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-snpediar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snpediar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snpediar", "latest": {"1.24.0--r42hdfd78af_0": "sha256:b8fddde3deacfe63c6eea6296bf5a88150af18bfc1ff97f15c335311b59fbdd7"}, "tags": {"1.8.0--r351_0": "sha256:ce2227d687c01576789838b40782a86288397ae84c6af49abf2f1629dff16211", "1.24.0--r42hdfd78af_0": "sha256:b8fddde3deacfe63c6eea6296bf5a88150af18bfc1ff97f15c335311b59fbdd7", "1.20.0--r41hdfd78af_0": "sha256:e43580184dd81661d479c46ba9b7511eed9fb76420234e40f197ab557a225ea3", "1.18.0--r41hdfd78af_0": "sha256:5e9f99ff1561c5ddcb64b66b68cad0362a7ebf83315b3e882d78c7dd16aa2759", "1.16.0--r40hdfd78af_1": "sha256:9313289e13a6d3b0c5b9f93fe3181645dfc052a5c5b8a1cf567873a25dd63877", "1.14.0--r40_0": "sha256:98ecb755a0bc173c5e4bd8ef103ece0f956922dbca7ba1da77e2966b85328b19"}, "docker": "quay.io/biocontainers/bioconductor-snpediar", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snpediar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snpediar", "latest": {"1.26.0--r43hdfd78af_0": "sha256:f7918226927fcf646e7fa7a03570e90e077db4b96c2e63f62e180a27f3554be4"}, "tags": {"1.8.0--r351_0": "sha256:ce2227d687c01576789838b40782a86288397ae84c6af49abf2f1629dff16211", "1.24.0--r42hdfd78af_0": "sha256:b8fddde3deacfe63c6eea6296bf5a88150af18bfc1ff97f15c335311b59fbdd7", "1.20.0--r41hdfd78af_0": "sha256:e43580184dd81661d479c46ba9b7511eed9fb76420234e40f197ab557a225ea3", "1.18.0--r41hdfd78af_0": "sha256:5e9f99ff1561c5ddcb64b66b68cad0362a7ebf83315b3e882d78c7dd16aa2759", "1.16.0--r40hdfd78af_1": "sha256:9313289e13a6d3b0c5b9f93fe3181645dfc052a5c5b8a1cf567873a25dd63877", "1.14.0--r40_0": "sha256:98ecb755a0bc173c5e4bd8ef103ece0f956922dbca7ba1da77e2966b85328b19", "1.26.0--r43hdfd78af_0": "sha256:f7918226927fcf646e7fa7a03570e90e077db4b96c2e63f62e180a27f3554be4"}, "docker": "quay.io/biocontainers/bioconductor-snpediar", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snpediar.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-snpediar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-snpediar:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-snpediar:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-snpediar/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-snpediar/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-snpediar/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-snpediar/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

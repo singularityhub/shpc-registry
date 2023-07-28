@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/make_prg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/make_prg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/make_prg/container.yaml"
-updated_at: "2023-07-27 05:14:09.471815"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2023-07-28 02:37:29.256833"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/make_prg"
 aliases:
  - "make_prg"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.1.1--pyh3252c3a_0"
  - "0.4.0--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for make_prg"
-config: {"url": "https://biocontainers.pro/tools/make_prg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for make_prg", "latest": {"0.4.0--pyhdfd78af_0": "sha256:bd38d353d02bd507775542ee1735e2cb74e81cdf531a05a1cbd33c50ba0fbc96"}, "tags": {"0.1.1--pyh3252c3a_0": "sha256:984bb968bd303c32c4c96f94f46d33a95e5190a8b25568b975981a350534117c", "0.4.0--pyhdfd78af_0": "sha256:bd38d353d02bd507775542ee1735e2cb74e81cdf531a05a1cbd33c50ba0fbc96"}, "docker": "quay.io/biocontainers/make_prg", "aliases": {"make_prg": "/usr/local/bin/make_prg", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/make_prg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for make_prg", "latest": {"0.5.0--pyhdfd78af_0": "sha256:be364afafaba96d5c658c33d2e8da27dc3e243e96a840567fb3d169036e829b9"}, "tags": {"0.1.1--pyh3252c3a_0": "sha256:984bb968bd303c32c4c96f94f46d33a95e5190a8b25568b975981a350534117c", "0.4.0--pyhdfd78af_0": "sha256:bd38d353d02bd507775542ee1735e2cb74e81cdf531a05a1cbd33c50ba0fbc96", "0.5.0--pyhdfd78af_0": "sha256:be364afafaba96d5c658c33d2e8da27dc3e243e96a840567fb3d169036e829b9"}, "docker": "quay.io/biocontainers/make_prg", "aliases": {"make_prg": "/usr/local/bin/make_prg", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/make_prg.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/make_prg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/make_prg:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/make_prg:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/make_prg/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/make_prg/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/make_prg/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/make_prg/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

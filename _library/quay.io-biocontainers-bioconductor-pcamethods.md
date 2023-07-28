@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pcamethods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcamethods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcamethods/container.yaml"
-updated_at: "2023-07-27 05:21:06.705515"
-latest: "1.90.0--r42hf17093f_1"
+updated_at: "2023-07-28 02:45:35.355712"
+latest: "1.92.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcamethods"
 
 versions:
  - "1.86.0--r41hc247a5b_2"
  - "1.90.0--r42hc247a5b_0"
  - "1.90.0--r42hf17093f_1"
+ - "1.92.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcamethods"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcamethods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcamethods", "latest": {"1.90.0--r42hf17093f_1": "sha256:c4bcc72c6256377026c27409fd4bf6efba489fe246e11ca31126d1f57f2ad5d3"}, "tags": {"1.86.0--r41hc247a5b_2": "sha256:defd5b0c6820b00d1c6564fe3d52f5f870c5716530a4d46ce5a89713841555cb", "1.90.0--r42hc247a5b_0": "sha256:c4840d18ea9b3fde8fbff52f3287d01736f8b04b3c3f67aab87f0e89378de60e", "1.90.0--r42hf17093f_1": "sha256:c4bcc72c6256377026c27409fd4bf6efba489fe246e11ca31126d1f57f2ad5d3"}, "docker": "quay.io/biocontainers/bioconductor-pcamethods"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcamethods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcamethods", "latest": {"1.92.0--r43hf17093f_0": "sha256:b769164d49275e497a8583b154bbd056ec2820eb7feb3f1d5fa538e1153bb39c"}, "tags": {"1.86.0--r41hc247a5b_2": "sha256:defd5b0c6820b00d1c6564fe3d52f5f870c5716530a4d46ce5a89713841555cb", "1.90.0--r42hc247a5b_0": "sha256:c4840d18ea9b3fde8fbff52f3287d01736f8b04b3c3f67aab87f0e89378de60e", "1.90.0--r42hf17093f_1": "sha256:c4bcc72c6256377026c27409fd4bf6efba489fe246e11ca31126d1f57f2ad5d3", "1.92.0--r43hf17093f_0": "sha256:b769164d49275e497a8583b154bbd056ec2820eb7feb3f1d5fa538e1153bb39c"}, "docker": "quay.io/biocontainers/bioconductor-pcamethods"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcamethods.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pcamethods
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pcamethods:1.90.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-pcamethods:1.92.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pcamethods/1.90.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-pcamethods/1.90.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-pcamethods/1.92.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-pcamethods/1.92.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

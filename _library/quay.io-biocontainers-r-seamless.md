@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-seamless"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seamless/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seamless/container.yaml"
-updated_at: "2023-07-27 05:09:31.969772"
-latest: "0.1.0--r42h3121a25_2"
+updated_at: "2023-07-28 02:32:04.490577"
+latest: "0.1.0--r43h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-seamless"
 
 versions:
  - "0.1.0--r41h3121a25_1"
  - "0.1.0--r42h3121a25_2"
+ - "0.1.0--r43h3121a25_3"
 description: "shpc-registry automated BioContainers addition for r-seamless"
-config: {"url": "https://biocontainers.pro/tools/r-seamless", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seamless", "latest": {"0.1.0--r42h3121a25_2": "sha256:3c108832bdd1b842f7ccdaf43018532b4c7e6f1d497f1dca37c8627d53376100"}, "tags": {"0.1.0--r41h3121a25_1": "sha256:3b80315470029dee11b16c3171bff233ad9825e3aa03b193aea016fdefbce1ae", "0.1.0--r42h3121a25_2": "sha256:3c108832bdd1b842f7ccdaf43018532b4c7e6f1d497f1dca37c8627d53376100"}, "docker": "quay.io/biocontainers/r-seamless"}
+config: {"url": "https://biocontainers.pro/tools/r-seamless", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seamless", "latest": {"0.1.0--r43h3121a25_3": "sha256:7870576e91c024d67381a127d611ad2f9ed120de9f2949d62dcbd2f08020d0b2"}, "tags": {"0.1.0--r41h3121a25_1": "sha256:3b80315470029dee11b16c3171bff233ad9825e3aa03b193aea016fdefbce1ae", "0.1.0--r42h3121a25_2": "sha256:3c108832bdd1b842f7ccdaf43018532b4c7e6f1d497f1dca37c8627d53376100", "0.1.0--r43h3121a25_3": "sha256:7870576e91c024d67381a127d611ad2f9ed120de9f2949d62dcbd2f08020d0b2"}, "docker": "quay.io/biocontainers/r-seamless"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-seamless.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-seamless
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-seamless:0.1.0--r42h3121a25_2
+$ shpc install quay.io/biocontainers/r-seamless:0.1.0--r43h3121a25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-seamless/0.1.0--r42h3121a25_2
-$ module help quay.io/biocontainers/r-seamless/0.1.0--r42h3121a25_2
+$ module load quay.io/biocontainers/r-seamless/0.1.0--r43h3121a25_3
+$ module help quay.io/biocontainers/r-seamless/0.1.0--r43h3121a25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

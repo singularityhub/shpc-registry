@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-seqlogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqlogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqlogo/container.yaml"
-updated_at: "2023-07-27 05:11:59.957786"
-latest: "1.64.0--r42hdfd78af_0"
+updated_at: "2023-07-28 02:34:58.532297"
+latest: "1.66.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqlogo"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
  - "1.64.0--r42hdfd78af_0"
+ - "1.66.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-seqlogo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seqlogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqlogo", "latest": {"1.64.0--r42hdfd78af_0": "sha256:6ad4e5b22ebc1ab4e982c12c98ecc778832f595d505606168a8f519f3ad24a09"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:1a5e29c8e58bd3c51c763ee58530227e0a7783bc6214d4df3267df68ef047550", "1.64.0--r42hdfd78af_0": "sha256:6ad4e5b22ebc1ab4e982c12c98ecc778832f595d505606168a8f519f3ad24a09"}, "docker": "quay.io/biocontainers/bioconductor-seqlogo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seqlogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqlogo", "latest": {"1.66.0--r43hdfd78af_0": "sha256:af2aae9debf381d7580105af2a9a78c8acb2d7c427704b148e5b4b15552327fc"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:1a5e29c8e58bd3c51c763ee58530227e0a7783bc6214d4df3267df68ef047550", "1.64.0--r42hdfd78af_0": "sha256:6ad4e5b22ebc1ab4e982c12c98ecc778832f595d505606168a8f519f3ad24a09", "1.66.0--r43hdfd78af_0": "sha256:af2aae9debf381d7580105af2a9a78c8acb2d7c427704b148e5b4b15552327fc"}, "docker": "quay.io/biocontainers/bioconductor-seqlogo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seqlogo.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seqlogo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seqlogo:1.64.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-seqlogo:1.66.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seqlogo/1.64.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-seqlogo/1.64.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-seqlogo/1.66.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-seqlogo/1.66.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

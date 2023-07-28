@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-deseqanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-deseqanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-deseqanalysis/container.yaml"
-updated_at: "2023-07-27 05:11:25.805275"
+updated_at: "2023-07-28 02:34:18.166773"
 latest: "0.6.8--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-deseqanalysis"
 
