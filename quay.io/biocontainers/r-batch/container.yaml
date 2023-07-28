@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-batch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-batch
 latest:
-  1.1_4--r3.3.1_1: sha256:5ff47103edda0863e54dbdd0e70a9ac532cab979d57cc7ced440532b2d5ac076
+  '1.1_5': sha256:f4e40c9879e72160e7bd674d2e4448c7452c334d66da7203c9fa4106c7b36665
 tags:
   1.1_4--r3.3.1_1: sha256:5ff47103edda0863e54dbdd0e70a9ac532cab979d57cc7ced440532b2d5ac076
+  '1.1_5': sha256:f4e40c9879e72160e7bd674d2e4448c7452c334d66da7203c9fa4106c7b36665
 docker: quay.io/biocontainers/r-batch
 aliases:
   uconv: /usr/local/bin/uconv

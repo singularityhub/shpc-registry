@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-combi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-combi
 latest:
-  1.10.0--r42hdfd78af_0: sha256:7ba38414a5b4bb1b2287ea50303b0e157281253fc8a8a40fe696e4b6fc8ce0ed
+  1.12.0--r43hdfd78af_0: sha256:5ecf1da97c036f6f82cc34df4f96b763feca29f9d7f4e13d9c4f2430772fb9d4
 tags:
   1.6.0--r41hdfd78af_0: sha256:9058b7b4ce3181c533cd8d1bc266890fe7f2dd806496fd25a38de46e501964e6
   1.10.0--r42hdfd78af_0: sha256:7ba38414a5b4bb1b2287ea50303b0e157281253fc8a8a40fe696e4b6fc8ce0ed
+  1.12.0--r43hdfd78af_0: sha256:5ecf1da97c036f6f82cc34df4f96b763feca29f9d7f4e13d9c4f2430772fb9d4
 docker: quay.io/biocontainers/bioconductor-combi

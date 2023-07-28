@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-geneattribution
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geneattribution
 latest:
-  1.24.0--r42hdfd78af_0: sha256:fbbf21853ec2a62273f86f985dfaf647cf22bb816e04d805b66ae0573c91629c
+  1.26.0--r43hdfd78af_0: sha256:05d96ef3bda0e50427ced4bd80f083474bbaee6273afaccfdaaca5abe1b7e971
 tags:
   1.8.0--r351_0: sha256:5e63a9f613d40cb83d67d6d59b05c4535aa447f5d65d6abcacb2950626771fc5
   1.24.0--r42hdfd78af_0: sha256:fbbf21853ec2a62273f86f985dfaf647cf22bb816e04d805b66ae0573c91629c
@@ -10,6 +10,7 @@ tags:
   1.18.0--r41hdfd78af_0: sha256:62b27dd9e72427595edc20ca8e3101b5bca5665c18dae6b04547289e9197ca30
   1.16.0--r40hdfd78af_1: sha256:ec679c09e2f9529b394a8986b03d7618489e9fa1b70bea91e6559aba8bae0458
   1.14.0--r40_0: sha256:89d5035c470aa99883b945cd480537b3ae06242ef3640d2461487573e6c06a99
+  1.26.0--r43hdfd78af_0: sha256:05d96ef3bda0e50427ced4bd80f083474bbaee6273afaccfdaaca5abe1b7e971
 docker: quay.io/biocontainers/bioconductor-geneattribution
 aliases:
   wget: /usr/local/bin/wget

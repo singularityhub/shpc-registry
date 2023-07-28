@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-isee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-isee
 latest:
-  2.10.0--r42hdfd78af_0: sha256:a16736992115de0eefc9f0680e1cf4c1cc39437e47df4574d864a06aa12d6704
+  2.12.0--r43hdfd78af_0: sha256:fd0089405b5e7fdf08b23198b778654a42ae5424552ca48ef5845ef8570587d9
 tags:
   2.6.0--r41hdfd78af_0: sha256:cc2230a6c7278f49244ca0d21c36d5ebe252ec5634644ac287465e24308e42f4
   2.10.0--r42hdfd78af_0: sha256:a16736992115de0eefc9f0680e1cf4c1cc39437e47df4574d864a06aa12d6704
+  2.12.0--r43hdfd78af_0: sha256:fd0089405b5e7fdf08b23198b778654a42ae5424552ca48ef5845ef8570587d9
 docker: quay.io/biocontainers/bioconductor-isee

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-dmelsgi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dmelsgi
 latest:
-  1.29.1--r42hdfd78af_0: sha256:9df82b739d7a47582f2898c5f4a12e276b89d7b9c556761b9412f034b0fe6f40
+  1.32.0--r43hdfd78af_0: sha256:0ded75289837dc4f24b3e5a1544601e4fde4b7a965b914ae114d60333c96be6d
 tags:
   1.26.0--r41hdfd78af_1: sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044
   1.29.1--r42hdfd78af_0: sha256:9df82b739d7a47582f2898c5f4a12e276b89d7b9c556761b9412f034b0fe6f40
+  1.32.0--r43hdfd78af_0: sha256:0ded75289837dc4f24b3e5a1544601e4fde4b7a965b914ae114d60333c96be6d
 docker: quay.io/biocontainers/bioconductor-dmelsgi
 aliases:
   glpsol: /usr/local/bin/glpsol

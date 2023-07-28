@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-allelicimbalance
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-allelicimbalance
 latest:
-  1.36.0--r42hdfd78af_0: sha256:47585eb6f915d1b142de795a16335679eace87992c02ea1dbccc6cc48c218151
+  1.38.0--r43hdfd78af_0: sha256:a8fe5b5a777dcf5bf722cda841c827644cc9fc8ff802be4ec227556ce083a41a
 tags:
   1.32.0--r41hdfd78af_0: sha256:3d2e793ce02b2549dcf12cb8f282d3f33cf2cdf85cdb7d48c3796c6043b791f7
   1.36.0--r42hdfd78af_0: sha256:47585eb6f915d1b142de795a16335679eace87992c02ea1dbccc6cc48c218151
+  1.38.0--r43hdfd78af_0: sha256:a8fe5b5a777dcf5bf722cda841c827644cc9fc8ff802be4ec227556ce083a41a
 docker: quay.io/biocontainers/bioconductor-allelicimbalance

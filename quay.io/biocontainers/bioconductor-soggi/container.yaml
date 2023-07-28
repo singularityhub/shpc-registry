@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-soggi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-soggi
 latest:
-  1.30.0--r42hdfd78af_0: sha256:4fd60660853862b1a87277489df8c19d21a2a6798520ee9b20e2c8ec7420e4b9
+  1.32.0--r43hdfd78af_0: sha256:e8738af566789157402167ff8b234f4100a6091c60c7cb2c8075ff12f46e9c98
 tags:
   1.8.0--r3.4.1_0: sha256:6bb37595e09fcac4aaec539166453fc07b36c4e2a2c87052546fcc695a894408
   1.30.0--r42hdfd78af_0: sha256:4fd60660853862b1a87277489df8c19d21a2a6798520ee9b20e2c8ec7420e4b9
@@ -10,6 +10,7 @@ tags:
   1.24.0--r41hdfd78af_0: sha256:cbbb29849a8d5d4ff00aded6751b38f8e0ed65ac23516d45440d99fb40126777
   1.22.0--r40hdfd78af_1: sha256:bdc4697b34db2de4741552a831287fa48a3c18365cfad49098aec7f0cc9d7487
   1.20.0--r40_0: sha256:e1877f66d1c19c75161e3400dbf8f68e84841c11bde3800ebb5b4e8399408779
+  1.32.0--r43hdfd78af_0: sha256:e8738af566789157402167ff8b234f4100a6091c60c7cb2c8075ff12f46e9c98
 docker: quay.io/biocontainers/bioconductor-soggi
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

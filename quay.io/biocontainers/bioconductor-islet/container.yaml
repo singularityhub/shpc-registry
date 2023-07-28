@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-islet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-islet
 latest:
-  1.0.0--r42hdfd78af_0: sha256:bf66a53e3424d9632aaca2802b79554ca1fe79149d036530fa2284bba0442bee
+  1.2.0--r43hdfd78af_0: sha256:2312ccf8bb9ffceaa6ab83ffea49cc2ac95e719c43e54657f3890f3543b6abc4
 tags:
   1.0.0--r42hdfd78af_0: sha256:bf66a53e3424d9632aaca2802b79554ca1fe79149d036530fa2284bba0442bee
+  1.2.0--r43hdfd78af_0: sha256:2312ccf8bb9ffceaa6ab83ffea49cc2ac95e719c43e54657f3890f3543b6abc4
 docker: quay.io/biocontainers/bioconductor-islet
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

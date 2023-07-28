@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-benchmarkfdrdata2019
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-benchmarkfdrdata2019
 latest:
-  1.12.0--r42hdfd78af_0: sha256:0b9339356f631d00e163b9a1d6d68e53d5f256e4ef20aa861eea6705ae65276d
+  1.14.0--r43hdfd78af_0: sha256:a40439dbe5a394e4adb0a7022d250279bec2f09c3fabb9453ac1e86ec012b215
 tags:
   1.8.0--r41hdfd78af_1: sha256:8bea3722723df1fd800e892802cc4a0ccd01fbdef3ebdaf2f2fc133013391eec
   1.12.0--r42hdfd78af_0: sha256:0b9339356f631d00e163b9a1d6d68e53d5f256e4ef20aa861eea6705ae65276d
+  1.14.0--r43hdfd78af_0: sha256:a40439dbe5a394e4adb0a7022d250279bec2f09c3fabb9453ac1e86ec012b215
 docker: quay.io/biocontainers/bioconductor-benchmarkfdrdata2019

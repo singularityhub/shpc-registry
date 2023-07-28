@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-synapterdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-synapterdata
 latest:
-  1.36.0--r42hdfd78af_0: sha256:34c654347d46423d2343fd71eebd6d8ebbbad735368e84227a9018db1646d4ba
+  1.38.0--r43hdfd78af_0: sha256:70fdaf4461bd43f03ba1f0c19e1f95a9e726c317bdc85c152ba5b08107aa7433
 tags:
   1.28.0--r40hdfd78af_1: sha256:c23887882e8b6e50a3a7046b871c77660213bf2d316e6b65c19b3620b14e9bf4
   1.36.0--r42hdfd78af_0: sha256:34c654347d46423d2343fd71eebd6d8ebbbad735368e84227a9018db1646d4ba
+  1.38.0--r43hdfd78af_0: sha256:70fdaf4461bd43f03ba1f0c19e1f95a9e726c317bdc85c152ba5b08107aa7433
 docker: quay.io/biocontainers/bioconductor-synapterdata
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-poma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-poma
 latest:
-  1.8.0--r42hdfd78af_0: sha256:09ff4aa97bfc9aaf91e9a4f6a95c8ec46be31e0d9bcb4a4bf45337893667f494
+  1.10.0--r43hdfd78af_0: sha256:592ec5235b6b80460ff29d8e9ad8e77dca5606596333f35f76b0f05a6edcef5a
 tags:
   1.4.0--r41hdfd78af_0: sha256:428fdbb01403d77ce180cdffd578af7225310e976828b750f0f6565f2bd07a86
   1.8.0--r42hdfd78af_0: sha256:09ff4aa97bfc9aaf91e9a4f6a95c8ec46be31e0d9bcb4a4bf45337893667f494
+  1.10.0--r43hdfd78af_0: sha256:592ec5235b6b80460ff29d8e9ad8e77dca5606596333f35f76b0f05a6edcef5a
 docker: quay.io/biocontainers/bioconductor-poma
 aliases:
   zipcmp: /usr/local/bin/zipcmp

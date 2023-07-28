@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mmappr2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mmappr2
 latest:
-  1.8.0--r41hdfd78af_0: sha256:43918f1342a159b8ecbe4996cbcf6cedd31109d927975089259ecbc8123347e4
+  1.14.0--r43hdfd78af_0: sha256:b54824f0e8451dc43ae2b40d7008269ca693b59670d004e2ac0b4a935d1bd44b
 tags:
   1.8.0--r41hdfd78af_0: sha256:43918f1342a159b8ecbe4996cbcf6cedd31109d927975089259ecbc8123347e4
+  1.14.0--r43hdfd78af_0: sha256:b54824f0e8451dc43ae2b40d7008269ca693b59670d004e2ac0b4a935d1bd44b
 docker: quay.io/biocontainers/bioconductor-mmappr2

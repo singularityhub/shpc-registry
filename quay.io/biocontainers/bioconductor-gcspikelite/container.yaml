@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gcspikelite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gcspikelite
 latest:
-  1.36.0--r42hdfd78af_0: sha256:d3ac302560e62d3355744d0e31a3610f920f8dba479748d4438a259cd3bd0ad1
+  1.38.0--r43hdfd78af_0: sha256:47c04edff32734d0e38d748154b31c5b031fcb1cd99fcefc0242e9ba4e3f9cd0
 tags:
   1.32.0--r41hdfd78af_1: sha256:0ec23b2d8a7bd2bd6c478e185b3b7c80d30cfe84b7fa32f027a01287861422f8
   1.36.0--r42hdfd78af_0: sha256:d3ac302560e62d3355744d0e31a3610f920f8dba479748d4438a259cd3bd0ad1
   1.35.0--r42hdfd78af_0: sha256:1cd4fc5011c2379f6672bf77a4aa84dd7eede24983a08b5f04952788bed1aab6
+  1.38.0--r43hdfd78af_0: sha256:47c04edff32734d0e38d748154b31c5b031fcb1cd99fcefc0242e9ba4e3f9cd0
 docker: quay.io/biocontainers/bioconductor-gcspikelite

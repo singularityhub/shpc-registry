@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-sugarcanecdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sugarcanecdf
 latest:
-  2.18.0--r42hdfd78af_10: sha256:b8ae649d244269cd281ffabb2ce08aa595577d202183e56279bdf806096d40cb
+  2.18.0--r43hdfd78af_11: sha256:9aa00b6bd9b6c5d386a9626846abfd352ecdd0251d00f053c959bd6189707023
 tags:
   2.18.0--r41hdfd78af_9: sha256:0225248830c508d08be12db0ee7b7f6d14f72c65be3cc6579a8b7ee9878f4e18
   2.18.0--r42hdfd78af_10: sha256:b8ae649d244269cd281ffabb2ce08aa595577d202183e56279bdf806096d40cb
+  2.18.0--r43hdfd78af_11: sha256:9aa00b6bd9b6c5d386a9626846abfd352ecdd0251d00f053c959bd6189707023
 docker: quay.io/biocontainers/bioconductor-sugarcanecdf

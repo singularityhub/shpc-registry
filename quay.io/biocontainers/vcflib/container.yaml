@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/vcflib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vcflib
 latest:
-  1.0.3--h0033a41_4: sha256:a24ea4a486ad7cb6f4a0aac1541eab5e4c0478168c85d16384a69ce1c3577514
+  1.0.9--h146fbdb_1: sha256:7fe51f1d6e807c39fdd69328eb7c01c18da110aeebdbc7fa7d038d86feb348c0
 tags:
   1.0.3--ha04fe3b_2: sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3
   1.0.3--h6b7c446_3: sha256:7ff994be6c5f3b306ef9e40674b16db8c10e30040a9ba367963e06feb1dbd5b1
   1.0.3--h0033a41_4: sha256:a24ea4a486ad7cb6f4a0aac1541eab5e4c0478168c85d16384a69ce1c3577514
+  1.0.9--h146fbdb_1: sha256:7fe51f1d6e807c39fdd69328eb7c01c18da110aeebdbc7fa7d038d86feb348c0
 docker: quay.io/biocontainers/vcflib
 aliases:
   tabix++: /usr/local/bin/tabix++

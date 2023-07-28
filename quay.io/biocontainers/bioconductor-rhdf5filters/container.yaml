@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rhdf5filters
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rhdf5filters
 latest:
-  1.10.0--r42hf17093f_1: sha256:f997a7ac121470265a4d3afe6fc011d4218d05f82578b5ae621ef747e7b6b7f4
+  1.12.1--r43hf17093f_0: sha256:10c8e7a5dff053f40686501c95bbb69143ce25e6cf32bde8356bc0c4d8470702
 tags:
   1.6.0--r41hc247a5b_2: sha256:fc90ca5dbb2f4c319959d45d21106637bfaff171fb36c2bb53b2ec7d78f00f0c
   1.10.0--r42hc247a5b_0: sha256:bb4aa87504c5b1c2dfb766bbf9c03e4ce697cb3f3a8dd5675b794d0d81855d82
   1.10.0--r42hf17093f_1: sha256:f997a7ac121470265a4d3afe6fc011d4218d05f82578b5ae621ef747e7b6b7f4
+  1.12.1--r43hf17093f_0: sha256:10c8e7a5dff053f40686501c95bbb69143ce25e6cf32bde8356bc0c4d8470702
 docker: quay.io/biocontainers/bioconductor-rhdf5filters
