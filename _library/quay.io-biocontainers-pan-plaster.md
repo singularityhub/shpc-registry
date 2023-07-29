@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pan-plaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pan-plaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pan-plaster/container.yaml"
-updated_at: "2023-07-28 03:04:33.391038"
+updated_at: "2023-07-29 03:01:38.589802"
 latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pan-plaster"
 aliases:

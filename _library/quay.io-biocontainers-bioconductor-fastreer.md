@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fastreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fastreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fastreer/container.yaml"
-updated_at: "2023-07-28 03:08:10.338465"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-07-29 03:05:18.094102"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fastreer"
 aliases:
  - "jpackage"
@@ -35,8 +35,9 @@ aliases:
  - "jps"
 versions:
  - "1.2.0--r42hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-fastreer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fastreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-fastreer", "latest": {"1.2.0--r42hdfd78af_0": "sha256:8072262b1e91e0a75ce3b5ff5279c1651d84417fb9bd571008f9bd12a4e8f5b9"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:8072262b1e91e0a75ce3b5ff5279c1651d84417fb9bd571008f9bd12a4e8f5b9"}, "docker": "quay.io/biocontainers/bioconductor-fastreer", "aliases": {"jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fastreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-fastreer", "latest": {"1.4.0--r43hdfd78af_0": "sha256:a3d4e3d90d0b99f34ca617c5f6d99d4d710d4fae9b82324f7f2d85f7a8471f5c"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:8072262b1e91e0a75ce3b5ff5279c1651d84417fb9bd571008f9bd12a4e8f5b9", "1.4.0--r43hdfd78af_0": "sha256:a3d4e3d90d0b99f34ca617c5f6d99d4d710d4fae9b82324f7f2d85f7a8471f5c"}, "docker": "quay.io/biocontainers/bioconductor-fastreer", "aliases": {"jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fastreer.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fastreer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fastreer:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fastreer:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fastreer/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fastreer/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fastreer/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fastreer/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

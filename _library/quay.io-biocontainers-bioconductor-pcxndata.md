@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pcxndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcxndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcxndata/container.yaml"
-updated_at: "2023-07-28 03:07:56.243492"
-latest: "2.19.0--r42hdfd78af_0"
+updated_at: "2023-07-29 03:05:04.297953"
+latest: "2.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcxndata"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "2.14.0--r41hdfd78af_0"
  - "2.12.0--r40hdfd78af_2"
  - "2.11.0--r40_0"
+ - "2.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcxndata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcxndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcxndata", "latest": {"2.19.0--r42hdfd78af_0": "sha256:259dd5c2b3f14b92fd462f8360843ef259d9c9ca25ce3b14be7eca6989bcd1ee"}, "tags": {"2.8.0--r36_0": "sha256:816352145f8c11c37242a3194b77924c9668940be6f2737a9021cb5c0d83a004", "2.19.0--r42hdfd78af_0": "sha256:259dd5c2b3f14b92fd462f8360843ef259d9c9ca25ce3b14be7eca6989bcd1ee", "2.16.0--r41hdfd78af_1": "sha256:6e845237e620c93f2df6256411d0f7f5b18055a23d6df21c6035231fae8f4666", "2.14.0--r41hdfd78af_0": "sha256:f1676f907e049d6a250537700c4edfcf7baac2d910332a448b1391b59c8a5244", "2.12.0--r40hdfd78af_2": "sha256:cd75cf8fdc219afb14d9b440c2f1552236b952fb5155d09727791739ae5173cc", "2.11.0--r40_0": "sha256:efaab3cd0443f92e4978dd7d6e804bbba43309e36b682f1ceba156586846bdd5"}, "docker": "quay.io/biocontainers/bioconductor-pcxndata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcxndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcxndata", "latest": {"2.22.0--r43hdfd78af_0": "sha256:ceced6d9388ff2f48d6ab7f0c9738aaf4f6aa7f6037ae3c3209fb669530b4a7e"}, "tags": {"2.8.0--r36_0": "sha256:816352145f8c11c37242a3194b77924c9668940be6f2737a9021cb5c0d83a004", "2.19.0--r42hdfd78af_0": "sha256:259dd5c2b3f14b92fd462f8360843ef259d9c9ca25ce3b14be7eca6989bcd1ee", "2.16.0--r41hdfd78af_1": "sha256:6e845237e620c93f2df6256411d0f7f5b18055a23d6df21c6035231fae8f4666", "2.14.0--r41hdfd78af_0": "sha256:f1676f907e049d6a250537700c4edfcf7baac2d910332a448b1391b59c8a5244", "2.12.0--r40hdfd78af_2": "sha256:cd75cf8fdc219afb14d9b440c2f1552236b952fb5155d09727791739ae5173cc", "2.11.0--r40_0": "sha256:efaab3cd0443f92e4978dd7d6e804bbba43309e36b682f1ceba156586846bdd5", "2.22.0--r43hdfd78af_0": "sha256:ceced6d9388ff2f48d6ab7f0c9738aaf4f6aa7f6037ae3c3209fb669530b4a7e"}, "docker": "quay.io/biocontainers/bioconductor-pcxndata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcxndata.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pcxndata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pcxndata:2.19.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pcxndata:2.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pcxndata/2.19.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pcxndata/2.19.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pcxndata/2.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pcxndata/2.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

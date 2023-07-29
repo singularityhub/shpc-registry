@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tximport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tximport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tximport/container.yaml"
-updated_at: "2023-07-28 02:58:41.800194"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-07-29 02:55:47.451098"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tximport"
 aliases:
  - "ncurses5-config"
@@ -17,8 +17,9 @@ versions:
  - "1.20.0--r41hdfd78af_0"
  - "1.18.0--r40hdfd78af_1"
  - "1.16.0--r40_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tximport"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tximport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tximport", "latest": {"1.26.0--r42hdfd78af_0": "sha256:244fb166517c9f4823a8088449adda9192f183aa752972c20180013ea2331469"}, "tags": {"1.8.0--r341_0": "sha256:ebfc58e2f4fcaa0cbf9e78052d1254475aa132d602b3f2f903c922475724e150", "1.26.0--r42hdfd78af_0": "sha256:244fb166517c9f4823a8088449adda9192f183aa752972c20180013ea2331469", "1.22.0--r41hdfd78af_0": "sha256:213e81fb2d1134b824e43a4be4bd8092319bdefcaeef2a2f9eef19cfc4b271fe", "1.20.0--r41hdfd78af_0": "sha256:857cc40b706b4c0e4d594e9c63d30a943d01d4f0ba2e34db60c629741de1bbe0", "1.18.0--r40hdfd78af_1": "sha256:234b431e0a2644f7c1f6ccb726ecd8ce11e110c5f42bd35a7690d7ca8812aeac", "1.16.0--r40_0": "sha256:4da3cdd54275745bb2c73c44e33c988742befd3adbbfa486a1fb16fb13aa4e44"}, "docker": "quay.io/biocontainers/bioconductor-tximport", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tximport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tximport", "latest": {"1.28.0--r43hdfd78af_0": "sha256:f2247712c572e2450e514ddcb416b4ef31b378a826e7f57d91544bcda52473b6"}, "tags": {"1.8.0--r341_0": "sha256:ebfc58e2f4fcaa0cbf9e78052d1254475aa132d602b3f2f903c922475724e150", "1.26.0--r42hdfd78af_0": "sha256:244fb166517c9f4823a8088449adda9192f183aa752972c20180013ea2331469", "1.22.0--r41hdfd78af_0": "sha256:213e81fb2d1134b824e43a4be4bd8092319bdefcaeef2a2f9eef19cfc4b271fe", "1.20.0--r41hdfd78af_0": "sha256:857cc40b706b4c0e4d594e9c63d30a943d01d4f0ba2e34db60c629741de1bbe0", "1.18.0--r40hdfd78af_1": "sha256:234b431e0a2644f7c1f6ccb726ecd8ce11e110c5f42bd35a7690d7ca8812aeac", "1.16.0--r40_0": "sha256:4da3cdd54275745bb2c73c44e33c988742befd3adbbfa486a1fb16fb13aa4e44", "1.28.0--r43hdfd78af_0": "sha256:f2247712c572e2450e514ddcb416b4ef31b378a826e7f57d91544bcda52473b6"}, "docker": "quay.io/biocontainers/bioconductor-tximport", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tximport.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tximport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tximport:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tximport:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tximport/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tximport/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tximport/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tximport/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

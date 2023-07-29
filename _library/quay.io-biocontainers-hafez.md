@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hafez"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hafez/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hafez/container.yaml"
-updated_at: "2023-07-28 03:27:28.538277"
+updated_at: "2023-07-29 03:24:14.495561"
 latest: "1.0.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hafez"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-diffloopdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffloopdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffloopdata/container.yaml"
-updated_at: "2023-07-28 02:39:49.850970"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-07-29 02:36:47.920709"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffloopdata"
 
 versions:
  - "1.22.0--r41hdfd78af_1"
  - "1.26.0--r42hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diffloopdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diffloopdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffloopdata", "latest": {"1.26.0--r42hdfd78af_0": "sha256:643dceb942bf6b738b89fdd8ffcc6b7a0dbe355b2ed22d41451dfcaebca04a2e"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:fdbb54ba14770c47aed0de81da2003546587a533a09e06f5b98603032c4a0222", "1.26.0--r42hdfd78af_0": "sha256:643dceb942bf6b738b89fdd8ffcc6b7a0dbe355b2ed22d41451dfcaebca04a2e"}, "docker": "quay.io/biocontainers/bioconductor-diffloopdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diffloopdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffloopdata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:3894cf30dada1de0bba58ebe75bc02266980b2d65e089a53bf7bcfc8f7d4cfff"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:fdbb54ba14770c47aed0de81da2003546587a533a09e06f5b98603032c4a0222", "1.26.0--r42hdfd78af_0": "sha256:643dceb942bf6b738b89fdd8ffcc6b7a0dbe355b2ed22d41451dfcaebca04a2e", "1.28.0--r43hdfd78af_0": "sha256:3894cf30dada1de0bba58ebe75bc02266980b2d65e089a53bf7bcfc8f7d4cfff"}, "docker": "quay.io/biocontainers/bioconductor-diffloopdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diffloopdata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-diffloopdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-diffloopdata:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-diffloopdata:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-diffloopdata/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-diffloopdata/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-diffloopdata/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-diffloopdata/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

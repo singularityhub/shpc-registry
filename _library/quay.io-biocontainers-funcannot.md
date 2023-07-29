@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/funcannot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/funcannot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/funcannot/container.yaml"
-updated_at: "2023-07-28 02:41:22.594700"
+updated_at: "2023-07-29 02:38:20.874734"
 latest: "v2.8--h470a237_1"
 container_url: "https://biocontainers.pro/tools/funcannot"
 aliases:

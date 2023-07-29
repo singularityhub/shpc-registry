@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19/container.yaml"
-updated_at: "2023-07-28 02:59:35.707706"
+updated_at: "2023-07-29 02:56:40.029124"
 latest: "3.10.0--r43hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.topmed.freeze5.hg19"
 aliases:

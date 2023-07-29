@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-dittoseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dittoseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dittoseq/container.yaml"
-updated_at: "2023-07-28 02:42:13.173311"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-07-29 02:39:11.177923"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dittoseq"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dittoseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dittoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dittoseq", "latest": {"1.10.0--r42hdfd78af_0": "sha256:45a3974b1cbd070565e9f0902e96848df4c210a44b38cd5436eee5510b71ba60"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4496821416aef5cc939f99aaed99f50ef450f4355f8dbd0cae69a0a88929c7cf", "1.10.0--r42hdfd78af_0": "sha256:45a3974b1cbd070565e9f0902e96848df4c210a44b38cd5436eee5510b71ba60"}, "docker": "quay.io/biocontainers/bioconductor-dittoseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dittoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dittoseq", "latest": {"1.12.0--r43hdfd78af_0": "sha256:d8b325c597260ff993e050ee54471c482a57f8a711bb9cd88b4531fd4685146e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:4496821416aef5cc939f99aaed99f50ef450f4355f8dbd0cae69a0a88929c7cf", "1.10.0--r42hdfd78af_0": "sha256:45a3974b1cbd070565e9f0902e96848df4c210a44b38cd5436eee5510b71ba60", "1.12.0--r43hdfd78af_0": "sha256:d8b325c597260ff993e050ee54471c482a57f8a711bb9cd88b4531fd4685146e"}, "docker": "quay.io/biocontainers/bioconductor-dittoseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dittoseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dittoseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dittoseq:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dittoseq:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dittoseq/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dittoseq/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dittoseq/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dittoseq/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

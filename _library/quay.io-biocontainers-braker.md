@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/braker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/braker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/braker/container.yaml"
-updated_at: "2023-07-28 03:09:32.874635"
+updated_at: "2023-07-29 03:06:39.834453"
 latest: "1.9--pl5321hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/braker"
 

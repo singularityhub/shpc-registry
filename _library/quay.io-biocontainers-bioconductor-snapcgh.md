@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snapcgh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snapcgh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snapcgh/container.yaml"
-updated_at: "2023-07-28 03:20:05.039882"
+updated_at: "2023-07-29 03:17:00.509362"
 latest: "1.68.0--r42ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-snapcgh"
 

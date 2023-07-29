@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hostile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hostile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hostile/container.yaml"
-updated_at: "2023-07-28 02:41:40.034107"
-latest: "0.0.2--pyhdfd78af_0"
+updated_at: "2023-07-29 02:38:38.295378"
+latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hostile"
 aliases:
  - "hostile"
@@ -37,8 +37,10 @@ aliases:
  - "bowtie2-inspect"
 versions:
  - "0.0.2--pyhdfd78af_0"
+ - "0.1.0--pyhdfd78af_0"
+ - "0.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hostile"
-config: {"url": "https://biocontainers.pro/tools/hostile", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hostile", "latest": {"0.0.2--pyhdfd78af_0": "sha256:f5960c62146844c5d35c23c47740b1d6866ca3b358d2d77253df8a86eb7e5c9c"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:f5960c62146844c5d35c23c47740b1d6866ca3b358d2d77253df8a86eb7e5c9c"}, "docker": "quay.io/biocontainers/hostile", "aliases": {"hostile": "/usr/local/bin/hostile", "httpx": "/usr/local/bin/httpx", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "docutils": "/usr/local/bin/docutils", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect"}}
+config: {"url": "https://biocontainers.pro/tools/hostile", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hostile", "latest": {"0.1.0--pyhdfd78af_0": "sha256:d6e620adc6339256e348b364f337a5bef4b0312581e46e42a391ba8a427289b6"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:f5960c62146844c5d35c23c47740b1d6866ca3b358d2d77253df8a86eb7e5c9c", "0.1.0--pyhdfd78af_0": "sha256:d6e620adc6339256e348b364f337a5bef4b0312581e46e42a391ba8a427289b6", "0.0.3--pyhdfd78af_0": "sha256:03605818c64e135d77cc036c8fa215940082c982799462987fef3a18781742e6"}, "docker": "quay.io/biocontainers/hostile", "aliases": {"hostile": "/usr/local/bin/hostile", "httpx": "/usr/local/bin/httpx", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "docutils": "/usr/local/bin/docutils", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hostile.
@@ -53,7 +55,7 @@ $ shpc install quay.io/biocontainers/hostile
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hostile:0.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hostile:0.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hostile/0.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/hostile/0.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/hostile/0.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/hostile/0.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

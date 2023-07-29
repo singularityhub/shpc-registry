@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-batch/container.yaml"
-updated_at: "2023-07-28 02:55:34.237180"
-latest: "1.1_4--r3.3.1_1"
+updated_at: "2023-07-29 02:52:41.825528"
+latest: "1.1_5"
 container_url: "https://biocontainers.pro/tools/r-batch"
 aliases:
  - "uconv"
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1_4--r3.3.1_1"
+ - "1.1_5"
 description: "shpc-registry automated BioContainers addition for r-batch"
-config: {"url": "https://biocontainers.pro/tools/r-batch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-batch", "latest": {"1.1_4--r3.3.1_1": "sha256:5ff47103edda0863e54dbdd0e70a9ac532cab979d57cc7ced440532b2d5ac076"}, "tags": {"1.1_4--r3.3.1_1": "sha256:5ff47103edda0863e54dbdd0e70a9ac532cab979d57cc7ced440532b2d5ac076"}, "docker": "quay.io/biocontainers/r-batch", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-batch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-batch", "latest": {"1.1_5": "sha256:f4e40c9879e72160e7bd674d2e4448c7452c334d66da7203c9fa4106c7b36665"}, "tags": {"1.1_4--r3.3.1_1": "sha256:5ff47103edda0863e54dbdd0e70a9ac532cab979d57cc7ced440532b2d5ac076", "1.1_5": "sha256:f4e40c9879e72160e7bd674d2e4448c7452c334d66da7203c9fa4106c7b36665"}, "docker": "quay.io/biocontainers/r-batch", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-batch.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-batch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-batch:1.1_4--r3.3.1_1
+$ shpc install quay.io/biocontainers/r-batch:1.1_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-batch/1.1_4--r3.3.1_1
-$ module help quay.io/biocontainers/r-batch/1.1_4--r3.3.1_1
+$ module load quay.io/biocontainers/r-batch/1.1_5
+$ module help quay.io/biocontainers/r-batch/1.1_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

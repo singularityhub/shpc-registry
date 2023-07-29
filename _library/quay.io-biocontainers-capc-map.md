@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/capc-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/capc-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/capc-map/container.yaml"
-updated_at: "2023-07-28 03:28:34.067483"
+updated_at: "2023-07-29 03:25:17.835329"
 latest: "1.1.3--py36hffcf100_6"
 container_url: "https://biocontainers.pro/tools/capc-map"
 aliases:

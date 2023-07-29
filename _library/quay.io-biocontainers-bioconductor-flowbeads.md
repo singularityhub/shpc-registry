@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-flowbeads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowbeads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowbeads/container.yaml"
-updated_at: "2023-07-28 03:24:22.794297"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-07-29 03:21:13.490976"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowbeads"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowbeads"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowbeads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowbeads", "latest": {"1.36.0--r42hdfd78af_0": "sha256:b308e705d2ab4fd835d0d3bdd29faa474ba42634b895379cd792887812752e2c"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:ad6df167921a77f7deaa707414edfd5502657093a538331ff013106abfd2c3ca", "1.36.0--r42hdfd78af_0": "sha256:b308e705d2ab4fd835d0d3bdd29faa474ba42634b895379cd792887812752e2c"}, "docker": "quay.io/biocontainers/bioconductor-flowbeads"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowbeads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowbeads", "latest": {"1.38.0--r43hdfd78af_0": "sha256:0181b28e3bd874804cca0746ffbaed02fda8f4058103f3bfc35879299c68e5e3"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:ad6df167921a77f7deaa707414edfd5502657093a538331ff013106abfd2c3ca", "1.36.0--r42hdfd78af_0": "sha256:b308e705d2ab4fd835d0d3bdd29faa474ba42634b895379cd792887812752e2c", "1.38.0--r43hdfd78af_0": "sha256:0181b28e3bd874804cca0746ffbaed02fda8f4058103f3bfc35879299c68e5e3"}, "docker": "quay.io/biocontainers/bioconductor-flowbeads"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowbeads.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowbeads
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowbeads:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowbeads:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowbeads/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowbeads/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowbeads/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowbeads/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

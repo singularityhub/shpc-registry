@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rappas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rappas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rappas/container.yaml"
-updated_at: "2023-07-28 03:08:11.531873"
+updated_at: "2023-07-29 03:05:19.330125"
 latest: "1.21--0"
 container_url: "https://biocontainers.pro/tools/rappas"
 aliases:

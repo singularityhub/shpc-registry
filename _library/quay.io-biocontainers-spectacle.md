@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectacle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectacle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectacle/container.yaml"
-updated_at: "2023-07-28 03:32:51.532182"
+updated_at: "2023-07-29 03:29:28.124087"
 latest: "1.4--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/spectacle"
 aliases:

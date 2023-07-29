@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/structureharvester"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/structureharvester/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/structureharvester/container.yaml"
-updated_at: "2023-07-28 03:25:27.574765"
+updated_at: "2023-07-29 03:22:16.465572"
 latest: "0.6.94--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/structureharvester"
 aliases:

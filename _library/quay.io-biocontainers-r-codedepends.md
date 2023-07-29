@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-codedepends"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-codedepends/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-codedepends/container.yaml"
-updated_at: "2023-07-28 02:48:50.913161"
-latest: "0.6.5--r42h3342da4_3"
+updated_at: "2023-07-29 02:45:55.604395"
+latest: "0.6.5--r43h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-codedepends"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.6.5--r41h3342da4_2"
  - "0.6.5--r42h3342da4_3"
+ - "0.6.5--r43h3342da4_4"
 description: "shpc-registry automated BioContainers addition for r-codedepends"
-config: {"url": "https://biocontainers.pro/tools/r-codedepends", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-codedepends", "latest": {"0.6.5--r42h3342da4_3": "sha256:5fce6007fd1f9da8a9e2779b583d8036b254d5f72abc57d675cd20ea1e8bf38d"}, "tags": {"0.6.5--r41h3342da4_2": "sha256:ed3a17cddd3f3c638dd7df5bb0263f0327ef562c9342ee60f7197b9839def380", "0.6.5--r42h3342da4_3": "sha256:5fce6007fd1f9da8a9e2779b583d8036b254d5f72abc57d675cd20ea1e8bf38d"}, "docker": "quay.io/biocontainers/r-codedepends", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-codedepends", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-codedepends", "latest": {"0.6.5--r43h3342da4_4": "sha256:40c6b7e7230556e0d34f6fc67dfe5f31822c28f71b82ab293486fa9ce2bd6098"}, "tags": {"0.6.5--r41h3342da4_2": "sha256:ed3a17cddd3f3c638dd7df5bb0263f0327ef562c9342ee60f7197b9839def380", "0.6.5--r42h3342da4_3": "sha256:5fce6007fd1f9da8a9e2779b583d8036b254d5f72abc57d675cd20ea1e8bf38d", "0.6.5--r43h3342da4_4": "sha256:40c6b7e7230556e0d34f6fc67dfe5f31822c28f71b82ab293486fa9ce2bd6098"}, "docker": "quay.io/biocontainers/r-codedepends", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-codedepends.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-codedepends
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-codedepends:0.6.5--r42h3342da4_3
+$ shpc install quay.io/biocontainers/r-codedepends:0.6.5--r43h3342da4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-codedepends/0.6.5--r42h3342da4_3
-$ module help quay.io/biocontainers/r-codedepends/0.6.5--r42h3342da4_3
+$ module load quay.io/biocontainers/r-codedepends/0.6.5--r43h3342da4_4
+$ module help quay.io/biocontainers/r-codedepends/0.6.5--r43h3342da4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/badread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/badread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/badread/container.yaml"
-updated_at: "2023-07-28 03:31:54.672085"
+updated_at: "2023-07-29 03:28:32.850325"
 latest: "0.4.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/badread"
 aliases:

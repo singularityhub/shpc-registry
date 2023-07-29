@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opentargets-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opentargets-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets-validator/container.yaml"
-updated_at: "2023-07-28 02:53:16.936827"
+updated_at: "2023-07-29 02:50:23.508299"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/opentargets-validator"
 aliases:

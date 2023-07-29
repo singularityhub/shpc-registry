@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-musicatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-musicatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-musicatk/container.yaml"
-updated_at: "2023-07-28 02:43:05.697955"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-07-29 02:40:03.786167"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-musicatk"
 aliases:
  - "pandoc"
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-musicatk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-musicatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-musicatk", "latest": {"1.8.0--r42hdfd78af_0": "sha256:c97cac1ab0b7ccd781de8a5afa1cacafdf689a2a19c15851e66b1b64bffc1bbe"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37", "1.8.0--r42hdfd78af_0": "sha256:c97cac1ab0b7ccd781de8a5afa1cacafdf689a2a19c15851e66b1b64bffc1bbe"}, "docker": "quay.io/biocontainers/bioconductor-musicatk", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-musicatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-musicatk", "latest": {"1.10.0--r43hdfd78af_0": "sha256:c5ce05cc4a05b0fc43e52977a8e64c9e04f307c03627aa5b5a40cca65fe99fc7"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37", "1.8.0--r42hdfd78af_0": "sha256:c97cac1ab0b7ccd781de8a5afa1cacafdf689a2a19c15851e66b1b64bffc1bbe", "1.10.0--r43hdfd78af_0": "sha256:c5ce05cc4a05b0fc43e52977a8e64c9e04f307c03627aa5b5a40cca65fe99fc7"}, "docker": "quay.io/biocontainers/bioconductor-musicatk", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-musicatk.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-musicatk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-musicatk:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-musicatk:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-musicatk/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-musicatk/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-musicatk/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-musicatk/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

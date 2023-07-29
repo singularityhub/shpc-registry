@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-sugarcanecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sugarcanecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sugarcanecdf/container.yaml"
-updated_at: "2023-07-28 02:37:01.450300"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-07-29 02:34:01.256622"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-sugarcanecdf"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-sugarcanecdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sugarcanecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sugarcanecdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:b8ae649d244269cd281ffabb2ce08aa595577d202183e56279bdf806096d40cb"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:0225248830c508d08be12db0ee7b7f6d14f72c65be3cc6579a8b7ee9878f4e18", "2.18.0--r42hdfd78af_10": "sha256:b8ae649d244269cd281ffabb2ce08aa595577d202183e56279bdf806096d40cb"}, "docker": "quay.io/biocontainers/bioconductor-sugarcanecdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sugarcanecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sugarcanecdf", "latest": {"2.18.0--r43hdfd78af_11": "sha256:9aa00b6bd9b6c5d386a9626846abfd352ecdd0251d00f053c959bd6189707023"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:0225248830c508d08be12db0ee7b7f6d14f72c65be3cc6579a8b7ee9878f4e18", "2.18.0--r42hdfd78af_10": "sha256:b8ae649d244269cd281ffabb2ce08aa595577d202183e56279bdf806096d40cb", "2.18.0--r43hdfd78af_11": "sha256:9aa00b6bd9b6c5d386a9626846abfd352ecdd0251d00f053c959bd6189707023"}, "docker": "quay.io/biocontainers/bioconductor-sugarcanecdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sugarcanecdf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sugarcanecdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sugarcanecdf:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-sugarcanecdf:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sugarcanecdf/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-sugarcanecdf/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-sugarcanecdf/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-sugarcanecdf/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
