@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/actc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/actc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/actc/container.yaml"
-updated_at: "2023-07-29 03:26:07.671983"
+updated_at: "2023-07-30 03:17:34.608850"
 latest: "0.2.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/actc"
 aliases:
