@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/orfanage
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for orfanage
+latest:
+  1.0.4--ha666654_0: sha256:e758da6b14f6b1338585cea0c9e1482bd9e6a78901fa5f148d34bb23a4ece3e3
+tags:
+  1.0.4--ha666654_0: sha256:e758da6b14f6b1338585cea0c9e1482bd9e6a78901fa5f148d34bb23a4ece3e3
+docker: quay.io/biocontainers/orfanage
+aliases:
+  orfanage: /usr/local/bin/orfanage
