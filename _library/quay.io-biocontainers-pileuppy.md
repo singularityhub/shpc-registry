@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pileuppy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pileuppy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pileuppy/container.yaml"
-updated_at: "2023-07-30 02:57:22.278936"
+updated_at: "2023-07-31 03:06:52.921887"
 latest: "1.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/pileuppy"
 aliases:
