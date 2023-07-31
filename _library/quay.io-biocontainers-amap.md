@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amap/container.yaml"
-updated_at: "2023-07-31 03:24:55.540281"
+updated_at: "2023-07-31 03:39:18.564841"
 latest: "2.2--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/amap"
 aliases:

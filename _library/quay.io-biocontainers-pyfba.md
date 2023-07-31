@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfba/container.yaml"
-updated_at: "2023-07-31 03:13:17.744828"
+updated_at: "2023-07-31 03:29:42.370803"
 latest: "2.62--py310hd024d07_5"
 container_url: "https://biocontainers.pro/tools/pyfba"
 aliases:

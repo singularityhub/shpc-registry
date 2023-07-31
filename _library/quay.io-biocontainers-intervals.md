@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intervals/container.yaml"
-updated_at: "2023-07-31 03:26:58.324954"
+updated_at: "2023-07-31 03:41:00.649922"
 latest: "0.6.0--py36_0"
 container_url: "https://biocontainers.pro/tools/intervals"
 aliases:

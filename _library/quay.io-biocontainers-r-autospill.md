@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-autospill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-autospill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-autospill/container.yaml"
-updated_at: "2023-07-31 02:50:38.861049"
+updated_at: "2023-07-31 03:11:06.271809"
 latest: "0.2.0--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-autospill"
 aliases:

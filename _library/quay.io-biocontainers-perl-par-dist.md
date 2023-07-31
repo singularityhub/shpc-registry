@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-par-dist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-par-dist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-par-dist/container.yaml"
-updated_at: "2023-07-31 03:29:01.347798"
+updated_at: "2023-07-31 03:42:42.673159"
 latest: "0.49--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-par-dist"
 aliases:

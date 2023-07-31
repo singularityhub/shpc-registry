@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-branchpointer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-branchpointer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-branchpointer/container.yaml"
-updated_at: "2023-07-31 02:43:31.111899"
+updated_at: "2023-07-31 03:05:14.382571"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-branchpointer"
 aliases:

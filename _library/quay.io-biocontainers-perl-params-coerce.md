@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-params-coerce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-params-coerce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-params-coerce/container.yaml"
-updated_at: "2023-07-31 02:59:23.924105"
+updated_at: "2023-07-31 03:18:17.797531"
 latest: "0.14--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-params-coerce"
 aliases:
