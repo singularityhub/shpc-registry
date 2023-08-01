@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-genomautomorphism
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-genomautomorphism
 latest:
-  1.0.0--r42hdfd78af_0: sha256:930f4b444f58b81067b990a18c93a824216420daa7c85dd893cdc654a0adc7e7
+  1.2.0--r43hdfd78af_0: sha256:66ecb1322c72c6e6e08e148bcb11989b6e2915c14d3ed101c297c0d851f76087
 tags:
   1.0.0--r42hdfd78af_0: sha256:930f4b444f58b81067b990a18c93a824216420daa7c85dd893cdc654a0adc7e7
+  1.2.0--r43hdfd78af_0: sha256:66ecb1322c72c6e6e08e148bcb11989b6e2915c14d3ed101c297c0d851f76087
 docker: quay.io/biocontainers/bioconductor-genomautomorphism
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

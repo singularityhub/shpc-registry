@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-spiat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-spiat
 latest:
-  1.0.0--r42hdfd78af_0: sha256:1f848c9e7809a1728a5e9041a187d570ee5f93f7660b676a72d30b1b2de03d36
+  1.2.2--r43hdfd78af_0: sha256:69d272e4ecedcca0d04b905c263050a795f7bbb95e7a5ad4616be11f85d90756
 tags:
   1.0.0--r42hdfd78af_0: sha256:1f848c9e7809a1728a5e9041a187d570ee5f93f7660b676a72d30b1b2de03d36
+  1.2.2--r43hdfd78af_0: sha256:69d272e4ecedcca0d04b905c263050a795f7bbb95e7a5ad4616be11f85d90756
 docker: quay.io/biocontainers/bioconductor-spiat
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

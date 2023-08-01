@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-adme16cod.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-adme16cod.db
 latest:
-  3.4.0--r42hdfd78af_10: sha256:3053c7d666c48e337218f8fd458d2f72c5b2f25103131ba04ac526b6e88adea9
+  3.4.0--r43hdfd78af_11: sha256:0443a19a3871311391f1cd6f443a9d6bd23c9c3dc41c5f0da46d878055260fea
 tags:
   3.4.0--r41hdfd78af_9: sha256:1b904438d6fcc54cdd1a90415a7ef38caf0971d4d48f9c8287874f700d944d45
   3.4.0--r42hdfd78af_10: sha256:3053c7d666c48e337218f8fd458d2f72c5b2f25103131ba04ac526b6e88adea9
+  3.4.0--r43hdfd78af_11: sha256:0443a19a3871311391f1cd6f443a9d6bd23c9c3dc41c5f0da46d878055260fea
 docker: quay.io/biocontainers/bioconductor-adme16cod.db

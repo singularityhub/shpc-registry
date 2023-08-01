@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-iloreg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-iloreg
 latest:
-  1.8.0--r42hdfd78af_0: sha256:ae83eff7fb9113c4855bfd1c998c2b19fc0546a570091e97a1b94ff29dbe21bd
+  1.10.0--r43hdfd78af_0: sha256:77b0bfd895c57a0d6163d755937422ddc6e1ade67e7d56a94348a97937fe3839
 tags:
   1.4.0--r41hdfd78af_0: sha256:1c023cc65f2f3996fbc60f856af57b78cfe06a005406562b433369a1c1685ab1
   1.8.0--r42hdfd78af_0: sha256:ae83eff7fb9113c4855bfd1c998c2b19fc0546a570091e97a1b94ff29dbe21bd
+  1.10.0--r43hdfd78af_0: sha256:77b0bfd895c57a0d6163d755937422ddc6e1ade67e7d56a94348a97937fe3839
 docker: quay.io/biocontainers/bioconductor-iloreg

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-biodb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biodb
 latest:
-  1.6.0--r42hf17093f_1: sha256:feca11aebebee1366f0024e5fad9c51bd929e88ea1607aaf960ffec5c571753b
+  1.8.0--r43hf17093f_0: sha256:b60d5c4b5e1052ed0f8f11ba9f6dd2849f168fc6eafa5dc4cac4be380138b748
 tags:
   1.2.2--r41hc247a5b_1: sha256:eaf4b6be0624ad0fbd231ee7f8c80e555636582625654628b7bb9d5230c98099
   1.6.0--r42hc247a5b_0: sha256:1a95df74b43a31827fc24900a01aea9f009afae3e8b72866cf4656d5980ff096
   1.6.0--r42hf17093f_1: sha256:feca11aebebee1366f0024e5fad9c51bd929e88ea1607aaf960ffec5c571753b
+  1.8.0--r43hf17093f_0: sha256:b60d5c4b5e1052ed0f8f11ba9f6dd2849f168fc6eafa5dc4cac4be380138b748
 docker: quay.io/biocontainers/bioconductor-biodb

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-genemeta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genemeta
 latest:
-  1.70.0--r42hdfd78af_0: sha256:7ad0c9a3b163474db914651e345e21c9c68ec2c7d30ab2b383ce91e365a41424
+  1.72.0--r43hdfd78af_0: sha256:5673f4b353f76860f26f0ec5b8be4d956e0b72a4b4412a5a145eafad8414c009
 tags:
   1.66.0--r41hdfd78af_0: sha256:207ba77e7c439d1ceb3441aa2218401c9ce71c4df85428ff0e8ad8aabbee7921
   1.70.0--r42hdfd78af_0: sha256:7ad0c9a3b163474db914651e345e21c9c68ec2c7d30ab2b383ce91e365a41424
+  1.72.0--r43hdfd78af_0: sha256:5673f4b353f76860f26f0ec5b8be4d956e0b72a4b4412a5a145eafad8414c009
 docker: quay.io/biocontainers/bioconductor-genemeta

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-epigrahmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epigrahmm
 latest:
-  1.6.4--r42hf17093f_1: sha256:63f007e732a6774356c94656e722582008a509d5f3d57af55b76b66130651059
+  1.8.2--r43hf17093f_0: sha256:912ac6be3e86eea0c7ef98351319467774e248e05f8194fd10c68ba6ac31ad88
 tags:
   1.2.2--r41hc247a5b_1: sha256:300dc00b6c5dc135b07edded18c4d663fb851905245ef62565fa76b9172f76eb
   1.6.0--r42hc247a5b_0: sha256:52a5f3f428a8c42381adff79587fac9f884b8d0cfee3b458f99e157bb4370cdc
   1.6.4--r42hc247a5b_0: sha256:eee62ffb1383271404e604c64f499875fd4ff44aa3ecbd2470341f7a79d897a5
   1.6.4--r42hf17093f_1: sha256:63f007e732a6774356c94656e722582008a509d5f3d57af55b76b66130651059
+  1.8.2--r43hf17093f_0: sha256:912ac6be3e86eea0c7ef98351319467774e248e05f8194fd10c68ba6ac31ad88
 docker: quay.io/biocontainers/bioconductor-epigrahmm
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

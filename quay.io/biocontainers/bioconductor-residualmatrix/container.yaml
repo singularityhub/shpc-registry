@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-residualmatrix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-residualmatrix
 latest:
-  1.8.0--r42hdfd78af_0: sha256:60f909fee719423873aa6b7560de05b1874afb8e2c163461e11fc890229fd60e
+  1.10.0--r43hdfd78af_0: sha256:128c4bfa55f0bccda2484e9fd8b1e3925a63c3310dd4ba2034d402e2705a8b27
 tags:
   1.4.0--r41hdfd78af_0: sha256:e4a5bb7e77511b76496304f57de9f06f529fae1765d88c13a8f8c1884e0b5c8c
   1.8.0--r42hdfd78af_0: sha256:60f909fee719423873aa6b7560de05b1874afb8e2c163461e11fc890229fd60e
+  1.10.0--r43hdfd78af_0: sha256:128c4bfa55f0bccda2484e9fd8b1e3925a63c3310dd4ba2034d402e2705a8b27
 docker: quay.io/biocontainers/bioconductor-residualmatrix

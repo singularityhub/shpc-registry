@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/clair3-illumina
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for clair3-illumina
 latest:
-  1.0.3--h376f1d3_0: sha256:8d864e8e119c43c47b95ee23754c6356d5febf31173de3eced5d623fb6d1736e
+  1.0.4--h376f1d3_0: sha256:69f9c6c2a6862db96ac6f611174a82951c9338d2bc623bb6d01b188be1b042af
 tags:
   0.1.5--h2df963e_1: sha256:2afff90b40c83cfb538d4d13623e428bce6bc806d3a5ec98ceaa92d2207cc998
   1.0.0--h2df963e_0: sha256:1af2c9a7bad9470fda6c743ecd73d801a944f578d602f870fc20a634823745df
   1.0.1--h2df963e_0: sha256:19e8cf22594f1e70e660740b31f1414aaeae6ce7810313950fe8c31488c5968c
   1.0.2--h2df963e_0: sha256:ce8d3dec45c55d83a5f30b2261ea1b1d66159657e25b249944092edf6a6caf23
   1.0.3--h376f1d3_0: sha256:8d864e8e119c43c47b95ee23754c6356d5febf31173de3eced5d623fb6d1736e
+  1.0.4--h376f1d3_0: sha256:69f9c6c2a6862db96ac6f611174a82951c9338d2bc623bb6d01b188be1b042af
 docker: quay.io/biocontainers/clair3-illumina
 aliases:
   clair3.py: /usr/local/bin/clair3.py

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-mirsponger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirsponger
 latest:
-  2.2.0--r42hf17093f_1: sha256:4b8760e4779b32d32cd2cad2861b133c4a684c620740ebd4ab6274b481ed5eaf
+  2.4.0--r43hf17093f_0: sha256:920646860b1ff182031aa589a577c07d268a78c8f08c029701922bc61042a8f7
 tags:
   1.20.1--r41hc247a5b_1: sha256:f8708faad531ebb77657c78a7aa02bc4b8ea9a9449370e633a9367b07972ce57
   2.2.0--r42hc247a5b_0: sha256:63c5c4ddf17990837b1e689b9b62ea01a98a7788044b6469e0f482c21baf1f81
   2.2.0--r42hf17093f_1: sha256:4b8760e4779b32d32cd2cad2861b133c4a684c620740ebd4ab6274b481ed5eaf
+  2.4.0--r43hf17093f_0: sha256:920646860b1ff182031aa589a577c07d268a78c8f08c029701922bc61042a8f7
 docker: quay.io/biocontainers/bioconductor-mirsponger
 aliases:
   glpsol: /usr/local/bin/glpsol
