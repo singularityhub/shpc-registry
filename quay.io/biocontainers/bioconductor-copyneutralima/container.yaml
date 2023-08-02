@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-copyneutralima
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-copyneutralima
 latest:
-  1.16.0--r42hdfd78af_0: sha256:63b60f0a575013d0d9b174818d794a4d454eeab9b290da09be9f271758b0da16
+  1.18.0--r43hdfd78af_0: sha256:3dea982ad1c3408982ae2287c7bc2e532b62a676a8c7840500c371ba29d9ed59
 tags:
   1.8.0--r40hdfd78af_1: sha256:0728f30629f1046cfb6e6595cd460cf524628a5a62b399a134101f4eb424ce36
   1.12.0--r41hdfd78af_1: sha256:29a306b21f5c19a8d9a3f0430717dcf13429e27891bb5de9471bed59baea118a
   1.10.0--r41hdfd78af_0: sha256:4db48ef61609205e229641abac8f316ee77c356b943dc1740c921bcdb4b926e3
   1.16.0--r42hdfd78af_0: sha256:63b60f0a575013d0d9b174818d794a4d454eeab9b290da09be9f271758b0da16
+  1.18.0--r43hdfd78af_0: sha256:3dea982ad1c3408982ae2287c7bc2e532b62a676a8c7840500c371ba29d9ed59
 docker: quay.io/biocontainers/bioconductor-copyneutralima
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

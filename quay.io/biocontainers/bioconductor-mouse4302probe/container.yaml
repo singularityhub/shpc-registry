@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mouse4302probe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mouse4302probe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:b2a766a42d6f95894775d38782398d0e4dcda116e5812fd1167ae880e82323b2
+  2.18.0--r43hdfd78af_11: sha256:efd0c9775b25f61e34430354c9ad713ff20835fe7e11823a56a0ca32ae122d5a
 tags:
   2.18.0--r41hdfd78af_9: sha256:492bdd459bb0e4624389c13c7e4917c184c3538e0b5247f80a0af2f81a4f1976
   2.18.0--r42hdfd78af_10: sha256:b2a766a42d6f95894775d38782398d0e4dcda116e5812fd1167ae880e82323b2
+  2.18.0--r43hdfd78af_11: sha256:efd0c9775b25f61e34430354c9ad713ff20835fe7e11823a56a0ca32ae122d5a
 docker: quay.io/biocontainers/bioconductor-mouse4302probe

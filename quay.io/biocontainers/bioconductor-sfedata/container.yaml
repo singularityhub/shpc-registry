@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sfedata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-sfedata
 latest:
-  1.0.2--r42hdfd78af_0: sha256:e679169f379e9a005567349ebcbf99764d9641ab50dce35426941efb872f7a10
+  1.2.0--r43hdfd78af_0: sha256:4ab70b56d8b18cdee833d1b8643abfe1d951a43bff1f307bdad8f6581c3c073f
 tags:
   1.0.2--r42hdfd78af_0: sha256:e679169f379e9a005567349ebcbf99764d9641ab50dce35426941efb872f7a10
+  1.2.0--r43hdfd78af_0: sha256:4ab70b56d8b18cdee833d1b8643abfe1d951a43bff1f307bdad8f6581c3c073f
 docker: quay.io/biocontainers/bioconductor-sfedata
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

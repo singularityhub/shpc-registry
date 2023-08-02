@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mosdepth
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mosdepth
 latest:
-  0.3.3--hd299d5a_3: sha256:ef76d433d242983979b72ff2ee03624be59330ea8a5bd7c70004953d265fcced
+  0.3.4--hd299d5a_0: sha256:472e9be8cb302027b0f498bebb8e629cfe36035670ebe1c669dc7fa98f97fc3e
 tags:
   0.3.3--h37c5b7d_2: sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e
   0.3.3--hd299d5a_3: sha256:ef76d433d242983979b72ff2ee03624be59330ea8a5bd7c70004953d265fcced
+  0.3.4--hd299d5a_0: sha256:472e9be8cb302027b0f498bebb8e629cfe36035670ebe1c669dc7fa98f97fc3e
 docker: quay.io/biocontainers/mosdepth
 aliases:
   mosdepth: /usr/local/bin/mosdepth

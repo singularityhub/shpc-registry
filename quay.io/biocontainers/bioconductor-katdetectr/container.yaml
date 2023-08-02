@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-katdetectr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-katdetectr
 latest:
-  1.0.0--r42hdfd78af_0: sha256:dbae1cae8d1a8470e172ff52667a57e5941f5bb4b4c40d422c35ea20986daced
+  1.2.0--r43hdfd78af_0: sha256:5fa3a0497d5fc2c7253bd385da8b15140ba47ca4baa94c91e2e45d994d5d42a5
 tags:
   1.0.0--r42hdfd78af_0: sha256:dbae1cae8d1a8470e172ff52667a57e5941f5bb4b4c40d422c35ea20986daced
+  1.2.0--r43hdfd78af_0: sha256:5fa3a0497d5fc2c7253bd385da8b15140ba47ca4baa94c91e2e45d994d5d42a5
 docker: quay.io/biocontainers/bioconductor-katdetectr
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

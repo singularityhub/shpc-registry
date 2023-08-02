@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-tnbc.cms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tnbc.cms
 latest:
-  1.14.0--r42hdfd78af_0: sha256:998925910509fb17c180dad6043e12f8a2d3240609a1a80327e62e6639ceba47
+  1.16.0--r43hdfd78af_0: sha256:2c570685275fbed252b544c2a893369febe2e6a16deba30a893e7fe6381121b2
 tags:
   1.8.0--r41hdfd78af_0: sha256:e17d9ca9973a0a6252d703fedf4d830fa52319ba1866375ac1916ad86d901ea5
   1.10.0--r41hdfd78af_0: sha256:06ff7502777bc0a63d5c698be37cea157142c7796276a17ca7b4d903192873cb
   1.14.0--r42hdfd78af_0: sha256:998925910509fb17c180dad6043e12f8a2d3240609a1a80327e62e6639ceba47
+  1.16.0--r43hdfd78af_0: sha256:2c570685275fbed252b544c2a893369febe2e6a16deba30a893e7fe6381121b2
 docker: quay.io/biocontainers/bioconductor-tnbc.cms
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

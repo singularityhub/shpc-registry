@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-htmg430pmprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htmg430pmprobe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:14d200f2e3d0f3e98d8ba57d492e4613a9f208590213348876dfaf76f1e908a0
+  2.18.0--r43hdfd78af_11: sha256:19d7daa673739ff1ac672561deb5455897e2f7f1f735c96be27644a21ede6146
 tags:
   2.18.0--r41hdfd78af_9: sha256:de5790e46d375bf646253a38dcbc44b4daeb325e0e94072ff04aecb5c9b863d5
   2.18.0--r42hdfd78af_10: sha256:14d200f2e3d0f3e98d8ba57d492e4613a9f208590213348876dfaf76f1e908a0
+  2.18.0--r43hdfd78af_11: sha256:19d7daa673739ff1ac672561deb5455897e2f7f1f735c96be27644a21ede6146
 docker: quay.io/biocontainers/bioconductor-htmg430pmprobe

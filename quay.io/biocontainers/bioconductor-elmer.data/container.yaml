@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-elmer.data
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-elmer.data
 latest:
-  2.22.0--r42hdfd78af_0: sha256:7ea808590ce5a7b4eac2d55b1f9766648c8f189a61a5cedfeaffbd337c426605
+  2.24.0--r43hdfd78af_0: sha256:2992b3bea8b1a81a5ae14de63bdaae6d1616183f2eeae871ede40cb6865fee09
 tags:
   2.8.0--r36_1: sha256:7b9ea7716d40a1d8062505afc59b1c78f0033dc40212c77bf08a0744079cc5da
   2.18.0--r41hdfd78af_1: sha256:a774b357770b0065eae1262890a3ab39e05c4999c60d1a0354bf502336fc23cb
@@ -11,6 +11,7 @@ tags:
   2.12.0--r40_0: sha256:bbfe2939dc922aeb47eed84e2859c3e375975a00eb513c6503d723a986b8b20c
   2.10.0--r36_0: sha256:de4ee4b93ed5da36934b3eeec8672f9f847354f970e6243a6e4f99d69e3a33a3
   2.22.0--r42hdfd78af_0: sha256:7ea808590ce5a7b4eac2d55b1f9766648c8f189a61a5cedfeaffbd337c426605
+  2.24.0--r43hdfd78af_0: sha256:2992b3bea8b1a81a5ae14de63bdaae6d1616183f2eeae871ede40cb6865fee09
 docker: quay.io/biocontainers/bioconductor-elmer.data
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

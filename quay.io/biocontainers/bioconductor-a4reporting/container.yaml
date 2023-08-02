@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-a4reporting
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-a4reporting
 latest:
-  1.46.0--r42hdfd78af_0: sha256:308d8ad5c13aa978ad8248fe5ecac7368f7832f8ab801ded45f49afa446e61d2
+  1.48.0--r43hdfd78af_0: sha256:312f9502bcd80f49513adc973946e6818a05cee946cf09de021cbcb3adbc41dc
 tags:
   1.42.0--r41hdfd78af_0: sha256:9ceac085084893736e383f45959e9483c5d278f16bd797c7189d26ebae73a491
   1.46.0--r42hdfd78af_0: sha256:308d8ad5c13aa978ad8248fe5ecac7368f7832f8ab801ded45f49afa446e61d2
+  1.48.0--r43hdfd78af_0: sha256:312f9502bcd80f49513adc973946e6818a05cee946cf09de021cbcb3adbc41dc
 docker: quay.io/biocontainers/bioconductor-a4reporting

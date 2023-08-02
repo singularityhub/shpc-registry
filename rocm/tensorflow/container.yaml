@@ -3,9 +3,12 @@ url: https://hub.docker.com/r/rocm/tensorflow
 maintainer: '@dipietrantonio'
 description: Tensorflow with ROCm backend support
 latest:
-  rocm5.5-tf2.11-dev: sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765
+  rocm5.6-tf2.12-dev: sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe
 tags:
   rocm5.5-tf2.11-dev: sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765
+  gpg: sha256:77be414a2b0f13a23696f846320a3ab03df1da974f7d642456e06f02aaa93544
+  latest: sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe
+  rocm5.6-tf2.12-dev: sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe
 features:
   gpu: true
 aliases:
