@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sinto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sinto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sinto/container.yaml"
-updated_at: "2023-08-01 03:23:09.425615"
+updated_at: "2023-08-02 03:08:15.305535"
 latest: "0.9.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/sinto"
 aliases:

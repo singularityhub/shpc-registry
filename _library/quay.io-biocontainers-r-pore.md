@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-pore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pore/container.yaml"
-updated_at: "2023-08-01 03:20:39.151918"
-latest: "0.24--r42h9ee0642_5"
+updated_at: "2023-08-02 03:05:56.337240"
+latest: "0.24--r43h9ee0642_6"
 container_url: "https://biocontainers.pro/tools/r-pore"
 aliases:
  - "parsort"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.24--r41h9ee0642_4"
  - "0.24--r42h9ee0642_5"
+ - "0.24--r43h9ee0642_6"
 description: "shpc-registry automated BioContainers addition for r-pore"
-config: {"url": "https://biocontainers.pro/tools/r-pore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pore", "latest": {"0.24--r42h9ee0642_5": "sha256:0209e35405928c09e5d516824d5e103807a333ae63101f0fbfe4d33c7b5ba696"}, "tags": {"0.24--r41h9ee0642_4": "sha256:663287b1a398a531b13ad9f9c065c4947e13f32661f5e8f65862284933e3013f", "0.24--r42h9ee0642_5": "sha256:0209e35405928c09e5d516824d5e103807a333ae63101f0fbfe4d33c7b5ba696"}, "docker": "quay.io/biocontainers/r-pore", "aliases": {"parsort": "/usr/local/bin/parsort", "perl5.32.0": "/usr/local/bin/perl5.32.0", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh"}}
+config: {"url": "https://biocontainers.pro/tools/r-pore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pore", "latest": {"0.24--r43h9ee0642_6": "sha256:28743d3591aef144284aefe6a5ac5569bf749ce2b289fe964f5d549b382e84e3"}, "tags": {"0.24--r41h9ee0642_4": "sha256:663287b1a398a531b13ad9f9c065c4947e13f32661f5e8f65862284933e3013f", "0.24--r42h9ee0642_5": "sha256:0209e35405928c09e5d516824d5e103807a333ae63101f0fbfe4d33c7b5ba696", "0.24--r43h9ee0642_6": "sha256:28743d3591aef144284aefe6a5ac5569bf749ce2b289fe964f5d549b382e84e3"}, "docker": "quay.io/biocontainers/r-pore", "aliases": {"parsort": "/usr/local/bin/parsort", "perl5.32.0": "/usr/local/bin/perl5.32.0", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pore.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/r-pore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pore:0.24--r42h9ee0642_5
+$ shpc install quay.io/biocontainers/r-pore:0.24--r43h9ee0642_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pore/0.24--r42h9ee0642_5
-$ module help quay.io/biocontainers/r-pore/0.24--r42h9ee0642_5
+$ module load quay.io/biocontainers/r-pore/0.24--r43h9ee0642_6
+$ module help quay.io/biocontainers/r-pore/0.24--r43h9ee0642_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-shinyepico"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shinyepico/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shinyepico/container.yaml"
-updated_at: "2023-08-01 02:48:23.734220"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-08-02 02:37:22.386455"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shinyepico"
 aliases:
  - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-shinyepico"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-shinyepico", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shinyepico", "latest": {"1.6.0--r42hdfd78af_0": "sha256:670cb39396128fd1a6bafa1049e21fa092a74307317d4d9b4f6753db20ff0fe6"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:29d963d769cffa712512d7d23e4975cb147084801f0bc6d75f32a35914692095", "1.6.0--r42hdfd78af_0": "sha256:670cb39396128fd1a6bafa1049e21fa092a74307317d4d9b4f6753db20ff0fe6"}, "docker": "quay.io/biocontainers/bioconductor-shinyepico", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-shinyepico", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-shinyepico", "latest": {"1.8.0--r43hdfd78af_0": "sha256:b52fb17ebb7f4924806970dcde3024f3b75ae057f55d5831d9dd849f194d30db"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:29d963d769cffa712512d7d23e4975cb147084801f0bc6d75f32a35914692095", "1.6.0--r42hdfd78af_0": "sha256:670cb39396128fd1a6bafa1049e21fa092a74307317d4d9b4f6753db20ff0fe6", "1.8.0--r43hdfd78af_0": "sha256:b52fb17ebb7f4924806970dcde3024f3b75ae057f55d5831d9dd849f194d30db"}, "docker": "quay.io/biocontainers/bioconductor-shinyepico", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-shinyepico.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-shinyepico
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-shinyepico:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-shinyepico:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-shinyepico/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-shinyepico/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-shinyepico/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-shinyepico/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-isolde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isolde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isolde/container.yaml"
-updated_at: "2023-08-01 02:46:24.248613"
-latest: "1.26.0--r42ha9d7317_2"
+updated_at: "2023-08-02 02:35:38.218421"
+latest: "1.28.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isolde"
 aliases:
  - "ncurses5-config"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r36h516909a_1"
  - "1.26.0--r42hc0cfd56_0"
  - "1.26.0--r42ha9d7317_2"
+ - "1.28.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-isolde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-isolde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isolde", "latest": {"1.26.0--r42ha9d7317_2": "sha256:26939a501250b6f4b20d9d42726d70eff8e43b3636fdb79aa46021cd5d8fe781"}, "tags": {"1.8.0--r341h470a237_0": "sha256:a634508bc0cbe032f34949ba7cb760a30c2fe2b258a42355d32268ebd14b6ae2", "1.22.0--r41hc0cfd56_2": "sha256:81e54aa4e9574e717bee99c8ced337e413d49573191d1b51c567d8040c6e442d", "1.20.0--r41hd029910_0": "sha256:8ee4c94ffb826fe79afa62cd69ea0eb0f781f1027391b76003c63d8d0acfadcb", "1.15.0--r40h037d062_0": "sha256:fb00f09d922d42f0bdcdf88708ef0f87515c95eee72bc476bf13d268c332874f", "1.14.0--r36h516909a_0": "sha256:914fda989831e8d16a9798dcc8f5a0af2f874229f310177ee6ac1caccdc35acf", "1.12.0--r36h516909a_1": "sha256:e93d5be5d01dbf27249da95acd583b7b1cabb36a9de401efc4511d24970a2069", "1.26.0--r42hc0cfd56_0": "sha256:721615e2c9331428d8367a54444f65ec6380b496b73c6bb3535feb1055acad3e", "1.26.0--r42ha9d7317_2": "sha256:26939a501250b6f4b20d9d42726d70eff8e43b3636fdb79aa46021cd5d8fe781"}, "docker": "quay.io/biocontainers/bioconductor-isolde", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-isolde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isolde", "latest": {"1.28.0--r43ha9d7317_0": "sha256:13d0076292022553a5a02f237b75c1bbb0f4e5fcb3df34ac308f6669ac45e1a2"}, "tags": {"1.8.0--r341h470a237_0": "sha256:a634508bc0cbe032f34949ba7cb760a30c2fe2b258a42355d32268ebd14b6ae2", "1.22.0--r41hc0cfd56_2": "sha256:81e54aa4e9574e717bee99c8ced337e413d49573191d1b51c567d8040c6e442d", "1.20.0--r41hd029910_0": "sha256:8ee4c94ffb826fe79afa62cd69ea0eb0f781f1027391b76003c63d8d0acfadcb", "1.15.0--r40h037d062_0": "sha256:fb00f09d922d42f0bdcdf88708ef0f87515c95eee72bc476bf13d268c332874f", "1.14.0--r36h516909a_0": "sha256:914fda989831e8d16a9798dcc8f5a0af2f874229f310177ee6ac1caccdc35acf", "1.12.0--r36h516909a_1": "sha256:e93d5be5d01dbf27249da95acd583b7b1cabb36a9de401efc4511d24970a2069", "1.26.0--r42hc0cfd56_0": "sha256:721615e2c9331428d8367a54444f65ec6380b496b73c6bb3535feb1055acad3e", "1.26.0--r42ha9d7317_2": "sha256:26939a501250b6f4b20d9d42726d70eff8e43b3636fdb79aa46021cd5d8fe781", "1.28.0--r43ha9d7317_0": "sha256:13d0076292022553a5a02f237b75c1bbb0f4e5fcb3df34ac308f6669ac45e1a2"}, "docker": "quay.io/biocontainers/bioconductor-isolde", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-isolde.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-isolde
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-isolde:1.26.0--r42ha9d7317_2
+$ shpc install quay.io/biocontainers/bioconductor-isolde:1.28.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-isolde/1.26.0--r42ha9d7317_2
-$ module help quay.io/biocontainers/bioconductor-isolde/1.26.0--r42ha9d7317_2
+$ module load quay.io/biocontainers/bioconductor-isolde/1.28.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-isolde/1.28.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-microbiomeprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiomeprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiomeprofiler/container.yaml"
-updated_at: "2023-08-01 03:14:08.585719"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-08-02 02:59:59.408352"
+latest: "1.6.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiomeprofiler"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-microbiomeprofiler"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomeprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomeprofiler", "latest": {"1.4.0--r42hdfd78af_0": "sha256:59cfd98454b8245317dfc8c61ad817259a2c8f75162ea3ac98b2f6a35e6226d9"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:b412a999ced08246bf028d0e5a12fa8290c50b533fd89fb28669456dc65ba7ed", "1.4.0--r42hdfd78af_0": "sha256:59cfd98454b8245317dfc8c61ad817259a2c8f75162ea3ac98b2f6a35e6226d9"}, "docker": "quay.io/biocontainers/bioconductor-microbiomeprofiler"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomeprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomeprofiler", "latest": {"1.6.1--r43hdfd78af_0": "sha256:27c4fec8abbb4d6c0ec52fe68277dff37221eea6816f68e0a8848e04864e809e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:b412a999ced08246bf028d0e5a12fa8290c50b533fd89fb28669456dc65ba7ed", "1.4.0--r42hdfd78af_0": "sha256:59cfd98454b8245317dfc8c61ad817259a2c8f75162ea3ac98b2f6a35e6226d9", "1.6.1--r43hdfd78af_0": "sha256:27c4fec8abbb4d6c0ec52fe68277dff37221eea6816f68e0a8848e04864e809e"}, "docker": "quay.io/biocontainers/bioconductor-microbiomeprofiler"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-microbiomeprofiler.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-microbiomeprofiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-microbiomeprofiler:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-microbiomeprofiler:1.6.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-microbiomeprofiler/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-microbiomeprofiler/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-microbiomeprofiler/1.6.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-microbiomeprofiler/1.6.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-gseamining"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gseamining/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gseamining/container.yaml"
-updated_at: "2023-08-01 02:50:01.105660"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-08-02 02:38:47.709754"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gseamining"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gseamining"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gseamining", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gseamining", "latest": {"1.8.0--r42hdfd78af_0": "sha256:89b012a3d0060ff64e6e5e5a546f2ce8feeac1681c7f6dcf33ab7a137c604d80"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4a92e666d700d905e7fc93e31835df5c8b3b5fb6fdc6a7455f6d75c676e3a96c", "1.8.0--r42hdfd78af_0": "sha256:89b012a3d0060ff64e6e5e5a546f2ce8feeac1681c7f6dcf33ab7a137c604d80"}, "docker": "quay.io/biocontainers/bioconductor-gseamining"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gseamining", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gseamining", "latest": {"1.10.0--r43hdfd78af_0": "sha256:8fe6c254bd83c76de36283565a034c3c5daeecd96da23d3a2dfac725ed4dcc61"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4a92e666d700d905e7fc93e31835df5c8b3b5fb6fdc6a7455f6d75c676e3a96c", "1.8.0--r42hdfd78af_0": "sha256:89b012a3d0060ff64e6e5e5a546f2ce8feeac1681c7f6dcf33ab7a137c604d80", "1.10.0--r43hdfd78af_0": "sha256:8fe6c254bd83c76de36283565a034c3c5daeecd96da23d3a2dfac725ed4dcc61"}, "docker": "quay.io/biocontainers/bioconductor-gseamining"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gseamining.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gseamining
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gseamining:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gseamining:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gseamining/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gseamining/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gseamining/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gseamining/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

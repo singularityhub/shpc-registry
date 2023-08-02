@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cmap/container.yaml"
-updated_at: "2023-08-01 03:14:54.110127"
-latest: "1.15.1--r42hdfd78af_13"
+updated_at: "2023-08-02 03:00:39.063751"
+latest: "1.15.1--r43hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-cmap"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.15.1--r40hdfd78af_9"
  - "1.15.1--r41hdfd78af_12"
  - "1.15.1--r42hdfd78af_13"
+ - "1.15.1--r43hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-cmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cmap", "latest": {"1.15.1--r42hdfd78af_13": "sha256:f7f9e5efd4603c909648557e38fb64264b106f0622219c83627f55630dffaaa6"}, "tags": {"1.15.1--r40hdfd78af_9": "sha256:e9bbaa68cc1d35e8c91394485bab68b3c82f6803c5a41470cb973d0a6bafe702", "1.15.1--r41hdfd78af_12": "sha256:edd28b1613447880bf593f3e7ab7930b2792c275d8a484b825a8e4c81f6eaaa9", "1.15.1--r42hdfd78af_13": "sha256:f7f9e5efd4603c909648557e38fb64264b106f0622219c83627f55630dffaaa6"}, "docker": "quay.io/biocontainers/bioconductor-cmap", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cmap", "latest": {"1.15.1--r43hdfd78af_14": "sha256:eac984f01cf9e7876e37d5f32b1a575d4c8bad2c8e0ebf59ec6b9efafa550c8f"}, "tags": {"1.15.1--r40hdfd78af_9": "sha256:e9bbaa68cc1d35e8c91394485bab68b3c82f6803c5a41470cb973d0a6bafe702", "1.15.1--r41hdfd78af_12": "sha256:edd28b1613447880bf593f3e7ab7930b2792c275d8a484b825a8e4c81f6eaaa9", "1.15.1--r42hdfd78af_13": "sha256:f7f9e5efd4603c909648557e38fb64264b106f0622219c83627f55630dffaaa6", "1.15.1--r43hdfd78af_14": "sha256:eac984f01cf9e7876e37d5f32b1a575d4c8bad2c8e0ebf59ec6b9efafa550c8f"}, "docker": "quay.io/biocontainers/bioconductor-cmap", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cmap.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cmap:1.15.1--r42hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-cmap:1.15.1--r43hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cmap/1.15.1--r42hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-cmap/1.15.1--r42hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-cmap/1.15.1--r43hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-cmap/1.15.1--r43hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

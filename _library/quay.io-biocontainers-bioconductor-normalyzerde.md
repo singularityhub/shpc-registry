@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-normalyzerde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normalyzerde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normalyzerde/container.yaml"
-updated_at: "2023-08-01 02:49:54.859167"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-08-02 02:38:42.217205"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normalyzerde"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r42hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-normalyzerde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-normalyzerde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normalyzerde", "latest": {"1.16.0--r42hdfd78af_0": "sha256:ecf06def94ba4bfddd63310354b5b7e9cf2e39ecbdbe8051a97f034d974c711b"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a", "1.12.0--r41hdfd78af_0": "sha256:eecd6e09323b90456133fe14d35ae228e45ec61397c4af7dc79d0cb1261b9e9e", "1.10.0--r41hdfd78af_0": "sha256:64a1ce5e5d9bf288157ac7a971aac8d9f30859a0f807143db5a7b4b53a1ba5cd", "1.16.0--r42hdfd78af_0": "sha256:ecf06def94ba4bfddd63310354b5b7e9cf2e39ecbdbe8051a97f034d974c711b"}, "docker": "quay.io/biocontainers/bioconductor-normalyzerde", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-normalyzerde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normalyzerde", "latest": {"1.18.0--r43hdfd78af_0": "sha256:0c1399b6e7bb13ab0c4b5b01d99063e67dc37606df6772f4e422e92cab4208f0"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a", "1.12.0--r41hdfd78af_0": "sha256:eecd6e09323b90456133fe14d35ae228e45ec61397c4af7dc79d0cb1261b9e9e", "1.10.0--r41hdfd78af_0": "sha256:64a1ce5e5d9bf288157ac7a971aac8d9f30859a0f807143db5a7b4b53a1ba5cd", "1.16.0--r42hdfd78af_0": "sha256:ecf06def94ba4bfddd63310354b5b7e9cf2e39ecbdbe8051a97f034d974c711b", "1.18.0--r43hdfd78af_0": "sha256:0c1399b6e7bb13ab0c4b5b01d99063e67dc37606df6772f4e422e92cab4208f0"}, "docker": "quay.io/biocontainers/bioconductor-normalyzerde", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-normalyzerde.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-normalyzerde
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-normalyzerde:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-normalyzerde:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-normalyzerde/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-normalyzerde/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-normalyzerde/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-normalyzerde/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

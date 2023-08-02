@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-qmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qmtools/container.yaml"
-updated_at: "2023-08-01 03:17:46.700204"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-08-02 03:03:13.001567"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qmtools"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.2.0--r42hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-qmtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-qmtools", "latest": {"1.2.0--r42hdfd78af_0": "sha256:bfe4270e8930cf3d9e5316b2fbbe62ae91dfef0ed2b372ff1b773dbb7f207c27"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:bfe4270e8930cf3d9e5316b2fbbe62ae91dfef0ed2b372ff1b773dbb7f207c27"}, "docker": "quay.io/biocontainers/bioconductor-qmtools", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-qmtools", "latest": {"1.4.0--r43hdfd78af_0": "sha256:1ff34be5c25f4a719d745788b74652b53c88f9661e14204be95e2f31854aab6b"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:bfe4270e8930cf3d9e5316b2fbbe62ae91dfef0ed2b372ff1b773dbb7f207c27", "1.4.0--r43hdfd78af_0": "sha256:1ff34be5c25f4a719d745788b74652b53c88f9661e14204be95e2f31854aab6b"}, "docker": "quay.io/biocontainers/bioconductor-qmtools", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qmtools.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qmtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qmtools:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-qmtools:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qmtools/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-qmtools/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-qmtools/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-qmtools/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

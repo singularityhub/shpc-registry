@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ichorcna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ichorcna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ichorcna/container.yaml"
-updated_at: "2023-08-01 03:10:42.694494"
-latest: "0.5.0--pl5321r42hdfd78af_0"
+updated_at: "2023-08-02 02:56:58.441094"
+latest: "0.5.0--pl5321r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-ichorcna"
 aliases:
  - "createPanelOfNormals.R"
@@ -14,8 +14,9 @@ versions:
  - "0.3.2--r41hdfd78af_1"
  - "0.3.2--pl5321r42hdfd78af_2"
  - "0.5.0--pl5321r42hdfd78af_0"
+ - "0.5.0--pl5321r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-ichorcna"
-config: {"url": "https://biocontainers.pro/tools/r-ichorcna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ichorcna", "latest": {"0.5.0--pl5321r42hdfd78af_0": "sha256:3effbf6ca62e0f1941bfdf96eb2e5d9131a68cdc91597be6ddb3bd97ad152a42"}, "tags": {"0.3.2--r41hdfd78af_1": "sha256:03e5a912ec6db75c41d7f8660b061cbda4b9256b9d5fce96de5560a96f43d8a7", "0.3.2--pl5321r42hdfd78af_2": "sha256:814636fa1f6a546120b065e5e252cb663f30774eaa646c3c911d2b3cbaadbdeb", "0.5.0--pl5321r42hdfd78af_0": "sha256:3effbf6ca62e0f1941bfdf96eb2e5d9131a68cdc91597be6ddb3bd97ad152a42"}, "docker": "quay.io/biocontainers/r-ichorcna", "aliases": {"createPanelOfNormals.R": "/usr/local/bin/createPanelOfNormals.R", "runIchorCNA.R": "/usr/local/bin/runIchorCNA.R"}}
+config: {"url": "https://biocontainers.pro/tools/r-ichorcna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ichorcna", "latest": {"0.5.0--pl5321r43hdfd78af_1": "sha256:51e8ff5f610fde81268d7ba3d4ae0905982675d8d5cce4e18fd24775afa6c431"}, "tags": {"0.3.2--r41hdfd78af_1": "sha256:03e5a912ec6db75c41d7f8660b061cbda4b9256b9d5fce96de5560a96f43d8a7", "0.3.2--pl5321r42hdfd78af_2": "sha256:814636fa1f6a546120b065e5e252cb663f30774eaa646c3c911d2b3cbaadbdeb", "0.5.0--pl5321r42hdfd78af_0": "sha256:3effbf6ca62e0f1941bfdf96eb2e5d9131a68cdc91597be6ddb3bd97ad152a42", "0.5.0--pl5321r43hdfd78af_1": "sha256:51e8ff5f610fde81268d7ba3d4ae0905982675d8d5cce4e18fd24775afa6c431"}, "docker": "quay.io/biocontainers/r-ichorcna", "aliases": {"createPanelOfNormals.R": "/usr/local/bin/createPanelOfNormals.R", "runIchorCNA.R": "/usr/local/bin/runIchorCNA.R"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ichorcna.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-ichorcna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ichorcna:0.5.0--pl5321r42hdfd78af_0
+$ shpc install quay.io/biocontainers/r-ichorcna:0.5.0--pl5321r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ichorcna/0.5.0--pl5321r42hdfd78af_0
-$ module help quay.io/biocontainers/r-ichorcna/0.5.0--pl5321r42hdfd78af_0
+$ module load quay.io/biocontainers/r-ichorcna/0.5.0--pl5321r43hdfd78af_1
+$ module help quay.io/biocontainers/r-ichorcna/0.5.0--pl5321r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

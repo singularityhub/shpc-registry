@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-treeandleaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treeandleaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treeandleaf/container.yaml"
-updated_at: "2023-08-01 03:31:16.601088"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-08-02 03:16:10.150229"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-treeandleaf"
 
 versions:
  - "1.6.1--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-treeandleaf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-treeandleaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treeandleaf", "latest": {"1.10.0--r42hdfd78af_0": "sha256:05dde973b1e6ba18bc108d63194006bfcf79e8a7073163ca34666330f14e078a"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:f22b244ff9cc1c0131b940dffa1b949eb3f7280c799ec0f3eef8d2f4c991d793", "1.10.0--r42hdfd78af_0": "sha256:05dde973b1e6ba18bc108d63194006bfcf79e8a7073163ca34666330f14e078a"}, "docker": "quay.io/biocontainers/bioconductor-treeandleaf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-treeandleaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treeandleaf", "latest": {"1.12.0--r43hdfd78af_0": "sha256:81dc94a5df8bf6809ed61d7cce7a68534fde268732cf419d23bb6043e7ec0372"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:f22b244ff9cc1c0131b940dffa1b949eb3f7280c799ec0f3eef8d2f4c991d793", "1.10.0--r42hdfd78af_0": "sha256:05dde973b1e6ba18bc108d63194006bfcf79e8a7073163ca34666330f14e078a", "1.12.0--r43hdfd78af_0": "sha256:81dc94a5df8bf6809ed61d7cce7a68534fde268732cf419d23bb6043e7ec0372"}, "docker": "quay.io/biocontainers/bioconductor-treeandleaf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-treeandleaf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-treeandleaf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-treeandleaf:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-treeandleaf:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-treeandleaf/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-treeandleaf/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-treeandleaf/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-treeandleaf/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

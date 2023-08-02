@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-requires"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-requires/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-requires/container.yaml"
-updated_at: "2023-08-01 03:29:11.628211"
+updated_at: "2023-08-02 03:14:18.589405"
 latest: "0.11--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-requires"
 aliases:

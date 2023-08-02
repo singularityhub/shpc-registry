@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/container.yaml"
-updated_at: "2023-08-01 03:31:48.828820"
-latest: "3.10.0--r42hdfd78af_7"
+updated_at: "2023-08-02 03:16:38.939798"
+latest: "3.10.0--r43hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau9.refgene"
 
 versions:
  - "3.10.0--r41hdfd78af_6"
  - "3.10.0--r42hdfd78af_7"
+ - "3.10.0--r43hdfd78af_8"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.btaurus.ucsc.bostau9.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau9.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.btaurus.ucsc.bostau9.refgene", "latest": {"3.10.0--r42hdfd78af_7": "sha256:2340df8dd2b03b2c39022b5ef114ba66ba5e4fe72dce68cf33e0a6e8f86cadb6"}, "tags": {"3.10.0--r41hdfd78af_6": "sha256:841ce7eb3058b58be45948921b6df93aaef36c80bb516051c40b3a7a85d257da", "3.10.0--r42hdfd78af_7": "sha256:2340df8dd2b03b2c39022b5ef114ba66ba5e4fe72dce68cf33e0a6e8f86cadb6"}, "docker": "quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau9.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.btaurus.ucsc.bostau9.refgene", "latest": {"3.10.0--r43hdfd78af_8": "sha256:7ee8716aa892c5fc46ac2d7d47908e8cbc2201bda472914b5b421b1ff875faca"}, "tags": {"3.10.0--r41hdfd78af_6": "sha256:841ce7eb3058b58be45948921b6df93aaef36c80bb516051c40b3a7a85d257da", "3.10.0--r42hdfd78af_7": "sha256:2340df8dd2b03b2c39022b5ef114ba66ba5e4fe72dce68cf33e0a6e8f86cadb6", "3.10.0--r43hdfd78af_8": "sha256:7ee8716aa892c5fc46ac2d7d47908e8cbc2201bda472914b5b421b1ff875faca"}, "docker": "quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene:3.10.0--r42hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene:3.10.0--r43hdfd78af_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/3.10.0--r42hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/3.10.0--r42hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/3.10.0--r43hdfd78af_8
+$ module help quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene/3.10.0--r43hdfd78af_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

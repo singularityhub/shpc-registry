@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-copywriter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copywriter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copywriter/container.yaml"
-updated_at: "2023-08-01 03:13:21.187704"
+updated_at: "2023-08-02 02:59:17.438069"
 latest: "2.29.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copywriter"
 
