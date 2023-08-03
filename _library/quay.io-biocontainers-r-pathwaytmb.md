@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-pathwaytmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pathwaytmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pathwaytmb/container.yaml"
-updated_at: "2023-08-02 02:50:17.744564"
-latest: "0.1.3--r42h3121a25_1"
+updated_at: "2023-08-03 03:24:23.843948"
+latest: "0.1.3--r43h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-pathwaytmb"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.3--r42h3121a25_1"
+ - "0.1.3--r43h3121a25_2"
 description: "singularity registry hpc automated addition for r-pathwaytmb"
-config: {"url": "https://biocontainers.pro/tools/r-pathwaytmb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pathwaytmb", "latest": {"0.1.3--r42h3121a25_1": "sha256:aee298feaef223b8596331cdbeaecd1fbd62cc3c56012bc98570abe6233493cc"}, "tags": {"0.1.3--r42h3121a25_1": "sha256:aee298feaef223b8596331cdbeaecd1fbd62cc3c56012bc98570abe6233493cc"}, "docker": "quay.io/biocontainers/r-pathwaytmb", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-pathwaytmb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-pathwaytmb", "latest": {"0.1.3--r43h3121a25_2": "sha256:a55b62456a0fefbc507b68b81b9c09f55fb8a2f1de74e536c17d663991c2965f"}, "tags": {"0.1.3--r42h3121a25_1": "sha256:aee298feaef223b8596331cdbeaecd1fbd62cc3c56012bc98570abe6233493cc", "0.1.3--r43h3121a25_2": "sha256:a55b62456a0fefbc507b68b81b9c09f55fb8a2f1de74e536c17d663991c2965f"}, "docker": "quay.io/biocontainers/r-pathwaytmb", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pathwaytmb.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/r-pathwaytmb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pathwaytmb:0.1.3--r42h3121a25_1
+$ shpc install quay.io/biocontainers/r-pathwaytmb:0.1.3--r43h3121a25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pathwaytmb/0.1.3--r42h3121a25_1
-$ module help quay.io/biocontainers/r-pathwaytmb/0.1.3--r42h3121a25_1
+$ module load quay.io/biocontainers/r-pathwaytmb/0.1.3--r43h3121a25_2
+$ module help quay.io/biocontainers/r-pathwaytmb/0.1.3--r43h3121a25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

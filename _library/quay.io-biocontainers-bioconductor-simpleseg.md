@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-simpleseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simpleseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simpleseg/container.yaml"
-updated_at: "2023-08-02 02:53:44.644299"
-latest: "1.0.0--r42hdfd78af_0"
+updated_at: "2023-08-03 02:39:38.658668"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simpleseg"
 aliases:
  - "pg_amcheck"
@@ -35,8 +35,9 @@ aliases:
  - "gdaladdo"
 versions:
  - "1.0.0--r42hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-simpleseg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simpleseg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-simpleseg", "latest": {"1.0.0--r42hdfd78af_0": "sha256:2f4e681b971030688ec0f04bb07189de0d9990bc6c5aae6d369166a5efb8d2aa"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:2f4e681b971030688ec0f04bb07189de0d9990bc6c5aae6d369166a5efb8d2aa"}, "docker": "quay.io/biocontainers/bioconductor-simpleseg", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simpleseg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-simpleseg", "latest": {"1.2.0--r43hdfd78af_0": "sha256:3e7fa0709503f2c163ace6658b9d675a373793574ce4ec875eb59e656efb3b29"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:2f4e681b971030688ec0f04bb07189de0d9990bc6c5aae6d369166a5efb8d2aa", "1.2.0--r43hdfd78af_0": "sha256:3e7fa0709503f2c163ace6658b9d675a373793574ce4ec875eb59e656efb3b29"}, "docker": "quay.io/biocontainers/bioconductor-simpleseg", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simpleseg.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simpleseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simpleseg:1.0.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-simpleseg:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simpleseg/1.0.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-simpleseg/1.0.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-simpleseg/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-simpleseg/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

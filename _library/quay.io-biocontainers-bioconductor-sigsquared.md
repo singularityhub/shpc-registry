@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-sigsquared"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sigsquared/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigsquared/container.yaml"
-updated_at: "2023-08-02 03:05:14.000046"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-08-03 02:35:01.174420"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sigsquared"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
  - "1.30.0--r42hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sigsquared"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sigsquared", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sigsquared", "latest": {"1.30.0--r42hdfd78af_0": "sha256:d6bbeae595e0666d4ae3451509ea30b1ab06607226eb2ef7a4cf8954cd895c75"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:fd1768860bd92854d5abca40a8d4bc1ca6ec16e05a891d0725efd993b012c8fa", "1.30.0--r42hdfd78af_0": "sha256:d6bbeae595e0666d4ae3451509ea30b1ab06607226eb2ef7a4cf8954cd895c75"}, "docker": "quay.io/biocontainers/bioconductor-sigsquared"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sigsquared", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sigsquared", "latest": {"1.32.0--r43hdfd78af_0": "sha256:554ab90aa6dcdb1a607731f60042b894a66f46a2993c11fb805926bafad20c4b"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:fd1768860bd92854d5abca40a8d4bc1ca6ec16e05a891d0725efd993b012c8fa", "1.30.0--r42hdfd78af_0": "sha256:d6bbeae595e0666d4ae3451509ea30b1ab06607226eb2ef7a4cf8954cd895c75", "1.32.0--r43hdfd78af_0": "sha256:554ab90aa6dcdb1a607731f60042b894a66f46a2993c11fb805926bafad20c4b"}, "docker": "quay.io/biocontainers/bioconductor-sigsquared"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sigsquared.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sigsquared
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sigsquared:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sigsquared:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sigsquared/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sigsquared/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sigsquared/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sigsquared/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,19 @@ name:  "rocm/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocm/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocm/tensorflow/container.yaml"
-updated_at: "2023-08-02 02:27:05.334399"
-latest: "rocm5.5-tf2.11-dev"
+updated_at: "2023-08-03 02:30:36.162121"
+latest: "rocm5.6-tf2.12-dev"
 container_url: "https://hub.docker.com/r/rocm/tensorflow"
 aliases:
  - "python"
  - "python3"
 versions:
  - "rocm5.5-tf2.11-dev"
+ - "gpg"
+ - "latest"
+ - "rocm5.6-tf2.12-dev"
 description: "Tensorflow with ROCm backend support"
-config: {"docker": "rocm/tensorflow", "url": "https://hub.docker.com/r/rocm/tensorflow", "maintainer": "@dipietrantonio", "description": "Tensorflow with ROCm backend support", "latest": {"rocm5.5-tf2.11-dev": "sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765"}, "tags": {"rocm5.5-tf2.11-dev": "sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765"}, "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python", "python3": "/usr/bin/python3"}}
+config: {"docker": "rocm/tensorflow", "url": "https://hub.docker.com/r/rocm/tensorflow", "maintainer": "@dipietrantonio", "description": "Tensorflow with ROCm backend support", "latest": {"rocm5.6-tf2.12-dev": "sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe"}, "tags": {"rocm5.5-tf2.11-dev": "sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765", "gpg": "sha256:77be414a2b0f13a23696f846320a3ab03df1da974f7d642456e06f02aaa93544", "latest": "sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe", "rocm5.6-tf2.12-dev": "sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe"}, "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python", "python3": "/usr/bin/python3"}}
 ---
 
 This module is a singularity container wrapper for rocm/tensorflow.
@@ -28,7 +31,7 @@ $ shpc install rocm/tensorflow
 Or a specific version:
 
 ```bash
-$ shpc install rocm/tensorflow:rocm5.5-tf2.11-dev
+$ shpc install rocm/tensorflow:rocm5.6-tf2.12-dev
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocm/tensorflow/rocm5.5-tf2.11-dev
-$ module help rocm/tensorflow/rocm5.5-tf2.11-dev
+$ module load rocm/tensorflow/rocm5.6-tf2.12-dev
+$ module help rocm/tensorflow/rocm5.6-tf2.12-dev
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tnbc.cms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tnbc.cms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tnbc.cms/container.yaml"
-updated_at: "2023-08-02 03:15:27.488329"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-08-03 03:17:35.598919"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tnbc.cms"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tnbc.cms"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tnbc.cms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tnbc.cms", "latest": {"1.14.0--r42hdfd78af_0": "sha256:998925910509fb17c180dad6043e12f8a2d3240609a1a80327e62e6639ceba47"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e17d9ca9973a0a6252d703fedf4d830fa52319ba1866375ac1916ad86d901ea5", "1.10.0--r41hdfd78af_0": "sha256:06ff7502777bc0a63d5c698be37cea157142c7796276a17ca7b4d903192873cb", "1.14.0--r42hdfd78af_0": "sha256:998925910509fb17c180dad6043e12f8a2d3240609a1a80327e62e6639ceba47"}, "docker": "quay.io/biocontainers/bioconductor-tnbc.cms", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tnbc.cms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tnbc.cms", "latest": {"1.16.0--r43hdfd78af_0": "sha256:2c570685275fbed252b544c2a893369febe2e6a16deba30a893e7fe6381121b2"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e17d9ca9973a0a6252d703fedf4d830fa52319ba1866375ac1916ad86d901ea5", "1.10.0--r41hdfd78af_0": "sha256:06ff7502777bc0a63d5c698be37cea157142c7796276a17ca7b4d903192873cb", "1.14.0--r42hdfd78af_0": "sha256:998925910509fb17c180dad6043e12f8a2d3240609a1a80327e62e6639ceba47", "1.16.0--r43hdfd78af_0": "sha256:2c570685275fbed252b544c2a893369febe2e6a16deba30a893e7fe6381121b2"}, "docker": "quay.io/biocontainers/bioconductor-tnbc.cms", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tnbc.cms.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tnbc.cms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tnbc.cms:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tnbc.cms:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tnbc.cms/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tnbc.cms/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tnbc.cms/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tnbc.cms/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

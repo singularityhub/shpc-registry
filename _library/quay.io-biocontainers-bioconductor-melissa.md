@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-melissa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-melissa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-melissa/container.yaml"
-updated_at: "2023-08-02 02:40:51.568876"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-08-03 03:10:08.309577"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-melissa"
 aliases:
  - "pandoc"
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-melissa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-melissa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-melissa", "latest": {"1.14.0--r42hdfd78af_0": "sha256:8a06366405427896ce1917ade8f6aec666b366b7acd490bc4f15ca4ba4800a88"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1fc4198d6dfcbe21d94fd51ce0e3fc18226479f8dd0253dc569c860b5983fb2c", "1.10.0--r41hdfd78af_0": "sha256:12fd37e0271f4be8b437b51a44ec918ca99a15526567bbb1798acccd84a0edc8", "1.14.0--r42hdfd78af_0": "sha256:8a06366405427896ce1917ade8f6aec666b366b7acd490bc4f15ca4ba4800a88"}, "docker": "quay.io/biocontainers/bioconductor-melissa", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-melissa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-melissa", "latest": {"1.16.0--r43hdfd78af_0": "sha256:ecc09fd1a986fc9f1b6bd57614933dec6c18dc1afc8a03c648bd4376b38ef388"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1fc4198d6dfcbe21d94fd51ce0e3fc18226479f8dd0253dc569c860b5983fb2c", "1.10.0--r41hdfd78af_0": "sha256:12fd37e0271f4be8b437b51a44ec918ca99a15526567bbb1798acccd84a0edc8", "1.14.0--r42hdfd78af_0": "sha256:8a06366405427896ce1917ade8f6aec666b366b7acd490bc4f15ca4ba4800a88", "1.16.0--r43hdfd78af_0": "sha256:ecc09fd1a986fc9f1b6bd57614933dec6c18dc1afc8a03c648bd4376b38ef388"}, "docker": "quay.io/biocontainers/bioconductor-melissa", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-melissa.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-melissa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-melissa:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-melissa:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-melissa/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-melissa/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-melissa/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-melissa/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

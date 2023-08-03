@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-pepxmltab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepxmltab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepxmltab/container.yaml"
-updated_at: "2023-08-02 03:11:42.370639"
-latest: "1.32.0--r42hdfd78af_0"
+updated_at: "2023-08-03 02:40:03.565623"
+latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepxmltab"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
  - "1.32.0--r42hdfd78af_0"
+ - "1.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pepxmltab"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pepxmltab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepxmltab", "latest": {"1.32.0--r42hdfd78af_0": "sha256:f941fe42e3ae27406915427b35bbce79cae4a5b79a6860bc327f8a3a063106e0"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:d993130a9ebefe27f21b66a878de618f12ef6285b7f5e2cbe652754364ac1094", "1.32.0--r42hdfd78af_0": "sha256:f941fe42e3ae27406915427b35bbce79cae4a5b79a6860bc327f8a3a063106e0"}, "docker": "quay.io/biocontainers/bioconductor-pepxmltab"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pepxmltab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepxmltab", "latest": {"1.34.0--r43hdfd78af_0": "sha256:92913f3466d7977894abe166e42e2f551216e4747c34f35069e760ccaa01261e"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:d993130a9ebefe27f21b66a878de618f12ef6285b7f5e2cbe652754364ac1094", "1.32.0--r42hdfd78af_0": "sha256:f941fe42e3ae27406915427b35bbce79cae4a5b79a6860bc327f8a3a063106e0", "1.34.0--r43hdfd78af_0": "sha256:92913f3466d7977894abe166e42e2f551216e4747c34f35069e760ccaa01261e"}, "docker": "quay.io/biocontainers/bioconductor-pepxmltab"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pepxmltab.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pepxmltab
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pepxmltab:1.32.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pepxmltab:1.34.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pepxmltab/1.32.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pepxmltab/1.32.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pepxmltab/1.34.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pepxmltab/1.34.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

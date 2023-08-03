@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-poplarprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-poplarprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-poplarprobe/container.yaml"
-updated_at: "2023-08-02 02:39:29.525746"
-latest: "2.18.0--r42hdfd78af_10"
+updated_at: "2023-08-03 02:40:31.977281"
+latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-poplarprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
+ - "2.18.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-poplarprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-poplarprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-poplarprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:b85f5c887c2e1e90a2aa8a57b69fa39d0bdd39808757f9d60dd27e40f534af62"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:8fcc57f25b97996677e68ac1bc8cf43b6ba501804c09de3aaf45dfc66655e735", "2.18.0--r42hdfd78af_10": "sha256:b85f5c887c2e1e90a2aa8a57b69fa39d0bdd39808757f9d60dd27e40f534af62"}, "docker": "quay.io/biocontainers/bioconductor-poplarprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-poplarprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-poplarprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:b52b277cb417f7eafcc7a1dba3ad6103d233cb360a38e77f305a119af9bec84e"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:8fcc57f25b97996677e68ac1bc8cf43b6ba501804c09de3aaf45dfc66655e735", "2.18.0--r42hdfd78af_10": "sha256:b85f5c887c2e1e90a2aa8a57b69fa39d0bdd39808757f9d60dd27e40f534af62", "2.18.0--r43hdfd78af_11": "sha256:b52b277cb417f7eafcc7a1dba3ad6103d233cb360a38e77f305a119af9bec84e"}, "docker": "quay.io/biocontainers/bioconductor-poplarprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-poplarprobe.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-poplarprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-poplarprobe:2.18.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-poplarprobe:2.18.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-poplarprobe/2.18.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-poplarprobe/2.18.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-poplarprobe/2.18.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-poplarprobe/2.18.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

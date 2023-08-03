@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ramclustr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ramclustr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ramclustr/container.yaml"
-updated_at: "2023-08-02 03:05:27.429277"
+updated_at: "2023-08-03 02:37:43.648262"
 latest: "1.3.0--r42h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-ramclustr"
 aliases:

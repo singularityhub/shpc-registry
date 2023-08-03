@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-xcell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xcell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xcell/container.yaml"
-updated_at: "2023-08-02 02:37:27.212737"
-latest: "1.3--r42h4ac6f70_5"
+updated_at: "2023-08-03 02:38:38.693881"
+latest: "1.3--r43h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/r-xcell"
 
 versions:
  - "1.3--r41h9f5acd7_3"
  - "1.3--r42h9f5acd7_4"
  - "1.3--r42h4ac6f70_5"
+ - "1.3--r43h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for r-xcell"
-config: {"url": "https://biocontainers.pro/tools/r-xcell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xcell", "latest": {"1.3--r42h4ac6f70_5": "sha256:17631e543e4ca6341463ed84bbe28c1509327e5ec3d4c77e4d0224adb5c34ff5"}, "tags": {"1.3--r41h9f5acd7_3": "sha256:d4df34367e86884b0ee998b360033c19e9efc430906af30729a6da3a3e00d919", "1.3--r42h9f5acd7_4": "sha256:66a22120276d2f0e5917eb77b453397c3c49f7e8f324826238d20cb8be74a63f", "1.3--r42h4ac6f70_5": "sha256:17631e543e4ca6341463ed84bbe28c1509327e5ec3d4c77e4d0224adb5c34ff5"}, "docker": "quay.io/biocontainers/r-xcell"}
+config: {"url": "https://biocontainers.pro/tools/r-xcell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xcell", "latest": {"1.3--r43h4ac6f70_6": "sha256:6a4fc9221a6d95aa9e0778d3ae790df493558176c8cb807374bcaa8d4515ccf6"}, "tags": {"1.3--r41h9f5acd7_3": "sha256:d4df34367e86884b0ee998b360033c19e9efc430906af30729a6da3a3e00d919", "1.3--r42h9f5acd7_4": "sha256:66a22120276d2f0e5917eb77b453397c3c49f7e8f324826238d20cb8be74a63f", "1.3--r42h4ac6f70_5": "sha256:17631e543e4ca6341463ed84bbe28c1509327e5ec3d4c77e4d0224adb5c34ff5", "1.3--r43h4ac6f70_6": "sha256:6a4fc9221a6d95aa9e0778d3ae790df493558176c8cb807374bcaa8d4515ccf6"}, "docker": "quay.io/biocontainers/r-xcell"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-xcell.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-xcell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-xcell:1.3--r42h4ac6f70_5
+$ shpc install quay.io/biocontainers/r-xcell:1.3--r43h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-xcell/1.3--r42h4ac6f70_5
-$ module help quay.io/biocontainers/r-xcell/1.3--r42h4ac6f70_5
+$ module load quay.io/biocontainers/r-xcell/1.3--r43h4ac6f70_6
+$ module help quay.io/biocontainers/r-xcell/1.3--r43h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-scpca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scpca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scpca/container.yaml"
-updated_at: "2023-08-02 03:16:37.228668"
-latest: "1.12.0--r42hdfd78af_0"
+updated_at: "2023-08-03 03:13:58.105713"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scpca"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scpca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scpca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpca", "latest": {"1.12.0--r42hdfd78af_0": "sha256:881e0be5fb555af678c380dc62e50158f6dfc8c19dd1adc14fb165bf9316ba20"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:a73c20cdf3ca1c6da8709eb9a5695238b6dff0a5f48e2732bc76ff9057e71db3", "1.12.0--r42hdfd78af_0": "sha256:881e0be5fb555af678c380dc62e50158f6dfc8c19dd1adc14fb165bf9316ba20"}, "docker": "quay.io/biocontainers/bioconductor-scpca"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scpca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpca", "latest": {"1.14.0--r43hdfd78af_0": "sha256:66399af0965414b3aaf2a4c76e8db3cc1a38b354398de8ebdcc7d8846ffca4d7"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:a73c20cdf3ca1c6da8709eb9a5695238b6dff0a5f48e2732bc76ff9057e71db3", "1.12.0--r42hdfd78af_0": "sha256:881e0be5fb555af678c380dc62e50158f6dfc8c19dd1adc14fb165bf9316ba20", "1.14.0--r43hdfd78af_0": "sha256:66399af0965414b3aaf2a4c76e8db3cc1a38b354398de8ebdcc7d8846ffca4d7"}, "docker": "quay.io/biocontainers/bioconductor-scpca"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scpca.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scpca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scpca:1.12.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scpca:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scpca/1.12.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scpca/1.12.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scpca/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scpca/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

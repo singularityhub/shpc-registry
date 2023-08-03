@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-weaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-weaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-weaver/container.yaml"
-updated_at: "2023-08-02 02:29:45.017982"
-latest: "1.64.0--r42hdfd78af_0"
+updated_at: "2023-08-03 03:17:37.632332"
+latest: "1.66.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-weaver"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
  - "1.64.0--r42hdfd78af_0"
+ - "1.66.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-weaver"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-weaver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-weaver", "latest": {"1.64.0--r42hdfd78af_0": "sha256:40519960a7696ff68a8ee6109a22e586fc4648763ac2e23134367c48fd772426"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:2a5289ca6d6de44780af130ad8901fccc99d01ab7161e1687b3f19136061f0a8", "1.64.0--r42hdfd78af_0": "sha256:40519960a7696ff68a8ee6109a22e586fc4648763ac2e23134367c48fd772426"}, "docker": "quay.io/biocontainers/bioconductor-weaver"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-weaver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-weaver", "latest": {"1.66.0--r43hdfd78af_0": "sha256:2f21dbcd86cd6e0c25a9d0219e43539d8a83eac001aa22707ddbc2d7fb5ff5a5"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:2a5289ca6d6de44780af130ad8901fccc99d01ab7161e1687b3f19136061f0a8", "1.64.0--r42hdfd78af_0": "sha256:40519960a7696ff68a8ee6109a22e586fc4648763ac2e23134367c48fd772426", "1.66.0--r43hdfd78af_0": "sha256:2f21dbcd86cd6e0c25a9d0219e43539d8a83eac001aa22707ddbc2d7fb5ff5a5"}, "docker": "quay.io/biocontainers/bioconductor-weaver"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-weaver.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-weaver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-weaver:1.64.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-weaver:1.66.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-weaver/1.64.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-weaver/1.64.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-weaver/1.66.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-weaver/1.66.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "php"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/php/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/php/container.yaml"
-updated_at: "2023-08-02 02:28:19.924025"
+updated_at: "2023-08-03 03:33:51.051963"
 latest: "8-alpine3.18"
 container_url: "https://hub.docker.com/_/php"
 aliases:

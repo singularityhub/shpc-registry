@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gaprediction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gaprediction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gaprediction/container.yaml"
-updated_at: "2023-08-02 03:08:09.145999"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-08-03 02:54:58.451742"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gaprediction"
 aliases:
  - "c89"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.12.0--r36_0"
  - "1.24.0--r42hdfd78af_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gaprediction"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gaprediction", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gaprediction", "latest": {"1.24.0--r42hdfd78af_0": "sha256:05bb05aaaf144608783c959e6f31ae6b939b17f4bfccd74b8055a00bd05cdd05"}, "tags": {"1.8.1--r351_0": "sha256:366c8ce7565afd5a0278d6818a4686a01253c1bb0a2e29c63c759b24a64c036e", "1.20.0--r41hdfd78af_0": "sha256:dfa1834ae3f6d89bbd2b53035b793e9a36d81effdedf115dad448d17dbc73c7d", "1.18.0--r41hdfd78af_0": "sha256:d903582f03c7d607e2a2bc3a01b55499308ca2c80d57397afa2a333b8eb8d117", "1.16.0--r40hdfd78af_1": "sha256:106d5e28539f89b5614d6360c85d65f78b76d5d8b33685e700a45a76e6326200", "1.14.0--r40_0": "sha256:3bd97f8bbb653ce13049fe8ccf96e87037650c9d21aa1964943f4f5663056302", "1.12.0--r36_0": "sha256:a33dec5fcc33fe98c5987428bbdcdd6e458c881ef62b69d597cfa970cdb3cb35", "1.24.0--r42hdfd78af_0": "sha256:05bb05aaaf144608783c959e6f31ae6b939b17f4bfccd74b8055a00bd05cdd05"}, "docker": "quay.io/biocontainers/bioconductor-gaprediction", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gaprediction", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gaprediction", "latest": {"1.26.0--r43hdfd78af_0": "sha256:3d769a428812bb1a148e99265ba46ba01d04c08a158e2cc3d1e1269044a1a806"}, "tags": {"1.8.1--r351_0": "sha256:366c8ce7565afd5a0278d6818a4686a01253c1bb0a2e29c63c759b24a64c036e", "1.20.0--r41hdfd78af_0": "sha256:dfa1834ae3f6d89bbd2b53035b793e9a36d81effdedf115dad448d17dbc73c7d", "1.18.0--r41hdfd78af_0": "sha256:d903582f03c7d607e2a2bc3a01b55499308ca2c80d57397afa2a333b8eb8d117", "1.16.0--r40hdfd78af_1": "sha256:106d5e28539f89b5614d6360c85d65f78b76d5d8b33685e700a45a76e6326200", "1.14.0--r40_0": "sha256:3bd97f8bbb653ce13049fe8ccf96e87037650c9d21aa1964943f4f5663056302", "1.12.0--r36_0": "sha256:a33dec5fcc33fe98c5987428bbdcdd6e458c881ef62b69d597cfa970cdb3cb35", "1.24.0--r42hdfd78af_0": "sha256:05bb05aaaf144608783c959e6f31ae6b939b17f4bfccd74b8055a00bd05cdd05", "1.26.0--r43hdfd78af_0": "sha256:3d769a428812bb1a148e99265ba46ba01d04c08a158e2cc3d1e1269044a1a806"}, "docker": "quay.io/biocontainers/bioconductor-gaprediction", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gaprediction.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gaprediction
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gaprediction:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gaprediction:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gaprediction/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gaprediction/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gaprediction/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gaprediction/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/savana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savana/container.yaml"
-updated_at: "2023-08-02 02:50:48.519007"
-latest: "0.2.3--pyhdfd78af_0"
+updated_at: "2023-08-03 03:10:00.407752"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/savana"
 aliases:
  - "savana"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.2.1--pyhdfd78af_0"
  - "0.2.3--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for savana"
-config: {"url": "https://biocontainers.pro/tools/savana", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for savana", "latest": {"0.2.3--pyhdfd78af_0": "sha256:754a6691bfef52454e912973d5c3863aab00a1006227a98c068d7823a60eaf88"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:488e260166b212aa49c37e7b2e92c43171513711269f00a8ac17d3646cbecda1", "0.2.3--pyhdfd78af_0": "sha256:754a6691bfef52454e912973d5c3863aab00a1006227a98c068d7823a60eaf88"}, "docker": "quay.io/biocontainers/savana", "aliases": {"savana": "/usr/local/bin/savana", "savana-validation": "/usr/local/bin/savana-validation", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
+config: {"url": "https://biocontainers.pro/tools/savana", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for savana", "latest": {"1.0.0--pyhdfd78af_0": "sha256:6b6d8759c9ef9d43f59e6c5bf696d1dc849876b1d6e29d412d8d2d826687eaed"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:488e260166b212aa49c37e7b2e92c43171513711269f00a8ac17d3646cbecda1", "0.2.3--pyhdfd78af_0": "sha256:754a6691bfef52454e912973d5c3863aab00a1006227a98c068d7823a60eaf88", "1.0.0--pyhdfd78af_0": "sha256:6b6d8759c9ef9d43f59e6c5bf696d1dc849876b1d6e29d412d8d2d826687eaed"}, "docker": "quay.io/biocontainers/savana", "aliases": {"savana": "/usr/local/bin/savana", "savana-validation": "/usr/local/bin/savana-validation", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/savana.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/savana
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/savana:0.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/savana:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/savana/0.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/savana/0.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/savana/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/savana/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

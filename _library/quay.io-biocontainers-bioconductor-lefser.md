@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-lefser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lefser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lefser/container.yaml"
-updated_at: "2023-08-02 02:37:00.760201"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-08-03 03:32:55.486387"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lefser"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lefser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lefser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lefser", "latest": {"1.8.0--r42hdfd78af_0": "sha256:8dd8a4b0b5de57cd4d40377a6bc9c40f7f9071555dfff5a6e8d1f336b01959a4"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:1d3729ad19a24b30413f0ec80b1610967909e8ccf2d2926e5f16f0baee1f34a8", "1.8.0--r42hdfd78af_0": "sha256:8dd8a4b0b5de57cd4d40377a6bc9c40f7f9071555dfff5a6e8d1f336b01959a4"}, "docker": "quay.io/biocontainers/bioconductor-lefser"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lefser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lefser", "latest": {"1.10.0--r43hdfd78af_0": "sha256:96da4a3194ea4d0a35a40632b35aab49fe8aeb17b48981b665fa5bddd99e66f2"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:1d3729ad19a24b30413f0ec80b1610967909e8ccf2d2926e5f16f0baee1f34a8", "1.8.0--r42hdfd78af_0": "sha256:8dd8a4b0b5de57cd4d40377a6bc9c40f7f9071555dfff5a6e8d1f336b01959a4", "1.10.0--r43hdfd78af_0": "sha256:96da4a3194ea4d0a35a40632b35aab49fe8aeb17b48981b665fa5bddd99e66f2"}, "docker": "quay.io/biocontainers/bioconductor-lefser"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lefser.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lefser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lefser:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lefser:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lefser/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lefser/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lefser/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lefser/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
