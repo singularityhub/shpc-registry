@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/skder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for skder
+latest:
+  1.0--py310h0dbaff4_0: sha256:38fdcb0465610414b995547f61ef7f4cf0f04419adbb4a7dc66dc7e4d612f3ae
+tags:
+  1.0--py310h0dbaff4_0: sha256:38fdcb0465610414b995547f61ef7f4cf0f04419adbb4a7dc66dc7e4d612f3ae
+docker: quay.io/biocontainers/skder
+aliases:
+  gimme_taxa.py: /usr/local/bin/gimme_taxa.py
+  ncbi-genome-download: /usr/local/bin/ncbi-genome-download
+  ngd: /usr/local/bin/ngd
+  pyfastx: /usr/local/bin/pyfastx
+  skDER.py: /usr/local/bin/skDER.py
+  skDERcore: /usr/local/bin/skDERcore
+  skani: /usr/local/bin/skani
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

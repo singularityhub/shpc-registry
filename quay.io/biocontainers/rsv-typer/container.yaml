@@ -1,0 +1,61 @@
+url: https://biocontainers.pro/tools/rsv-typer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rsv-typer
+latest:
+  0.1.0--pyh7cba7a3_0: sha256:c15117607133166c95cef922d7e1d494093f322ae887ff11b1dd86d0c41d202f
+tags:
+  0.1.0--pyh7cba7a3_0: sha256:c15117607133166c95cef922d7e1d494093f322ae887ff11b1dd86d0c41d202f
+docker: quay.io/biocontainers/rsv-typer
+aliases:
+  align_trim: /usr/local/bin/align_trim
+  align_trim_n: /usr/local/bin/align_trim_n
+  artic: /usr/local/bin/artic
+  artic-tools: /usr/local/bin/artic-tools
+  artic_fasta_header: /usr/local/bin/artic_fasta_header
+  artic_get_stats: /usr/local/bin/artic_get_stats
+  artic_make_depth_mask: /usr/local/bin/artic_make_depth_mask
+  artic_mask: /usr/local/bin/artic_mask
+  artic_vcf_filter: /usr/local/bin/artic_vcf_filter
+  artic_vcf_merge: /usr/local/bin/artic_vcf_merge
+  demux_fast5: /usr/local/bin/demux_fast5
+  longshot: /usr/local/bin/longshot
+  margin_cons: /usr/local/bin/margin_cons
+  margin_cons_medaka: /usr/local/bin/margin_cons_medaka
+  medaka: /usr/local/bin/medaka
+  medaka_consensus: /usr/local/bin/medaka_consensus
+  medaka_counts: /usr/local/bin/medaka_counts
+  medaka_data_path: /usr/local/bin/medaka_data_path
+  medaka_variant: /usr/local/bin/medaka_variant
+  medaka_version_report: /usr/local/bin/medaka_version_report
+  mini_align: /usr/local/bin/mini_align
+  nanopolish: /usr/local/bin/nanopolish
+  nanopolish_makerange.py: /usr/local/bin/nanopolish_makerange.py
+  nanopolish_merge.py: /usr/local/bin/nanopolish_merge.py
+  nextclade: /usr/local/bin/nextclade
+  rsv-typer: /usr/local/bin/rsv-typer
+  vcfextract: /usr/local/bin/vcfextract
+  check_compression: /usr/local/bin/check_compression
+  compress_fast5: /usr/local/bin/compress_fast5
+  porechop: /usr/local/bin/porechop
+  fast5_subset: /usr/local/bin/fast5_subset
+  multi_to_single_fast5: /usr/local/bin/multi_to_single_fast5
+  rich-click: /usr/local/bin/rich-click
+  single_to_multi_fast5: /usr/local/bin/single_to_multi_fast5
+  whatshap: /usr/local/bin/whatshap
+  multiqc: /usr/local/bin/multiqc
+  minimap2.py: /usr/local/bin/minimap2.py
+  freeze_graph: /usr/local/bin/freeze_graph
+  tar: /usr/local/bin/tar
+  cmark: /usr/local/bin/cmark
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  muscle: /usr/local/bin/muscle
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  coloredlogs: /usr/local/bin/coloredlogs
+  tensorboard: /usr/local/bin/tensorboard
