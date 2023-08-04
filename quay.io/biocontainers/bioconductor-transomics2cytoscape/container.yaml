@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-transomics2cytoscape
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-transomics2cytoscape
 latest:
-  1.8.0--r42hdfd78af_0: sha256:724e3eecc8634f07b253a674cac755051ddfbf749b04d26b8ec58cbf9e26bcd2
+  1.10.0--r43hdfd78af_0: sha256:c7076a26a15bd6a7b3384db840caf33b21af1ca16f04261f8556165d931e73bc
 tags:
   1.4.0--r41hdfd78af_0: sha256:d90e9066a90a22918c61d8fc24bf208883208a78a5508508719734a98fa605af
   1.8.0--r42hdfd78af_0: sha256:724e3eecc8634f07b253a674cac755051ddfbf749b04d26b8ec58cbf9e26bcd2
+  1.10.0--r43hdfd78af_0: sha256:c7076a26a15bd6a7b3384db840caf33b21af1ca16f04261f8556165d931e73bc
 docker: quay.io/biocontainers/bioconductor-transomics2cytoscape
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

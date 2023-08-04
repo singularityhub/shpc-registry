@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-fcbf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fcbf
 latest:
-  2.6.0--r42hdfd78af_0: sha256:b557b2282ce376fff6df7ec60a31d751a70876171710a77d2c7a7979836d69e4
+  2.8.0--r43hdfd78af_0: sha256:db6d33ec4bb853c22c5c91b260d0d37aac65ea273b59324c32839bdc394ae54f
 tags:
   2.2.0--r41hdfd78af_0: sha256:c78f3b7c2a48549932d326ff284a9b427d6ae0112e5e564338df083dd1bd9b4b
   2.6.0--r42hdfd78af_0: sha256:b557b2282ce376fff6df7ec60a31d751a70876171710a77d2c7a7979836d69e4
+  2.8.0--r43hdfd78af_0: sha256:db6d33ec4bb853c22c5c91b260d0d37aac65ea273b59324c32839bdc394ae54f
 docker: quay.io/biocontainers/bioconductor-fcbf

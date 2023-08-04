@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-lungcancerlines
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lungcancerlines
 latest:
-  0.36.0--r42hdfd78af_0: sha256:71df9ffcc75755ae141964f1635d3ee62c94a1e5d2c73c07afa3b26b2747cfa9
+  0.38.0--r43hdfd78af_0: sha256:5e664374bb47530c57499b72a0429d9afc4ede1472424172c495b85b277c4860
 tags:
   0.32.0--r41hdfd78af_1: sha256:d94d9e3e12aa706c1643410ff31609f8bf9d77cbf3cfde9decf63053765d27b8
   0.36.0--r42hdfd78af_0: sha256:71df9ffcc75755ae141964f1635d3ee62c94a1e5d2c73c07afa3b26b2747cfa9
+  0.38.0--r43hdfd78af_0: sha256:5e664374bb47530c57499b72a0429d9afc4ede1472424172c495b85b277c4860
 docker: quay.io/biocontainers/bioconductor-lungcancerlines

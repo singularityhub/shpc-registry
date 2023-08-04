@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cytomapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cytomapper
 latest:
-  1.10.0--r42hdfd78af_0: sha256:d16906ddfad730ca8599a2090a3aa8ed0fa521da5dfb33bbeef1406e420aad37
+  1.12.0--r43hdfd78af_0: sha256:20c9c1f388851d1aa56864dfcfdea0ab354a4e8859867b409971dafaa9767ea1
 tags:
   1.6.0--r41hdfd78af_0: sha256:4c52afa7052b9d79277e9e41c70f3c475aed2b721534f095b8c2d8e4fdb5cddc
   1.10.0--r42hdfd78af_0: sha256:d16906ddfad730ca8599a2090a3aa8ed0fa521da5dfb33bbeef1406e420aad37
+  1.12.0--r43hdfd78af_0: sha256:20c9c1f388851d1aa56864dfcfdea0ab354a4e8859867b409971dafaa9767ea1
 docker: quay.io/biocontainers/bioconductor-cytomapper
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-blacksheepr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-blacksheepr
 latest:
-  1.12.0--r42hdfd78af_0: sha256:433eff93da9922b1c567b022bcf69ebf7934c7ac305ffd80dd5e676da210c91f
+  1.14.0--r43hdfd78af_0: sha256:060b918cd7518905e6938c57cda88419f98de9b818f7b22c5d02b0bbee656d43
 tags:
   1.8.0--r41hdfd78af_0: sha256:6dc20ff38ee83a99645bbc321f94a8fd5eab7cac65dc602896c7146f846ea2f0
   1.12.0--r42hdfd78af_0: sha256:433eff93da9922b1c567b022bcf69ebf7934c7ac305ffd80dd5e676da210c91f
+  1.14.0--r43hdfd78af_0: sha256:060b918cd7518905e6938c57cda88419f98de9b818f7b22c5d02b0bbee656d43
 docker: quay.io/biocontainers/bioconductor-blacksheepr

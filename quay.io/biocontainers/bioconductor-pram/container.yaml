@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-pram
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pram
 latest:
-  1.14.0--r42hdfd78af_0: sha256:919589275a3d6e602fff3fa2bfd0d59c04bd42b18b58a66ee0cab7de6b3f62ff
+  1.16.0--r43hdfd78af_0: sha256:c64a0ad854889c70fce03b1d2680ca1a4a59361b3d430fb7c2e432703699da7d
 tags:
   1.8.0--r41hdfd78af_0: sha256:7e0eb2f63d3927a39488157ce292c984f6aaeae5dbb74115ad0db4e85d9dfb77
   1.10.0--r41hdfd78af_0: sha256:a1b36aeb6802a6b67ef0b11612a1bafd567ff7dd897d5baf415c7e9d13f36d89
   1.14.0--r42hdfd78af_0: sha256:919589275a3d6e602fff3fa2bfd0d59c04bd42b18b58a66ee0cab7de6b3f62ff
+  1.16.0--r43hdfd78af_0: sha256:c64a0ad854889c70fce03b1d2680ca1a4a59361b3d430fb7c2e432703699da7d
 docker: quay.io/biocontainers/bioconductor-pram
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

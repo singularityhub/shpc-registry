@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-missrows
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-missrows
 latest:
-  1.18.0--r42hdfd78af_0: sha256:a18f287e739a581513f101f8fe1cb1a940c833b63a0d53f38d5a2ee44b003a28
+  1.20.0--r43hdfd78af_0: sha256:09c2d44bb5de5c702aa35377e6cd2b669375365db0fc13d3c466f2a829ee63c2
 tags:
   1.8.0--r40_0: sha256:ff1f26907cbe6e47157e493b3329291a0dfbd701831a71384785172c4ac5adc0
   1.14.0--r41hdfd78af_0: sha256:cbcd90aca4e4df26c6519e89c7fa6a90008dbbf4042f640213fa785756153a2c
   1.12.0--r41hdfd78af_0: sha256:25b33e8dac428b73ee0705e12f18e35e8c25b838819d901d7ecc00f69119afa7
   1.10.0--r40hdfd78af_1: sha256:c1dedfed75687da6dbda669fdae49ad69f124d60f06662bfe51bd5492df7feb1
   1.18.0--r42hdfd78af_0: sha256:a18f287e739a581513f101f8fe1cb1a940c833b63a0d53f38d5a2ee44b003a28
+  1.20.0--r43hdfd78af_0: sha256:09c2d44bb5de5c702aa35377e6cd2b669375365db0fc13d3c466f2a829ee63c2
 docker: quay.io/biocontainers/bioconductor-missrows
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

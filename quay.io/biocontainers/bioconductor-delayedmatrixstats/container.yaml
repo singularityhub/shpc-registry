@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-delayedmatrixstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-delayedmatrixstats
 latest:
-  1.20.0--r42hdfd78af_0: sha256:b2e019d410f698f3e2ca92603434212d8d19e861bbd182227714f12cb6285605
+  1.22.1--r43hdfd78af_0: sha256:4d661d82f512dd63aacaa1a8bcd644c4977c88416df3d4fd2be761678ed5fb88
 tags:
   1.8.0--r36_0: sha256:ff42ee2c7667ca75e6214dd6215fff5f0e8649bc929b4ca5eb689f4639f47e3c
   1.20.0--r42hdfd78af_0: sha256:b2e019d410f698f3e2ca92603434212d8d19e861bbd182227714f12cb6285605
@@ -10,6 +10,7 @@ tags:
   1.14.0--r41hdfd78af_0: sha256:a7423fef38b1304c7a1dc37c22f08bb8720b2a9ba8183072004d7dcd5b417edc
   1.12.3--r40hdfd78af_0: sha256:2f5b044acb6ad1eef17525c6587e3fe86d30016f9ff362bc5d66c9bdd8994f89
   1.10.0--r40_0: sha256:c98b6c6bb8b73e7f86152d6e6509cf54a63e32c59cb132cd7e9f98624b90e0b4
+  1.22.1--r43hdfd78af_0: sha256:4d661d82f512dd63aacaa1a8bcd644c4977c88416df3d4fd2be761678ed5fb88
 docker: quay.io/biocontainers/bioconductor-delayedmatrixstats
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-m3c
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-m3c
 latest:
-  1.20.0--r42hdfd78af_0: sha256:289d2ed48d9c44ec03da11d9aa62181c1eaeedeff666b79ab20281b3bdfa78b8
+  1.22.0--r43hdfd78af_0: sha256:260f8b5b4453c915d45926749288879d75f8ff004eebe64b934ad258cda1b614
 tags:
   1.8.0--r36_0: sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f
   1.20.0--r42hdfd78af_0: sha256:289d2ed48d9c44ec03da11d9aa62181c1eaeedeff666b79ab20281b3bdfa78b8
@@ -10,6 +10,7 @@ tags:
   1.14.0--r41hdfd78af_0: sha256:247855dfc592b126f6b1433e3bc4d204fbab4a616c050382f02ad1e7bff6d8d0
   1.12.0--r40hdfd78af_1: sha256:0e23571cab81f2a7c37414061ce33dd3c7957847cfbd806cf16daa23603487f7
   1.10.0--r40_0: sha256:7b2147f51a35d5fa17abfcfa1335892450f6e57e2ee4306b913576896e8b986c
+  1.22.0--r43hdfd78af_0: sha256:260f8b5b4453c915d45926749288879d75f8ff004eebe64b934ad258cda1b614
 docker: quay.io/biocontainers/bioconductor-m3c
 aliases:
   f2py3.7: /usr/local/bin/f2py3.7

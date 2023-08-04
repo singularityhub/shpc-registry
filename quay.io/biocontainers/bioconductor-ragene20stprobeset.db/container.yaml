@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ragene20stprobeset.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ragene20stprobeset.db
 latest:
-  8.8.0--r42hdfd78af_2: sha256:3d2a6f1edf1a86d42d5ab12cd0fd32b67127b4672653dd08fb5ed737576696f0
+  8.8.0--r43hdfd78af_3: sha256:46496e6935d5ab3e9bf0a6dbfb82978b926b65bb1345c9ea3104aaaa542bb06e
 tags:
   8.8.0--r41hdfd78af_1: sha256:54d8261156a6faa17523df1ebba3ea876b260406439e31ad8de3b9abf841d160
   8.8.0--r42hdfd78af_2: sha256:3d2a6f1edf1a86d42d5ab12cd0fd32b67127b4672653dd08fb5ed737576696f0
+  8.8.0--r43hdfd78af_3: sha256:46496e6935d5ab3e9bf0a6dbfb82978b926b65bb1345c9ea3104aaaa542bb06e
 docker: quay.io/biocontainers/bioconductor-ragene20stprobeset.db

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-italicsdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-italicsdata
 latest:
-  2.36.0--r42hdfd78af_0: sha256:ce574f2034def617207ced60a91ad200e85cf90221cc2d6dda492c6900c8b34b
+  2.38.0--r43hdfd78af_0: sha256:2c60e308d7a07b7fd3e8d15c3a5fd1e309d42fd2454df8c4cd354ca869091b06
 tags:
   2.32.0--r41hdfd78af_1: sha256:3e980c35c846274dad61dab2ce3dc8557ac34d053e70ae9fd2343eb25a0469cb
   2.36.0--r42hdfd78af_0: sha256:ce574f2034def617207ced60a91ad200e85cf90221cc2d6dda492c6900c8b34b
+  2.38.0--r43hdfd78af_0: sha256:2c60e308d7a07b7fd3e8d15c3a5fd1e309d42fd2454df8c4cd354ca869091b06
 docker: quay.io/biocontainers/bioconductor-italicsdata

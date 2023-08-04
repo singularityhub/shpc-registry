@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hgu95aprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgu95aprobe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:0f3613fde4e50a77dd533c3569faa3b870ae0a779a026b91724be7524b5f6696
+  2.18.0--r43hdfd78af_11: sha256:95479ee9da4acec9493e81e5c3e7990ebe3a49fdb49d6035c0c8730bb65a12a7
 tags:
   2.18.0--r41hdfd78af_9: sha256:a7eca36660a615e1429c1e32213176fc5d72d954c536578f301524a00cfa9e05
   2.18.0--r42hdfd78af_10: sha256:0f3613fde4e50a77dd533c3569faa3b870ae0a779a026b91724be7524b5f6696
+  2.18.0--r43hdfd78af_11: sha256:95479ee9da4acec9493e81e5c3e7990ebe3a49fdb49d6035c0c8730bb65a12a7
 docker: quay.io/biocontainers/bioconductor-hgu95aprobe
