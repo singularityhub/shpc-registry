@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mosca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mosca/container.yaml"
-updated_at: "2023-08-03 04:14:09.126144"
+updated_at: "2023-08-04 02:45:32.020537"
 latest: "2.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mosca"
 aliases:

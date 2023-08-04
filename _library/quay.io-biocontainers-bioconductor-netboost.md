@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netboost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netboost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netboost/container.yaml"
-updated_at: "2023-08-03 04:05:01.856552"
+updated_at: "2023-08-04 02:47:25.833318"
 latest: "2.0.0--r41h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netboost"
 aliases:

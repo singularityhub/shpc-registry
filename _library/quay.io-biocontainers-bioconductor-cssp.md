@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cssp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cssp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cssp/container.yaml"
-updated_at: "2023-08-03 03:24:54.429756"
+updated_at: "2023-08-04 03:21:05.747056"
 latest: "1.36.0--r42ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-cssp"
 
