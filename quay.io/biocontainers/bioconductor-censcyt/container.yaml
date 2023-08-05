@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-censcyt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-censcyt
 latest:
-  1.6.0--r42hdfd78af_0: sha256:e52ff4987e35fadab5029bf412763738afb157ee3ba34bb2f0277610f7a5def8
+  1.8.0--r43hdfd78af_0: sha256:622a3f88a06af8a9a55e6b388d5bb199f6ea0b9cc28fee4cec74aa92afeff791
 tags:
   1.2.0--r41hdfd78af_0: sha256:f9e75f93c6afd03e805879ecb3442fc452f4febff62678e4cb60e8cf14ceb8f8
   1.6.0--r42hdfd78af_0: sha256:e52ff4987e35fadab5029bf412763738afb157ee3ba34bb2f0277610f7a5def8
+  1.8.0--r43hdfd78af_0: sha256:622a3f88a06af8a9a55e6b388d5bb199f6ea0b9cc28fee4cec74aa92afeff791
 docker: quay.io/biocontainers/bioconductor-censcyt

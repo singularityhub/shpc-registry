@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-synapsis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-synapsis
 latest:
-  1.4.0--r42hdfd78af_0: sha256:74b98438da40e53a5baa210df9e05e802e3ddeaf5769ffcb5f77f36cf1665410
+  1.6.0--r43hdfd78af_0: sha256:9bc0e4b4bc4358b435c723799845402427038393d67ca989c8c2d402bd51468a
 tags:
   1.0.0--r41hdfd78af_0: sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570
   1.4.0--r42hdfd78af_0: sha256:74b98438da40e53a5baa210df9e05e802e3ddeaf5769ffcb5f77f36cf1665410
+  1.6.0--r43hdfd78af_0: sha256:9bc0e4b4bc4358b435c723799845402427038393d67ca989c8c2d402bd51468a
 docker: quay.io/biocontainers/bioconductor-synapsis
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

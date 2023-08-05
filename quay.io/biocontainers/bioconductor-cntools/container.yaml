@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cntools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cntools
 latest:
-  1.54.0--r42ha9d7317_1: sha256:da15c3204e4ef2fb319f76a28f950bd0e8424e6f381c622ebde07582e193b81d
+  1.56.0--r43ha9d7317_0: sha256:fcbaa2e812ff5dd6704eb541e06cad8087e4826e8e202a9124c18abbee246db4
 tags:
   1.50.0--r41hc0cfd56_2: sha256:0d0d4bea26c7062e3305028914fd14609be7d56c5fbcab8467462d5f666db578
   1.54.0--r42hc0cfd56_0: sha256:c82743ab660328cf0fbef0d8a9250d9e4b7d9ced388fb4b488a4d961397f025f
   1.54.0--r42ha9d7317_1: sha256:da15c3204e4ef2fb319f76a28f950bd0e8424e6f381c622ebde07582e193b81d
+  1.56.0--r43ha9d7317_0: sha256:fcbaa2e812ff5dd6704eb541e06cad8087e4826e8e202a9124c18abbee246db4
 docker: quay.io/biocontainers/bioconductor-cntools

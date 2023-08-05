@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-perfmeas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-perfmeas
 latest:
-  1.2.5--r42h56115f1_2: sha256:ec164b341a9276976d494c4db724994c318731b8c316d85b6725a76407de23c4
+  1.2.5--r43h56115f1_3: sha256:2469b97f2a4e8541c566dd5b793e329f8e995fe0f18927765b03f71a487cd2f6
 tags:
   1.2.5--r41h73dbb54_0: sha256:9601f5a971ebdf413b8bcb2b3d8c8d06b083fe847e7e2702287ea3d31af7d922
   1.2.5--r42h73dbb54_1: sha256:459b4cd99f1173443ff77bb0548508617bf96bf3547d1c6f052b10176ad6aca7
   1.2.5--r42h56115f1_2: sha256:ec164b341a9276976d494c4db724994c318731b8c316d85b6725a76407de23c4
+  1.2.5--r43h56115f1_3: sha256:2469b97f2a4e8541c566dd5b793e329f8e995fe0f18927765b03f71a487cd2f6
 docker: quay.io/biocontainers/r-perfmeas

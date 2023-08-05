@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metaxa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metaxa
 latest:
-  2.2.3--pl5321hdfd78af_1: sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e
+  2.2.3--pl5321hdfd78af_2: sha256:abff932f9acacca9dde28af5aa6e884d47dfe95d0d112420d1ebe3702f44ce0b
 tags:
   2.2.3--pl5321hdfd78af_1: sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e
+  2.2.3--pl5321hdfd78af_2: sha256:abff932f9acacca9dde28af5aa6e884d47dfe95d0d112420d1ebe3702f44ce0b
 docker: quay.io/biocontainers/metaxa
 aliases:
   hmmc2: /usr/local/bin/hmmc2

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-trigger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trigger
 latest:
-  1.44.0--r42ha9d7317_1: sha256:4c3c78b78cbe33b156ca2a11ec30d1cdc15e183a43b5439e0dec4f0969a33eca
+  1.46.0--r43ha9d7317_0: sha256:469956ff48c878ac344b35309a9cf2981beb59785ecf12c591a1d4e604f82054
 tags:
   1.40.0--r41hc0cfd56_2: sha256:43f15acd399c9b5919813c61d4f11d4190534957f8d1909ce4b58b6742900a47
   1.44.0--r42hc0cfd56_0: sha256:24ef3294fac15c100751fc374d213af3d8c348d9bda4e855e8dd36fd3d351f9b
   1.44.0--r42ha9d7317_1: sha256:4c3c78b78cbe33b156ca2a11ec30d1cdc15e183a43b5439e0dec4f0969a33eca
+  1.46.0--r43ha9d7317_0: sha256:469956ff48c878ac344b35309a9cf2981beb59785ecf12c591a1d4e604f82054
 docker: quay.io/biocontainers/bioconductor-trigger

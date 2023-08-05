@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-genbankr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genbankr
 latest:
-  1.26.0--r42hdfd78af_0: sha256:a042623a2078a36ad03af82fb88ac0dec919cb08edfc53d8d20edef826a14738
+  1.27.0--r43hdfd78af_0: sha256:c19cc037094cdcb5402998e26448d8e362aed6dbb311fcd07db52226e3c6f362
 tags:
   1.8.0--r341_0: sha256:d252f968c85708a3763be02f3c3f36c8464a4fd3dbe583815e6ee557dce6bb47
   1.22.0--r41hdfd78af_0: sha256:ed7cbacfb845981e4f4743d061125ff7e86e183c6135bb5f30e8e6d624216bb9
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40_0: sha256:ea3076c115e3d6e4e39062468c4f96f6c1ce7780205493983a19fd6b23455f28
   1.14.0--r36_0: sha256:520c2784d23b7f02fbf168e55d31ca1b1d1f9ffb8ad4b22983c29d6ce49a25ea
   1.26.0--r42hdfd78af_0: sha256:a042623a2078a36ad03af82fb88ac0dec919cb08edfc53d8d20edef826a14738
+  1.27.0--r43hdfd78af_0: sha256:c19cc037094cdcb5402998e26448d8e362aed6dbb311fcd07db52226e3c6f362
 docker: quay.io/biocontainers/bioconductor-genbankr
 aliases:
   wget: /usr/local/bin/wget

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hopla
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hopla
 latest:
-  1.2.0--hdfd78af_0: sha256:b51562cc5c7e42534544ce20eee9a5dc862e8882d498fe9e957de258344fe60c
+  1.2.1--hdfd78af_0: sha256:69d1512a3eaca96e5bfa0c00c3792e33cb4b9a3ae4f7c084393bf0d42ff9d8d1
 tags:
   1.2.0--hdfd78af_0: sha256:b51562cc5c7e42534544ce20eee9a5dc862e8882d498fe9e957de258344fe60c
+  1.2.1--hdfd78af_0: sha256:69d1512a3eaca96e5bfa0c00c3792e33cb4b9a3ae4f7c084393bf0d42ff9d8d1
 docker: quay.io/biocontainers/hopla
 aliases:
   hapmapConverter: /usr/local/bin/hapmapConverter

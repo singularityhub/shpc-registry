@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-contibait
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-contibait
 latest:
-  1.26.0--r42hf17093f_1: sha256:b364b750e0f24a9105d87f90dbf4950da0400b8fdb4dafc71356f06dbe5f8309
+  1.28.0--r43hf17093f_0: sha256:870b4e1ed328e3e94081eeeabedc256a903507de8c35ae1720f8d13086ec208d
 tags:
   1.8.0--r341hfc679d8_0: sha256:53646242d04e863a4b3fb8e61cb8b0426e4985c6c24364135b02f5ed57f16d17
   1.22.0--r41hc247a5b_2: sha256:93544750937522ee15a0789a45b598859be3a7b9a5c69e83d3f6da7feb33a317
@@ -12,6 +12,7 @@ tags:
   1.14.0--r36he1b5a44_0: sha256:149d7809bf77476073523455644fa4f31a86a0751ea70d4bec472078d3d31c4c
   1.26.0--r42hc247a5b_0: sha256:c7fa5878f2ee401c20d8e4ccff5417765440780fee87d27ff6a1980fda30e7d6
   1.26.0--r42hf17093f_1: sha256:b364b750e0f24a9105d87f90dbf4950da0400b8fdb4dafc71356f06dbe5f8309
+  1.28.0--r43hf17093f_0: sha256:870b4e1ed328e3e94081eeeabedc256a903507de8c35ae1720f8d13086ec208d
 docker: quay.io/biocontainers/bioconductor-contibait
 aliases:
   wget: /usr/local/bin/wget

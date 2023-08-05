@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-categorycompare
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-categorycompare
 latest:
-  1.42.0--r42hdfd78af_0: sha256:4013011984c0aecf11bf84b83ad3ce2914c9d42180dd211c450725a8613260fc
+  1.44.0--r43hdfd78af_0: sha256:b6e6de2aa2c7fbdf717c67f320cd128bbb7f9541f7e07fbd7aa83407c0a27cf7
 tags:
   1.38.0--r41hdfd78af_0: sha256:20378af2616bd4bff767c4624b9fe1a31ca47262c211b58afa41ede43b30f415
   1.42.0--r42hdfd78af_0: sha256:4013011984c0aecf11bf84b83ad3ce2914c9d42180dd211c450725a8613260fc
+  1.44.0--r43hdfd78af_0: sha256:b6e6de2aa2c7fbdf717c67f320cd128bbb7f9541f7e07fbd7aa83407c0a27cf7
 docker: quay.io/biocontainers/bioconductor-categorycompare
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

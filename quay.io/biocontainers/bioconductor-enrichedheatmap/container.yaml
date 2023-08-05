@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-enrichedheatmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-enrichedheatmap
 latest:
-  1.27.2--r42hf17093f_1: sha256:a60984339235bda46bf71eef8576468aab29bf63507b058684d1c274e941117f
+  1.30.0--r43hf17093f_0: sha256:647d48e4d5587c9ce27a8d2a7d49c2e634d126da2df191fef118789db6fe6c5f
 tags:
   1.24.0--r41hc247a5b_2: sha256:60171a93bee57a9c114ea1523e46b5de3d61500b24d5c94f7fb16a38e54078e9
   1.27.2--r42hc247a5b_0: sha256:300d0907c65fb6750c4ecc9a0d9462d901e66d94ce109e109ede3d98a035b3e3
   1.27.2--r42hf17093f_1: sha256:a60984339235bda46bf71eef8576468aab29bf63507b058684d1c274e941117f
+  1.30.0--r43hf17093f_0: sha256:647d48e4d5587c9ce27a8d2a7d49c2e634d126da2df191fef118789db6fe6c5f
 docker: quay.io/biocontainers/bioconductor-enrichedheatmap
