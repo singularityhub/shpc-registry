@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-normalize450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normalize450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normalize450k/container.yaml"
-updated_at: "2023-08-04 02:58:27.770720"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:01:57.623005"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normalize450k"
 
 versions:
  - "1.22.0--r41hdfd78af_0"
  - "1.26.0--r42hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-normalize450k"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-normalize450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normalize450k", "latest": {"1.26.0--r42hdfd78af_0": "sha256:98df36b98932f3dadf800bc7858b2d1e1c408b09b1a58cd7c7f856839737012e"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:d5c9b781ca8f8cf70d51578a4721d347d0c9f4844c0bf97007abea39a651c8e0", "1.26.0--r42hdfd78af_0": "sha256:98df36b98932f3dadf800bc7858b2d1e1c408b09b1a58cd7c7f856839737012e"}, "docker": "quay.io/biocontainers/bioconductor-normalize450k"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-normalize450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normalize450k", "latest": {"1.28.0--r43hdfd78af_0": "sha256:aa5fc87f6301173ae4437024dafcaceb66842660af9f120038324da39b54b0e5"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:d5c9b781ca8f8cf70d51578a4721d347d0c9f4844c0bf97007abea39a651c8e0", "1.26.0--r42hdfd78af_0": "sha256:98df36b98932f3dadf800bc7858b2d1e1c408b09b1a58cd7c7f856839737012e", "1.28.0--r43hdfd78af_0": "sha256:aa5fc87f6301173ae4437024dafcaceb66842660af9f120038324da39b54b0e5"}, "docker": "quay.io/biocontainers/bioconductor-normalize450k"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-normalize450k.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-normalize450k
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-normalize450k:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-normalize450k:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-normalize450k/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-normalize450k/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-normalize450k/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-normalize450k/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

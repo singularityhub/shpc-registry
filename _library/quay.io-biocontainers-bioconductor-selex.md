@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-selex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-selex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-selex/container.yaml"
-updated_at: "2023-08-04 03:06:58.337757"
-latest: "1.30.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:12:24.481685"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-selex"
 aliases:
  - "jfr"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.26.0--r41hdfd78af_0"
  - "1.30.0--r42hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-selex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-selex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-selex", "latest": {"1.30.0--r42hdfd78af_0": "sha256:965f7cd76ae5904621f50a0aa5582ba64b72871e9c98f54f8cd6dd477924e697"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:3ed6ff2715fa16b45e1c5a2b555f35e6ca932f9a8608b4e30b3ebf0b39347c3e", "1.30.0--r42hdfd78af_0": "sha256:965f7cd76ae5904621f50a0aa5582ba64b72871e9c98f54f8cd6dd477924e697"}, "docker": "quay.io/biocontainers/bioconductor-selex", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-selex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-selex", "latest": {"1.32.0--r43hdfd78af_0": "sha256:d10925f14e1aabc063e3f4eeabde10eb5403a58eea8adc0175d0b8af4d91817f"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:3ed6ff2715fa16b45e1c5a2b555f35e6ca932f9a8608b4e30b3ebf0b39347c3e", "1.30.0--r42hdfd78af_0": "sha256:965f7cd76ae5904621f50a0aa5582ba64b72871e9c98f54f8cd6dd477924e697", "1.32.0--r43hdfd78af_0": "sha256:d10925f14e1aabc063e3f4eeabde10eb5403a58eea8adc0175d0b8af4d91817f"}, "docker": "quay.io/biocontainers/bioconductor-selex", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-selex.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-selex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-selex:1.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-selex:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-selex/1.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-selex/1.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-selex/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-selex/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

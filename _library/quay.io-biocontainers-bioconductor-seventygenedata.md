@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-seventygenedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seventygenedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seventygenedata/container.yaml"
-updated_at: "2023-08-04 02:52:24.189643"
-latest: "1.33.0--r42hdfd78af_0"
+updated_at: "2023-08-05 02:54:37.962926"
+latest: "1.36.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seventygenedata"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
  - "1.33.0--r42hdfd78af_0"
+ - "1.36.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-seventygenedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seventygenedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seventygenedata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937", "1.33.0--r42hdfd78af_0": "sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30"}, "docker": "quay.io/biocontainers/bioconductor-seventygenedata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seventygenedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seventygenedata", "latest": {"1.36.1--r43hdfd78af_0": "sha256:0f31c6221b79c366b7d0e9373da6b625ab04122c82fdd53b2de11076b72a1487"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937", "1.33.0--r42hdfd78af_0": "sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30", "1.36.1--r43hdfd78af_0": "sha256:0f31c6221b79c366b7d0e9373da6b625ab04122c82fdd53b2de11076b72a1487"}, "docker": "quay.io/biocontainers/bioconductor-seventygenedata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seventygenedata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seventygenedata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seventygenedata:1.33.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-seventygenedata:1.36.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seventygenedata/1.33.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-seventygenedata/1.33.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-seventygenedata/1.36.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-seventygenedata/1.36.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

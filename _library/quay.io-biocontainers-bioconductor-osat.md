@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-osat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-osat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-osat/container.yaml"
-updated_at: "2023-08-04 03:02:08.261118"
-latest: "1.46.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:06:28.440275"
+latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-osat"
 
 versions:
  - "1.42.0--r41hdfd78af_0"
  - "1.46.0--r42hdfd78af_0"
+ - "1.48.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-osat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-osat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-osat", "latest": {"1.46.0--r42hdfd78af_0": "sha256:10fd014cb46bded84c77606eadb8d5b71b930a3a1fabb621926c5afa1540dac2"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:8562b99eaec4811a521f4818835f508d0547a0f160e250ca26e2049dcb04133a", "1.46.0--r42hdfd78af_0": "sha256:10fd014cb46bded84c77606eadb8d5b71b930a3a1fabb621926c5afa1540dac2"}, "docker": "quay.io/biocontainers/bioconductor-osat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-osat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-osat", "latest": {"1.48.0--r43hdfd78af_0": "sha256:3c9dfafab093b21c966ed5e44a6b01017bf3d845a9f22d16a90e53d544ef92b7"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:8562b99eaec4811a521f4818835f508d0547a0f160e250ca26e2049dcb04133a", "1.46.0--r42hdfd78af_0": "sha256:10fd014cb46bded84c77606eadb8d5b71b930a3a1fabb621926c5afa1540dac2", "1.48.0--r43hdfd78af_0": "sha256:3c9dfafab093b21c966ed5e44a6b01017bf3d845a9f22d16a90e53d544ef92b7"}, "docker": "quay.io/biocontainers/bioconductor-osat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-osat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-osat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-osat:1.46.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-osat:1.48.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-osat/1.46.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-osat/1.46.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-osat/1.48.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-osat/1.48.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

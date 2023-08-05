@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-heebodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heebodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heebodata/container.yaml"
-updated_at: "2023-08-04 02:47:06.627597"
-latest: "1.35.0--r42hdfd78af_0"
+updated_at: "2023-08-05 02:48:09.898132"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heebodata"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.35.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-heebodata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-heebodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heebodata", "latest": {"1.35.0--r42hdfd78af_0": "sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:019cf87a86a879654c107a461ceae33a42f695301a97b7ce670a8f4a11f2d66b", "1.35.0--r42hdfd78af_0": "sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06"}, "docker": "quay.io/biocontainers/bioconductor-heebodata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-heebodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heebodata", "latest": {"1.38.0--r43hdfd78af_0": "sha256:723a0092be9d6fabd828f2a131ad478498424725c70ed740d9e8f0d71daa6d0c"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:019cf87a86a879654c107a461ceae33a42f695301a97b7ce670a8f4a11f2d66b", "1.35.0--r42hdfd78af_0": "sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06", "1.38.0--r43hdfd78af_0": "sha256:723a0092be9d6fabd828f2a131ad478498424725c70ed740d9e8f0d71daa6d0c"}, "docker": "quay.io/biocontainers/bioconductor-heebodata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-heebodata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-heebodata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-heebodata:1.35.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-heebodata:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-heebodata/1.35.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-heebodata/1.35.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-heebodata/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-heebodata/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

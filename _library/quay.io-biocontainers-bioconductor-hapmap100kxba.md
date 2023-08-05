@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hapmap100kxba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapmap100kxba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapmap100kxba/container.yaml"
-updated_at: "2023-08-04 02:57:17.286848"
-latest: "1.39.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:00:30.991592"
+latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapmap100kxba"
 
 versions:
  - "1.36.0--r41hdfd78af_1"
  - "1.39.0--r42hdfd78af_0"
+ - "1.42.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hapmap100kxba"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmap100kxba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmap100kxba", "latest": {"1.39.0--r42hdfd78af_0": "sha256:7aaf59d0d0efa8796f1de2bcd6a0a1f9f946d7082c5229a7e31df175c52c5699"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:f249d4f5ca34ac695b6ed16173e5ada0af72ec3833c77b5c45ede298bc4b1a3a", "1.39.0--r42hdfd78af_0": "sha256:7aaf59d0d0efa8796f1de2bcd6a0a1f9f946d7082c5229a7e31df175c52c5699"}, "docker": "quay.io/biocontainers/bioconductor-hapmap100kxba"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmap100kxba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmap100kxba", "latest": {"1.42.0--r43hdfd78af_0": "sha256:c145fb1baeb80d5acf89e77a89becc597a4d6a564716080bf60475ea047f7e2d"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:f249d4f5ca34ac695b6ed16173e5ada0af72ec3833c77b5c45ede298bc4b1a3a", "1.39.0--r42hdfd78af_0": "sha256:7aaf59d0d0efa8796f1de2bcd6a0a1f9f946d7082c5229a7e31df175c52c5699", "1.42.0--r43hdfd78af_0": "sha256:c145fb1baeb80d5acf89e77a89becc597a4d6a564716080bf60475ea047f7e2d"}, "docker": "quay.io/biocontainers/bioconductor-hapmap100kxba"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hapmap100kxba.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hapmap100kxba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hapmap100kxba:1.39.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hapmap100kxba:1.42.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hapmap100kxba/1.39.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hapmap100kxba/1.39.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hapmap100kxba/1.42.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hapmap100kxba/1.42.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

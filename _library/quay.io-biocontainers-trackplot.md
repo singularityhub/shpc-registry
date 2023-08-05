@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trackplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trackplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trackplot/container.yaml"
-updated_at: "2023-08-04 02:52:01.841994"
-latest: "0.2.4--pyh7cba7a3_0"
+updated_at: "2023-08-05 02:54:10.681340"
+latest: "0.3.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/trackplot"
 aliases:
  - "dask"
@@ -40,8 +40,10 @@ aliases:
 versions:
  - "0.2.1--pyh7cba7a3_0"
  - "0.2.4--pyh7cba7a3_0"
+ - "0.3.1--pyh7cba7a3_0"
+ - "0.2.6--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for trackplot"
-config: {"url": "https://biocontainers.pro/tools/trackplot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trackplot", "latest": {"0.2.4--pyh7cba7a3_0": "sha256:8b91a94c0c99708c958f3289e0a6e7b5cc8740aec3720830c5920d5ceb15363e"}, "tags": {"0.2.1--pyh7cba7a3_0": "sha256:cead03a1c5541490b6316c747d2053fc355daa038e0ec42512475dd786bdbd27", "0.2.4--pyh7cba7a3_0": "sha256:8b91a94c0c99708c958f3289e0a6e7b5cc8740aec3720830c5920d5ceb15363e"}, "docker": "quay.io/biocontainers/trackplot", "aliases": {"dask": "/usr/local/bin/dask", "filetype": "/usr/local/bin/filetype", "h5delete": "/usr/local/bin/h5delete", "trackplot": "/usr/local/bin/trackplot", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "aec": "/usr/local/bin/aec", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "bokeh": "/usr/local/bin/bokeh", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
+config: {"url": "https://biocontainers.pro/tools/trackplot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trackplot", "latest": {"0.3.1--pyh7cba7a3_0": "sha256:9ea62e8020d5808e2359e8c15a255b2bf052403c88ad9c6828b1eb442c98b3aa"}, "tags": {"0.2.1--pyh7cba7a3_0": "sha256:cead03a1c5541490b6316c747d2053fc355daa038e0ec42512475dd786bdbd27", "0.2.4--pyh7cba7a3_0": "sha256:8b91a94c0c99708c958f3289e0a6e7b5cc8740aec3720830c5920d5ceb15363e", "0.3.1--pyh7cba7a3_0": "sha256:9ea62e8020d5808e2359e8c15a255b2bf052403c88ad9c6828b1eb442c98b3aa", "0.2.6--pyh7cba7a3_0": "sha256:736649acdfbe52a1373496164146d46bf5bc25465df7d4ad95d0f88279a2ef67"}, "docker": "quay.io/biocontainers/trackplot", "aliases": {"dask": "/usr/local/bin/dask", "filetype": "/usr/local/bin/filetype", "h5delete": "/usr/local/bin/h5delete", "trackplot": "/usr/local/bin/trackplot", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "aec": "/usr/local/bin/aec", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "bokeh": "/usr/local/bin/bokeh", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trackplot.
@@ -56,7 +58,7 @@ $ shpc install quay.io/biocontainers/trackplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trackplot:0.2.4--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/trackplot:0.3.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trackplot/0.2.4--pyh7cba7a3_0
-$ module help quay.io/biocontainers/trackplot/0.2.4--pyh7cba7a3_0
+$ module load quay.io/biocontainers/trackplot/0.3.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/trackplot/0.3.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

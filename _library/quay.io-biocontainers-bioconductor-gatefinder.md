@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gatefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gatefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gatefinder/container.yaml"
-updated_at: "2023-08-04 03:20:46.849450"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:29:15.012364"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gatefinder"
 aliases:
  - "2to3-3.8"
@@ -21,8 +21,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gatefinder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gatefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gatefinder", "latest": {"1.18.0--r42hdfd78af_0": "sha256:88ccaf7aa2d95797b024740d94a59531ae478d07ed7507426283b5ed222b9cdc"}, "tags": {"1.8.0--r40_0": "sha256:adfc37aa9831839886132c7cb258df6c5db98bf219bd9183703eb127d141a777", "1.18.0--r42hdfd78af_0": "sha256:88ccaf7aa2d95797b024740d94a59531ae478d07ed7507426283b5ed222b9cdc", "1.14.0--r41hdfd78af_0": "sha256:a8f195c6c0368661b2c20c138a13e4631a40dcc9bc0c0f1f0be078094f64bf33", "1.12.0--r41hdfd78af_0": "sha256:c6179049d9926ce1d6ebcb1866e2987c1f0b2e5bcbb2d31175dfd831f8b34c2f", "1.10.0--r40hdfd78af_1": "sha256:bba8e15c787f3aa5e3e43c9a2f010ea80c27e35fa34de1d1faf02567b29cf600"}, "docker": "quay.io/biocontainers/bioconductor-gatefinder", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gatefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gatefinder", "latest": {"1.20.0--r43hdfd78af_0": "sha256:6025560b705eb8068f0cc3415a08cacffb19a9dbee7f5129d9c14a52e25c77ae"}, "tags": {"1.8.0--r40_0": "sha256:adfc37aa9831839886132c7cb258df6c5db98bf219bd9183703eb127d141a777", "1.18.0--r42hdfd78af_0": "sha256:88ccaf7aa2d95797b024740d94a59531ae478d07ed7507426283b5ed222b9cdc", "1.14.0--r41hdfd78af_0": "sha256:a8f195c6c0368661b2c20c138a13e4631a40dcc9bc0c0f1f0be078094f64bf33", "1.12.0--r41hdfd78af_0": "sha256:c6179049d9926ce1d6ebcb1866e2987c1f0b2e5bcbb2d31175dfd831f8b34c2f", "1.10.0--r40hdfd78af_1": "sha256:bba8e15c787f3aa5e3e43c9a2f010ea80c27e35fa34de1d1faf02567b29cf600", "1.20.0--r43hdfd78af_0": "sha256:6025560b705eb8068f0cc3415a08cacffb19a9dbee7f5129d9c14a52e25c77ae"}, "docker": "quay.io/biocontainers/bioconductor-gatefinder", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gatefinder.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gatefinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gatefinder:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gatefinder:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gatefinder/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gatefinder/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gatefinder/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gatefinder/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-sigqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigqc/container.yaml"
-updated_at: "2023-08-04 02:41:01.146814"
-latest: "0.1.23--r42h3342da4_0"
+updated_at: "2023-08-05 02:40:40.767238"
+latest: "0.1.23--r43h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-sigqc"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "0.1.22--r41h3342da4_1"
  - "0.1.22--r42h3342da4_2"
  - "0.1.23--r42h3342da4_0"
+ - "0.1.23--r43h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-sigqc"
-config: {"url": "https://biocontainers.pro/tools/r-sigqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigqc", "latest": {"0.1.23--r42h3342da4_0": "sha256:d1b723b9c159420a674d4a9c9abf482c6e4a36dd1b4131056cf3181f4dcf4872"}, "tags": {"0.1.22--r41h3342da4_1": "sha256:7192002233a4875401e50299185967bac244b65555c4dcdaa143f1f782ed6bfc", "0.1.22--r42h3342da4_2": "sha256:690a6f397db980739b5f99c3a4984cb4fd5ae0a2ed071144ef41fd7dabfa9818", "0.1.23--r42h3342da4_0": "sha256:d1b723b9c159420a674d4a9c9abf482c6e4a36dd1b4131056cf3181f4dcf4872"}, "docker": "quay.io/biocontainers/r-sigqc", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-sigqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigqc", "latest": {"0.1.23--r43h3342da4_1": "sha256:61fce78e123c89093743f6feec6805503ffe0fab544658955d33a78f7ee364ef"}, "tags": {"0.1.22--r41h3342da4_1": "sha256:7192002233a4875401e50299185967bac244b65555c4dcdaa143f1f782ed6bfc", "0.1.22--r42h3342da4_2": "sha256:690a6f397db980739b5f99c3a4984cb4fd5ae0a2ed071144ef41fd7dabfa9818", "0.1.23--r42h3342da4_0": "sha256:d1b723b9c159420a674d4a9c9abf482c6e4a36dd1b4131056cf3181f4dcf4872", "0.1.23--r43h3342da4_1": "sha256:61fce78e123c89093743f6feec6805503ffe0fab544658955d33a78f7ee364ef"}, "docker": "quay.io/biocontainers/r-sigqc", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sigqc.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-sigqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sigqc:0.1.23--r42h3342da4_0
+$ shpc install quay.io/biocontainers/r-sigqc:0.1.23--r43h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sigqc/0.1.23--r42h3342da4_0
-$ module help quay.io/biocontainers/r-sigqc/0.1.23--r42h3342da4_0
+$ module load quay.io/biocontainers/r-sigqc/0.1.23--r43h3342da4_1
+$ module help quay.io/biocontainers/r-sigqc/0.1.23--r43h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

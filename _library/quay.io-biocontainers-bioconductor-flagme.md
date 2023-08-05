@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flagme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flagme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flagme/container.yaml"
-updated_at: "2023-08-04 03:11:19.984844"
-latest: "1.54.0--r42ha9d7317_1"
+updated_at: "2023-08-05 03:17:43.688897"
+latest: "1.56.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flagme"
 aliases:
  - "zipcmp"
@@ -22,8 +22,9 @@ versions:
  - "1.50.0--r41hc0cfd56_2"
  - "1.54.0--r42hc0cfd56_0"
  - "1.54.0--r42ha9d7317_1"
+ - "1.56.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flagme"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flagme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flagme", "latest": {"1.54.0--r42ha9d7317_1": "sha256:11334956778f966b7413da786cf50bfb8ec557c5bf51e92b1573118ef27a7e62"}, "tags": {"1.50.0--r41hc0cfd56_2": "sha256:5d7e34aa8d91108e83a22c7e31ba8baf334ae1156d9dda4395c0c6cd03a99901", "1.54.0--r42hc0cfd56_0": "sha256:5ca7d965a1ccdb07e9a3cf9cb4b70e2c811c5d4af22083d9723b0c8e6823a6e1", "1.54.0--r42ha9d7317_1": "sha256:11334956778f966b7413da786cf50bfb8ec557c5bf51e92b1573118ef27a7e62"}, "docker": "quay.io/biocontainers/bioconductor-flagme", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flagme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flagme", "latest": {"1.56.0--r43ha9d7317_0": "sha256:823832ae264e24270f4efd1ef0025c081836d35ab63e99b417900a951c34df38"}, "tags": {"1.50.0--r41hc0cfd56_2": "sha256:5d7e34aa8d91108e83a22c7e31ba8baf334ae1156d9dda4395c0c6cd03a99901", "1.54.0--r42hc0cfd56_0": "sha256:5ca7d965a1ccdb07e9a3cf9cb4b70e2c811c5d4af22083d9723b0c8e6823a6e1", "1.54.0--r42ha9d7317_1": "sha256:11334956778f966b7413da786cf50bfb8ec557c5bf51e92b1573118ef27a7e62", "1.56.0--r43ha9d7317_0": "sha256:823832ae264e24270f4efd1ef0025c081836d35ab63e99b417900a951c34df38"}, "docker": "quay.io/biocontainers/bioconductor-flagme", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flagme.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flagme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flagme:1.54.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-flagme:1.56.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flagme/1.54.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-flagme/1.54.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-flagme/1.56.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-flagme/1.56.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

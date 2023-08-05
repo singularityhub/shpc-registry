@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gseabenchmarker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gseabenchmarker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gseabenchmarker/container.yaml"
-updated_at: "2023-08-04 03:01:18.073354"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:05:26.881256"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gseabenchmarker"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.1--r40hdfd78af_0"
  - "1.18.0--r42hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gseabenchmarker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gseabenchmarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gseabenchmarker", "latest": {"1.18.0--r42hdfd78af_0": "sha256:5f3e797268c519b1e5dc465f37a00b1a0ef1709c15dfc96780b9b5b6f1dc706c"}, "tags": {"1.8.0--r40_0": "sha256:441cdb2f36ead3fd44dd91c82817f4b329b53d4602492748345e1402e49e1453", "1.14.0--r41hdfd78af_0": "sha256:fd9f38af4a9f1bda238ae23a7223d36b95311de0d126cf66828ec5c7c39642b7", "1.12.0--r41hdfd78af_0": "sha256:bf5d87167d8ee171c6ec2ba5bafd61f69d6fda2e01d1396b24c3a177f514995a", "1.10.1--r40hdfd78af_0": "sha256:d54e1aa0da2364e577fbbd039a3d9ab89ed6d561e22ffd96a611e5c37accd0fa", "1.18.0--r42hdfd78af_0": "sha256:5f3e797268c519b1e5dc465f37a00b1a0ef1709c15dfc96780b9b5b6f1dc706c"}, "docker": "quay.io/biocontainers/bioconductor-gseabenchmarker", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gseabenchmarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gseabenchmarker", "latest": {"1.20.0--r43hdfd78af_0": "sha256:82aab71e9c48cb5e715b53b9f55275ab848ca5458f8045f701432082ad3c34ba"}, "tags": {"1.8.0--r40_0": "sha256:441cdb2f36ead3fd44dd91c82817f4b329b53d4602492748345e1402e49e1453", "1.14.0--r41hdfd78af_0": "sha256:fd9f38af4a9f1bda238ae23a7223d36b95311de0d126cf66828ec5c7c39642b7", "1.12.0--r41hdfd78af_0": "sha256:bf5d87167d8ee171c6ec2ba5bafd61f69d6fda2e01d1396b24c3a177f514995a", "1.10.1--r40hdfd78af_0": "sha256:d54e1aa0da2364e577fbbd039a3d9ab89ed6d561e22ffd96a611e5c37accd0fa", "1.18.0--r42hdfd78af_0": "sha256:5f3e797268c519b1e5dc465f37a00b1a0ef1709c15dfc96780b9b5b6f1dc706c", "1.20.0--r43hdfd78af_0": "sha256:82aab71e9c48cb5e715b53b9f55275ab848ca5458f8045f701432082ad3c34ba"}, "docker": "quay.io/biocontainers/bioconductor-gseabenchmarker", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gseabenchmarker.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gseabenchmarker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gseabenchmarker:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gseabenchmarker:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gseabenchmarker/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gseabenchmarker/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gseabenchmarker/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gseabenchmarker/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

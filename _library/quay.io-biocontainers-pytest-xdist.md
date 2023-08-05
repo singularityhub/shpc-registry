@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-xdist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-xdist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-xdist/container.yaml"
-updated_at: "2023-08-04 02:53:31.507974"
+updated_at: "2023-08-05 02:55:59.021879"
 latest: "1.14--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-xdist"
 aliases:

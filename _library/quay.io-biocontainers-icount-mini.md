@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/icount-mini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icount-mini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icount-mini/container.yaml"
-updated_at: "2023-08-04 02:51:04.185110"
-latest: "2.0.3--pyh5e36f6f_0"
+updated_at: "2023-08-05 02:53:00.523019"
+latest: "3.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/icount-mini"
 aliases:
  - "iCount-Mini"
@@ -21,8 +21,9 @@ aliases:
  - "rst2html4.py"
 versions:
  - "2.0.3--pyh5e36f6f_0"
+ - "3.0.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for icount-mini"
-config: {"url": "https://biocontainers.pro/tools/icount-mini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icount-mini", "latest": {"2.0.3--pyh5e36f6f_0": "sha256:9071849890d4ccaa35100215d3060529764919953267d47eeeec1234bd3e6da2"}, "tags": {"2.0.3--pyh5e36f6f_0": "sha256:9071849890d4ccaa35100215d3060529764919953267d47eeeec1234bd3e6da2"}, "docker": "quay.io/biocontainers/icount-mini", "aliases": {"iCount-Mini": "/usr/local/bin/iCount-Mini", "cutadapt": "/usr/local/bin/cutadapt", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "igzip": "/usr/local/bin/igzip", "pybabel": "/usr/local/bin/pybabel", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
+config: {"url": "https://biocontainers.pro/tools/icount-mini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icount-mini", "latest": {"3.0.1--pyh7cba7a3_0": "sha256:71788b6f61961eda6d1d8647668864a0e6bd88e1febc8385be6c98a5b8a30661"}, "tags": {"2.0.3--pyh5e36f6f_0": "sha256:9071849890d4ccaa35100215d3060529764919953267d47eeeec1234bd3e6da2", "3.0.1--pyh7cba7a3_0": "sha256:71788b6f61961eda6d1d8647668864a0e6bd88e1febc8385be6c98a5b8a30661"}, "docker": "quay.io/biocontainers/icount-mini", "aliases": {"iCount-Mini": "/usr/local/bin/iCount-Mini", "cutadapt": "/usr/local/bin/cutadapt", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "igzip": "/usr/local/bin/igzip", "pybabel": "/usr/local/bin/pybabel", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/icount-mini.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/icount-mini
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/icount-mini:2.0.3--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/icount-mini:3.0.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/icount-mini/2.0.3--pyh5e36f6f_0
-$ module help quay.io/biocontainers/icount-mini/2.0.3--pyh5e36f6f_0
+$ module load quay.io/biocontainers/icount-mini/3.0.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/icount-mini/3.0.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

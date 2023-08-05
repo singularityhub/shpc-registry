@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hhsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hhsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hhsuite/container.yaml"
-updated_at: "2023-08-04 02:32:05.703530"
+updated_at: "2023-08-05 02:29:44.521648"
 latest: "3.3.0--py310pl5321h068649b_9"
 container_url: "https://biocontainers.pro/tools/hhsuite"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biocworkflowtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocworkflowtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocworkflowtools/container.yaml"
-updated_at: "2023-08-04 02:50:37.627406"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-08-05 02:52:28.092405"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocworkflowtools"
 aliases:
  - "pandoc-citeproc"
@@ -19,8 +19,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocworkflowtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocworkflowtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocworkflowtools", "latest": {"1.24.0--r42hdfd78af_0": "sha256:9ad3370b7c4280edede3efd8cd033171c831aa883064bdd9738162b99fb6b9d9"}, "tags": {"1.8.0--r351_0": "sha256:3b95cd5fdfdba22573cee279a1d15ac7f80d509e6230389c57308af00c899b52", "1.24.0--r42hdfd78af_0": "sha256:9ad3370b7c4280edede3efd8cd033171c831aa883064bdd9738162b99fb6b9d9", "1.20.0--r41hdfd78af_0": "sha256:8194294c9c82360c52b8f15ec5b217b62eae9e508bec754c0a5aadc0d9826e85", "1.18.0--r41hdfd78af_0": "sha256:913793ea2afa9fb16499678952de801b1c114fa662423a45df9ad1beaf0c0a0b", "1.16.0--r40hdfd78af_1": "sha256:e8d7317dea9e2b15bb5eccdaa3d2a22354a32e6b52b7f7b5e8bc9fe8afc2a69e", "1.14.0--r40_0": "sha256:f253fbfc0ddbf4fe47e020556964f00b256df7c7ff9fe0171fa5bd9ca32355d4"}, "docker": "quay.io/biocontainers/bioconductor-biocworkflowtools", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocworkflowtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocworkflowtools", "latest": {"1.26.0--r43hdfd78af_0": "sha256:8c3baf1e6f3696961e62b08f654efa1e49e4105193a21e259e97032495780fa9"}, "tags": {"1.8.0--r351_0": "sha256:3b95cd5fdfdba22573cee279a1d15ac7f80d509e6230389c57308af00c899b52", "1.24.0--r42hdfd78af_0": "sha256:9ad3370b7c4280edede3efd8cd033171c831aa883064bdd9738162b99fb6b9d9", "1.20.0--r41hdfd78af_0": "sha256:8194294c9c82360c52b8f15ec5b217b62eae9e508bec754c0a5aadc0d9826e85", "1.18.0--r41hdfd78af_0": "sha256:913793ea2afa9fb16499678952de801b1c114fa662423a45df9ad1beaf0c0a0b", "1.16.0--r40hdfd78af_1": "sha256:e8d7317dea9e2b15bb5eccdaa3d2a22354a32e6b52b7f7b5e8bc9fe8afc2a69e", "1.14.0--r40_0": "sha256:f253fbfc0ddbf4fe47e020556964f00b256df7c7ff9fe0171fa5bd9ca32355d4", "1.26.0--r43hdfd78af_0": "sha256:8c3baf1e6f3696961e62b08f654efa1e49e4105193a21e259e97032495780fa9"}, "docker": "quay.io/biocontainers/bioconductor-biocworkflowtools", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocworkflowtools.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocworkflowtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocworkflowtools:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biocworkflowtools:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocworkflowtools/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biocworkflowtools/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biocworkflowtools/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biocworkflowtools/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

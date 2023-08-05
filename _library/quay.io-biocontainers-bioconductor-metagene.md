@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-metagene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagene/container.yaml"
-updated_at: "2023-08-04 03:16:11.189320"
-latest: "2.30.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:23:40.745312"
+latest: "2.31.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagene"
 
 versions:
  - "2.26.0--r41hdfd78af_0"
  - "2.30.0--r42hdfd78af_0"
+ - "2.31.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metagene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metagene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagene", "latest": {"2.30.0--r42hdfd78af_0": "sha256:6b379dde2cae325a74af81d685575f48bbc365c405dd548a30b9bdd347858dd6"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:c74f3b98575de052ba35b77bf3b9738e06a9b5b8b0a9eb834a3738ff20e84ead", "2.30.0--r42hdfd78af_0": "sha256:6b379dde2cae325a74af81d685575f48bbc365c405dd548a30b9bdd347858dd6"}, "docker": "quay.io/biocontainers/bioconductor-metagene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metagene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagene", "latest": {"2.31.0--r43hdfd78af_0": "sha256:e91461df8aa13132c834e46c483d4bcb1ce1f44b27b023b4a0119c1fd53facc1"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:c74f3b98575de052ba35b77bf3b9738e06a9b5b8b0a9eb834a3738ff20e84ead", "2.30.0--r42hdfd78af_0": "sha256:6b379dde2cae325a74af81d685575f48bbc365c405dd548a30b9bdd347858dd6", "2.31.0--r43hdfd78af_0": "sha256:e91461df8aa13132c834e46c483d4bcb1ce1f44b27b023b4a0119c1fd53facc1"}, "docker": "quay.io/biocontainers/bioconductor-metagene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metagene.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metagene
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metagene:2.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metagene:2.31.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metagene/2.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metagene/2.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metagene/2.31.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metagene/2.31.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rexposome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rexposome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rexposome/container.yaml"
-updated_at: "2023-08-04 02:51:29.236342"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-08-05 02:53:31.012636"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rexposome"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.4--r40hdfd78af_0"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rexposome"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rexposome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rexposome", "latest": {"1.20.0--r42hdfd78af_0": "sha256:bb6cfad6921e1fb4b39a347ea9d76f7807da397c54498e524c9dc021e2094c01"}, "tags": {"1.8.0--r36_0": "sha256:1e066678d985a144c21471365066505781f4caebf8a3372b6d1d80b1ab43cad1", "1.20.0--r42hdfd78af_0": "sha256:bb6cfad6921e1fb4b39a347ea9d76f7807da397c54498e524c9dc021e2094c01", "1.16.0--r41hdfd78af_0": "sha256:eb02b2edba1a66b46ac6a243f0603ab1fd417e0e30b3f236917b5aafd32f7cb3", "1.14.0--r41hdfd78af_0": "sha256:d877cfae1ebecb95056c02fd5d20f3ed2f800e658fb94c68e73d0706e6116339", "1.12.4--r40hdfd78af_0": "sha256:c80ae4a5173250e6a80e0cf3940425a1832206da2018423b57c848fdb8c3803b", "1.10.0--r40_0": "sha256:f0428019ae4bc29b435a0169c5650bf1749ec0f419e078a3c542a797af880cbe"}, "docker": "quay.io/biocontainers/bioconductor-rexposome", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rexposome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rexposome", "latest": {"1.22.0--r43hdfd78af_0": "sha256:43ddbcc5c39c87b1a377df3152594107f1852d9ac051d401e08da10975464d7d"}, "tags": {"1.8.0--r36_0": "sha256:1e066678d985a144c21471365066505781f4caebf8a3372b6d1d80b1ab43cad1", "1.20.0--r42hdfd78af_0": "sha256:bb6cfad6921e1fb4b39a347ea9d76f7807da397c54498e524c9dc021e2094c01", "1.16.0--r41hdfd78af_0": "sha256:eb02b2edba1a66b46ac6a243f0603ab1fd417e0e30b3f236917b5aafd32f7cb3", "1.14.0--r41hdfd78af_0": "sha256:d877cfae1ebecb95056c02fd5d20f3ed2f800e658fb94c68e73d0706e6116339", "1.12.4--r40hdfd78af_0": "sha256:c80ae4a5173250e6a80e0cf3940425a1832206da2018423b57c848fdb8c3803b", "1.10.0--r40_0": "sha256:f0428019ae4bc29b435a0169c5650bf1749ec0f419e078a3c542a797af880cbe", "1.22.0--r43hdfd78af_0": "sha256:43ddbcc5c39c87b1a377df3152594107f1852d9ac051d401e08da10975464d7d"}, "docker": "quay.io/biocontainers/bioconductor-rexposome", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rexposome.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rexposome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rexposome:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rexposome:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rexposome/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rexposome/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rexposome/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rexposome/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

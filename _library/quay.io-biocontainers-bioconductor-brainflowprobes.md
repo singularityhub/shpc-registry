@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-brainflowprobes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainflowprobes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainflowprobes/container.yaml"
-updated_at: "2023-08-04 02:52:24.829549"
-latest: "1.12.0--r42hdfd78af_0"
+updated_at: "2023-08-05 02:54:38.736295"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainflowprobes"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-brainflowprobes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-brainflowprobes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainflowprobes", "latest": {"1.12.0--r42hdfd78af_0": "sha256:e32273991629c92d4f369fa220ac06468f7d73430b150bd3c807a90c9af01a6e"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:23557130ada74541b9dd4c594624e992b389086dc709a9f0a8d877db8d6d7341", "1.12.0--r42hdfd78af_0": "sha256:e32273991629c92d4f369fa220ac06468f7d73430b150bd3c807a90c9af01a6e"}, "docker": "quay.io/biocontainers/bioconductor-brainflowprobes"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-brainflowprobes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainflowprobes", "latest": {"1.14.0--r43hdfd78af_0": "sha256:9f174166a3c1e311a2fb1426066b9da31ad28601701c7b2f3c5b4c036cebea0b"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:23557130ada74541b9dd4c594624e992b389086dc709a9f0a8d877db8d6d7341", "1.12.0--r42hdfd78af_0": "sha256:e32273991629c92d4f369fa220ac06468f7d73430b150bd3c807a90c9af01a6e", "1.14.0--r43hdfd78af_0": "sha256:9f174166a3c1e311a2fb1426066b9da31ad28601701c7b2f3c5b4c036cebea0b"}, "docker": "quay.io/biocontainers/bioconductor-brainflowprobes"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-brainflowprobes.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-brainflowprobes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-brainflowprobes:1.12.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-brainflowprobes:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-brainflowprobes/1.12.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-brainflowprobes/1.12.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-brainflowprobes/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-brainflowprobes/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

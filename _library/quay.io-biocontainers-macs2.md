@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/macs2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macs2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macs2/container.yaml"
-updated_at: "2023-08-04 03:13:10.045103"
-latest: "2.2.7.1--py38hbff2b2d_5"
+updated_at: "2023-08-05 03:19:58.901818"
+latest: "2.2.9.1--py38he5da3d1_0"
 container_url: "https://biocontainers.pro/tools/macs2"
 aliases:
  - "macs2"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "2.2.7.1--py38hbff2b2d_5"
+ - "2.2.9.1--py38he5da3d1_0"
 description: "shpc-registry automated BioContainers addition for macs2"
-config: {"url": "https://biocontainers.pro/tools/macs2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for macs2", "latest": {"2.2.7.1--py38hbff2b2d_5": "sha256:dc79794e7724d93e9d8ccd1cc7f12f20027695a562fea2a85467c2c41e516b10"}, "tags": {"2.2.7.1--py38hbff2b2d_5": "sha256:dc79794e7724d93e9d8ccd1cc7f12f20027695a562fea2a85467c2c41e516b10"}, "docker": "quay.io/biocontainers/macs2", "aliases": {"macs2": "/usr/local/bin/macs2", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/macs2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for macs2", "latest": {"2.2.9.1--py38he5da3d1_0": "sha256:2ced5035e7a83413034a77c12f5434fc35c823647431665e4ab2175afcc0445c"}, "tags": {"2.2.7.1--py38hbff2b2d_5": "sha256:dc79794e7724d93e9d8ccd1cc7f12f20027695a562fea2a85467c2c41e516b10", "2.2.9.1--py38he5da3d1_0": "sha256:2ced5035e7a83413034a77c12f5434fc35c823647431665e4ab2175afcc0445c"}, "docker": "quay.io/biocontainers/macs2", "aliases": {"macs2": "/usr/local/bin/macs2", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/macs2.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/macs2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/macs2:2.2.7.1--py38hbff2b2d_5
+$ shpc install quay.io/biocontainers/macs2:2.2.9.1--py38he5da3d1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/macs2/2.2.7.1--py38hbff2b2d_5
-$ module help quay.io/biocontainers/macs2/2.2.7.1--py38hbff2b2d_5
+$ module load quay.io/biocontainers/macs2/2.2.9.1--py38he5da3d1_0
+$ module help quay.io/biocontainers/macs2/2.2.9.1--py38he5da3d1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

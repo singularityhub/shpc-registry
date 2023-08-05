@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-lungcancerlines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lungcancerlines/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lungcancerlines/container.yaml"
-updated_at: "2023-08-04 03:13:27.699711"
-latest: "0.36.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:20:20.682700"
+latest: "0.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lungcancerlines"
 
 versions:
  - "0.32.0--r41hdfd78af_1"
  - "0.36.0--r42hdfd78af_0"
+ - "0.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lungcancerlines"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lungcancerlines", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lungcancerlines", "latest": {"0.36.0--r42hdfd78af_0": "sha256:71df9ffcc75755ae141964f1635d3ee62c94a1e5d2c73c07afa3b26b2747cfa9"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:d94d9e3e12aa706c1643410ff31609f8bf9d77cbf3cfde9decf63053765d27b8", "0.36.0--r42hdfd78af_0": "sha256:71df9ffcc75755ae141964f1635d3ee62c94a1e5d2c73c07afa3b26b2747cfa9"}, "docker": "quay.io/biocontainers/bioconductor-lungcancerlines"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lungcancerlines", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lungcancerlines", "latest": {"0.38.0--r43hdfd78af_0": "sha256:5e664374bb47530c57499b72a0429d9afc4ede1472424172c495b85b277c4860"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:d94d9e3e12aa706c1643410ff31609f8bf9d77cbf3cfde9decf63053765d27b8", "0.36.0--r42hdfd78af_0": "sha256:71df9ffcc75755ae141964f1635d3ee62c94a1e5d2c73c07afa3b26b2747cfa9", "0.38.0--r43hdfd78af_0": "sha256:5e664374bb47530c57499b72a0429d9afc4ede1472424172c495b85b277c4860"}, "docker": "quay.io/biocontainers/bioconductor-lungcancerlines"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lungcancerlines.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lungcancerlines
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lungcancerlines:0.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lungcancerlines:0.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lungcancerlines/0.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lungcancerlines/0.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lungcancerlines/0.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lungcancerlines/0.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

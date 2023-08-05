@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mbomic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mbomic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbomic/container.yaml"
-updated_at: "2023-08-04 03:11:04.881933"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-08-05 03:17:25.300824"
+latest: "1.3.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mbomic"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.2.0--r42hdfd78af_0"
+ - "1.3.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-mbomic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mbomic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mbomic", "latest": {"1.2.0--r42hdfd78af_0": "sha256:04e35f0707e27f9b931db6bf5c814bad9cfa18962b80a7b97cec9f3b89e1162c"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:04e35f0707e27f9b931db6bf5c814bad9cfa18962b80a7b97cec9f3b89e1162c"}, "docker": "quay.io/biocontainers/bioconductor-mbomic", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mbomic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mbomic", "latest": {"1.3.0--r43hdfd78af_0": "sha256:4ee5a444fdab5913006ce08cfd4b8679b142875e6886cff85a93ff71a381aca5"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:04e35f0707e27f9b931db6bf5c814bad9cfa18962b80a7b97cec9f3b89e1162c", "1.3.0--r43hdfd78af_0": "sha256:4ee5a444fdab5913006ce08cfd4b8679b142875e6886cff85a93ff71a381aca5"}, "docker": "quay.io/biocontainers/bioconductor-mbomic", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mbomic.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mbomic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mbomic:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mbomic:1.3.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mbomic/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mbomic/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mbomic/1.3.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mbomic/1.3.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

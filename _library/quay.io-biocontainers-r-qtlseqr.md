@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-qtlseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
-updated_at: "2023-08-04 03:14:21.853867"
-latest: "0.7.5.2--r42h4ac6f70_5"
+updated_at: "2023-08-05 03:21:27.165158"
+latest: "0.7.5.2--r43h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/r-qtlseqr"
 
 versions:
  - "0.7.5.2--r41h9f5acd7_3"
  - "0.7.5.2--r42h9f5acd7_4"
  - "0.7.5.2--r42h4ac6f70_5"
+ - "0.7.5.2--r43h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for r-qtlseqr"
-config: {"url": "https://biocontainers.pro/tools/r-qtlseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qtlseqr", "latest": {"0.7.5.2--r42h4ac6f70_5": "sha256:7c720ebcd0ec937fd92bfd0ad093f78a900e2a8bbd05020ea20cf6c6d0231f59"}, "tags": {"0.7.5.2--r41h9f5acd7_3": "sha256:bee93102d5df32746c52d318ff5123f28603e4a97adcb2104c0eb260d2ea2304", "0.7.5.2--r42h9f5acd7_4": "sha256:1c2274ca910e9363c66343dda8406fa559bb493f06910fd502544b06b1b3e153", "0.7.5.2--r42h4ac6f70_5": "sha256:7c720ebcd0ec937fd92bfd0ad093f78a900e2a8bbd05020ea20cf6c6d0231f59"}, "docker": "quay.io/biocontainers/r-qtlseqr"}
+config: {"url": "https://biocontainers.pro/tools/r-qtlseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qtlseqr", "latest": {"0.7.5.2--r43h4ac6f70_6": "sha256:3e127c221857a693c55416c9bc23b147ac32703ad6ec414e5c3bc898ab2a7e9c"}, "tags": {"0.7.5.2--r41h9f5acd7_3": "sha256:bee93102d5df32746c52d318ff5123f28603e4a97adcb2104c0eb260d2ea2304", "0.7.5.2--r42h9f5acd7_4": "sha256:1c2274ca910e9363c66343dda8406fa559bb493f06910fd502544b06b1b3e153", "0.7.5.2--r42h4ac6f70_5": "sha256:7c720ebcd0ec937fd92bfd0ad093f78a900e2a8bbd05020ea20cf6c6d0231f59", "0.7.5.2--r43h4ac6f70_6": "sha256:3e127c221857a693c55416c9bc23b147ac32703ad6ec414e5c3bc898ab2a7e9c"}, "docker": "quay.io/biocontainers/r-qtlseqr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qtlseqr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-qtlseqr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-qtlseqr:0.7.5.2--r42h4ac6f70_5
+$ shpc install quay.io/biocontainers/r-qtlseqr:0.7.5.2--r43h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-qtlseqr/0.7.5.2--r42h4ac6f70_5
-$ module help quay.io/biocontainers/r-qtlseqr/0.7.5.2--r42h4ac6f70_5
+$ module load quay.io/biocontainers/r-qtlseqr/0.7.5.2--r43h4ac6f70_6
+$ module help quay.io/biocontainers/r-qtlseqr/0.7.5.2--r43h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

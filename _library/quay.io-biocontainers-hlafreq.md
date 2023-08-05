@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hlafreq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hlafreq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hlafreq/container.yaml"
-updated_at: "2023-08-04 02:44:46.935674"
+updated_at: "2023-08-05 02:45:17.027399"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hlafreq"
 aliases:

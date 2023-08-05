@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/container.yaml"
-updated_at: "2023-08-04 02:54:41.337338"
-latest: "3.16.0--r42hdfd78af_0"
+updated_at: "2023-08-05 02:57:23.372103"
+latest: "3.17.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene"
 aliases:
  - "gio-launch-desktop"
@@ -17,8 +17,9 @@ versions:
  - "3.13.0--r41hdfd78af_0"
  - "3.10.0--r40hdfd78af_3"
  - "3.16.0--r42hdfd78af_0"
+ - "3.17.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.knowngene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "latest": {"3.16.0--r42hdfd78af_0": "sha256:dbe0d807e0b1b06c36983f8adb8d05f8585205ea14846530a1fad4d3af20731d"}, "tags": {"3.4.6--r36_1": "sha256:3df625e0066e33a2de5fa43c3620e3d4705616be92462927d1dd73efe999eece", "3.14.0--r41hdfd78af_1": "sha256:34a5b2df033d794fe69fded1795ae82125b65e7be3a96bce9da3b37e1852876d", "3.13.0--r41hdfd78af_0": "sha256:f2796f2c5bd8937d813aca3cb10b5e2ebda930995598f04f50325cb75f026d86", "3.10.0--r40hdfd78af_3": "sha256:c127ff40a6e4486d575f607d7ed90eee280b54ee0694f16b4cf3c5fc839329eb", "3.16.0--r42hdfd78af_0": "sha256:dbe0d807e0b1b06c36983f8adb8d05f8585205ea14846530a1fad4d3af20731d"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "latest": {"3.17.0--r43hdfd78af_0": "sha256:c9a4751f292e12219a872c31b705dfca3cc79bab8ee0e93645312b76376f7a2e"}, "tags": {"3.4.6--r36_1": "sha256:3df625e0066e33a2de5fa43c3620e3d4705616be92462927d1dd73efe999eece", "3.14.0--r41hdfd78af_1": "sha256:34a5b2df033d794fe69fded1795ae82125b65e7be3a96bce9da3b37e1852876d", "3.13.0--r41hdfd78af_0": "sha256:f2796f2c5bd8937d813aca3cb10b5e2ebda930995598f04f50325cb75f026d86", "3.10.0--r40hdfd78af_3": "sha256:c127ff40a6e4486d575f607d7ed90eee280b54ee0694f16b4cf3c5fc839329eb", "3.16.0--r42hdfd78af_0": "sha256:dbe0d807e0b1b06c36983f8adb8d05f8585205ea14846530a1fad4d3af20731d", "3.17.0--r43hdfd78af_0": "sha256:c9a4751f292e12219a872c31b705dfca3cc79bab8ee0e93645312b76376f7a2e"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene:3.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene:3.17.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/3.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/3.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/3.17.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/3.17.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

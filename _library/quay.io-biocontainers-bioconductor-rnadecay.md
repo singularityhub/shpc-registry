@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rnadecay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnadecay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnadecay/container.yaml"
-updated_at: "2023-08-04 02:38:31.469105"
-latest: "1.18.0--r42hc247a5b_1"
+updated_at: "2023-08-05 02:37:37.836314"
+latest: "1.19.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnadecay"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41h399db7b_0"
  - "1.10.0--r40h399db7b_1"
  - "1.18.0--r42hc247a5b_1"
+ - "1.19.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnadecay"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnadecay", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnadecay", "latest": {"1.18.0--r42hc247a5b_1": "sha256:55b4a9e4a231d10e743f6a6ff0f1ffb1d2b22f6ef171c463c8cbe38a26bf09c1"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:15ddd311169153ad60cd8de0703ce208035dce6aa25ebf0a91653d30381591ca", "1.18.0--r42hc247a5b_0": "sha256:22381e248e921a3b1d2611b9da641bdaaf5e544660bb05093dd466ad06c8a8fe", "1.14.0--r41hc247a5b_2": "sha256:1c2942b2e40d82694cf2bc6b3086c3cc943e75cc01e102801061800e94073360", "1.12.0--r41h399db7b_0": "sha256:8053514a9714ab9bc1f3b03eca2822d333eb9c54c97313819f0da27af2ecc2a8", "1.10.0--r40h399db7b_1": "sha256:0fbfa0b23ab0a6490c13492b9efccd953280bb7635d26ee02692506fceb06268", "1.18.0--r42hc247a5b_1": "sha256:55b4a9e4a231d10e743f6a6ff0f1ffb1d2b22f6ef171c463c8cbe38a26bf09c1"}, "docker": "quay.io/biocontainers/bioconductor-rnadecay", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnadecay", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnadecay", "latest": {"1.19.0--r43hf17093f_0": "sha256:32d6e83eaa04e80e725c3ce329eb77b90b46417d09444999a3d4cb39d3e7b71e"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:15ddd311169153ad60cd8de0703ce208035dce6aa25ebf0a91653d30381591ca", "1.18.0--r42hc247a5b_0": "sha256:22381e248e921a3b1d2611b9da641bdaaf5e544660bb05093dd466ad06c8a8fe", "1.14.0--r41hc247a5b_2": "sha256:1c2942b2e40d82694cf2bc6b3086c3cc943e75cc01e102801061800e94073360", "1.12.0--r41h399db7b_0": "sha256:8053514a9714ab9bc1f3b03eca2822d333eb9c54c97313819f0da27af2ecc2a8", "1.10.0--r40h399db7b_1": "sha256:0fbfa0b23ab0a6490c13492b9efccd953280bb7635d26ee02692506fceb06268", "1.18.0--r42hc247a5b_1": "sha256:55b4a9e4a231d10e743f6a6ff0f1ffb1d2b22f6ef171c463c8cbe38a26bf09c1", "1.19.0--r43hf17093f_0": "sha256:32d6e83eaa04e80e725c3ce329eb77b90b46417d09444999a3d4cb39d3e7b71e"}, "docker": "quay.io/biocontainers/bioconductor-rnadecay", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnadecay.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnadecay
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnadecay:1.18.0--r42hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-rnadecay:1.19.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnadecay/1.18.0--r42hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-rnadecay/1.18.0--r42hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-rnadecay/1.19.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-rnadecay/1.19.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

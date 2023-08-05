@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-qsmooth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qsmooth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qsmooth/container.yaml"
-updated_at: "2023-08-04 02:44:20.288178"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-08-05 02:44:44.022517"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qsmooth"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-qsmooth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qsmooth", "latest": {"1.14.0--r42hdfd78af_0": "sha256:f7c290f69d93d07775dc04ce522430f34dc7121a2a6eafea961b1de28a1ec1f2"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:d50b34489fcadd9336fd795d8a886e8ef5057a62f2a563762e534ee910d287a7", "1.10.0--r41hdfd78af_0": "sha256:64894bda9343e45573e5e162bd3925b87b15ef310510eefaf153d874817aa902", "1.14.0--r42hdfd78af_0": "sha256:f7c290f69d93d07775dc04ce522430f34dc7121a2a6eafea961b1de28a1ec1f2"}, "docker": "quay.io/biocontainers/bioconductor-qsmooth", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qsmooth", "latest": {"1.16.0--r43hdfd78af_0": "sha256:9f8f599ca46a8a4d849508fbaf0e0c50f32716f80652552fee217ee349c9d0a6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:d50b34489fcadd9336fd795d8a886e8ef5057a62f2a563762e534ee910d287a7", "1.10.0--r41hdfd78af_0": "sha256:64894bda9343e45573e5e162bd3925b87b15ef310510eefaf153d874817aa902", "1.14.0--r42hdfd78af_0": "sha256:f7c290f69d93d07775dc04ce522430f34dc7121a2a6eafea961b1de28a1ec1f2", "1.16.0--r43hdfd78af_0": "sha256:9f8f599ca46a8a4d849508fbaf0e0c50f32716f80652552fee217ee349c9d0a6"}, "docker": "quay.io/biocontainers/bioconductor-qsmooth", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qsmooth.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qsmooth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qsmooth:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-qsmooth:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qsmooth/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-qsmooth/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-qsmooth/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-qsmooth/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
