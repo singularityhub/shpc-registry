@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-fella
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fella
 latest:
-  1.18.0--r42hdfd78af_0: sha256:5e29337a965fa53d37402354f1ca6c6b0dfdc44bfb00f0047f50668ff2aa6777
+  1.20.0--r43hdfd78af_0: sha256:1fd0459ba5154a5555a833ca6383b738c3817da4f9debf8bf4ee9c43cb0df240
 tags:
   1.8.0--r40_0: sha256:48a8c63695c681241de55632576467c462709479633a4aff45e580d8c54e56cc
   1.18.0--r42hdfd78af_0: sha256:5e29337a965fa53d37402354f1ca6c6b0dfdc44bfb00f0047f50668ff2aa6777
   1.14.0--r41hdfd78af_0: sha256:8f9cff712c7c5ebaf8a2a64ab895046516dde338c1785fd81aaae1775181199f
   1.12.0--r41hdfd78af_0: sha256:cfb56849cdf2a1601fec0a4fc9529aef6ffa4219622731c8309447cf2787c934
   1.10.0--r40hdfd78af_1: sha256:82285c886aeaaf2b5f384508f5161a456843f16d079697ab8c7ad2c1448be6e2
+  1.20.0--r43hdfd78af_0: sha256:1fd0459ba5154a5555a833ca6383b738c3817da4f9debf8bf4ee9c43cb0df240
 docker: quay.io/biocontainers/bioconductor-fella
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

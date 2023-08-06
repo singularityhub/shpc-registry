@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-cghseg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-cghseg
 latest:
-  1.0.5--r40h3121a25_2: sha256:1993f9015878b21bef065975870a67a93c9c24da944fbc016e06f79de44a939f
+  1.0.5--r40h3121a25_3: sha256:4f0936e25776b60d63d9bc29d25d976fd9d2afc361b6b8fab3804991da12c27e
 tags:
   1.0.5--r40h3121a25_2: sha256:1993f9015878b21bef065975870a67a93c9c24da944fbc016e06f79de44a939f
+  1.0.5--r40h3121a25_3: sha256:4f0936e25776b60d63d9bc29d25d976fd9d2afc361b6b8fab3804991da12c27e
 docker: quay.io/biocontainers/r-cghseg

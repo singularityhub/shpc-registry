@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-human370quadv3ccrlmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-human370quadv3ccrlmm
 latest:
-  1.0.3--r42hdfd78af_10: sha256:80b09e7b9ccc6b213e8efa8c272256b630269eee80dccc3ce576f6999e0664d8
+  1.0.3--r43hdfd78af_11: sha256:7291670708a11ebbfa91db4ae3cb41fe878655013ec83642f75a330986a4db9c
 tags:
   1.0.3--r41hdfd78af_9: sha256:53c5e270ce3ae6d895ea2cc78c974be778f80fd8934ac72649dcdadd92e24b59
   1.0.3--r42hdfd78af_10: sha256:80b09e7b9ccc6b213e8efa8c272256b630269eee80dccc3ce576f6999e0664d8
+  1.0.3--r43hdfd78af_11: sha256:7291670708a11ebbfa91db4ae3cb41fe878655013ec83642f75a330986a4db9c
 docker: quay.io/biocontainers/bioconductor-human370quadv3ccrlmm

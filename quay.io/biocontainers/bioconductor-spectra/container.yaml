@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-spectra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spectra
 latest:
-  1.8.0--r42hdfd78af_0: sha256:28c74176eee6e81c16a8bfc699b1c61e0aab9db6b5ceb8dde23945b42d27e2d6
+  1.10.1--r43hdfd78af_0: sha256:1cb9e134c2442e632156d557dbe46bb44f47fea861ed3e1c2c42a88fbb8f701e
 tags:
   1.4.0--r41hdfd78af_0: sha256:84d16b4313d4c1084bc191e047da977ebf5cc742b676067f84dbf6e0ca4a7d24
   1.8.0--r42hdfd78af_0: sha256:28c74176eee6e81c16a8bfc699b1c61e0aab9db6b5ceb8dde23945b42d27e2d6
+  1.10.1--r43hdfd78af_0: sha256:1cb9e134c2442e632156d557dbe46bb44f47fea861ed3e1c2c42a88fbb8f701e
 docker: quay.io/biocontainers/bioconductor-spectra

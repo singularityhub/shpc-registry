@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-structtoolbox
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-structtoolbox
 latest:
-  1.10.1--r42hdfd78af_0: sha256:922937cecaff5868c4587687ef101fa9f48e61b33e2569ebfd02e10d0b6a689a
+  1.12.2--r43hdfd78af_0: sha256:9983ee8d299d0a583b3f35184e3201685e8c19f097bda89c3ebe6a5baf63c3a7
 tags:
   1.6.1--r41hdfd78af_0: sha256:8e1e944f27f12ddf28343653ee28bef60855245ee00bf241c6be207d2a218440
   1.10.0--r42hdfd78af_0: sha256:d80fdf8d71710c570dc4ae25b9a7a90b039ab91a07b5400c66ed9c82d5e1d251
   1.10.0--r42hdfd78af_1: sha256:0203404f57e210094a2ecaedd2cf8e07b921622c4e038bff1234461bc8601ae2
   1.10.1--r42hdfd78af_0: sha256:922937cecaff5868c4587687ef101fa9f48e61b33e2569ebfd02e10d0b6a689a
+  1.12.2--r43hdfd78af_0: sha256:9983ee8d299d0a583b3f35184e3201685e8c19f097bda89c3ebe6a5baf63c3a7
 docker: quay.io/biocontainers/bioconductor-structtoolbox
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

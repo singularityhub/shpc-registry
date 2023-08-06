@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-simpintlists
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-simpintlists
 latest:
-  1.33.0--r42hdfd78af_0: sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d
+  1.36.0--r43hdfd78af_0: sha256:2c1ea61a0cbbfaef13a259497169e862343b1794c10e4017aecaf4e1931506ef
 tags:
   1.30.0--r41hdfd78af_1: sha256:be2ac42d70eb2186c153c686dbe582961d3ffee9084359265d2e541db40e5799
   1.33.0--r42hdfd78af_0: sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d
+  1.36.0--r43hdfd78af_0: sha256:2c1ea61a0cbbfaef13a259497169e862343b1794c10e4017aecaf4e1931506ef
 docker: quay.io/biocontainers/bioconductor-simpintlists

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-sartools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sartools
 latest:
-  1.8.1--r42hdfd78af_1: sha256:a84b6d0930b43c96df00e0c1f114f5dc73c10dd38a1f52df34df64d408fd53cd
+  1.8.1--r43hdfd78af_2: sha256:adab0b080d633dedd4e28e64db9aa9028934bb542eee4c9c0948cd4584833520
 tags:
   1.8.1--r41hdfd78af_0: sha256:4ba629e9bc716be475498dec39aa0eff4482bc28029cb3bbeeebffc3a7b55e57
   1.8.1--r42hdfd78af_1: sha256:a84b6d0930b43c96df00e0c1f114f5dc73c10dd38a1f52df34df64d408fd53cd
+  1.8.1--r43hdfd78af_2: sha256:adab0b080d633dedd4e28e64db9aa9028934bb542eee4c9c0948cd4584833520
 docker: quay.io/biocontainers/r-sartools
 aliases:
   pandoc: /usr/local/bin/pandoc

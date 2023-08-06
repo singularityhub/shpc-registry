@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-waddr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-waddr
 latest:
-  1.12.0--r42hf17093f_1: sha256:67596e138bc84877a39aa087d71a3faa6d30f3740abdfa89ba9092a777ea0412
+  1.14.0--r43hf17093f_0: sha256:e128a58ef302b68db35fc9ff4d5e543c4102d8369e468bc83198216e3cb12602
 tags:
   1.8.0--r41hc247a5b_2: sha256:1a31462e770f43891071166754345cb380c9ec4910745b95bceac569bf8bb677
   1.12.0--r42hc247a5b_0: sha256:6de5e4db6b350aadf5f9b9eedb15b8325c9e4af8685294694c43586f4094207b
   1.12.0--r42hf17093f_1: sha256:67596e138bc84877a39aa087d71a3faa6d30f3740abdfa89ba9092a777ea0412
+  1.14.0--r43hf17093f_0: sha256:e128a58ef302b68db35fc9ff4d5e543c4102d8369e468bc83198216e3cb12602
 docker: quay.io/biocontainers/bioconductor-waddr
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

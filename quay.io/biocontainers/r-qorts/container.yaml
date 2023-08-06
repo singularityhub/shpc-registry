@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-qorts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-qorts
 latest:
-  1.3.6--r40_0: sha256:d4456e0f550587f1523ccc7ac94f563b17acabdad60e989f68836761ffe914c6
+  1.3.6--r43hdfd78af_5: sha256:271206cdd295b55a5d9cfc780e7ffb5941f28ed04ebf7405b776086889a0b42e
 tags:
   1.3.6--r40_0: sha256:d4456e0f550587f1523ccc7ac94f563b17acabdad60e989f68836761ffe914c6
+  1.3.6--r43hdfd78af_5: sha256:271206cdd295b55a5d9cfc780e7ffb5941f28ed04ebf7405b776086889a0b42e
 docker: quay.io/biocontainers/r-qorts
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

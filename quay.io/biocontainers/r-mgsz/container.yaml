@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-mgsz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-mgsz
 latest:
-  1.0--r42h3342da4_4: sha256:8921cff8cc8427dc4d37ea14424e435b1dfc025ee572abbee2a3bea0219bbe20
+  1.0--r43h3342da4_5: sha256:3db3c861009671d59a66c20ee265ae7328f6c6707947ebe303170cc833be62df
 tags:
   1.0--r41h3342da4_3: sha256:df522f7f0118450a295375678fb14748b3a53ab27de6a791b02065d08b79fff0
   1.0--r42h3342da4_4: sha256:8921cff8cc8427dc4d37ea14424e435b1dfc025ee572abbee2a3bea0219bbe20
+  1.0--r43h3342da4_5: sha256:3db3c861009671d59a66c20ee265ae7328f6c6707947ebe303170cc833be62df
 docker: quay.io/biocontainers/r-mgsz
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

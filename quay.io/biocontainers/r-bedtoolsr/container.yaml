@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-bedtoolsr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-bedtoolsr
 latest:
-  2.30.0.2--r42hdfd78af_1: sha256:6ab89d735d35fab50f4f249b7f1200d690bcb6834f94dcfd450ac5a8ecef48d4
+  2.30.0.2--r43hdfd78af_2: sha256:8f2e03acc93244d929179ef0751d61630a204996a63b94676921b2511a187aaa
 tags:
   2.30.0.2--r42hdfd78af_1: sha256:6ab89d735d35fab50f4f249b7f1200d690bcb6834f94dcfd450ac5a8ecef48d4
+  2.30.0.2--r43hdfd78af_2: sha256:8f2e03acc93244d929179ef0751d61630a204996a63b94676921b2511a187aaa
 docker: quay.io/biocontainers/r-bedtoolsr
 aliases:
   shiftBed: /usr/local/bin/shiftBed

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-infercnv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-infercnv
 latest:
-  1.14.0--r42hdfd78af_0: sha256:1b6554eff58a1d217bb41bd3597332d84b6ac1c7d2ecde5cceeb31567e412a07
+  1.16.0--r43hdfd78af_0: sha256:4d2b3f19c2058401e19c779290458e061590679e065b329c3392dbdb5322e77f
 tags:
   1.8.0--r41hdfd78af_0: sha256:1b4a66f2e2da5eec4ab5480d65a88d71db9861d10e2b419cc540f95cc115c31b
   1.14.0--r42hdfd78af_0: sha256:1b6554eff58a1d217bb41bd3597332d84b6ac1c7d2ecde5cceeb31567e412a07
   1.10.0--r41hdfd78af_0: sha256:7d0e0e9a90d2cad4f6bc7221c889c298f91d51af90474fc95f70cba510b1920c
+  1.16.0--r43hdfd78af_0: sha256:4d2b3f19c2058401e19c779290458e061590679e065b329c3392dbdb5322e77f
 docker: quay.io/biocontainers/bioconductor-infercnv
 aliases:
   jags: /usr/local/bin/jags

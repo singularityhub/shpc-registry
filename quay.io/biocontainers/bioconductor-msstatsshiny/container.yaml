@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-msstatsshiny
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-msstatsshiny
 latest:
-  1.0.0--r42hdfd78af_0: sha256:07f0dece34c2e80585814fe3d5a2a707951824073e61a8867b70dc579c874fc6
+  1.2.3--r43hdfd78af_0: sha256:75f56f4ca070466d0cd6db740be9f36f6de93e5e6d9affc9b3763315cf4742a2
 tags:
   1.0.0--r42hdfd78af_0: sha256:07f0dece34c2e80585814fe3d5a2a707951824073e61a8867b70dc579c874fc6
+  1.2.3--r43hdfd78af_0: sha256:75f56f4ca070466d0cd6db740be9f36f6de93e5e6d9affc9b3763315cf4742a2
 docker: quay.io/biocontainers/bioconductor-msstatsshiny
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

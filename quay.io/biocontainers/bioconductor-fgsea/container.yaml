@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-fgsea
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fgsea
 latest:
-  1.24.0--r42hf17093f_1: sha256:f9da7c516ed966b74ce93fcdd50fc4664b187cde3d747844d7359b28450253b2
+  1.26.0--r43hf17093f_0: sha256:6b59c5d7128e3e47f5062ea133c7267c4230650da5abb126296ee6c1f6f89a87
 tags:
   1.8.0--r351hf484d3e_0: sha256:6764fa3db66be3d214366a836eca06d4ab405e8172e6cf90be504b544b4dc65f
   1.24.0--r42hc247a5b_0: sha256:8089fda8d4efbaffd5d7d5100bf3be7c5ea48951ad1e9219427ecbad5a6b2125
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40h399db7b_1: sha256:78d59211ed86ddb168d08ae5391650ca7d2c5ebe501e60205bd3421f068f7ec1
   1.14.0--r40h5f743cb_0: sha256:0e31d732fd7560fa13de09512026b345af61abd53ff1c6fa1af9a3c1bb243294
   1.24.0--r42hf17093f_1: sha256:f9da7c516ed966b74ce93fcdd50fc4664b187cde3d747844d7359b28450253b2
+  1.26.0--r43hf17093f_0: sha256:6b59c5d7128e3e47f5062ea133c7267c4230650da5abb126296ee6c1f6f89a87
 docker: quay.io/biocontainers/bioconductor-fgsea
 aliases:
   c89: /usr/local/bin/c89

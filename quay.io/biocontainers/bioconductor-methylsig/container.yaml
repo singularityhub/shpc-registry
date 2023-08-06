@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-methylsig
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylsig
 latest:
-  1.10.0--r42hdfd78af_0: sha256:7e72a99bddb8e72683d93512a3341126eb3dffe115774a867999673dd2a88bfa
+  1.12.0--r43hdfd78af_0: sha256:47961c23cad21676b3a1f87487b09f85cddf10d33062614a6567faedc20ac0c8
 tags:
   1.6.0--r41hdfd78af_0: sha256:d3e845880b55ad55be33c67b44d577580dd09cb94070a24ded50709406081a72
   1.10.0--r42hdfd78af_0: sha256:7e72a99bddb8e72683d93512a3341126eb3dffe115774a867999673dd2a88bfa
+  1.12.0--r43hdfd78af_0: sha256:47961c23cad21676b3a1f87487b09f85cddf10d33062614a6567faedc20ac0c8
 docker: quay.io/biocontainers/bioconductor-methylsig

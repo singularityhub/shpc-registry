@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hibag
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hibag
 latest:
-  1.34.0--r42hf17093f_1: sha256:e54106bf9f031f2ba215f7b9d6bcd34ba86382c5c41eb5ff18da3984c4713eff
+  1.36.0--r43hf17093f_0: sha256:c55d827925cbebd7e2cae431dcbc1305a4d65a02f9341fc1836d9fa958ab91a4
 tags:
   1.30.2--r41hc247a5b_1: sha256:e2e12ff1310b8eb2c970ac4b79cb6c2d0d2e6b742dacf24ea5b7a86c8a109399
   1.34.0--r42hc247a5b_0: sha256:bfd7af199c9f353f0dc52b8027bbe141662b6393f3c66307555d85c300bb0d0b
   1.34.0--r42hf17093f_1: sha256:e54106bf9f031f2ba215f7b9d6bcd34ba86382c5c41eb5ff18da3984c4713eff
+  1.36.0--r43hf17093f_0: sha256:c55d827925cbebd7e2cae431dcbc1305a4d65a02f9341fc1836d9fa958ab91a4
 docker: quay.io/biocontainers/bioconductor-hibag

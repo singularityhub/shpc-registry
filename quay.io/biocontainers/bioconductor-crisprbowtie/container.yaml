@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-crisprbowtie
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-crisprbowtie
 latest:
-  1.2.0--r42hdfd78af_0: sha256:c54bc229015428f39377a90a5ef4afbc22ff26b93d2ce02136827d61750ab925
+  1.4.0--r43hdfd78af_0: sha256:524ecefcd6f1a31b6fde3509b8a70d34d9f8f53e05e93131a42cf4a8ea0e7930
 tags:
   1.2.0--r42hdfd78af_0: sha256:c54bc229015428f39377a90a5ef4afbc22ff26b93d2ce02136827d61750ab925
+  1.4.0--r43hdfd78af_0: sha256:524ecefcd6f1a31b6fde3509b8a70d34d9f8f53e05e93131a42cf4a8ea0e7930
 docker: quay.io/biocontainers/bioconductor-crisprbowtie
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

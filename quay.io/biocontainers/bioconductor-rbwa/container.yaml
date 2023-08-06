@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rbwa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rbwa
 latest:
-  1.2.0--r42hd5da469_2: sha256:64e5d286a34936a3b7efbdb3c97c8eb297528bc16171e0a0e582d5d8a70d0558
+  1.4.0--r43hd5da469_0: sha256:f0b0be863b738793f638b4ab7ee539a09af3e4c7ee55cb73f90f2e34c957518e
 tags:
   1.2.0--r42h87de86e_0: sha256:b175f0ae1a0d4013e9605bcc5f027906a26aa23c2b653ba19cc942521840218b
   1.2.0--r42hd5da469_2: sha256:64e5d286a34936a3b7efbdb3c97c8eb297528bc16171e0a0e582d5d8a70d0558
+  1.4.0--r43hd5da469_0: sha256:f0b0be863b738793f638b4ab7ee539a09af3e4c7ee55cb73f90f2e34c957518e
 docker: quay.io/biocontainers/bioconductor-rbwa

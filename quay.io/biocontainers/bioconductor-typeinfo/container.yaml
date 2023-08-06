@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-typeinfo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-typeinfo
 latest:
-  1.64.0--r42hdfd78af_0: sha256:9863856e8c3b1cb2f9e4373cb8236d52a9631def2eadd2fab77798cf623b489e
+  1.66.0--r43hdfd78af_0: sha256:8c2334c393ca92f05c60eba8405fd41cc5db8faad330231ef099110bb8d664ce
 tags:
   1.60.0--r41hdfd78af_0: sha256:6c1c6ae9637c36378fb9d24abae85b7d8f9dea72b18918dcde7dfaf752293749
   1.64.0--r42hdfd78af_0: sha256:9863856e8c3b1cb2f9e4373cb8236d52a9631def2eadd2fab77798cf623b489e
+  1.66.0--r43hdfd78af_0: sha256:8c2334c393ca92f05c60eba8405fd41cc5db8faad330231ef099110bb8d664ce
 docker: quay.io/biocontainers/bioconductor-typeinfo

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-svanumt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-svanumt
 latest:
-  1.4.0--r42hdfd78af_0: sha256:349d7f04c7833c7bb99acaba229b5f846cfc5be83bbfb711775ff2237591b4cf
+  1.6.0--r43hdfd78af_0: sha256:9b2b8518f338aa1e4be65fc694161f62bd0b7ea8de8a2d9192a23d0eaa210418
 tags:
   1.0.0--r41hdfd78af_0: sha256:dd46f36b04fbe6e615c087078bc7fa428703e6dabc6eb6a554c00ad3499689d8
   1.4.0--r42hdfd78af_0: sha256:349d7f04c7833c7bb99acaba229b5f846cfc5be83bbfb711775ff2237591b4cf
+  1.6.0--r43hdfd78af_0: sha256:9b2b8518f338aa1e4be65fc694161f62bd0b7ea8de8a2d9192a23d0eaa210418
 docker: quay.io/biocontainers/bioconductor-svanumt

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-mafdb.exac.r1.0.hs37d5
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mafdb.exac.r1.0.hs37d5
 latest:
-  3.10.0--r42hdfd78af_7: sha256:79d5c0e0f8cef990c444581ad8642f502b964c21de2b0349a7eb3f6d5119d109
+  3.10.0--r43hdfd78af_8: sha256:4fb7419b790875a2b0cf0caf63f4b1ebc0e78d10725a328fead73ad4d022c2d8
 tags:
   3.7.0--r36_2: sha256:2dd1990af8d106c34145ce2543b2d563b679f9be403053f475daca1d80627ad9
   3.10.0--r41hdfd78af_6: sha256:d9569f6b06699df82aa722239dad1e26589200f2210f6c3bc89910ff428ad1c3
   3.10.0--r42hdfd78af_7: sha256:79d5c0e0f8cef990c444581ad8642f502b964c21de2b0349a7eb3f6d5119d109
+  3.10.0--r43hdfd78af_8: sha256:4fb7419b790875a2b0cf0caf63f4b1ebc0e78d10725a328fead73ad4d022c2d8
 docker: quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

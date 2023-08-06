@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hubpub
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hubpub
 latest:
-  1.6.0--r42hdfd78af_0: sha256:d285dd1691e6d52207086aa49d6da55cf8ad46a3cc0d6d452ea1af57e620ea4d
+  1.8.0--r43hdfd78af_0: sha256:06fb45aacdee745e0051fddd642bb245fa11fa46f95d0af71bd3de49d1705d46
 tags:
   1.2.0--r41hdfd78af_0: sha256:9d642b365c6a063cfc8d8a01b2e7e82b726a2f9bbc2e69562a183dfc1ce6b3f4
   1.6.0--r42hdfd78af_0: sha256:d285dd1691e6d52207086aa49d6da55cf8ad46a3cc0d6d452ea1af57e620ea4d
+  1.8.0--r43hdfd78af_0: sha256:06fb45aacdee745e0051fddd642bb245fa11fa46f95d0af71bd3de49d1705d46
 docker: quay.io/biocontainers/bioconductor-hubpub

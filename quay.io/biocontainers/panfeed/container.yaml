@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/panfeed
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for panfeed
 latest:
-  1.5.0--pyhdfd78af_0: sha256:ee35faf0bd99c468cecce894b2790789fd0399d52eb5f05c44407af9e70f69fb
+  1.5.1--pyhdfd78af_0: sha256:2db212d8ee3180ccfab08c0cdd417b4f65d02447ff635c596e26ba95894ec237
 tags:
   1.5.0--pyhdfd78af_0: sha256:ee35faf0bd99c468cecce894b2790789fd0399d52eb5f05c44407af9e70f69fb
+  1.5.1--pyhdfd78af_0: sha256:2db212d8ee3180ccfab08c0cdd417b4f65d02447ff635c596e26ba95894ec237
 docker: quay.io/biocontainers/panfeed
 aliases:
   panfeed: /usr/local/bin/panfeed

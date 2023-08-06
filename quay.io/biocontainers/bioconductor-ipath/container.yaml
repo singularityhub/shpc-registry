@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-ipath
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ipath
 latest:
-  1.4.0--r42hf17093f_1: sha256:d402a9d4d413a820081f8341ee62322289e8be4e4dda218da4a7141b11e75fb8
+  1.6.1--r43hf17093f_0: sha256:c0a2fd64b8d833a996bddf552edf91fadecafe68805c76b33a1f307f474a157d
 tags:
   1.0.0--r41hc247a5b_2: sha256:2cc72b83e4f7a9ab426d5ae2782f6bee68c61ffed4ac1d85b4e9ef3a61963991
   1.4.0--r42hc247a5b_0: sha256:2a228db5027e86baadf59e3dd3eb0e72ed5c14d895606fb64d5de71b4382f581
   1.4.0--r42hf17093f_1: sha256:d402a9d4d413a820081f8341ee62322289e8be4e4dda218da4a7141b11e75fb8
+  1.6.1--r43hf17093f_0: sha256:c0a2fd64b8d833a996bddf552edf91fadecafe68805c76b33a1f307f474a157d
 docker: quay.io/biocontainers/bioconductor-ipath
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10
