@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-xmlrpc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xmlrpc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xmlrpc/container.yaml"
-updated_at: "2023-08-05 03:11:52.446365"
-latest: "0.2_4--r42h9ee0642_6"
+updated_at: "2023-08-06 03:08:43.031836"
+latest: "0.2_4--r43h9ee0642_7"
 container_url: "https://biocontainers.pro/tools/r-xmlrpc"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.2_4--r41h9ee0642_5"
  - "0.2_4--r42h9ee0642_6"
+ - "0.2_4--r43h9ee0642_7"
 description: "shpc-registry automated BioContainers addition for r-xmlrpc"
-config: {"url": "https://biocontainers.pro/tools/r-xmlrpc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xmlrpc", "latest": {"0.2_4--r42h9ee0642_6": "sha256:0a7a24ef9dd26c28cb6dcd7435ad5d0b16e7e52ef74526065a151f155cc00342"}, "tags": {"0.2_4--r41h9ee0642_5": "sha256:188f1c730cfccd39953522ea81c197695839a63d4b884d79b438647a213ba4ca", "0.2_4--r42h9ee0642_6": "sha256:0a7a24ef9dd26c28cb6dcd7435ad5d0b16e7e52ef74526065a151f155cc00342"}, "docker": "quay.io/biocontainers/r-xmlrpc", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-xmlrpc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xmlrpc", "latest": {"0.2_4--r43h9ee0642_7": "sha256:2848373f9732da6f8c7779f18e737a950243eaca85c026fafe60cfcd8d6ecbc0"}, "tags": {"0.2_4--r41h9ee0642_5": "sha256:188f1c730cfccd39953522ea81c197695839a63d4b884d79b438647a213ba4ca", "0.2_4--r42h9ee0642_6": "sha256:0a7a24ef9dd26c28cb6dcd7435ad5d0b16e7e52ef74526065a151f155cc00342", "0.2_4--r43h9ee0642_7": "sha256:2848373f9732da6f8c7779f18e737a950243eaca85c026fafe60cfcd8d6ecbc0"}, "docker": "quay.io/biocontainers/r-xmlrpc", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-xmlrpc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-xmlrpc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-xmlrpc:0.2_4--r42h9ee0642_6
+$ shpc install quay.io/biocontainers/r-xmlrpc:0.2_4--r43h9ee0642_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-xmlrpc/0.2_4--r42h9ee0642_6
-$ module help quay.io/biocontainers/r-xmlrpc/0.2_4--r42h9ee0642_6
+$ module load quay.io/biocontainers/r-xmlrpc/0.2_4--r43h9ee0642_7
+$ module help quay.io/biocontainers/r-xmlrpc/0.2_4--r43h9ee0642_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-irisfgm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-irisfgm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-irisfgm/container.yaml"
-updated_at: "2023-08-05 02:45:48.957593"
+updated_at: "2023-08-06 02:42:32.985165"
 latest: "1.8.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-irisfgm"
 aliases:

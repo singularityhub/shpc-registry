@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cssq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cssq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cssq/container.yaml"
-updated_at: "2023-08-05 02:54:04.737259"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-08-06 02:50:52.169458"
+latest: "1.12.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cssq"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cssq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cssq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cssq", "latest": {"1.10.0--r42hdfd78af_0": "sha256:6fda066a3285d6836b6b2073a2d12893d9c9d844d3347b914e7fba32c47c6155"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:9cdedea27fff6a14b72efe30ce3e136f22d35677bcfe911a196815829ec53913", "1.10.0--r42hdfd78af_0": "sha256:6fda066a3285d6836b6b2073a2d12893d9c9d844d3347b914e7fba32c47c6155"}, "docker": "quay.io/biocontainers/bioconductor-cssq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cssq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cssq", "latest": {"1.12.1--r43hdfd78af_0": "sha256:e5f81f8c828443123cbf60325aac46964aae2b11f846c9d72c7fa276564ac5f1"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:9cdedea27fff6a14b72efe30ce3e136f22d35677bcfe911a196815829ec53913", "1.10.0--r42hdfd78af_0": "sha256:6fda066a3285d6836b6b2073a2d12893d9c9d844d3347b914e7fba32c47c6155", "1.12.1--r43hdfd78af_0": "sha256:e5f81f8c828443123cbf60325aac46964aae2b11f846c9d72c7fa276564ac5f1"}, "docker": "quay.io/biocontainers/bioconductor-cssq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cssq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cssq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cssq:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cssq:1.12.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cssq/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cssq/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cssq/1.12.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cssq/1.12.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

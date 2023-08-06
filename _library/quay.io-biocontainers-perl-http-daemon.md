@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-daemon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-daemon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-daemon/container.yaml"
-updated_at: "2023-08-05 03:25:31.106973"
+updated_at: "2023-08-06 03:22:30.661213"
 latest: "6.16--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-daemon"
 aliases:

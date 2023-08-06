@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-sampleconfig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-sampleconfig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-sampleconfig/container.yaml"
-updated_at: "2023-08-05 02:50:10.707563"
+updated_at: "2023-08-06 02:46:55.671389"
 latest: "0.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-sampleconfig"
 aliases:

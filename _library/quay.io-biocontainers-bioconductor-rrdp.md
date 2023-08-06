@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rrdp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rrdp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rrdp/container.yaml"
-updated_at: "2023-08-05 03:02:02.768704"
-latest: "1.32.0--r42hdfd78af_0"
+updated_at: "2023-08-06 02:58:55.344592"
+latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rrdp"
 aliases:
  - "jfr"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.28.0--r41hdfd78af_0"
  - "1.32.0--r42hdfd78af_0"
+ - "1.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rrdp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rrdp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rrdp", "latest": {"1.32.0--r42hdfd78af_0": "sha256:8e048d63d376afa487a0d9bbeec7ee9b9133f9142747b8457c7dfc5f8bd04b8a"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:be2ec02e2a59928b6b1ee2c98cbe612716dc9008fbf7a82d7937b7395e5e5aac", "1.32.0--r42hdfd78af_0": "sha256:8e048d63d376afa487a0d9bbeec7ee9b9133f9142747b8457c7dfc5f8bd04b8a"}, "docker": "quay.io/biocontainers/bioconductor-rrdp", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rrdp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rrdp", "latest": {"1.34.0--r43hdfd78af_0": "sha256:25012e1caf030caff78fdb4157b82ca9e18b46e8fc8d404044fdde4317796cee"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:be2ec02e2a59928b6b1ee2c98cbe612716dc9008fbf7a82d7937b7395e5e5aac", "1.32.0--r42hdfd78af_0": "sha256:8e048d63d376afa487a0d9bbeec7ee9b9133f9142747b8457c7dfc5f8bd04b8a", "1.34.0--r43hdfd78af_0": "sha256:25012e1caf030caff78fdb4157b82ca9e18b46e8fc8d404044fdde4317796cee"}, "docker": "quay.io/biocontainers/bioconductor-rrdp", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rrdp.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rrdp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rrdp:1.32.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rrdp:1.34.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rrdp/1.32.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rrdp/1.32.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rrdp/1.34.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rrdp/1.34.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

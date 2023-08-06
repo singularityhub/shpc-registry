@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaxa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaxa/container.yaml"
-updated_at: "2023-08-05 03:23:00.326099"
-latest: "2.2.3--pl5321hdfd78af_1"
+updated_at: "2023-08-06 03:19:57.999739"
+latest: "2.2.3--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/metaxa"
 aliases:
  - "hmmc2"
@@ -32,8 +32,9 @@ aliases:
  - "fftns"
 versions:
  - "2.2.3--pl5321hdfd78af_1"
+ - "2.2.3--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for metaxa"
-config: {"url": "https://biocontainers.pro/tools/metaxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaxa", "latest": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "tags": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "docker": "quay.io/biocontainers/metaxa", "aliases": {"hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "metaxa2": "/usr/local/bin/metaxa2", "metaxa2_c": "/usr/local/bin/metaxa2_c", "metaxa2_dbb": "/usr/local/bin/metaxa2_dbb", "metaxa2_dc": "/usr/local/bin/metaxa2_dc", "metaxa2_install_database": "/usr/local/bin/metaxa2_install_database", "metaxa2_rf": "/usr/local/bin/metaxa2_rf", "metaxa2_si": "/usr/local/bin/metaxa2_si", "metaxa2_ttt": "/usr/local/bin/metaxa2_ttt", "metaxa2_uc": "/usr/local/bin/metaxa2_uc", "metaxa2_x": "/usr/local/bin/metaxa2_x", "vsearch": "/usr/local/bin/vsearch", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns"}}
+config: {"url": "https://biocontainers.pro/tools/metaxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaxa", "latest": {"2.2.3--pl5321hdfd78af_2": "sha256:abff932f9acacca9dde28af5aa6e884d47dfe95d0d112420d1ebe3702f44ce0b"}, "tags": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e", "2.2.3--pl5321hdfd78af_2": "sha256:abff932f9acacca9dde28af5aa6e884d47dfe95d0d112420d1ebe3702f44ce0b"}, "docker": "quay.io/biocontainers/metaxa", "aliases": {"hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "metaxa2": "/usr/local/bin/metaxa2", "metaxa2_c": "/usr/local/bin/metaxa2_c", "metaxa2_dbb": "/usr/local/bin/metaxa2_dbb", "metaxa2_dc": "/usr/local/bin/metaxa2_dc", "metaxa2_install_database": "/usr/local/bin/metaxa2_install_database", "metaxa2_rf": "/usr/local/bin/metaxa2_rf", "metaxa2_si": "/usr/local/bin/metaxa2_si", "metaxa2_ttt": "/usr/local/bin/metaxa2_ttt", "metaxa2_uc": "/usr/local/bin/metaxa2_uc", "metaxa2_x": "/usr/local/bin/metaxa2_x", "vsearch": "/usr/local/bin/vsearch", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaxa.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/metaxa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaxa:2.2.3--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/metaxa:2.2.3--pl5321hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaxa/2.2.3--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/metaxa/2.2.3--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/metaxa/2.2.3--pl5321hdfd78af_2
+$ module help quay.io/biocontainers/metaxa/2.2.3--pl5321hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

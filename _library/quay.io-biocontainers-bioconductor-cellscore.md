@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellscore/container.yaml"
-updated_at: "2023-08-05 03:06:26.877245"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-08-06 03:03:19.872235"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellscore"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellscore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellscore", "latest": {"1.18.0--r42hdfd78af_0": "sha256:02e424a3315b884cb494a157971a9a684b6c1b69a2800e4a1db5b1d040f8c6f8"}, "tags": {"1.8.0--r40_0": "sha256:24588cf3eec995e7affccf54c3ff44db80c69f2a7fba74f1fc1942e9fb9821db", "1.18.0--r42hdfd78af_0": "sha256:02e424a3315b884cb494a157971a9a684b6c1b69a2800e4a1db5b1d040f8c6f8", "1.14.0--r41hdfd78af_0": "sha256:134df8a79df674e13bdc1d82322f52d51d6a41aedb7e1a9d182ac3bd84483c4d", "1.12.0--r41hdfd78af_0": "sha256:a6ea1026a62d75fa43cbe6e7f02a81c7c2429d3954a0386c001f9b0688945bc9", "1.10.0--r40hdfd78af_1": "sha256:82243910fffad3fad40cb3f8c8506a228b8a9a2485d61348844c941d2356def5"}, "docker": "quay.io/biocontainers/bioconductor-cellscore", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellscore", "latest": {"1.20.0--r43hdfd78af_0": "sha256:a59c2361473b6f000484a5a5bfec299814e2e167a7c9ce02e03b22ecb93a8840"}, "tags": {"1.8.0--r40_0": "sha256:24588cf3eec995e7affccf54c3ff44db80c69f2a7fba74f1fc1942e9fb9821db", "1.18.0--r42hdfd78af_0": "sha256:02e424a3315b884cb494a157971a9a684b6c1b69a2800e4a1db5b1d040f8c6f8", "1.14.0--r41hdfd78af_0": "sha256:134df8a79df674e13bdc1d82322f52d51d6a41aedb7e1a9d182ac3bd84483c4d", "1.12.0--r41hdfd78af_0": "sha256:a6ea1026a62d75fa43cbe6e7f02a81c7c2429d3954a0386c001f9b0688945bc9", "1.10.0--r40hdfd78af_1": "sha256:82243910fffad3fad40cb3f8c8506a228b8a9a2485d61348844c941d2356def5", "1.20.0--r43hdfd78af_0": "sha256:a59c2361473b6f000484a5a5bfec299814e2e167a7c9ce02e03b22ecb93a8840"}, "docker": "quay.io/biocontainers/bioconductor-cellscore", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellscore.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellscore:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cellscore:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellscore/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cellscore/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cellscore/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cellscore/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

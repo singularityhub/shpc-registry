@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dxua"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dxua/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dxua/container.yaml"
-updated_at: "2023-08-05 02:43:15.901563"
+updated_at: "2023-08-06 02:39:58.773349"
 latest: "1.5.31--0"
 container_url: "https://biocontainers.pro/tools/dxua"
 aliases:

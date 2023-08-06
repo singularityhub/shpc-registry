@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-files"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-files/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-files/container.yaml"
-updated_at: "2023-08-05 03:06:54.830100"
+updated_at: "2023-08-06 03:03:47.416942"
 latest: "23.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-files"
 aliases:

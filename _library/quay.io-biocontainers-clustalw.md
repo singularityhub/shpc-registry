@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clustalw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustalw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustalw/container.yaml"
-updated_at: "2023-08-05 02:40:45.113689"
+updated_at: "2023-08-06 02:37:27.836440"
 latest: "2.1--h4ac6f70_9"
 container_url: "https://biocontainers.pro/tools/clustalw"
 aliases:

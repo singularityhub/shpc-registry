@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oauth2client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oauth2client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oauth2client/container.yaml"
-updated_at: "2023-08-05 03:19:26.530727"
+updated_at: "2023-08-06 03:16:21.264869"
 latest: "1.5.2--py36_0"
 container_url: "https://biocontainers.pro/tools/oauth2client"
 aliases:

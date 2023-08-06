@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libidn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libidn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libidn/container.yaml"
-updated_at: "2023-08-05 02:41:34.028278"
+updated_at: "2023-08-06 02:38:16.602140"
 latest: "7.45.0--hdbdd923_8"
 container_url: "https://biocontainers.pro/tools/libidn"
 aliases:

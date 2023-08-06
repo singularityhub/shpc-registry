@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anise_basil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anise_basil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anise_basil/container.yaml"
-updated_at: "2023-08-05 02:36:31.498027"
+updated_at: "2023-08-06 02:33:14.910776"
 latest: "1.2.0--py39h1442aad_6"
 container_url: "https://biocontainers.pro/tools/anise_basil"
 aliases:

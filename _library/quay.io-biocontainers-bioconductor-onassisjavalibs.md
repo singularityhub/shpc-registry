@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-onassisjavalibs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onassisjavalibs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onassisjavalibs/container.yaml"
-updated_at: "2023-08-05 02:42:05.115898"
-latest: "1.19.0--r42hdfd78af_0"
+updated_at: "2023-08-06 02:38:48.152698"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-onassisjavalibs"
 aliases:
  - "extcheck"
@@ -25,8 +25,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.11.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-onassisjavalibs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-onassisjavalibs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onassisjavalibs", "latest": {"1.19.0--r42hdfd78af_0": "sha256:1705043be1ffa3cc890abd4958a4be011d9ed520ad51f6199fdb661046683821"}, "tags": {"1.8.0--r36_0": "sha256:c622be81cb965cff887dbadba84ac24a9a10deb782de6e8040fa915bf8763d45", "1.19.0--r42hdfd78af_0": "sha256:1705043be1ffa3cc890abd4958a4be011d9ed520ad51f6199fdb661046683821", "1.16.0--r41hdfd78af_1": "sha256:5368939ecf3dd95b0d721383c35972fe2dbbcdc4dd3691e377c934890a62e87c", "1.14.0--r41hdfd78af_0": "sha256:670064c8d7cc1fc9c9952dc009592a245cfabf235f6f919a6690d22eee10db60", "1.12.0--r40hdfd78af_1": "sha256:5d2cc96a3e53658c7050b980d8eca7d228bb1cfda7f96cff24ff3dc7e4179b9e", "1.11.0--r40_0": "sha256:ac356f96cdf10f60123b4dd397d95ab7dc68250f7fb7a17f3db5be11cebdb91d"}, "docker": "quay.io/biocontainers/bioconductor-onassisjavalibs", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-onassisjavalibs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onassisjavalibs", "latest": {"1.22.0--r43hdfd78af_0": "sha256:628413fe45ebead4caaf7ffe842e0ceb7e1732337af88492dc7794304699d4c3"}, "tags": {"1.8.0--r36_0": "sha256:c622be81cb965cff887dbadba84ac24a9a10deb782de6e8040fa915bf8763d45", "1.19.0--r42hdfd78af_0": "sha256:1705043be1ffa3cc890abd4958a4be011d9ed520ad51f6199fdb661046683821", "1.16.0--r41hdfd78af_1": "sha256:5368939ecf3dd95b0d721383c35972fe2dbbcdc4dd3691e377c934890a62e87c", "1.14.0--r41hdfd78af_0": "sha256:670064c8d7cc1fc9c9952dc009592a245cfabf235f6f919a6690d22eee10db60", "1.12.0--r40hdfd78af_1": "sha256:5d2cc96a3e53658c7050b980d8eca7d228bb1cfda7f96cff24ff3dc7e4179b9e", "1.11.0--r40_0": "sha256:ac356f96cdf10f60123b4dd397d95ab7dc68250f7fb7a17f3db5be11cebdb91d", "1.22.0--r43hdfd78af_0": "sha256:628413fe45ebead4caaf7ffe842e0ceb7e1732337af88492dc7794304699d4c3"}, "docker": "quay.io/biocontainers/bioconductor-onassisjavalibs", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-onassisjavalibs.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-onassisjavalibs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-onassisjavalibs:1.19.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-onassisjavalibs:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-onassisjavalibs/1.19.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-onassisjavalibs/1.19.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-onassisjavalibs/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-onassisjavalibs/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

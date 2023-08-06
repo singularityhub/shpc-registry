@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-phemd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phemd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phemd/container.yaml"
-updated_at: "2023-08-05 03:20:21.067147"
-latest: "1.6.0--r40hdfd78af_1"
+updated_at: "2023-08-06 03:17:16.263766"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phemd"
 aliases:
  - "f2py3.9"
@@ -17,8 +17,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.6.0--r40hdfd78af_1"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phemd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phemd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phemd", "latest": {"1.6.0--r40hdfd78af_1": "sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1"}, "docker": "quay.io/biocontainers/bioconductor-phemd", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phemd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phemd", "latest": {"1.16.0--r43hdfd78af_0": "sha256:4b98c8668e190fc62348273e66908c257588ef8bed904507eebc01c1d7ed62b8"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1", "1.16.0--r43hdfd78af_0": "sha256:4b98c8668e190fc62348273e66908c257588ef8bed904507eebc01c1d7ed62b8"}, "docker": "quay.io/biocontainers/bioconductor-phemd", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phemd.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phemd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phemd:1.6.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-phemd:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phemd/1.6.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-phemd/1.6.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-phemd/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phemd/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

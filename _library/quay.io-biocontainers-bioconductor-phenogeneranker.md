@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phenogeneranker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenogeneranker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenogeneranker/container.yaml"
-updated_at: "2023-08-05 02:44:24.572179"
+updated_at: "2023-08-06 02:41:08.222265"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenogeneranker"
 

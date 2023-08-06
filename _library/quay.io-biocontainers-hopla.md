@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hopla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hopla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hopla/container.yaml"
-updated_at: "2023-08-05 02:32:10.909292"
-latest: "1.2.0--hdfd78af_0"
+updated_at: "2023-08-06 02:28:53.063328"
+latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hopla"
 aliases:
  - "hapmapConverter"
@@ -22,8 +22,9 @@ aliases:
  - "pandoc"
 versions:
  - "1.2.0--hdfd78af_0"
+ - "1.2.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hopla"
-config: {"url": "https://biocontainers.pro/tools/hopla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hopla", "latest": {"1.2.0--hdfd78af_0": "sha256:b51562cc5c7e42534544ce20eee9a5dc862e8882d498fe9e957de258344fe60c"}, "tags": {"1.2.0--hdfd78af_0": "sha256:b51562cc5c7e42534544ce20eee9a5dc862e8882d498fe9e957de258344fe60c"}, "docker": "quay.io/biocontainers/hopla", "aliases": {"hapmapConverter": "/usr/local/bin/hapmapConverter", "hopla": "/usr/local/bin/hopla", "merlin": "/usr/local/bin/merlin", "merlin-offline": "/usr/local/bin/merlin-offline", "merlin-regress": "/usr/local/bin/merlin-regress", "minx": "/usr/local/bin/minx", "minx-offline": "/usr/local/bin/minx-offline", "pedmerge": "/usr/local/bin/pedmerge", "pedstats": "/usr/local/bin/pedstats", "pedwipe": "/usr/local/bin/pedwipe", "pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/hopla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hopla", "latest": {"1.2.1--hdfd78af_0": "sha256:69d1512a3eaca96e5bfa0c00c3792e33cb4b9a3ae4f7c084393bf0d42ff9d8d1"}, "tags": {"1.2.0--hdfd78af_0": "sha256:b51562cc5c7e42534544ce20eee9a5dc862e8882d498fe9e957de258344fe60c", "1.2.1--hdfd78af_0": "sha256:69d1512a3eaca96e5bfa0c00c3792e33cb4b9a3ae4f7c084393bf0d42ff9d8d1"}, "docker": "quay.io/biocontainers/hopla", "aliases": {"hapmapConverter": "/usr/local/bin/hapmapConverter", "hopla": "/usr/local/bin/hopla", "merlin": "/usr/local/bin/merlin", "merlin-offline": "/usr/local/bin/merlin-offline", "merlin-regress": "/usr/local/bin/merlin-regress", "minx": "/usr/local/bin/minx", "minx-offline": "/usr/local/bin/minx-offline", "pedmerge": "/usr/local/bin/pedmerge", "pedstats": "/usr/local/bin/pedstats", "pedwipe": "/usr/local/bin/pedwipe", "pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hopla.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/hopla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hopla:1.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/hopla:1.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hopla/1.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/hopla/1.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/hopla/1.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/hopla/1.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyasr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyasr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyasr/container.yaml"
-updated_at: "2023-08-05 02:49:00.401839"
+updated_at: "2023-08-06 02:45:45.067118"
 latest: "0.6.1--py_0"
 container_url: "https://biocontainers.pro/tools/pyasr"
 aliases:

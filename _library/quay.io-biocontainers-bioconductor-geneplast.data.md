@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-geneplast.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneplast.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneplast.data/container.yaml"
-updated_at: "2023-08-05 02:35:35.535998"
-latest: "0.99.6--r42hdfd78af_1"
+updated_at: "2023-08-06 02:32:19.173105"
+latest: "0.99.6--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneplast.data"
 
 versions:
  - "0.99.6--r41hdfd78af_0"
  - "0.99.6--r42hdfd78af_1"
+ - "0.99.6--r43hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneplast.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneplast.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneplast.data", "latest": {"0.99.6--r42hdfd78af_1": "sha256:7dc74ca635be29e237ee383f9b9dd18fa1a6f75f7eebf76c37976181bba9a105"}, "tags": {"0.99.6--r41hdfd78af_0": "sha256:c50f566af4fabb8dfe72d18b0c7cf751a5c040f3b0b40ad058a3c720085ffe9d", "0.99.6--r42hdfd78af_1": "sha256:7dc74ca635be29e237ee383f9b9dd18fa1a6f75f7eebf76c37976181bba9a105"}, "docker": "quay.io/biocontainers/bioconductor-geneplast.data"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneplast.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneplast.data", "latest": {"0.99.6--r43hdfd78af_2": "sha256:68c8bebd69cf240fed57532958934ef7d4dc899befaca755876873e968187fb1"}, "tags": {"0.99.6--r41hdfd78af_0": "sha256:c50f566af4fabb8dfe72d18b0c7cf751a5c040f3b0b40ad058a3c720085ffe9d", "0.99.6--r42hdfd78af_1": "sha256:7dc74ca635be29e237ee383f9b9dd18fa1a6f75f7eebf76c37976181bba9a105", "0.99.6--r43hdfd78af_2": "sha256:68c8bebd69cf240fed57532958934ef7d4dc899befaca755876873e968187fb1"}, "docker": "quay.io/biocontainers/bioconductor-geneplast.data"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneplast.data.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geneplast.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geneplast.data:0.99.6--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-geneplast.data:0.99.6--r43hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geneplast.data/0.99.6--r42hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-geneplast.data/0.99.6--r42hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-geneplast.data/0.99.6--r43hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-geneplast.data/0.99.6--r43hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

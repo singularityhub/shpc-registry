@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cannoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cannoli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cannoli/container.yaml"
-updated_at: "2023-08-05 02:33:12.713511"
+updated_at: "2023-08-06 02:29:55.755088"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cannoli"
 aliases:

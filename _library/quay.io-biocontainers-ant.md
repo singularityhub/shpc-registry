@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ant/container.yaml"
-updated_at: "2023-08-05 02:36:02.630525"
+updated_at: "2023-08-06 02:32:46.055873"
 latest: "1.10.0--0"
 container_url: "https://biocontainers.pro/tools/ant"
 aliases:

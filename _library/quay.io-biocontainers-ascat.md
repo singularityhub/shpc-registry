@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ascat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ascat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ascat/container.yaml"
-updated_at: "2023-08-05 03:06:21.645475"
+updated_at: "2023-08-06 03:03:14.702021"
 latest: "3.1.1--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ascat"
 

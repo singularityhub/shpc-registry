@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
-updated_at: "2023-08-05 02:42:27.170202"
-latest: "2.14.0--h7d5a4b4_1"
+updated_at: "2023-08-06 02:39:10.065316"
+latest: "2.14.0--pl5321h6f7f691_2"
 container_url: "https://biocontainers.pro/tools/blast"
 aliases:
  - "blast_formatter"
@@ -35,8 +35,9 @@ versions:
  - "2.14.0--hf3cf87c_0"
  - "2.13.0--hf3cf87c_1"
  - "2.14.0--h7d5a4b4_1"
+ - "2.14.0--pl5321h6f7f691_2"
 description: "shpc-registry automated BioContainers addition for blast"
-config: {"url": "https://biocontainers.pro/tools/blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast", "latest": {"2.14.0--h7d5a4b4_1": "sha256:8a077ba3916a3078a9cb442ba31138292bb869116347d86ba0dc3b3554f21255"}, "tags": {"2.10.1--pl526he19e7b1_3": "sha256:f12a5a35a0e6645134fcfe8650b0d1b5ff1f486430828a4ec3c4c9bfe35a5d78", "2.11.0--pl5262h3289130_1": "sha256:52e8e0ed12a0fe8854681dadb600e1d5599e04b960b01034cb53812fad944c3d", "2.12.0--pl5262h3289130_0": "sha256:a7eb056f5ca6a32551bf9f87b6b15acc45598cfef39bffdd672f59da3847cd18", "2.12.0--hf3cf87c_4": "sha256:9df91dee10f97405384734f964021feae38fcf68a721315f706be99be9366d86", "2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8", "2.14.0--hf3cf87c_0": "sha256:294286c40fce6e281d09853d9e650520df160ee0398bc7afc78587ab2c1e8ca3", "2.13.0--hf3cf87c_1": "sha256:64f77cdca6492aefc381cf5415a78ee16d6a3fd1eb6b6babd4c2a456bfd721b3", "2.14.0--h7d5a4b4_1": "sha256:8a077ba3916a3078a9cb442ba31138292bb869116347d86ba0dc3b3554f21255"}, "docker": "quay.io/biocontainers/blast", "aliases": {"blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "cleanup-blastdb-volumes.py": "/usr/local/bin/cleanup-blastdb-volumes.py", "convert2blastmask": "/usr/local/bin/convert2blastmask", "deltablast": "/usr/local/bin/deltablast", "eblast": "/usr/local/bin/eblast", "makeblastdb": "/usr/local/bin/makeblastdb", "psiblast": "/usr/local/bin/psiblast", "rpsblast": "/usr/local/bin/rpsblast", "rpstblastn": "/usr/local/bin/rpstblastn", "tblastn": "/usr/local/bin/tblastn", "tblastx": "/usr/local/bin/tblastx", "update_blastdb.pl": "/usr/local/bin/update_blastdb.pl"}}
+config: {"url": "https://biocontainers.pro/tools/blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast", "latest": {"2.14.0--pl5321h6f7f691_2": "sha256:e7398357b102f3cb4462ea28c705745c05b43c2910e7ca61b23c2bdddea93a65"}, "tags": {"2.10.1--pl526he19e7b1_3": "sha256:f12a5a35a0e6645134fcfe8650b0d1b5ff1f486430828a4ec3c4c9bfe35a5d78", "2.11.0--pl5262h3289130_1": "sha256:52e8e0ed12a0fe8854681dadb600e1d5599e04b960b01034cb53812fad944c3d", "2.12.0--pl5262h3289130_0": "sha256:a7eb056f5ca6a32551bf9f87b6b15acc45598cfef39bffdd672f59da3847cd18", "2.12.0--hf3cf87c_4": "sha256:9df91dee10f97405384734f964021feae38fcf68a721315f706be99be9366d86", "2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8", "2.14.0--hf3cf87c_0": "sha256:294286c40fce6e281d09853d9e650520df160ee0398bc7afc78587ab2c1e8ca3", "2.13.0--hf3cf87c_1": "sha256:64f77cdca6492aefc381cf5415a78ee16d6a3fd1eb6b6babd4c2a456bfd721b3", "2.14.0--h7d5a4b4_1": "sha256:8a077ba3916a3078a9cb442ba31138292bb869116347d86ba0dc3b3554f21255", "2.14.0--pl5321h6f7f691_2": "sha256:e7398357b102f3cb4462ea28c705745c05b43c2910e7ca61b23c2bdddea93a65"}, "docker": "quay.io/biocontainers/blast", "aliases": {"blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "cleanup-blastdb-volumes.py": "/usr/local/bin/cleanup-blastdb-volumes.py", "convert2blastmask": "/usr/local/bin/convert2blastmask", "deltablast": "/usr/local/bin/deltablast", "eblast": "/usr/local/bin/eblast", "makeblastdb": "/usr/local/bin/makeblastdb", "psiblast": "/usr/local/bin/psiblast", "rpsblast": "/usr/local/bin/rpsblast", "rpstblastn": "/usr/local/bin/rpstblastn", "tblastn": "/usr/local/bin/tblastn", "tblastx": "/usr/local/bin/tblastx", "update_blastdb.pl": "/usr/local/bin/update_blastdb.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blast.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/blast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blast:2.14.0--h7d5a4b4_1
+$ shpc install quay.io/biocontainers/blast:2.14.0--pl5321h6f7f691_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blast/2.14.0--h7d5a4b4_1
-$ module help quay.io/biocontainers/blast/2.14.0--h7d5a4b4_1
+$ module load quay.io/biocontainers/blast/2.14.0--pl5321h6f7f691_2
+$ module help quay.io/biocontainers/blast/2.14.0--pl5321h6f7f691_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

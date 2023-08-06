@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wlogdate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wlogdate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wlogdate/container.yaml"
-updated_at: "2023-08-05 02:35:36.314065"
+updated_at: "2023-08-06 02:32:19.956297"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wlogdate"
 aliases:

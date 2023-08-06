@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lddt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lddt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lddt/container.yaml"
-updated_at: "2023-08-05 03:26:56.215074"
+updated_at: "2023-08-06 03:23:57.424411"
 latest: "2.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/lddt"
 aliases:

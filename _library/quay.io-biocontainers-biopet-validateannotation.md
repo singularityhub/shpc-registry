@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-validateannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-validateannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-validateannotation/container.yaml"
-updated_at: "2023-08-05 03:16:10.377513"
+updated_at: "2023-08-06 03:13:02.356153"
 latest: "0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-validateannotation"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-delayedrandomarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedrandomarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedrandomarray/container.yaml"
-updated_at: "2023-08-05 03:00:07.487708"
-latest: "1.6.0--r42hf17093f_1"
+updated_at: "2023-08-06 02:56:59.133200"
+latest: "1.8.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedrandomarray"
 
 versions:
  - "1.2.0--r41hc247a5b_2"
  - "1.6.0--r42hc247a5b_0"
  - "1.6.0--r42hf17093f_1"
+ - "1.8.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-delayedrandomarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedrandomarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedrandomarray", "latest": {"1.6.0--r42hf17093f_1": "sha256:140f6c623c569ed8da69abe0d071a5b9c5cfbcf8173b4b2f2fa59eecc1828a87"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:d49b6b6f37e09769d6c7a4e6dd59b7879a18f89e89867c6de0c92707a439bb42", "1.6.0--r42hc247a5b_0": "sha256:fe5f0da16b0844a94edf0e0045cdf17fcf3ee209b10ad4a12c1a690921bb5d1b", "1.6.0--r42hf17093f_1": "sha256:140f6c623c569ed8da69abe0d071a5b9c5cfbcf8173b4b2f2fa59eecc1828a87"}, "docker": "quay.io/biocontainers/bioconductor-delayedrandomarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedrandomarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedrandomarray", "latest": {"1.8.0--r43hf17093f_0": "sha256:9f22064b21eb1c14d1fc16e95a26507737e4aaf20f68cf31022cb604d9b074e9"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:d49b6b6f37e09769d6c7a4e6dd59b7879a18f89e89867c6de0c92707a439bb42", "1.6.0--r42hc247a5b_0": "sha256:fe5f0da16b0844a94edf0e0045cdf17fcf3ee209b10ad4a12c1a690921bb5d1b", "1.6.0--r42hf17093f_1": "sha256:140f6c623c569ed8da69abe0d071a5b9c5cfbcf8173b4b2f2fa59eecc1828a87", "1.8.0--r43hf17093f_0": "sha256:9f22064b21eb1c14d1fc16e95a26507737e4aaf20f68cf31022cb604d9b074e9"}, "docker": "quay.io/biocontainers/bioconductor-delayedrandomarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-delayedrandomarray.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-delayedrandomarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-delayedrandomarray:1.6.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-delayedrandomarray:1.8.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-delayedrandomarray/1.6.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-delayedrandomarray/1.6.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-delayedrandomarray/1.8.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-delayedrandomarray/1.8.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

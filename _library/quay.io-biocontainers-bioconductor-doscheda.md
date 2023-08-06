@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-doscheda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doscheda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doscheda/container.yaml"
-updated_at: "2023-08-05 03:06:04.992083"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-08-06 03:02:57.906159"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doscheda"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-doscheda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-doscheda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-doscheda", "latest": {"1.20.0--r42hdfd78af_0": "sha256:e2f1b989a9fd0e72c2d356c58ae5d7f16b193ad8909bc2036d364f9ffa2298c7"}, "tags": {"1.8.0--r36_0": "sha256:823bfe1f4ad09bbeccbdbbd61392821b31ea6d196832eeca3c8145afd967574b", "1.20.0--r42hdfd78af_0": "sha256:e2f1b989a9fd0e72c2d356c58ae5d7f16b193ad8909bc2036d364f9ffa2298c7", "1.16.0--r41hdfd78af_0": "sha256:ec8d2c8f1d9d09ce1e8c40e83ba105034a4d7f5ac1ee5e183ee518ef4b6dad10", "1.14.0--r41hdfd78af_0": "sha256:772f4e79a8b3cbec7c9720155a1abe8733a37f14e1393e92f11a34f7abcb241f", "1.12.0--r40hdfd78af_1": "sha256:182c4ff88589b723e13117a5f715fa568e364a25cf2b42de58e50bc60cb612ec", "1.10.0--r40_0": "sha256:66e00ba8949e760a24ce8cf794cc175b8a152a54601a1d035e7f72403f83f068"}, "docker": "quay.io/biocontainers/bioconductor-doscheda", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-doscheda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-doscheda", "latest": {"1.22.0--r43hdfd78af_0": "sha256:5340e6dc439cdd6e7c43625b96961e0edca9d29cdbfd277dacc9b55d640245c9"}, "tags": {"1.8.0--r36_0": "sha256:823bfe1f4ad09bbeccbdbbd61392821b31ea6d196832eeca3c8145afd967574b", "1.20.0--r42hdfd78af_0": "sha256:e2f1b989a9fd0e72c2d356c58ae5d7f16b193ad8909bc2036d364f9ffa2298c7", "1.16.0--r41hdfd78af_0": "sha256:ec8d2c8f1d9d09ce1e8c40e83ba105034a4d7f5ac1ee5e183ee518ef4b6dad10", "1.14.0--r41hdfd78af_0": "sha256:772f4e79a8b3cbec7c9720155a1abe8733a37f14e1393e92f11a34f7abcb241f", "1.12.0--r40hdfd78af_1": "sha256:182c4ff88589b723e13117a5f715fa568e364a25cf2b42de58e50bc60cb612ec", "1.10.0--r40_0": "sha256:66e00ba8949e760a24ce8cf794cc175b8a152a54601a1d035e7f72403f83f068", "1.22.0--r43hdfd78af_0": "sha256:5340e6dc439cdd6e7c43625b96961e0edca9d29cdbfd277dacc9b55d640245c9"}, "docker": "quay.io/biocontainers/bioconductor-doscheda", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-doscheda.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-doscheda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-doscheda:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-doscheda:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-doscheda/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-doscheda/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-doscheda/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-doscheda/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
