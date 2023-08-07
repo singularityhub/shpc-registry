@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/metasnek
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metasnek
+latest:
+  0.0.5--pyhdfd78af_0: sha256:2b7dfc8c42247e818ef856954b10e945f07920429a207405f719bfd8c2d6a320
+tags:
+  0.0.5--pyhdfd78af_0: sha256:2b7dfc8c42247e818ef856954b10e945f07920429a207405f719bfd8c2d6a320
+docker: quay.io/biocontainers/metasnek
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

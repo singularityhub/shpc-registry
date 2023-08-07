@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/snaketool-utils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snaketool-utils
+latest:
+  0.0.3--pyhdfd78af_0: sha256:59ac614c2d5e81b99617c2f048deaf508cfe2cd493d1da0049d8eae390c39b53
+tags:
+  0.0.3--pyhdfd78af_0: sha256:59ac614c2d5e81b99617c2f048deaf508cfe2cd493d1da0049d8eae390c39b53
+docker: quay.io/biocontainers/snaketool-utils
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
