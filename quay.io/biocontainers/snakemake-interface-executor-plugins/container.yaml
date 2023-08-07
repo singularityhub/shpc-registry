@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/snakemake-interface-executor-plugins
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-interface-executor-plugins
+latest:
+  1.0.1--pyhdfd78af_0: sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3
+tags:
+  1.0.1--pyhdfd78af_0: sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3
+docker: quay.io/biocontainers/snakemake-interface-executor-plugins
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
