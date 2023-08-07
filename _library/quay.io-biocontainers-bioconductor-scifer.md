@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scifer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scifer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scifer/container.yaml"
-updated_at: "2023-08-07 03:24:04.181798"
+updated_at: "2023-08-07 03:59:48.557262"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scifer"
 aliases:

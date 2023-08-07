@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sra-human-scrubber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sra-human-scrubber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sra-human-scrubber/container.yaml"
-updated_at: "2023-08-07 02:44:24.818274"
+updated_at: "2023-08-07 03:20:59.100972"
 latest: "2.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sra-human-scrubber"
 aliases:

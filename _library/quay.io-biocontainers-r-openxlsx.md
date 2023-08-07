@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-openxlsx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-openxlsx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-openxlsx/container.yaml"
-updated_at: "2023-08-07 03:39:17.453528"
+updated_at: "2023-08-07 04:14:49.281318"
 latest: "4.0.17--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-openxlsx"
 aliases:

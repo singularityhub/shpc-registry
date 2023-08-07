@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mvoutdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mvoutdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mvoutdata/container.yaml"
-updated_at: "2023-08-07 02:46:36.725148"
+updated_at: "2023-08-07 03:23:07.424453"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mvoutdata"
 

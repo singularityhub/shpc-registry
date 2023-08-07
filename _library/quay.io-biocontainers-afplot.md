@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/afplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afplot/container.yaml"
-updated_at: "2023-08-07 03:36:18.814910"
+updated_at: "2023-08-07 04:11:55.928424"
 latest: "0.2.1--py_2"
 container_url: "https://biocontainers.pro/tools/afplot"
 

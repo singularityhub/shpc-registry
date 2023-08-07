@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sercol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sercol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sercol/container.yaml"
-updated_at: "2023-08-07 03:28:18.643919"
+updated_at: "2023-08-07 04:04:00.638447"
 latest: "0.1.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sercol"
 aliases:

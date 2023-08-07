@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mercat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mercat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mercat2/container.yaml"
-updated_at: "2023-08-07 02:47:26.219616"
+updated_at: "2023-08-07 03:23:54.281455"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mercat2"
 aliases:
