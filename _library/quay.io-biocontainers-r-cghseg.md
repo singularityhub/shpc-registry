@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-cghseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cghseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cghseg/container.yaml"
-updated_at: "2023-08-06 03:17:28.990033"
-latest: "1.0.5--r40h3121a25_2"
+updated_at: "2023-08-07 03:28:59.283481"
+latest: "1.0.5--r40h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-cghseg"
 
 versions:
  - "1.0.5--r40h3121a25_2"
+ - "1.0.5--r40h3121a25_3"
 description: "singularity registry hpc automated addition for r-cghseg"
-config: {"url": "https://biocontainers.pro/tools/r-cghseg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cghseg", "latest": {"1.0.5--r40h3121a25_2": "sha256:1993f9015878b21bef065975870a67a93c9c24da944fbc016e06f79de44a939f"}, "tags": {"1.0.5--r40h3121a25_2": "sha256:1993f9015878b21bef065975870a67a93c9c24da944fbc016e06f79de44a939f"}, "docker": "quay.io/biocontainers/r-cghseg"}
+config: {"url": "https://biocontainers.pro/tools/r-cghseg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cghseg", "latest": {"1.0.5--r40h3121a25_3": "sha256:4f0936e25776b60d63d9bc29d25d976fd9d2afc361b6b8fab3804991da12c27e"}, "tags": {"1.0.5--r40h3121a25_2": "sha256:1993f9015878b21bef065975870a67a93c9c24da944fbc016e06f79de44a939f", "1.0.5--r40h3121a25_3": "sha256:4f0936e25776b60d63d9bc29d25d976fd9d2afc361b6b8fab3804991da12c27e"}, "docker": "quay.io/biocontainers/r-cghseg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cghseg.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-cghseg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cghseg:1.0.5--r40h3121a25_2
+$ shpc install quay.io/biocontainers/r-cghseg:1.0.5--r40h3121a25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cghseg/1.0.5--r40h3121a25_2
-$ module help quay.io/biocontainers/r-cghseg/1.0.5--r40h3121a25_2
+$ module load quay.io/biocontainers/r-cghseg/1.0.5--r40h3121a25_3
+$ module help quay.io/biocontainers/r-cghseg/1.0.5--r40h3121a25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

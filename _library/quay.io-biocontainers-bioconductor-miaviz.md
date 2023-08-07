@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-miaviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-miaviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-miaviz/container.yaml"
-updated_at: "2023-08-06 02:43:25.114315"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-08-07 02:52:29.022076"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-miaviz"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-miaviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-miaviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-miaviz", "latest": {"1.6.0--r42hdfd78af_0": "sha256:ecedb938127d4c3374614b017b402a0883a920f75366aee8c0a72766b92bea74"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d585182562f1575b19e88ba5cddc3d8c598af4d814f580b61acba0bb8abad309", "1.6.0--r42hdfd78af_0": "sha256:ecedb938127d4c3374614b017b402a0883a920f75366aee8c0a72766b92bea74"}, "docker": "quay.io/biocontainers/bioconductor-miaviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-miaviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-miaviz", "latest": {"1.8.0--r43hdfd78af_0": "sha256:dab16a03cbb0825894bc2d8e4ce181bb102b394c11ad821fc77c20ed47a93ddd"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d585182562f1575b19e88ba5cddc3d8c598af4d814f580b61acba0bb8abad309", "1.6.0--r42hdfd78af_0": "sha256:ecedb938127d4c3374614b017b402a0883a920f75366aee8c0a72766b92bea74", "1.8.0--r43hdfd78af_0": "sha256:dab16a03cbb0825894bc2d8e4ce181bb102b394c11ad821fc77c20ed47a93ddd"}, "docker": "quay.io/biocontainers/bioconductor-miaviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-miaviz.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-miaviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-miaviz:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-miaviz:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-miaviz/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-miaviz/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-miaviz/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-miaviz/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

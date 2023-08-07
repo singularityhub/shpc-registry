@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-illuminadatatestfiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminadatatestfiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminadatatestfiles/container.yaml"
-updated_at: "2023-08-06 03:17:56.973066"
+updated_at: "2023-08-07 03:29:28.907447"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminadatatestfiles"
 

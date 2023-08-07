@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-structtoolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-structtoolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-structtoolbox/container.yaml"
-updated_at: "2023-08-06 02:46:05.139717"
-latest: "1.10.1--r42hdfd78af_0"
+updated_at: "2023-08-07 02:55:17.469250"
+latest: "1.12.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-structtoolbox"
 aliases:
  - "pg_amcheck"
@@ -23,8 +23,9 @@ versions:
  - "1.10.0--r42hdfd78af_0"
  - "1.10.0--r42hdfd78af_1"
  - "1.10.1--r42hdfd78af_0"
+ - "1.12.2--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-structtoolbox"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-structtoolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structtoolbox", "latest": {"1.10.1--r42hdfd78af_0": "sha256:922937cecaff5868c4587687ef101fa9f48e61b33e2569ebfd02e10d0b6a689a"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:8e1e944f27f12ddf28343653ee28bef60855245ee00bf241c6be207d2a218440", "1.10.0--r42hdfd78af_0": "sha256:d80fdf8d71710c570dc4ae25b9a7a90b039ab91a07b5400c66ed9c82d5e1d251", "1.10.0--r42hdfd78af_1": "sha256:0203404f57e210094a2ecaedd2cf8e07b921622c4e038bff1234461bc8601ae2", "1.10.1--r42hdfd78af_0": "sha256:922937cecaff5868c4587687ef101fa9f48e61b33e2569ebfd02e10d0b6a689a"}, "docker": "quay.io/biocontainers/bioconductor-structtoolbox", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-structtoolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structtoolbox", "latest": {"1.12.2--r43hdfd78af_0": "sha256:9983ee8d299d0a583b3f35184e3201685e8c19f097bda89c3ebe6a5baf63c3a7"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:8e1e944f27f12ddf28343653ee28bef60855245ee00bf241c6be207d2a218440", "1.10.0--r42hdfd78af_0": "sha256:d80fdf8d71710c570dc4ae25b9a7a90b039ab91a07b5400c66ed9c82d5e1d251", "1.10.0--r42hdfd78af_1": "sha256:0203404f57e210094a2ecaedd2cf8e07b921622c4e038bff1234461bc8601ae2", "1.10.1--r42hdfd78af_0": "sha256:922937cecaff5868c4587687ef101fa9f48e61b33e2569ebfd02e10d0b6a689a", "1.12.2--r43hdfd78af_0": "sha256:9983ee8d299d0a583b3f35184e3201685e8c19f097bda89c3ebe6a5baf63c3a7"}, "docker": "quay.io/biocontainers/bioconductor-structtoolbox", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-structtoolbox.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-structtoolbox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-structtoolbox:1.10.1--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-structtoolbox:1.12.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-structtoolbox/1.10.1--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-structtoolbox/1.10.1--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-structtoolbox/1.12.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-structtoolbox/1.12.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

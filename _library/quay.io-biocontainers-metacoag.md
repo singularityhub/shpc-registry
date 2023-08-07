@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metacoag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacoag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacoag/container.yaml"
-updated_at: "2023-08-06 02:37:56.400232"
-latest: "1.1.3--pyh7cba7a3_0"
+updated_at: "2023-08-07 02:46:38.045049"
+latest: "1.1.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/metacoag"
 aliases:
  - "FragGeneScan"
@@ -41,8 +41,9 @@ versions:
  - "1.1.1--pyh7cba7a3_0"
  - "1.1.2--pyh7cba7a3_0"
  - "1.1.3--pyh7cba7a3_0"
+ - "1.1.4--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for metacoag"
-config: {"url": "https://biocontainers.pro/tools/metacoag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacoag", "latest": {"1.1.3--pyh7cba7a3_0": "sha256:a4746e83f6844289190a8a885b813fb098d266129eab4a81b85464b3c3b45267"}, "tags": {"1.1--pyhfa5458b_0": "sha256:6cf11755dd3917f775efe137e42cc37a97da2482a6744c01a7f498ea245a0f13", "1.1.1--pyh7cba7a3_0": "sha256:d5af19a807df541a7594b8c1691193277e45f203ce964cbceedc6578833f4e4e", "1.1.2--pyh7cba7a3_0": "sha256:315b2141c17cb3cb66a9484fd78ddd1f31ef86ba8fe9436c2581f358b8de14b8", "1.1.3--pyh7cba7a3_0": "sha256:a4746e83f6844289190a8a885b813fb098d266129eab4a81b85464b3c3b45267"}, "docker": "quay.io/biocontainers/metacoag", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "metacoag": "/usr/local/bin/metacoag", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat"}}
+config: {"url": "https://biocontainers.pro/tools/metacoag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacoag", "latest": {"1.1.4--pyh7cba7a3_0": "sha256:5881edb8c67d6ab3dd7e0359205bf6b4bc72edde4c968fa125c114120e5f7341"}, "tags": {"1.1--pyhfa5458b_0": "sha256:6cf11755dd3917f775efe137e42cc37a97da2482a6744c01a7f498ea245a0f13", "1.1.1--pyh7cba7a3_0": "sha256:d5af19a807df541a7594b8c1691193277e45f203ce964cbceedc6578833f4e4e", "1.1.2--pyh7cba7a3_0": "sha256:315b2141c17cb3cb66a9484fd78ddd1f31ef86ba8fe9436c2581f358b8de14b8", "1.1.3--pyh7cba7a3_0": "sha256:a4746e83f6844289190a8a885b813fb098d266129eab4a81b85464b3c3b45267", "1.1.4--pyh7cba7a3_0": "sha256:5881edb8c67d6ab3dd7e0359205bf6b4bc72edde4c968fa125c114120e5f7341"}, "docker": "quay.io/biocontainers/metacoag", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "metacoag": "/usr/local/bin/metacoag", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metacoag.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/metacoag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metacoag:1.1.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/metacoag:1.1.4--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metacoag/1.1.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/metacoag/1.1.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/metacoag/1.1.4--pyh7cba7a3_0
+$ module help quay.io/biocontainers/metacoag/1.1.4--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

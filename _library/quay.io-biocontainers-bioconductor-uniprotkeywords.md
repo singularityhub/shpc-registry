@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-uniprotkeywords"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uniprotkeywords/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uniprotkeywords/container.yaml"
-updated_at: "2023-08-06 03:08:22.917210"
-latest: "0.99.4--r42hdfd78af_0"
+updated_at: "2023-08-07 03:19:09.763092"
+latest: "0.99.4--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-uniprotkeywords"
 aliases:
  - "installBiocDataPackage.sh"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.99.4--r42hdfd78af_0"
+ - "0.99.4--r43hdfd78af_1"
 description: "singularity registry hpc automated addition for bioconductor-uniprotkeywords"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-uniprotkeywords", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-uniprotkeywords", "latest": {"0.99.4--r42hdfd78af_0": "sha256:282dea60fc92849bcb59f5d7b00bc029c47b82734b608addcde2caef8e56b4cf"}, "tags": {"0.99.4--r42hdfd78af_0": "sha256:282dea60fc92849bcb59f5d7b00bc029c47b82734b608addcde2caef8e56b4cf"}, "docker": "quay.io/biocontainers/bioconductor-uniprotkeywords", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-uniprotkeywords", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-uniprotkeywords", "latest": {"0.99.4--r43hdfd78af_1": "sha256:a13a85f6574926c7a5ab67ee8331baeb7c4a53dc4c99270d8c78e884e0e658c7"}, "tags": {"0.99.4--r42hdfd78af_0": "sha256:282dea60fc92849bcb59f5d7b00bc029c47b82734b608addcde2caef8e56b4cf", "0.99.4--r43hdfd78af_1": "sha256:a13a85f6574926c7a5ab67ee8331baeb7c4a53dc4c99270d8c78e884e0e658c7"}, "docker": "quay.io/biocontainers/bioconductor-uniprotkeywords", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-uniprotkeywords.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-uniprotkeywords
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-uniprotkeywords:0.99.4--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-uniprotkeywords:0.99.4--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-uniprotkeywords/0.99.4--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-uniprotkeywords/0.99.4--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-uniprotkeywords/0.99.4--r43hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-uniprotkeywords/0.99.4--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

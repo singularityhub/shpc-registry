@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-phyext2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phyext2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phyext2/container.yaml"
-updated_at: "2023-08-06 03:08:14.996347"
-latest: "0.0.4--r42h3121a25_8"
+updated_at: "2023-08-07 03:19:01.470782"
+latest: "0.0.4--r43h3121a25_9"
 container_url: "https://biocontainers.pro/tools/r-phyext2"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.0.4--r41h3121a25_7"
  - "0.0.4--r42h3121a25_8"
+ - "0.0.4--r43h3121a25_9"
 description: "shpc-registry automated BioContainers addition for r-phyext2"
-config: {"url": "https://biocontainers.pro/tools/r-phyext2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phyext2", "latest": {"0.0.4--r42h3121a25_8": "sha256:9f08ca5c254e5f4376424d58a1d2778f1364573bca38c087c2bace8f9526ac2f"}, "tags": {"0.0.4--r41h3121a25_7": "sha256:e3a4cdb3b721e45cf16869f21b3013e623b3443b01c29f331353da7f873b964f", "0.0.4--r42h3121a25_8": "sha256:9f08ca5c254e5f4376424d58a1d2778f1364573bca38c087c2bace8f9526ac2f"}, "docker": "quay.io/biocontainers/r-phyext2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-phyext2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phyext2", "latest": {"0.0.4--r43h3121a25_9": "sha256:be4a5b194cf5453f4899726934e669f25879fe445f0dbfcf9911c3c3c2e277df"}, "tags": {"0.0.4--r41h3121a25_7": "sha256:e3a4cdb3b721e45cf16869f21b3013e623b3443b01c29f331353da7f873b964f", "0.0.4--r42h3121a25_8": "sha256:9f08ca5c254e5f4376424d58a1d2778f1364573bca38c087c2bace8f9526ac2f", "0.0.4--r43h3121a25_9": "sha256:be4a5b194cf5453f4899726934e669f25879fe445f0dbfcf9911c3c3c2e277df"}, "docker": "quay.io/biocontainers/r-phyext2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phyext2.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-phyext2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-phyext2:0.0.4--r42h3121a25_8
+$ shpc install quay.io/biocontainers/r-phyext2:0.0.4--r43h3121a25_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-phyext2/0.0.4--r42h3121a25_8
-$ module help quay.io/biocontainers/r-phyext2/0.0.4--r42h3121a25_8
+$ module load quay.io/biocontainers/r-phyext2/0.0.4--r43h3121a25_9
+$ module help quay.io/biocontainers/r-phyext2/0.0.4--r43h3121a25_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

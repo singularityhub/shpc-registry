@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lusstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lusstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lusstr/container.yaml"
-updated_at: "2023-08-06 03:14:21.404904"
-latest: "0.5--pyhdfd78af_0"
+updated_at: "2023-08-07 03:25:35.739672"
+latest: "0.6.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lusstr"
 aliases:
  - "lusstr"
@@ -18,8 +18,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.5--pyhdfd78af_0"
+ - "0.6.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for lusstr"
-config: {"url": "https://biocontainers.pro/tools/lusstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lusstr", "latest": {"0.5--pyhdfd78af_0": "sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712"}, "tags": {"0.5--pyhdfd78af_0": "sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712"}, "docker": "quay.io/biocontainers/lusstr", "aliases": {"lusstr": "/usr/local/bin/lusstr", "runxlrd.py": "/usr/local/bin/runxlrd.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/lusstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lusstr", "latest": {"0.6.4--pyhdfd78af_0": "sha256:7659cf2674e876f955dbd7eeb04b70d01d9b0f0748d19331b7c3611b8d4e70e3"}, "tags": {"0.5--pyhdfd78af_0": "sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712", "0.6.4--pyhdfd78af_0": "sha256:7659cf2674e876f955dbd7eeb04b70d01d9b0f0748d19331b7c3611b8d4e70e3"}, "docker": "quay.io/biocontainers/lusstr", "aliases": {"lusstr": "/usr/local/bin/lusstr", "runxlrd.py": "/usr/local/bin/runxlrd.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lusstr.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/lusstr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lusstr:0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/lusstr:0.6.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lusstr/0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/lusstr/0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/lusstr/0.6.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/lusstr/0.6.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

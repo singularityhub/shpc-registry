@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-neuca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-neuca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-neuca/container.yaml"
-updated_at: "2023-08-06 02:49:05.295840"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-08-07 02:58:30.680149"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-neuca"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-neuca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-neuca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-neuca", "latest": {"1.4.0--r42hdfd78af_0": "sha256:cd7c0bb9138585a18fce06b3d47a51dfa26ca73f660a3599cf3d59f0a27ddea9"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:fd53727db491e6b4f3384d913becc5e33209a69bd28c20fbbd8eee3ae4ed4881", "1.4.0--r42hdfd78af_0": "sha256:cd7c0bb9138585a18fce06b3d47a51dfa26ca73f660a3599cf3d59f0a27ddea9"}, "docker": "quay.io/biocontainers/bioconductor-neuca"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-neuca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-neuca", "latest": {"1.6.0--r43hdfd78af_0": "sha256:8dd7347ff7ec9ac90271814463b417a3218393e33a163eeaf52fe9446d41e19e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:fd53727db491e6b4f3384d913becc5e33209a69bd28c20fbbd8eee3ae4ed4881", "1.4.0--r42hdfd78af_0": "sha256:cd7c0bb9138585a18fce06b3d47a51dfa26ca73f660a3599cf3d59f0a27ddea9", "1.6.0--r43hdfd78af_0": "sha256:8dd7347ff7ec9ac90271814463b417a3218393e33a163eeaf52fe9446d41e19e"}, "docker": "quay.io/biocontainers/bioconductor-neuca"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-neuca.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-neuca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-neuca:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-neuca:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-neuca/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-neuca/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-neuca/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-neuca/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

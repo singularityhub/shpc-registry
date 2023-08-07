@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-wes.1kg.wugsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wes.1kg.wugsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wes.1kg.wugsc/container.yaml"
-updated_at: "2023-08-06 03:05:07.221854"
-latest: "1.29.0--r42hdfd78af_0"
+updated_at: "2023-08-07 03:15:42.203712"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wes.1kg.wugsc"
 
 versions:
  - "1.26.0--r41hdfd78af_1"
  - "1.29.0--r42hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wes.1kg.wugsc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wes.1kg.wugsc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wes.1kg.wugsc", "latest": {"1.29.0--r42hdfd78af_0": "sha256:c4d6811b7ea65754b1bcc8a362bdab326efcb415a32f3cb867e2dededf734d1f"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:ae22077dd3067c8096cc7c6d9ad0a9cdfd197f34c3ce98cc1664e3fcc17d957a", "1.29.0--r42hdfd78af_0": "sha256:c4d6811b7ea65754b1bcc8a362bdab326efcb415a32f3cb867e2dededf734d1f"}, "docker": "quay.io/biocontainers/bioconductor-wes.1kg.wugsc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wes.1kg.wugsc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wes.1kg.wugsc", "latest": {"1.32.0--r43hdfd78af_0": "sha256:abe95034ede9d65c9c03c8517eda9c64ed08e06242382ebb898358cd38dac0ff"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:ae22077dd3067c8096cc7c6d9ad0a9cdfd197f34c3ce98cc1664e3fcc17d957a", "1.29.0--r42hdfd78af_0": "sha256:c4d6811b7ea65754b1bcc8a362bdab326efcb415a32f3cb867e2dededf734d1f", "1.32.0--r43hdfd78af_0": "sha256:abe95034ede9d65c9c03c8517eda9c64ed08e06242382ebb898358cd38dac0ff"}, "docker": "quay.io/biocontainers/bioconductor-wes.1kg.wugsc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wes.1kg.wugsc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-wes.1kg.wugsc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-wes.1kg.wugsc:1.29.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-wes.1kg.wugsc:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-wes.1kg.wugsc/1.29.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-wes.1kg.wugsc/1.29.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-wes.1kg.wugsc/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-wes.1kg.wugsc/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scbubbletree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scbubbletree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scbubbletree/container.yaml"
-updated_at: "2023-08-06 02:58:23.279201"
-latest: "1.0.0--r42hdfd78af_0"
+updated_at: "2023-08-07 03:08:31.737122"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scbubbletree"
 aliases:
  - "geosop"
@@ -13,8 +13,9 @@ aliases:
  - "glpsol"
 versions:
  - "1.0.0--r42hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-scbubbletree"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scbubbletree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scbubbletree", "latest": {"1.0.0--r42hdfd78af_0": "sha256:e838cb0a8c5ce2f339285f965ffa711d42b72e231d43afd425d6f7610e18816f"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:e838cb0a8c5ce2f339285f965ffa711d42b72e231d43afd425d6f7610e18816f"}, "docker": "quay.io/biocontainers/bioconductor-scbubbletree", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scbubbletree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scbubbletree", "latest": {"1.2.0--r43hdfd78af_0": "sha256:f5d2b50f087b7c841bb050e1ade9f9711d44d7c97bd7c94ae90cb90c10905bcd"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:e838cb0a8c5ce2f339285f965ffa711d42b72e231d43afd425d6f7610e18816f", "1.2.0--r43hdfd78af_0": "sha256:f5d2b50f087b7c841bb050e1ade9f9711d44d7c97bd7c94ae90cb90c10905bcd"}, "docker": "quay.io/biocontainers/bioconductor-scbubbletree", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scbubbletree.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scbubbletree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scbubbletree:1.0.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scbubbletree:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scbubbletree/1.0.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scbubbletree/1.0.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scbubbletree/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scbubbletree/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

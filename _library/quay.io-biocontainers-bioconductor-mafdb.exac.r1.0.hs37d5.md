@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5/container.yaml"
-updated_at: "2023-08-06 03:08:16.612030"
-latest: "3.10.0--r42hdfd78af_7"
+updated_at: "2023-08-07 03:19:03.103459"
+latest: "3.10.0--r43hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.exac.r1.0.hs37d5"
 aliases:
  - "gio-launch-desktop"
@@ -15,8 +15,9 @@ versions:
  - "3.7.0--r36_2"
  - "3.10.0--r41hdfd78af_6"
  - "3.10.0--r42hdfd78af_7"
+ - "3.10.0--r43hdfd78af_8"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.exac.r1.0.hs37d5"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.exac.r1.0.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.exac.r1.0.hs37d5", "latest": {"3.10.0--r42hdfd78af_7": "sha256:79d5c0e0f8cef990c444581ad8642f502b964c21de2b0349a7eb3f6d5119d109"}, "tags": {"3.7.0--r36_2": "sha256:2dd1990af8d106c34145ce2543b2d563b679f9be403053f475daca1d80627ad9", "3.10.0--r41hdfd78af_6": "sha256:d9569f6b06699df82aa722239dad1e26589200f2210f6c3bc89910ff428ad1c3", "3.10.0--r42hdfd78af_7": "sha256:79d5c0e0f8cef990c444581ad8642f502b964c21de2b0349a7eb3f6d5119d109"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.exac.r1.0.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.exac.r1.0.hs37d5", "latest": {"3.10.0--r43hdfd78af_8": "sha256:4fb7419b790875a2b0cf0caf63f4b1ebc0e78d10725a328fead73ad4d022c2d8"}, "tags": {"3.7.0--r36_2": "sha256:2dd1990af8d106c34145ce2543b2d563b679f9be403053f475daca1d80627ad9", "3.10.0--r41hdfd78af_6": "sha256:d9569f6b06699df82aa722239dad1e26589200f2210f6c3bc89910ff428ad1c3", "3.10.0--r42hdfd78af_7": "sha256:79d5c0e0f8cef990c444581ad8642f502b964c21de2b0349a7eb3f6d5119d109", "3.10.0--r43hdfd78af_8": "sha256:4fb7419b790875a2b0cf0caf63f4b1ebc0e78d10725a328fead73ad4d022c2d8"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5:3.10.0--r42hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5:3.10.0--r43hdfd78af_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5/3.10.0--r42hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5/3.10.0--r42hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5/3.10.0--r43hdfd78af_8
+$ module help quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5/3.10.0--r43hdfd78af_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

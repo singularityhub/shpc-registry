@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-qorts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qorts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qorts/container.yaml"
-updated_at: "2023-08-06 03:05:58.769735"
-latest: "1.3.6--r40_0"
+updated_at: "2023-08-07 03:16:35.684906"
+latest: "1.3.6--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-qorts"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,9 @@ aliases:
  - "c99"
 versions:
  - "1.3.6--r40_0"
+ - "1.3.6--r43hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-qorts"
-config: {"url": "https://biocontainers.pro/tools/r-qorts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qorts", "latest": {"1.3.6--r40_0": "sha256:d4456e0f550587f1523ccc7ac94f563b17acabdad60e989f68836761ffe914c6"}, "tags": {"1.3.6--r40_0": "sha256:d4456e0f550587f1523ccc7ac94f563b17acabdad60e989f68836761ffe914c6"}, "docker": "quay.io/biocontainers/r-qorts", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-qorts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qorts", "latest": {"1.3.6--r43hdfd78af_5": "sha256:271206cdd295b55a5d9cfc780e7ffb5941f28ed04ebf7405b776086889a0b42e"}, "tags": {"1.3.6--r40_0": "sha256:d4456e0f550587f1523ccc7ac94f563b17acabdad60e989f68836761ffe914c6", "1.3.6--r43hdfd78af_5": "sha256:271206cdd295b55a5d9cfc780e7ffb5941f28ed04ebf7405b776086889a0b42e"}, "docker": "quay.io/biocontainers/r-qorts", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qorts.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-qorts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-qorts:1.3.6--r40_0
+$ shpc install quay.io/biocontainers/r-qorts:1.3.6--r43hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-qorts/1.3.6--r40_0
-$ module help quay.io/biocontainers/r-qorts/1.3.6--r40_0
+$ module load quay.io/biocontainers/r-qorts/1.3.6--r43hdfd78af_5
+$ module help quay.io/biocontainers/r-qorts/1.3.6--r43hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genphen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genphen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genphen/container.yaml"
-updated_at: "2023-08-06 02:32:41.852331"
+updated_at: "2023-08-07 02:40:59.823903"
 latest: "1.22.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-genphen"
 

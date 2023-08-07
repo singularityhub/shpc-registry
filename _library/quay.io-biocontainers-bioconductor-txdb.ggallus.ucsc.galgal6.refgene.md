@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene/container.yaml"
-updated_at: "2023-08-06 02:41:28.891515"
-latest: "3.10.0--r42hdfd78af_7"
+updated_at: "2023-08-07 02:50:24.953733"
+latest: "3.10.0--r43hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal6.refgene"
 
 versions:
  - "3.10.0--r41hdfd78af_6"
  - "3.10.0--r42hdfd78af_7"
+ - "3.10.0--r43hdfd78af_8"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal6.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal6.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal6.refgene", "latest": {"3.10.0--r42hdfd78af_7": "sha256:d0b0f94140c638abd5680fc048bf3b75e60ba9f27e0814531e26f1d4467e2f96"}, "tags": {"3.10.0--r41hdfd78af_6": "sha256:757cc33d4282dd5b584d333a3a0176a41aafd02b0706b4b972e38214a88f1d98", "3.10.0--r42hdfd78af_7": "sha256:d0b0f94140c638abd5680fc048bf3b75e60ba9f27e0814531e26f1d4467e2f96"}, "docker": "quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal6.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal6.refgene", "latest": {"3.10.0--r43hdfd78af_8": "sha256:3cd94149f3514ff92e7265040b07a5deb7ba41b690370a5a1495abe1a0307f50"}, "tags": {"3.10.0--r41hdfd78af_6": "sha256:757cc33d4282dd5b584d333a3a0176a41aafd02b0706b4b972e38214a88f1d98", "3.10.0--r42hdfd78af_7": "sha256:d0b0f94140c638abd5680fc048bf3b75e60ba9f27e0814531e26f1d4467e2f96", "3.10.0--r43hdfd78af_8": "sha256:3cd94149f3514ff92e7265040b07a5deb7ba41b690370a5a1495abe1a0307f50"}, "docker": "quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene:3.10.0--r42hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene:3.10.0--r43hdfd78af_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene/3.10.0--r42hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene/3.10.0--r42hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene/3.10.0--r43hdfd78af_8
+$ module help quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal6.refgene/3.10.0--r43hdfd78af_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

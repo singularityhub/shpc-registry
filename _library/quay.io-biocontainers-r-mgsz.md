@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-mgsz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mgsz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mgsz/container.yaml"
-updated_at: "2023-08-06 03:02:27.910224"
-latest: "1.0--r42h3342da4_4"
+updated_at: "2023-08-07 03:12:54.367940"
+latest: "1.0--r43h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-mgsz"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.0--r41h3342da4_3"
  - "1.0--r42h3342da4_4"
+ - "1.0--r43h3342da4_5"
 description: "shpc-registry automated BioContainers addition for r-mgsz"
-config: {"url": "https://biocontainers.pro/tools/r-mgsz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mgsz", "latest": {"1.0--r42h3342da4_4": "sha256:8921cff8cc8427dc4d37ea14424e435b1dfc025ee572abbee2a3bea0219bbe20"}, "tags": {"1.0--r41h3342da4_3": "sha256:df522f7f0118450a295375678fb14748b3a53ab27de6a791b02065d08b79fff0", "1.0--r42h3342da4_4": "sha256:8921cff8cc8427dc4d37ea14424e435b1dfc025ee572abbee2a3bea0219bbe20"}, "docker": "quay.io/biocontainers/r-mgsz", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-mgsz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mgsz", "latest": {"1.0--r43h3342da4_5": "sha256:3db3c861009671d59a66c20ee265ae7328f6c6707947ebe303170cc833be62df"}, "tags": {"1.0--r41h3342da4_3": "sha256:df522f7f0118450a295375678fb14748b3a53ab27de6a791b02065d08b79fff0", "1.0--r42h3342da4_4": "sha256:8921cff8cc8427dc4d37ea14424e435b1dfc025ee572abbee2a3bea0219bbe20", "1.0--r43h3342da4_5": "sha256:3db3c861009671d59a66c20ee265ae7328f6c6707947ebe303170cc833be62df"}, "docker": "quay.io/biocontainers/r-mgsz", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mgsz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-mgsz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mgsz:1.0--r42h3342da4_4
+$ shpc install quay.io/biocontainers/r-mgsz:1.0--r43h3342da4_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mgsz/1.0--r42h3342da4_4
-$ module help quay.io/biocontainers/r-mgsz/1.0--r42h3342da4_4
+$ module load quay.io/biocontainers/r-mgsz/1.0--r43h3342da4_5
+$ module help quay.io/biocontainers/r-mgsz/1.0--r43h3342da4_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

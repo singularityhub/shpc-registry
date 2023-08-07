@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipenrich.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipenrich.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipenrich.data/container.yaml"
-updated_at: "2023-08-06 02:26:34.005166"
-latest: "2.22.0--r42hdfd78af_0"
+updated_at: "2023-08-07 02:34:28.370388"
+latest: "2.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipenrich.data"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "2.12.0--r40_0"
  - "2.10.0--r36_0"
  - "2.22.0--r42hdfd78af_0"
+ - "2.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipenrich.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipenrich.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipenrich.data", "latest": {"2.22.0--r42hdfd78af_0": "sha256:ff8c6ac20afaf9dcb8115c8b5a667bc42b8d79de809da24fac8c1addb658eb3f"}, "tags": {"2.8.0--r36_1": "sha256:6178e60ed4d52731cf252cd73220232f85b4ee2451d28b48ef4c800a3a6c5d1b", "2.18.0--r41hdfd78af_1": "sha256:63a702815d8591eea49ae38b5e1c999ba8376a3b5eecae6c5c3c8835e87fe5a8", "2.16.0--r41hdfd78af_0": "sha256:4e062cd7e72c3b84ce3afc9bd18f693888befb3d2d418108834b9bd386f06c4e", "2.14.0--r40hdfd78af_1": "sha256:c3c91b02bd9b64ef729f2c3c953a82cf74333def2764dc432f625a7db2222ec8", "2.12.0--r40_0": "sha256:458bd33f577c1f078494c76b9fcc5a9791d412cbf653cef0a0e11fc844632cc1", "2.10.0--r36_0": "sha256:b2241cb479d7da843c1ce8388450a4bf1b06cb3280bfaf6dd109fb58b0ea43b0", "2.22.0--r42hdfd78af_0": "sha256:ff8c6ac20afaf9dcb8115c8b5a667bc42b8d79de809da24fac8c1addb658eb3f"}, "docker": "quay.io/biocontainers/bioconductor-chipenrich.data", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipenrich.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipenrich.data", "latest": {"2.24.0--r43hdfd78af_0": "sha256:957475a390786e08c64c1ef518c60a6a560f23f4b37ba8a2f9b3f7a50b36c55e"}, "tags": {"2.8.0--r36_1": "sha256:6178e60ed4d52731cf252cd73220232f85b4ee2451d28b48ef4c800a3a6c5d1b", "2.18.0--r41hdfd78af_1": "sha256:63a702815d8591eea49ae38b5e1c999ba8376a3b5eecae6c5c3c8835e87fe5a8", "2.16.0--r41hdfd78af_0": "sha256:4e062cd7e72c3b84ce3afc9bd18f693888befb3d2d418108834b9bd386f06c4e", "2.14.0--r40hdfd78af_1": "sha256:c3c91b02bd9b64ef729f2c3c953a82cf74333def2764dc432f625a7db2222ec8", "2.12.0--r40_0": "sha256:458bd33f577c1f078494c76b9fcc5a9791d412cbf653cef0a0e11fc844632cc1", "2.10.0--r36_0": "sha256:b2241cb479d7da843c1ce8388450a4bf1b06cb3280bfaf6dd109fb58b0ea43b0", "2.22.0--r42hdfd78af_0": "sha256:ff8c6ac20afaf9dcb8115c8b5a667bc42b8d79de809da24fac8c1addb658eb3f", "2.24.0--r43hdfd78af_0": "sha256:957475a390786e08c64c1ef518c60a6a560f23f4b37ba8a2f9b3f7a50b36c55e"}, "docker": "quay.io/biocontainers/bioconductor-chipenrich.data", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipenrich.data.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipenrich.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipenrich.data:2.22.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chipenrich.data:2.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipenrich.data/2.22.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chipenrich.data/2.22.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chipenrich.data/2.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chipenrich.data/2.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

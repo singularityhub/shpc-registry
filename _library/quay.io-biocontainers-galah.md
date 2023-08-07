@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galah/container.yaml"
-updated_at: "2023-08-06 02:49:23.598459"
-latest: "0.3.1--h031d066_2"
+updated_at: "2023-08-07 02:58:51.710537"
+latest: "0.3.1--h031d066_3"
 container_url: "https://biocontainers.pro/tools/galah"
 aliases:
  - "dashing"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "0.3.1--hec16e2b_1"
  - "0.3.1--h031d066_2"
+ - "0.3.1--h031d066_3"
 description: "shpc-registry automated BioContainers addition for galah"
-config: {"url": "https://biocontainers.pro/tools/galah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galah", "latest": {"0.3.1--h031d066_2": "sha256:67d2ef920d8b8fac955690297d9db8666047544f89e9c48fa681c3ff2b1fb2d9"}, "tags": {"0.3.1--hec16e2b_1": "sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41", "0.3.1--h031d066_2": "sha256:67d2ef920d8b8fac955690297d9db8666047544f89e9c48fa681c3ff2b1fb2d9"}, "docker": "quay.io/biocontainers/galah", "aliases": {"dashing": "/usr/local/bin/dashing", "galah": "/usr/local/bin/galah", "fastANI": "/usr/local/bin/fastANI", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/galah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galah", "latest": {"0.3.1--h031d066_3": "sha256:f1ca2d354ce4b2d0c4abeb0ad8dcb79dfa7b292bc59f687971b2d801675f3b93"}, "tags": {"0.3.1--hec16e2b_1": "sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41", "0.3.1--h031d066_2": "sha256:67d2ef920d8b8fac955690297d9db8666047544f89e9c48fa681c3ff2b1fb2d9", "0.3.1--h031d066_3": "sha256:f1ca2d354ce4b2d0c4abeb0ad8dcb79dfa7b292bc59f687971b2d801675f3b93"}, "docker": "quay.io/biocontainers/galah", "aliases": {"dashing": "/usr/local/bin/dashing", "galah": "/usr/local/bin/galah", "fastANI": "/usr/local/bin/fastANI", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galah.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/galah
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galah:0.3.1--h031d066_2
+$ shpc install quay.io/biocontainers/galah:0.3.1--h031d066_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galah/0.3.1--h031d066_2
-$ module help quay.io/biocontainers/galah/0.3.1--h031d066_2
+$ module load quay.io/biocontainers/galah/0.3.1--h031d066_3
+$ module help quay.io/biocontainers/galah/0.3.1--h031d066_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

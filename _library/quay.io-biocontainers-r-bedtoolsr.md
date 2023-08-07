@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-bedtoolsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bedtoolsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bedtoolsr/container.yaml"
-updated_at: "2023-08-06 02:42:04.783151"
-latest: "2.30.0.2--r42hdfd78af_1"
+updated_at: "2023-08-07 02:51:04.549422"
+latest: "2.30.0.2--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-bedtoolsr"
 aliases:
  - "shiftBed"
@@ -35,8 +35,9 @@ aliases:
  - "multiBamCov"
 versions:
  - "2.30.0.2--r42hdfd78af_1"
+ - "2.30.0.2--r43hdfd78af_2"
 description: "singularity registry hpc automated addition for r-bedtoolsr"
-config: {"url": "https://biocontainers.pro/tools/r-bedtoolsr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-bedtoolsr", "latest": {"2.30.0.2--r42hdfd78af_1": "sha256:6ab89d735d35fab50f4f249b7f1200d690bcb6834f94dcfd450ac5a8ecef48d4"}, "tags": {"2.30.0.2--r42hdfd78af_1": "sha256:6ab89d735d35fab50f4f249b7f1200d690bcb6834f94dcfd450ac5a8ecef48d4"}, "docker": "quay.io/biocontainers/r-bedtoolsr", "aliases": {"shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
+config: {"url": "https://biocontainers.pro/tools/r-bedtoolsr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-bedtoolsr", "latest": {"2.30.0.2--r43hdfd78af_2": "sha256:8f2e03acc93244d929179ef0751d61630a204996a63b94676921b2511a187aaa"}, "tags": {"2.30.0.2--r42hdfd78af_1": "sha256:6ab89d735d35fab50f4f249b7f1200d690bcb6834f94dcfd450ac5a8ecef48d4", "2.30.0.2--r43hdfd78af_2": "sha256:8f2e03acc93244d929179ef0751d61630a204996a63b94676921b2511a187aaa"}, "docker": "quay.io/biocontainers/r-bedtoolsr", "aliases": {"shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed", "multiBamCov": "/usr/local/bin/multiBamCov"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bedtoolsr.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/r-bedtoolsr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bedtoolsr:2.30.0.2--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-bedtoolsr:2.30.0.2--r43hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bedtoolsr/2.30.0.2--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-bedtoolsr/2.30.0.2--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-bedtoolsr/2.30.0.2--r43hdfd78af_2
+$ module help quay.io/biocontainers/r-bedtoolsr/2.30.0.2--r43hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-meat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meat/container.yaml"
-updated_at: "2023-08-06 02:46:51.641365"
-latest: "1.10.0--r42hdfd78af_0"
+updated_at: "2023-08-07 02:56:06.220646"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meat"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meat", "latest": {"1.10.0--r42hdfd78af_0": "sha256:4b58f7309ff67155e7c112f5e2532bb5ca4007f2d31f9a400059866452ec837e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:a3406ef8e296cf71264a4f5c223220b1e2ad0887c6296c382e9e1826a510978e", "1.10.0--r42hdfd78af_0": "sha256:4b58f7309ff67155e7c112f5e2532bb5ca4007f2d31f9a400059866452ec837e"}, "docker": "quay.io/biocontainers/bioconductor-meat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meat", "latest": {"1.12.0--r43hdfd78af_0": "sha256:d90008b9e7f9804e6e18837c81f1639d81b481faf74f1728f21e98a6346f8744"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:a3406ef8e296cf71264a4f5c223220b1e2ad0887c6296c382e9e1826a510978e", "1.10.0--r42hdfd78af_0": "sha256:4b58f7309ff67155e7c112f5e2532bb5ca4007f2d31f9a400059866452ec837e", "1.12.0--r43hdfd78af_0": "sha256:d90008b9e7f9804e6e18837c81f1639d81b481faf74f1728f21e98a6346f8744"}, "docker": "quay.io/biocontainers/bioconductor-meat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-meat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-meat:1.10.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-meat:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-meat/1.10.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-meat/1.10.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-meat/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-meat/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

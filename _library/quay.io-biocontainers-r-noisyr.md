@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-noisyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-noisyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-noisyr/container.yaml"
-updated_at: "2023-08-06 02:42:53.161368"
-latest: "1.0.0--r42h3342da4_1"
+updated_at: "2023-08-07 02:51:56.187477"
+latest: "1.0.0--r43h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-noisyr"
 aliases:
  - "installBiocDataPackage.sh"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--r42h3342da4_1"
+ - "1.0.0--r43h3342da4_2"
 description: "singularity registry hpc automated addition for r-noisyr"
-config: {"url": "https://biocontainers.pro/tools/r-noisyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-noisyr", "latest": {"1.0.0--r42h3342da4_1": "sha256:83588ad6d8fd0d4bf9035a02ab1338be4f3f7b435f874567252020b087a574c0"}, "tags": {"1.0.0--r42h3342da4_1": "sha256:83588ad6d8fd0d4bf9035a02ab1338be4f3f7b435f874567252020b087a574c0"}, "docker": "quay.io/biocontainers/r-noisyr", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-noisyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-noisyr", "latest": {"1.0.0--r43h3342da4_2": "sha256:9dcdc92783af1d83ce798f75fdfb6ea8d0d90e251741e85076973df645319c26"}, "tags": {"1.0.0--r42h3342da4_1": "sha256:83588ad6d8fd0d4bf9035a02ab1338be4f3f7b435f874567252020b087a574c0", "1.0.0--r43h3342da4_2": "sha256:9dcdc92783af1d83ce798f75fdfb6ea8d0d90e251741e85076973df645319c26"}, "docker": "quay.io/biocontainers/r-noisyr", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-noisyr.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/r-noisyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-noisyr:1.0.0--r42h3342da4_1
+$ shpc install quay.io/biocontainers/r-noisyr:1.0.0--r43h3342da4_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-noisyr/1.0.0--r42h3342da4_1
-$ module help quay.io/biocontainers/r-noisyr/1.0.0--r42h3342da4_1
+$ module load quay.io/biocontainers/r-noisyr/1.0.0--r43h3342da4_2
+$ module help quay.io/biocontainers/r-noisyr/1.0.0--r43h3342da4_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

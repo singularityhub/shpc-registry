@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-single.mtec.transcriptomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/container.yaml"
-updated_at: "2023-08-06 02:26:43.324361"
-latest: "1.25.0--r42hdfd78af_0"
+updated_at: "2023-08-07 02:34:38.081457"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-single.mtec.transcriptomes"
 
 versions:
  - "1.22.0--r41hdfd78af_1"
  - "1.25.0--r42hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-single.mtec.transcriptomes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-single.mtec.transcriptomes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-single.mtec.transcriptomes", "latest": {"1.25.0--r42hdfd78af_0": "sha256:65e590ecd03e53b8858001317cb975c13f0effb7086ea230fb5a256a2a12f178"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:3e6434da485c916e13763844b68a36d4025305673d6ed0e6a8bd69d0cb754379", "1.25.0--r42hdfd78af_0": "sha256:65e590ecd03e53b8858001317cb975c13f0effb7086ea230fb5a256a2a12f178"}, "docker": "quay.io/biocontainers/bioconductor-single.mtec.transcriptomes"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-single.mtec.transcriptomes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-single.mtec.transcriptomes", "latest": {"1.28.0--r43hdfd78af_0": "sha256:7f076bc61cd31f4dff8bdb6aef49c35dea9fa46c5df1c4fe2faf6345a352a3c6"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:3e6434da485c916e13763844b68a36d4025305673d6ed0e6a8bd69d0cb754379", "1.25.0--r42hdfd78af_0": "sha256:65e590ecd03e53b8858001317cb975c13f0effb7086ea230fb5a256a2a12f178", "1.28.0--r43hdfd78af_0": "sha256:7f076bc61cd31f4dff8bdb6aef49c35dea9fa46c5df1c4fe2faf6345a352a3c6"}, "docker": "quay.io/biocontainers/bioconductor-single.mtec.transcriptomes"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-single.mtec.transcriptomes.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-single.mtec.transcriptomes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-single.mtec.transcriptomes:1.25.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-single.mtec.transcriptomes:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/1.25.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/1.25.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-single.mtec.transcriptomes/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panfeed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panfeed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panfeed/container.yaml"
-updated_at: "2023-08-06 02:46:39.670219"
-latest: "1.5.0--pyhdfd78af_0"
+updated_at: "2023-08-07 02:55:53.523400"
+latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panfeed"
 aliases:
  - "panfeed"
@@ -39,8 +39,9 @@ aliases:
  - "tificc"
 versions:
  - "1.5.0--pyhdfd78af_0"
+ - "1.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for panfeed"
-config: {"url": "https://biocontainers.pro/tools/panfeed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panfeed", "latest": {"1.5.0--pyhdfd78af_0": "sha256:ee35faf0bd99c468cecce894b2790789fd0399d52eb5f05c44407af9e70f69fb"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:ee35faf0bd99c468cecce894b2790789fd0399d52eb5f05c44407af9e70f69fb"}, "docker": "quay.io/biocontainers/panfeed", "aliases": {"panfeed": "/usr/local/bin/panfeed", "panfeed-get-clusters": "/usr/local/bin/panfeed-get-clusters", "panfeed-get-kmers": "/usr/local/bin/panfeed-get-kmers", "panfeed-plot": "/usr/local/bin/panfeed-plot", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/panfeed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panfeed", "latest": {"1.5.1--pyhdfd78af_0": "sha256:2db212d8ee3180ccfab08c0cdd417b4f65d02447ff635c596e26ba95894ec237"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:ee35faf0bd99c468cecce894b2790789fd0399d52eb5f05c44407af9e70f69fb", "1.5.1--pyhdfd78af_0": "sha256:2db212d8ee3180ccfab08c0cdd417b4f65d02447ff635c596e26ba95894ec237"}, "docker": "quay.io/biocontainers/panfeed", "aliases": {"panfeed": "/usr/local/bin/panfeed", "panfeed-get-clusters": "/usr/local/bin/panfeed-get-clusters", "panfeed-get-kmers": "/usr/local/bin/panfeed-get-kmers", "panfeed-plot": "/usr/local/bin/panfeed-plot", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panfeed.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/panfeed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panfeed:1.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/panfeed:1.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panfeed/1.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/panfeed/1.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/panfeed/1.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/panfeed/1.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

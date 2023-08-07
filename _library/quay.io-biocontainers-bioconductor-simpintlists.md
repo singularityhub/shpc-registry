@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-simpintlists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simpintlists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simpintlists/container.yaml"
-updated_at: "2023-08-06 02:56:24.988857"
-latest: "1.33.0--r42hdfd78af_0"
+updated_at: "2023-08-07 03:06:27.112561"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simpintlists"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
  - "1.33.0--r42hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-simpintlists"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-simpintlists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simpintlists", "latest": {"1.33.0--r42hdfd78af_0": "sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:be2ac42d70eb2186c153c686dbe582961d3ffee9084359265d2e541db40e5799", "1.33.0--r42hdfd78af_0": "sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d"}, "docker": "quay.io/biocontainers/bioconductor-simpintlists"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-simpintlists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-simpintlists", "latest": {"1.36.0--r43hdfd78af_0": "sha256:2c1ea61a0cbbfaef13a259497169e862343b1794c10e4017aecaf4e1931506ef"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:be2ac42d70eb2186c153c686dbe582961d3ffee9084359265d2e541db40e5799", "1.33.0--r42hdfd78af_0": "sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d", "1.36.0--r43hdfd78af_0": "sha256:2c1ea61a0cbbfaef13a259497169e862343b1794c10e4017aecaf4e1931506ef"}, "docker": "quay.io/biocontainers/bioconductor-simpintlists"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-simpintlists.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-simpintlists
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-simpintlists:1.33.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-simpintlists:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-simpintlists/1.33.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-simpintlists/1.33.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-simpintlists/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-simpintlists/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
