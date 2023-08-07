@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rcgh
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcgh
 latest:
-  1.28.0--r42hdfd78af_0: sha256:646aa94ad0b8d2ebfa333d437d5310798c7976b0f7b9fcfe76a4da840f85776f
+  1.30.0--r43hdfd78af_0: sha256:550c773129f502b90830f2f3c62f3243147a1b258c9e3a29abaa4c55f97a057e
 tags:
   1.8.1--r3.4.1_0: sha256:1ff2407f3fcbdf9d117e44459b083b155a6d043d477adc794f47c1ce66f71634
   1.24.0--r41hdfd78af_0: sha256:afc3cf7d32766dd1b8737df79ae31f3aded8fe1ac0b62fb6079f4daa1290f98e
@@ -11,6 +11,7 @@ tags:
   1.18.0--r40_0: sha256:77a74237b619c561e0858e7ccb6397b76f5df8c287b719b9268eb6bc8d79410e
   1.16.0--r36_0: sha256:c8d5e6d31fd1f3dac1b0eb51e26c84266a504792cec0c6e00dcf714db7317ad1
   1.28.0--r42hdfd78af_0: sha256:646aa94ad0b8d2ebfa333d437d5310798c7976b0f7b9fcfe76a4da840f85776f
+  1.30.0--r43hdfd78af_0: sha256:550c773129f502b90830f2f3c62f3243147a1b258c9e3a29abaa4c55f97a057e
 docker: quay.io/biocontainers/bioconductor-rcgh
 aliases:
   wget: /usr/local/bin/wget

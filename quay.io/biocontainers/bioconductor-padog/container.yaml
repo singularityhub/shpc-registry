@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-padog
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-padog
 latest:
-  1.40.0--r42hdfd78af_0: sha256:bc0dba38b294cd8f58057f027778e95668de353adca758974729c28cfb3df3a5
+  1.42.0--r43hdfd78af_0: sha256:5f0ee583210d864473c2abbcc683f7a9798393bc7d70dad238a26e92b4b2eb9f
 tags:
   1.36.0--r41hdfd78af_0: sha256:649c44d522b6614404306c6e551b63365b8a07bf9196f63fa66f1eb37e6b984c
   1.40.0--r42hdfd78af_0: sha256:bc0dba38b294cd8f58057f027778e95668de353adca758974729c28cfb3df3a5
+  1.42.0--r43hdfd78af_0: sha256:5f0ee583210d864473c2abbcc683f7a9798393bc7d70dad238a26e92b4b2eb9f
 docker: quay.io/biocontainers/bioconductor-padog

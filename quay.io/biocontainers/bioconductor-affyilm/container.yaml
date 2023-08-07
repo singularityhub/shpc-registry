@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-affyilm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-affyilm
 latest:
-  1.50.0--r42hdfd78af_0: sha256:b39affbdf2ae528d7968ff2f69fc3d8aaa4c7076c59df7d4e5dc396f1c23d363
+  1.52.0--r43hdfd78af_0: sha256:a3d6de67b27f23079011dac3bb36753a12ee0fd51afdf1bc56ad162f1edc84af
 tags:
   1.46.0--r41hdfd78af_0: sha256:2a93502d5faebb970937f070a516b9960787eb36d166c9a1830dd7fa5da68a93
   1.50.0--r42hdfd78af_0: sha256:b39affbdf2ae528d7968ff2f69fc3d8aaa4c7076c59df7d4e5dc396f1c23d363
+  1.52.0--r43hdfd78af_0: sha256:a3d6de67b27f23079011dac3bb36753a12ee0fd51afdf1bc56ad162f1edc84af
 docker: quay.io/biocontainers/bioconductor-affyilm

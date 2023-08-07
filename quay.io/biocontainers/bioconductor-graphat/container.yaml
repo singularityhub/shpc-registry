@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-graphat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-graphat
 latest:
-  1.70.0--r42hdfd78af_0: sha256:8516f40bb5783ba1387736aea371380d762c2121eaf199283cdb70b5e3d4caee
+  1.72.0--r43hdfd78af_0: sha256:f71441484b368a32a67d5a3d93e7851d25975292a181fb0a603a4815cba94900
 tags:
   1.66.0--r41hdfd78af_0: sha256:9ea4e82629e22eee490537368ca749e36bcc38ac48508778b9476b08bc5b4ad0
   1.70.0--r42hdfd78af_0: sha256:8516f40bb5783ba1387736aea371380d762c2121eaf199283cdb70b5e3d4caee
+  1.72.0--r43hdfd78af_0: sha256:f71441484b368a32a67d5a3d93e7851d25975292a181fb0a603a4815cba94900
 docker: quay.io/biocontainers/bioconductor-graphat

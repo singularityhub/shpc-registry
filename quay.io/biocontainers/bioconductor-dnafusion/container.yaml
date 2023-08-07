@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-dnafusion
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-dnafusion
 latest:
-  1.0.0--r42hdfd78af_0: sha256:7ec05189a217af9489e9ce717207cd2eb77264d5fbbd54a3e941329d81a22be1
+  1.2.0--r43hdfd78af_0: sha256:fa2cb78d43e1d14e015369089ba6a3348458ac2fc79473d8995e82d76d8f8759
 tags:
   1.0.0--r42hdfd78af_0: sha256:7ec05189a217af9489e9ce717207cd2eb77264d5fbbd54a3e941329d81a22be1
+  1.2.0--r43hdfd78af_0: sha256:fa2cb78d43e1d14e015369089ba6a3348458ac2fc79473d8995e82d76d8f8759
 docker: quay.io/biocontainers/bioconductor-dnafusion
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

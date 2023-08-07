@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-pctgcdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pctgcdata
 latest:
-  0.3.0--r42h9ee0642_3: sha256:d198c5876be29e615eff5273d83a0ca7ff5428c589428f145379b857001391f9
+  0.3.0--r43h9ee0642_4: sha256:d3e4d47aa33201cebdf6889f2c6be59dbd737017b332436aa79ef4bb2734b5da
 tags:
   0.3.0--r41h9ee0642_2: sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991
   0.3.0--r42h9ee0642_3: sha256:d198c5876be29e615eff5273d83a0ca7ff5428c589428f145379b857001391f9
+  0.3.0--r43h9ee0642_4: sha256:d3e4d47aa33201cebdf6889f2c6be59dbd737017b332436aa79ef4bb2734b5da
 docker: quay.io/biocontainers/r-pctgcdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

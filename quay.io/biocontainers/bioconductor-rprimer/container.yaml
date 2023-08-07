@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rprimer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rprimer
 latest:
-  1.2.0--r42hdfd78af_0: sha256:3de95488278621c6d805015ebc9769675a8b0dd846a05ec04cdb92f278a73a85
+  1.4.0--r43hdfd78af_0: sha256:ba0e25a774418a9596a6cc42eedd301d74ef5ab5104ccdbc5f81a1a9826ceb41
 tags:
   1.2.0--r42hdfd78af_0: sha256:3de95488278621c6d805015ebc9769675a8b0dd846a05ec04cdb92f278a73a85
+  1.4.0--r43hdfd78af_0: sha256:ba0e25a774418a9596a6cc42eedd301d74ef5ab5104ccdbc5f81a1a9826ceb41
 docker: quay.io/biocontainers/bioconductor-rprimer
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

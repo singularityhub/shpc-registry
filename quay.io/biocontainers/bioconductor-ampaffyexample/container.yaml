@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ampaffyexample
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ampaffyexample
 latest:
-  1.38.0--r42hdfd78af_0: sha256:131067016f19f9bec67d546b949dc508a617a21e3835411aaa07c34b3dbcb26c
+  1.40.0--r43hdfd78af_0: sha256:7097ec1c1f144f076f08829c3ddd12160f4df719e9e00b55ea8b2169c49d20df
 tags:
   1.34.0--r41hdfd78af_1: sha256:96c253ff8daf0ffc130c90919c6468bd4dde82da9a55e94a35f90fcce86dfc4a
   1.38.0--r42hdfd78af_0: sha256:131067016f19f9bec67d546b949dc508a617a21e3835411aaa07c34b3dbcb26c
+  1.40.0--r43hdfd78af_0: sha256:7097ec1c1f144f076f08829c3ddd12160f4df719e9e00b55ea8b2169c49d20df
 docker: quay.io/biocontainers/bioconductor-ampaffyexample

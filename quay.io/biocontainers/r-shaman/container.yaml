@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-shaman
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-shaman
 latest:
-  2.0--r42hdfd78af_5: sha256:adb121c69553532c3345e0142ca13d7663c5e369d711a7bfd9dd7032c033a385
+  2.0--r43hdfd78af_6: sha256:6f01259f74aae67ce1c0346f5bb4429211c7b5e531f42253ac492dfd7ec4096d
 tags:
   2.0--r41hdfd78af_4: sha256:62cea04adac401b2f54635cde6ae6434637fc7c2c87eab04a5a02614f9dea757
   2.0--r42hdfd78af_5: sha256:adb121c69553532c3345e0142ca13d7663c5e369d711a7bfd9dd7032c033a385
+  2.0--r43hdfd78af_6: sha256:6f01259f74aae67ce1c0346f5bb4429211c7b5e531f42253ac492dfd7ec4096d
 docker: quay.io/biocontainers/r-shaman
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

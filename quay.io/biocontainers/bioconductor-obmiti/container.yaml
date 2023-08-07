@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-obmiti
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-obmiti
 latest:
-  1.6.0--r42hdfd78af_0: sha256:120dab87efcd76a9d3d3fcf0049c0f3cad77d07c12270fb78e30ceef0b353169
+  1.8.0--r43hdfd78af_0: sha256:7a81738a68f9ed85764f1a702648f5f43cd1bef6c35daeef2b9c0220c0718946
 tags:
   1.2.0--r41hdfd78af_1: sha256:34ce8122f09a99caee92b92fe14181466b2864996813a06e406714e45cb89dc9
   1.6.0--r42hdfd78af_0: sha256:120dab87efcd76a9d3d3fcf0049c0f3cad77d07c12270fb78e30ceef0b353169
+  1.8.0--r43hdfd78af_0: sha256:7a81738a68f9ed85764f1a702648f5f43cd1bef6c35daeef2b9c0220c0718946
 docker: quay.io/biocontainers/bioconductor-obmiti

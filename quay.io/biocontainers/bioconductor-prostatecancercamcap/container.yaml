@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-prostatecancercamcap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-prostatecancercamcap
 latest:
-  1.26.0--r42hdfd78af_0: sha256:1715e26a4aaa66a56516489901f678fffe8e0f6bc9a09d32e1b44233b5b8ab4e
+  1.28.0--r43hdfd78af_0: sha256:378722ecde7740f5e2639e36a63ae8b3faa37f7245bbb08fa516184c7302abb8
 tags:
   1.22.0--r41hdfd78af_1: sha256:01a85a0908c7117fccd52023cf1e78e18e180637dfb877d11a83673a3c8061e9
   1.26.0--r42hdfd78af_0: sha256:1715e26a4aaa66a56516489901f678fffe8e0f6bc9a09d32e1b44233b5b8ab4e
+  1.28.0--r43hdfd78af_0: sha256:378722ecde7740f5e2639e36a63ae8b3faa37f7245bbb08fa516184c7302abb8
 docker: quay.io/biocontainers/bioconductor-prostatecancercamcap
