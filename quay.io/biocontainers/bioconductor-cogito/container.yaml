@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cogito
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cogito
 latest:
-  1.4.0--r42hdfd78af_0: sha256:1297935cd8dd924372e1737219193d188e29a03b96c4e0939319cb70ca734132
+  1.6.0--r43hdfd78af_0: sha256:946f92afcb7ac915a875c2d61ac24eedd5bedb310ac002d39bc4b3aa1360e5a7
 tags:
   1.0.0--r41hdfd78af_0: sha256:a7e1aaae7f25d70c9e4d46e347855bff1e5ffac979d6a51e39b032cdbd3ee085
   1.4.0--r42hdfd78af_0: sha256:1297935cd8dd924372e1737219193d188e29a03b96c4e0939319cb70ca734132
+  1.6.0--r43hdfd78af_0: sha256:946f92afcb7ac915a875c2d61ac24eedd5bedb310ac002d39bc4b3aa1360e5a7
 docker: quay.io/biocontainers/bioconductor-cogito
 aliases:
   pandoc: /usr/local/bin/pandoc

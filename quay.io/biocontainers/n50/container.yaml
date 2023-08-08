@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/n50
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for n50
 latest:
-  1.5.6--pl5321hdfd78af_0: sha256:c7d9b50f0516e50b14ff1c243cbd421892c82fcc9b4a47e37b7874f64bfd22b6
+  1.5.8--pl5321hdfd78af_0: sha256:8d1153ee8ca467fae14d1b318849480917a3e6d0cd96c7ac78b32343ed181c53
 tags:
   1.5.0--pl5321hdfd78af_0: sha256:922c631bfe7177b00b92556e28920909f8dadbfba6760fc49582efed0128d886
   1.5.6--pl5321hdfd78af_0: sha256:c7d9b50f0516e50b14ff1c243cbd421892c82fcc9b4a47e37b7874f64bfd22b6
+  1.5.8--pl5321hdfd78af_0: sha256:8d1153ee8ca467fae14d1b318849480917a3e6d0cd96c7ac78b32343ed181c53
 docker: quay.io/biocontainers/n50
 aliases:
   fqc: /usr/local/bin/fqc

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-aldex2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-aldex2
 latest:
-  1.30.0--r42hdfd78af_0: sha256:4b90b04bb8f6183f4df60d708d93830354ad6c312e2fa044f552a52343bd3ecd
+  1.32.0--r43hdfd78af_0: sha256:d5ddd6bdc3110577e676abd7b127c222f1af86d3c0143da2dcb8a0774a345261
 tags:
   1.8.0--r3.3.2_0: sha256:007b4cd661fb9485bd0f0f7d92016253494a1c34bf0e00d2969d0fdcc06ba6bd
   1.30.0--r42hdfd78af_0: sha256:4b90b04bb8f6183f4df60d708d93830354ad6c312e2fa044f552a52343bd3ecd
@@ -10,6 +10,7 @@ tags:
   1.24.0--r41hdfd78af_0: sha256:fdab068bc0c3b33303b3b2f002e2ed59b5fd471b6519bd5e2d4512d3712f4d1e
   1.22.0--r40hdfd78af_1: sha256:845f0159bad13a2849c7309c2772dd7e04040936b091f9213f5d6fe367704ebf
   1.20.0--r40_0: sha256:384fe0d011298ed2c0bf82c508ff44917723dc45efb0ccf524efe6e611833c5a
+  1.32.0--r43hdfd78af_0: sha256:d5ddd6bdc3110577e676abd7b127c222f1af86d3c0143da2dcb8a0774a345261
 docker: quay.io/biocontainers/bioconductor-aldex2
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

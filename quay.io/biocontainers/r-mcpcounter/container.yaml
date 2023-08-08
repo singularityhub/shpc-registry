@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-mcpcounter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-mcpcounter
 latest:
-  1.1.0--r42hdfd78af_4: sha256:a7ed18852a933657e539598980080894e3facd7428172c54871a9e78e4394a8d
+  1.1.0--r43hdfd78af_5: sha256:5775e91573c329dd982e41abeae0e2efa01d87a2e73a7aab6af2eb5d3e10ae1b
 tags:
   1.1.0--r41hdfd78af_3: sha256:01586ea9b6d00f221e375e06b7e69cee655abf11ba9e0b377894a46c4ac8d265
   1.1.0--r42hdfd78af_4: sha256:a7ed18852a933657e539598980080894e3facd7428172c54871a9e78e4394a8d
+  1.1.0--r43hdfd78af_5: sha256:5775e91573c329dd982e41abeae0e2efa01d87a2e73a7aab6af2eb5d3e10ae1b
 docker: quay.io/biocontainers/r-mcpcounter
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

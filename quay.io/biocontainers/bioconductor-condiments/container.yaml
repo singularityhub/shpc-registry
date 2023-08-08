@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-condiments
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-condiments
 latest:
-  1.6.0--r42hdfd78af_0: sha256:07c62ea96354b3aee8042ca9e8a3c8135e9d5b3e3ecb95e88e1715a0fd5dc7e2
+  1.8.0--r43hdfd78af_0: sha256:fd76547ccbd2ca1fe9078f12a736749b2f2cf40277d262e7992180fac9ab5a92
 tags:
   1.2.0--r41hdfd78af_0: sha256:ef993125e85953067245bf43a8f9448529253e7aba092a1748f73dedd2a00144
   1.6.0--r42hdfd78af_0: sha256:07c62ea96354b3aee8042ca9e8a3c8135e9d5b3e3ecb95e88e1715a0fd5dc7e2
+  1.8.0--r43hdfd78af_0: sha256:fd76547ccbd2ca1fe9078f12a736749b2f2cf40277d262e7992180fac9ab5a92
 docker: quay.io/biocontainers/bioconductor-condiments
