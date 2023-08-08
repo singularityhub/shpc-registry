@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeplcretrainer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeplcretrainer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeplcretrainer/container.yaml"
-updated_at: "2023-08-07 04:03:47.941866"
-latest: "0.1.19--pyh7cba7a3_0"
+updated_at: "2023-08-08 03:12:06.390779"
+latest: "0.1.21--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/deeplcretrainer"
 aliases:
  - "2to3-3.11"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.1.17--pyh7cba7a3_0"
  - "0.1.19--pyh7cba7a3_0"
+ - "0.1.21--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for deeplcretrainer"
-config: {"url": "https://biocontainers.pro/tools/deeplcretrainer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deeplcretrainer", "latest": {"0.1.19--pyh7cba7a3_0": "sha256:4131c801a8be3e8b058e0aab9b0be431e19f48d071dd08e7091ed7aa4fb601af"}, "tags": {"0.1.17--pyh7cba7a3_0": "sha256:207c0ff610fdc8d2ef7c8158afdf435889daf40531467b1c92225970c7c492ab", "0.1.19--pyh7cba7a3_0": "sha256:4131c801a8be3e8b058e0aab9b0be431e19f48d071dd08e7091ed7aa4fb601af"}, "docker": "quay.io/biocontainers/deeplcretrainer", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/deeplcretrainer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deeplcretrainer", "latest": {"0.1.21--pyh7cba7a3_0": "sha256:3c2e04a6c8d37e4e3f86db8c8bde8b6baf84d06bc5a935d4f15e870abc4ec141"}, "tags": {"0.1.17--pyh7cba7a3_0": "sha256:207c0ff610fdc8d2ef7c8158afdf435889daf40531467b1c92225970c7c492ab", "0.1.19--pyh7cba7a3_0": "sha256:4131c801a8be3e8b058e0aab9b0be431e19f48d071dd08e7091ed7aa4fb601af", "0.1.21--pyh7cba7a3_0": "sha256:3c2e04a6c8d37e4e3f86db8c8bde8b6baf84d06bc5a935d4f15e870abc4ec141"}, "docker": "quay.io/biocontainers/deeplcretrainer", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeplcretrainer.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/deeplcretrainer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeplcretrainer:0.1.19--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/deeplcretrainer:0.1.21--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeplcretrainer/0.1.19--pyh7cba7a3_0
-$ module help quay.io/biocontainers/deeplcretrainer/0.1.19--pyh7cba7a3_0
+$ module load quay.io/biocontainers/deeplcretrainer/0.1.21--pyh7cba7a3_0
+$ module help quay.io/biocontainers/deeplcretrainer/0.1.21--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

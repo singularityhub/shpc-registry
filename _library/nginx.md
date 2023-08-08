@@ -4,7 +4,7 @@ name:  "nginx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nginx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nginx/container.yaml"
-updated_at: "2023-08-07 04:15:34.796554"
+updated_at: "2023-08-08 03:21:08.906723"
 latest: "1.25"
 container_url: "https://hub.docker.com/r/_/nginx"
 aliases:

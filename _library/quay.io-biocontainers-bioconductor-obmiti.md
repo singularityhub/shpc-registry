@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-obmiti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-obmiti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-obmiti/container.yaml"
-updated_at: "2023-08-07 03:39:14.262777"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-08-08 02:53:22.372011"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-obmiti"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-obmiti"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-obmiti", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-obmiti", "latest": {"1.6.0--r42hdfd78af_0": "sha256:120dab87efcd76a9d3d3fcf0049c0f3cad77d07c12270fb78e30ceef0b353169"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:34ce8122f09a99caee92b92fe14181466b2864996813a06e406714e45cb89dc9", "1.6.0--r42hdfd78af_0": "sha256:120dab87efcd76a9d3d3fcf0049c0f3cad77d07c12270fb78e30ceef0b353169"}, "docker": "quay.io/biocontainers/bioconductor-obmiti"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-obmiti", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-obmiti", "latest": {"1.8.0--r43hdfd78af_0": "sha256:7a81738a68f9ed85764f1a702648f5f43cd1bef6c35daeef2b9c0220c0718946"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:34ce8122f09a99caee92b92fe14181466b2864996813a06e406714e45cb89dc9", "1.6.0--r42hdfd78af_0": "sha256:120dab87efcd76a9d3d3fcf0049c0f3cad77d07c12270fb78e30ceef0b353169", "1.8.0--r43hdfd78af_0": "sha256:7a81738a68f9ed85764f1a702648f5f43cd1bef6c35daeef2b9c0220c0718946"}, "docker": "quay.io/biocontainers/bioconductor-obmiti"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-obmiti.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-obmiti
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-obmiti:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-obmiti:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-obmiti/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-obmiti/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-obmiti/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-obmiti/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

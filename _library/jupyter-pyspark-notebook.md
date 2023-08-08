@@ -4,7 +4,7 @@ name:  "jupyter/pyspark-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/pyspark-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/pyspark-notebook/container.yaml"
-updated_at: "2023-08-07 03:08:30.121766"
+updated_at: "2023-08-08 02:29:47.516237"
 latest: "2023-07-17"
 container_url: "https://hub.docker.com/r/jupyter/pyspark-notebook"
 aliases:

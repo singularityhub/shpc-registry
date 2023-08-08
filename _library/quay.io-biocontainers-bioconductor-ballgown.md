@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ballgown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ballgown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ballgown/container.yaml"
-updated_at: "2023-08-07 04:14:49.692591"
-latest: "2.30.0--r42hdfd78af_0"
+updated_at: "2023-08-08 03:20:33.928211"
+latest: "2.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ballgown"
 aliases:
  - "tclsh8.5"
@@ -20,8 +20,9 @@ versions:
  - "2.20.0--r40_0"
  - "2.18.0--r36_0"
  - "2.30.0--r42hdfd78af_0"
+ - "2.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ballgown"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ballgown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ballgown", "latest": {"2.30.0--r42hdfd78af_0": "sha256:28290f311e348fda391a8d03c3d198a2936ab7d7c7ca54d7b7531996979e0b94"}, "tags": {"2.8.4--r3.4.1_0": "sha256:0498ae6a1f11ec6ab7c2a06e02c4e787c2cff9e690a45e123b5926dd017b90e7", "2.26.0--r41hdfd78af_0": "sha256:df0843442cbc8fe0d54d3341ea22f21a69bdd0364abeb763b18e8ecb45736b26", "2.24.0--r41hdfd78af_0": "sha256:ef4ecc70d78f5b51e17156646aa37828ec04710d7cc9fb1d85d69b7aa379a6e8", "2.22.0--r40hdfd78af_1": "sha256:c1801ce273fe1229992ae0647abe6ab1959a26835e40bf602ece1626b3075f10", "2.20.0--r40_0": "sha256:cddae13de38f6e6c536b64fd467937362d639b02223f8b16e535dbbf926099dd", "2.18.0--r36_0": "sha256:c2748b3851a46a3ab93b95987f9b791f4b8dd9e0ed20f661dd0c0d35647a7bc9", "2.30.0--r42hdfd78af_0": "sha256:28290f311e348fda391a8d03c3d198a2936ab7d7c7ca54d7b7531996979e0b94"}, "docker": "quay.io/biocontainers/bioconductor-ballgown", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ballgown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ballgown", "latest": {"2.32.0--r43hdfd78af_0": "sha256:468ff1604f13e1c660d822ad932bbecdf6306e424f5107ef660dab2281d3ea9d"}, "tags": {"2.8.4--r3.4.1_0": "sha256:0498ae6a1f11ec6ab7c2a06e02c4e787c2cff9e690a45e123b5926dd017b90e7", "2.26.0--r41hdfd78af_0": "sha256:df0843442cbc8fe0d54d3341ea22f21a69bdd0364abeb763b18e8ecb45736b26", "2.24.0--r41hdfd78af_0": "sha256:ef4ecc70d78f5b51e17156646aa37828ec04710d7cc9fb1d85d69b7aa379a6e8", "2.22.0--r40hdfd78af_1": "sha256:c1801ce273fe1229992ae0647abe6ab1959a26835e40bf602ece1626b3075f10", "2.20.0--r40_0": "sha256:cddae13de38f6e6c536b64fd467937362d639b02223f8b16e535dbbf926099dd", "2.18.0--r36_0": "sha256:c2748b3851a46a3ab93b95987f9b791f4b8dd9e0ed20f661dd0c0d35647a7bc9", "2.30.0--r42hdfd78af_0": "sha256:28290f311e348fda391a8d03c3d198a2936ab7d7c7ca54d7b7531996979e0b94", "2.32.0--r43hdfd78af_0": "sha256:468ff1604f13e1c660d822ad932bbecdf6306e424f5107ef660dab2281d3ea9d"}, "docker": "quay.io/biocontainers/bioconductor-ballgown", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ballgown.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ballgown
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ballgown:2.30.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ballgown:2.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ballgown/2.30.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ballgown/2.30.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ballgown/2.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ballgown/2.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hlama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hlama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hlama/container.yaml"
-updated_at: "2023-08-07 03:11:25.101512"
+updated_at: "2023-08-08 02:32:03.556851"
 latest: "3.0.1--py35_0"
 container_url: "https://biocontainers.pro/tools/hlama"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-timecourse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timecourse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timecourse/container.yaml"
-updated_at: "2023-08-07 03:27:43.568292"
-latest: "1.70.0--r42hdfd78af_0"
+updated_at: "2023-08-08 02:44:30.882179"
+latest: "1.72.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timecourse"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
  - "1.70.0--r42hdfd78af_0"
+ - "1.72.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-timecourse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-timecourse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timecourse", "latest": {"1.70.0--r42hdfd78af_0": "sha256:7f3173680319d2f4e09faeb942163a1bf031d8e4efca638f55b9ef8cdd638449"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:ce32d2d93957fbdca9b4283c6e35084c88afe3416b201ba5c61fe1955a1d0de5", "1.70.0--r42hdfd78af_0": "sha256:7f3173680319d2f4e09faeb942163a1bf031d8e4efca638f55b9ef8cdd638449"}, "docker": "quay.io/biocontainers/bioconductor-timecourse"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-timecourse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timecourse", "latest": {"1.72.0--r43hdfd78af_0": "sha256:84956c8beba7fe4dea449119aa08b3dcb3e2a0286255efcb27b42c924bf748ec"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:ce32d2d93957fbdca9b4283c6e35084c88afe3416b201ba5c61fe1955a1d0de5", "1.70.0--r42hdfd78af_0": "sha256:7f3173680319d2f4e09faeb942163a1bf031d8e4efca638f55b9ef8cdd638449", "1.72.0--r43hdfd78af_0": "sha256:84956c8beba7fe4dea449119aa08b3dcb3e2a0286255efcb27b42c924bf748ec"}, "docker": "quay.io/biocontainers/bioconductor-timecourse"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-timecourse.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-timecourse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-timecourse:1.70.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-timecourse:1.72.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-timecourse/1.70.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-timecourse/1.70.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-timecourse/1.72.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-timecourse/1.72.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

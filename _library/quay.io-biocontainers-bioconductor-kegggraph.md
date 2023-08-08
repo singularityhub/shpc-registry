@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-kegggraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kegggraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kegggraph/container.yaml"
-updated_at: "2023-08-07 03:34:48.390164"
-latest: "1.58.0--r42hdfd78af_0"
+updated_at: "2023-08-08 02:49:57.313384"
+latest: "1.60.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kegggraph"
 
 versions:
  - "1.54.0--r41hdfd78af_0"
  - "1.58.0--r42hdfd78af_0"
+ - "1.60.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kegggraph"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kegggraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kegggraph", "latest": {"1.58.0--r42hdfd78af_0": "sha256:8137d8bb6f92c62b1639137ea7e3d8f2ad920c28c48e24d1dadc6d5735e787ca"}, "tags": {"1.54.0--r41hdfd78af_0": "sha256:cbde28c73b7093f7c4b5f3377f58f118af9d296cfd2692e4b7aa77826afb97ed", "1.58.0--r42hdfd78af_0": "sha256:8137d8bb6f92c62b1639137ea7e3d8f2ad920c28c48e24d1dadc6d5735e787ca"}, "docker": "quay.io/biocontainers/bioconductor-kegggraph"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kegggraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kegggraph", "latest": {"1.60.0--r43hdfd78af_0": "sha256:633b1526c8101172b171d17a0a0134fb17b22e8fee43d0e413513ed0f0c0d0f9"}, "tags": {"1.54.0--r41hdfd78af_0": "sha256:cbde28c73b7093f7c4b5f3377f58f118af9d296cfd2692e4b7aa77826afb97ed", "1.58.0--r42hdfd78af_0": "sha256:8137d8bb6f92c62b1639137ea7e3d8f2ad920c28c48e24d1dadc6d5735e787ca", "1.60.0--r43hdfd78af_0": "sha256:633b1526c8101172b171d17a0a0134fb17b22e8fee43d0e413513ed0f0c0d0f9"}, "docker": "quay.io/biocontainers/bioconductor-kegggraph"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kegggraph.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-kegggraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-kegggraph:1.58.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-kegggraph:1.60.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-kegggraph/1.58.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-kegggraph/1.58.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-kegggraph/1.60.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-kegggraph/1.60.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cogena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogena/container.yaml"
-updated_at: "2023-08-07 03:21:36.795567"
-latest: "1.32.0--r42hdfd78af_0"
+updated_at: "2023-08-08 02:39:48.507089"
+latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogena"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
  - "1.32.0--r42hdfd78af_0"
+ - "1.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cogena"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cogena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogena", "latest": {"1.32.0--r42hdfd78af_0": "sha256:c1a45d4bcc6d4f985b719520f7618ba9fe7656ba447a26604c4b7c8b8f401cd1"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:63da5554e96b3c7c27c5eb8dfb7292721822e2c10102587d7edaf6631fb21e28", "1.32.0--r42hdfd78af_0": "sha256:c1a45d4bcc6d4f985b719520f7618ba9fe7656ba447a26604c4b7c8b8f401cd1"}, "docker": "quay.io/biocontainers/bioconductor-cogena"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cogena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogena", "latest": {"1.34.0--r43hdfd78af_0": "sha256:8fb6917d622d0dc22849b3925155329dbc0805fe49ecf037188c432107c1dcb0"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:63da5554e96b3c7c27c5eb8dfb7292721822e2c10102587d7edaf6631fb21e28", "1.32.0--r42hdfd78af_0": "sha256:c1a45d4bcc6d4f985b719520f7618ba9fe7656ba447a26604c4b7c8b8f401cd1", "1.34.0--r43hdfd78af_0": "sha256:8fb6917d622d0dc22849b3925155329dbc0805fe49ecf037188c432107c1dcb0"}, "docker": "quay.io/biocontainers/bioconductor-cogena"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cogena.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cogena
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cogena:1.32.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cogena:1.34.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cogena/1.32.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cogena/1.32.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cogena/1.34.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cogena/1.34.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
