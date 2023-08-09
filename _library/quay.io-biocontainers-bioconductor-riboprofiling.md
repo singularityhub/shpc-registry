@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-riboprofiling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-riboprofiling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-riboprofiling/container.yaml"
-updated_at: "2023-08-08 03:17:13.668418"
-latest: "1.28.0--r42hdfd78af_0"
+updated_at: "2023-08-09 03:26:44.032397"
+latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-riboprofiling"
 aliases:
  - "my_print_defaults"
@@ -24,8 +24,9 @@ versions:
  - "1.18.0--r40_0"
  - "1.16.0--r36_0"
  - "1.28.0--r42hdfd78af_0"
+ - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-riboprofiling"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-riboprofiling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-riboprofiling", "latest": {"1.28.0--r42hdfd78af_0": "sha256:94d950361b7772a8488817c7351b0e63a5ae1937491ec0e79debc33591bfbacd"}, "tags": {"1.7.1--r3.4.1_0": "sha256:ba75bc0b5cc0cb6a52e64be209cda149bfe74b5e5bdd27f219990a6fbe4e2364", "1.24.0--r41hdfd78af_0": "sha256:6775a1f7d377fe1a098904a675c30f894169b94e97f8ce8145aa618f25030945", "1.22.0--r41hdfd78af_0": "sha256:f697ffcd8e27bc46a2d13771a87e67514b3a762bbf0d29bc5e42ee3d30f15c94", "1.20.0--r40hdfd78af_1": "sha256:1f15cda22a5512dd3b711ec060372d550c79681e27d8ae3182698f9569c7a85d", "1.18.0--r40_0": "sha256:fe3f5a1e0b4b02b0c5d8cdc073930537c18e5d078b4ba6bf136f8f5479ee0866", "1.16.0--r36_0": "sha256:471d4c292875dcb7384d87edffe0534bd40d2a4ffc01d6fb3fbb0f585f0d6316", "1.28.0--r42hdfd78af_0": "sha256:94d950361b7772a8488817c7351b0e63a5ae1937491ec0e79debc33591bfbacd"}, "docker": "quay.io/biocontainers/bioconductor-riboprofiling", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-riboprofiling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-riboprofiling", "latest": {"1.30.0--r43hdfd78af_0": "sha256:538cacc7058f5e78d78f4f4d6d9cb68533ee2bd3c711314e9c84903b3c5a7d1b"}, "tags": {"1.7.1--r3.4.1_0": "sha256:ba75bc0b5cc0cb6a52e64be209cda149bfe74b5e5bdd27f219990a6fbe4e2364", "1.24.0--r41hdfd78af_0": "sha256:6775a1f7d377fe1a098904a675c30f894169b94e97f8ce8145aa618f25030945", "1.22.0--r41hdfd78af_0": "sha256:f697ffcd8e27bc46a2d13771a87e67514b3a762bbf0d29bc5e42ee3d30f15c94", "1.20.0--r40hdfd78af_1": "sha256:1f15cda22a5512dd3b711ec060372d550c79681e27d8ae3182698f9569c7a85d", "1.18.0--r40_0": "sha256:fe3f5a1e0b4b02b0c5d8cdc073930537c18e5d078b4ba6bf136f8f5479ee0866", "1.16.0--r36_0": "sha256:471d4c292875dcb7384d87edffe0534bd40d2a4ffc01d6fb3fbb0f585f0d6316", "1.28.0--r42hdfd78af_0": "sha256:94d950361b7772a8488817c7351b0e63a5ae1937491ec0e79debc33591bfbacd", "1.30.0--r43hdfd78af_0": "sha256:538cacc7058f5e78d78f4f4d6d9cb68533ee2bd3c711314e9c84903b3c5a7d1b"}, "docker": "quay.io/biocontainers/bioconductor-riboprofiling", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-riboprofiling.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-riboprofiling
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-riboprofiling:1.28.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-riboprofiling:1.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-riboprofiling/1.28.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-riboprofiling/1.28.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-riboprofiling/1.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-riboprofiling/1.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

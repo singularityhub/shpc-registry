@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-dnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dnet/container.yaml"
-updated_at: "2023-08-08 02:49:24.184149"
-latest: "1.1.7--r42h3342da4_4"
+updated_at: "2023-08-09 02:53:46.137096"
+latest: "1.1.7--r43h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-dnet"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.7--r41h3342da4_3"
  - "1.1.7--r42h3342da4_4"
+ - "1.1.7--r43h3342da4_5"
 description: "shpc-registry automated BioContainers addition for r-dnet"
-config: {"url": "https://biocontainers.pro/tools/r-dnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dnet", "latest": {"1.1.7--r42h3342da4_4": "sha256:b9a3178e1e773c517bf6836bfd36ed394ccfa6c20ac4ce5a3eb09dbe46980105"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:01cfc7637677e1abaa2c9ff1e1f6de7f13819a21131ed4deb7658488da4fb5f5", "1.1.7--r42h3342da4_4": "sha256:b9a3178e1e773c517bf6836bfd36ed394ccfa6c20ac4ce5a3eb09dbe46980105"}, "docker": "quay.io/biocontainers/r-dnet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-dnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dnet", "latest": {"1.1.7--r43h3342da4_5": "sha256:2e9c4f06d5dfca87f5d0dfaa8d0b971381876b5d50e78947312691dfd6686e81"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:01cfc7637677e1abaa2c9ff1e1f6de7f13819a21131ed4deb7658488da4fb5f5", "1.1.7--r42h3342da4_4": "sha256:b9a3178e1e773c517bf6836bfd36ed394ccfa6c20ac4ce5a3eb09dbe46980105", "1.1.7--r43h3342da4_5": "sha256:2e9c4f06d5dfca87f5d0dfaa8d0b971381876b5d50e78947312691dfd6686e81"}, "docker": "quay.io/biocontainers/r-dnet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dnet.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-dnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dnet:1.1.7--r42h3342da4_4
+$ shpc install quay.io/biocontainers/r-dnet:1.1.7--r43h3342da4_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dnet/1.1.7--r42h3342da4_4
-$ module help quay.io/biocontainers/r-dnet/1.1.7--r42h3342da4_4
+$ module load quay.io/biocontainers/r-dnet/1.1.7--r43h3342da4_5
+$ module help quay.io/biocontainers/r-dnet/1.1.7--r43h3342da4_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

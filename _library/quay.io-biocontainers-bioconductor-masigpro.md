@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-masigpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-masigpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-masigpro/container.yaml"
-updated_at: "2023-08-08 02:54:00.988020"
-latest: "1.70.0--r42hdfd78af_0"
+updated_at: "2023-08-09 02:59:13.298478"
+latest: "1.72.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-masigpro"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
  - "1.70.0--r42hdfd78af_0"
+ - "1.72.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-masigpro"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-masigpro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-masigpro", "latest": {"1.70.0--r42hdfd78af_0": "sha256:4ec81afbc30f3c704f383ac7a7aef7cbc096ef21760eb7a04e97d30390fb2742"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:9738ec5a2e05558a63af3e845d2b0acdcfbe863cb06edcb45383a631e1ed2eae", "1.70.0--r42hdfd78af_0": "sha256:4ec81afbc30f3c704f383ac7a7aef7cbc096ef21760eb7a04e97d30390fb2742"}, "docker": "quay.io/biocontainers/bioconductor-masigpro"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-masigpro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-masigpro", "latest": {"1.72.0--r43hdfd78af_0": "sha256:46996cd42dc4a3c25066b9c8c73f66a98c1abb9e934e543a85d72edb5e6a42f0"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:9738ec5a2e05558a63af3e845d2b0acdcfbe863cb06edcb45383a631e1ed2eae", "1.70.0--r42hdfd78af_0": "sha256:4ec81afbc30f3c704f383ac7a7aef7cbc096ef21760eb7a04e97d30390fb2742", "1.72.0--r43hdfd78af_0": "sha256:46996cd42dc4a3c25066b9c8c73f66a98c1abb9e934e543a85d72edb5e6a42f0"}, "docker": "quay.io/biocontainers/bioconductor-masigpro"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-masigpro.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-masigpro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-masigpro:1.70.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-masigpro:1.72.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-masigpro/1.70.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-masigpro/1.70.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-masigpro/1.72.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-masigpro/1.72.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

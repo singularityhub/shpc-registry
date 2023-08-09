@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-mcpcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mcpcounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mcpcounter/container.yaml"
-updated_at: "2023-08-08 03:06:48.433700"
-latest: "1.1.0--r42hdfd78af_4"
+updated_at: "2023-08-09 03:14:22.984004"
+latest: "1.1.0--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-mcpcounter"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.0--r41hdfd78af_3"
  - "1.1.0--r42hdfd78af_4"
+ - "1.1.0--r43hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-mcpcounter"
-config: {"url": "https://biocontainers.pro/tools/r-mcpcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mcpcounter", "latest": {"1.1.0--r42hdfd78af_4": "sha256:a7ed18852a933657e539598980080894e3facd7428172c54871a9e78e4394a8d"}, "tags": {"1.1.0--r41hdfd78af_3": "sha256:01586ea9b6d00f221e375e06b7e69cee655abf11ba9e0b377894a46c4ac8d265", "1.1.0--r42hdfd78af_4": "sha256:a7ed18852a933657e539598980080894e3facd7428172c54871a9e78e4394a8d"}, "docker": "quay.io/biocontainers/r-mcpcounter", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-mcpcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mcpcounter", "latest": {"1.1.0--r43hdfd78af_5": "sha256:5775e91573c329dd982e41abeae0e2efa01d87a2e73a7aab6af2eb5d3e10ae1b"}, "tags": {"1.1.0--r41hdfd78af_3": "sha256:01586ea9b6d00f221e375e06b7e69cee655abf11ba9e0b377894a46c4ac8d265", "1.1.0--r42hdfd78af_4": "sha256:a7ed18852a933657e539598980080894e3facd7428172c54871a9e78e4394a8d", "1.1.0--r43hdfd78af_5": "sha256:5775e91573c329dd982e41abeae0e2efa01d87a2e73a7aab6af2eb5d3e10ae1b"}, "docker": "quay.io/biocontainers/r-mcpcounter", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mcpcounter.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-mcpcounter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mcpcounter:1.1.0--r42hdfd78af_4
+$ shpc install quay.io/biocontainers/r-mcpcounter:1.1.0--r43hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mcpcounter/1.1.0--r42hdfd78af_4
-$ module help quay.io/biocontainers/r-mcpcounter/1.1.0--r42hdfd78af_4
+$ module load quay.io/biocontainers/r-mcpcounter/1.1.0--r43hdfd78af_5
+$ module help quay.io/biocontainers/r-mcpcounter/1.1.0--r43hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

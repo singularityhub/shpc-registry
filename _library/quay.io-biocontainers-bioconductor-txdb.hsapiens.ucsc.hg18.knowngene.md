@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/container.yaml"
-updated_at: "2023-08-08 02:40:43.130797"
-latest: "3.2.2--r42hdfd78af_14"
+updated_at: "2023-08-09 02:43:31.217943"
+latest: "3.2.2--r43hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.2--r40_9"
  - "3.2.2--r42hdfd78af_14"
+ - "3.2.2--r43hdfd78af_15"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "latest": {"3.2.2--r42hdfd78af_14": "sha256:9c4841299fd129d265a411b3d6831c559a8119a8aa2ca1256bc8aae3035f31b6"}, "tags": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32", "3.2.2--r42hdfd78af_14": "sha256:9c4841299fd129d265a411b3d6831c559a8119a8aa2ca1256bc8aae3035f31b6"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "latest": {"3.2.2--r43hdfd78af_15": "sha256:d7a33ab04d6decf72ad215ee70ce55b229e523f89474ef9e08966d16d45e8df6"}, "tags": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32", "3.2.2--r42hdfd78af_14": "sha256:9c4841299fd129d265a411b3d6831c559a8119a8aa2ca1256bc8aae3035f31b6", "3.2.2--r43hdfd78af_15": "sha256:d7a33ab04d6decf72ad215ee70ce55b229e523f89474ef9e08966d16d45e8df6"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene:3.2.2--r42hdfd78af_14
+$ shpc install quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene:3.2.2--r43hdfd78af_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r42hdfd78af_14
-$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r42hdfd78af_14
+$ module load quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r43hdfd78af_15
+$ module help quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/3.2.2--r43hdfd78af_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

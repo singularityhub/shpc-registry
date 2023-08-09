@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dartr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dartr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dartr/container.yaml"
-updated_at: "2023-08-08 02:49:30.263332"
-latest: "2.9.7--r42h3121a25_0"
+updated_at: "2023-08-09 02:53:53.286467"
+latest: "2.9.7--r43h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-dartr"
 aliases:
  - "pg_amcheck"
@@ -22,8 +22,9 @@ versions:
  - "2.0.4--r41h3121a25_0"
  - "2.0.4--r42h3121a25_1"
  - "2.9.7--r42h3121a25_0"
+ - "2.9.7--r43h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-dartr"
-config: {"url": "https://biocontainers.pro/tools/r-dartr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dartr", "latest": {"2.9.7--r42h3121a25_0": "sha256:cf83242ac7355b9acc1d099b9ef2df722e6097684e8e9bbd310ed53f714d04b0"}, "tags": {"2.0.4--r41h3121a25_0": "sha256:e666fc8c32eed5e81b3b94b2badfbf75fb3d841cd54b735ea1efd60f197c7a2e", "2.0.4--r42h3121a25_1": "sha256:c02119e7a566cb32d5807277bef40580fb1a9dead33c93e98e9d62562387c67b", "2.9.7--r42h3121a25_0": "sha256:cf83242ac7355b9acc1d099b9ef2df722e6097684e8e9bbd310ed53f714d04b0"}, "docker": "quay.io/biocontainers/r-dartr", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/r-dartr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dartr", "latest": {"2.9.7--r43h3121a25_1": "sha256:ea2d9db6d4c0be072334a7ce6e3e5d8229c8541bb632112e33dc9e73710d1264"}, "tags": {"2.0.4--r41h3121a25_0": "sha256:e666fc8c32eed5e81b3b94b2badfbf75fb3d841cd54b735ea1efd60f197c7a2e", "2.0.4--r42h3121a25_1": "sha256:c02119e7a566cb32d5807277bef40580fb1a9dead33c93e98e9d62562387c67b", "2.9.7--r42h3121a25_0": "sha256:cf83242ac7355b9acc1d099b9ef2df722e6097684e8e9bbd310ed53f714d04b0", "2.9.7--r43h3121a25_1": "sha256:ea2d9db6d4c0be072334a7ce6e3e5d8229c8541bb632112e33dc9e73710d1264"}, "docker": "quay.io/biocontainers/r-dartr", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dartr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-dartr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dartr:2.9.7--r42h3121a25_0
+$ shpc install quay.io/biocontainers/r-dartr:2.9.7--r43h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dartr/2.9.7--r42h3121a25_0
-$ module help quay.io/biocontainers/r-dartr/2.9.7--r42h3121a25_0
+$ module load quay.io/biocontainers/r-dartr/2.9.7--r43h3121a25_1
+$ module help quay.io/biocontainers/r-dartr/2.9.7--r43h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

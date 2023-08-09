@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msmseda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msmseda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msmseda/container.yaml"
-updated_at: "2023-08-08 02:58:33.315542"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-08-09 03:04:36.876010"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msmseda"
 aliases:
  - "zipcmp"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msmseda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msmseda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msmseda", "latest": {"1.36.0--r42hdfd78af_0": "sha256:b6882fbc1fa42a7d899c445e35aa5e860efc6ec652d5045c1a592203cc3b062a"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:56f2d171b50f2101257ab5574cfe3e58d54957fdb0d683edb6787fadf064da78", "1.36.0--r42hdfd78af_0": "sha256:b6882fbc1fa42a7d899c445e35aa5e860efc6ec652d5045c1a592203cc3b062a"}, "docker": "quay.io/biocontainers/bioconductor-msmseda", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msmseda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msmseda", "latest": {"1.38.0--r43hdfd78af_0": "sha256:3e9af520e83c3b466a94a8ff02b89018c4b1bf9e36794858f7a66047d2706a6b"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:56f2d171b50f2101257ab5574cfe3e58d54957fdb0d683edb6787fadf064da78", "1.36.0--r42hdfd78af_0": "sha256:b6882fbc1fa42a7d899c445e35aa5e860efc6ec652d5045c1a592203cc3b062a", "1.38.0--r43hdfd78af_0": "sha256:3e9af520e83c3b466a94a8ff02b89018c4b1bf9e36794858f7a66047d2706a6b"}, "docker": "quay.io/biocontainers/bioconductor-msmseda", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msmseda.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msmseda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msmseda:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msmseda:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msmseda/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msmseda/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msmseda/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msmseda/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

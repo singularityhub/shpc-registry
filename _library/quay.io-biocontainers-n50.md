@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/n50"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/n50/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/n50/container.yaml"
-updated_at: "2023-08-08 02:32:51.473995"
-latest: "1.5.6--pl5321hdfd78af_0"
+updated_at: "2023-08-09 02:34:11.765091"
+latest: "1.5.8--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/n50"
 aliases:
  - "fqc"
@@ -26,8 +26,9 @@ aliases:
 versions:
  - "1.5.0--pl5321hdfd78af_0"
  - "1.5.6--pl5321hdfd78af_0"
+ - "1.5.8--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for n50"
-config: {"url": "https://biocontainers.pro/tools/n50", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for n50", "latest": {"1.5.6--pl5321hdfd78af_0": "sha256:c7d9b50f0516e50b14ff1c243cbd421892c82fcc9b4a47e37b7874f64bfd22b6"}, "tags": {"1.5.0--pl5321hdfd78af_0": "sha256:922c631bfe7177b00b92556e28920909f8dadbfba6760fc49582efed0128d886", "1.5.6--pl5321hdfd78af_0": "sha256:c7d9b50f0516e50b14ff1c243cbd421892c82fcc9b4a47e37b7874f64bfd22b6"}, "docker": "quay.io/biocontainers/n50", "aliases": {"fqc": "/usr/local/bin/fqc", "fqlen.pl": "/usr/local/bin/fqlen.pl", "fu-cat": "/usr/local/bin/fu-cat", "fu-compare": "/usr/local/bin/fu-compare", "fu-count": "/usr/local/bin/fu-count", "fu-extract": "/usr/local/bin/fu-extract", "fu-grep": "/usr/local/bin/fu-grep", "fu-hash": "/usr/local/bin/fu-hash", "fu-len": "/usr/local/bin/fu-len", "fu-rename": "/usr/local/bin/fu-rename", "fu-sort": "/usr/local/bin/fu-sort", "fu-uniq": "/usr/local/bin/fu-uniq", "n50": "/usr/local/bin/n50", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/n50", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for n50", "latest": {"1.5.8--pl5321hdfd78af_0": "sha256:8d1153ee8ca467fae14d1b318849480917a3e6d0cd96c7ac78b32343ed181c53"}, "tags": {"1.5.0--pl5321hdfd78af_0": "sha256:922c631bfe7177b00b92556e28920909f8dadbfba6760fc49582efed0128d886", "1.5.6--pl5321hdfd78af_0": "sha256:c7d9b50f0516e50b14ff1c243cbd421892c82fcc9b4a47e37b7874f64bfd22b6", "1.5.8--pl5321hdfd78af_0": "sha256:8d1153ee8ca467fae14d1b318849480917a3e6d0cd96c7ac78b32343ed181c53"}, "docker": "quay.io/biocontainers/n50", "aliases": {"fqc": "/usr/local/bin/fqc", "fqlen.pl": "/usr/local/bin/fqlen.pl", "fu-cat": "/usr/local/bin/fu-cat", "fu-compare": "/usr/local/bin/fu-compare", "fu-count": "/usr/local/bin/fu-count", "fu-extract": "/usr/local/bin/fu-extract", "fu-grep": "/usr/local/bin/fu-grep", "fu-hash": "/usr/local/bin/fu-hash", "fu-len": "/usr/local/bin/fu-len", "fu-rename": "/usr/local/bin/fu-rename", "fu-sort": "/usr/local/bin/fu-sort", "fu-uniq": "/usr/local/bin/fu-uniq", "n50": "/usr/local/bin/n50", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/n50.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/n50
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/n50:1.5.6--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/n50:1.5.8--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/n50/1.5.6--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/n50/1.5.6--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/n50/1.5.8--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/n50/1.5.8--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

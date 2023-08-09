@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-condiments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-condiments/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-condiments/container.yaml"
-updated_at: "2023-08-08 02:38:29.444465"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-08-09 02:40:52.633635"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-condiments"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-condiments"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-condiments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-condiments", "latest": {"1.6.0--r42hdfd78af_0": "sha256:07c62ea96354b3aee8042ca9e8a3c8135e9d5b3e3ecb95e88e1715a0fd5dc7e2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ef993125e85953067245bf43a8f9448529253e7aba092a1748f73dedd2a00144", "1.6.0--r42hdfd78af_0": "sha256:07c62ea96354b3aee8042ca9e8a3c8135e9d5b3e3ecb95e88e1715a0fd5dc7e2"}, "docker": "quay.io/biocontainers/bioconductor-condiments"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-condiments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-condiments", "latest": {"1.8.0--r43hdfd78af_0": "sha256:fd76547ccbd2ca1fe9078f12a736749b2f2cf40277d262e7992180fac9ab5a92"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ef993125e85953067245bf43a8f9448529253e7aba092a1748f73dedd2a00144", "1.6.0--r42hdfd78af_0": "sha256:07c62ea96354b3aee8042ca9e8a3c8135e9d5b3e3ecb95e88e1715a0fd5dc7e2", "1.8.0--r43hdfd78af_0": "sha256:fd76547ccbd2ca1fe9078f12a736749b2f2cf40277d262e7992180fac9ab5a92"}, "docker": "quay.io/biocontainers/bioconductor-condiments"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-condiments.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-condiments
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-condiments:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-condiments:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-condiments/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-condiments/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-condiments/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-condiments/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

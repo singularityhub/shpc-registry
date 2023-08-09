@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-clusterstab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clusterstab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clusterstab/container.yaml"
-updated_at: "2023-08-08 03:16:02.301160"
-latest: "1.70.0--r42hdfd78af_0"
+updated_at: "2023-08-09 03:25:19.122097"
+latest: "1.72.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clusterstab"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
  - "1.70.0--r42hdfd78af_0"
+ - "1.72.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clusterstab"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clusterstab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clusterstab", "latest": {"1.70.0--r42hdfd78af_0": "sha256:883cbe94302238d5aeae8a5c51abf29bde5ca10050e159206f95e7c91cc5e681"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:500f3a29035eb0fb305838fb8d0cf2eea3d45f36c12012e46e436a0b55b9f9de", "1.70.0--r42hdfd78af_0": "sha256:883cbe94302238d5aeae8a5c51abf29bde5ca10050e159206f95e7c91cc5e681"}, "docker": "quay.io/biocontainers/bioconductor-clusterstab"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clusterstab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clusterstab", "latest": {"1.72.0--r43hdfd78af_0": "sha256:69f41cf78c8e328af4ae750125753056742993d6c3e92a1e61f1684c71d644d5"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:500f3a29035eb0fb305838fb8d0cf2eea3d45f36c12012e46e436a0b55b9f9de", "1.70.0--r42hdfd78af_0": "sha256:883cbe94302238d5aeae8a5c51abf29bde5ca10050e159206f95e7c91cc5e681", "1.72.0--r43hdfd78af_0": "sha256:69f41cf78c8e328af4ae750125753056742993d6c3e92a1e61f1684c71d644d5"}, "docker": "quay.io/biocontainers/bioconductor-clusterstab"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clusterstab.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clusterstab
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clusterstab:1.70.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-clusterstab:1.72.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clusterstab/1.70.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-clusterstab/1.70.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-clusterstab/1.72.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-clusterstab/1.72.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

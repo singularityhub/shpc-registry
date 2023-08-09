@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nestlink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nestlink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nestlink/container.yaml"
-updated_at: "2023-08-08 02:49:22.269251"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-08-09 02:53:43.878847"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nestlink"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_1"
  - "1.14.0--r42hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nestlink"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nestlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nestlink", "latest": {"1.14.0--r42hdfd78af_0": "sha256:25138e51996f1fba81050ebf798ef56721739709b3e6b922cea33275cf9949cc"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093", "1.10.0--r41hdfd78af_1": "sha256:69db6e6a2cdc4651683c2988ac0cba688db3f962ffe8d4de81ec74084158beee", "1.14.0--r42hdfd78af_0": "sha256:25138e51996f1fba81050ebf798ef56721739709b3e6b922cea33275cf9949cc"}, "docker": "quay.io/biocontainers/bioconductor-nestlink", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nestlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nestlink", "latest": {"1.16.0--r43hdfd78af_0": "sha256:2c390ffb720c9504dd6c2bdf6f419a1e34e2688e883e80b73d6ceb454851718e"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093", "1.10.0--r41hdfd78af_1": "sha256:69db6e6a2cdc4651683c2988ac0cba688db3f962ffe8d4de81ec74084158beee", "1.14.0--r42hdfd78af_0": "sha256:25138e51996f1fba81050ebf798ef56721739709b3e6b922cea33275cf9949cc", "1.16.0--r43hdfd78af_0": "sha256:2c390ffb720c9504dd6c2bdf6f419a1e34e2688e883e80b73d6ceb454851718e"}, "docker": "quay.io/biocontainers/bioconductor-nestlink", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nestlink.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nestlink
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nestlink:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nestlink:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nestlink/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nestlink/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nestlink/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nestlink/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

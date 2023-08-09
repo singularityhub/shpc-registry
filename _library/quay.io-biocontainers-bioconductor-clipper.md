@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-clipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clipper/container.yaml"
-updated_at: "2023-08-08 02:36:27.241592"
-latest: "1.38.0--r42hf17093f_1"
+updated_at: "2023-08-09 02:38:27.508014"
+latest: "1.40.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clipper"
 aliases:
  - "glpsol"
@@ -13,8 +13,9 @@ versions:
  - "1.34.0--r41hc247a5b_2"
  - "1.38.0--r42hc247a5b_0"
  - "1.38.0--r42hf17093f_1"
+ - "1.40.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clipper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clipper", "latest": {"1.38.0--r42hf17093f_1": "sha256:eef0423732423a4e590928ebdd8effa17932a8770056022f05d4d4d9c060a20d"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6", "1.38.0--r42hc247a5b_0": "sha256:61ee1f0761e526de95824c67bc437a3c5f6d6c7e7b5bc5276cf5a5e01cd3cf28", "1.38.0--r42hf17093f_1": "sha256:eef0423732423a4e590928ebdd8effa17932a8770056022f05d4d4d9c060a20d"}, "docker": "quay.io/biocontainers/bioconductor-clipper", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clipper", "latest": {"1.40.0--r43hf17093f_0": "sha256:d563da82ddf5706ebc2766699c069bea9bdc9ac3345cbf27e4c4f13949dca304"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6", "1.38.0--r42hc247a5b_0": "sha256:61ee1f0761e526de95824c67bc437a3c5f6d6c7e7b5bc5276cf5a5e01cd3cf28", "1.38.0--r42hf17093f_1": "sha256:eef0423732423a4e590928ebdd8effa17932a8770056022f05d4d4d9c060a20d", "1.40.0--r43hf17093f_0": "sha256:d563da82ddf5706ebc2766699c069bea9bdc9ac3345cbf27e4c4f13949dca304"}, "docker": "quay.io/biocontainers/bioconductor-clipper", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clipper.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clipper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clipper:1.38.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-clipper:1.40.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clipper/1.38.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-clipper/1.38.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-clipper/1.40.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-clipper/1.40.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

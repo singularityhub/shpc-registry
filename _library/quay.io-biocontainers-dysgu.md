@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dysgu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dysgu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dysgu/container.yaml"
-updated_at: "2023-08-08 02:54:32.846353"
-latest: "1.4.0--py310h770aed0_0"
+updated_at: "2023-08-09 02:59:50.859797"
+latest: "1.5.0--py310h770aed0_1"
 container_url: "https://biocontainers.pro/tools/dysgu"
 aliases:
  - "dysgu"
@@ -26,8 +26,10 @@ aliases:
 versions:
  - "1.3.16--py310h0de0465_0"
  - "1.4.0--py310h770aed0_0"
+ - "1.5.0--py310h770aed0_1"
+ - "1.4.2--py310h770aed0_0"
 description: "singularity registry hpc automated addition for dysgu"
-config: {"url": "https://biocontainers.pro/tools/dysgu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dysgu", "latest": {"1.4.0--py310h770aed0_0": "sha256:e85a4699fc442ab367689e5e07f396c86720eac0d7167e81541b392072b8da0c"}, "tags": {"1.3.16--py310h0de0465_0": "sha256:d5b234ea95b6e111d944c889022654eac052b585c89ba1831e1c481f96517894", "1.4.0--py310h770aed0_0": "sha256:e85a4699fc442ab367689e5e07f396c86720eac0d7167e81541b392072b8da0c"}, "docker": "quay.io/biocontainers/dysgu", "aliases": {"dysgu": "/usr/local/bin/dysgu", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/dysgu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dysgu", "latest": {"1.5.0--py310h770aed0_1": "sha256:64c659cee47ed1066e6cb5c3bd250232578d9523e3f2c4db29831616007e6bec"}, "tags": {"1.3.16--py310h0de0465_0": "sha256:d5b234ea95b6e111d944c889022654eac052b585c89ba1831e1c481f96517894", "1.4.0--py310h770aed0_0": "sha256:e85a4699fc442ab367689e5e07f396c86720eac0d7167e81541b392072b8da0c", "1.5.0--py310h770aed0_1": "sha256:64c659cee47ed1066e6cb5c3bd250232578d9523e3f2c4db29831616007e6bec", "1.4.2--py310h770aed0_0": "sha256:f732349bdef8c79e4ff553babe86ed3506cf9318f7f092db4941be0d43850e18"}, "docker": "quay.io/biocontainers/dysgu", "aliases": {"dysgu": "/usr/local/bin/dysgu", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dysgu.
@@ -42,7 +44,7 @@ $ shpc install quay.io/biocontainers/dysgu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dysgu:1.4.0--py310h770aed0_0
+$ shpc install quay.io/biocontainers/dysgu:1.5.0--py310h770aed0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dysgu/1.4.0--py310h770aed0_0
-$ module help quay.io/biocontainers/dysgu/1.4.0--py310h770aed0_0
+$ module load quay.io/biocontainers/dysgu/1.5.0--py310h770aed0_1
+$ module help quay.io/biocontainers/dysgu/1.5.0--py310h770aed0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

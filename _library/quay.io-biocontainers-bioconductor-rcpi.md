@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rcpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcpi/container.yaml"
-updated_at: "2023-08-08 02:40:44.408577"
-latest: "1.34.0--r42hdfd78af_0"
+updated_at: "2023-08-09 02:43:32.693661"
+latest: "1.36.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcpi"
 aliases:
  - "rsvg-convert"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.30.0--r41hdfd78af_0"
  - "1.34.0--r42hdfd78af_0"
+ - "1.36.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcpi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcpi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcpi", "latest": {"1.34.0--r42hdfd78af_0": "sha256:51eb62c8c7c76bbfa38edf560137ab196f4ea43c7e386942f6eb6365a52bd105"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:e6773a20075628e2bf4f367009457f3fb3497408b5d6943bbf9a1cd894c87bb7", "1.34.0--r42hdfd78af_0": "sha256:51eb62c8c7c76bbfa38edf560137ab196f4ea43c7e386942f6eb6365a52bd105"}, "docker": "quay.io/biocontainers/bioconductor-rcpi", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcpi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcpi", "latest": {"1.36.1--r43hdfd78af_0": "sha256:9628d991c9175a43ebcaa23adce279dffd9a604d95374f78ce612f3a108ea0f3"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:e6773a20075628e2bf4f367009457f3fb3497408b5d6943bbf9a1cd894c87bb7", "1.34.0--r42hdfd78af_0": "sha256:51eb62c8c7c76bbfa38edf560137ab196f4ea43c7e386942f6eb6365a52bd105", "1.36.1--r43hdfd78af_0": "sha256:9628d991c9175a43ebcaa23adce279dffd9a604d95374f78ce612f3a108ea0f3"}, "docker": "quay.io/biocontainers/bioconductor-rcpi", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcpi.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcpi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcpi:1.34.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rcpi:1.36.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcpi/1.34.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rcpi/1.34.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rcpi/1.36.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcpi/1.36.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

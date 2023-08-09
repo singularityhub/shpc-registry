@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hapbin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapbin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapbin/container.yaml"
-updated_at: "2023-08-08 03:11:03.403194"
+updated_at: "2023-08-09 03:19:23.388455"
 latest: "1.3.0--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/hapbin"
 aliases:

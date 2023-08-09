@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-liger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-liger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-liger/container.yaml"
-updated_at: "2023-08-08 03:20:03.476643"
-latest: "1.0.0--r42hd0834be_4"
+updated_at: "2023-08-09 03:30:04.742925"
+latest: "1.0.0--r43hd0834be_5"
 container_url: "https://biocontainers.pro/tools/r-liger"
 aliases:
  - "numba"
@@ -22,8 +22,9 @@ versions:
  - "1.0.0--r41h3b3379e_1"
  - "1.0.0--r42h3b3379e_2"
  - "1.0.0--r42hd0834be_4"
+ - "1.0.0--r43hd0834be_5"
 description: "shpc-registry automated BioContainers addition for r-liger"
-config: {"url": "https://biocontainers.pro/tools/r-liger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-liger", "latest": {"1.0.0--r42hd0834be_4": "sha256:3d9f715c4c84f67d953a43612119339025506f753556082b9b0accf0c2b2694c"}, "tags": {"1.0.0--r41h3b3379e_1": "sha256:bc852d337eac33592fb472f8609d0cc5794e94c3026bf534fab5a0453410a786", "1.0.0--r42h3b3379e_2": "sha256:caefaf04cc1bdc4aec5b0bd3569a90f2cf00dbbb58623327dc26b63fc83caae4", "1.0.0--r42hd0834be_4": "sha256:3d9f715c4c84f67d953a43612119339025506f753556082b9b0accf0c2b2694c"}, "docker": "quay.io/biocontainers/r-liger", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/r-liger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-liger", "latest": {"1.0.0--r43hd0834be_5": "sha256:f75b13940c477b784426515501e83f5aae9645bd1f350c2ca9120ff05a523db9"}, "tags": {"1.0.0--r41h3b3379e_1": "sha256:bc852d337eac33592fb472f8609d0cc5794e94c3026bf534fab5a0453410a786", "1.0.0--r42h3b3379e_2": "sha256:caefaf04cc1bdc4aec5b0bd3569a90f2cf00dbbb58623327dc26b63fc83caae4", "1.0.0--r42hd0834be_4": "sha256:3d9f715c4c84f67d953a43612119339025506f753556082b9b0accf0c2b2694c", "1.0.0--r43hd0834be_5": "sha256:f75b13940c477b784426515501e83f5aae9645bd1f350c2ca9120ff05a523db9"}, "docker": "quay.io/biocontainers/r-liger", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-liger.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/r-liger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-liger:1.0.0--r42hd0834be_4
+$ shpc install quay.io/biocontainers/r-liger:1.0.0--r43hd0834be_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-liger/1.0.0--r42hd0834be_4
-$ module help quay.io/biocontainers/r-liger/1.0.0--r42hd0834be_4
+$ module load quay.io/biocontainers/r-liger/1.0.0--r43hd0834be_5
+$ module help quay.io/biocontainers/r-liger/1.0.0--r43hd0834be_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

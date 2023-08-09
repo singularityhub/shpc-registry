@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anndata2ri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anndata2ri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anndata2ri/container.yaml"
-updated_at: "2023-08-08 02:39:01.264258"
-latest: "1.1--pyhdfd78af_0"
+updated_at: "2023-08-09 02:41:30.572203"
+latest: "1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anndata2ri"
 aliases:
  - "dunamai"
@@ -21,8 +21,9 @@ aliases:
  - "mirror_server_stop"
 versions:
  - "1.1--pyhdfd78af_0"
+ - "1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for anndata2ri"
-config: {"url": "https://biocontainers.pro/tools/anndata2ri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anndata2ri", "latest": {"1.1--pyhdfd78af_0": "sha256:f8725d1eeacd7a8cd2a8a654871b5c8e5a84930ba6f0f7232290045b7f017141"}, "tags": {"1.1--pyhdfd78af_0": "sha256:f8725d1eeacd7a8cd2a8a654871b5c8e5a84930ba6f0f7232290045b7f017141"}, "docker": "quay.io/biocontainers/anndata2ri", "aliases": {"dunamai": "/usr/local/bin/dunamai", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop"}}
+config: {"url": "https://biocontainers.pro/tools/anndata2ri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anndata2ri", "latest": {"1.2--pyhdfd78af_0": "sha256:6befd4cc098358eaaa88df048b796ecf4c819fde4638f60f63e7432e1a9b3a2b"}, "tags": {"1.1--pyhdfd78af_0": "sha256:f8725d1eeacd7a8cd2a8a654871b5c8e5a84930ba6f0f7232290045b7f017141", "1.2--pyhdfd78af_0": "sha256:6befd4cc098358eaaa88df048b796ecf4c819fde4638f60f63e7432e1a9b3a2b"}, "docker": "quay.io/biocontainers/anndata2ri", "aliases": {"dunamai": "/usr/local/bin/dunamai", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anndata2ri.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/anndata2ri
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anndata2ri:1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/anndata2ri:1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anndata2ri/1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/anndata2ri/1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/anndata2ri/1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/anndata2ri/1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

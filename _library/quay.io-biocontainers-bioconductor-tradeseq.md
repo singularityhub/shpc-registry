@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-tradeseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tradeseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tradeseq/container.yaml"
-updated_at: "2023-08-08 03:12:23.718856"
-latest: "1.12.0--r42hdfd78af_0"
+updated_at: "2023-08-09 03:20:58.759228"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tradeseq"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tradeseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tradeseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tradeseq", "latest": {"1.12.0--r42hdfd78af_0": "sha256:065dd4fa5f2a6ef3469cd20fd0a25d66849d1fc235857fd57286aa6e945e31b8"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:8871e88317ce06c163f0b8debefc59300e812b66113e52bd9d9125bc05b6b7e6", "1.12.0--r42hdfd78af_0": "sha256:065dd4fa5f2a6ef3469cd20fd0a25d66849d1fc235857fd57286aa6e945e31b8"}, "docker": "quay.io/biocontainers/bioconductor-tradeseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tradeseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tradeseq", "latest": {"1.14.0--r43hdfd78af_0": "sha256:692def78abdf75a6d914c1e54caf226e4f269eaf4c977db1516b6aadf2f72132"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:8871e88317ce06c163f0b8debefc59300e812b66113e52bd9d9125bc05b6b7e6", "1.12.0--r42hdfd78af_0": "sha256:065dd4fa5f2a6ef3469cd20fd0a25d66849d1fc235857fd57286aa6e945e31b8", "1.14.0--r43hdfd78af_0": "sha256:692def78abdf75a6d914c1e54caf226e4f269eaf4c977db1516b6aadf2f72132"}, "docker": "quay.io/biocontainers/bioconductor-tradeseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tradeseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tradeseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tradeseq:1.12.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tradeseq:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tradeseq/1.12.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tradeseq/1.12.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tradeseq/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tradeseq/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
