@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-reactome.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-reactome.db
 latest:
-  1.82.0--r42hdfd78af_0: sha256:f5c20f013ce4af8a4123761abe734a76244ce122414624ea206bd3e58bc61ec6
+  1.84.0--r43hdfd78af_0: sha256:43f0d2fb8dbf5d6ac047322c9f6955f0655bbb0cb8d8765f377069ca1c9e8cff
 tags:
   1.77.0--r41hdfd78af_1: sha256:2301f2cfeb35b701854b62f300fcd8d3ec55a4f9356e68d2ae3e52f5b634e9ce
   1.82.0--r42hdfd78af_0: sha256:f5c20f013ce4af8a4123761abe734a76244ce122414624ea206bd3e58bc61ec6
+  1.84.0--r43hdfd78af_0: sha256:43f0d2fb8dbf5d6ac047322c9f6955f0655bbb0cb8d8765f377069ca1c9e8cff
 docker: quay.io/biocontainers/bioconductor-reactome.db

@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-msd16s
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msd16s
 latest:
-  1.18.0--r42hdfd78af_0: sha256:92d1634cd1ee79f15617ed1849ac8779c0d10cdcd2f7e0934a2fda40be608453
+  1.20.0--r43hdfd78af_0: sha256:ee2284fdb85461c6c38bce5e8cd38bab4b58d1614fddbce8d9e5ed97c6c68e5a
 tags:
   1.8.0--r40_0: sha256:e305888101fdcbfb5b74fb5ccb664103a49f0f7adc7e65f570a36cdede20bab2
   1.18.0--r42hdfd78af_0: sha256:92d1634cd1ee79f15617ed1849ac8779c0d10cdcd2f7e0934a2fda40be608453
   1.14.0--r41hdfd78af_1: sha256:6018c8a3172c9119c4d96a35dd87ee990bc669c291e0dd968521738cdb5ebc54
   1.12.0--r41hdfd78af_0: sha256:0c18b8013822c0172c2ed7e7ffe4524812382bea5d42702a90879d57381faff4
   1.10.0--r40hdfd78af_1: sha256:d3f87842e4eb4470c7b0a05725c7104d7bc633bff550ea231b392751b0bb2015
+  1.20.0--r43hdfd78af_0: sha256:ee2284fdb85461c6c38bce5e8cd38bab4b58d1614fddbce8d9e5ed97c6c68e5a
 docker: quay.io/biocontainers/bioconductor-msd16s
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

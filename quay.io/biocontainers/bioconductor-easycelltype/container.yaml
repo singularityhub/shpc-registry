@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-easycelltype
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-easycelltype
 latest:
-  1.0.0--r42hdfd78af_0: sha256:456201f0f2ec798c41e91c3878546bb84eb221ec84b681ea737ec68ff00e60ea
+  1.2.0--r43hdfd78af_0: sha256:50ac5733277bb1acdec479c100a0a9ceb55b23be20ad684297f9e5d814c89c4f
 tags:
   1.0.0--r42hdfd78af_0: sha256:456201f0f2ec798c41e91c3878546bb84eb221ec84b681ea737ec68ff00e60ea
+  1.2.0--r43hdfd78af_0: sha256:50ac5733277bb1acdec479c100a0a9ceb55b23be20ad684297f9e5d814c89c4f
 docker: quay.io/biocontainers/bioconductor-easycelltype
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

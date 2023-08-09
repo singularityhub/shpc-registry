@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-celeganscdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-celeganscdf
 latest:
-  2.18.0--r42hdfd78af_10: sha256:cb4529f9b142253281db618613f2b49cbcc9919ebacb5118c052d1a17e9a0d7e
+  2.18.0--r43hdfd78af_11: sha256:5045e3a3cb460b8fb899dfa8c9bc341fd4ea89b8710937cc8ec23bf690b7c0fe
 tags:
   2.18.0--r41hdfd78af_9: sha256:850fe34fdf991fe4be6cbd4ad77972637a0de722da56179c5e4261f49d95b861
   2.18.0--r42hdfd78af_10: sha256:cb4529f9b142253281db618613f2b49cbcc9919ebacb5118c052d1a17e9a0d7e
+  2.18.0--r43hdfd78af_11: sha256:5045e3a3cb460b8fb899dfa8c9bc341fd4ea89b8710937cc8ec23bf690b7c0fe
 docker: quay.io/biocontainers/bioconductor-celeganscdf

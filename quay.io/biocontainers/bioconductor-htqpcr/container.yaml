@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-htqpcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htqpcr
 latest:
-  1.52.0--r42hdfd78af_0: sha256:b1b032752dcbde0352e3a485ecebf6fa40959f9b96aa91c19285250ecb11edc3
+  1.54.0--r43hdfd78af_0: sha256:59ead975d92db3bd05602b89b39e45aa8d29a7a289734698766469f3d4837934
 tags:
   1.48.0--r41hdfd78af_0: sha256:3ed305a8a9bbaa5138133e71c3f9739a978439110d14ea6292a1f27f4da69370
   1.52.0--r42hdfd78af_0: sha256:b1b032752dcbde0352e3a485ecebf6fa40959f9b96aa91c19285250ecb11edc3
+  1.54.0--r43hdfd78af_0: sha256:59ead975d92db3bd05602b89b39e45aa8d29a7a289734698766469f3d4837934
 docker: quay.io/biocontainers/bioconductor-htqpcr

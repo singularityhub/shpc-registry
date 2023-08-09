@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hitc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hitc
 latest:
-  1.42.0--r42hdfd78af_0: sha256:9acb5952ea530991b9718b10296e22dda26ca6fa3cade9cf568d6181977ef3f1
+  1.44.0--r43hdfd78af_0: sha256:3a8e537c71741287a79f562aca2ff27f94b4daa7243c1c5ce4fa0ad31f1662c5
 tags:
   1.38.0--r41hdfd78af_0: sha256:a6a4e5440b903ccd19ae12145a8802ced238c48af4a396b5518bffb0f2b6db0c
   1.42.0--r42hdfd78af_0: sha256:9acb5952ea530991b9718b10296e22dda26ca6fa3cade9cf568d6181977ef3f1
+  1.44.0--r43hdfd78af_0: sha256:3a8e537c71741287a79f562aca2ff27f94b4daa7243c1c5ce4fa0ad31f1662c5
 docker: quay.io/biocontainers/bioconductor-hitc

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-rqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rqc
 latest:
-  1.32.0--r42hf17093f_1: sha256:a5223b8b11433cf0dfab4beaa111798b090dff0933e11a0cf98ddfc383acf8e2
+  1.34.0--r43hf17093f_0: sha256:c5faecae6798e1730350fae3024eb87d6faeb5f97fc0799f9195a9e8a89bfc4d
 tags:
   1.28.0--r41hc247a5b_2: sha256:a55f1c5c12dc6063c1249e17f88771f13c6715b1337aa78056eae3293e7a8d64
   1.32.0--r42hc247a5b_0: sha256:40213efc9b9be6c13eac59aba9d7492eb77376a197406265ef12ce88b5fb7e28
   1.32.0--r42hf17093f_1: sha256:a5223b8b11433cf0dfab4beaa111798b090dff0933e11a0cf98ddfc383acf8e2
+  1.34.0--r43hf17093f_0: sha256:c5faecae6798e1730350fae3024eb87d6faeb5f97fc0799f9195a9e8a89bfc4d
 docker: quay.io/biocontainers/bioconductor-rqc
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

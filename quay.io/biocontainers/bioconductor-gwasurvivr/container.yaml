@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-gwasurvivr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gwasurvivr
 latest:
-  1.16.0--r42hdfd78af_0: sha256:ec67b943b1c83b682fbf40b48978aefe97bb7db75a5d3c7d62505bf2c0cbf6be
+  1.18.0--r43hdfd78af_0: sha256:3206ae383f89b837722a68f5854697415947dd17b97d337347333c7df68b0854
 tags:
   1.8.0--r40hdfd78af_1: sha256:b785e7a00fc9992cf568d2e5cc2c0527f24293614cd7173f72f1c0ff3ee0a32f
   1.16.0--r42hdfd78af_0: sha256:ec67b943b1c83b682fbf40b48978aefe97bb7db75a5d3c7d62505bf2c0cbf6be
   1.12.0--r41hdfd78af_0: sha256:de529a1d2202f53a0149ccdae05fbbc9cec0af18c9a035052181a93874561df1
   1.10.0--r41hdfd78af_0: sha256:8afe932e972ae29ccb82a90b9b72ea384d7027a395d0900b4b90acc45732052a
+  1.18.0--r43hdfd78af_0: sha256:3206ae383f89b837722a68f5854697415947dd17b97d337347333c7df68b0854
 docker: quay.io/biocontainers/bioconductor-gwasurvivr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

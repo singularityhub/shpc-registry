@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-standr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-standr
 latest:
-  1.2.0--r42hdfd78af_0: sha256:2d9ecb6363d66e7915526150762a51a54e0e82ba29f352742dcb2eab58692d04
+  1.4.2--r43hdfd78af_0: sha256:babd61a70e43ed3fa243eaa0e0af1423c016798b1845a2740505a4f2f48d6929
 tags:
   1.2.0--r42hdfd78af_0: sha256:2d9ecb6363d66e7915526150762a51a54e0e82ba29f352742dcb2eab58692d04
+  1.4.2--r43hdfd78af_0: sha256:babd61a70e43ed3fa243eaa0e0af1423c016798b1845a2740505a4f2f48d6929
 docker: quay.io/biocontainers/bioconductor-standr
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

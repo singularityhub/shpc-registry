@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rlhub
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rlhub
 latest:
-  1.4.0--r42hdfd78af_0: sha256:0bad3b51b2a7a551b401ab5255d7174b6bacd287c03ea4e4e2a1787327553a02
+  1.6.0--r43hdfd78af_0: sha256:305e5f1a924412d30a4b5e209ae5344e09d0c1cac35579acdbcd32ec8c228348
 tags:
   1.0.0--r41hdfd78af_1: sha256:2925bc52b6d4f59cdea50c4d271a1c4206909374cdfe57912d7f94529deb878a
   1.4.0--r42hdfd78af_0: sha256:0bad3b51b2a7a551b401ab5255d7174b6bacd287c03ea4e4e2a1787327553a02
+  1.6.0--r43hdfd78af_0: sha256:305e5f1a924412d30a4b5e209ae5344e09d0c1cac35579acdbcd32ec8c228348
 docker: quay.io/biocontainers/bioconductor-rlhub

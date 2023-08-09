@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-harbchip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-harbchip
 latest:
-  1.36.0--r42hdfd78af_0: sha256:782ac11e3161e14b08f479d5ea00eb352ae4de3cb898e0df23f3166f90d13023
+  1.38.0--r43hdfd78af_0: sha256:f6a3f51afde079b214fa087f66417fda39a8570c5ab4bacf636be5a37997eec6
 tags:
   1.32.0--r41hdfd78af_1: sha256:b96e33d5e1626f8d2072f019e2945f0cdc123b3e9bf80c4397325d316f7da66c
   1.36.0--r42hdfd78af_0: sha256:782ac11e3161e14b08f479d5ea00eb352ae4de3cb898e0df23f3166f90d13023
+  1.38.0--r43hdfd78af_0: sha256:f6a3f51afde079b214fa087f66417fda39a8570c5ab4bacf636be5a37997eec6
 docker: quay.io/biocontainers/bioconductor-harbchip
