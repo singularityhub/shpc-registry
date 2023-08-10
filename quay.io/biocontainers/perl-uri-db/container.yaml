@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-uri-db
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-uri-db
+latest:
+  0.21--pl5321hdfd78af_0: sha256:af667119bb8fae1bae141f94665ea50caaba390596f30300145fe2c45cf7d18a
+tags:
+  0.21--pl5321hdfd78af_0: sha256:af667119bb8fae1bae141f94665ea50caaba390596f30300145fe2c45cf7d18a
+docker: quay.io/biocontainers/perl-uri-db
