@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-seqcna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-seqcna
 latest:
-  1.44.0--r42hf17093f_1: sha256:e278e6a55ae208a595deef2e572b2d9a9ef01d89f5d441c65b0afe878a2d6df9
+  1.46.0--r43hf17093f_0: sha256:4514a9e412c3778517874fee2fc5779b163c601d16c3133ac033f77e1fff568f
 tags:
   1.40.0--r41hc247a5b_2: sha256:261ec3ce7def9d6908e4305604a465f859e023d6d8dc0a4a9d66dc81ad077df2
   1.44.0--r42hc247a5b_0: sha256:dcfb94043053a5c4001e5da3794c29552ba5dcaa44e7945cda525e9973019a1f
   1.44.0--r42hf17093f_1: sha256:e278e6a55ae208a595deef2e572b2d9a9ef01d89f5d441c65b0afe878a2d6df9
+  1.46.0--r43hf17093f_0: sha256:4514a9e412c3778517874fee2fc5779b163c601d16c3133ac033f77e1fff568f
 docker: quay.io/biocontainers/bioconductor-seqcna

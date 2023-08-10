@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-htseqgenie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htseqgenie
 latest:
-  4.27.0--r42hdfd78af_0: sha256:c9a6d83a0f0faaa547f85722811ffc47f33856f959e643d3e3dcd80dd15d1009
+  4.30.0--r43hdfd78af_0: sha256:f0931b93ac1a2c0820749123d512c3fa10a599dca6d692a97797f3b20d07865a
 tags:
   4.24.0--r41hdfd78af_0: sha256:ed867da011fc173d46c793be4a6b0d6979d8409f1f1e115e8e86912f54c20ca1
   4.27.0--r42hdfd78af_0: sha256:c9a6d83a0f0faaa547f85722811ffc47f33856f959e643d3e3dcd80dd15d1009
+  4.30.0--r43hdfd78af_0: sha256:f0931b93ac1a2c0820749123d512c3fa10a599dca6d692a97797f3b20d07865a
 docker: quay.io/biocontainers/bioconductor-htseqgenie

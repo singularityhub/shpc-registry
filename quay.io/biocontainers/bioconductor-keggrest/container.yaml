@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-keggrest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-keggrest
 latest:
-  1.38.0--r42hdfd78af_0: sha256:4e46144e74744e81b4df3eb2ff5cccffef8c531afcfc19ee8b4911ee5ba7e435
+  1.40.0--r43hdfd78af_0: sha256:ce63afe899708c407c53864ff90d830ba997b0e7b56bce00bae5962667fb77e9
 tags:
   1.34.0--r41hdfd78af_0: sha256:b5b872a18bcedcf11f91df10d95a83152d26d2235a051f9ec1d153be003894a4
   1.38.0--r42hdfd78af_0: sha256:4e46144e74744e81b4df3eb2ff5cccffef8c531afcfc19ee8b4911ee5ba7e435
+  1.40.0--r43hdfd78af_0: sha256:ce63afe899708c407c53864ff90d830ba997b0e7b56bce00bae5962667fb77e9
 docker: quay.io/biocontainers/bioconductor-keggrest

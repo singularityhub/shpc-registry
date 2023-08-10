@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-podkat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-podkat
 latest:
-  1.30.0--r42hf17093f_1: sha256:5de5acd4f58af78d3a8aac33e7b5780420b82e641d7ef24e988ccff1c4473190
+  1.32.0--r43hf17093f_0: sha256:2f5b3b0c152761e939a0beffeda821a28fe48a078814ed09ea1f243e15640aed
 tags:
   1.8.0--r3.4.1_0: sha256:d64e79460dab4cc5ab216ccf4d122ebb04b0321549fc881458c216f5c2deb283
   1.30.0--r42hc247a5b_0: sha256:1fed7ffe4f06f07341c1cf6d6dd47a6dd5cb582a467c68bf54c1950fc0823c14
@@ -11,6 +11,7 @@ tags:
   1.22.0--r40h399db7b_1: sha256:714ddce9c4646724f4c5c51c2502004a660db78b2665f35754984a41f1244701
   1.20.0--r40h5f743cb_0: sha256:89e51e40fdeff17ca2eefb53f6152757b9a0d6a29543b52ad56f6a67d4c739bf
   1.30.0--r42hf17093f_1: sha256:5de5acd4f58af78d3a8aac33e7b5780420b82e641d7ef24e988ccff1c4473190
+  1.32.0--r43hf17093f_0: sha256:2f5b3b0c152761e939a0beffeda821a28fe48a078814ed09ea1f243e15640aed
 docker: quay.io/biocontainers/bioconductor-podkat
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

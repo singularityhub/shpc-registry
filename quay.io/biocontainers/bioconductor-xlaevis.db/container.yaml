@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-xlaevis.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xlaevis.db
 latest:
-  3.2.3--r42hdfd78af_10: sha256:d29c1b33c91a7bbe6fe8d6cd6333b0f20b5f3c1ed5d0fddac63e589fc45e3ac2
+  3.2.3--r43hdfd78af_11: sha256:ef8fdbcac1d822505b4ca5841ae4c4b31ff39e6fe86bdb425ac3d654d1f41b5e
 tags:
   3.2.3--r41hdfd78af_9: sha256:0f501eb5d76b3e0c77eda0393677d6c6b17e31de1357b6c3bf07be4a9ff9b21e
   3.2.3--r42hdfd78af_10: sha256:d29c1b33c91a7bbe6fe8d6cd6333b0f20b5f3c1ed5d0fddac63e589fc45e3ac2
+  3.2.3--r43hdfd78af_11: sha256:ef8fdbcac1d822505b4ca5841ae4c4b31ff39e6fe86bdb425ac3d654d1f41b5e
 docker: quay.io/biocontainers/bioconductor-xlaevis.db

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hpar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hpar
 latest:
-  1.40.0--r42hdfd78af_0: sha256:29a228ba1a5560bca8998fb7b10264156e283b58a7cf97e47f206db1a81eb94a
+  1.42.0--r43hdfd78af_0: sha256:587eda4b189b08cc9d39b0f0764ecc6441e66ca3bc03c36e9fc094350bfaa66f
 tags:
   1.36.0--r41hdfd78af_0: sha256:d714ef320c784ed284037cffbf5d80903586edf16ab6619b476c9b86a30bfad6
   1.40.0--r42hdfd78af_0: sha256:29a228ba1a5560bca8998fb7b10264156e283b58a7cf97e47f206db1a81eb94a
+  1.42.0--r43hdfd78af_0: sha256:587eda4b189b08cc9d39b0f0764ecc6441e66ca3bc03c36e9fc094350bfaa66f
 docker: quay.io/biocontainers/bioconductor-hpar

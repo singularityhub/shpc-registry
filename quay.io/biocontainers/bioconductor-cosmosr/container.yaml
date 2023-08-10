@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cosmosr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cosmosr
 latest:
-  1.6.0--r42hdfd78af_0: sha256:0a3e128e97d73aaae0650b03f891c459f6044998151c1342a5b93bf7f252d894
+  1.8.0--r43hdfd78af_0: sha256:d11883ed4433b28863e6848c12bbd24a1831878785ce5522169d1e9b60db20c9
 tags:
   1.2.0--r41hdfd78af_0: sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0
   1.6.0--r42hdfd78af_0: sha256:0a3e128e97d73aaae0650b03f891c459f6044998151c1342a5b93bf7f252d894
+  1.8.0--r43hdfd78af_0: sha256:d11883ed4433b28863e6848c12bbd24a1831878785ce5522169d1e9b60db20c9
 docker: quay.io/biocontainers/bioconductor-cosmosr
 aliases:
   pandoc: /usr/local/bin/pandoc

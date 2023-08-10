@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-lineagespot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-lineagespot
 latest:
-  1.2.0--r42hdfd78af_0: sha256:e88fb6c2ea188dad5e4ac93ef69d4030a87f4624458a8dc6b8ebccabb4315038
+  1.4.0--r43hdfd78af_0: sha256:fa74ac3d992205455a8995df92fbfb411053e9543cc896fcffda5d95ff06c874
 tags:
   1.2.0--r42hdfd78af_0: sha256:e88fb6c2ea188dad5e4ac93ef69d4030a87f4624458a8dc6b8ebccabb4315038
+  1.4.0--r43hdfd78af_0: sha256:fa74ac3d992205455a8995df92fbfb411053e9543cc896fcffda5d95ff06c874
 docker: quay.io/biocontainers/bioconductor-lineagespot
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
