@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-intego"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-intego/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-intego/container.yaml"
-updated_at: "2023-08-09 03:11:51.544692"
-latest: "2.0--r42h9ee0642_4"
+updated_at: "2023-08-10 03:11:16.490984"
+latest: "2.0--r43h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/r-intego"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.0--r41h9ee0642_3"
  - "2.0--r42h9ee0642_4"
+ - "2.0--r43h9ee0642_5"
 description: "shpc-registry automated BioContainers addition for r-intego"
-config: {"url": "https://biocontainers.pro/tools/r-intego", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-intego", "latest": {"2.0--r42h9ee0642_4": "sha256:fa467ee12d2d1e39425160f48d0668e6e73b07ec7900af7fcacae7d92de1419b"}, "tags": {"2.0--r41h9ee0642_3": "sha256:d515275f7baa3550f31f59481973e07e102057c910ace137763a2bb529733823", "2.0--r42h9ee0642_4": "sha256:fa467ee12d2d1e39425160f48d0668e6e73b07ec7900af7fcacae7d92de1419b"}, "docker": "quay.io/biocontainers/r-intego", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-intego", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-intego", "latest": {"2.0--r43h9ee0642_5": "sha256:6dbf382dcc3f41c2f58acf713df6becfe920d67cb35323c6ebf5d965227740ca"}, "tags": {"2.0--r41h9ee0642_3": "sha256:d515275f7baa3550f31f59481973e07e102057c910ace137763a2bb529733823", "2.0--r42h9ee0642_4": "sha256:fa467ee12d2d1e39425160f48d0668e6e73b07ec7900af7fcacae7d92de1419b", "2.0--r43h9ee0642_5": "sha256:6dbf382dcc3f41c2f58acf713df6becfe920d67cb35323c6ebf5d965227740ca"}, "docker": "quay.io/biocontainers/r-intego", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-intego.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-intego
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-intego:2.0--r42h9ee0642_4
+$ shpc install quay.io/biocontainers/r-intego:2.0--r43h9ee0642_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-intego/2.0--r42h9ee0642_4
-$ module help quay.io/biocontainers/r-intego/2.0--r42h9ee0642_4
+$ module load quay.io/biocontainers/r-intego/2.0--r43h9ee0642_5
+$ module help quay.io/biocontainers/r-intego/2.0--r43h9ee0642_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

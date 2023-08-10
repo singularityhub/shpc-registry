@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svjedi-graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svjedi-graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svjedi-graph/container.yaml"
-updated_at: "2023-08-09 02:34:50.175436"
-latest: "1.1.1--hdfd78af_0"
+updated_at: "2023-08-10 02:38:57.787774"
+latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svjedi-graph"
 aliases:
  - "construct-graph.py"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "1.1.0--hdfd78af_0"
  - "1.1.1--hdfd78af_0"
+ - "1.2.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for svjedi-graph"
-config: {"url": "https://biocontainers.pro/tools/svjedi-graph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svjedi-graph", "latest": {"1.1.1--hdfd78af_0": "sha256:cf05f24146fb2bd9b4a8b27481d4ccb8114f4f67c8300130ee348988602e76d4"}, "tags": {"1.1.0--hdfd78af_0": "sha256:a8e1dcc074f211d4ccc99a888c7e83fa2c65493cbb576c64146b0f9c80a1d855", "1.1.1--hdfd78af_0": "sha256:cf05f24146fb2bd9b4a8b27481d4ccb8114f4f67c8300130ee348988602e76d4"}, "docker": "quay.io/biocontainers/svjedi-graph", "aliases": {"construct-graph.py": "/usr/local/bin/construct-graph.py", "f2py3.11": "/usr/local/bin/f2py3.11", "filter-alignments.py": "/usr/local/bin/filter-alignments.py", "minigraph": "/usr/local/bin/minigraph", "predict-genotype.py": "/usr/local/bin/predict-genotype.py", "svjedi-graph.py": "/usr/local/bin/svjedi-graph.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/svjedi-graph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svjedi-graph", "latest": {"1.2.0--hdfd78af_0": "sha256:050c204e8480ab5800650630abbfd225775177481bd16c18b95a429827e95fb3"}, "tags": {"1.1.0--hdfd78af_0": "sha256:a8e1dcc074f211d4ccc99a888c7e83fa2c65493cbb576c64146b0f9c80a1d855", "1.1.1--hdfd78af_0": "sha256:cf05f24146fb2bd9b4a8b27481d4ccb8114f4f67c8300130ee348988602e76d4", "1.2.0--hdfd78af_0": "sha256:050c204e8480ab5800650630abbfd225775177481bd16c18b95a429827e95fb3"}, "docker": "quay.io/biocontainers/svjedi-graph", "aliases": {"construct-graph.py": "/usr/local/bin/construct-graph.py", "f2py3.11": "/usr/local/bin/f2py3.11", "filter-alignments.py": "/usr/local/bin/filter-alignments.py", "minigraph": "/usr/local/bin/minigraph", "predict-genotype.py": "/usr/local/bin/predict-genotype.py", "svjedi-graph.py": "/usr/local/bin/svjedi-graph.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svjedi-graph.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/svjedi-graph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svjedi-graph:1.1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/svjedi-graph:1.2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svjedi-graph/1.1.1--hdfd78af_0
-$ module help quay.io/biocontainers/svjedi-graph/1.1.1--hdfd78af_0
+$ module load quay.io/biocontainers/svjedi-graph/1.2.0--hdfd78af_0
+$ module help quay.io/biocontainers/svjedi-graph/1.2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

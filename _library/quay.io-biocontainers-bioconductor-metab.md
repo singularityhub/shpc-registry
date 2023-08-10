@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metab/container.yaml"
-updated_at: "2023-08-09 02:31:55.347401"
-latest: "1.32.0--r42hdfd78af_0"
+updated_at: "2023-08-10 02:36:25.181972"
+latest: "1.33.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metab"
 aliases:
  - "zipcmp"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.28.0--r41hdfd78af_0"
  - "1.32.0--r42hdfd78af_0"
+ - "1.33.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metab"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metab", "latest": {"1.32.0--r42hdfd78af_0": "sha256:6aeb1409e928fee6b5a46c111bf4d8480fe710a0cc17eccb5c4cf67a80735698"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:34c465eb05a106e0aab626bc27b427ec3032b74273ffa73f2177df12ec5aecb2", "1.32.0--r42hdfd78af_0": "sha256:6aeb1409e928fee6b5a46c111bf4d8480fe710a0cc17eccb5c4cf67a80735698"}, "docker": "quay.io/biocontainers/bioconductor-metab", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metab", "latest": {"1.33.0--r43hdfd78af_0": "sha256:3ac53c99f0b7e4fb3a7a7c36d8b3987600bd06984c3347f6bf4e2b4249a0593d"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:34c465eb05a106e0aab626bc27b427ec3032b74273ffa73f2177df12ec5aecb2", "1.32.0--r42hdfd78af_0": "sha256:6aeb1409e928fee6b5a46c111bf4d8480fe710a0cc17eccb5c4cf67a80735698", "1.33.0--r43hdfd78af_0": "sha256:3ac53c99f0b7e4fb3a7a7c36d8b3987600bd06984c3347f6bf4e2b4249a0593d"}, "docker": "quay.io/biocontainers/bioconductor-metab", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metab.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metab
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metab:1.32.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metab:1.33.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metab/1.32.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metab/1.32.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metab/1.33.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metab/1.33.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

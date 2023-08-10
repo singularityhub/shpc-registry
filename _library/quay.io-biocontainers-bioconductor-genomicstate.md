@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-genomicstate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicstate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicstate/container.yaml"
-updated_at: "2023-08-09 03:08:44.607084"
-latest: "0.99.15--r42hdfd78af_2"
+updated_at: "2023-08-10 03:08:34.034890"
+latest: "0.99.15--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicstate"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.99.9--r41hdfd78af_3"
  - "0.99.15--r42hdfd78af_2"
+ - "0.99.15--r43hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicstate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicstate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicstate", "latest": {"0.99.15--r42hdfd78af_2": "sha256:36975643594c1a93863aadec871941fe58d48f85f0da925f061c56e841002813"}, "tags": {"0.99.9--r41hdfd78af_3": "sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2", "0.99.15--r42hdfd78af_2": "sha256:36975643594c1a93863aadec871941fe58d48f85f0da925f061c56e841002813"}, "docker": "quay.io/biocontainers/bioconductor-genomicstate", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicstate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicstate", "latest": {"0.99.15--r43hdfd78af_3": "sha256:e5cb28daf6d8d8d3ee4c13af492791421e49fde1108d0a6b8a56d7eac11b6086"}, "tags": {"0.99.9--r41hdfd78af_3": "sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2", "0.99.15--r42hdfd78af_2": "sha256:36975643594c1a93863aadec871941fe58d48f85f0da925f061c56e841002813", "0.99.15--r43hdfd78af_3": "sha256:e5cb28daf6d8d8d3ee4c13af492791421e49fde1108d0a6b8a56d7eac11b6086"}, "docker": "quay.io/biocontainers/bioconductor-genomicstate", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicstate.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicstate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicstate:0.99.15--r42hdfd78af_2
+$ shpc install quay.io/biocontainers/bioconductor-genomicstate:0.99.15--r43hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicstate/0.99.15--r42hdfd78af_2
-$ module help quay.io/biocontainers/bioconductor-genomicstate/0.99.15--r42hdfd78af_2
+$ module load quay.io/biocontainers/bioconductor-genomicstate/0.99.15--r43hdfd78af_3
+$ module help quay.io/biocontainers/bioconductor-genomicstate/0.99.15--r43hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msd16s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msd16s/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msd16s/container.yaml"
-updated_at: "2023-08-09 03:17:50.686138"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-08-10 03:16:33.382431"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msd16s"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_1"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msd16s"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msd16s", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msd16s", "latest": {"1.18.0--r42hdfd78af_0": "sha256:92d1634cd1ee79f15617ed1849ac8779c0d10cdcd2f7e0934a2fda40be608453"}, "tags": {"1.8.0--r40_0": "sha256:e305888101fdcbfb5b74fb5ccb664103a49f0f7adc7e65f570a36cdede20bab2", "1.18.0--r42hdfd78af_0": "sha256:92d1634cd1ee79f15617ed1849ac8779c0d10cdcd2f7e0934a2fda40be608453", "1.14.0--r41hdfd78af_1": "sha256:6018c8a3172c9119c4d96a35dd87ee990bc669c291e0dd968521738cdb5ebc54", "1.12.0--r41hdfd78af_0": "sha256:0c18b8013822c0172c2ed7e7ffe4524812382bea5d42702a90879d57381faff4", "1.10.0--r40hdfd78af_1": "sha256:d3f87842e4eb4470c7b0a05725c7104d7bc633bff550ea231b392751b0bb2015"}, "docker": "quay.io/biocontainers/bioconductor-msd16s", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msd16s", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msd16s", "latest": {"1.20.0--r43hdfd78af_0": "sha256:ee2284fdb85461c6c38bce5e8cd38bab4b58d1614fddbce8d9e5ed97c6c68e5a"}, "tags": {"1.8.0--r40_0": "sha256:e305888101fdcbfb5b74fb5ccb664103a49f0f7adc7e65f570a36cdede20bab2", "1.18.0--r42hdfd78af_0": "sha256:92d1634cd1ee79f15617ed1849ac8779c0d10cdcd2f7e0934a2fda40be608453", "1.14.0--r41hdfd78af_1": "sha256:6018c8a3172c9119c4d96a35dd87ee990bc669c291e0dd968521738cdb5ebc54", "1.12.0--r41hdfd78af_0": "sha256:0c18b8013822c0172c2ed7e7ffe4524812382bea5d42702a90879d57381faff4", "1.10.0--r40hdfd78af_1": "sha256:d3f87842e4eb4470c7b0a05725c7104d7bc633bff550ea231b392751b0bb2015", "1.20.0--r43hdfd78af_0": "sha256:ee2284fdb85461c6c38bce5e8cd38bab4b58d1614fddbce8d9e5ed97c6c68e5a"}, "docker": "quay.io/biocontainers/bioconductor-msd16s", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msd16s.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msd16s
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msd16s:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msd16s:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msd16s/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msd16s/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msd16s/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msd16s/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

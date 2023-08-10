@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-standr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-standr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-standr/container.yaml"
-updated_at: "2023-08-09 02:36:21.456790"
-latest: "1.2.0--r42hdfd78af_0"
+updated_at: "2023-08-10 02:40:17.179304"
+latest: "1.4.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-standr"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -35,8 +35,9 @@ aliases:
  - "gsdj500"
 versions:
  - "1.2.0--r42hdfd78af_0"
+ - "1.4.2--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-standr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-standr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-standr", "latest": {"1.2.0--r42hdfd78af_0": "sha256:2d9ecb6363d66e7915526150762a51a54e0e82ba29f352742dcb2eab58692d04"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:2d9ecb6363d66e7915526150762a51a54e0e82ba29f352742dcb2eab58692d04"}, "docker": "quay.io/biocontainers/bioconductor-standr", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-standr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-standr", "latest": {"1.4.2--r43hdfd78af_0": "sha256:babd61a70e43ed3fa243eaa0e0af1423c016798b1845a2740505a4f2f48d6929"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:2d9ecb6363d66e7915526150762a51a54e0e82ba29f352742dcb2eab58692d04", "1.4.2--r43hdfd78af_0": "sha256:babd61a70e43ed3fa243eaa0e0af1423c016798b1845a2740505a4f2f48d6929"}, "docker": "quay.io/biocontainers/bioconductor-standr", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-standr.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-standr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-standr:1.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-standr:1.4.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-standr/1.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-standr/1.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-standr/1.4.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-standr/1.4.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

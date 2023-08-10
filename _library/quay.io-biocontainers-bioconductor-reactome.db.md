@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-reactome.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactome.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactome.db/container.yaml"
-updated_at: "2023-08-09 03:26:56.657477"
-latest: "1.82.0--r42hdfd78af_0"
+updated_at: "2023-08-10 03:24:30.546790"
+latest: "1.84.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactome.db"
 
 versions:
  - "1.77.0--r41hdfd78af_1"
  - "1.82.0--r42hdfd78af_0"
+ - "1.84.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reactome.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reactome.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactome.db", "latest": {"1.82.0--r42hdfd78af_0": "sha256:f5c20f013ce4af8a4123761abe734a76244ce122414624ea206bd3e58bc61ec6"}, "tags": {"1.77.0--r41hdfd78af_1": "sha256:2301f2cfeb35b701854b62f300fcd8d3ec55a4f9356e68d2ae3e52f5b634e9ce", "1.82.0--r42hdfd78af_0": "sha256:f5c20f013ce4af8a4123761abe734a76244ce122414624ea206bd3e58bc61ec6"}, "docker": "quay.io/biocontainers/bioconductor-reactome.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reactome.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactome.db", "latest": {"1.84.0--r43hdfd78af_0": "sha256:43f0d2fb8dbf5d6ac047322c9f6955f0655bbb0cb8d8765f377069ca1c9e8cff"}, "tags": {"1.77.0--r41hdfd78af_1": "sha256:2301f2cfeb35b701854b62f300fcd8d3ec55a4f9356e68d2ae3e52f5b634e9ce", "1.82.0--r42hdfd78af_0": "sha256:f5c20f013ce4af8a4123761abe734a76244ce122414624ea206bd3e58bc61ec6", "1.84.0--r43hdfd78af_0": "sha256:43f0d2fb8dbf5d6ac047322c9f6955f0655bbb0cb8d8765f377069ca1c9e8cff"}, "docker": "quay.io/biocontainers/bioconductor-reactome.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reactome.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reactome.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reactome.db:1.82.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reactome.db:1.84.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reactome.db/1.82.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reactome.db/1.82.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reactome.db/1.84.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reactome.db/1.84.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

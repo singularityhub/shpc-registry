@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ahpathbankdbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahpathbankdbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahpathbankdbs/container.yaml"
-updated_at: "2023-08-09 02:54:15.599632"
-latest: "0.99.5--r42hdfd78af_3"
+updated_at: "2023-08-10 02:55:52.396025"
+latest: "0.99.5--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahpathbankdbs"
 
 versions:
  - "0.99.5--r41hdfd78af_2"
  - "0.99.5--r42hdfd78af_3"
+ - "0.99.5--r43hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for bioconductor-ahpathbankdbs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ahpathbankdbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahpathbankdbs", "latest": {"0.99.5--r42hdfd78af_3": "sha256:93e11561c0a63f098edcf79713b48b3feb8ff32eb22315601f40298268dc77b5"}, "tags": {"0.99.5--r41hdfd78af_2": "sha256:567ecb8989f79ce36d7cce929135cee42fc9289e1bcf7df406cd9caec8696069", "0.99.5--r42hdfd78af_3": "sha256:93e11561c0a63f098edcf79713b48b3feb8ff32eb22315601f40298268dc77b5"}, "docker": "quay.io/biocontainers/bioconductor-ahpathbankdbs"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ahpathbankdbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahpathbankdbs", "latest": {"0.99.5--r43hdfd78af_4": "sha256:d0a6ed567d1d4f127acd6503640f6b6557a50cd81a5a216add859ebbaf6d2af2"}, "tags": {"0.99.5--r41hdfd78af_2": "sha256:567ecb8989f79ce36d7cce929135cee42fc9289e1bcf7df406cd9caec8696069", "0.99.5--r42hdfd78af_3": "sha256:93e11561c0a63f098edcf79713b48b3feb8ff32eb22315601f40298268dc77b5", "0.99.5--r43hdfd78af_4": "sha256:d0a6ed567d1d4f127acd6503640f6b6557a50cd81a5a216add859ebbaf6d2af2"}, "docker": "quay.io/biocontainers/bioconductor-ahpathbankdbs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ahpathbankdbs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ahpathbankdbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ahpathbankdbs:0.99.5--r42hdfd78af_3
+$ shpc install quay.io/biocontainers/bioconductor-ahpathbankdbs:0.99.5--r43hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ahpathbankdbs/0.99.5--r42hdfd78af_3
-$ module help quay.io/biocontainers/bioconductor-ahpathbankdbs/0.99.5--r42hdfd78af_3
+$ module load quay.io/biocontainers/bioconductor-ahpathbankdbs/0.99.5--r43hdfd78af_4
+$ module help quay.io/biocontainers/bioconductor-ahpathbankdbs/0.99.5--r43hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

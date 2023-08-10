@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-annotationforge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotationforge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotationforge/container.yaml"
-updated_at: "2023-08-09 03:27:14.671918"
-latest: "1.40.0--r42hdfd78af_0"
+updated_at: "2023-08-10 03:24:46.323383"
+latest: "1.42.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotationforge"
 
 versions:
  - "1.36.0--r41hdfd78af_0"
  - "1.40.0--r42hdfd78af_0"
+ - "1.42.2--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotationforge"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationforge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationforge", "latest": {"1.40.0--r42hdfd78af_0": "sha256:6084b2a6b10bc6a6bc5c199cff146188c159595f85186df946dd51f585655a99"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:e75c5fed340242f3096f61b9e9760f9a8e1c1334ff902d0a6336ce4cf07ccb63", "1.40.0--r42hdfd78af_0": "sha256:6084b2a6b10bc6a6bc5c199cff146188c159595f85186df946dd51f585655a99"}, "docker": "quay.io/biocontainers/bioconductor-annotationforge"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationforge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationforge", "latest": {"1.42.2--r43hdfd78af_0": "sha256:ba76ebcfc77ab8729d5423c648fbb8da16372ce09b511be2723d097daf0cc4df"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:e75c5fed340242f3096f61b9e9760f9a8e1c1334ff902d0a6336ce4cf07ccb63", "1.40.0--r42hdfd78af_0": "sha256:6084b2a6b10bc6a6bc5c199cff146188c159595f85186df946dd51f585655a99", "1.42.2--r43hdfd78af_0": "sha256:ba76ebcfc77ab8729d5423c648fbb8da16372ce09b511be2723d097daf0cc4df"}, "docker": "quay.io/biocontainers/bioconductor-annotationforge"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotationforge.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-annotationforge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-annotationforge:1.40.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-annotationforge:1.42.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-annotationforge/1.40.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-annotationforge/1.40.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-annotationforge/1.42.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-annotationforge/1.42.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
