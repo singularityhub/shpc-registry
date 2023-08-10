@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-uri-nested
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-uri-nested
+latest:
+  0.10--pl5321hdfd78af_0: sha256:4164beaa93a79830674051f7a95828d4543a5ba61959e174647455a9cdcf03ae
+tags:
+  0.10--pl5321hdfd78af_0: sha256:4164beaa93a79830674051f7a95828d4543a5ba61959e174647455a9cdcf03ae
+docker: quay.io/biocontainers/perl-uri-nested

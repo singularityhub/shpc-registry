@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/perl-mojo-sqlite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-mojo-sqlite
+latest:
+  3.009--pl5321hdfd78af_0: sha256:0f05f3b04e45ecebcefd2dc6b2e9f13531d7ebddf1525508ff6153dfdc04f19d
+tags:
+  3.009--pl5321hdfd78af_0: sha256:0f05f3b04e45ecebcefd2dc6b2e9f13531d7ebddf1525508ff6153dfdc04f19d
+docker: quay.io/biocontainers/perl-mojo-sqlite
+aliases:
+  hypnotoad: /usr/local/bin/hypnotoad
+  mojo: /usr/local/bin/mojo
+  morbo: /usr/local/bin/morbo
+  config_data: /usr/local/bin/config_data
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
