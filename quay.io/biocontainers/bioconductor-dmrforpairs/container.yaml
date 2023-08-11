@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-dmrforpairs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dmrforpairs
 latest:
-  1.34.0--r42hdfd78af_0: sha256:86d387f4b234eaf1a43e941c64c6af84485bf6c7747013d874e336987b68f52d
+  1.35.0--r43hdfd78af_0: sha256:e3d177dcc318af649d751975ea5daff128bfaae4a04a52a5b9660ac29126d572
 tags:
   1.30.0--r41hdfd78af_0: sha256:0c2d87846719792bfcec02130e4512d8650783b91d0f38440a615319add412ec
   1.34.0--r42hdfd78af_0: sha256:86d387f4b234eaf1a43e941c64c6af84485bf6c7747013d874e336987b68f52d
+  1.35.0--r43hdfd78af_0: sha256:e3d177dcc318af649d751975ea5daff128bfaae4a04a52a5b9660ac29126d572
 docker: quay.io/biocontainers/bioconductor-dmrforpairs

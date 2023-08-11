@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-enrichtf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-enrichtf
 latest:
-  1.14.0--r42hdfd78af_0: sha256:8f683c57ddbe8ae4b304c4e587cc7b83a689fb0eb65d6249c1c7b15bab75b8a5
+  1.16.0--r43hdfd78af_0: sha256:b87c1fb8241b2c70c0e8ae95d4be76db695250f847ecb939154afd7f5134273e
 tags:
   1.8.0--r41hdfd78af_0: sha256:e5f7c9840a9d1bfea2f08052ecce917bf7e2ad33f0c505eddbaeb41f18121353
   1.14.0--r42hdfd78af_0: sha256:8f683c57ddbe8ae4b304c4e587cc7b83a689fb0eb65d6249c1c7b15bab75b8a5
   1.10.0--r41hdfd78af_0: sha256:b1bf232c52d04efe0ab5fe841e0539152c2132011d6708f3e2c2c0f90d968974
+  1.16.0--r43hdfd78af_0: sha256:b87c1fb8241b2c70c0e8ae95d4be76db695250f847ecb939154afd7f5134273e
 docker: quay.io/biocontainers/bioconductor-enrichtf
 aliases:
   pandoc: /usr/local/bin/pandoc

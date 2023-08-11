@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-tmexplorer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tmexplorer
 latest:
-  1.8.0--r42hdfd78af_0: sha256:46e045e21a5459674699a89e65f9f85b1686d6f691f38f40b91a59cd8e2648fa
+  1.10.0--r43hdfd78af_0: sha256:4449e17cc9ac0682f0bd303f1082737dd7851117f1ae9fd6146445479c226a68
 tags:
   1.4.0--r41hdfd78af_1: sha256:67a00176f095280bc961c04f779720c36ef808f17aacf2f7930935b5a77471b7
   1.8.0--r42hdfd78af_0: sha256:46e045e21a5459674699a89e65f9f85b1686d6f691f38f40b91a59cd8e2648fa
+  1.10.0--r43hdfd78af_0: sha256:4449e17cc9ac0682f0bd303f1082737dd7851117f1ae9fd6146445479c226a68
 docker: quay.io/biocontainers/bioconductor-tmexplorer

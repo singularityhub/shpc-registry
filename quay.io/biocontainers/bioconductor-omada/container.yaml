@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-omada
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-omada
 latest:
-  1.0.0--r42hc247a5b_0: sha256:bd77b99037c6ef1be9dca2eb1ec475f74e60faeab009b3f3a7cd3c55b91a18ed
+  1.1.0--r43hf17093f_0: sha256:50a5a430c521be68207cb737575a4e52aee670644cb2054603d9f62a759655bf
 tags:
   1.0.0--r42hc247a5b_0: sha256:bd77b99037c6ef1be9dca2eb1ec475f74e60faeab009b3f3a7cd3c55b91a18ed
+  1.1.0--r43hf17093f_0: sha256:50a5a430c521be68207cb737575a4e52aee670644cb2054603d9f62a759655bf
 docker: quay.io/biocontainers/bioconductor-omada

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-splicewiz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-splicewiz
 latest:
-  1.0.0--r42hf17093f_1: sha256:869ee0feb5a42bad200de2dbab0c956ec7128cf9162e51ad3f97b0626608e9ff
+  1.2.2--r43hf17093f_0: sha256:3b28db3dc6a133556cd1cb010683ff2a9d80565799f9f3b853abfbef19b5772c
 tags:
   1.0.0--r42hc247a5b_0: sha256:cc9bb70a61b128dc651f73deb2049d0a6e2c9ca3bef4570fb35ce2f3fcf4b6bd
   1.0.0--r42hf17093f_1: sha256:869ee0feb5a42bad200de2dbab0c956ec7128cf9162e51ad3f97b0626608e9ff
+  1.2.2--r43hf17093f_0: sha256:3b28db3dc6a133556cd1cb010683ff2a9d80565799f9f3b853abfbef19b5772c
 docker: quay.io/biocontainers/bioconductor-splicewiz
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

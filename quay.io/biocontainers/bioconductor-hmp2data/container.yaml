@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-hmp2data
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hmp2data
 latest:
-  1.12.0--r42hdfd78af_0: sha256:00654c1b7b8822b2fdc48aadfa1f5416621dab96b35e8c396038f3b3039b2cb4
+  1.14.0--r43hdfd78af_0: sha256:f9f84b1b84025cdc28af66211612f76c11d704e2331697ef3434be2e385eaafb
 tags:
   1.8.0--r41hdfd78af_1: sha256:e666d9b5e01e13860a6793f8e6b20f988b27da681366b6114d3f4a8cd8512a6e
   1.12.0--r42hdfd78af_0: sha256:00654c1b7b8822b2fdc48aadfa1f5416621dab96b35e8c396038f3b3039b2cb4
+  1.14.0--r43hdfd78af_0: sha256:f9f84b1b84025cdc28af66211612f76c11d704e2331697ef3434be2e385eaafb
 docker: quay.io/biocontainers/bioconductor-hmp2data
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

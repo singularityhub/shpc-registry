@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-trackviewer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trackviewer
 latest:
-  1.34.0--r42hf17093f_1: sha256:0ea18c0f9803062563d8cb9514870d6a83d21f460ddb5ab94241027e8b826da5
+  1.36.2--r43hdfd78af_0: sha256:c97c3fc250d43da18d827357429b853c54dc72c00d0edfa51f27b05b6bcfb041
 tags:
   1.30.0--r41hc247a5b_2: sha256:03e7509cc2f6f2ac3e93d8317297c70058df55d0ccb9004a4a52b67cfb971b33
   1.34.0--r42hc247a5b_0: sha256:3fe65bedd670cfff11f444724b9c21c68c021ff417b994ca98f222a495e6b696
   1.34.0--r42hf17093f_1: sha256:0ea18c0f9803062563d8cb9514870d6a83d21f460ddb5ab94241027e8b826da5
+  1.36.2--r43hdfd78af_0: sha256:c97c3fc250d43da18d827357429b853c54dc72c00d0edfa51f27b05b6bcfb041
 docker: quay.io/biocontainers/bioconductor-trackviewer

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rnaagecalc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnaagecalc
 latest:
-  1.10.0--r42hdfd78af_0: sha256:6187f851226644a5714b18276362dafe288bc37bb090527a87d001bd5bf7b44f
+  1.12.0--r43hdfd78af_0: sha256:21a26bb1d4e9dea850bd0f55f9312dabfe6e6c4b3913de3d383ff34fc1567369
 tags:
   1.6.0--r41hdfd78af_0: sha256:1385cf0b42fb7fcbda7498ea0e2abbb4898be695e30c653c22253b9d46d15bf0
   1.10.0--r42hdfd78af_0: sha256:6187f851226644a5714b18276362dafe288bc37bb090527a87d001bd5bf7b44f
+  1.12.0--r43hdfd78af_0: sha256:21a26bb1d4e9dea850bd0f55f9312dabfe6e6c4b3913de3d383ff34fc1567369
 docker: quay.io/biocontainers/bioconductor-rnaagecalc
