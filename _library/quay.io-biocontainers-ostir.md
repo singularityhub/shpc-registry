@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ostir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ostir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ostir/container.yaml"
-updated_at: "2023-08-10 03:18:17.685205"
+updated_at: "2023-08-11 02:44:57.695932"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ostir"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-teqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-teqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-teqc/container.yaml"
-updated_at: "2023-08-10 02:54:04.336031"
+updated_at: "2023-08-11 02:26:59.754719"
 latest: "4.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-teqc"
 aliases:

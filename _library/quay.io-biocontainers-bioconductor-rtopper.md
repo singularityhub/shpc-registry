@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtopper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtopper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtopper/container.yaml"
-updated_at: "2023-08-10 03:33:52.796993"
+updated_at: "2023-08-11 02:56:28.988320"
 latest: "1.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtopper"
 

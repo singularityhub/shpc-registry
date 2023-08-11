@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconvert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconvert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconvert/container.yaml"
-updated_at: "2023-08-10 03:34:45.318185"
+updated_at: "2023-08-11 02:57:07.688990"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconvert"
 aliases:

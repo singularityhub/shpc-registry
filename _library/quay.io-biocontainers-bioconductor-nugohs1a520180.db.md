@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-nugohs1a520180.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nugohs1a520180.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nugohs1a520180.db/container.yaml"
-updated_at: "2023-08-10 02:54:12.146693"
-latest: "3.4.0--r42hdfd78af_10"
+updated_at: "2023-08-11 02:27:05.698350"
+latest: "3.4.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-nugohs1a520180.db"
 
 versions:
  - "3.4.0--r41hdfd78af_9"
  - "3.4.0--r42hdfd78af_10"
+ - "3.4.0--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-nugohs1a520180.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nugohs1a520180.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nugohs1a520180.db", "latest": {"3.4.0--r42hdfd78af_10": "sha256:f7ef0423872a374aa3291b2e14e1e151814ae347f322597831dc32dc7a8ec6d5"}, "tags": {"3.4.0--r41hdfd78af_9": "sha256:07104eb05b0baede9194ac2344f30cd9044dcc4c5d25bb5faafbbe9c13503976", "3.4.0--r42hdfd78af_10": "sha256:f7ef0423872a374aa3291b2e14e1e151814ae347f322597831dc32dc7a8ec6d5"}, "docker": "quay.io/biocontainers/bioconductor-nugohs1a520180.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nugohs1a520180.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nugohs1a520180.db", "latest": {"3.4.0--r43hdfd78af_11": "sha256:23002c273c393d089954bdf9f6d489ae67fff26c0eab15d1f4e57c858b3af508"}, "tags": {"3.4.0--r41hdfd78af_9": "sha256:07104eb05b0baede9194ac2344f30cd9044dcc4c5d25bb5faafbbe9c13503976", "3.4.0--r42hdfd78af_10": "sha256:f7ef0423872a374aa3291b2e14e1e151814ae347f322597831dc32dc7a8ec6d5", "3.4.0--r43hdfd78af_11": "sha256:23002c273c393d089954bdf9f6d489ae67fff26c0eab15d1f4e57c858b3af508"}, "docker": "quay.io/biocontainers/bioconductor-nugohs1a520180.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nugohs1a520180.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nugohs1a520180.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nugohs1a520180.db:3.4.0--r42hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-nugohs1a520180.db:3.4.0--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nugohs1a520180.db/3.4.0--r42hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-nugohs1a520180.db/3.4.0--r42hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-nugohs1a520180.db/3.4.0--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-nugohs1a520180.db/3.4.0--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

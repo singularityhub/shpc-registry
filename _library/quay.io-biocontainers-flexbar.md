@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flexbar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexbar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexbar/container.yaml"
-updated_at: "2023-08-10 03:40:18.723390"
+updated_at: "2023-08-11 03:01:18.309250"
 latest: "3.5.0--hf92b6da_10"
 container_url: "https://biocontainers.pro/tools/flexbar"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-expressionatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-expressionatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-expressionatlas/container.yaml"
-updated_at: "2023-08-10 02:47:38.708010"
-latest: "1.26.0--r42hdfd78af_0"
+updated_at: "2023-08-11 02:22:09.286528"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-expressionatlas"
 
 versions:
  - "1.22.0--r41hdfd78af_0"
  - "1.26.0--r42hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-expressionatlas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-expressionatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-expressionatlas", "latest": {"1.26.0--r42hdfd78af_0": "sha256:1627091c59a803e4a93e76affd77518cbf09cea7875c3cb9adce63dc7e2aa194"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:caecbf4411994c57a17d80981911754694fab1898c02ab9ffdad457001f1841d", "1.26.0--r42hdfd78af_0": "sha256:1627091c59a803e4a93e76affd77518cbf09cea7875c3cb9adce63dc7e2aa194"}, "docker": "quay.io/biocontainers/bioconductor-expressionatlas"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-expressionatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-expressionatlas", "latest": {"1.28.0--r43hdfd78af_0": "sha256:f3b1b605b96f0b3e7c508f89eb6275ca644b6f6901a6d17e8bb3fcbf39be252c"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:caecbf4411994c57a17d80981911754694fab1898c02ab9ffdad457001f1841d", "1.26.0--r42hdfd78af_0": "sha256:1627091c59a803e4a93e76affd77518cbf09cea7875c3cb9adce63dc7e2aa194", "1.28.0--r43hdfd78af_0": "sha256:f3b1b605b96f0b3e7c508f89eb6275ca644b6f6901a6d17e8bb3fcbf39be252c"}, "docker": "quay.io/biocontainers/bioconductor-expressionatlas"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-expressionatlas.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-expressionatlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-expressionatlas:1.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-expressionatlas:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-expressionatlas/1.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-expressionatlas/1.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-expressionatlas/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-expressionatlas/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

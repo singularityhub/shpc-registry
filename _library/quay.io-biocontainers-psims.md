@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/psims"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psims/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psims/container.yaml"
-updated_at: "2023-08-10 03:18:47.631532"
-latest: "1.2.5--pyh7cba7a3_0"
+updated_at: "2023-08-11 02:45:20.171162"
+latest: "1.2.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/psims"
 aliases:
  - "f2py3.11"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.2.3--pyh7cba7a3_0"
  - "1.2.5--pyh7cba7a3_0"
+ - "1.2.6--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for psims"
-config: {"url": "https://biocontainers.pro/tools/psims", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psims", "latest": {"1.2.5--pyh7cba7a3_0": "sha256:bd620d64d25183408150c1abc89c6241fc374b2d6b446b18f1e168fd18930e19"}, "tags": {"1.2.3--pyh7cba7a3_0": "sha256:55aa3ccf2998d9f5c0130878db5a583e2a15506453244120992b512b1dcb54cf", "1.2.5--pyh7cba7a3_0": "sha256:bd620d64d25183408150c1abc89c6241fc374b2d6b446b18f1e168fd18930e19"}, "docker": "quay.io/biocontainers/psims", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/psims", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psims", "latest": {"1.2.6--pyh7cba7a3_0": "sha256:5f8133d20b7bbd99e7033d1add59bf8830fd029d8024b6db918195bbb1f35cc8"}, "tags": {"1.2.3--pyh7cba7a3_0": "sha256:55aa3ccf2998d9f5c0130878db5a583e2a15506453244120992b512b1dcb54cf", "1.2.5--pyh7cba7a3_0": "sha256:bd620d64d25183408150c1abc89c6241fc374b2d6b446b18f1e168fd18930e19", "1.2.6--pyh7cba7a3_0": "sha256:5f8133d20b7bbd99e7033d1add59bf8830fd029d8024b6db918195bbb1f35cc8"}, "docker": "quay.io/biocontainers/psims", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psims.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/psims
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psims:1.2.5--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/psims:1.2.6--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psims/1.2.5--pyh7cba7a3_0
-$ module help quay.io/biocontainers/psims/1.2.5--pyh7cba7a3_0
+$ module load quay.io/biocontainers/psims/1.2.6--pyh7cba7a3_0
+$ module help quay.io/biocontainers/psims/1.2.6--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

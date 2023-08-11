@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ansible"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ansible/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ansible/container.yaml"
-updated_at: "2023-08-10 03:15:40.035797"
+updated_at: "2023-08-11 02:43:01.910675"
 latest: "1.9.4--py27_0"
 container_url: "https://biocontainers.pro/tools/ansible"
 aliases:

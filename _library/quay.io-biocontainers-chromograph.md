@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromograph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromograph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromograph/container.yaml"
-updated_at: "2023-08-10 03:40:55.657558"
+updated_at: "2023-08-11 03:01:46.826389"
 latest: "1.3.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/chromograph"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biolite-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biolite-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biolite-tools/container.yaml"
-updated_at: "2023-08-10 02:52:03.494246"
+updated_at: "2023-08-11 02:25:29.345004"
 latest: "0.4.0--hdcf5f25_8"
 container_url: "https://biocontainers.pro/tools/biolite-tools"
 aliases:

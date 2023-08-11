@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-bisquerna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bisquerna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bisquerna/container.yaml"
-updated_at: "2023-08-10 03:32:25.002209"
-latest: "1.0.5--r42h3342da4_1"
+updated_at: "2023-08-11 02:55:24.538574"
+latest: "1.0.5--r43h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-bisquerna"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.0.5--r41h3342da4_0"
  - "1.0.5--r42h3342da4_1"
+ - "1.0.5--r43h3342da4_2"
 description: "shpc-registry automated BioContainers addition for r-bisquerna"
-config: {"url": "https://biocontainers.pro/tools/r-bisquerna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bisquerna", "latest": {"1.0.5--r42h3342da4_1": "sha256:34bdce92bf6dc3f6d9096fe92351867a5722b42c8c822f2bf23b0bdbbe471c99"}, "tags": {"1.0.5--r41h3342da4_0": "sha256:84b55f1f8ceddd24767747c359efa63d1cb4eb9c790ed7e26bc02a083401ba7c", "1.0.5--r42h3342da4_1": "sha256:34bdce92bf6dc3f6d9096fe92351867a5722b42c8c822f2bf23b0bdbbe471c99"}, "docker": "quay.io/biocontainers/r-bisquerna", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-bisquerna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bisquerna", "latest": {"1.0.5--r43h3342da4_2": "sha256:29f1effcda6b45c575c9751d7f71e15538b755d15de08063a332d4e9070557b3"}, "tags": {"1.0.5--r41h3342da4_0": "sha256:84b55f1f8ceddd24767747c359efa63d1cb4eb9c790ed7e26bc02a083401ba7c", "1.0.5--r42h3342da4_1": "sha256:34bdce92bf6dc3f6d9096fe92351867a5722b42c8c822f2bf23b0bdbbe471c99", "1.0.5--r43h3342da4_2": "sha256:29f1effcda6b45c575c9751d7f71e15538b755d15de08063a332d4e9070557b3"}, "docker": "quay.io/biocontainers/r-bisquerna", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bisquerna.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-bisquerna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bisquerna:1.0.5--r42h3342da4_1
+$ shpc install quay.io/biocontainers/r-bisquerna:1.0.5--r43h3342da4_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bisquerna/1.0.5--r42h3342da4_1
-$ module help quay.io/biocontainers/r-bisquerna/1.0.5--r42h3342da4_1
+$ module load quay.io/biocontainers/r-bisquerna/1.0.5--r43h3342da4_2
+$ module help quay.io/biocontainers/r-bisquerna/1.0.5--r43h3342da4_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-geomxtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geomxtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geomxtools/container.yaml"
-updated_at: "2023-08-10 03:41:43.225528"
-latest: "3.2.0--r42hdfd78af_0"
+updated_at: "2023-08-11 03:02:23.366468"
+latest: "3.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geomxtools"
 
 versions:
  - "2.0.0--r41hdfd78af_0"
  - "3.2.0--r42hdfd78af_0"
+ - "3.4.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geomxtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geomxtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geomxtools", "latest": {"3.2.0--r42hdfd78af_0": "sha256:278156e6b51e08f5fbef2b28e957fa4b6917b392e5b2ef8d09c21f6a0c215ef8"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:8d1f370ad13bb6f12719ac2030c1989a4ca60131839839763b9f9840c9573c5f", "3.2.0--r42hdfd78af_0": "sha256:278156e6b51e08f5fbef2b28e957fa4b6917b392e5b2ef8d09c21f6a0c215ef8"}, "docker": "quay.io/biocontainers/bioconductor-geomxtools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geomxtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geomxtools", "latest": {"3.4.0--r43hdfd78af_0": "sha256:1071851af3f5bd8223ed58909525243d24308218d4cafb1c7d571760e1c920e4"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:8d1f370ad13bb6f12719ac2030c1989a4ca60131839839763b9f9840c9573c5f", "3.2.0--r42hdfd78af_0": "sha256:278156e6b51e08f5fbef2b28e957fa4b6917b392e5b2ef8d09c21f6a0c215ef8", "3.4.0--r43hdfd78af_0": "sha256:1071851af3f5bd8223ed58909525243d24308218d4cafb1c7d571760e1c920e4"}, "docker": "quay.io/biocontainers/bioconductor-geomxtools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geomxtools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geomxtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geomxtools:3.2.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geomxtools:3.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geomxtools/3.2.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geomxtools/3.2.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geomxtools/3.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geomxtools/3.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
