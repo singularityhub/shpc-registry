@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-pasilla
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pasilla
 latest:
-  1.26.0--r42hdfd78af_0: sha256:bd9d341bb1c9604c72dbeaca7342a08c69a006dbd4e227a74b4007ba7c640452
+  1.28.0--r43hdfd78af_0: sha256:295f4a85b0062af78fa6a30cd4f75d7f23b165e9c66cecf98bc5506d41357c7e
 tags:
   1.22.0--r41hdfd78af_1: sha256:7bef8bee94b66a37dcc53d3e9405762c0b3b2630185a4cad2dd067c944cfa157
   1.26.0--r42hdfd78af_0: sha256:bd9d341bb1c9604c72dbeaca7342a08c69a006dbd4e227a74b4007ba7c640452
+  1.28.0--r43hdfd78af_0: sha256:295f4a85b0062af78fa6a30cd4f75d7f23b165e9c66cecf98bc5506d41357c7e
 docker: quay.io/biocontainers/bioconductor-pasilla

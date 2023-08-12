@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-customcmpdb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-customcmpdb
 latest:
-  1.8.0--r42hdfd78af_0: sha256:909d50ba135892ebf6be1aa67cd9bc3b4da4a6c314a5845ae10ec0c74fba2bef
+  1.10.0--r43hdfd78af_0: sha256:77374b34f19c238e51ffaaed56b6029a87bf4ddd77fdc109ef7d5ffba36ead6b
 tags:
   1.4.0--r41hdfd78af_0: sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea
   1.8.0--r42hdfd78af_0: sha256:909d50ba135892ebf6be1aa67cd9bc3b4da4a6c314a5845ae10ec0c74fba2bef
+  1.10.0--r43hdfd78af_0: sha256:77374b34f19c238e51ffaaed56b6029a87bf4ddd77fdc109ef7d5ffba36ead6b
 docker: quay.io/biocontainers/bioconductor-customcmpdb
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

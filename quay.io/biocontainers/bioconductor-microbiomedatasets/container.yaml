@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-microbiomedatasets
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-microbiomedatasets
 latest:
-  1.6.0--r42hdfd78af_0: sha256:003ae99c5b02d390e7f11b929ec886629e65d6a17df6d2ff44842b0fda3d0f2d
+  1.8.0--r43hdfd78af_0: sha256:ed5d343e1b768daacd09a819e8aee6b52a8ea0284cf58953989b8c7d15349f24
 tags:
   1.2.0--r41hdfd78af_1: sha256:588aab014b525964c9cb5e62e383f415bc351ac5d63230163ebe3e7395e5db35
   1.6.0--r42hdfd78af_0: sha256:003ae99c5b02d390e7f11b929ec886629e65d6a17df6d2ff44842b0fda3d0f2d
+  1.8.0--r43hdfd78af_0: sha256:ed5d343e1b768daacd09a819e8aee6b52a8ea0284cf58953989b8c7d15349f24
 docker: quay.io/biocontainers/bioconductor-microbiomedatasets

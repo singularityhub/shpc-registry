@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-phantasus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-phantasus
 latest:
-  1.18.2--r42hdfd78af_0: sha256:dc9280085adcd70eb640bc51d650f1e9f0f2451757eacba5924d009c66b1b24e
+  1.20.2--r43hdfd78af_0: sha256:48c53c5d8d3fb0c2c1cb22d8c17d3bcd22837e3f0af383c976df62be2392e5ac
 tags:
   1.8.0--r40_0: sha256:389e202ac322433c1ae8d923ba9ce01012c87a488d1e45eda6806ea59d610157
   1.18.2--r42hdfd78af_0: sha256:dc9280085adcd70eb640bc51d650f1e9f0f2451757eacba5924d009c66b1b24e
   1.14.0--r41hdfd78af_0: sha256:8364c0a5847836e94a79640fa6b53514160f49007839722cdb524de1aaa227b7
   1.12.0--r41hdfd78af_0: sha256:0d7c87c9ed80c58458aedf3be80fd744cbb7968e9742e714e9046e514d534934
   1.10.0--r40hdfd78af_1: sha256:e0cb9e1bcff2863ff0bce42b4cbfa83021c3847ba04af1ab6990ee15f6cb58ea
+  1.20.2--r43hdfd78af_0: sha256:48c53c5d8d3fb0c2c1cb22d8c17d3bcd22837e3f0af383c976df62be2392e5ac
 docker: quay.io/biocontainers/bioconductor-phantasus
 aliases:
   protoc: /usr/local/bin/protoc

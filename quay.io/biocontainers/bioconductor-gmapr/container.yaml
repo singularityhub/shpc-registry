@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gmapr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gmapr
 latest:
-  1.40.0--r42ha9d7317_1: sha256:d1dfea5c0c26727c2569b8a01cebf2a1a050fac1cff72215eb388b4c60a7089d
+  1.42.0--r43ha9d7317_0: sha256:44ad69c2c457523cb05e1c7f0a8bed60c3b8f174fd4ef6bf33e3da032b254625
 tags:
   1.36.0--r41hc0cfd56_2: sha256:5b6fcab399519f0e29b38c316246c4159c1722bd7fad36645e9ede4c6298673d
   1.40.0--r42hc0cfd56_0: sha256:2cdbf64e47eb9c4080a7a8318e44745a25a49daafeecd04b2872ee52f540d689
   1.40.0--r42ha9d7317_1: sha256:d1dfea5c0c26727c2569b8a01cebf2a1a050fac1cff72215eb388b4c60a7089d
+  1.42.0--r43ha9d7317_0: sha256:44ad69c2c457523cb05e1c7f0a8bed60c3b8f174fd4ef6bf33e3da032b254625
 docker: quay.io/biocontainers/bioconductor-gmapr

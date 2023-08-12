@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-fcscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fcscan
 latest:
-  1.12.0--r42hdfd78af_0: sha256:cd94fc91df276fc44efa649aaba8c40c3cf30cd82d539ed2cc14f8b43130952f
+  1.14.0--r43hdfd78af_0: sha256:84f69647b5a86cceae2ff19f9fb7786ccdc2bf0faca725e9379c9a8032dd26a1
 tags:
   1.8.0--r41hdfd78af_0: sha256:e1caf8ca769780f9ebb95d395d717ec8220288c4d3af8996b6e27ea061033c4d
   1.12.0--r42hdfd78af_0: sha256:cd94fc91df276fc44efa649aaba8c40c3cf30cd82d539ed2cc14f8b43130952f
+  1.14.0--r43hdfd78af_0: sha256:84f69647b5a86cceae2ff19f9fb7786ccdc2bf0faca725e9379c9a8032dd26a1
 docker: quay.io/biocontainers/bioconductor-fcscan

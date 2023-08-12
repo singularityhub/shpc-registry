@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/r-lncpipereporter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-lncpipereporter
 latest:
-  0.1.1--r42h031d066_7: sha256:45684b08853b2a9bb0549d602e924af601095d1d9b5ac85f42abe51ebe6f74a2
+  0.1.1--r43h031d066_8: sha256:c7c470d15d955a11c95ae2564be894861547013d04b7f531f41b174a09a47833
 tags:
   0.1.1--r41hec16e2b_5: sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268
   0.1.1--r42hec16e2b_6: sha256:a7d6df5d1901e5851f8f6bfc2d0b5bf2249383dc88efcfe3a070fef60b6b823f
   0.1.1--r42h031d066_7: sha256:45684b08853b2a9bb0549d602e924af601095d1d9b5ac85f42abe51ebe6f74a2
+  0.1.1--r43h031d066_8: sha256:c7c470d15d955a11c95ae2564be894861547013d04b7f531f41b174a09a47833
 docker: quay.io/biocontainers/r-lncpipereporter
 aliases:
   pandoc: /usr/local/bin/pandoc

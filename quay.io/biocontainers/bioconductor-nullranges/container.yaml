@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-nullranges
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nullranges
 latest:
-  1.4.0--r42hdfd78af_0: sha256:4bc87ae9234db9b90dc662fc4365794ef027c751a348f7c470207f993246cd91
+  1.6.2--r43hdfd78af_0: sha256:2ca4df22950c7ebbf611265a5c72d0365332138c97eddb2e3d2d6def6f85fc63
 tags:
   1.0.0--r41hdfd78af_0: sha256:a0dccd4c33de075d6bc885f6b2f9befc6d6063f367c779200bc31d7d32422faa
   1.4.0--r42hdfd78af_0: sha256:4bc87ae9234db9b90dc662fc4365794ef027c751a348f7c470207f993246cd91
+  1.6.2--r43hdfd78af_0: sha256:2ca4df22950c7ebbf611265a5c72d0365332138c97eddb2e3d2d6def6f85fc63
 docker: quay.io/biocontainers/bioconductor-nullranges

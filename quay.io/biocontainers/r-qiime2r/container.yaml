@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-qiime2r
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-qiime2r
 latest:
-  0.99.20--r42hdfd78af_0: sha256:00c706767c4e4ba9d8ba04eea561947a70ba5227fc0372966f15fceab9ab310a
+  0.99.20--r43hdfd78af_1: sha256:ea471e29821c986b03ca3de614cc0773ff96996e7d529443a963ee342ae1babb
 tags:
   0.99.20--r42hdfd78af_0: sha256:00c706767c4e4ba9d8ba04eea561947a70ba5227fc0372966f15fceab9ab310a
+  0.99.20--r43hdfd78af_1: sha256:ea471e29821c986b03ca3de614cc0773ff96996e7d529443a963ee342ae1babb
 docker: quay.io/biocontainers/r-qiime2r
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

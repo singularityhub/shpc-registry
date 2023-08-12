@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-methreg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methreg
 latest:
-  1.8.0--r42hdfd78af_0: sha256:4278f9d59263b52c27214f1a3212cc3e5efcf1ff685aa98b894337c7ae9a722e
+  1.10.0--r43hdfd78af_0: sha256:36777f5527654c0a37555a77e0843987263a79a73ea5c9bb49b88723fbeeea21
 tags:
   1.4.0--r41hdfd78af_0: sha256:2d164064507fcda9b82f45ed2dfee45c187afbebdffa5bda93100c9385596426
   1.8.0--r42hdfd78af_0: sha256:4278f9d59263b52c27214f1a3212cc3e5efcf1ff685aa98b894337c7ae9a722e
+  1.10.0--r43hdfd78af_0: sha256:36777f5527654c0a37555a77e0843987263a79a73ea5c9bb49b88723fbeeea21
 docker: quay.io/biocontainers/bioconductor-methreg
 aliases:
   pandoc: /usr/local/bin/pandoc

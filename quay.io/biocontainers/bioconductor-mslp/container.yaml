@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mslp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-mslp
 latest:
-  1.0.0--r42hdfd78af_0: sha256:b4bae384089ff6393281eefa587446b8ef5c5af9894acc5d9f542b8de830d261
+  1.2.0--r43hdfd78af_0: sha256:35d6c247fb80d09da712503b6c7e02bdf753e8f18b5f7356c08e0c3ae3ce042b
 tags:
   1.0.0--r42hdfd78af_0: sha256:b4bae384089ff6393281eefa587446b8ef5c5af9894acc5d9f542b8de830d261
+  1.2.0--r43hdfd78af_0: sha256:35d6c247fb80d09da712503b6c7e02bdf753e8f18b5f7356c08e0c3ae3ce042b
 docker: quay.io/biocontainers/bioconductor-mslp
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
