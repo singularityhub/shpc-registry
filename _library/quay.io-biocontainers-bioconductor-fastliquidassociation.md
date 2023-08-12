@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-fastliquidassociation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fastliquidassociation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fastliquidassociation/container.yaml"
-updated_at: "2023-08-11 02:20:34.075408"
-latest: "1.34.0--r42hdfd78af_0"
+updated_at: "2023-08-12 02:19:18.322883"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fastliquidassociation"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
  - "1.34.0--r42hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fastliquidassociation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fastliquidassociation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fastliquidassociation", "latest": {"1.34.0--r42hdfd78af_0": "sha256:43ece2f42a005b8db979f12b3737e87d5233f4372ba35d4378643c1fa5f736e6"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:9d303736ceb65ecd3199bfc783d02a01fd5f91e6d265c78e0d76093c497f2602", "1.34.0--r42hdfd78af_0": "sha256:43ece2f42a005b8db979f12b3737e87d5233f4372ba35d4378643c1fa5f736e6"}, "docker": "quay.io/biocontainers/bioconductor-fastliquidassociation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fastliquidassociation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fastliquidassociation", "latest": {"1.36.0--r43hdfd78af_0": "sha256:bb7d06320181aba21d0c0186189f7415aca75018500824d44275a61b90c92284"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:9d303736ceb65ecd3199bfc783d02a01fd5f91e6d265c78e0d76093c497f2602", "1.34.0--r42hdfd78af_0": "sha256:43ece2f42a005b8db979f12b3737e87d5233f4372ba35d4378643c1fa5f736e6", "1.36.0--r43hdfd78af_0": "sha256:bb7d06320181aba21d0c0186189f7415aca75018500824d44275a61b90c92284"}, "docker": "quay.io/biocontainers/bioconductor-fastliquidassociation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fastliquidassociation.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fastliquidassociation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fastliquidassociation:1.34.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fastliquidassociation:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fastliquidassociation/1.34.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fastliquidassociation/1.34.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fastliquidassociation/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fastliquidassociation/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

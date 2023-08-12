@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rontotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rontotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rontotools/container.yaml"
-updated_at: "2023-08-11 02:54:19.899999"
-latest: "2.26.0--r42hdfd78af_0"
+updated_at: "2023-08-12 02:56:13.618327"
+latest: "2.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rontotools"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.20.0--r41hdfd78af_0"
  - "2.18.0--r40hdfd78af_1"
  - "2.16.0--r40_0"
+ - "2.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rontotools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rontotools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rontotools", "latest": {"2.26.0--r42hdfd78af_0": "sha256:f76ede169bf15720767e8a8e43d92c6462e919801d0122d306a621507ead2921"}, "tags": {"2.8.0--r351_0": "sha256:15a4e4d916d4198cf1c58bac518637dea2356192bb62dbf758741f4cbcaddbdb", "2.26.0--r42hdfd78af_0": "sha256:f76ede169bf15720767e8a8e43d92c6462e919801d0122d306a621507ead2921", "2.22.0--r41hdfd78af_0": "sha256:eebb492b17b2d679107b9f6a0ac61cff9361533711d1ceedd08c82e5850f9d68", "2.20.0--r41hdfd78af_0": "sha256:da115cb2a17ca1f130ae96346af2bf183f08aaea8e84215c5ea2a1039e5a8585", "2.18.0--r40hdfd78af_1": "sha256:2983ddf3f9aadbec1ae3e6eaab8da363f857d61a297b132b83ad5c85eb8d31da", "2.16.0--r40_0": "sha256:71d6866c463c7d7e079a5ab3b70785c6ec7b44345e1bccf2c6880004fcfe9e22"}, "docker": "quay.io/biocontainers/bioconductor-rontotools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rontotools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rontotools", "latest": {"2.28.0--r43hdfd78af_0": "sha256:fa022149240c8dfc4e96db31ff035bb31e34792d653a9f53899a836952555bff"}, "tags": {"2.8.0--r351_0": "sha256:15a4e4d916d4198cf1c58bac518637dea2356192bb62dbf758741f4cbcaddbdb", "2.26.0--r42hdfd78af_0": "sha256:f76ede169bf15720767e8a8e43d92c6462e919801d0122d306a621507ead2921", "2.22.0--r41hdfd78af_0": "sha256:eebb492b17b2d679107b9f6a0ac61cff9361533711d1ceedd08c82e5850f9d68", "2.20.0--r41hdfd78af_0": "sha256:da115cb2a17ca1f130ae96346af2bf183f08aaea8e84215c5ea2a1039e5a8585", "2.18.0--r40hdfd78af_1": "sha256:2983ddf3f9aadbec1ae3e6eaab8da363f857d61a297b132b83ad5c85eb8d31da", "2.16.0--r40_0": "sha256:71d6866c463c7d7e079a5ab3b70785c6ec7b44345e1bccf2c6880004fcfe9e22", "2.28.0--r43hdfd78af_0": "sha256:fa022149240c8dfc4e96db31ff035bb31e34792d653a9f53899a836952555bff"}, "docker": "quay.io/biocontainers/bioconductor-rontotools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rontotools.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rontotools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rontotools:2.26.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rontotools:2.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rontotools/2.26.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rontotools/2.26.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rontotools/2.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rontotools/2.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

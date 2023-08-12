@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plannotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plannotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plannotate/container.yaml"
-updated_at: "2023-08-11 02:50:01.251364"
-latest: "1.2.0--pyhdfd78af_4"
+updated_at: "2023-08-12 02:51:29.651834"
+latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plannotate"
 aliases:
  - "EukHighConfidenceFilter"
@@ -46,8 +46,9 @@ aliases:
 versions:
  - "1.2.0--pyhdfd78af_3"
  - "1.2.0--pyhdfd78af_4"
+ - "1.2.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for plannotate"
-config: {"url": "https://biocontainers.pro/tools/plannotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plannotate", "latest": {"1.2.0--pyhdfd78af_4": "sha256:967a45f3d72306b67e1e54ca2d9cdb2ad980d008548f531c7c659355fc0fab13"}, "tags": {"1.2.0--pyhdfd78af_3": "sha256:ec3631d1d1976aaf1ee26a2928314db1ecdd9e1985c9a0d064c86bb2a2ddf27d", "1.2.0--pyhdfd78af_4": "sha256:967a45f3d72306b67e1e54ca2d9cdb2ad980d008548f531c7c659355fc0fab13"}, "docker": "quay.io/biocontainers/plannotate", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "base58": "/usr/local/bin/base58", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "plannotate": "/usr/local/bin/plannotate", "rg": "/usr/local/bin/rg", "send2trash": "/usr/local/bin/send2trash", "sstofa": "/usr/local/bin/sstofa", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "timezone-dump": "/usr/local/bin/timezone-dump", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "watchmedo": "/usr/local/bin/watchmedo", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/plannotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plannotate", "latest": {"1.2.1--pyhdfd78af_0": "sha256:b7e46c4ac79a4c4238ea8bcaed5648905dd5ed76aa292b99a5a28cc99b1ed5cb"}, "tags": {"1.2.0--pyhdfd78af_3": "sha256:ec3631d1d1976aaf1ee26a2928314db1ecdd9e1985c9a0d064c86bb2a2ddf27d", "1.2.0--pyhdfd78af_4": "sha256:967a45f3d72306b67e1e54ca2d9cdb2ad980d008548f531c7c659355fc0fab13", "1.2.1--pyhdfd78af_0": "sha256:b7e46c4ac79a4c4238ea8bcaed5648905dd5ed76aa292b99a5a28cc99b1ed5cb"}, "docker": "quay.io/biocontainers/plannotate", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "base58": "/usr/local/bin/base58", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "plannotate": "/usr/local/bin/plannotate", "rg": "/usr/local/bin/rg", "send2trash": "/usr/local/bin/send2trash", "sstofa": "/usr/local/bin/sstofa", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "timezone-dump": "/usr/local/bin/timezone-dump", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "watchmedo": "/usr/local/bin/watchmedo", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plannotate.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/plannotate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plannotate:1.2.0--pyhdfd78af_4
+$ shpc install quay.io/biocontainers/plannotate:1.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plannotate/1.2.0--pyhdfd78af_4
-$ module help quay.io/biocontainers/plannotate/1.2.0--pyhdfd78af_4
+$ module load quay.io/biocontainers/plannotate/1.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/plannotate/1.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

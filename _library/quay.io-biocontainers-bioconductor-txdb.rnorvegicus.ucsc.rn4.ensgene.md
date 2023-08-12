@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/container.yaml"
-updated_at: "2023-08-11 02:58:30.297747"
-latest: "3.2.2--r42hdfd78af_14"
+updated_at: "2023-08-12 03:00:44.888545"
+latest: "3.2.2--r43hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.2--r40_9"
  - "3.2.2--r42hdfd78af_14"
+ - "3.2.2--r43hdfd78af_15"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "latest": {"3.2.2--r42hdfd78af_14": "sha256:10b49a1a4f917ce29405036658807278821e94d81aaca42246ea472f2ecb48d2"}, "tags": {"3.2.2--r40_9": "sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847", "3.2.2--r42hdfd78af_14": "sha256:10b49a1a4f917ce29405036658807278821e94d81aaca42246ea472f2ecb48d2"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "latest": {"3.2.2--r43hdfd78af_15": "sha256:7db02678c679111feb2eef1e339dd3e25cdefea71454a0a69d63609120eaf9c0"}, "tags": {"3.2.2--r40_9": "sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847", "3.2.2--r42hdfd78af_14": "sha256:10b49a1a4f917ce29405036658807278821e94d81aaca42246ea472f2ecb48d2", "3.2.2--r43hdfd78af_15": "sha256:7db02678c679111feb2eef1e339dd3e25cdefea71454a0a69d63609120eaf9c0"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene:3.2.2--r42hdfd78af_14
+$ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene:3.2.2--r43hdfd78af_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/3.2.2--r42hdfd78af_14
-$ module help quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/3.2.2--r42hdfd78af_14
+$ module load quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/3.2.2--r43hdfd78af_15
+$ module help quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/3.2.2--r43hdfd78af_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

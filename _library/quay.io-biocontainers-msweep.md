@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msweep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msweep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msweep/container.yaml"
-updated_at: "2023-08-11 03:00:51.471814"
+updated_at: "2023-08-12 03:03:15.566816"
 latest: "1.6.3--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/msweep"
 aliases:

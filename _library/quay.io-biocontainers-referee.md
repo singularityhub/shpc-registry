@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/referee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/referee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/referee/container.yaml"
-updated_at: "2023-08-11 02:50:21.560835"
+updated_at: "2023-08-12 02:51:52.007859"
 latest: "1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/referee"
 aliases:

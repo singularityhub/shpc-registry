@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-misha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-misha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-misha/container.yaml"
-updated_at: "2023-08-11 02:22:46.025485"
-latest: "4.1.0--r42hdbdd923_6"
+updated_at: "2023-08-12 02:21:40.921937"
+latest: "4.1.0--r43hdbdd923_7"
 container_url: "https://biocontainers.pro/tools/r-misha"
 
 versions:
  - "4.1.0--r41h87f3376_3"
  - "4.1.0--r42h87f3376_4"
  - "4.1.0--r42hdbdd923_6"
+ - "4.1.0--r43hdbdd923_7"
 description: "shpc-registry automated BioContainers addition for r-misha"
-config: {"url": "https://biocontainers.pro/tools/r-misha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misha", "latest": {"4.1.0--r42hdbdd923_6": "sha256:cfcbf03f1df08149788a113ed0db8bb012d64d3ad699fabcc3998d8170ee9c7b"}, "tags": {"4.1.0--r41h87f3376_3": "sha256:2e6e7f9883bf497da9b96c25564dd1976f53f2ec3d4570226e36c5d7d9af2b27", "4.1.0--r42h87f3376_4": "sha256:a5d293d63c1b36194cb09436337fb9700e4112b62169bb5da5074645b552f8bc", "4.1.0--r42hdbdd923_6": "sha256:cfcbf03f1df08149788a113ed0db8bb012d64d3ad699fabcc3998d8170ee9c7b"}, "docker": "quay.io/biocontainers/r-misha"}
+config: {"url": "https://biocontainers.pro/tools/r-misha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misha", "latest": {"4.1.0--r43hdbdd923_7": "sha256:1dcbe2e378fbf7d3b39ad310bd04eddd9d57f4b30bc558273edb6c41b6039aee"}, "tags": {"4.1.0--r41h87f3376_3": "sha256:2e6e7f9883bf497da9b96c25564dd1976f53f2ec3d4570226e36c5d7d9af2b27", "4.1.0--r42h87f3376_4": "sha256:a5d293d63c1b36194cb09436337fb9700e4112b62169bb5da5074645b552f8bc", "4.1.0--r42hdbdd923_6": "sha256:cfcbf03f1df08149788a113ed0db8bb012d64d3ad699fabcc3998d8170ee9c7b", "4.1.0--r43hdbdd923_7": "sha256:1dcbe2e378fbf7d3b39ad310bd04eddd9d57f4b30bc558273edb6c41b6039aee"}, "docker": "quay.io/biocontainers/r-misha"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-misha.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-misha
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-misha:4.1.0--r42hdbdd923_6
+$ shpc install quay.io/biocontainers/r-misha:4.1.0--r43hdbdd923_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-misha/4.1.0--r42hdbdd923_6
-$ module help quay.io/biocontainers/r-misha/4.1.0--r42hdbdd923_6
+$ module load quay.io/biocontainers/r-misha/4.1.0--r43hdbdd923_7
+$ module help quay.io/biocontainers/r-misha/4.1.0--r43hdbdd923_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

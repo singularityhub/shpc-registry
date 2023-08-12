@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cllmethylation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cllmethylation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cllmethylation/container.yaml"
-updated_at: "2023-08-11 02:44:01.215702"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-08-12 02:44:53.120629"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cllmethylation"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_1"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cllmethylation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cllmethylation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cllmethylation", "latest": {"1.18.0--r42hdfd78af_0": "sha256:caf986f8d1a34167242f144a8e1e0073b4a79938b550c0a39ed5850c88772606"}, "tags": {"1.8.0--r40_0": "sha256:46bd2a01d2ebe2ccefecf50adf4d5ef1788ac3da5d2205b21519fe4aca2e21dc", "1.18.0--r42hdfd78af_0": "sha256:caf986f8d1a34167242f144a8e1e0073b4a79938b550c0a39ed5850c88772606", "1.14.0--r41hdfd78af_1": "sha256:42c453211c0c93eb56bbbfac0ff29bf27f8c159c709714199d0dd4bd617ab0a6", "1.12.0--r41hdfd78af_0": "sha256:621d3759086c6142ab8def0140fb8a2bc469565e98782f1b1ee21e3c86ecb044", "1.10.0--r40hdfd78af_1": "sha256:f524be9150599a3aec9daef96e92dd1a367f351ceab8cba18a6f7f522093841e"}, "docker": "quay.io/biocontainers/bioconductor-cllmethylation", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cllmethylation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cllmethylation", "latest": {"1.20.0--r43hdfd78af_0": "sha256:51518721f5d96ed817c70083ebc0c5b1c0f8d8d600186b0f4527070d35665446"}, "tags": {"1.8.0--r40_0": "sha256:46bd2a01d2ebe2ccefecf50adf4d5ef1788ac3da5d2205b21519fe4aca2e21dc", "1.18.0--r42hdfd78af_0": "sha256:caf986f8d1a34167242f144a8e1e0073b4a79938b550c0a39ed5850c88772606", "1.14.0--r41hdfd78af_1": "sha256:42c453211c0c93eb56bbbfac0ff29bf27f8c159c709714199d0dd4bd617ab0a6", "1.12.0--r41hdfd78af_0": "sha256:621d3759086c6142ab8def0140fb8a2bc469565e98782f1b1ee21e3c86ecb044", "1.10.0--r40hdfd78af_1": "sha256:f524be9150599a3aec9daef96e92dd1a367f351ceab8cba18a6f7f522093841e", "1.20.0--r43hdfd78af_0": "sha256:51518721f5d96ed817c70083ebc0c5b1c0f8d8d600186b0f4527070d35665446"}, "docker": "quay.io/biocontainers/bioconductor-cllmethylation", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cllmethylation.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cllmethylation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cllmethylation:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cllmethylation:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cllmethylation/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cllmethylation/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cllmethylation/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cllmethylation/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
