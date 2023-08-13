@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-arrayqualitymetrics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-arrayqualitymetrics
 latest:
-  3.54.0--r42hdfd78af_0: sha256:910bcb15bc4ce2ef8f3f837bab28c939fca598845e2d627ec7994e12e3c89727
+  3.56.0--r43hdfd78af_0: sha256:1fd468a1a1902ef81f008b59cfcb5153d8647c3174cff26b2abba46d6a893e76
 tags:
   3.50.0--r41hdfd78af_0: sha256:f87de19b4db758a8f709405ef80669f3517ac6e83879443a007bb261206dba28
   3.54.0--r42hdfd78af_0: sha256:910bcb15bc4ce2ef8f3f837bab28c939fca598845e2d627ec7994e12e3c89727
+  3.56.0--r43hdfd78af_0: sha256:1fd468a1a1902ef81f008b59cfcb5153d8647c3174cff26b2abba46d6a893e76
 docker: quay.io/biocontainers/bioconductor-arrayqualitymetrics

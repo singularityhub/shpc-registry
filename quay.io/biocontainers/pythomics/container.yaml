@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pythomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pythomics
 latest:
-  0.3.46--pyh864c0ab_2: sha256:f258a56bb40507ee691bd6b5f52ee4be9509b25561fa67e6b0e7296c0b1f240c
+  0.4.1--pyh7cba7a3_0: sha256:261ca349b67c7309fffdc6dbf68cd97cf2f0f02427f5f03209d08224bd983b1c
 tags:
   0.3.46--pyh864c0ab_2: sha256:f258a56bb40507ee691bd6b5f52ee4be9509b25561fa67e6b0e7296c0b1f240c
+  0.4.1--pyh7cba7a3_0: sha256:261ca349b67c7309fffdc6dbf68cd97cf2f0f02427f5f03209d08224bd983b1c
 docker: quay.io/biocontainers/pythomics
 aliases:
   fastadigest.py: /usr/local/bin/fastadigest.py

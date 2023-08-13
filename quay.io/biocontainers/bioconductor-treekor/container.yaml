@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-treekor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-treekor
 latest:
-  1.6.0--r42hdfd78af_0: sha256:9a7f07f441d69092ff76d2b3c6dbe9f7ec6998996da0934f8cc330306e7f5b59
+  1.8.0--r43hdfd78af_0: sha256:3205a752a300213552a02a4b832cfdc7bb6c53bb659b3bf48e825d3d10825309
 tags:
   1.2.0--r41hdfd78af_0: sha256:b048679c87e5f506d259d988c0e89a36c07fb490d1ab08a8985897e82d65beb7
   1.6.0--r42hdfd78af_0: sha256:9a7f07f441d69092ff76d2b3c6dbe9f7ec6998996da0934f8cc330306e7f5b59
+  1.8.0--r43hdfd78af_0: sha256:3205a752a300213552a02a4b832cfdc7bb6c53bb659b3bf48e825d3d10825309
 docker: quay.io/biocontainers/bioconductor-treekor

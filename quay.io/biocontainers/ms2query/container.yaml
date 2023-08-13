@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ms2query
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ms2query
 latest:
-  1.2.1--pyhdfd78af_0: sha256:463a1658bb7f3aa166e5057e36ce70119517a3b6e64cff9db766b9ad0f6a953f
+  1.2.2--pyhdfd78af_0: sha256:7a45def9202af62b54d4bf150e90eebc7756a432d85dc3268f0c71e46b705b60
 tags:
   1.2.0--pyhdfd78af_0: sha256:62799bd55bc0a273dbe2d56698c24720ca78de0708f9f9a51b62abc34984bc2d
   1.2.1--pyhdfd78af_0: sha256:463a1658bb7f3aa166e5057e36ce70119517a3b6e64cff9db766b9ad0f6a953f
+  1.2.2--pyhdfd78af_0: sha256:7a45def9202af62b54d4bf150e90eebc7756a432d85dc3268f0c71e46b705b60
 docker: quay.io/biocontainers/ms2query
 aliases:
   backend-test-tools: /usr/local/bin/backend-test-tools

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-bumphunter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bumphunter
 latest:
-  1.40.0--r42hdfd78af_0: sha256:64c961c02b19e9ff15b56d223dc35c3519518f9a0dc6debdf38b9a6b7077a2f2
+  1.42.0--r43hdfd78af_0: sha256:51a08d62be5a259f6656922d3ef647309c225e697f7ca1b7ba2e3178bba0b24b
 tags:
   1.36.0--r41hdfd78af_0: sha256:46de4356c9a4fe567b5855c826aa0d2535f5395a8fafc515b62441c6c708142c
   1.40.0--r42hdfd78af_0: sha256:64c961c02b19e9ff15b56d223dc35c3519518f9a0dc6debdf38b9a6b7077a2f2
+  1.42.0--r43hdfd78af_0: sha256:51a08d62be5a259f6656922d3ef647309c225e697f7ca1b7ba2e3178bba0b24b
 docker: quay.io/biocontainers/bioconductor-bumphunter

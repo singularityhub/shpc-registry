@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-gghumanmethcancerpanelv1.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gghumanmethcancerpanelv1.db
 latest:
-  1.4.1--r42hdfd78af_10: sha256:7ebfdfa2d7177c31308936e2e51ff394cef4d46f723eb5cb2652224538faa788
+  1.4.1--r43hdfd78af_11: sha256:3318953e43ba43b729cc8474bfb6835e53e48d69531130c1258e8a25f1d170eb
 tags:
   1.4.1--r41hdfd78af_9: sha256:4f26d92cafe0dac833df9a49c0b90e65423f48cbee9b8cf82abbf30498151495
   1.4.1--r42hdfd78af_10: sha256:7ebfdfa2d7177c31308936e2e51ff394cef4d46f723eb5cb2652224538faa788
+  1.4.1--r43hdfd78af_11: sha256:3318953e43ba43b729cc8474bfb6835e53e48d69531130c1258e8a25f1d170eb
 docker: quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db

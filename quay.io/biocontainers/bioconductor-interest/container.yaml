@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-interest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-interest
 latest:
-  1.22.2--r42hdfd78af_0: sha256:6ac8fdf712fa40493531ff83769a725b747437881b08646e9934b379848f972c
+  1.24.0--r43hdfd78af_0: sha256:544abaa3b83764df6986bdf0e2b9abaa290a4d4e54842e58615909fd454b3129
 tags:
   1.8.0--r36_1: sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c
   1.22.2--r42hdfd78af_0: sha256:6ac8fdf712fa40493531ff83769a725b747437881b08646e9934b379848f972c
@@ -10,6 +10,7 @@ tags:
   1.16.0--r41hdfd78af_0: sha256:6415cffcc9de30c45048d5bed0c397f6c4961319f381366554eaed78f96e0267
   1.14.0--r40hdfd78af_1: sha256:baa9959d1b7086877244621390f2e5b0ee2c01f38ccf8975016b9f6261d8575e
   1.12.0--r40_0: sha256:24f32b0c431a5409c7a817066d869d7084542a761b90caec9c11ae032ed1394b
+  1.24.0--r43hdfd78af_0: sha256:544abaa3b83764df6986bdf0e2b9abaa290a4d4e54842e58615909fd454b3129
 docker: quay.io/biocontainers/bioconductor-interest
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

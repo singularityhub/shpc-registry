@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-simbu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-simbu
 latest:
-  1.0.0--r42hdfd78af_0: sha256:e460f23472da8702591fda02309d492e913ff88cd22895088eca8c6d5d9c72fa
+  1.2.0--r43hdfd78af_0: sha256:5c70901edcabb071386ab2caaa87c97f484fa53f4b71c03b0215c16d183690e5
 tags:
   1.0.0--r42hdfd78af_0: sha256:e460f23472da8702591fda02309d492e913ff88cd22895088eca8c6d5d9c72fa
+  1.2.0--r43hdfd78af_0: sha256:5c70901edcabb071386ab2caaa87c97f484fa53f4b71c03b0215c16d183690e5
 docker: quay.io/biocontainers/bioconductor-simbu
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
