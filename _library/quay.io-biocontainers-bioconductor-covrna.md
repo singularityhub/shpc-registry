@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-covrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-covrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-covrna/container.yaml"
-updated_at: "2023-08-12 02:42:54.482924"
+updated_at: "2023-08-13 02:51:07.689193"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-covrna"
 aliases:

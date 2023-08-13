@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-oncopharmadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-oncopharmadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-oncopharmadb/container.yaml"
-updated_at: "2023-08-12 02:42:59.412426"
-latest: "0.0.1--r42hdfd78af_1"
+updated_at: "2023-08-13 02:51:13.824091"
+latest: "1.3.7--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-oncopharmadb"
 
 versions:
  - "0.0.1--r41hdfd78af_0"
  - "0.0.1--r42hdfd78af_1"
+ - "1.3.7--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-oncopharmadb"
-config: {"url": "https://biocontainers.pro/tools/r-oncopharmadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-oncopharmadb", "latest": {"0.0.1--r42hdfd78af_1": "sha256:a427831d8f317c805e09f0c8f4b3632056ec2a33efdf3f5e00da004c89340d84"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:56797dcc6b0023a99f2a9dc17c4d9aff82b7e6e8eb3372f2e0521f91a3de0b13", "0.0.1--r42hdfd78af_1": "sha256:a427831d8f317c805e09f0c8f4b3632056ec2a33efdf3f5e00da004c89340d84"}, "docker": "quay.io/biocontainers/r-oncopharmadb"}
+config: {"url": "https://biocontainers.pro/tools/r-oncopharmadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-oncopharmadb", "latest": {"1.3.7--r43hdfd78af_0": "sha256:36c0ed84349d78d960d32909e59969e1d345d7dc06a0a800602ff10c38ea68f8"}, "tags": {"0.0.1--r41hdfd78af_0": "sha256:56797dcc6b0023a99f2a9dc17c4d9aff82b7e6e8eb3372f2e0521f91a3de0b13", "0.0.1--r42hdfd78af_1": "sha256:a427831d8f317c805e09f0c8f4b3632056ec2a33efdf3f5e00da004c89340d84", "1.3.7--r43hdfd78af_0": "sha256:36c0ed84349d78d960d32909e59969e1d345d7dc06a0a800602ff10c38ea68f8"}, "docker": "quay.io/biocontainers/r-oncopharmadb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-oncopharmadb.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-oncopharmadb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-oncopharmadb:0.0.1--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/r-oncopharmadb:1.3.7--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-oncopharmadb/0.0.1--r42hdfd78af_1
-$ module help quay.io/biocontainers/r-oncopharmadb/0.0.1--r42hdfd78af_1
+$ module load quay.io/biocontainers/r-oncopharmadb/1.3.7--r43hdfd78af_0
+$ module help quay.io/biocontainers/r-oncopharmadb/1.3.7--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

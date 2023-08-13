@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-diffcyt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffcyt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffcyt/container.yaml"
-updated_at: "2023-08-12 02:25:28.667855"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-08-13 02:29:51.426149"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffcyt"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diffcyt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diffcyt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffcyt", "latest": {"1.18.0--r42hdfd78af_0": "sha256:10642609f82691627ad238f42a14d83d2402f20ea15d3030303946bf08112aac"}, "tags": {"1.8.6--r40_0": "sha256:5e5209d0e5f92cbc2e9b84ab8c20dabc6396df4810d5cca5a64aa4cefc3048c1", "1.18.0--r42hdfd78af_0": "sha256:10642609f82691627ad238f42a14d83d2402f20ea15d3030303946bf08112aac", "1.14.0--r41hdfd78af_0": "sha256:b129d4bf65ea47d818e3f29f77460fe185b8d9b93954acc779f16e34a01d2c93", "1.12.0--r41hdfd78af_0": "sha256:f3ec2e79ae41aabb1bab76088f2cfde32c9b887aa9bc52eb25ae4317efb6109a", "1.10.0--r40hdfd78af_1": "sha256:22ac8e2e634be172fbbec126fcb3a9623bc5e491830977e5418930d8814078be"}, "docker": "quay.io/biocontainers/bioconductor-diffcyt", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diffcyt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffcyt", "latest": {"1.20.0--r43hdfd78af_0": "sha256:13df611af563f2e17e67c00b36a47afa67626219d43bfbddd855d03c8afc510b"}, "tags": {"1.8.6--r40_0": "sha256:5e5209d0e5f92cbc2e9b84ab8c20dabc6396df4810d5cca5a64aa4cefc3048c1", "1.18.0--r42hdfd78af_0": "sha256:10642609f82691627ad238f42a14d83d2402f20ea15d3030303946bf08112aac", "1.14.0--r41hdfd78af_0": "sha256:b129d4bf65ea47d818e3f29f77460fe185b8d9b93954acc779f16e34a01d2c93", "1.12.0--r41hdfd78af_0": "sha256:f3ec2e79ae41aabb1bab76088f2cfde32c9b887aa9bc52eb25ae4317efb6109a", "1.10.0--r40hdfd78af_1": "sha256:22ac8e2e634be172fbbec126fcb3a9623bc5e491830977e5418930d8814078be", "1.20.0--r43hdfd78af_0": "sha256:13df611af563f2e17e67c00b36a47afa67626219d43bfbddd855d03c8afc510b"}, "docker": "quay.io/biocontainers/bioconductor-diffcyt", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diffcyt.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-diffcyt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-diffcyt:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-diffcyt:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-diffcyt/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-diffcyt/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-diffcyt/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-diffcyt/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

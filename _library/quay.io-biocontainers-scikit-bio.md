@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scikit-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-bio/container.yaml"
-updated_at: "2023-08-12 02:57:43.904517"
+updated_at: "2023-08-13 03:09:13.616943"
 latest: "0.4.2--np112py35_0"
 container_url: "https://biocontainers.pro/tools/scikit-bio"
 aliases:

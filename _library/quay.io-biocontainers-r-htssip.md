@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-htssip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htssip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htssip/container.yaml"
-updated_at: "2023-08-12 03:00:32.337668"
-latest: "1.4.1--r42h3342da4_4"
+updated_at: "2023-08-13 03:12:42.272690"
+latest: "1.4.1--r43h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-htssip"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.4.1--r41h3342da4_3"
  - "1.4.1--r42h3342da4_4"
+ - "1.4.1--r43h3342da4_5"
 description: "shpc-registry automated BioContainers addition for r-htssip"
-config: {"url": "https://biocontainers.pro/tools/r-htssip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htssip", "latest": {"1.4.1--r42h3342da4_4": "sha256:cad30486a067c7a7b23993669c16e193b72aba4ea35c454f80c7190ee8e8b5d5"}, "tags": {"1.4.1--r41h3342da4_3": "sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f", "1.4.1--r42h3342da4_4": "sha256:cad30486a067c7a7b23993669c16e193b72aba4ea35c454f80c7190ee8e8b5d5"}, "docker": "quay.io/biocontainers/r-htssip", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-htssip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htssip", "latest": {"1.4.1--r43h3342da4_5": "sha256:4285ee217aac123319def60d48e900518c5c84dd0505f64d66d4711f8f85129a"}, "tags": {"1.4.1--r41h3342da4_3": "sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f", "1.4.1--r42h3342da4_4": "sha256:cad30486a067c7a7b23993669c16e193b72aba4ea35c454f80c7190ee8e8b5d5", "1.4.1--r43h3342da4_5": "sha256:4285ee217aac123319def60d48e900518c5c84dd0505f64d66d4711f8f85129a"}, "docker": "quay.io/biocontainers/r-htssip", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-htssip.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-htssip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-htssip:1.4.1--r42h3342da4_4
+$ shpc install quay.io/biocontainers/r-htssip:1.4.1--r43h3342da4_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-htssip/1.4.1--r42h3342da4_4
-$ module help quay.io/biocontainers/r-htssip/1.4.1--r42h3342da4_4
+$ module load quay.io/biocontainers/r-htssip/1.4.1--r43h3342da4_5
+$ module help quay.io/biocontainers/r-htssip/1.4.1--r43h3342da4_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

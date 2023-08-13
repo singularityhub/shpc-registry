@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-cner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cner/container.yaml"
-updated_at: "2023-08-12 02:45:02.609291"
-latest: "1.34.0--r42ha9d7317_1"
+updated_at: "2023-08-13 02:53:42.754349"
+latest: "1.36.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cner"
 
 versions:
  - "1.30.0--r41hc0cfd56_2"
  - "1.34.0--r42hc0cfd56_0"
  - "1.34.0--r42ha9d7317_1"
+ - "1.36.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cner"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cner", "latest": {"1.34.0--r42ha9d7317_1": "sha256:6c492bf92442502cd55ee52811eafad8516be8260dac199373f4035aadfcefc6"}, "tags": {"1.30.0--r41hc0cfd56_2": "sha256:67698a758bc0d3e18c293bb5bdfb92366f9adf266763e8671f5c60d9590de951", "1.34.0--r42hc0cfd56_0": "sha256:c06076f605bfd723b05dff033d450b4c4b687da09c2ddd4b62ae81bafede8529", "1.34.0--r42ha9d7317_1": "sha256:6c492bf92442502cd55ee52811eafad8516be8260dac199373f4035aadfcefc6"}, "docker": "quay.io/biocontainers/bioconductor-cner"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cner", "latest": {"1.36.0--r43ha9d7317_0": "sha256:83dbac0ab552bc8e55e221f7179c709e0aace9142359105a5ddc43c436af82ba"}, "tags": {"1.30.0--r41hc0cfd56_2": "sha256:67698a758bc0d3e18c293bb5bdfb92366f9adf266763e8671f5c60d9590de951", "1.34.0--r42hc0cfd56_0": "sha256:c06076f605bfd723b05dff033d450b4c4b687da09c2ddd4b62ae81bafede8529", "1.34.0--r42ha9d7317_1": "sha256:6c492bf92442502cd55ee52811eafad8516be8260dac199373f4035aadfcefc6", "1.36.0--r43ha9d7317_0": "sha256:83dbac0ab552bc8e55e221f7179c709e0aace9142359105a5ddc43c436af82ba"}, "docker": "quay.io/biocontainers/bioconductor-cner"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cner.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cner:1.34.0--r42ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-cner:1.36.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cner/1.34.0--r42ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-cner/1.34.0--r42ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-cner/1.36.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-cner/1.36.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

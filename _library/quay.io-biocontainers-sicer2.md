@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sicer2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sicer2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sicer2/container.yaml"
-updated_at: "2023-08-12 02:50:14.802248"
+updated_at: "2023-08-13 02:59:59.458984"
 latest: "1.0.3--py39hec7c8de_3"
 container_url: "https://biocontainers.pro/tools/sicer2"
 aliases:

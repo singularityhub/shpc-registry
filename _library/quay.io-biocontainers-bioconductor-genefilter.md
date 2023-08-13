@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-genefilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genefilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genefilter/container.yaml"
-updated_at: "2023-08-12 02:44:22.992056"
-latest: "1.80.0--r42ha1e849b_1"
+updated_at: "2023-08-13 02:52:54.765165"
+latest: "1.82.1--r43ha1e849b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genefilter"
 
 versions:
  - "1.76.0--r41h38f54d8_2"
  - "1.80.0--r42h38f54d8_0"
  - "1.80.0--r42ha1e849b_1"
+ - "1.82.1--r43ha1e849b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genefilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genefilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genefilter", "latest": {"1.80.0--r42ha1e849b_1": "sha256:9e84bdc813e1a2521750a2cab4017ae2d187520662c6281bbaf6255980a6388f"}, "tags": {"1.76.0--r41h38f54d8_2": "sha256:2c36dd9a71a0014a4905740549d8d6352f694116d191623803b52dc7597e833d", "1.80.0--r42h38f54d8_0": "sha256:bb0e456be2899b4ca41d58f34a2ff83c6b215aba32221af8497b567d6bdad0e8", "1.80.0--r42ha1e849b_1": "sha256:9e84bdc813e1a2521750a2cab4017ae2d187520662c6281bbaf6255980a6388f"}, "docker": "quay.io/biocontainers/bioconductor-genefilter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genefilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genefilter", "latest": {"1.82.1--r43ha1e849b_0": "sha256:1753dbaef49366ad4bc676f5056684720d5c4235ef310279c3d2eb1511b332bb"}, "tags": {"1.76.0--r41h38f54d8_2": "sha256:2c36dd9a71a0014a4905740549d8d6352f694116d191623803b52dc7597e833d", "1.80.0--r42h38f54d8_0": "sha256:bb0e456be2899b4ca41d58f34a2ff83c6b215aba32221af8497b567d6bdad0e8", "1.80.0--r42ha1e849b_1": "sha256:9e84bdc813e1a2521750a2cab4017ae2d187520662c6281bbaf6255980a6388f", "1.82.1--r43ha1e849b_0": "sha256:1753dbaef49366ad4bc676f5056684720d5c4235ef310279c3d2eb1511b332bb"}, "docker": "quay.io/biocontainers/bioconductor-genefilter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genefilter.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genefilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genefilter:1.80.0--r42ha1e849b_1
+$ shpc install quay.io/biocontainers/bioconductor-genefilter:1.82.1--r43ha1e849b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genefilter/1.80.0--r42ha1e849b_1
-$ module help quay.io/biocontainers/bioconductor-genefilter/1.80.0--r42ha1e849b_1
+$ module load quay.io/biocontainers/bioconductor-genefilter/1.82.1--r43ha1e849b_0
+$ module help quay.io/biocontainers/bioconductor-genefilter/1.82.1--r43ha1e849b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

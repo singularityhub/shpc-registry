@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-gwena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwena/container.yaml"
-updated_at: "2023-08-12 02:56:38.265073"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-08-13 03:07:52.911012"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwena"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gwena"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gwena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwena", "latest": {"1.8.0--r42hdfd78af_0": "sha256:456e370526d5d8e659ae76a0665ba506f3bac8aed6b63619c047a6d060ece7bd"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:249a767dc6af9e54046d0c0476e069aab59e6c0644aea996f9edaaec77eef71a", "1.8.0--r42hdfd78af_0": "sha256:456e370526d5d8e659ae76a0665ba506f3bac8aed6b63619c047a6d060ece7bd"}, "docker": "quay.io/biocontainers/bioconductor-gwena"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gwena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwena", "latest": {"1.10.0--r43hdfd78af_0": "sha256:477273ed934a042d4782c62784154fe4acc76df3c0e01ad001a81099b16dfd5e"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:249a767dc6af9e54046d0c0476e069aab59e6c0644aea996f9edaaec77eef71a", "1.8.0--r42hdfd78af_0": "sha256:456e370526d5d8e659ae76a0665ba506f3bac8aed6b63619c047a6d060ece7bd", "1.10.0--r43hdfd78af_0": "sha256:477273ed934a042d4782c62784154fe4acc76df3c0e01ad001a81099b16dfd5e"}, "docker": "quay.io/biocontainers/bioconductor-gwena"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gwena.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gwena
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gwena:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gwena:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gwena/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gwena/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gwena/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gwena/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

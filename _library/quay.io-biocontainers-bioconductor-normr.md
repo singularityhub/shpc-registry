@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-normr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normr/container.yaml"
-updated_at: "2023-08-12 03:04:47.893133"
-latest: "1.24.0--r42hf17093f_1"
+updated_at: "2023-08-13 03:17:55.802450"
+latest: "1.26.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normr"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40h399db7b_1"
  - "1.14.0--r40h5f743cb_0"
  - "1.24.0--r42hf17093f_1"
+ - "1.26.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-normr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-normr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normr", "latest": {"1.24.0--r42hf17093f_1": "sha256:a169bd773529f5889b171cf59c59675e818dbd7831f72f685fbee5df83790231"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373", "1.24.0--r42hc247a5b_0": "sha256:b0f52efb3d246787f3eb0e6840694d6ea970811a5342d80a665348b0ff4b70b9", "1.20.0--r41hc247a5b_2": "sha256:297284c528f9c1c7cae87d2ebbc00853861b9075a20ae62a5906dc76d0888646", "1.18.0--r41h399db7b_0": "sha256:95b5672879fcbcb987342fa8568fc604c56c0792bdff643488e6bebfca4f6fbd", "1.16.0--r40h399db7b_1": "sha256:10d2f92396a19d47c12f819594a369ab39273f9b249e60b6f5657940535f7061", "1.14.0--r40h5f743cb_0": "sha256:76bee8dbb95c8e4868bafe74b7d1aa8212f571aae7b0bd89c580c5f5c8a4a4b6", "1.24.0--r42hf17093f_1": "sha256:a169bd773529f5889b171cf59c59675e818dbd7831f72f685fbee5df83790231"}, "docker": "quay.io/biocontainers/bioconductor-normr", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-normr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normr", "latest": {"1.26.0--r43hf17093f_0": "sha256:83e9e3a0ce5fa3bffcc8bad69eb7f25ed960a747cceebaf168d6e3edebd88ba2"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373", "1.24.0--r42hc247a5b_0": "sha256:b0f52efb3d246787f3eb0e6840694d6ea970811a5342d80a665348b0ff4b70b9", "1.20.0--r41hc247a5b_2": "sha256:297284c528f9c1c7cae87d2ebbc00853861b9075a20ae62a5906dc76d0888646", "1.18.0--r41h399db7b_0": "sha256:95b5672879fcbcb987342fa8568fc604c56c0792bdff643488e6bebfca4f6fbd", "1.16.0--r40h399db7b_1": "sha256:10d2f92396a19d47c12f819594a369ab39273f9b249e60b6f5657940535f7061", "1.14.0--r40h5f743cb_0": "sha256:76bee8dbb95c8e4868bafe74b7d1aa8212f571aae7b0bd89c580c5f5c8a4a4b6", "1.24.0--r42hf17093f_1": "sha256:a169bd773529f5889b171cf59c59675e818dbd7831f72f685fbee5df83790231", "1.26.0--r43hf17093f_0": "sha256:83e9e3a0ce5fa3bffcc8bad69eb7f25ed960a747cceebaf168d6e3edebd88ba2"}, "docker": "quay.io/biocontainers/bioconductor-normr", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-normr.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-normr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-normr:1.24.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-normr:1.26.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-normr/1.24.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-normr/1.24.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-normr/1.26.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-normr/1.26.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

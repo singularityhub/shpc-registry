@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crimson"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crimson/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crimson/container.yaml"
-updated_at: "2023-08-12 02:32:58.030741"
-latest: "1.1.0--pyh5e36f6f_0"
+updated_at: "2023-08-13 02:39:03.550930"
+latest: "1.1.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/crimson"
 aliases:
  - "crimson"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.1.0--pyh5e36f6f_0"
+ - "1.1.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for crimson"
-config: {"url": "https://biocontainers.pro/tools/crimson", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crimson", "latest": {"1.1.0--pyh5e36f6f_0": "sha256:9a754e37335aa50bed1da698412bcd2cd8826cfa228f16be78c2adcc99415e22"}, "tags": {"1.1.0--pyh5e36f6f_0": "sha256:9a754e37335aa50bed1da698412bcd2cd8826cfa228f16be78c2adcc99415e22"}, "docker": "quay.io/biocontainers/crimson", "aliases": {"crimson": "/usr/local/bin/crimson", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/crimson", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crimson", "latest": {"1.1.1--pyh7cba7a3_0": "sha256:1e87aa3ac077a91bd54a43649df6448f00371dcce6250b1af996e6e38f3d3e81"}, "tags": {"1.1.0--pyh5e36f6f_0": "sha256:9a754e37335aa50bed1da698412bcd2cd8826cfa228f16be78c2adcc99415e22", "1.1.1--pyh7cba7a3_0": "sha256:1e87aa3ac077a91bd54a43649df6448f00371dcce6250b1af996e6e38f3d3e81"}, "docker": "quay.io/biocontainers/crimson", "aliases": {"crimson": "/usr/local/bin/crimson", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crimson.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/crimson
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crimson:1.1.0--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/crimson:1.1.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crimson/1.1.0--pyh5e36f6f_0
-$ module help quay.io/biocontainers/crimson/1.1.0--pyh5e36f6f_0
+$ module load quay.io/biocontainers/crimson/1.1.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/crimson/1.1.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

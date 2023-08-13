@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-goeveg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-goeveg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-goeveg/container.yaml"
-updated_at: "2023-08-12 03:01:04.434533"
+updated_at: "2023-08-13 03:13:21.062082"
 latest: "0.4.2--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-goeveg"
 

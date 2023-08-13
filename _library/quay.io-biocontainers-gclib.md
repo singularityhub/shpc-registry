@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gclib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gclib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gclib/container.yaml"
-updated_at: "2023-08-12 03:07:40.742902"
+updated_at: "2023-08-13 03:21:29.642547"
 latest: "0.0.1--h2d50403_5"
 container_url: "https://biocontainers.pro/tools/gclib"
 aliases:

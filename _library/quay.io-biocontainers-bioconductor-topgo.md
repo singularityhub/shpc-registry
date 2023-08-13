@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-topgo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topgo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topgo/container.yaml"
-updated_at: "2023-08-12 02:51:26.477133"
-latest: "2.50.0--r42hdfd78af_0"
+updated_at: "2023-08-13 03:01:26.750167"
+latest: "2.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topgo"
 
 versions:
  - "2.46.0--r41hdfd78af_0"
  - "2.50.0--r42hdfd78af_0"
+ - "2.52.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-topgo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-topgo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topgo", "latest": {"2.50.0--r42hdfd78af_0": "sha256:73f89cbd6ac93317a6d7b097903843ea0fae654d22a75f3a1ba69c2075bac694"}, "tags": {"2.46.0--r41hdfd78af_0": "sha256:1c706236f1c80add883366c6ec0892170db69fc5c3287f90263e3907307aeefa", "2.50.0--r42hdfd78af_0": "sha256:73f89cbd6ac93317a6d7b097903843ea0fae654d22a75f3a1ba69c2075bac694"}, "docker": "quay.io/biocontainers/bioconductor-topgo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-topgo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topgo", "latest": {"2.52.0--r43hdfd78af_0": "sha256:b6990cf8e140832b0017bcb05f48dc17b48ff06f1f006a5cdbf7dcd3614352e6"}, "tags": {"2.46.0--r41hdfd78af_0": "sha256:1c706236f1c80add883366c6ec0892170db69fc5c3287f90263e3907307aeefa", "2.50.0--r42hdfd78af_0": "sha256:73f89cbd6ac93317a6d7b097903843ea0fae654d22a75f3a1ba69c2075bac694", "2.52.0--r43hdfd78af_0": "sha256:b6990cf8e140832b0017bcb05f48dc17b48ff06f1f006a5cdbf7dcd3614352e6"}, "docker": "quay.io/biocontainers/bioconductor-topgo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-topgo.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-topgo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-topgo:2.50.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-topgo:2.52.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-topgo/2.50.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-topgo/2.50.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-topgo/2.52.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-topgo/2.52.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

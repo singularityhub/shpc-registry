@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/evofr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evofr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evofr/container.yaml"
-updated_at: "2023-08-12 02:42:51.641862"
-latest: "0.1.20--pyhdfd78af_0"
+updated_at: "2023-08-13 02:51:04.207071"
+latest: "0.1.20--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/evofr"
 aliases:
  - "f2py3.11"
@@ -30,8 +30,9 @@ versions:
  - "0.1.18--pyhdfd78af_0"
  - "0.1.18--pyhdfd78af_1"
  - "0.1.20--pyhdfd78af_0"
+ - "0.1.20--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for evofr"
-config: {"url": "https://biocontainers.pro/tools/evofr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for evofr", "latest": {"0.1.20--pyhdfd78af_0": "sha256:a43943507c9a93a582defa7ae86f717e58a44cc1534db13f60107c901496dc42"}, "tags": {"0.1.16--pyhdfd78af_0": "sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2", "0.1.18--pyhdfd78af_0": "sha256:3f8060d4a41df9f728226001cfa5ecf023bfed902f2223f5307744d5c1502cf7", "0.1.18--pyhdfd78af_1": "sha256:075c037c45b8b1d88291368f58f6f7a91a23557ff3ebd70b59057b00428e13d4", "0.1.20--pyhdfd78af_0": "sha256:a43943507c9a93a582defa7ae86f717e58a44cc1534db13f60107c901496dc42"}, "docker": "quay.io/biocontainers/evofr", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/evofr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for evofr", "latest": {"0.1.20--pyhdfd78af_1": "sha256:33a671c8201781eb6c37f57b6113fa8ab0fbd866619427db3dad53e55e485451"}, "tags": {"0.1.16--pyhdfd78af_0": "sha256:bfd7f5839ab7d975bd8ce428e0d6fecd1e5670f3639f214c9a99e1e7917212e2", "0.1.18--pyhdfd78af_0": "sha256:3f8060d4a41df9f728226001cfa5ecf023bfed902f2223f5307744d5c1502cf7", "0.1.18--pyhdfd78af_1": "sha256:075c037c45b8b1d88291368f58f6f7a91a23557ff3ebd70b59057b00428e13d4", "0.1.20--pyhdfd78af_0": "sha256:a43943507c9a93a582defa7ae86f717e58a44cc1534db13f60107c901496dc42", "0.1.20--pyhdfd78af_1": "sha256:33a671c8201781eb6c37f57b6113fa8ab0fbd866619427db3dad53e55e485451"}, "docker": "quay.io/biocontainers/evofr", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/evofr.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/evofr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/evofr:0.1.20--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/evofr:0.1.20--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/evofr/0.1.20--pyhdfd78af_0
-$ module help quay.io/biocontainers/evofr/0.1.20--pyhdfd78af_0
+$ module load quay.io/biocontainers/evofr/0.1.20--pyhdfd78af_1
+$ module help quay.io/biocontainers/evofr/0.1.20--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

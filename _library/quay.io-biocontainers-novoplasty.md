@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/novoplasty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoplasty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novoplasty/container.yaml"
-updated_at: "2023-08-12 02:56:42.543519"
-latest: "4.3.1--pl5321hdfd78af_1"
+updated_at: "2023-08-13 03:07:58.212018"
+latest: "4.3.3--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/novoplasty"
 aliases:
  - "Circos.pl"
@@ -16,8 +16,9 @@ aliases:
  - "streamzip"
 versions:
  - "4.3.1--pl5321hdfd78af_1"
+ - "4.3.3--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for novoplasty"
-config: {"url": "https://biocontainers.pro/tools/novoplasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoplasty", "latest": {"4.3.1--pl5321hdfd78af_1": "sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f"}, "tags": {"4.3.1--pl5321hdfd78af_1": "sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f"}, "docker": "quay.io/biocontainers/novoplasty", "aliases": {"Circos.pl": "/usr/local/bin/Circos.pl", "NOVOPlasty.pl": "/usr/local/bin/NOVOPlasty.pl", "NOVOPlasty4.3.1.pl": "/usr/local/bin/NOVOPlasty4.3.1.pl", "filter_reads.pl": "/usr/local/bin/filter_reads.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/novoplasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoplasty", "latest": {"4.3.3--pl5321hdfd78af_0": "sha256:c4f8f7e10ca9184dcda0456d75bf45a4e1bb5af03405c3d8e6cf414ec7c2402a"}, "tags": {"4.3.1--pl5321hdfd78af_1": "sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f", "4.3.3--pl5321hdfd78af_0": "sha256:c4f8f7e10ca9184dcda0456d75bf45a4e1bb5af03405c3d8e6cf414ec7c2402a"}, "docker": "quay.io/biocontainers/novoplasty", "aliases": {"Circos.pl": "/usr/local/bin/Circos.pl", "NOVOPlasty.pl": "/usr/local/bin/NOVOPlasty.pl", "NOVOPlasty4.3.1.pl": "/usr/local/bin/NOVOPlasty4.3.1.pl", "filter_reads.pl": "/usr/local/bin/filter_reads.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novoplasty.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/novoplasty
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/novoplasty:4.3.1--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/novoplasty:4.3.3--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/novoplasty/4.3.1--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/novoplasty/4.3.1--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/novoplasty/4.3.3--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/novoplasty/4.3.3--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

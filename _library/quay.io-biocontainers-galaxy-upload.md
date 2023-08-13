@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-upload"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-upload/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-upload/container.yaml"
-updated_at: "2023-08-12 02:23:58.324484"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2023-08-13 02:28:01.976316"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-upload"
 aliases:
  - "bioblend-galaxy-tests"
@@ -23,8 +23,9 @@ aliases:
  - "glacier"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for galaxy-upload"
-config: {"url": "https://biocontainers.pro/tools/galaxy-upload", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-upload", "latest": {"1.0.0--pyhdfd78af_0": "sha256:b1b38ce3edc1f4697b1edcbc9635b7b76d35b266441eb18c8f80d02a3adec8c2"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:b1b38ce3edc1f4697b1edcbc9635b7b76d35b266441eb18c8f80d02a3adec8c2"}, "docker": "quay.io/biocontainers/galaxy-upload", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "galaxy-history-search": "/usr/local/bin/galaxy-history-search", "galaxy-upload": "/usr/local/bin/galaxy-upload", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-upload", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-upload", "latest": {"1.0.1--pyhdfd78af_0": "sha256:3baeeab6836e4b40b4098c27d9c732a01fc314831b822dffafc1adfe2c8b54b3"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:b1b38ce3edc1f4697b1edcbc9635b7b76d35b266441eb18c8f80d02a3adec8c2", "1.0.1--pyhdfd78af_0": "sha256:3baeeab6836e4b40b4098c27d9c732a01fc314831b822dffafc1adfe2c8b54b3"}, "docker": "quay.io/biocontainers/galaxy-upload", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "galaxy-history-search": "/usr/local/bin/galaxy-history-search", "galaxy-upload": "/usr/local/bin/galaxy-upload", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-upload.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/galaxy-upload
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-upload:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/galaxy-upload:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-upload/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/galaxy-upload/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/galaxy-upload/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/galaxy-upload/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

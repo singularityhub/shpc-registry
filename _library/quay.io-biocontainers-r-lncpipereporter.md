@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-lncpipereporter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lncpipereporter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lncpipereporter/container.yaml"
-updated_at: "2023-08-12 02:50:06.937551"
-latest: "0.1.1--r42h031d066_7"
+updated_at: "2023-08-13 02:59:50.075871"
+latest: "0.1.1--r43h031d066_8"
 container_url: "https://biocontainers.pro/tools/r-lncpipereporter"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "0.1.1--r41hec16e2b_5"
  - "0.1.1--r42hec16e2b_6"
  - "0.1.1--r42h031d066_7"
+ - "0.1.1--r43h031d066_8"
 description: "shpc-registry automated BioContainers addition for r-lncpipereporter"
-config: {"url": "https://biocontainers.pro/tools/r-lncpipereporter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lncpipereporter", "latest": {"0.1.1--r42h031d066_7": "sha256:45684b08853b2a9bb0549d602e924af601095d1d9b5ac85f42abe51ebe6f74a2"}, "tags": {"0.1.1--r41hec16e2b_5": "sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268", "0.1.1--r42hec16e2b_6": "sha256:a7d6df5d1901e5851f8f6bfc2d0b5bf2249383dc88efcfe3a070fef60b6b823f", "0.1.1--r42h031d066_7": "sha256:45684b08853b2a9bb0549d602e924af601095d1d9b5ac85f42abe51ebe6f74a2"}, "docker": "quay.io/biocontainers/r-lncpipereporter", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-lncpipereporter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lncpipereporter", "latest": {"0.1.1--r43h031d066_8": "sha256:c7c470d15d955a11c95ae2564be894861547013d04b7f531f41b174a09a47833"}, "tags": {"0.1.1--r41hec16e2b_5": "sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268", "0.1.1--r42hec16e2b_6": "sha256:a7d6df5d1901e5851f8f6bfc2d0b5bf2249383dc88efcfe3a070fef60b6b823f", "0.1.1--r42h031d066_7": "sha256:45684b08853b2a9bb0549d602e924af601095d1d9b5ac85f42abe51ebe6f74a2", "0.1.1--r43h031d066_8": "sha256:c7c470d15d955a11c95ae2564be894861547013d04b7f531f41b174a09a47833"}, "docker": "quay.io/biocontainers/r-lncpipereporter", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lncpipereporter.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-lncpipereporter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-lncpipereporter:0.1.1--r42h031d066_7
+$ shpc install quay.io/biocontainers/r-lncpipereporter:0.1.1--r43h031d066_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-lncpipereporter/0.1.1--r42h031d066_7
-$ module help quay.io/biocontainers/r-lncpipereporter/0.1.1--r42h031d066_7
+$ module load quay.io/biocontainers/r-lncpipereporter/0.1.1--r43h031d066_8
+$ module help quay.io/biocontainers/r-lncpipereporter/0.1.1--r43h031d066_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
