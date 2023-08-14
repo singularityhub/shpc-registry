@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/beacon2-ri-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for beacon2-ri-tools
+latest:
+  2.0.0--pl5321hdfd78af_0: sha256:ecad6829625c1f200412496557b1e2dabc963389478d6e7a543782d9fc230cac
+tags:
+  2.0.0--pl5321hdfd78af_0: sha256:ecad6829625c1f200412496557b1e2dabc963389478d6e7a543782d9fc230cac
+docker: quay.io/biocontainers/beacon2-ri-tools
+aliases:
+  beacon: /usr/local/bin/beacon
+  bff-validator: /usr/local/bin/bff-validator
+  bff2html.pl: /usr/local/bin/bff2html.pl
+  bff2json.pl: /usr/local/bin/bff2json.pl
+  crc32: /usr/local/bin/crc32
+  csv2xlsx: /usr/local/bin/csv2xlsx
+  extract_vba: /usr/local/bin/extract_vba
+  hypnotoad: /usr/local/bin/hypnotoad
+  mojo: /usr/local/bin/mojo
+  morbo: /usr/local/bin/morbo
+  perl-doc: /usr/local/bin/perl-doc
+  pxf2bff: /usr/local/bin/pxf2bff
+  vcf2bff.pl: /usr/local/bin/vcf2bff.pl
+  yamlpp5-events: /usr/local/bin/yamlpp5-events
+  yamlpp5-highlight: /usr/local/bin/yamlpp5-highlight
+  yamlpp5-load: /usr/local/bin/yamlpp5-load
+  yamlpp5-load-dump: /usr/local/bin/yamlpp5-load-dump
+  yamlpp5-parse-emit: /usr/local/bin/yamlpp5-parse-emit
+  pg_amcheck: /usr/local/bin/pg_amcheck
+  pg_verifybackup: /usr/local/bin/pg_verifybackup
+  pg_checksums: /usr/local/bin/pg_checksums
+  tzselect: /usr/local/bin/tzselect
+  zdump: /usr/local/bin/zdump
+  zic: /usr/local/bin/zic
+  oid2name: /usr/local/bin/oid2name
+  pg_receivewal: /usr/local/bin/pg_receivewal
+  pg_resetwal: /usr/local/bin/pg_resetwal
+  pg_waldump: /usr/local/bin/pg_waldump
+  vacuumlo: /usr/local/bin/vacuumlo
+  clusterdb: /usr/local/bin/clusterdb
+  createdb: /usr/local/bin/createdb
+  createuser: /usr/local/bin/createuser
+  dropdb: /usr/local/bin/dropdb
+  dropuser: /usr/local/bin/dropuser
+  ecpg: /usr/local/bin/ecpg
+  initdb: /usr/local/bin/initdb
+  pg_archivecleanup: /usr/local/bin/pg_archivecleanup
+  pg_basebackup: /usr/local/bin/pg_basebackup
+  pg_controldata: /usr/local/bin/pg_controldata
+  pg_ctl: /usr/local/bin/pg_ctl
+  pg_dump: /usr/local/bin/pg_dump
+  pg_dumpall: /usr/local/bin/pg_dumpall
+  pg_isready: /usr/local/bin/pg_isready
