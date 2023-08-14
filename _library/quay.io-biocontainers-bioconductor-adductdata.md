@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adductdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adductdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adductdata/container.yaml"
-updated_at: "2023-08-14 02:44:45.119387"
+updated_at: "2023-08-14 03:15:03.120241"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adductdata"
 aliases:

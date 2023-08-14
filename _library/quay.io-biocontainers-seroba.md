@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seroba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seroba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seroba/container.yaml"
-updated_at: "2023-08-14 02:50:08.938670"
+updated_at: "2023-08-14 03:19:57.943894"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seroba"
 aliases:

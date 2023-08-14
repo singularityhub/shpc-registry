@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ampliconclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampliconclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampliconclassifier/container.yaml"
-updated_at: "2023-08-14 02:44:23.475825"
+updated_at: "2023-08-14 03:14:42.869488"
 latest: "0.4.14--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampliconclassifier"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-beadarraysnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beadarraysnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beadarraysnp/container.yaml"
-updated_at: "2023-08-14 02:41:11.115765"
+updated_at: "2023-08-14 03:11:46.133975"
 latest: "1.66.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beadarraysnp"
 
