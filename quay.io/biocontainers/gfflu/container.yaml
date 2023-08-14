@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/gfflu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gfflu
+latest:
+  0.0.2--pyhdfd78af_0: sha256:61e7841ec57bbf2f0106410a5cd9a99efc504f52692593791f44f755fddc07b2
+tags:
+  0.0.2--pyhdfd78af_0: sha256:61e7841ec57bbf2f0106410a5cd9a99efc504f52692593791f44f755fddc07b2
+docker: quay.io/biocontainers/gfflu
+aliases:
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  gfflu: /usr/local/bin/gfflu
+  miniprot: /usr/local/bin/miniprot
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  markdown-it: /usr/local/bin/markdown-it
+  uuid: /usr/local/bin/uuid
+  uuid-config: /usr/local/bin/uuid-config
+  test_pcre: /usr/local/bin/test_pcre
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
+  bed_build_windows.py: /usr/local/bin/bed_build_windows.py
+  bed_complement.py: /usr/local/bin/bed_complement.py
+  bed_count_by_interval.py: /usr/local/bin/bed_count_by_interval.py
+  bed_count_overlapping.py: /usr/local/bin/bed_count_overlapping.py
+  bed_coverage.py: /usr/local/bin/bed_coverage.py
+  bed_coverage_by_interval.py: /usr/local/bin/bed_coverage_by_interval.py
+  bed_diff_basewise_summary.py: /usr/local/bin/bed_diff_basewise_summary.py
+  bed_extend_to.py: /usr/local/bin/bed_extend_to.py
+  bed_intersect.py: /usr/local/bin/bed_intersect.py
+  bed_intersect_basewise.py: /usr/local/bin/bed_intersect_basewise.py
+  bed_merge_overlapping.py: /usr/local/bin/bed_merge_overlapping.py
+  bed_rand_intersect.py: /usr/local/bin/bed_rand_intersect.py
+  bed_subtract_basewise.py: /usr/local/bin/bed_subtract_basewise.py
+  bnMapper.py: /usr/local/bin/bnMapper.py

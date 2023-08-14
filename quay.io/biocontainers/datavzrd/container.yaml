@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/datavzrd
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for datavzrd
+latest:
+  2.23.2: sha256:035fcc3dd8cbe35d3d41d563fe6f542dc89798c06075b656b74b0fc2b7362fe0
+tags:
+  2.23.2: sha256:035fcc3dd8cbe35d3d41d563fe6f542dc89798c06075b656b74b0fc2b7362fe0
+docker: quay.io/biocontainers/datavzrd
+aliases:
+  datavzrd: /usr/local/bin/datavzrd

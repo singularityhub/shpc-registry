@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hictk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hictk
+latest:
+  0.0.2--h7c38aa9_0: sha256:76809edcae96e8fb559513c0c53e093c65f13d308f059f30bb0215db31e1b214
+tags:
+  0.0.2--h7c38aa9_0: sha256:76809edcae96e8fb559513c0c53e093c65f13d308f059f30bb0215db31e1b214
+docker: quay.io/biocontainers/hictk
+aliases:
+  hictk: /usr/local/bin/hictk
+  h5delete: /usr/local/bin/h5delete
+  aec: /usr/local/bin/aec
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5repack: /usr/local/bin/h5repack

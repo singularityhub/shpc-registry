@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/cycle_finder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cycle_finder
+latest:
+  1.0.0--hdbdd923_0: sha256:5717ccae9dc75b51325e7198de565c78ea3de94dfa48d2699949624da5e19b3a
+tags:
+  1.0.0--hdbdd923_0: sha256:5717ccae9dc75b51325e7198de565c78ea3de94dfa48d2699949624da5e19b3a
+docker: quay.io/biocontainers/cycle_finder
+aliases:
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  cycle_finder: /usr/local/bin/cycle_finder
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  trf4.10.0-rc.2.linux64.exe: /usr/local/bin/trf4.10.0-rc.2.linux64.exe
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  trf: /usr/local/bin/trf
+  uuid: /usr/local/bin/uuid
+  uuid-config: /usr/local/bin/uuid-config
+  FET.pl: /usr/local/bin/FET.pl
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  clstr_list.pl: /usr/local/bin/clstr_list.pl
+  clstr_list_sort.pl: /usr/local/bin/clstr_list_sort.pl
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
