@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-interminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interminer/container.yaml"
-updated_at: "2023-08-13 02:34:09.199935"
+updated_at: "2023-08-14 02:33:00.036951"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interminer"
 aliases:

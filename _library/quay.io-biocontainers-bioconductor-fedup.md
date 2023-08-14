@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fedup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fedup/container.yaml"
-updated_at: "2023-08-13 02:51:51.237220"
+updated_at: "2023-08-14 02:48:54.616719"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fedup"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fedup"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fedup", "latest": {"1.8.0--r43hdfd78af_0": "sha256:274636f9fffd60d494908353bac4398a35aa9c41e9f3c7061758d231d6020163"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd", "1.6.0--r42hdfd78af_0": "sha256:05dd515ce7932a18f5c5ce42b33adbab7b6d699b58619a6529a5d75195185d1e", "1.8.0--r43hdfd78af_0": "sha256:274636f9fffd60d494908353bac4398a35aa9c41e9f3c7061758d231d6020163"}, "docker": "quay.io/biocontainers/bioconductor-fedup", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fedup", "latest": {"1.8.0--r43hdfd78af_0": "sha256:3bec1fcf83dfb1e25194c73edf784766df3bcdec2093863f5c78592e6f625a6d"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd", "1.6.0--r42hdfd78af_0": "sha256:05dd515ce7932a18f5c5ce42b33adbab7b6d699b58619a6529a5d75195185d1e", "1.8.0--r43hdfd78af_0": "sha256:3bec1fcf83dfb1e25194c73edf784766df3bcdec2093863f5c78592e6f625a6d"}, "docker": "quay.io/biocontainers/bioconductor-fedup", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fedup.

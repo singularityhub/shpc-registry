@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pxblat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pxblat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pxblat/container.yaml"
-updated_at: "2023-08-13 02:32:41.426563"
-latest: "0.2.0--py310hfb835a5_0"
+updated_at: "2023-08-14 02:31:40.883727"
+latest: "0.3.0--py311ha8d5032_0"
 container_url: "https://biocontainers.pro/tools/pxblat"
 aliases:
  - "pxblat"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "0.2.0--py310hfb835a5_0"
  - "0.2.0--py39h1fb70d6_0"
+ - "0.3.0--py311ha8d5032_0"
 description: "singularity registry hpc automated addition for pxblat"
-config: {"url": "https://biocontainers.pro/tools/pxblat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pxblat", "latest": {"0.2.0--py310hfb835a5_0": "sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4"}, "tags": {"0.2.0--py310hfb835a5_0": "sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4", "0.2.0--py39h1fb70d6_0": "sha256:9ad2e81e69c64c9f19d6d631e0be62aacecf0aef774fbd570e25e2d185808100"}, "docker": "quay.io/biocontainers/pxblat", "aliases": {"pxblat": "/usr/local/bin/pxblat", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pxblat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pxblat", "latest": {"0.3.0--py311ha8d5032_0": "sha256:65d926fc50f05a3944c24e9dc5d9ecfe7b1573446dc7329e3c5f8c35ee60c8eb"}, "tags": {"0.2.0--py310hfb835a5_0": "sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4", "0.2.0--py39h1fb70d6_0": "sha256:9ad2e81e69c64c9f19d6d631e0be62aacecf0aef774fbd570e25e2d185808100", "0.3.0--py311ha8d5032_0": "sha256:65d926fc50f05a3944c24e9dc5d9ecfe7b1573446dc7329e3c5f8c35ee60c8eb"}, "docker": "quay.io/biocontainers/pxblat", "aliases": {"pxblat": "/usr/local/bin/pxblat", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pxblat.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pxblat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pxblat:0.2.0--py310hfb835a5_0
+$ shpc install quay.io/biocontainers/pxblat:0.3.0--py311ha8d5032_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pxblat/0.2.0--py310hfb835a5_0
-$ module help quay.io/biocontainers/pxblat/0.2.0--py310hfb835a5_0
+$ module load quay.io/biocontainers/pxblat/0.3.0--py311ha8d5032_0
+$ module help quay.io/biocontainers/pxblat/0.3.0--py311ha8d5032_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

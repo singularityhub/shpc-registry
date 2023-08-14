@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tfhaz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tfhaz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tfhaz/container.yaml"
-updated_at: "2023-08-13 03:26:18.525786"
-latest: "1.20.0--r42hdfd78af_0"
+updated_at: "2023-08-14 03:20:00.837492"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tfhaz"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tfhaz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tfhaz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tfhaz", "latest": {"1.20.0--r42hdfd78af_0": "sha256:0edbe17c67a095cd2ec618a1fe6483bbd37dde3314e88a1538fa86bf7e11113b"}, "tags": {"1.8.0--r36_0": "sha256:a22c792efcbe59aadd21eb5652dfc541029f9ccaeef57b234e2052b9e26c1f9c", "1.20.0--r42hdfd78af_0": "sha256:0edbe17c67a095cd2ec618a1fe6483bbd37dde3314e88a1538fa86bf7e11113b", "1.16.0--r41hdfd78af_0": "sha256:2d835d053370116af4d4d5fd0a371680d4a153eb911456a7a3130b76004aca8c", "1.14.0--r41hdfd78af_0": "sha256:18e8d3245ef03e3396fb2416b2cd14df50d2fc83e77a8d71e5f42d63d5176bf9", "1.12.0--r40hdfd78af_1": "sha256:1bdaf4ae13da938a325d056c075aee135767d16b6fec74e8881ae4164f0600ff", "1.10.0--r40_0": "sha256:59e71ca10c7b10a86dc964072b15f6d35521311e242a6839f64df3f08f0a2663"}, "docker": "quay.io/biocontainers/bioconductor-tfhaz", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tfhaz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tfhaz", "latest": {"1.22.0--r43hdfd78af_0": "sha256:7f3f9e40b80f57c7305dd58cc621d9f32e325a0df9a516d3315a6bd687bb8af4"}, "tags": {"1.8.0--r36_0": "sha256:a22c792efcbe59aadd21eb5652dfc541029f9ccaeef57b234e2052b9e26c1f9c", "1.20.0--r42hdfd78af_0": "sha256:0edbe17c67a095cd2ec618a1fe6483bbd37dde3314e88a1538fa86bf7e11113b", "1.16.0--r41hdfd78af_0": "sha256:2d835d053370116af4d4d5fd0a371680d4a153eb911456a7a3130b76004aca8c", "1.14.0--r41hdfd78af_0": "sha256:18e8d3245ef03e3396fb2416b2cd14df50d2fc83e77a8d71e5f42d63d5176bf9", "1.12.0--r40hdfd78af_1": "sha256:1bdaf4ae13da938a325d056c075aee135767d16b6fec74e8881ae4164f0600ff", "1.10.0--r40_0": "sha256:59e71ca10c7b10a86dc964072b15f6d35521311e242a6839f64df3f08f0a2663", "1.22.0--r43hdfd78af_0": "sha256:7f3f9e40b80f57c7305dd58cc621d9f32e325a0df9a516d3315a6bd687bb8af4"}, "docker": "quay.io/biocontainers/bioconductor-tfhaz", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tfhaz.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tfhaz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tfhaz:1.20.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tfhaz:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tfhaz/1.20.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tfhaz/1.20.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tfhaz/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tfhaz/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

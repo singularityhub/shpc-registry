@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iqtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iqtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iqtree/container.yaml"
-updated_at: "2023-08-13 02:33:13.524798"
+updated_at: "2023-08-14 02:32:10.002843"
 latest: "2.2.2.7--h21ec9f0_2"
 container_url: "https://biocontainers.pro/tools/iqtree"
 aliases:

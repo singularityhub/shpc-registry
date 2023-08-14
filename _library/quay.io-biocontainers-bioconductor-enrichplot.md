@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-enrichplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichplot/container.yaml"
-updated_at: "2023-08-13 03:15:21.625648"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-08-14 03:10:10.197532"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichplot"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.1--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.2--r40hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-enrichplot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enrichplot", "latest": {"1.18.0--r42hdfd78af_0": "sha256:e85aafcfe1ebef3bda75295b3a3bc833d46ff1f040f045feeb9841197f185706"}, "tags": {"1.8.1--r40_0": "sha256:a93ee7cd49c5cd502f995c32314a170e68ee9847998ca538036c62cfa36d6872", "1.18.0--r42hdfd78af_0": "sha256:e85aafcfe1ebef3bda75295b3a3bc833d46ff1f040f045feeb9841197f185706", "1.14.1--r41hdfd78af_0": "sha256:180eb64eff1ac49bdfc167a20c486d8552e71b74ea2fb3c78e585533d2ddaf41", "1.12.0--r41hdfd78af_0": "sha256:80e9bbb981f2fc596ac77b71e7952d52928e07418d1c79dc5ed822b3f3f4e624", "1.10.2--r40hdfd78af_0": "sha256:5a5ede3c3ddb589ab143289f63b65329a66f37bd924f63988f68ae4e147cdb8d"}, "docker": "quay.io/biocontainers/bioconductor-enrichplot", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enrichplot", "latest": {"1.20.0--r43hdfd78af_0": "sha256:9cbeff202867e4033037525571adab7226549f085be0b57c3954fc6f85928b3c"}, "tags": {"1.8.1--r40_0": "sha256:a93ee7cd49c5cd502f995c32314a170e68ee9847998ca538036c62cfa36d6872", "1.18.0--r42hdfd78af_0": "sha256:e85aafcfe1ebef3bda75295b3a3bc833d46ff1f040f045feeb9841197f185706", "1.14.1--r41hdfd78af_0": "sha256:180eb64eff1ac49bdfc167a20c486d8552e71b74ea2fb3c78e585533d2ddaf41", "1.12.0--r41hdfd78af_0": "sha256:80e9bbb981f2fc596ac77b71e7952d52928e07418d1c79dc5ed822b3f3f4e624", "1.10.2--r40hdfd78af_0": "sha256:5a5ede3c3ddb589ab143289f63b65329a66f37bd924f63988f68ae4e147cdb8d", "1.20.0--r43hdfd78af_0": "sha256:9cbeff202867e4033037525571adab7226549f085be0b57c3954fc6f85928b3c"}, "docker": "quay.io/biocontainers/bioconductor-enrichplot", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-enrichplot.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-enrichplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-enrichplot:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-enrichplot:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-enrichplot/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-enrichplot/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-enrichplot/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-enrichplot/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fieldeffectcrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fieldeffectcrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fieldeffectcrc/container.yaml"
-updated_at: "2023-08-13 03:24:08.292186"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-08-14 03:18:05.701151"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fieldeffectcrc"
 aliases:
  - "pandoc-server"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.4.0--r41hdfd78af_1"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fieldeffectcrc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fieldeffectcrc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fieldeffectcrc", "latest": {"1.8.0--r42hdfd78af_0": "sha256:58244e6660e5d3d448de1e521c3f8cb27e683c37bd5e94b241e71b12ea29b762"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:d7adafb22ce5db3227d397f0246623148e7216b25c230591f89bd27ca30ad297", "1.8.0--r42hdfd78af_0": "sha256:58244e6660e5d3d448de1e521c3f8cb27e683c37bd5e94b241e71b12ea29b762"}, "docker": "quay.io/biocontainers/bioconductor-fieldeffectcrc", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fieldeffectcrc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fieldeffectcrc", "latest": {"1.10.0--r43hdfd78af_0": "sha256:58f76d6e3602b40c9d3f8d01018c4dfaf584c42f9d32988336e96c8ae5625b98"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:d7adafb22ce5db3227d397f0246623148e7216b25c230591f89bd27ca30ad297", "1.8.0--r42hdfd78af_0": "sha256:58244e6660e5d3d448de1e521c3f8cb27e683c37bd5e94b241e71b12ea29b762", "1.10.0--r43hdfd78af_0": "sha256:58f76d6e3602b40c9d3f8d01018c4dfaf584c42f9d32988336e96c8ae5625b98"}, "docker": "quay.io/biocontainers/bioconductor-fieldeffectcrc", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fieldeffectcrc.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fieldeffectcrc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fieldeffectcrc:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fieldeffectcrc:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fieldeffectcrc/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fieldeffectcrc/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fieldeffectcrc/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fieldeffectcrc/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

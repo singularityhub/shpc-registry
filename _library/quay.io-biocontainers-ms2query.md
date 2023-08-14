@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ms2query"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2query/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2query/container.yaml"
-updated_at: "2023-08-13 03:25:58.445145"
-latest: "1.2.1--pyhdfd78af_0"
+updated_at: "2023-08-14 03:19:43.042149"
+latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ms2query"
 aliases:
  - "backend-test-tools"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "1.2.0--pyhdfd78af_0"
  - "1.2.1--pyhdfd78af_0"
+ - "1.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ms2query"
-config: {"url": "https://biocontainers.pro/tools/ms2query", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2query", "latest": {"1.2.1--pyhdfd78af_0": "sha256:463a1658bb7f3aa166e5057e36ce70119517a3b6e64cff9db766b9ad0f6a953f"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:62799bd55bc0a273dbe2d56698c24720ca78de0708f9f9a51b62abc34984bc2d", "1.2.1--pyhdfd78af_0": "sha256:463a1658bb7f3aa166e5057e36ce70119517a3b6e64cff9db766b9ad0f6a953f"}, "docker": "quay.io/biocontainers/ms2query", "aliases": {"backend-test-tools": "/usr/local/bin/backend-test-tools", "check-model": "/usr/local/bin/check-model", "check-node": "/usr/local/bin/check-node", "community": "/usr/local/bin/community", "ms2query": "/usr/local/bin/ms2query", "onnxruntime_test": "/usr/local/bin/onnxruntime_test", "h5delete": "/usr/local/bin/h5delete", "isympy": "/usr/local/bin/isympy", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "aec": "/usr/local/bin/aec", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "coloredlogs": "/usr/local/bin/coloredlogs", "tensorboard": "/usr/local/bin/tensorboard", "humanfriendly": "/usr/local/bin/humanfriendly", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "numba": "/usr/local/bin/numba", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt"}}
+config: {"url": "https://biocontainers.pro/tools/ms2query", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2query", "latest": {"1.2.2--pyhdfd78af_0": "sha256:7a45def9202af62b54d4bf150e90eebc7756a432d85dc3268f0c71e46b705b60"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:62799bd55bc0a273dbe2d56698c24720ca78de0708f9f9a51b62abc34984bc2d", "1.2.1--pyhdfd78af_0": "sha256:463a1658bb7f3aa166e5057e36ce70119517a3b6e64cff9db766b9ad0f6a953f", "1.2.2--pyhdfd78af_0": "sha256:7a45def9202af62b54d4bf150e90eebc7756a432d85dc3268f0c71e46b705b60"}, "docker": "quay.io/biocontainers/ms2query", "aliases": {"backend-test-tools": "/usr/local/bin/backend-test-tools", "check-model": "/usr/local/bin/check-model", "check-node": "/usr/local/bin/check-node", "community": "/usr/local/bin/community", "ms2query": "/usr/local/bin/ms2query", "onnxruntime_test": "/usr/local/bin/onnxruntime_test", "h5delete": "/usr/local/bin/h5delete", "isympy": "/usr/local/bin/isympy", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "aec": "/usr/local/bin/aec", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "coloredlogs": "/usr/local/bin/coloredlogs", "tensorboard": "/usr/local/bin/tensorboard", "humanfriendly": "/usr/local/bin/humanfriendly", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "numba": "/usr/local/bin/numba", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms2query.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/ms2query
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ms2query:1.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ms2query:1.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ms2query/1.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ms2query/1.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ms2query/1.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/ms2query/1.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

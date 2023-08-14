@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-lumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumi/container.yaml"
-updated_at: "2023-08-13 03:14:44.609298"
-latest: "2.50.0--r42hdfd78af_0"
+updated_at: "2023-08-14 03:09:36.072641"
+latest: "2.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumi"
 
 versions:
  - "2.46.0--r41hdfd78af_1"
  - "2.50.0--r42hdfd78af_0"
+ - "2.52.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lumi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lumi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumi", "latest": {"2.50.0--r42hdfd78af_0": "sha256:4193afac50ce5849c9f7d04e1669b901b13a0b91e2d432086657c01927fdf09c"}, "tags": {"2.46.0--r41hdfd78af_1": "sha256:6754316ec0fc6bc9163b4611e4b03846ffc663b2084d0352a3703963e9f0ea58", "2.50.0--r42hdfd78af_0": "sha256:4193afac50ce5849c9f7d04e1669b901b13a0b91e2d432086657c01927fdf09c"}, "docker": "quay.io/biocontainers/bioconductor-lumi"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lumi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumi", "latest": {"2.52.0--r43hdfd78af_0": "sha256:5418ec8d67010435b6a6b08c9ef5cb68261b6e34a5d867854ccf17e3a632a8ef"}, "tags": {"2.46.0--r41hdfd78af_1": "sha256:6754316ec0fc6bc9163b4611e4b03846ffc663b2084d0352a3703963e9f0ea58", "2.50.0--r42hdfd78af_0": "sha256:4193afac50ce5849c9f7d04e1669b901b13a0b91e2d432086657c01927fdf09c", "2.52.0--r43hdfd78af_0": "sha256:5418ec8d67010435b6a6b08c9ef5cb68261b6e34a5d867854ccf17e3a632a8ef"}, "docker": "quay.io/biocontainers/bioconductor-lumi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lumi.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lumi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lumi:2.50.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lumi:2.52.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lumi/2.50.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lumi/2.50.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lumi/2.52.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lumi/2.52.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

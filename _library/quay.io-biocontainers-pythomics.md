@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pythomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pythomics/container.yaml"
-updated_at: "2023-08-13 02:38:21.933735"
-latest: "0.3.46--pyh864c0ab_2"
+updated_at: "2023-08-14 02:36:47.246344"
+latest: "0.4.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pythomics"
 aliases:
  - "fastadigest.py"
@@ -28,8 +28,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.3.46--pyh864c0ab_2"
+ - "0.4.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for pythomics"
-config: {"url": "https://biocontainers.pro/tools/pythomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythomics", "latest": {"0.3.46--pyh864c0ab_2": "sha256:f258a56bb40507ee691bd6b5f52ee4be9509b25561fa67e6b0e7296c0b1f240c"}, "tags": {"0.3.46--pyh864c0ab_2": "sha256:f258a56bb40507ee691bd6b5f52ee4be9509b25561fa67e6b0e7296c0b1f240c"}, "docker": "quay.io/biocontainers/pythomics", "aliases": {"fastadigest.py": "/usr/local/bin/fastadigest.py", "fastadigeststats.py": "/usr/local/bin/fastadigeststats.py", "fastxTrimmer.py": "/usr/local/bin/fastxTrimmer.py", "featureCollapser.py": "/usr/local/bin/featureCollapser.py", "fetchOrfs.py": "/usr/local/bin/fetchOrfs.py", "incorporateGFF.py": "/usr/local/bin/incorporateGFF.py", "incorporateVCF.py": "/usr/local/bin/incorporateVCF.py", "intersectFiles.py": "/usr/local/bin/intersectFiles.py", "junctionalReads.py": "/usr/local/bin/junctionalReads.py", "proteinInference.py": "/usr/local/bin/proteinInference.py", "ptmSummary.py": "/usr/local/bin/ptmSummary.py", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pythomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythomics", "latest": {"0.4.1--pyh7cba7a3_0": "sha256:261ca349b67c7309fffdc6dbf68cd97cf2f0f02427f5f03209d08224bd983b1c"}, "tags": {"0.3.46--pyh864c0ab_2": "sha256:f258a56bb40507ee691bd6b5f52ee4be9509b25561fa67e6b0e7296c0b1f240c", "0.4.1--pyh7cba7a3_0": "sha256:261ca349b67c7309fffdc6dbf68cd97cf2f0f02427f5f03209d08224bd983b1c"}, "docker": "quay.io/biocontainers/pythomics", "aliases": {"fastadigest.py": "/usr/local/bin/fastadigest.py", "fastadigeststats.py": "/usr/local/bin/fastadigeststats.py", "fastxTrimmer.py": "/usr/local/bin/fastxTrimmer.py", "featureCollapser.py": "/usr/local/bin/featureCollapser.py", "fetchOrfs.py": "/usr/local/bin/fetchOrfs.py", "incorporateGFF.py": "/usr/local/bin/incorporateGFF.py", "incorporateVCF.py": "/usr/local/bin/incorporateVCF.py", "intersectFiles.py": "/usr/local/bin/intersectFiles.py", "junctionalReads.py": "/usr/local/bin/junctionalReads.py", "proteinInference.py": "/usr/local/bin/proteinInference.py", "ptmSummary.py": "/usr/local/bin/ptmSummary.py", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pythomics.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/pythomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pythomics:0.3.46--pyh864c0ab_2
+$ shpc install quay.io/biocontainers/pythomics:0.4.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pythomics/0.3.46--pyh864c0ab_2
-$ module help quay.io/biocontainers/pythomics/0.3.46--pyh864c0ab_2
+$ module load quay.io/biocontainers/pythomics/0.4.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/pythomics/0.4.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
