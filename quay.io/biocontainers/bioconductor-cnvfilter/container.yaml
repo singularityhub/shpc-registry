@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cnvfilter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cnvfilter
 latest:
-  1.12.0--r42hdfd78af_0: sha256:c0ab27d89a89044968d6242afb31747b1b376338e5b79b6b4f73bded6dd5175b
+  1.14.0--r43hdfd78af_0: sha256:bc5ef191805e47ed67ef03df469b5e7ff3428ba772184ecb8856d0ce4662398a
 tags:
   1.8.0--r41hdfd78af_0: sha256:87e1b922d36ac7add00aac9a152db5a98b688ef2b8757c843f9436c3c425a47a
   1.12.0--r42hdfd78af_0: sha256:c0ab27d89a89044968d6242afb31747b1b376338e5b79b6b4f73bded6dd5175b
+  1.14.0--r43hdfd78af_0: sha256:bc5ef191805e47ed67ef03df469b5e7ff3428ba772184ecb8856d0ce4662398a
 docker: quay.io/biocontainers/bioconductor-cnvfilter

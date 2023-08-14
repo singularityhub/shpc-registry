@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-wavcluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-wavcluster
 latest:
-  2.32.0--r42hdfd78af_0: sha256:79ff13bde9ed7813d5aeed3d1de55b82297e977b28c22bf92bbf90a3ced960d9
+  2.34.0--r43hdfd78af_0: sha256:9e9a214fc7b076698f89514cb78e3653fee9350a963442d27102287d373a44f1
 tags:
   2.28.0--r41hdfd78af_0: sha256:1ef5ef0be5ffff0074ee06ee69fcbaa960df625305810f903f475051b3118d8d
   2.32.0--r42hdfd78af_0: sha256:79ff13bde9ed7813d5aeed3d1de55b82297e977b28c22bf92bbf90a3ced960d9
+  2.34.0--r43hdfd78af_0: sha256:9e9a214fc7b076698f89514cb78e3653fee9350a963442d27102287d373a44f1
 docker: quay.io/biocontainers/bioconductor-wavcluster
