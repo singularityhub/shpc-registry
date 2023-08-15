@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metaphor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaphor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaphor/container.yaml"
-updated_at: "2023-08-14 02:54:28.375939"
-latest: "1.0.0--r42hdfd78af_0"
+updated_at: "2023-08-15 02:20:49.151558"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaphor"
 aliases:
  - "Cytoscape"
@@ -35,8 +35,9 @@ aliases:
  - "jlink"
 versions:
  - "1.0.0--r42hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-metaphor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metaphor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metaphor", "latest": {"1.0.0--r42hdfd78af_0": "sha256:b22bf8464cccae6b020b2c4cf7e186319112d1ff2b4b4934eaa62a08f7966bdb"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:b22bf8464cccae6b020b2c4cf7e186319112d1ff2b4b4934eaa62a08f7966bdb"}, "docker": "quay.io/biocontainers/bioconductor-metaphor", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jpackage": "/usr/local/bin/jpackage", "curve_keygen": "/usr/local/bin/curve_keygen", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metaphor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metaphor", "latest": {"1.2.0--r43hdfd78af_0": "sha256:8a936facc63c53df508168c1e55e98779f241bfd8a5a717ab036d0ff341787cd"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:b22bf8464cccae6b020b2c4cf7e186319112d1ff2b4b4934eaa62a08f7966bdb", "1.2.0--r43hdfd78af_0": "sha256:8a936facc63c53df508168c1e55e98779f241bfd8a5a717ab036d0ff341787cd"}, "docker": "quay.io/biocontainers/bioconductor-metaphor", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jpackage": "/usr/local/bin/jpackage", "curve_keygen": "/usr/local/bin/curve_keygen", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metaphor.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metaphor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metaphor:1.0.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metaphor:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metaphor/1.0.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metaphor/1.0.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metaphor/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metaphor/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

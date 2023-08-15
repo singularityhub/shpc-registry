@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-panr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panr/container.yaml"
-updated_at: "2023-08-14 03:08:51.439023"
+updated_at: "2023-08-15 02:34:29.083929"
 latest: "1.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-panr"
 

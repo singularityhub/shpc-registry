@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lrtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrtk/container.yaml"
-updated_at: "2023-08-14 03:40:34.907614"
+updated_at: "2023-08-15 03:04:38.460451"
 latest: "1.5--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/lrtk"
 aliases:

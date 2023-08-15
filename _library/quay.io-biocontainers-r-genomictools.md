@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-genomictools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genomictools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genomictools/container.yaml"
-updated_at: "2023-08-14 03:39:07.713964"
-latest: "0.2.9.7--r42h21a89ab_5"
+updated_at: "2023-08-15 03:03:15.931957"
+latest: "0.2.9.7--r43h21a89ab_6"
 container_url: "https://biocontainers.pro/tools/r-genomictools"
 
 versions:
  - "0.2.9.7--r41hecf12ef_3"
  - "0.2.9.7--r42hecf12ef_4"
  - "0.2.9.7--r42h21a89ab_5"
+ - "0.2.9.7--r43h21a89ab_6"
 description: "shpc-registry automated BioContainers addition for r-genomictools"
-config: {"url": "https://biocontainers.pro/tools/r-genomictools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genomictools", "latest": {"0.2.9.7--r42h21a89ab_5": "sha256:1a94022fc0820fc989bfa8f35c0014d129a0f312b7c165983530ec15553aea13"}, "tags": {"0.2.9.7--r41hecf12ef_3": "sha256:ba6ebb2ba3850901156dc063def734a0c598ff9ee7ebd95e2b1a65568b9274a1", "0.2.9.7--r42hecf12ef_4": "sha256:32cfdb044774b7e10cc1b28259f6226b76bd8fe06aca7f223bf3e8c8449c2633", "0.2.9.7--r42h21a89ab_5": "sha256:1a94022fc0820fc989bfa8f35c0014d129a0f312b7c165983530ec15553aea13"}, "docker": "quay.io/biocontainers/r-genomictools"}
+config: {"url": "https://biocontainers.pro/tools/r-genomictools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genomictools", "latest": {"0.2.9.7--r43h21a89ab_6": "sha256:36a94ab551abaad0fa82cbb67dc55dc8075e8f1833059fafe711b51aa98654b4"}, "tags": {"0.2.9.7--r41hecf12ef_3": "sha256:ba6ebb2ba3850901156dc063def734a0c598ff9ee7ebd95e2b1a65568b9274a1", "0.2.9.7--r42hecf12ef_4": "sha256:32cfdb044774b7e10cc1b28259f6226b76bd8fe06aca7f223bf3e8c8449c2633", "0.2.9.7--r42h21a89ab_5": "sha256:1a94022fc0820fc989bfa8f35c0014d129a0f312b7c165983530ec15553aea13", "0.2.9.7--r43h21a89ab_6": "sha256:36a94ab551abaad0fa82cbb67dc55dc8075e8f1833059fafe711b51aa98654b4"}, "docker": "quay.io/biocontainers/r-genomictools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genomictools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-genomictools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-genomictools:0.2.9.7--r42h21a89ab_5
+$ shpc install quay.io/biocontainers/r-genomictools:0.2.9.7--r43h21a89ab_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-genomictools/0.2.9.7--r42h21a89ab_5
-$ module help quay.io/biocontainers/r-genomictools/0.2.9.7--r42h21a89ab_5
+$ module load quay.io/biocontainers/r-genomictools/0.2.9.7--r43h21a89ab_6
+$ module help quay.io/biocontainers/r-genomictools/0.2.9.7--r43h21a89ab_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
