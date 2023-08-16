@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chicago"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chicago/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chicago/container.yaml"
-updated_at: "2023-08-15 02:24:27.230730"
+updated_at: "2023-08-16 02:25:46.665335"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chicago"
 

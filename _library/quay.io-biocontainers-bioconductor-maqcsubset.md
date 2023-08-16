@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-maqcsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maqcsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maqcsubset/container.yaml"
-updated_at: "2023-08-15 02:48:59.328785"
-latest: "1.36.0--r42hdfd78af_0"
+updated_at: "2023-08-16 02:54:22.299113"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maqcsubset"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-maqcsubset"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maqcsubset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maqcsubset", "latest": {"1.36.0--r42hdfd78af_0": "sha256:19b8936734d2bbbc8ab8fdd027f99b2b04949075c2f4414600fad5b8e7e5edbf"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:d1528716f1a628440a6a8f96b224f145d0c42dafdeaa46f1580ebcb95013cda9", "1.36.0--r42hdfd78af_0": "sha256:19b8936734d2bbbc8ab8fdd027f99b2b04949075c2f4414600fad5b8e7e5edbf"}, "docker": "quay.io/biocontainers/bioconductor-maqcsubset"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maqcsubset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maqcsubset", "latest": {"1.38.0--r43hdfd78af_0": "sha256:ce8be4bd88041b826389c351ff4d8e23dcec8c555fbe6678f431388c82492d96"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:d1528716f1a628440a6a8f96b224f145d0c42dafdeaa46f1580ebcb95013cda9", "1.36.0--r42hdfd78af_0": "sha256:19b8936734d2bbbc8ab8fdd027f99b2b04949075c2f4414600fad5b8e7e5edbf", "1.38.0--r43hdfd78af_0": "sha256:ce8be4bd88041b826389c351ff4d8e23dcec8c555fbe6678f431388c82492d96"}, "docker": "quay.io/biocontainers/bioconductor-maqcsubset"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maqcsubset.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-maqcsubset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-maqcsubset:1.36.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-maqcsubset:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-maqcsubset/1.36.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-maqcsubset/1.36.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-maqcsubset/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-maqcsubset/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyopal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopal/container.yaml"
-updated_at: "2023-08-15 03:07:32.471053"
-latest: "0.3.0--py38hcbe9525_0"
+updated_at: "2023-08-16 03:16:08.041369"
+latest: "0.4.0--py39he10ea66_0"
 container_url: "https://biocontainers.pro/tools/pyopal"
 aliases:
  - "archspec"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.3.0--py38hcbe9525_0"
+ - "0.4.0--py39he10ea66_0"
 description: "singularity registry hpc automated addition for pyopal"
-config: {"url": "https://biocontainers.pro/tools/pyopal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyopal", "latest": {"0.3.0--py38hcbe9525_0": "sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db"}, "tags": {"0.3.0--py38hcbe9525_0": "sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db"}, "docker": "quay.io/biocontainers/pyopal", "aliases": {"archspec": "/usr/local/bin/archspec", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyopal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyopal", "latest": {"0.4.0--py39he10ea66_0": "sha256:b563fc9590cb1cf13374ddf8e5782e258ffd8db832fb916a7257bf01a9f1a238"}, "tags": {"0.3.0--py38hcbe9525_0": "sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db", "0.4.0--py39he10ea66_0": "sha256:b563fc9590cb1cf13374ddf8e5782e258ffd8db832fb916a7257bf01a9f1a238"}, "docker": "quay.io/biocontainers/pyopal", "aliases": {"archspec": "/usr/local/bin/archspec", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopal.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pyopal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyopal:0.3.0--py38hcbe9525_0
+$ shpc install quay.io/biocontainers/pyopal:0.4.0--py39he10ea66_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyopal/0.3.0--py38hcbe9525_0
-$ module help quay.io/biocontainers/pyopal/0.3.0--py38hcbe9525_0
+$ module load quay.io/biocontainers/pyopal/0.4.0--py39he10ea66_0
+$ module help quay.io/biocontainers/pyopal/0.4.0--py39he10ea66_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

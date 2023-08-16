@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-velociraptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-velociraptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-velociraptor/container.yaml"
-updated_at: "2023-08-15 02:54:37.128934"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-08-16 03:01:03.354193"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-velociraptor"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-velociraptor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-velociraptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-velociraptor", "latest": {"1.8.0--r42hdfd78af_0": "sha256:dfdf5c113c6526bdc5d22f0b81959ab55587f9b7ddd62da70e22c95a50945ca2"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:44faf5989df8b6091a74f6ecb9bc17b8ede99bd67af8384915d41eb0eeb9a0ea", "1.8.0--r42hdfd78af_0": "sha256:dfdf5c113c6526bdc5d22f0b81959ab55587f9b7ddd62da70e22c95a50945ca2"}, "docker": "quay.io/biocontainers/bioconductor-velociraptor"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-velociraptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-velociraptor", "latest": {"1.10.0--r43hdfd78af_0": "sha256:d8e487ae88664ee3f76c3f554110ba1262f8b4c2965e52763a822d949f631813"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:44faf5989df8b6091a74f6ecb9bc17b8ede99bd67af8384915d41eb0eeb9a0ea", "1.8.0--r42hdfd78af_0": "sha256:dfdf5c113c6526bdc5d22f0b81959ab55587f9b7ddd62da70e22c95a50945ca2", "1.10.0--r43hdfd78af_0": "sha256:d8e487ae88664ee3f76c3f554110ba1262f8b4c2965e52763a822d949f631813"}, "docker": "quay.io/biocontainers/bioconductor-velociraptor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-velociraptor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-velociraptor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-velociraptor:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-velociraptor:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-velociraptor/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-velociraptor/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-velociraptor/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-velociraptor/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
