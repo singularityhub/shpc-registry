@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pygenomeviz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pygenomeviz
 latest:
-  0.3.2--pyhdfd78af_0: sha256:358782e8f632f3589612464a3118999db82b9d728dd3983da9cd84e6bda3d278
+  0.4.1--pyhdfd78af_0: sha256:f0f43b30e2b641746d0c0a36d2129c98d984684765223901cdcc7af9c228585f
 tags:
   0.3.2--pyhdfd78af_0: sha256:358782e8f632f3589612464a3118999db82b9d728dd3983da9cd84e6bda3d278
+  0.4.1--pyhdfd78af_0: sha256:f0f43b30e2b641746d0c0a36d2129c98d984684765223901cdcc7af9c228585f
 docker: quay.io/biocontainers/pygenomeviz
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

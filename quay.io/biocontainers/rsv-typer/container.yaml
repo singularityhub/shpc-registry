@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rsv-typer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rsv-typer
 latest:
-  0.1.0--pyh7cba7a3_0: sha256:c15117607133166c95cef922d7e1d494093f322ae887ff11b1dd86d0c41d202f
+  0.2.0--pyh7cba7a3_0: sha256:4bc3853b1822b4fede7876b6e415a597bf0cf348293cb4892edabdb44033f3e1
 tags:
   0.1.0--pyh7cba7a3_0: sha256:c15117607133166c95cef922d7e1d494093f322ae887ff11b1dd86d0c41d202f
+  0.2.0--pyh7cba7a3_0: sha256:4bc3853b1822b4fede7876b6e415a597bf0cf348293cb4892edabdb44033f3e1
 docker: quay.io/biocontainers/rsv-typer
 aliases:
   align_trim: /usr/local/bin/align_trim
