@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/sdeper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sdeper
+latest:
+  1.0.0--pyhdfd78af_0: sha256:9ea1667a51e75f8d746964008d2062c4bd17e97e4191c439420cf6ccc76f53de
+tags:
+  1.0.0--pyhdfd78af_0: sha256:9ea1667a51e75f8d746964008d2062c4bd17e97e4191c439420cf6ccc76f53de
+docker: quay.io/biocontainers/sdeper
+aliases:
+  runDeconvolution: /usr/local/bin/runDeconvolution
+  runImputation: /usr/local/bin/runImputation
+  h5delete: /usr/local/bin/h5delete
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  scanpy: /usr/local/bin/scanpy
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  aec: /usr/local/bin/aec
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
