@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ananse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ananse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ananse/container.yaml"
-updated_at: "2023-08-16 03:03:18.140155"
+updated_at: "2023-08-17 02:28:56.749979"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ananse"
 aliases:

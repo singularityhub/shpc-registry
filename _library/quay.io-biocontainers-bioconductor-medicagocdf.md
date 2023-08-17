@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-medicagocdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-medicagocdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-medicagocdf/container.yaml"
-updated_at: "2023-08-16 03:01:41.560948"
+updated_at: "2023-08-17 02:57:45.368011"
 latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-medicagocdf"
 

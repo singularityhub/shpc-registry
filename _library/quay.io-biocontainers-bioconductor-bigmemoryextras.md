@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bigmemoryextras"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bigmemoryextras/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bigmemoryextras/container.yaml"
-updated_at: "2023-08-16 02:29:13.634880"
+updated_at: "2023-08-17 02:36:47.888409"
 latest: "1.38.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bigmemoryextras"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/replidec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/replidec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/replidec/container.yaml"
-updated_at: "2023-08-16 02:44:03.929071"
+updated_at: "2023-08-17 02:53:09.953547"
 latest: "0.3.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/replidec"
 aliases:

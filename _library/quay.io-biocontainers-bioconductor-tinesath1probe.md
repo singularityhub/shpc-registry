@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tinesath1probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tinesath1probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tinesath1probe/container.yaml"
-updated_at: "2023-08-16 02:22:07.677165"
+updated_at: "2023-08-17 02:28:35.405651"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tinesath1probe"
 

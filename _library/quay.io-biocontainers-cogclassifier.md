@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cogclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cogclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cogclassifier/container.yaml"
-updated_at: "2023-08-16 02:55:14.289810"
+updated_at: "2023-08-17 02:35:12.517617"
 latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cogclassifier"
 aliases:

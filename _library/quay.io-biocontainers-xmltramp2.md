@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xmltramp2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmltramp2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xmltramp2/container.yaml"
-updated_at: "2023-08-16 02:51:56.903948"
+updated_at: "2023-08-17 02:34:53.820128"
 latest: "3.1.1--py35_0"
 container_url: "https://biocontainers.pro/tools/xmltramp2"
 aliases:

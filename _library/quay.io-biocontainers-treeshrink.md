@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treeshrink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treeshrink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treeshrink/container.yaml"
-updated_at: "2023-08-16 02:23:18.051802"
+updated_at: "2023-08-17 02:28:10.661140"
 latest: "1.3.9--py39r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/treeshrink"
 aliases:

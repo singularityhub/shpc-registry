@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-consensusde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-consensusde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consensusde/container.yaml"
-updated_at: "2023-08-16 03:12:37.430712"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2023-08-17 03:06:59.896758"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-consensusde"
 aliases:
  - "2to3-3.9"
@@ -21,8 +21,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-consensusde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusde", "latest": {"1.16.0--r42hdfd78af_0": "sha256:40bdacf5f51f7b6b6ef5d269992c302ce868519e357bf79b99fb52a320c9f2b3"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436", "1.16.0--r42hdfd78af_0": "sha256:40bdacf5f51f7b6b6ef5d269992c302ce868519e357bf79b99fb52a320c9f2b3", "1.12.0--r41hdfd78af_0": "sha256:ab364929b25668639be0d959ab3c5e9916745a3a897756cc0e96eae2d2a4746b", "1.10.0--r41hdfd78af_0": "sha256:3d831ab719142870bd89485db93e36dae27d79a899af79dce05a50dd8f170815"}, "docker": "quay.io/biocontainers/bioconductor-consensusde", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusde", "latest": {"1.18.0--r43hdfd78af_0": "sha256:d26140b67b6dd067ffc24bcdec6ef02bda1eec4ec984aeef33f52ed1b9aa4472"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436", "1.16.0--r42hdfd78af_0": "sha256:40bdacf5f51f7b6b6ef5d269992c302ce868519e357bf79b99fb52a320c9f2b3", "1.12.0--r41hdfd78af_0": "sha256:ab364929b25668639be0d959ab3c5e9916745a3a897756cc0e96eae2d2a4746b", "1.10.0--r41hdfd78af_0": "sha256:3d831ab719142870bd89485db93e36dae27d79a899af79dce05a50dd8f170815", "1.18.0--r43hdfd78af_0": "sha256:d26140b67b6dd067ffc24bcdec6ef02bda1eec4ec984aeef33f52ed1b9aa4472"}, "docker": "quay.io/biocontainers/bioconductor-consensusde", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-consensusde.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-consensusde
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-consensusde:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-consensusde:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-consensusde/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-consensusde/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-consensusde/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-consensusde/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

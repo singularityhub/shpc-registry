@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqtk/container.yaml"
-updated_at: "2023-08-16 03:17:54.999359"
+updated_at: "2023-08-17 02:24:12.695647"
 latest: "r93--0"
 container_url: "https://biocontainers.pro/tools/seqtk"
 aliases:

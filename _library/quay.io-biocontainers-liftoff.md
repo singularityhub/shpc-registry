@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/liftoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liftoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liftoff/container.yaml"
-updated_at: "2023-08-16 02:30:25.839532"
+updated_at: "2023-08-17 02:36:03.079039"
 latest: "1.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liftoff"
 aliases:

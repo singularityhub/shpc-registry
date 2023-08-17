@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rrmscorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rrmscorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rrmscorer/container.yaml"
-updated_at: "2023-08-16 03:15:43.631203"
+updated_at: "2023-08-17 03:06:42.942739"
 latest: "1.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rrmscorer"
 aliases:

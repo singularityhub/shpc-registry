@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/regional"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regional/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regional/container.yaml"
-updated_at: "2023-08-16 02:51:54.972036"
+updated_at: "2023-08-17 03:04:52.296052"
 latest: "1.1.2--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/regional"
 aliases:
