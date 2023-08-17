@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ciso8601"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ciso8601/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ciso8601/container.yaml"
-updated_at: "2023-08-17 02:49:11.672559"
+updated_at: "2023-08-17 03:23:43.621093"
 latest: "1.0.5--py35_0"
 container_url: "https://biocontainers.pro/tools/ciso8601"
 aliases:

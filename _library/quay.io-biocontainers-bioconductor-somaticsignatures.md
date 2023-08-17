@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-somaticsignatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-somaticsignatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-somaticsignatures/container.yaml"
-updated_at: "2023-08-17 02:27:20.387681"
+updated_at: "2023-08-17 02:57:26.532844"
 latest: "2.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-somaticsignatures"
 

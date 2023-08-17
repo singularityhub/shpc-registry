@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cyushuffle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyushuffle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyushuffle/container.yaml"
-updated_at: "2023-08-17 02:52:47.103817"
+updated_at: "2023-08-17 03:28:05.969397"
 latest: "1.1.2--py310h4b81fae_5"
 container_url: "https://biocontainers.pro/tools/cyushuffle"
 aliases:

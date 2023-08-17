@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mykrobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mykrobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mykrobe/container.yaml"
-updated_at: "2023-08-17 03:07:37.093991"
+updated_at: "2023-08-17 03:46:07.259696"
 latest: "0.10.0--py37h09c1ff4_1"
 container_url: "https://biocontainers.pro/tools/mykrobe"
 aliases:

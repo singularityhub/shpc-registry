@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnaweaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaweaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnaweaver/container.yaml"
-updated_at: "2023-08-17 02:31:01.533849"
+updated_at: "2023-08-17 03:01:55.785073"
 latest: "v0.3.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnaweaver"
 aliases:

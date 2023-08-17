@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/starcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starcode/container.yaml"
-updated_at: "2023-08-17 03:09:37.679634"
+updated_at: "2023-08-17 03:48:31.620401"
 latest: "1.4--h031d066_4"
 container_url: "https://biocontainers.pro/tools/starcode"
 aliases:

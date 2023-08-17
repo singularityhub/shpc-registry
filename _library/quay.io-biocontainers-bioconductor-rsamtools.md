@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsamtools/container.yaml"
-updated_at: "2023-08-17 02:28:56.394174"
+updated_at: "2023-08-17 02:59:23.867968"
 latest: "2.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsamtools"
 aliases:

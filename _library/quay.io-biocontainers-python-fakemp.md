@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-fakemp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-fakemp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-fakemp/container.yaml"
-updated_at: "2023-08-17 02:43:38.289015"
+updated_at: "2023-08-17 03:16:59.217361"
 latest: "0.9.1--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/python-fakemp"
 aliases:
