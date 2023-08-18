@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irida-uploader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-uploader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irida-uploader/container.yaml"
-updated_at: "2023-08-17 03:17:39.900185"
+updated_at: "2023-08-18 02:43:28.128351"
 latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/irida-uploader"
 aliases:

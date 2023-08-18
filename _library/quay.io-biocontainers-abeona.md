@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abeona"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abeona/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abeona/container.yaml"
-updated_at: "2023-08-17 02:53:59.973465"
+updated_at: "2023-08-18 02:37:42.390248"
 latest: "0.45.0--py_1"
 container_url: "https://biocontainers.pro/tools/abeona"
 aliases:

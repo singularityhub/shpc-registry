@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jpredapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jpredapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jpredapi/container.yaml"
-updated_at: "2023-08-17 02:59:15.569012"
+updated_at: "2023-08-18 02:23:12.252288"
 latest: "1.5.6--py_0"
 container_url: "https://biocontainers.pro/tools/jpredapi"
 aliases:

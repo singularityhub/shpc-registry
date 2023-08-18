@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kcalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kcalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kcalign/container.yaml"
-updated_at: "2023-08-17 02:52:21.062353"
+updated_at: "2023-08-18 03:06:21.201331"
 latest: "1.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/kcalign"
 aliases:

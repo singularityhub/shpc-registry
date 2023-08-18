@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmerge/container.yaml"
-updated_at: "2023-08-17 02:50:51.480384"
+updated_at: "2023-08-18 02:59:35.073695"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmerge"
 aliases:

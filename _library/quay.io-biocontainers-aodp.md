@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aodp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aodp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aodp/container.yaml"
-updated_at: "2023-08-17 03:19:09.672329"
+updated_at: "2023-08-18 03:17:10.550418"
 latest: "2.5.0.2--pl5321h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/aodp"
 aliases:

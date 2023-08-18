@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bundle-bioperl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bundle-bioperl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bundle-bioperl/container.yaml"
-updated_at: "2023-08-17 03:10:58.327771"
+updated_at: "2023-08-18 03:17:21.582691"
 latest: "2.1.9--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-bundle-bioperl"
 aliases:

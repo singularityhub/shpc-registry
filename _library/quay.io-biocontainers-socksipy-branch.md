@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/socksipy-branch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/socksipy-branch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/socksipy-branch/container.yaml"
-updated_at: "2023-08-17 03:36:29.917482"
+updated_at: "2023-08-18 02:53:39.059943"
 latest: "1.01--py_1"
 container_url: "https://biocontainers.pro/tools/socksipy-branch"
 aliases:
