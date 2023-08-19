@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/expam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for expam
 latest:
-  1.2.2.1--py39hf95cd2a_0: sha256:9b5430bbd8f0f392cc5631d81b2574d6da0e1b82ed21559a16b09a54e5edfead
+  1.2.2.3--py310h4b81fae_0: sha256:5afda9d402da3255026736028705eaf3893e5dfc2322306ad888dc34db636e6a
 tags:
   1.2.0--py39hbf8eff0_0: sha256:f127505c59577e788e5a41c499e96615470c224bcf59f9e578a3c9bb4f29413b
   1.2.0--py39hf95cd2a_2: sha256:aaf24accdc345399993e8fc8d1fa575274973a207c8ff18a672a29c529cc951e
   1.2.2.1--py39hf95cd2a_0: sha256:9b5430bbd8f0f392cc5631d81b2574d6da0e1b82ed21559a16b09a54e5edfead
+  1.2.2.3--py310h4b81fae_0: sha256:5afda9d402da3255026736028705eaf3893e5dfc2322306ad888dc34db636e6a
 docker: quay.io/biocontainers/expam
 aliases:
   expam: /usr/local/bin/expam
