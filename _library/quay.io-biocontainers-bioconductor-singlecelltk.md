@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-singlecelltk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
-updated_at: "2023-08-18 02:53:30.679656"
-latest: "2.8.0--r42hdfd78af_0"
+updated_at: "2023-08-19 02:45:59.704416"
+latest: "2.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecelltk"
 aliases:
  - "xgboost"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "2.4.0--r41hdfd78af_0"
  - "2.8.0--r42hdfd78af_0"
+ - "2.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-singlecelltk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecelltk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecelltk", "latest": {"2.8.0--r42hdfd78af_0": "sha256:8050ded51e5577708a63e77d55cc2db4320c73e9281f0489c87282d9a5219724"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df", "2.8.0--r42hdfd78af_0": "sha256:8050ded51e5577708a63e77d55cc2db4320c73e9281f0489c87282d9a5219724"}, "docker": "quay.io/biocontainers/bioconductor-singlecelltk", "aliases": {"xgboost": "/usr/local/bin/xgboost", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecelltk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecelltk", "latest": {"2.10.0--r43hdfd78af_0": "sha256:3d18a465927471637917aab96aba5dbb5ffcff29ab7bf1f59d593f9d3137e9c1"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df", "2.8.0--r42hdfd78af_0": "sha256:8050ded51e5577708a63e77d55cc2db4320c73e9281f0489c87282d9a5219724", "2.10.0--r43hdfd78af_0": "sha256:3d18a465927471637917aab96aba5dbb5ffcff29ab7bf1f59d593f9d3137e9c1"}, "docker": "quay.io/biocontainers/bioconductor-singlecelltk", "aliases": {"xgboost": "/usr/local/bin/xgboost", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-singlecelltk.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-singlecelltk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-singlecelltk:2.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-singlecelltk:2.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-singlecelltk/2.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-singlecelltk/2.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-singlecelltk/2.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-singlecelltk/2.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

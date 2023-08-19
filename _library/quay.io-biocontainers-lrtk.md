@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lrtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrtk/container.yaml"
-updated_at: "2023-08-18 03:10:40.003030"
-latest: "1.5--pyh5e36f6f_0"
+updated_at: "2023-08-19 03:00:51.280550"
+latest: "1.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/lrtk"
 aliases:
  - "Aquila_assembly_based_variants_call"
@@ -55,8 +55,9 @@ aliases:
  - "permuteGPAT++"
 versions:
  - "1.5--pyh5e36f6f_0"
+ - "1.6--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for lrtk"
-config: {"url": "https://biocontainers.pro/tools/lrtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lrtk", "latest": {"1.5--pyh5e36f6f_0": "sha256:33b618c5f1b969f42637e2eedf64a43253ac21e1726f4d828bf234c5eb20e8e3"}, "tags": {"1.5--pyh5e36f6f_0": "sha256:33b618c5f1b969f42637e2eedf64a43253ac21e1726f4d828bf234c5eb20e8e3"}, "docker": "quay.io/biocontainers/lrtk", "aliases": {"Aquila_assembly_based_variants_call": "/usr/local/bin/Aquila_assembly_based_variants_call", "Aquila_clean": "/usr/local/bin/Aquila_clean", "Aquila_phasing_all_variants": "/usr/local/bin/Aquila_phasing_all_variants", "Aquila_step0_sortbam": "/usr/local/bin/Aquila_step0_sortbam", "Aquila_step0_sortbam_multilibs": "/usr/local/bin/Aquila_step0_sortbam_multilibs", "Aquila_step1": "/usr/local/bin/Aquila_step1", "Aquila_step1_multilibs": "/usr/local/bin/Aquila_step1_multilibs", "Aquila_step2": "/usr/local/bin/Aquila_step2", "GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "HAPCUT2": "/usr/local/bin/HAPCUT2", "LinkFragments.py": "/usr/local/bin/LinkFragments.py", "calculate_haplotype_statistics.py": "/usr/local/bin/calculate_haplotype_statistics.py", "extractHAIRS": "/usr/local/bin/extractHAIRS", "gatk-register": "/usr/local/bin/gatk-register", "hapcut2": "/usr/local/bin/hapcut2", "lrtk": "/usr/local/bin/lrtk", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "whatshap": "/usr/local/bin/whatshap", "gatk": "/usr/local/bin/gatk", "fastp": "/usr/local/bin/fastp", "picard": "/usr/local/bin/picard", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "bc": "/usr/local/bin/bc", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "dc": "/usr/local/bin/dc", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "freebayes": "/usr/local/bin/freebayes", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++"}}
+config: {"url": "https://biocontainers.pro/tools/lrtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lrtk", "latest": {"1.6--pyh7cba7a3_0": "sha256:50d07d046186ecb5c30c8b6cb0e542582db5318a7419149ac875bda803e31144"}, "tags": {"1.5--pyh5e36f6f_0": "sha256:33b618c5f1b969f42637e2eedf64a43253ac21e1726f4d828bf234c5eb20e8e3", "1.6--pyh7cba7a3_0": "sha256:50d07d046186ecb5c30c8b6cb0e542582db5318a7419149ac875bda803e31144"}, "docker": "quay.io/biocontainers/lrtk", "aliases": {"Aquila_assembly_based_variants_call": "/usr/local/bin/Aquila_assembly_based_variants_call", "Aquila_clean": "/usr/local/bin/Aquila_clean", "Aquila_phasing_all_variants": "/usr/local/bin/Aquila_phasing_all_variants", "Aquila_step0_sortbam": "/usr/local/bin/Aquila_step0_sortbam", "Aquila_step0_sortbam_multilibs": "/usr/local/bin/Aquila_step0_sortbam_multilibs", "Aquila_step1": "/usr/local/bin/Aquila_step1", "Aquila_step1_multilibs": "/usr/local/bin/Aquila_step1_multilibs", "Aquila_step2": "/usr/local/bin/Aquila_step2", "GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "HAPCUT2": "/usr/local/bin/HAPCUT2", "LinkFragments.py": "/usr/local/bin/LinkFragments.py", "calculate_haplotype_statistics.py": "/usr/local/bin/calculate_haplotype_statistics.py", "extractHAIRS": "/usr/local/bin/extractHAIRS", "gatk-register": "/usr/local/bin/gatk-register", "hapcut2": "/usr/local/bin/hapcut2", "lrtk": "/usr/local/bin/lrtk", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "whatshap": "/usr/local/bin/whatshap", "gatk": "/usr/local/bin/gatk", "fastp": "/usr/local/bin/fastp", "picard": "/usr/local/bin/picard", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "bc": "/usr/local/bin/bc", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "dc": "/usr/local/bin/dc", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "freebayes": "/usr/local/bin/freebayes", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lrtk.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/lrtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lrtk:1.5--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/lrtk:1.6--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lrtk/1.5--pyh5e36f6f_0
-$ module help quay.io/biocontainers/lrtk/1.5--pyh5e36f6f_0
+$ module load quay.io/biocontainers/lrtk/1.6--pyh7cba7a3_0
+$ module help quay.io/biocontainers/lrtk/1.6--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

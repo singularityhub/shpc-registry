@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bigmelon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bigmelon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bigmelon/container.yaml"
-updated_at: "2023-08-18 02:29:42.862450"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-08-19 02:25:16.831476"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bigmelon"
 aliases:
  - "wget"
@@ -18,8 +18,9 @@ versions:
  - "1.18.0--r41hdfd78af_0"
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bigmelon"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bigmelon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bigmelon", "latest": {"1.24.0--r42hdfd78af_0": "sha256:1b8c1bd73ac18ecef79108030996952ee04547def45d89fceecd2259b9a9e112"}, "tags": {"1.8.0--r351_0": "sha256:6e3d8bc360f13859f9c2fd75ef304cf74823fb5a2cf89c03a9a8b2971db8796f", "1.24.0--r42hdfd78af_0": "sha256:1b8c1bd73ac18ecef79108030996952ee04547def45d89fceecd2259b9a9e112", "1.20.0--r41hdfd78af_0": "sha256:ac27ddd5c07fa81e24d606f8e3c9085ec2472133c156be8d957b44fa8eb52409", "1.18.0--r41hdfd78af_0": "sha256:d47d5222a2b82032a157881347627e1be1919713102e03865b61530233586f1d", "1.16.0--r40hdfd78af_1": "sha256:c248c97262f1b4ca7f1a7d2450c58d5eb07341ca641c95745e2aba5177465890", "1.14.0--r40_0": "sha256:aeab6a67014763ee1f093e4dbc5ab95960bf2d2d96aca96cadcc6579e9fc245c"}, "docker": "quay.io/biocontainers/bioconductor-bigmelon", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bigmelon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bigmelon", "latest": {"1.26.0--r43hdfd78af_0": "sha256:f212175558557e6d2ca05e502b2748c11652323d8b5a7ca90d15d0b6f56759a7"}, "tags": {"1.8.0--r351_0": "sha256:6e3d8bc360f13859f9c2fd75ef304cf74823fb5a2cf89c03a9a8b2971db8796f", "1.24.0--r42hdfd78af_0": "sha256:1b8c1bd73ac18ecef79108030996952ee04547def45d89fceecd2259b9a9e112", "1.20.0--r41hdfd78af_0": "sha256:ac27ddd5c07fa81e24d606f8e3c9085ec2472133c156be8d957b44fa8eb52409", "1.18.0--r41hdfd78af_0": "sha256:d47d5222a2b82032a157881347627e1be1919713102e03865b61530233586f1d", "1.16.0--r40hdfd78af_1": "sha256:c248c97262f1b4ca7f1a7d2450c58d5eb07341ca641c95745e2aba5177465890", "1.14.0--r40_0": "sha256:aeab6a67014763ee1f093e4dbc5ab95960bf2d2d96aca96cadcc6579e9fc245c", "1.26.0--r43hdfd78af_0": "sha256:f212175558557e6d2ca05e502b2748c11652323d8b5a7ca90d15d0b6f56759a7"}, "docker": "quay.io/biocontainers/bioconductor-bigmelon", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bigmelon.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bigmelon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bigmelon:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bigmelon:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bigmelon/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bigmelon/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bigmelon/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bigmelon/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
