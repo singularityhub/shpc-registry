@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-genarise
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genarise
 latest:
-  1.74.0--r42hdfd78af_0: sha256:5d2fd7f04b75a772bb121b0a21ec25765c546448be97fc37cb9564c19dfffe8b
+  1.76.0--r43hdfd78af_0: sha256:11658199ab196414eaff827d7013c4562d421aad2619928f3b4b1254743e9f7c
 tags:
   1.70.0--r41hdfd78af_0: sha256:8dad6c6dedae5d939d71efc9c152850ce5265a338c8893eeec81536333c456f7
   1.74.0--r42hdfd78af_0: sha256:5d2fd7f04b75a772bb121b0a21ec25765c546448be97fc37cb9564c19dfffe8b
+  1.76.0--r43hdfd78af_0: sha256:11658199ab196414eaff827d7013c4562d421aad2619928f3b4b1254743e9f7c
 docker: quay.io/biocontainers/bioconductor-genarise

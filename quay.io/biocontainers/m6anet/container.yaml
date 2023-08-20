@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/m6anet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for m6anet
 latest:
-  2.0.2--pyhdfd78af_0: sha256:774c962203226a214e435df070ecff216c9770ffde30bc33c0d09db6d42f12e3
+  2.1.0--pyhdfd78af_0: sha256:d2c7247c253a6570964cb431cccb3a3b8a9345022d547322c5f6081a1f221c58
 tags:
   2.0.2--pyhdfd78af_0: sha256:774c962203226a214e435df070ecff216c9770ffde30bc33c0d09db6d42f12e3
+  2.1.0--pyhdfd78af_0: sha256:d2c7247c253a6570964cb431cccb3a3b8a9345022d547322c5f6081a1f221c58
 docker: quay.io/biocontainers/m6anet
 aliases:
   m6anet: /usr/local/bin/m6anet
