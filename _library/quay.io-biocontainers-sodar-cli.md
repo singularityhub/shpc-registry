@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sodar-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sodar-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sodar-cli/container.yaml"
-updated_at: "2023-08-19 02:55:57.764875"
+updated_at: "2023-08-20 02:58:34.110833"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sodar-cli"
 aliases:

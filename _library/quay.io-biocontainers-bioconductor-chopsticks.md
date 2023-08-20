@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chopsticks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chopsticks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chopsticks/container.yaml"
-updated_at: "2023-08-19 03:07:49.210686"
+updated_at: "2023-08-20 03:10:22.950244"
 latest: "1.66.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chopsticks"
 

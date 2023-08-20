@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dx-cwl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dx-cwl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dx-cwl/container.yaml"
-updated_at: "2023-08-19 03:07:37.322879"
+updated_at: "2023-08-20 03:10:11.057834"
 latest: "0.1.0a20180905--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/dx-cwl"
 aliases:

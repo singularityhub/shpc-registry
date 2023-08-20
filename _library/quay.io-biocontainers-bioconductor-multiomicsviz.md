@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multiomicsviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multiomicsviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multiomicsviz/container.yaml"
-updated_at: "2023-08-19 02:21:04.641335"
+updated_at: "2023-08-20 02:23:34.717988"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multiomicsviz"
 aliases:

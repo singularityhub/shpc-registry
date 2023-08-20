@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mbkmeans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mbkmeans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbkmeans/container.yaml"
-updated_at: "2023-08-19 02:32:28.363339"
+updated_at: "2023-08-20 02:34:54.565453"
 latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mbkmeans"
 aliases:

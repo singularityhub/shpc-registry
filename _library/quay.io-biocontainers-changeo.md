@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/changeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/changeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/changeo/container.yaml"
-updated_at: "2023-08-19 02:41:43.656614"
+updated_at: "2023-08-20 02:44:09.969310"
 latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/changeo"
 aliases:
