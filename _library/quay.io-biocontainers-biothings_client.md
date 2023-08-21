@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biothings_client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biothings_client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biothings_client/container.yaml"
-updated_at: "2023-08-21 02:44:20.197220"
+updated_at: "2023-08-21 02:43:08.684844"
 latest: "0.2.6--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/biothings_client"
 aliases:

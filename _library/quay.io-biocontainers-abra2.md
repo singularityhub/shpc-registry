@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abra2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abra2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abra2/container.yaml"
-updated_at: "2023-08-21 02:27:37.248087"
+updated_at: "2023-08-21 02:22:09.370992"
 latest: "2.24--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/abra2"
 aliases:
