@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/xengsort
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for xengsort
+latest:
+  1.5.0.3--pyhdfd78af_0: sha256:58e61fb25e77488323af66449876b5f389c3c77857a0524750b30ba3a3f068fd
+tags:
+  1.5.0.3--pyhdfd78af_0: sha256:58e61fb25e77488323af66449876b5f389c3c77857a0524750b30ba3a3f068fd
+docker: quay.io/biocontainers/xengsort
+aliases:
+  xengsort: /usr/local/bin/xengsort
+  f2py3.11: /usr/local/bin/f2py3.11
+  numba: /usr/local/bin/numba
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1

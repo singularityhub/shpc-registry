@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/polars
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for polars
+latest:
+  0.18.15: sha256:c0bb629324ea23eeda9f4983abb0985d4c1f652fb2f801d0512e6bfa1a06a92e
+tags:
+  0.18.15: sha256:c0bb629324ea23eeda9f4983abb0985d4c1f652fb2f801d0512e6bfa1a06a92e
+docker: quay.io/biocontainers/polars
+aliases:
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
