@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/m6anet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/m6anet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/m6anet/container.yaml"
-updated_at: "2023-08-20 03:02:31.587222"
-latest: "2.0.2--pyhdfd78af_0"
+updated_at: "2023-08-21 03:07:53.641950"
+latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/m6anet"
 aliases:
  - "m6anet"
@@ -28,8 +28,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "2.0.2--pyhdfd78af_0"
+ - "2.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for m6anet"
-config: {"url": "https://biocontainers.pro/tools/m6anet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for m6anet", "latest": {"2.0.2--pyhdfd78af_0": "sha256:774c962203226a214e435df070ecff216c9770ffde30bc33c0d09db6d42f12e3"}, "tags": {"2.0.2--pyhdfd78af_0": "sha256:774c962203226a214e435df070ecff216c9770ffde30bc33c0d09db6d42f12e3"}, "docker": "quay.io/biocontainers/m6anet", "aliases": {"m6anet": "/usr/local/bin/m6anet", "m6anet-compute_norm_factors": "/usr/local/bin/m6anet-compute_norm_factors", "m6anet-dataprep": "/usr/local/bin/m6anet-dataprep", "m6anet-run_inference": "/usr/local/bin/m6anet-run_inference", "m6anet-train": "/usr/local/bin/m6anet-train", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/m6anet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for m6anet", "latest": {"2.1.0--pyhdfd78af_0": "sha256:d2c7247c253a6570964cb431cccb3a3b8a9345022d547322c5f6081a1f221c58"}, "tags": {"2.0.2--pyhdfd78af_0": "sha256:774c962203226a214e435df070ecff216c9770ffde30bc33c0d09db6d42f12e3", "2.1.0--pyhdfd78af_0": "sha256:d2c7247c253a6570964cb431cccb3a3b8a9345022d547322c5f6081a1f221c58"}, "docker": "quay.io/biocontainers/m6anet", "aliases": {"m6anet": "/usr/local/bin/m6anet", "m6anet-compute_norm_factors": "/usr/local/bin/m6anet-compute_norm_factors", "m6anet-dataprep": "/usr/local/bin/m6anet-dataprep", "m6anet-run_inference": "/usr/local/bin/m6anet-run_inference", "m6anet-train": "/usr/local/bin/m6anet-train", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/m6anet.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/m6anet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/m6anet:2.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/m6anet:2.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/m6anet/2.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/m6anet/2.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/m6anet/2.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/m6anet/2.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

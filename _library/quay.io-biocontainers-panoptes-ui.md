@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panoptes-ui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panoptes-ui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panoptes-ui/container.yaml"
-updated_at: "2023-08-20 02:42:26.575317"
-latest: "0.2.0--pyh3252c3a_0"
+updated_at: "2023-08-21 02:48:30.223465"
+latest: "0.2.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/panoptes-ui"
 aliases:
  - "panoptes"
@@ -21,8 +21,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.2.0--pyh3252c3a_0"
+ - "0.2.3--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for panoptes-ui"
-config: {"url": "https://biocontainers.pro/tools/panoptes-ui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoptes-ui", "latest": {"0.2.0--pyh3252c3a_0": "sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112"}, "tags": {"0.2.0--pyh3252c3a_0": "sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112"}, "docker": "quay.io/biocontainers/panoptes-ui", "aliases": {"panoptes": "/usr/local/bin/panoptes", "flask": "/usr/local/bin/flask", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/panoptes-ui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoptes-ui", "latest": {"0.2.3--pyh7cba7a3_0": "sha256:6174c5567f3f1e5f73041bfa0b0e1eba6dd236dfc834748473b589152eb45a1d"}, "tags": {"0.2.0--pyh3252c3a_0": "sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112", "0.2.3--pyh7cba7a3_0": "sha256:6174c5567f3f1e5f73041bfa0b0e1eba6dd236dfc834748473b589152eb45a1d"}, "docker": "quay.io/biocontainers/panoptes-ui", "aliases": {"panoptes": "/usr/local/bin/panoptes", "flask": "/usr/local/bin/flask", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panoptes-ui.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/panoptes-ui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panoptes-ui:0.2.0--pyh3252c3a_0
+$ shpc install quay.io/biocontainers/panoptes-ui:0.2.3--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panoptes-ui/0.2.0--pyh3252c3a_0
-$ module help quay.io/biocontainers/panoptes-ui/0.2.0--pyh3252c3a_0
+$ module load quay.io/biocontainers/panoptes-ui/0.2.3--pyh7cba7a3_0
+$ module help quay.io/biocontainers/panoptes-ui/0.2.3--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trackviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trackviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trackviewer/container.yaml"
-updated_at: "2023-08-20 03:11:33.768246"
+updated_at: "2023-08-21 03:16:38.036971"
 latest: "1.36.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trackviewer"
 

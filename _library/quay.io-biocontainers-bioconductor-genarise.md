@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-genarise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genarise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genarise/container.yaml"
-updated_at: "2023-08-20 02:54:07.791719"
-latest: "1.74.0--r42hdfd78af_0"
+updated_at: "2023-08-21 02:59:46.943812"
+latest: "1.76.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genarise"
 
 versions:
  - "1.70.0--r41hdfd78af_0"
  - "1.74.0--r42hdfd78af_0"
+ - "1.76.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genarise"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genarise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genarise", "latest": {"1.74.0--r42hdfd78af_0": "sha256:5d2fd7f04b75a772bb121b0a21ec25765c546448be97fc37cb9564c19dfffe8b"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:8dad6c6dedae5d939d71efc9c152850ce5265a338c8893eeec81536333c456f7", "1.74.0--r42hdfd78af_0": "sha256:5d2fd7f04b75a772bb121b0a21ec25765c546448be97fc37cb9564c19dfffe8b"}, "docker": "quay.io/biocontainers/bioconductor-genarise"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genarise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genarise", "latest": {"1.76.0--r43hdfd78af_0": "sha256:11658199ab196414eaff827d7013c4562d421aad2619928f3b4b1254743e9f7c"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:8dad6c6dedae5d939d71efc9c152850ce5265a338c8893eeec81536333c456f7", "1.74.0--r42hdfd78af_0": "sha256:5d2fd7f04b75a772bb121b0a21ec25765c546448be97fc37cb9564c19dfffe8b", "1.76.0--r43hdfd78af_0": "sha256:11658199ab196414eaff827d7013c4562d421aad2619928f3b4b1254743e9f7c"}, "docker": "quay.io/biocontainers/bioconductor-genarise"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genarise.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genarise
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genarise:1.74.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genarise:1.76.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genarise/1.74.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genarise/1.74.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genarise/1.76.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genarise/1.76.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

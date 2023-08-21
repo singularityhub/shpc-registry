@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flams"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flams/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flams/container.yaml"
-updated_at: "2023-08-20 02:33:58.225253"
-latest: "0.0.6--pyhdfd78af_0"
+updated_at: "2023-08-21 02:40:18.926887"
+latest: "0.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flams"
 aliases:
  - "FLAMS"
@@ -36,8 +36,9 @@ aliases:
  - "snp2hgvs"
 versions:
  - "0.0.6--pyhdfd78af_0"
+ - "0.0.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flams"
-config: {"url": "https://biocontainers.pro/tools/flams", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flams", "latest": {"0.0.6--pyhdfd78af_0": "sha256:eba6351ca1267bce0bb11f35207ad3a8259595a1d4275a69adf2a5d61f569747"}, "tags": {"0.0.6--pyhdfd78af_0": "sha256:eba6351ca1267bce0bb11f35207ad3a8259595a1d4275a69adf2a5d61f569747"}, "docker": "quay.io/biocontainers/flams", "aliases": {"FLAMS": "/usr/local/bin/FLAMS", "test_pcre": "/usr/local/bin/test_pcre", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs"}}
+config: {"url": "https://biocontainers.pro/tools/flams", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flams", "latest": {"0.0.8--pyhdfd78af_0": "sha256:58a8e593a678dc0a8a133f904d9bd2507a1e98aa8c2d797bab472677a69d8a26"}, "tags": {"0.0.6--pyhdfd78af_0": "sha256:eba6351ca1267bce0bb11f35207ad3a8259595a1d4275a69adf2a5d61f569747", "0.0.8--pyhdfd78af_0": "sha256:58a8e593a678dc0a8a133f904d9bd2507a1e98aa8c2d797bab472677a69d8a26"}, "docker": "quay.io/biocontainers/flams", "aliases": {"FLAMS": "/usr/local/bin/FLAMS", "test_pcre": "/usr/local/bin/test_pcre", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flams.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/flams
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flams:0.0.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flams:0.0.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flams/0.0.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/flams/0.0.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/flams/0.0.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/flams/0.0.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

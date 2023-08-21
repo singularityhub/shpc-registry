@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strike/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strike/container.yaml"
-updated_at: "2023-08-20 02:47:44.747964"
+updated_at: "2023-08-21 02:53:36.787853"
 latest: "1.2--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/strike"
 aliases:

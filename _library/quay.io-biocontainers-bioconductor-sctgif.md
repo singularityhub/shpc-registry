@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sctgif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sctgif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sctgif/container.yaml"
-updated_at: "2023-08-20 02:28:52.628799"
+updated_at: "2023-08-21 02:35:24.873539"
 latest: "1.14.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sctgif"
 aliases:
