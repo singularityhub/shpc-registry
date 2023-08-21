@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-gkmsvm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-gkmsvm
 latest:
-  0.82.0--r43h21a89ab_3: sha256:3eba3878c08e6ee8ab74e4c1e0c7af42d7ceede9557be5884dd55d621af63464
+  0.83.0--r43h21a89ab_0: sha256:c9bfb1e04105d3ef57ade60839fd0a6ccf632d5858471cac79ab66c8cc261bb7
 tags:
   0.81.0--r41h87f3376_3: sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4
   0.81.0--r42h87f3376_4: sha256:e54794d3fb8ce3d3398b253de78cd49caac23f2d4494e7ed42f969036b0b60f1
@@ -10,4 +10,5 @@ tags:
   0.82.0--r42hecf12ef_1: sha256:24b5f7a5ae8eb9a300a8720db2ae9a08e4cc284ee690ef3ba7faaf9f9a8c1ee8
   0.82.0--r42h21a89ab_2: sha256:1a6fb4e309479e8b34a3f904357d48e1c063d3119aee64ad5419d8ca634a8663
   0.82.0--r43h21a89ab_3: sha256:3eba3878c08e6ee8ab74e4c1e0c7af42d7ceede9557be5884dd55d621af63464
+  0.83.0--r43h21a89ab_0: sha256:c9bfb1e04105d3ef57ade60839fd0a6ccf632d5858471cac79ab66c8cc261bb7
 docker: quay.io/biocontainers/r-gkmsvm
