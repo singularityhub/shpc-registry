@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snippy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snippy
 latest:
-  4.6.0--hdfd78af_2: sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70
+  4.6.0--hdfd78af_3: sha256:9495647055257f5ed6c5ad1b53faced942c788aa755c298e87bb8536d6b59cfc
 tags:
   4.6.0--hdfd78af_2: sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70
+  4.6.0--hdfd78af_3: sha256:9495647055257f5ed6c5ad1b53faced942c788aa755c298e87bb8536d6b59cfc
 docker: quay.io/biocontainers/snippy
 aliases:
   sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl

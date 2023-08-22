@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/gget
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gget
 latest:
-  0.27.8--pyh2a3209d_0: sha256:39433a3f3c033212dc461e3a03c76d7a8a2944bf6c6002646d18ee4975af69a3
+  0.27.9--pyh2a3209d_0: sha256:51a8583a3af10fa75eb879a5b1fd3ab557229daf3325b90d71264a5abc865bd9
 tags:
   0.3.9--pyhdfd78af_0: sha256:4304b0a0371aac4c225ea338965a061217015bdc1459f2243465f186266d1f1b
   0.27.0--pyhdfd78af_0: sha256:177aa8ade92bd8958fb8673bef7fb25349e425051a94cd4844949d86e0e06e75
@@ -13,6 +13,7 @@ tags:
   0.27.5--pyh4a94de4_0: sha256:40705d0cebc2d335eb5a3c327d25c35991e54f4030c117a5f524633129be4c76
   0.27.7--pyh4a94de4_0: sha256:6f22121e55aa18225a151e0b72c96c3814121dddfbc070710678dddc4474d5c1
   0.27.8--pyh2a3209d_0: sha256:39433a3f3c033212dc461e3a03c76d7a8a2944bf6c6002646d18ee4975af69a3
+  0.27.9--pyh2a3209d_0: sha256:51a8583a3af10fa75eb879a5b1fd3ab557229daf3325b90d71264a5abc865bd9
 docker: quay.io/biocontainers/gget
 aliases:
   attr: /usr/local/bin/attr

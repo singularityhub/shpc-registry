@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/dsh-bio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dsh-bio
 latest:
-  2.2.1--hdfd78af_0: sha256:e6d19a2c750ef589f44040b1ba2b6df2f3157a8646e8561cb6a6866105bb11a1
+  2.2.2--hdfd78af_0: sha256:b96640313d8f3b27166c841b95150735a2b095d1b5d8d7a6580ad7612ec3b6a7
 tags:
   2.1--hdfd78af_0: sha256:12c3a5b7898c793f40016f34b98f4695cebdac5efd51eab79748f3f24e2f62cd
   2.2--hdfd78af_0: sha256:51d028c6a41ede60edae9ec32457d65cfc098b2ca0ed946607142fecc58d22bc
   2.2.1--hdfd78af_0: sha256:e6d19a2c750ef589f44040b1ba2b6df2f3157a8646e8561cb6a6866105bb11a1
+  2.2.2--hdfd78af_0: sha256:b96640313d8f3b27166c841b95150735a2b095d1b5d8d7a6580ad7612ec3b6a7
 docker: quay.io/biocontainers/dsh-bio
 aliases:
   dsh-bio: /usr/local/bin/dsh-bio
