@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moments/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moments/container.yaml"
-updated_at: "2023-08-21 03:04:33.972301"
+updated_at: "2023-08-22 02:57:45.731399"
 latest: "1.1.5--py38h9af456f_0"
 container_url: "https://biocontainers.pro/tools/moments"
 aliases:

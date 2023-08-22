@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spdep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spdep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spdep/container.yaml"
-updated_at: "2023-08-21 03:09:55.920580"
+updated_at: "2023-08-22 03:02:39.447002"
 latest: "0.6_8--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-spdep"
 aliases:
