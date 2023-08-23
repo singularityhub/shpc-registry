@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/julia/container.yaml"
-updated_at: "2023-08-22 02:21:49.991786"
+updated_at: "2023-08-23 02:21:01.827599"
 latest: "1.7.0.rc.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/julia"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-specio-exporter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-specio-exporter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-specio-exporter/container.yaml"
-updated_at: "2023-08-22 02:47:09.909683"
+updated_at: "2023-08-23 02:46:56.408318"
 latest: "0.36--pl526_3"
 container_url: "https://biocontainers.pro/tools/perl-specio-exporter"
 aliases:

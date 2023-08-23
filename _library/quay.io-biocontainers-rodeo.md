@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rodeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rodeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rodeo/container.yaml"
-updated_at: "2023-08-22 02:45:21.425439"
+updated_at: "2023-08-23 02:45:06.510912"
 latest: "2.3.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rodeo"
 aliases:

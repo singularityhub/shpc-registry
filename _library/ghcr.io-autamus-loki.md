@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/loki"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/loki/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/loki/container.yaml"
-updated_at: "2023-08-22 02:21:27.283810"
+updated_at: "2023-08-23 02:20:38.604912"
 latest: "0.1.7"
 container_url: "https://github.com/orgs/autamus/packages/container/package/loki"
 

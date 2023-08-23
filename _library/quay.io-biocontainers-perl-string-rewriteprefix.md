@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-string-rewriteprefix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-rewriteprefix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-rewriteprefix/container.yaml"
-updated_at: "2023-08-22 03:12:41.617927"
+updated_at: "2023-08-23 03:12:59.400845"
 latest: "0.009--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-string-rewriteprefix"
 aliases:

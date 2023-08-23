@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scramble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scramble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scramble/container.yaml"
-updated_at: "2023-08-22 02:47:41.402877"
+updated_at: "2023-08-23 02:47:28.829906"
 latest: "1.0.2--h031d066_1"
 container_url: "https://biocontainers.pro/tools/scramble"
 aliases:
