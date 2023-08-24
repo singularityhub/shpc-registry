@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/kmd_hmdb_api_client
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kmd_hmdb_api_client
+latest:
+  1.0.1--pyhdfd78af_0: sha256:65f27cd0b6305c23834ce4c2d226b76f168ba4b6a8c80c8f25e90f85c8d31f49
+tags:
+  1.0.1--pyhdfd78af_0: sha256:65f27cd0b6305c23834ce4c2d226b76f168ba4b6a8c80c8f25e90f85c8d31f49
+docker: quay.io/biocontainers/kmd_hmdb_api_client
+aliases:
+  httpx: /usr/local/bin/httpx
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
