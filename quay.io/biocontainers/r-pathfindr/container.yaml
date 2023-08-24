@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/r-pathfindr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-pathfindr
+latest:
+  2.1.0--r43h3342da4_0: sha256:ba5454b65a7ae9e08c5e622c56b3cce7173580a2c293606771a74f6dc2088c39
+tags:
+  2.1.0--r43h3342da4_0: sha256:ba5454b65a7ae9e08c5e622c56b3cce7173580a2c293606771a74f6dc2088c39
+docker: quay.io/biocontainers/r-pathfindr
+aliases:
+  clhsdb: /usr/local/bin/clhsdb
+  hsdb: /usr/local/bin/hsdb
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  animate: /usr/local/bin/animate
+  composite: /usr/local/bin/composite
+  conjure: /usr/local/bin/conjure
+  display: /usr/local/bin/display
+  identify: /usr/local/bin/identify
+  import: /usr/local/bin/import
+  magick: /usr/local/bin/magick
+  magick-script: /usr/local/bin/magick-script
+  mogrify: /usr/local/bin/mogrify
+  montage: /usr/local/bin/montage
+  convert: /usr/local/bin/convert
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
+  stream: /usr/local/bin/stream
+  compare: /usr/local/bin/compare
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
