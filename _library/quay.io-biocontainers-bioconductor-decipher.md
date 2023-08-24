@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-decipher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decipher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decipher/container.yaml"
-updated_at: "2023-08-24 02:34:41.231471"
+updated_at: "2023-08-24 02:59:55.211419"
 latest: "2.28.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decipher"
 
