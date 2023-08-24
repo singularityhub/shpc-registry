@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-module-scandeps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-module-scandeps
 latest:
-  1.32--pl5321hdfd78af_0: sha256:78ca9d66768dc7aa65ce68b1bd744fe5bdcb67f678750b4c0c82783f32fcc2b8
+  1.33--pl5321hdfd78af_0: sha256:7b5cdd2a1d953b804e6b13da82bbe901e7f456ef29e13b01124bb7bf363cf9d2
 tags:
   1.31--pl5321hdfd78af_0: sha256:41f9cdce004b44452870d0e8b71731f479eb701e5ddc1074aff55a69878b13b8
   1.32--pl5321hdfd78af_0: sha256:78ca9d66768dc7aa65ce68b1bd744fe5bdcb67f678750b4c0c82783f32fcc2b8
+  1.33--pl5321hdfd78af_0: sha256:7b5cdd2a1d953b804e6b13da82bbe901e7f456ef29e13b01124bb7bf363cf9d2
 docker: quay.io/biocontainers/perl-module-scandeps
 aliases:
   scandeps.pl: /usr/local/bin/scandeps.pl
