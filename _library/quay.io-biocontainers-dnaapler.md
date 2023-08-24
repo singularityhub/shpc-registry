@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnaapler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaapler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnaapler/container.yaml"
-updated_at: "2023-08-23 03:18:29.309855"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2023-08-24 03:08:07.056409"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnaapler"
 aliases:
  - "dnaapler"
@@ -37,8 +37,10 @@ aliases:
  - "transmute.Linux"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dnaapler"
-config: {"url": "https://biocontainers.pro/tools/dnaapler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnaapler", "latest": {"0.1.0--pyhdfd78af_0": "sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66"}, "docker": "quay.io/biocontainers/dnaapler", "aliases": {"dnaapler": "/usr/local/bin/dnaapler", "pyrodigal": "/usr/local/bin/pyrodigal", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux"}}
+config: {"url": "https://biocontainers.pro/tools/dnaapler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnaapler", "latest": {"0.3.0--pyhdfd78af_0": "sha256:6ae49745a944bbcd5c29b5c24ee2349937bba1e6e95978d4403dc014966884cc"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66", "0.3.0--pyhdfd78af_0": "sha256:6ae49745a944bbcd5c29b5c24ee2349937bba1e6e95978d4403dc014966884cc", "0.2.0--pyhdfd78af_0": "sha256:afbf56ef8a9387897ea08722b29b1512dc7bd9b9d95e773c78745b6d3d9e4516"}, "docker": "quay.io/biocontainers/dnaapler", "aliases": {"dnaapler": "/usr/local/bin/dnaapler", "pyrodigal": "/usr/local/bin/pyrodigal", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnaapler.
@@ -53,7 +55,7 @@ $ shpc install quay.io/biocontainers/dnaapler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnaapler:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dnaapler:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnaapler/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/dnaapler/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/dnaapler/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/dnaapler/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

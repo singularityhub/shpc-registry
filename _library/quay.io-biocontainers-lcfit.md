@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lcfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lcfit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lcfit/container.yaml"
-updated_at: "2023-08-23 02:43:20.480826"
+updated_at: "2023-08-24 02:39:23.837527"
 latest: "0.5--h20b91ae_3"
 container_url: "https://biocontainers.pro/tools/lcfit"
 aliases:

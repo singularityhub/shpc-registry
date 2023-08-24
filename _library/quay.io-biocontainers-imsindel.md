@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/imsindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imsindel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imsindel/container.yaml"
-updated_at: "2023-08-23 03:00:40.564110"
+updated_at: "2023-08-24 02:53:33.939982"
 latest: "1.0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/imsindel"
 aliases:

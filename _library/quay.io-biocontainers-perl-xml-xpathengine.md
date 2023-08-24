@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-xpathengine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-xpathengine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-xpathengine/container.yaml"
-updated_at: "2023-08-23 03:15:43.569898"
+updated_at: "2023-08-24 03:05:50.676559"
 latest: "0.14--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-xml-xpathengine"
 aliases:

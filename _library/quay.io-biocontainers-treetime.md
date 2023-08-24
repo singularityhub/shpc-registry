@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treetime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treetime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treetime/container.yaml"
-updated_at: "2023-08-23 03:18:30.133053"
-latest: "0.10.1--pyh7cba7a3_0"
+updated_at: "2023-08-24 03:08:07.709411"
+latest: "0.11.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/treetime"
 aliases:
  - "treetime"
@@ -25,8 +25,9 @@ versions:
  - "0.9.6--pyh7cba7a3_0"
  - "0.10.0--pyh7cba7a3_0"
  - "0.10.1--pyh7cba7a3_0"
+ - "0.11.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for treetime"
-config: {"url": "https://biocontainers.pro/tools/treetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treetime", "latest": {"0.10.1--pyh7cba7a3_0": "sha256:b54b9fbc03b32547fa6978769a30c145574c77c80410664e5bd1cf2240b369a2"}, "tags": {"0.9.4--pyh7cba7a3_0": "sha256:df33fd4fd5195a6b2346d5e2d33f56e00af8f2490ec094612d8895347c4f0be3", "0.9.5--pyh7cba7a3_0": "sha256:afd5467511dbc4a4385ebcd05ded2cfe697b22e4c374a7e2445d05fd11cb641c", "0.9.6--pyh7cba7a3_0": "sha256:580350cbb22cd283b9c519acaa3373b053b5df5b896ac96b59e89dc0de12e0fb", "0.10.0--pyh7cba7a3_0": "sha256:f736afcfc384845befcc0af0bea047a2ea63728b274bfaab2d36e72c7bfd0255", "0.10.1--pyh7cba7a3_0": "sha256:b54b9fbc03b32547fa6978769a30c145574c77c80410664e5bd1cf2240b369a2"}, "docker": "quay.io/biocontainers/treetime", "aliases": {"treetime": "/usr/local/bin/treetime", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
+config: {"url": "https://biocontainers.pro/tools/treetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treetime", "latest": {"0.11.0--pyhdfd78af_0": "sha256:4992f0fb2fc90519c8508ce6293e1aefe697a20f7cb34179f991a7b38e4c7f79"}, "tags": {"0.9.4--pyh7cba7a3_0": "sha256:df33fd4fd5195a6b2346d5e2d33f56e00af8f2490ec094612d8895347c4f0be3", "0.9.5--pyh7cba7a3_0": "sha256:afd5467511dbc4a4385ebcd05ded2cfe697b22e4c374a7e2445d05fd11cb641c", "0.9.6--pyh7cba7a3_0": "sha256:580350cbb22cd283b9c519acaa3373b053b5df5b896ac96b59e89dc0de12e0fb", "0.10.0--pyh7cba7a3_0": "sha256:f736afcfc384845befcc0af0bea047a2ea63728b274bfaab2d36e72c7bfd0255", "0.10.1--pyh7cba7a3_0": "sha256:b54b9fbc03b32547fa6978769a30c145574c77c80410664e5bd1cf2240b369a2", "0.11.0--pyhdfd78af_0": "sha256:4992f0fb2fc90519c8508ce6293e1aefe697a20f7cb34179f991a7b38e4c7f79"}, "docker": "quay.io/biocontainers/treetime", "aliases": {"treetime": "/usr/local/bin/treetime", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treetime.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/treetime
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treetime:0.10.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/treetime:0.11.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treetime/0.10.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/treetime/0.10.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/treetime/0.11.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/treetime/0.11.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
