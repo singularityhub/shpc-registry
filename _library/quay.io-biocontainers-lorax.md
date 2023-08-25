@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lorax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lorax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lorax/container.yaml"
-updated_at: "2023-08-24 03:04:55.950492"
+updated_at: "2023-08-25 02:46:59.172331"
 latest: "0.3.7--h6b1aa3f_2"
 container_url: "https://biocontainers.pro/tools/lorax"
 aliases:

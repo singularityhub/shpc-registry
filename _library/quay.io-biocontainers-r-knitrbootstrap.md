@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-knitrbootstrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-knitrbootstrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-knitrbootstrap/container.yaml"
-updated_at: "2023-08-24 02:51:23.659489"
+updated_at: "2023-08-25 02:29:25.367533"
 latest: "1.0.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-knitrbootstrap"
 aliases:

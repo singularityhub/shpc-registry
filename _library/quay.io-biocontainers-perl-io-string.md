@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-string"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-string/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-string/container.yaml"
-updated_at: "2023-08-24 03:29:18.252146"
+updated_at: "2023-08-25 03:18:25.662184"
 latest: "1.08--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-io-string"
 aliases:
