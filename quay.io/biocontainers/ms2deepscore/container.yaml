@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ms2deepscore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ms2deepscore
 latest:
-  0.4.0--pyhdfd78af_0: sha256:15b9202143fea24dbd2549fce878c550407d6a077e289c5f13f4215950a3755d
+  0.5.0--pyhdfd78af_0: sha256:2cf19f774ace115a269819cf56ba9426a2d8bb990b7baa29b2becd52e4c50a4e
 tags:
   0.4.0--pyhdfd78af_0: sha256:15b9202143fea24dbd2549fce878c550407d6a077e289c5f13f4215950a3755d
+  0.5.0--pyhdfd78af_0: sha256:2cf19f774ace115a269819cf56ba9426a2d8bb990b7baa29b2becd52e4c50a4e
 docker: quay.io/biocontainers/ms2deepscore
 aliases:
   flatc: /usr/local/bin/flatc
