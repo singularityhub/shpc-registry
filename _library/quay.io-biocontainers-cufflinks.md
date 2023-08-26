@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cufflinks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cufflinks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cufflinks/container.yaml"
-updated_at: "2023-08-25 03:29:55.296706"
+updated_at: "2023-08-26 03:10:34.219919"
 latest: "2.2.1--py36_2"
 container_url: "https://biocontainers.pro/tools/cufflinks"
 aliases:

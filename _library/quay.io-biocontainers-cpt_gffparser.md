@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cpt_gffparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpt_gffparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpt_gffparser/container.yaml"
-updated_at: "2023-08-25 03:10:30.800684"
+updated_at: "2023-08-26 02:55:45.117326"
 latest: "1.2.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/cpt_gffparser"
 aliases:

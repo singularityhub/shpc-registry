@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/singularity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/singularity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/singularity/container.yaml"
-updated_at: "2023-08-25 03:23:30.239872"
+updated_at: "2023-08-26 03:05:39.762907"
 latest: "3.8.6"
 container_url: "https://biocontainers.pro/tools/singularity"
 aliases:

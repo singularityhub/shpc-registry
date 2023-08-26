@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-uncoverapplib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uncoverapplib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uncoverapplib/container.yaml"
-updated_at: "2023-08-25 02:51:07.861854"
+updated_at: "2023-08-26 02:41:00.180304"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-uncoverapplib"
 aliases:

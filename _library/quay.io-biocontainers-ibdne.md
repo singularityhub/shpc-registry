@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ibdne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ibdne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ibdne/container.yaml"
-updated_at: "2023-08-25 03:21:28.267264"
+updated_at: "2023-08-26 03:04:06.422101"
 latest: "04Sep15.e78--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/ibdne"
 aliases:

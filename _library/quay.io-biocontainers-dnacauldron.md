@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnacauldron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnacauldron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnacauldron/container.yaml"
-updated_at: "2023-08-25 02:33:07.786216"
-latest: "2.0.8--pyh7cba7a3_0"
+updated_at: "2023-08-26 02:27:18.459741"
+latest: "2.0.9--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/dnacauldron"
 aliases:
  - "dnacauldron"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "2.0.7--pyh5e36f6f_0"
  - "2.0.8--pyh7cba7a3_0"
+ - "2.0.9--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for dnacauldron"
-config: {"url": "https://biocontainers.pro/tools/dnacauldron", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnacauldron", "latest": {"2.0.8--pyh7cba7a3_0": "sha256:add0dfcf2b29cfce41efb36d7f8b0569b72450175f85f397135fceebec298607"}, "tags": {"2.0.7--pyh5e36f6f_0": "sha256:adfd210016056c7253e7c3fce656b9aa4e21d4dbf5120d7a67bce2d23ee389a5", "2.0.8--pyh7cba7a3_0": "sha256:add0dfcf2b29cfce41efb36d7f8b0569b72450175f85f397135fceebec298607"}, "docker": "quay.io/biocontainers/dnacauldron", "aliases": {"dnacauldron": "/usr/local/bin/dnacauldron", "html2text": "/usr/local/bin/html2text", "runxlrd.py": "/usr/local/bin/runxlrd.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix"}}
+config: {"url": "https://biocontainers.pro/tools/dnacauldron", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnacauldron", "latest": {"2.0.9--pyh7cba7a3_0": "sha256:587654faecc32bb7133b4bc8825be1f7722e000cf123dc950a2ef1e312f962c8"}, "tags": {"2.0.7--pyh5e36f6f_0": "sha256:adfd210016056c7253e7c3fce656b9aa4e21d4dbf5120d7a67bce2d23ee389a5", "2.0.8--pyh7cba7a3_0": "sha256:add0dfcf2b29cfce41efb36d7f8b0569b72450175f85f397135fceebec298607", "2.0.9--pyh7cba7a3_0": "sha256:587654faecc32bb7133b4bc8825be1f7722e000cf123dc950a2ef1e312f962c8"}, "docker": "quay.io/biocontainers/dnacauldron", "aliases": {"dnacauldron": "/usr/local/bin/dnacauldron", "html2text": "/usr/local/bin/html2text", "runxlrd.py": "/usr/local/bin/runxlrd.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnacauldron.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/dnacauldron
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnacauldron:2.0.8--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/dnacauldron:2.0.9--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnacauldron/2.0.8--pyh7cba7a3_0
-$ module help quay.io/biocontainers/dnacauldron/2.0.8--pyh7cba7a3_0
+$ module load quay.io/biocontainers/dnacauldron/2.0.9--pyh7cba7a3_0
+$ module help quay.io/biocontainers/dnacauldron/2.0.9--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
