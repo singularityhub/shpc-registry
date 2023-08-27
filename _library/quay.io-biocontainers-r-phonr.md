@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phonr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phonr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phonr/container.yaml"
-updated_at: "2023-08-26 03:04:16.318486"
+updated_at: "2023-08-27 03:14:54.803368"
 latest: "1.0_3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-phonr"
 aliases:
