@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/tb_variant_filter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tb_variant_filter
 latest:
-  0.3.6--pyhdfd78af_0: sha256:90eed76b423feb818ddb6b3d32134d95512656e24a44c6aac8f4be5e867a39d9
+  0.4.0--pyhdfd78af_0: sha256:e9e76f89b63a5d5c791a8a02ffd6a0711812c09b83c6863e8497932566d76346
 tags:
   0.3.5--pyhdfd78af_0: sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b
   0.3.6--pyhdfd78af_0: sha256:90eed76b423feb818ddb6b3d32134d95512656e24a44c6aac8f4be5e867a39d9
+  0.4.0--pyhdfd78af_0: sha256:e9e76f89b63a5d5c791a8a02ffd6a0711812c09b83c6863e8497932566d76346
 docker: quay.io/biocontainers/tb_variant_filter
 aliases:
   tb_bed_to_region_list: /usr/local/bin/tb_bed_to_region_list
