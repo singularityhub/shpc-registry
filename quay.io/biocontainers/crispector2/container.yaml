@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/crispector2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for crispector2
+latest:
+  2.0.4--pyhdfd78af_0: sha256:a2df260fea604ad1a1f9757e6202c45931e3f1069346d7376fe571ef68cf0bd5
+tags:
+  2.0.4--pyhdfd78af_0: sha256:a2df260fea604ad1a1f9757e6202c45931e3f1069346d7376fe571ef68cf0bd5
+docker: quay.io/biocontainers/crispector2
+aliases:
+  crispector: /usr/local/bin/crispector
+  fastp: /usr/local/bin/fastp
+  igzip: /usr/local/bin/igzip
+  f2py3.7: /usr/local/bin/f2py3.7
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  python3.7: /usr/local/bin/python3.7
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  pyvenv: /usr/local/bin/pyvenv
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc

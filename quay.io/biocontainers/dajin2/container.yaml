@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/dajin2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dajin2
+latest:
+  0.3.1--pyh7cba7a3_0: sha256:7fad451d45ba307d325fe1c43b996cfdc5f3c36b8d8736e03ccb31c5c5659d5b
+tags:
+  0.3.1--pyh7cba7a3_0: sha256:7fad451d45ba307d325fe1c43b996cfdc5f3c36b8d8736e03ccb31c5c5659d5b
+docker: quay.io/biocontainers/dajin2
+aliases:
+  DAJIN2: /usr/local/bin/DAJIN2
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  waitress-serve: /usr/local/bin/waitress-serve
+  minimap2.py: /usr/local/bin/minimap2.py
+  flask: /usr/local/bin/flask
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1

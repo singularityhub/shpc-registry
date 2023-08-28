@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/happy-python
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for happy-python
+latest:
+  0.2.1rc0--pyhdfd78af_0: sha256:c0357842017f1c8f8b46f111b994a2a0339e86e1f440ad601b55d0dbb3064f4e
+tags:
+  0.2.1rc0--pyhdfd78af_0: sha256:c0357842017f1c8f8b46f111b994a2a0339e86e1f440ad601b55d0dbb3064f4e
+docker: quay.io/biocontainers/happy-python
+aliases:
+  happy: /usr/local/bin/happy
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
+  sambamba: /usr/local/bin/sambamba
+  f2py3.11: /usr/local/bin/f2py3.11
+  sdust: /usr/local/bin/sdust
+  k8: /usr/local/bin/k8
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer

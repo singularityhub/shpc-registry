@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/ms-entropy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ms-entropy
+latest:
+  0.9.11--py39hf95cd2a_0: sha256:9a214f867f7e25607222706c91c9e85003bdffabd968d1a66dd033b24026fc3a
+tags:
+  0.9.11--py39hf95cd2a_0: sha256:9a214f867f7e25607222706c91c9e85003bdffabd968d1a66dd033b24026fc3a
+docker: quay.io/biocontainers/ms-entropy
+aliases:
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
