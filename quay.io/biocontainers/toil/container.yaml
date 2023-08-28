@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/toil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for toil
 latest:
-  5.11.0--pyhdfd78af_0: sha256:4dcd3fc2c667eab6f09756d85bf9ae1753dddef532394047176f31f5cfbcf497
+  5.12.0--pyhdfd78af_0: sha256:92f5fda499b086f595ac35727d61655983ff77835a7ff78bd27e973f0e97ec68
 tags:
   5.6.0--pyhdfd78af_0: sha256:d148c547f7829b59b69155dd5add29ddd2d8a3b93e10f3f9ebbdb1126bc63041
   5.7.1--pyhdfd78af_0: sha256:7357d1c1b2a28d5bd40358196d92dcc83495d7f54864335dec14b14c31764dec
   5.9.2--pyhdfd78af_0: sha256:eb52b735ebfd4476ebc0fb109ca6568c029003841aeb9a7d729390f96a53f7b5
   5.11.0--pyhdfd78af_0: sha256:4dcd3fc2c667eab6f09756d85bf9ae1753dddef532394047176f31f5cfbcf497
+  5.12.0--pyhdfd78af_0: sha256:92f5fda499b086f595ac35727d61655983ff77835a7ff78bd27e973f0e97ec68
 docker: quay.io/biocontainers/toil
 aliases:
   _toil_contained_executor: /usr/local/bin/_toil_contained_executor
