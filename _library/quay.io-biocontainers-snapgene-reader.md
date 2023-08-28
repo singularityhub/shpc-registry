@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snapgene-reader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snapgene-reader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snapgene-reader/container.yaml"
-updated_at: "2023-08-28 03:35:35.035679"
+updated_at: "2023-08-28 08:57:58.349269"
 latest: "0.1.20--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/snapgene-reader"
 aliases:

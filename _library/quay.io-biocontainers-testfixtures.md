@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/testfixtures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/testfixtures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/testfixtures/container.yaml"
-updated_at: "2023-08-28 03:27:17.827041"
+updated_at: "2023-08-28 08:47:54.712817"
 latest: "4.8.0--py35_0"
 container_url: "https://biocontainers.pro/tools/testfixtures"
 aliases:

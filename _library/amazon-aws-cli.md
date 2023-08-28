@@ -4,7 +4,7 @@ name:  "amazon/aws-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amazon/aws-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amazon/aws-cli/container.yaml"
-updated_at: "2023-08-28 04:13:32.532239"
+updated_at: "2023-08-28 09:44:52.569210"
 latest: "2.13.0"
 container_url: "https://hub.docker.com/r/amazon/aws-cli"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "2.13.0"
  - "2.12.7"
 description: "The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services."
-config: {"docker": "amazon/aws-cli", "url": "https://hub.docker.com/r/amazon/aws-cli", "maintainer": "@sarahbeecroft", "description": "The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services.", "latest": {"2.13.0": "sha256:e119d71e8a39a6a3dec5f60f06b090dcdb7adb1b463ae6e9c1cb55d52a05d418"}, "tags": {"2.13.0": "sha256:e119d71e8a39a6a3dec5f60f06b090dcdb7adb1b463ae6e9c1cb55d52a05d418", "2.12.7": "sha256:3aaf7f14eba1d7bcae719e4e187a96682bdacd25b64b8c2bfd5d24bd34ac2376"}, "aliases": {"aws": "/usr/local/aws-cli/v2/current/bin/aws", "aws_completer": "/usr/local/aws-cli/v2/current/bin/aws_completer"}}
+config: {"docker": "amazon/aws-cli", "url": "https://hub.docker.com/r/amazon/aws-cli", "maintainer": "@sarahbeecroft", "description": "The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services.", "latest": {"2.13.0": "sha256:e119d71e8a39a6a3dec5f60f06b090dcdb7adb1b463ae6e9c1cb55d52a05d418"}, "tags": {"2.13.0": "sha256:e119d71e8a39a6a3dec5f60f06b090dcdb7adb1b463ae6e9c1cb55d52a05d418", "2.12.7": "sha256:3aaf7f14eba1d7bcae719e4e187a96682bdacd25b64b8c2bfd5d24bd34ac2376"}, "aliases": {"aws": "/usr/local/aws-cli/v2/current/bin/aws", "aws_completer": "/usr/local/aws-cli/v2/current/bin/aws_completer"}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for amazon/aws-cli.
