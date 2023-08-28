@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-xmlrpc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xmlrpc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xmlrpc/container.yaml"
-updated_at: "2023-08-28 02:46:06.981432"
+updated_at: "2023-08-28 03:31:18.315807"
 latest: "0.2_4--r43h9ee0642_7"
 container_url: "https://biocontainers.pro/tools/r-xmlrpc"
 aliases:

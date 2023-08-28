@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-unifiedwmwqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-unifiedwmwqpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-unifiedwmwqpcr/container.yaml"
-updated_at: "2023-08-28 02:27:55.739535"
+updated_at: "2023-08-28 03:07:58.219758"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-unifiedwmwqpcr"
 

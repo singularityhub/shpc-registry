@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastx_toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastx_toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastx_toolkit/container.yaml"
-updated_at: "2023-08-28 02:51:20.030148"
+updated_at: "2023-08-28 03:37:36.615498"
 latest: "0.0.14--hdbdd923_11"
 container_url: "https://biocontainers.pro/tools/fastx_toolkit"
 

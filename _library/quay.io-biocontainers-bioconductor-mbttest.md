@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mbttest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mbttest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbttest/container.yaml"
-updated_at: "2023-08-28 02:56:24.678966"
+updated_at: "2023-08-28 03:44:36.882921"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mbttest"
 aliases:
