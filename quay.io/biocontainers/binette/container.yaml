@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/binette
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for binette
+latest:
+  0.1.6--pyh7cba7a3_0: sha256:ba990894d2cc6179191e635c459a3cf5c01b178bdbe2f7acd184c8211791073b
+tags:
+  0.1.6--pyh7cba7a3_0: sha256:ba990894d2cc6179191e635c459a3cf5c01b178bdbe2f7acd184c8211791073b
+docker: quay.io/biocontainers/binette
+aliases:
+  binette: /usr/local/bin/binette
+  checkm2: /usr/local/bin/checkm2
+  protoc-23.3.0: /usr/local/bin/protoc-23.3.0
+  pyrodigal: /usr/local/bin/pyrodigal
+  pyfastx: /usr/local/bin/pyfastx
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
+  diamond: /usr/local/bin/diamond
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  markdown_py: /usr/local/bin/markdown_py
+  prodigal: /usr/local/bin/prodigal
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign

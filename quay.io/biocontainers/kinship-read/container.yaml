@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/kinship-read
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kinship-read
+latest:
+  1.0--hdfd78af_0: sha256:284d482c94b9d0dcfe3175fed2f3c3d122e804c2fa38b671b6e53b1902be61ab
+tags:
+  1.0--hdfd78af_0: sha256:284d482c94b9d0dcfe3175fed2f3c3d122e804c2fa38b671b6e53b1902be61ab
+docker: quay.io/biocontainers/kinship-read
+aliases:
+  kinship-read: /usr/local/bin/kinship-read
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  smtpd.py: /usr/local/bin/smtpd.py
