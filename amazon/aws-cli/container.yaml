@@ -10,3 +10,5 @@ tags:
 aliases:
     aws: /usr/local/aws-cli/v2/current/bin/aws
     aws_completer: /usr/local/aws-cli/v2/current/bin/aws_completer
+features:
+  home: true
