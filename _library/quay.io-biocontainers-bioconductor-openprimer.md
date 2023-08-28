@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-openprimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-openprimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-openprimer/container.yaml"
-updated_at: "2023-08-27 02:33:24.541894"
+updated_at: "2023-08-28 02:31:06.977697"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-openprimer"
 aliases:

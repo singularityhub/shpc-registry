@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sniffles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sniffles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sniffles/container.yaml"
-updated_at: "2023-08-27 02:43:00.882899"
-latest: "2.0.7--pyhdfd78af_0"
+updated_at: "2023-08-28 02:39:11.708642"
+latest: "2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sniffles"
 aliases:
  - "sniffles"
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "2.0.7--pyhdfd78af_0"
+ - "2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sniffles"
-config: {"url": "https://biocontainers.pro/tools/sniffles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sniffles", "latest": {"2.0.7--pyhdfd78af_0": "sha256:94157be1208ad01a748e68fd6a5d88b29c515136c31908fcf51bee11f687a769"}, "tags": {"2.0.7--pyhdfd78af_0": "sha256:94157be1208ad01a748e68fd6a5d88b29c515136c31908fcf51bee11f687a769"}, "docker": "quay.io/biocontainers/sniffles", "aliases": {"sniffles": "/usr/local/bin/sniffles", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/sniffles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sniffles", "latest": {"2.2--pyhdfd78af_0": "sha256:feb1c41eae608ebc2c2cb594144bb3c221b87d9bb691d0af6ad06b49fd54573a"}, "tags": {"2.0.7--pyhdfd78af_0": "sha256:94157be1208ad01a748e68fd6a5d88b29c515136c31908fcf51bee11f687a769", "2.2--pyhdfd78af_0": "sha256:feb1c41eae608ebc2c2cb594144bb3c221b87d9bb691d0af6ad06b49fd54573a"}, "docker": "quay.io/biocontainers/sniffles", "aliases": {"sniffles": "/usr/local/bin/sniffles", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sniffles.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/sniffles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sniffles:2.0.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sniffles:2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sniffles/2.0.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/sniffles/2.0.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/sniffles/2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/sniffles/2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
