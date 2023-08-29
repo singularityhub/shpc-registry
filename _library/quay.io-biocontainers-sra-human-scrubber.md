@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sra-human-scrubber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sra-human-scrubber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sra-human-scrubber/container.yaml"
-updated_at: "2023-08-28 09:04:46.089255"
-latest: "2.1.0--hdfd78af_0"
+updated_at: "2023-08-29 03:14:26.556922"
+latest: "2.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sra-human-scrubber"
 aliases:
  - "aligns_to"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.0.0--hdfd78af_0"
  - "2.1.0--hdfd78af_0"
+ - "2.2.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sra-human-scrubber"
-config: {"url": "https://biocontainers.pro/tools/sra-human-scrubber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sra-human-scrubber", "latest": {"2.1.0--hdfd78af_0": "sha256:78c738c06029ad02e908506979864f95f5e0811aff07aff8a79df3ef77414e1d"}, "tags": {"2.0.0--hdfd78af_0": "sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef", "2.1.0--hdfd78af_0": "sha256:78c738c06029ad02e908506979864f95f5e0811aff07aff8a79df3ef77414e1d"}, "docker": "quay.io/biocontainers/sra-human-scrubber", "aliases": {"aligns_to": "/usr/local/bin/aligns_to", "cut_spots_fastq.py": "/usr/local/bin/cut_spots_fastq.py", "fastq_to_fasta.py": "/usr/local/bin/fastq_to_fasta.py", "init_db.sh": "/usr/local/bin/init_db.sh", "scrub.sh": "/usr/local/bin/scrub.sh", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/sra-human-scrubber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sra-human-scrubber", "latest": {"2.2.1--hdfd78af_0": "sha256:2f6b6635af9ba3190fc2f96640b21f0285483bd1f50d6be229228c52fb747055"}, "tags": {"2.0.0--hdfd78af_0": "sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef", "2.1.0--hdfd78af_0": "sha256:78c738c06029ad02e908506979864f95f5e0811aff07aff8a79df3ef77414e1d", "2.2.1--hdfd78af_0": "sha256:2f6b6635af9ba3190fc2f96640b21f0285483bd1f50d6be229228c52fb747055"}, "docker": "quay.io/biocontainers/sra-human-scrubber", "aliases": {"aligns_to": "/usr/local/bin/aligns_to", "cut_spots_fastq.py": "/usr/local/bin/cut_spots_fastq.py", "fastq_to_fasta.py": "/usr/local/bin/fastq_to_fasta.py", "init_db.sh": "/usr/local/bin/init_db.sh", "scrub.sh": "/usr/local/bin/scrub.sh", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sra-human-scrubber.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/sra-human-scrubber
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sra-human-scrubber:2.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/sra-human-scrubber:2.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sra-human-scrubber/2.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/sra-human-scrubber/2.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/sra-human-scrubber/2.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/sra-human-scrubber/2.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/platon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/platon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/platon/container.yaml"
-updated_at: "2023-08-28 08:58:31.605731"
+updated_at: "2023-08-29 03:08:05.092462"
 latest: "1.6--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/platon"
 aliases:
