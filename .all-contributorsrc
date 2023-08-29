@@ -130,6 +130,17 @@
             "avatar_url": [
                 "https://avatars.githubusercontent.com/u/2136256?v=4"
             ]
+        },
+        {
+            "login": "AlexisEspinosaGayosso",
+            "name": "Alexis Espinosa",
+            "contributions": [
+                "code"
+            ],
+            "profile": "https://github.com/AlexisEspinosaGayosso",
+            "avatar_url": [
+                "https://avatars.githubusercontent.com/u/31269264?v=4"
+            ]
         }
     ],
     "contributorsPerLine": 7
