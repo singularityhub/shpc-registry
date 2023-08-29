@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dupradar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dupradar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dupradar/container.yaml"
-updated_at: "2023-08-29 03:38:43.416780"
+updated_at: "2023-08-29 03:50:12.343315"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dupradar"
 aliases:
