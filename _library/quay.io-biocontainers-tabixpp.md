@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tabixpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tabixpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tabixpp/container.yaml"
-updated_at: "2023-08-29 03:39:53.894473"
+updated_at: "2023-08-29 03:45:19.953722"
 latest: "1.1.2--hd68fcf3_0"
 container_url: "https://biocontainers.pro/tools/tabixpp"
 aliases:

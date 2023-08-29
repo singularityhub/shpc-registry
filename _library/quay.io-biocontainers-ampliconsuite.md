@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ampliconsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampliconsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampliconsuite/container.yaml"
-updated_at: "2023-08-29 03:30:00.202304"
+updated_at: "2023-08-29 03:32:15.395230"
 latest: "0.1555.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ampliconsuite"
 aliases:

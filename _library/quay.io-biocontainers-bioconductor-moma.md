@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moma/container.yaml"
-updated_at: "2023-08-29 03:13:35.898199"
+updated_at: "2023-08-29 03:11:05.837130"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moma"
 
