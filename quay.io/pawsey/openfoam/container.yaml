@@ -10,13 +10,9 @@ tags:
   v2012: sha256:412a76a50084e80cc781ac8f53385c5cfe5f80d6e9917236b128c73c856ee269
   v2006: sha256:c04e6d3df9051777c06b73e4fbcc404be75c721e9f0def0eda3598c031ecb766
   v1912: sha256:69c1fe483dd44a8797620a5132492aadab3dba5ce322af8c1605fd23965676e1
-  #  v1812: sha256:6197994d3eba966ab9c8cbdcfde97bdd67313fab55ada09d9665e974a0ef707a
-  #  v1712: sha256:ac766f92b678cf9c70aefaa914bcad3837675e57dae38554220ec9024a4a3dc9
 overrides:
   v2212: aliases/v2212.yaml
   v2206: aliases/v2206.yaml
   v2012: aliases/v2012.yaml
   v2006: aliases/v2006.yaml
   v1912: aliases/v1912.yaml
-  #  v1812: aliases/v1812.yaml
-  #  v1712: aliases/v1712.yaml

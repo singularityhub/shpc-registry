@@ -9,14 +9,8 @@ tags:
   '9': sha256:8beb9105b4173c742bcbbed3fb4d715929e446cc492c9b8dee7b25d9f499c433
   '8': sha256:ddc8c9d502d77c1f6d3b46282a41eed19c622deedb40d511c4991abc9a25f2bb
   '7': sha256:370c77f1c3920a19c16eb53596441280e38bbfca344a36332efaa45e32ace369
-  #5.x: sha256:301765ba65e135ad1954bc8dabfc1a76ad716000ae8142d0c0a61810b3dce922
-  #2.4.x: sha256:526ed37410c31789c5da9f3dd5f842835989533181b0c7e7feafd1eaa683ff43
-  #2.2.0: sha256:32f0a464f0ea128e6b68b58e90719c24b5acb962dc8b7b8767440f8d70ed9156
 overrides:
   '10': aliases/10.yaml
   '9': aliases/9.yaml
   '8': aliases/8.yaml
   '7': aliases/7.yaml
-  #5.x: aliases/5.x.yaml
-  #2.4.x: aliases/2.4.x.yaml
-  #2.2.0: aliases/2.2.0.yaml
