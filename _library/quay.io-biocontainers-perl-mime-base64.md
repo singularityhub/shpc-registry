@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mime-base64"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-base64/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-base64/container.yaml"
-updated_at: "2023-08-29 03:54:51.907192"
+updated_at: "2023-08-30 02:55:04.043870"
 latest: "3.16--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-mime-base64"
 aliases:

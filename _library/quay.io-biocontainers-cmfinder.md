@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmfinder/container.yaml"
-updated_at: "2023-08-29 04:02:08.009825"
+updated_at: "2023-08-30 03:00:22.380983"
 latest: "0.4.1.9--h470a237_2"
 container_url: "https://biocontainers.pro/tools/cmfinder"
 aliases:

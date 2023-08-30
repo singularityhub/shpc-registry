@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gqt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gqt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gqt/container.yaml"
-updated_at: "2023-08-29 03:39:27.114536"
+updated_at: "2023-08-30 02:43:26.816894"
 latest: "1.1.3--h0263287_3"
 container_url: "https://biocontainers.pro/tools/gqt"
 aliases:

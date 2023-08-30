@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/samtools/container.yaml"
-updated_at: "2023-08-29 03:09:21.533938"
+updated_at: "2023-08-30 02:20:52.089761"
 latest: "1.15.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/samtools"
 aliases:

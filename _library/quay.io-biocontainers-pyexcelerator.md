@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyexcelerator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyexcelerator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyexcelerator/container.yaml"
-updated_at: "2023-08-29 03:51:41.352139"
+updated_at: "2023-08-30 02:52:44.096514"
 latest: "0.6.4a--py27_2"
 container_url: "https://biocontainers.pro/tools/pyexcelerator"
 aliases:

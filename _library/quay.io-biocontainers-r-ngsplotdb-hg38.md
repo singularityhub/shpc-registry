@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ngsplotdb-hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ngsplotdb-hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ngsplotdb-hg38/container.yaml"
-updated_at: "2023-08-29 03:53:41.855368"
+updated_at: "2023-08-30 02:54:14.460952"
 latest: "3.00--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-ngsplotdb-hg38"
 aliases:

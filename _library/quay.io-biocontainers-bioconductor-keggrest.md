@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-keggrest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggrest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggrest/container.yaml"
-updated_at: "2023-08-29 03:28:31.051290"
+updated_at: "2023-08-30 02:35:24.560240"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggrest"
 

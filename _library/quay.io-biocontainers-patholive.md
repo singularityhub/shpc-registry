@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/patholive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/patholive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/patholive/container.yaml"
-updated_at: "2023-08-29 03:30:14.872796"
+updated_at: "2023-08-30 02:36:41.669662"
 latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/patholive"
 aliases:
