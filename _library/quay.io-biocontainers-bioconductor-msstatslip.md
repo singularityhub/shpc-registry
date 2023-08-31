@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msstatslip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatslip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatslip/container.yaml"
-updated_at: "2023-08-30 02:22:14.411960"
+updated_at: "2023-08-31 02:23:15.213067"
 latest: "1.3.1--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatslip"
 aliases:

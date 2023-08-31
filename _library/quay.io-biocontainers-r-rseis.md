@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rseis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rseis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rseis/container.yaml"
-updated_at: "2023-08-30 02:32:27.312066"
+updated_at: "2023-08-31 02:35:53.567572"
 latest: "3.5_2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rseis"
 aliases:

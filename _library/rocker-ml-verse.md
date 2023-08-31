@@ -4,7 +4,7 @@ name:  "rocker/ml-verse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml-verse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/ml-verse/container.yaml"
-updated_at: "2023-08-30 02:20:29.916674"
+updated_at: "2023-08-31 02:21:06.451714"
 latest: "4.3.1"
 container_url: "https://hub.docker.com/r/rocker/ml-verse"
 aliases:

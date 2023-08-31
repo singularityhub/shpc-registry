@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-polyfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-polyfit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-polyfit/container.yaml"
-updated_at: "2023-08-30 02:59:42.377368"
+updated_at: "2023-08-31 03:09:12.347586"
 latest: "1.22.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-polyfit"
 aliases:
