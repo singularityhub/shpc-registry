@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netsam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netsam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netsam/container.yaml"
-updated_at: "2023-08-31 02:53:09.818925"
+updated_at: "2023-09-01 02:55:37.971136"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netsam"
 
