@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/scepia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scepia
 latest:
-  0.5.1--pyhdfd78af_0: sha256:ad3e8dcf7901e1f50ce906b47d1a9f2ef510fda34689341cd43af730400740d5
+  0.5.1--pyhdfd78af_1: sha256:459ae9bffc8a4b6802225a68556a9fb5ac9d9fb3c831d3e1bbcce9467977963e
 tags:
   0.5.1--pyhdfd78af_0: sha256:ad3e8dcf7901e1f50ce906b47d1a9f2ef510fda34689341cd43af730400740d5
+  0.5.1--pyhdfd78af_1: sha256:459ae9bffc8a4b6802225a68556a9fb5ac9d9fb3c831d3e1bbcce9467977963e
 docker: quay.io/biocontainers/scepia
 aliases:
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl
