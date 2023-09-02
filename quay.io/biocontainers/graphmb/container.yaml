@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/graphmb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for graphmb
 latest:
-  0.2.3--pyh7cba7a3_0: sha256:b96eefb1f5035b95f78d8429480ed49ce5da26d0269a3fd703de111bb2c6d5f7
+  0.2.5--pyh7cba7a3_0: sha256:27611d31edfdc065308ca6e4709e78e75c1a49f3f350d26b5700497e370f86bb
 tags:
   0.2.3--pyh7cba7a3_0: sha256:b96eefb1f5035b95f78d8429480ed49ce5da26d0269a3fd703de111bb2c6d5f7
+  0.2.5--pyh7cba7a3_0: sha256:27611d31edfdc065308ca6e4709e78e75c1a49f3f350d26b5700497e370f86bb
 docker: quay.io/biocontainers/graphmb
 aliases:
   alembic: /usr/local/bin/alembic
