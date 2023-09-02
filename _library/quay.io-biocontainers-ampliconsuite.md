@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ampliconsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampliconsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampliconsuite/container.yaml"
-updated_at: "2023-09-01 02:45:53.973348"
-latest: "0.1555.2--pyhdfd78af_1"
+updated_at: "2023-09-02 02:39:03.250778"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampliconsuite"
 aliases:
  - "AmpliconSuite-pipeline.py"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "0.1555.2--pyhdfd78af_0"
  - "0.1555.2--pyhdfd78af_1"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ampliconsuite"
-config: {"url": "https://biocontainers.pro/tools/ampliconsuite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ampliconsuite", "latest": {"0.1555.2--pyhdfd78af_1": "sha256:9e25b8146acd9099eb270b4866ed0f98f59d9397fd428569dbeedc58f4e2534d"}, "tags": {"0.1555.2--pyhdfd78af_0": "sha256:fe28fbe4715e56a97e724baa8b0fd8aa954d35ee3611f1f7481fac1e7c76fc05", "0.1555.2--pyhdfd78af_1": "sha256:9e25b8146acd9099eb270b4866ed0f98f59d9397fd428569dbeedc58f4e2534d"}, "docker": "quay.io/biocontainers/ampliconsuite", "aliases": {"AmpliconSuite-pipeline.py": "/usr/local/bin/AmpliconSuite-pipeline.py", "GroupedAnalysisAmpSuite.py": "/usr/local/bin/GroupedAnalysisAmpSuite.py", "cnvkit.py": "/usr/local/bin/cnvkit.py", "hb-info": "/usr/local/bin/hb-info", "flask": "/usr/local/bin/flask", "tjbench": "/usr/local/bin/tjbench", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/ampliconsuite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ampliconsuite", "latest": {"1.0.0--pyhdfd78af_0": "sha256:86970ce45ff91fd4d3a603a33fa3fd1bf07032b07f4c37f80f4f89e9300ccccc"}, "tags": {"0.1555.2--pyhdfd78af_0": "sha256:fe28fbe4715e56a97e724baa8b0fd8aa954d35ee3611f1f7481fac1e7c76fc05", "0.1555.2--pyhdfd78af_1": "sha256:9e25b8146acd9099eb270b4866ed0f98f59d9397fd428569dbeedc58f4e2534d", "1.0.0--pyhdfd78af_0": "sha256:86970ce45ff91fd4d3a603a33fa3fd1bf07032b07f4c37f80f4f89e9300ccccc"}, "docker": "quay.io/biocontainers/ampliconsuite", "aliases": {"AmpliconSuite-pipeline.py": "/usr/local/bin/AmpliconSuite-pipeline.py", "GroupedAnalysisAmpSuite.py": "/usr/local/bin/GroupedAnalysisAmpSuite.py", "cnvkit.py": "/usr/local/bin/cnvkit.py", "hb-info": "/usr/local/bin/hb-info", "flask": "/usr/local/bin/flask", "tjbench": "/usr/local/bin/tjbench", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ampliconsuite.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/ampliconsuite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ampliconsuite:0.1555.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/ampliconsuite:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ampliconsuite/0.1555.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/ampliconsuite/0.1555.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/ampliconsuite/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ampliconsuite/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

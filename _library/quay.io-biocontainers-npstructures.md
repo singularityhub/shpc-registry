@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/npstructures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/npstructures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/npstructures/container.yaml"
-updated_at: "2023-09-01 02:28:51.007341"
+updated_at: "2023-09-02 02:21:57.429079"
 latest: "0.2.12--pyha8f3691_0"
 container_url: "https://biocontainers.pro/tools/npstructures"
 aliases:
