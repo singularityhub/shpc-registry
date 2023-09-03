@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/wfa2-lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wfa2-lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wfa2-lib/container.yaml"
-updated_at: "2023-09-02 03:12:20.707459"
-latest: "2.3.3--h4ac6f70_0"
+updated_at: "2023-09-03 03:23:36.472763"
+latest: "2.3.3--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/wfa2-lib"
 
 versions:
  - "2.3.3--h4ac6f70_0"
+ - "2.3.3--h4ac6f70_1"
 description: "singularity registry hpc automated addition for wfa2-lib"
-config: {"url": "https://biocontainers.pro/tools/wfa2-lib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wfa2-lib", "latest": {"2.3.3--h4ac6f70_0": "sha256:62df605f9d9cac3fa9a3a4283692f74a818bb992da3c8d1218c8f7ea5204545d"}, "tags": {"2.3.3--h4ac6f70_0": "sha256:62df605f9d9cac3fa9a3a4283692f74a818bb992da3c8d1218c8f7ea5204545d"}, "docker": "quay.io/biocontainers/wfa2-lib"}
+config: {"url": "https://biocontainers.pro/tools/wfa2-lib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wfa2-lib", "latest": {"2.3.3--h4ac6f70_1": "sha256:263f84c297911d5a74da0ccd8d07cd3f2afe95bcd3c6e93c0ebdf422ef95939e"}, "tags": {"2.3.3--h4ac6f70_0": "sha256:62df605f9d9cac3fa9a3a4283692f74a818bb992da3c8d1218c8f7ea5204545d", "2.3.3--h4ac6f70_1": "sha256:263f84c297911d5a74da0ccd8d07cd3f2afe95bcd3c6e93c0ebdf422ef95939e"}, "docker": "quay.io/biocontainers/wfa2-lib"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wfa2-lib.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/wfa2-lib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wfa2-lib:2.3.3--h4ac6f70_0
+$ shpc install quay.io/biocontainers/wfa2-lib:2.3.3--h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wfa2-lib/2.3.3--h4ac6f70_0
-$ module help quay.io/biocontainers/wfa2-lib/2.3.3--h4ac6f70_0
+$ module load quay.io/biocontainers/wfa2-lib/2.3.3--h4ac6f70_1
+$ module help quay.io/biocontainers/wfa2-lib/2.3.3--h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/graphmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphmb/container.yaml"
-updated_at: "2023-09-02 02:40:51.114914"
-latest: "0.2.3--pyh7cba7a3_0"
+updated_at: "2023-09-03 02:47:40.447760"
+latest: "0.2.5--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/graphmb"
 aliases:
  - "alembic"
@@ -51,8 +51,9 @@ aliases:
  - "orc-metadata"
 versions:
  - "0.2.3--pyh7cba7a3_0"
+ - "0.2.5--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for graphmb"
-config: {"url": "https://biocontainers.pro/tools/graphmb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for graphmb", "latest": {"0.2.3--pyh7cba7a3_0": "sha256:b96eefb1f5035b95f78d8429480ed49ce5da26d0269a3fd703de111bb2c6d5f7"}, "tags": {"0.2.3--pyh7cba7a3_0": "sha256:b96eefb1f5035b95f78d8429480ed49ce5da26d0269a3fd703de111bb2c6d5f7"}, "docker": "quay.io/biocontainers/graphmb", "aliases": {"alembic": "/usr/local/bin/alembic", "databricks": "/usr/local/bin/databricks", "dbfs": "/usr/local/bin/dbfs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "flatc": "/usr/local/bin/flatc", "graphmb": "/usr/local/bin/graphmb", "gunicorn": "/usr/local/bin/gunicorn", "h5delete": "/usr/local/bin/h5delete", "mlflow": "/usr/local/bin/mlflow", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "sqlformat": "/usr/local/bin/sqlformat", "wsdump": "/usr/local/bin/wsdump", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "torchrun": "/usr/local/bin/torchrun", "csv-import": "/usr/local/bin/csv-import", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata"}}
+config: {"url": "https://biocontainers.pro/tools/graphmb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for graphmb", "latest": {"0.2.5--pyh7cba7a3_0": "sha256:27611d31edfdc065308ca6e4709e78e75c1a49f3f350d26b5700497e370f86bb"}, "tags": {"0.2.3--pyh7cba7a3_0": "sha256:b96eefb1f5035b95f78d8429480ed49ce5da26d0269a3fd703de111bb2c6d5f7", "0.2.5--pyh7cba7a3_0": "sha256:27611d31edfdc065308ca6e4709e78e75c1a49f3f350d26b5700497e370f86bb"}, "docker": "quay.io/biocontainers/graphmb", "aliases": {"alembic": "/usr/local/bin/alembic", "databricks": "/usr/local/bin/databricks", "dbfs": "/usr/local/bin/dbfs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "flatc": "/usr/local/bin/flatc", "graphmb": "/usr/local/bin/graphmb", "gunicorn": "/usr/local/bin/gunicorn", "h5delete": "/usr/local/bin/h5delete", "mlflow": "/usr/local/bin/mlflow", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "sqlformat": "/usr/local/bin/sqlformat", "wsdump": "/usr/local/bin/wsdump", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "torchrun": "/usr/local/bin/torchrun", "csv-import": "/usr/local/bin/csv-import", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphmb.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/graphmb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphmb:0.2.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/graphmb:0.2.5--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphmb/0.2.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/graphmb/0.2.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/graphmb/0.2.5--pyh7cba7a3_0
+$ module help quay.io/biocontainers/graphmb/0.2.5--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
