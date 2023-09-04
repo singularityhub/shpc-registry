@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghostx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostx/container.yaml"
-updated_at: "2023-09-04 03:00:30.070797"
+updated_at: "2023-09-04 04:17:41.523129"
 latest: "1.3.7--hfc679d8_1"
 container_url: "https://biocontainers.pro/tools/ghostx"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicstate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicstate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicstate/container.yaml"
-updated_at: "2023-09-04 02:32:16.682397"
+updated_at: "2023-09-04 03:53:09.508570"
 latest: "0.99.15--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicstate"
 aliases:

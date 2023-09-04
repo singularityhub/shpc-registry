@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/workspace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/workspace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/workspace/container.yaml"
-updated_at: "2023-09-04 03:04:13.785611"
+updated_at: "2023-09-04 04:20:55.399641"
 latest: "0.3.1--py27_2"
 container_url: "https://biocontainers.pro/tools/workspace"
 aliases:

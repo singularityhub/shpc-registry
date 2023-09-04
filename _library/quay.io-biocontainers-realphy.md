@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/realphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/realphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/realphy/container.yaml"
-updated_at: "2023-09-04 03:14:15.262670"
+updated_at: "2023-09-04 04:29:36.632174"
 latest: "1.13--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/realphy"
 aliases:

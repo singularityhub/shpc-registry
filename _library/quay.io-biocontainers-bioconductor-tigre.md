@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tigre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tigre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tigre/container.yaml"
-updated_at: "2023-09-04 02:39:43.831227"
+updated_at: "2023-09-04 03:59:27.001823"
 latest: "1.54.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tigre"
 

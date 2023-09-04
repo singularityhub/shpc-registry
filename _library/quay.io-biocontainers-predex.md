@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/predex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/predex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/predex/container.yaml"
-updated_at: "2023-09-04 03:22:27.581514"
+updated_at: "2023-09-04 04:36:41.608107"
 latest: "0.9.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/predex"
 aliases:

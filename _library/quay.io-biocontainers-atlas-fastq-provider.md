@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atlas-fastq-provider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas-fastq-provider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas-fastq-provider/container.yaml"
-updated_at: "2023-09-04 02:40:47.702923"
+updated_at: "2023-09-04 04:00:23.125672"
 latest: "0.4.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atlas-fastq-provider"
 aliases:

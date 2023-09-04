@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geometadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geometadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geometadb/container.yaml"
-updated_at: "2023-09-04 02:38:33.947732"
+updated_at: "2023-09-04 03:58:26.178657"
 latest: "1.62.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geometadb"
 
