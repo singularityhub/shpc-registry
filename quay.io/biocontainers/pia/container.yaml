@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/pia
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pia
+latest:
+  1.4.8--hdfd78af_0: sha256:61139d86ad772df04a3e10f075d359cc55a5d4210915e303b8f04e53aad22610
+tags:
+  1.4.8--hdfd78af_0: sha256:61139d86ad772df04a3e10f075d359cc55a5d4210915e303b8f04e53aad22610
+docker: quay.io/biocontainers/pia
+aliases:
+  jwebserver: /usr/local/bin/jwebserver
+  pia: /usr/local/bin/pia
+  jpackage: /usr/local/bin/jpackage
+  hb-info: /usr/local/bin/hb-info
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  tjbench: /usr/local/bin/tjbench
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo

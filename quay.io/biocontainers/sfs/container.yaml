@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sfs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sfs
+latest:
+  0.1.0--h9ee0642_0: sha256:f3fa17e52637017c9fb399b500438b571a06d228a553ea8b6305488c92e82bca
+tags:
+  0.1.0--h9ee0642_0: sha256:f3fa17e52637017c9fb399b500438b571a06d228a553ea8b6305488c92e82bca
+docker: quay.io/biocontainers/sfs
+aliases:
+  sfs: /usr/local/bin/sfs
