@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/noah-cli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for noah-cli
+latest:
+  0.2.0--pyhdfd78af_0: sha256:89a7dc784c9b3ef9b9d65b0fb26bceec3579ad4aa3c67bd56328dfc71c28e967
+tags:
+  0.2.0--pyhdfd78af_0: sha256:89a7dc784c9b3ef9b9d65b0fb26bceec3579ad4aa3c67bd56328dfc71c28e967
+docker: quay.io/biocontainers/noah-cli
+aliases:
+  fab: /usr/local/bin/fab
+  inv: /usr/local/bin/inv
+  invoke: /usr/local/bin/invoke
+  noah: /usr/local/bin/noah
+  pysradb: /usr/local/bin/pysradb
+  markdown-it: /usr/local/bin/markdown-it
+  f2py3.11: /usr/local/bin/f2py3.11
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1

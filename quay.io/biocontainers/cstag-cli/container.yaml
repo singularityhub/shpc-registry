@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/cstag-cli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cstag-cli
+latest:
+  0.1.1--pyh7cba7a3_0: sha256:0e02b25d5456d3660c5f5f9d011c925afa7a19a527493cc467f8a765d008da49
+tags:
+  0.1.1--pyh7cba7a3_0: sha256:0e02b25d5456d3660c5f5f9d011c925afa7a19a527493cc467f8a765d008da49
+docker: quay.io/biocontainers/cstag-cli
+aliases:
+  cstag: /usr/local/bin/cstag
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  python3.1: /usr/local/bin/python3.1
