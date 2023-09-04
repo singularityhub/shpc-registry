@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/efishent
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for efishent
 latest:
-  0.0.4--pyhdfd78af_0: sha256:5bf64b049e9078fa4387e2aac98dd479b5e0964e155fc5246ace0f70377b1b5e
+  0.0.5--pyhdfd78af_0: sha256:07afed4545dc89cf8d084ae6ebc9fa3982e95bbcf97c8352574eadbf4a5e2c59
 tags:
   0.0.2--pyhdfd78af_0: sha256:c977c2e52687546524c4f60dcc07592c2e5f6b5ac70482beba0700ea8d9341c7
   0.0.4--pyhdfd78af_0: sha256:5bf64b049e9078fa4387e2aac98dd479b5e0964e155fc5246ace0f70377b1b5e
+  0.0.5--pyhdfd78af_0: sha256:07afed4545dc89cf8d084ae6ebc9fa3982e95bbcf97c8352574eadbf4a5e2c59
 docker: quay.io/biocontainers/efishent
 aliases:
   AccessFold: /usr/local/bin/AccessFold
