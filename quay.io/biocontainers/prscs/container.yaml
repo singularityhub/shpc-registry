@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/prscs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for prscs
 latest:
-  1.0.0--hdfd78af_0: sha256:26dfc8d99dba3b62773f41936f14f31bd9dc8c5e12d61075b8ca2b00d2571aea
+  1.1.0--hdfd78af_0: sha256:06f003e48ecfde64d7d1d202a252dd05e9d072c92bf2322274a1aa00640f54ec
 tags:
   1.0.0--hdfd78af_0: sha256:26dfc8d99dba3b62773f41936f14f31bd9dc8c5e12d61075b8ca2b00d2571aea
+  1.1.0--hdfd78af_0: sha256:06f003e48ecfde64d7d1d202a252dd05e9d072c92bf2322274a1aa00640f54ec
 docker: quay.io/biocontainers/prscs
 aliases:
   PRScs.py: /usr/local/bin/PRScs.py

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/qiskit-xyz2pdb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for qiskit-xyz2pdb
 latest:
-  0.1.0--pyhdfd78af_0: sha256:7c67169ac65c9e1dea2878c7c0df8bfeb39d059dea8b0296a7c98c2d7b13ee77
+  0.1.2--pyhca03a8a_0: sha256:64bae8b85e95a4a2eadaba46dbf8fa5316ab59919af93fd5f752e95254e443cb
 tags:
   0.1.0--pyhdfd78af_0: sha256:7c67169ac65c9e1dea2878c7c0df8bfeb39d059dea8b0296a7c98c2d7b13ee77
+  0.1.2--pyhca03a8a_0: sha256:64bae8b85e95a4a2eadaba46dbf8fa5316ab59919af93fd5f752e95254e443cb
 docker: quay.io/biocontainers/qiskit-xyz2pdb
 aliases:
   qiskit-xyz2pdb: /usr/local/bin/qiskit-xyz2pdb

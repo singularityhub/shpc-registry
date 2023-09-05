@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/platon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for platon
 latest:
-  1.6--pyhdfd78af_1: sha256:09223057e5494cc75a342d646b59ffc82faa987fb2ab4b4470317ada1f7c567b
+  1.7--pyhdfd78af_0: sha256:74d96300053a9ce3d4f10bbb935b20631e1d8547c1df632d5f05b178eb2cbbf6
 tags:
   1.6--pyhdfd78af_1: sha256:09223057e5494cc75a342d646b59ffc82faa987fb2ab4b4470317ada1f7c567b
+  1.7--pyhdfd78af_0: sha256:74d96300053a9ce3d4f10bbb935b20631e1d8547c1df632d5f05b178eb2cbbf6
 docker: quay.io/biocontainers/platon
 aliases:
   delta2vcf: /usr/local/bin/delta2vcf
