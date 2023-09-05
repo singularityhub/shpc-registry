@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/duphold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duphold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duphold/container.yaml"
-updated_at: "2023-09-04 04:06:55.144164"
+updated_at: "2023-09-05 02:41:34.039418"
 latest: "0.2.1--h031d066_4"
 container_url: "https://biocontainers.pro/tools/duphold"
 aliases:

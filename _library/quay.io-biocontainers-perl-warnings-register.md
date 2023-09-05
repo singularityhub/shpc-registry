@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-warnings-register"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-warnings-register/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-warnings-register/container.yaml"
-updated_at: "2023-09-04 04:29:24.777505"
+updated_at: "2023-09-05 03:03:01.222522"
 latest: "1.03--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-warnings-register"
 aliases:

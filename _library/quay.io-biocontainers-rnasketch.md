@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnasketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnasketch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnasketch/container.yaml"
-updated_at: "2023-09-04 04:13:39.669990"
+updated_at: "2023-09-05 02:47:59.087170"
 latest: "1.5--py_2"
 container_url: "https://biocontainers.pro/tools/rnasketch"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pamr/container.yaml"
-updated_at: "2023-09-04 04:36:23.312906"
+updated_at: "2023-09-05 03:09:37.125809"
 latest: "1.55--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-pamr"
 aliases:

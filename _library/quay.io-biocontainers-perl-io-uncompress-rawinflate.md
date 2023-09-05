@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-uncompress-rawinflate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-uncompress-rawinflate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-uncompress-rawinflate/container.yaml"
-updated_at: "2023-09-04 04:32:33.866572"
+updated_at: "2023-09-05 03:06:01.296682"
 latest: "2.064--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-io-uncompress-rawinflate"
 aliases:

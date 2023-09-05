@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngsderive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsderive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsderive/container.yaml"
-updated_at: "2023-09-04 04:13:42.440360"
+updated_at: "2023-09-05 02:48:01.709521"
 latest: "3.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngsderive"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-readonly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-readonly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-readonly/container.yaml"
-updated_at: "2023-09-04 04:28:33.843927"
+updated_at: "2023-09-05 03:02:13.264174"
 latest: "2.05--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-readonly"
 aliases:

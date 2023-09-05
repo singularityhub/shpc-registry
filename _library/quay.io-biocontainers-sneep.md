@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sneep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sneep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sneep/container.yaml"
-updated_at: "2023-09-04 04:35:00.626368"
-latest: "0.4--py38h8c62d01_1"
+updated_at: "2023-09-05 03:08:18.915315"
+latest: "0.7--py38h8c62d01_0"
 container_url: "https://biocontainers.pro/tools/sneep"
 aliases:
  - "HandleInOutput"
@@ -59,8 +59,9 @@ aliases:
 versions:
  - "0.4--py39h7cff6ad_0"
  - "0.4--py38h8c62d01_1"
+ - "0.7--py38h8c62d01_0"
 description: "singularity registry hpc automated addition for sneep"
-config: {"url": "https://biocontainers.pro/tools/sneep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sneep", "latest": {"0.4--py38h8c62d01_1": "sha256:a4fc3a1846b42609e38ea69b3d92731d6373d4d775c723df41a6aa440ac66164"}, "tags": {"0.4--py39h7cff6ad_0": "sha256:9015c0118ebc43589ca1368f31842e997b1f9abd79acbc2fc7516fabae0ea765", "0.4--py38h8c62d01_1": "sha256:a4fc3a1846b42609e38ea69b3d92731d6373d4d775c723df41a6aa440ac66164"}, "docker": "quay.io/biocontainers/sneep", "aliases": {"HandleInOutput": "/usr/local/bin/HandleInOutput", "HandleInOutput.cpp": "/usr/local/bin/HandleInOutput.cpp", "HandleInOutput.hpp": "/usr/local/bin/HandleInOutput.hpp", "Makefile.bak": "/usr/local/bin/Makefile.bak", "Matrix": "/usr/local/bin/Matrix", "Matrix_new.cpp": "/usr/local/bin/Matrix_new.cpp", "Matrix_new.hpp": "/usr/local/bin/Matrix_new.hpp", "callBashCommand": "/usr/local/bin/callBashCommand", "callBashCommand.cpp": "/usr/local/bin/callBashCommand.cpp", "callBashCommand.hpp": "/usr/local/bin/callBashCommand.hpp", "differentialBindingAffinity_multipleSNPs": "/usr/local/bin/differentialBindingAffinity_multipleSNPs", "differentialBindingAffinity_multipleSNPs.cpp": "/usr/local/bin/differentialBindingAffinity_multipleSNPs.cpp", "estimateScalePerMotif.sh": "/usr/local/bin/estimateScalePerMotif.sh", "findZerosEachMotif.py": "/usr/local/bin/findZerosEachMotif.py", "histogram.R": "/usr/local/bin/histogram.R", "pvalue": "/usr/local/bin/pvalue", "pvalue_copy.cpp": "/usr/local/bin/pvalue_copy.cpp", "pvalue_copy.hpp": "/usr/local/bin/pvalue_copy.hpp", "randomRsIds_2.0": "/usr/local/bin/randomRsIds_2.0", "sampleRandomRsIDs2.cpp": "/usr/local/bin/sampleRandomRsIDs2.cpp", "sampleRandomRsIDs2.hpp": "/usr/local/bin/sampleRandomRsIDs2.hpp", "seperatePFMs.py": "/usr/local/bin/seperatePFMs.py", "seperatePFMsAndCheckActivity.py": "/usr/local/bin/seperatePFMsAndCheckActivity.py", "Makefile": "/usr/local/bin/Makefile", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed"}}
+config: {"url": "https://biocontainers.pro/tools/sneep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sneep", "latest": {"0.7--py38h8c62d01_0": "sha256:9bd9a5ae26c59f2fd1031ad512029dbd8eff9def04122ce61747e1d3e5412bdd"}, "tags": {"0.4--py39h7cff6ad_0": "sha256:9015c0118ebc43589ca1368f31842e997b1f9abd79acbc2fc7516fabae0ea765", "0.4--py38h8c62d01_1": "sha256:a4fc3a1846b42609e38ea69b3d92731d6373d4d775c723df41a6aa440ac66164", "0.7--py38h8c62d01_0": "sha256:9bd9a5ae26c59f2fd1031ad512029dbd8eff9def04122ce61747e1d3e5412bdd"}, "docker": "quay.io/biocontainers/sneep", "aliases": {"HandleInOutput": "/usr/local/bin/HandleInOutput", "HandleInOutput.cpp": "/usr/local/bin/HandleInOutput.cpp", "HandleInOutput.hpp": "/usr/local/bin/HandleInOutput.hpp", "Makefile.bak": "/usr/local/bin/Makefile.bak", "Matrix": "/usr/local/bin/Matrix", "Matrix_new.cpp": "/usr/local/bin/Matrix_new.cpp", "Matrix_new.hpp": "/usr/local/bin/Matrix_new.hpp", "callBashCommand": "/usr/local/bin/callBashCommand", "callBashCommand.cpp": "/usr/local/bin/callBashCommand.cpp", "callBashCommand.hpp": "/usr/local/bin/callBashCommand.hpp", "differentialBindingAffinity_multipleSNPs": "/usr/local/bin/differentialBindingAffinity_multipleSNPs", "differentialBindingAffinity_multipleSNPs.cpp": "/usr/local/bin/differentialBindingAffinity_multipleSNPs.cpp", "estimateScalePerMotif.sh": "/usr/local/bin/estimateScalePerMotif.sh", "findZerosEachMotif.py": "/usr/local/bin/findZerosEachMotif.py", "histogram.R": "/usr/local/bin/histogram.R", "pvalue": "/usr/local/bin/pvalue", "pvalue_copy.cpp": "/usr/local/bin/pvalue_copy.cpp", "pvalue_copy.hpp": "/usr/local/bin/pvalue_copy.hpp", "randomRsIds_2.0": "/usr/local/bin/randomRsIds_2.0", "sampleRandomRsIDs2.cpp": "/usr/local/bin/sampleRandomRsIDs2.cpp", "sampleRandomRsIDs2.hpp": "/usr/local/bin/sampleRandomRsIDs2.hpp", "seperatePFMs.py": "/usr/local/bin/seperatePFMs.py", "seperatePFMsAndCheckActivity.py": "/usr/local/bin/seperatePFMsAndCheckActivity.py", "Makefile": "/usr/local/bin/Makefile", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sneep.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/sneep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sneep:0.4--py38h8c62d01_1
+$ shpc install quay.io/biocontainers/sneep:0.7--py38h8c62d01_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sneep/0.4--py38h8c62d01_1
-$ module help quay.io/biocontainers/sneep/0.4--py38h8c62d01_1
+$ module load quay.io/biocontainers/sneep/0.7--py38h8c62d01_0
+$ module help quay.io/biocontainers/sneep/0.7--py38h8c62d01_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

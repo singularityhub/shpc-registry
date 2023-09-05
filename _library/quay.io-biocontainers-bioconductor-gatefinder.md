@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gatefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gatefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gatefinder/container.yaml"
-updated_at: "2023-09-04 04:31:11.413396"
+updated_at: "2023-09-05 03:04:42.935609"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gatefinder"
 aliases:
