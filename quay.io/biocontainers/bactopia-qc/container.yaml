@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bactopia-qc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bactopia-qc
 latest:
-  1.0.1--hdfd78af_0: sha256:724cb7c17835fa0ac45ffa6b5899b8747ef8acc78fbfbfbd8b698972465528cf
+  1.0.2--hdfd78af_0: sha256:25725cd9b1cda43f804ec7e0fedb909cfd11c8ddb4a54239e3a88d7255798eba
 tags:
   1.0.0--hdfd78af_0: sha256:ddd9625487cf922e85c608594c7446a3dc57543cf5aeccef2857dc2dd456b40f
   1.0.1--hdfd78af_0: sha256:724cb7c17835fa0ac45ffa6b5899b8747ef8acc78fbfbfbd8b698972465528cf
+  1.0.2--hdfd78af_0: sha256:25725cd9b1cda43f804ec7e0fedb909cfd11c8ddb4a54239e3a88d7255798eba
 docker: quay.io/biocontainers/bactopia-qc
 aliases:
   NanoPlot: /usr/local/bin/NanoPlot

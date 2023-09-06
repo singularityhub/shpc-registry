@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/kingfisher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kingfisher
 latest:
-  0.2.1--pyh7cba7a3_1: sha256:9fd674654a25be5adba3e73a29590c39aca746b126d17f0c1de89043d30cbb21
+  0.2.2--pyh7cba7a3_0: sha256:3312717e9194edf9d22c7a785ef5b07475bf330510b07efc42f4c81b54430308
 tags:
   0.1.2--pyh7cba7a3_0: sha256:19756425a4260580b5df4eac36646d4bbc1888268d3511dc85614092d5700954
   0.2.1--pyh7cba7a3_1: sha256:9fd674654a25be5adba3e73a29590c39aca746b126d17f0c1de89043d30cbb21
+  0.2.2--pyh7cba7a3_0: sha256:3312717e9194edf9d22c7a785ef5b07475bf330510b07efc42f4c81b54430308
 docker: quay.io/biocontainers/kingfisher
 aliases:
   abi-dump.3: /usr/local/bin/abi-dump.3

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/minute
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for minute
 latest:
-  0.3.3--pyhdfd78af_0: sha256:61a32aa12b5736c9615658a5e8d94b03b6a69c892a0836c42ffc779909503459
+  0.4.0--pyhdfd78af_0: sha256:c68a9e5a4622697a84029310e743bc69a19e6039835ba99cd65d83373250ed43
 tags:
   0.2.0--pyhdfd78af_0: sha256:2ac28ddbc2ccdd30e4c2125030f3aa0f82b7a065c47714d650857faea8efd2d9
   0.3.3--pyhdfd78af_0: sha256:61a32aa12b5736c9615658a5e8d94b03b6a69c892a0836c42ffc779909503459
+  0.4.0--pyhdfd78af_0: sha256:c68a9e5a4622697a84029310e743bc69a19e6039835ba99cd65d83373250ed43
 docker: quay.io/biocontainers/minute
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
