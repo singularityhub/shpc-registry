@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/symbiontscreener"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/symbiontscreener/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/symbiontscreener/container.yaml"
-updated_at: "2023-09-05 02:50:53.773528"
+updated_at: "2023-09-06 02:52:08.763288"
 latest: "1.0.0--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/symbiontscreener"
 aliases:

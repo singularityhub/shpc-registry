@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/prscs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prscs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prscs/container.yaml"
-updated_at: "2023-09-05 02:33:13.627258"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2023-09-06 02:34:21.586336"
+latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prscs"
 aliases:
  - "PRScs.py"
@@ -39,8 +39,9 @@ aliases:
  - "h5cc"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.1.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for prscs"
-config: {"url": "https://biocontainers.pro/tools/prscs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prscs", "latest": {"1.0.0--hdfd78af_0": "sha256:26dfc8d99dba3b62773f41936f14f31bd9dc8c5e12d61075b8ca2b00d2571aea"}, "tags": {"1.0.0--hdfd78af_0": "sha256:26dfc8d99dba3b62773f41936f14f31bd9dc8c5e12d61075b8ca2b00d2571aea"}, "docker": "quay.io/biocontainers/prscs", "aliases": {"PRScs.py": "/usr/local/bin/PRScs.py", "gigrnd.py": "/usr/local/bin/gigrnd.py", "mcmc_gtb.py": "/usr/local/bin/mcmc_gtb.py", "parse_genet.py": "/usr/local/bin/parse_genet.py", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/prscs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prscs", "latest": {"1.1.0--hdfd78af_0": "sha256:06f003e48ecfde64d7d1d202a252dd05e9d072c92bf2322274a1aa00640f54ec"}, "tags": {"1.0.0--hdfd78af_0": "sha256:26dfc8d99dba3b62773f41936f14f31bd9dc8c5e12d61075b8ca2b00d2571aea", "1.1.0--hdfd78af_0": "sha256:06f003e48ecfde64d7d1d202a252dd05e9d072c92bf2322274a1aa00640f54ec"}, "docker": "quay.io/biocontainers/prscs", "aliases": {"PRScs.py": "/usr/local/bin/PRScs.py", "gigrnd.py": "/usr/local/bin/gigrnd.py", "mcmc_gtb.py": "/usr/local/bin/mcmc_gtb.py", "parse_genet.py": "/usr/local/bin/parse_genet.py", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prscs.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/prscs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prscs:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/prscs:1.1.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prscs/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/prscs/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/prscs/1.1.0--hdfd78af_0
+$ module help quay.io/biocontainers/prscs/1.1.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

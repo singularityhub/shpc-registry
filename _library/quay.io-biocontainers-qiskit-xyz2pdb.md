@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/qiskit-xyz2pdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qiskit-xyz2pdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qiskit-xyz2pdb/container.yaml"
-updated_at: "2023-09-05 02:41:08.515359"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2023-09-06 02:42:20.425269"
+latest: "0.1.2--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/qiskit-xyz2pdb"
 aliases:
  - "qiskit-xyz2pdb"
@@ -17,8 +17,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.2--pyhca03a8a_0"
 description: "singularity registry hpc automated addition for qiskit-xyz2pdb"
-config: {"url": "https://biocontainers.pro/tools/qiskit-xyz2pdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for qiskit-xyz2pdb", "latest": {"0.1.0--pyhdfd78af_0": "sha256:7c67169ac65c9e1dea2878c7c0df8bfeb39d059dea8b0296a7c98c2d7b13ee77"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:7c67169ac65c9e1dea2878c7c0df8bfeb39d059dea8b0296a7c98c2d7b13ee77"}, "docker": "quay.io/biocontainers/qiskit-xyz2pdb", "aliases": {"qiskit-xyz2pdb": "/usr/local/bin/qiskit-xyz2pdb", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/qiskit-xyz2pdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for qiskit-xyz2pdb", "latest": {"0.1.2--pyhca03a8a_0": "sha256:64bae8b85e95a4a2eadaba46dbf8fa5316ab59919af93fd5f752e95254e443cb"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:7c67169ac65c9e1dea2878c7c0df8bfeb39d059dea8b0296a7c98c2d7b13ee77", "0.1.2--pyhca03a8a_0": "sha256:64bae8b85e95a4a2eadaba46dbf8fa5316ab59919af93fd5f752e95254e443cb"}, "docker": "quay.io/biocontainers/qiskit-xyz2pdb", "aliases": {"qiskit-xyz2pdb": "/usr/local/bin/qiskit-xyz2pdb", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qiskit-xyz2pdb.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/qiskit-xyz2pdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/qiskit-xyz2pdb:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/qiskit-xyz2pdb:0.1.2--pyhca03a8a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/qiskit-xyz2pdb/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/qiskit-xyz2pdb/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/qiskit-xyz2pdb/0.1.2--pyhca03a8a_0
+$ module help quay.io/biocontainers/qiskit-xyz2pdb/0.1.2--pyhca03a8a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

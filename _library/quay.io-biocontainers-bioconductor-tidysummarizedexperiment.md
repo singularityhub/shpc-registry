@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidysummarizedexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidysummarizedexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidysummarizedexperiment/container.yaml"
-updated_at: "2023-09-05 02:54:27.018599"
+updated_at: "2023-09-06 02:55:44.930915"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidysummarizedexperiment"
 

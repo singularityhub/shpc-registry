@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rrbgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rrbgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rrbgen/container.yaml"
-updated_at: "2023-09-05 02:23:05.330216"
+updated_at: "2023-09-06 02:24:00.115914"
 latest: "0.0.6--r43h4ac6f70_10"
 container_url: "https://biocontainers.pro/tools/r-rrbgen"
 

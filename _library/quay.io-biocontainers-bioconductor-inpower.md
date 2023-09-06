@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-inpower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-inpower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-inpower/container.yaml"
-updated_at: "2023-09-05 02:26:09.315063"
+updated_at: "2023-09-06 02:27:09.301356"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-inpower"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioinfokit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioinfokit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioinfokit/container.yaml"
-updated_at: "2023-09-05 02:41:43.519079"
-latest: "2.1.1--pyh7cba7a3_0"
+updated_at: "2023-09-06 02:42:55.241499"
+latest: "2.1.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/bioinfokit"
 aliases:
  - "tabulate"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "2.1.0--pyh7cba7a3_0"
  - "2.1.1--pyh7cba7a3_0"
+ - "2.1.3--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for bioinfokit"
-config: {"url": "https://biocontainers.pro/tools/bioinfokit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioinfokit", "latest": {"2.1.1--pyh7cba7a3_0": "sha256:98c29974761b1f62aef68082c65a3c3f7e4efa3ebd91900759a2719d5864a8e5"}, "tags": {"2.1.0--pyh7cba7a3_0": "sha256:b10d89b5c42960dae7bc100b95fcce5eda37c3ff8b1f2eb60dfa141fe6003cc7", "2.1.1--pyh7cba7a3_0": "sha256:98c29974761b1f62aef68082c65a3c3f7e4efa3ebd91900759a2719d5864a8e5"}, "docker": "quay.io/biocontainers/bioinfokit", "aliases": {"tabulate": "/usr/local/bin/tabulate", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/bioinfokit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioinfokit", "latest": {"2.1.3--pyh7cba7a3_0": "sha256:129944806ffadae40daa2939f934240a6207626594117b32810f23cec2d052d0"}, "tags": {"2.1.0--pyh7cba7a3_0": "sha256:b10d89b5c42960dae7bc100b95fcce5eda37c3ff8b1f2eb60dfa141fe6003cc7", "2.1.1--pyh7cba7a3_0": "sha256:98c29974761b1f62aef68082c65a3c3f7e4efa3ebd91900759a2719d5864a8e5", "2.1.3--pyh7cba7a3_0": "sha256:129944806ffadae40daa2939f934240a6207626594117b32810f23cec2d052d0"}, "docker": "quay.io/biocontainers/bioinfokit", "aliases": {"tabulate": "/usr/local/bin/tabulate", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioinfokit.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioinfokit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioinfokit:2.1.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/bioinfokit:2.1.3--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioinfokit/2.1.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/bioinfokit/2.1.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/bioinfokit/2.1.3--pyh7cba7a3_0
+$ module help quay.io/biocontainers/bioinfokit/2.1.3--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

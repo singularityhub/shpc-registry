@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/platon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/platon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/platon/container.yaml"
-updated_at: "2023-09-05 02:33:55.085930"
-latest: "1.6--pyhdfd78af_1"
+updated_at: "2023-09-06 02:35:03.814823"
+latest: "1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/platon"
 aliases:
  - "delta2vcf"
@@ -22,8 +22,9 @@ aliases:
  - "cmstat"
 versions:
  - "1.6--pyhdfd78af_1"
+ - "1.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for platon"
-config: {"url": "https://biocontainers.pro/tools/platon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for platon", "latest": {"1.6--pyhdfd78af_1": "sha256:09223057e5494cc75a342d646b59ffc82faa987fb2ab4b4470317ada1f7c567b"}, "tags": {"1.6--pyhdfd78af_1": "sha256:09223057e5494cc75a342d646b59ffc82faa987fb2ab4b4470317ada1f7c567b"}, "docker": "quay.io/biocontainers/platon", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "platon": "/usr/local/bin/platon", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/platon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for platon", "latest": {"1.7--pyhdfd78af_0": "sha256:74d96300053a9ce3d4f10bbb935b20631e1d8547c1df632d5f05b178eb2cbbf6"}, "tags": {"1.6--pyhdfd78af_1": "sha256:09223057e5494cc75a342d646b59ffc82faa987fb2ab4b4470317ada1f7c567b", "1.7--pyhdfd78af_0": "sha256:74d96300053a9ce3d4f10bbb935b20631e1d8547c1df632d5f05b178eb2cbbf6"}, "docker": "quay.io/biocontainers/platon", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "platon": "/usr/local/bin/platon", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/platon.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/platon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/platon:1.6--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/platon:1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/platon/1.6--pyhdfd78af_1
-$ module help quay.io/biocontainers/platon/1.6--pyhdfd78af_1
+$ module load quay.io/biocontainers/platon/1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/platon/1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
