@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-tinyarray
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-tinyarray
 latest:
-  2.3.0--r43h3121a25_1: sha256:58a764ef2b5b89638cd7889936312e00755d47618593ad9bc85cd5948a77ea0e
+  2.3.1--r43h3121a25_0: sha256:4bc3256bd64eb1da1410371bd850a6fc80bee082fab4d1e654e57a82ee9c029d
 tags:
   2.2.7--r42h3121a25_1: sha256:eb3b891de67aea7f207bb7f9443cc5b62e2eb2e6680e420dea4776d5d5f0c7d4
   2.2.9--r42h3121a25_0: sha256:e4ce3bd9379ea066ee610918c058d5c0a095e8c3d68283c819a7dea3f025f056
   2.3.0--r42h3121a25_0: sha256:fc2276ef5c0f78a270140f4a71ea6bf77e07d84381dc02c447c238532254bb20
   2.3.0--r43h3121a25_1: sha256:58a764ef2b5b89638cd7889936312e00755d47618593ad9bc85cd5948a77ea0e
+  2.3.1--r43h3121a25_0: sha256:4bc3256bd64eb1da1410371bd850a6fc80bee082fab4d1e654e57a82ee9c029d
 docker: quay.io/biocontainers/r-tinyarray
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/scorpio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scorpio
 latest:
-  0.3.17--pyhdfd78af_0: sha256:dc262783561b5eda182d3c68bbdcfb6acae0a03c040d1c1971401a9cf5425fb4
+  0.3.19--pyhdfd78af_0: sha256:15ccf565a44d1774db86dc3467698e78ae833cc61f9c395e7e175f7e037edf51
 tags:
   0.3.9--pyhdfd78af_0: sha256:b8604db530f657839e7ac0d94f9cbfe3f66a59bec37852b2165d0229a95e0147
   0.3.17--pyhdfd78af_0: sha256:dc262783561b5eda182d3c68bbdcfb6acae0a03c040d1c1971401a9cf5425fb4
+  0.3.19--pyhdfd78af_0: sha256:15ccf565a44d1774db86dc3467698e78ae833cc61f9c395e7e175f7e037edf51
 docker: quay.io/biocontainers/scorpio
 aliases:
   constellations: /usr/local/bin/constellations

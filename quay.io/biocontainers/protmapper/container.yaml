@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/protmapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for protmapper
 latest:
-  0.0.21--py_0: sha256:6a6bb1a4b99341c16033df8ec711efab375d2a399de2ac2884c5e0caeb6de520
+  0.0.28--pyhdfd78af_0: sha256:3430d8288b8459d732102b805aae29635e266f2fd72089812e5e4f022808218c
 tags:
   0.0.21--py_0: sha256:6a6bb1a4b99341c16033df8ec711efab375d2a399de2ac2884c5e0caeb6de520
+  0.0.28--pyhdfd78af_0: sha256:3430d8288b8459d732102b805aae29635e266f2fd72089812e5e4f022808218c
 docker: quay.io/biocontainers/protmapper
 aliases:
   protmapper: /usr/local/bin/protmapper

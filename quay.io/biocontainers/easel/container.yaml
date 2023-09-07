@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/easel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for easel
 latest:
-  0.48--h031d066_3: sha256:bb3375c02263fe0394cf77bd9d4b54669df7eb8c64f7ac5965778cb8fbd41b00
+  0.49--h031d066_0: sha256:d69aceaa82bcfbe7abd6a7ea7aba8bf8b744c81c3ea8071e8b13c0ad90abdee4
 tags:
   0.48--hec16e2b_1: sha256:eec502257796955e682002f3b9e4b72375656240b7435c27b2e1fba147fd1688
   0.48--h031d066_3: sha256:bb3375c02263fe0394cf77bd9d4b54669df7eb8c64f7ac5965778cb8fbd41b00
+  0.49--h031d066_0: sha256:d69aceaa82bcfbe7abd6a7ea7aba8bf8b744c81c3ea8071e8b13c0ad90abdee4
 docker: quay.io/biocontainers/easel
 aliases:
   easel: /usr/local/bin/easel
