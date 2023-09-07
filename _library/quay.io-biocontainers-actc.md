@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/actc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/actc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/actc/container.yaml"
-updated_at: "2023-09-06 02:59:59.545623"
-latest: "0.2.0--h9ee0642_0"
+updated_at: "2023-09-07 03:11:08.755890"
+latest: "0.5.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/actc"
 aliases:
  - "actc"
 versions:
  - "0.2.0--h9ee0642_0"
+ - "0.5.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for actc"
-config: {"url": "https://biocontainers.pro/tools/actc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for actc", "latest": {"0.2.0--h9ee0642_0": "sha256:6dbd50ab8bd39f6b3e8a7dc18075b799e77e39035b5c963535b06864e671c261"}, "tags": {"0.2.0--h9ee0642_0": "sha256:6dbd50ab8bd39f6b3e8a7dc18075b799e77e39035b5c963535b06864e671c261"}, "docker": "quay.io/biocontainers/actc", "aliases": {"actc": "/usr/local/bin/actc"}}
+config: {"url": "https://biocontainers.pro/tools/actc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for actc", "latest": {"0.5.0--h9ee0642_0": "sha256:1753703e1fbf2ef04e1dbda4041e9277abf7ad595bb841085957acf137a71ed3"}, "tags": {"0.2.0--h9ee0642_0": "sha256:6dbd50ab8bd39f6b3e8a7dc18075b799e77e39035b5c963535b06864e671c261", "0.5.0--h9ee0642_0": "sha256:1753703e1fbf2ef04e1dbda4041e9277abf7ad595bb841085957acf137a71ed3"}, "docker": "quay.io/biocontainers/actc", "aliases": {"actc": "/usr/local/bin/actc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/actc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/actc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/actc:0.2.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/actc:0.5.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/actc/0.2.0--h9ee0642_0
-$ module help quay.io/biocontainers/actc/0.2.0--h9ee0642_0
+$ module load quay.io/biocontainers/actc/0.5.0--h9ee0642_0
+$ module help quay.io/biocontainers/actc/0.5.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

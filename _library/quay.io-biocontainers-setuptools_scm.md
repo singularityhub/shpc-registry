@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/setuptools_scm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/setuptools_scm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/setuptools_scm/container.yaml"
-updated_at: "2023-09-06 03:09:48.329816"
+updated_at: "2023-09-07 03:23:54.075332"
 latest: "1.11.1--py35_0"
 container_url: "https://biocontainers.pro/tools/setuptools_scm"
 aliases:

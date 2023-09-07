@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathwaypca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathwaypca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathwaypca/container.yaml"
-updated_at: "2023-09-06 02:54:39.569433"
+updated_at: "2023-09-07 03:04:11.941600"
 latest: "1.16.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathwaypca"
 aliases:
