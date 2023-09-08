@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gustaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gustaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gustaf/container.yaml"
-updated_at: "2023-09-07 03:10:01.668991"
+updated_at: "2023-09-08 03:07:09.757680"
 latest: "1.0.8--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/gustaf"
 aliases:

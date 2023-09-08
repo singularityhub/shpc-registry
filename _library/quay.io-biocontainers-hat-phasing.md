@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hat-phasing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hat-phasing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hat-phasing/container.yaml"
-updated_at: "2023-09-07 02:40:47.681562"
+updated_at: "2023-09-08 02:39:50.634661"
 latest: "0.1.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/hat-phasing"
 aliases:

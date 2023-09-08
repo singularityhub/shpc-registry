@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scorpio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scorpio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scorpio/container.yaml"
-updated_at: "2023-09-07 03:23:18.416105"
-latest: "0.3.17--pyhdfd78af_0"
+updated_at: "2023-09-08 03:19:13.452108"
+latest: "0.3.19--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scorpio"
 aliases:
  - "constellations"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.3.9--pyhdfd78af_0"
  - "0.3.17--pyhdfd78af_0"
+ - "0.3.19--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scorpio"
-config: {"url": "https://biocontainers.pro/tools/scorpio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scorpio", "latest": {"0.3.17--pyhdfd78af_0": "sha256:dc262783561b5eda182d3c68bbdcfb6acae0a03c040d1c1971401a9cf5425fb4"}, "tags": {"0.3.9--pyhdfd78af_0": "sha256:b8604db530f657839e7ac0d94f9cbfe3f66a59bec37852b2165d0229a95e0147", "0.3.17--pyhdfd78af_0": "sha256:dc262783561b5eda182d3c68bbdcfb6acae0a03c040d1c1971401a9cf5425fb4"}, "docker": "quay.io/biocontainers/scorpio", "aliases": {"constellations": "/usr/local/bin/constellations", "extract_definitions.py": "/usr/local/bin/extract_definitions.py", "scorpio": "/usr/local/bin/scorpio", "type_constellations.py": "/usr/local/bin/type_constellations.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/scorpio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scorpio", "latest": {"0.3.19--pyhdfd78af_0": "sha256:15ccf565a44d1774db86dc3467698e78ae833cc61f9c395e7e175f7e037edf51"}, "tags": {"0.3.9--pyhdfd78af_0": "sha256:b8604db530f657839e7ac0d94f9cbfe3f66a59bec37852b2165d0229a95e0147", "0.3.17--pyhdfd78af_0": "sha256:dc262783561b5eda182d3c68bbdcfb6acae0a03c040d1c1971401a9cf5425fb4", "0.3.19--pyhdfd78af_0": "sha256:15ccf565a44d1774db86dc3467698e78ae833cc61f9c395e7e175f7e037edf51"}, "docker": "quay.io/biocontainers/scorpio", "aliases": {"constellations": "/usr/local/bin/constellations", "extract_definitions.py": "/usr/local/bin/extract_definitions.py", "scorpio": "/usr/local/bin/scorpio", "type_constellations.py": "/usr/local/bin/type_constellations.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scorpio.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/scorpio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scorpio:0.3.17--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scorpio:0.3.19--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scorpio/0.3.17--pyhdfd78af_0
-$ module help quay.io/biocontainers/scorpio/0.3.17--pyhdfd78af_0
+$ module load quay.io/biocontainers/scorpio/0.3.19--pyhdfd78af_0
+$ module help quay.io/biocontainers/scorpio/0.3.19--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

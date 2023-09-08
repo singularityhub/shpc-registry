@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnmtools/container.yaml"
-updated_at: "2023-09-07 02:25:34.665041"
-latest: "1.2.1--h4ac6f70_1"
+updated_at: "2023-09-08 02:25:37.734734"
+latest: "1.3.0--hbb19d65_1"
 container_url: "https://biocontainers.pro/tools/dnmtools"
 aliases:
  - "dnmtools"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.2.1--h9f5acd7_0"
  - "1.2.1--h4ac6f70_1"
+ - "1.3.0--hbb19d65_1"
 description: "singularity registry hpc automated addition for dnmtools"
-config: {"url": "https://biocontainers.pro/tools/dnmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnmtools", "latest": {"1.2.1--h4ac6f70_1": "sha256:331fce1505d9d0c4717926a2dd9bc526ef9a9a2446c07606570358adf40a8a79"}, "tags": {"1.2.1--h9f5acd7_0": "sha256:ef65bb16ddfdb036345e434c31fea50167717a170b91a73220ce48edab3cc499", "1.2.1--h4ac6f70_1": "sha256:331fce1505d9d0c4717926a2dd9bc526ef9a9a2446c07606570358adf40a8a79"}, "docker": "quay.io/biocontainers/dnmtools", "aliases": {"dnmtools": "/usr/local/bin/dnmtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/dnmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnmtools", "latest": {"1.3.0--hbb19d65_1": "sha256:c139fc37e15d4aa10673a9595a5e6a2d38ec771162ed968c6e113aebf59f5cfa"}, "tags": {"1.2.1--h9f5acd7_0": "sha256:ef65bb16ddfdb036345e434c31fea50167717a170b91a73220ce48edab3cc499", "1.2.1--h4ac6f70_1": "sha256:331fce1505d9d0c4717926a2dd9bc526ef9a9a2446c07606570358adf40a8a79", "1.3.0--hbb19d65_1": "sha256:c139fc37e15d4aa10673a9595a5e6a2d38ec771162ed968c6e113aebf59f5cfa"}, "docker": "quay.io/biocontainers/dnmtools", "aliases": {"dnmtools": "/usr/local/bin/dnmtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnmtools.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/dnmtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnmtools:1.2.1--h4ac6f70_1
+$ shpc install quay.io/biocontainers/dnmtools:1.3.0--hbb19d65_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnmtools/1.2.1--h4ac6f70_1
-$ module help quay.io/biocontainers/dnmtools/1.2.1--h4ac6f70_1
+$ module load quay.io/biocontainers/dnmtools/1.3.0--hbb19d65_1
+$ module help quay.io/biocontainers/dnmtools/1.3.0--hbb19d65_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

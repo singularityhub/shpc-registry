@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/easel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easel/container.yaml"
-updated_at: "2023-09-07 02:54:19.151075"
-latest: "0.48--h031d066_3"
+updated_at: "2023-09-08 02:52:35.501590"
+latest: "0.49--h031d066_0"
 container_url: "https://biocontainers.pro/tools/easel"
 aliases:
  - "easel"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.48--hec16e2b_1"
  - "0.48--h031d066_3"
+ - "0.49--h031d066_0"
 description: "shpc-registry automated BioContainers addition for easel"
-config: {"url": "https://biocontainers.pro/tools/easel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for easel", "latest": {"0.48--h031d066_3": "sha256:bb3375c02263fe0394cf77bd9d4b54669df7eb8c64f7ac5965778cb8fbd41b00"}, "tags": {"0.48--hec16e2b_1": "sha256:eec502257796955e682002f3b9e4b72375656240b7435c27b2e1fba147fd1688", "0.48--h031d066_3": "sha256:bb3375c02263fe0394cf77bd9d4b54669df7eb8c64f7ac5965778cb8fbd41b00"}, "docker": "quay.io/biocontainers/easel", "aliases": {"easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct"}}
+config: {"url": "https://biocontainers.pro/tools/easel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for easel", "latest": {"0.49--h031d066_0": "sha256:d69aceaa82bcfbe7abd6a7ea7aba8bf8b744c81c3ea8071e8b13c0ad90abdee4"}, "tags": {"0.48--hec16e2b_1": "sha256:eec502257796955e682002f3b9e4b72375656240b7435c27b2e1fba147fd1688", "0.48--h031d066_3": "sha256:bb3375c02263fe0394cf77bd9d4b54669df7eb8c64f7ac5965778cb8fbd41b00", "0.49--h031d066_0": "sha256:d69aceaa82bcfbe7abd6a7ea7aba8bf8b744c81c3ea8071e8b13c0ad90abdee4"}, "docker": "quay.io/biocontainers/easel", "aliases": {"easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/easel.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/easel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/easel:0.48--h031d066_3
+$ shpc install quay.io/biocontainers/easel:0.49--h031d066_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/easel/0.48--h031d066_3
-$ module help quay.io/biocontainers/easel/0.48--h031d066_3
+$ module load quay.io/biocontainers/easel/0.49--h031d066_0
+$ module help quay.io/biocontainers/easel/0.49--h031d066_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
