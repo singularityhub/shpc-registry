@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metamobilepicker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metamobilepicker
 latest:
-  0.7.2--pyhdfd78af_0: sha256:cbb11c2e4f698a5578c83acc81e47d1bac0dfeaf3977ab7f2a244babf6b9b404
+  0.7.3--pyhdfd78af_0: sha256:0c117c0786233e5ef6245e52a8437b7a68a16a9ed128ef002b6d5daee9e88f84
 tags:
   0.7.2--pyhdfd78af_0: sha256:cbb11c2e4f698a5578c83acc81e47d1bac0dfeaf3977ab7f2a244babf6b9b404
+  0.7.3--pyhdfd78af_0: sha256:0c117c0786233e5ef6245e52a8437b7a68a16a9ed128ef002b6d5daee9e88f84
 docker: quay.io/biocontainers/metamobilepicker
 aliases:
   bsdcat: /usr/local/bin/bsdcat

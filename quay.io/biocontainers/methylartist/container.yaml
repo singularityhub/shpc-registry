@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/methylartist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for methylartist
 latest:
-  1.2.3--pyhdfd78af_0: sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f
+  1.2.7--pyhdfd78af_0: sha256:9b7a9ad33ae99aed5fb596c0501f77af0bff8c188849eed30194539e1718f7b1
 tags:
   1.2.3--pyhdfd78af_0: sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f
+  1.2.7--pyhdfd78af_0: sha256:9b7a9ad33ae99aed5fb596c0501f77af0bff8c188849eed30194539e1718f7b1
 docker: quay.io/biocontainers/methylartist
 aliases:
   check_compression: /usr/local/bin/check_compression
