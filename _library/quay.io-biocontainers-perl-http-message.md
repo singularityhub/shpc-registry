@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-message"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-message/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-message/container.yaml"
-updated_at: "2023-09-08 02:26:58.494032"
+updated_at: "2023-09-09 02:23:10.549353"
 latest: "6.36--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-message"
 aliases:

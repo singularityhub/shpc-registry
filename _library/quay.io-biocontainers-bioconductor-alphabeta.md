@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alphabeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alphabeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alphabeta/container.yaml"
-updated_at: "2023-09-08 03:08:17.530703"
+updated_at: "2023-09-09 02:56:42.139755"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alphabeta"
 

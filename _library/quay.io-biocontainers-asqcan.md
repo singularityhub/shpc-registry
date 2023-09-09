@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/asqcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/asqcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/asqcan/container.yaml"
-updated_at: "2023-09-08 03:07:59.141483"
-latest: "0.2--py_2"
+updated_at: "2023-09-09 02:56:26.958482"
+latest: "0.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/asqcan"
 aliases:
  - "asqcan"
@@ -32,8 +32,9 @@ aliases:
  - "trainGlimmerHMM"
 versions:
  - "0.2--py_2"
+ - "0.4--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for asqcan"
-config: {"url": "https://biocontainers.pro/tools/asqcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for asqcan", "latest": {"0.2--py_2": "sha256:d610b3b88acf999b7d60b8ab802c422e7bdd3566bf79ab1810009c3a90905086"}, "tags": {"0.2--py_2": "sha256:d610b3b88acf999b7d60b8ab802c422e7bdd3566bf79ab1810009c3a90905086"}, "docker": "quay.io/biocontainers/asqcan", "aliases": {"asqcan": "/usr/local/bin/asqcan", "blobtools": "/usr/local/bin/blobtools", "blobtools-build_nodesdb": "/usr/local/bin/blobtools-build_nodesdb", "icarus.py": "/usr/local/bin/icarus.py", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM"}}
+config: {"url": "https://biocontainers.pro/tools/asqcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for asqcan", "latest": {"0.4--pyh7cba7a3_0": "sha256:fb23f81ef79c1278b6b8af402db28d2915ba2cb721abe13fdf3f214e649d17bc"}, "tags": {"0.2--py_2": "sha256:d610b3b88acf999b7d60b8ab802c422e7bdd3566bf79ab1810009c3a90905086", "0.4--pyh7cba7a3_0": "sha256:fb23f81ef79c1278b6b8af402db28d2915ba2cb721abe13fdf3f214e649d17bc"}, "docker": "quay.io/biocontainers/asqcan", "aliases": {"asqcan": "/usr/local/bin/asqcan", "blobtools": "/usr/local/bin/blobtools", "blobtools-build_nodesdb": "/usr/local/bin/blobtools-build_nodesdb", "icarus.py": "/usr/local/bin/icarus.py", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/asqcan.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/asqcan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/asqcan:0.2--py_2
+$ shpc install quay.io/biocontainers/asqcan:0.4--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/asqcan/0.2--py_2
-$ module help quay.io/biocontainers/asqcan/0.2--py_2
+$ module load quay.io/biocontainers/asqcan/0.4--pyh7cba7a3_0
+$ module help quay.io/biocontainers/asqcan/0.4--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

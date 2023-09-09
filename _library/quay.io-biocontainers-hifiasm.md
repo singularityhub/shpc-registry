@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hifiasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifiasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifiasm/container.yaml"
-updated_at: "2023-09-08 02:35:41.995192"
+updated_at: "2023-09-09 02:30:12.986783"
 latest: "0.19.6--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/hifiasm"
 aliases:

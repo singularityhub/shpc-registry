@@ -4,7 +4,7 @@ name:  "couchdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/couchdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/couchdb/container.yaml"
-updated_at: "2023-09-08 03:24:02.626845"
+updated_at: "2023-09-09 03:09:36.873941"
 latest: "3.3"
 container_url: "https://hub.docker.com/_/couchdb"
 aliases:

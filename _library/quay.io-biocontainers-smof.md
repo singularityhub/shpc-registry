@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smof"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smof/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smof/container.yaml"
-updated_at: "2023-09-08 03:20:33.350565"
+updated_at: "2023-09-09 03:06:44.585909"
 latest: "2.22.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/smof"
 aliases:
