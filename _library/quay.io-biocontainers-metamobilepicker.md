@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metamobilepicker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamobilepicker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamobilepicker/container.yaml"
-updated_at: "2023-09-09 02:32:04.648973"
-latest: "0.7.2--pyhdfd78af_0"
+updated_at: "2023-09-10 02:36:43.963607"
+latest: "0.7.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metamobilepicker"
 aliases:
  - "bsdcat"
@@ -47,8 +47,9 @@ aliases:
  - "pyrsa-keygen"
 versions:
  - "0.7.2--pyhdfd78af_0"
+ - "0.7.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metamobilepicker"
-config: {"url": "https://biocontainers.pro/tools/metamobilepicker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metamobilepicker", "latest": {"0.7.2--pyhdfd78af_0": "sha256:cbb11c2e4f698a5578c83acc81e47d1bac0dfeaf3977ab7f2a244babf6b9b404"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:cbb11c2e4f698a5578c83acc81e47d1bac0dfeaf3977ab7f2a244babf6b9b404"}, "docker": "quay.io/biocontainers/metamobilepicker", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "metamobilepicker": "/usr/local/bin/metamobilepicker", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
+config: {"url": "https://biocontainers.pro/tools/metamobilepicker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metamobilepicker", "latest": {"0.7.3--pyhdfd78af_0": "sha256:0c117c0786233e5ef6245e52a8437b7a68a16a9ed128ef002b6d5daee9e88f84"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:cbb11c2e4f698a5578c83acc81e47d1bac0dfeaf3977ab7f2a244babf6b9b404", "0.7.3--pyhdfd78af_0": "sha256:0c117c0786233e5ef6245e52a8437b7a68a16a9ed128ef002b6d5daee9e88f84"}, "docker": "quay.io/biocontainers/metamobilepicker", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "metamobilepicker": "/usr/local/bin/metamobilepicker", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metamobilepicker.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/metamobilepicker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metamobilepicker:0.7.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metamobilepicker:0.7.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metamobilepicker/0.7.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/metamobilepicker/0.7.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/metamobilepicker/0.7.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/metamobilepicker/0.7.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

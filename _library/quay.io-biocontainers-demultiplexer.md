@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/demultiplexer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demultiplexer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demultiplexer/container.yaml"
-updated_at: "2023-09-09 02:23:59.416535"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2023-09-10 02:28:29.255358"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/demultiplexer"
 aliases:
  - "demultiplexer"
@@ -24,8 +24,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for demultiplexer"
-config: {"url": "https://biocontainers.pro/tools/demultiplexer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for demultiplexer", "latest": {"1.1.0--pyhdfd78af_0": "sha256:7c351b5bcd0d34db4ddd07b322d816d7a8f1cd898d690da7f0c37cb14e036797"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:7c351b5bcd0d34db4ddd07b322d816d7a8f1cd898d690da7f0c37cb14e036797"}, "docker": "quay.io/biocontainers/demultiplexer", "aliases": {"demultiplexer": "/usr/local/bin/demultiplexer", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/demultiplexer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for demultiplexer", "latest": {"1.1.2--pyhdfd78af_0": "sha256:8d2bbcf6f9aa4a52b732a38d62e70d220c117938fb8697f4cb19f26c26b3affe"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:7c351b5bcd0d34db4ddd07b322d816d7a8f1cd898d690da7f0c37cb14e036797", "1.1.2--pyhdfd78af_0": "sha256:8d2bbcf6f9aa4a52b732a38d62e70d220c117938fb8697f4cb19f26c26b3affe"}, "docker": "quay.io/biocontainers/demultiplexer", "aliases": {"demultiplexer": "/usr/local/bin/demultiplexer", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/demultiplexer.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/demultiplexer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/demultiplexer:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/demultiplexer:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/demultiplexer/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/demultiplexer/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/demultiplexer/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/demultiplexer/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

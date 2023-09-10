@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scmap-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scmap-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scmap-cli/container.yaml"
-updated_at: "2023-09-09 02:34:07.453166"
+updated_at: "2023-09-10 02:38:49.046433"
 latest: "0.0.11--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scmap-cli"
 aliases:

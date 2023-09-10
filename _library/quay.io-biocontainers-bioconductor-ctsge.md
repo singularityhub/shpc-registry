@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ctsge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ctsge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ctsge/container.yaml"
-updated_at: "2023-09-09 02:33:49.686852"
+updated_at: "2023-09-10 02:38:30.986835"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ctsge"
 aliases:

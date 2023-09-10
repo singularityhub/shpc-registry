@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/methylartist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylartist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylartist/container.yaml"
-updated_at: "2023-09-09 02:56:53.826526"
-latest: "1.2.3--pyhdfd78af_0"
+updated_at: "2023-09-10 03:02:06.205773"
+latest: "1.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methylartist"
 aliases:
  - "check_compression"
@@ -27,8 +27,9 @@ aliases:
  - "bed_build_windows.py"
 versions:
  - "1.2.3--pyhdfd78af_0"
+ - "1.2.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for methylartist"
-config: {"url": "https://biocontainers.pro/tools/methylartist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylartist", "latest": {"1.2.3--pyhdfd78af_0": "sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f"}, "docker": "quay.io/biocontainers/methylartist", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "methylartist": "/usr/local/bin/methylartist", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "tar": "/usr/local/bin/tar", "doesitcache": "/usr/local/bin/doesitcache", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py"}}
+config: {"url": "https://biocontainers.pro/tools/methylartist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylartist", "latest": {"1.2.7--pyhdfd78af_0": "sha256:9b7a9ad33ae99aed5fb596c0501f77af0bff8c188849eed30194539e1718f7b1"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f", "1.2.7--pyhdfd78af_0": "sha256:9b7a9ad33ae99aed5fb596c0501f77af0bff8c188849eed30194539e1718f7b1"}, "docker": "quay.io/biocontainers/methylartist", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "methylartist": "/usr/local/bin/methylartist", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "tar": "/usr/local/bin/tar", "doesitcache": "/usr/local/bin/doesitcache", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methylartist.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/methylartist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methylartist:1.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/methylartist:1.2.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methylartist/1.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/methylartist/1.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/methylartist/1.2.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/methylartist/1.2.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

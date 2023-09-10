@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsvsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsvsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsvsim/container.yaml"
-updated_at: "2023-09-09 02:28:43.477539"
+updated_at: "2023-09-10 02:33:19.044945"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsvsim"
 

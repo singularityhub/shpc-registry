@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanosimh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanosimh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanosimh/container.yaml"
-updated_at: "2023-09-09 02:54:04.910853"
+updated_at: "2023-09-10 02:59:10.680740"
 latest: "v1.0.1.8--py35r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/nanosimh"
 aliases:

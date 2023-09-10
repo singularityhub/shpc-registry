@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selscan/container.yaml"
-updated_at: "2023-09-09 03:05:44.085811"
+updated_at: "2023-09-10 03:11:06.491672"
 latest: "1.2.0a--h4dfc31f_6"
 container_url: "https://biocontainers.pro/tools/selscan"
 aliases:
