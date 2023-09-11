@@ -4,7 +4,7 @@ name:  "r-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/r-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/r-base/container.yaml"
-updated_at: "2023-09-10 02:23:01.542992"
+updated_at: "2023-09-11 02:22:02.350529"
 latest: "4.3.1"
 container_url: "https://hub.docker.com/_/r-base"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "4.3.0"
  - "4.3.1"
 description: "R is a system for statistical computation and graphics."
-config: {"docker": "r-base", "url": "https://hub.docker.com/_/r-base", "maintainer": "@vsoch", "description": "R is a system for statistical computation and graphics.", "latest": {"4.3.1": "sha256:1469e6923855c37056fc0cc854b037a9ff2cf24ccfbaf2e81929e199bda7956c"}, "tags": {"4.1.0": "sha256:4f8079455d39e66e3b2ebfe494bfd412c146dcb28931477466b1dbe5a1f01de3", "4.1.1": "sha256:e1dfb1ad27c72d414d7f77088155e2b9c7bd585dd0d5497418f522975c684e98", "4.1.2": "sha256:4cb382e24f5cd07d5c15d8d6587aac7e24d5179e89d5b5ab2039f6add40da616", "latest": "sha256:1469e6923855c37056fc0cc854b037a9ff2cf24ccfbaf2e81929e199bda7956c", "4.1.3": "sha256:ae07a4e0092793330c23857922792250b898c4aad11f7dc3390c43f24576c58a", "4.2.0": "sha256:f38f8677585560f1fbdf78809c73c48b9acac0cafa5e780e07bad0ed4304379f", "4.2.1": "sha256:3cd83a271baceb82975c83fc27756b8ae70ff3e691234638dd6ab40b8766d349", "4.2.2": "sha256:ad49725f24f2abf3f3cb8010abfd00b74d424bc47c4e3841f10e805143e5a6fa", "4.2.3": "sha256:d48acc908bb73ab844c049ac3b83dd6ced3647eb16dadcc3dad20abab4e5715a", "4.3.0": "sha256:5c2fc4ae3c6cb185d5e9e352f5e6add83f800d0e12b9f1074d038152ddfa0998", "4.3.1": "sha256:1469e6923855c37056fc0cc854b037a9ff2cf24ccfbaf2e81929e199bda7956c"}, "aliases": {"R": "/usr/bin/R", "Rscript": "/usr/bin/Rscript"}}
+config: {"docker": "r-base", "url": "https://hub.docker.com/_/r-base", "maintainer": "@vsoch", "description": "R is a system for statistical computation and graphics.", "latest": {"4.3.1": "sha256:7eec64c4abb9b2b98c38bdec584ab4fdc7d3c1f265db9420e9fc47b58d0994b1"}, "tags": {"4.1.0": "sha256:4f8079455d39e66e3b2ebfe494bfd412c146dcb28931477466b1dbe5a1f01de3", "4.1.1": "sha256:e1dfb1ad27c72d414d7f77088155e2b9c7bd585dd0d5497418f522975c684e98", "4.1.2": "sha256:4cb382e24f5cd07d5c15d8d6587aac7e24d5179e89d5b5ab2039f6add40da616", "latest": "sha256:7eec64c4abb9b2b98c38bdec584ab4fdc7d3c1f265db9420e9fc47b58d0994b1", "4.1.3": "sha256:ae07a4e0092793330c23857922792250b898c4aad11f7dc3390c43f24576c58a", "4.2.0": "sha256:f38f8677585560f1fbdf78809c73c48b9acac0cafa5e780e07bad0ed4304379f", "4.2.1": "sha256:3cd83a271baceb82975c83fc27756b8ae70ff3e691234638dd6ab40b8766d349", "4.2.2": "sha256:ad49725f24f2abf3f3cb8010abfd00b74d424bc47c4e3841f10e805143e5a6fa", "4.2.3": "sha256:d48acc908bb73ab844c049ac3b83dd6ced3647eb16dadcc3dad20abab4e5715a", "4.3.0": "sha256:5c2fc4ae3c6cb185d5e9e352f5e6add83f800d0e12b9f1074d038152ddfa0998", "4.3.1": "sha256:7eec64c4abb9b2b98c38bdec584ab4fdc7d3c1f265db9420e9fc47b58d0994b1"}, "aliases": {"R": "/usr/bin/R", "Rscript": "/usr/bin/Rscript"}}
 ---
 
 This module is a singularity container wrapper for r-base.
