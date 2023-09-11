@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/rich-msa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rich-msa
+latest:
+  0.1.0--pyhdfd78af_0: sha256:da980b40f671b0986c6756c5f9db14fbb6a546a943410784ef6daf51c2e79054
+tags:
+  0.1.0--pyhdfd78af_0: sha256:da980b40f671b0986c6756c5f9db14fbb6a546a943410784ef6daf51c2e79054
+docker: quay.io/biocontainers/rich-msa
+aliases:
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
