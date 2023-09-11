@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/expam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expam/container.yaml"
-updated_at: "2023-09-11 03:10:58.924359"
+updated_at: "2023-09-11 03:36:25.766506"
 latest: "1.2.2.3--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/expam"
 aliases:

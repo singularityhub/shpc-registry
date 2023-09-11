@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pubmlst_client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pubmlst_client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pubmlst_client/container.yaml"
-updated_at: "2023-09-11 02:28:11.857944"
+updated_at: "2023-09-11 02:54:26.379787"
 latest: "0.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/pubmlst_client"
 aliases:
