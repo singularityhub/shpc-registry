@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pegasuspy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pegasuspy
 latest:
-  1.7.1--py38he5da3d1_2: sha256:f34c87ca6c00a61d0fd9a0b3f8722cae0b264d93fca7ef17eb1ca38db570d7fa
+  1.8.1--py38he5da3d1_0: sha256:3176a1b77a4e444337e15782384aa497652e3cc204561d309cbca1172ed4f972
 tags:
   1.7.1--py39hbf8eff0_0: sha256:97d2aee83385e763406e04bfe198d6a5dd63d454e115174c16397775c9c92ce0
   1.7.1--py39hbf8eff0_1: sha256:d66336866e17e85e689b76e6f0e637cb961857909493d220d4f449659d115157
   1.7.1--py38he5da3d1_2: sha256:f34c87ca6c00a61d0fd9a0b3f8722cae0b264d93fca7ef17eb1ca38db570d7fa
+  1.8.1--py38he5da3d1_0: sha256:3176a1b77a4e444337e15782384aa497652e3cc204561d309cbca1172ed4f972
 docker: quay.io/biocontainers/pegasuspy
 aliases:
   csv-import: /usr/local/bin/csv-import

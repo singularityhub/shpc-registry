@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ngsderive
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngsderive
 latest:
-  3.2.1--pyhdfd78af_0: sha256:5af2dbea809ee7ebf24614109374d5e8dbd9573283b72e5caeb72078eac8f3a8
+  3.3.2--pyhdfd78af_0: sha256:5495337962a44a0ea9743b169f9afab707b423f32c4b7ba264a52a8683c546ef
 tags:
   2.2.0--pyhdfd78af_0: sha256:4ba72e81999e11fce4dfb90453d33c82c2d07f0880ef8c2df14f54887f3bf8af
   2.2.0--pyhdfd78af_2: sha256:e7d67221fdb0533864b15b01334bd6f021be06c8415629794472c0e4a14264a6
@@ -11,6 +11,7 @@ tags:
   2.4.0--pyhdfd78af_0: sha256:53e2e89e0ba511972d3175ff33785c0fc5dcdb587f748954254fd45bda8d8a43
   3.1.1--pyhdfd78af_0: sha256:caeea84904dbcf949e71213c35bbc2e87cb324d2b47656fcf0be310cdec3e1b1
   3.2.1--pyhdfd78af_0: sha256:5af2dbea809ee7ebf24614109374d5e8dbd9573283b72e5caeb72078eac8f3a8
+  3.3.2--pyhdfd78af_0: sha256:5495337962a44a0ea9743b169f9afab707b423f32c4b7ba264a52a8683c546ef
 docker: quay.io/biocontainers/ngsderive
 aliases:
   ngsderive: /usr/local/bin/ngsderive
