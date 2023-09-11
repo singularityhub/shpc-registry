@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cmsearch_tblout_deoverlap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cmsearch_tblout_deoverlap
+latest:
+  0.09--pl5321hdfd78af_0: sha256:671d9b552975e257e06bb5ffe94facd50526691133e5e261f070507c33983de3
+tags:
+  0.09--pl5321hdfd78af_0: sha256:671d9b552975e257e06bb5ffe94facd50526691133e5e261f070507c33983de3
+docker: quay.io/biocontainers/cmsearch_tblout_deoverlap
+aliases:
+  cmsearch-deoverlap.pl: /usr/local/bin/cmsearch-deoverlap.pl
