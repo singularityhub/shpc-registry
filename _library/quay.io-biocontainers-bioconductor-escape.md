@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-escape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-escape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-escape/container.yaml"
-updated_at: "2023-09-11 02:51:09.717203"
+updated_at: "2023-09-12 02:23:03.139260"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-escape"
 

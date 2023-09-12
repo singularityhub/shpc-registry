@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multivelo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multivelo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multivelo/container.yaml"
-updated_at: "2023-09-11 03:01:45.305389"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2023-09-12 02:33:59.547836"
+latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multivelo"
 aliases:
  - "loompy"
@@ -36,8 +36,9 @@ aliases:
  - "jupyter"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for multivelo"
-config: {"url": "https://biocontainers.pro/tools/multivelo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multivelo", "latest": {"0.1.2--pyhdfd78af_0": "sha256:d252f04b13eb5856d02a475379d97b60713e0002892e5fa13ce81af1f23802af"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:d252f04b13eb5856d02a475379d97b60713e0002892e5fa13ce81af1f23802af"}, "docker": "quay.io/biocontainers/multivelo", "aliases": {"loompy": "/usr/local/bin/loompy", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "scanpy": "/usr/local/bin/scanpy", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "pybabel": "/usr/local/bin/pybabel", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "jupyter-trust": "/usr/local/bin/jupyter-trust", "natsort": "/usr/local/bin/natsort", "jupyter": "/usr/local/bin/jupyter"}}
+config: {"url": "https://biocontainers.pro/tools/multivelo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multivelo", "latest": {"0.1.3--pyhdfd78af_0": "sha256:38dc221cd4415e0ed4ca9720121bc18135fd0427493bf0e31e775f99e40f994f"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:d252f04b13eb5856d02a475379d97b60713e0002892e5fa13ce81af1f23802af", "0.1.3--pyhdfd78af_0": "sha256:38dc221cd4415e0ed4ca9720121bc18135fd0427493bf0e31e775f99e40f994f"}, "docker": "quay.io/biocontainers/multivelo", "aliases": {"loompy": "/usr/local/bin/loompy", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "scanpy": "/usr/local/bin/scanpy", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "pybabel": "/usr/local/bin/pybabel", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "jupyter-trust": "/usr/local/bin/jupyter-trust", "natsort": "/usr/local/bin/natsort", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multivelo.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/multivelo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multivelo:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/multivelo:0.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multivelo/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/multivelo/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/multivelo/0.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/multivelo/0.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

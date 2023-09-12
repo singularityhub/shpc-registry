@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biomart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biomart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biomart/container.yaml"
-updated_at: "2023-09-11 03:05:30.976934"
+updated_at: "2023-09-12 02:37:55.477133"
 latest: "2.56.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biomart"
 
