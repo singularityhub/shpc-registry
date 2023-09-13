@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genomedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomedata/container.yaml"
-updated_at: "2023-09-12 02:28:24.672996"
-latest: "1.7.0--py39h1839e8e_0"
+updated_at: "2023-09-13 02:29:14.088798"
+latest: "1.7.1--py310hc74b192_0"
 container_url: "https://biocontainers.pro/tools/genomedata"
 aliases:
  - "bigWigToBedGraph"
@@ -44,8 +44,9 @@ versions:
  - "1.6.0--py38h2236569_0"
  - "1.6.0--py38hb4fecc3_1"
  - "1.7.0--py39h1839e8e_0"
+ - "1.7.1--py310hc74b192_0"
 description: "shpc-registry automated BioContainers addition for genomedata"
-config: {"url": "https://biocontainers.pro/tools/genomedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomedata", "latest": {"1.7.0--py39h1839e8e_0": "sha256:f02f77730ab68f3ed43ff0e68f833d72d56123e8bcd168f798855851f535c2c2"}, "tags": {"1.5.0--py310h35e684e_3": "sha256:f0e3df8a4b6a9f5808571434d2bcd2c96a002d8e2055f172458754705d103480", "1.6.0--py38h2236569_0": "sha256:e65b3fd8bcf0fc4f1769a09645708dda1050bde997b2c075a69e0c7fee389ad1", "1.6.0--py38hb4fecc3_1": "sha256:bf62ff3be820c3c696701facb91162450ba1df8b7ea114764fa0ee1857590546", "1.7.0--py39h1839e8e_0": "sha256:f02f77730ab68f3ed43ff0e68f833d72d56123e8bcd168f798855851f535c2c2"}, "docker": "quay.io/biocontainers/genomedata", "aliases": {"bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "filter": "/usr/local/bin/filter", "genomedata-close-data": "/usr/local/bin/genomedata-close-data", "genomedata-erase-data": "/usr/local/bin/genomedata-erase-data", "genomedata-hardmask": "/usr/local/bin/genomedata-hardmask", "genomedata-histogram": "/usr/local/bin/genomedata-histogram", "genomedata-info": "/usr/local/bin/genomedata-info", "genomedata-load": "/usr/local/bin/genomedata-load", "genomedata-load-assembly": "/usr/local/bin/genomedata-load-assembly", "genomedata-load-data": "/usr/local/bin/genomedata-load-data", "genomedata-load-seq": "/usr/local/bin/genomedata-load-seq", "genomedata-open-data": "/usr/local/bin/genomedata-open-data", "genomedata-query": "/usr/local/bin/genomedata-query", "genomedata-report": "/usr/local/bin/genomedata-report", "hidehead": "/usr/local/bin/hidehead", "innerjoin": "/usr/local/bin/innerjoin", "intersect": "/usr/local/bin/intersect", "mean": "/usr/local/bin/mean", "nohead": "/usr/local/bin/nohead", "run_genomedata_tests.py": "/usr/local/bin/run_genomedata_tests.py", "test_genomedata.py": "/usr/local/bin/test_genomedata.py", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "shiftBed": "/usr/local/bin/shiftBed"}}
+config: {"url": "https://biocontainers.pro/tools/genomedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomedata", "latest": {"1.7.1--py310hc74b192_0": "sha256:85be7f2c377dd2db185ccd4000bf74611b2d8a88aa39252a681bc8e1ad8f3325"}, "tags": {"1.5.0--py310h35e684e_3": "sha256:f0e3df8a4b6a9f5808571434d2bcd2c96a002d8e2055f172458754705d103480", "1.6.0--py38h2236569_0": "sha256:e65b3fd8bcf0fc4f1769a09645708dda1050bde997b2c075a69e0c7fee389ad1", "1.6.0--py38hb4fecc3_1": "sha256:bf62ff3be820c3c696701facb91162450ba1df8b7ea114764fa0ee1857590546", "1.7.0--py39h1839e8e_0": "sha256:f02f77730ab68f3ed43ff0e68f833d72d56123e8bcd168f798855851f535c2c2", "1.7.1--py310hc74b192_0": "sha256:85be7f2c377dd2db185ccd4000bf74611b2d8a88aa39252a681bc8e1ad8f3325"}, "docker": "quay.io/biocontainers/genomedata", "aliases": {"bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "filter": "/usr/local/bin/filter", "genomedata-close-data": "/usr/local/bin/genomedata-close-data", "genomedata-erase-data": "/usr/local/bin/genomedata-erase-data", "genomedata-hardmask": "/usr/local/bin/genomedata-hardmask", "genomedata-histogram": "/usr/local/bin/genomedata-histogram", "genomedata-info": "/usr/local/bin/genomedata-info", "genomedata-load": "/usr/local/bin/genomedata-load", "genomedata-load-assembly": "/usr/local/bin/genomedata-load-assembly", "genomedata-load-data": "/usr/local/bin/genomedata-load-data", "genomedata-load-seq": "/usr/local/bin/genomedata-load-seq", "genomedata-open-data": "/usr/local/bin/genomedata-open-data", "genomedata-query": "/usr/local/bin/genomedata-query", "genomedata-report": "/usr/local/bin/genomedata-report", "hidehead": "/usr/local/bin/hidehead", "innerjoin": "/usr/local/bin/innerjoin", "intersect": "/usr/local/bin/intersect", "mean": "/usr/local/bin/mean", "nohead": "/usr/local/bin/nohead", "run_genomedata_tests.py": "/usr/local/bin/run_genomedata_tests.py", "test_genomedata.py": "/usr/local/bin/test_genomedata.py", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "shiftBed": "/usr/local/bin/shiftBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomedata.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/genomedata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomedata:1.7.0--py39h1839e8e_0
+$ shpc install quay.io/biocontainers/genomedata:1.7.1--py310hc74b192_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomedata/1.7.0--py39h1839e8e_0
-$ module help quay.io/biocontainers/genomedata/1.7.0--py39h1839e8e_0
+$ module load quay.io/biocontainers/genomedata/1.7.1--py310hc74b192_0
+$ module help quay.io/biocontainers/genomedata/1.7.1--py310hc74b192_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

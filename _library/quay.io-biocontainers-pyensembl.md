@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyensembl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyensembl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyensembl/container.yaml"
-updated_at: "2023-09-12 02:48:41.281775"
-latest: "2.1.0--pyh7cba7a3_0"
+updated_at: "2023-09-13 02:48:45.832192"
+latest: "2.2.9--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pyensembl"
 aliases:
  - "epylint"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "2.0.1--pyh5e36f6f_0"
  - "2.1.0--pyh7cba7a3_0"
+ - "2.2.9--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for pyensembl"
-config: {"url": "https://biocontainers.pro/tools/pyensembl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyensembl", "latest": {"2.1.0--pyh7cba7a3_0": "sha256:5fb67d92074158b3461248af76573ba3d3cbd080c77bb682b7dcac779f5ac464"}, "tags": {"2.0.1--pyh5e36f6f_0": "sha256:c35a3a654e49c7b48485c0d0904d24f814daa9c678d1c7ce9b52f2a853e707c7", "2.1.0--pyh7cba7a3_0": "sha256:5fb67d92074158b3461248af76573ba3d3cbd080c77bb682b7dcac779f5ac464"}, "docker": "quay.io/biocontainers/pyensembl", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pyensembl": "/usr/local/bin/pyensembl", "pylint": "/usr/local/bin/pylint", "pylint-config": "/usr/local/bin/pylint-config", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyensembl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyensembl", "latest": {"2.2.9--pyh7cba7a3_0": "sha256:b1273d266bfa8204bdc8a5a683305a3b2c0a6282a19f52d51c3ac13d94125061"}, "tags": {"2.0.1--pyh5e36f6f_0": "sha256:c35a3a654e49c7b48485c0d0904d24f814daa9c678d1c7ce9b52f2a853e707c7", "2.1.0--pyh7cba7a3_0": "sha256:5fb67d92074158b3461248af76573ba3d3cbd080c77bb682b7dcac779f5ac464", "2.2.9--pyh7cba7a3_0": "sha256:b1273d266bfa8204bdc8a5a683305a3b2c0a6282a19f52d51c3ac13d94125061"}, "docker": "quay.io/biocontainers/pyensembl", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pyensembl": "/usr/local/bin/pyensembl", "pylint": "/usr/local/bin/pylint", "pylint-config": "/usr/local/bin/pylint-config", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyensembl.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/pyensembl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyensembl:2.1.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pyensembl:2.2.9--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyensembl/2.1.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pyensembl/2.1.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pyensembl/2.2.9--pyh7cba7a3_0
+$ module help quay.io/biocontainers/pyensembl/2.2.9--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

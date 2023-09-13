@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-string-approx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-string-approx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-string-approx/container.yaml"
-updated_at: "2023-09-12 02:26:16.965316"
+updated_at: "2023-09-13 02:27:09.558178"
 latest: "3.27--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/perl-string-approx"
 aliases:

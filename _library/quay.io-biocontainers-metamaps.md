@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metamaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamaps/container.yaml"
-updated_at: "2023-09-12 03:07:19.393188"
+updated_at: "2023-09-13 03:06:49.553362"
 latest: "0.1.98102e9--h21ec9f0_2"
 container_url: "https://biocontainers.pro/tools/metamaps"
 aliases:

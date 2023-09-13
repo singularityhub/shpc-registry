@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cooler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cooler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cooler/container.yaml"
-updated_at: "2023-09-12 02:34:32.002011"
+updated_at: "2023-09-13 02:35:08.923989"
 latest: "0.8.7--pyh4c3bd37_0"
 container_url: "https://biocontainers.pro/tools/cooler"
 aliases:

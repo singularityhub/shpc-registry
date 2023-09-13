@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mageckflute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mageckflute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mageckflute/container.yaml"
-updated_at: "2023-09-12 02:27:21.068983"
+updated_at: "2023-09-13 02:28:12.211948"
 latest: "2.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mageckflute"
 aliases:

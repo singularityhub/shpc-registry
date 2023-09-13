@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-amr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-amr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-amr/container.yaml"
-updated_at: "2023-09-12 02:23:05.726315"
+updated_at: "2023-09-13 02:24:05.412189"
 latest: "1.04--h6bb024c_0"
 container_url: "https://biocontainers.pro/tools/ncbi-amr"
 aliases:

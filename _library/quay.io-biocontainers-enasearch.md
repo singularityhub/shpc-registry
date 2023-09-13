@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enasearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enasearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enasearch/container.yaml"
-updated_at: "2023-09-12 03:01:27.053183"
+updated_at: "2023-09-13 03:01:08.131693"
 latest: "0.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/enasearch"
 aliases:

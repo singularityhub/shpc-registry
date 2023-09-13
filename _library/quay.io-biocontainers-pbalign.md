@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbalign/container.yaml"
-updated_at: "2023-09-12 02:53:24.785763"
+updated_at: "2023-09-13 02:53:21.412224"
 latest: "0.3.2--py_1"
 container_url: "https://biocontainers.pro/tools/pbalign"
 aliases:

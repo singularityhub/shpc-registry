@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-validatefastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-validatefastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-validatefastq/container.yaml"
-updated_at: "2023-09-12 02:42:55.503447"
+updated_at: "2023-09-13 02:43:11.718119"
 latest: "0.1.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/biopet-validatefastq"
 aliases:
