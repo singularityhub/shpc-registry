@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/arvados-cwl-runner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for arvados-cwl-runner
 latest:
-  2.0.4--pyh864c0ab_0: sha256:a47ea1748a9d708108650476477cf08bf17b03897398b5f9ea3b4348b0caf29d
+  2.6.3--pyh7cba7a3_0: sha256:4c049e9a0499a11e81e614dcdcbb3fdec994e038ed825d2f1c82efc6491f8fee
 tags:
   2.0.4--pyh864c0ab_0: sha256:a47ea1748a9d708108650476477cf08bf17b03897398b5f9ea3b4348b0caf29d
+  2.6.3--pyh7cba7a3_0: sha256:4c049e9a0499a11e81e614dcdcbb3fdec994e038ed825d2f1c82efc6491f8fee
 docker: quay.io/biocontainers/arvados-cwl-runner
 aliases:
   arv-copy: /usr/local/bin/arv-copy

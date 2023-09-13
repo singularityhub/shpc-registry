@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pileuppy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pileuppy
 latest:
-  1.1.1--py_0: sha256:5966ca80f4b050481214219ccb84318ad6d4e9a022d37f5db1820078424f44f0
+  1.2.0--pyhdfd78af_0: sha256:e7c061dd5330b8fe5a8c23eda88a8c241ab37ad109f8ca2785e0cb8b2d6908b9
 tags:
   1.1.1--py_0: sha256:5966ca80f4b050481214219ccb84318ad6d4e9a022d37f5db1820078424f44f0
+  1.2.0--pyhdfd78af_0: sha256:e7c061dd5330b8fe5a8c23eda88a8c241ab37ad109f8ca2785e0cb8b2d6908b9
 docker: quay.io/biocontainers/pileuppy
 aliases:
   pileuppy: /usr/local/bin/pileuppy
