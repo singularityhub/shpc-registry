@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plogo2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plogo2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plogo2/container.yaml"
-updated_at: "2023-09-13 02:55:44.085662"
+updated_at: "2023-09-14 02:56:38.312977"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plogo2"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-paeg1aprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-paeg1aprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paeg1aprobe/container.yaml"
-updated_at: "2023-09-13 02:23:02.193196"
+updated_at: "2023-09-14 02:23:00.606993"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-paeg1aprobe"
 

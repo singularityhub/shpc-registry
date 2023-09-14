@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-microstasis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microstasis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microstasis/container.yaml"
-updated_at: "2023-09-13 03:08:46.503919"
+updated_at: "2023-09-14 03:10:05.265279"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microstasis"
 aliases:

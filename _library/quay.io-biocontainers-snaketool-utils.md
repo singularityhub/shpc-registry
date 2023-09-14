@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snaketool-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snaketool-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snaketool-utils/container.yaml"
-updated_at: "2023-09-13 02:56:57.679579"
-latest: "0.0.3--pyhdfd78af_0"
+updated_at: "2023-09-14 02:57:53.269193"
+latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snaketool-utils"
 aliases:
  - "2to3-3.11"
@@ -16,8 +16,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.0.3--pyhdfd78af_0"
+ - "0.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snaketool-utils"
-config: {"url": "https://biocontainers.pro/tools/snaketool-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snaketool-utils", "latest": {"0.0.3--pyhdfd78af_0": "sha256:59ac614c2d5e81b99617c2f048deaf508cfe2cd493d1da0049d8eae390c39b53"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:59ac614c2d5e81b99617c2f048deaf508cfe2cd493d1da0049d8eae390c39b53"}, "docker": "quay.io/biocontainers/snaketool-utils", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/snaketool-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snaketool-utils", "latest": {"0.0.4--pyhdfd78af_0": "sha256:48a862e2d488ce1cee97de04055bc3db769d5859d0240ca9bd4d7d59f4138cf6"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:59ac614c2d5e81b99617c2f048deaf508cfe2cd493d1da0049d8eae390c39b53", "0.0.4--pyhdfd78af_0": "sha256:48a862e2d488ce1cee97de04055bc3db769d5859d0240ca9bd4d7d59f4138cf6"}, "docker": "quay.io/biocontainers/snaketool-utils", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snaketool-utils.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/snaketool-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snaketool-utils:0.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snaketool-utils:0.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snaketool-utils/0.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/snaketool-utils/0.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/snaketool-utils/0.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/snaketool-utils/0.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

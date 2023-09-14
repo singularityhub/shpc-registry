@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneattribution"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneattribution/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneattribution/container.yaml"
-updated_at: "2023-09-13 02:35:36.469304"
+updated_at: "2023-09-14 02:35:58.405804"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneattribution"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pileuppy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pileuppy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pileuppy/container.yaml"
-updated_at: "2023-09-13 02:27:18.364943"
-latest: "1.1.1--py_0"
+updated_at: "2023-09-14 02:27:24.263219"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pileuppy"
 aliases:
  - "pileuppy"
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.1.1--py_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pileuppy"
-config: {"url": "https://biocontainers.pro/tools/pileuppy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pileuppy", "latest": {"1.1.1--py_0": "sha256:5966ca80f4b050481214219ccb84318ad6d4e9a022d37f5db1820078424f44f0"}, "tags": {"1.1.1--py_0": "sha256:5966ca80f4b050481214219ccb84318ad6d4e9a022d37f5db1820078424f44f0"}, "docker": "quay.io/biocontainers/pileuppy", "aliases": {"pileuppy": "/usr/local/bin/pileuppy", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pileuppy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pileuppy", "latest": {"1.2.0--pyhdfd78af_0": "sha256:e7c061dd5330b8fe5a8c23eda88a8c241ab37ad109f8ca2785e0cb8b2d6908b9"}, "tags": {"1.1.1--py_0": "sha256:5966ca80f4b050481214219ccb84318ad6d4e9a022d37f5db1820078424f44f0", "1.2.0--pyhdfd78af_0": "sha256:e7c061dd5330b8fe5a8c23eda88a8c241ab37ad109f8ca2785e0cb8b2d6908b9"}, "docker": "quay.io/biocontainers/pileuppy", "aliases": {"pileuppy": "/usr/local/bin/pileuppy", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pileuppy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pileuppy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pileuppy:1.1.1--py_0
+$ shpc install quay.io/biocontainers/pileuppy:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pileuppy/1.1.1--py_0
-$ module help quay.io/biocontainers/pileuppy/1.1.1--py_0
+$ module load quay.io/biocontainers/pileuppy/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pileuppy/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

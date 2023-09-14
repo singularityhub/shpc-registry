@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathifier/container.yaml"
-updated_at: "2023-09-13 03:10:19.858972"
+updated_at: "2023-09-14 03:11:41.929102"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathifier"
 
