@@ -1,0 +1,72 @@
+url: https://biocontainers.pro/tools/gentle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gentle
+latest:
+  1.9.5.alpha1--h81ca284_0: sha256:04edafdd231d2012a50b050431cac7b915f726885fb836a8eecad0cbce502c08
+tags:
+  1.9.5.alpha1--h81ca284_0: sha256:04edafdd231d2012a50b050431cac7b915f726885fb836a8eecad0cbce502c08
+docker: quay.io/biocontainers/gentle
+aliases:
+  GENtle: /usr/local/bin/GENtle
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  ibd2sdi: /usr/local/bin/ibd2sdi
+  innochecksum: /usr/local/bin/innochecksum
+  myisam_ftdump: /usr/local/bin/myisam_ftdump
+  myisamchk: /usr/local/bin/myisamchk
+  myisamlog: /usr/local/bin/myisamlog
+  myisampack: /usr/local/bin/myisampack
+  mysql: /usr/local/bin/mysql
+  mysql.server: /usr/local/bin/mysql.server
+  mysql_config_editor: /usr/local/bin/mysql_config_editor
+  mysql_migrate_keyring: /usr/local/bin/mysql_migrate_keyring
+  mysql_secure_installation: /usr/local/bin/mysql_secure_installation
+  mysql_ssl_rsa_setup: /usr/local/bin/mysql_ssl_rsa_setup
+  mysql_tzinfo_to_sql: /usr/local/bin/mysql_tzinfo_to_sql
+  mysql_upgrade: /usr/local/bin/mysql_upgrade
+  mysqladmin: /usr/local/bin/mysqladmin
+  mysqlbinlog: /usr/local/bin/mysqlbinlog
+  mysqlcheck: /usr/local/bin/mysqlcheck
+  mysqld: /usr/local/bin/mysqld
+  mysqld_multi: /usr/local/bin/mysqld_multi
+  mysqld_safe: /usr/local/bin/mysqld_safe
+  mysqldump: /usr/local/bin/mysqldump
+  mysqldumpslow: /usr/local/bin/mysqldumpslow
+  mysqlimport: /usr/local/bin/mysqlimport
+  mysqlpump: /usr/local/bin/mysqlpump
+  mysqlshow: /usr/local/bin/mysqlshow
+  mysqlslap: /usr/local/bin/mysqlslap
+  protoc-23.4.0: /usr/local/bin/protoc-23.4.0
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  wx-config: /usr/local/bin/wx-config
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.2: /usr/local/bin/wxrc-3.2
+  zlib_decompress: /usr/local/bin/zlib_decompress
+  xkbcli: /usr/local/bin/xkbcli
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  hb-info: /usr/local/bin/hb-info
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  tjbench: /usr/local/bin/tjbench
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  protoc: /usr/local/bin/protoc
+  gst-device-monitor-1.0: /usr/local/bin/gst-device-monitor-1.0
+  gst-discoverer-1.0: /usr/local/bin/gst-discoverer-1.0
+  gst-play-1.0: /usr/local/bin/gst-play-1.0
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  gst-inspect-1.0: /usr/local/bin/gst-inspect-1.0
