@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rsrq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rsrq
+latest:
+  1.1.0--h4349ce8_0: sha256:94b7d9d6f1e406a3682aba22a9e5b0a456efa6eeb9a1a608320c12b85b6d8c04
+tags:
+  1.1.0--h4349ce8_0: sha256:94b7d9d6f1e406a3682aba22a9e5b0a456efa6eeb9a1a608320c12b85b6d8c04
+docker: quay.io/biocontainers/rsrq
+aliases:
+  rsrq: /usr/local/bin/rsrq

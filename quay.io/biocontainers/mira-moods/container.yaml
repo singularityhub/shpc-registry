@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/mira-moods
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mira-moods
+latest:
+  1.9.4.2--py311hcbe9525_0: sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97
+tags:
+  1.9.4.2--py311hcbe9525_0: sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97
+docker: quay.io/biocontainers/mira-moods
+aliases:
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  ccache-swig: /usr/local/bin/ccache-swig
+  swig: /usr/local/bin/swig
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
