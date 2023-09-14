@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cojac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cojac
 latest:
-  0.9--pyh7cba7a3_0: sha256:8e3a7cd864dc6192e5458b3c4863166472c7e160accaf93f43c8ceae76b4a498
+  0.9.1--pyh7cba7a3_0: sha256:e1814a5faf1711921c048073b1480fe64296208fe8c69815a9b344157497e79a
 tags:
   0.2--hdfd78af_0: sha256:8455969a912054a6fa222c3c36143d327b51fe9904035390d5d36bd8731c47db
   0.9--pyh7cba7a3_0: sha256:8e3a7cd864dc6192e5458b3c4863166472c7e160accaf93f43c8ceae76b4a498
+  0.9.1--pyh7cba7a3_0: sha256:e1814a5faf1711921c048073b1480fe64296208fe8c69815a9b344157497e79a
 docker: quay.io/biocontainers/cojac
 aliases:
   cooc-colourmut: /usr/local/bin/cooc-colourmut

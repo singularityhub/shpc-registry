@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/itolapi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for itolapi
 latest:
-  4.1.0--pyhdfd78af_0: sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256
+  4.1.2--pyhdfd78af_0: sha256:b9b49f0a02df283d7d2e5957712aefb47d1741c381f1390f2004b38234863c36
 tags:
   4.1.0--pyhdfd78af_0: sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256
+  4.1.2--pyhdfd78af_0: sha256:b9b49f0a02df283d7d2e5957712aefb47d1741c381f1390f2004b38234863c36
 docker: quay.io/biocontainers/itolapi
 aliases:
   itol.py: /usr/local/bin/itol.py
