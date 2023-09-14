@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-leukemiaseset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-leukemiaseset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-leukemiaseset/container.yaml"
-updated_at: "2023-09-14 02:30:46.341084"
+updated_at: "2023-09-14 02:52:36.684274"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-leukemiaseset"
 

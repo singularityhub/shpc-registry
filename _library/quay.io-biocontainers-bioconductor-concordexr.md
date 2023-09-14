@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-concordexr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-concordexr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-concordexr/container.yaml"
-updated_at: "2023-09-14 02:23:13.802055"
+updated_at: "2023-09-14 02:43:06.913633"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-concordexr"
 aliases:

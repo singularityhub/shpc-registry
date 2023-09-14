@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kseqpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kseqpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kseqpp/container.yaml"
-updated_at: "2023-09-14 03:04:04.185991"
+updated_at: "2023-09-14 03:34:11.254584"
 latest: "1.1.1--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/kseqpp"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fastliquidassociation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fastliquidassociation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fastliquidassociation/container.yaml"
-updated_at: "2023-09-14 02:38:30.543865"
+updated_at: "2023-09-14 03:02:14.655345"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fastliquidassociation"
 

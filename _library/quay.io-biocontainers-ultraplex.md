@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ultraplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ultraplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ultraplex/container.yaml"
-updated_at: "2023-09-14 02:27:24.589955"
+updated_at: "2023-09-14 02:48:22.642230"
 latest: "1.2.5--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/ultraplex"
 aliases:
