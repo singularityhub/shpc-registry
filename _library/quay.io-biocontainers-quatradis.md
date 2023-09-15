@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quatradis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quatradis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quatradis/container.yaml"
-updated_at: "2023-09-14 03:15:50.963657"
+updated_at: "2023-09-15 02:34:26.123887"
 latest: "1.0.2--py310h031d066_0"
 container_url: "https://biocontainers.pro/tools/quatradis"
 aliases:

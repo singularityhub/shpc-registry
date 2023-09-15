@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-filesys-df"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-filesys-df/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-filesys-df/container.yaml"
-updated_at: "2023-09-14 02:49:37.044202"
+updated_at: "2023-09-15 03:07:14.108174"
 latest: "0.92--pl5321h031d066_7"
 container_url: "https://biocontainers.pro/tools/perl-filesys-df"
 aliases:

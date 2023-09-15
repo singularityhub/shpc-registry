@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glimpse-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimpse-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glimpse-bio/container.yaml"
-updated_at: "2023-09-14 03:44:12.762696"
+updated_at: "2023-09-15 02:27:56.591775"
 latest: "2.0.1--h46b9e50_1"
 container_url: "https://biocontainers.pro/tools/glimpse-bio"
 aliases:

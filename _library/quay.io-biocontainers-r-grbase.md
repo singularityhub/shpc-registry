@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-grbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-grbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-grbase/container.yaml"
-updated_at: "2023-09-14 02:44:42.495438"
-latest: "1.8.9--r43hba8c641_3"
+updated_at: "2023-09-15 03:05:12.541572"
+latest: "1.9.0--r43hba8c641_0"
 container_url: "https://biocontainers.pro/tools/r-grbase"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.8.9--r42h25def4e_1"
  - "1.8.9--r42hba8c641_2"
  - "1.8.9--r43hba8c641_3"
+ - "1.9.0--r43hba8c641_0"
 description: "shpc-registry automated BioContainers addition for r-grbase"
-config: {"url": "https://biocontainers.pro/tools/r-grbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-grbase", "latest": {"1.8.9--r43hba8c641_3": "sha256:c1cd3e90904ab25d350c7be2c0841c902d748e39805305a3f166cfd4e0a5b6b2"}, "tags": {"1.8_6.7--r41h930fe3c_2": "sha256:51bc8563430fac095fc0474d55215cb4fd74746f06eb80d9dae7685caf799531", "1.8.9--r42h25def4e_1": "sha256:763efd94c13300ce9eadff8c4dbe5ca6822fbf6c8c8518ee0eedc2263f62e3e5", "1.8.9--r42hba8c641_2": "sha256:68ae829df7a1982b3a92c04cf89c164a6ff369ec7a067c924d031e7493aebfc6", "1.8.9--r43hba8c641_3": "sha256:c1cd3e90904ab25d350c7be2c0841c902d748e39805305a3f166cfd4e0a5b6b2"}, "docker": "quay.io/biocontainers/r-grbase"}
+config: {"url": "https://biocontainers.pro/tools/r-grbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-grbase", "latest": {"1.9.0--r43hba8c641_0": "sha256:8689ad3741677d1811029dc380ce834bc8ef4a751679e7ef3452ab43ceac9dc5"}, "tags": {"1.8_6.7--r41h930fe3c_2": "sha256:51bc8563430fac095fc0474d55215cb4fd74746f06eb80d9dae7685caf799531", "1.8.9--r42h25def4e_1": "sha256:763efd94c13300ce9eadff8c4dbe5ca6822fbf6c8c8518ee0eedc2263f62e3e5", "1.8.9--r42hba8c641_2": "sha256:68ae829df7a1982b3a92c04cf89c164a6ff369ec7a067c924d031e7493aebfc6", "1.8.9--r43hba8c641_3": "sha256:c1cd3e90904ab25d350c7be2c0841c902d748e39805305a3f166cfd4e0a5b6b2", "1.9.0--r43hba8c641_0": "sha256:8689ad3741677d1811029dc380ce834bc8ef4a751679e7ef3452ab43ceac9dc5"}, "docker": "quay.io/biocontainers/r-grbase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-grbase.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-grbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-grbase:1.8.9--r43hba8c641_3
+$ shpc install quay.io/biocontainers/r-grbase:1.9.0--r43hba8c641_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-grbase/1.8.9--r43hba8c641_3
-$ module help quay.io/biocontainers/r-grbase/1.8.9--r43hba8c641_3
+$ module load quay.io/biocontainers/r-grbase/1.9.0--r43hba8c641_0
+$ module help quay.io/biocontainers/r-grbase/1.9.0--r43hba8c641_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

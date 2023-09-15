@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bloom-faster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bloom-faster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bloom-faster/container.yaml"
-updated_at: "2023-09-14 03:23:53.007459"
+updated_at: "2023-09-15 02:52:32.394689"
 latest: "1.7--pl5321h031d066_6"
 container_url: "https://biocontainers.pro/tools/perl-bloom-faster"
 aliases:
