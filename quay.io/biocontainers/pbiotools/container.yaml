@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/pbiotools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbiotools
 latest:
-  4.0.1--pyh7cba7a3_1: sha256:b7cf18d7bb46025f3f605fdc5d8584cd45b5e8252edf57854bd64740c09bce5e
+  4.0.2--pyhdfd78af_0: sha256:0628feed608ec615dcb1d78b777b0670e314424085baf0d5fbf4da6b8b28bacc
 tags:
   2.0.0--pyhdfd78af_0: sha256:efdaebaf960ad4aeeac6cdab026f97f41989454349d208b97f31f08170c90a24
   3.0.0--pyh7cba7a3_0: sha256:28e27ab1086bb9e49dc3da0453594fbdb4a6eeab3037823c61a15e0c492ec125
   4.0.1--pyh7cba7a3_0: sha256:527286cdc594801e524a7c197e111c3e98e61ee1ef1abfcc7ab9aa6c1b72175c
   4.0.1--pyh7cba7a3_1: sha256:b7cf18d7bb46025f3f605fdc5d8584cd45b5e8252edf57854bd64740c09bce5e
+  4.0.2--pyhdfd78af_0: sha256:0628feed608ec615dcb1d78b777b0670e314424085baf0d5fbf4da6b8b28bacc
 docker: quay.io/biocontainers/pbiotools
 aliases:
   bam-to-wiggle: /usr/local/bin/bam-to-wiggle
