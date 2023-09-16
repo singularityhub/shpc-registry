@@ -1,29 +1,11 @@
-# change this to a URL to describe your container, or to get help
-url: https://hub.docker.com/r/hashicorp/consul
-
-# change this to your GitHub alias (or another contact or name)
+docker: hashicorp/consul
 maintainer: '@vsoch'
-
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
-# A description to describe your container
-description: 'Automatic build of consul based on the current release. See README for
-  more information on usage. '
+url: https://hub.docker.com/r/hashicorp/consul
+description: 'Automatic build of consul based on the current release.'
 latest:
   '1.16': sha256:8a163661acf3a07a5bc69d156b4e345e14342756fe1fe3833d14070e8d67b088
 tags:
   '1.16': sha256:8a163661acf3a07a5bc69d156b4e345e14342756fe1fe3833d14070e8d67b088
-docker: hashicorp/consul
 aliases:
   consul: /bin/consul
   docker-entrypoint.sh: /usr/local/bin/docker-entrypoint.sh
