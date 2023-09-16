@@ -1,0 +1,11 @@
+docker: hashicorp/consul
+maintainer: '@vsoch'
+url: https://hub.docker.com/r/hashicorp/consul
+description: 'Automatic build of consul based on the current release.'
+latest:
+  '1.16': sha256:8a163661acf3a07a5bc69d156b4e345e14342756fe1fe3833d14070e8d67b088
+tags:
+  '1.16': sha256:8a163661acf3a07a5bc69d156b4e345e14342756fe1fe3833d14070e8d67b088
+aliases:
+  consul: /bin/consul
+  docker-entrypoint.sh: /usr/local/bin/docker-entrypoint.sh
