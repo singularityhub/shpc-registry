@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-grbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-grbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-grbase/container.yaml"
-updated_at: "2023-09-15 03:05:12.541572"
+updated_at: "2023-09-16 03:00:20.195907"
 latest: "1.9.0--r43hba8c641_0"
 container_url: "https://biocontainers.pro/tools/r-grbase"
 

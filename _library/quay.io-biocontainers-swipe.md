@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/swipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swipe/container.yaml"
-updated_at: "2023-09-15 03:10:58.492089"
+updated_at: "2023-09-16 03:05:52.559344"
 latest: "2.1.1--h5500c7b_4"
 container_url: "https://biocontainers.pro/tools/swipe"
 aliases:

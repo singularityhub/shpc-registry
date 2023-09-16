@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-abadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-abadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-abadata/container.yaml"
-updated_at: "2023-09-15 02:27:07.672459"
+updated_at: "2023-09-16 02:23:20.177794"
 latest: "1.24.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-abadata"
 aliases:

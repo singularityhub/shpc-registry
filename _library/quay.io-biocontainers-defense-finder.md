@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/defense-finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/defense-finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/defense-finder/container.yaml"
-updated_at: "2023-09-15 02:30:27.988412"
-latest: "1.0.9--pyhdfd78af_0"
+updated_at: "2023-09-16 02:26:36.262164"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/defense-finder"
 aliases:
  - "defense-finder"
@@ -42,8 +42,9 @@ aliases:
  - "esl-reformat"
 versions:
  - "1.0.9--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for defense-finder"
-config: {"url": "https://biocontainers.pro/tools/defense-finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for defense-finder", "latest": {"1.0.9--pyhdfd78af_0": "sha256:17364186d96289f09be4e3295ffd78c39f84a1d8db70bad3efac94ad65b2e43e"}, "tags": {"1.0.9--pyhdfd78af_0": "sha256:17364186d96289f09be4e3295ffd78c39f84a1d8db70bad3efac94ad65b2e43e"}, "docker": "quay.io/biocontainers/defense-finder", "aliases": {"defense-finder": "/usr/local/bin/defense-finder", "macsyconfig": "/usr/local/bin/macsyconfig", "macsydata": "/usr/local/bin/macsydata", "macsyfinder": "/usr/local/bin/macsyfinder", "macsymerge": "/usr/local/bin/macsymerge", "macsyprofile": "/usr/local/bin/macsyprofile", "macsysplit": "/usr/local/bin/macsysplit", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate", "esl-weight": "/usr/local/bin/esl-weight", "esl-afetch": "/usr/local/bin/esl-afetch", "esl-reformat": "/usr/local/bin/esl-reformat"}}
+config: {"url": "https://biocontainers.pro/tools/defense-finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for defense-finder", "latest": {"1.1.1--pyhdfd78af_0": "sha256:341237c1e0f908839c5f0be29bb2748f08750e66008e12f571a007d616e16900"}, "tags": {"1.0.9--pyhdfd78af_0": "sha256:17364186d96289f09be4e3295ffd78c39f84a1d8db70bad3efac94ad65b2e43e", "1.1.1--pyhdfd78af_0": "sha256:341237c1e0f908839c5f0be29bb2748f08750e66008e12f571a007d616e16900"}, "docker": "quay.io/biocontainers/defense-finder", "aliases": {"defense-finder": "/usr/local/bin/defense-finder", "macsyconfig": "/usr/local/bin/macsyconfig", "macsydata": "/usr/local/bin/macsydata", "macsyfinder": "/usr/local/bin/macsyfinder", "macsymerge": "/usr/local/bin/macsymerge", "macsyprofile": "/usr/local/bin/macsyprofile", "macsysplit": "/usr/local/bin/macsysplit", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate", "esl-weight": "/usr/local/bin/esl-weight", "esl-afetch": "/usr/local/bin/esl-afetch", "esl-reformat": "/usr/local/bin/esl-reformat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/defense-finder.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/defense-finder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/defense-finder:1.0.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/defense-finder:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/defense-finder/1.0.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/defense-finder/1.0.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/defense-finder/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/defense-finder/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

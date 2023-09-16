@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rchyoptimyx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rchyoptimyx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rchyoptimyx/container.yaml"
-updated_at: "2023-09-15 02:36:09.701386"
+updated_at: "2023-09-16 02:32:07.036983"
 latest: "2.28.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rchyoptimyx"
 
