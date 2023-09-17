@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/polars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polars/container.yaml"
-updated_at: "2023-09-17 00:05:12.097336"
+updated_at: "2023-09-17 00:08:50.858642"
 latest: "0.18.15"
 container_url: "https://biocontainers.pro/tools/polars"
 aliases:
