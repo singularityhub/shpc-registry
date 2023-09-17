@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-delayedrandomarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedrandomarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedrandomarray/container.yaml"
-updated_at: "2023-09-16 02:40:08.947767"
+updated_at: "2023-09-16 23:57:41.203746"
 latest: "1.8.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedrandomarray"
 

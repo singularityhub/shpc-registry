@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fourcseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fourcseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fourcseq/container.yaml"
-updated_at: "2023-09-16 02:51:22.937269"
+updated_at: "2023-09-17 00:08:45.464089"
 latest: "1.24.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fourcseq"
 aliases:
