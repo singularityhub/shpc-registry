@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-highlyreplicatedrnaseq/container.yaml"
-updated_at: "2023-09-17 00:01:57.558298"
+updated_at: "2023-09-17 02:44:01.335296"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-highlyreplicatedrnaseq"
 
