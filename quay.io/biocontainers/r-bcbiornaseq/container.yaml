@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-bcbiornaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bcbiornaseq
 latest:
-  0.5.4--r43hdfd78af_2: sha256:7ad0ef1eb5526ba92cff1ee47aca0e949190058cfb2420acc7cf24e6731938cd
+  0.5.5--r43hdfd78af_0: sha256:55b8c85ed11880a8126a7588c0ec96815ead18e7acfb7750838aadb18a187dd6
 tags:
   0.4.0--r41hdfd78af_0: sha256:95701957bc505b497ebdb56c6dbce92df8fae3b63de60ff776a00c4d246f2433
   0.5.1--r42hdfd78af_1: sha256:f6a19ecd3caf672f7471dab63a33cfb847a4dd5e5423eb4fdeb89e4630f646d2
@@ -10,6 +10,7 @@ tags:
   0.5.3--r42hdfd78af_1: sha256:0fef783db654bab5d07e2474f021fc43b6b32f02355b8c44aac9a31731a09627
   0.5.4--r42hdfd78af_1: sha256:6bce6a64e296d65b4950c47429f2c863ca38b2b352c73589cdcace93e3c54624
   0.5.4--r43hdfd78af_2: sha256:7ad0ef1eb5526ba92cff1ee47aca0e949190058cfb2420acc7cf24e6731938cd
+  0.5.5--r43hdfd78af_0: sha256:55b8c85ed11880a8126a7588c0ec96815ead18e7acfb7750838aadb18a187dd6
 docker: quay.io/biocontainers/r-bcbiornaseq
 aliases:
   pandoc: /usr/local/bin/pandoc

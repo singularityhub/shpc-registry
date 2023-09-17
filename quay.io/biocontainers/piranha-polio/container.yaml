@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/piranha-polio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for piranha-polio
 latest:
-  1.0.12--pyhdfd78af_0: sha256:6e0c56f40d40c102a9a0f29bef1245c044ed0b8bc01ccbac3f61f2a6d023984f
+  1.0.13--pyhdfd78af_0: sha256:f91e6e10efa85b27dcb03205d94e4f98f2b144e75df8dd5b95a90c10daa14369
 tags:
   1.0.8--pyhdfd78af_0: sha256:68ea13905d2776336c5cf59c1785a674dc6a87ff6468fddd7b258f088c1b4997
   1.0.12--pyhdfd78af_0: sha256:6e0c56f40d40c102a9a0f29bef1245c044ed0b8bc01ccbac3f61f2a6d023984f
+  1.0.13--pyhdfd78af_0: sha256:f91e6e10efa85b27dcb03205d94e4f98f2b144e75df8dd5b95a90c10daa14369
 docker: quay.io/biocontainers/piranha-polio
 aliases:
   check_compression: /usr/local/bin/check_compression

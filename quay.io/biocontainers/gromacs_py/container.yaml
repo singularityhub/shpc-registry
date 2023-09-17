@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gromacs_py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gromacs_py
 latest:
-  2.0.2--pyhdfd78af_0: sha256:1a3e56153d20e07a3f41345eb0afc09e0b32a2493f15b68afda9a1bd5a2504ff
+  2.0.3--pyhdfd78af_0: sha256:3e25f5f8f5c788a3659dcc0b101b502013a00806fd0359441d9e20792ab86021
 tags:
   2.0.2--pyhdfd78af_0: sha256:1a3e56153d20e07a3f41345eb0afc09e0b32a2493f15b68afda9a1bd5a2504ff
+  2.0.3--pyhdfd78af_0: sha256:3e25f5f8f5c788a3659dcc0b101b502013a00806fd0359441d9e20792ab86021
 docker: quay.io/biocontainers/gromacs_py
 aliases:
   AddToBox: /usr/local/bin/AddToBox
