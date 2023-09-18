@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/lrtk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lrtk
 latest:
-  1.6--pyh7cba7a3_0: sha256:50d07d046186ecb5c30c8b6cb0e542582db5318a7419149ac875bda803e31144
+  1.9--pyh7cba7a3_0: sha256:5909742ba040b8e196f9202d0c299004e402c0dca8b4445a8e08f895ff7a8dc0
 tags:
   1.5--pyh5e36f6f_0: sha256:33b618c5f1b969f42637e2eedf64a43253ac21e1726f4d828bf234c5eb20e8e3
   1.6--pyh7cba7a3_0: sha256:50d07d046186ecb5c30c8b6cb0e542582db5318a7419149ac875bda803e31144
+  1.9--pyh7cba7a3_0: sha256:5909742ba040b8e196f9202d0c299004e402c0dca8b4445a8e08f895ff7a8dc0
+  1.8--pyh7cba7a3_0: sha256:561651a0307ac565ce2b28911cca983f3746692919a41c11be69355c1825d186
+  1.7--pyh7cba7a3_0: sha256:c3b8ab319a75a03422d6f71fc87843ccdac5065e48f11232c30063179b42bee6
 docker: quay.io/biocontainers/lrtk
 aliases:
   Aquila_assembly_based_variants_call: /usr/local/bin/Aquila_assembly_based_variants_call

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-epialleler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epialleler
 latest:
-  1.2.0--r41hc247a5b_2: sha256:18a1c72ef0446570273f5b9576452db84e883545cc6cee01a054576552823502
+  1.8.1--r43hf17093f_0: sha256:d05c7445787cc530f4c06e7d0c482c569391dc48ed335e44a264643190feddfd
 tags:
   1.2.0--r41hc247a5b_2: sha256:18a1c72ef0446570273f5b9576452db84e883545cc6cee01a054576552823502
+  1.8.1--r43hf17093f_0: sha256:d05c7445787cc530f4c06e7d0c482c569391dc48ed335e44a264643190feddfd
 docker: quay.io/biocontainers/bioconductor-epialleler
