@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgt/container.yaml"
-updated_at: "2023-09-17 03:08:12.257696"
+updated_at: "2023-09-18 03:08:01.354295"
 latest: "1.0.0--py37h7132678_0"
 container_url: "https://biocontainers.pro/tools/rgt"
 aliases:

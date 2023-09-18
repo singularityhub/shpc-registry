@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/monsda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monsda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/monsda/container.yaml"
-updated_at: "2023-09-17 02:54:24.033504"
+updated_at: "2023-09-18 02:54:04.910180"
 latest: "1.0.0--pypyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/monsda"
 aliases:

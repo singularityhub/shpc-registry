@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fcsparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fcsparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fcsparser/container.yaml"
-updated_at: "2023-09-17 03:09:32.840875"
-latest: "0.2.6--pyh086e186_0"
+updated_at: "2023-09-18 03:09:22.819360"
+latest: "0.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fcsparser"
 aliases:
  - "f2py3.9"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.2.4--pyhfa5458b_0"
  - "0.2.6--pyh086e186_0"
+ - "0.2.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fcsparser"
-config: {"url": "https://biocontainers.pro/tools/fcsparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fcsparser", "latest": {"0.2.6--pyh086e186_0": "sha256:f16e3242a1771cea74adf65401f5847e9b2a9d9f1b8e075dc8606def9a1c1249"}, "tags": {"0.2.4--pyhfa5458b_0": "sha256:b9e29ff0c5012f673b91ab81e54776b590658f9bf3fa694538ff22f9753e0ab9", "0.2.6--pyh086e186_0": "sha256:f16e3242a1771cea74adf65401f5847e9b2a9d9f1b8e075dc8606def9a1c1249"}, "docker": "quay.io/biocontainers/fcsparser", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/fcsparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fcsparser", "latest": {"0.2.7--pyhdfd78af_0": "sha256:2a152332f6da38246d9dec6a109d5d5074193e1416a18497ee6e77f2af03ecc1"}, "tags": {"0.2.4--pyhfa5458b_0": "sha256:b9e29ff0c5012f673b91ab81e54776b590658f9bf3fa694538ff22f9753e0ab9", "0.2.6--pyh086e186_0": "sha256:f16e3242a1771cea74adf65401f5847e9b2a9d9f1b8e075dc8606def9a1c1249", "0.2.7--pyhdfd78af_0": "sha256:2a152332f6da38246d9dec6a109d5d5074193e1416a18497ee6e77f2af03ecc1"}, "docker": "quay.io/biocontainers/fcsparser", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fcsparser.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/fcsparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fcsparser:0.2.6--pyh086e186_0
+$ shpc install quay.io/biocontainers/fcsparser:0.2.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fcsparser/0.2.6--pyh086e186_0
-$ module help quay.io/biocontainers/fcsparser/0.2.6--pyh086e186_0
+$ module load quay.io/biocontainers/fcsparser/0.2.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/fcsparser/0.2.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

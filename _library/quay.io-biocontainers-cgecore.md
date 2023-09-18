@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgecore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgecore/container.yaml"
-updated_at: "2023-09-17 02:44:29.471311"
+updated_at: "2023-09-18 02:44:01.463777"
 latest: "1.5.6--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/cgecore"
 aliases:
