@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/r-emlassemblyline
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-emlassemblyline
+latest:
+  3.5.5: sha256:ae89ede403af3f7151ac75ad3d9d1227d708572af38c85769d8dd468d04f4762
+tags:
+  3.5.5: sha256:ae89ede403af3f7151ac75ad3d9d1227d708572af38c85769d8dd468d04f4762
+docker: quay.io/biocontainers/r-emlassemblyline
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  glpsol: /usr/local/bin/glpsol
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  pandoc: /usr/local/bin/pandoc
