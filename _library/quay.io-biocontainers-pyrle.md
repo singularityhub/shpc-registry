@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrle/container.yaml"
-updated_at: "2023-09-18 03:12:08.205411"
+updated_at: "2023-09-18 03:28:24.257692"
 latest: "0.0.36--py37h8902056_0"
 container_url: "https://biocontainers.pro/tools/pyrle"
 aliases:

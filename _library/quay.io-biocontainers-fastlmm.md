@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastlmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastlmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastlmm/container.yaml"
-updated_at: "2023-09-18 02:37:00.926549"
+updated_at: "2023-09-18 02:49:12.807827"
 latest: "0.2.32--py27h95a95ce_5"
 container_url: "https://biocontainers.pro/tools/fastlmm"
 aliases:

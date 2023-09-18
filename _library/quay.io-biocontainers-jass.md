@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jass/container.yaml"
-updated_at: "2023-09-18 03:07:54.505488"
+updated_at: "2023-09-18 03:23:41.811060"
 latest: "2.2--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/jass"
 aliases:

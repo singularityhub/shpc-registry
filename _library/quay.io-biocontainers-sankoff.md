@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sankoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sankoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sankoff/container.yaml"
-updated_at: "2023-09-18 02:52:58.188785"
+updated_at: "2023-09-18 03:07:00.517171"
 latest: "0.2--h2374e42_3"
 container_url: "https://biocontainers.pro/tools/sankoff"
 aliases:

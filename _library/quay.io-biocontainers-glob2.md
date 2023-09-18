@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glob2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glob2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glob2/container.yaml"
-updated_at: "2023-09-18 02:49:11.261060"
+updated_at: "2023-09-18 03:02:46.618751"
 latest: "0.4.1--py35_0"
 container_url: "https://biocontainers.pro/tools/glob2"
 aliases:

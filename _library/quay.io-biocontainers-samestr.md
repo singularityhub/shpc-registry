@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samestr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samestr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samestr/container.yaml"
-updated_at: "2023-09-18 03:08:16.362586"
+updated_at: "2023-09-18 03:24:05.946333"
 latest: "1.2023.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samestr"
 aliases:

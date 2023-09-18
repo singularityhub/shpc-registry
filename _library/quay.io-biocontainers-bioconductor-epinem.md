@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epinem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epinem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epinem/container.yaml"
-updated_at: "2023-09-18 02:51:24.019902"
+updated_at: "2023-09-18 03:05:15.186523"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epinem"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/weblogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weblogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/weblogo/container.yaml"
-updated_at: "2023-09-18 02:24:11.486238"
+updated_at: "2023-09-18 02:35:06.250941"
 latest: "3.7.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/weblogo"
 aliases:
