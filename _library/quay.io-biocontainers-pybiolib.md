@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybiolib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybiolib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybiolib/container.yaml"
-updated_at: "2023-09-18 02:42:13.357946"
-latest: "1.1.1218--pyhdfd78af_0"
+updated_at: "2023-09-19 02:31:34.303772"
+latest: "1.1.1301--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pybiolib"
 aliases:
  - "biolib"
@@ -29,8 +29,9 @@ versions:
  - "1.1.988--pyhdfd78af_0"
  - "1.1.1073--pyhdfd78af_0"
  - "1.1.1218--pyhdfd78af_0"
+ - "1.1.1301--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pybiolib"
-config: {"url": "https://biocontainers.pro/tools/pybiolib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybiolib", "latest": {"1.1.1218--pyhdfd78af_0": "sha256:db68b7d4f586c5a42fb6d99e294501f925c203b555b5b2b6ee6ffbe82ac31051"}, "tags": {"1.1.825--pyhdfd78af_0": "sha256:f72afaa64b3e814158be3c71b30ef036815c7f4fa72d6c618ef10762e96183be", "1.1.862--pyhdfd78af_0": "sha256:99ac7922924d22e97d12a19c7a7a032bce66814931d2971b4d490ef3b9ff9ee5", "1.1.988--pyhdfd78af_0": "sha256:3b1593adebf066768bd5c83ed543a76cd6a7da45215a80526339948fe8c380e1", "1.1.1073--pyhdfd78af_0": "sha256:7d73bc279aa577ed0437e2166a69a6ebb0b627ac167f9af3777f232c203cf86a", "1.1.1218--pyhdfd78af_0": "sha256:db68b7d4f586c5a42fb6d99e294501f925c203b555b5b2b6ee6ffbe82ac31051"}, "docker": "quay.io/biocontainers/pybiolib", "aliases": {"biolib": "/usr/local/bin/biolib", "gunicorn": "/usr/local/bin/gunicorn", "wsdump": "/usr/local/bin/wsdump", "flask": "/usr/local/bin/flask", "cmark": "/usr/local/bin/cmark", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pybiolib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybiolib", "latest": {"1.1.1301--pyhdfd78af_0": "sha256:6a9a65b2cf25ebe8563302f2bdf17634e622a7edb343721526efb9103a6eb1ea"}, "tags": {"1.1.825--pyhdfd78af_0": "sha256:f72afaa64b3e814158be3c71b30ef036815c7f4fa72d6c618ef10762e96183be", "1.1.862--pyhdfd78af_0": "sha256:99ac7922924d22e97d12a19c7a7a032bce66814931d2971b4d490ef3b9ff9ee5", "1.1.988--pyhdfd78af_0": "sha256:3b1593adebf066768bd5c83ed543a76cd6a7da45215a80526339948fe8c380e1", "1.1.1073--pyhdfd78af_0": "sha256:7d73bc279aa577ed0437e2166a69a6ebb0b627ac167f9af3777f232c203cf86a", "1.1.1218--pyhdfd78af_0": "sha256:db68b7d4f586c5a42fb6d99e294501f925c203b555b5b2b6ee6ffbe82ac31051", "1.1.1301--pyhdfd78af_0": "sha256:6a9a65b2cf25ebe8563302f2bdf17634e622a7edb343721526efb9103a6eb1ea"}, "docker": "quay.io/biocontainers/pybiolib", "aliases": {"biolib": "/usr/local/bin/biolib", "gunicorn": "/usr/local/bin/gunicorn", "wsdump": "/usr/local/bin/wsdump", "flask": "/usr/local/bin/flask", "cmark": "/usr/local/bin/cmark", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybiolib.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/pybiolib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybiolib:1.1.1218--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pybiolib:1.1.1301--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybiolib/1.1.1218--pyhdfd78af_0
-$ module help quay.io/biocontainers/pybiolib/1.1.1218--pyhdfd78af_0
+$ module load quay.io/biocontainers/pybiolib/1.1.1301--pyhdfd78af_0
+$ module help quay.io/biocontainers/pybiolib/1.1.1301--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

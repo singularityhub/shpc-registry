@@ -4,7 +4,7 @@ name:  "ruby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ruby/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ruby/container.yaml"
-updated_at: "2023-09-18 02:33:38.806847"
+updated_at: "2023-09-19 02:23:37.179936"
 latest: "alpine3.18"
 container_url: "https://hub.docker.com/_/ruby"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arraymvout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arraymvout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arraymvout/container.yaml"
-updated_at: "2023-09-18 02:43:50.073600"
+updated_at: "2023-09-19 02:33:01.875625"
 latest: "1.58.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arraymvout"
 

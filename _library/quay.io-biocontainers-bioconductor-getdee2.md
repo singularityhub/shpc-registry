@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-getdee2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-getdee2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-getdee2/container.yaml"
-updated_at: "2023-09-18 03:28:12.027427"
+updated_at: "2023-09-19 03:13:30.399545"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-getdee2"
 

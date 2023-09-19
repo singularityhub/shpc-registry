@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gnparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnparser/container.yaml"
-updated_at: "2023-09-18 03:11:51.430320"
-latest: "1.7.3--he881be0_0"
+updated_at: "2023-09-19 02:58:34.945543"
+latest: "1.7.4--he881be0_0"
 container_url: "https://biocontainers.pro/tools/gnparser"
 aliases:
  - "gnparser"
 versions:
  - "1.7.3--he881be0_0"
+ - "1.7.4--he881be0_0"
 description: "singularity registry hpc automated addition for gnparser"
-config: {"url": "https://biocontainers.pro/tools/gnparser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gnparser", "latest": {"1.7.3--he881be0_0": "sha256:0a904113afb449aa067dd164c0fe2bb2294858d482880d21b07ca4bd40b2bfe9"}, "tags": {"1.7.3--he881be0_0": "sha256:0a904113afb449aa067dd164c0fe2bb2294858d482880d21b07ca4bd40b2bfe9"}, "docker": "quay.io/biocontainers/gnparser", "aliases": {"gnparser": "/usr/local/bin/gnparser"}}
+config: {"url": "https://biocontainers.pro/tools/gnparser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gnparser", "latest": {"1.7.4--he881be0_0": "sha256:c353d0e337b6941ef2141a2db804a1597a9a811f24516c261e9d342d0c6901ce"}, "tags": {"1.7.3--he881be0_0": "sha256:0a904113afb449aa067dd164c0fe2bb2294858d482880d21b07ca4bd40b2bfe9", "1.7.4--he881be0_0": "sha256:c353d0e337b6941ef2141a2db804a1597a9a811f24516c261e9d342d0c6901ce"}, "docker": "quay.io/biocontainers/gnparser", "aliases": {"gnparser": "/usr/local/bin/gnparser"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gnparser.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gnparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gnparser:1.7.3--he881be0_0
+$ shpc install quay.io/biocontainers/gnparser:1.7.4--he881be0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gnparser/1.7.3--he881be0_0
-$ module help quay.io/biocontainers/gnparser/1.7.3--he881be0_0
+$ module load quay.io/biocontainers/gnparser/1.7.4--he881be0_0
+$ module help quay.io/biocontainers/gnparser/1.7.4--he881be0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
