@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-saureusprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-saureusprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-saureusprobe/container.yaml"
-updated_at: "2023-09-19 02:50:08.162940"
+updated_at: "2023-09-20 02:55:09.832460"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-saureusprobe"
 

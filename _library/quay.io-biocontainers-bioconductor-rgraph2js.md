@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgraph2js"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgraph2js/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgraph2js/container.yaml"
-updated_at: "2023-09-19 02:31:24.170682"
+updated_at: "2023-09-20 02:32:24.219342"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgraph2js"
 

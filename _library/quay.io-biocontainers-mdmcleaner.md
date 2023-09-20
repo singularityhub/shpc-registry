@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mdmcleaner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdmcleaner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdmcleaner/container.yaml"
-updated_at: "2023-09-19 03:01:07.699248"
+updated_at: "2023-09-20 03:08:14.548692"
 latest: "0.8.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/mdmcleaner"
 aliases:

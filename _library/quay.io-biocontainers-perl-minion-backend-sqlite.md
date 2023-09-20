@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-minion-backend-sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-minion-backend-sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-minion-backend-sqlite/container.yaml"
-updated_at: "2023-09-19 03:03:00.615684"
+updated_at: "2023-09-20 03:10:30.666159"
 latest: "5.0.7--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-minion-backend-sqlite"
 aliases:

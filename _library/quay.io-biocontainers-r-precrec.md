@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-precrec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-precrec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-precrec/container.yaml"
-updated_at: "2023-09-19 02:40:57.702576"
+updated_at: "2023-09-20 02:44:08.560772"
 latest: "0.9.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-precrec"
 aliases:
