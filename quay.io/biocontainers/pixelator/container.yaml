@@ -1,0 +1,72 @@
+url: https://biocontainers.pro/tools/pixelator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pixelator
+latest:
+  0.13.1--pyh7cba7a3_0: sha256:e8d8f66592293d1c4d3ca771cc038f0370bc572dfb3292880d294ede10b573ab
+tags:
+  0.13.1--pyh7cba7a3_0: sha256:e8d8f66592293d1c4d3ca771cc038f0370bc572dfb3292880d294ede10b573ab
+docker: quay.io/biocontainers/pixelator
+aliases:
+  cmtime: /usr/local/bin/cmtime
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  ib_acme: /usr/local/bin/ib_acme
+  ibv_asyncwatch: /usr/local/bin/ibv_asyncwatch
+  ibv_devices: /usr/local/bin/ibv_devices
+  ibv_devinfo: /usr/local/bin/ibv_devinfo
+  ibv_rc_pingpong: /usr/local/bin/ibv_rc_pingpong
+  ibv_srq_pingpong: /usr/local/bin/ibv_srq_pingpong
+  ibv_uc_pingpong: /usr/local/bin/ibv_uc_pingpong
+  ibv_ud_pingpong: /usr/local/bin/ibv_ud_pingpong
+  ibv_xsrq_pingpong: /usr/local/bin/ibv_xsrq_pingpong
+  io_demo: /usr/local/bin/io_demo
+  mckey: /usr/local/bin/mckey
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  pixelator: /usr/local/bin/pixelator
+  protoc-23.4.0: /usr/local/bin/protoc-23.4.0
+  pysemver: /usr/local/bin/pysemver
+  rcopy: /usr/local/bin/rcopy
+  rdma_client: /usr/local/bin/rdma_client
+  rdma_server: /usr/local/bin/rdma_server
+  rdma_xclient: /usr/local/bin/rdma_xclient
+  rdma_xserver: /usr/local/bin/rdma_xserver
+  riostream: /usr/local/bin/riostream
+  rping: /usr/local/bin/rping
+  rstream: /usr/local/bin/rstream
+  ucmatose: /usr/local/bin/ucmatose
+  ucx_info: /usr/local/bin/ucx_info
+  ucx_perftest: /usr/local/bin/ucx_perftest
+  ucx_read_profile: /usr/local/bin/ucx_read_profile
+  udaddy: /usr/local/bin/udaddy
+  udpong: /usr/local/bin/udpong
+  umi_tools: /usr/local/bin/umi_tools
+  yapf: /usr/local/bin/yapf
+  yapf-diff: /usr/local/bin/yapf-diff
+  yappi: /usr/local/bin/yappi
+  produce_x_platform_fuzz_corpus: /usr/local/bin/produce_x_platform_fuzz_corpus
+  run_x_platform_fuzz_corpus: /usr/local/bin/run_x_platform_fuzz_corpus
+  pyfastx: /usr/local/bin/pyfastx
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  fastp: /usr/local/bin/fastp
+  h5delete: /usr/local/bin/h5delete
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  sha256_profile: /usr/local/bin/sha256_profile
+  igraph: /usr/local/bin/igraph
+  scanpy: /usr/local/bin/scanpy
+  cutadapt: /usr/local/bin/cutadapt
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
