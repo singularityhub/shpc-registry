@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/solote
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for solote
+latest:
+  1.09--hdfd78af_0: sha256:383fe3287fb7b3681c3c1d5959197cebe435801dce42c844ecacb9da58c043ce
+tags:
+  1.09--hdfd78af_0: sha256:383fe3287fb7b3681c3c1d5959197cebe435801dce42c844ecacb9da58c043ce
+docker: quay.io/biocontainers/solote
+aliases:
+  SoloTE_RepeatMasker_to_BED.py: /usr/local/bin/SoloTE_RepeatMasker_to_BED.py
+  SoloTE_pipeline.py: /usr/local/bin/SoloTE_pipeline.py
+  annotateBAM.py: /usr/local/bin/annotateBAM.py
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy
+  intersectBed: /usr/local/bin/intersectBed
+  linksBed: /usr/local/bin/linksBed
+  mapBed: /usr/local/bin/mapBed
+  maskFastaFromBed: /usr/local/bin/maskFastaFromBed
