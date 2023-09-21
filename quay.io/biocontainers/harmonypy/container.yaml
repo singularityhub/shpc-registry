@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/harmonypy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for harmonypy
 latest:
-  0.0.6--pyhdfd78af_0: sha256:a9ac0b5f9b3c87e1a632d072c33b239d8f1c0e9e0cd7d1a7d29d59bdffa0c235
+  0.0.9--pyhdfd78af_0: sha256:2e34b52d7391a5d3855eca8bb43c7eedfdcff79297ab0dc81b3fc61d14642152
 tags:
   0.0.6--pyhdfd78af_0: sha256:a9ac0b5f9b3c87e1a632d072c33b239d8f1c0e9e0cd7d1a7d29d59bdffa0c235
+  0.0.9--pyhdfd78af_0: sha256:2e34b52d7391a5d3855eca8bb43c7eedfdcff79297ab0dc81b3fc61d14642152
 docker: quay.io/biocontainers/harmonypy
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

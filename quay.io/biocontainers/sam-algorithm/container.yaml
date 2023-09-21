@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sam-algorithm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sam-algorithm
 latest:
-  0.9.0--pyhdfd78af_0: sha256:436babf48dcba4a5441c305b34db06c58b879a0442ca26be28e1450e738f394e
+  1.0.2--pyhdfd78af_0: sha256:6cfb040e3b8980debab5c448aacb2cc29f209ba212017879e3b9381d6d4d4753
 tags:
   0.9.0--pyhdfd78af_0: sha256:436babf48dcba4a5441c305b34db06c58b879a0442ca26be28e1450e738f394e
+  1.0.2--pyhdfd78af_0: sha256:6cfb040e3b8980debab5c448aacb2cc29f209ba212017879e3b9381d6d4d4753
 docker: quay.io/biocontainers/sam-algorithm
 aliases:
   get_objgraph: /usr/local/bin/get_objgraph
