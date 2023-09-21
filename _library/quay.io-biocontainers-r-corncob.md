@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-corncob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corncob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corncob/container.yaml"
-updated_at: "2023-09-20 02:26:28.549719"
-latest: "0.3.1--r43h3342da4_2"
+updated_at: "2023-09-21 02:24:37.483329"
+latest: "0.3.2--r43h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-corncob"
 aliases:
  - "glpsol"
@@ -15,8 +15,9 @@ versions:
  - "0.3.1--r42h3342da4_0"
  - "0.3.1--r42h3342da4_1"
  - "0.3.1--r43h3342da4_2"
+ - "0.3.2--r43h3342da4_0"
 description: "shpc-registry automated BioContainers addition for r-corncob"
-config: {"url": "https://biocontainers.pro/tools/r-corncob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corncob", "latest": {"0.3.1--r43h3342da4_2": "sha256:8b269bb6649e5bb39f69885fcdc4eb139bb48b5cf8ed8dd60e7aba9b364e8b62"}, "tags": {"0.3.0--r41h3342da4_0": "sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8", "0.3.0--r42h3342da4_1": "sha256:aa9f89d8deb470c3a89bb99a88e54f345d4cc008e909eea41b92e830bcf25e2f", "0.3.1--r42h3342da4_0": "sha256:a715fcd926fbeee06ddbc234cbd57bdfa6dddef7c33c2b3b90b54132345faaee", "0.3.1--r42h3342da4_1": "sha256:4ee760ee9c878bc3524ba710d0a021615c12798fd28fb3e9577e71278994f572", "0.3.1--r43h3342da4_2": "sha256:8b269bb6649e5bb39f69885fcdc4eb139bb48b5cf8ed8dd60e7aba9b364e8b62"}, "docker": "quay.io/biocontainers/r-corncob", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-corncob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corncob", "latest": {"0.3.2--r43h3342da4_0": "sha256:e5e748da79a7032828d11d69b4880d50336e7fdd7aa82e2d6a19c09ef05b1060"}, "tags": {"0.3.0--r41h3342da4_0": "sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8", "0.3.0--r42h3342da4_1": "sha256:aa9f89d8deb470c3a89bb99a88e54f345d4cc008e909eea41b92e830bcf25e2f", "0.3.1--r42h3342da4_0": "sha256:a715fcd926fbeee06ddbc234cbd57bdfa6dddef7c33c2b3b90b54132345faaee", "0.3.1--r42h3342da4_1": "sha256:4ee760ee9c878bc3524ba710d0a021615c12798fd28fb3e9577e71278994f572", "0.3.1--r43h3342da4_2": "sha256:8b269bb6649e5bb39f69885fcdc4eb139bb48b5cf8ed8dd60e7aba9b364e8b62", "0.3.2--r43h3342da4_0": "sha256:e5e748da79a7032828d11d69b4880d50336e7fdd7aa82e2d6a19c09ef05b1060"}, "docker": "quay.io/biocontainers/r-corncob", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-corncob.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-corncob
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-corncob:0.3.1--r43h3342da4_2
+$ shpc install quay.io/biocontainers/r-corncob:0.3.2--r43h3342da4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-corncob/0.3.1--r43h3342da4_2
-$ module help quay.io/biocontainers/r-corncob/0.3.1--r43h3342da4_2
+$ module load quay.io/biocontainers/r-corncob/0.3.2--r43h3342da4_0
+$ module help quay.io/biocontainers/r-corncob/0.3.2--r43h3342da4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

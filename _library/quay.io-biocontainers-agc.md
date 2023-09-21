@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agc/container.yaml"
-updated_at: "2023-09-20 02:42:33.755968"
+updated_at: "2023-09-21 02:37:23.054550"
 latest: "3.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/agc"
 aliases:

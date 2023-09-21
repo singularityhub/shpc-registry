@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tcga2stat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tcga2stat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tcga2stat/container.yaml"
-updated_at: "2023-09-20 02:52:55.240047"
+updated_at: "2023-09-21 02:45:37.172961"
 latest: "1.2--r43h3121a25_10"
 container_url: "https://biocontainers.pro/tools/r-tcga2stat"
 aliases:
