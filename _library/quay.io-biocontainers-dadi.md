@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dadi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dadi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dadi/container.yaml"
-updated_at: "2023-09-22 03:01:56.872242"
+updated_at: "2023-09-22 04:25:42.875222"
 latest: "2.0.5--py37hc1659b7_0"
 container_url: "https://biocontainers.pro/tools/dadi"
 aliases:

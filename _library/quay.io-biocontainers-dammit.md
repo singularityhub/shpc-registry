@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dammit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dammit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dammit/container.yaml"
-updated_at: "2023-09-22 02:25:26.515667"
+updated_at: "2023-09-22 03:39:05.982013"
 latest: "1.2--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/dammit"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viral-ngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral-ngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viral-ngs/container.yaml"
-updated_at: "2023-09-22 02:34:37.999450"
+updated_at: "2023-09-22 03:50:52.020296"
 latest: "1.13.4--py35_0"
 container_url: "https://biocontainers.pro/tools/viral-ngs"
 aliases:

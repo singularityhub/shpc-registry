@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sizepower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sizepower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sizepower/container.yaml"
-updated_at: "2023-09-22 02:26:57.239259"
+updated_at: "2023-09-22 03:41:02.782372"
 latest: "1.70.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sizepower"
 

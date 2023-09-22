@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-find"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-find/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-find/container.yaml"
-updated_at: "2023-09-22 02:32:57.466078"
+updated_at: "2023-09-22 03:48:41.950535"
 latest: "1.27--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-file-find"
 

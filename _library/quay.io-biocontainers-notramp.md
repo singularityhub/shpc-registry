@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/notramp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/notramp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/notramp/container.yaml"
-updated_at: "2023-09-22 03:10:20.204082"
+updated_at: "2023-09-22 04:36:13.173342"
 latest: "1.0.5--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/notramp"
 aliases:

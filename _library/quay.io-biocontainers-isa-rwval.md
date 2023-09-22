@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isa-rwval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isa-rwval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isa-rwval/container.yaml"
-updated_at: "2023-09-22 02:31:31.855578"
+updated_at: "2023-09-22 03:46:51.716607"
 latest: "0.10.9--py_0"
 container_url: "https://biocontainers.pro/tools/isa-rwval"
 aliases:

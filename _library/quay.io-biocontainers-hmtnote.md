@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmtnote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmtnote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmtnote/container.yaml"
-updated_at: "2023-09-22 02:45:47.703548"
+updated_at: "2023-09-22 04:05:04.547623"
 latest: "0.7.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmtnote"
 aliases:

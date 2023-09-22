@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bracken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bracken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bracken/container.yaml"
-updated_at: "2023-09-22 03:08:15.540044"
+updated_at: "2023-09-22 04:33:35.294982"
 latest: "2.6.2--py39hc16433a_0"
 container_url: "https://biocontainers.pro/tools/bracken"
 aliases:
