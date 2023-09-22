@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/marker-magu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for marker-magu
+latest:
+  0.4.0--pyhdfd78af_0: sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
+tags:
+  0.4.0--pyhdfd78af_0: sha256:6fe592fa89def299c3c0cfc83f68f73ae4a240cdb61f536737aa873797359086
+docker: quay.io/biocontainers/marker-magu
+aliases:
+  bwa-mem2: /usr/local/bin/bwa-mem2
+  bwa-mem2.avx: /usr/local/bin/bwa-mem2.avx
+  bwa-mem2.avx2: /usr/local/bin/bwa-mem2.avx2
+  bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
+  bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
+  bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42
+  coverm: /usr/local/bin/coverm
+  dashing: /usr/local/bin/dashing
+  markermagu: /usr/local/bin/markermagu
+  remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
+  starcode: /usr/local/bin/starcode
+  fastANI: /usr/local/bin/fastANI
+  seqkit: /usr/local/bin/seqkit
+  fastp: /usr/local/bin/fastp
+  igzip: /usr/local/bin/igzip
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/transannot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for transannot
+latest:
+  1.fa9ebab--pl5321h6a68c12_0: sha256:4e32c47c5372096271de24bf9e49904dd63b7ca3adaeaaa908ed72f3f1e78b51
+tags:
+  1.fa9ebab--pl5321h6a68c12_0: sha256:4e32c47c5372096271de24bf9e49904dd63b7ca3adaeaaa908ed72f3f1e78b51
+docker: quay.io/biocontainers/transannot
+aliases:
+  transannot: /usr/local/bin/transannot
+  aria2c: /usr/local/bin/aria2c
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget
