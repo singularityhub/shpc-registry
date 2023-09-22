@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/decoupler
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for decoupler
 latest:
-  1.4.0--pyhdfd78af_0: sha256:2190f202335fd1810a09564182c484047207b4fa907b51fccf88182dcc8a4782
+  1.5.0--pyhdfd78af_0: sha256:515d317c4fbd9c365f084c877a95fb4eac3b740274a8afe84f2d20e4e95171ea
 tags:
   1.4.0--pyhdfd78af_0: sha256:2190f202335fd1810a09564182c484047207b4fa907b51fccf88182dcc8a4782
+  1.5.0--pyhdfd78af_0: sha256:515d317c4fbd9c365f084c877a95fb4eac3b740274a8afe84f2d20e4e95171ea
+  1.4.0--pyhdfd78af_1: sha256:6d65af448df68eec9ac40e5edcde7081676813c334f16e4c448b9cb21f26e9d3
 docker: quay.io/biocontainers/decoupler
 aliases:
   h5delete: /usr/local/bin/h5delete

@@ -2,10 +2,15 @@ url: https://biocontainers.pro/tools/clinvar-this
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for clinvar-this
 latest:
-  0.2.1--pyhdfd78af_0: sha256:e008e028dd2386aa919c8fefdba82d5e19d6f10a15f9f33c9803dcec3a150293
+  0.10.2--pyhdfd78af_0: sha256:b4805af60693d5b20f8c9f6d50eaee9b0b61d72cecf05ee724c616100e9ac413
 tags:
   0.1.0--pyhdfd78af_0: sha256:12cb7a7947769f54ad7bebdc328664272c8b0e9d89eb5db7edfe9bb5ad3ba5f9
   0.2.1--pyhdfd78af_0: sha256:e008e028dd2386aa919c8fefdba82d5e19d6f10a15f9f33c9803dcec3a150293
+  0.10.2--pyhdfd78af_0: sha256:b4805af60693d5b20f8c9f6d50eaee9b0b61d72cecf05ee724c616100e9ac413
+  0.7.0--pyhdfd78af_0: sha256:92501bb2e685069b0954920e7362504bf127fec85d8355b0ad122c8d7bc9386b
+  0.6.0--pyhdfd78af_0: sha256:1c77bd81dd73dc0771e4da322306687b3d11918ee95b2af5254bf26e98920868
+  0.4.1--pyhdfd78af_0: sha256:c22ba00c56620014b227f21b00a9cfacb40ab3276d1683579322735322618cba
+  0.3.0--pyhdfd78af_0: sha256:c4f85b754dcd80898d3989126a26dd8e4d4ed493962265768b4d293cff405b02
 docker: quay.io/biocontainers/clinvar-this
 aliases:
   clinvar-this: /usr/local/bin/clinvar-this

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bakta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bakta
 latest:
-  1.8.1--pyhdfd78af_0: sha256:31cf5dbe49e9f6aa07c9acdb49380b5c3ea9710095c0c8a56c9d876c65440321
+  1.8.2--pyhdfd78af_1: sha256:2be7064d241e8f83d648e7f4912ffa647d0775dafdee413084eb4096bbd74b10
 tags:
   1.5.1--pyhdfd78af_0: sha256:4b6e6caef591f0caa658dff7db4d153abf4b3200948da0e3701dd65637adfdb0
   1.6.1--pyhdfd78af_0: sha256:faf0bd626c870520dcc465946426f4d3b9e0944956f834b64230d2a7e85941e5
   1.7.0--pyhdfd78af_1: sha256:b659c23f4c0637bd9bc7aa1477b710367875356d9ec3a8e88e66fb2a92f26241
   1.8.1--pyhdfd78af_0: sha256:31cf5dbe49e9f6aa07c9acdb49380b5c3ea9710095c0c8a56c9d876c65440321
+  1.8.2--pyhdfd78af_1: sha256:2be7064d241e8f83d648e7f4912ffa647d0775dafdee413084eb4096bbd74b10
 docker: quay.io/biocontainers/bakta
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter

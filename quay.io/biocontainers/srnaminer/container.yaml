@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/srnaminer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for srnaminer
 latest:
-  1.0.7--pyhdfd78af_0: sha256:b3c842aeabdb18cad486366e82fd341247d22ec3e65af646a08457e09d2efd84
+  1.0.9--pyhdfd78af_0: sha256:1d804148e5a300ed6b72b4b1df81adc0cb40a1b636abb5e7aa158e6359ab19f8
 tags:
   1.0.5--pyhdfd78af_0: sha256:887543151f4ca572281b2d67be3a524eb5cc86ffcddcf7e516127b07ad29bb66
   1.0.7--pyhdfd78af_0: sha256:b3c842aeabdb18cad486366e82fd341247d22ec3e65af646a08457e09d2efd84
+  1.0.9--pyhdfd78af_0: sha256:1d804148e5a300ed6b72b4b1df81adc0cb40a1b636abb5e7aa158e6359ab19f8
 docker: quay.io/biocontainers/srnaminer
 aliases:
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
