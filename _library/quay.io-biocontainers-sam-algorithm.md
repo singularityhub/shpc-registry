@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sam-algorithm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam-algorithm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam-algorithm/container.yaml"
-updated_at: "2023-09-21 02:39:13.708328"
-latest: "0.9.0--pyhdfd78af_0"
+updated_at: "2023-09-22 02:40:50.714598"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sam-algorithm"
 aliases:
  - "get_objgraph"
@@ -20,8 +20,9 @@ aliases:
  - "h5watch"
 versions:
  - "0.9.0--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sam-algorithm"
-config: {"url": "https://biocontainers.pro/tools/sam-algorithm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam-algorithm", "latest": {"0.9.0--pyhdfd78af_0": "sha256:436babf48dcba4a5441c305b34db06c58b879a0442ca26be28e1450e738f394e"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:436babf48dcba4a5441c305b34db06c58b879a0442ca26be28e1450e738f394e"}, "docker": "quay.io/biocontainers/sam-algorithm", "aliases": {"get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "f2py3.8": "/usr/local/bin/f2py3.8", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
+config: {"url": "https://biocontainers.pro/tools/sam-algorithm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam-algorithm", "latest": {"1.0.2--pyhdfd78af_0": "sha256:6cfb040e3b8980debab5c448aacb2cc29f209ba212017879e3b9381d6d4d4753"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:436babf48dcba4a5441c305b34db06c58b879a0442ca26be28e1450e738f394e", "1.0.2--pyhdfd78af_0": "sha256:6cfb040e3b8980debab5c448aacb2cc29f209ba212017879e3b9381d6d4d4753"}, "docker": "quay.io/biocontainers/sam-algorithm", "aliases": {"get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "f2py3.8": "/usr/local/bin/f2py3.8", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sam-algorithm.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/sam-algorithm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sam-algorithm:0.9.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sam-algorithm:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sam-algorithm/0.9.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/sam-algorithm/0.9.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/sam-algorithm/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/sam-algorithm/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/thermorawfileparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thermorawfileparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/thermorawfileparser/container.yaml"
-updated_at: "2023-09-21 02:52:06.674350"
-latest: "1.4.2--ha8f3691_0"
+updated_at: "2023-09-22 02:54:11.081380"
+latest: "1.4.3--ha8f3691_0"
 container_url: "https://biocontainers.pro/tools/thermorawfileparser"
 aliases:
  - "ThermoRawFileParser"
@@ -36,8 +36,9 @@ versions:
  - "1.4.0--ha8f3691_0"
  - "1.4.1--ha8f3691_0"
  - "1.4.2--ha8f3691_0"
+ - "1.4.3--ha8f3691_0"
 description: "shpc-registry automated BioContainers addition for thermorawfileparser"
-config: {"url": "https://biocontainers.pro/tools/thermorawfileparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thermorawfileparser", "latest": {"1.4.2--ha8f3691_0": "sha256:3b930ef774b3d4e0d559f38903da2390f9b24b96a016a1761805b88ae78c2b40"}, "tags": {"1.4.0--ha8f3691_0": "sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404", "1.4.1--ha8f3691_0": "sha256:2aa0ea0aa2c5f43e5244ed7eaad4a14e6ed6319b91a9d917850ac2b5ff73741c", "1.4.2--ha8f3691_0": "sha256:3b930ef774b3d4e0d559f38903da2390f9b24b96a016a1761805b88ae78c2b40"}, "docker": "quay.io/biocontainers/thermorawfileparser", "aliases": {"ThermoRawFileParser": "/usr/local/bin/ThermoRawFileParser", "ThermoRawFileParser.exe": "/usr/local/bin/ThermoRawFileParser.exe", "ThermoRawFileParser.exe.config": "/usr/local/bin/ThermoRawFileParser.exe.config", "ThermoRawFileParser.sh": "/usr/local/bin/ThermoRawFileParser.sh", "csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "thermorawfileparser": "/usr/local/bin/thermorawfileparser", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/thermorawfileparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thermorawfileparser", "latest": {"1.4.3--ha8f3691_0": "sha256:e6de4d098d50e2b04b88bf251c5e64144a57f30fd47793186480fc48f790bc71"}, "tags": {"1.4.0--ha8f3691_0": "sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404", "1.4.1--ha8f3691_0": "sha256:2aa0ea0aa2c5f43e5244ed7eaad4a14e6ed6319b91a9d917850ac2b5ff73741c", "1.4.2--ha8f3691_0": "sha256:3b930ef774b3d4e0d559f38903da2390f9b24b96a016a1761805b88ae78c2b40", "1.4.3--ha8f3691_0": "sha256:e6de4d098d50e2b04b88bf251c5e64144a57f30fd47793186480fc48f790bc71"}, "docker": "quay.io/biocontainers/thermorawfileparser", "aliases": {"ThermoRawFileParser": "/usr/local/bin/ThermoRawFileParser", "ThermoRawFileParser.exe": "/usr/local/bin/ThermoRawFileParser.exe", "ThermoRawFileParser.exe.config": "/usr/local/bin/ThermoRawFileParser.exe.config", "ThermoRawFileParser.sh": "/usr/local/bin/ThermoRawFileParser.sh", "csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "thermorawfileparser": "/usr/local/bin/thermorawfileparser", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/thermorawfileparser.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/thermorawfileparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/thermorawfileparser:1.4.2--ha8f3691_0
+$ shpc install quay.io/biocontainers/thermorawfileparser:1.4.3--ha8f3691_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/thermorawfileparser/1.4.2--ha8f3691_0
-$ module help quay.io/biocontainers/thermorawfileparser/1.4.2--ha8f3691_0
+$ module load quay.io/biocontainers/thermorawfileparser/1.4.3--ha8f3691_0
+$ module help quay.io/biocontainers/thermorawfileparser/1.4.3--ha8f3691_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isoncorrect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoncorrect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isoncorrect/container.yaml"
-updated_at: "2023-09-21 03:04:57.759362"
-latest: "0.0.8--py_0"
+updated_at: "2023-09-22 03:07:23.974263"
+latest: "0.1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isoncorrect"
 aliases:
  - "isONcorrect"
@@ -18,8 +18,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.0.8--py_0"
+ - "0.1.3.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for isoncorrect"
-config: {"url": "https://biocontainers.pro/tools/isoncorrect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isoncorrect", "latest": {"0.0.8--py_0": "sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae"}, "tags": {"0.0.8--py_0": "sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae"}, "docker": "quay.io/biocontainers/isoncorrect", "aliases": {"isONcorrect": "/usr/local/bin/isONcorrect", "run_isoncorrect": "/usr/local/bin/run_isoncorrect", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/isoncorrect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isoncorrect", "latest": {"0.1.3.5--pyhdfd78af_0": "sha256:9a5f5cfe64337f223803d2e5f1531994e6979cb097475d98803df8ecfda41893"}, "tags": {"0.0.8--py_0": "sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae", "0.1.3.5--pyhdfd78af_0": "sha256:9a5f5cfe64337f223803d2e5f1531994e6979cb097475d98803df8ecfda41893"}, "docker": "quay.io/biocontainers/isoncorrect", "aliases": {"isONcorrect": "/usr/local/bin/isONcorrect", "run_isoncorrect": "/usr/local/bin/run_isoncorrect", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isoncorrect.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/isoncorrect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isoncorrect:0.0.8--py_0
+$ shpc install quay.io/biocontainers/isoncorrect:0.1.3.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isoncorrect/0.0.8--py_0
-$ module help quay.io/biocontainers/isoncorrect/0.0.8--py_0
+$ module load quay.io/biocontainers/isoncorrect/0.1.3.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/isoncorrect/0.1.3.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

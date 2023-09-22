@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/harmonypy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harmonypy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harmonypy/container.yaml"
-updated_at: "2023-09-21 02:39:30.001409"
-latest: "0.0.6--pyhdfd78af_0"
+updated_at: "2023-09-22 02:41:07.662726"
+latest: "0.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/harmonypy"
 aliases:
  - "f2py3.10"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.0.6--pyhdfd78af_0"
+ - "0.0.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for harmonypy"
-config: {"url": "https://biocontainers.pro/tools/harmonypy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmonypy", "latest": {"0.0.6--pyhdfd78af_0": "sha256:a9ac0b5f9b3c87e1a632d072c33b239d8f1c0e9e0cd7d1a7d29d59bdffa0c235"}, "tags": {"0.0.6--pyhdfd78af_0": "sha256:a9ac0b5f9b3c87e1a632d072c33b239d8f1c0e9e0cd7d1a7d29d59bdffa0c235"}, "docker": "quay.io/biocontainers/harmonypy", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/harmonypy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmonypy", "latest": {"0.0.9--pyhdfd78af_0": "sha256:2e34b52d7391a5d3855eca8bb43c7eedfdcff79297ab0dc81b3fc61d14642152"}, "tags": {"0.0.6--pyhdfd78af_0": "sha256:a9ac0b5f9b3c87e1a632d072c33b239d8f1c0e9e0cd7d1a7d29d59bdffa0c235", "0.0.9--pyhdfd78af_0": "sha256:2e34b52d7391a5d3855eca8bb43c7eedfdcff79297ab0dc81b3fc61d14642152"}, "docker": "quay.io/biocontainers/harmonypy", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/harmonypy.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/harmonypy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/harmonypy:0.0.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/harmonypy:0.0.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/harmonypy/0.0.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/harmonypy/0.0.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/harmonypy/0.0.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/harmonypy/0.0.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

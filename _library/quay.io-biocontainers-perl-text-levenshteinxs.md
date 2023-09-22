@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-levenshteinxs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-levenshteinxs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-levenshteinxs/container.yaml"
-updated_at: "2023-09-21 03:08:47.130361"
+updated_at: "2023-09-22 03:11:18.018840"
 latest: "0.03--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-text-levenshteinxs"
 aliases:

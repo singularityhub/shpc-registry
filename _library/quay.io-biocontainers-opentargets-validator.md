@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/opentargets-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opentargets-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets-validator/container.yaml"
-updated_at: "2023-09-21 02:58:19.303892"
-latest: "0.8.0--pyhdfd78af_0"
+updated_at: "2023-09-22 03:00:32.875253"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/opentargets-validator"
 aliases:
  - "opentargets_validator"
@@ -21,8 +21,9 @@ aliases:
  - "python3.7m"
 versions:
  - "0.8.0--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for opentargets-validator"
-config: {"url": "https://biocontainers.pro/tools/opentargets-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opentargets-validator", "latest": {"0.8.0--pyhdfd78af_0": "sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1"}, "docker": "quay.io/biocontainers/opentargets-validator", "aliases": {"opentargets_validator": "/usr/local/bin/opentargets_validator", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/opentargets-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opentargets-validator", "latest": {"1.0.0--pyhdfd78af_0": "sha256:d34bd6fc3f03ae0133436a1438ab5acaa1b053d1a40ab6bb38fda8e89c3dd52a"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1", "1.0.0--pyhdfd78af_0": "sha256:d34bd6fc3f03ae0133436a1438ab5acaa1b053d1a40ab6bb38fda8e89c3dd52a"}, "docker": "quay.io/biocontainers/opentargets-validator", "aliases": {"opentargets_validator": "/usr/local/bin/opentargets_validator", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/opentargets-validator.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/opentargets-validator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/opentargets-validator:0.8.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/opentargets-validator:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/opentargets-validator/0.8.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/opentargets-validator/0.8.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/opentargets-validator/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/opentargets-validator/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xengsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xengsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xengsort/container.yaml"
-updated_at: "2023-09-21 02:53:02.742607"
-latest: "1.5.0.3--pyhdfd78af_0"
+updated_at: "2023-09-22 02:55:08.348135"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/xengsort"
 aliases:
  - "xengsort"
@@ -21,8 +21,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.5.0.3--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for xengsort"
-config: {"url": "https://biocontainers.pro/tools/xengsort", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for xengsort", "latest": {"1.5.0.3--pyhdfd78af_0": "sha256:58e61fb25e77488323af66449876b5f389c3c77857a0524750b30ba3a3f068fd"}, "tags": {"1.5.0.3--pyhdfd78af_0": "sha256:58e61fb25e77488323af66449876b5f389c3c77857a0524750b30ba3a3f068fd"}, "docker": "quay.io/biocontainers/xengsort", "aliases": {"xengsort": "/usr/local/bin/xengsort", "f2py3.11": "/usr/local/bin/f2py3.11", "numba": "/usr/local/bin/numba", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/xengsort", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for xengsort", "latest": {"2.0.1--pyhdfd78af_0": "sha256:2b846327cf974967c1a03048b89cc44e2ab67318b2fd820216106e759394b2a5"}, "tags": {"1.5.0.3--pyhdfd78af_0": "sha256:58e61fb25e77488323af66449876b5f389c3c77857a0524750b30ba3a3f068fd", "2.0.1--pyhdfd78af_0": "sha256:2b846327cf974967c1a03048b89cc44e2ab67318b2fd820216106e759394b2a5"}, "docker": "quay.io/biocontainers/xengsort", "aliases": {"xengsort": "/usr/local/bin/xengsort", "f2py3.11": "/usr/local/bin/f2py3.11", "numba": "/usr/local/bin/numba", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xengsort.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/xengsort
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xengsort:1.5.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/xengsort:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xengsort/1.5.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/xengsort/1.5.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/xengsort/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/xengsort/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

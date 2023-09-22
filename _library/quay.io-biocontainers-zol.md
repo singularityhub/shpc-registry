@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zol/container.yaml"
-updated_at: "2023-09-21 02:56:28.184425"
-latest: "1.3.6--py310h0dbaff4_0"
+updated_at: "2023-09-22 02:58:38.068353"
+latest: "1.3.9--py310h0dbaff4_0"
 container_url: "https://biocontainers.pro/tools/zol"
 aliases:
  - "HYPHYMPI"
@@ -63,8 +63,9 @@ versions:
  - "1.2.7--py310h30d9df9_0"
  - "1.2.8--py310h30d9df9_0"
  - "1.3.6--py310h0dbaff4_0"
+ - "1.3.9--py310h0dbaff4_0"
 description: "singularity registry hpc automated addition for zol"
-config: {"url": "https://biocontainers.pro/tools/zol", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zol", "latest": {"1.3.6--py310h0dbaff4_0": "sha256:a93a5b0727d99965c1d63c59c0d1b584aeb5f4fbb2538eef30210f049dbb5c0e"}, "tags": {"1.2.7--py310h30d9df9_0": "sha256:e6fecbf5fb5bcd06df49b8a06e02f19b49046af79a05d377e66a845834e78258", "1.2.8--py310h30d9df9_0": "sha256:525638de0d1e583d55a1774922d12f4b93b6bf00b3d193088ee832496c86f256", "1.3.6--py310h0dbaff4_0": "sha256:a93a5b0727d99965c1d63c59c0d1b584aeb5f4fbb2538eef30210f049dbb5c0e"}, "docker": "quay.io/biocontainers/zol", "aliases": {"HYPHYMPI": "/usr/local/bin/HYPHYMPI", "ZOL": "/usr/local/bin/ZOL", "axel": "/usr/local/bin/axel", "clusterHeatmap.R": "/usr/local/bin/clusterHeatmap.R", "convertMiniprotGffToGbkAndProt.py": "/usr/local/bin/convertMiniprotGffToGbkAndProt.py", "extractBiG-SCAPEclusters.py": "/usr/local/bin/extractBiG-SCAPEclusters.py", "fai": "/usr/local/bin/fai", "findOrthologs.py": "/usr/local/bin/findOrthologs.py", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "hyphy": "/usr/local/bin/hyphy", "listAllGenomesInDirectory.py": "/usr/local/bin/listAllGenomesInDirectory.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "plotSegments.R": "/usr/local/bin/plotSegments.R", "prepTG": "/usr/local/bin/prepTG", "processNCBIGenBank.py": "/usr/local/bin/processNCBIGenBank.py", "pyrodigal": "/usr/local/bin/pyrodigal", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "runRBH": "/usr/local/bin/runRBH", "setup_annotation_dbs.py": "/usr/local/bin/setup_annotation_dbs.py", "skani": "/usr/local/bin/skani", "slclust": "/usr/local/bin/slclust", "splitDiamondResults": "/usr/local/bin/splitDiamondResults", "splitDiamondResultsForFai": "/usr/local/bin/splitDiamondResultsForFai", "zol": "/usr/local/bin/zol", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
+config: {"url": "https://biocontainers.pro/tools/zol", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zol", "latest": {"1.3.9--py310h0dbaff4_0": "sha256:dd412bf8349a055a65395b305fbc2330381c0f39430950d284a9a4c888c67137"}, "tags": {"1.2.7--py310h30d9df9_0": "sha256:e6fecbf5fb5bcd06df49b8a06e02f19b49046af79a05d377e66a845834e78258", "1.2.8--py310h30d9df9_0": "sha256:525638de0d1e583d55a1774922d12f4b93b6bf00b3d193088ee832496c86f256", "1.3.6--py310h0dbaff4_0": "sha256:a93a5b0727d99965c1d63c59c0d1b584aeb5f4fbb2538eef30210f049dbb5c0e", "1.3.9--py310h0dbaff4_0": "sha256:dd412bf8349a055a65395b305fbc2330381c0f39430950d284a9a4c888c67137"}, "docker": "quay.io/biocontainers/zol", "aliases": {"HYPHYMPI": "/usr/local/bin/HYPHYMPI", "ZOL": "/usr/local/bin/ZOL", "axel": "/usr/local/bin/axel", "clusterHeatmap.R": "/usr/local/bin/clusterHeatmap.R", "convertMiniprotGffToGbkAndProt.py": "/usr/local/bin/convertMiniprotGffToGbkAndProt.py", "extractBiG-SCAPEclusters.py": "/usr/local/bin/extractBiG-SCAPEclusters.py", "fai": "/usr/local/bin/fai", "findOrthologs.py": "/usr/local/bin/findOrthologs.py", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "hyphy": "/usr/local/bin/hyphy", "listAllGenomesInDirectory.py": "/usr/local/bin/listAllGenomesInDirectory.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "plotSegments.R": "/usr/local/bin/plotSegments.R", "prepTG": "/usr/local/bin/prepTG", "processNCBIGenBank.py": "/usr/local/bin/processNCBIGenBank.py", "pyrodigal": "/usr/local/bin/pyrodigal", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "runRBH": "/usr/local/bin/runRBH", "setup_annotation_dbs.py": "/usr/local/bin/setup_annotation_dbs.py", "skani": "/usr/local/bin/skani", "slclust": "/usr/local/bin/slclust", "splitDiamondResults": "/usr/local/bin/splitDiamondResults", "splitDiamondResultsForFai": "/usr/local/bin/splitDiamondResultsForFai", "zol": "/usr/local/bin/zol", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zol.
@@ -79,7 +80,7 @@ $ shpc install quay.io/biocontainers/zol
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zol:1.3.6--py310h0dbaff4_0
+$ shpc install quay.io/biocontainers/zol:1.3.9--py310h0dbaff4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +92,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zol/1.3.6--py310h0dbaff4_0
-$ module help quay.io/biocontainers/zol/1.3.6--py310h0dbaff4_0
+$ module load quay.io/biocontainers/zol/1.3.9--py310h0dbaff4_0
+$ module help quay.io/biocontainers/zol/1.3.9--py310h0dbaff4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
