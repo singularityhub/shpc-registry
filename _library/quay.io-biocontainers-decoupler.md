@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/decoupler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decoupler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decoupler/container.yaml"
-updated_at: "2023-09-22 04:28:48.894420"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2023-09-23 03:13:33.543085"
+latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/decoupler"
 aliases:
  - "h5delete"
@@ -35,8 +35,10 @@ aliases:
  - "h5jam"
 versions:
  - "1.4.0--pyhdfd78af_0"
+ - "1.5.0--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for decoupler"
-config: {"url": "https://biocontainers.pro/tools/decoupler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for decoupler", "latest": {"1.4.0--pyhdfd78af_0": "sha256:2190f202335fd1810a09564182c484047207b4fa907b51fccf88182dcc8a4782"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:2190f202335fd1810a09564182c484047207b4fa907b51fccf88182dcc8a4782"}, "docker": "quay.io/biocontainers/decoupler", "aliases": {"h5delete": "/usr/local/bin/h5delete", "aec": "/usr/local/bin/aec", "f2py3.11": "/usr/local/bin/f2py3.11", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
+config: {"url": "https://biocontainers.pro/tools/decoupler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for decoupler", "latest": {"1.5.0--pyhdfd78af_0": "sha256:515d317c4fbd9c365f084c877a95fb4eac3b740274a8afe84f2d20e4e95171ea"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:2190f202335fd1810a09564182c484047207b4fa907b51fccf88182dcc8a4782", "1.5.0--pyhdfd78af_0": "sha256:515d317c4fbd9c365f084c877a95fb4eac3b740274a8afe84f2d20e4e95171ea", "1.4.0--pyhdfd78af_1": "sha256:6d65af448df68eec9ac40e5edcde7081676813c334f16e4c448b9cb21f26e9d3"}, "docker": "quay.io/biocontainers/decoupler", "aliases": {"h5delete": "/usr/local/bin/h5delete", "aec": "/usr/local/bin/aec", "f2py3.11": "/usr/local/bin/f2py3.11", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/decoupler.
@@ -51,7 +53,7 @@ $ shpc install quay.io/biocontainers/decoupler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/decoupler:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/decoupler:1.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/decoupler/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/decoupler/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/decoupler/1.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/decoupler/1.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

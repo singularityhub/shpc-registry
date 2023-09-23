@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hu35ksubcprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hu35ksubcprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hu35ksubcprobe/container.yaml"
-updated_at: "2023-09-22 04:03:44.576864"
+updated_at: "2023-09-23 02:48:28.601828"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-hu35ksubcprobe"
 

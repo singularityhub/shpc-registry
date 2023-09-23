@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamread/container.yaml"
-updated_at: "2023-09-22 04:18:43.496406"
+updated_at: "2023-09-23 03:03:26.572009"
 latest: "0.0.16--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/bamread"
 aliases:

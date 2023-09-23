@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/exomiser-rest-prioritiser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/exomiser-rest-prioritiser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/exomiser-rest-prioritiser/container.yaml"
-updated_at: "2023-09-22 04:08:09.249588"
-latest: "13.2.0--hdfd78af_0"
+updated_at: "2023-09-23 02:52:56.930688"
+latest: "13.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/exomiser-rest-prioritiser"
 aliases:
  - "exomiser-rest-prioritiser"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "12.1.0--hdfd78af_2"
  - "13.2.0--hdfd78af_0"
+ - "13.2.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for exomiser-rest-prioritiser"
-config: {"url": "https://biocontainers.pro/tools/exomiser-rest-prioritiser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exomiser-rest-prioritiser", "latest": {"13.2.0--hdfd78af_0": "sha256:408a99cfa2c173cc77663e9278350f6461fe65692005f6f235d6ac48bc6fa47b"}, "tags": {"12.1.0--hdfd78af_2": "sha256:852466477c415c7875e867ce9057162d6581eca7d69597d0dfa9f864657d93af", "13.2.0--hdfd78af_0": "sha256:408a99cfa2c173cc77663e9278350f6461fe65692005f6f235d6ac48bc6fa47b"}, "docker": "quay.io/biocontainers/exomiser-rest-prioritiser", "aliases": {"exomiser-rest-prioritiser": "/usr/local/bin/exomiser-rest-prioritiser", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/exomiser-rest-prioritiser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exomiser-rest-prioritiser", "latest": {"13.2.1--hdfd78af_0": "sha256:5fb735636e9b0296158c8757ccfbe8a933dbc1b621b06b781321076cadee7289"}, "tags": {"12.1.0--hdfd78af_2": "sha256:852466477c415c7875e867ce9057162d6581eca7d69597d0dfa9f864657d93af", "13.2.0--hdfd78af_0": "sha256:408a99cfa2c173cc77663e9278350f6461fe65692005f6f235d6ac48bc6fa47b", "13.2.1--hdfd78af_0": "sha256:5fb735636e9b0296158c8757ccfbe8a933dbc1b621b06b781321076cadee7289"}, "docker": "quay.io/biocontainers/exomiser-rest-prioritiser", "aliases": {"exomiser-rest-prioritiser": "/usr/local/bin/exomiser-rest-prioritiser", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/exomiser-rest-prioritiser.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/exomiser-rest-prioritiser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/exomiser-rest-prioritiser:13.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/exomiser-rest-prioritiser:13.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/exomiser-rest-prioritiser/13.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/exomiser-rest-prioritiser/13.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/exomiser-rest-prioritiser/13.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/exomiser-rest-prioritiser/13.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

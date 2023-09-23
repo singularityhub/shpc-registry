@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chronumental"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chronumental/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chronumental/container.yaml"
-updated_at: "2023-09-22 04:11:35.207425"
-latest: "0.0.50--pyhdfd78af_0"
+updated_at: "2023-09-23 02:56:20.685478"
+latest: "0.0.61--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chronumental"
 aliases:
  - "chronumental"
@@ -33,8 +33,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.0.50--pyhdfd78af_0"
+ - "0.0.61--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for chronumental"
-config: {"url": "https://biocontainers.pro/tools/chronumental", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chronumental", "latest": {"0.0.50--pyhdfd78af_0": "sha256:16d037a4f72507b6d9b18d60bc60fe0304bb9998e77bbda766ae14b04105efef"}, "tags": {"0.0.50--pyhdfd78af_0": "sha256:16d037a4f72507b6d9b18d60bc60fe0304bb9998e77bbda766ae14b04105efef"}, "docker": "quay.io/biocontainers/chronumental", "aliases": {"chronumental": "/usr/local/bin/chronumental", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/chronumental", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chronumental", "latest": {"0.0.61--pyhdfd78af_0": "sha256:dd50e65fc039f202eb445f9c6e90b5e763cd14c407d6e1a5c5d663cb00a808c5"}, "tags": {"0.0.50--pyhdfd78af_0": "sha256:16d037a4f72507b6d9b18d60bc60fe0304bb9998e77bbda766ae14b04105efef", "0.0.61--pyhdfd78af_0": "sha256:dd50e65fc039f202eb445f9c6e90b5e763cd14c407d6e1a5c5d663cb00a808c5"}, "docker": "quay.io/biocontainers/chronumental", "aliases": {"chronumental": "/usr/local/bin/chronumental", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chronumental.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/chronumental
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chronumental:0.0.50--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/chronumental:0.0.61--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chronumental/0.0.50--pyhdfd78af_0
-$ module help quay.io/biocontainers/chronumental/0.0.50--pyhdfd78af_0
+$ module load quay.io/biocontainers/chronumental/0.0.61--pyhdfd78af_0
+$ module help quay.io/biocontainers/chronumental/0.0.61--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

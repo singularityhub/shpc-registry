@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/goalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goalign/container.yaml"
-updated_at: "2023-09-22 04:39:30.701916"
-latest: "0.3.5--h4b4d50d_1"
+updated_at: "2023-09-23 03:24:18.191316"
+latest: "0.3.6--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/goalign"
 aliases:
  - "goalign"
  - "goalign_test.sh"
 versions:
  - "0.3.5--h4b4d50d_1"
+ - "0.3.6--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for goalign"
-config: {"url": "https://biocontainers.pro/tools/goalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goalign", "latest": {"0.3.5--h4b4d50d_1": "sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd"}, "tags": {"0.3.5--h4b4d50d_1": "sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd"}, "docker": "quay.io/biocontainers/goalign", "aliases": {"goalign": "/usr/local/bin/goalign", "goalign_test.sh": "/usr/local/bin/goalign_test.sh"}}
+config: {"url": "https://biocontainers.pro/tools/goalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goalign", "latest": {"0.3.6--h9ee0642_0": "sha256:2279c6da8d61d3e2c55fda80ecc6aeb595ebd525867b787800d40d032db42012"}, "tags": {"0.3.5--h4b4d50d_1": "sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd", "0.3.6--h9ee0642_0": "sha256:2279c6da8d61d3e2c55fda80ecc6aeb595ebd525867b787800d40d032db42012"}, "docker": "quay.io/biocontainers/goalign", "aliases": {"goalign": "/usr/local/bin/goalign", "goalign_test.sh": "/usr/local/bin/goalign_test.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/goalign.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/goalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/goalign:0.3.5--h4b4d50d_1
+$ shpc install quay.io/biocontainers/goalign:0.3.6--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/goalign/0.3.5--h4b4d50d_1
-$ module help quay.io/biocontainers/goalign/0.3.5--h4b4d50d_1
+$ module load quay.io/biocontainers/goalign/0.3.6--h9ee0642_0
+$ module help quay.io/biocontainers/goalign/0.3.6--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
