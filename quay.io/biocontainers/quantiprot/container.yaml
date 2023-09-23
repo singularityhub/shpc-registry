@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/quantiprot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for quantiprot
 latest:
-  0.2.4--py_0: sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c
+  0.2.5--pyh7cba7a3_0: sha256:fee33fdce86316367f8b3473e887fe4151778ca6e72bbd7cfa0eb77f8df6f98a
 tags:
   0.2.4--py_0: sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c
+  0.2.5--pyh7cba7a3_0: sha256:fee33fdce86316367f8b3473e887fe4151778ca6e72bbd7cfa0eb77f8df6f98a
 docker: quay.io/biocontainers/quantiprot
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

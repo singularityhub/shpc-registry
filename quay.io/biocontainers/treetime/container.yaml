@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/treetime
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for treetime
 latest:
-  0.11.0--pyhdfd78af_0: sha256:4992f0fb2fc90519c8508ce6293e1aefe697a20f7cb34179f991a7b38e4c7f79
+  0.11.1--pyhdfd78af_0: sha256:f252d4f707aecc58fe52a4403cea86e4da27d17f8cb3e436c0dc00599cf0071f
 tags:
   0.9.4--pyh7cba7a3_0: sha256:df33fd4fd5195a6b2346d5e2d33f56e00af8f2490ec094612d8895347c4f0be3
   0.9.5--pyh7cba7a3_0: sha256:afd5467511dbc4a4385ebcd05ded2cfe697b22e4c374a7e2445d05fd11cb641c
@@ -10,6 +10,7 @@ tags:
   0.10.0--pyh7cba7a3_0: sha256:f736afcfc384845befcc0af0bea047a2ea63728b274bfaab2d36e72c7bfd0255
   0.10.1--pyh7cba7a3_0: sha256:b54b9fbc03b32547fa6978769a30c145574c77c80410664e5bd1cf2240b369a2
   0.11.0--pyhdfd78af_0: sha256:4992f0fb2fc90519c8508ce6293e1aefe697a20f7cb34179f991a7b38e4c7f79
+  0.11.1--pyhdfd78af_0: sha256:f252d4f707aecc58fe52a4403cea86e4da27d17f8cb3e436c0dc00599cf0071f
 docker: quay.io/biocontainers/treetime
 aliases:
   treetime: /usr/local/bin/treetime
