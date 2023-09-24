@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mavenn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mavenn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mavenn/container.yaml"
-updated_at: "2023-09-23 03:16:59.822198"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2023-09-24 03:07:59.924617"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mavenn"
 aliases:
  - "import_pb_to_tensorboard"
@@ -21,8 +21,9 @@ aliases:
  - "tf_upgrade_v2"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mavenn"
-config: {"url": "https://biocontainers.pro/tools/mavenn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavenn", "latest": {"1.0.0--pyhdfd78af_0": "sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a"}, "docker": "quay.io/biocontainers/mavenn", "aliases": {"import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2"}}
+config: {"url": "https://biocontainers.pro/tools/mavenn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavenn", "latest": {"1.0.2--pyhdfd78af_0": "sha256:45d936eacb059ec48a0cedf54c641ac6a2e49fb30a3c42e06fab221e51566d59"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a", "1.0.2--pyhdfd78af_0": "sha256:45d936eacb059ec48a0cedf54c641ac6a2e49fb30a3c42e06fab221e51566d59"}, "docker": "quay.io/biocontainers/mavenn", "aliases": {"import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mavenn.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/mavenn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mavenn:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mavenn:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mavenn/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mavenn/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mavenn/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/mavenn/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

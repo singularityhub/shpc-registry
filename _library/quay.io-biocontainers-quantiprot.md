@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quantiprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantiprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quantiprot/container.yaml"
-updated_at: "2023-09-23 02:26:48.327062"
-latest: "0.2.4--py_0"
+updated_at: "2023-09-24 02:28:29.186432"
+latest: "0.2.5--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/quantiprot"
 aliases:
  - "f2py3.8"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.2.4--py_0"
+ - "0.2.5--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for quantiprot"
-config: {"url": "https://biocontainers.pro/tools/quantiprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quantiprot", "latest": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "tags": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "docker": "quay.io/biocontainers/quantiprot", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/quantiprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quantiprot", "latest": {"0.2.5--pyh7cba7a3_0": "sha256:fee33fdce86316367f8b3473e887fe4151778ca6e72bbd7cfa0eb77f8df6f98a"}, "tags": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c", "0.2.5--pyh7cba7a3_0": "sha256:fee33fdce86316367f8b3473e887fe4151778ca6e72bbd7cfa0eb77f8df6f98a"}, "docker": "quay.io/biocontainers/quantiprot", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quantiprot.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/quantiprot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quantiprot:0.2.4--py_0
+$ shpc install quay.io/biocontainers/quantiprot:0.2.5--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quantiprot/0.2.4--py_0
-$ module help quay.io/biocontainers/quantiprot/0.2.4--py_0
+$ module load quay.io/biocontainers/quantiprot/0.2.5--pyh7cba7a3_0
+$ module help quay.io/biocontainers/quantiprot/0.2.5--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

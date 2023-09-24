@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hibag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hibag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hibag/container.yaml"
-updated_at: "2023-09-23 02:29:13.485982"
+updated_at: "2023-09-24 02:30:24.183100"
 latest: "1.36.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hibag"
 

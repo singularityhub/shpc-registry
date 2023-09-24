@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancergrasso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancergrasso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancergrasso/container.yaml"
-updated_at: "2023-09-23 03:10:31.730780"
+updated_at: "2023-09-24 03:02:53.407965"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancergrasso"
 
