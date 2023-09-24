@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/plassembler
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plassembler
 latest:
-  1.1.0--pyhdfd78af_0: sha256:4274bc868a2bea27cde40f8350fe8029eb942165d888c9ccaa3fb91e03acaf43
+  1.2.0--pyhdfd78af_0: sha256:b4512aeee1531a5dba6f743b8c333e693db88d32412c63474a6c8a211e31187d
 tags:
   0.1.5--hdfd78af_0: sha256:f069f36c2a92d5708bb543a2d1375a4a233e46874ee09af94f6501606f339f8b
   1.0.0--hdfd78af_1: sha256:f5510b54062811d74a4e2c3c1f6109486609b8a75df575b9cb5fc9997f60f485
   1.1.0--pyhdfd78af_0: sha256:4274bc868a2bea27cde40f8350fe8029eb942165d888c9ccaa3fb91e03acaf43
+  1.2.0--pyhdfd78af_0: sha256:b4512aeee1531a5dba6f743b8c333e693db88d32412c63474a6c8a211e31187d
 docker: quay.io/biocontainers/plassembler
 aliases:
   NanoFilt: /usr/local/bin/NanoFilt
