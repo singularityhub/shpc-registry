@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-blma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blma/container.yaml"
-updated_at: "2023-09-24 02:57:06.385295"
+updated_at: "2023-09-25 02:57:49.534490"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blma"
 aliases:

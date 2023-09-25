@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-match"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-match/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-match/container.yaml"
-updated_at: "2023-09-24 02:44:19.788337"
+updated_at: "2023-09-25 02:44:59.388781"
 latest: "0.06--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-data-match"
 aliases:

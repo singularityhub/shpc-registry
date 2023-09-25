@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metagxbreast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagxbreast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagxbreast/container.yaml"
-updated_at: "2023-09-24 02:39:00.562834"
+updated_at: "2023-09-25 02:39:37.487139"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagxbreast"
 aliases:

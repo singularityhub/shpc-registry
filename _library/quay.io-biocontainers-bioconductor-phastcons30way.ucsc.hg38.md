@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phastcons30way.ucsc.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phastcons30way.ucsc.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phastcons30way.ucsc.hg38/container.yaml"
-updated_at: "2023-09-24 02:41:09.094072"
+updated_at: "2023-09-25 02:41:47.152267"
 latest: "3.13.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-phastcons30way.ucsc.hg38"
 

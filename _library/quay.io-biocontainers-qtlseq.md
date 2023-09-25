@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/qtlseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qtlseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qtlseq/container.yaml"
-updated_at: "2023-09-24 03:04:52.572376"
-latest: "2.2.3--pyhdfd78af_0"
+updated_at: "2023-09-25 03:05:39.977741"
+latest: "2.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qtlseq"
 aliases:
  - "qtlplot"
@@ -22,8 +22,9 @@ aliases:
  - "color-chrs.pl"
 versions:
  - "2.2.3--pyhdfd78af_0"
+ - "2.2.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for qtlseq"
-config: {"url": "https://biocontainers.pro/tools/qtlseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qtlseq", "latest": {"2.2.3--pyhdfd78af_0": "sha256:1c2528cfe6194e60d44c08b0edaf7e4d3466a712c061b88ed994d0fecfe8d189"}, "tags": {"2.2.3--pyhdfd78af_0": "sha256:1c2528cfe6194e60d44c08b0edaf7e4d3466a712c061b88ed994d0fecfe8d189"}, "docker": "quay.io/biocontainers/qtlseq", "aliases": {"qtlplot": "/usr/local/bin/qtlplot", "qtlseq": "/usr/local/bin/qtlseq", "snpEff": "/usr/local/bin/snpEff", "trimmomatic": "/usr/local/bin/trimmomatic", "gff2gff.py": "/usr/local/bin/gff2gff.py", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl"}}
+config: {"url": "https://biocontainers.pro/tools/qtlseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qtlseq", "latest": {"2.2.4--pyhdfd78af_0": "sha256:88c93459ce0ad1d95dbd462e0f782350e303505b78e98bef48ff2a3fcda65344"}, "tags": {"2.2.3--pyhdfd78af_0": "sha256:1c2528cfe6194e60d44c08b0edaf7e4d3466a712c061b88ed994d0fecfe8d189", "2.2.4--pyhdfd78af_0": "sha256:88c93459ce0ad1d95dbd462e0f782350e303505b78e98bef48ff2a3fcda65344"}, "docker": "quay.io/biocontainers/qtlseq", "aliases": {"qtlplot": "/usr/local/bin/qtlplot", "qtlseq": "/usr/local/bin/qtlseq", "snpEff": "/usr/local/bin/snpEff", "trimmomatic": "/usr/local/bin/trimmomatic", "gff2gff.py": "/usr/local/bin/gff2gff.py", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qtlseq.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/qtlseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/qtlseq:2.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/qtlseq:2.2.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/qtlseq/2.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/qtlseq/2.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/qtlseq/2.2.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/qtlseq/2.2.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

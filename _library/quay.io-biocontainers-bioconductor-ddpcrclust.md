@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ddpcrclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ddpcrclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ddpcrclust/container.yaml"
-updated_at: "2023-09-24 02:32:59.197414"
+updated_at: "2023-09-25 02:33:33.078084"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ddpcrclust"
 aliases:

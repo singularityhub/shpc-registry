@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gvcfgenotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcfgenotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcfgenotyper/container.yaml"
-updated_at: "2023-09-24 02:33:26.852152"
+updated_at: "2023-09-25 02:34:00.827122"
 latest: "2019.02.26--hf5e1c6e_4"
 container_url: "https://biocontainers.pro/tools/gvcfgenotyper"
 aliases:

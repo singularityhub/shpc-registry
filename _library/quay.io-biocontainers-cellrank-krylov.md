@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellrank-krylov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellrank-krylov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellrank-krylov/container.yaml"
-updated_at: "2023-09-24 02:52:00.960376"
+updated_at: "2023-09-25 02:52:43.083249"
 latest: "1.5.1--pyh1e54042_0"
 container_url: "https://biocontainers.pro/tools/cellrank-krylov"
 aliases:
