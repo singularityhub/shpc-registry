@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/melon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for melon
+latest:
+  0.0.1--pyhdfd78af_0: sha256:e78f4a3115c42e2b5c529849214956cc9891ea86aac81cf6af4afc5995ae66f4
+tags:
+  0.0.1--pyhdfd78af_0: sha256:e78f4a3115c42e2b5c529849214956cc9891ea86aac81cf6af4afc5995ae66f4
+docker: quay.io/biocontainers/melon
+aliases:
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  melon: /usr/local/bin/melon
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  uuid: /usr/local/bin/uuid
+  uuid-config: /usr/local/bin/uuid-config
+  seqkit: /usr/local/bin/seqkit
+  test_pcre: /usr/local/bin/test_pcre
+  diamond: /usr/local/bin/diamond
+  sdust: /usr/local/bin/sdust
+  k8: /usr/local/bin/k8
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
