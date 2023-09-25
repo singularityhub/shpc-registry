@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mutmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mutmap
 latest:
-  2.3.3--pyhdfd78af_0: sha256:c69c1cf7d39e7ff78811ce40ddca79b21219641aada2627b916e9790bdf48158
+  2.3.4--pyhdfd78af_0: sha256:20977094657505a683cefc2203b9ac3a074e5e75fefeeea489b1c647236464a1
 tags:
   2.3.3--pyhdfd78af_0: sha256:c69c1cf7d39e7ff78811ce40ddca79b21219641aada2627b916e9790bdf48158
+  2.3.4--pyhdfd78af_0: sha256:20977094657505a683cefc2203b9ac3a074e5e75fefeeea489b1c647236464a1
 docker: quay.io/biocontainers/mutmap
 aliases:
   mutmap: /usr/local/bin/mutmap
