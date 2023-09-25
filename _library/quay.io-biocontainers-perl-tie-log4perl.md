@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tie-log4perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-log4perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-log4perl/container.yaml"
-updated_at: "2023-09-25 02:25:07.930697"
+updated_at: "2023-09-25 03:21:29.147595"
 latest: "0.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-tie-log4perl"
 aliases:

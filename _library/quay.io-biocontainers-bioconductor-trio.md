@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trio/container.yaml"
-updated_at: "2023-09-25 02:49:48.680266"
+updated_at: "2023-09-25 03:52:13.381056"
 latest: "3.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trio"
 
