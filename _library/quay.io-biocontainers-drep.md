@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/drep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drep/container.yaml"
-updated_at: "2023-09-25 03:34:33.870404"
-latest: "3.4.3--pyhdfd78af_0"
+updated_at: "2023-09-26 02:37:54.336319"
+latest: "3.4.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drep"
 aliases:
  - "ScaffoldLevel_dRep.py"
@@ -27,8 +27,9 @@ versions:
  - "3.4.1--pyhdfd78af_0"
  - "3.4.2--pyhdfd78af_0"
  - "3.4.3--pyhdfd78af_0"
+ - "3.4.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for drep"
-config: {"url": "https://biocontainers.pro/tools/drep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drep", "latest": {"3.4.3--pyhdfd78af_0": "sha256:5cb37e910f309ccdc7119f684b56d433ae9fdabad047d7dbd24ae10de3c3a5ad"}, "tags": {"3.4.0--pyhdfd78af_0": "sha256:29cd012e834f5597788386baf4fec63a2b83dde450d01f1c66648f0acaee4bbc", "3.4.1--pyhdfd78af_0": "sha256:4745a10ed825afb1eda729190aa45a180a20125339cfa6e99698d3afe73cde34", "3.4.2--pyhdfd78af_0": "sha256:d60f32191a9482fd7f008138ae815cb2309aefc900fe4bd54ad82d869909f7f7", "3.4.3--pyhdfd78af_0": "sha256:5cb37e910f309ccdc7119f684b56d433ae9fdabad047d7dbd24ae10de3c3a5ad"}, "docker": "quay.io/biocontainers/drep", "aliases": {"ScaffoldLevel_dRep.py": "/usr/local/bin/ScaffoldLevel_dRep.py", "dRep": "/usr/local/bin/dRep", "delta2vcf": "/usr/local/bin/delta2vcf", "parse_stb.py": "/usr/local/bin/parse_stb.py", "fastANI": "/usr/local/bin/fastANI", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems"}}
+config: {"url": "https://biocontainers.pro/tools/drep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drep", "latest": {"3.4.5--pyhdfd78af_0": "sha256:13d000bd81346c169a2b387b6d8a038181cb6d5c58c55cde1d9c3528cb13d751"}, "tags": {"3.4.0--pyhdfd78af_0": "sha256:29cd012e834f5597788386baf4fec63a2b83dde450d01f1c66648f0acaee4bbc", "3.4.1--pyhdfd78af_0": "sha256:4745a10ed825afb1eda729190aa45a180a20125339cfa6e99698d3afe73cde34", "3.4.2--pyhdfd78af_0": "sha256:d60f32191a9482fd7f008138ae815cb2309aefc900fe4bd54ad82d869909f7f7", "3.4.3--pyhdfd78af_0": "sha256:5cb37e910f309ccdc7119f684b56d433ae9fdabad047d7dbd24ae10de3c3a5ad", "3.4.5--pyhdfd78af_0": "sha256:13d000bd81346c169a2b387b6d8a038181cb6d5c58c55cde1d9c3528cb13d751"}, "docker": "quay.io/biocontainers/drep", "aliases": {"ScaffoldLevel_dRep.py": "/usr/local/bin/ScaffoldLevel_dRep.py", "dRep": "/usr/local/bin/dRep", "delta2vcf": "/usr/local/bin/delta2vcf", "parse_stb.py": "/usr/local/bin/parse_stb.py", "fastANI": "/usr/local/bin/fastANI", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drep.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/drep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/drep:3.4.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/drep:3.4.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/drep/3.4.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/drep/3.4.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/drep/3.4.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/drep/3.4.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

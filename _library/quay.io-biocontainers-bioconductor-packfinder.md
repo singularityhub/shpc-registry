@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-packfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-packfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-packfinder/container.yaml"
-updated_at: "2023-09-25 03:30:01.861113"
+updated_at: "2023-09-26 02:33:22.851691"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-packfinder"
 

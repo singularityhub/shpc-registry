@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/caper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/caper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/caper/container.yaml"
-updated_at: "2023-09-25 04:25:03.600684"
+updated_at: "2023-09-26 03:27:47.873909"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/caper"
 aliases:

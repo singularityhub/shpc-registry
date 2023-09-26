@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ena-upload-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-upload-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ena-upload-cli/container.yaml"
-updated_at: "2023-09-25 04:06:54.941803"
+updated_at: "2023-09-26 03:09:35.717223"
 latest: "0.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ena-upload-cli"
 aliases:

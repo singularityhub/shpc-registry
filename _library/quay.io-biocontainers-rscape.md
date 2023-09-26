@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rscape/container.yaml"
-updated_at: "2023-09-25 03:27:18.245866"
+updated_at: "2023-09-26 02:30:50.171754"
 latest: "1.4.0--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/rscape"
 aliases:

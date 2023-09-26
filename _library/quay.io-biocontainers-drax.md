@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drax/container.yaml"
-updated_at: "2023-09-25 04:15:36.234152"
+updated_at: "2023-09-26 03:18:12.251001"
 latest: "0.0.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/drax"
 aliases:

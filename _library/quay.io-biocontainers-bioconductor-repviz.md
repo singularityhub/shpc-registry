@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-repviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-repviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-repviz/container.yaml"
-updated_at: "2023-09-25 03:46:24.351732"
+updated_at: "2023-09-26 02:49:17.204242"
 latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-repviz"
 aliases:

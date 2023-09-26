@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntjoin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntjoin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntjoin/container.yaml"
-updated_at: "2023-09-25 04:09:17.274827"
-latest: "1.1.1--py38he0f268d_2"
+updated_at: "2023-09-26 03:11:56.220884"
+latest: "1.1.3--py310h2b6aa90_0"
 container_url: "https://biocontainers.pro/tools/ntjoin"
 aliases:
  - "gunzip"
@@ -46,8 +46,9 @@ versions:
  - "1.1.1--py39h6935b12_0"
  - "1.1.1--py39h6935b12_1"
  - "1.1.1--py38he0f268d_2"
+ - "1.1.3--py310h2b6aa90_0"
 description: "shpc-registry automated BioContainers addition for ntjoin"
-config: {"url": "https://biocontainers.pro/tools/ntjoin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntjoin", "latest": {"1.1.1--py38he0f268d_2": "sha256:b99bab47011446d52a1ecdcc1cd1f0bc9a873c8c54d6ee52c9bc0f5cb5144bb8"}, "tags": {"1.1.1--py39h6935b12_0": "sha256:c575f6cb1507232dfc6fa7e37ed579ff4a8625e2bfd11c980042588aebc43d2b", "1.1.1--py39h6935b12_1": "sha256:599d4ce2b5a6901a2e55ee154e8a18efdaf50eb5cb5717e936b664d22dabf573", "1.1.1--py38he0f268d_2": "sha256:b99bab47011446d52a1ecdcc1cd1f0bc9a873c8c54d6ee52c9bc0f5cb5144bb8"}, "docker": "quay.io/biocontainers/ntjoin", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "ntJoin": "/usr/local/bin/ntJoin", "ntjoin_assemble.py": "/usr/local/bin/ntjoin_assemble.py", "ntjoin_overlap.py": "/usr/local/bin/ntjoin_overlap.py", "ntjoin_utils.py": "/usr/local/bin/ntjoin_utils.py", "read_fasta.py": "/usr/local/bin/read_fasta.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zip": "/usr/local/bin/zip", "igraph": "/usr/local/bin/igraph", "tar": "/usr/local/bin/tar", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "pigz": "/usr/local/bin/pigz"}}
+config: {"url": "https://biocontainers.pro/tools/ntjoin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntjoin", "latest": {"1.1.3--py310h2b6aa90_0": "sha256:ccaea869412258c9e6bac7b2b0f9b7e5daa2c0066d75198ba69cf7617a31de3c"}, "tags": {"1.1.1--py39h6935b12_0": "sha256:c575f6cb1507232dfc6fa7e37ed579ff4a8625e2bfd11c980042588aebc43d2b", "1.1.1--py39h6935b12_1": "sha256:599d4ce2b5a6901a2e55ee154e8a18efdaf50eb5cb5717e936b664d22dabf573", "1.1.1--py38he0f268d_2": "sha256:b99bab47011446d52a1ecdcc1cd1f0bc9a873c8c54d6ee52c9bc0f5cb5144bb8", "1.1.3--py310h2b6aa90_0": "sha256:ccaea869412258c9e6bac7b2b0f9b7e5daa2c0066d75198ba69cf7617a31de3c"}, "docker": "quay.io/biocontainers/ntjoin", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "ntJoin": "/usr/local/bin/ntJoin", "ntjoin_assemble.py": "/usr/local/bin/ntjoin_assemble.py", "ntjoin_overlap.py": "/usr/local/bin/ntjoin_overlap.py", "ntjoin_utils.py": "/usr/local/bin/ntjoin_utils.py", "read_fasta.py": "/usr/local/bin/read_fasta.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zip": "/usr/local/bin/zip", "igraph": "/usr/local/bin/igraph", "tar": "/usr/local/bin/tar", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "pigz": "/usr/local/bin/pigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntjoin.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/ntjoin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntjoin:1.1.1--py38he0f268d_2
+$ shpc install quay.io/biocontainers/ntjoin:1.1.3--py310h2b6aa90_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntjoin/1.1.1--py38he0f268d_2
-$ module help quay.io/biocontainers/ntjoin/1.1.1--py38he0f268d_2
+$ module load quay.io/biocontainers/ntjoin/1.1.3--py310h2b6aa90_0
+$ module help quay.io/biocontainers/ntjoin/1.1.3--py310h2b6aa90_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

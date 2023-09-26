@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmer-jellyfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmer-jellyfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmer-jellyfish/container.yaml"
-updated_at: "2023-09-25 03:41:10.375558"
+updated_at: "2023-09-26 02:44:18.099765"
 latest: "2.3.0--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/kmer-jellyfish"
 aliases:

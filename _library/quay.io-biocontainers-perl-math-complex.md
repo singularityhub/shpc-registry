@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-complex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-complex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-complex/container.yaml"
-updated_at: "2023-09-25 03:31:08.147527"
+updated_at: "2023-09-26 02:34:27.026539"
 latest: "1.59--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-math-complex"
 aliases:
