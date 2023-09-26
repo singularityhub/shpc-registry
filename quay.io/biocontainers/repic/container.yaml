@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/repic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for repic
 latest:
-  0.2.0--pyh7cba7a3_0: sha256:f0a42dff32b1e720ad76c02596d9707ffb28e1fe8eff6b12c062d17ab8fb42ae
+  0.2.1--pyhdfd78af_0: sha256:d29e1d197d2f436bd6ebbcfaa89b864b7455a25ff4de819204fee7a181fd6a27
 tags:
   0.0.0--pyh7cba7a3_0: sha256:fea1b31ed3fa8c1499f5b625f3696d52bcb10e003e9472dc0b20fcfca2e85aa2
   0.1.0--pyh7cba7a3_0: sha256:c26f3ff0b6053af741a104ddf20ae002720c2f60c0dbb37528e8b7ad7e7f19e2
   0.2.0--pyh7cba7a3_0: sha256:f0a42dff32b1e720ad76c02596d9707ffb28e1fe8eff6b12c062d17ab8fb42ae
+  0.2.1--pyhdfd78af_0: sha256:d29e1d197d2f436bd6ebbcfaa89b864b7455a25ff4de819204fee7a181fd6a27
 docker: quay.io/biocontainers/repic
 aliases:
   mrcfile-header: /usr/local/bin/mrcfile-header
