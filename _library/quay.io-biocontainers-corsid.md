@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/corsid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corsid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corsid/container.yaml"
-updated_at: "2023-09-26 03:02:56.376652"
+updated_at: "2023-09-27 03:02:41.511830"
 latest: "0.1.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/corsid"
 aliases:

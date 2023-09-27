@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/repic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repic/container.yaml"
-updated_at: "2023-09-26 03:20:36.229431"
-latest: "0.2.0--pyh7cba7a3_0"
+updated_at: "2023-09-27 03:20:23.651050"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/repic"
 aliases:
  - "mrcfile-header"
@@ -38,8 +38,9 @@ versions:
  - "0.0.0--pyh7cba7a3_0"
  - "0.1.0--pyh7cba7a3_0"
  - "0.2.0--pyh7cba7a3_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for repic"
-config: {"url": "https://biocontainers.pro/tools/repic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for repic", "latest": {"0.2.0--pyh7cba7a3_0": "sha256:f0a42dff32b1e720ad76c02596d9707ffb28e1fe8eff6b12c062d17ab8fb42ae"}, "tags": {"0.0.0--pyh7cba7a3_0": "sha256:fea1b31ed3fa8c1499f5b625f3696d52bcb10e003e9472dc0b20fcfca2e85aa2", "0.1.0--pyh7cba7a3_0": "sha256:c26f3ff0b6053af741a104ddf20ae002720c2f60c0dbb37528e8b7ad7e7f19e2", "0.2.0--pyh7cba7a3_0": "sha256:f0a42dff32b1e720ad76c02596d9707ffb28e1fe8eff6b12c062d17ab8fb42ae"}, "docker": "quay.io/biocontainers/repic", "aliases": {"mrcfile-header": "/usr/local/bin/mrcfile-header", "mrcfile-validate": "/usr/local/bin/mrcfile-validate", "repic": "/usr/local/bin/repic", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/repic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for repic", "latest": {"0.2.1--pyhdfd78af_0": "sha256:d29e1d197d2f436bd6ebbcfaa89b864b7455a25ff4de819204fee7a181fd6a27"}, "tags": {"0.0.0--pyh7cba7a3_0": "sha256:fea1b31ed3fa8c1499f5b625f3696d52bcb10e003e9472dc0b20fcfca2e85aa2", "0.1.0--pyh7cba7a3_0": "sha256:c26f3ff0b6053af741a104ddf20ae002720c2f60c0dbb37528e8b7ad7e7f19e2", "0.2.0--pyh7cba7a3_0": "sha256:f0a42dff32b1e720ad76c02596d9707ffb28e1fe8eff6b12c062d17ab8fb42ae", "0.2.1--pyhdfd78af_0": "sha256:d29e1d197d2f436bd6ebbcfaa89b864b7455a25ff4de819204fee7a181fd6a27"}, "docker": "quay.io/biocontainers/repic", "aliases": {"mrcfile-header": "/usr/local/bin/mrcfile-header", "mrcfile-validate": "/usr/local/bin/mrcfile-validate", "repic": "/usr/local/bin/repic", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repic.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/repic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/repic:0.2.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/repic:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/repic/0.2.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/repic/0.2.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/repic/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/repic/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

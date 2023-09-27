@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/upimapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/upimapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/upimapi/container.yaml"
-updated_at: "2023-09-26 02:50:32.012352"
-latest: "1.12.0--hdfd78af_0"
+updated_at: "2023-09-27 02:50:23.165368"
+latest: "1.12.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/upimapi"
 aliases:
  - "firefox"
@@ -31,8 +31,9 @@ versions:
  - "1.10.0--hdfd78af_0"
  - "1.11.2--hdfd78af_0"
  - "1.12.0--hdfd78af_0"
+ - "1.12.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for upimapi"
-config: {"url": "https://biocontainers.pro/tools/upimapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for upimapi", "latest": {"1.12.0--hdfd78af_0": "sha256:44722696a68af4a57d0d61572e5c7c6910d820b039946a8d428317a9eef780f8"}, "tags": {"1.8.5--hdfd78af_0": "sha256:3959e0b860808cf09b3ed70734918ddcba3747ccafb9a6b184e1f1d2cb56a2c7", "1.8.8--hdfd78af_0": "sha256:9799744544c1213f637e2463127f6acb0b6b85b6cc5780f5649faf3bddf496ee", "1.8.10--hdfd78af_0": "sha256:4b33202c951906af7f369471d216e4861830c9f2923bf5420a134af1df2dc7a7", "1.8.13--hdfd78af_0": "sha256:a891eb81eeff59c25543e567abe2d79d0f4b9709ae9fe36b486767b4ebed9f66", "1.8.14--hdfd78af_0": "sha256:7eb417266019cfcb1f5a3c107edd0419afc5db0bd90b55eb0d368111cbc347d2", "1.9.0--hdfd78af_0": "sha256:0f748b64de5c9eb9254e7ddb845bfe68533f06f1cd3c54a9db957b206051ad49", "1.10.0--hdfd78af_0": "sha256:6eb714c322379993dc026b60ddebb70cbcdcf96505b72a5b9795a212b5387b50", "1.11.2--hdfd78af_0": "sha256:1aa0e8e863fb7f76222818677e4bc226eb88ff8604d61c8394e332fd2168535c", "1.12.0--hdfd78af_0": "sha256:44722696a68af4a57d0d61572e5c7c6910d820b039946a8d428317a9eef780f8"}, "docker": "quay.io/biocontainers/upimapi", "aliases": {"firefox": "/usr/local/bin/firefox", "geckodriver": "/usr/local/bin/geckodriver", "upimapi.py": "/usr/local/bin/upimapi.py", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "diamond": "/usr/local/bin/diamond", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/upimapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for upimapi", "latest": {"1.12.1--hdfd78af_0": "sha256:94ca10aeb9562e1f04c5e14fe8d6b9c07e246b08973329ac6f7ca8a1f69284a9"}, "tags": {"1.8.5--hdfd78af_0": "sha256:3959e0b860808cf09b3ed70734918ddcba3747ccafb9a6b184e1f1d2cb56a2c7", "1.8.8--hdfd78af_0": "sha256:9799744544c1213f637e2463127f6acb0b6b85b6cc5780f5649faf3bddf496ee", "1.8.10--hdfd78af_0": "sha256:4b33202c951906af7f369471d216e4861830c9f2923bf5420a134af1df2dc7a7", "1.8.13--hdfd78af_0": "sha256:a891eb81eeff59c25543e567abe2d79d0f4b9709ae9fe36b486767b4ebed9f66", "1.8.14--hdfd78af_0": "sha256:7eb417266019cfcb1f5a3c107edd0419afc5db0bd90b55eb0d368111cbc347d2", "1.9.0--hdfd78af_0": "sha256:0f748b64de5c9eb9254e7ddb845bfe68533f06f1cd3c54a9db957b206051ad49", "1.10.0--hdfd78af_0": "sha256:6eb714c322379993dc026b60ddebb70cbcdcf96505b72a5b9795a212b5387b50", "1.11.2--hdfd78af_0": "sha256:1aa0e8e863fb7f76222818677e4bc226eb88ff8604d61c8394e332fd2168535c", "1.12.0--hdfd78af_0": "sha256:44722696a68af4a57d0d61572e5c7c6910d820b039946a8d428317a9eef780f8", "1.12.1--hdfd78af_0": "sha256:94ca10aeb9562e1f04c5e14fe8d6b9c07e246b08973329ac6f7ca8a1f69284a9"}, "docker": "quay.io/biocontainers/upimapi", "aliases": {"firefox": "/usr/local/bin/firefox", "geckodriver": "/usr/local/bin/geckodriver", "upimapi.py": "/usr/local/bin/upimapi.py", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "diamond": "/usr/local/bin/diamond", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/upimapi.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/upimapi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/upimapi:1.12.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/upimapi:1.12.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/upimapi/1.12.0--hdfd78af_0
-$ module help quay.io/biocontainers/upimapi/1.12.0--hdfd78af_0
+$ module load quay.io/biocontainers/upimapi/1.12.1--hdfd78af_0
+$ module help quay.io/biocontainers/upimapi/1.12.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

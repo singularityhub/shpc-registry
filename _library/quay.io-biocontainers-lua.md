@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lua"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lua/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lua/container.yaml"
-updated_at: "2023-09-26 03:03:12.233995"
+updated_at: "2023-09-27 03:02:57.133910"
 latest: "5.3.4"
 container_url: "https://biocontainers.pro/tools/lua"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clstutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clstutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clstutils/container.yaml"
-updated_at: "2023-09-26 02:36:24.703059"
+updated_at: "2023-09-27 02:36:20.504833"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clstutils"
 
