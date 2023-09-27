@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-quilt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-quilt
 latest:
-  1.0.4--r43h06b5641_2: sha256:70a42844d82cd0c5bb8dd8ad1c3f537f7a6527b5cf8986a8c8d7cc12f810fc72
+  1.0.5--r43h06b5641_0: sha256:53f513cd3325c6f890bc71a60624e2f2b16e182d16cde38ff5ead7bef868657d
 tags:
   1.0.3--r41h37595e4_1: sha256:4ec3832600d461ffee36114ed456f8803099dc7bd7b72f3a1e2488dca438a6d8
   1.0.3--r42h37595e4_2: sha256:43a24b0514a9bb760b0807a47374d0e5075c0d67230de33596442b492c7b89b8
   1.0.4--r42h06b5641_1: sha256:98dcce673878992becc18bc82902c85ad47a388077369ffe7982c06ee564541c
   1.0.4--r43h06b5641_2: sha256:70a42844d82cd0c5bb8dd8ad1c3f537f7a6527b5cf8986a8c8d7cc12f810fc72
+  1.0.5--r43h06b5641_0: sha256:53f513cd3325c6f890bc71a60624e2f2b16e182d16cde38ff5ead7bef868657d
 docker: quay.io/biocontainers/r-quilt
 aliases:
   rsync-ssl: /usr/local/bin/rsync-ssl
