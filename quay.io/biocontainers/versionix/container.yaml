@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/versionix
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for versionix
+latest:
+  0.2.0--pyhdfd78af_0: sha256:66d17854284bbe6dd78fb5aa5941017983400bdb63dc880e65950c857fb22dcb
+tags:
+  0.2.0--pyhdfd78af_0: sha256:66d17854284bbe6dd78fb5aa5941017983400bdb63dc880e65950c857fb22dcb
+docker: quay.io/biocontainers/versionix
+aliases:
+  versionix: /usr/local/bin/versionix
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  python3.1: /usr/local/bin/python3.1
