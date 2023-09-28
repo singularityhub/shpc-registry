@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/igv-reports"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igv-reports/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igv-reports/container.yaml"
-updated_at: "2023-09-27 03:26:55.266199"
-latest: "1.8.0--pyh7cba7a3_0"
+updated_at: "2023-09-28 03:14:11.518739"
+latest: "1.9.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/igv-reports"
 aliases:
  - "create_datauri"
@@ -21,8 +21,10 @@ versions:
  - "1.6.1--pyh7cba7a3_0"
  - "1.7.0--pyh7cba7a3_0"
  - "1.8.0--pyh7cba7a3_0"
+ - "1.9.1--pyh7cba7a3_0"
+ - "1.8.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for igv-reports"
-config: {"url": "https://biocontainers.pro/tools/igv-reports", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igv-reports", "latest": {"1.8.0--pyh7cba7a3_0": "sha256:f8d6f43c4c97bc13788d206e67e42dad5e2564edba04413699793f9a15ef5901"}, "tags": {"1.6.1--pyh7cba7a3_0": "sha256:5f8e40f84d3398f243d1cea959802752e8d8f54686dba4a389144746e69b1294", "1.7.0--pyh7cba7a3_0": "sha256:2f5b08c6d82467e1cd6140ecd1b496b82bdb094e864301a281b4d4858df74137", "1.8.0--pyh7cba7a3_0": "sha256:f8d6f43c4c97bc13788d206e67e42dad5e2564edba04413699793f9a15ef5901"}, "docker": "quay.io/biocontainers/igv-reports", "aliases": {"create_datauri": "/usr/local/bin/create_datauri", "create_report": "/usr/local/bin/create_report", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/igv-reports", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igv-reports", "latest": {"1.9.1--pyh7cba7a3_0": "sha256:c52ca010e61b0804af10f87e2c32665cc453b6dd7b6899c15ee1ee0a9c237138"}, "tags": {"1.6.1--pyh7cba7a3_0": "sha256:5f8e40f84d3398f243d1cea959802752e8d8f54686dba4a389144746e69b1294", "1.7.0--pyh7cba7a3_0": "sha256:2f5b08c6d82467e1cd6140ecd1b496b82bdb094e864301a281b4d4858df74137", "1.8.0--pyh7cba7a3_0": "sha256:f8d6f43c4c97bc13788d206e67e42dad5e2564edba04413699793f9a15ef5901", "1.9.1--pyh7cba7a3_0": "sha256:c52ca010e61b0804af10f87e2c32665cc453b6dd7b6899c15ee1ee0a9c237138", "1.8.1--pyh7cba7a3_0": "sha256:992c03efa36ffbda894fc3b98393c613a7a24e5929df1bdde6b980dd8ba36d9a"}, "docker": "quay.io/biocontainers/igv-reports", "aliases": {"create_datauri": "/usr/local/bin/create_datauri", "create_report": "/usr/local/bin/create_report", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igv-reports.
@@ -37,7 +39,7 @@ $ shpc install quay.io/biocontainers/igv-reports
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/igv-reports:1.8.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/igv-reports:1.9.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/igv-reports/1.8.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/igv-reports/1.8.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/igv-reports/1.9.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/igv-reports/1.9.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

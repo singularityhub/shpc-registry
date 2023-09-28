@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metasnek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasnek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasnek/container.yaml"
-updated_at: "2023-09-27 02:38:39.205612"
-latest: "0.0.7--pyhdfd78af_0"
+updated_at: "2023-09-28 02:34:51.834084"
+latest: "0.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metasnek"
 aliases:
  - "2to3-3.11"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.0.5--pyhdfd78af_0"
  - "0.0.7--pyhdfd78af_0"
+ - "0.0.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metasnek"
-config: {"url": "https://biocontainers.pro/tools/metasnek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metasnek", "latest": {"0.0.7--pyhdfd78af_0": "sha256:ba6ac3f91a7788381abed57ab88946b5801ba1929c37be536ce70809ac04a284"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:2b7dfc8c42247e818ef856954b10e945f07920429a207405f719bfd8c2d6a320", "0.0.7--pyhdfd78af_0": "sha256:ba6ac3f91a7788381abed57ab88946b5801ba1929c37be536ce70809ac04a284"}, "docker": "quay.io/biocontainers/metasnek", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/metasnek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metasnek", "latest": {"0.0.8--pyhdfd78af_0": "sha256:809bb5fedc7b3884e618e73e2d59db1c63db148135090bd77b70e904a182cd61"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:2b7dfc8c42247e818ef856954b10e945f07920429a207405f719bfd8c2d6a320", "0.0.7--pyhdfd78af_0": "sha256:ba6ac3f91a7788381abed57ab88946b5801ba1929c37be536ce70809ac04a284", "0.0.8--pyhdfd78af_0": "sha256:809bb5fedc7b3884e618e73e2d59db1c63db148135090bd77b70e904a182cd61"}, "docker": "quay.io/biocontainers/metasnek", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metasnek.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/metasnek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metasnek:0.0.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metasnek:0.0.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metasnek/0.0.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/metasnek/0.0.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/metasnek/0.0.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/metasnek/0.0.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
