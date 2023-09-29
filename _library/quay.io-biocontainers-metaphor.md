@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaphor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaphor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaphor/container.yaml"
-updated_at: "2023-09-28 03:28:34.500965"
-latest: "1.7.7--pyhdfd78af_1"
+updated_at: "2023-09-29 02:52:52.934605"
+latest: "1.7.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaphor"
 aliases:
  - "metaphor"
@@ -41,8 +41,9 @@ versions:
  - "1.7.3--pyhdfd78af_0"
  - "1.7.5--pyhdfd78af_0"
  - "1.7.7--pyhdfd78af_1"
+ - "1.7.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metaphor"
-config: {"url": "https://biocontainers.pro/tools/metaphor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaphor", "latest": {"1.7.7--pyhdfd78af_1": "sha256:2e4dbb5a153a8db492f84c7d6b3c80faf925da7adbbe2941df2b4efabb244488"}, "tags": {"1.6.1--pyhdfd78af_0": "sha256:d932c3b0822baa37a8b2f8e0c577b3823b20b6da8f3b605e8f5cb8efd75e9ff9", "1.6.2--pyhdfd78af_0": "sha256:7e1634296b428829643aeb345fe7944ebb07b5c45349cf1318a6ad4fa30c6fd8", "1.7.2--pyhdfd78af_0": "sha256:2a361770cc1e97ebb06d574016d46d34975582c8a71b6fcb3ad9879cc209313f", "1.7.3--pyhdfd78af_0": "sha256:be7a1a04f3a4665bfb9bb5d637f7bfc821e84011bf1506a5cbf9cadf0aa77acc", "1.7.5--pyhdfd78af_0": "sha256:ecee12bf45cb4c44aea6ef8acae448f136706eed304e80c3624211b9c4091319", "1.7.7--pyhdfd78af_1": "sha256:2e4dbb5a153a8db492f84c7d6b3c80faf925da7adbbe2941df2b4efabb244488"}, "docker": "quay.io/biocontainers/metaphor", "aliases": {"metaphor": "/usr/local/bin/metaphor", "stone": "/usr/local/bin/stone", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign"}}
+config: {"url": "https://biocontainers.pro/tools/metaphor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaphor", "latest": {"1.7.9--pyhdfd78af_0": "sha256:43116343e236c4f160dca890f86b80ad59f26321e1c144083e114961eb475068"}, "tags": {"1.6.1--pyhdfd78af_0": "sha256:d932c3b0822baa37a8b2f8e0c577b3823b20b6da8f3b605e8f5cb8efd75e9ff9", "1.6.2--pyhdfd78af_0": "sha256:7e1634296b428829643aeb345fe7944ebb07b5c45349cf1318a6ad4fa30c6fd8", "1.7.2--pyhdfd78af_0": "sha256:2a361770cc1e97ebb06d574016d46d34975582c8a71b6fcb3ad9879cc209313f", "1.7.3--pyhdfd78af_0": "sha256:be7a1a04f3a4665bfb9bb5d637f7bfc821e84011bf1506a5cbf9cadf0aa77acc", "1.7.5--pyhdfd78af_0": "sha256:ecee12bf45cb4c44aea6ef8acae448f136706eed304e80c3624211b9c4091319", "1.7.7--pyhdfd78af_1": "sha256:2e4dbb5a153a8db492f84c7d6b3c80faf925da7adbbe2941df2b4efabb244488", "1.7.9--pyhdfd78af_0": "sha256:43116343e236c4f160dca890f86b80ad59f26321e1c144083e114961eb475068"}, "docker": "quay.io/biocontainers/metaphor", "aliases": {"metaphor": "/usr/local/bin/metaphor", "stone": "/usr/local/bin/stone", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaphor.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/metaphor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaphor:1.7.7--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/metaphor:1.7.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaphor/1.7.7--pyhdfd78af_1
-$ module help quay.io/biocontainers/metaphor/1.7.7--pyhdfd78af_1
+$ module load quay.io/biocontainers/metaphor/1.7.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/metaphor/1.7.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

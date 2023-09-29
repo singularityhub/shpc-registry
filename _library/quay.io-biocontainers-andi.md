@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/andi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/andi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/andi/container.yaml"
-updated_at: "2023-09-28 03:33:17.341722"
+updated_at: "2023-09-29 02:53:24.416648"
 latest: "0.14--h082502c_0"
 container_url: "https://biocontainers.pro/tools/andi"
 aliases:

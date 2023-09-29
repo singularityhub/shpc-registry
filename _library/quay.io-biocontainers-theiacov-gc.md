@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/theiacov-gc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/theiacov-gc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/theiacov-gc/container.yaml"
-updated_at: "2023-09-28 03:11:06.910505"
+updated_at: "2023-09-29 02:56:35.325740"
 latest: "2.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/theiacov-gc"
 aliases:

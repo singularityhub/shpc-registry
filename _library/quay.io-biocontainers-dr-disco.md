@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dr-disco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dr-disco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dr-disco/container.yaml"
-updated_at: "2023-09-28 02:53:54.437237"
-latest: "0.18.0--pyh5ca1d4c_0"
+updated_at: "2023-09-29 03:05:57.013039"
+latest: "0.18.3--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/dr-disco"
 aliases:
  - "chimerascan-exclude-transcriptome-events"
@@ -33,8 +33,9 @@ versions:
  - "0.14.0--py27_0"
  - "0.11.0--py27_0"
  - "0.10.0--py27_0"
+ - "0.18.3--pyh086e186_0"
 description: "shpc-registry automated BioContainers addition for dr-disco"
-config: {"url": "https://biocontainers.pro/tools/dr-disco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dr-disco", "latest": {"0.18.0--pyh5ca1d4c_0": "sha256:9a796b3af392a7fc71c0604199eed8c926f5beea5b6396e4515fc102fb092c38"}, "tags": {"0.9.0--py27_0": "sha256:a39f11079a6eeca07992d40d9f029e2601f1bd132bcb1033de11056bef1fca7d", "0.18.0--pyh5ca1d4c_0": "sha256:9a796b3af392a7fc71c0604199eed8c926f5beea5b6396e4515fc102fb092c38", "0.16.3--pyh24bf2e0_0": "sha256:68f68453fe591bb90ea0b8c4bdbc97d987ae7da6b54a8b50713daea667b37a1b", "0.14.0--py27_0": "sha256:ca8f4ffc57b15782167e7567e7b6e7211d4af3505400ddf5a03269f61d2ca2c5", "0.11.0--py27_0": "sha256:acda01a72a4dbcec550a34636312475afa529687bc00dde6adfbe2e9b767f5fd", "0.10.0--py27_0": "sha256:fa46e8db8749ac3aaa08b1a12305fdf68c9724f687ca437ab597515d8e891c70"}, "docker": "quay.io/biocontainers/dr-disco", "aliases": {"chimerascan-exclude-transcriptome-events": "/usr/local/bin/chimerascan-exclude-transcriptome-events", "chimerascan-relative-bedpe-to-CG": "/usr/local/bin/chimerascan-relative-bedpe-to-CG", "defuse-clusters-to-CG": "/usr/local/bin/defuse-clusters-to-CG", "dr-disco": "/usr/local/bin/dr-disco", "fuma": "/usr/local/bin/fuma", "fuma-gencode-gtf-to-bed": "/usr/local/bin/fuma-gencode-gtf-to-bed", "fuma-list-to-boolean-list": "/usr/local/bin/fuma-list-to-boolean-list", "fusioncatcher-to-CG": "/usr/local/bin/fusioncatcher-to-CG", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools"}}
+config: {"url": "https://biocontainers.pro/tools/dr-disco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dr-disco", "latest": {"0.18.3--pyh086e186_0": "sha256:d756449c8dab37730ef304e11bf57f8ac2a5eacbec0661639aa9d5f92b64e8d3"}, "tags": {"0.9.0--py27_0": "sha256:a39f11079a6eeca07992d40d9f029e2601f1bd132bcb1033de11056bef1fca7d", "0.18.0--pyh5ca1d4c_0": "sha256:9a796b3af392a7fc71c0604199eed8c926f5beea5b6396e4515fc102fb092c38", "0.16.3--pyh24bf2e0_0": "sha256:68f68453fe591bb90ea0b8c4bdbc97d987ae7da6b54a8b50713daea667b37a1b", "0.14.0--py27_0": "sha256:ca8f4ffc57b15782167e7567e7b6e7211d4af3505400ddf5a03269f61d2ca2c5", "0.11.0--py27_0": "sha256:acda01a72a4dbcec550a34636312475afa529687bc00dde6adfbe2e9b767f5fd", "0.10.0--py27_0": "sha256:fa46e8db8749ac3aaa08b1a12305fdf68c9724f687ca437ab597515d8e891c70", "0.18.3--pyh086e186_0": "sha256:d756449c8dab37730ef304e11bf57f8ac2a5eacbec0661639aa9d5f92b64e8d3"}, "docker": "quay.io/biocontainers/dr-disco", "aliases": {"chimerascan-exclude-transcriptome-events": "/usr/local/bin/chimerascan-exclude-transcriptome-events", "chimerascan-relative-bedpe-to-CG": "/usr/local/bin/chimerascan-relative-bedpe-to-CG", "defuse-clusters-to-CG": "/usr/local/bin/defuse-clusters-to-CG", "dr-disco": "/usr/local/bin/dr-disco", "fuma": "/usr/local/bin/fuma", "fuma-gencode-gtf-to-bed": "/usr/local/bin/fuma-gencode-gtf-to-bed", "fuma-list-to-boolean-list": "/usr/local/bin/fuma-list-to-boolean-list", "fusioncatcher-to-CG": "/usr/local/bin/fusioncatcher-to-CG", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dr-disco.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/dr-disco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dr-disco:0.18.0--pyh5ca1d4c_0
+$ shpc install quay.io/biocontainers/dr-disco:0.18.3--pyh086e186_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dr-disco/0.18.0--pyh5ca1d4c_0
-$ module help quay.io/biocontainers/dr-disco/0.18.0--pyh5ca1d4c_0
+$ module load quay.io/biocontainers/dr-disco/0.18.3--pyh086e186_0
+$ module help quay.io/biocontainers/dr-disco/0.18.3--pyh086e186_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

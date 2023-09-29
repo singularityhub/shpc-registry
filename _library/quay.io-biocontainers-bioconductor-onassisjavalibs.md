@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-onassisjavalibs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onassisjavalibs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onassisjavalibs/container.yaml"
-updated_at: "2023-09-28 02:57:41.964334"
+updated_at: "2023-09-29 02:25:35.619284"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-onassisjavalibs"
 aliases:
