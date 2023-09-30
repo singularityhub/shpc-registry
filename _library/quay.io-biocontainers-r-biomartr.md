@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biomartr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biomartr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biomartr/container.yaml"
-updated_at: "2023-09-29 02:34:07.397359"
+updated_at: "2023-09-30 02:31:23.421222"
 latest: "1.0.4--r43h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-biomartr"
 

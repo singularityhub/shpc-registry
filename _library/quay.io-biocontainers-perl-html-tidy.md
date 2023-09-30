@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-tidy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tidy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tidy/container.yaml"
-updated_at: "2023-09-29 03:01:45.581480"
+updated_at: "2023-09-30 02:57:53.362430"
 latest: "1.60--pl5321h031d066_3"
 container_url: "https://biocontainers.pro/tools/perl-html-tidy"
 aliases:
