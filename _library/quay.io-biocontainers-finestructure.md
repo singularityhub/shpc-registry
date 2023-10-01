@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/finestructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/finestructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/finestructure/container.yaml"
-updated_at: "2023-09-30 02:24:47.403007"
+updated_at: "2023-10-01 02:33:52.388186"
 latest: "2.1.3--pl5321hd319059_7"
 container_url: "https://biocontainers.pro/tools/finestructure"
 aliases:
