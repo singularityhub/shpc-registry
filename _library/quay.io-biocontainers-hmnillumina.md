@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmnillumina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmnillumina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmnillumina/container.yaml"
-updated_at: "2023-10-01 03:19:38.303675"
-latest: "1.5.0--hdcf5f25_1"
+updated_at: "2023-10-02 03:18:29.882264"
+latest: "1.5.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/hmnillumina"
 aliases:
  - "HmnIllumina"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "1.5.0--hd03093a_0"
  - "1.5.0--hdcf5f25_1"
+ - "1.5.1--hdcf5f25_0"
 description: "singularity registry hpc automated addition for hmnillumina"
-config: {"url": "https://biocontainers.pro/tools/hmnillumina", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmnillumina", "latest": {"1.5.0--hdcf5f25_1": "sha256:cdd6728de8c8563db0c0bb4cf98269ab71c943b2d5534c1aeec3bc27deda4a76"}, "tags": {"1.5.0--hd03093a_0": "sha256:8c4669da955082570e8835f355e4a39a92830f6f036cdcf8450f7c7490eebca4", "1.5.0--hdcf5f25_1": "sha256:cdd6728de8c8563db0c0bb4cf98269ab71c943b2d5534c1aeec3bc27deda4a76"}, "docker": "quay.io/biocontainers/hmnillumina", "aliases": {"HmnIllumina": "/usr/local/bin/HmnIllumina", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/hmnillumina", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmnillumina", "latest": {"1.5.1--hdcf5f25_0": "sha256:9dc5da9563a9baee8121a161cb4e553e727cc53cc7859043c81acb075b7710a0"}, "tags": {"1.5.0--hd03093a_0": "sha256:8c4669da955082570e8835f355e4a39a92830f6f036cdcf8450f7c7490eebca4", "1.5.0--hdcf5f25_1": "sha256:cdd6728de8c8563db0c0bb4cf98269ab71c943b2d5534c1aeec3bc27deda4a76", "1.5.1--hdcf5f25_0": "sha256:9dc5da9563a9baee8121a161cb4e553e727cc53cc7859043c81acb075b7710a0"}, "docker": "quay.io/biocontainers/hmnillumina", "aliases": {"HmnIllumina": "/usr/local/bin/HmnIllumina", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmnillumina.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/hmnillumina
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmnillumina:1.5.0--hdcf5f25_1
+$ shpc install quay.io/biocontainers/hmnillumina:1.5.1--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmnillumina/1.5.0--hdcf5f25_1
-$ module help quay.io/biocontainers/hmnillumina/1.5.0--hdcf5f25_1
+$ module load quay.io/biocontainers/hmnillumina/1.5.1--hdcf5f25_0
+$ module help quay.io/biocontainers/hmnillumina/1.5.1--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

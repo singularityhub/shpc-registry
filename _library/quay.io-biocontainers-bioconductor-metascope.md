@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metascope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metascope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metascope/container.yaml"
-updated_at: "2023-10-01 02:41:05.692147"
+updated_at: "2023-10-02 02:37:23.028944"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metascope"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-interface-executor-plugins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-interface-executor-plugins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-interface-executor-plugins/container.yaml"
-updated_at: "2023-10-01 02:34:22.577464"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2023-10-02 02:30:15.689320"
+latest: "5.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-interface-executor-plugins"
 aliases:
  - "2to3-3.11"
@@ -16,8 +16,13 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "5.0.2--pyhdfd78af_0"
+ - "4.0.0--pyhdfd78af_0"
+ - "3.0.2--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-interface-executor-plugins"
-config: {"url": "https://biocontainers.pro/tools/snakemake-interface-executor-plugins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-interface-executor-plugins", "latest": {"1.0.1--pyhdfd78af_0": "sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3"}, "docker": "quay.io/biocontainers/snakemake-interface-executor-plugins", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-interface-executor-plugins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-interface-executor-plugins", "latest": {"5.0.2--pyhdfd78af_0": "sha256:1ad0280b34f79c258d0868dd38f2675eb76972a86e57949c69c56e168f9ab8d7"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3", "5.0.2--pyhdfd78af_0": "sha256:1ad0280b34f79c258d0868dd38f2675eb76972a86e57949c69c56e168f9ab8d7", "4.0.0--pyhdfd78af_0": "sha256:0ca7fba9e8f7a81904603a3e36c238a6f307bcb07929b92fafe23a80cc292aa4", "3.0.2--pyhdfd78af_0": "sha256:8e12b0efb937fa5fe8482bb041a9fad428451815ff1a73938f2adae9762bc124", "2.0.0--pyhdfd78af_0": "sha256:78ffee73d269f0271cd0aa7a123f4d2e4ae9b60733150486eca50fbda0f13510", "1.2.0--pyhdfd78af_0": "sha256:9ba9b877056afc069bd8f48a9a40ecfc318b9106fbb2a8d5f3e76d392504d1f7"}, "docker": "quay.io/biocontainers/snakemake-interface-executor-plugins", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-interface-executor-plugins.
@@ -32,7 +37,7 @@ $ shpc install quay.io/biocontainers/snakemake-interface-executor-plugins
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-interface-executor-plugins:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-interface-executor-plugins:5.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-interface-executor-plugins/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-interface-executor-plugins/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-interface-executor-plugins/5.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-interface-executor-plugins/5.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

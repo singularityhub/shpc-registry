@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dbcanlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbcanlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbcanlight/container.yaml"
-updated_at: "2023-10-01 03:00:10.076474"
-latest: "1.0.0--pyh7cba7a3_0"
+updated_at: "2023-10-02 02:57:46.048550"
+latest: "1.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/dbcanlight"
 aliases:
  - "dbcanLight"
@@ -20,8 +20,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--pyh7cba7a3_0"
+ - "1.0.1--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for dbcanlight"
-config: {"url": "https://biocontainers.pro/tools/dbcanlight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dbcanlight", "latest": {"1.0.0--pyh7cba7a3_0": "sha256:8cc910f8687f27de48da644fefeaa80c0be5355a1885c47ca8a90ac6fc40aa18"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:8cc910f8687f27de48da644fefeaa80c0be5355a1885c47ca8a90ac6fc40aa18"}, "docker": "quay.io/biocontainers/dbcanlight", "aliases": {"dbcanLight": "/usr/local/bin/dbcanLight", "dbcanLight-hmmparser": "/usr/local/bin/dbcanLight-hmmparser", "dbcanLight-subparser": "/usr/local/bin/dbcanLight-subparser", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/dbcanlight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dbcanlight", "latest": {"1.0.1--pyh7cba7a3_0": "sha256:bccf0799623d185dd1f4679ce9e31ac54998b72edc1806c36b6da7d6971aa474"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:8cc910f8687f27de48da644fefeaa80c0be5355a1885c47ca8a90ac6fc40aa18", "1.0.1--pyh7cba7a3_0": "sha256:bccf0799623d185dd1f4679ce9e31ac54998b72edc1806c36b6da7d6971aa474"}, "docker": "quay.io/biocontainers/dbcanlight", "aliases": {"dbcanLight": "/usr/local/bin/dbcanLight", "dbcanLight-hmmparser": "/usr/local/bin/dbcanLight-hmmparser", "dbcanLight-subparser": "/usr/local/bin/dbcanLight-subparser", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dbcanlight.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/dbcanlight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dbcanlight:1.0.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/dbcanlight:1.0.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dbcanlight/1.0.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/dbcanlight/1.0.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/dbcanlight/1.0.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/dbcanlight/1.0.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

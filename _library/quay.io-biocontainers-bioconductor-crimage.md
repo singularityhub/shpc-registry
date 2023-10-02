@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crimage/container.yaml"
-updated_at: "2023-10-01 02:38:19.214975"
+updated_at: "2023-10-02 02:34:27.021170"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crimage"
 aliases:
