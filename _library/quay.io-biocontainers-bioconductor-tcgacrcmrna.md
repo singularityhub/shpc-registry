@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcgacrcmrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgacrcmrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgacrcmrna/container.yaml"
-updated_at: "2023-10-02 02:59:14.543938"
+updated_at: "2023-10-02 03:11:19.183997"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgacrcmrna"
 aliases:
