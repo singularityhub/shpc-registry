@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/aquamis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for aquamis
 latest:
-  1.3.7--hdfd78af_0: sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e
+  1.4.0--hdfd78af_0: sha256:060287c669808c6c95f31c91306b0e67869bff4fb526b6d8b16bb321c8f25aee
 tags:
   1.3.7--hdfd78af_0: sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e
+  1.4.0--hdfd78af_0: sha256:060287c669808c6c95f31c91306b0e67869bff4fb526b6d8b16bb321c8f25aee
 docker: quay.io/biocontainers/aquamis
 aliases:
   aquamis: /usr/local/bin/aquamis
