@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-seqstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-seqstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-seqstat/container.yaml"
-updated_at: "2023-10-02 03:27:51.622847"
+updated_at: "2023-10-03 03:09:46.141945"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-seqstat"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extractpirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extractpirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extractpirs/container.yaml"
-updated_at: "2023-10-02 02:57:36.109358"
+updated_at: "2023-10-03 02:37:47.062493"
 latest: "1.0--he941832_2"
 container_url: "https://biocontainers.pro/tools/extractpirs"
 aliases:

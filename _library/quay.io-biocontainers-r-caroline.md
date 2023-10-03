@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-caroline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-caroline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-caroline/container.yaml"
-updated_at: "2023-10-02 02:54:44.042023"
+updated_at: "2023-10-03 02:34:48.993155"
 latest: "0.7.6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-caroline"
 aliases:

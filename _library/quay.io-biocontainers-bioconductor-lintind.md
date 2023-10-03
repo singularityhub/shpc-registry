@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lintind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lintind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lintind/container.yaml"
-updated_at: "2023-10-02 03:33:13.174554"
+updated_at: "2023-10-03 03:15:20.183773"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lintind"
 aliases:

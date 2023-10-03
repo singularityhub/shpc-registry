@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aquamis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquamis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aquamis/container.yaml"
-updated_at: "2023-10-02 02:56:00.262609"
-latest: "1.3.7--hdfd78af_0"
+updated_at: "2023-10-03 02:36:08.013772"
+latest: "1.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aquamis"
 aliases:
  - "aquamis"
@@ -60,8 +60,9 @@ aliases:
  - "compile.make"
 versions:
  - "1.3.7--hdfd78af_0"
+ - "1.4.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for aquamis"
-config: {"url": "https://biocontainers.pro/tools/aquamis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquamis", "latest": {"1.3.7--hdfd78af_0": "sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e"}, "tags": {"1.3.7--hdfd78af_0": "sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e"}, "docker": "quay.io/biocontainers/aquamis", "aliases": {"aquamis": "/usr/local/bin/aquamis", "aquamis_setup.sh": "/usr/local/bin/aquamis_setup.sh", "bracken": "/usr/local/bin/bracken", "bracken-build": "/usr/local/bin/bracken-build", "combine_bracken_outputs.py": "/usr/local/bin/combine_bracken_outputs.py", "confindr": "/usr/local/bin/confindr", "confindr.py": "/usr/local/bin/confindr.py", "confindr_create_db": "/usr/local/bin/confindr_create_db", "confindr_database_setup": "/usr/local/bin/confindr_database_setup", "create_sampleSheet.sh": "/usr/local/bin/create_sampleSheet.sh", "est_abundance.py": "/usr/local/bin/est_abundance.py", "filter_json.py": "/usr/local/bin/filter_json.py", "generate_kmer_distribution.py": "/usr/local/bin/generate_kmer_distribution.py", "genson": "/usr/local/bin/genson", "helper_functions.py": "/usr/local/bin/helper_functions.py", "icarus.py": "/usr/local/bin/icarus.py", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "kmer2read_distr": "/usr/local/bin/kmer2read_distr", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "lighter": "/usr/local/bin/lighter", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "mlst": "/usr/local/bin/mlst", "parse_json.py": "/usr/local/bin/parse_json.py", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "shovill": "/usr/local/bin/shovill", "skesa": "/usr/local/bin/skesa", "taxonkit": "/usr/local/bin/taxonkit", "write_QC_report.Rmd": "/usr/local/bin/write_QC_report.Rmd", "write_report.Rmd": "/usr/local/bin/write_report.Rmd", "kmutate.sh": "/usr/local/bin/kmutate.sh", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "rsync-ssl": "/usr/local/bin/rsync-ssl", "runhmm.sh": "/usr/local/bin/runhmm.sh", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make"}}
+config: {"url": "https://biocontainers.pro/tools/aquamis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquamis", "latest": {"1.4.0--hdfd78af_0": "sha256:060287c669808c6c95f31c91306b0e67869bff4fb526b6d8b16bb321c8f25aee"}, "tags": {"1.3.7--hdfd78af_0": "sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e", "1.4.0--hdfd78af_0": "sha256:060287c669808c6c95f31c91306b0e67869bff4fb526b6d8b16bb321c8f25aee"}, "docker": "quay.io/biocontainers/aquamis", "aliases": {"aquamis": "/usr/local/bin/aquamis", "aquamis_setup.sh": "/usr/local/bin/aquamis_setup.sh", "bracken": "/usr/local/bin/bracken", "bracken-build": "/usr/local/bin/bracken-build", "combine_bracken_outputs.py": "/usr/local/bin/combine_bracken_outputs.py", "confindr": "/usr/local/bin/confindr", "confindr.py": "/usr/local/bin/confindr.py", "confindr_create_db": "/usr/local/bin/confindr_create_db", "confindr_database_setup": "/usr/local/bin/confindr_database_setup", "create_sampleSheet.sh": "/usr/local/bin/create_sampleSheet.sh", "est_abundance.py": "/usr/local/bin/est_abundance.py", "filter_json.py": "/usr/local/bin/filter_json.py", "generate_kmer_distribution.py": "/usr/local/bin/generate_kmer_distribution.py", "genson": "/usr/local/bin/genson", "helper_functions.py": "/usr/local/bin/helper_functions.py", "icarus.py": "/usr/local/bin/icarus.py", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "kmer2read_distr": "/usr/local/bin/kmer2read_distr", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "lighter": "/usr/local/bin/lighter", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "mlst": "/usr/local/bin/mlst", "parse_json.py": "/usr/local/bin/parse_json.py", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "shovill": "/usr/local/bin/shovill", "skesa": "/usr/local/bin/skesa", "taxonkit": "/usr/local/bin/taxonkit", "write_QC_report.Rmd": "/usr/local/bin/write_QC_report.Rmd", "write_report.Rmd": "/usr/local/bin/write_report.Rmd", "kmutate.sh": "/usr/local/bin/kmutate.sh", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "rsync-ssl": "/usr/local/bin/rsync-ssl", "runhmm.sh": "/usr/local/bin/runhmm.sh", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aquamis.
@@ -76,7 +77,7 @@ $ shpc install quay.io/biocontainers/aquamis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aquamis:1.3.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/aquamis:1.4.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -88,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aquamis/1.3.7--hdfd78af_0
-$ module help quay.io/biocontainers/aquamis/1.3.7--hdfd78af_0
+$ module load quay.io/biocontainers/aquamis/1.4.0--hdfd78af_0
+$ module help quay.io/biocontainers/aquamis/1.4.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

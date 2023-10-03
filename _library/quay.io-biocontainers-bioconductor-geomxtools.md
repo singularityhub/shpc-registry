@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geomxtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geomxtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geomxtools/container.yaml"
-updated_at: "2023-10-02 02:58:45.928128"
+updated_at: "2023-10-03 02:38:59.691536"
 latest: "3.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geomxtools"
 

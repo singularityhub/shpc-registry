@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varscan/container.yaml"
-updated_at: "2023-10-02 02:45:18.279967"
-latest: "2.4.4--hdfd78af_1"
+updated_at: "2023-10-03 02:24:56.606714"
+latest: "2.4.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varscan"
 aliases:
  - "varscan"
@@ -21,8 +21,9 @@ aliases:
  - "jjs"
 versions:
  - "2.4.4--hdfd78af_1"
+ - "2.4.6--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for varscan"
-config: {"url": "https://biocontainers.pro/tools/varscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varscan", "latest": {"2.4.4--hdfd78af_1": "sha256:36ec549e913e531d0233702160e8fdc46236ff3e2df61e95cad5a7ca58f69796"}, "tags": {"2.4.4--hdfd78af_1": "sha256:36ec549e913e531d0233702160e8fdc46236ff3e2df61e95cad5a7ca58f69796"}, "docker": "quay.io/biocontainers/varscan", "aliases": {"varscan": "/usr/local/bin/varscan", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/varscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varscan", "latest": {"2.4.6--hdfd78af_0": "sha256:042d0b0fd6579442b97cca4fd7a0375696921d3c085e736154d643fb968da654"}, "tags": {"2.4.4--hdfd78af_1": "sha256:36ec549e913e531d0233702160e8fdc46236ff3e2df61e95cad5a7ca58f69796", "2.4.6--hdfd78af_0": "sha256:042d0b0fd6579442b97cca4fd7a0375696921d3c085e736154d643fb968da654"}, "docker": "quay.io/biocontainers/varscan", "aliases": {"varscan": "/usr/local/bin/varscan", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varscan.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/varscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varscan:2.4.4--hdfd78af_1
+$ shpc install quay.io/biocontainers/varscan:2.4.6--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varscan/2.4.4--hdfd78af_1
-$ module help quay.io/biocontainers/varscan/2.4.4--hdfd78af_1
+$ module load quay.io/biocontainers/varscan/2.4.6--hdfd78af_0
+$ module help quay.io/biocontainers/varscan/2.4.6--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

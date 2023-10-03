@@ -4,14 +4,14 @@ name:  "nvcr.io/nvidia/hpc-benchmarks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
-updated_at: "2023-10-02 03:36:09.251654"
+updated_at: "2023-10-03 03:18:25.296699"
 latest: "20.10-hpl"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags"
 
 versions:
  - "20.10-hpl"
 description: "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA."
-config: {"docker": "nvcr.io/nvidia/hpc-benchmarks", "latest": {"20.10-hpl": "crane digest nvcr.io/nvidia/hpc-benchmarks:20.10-hpl: unsupported status code 401; body: <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>nginx/1.14.2</center>\r\n</body>\r\n</html>\r\n"}, "tags": {"20.10-hpl": "crane digest nvcr.io/nvidia/hpc-benchmarks:20.10-hpl: unsupported status code 401; body: <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>nginx/1.14.2</center>\r\n</body>\r\n</html>\r\n"}, "filter": ["20.10*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags", "description": "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA.", "features": {"gpu": true}}
+config: {"docker": "nvcr.io/nvidia/hpc-benchmarks", "latest": {"20.10-hpl": "crane digest nvcr.io/nvidia/hpc-benchmarks:20.10-hpl: unsupported status code 401; body: <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>nginx/1.22.1</center>\r\n</body>\r\n</html>\r\n"}, "tags": {"20.10-hpl": "crane digest nvcr.io/nvidia/hpc-benchmarks:20.10-hpl: unsupported status code 401; body: <html>\r\n<head><title>401 Authorization Required</title></head>\r\n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>nginx/1.22.1</center>\r\n</body>\r\n</html>\r\n"}, "filter": ["20.10*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags", "description": "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA.", "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/nvidia/hpc-benchmarks.

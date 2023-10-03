@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_godmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_godmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_godmd/container.yaml"
-updated_at: "2023-10-02 03:05:06.389984"
-latest: "4.0.2--pyhdfd78af_0"
+updated_at: "2023-10-03 02:45:41.406864"
+latest: "4.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_godmd"
 aliases:
  - "discrete"
@@ -23,8 +23,9 @@ versions:
  - "3.8.1--pyhdfd78af_0"
  - "4.0.0--pyhdfd78af_1"
  - "4.0.2--pyhdfd78af_0"
+ - "4.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for biobb_godmd"
-config: {"url": "https://biocontainers.pro/tools/biobb_godmd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_godmd", "latest": {"4.0.2--pyhdfd78af_0": "sha256:0027ef5bcf250fee37905c5db4e31ba13c33d30f826703a0355fed63d800251e"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:79569e71abad74c1bf0dd2413aace5b6a7b6df422606fe164c680042df5b5d5f", "4.0.0--pyhdfd78af_1": "sha256:61efa334cf7b82e8093c8cb23a78d174228b77b81ae3c92ea585abe4b7fe131e", "4.0.2--pyhdfd78af_0": "sha256:0027ef5bcf250fee37905c5db4e31ba13c33d30f826703a0355fed63d800251e"}, "docker": "quay.io/biocontainers/biobb_godmd", "aliases": {"discrete": "/usr/local/bin/discrete", "godmd_prep": "/usr/local/bin/godmd_prep", "godmd_run": "/usr/local/bin/godmd_run", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_godmd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_godmd", "latest": {"4.1.0--pyhdfd78af_0": "sha256:39b692a5ca6a9e58c548ec02f724897fe697fb3dd308e77feffe509f5094c317"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:79569e71abad74c1bf0dd2413aace5b6a7b6df422606fe164c680042df5b5d5f", "4.0.0--pyhdfd78af_1": "sha256:61efa334cf7b82e8093c8cb23a78d174228b77b81ae3c92ea585abe4b7fe131e", "4.0.2--pyhdfd78af_0": "sha256:0027ef5bcf250fee37905c5db4e31ba13c33d30f826703a0355fed63d800251e", "4.1.0--pyhdfd78af_0": "sha256:39b692a5ca6a9e58c548ec02f724897fe697fb3dd308e77feffe509f5094c317"}, "docker": "quay.io/biocontainers/biobb_godmd", "aliases": {"discrete": "/usr/local/bin/discrete", "godmd_prep": "/usr/local/bin/godmd_prep", "godmd_run": "/usr/local/bin/godmd_run", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_godmd.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/biobb_godmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_godmd:4.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_godmd:4.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_godmd/4.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_godmd/4.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_godmd/4.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_godmd/4.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-std-fast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-std-fast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-std-fast/container.yaml"
-updated_at: "2023-10-02 03:23:11.126170"
+updated_at: "2023-10-03 03:04:50.019536"
 latest: "0.0.8--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-class-std-fast"
 aliases:
