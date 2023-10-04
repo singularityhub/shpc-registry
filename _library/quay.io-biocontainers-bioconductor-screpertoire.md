@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-screpertoire"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-screpertoire/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-screpertoire/container.yaml"
-updated_at: "2023-10-03 02:46:53.562235"
+updated_at: "2023-10-04 02:47:57.018193"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-screpertoire"
 

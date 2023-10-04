@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmnillumina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmnillumina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmnillumina/container.yaml"
-updated_at: "2023-10-03 03:08:15.557502"
+updated_at: "2023-10-04 03:09:11.631835"
 latest: "1.5.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/hmnillumina"
 aliases:

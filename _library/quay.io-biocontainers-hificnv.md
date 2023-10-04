@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hificnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hificnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hificnv/container.yaml"
-updated_at: "2023-10-03 02:42:45.507130"
+updated_at: "2023-10-04 02:43:50.292492"
 latest: "0.1.6b--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/hificnv"
 aliases:

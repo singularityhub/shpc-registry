@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-harmandata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harmandata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harmandata/container.yaml"
-updated_at: "2023-10-03 02:55:03.544327"
+updated_at: "2023-10-04 02:56:03.554497"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harmandata"
 

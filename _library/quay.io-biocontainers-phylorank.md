@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylorank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylorank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylorank/container.yaml"
-updated_at: "2023-10-03 02:56:22.948062"
+updated_at: "2023-10-04 02:57:22.333071"
 latest: "0.1.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylorank"
 aliases:
