@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa-meme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-meme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-meme/container.yaml"
-updated_at: "2023-10-04 03:16:06.602018"
+updated_at: "2023-10-04 05:22:09.615818"
 latest: "1.0.6--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/bwa-meme"
 aliases:
