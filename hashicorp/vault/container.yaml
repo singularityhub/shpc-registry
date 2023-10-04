@@ -1,5 +1,5 @@
-docker: vault
-url: https://hub.docker.com/_/vault
+docker: hashicorp/vault
+url: https://hub.docker.com/hashicorp/vault
 maintainer: '@vsoch'
 description: Vault is a tool for securely accessing secrets via a unified interface
   and tight access control.
