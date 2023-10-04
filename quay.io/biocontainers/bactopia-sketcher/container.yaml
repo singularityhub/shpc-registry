@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bactopia-sketcher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bactopia-sketcher
 latest:
-  1.0.1--hdfd78af_0: sha256:751b96f7eec0d6ac69e72395f5b14810a31d55143a160f61e6abac199bdc09f5
+  1.0.2--hdfd78af_0: sha256:63c5b70464214b4213317d1e93eb3bf808eec1cea6b4a0f86dd481e8f790fca7
 tags:
   1.0.0--hdfd78af_0: sha256:e387b40a00a09ca1add5c1c15588cab671371d1a79c71bc12230d5b3934ea550
   1.0.1--hdfd78af_0: sha256:751b96f7eec0d6ac69e72395f5b14810a31d55143a160f61e6abac199bdc09f5
+  1.0.2--hdfd78af_0: sha256:63c5b70464214b4213317d1e93eb3bf808eec1cea6b4a0f86dd481e8f790fca7
 docker: quay.io/biocontainers/bactopia-sketcher
 aliases:
   bactopia-sketcher: /usr/local/bin/bactopia-sketcher

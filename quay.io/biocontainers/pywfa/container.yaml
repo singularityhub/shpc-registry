@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pywfa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pywfa
 latest:
-  0.5.1--h031d066_0: sha256:0f2df4d48e6deb216cbcb612bf044bbd993633d4f7f8b3947fd13d6ebd3783d9
+  0.5.1--py39hf95cd2a_2: sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a
 tags:
   0.4.1--hec16e2b_0: sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0
   0.5.0--hec16e2b_0: sha256:f082c548ed89a70b89e3fe84f6ff07f1f845bc3076e2734396e3b7532517170b
   0.4.2--hec16e2b_0: sha256:7cbec4a01b3f5a878e45a0e4595445817485880239baaf0062aa0427ea447918
   0.5.1--h031d066_0: sha256:0f2df4d48e6deb216cbcb612bf044bbd993633d4f7f8b3947fd13d6ebd3783d9
+  0.5.1--py39hf95cd2a_2: sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a
 docker: quay.io/biocontainers/pywfa
