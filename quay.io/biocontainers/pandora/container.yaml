@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pandora
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pandora
 latest:
-  0.9.1--h4ac6f70_2: sha256:d714ce7f52e78aaa0cce3af62f64c4b0c8fbd8bfea1b5d6bbc68e20350f8e2e8
+  0.9.2--h4ac6f70_0: sha256:5bf5a89ec0b4be4fa4f43cf8632b6245c1b8ded6563e72764e5de300f931ddf0
 tags:
   0.9.1--h9f5acd7_1: sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6
   0.9.1--h4ac6f70_2: sha256:d714ce7f52e78aaa0cce3af62f64c4b0c8fbd8bfea1b5d6bbc68e20350f8e2e8
+  0.9.2--h4ac6f70_0: sha256:5bf5a89ec0b4be4fa4f43cf8632b6245c1b8ded6563e72764e5de300f931ddf0
 docker: quay.io/biocontainers/pandora
 aliases:
   pandora: /usr/local/bin/pandora
