@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bactopia-sketcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-sketcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-sketcher/container.yaml"
-updated_at: "2023-10-04 04:32:37.585135"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2023-10-05 02:29:27.657583"
+latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-sketcher"
 aliases:
  - "bactopia-sketcher"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.0.0--hdfd78af_0"
  - "1.0.1--hdfd78af_0"
+ - "1.0.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for bactopia-sketcher"
-config: {"url": "https://biocontainers.pro/tools/bactopia-sketcher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-sketcher", "latest": {"1.0.1--hdfd78af_0": "sha256:751b96f7eec0d6ac69e72395f5b14810a31d55143a160f61e6abac199bdc09f5"}, "tags": {"1.0.0--hdfd78af_0": "sha256:e387b40a00a09ca1add5c1c15588cab671371d1a79c71bc12230d5b3934ea550", "1.0.1--hdfd78af_0": "sha256:751b96f7eec0d6ac69e72395f5b14810a31d55143a160f61e6abac199bdc09f5"}, "docker": "quay.io/biocontainers/bactopia-sketcher", "aliases": {"bactopia-sketcher": "/usr/local/bin/bactopia-sketcher", "sourmash": "/usr/local/bin/sourmash", "screed": "/usr/local/bin/screed", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df"}}
+config: {"url": "https://biocontainers.pro/tools/bactopia-sketcher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-sketcher", "latest": {"1.0.2--hdfd78af_0": "sha256:63c5b70464214b4213317d1e93eb3bf808eec1cea6b4a0f86dd481e8f790fca7"}, "tags": {"1.0.0--hdfd78af_0": "sha256:e387b40a00a09ca1add5c1c15588cab671371d1a79c71bc12230d5b3934ea550", "1.0.1--hdfd78af_0": "sha256:751b96f7eec0d6ac69e72395f5b14810a31d55143a160f61e6abac199bdc09f5", "1.0.2--hdfd78af_0": "sha256:63c5b70464214b4213317d1e93eb3bf808eec1cea6b4a0f86dd481e8f790fca7"}, "docker": "quay.io/biocontainers/bactopia-sketcher", "aliases": {"bactopia-sketcher": "/usr/local/bin/bactopia-sketcher", "sourmash": "/usr/local/bin/sourmash", "screed": "/usr/local/bin/screed", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bactopia-sketcher.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/bactopia-sketcher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bactopia-sketcher:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/bactopia-sketcher:1.0.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bactopia-sketcher/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/bactopia-sketcher/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/bactopia-sketcher/1.0.2--hdfd78af_0
+$ module help quay.io/biocontainers/bactopia-sketcher/1.0.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

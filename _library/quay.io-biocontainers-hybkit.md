@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hybkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hybkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hybkit/container.yaml"
-updated_at: "2023-10-04 05:23:53.105521"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2023-10-05 03:18:27.908728"
+latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hybkit"
 aliases:
  - "hyb_analyze"
@@ -35,8 +35,9 @@ aliases:
  - "transicc"
 versions:
  - "0.3.0--pyhdfd78af_0"
+ - "0.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hybkit"
-config: {"url": "https://biocontainers.pro/tools/hybkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hybkit", "latest": {"0.3.0--pyhdfd78af_0": "sha256:daecfe20bf549a87e302ce744fb0f7f765c5fac2bcf9ea1da1a82eea1d5b3d7d"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:daecfe20bf549a87e302ce744fb0f7f765c5fac2bcf9ea1da1a82eea1d5b3d7d"}, "docker": "quay.io/biocontainers/hybkit", "aliases": {"hyb_analyze": "/usr/local/bin/hyb_analyze", "hyb_check": "/usr/local/bin/hyb_check", "hyb_eval": "/usr/local/bin/hyb_eval", "hyb_filter": "/usr/local/bin/hyb_filter", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/hybkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hybkit", "latest": {"0.3.3--pyhdfd78af_0": "sha256:2dce4731caa7da0430796cbf020d4810f398debfa7c11f7c45b42ef878646590"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:daecfe20bf549a87e302ce744fb0f7f765c5fac2bcf9ea1da1a82eea1d5b3d7d", "0.3.3--pyhdfd78af_0": "sha256:2dce4731caa7da0430796cbf020d4810f398debfa7c11f7c45b42ef878646590"}, "docker": "quay.io/biocontainers/hybkit", "aliases": {"hyb_analyze": "/usr/local/bin/hyb_analyze", "hyb_check": "/usr/local/bin/hyb_check", "hyb_eval": "/usr/local/bin/hyb_eval", "hyb_filter": "/usr/local/bin/hyb_filter", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hybkit.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/hybkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hybkit:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hybkit:0.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hybkit/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/hybkit/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/hybkit/0.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/hybkit/0.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

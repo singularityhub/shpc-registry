@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_flexdyn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_flexdyn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_flexdyn/container.yaml"
-updated_at: "2023-10-04 05:13:59.173809"
-latest: "4.0.3--pyhdfd78af_0"
+updated_at: "2023-10-05 03:08:59.285903"
+latest: "4.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_flexdyn"
 aliases:
  - "NOLB"
@@ -49,8 +49,9 @@ versions:
  - "3.9.0--pyhdfd78af_1"
  - "4.0.1--pyhdfd78af_0"
  - "4.0.3--pyhdfd78af_0"
+ - "4.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for biobb_flexdyn"
-config: {"url": "https://biocontainers.pro/tools/biobb_flexdyn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_flexdyn", "latest": {"4.0.3--pyhdfd78af_0": "sha256:2fbec2407fe23775dda1bf9809a67f42639ac3321e56a851fbe17b572092a1f3"}, "tags": {"3.9.0--pyhdfd78af_1": "sha256:bbbde590c430ece6699d465f7ebd67a3e9f3999f5a5d1921cdb3684d65d78891", "4.0.1--pyhdfd78af_0": "sha256:3aa314994a031dc3b0fc9dafc2c139e3ed5b88e89dafc83b490cd723632ad603", "4.0.3--pyhdfd78af_0": "sha256:2fbec2407fe23775dda1bf9809a67f42639ac3321e56a851fbe17b572092a1f3"}, "docker": "quay.io/biocontainers/biobb_flexdyn", "aliases": {"NOLB": "/usr/local/bin/NOLB", "concoord_disco": "/usr/local/bin/concoord_disco", "concoord_dist": "/usr/local/bin/concoord_dist", "dist": "/usr/local/bin/dist", "dist.exe": "/usr/local/bin/dist.exe", "evol": "/usr/local/bin/evol", "imc": "/usr/local/bin/imc", "imod_imode": "/usr/local/bin/imod_imode", "imod_imove": "/usr/local/bin/imod_imove", "imode_gcc": "/usr/local/bin/imode_gcc", "imodview": "/usr/local/bin/imodview", "imove": "/usr/local/bin/imove", "nolb_nma": "/usr/local/bin/nolb_nma", "prody": "/usr/local/bin/prody", "prody_anm": "/usr/local/bin/prody_anm", "disco": "/usr/local/bin/disco", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_flexdyn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_flexdyn", "latest": {"4.1.0--pyhdfd78af_0": "sha256:9e64606dfd0d4abbdae245687914f9a61ef00fe374045fec061af3119df5ac23"}, "tags": {"3.9.0--pyhdfd78af_1": "sha256:bbbde590c430ece6699d465f7ebd67a3e9f3999f5a5d1921cdb3684d65d78891", "4.0.1--pyhdfd78af_0": "sha256:3aa314994a031dc3b0fc9dafc2c139e3ed5b88e89dafc83b490cd723632ad603", "4.0.3--pyhdfd78af_0": "sha256:2fbec2407fe23775dda1bf9809a67f42639ac3321e56a851fbe17b572092a1f3", "4.1.0--pyhdfd78af_0": "sha256:9e64606dfd0d4abbdae245687914f9a61ef00fe374045fec061af3119df5ac23"}, "docker": "quay.io/biocontainers/biobb_flexdyn", "aliases": {"NOLB": "/usr/local/bin/NOLB", "concoord_disco": "/usr/local/bin/concoord_disco", "concoord_dist": "/usr/local/bin/concoord_dist", "dist": "/usr/local/bin/dist", "dist.exe": "/usr/local/bin/dist.exe", "evol": "/usr/local/bin/evol", "imc": "/usr/local/bin/imc", "imod_imode": "/usr/local/bin/imod_imode", "imod_imove": "/usr/local/bin/imod_imove", "imode_gcc": "/usr/local/bin/imode_gcc", "imodview": "/usr/local/bin/imodview", "imove": "/usr/local/bin/imove", "nolb_nma": "/usr/local/bin/nolb_nma", "prody": "/usr/local/bin/prody", "prody_anm": "/usr/local/bin/prody_anm", "disco": "/usr/local/bin/disco", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_flexdyn.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/biobb_flexdyn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_flexdyn:4.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_flexdyn:4.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_flexdyn/4.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_flexdyn/4.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_flexdyn/4.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_flexdyn/4.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

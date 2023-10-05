@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmc/container.yaml"
-updated_at: "2023-10-04 04:39:38.895481"
+updated_at: "2023-10-05 02:36:09.606493"
 latest: "3.2.1--hf1761c0_2"
 container_url: "https://biocontainers.pro/tools/kmc"
 aliases:

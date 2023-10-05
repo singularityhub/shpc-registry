@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pywfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywfa/container.yaml"
-updated_at: "2023-10-04 04:31:46.322465"
-latest: "0.5.1--h031d066_0"
+updated_at: "2023-10-05 02:28:39.022654"
+latest: "0.5.1--py39hf95cd2a_2"
 container_url: "https://biocontainers.pro/tools/pywfa"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.5.0--hec16e2b_0"
  - "0.4.2--hec16e2b_0"
  - "0.5.1--h031d066_0"
+ - "0.5.1--py39hf95cd2a_2"
 description: "singularity registry hpc automated addition for pywfa"
-config: {"url": "https://biocontainers.pro/tools/pywfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywfa", "latest": {"0.5.1--h031d066_0": "sha256:0f2df4d48e6deb216cbcb612bf044bbd993633d4f7f8b3947fd13d6ebd3783d9"}, "tags": {"0.4.1--hec16e2b_0": "sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0", "0.5.0--hec16e2b_0": "sha256:f082c548ed89a70b89e3fe84f6ff07f1f845bc3076e2734396e3b7532517170b", "0.4.2--hec16e2b_0": "sha256:7cbec4a01b3f5a878e45a0e4595445817485880239baaf0062aa0427ea447918", "0.5.1--h031d066_0": "sha256:0f2df4d48e6deb216cbcb612bf044bbd993633d4f7f8b3947fd13d6ebd3783d9"}, "docker": "quay.io/biocontainers/pywfa"}
+config: {"url": "https://biocontainers.pro/tools/pywfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywfa", "latest": {"0.5.1--py39hf95cd2a_2": "sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a"}, "tags": {"0.4.1--hec16e2b_0": "sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0", "0.5.0--hec16e2b_0": "sha256:f082c548ed89a70b89e3fe84f6ff07f1f845bc3076e2734396e3b7532517170b", "0.4.2--hec16e2b_0": "sha256:7cbec4a01b3f5a878e45a0e4595445817485880239baaf0062aa0427ea447918", "0.5.1--h031d066_0": "sha256:0f2df4d48e6deb216cbcb612bf044bbd993633d4f7f8b3947fd13d6ebd3783d9", "0.5.1--py39hf95cd2a_2": "sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a"}, "docker": "quay.io/biocontainers/pywfa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pywfa.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pywfa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pywfa:0.5.1--h031d066_0
+$ shpc install quay.io/biocontainers/pywfa:0.5.1--py39hf95cd2a_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pywfa/0.5.1--h031d066_0
-$ module help quay.io/biocontainers/pywfa/0.5.1--h031d066_0
+$ module load quay.io/biocontainers/pywfa/0.5.1--py39hf95cd2a_2
+$ module help quay.io/biocontainers/pywfa/0.5.1--py39hf95cd2a_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
