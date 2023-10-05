@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/viral_consensus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for viral_consensus
+latest:
+  0.0.4--h0033a41_0: sha256:1081f2581f356e22ebf2dee2097b36e3fb2b275f2c0af027896ef0fc077b75a6
+tags:
+  0.0.4--h0033a41_0: sha256:1081f2581f356e22ebf2dee2097b36e3fb2b275f2c0af027896ef0fc077b75a6
+docker: quay.io/biocontainers/viral_consensus
+aliases:
+  viral_consensus: /usr/local/bin/viral_consensus
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
