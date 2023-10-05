@@ -1,0 +1,76 @@
+url: https://biocontainers.pro/tools/viralmsa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for viralmsa
+latest:
+  1.1.35--hdfd78af_0: sha256:c06d67ef26d2f820e6fa6c5cd7370782c29522d7d4c2cbb8cc1a1e59fb5687fb
+tags:
+  1.1.35--hdfd78af_0: sha256:c06d67ef26d2f820e6fa6c5cd7370782c29522d7d4c2cbb8cc1a1e59fb5687fb
+docker: quay.io/biocontainers/viralmsa
+aliases:
+  STAR-avx: /usr/local/bin/STAR-avx
+  STAR-avx2: /usr/local/bin/STAR-avx2
+  STAR-plain: /usr/local/bin/STAR-plain
+  STAR-sse3: /usr/local/bin/STAR-sse3
+  STAR-sse4.1: /usr/local/bin/STAR-sse4.1
+  STAR-ssse3: /usr/local/bin/STAR-ssse3
+  STARlong-avx: /usr/local/bin/STARlong-avx
+  STARlong-avx2: /usr/local/bin/STARlong-avx2
+  STARlong-plain: /usr/local/bin/STARlong-plain
+  STARlong-sse3: /usr/local/bin/STARlong-sse3
+  STARlong-sse4.1: /usr/local/bin/STARlong-sse4.1
+  STARlong-ssse3: /usr/local/bin/STARlong-ssse3
+  ViralMSA.py: /usr/local/bin/ViralMSA.py
+  dragen-os: /usr/local/bin/dragen-os
+  extract_exons.py: /usr/local/bin/extract_exons.py
+  extract_splice_sites.py: /usr/local/bin/extract_splice_sites.py
+  hisat2: /usr/local/bin/hisat2
+  hisat2-align-l: /usr/local/bin/hisat2-align-l
+  hisat2-align-s: /usr/local/bin/hisat2-align-s
+  hisat2-build: /usr/local/bin/hisat2-build
+  hisat2-build-l: /usr/local/bin/hisat2-build-l
+  hisat2-build-s: /usr/local/bin/hisat2-build-s
+  hisat2-inspect: /usr/local/bin/hisat2-inspect
+  hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
+  hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
+  hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
+  hisat2_extract_snps_haplotypes_UCSC.py: /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
+  hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
+  hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
+  lra: /usr/local/bin/lra
+  meryl-analyze: /usr/local/bin/meryl-analyze
+  meryl-import: /usr/local/bin/meryl-import
+  meryl-lookup: /usr/local/bin/meryl-lookup
+  meryl-simple: /usr/local/bin/meryl-simple
+  ngmlr: /usr/local/bin/ngmlr
+  position-lookup: /usr/local/bin/position-lookup
+  split_approx_mappings_in_chunks.py: /usr/local/bin/split_approx_mappings_in_chunks.py
+  unimap: /usr/local/bin/unimap
+  wfmash: /usr/local/bin/wfmash
+  winnowmap: /usr/local/bin/winnowmap
+  STAR: /usr/local/bin/STAR
+  STARlong: /usr/local/bin/STARlong
+  meryl: /usr/local/bin/meryl
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
