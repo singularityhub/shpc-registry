@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nf-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nf-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nf-core/container.yaml"
-updated_at: "2023-10-05 03:20:17.448413"
-latest: "2.9--pyh7cba7a3_0"
+updated_at: "2023-10-06 02:26:59.793127"
+latest: "2.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nf-core"
 aliases:
  - "cheetah"
@@ -40,8 +40,9 @@ versions:
  - "2.7.2--pyh7cba7a3_0"
  - "2.8--pyh7cba7a3_0"
  - "2.9--pyh7cba7a3_0"
+ - "2.10--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nf-core"
-config: {"url": "https://biocontainers.pro/tools/nf-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nf-core", "latest": {"2.9--pyh7cba7a3_0": "sha256:65467bc66e0f1f8a725b17198603e7260a58b9aa90dd0e565f4760f0c8b87d15"}, "tags": {"2.6--pyh7cba7a3_1": "sha256:e93a47ded9e18567f695e8610846f32f935c1db44ac5c5b03ab51ece3e8c5735", "2.7.2--pyh7cba7a3_0": "sha256:c8d99864ecd917ebbc3292f1a6b8cd38ce4ed882f38a0cf232d97c69ab2c9528", "2.8--pyh7cba7a3_0": "sha256:26545e5b845d1e5a94606ea392a47a8bce5c949d433de1ca3b7a6c56bbe5f66b", "2.9--pyh7cba7a3_0": "sha256:65467bc66e0f1f8a725b17198603e7260a58b9aa90dd0e565f4760f0c8b87d15"}, "docker": "quay.io/biocontainers/nf-core", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "import_igenome": "/usr/local/bin/import_igenome", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-hash": "/usr/local/bin/mulled-hash", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "nf-core": "/usr/local/bin/nf-core", "refgenie": "/usr/local/bin/refgenie", "rich-click": "/usr/local/bin/rich-click", "scalar": "/usr/local/bin/scalar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "docutils": "/usr/local/bin/docutils"}}
+config: {"url": "https://biocontainers.pro/tools/nf-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nf-core", "latest": {"2.10--pyhdfd78af_0": "sha256:8fce17975eb195a29b20709d0f39e64b77eeae0ba4e07ad853b8e733a1e00317"}, "tags": {"2.6--pyh7cba7a3_1": "sha256:e93a47ded9e18567f695e8610846f32f935c1db44ac5c5b03ab51ece3e8c5735", "2.7.2--pyh7cba7a3_0": "sha256:c8d99864ecd917ebbc3292f1a6b8cd38ce4ed882f38a0cf232d97c69ab2c9528", "2.8--pyh7cba7a3_0": "sha256:26545e5b845d1e5a94606ea392a47a8bce5c949d433de1ca3b7a6c56bbe5f66b", "2.9--pyh7cba7a3_0": "sha256:65467bc66e0f1f8a725b17198603e7260a58b9aa90dd0e565f4760f0c8b87d15", "2.10--pyhdfd78af_0": "sha256:8fce17975eb195a29b20709d0f39e64b77eeae0ba4e07ad853b8e733a1e00317"}, "docker": "quay.io/biocontainers/nf-core", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "import_igenome": "/usr/local/bin/import_igenome", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-hash": "/usr/local/bin/mulled-hash", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "nf-core": "/usr/local/bin/nf-core", "refgenie": "/usr/local/bin/refgenie", "rich-click": "/usr/local/bin/rich-click", "scalar": "/usr/local/bin/scalar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "docutils": "/usr/local/bin/docutils"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nf-core.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/nf-core
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nf-core:2.9--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/nf-core:2.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nf-core/2.9--pyh7cba7a3_0
-$ module help quay.io/biocontainers/nf-core/2.9--pyh7cba7a3_0
+$ module load quay.io/biocontainers/nf-core/2.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/nf-core/2.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/finestructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/finestructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/finestructure/container.yaml"
-updated_at: "2023-10-05 03:22:21.071660"
-latest: "2.1.3--pl5321hd319059_7"
+updated_at: "2023-10-06 02:29:26.701837"
+latest: "4.1.1--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/finestructure"
 aliases:
  - "beagle2chromopainter.pl"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "2.1.3--pl5321h8e5b204_5"
  - "2.1.3--pl5321hd319059_7"
+ - "4.1.1--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for finestructure"
-config: {"url": "https://biocontainers.pro/tools/finestructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for finestructure", "latest": {"2.1.3--pl5321hd319059_7": "sha256:6d60d4ebbbd657fb4cdcde4f9e0acd9454ddcad9f97a9de3277e3aab352ee61e"}, "tags": {"2.1.3--pl5321h8e5b204_5": "sha256:bdfe16461dfb00fc84851bd0b802a2ec1b21a21cae58bc99f6e65dcf1c411e4e", "2.1.3--pl5321hd319059_7": "sha256:6d60d4ebbbd657fb4cdcde4f9e0acd9454ddcad9f97a9de3277e3aab352ee61e"}, "docker": "quay.io/biocontainers/finestructure", "aliases": {"beagle2chromopainter.pl": "/usr/local/bin/beagle2chromopainter.pl", "chromopainter2chromopainterv2.pl": "/usr/local/bin/chromopainter2chromopainterv2.pl", "convertrecfile.pl": "/usr/local/bin/convertrecfile.pl", "fs": "/usr/local/bin/fs", "impute2chromopainter.pl": "/usr/local/bin/impute2chromopainter.pl", "makeuniformrecfile.pl": "/usr/local/bin/makeuniformrecfile.pl", "msms2cp.pl": "/usr/local/bin/msms2cp.pl", "phasescreen.pl": "/usr/local/bin/phasescreen.pl", "phasesubsample.pl": "/usr/local/bin/phasesubsample.pl", "plink2chromopainter.pl": "/usr/local/bin/plink2chromopainter.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/finestructure", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for finestructure", "latest": {"4.1.1--pl5321hdfd78af_0": "sha256:de8d57a703646b22834293a6ceb3782447ea50d55cee9abf458db2d2d2342459"}, "tags": {"2.1.3--pl5321h8e5b204_5": "sha256:bdfe16461dfb00fc84851bd0b802a2ec1b21a21cae58bc99f6e65dcf1c411e4e", "2.1.3--pl5321hd319059_7": "sha256:6d60d4ebbbd657fb4cdcde4f9e0acd9454ddcad9f97a9de3277e3aab352ee61e", "4.1.1--pl5321hdfd78af_0": "sha256:de8d57a703646b22834293a6ceb3782447ea50d55cee9abf458db2d2d2342459"}, "docker": "quay.io/biocontainers/finestructure", "aliases": {"beagle2chromopainter.pl": "/usr/local/bin/beagle2chromopainter.pl", "chromopainter2chromopainterv2.pl": "/usr/local/bin/chromopainter2chromopainterv2.pl", "convertrecfile.pl": "/usr/local/bin/convertrecfile.pl", "fs": "/usr/local/bin/fs", "impute2chromopainter.pl": "/usr/local/bin/impute2chromopainter.pl", "makeuniformrecfile.pl": "/usr/local/bin/makeuniformrecfile.pl", "msms2cp.pl": "/usr/local/bin/msms2cp.pl", "phasescreen.pl": "/usr/local/bin/phasescreen.pl", "phasesubsample.pl": "/usr/local/bin/phasesubsample.pl", "plink2chromopainter.pl": "/usr/local/bin/plink2chromopainter.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/finestructure.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/finestructure
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/finestructure:2.1.3--pl5321hd319059_7
+$ shpc install quay.io/biocontainers/finestructure:4.1.1--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/finestructure/2.1.3--pl5321hd319059_7
-$ module help quay.io/biocontainers/finestructure/2.1.3--pl5321hd319059_7
+$ module load quay.io/biocontainers/finestructure/4.1.1--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/finestructure/4.1.1--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

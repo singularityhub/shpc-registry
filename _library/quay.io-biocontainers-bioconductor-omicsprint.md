@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicsprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicsprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicsprint/container.yaml"
-updated_at: "2023-10-05 03:59:10.936556"
+updated_at: "2023-10-06 03:13:41.263662"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicsprint"
 aliases:

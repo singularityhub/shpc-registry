@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gimbleprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gimbleprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gimbleprep/container.yaml"
-updated_at: "2023-10-05 03:26:06.203571"
-latest: "0.0.2b3--pyhdfd78af_0"
+updated_at: "2023-10-06 02:33:56.619284"
+latest: "0.0.2b4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gimbleprep"
 aliases:
  - "gimbleprep"
@@ -37,8 +37,9 @@ aliases:
  - "vcf2dag"
 versions:
  - "0.0.2b3--pyhdfd78af_0"
+ - "0.0.2b4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gimbleprep"
-config: {"url": "https://biocontainers.pro/tools/gimbleprep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gimbleprep", "latest": {"0.0.2b3--pyhdfd78af_0": "sha256:87c695292ff937130094a5f31ed9db8fe498793f35204d9184bcab6d45dc319e"}, "tags": {"0.0.2b3--pyhdfd78af_0": "sha256:87c695292ff937130094a5f31ed9db8fe498793f35204d9184bcab6d45dc319e"}, "docker": "quay.io/biocontainers/gimbleprep", "aliases": {"gimbleprep": "/usr/local/bin/gimbleprep", "mosdepth": "/usr/local/bin/mosdepth", "tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps", "popStats": "/usr/local/bin/popStats", "segmentFst": "/usr/local/bin/segmentFst", "segmentIhs": "/usr/local/bin/segmentIhs", "sequenceDiversity": "/usr/local/bin/sequenceDiversity", "smoother": "/usr/local/bin/smoother", "vcf2bed.py": "/usr/local/bin/vcf2bed.py", "vcf2dag": "/usr/local/bin/vcf2dag"}}
+config: {"url": "https://biocontainers.pro/tools/gimbleprep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gimbleprep", "latest": {"0.0.2b4--pyhdfd78af_0": "sha256:b3c8cf5a3068110b30a067bf719a0f291a83040e16486b7fd5455f869272db86"}, "tags": {"0.0.2b3--pyhdfd78af_0": "sha256:87c695292ff937130094a5f31ed9db8fe498793f35204d9184bcab6d45dc319e", "0.0.2b4--pyhdfd78af_0": "sha256:b3c8cf5a3068110b30a067bf719a0f291a83040e16486b7fd5455f869272db86"}, "docker": "quay.io/biocontainers/gimbleprep", "aliases": {"gimbleprep": "/usr/local/bin/gimbleprep", "mosdepth": "/usr/local/bin/mosdepth", "tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps", "popStats": "/usr/local/bin/popStats", "segmentFst": "/usr/local/bin/segmentFst", "segmentIhs": "/usr/local/bin/segmentIhs", "sequenceDiversity": "/usr/local/bin/sequenceDiversity", "smoother": "/usr/local/bin/smoother", "vcf2bed.py": "/usr/local/bin/vcf2bed.py", "vcf2dag": "/usr/local/bin/vcf2dag"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gimbleprep.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/gimbleprep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gimbleprep:0.0.2b3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gimbleprep:0.0.2b4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gimbleprep/0.0.2b3--pyhdfd78af_0
-$ module help quay.io/biocontainers/gimbleprep/0.0.2b3--pyhdfd78af_0
+$ module load quay.io/biocontainers/gimbleprep/0.0.2b4--pyhdfd78af_0
+$ module help quay.io/biocontainers/gimbleprep/0.0.2b4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sequip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequip/container.yaml"
-updated_at: "2023-10-05 03:39:19.734739"
-latest: "0.09--hdfd78af_0"
+updated_at: "2023-10-06 02:49:46.222658"
+latest: "0.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sequip"
 aliases:
  - "opts-example-required.pl"
@@ -14,8 +14,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.09--hdfd78af_0"
+ - "0.10--hdfd78af_0"
 description: "singularity registry hpc automated addition for sequip"
-config: {"url": "https://biocontainers.pro/tools/sequip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequip", "latest": {"0.09--hdfd78af_0": "sha256:2d4e8c99a238d8835ddc9da4406dc3b9c5959f5bc29cabd31bf045a414f45eeb"}, "tags": {"0.09--hdfd78af_0": "sha256:2d4e8c99a238d8835ddc9da4406dc3b9c5959f5bc29cabd31bf045a414f45eeb"}, "docker": "quay.io/biocontainers/sequip", "aliases": {"opts-example-required.pl": "/usr/local/bin/opts-example-required.pl", "opts-example.pl": "/usr/local/bin/opts-example.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/sequip", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequip", "latest": {"0.10--hdfd78af_0": "sha256:933a58549ad7fdb3cf92ff90f08c77ac3dea25eebaf0c671d91ea3944404cd21"}, "tags": {"0.09--hdfd78af_0": "sha256:2d4e8c99a238d8835ddc9da4406dc3b9c5959f5bc29cabd31bf045a414f45eeb", "0.10--hdfd78af_0": "sha256:933a58549ad7fdb3cf92ff90f08c77ac3dea25eebaf0c671d91ea3944404cd21"}, "docker": "quay.io/biocontainers/sequip", "aliases": {"opts-example-required.pl": "/usr/local/bin/opts-example-required.pl", "opts-example.pl": "/usr/local/bin/opts-example.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequip.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/sequip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequip:0.09--hdfd78af_0
+$ shpc install quay.io/biocontainers/sequip:0.10--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequip/0.09--hdfd78af_0
-$ module help quay.io/biocontainers/sequip/0.09--hdfd78af_0
+$ module load quay.io/biocontainers/sequip/0.10--hdfd78af_0
+$ module help quay.io/biocontainers/sequip/0.10--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
