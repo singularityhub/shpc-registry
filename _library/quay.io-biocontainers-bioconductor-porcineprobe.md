@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-porcineprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-porcineprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-porcineprobe/container.yaml"
-updated_at: "2023-10-06 03:18:27.058683"
+updated_at: "2023-10-07 03:08:11.379101"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-porcineprobe"
 

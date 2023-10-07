@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ena-webin-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-webin-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ena-webin-cli/container.yaml"
-updated_at: "2023-10-06 02:29:15.707456"
-latest: "5.0.0--hdfd78af_0"
+updated_at: "2023-10-07 02:26:05.175555"
+latest: "6.5.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ena-webin-cli"
 aliases:
  - "ena-webin-cli"
@@ -21,8 +21,9 @@ aliases:
  - "appletviewer"
 versions:
  - "5.0.0--hdfd78af_0"
+ - "6.5.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ena-webin-cli"
-config: {"url": "https://biocontainers.pro/tools/ena-webin-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-webin-cli", "latest": {"5.0.0--hdfd78af_0": "sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96"}, "tags": {"5.0.0--hdfd78af_0": "sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96"}, "docker": "quay.io/biocontainers/ena-webin-cli", "aliases": {"ena-webin-cli": "/usr/local/bin/ena-webin-cli", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
+config: {"url": "https://biocontainers.pro/tools/ena-webin-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-webin-cli", "latest": {"6.5.1--hdfd78af_0": "sha256:7cc84dd62b5ba940c388dce000cb24bc87b9de88db51035275dab7091248cb36"}, "tags": {"5.0.0--hdfd78af_0": "sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96", "6.5.1--hdfd78af_0": "sha256:7cc84dd62b5ba940c388dce000cb24bc87b9de88db51035275dab7091248cb36"}, "docker": "quay.io/biocontainers/ena-webin-cli", "aliases": {"ena-webin-cli": "/usr/local/bin/ena-webin-cli", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ena-webin-cli.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ena-webin-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ena-webin-cli:5.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/ena-webin-cli:6.5.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ena-webin-cli/5.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/ena-webin-cli/5.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/ena-webin-cli/6.5.1--hdfd78af_0
+$ module help quay.io/biocontainers/ena-webin-cli/6.5.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

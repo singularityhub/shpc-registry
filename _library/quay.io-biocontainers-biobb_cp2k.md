@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_cp2k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_cp2k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_cp2k/container.yaml"
-updated_at: "2023-10-06 02:53:20.550316"
-latest: "4.0.0--pyhdfd78af_0"
+updated_at: "2023-10-07 02:46:41.823983"
+latest: "4.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_cp2k"
 aliases:
  - "cp2k.sopt"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "3.9.0--pyhdfd78af_0"
  - "4.0.0--pyhdfd78af_0"
+ - "4.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for biobb_cp2k"
-config: {"url": "https://biocontainers.pro/tools/biobb_cp2k", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_cp2k", "latest": {"4.0.0--pyhdfd78af_0": "sha256:eb9269cb9547ad28813885349b5066a33f76dc18f40ea2487394223936c12b8c"}, "tags": {"3.9.0--pyhdfd78af_0": "sha256:a032471dd36b83804471689191428493185dac578b8452465c3dc73f24b820e6", "4.0.0--pyhdfd78af_0": "sha256:eb9269cb9547ad28813885349b5066a33f76dc18f40ea2487394223936c12b8c"}, "docker": "quay.io/biocontainers/biobb_cp2k", "aliases": {"cp2k.sopt": "/usr/local/bin/cp2k.sopt", "cp2k.ssmp": "/usr/local/bin/cp2k.ssmp", "cp2k_prep": "/usr/local/bin/cp2k_prep", "cp2k_run": "/usr/local/bin/cp2k_run", "cp2k_shell.ssmp": "/usr/local/bin/cp2k_shell.ssmp", "libxsmm_gemm_generator": "/usr/local/bin/libxsmm_gemm_generator", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_cp2k", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_cp2k", "latest": {"4.1.0--pyhdfd78af_0": "sha256:a9d6fc6cac4a78d7998d73f1ddf6a487f18948de06457a4f15b217bbda6a1c89"}, "tags": {"3.9.0--pyhdfd78af_0": "sha256:a032471dd36b83804471689191428493185dac578b8452465c3dc73f24b820e6", "4.0.0--pyhdfd78af_0": "sha256:eb9269cb9547ad28813885349b5066a33f76dc18f40ea2487394223936c12b8c", "4.1.0--pyhdfd78af_0": "sha256:a9d6fc6cac4a78d7998d73f1ddf6a487f18948de06457a4f15b217bbda6a1c89"}, "docker": "quay.io/biocontainers/biobb_cp2k", "aliases": {"cp2k.sopt": "/usr/local/bin/cp2k.sopt", "cp2k.ssmp": "/usr/local/bin/cp2k.ssmp", "cp2k_prep": "/usr/local/bin/cp2k_prep", "cp2k_run": "/usr/local/bin/cp2k_run", "cp2k_shell.ssmp": "/usr/local/bin/cp2k_shell.ssmp", "libxsmm_gemm_generator": "/usr/local/bin/libxsmm_gemm_generator", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_cp2k.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/biobb_cp2k
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_cp2k:4.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_cp2k:4.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_cp2k/4.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_cp2k/4.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_cp2k/4.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_cp2k/4.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

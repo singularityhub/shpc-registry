@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-viridis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-viridis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-viridis/container.yaml"
-updated_at: "2023-10-06 02:25:48.852516"
+updated_at: "2023-10-07 02:23:07.950092"
 latest: "0.3.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-viridis"
 aliases:

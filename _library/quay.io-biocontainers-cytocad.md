@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cytocad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytocad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytocad/container.yaml"
-updated_at: "2023-10-06 03:08:36.464015"
+updated_at: "2023-10-07 02:59:46.056862"
 latest: "1.0.3--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/cytocad"
 aliases:

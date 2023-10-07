@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsv-typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsv-typer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsv-typer/container.yaml"
-updated_at: "2023-10-06 02:41:58.260166"
+updated_at: "2023-10-07 02:36:57.532275"
 latest: "0.2.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/rsv-typer"
 aliases:

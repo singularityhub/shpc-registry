@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isatools/container.yaml"
-updated_at: "2023-10-06 03:13:34.976023"
-latest: "0.12.2--pyhdfd78af_0"
+updated_at: "2023-10-07 03:04:00.922934"
+latest: "0.14.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isatools"
 aliases:
  - "isatools"
@@ -26,8 +26,9 @@ versions:
  - "0.12.2--pyhdfd78af_0"
  - "0.11.0--py_0"
  - "0.10.3--py_1"
+ - "0.14.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for isatools"
-config: {"url": "https://biocontainers.pro/tools/isatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isatools", "latest": {"0.12.2--pyhdfd78af_0": "sha256:dd669566c8df3bd9d0d6c57ea850b2cb91699bdd7b24eae09c0e6484dab73212"}, "tags": {"0.9.5--py36_0": "sha256:3a87a4e0142dbf26fbe73dab20a3616f56e2e4ceec6bac2d3552678884744f54", "0.12.2--pyhdfd78af_0": "sha256:dd669566c8df3bd9d0d6c57ea850b2cb91699bdd7b24eae09c0e6484dab73212", "0.11.0--py_0": "sha256:41bffbd21deb58b59d92c7136953e92fe0864fed0c37fe3703a722aee2a3eb26", "0.10.3--py_1": "sha256:806b5f738a462dcfd4a3d4df3a94fab1491115b70e70bdd1fa1ac237cb0a1ab8"}, "docker": "quay.io/biocontainers/isatools", "aliases": {"isatools": "/usr/local/bin/isatools", "mzml2isa": "/usr/local/bin/mzml2isa", "pronto": "/usr/local/bin/pronto", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
+config: {"url": "https://biocontainers.pro/tools/isatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isatools", "latest": {"0.14.2--pyhdfd78af_0": "sha256:5c2af7b7d8f4f477be96b3f4f172bb8b33907190822c0a54a5c56bae5ac0bad3"}, "tags": {"0.9.5--py36_0": "sha256:3a87a4e0142dbf26fbe73dab20a3616f56e2e4ceec6bac2d3552678884744f54", "0.12.2--pyhdfd78af_0": "sha256:dd669566c8df3bd9d0d6c57ea850b2cb91699bdd7b24eae09c0e6484dab73212", "0.11.0--py_0": "sha256:41bffbd21deb58b59d92c7136953e92fe0864fed0c37fe3703a722aee2a3eb26", "0.10.3--py_1": "sha256:806b5f738a462dcfd4a3d4df3a94fab1491115b70e70bdd1fa1ac237cb0a1ab8", "0.14.2--pyhdfd78af_0": "sha256:5c2af7b7d8f4f477be96b3f4f172bb8b33907190822c0a54a5c56bae5ac0bad3"}, "docker": "quay.io/biocontainers/isatools", "aliases": {"isatools": "/usr/local/bin/isatools", "mzml2isa": "/usr/local/bin/mzml2isa", "pronto": "/usr/local/bin/pronto", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isatools.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/isatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isatools:0.12.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/isatools:0.14.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isatools/0.12.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/isatools/0.12.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/isatools/0.14.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/isatools/0.14.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

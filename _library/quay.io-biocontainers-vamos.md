@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vamos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vamos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vamos/container.yaml"
-updated_at: "2023-10-06 02:35:27.641085"
-latest: "1.2.6--hd7d8470_0"
+updated_at: "2023-10-07 02:31:22.378109"
+latest: "1.3.6--hd7d8470_0"
 container_url: "https://biocontainers.pro/tools/vamos"
 aliases:
  - "vamos"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "1.2.6--hd7d8470_0"
+ - "1.3.6--hd7d8470_0"
 description: "singularity registry hpc automated addition for vamos"
-config: {"url": "https://biocontainers.pro/tools/vamos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vamos", "latest": {"1.2.6--hd7d8470_0": "sha256:479ebf30b12dc718ee1b18e72d73ca8aa1f5cc0fa98016b645754d961987fde6"}, "tags": {"1.2.6--hd7d8470_0": "sha256:479ebf30b12dc718ee1b18e72d73ca8aa1f5cc0fa98016b645754d961987fde6"}, "docker": "quay.io/biocontainers/vamos", "aliases": {"vamos": "/usr/local/bin/vamos", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/vamos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vamos", "latest": {"1.3.6--hd7d8470_0": "sha256:9ac2de5e2480677c8e29be1f20584ff812aceebe1d89340c289ea836959bd9e1"}, "tags": {"1.2.6--hd7d8470_0": "sha256:479ebf30b12dc718ee1b18e72d73ca8aa1f5cc0fa98016b645754d961987fde6", "1.3.6--hd7d8470_0": "sha256:9ac2de5e2480677c8e29be1f20584ff812aceebe1d89340c289ea836959bd9e1"}, "docker": "quay.io/biocontainers/vamos", "aliases": {"vamos": "/usr/local/bin/vamos", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vamos.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/vamos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vamos:1.2.6--hd7d8470_0
+$ shpc install quay.io/biocontainers/vamos:1.3.6--hd7d8470_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vamos/1.2.6--hd7d8470_0
-$ module help quay.io/biocontainers/vamos/1.2.6--hd7d8470_0
+$ module load quay.io/biocontainers/vamos/1.3.6--hd7d8470_0
+$ module help quay.io/biocontainers/vamos/1.3.6--hd7d8470_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

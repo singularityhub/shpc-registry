@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/microhapdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microhapdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microhapdb/container.yaml"
-updated_at: "2023-10-06 02:34:03.372199"
-latest: "0.9--pyhdfd78af_0"
+updated_at: "2023-10-07 02:30:10.018534"
+latest: "0.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/microhapdb"
 aliases:
  - "microhapdb"
@@ -20,8 +20,9 @@ versions:
  - "0.7--pyhdfd78af_0"
  - "0.8.2--pyhdfd78af_0"
  - "0.9--pyhdfd78af_0"
+ - "0.10--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for microhapdb"
-config: {"url": "https://biocontainers.pro/tools/microhapdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microhapdb", "latest": {"0.9--pyhdfd78af_0": "sha256:208646e48b05f9f021b11ca46fa79375c38d1ee0be463710be8fe9403cc9f0c6"}, "tags": {"0.7--pyhdfd78af_0": "sha256:b537af27e4611aaa3332259a166cf71859f8bac727148de9ce8a0a7e71207096", "0.8.2--pyhdfd78af_0": "sha256:606621b49405b923998868c992d7c4aff9c17915fe686aac706149300a49318f", "0.9--pyhdfd78af_0": "sha256:208646e48b05f9f021b11ca46fa79375c38d1ee0be463710be8fe9403cc9f0c6"}, "docker": "quay.io/biocontainers/microhapdb", "aliases": {"microhapdb": "/usr/local/bin/microhapdb", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/microhapdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microhapdb", "latest": {"0.10--pyhdfd78af_0": "sha256:0fb40b539a86536f9542d2e95c3db98be19fb5d1dba0060686476477882c5044"}, "tags": {"0.7--pyhdfd78af_0": "sha256:b537af27e4611aaa3332259a166cf71859f8bac727148de9ce8a0a7e71207096", "0.8.2--pyhdfd78af_0": "sha256:606621b49405b923998868c992d7c4aff9c17915fe686aac706149300a49318f", "0.9--pyhdfd78af_0": "sha256:208646e48b05f9f021b11ca46fa79375c38d1ee0be463710be8fe9403cc9f0c6", "0.10--pyhdfd78af_0": "sha256:0fb40b539a86536f9542d2e95c3db98be19fb5d1dba0060686476477882c5044"}, "docker": "quay.io/biocontainers/microhapdb", "aliases": {"microhapdb": "/usr/local/bin/microhapdb", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/microhapdb.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/microhapdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/microhapdb:0.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/microhapdb:0.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/microhapdb/0.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/microhapdb/0.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/microhapdb/0.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/microhapdb/0.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

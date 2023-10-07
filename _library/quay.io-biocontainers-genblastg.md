@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genblastg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genblastg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genblastg/container.yaml"
-updated_at: "2023-10-06 02:26:22.672342"
+updated_at: "2023-10-07 02:23:36.688987"
 latest: "1.39--1"
 container_url: "https://biocontainers.pro/tools/genblastg"
 aliases:

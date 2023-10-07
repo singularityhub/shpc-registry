@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-harbchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harbchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harbchip/container.yaml"
-updated_at: "2023-10-06 03:26:46.739196"
+updated_at: "2023-10-07 03:15:18.575604"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harbchip"
 
