@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-eggnog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-eggnog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-eggnog/container.yaml"
-updated_at: "2023-10-07 02:28:22.416625"
+updated_at: "2023-10-08 02:31:29.826612"
 latest: "0.2.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-eggnog"
 aliases:

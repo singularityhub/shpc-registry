@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-miaviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-miaviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-miaviz/container.yaml"
-updated_at: "2023-10-07 02:22:03.246723"
+updated_at: "2023-10-08 02:25:23.675976"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-miaviz"
 

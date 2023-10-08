@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/swarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swarm/container.yaml"
-updated_at: "2023-10-07 02:30:42.796097"
-latest: "3.1.3--h4ac6f70_2"
+updated_at: "2023-10-08 02:33:46.532546"
+latest: "3.1.4--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/swarm"
 aliases:
  - "amplicon_contingency_table.py"
@@ -26,8 +26,9 @@ versions:
  - "3.1.1--h9f5acd7_0"
  - "3.1.3--h9f5acd7_0"
  - "3.1.3--h4ac6f70_2"
+ - "3.1.4--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for swarm"
-config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.3--h4ac6f70_2": "sha256:46852e6d910b7f33cd6d5b7a396fed14f5a8db3de5eb85d4f595297e6c563545"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812", "3.1.1--h9f5acd7_0": "sha256:47eda5e8f6bc3915a308fd6e4aa07df8b5db7f886eee814f36758cc68a726e4e", "3.1.3--h9f5acd7_0": "sha256:fdecbf07162301924b6d6029c11c3b269b08a6d0ec54294e8cbb0561a40fb7e1", "3.1.3--h4ac6f70_2": "sha256:46852e6d910b7f33cd6d5b7a396fed14f5a8db3de5eb85d4f595297e6c563545"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.4--h4ac6f70_0": "sha256:7eff004b6420c2258b996cb1ea1763070ee259a738d16866317e6f4aca9823ca"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812", "3.1.1--h9f5acd7_0": "sha256:47eda5e8f6bc3915a308fd6e4aa07df8b5db7f886eee814f36758cc68a726e4e", "3.1.3--h9f5acd7_0": "sha256:fdecbf07162301924b6d6029c11c3b269b08a6d0ec54294e8cbb0561a40fb7e1", "3.1.3--h4ac6f70_2": "sha256:46852e6d910b7f33cd6d5b7a396fed14f5a8db3de5eb85d4f595297e6c563545", "3.1.4--h4ac6f70_0": "sha256:7eff004b6420c2258b996cb1ea1763070ee259a738d16866317e6f4aca9823ca"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/swarm.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/swarm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/swarm:3.1.3--h4ac6f70_2
+$ shpc install quay.io/biocontainers/swarm:3.1.4--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/swarm/3.1.3--h4ac6f70_2
-$ module help quay.io/biocontainers/swarm/3.1.3--h4ac6f70_2
+$ module load quay.io/biocontainers/swarm/3.1.4--h4ac6f70_0
+$ module help quay.io/biocontainers/swarm/3.1.4--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

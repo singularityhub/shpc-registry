@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/constax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/constax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/constax/container.yaml"
-updated_at: "2023-10-07 02:54:50.942596"
-latest: "2.0.19--pyhdfd78af_0"
+updated_at: "2023-10-08 02:57:06.487127"
+latest: "2.0.20--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/constax"
 aliases:
  - "AbundanceStats"
@@ -35,8 +35,9 @@ versions:
  - "2.0.9--hdfd78af_0"
  - "2.0.18--pyhdfd78af_0"
  - "2.0.19--pyhdfd78af_0"
+ - "2.0.20--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for constax"
-config: {"url": "https://biocontainers.pro/tools/constax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for constax", "latest": {"2.0.19--pyhdfd78af_0": "sha256:41f80e5ac7e31cb0453a6fd7e2cb3a048977bcc74b47178152f91f3ca92974ab"}, "tags": {"2.0.9--hdfd78af_0": "sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98", "2.0.18--pyhdfd78af_0": "sha256:b7090c8d1411a59a2c82058806ac74e82f971308c43d5a6bd4e986c2c29c1fb1", "2.0.19--pyhdfd78af_0": "sha256:41f80e5ac7e31cb0453a6fd7e2cb3a048977bcc74b47178152f91f3ca92974ab"}, "docker": "quay.io/biocontainers/constax", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "constax": "/usr/local/bin/constax", "constax_no_inputs.sh": "/usr/local/bin/constax_no_inputs.sh", "hmmgs": "/usr/local/bin/hmmgs", "vsearch": "/usr/local/bin/vsearch", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
+config: {"url": "https://biocontainers.pro/tools/constax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for constax", "latest": {"2.0.20--pyhdfd78af_0": "sha256:f08c23db7e07da896afc37b566af8a1658c3376f744db71fc7604b82696e7d4e"}, "tags": {"2.0.9--hdfd78af_0": "sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98", "2.0.18--pyhdfd78af_0": "sha256:b7090c8d1411a59a2c82058806ac74e82f971308c43d5a6bd4e986c2c29c1fb1", "2.0.19--pyhdfd78af_0": "sha256:41f80e5ac7e31cb0453a6fd7e2cb3a048977bcc74b47178152f91f3ca92974ab", "2.0.20--pyhdfd78af_0": "sha256:f08c23db7e07da896afc37b566af8a1658c3376f744db71fc7604b82696e7d4e"}, "docker": "quay.io/biocontainers/constax", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "constax": "/usr/local/bin/constax", "constax_no_inputs.sh": "/usr/local/bin/constax_no_inputs.sh", "hmmgs": "/usr/local/bin/hmmgs", "vsearch": "/usr/local/bin/vsearch", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/constax.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/constax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/constax:2.0.19--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/constax:2.0.20--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/constax/2.0.19--pyhdfd78af_0
-$ module help quay.io/biocontainers/constax/2.0.19--pyhdfd78af_0
+$ module load quay.io/biocontainers/constax/2.0.20--pyhdfd78af_0
+$ module help quay.io/biocontainers/constax/2.0.20--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

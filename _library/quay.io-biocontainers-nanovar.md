@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanovar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanovar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanovar/container.yaml"
-updated_at: "2023-10-07 02:38:09.216376"
-latest: "1.4.1--py38he5da3d1_2"
+updated_at: "2023-10-08 02:40:57.939424"
+latest: "1.5.0--py38he5da3d1_0"
 container_url: "https://biocontainers.pro/tools/nanovar"
 aliases:
  - "cytocad"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.4.1--py37h8902056_1"
  - "1.4.1--py38he5da3d1_2"
+ - "1.5.0--py38he5da3d1_0"
 description: "shpc-registry automated BioContainers addition for nanovar"
-config: {"url": "https://biocontainers.pro/tools/nanovar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanovar", "latest": {"1.4.1--py38he5da3d1_2": "sha256:4bf04d517cc829cc5ce9e7c76e4ebe5a4bbfa261229c0413f476fd326cb0378d"}, "tags": {"1.4.1--py37h8902056_1": "sha256:7ecf3a09a52418b6d2aaa01c176bfccea9ce7edcbbc4512e9a64e5d09f4a1706", "1.4.1--py38he5da3d1_2": "sha256:4bf04d517cc829cc5ce9e7c76e4ebe5a4bbfa261229c0413f476fd326cb0378d"}, "docker": "quay.io/biocontainers/nanovar", "aliases": {"cytocad": "/usr/local/bin/cytocad", "hs-blastn": "/usr/local/bin/hs-blastn", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "nanovar": "/usr/local/bin/nanovar", "rfmix2tagore.py": "/usr/local/bin/rfmix2tagore.py", "tagore": "/usr/local/bin/tagore", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2"}}
+config: {"url": "https://biocontainers.pro/tools/nanovar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanovar", "latest": {"1.5.0--py38he5da3d1_0": "sha256:3a6e5bd46980d6588cd02d79ea3e3f266088aae8f7392181c6d3b3a8d2723e90"}, "tags": {"1.4.1--py37h8902056_1": "sha256:7ecf3a09a52418b6d2aaa01c176bfccea9ce7edcbbc4512e9a64e5d09f4a1706", "1.4.1--py38he5da3d1_2": "sha256:4bf04d517cc829cc5ce9e7c76e4ebe5a4bbfa261229c0413f476fd326cb0378d", "1.5.0--py38he5da3d1_0": "sha256:3a6e5bd46980d6588cd02d79ea3e3f266088aae8f7392181c6d3b3a8d2723e90"}, "docker": "quay.io/biocontainers/nanovar", "aliases": {"cytocad": "/usr/local/bin/cytocad", "hs-blastn": "/usr/local/bin/hs-blastn", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "nanovar": "/usr/local/bin/nanovar", "rfmix2tagore.py": "/usr/local/bin/rfmix2tagore.py", "tagore": "/usr/local/bin/tagore", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanovar.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/nanovar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanovar:1.4.1--py38he5da3d1_2
+$ shpc install quay.io/biocontainers/nanovar:1.5.0--py38he5da3d1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanovar/1.4.1--py38he5da3d1_2
-$ module help quay.io/biocontainers/nanovar/1.4.1--py38he5da3d1_2
+$ module load quay.io/biocontainers/nanovar/1.5.0--py38he5da3d1_0
+$ module help quay.io/biocontainers/nanovar/1.5.0--py38he5da3d1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

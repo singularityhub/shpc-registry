@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-argparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-argparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-argparse/container.yaml"
-updated_at: "2023-10-07 02:32:51.087587"
+updated_at: "2023-10-08 02:35:50.198923"
 latest: "1.0.1--py36r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-argparse"
 aliases:
