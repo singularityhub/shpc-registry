@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-graper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graper/container.yaml"
-updated_at: "2023-10-09 02:26:37.164057"
+updated_at: "2023-10-09 02:35:58.952999"
 latest: "1.16.1--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-graper"
 aliases:
