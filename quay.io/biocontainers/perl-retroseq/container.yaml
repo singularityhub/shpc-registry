@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-retroseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-retroseq
 latest:
-  1.5--pl5321hdfd78af_0: sha256:e52ca6f617029195434fbb599fcd00b2d96b3961262576ea1ad1c6357644692c
+  1.5--pl5321hdfd78af_1: sha256:65a209445d9e44d254837d33be082a658ab698dd5c7f4fb57a0809193fd5e664
 tags:
   1.5--pl5321hdfd78af_0: sha256:e52ca6f617029195434fbb599fcd00b2d96b3961262576ea1ad1c6357644692c
+  1.5--pl5321hdfd78af_1: sha256:65a209445d9e44d254837d33be082a658ab698dd5c7f4fb57a0809193fd5e664
 docker: quay.io/biocontainers/perl-retroseq
 aliases:
   esd2esi: /usr/local/bin/esd2esi
