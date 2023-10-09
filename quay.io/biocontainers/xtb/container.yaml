@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/xtb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for xtb
+latest:
+  6.6.1: sha256:d5e65f1a111bf7ba461073a7968aeeb6360c4a11cd0887972959abd3d72b26df
+tags:
+  6.6.1: sha256:d5e65f1a111bf7ba461073a7968aeeb6360c4a11cd0887972959abd3d72b26df
+docker: quay.io/biocontainers/xtb
+aliases:
+  dftd4: /usr/local/bin/dftd4
+  s-dftd3: /usr/local/bin/s-dftd3
+  tblite: /usr/local/bin/tblite
+  xtb: /usr/local/bin/xtb

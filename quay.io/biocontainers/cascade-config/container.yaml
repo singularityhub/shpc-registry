@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/cascade-config
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cascade-config
+latest:
+  0.4.0--pyhdfd78af_0: sha256:affd93818d0e1af14d03358ceb393136185b8724ba65a319daec236fd3524555
+tags:
+  0.4.0--pyhdfd78af_0: sha256:affd93818d0e1af14d03358ceb393136185b8724ba65a319daec236fd3524555
+docker: quay.io/biocontainers/cascade-config
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  jsonschema: /usr/local/bin/jsonschema
+  python3.1: /usr/local/bin/python3.1

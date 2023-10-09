@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/gogstools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gogstools
+latest:
+  0.1.1--py310hdfd78af_0: sha256:5d7751c44c35048d91a2aea3da86dbc9359f113b7396a83f3cd3956b02f9257f
+tags:
+  0.1.1--py310hdfd78af_0: sha256:5d7751c44c35048d91a2aea3da86dbc9359f113b7396a83f3cd3956b02f9257f
+docker: quay.io/biocontainers/gogstools
+aliases:
+  gff2embl: /usr/local/bin/gff2embl
+  gffread: /usr/local/bin/gffread
+  ogs_check: /usr/local/bin/ogs_check
+  ogs_merge: /usr/local/bin/ogs_merge
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
+  bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128
+  bam2bed_sge-megarow: /usr/local/bin/bam2bed_sge-megarow
+  bam2bed_sge-typical: /usr/local/bin/bam2bed_sge-typical
+  bam2bed_slurm: /usr/local/bin/bam2bed_slurm
+  bam2bed_slurm-float128: /usr/local/bin/bam2bed_slurm-float128
+  bam2bed_slurm-megarow: /usr/local/bin/bam2bed_slurm-megarow
+  bam2bed_slurm-typical: /usr/local/bin/bam2bed_slurm-typical
+  bam2starch: /usr/local/bin/bam2starch
+  bam2starch-float128: /usr/local/bin/bam2starch-float128
+  bam2starch-megarow: /usr/local/bin/bam2starch-megarow
+  bam2starch-typical: /usr/local/bin/bam2starch-typical
+  bam2starch_gnuParallel: /usr/local/bin/bam2starch_gnuParallel
+  bam2starch_gnuParallel-float128: /usr/local/bin/bam2starch_gnuParallel-float128
+  bam2starch_gnuParallel-megarow: /usr/local/bin/bam2starch_gnuParallel-megarow
+  bam2starch_gnuParallel-typical: /usr/local/bin/bam2starch_gnuParallel-typical
+  bam2starch_sge: /usr/local/bin/bam2starch_sge
