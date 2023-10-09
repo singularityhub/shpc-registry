@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/mass2chem
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mass2chem
+latest:
+  0.4.9--pyhdfd78af_0: sha256:bda6f79d3765c942d1df850329934316443d6b3ae13834c819a0b1f22df6ea6d
+tags:
+  0.4.9--pyhdfd78af_0: sha256:bda6f79d3765c942d1df850329934316443d6b3ae13834c819a0b1f22df6ea6d
+docker: quay.io/biocontainers/mass2chem
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  python3.1: /usr/local/bin/python3.1

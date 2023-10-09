@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sharg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sharg
+latest:
+  1.1.1--h4ac6f70_0: sha256:6bca616723eafdb581679add5354eab9c0aa1b1c0fab2d9c004eeb43d5698c89
+tags:
+  1.1.1--h4ac6f70_0: sha256:6bca616723eafdb581679add5354eab9c0aa1b1c0fab2d9c004eeb43d5698c89
+docker: quay.io/biocontainers/sharg

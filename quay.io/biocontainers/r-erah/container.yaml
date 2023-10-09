@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/r-erah
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-erah
+latest:
+  1.1.2--r43hdbdd923_0: sha256:ef13ca91c3f24f3d8ad02db0337ca18b1a8ed7c5b4b1cd65faae74faed87bdc6
+tags:
+  1.1.2--r43hdbdd923_0: sha256:ef13ca91c3f24f3d8ad02db0337ca18b1a8ed7c5b4b1cd65faae74faed87bdc6
+docker: quay.io/biocontainers/r-erah
+aliases:
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  hb-info: /usr/local/bin/hb-info
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
+  hdfpack: /usr/local/bin/hdfpack
+  hdftopal: /usr/local/bin/hdftopal
+  hdftor8: /usr/local/bin/hdftor8
+  hdfunpac: /usr/local/bin/hdfunpac
+  hdiff: /usr/local/bin/hdiff
+  hdp: /usr/local/bin/hdp
+  hrepack: /usr/local/bin/hrepack
