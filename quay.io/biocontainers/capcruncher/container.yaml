@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/capcruncher
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for capcruncher
 latest:
-  0.2.3--pyhdfd78af_0: sha256:8957ca955243f15d7c5dfb43be21b3ae4170b5f41c309f730b64adf9b6090da0
+  0.3.5--pyhdfd78af_0: sha256:06fa01ad142cbf7db91b95c19494b85cdcf29f13dc184dacc3c66cecaaded9e5
 tags:
   0.2.3--pyhdfd78af_0: sha256:8957ca955243f15d7c5dfb43be21b3ae4170b5f41c309f730b64adf9b6090da0
+  0.3.5--pyhdfd78af_0: sha256:06fa01ad142cbf7db91b95c19494b85cdcf29f13dc184dacc3c66cecaaded9e5
 docker: quay.io/biocontainers/capcruncher
 aliases:
   bq: /usr/local/bin/bq
