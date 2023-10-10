@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orsum/container.yaml"
-updated_at: "2023-10-09 03:28:19.909852"
+updated_at: "2023-10-10 03:09:41.029056"
 latest: "1.6.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orsum"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-somaticadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-somaticadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-somaticadata/container.yaml"
-updated_at: "2023-10-09 02:39:18.392148"
+updated_at: "2023-10-10 02:28:10.537373"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-somaticadata"
 

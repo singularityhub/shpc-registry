@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-retroseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-retroseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-retroseq/container.yaml"
-updated_at: "2023-10-09 02:56:25.437779"
-latest: "1.5--pl5321hdfd78af_0"
+updated_at: "2023-10-10 02:42:41.268063"
+latest: "1.5--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-retroseq"
 aliases:
  - "esd2esi"
@@ -63,8 +63,9 @@ aliases:
  - "intersectBed"
 versions:
  - "1.5--pl5321hdfd78af_0"
+ - "1.5--pl5321hdfd78af_1"
 description: "singularity registry hpc automated addition for perl-retroseq"
-config: {"url": "https://biocontainers.pro/tools/perl-retroseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-retroseq", "latest": {"1.5--pl5321hdfd78af_0": "sha256:e52ca6f617029195434fbb599fcd00b2d96b3961262576ea1ad1c6357644692c"}, "tags": {"1.5--pl5321hdfd78af_0": "sha256:e52ca6f617029195434fbb599fcd00b2d96b3961262576ea1ad1c6357644692c"}, "docker": "quay.io/biocontainers/perl-retroseq", "aliases": {"esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclean": "/usr/local/bin/fastaclean", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasplit": "/usr/local/bin/fastasplit", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress", "retroseq.pl": "/usr/local/bin/retroseq.pl", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed"}}
+config: {"url": "https://biocontainers.pro/tools/perl-retroseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-retroseq", "latest": {"1.5--pl5321hdfd78af_1": "sha256:65a209445d9e44d254837d33be082a658ab698dd5c7f4fb57a0809193fd5e664"}, "tags": {"1.5--pl5321hdfd78af_0": "sha256:e52ca6f617029195434fbb599fcd00b2d96b3961262576ea1ad1c6357644692c", "1.5--pl5321hdfd78af_1": "sha256:65a209445d9e44d254837d33be082a658ab698dd5c7f4fb57a0809193fd5e664"}, "docker": "quay.io/biocontainers/perl-retroseq", "aliases": {"esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclean": "/usr/local/bin/fastaclean", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasplit": "/usr/local/bin/fastasplit", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress", "retroseq.pl": "/usr/local/bin/retroseq.pl", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-retroseq.
@@ -79,7 +80,7 @@ $ shpc install quay.io/biocontainers/perl-retroseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-retroseq:1.5--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-retroseq:1.5--pl5321hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +92,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-retroseq/1.5--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-retroseq/1.5--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-retroseq/1.5--pl5321hdfd78af_1
+$ module help quay.io/biocontainers/perl-retroseq/1.5--pl5321hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

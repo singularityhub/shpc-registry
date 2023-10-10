@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sigmut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigmut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigmut/container.yaml"
-updated_at: "2023-10-09 03:20:45.885660"
+updated_at: "2023-10-10 03:03:15.217857"
 latest: "1.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/sigmut"
 aliases:

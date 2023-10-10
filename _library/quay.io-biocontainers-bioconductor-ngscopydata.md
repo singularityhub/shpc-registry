@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ngscopydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ngscopydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ngscopydata/container.yaml"
-updated_at: "2023-10-09 03:19:22.311895"
+updated_at: "2023-10-10 03:02:04.223572"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ngscopydata"
 aliases:
