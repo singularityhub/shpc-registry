@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ribotish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ribotish
 latest:
-  0.2.5--pyh864c0ab_1: sha256:38f9b04ce56dfe83b2a3d693079d1c69373852aef429be6b1b4bf855e2f582da
+  0.2.7--pyhdfd78af_0: sha256:d07a76396838033f01a3ef61b21fa9875fce5b54829f00e3dd8979db7f097ca9
 tags:
   0.2.5--pyh864c0ab_1: sha256:38f9b04ce56dfe83b2a3d693079d1c69373852aef429be6b1b4bf855e2f582da
+  0.2.7--pyhdfd78af_0: sha256:d07a76396838033f01a3ef61b21fa9875fce5b54829f00e3dd8979db7f097ca9
 docker: quay.io/biocontainers/ribotish
 aliases:
   ribotish: /usr/local/bin/ribotish
