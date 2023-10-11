@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simpleseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simpleseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simpleseg/container.yaml"
-updated_at: "2023-10-10 03:04:03.424220"
+updated_at: "2023-10-11 03:04:59.660637"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simpleseg"
 aliases:

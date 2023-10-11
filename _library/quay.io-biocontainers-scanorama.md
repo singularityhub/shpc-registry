@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scanorama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanorama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanorama/container.yaml"
-updated_at: "2023-10-10 02:35:36.138918"
-latest: "1.7.3--pyhdfd78af_0"
+updated_at: "2023-10-11 02:35:54.929092"
+latest: "1.7.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scanorama"
 aliases:
  - "f2py3.6"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.7.1--py_0"
  - "1.7.3--pyhdfd78af_0"
+ - "1.7.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scanorama"
-config: {"url": "https://biocontainers.pro/tools/scanorama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scanorama", "latest": {"1.7.3--pyhdfd78af_0": "sha256:4f4f352098650b4de71190b819b3f304ba1ec7341cc7a340230e1a7a593aa599"}, "tags": {"1.7.1--py_0": "sha256:a60c6639c7c4f2bbcd9e16da52f201a18a41b3e83de9546d7aa310a1ab36bc08", "1.7.3--pyhdfd78af_0": "sha256:4f4f352098650b4de71190b819b3f304ba1ec7341cc7a340230e1a7a593aa599"}, "docker": "quay.io/biocontainers/scanorama", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "jpgicc": "/usr/local/bin/jpgicc"}}
+config: {"url": "https://biocontainers.pro/tools/scanorama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scanorama", "latest": {"1.7.4--pyhdfd78af_0": "sha256:7cf66969c894c126f115938cdf25d02e5581d086b92305fd0456a7d2b9b71ad8"}, "tags": {"1.7.1--py_0": "sha256:a60c6639c7c4f2bbcd9e16da52f201a18a41b3e83de9546d7aa310a1ab36bc08", "1.7.3--pyhdfd78af_0": "sha256:4f4f352098650b4de71190b819b3f304ba1ec7341cc7a340230e1a7a593aa599", "1.7.4--pyhdfd78af_0": "sha256:7cf66969c894c126f115938cdf25d02e5581d086b92305fd0456a7d2b9b71ad8"}, "docker": "quay.io/biocontainers/scanorama", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scanorama.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/scanorama
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scanorama:1.7.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scanorama:1.7.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scanorama/1.7.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/scanorama/1.7.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/scanorama/1.7.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/scanorama/1.7.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/icount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icount/container.yaml"
-updated_at: "2023-10-10 02:57:21.879152"
+updated_at: "2023-10-11 02:58:08.243602"
 latest: "2.0.0--py_1"
 container_url: "https://biocontainers.pro/tools/icount"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kissplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kissplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kissplice/container.yaml"
-updated_at: "2023-10-10 02:45:44.230884"
+updated_at: "2023-10-11 02:46:15.951695"
 latest: "2.5.5--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/kissplice"
 aliases:

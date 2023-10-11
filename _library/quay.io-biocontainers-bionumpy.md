@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bionumpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bionumpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bionumpy/container.yaml"
-updated_at: "2023-10-10 02:58:46.818095"
+updated_at: "2023-10-11 02:59:35.116972"
 latest: "0.2.26--pyha8f3691_0"
 container_url: "https://biocontainers.pro/tools/bionumpy"
 aliases:

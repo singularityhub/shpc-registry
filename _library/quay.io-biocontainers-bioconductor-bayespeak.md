@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bayespeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayespeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayespeak/container.yaml"
-updated_at: "2023-10-10 02:44:31.034396"
+updated_at: "2023-10-11 02:45:01.101672"
 latest: "1.39.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayespeak"
 aliases:

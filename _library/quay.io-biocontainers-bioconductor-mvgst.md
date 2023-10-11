@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mvgst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mvgst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mvgst/container.yaml"
-updated_at: "2023-10-10 02:47:31.200141"
+updated_at: "2023-10-11 02:48:05.185874"
 latest: "1.12.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mvgst"
 aliases:

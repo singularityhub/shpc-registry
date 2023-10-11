@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rfoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rfoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rfoc/container.yaml"
-updated_at: "2023-10-10 03:04:10.920194"
+updated_at: "2023-10-11 03:05:07.368626"
 latest: "3.3_3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rfoc"
 aliases:

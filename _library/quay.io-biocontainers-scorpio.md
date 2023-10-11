@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scorpio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scorpio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scorpio/container.yaml"
-updated_at: "2023-10-10 03:14:08.842614"
+updated_at: "2023-10-11 03:15:18.706772"
 latest: "0.3.19--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scorpio"
 aliases:

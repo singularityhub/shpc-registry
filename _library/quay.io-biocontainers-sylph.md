@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sylph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sylph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sylph/container.yaml"
-updated_at: "2023-10-10 02:59:40.854969"
+updated_at: "2023-10-11 03:00:30.343503"
 latest: "0.1.0--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/sylph"
 aliases:

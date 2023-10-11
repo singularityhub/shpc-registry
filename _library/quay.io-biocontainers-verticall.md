@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/verticall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verticall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verticall/container.yaml"
-updated_at: "2023-10-10 03:12:53.836473"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2023-10-11 03:14:01.986065"
+latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/verticall"
 aliases:
  - "verticall"
@@ -36,8 +36,9 @@ aliases:
  - "linkicc"
 versions:
  - "0.4.1--pyhdfd78af_0"
+ - "0.4.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for verticall"
-config: {"url": "https://biocontainers.pro/tools/verticall", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for verticall", "latest": {"0.4.1--pyhdfd78af_0": "sha256:b1b058ddf350dc7386421144e30a9831f2354d46845b253f749b369663375220"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:b1b058ddf350dc7386421144e30a9831f2354d46845b253f749b369663375220"}, "docker": "quay.io/biocontainers/verticall", "aliases": {"verticall": "/usr/local/bin/verticall", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "sdust": "/usr/local/bin/sdust", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
+config: {"url": "https://biocontainers.pro/tools/verticall", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for verticall", "latest": {"0.4.2--pyhdfd78af_0": "sha256:d64bef89f09b5ab1ef74f683533c30b486a9944a3a868eab036c7a44d95c4b8c"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:b1b058ddf350dc7386421144e30a9831f2354d46845b253f749b369663375220", "0.4.2--pyhdfd78af_0": "sha256:d64bef89f09b5ab1ef74f683533c30b486a9944a3a868eab036c7a44d95c4b8c"}, "docker": "quay.io/biocontainers/verticall", "aliases": {"verticall": "/usr/local/bin/verticall", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "sdust": "/usr/local/bin/sdust", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verticall.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/verticall
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verticall:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/verticall:0.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verticall/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/verticall/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/verticall/0.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/verticall/0.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

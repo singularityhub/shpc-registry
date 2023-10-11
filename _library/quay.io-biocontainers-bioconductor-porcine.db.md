@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-porcine.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-porcine.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-porcine.db/container.yaml"
-updated_at: "2023-10-10 02:59:23.065769"
+updated_at: "2023-10-11 03:00:12.194924"
 latest: "3.13.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-porcine.db"
 aliases:

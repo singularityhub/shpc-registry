@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annotsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annotsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annotsv/container.yaml"
-updated_at: "2023-10-10 02:55:12.558332"
+updated_at: "2023-10-11 02:55:56.761909"
 latest: "3.3.6--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/annotsv"
 aliases:

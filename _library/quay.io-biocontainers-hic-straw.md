@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hic-straw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hic-straw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hic-straw/container.yaml"
-updated_at: "2023-10-10 03:05:25.052124"
+updated_at: "2023-10-11 03:06:23.417512"
 latest: "1.3.1--py38h5e0e482_3"
 container_url: "https://biocontainers.pro/tools/hic-straw"
 aliases:
