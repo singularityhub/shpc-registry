@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/skani
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for skani
 latest:
-  0.1.5--h4ac6f70_0: sha256:75111df14faf2c15c1ed8fa1a7a642bac0298b5f5d0863014c9a06c7b45fbb86
+  0.2.1--h4ac6f70_0: sha256:ae0af15139b6189f477dae79098951e0d60abb3a0ff23727428cf14ea3907ee7
 tags:
   0.1.0--h9f5acd7_0: sha256:b3d0afd09f684cbcb92b73737db2a0f75421c008804a66ba2a3f04357076facf
   0.1.1--h9f5acd7_0: sha256:9db3ad6c21b830bee564baca3b957f6565c0a1d177262b6e68289fe34a9c9e54
@@ -10,6 +10,7 @@ tags:
   0.1.3--h4ac6f70_2: sha256:70f6761b55bab2c937deee47d0ef5624817b83a879e3a19c95198eabe951d232
   0.1.4--h4ac6f70_0: sha256:56977563b025868422c3c380156d4b135f931d674b7e68a41f9f8ed8fb39347f
   0.1.5--h4ac6f70_0: sha256:75111df14faf2c15c1ed8fa1a7a642bac0298b5f5d0863014c9a06c7b45fbb86
+  0.2.1--h4ac6f70_0: sha256:ae0af15139b6189f477dae79098951e0d60abb3a0ff23727428cf14ea3907ee7
 docker: quay.io/biocontainers/skani
 aliases:
   skani: /usr/local/bin/skani
