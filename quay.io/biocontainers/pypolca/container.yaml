@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/pypolca
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pypolca
+latest:
+  0.1.1--pyhdfd78af_0: sha256:bd2df98b05ced93aa1930458fbed6ba2396aa4fed08efa87ba276d33bacaec1e
+tags:
+  0.1.1--pyhdfd78af_0: sha256:bd2df98b05ced93aa1930458fbed6ba2396aa4fed08efa87ba276d33bacaec1e
+docker: quay.io/biocontainers/pypolca
+aliases:
+  pypolca: /usr/local/bin/pypolca
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
+  vcfnullgenofields: /usr/local/bin/vcfnullgenofields
+  vcfwave: /usr/local/bin/vcfwave
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  update_version.sh: /usr/local/bin/update_version.sh
+  tabix++: /usr/local/bin/tabix++
+  bamleftalign: /usr/local/bin/bamleftalign
+  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
+  fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
+  freebayes-parallel: /usr/local/bin/freebayes-parallel
+  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  freebayes: /usr/local/bin/freebayes
+  abba-baba: /usr/local/bin/abba-baba
+  bFst: /usr/local/bin/bFst
+  bed2region: /usr/local/bin/bed2region
+  bgziptabix: /usr/local/bin/bgziptabix
+  dumpContigsFromHeader: /usr/local/bin/dumpContigsFromHeader
+  genotypeSummary: /usr/local/bin/genotypeSummary
+  hapLrt: /usr/local/bin/hapLrt
+  iHS: /usr/local/bin/iHS
+  meltEHH: /usr/local/bin/meltEHH
+  normalize-iHS: /usr/local/bin/normalize-iHS
+  pFst: /usr/local/bin/pFst
+  pVst: /usr/local/bin/pVst
+  permuteGPAT++: /usr/local/bin/permuteGPAT++
+  permuteSmooth: /usr/local/bin/permuteSmooth
+  plotHaps: /usr/local/bin/plotHaps
+  popStats: /usr/local/bin/popStats

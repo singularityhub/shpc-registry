@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/seqstr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqstr
+latest:
+  0.1.0--pyhdfd78af_0: sha256:527fb13b3d6647f63127157b8bc76ec64b757e8d83e4d011782d9e8a41ff7271
+tags:
+  0.1.0--pyhdfd78af_0: sha256:527fb13b3d6647f63127157b8bc76ec64b757e8d83e4d011782d9e8a41ff7271
+docker: quay.io/biocontainers/seqstr
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  seqstr: /usr/local/bin/seqstr
+  faidx: /usr/local/bin/faidx
+  normalizer: /usr/local/bin/normalizer
+  python3.1: /usr/local/bin/python3.1
