@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smashpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smashpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smashpp/container.yaml"
-updated_at: "2023-10-11 03:06:15.719435"
-latest: "22.08--h4ac6f70_2"
+updated_at: "2023-10-12 03:15:56.941852"
+latest: "23.09--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/smashpp"
 aliases:
  - "exclude_N"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "22.08--h9f5acd7_0"
  - "22.08--h4ac6f70_2"
+ - "23.09--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for smashpp"
-config: {"url": "https://biocontainers.pro/tools/smashpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smashpp", "latest": {"22.08--h4ac6f70_2": "sha256:f4d9347fce5907dfff4e015c4ff460f592da981ecb4554415a9f31a43a0e1da9"}, "tags": {"22.08--h9f5acd7_0": "sha256:991a0d84349a12ecef06c176bdcea2424abb140f293d5c041ba9c9b2433adcdd", "22.08--h4ac6f70_2": "sha256:f4d9347fce5907dfff4e015c4ff460f592da981ecb4554415a9f31a43a0e1da9"}, "docker": "quay.io/biocontainers/smashpp", "aliases": {"exclude_N": "/usr/local/bin/exclude_N", "smashpp": "/usr/local/bin/smashpp", "smashpp-inv-rep": "/usr/local/bin/smashpp-inv-rep"}}
+config: {"url": "https://biocontainers.pro/tools/smashpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smashpp", "latest": {"23.09--h4ac6f70_0": "sha256:39365dfc11629d21f7bf5934f4b6f6eff205eaa3ccf87700b97863f550984c48"}, "tags": {"22.08--h9f5acd7_0": "sha256:991a0d84349a12ecef06c176bdcea2424abb140f293d5c041ba9c9b2433adcdd", "22.08--h4ac6f70_2": "sha256:f4d9347fce5907dfff4e015c4ff460f592da981ecb4554415a9f31a43a0e1da9", "23.09--h4ac6f70_0": "sha256:39365dfc11629d21f7bf5934f4b6f6eff205eaa3ccf87700b97863f550984c48"}, "docker": "quay.io/biocontainers/smashpp", "aliases": {"exclude_N": "/usr/local/bin/exclude_N", "smashpp": "/usr/local/bin/smashpp", "smashpp-inv-rep": "/usr/local/bin/smashpp-inv-rep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smashpp.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/smashpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smashpp:22.08--h4ac6f70_2
+$ shpc install quay.io/biocontainers/smashpp:23.09--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smashpp/22.08--h4ac6f70_2
-$ module help quay.io/biocontainers/smashpp/22.08--h4ac6f70_2
+$ module load quay.io/biocontainers/smashpp/23.09--h4ac6f70_0
+$ module help quay.io/biocontainers/smashpp/23.09--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

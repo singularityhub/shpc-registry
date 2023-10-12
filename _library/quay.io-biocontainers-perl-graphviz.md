@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-graphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graphviz/container.yaml"
-updated_at: "2023-10-11 02:28:17.615121"
+updated_at: "2023-10-12 02:28:46.034562"
 latest: "2.24--pl5321h4b32bfc_1"
 container_url: "https://biocontainers.pro/tools/perl-graphviz"
 aliases:

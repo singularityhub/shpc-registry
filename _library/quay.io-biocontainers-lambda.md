@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lambda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lambda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lambda/container.yaml"
-updated_at: "2023-10-11 03:03:08.451393"
+updated_at: "2023-10-12 03:12:05.770297"
 latest: "2.0.0--h6dccd9a_6"
 container_url: "https://biocontainers.pro/tools/lambda"
 aliases:

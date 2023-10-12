@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gopro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gopro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gopro/container.yaml"
-updated_at: "2023-10-11 02:46:01.741238"
+updated_at: "2023-10-12 02:50:44.022085"
 latest: "1.26.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gopro"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oligotyping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligotyping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligotyping/container.yaml"
-updated_at: "2023-10-11 02:27:35.495720"
+updated_at: "2023-10-12 02:27:54.164844"
 latest: "2.1--py27_0"
 container_url: "https://biocontainers.pro/tools/oligotyping"
 aliases:

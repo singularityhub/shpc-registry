@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ribotish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotish/container.yaml"
-updated_at: "2023-10-11 03:16:15.208097"
-latest: "0.2.5--pyh864c0ab_1"
+updated_at: "2023-10-12 03:28:18.098829"
+latest: "0.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribotish"
 aliases:
  - "ribotish"
@@ -21,8 +21,9 @@ aliases:
  - "jpgicc"
 versions:
  - "0.2.5--pyh864c0ab_1"
+ - "0.2.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ribotish"
-config: {"url": "https://biocontainers.pro/tools/ribotish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribotish", "latest": {"0.2.5--pyh864c0ab_1": "sha256:38f9b04ce56dfe83b2a3d693079d1c69373852aef429be6b1b4bf855e2f582da"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:38f9b04ce56dfe83b2a3d693079d1c69373852aef429be6b1b4bf855e2f582da"}, "docker": "quay.io/biocontainers/ribotish", "aliases": {"ribotish": "/usr/local/bin/ribotish", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "jpgicc": "/usr/local/bin/jpgicc"}}
+config: {"url": "https://biocontainers.pro/tools/ribotish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribotish", "latest": {"0.2.7--pyhdfd78af_0": "sha256:d07a76396838033f01a3ef61b21fa9875fce5b54829f00e3dd8979db7f097ca9"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:38f9b04ce56dfe83b2a3d693079d1c69373852aef429be6b1b4bf855e2f582da", "0.2.7--pyhdfd78af_0": "sha256:d07a76396838033f01a3ef61b21fa9875fce5b54829f00e3dd8979db7f097ca9"}, "docker": "quay.io/biocontainers/ribotish", "aliases": {"ribotish": "/usr/local/bin/ribotish", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribotish.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ribotish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ribotish:0.2.5--pyh864c0ab_1
+$ shpc install quay.io/biocontainers/ribotish:0.2.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ribotish/0.2.5--pyh864c0ab_1
-$ module help quay.io/biocontainers/ribotish/0.2.5--pyh864c0ab_1
+$ module load quay.io/biocontainers/ribotish/0.2.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/ribotish/0.2.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
