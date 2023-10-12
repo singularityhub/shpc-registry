@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tidygenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidygenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidygenomics/container.yaml"
-updated_at: "2023-10-12 03:09:17.981695"
+updated_at: "2023-10-12 03:40:32.999292"
 latest: "0.1.2--r43h21a89ab_7"
 container_url: "https://biocontainers.pro/tools/r-tidygenomics"
 

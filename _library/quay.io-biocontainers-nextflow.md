@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextflow/container.yaml"
-updated_at: "2023-10-12 03:15:44.512729"
+updated_at: "2023-10-12 03:47:46.637952"
 latest: "23.04.3--h2a3209d_0"
 container_url: "https://biocontainers.pro/tools/nextflow"
 aliases:

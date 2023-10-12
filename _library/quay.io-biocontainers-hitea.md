@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hitea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hitea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hitea/container.yaml"
-updated_at: "2023-10-12 03:18:57.495939"
+updated_at: "2023-10-12 03:51:25.681305"
 latest: "0.1.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hitea"
 aliases:

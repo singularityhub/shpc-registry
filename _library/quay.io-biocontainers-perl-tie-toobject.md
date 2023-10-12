@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tie-toobject"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-toobject/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-toobject/container.yaml"
-updated_at: "2023-10-12 03:19:05.648312"
+updated_at: "2023-10-12 03:51:34.861022"
 latest: "0.03--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-tie-toobject"
 aliases:

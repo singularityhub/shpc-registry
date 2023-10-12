@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geotcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geotcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geotcgadata/container.yaml"
-updated_at: "2023-10-12 02:31:35.106678"
+updated_at: "2023-10-12 02:57:58.463176"
 latest: "2.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geotcgadata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bcbiornaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bcbiornaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bcbiornaseq/container.yaml"
-updated_at: "2023-10-12 02:44:16.121695"
+updated_at: "2023-10-12 03:12:20.948826"
 latest: "0.5.5--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-bcbiornaseq"
 aliases:

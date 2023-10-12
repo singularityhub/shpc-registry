@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msexperiment/container.yaml"
-updated_at: "2023-10-12 03:04:18.667771"
+updated_at: "2023-10-12 03:35:00.983250"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msexperiment"
 aliases:
