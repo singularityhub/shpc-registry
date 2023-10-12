@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/phytest
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phytest
+latest:
+  1.4.1--pyhdfd78af_0: sha256:3c91032e60203435033091906311e48bb0afd2cf5b37ab305c08c28d8b95ecca
+tags:
+  1.4.1--pyhdfd78af_0: sha256:3c91032e60203435033091906311e48bb0afd2cf5b37ab305c08c28d8b95ecca
+docker: quay.io/biocontainers/phytest
+aliases:
+  phytest: /usr/local/bin/phytest
+  treetime: /usr/local/bin/treetime
+  markdown-it: /usr/local/bin/markdown-it
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  tjbench: /usr/local/bin/tjbench
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
+  python3.1: /usr/local/bin/python3.1

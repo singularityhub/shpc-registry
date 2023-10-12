@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/trimnami
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trimnami
+latest:
+  0.1.1--pyhdfd78af_0: sha256:b6033266db12dd2bb3a0faffb259e3f19df6efe81a88b57c5cf6eae3835c94a9
+tags:
+  0.1.1--pyhdfd78af_0: sha256:b6033266db12dd2bb3a0faffb259e3f19df6efe81a88b57c5cf6eae3835c94a9
+docker: quay.io/biocontainers/trimnami
+aliases:
+  eido: /usr/local/bin/eido
+  protoc-24.3.0: /usr/local/bin/protoc-24.3.0
+  trimnami: /usr/local/bin/trimnami
+  markdown-it: /usr/local/bin/markdown-it
+  stone: /usr/local/bin/stone
+  yte: /usr/local/bin/yte
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  humanfriendly: /usr/local/bin/humanfriendly
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  jp.py: /usr/local/bin/jp.py
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  tabulate: /usr/local/bin/tabulate
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
