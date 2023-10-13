@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-vdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-vdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-vdb/container.yaml"
-updated_at: "2023-10-12 03:19:42.032584"
-latest: "3.0.7--hdbdd923_0"
+updated_at: "2023-10-13 02:49:59.330229"
+latest: "3.0.8--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/ncbi-vdb"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "3.0.5--hdbdd923_2"
  - "3.0.6--hdbdd923_0"
  - "3.0.7--hdbdd923_0"
+ - "3.0.8--hdbdd923_0"
 description: "shpc-registry automated BioContainers addition for ncbi-vdb"
-config: {"url": "https://biocontainers.pro/tools/ncbi-vdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-vdb", "latest": {"3.0.7--hdbdd923_0": "sha256:57ddf224432db34055d6c54c386a4c59aae2b3cc2f6c6e7fadf59640699c79f7"}, "tags": {"3.0.0--pl5321h87f3376_0": "sha256:3b6375b7218a284bb56576729f38aa69f5a0ee208535f90fbfbc21022e71057d", "3.0.2--h87f3376_0": "sha256:aba43c21a8b43784d533b628aa938ea862735e780bdefbfbc38874fc747644bb", "3.0.5--h87f3376_0": "sha256:6fdeb8dac5974c888aa8c986af7709da148127d749e1998588b47ddc922f2c8a", "3.0.5--hdbdd923_2": "sha256:7fbaa66b85908c236f293990058119f1be03a45ac71d7818d4ec2b3015a523d0", "3.0.6--hdbdd923_0": "sha256:c6e72eb236d94a9d3912ecdf5a6a2214b2540e28901264efb591fa726d6a94b3", "3.0.7--hdbdd923_0": "sha256:57ddf224432db34055d6c54c386a4c59aae2b3cc2f6c6e7fadf59640699c79f7"}, "docker": "quay.io/biocontainers/ncbi-vdb"}
+config: {"url": "https://biocontainers.pro/tools/ncbi-vdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-vdb", "latest": {"3.0.8--hdbdd923_0": "sha256:daad465684c05c71ae2592a6d32627333f8b34511592025f2c3c2ddb33408801"}, "tags": {"3.0.0--pl5321h87f3376_0": "sha256:3b6375b7218a284bb56576729f38aa69f5a0ee208535f90fbfbc21022e71057d", "3.0.2--h87f3376_0": "sha256:aba43c21a8b43784d533b628aa938ea862735e780bdefbfbc38874fc747644bb", "3.0.5--h87f3376_0": "sha256:6fdeb8dac5974c888aa8c986af7709da148127d749e1998588b47ddc922f2c8a", "3.0.5--hdbdd923_2": "sha256:7fbaa66b85908c236f293990058119f1be03a45ac71d7818d4ec2b3015a523d0", "3.0.6--hdbdd923_0": "sha256:c6e72eb236d94a9d3912ecdf5a6a2214b2540e28901264efb591fa726d6a94b3", "3.0.7--hdbdd923_0": "sha256:57ddf224432db34055d6c54c386a4c59aae2b3cc2f6c6e7fadf59640699c79f7", "3.0.8--hdbdd923_0": "sha256:daad465684c05c71ae2592a6d32627333f8b34511592025f2c3c2ddb33408801"}, "docker": "quay.io/biocontainers/ncbi-vdb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-vdb.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/ncbi-vdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-vdb:3.0.7--hdbdd923_0
+$ shpc install quay.io/biocontainers/ncbi-vdb:3.0.8--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-vdb/3.0.7--hdbdd923_0
-$ module help quay.io/biocontainers/ncbi-vdb/3.0.7--hdbdd923_0
+$ module load quay.io/biocontainers/ncbi-vdb/3.0.8--hdbdd923_0
+$ module help quay.io/biocontainers/ncbi-vdb/3.0.8--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "jupyter/minimal-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/minimal-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/minimal-notebook/container.yaml"
-updated_at: "2023-10-12 04:05:30.771501"
+updated_at: "2023-10-13 03:22:36.574580"
 latest: "2023-09-25"
 container_url: "https://hub.docker.com/r/jupyter/minimal-notebook"
 aliases:
