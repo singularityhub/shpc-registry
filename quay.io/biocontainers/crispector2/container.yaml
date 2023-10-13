@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/crispector2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for crispector2
 latest:
-  2.0.4--pyhdfd78af_0: sha256:a2df260fea604ad1a1f9757e6202c45931e3f1069346d7376fe571ef68cf0bd5
+  2.0.6--pyhdfd78af_0: sha256:3ca29bf4fe57557c11d4b3f4217a77d8bb87636a1fa1ec31287dc9a4c4fd203b
 tags:
   2.0.4--pyhdfd78af_0: sha256:a2df260fea604ad1a1f9757e6202c45931e3f1069346d7376fe571ef68cf0bd5
+  2.0.6--pyhdfd78af_0: sha256:3ca29bf4fe57557c11d4b3f4217a77d8bb87636a1fa1ec31287dc9a4c4fd203b
 docker: quay.io/biocontainers/crispector2
 aliases:
   crispector: /usr/local/bin/crispector
