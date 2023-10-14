@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-relaimpo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-relaimpo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-relaimpo/container.yaml"
-updated_at: "2023-10-13 03:04:53.547396"
+updated_at: "2023-10-14 02:59:24.135397"
 latest: "2.2_2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-relaimpo"
 aliases:

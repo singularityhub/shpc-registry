@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/omssa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/omssa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/omssa/container.yaml"
-updated_at: "2023-10-13 03:18:54.960082"
+updated_at: "2023-10-14 03:13:32.815846"
 latest: "2.1.9--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/omssa"
 aliases:

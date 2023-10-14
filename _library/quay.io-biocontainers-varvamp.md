@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varvamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varvamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varvamp/container.yaml"
-updated_at: "2023-10-13 03:05:24.036226"
-latest: "0.9.2--pyhdfd78af_1"
+updated_at: "2023-10-14 02:59:55.483834"
+latest: "0.9.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varvamp"
 aliases:
  - "varvamp"
@@ -35,8 +35,9 @@ versions:
  - "0.8.3--pyhdfd78af_0"
  - "0.9.2--pyhdfd78af_0"
  - "0.9.2--pyhdfd78af_1"
+ - "0.9.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for varvamp"
-config: {"url": "https://biocontainers.pro/tools/varvamp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varvamp", "latest": {"0.9.2--pyhdfd78af_1": "sha256:533a026d01f1f59eba34e96a00907fae3d1421c8e8422b75719f6988294d76d4"}, "tags": {"0.4--pyhdfd78af_0": "sha256:0f5a82684825086347a0545c35e3c2d533b90cdb2edc713c1c4c724f85d0cd8e", "0.8.3--pyhdfd78af_0": "sha256:abf19f191c5a671757585848862845da7863697a1a80d62f2058294272e266f1", "0.9.2--pyhdfd78af_0": "sha256:2844dc9a844c4ca10a1ed1f4feaea6a875bcb2a3a682ff90f9143c11a24c9648", "0.9.2--pyhdfd78af_1": "sha256:533a026d01f1f59eba34e96a00907fae3d1421c8e8422b75719f6988294d76d4"}, "docker": "quay.io/biocontainers/varvamp", "aliases": {"varvamp": "/usr/local/bin/varvamp", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/varvamp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varvamp", "latest": {"0.9.3--pyhdfd78af_0": "sha256:7d02314932eda01010fc02ed6c0b719d4f4796161507c0ea9d25da88ecfa68b4"}, "tags": {"0.4--pyhdfd78af_0": "sha256:0f5a82684825086347a0545c35e3c2d533b90cdb2edc713c1c4c724f85d0cd8e", "0.8.3--pyhdfd78af_0": "sha256:abf19f191c5a671757585848862845da7863697a1a80d62f2058294272e266f1", "0.9.2--pyhdfd78af_0": "sha256:2844dc9a844c4ca10a1ed1f4feaea6a875bcb2a3a682ff90f9143c11a24c9648", "0.9.2--pyhdfd78af_1": "sha256:533a026d01f1f59eba34e96a00907fae3d1421c8e8422b75719f6988294d76d4", "0.9.3--pyhdfd78af_0": "sha256:7d02314932eda01010fc02ed6c0b719d4f4796161507c0ea9d25da88ecfa68b4"}, "docker": "quay.io/biocontainers/varvamp", "aliases": {"varvamp": "/usr/local/bin/varvamp", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varvamp.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/varvamp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varvamp:0.9.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/varvamp:0.9.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varvamp/0.9.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/varvamp/0.9.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/varvamp/0.9.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/varvamp/0.9.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

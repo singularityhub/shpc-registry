@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-normalyzerde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normalyzerde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normalyzerde/container.yaml"
-updated_at: "2023-10-13 02:55:22.339419"
+updated_at: "2023-10-14 02:49:34.118823"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normalyzerde"
 aliases:

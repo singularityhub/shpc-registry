@@ -4,16 +4,17 @@ name:  "hashicorp/consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/hashicorp/consul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/hashicorp/consul/container.yaml"
-updated_at: "2023-10-13 03:22:45.630516"
-latest: "1.16"
+updated_at: "2023-10-14 03:17:29.434735"
+latest: "1.17.0-rc1"
 container_url: "https://hub.docker.com/r/hashicorp/consul"
 aliases:
  - "consul"
  - "docker-entrypoint.sh"
 versions:
  - "1.16"
+ - "1.17.0-rc1"
 description: "Automatic build of consul based on the current release."
-config: {"docker": "hashicorp/consul", "maintainer": "@vsoch", "url": "https://hub.docker.com/r/hashicorp/consul", "description": "Automatic build of consul based on the current release.", "latest": {"1.16": "sha256:8a163661acf3a07a5bc69d156b4e345e14342756fe1fe3833d14070e8d67b088"}, "tags": {"1.16": "sha256:8a163661acf3a07a5bc69d156b4e345e14342756fe1fe3833d14070e8d67b088"}, "aliases": {"consul": "/bin/consul", "docker-entrypoint.sh": "/usr/local/bin/docker-entrypoint.sh"}}
+config: {"docker": "hashicorp/consul", "maintainer": "@vsoch", "url": "https://hub.docker.com/r/hashicorp/consul", "description": "Automatic build of consul based on the current release.", "latest": {"1.17.0-rc1": "sha256:a44a99380b89e66caa4a6511212bff40fa1f4b89d62374bd4ebcf3897c05976b"}, "tags": {"1.16": "sha256:e1ce8eb1b6893249a27bbc3648b9ae3e97508f9aa013b73b3a954e18f935e0f6", "1.17.0-rc1": "sha256:a44a99380b89e66caa4a6511212bff40fa1f4b89d62374bd4ebcf3897c05976b"}, "aliases": {"consul": "/bin/consul", "docker-entrypoint.sh": "/usr/local/bin/docker-entrypoint.sh"}}
 ---
 
 This module is a singularity container wrapper for hashicorp/consul.
@@ -28,7 +29,7 @@ $ shpc install hashicorp/consul
 Or a specific version:
 
 ```bash
-$ shpc install hashicorp/consul:1.16
+$ shpc install hashicorp/consul:1.17.0-rc1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load hashicorp/consul/1.16
-$ module help hashicorp/consul/1.16
+$ module load hashicorp/consul/1.17.0-rc1
+$ module help hashicorp/consul/1.17.0-rc1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

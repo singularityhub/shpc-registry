@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqscreen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqscreen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqscreen/container.yaml"
-updated_at: "2023-10-13 02:28:58.100074"
+updated_at: "2023-10-14 02:22:21.683945"
 latest: "4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqscreen"
 aliases:

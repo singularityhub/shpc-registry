@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowmatch/container.yaml"
-updated_at: "2023-10-13 02:51:41.223539"
+updated_at: "2023-10-14 02:45:46.388081"
 latest: "1.34.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowmatch"
 

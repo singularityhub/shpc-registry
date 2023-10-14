@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-powerexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-powerexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-powerexplorer/container.yaml"
-updated_at: "2023-10-13 02:41:46.561756"
+updated_at: "2023-10-14 02:35:33.840959"
 latest: "1.7.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-powerexplorer"
 aliases:

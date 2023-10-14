@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alignoth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignoth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignoth/container.yaml"
-updated_at: "2023-10-13 03:16:09.477928"
-latest: "0.8.2--hb27afe3_2"
+updated_at: "2023-10-14 03:10:45.065212"
+latest: "0.10.0--hb27afe3_0"
 container_url: "https://biocontainers.pro/tools/alignoth"
 aliases:
  - "alignoth"
@@ -15,8 +15,10 @@ versions:
  - "0.7.3--h02737ae_0"
  - "0.8.2--h02737ae_0"
  - "0.8.2--hb27afe3_2"
+ - "0.10.0--hb27afe3_0"
+ - "0.9.0--hb27afe3_0"
 description: "singularity registry hpc automated addition for alignoth"
-config: {"url": "https://biocontainers.pro/tools/alignoth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alignoth", "latest": {"0.8.2--hb27afe3_2": "sha256:1e7f23b529513a2422981c3a6ef47c0a436c587fceac667ffc84d65ab1e06b4e"}, "tags": {"0.7.0--h02737ae_0": "sha256:4faa632928afff6b8b32b42890cde8c0f8e47a3432ed02d110432df8de51b1d9", "0.7.1--h02737ae_0": "sha256:03525a1c72f0bbfafc5f6d116a740c78673d14a2311894f2d1be4d916888bd24", "0.7.3--h02737ae_0": "sha256:386499b883965cb54e42aa13605cf1202a727968d6c23279024c05c95b5aee42", "0.8.2--h02737ae_0": "sha256:8989e1442c915b2b1516982d419774dffbf568531f00562bda4cf4b1f6cc9efe", "0.8.2--hb27afe3_2": "sha256:1e7f23b529513a2422981c3a6ef47c0a436c587fceac667ffc84d65ab1e06b4e"}, "docker": "quay.io/biocontainers/alignoth", "aliases": {"alignoth": "/usr/local/bin/alignoth"}}
+config: {"url": "https://biocontainers.pro/tools/alignoth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alignoth", "latest": {"0.10.0--hb27afe3_0": "sha256:e35811610b268d7f0cdc790ec4446d31d80014ccae2fb37c44fc9438de3e9a18"}, "tags": {"0.7.0--h02737ae_0": "sha256:4faa632928afff6b8b32b42890cde8c0f8e47a3432ed02d110432df8de51b1d9", "0.7.1--h02737ae_0": "sha256:03525a1c72f0bbfafc5f6d116a740c78673d14a2311894f2d1be4d916888bd24", "0.7.3--h02737ae_0": "sha256:386499b883965cb54e42aa13605cf1202a727968d6c23279024c05c95b5aee42", "0.8.2--h02737ae_0": "sha256:8989e1442c915b2b1516982d419774dffbf568531f00562bda4cf4b1f6cc9efe", "0.8.2--hb27afe3_2": "sha256:1e7f23b529513a2422981c3a6ef47c0a436c587fceac667ffc84d65ab1e06b4e", "0.10.0--hb27afe3_0": "sha256:e35811610b268d7f0cdc790ec4446d31d80014ccae2fb37c44fc9438de3e9a18", "0.9.0--hb27afe3_0": "sha256:4fda78c554da26397b27d060d9b08ac452158d5ecbbcbb3fa4b76508072f4e70"}, "docker": "quay.io/biocontainers/alignoth", "aliases": {"alignoth": "/usr/local/bin/alignoth"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alignoth.
@@ -31,7 +33,7 @@ $ shpc install quay.io/biocontainers/alignoth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alignoth:0.8.2--hb27afe3_2
+$ shpc install quay.io/biocontainers/alignoth:0.10.0--hb27afe3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alignoth/0.8.2--hb27afe3_2
-$ module help quay.io/biocontainers/alignoth/0.8.2--hb27afe3_2
+$ module load quay.io/biocontainers/alignoth/0.10.0--hb27afe3_0
+$ module help quay.io/biocontainers/alignoth/0.10.0--hb27afe3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

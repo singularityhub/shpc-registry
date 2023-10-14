@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mgcv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mgcv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mgcv/container.yaml"
-updated_at: "2023-10-13 02:38:23.376068"
+updated_at: "2023-10-14 02:32:03.731898"
 latest: "1.8_28"
 container_url: "https://biocontainers.pro/tools/r-mgcv"
 aliases:
