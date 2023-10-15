@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nanometa-live
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nanometa-live
 latest:
-  0.1.1--pyhdfd78af_0: sha256:56e49e185707ae1cf8ba95f9286d6aa48eb346e005f139f713766ffa3aa8141c
+  0.3.1--pyhdfd78af_0: sha256:fe042593677cbb100e9c9824beaf34d1b6411fc0ae30166cb3911dea3de4319f
 tags:
   0.1.1--pyhdfd78af_0: sha256:56e49e185707ae1cf8ba95f9286d6aa48eb346e005f139f713766ffa3aa8141c
+  0.3.1--pyhdfd78af_0: sha256:fe042593677cbb100e9c9824beaf34d1b6411fc0ae30166cb3911dea3de4319f
 docker: quay.io/biocontainers/nanometa-live
 aliases:
   ansi2html: /usr/local/bin/ansi2html

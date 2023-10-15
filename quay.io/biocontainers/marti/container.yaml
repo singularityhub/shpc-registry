@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/marti
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for marti
 latest:
-  0.9.14--hdfd78af_0: sha256:e25435d7def20aff5aa06095b729f4259fc8b16802b17d27af9cf6ee45ac6222
+  0.9.15--hdfd78af_0: sha256:2fe7b466c4181e09818021add08a92157542e86848c53e094eea9b99b1aba822
 tags:
   0.9.14--hdfd78af_0: sha256:e25435d7def20aff5aa06095b729f4259fc8b16802b17d27af9cf6ee45ac6222
+  0.9.15--hdfd78af_0: sha256:2fe7b466c4181e09818021add08a92157542e86848c53e094eea9b99b1aba822
 docker: quay.io/biocontainers/marti
 aliases:
   blastn_vdb: /usr/local/bin/blastn_vdb

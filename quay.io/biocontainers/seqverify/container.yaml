@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seqverify
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqverify
 latest:
-  0.1.0--hdfd78af_0: sha256:7bd6f2ca05be17fd41ed7f2c93d0a856153af10fde5ae59323c89b5bae998444
+  1.0.0--hdfd78af_0: sha256:2a2f9d832bf0838475058344e2fc27debfcf1a9ca1239bb1ecb49cbfe68787d5
 tags:
   0.1.0--hdfd78af_0: sha256:7bd6f2ca05be17fd41ed7f2c93d0a856153af10fde5ae59323c89b5bae998444
+  1.0.0--hdfd78af_0: sha256:2a2f9d832bf0838475058344e2fc27debfcf1a9ca1239bb1ecb49cbfe68787d5
 docker: quay.io/biocontainers/seqverify
 aliases:
   cnvpytor: /usr/local/bin/cnvpytor
