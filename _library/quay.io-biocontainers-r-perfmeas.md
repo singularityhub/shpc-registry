@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-perfmeas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-perfmeas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-perfmeas/container.yaml"
-updated_at: "2023-10-14 02:59:34.092511"
+updated_at: "2023-10-15 03:03:38.119055"
 latest: "1.2.5--r43h56115f1_3"
 container_url: "https://biocontainers.pro/tools/r-perfmeas"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-celltrails"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celltrails/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celltrails/container.yaml"
-updated_at: "2023-10-14 02:49:11.566737"
+updated_at: "2023-10-15 02:53:27.912546"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celltrails"
 aliases:

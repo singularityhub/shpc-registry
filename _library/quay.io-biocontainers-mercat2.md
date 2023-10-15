@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mercat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mercat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mercat2/container.yaml"
-updated_at: "2023-10-14 02:56:49.316932"
-latest: "1.0--pyhdfd78af_0"
+updated_at: "2023-10-15 03:00:55.356520"
+latest: "1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mercat2"
 aliases:
  - "countAssembly.py"
@@ -42,8 +42,9 @@ aliases:
  - "pyrsa-priv2pub"
 versions:
  - "1.0--pyhdfd78af_0"
+ - "1.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for mercat2"
-config: {"url": "https://biocontainers.pro/tools/mercat2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mercat2", "latest": {"1.0--pyhdfd78af_0": "sha256:4ba0fa4dd73223956a9487181305a18b5774e603fbbd79f87c10799349fd78b2"}, "tags": {"1.0--pyhdfd78af_0": "sha256:4ba0fa4dd73223956a9487181305a18b5774e603fbbd79f87c10799349fd78b2"}, "docker": "quay.io/biocontainers/mercat2", "aliases": {"countAssembly.py": "/usr/local/bin/countAssembly.py", "gpustat": "/usr/local/bin/gpustat", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "mercat2.py": "/usr/local/bin/mercat2.py", "py-spy": "/usr/local/bin/py-spy", "ray": "/usr/local/bin/ray", "fastp": "/usr/local/bin/fastp", "fastqc": "/usr/local/bin/fastqc", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "doesitcache": "/usr/local/bin/doesitcache", "jpackage": "/usr/local/bin/jpackage", "igzip": "/usr/local/bin/igzip", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cups-config": "/usr/local/bin/cups-config", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
+config: {"url": "https://biocontainers.pro/tools/mercat2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mercat2", "latest": {"1.0--pyhdfd78af_1": "sha256:26791536cd3b5edbcb611098a4bffe84c033146195d65dd3ad5e27cf4156fb15"}, "tags": {"1.0--pyhdfd78af_0": "sha256:4ba0fa4dd73223956a9487181305a18b5774e603fbbd79f87c10799349fd78b2", "1.0--pyhdfd78af_1": "sha256:26791536cd3b5edbcb611098a4bffe84c033146195d65dd3ad5e27cf4156fb15"}, "docker": "quay.io/biocontainers/mercat2", "aliases": {"countAssembly.py": "/usr/local/bin/countAssembly.py", "gpustat": "/usr/local/bin/gpustat", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "mercat2.py": "/usr/local/bin/mercat2.py", "py-spy": "/usr/local/bin/py-spy", "ray": "/usr/local/bin/ray", "fastp": "/usr/local/bin/fastp", "fastqc": "/usr/local/bin/fastqc", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "doesitcache": "/usr/local/bin/doesitcache", "jpackage": "/usr/local/bin/jpackage", "igzip": "/usr/local/bin/igzip", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cups-config": "/usr/local/bin/cups-config", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mercat2.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/mercat2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mercat2:1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mercat2:1.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mercat2/1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mercat2/1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mercat2/1.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/mercat2/1.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

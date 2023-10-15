@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/freebayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/freebayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/freebayes/container.yaml"
-updated_at: "2023-10-14 03:11:56.879482"
+updated_at: "2023-10-15 03:15:48.223364"
 latest: "1.3.3--py36hc088bd4_0"
 container_url: "https://biocontainers.pro/tools/freebayes"
 aliases:
