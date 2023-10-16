@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfaidx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfaidx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfaidx/container.yaml"
-updated_at: "2023-10-15 03:00:23.435831"
-latest: "0.7.2.1--pyh7cba7a3_1"
+updated_at: "2023-10-16 03:00:27.895931"
+latest: "0.7.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyfaidx"
 aliases:
  - "vcf_sample_filter.py"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.7.1--pyh5e36f6f_0"
  - "0.7.2.1--pyh7cba7a3_1"
+ - "0.7.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pyfaidx"
-config: {"url": "https://biocontainers.pro/tools/pyfaidx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfaidx", "latest": {"0.7.2.1--pyh7cba7a3_1": "sha256:b539a5e009fe700d968bb397dda334954cf3eee7b79f199515619d3d46df0448"}, "tags": {"0.7.1--pyh5e36f6f_0": "sha256:c43ce473073b34c4ad0a50ab04a3f392ff3bfbbea93336fe5c16d51ceca27b13", "0.7.2.1--pyh7cba7a3_1": "sha256:b539a5e009fe700d968bb397dda334954cf3eee7b79f199515619d3d46df0448"}, "docker": "quay.io/biocontainers/pyfaidx", "aliases": {"vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyfaidx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfaidx", "latest": {"0.7.2.2--pyhdfd78af_0": "sha256:b0a61f4e38f8be0844cab57b3990ef35c02f462a3a73c9424428faef8003b613"}, "tags": {"0.7.1--pyh5e36f6f_0": "sha256:c43ce473073b34c4ad0a50ab04a3f392ff3bfbbea93336fe5c16d51ceca27b13", "0.7.2.1--pyh7cba7a3_1": "sha256:b539a5e009fe700d968bb397dda334954cf3eee7b79f199515619d3d46df0448", "0.7.2.2--pyhdfd78af_0": "sha256:b0a61f4e38f8be0844cab57b3990ef35c02f462a3a73c9424428faef8003b613"}, "docker": "quay.io/biocontainers/pyfaidx", "aliases": {"vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfaidx.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pyfaidx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfaidx:0.7.2.1--pyh7cba7a3_1
+$ shpc install quay.io/biocontainers/pyfaidx:0.7.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfaidx/0.7.2.1--pyh7cba7a3_1
-$ module help quay.io/biocontainers/pyfaidx/0.7.2.1--pyh7cba7a3_1
+$ module load quay.io/biocontainers/pyfaidx/0.7.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyfaidx/0.7.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

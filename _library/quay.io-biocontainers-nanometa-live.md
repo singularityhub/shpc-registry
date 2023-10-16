@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanometa-live"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanometa-live/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanometa-live/container.yaml"
-updated_at: "2023-10-15 02:38:19.082389"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2023-10-16 02:38:22.421962"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanometa-live"
 aliases:
  - "ansi2html"
@@ -46,8 +46,9 @@ aliases:
  - "clp"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for nanometa-live"
-config: {"url": "https://biocontainers.pro/tools/nanometa-live", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanometa-live", "latest": {"0.1.1--pyhdfd78af_0": "sha256:56e49e185707ae1cf8ba95f9286d6aa48eb346e005f139f713766ffa3aa8141c"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:56e49e185707ae1cf8ba95f9286d6aa48eb346e005f139f713766ffa3aa8141c"}, "docker": "quay.io/biocontainers/nanometa-live", "aliases": {"ansi2html": "/usr/local/bin/ansi2html", "dash-update-components": "/usr/local/bin/dash-update-components", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "nanometa": "/usr/local/bin/nanometa", "nanometa-blastdb": "/usr/local/bin/nanometa-blastdb", "nanometa-new": "/usr/local/bin/nanometa-new", "nanometa-pipe": "/usr/local/bin/nanometa-pipe", "nanometa-sim": "/usr/local/bin/nanometa-sim", "protoc-23.3.0": "/usr/local/bin/protoc-23.3.0", "renderer": "/usr/local/bin/renderer", "dash-generate-components": "/usr/local/bin/dash-generate-components", "mamba-package": "/usr/local/bin/mamba-package", "markdown-it": "/usr/local/bin/markdown-it", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "test_pcre": "/usr/local/bin/test_pcre", "flask": "/usr/local/bin/flask", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
+config: {"url": "https://biocontainers.pro/tools/nanometa-live", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanometa-live", "latest": {"0.3.1--pyhdfd78af_0": "sha256:fe042593677cbb100e9c9824beaf34d1b6411fc0ae30166cb3911dea3de4319f"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:56e49e185707ae1cf8ba95f9286d6aa48eb346e005f139f713766ffa3aa8141c", "0.3.1--pyhdfd78af_0": "sha256:fe042593677cbb100e9c9824beaf34d1b6411fc0ae30166cb3911dea3de4319f"}, "docker": "quay.io/biocontainers/nanometa-live", "aliases": {"ansi2html": "/usr/local/bin/ansi2html", "dash-update-components": "/usr/local/bin/dash-update-components", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "nanometa": "/usr/local/bin/nanometa", "nanometa-blastdb": "/usr/local/bin/nanometa-blastdb", "nanometa-new": "/usr/local/bin/nanometa-new", "nanometa-pipe": "/usr/local/bin/nanometa-pipe", "nanometa-sim": "/usr/local/bin/nanometa-sim", "protoc-23.3.0": "/usr/local/bin/protoc-23.3.0", "renderer": "/usr/local/bin/renderer", "dash-generate-components": "/usr/local/bin/dash-generate-components", "mamba-package": "/usr/local/bin/mamba-package", "markdown-it": "/usr/local/bin/markdown-it", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "test_pcre": "/usr/local/bin/test_pcre", "flask": "/usr/local/bin/flask", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanometa-live.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/nanometa-live
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanometa-live:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nanometa-live:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanometa-live/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/nanometa-live/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/nanometa-live/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/nanometa-live/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

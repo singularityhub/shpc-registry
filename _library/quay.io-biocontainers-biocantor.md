@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biocantor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocantor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocantor/container.yaml"
-updated_at: "2023-10-15 02:46:33.111892"
-latest: "1.0.0--pyh7cba7a3_0"
+updated_at: "2023-10-16 02:46:37.679107"
+latest: "1.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/biocantor"
 aliases:
  - "gffutils-cli"
@@ -25,8 +25,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--pyh7cba7a3_0"
+ - "1.1.0--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for biocantor"
-config: {"url": "https://biocontainers.pro/tools/biocantor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biocantor", "latest": {"1.0.0--pyh7cba7a3_0": "sha256:c377d728ec1bb6d547d3a21f4c42d078dd0ec58403988b52531b4162349ac04e"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:c377d728ec1bb6d547d3a21f4c42d078dd0ec58403988b52531b4162349ac04e"}, "docker": "quay.io/biocontainers/biocantor", "aliases": {"gffutils-cli": "/usr/local/bin/gffutils-cli", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/biocantor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biocantor", "latest": {"1.1.0--pyh7cba7a3_0": "sha256:088e14eae98bdfee2682fcdcd7515927d99f8318c12d502d683ee9363ac85be1"}, "tags": {"1.0.0--pyh7cba7a3_0": "sha256:c377d728ec1bb6d547d3a21f4c42d078dd0ec58403988b52531b4162349ac04e", "1.1.0--pyh7cba7a3_0": "sha256:088e14eae98bdfee2682fcdcd7515927d99f8318c12d502d683ee9363ac85be1"}, "docker": "quay.io/biocontainers/biocantor", "aliases": {"gffutils-cli": "/usr/local/bin/gffutils-cli", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biocantor.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/biocantor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biocantor:1.0.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/biocantor:1.1.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biocantor/1.0.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/biocantor/1.0.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/biocantor/1.1.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/biocantor/1.1.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqverify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqverify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqverify/container.yaml"
-updated_at: "2023-10-15 03:04:44.547347"
-latest: "0.1.0--hdfd78af_0"
+updated_at: "2023-10-16 03:04:47.413002"
+latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqverify"
 aliases:
  - "cnvpytor"
@@ -39,8 +39,9 @@ aliases:
  - "blst2tkns"
 versions:
  - "0.1.0--hdfd78af_0"
+ - "1.0.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for seqverify"
-config: {"url": "https://biocontainers.pro/tools/seqverify", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqverify", "latest": {"0.1.0--hdfd78af_0": "sha256:7bd6f2ca05be17fd41ed7f2c93d0a856153af10fde5ae59323c89b5bae998444"}, "tags": {"0.1.0--hdfd78af_0": "sha256:7bd6f2ca05be17fd41ed7f2c93d0a856153af10fde5ae59323c89b5bae998444"}, "docker": "quay.io/biocontainers/seqverify", "aliases": {"cnvpytor": "/usr/local/bin/cnvpytor", "seqver_functions.py": "/usr/local/bin/seqver_functions.py", "seqver_transgenes.py": "/usr/local/bin/seqver_transgenes.py", "seqverify": "/usr/local/bin/seqverify", "h5delete": "/usr/local/bin/h5delete", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "test_pcre": "/usr/local/bin/test_pcre", "vba_extract.py": "/usr/local/bin/vba_extract.py", "aec": "/usr/local/bin/aec", "tar": "/usr/local/bin/tar", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "bwa": "/usr/local/bin/bwa", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
+config: {"url": "https://biocontainers.pro/tools/seqverify", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqverify", "latest": {"1.0.0--hdfd78af_0": "sha256:2a2f9d832bf0838475058344e2fc27debfcf1a9ca1239bb1ecb49cbfe68787d5"}, "tags": {"0.1.0--hdfd78af_0": "sha256:7bd6f2ca05be17fd41ed7f2c93d0a856153af10fde5ae59323c89b5bae998444", "1.0.0--hdfd78af_0": "sha256:2a2f9d832bf0838475058344e2fc27debfcf1a9ca1239bb1ecb49cbfe68787d5"}, "docker": "quay.io/biocontainers/seqverify", "aliases": {"cnvpytor": "/usr/local/bin/cnvpytor", "seqver_functions.py": "/usr/local/bin/seqver_functions.py", "seqver_transgenes.py": "/usr/local/bin/seqver_transgenes.py", "seqverify": "/usr/local/bin/seqverify", "h5delete": "/usr/local/bin/h5delete", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "test_pcre": "/usr/local/bin/test_pcre", "vba_extract.py": "/usr/local/bin/vba_extract.py", "aec": "/usr/local/bin/aec", "tar": "/usr/local/bin/tar", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "bwa": "/usr/local/bin/bwa", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqverify.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/seqverify
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqverify:0.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/seqverify:1.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqverify/0.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/seqverify/0.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/seqverify/1.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/seqverify/1.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

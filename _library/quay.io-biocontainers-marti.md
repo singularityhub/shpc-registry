@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/marti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marti/container.yaml"
-updated_at: "2023-10-15 02:54:12.551331"
-latest: "0.9.14--hdfd78af_0"
+updated_at: "2023-10-16 02:54:16.690036"
+latest: "0.9.15--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/marti"
 aliases:
  - "blastn_vdb"
@@ -41,8 +41,9 @@ aliases:
  - "hgvs2spdi"
 versions:
  - "0.9.14--hdfd78af_0"
+ - "0.9.15--hdfd78af_0"
 description: "singularity registry hpc automated addition for marti"
-config: {"url": "https://biocontainers.pro/tools/marti", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for marti", "latest": {"0.9.14--hdfd78af_0": "sha256:e25435d7def20aff5aa06095b729f4259fc8b16802b17d27af9cf6ee45ac6222"}, "tags": {"0.9.14--hdfd78af_0": "sha256:e25435d7def20aff5aa06095b729f4259fc8b16802b17d27af9cf6ee45ac6222"}, "docker": "quay.io/biocontainers/marti", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "corepack": "/usr/local/bin/corepack", "jwebserver": "/usr/local/bin/jwebserver", "marti": "/usr/local/bin/marti", "marti_gui": "/usr/local/bin/marti_gui", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "npx": "/usr/local/bin/npx", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "test_pcre": "/usr/local/bin/test_pcre", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "tjbench": "/usr/local/bin/tjbench", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi"}}
+config: {"url": "https://biocontainers.pro/tools/marti", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for marti", "latest": {"0.9.15--hdfd78af_0": "sha256:2fe7b466c4181e09818021add08a92157542e86848c53e094eea9b99b1aba822"}, "tags": {"0.9.14--hdfd78af_0": "sha256:e25435d7def20aff5aa06095b729f4259fc8b16802b17d27af9cf6ee45ac6222", "0.9.15--hdfd78af_0": "sha256:2fe7b466c4181e09818021add08a92157542e86848c53e094eea9b99b1aba822"}, "docker": "quay.io/biocontainers/marti", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "corepack": "/usr/local/bin/corepack", "jwebserver": "/usr/local/bin/jwebserver", "marti": "/usr/local/bin/marti", "marti_gui": "/usr/local/bin/marti_gui", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "npx": "/usr/local/bin/npx", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "test_pcre": "/usr/local/bin/test_pcre", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "tjbench": "/usr/local/bin/tjbench", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/marti.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/marti
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/marti:0.9.14--hdfd78af_0
+$ shpc install quay.io/biocontainers/marti:0.9.15--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/marti/0.9.14--hdfd78af_0
-$ module help quay.io/biocontainers/marti/0.9.14--hdfd78af_0
+$ module load quay.io/biocontainers/marti/0.9.15--hdfd78af_0
+$ module help quay.io/biocontainers/marti/0.9.15--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
