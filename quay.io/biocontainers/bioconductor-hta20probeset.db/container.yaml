@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hta20probeset.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hta20probeset.db
 latest:
-  8.8.0--r42hdfd78af_2: sha256:576932d37ce9bd2afcaa65b2d0ba79779c1ef536de760a8458b2e30561fb33c0
+  8.8.0--r43hdfd78af_3: sha256:257ce773eee7c4593a059d331b212c76cd7fe98c760bab47de5862812d56e538
 tags:
   8.8.0--r41hdfd78af_1: sha256:89ec17f27083ca1f69270d05318c4344f19f1a5713c3923f67fcb0346c817e43
   8.8.0--r42hdfd78af_2: sha256:576932d37ce9bd2afcaa65b2d0ba79779c1ef536de760a8458b2e30561fb33c0
+  8.8.0--r43hdfd78af_3: sha256:257ce773eee7c4593a059d331b212c76cd7fe98c760bab47de5862812d56e538
 docker: quay.io/biocontainers/bioconductor-hta20probeset.db

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kallisto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kallisto
 latest:
-  0.48.0--h15996b6_2: sha256:e44c2964d20ee3fb46488f77752e904168bf0c343759b02a4ab852361512c103
+  0.50.0--hc877fd6_0: sha256:179723a1556f0da8349e67cea06bdca3ae1d532ceef13df23200c7d2ec1a0b3c
 tags:
   0.48.0--h15996b6_2: sha256:e44c2964d20ee3fb46488f77752e904168bf0c343759b02a4ab852361512c103
+  0.50.0--hc877fd6_0: sha256:179723a1556f0da8349e67cea06bdca3ae1d532ceef13df23200c7d2ec1a0b3c
 docker: quay.io/biocontainers/kallisto
 aliases:
   kallisto: /usr/local/bin/kallisto

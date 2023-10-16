@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-restfulse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-restfulse
 latest:
-  1.20.0--r42hdfd78af_0: sha256:acb67380e6823ce79516cfa178538a0c2612e7b493dfc45eabf7e07278ef3353
+  1.22.0--r43hdfd78af_0: sha256:eab29ec85b7dea3773a01446ca0a18b243557cc3ebdc7229ebbd7c8d32e0cbff
 tags:
   1.8.0--r36_0: sha256:68be39c0a794b65888bf0dca08ae8338779820f9fb1a231055863c28d0af2680
   1.20.0--r42hdfd78af_0: sha256:acb67380e6823ce79516cfa178538a0c2612e7b493dfc45eabf7e07278ef3353
@@ -10,6 +10,7 @@ tags:
   1.13.1--r41hdfd78af_0: sha256:d36da0f94a6ead7c56d2137629ea206e80512f1a01ce937a95794d386e9a6437
   1.12.0--r40hdfd78af_1: sha256:1ae5f013fa351879837b6a9f1e9c03ba53274fde908eeb4167321a68cb726094
   1.10.0--r40_0: sha256:ec94a2c86964811942e9bff72069e36db49b3907a2ea337de137dfde91c84cfe
+  1.22.0--r43hdfd78af_0: sha256:eab29ec85b7dea3773a01446ca0a18b243557cc3ebdc7229ebbd7c8d32e0cbff
 docker: quay.io/biocontainers/bioconductor-restfulse
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-anvil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-anvil
 latest:
-  1.10.0--r42hdfd78af_0: sha256:883ad9c35669f8e3c987d305fc6c25b433f914f79dbe181c58292efafc355cb2
+  1.12.3--r43hdfd78af_0: sha256:d56552d9b5a4806f560d227ab36be1fa49d635ae396da8a56f6e9f756205e46c
 tags:
   1.6.0--r41hdfd78af_0: sha256:7ce7b1c080c925c83b7623000a610479c52eba3bc74f69224c746a01dc2cd566
   1.10.0--r42hdfd78af_0: sha256:883ad9c35669f8e3c987d305fc6c25b433f914f79dbe181c58292efafc355cb2
+  1.12.3--r43hdfd78af_0: sha256:d56552d9b5a4806f560d227ab36be1fa49d635ae396da8a56f6e9f756205e46c
 docker: quay.io/biocontainers/bioconductor-anvil

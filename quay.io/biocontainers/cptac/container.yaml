@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cptac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cptac
 latest:
-  1.1.2--pyhdfd78af_0: sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59
+  1.5.4--pyhdfd78af_0: sha256:11ce844a6b5897213b26748773b95a6606c91ad6d5286febf9056b3d571310c0
 tags:
   1.1.2--pyhdfd78af_0: sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59
+  1.5.4--pyhdfd78af_0: sha256:11ce844a6b5897213b26748773b95a6606c91ad6d5286febf9056b3d571310c0
 docker: quay.io/biocontainers/cptac
 aliases:
   runxlrd.py: /usr/local/bin/runxlrd.py

@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/beav
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for beav
 latest:
-  0.0.13--hdfd78af_0: sha256:13f24195c953e96208a191f8fa87277c20e60f3ecfc5b5191c6a97f86757f3af
+  0.5.2--hdfd78af_0: sha256:d29e64f90b37fcf9424508d2f18a91d4eaca9bcf13f9724728c38cf2ee529ce0
 tags:
   0.0.13--hdfd78af_0: sha256:13f24195c953e96208a191f8fa87277c20e60f3ecfc5b5191c6a97f86757f3af
+  0.5.2--hdfd78af_0: sha256:d29e64f90b37fcf9424508d2f18a91d4eaca9bcf13f9724728c38cf2ee529ce0
+  0.4.5--hdfd78af_0: sha256:c7fed74a86f5982067302b000342ea87f2d48e65687e7ac19a71a40b87239f4d
+  0.2--hdfd78af_0: sha256:8bee4f4f42a672e415e960fcc48d9d17d63759d9c53d4590f3938727e0a349e1
+  0.0.14--hdfd78af_0: sha256:29c9beb2d4e0843d7d7642289db4d2265ab235f26c8e5e95e4ba7abebd0c8466
 docker: quay.io/biocontainers/beav
 aliases:
   MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter

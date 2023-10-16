@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-meskit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-meskit
 latest:
-  1.8.0--r42hdfd78af_0: sha256:fd25fa0b7e2a13814bdceb5720a75c5d53e6d13a7e5ef3d57ab16c7b146a4953
+  1.10.0--r43hdfd78af_0: sha256:cc208b945fd2fb0051ef289d38bf76a09e4ed2db86f6d46e5fe614ead0c196b9
 tags:
   1.4.0--r41hdfd78af_0: sha256:dc1b7396bf3730192371553791887734eeec0124109df034fe77c5556c6eea67
   1.8.0--r42hdfd78af_0: sha256:fd25fa0b7e2a13814bdceb5720a75c5d53e6d13a7e5ef3d57ab16c7b146a4953
+  1.10.0--r43hdfd78af_0: sha256:cc208b945fd2fb0051ef289d38bf76a09e4ed2db86f6d46e5fe614ead0c196b9
 docker: quay.io/biocontainers/bioconductor-meskit

@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-desingle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-desingle
 latest:
-  1.18.0--r42hdfd78af_0: sha256:332dcee3670cb02bd585636000d654db45a71228b0d3e6635a267c5e969e78d3
+  1.20.0--r43hdfd78af_0: sha256:725703860ff12a7d728cb4c5b09d66f2ee8f479bd0fb0f0b3106edd339b527ae
 tags:
   1.8.0--r40_0: sha256:c6763767cb564291b5a254bafed09281260bc03c8af78c17a321ea5663a6220f
   1.18.0--r42hdfd78af_0: sha256:332dcee3670cb02bd585636000d654db45a71228b0d3e6635a267c5e969e78d3
   1.14.0--r41hdfd78af_0: sha256:a1e534f86960c06c7985823a8e5c51de035d4059cefd7d08b9cb83d1ce37726c
   1.12.0--r41hdfd78af_0: sha256:61f3095751c7744dcb5fcd61d34ec03ee92156f7f7e2e92e9e35e1d728914c92
   1.10.0--r40hdfd78af_1: sha256:9c3f555b4d719381354c4c45c5238b43d35730fa699a745278bc9aac1eace3a4
+  1.20.0--r43hdfd78af_0: sha256:725703860ff12a7d728cb4c5b09d66f2ee8f479bd0fb0f0b3106edd339b527ae
 docker: quay.io/biocontainers/bioconductor-desingle
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

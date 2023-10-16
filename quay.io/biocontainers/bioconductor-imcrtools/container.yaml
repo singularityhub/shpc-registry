@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-imcrtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-imcrtools
 latest:
-  1.4.0--r42hdfd78af_0: sha256:a9b6767e9f471b10d14a0db77eba0b9086a1502e70bb12f1b9636a990c43b84c
+  1.6.3--r43hdfd78af_0: sha256:c6f4d488d29bc3d3c677e671d912c5f728ca81f063ab9a250104a9f1562b9d7e
 tags:
   1.0.0--r41hdfd78af_0: sha256:90a0402543a4607a704f81433d36488f211ce078b4a8d17d70ceefa4db6c7fb5
   1.4.0--r42hdfd78af_0: sha256:a9b6767e9f471b10d14a0db77eba0b9086a1502e70bb12f1b9636a990c43b84c
+  1.6.3--r43hdfd78af_0: sha256:c6f4d488d29bc3d3c677e671d912c5f728ca81f063ab9a250104a9f1562b9d7e
 docker: quay.io/biocontainers/bioconductor-imcrtools
 aliases:
   testepsg: /usr/local/bin/testepsg

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-metacca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metacca
 latest:
-  1.26.0--r42hdfd78af_0: sha256:cbe7e2a05c1f0bb663a9602630eb0aa5f7fd2a337daa56714cf8f4ae5a60f802
+  1.28.0--r43hdfd78af_0: sha256:1175549748408ed786d12a89e3c630d87d65f11e2b66d6e280955b889dd7600c
 tags:
   1.8.0--r351_0: sha256:6273912a92ad87032f3bfd31f2c524db92abc8480e41fb81e992f46bf337f498
   1.26.0--r42hdfd78af_0: sha256:cbe7e2a05c1f0bb663a9602630eb0aa5f7fd2a337daa56714cf8f4ae5a60f802
@@ -10,4 +10,5 @@ tags:
   1.20.0--r41hdfd78af_0: sha256:c956b1d216d44aa0443c5b463664791a5c1317dbc903c3b8d3415e314147db6e
   1.18.0--r40hdfd78af_1: sha256:eff8e114ebb9e62063d8c37976d62fc0ae17f6f6565c2e2d6269af94135fea32
   1.16.0--r40_0: sha256:51068492e0b2be4de6e4c4011b5af7033a1d50fe491910bc8588398c76a649f0
+  1.28.0--r43hdfd78af_0: sha256:1175549748408ed786d12a89e3c630d87d65f11e2b66d6e280955b889dd7600c
 docker: quay.io/biocontainers/bioconductor-metacca

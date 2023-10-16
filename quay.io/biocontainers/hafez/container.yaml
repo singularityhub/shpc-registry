@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hafez
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hafez
 latest:
-  1.0.3--pyh7cba7a3_0: sha256:85da51b188fd186e2addd5111d94bdc63ecdd62cd2705ceda70a9c7617c926c1
+  1.0.4--pyh7cba7a3_0: sha256:dd481c1e6304855a45e7eb314f8fc678e868dd9978c4c5132f32060a45efe6f4
 tags:
   1.0.2--pyh5e36f6f_0: sha256:e8cd8b4c86e8c1df6d72ba0c3d6394587d5ec87b97b6b1cf3723153333f81049
   1.0.3--pyh7cba7a3_0: sha256:85da51b188fd186e2addd5111d94bdc63ecdd62cd2705ceda70a9c7617c926c1
+  1.0.4--pyh7cba7a3_0: sha256:dd481c1e6304855a45e7eb314f8fc678e868dd9978c4c5132f32060a45efe6f4
 docker: quay.io/biocontainers/hafez
 aliases:
   a3m_database_extract: /usr/local/bin/a3m_database_extract

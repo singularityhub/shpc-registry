@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-trajectoryutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trajectoryutils
 latest:
-  1.6.0--r42hdfd78af_0: sha256:080888683cc123b6fa30cbd4ec25a19daf52a14a486acf7c59be34c513c99f26
+  1.8.0--r43hdfd78af_0: sha256:94a1bfc83633e1f84c387ead3b1a02508e1487eb82c9e449e224be808cb59be3
 tags:
   1.2.0--r41hdfd78af_0: sha256:d99f95c7da52371fea4cd36ab8299142c4b6a6ec289d9a09a33adc1d2d39f9f1
   1.6.0--r42hdfd78af_0: sha256:080888683cc123b6fa30cbd4ec25a19daf52a14a486acf7c59be34c513c99f26
+  1.8.0--r43hdfd78af_0: sha256:94a1bfc83633e1f84c387ead3b1a02508e1487eb82c9e449e224be808cb59be3
 docker: quay.io/biocontainers/bioconductor-trajectoryutils

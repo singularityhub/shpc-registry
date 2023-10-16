@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-sigcheck
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sigcheck
 latest:
-  2.30.0--r42hdfd78af_0: sha256:0fd29cffa5a00420495831c7200fdde0ea6392011dd6606c9d7f45913110794a
+  2.32.0--r43hdfd78af_0: sha256:53eb1ebe221d3ed2ded36209f6bb1ae96544f8949dd90e829be2e8d5a321b9d3
 tags:
   2.26.0--r41hdfd78af_0: sha256:3f87c9c98e5151a4d057496590f447788f269789dacabbc5be866c4d1bde1fba
   2.30.0--r42hdfd78af_0: sha256:0fd29cffa5a00420495831c7200fdde0ea6392011dd6606c9d7f45913110794a
+  2.32.0--r43hdfd78af_0: sha256:53eb1ebe221d3ed2ded36209f6bb1ae96544f8949dd90e829be2e8d5a321b9d3
 docker: quay.io/biocontainers/bioconductor-sigcheck
