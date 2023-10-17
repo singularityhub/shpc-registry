@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/fcsparser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fcsparser
 latest:
-  0.2.7--pyhdfd78af_0: sha256:2a152332f6da38246d9dec6a109d5d5074193e1416a18497ee6e77f2af03ecc1
+  0.2.8--pyhdfd78af_0: sha256:bc34fc8dc74a8ba6065ac7e785ffb6c4de8f648fe0d9af6ece3a9df407b34ce3
 tags:
   0.2.4--pyhfa5458b_0: sha256:b9e29ff0c5012f673b91ab81e54776b590658f9bf3fa694538ff22f9753e0ab9
   0.2.6--pyh086e186_0: sha256:f16e3242a1771cea74adf65401f5847e9b2a9d9f1b8e075dc8606def9a1c1249
   0.2.7--pyhdfd78af_0: sha256:2a152332f6da38246d9dec6a109d5d5074193e1416a18497ee6e77f2af03ecc1
+  0.2.8--pyhdfd78af_0: sha256:bc34fc8dc74a8ba6065ac7e785ffb6c4de8f648fe0d9af6ece3a9df407b34ce3
 docker: quay.io/biocontainers/fcsparser
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9
